@@ -1,0 +1,17 @@
+# Ghostly troll thrower
+
+- **Original Wiki Page**: [Transcript:Ghostly troll thrower](https://runescape.wiki/w/Transcript%3AGhostly%20troll%20thrower)
+- **Letter**: `G`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Occasionally when spawning
+
+- ((Se ve uno de los siguientes:))
+  - **Ghostly troll thrower:** {{RSChat|Aww, me still spooky.}}
+  - **Ghostly troll thrower:** {{RSChat|Dat weird.}}
+  - **Ghostly troll thrower:** {{RSChat|Not sure where I went there.}}

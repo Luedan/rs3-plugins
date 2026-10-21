@@ -1,0 +1,40 @@
+# Assistant Brock
+
+- **Original Wiki Page**: [Transcript:Assistant Brock](https://runescape.wiki/w/Transcript%3AAssistant%20Brock)
+- **Letter**: `A`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+{{TranscriptNPC|Assistant Brock}}
+
+### Talk-to option
+
+- **Assistant Brock:** ¿Quieres usar el globo? Para que lo sepas, algunas ubicaciones requieren logs especiales y altas habilidades de Firemaking.
+- [Menu]: Selecciona una opción
+  - [Choice]: Sí.
+    - (Acción: abre=Sistema de transporte de globos{{!)Choose Destination}}
+  - [Choice]: No.
+    - **Player:** No.
+  - [Choice]: ¿Quién eres?
+    - **Player:** ¿Quién eres?
+    - **Assistant Brock:** Soy Assistant Brock. Trabajo bajo Auguste como su asistente número dos.
+    - **Assistant Brock:** ¿Quieres usar el globo?
+    - [Menu]: Selecciona una opción
+      - [Choice]: Sí.
+        - (Acción: abre=Sistema de transporte de globos{{!)Choose Destination}}
+      - [Choice]: No.
+        - **Player:** No.
+
+### Store logs option
+
+- [Menu]: ¿Darle a Assistant Brock todo tu logs?
+  - [Choice]: Entrega tu logs
+  - (Condition: Si el player tiene logs para entregar:)
+    - **Assistant Brock:** ¡Gracias! Ahora tienes cargos [número].
+  - (Condition: Si el player no tiene logs para entregar:)
+    - **Assistant Brock:** No tienes ningún logs que pueda almacenar. Tienes cargos [número].
+  - [Choice]: Cancelar
+    - (end)

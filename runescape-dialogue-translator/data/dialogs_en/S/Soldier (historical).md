@@ -1,0 +1,102 @@
+# Soldier (historical)
+
+- **Original Wiki Page**: [Transcript:Soldier (historical)](https://runescape.wiki/w/Transcript%3ASoldier%20%28historical%29)
+- **Letter**: `S`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Player:** Hi!
+- {{trandom}}
+  - [Choice]: Dialogue 1
+    - **Soldier:** Mihi ignosce. Cum homine de cane debeo congredi.
+    - (continue)
+  - [Choice]: Dialogue 2
+    - **Soldier:** Errare humanum est.
+    - (continue)
+  - [Choice]: Dialogue 3
+    - **Soldier:** Die dulci freure.
+    - (continue)
+  - [Choice]: Dialogue 4
+    - **Soldier:** Carpe Diem!
+    - (continue)
+  - [Choice]: Dialogue 5
+    - **Soldier:** Te audire non possum. Musa sapientum fixa est in aure.
+    - (continue)
+  - [Choice]: Dialogue 6
+    - **Soldier:** Furnulum pani nolo.
+    - (continue)
+  - [Choice]: Dialogue 7
+    - **Soldier:** Fac ut gaudeam.
+    - (continue)
+  - [Choice]: Dialogue 8
+    - **Soldier:** Utinam barbari spatium proprium tuum invadant!
+    - (continue)
+  - [Choice]: Dialogue 9
+    - **Soldier:** Quantum materiae materietur marmota monax si marmota monax materiam possit materiari?
+    - (continue)
+  - [Choice]: Dialogue 10
+    - **Soldier:** Sona si Latine loqueris.
+    - (continue)
+  - [Choice]: Dialogue 11
+    - **Soldier:** Raptus Regaliter
+    - (continue)
+  - [Choice]: Dialogue 12
+    - **Soldier:** Nemo dat quod non habet.
+    - (continue)
+  - [Choice]: Dialogue 13
+    - **Soldier:** Ne auderis delere orbem rigidum meum!
+    - (continue)
+  - [Choice]: Dialogue 14
+    - **Soldier:** Da mihi sis bubulae frustum assae, solana tuberosa in modo gallico fricta, ac quassum lactatum coagulatum crassum.
+    - (continue)
+  - [Choice]: Dialogue 15
+    - **Soldier:** Cogito ergo sum.
+    - (continue)
+  - [Choice]: Dialogue 16
+    - **Soldier:** Vacca foeda.
+    - (continue)
+  - [Choice]: Dialogue 17
+    - **Soldier:** Di! Ecce hora! Uxor mea me necabit!
+    - (continue)
+  - [Choice]: Dialogue 18
+    - **Soldier:** Latine loqui coactus sum.
+    - (continue)
+  - [Choice]: Dialogue 19
+    - **Soldier:** Cave ne ante ullas catapultas ambules.
+    - (continue)
+  - [Choice]: Dialogue 20
+    - **Soldier:** Fac ut vivas!
+    - (continue)
+  - [Choice]: Dialogue 21
+    - **Soldier:** Noli me vocare, ego te vocabo.
+    - (continue)
+  - [Choice]: Dialogue 22
+    - **Soldier:** Meliora cogito.
+    - (continue)
+  - [Choice]: Dialogue 23
+    - **Soldier:** Braccae tuae aperiuntur.
+    - (continue)
+  - [Choice]: Dialogue 24
+    - **Soldier:** Vescere bracis meis.
+    - (continue)
+  - [Choice]: Dialogue 25
+    - **Soldier:** Corripe cervisiam!
+    - (continue)
+- {{trandom}}
+  - [Choice]: Dialogue 1
+    - **Player:** What?!
+  - [Choice]: Dialogue 2
+    - **Player:** Huh?!
+  - [Choice]: Dialogue 3
+    - **Player:** Er...
+  - [Choice]: Dialogue 4
+    - **Player:** OK...
+  - [Choice]: Dialogue 5
+    - **Player:** Are you insulting me in Latin?
+    - **Soldier:** Yes!
+    - **Player:** Hmm...

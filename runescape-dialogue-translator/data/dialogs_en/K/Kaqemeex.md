@@ -1,0 +1,166 @@
+# Kaqemeex
+
+- **Original Wiki Page**: [Transcript:Kaqemeex](https://runescape.wiki/w/Transcript%3AKaqemeex)
+- **Letter**: `K`
+
+---
+
+## Dialogue Transcript
+
+
+### Before Druidic Ritual
+
+- [Menu]: Choose an option:
+  - [Choice]: Talk about Druidic Ritual.
+    - (see|Druidic Ritual)
+  - [Choice]: Can you tell me what I need to do to earn a skillcape of Herblore?
+    - **Player:** Can you tell me what I need to do to earn a skillcape of Herblore?
+    - **Kaqemeex:** Sure, to earn the right to wear any skillcape you need to have mastered the skill to the highest level possible and it is no different for Herblore. When you have achieved a level of 99, come back and talk to me again.
+
+### After Druidic Ritual
+
+- [Menu]: Choose an option:
+  - [Choice]: Talk about general things.
+    - **Kaqemeex:** Welcome back to our circle.
+    - **Kaqemeex:** Tell me, how are you progressing with your Herblore?
+    - [Menu]: Choose an option:
+      - [Choice]: Very well, thank you.
+        - **Kaqemeex:** That is good to hear.
+        - [Menu]: Choose an option: {{anchor|herb-questions}}
+          - [Choice]: So, do you think the ritual has had any effect?{{anchor|ritual}}
+            - **Kaqemeex:** I feel it has. The hand of Guthix is upon the land now, and in time he will turn the tide to favour us again.
+            - **Player:** How long do you think that will take?
+            - **Kaqemeex:** These things will happen at the allotted pace. A year seems as but a moment to Guthix.
+            - **Player:** A year? You mean I went running around to gather all those items when it could be a year until anything happens?
+            - **Kaqemeex:** I am unsure what you expected. Did you think we would perform the ritual and Guthix would leap out of the sky and beat the trolls personally?
+            - **Player:** Well...
+            - **Kaqemeex:** I find your grasp of theology to be a little tenuous. I suggest you study the mysteries of the gods and seek wisdom through meditation.
+            - (other)
+          - [Choice]: Can you explain the fundamentals of Herblore?
+            - (continue|herblore)
+          - [Choice]: Can you tell me what I need to do to earn a skillcape of Herblore?
+            - (continue|herb-cape)
+      - [Choice]: I need more practice at it...
+        - **Kaqemeex:** Persistence is key to success.
+        - (continuea|herb-questions)
+      - [Choice]: Can you explain the fundamentals of Herblore?{{anchor|herblore}}
+        - **Kaqemeex:** Indeed I will... I will now explain the fundamentals of Herblore:
+        - **Kaqemeex:** Herblore is the skill of working with herbs and other ingredients to make useful potions and poison.
+        - **Kaqemeex:** First you will need a vial, which can be made with the Crafting skill, found or bought.
+        - **Kaqemeex:** Next, you must gather the herbs needed to make the potion you want.
+        - **Kaqemeex:** Refer to the Herblore skill guide for the items needed to make a particular kind of potion.
+        - **Kaqemeex:** You must fill your vial with water and add the ingredients you need. There are normally two ingredients for each type of potion.
+        - **Kaqemeex:** Bear in mind that you must first clean each herb before you can use it.
+        - **Kaqemeex:** You may also have to grind some herbs before you can use them - you will need a pestle and mortar to do this.
+        - **Kaqemeex:** Herbs can be found on the ground and are also dropped by some monsters when you kill them.
+        - **Kaqemeex:** Let's use Attack potion as an example: The first ingredient is guam leaf; the second is eye of newt.
+        - **Kaqemeex:** Mix these two ingredients in your water-filled vial and you will produce an Attack potion.
+        - **Kaqemeex:** Drink this potion to temporarily increase your Attack level.
+        - **Kaqemeex:** Different potions also require different Herblore levels before you can make them.
+        - **Kaqemeex:** Once again, check the instructions found in the Herblore skill guide for the levels needed to make a particular potion.
+        - **Kaqemeex:** Good luck with your Herblore; good day, adventurer.
+        - **Player:** Thanks for your help.
+        - [Menu]: Select an Option
+          - [Choice]: Can you explain the fundamentals of Herblore?
+            - (continuea|herblore)
+          - [Choice]: Can you tell me what I need to do to earn a skillcape of Herblore?
+            - (continue|herb-cape)
+      - [Choice]: Can you tell me what I need to do to earn a skillcape of Herblore?
+        - (continue|herb-cape)
+  - {{anchor|herb-cape}} [Choice]: cond=If the player has less than 99 Herblore|Can you tell me what I need to do to earn a skillcape of Herblore?
+    - (above)
+  - [Choice]: cond=If the player has 99 Herblore|I believe you can sell me a skillcape of Herblore?
+    - (Condition: If the player has a ring of charos (a) equipped:)
+      - **Kaqemeex:** I don't do this for anyone, but I've got a special offer today! Normally I require 99,000 coins for this prestigious item, but for you it's half price. Only 92,000 coins!
+      - [Menu]: Choose an option:
+        - [Choice]: 92,000 coins? That's much too expensive.
+          - **Player:** I know where to find you if I change my mind.
+        - [Choice]: I think I have the money right here, actually.
+          - (Condition: If the player has no backpack space:)
+            - **Kaqemeex:** Unfortunately all skillcapes are only available with a free hood, it's part of a skill promotion deal; buy one get one free, you know. So, you'll need to free up some backpack space before I can sell you one.
+          - (Condition: If the player does not have enough money:)
+            - **Player:** But unfortunately, I was mistaken.
+            - **Kaqemeex:** Well, come back and see me when you do.
+          - (Condition: If the player has enough money:)
+            - (receives=Herblore cape and Herblore hood) (removes=92,000 coins)
+            - **Kaqemeex:** Excellent! Wear that cape with pride my friend.
+        - [Choice]: cond=If the player has 120 Herblore|I've mastered this skill. Is there anything else?
+          - **Kaqemeex:** There is something...though I have kept it a secret for a very long time. It is something that can only be worn by a true master.
+          - **Kaqemeex:** Not even I can wear it - that's how hard it is to achieve.
+          - **Kaqemeex:** You say you're a master. Stand straight, let me take a look at you.
+          - **Kaqemeex:** You...really have mastered it. What an honour! It would be my pleasure to sell you a Herblore master cape.
+          - [Menu]: Buy Herblore master cape for 120,000 coins?
+            - [Choice]: Yes.
+              - (Condition: If the player has no backpack space:)
+                - **Kaqemeex:** You do not have enough room in your backpack. Please come back when you have some more.
+              - (Condition: If the player does not have enough money:)
+                - You do not have enough money to purchase this cape.
+              - (Condition: If the player has enough money:)
+                - (receives=Herblore master cape) (removes=120,000 coins)
+                - {{qact|Master cape music plays.}}
+            - [Choice]: No.
+              - (end)
+    - (Condition: If the player does not have a ring of charos (a) equipped:)
+      - **Kaqemeex:** Most certainly; it has been a pleasure to watch you grow as a herbalist. I am privileged to have been instrumental in your learning, but I must ask for a donation of 99,000 coins to cover the expense of the cape.
+      - (Condition: With an inverted skillcape token or an inverted master skillcape token for Herblore:)
+        - **Kaqemeex:** I see you have one of Hans' cape inversion tokens! I'll take that off your hands, and will sell you any inverted cape you're eligible for.
+        - (removes=any inverted skillcape token and inverted master skillcape token)
+        - (continue)
+      - [Menu]: Choose an option:
+        - [Choice]: 99,000 coins? That's much too expensive.
+          - **Player:** I know where to find you if I change my mind.
+        - [Choice]: I think I have the money right here, actually.
+          - (Condition: If the player has no backpack space:)
+            - (above)
+          - (Condition: If the player does not have enough money:)
+            - (above)
+          - (Condition: If the player has enough money:)
+            - (receives=Herblore cape and Herblore hood) (removes=99,000 coins)
+            - **Kaqemeex:** Excellent! Wear that cape with pride my friend.
+        - [Choice]: cond=With inverted Herblore cape unlocked:|I'd like a skillcape with the colours inverted.
+          - (Condition: Without free backpack space:)
+            - **Kaqemeex:** Unfortunately you'll need to free up some backpack space before I can sell you one.
+          - (Condition: With free backpack space:)
+            - {{Transcript missing}}
+        - [Choice]: cond=If the player has 120 Herblore|I've mastered this skill. Is there anything else?
+          - (above)
+        - [Choice]: cond=With inverted Herblore master cape unlocked:|I'd like a master cape with the colours inverted.
+          - **Kaqemeex:** There is something...though I have kept it a secret for a very long time. It is something that can only be worn by a true master.
+          - **Kaqemeex:** Not even I can wear it - that's how hard it is to achieve.
+          - **Kaqemeex:** You say you're a master. Stand straight, let me take a look at you...
+          - **Kaqemeex:** You...really have mastered it. What an honour! It would be my pleasure to sell you a Herblore master cape.
+          - [Menu]: Buy Herblore master cape for 120,000 coins?
+            - [Choice]: Yes.
+              - (Condition: Without free backpack space:)
+                - **Kaqemeex:** You do not have enough room in your backpack. Please come back when you have some more.
+              - (Condition: With free backpack space:)
+                - {{Transcript missing}}
+            - [Choice]: No.
+              - (end)
+  - [Choice]: cond=If the player has 99 Herblore|I've noticed there are a couple of versions of each skillcape.
+    - **Kaqemeex:** Yes! We, the skill masters, have crafted new versions of all skillcapes! We felt like it was time for a change.
+    - (Condition: If you use the old model:)
+      - **Kaqemeex:** It looks like you're currently using the old model for your Herblore skillcape. Would you like to change to the newer one?
+      - (continue)
+    - (Condition: If you use the new model:)
+      - **Kaqemeex:** You can still choose to wear the old model skillcape if you want. Would you like to change which model you are currently using?
+      - (continue)
+    - [Menu]: Select an Option
+      - [Choice]: Yes, I would like to wear the [new/old] version of the skillcape.
+        - **Kaqemeex:** Would you like to wear the [old/newer] model for just this cape, or for the Quest Cape and all of the skillcapes you own?
+        - [Menu]: Select an Option
+          - [Choice]: I would just like to change the Herblore skillcape.
+            - **Kaqemeex:** No problem, you will now use the [older/newer] model for your Herblore skillcape.
+          - [Choice]: I would like to change all my skillcapes.
+            - **Kaqemeex:** No problem, you will now use the [older/newer] model for all of your skillcapes!
+          - [Choice]: I've changed my mind!
+            - (end)
+      - [Choice]: No, thank you.
+        - **Kaqemeex:** Great! I'm glad you're still enjoying the [old/new] version!
+        - (Condition: If the player uses the new model for any other skillcape:)
+          - **Kaqemeex:** If you want, I can make it so you use the old model for all of the skillcapes you own.
+          - [Menu]: Select an Option
+            - [Choice]: Ok, I'd like to wear the old version for all my skillcapes.
+              - **Kaqemeex:** Great, you will now use the old model for all of your skillcapes!
+            - [Choice]: No, thanks.
+              - (end)

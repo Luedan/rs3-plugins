@@ -1,0 +1,72 @@
+# Mysterious Old Man
+
+- **Original Wiki Page**: [Transcript:Mysterious Old Man](https://runescape.wiki/w/Transcript%3AMysterious%20Old%20Man)
+- **Letter**: `M`
+
+---
+
+## Dialogue Transcript
+
+- **Mysterious Old Man:** You'll do, [Player Name]!
+- **Player:** Me?  I didn't do anything... Erm, I mean, I'll do for what?
+- **Mysterious Old Man:** Don't worry! I'm not going to abduct you or anything...honest!
+- **Mysterious Old Man:** Nor will any of my other random friends!
+- Select an option
+  - Tell me about yourself.
+    - **Mysterious Old Man:** I'm the Mysterious Old Man! I'm mysterious - wooo!
+    - **Mysterious Old Man:** My parents named me Mysterious Baby Boy, but I never felt it suited me, so I had it changed when I became an adult.
+    - **Mysterious Old Man:** I was adopted, see; they found me abandoned on the steps of this very house
+    - **Player:** Oh, so you've moved back into your parents' old home?
+    - **Mysterious Old Man:** What?  No, they never lived here.
+    - **Player:** But you just said-
+    - **Mysterious Old Man:** No, we used to live in that big house opposite the bank.
+    - **Mysterious Old Man:** But now it's owned by some young whippersnapper called the 'Wise Old Man' so I can't enjoy my retirement in full.
+    - **Player:** What did you used to do?
+    - **Mysterious Old Man:** Oh, it was great!  I got to travel all around the world abducting people, forcing them to play my games.
+    - **Player:** Abducting people? I'm not sure I know how to talk to you...
+  - Ask about his 'random' friends.
+    - **Mysterious Old Man:** You know, if you've been around for a while, you've probably met a lot of them yourself.
+    - **Mysterious Old Man:** But if you're a young whippersnapper like that youngster in my old family home, I guess it won't hurt to mention a few of them.
+    - **Mysterious Old Man:** Let's see, now. Who was there?
+    - **Mysterious Old Man:** First up, there was a beekeeper who needed help building his hives. I hear he's got an apiary over near Catherby now.
+    - **Mysterious Old Man:** Oh, and the noters! Three brothers: Miles, Giles and Niles. I bet they hang out at the Grand Exchange
+    - **Mysterious Old Man:** There was Sergeant Damien. He was a drill instructor in some demon army; how he has a job at the circus.
+    - **Mysterious Old Man:** Next was the Freaky Forester. He tends McGrubor's Wood now.  He's a weird one, though - has a 'thing' about pheasants.
+    - **Mysterious Old Man:** Ah, and the frog royals: the prince and princess of the Land of Frogs. They just got married!
+    - **Mysterious Old Man:** The mime has found work in Falador's Party Room. He's not very talkative, but he's a friendly chap.
+    - **Mysterious Old Man:** Old Captain Arnav has retired from his pirating days and bought himself a house in Brimhaven.
+    - **Mysterious Old Man:** The Sandwich Lady had a run-in with the law. Last I heard, she'd set up a stall in Ardougne Market.
+    - **Mysterious Old Man:** Oh, and Leo the gravedigger's also in Ardougne these days - he got a new job at the church there.
+    - **Mysterious Old Man:** Then there's Mr. Mordaut. He has a new job in Varrock Museum. Professor of Unnatural History - very impressive.
+    - **Mysterious Old Man:** The twins - Molly and Moira - are sharing a home in Varrock's slum area.
+    - **Mysterious Old Man:** The pillory guards are now guarding all the pillories - all day, every day.
+    - **Mysterious Old Man:** Poor old Prison Pete had a bit of an episode. He's requested a 'room' in Port Sarim jail.
+    - **Mysterious Old Man:** Phew!  There used to be some even older ones, but my mind's not what it used to be.
+    - **Player:** Why, what DID it used to be?
+    - **Mysterious Old Man:** ...
+    - **Player:** Never mind, forget I asked.
+  - What's in the trapdoor?
+    - **Mysterious Old Man:** No!  Don't even think about going in there. That's off-limits!
+    - **Player:** Whoa, okay.  No need to bite my head off. What's in there, anyway?
+    - **Mysterious Old Man:** None of your business.
+  - Why mention abductions?
+    - **Mysterious Old Man:** Oh, sorry - you may not know that about me. It's something I used to do in my old job - there were a few of us.
+    - **Player:** You abducted people?
+    - **Mysterious Old Man:** You don't have to say it like that! It wasn't sinister' we provided a valuable service!
+    - **Mysterious Old Man:** We'd give people a little break from whatever it is they were doing, and keep them attentive and active.
+    - **Mysterious Old Man:** Plus, we'd hand out prizes for those who completed our games.
+    - **Mysterious Old Man:** Well, there was one of us who was a bit sinister. He was evil and lazy, and would toy with his victims like a cat with a ball of wool.
+    - **Mysterious Old Man:** I hear you can still summon him, if you say three letters in a sequence.
+    - **Player:** Sounds like an urban myth to me. What letters?
+    - **Mysterious Old Man:** C...
+    - **Mysterious Old Man:** I...
+    - **Mysterious Old Man:** ...
+    - **Player:** And?  What's the last letter?
+    - **Mysterious Old Man:** ...
+    - **Player:** Say it!
+    - **Mysterious Old Man:** S!
+    - **Evil Bob:** Meow!
+    - **Mysterious Old Man:** No...what?  Nooooo!
+    - **Player:** Well, you don't see that every day!
+  - I really must be going.
+    - **Mysterious Old Man:** Don't be a stranger! You'll come back and see me again soon, right? Right?

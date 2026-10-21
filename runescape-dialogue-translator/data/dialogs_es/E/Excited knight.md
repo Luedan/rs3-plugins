@@ -1,0 +1,85 @@
+# Excited knight
+
+- **Original Wiki Page**: [Transcript:Excited knight](https://runescape.wiki/w/Transcript%3AExcited%20knight)
+- **Letter**: `E`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+- **Caballero:** ¡Hola! {{Audio button|Excited knight - Hello there!.ogg}}
+- **Player:** Pareces muy feliz. ¿Qué ha pasado?
+- **Caballero:** ¡Saradomin ha regresado! ¡Pronto regresaré a la batalla para luchar por su gloria contra el mal! {{Audio button|Excited knight - Saradomin has returned! Soon I shall return to the battle to fight for his glory against evil!.ogg}}
+  - ¿Cómo sucedió eso?{{anchor|start}}
+    - **Caballero:** ¿Viste el portal que apareció en Lumbridge? {{Audio button|Excited knight - Did you see the portal that appeared in Lumbridge?.ogg}}
+    - **Caballero:** ¡No hace mucho que finalmente se abrió y a través de él el malvado Zamorak entró al mundo! {{Audio button|Excited knight - Not long ago it finally opened, and through it the evil Zamorak entered the world!.ogg}}
+    - **Caballero:** Es bueno que Saradomin estuviera aquí para salvarnos. {{Audio button|Excited knight - It's a good thing Saradomin was here to save us.ogg}}
+    - **Caballero:** Inmediatamente, se vieron envueltos en una batalla que a nosotros, simples mortales, nos costaría entender. {{Audio button|Excited knight - Immediately, they were locked in battle that we mere mortals would struggle to understand.ogg}}
+    - **Caballero:** Pronto, el general Icyene de Saradomin llegó y nos pidió que todos ayudáramos a Saradomin en la batalla contra Zamorak. {{Audio button|Excited knight - Soon, Saradomin's Icyene general came through, and requested that we all aid Saradomin in battle against Zamorak.ogg}}
+    - **Caballero:** ¡Como Caballero Blanco, debo unirme a la batalla y ayudar a mi señor! {{Audio button|Excited knight - As a White Knight, I must join the battle and aid my lord!.ogg}}
+      - ¿Qué batalla es esta?
+        - (below|battle)
+      - ¿Qué necesita Saradomin?{{anchor|saradomin}}
+        - **Caballero:** Saradomin ha pedido ayuda a todos. ¡Y no todo es pelear! {{Audio button|Excited knight - Saradomin has called upon everyone to help. And it's not all fighting!.ogg}}
+        - **Caballero:** Para reunir poder para derrotar a Zamorak, necesita personas para recolectar Lágrimas Divinas, tanto dentro como fuera del campo de batalla. {{Audio button|Excited knight - In order to gather power to defeat Zamorak, he needs people to gather Divine Tears, both on and off the battlefield.ogg}}
+        - **Caballero:** ¡Tú también deberías unirte! Puedes encontrar al reclutador en el campamento al norte del campo de batalla. {{Audio button|Excited knight - You should join up too! You can find the recruiter in the camp to the north of the battlefield.ogg}}
+        - **Caballero:** Me iré pronto. Aunque trabajo sólo para la gloria de Saradomin, sé que habrá grandes recompensas para quienes ayuden. {{Audio button|Excited knight - I am going soon. Although I work only for the glory of Saradomin, I know there will be great rewards for those who help.ogg}}
+          - ¿Cómo empezó eso?
+            - (above|start)
+          - ¿Qué pasa con Zamorak?
+            - (below|zamorak)
+          - Ah, ya veo.
+            - (below|oh)
+      - ¿Qué pasa con Zamorak?{{anchor|zamorak}}
+        - **Caballero:** El malvado Zamorak lucha contra nuestro señor en el campo de batalla. {{Audio button|Excited knight - Evil Zamorak fights against our lord on the battlefield.ogg}}
+        - **Caballero:** Sus secuaces son numerosos y buscan el poder que por derecho pertenece a Saradomin. {{Audio button|Excited knight - His minions are numerous, and they are seeking the power that rightfully belongs to Saradomin.ogg}}
+        - **Caballero:** ¡No puedo creerlo, pero también hay gente que se une a Zamorak! {{Audio button|Excited knight - I can hardly believe this, but there are people joining Zamorak too!.ogg}}
+        - **Caballero:** ¡Están reclutando luchadores y trabajadores calificados, y algunos de hecho se están uniendo a sus malvados secuaces! {{Audio button|Excited knight - They are recruiting both fighters and skilled workers, and some are actually joining with his evil minions!.ogg}}
+        - **Caballero:** Me mantendría alejado del campamento al sur del campo de batalla; ahí es donde se encuentran los malvados. {{Audio button|Excited knight - I would keep away from the camp to the south of the battlefield - that's where the evil ones are found.ogg}}
+          - ¿Cómo empezó eso?
+            - (above|start)
+          - ¿Dónde está este campo de batalla?
+            - (below|where)
+          - ¿Qué necesita Saradomin?
+            - (above|saradomin)
+          - ¿Entonces podría unirme a Zamorak?{{anchor|join-zamorak}}
+            - **Caballero:** Podrías, pero no puedo creer que te unieras a Zamorak. {{Audio button|Excited knight - You could, but I cannot believe that you would join with Zamorak.ogg}}
+            - **Caballero:** Puede que te prometa recompensas, pero ¿a qué precio? ¿Y puedes confiar en él? {{Audio button|Excited knight - He may promise you rewards, but at what cost? And can you trust him?.ogg}}
+            - **Caballero:** No. Me mantendría alejado del campamento al sur del campo de batalla. {{Audio button|Excited knight - No. I would keep away from the camp to the south of the battlefield.ogg}}
+              - ¿Cómo empezó la batalla?
+                - (above|start)
+              - ¿Qué necesita Saradomin?
+                - (above|saradomin)
+              - Ah, ya veo.
+                - (below|oh)
+          - Ah, ya veo.
+            - (below|oh)
+      - Ah, ya veo.
+        - (below|oh)
+  - ¿Qué batalla es esta?
+    - **Caballero:** ¡La Batalla de Lumbridge es una lucha titánica entre dos dioses! {{Audio button|Excited knight - The Battle of Lumbridge is a titanic struggle between two gods!.ogg}}
+    - **Caballero:** ¡El gran Saradomin y sus seguidores están luchando contra el malvado Zamorak y sus demonios! {{Audio button|Excited knight - The great Saradomin and his followers are fighting the evil Zamorak and his demons!.ogg}}
+    - **Caballero:** Iré allí tan pronto como pueda. ¡Como Caballero Blanco, es mi deber! {{Audio button|Excited knight - I'm going there as soon as I can. As a White Knight, it is my duty!.ogg}}
+      - ¿Cómo sucedió eso?
+        - (above|start)
+      - ¿Dónde está el campo de batalla?{{anchor|where}}
+        - **Caballero:** El campo de batalla está entre Lumbridge y Draynor, inmediatamente al oeste del Castillo Lumbridge. {{Audio button|Excited knight - The battlefield is between Lumbridge and Draynor, immediately to the west of Lumbridge Castle.ogg}}
+        - **Caballero:** Encontrarás al reclutador al norte del campo de batalla. ¡Habla con el reclutador allí para unirte a nosotros! {{Audio button|Excited knight - You'll find the recruiter to the north of the battlefield. Talk to the recruiter there to join with us!.ogg}}
+        - **Caballero:** Pero mantente alejado del campamento del sur. Allí están reclutando personas para unirse a Zamorak. {{Audio button|Excited knight - But keep away from the camp to the south. There they are recruiting people to join Zamorak.ogg}}
+        - ¿Cómo empezó la batalla?
+          - (above|start)
+        - ¿Qué necesita Saradomin?
+          - (above|saradomin)
+        - ¿Entonces podría unirme a Zamorak?
+          - (above|join-zamorak)
+        - Ah, ya veo.
+          - (below|oh)
+      - ¿Qué necesita Saradomin?
+        - (above|saradomin)
+      - ¿Qué pasa con Zamorak?
+        - (above|zamorak)
+      - Ah, ya veo.
+        - (below|oh)
+  - Oh, ya veo.{{anchor|oh}}
+    - **Caballero:** ¡Que Saradomin esté contigo! {{Audio button|Excited knight - May Saradomin be with you!.ogg}}

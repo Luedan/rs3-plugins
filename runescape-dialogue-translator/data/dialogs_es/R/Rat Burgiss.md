@@ -1,0 +1,114 @@
+# Rat Burgiss
+
+- **Original Wiki Page**: [Transcript:Rat Burgiss](https://runescape.wiki/w/Transcript%3ARat%20Burgiss)
+- **Letter**: `R`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Southeast of Varrock
+
+- [Menu]: Selecciona una opción
+  - [Choice]: Acerca del sistema de tareas...
+    - ((Si el player ha completado los logros fáciles de Varrock y no se han reclamado las recompensas:))
+      - **Player:** Creo que terminé todas las tareas fáciles del conjunto Varrock.
+      - **Rat Burgiss:** ¿Tienes? ¡Excelente! Bien hecho.
+      - **Player:** Gracias. Uh... ¿puedo tener la recompensa?
+      - **Rat Burgiss:** ¿Recompensa? ¡Ah, sí! Por supuesto. Tu recompensa: está aquí mismo.
+      - (receives=Varrock armour 1 and Antique lamp (Easy Varrock Tasks))
+      - **Rat Burgiss:** Ahora, esta armadura corporal está mejorada mágicamente para ayudarte con tu Smithing y Mining. Hay un horno, no lejos de aquí, en Edgeville. Utilice esta armadura allí y, al fundir minerales hasta acero inclusive, tendrá una
+      - **Rat Burgiss:** posibilidad de hacer una barra extra cada vez. Además, cuando extraigas con esta armadura, tendrás la posibilidad de obtener Mining minerales adicionales, desde rocas hasta carbón incluido.
+      - **Rat Burgiss:** Ah, y también hará que sea más probable que obtengas partes del espectro de la Fortaleza de Seguridad. Y, cuando lo montes, en lugar de 5 cargas por día obtendrás 10. Ten en cuenta que necesitarás llevar puesta la armadura para que cualquiera de ellas funcione.
+      - **Rat Burgiss:** También puedo cambiar tu hechizo de Teletransporte Varrock para que te lleve al Grand Exchange, si lo encuentras más conveniente.
+      - **Rat Burgiss:** Como recompensa adicional, también puedes tener esta antigua lámpara mágica para ayudarte con tus habilidades. Lo iba a usar yo mismo pero realmente no lo necesito.
+      - **Player:** ¡Vaya, gracias!
+      - **Rat Burgiss:** Si pierdes la armadura, vuelve a verme para otro juego.
+      - (continue)
+    - (Condition: Si el player ha perdido su armadura Varrock 1:)
+      - **Rat Burgiss:**¡Ah, hola! ¿Cómo te va con la armadura?
+      - **Player:**Lo perdí.
+      - **Rat Burgiss:**No hay problema. Tengo otro aquí que puedes tener.
+      - (receives=Varrock armour 1)
+      - (continue)
+    - [Menu]: Elige una opción:
+      - [Choice]: Háblame del Sistema de Logros.
+        - **Rat Burgiss:** Muy bien: el Sistema de Logros es una colección de hazañas que quizás desees completar mientras viajas por el mundo.
+        - **Rat Burgiss:**Puedes ganar recompensas especiales por completar ciertos logros; como mínimo, cada uno vale una recompensa en efectivo de Explorer Jack en Lumbridge.
+        - **Rat Burgiss:** Algunos también ofrecen elementos que ayudarán a completar otros logros y muchos cuentan como progreso hacia el conjunto del área en la que se encuentran.
+        - [Menu]: Elige una opción:
+          - [Choice]: Cuéntame sobre la recompensa establecida para esta localidad.
+            - **Player:** Cuéntame sobre la recompensa establecida para esta área.
+            - **Rat Burgiss:** Para completar el conjunto Varrock, se te presenta una armadura corporal.
+            - **Rat Burgiss:** Esta armadura será cada vez más útil con cada nivel de dificultad del conjunto que completes.
+            - **Rat Burgiss:** Cuando se le presenten sus recompensas, se le informará sobre sus usos.
+            - También puedes ver qué recompensas proporciona un elemento determinado al pasar el cursor sobre el ícono de Recompensas de su Logro de exploración establecido en la interfaz de Logros.
+            - (previous2)
+          - [Choice]: ¿Cómo reclamo estas recompensas?
+            - **Player:** ¿Cómo reclamo las recompensas?
+            - **Rat Burgiss:** Debes completar todas las tareas del conjunto de una dificultad particular y luego podrás reclamar tu recompensa.
+            - **Rat Burgiss:** La mayoría de las tareas del conjunto Varrock son sencillas, aunque es posible que algunas requieran que se inicien, si no se terminan.
+            - **Rat Burgiss:** Para reclamar la recompensa del conjunto Varrock, hable con Reldo en la biblioteca Varrock, con Vannaka en Edgeville o conmigo.
+            - (previous2)
+          - [Choice]: Lo siento, me estaba yendo.
+            - (end)
+      - [Choice]: ¿Puedo comprar un repuesto de la recompensa?
+        - [Menu]: Elige una opción:
+          - [Choice]: Armadura Varrock 1
+            - **Rat Burgiss:** ¿Armadura Varrock 1? Sí, pero me temo que te costaría 1.500 coins.
+            - [Menu]: ¿Comprar otro por 1.500 coins?
+              - [Choice]: si
+                - [Te entregan otra armadura Varrock 1.]
+                - (receives=Varrock armour 1) (removes= 1,500 coins)
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Varrock armadura 2
+            - **Rat Burgiss:** ¿Armadura Varrock 2? Sí, pero me temo que te costaría 2500 coins.
+            - [Menu]: ¿Comprar otro por 2500 coins?
+              - [Choice]: si
+                - [Te entregan otra armadura Varrock 2.]
+                - (receives=Varrock armour 2) (removes= 2,500 coins)
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Varrock armadura 3
+            - **Rat Burgiss:** ¿Armadura Varrock 3? Sí, pero me temo que te costaría 7.500 coins.
+            - [Menu]: ¿Comprar otro por 7.500 coins?
+              - [Choice]: si
+                - [Te entregan otra armadura Varrock 3.]
+                - (receives=Varrock armour 3) (removes= 7,500 coins)
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Varrock armadura 4
+            - **Rat Burgiss:** ¿Armadura Varrock 4? Sí, pero me temo que te costaría 15.000 coins.
+            - [Menu]: ¿Comprar otro por 15.000 coins?
+              - [Choice]: si
+                - [Te entregan otra armadura Varrock 4.]
+                - (receives=Varrock armour 4) (removes= 15,000 coins)
+              - [Choice]: No
+                - **Player:** No, gracias.
+      - [Choice]: cond=If at least the easy Varrock tasks have been completed and the rewards claimed|Me gustaría cambiar mi punto de teletransporte.
+        - **Player:** Me gustaría cambiar mi punto de teletransporte Varrock.
+        - **Player:** ¿Puedo cambiar mi punto de teletransporte Varrock?
+        - **Rat Burgiss:** Por supuesto. Actualmente está configurado en [the fountain in the middle of Varrock/Grand Exchange/the altar in the north of Varrock]. ¿Dónde preferirías?
+        - [Menu]: Elige una opción:
+          - [Choice]: Fuente en medio de Varrock.
+            - **Rat Burgiss:** Bien, eso está todo hecho.
+            - Tu teletransporte Varrock ahora te teletransportará al centro de Varrock.
+          - [Choice]: Grand Exchange.
+            - **Rat Burgiss:** Bien, eso está todo hecho.
+            - Su teletransporte Varrock ahora lo teletransportará al Grand Exchange.
+          - [Choice]: Altar en el norte.
+            - **Rat Burgiss:** Bien, eso está todo hecho.
+            - Tu teletransporte Varrock ahora te teletransportará al altar en el norte de Varrock.
+      - [Choice]: Lo siento, me estaba yendo.
+        - (end)
+  - [Choice]: ¡Hola!
+    - (Condition: Sin 35 Runecrafting:)
+      - **Player:** ¡Hola!
+      - **Rat Burgiss:** Oh, hola. Me encantaría charlar ahora mismo, pero estoy un poco ocupado. ¿Quizás podrías volver y charlar en otro momento?
+      - **Player:** Por supuesto. ¡Lamento molestarlo!
+      - **Rat Burgiss:** ¡Para nada! ¡Despedida!
+    - (Condition: Con 35 Runecrafting:)
+      - (ver|Lo que hay debajo)

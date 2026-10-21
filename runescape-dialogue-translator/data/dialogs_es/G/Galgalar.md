@@ -1,0 +1,93 @@
+# Galgalar
+
+- **Original Wiki Page**: [Transcript:Galgalar](https://runescape.wiki/w/Transcript%3AGalgalar)
+- **Letter**: `G`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Talk to
+
+- ((Sólo antes de haber preguntado sobre la Segregación:))
+  - El ilujanka murmura para sí mismo mientras inspecciona la incubadora.
+  - **Galgalar:** Huevo excelente, huevo excelente... <br> La incubadora de huevos supera mis expectativas sobre los huevos...
+  - (continue)
+- **Galgalar:** ¡Ah, hola amigo! Estaba minando con entusiasmo mi incubadora de huevos, pero eso no es una excusa para ser grosero.
+- Elige una opción:
+  - ¿Quién eres?
+    - **Galgalar:** Soy Galgalar: huevos tiernos salados e incubadora de huevos extraordinarios.
+    - **Galgalar:** Mi conocido de los huevos Salusan y yo estamos aquí después de nuestra desafortunada expulsión de los huevos de Iaia. Buscamos ocupar nuestro lugar en su mundo.
+    - **Galgalar:** Tiene ideas extravagantes sobre jinetes de dragones que se convierten en jinetes de dinosaurios.
+    - **Galgalar:** Simplemente deseo ampliar mi experiencia como incubadora de huevos excelente. Salusan es más bien un experto en armas.
+    - **Galgalar:** Potterington apoya nuestra coeggsistencia. Supongo que dirigir una operación tan grande la agota.
+    - (previous|Galgalar-options)
+  - ¿Por qué hablas así?
+    - **Galgalar:** ¿Hablando así? <br> ¿Podrías ser más directo?
+    - **Player:** Sigues haciendo juegos de palabras con huevos. ¿O escucho un acento regional ilujankan?
+    - **Galgalar:** ¿Esencia de huevo?<br>No tengo esencia de huevo.
+    - **Galgalar:** La deggsteridad y flexibilidad de mis cuerdas vocales es una de mis características más vegetantes.
+    - **Galgalar:** Sin embargo, los mayores me dijeron que así era como sabían que yo tendría huevos durante la incubación.
+    - **Player:** No estoy seguro de si eso tiene más o menos sentido...
+    - (previous|Galgalar-options)
+  - [Hablar sobre ayudar con la segregación]
+    - ((Con menos de 87 Firemaking:))
+      - **Galgalar:** No parece que puedas soportar el calor extremo de mi incubadora.
+      - **Player:** Sudo porque me importa.
+      - ((Se muestra en una ventana emergente:))
+        - Necesita 87 Firemaking para participar en la segregación.
+        - (continue)
+      - **Galgalar:** Puede que te resulte menos complicado ayudar a Ben, en la playa justo al sur de aquí. Hace tiempo que no lo veo. Probablemente se exageró. Ben es un pequeño amigo apto para huevos.
+      - (previous|Galgalar-options)
+    - ((Con al menos 87 Firemaking:))
+      - ((Sólo la primera vez:))
+        - **Galgalar:** Potterington quiere incubar sólo huevos excepcionales y producir los mejores huevoscretores.
+        - **Galgalar:** Se suponía que Ben extraería los huevos podridos y los depositaría en un contenedor de abono. Incluso tenía una carretilla para acelerar el proceso.
+        - (Action: La cámara se desplaza hacia la incubadora rápida.)
+        - **Galgalar:** Pero deberías poder hacerlo con la misma rapidez.
+        - (Action: La cámara se desplaza hacia la pila de huevos de dinosaurio.)
+        - **Galgalar:** Encuentra la pila de huevos al sureste.
+        - (Action: La cámara se desplaza hacia el contenedor de abono rápido.)
+        - **Galgalar:** Lleva los huevos podridos a cualquier contenedor de abono que Ben haya instalado en el sur.
+        - (Action: La cámara regresa a la incubadora rápida.)
+        - **Galgalar:** Trae los huevos buenos aquí para incubarlos.
+        - (Action: La cámara vuelve a la normalidad.)
+        - **Galgalar:** Huevo: simplifica tu comprensión devolviéndome algunos fragmentos de huevo.
+        - **Player:** Eso no suena demasiado difícil ni moralmente cuestionable.
+        - (previous|Galgalar-options)
+      - ((Después de la primera vez sin fragmentos de caparazón afilados y antes de haber completado A ver al lagarto:))
+        - **Galgalar:** ¿Dónde están realmente las cáscaras de los huevos?
+        - (Action: La cámara se desplaza hacia la incubadora rápida.)
+        - Necesitas recolectar algunas cáscaras afiladas incubando huevos buenos y hirviendo huevos malos.
+        - (Action: La cámara se desplaza hacia la pila de huevos de dinosaurio.)
+        - Puedes encontrar los huevos amontonados al sureste.
+        - (Action: La cámara vuelve a la normalidad.)
+        - (previous|Galgalar-options)
+      - ((Después de la primera vez con fragmentos de caparazón afilados y antes de haber completado A ver al lagarto:))
+        - [Muestras fragmentos de conchas afiladas de Galgalar.]
+        - **Galgalar:** Sí, esos son exactamente lo que esperaba.
+        - **Galgalar:** Esos fragmentos de huevos extremadamente afilados podrían hacer huevos con puntas de flecha exquisitas.
+        - **Galgalar:** La naturaleza ovulcretora de sus antiguos habitantes les dará una ventaja explosiva. ¿Quizás podrías aprender algo sobre pirotecnia encendiéndolos?
+        - **Galgalar:** Creo que el extintor de huevos está en espera.
+        - **Player:** Entonces, ¿adónde van los dinosaurios incubados?
+        - **Galgalar:** Los dirijo a Bill y Sal en la costa de Anacronia. Puedes seguirlos a través del árbol místico del sur.
+        - **Galgalar:** En tu camino hacia magic tree, puedes consultar Ben. Ha estado ausente por un tiempo excesivamente largo.
+        - **Galgalar:** De todos modos, tu rápida investigación de huevos ha superado mis expectativas.
+        - ¡Felicitaciones! Has completado 'Fuera a ver al lagarto': ayuda a Galgalar, el ilujanka, cerca de la incubadora al sur de la granja de dinosaurios Anacronia.
+        - **Player:** Intenta decir eso tres veces rápido.
+        - **Galgalar:** Huevos exactamente.
+        - (previous|Galgalar-options)
+      - ((Después de haber completado A ver el lagarto:))
+        - **Galgalar:** Gracias por tu ayuda. Necesito quedarme aquí y monitorear la incubadora, así que sin señales de Bill o Ben, estaba pasando por una especie de crisis de partera.
+        - **Player:** Voy a fingir que no escuché eso.<br>¿Qué puedo hacer con fragmentos de caparazón afilados?
+        - **Galgalar:** Esos fragmentos de huevos extremadamente afilados podrían hacer huevos con puntas de flecha exquisitas.
+        - **Galgalar:** La naturaleza ovulcretora de sus antiguos habitantes les dará una ventaja explosiva. ¿Quizás podrías aprender algo sobre pirotecnia encendiéndolos?
+        - **Galgalar:** Creo que el extintor de huevos está en espera.
+        - **Player:** Entonces, ¿adónde van los dinosaurios incubados?
+        - **Galgalar:** Los dirijo a Bill y Sal en la costa de Anacronia. Puedes seguirlos a través del árbol místico del sur.
+        - **Galgalar:** En tu camino hacia magic tree, puedes consultar Ben. Ha estado ausente por un tiempo excesivamente largo.
+        - (previous|Galgalar-options)
+  - Adiós.
+    - **Galgalar:** ¡Nos vemos a la hora!

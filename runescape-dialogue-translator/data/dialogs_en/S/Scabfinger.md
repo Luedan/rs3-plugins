@@ -1,0 +1,260 @@
+# Scabfinger
+
+- **Original Wiki Page**: [Transcript:Scabfinger](https://runescape.wiki/w/Transcript%3AScabfinger)
+- **Letter**: `S`
+
+---
+
+## Dialogue Transcript
+
+
+### Exchange
+
+- ((Farming Store interface opens.))
+
+### Talk to
+
+- **Scabfinger:** Hello, dryfoot.
+- [Menu]: Choose...
+  - [Choice]: Tool storage.
+    - [Menu]: What would you like to say?|anchor=standard
+      - [Choice]: What tools can you store?
+        - **Player:** What can you store?
+        - **Scabfinger:** Me can store farming tools, obviously. You want to be using the store?
+        - [Menu]: What would you like to say?
+          - [Choice]: Yes, please.
+            - **Player:** Yes, please.
+            - ((Farming Store interface opens.))
+          - [Choice]: What do you do with the tools you're storing?
+            - **Player:** What do you do with the tools you're storing? They can't possibly all fit in your pockets!
+            - **Scabfinger:** Silly question, obviously keep tools in bog.
+            - **Scabfinger:** Now, you want me to look after yours or not?
+            - [Menu]: What would you like to say?
+              - [Choice]: Yes, please.
+                - **Player:** Yes, please.
+                - ((Farming Store interface opens.))
+              - [Choice]: What can you store?
+              - (above)
+              - [Choice]: No thanks, I'll keep hold of my stuff.
+                - **Player:** No thanks, I'll keep hold of my stuff.
+                - **Scabfinger:** Okay? Another time maybe.
+          - [Choice]: No thanks, I'll keep hold of my stuff.
+            - **Player:** No thanks, I'll keep hold of my stuff.
+            - **Scabfinger:** Okay? Another time maybe.
+      - [Choice]: Open your tool store, please.
+      - ((Farming Store interface opens.))
+      - [Choice]: Actually, I'm fine.
+        - **Player:** Actually, I'm fine.
+        - (above)
+  - [Choice]: Winkin's Farm.
+    - [Menu]: What would you like to say?
+      - [Choice]: Can you take me to Winkin's Farm?
+        - **Player:** Can you take me to Winkin's Farm?
+        - **Scabfinger:** What's a Winkin?
+        - **Player:** Oh... I guess not then.
+        - **Scabfinger:** You an odd one dryfoot.
+      - [Choice]: Actually, I'm fine.
+        - (above)
+  - [Choice]: Composting.
+    - [Menu]: What would you like to say?
+      - [Choice]: Can you compost patches for me?
+        - **Player:** Can you compost patches for me?
+        - **Scabfinger:** Sure, I can do it at all of your patches using the compost you give me, if you're willing to pay for the convenience.
+        - **Scabfinger:** 500 gold for regular compost, 1,500 gold for supercompost or 2,500 gold for ultracompost. Pay for up to 60,000 upfront, but no refunds.
+        - (Condition: With composting left to buy:)
+          - [Menu]: What do you want to top up?|cond=top-up
+            - [Choice]: Normal compost.|cond=With normal composting left to buy:
+              - ((A number input with prompt "Pay for how many (max 60,000)?" opens.))
+              - ((After entering a positive number:))
+                - **Pay [number] coins?**
+                  - Yes.
+                    - ((If you do not have sufficient money with you:))
+                      - **Scabfinger:** Looks like ye can't pay up. Come back when ye can.
+                    - ((If you have sufficient money with you:))
+                      - (removes=coins)
+                      - **Scabfinger:** Very well, I'll keep your patches composted. Just keep yer storage topped up!
+                  - No.
+                    - **Scabfinger:** Looks like ye can't pay up. Come back when ye can.
+              - ((After entering 0:))
+                - **Scabfinger:** Suit yourself.
+            - [Choice]: Supercompost.|cond=With supercomposting left to buy:
+              - ((A number input with prompt "Pay for how many (max 60,000)?" opens.))
+              - ((After entering a positive number:))
+                - **Pay [number] coins?**
+                  - Yes.
+                    - ((If you do not have sufficient money with you:))
+                      - **Scabfinger:** Looks like ye can't pay up. Come back when ye can.
+                    - ((If you have sufficient money with you:))
+                      - (removes=coins)
+                      - **Scabfinger:** Very well, I'll keep your patches composted. Just keep yer storage topped up!
+                  - No.
+                    - **Scabfinger:** Looks like ye can't pay up. Come back when ye can.
+              - ((After entering 0:))
+                - **Scabfinger:** Suit yourself.
+            - [Choice]: Ultracompost.|cond=With ultracomposting left to buy:
+              - ((A number input with prompt "Pay for how many (max 60,000)?" opens.))
+              - ((After entering a positive number:))
+                - **Pay [number] coins?**
+                  - Yes.
+                    - ((If you do not have sufficient money with you:))
+                      - **Scabfinger:** Looks like ye can't pay up. Come back when ye can.
+                    - ((If you have sufficient money with you:))
+                      - (removes=coins)
+                      - **Scabfinger:** Very well, I'll keep your patches composted. Just keep yer storage topped up!
+                  - No.
+                    - **Scabfinger:** Looks like you can't pay up. Come back when you can.
+              - ((After entering 0:))
+                - **Scabfinger:** Suit yourself.
+            - [Choice]: Nothing
+              - (continue|refund)
+        - (Condition: Without composting left to buy:)
+          - **Scabfinger:** Looks like yer all paid up.
+      - [Choice]: Can you stop composting patches for me?
+        - **Player:** Can you stop composting patches for me?
+        - ((If you have not paid for composting:))
+          - **Scabfinger:** You hadn't paid me, so I wasn't doing it anyway.
+        - ((If you have paid for composting:))
+          - (continue|refund)
+      - [Choice]: How much have I paid for?
+        - **Player:** How much compost will you use?
+        - **Scabfinger:** We'll use [number] regular, [number] supercompost and [number] ultracompost. Want to top up?
+        - [Menu]: Select an Option
+          - [Choice]: Yes.
+            - (above|top-up)
+          - [Choice]: No.
+            - **Scabfinger:** Do you want a refund then?
+            - [Menu]: Select an Option
+              - [Choice]: Yes.
+                - ((Without anything to refund:))
+                  - **Scabfinger:** Looks like you're all refunded anyway! Phew...
+                - ((With something to refund:))
+                  - **What do you want to refund?**
+                    - [Choice]: Normal compost.|cond=Only with normal compost to refund:
+                      - ((A number input opens with prompt "Refund how many (max [number])?"))
+                      - ((After entering a positive number:))
+                        - (receives=coins)
+                        - **Scabfinger:** There you go!
+                      - ((After entering 0:))
+                        - **Scabfinger:** Suit yourself.
+                    - [Choice]: Supercompost.|cond=Only with supercompost to refund:
+                      - ((A number input opens with prompt "Refund how many (max [number])?"))
+                      - ((After entering a positive number:))
+                        - (receives=coins)
+                        - **Scabfinger:** There you go!
+                      - ((After entering 0:))
+                        - **Scabfinger:** Suit yourself.
+                    - [Choice]: Ultracompost.|cond=Only with ultracompost to refund:
+                      - ((A number input opens with prompt "Refund how many (max [number])?"))
+                      - ((After entering a positive number:))
+                        - (receives=coins)
+                        - **Scabfinger:** There you go!
+                      - ((After entering 0:))
+                        - **Scabfinger:** Suit yourself.
+                    - [Choice]: Nothing.
+                      - (end)
+              - [Choice]: No.
+                - (end)
+      - [Choice]: Can I change which patches you compost?
+        - ((If there are patches that Scabfingers are composting:))
+          - ((In the following only the patches that the leprechauns are composting are listed:))
+            - **Scabfinger:** We'll currently use yer compost on:<br>Tree patches<br>Allotment patches<br>Hops patches<br>Bush patches<br>Herb patches<br>Flower patches<br>Special patches
+            - (continue)
+        - ((If there are patches that Scabfingers are not composting))
+          - ((In the following only the patches that the leprechauns are not composting are listed:))
+            - **Scabfinger:** We'll not use yer compost on<br>Tree patches<br>Allotment patches<br>Hops patches<br>Bush patches<br>Herb patches<br>Flower patches<br>Special patches
+            - (continue)
+        - [Menu]: Select an Option
+          - [Choice]: Toggle tree patches
+            - **Scabfinger:** Do you want to change some more?
+            - [Menu]: Select an Option
+              - [Choice]: Yes.
+                - (previous)
+              - [Choice]: No.
+                - (end)
+          - [Choice]: Toggle allotment patches
+            - **Scabfinger:** Do you want to change some more?
+            - **Select an Option**
+              - [Choice]: Yes.
+                - (previous)
+              - [Choice]: No.
+                - (end)
+          - [Choice]: Toggle hops patches
+            - **Scabfinger:** Do you want to change some more?
+            - [Menu]: Select an Option
+              - [Choice]: Yes.
+                - (previous)
+              - [Choice]: No.
+                - (end)
+          - [Choice]: Toggle bush patches
+            - **Scabfinger:** Do you want to change some more?
+            - [Menu]: Select an Option
+              - [Choice]: Yes.
+                - (previous)
+              - [Choice]: No.
+                - (end)
+          - [Choice]: [More Options]
+            - [Menu]: Select an Option
+              - [Choice]: Toggle herb patches
+                - **Scabfinger:** Do you want to change some more?
+                - [Menu]: Select an Option
+                  - [Choice]: Yes.
+                    - (previous2)
+                  - [Choice]: No.
+                    - (end)
+              - [Choice]: Toggle flower patches
+                - **Scabfinger:** Do you want to change some more?
+                - [Menu]: Select an Option
+                  - [Choice]: Yes.
+                    - (previous2)
+                  - [Choice]: No.
+                    - (end)
+              - [Choice]: Toggle miscellaneous patches
+                - **Scabfinger:** Do you want to change some more?
+                - [Menu]: Select an Option
+                  - [Choice]: Yes.
+                    - (previous2)
+                  - [Choice]: No.
+                    - (end)
+              - [Choice]: [Previous Options]
+                - (previous)
+      - [Choice]: Actually, I'm fine.
+        - (above)
+  - [Choice]: Other topics.
+    - [Menu]: What would you like to say?
+      - [Choice]: Can I collect my rewards from the Evil Tree?|cond=If there are rewards to collect:
+        - {{Tmissing}}
+      - [Choice]: Tell me about yourself.
+        - **Player:** Do you grow anything out here?
+        - **Scabfinger:** No.
+        - **Scabfinger:** Tried flowers. Tried 'shrooms. Tried mud. All goes bad.
+        - **Player:** Any idea why?
+        - **Scabfinger:** Because of those nasty totems.
+        - **Scabfinger:** Keep the good bits out. Keep us in.
+        - **Player:** That doesn't seem ideal.
+        - **Scabfinger:** It's not, seemed to work when green guy was around.
+        - **Player:** Green guy?
+        - **Scabfinger:** Yeah little guy with a funny hat, used to grow lots here.
+        - **Player:** That sounds like a leprechaun, what happened to him?
+        - **Scabfinger:** Fenmoor took him. Not even hat left.
+        - **Player:** Oh...
+        - **Scabfinger:** Mmhmm.
+        - **Scabfinger:** Now want me to look after anything?. {{Sic}}
+        - [Menu]: What would you like to say?
+          - [Choice]: Yes, please.
+            - **Player:** Yes, please.
+            - ((Farming Store interface opens.))
+          - [Choice]: What can you store?
+            - [Choice]: What tools can you store?
+            - **Player:** What can you store?
+            - **Scabfinger:** Me can store farming tools, obviously. You want to be using the store?
+          - [Choice]: No thanks, I'll keep hold of my stuff.
+            - **Player:** No thanks, I'll keep hold of my stuff.
+            - **Scabfinger:** Okay? Another time maybe.
+      - [Choice]: Actually, I'm fine.
+        - **Player:** Actually, I'm fine.
+        - (end)
+
+### Attempting to use Nightshade patch before completing Bogolin Dichromacy
+
+- **Scabfinger:** Oi! Not for humies! Only sanguine boggos or friendly vampyre ladies.
+- **Player:** That's oddly specific.

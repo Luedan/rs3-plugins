@@ -1,0 +1,640 @@
+# Leslie
+
+- **Original Wiki Page**: [Transcript:Leslie](https://runescape.wiki/w/Transcript%3ALeslie)
+- **Letter**: `L`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Talk to
+
+
+#### Antes del final del evento
+
+- (Condition: Sólo la primera vez:)
+  - **{{#vardefineecho:leslie|Leslie {{Colour|#cccf3a|th}}{{Colour|#777856|e B}}{{Colour|#cccf3a|ee}}{{Colour|#777856|-ri}}{{Colour|#cccf3a|ll}}{{Colour|#777856|ia}}{{Colour|#cccf3a|nt}}}}:** ¡Hola, hola, hola!
+  - **{{#var:leslie}}:** ¿Quieres hidromiel?
+  - **Player:** Eh...
+  - **{{#var:leslie}}:** ¡Tardó demasiado! ¡Parece que voy a tener otro!
+  - **Player:** ¿Es una buena idea?
+  - **{{#var:leslie}}:** ¡Seguro que lo es!
+  - **Player:** ¿Está todo bien?
+  - **{{#var:leslie}}:** ¡Sí!
+  - **{{#var:leslie}}:** Bueno, no.
+  - **{{#var:leslie}}:** ¡Simplemente no puedo hacerlo!
+  - **{{#var:leslie}}:** ¡Me he pasado la vida preparando hidromiel!
+  - **{{#var:leslie}}:** Puedo hacer un lote muy bueno pero nunca es perfecto.
+  - **Player:** ¡Estoy seguro de que sabe bien!
+  - **{{#var:leslie}}:** ¿Bien?
+  - **{{#var:leslie}}:** ¿BIEN?
+  - **{{#var:leslie}}:** ¡CÓMO TE ATREVES!
+  - **{{#var:leslie}}:** ¡No! Lo lamento.
+  - **{{#var:leslie}}:** Es muy agotador fallar una y otra vez.
+  - **Player:** ¿Hay algo que pueda hacer para ayudar?
+  - **{{#var:leslie}}:** ¿Sabes qué? ¿Tal vez eso es lo que me estoy perdiendo?
+  - **{{#var:leslie}}:** ¡Un asistente!
+  - **Player:** Quiero decir, en realidad no me estaba ofreciendo a ser tu asistente...
+  - **{{#var:leslie}}:** ¡El trabajo es tuyo!
+  - **{{#var:leslie}}:** ¡Me has hecho un cervecero feliz!
+  - **Player:** Bien. Supongo que soy tu asistente.
+  - (continue)
+- (Condition: Después de la primera vez:)
+  - **{{#var:leslie}}:** Hola, hola, hola.
+  - (continue)
+- [Menu]: Elige una opción:
+  - [Choice]: ¿Qué está pasando?
+    - **{{#var:leslie}}:** Bueno, mi adorable asistente, ¡estamos tratando de hacer el mejor hidromiel en Gielinor!
+    - **{{#var:leslie}}:** Lo he estado intentando durante años. Siempre sabe muy bien, pero nunca perfecto.
+    - **{{#var:leslie}}:** Recojo mi propia miel para el hidromiel. Me encantan las abejas, ya ves.
+    - **{{#var:leslie}}:** ¡Son increíbles! ¡Desde sus pequeños abrigos peludos hasta sus coloridos diseños de rayas y la dulce miel que hace que el hidromiel sepa tan bien!
+    - **{{#var:leslie}}:** El problema es que creo que la miel es el problema.
+    - **{{#var:leslie}}:** Simplemente no es lo suficientemente dulce y no tiene suficiente profundidad en el sabor.
+    - **{{#var:leslie}}:** He intentado todo para cambiar eso. Diferentes alimentos, diferentes abejas de diferentes lugares.
+    - **{{#var:leslie}}:** Todo cambió el sabor, pero nada estuvo bien.
+    - **{{#var:leslie}}:** Entonces, utilizando mis conocimientos sobre las abejas, comencé un programa de reproducción.
+    - **Player:** ¿Un qué?
+    - **{{#var:leslie}}:** Un programa de cría...
+    - **{{#var:leslie}}:** Usando el conocimiento que obtuve mientras entrenaba con los druidas.
+    - **Player:** Esperad, ¿druidas? No pareces un druida.
+    - **{{#var:leslie}}:** ¿Qué tal si dejas de interrumpirme?
+    - **Player:** ¡Lo siento!
+    - **{{#var:leslie}}:** Pero sí, entrené con los druidas. No, nunca me gradué.
+    - **{{#var:leslie}}:** Resulta que las obsesiones con las abejas y el hidromiel no hacen al mejor estudiante.
+    - **{{#var:leslie}}:** De todos modos...
+    - **{{#var:leslie}}:** Comencé un programa de reproducción para reproducir selectivamente todos los rasgos ideales en un único y nuevo tipo de abeja.
+    - **{{#var:leslie}}:** Ahora deberían estar perfectos pero son inútiles.
+    - **{{#var:leslie}}:** En lugar de hacer una miel excelente, simplemente se volvieron enormes.
+    - **{{#var:leslie}}:** ¡Solo mira estas bestias!
+    - Leslie mira a las abejas que vuelan cerca.
+    - **{{#var:leslie}}:** ¡Son tan... vagos! No producen miel.
+    - **{{#var:leslie}}:** Sin embargo, curiosamente, desde que comenzaron a reproducirse y a extenderse por Gielinor, hay néctar por todas partes.
+    - **{{#var:leslie}}:** Ahí es donde entras tú, mi pequeño asistente, ¿o tal vez debería llamarte mi recolector de néctar?
+    - **{{#var:leslie}}:** No, no me gusta eso para ti. Suena demasiado bien.
+    - **Player:** ...
+    - (previous)
+  - [Choice]: ¿Qué recompensas puedo obtener?
+    - **{{#var:leslie}}:** Siempre es lo mismo. Nunca estoy feliz de ayudar por nada...
+    - **Player:** ¡Tú fuiste quien me dio un puesto de trabajo!
+    - **{{#var:leslie}}:** Cierto...
+    - **{{#var:leslie}}:** Entonces sí, mi pequeña asistente. ¡Te recompensaré por tu ayuda!
+    - **{{#var:leslie}}:** Puedes quedarte con mi ropa.
+    - **Player:** ¿En serio? Pero si me das esos, ¿qué te pondrás?
+    - **{{#var:leslie}}:** Bueno, no exactamente esta ropa. Tengo más como ellos.
+    - **{{#var:leslie}}:** Es la atracción perfecta para mis abejas.
+    - **{{#var:leslie}}:** No sólo eso, si trabajas lo suficiente, puedes llevarte una de mis abejas.
+    - **Player:** Espera, ¿en serio?
+    - **{{#var:leslie}}:** ¡Claro! Se están reproduciendo como locos. No sé qué más hacer con ellos.
+    - **Player:** ¡Eso es increíble! ¡Estoy dentro!
+    - **{{#var:leslie}}:** Hay más. Si me ayudas a crear el mejor hidromiel que Gielinor haya visto jamás, también podrás quedarte con mi backpack.
+    - **Player:** ¡Dulce!
+    - **{{#var:leslie}}:** Oh, también tengo algunas cajas misteriosas por ahí que nunca pude abrir. No preguntes qué contienen porque no lo sé; eso es lo que lo convierte en un misterio, pero estoy seguro de que valen la pena.
+    - **Player:** ¡Bien!
+    - (previous)
+  - [Choice]: ¿Cómo recolecto néctar?
+    - **{{#var:leslie}}:** Es muy sencillo. No sé por qué pero por alguna razón, las abejas están haciendo que Néctar aparezca por todas partes y parece sentirse atraída por todo.
+    - **{{#var:leslie}}:** Si estás practicando alguna de esas habilidades y matando que parecen gustarles a los aventureros, el Néctar se sentirá atraído hacia ti.
+    - **{{#var:leslie}}:** Es posible que tenga algunas tareas para ti a medida que pase el tiempo que te ayudarán a obtener más néctar. Si estás interesado, sólo pregúntame.
+    - **{{#var:leslie}}:** Trae el néctar aquí y con gusto te recompensaré por ello.
+    - (previous)
+  - [Choice]: cond=Before having handed in 1,500 nectar:|¿Por qué hay tantas abejas por ahí?
+    - (Condition: Sólo la primera vez:)
+      - **{{#var:leslie}}:** Diez de mis hermosas abejas se han ido a explorar.
+      - **{{#var:leslie}}:** Es bueno para ellos tener algo de independencia, pero a mí siempre me preocupa.
+      - **{{#var:leslie}}:** ¿Podrías hacerme un favor?
+      - **Player:** Bueno, estoy un poco bo-
+      - **{{#var:leslie}}:** ¡Genial, gracias!
+      - **Player:** ...
+      - **{{#var:leslie}}:** No necesito que los traigas, pero si pudieras encontrarlos y decirme dónde están, sería genial.
+      - **{{#var:leslie}}:** Probablemente los encontrarás cerca de imanes. Parecen sentirse atraídos por ellos por alguna razón.
+      - **{{#var:leslie}}:** Siempre están cubiertos de néctar, siéntete libre de quitárselo como pago por el problema.
+      - (Condition: Sin espacio libre en el backpack:)
+        - **{{#var:leslie}}:** Si deja algo de espacio en su backpack, puedo darle una lista para ayudarle a realizar un seguimiento de las abejas.
+        - (continue)
+      - (Condition: Con un espacio libre en el backpack:)
+        - **{{#var:leslie}}:** Aquí hay una lista para ayudar a realizar un seguimiento.
+        - (receives=a bee list)
+        - (continue)
+      - **Player:** Está bien. Estaré atento a ellos.
+      - (previous)
+    - (Condition: Después de la primera vez:)
+      - (Condition: Sin haber visto todas las abejas:)
+        - **{{#var:leslie}}:** ¿Cómo te va con la búsqueda de todas mis abejas?
+        - (Condition: Sin abejas detectadas:)
+          - **Player:** Aún no he encontrado ninguno.
+          - **{{#var:leslie}}:** No son difíciles de encontrar... Son enormes.
+          - (continue)
+        - (Condition: Con algunas abejas avistadas:)
+          - **Player:** He encontrado algunos. Seguiré buscando.
+          - **{{#var:leslie}}:** ¡Genial!
+          - (continue)
+        - (Condition: Sin lista de abejas:)
+          - **{{#var:leslie}}:** Parece que has extraviado tu lista de detección de abejas.
+          - [Menu]: ¿Quieres una lista de detección de abejas?
+            - [Choice]: Sí.
+              - (Condition: Sin espacio libre en el backpack:)
+                - **{{#var:leslie}}:** Si deja algo de espacio en su backpack, puedo darle una lista para ayudarle a realizar un seguimiento de las abejas.
+                - (continue)
+              - (Condition: Con un espacio libre en el backpack:)
+                - **{{#var:leslie}}:** Aquí hay una lista para ayudar a realizar un seguimiento.
+                - (receives=a bee list)
+                - (continue)
+              - **{{#var:leslie}}:** ¡Gracias!
+              - (continue)
+            - [Choice]: No.
+              - (continue)
+        - (previous)
+      - (Condition: Habiendo visto todas las abejas:)
+        - (Condition: Con una lista de abejas:)
+          - (removes=bee list)
+          - (continue)
+        - **{{#var:leslie}}:** Encontraste todas mis abejas. ¡Gracias!
+        - (previous)
+  - [Choice]: cond=After having handed in 1,500 nectar:|Habla de tareas.
+    - (Condition: Antes de haber recibido la lista de entrega del hidromiel:)
+      - **{{#var:leslie}}:** Usando el néctar que me has estado dando, pude lograr que las abejas crearan un poco de miel.
+      - **{{#var:leslie}}:** He preparado un lote de hidromiel con él y puede que sea el mejor hasta ahora.
+      - **{{#var:leslie}}:** Sé que no es perfecto, pero me interesaría conocer las opiniones de algunos de los mejores bartenders que conozco.
+      - **{{#var:leslie}}:** Por favor, entregue un barril de hidromiel a cada pub de mi lista.
+      - **{{#var:leslie}}:** Tiene que estar fresco, por lo que hay que tomarlo de inmediato. No se puede almacenar, hay que entregarlo frío.
+      - **{{#var:leslie}}:** ¿Puedes ayudar ahora?
+      - [Menu]: ¿Ayuda ahora?
+        - [Choice]: Sí.
+          - (Condition: Sin dos espacios libres en el backpack:)
+            - **{{#var:leslie}}:** Estos barriles no son pequeños. Haz algo de espacio para poder entregártelos.
+            - [Necesitas 2 espacios libres en tu backpack para guardar la lista de entrega y los barriles de hidromiel.]
+          - (Condition: Con dos espacios libres en el backpack:)
+            - (receives=five kegs of mead and a mead delivery list)
+            - **{{#var:leslie}}:** ¡Fantástico!
+            - **{{#var:leslie}}:** Entrégalos en Blue Moon Inn, Jolly Boar Inn, Rusty Anchor, Rising Sun y Pick and Lute.
+            - **{{#var:leslie}}:** Por favor, entregue un barril de hidromiel a cada pub de mi lista.
+        - [Choice]: No.
+          - **{{#var:leslie}}:** No eres de mucha ayuda, ¿verdad?
+          - **{{#var:leslie}}:** Visítanos de nuevo si estás dispuesto a ayudar. Recibirás algo de néctar para tus problemas.
+          - **{{#var:leslie}}:** Por favor, entregue un barril de hidromiel a cada pub de mi lista.
+    - (Condition: Después de haber recibido la lista de entrega del hidromiel:)
+      - (Condition: Antes de realizar todas las entregas:)
+        - **{{#var:leslie}}:** ¿Cómo te va?
+        - (Condition: Antes de realizar cualquier entrega:)
+          - **Player:** Bueno, todavía no he empezado.
+          - **{{#var:leslie}}:** ¡Adelante!
+          - (continue)
+        - (Condition: Después de realizar algunas de las entregas:)
+          - **Player:** He empezado.
+          - **{{#var:leslie}}:** ¡Genial! ¡Recíbalos lo antes posible!
+          - (continue)
+        - (Condition: Sin la lista de entrega de correo:)
+          - **Player:** Parece que he extraviado la lista de entrega.
+          - (Condition: Sin espacio libre en el backpack:)
+            - **{{#var:leslie}}:** ¡Haz algo de espacio en tu backpack y te escribiré uno nuevo!
+          - (Condition: Con espacio libre en el backpack:)
+            - **{{#var:leslie}}:** No eres muy buen asistente, ¿verdad?
+            - **{{#var:leslie}}:** ¡Aquí!
+            - (receives=mead delivery list)
+            - [Leslie entrega la lista.]
+            - (continue)
+        - (Condition: Sin los barriles de hidromiel:)
+          - **Player:** He perdido algunos barriles de hidromiel.
+          - **{{#var:leslie}}:** ¿En serio?
+          - **Player:** Eh... Sí.
+          - (Condition: Sin espacio libre en el backpack:)
+            - **{{#var:leslie}}:** ¡Haz algo de espacio en tu backpack y te daré más!
+          - (Condition: Con espacio libre en el backpack:)
+            - **{{#var:leslie}}:** Inútil... ¡Allá vamos!
+            - (receives=missing kegs of mead)
+      - (Condition: Después de realizar todas las entregas:)
+        - (Condition: Primera vez:)
+          - **Player:** He entregado todos los barriles.
+          - **{{#var:leslie}}:** Faaaantástico...
+          - **Player:** ¿Estás bien?
+          - **{{#var:leslie}}:** ¡Sí! ¡El hidromiel es tan bueno!
+          - **{{#var:leslie}}:** De todos modos, ¿qué pensó Tostig?
+          - **Player:** Entonces, de los cinco pubs-
+          - **{{#var:leslie}}:** Nooo... No me importan los demás. ¿Qué pensó Tostig?
+          - **Player:** Si no te importa, ¿por qué me enviaste?
+          - **{{#var:leslie}}:** ¡Pensé que sería divertido!
+          - **{{#var:leslie}}:** ¿Y sabes qué? ¡Fue muy divertido!
+          - **Player:** ...
+          - **{{#var:leslie}}:** TOSTIG, ¿qué pensó?
+          - **Player:** Le pareció genial, aunque sintió que le faltaba un poco de sabor.
+          - **Player:** Sugirió usar menos agua durante la elaboración de la cerveza y alimentar a las abejas con algo con un sabor más rico para ayudar a mejorar su miel.
+          - **{{#var:leslie}}:** Mmmm...
+          - (Condition: Si el player aún no ha entregado 5000 néctar:)
+            - **{{#var:leslie}}:** Creo que podemos hacerlo. Necesitaré investigar un poco. Vuelve pronto porque creo que necesitaré ayuda con eso.
+            - [Vuelve después de entregar 5000 Nectar.]
+            - (Condition: Con lista de entrega de hidromiel:)
+              - (removes=mead delivery list)
+          - (Condition: Si el player ya ha entregado 5000 néctar:)
+            - **{{#var:leslie}}:** Dame un momento. Sólo necesito investigar un poco sobre qué probar y darles de comer para realzar el sabor.
+            - (Action: La pantalla se desvanece y vuelve a aparecer.)
+            - (Condition: Con lista de entrega de hidromiel:)
+              - (removes=mead delivery list)
+              - (continue|Second-task)
+        - (Condition: Después:)
+          - (Condition: Antes de entregar 5000 néctar:)
+            - **{{#var:leslie}}:** Gracias por entregar esos barriles. Creo que hemos llegado al ganador con las sugerencias de Tostig.
+            - **{{#var:leslie}}:** Todavía no estoy seguro de cómo abordamos las sugerencias, pero estoy trabajando en ello. Vuelve pronto.
+            - [Vuelve después de entregar 5000 Nectar.]
+          - (Condition: Después de entregar 5000 néctar:)
+            - (Condition: Primera vez:)
+              - **{{#var:leslie}}:** Gracias por entregar esos barriles. Creo que hemos llegado al ganador con las sugerencias de Tostig.
+              - **{{#var:leslie}}:** Bien, investigación terminada. Vamos a hacer una comida súper rica para las abejas.
+              - **Player:** ¿Nosotros?
+              - **{{#var:leslie}}:** Lo siento, lo reformularé.
+              - **{{#var:leslie}}:** Vas a preparar una comida súper rica para las abejas.
+              - **Player:** Por supuesto que sí... Entonces, ¿cómo hago eso?
+              - **{{#var:leslie}}:** Tengo una lista de ingredientes que necesito que consigas.
+              - **{{#var:leslie}}:** Recoge todo aquí y luego llévaselo al cocinero en el Castillo Lumbridge.
+              - **{{#var:leslie}}:** Entonces podrá convertirlo en una papilla extremadamente rica que luego podré alimentar a las abejas.
+              - **Player:** Vale, suena sencillo.
+              - **{{#var:leslie}}:** ¡Súper sencillo!
+              - (Condition: Sin espacio libre en el backpack:)
+                - **{{#var:leslie}}:** Haz algo de espacio en tu backpack y te entregaré la lista.
+              - (Condition: Con espacio libre en el backpack:)
+                - **{{#var:leslie}}:** ¡Aquí está la lista!
+                - (receives=an ingredient list)
+            - (Condition: Después antes de obtener una rica papilla:)
+              - **{{#var:leslie}}:** ¿Cómo te va con la recolección de todos los ingredientes?
+              - (Condition: Sin la lista de ingredientes:)
+                - **Player:** Necesito una copia de la lista de ingredientes, por favor.
+                - (Condition: Sin espacio libre en el backpack:)
+                  - **{{#var:leslie}}:** Haz algo de espacio en tu backpack y te entregaré la lista.
+                - (Condition: Con espacio libre en el backpack:)
+                  - **{{#var:leslie}}:** ¿Por qué no me sorprende? Allá vamos.
+                  - (receives=an ingredient list)
+              - (Condition: Con la lista de ingredientes:)
+                - **Player:** Voy a recoger todo ahora.
+                - **{{#var:leslie}}:** Genial. Una vez que tengas todos los ingredientes, llévalos al cocinero en el Castillo Lumbridge.
+            - (Condition: Después de obtener una rica papilla:)
+              - (Condition: Antes de servir la papilla rica:)
+                - (Condition: Sin papilla rica:)
+                  - **{{#var:leslie}}:** ¿Entonces te da pereza traerme la rica papilla tú mismo?
+                  - **{{#var:leslie}}:** Lo acaba de entregar el cocinero, ¡huele FANTÁSTICO!
+                  - (continue)
+                - (Condition: Con rica papilla:)
+                  - (removes=rich mush)
+                  - **{{#var:leslie}}:** ¡Esa papilla huele FANTÁSTICO!
+                  - (continue)
+                - (Condition: Después de recolectar solo hojas de glasto:)
+                  - **Player:** ¡Bien!
+                  - **{{#var:leslie}}:** ¿No estás frustrado conmigo en absoluto?
+                  - **Player:** ¿Por qué debería estarlo?
+                  - **{{#var:leslie}}:** ¿Por la lista de ingredientes?
+                  - **Player:** No. Tengo un aviso. Sólo recogí las hojas de glasto.
+                  - **{{#var:leslie}}:** ¡Qué! ¿Quién te lo dijo?
+                  - **{{#var:leslie}}:** Aguafiestas...
+                  - (continue)
+                - (Condition: Después de recolectar más artículos que hojas de glasto:)
+                  - **Player:** ¿Qué, la rica papilla hecha sólo con hojas de glasto?
+                  - **{{#var:leslie}}:** ¡Jajaja!
+                  - **Player:** ¿Por qué di-
+                  - **{{#var:leslie}}:** ¡Jajajaja!
+                  - **Player:** Sto-
+                  - **{{#var:leslie}}:** ¡Jajajaja!
+                  - **Player:** ...
+                  - **Player:** ¿Por qué? ¿Por qué obligarme a coleccionar todo eso cuando ni siquiera era necesario?
+                  - **{{#var:leslie}}:** ¡Jajaja!
+                  - **{{#var:leslie}}:** ¡Porque es muy divertido!
+                  - **Player:** Realmente no lo es.
+                  - **{{#var:leslie}}:** Realmente, realmente lo es.
+                  - **{{#var:leslie}}:** De todos modos... Gracias.
+                  - **Player:** ...
+                  - **Player:** No hay problema.
+                  - (continue)
+                - (Condition: Si el player aún no ha entregado 10 000 néctar:)
+                  - **{{#var:leslie}}:** De todos modos, voy a alimentar a las abejas en breve. Vuelve pronto, estoy seguro de que tendré más trabajo para ti.
+                  - [Vuelve después de entregar 10000 Nectar.]
+                  - (Condition: Con lista de ingredientes:)
+                    - (removes=ingredient list)
+                - (Condition: Si el player ya ha entregado 10.000 néctar:)
+                  - **{{#var:leslie}}:** Voy a ir a alimentar a las abejas. Espera aquí un segundo.
+                  - (Action: La pantalla se desvanece y vuelve a aparecer.)
+                  - (continue|Third-task)
+              - (Condition: Después de servir la rica papilla:)
+                - (Condition: Antes de entregar 10.000 néctar:)
+                  - **{{#var:leslie}}:** Gracias por traerme esa rica papilla. No necesito nada más ahora, pero vuelvo más tarde.
+                  - [Vuelve después de entregar 10000 Nectar.]
+                - (Condition: Después de entregar 10.000 néctar:)
+                  - (Condition: Primera vez:)
+                    - **{{#var:leslie}}:** ¡No se lo comerán!
+                    - **Player:** ¿Quién no come qué?
+                    - **{{#var:leslie}}:** ¡Las abejas! No comerán esa deliciosa y rica papilla que les preparé.
+                    - **Player:** No me sorprende. Huele bien pero parece asqueroso.
+                    - **{{#var:leslie}}:** No sé cómo solucionarlo...
+                    - **{{#var:leslie}}:** He sido amable con ellos. Intenté acariciarles el vientre. ¡NADA!
+                    - **Player:** ¿Puedo ayudar en algo?
+                    - **{{#var:leslie}}:** Hmmm... tal vez puedas.
+                    - **{{#var:leslie}}:** ¡Sí!
+                    - **{{#var:leslie}}:** Había un libro que creo que podría ayudar llamado: El arte del consumo animal.
+                    - **{{#var:leslie}}:** Los druidas nunca me dejaron acercarme al libro ya que solo hay una copia conocida y aparentemente no se podía confiar en mí.
+                    - **{{#var:leslie}}:** Solo arruiné algunos libros al derramar miel e hidromiel sobre ellos.
+                    - **{{#var:leslie}}:** La copia que conozco se puede encontrar en la casa de Ivy Sophista en Taverley.
+                    - **{{#var:leslie}}:** No hay posibilidad de que te deje tomarlo. Si pudieras distraerla de alguna manera, probablemente podrías sacarlo del estante.
+                    - **Player:** No estoy muy seguro de cómo me siento al robar un libro del {{Sic|Druids}}.
+                    - **{{#var:leslie}}:** No te preocupes, lo devolveré cuando termine. Probablemente.
+                    - **Player:** Mmm...
+                    - **Player:** Está bien, está bien. Conseguiré el libro.
+                    - **{{#var:leslie}}:** ¡Sí!
+                  - (Condition: Luego antes de completar la tarea:)
+                    - (Condition: Sin el arte del consumo animal:)
+                      - **{{#var:leslie}}:** ¿Ya tienes mi libro?
+                      - **Player:** ¿Tu qué?
+                      - **{{#var:leslie}}:** El libro que necesito... De la casa de Ivy Sophista en Taverley.
+                      - **Player:** Ah, sí. Me voy, me voy.
+                    - (Condition: Con el arte del consumo animal:)
+                      - **{{#var:leslie}}:** ¡De hecho tienes el libro!
+                      - **{{#var:leslie}}:** No puedo creer que lo hayas logrado.
+                      - **Player:** Realmente no fue difícil.
+                      - **{{#var:leslie}}:** Bueno, ¡gracias!
+                      - (removes=the art of animal consumption) (receives=250 nectar)
+                      - (ver|néctar)
+                      - ((Se muestra en una ventana emergente:))
+                        - (Ventana emergente: Encontrarás 250 x Néctar al entregar el libro.|color=#00FF00)
+                        - (continue)
+                      - **{{#var:leslie}}:** Oh, sí, no hay posibilidad de que devuelva este libro.
+                      - **Player:** ¿Qué?
+                      - **{{#var:leslie}}:** Tan pronto como tenga lo que necesito, lo iré al fondo del río Lum.
+                      - **Player:** ¿No puedes hablar en serio?
+                      - **Player:** ¡No es de extrañar que {{Sic|Druids}} te haya echado!
+                      - **{{#var:leslie}}:** Eso no fue muy agradable.
+                      - (Condition: Si el player aún no ha entregado 15.000 néctares:)
+                        - **{{#var:leslie}}:** De todos modos, ¡gracias! Será mejor que me ponga a leer. ¡Vuelve pronto!
+                        - [Vuelve después de entregar 15000 Nectar.]
+                      - (Condition: Si el player aún no ha entregado 15.000 néctares:)
+                        - **{{#var:leslie}}:** De todos modos, ¡gracias! Dame un minuto para leer esto rápidamente.
+                        - (Action: La pantalla se desvanece y vuelve a aparecer.)
+                        - (continue|Fourth-task)
+                  - (Condition: Después de completar la tarea:)
+                    - (Condition: Antes de entregar 15.000 néctar:)
+                      - **{{#var:leslie}}:** ¡Gracias por el libro!
+                      - **{{#var:leslie}}:** {{Sic|I'm still not sure the best way to get them to eat this food yet.}} Vuelve a comprobarlo pronto.
+                      - [Vuelve después de entregar 15000 Nectar.]
+                    - (Condition: Después de entregar 15.000 néctar:)
+                      - (Condition: Primera vez:)
+                        - **{{#var:leslie}}:** Sé lo que tengo que hacer para que coman la comida.
+                        - **Player:** Entonces, ¿por qué te ves tan triste?
+                        - **{{#var:leslie}}:** El libro dice que están demasiado relajados. No intentarán nada nuevo.
+                        - **{{#var:leslie}}:** ¡Es una tontería! Puedo acostarlos en la cama por la noche y leerles cuentos, pero solo les doy un masaje al día.
+                        - **Player:** Quiero decir... eso suena un poco exagerado.
+                        - **{{#var:leslie}}:** ¡No lo es! Son mis bebes.
+                        - **Player:** ¿Qué es más importante? ¿El hidromiel o las abejas?
+                        - **{{#var:leslie}}:** ¡Ambos!
+                        - **Player:** Me parece que necesitas elegir uno u otro.
+                        - **{{#var:leslie}}:** ¡Tengo que saber si esto funciona!
+                        - **{{#var:leslie}}:** En nombre de hidromiel, lo voy a hacer. Después de haber hecho todo esto, necesito saber si funcionará.
+                        - **{{#var:leslie}}:** ¡Puedo disculparme con ellos después!
+                        - **Player:** Entonces, ¿qué vas a hacer?
+                        - **{{#var:leslie}}:** Voy a tener que ser malo con ellos.
+                        - **{{#var:leslie}}:** Pero quiero tu ayuda; de lo contrario, no podré seguir adelante.
+                        - **{{#var:leslie}}:** Si inicias la conversación con las abejas, creo que podré hacerlo.
+                        - **{{#var:leslie}}:** Ve y habla con Bee-yonce, Bee Marley y Steve y luego los molestaré.
+                        - **{{#var:leslie}}:** Deberían estar aquí en algún lugar, nunca van muy lejos.
+                        - **Player:** ¡Está bien! Vamos a hacerlo.
+                      - (Condition: Después:)
+                        - (Condition: Antes de hablar con las tres abejas:)
+                          - **{{#var:leslie}}:** Necesitamos molestar a mis abejas. Yo tampoco quiero hacerlo, pero es necesario.
+                          - **Player:** Nunca dije que no quería hacerlo.
+                          - **{{#var:leslie}}:** Por favor, ve y habla con Bee-yonce, Bee Marley y Steve y luego los molestaré.
+                        - (Condition: Después de hablar con las tres abejas:)
+                          - (Condition: Primera vez:)
+                            - **{{#var:leslie}}:** Esa fue una de las cosas más difíciles que he tenido que hacer.
+                            - (Condition: Si el player aún no ha entregado 20.000 néctar:)
+                              - **{{#var:leslie}}:** Vuelve pronto y con suerte habrán comido la comida.
+                              - [Vuelve después de entregar 20000 Nectar.]
+                            - (Condition: Si el player ya ha entregado 20.000 néctar:)
+                              - **{{#var:leslie}}:** Ahora a esperar y ver si funcionó.
+                              - (Action: La pantalla se desvanece y vuelve a aparecer.)
+                              - (continue|Fifth-task)
+                          - (Condition: Después:)
+                            - (Condition: Antes de entregar 20.000 néctar:)
+                              - **{{#var:leslie}}:** Mis abejas están muy tristes. Esto es horrible. Odio ser grosero con ellos.
+                              - **{{#var:leslie}}:** No estoy seguro de que valga la pena...
+                              - **{{#var:leslie}}:** No necesito nada más de ti todavía. Vuelve pronto.
+                              - [Vuelve después de entregar 20000 Nectar.]
+                            - (Condition: Después de entregar 20.000 néctar:)
+                              - (Condition: Primera vez:)
+                                - **{{#var:leslie}}:** ¡Lo he logrado! ¡De hecho lo he hecho! ¡El hidromiel perfecto!
+                                - **Player:** ¿Te refieres a nosotros?
+                                - **{{#var:leslie}}:** ¡No, yo!
+                                - **Player:** Está bien...
+                                - **{{#var:leslie}}:** Entonces, ¿quieres probarlo?
+                                - **Player:** Después de todo esto, ¡claro!
+                                - (Action: el player bebe el hidromiel.)
+                                - **Player:** ¡Eso es realmente bueno!
+                                - **{{#var:leslie}}:** Es mucho mejor que realmente bueno... es perfecto.
+                                - **Player:** Para alguien que dice haber hecho el hidromiel perfecto, no pareces muy feliz.
+                                - **{{#var:leslie}}:** ¿Cómo puedo ser feliz?
+                                - **{{#var:leslie}}:** El hidromiel es genial, sí, pero has destruido mi relación con mis abejas.
+                                - **Player:** ¿Yo?
+                                - **{{#var:leslie}}:** ¡Sí, tú! No valió la pena...
+                                - **{{#var:leslie}}:** ¡Nunca volveré a hacer este hidromiel!
+                                - **{{#var:leslie}}:** Nunca debí haber elegido el hidromiel en lugar de las abejas.
+                                - **Player:** Estoy seguro de que puedes co-
+                                - **{{#var:leslie}}:** Shhh... Me voy de viaje conmigo mismo aquí. No necesito tu ayuda.
+                                - **Player:** ...
+                                - **{{#var:leslie}}:** No puede ser demasiado tarde.
+                                - **{{#var:leslie}}:** ¡Voy a recuperarlos!
+                                - **{{#var:leslie}}:** ¡Sí! ¡Player, {{Sic|You're}} despedidos!
+                                - **Player:** ¿Despedido?
+                                - **{{#var:leslie}}:** Sí, voy a recuperarlos. Ya no necesito ni quiero tu ayuda.
+                                - ¡Felicitaciones! Has desbloqueado: Tejedor de hidromiel Backpack. Sus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.
+                                - (ventana emergente)
+                                  - (Ventana emergente: ¡Felicitaciones! Has desbloqueado: Meadweaver Backpack. Tus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.|color=#00FF00)
+                                  - (continue)
+                                - **{{#var:leslie}}:** ¡Aquí! Según lo acordado, aquí está mi hidromiel backpack.
+                              - (Condition: Segunda vez:)
+                                - **Player:** Entonces, ¿y ahora qué?
+                                - **{{#var:leslie}}:** Estoy en camino de hacer que estas abejas me amen de nuevo, no gracias a ti.
+                                - **Player:** Hice todo lo que me pediste.
+                                - **{{#var:leslie}}:** Evidentemente no muy bien.
+                                - **Player:** Bueno... Espero que las abejas siempre te odien.
+                                - **{{#var:leslie}}:** ¡Cómo te atreves!
+                                - **Player:** ¡Ah, y le diré a Ivy Sophista que destruiste su libro!
+                                - **{{#var:leslie}}:** ¡No te atrevas!
+                                - **Player:** Incluso después de todo lo que hice para ayudarte, no eres amable. ¿Por qué no debería hacerlo?
+                                - **{{#var:leslie}}:** ¡Está bien, lo siento!
+                                - **{{#var:leslie}}:** Pensaré más en cómo trato a los demás. Lo siento.
+                                - **Player:** No te creo.
+                                - **Player:** Debería decírselo, pero lo pensaré.
+                                - **{{#var:leslie}}:** ¡Gracias!
+                              - (Condition: Después:)
+                                - (Condition: Antes de hablar con Ivy Sophista:)
+                                  - **{{#var:leslie}}:** Gracias por no contarme a Ivy Sophista.
+                                  - **Player:** Todavía no he decidido si lo haré.
+                                - (Condition: Después de hablar con Ivy Sophista:)
+                                  - (Condition: Primera vez:)
+                                    - (Condition: Si le contaste a Ivy Sophista sobre Leslie:)
+                                      - **{{#var:leslie}}:** Ivy y los druidas me han prohibido volver con ellos.
+                                      - **{{#var:leslie}}:** No estoy enojado. Entiendo por qué les dijiste. Yo hubiera hecho lo mismo.
+                                      - **{{#var:leslie}}:** Lamento cómo te traté.
+                                    - (Condition: Si no le contaste a Ivy Sophista sobre Leslie:)
+                                      - **Player:** Decidí no decírselo a Ivy. Pero le señalé dónde puede encontrar su libro.
+                                      - **{{#var:leslie}}:** ¿Qué pasa si lo pescan en el río Lum y todavía tiene restos de miel?
+                                      - **{{#var:leslie}}:** Sabrán que fui yo. Los druidas han desterrado a la gente por menos.
+                                      - **Player:** Sinceramente, espero que así sea.
+                                      - **{{#var:leslie}}:** Bueno, creo que estás...
+                                      - **{{#var:leslie}}:** No, tenías razón antes. Necesito dejar de descargar mis problemas con los demás.
+                                      - **{{#var:leslie}}:** Puedo entender por qué te sientes así. Lamento cómo te traté.
+                                  - (Condition: Después:)
+                                    - **{{#var:leslie}}:** No hay nada más que hacer ahora. Gracias por toda tu ayuda.
+  - [Choice]: [More...]
+    - [Menu]: Elige una opción:
+      - [Choice]: cond=Before having handed in 1,500 nectar:|Habla de tareas.
+        - **{{#var:leslie}}:** No tengo tareas para ti actualmente. Pero vuelve pronto.
+        - [Vuelve después de entregar 1500 Nectar.]
+      - [Choice]: cond=After having handed in 1,500 nectar:|¿Por qué hay tantas abejas por ahí?
+        - (above|Why are so)
+      - [Choice]: Me gustaría entregar algo de néctar.
+        - (below|Hand-in for rewards)
+      - [Choice]: Adiós.
+        - **{{#var:leslie}}:** Adiós.
+      - [Choice]: [More...]
+        - (previous2)
+
+#### Después del final del evento
+
+- **{{#var:leslie}}:** ¡Lo logramos! El mejor hidromiel que Gielinor haya visto jamás. Gracias por tu ayuda.
+- [Menu]: Elige una opción:
+  - [Choice]: ¿Por qué hay tantas abejas por ahí?
+    - (above|Why are so)
+  - [Choice]: Me gustaría entregar algo de néctar.
+    - (below|Hand-in for rewards)
+  - [Choice]: Adiós.
+    - (above|Byeeee)
+
+### Hand-in for rewards
+
+
+#### Antes de entregar 20.000 néctar
+
+
+##### Sin néctar
+
+- No tienes nada que entregar.
+- (ventana emergente)
+  - (Ventana emergente: No tienes nada que entregar.|advertencia=yes)
+
+##### Con néctar
+
+- ((Lo siguiente se muestra en una interfaz titulada "Canjear moneda":))
+  - Entregar la moneda del evento aumentará tu progreso en este evento y desbloqueará recompensas únicas. Esto eliminará moneda hasta la cantidad necesaria para completar el evento.
+  - ¿Quieres continuar?
+    - [Choice]: NO
+      - ((La interfaz se cierra.))
+    - [Choice]: SI
+      - ((La interfaz se cierra y el diálogo continúa a continuación.))
+- (removes=smaller number of all and as much nectar as are missing from handing in 20,000)
+- (Condition: Si el player no ha entregado 10 001 néctar:)
+  - Entregas [número] Nectar. Debes entregar [número]K más para completar el evento.
+  - (ventana emergente)
+    - (Ventana emergente: entregas [número] Nectar. Debes entregar [número]K más para completar el evento).
+    - (continue)
+- (Condition: Si el player ha entregado entre 10.001 y 19.999 néctar:)
+  - Entregas [número] Nectar. Debes entregar [número] más para completar el evento.
+  - (ventana emergente)
+    - (Ventana emergente: entregas [número] Nectar. Debes entregar [número] más para completar el evento).
+    - (continue)
+- (Condition: Si el player ha entregado 20.000 néctar:)
+  - ¡Has completado el evento!
+  - (continue)
+- (Condition: Si los Footwraps de Meadweaver estuvieran desbloqueados:)
+  - ¡Felicitaciones! Has desbloqueado: Footwraps de Tejedor de Hidromiel. Sus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.
+  - (ventana emergente)
+    - (Ventana emergente: ¡Felicitaciones! Has desbloqueado: Footwraps de Tejedor de Hidromiel. Tus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.|color=#00FF00)
+    - (continue)
+- (Condition: Si los Guantes de Tejedor de Hidromiel estuvieran desbloqueados:)
+  - ¡Felicitaciones! Has desbloqueado: Guantes de tejedor de hidromiel. Sus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.
+  - (ventana emergente)
+    - (Ventana emergente: ¡Felicitaciones! Has desbloqueado: Guantes de tejedor de hidromiel. Tus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.|color=#00FF00)
+    - (continue)
+- (Condition: Si se desbloqueó una caja misteriosa de evento:)
+  - (Condition: Sin espacio backpack para la caja misteriosa del evento:)
+    - No tienes suficiente espacio backpack para algunas de las recompensas. Por favor, deja algo de espacio e inténtalo de nuevo.
+    - (ventana emergente)
+      - (Ventana emergente: No tienes suficiente espacio backpack para algunas de las recompensas. Crea algo de espacio e inténtalo de nuevo.|advertencia=yes)
+      - (continue)
+  - (Condition: Con espacio backpack para la caja misteriosa del evento:)
+    - (receives=event mystery box)
+    - Felicitaciones, ha recibido: 1 x Caja misteriosa del evento.
+    - (continue)
+- (Condition: Si Meadweaver Bottoms estuviera desbloqueado:)
+  - ¡Felicitaciones! Has desbloqueado: Fondos de Meadweaver. Sus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.
+  - (ventana emergente)
+    - (Ventana emergente: ¡Felicitaciones! Has desbloqueado: Pantalones de Tejedor de Hidromiel. Tus nuevos artículos se pueden encontrar en la Interfaz de personalizaciones.|color=#00FF00)
+    - (continue)
+- (Condition: Si Meadweaver Top estaba desbloqueado:)
+  - ¡Felicitaciones! Has desbloqueado: Top Tejedor de Hidromiel. Sus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.
+  - (ventana emergente)
+    - (Ventana emergente: ¡Felicitaciones! Has desbloqueado: Top Tejedor de Hidromiel. Tus nuevos artículos se pueden encontrar en la Interfaz de personalizaciones.|color=#00FF00)
+    - (continue)
+- (Condition: Si el Sombrero de Tejedor de Hidromiel estaba desbloqueado:)
+  - ¡Felicitaciones! Has desbloqueado: Sombrero de tejedor de hidromiel. Sus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.
+  - (ventana emergente)
+    - (Ventana emergente: ¡Felicitaciones! Has desbloqueado: Sombrero de tejedor de hidromiel. Tus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.|color=#00FF00)
+    - (continue)
+- (Condition: Si se desbloqueó el título 'The Bee-rilliant':)
+  - Has desbloqueado el título:
+  - {{Colour ZZCMD0ZZth}}{{Colour|#777856|e B}}{{Colour|#CCCF3A|ee}}{{Colour|#777856|-ri}}{{Colour|#CCCF3A|ll}}{{Colour|#777856|ia}}{{Colour|#CCCF3A|nt}}'}}
+  - Puede activar esto a través de la pestaña 'Títulos' en la interfaz 'Personalizaciones'.
+  - (continue)
+- (Condition: Si se desbloquearan cajas misteriosas de grandes eventos:)
+  - (Condition: Sin espacio backpack para las cajas misteriosas del gran evento:)
+    - No tienes suficiente espacio backpack para algunas de las recompensas. Por favor, deja algo de espacio e inténtalo de nuevo.
+    - (ventana emergente)
+      - (Ventana emergente: No tienes suficiente espacio backpack para algunas de las recompensas. Crea algo de espacio e inténtalo de nuevo.|advertencia=yes)
+      - (continue)
+  - (Condition: Con espacio backpack para las cajas misteriosas del gran evento:)
+    - (receives=two big event mystery boxes)
+    - Felicitaciones, ha recibido: 2 x Caja misteriosa del gran evento.
+    - (continue)
+- (Condition: Si Chunky Bee estaba desbloqueado:)
+  - ¡Felicitaciones! Has desbloqueado: Chunky Bee. Sus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.
+  - (ventana emergente)
+    - (Ventana emergente: ¡Felicitaciones! Has desbloqueado: Chunky Bee. Tus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.|color=#00FF00)
+    - (continue)
+- (Condition: Sin tener ninguna recompensa desbloqueada:)
+  - **{{#var:leslie}}:** Tendrás que ayudarme un poco más antes de poder ofrecerte alguna recompensa.
+- (Condition: Con algunas de las recompensas desbloqueadas:)
+  - Has desbloqueado [number claimed]/10 de las recompensas del evento Need for Mead.
+  - (Condition: Si se acaban de reclamar algunas recompensas nuevas:)
+    - **{{#var:leslie}}:** Gracias por tu ayuda. Nos estamos acercando a ese hidromiel perfecto.
+  - (Condition: Si no se acaban de reclamar nuevas recompensas:)
+    - **{{#var:leslie}}:** Tengo recompensas adicionales para ofrecer si puedes encontrar más néctar.
+
+#### Después de entregar 20.000 néctar
+
+- Has entregado tanta moneda como puedas en este evento. Puedes convertir cualquier moneda restante en recompensas consumibles.
+- (ventana emergente)
+  - (Ventana emergente: has entregado toda la moneda que puedas en este evento. Puedes convertir cualquier moneda restante en recompensas consumibles.|color=#FFC800)
+
+### Claim rewards
+
+
+#### Con recompensas para desbloquear
+
+- (above|claim)
+
+#### Sin recompensas para desbloquear
+
+
+##### Primera vez
+
+- **{{#var:leslie}}:** Ya has reclamado todas las recompensas que tengo para ofrecer. Sin embargo, puedes convertir cualquier néctar adicional que encuentres en cajas misteriosas.
+- Has desbloqueado todas las recompensas disponibles para este evento. Puedes convertir el néctar restante en cajas misteriosas.
+
+##### Después
+
+- (above|claim)
+
+### Open event
+
+
+#### Durante el evento
+
+- ((Se abre la interfaz del evento.))
+
+#### Después del evento
+
+- ((¡El voto ahora! Se abre la interfaz.))

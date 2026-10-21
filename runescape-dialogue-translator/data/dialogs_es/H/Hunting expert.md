@@ -1,0 +1,285 @@
+# Hunting expert
+
+- **Original Wiki Page**: [Transcript:Hunting expert](https://runescape.wiki/w/Transcript%3AHunting%20expert)
+- **Letter**: `H`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- [Menu]: ¿De qué te gustaría hablar?
+  - [Choice]: cond=If the player is below 99 Hunter|¿Qué es esa capa tan chula que llevas?
+    - **Player:** ¿Qué es esa capa tan chula que llevas puesta?
+    - **Hunting expert:** ¿Esto? Es un skillcape de Hunter. Demuestra que soy un verdadero maestro en el arte de la Caza. Si alguna vez logras entrenar tu habilidad Hunter al máximo nivel, entonces podría venderte uno.
+  - [Choice]: cond=If the player has 99 Hunter|Skillcape de Hunter.
+    - (Condition: Sin 120 Hunter virtuales:)
+      - (Condition: Si el player tiene un ring of charos (a) equipado:)
+        - **Hunting expert:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins por este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
+        - [Menu]: Elige una opción:
+          - [Choice]: ¿92.000 coins? Eso es demasiado caro.
+            - **Player:** Sé dónde encontrarte si cambio de opinión.
+          - [Choice]: De hecho, creo que tengo el dinero aquí.
+            - (Condition: Si el player no tiene espacio backpack:)
+              - **Hunting expert:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar algo de espacio en backpack antes de que pueda venderte uno.
+            - (Condition: Si el player no tiene suficiente dinero:)
+              - **Player:** Pero desafortunadamente me equivoqué.
+              - **Hunting expert:** Bueno, vuelve a verme cuando lo hagas.
+            - (Condition: Si el player tiene suficiente dinero:)
+              - (receives=hunter cape and hunter hood) (removes=92,000 coins)
+              - **Hunting expert:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+      - (Condition: Si el player no tiene un ring of charos(a) equipado:)
+        - [Menu]: Elige una opción:
+          - [Choice]: ¿99.000 coins? Eso es demasiado caro.
+            - **Player:** Sé dónde encontrarte si cambio de opinión.
+          - [Choice]: De hecho, creo que tengo el dinero aquí.
+            - (Condition: Si el player no tiene espacio backpack:)
+              - (arriba)
+            - (Condition: Si el player no tiene suficiente dinero:)
+              - (arriba)
+            - (Condition: Si el player tiene suficiente dinero:)
+              - (receives=hunter cape and hunter hood) (removes=99,000 coins)
+              - **Hunting expert:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+          - [Choice]: cond=With 120 virtual Hunter:|He dominado esta habilidad. ¿Hay algo más?
+            - **Hunting expert:** Hay algo... aunque lo he mantenido en secreto durante mucho tiempo. Es algo que sólo puede ser usado por un verdadero maestro.
+            - **Hunting expert:** Ni siquiera yo puedo usarlo, así de difícil es lograrlo.
+            - **Hunting expert:** Dices que eres un maestro. Ponte derecho, déjame echarte un vistazo...
+            - **Hunting expert:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Hunter master cape.
+            - [Menu]: ¿Comprar Hunter master cape por 120.000 coins?
+              - [Choice]: Sí.
+                - (Condition: Sin espacio libre backpack:)
+                  - **Hunting expert:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
+                - (Condition: Con espacio gratuito backpack:)
+                  - (Condition: Sin 120.000 coins:)
+                    - No tienes suficiente dinero para comprar esta capa.
+                    - (ventana emergente)
+                      - (Ventana emergente: No tienes suficiente dinero para comprar esta capa.|advertencia=yes)
+                  - (Condition: Con 120.000 coins:)
+                    - (removes=120,000 coins) (receives=Hunter master cape)
+                    - (Action: Suena música Master cape.)
+              - [Choice]: No.
+                - (end)
+    - (Condition: Con 120 Hunter virtuales:)
+      - **Hunting expert:** Ah, veo que soy un verdadero maestro de la caza.
+      - [Menu]: Selecciona una opción
+        - [Choice]: ¿Puedo comprar un skillcape de Hunter?
+          - (above|99 cape)
+        - [Choice]: He dominado esta habilidad. ¿Hay algo más?
+          - (above|120 cape)
+  - [Choice]: cond=If the player has 99 Hunter|He notado que hay un par de versiones de cada skillcape.
+    - **Hunting expert:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
+    - (Condition: Si usas el modelo antiguo:)
+      - **Hunting expert:** Parece que actualmente estás usando el modelo antiguo para tu cazador skillcape. ¿Quieres cambiar a uno más nuevo?
+      - (continue)
+    - (Condition: Si utiliza el nuevo modelo:)
+      - **Hunting expert:** Aún puedes elegir usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
+      - (continue)
+    - [Menu]: Selecciona una opción
+      - [Choice]: Sí, me gustaría usar la versión [new/old] del skillcape.
+        - **Hunting expert:** ¿Te gustaría usar el modelo [old/newer] solo para esta capa, o para el Quest Cape y todos los skillcapes que tienes?
+        - [Menu]: Selecciona una opción
+          - [Choice]: Solo me gustaría cambiar el cazador skillcape.
+            - **Hunting expert:** No hay problema, ahora usarás el modelo [older/newer] para tu cazador skillcape.
+          - [Choice]: Me gustaría cambiar todos mis skillcapes.
+            - **Hunting expert:** ¡No hay problema, ahora usarás el modelo [older/newer] para todos tus skillcapes!
+          - [Choice]: ¡He cambiado de opinión!
+            - (end)
+      - [Choice]: No, gracias.
+        - **Hunting expert:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
+        - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+          - **Hunting expert:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
+          - [Menu]: Selecciona una opción
+            - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.
+              - **Hunting expert:** ¡Genial, ahora usarás el modelo antiguo para todos tus skillcapes!
+            - [Choice]: No, gracias.
+              - (end)
+  - [Choice]: ¿Puedes ayudarme con los outfits de the trapper?
+    - **Player:** ¿Puedes ayudarme con los outfits de the trapper?
+    - (Condition: Si el player no puede recibir fragmentos de trampero y no ha desbloqueado el plano necesario para crear las piezas del atuendo:)
+      - **Hunting expert:** En el nivel 70 puedes comenzar a recolectar fragmentos para crear trajes de habilidades de élite. Cuando llegues a ese nivel, automáticamente comenzarás a recolectar fragmentos. Luego puedes usarlos con un plano para hacerte las piezas restantes del atuendo de élite para esta habilidad.
+    - (Condition: Si el player puede recibir fragmentos de trampero pero no ha desbloqueado el plano necesario para crear las piezas del atuendo:)
+      - **Hunting expert:** Estás configurado para recibir fragmentos. Cuando llegues al nivel 80 podrás crear prendas de vestir.
+    - (Condition: Si el player puede recibir fragmentos de trampero y ha desbloqueado el plano necesario para fabricar las piezas del atuendo:)
+      - **Hunting expert:** Estás configurado para recibir fragmentos. Cuando tengas 3600 fragmentos, podrás usarlos para crear una pieza de atuendo de élite. Simplemente acude a un banco de trabajo Invention para crear las piezas.
+    - (Condition: Si el player posee el traje de trampero volcánico completo o todas las piezas necesarias para crearlo:)
+      - **Hunting expert:** Ya has creado todas las prendas posibles. Me aseguraré de que no reciba más fragmentos. Recuerda que puedes combinar las piezas del conjunto básico para hacer las versiones de nivel alto y obtener beneficios adicionales.
+  - [Choice]: Caza.
+    - **Hunting expert:** Vaya, extraño, ten cuidado por dónde caminas. Casi te golpeo allí; Pensé que eras una larupia o algo así.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Qué estás haciendo aquí?
+        - **Player:** ¿Qué haces aquí?
+        - **Hunting expert:** ¿Yo? Oh, sólo me estoy divirtiendo, capturando animales salvajes, viviendo al límite, cosas así.
+        - **Hunting expert:** Oye, ¿quieres que te enseñe cómo atrapar a los bichos de por aquí? No encontré nada todavía que no pudiera capturar.
+        - [Menu]: Selecciona una opción
+          - [Choice]: Bien, ¿dónde es un buen lugar para empezar?
+            - **Player:** Ok, ¿cuál es un buen lugar para empezar?
+            - **Hunting expert:** Tu apuesta más fácil por aquí probablemente sea buscar algunas de las aves. Ve por los vencejos carmesí; son los de color rojo brillante que merodean cerca de la costa. Son tan serviciales como puede ser, o tal vez simplemente son tontos, pero de cualquier manera parecen arrojarse a trampas la mitad del tiempo.
+            - **Player:** ¿Qué tipo de trampas debo usar?
+            - **Hunting expert:** Simplemente usa una trampa para pájaros estándar y todo estará bien. Puedes conseguirlos en cualquier tienda decente que venda equipos Hunter.
+            - **Player:** ¿Cómo funcionan entonces?
+            - **Hunting expert:** Bueno, son un poco astutos, en realidad. Tienes un poste alto con lo que parece ser una pequeña percha que sobresale del costado. Ahora, el pájaro verá esto como un lugar para sentarse, pero la percha en realidad está preparada de tal manera que cuando el pájaro aterrice en ella, se caerá.
+            - **Hunting expert:** Además, a medida que la percha cae, suelta una soga que se aprieta alrededor de las patas del pájaro y lo captura. Genial ¿eh?
+            - **Hunting expert:** Entonces, ¿había algo más que quisieras preguntar?
+            - [Menu]: Selecciona una opción
+              - [Choice]: ¿Qué otro tipo de cosas se pueden pescar por aquí?
+                - **Player:** ¿Qué otro tipo de cosas se pueden pescar por aquí?
+                - (continue|interest)
+              - [Choice]: Gracias por tu ayuda.{{anchor|thanks}}
+                - **Player:** Gracias por tu ayuda.
+                - **Hunting expert:** No hay problema, en cualquier momento.
+          - [Choice]: ¿Qué tipo de cosas hay que pescar por aquí?
+            - **Player:** ¿Qué tipo de cosas se pueden pescar por aquí?
+            - **Hunting expert:{{anchor|interest}}** ¿Qué te interesa? Tienes de todo, desde pájaros para principiantes hasta larupias para profesionales, sin mencionar comadrejas, mariposas, colas de púas, chinchompas y hábiles.
+            - [Menu]: Selecciona una opción
+              - [Choice]: ¿Cómo haría para atrapar pájaros?
+                - **Player:** ¿Cómo haría para atrapar pájaros?
+                - **Hunting expert:** Hay un par de variedades que puedes intentar atrapar por aquí, pero la técnica para ambas es esencialmente la misma. Necesitas instalar una trampa para pájaros.
+                - **Player:** ¿Cómo funcionan entonces?
+                - **Hunting expert:** Bueno, son un poco astutos, en realidad. Tienes un poste alto con lo que parece ser una pequeña percha que sobresale del costado. Ahora, el pájaro verá esto como un lugar para sentarse, pero la percha en realidad está preparada de tal manera que cuando el pájaro aterrice en ella, se caerá.
+                - **Hunting expert:** Además, a medida que la percha cae, suelta una soga que se aprieta alrededor de las patas del pájaro y lo captura. Genial, ¿eh?
+                - **Hunting expert:** Entonces, ¿había algo más que quisieras preguntar?
+                - [Menu]: Seleccione una opción{{anchor|ask2}}
+                  - [Choice]: Me gustaría preguntar sobre otra criatura...
+                    - (previous2)
+                  - [Choice]: ¿Cómo puedo mejorar mis posibilidades de realizar una captura?
+                    - (below|capture)
+                  - [Choice]: ¿Dónde puedo conseguir ropa y equipamiento como el tuyo?
+                    - (below|clothes)
+                  - [Choice]: Gracias por tu ayuda.
+                    - (above|thanks)
+              - [Choice]: ¿Cómo consigo una comadreja?
+                - **Player:** ¿Cómo consigo una comadreja?
+                - **Hunting expert:** No con grandes cantidades de arroz y melaza como mucha gente quiere hacer creer. Además, la comadreja Feldip no es técnicamente una comadreja, pero, como es típico con cualquier tipo de nombre coloquial, se la ha llamado así con bastante frecuencia ahora que está estancada.
+                - **Hunting expert:** De todos modos, la principal técnica de supervivencia de la comadreja Feldip es esconderse; Aparte de eso, es bastante estúpido. Entonces, si realmente puedes encontrar uno, entonces probablemente tengas muchas posibilidades de atraparlo.
+                - **Player:** ¿Y cómo haría para encontrar uno?
+                - **Hunting expert:** El mejor lugar para empezar probablemente sería justo al sur de aquí. Allí encontrarás muchas madrigueras de kebbit. Echa un vistazo de cerca a algunos de ellos, sigue los senderos y no te equivocarás mucho.
+                - (continuea|ask2)
+              - [Choice]: Bueno, ya que parece que te gustan tanto las larupias...
+                - **Player:** Bueno, ya que parece que te gustan tanto las larupias...
+                - **Hunting expert:** Ah si, si, las larupias son divertidas; solo piensa en ellos como gatitos grandes.
+                - **Player:** ¡Ajá, gatitos grandes que solo quieren arrancarte la garganta!
+                - **Hunting expert:** Efectivamente, y puedes utilizar esto a tu favor. Si una larupia quiere perseguirte, déjala; de esa manera podrás llevarlo felizmente directamente a tu trampa sin ningún problema ni esperas.
+                - **Player:** ¿A qué tipo de trampa debería llevarlo?
+                - **Hunting expert:** Una trampa de pozo debería ser suficiente. Hay algunos pozos apropiados al este de aquí que puedes usar. Cubre uno con algunos logs y ramas, molesta al gatito y luego llévalo al hoyo. Simple.
+                - (continuea|ask2)
+              - [Choice]: Las colas de púas suenan interesantes.
+                - **Player:** Las colas de púas suenan interesantes.
+                - **Hunting expert:** Suenan interesantes, ¿no? Desafortunadamente, en realidad son solo otro tipo de kebbit; esas cosas llegan a todas partes. Aun así, las colas de estos kebbits en particular pueden resultar útiles para pescar.
+                - **Player:** Entonces, ¿cómo haría para atrapar a uno de ellos?
+                - **Hunting expert:** Simplemente aplástalos con una roca, rápido y sencillo.
+                - **Player:** ¿Qué? ¿Quieres decir simplemente recoger algunas rocas y empezar a tirarlas a los kebbits? Eso no suena sencillo.
+                - **Hunting expert:** No es tonto, dejas que la criatura se aplaste. Simplemente usa algunos palos para sostener una roca en una posición agradable y precaria, coloca un poco de cebo debajo y deja que la criatura se derribe.
+                - (continuea|ask2)
+              - [Choice]: Más...
+                - [Menu]: Selecciona una opción
+                  - [Choice]: ¿Qué diablos es una chinchompa?
+                    - **Player:** ¿Qué diablos es una chinchompa?
+                    - **Hunting expert:** Awwww, las chinchompas están buenísimas. Son bolitas de pelusa muy volátiles. Lindos como quieras, pero por alguna razón tienen esta tendencia a arder espontáneamente.
+                    - **Player:** ¿Qué? ¿Por qué?
+                    - **Hunting expert:** Probablemente tenga algo que ver con el hecho de que comen cualquier cosa, especialmente comida picante.
+                    - **Hunting expert:** De todos modos, si quieres capturar una chinchompa, te sugiero usar una caja trampa. De esa manera, si la pequeña bola de pelusa explota, al menos la mayor parte de la explosión quedará contenida dentro de la caja.
+                    - (continuea|ask2)
+                  - [Choice]: Una habilidad... ¿y ahora qué?
+                    - **Player:** Una habilidad. ¿Y ahora qué?
+                    - **Hunting expert:** ¡Una habilidad chompa! Parecen una especie de chinchompa mutada, excepto que en lugar de excitarse mucho y explotar en situaciones de combate, les ha gustado una variedad de recursos naturales.
+                    - **Player:** ¿Qué tipo de cosas hacen entonces?
+                    - **Hunting expert:** Bueno, claramente han estado observando a los humanos que han estado entrenando sus habilidades y destrezas. ¡Parecen entusiasmarse mucho con la energía de adivinación, los lugares de pesca, las rocas mineras e incluso los árboles!
+                    - **Player:** ¿Cómo los cazo entonces?
+                    - **Hunting expert:** Son muy similares a las chinchompas, por lo que necesitarás algunas cajas trampa. Si realmente quieres atraerlos, también puedes utilizar algún cebo. La comida picante parece funcionar.
+                    - (continuea|ask2)
+                  - [Choice]: De alguna manera las mariposas no me parecen tu tipo de cosas.
+                    - **Player:** De alguna manera, las mariposas no me parecen tu tipo de cosas.
+                    - **Hunting expert:** No realmente, pero a algunas personas les gustan. Sin embargo, los que hay por aquí son al menos vagamente interesantes. Las negras son mariposas supuestamente mágicas.
+                    - **Player:** ¿No los hace eso más difíciles de atrapar?
+                    - **Hunting expert:** No particularmente; todavía puedes atraparlos usando un cazamariposas común y corriente. Ah, y probablemente también necesitarás algunos frascos de mariposas para guardarlos.
+                    - (continuea|ask2)
+                  - [Choice]: Atrás...
+                    - (previous2)
+          - [Choice]: ¿Cómo puedo mejorar mis posibilidades de realizar una captura?{{anchor|capture}}
+            - **Player:** ¿Cómo puedo mejorar mis posibilidades de realizar una captura?
+            - **Hunting expert:** Hay cuatro factores clave que afectarán tus posibilidades: qué cebo usas, qué tan cerca de la trampa estás, tu apariencia y tu olor.
+            - [Menu]: Selecciona una opción
+              - [Choice]: ¿Cómo ayuda el cebo?
+                - **Player:** ¿Cómo ayuda el cebo?
+                - **Hunting expert:** Desafortunadamente, las criaturas no saltan a las trampas simplemente por diversión con tanta frecuencia como a nosotros, como cazadores, nos gustaría. Sin embargo, es posible mejorar esas probabilidades si puedes encontrar el cebo adecuado para usar en tu trampa, algo que tu
+                - **Hunting expert:** la presa realmente anhela, entonces el hambre anula el miedo y es un poco más probable que la criatura rebote hacia su pequeña y peluda perdición. De hecho, algunas criaturas ni siquiera se acercarán a una trampa a menos que esté cebada correctamente.
+                - (otro)
+              - [Choice]: ¿Por qué es importante qué tan cerca estoy de la trampa?
+                - **Player:** ¿Por qué es importante qué tan cerca estoy de la trampa?
+                - **Hunting expert:** Por muy bien que te estés integrando, si estás parado con la nariz pegada a tu propia trampa, los pobres bichos no se acercarán a ella. Por lo tanto, debes asegurarte de poner una distancia prudente.
+                - **Hunting expert:** Yo diría que al menos cuatro zancadas, entre tú y tu trampa.
+                - (otro)
+              - [Choice]: ¿Por qué a las criaturas les importaría mi apariencia?
+                - **Player:** ¿Por qué a las criaturas les importaría mi apariencia?
+                - **Hunting expert:** Eres un humano. Desde el punto de vista de muchas criaturas, eres grande y aterrador. Entonces, sería mejor si los pequeños monstruos peludos no te notaran. Necesitas integrarte como las propias criaturas.
+                - **Player:** ¿Y cómo hago eso?
+                - **Hunting expert:** Fácil, vístete como uno de ellos. Aún más fácil, vístete con las pieles de las propias criaturas; entonces seguramente acertarás con el color. Y supongo que si no te apetece simplemente echarte un pelo muerto sobre los hombros,
+                - **Hunting expert:** probablemente pueda convertirlos en algo más atractivo. He oído que hay sastres en Varrock que son buenos en ese tipo de cosas.
+                - (otro)
+              - [Choice]: ¿Qué le pasa a mi olor?
+                - **Player:** ¿Qué le pasa a mi olor?
+                - **Hunting expert:** Estoy seguro de que tu olor no tiene nada de malo... desde el punto de vista humano. Pero para tu presa, cualquier trampa que hayas tendido apestará a humano, y eso funcionará en tu contra si no haces nada al respecto.
+                - **Player:** Entonces, ¿qué debo hacer?
+                - **Hunting expert:** Necesitas enmascarar ese encantador aroma humano tuyo con algo más. El humo funciona bien. Toma una antorcha encendida y pásala un poco por la trampa. Rápidamente dominarás la mayoría de los otros olores alrededor de la trampa.
+                - (otro)
+          - [Choice]: ¿Dónde puedo conseguir ropa y equipamiento como el tuyo?{{anchor|clothes}}
+            - **Player:** ¿Dónde puedo conseguir ropa y equipos como el tuyo?
+            - **Hunting expert:** Bueno, el equipo no es demasiado difícil de conseguir. Tienes tiendas especializadas como la de Aleck en Yanille que te atenderán bien. Es un poco caro, pero es un equipo bastante decente.
+            - **Hunting expert:** La ropa es un poco más difícil de conseguir, ya que los materiales necesarios son bastante difíciles de separar de sus reacios dueños.
+            - **Hunting expert:** Pero, si puedes conseguir las pieles, hay tiendas como la sastrería en el este de Varrock que pueden ayudarte.
+            - [Menu]: Selecciona una opción
+              - [Choice]: Entonces, ¿qué es bueno cazar por aquí?
+                - **Player:** Entonces, ¿qué es bueno para cazar por aquí?
+                - (continuea|interest)
+              - [Choice]: ¿Cómo puedo mejorar mis posibilidades de realizar una captura?
+                - (above|capture)
+              - [Choice]: Gracias por tu ayuda.
+                - (above|thanks)
+          - [Choice]: Creo que lo dejaré pasar ahora mismo.
+            - **Player:** Creo que lo dejaré pasar ahora mismo, gracias.
+            - **Hunting expert:** ¡Haz lo que quieras!
+      - [Choice]: ¿Qué es una larupia?
+        - **Player:** ¿Qué es una larupia?
+        - **Hunting expert:** ¿Qué es una larupia? ¿No lo sabes? ¿Quieres decir que realmente no reconoces el significado de esta ropa que llevo?
+        - **Player:** Bueno, ciertamente son decorativos... ¿qué pasa con ellos?
+        - **Hunting expert:** Bueno, estas son las pieles de una larupia. Yo mismo atrapé a la criatura y esto me hace integrarme mejor, ¿ves?
+        - **Hunting expert:** Si quieres tener éxito como cazador, debes ser tan sigiloso como un kyatt, tan silencioso como un ratón y mezclarte como, bueno, como una larupia, ¡supongo!
+        - [Menu]: Selecciona una opción
+          - [Choice]: Entonces, ¿qué es bueno cazar por aquí?
+            - **Player:** Entonces, ¿qué es bueno para cazar por aquí?
+            - (continuea|interest)
+          - [Choice]: ¿Cómo puedo mejorar mis posibilidades de realizar una captura?
+            - (above|capture)
+          - [Choice]: ¿Dónde puedo conseguir ropa y equipamiento como el tuyo?
+            - (above|clothes)
+      - [Choice]: ¿Tienes algo a la venta?
+        - **Player:** ¿Tienes algo a la venta?
+        - **Hunting expert:** Tengo algunos detalles que podrían interesarle a un cazador en ciernes como usted.
+        - (opens=Hunting Supplies (Feldip Hunter area))
+      - [Choice]: ¿Qué es esa capa tan chula que llevas?
+        - **Player:** ¿Qué es esa capa tan chula que llevas puesta?
+        - **Hunting expert:** ¿Esto? Es un skillcape de Hunter. Demuestra que soy un verdadero maestro en el arte de la Caza. Si alguna vez logras entrenar tu habilidad Hunter al máximo nivel, entonces podría venderte uno.
+      - [Choice]: Ahh, déjame en paz, loco asesino.
+        - **Player:** Ahh, déjame en paz, loco asesino.
+        - **Hunting expert:** Je, bueno, supongo que no es cosa de todos.
+  - [Choice]: cond=If the player has completed While Guthix Sleeps|Una criatura para ayudar a localizar a una persona.
+    - **Player:** Hola.
+    - **Hunting expert:** Ah, hola. ¿Cómo va la caza?
+    - [Menu]: Selecciona una opción
+      - [Choice]: La caza va bien, gracias.
+        - **Player:** ¡La caza va bien, gracias! ¡Aprecio que me hayas presentado la habilidad!
+        - **Hunting expert:** Es un placer. Nada supera la emoción de sobrevivir gracias a tus propias habilidades e instintos. Por supuesto, no debemos darlo por sentado y también debemos ser respetuosos con el medio ambiente.
+        - **Player:** Ah, sí, estoy totalmente de acuerdo.
+        - (previous)
+      - [Choice]: Necesito conseguir otro broav.
+        - **Player:** Necesito conseguir otro broav.
+        - **Hunting expert:** No hay problema, sólo tendrás que atrapar otro y traérmelo. Hay un antiguo lugar para atrapar trampas al oeste que puedes usar. Tendrás que conseguir un hongo de Morytania como lo hice yo.
+        - (previous)
+      - [Choice]: ¿Cómo puedo hacer que mi broav rastree a alguien?
+        - **Hunting expert:** Consigue algo que pertenezca a la persona que deseas rastrear y deja que el amigo lo huela por un rato. Debería poder rastrear un olor desde una buena distancia.
+        - (previous)
+      - [Choice]: Bien, gracias.
+        - **Player:** Está bien, gracias.

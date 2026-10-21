@@ -1,0 +1,123 @@
+# Entrance Guardian
+
+- **Original Wiki Page**: [Transcript:Entrance Guardian](https://runescape.wiki/w/Transcript%3AEntrance%20Guardian)
+- **Letter**: `E`
+
+---
+
+## Dialogue Transcript
+
+
+### First-time dialogue
+
+- **Player:** Hi.
+- **Entrance Guardian:** Greetings. What wisdom do you seek?
+- **Select an Option**
+  - [Choice]: I'm new to this place. Where am I?
+    - **Player:** I'm new to this place. Where am I?
+    - **Entrance Guardian:** Well young one, you have entered the Magic Training Arena. It was built at the start of the Fifth Age, when runestones were first discovered. It was made because of the many pointless accidents caused by inexperienced
+    - **Entrance Guardian:** mages.
+    - **Player:** Who created it?
+    - **Entrance Guardian:** Good question. It was originally made by the ancestors of the wizards in the Wizards Tower. However, it was destroyed by melee and ranged warriors who took offence at the use of this new 'Magic Art'. Recently, the current
+    - **Entrance Guardian:** denizens of the Wizards Tower have resurrected the arena including various Guardians you will see as you look around. We are here to help and to ensure things run smoothly.
+    - **Player:** Interesting. So what can I do here?
+    - **Entrance Guardian:** You may train up your skill in the magic arts by travelling through one of the portals at the back of this entrance hall. By training up in one of these areas you will be awarded special Pizazz Points unique to each room. With
+    - **Entrance Guardian:** these points you may claim a variety of items from my fellow guardian up the stairs.
+    - **Player:** How do you record the points I have earned?
+    - **Entrance Guardian:** You really are full of questions! You will need a special Pizazz Progress Hat! I can give you one if you so wish to train here.
+    - **Player:** Yes please!
+    - (Condition: Without one free backpack space:)
+      - **Entrance Guardian:** Ah, I'm afraid I can't give it to you as you don't have room to carry it!
+    - (receives=progress hat)
+    - **Entrance Guardian:** Here you go. Talk to the hat to find out your current Pizazz Point totals.
+    - **Player:** Talk to it?
+    - **Entrance Guardian:** Well of course, it's a magic Pizazz Progress Hat! Mind your manners though, hats have feelings too!
+    - **Player:** Er... if you insist.
+    - **Entrance Guardian:** Oh, and a word of warning: should you decide to leave the rooms by any method other than the exit portals, you will be teleported to the entrance and have any items that you picked up in the room removed.
+    - {{anchor|they-lead}} **Player:** Can you explain the different portals?
+    - **Entrance Guardian:** They lead to four areas to train your magic: The Telekinetic Theatre, The Alchemists' Playground, The Enchanting Chamber, and The Creature Graveyard.
+    - [Menu]: Select an Option
+      - [Choice]: What's the Telekinetic Theatre?
+        - **Player:** What's the Telekinetic Theatre?
+        - **Entrance Guardian:** In there you can earn Telekinetic Pizazz Points for trade upstairs.
+        - **Player:** What will I be doing in there?
+        - **Entrance Guardian:** That depends on how much of a time-waster you are! You are required to use the Telekinetic Grab spell in order to move a statue through a maze. Casting the spell will move the statue towards you until it reaches a wall. So by
+        - **Entrance Guardian:** standing on the different sides of the maze you can move the statue North, East, South or West. You will be rewarded Pizazz Points for each maze successfully solved.
+        - **Entrance Guardian:** It will be clearer when you arrive and there's a Guardian through the portal that will be able to tell you more. There's a book you can buy from the Rewards Guardian upstairs that will explain it all.
+        - (previous)
+      - [Choice]: What's the Alchemists' Playground?
+        - **Player:** What's the Alchemists' Playground?
+        - **Entrance Guardian:** In the playground you can earn Alchemist Pizazz Points for trading with the rewards guardian upstairs.
+        - **Player:** What's in there?
+        - **Entrance Guardian:** You'll find eight cupboards containing items you can turn to gold using the low and high alchemy spells. The money you earn will be taken from you upon leaving the playground to pay for the upkeep of this training arena
+        - **Entrance Guardian:** and to help fund magic shops around Gielinor. You will be rewarded with 1 Pizazz Point for every 100 coins deposited and a percentage of the money you create. Keep in mind that you will not be able to take more than 1000 coins
+        - **Entrance Guardian:** back out with you.
+        - **Player:** Sounds simple.
+        - **Entrance Guardian:** I am afraid not, for the cost of the items varies, as does their locations in the cupboards. You'll see a list of item costs that will help you decide what you should be converting to gold.
+        - **Entrance Guardian:** Fear not, it will be clearer when you arrive and there's a Guardian through the portal that will be able to tell you more. You can also buy a book from the Rewards Guardian upstairs that will explain it all.
+        - (previous)
+      - [Choice]: What's the Enchanting Chamber?
+        - **Player:** What's the Enchanting Chamber?
+        - **Entrance Guardian:** In here you will be able to earn Enchantment Pizazz Points for trade upstairs.
+        - **Player:** What will I have to do?
+        - **Entrance Guardian:** You will find yourself amongst various piles of shapes. You can pick up these shapes and use one of your enchanting spells upon it to morph it into an orb. You'll also see a hole in the centre of the room; put the orbs in here and for
+        - **Entrance Guardian:** every 20 we will credit you with a gift. You will get Pizazz Points for every 10 shapes that you convert and the amount of points depends on the spell you use.
+        - **Player:** What's the difference between the shapes?
+        - **Entrance Guardian:** Ah, you will be notified of a different shape that will give you a bonus Pizazz Point when you convert that shape. You should also look out for dragon stones, as these will give you more Pizazz Points when you convert them.
+        - **Entrance Guardian:** It will be clearer when you arrive and there's a Guardian through the portal that will be able to tell you more. You can also buy a book from the Rewards Guardian upstairs that will explain it all.
+        - (previous)
+      - [Choice]: What's the Creature Graveyard?
+        - **Player:** What's the Creature Graveyard?
+        - **Entrance Guardian:** In here you will be able to earn Graveyard Pizazz Points for trade upstairs.
+        - **Player:** But what do I have to do in there?
+        - **Entrance Guardian:** Patience young one. A great many creatures die in this world and much of their remains can cause clutter. We have taken it upon ourselves to teleport many bones from these creatures into this graveyard for a use. It's up to
+        - **Entrance Guardian:** you to practice your bones to bananas spell in order to put these bones into immediate use - nutritious food for monsters! Just convert the bones and put them in the holes in the walls. There is a drawback to this room
+        - **Entrance Guardian:** however, the bones often fall on people so you may want to eat some of those bananas to stay alive. When people die we confiscate Pizazz Points for the effort of teleporting incompetent mages.
+        - **Player:** What else do I get from this besides bruises?
+        - **Entrance Guardian:** As well as the Pizazz Points for giving us the bananas, you will be credited with runestones for your efforts, and you may be able to save up for a new kind of spell to use in the graveyard!
+        - **Entrance Guardian:** It will be clearer when you arrive and one of my fellow guardians through the portal will be able to tell you more. You can also buy a book from the Rewards Guardian upstairs that will explain it all.
+        - (previous)
+      - [Choice]: Thanks, bye!
+        - **Player:** Thanks, bye!
+        - **Entrance Guardian:** Use what you have learned.
+  - [Choice]: None, I don't really care.
+    - **Player:** None, I don't really care.
+    - **Entrance Guardian:** You won't gain with that attitude.
+
+### Subsequent dialogue
+
+- **Player:** Hi.
+- **Entrance Guardian:** Greetings. What wisdom do you seek?
+- **Select an Option**
+  - [Choice]: Can you tell me about this place again?
+    - **Player:** Can you tell me about this place again?
+    - **Entrance Guardian:** Very well. You have entered the magic training arena. It was built at the start of the Fifth Age, when runestones were first discovered. It was made because of the many pointless accidents caused by inexperienced mages.
+    - **Player:** Who created it?
+    - **Entrance Guardian:** Good question. It was originally made by the ancestors of the wizards in the Wizards Tower. However, it was destroyed by melee and ranged warriors who took offence at the use of this new 'Magic Art'. Recently, the current
+    - **Entrance Guardian:** denizens of the Wizards Tower have resurrected the arena including various Guardians you will see as you look around. We are here to help and to ensure things run smoothly.
+    - **Player:** Interesting. So what can I do here?
+    - **Entrance Guardian:** You may train up your skill in the magic arts by travelling through one of the portals at the back of this entrance hall. By training up in one of these areas you will be awarded special Pizazz Points unique to each room. With these points you
+    - **Entrance Guardian:** may claim a variety of items from my fellow guardian up the stairs.
+    - **Player:** How do you record the Pizazz Points I have earned?
+    - **Entrance Guardian:** With the special Pizazz Progress Hat I gave you, of course!
+    - **Player:** OK.
+    - **Entrance Guardian:** Oh, and a word of warning: should you decide to leave the rooms by any method other than the exit portals, you will be teleported to the entrance and have any items that you picked up in the room removed.
+    - (initial)
+  - [Choice]: Can you explain the different portals?
+    - (above|they-lead)
+  - [Choice]: About the progress hat...
+    - **Player:** About the Progress Hat...
+    - (Condition: If the player has destroyed their progress hat:)
+      - **Entrance Guardian:** You want another one don't you.
+      - **Player:** Sorry, can I?
+      - (receives=progress hat)
+      - **Entrance Guardian:** Here you go. Talk to the hat to find out your current Pizazz Point totals.
+      - (initial)
+    - (Condition: If the player still has their progress hat:)
+      - **Entrance Guardian:** Which you have stored somewhere I'm sure.
+      - **Player:** Yes. What's it for?
+      - **Entrance Guardian:** Collect Pizazz Points from the various areas and the hat will remember your totals. Talk to the hat at any time to find out what points you have. Go upstairs and talk to the Rewards Guardian to claim items for the points.
+      - (initial)
+  - [Choice]: Thanks, bye!
+    - **Player:** Thanks, bye!
+    - **Entrance Guardian:** Use what you have learned.

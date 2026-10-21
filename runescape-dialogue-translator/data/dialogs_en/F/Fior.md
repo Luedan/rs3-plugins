@@ -1,0 +1,65 @@
+# Fior
+
+- **Original Wiki Page**: [Transcript:Fior](https://runescape.wiki/w/Transcript%3AFior)
+- **Letter**: `F`
+
+---
+
+## Dialogue Transcript
+
+- **Player:** Hi. What are you doing?
+- **Fior:** Relaxing after a long day at the factory.
+- **Fior:** If I keep up this winning streak, I mightn't have to go into work tomorrow.
+- **Player:** Do you mind me asking how much you have won?
+- **Fior:** Not at all, I'm up 10 coins so far.
+- **Player:** Umm ok.
+- **Player:** So how do these rat pits work?
+- **Fior:** The Keldagrim pits cater for those with the larger variety of cats.
+- **Fior:** If you have an overgrown cat and a couple of coins you can challenge someone else who also has an overgrown cat and some spare change.
+- **Player:** That sounds simple enough so far.
+- **Fior:** You then agree on a wager. It's rumoured that some ratcatchers can talk to their own cats and give them tactics to aid them.
+- **Player:** So then how do you win the challenge?
+- **Fior:** I was just getting to that. Both the gamblers' cats are placed inside of the fenced off area, and whoever kills 9 rats first wins.
+  - **Player:** That sounds vile and cruel.
+    - **Fior:** It's a cruel world and the pits are no exception.
+    - **Fior:** Each to their own I say.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** It sounds a little dangerous for my cat.
+    - **Fior:** I agree. Cats have been known to be killed in fights.
+    - **Player:** Oh how terrible. Is there nothing you can do to save your cat?
+    - **Fior:** Of course there is, you can instruct it to be cautious, and it will leave once it feels as if it is in danger.
+    - **Player:** Oh that sounds quite wise.
+    - **Fior:** That depends on how you value your cat.
+    - **Player:** Sorry, I don't follow.
+    - **Fior:** Well if your cat dies or it runs away you lose.
+    - **Fior:** So the longer it stays in the fight the better chance you have of winning.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Wow that sounds like fun!
+    - **Fior:** I don't know about that.
+    - **Fior:** One thing I know though is that it's a quick way to make and lose money.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Is there a limit to how much you can bet?
+    - **Fior:** Hmmm...let me see. If I'm not mistaken, you can currently bet up to a maximum of [number] coins.
+    - **Player:** That sounds like a silly amount of money to bet on a cat fight.
+    - **Fior:** You'd be surprised what some people would be willing to bet.
+    - **Fior:** There is a minimum bet of 100 coins too.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Can I challenge you and your cat?
+    - **Fior:** No, not now, we don't really bet with outsiders.
+    - **Player:** But I'm not an outsider, am I not inside in the pits now?
+    - **Fior:** I don't know, maybe once you've done something to win over my trust.
+    - **Player:** Can it be bought?
+    - **Fior:** What?
+    - **Player:** Your trust.
+    - **Fior:** No. Regular townsfolk don't like us, which leads us to distrust them and anyone else.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.

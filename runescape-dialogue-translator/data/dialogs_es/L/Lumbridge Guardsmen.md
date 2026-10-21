@@ -1,0 +1,194 @@
+# Lumbridge Guardsmen
+
+- **Original Wiki Page**: [Transcript:Lumbridge Guardsmen](https://runescape.wiki/w/Transcript%3ALumbridge%20Guardsmen)
+- **Letter**: `L`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### On the {{floorNumber|1}} and {{floorNumber|2}} of Lumbridge Castle
+
+- ((el player saluda con uno de los siguientes al azar:))
+  - **Player:** Saludos.
+  - **Player:** Buenos días.
+  - **Player:** Hola.
+  - **Player:** ¡Saludos!
+  - **Player:** Encantado de conocerte.
+  - (continue)
+- ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+  - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Bien recibido, aventurero.
+  - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Bueno, hola.
+  - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Buenos días, aventurero.
+  - (continue)
+- [Menu]: ¿Qué te gustaría decir?
+  - [Choice]: Cuéntame más sobre el Lumbridge Guardsmen.
+    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - (Diálogo 1 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Hablé con algunas personas que me preguntaron sobre cómo inscribirme en los guardias. Para que te pregunten, debes ser un verdadero local. Nuestras tropas están listas para la acción.
+      - (initial)
+    - (Diálogo 2 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** No pretenderé que seamos una fuerza de combate de élite, pero sabemos cómo trabajar con las defensas del castillo. Eso significa que sólo unos pocos de nosotros podemos mantener una posición bastante fuerte.
+      - (initial)
+    - (Diálogo 3 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Los guardias son principalmente agricultores locales que acuden en defensa de la ciudad en momentos de necesidad.
+      - (initial)
+  - [Choice]: ¿Qué hay que hacer por aquí?
+    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - (Diálogo 1 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** ¡Los duendes han invadido el este y nos vendría bien tu ayuda para mantener bajos los números!
+      - (initial)
+    - (Diálogo 2 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Hay muchas personas que necesitan ayuda. En caso de duda, consulta tu diario de misiones.
+      - (initial)
+    - (Diálogo 3 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Si quieres entrenar tus habilidades, hay árboles para cortar o puedes recolectar cuero de los campos de vacas al este.
+      - (initial)
+  - [Choice]: Háblame de Lumbridge.
+    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - (Diálogo 1 :)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Lumbridge es un refugio seguro donde puedes encontrar tu lugar. Es bueno estar en casa.
+      - (initial)
+    - (Diálogo 2 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Es agradable estar aquí. Claro, tenemos duendes atacando de vez en cuando, pero es mayormente pacífico.
+      - (initial)
+    - (Diálogo 3 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Lumbridge ha pasado por muchos cambios difíciles a lo largo de los años, pero nos reconstruimos y nos cuidamos unos a otros y la vida continúa.
+      - (initial)
+  - [Choice]: ¿Qué estás protegiendo?
+    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - (Diálogo 1 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Protegemos el castillo contra cualquier incursión. Siempre debemos estar preparados, especialmente en estos tiempos tan interesantes.
+      - (initial)
+    - (Diálogo 2 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Trabajamos por la seguridad del pueblo y del Duque, y debemos estar atentos en todo momento contra posibles amenazas, ya sean actos de Dios o invasiones de duendes.
+      - (initial)
+    - (Diálogo 3 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Aunque estamos en un momento de relativa paz, debemos estar preparados para cualquier eventualidad.
+      - (initial)
+  - [Choice]: Adiós.
+    - **Player:** Adiós.
+
+#### Diálogo histórico, después de la Batalla de Lumbridge
+
+- ((el player saluda con uno de los siguientes al azar:))
+  - **Player:** Saludos.
+  - **Player:** Buenos días.
+  - **Player:** Hola.
+  - **Player:** ¡Saludos!
+  - **Player:** Encantado de conocerte.
+  - (continue)
+- ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+  - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Bien recibido, aventurero.
+  - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Bueno, hola.
+  - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Buenos días, aventurero.
+  - (continue)
+- [Menu]: ¿Qué te gustaría decir?
+  - [Choice]: Cuéntame más sobre el Lumbridge Guardsmen.
+    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - (Diálogo 1 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Hablé con algunas personas que me preguntaron sobre cómo inscribirme en los guardias. Para que te pregunten, debes ser un verdadero local. Quiero decir, cuando se hizo el llamado a las armas, nuestras tropas estaban esperando aquí, listas para la acción.
+      - (initial)
+    - (Diálogo 2 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** No pretenderé que seamos una fuerza de combate de élite, pero sabemos cómo trabajar con las defensas del castillo. Eso significa que sólo unos pocos de nosotros podemos mantener una defensa bastante fuerte, si alguna vez volvemos a necesitarla.
+      - (initial)
+    - (Diálogo 3 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Los guardias son principalmente agricultores locales que acuden en defensa de la ciudad en momentos de necesidad. Estábamos aquí y listos, por ejemplo, cuando Saradomin y Zamorak pelearon en la Batalla de Lumbridge.
+      - (initial)
+  - [Choice]: ¿Qué hay que hacer por aquí?
+    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - (Diálogo 1 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** El campo de batalla no es la única amenaza para Lumbridge. ¡Los duendes han invadido el este y nos vendría bien tu ayuda para mantener bajos los números!
+      - (initial)
+    - (Diálogo 2 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Aunque la batalla terminó, los problemas del mundo no han desaparecido. Hay muchas personas que necesitan ayuda cerca. ¡Quizás Xenia o Explorer Jack tengan algo de trabajo!
+      - (initial)
+    - (Diálogo 3 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Si quieres entrenar tus habilidades creativas, hay árboles para cortar o puedes recolectar cuero de los campos de vacas al este.
+      - (initial)
+  - [Choice]: Háblame de Lumbridge.
+    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - (Diálogo 1 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Lumbridge solía ser un refugio seguro donde podías ponerte de pie. Ahora es seguro otra vez, pero me pregunto si algún día recuperaremos lo que hemos perdido.
+      - (initial)
+    - (Diálogo 2 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Solía ser mucho más agradable aquí, antes de la Batalla de Lumbridge. Claro, teníamos duendes atacando de vez en cuando, ¡pero son fáciles en comparación con los demonios zamorakianos!
+      - (initial)
+    - (Diálogo 3 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Lumbridge quedó devastado por la batalla entre Zamorak y Saradomin. Me alegra que haya terminado y que tengamos la oportunidad de reconstruir.
+      - (initial)
+  - [Choice]: ¿Qué estás protegiendo?
+    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - (Diálogo 1 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Protegemos el castillo contra cualquier resurgimiento de los combates, como la Batalla de Lumbridge. Siempre debemos estar preparados, especialmente en estos tiempos difíciles.
+      - (initial)
+    - (Diálogo 2 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Trabajamos por la seguridad del pueblo y del Duque, y debemos estar atentos en todo momento contra posibles amenazas, ya sean actos divinos o una invasión de duendes.
+      - (initial)
+    - (Diálogo 3 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Aunque estamos en una época de relativa paz, la Batalla de Lumbridge nos enseñó que siempre debemos estar preparados para cualquier eventualidad.
+      - (initial)
+  - [Choice]: Adiós.
+    - **Player:** Adiós.
+
+#### Históricamente, durante la Batalla de Lumbridge
+
+- ((el player saluda con uno de los siguientes al azar:))
+  - **Player:** Saludos.
+  - **Player:** Buenos días.
+  - **Player:** Hola.
+  - **Player:** ¡Saludos!
+  - **Player:** Encantado de conocerte.
+  - (continue)
+- ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+  - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Bien recibido, aventurero.
+  - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Bueno, hola.
+  - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Buenos días, aventurero.
+  - (continue)
+- [Menu]: ¿Qué te gustaría decir?
+  - [Choice]: Cuéntame más sobre el Lumbridge Guardsmen.
+    - (Diálogo 1 :)
+      - (above|a1)
+    - (Diálogo 2 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** No pretendo que seamos una fuerza de combate de élite, pero hacemos lo mejor que podemos y hasta ahora hemos impedido que los caballeros en el campo de batalla entren al castillo.
+      - (initial)
+    - (Diálogo 3 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Los guardias son principalmente agricultores locales que acuden en defensa de la ciudad en momentos de necesidad, ¡como ahora! Defendemos el castillo de la batalla que se libra hacia el oeste.
+      - (initial)
+  - [Choice]: ¿Qué hay que hacer por aquí?
+    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - (Diálogo 1 :)
+      - (above|b1)
+    - (Diálogo 2 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Aunque la batalla continúa, los demás problemas del mundo no han desaparecido. Hay muchas personas que necesitan ayuda cerca. Quizás Xenia o Explorer Jack tengan algo de trabajo.
+      - (initial)
+    - (Diálogo 3 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Mucha gente ha ido a unirse a los ejércitos o a Saradomin o Zamorak, y supongo que tú también podrías, ¡pero te agradeceríamos que mantuvieras los combates lejos del castillo!
+      - (initial)
+  - [Choice]: Háblame de Lumbridge.
+    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - (Diálogo 1 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Lumbridge solía ser un refugio seguro donde podías ponerte de pie. Ahora es un campo de batalla devastado por la guerra. ¿Anhelo el día en que termine la batalla?
+      - (initial)
+    - (Diálogo 2 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Solía ser mucho más agradable aquí, antes de que comenzara la Batalla de Lumbridge. Claro, teníamos duendes atacando de vez en cuando, ¡pero son fáciles en comparación con los demonios zamorakianos!
+      - (initial)
+    - (Diálogo 3 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Lumbridge está actualmente devastado por la batalla que se libra en el oeste. ¿Has visto el estado de la casa de Explorer Jack? ¡Y los muros del castillo están arruinados!
+      - (initial)
+  - [Choice]: ¿Qué estás protegiendo?
+    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - (Diálogo 1 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Estoy protegiendo el castillo lo mejor que puedo. No nos quedan muchas tropas, entre nuestras pérdidas y la gente que deserta para unirse a Saradomin, o incluso a Zamorak.
+      - (initial)
+    - (Diálogo 2 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** ¡Estoy haciendo lo mejor que puedo para mantener la lucha en el campo de batalla hacia el oeste y lejos del Duque! ¡Al menos los caballeros en el campo de batalla se concentran principalmente unos en otros!
+      - (initial)
+    - (Diálogo 3 :)
+      - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Todos tenemos que actuar juntos en tiempos de problemas. ¿Qué pasa si un demonio zamorakiano o un saradominista rebelde se cuela en el castillo? ¡Debemos estar preparados!
+      - (initial)
+  - [Choice]: Adiós.
+    - **Player:** Adiós.
+pt:Transcrição:Guardas de Lumbridge

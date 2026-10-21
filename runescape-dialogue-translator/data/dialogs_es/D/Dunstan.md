@@ -1,0 +1,132 @@
+# Dunstan
+
+- **Original Wiki Page**: [Transcript:Dunstan](https://runescape.wiki/w/Transcript%3ADunstan)
+- **Letter**: `D`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Before Death Plateau
+
+- **Player:** ¡Hola!
+- **Dunstan:** ¡Hola! ¿Querías algo?
+- [Menu]: Elige una opción:
+  - [Choice]: ¿Está bien? {{Sic if I use your anvil?}} {{anchor|anvil}}
+    - **Dunstan:** Entonces eres herrero, ¿verdad?
+    - **Player:** Yo incursiono.
+    - **Dunstan:** ¡Un compañero herrero puede usar mi yunque!
+    - **Player:** ¡Gracias!
+  - [Choice]: ¿Pueden reparar mis artículos por mí?
+    - **Dunstan:** Por supuesto que puedo, aunque los materiales pueden costarte. Sólo dame lo que tienes y echaré un vistazo.
+  - [Choice]: Nada, gracias. {{anchor|laterthen}}
+    - **Dunstan:** Muy bien. Hablamos más tarde entonces.
+
+### After Death Plateau
+
+- **Player:** ¡Hola!
+- (Condition: Antes del romance troll:)
+  - **Dunstan:** ¡Hola! ¿Qué puedo hacer por ti?
+  - (continue)
+- (Condition: Después del romance troll:)
+  - **Dunstan:** Bueno, ¡si no es nuestro propio trineo! ¿Qué puedo hacer por ti hoy?
+  - (continue)
+- [Menu]: Selecciona una opción
+  - [Choice]: ¿Puedes ponerle unos clavos a mis botas de escalada? {{anchor|spikes}}
+    - **Dunstan:** Para ti, no hay problema. ¿Te das cuenta de que ahora sólo puedes usar las botas de montaña? Las botas con pinchos sólo se pueden usar en Islandia, ¡pero nadie ha podido llegar allí desde hace años!
+      - [Choice]: Sí, pero todavía los quiero.
+        - (Condition: Si el player no lleva consigo una barra de hierro:)
+          - **Dunstan:** Lo siento, necesitaré una barra de hierro para hacer las púas.
+          - (continue)
+        - (Condition: Si el player tiene barra de hierro pero no botas de montaña:)
+          - **Player:** No los tengo conmigo.
+          - (continue)
+        - (Condition: Si el player tiene tanto una barra de hierro como las botas de montaña:)
+          - (removes=iron bar and climbing boots) (receives=spiked boots)
+          - Le das a Dunstan una barra de hierro y las botas de montaña.
+          - [Dunstan te ha regalado las botas con pinchos.]
+          - (continue)
+        - {{anchor|anythingelse}}**Dunstan:** ¿Algo más antes de continuar con mi trabajo?
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Puedes ponerle unos clavos a mis botas de montaña?
+            - (above|spikes)
+          - [Choice]: ¿Está bien si uso tu yunque?
+            - (above|anvil)
+          - [Choice]: Nada, gracias.
+            - (above|laterthen)
+      - [Choice]: Ah ok, se los dejo gracias.
+        - **Dunstan:** ¿Algo más antes de continuar con mi trabajo?
+        - (continuea|anythingelse)
+  - [Choice]: ¿Puedes hacerme otro trineo?
+    - **Player:** ¿Puedes hacerme otro trineo?
+    - **Dunstan:** Sí, claro, ¿tienes el arce o yew logs, una barra de hierro y algo de cuerda?
+    - (Condition: Si el player no tiene todos los materiales:)
+      - **Player:** No, aún no lo tengo todo.
+      - **Dunstan:** Bueno, lamentablemente no puedo hacer el trineo sin todos los materiales.
+    - (Condition: Si el player tiene todos los materiales:)
+      - **Player:** Sí, tengo todos los materiales para el trineo.
+      - (removes=maple logs, iron bar and rope) (receives=sled)
+      - [Dunstan toma los materiales y algunas de sus herramientas y comienza a fabricar un trineo. Después de un rato, Dunstan te entrega un trineo terminado.]
+      - **Dunstan:** Bueno, aquí está el trineo, pero habrá que encerarlo. La cera deberá proteger el trineo y alisarlo. Quizás si mezclas un poco de cera con un poco de alquitrán de pantano consigas el efecto deseado. También necesitarás algo para guardar la cera... como un molde para pasteles.
+      - (removes=rope, maple log and iron bar)
+      - (receives=sled)
+      - [Menu]: Selecciona una opción
+        - [Choice]: ¿De dónde puedo conseguir cera?
+          - (abajo)
+        - [Choice]: ¿De dónde puedo conseguir alquitrán de pantano?
+          - (abajo)
+        - [Choice]: ¿Qué más necesito?
+          - (abajo)
+  - [Choice]: ¿Qué necesito para volver a encerar el trineo?
+    - **Player:** ¿Qué necesito para la cera del trineo nuevamente?
+    - **Dunstan:** Necesitarás un poco de cera y alquitrán de pantano.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿De dónde puedo conseguir cera?
+        - **Player:** ¿Dónde puedo conseguir cera?
+        - **Dunstan:** No lo sé. ¡Soy un herrero! Pero tal vez deberías buscar algunas abejas.
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿De dónde puedo conseguir alquitrán de pantano?
+            - (abajo)
+          - [Choice]: ¿Qué más necesito?
+            - (abajo)
+          - [Choice]: ¡Nos vemos!
+            - **Player:** ¡Nos vemos!
+            - **Dunstan:** Gracias, vuelve.
+      - [Choice]: ¿De dónde puedo conseguir alquitrán de pantano?
+        - **Player:**¿Dónde puedo conseguir alquitrán de pantano?
+        - **Dunstan:** ¡El pantano, por supuesto! Está al sur de Lumbridge.
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿De dónde puedo conseguir cera?
+            - (arriba)
+          - [Choice]: ¿Qué más necesito?
+            - (abajo)
+          - [Choice]: ¡Nos vemos!
+            - (arriba)
+      - [Choice]: ¿Qué más necesito?
+        - **Player:** ¿Qué más necesito?
+        - **Dunstan:** También necesitarás un molde para pasteles para guardar la cera.
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿De dónde puedo conseguir cera?
+            - (arriba)
+          - [Choice]: ¿De dónde puedo conseguir alquitrán de pantano?
+            - (arriba)
+          - [Choice]: ¡Nos vemos!
+            - (arriba)
+  - [Choice]: ¿Cómo le va a tu hijo?
+    - (Condition: Antes de la Fortaleza Troll:)
+      - **Dunstan:** ¡Fue capturado por esos trolls malditos! No sé qué hacer. Incluso la guardia imperial tiene demasiado miedo para rescatarlo.
+      - **Player:** ¿Qué pasó?
+      - **Dunstan:** Habla con Denulth, él puede contarte todo al respecto.
+      - **Dunstan:** ¿Algo más antes de continuar con mi trabajo?
+      - (continuea|anythingelse)
+    - (Condition: Después de la Fortaleza Troll:)
+      - **Dunstan:** ¡Se está llevando bien! ¡Acaba de ser ascendido a Sergeant! ¡Estoy realmente orgulloso de él!
+      - **Player:** ¡Me alegro por ti!
+      - **Dunstan:** ¿Algo más antes de continuar con mi trabajo?
+      - (continuea|anythingelse)
+  - [Choice]: ¿Está bien si uso tu yunque?
+    - (above|anvil)
+  - [Choice]: Nada, gracias.
+    - (above|laterthen)

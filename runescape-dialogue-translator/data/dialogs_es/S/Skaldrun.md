@@ -1,0 +1,589 @@
+# Skaldrun
+
+- **Original Wiki Page**: [Transcript:Skaldrun](https://runescape.wiki/w/Transcript%3ASkaldrun)
+- **Letter**: `S`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### In the Frozen floors of Daemonheim
+
+
+#### Antes de descongelarlo
+
+- [Menu]: Parece haber alguien atrapado en el hielo.
+  - [Choice]: Enciende un fuego junto a él.
+    - ''(Si el player no tiene logs en el inventario:)
+      - [Necesitas algo de logs antes de poder iniciar un incendio.]
+    - ''(Si el player tiene logs en el inventario:)
+      - (Action: el player enciende un fuego junto a él.)
+      - (continue|First time after unfreezing him)
+  - [Choice]: Cast a fire spell on the ice|cond=Si el player es al menos el nivel 13 Magic:
+    - [Menu]: ¿Qué hechizo lanzarás?
+      - [Choice]: Golpe de fuego
+        - (Action: el player lanza Fire Strike sobre la figura.)
+        - (continue|First time after unfreezing him)
+      - [Choice]: Fire Bolt|cond=Si el player es al menos el nivel 35 Magic:
+        - (Action: el player lanza Fire Bolt sobre la figura.)
+        - (continue|First time after unfreezing him)
+      - [Choice]: Fire Blast|cond=Si el player es al menos el nivel 59 Magic:
+        - (Action: el player lanza Fire Blast sobre la figura.)
+        - (continue|First time after unfreezing him)
+      - [Choice]: Fire Wave|cond=Si el player es al menos el nivel 75 Magic:
+        - (Action: el player lanza Fire Wave sobre la figura.)
+        - (continue|First time after unfreezing him)
+      - [Choice]: Fire Surge|cond=Si el player es al menos el nivel 95 Magic:
+        - (Action: el player lanza Fire Surge sobre la figura.)
+        - (continue|First time after unfreezing him)
+  - [Choice]: no hacer nada
+    - (end)
+
+#### Primera vez después de descongelarlo
+
+- color=#00ff00
+- **Hombre encapuchado:** ...¿Qué capítulo es este? ¿Qué historia?...
+- **Hombre encapuchado:** ¿Soy...soy libre? ¡Mi casa ha estado en ese hielo durante tanto tiempo!
+- **Hombre encapuchado:** ¿Cómo puedo recompensarte? Tengo muy poco que ofrecer como recompensa. Quizás pueda ofrecer mis habilidades como narrador...
+- **Hombre encapuchado:** Sí, eso es lo que haré. Te dejaré entrar en mis historias, cuando quieras, tantas veces como quieras. Es lo mínimo que puedo hacer.
+- (continue|ask-skaldrun)
+
+#### Después
+
+- **Hombre encapuchado:** ¿Debo regresar a la superficie ahora o hay más que te gustaría preguntar?
+- [Menu]: Selecciona una opción
+  - [Choice]: Dirígete a la superficie.
+    - (Action: Skaldrun se teletransporta.)
+  - [Choice]: Hay más que me gustaría preguntarte.
+    - [Menu]: Seleccione una opción{{anchor|ask-skaldrun}}
+      - [Choice]: ¿Quién eres?
+        - **Player:** ¿Quién eres?
+        - **Hombre encapuchado:** Esa es la pregunta. Soy Player... No, historia equivocada, ese es tu nombre, no el mío. Quizás mi nombre es Ozan... ¿parezco un Ozan?
+        - **Hombre encapuchado:** No, esos no son mis nombres.
+        - **Hombre encapuchado:** Lo siento, Player, pero no sé muy bien quién soy.
+        - **Player:** ¿Pero cómo supiste mi nombre? Nos acabamos de conocer.
+        - **Hombre encapuchado:** Oh, supe tu nombre tan pronto como tus historias inundaron los estantes.
+        - **Player:** ¿Estantes? ¿Historias?
+        - **Hombre encapuchado:** La biblioteca de mi mente; cada libro una historia, cada historia la vida de alguien, cada vida llena de esperanzas y sueños. Cuando estuviste cerca, tus libros llenaron una estantería entera; cada historia llena de aventuras y potencial.
+        - **Player:** Correcto.
+        - **Player:** Aún así, ¿no sabes quién eres?
+        - **Hombre encapuchado:** No. Parece que la biblioteca está vacía de mis historias.
+        - **Hombre encapuchado:** Sé que soy un narrador de cuentos y un guardián de historias. Pero más allá de eso no lo sé.
+        - (previous|ask-skaldrun)
+      - [Choice]: ¿Me vas a contar historias?
+        - **Player:** ¿Entonces me vas a contar historias?
+        - **Hombre encapuchado:** ¿Te lo digo? No, no, haré mucho más que decírtelo.
+        - **Encapuchado:** Te mostraré mis historias, te dejaré ser parte de ellas, vivir la vida de otra persona por un tiempo.
+        - **Hombre encapuchado:** Ven a buscarme a la superficie fuera de estos pasillos de demonios y podré explicártelo mejor. Estas mazmorras son demasiado peligrosas para entrar en detalles.
+        - (previous|ask-skaldrun)
+      - [Choice]: ¿Cuáles son esas historias de las que hablas?
+        - **Player:** ¿Cuáles son esas historias de las que hablas?
+        - **Encapuchado:** Conozco todas las historias que han ocurrido dentro de Daemonheim: cada gran aventura, cada romance trágico... Las conozco, y a su vez las he vivido.
+        - **Hombre encapuchado:** Todos están catalogados de forma segura en la biblioteca de mi mente, para ser leídos en cualquier momento.
+        - **Player:** Entonces, ¿puedes decirme qué hay al final de Daemonheim?
+        - **Hombre encapuchado:** ¿Y arruinarte la aventura?
+        - **Hombre encapuchado:** Spoilers, querido [boy/lady], spoilers.
+        - **Player:** ¿Podrías al menos contarme estas historias?
+        - **Hombre encapuchado:** Me encantaría.
+        - **Hombre encapuchado:** Pero aquí no. Las mazmorras son demasiado peligrosas para contar historias ociosas.
+        - **Hombre encapuchado:** Ahora que estoy libre de mi prisión helada, puedo encontrarte en la superficie. Ven a verme allí y te contaré esas historias.
+        - **Hombre encapuchado:** Al menos lo haré si puedes refrescarme la memoria. Encuentra elementos de la historia mientras estás en Daemonheim y con gusto te contaré la saga asociada en la superficie.
+        - (previous|ask-skaldrun)
+      - [Choice]: ¿Por qué estabas congelado en hielo?
+        - **Player:** ¿Por qué estabas congelado en hielo?
+        - **Hombre encapuchado:** Sinceramente, no lo recuerdo.
+        - **Hombre encapuchado:** Quizás fue un derrumbe, quizás una inundación repentina.
+        - **Hombre encapuchado:** Pero claro, recuerdo vagamente la risa... una risa inquietante. Hmmm, ¿fue realmente risa o algo que evocó mi mente paranoica?
+        - **Player:** ¿Cuánto tiempo llevas congelado aquí abajo?
+        - **Hombre encapuchado:** ¿Qué edad es esta?
+        - **Player:** Es la sexta edad.
+        - **Hombre encapuchado:** Oh... En ese caso, he estado aquí durante mucho tiempo. Incluso pueden ser siglos.
+        - (previous|ask-skaldrun)
+      - [Choice]: Adiós
+        - **Player:** Adiós.
+        - **Hombre encapuchado:** Sí, adiós por ahora, amigo. Te esperaré en la superficie, cerca de un agradable fuego cálido si lo hay.
+        - **Hombre encapuchado:** Encuentra elementos de la historia aquí en Daemonheim y visítame con ellos. Desbloquearán historias que difícilmente creerás.
+        - **Hombre encapuchado:** ¿Debo regresar a la superficie ahora o hay más que te gustaría preguntar?
+        - (initial)
+
+### At the Daemonheim camp
+
+
+#### Habla con
+
+
+##### Diálogo estándar
+
+- **Skaldrun:** Saludos, Player. ¡Qué lindo verte de nuevo! ¿Has venido a escuchar una historia?
+- [Menu]: Selecciona una opción
+  - [Choice]: Sí, cuéntame una historia.
+    - **Player:** Sí, cuéntame una historia.
+    - *(Si el player no ha descubierto ningún elemento de memoria:)*
+      - **Skaldrun:** Ah, pero aún no has descubierto ningún elemento en Daemonheim que me refresque la memoria.
+      - **Skaldrun:** Lo siento mucho.
+    - (Condition: Si el player ha descubierto un elemento de memoria:)
+      - **Skaldrun:** ¿Qué historia te gustaría escuchar?
+        - *(Se abre la interfaz Elija una Historia)*
+          - [Choice]: Jugar saga
+            - *(Si el player lleva artículos:)*
+              - **Skaldrun:** Lo siento amigo mío, pero debes limpiar tu inventario antes de que pueda contar esa historia.
+              - Skaldrun no puede contarte una historia mientras estás cargado de posesiones materiales.
+              - Debes guardar en el banco todos los artículos que llevas puestos y que llevas.
+              - (opens=Bank deposit box)
+            - *(Si el player selecciona una saga que aún no ha desbloqueado:)*
+              - **Skaldrun:** Lo siento amigo mío, pero todavía no recuerdo esa historia.
+            - *(Si el player se encuentra actualmente bajo el efecto de una poción de sobrecarga:)*
+              - **Skaldrun:** Deberías regresar conmigo una vez que tu poción de sobrecarga haya desaparecido.
+            - *(Si el player elige Vengeance, Thok it to Them, Nadir o Thok Your Block mientras estás en un mundo gratuito:)*
+              - Debes estar en un mundo de miembros para jugar esta saga.
+            - ''(De lo contrario:)
+              - ''(Ver la transcripción de Three's Company (saga), Vengeance (saga)), Thok It To 'Em (saga), Nadir (saga) o Thok Your Block Off (saga).)
+  - [Choice]: ¿Cómo funcionan estas sagas exactamente?
+    - **Player:** ¿Cómo funcionan exactamente estas sagas?
+    - **Skaldrun:** Puedo llevarte al interior de estas sagas. Allí te conviertes en el héroe de esa saga: adoptas su forma, sus gestos, sus fortalezas y sus debilidades.
+    - **Skaldrun:** Vives su historia y controlas su destino. Sus elecciones serán las tuyas y sus acciones serán las tuyas.
+    - **Player:** Entonces, ¿ganaré experiencia al convertirme en ellos?
+    - **Skaldrun:** Por así decirlo. No ganarás nada mientras te cuente la saga, pero puedes ganar experiencia si la completas, siempre y cuando no lo hayas hecho ya.
+    - **Skaldrun:** Una vez que hayas completado una saga, te presentaré un libro que contiene sus secretos, y esto mejorará tus conocimientos en ciertas áreas.
+    - **Skaldrun:** Podrás conseguir dos libros por saga: uno por completar la versión abreviada de una saga y otro por completar el 100% de la versión íntegra. Debes tener la habilidad suficiente para escuchar mis sagas íntegras, mientras que no se requieren habilidades para escuchar la versión abreviada.
+    - **Skaldrun:** Llega al final de una saga abreviada o íntegra y obtendrás una pequeña recompensa; completa todos los objetivos secundarios en una saga íntegra y recibirás las recompensas completas.
+    - **Player:** ¿Puedes contarme estas sagas de inmediato?
+    - **Skaldrun:** Lo siento, no. Mi memoria es un lío de historias sin catalogar, así que tendrás que refrescarme la memoria antes de que pueda contarte una saga.
+    - **Skaldrun:** Habrá recordatorios a lo largo de las mazmorras de Daemonheim: fragmentos de mi memoria que han tomado forma física.
+    - **Skaldrun:** Si puedes encontrarlos, podré contarte una nueva saga.
+    - **Player:** ¿Puedo fallar en una saga?
+    - **Skaldrun:** Sí, me temo que sí. Si llevas a tu protagonista a la destrucción, o dañas de otra manera los elementos fundamentales de la saga, la historia se desmoronará y regresarás aquí.
+    - **Skaldrun:** Pero no desesperes: si llegas a ciertos puntos de una saga y fallas, podrás volver a ese punto y continuar.
+    - **Player:** ¿Hay algo más que deba saber?
+    - **Skaldrun:** Cada historia es diferente y tiene sus propios matices y giros. Asegúrese de leer sus reglas especiales para que pueda comprender lo que se requiere de usted.
+    - **Skaldrun:** Te proporcionaré toda esta información cuando elijas una saga para jugar.
+    - (initial|init-surface)
+  - [Choice]: Me gustaría hablar sobre el sitio de excavación.
+    - **Skaldrun:** ¡Ah, por supuesto! ¿Qué aspecto te gustaría discutir?
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Por qué eres el administrador del sitio aquí?
+        - **Skaldrun:** Desde que me liberaste, he oído hablar de tus esfuerzos en Archaeology.
+        - **Skaldrun:** Deseo aprender aún más de las historias de este lugar para poder compartirlas con otros.
+        - **Skaldrun:** Entonces, hice que mis amigos aquí enviaran un mensaje al gremio Archaeology para solicitar una excavación aquí.
+        - **Skaldrun:** Encontrarás muchos lugares para excavar alrededor del castillo que tienes delante.
+        - **Player:** Si encuentro algún objeto particularmente raro o interesante, ¿podré experimentar más sagas?
+        - **Skaldrun:** Los objetos especialmente antiguos pueden dar lugar a experiencias mucho más confusas, pero puedo extraer algunos recuerdos de ellos.
+        - **Player:** ¡Será mejor que me ponga a excavar entonces!
+        - (previous|dig-site-qs)
+      - [Choice]: ¿De qué se trata este sitio de excavación?
+        - **Skaldrun:** Esta fortaleza fue nombrada Daemonheim por los Fremennik. Ha estado habitada por zamoraks desde hace un par de épocas, pero su pasado se remonta mucho más atrás.
+        - **Skaldrun:** He escuchado algunos indicios de una raza llamada dragonkin.
+        - **Skaldrun:** Espero que tú y el gremio de arqueología puedan ayudarme a descubrir más historias de Daemonheim excavando el sitio.
+        - (previous|dig-site-qs)
+      - [Choice]: Quiero hablar de misterios.
+        - (Condition: Si no se han descubierto misterios)
+          - **Skaldrun:** Todavía tenemos que descubrir algo significativo. Tráeme cualquier cosa que parezca especial y podremos investigar la historia que puede contar.
+        - [Menu]: ¿Qué te gustaría discutir?
+          - [Choice]: cond=With a mystery item in the backpack:|Entregar objetos de memoria.
+            - (Condition: Con elementos relacionados con el misterio Un Nuevo Hogar sin haber desvelado el misterio aún)
+              - **Player:** Encontré esto. Se siente más extraño que algunos de los otros artefactos, como si tuviera una de tus historias adjunta.
+              - **Skaldrun:** Esto es muy antiguo. Demasiado débil para experimentarlo en su totalidad, pero aun así imbuido de recuerdos. Quizás puedas sacarlo tú mismo. Cierra los ojos.
+              - Skaldrun le instruirá sobre técnicas mentales y de respiración precisas.
+              - (continue)
+            - (Condition: Con elementos relacionados con el misterio Una Nueva Forma sin haber descubierto el misterio aún)
+              - **Player:** ¿Qué opinas de esto? Encontré esta vieja curiosidad y parece que hay una historia detrás.
+              - **Skaldrun:** Sí, sí. Hay una historia que contar aquí, pero gran parte de ella parece perdida en el tiempo. Cierra los ojos y veamos qué podemos aprender aún.
+              - [Skaldrun le instruirá sobre técnicas mentales y de respiración precisas.]
+              - (continue)
+            - (Action: La pantalla se vuelve negra.)
+            - ((Se ve uno de los siguientes, basado en el primer elemento que el player tiene en su backpack, y luego continúa a continuación:))
+              - (Condition: Con el anillo de Tokshak en el backpack:)
+                - [Mientras descansas tus alas y te sientas en los acantilados rocosos, tus compañeros Aughra todavía están aterrizando.]
+                - [Reflexionas sobre tu viaje. La visión de este lugar que viste aún no se ha hecho realidad, pero puedes distinguir los contornos, los cimientos e incluso esa extraña formación de piedra.]
+                - [La tormenta escalofriante que os persiguió desde Orthen sigue bramando. Claramente molesta a tus parientes.]
+                - [Pero tú no. Sabes con certeza que todas las dificultades y peleas valdrán la pena.]
+                - [Sabes que este es tu nuevo hogar. El nuevo nexo de destino para Aughra.]
+                - [Esta tormenta que azota no es más que la precursora de la que os liberará de vuestra terrible maldición.]
+                - [Juntos, como uno solo, como moksha, visteis esto. Es con este conocimiento que te acuestas a dormir, soportando el frío intenso.]
+                - (removes=Tokshak's ring)
+              - (Condition: Con el anillo de Balarak en el backpack:)
+                - [Dejas tus martillos en el suelo y das un paso atrás.]
+                - [Sientes que el sudor gotea de tu frente mientras echas la cabeza hacia atrás para admirar tu trabajo.]
+                - [Una amplia sonrisa se manifiesta en tu rostro mientras lo confirmas. Está hecho. La estructura está completa. Los Aughra tienen un nuevo hogar.]
+                - [Te imaginas la fiesta que se celebrará esta noche y después, fumando con tus amigos.]
+                - [Entonces te das cuenta de que tu trabajo aún no está completo: necesita un nombre.]
+                - [El nombramiento también vendría esta noche. ¿Okken Fiarakkenven, tal vez? No estás seguro de si es un buen nombre, pero lo sugerirás esta noche.]
+                - [Al mover el cuello sientes un crujido satisfactorio. Por ahora, tu trabajo ha terminado, así que caminas hacia el patio para relajarte un poco.]
+                - (removes=Balarak's ring)
+              - (Condition: Con el anillo de Halak en el backpack:)
+                - [Todavía no estás acostumbrado al crujido de la piedra que resuena a tu alrededor con cada vuelta del cubo.]
+                - [Puedes sentir la carne debajo de las escamas de tu cuello encogerse ante el raspado mientras giras el rompecabezas de aquí para allá.]
+                - ["Está bien", piensas, repitiendo el viejo discurso para ti mismo. "No es necesario que vayas a la cocina si la cocina puede acudir a ti".]
+                - [La puerta que, hace unos momentos, conducía desde esta oficina a un extenso jardín se revela como una puerta de entrada a esa cocina imaginada.]
+                - [Su mente ha vagado entre ideas de eficiencia mejorada y reducción de ese maldito ruido abrasivo. Por cuestiones de automatización para una agenda diaria o por una cuestión de seguridad.]
+                - [Debió haber pasado una hora. Sí, justo a tiempo, las vibraciones retumbantes de lo más profundo vibran a través de tus pies.]
+                - [Te imaginas las grandes masas de piedra y tierra cayendo a través de su nuevo hogar en el profundo abismo, liberadas de su aburrida existencia en la tierra.]
+                - [Los constructores aparecen en el ojo de tu mente, limpiando y estabilizando el lugar.]
+                - [Entonces habrá que producir más cubos, pero eso puede esperar. El glorioso aroma de la carne de gallimastyx que has estado preparando te devuelve a la realidad.]
+                - (removes=Halak's ring)
+              - (Condition: Con la pipa de Yorga en el backpack:)
+                - [El humo de color cian llena el aire al exhalar y los pequeños cristales que contiene brillan con la luz.]
+                - [El olor es sutil pero dulce, muy parecido a la planta que arde en tu pipa y como a las muchas flores que has cultivado en esta cámara del jardín.]
+                - [Un profundo sentimiento de orgullo te invade al vislumbrar esta preciosa vegetación, la ayuda clave para la meditación del Aughra.]
+                - [Te sientes orgulloso de tu familia que guardó sus semillas, porque ninguna de ellas crece en ningún otro lugar de este planeta, ni en ningún otro planeta ahora, gracias al maldito Roakin.]
+                - [Inhalas profundamente desde tu pipa para aplacar la ira que se avecina.]
+                - [Un día estos árboles... estas hierbas... toda una jungla de estas plantas poblará este lugar y más allá.]
+                - [Cada crecimiento es una pequeña rebelión contra ellos y su maldición sobre nosotros.]
+                - (removes=Yorga's pipe)
+              - (Condition: Con placa deslustrada en el backpack:)
+                - [Has pasado muchos mok con la gente con cuernos. En sueño y en trance pero siempre tan lúcido como en un momento de vigilia.]
+                - [Muchas veces recuerdas haber intercambiado conocimientos, debatido sobre tus filosofías, compartido tus problemas existenciales, pero no puedes evitar la sensación de que de alguna manera esta vez se sintió diferente.]
+                - [Su sonrisa era más brillante, sus movimientos más claros, su voz más aguda. Al parecer, confías profundamente en ellos y ellos confían en ti.]
+                - [En tu mano hay algo nuevo. Discos brillantes. Azul, verde, rojo y dorado.]
+                - [Habrá una fiesta, lo has decidido, y todos son bienvenidos aquí.]
+                - (removes=tarnished plaque)
+              - (Condition: Con piedra pulida en el backpack:)
+                - [Tu mente está nublada. No sabes por qué, pero estás indignado y absolutamente furioso. Es demasiado. Te gritas a ti mismo.]
+                - [Y la nube de ira se ha ido. Miras la piedra ligeramente cálida que tienes en las manos. Sí, tienes manos otra vez. De vuelta en tu propio cuerpo y respirando aliviado.]
+                - [Una vez más, el dulce escape de las garras de la maldición del roakin se ve contrarrestado por algún otro problema, la ira irreparable de este gigante de otro mundo o el embotamiento mental en el cuerpo de un mastyx.]
+                - [El portal se cierra mientras juegas con la enorme máquina en el centro de la habitación. Comienzas de nuevo la búsqueda de una criatura que se adapte a tu temperamento.]
+                - (removes=polished stone)
+              - (Condition: Con 'placa de encanto' en el backpack:)
+                - [Los has estudiado en muchos mok. Vagó por las calles de su ciudad. Respiró el aire espeso y denso. Sentí el suave descenso de la ceniza desde las nubes de arriba.]
+                - [Conoces su idioma. Sus costumbres ya no son exclusivas de vosotros. A través de tus propias meditaciones y la habilidad del gorajo TÚ has estado allí, incluso si tu cuerpo no.]
+                - [Podrías liberarte de la maldición allí. Podrías ayudarlos. Podrías guiarlos.]
+                - [Una sonrisa diabólica se dibuja en tu rostro. Tú eres ellos. No eres Kalger; Eres Kal'Ger.]
+                - [No somos Aughra. Somos Infernales. Y ahora seremos libres.]
+                - (removes='charm plate')
+              - (Condition: Con trozo de aleación primaria en el backpack:)
+                - [Bajas el martillo. La técnica equivocada. Te balanceas de nuevo. Mejor.]
+                - [Esta ya no es una herramienta para construir muros o reparar cosas. Es una herramienta de destrucción y guerra.]
+                - [Para Bilrach, un aliado necesario por ahora. Busca a su maestro perdido.]
+                - [Un aliado con el que podremos liberar a nuestros compañeros de las cadenas de los Roakin, utilizando su propia fuerza contra ellos.]
+                - [Para hacer caer la fuente de nuestro dolor sobre aquellos que nos lo infligirían. Para volver a ser dueños de nuestro propio destino.]
+                - [Te balanceas de nuevo. Una fuerza aplastante que parte la roca en dos.]
+                - [De nuevo. Ahora, un buen ladrillo para construir un nuevo futuro.]
+                - (removes=chunk of primal alloy)
+              - (Condition: Con tótem agrietado en el backpack:)
+                - [Sabes que este fue tu último simulacro con la gente con cuernos.]
+                - [Ves las forjas a tu alrededor que ardieron y bailaron con un calor inimaginable y con todos los colores, mientras tus voluntades chocadas se arrastran y hierven a fuego lento hasta recuperar su inclinación natural.]
+                - [El olor de las flores quemadas se desvanece y la niebla cian se disipa. Estás solo con tus propios pensamientos.]
+                - [Sabes que son correctos. Seguramente Bilrach está loco, pero usted ha decidido soportar la carga.]
+                - [En lo más profundo de la tierra, como en lo profundo de tu propio corazón, hay una luz de esperanza para la libertad de todos: Aughra, Syrtes, Nodon y Dactyl por igual.]
+                - (removes=cracked totem)
+              - (Condition: Con baratija destrozada en el backpack:)
+                - [Una ola de poder vigorizante choca contra ti y casi te hace volar. Cuando recuperas el equilibrio, ves a la criatura encogerse y palpitar.]
+                - [Quedas fascinado al ver la figura de Bilrach, al principio deformada, tal vez por la naturaleza destrozada de estas profundidades. Se retuerce y se moldea a partir de su vil presencia esquelética para convertirse en algo casi atractivo.]
+                - [Te preguntas si así es como te ven los demás cuando tu propio poder se manifiesta en una nueva forma. ¿La fuerza que infundes se irradia hacia afuera?]
+                - [Te preguntas si las personalidades rotas que has visto manifestarse últimamente son una debilidad del anfitrión o de la voluntad interior.]
+                - [¿Qué pasaría si fuera un dios? No hay tiempo para considerar estas cosas, porque ya nos hemos acercado al borde del destino.]
+                - (removes=mangled trinket)
+              - (Action: La pantalla vuelve a desaparecer.)
+              - (Condition: Si este fue el primer objeto entregado por un misterio:)
+                - Misterio descubierto: '[name]'.
+                - (continue)
+              - Transcribes the memory en tu diario de arqueología.
+              - (ventana emergente)
+                - {{Popup|You transcribe the memory into your archaeology journal.}}
+                - (continue)
+              - (Condition: Si este fue el primer objeto entregado por un misterio:)
+                - No logras mantener tu concentración y la experiencia se desvanece.
+                - **Skaldrun:** Parece que eso es todo lo que podemos deducir de esto.
+                - (continue)
+              - (previous|mysteries)
+          - [Choice]: A New Home.|cond=Después de descubrir el misterio
+            - (Condition: Antes de entregar los cinco elementos:)
+              - **Skaldrun:** Hemos logrado grandes avances, pero siento que hay más recuerdos por descubrir.
+            - (Condition: De lo contrario:)
+              - (Condition: Sólo la primera vez:)
+                - ¡Ganas 19,500 Archaeology XP por completar un misterio!
+                - ¡Felicitaciones! Has completado: 'Un nuevo hogar' - Resuelve este misterio.
+                - (continue)
+              - **Skaldrun:** Parece que hemos experimentado, aunque sea brevemente, algunos fragmentos de las vidas de quienes se establecieron aquí por primera vez.
+              - **Player:** ¡Sí! ¡Definitivamente fueron los dragonantes Aughra! Vinieron aquí para encontrar una manera de escapar de la maldición de los dioses mayores.
+              - **Skaldrun:** Y la gente con cuernos debe ser el gorajo, del cual he aprendido por otras historias.
+              - **Skaldrun:** Bien hecho. Siempre hay más historias, pero creo que hemos encontrado evidencia suficiente para hacer un informe del sitio.
+              - **Skaldrun:** Vuelve conmigo si encuentras algo más de interés.
+              - (previous|mysteries)
+          - [Choice]: A New Form.|cond=Después de descubrir el misterio
+            - (Condition: Antes de entregar los cinco elementos:)
+              - **Skaldrun:** Hemos logrado algunos buenos avances, pero todavía tenemos más que aprender antes de poder hacer un informe.
+            - (Condition: De lo contrario:)
+              - (Condition: Sólo la primera vez:)
+                - ¡Ganas 67 000 Archaeology XP por completar un misterio!
+                - ¡Felicitaciones! Has completado: 'Una nueva forma' - Resuelve este misterio.
+                - (continue)
+              - **Player:** ¡Los dragonantes Aughra de alguna manera se convirtieron en demonios infernales y se aliaron con Bilrach!
+              - **Skaldrun:** Eso parece, para escapar de su maldición.
+              - **Player:** Parece que estaban planeando algo más ahí abajo, pero ¿qué?
+              - **Skaldrun:** Por ahora, sólo podemos especular. Esto funcionará muy bien para un informe del sitio.
+              - **Skaldrun:** Vuelve conmigo si encuentras algo más de interés.
+              - (previous|mysteries)
+          - [Choice]: A New Age.|cond=Después de haber inspeccionado el token extraño
+            - (Condition: Antes de haber entregado la extraña ficha:)
+              - (Condition: Sin el token en backpack:)
+                - **Player:** Hola Skaldrun, me encontré con un token extraño en Daemonheim. No parece que pertenezca aquí.
+                - **Player:** Hola Skaldrun, ¿podrías comprobar si hay otro recuerdo imbuido?
+                - **Skaldrun:** Si me lo pasas puedo echarle un vistazo.
+                - **Player:** Parece que lo he extraviado. Regresaré una vez que lo haya localizado o desenterrado otro para que puedas inspeccionarlo.
+              - (Condition: Con el token en backpack:)
+                - **Player:** Hola Skaldrun, encontré este token en Daemonheim. No parece que pertenezca aquí. ¿Podrías comprobar si hay otro recuerdo imbuido?
+                - **Skaldrun:** Pásamelo y le echaré un vistazo.
+                - **Skaldrun:** Ohhh-erghh...
+                - **Player:** ¿Estás bien?
+                - [Skaldrun vacila y tropieza.]
+                - [Mientras agarras los hombros de Skaldrun, surge otra experiencia...]
+                - (Action: La pantalla se vuelve negra.)
+                - [Estás corriendo, luchando por recuperar el aliento. Tienes que salir de aquí. Llegar a la superficie y llegar muy, muy lejos.]
+                - [Todo el mundo con el que te cruzas te mira de forma extraña: confusión...preocupación...sospecha... Has estado huyendo durante mucho tiempo. Ahora estás empezando a cansarte.]
+                - [Un viento helado baja las escaleras. No queda mucho más por recorrer. Puedes hacer esto. Doblas una esquina y caes al suelo.]
+                - [Bañado en sombras, tus ojos se abren cuando miras hacia su fuente. Una figura enorme e imponente te mira fijamente.]
+                - **To'Kash:** ¿A dónde vas, escriba? Grindle...Grondu...
+                - [Tragas saliva antes de corregirlo dócilmente.]
+                - **Skaldrun:** Es Grondaban. To'Kash, debo...
+                - [Sientes el frío cada vez más profundamente.]
+                - **Skaldrun:** Me tengo que ir.
+                - [Sientes que tu cabeza comienza a pesarse cuando te giras y tratas de alejarte.]
+                - **To'Kash:** Ahora, ahora, escriba. No hay prisa. Duerme ahora.
+                - [Y te desmayas.]
+                - (Action: La pantalla vuelve a aparecer para mostrar el player y Skaldrun.)
+                - **Player:** ¿Eras tú?
+                - **Player:** Escribiste todos esos diarios que sigo encontrando sobre Daemonheim.
+                - **Skaldrun:** S-sí, eso parece. Recuerdo algo de eso ahora. Esa ficha es mía. Prueba de membresía de mi orden druídica.
+                - **Player:** ¿Adónde ibas? ¿Qué necesitabas revelar? ¿Sabes qué hay ahí abajo en la parte inferior de Daemonheim?
+                - **Skaldrun:** Por favor, déjame pensar...
+                - **Skaldrun:** Entré a trabajar para Bilrach como investigador y escriba. Estaba encubierto para descubrir qué estaba pasando aquí.
+                - **Skaldrun:** Estaban a punto de traer a Zamorak de vuelta a este mundo. Para eludir los Edictos de Guthix. Por eso estaba corriendo.
+                - **Skaldrun:** Finalmente descubrí lo que estaban haciendo y faltaban solo unos meses para que se completara el plan.
+                - **Player:** Pero los Edictos cayeron cuando Guthix murió. Zamorak regresó solo.
+                - **Player:** Y los nuevos Edictos mantienen alejados a los dioses.
+                - **Player:** Espera. ¿Podrían intentarlo de nuevo? ¿Cómo funcionó este plan?
+                - **Skaldrun:** ¿Qué has aprendido durante este proyecto de excavación?
+                - **Player:** Bueno...
+                - **Player:** Los dragonantes Aughra fueron atraídos a este lugar en un pasado lejano.
+                - **Player:** Construyeron el castillo y excavaron una enorme fortaleza debajo para vivir.
+                - **Player:** Las mazmorras móviles se construyeron para brindar comodidad, pero también seguridad, razón por la cual Bilrach tardó tanto en descender.
+                - **Player:** Usaron una combinación de su misticismo, prácticas de invocación y tecnología para transferir sus conciencias a la clase demoníaca gobernante de Infernus.
+                - **Player:** Finalmente fueron derrotados y exiliados.
+                - **Player:** Algunos de los supervivientes se hicieron conocidos como Kal'Gerions y se aliaron con Bilrach.
+                - **Player:** Aparentemente hay algún tipo de grieta masiva en el nivel más profundo del complejo.
+                - **Player:** Los Edictos bloquean la magia de teletransportación de los dioses, por lo que seguramente aún así no serviría de nada.
+                - **Skaldrun:** Sigue pensando. ¿Qué más has aprendido?
+                - **Player:** Espera, los Aughra transfirieron su esencia: la mente, el alma. La personalidad. Todo su ser, todo menos el cuerpo.
+                - **Player:** ¿Es eso posible para un dios?
+                - **Skaldrun:** Sí, lo recuerdo. Ese era su plan. ¿Viste esa gran máquina en las profundidades?
+                - **Player:** Lo hice. Podríamos destruirlo, pero ¿qué les impediría reconstruirlo?
+                - **Player:** ¿Y quién sería el barco? ¿El propio Bilrach?
+                - **Skaldrun:** No sé qué clase de ser podría contener la esencia de un dios.
+                - **Skaldrun:** ¿Podría Bilrach hacerlo? Tal vez. Quizás lo habría destruido.
+                - **Player:** Necesito saber si los nuevos Edictos funcionarán. Vuelvo enseguida.
+                - **Player:** Valluta, que guarda las fronteras de este mundo, probablemente será el mejor a quien preguntar.
+                - (removes=strange token)
+                - **Player:** Recientemente vi a Valluta en Lost Grove. Debería ir allí y hablar con ella.
+                - (previous|mysteries)
+            - (Condition: Después de haber entregado la extraña ficha y antes de haber hablado con Valluta:)
+              - (above|I most recently saw)
+            - (Condition: Después de haber hablado con Valluta y antes de haber probado el misterioso motor:)
+              - **Skaldrun:** Ah, nuestro contrabandista residente me informó que llegó una entrega para ti. Me dijo que te dijera que se está instalando en las profundidades retorcidas detrás de la imponente puerta.
+            - (Condition: Después de haber probado el misterioso motor:)
+              - (Condition: Antes de haber resuelto el misterio:)
+                - **Player:** ¡Buenas noticias! Hemos probado la teoría tanto como hemos podido. El experimento fracasó. No creo que debamos preocuparnos de que Zamorak regrese así.
+                - **Skaldrun:** Me alegra oír eso. Los nuevos Edictos deben ser ahora mucho más poderosos.
+                - **Player:** ¿Pero no deberíamos seguir preocupados por esa brecha y por lo que podría haber al otro lado?
+                - **Skaldrun:** Por ahora, está inactivo, sellado y no representa ninguna amenaza en su estado actual.
+                - **Skaldrun:** {{Sic|I'm sure you have many questions, but that must wait for another time}}
+                - **Skaldrun:** Por ahora, podemos estar tranquilos sabiendo que los zamorakianos no pueden lograr su objetivo original.
+                - **Player:** Supongo que no es urgente. Me alegro de no tener que lidiar con otra amenaza que acabe con el mundo.
+                - **Player:** ¿Has recuperado algo más de tu memoria?
+                - **Skaldrun:** Me temo que ya no es mío. Recuerdo parte de mi época como escriba de Bilrach y nada más.
+                - **Skaldrun:** Ya no soy Grondaban. Pero no estoy triste, por ahora soy Skaldrun del Fremennik.
+                - **Skaldrun:** Continuaré recopilando y compartiendo historias de este lugar, y disfrutaré contándolas.
+                - ¡Ganas 67 000 Archaeology XP por completar un misterio!
+                - ¡Felicitaciones! Has completado: 'Una Nueva Era' - Resuelve este misterio.
+                - ¡Felicitaciones! Has completado: 'Misterios - Daemonheim' - Completa todos los logros enumerados.
+                - **Player:** Gracias, Skaldrun.
+                - (previous|mysteries)
+              - (Condition: Después de haber resuelto el misterio:)
+                - **Skaldrun:** Por ahora, podemos estar tranquilos sabiendo que los zamorakianos no pueden lograr su objetivo original.
+          - [Choice]: Discuta el sitio de excavación.
+            - (previous|dig-site-qs)
+      - [Choice]: Adiós.
+        - **Skaldrun:** Esperaré tu regreso.
+  - [Choice]: Sólo vine a charlar.
+    - **Skaldrun:** ¿Chatear? ¡Ha pasado tanto tiempo desde que tuve una conversación sencilla!
+    - **Skaldrun:** ¿De qué te gustaría hablar?
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Qué puedes decirme sobre ti?
+        - **Skaldrun:** Está claro que soy un guardián de historias y un narrador de cuentos.
+        - **Player:** ¿Puedes transmitir algo sobre ti además de eso?
+        - **Skaldrun:** Ya no estoy seguro de que haya nada más allá de las historias.
+        - **Skaldrun:** Recuerdo pequeños fragmentos... pero no estoy seguro de que sean siquiera mis fragmentos. Hay pequeños momentos de la infancia: crecer en un asentamiento que lleva el nombre de un héroe. Recuerdo haber hecho una crónica de la vida de alguien en Daemonheim. ¿Un hombre, tal vez? Casi puedo recordar un nombre - casi - pero cada vez que estoy cerca de recordarlo, huye burlándose.
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Cómo te hace sentir eso?
+            - **Player:** ¿Cómo te hace sentir eso?
+            - **Skaldrun:** No estoy seguro. Una parte de mí se pregunta si perdí mis recuerdos a propósito, escondiéndome de quién era. ¿Podría haber sido tan terrible que incluso yo deseara olvidarme de mí mismo?
+            - **Player:** ¿Recuerdas haber sido una persona horrible?
+            - **Skaldrun:** No... pero tampoco recuerdo haber sido una buena persona.
+            - (previous2|surface-opts-2)
+          - [Choice]: ¿No te llamas Skaldrun?
+            - **Player:** ¿No te llamas Skaldrun?
+            - **Skaldrun:** Ese es el nombre que me han dado los Fremennik. Más bien me gusta.
+            - (previous2|surface-opts-2)
+          - [Choice]: ¿Hay alguna forma en que pueda ayudarte a recordar?
+            - **Player:** ¿Hay alguna manera de ayudarte a recordar?
+            - **Skaldrun:** Quizás. Sin duda deambulé por las profundidades de Daemonheim, por lo que existe la posibilidad de que haya dejado algo atrás.
+            - **Skaldrun:** Mientras recorre las mazmorras, esté atento a las cosas de interés; Si no son míos, al menos tal vez me recuerden una historia.
+            - (previous2|surface-opts-2)
+      - [Choice]: ¿Cuánto tiempo estuviste congelado en ese bloque de hielo?
+        - **Skaldrun:** Siglos. Me congelé mucho antes de la Era actual.
+        - **Player:** ¿Qué? ¿Tienes siglos de antigüedad?
+        - **Skaldrun:** Oh, sí, posiblemente mayor. No lo recuerdo.
+        - **Player:** ¿Cómo te sentiste al estar congelado en hielo durante tanto tiempo?
+        - **Skaldrun:** ¿Cómo crees que te sentiste?
+        - **Skaldrun:** Fue una tortura. Imagínese estar mirando el mismo lugar durante siglos, sin parpadear, sin moverse, sin poder apartar la mirada. Imagínese que ese lugar nunca cambió.
+        - **Skaldrun:** Me volví loco, como lo haría cualquiera en mi situación. Completa locura. Fue un alivio bienvenido, un descanso del interminable tedio de esa única visión.
+        - **Skaldrun:** Pero pronto me aburrí de la locura. Ni siquiera mi mente descarriada pudo salvarme de la banalidad de mi situación. Así que recurrí a las historias y las dejé crecer, dejé que se apoderaran de mí por un tiempo.
+        - **Skaldrun:** Me liberaron. Me sacaron de mi situación y me dejaron vivir aventuras increíbles.
+        - **Skaldrun:** Durante esas historias, encontré una manera de convertirme en parte del cuento, de ser el protagonista. Fue sorprendente y liberador.
+        - **Skaldrun:** Hasta que me liberaste, pasé mi tiempo en esas historias, viviendo sus vidas. La magia de mi maldición sirvió para atraer más historias a medida que ocurrían a mi alrededor, dándome un suministro ilimitado de cuentos y aventuras.
+        - **Player:** ¿Cómo terminaste atrapado en primer lugar?
+        - **Skaldrun:** No lo recuerdo. Creo que fue un accidente, tal vez un derrumbe, pero no estoy seguro. Recuerdo a medias la risa, pero es real o producto de una mente torturada. No puedo decirlo.
+        - (previous|surface-opts-2)
+      - [Choice]: ¿Cómo funcionan estas historias?
+        - **Skaldrun:** Comenzaron como meras palabras y recuerdos: cuentos para recordar y poco más. Pero las historias tienen una magia propia, y aprendí a aislar y hacer crecer esa magia en la medida en que me sentí atraído por ellas, en cuerpo y alma.
+        - **Skaldrun:** Pude vivir dentro de las historias. Si bien no podía cambiar sus comienzos ni sus finales, podía influir en cómo se desarrolló la historia.
+        - **Skaldrun:** Todas las historias son así para mí y puedo entrar en ellas tan fácilmente como tú entras en una habitación.
+        - **Skaldrun:** Siento que podría llevarte conmigo. Podrías adentrarte en mis historias y vivirlas, tal como yo puedo.
+        - **Player:** ¿Cómo recuerdas todas estas historias?
+        - **Skaldrun:** Imagina una biblioteca, un gran edificio con libros de pared a pared; un verdadero laberinto de literatura en el que cada libro actúa como un fragmento de historia, las aventuras de alguien, la vida de alguien. Deambulo por esa biblioteca en mi cabeza.
+        - **Player:** Entonces, ¿tienes libros sobre todos?
+        - **Skaldrun:** Oh, algunas personas tienen un solo libro delgado. Sin embargo, tienes una estantería entera dedicada a tus aventuras: algunos tomos escritos y otros vacíos, esperando tinta.
+        - **Skaldrun:** Los únicos libros que no puedo encontrar son los míos.
+        - (previous|surface-opts-2)
+      - [Choice]: [More options]
+        - [Menu]: Selecciona una opción
+          - [Choice]: Entonces, ¿cómo funciona tu maldición?
+            - **Skaldrun:** Tengo destellos de mi pasado, un pasado en el que hice una crónica de la vida en las profundidades de Daemonheim. Recuerdo una colección de diarios, de ellos rotos y esparcidos por el calabozo.
+            - **Skaldrun:** Recuerdo que me dijeron que los diarios no eran seguros, que cualquiera podía tenerlos en sus manos y que yo sería un receptáculo más adecuado para la información...
+            - **Skaldrun:** Para garantizar que se pudiera acceder fácilmente a la información, se me concedió una burla de la inmortalidad: un cuerpo que no envejecería ni se desmoronaría con el paso de los eones, un cuerpo sin latidos, despojado de vida para alimentar esta existencia perpetua.
+            - **Skaldrun:** Luego me dieron la segunda parte de mi 'regalo'.
+            - **Skaldrun:** Mi mente se convertiría en un diario de todo lo que sucediera dentro de Daemonheim, almacenando todo dentro de esas mazmorras como una biblioteca en mi mente.
+            - **Skaldrun:** Eso es todo lo que recuerdo de la maldición. Sé que la maldición me obligó a olvidar quién era. No había lugar en mi cabeza para cosas sin importancia como recuerdos de mí mismo.
+            - **Skaldrun:** Pero, aunque me habían olvidado, la maldición se convirtió en un regalo y las historias me salvaron de un destino que no le desearía a nadie.
+            - (previous2|surface-opts-2)
+          - [Choice]: ¿Cómo disfrutas la vida en la superficie?
+            - **Skaldrun:** Oh, es fantástico. Los Fremennik son muy interesantes; tan nobles y valientes, y los que guardan las mazmorras lo son doblemente.
+            - **Skaldrun:** En las fogatas, les he estado contando historias de sus antepasados y parecen disfrutarlas. Entonces sí, estoy muy feliz aquí. Muchas gracias, Player.
+            - (previous2|surface-opts-2)
+          - [Choice]: [Previous options]
+            - (previous|surface-opts-2)
+          - [Choice]: [Original dialogue options]
+            - (initial|init-surface)
+  - [Choice]: Te dejaré en paz.
+    - **Skaldrun:** Muy bien. Mis cuentos estarán aquí si deseas escucharlos.
+
+##### Desbloqueando la Compañía de Tres (saga)
+
+- **Skaldrun:** Saludos, Player. ¡Qué lindo verte de nuevo! ¿Has venido a escuchar una historia?
+- [Menu]: ¿Cuéntale a Skaldrun sobre la piel de oso?
+  - [Choice]: si
+    - **Player:** Encontré esta piel de oso en el calabozo, parecía fuera de lugar.
+    - color=#ccff00
+    - **Skaldrun:** Ah, sí, esa piel. Pertenecía a un animal, que, a su vez, pertenecía a un individuo cruel y malévolo.
+    - **Skaldrun:** Pero él no es el héroe de la historia. No, hay tres héroes en esta historia, cada uno de los cuales trabaja codo con codo. ¿Quizás le gustaría saber más?
+    - [Menu]: ¿Jugar una saga?
+      - [Choice]: Sí, cuéntame una historia.
+        - (arriba)
+      - [Choice]: No, me gustaría hablar sobre el sitio de excavación.|saga=no
+      - [Choice]: No, todavía no.
+        - **Player:** No, todavía no.
+        - **Skaldrun:** Bueno, si estás seguro. Si quieres escuchar una historia, estoy aquí.
+        - (continuea|init-surface)
+  - [Choice]: No
+    - (continuea|init-surface)
+
+##### Desbloqueando Venganza (saga)
+
+- **Skaldrun:** Saludos, Player. ¡Qué lindo verte de nuevo! ¿Has venido a escuchar una historia?
+- [Menu]: ¿Cuéntale a Skaldrun sobre la colección de espadas?
+  - [Choice]: si
+    - **Player:** Encontré esta extraña colección de espadas, todas dispuestas juntas como una especie de monumento conmemorativo. ¿Significa algo para ti?
+    - color=#ccff00
+    - **Skaldrun:** Pocas emociones pueden ser tan abrumadoras como la sed de venganza, y menos aún pueden ser tan destructivas para los demás y, en última instancia, para nosotros mismos.
+    - [Menu]: ¿Jugar una saga?
+      - [Choice]: Sí, cuéntame una historia.
+        - (arriba)
+      - [Choice]: No, me gustaría hablar sobre el sitio de excavación.|saga=no
+      - [Choice]: No, todavía no.
+        - **Player:** No, todavía no.
+        - **Skaldrun:** Bueno, si estás seguro. Si quieres escuchar una historia, estoy aquí.
+        - (continuea|init-surface)
+  - [Choice]: No
+    - (continuea|init-surface)
+
+##### Desbloqueo de Nadir (saga)
+
+- **Skaldrun:** Saludos, Player. ¡Qué lindo verte de nuevo! ¿Has venido a escuchar una historia?
+- [Menu]: ¿Cuéntale a Skaldrun sobre el dispositivo dañado?
+  - [Choice]: si
+    - **Player:** Encontré un dispositivo extraño en mis viajes. Parece roto, pero ¿quizás conoces su propósito?
+    - color=#ccff00
+    - **Skaldrun:** Este dispositivo, dañado o no, todavía ofrece una historia tan poderosa como cualquier tomo antiguo.
+    - **Skaldrun:** Una historia de corrupción y revelaciones te espera cuando tengas tiempo.
+    - [Menu]: ¿Jugar una saga?
+      - [Choice]: Sí, cuéntame una historia.
+        - (arriba)
+      - [Choice]: No, me gustaría hablar sobre el sitio de excavación.|saga=no
+      - [Choice]: No, todavía no.
+        - **Player:** No, todavía no.
+        - **Skaldrun:** Bueno, si estás seguro. Si quieres escuchar una historia, estoy aquí.
+        - (continuea|init-surface)
+  - [Choice]: No
+    - (continuea|init-surface)
+
+##### Desbloqueando Thok It To 'Em (saga)
+
+- **Skaldrun:** Saludos, Player. ¡Qué lindo verte de nuevo! ¿Has venido a escuchar una historia?
+- [Menu]: ¿Contarle a Skaldrun sobre la nota mal garabateada?
+  - [Choice]: si
+    - **Player:** Encontré esta nota ilegible en el suelo. ¿Significa algo para ti?
+    - color=#ccff00
+    - **Skaldrun:** ¡Oh, sí, reconozco esa historia!
+    - **Skaldrun:** Esta es una historia de heroísmo audaz, asombrosas demostraciones de fuerza y habilidad y, lo más importante, un poderoso Fremennik warrior llamado Thok.
+    - **Skaldrun:** Ah... y su hermano Marmaros también está en esto.
+    - [Menu]: ¿Jugar una saga?
+      - [Choice]: Sí, cuéntame una historia.
+        - (arriba)
+      - [Choice]: No, me gustaría hablar sobre el sitio de excavación.|saga=no
+      - [Choice]: No, todavía no.
+        - **Player:** No, todavía no.
+        - **Skaldrun:** Bueno, si estás seguro. Si quieres escuchar una historia, estoy aquí.
+        - (continuea|init-surface)
+  - [Choice]: No
+    - (continuea|init-surface)
+
+##### Desbloqueando Thok Your Block Off (saga)
+
+- **Skaldrun:** Saludos, Player. ¡Qué lindo verte de nuevo! ¿Has venido a escuchar una historia?
+- [Menu]: ¿Cuéntale a Skaldrun sobre el paquete de piedras y cordeles?
+  - [Choice]: si
+    - **Player:** Encontré esta... cosa... mientras exploraba. No tengo idea para qué sirve.
+    - color=#ccff00
+    - **Skaldrun:** ¡Dios mío, es magnífico!
+    - **Skaldrun:** De hecho, me recuerda a una historia que involucra la búsqueda de un arma perdida y dos hermanos poderosos, Thok y Marmaros.
+    - **Skaldrun:** Quizás deberías oír hablar de sus hazañas anteriores antes de contar esta historia.
+    - [Menu]: ¿Jugar una saga?
+      - [Choice]: Sí, cuéntame una historia.
+        - (arriba)
+      - [Choice]: No, me gustaría hablar sobre el sitio de excavación.|saga=no
+      - [Choice]: No, todavía no.
+        - **Player:** No, todavía no.
+        - **Skaldrun:** Bueno, si estás seguro. Si quieres escuchar una historia, estoy aquí.
+        - (continuea|init-surface)
+  - [Choice]: No
+    - (continuea|init-surface)
+
+#### Iniciar saga
+
+- (above|Story)
+
+#### Misterios
+
+- (above|Mystery)

@@ -1,0 +1,186 @@
+# Bill (Zygomite)
+
+- **Original Wiki Page**: [Transcript:Bill (Zygomite)](https://runescape.wiki/w/Transcript%3ABill%20%28Zygomite%29)
+- **Letter**: `B`
+
+---
+
+## Dialogue Transcript
+
+
+### Talk to
+
+
+#### Before Extinction
+
+- **Bill:** Can you hear that?
+- **Bill:** Listen.
+- **Player:** I can only hear the waves?
+- **Bill:** Exactly! The peaceful sound of water.
+- **Bill:** The sound makes me feel calm, peaceful and untroubled.
+- **Player:** It is quite nice.
+- **Bill:** It's also lovely to get a break from my brother. I found this tree that transports anything that climbs it over to that island across the shore.
+- **Bill:** I asked him to climb it for some fruit and *poof*. He vanished. Allowing me to get my peace and quiet for the day.
+- **Bill:** If you want to get across, just climb the tree and you'll teleport too. Really handy for getting places quick!
+- **Player:** Thanks!
+
+#### After Extinction
+
+- ((Before talking about Eggsperimentation:))
+  - **Bill:** ...they are adorable!<br>What little noises they make.
+  - Bill emits a short sharp squeal of delight.
+  - **Salusan:** You needn't dote on these beasts, Bill. They are destined to become ferocious fighters.
+  - (continue)
+- ((Before having completed Potting Is Such Sweet Sorrow:))
+  - **Bill:** Oh, sorry. Didn't see you there.<br>How can I help?
+  - (continue)
+- ((After having completed Potting Is Such Sweet Sorrow:))
+  - **Bill:** Yippee!<br>Flobbadob!<br>Whee!
+  - **Player:** Gibberish, but happy gibberish.<br>Bill is now living his best life.
+  - (continue)
+- **CHOOSE AN OPTION:**
+  - Who are you?
+    - **Bill:** I am Bill. Apparently I am a researcher now.
+    - **Salusan:** Actually, Potterington said I am head of research. You are an assistant.
+    - **Bill:** I am Bill. Apparently I am a research assistant now.
+    - **Salusan:** Thinking about it, you haven't really assisted all that much.<br>Would you kindly muck out the storm barn?
+    - **Bill:** I am Bill. Apparently I am a farmhand now.
+    - **Player:** I think you're supposed to *climb* the career ladder, Bill...
+    - (previous|Bill-options)
+  - What are you doing here?
+    - **Bill:** We're experimenting with the diet of the baby dinosaurs.
+    - **Salusan:** Potterington wants us to increase the yield of the fertiliser they produce.
+    - **Salusan:** Fitting that such warriors produce another weapon!
+    - **Player:** Weapon? I thought it was to farm more crops?
+    - **Salusan:** No, we are optimising for explosive yield. Why would she employ a weapons expert if she wanted better crops?
+    - **Bill:** The explosions are fun!
+    - **Player:** Usually, as a well-meaning adventurer, I would correct this misunderstanding. But those explosions do sound fun!
+    - (previous|Bill-options)
+  - [Talk about helping with Eggsperimentation]
+    - ((With less than 95 Firemaking:))
+      - **Bill:** If you help us, I'm not convinced you won't explode a dinosaur.
+      - **Player:** I'm suddenly much more worried about the ethics of this operation.
+      - ((Shown in a pop-up:))
+        - You require 95 Firemaking to take part in Eggsperimentation.
+        - (continue)
+      - (previous)
+    - ((With at least 95 Firemaking:))
+      - ((Only on first time:))
+        - **Bill:** We are testing how the diet of dinosaurs change the explosiveness of the fertiliser they produce.
+        - {{Qact|Camera pans to the storm barn.}}
+        - **Bill:** You should grab some dinosaurs from the storm barn to the south-east.
+        - {{Qact|Camera pans to the beany mush trough.}}
+        - **Bill:** The different types of dinosaurs crave different foods. The foods are in troughs scattered in this area. You can ask the dinos to lead you to their food if you like!
+        - {{Qact|Camera pans to the middle of the area.}}
+        - **Player:** Why have you moved the troughs so far away from each other?
+        - {{Qact|Camera pans to the berry mush trough.}}
+        - **Bill:** It's to give the dinos some exercise.<br>Can't have them getting out of shape now, can we?
+        - {{Qact|Camera pans to the cerealy mush trough.}}
+        - **Player:** But I'll carry the dinosaurs. They can't even reach the troughs. They're too short!
+        - {{Qact|Camera pans to the rooty mush trough.}}
+        - **Bill:** It's to give you some exercise.<br>Can't have you getting out of shape, now can we?
+        - {{Qact|Camera returns to normal.}}
+        - **Player:** ..!
+        - **Bill:** Once the dinosaurs are full, they'll produce some fertiliser and run off home.
+        - **Bill:** Then you just need to set fire to it at your feet, and enjoy the fireworks.
+        - **Player:** Is that safe?
+        - **Bill:** I'm sure it is. You seem experienced enough!
+        - **Bill:** Bring me back some of the explosive remnants so we can note down the results. Any questions?
+        - **Player:** Plenty that I probably shouldn't ask.
+        - (previous|Bill-options)
+    - ((After the first time but without dinosaur 'propellant':))
+      - **Bill:** I didn't hear any explosions. Have we discovered silent bombs?
+      - {{Qact|Camera pans to the storm barn.}}
+      - You need to gather some dinosaur 'propellant'. You can find dinosaurs in the storm barn to the south-east. Ask a dinosaur in your backpack to lead you to their desired food. Feed dinosaurs until they are full, and ignite the fertilizer they produce.
+        - {{Qact|Camera returns to normal.}}
+        - (previous|Bill-options)
+    - ((With dinosaur 'propellant' before having completed Mycomanagement:))
+      - [You show Bill dinosaur 'propellant'.]
+      - **Bill:** Well done! We have definitely done research here!
+      - **Bill:** Oh, that propellant would launch stuff really far!
+      - **Salusan:** It could probably fling an arrow a good distance.
+      - **Player:** Maybe I should also try putting some in a compost bin to keep Granny happy.
+      - **Bill:** Stranger things have worked today!
+      - **Salusan:** When you have a moment, let's discuss the military capabilities of this propellant.
+      - **Bill:** Thanks! I'm sure Granny will appreciate what you have done.
+      - {{RSFontAchievement|Mycomanagement}}
+      - **Player:** I'm really not sure she will.
+      - (previous|Bill-options)
+    - ((After having completed Mycomanagement:))
+      - **Player:** What can I do with dinosaur 'propellant'?
+      - **Bill:** Oh, that propellant would launch stuff really far!
+      - **Salusan:** It could probably fling an arrow a good distance.
+      - **Player:** Maybe I should also try putting some in a compost bin to keep Granny happy.
+      - **Bill:** Stranger things have worked today!
+      - **Salusan:** When you have a moment, let's discuss the military capabilities of this propellant.
+      - (previous|Bill-options)
+  - Why are you here?
+    - **Bill:** Shh.<br>Can you hear that?
+    - **Bill:** Listen.
+    - **Player:** I can only hear the waves?
+    - **Bill:** Exactly! The peaceful sound of water.
+    - **Bill:** The sound makes me feel calm, peaceful and untroubled.
+    - **Player:** It is quite nice.
+    - **Bill:** It's also lovely to get a break from my brother. I found this tree that transports anything that climbs it over to that island across the shore.
+    - **Bill:** I asked him to climb it for some fruit and *poof*. He vanished. Allowing me to get my peace and quiet for the day.
+    - **Bill:** If you want to get across, just climb the tree and you'll teleport too. Really handy for getting places quick!
+    - **Player:** Thanks!
+    - (previous|Bill-options)
+  - ((Only after having completed Mycomanagement and before having completed Potting Is Such Sweet Sorrow:))
+    - [Talk about Bill's magic pot]
+      - ((Only on first time:))
+        - **Player:** Is there anything else I can do to help you? Random acts of heroism are kinda my thing.
+        - **Player:** Although, my specialty is receiving compensation for random acts of heroism.
+        - **Bill:** Well, my favourite item's gone missing.<br>Again.
+        - Guess Bill's favourite item.
+          - A magic potion?
+            - **Salusan:** Hmm, close. Omnipotently close.
+            - **Bill:** Is there a magic potion you could feed my brother that'd stop him taking my things?
+            - **Player:** I'd have to check stock at the apothecary, but probably not.
+            - **Bill:** Never mind, then.<br>My favourite item's my magic pot.
+            - (continue)
+          - A baked potato?
+            - **Bill:** I find a baked potato as dandy as the next zygomite, but I wouldn't say it's my favourite.
+            - **Salusan:** A fruit compote's more my style.
+            - **Bill:** Ooh, you're making me hungry!<br>My favourite item's my magic pot.
+            - (continue)
+          - An empty plant pot?
+            - **Bill:** Why would I need an empty plant pot?
+            - **Player:** No particular reason. An empty plant pot was the first item I thought of.
+            - **Bill:** Never mind.<br>So, my favourite item's my magic pot.
+            - (continue)
+          - Your magic pot?
+            - **Bill:** Wait, what? How do you know my favourite item's my magic pot?
+            - **Player:** I'm extremely observant.
+            - (continue)
+        - **Bill:** I bet Ben - my potty, spotty brother - has taken it again.
+        - **Player:** Oh, yes. When Ben told me about carestyling, there was a magic pot on the ground next to him.
+        - **Bill:** Aha! Well spotted. I knew it! Ben always makes a hotchpotch of things.
+        - **Bill:** I don't have any rewards to offer you. Virtue is its own reward, I suppose? But I'll be very grateful if you bring my magic pot back to me.
+        - **Player:** That sounds like just the quest for a prepotent adventurer like myself.
+        - **Bill:** This definitely isn't a quest, not even hypothetically. It's just a bit of pottering about.
+      - ((After the first time, without magic pot:))
+        - **Player:** Remind me of my quest.
+        - **Bill:** I told you. This isn't a quest! It's barely an errand.
+        - **Bill:** Like I said, my favourite item's my magic pot.
+        - **Bill:** I bet Ben - my potty, spotty brother - has taken it again.
+        - **Player:** Oh, yes. When Ben told me about carestyling, there was a magic pot on the ground next to him.
+        - **Bill:** Aha! Well spotted. I knew it! Ben always makes a hotchpotch of things.
+        - **Bill:** I don't have any rewards to offer you. Virtue is its own reward, I suppose? But I'll be very grateful if you bring my magic pot back to me.
+        - **Bill:** No quests. No big adventures Just one small favour. That's all.
+        - {{Qact|Camera fades into black.}}
+        - Bill's words 'One Small Favour' echo grotesquely in your head.<br>You disassociate for a minute or two, flashing back to a relatively recent trauma.
+        - {{Qact|Camera fades back.}}
+        - You regain your senses, drenched in a cold sweat.
+        - **Bill:** You okay? You were muttering 'key ring' over and over again.
+        - **Player:** Fine. Just...don't mention that quest again.
+        - **Bill:** How many times do I have to...<br>This isn't a quest!
+        - (previous|Bill-options)
+      - ((After the first time, with magic pot:))
+        - **Player:** Ben gave me your magic pot in exchange for an empty plant pot.
+        - **Bill:** Yay! Jackpot!<br>Can I have it?
+        - You reunite Bill with his magic pot. He squeals in gleeful delight and sets it proudly by his side.
+        - (removes=magic pot)
+        - {{RSFontAchievement|Potting Is Such Sweet Sorrow}}
+  - Goodbye.
+    - **Bill:** Bye!

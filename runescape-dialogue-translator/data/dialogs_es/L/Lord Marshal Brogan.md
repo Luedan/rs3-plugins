@@ -1,0 +1,63 @@
+# Lord Marshal Brogan
+
+- **Original Wiki Page**: [Transcript:Lord Marshal Brogan](https://runescape.wiki/w/Transcript%3ALord%20Marshal%20Brogan)
+- **Letter**: `L`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+- **Player:** P-p-permiso para hablar libremente, señor. *[player salutes]*
+- **Lord Marshal Brogan:** Adelante.
+  - **Player:** ¿Puedo preguntarte: cuánto tiempo llevas trabajando aquí?
+    - **Lord Marshal Brogan:** Parece que te lo has ganado. Llevo aquí 41 años; BRAZOS. es mi vida y todo lo que sé.
+    - **Player:** Señor, ¿le importaría que le hiciera preguntas?
+    - **Lord Marshal Brogan:** Está bien. Prefiero disfrutar compartiendo mis conocimientos y experiencia.
+    - **Player:** Muy amable, señor. ¿Fundaste la organización?
+    - **Lord Marshal Brogan:** Eso hice. Luché en muchas batallas hace años, cuando las cosas eran mucho menos estables que hoy. Cuando terminaron las batallas, pregunté a mis compañeros veteranos de guerra si les gustaría utilizar su experiencia para explorar tierras lejanas. El problema era que era difícil encontrar un líder y pocos tenían dinero. Entonces, A.R.M.S. Era la solución natural, donde cualquiera podía comandar y recibir suficientes recursos para financiar una expedición.
+    - **Player:** ¿Y fue popular, Lord Mariscal?
+    - **Lord Marshal Brogan:** ¡Demasiado popular! Tanta gente estaba interesada que rápidamente pasó de expediciones no violentas a batallas financiadas pero, como veteranos de guerra, a nadie le importó.
+    - **Player:** Muy interesante. Gracias señor.
+  - **Player:** ¿Puedo canjear mis créditos de recompensa?
+    - **Lord Marshal Brogan:** Eso es posible. ¿Qué estás buscando en particular?
+      - [Menu]: Seleccione una opción.
+        - [Choice]: Artículos de recompensa.
+          - (opens=Lord Marshal Brogan's reward shop)
+        - [Choice]: Botín de guerra.
+          - (opens=Mobilising_Armies/Rewards#Second_floor_(rank_300+){{!)Spoils of war}}
+        - [Choice]: Imbuir anillos.
+          - **Lord Marshal Brogan:** Puedo imbuir algunos anillos para dar mejoras de combate adicionales. ¿Cuál te gustaría?
+            - [Menu]: Seleccione una opción.
+              - [Choice]: Anillo de ónix (144 100 créditos de recompensa)
+                - **Player:** Anillo de ónix, por favor.
+                - (continue)
+              - [Choice]: Anillo de arquero (205 900 créditos de recompensa)
+                - **Player:** Anillo de arquero, por favor.
+                - (continue)
+              - [Choice]: Anillo de Seer (205.900 créditos de recompensa)
+                - **Player:** El anillo de Seer, por favor.
+                - (continue)
+              - [Choice]: Anillo de guerrero (205.900 créditos de recompensa)
+                - **Player:** Anillo de guerrero, por favor.
+                - (continue)
+              - [Choice]: Anillo Berserker (205,900 créditos de recompensa)
+                - **Player:** Anillo Berserker, por favor.
+                - (continue)
+            - (Condition: Si el player sostiene un anillo imbuido:)
+              - [Choice]: ¿Puedes eliminar el encantamiento de mi artículo?
+                - {{Transcript missing}}
+          - (Condition: Si el player tiene suficientes créditos de recompensa:)
+            - **Lord Marshal Brogan:** ¡Ahí lo tienes! Si quieres eliminar el efecto, vuelve y lo haré gratis.
+            - (end)
+          - (Condition: Si el player no tiene suficientes créditos de recompensa:)
+            - {{Transcript missing}}
+        - [Choice]: Vete.
+          - **Player:** Lo siento, permiso para salir, señor.
+          - **Lord Marshal Brogan:** Puedes.
+          - (end)
+  - **Player:** ¿Puedo cambiar mi prefijo de rango, por favor?
+    - **War-chief Reeves:** Por supuesto. ¿Qué prefijo de rango te gustaría?
+    - *[title selection]*
+  - **Player:** Lo siento, permiso para salir, señor.
+    - **Lord Marshal Brogan:** Puedes.

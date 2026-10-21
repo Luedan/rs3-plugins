@@ -1,0 +1,168 @@
+# Roavar
+
+- **Original Wiki Page**: [Transcript:Roavar](https://runescape.wiki/w/Transcript%3ARoavar)
+- **Letter**: `R`
+
+---
+
+## Dialogue Transcript
+
+
+### In Canifis
+
+- **Player:**  Hello there!
+- **Roavar:**  Greetings traveller. Welcome to 'The Hair Of the Dog' Tavern. What can I do you for?
+- [Menu]: Select an Option
+  - [Choice]: Can I buy a beer?
+    - **Player:**  Can I buy a beer?
+    - **Roavar:**  Well that's my speciality! The local brew's named 'Moonlight Mead' and will set you back 5 gold. Whaddya say? Fancy a pint?
+    - [Menu]: Select an Option
+      - [Choice]: Yes please.
+        - **Player:** Yes please.
+        - (Condition: With five coins:)
+          - **Roavar:** Here ya go pal. Enjoy!
+          - (removes=5 coins) (receives=Moonlight Mead)
+        - (Condition: Without five coins:)
+          - You can not afford that.
+          - (pop-up)
+            - {{Pop-up|You can not afford that.|warning=yes}}
+          - **Player:** I don't have the money on me right now though... can I start a tab?
+          - **Roavar:** You see that sign behind me there?
+          - **Player:** The one that says; 'Please Do Not Ask For Credit As Being Attacked By A Large Angry Werewolf Inn Keeper Often Offends'?
+          - **Roavar:** Bingo.
+      - [Choice]: Actually, no thanks.
+        - **Player:** Actually, no thanks.
+        - **Roavar:** Eh, suit yourself. You're missing out on a genuine taste experience.
+  - [Choice]: Can I hear some gossip?
+    - **Player:**  Can I hear some gossip?
+    - **Roavar:**  Well, I dunno... The village is kind of on the fringe out here, I dunno how up to date the stuff I hear about is...
+    - [Menu]: Select an Option
+      - [Choice]: Tell me about this village.
+        - **Roavar:** You want to know about Canifis? I dunno why, not a lot happens here. We're just your typical everyday down at earth werewolf folk, after all...
+        - **Player:** So... everyone here is a werewolf?
+        - **Roavar:** Yep. We are as Zamorak made us!
+        - **Player:** You mentioned Zamorak...
+        - (Condition: Current dialogue:)
+          - **Roavar:** Yeah, he's great, isn't he? Every year we hold a big festival to give thanks to Zamorak for keeping us well fed and happy.
+          - **Roavar:** I hear over in the west, they worship Saradomin. I don't know why! What's he ever done to help us werewolves, huh?
+          - **Roavar:** His followers say crazy things like 'we shouldn't kill people and eat them'! What's up with that?
+          - **Player:** ...So, when is this festival?
+          - **Roavar:** Ah, not for a good few months. Come and ask me again nearer the time. I'll keep some meat and mead back from the rest for you, pal.
+        - (Condition: Historical dialogue, after the Battle of Lumbridge:)
+          - **Roavar:** Yeah, the great god Zamorak! That is another crime to add to Saradomin's slate.
+          - **Roavar:** Not long ago, Saradomin defeated Zamorak in a great battle near a place called Lumbridge.
+          - **Roavar:** First he poisons our river, then he banishes our god! He really is an evil god!
+          - **Roavar:** And he has all these crazy followers who say things like we shouldn't kill people and eat them! What's up with that?
+          - **Roavar:** Anyway, every year we hold a big festival to give thanks to Zamorak for keeping us well fed and happy here.
+          - **Player:** ...So when is this festival?
+          - **Roavar:** Aaaah, not for a good few months yet. Come and ask me nearer to time, I'll keep some extra meat and mead from the rest for ya pal.
+        - (Condition: Historical dialogue, during the Battle of Lumbridge:)
+          - **Roavar:** Yeah, he's right there fighting for our rights even now, by somewhere called Lumbridge.
+          - **Roavar:** I hear that Saradomin is back too. He's truly evil - he poisoned the river to the west!
+          - **Roavar:** And he has all these crazy followers who say things like we shouldn't kill people and eat them! What's up with that?
+          - **Roavar:** But Zamorak should put him in place. Zamorak is great, isn't he!
+          - **Roavar:** Every year we hold a big festival to give thanks to Zamorak for keeping us well fed and happy here.
+          - **Player:** ...So when is this festival?
+          - **Roavar:** Aaaah, not for a good few months yet. Come and ask me nearer to time, I'll keep some extra meat and mead from the rest for ya pal.
+      - [Choice]: Tell me about the land of Morytania.
+        - **Player:** Tell me about the land of Morytania.
+        - (Condition: Before River of Blood:)
+          - **Roavar:** Well, I don't know what to tell you really. This village is called Canifis and lies on the border between Morytania and Misthalin. So, we're kind of on the front line if those Saradominists to the west ever decide to attack us.
+          - **Roavar:** South East of here is the castle of Lord Drakan, our master.
+          - **Player:** Lord Drakan? Who is that?
+          - **Roavar:** Ahhh... you must be new to these parts if you haven't heard of Lord Drakan! He's the lord of the land, and we all pledge allegiance to him.
+          - **Roavar:** In return for our allegiance, and the tithe of course, he keeps our land safe from any invaders and the Saradominists who want to kill us all.
+          - **Player:** Tithe? What do you mean?
+          - **Roavar:** Ah, well, in return for his protection, we have to give Lord Drakan a share of blood every week. If we don't have any to spare from our hunts, then we need to pick a member of the village  to give their life in return for the blood so
+          - **Roavar:** that the tithe is fulfilled.
+          - **Player:** You mean you kill someone you know in order to meet the tithe?
+          - **Roavar:** That's right, but only if we haven't managed to get enough spare blood from our hunts. It's kind of severe if you look at it that way, but frankly, I think the price is fair in return for  his protection and his tolerance of our
+          - **Roavar:** village. He could probably kill us all if he wanted us gone, so keeping on his good side is worth the sacrifice to us. Lucky we're not human really!
+          - **Player:** Why's that?
+          - (Condition: Before Vampyre Slayer:)
+            - **Roavar:** He hates humans! Apparently his brother Draynor is trapped in Misthalin, and adventurous little human wannabe-heroes keep trying to kill him!
+            - (continue)
+          - (Condition: After Vampyre Slayer:)
+            - **Roavar:** He hates humans! Apparently long ago his brother Draynor was trapped in Misthalin and lost much of his powers, and was recently killed by some human!
+            - (continue)
+          - **Roavar:** Man, I'd hate to be a human around here, that's for sure. Drakan would really enjoy hunting them down and killing them!
+          - **Player:** Uh... thanks for the info...
+        - (Condition: After River of Blood:)
+          - **Roavar:** Well, I don't know what to tell you really. This village is called Canifis and lies on the border between Morytania and Misthalin. So, we're kind of on the front line if those Saradominists to the west ever decide to attack us.
+          - **Player:** Uh... thanks for the info...
+      - [Choice]: Tell me about the shopkeepers here.
+        - **Player:** Tell me about the shopkeepers here.
+        - **Roavar:** Hmmm? Why, who did you want to hear the gossip about?
+        - [Menu]: Select an Option
+          - [Choice]: Sbott the Tanner.
+            - **Player:** Tell me what you know about Sbott the Tanner.
+            - **Roavar:** Hey, I won't hear a word said bad about that guy! He's an honest and hard-working wolf if I ever met one! He charges a lot for his job, but he's one of the best tanners I've ever seen - and I'm over four hundred years old! You
+            - **Roavar:** need stuff tanning, I recommend him!
+          - [Choice]: Rufus the food seller.
+            - **Player:** Know anything interesting about Rufus the food seller?
+            - **Roavar:** Ah yeah... good old Rufus... He's kind of getting on in years and doesn't like to come out of his wolf form so often, but let me tell you this: that guy is a hunter through and through. You seen how much food he catches in a day? That
+            - **Roavar:** takes real dedication! Some of the young pups think that just because a wolf has a bit of grey in his fur then he's past it, but I've seen him put those pups to shame in a hunt! He's a real inspiration to us all!
+          - [Choice]: Barker the clothes seller.
+            - **Player:** Got anything to share about Barker the clothes seller?
+            - **Roavar:** Eh, I don't like the guy much, but you can't knock the quality of his stock. They're some fine quality threads that you can get yourself there.
+            - **Player:** What's wrong with him?
+            - **Roavar:** Eh... I can't really tell you to be honest. Something about the guy just gets my hackles up everything he opens his yap, know what I mean?
+            - **Player:** No, not really.
+            - **Roavar:** Lucky for you. I can't really explain it, I just don't like the guy. Does great clothes though, you got to give him that.
+          - [Choice]: Fidelio the general store owner.
+            - **Player:** I bet you have some juicy gossip about Fidelio the general store owner.
+            - **Roavar:** That nut job? Oh sure, we all know about him. He was a real firebrand daredevil when he was much younger, always taking risks to make himself a quick buck... he got himself caught up in the smuggling trade, sneaking over the
+            - **Roavar:** border into Misthalin and pretending to be a human so he could buy exotic items to sell.
+            - **Player:** Exotic items? From Misthalin? Like what?
+            - **Roavar:** Oh man, you name it! Flour... buckets... tinderboxes... chisels... he could get the lot! He's been doing it so long now though, his nerves are shot.
+            - **Roavar:** Nowadays he's a disgrace, he can barely string a sentence together and jumps at his own shadow. Makes you feel ashamed to be a werewolf.
+      - [Choice]: Tell me about the temple to the West.
+        - **Player:** Tell me about the temple to the west.
+        - **Roavar:** Well, I'm not old enough to remember the full story behind it, but it was a terrible day for our kingdom when it was built there.
+        - **Roavar:** Apparently Morytania had a once strong kingdom, with lands spreading far further west than they do today, and south into the desert, until the day when a sneak attack by the hated human forces who worship Saradomin burned
+        - **Roavar:** our villages and slaughtered our peoples in mass.
+        - **Roavar:** They then cursed the river, so that it would burn our kind should we touch it! Can you imagine? To make an entire river poisonous to us?
+        - (Condition: Before River of Blood:)
+          - **Roavar:** Luckily they seem to have calmed down somewhat recently, and tend to stay on their side of the river... but the wrong they have done my people will never be forgotten, and will never be forgiven. What is worse is
+          - **Roavar:** that they then had the nerve to build that gigantic statue on the river mouth to mock the slaughter of our people and the poisoning of our river! I can understand Lord Drakan's hatred for them even if I do not share it to his
+          - **Roavar:** extent.
+          - (continue)
+        - (Condition: After River of Blood:)
+          - **Roavar:** Luckily, though, the curse has been lifted and we're free to travel into Misthalin for food. Most of us are too afraid of those evil humans, though, so we don't risk it.
+          - (continue)
+        - **Player:** So you hate humans too?
+        - **Roavar:** Absolutely! If I ever met one I would gobble him up where he stands! And then chew the bones for dessert!
+        - **Player:** Um, okay, thanks, bye.
+  - [Choice]: Can I hear a story?
+    - **Player:** Can I hear a story?
+    - **Roavar:** A story? Heh, well the only one I can think of right now is the one my dear old mammy told me as a pup...
+    - **Roavar:** Now how did it go... Ah yes!
+    - **Roavar:** Once upon a time a brave young wolf was walking through a forest, when he came upon a human dressed all in red. 'Aha!' he thought to himself, 'Here's a nice easy meal!' But the human talked to him, and he was always taught to
+    - **Roavar:** be a polite wolf, he spoke back to it.
+    - **Roavar:** Well, this cunning human told him that there was a better meal that would not run away in the house in the woods. As the brave young wolf could see that this human was not fully grown, he figured maybe he'd better get a better
+    - **Roavar:** meal at this house, so he ran as fast as his paws could carry him to the house the human told him about... inside he found an old human lying in bed, and although she was a little tough, as the human was older than he
+    - **Roavar:** thought, he had a good meal and decided to sleep it off in the house for awhile. He had not been asleep long though, when he was woken by a knocking at the door. The human in red had followed him to the house! Suspecting a human
+    - **Roavar:** trap, the brave young wolf put on the old humans clothes and jumped into the bed, so that he could pretend to be human and escape from this terrible trap! Well now, this human dressed in red came into the house, and pretended
+    - **Roavar:** to believe the brave wolf was really a human, and began to talk to him. But then the human started asking strange questions of the wolf, because the human knew that it was not a human at all! The brave young wolf decided to
+    - **Roavar:** try and escape, for it was only a young human, and not very strong, so the brave young wolf said he would eat the human if they did not let him escape! As he said this however, the human in red shouted at him: 'Aha! You
+    - **Roavar:** are a wolf!' and as the human shouted this another bigger human ran into the room from outside! This bigger human was much stronger and was carrying an axe, and the poor young wolf died in this terrible trap made for him by the
+    - **Roavar:** humans.
+    - **Roavar:** And do you know what the moral of this story is?
+    - **Player:** Um... no, not really.
+    - **Roavar:** It's 'Never trust humans' of course! My dear old mammy told me that story when I was a pup, and I'm still alive and well to tell it you today!
+    - **Roavar:** Pretty good story huh?
+    - **Player:** Um... yeah. It was great. Really.
+  - [Choice]: Nothing thanks.
+    - **Player:** Nothing thanks.
+    - **Roavar:** ...I don't know why you talked to me if you don't want anything then...
+
+#### Treasure Trails
+
+- **Roavar:** Here you go!
+- (removes=the old clue scroll (medium))
+- (Condition: If the trail continues:)
+  - (receives=a new clue scroll (medium))
+  - [Roavar has given you another clue scroll!]
+- (Condition: If the trail ends:)
+  - (receives=reward casket (medium))
+  - [You've found a casket!]

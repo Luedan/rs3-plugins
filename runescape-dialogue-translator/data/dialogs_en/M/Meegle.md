@@ -1,0 +1,19 @@
+# Meegle
+
+- **Original Wiki Page**: [Transcript:Meegle](https://runescape.wiki/w/Transcript%3AMeegle)
+- **Letter**: `M`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard Dialogue
+
+- **Player:** So what do you do?
+- **Meegle:** I breed Terrorbirds.
+- **Player:** Why are they called Terrorbirds?
+- **Meegle:** Well, they're supposed to look terrifying but I think they are rather cute.
+- **Player:** I'm sure they are cute, unless they are biting your arm off.
+- **Meegle:** Oh, they'd never do that - unless I tell them to, of course.
+- **Player:** I'd better stay on your good side then!

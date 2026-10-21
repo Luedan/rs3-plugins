@@ -1,0 +1,162 @@
+# Zahur
+
+- **Original Wiki Page**: [Transcript:Zahur](https://runescape.wiki/w/Transcript%3AZahur)
+- **Letter**: `Z`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Zahur:** Hola, puedo limpiar tus hierbas por un costo de 200 coins por hierba. Si quieres que limpie las hierbas individualmente, usa cada hierba conmigo o puedo limpiar todas las hierbas en tu inventario a la vez ahora.
+- **Zahur:** Si quieres que las pociones se decanten en versiones de 3, 2 o 1 osa, también puedo hacerlo. Cobro 2 coins por cada vial normal, 2 coins por cada vial de juju y 2 coins por cada vial de powerburst que tengo que suministrar.
+- [Menu]: Selecciona una opción
+  - [Choice]: Por favor limpia todas mis hierbas.
+    - (Condition: Si el player lleva una o más hierbas sucias:)
+      - (removes=grimy herbs and 200 coins per herb) (receives=clean herbs)
+      - **Zahur:** Bien, ya se han limpiado todas las hierbas de tu inventario.
+    - (Condition: Si el player no lleva hierbas sucias:)
+      - **Zahur:** ¡No tienes ninguna hierba sucia que pueda limpiar!
+    - (Condition: Si el player tiene hierbas sucias, pero no tiene suficiente dinero:)
+      - No puedes permitirte eso.
+      - **Zahur:** No tienes suficiente coins para limpiar más hierbas.
+  - [Choice]: Por favor, decanta mis pociones.
+    - **Player:** Por favor, decanta mis pociones.
+    - **Zahur:** ¿Te gustaría que se convirtieran en pociones de 1, 2 o 3 dosis?
+    - [Menu]: Selecciona una opción
+      - [Choice]: Hazlas todas en pociones de 1 dosis.
+        - **Player:** Prepáralas todas en pociones de 1 dosis.
+        - (Condition: Si el player lleva alguna poción decantable:)
+          - ((Se retiran de la bolsa de el player 2 coins por cada vial suministrado por Zahur))
+          - **Zahur:** Ahí lo tienes, disfruta.
+        - (Condition: Si el jugador no lleva ninguna poción decantable:)
+          - **Zahur:** Lo siento, no sé cómo decantar todas esas cosas que tienes contigo.
+        - (Condition: Si el player tiene pociones decantables, pero no tiene suficiente dinero:)
+          - **Zahur:** Me temo que no tienes suficiente dinero para pagar suficientes viales vacíos.
+        - (Condition: Si el player tiene un inventario vacío:)
+          - **Zahur:** ¿Estás intentando hacerme perder el tiempo? ¡No tienes nada contigo!
+      - [Choice]: Hazlas todas pociones de 2 dosis.
+        - **Player:** Prepáralas todas en pociones de 2 dosis.
+        - (Condition: Si el player lleva alguna poción decantable:)
+          - ((Se retiran de la bolsa de el player 2 coins por cada vial suministrado por Zahur))
+          - **Zahur:** Ahí lo tienes, disfruta.
+        - (Condition: Si el jugador no lleva ninguna poción decantable:)
+          - **Zahur:** Lo siento, no sé cómo decantar todas esas cosas que tienes contigo.
+        - (Condition: Si el player tiene pociones decantables, pero no tiene suficiente dinero:)
+          - **Zahur:** Me temo que no tienes suficiente dinero para pagar suficientes viales vacíos.
+        - (Condition: Si el player tiene un inventario vacío:)
+          - **Zahur:** ¿Estás intentando hacerme perder el tiempo? ¡No tienes nada contigo!
+      - [Choice]: Hazlas todas pociones de 3 dosis.
+        - **Player:** Prepáralas todas en pociones de 3 dosis.
+        - (Condition: Si el player lleva alguna poción decantable:)
+          - ((Se retiran de la bolsa de el player 2 coins por cada vial suministrado por Zahur))
+          - **Zahur:** Ahí lo tienes, disfruta.
+        - (Condition: Si el jugador no lleva ninguna poción decantable:)
+          - **Zahur:** Lo siento, no sé cómo decantar todas esas cosas que tienes contigo.
+        - (Condition: Si el player tiene pociones decantables, pero no tiene suficiente dinero:)
+          - **Zahur:** Me temo que no tienes suficiente dinero para pagar suficientes viales vacíos.
+        - (Condition: Si el player tiene un inventario vacío:)
+          - **Zahur:** ¿Estás intentando hacerme perder el tiempo? ¡No tienes nada contigo!
+      - [Choice]: En realidad, olvídalo.
+        - **Player:** En realidad, olvídalo.
+  - [Choice]: Por favor explique sus cargos.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Por qué te pagaría para que limpies las hierbas?
+        - **Player:** ¿Por qué te pagaría para que limpies las hierbas? Puedo adquirir experiencia con Herblore limpiándolos yo mismo.
+        - **Zahur:** Esto es cierto, pero muchos clientes quieren vender las hierbas sin mejorar sus propias habilidades. Pueden obtener precios particularmente altos vendiendo esas hierbas sucias que sólo el herbolario más experto puede limpiar.
+        - (initial)
+      - [Choice]: Por favor explique su tarifa por decantar pociones.
+        - **Player:** Explique su tarifa por decantar pociones.
+        - **Zahur:** Si cambio sus pociones de 4 dosis a pociones de 3 o 2 dosis, es posible que necesite más viales para contener la misma cantidad de dosis. Cobro 2 coins por viales normales, 2 coins por viales juju y 2 coins por cada vial powerburst.
+        - **Zahur:** Si no necesito suministrar ningún vial adicional, ¡funciona completamente gratis!
+        - (initial)
+  - [Choice]: Habla de tareas.
+    - (Condition: Si se completaron los logros del desierto medio y no se reclamaron las recompensas:)
+      - **Player:** He completado todas las tareas medianas en el conjunto Desierto.
+      - **Zahur:** Así que sí. Tengo un amuleto especial reservado para ti.
+      - [Zahur te entrega un amuleto bellamente elaborado y una lámpara.]
+      - **Zahur:** Ahí lo tienes. Combina maravillosamente con tus ojos y, aún mejor, seguramente encantará al Weird Old Man cerca de Kalphite Lair, quien puede tener algo útil para ti.
+      - **Zahur:** Mientras lo uses, también te permitirá equilibrarte mejor en esa pirámide terriblemente inestable y te permitirá teletransportarte aquí.
+      - **Zahur:** Ah, y está diseñado de tal manera que enfoca la luz del sol, así que... puedes usar la arena del desierto para crear vidrio fundido, si tienes carbonato de sodio contigo.
+      - **Player:** ¡Gracias!
+      - (continue)
+    - (Condition: Si el player ha perdido su amuleto del desierto 2:)
+      - **Zahur:** ¡Ah, el portador del amuleto! ¿Cómo lo estás encontrando?
+      - **Player:** Lo perdí.
+      - **Zahur:** ¡Oh, no!
+      - **Zahur:** No importa, tengo otro. Aquí...
+      - (receives=desert amulet 2)
+      - [Zahur te entrega un amuleto.]
+      - (continue)
+    - '''Elige una opción:
+      - [Choice]: Háblame del Sistema de Logros.
+        - **Zahur:** Muy bien: el Sistema de Logros es una colección de hazañas que quizás desees completar mientras viajas por el mundo.
+        - **Zahur:** Puedes ganar recompensas especiales por completar ciertos logros; como mínimo, cada uno vale una recompensa en efectivo de Explorer Jack en Lumbridge.
+        - **Zahur:** Algunos también ofrecen elementos que ayudarán a completar otros logros y muchos cuentan como progreso hacia el conjunto del área en la que se encuentran.
+        - '''Elige una opción:
+          - [Choice]: Cuéntame sobre la recompensa establecida para esta localidad.
+            - **Zahur:** Por completar el conjunto Desierto, se te presenta un amuleto.
+            - **Zahur:** Este amuleto será cada vez más útil a medida que completes niveles de dificultad mayores.
+            - **Zahur:** Cuando se le presenten sus recompensas, se le informará sobre sus usos.
+            - También puedes ver qué recompensas proporciona un elemento determinado al pasar el cursor sobre el ícono de Recompensas de su Logro de exploración establecido en la interfaz de Logros.
+            - (previous2)
+          - [Choice]: ¿Cómo reclamo estas recompensas?
+            - **Zahur:** Debes completar todas las tareas dentro de un conjunto de dificultad particular; entonces podrás reclamar tu recompensa.
+            - **Zahur:** Algunas de las tareas del desierto son simples, algunas requieren cierto skill levels y otras requieren que se inicien o completen misiones.
+            - **Zahur:** Para reclamar las recompensas del conjunto Desierto, habla con Hassan en el Palacio Al Kharid, con Ali el Mayor en Pollnivneach, con el Golem en Uzer o conmigo mismo.
+            - (previous2)
+          - [Choice]: Lo siento, me estaba yendo.
+            - (end)
+      - [Choice]: ¿Puedo comprar un repuesto de la recompensa?
+        - [Menu]: Elige una opción:
+          - [Choice]: Amuleto del desierto 1
+            - **Zahur:** ¿Amuleto del desierto 1? Sí, pero me temo que te costaría 1.500 coins.
+            - [Menu]: ¿Comprar otro por 1.500 coins?
+              - [Choice]: si
+                - (receives=Desert amulet 1) (removes= 1,500 coins)
+                - [Te entregan otro amuleto del Desierto 1.]
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Amuleto del desierto 2
+            - **Zahur:** ¿Amuleto del desierto 2? Sí, pero me temo que te costaría 7.500 coins.
+            - [Menu]: ¿Comprar otro por 7.500 coins?
+              - [Choice]: si
+                - (receives=Desert amulet 2) (removes= 7,500 coins)
+                - [Te entregan otro amuleto del Desierto 2.]
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Amuleto del desierto 3
+            - **Zahur:** ¿Amuleto del desierto 3? Sí, pero me temo que te costaría 25.000 coins.
+            - [Menu]: ¿Comprar otro por 25.000 coins?
+              - [Choice]: si
+                - (receives=Desert amulet 3) (removes= 25,000 coins)
+                - [Te entregan otro amuleto del Desierto 3.]
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Amuleto del desierto 4
+            - **Zahur:** ¿Amuleto del desierto 4? Sí, pero me temo que te costaría 50.000 coins.
+            - [Menu]: ¿Comprar otro por 50.000 coins?
+              - [Choice]: si
+                - (receives=Desert amulet 4) (removes= 50,000 coins)
+                - [Te entregan otro amuleto del Desierto 4.]
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Lo siento, me estaba yendo.
+            - (end)
+      - [Choice]: Lo siento, me estaba yendo.
+        - (end)
+  - [Choice]: ¿Pueden convertir mis matraces en viales normales para mí?
+    - (Condition: Si el player no lleva matraces decantables:)
+      - **Zahur:** Lo siento, parece que no tienes nada que pueda usar. ¡Asegúrate de tener al menos 1 matraz!
+    - (Condition: Si el player lleva algún matraz decantable:)
+      - **Zahur:** Por supuesto. Creo que puedo utilizar los matraces, así que te daré los viales gratis.
+      - [Menu]: ¿Convertir los matraces y guardaré los matraces vacíos?
+        - [Choice]: si
+          - **Zahur:** Ahí lo tienes, ¡eso es lo mejor que puedo hacer!
+        - [Choice]: No
+          - (end)
+        - [Choice]: Sí, y no vuelvas a preguntar.
+          - **Zahur:** Ahí lo tienes, ¡eso es lo mejor que puedo hacer!

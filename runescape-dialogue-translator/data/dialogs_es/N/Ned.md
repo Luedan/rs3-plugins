@@ -1,0 +1,273 @@
+# Ned
+
+- **Original Wiki Page**: [Transcript:Ned](https://runescape.wiki/w/Transcript%3ANed)
+- **Letter**: `N`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### In Draynor Village
+
+
+#### Antes de Dragon Slayer
+
+- [Menu]: ¿De qué te gustaría hablar?
+  - {{anchor|task-system}} [Elección]: Acerca del sistema de tareas...
+    - (Condition: Si el player ha completado las tareas medianas en el conjunto Lumbridge y Draynor y las recompensas no han sido reclamadas:)
+      - **Player:** He completado todas las tareas medianas del conjunto Lumbridge.
+      - **Ned:** ¡Me lo imagino! Supongo que querrás una recompensa, ¿eh?
+      - **Player:** Sí, por favor.
+      - **Ned:** Parece que has explorado mucho, así que te recompensaré bien por tu trabajo.
+      - **Player:** ¡Genial! Gracias.
+      - (receives=explorer's ring 3 and Antique lamp (Medium Lumbridge Tasks))
+      - Ned te entrega una versión dorada más brillante del Anillo del Explorador.
+      - **Ned:** Ahora, como antes, este anillo conservará todas las funciones de tus dos últimos anillos, sin embargo, este es mejor.
+      - **Ned:** ¡No solo obtienes una tercera y última carga de energía, sino que este anillo en particular fue bendecido por la propia Farming patch spirit! Es posible que la veas si te quedas con los parches de Farming por un tiempo.
+      - **Ned:** Le pone ansiosa la gente merodeando o algo así de extraño.
+      - **Ned:** De todos modos, ¡este anillo te permite viajar por el camino de doble repollo!
+      - **Player:** ¿Viajar en qué?
+      - **Ned:** Camino de repollo doble. Es un método de viaje muy secreto y poco conocido por estas tierras. Usar este anillo te permitirá viajar a los campos de col al sur de Falador.
+      - **Player:** Eso suena increíble.
+      - **Ned:** Bueno, te lo mereces. Felicitaciones por completar todas tus tareas, amigo mío.
+      - **Player:** ¡Vaya, gracias!
+      - **Ned:** También puedes quedarte con esta lámpara antigua. Ya no lo necesito. Me estoy haciendo demasiado mayor para aventurarme. Ahora, si pierdes ese anillo, puedes volver a reclamarlo. ¿Algo más?
+      - (continue)
+    - (Condition: Si el player ha completado las tareas difíciles en el conjunto Lumbridge y Draynor y las recompensas no han sido reclamadas:)
+      - **Player:** He completado todas las tareas difíciles del conjunto Lumbridge.
+      - **Ned:** ¡Mis más sinceras felicitaciones! Supongo que querrás una recompensa, ¿eh?
+      - **Player:** Sí, por favor.
+      - **Ned:** Bueno, ¡parece que has explorado prácticamente todos lados! Es necesaria una recompensa adecuada.
+      - **Player:** ¡Genial! Gracias.
+      - (receives=explorer's ring 4 and Antique lamp (Hard Lumbridge Tasks))
+      - Ned te entrega una versión más brillante y brillante del Anillo del Explorador.
+      - **Ned:** Ahora, como antes, este anillo conservará todas las funciones de tus últimos tres anillos, sin embargo, este es el mejor de todos.
+      - **Ned:** Tengo algunos magos que me ayudaron, por lo que ahora puedo darte algunos lanzamientos gratuitos de los hechizos de objetos de alta alquimia y sobrecalentamiento.
+      - **Ned:** Ahh, también tienes la posibilidad de no usar runas al lanzar Bones to Bananas, pero no necesitas el anillo para eso. Ah, y el cocinero del castillo Lumbridge ha donado una cesta; puedes conseguirla todos los días.
+      - **Player:** ¡Guau!
+      - **Ned:** También puedes quedarte con esta lámpara antigua. Ya no lo necesito. Me estoy haciendo demasiado mayor para aventurarme. Ahora, si pierdes ese anillo, puedes volver a reclamarlo. ¿Algo más?
+      - (continue)
+    - (Condition: Si el player ha perdido su anillo de Explorador 3:)
+      - **Ned:** ¿Dónde está el anillo que te regalé, Player?
+      - **Player:** Lo perdí; No estoy seguro de dónde.
+      - **Ned:** Sí, eso pensé. La expresión de tu cara me lo dijo. Tengo otro que quizás tengas.
+      - (receives=Explorer's ring 3)
+      - [Ned te entrega otro anillo.]
+      - (continue)
+    - (Condition: Si el player ha perdido su anillo de Explorador 4:)
+      - **Ned:** ¿Dónde está el anillo que te regalé, Player?
+      - **Player:** Lo perdí; No estoy seguro de dónde.
+      - **Ned:** Sí, eso pensé. La expresión de tu cara me lo dijo. Tengo otro que quizás tengas.
+      - (receives=Explorer's ring 4)
+      - [Ned te entrega otro anillo.]
+      - (continue)
+    - [Menu]: Elige una opción:
+      - [Choice]: Háblame del Sistema de Logros.
+        - **Ned:** Muy bien: el Sistema de Logros es una colección de hazañas que quizás desees completar mientras viajas por el mundo.
+        - **Ned:** Puedes ganar recompensas especiales por completar ciertos logros; como mínimo, cada uno vale una recompensa en efectivo de Explorer Jack en Lumbridge.
+        - **Ned:** Algunos también ofrecen elementos que ayudarán a completar otros logros y muchos cuentan como progreso hacia el conjunto del área en la que se encuentran.
+        - [Menu]: Elige una opción:
+          - [Choice]: Cuéntame sobre la recompensa establecida para esta localidad.
+            - **Ned:** Por completar el conjunto Lumbridge y Draynor, se te presenta un anillo de explorador.
+            - **Ned:** Este anillo será cada vez más útil con cada nivel de dificultad del conjunto que completes.
+            - **Ned:** Cuando se le presenten sus recompensas, se le informará sobre sus usos.
+            - También puedes ver qué recompensas proporciona un elemento determinado al pasar el cursor sobre el ícono de Recompensas de su Logro de exploración establecido en la interfaz de Logros.
+            - (previous)
+          - [Choice]: ¿Cómo reclamo estas recompensas?
+            - **Ned:** Debes completar todas las tareas del conjunto de una dificultad particular y luego podrás reclamar tu recompensa. La mayoría de las tareas del conjunto Lumbridge son sencillas, aunque es posible que algunas requieran que se inicien, si no se terminan.
+            - **Ned:** Para reclamar las recompensas del conjunto Lumbridge, habla con Bob en Bob's Axes en Lumbridge, Explorer Jack en Lumbridge o conmigo mismo.
+            - (previous)
+          - [Choice]: Lo siento, me estaba yendo.
+            - (end)
+      - [Choice]: ¿Puedo comprar un repuesto de la recompensa?
+      - [Menu]: Elige una opción:
+        - [Choice]: Anillo del explorador 1
+          - **Ned:** ¿Anillo 1 del explorador? Sí, pero me temo que te costaría 500 coins.
+          - [Menu]: ¿Comprar otro por 500 coins?
+            - [Choice]: si
+              - [Te entregan el anillo de otro Explorador 1.]
+              - (receives=Explorer's ring 1) (removes=500 coins)
+            - [Choice]: No
+              - **Player:** No, gracias.
+        - [Choice]: Anillo del explorador 2
+          - **Ned:** ¿Anillo del explorador 2? Sí, pero me temo que te costaría 1.000 coins.
+          - [Menu]: ¿Comprar otro por 1.000 coins?
+            - [Choice]: si
+              - [Te entregan el anillo de otro Explorador 2.]
+              - (receives=Explorer's ring 2) (removes=1,000 coins)
+            - [Choice]: No
+              - **Player:** No, gracias.
+        - [Choice]: Anillo del explorador 3
+          - **Ned:** ¿Anillo del explorador 3? Sí, pero me temo que te costaría 2000 coins.
+          - [Menu]: ¿Comprar otro por 2000 coins?
+            - [Choice]: si
+              - [Te entregan el anillo de otro Explorador 3.]
+              - (receives=Explorer's ring 3) (removes=2,000 coins)
+            - [Choice]: No
+              - **Player:** No, gracias.
+        - [Choice]: Anillo del explorador 4
+          - **Ned:** ¿Anillo del explorador 4? Sí, pero me temo que te costaría 10.000 coins.
+          - [Menu]: ¿Comprar otro por 10.000 coins?
+            - [Choice]: si
+              - [Te entregan el anillo de otro Explorador 4.]
+              - (receives=Explorer's ring 4) (removes=10,000 coins)
+            - [Choice]: No
+              - **Player:** No, gracias.
+      - [Choice]: Lo siento, me estaba yendo.
+        - (end)
+  - [Choice]: Habla de otra cosa.
+    - **Ned:** Hola, [lad/lass]. Mis amigos me llaman Ned. Yo era un hombre de mar, pero ya no lo sé. ¿Podría estar fabricándote o vendiéndote alguna cuerda?
+    - [Menu]: Elige una opción:
+      - {{anchor|yesrope}} [Elección]: Sí, me gustaría un poco de cuerda.
+        - **Player:** Sí, me gustaría un poco de cuerda.
+        - **Ned:** Bueno, te puedo vender una cuerda por 15 coins. O puedo hacerte algunos si me consigues 4 ovillos de lana. Los entrelazo, los hago fuertes.
+        - **Player:** ¿Haces cuerdas con lana?
+        - **Ned:** ¡Por supuesto que puedes!
+        - **Player:** Pensé que necesitabas cáñamo o yute.
+        - **Ned:** ¿Quieres un poco de cuerda o no?
+        - [Menu]: Selecciona una opción
+          - [Choice]: Bien, por favor véndeme un poco de cuerda.
+            - **Player:** Está bien, por favor véndeme un poco de cuerda.
+            - (Condition: Si el player tiene menos de 15 coins:)
+              - No puedes permitirte eso.
+              - ¡No tienes suficiente coins para comprar ninguna cuerda!
+            - (Condition: Si el player tiene 15 coins:)
+              - (receives=Rope)
+              - (removes=15 coins)
+              - **Ned:** Ahí lo tienes. <br>La mejor cuerda de Gielinor.
+              - Entregas Ned 15 coins. Ned te regala un rollo de cuerda.
+              - (Condition: Si el player también ha completado Las Islas Fremennik:)
+                - **Player:** Gracias. Mmmmm ¿sabes algo? Esta cuerda tiene un olor raro.
+                - **Ned:** ¿En serio?
+                - **Player:** Sí, me recuerda a... los yaks. Estuve viajando recientemente por las islas Fremennik y, ¿sabes qué? Hicieron cuerdas con pelo de yak.
+                - **Ned:** ¿Qué coincidencia?
+                - **Player:** Había una señora allí que vendía lana, dijo que cambiaba cuerda por lana.
+                - **Ned:** ¿Quién lo hubiera pensado?
+                - **Player:** No creo que hagas cuerdas en absoluto. Creo que cambias ovillos de lana por cuerda.
+                - **Ned:** Oh, lo confieso. Has encontrado la verdad. Solía ​​hacer la cuerda yo mismo, pero mis dedos ya no son tan ágiles como antes y mucha gente quería mi cuerda. La demanda era tan alta que tuve que buscar otra fuente. Pero no pude decírselo a nadie ya que la cuerda hecha a mano (100% lana) de Ned es ahora una marca de alto perfil.
+                - **Player:** Sí, bueno, la lana sigue siendo bastante buena, aunque el pelo de yak sirve como cuerda fina. No creo que esto resulte perjudicial.
+                - (Condition: Sólo la primera vez:)
+                  - **Ned:** Gracias. Toma esto, ¡una muestra gratis! Por favor, no se lo digas a nadie.
+                  - (receives=rope)
+                  - (continue)
+                - **Player:** Bueno, siempre es bueno estar del lado bueno de un marinero. Tu secreto está a salvo conmigo.
+                - **Ned:** Oh, si estás otra vez en las Islas, dile a Jofridr que su Neddie estará allí pronto.
+                - **Player:** ¡Lo haré!
+          - [Choice]: cond=If the player has 4 balls of wool|Tengo unos ovillos de lana. ¿Podrías hacerme una cuerda?
+            - **Player:** Tengo unos ovillos de lana. <br>¿Podrías hacerme una cuerda?
+            - **Ned:** Claro que puedo.
+            - Entregas 4 ovillos de lana. Ned te regala un rollo de cuerda.
+            - (receives=Rope)
+            - (removes=4 balls of wool)
+          - [Choice]: Eso es un poco más de lo que quiero pagar.
+            - **Player:** Eso es un poco más de lo que quiero pagar.
+            - **Ned:** Bueno, si alguna vez necesitas una cuerda, ese es el precio. Lo siento. Un viejo marinero necesita dinero para una gota de ron.
+          - [Choice]: cond=If the player doesn't have 4 balls of wool|Iré a buscar lana.
+            - **Player:** Iré a buscar lana.
+            - **Ned:** Sí, haz eso. Recuerde, se necesitan 4 ovillos de lana para hacer una cuerda fuerte.
+          - [Choice]: No, gracias Ned, no necesito ninguno.
+            - **Player:** No, gracias Ned, no necesito ninguno. {{anchor|nothanks}}
+            - **Ned:** Bueno, el viejo Neddy siempre está aquí si lo haces. Cuéntaselo a tus amigos. Siempre puedo estar usando el negocio.
+      - [Choice]: No, gracias Ned, no necesito ninguno.
+        - (above|nothanks)
+      - [Choice]: cond=Before Vampyre Slayer|¿Pasa algo interesante en Draynor Village? {{anchor|interesting}}
+        - **Ned:** Bueno, hay un vampyre desagradable que causa alboroto todas las noches. Supongo que eso es interesante.
+        - **Player:** Pareces bastante tranquilo al respecto.
+        - **Ned:** [Laddy/Girly] después de todo lo que he visto en mi vida, un vampyre no me altera las plumas. Mientras me quede adentro después del anochecer, estoy bien.
+        - (previous)
+      - [Choice]: cond=After Vampyre Slayer|Hablar de Vampyre Slayer {{anchor|vampyre}}
+        - **Ned:** Entonces, escuché que lograste matar a ese vampyre. Bien por ti.
+        - **Player:** Gracias, Ned.
+        - (previous)
+
+#### Después de Dragon Slayer
+
+- [Menu]: ¿De qué te gustaría hablar?
+  - [Choice]: Acerca del sistema de tareas...
+    - (above|task-system)
+  - [Choice]: Habla de otra cosa.
+    - **Ned:** Hola de nuevo, [lad/lass]. ¿Algo en lo que pueda ayudarte? ¿Quizás quieras comprar algo de cuerda?
+    - [Menu]: Elige una opción:
+      - [Choice]: ¿Cómo volviste de Crandor?
+        - **Player:** ¿Cómo regresaste de Crandor?
+        - **Ned:** Una ballena amigable que pasaba me remolcó de regreso.
+        - **Ned:** De todos modos, ¿te gustaría que haga un poco de cuerda mientras estás aquí?
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Puedes llevarme de regreso a Crandor otra vez?
+            - **Player:** ¿Puedes llevarme de regreso a Crandor otra vez?
+            - (Condition: Si se ha abierto el pasadizo secreto:)
+              - **Ned:** ¿Puedes encontrar alguna otra manera? ¡Creo que ese viaje está maldito!
+              - **Player:** Ahora que lo mencionas, encontré una puerta secreta que conducía a una cueva dentro del volcán Karamja.
+              - **Ned:** Eso es un alivio. Puedes ir y usarlo en su lugar.
+            - (Condition: Si el pasadizo secreto no ha sido abierto:)
+              - **Ned:** Sí, eso podría. Nos vemos nuevamente en los muelles de Port Sarim. ¡Esta vez intentaré conducir un poco mejor!
+          - [Choice]: Sí, me gustaría un poco de cuerda.
+            - (above|yesrope)
+          - [Choice]: No, gracias Ned, no necesito ninguno.
+            - (above|nothanks)
+      - [Choice]: Sí, me gustaría un poco de cuerda.
+        - (above|yesrope)
+      - [Choice]: cond=Before Vampyre Slayer|¿Pasa algo interesante en Draynor Village?
+        - (above|interesting)
+      - [Choice]: cond=After Vampyre Slayer|Hablar de Vampyre Slayer
+        - (above|vampyre)
+
+#### Con un construction contract para Ned
+
+- [Menu]: Selecciona una opción
+  - [Choice]: Pregunta por contracts.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Qué necesitas reparar?
+        - **Ned:** Déjame ver, ahora mismo necesito que repares el siguiente pieces of furniture.
+        - **Ned:** [Furniture 1], [Furniture 2], [Furniture 3], [Furniture 4], [Furniture 5]
+        - (previous)
+      - [Choice]: ¿Qué materiales necesito?
+        - **Ned:** Necesitas: Planks x [número], Steel nails x [número], [Additional material] x [número]
+        - (previous)
+      - [Choice]: salir
+        - (end)
+  - [Choice]: Pregunta por otra cosa.
+    - (continuea|In Draynor Village)
+
+#### Senderos del tesoro
+
+- (removes=the old clue scroll (easy))
+- ((Si el rastro continúa:))
+  - (receives=a new clue scroll (easy))
+  - [Ned te ha dado tu siguiente pergamino de pistas.]
+  - (continue)
+- ((Si el sendero termina:))
+  - (receives=reward casket (easy))
+  - [¡Has encontrado un ataúd!]
+  - (continue)
+- **Ned:** Buen trabajo.
+
+#### Diálogo histórico
+
+- [Menu]: ¿De qué te gustaría hablar?
+  - [Choice]: Acerca del sistema de tareas...
+    - (above|task-system)
+  - [Choice]: Habla de otra cosa.
+    - **Ned:** Hola de nuevo, [lad/lass]. ¿Algo en lo que pueda ayudarte? ¿Quizás quieras comprar algo de cuerda?
+    - [Menu]: Elige una opción:
+      - [Choice]: ¿Cómo volviste de Crandor?
+        - (above|get-back)
+      - [Choice]: Sí, me gustaría un poco de cuerda.
+        - (above|yesrope)
+      - [Choice]: cond=After starting Vampyre Slayer|¿Pasa algo interesante en Draynor Village?
+        - (Condition: Después de la batalla de Lumbridge:)
+          - **Ned:** Bueno, hay un gran cráter rojizo en el antiguo campo de batalla al este. Supongo que eso podría ser interesante.
+        - (Condition: Durante la batalla de Lumbridge:)
+          - **Ned:** Bueno, hay una batalla en el este entre dos dioses. Supongo que eso es interesante.
+          - **Player:** Pareces bastante tranquilo al respecto.
+          - **Ned:** [Laddy/Girly] después de todo lo que he visto en mi vida, una simple batalla entre dioses no me altera las plumas. Simplemente me mantengo alejado y estoy bien.
+      - [Choice]: cond=After Vampyre Slayer|Hablar de Vampyre Slayer
+        - (above|vampyre)
+
+### On Crandor
+
+- **Ned:** Ahora entiendo por qué todos los demás capitanes dijeron que estaría loco si me acercara a Crandor. Parece que estamos varados.
+- **Player:** No te preocupes por eso. ¡Encontré un pasaje secreto en la guarida del dragón que sale de la isla!
+- **Ned:** Oh, eso es bueno. ¡Podré regresar a Draynor de alguna manera, si puedo escabullirme de todos los esqueletos y demonios de esta isla!

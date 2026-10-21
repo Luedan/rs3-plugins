@@ -1,0 +1,380 @@
+# Ramarno
+
+- **Original Wiki Page**: [Transcript:Ramarno](https://runescape.wiki/w/Transcript%3ARamarno)
+- **Letter**: `R`
+
+---
+
+## Dialogue Transcript
+
+
+### After Defender of Varrock
+
+- [Menu]: Select an Option
+  - [Choice]: Can you help me upgrade my pickaxe?
+    - (Condition: Before having shown Ramarno a pickaxe of earth and song variant:)
+      - (Condition: Without a pickaxe of earth and song variant wielded or carried in the backpack:)
+        - [Ramarno thoroughly pats you down and ruffles through your backpack. He pauses to carefully hand-inspect anything you are carrying or wielding that's even remotely pickaxe-shaped.]
+        - **Ramarno:** You need an earth and song pickaxe if you want me to help you upgrade it.
+      - (Condition: With a pickaxe of earth and song variant wielded or carried in the backpack:)
+        - [You show your pickaxe of earth and song to Ramarno.]
+        - [The blind dwarven sage runs his fingers over the head and handle. He grunts in appreciation.]
+        - **Ramarno:** Not bad.<br>There is imcando dwarf-ufacturing here.<br>But we can make it better.
+        - **Player:** You can make this pickaxe even more powerful?<br>How?
+        - **Ramarno:** An ancient method, passed down by my grandfather, before he met his end.
+        - (continue|To make it)
+    - (Condition: After having shown Ramarno a pickaxe of earth and song variant but before having been asked for payment:)
+      - (Condition: Before having received the mysterious black stone fragment:)
+        - **Ramarno:** To make it, you must obtain a strange material from a dark and mysterious rock, known as 'black stone'.
+        - **Ramarno:** I've heard of an island to the far south-east where such a rock may be located. It is likely still the domain of pirates and other horrors.
+        - (Condition: Before Cabin Fever:)
+          - **Player:** I've got a fever, and the only prescription is more pirate quests.
+          - (continue)
+        - (Condition: After Cabin Fever:)
+          - **Player:** Black stone. Unspeakable horrors. Pirate island. Got it.
+          - (continue)
+      - (Condition: After having received the mysterious black stone fragment:)
+        - **Player:** I mined a mysterious black stone fragment from a stone slab on Mos Le'Harmless.
+        - (Condition: Having lost the mysterious black stone fragment:)
+          - **Player:** But I lost it.
+          - ((In the following the images are only shown with full-screen dialogue boxes toggled off.))
+          - (Condition: Without at least one free backpack space:)
+            - [Ramarno cannot return your item, because your backpack is full.]
+            - (continue)
+          - (Condition: With at least one free backpack space:)
+            - (receives=a mysterious black stone fragment)
+            - [Ramarno returns your lost item.]
+            - (continue)
+        - (continue)
+      - (Condition: Before having received an ensouled moonstone:)
+        - **Ramarno:** You must obtain a moonstone imbued with the power of the underworld. I know nothing of such practice, but you must somehow attune your pickaxe with the moonstone.
+        - (Condition: Before having completed the Mystical Moonstone achievement:)
+          - **Player:** If only I knew someone who could formally teach me how to craft moonstone jewellery...
+          - (continue)
+        - (Condition: After having completed the Mystical Moonstone achievement:)
+          - **Player:** I know someone who knows how to work with moonstone. The former master crafter in the city of Um taught me how to craft moonstone jewellery.
+          - (continue)
+      - (Condition: After having received an ensouled moonstone but before having received a spirit moonstone (rock):)
+        - **Player:** I ensouled a moonstone by performing a necromancy ritual.
+        - (Condition: Having lost the ensouled moonstone:)
+          - **Player:** But I lost it.
+          - ((In the following the images are only shown with full-screen dialogue boxes toggled off.))
+          - (Condition: Without at least one free backpack space:)
+            - [Ramarno cannot return your item, because your backpack is full.]
+            - (continue)
+          - (Condition: With at least one free backpack space:)
+            - (receives=an ensouled moonstone)
+            - [Ramarno returns your lost item.]
+            - (continue)
+        - **Player:** I now need to feed the moonstone by mining with stone spirits.
+        - (continue)
+      - (Condition: After having received a spirit moonstone (rock) but before having received attuned moonstone (rock):)
+        - **Player:** I mined until the ensouled moonstone's hunger for stone spirits was sated.
+        - (Condition: Having lost the spirit moonstone (rock):)
+          - **Player:** But I lost it.
+          - ((In the following the images are only shown with full-screen dialogue boxes toggled off.))
+          - (Condition: Without at least one free backpack space:)
+            - [Ramarno cannot return your item, because your backpack is full.]
+            - (continue)
+          - (Condition: With at least one free backpack space:)
+            - (receives=a spirit moonstone (rock))
+            - [Ramarno returns your lost item.]
+            - (continue)
+        - **Player:** I now need to attune the moonstone to the spiritual frequency of my pickaxe of earth and song by mining tough rocks.
+        - (continue)
+      - (Condition: After having received an attuned moonstone (rock):)
+        - **Player:** I attuned an ensouled moonstone to the spiritual frequency of my pickaxe.
+        - (Condition: Having lost the attuned moonstone (rock):)
+          - **Player:** But I lost it.
+          - ((In the following the images are only shown with full-screen dialogue boxes toggled off.))
+          - (Condition: Without at least one free backpack space:)
+            - [Ramarno cannot return your item, because your backpack is full.]
+            - (continue)
+          - (Condition: With at least one free backpack space:)
+            - (receives=an attuned moonstone (rock))
+            - [Ramarno returns your lost item.]
+            - (continue)
+        - (continue)
+      - (Condition: Before having received the metallic meteorite fragment:)
+        - **Ramarno:** Finally, you must obtain a metal fragment from the core of a meteorite.
+        - **Player:** Hmm, perhaps I could find that in a shooting star.
+      - (Condition: After having received the metallic meteorite fragment:)
+        - **Player:** I mined a metallic meteorite fragment from a shooting star.
+        - (Condition: Having lost the metallic meteorite fragment:)
+          - **Player:** But I lost it.
+          - ((In the following the images are only shown with full-screen dialogue boxes toggled off.))
+          - (Condition: Without at least one free backpack space:)
+            - [Ramarno cannot return your item, because your backpack is full.]
+          - (Condition: With at least one free backpack space:)
+            - (receives=a metallic meteorite fragment)
+            - [Ramarno returns your lost item.]
+            - (continue)
+        - (continue)
+    - (Condition: With all three of the required items in the backpack:)
+      - [Ramarno rubs his grubby hands over the items be asked you to obtain, until he is satisfied.]
+      - (Condition: If the player has not yet paid Ramarno during the upgrade process of a hatchet of bloom and blight:)
+        - **Ramarno:** Well done.<br>Now, there are two more items I require...
+        - **Ramarno:** Well, one million and one items, to be precise.
+        - **Player:** Let me guess.<br>A redberry pie and one million coins?
+        - **Ramarno:** The sacred tradition of my people must be upheld.
+        - **Ramarno:** Also, listening to you run all these errands has made me hungry.
+        - (Condition: Without a million coins or a redberry pie:)
+          - [Ramarno licks his lips, hungrily waiting for you to line his pockets and his stomach.]
+        - (Condition: With a million coins and a redberry pie:)
+          - [You reluctantly give Ramarno one million coins and a redberry pie.]
+          - (removes=one million coins and a redberry pie)
+          - [Ramarno devours the redberry pie and greasily pockets his fee.]
+          - (pop-up)
+            - {{Pop-up|Ramarno devours the redberry pie and greasily pockets his fee.}}
+          - (continue)
+      - (Condition: If the player paid Ramarno during the upgrade process of a hatchet of bloom and blight:)
+        - **Player:** Let me guess. You want another million coins and a redberry pie?
+        - **Ramarno:** What? No, you've already paid me once. You have all the items you require.
+        - (continue)
+      - ((In the following the images are only shown with full-screen dialogue boxes toggled off.))
+        - (Condition: Having lost the mysterious black stone fragment:)
+          - (Condition: Without at least one free backpack space:)
+            - [Ramarno cannot return your item, because your backpack is full.]
+            - (continue)
+          - (Condition: With at least one free backpack space:)
+            - (receives=a mysterious black stone fragment)
+            - [Ramarno returns your lost item.]
+            - (continue)
+        - (Condition: Having lost the attuned moonstone (rock):)
+          - (Condition: Without at least one free backpack space:)
+            - [Ramarno cannot return your item, because your backpack is full.]
+            - (continue)
+          - (Condition: With at least one free backpack space:)
+            - (receives=an attuned moonstone (rock))
+            - [Ramarno returns your lost item.]
+            - (continue)
+        - (Condition: Having lost the metallic meteorite fragment:)
+          - (Condition: Without at least one free backpack space:)
+            - [Ramarno cannot return your item, because your backpack is full.]
+            - (continue)
+          - (Condition: With at least one free backpack space:)
+            - (receives=a metallic meteorite fragment)
+            - [Ramarno returns your lost item.]
+            - (continue)
+      - **Ramarno:** You may now use the sacred forge to upgrade your pickaxe.
+    - (Condition: After having been asked for payment but before having received permission to use the forge:)
+      - (above|payment)
+    - (Condition: After having received permission to use the forge:)
+      - (Condition: Before having created a pickaxe of life and death:)
+        - (Condition: Having lost the mysterious black stone fragment:)
+          - (Condition: Without at least one free backpack space:)
+            - [Ramarno cannot return your item, because your backpack is full.]
+            - (continue)
+          - (Condition: With at least one free backpack space:)
+            - (receives=a mysterious black stone fragment)
+            - [Ramarno gives you one of the ingredients you need to forge a pickaxe of life and death.]
+            - (continue)
+        - (Condition: Having lost the attuned moonstone (rock):)
+          - (Condition: Without at least one free backpack space:)
+            - [Ramarno cannot return your item, because your backpack is full.]
+            - (continue)
+          - (Condition: With at least one free backpack space:)
+            - (receives=an attuned moonstone (rock))
+            - [Ramarno gives you one of the ingredients you need to forge a pickaxe of life and death.]
+            - (continue)
+        - (Condition: Having lost the metallic meteorite fragment:)
+          - (Condition: Without at least one free backpack space:)
+            - [Ramarno cannot return your item, because your backpack is full.]
+            - (continue)
+          - (Condition: With at least one free backpack space:)
+            - (receives=a metallic meteorite fragment)
+            - [Ramarno gives you one of the ingredients you need to forge a pickaxe of life and death.]
+            - (continue)
+        - **Ramarno:** You may now use the sacred forge to upgrade your pickaxe.
+      - (Condition: After having created a pickaxe of life and death:)
+        - **Ramarno:** I hear you have another pickaxe of earth and song. Go ahead and use my sacred forge to upgrade it. No charge.
+        - (Condition: Without a black stone fragment:)
+          - (Condition: Without at least one free backpack space:)
+            - [Ramarno cannot return your item, because your backpack is full.]
+            - (continue)
+          - (Condition: With at least one free backpack space:)
+            - (receives=a mysterious black stone fragment)
+            - [Ramarno gives you one of the ingredients you need to forge a pickaxe of life and death.]
+            - (continue)
+        - (Condition: Without an attuned moonstone (rock):)
+          - (Condition: Without at least one free backpack space:)
+            - [Ramarno cannot return your item, because your backpack is full.]
+            - (continue)
+          - (Condition: With at least one free backpack space:)
+            - (receives=an attuned moonstone (rock))
+            - [Ramarno gives you one of the ingredients you need to forge a pickaxe of life and death.]
+            - (continue)
+        - (Condition: Without a metallic meteorite fragment:)
+          - (Condition: Without at least one free backpack space:)
+            - [Ramarno cannot return your item, because your backpack is full.]
+          - (Condition: With at least one free backpack space:)
+            - (receives=a metallic meteorite fragment)
+            - [Ramarno gives you one of the ingredients you need to forge a pickaxe of life and death.]
+  - [Choice]: Can you help me upgrade my hatchet?
+    - (Condition: Before having created a hatchet of bloom and blight:)
+      - (Condition: Before having shown Ramarno a hatchet of ember and glade variant:)
+        - (Condition: Without a hatchet of ember and glade variant wielded or carried in the backpack or tool belt:)
+          - [Ramarno thoroughly pats you down and ruffles through your backpack. He pauses to carefully hand-inspect anything you are carrying or wielding that's even remotely hatchet-shaped.]
+          - **Ramarno:** You need a hatchet of ember and glade if you want me to help you upgrade it.
+        - (Condition: With a hatchet of ember and glade variant wielded or carried in the backpack or tool belt:)
+          - [You show your hatchet of ember and glade to Ramarno.]
+          - [The blind dwarven sage runs his fingers over the head and handle. He grunts in appreciation.]
+          - **Ramarno:** Not bad.<br>There is imcando dwarf-ufacturing here.<br>But we can make it better.
+          - **Player:** You can make this hatchet even more powerful?<br>How?
+          - **Ramarno:** An ancient method, passed down by my grandfather, before he met his end.
+          - (continue|To make it 2)
+      - (Condition: After having shown Ramarno a hatchet of ember and glade variant:)
+        - (Condition: Before having received the 50% of 100% Luke's leg:)
+          - **Ramarno:** To make it, you must obtain a sizeable chunk of witchwood.
+          - **Ramarno:** That's going to be tricky, as witchwood trees are extinct.
+          - (Condition: Before Pieces of Hate:)
+            - **Player:** I've got a fever, and the only prescription is more pirate quests.
+          - (Condition: After Pieces of Hate:)
+            - **Player:** I doubt 66.6...% Luke would be willing to part with any more of his better half, or that any fraction of Luke survived that swarm of 'rum'-pumped crabs.
+            - **Player:** But I did use Luke's leg to jam the hopper on the upper level of the Braindeath Island distillery. Maybe some witchwood survived the explosion.
+            - (continue)
+        - (Condition: After having received the 50% of 100% Luke's leg:)
+          - **Player:** I found a mysterious witchwood fragment on Braindeath Island.
+          - (Condition: If the player destroyed it:)
+            - **Player:** But I lost it.
+            - ((In the following the images are only shown with full-screen dialogue boxes toggled off.))
+            - (Condition: Without at least one free backpack space:)
+              - [Ramarno cannot return your item, because your backpack is full.]
+              - (continue)
+            - (Condition: With at least one free backpack space:)
+              - (receives=50% of 100% Luke's leg)
+              - [Ramarno returns your lost item.]
+              - (continue)
+        - (Condition: Before having received an ensouled moonstone:)
+          - **Ramarno:** You must obtain a moonstone imbued with the power of the underworld. I know nothing of such practice, but you must somehow attune your tool with the moonstone.
+          - (Condition: Before being taught to ensoul moonstones:)
+            - (Condition: Before having completed the Mystical Moonstone achievement:)
+              - **Player:** If only I knew someone who could formally teach me how to craft moonstone jewellery...
+              - (continue)
+            - (Condition: After having completed the Mystical Moonstone achievement:)
+              - **Player:** I know someone who knows how to work with moonstone. The former master crafter in the city of Um taught me how to craft moonstone jewellery.
+              - (continue)
+          - (Condition: After being taught to ensoul moonstones:)
+            - **Player:** The former master crafter in the city of Um taught me how to ensoul a moonstone at a necromancy ritual site.
+            - (continue)
+        - (Condition: After having received an ensouled moonstone:)
+          - (Condition: Before feeding it by woodcutting with wood spirits:)
+            - **Player:** I ensouled a moonstone by performing a necromancy ritual.
+            - (Condition: If the player destroyed it:)
+              - **Player:** But I lost it.
+              - ((In the following the images are only shown with full-screen dialogue boxes toggled off.))
+              - (Condition: Without at least one free backpack space:)
+                - [Ramarno cannot return your item, because your backpack is full.]
+                - (continue)
+              - (Condition: With at least one free backpack space:)
+                - (receives=ensouled moonstone)
+                - [Ramarno returns your lost item.]
+                - (continue)
+            - **Player:** I now need to feed the moonstone by woodcutting with wood spirits.
+            - (continue)
+          - (Condition: After feeding it by woodcutting with wood spirits:)
+            - (Condition: Before absorbing 10 eternal magic tree anima:)
+              - **Player:** I woodcut until the ensouled moonstone's hunger for wood spirits was sated.
+              - (Condition: If the player destroyed it:)
+                - **Player:** But I lost it.
+                - ((In the following the images are only shown with full-screen dialogue boxes toggled off.))
+                - (Condition: Without at least one free backpack space:)
+                  - [Ramarno cannot return your item, because your backpack is full.]
+                  - (continue)
+                - (Condition: With at least one free backpack space:)
+                  - (receives=a spirit moonstone (wood))
+                  - [Ramarno returns your lost item.]
+                  - (continue)
+              - **Player:** I now need to attune the moonstone to the spiritual frequency of my hatchet of ember and glade by chopping tough trees.
+              - (continue)
+            - (Condition: After absorbing 10 eternal magic tree anima:)
+              - **Player:** I attuned an ensouled moonstone to the spiritual frequency of my hatchet.
+              - (Condition: If the player destroyed it:)
+                - **Player:** But I lost it.
+                - ((In the following the images are only shown with full-screen dialogue boxes toggled off.))
+                - (Condition: Without at least one free backpack space:)
+                  - [Ramarno cannot return your item, because your backpack is full.]
+                  - (continue)
+                - (Condition: With at least one free backpack space:)
+                  - (receives=an attuned moonstone (wood))
+                  - [Ramarno returns your lost item.]
+                  - (continue)
+        - (Condition: Before having received a tensile vine:)
+          - **Ramarno:** Finally, you must obtain a tensile vine.
+          - **Player:** Hmm, perhaps I could find that in an overgrown idol. They're covered with vines.
+        - (Condition: After having received a tensile vine:)
+          - **Player:** I woodcut a tensile vine from an overgrown idol.
+          - (Condition: If the player destroyed it:)
+            - **Player:** But I lost it.
+            - ((In the following the images are only shown with full-screen dialogue boxes toggled off.))
+            - (Condition: Without at least one free backpack space:)
+              - [Ramarno cannot return your item, because your backpack is full.]
+            - (Condition: With at least one free backpack space:)
+              - (receives=a tensile vine)
+              - [Ramarno returns your lost item.]
+              - (continue)
+      - (Condition: With all three of the required items in the backpack:)
+        - [Ramarno rubs his grubby hands over the items be asked you to obtain, until he is satisfied.]
+        - **Player:** Let me guess. You want another million coins and a redberry pie?
+        - (Condition: With access to The Sacred Forge:)
+          - **Ramarno:** What? No, you've already paid me once. You have all the items you require.
+          - **Ramarno:** You may now use the sacred forge to upgrade your hatchet.
+    - (Condition: After having created a hatchet of bloom and blight:)
+      - **Ramarno:** I hear you have another hatchet of ember and glade. Go ahead and use my sacred forge to upgrade it. No charge.
+      - (Condition: Without 50% of 100% Luke's leg)
+        - (Condition: Without at least one free backpack space:)
+          - [Ramarno cannot return your item, because your backpack is full.]
+          - (continue)
+        - (Condition: With at least one free backpack space:)
+          - (receives=50% of 100% Luke's leg)
+          - [Ramarno gives you one of the ingredients you need to upgrade your hatchet.]
+          - (continue)
+      - (Condition: Without a attuned moonstone (wood):)
+        - (Condition: Without at least one free backpack space:)
+          - [Ramarno cannot return your item, because your backpack is full.]
+          - (continue)
+        - (Condition: With at least one free backpack space:)
+          - (receives=an attuned moonstone (wood))
+          - [Ramarno gives you one of the ingredients you need to forge a upgrade your hatchet.]
+          - (continue)
+      - (Condition: Without a tensile vine:)
+        - (Condition: Without at least one free backpack space:)
+          - [Ramarno cannot return your item, because your backpack is full.]
+        - (Condition: With at least one free backpack space:)
+          - (receives=a tensile vine)
+          - [Ramarno gives you one of the ingredients you need to upgrade your hatchet.]
+  - [Choice]: (Talk about Defender of Varrock.)
+    - **Ramarno:** How did you fare in Varrock?
+    - **Player:** We did it. We figured out how to defeat Zemouregal's army.
+    - **Ramarno:** Well done. I thought you had the sound of a hero about you.
+    - (previous)
+  - [Choice]: Farewell.
+    - (end)
+
+### Giving Ramarno a redberry pie
+
+
+#### Before completing the Blinded by Ramarno's Teaching achievement
+
+- **Ramarno:** What is that divine smell? Could it be-?
+- **Player:** Redberry pie?
+- **Ramarno:** It really is! A legendary redberry pie. I don't suppose I could have some?
+- [Menu]: Select an Option
+  - [Choice]: Okay, here you go.
+    - **Player:** Okay, here you go.
+    - [Ramarno eats all of the pie.]
+    - **Ramarno:** The reputation of the redberry pie is well deserved; that was absolutely amazing. Let me reward you for allowing me to experience such an exquisite taste sensation.
+    - (removes=redberry pie)
+    - Ramarno gives you knowledge of some Smithing techniques. You gain 1,000 smithing experience.
+    - {{RSFontAchievement|Blinded by Ramarno's Teaching|Claim Smithing XP from Ramarno after 'Defender of Varrock'.}}
+  - [Choice]: No, it's my pie.
+    - **Player:** No, it's my pie.
+    - **Ramarno:** A pity, but understandable. I wouldn't give away redberry pie if I had any, either.
+
+#### After completing the Blinded by Ramarno's Teaching achievement
+
+- **Player:** I've given that dwarf quite enough pie.
+
+### Attempting to smithing pickaxe of life and death just after collecting all materials, and before talking to Ramarno
+
+- **Ramarno:** Hang on. I'm not finished with you.

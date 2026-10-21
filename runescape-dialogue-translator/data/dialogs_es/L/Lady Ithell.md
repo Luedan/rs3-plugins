@@ -1,0 +1,304 @@
+# Lady Ithell
+
+- **Original Wiki Page**: [Transcript:Lady Ithell](https://runescape.wiki/w/Transcript%3ALady%20Ithell)
+- **Letter**: `L`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+{{Incomplete|Missing dialogue to upgrade or revert hatchets and pickaxes on tool belt, and to upgrade glided and Imcando pickaxes}}
+
+### In Lletya, before Plague's End
+
+- **Player:** Hola.
+- **Kelyn:** Eh... Oh, lo siento, me hiciste saltar. Estaba a kilómetros de distancia, soñando despierto.
+- **Player:** ¿Sobre qué puedo preguntar?
+- **Kelyn:** Estaba pensando en las agujas de cristal de Prifddinas.
+- **Player:** Debe ser hermoso, solo he visto las murallas de la ciudad.
+- **Kelyn:** Nunca he sido yo misma, aunque algunos de mis amigos sí lo han sido. Sólo conozco las historias que cuentan los mayores.
+
+### In Prifddinas, after Plague's End
+
+
+#### Sin poseer un arma de cristal sintonizada ni haber completado el logro Xena-Phile
+
+- (receives=attuned crystal weapon seed)
+- [Lady Ithell te ofrece una semilla de cristal sintonizada gratuita con la que puedes mostrar tu dedicación a los elfos completando el conjunto de tareas de los elfos.]
+- [Si destruyes esta semilla, tendrás que esperar una semana antes de poder reclamar un reemplazo. Una vez que completes la tarea de Xena-Phile no podrás reclamar otra.]
+- **Lady Ithell:** Estoy deseando ver lo que creas.
+- (continue|standard)
+
+#### Usando un traje de doliente completo
+
+- (Condition: Si el título "the Mourner" aún no ha sido desbloqueado:)
+  - Has desbloqueado el título 'el Mourner'.
+  - (continue)
+- **Lady Ithell:** Bueno, ciertamente luces tonta con ese atuendo.
+- (continue|standard)
+
+#### Diálogo estándar
+
+- **Lady Ithell:** Es maravilloso, ¿no? <br>Las agujas de cristal de Prifddinas... son más hermosas de lo que podría haber soñado. Las historias no le hicieron justicia.
+- [Menu]: Elige una opción:
+  - [Choice]: Pregunta por Lady Ithell y su clan...
+    - [Menu]: Selecciona una opción
+      - [Choice]: Pregunte por Lady Ithell...
+        - **Player:** ¿Puedes hablarme de ti?
+        - **Lady Ithell:** ¿Ya me has olvidado? Solía ​​​​vivir en Lletya. Yo era sólo un joven elfo que soñaba despierto, sin idea del destino que me esperaba.
+        - **Lady Ithell:** Construiste una estatua del antiguo Lady Ithell, y cuando contemplé su belleza, me habló. Sentí que los recuerdos de Lady Ithell entraban en mi mente.
+        - **Lady Ithell:** Las agujas de cristal... las delicadas armonías... ¡la recreación de esas armonías en la madera! Vi cómo lo hacía, adquirí sus conocimientos y me convertí en el nuevo Lady Ithell.
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Qué pasó contigo y la estatua?
+            - **Lady Ithell:** El acertijo de los ancianos perdidos era literalmente cierto: Lady Ithell puso su alma en su mejor trabajo.
+            - **Lady Ithell:** Ella tomó parte de su alma (las verdades esenciales sobre quién era ella y qué la convertía en Lady Ithell) y las codificó en los planos de las estatuas que encontraste alrededor de Lletya.
+            - **Lady Ithell:** Soy miembro del Clan Ithell y me encanta la arquitectura. Cuando vi la estatua, esa alma me habló... es decir, habló como una obra de arte le habla a quien la mira.
+            - **Lady Ithell:** Obtuve el conocimiento esencial del líder del Clan Ithell. Soy la nueva Lady Ithell. ¡Le puse en forma su parte de la ciudad!
+            - (previous|ask-about-lady)
+          - [Choice]: Si eres Lady Ithell, ¿qué pasó con Kelyn?
+            - **Lady Ithell:** Sigo siendo Kelyn. No estoy poseído; mis recuerdos no han cambiado.
+            - **Lady Ithell:** Pero también tengo algunos conocimientos nuevos: habilidades que la antigua Lady Ithell codificó en los planos de sus estatuas. El conocimiento que necesito para ser el nuevo Lady Ithell.
+            - (Condition: Si el player aún no ha ayudado a Lady Ithell con la investigación del canto de cristales:)
+              - **Lady Ithell:** Bueno, algo de eso, al menos. Mi cabeza está tan llena de cánticos, esquemas y canciones que duele, y todavía estoy tratando de encontrarle sentido a todo.
+              - (previous|ask-about-lady)
+            - (Condition: Si el player ha ayudado a Lady Ithell con la investigación del canto con cristales:)
+              - **Lady Ithell:** Bueno, algo de eso, al menos. Mi cabeza está tan llena de cánticos, esquemas y canciones que duele, pero gracias a tu ayuda estoy entendiendo mucho mejor todo.
+              - (previous|ask-about-lady)
+          - [Choice]: ¿Por qué nunca construyeste esa estatua tú mismo?
+            - **Lady Ithell:** Debo haber pasado por delante de esos planos en las paredes todos los días durante años y nunca haberlos notado. A veces se necesita la mirada de un extraño para ver los detalles.
+            - **Lady Ithell:** Dudaba que pudiera construir la estatua como tú. Fue necesario un maestro de la construcción para expresar adecuadamente todos los detalles que conformaban el alma de Lady Ithell.
+            - **Lady Ithell:** Entonces, me propuse una tarea cuando llegué a Prifddinas. Intenté replicar tu estatua aquí.
+            - **Lady Ithell:** No creo que sea tan bueno como el tuyo, para ser honesto. Tengo los conocimientos de Lady Ithell, pero el talento no se hereda tan fácilmente.
+            - **Lady Ithell:** Seguiré trabajando en ello. Quiero tener una imagen de Lady Ithell aquí conmigo, para que me cuide y me ayude a recordar su legado.
+            - **Lady Ithell:** Al menos es mejor que mi primer intento. Ojalá el clan no hubiera hecho de esa pequeña estatua una pieza central del armonio. Es horrible... el trabajo torpe de un cantor aficionado, pero aprendí mucho cantándolo.
+            - (previous|ask-about-lady)
+          - [Choice]: ¿Cómo estás afrontando tu nuevo rol?
+            - **Lady Ithell:** Yo... no lo estoy llevando muy bien, para ser honesto. <br>Siento la cabeza como un odre de agua a punto de estallar. A veces tengo dolores de cabeza y cuando duermo tengo sueños aterradores.
+            - **Lady Ithell:** El clan busca en mí orientación. Esperan que tenga la sabiduría de Lady Ithell, pero me sangra la nariz cuando intento comprender sus recuerdos.
+            - **Lady Ithell:** Me pregunto... ¿Lady Ithell me eligió o simplemente estaba en el lugar correcto, en el lugar correcto, en el momento correcto?
+            - **Lady Ithell:** Probablemente soy demasiado joven para ser mayor, pero haré el mejor trabajo que pueda.
+            - (previous|ask-about-lady)
+          - [Choice]: Tengo otras preguntas...
+            - (previous2|original)
+      - [Choice]: Pregunte por el Clan Ithell...
+        - **Player:** ¿Puedes hablarme sobre el Clan Ithell?
+        - **Lady Ithell:** Somos más conocidos por nuestra capacidad de cantar semillas de cristal (pequeños y preciosos fragmentos de la propia Seren) para darles formas nuevas y gloriosas.
+        - **Lady Ithell:** Muchos de estos regalos de Seren se mantuvieron a salvo en Tarddiad, el verdadero hogar de los elfos.
+        - (Condition: Ante la luz interior:)
+          - **Lady Ithell:** No hemos podido regresar a Tarddiad desde que perdimos el acceso a la Puerta del Mundo en la Segunda Edad.
+          - (continue)
+        - (Condition: Después de la luz interior:)
+          - **Lady Ithell:** Gracias a ti ahora tenemos la oportunidad de regresar allí y recuperarlos. Algo que pensábamos imposible después de la Segunda Edad.
+          - (continue)
+        - **Lady Ithell:** Guthix estableció sus edictos después de las Guerras de Dios de la Tercera Edad, para proteger a Gielinor de los dioses. Seren no quería separarse de nosotros, así que para compartir su poder con los elfos, Seren destrozó su cuerpo.
+        - **Lady Ithell:** Estas semillas de cristal provienen de Seren. Al vocalizar en un tono más allá del oído humano y al variar el tono, un cantor de cristal puede cambiar la forma y el tamaño de una semilla de cristal. Los cantores dotados pueden incluso imbuir poderes a estos objetos.
+        - **Lady Ithell:** El canto de cristal no se limita al clan Ithell, pero en nuestra familia nacen más cantores de cristal que en cualquiera de los otros clanes.
+        - (previous|original)
+      - [Choice]: Pregunte por las habilidades de Ithell...
+        - **Player:** ¿Puedes contarme sobre las habilidades del Clan Ithell?
+        - **Lady Ithell:** Somos los arquitectos de Prifddinas, responsables de su construcción y mantenimiento.
+        - **Lady Ithell:** La mayor parte de la infraestructura de la ciudad estaba codificada en la Gran Biblioteca, pero a través del canto de los cristales damos forma a las agujas, los edificios y los pasillos, según lo necesiten los clanes.
+        - **Lady Ithell:** También cantamos semillas de cristal para convertirlas en herramientas, instrumentos e incluso armas. Supongo que es más o menos equivalente a lo que los humanos llaman "fabricación"... aunque nuestro equipo es mucho más bonito.
+        - (previous|original)
+      - [Choice]: Tengo otras preguntas...
+        - (previous|original)
+  - [Choice]: ¿Puedes hacerme un hacha de cristal, un pico o un azadón?
+    - **Lady Ithell:** Dame un hacha de dragón, un pico o un azadón para mejorar y al menos 4000 polvo armónico, y veré qué puedo hacer.
+    - **Lady Ithell:** Si estás buscando actualizar una herramienta aumentada, tendrás que mostrármelo directamente.
+    - [Menu]: Elige una opción:
+      - [Choice]: cond=If the player has a dragon hatchet on their tool belt|Mejora el hacha de dragón en mi cinturón de herramientas.
+        - (Condition: Sin el polvo armónico requerido:)
+          - **Lady Ithell:** Necesito 4000 polvo armónico para mejorar el hacha de dragón en tu cinturón de herramientas.
+          - (previous|dust)
+        - (Condition: Con el polvo armónico requerido:)
+          - {{Transcript missing}}
+      - [Choice]: cond=If the player has a crystal hatchet on their tool belt|Revertir el hacha de cristal en mi cinturón de herramientas.
+        - {{Transcript missing}}
+      - [Choice]: cond=If the player has a dragon pickaxe on their tool belt|Mejora el pico de dragón en mi cinturón de herramientas.
+        - (Condition: Sin el polvo armónico requerido:)
+          - **Lady Ithell:** Necesito 4000 polvo armónico para mejorar el pico de dragón en tu cinturón de herramientas.
+          - (previous|dust)
+        - (Condition: Con el polvo armónico requerido:)
+          - (removes=dragon pickaxe and 4,000 harmonic dust) (receives=crystal pickaxe)
+          - [Lady Ithell ha actualizado el pico de dragón en tu cinturón de herramientas a un pico de cristal.]
+          - (previous|dust)
+      - [Choice]: cond=If the player has a crystal pickaxe on their tool belt|Revierte el pico de cristal en mi cinturón de herramientas.
+        - [Menu]: Revertir el pico de cristal<br>No se te reembolsará el polvo armónico que le diste a Lady Ithell para mejorar tu pico.<br>¿Estás seguro de que quieres volver a convertirlo en un pico de dragón?
+          - [Choice]: Cancelar
+            - (previous2|dust)
+          - [Choice]: Ok
+            - (removes=crystal pickaxe) (receives=dragon pickaxe)
+            - [Lady Ithell ha convertido el pico de cristal de tu cinturón de herramientas en un pico de dragón.]
+            - (previous2|dust)
+      - [Choice]: Buscar herramientas en mi backpack...
+        - (Condition: Con un pico Imcando, un pico de dragón (dorado), un hacha de dragón, un hacha de cristal, un pico de cristal o un azadón de dragón en backpack:)
+          - [Menu]: ¿Qué herramienta quieres modificar?
+            - [Choice]: Hacha.
+              - [Menu]: Se abre la interfaz Elija una herramienta.
+                - [Choice]: ¿Puedes actualizar mi hacha de dragón a un hacha de cristal?
+                  - (Condition: Sin polvo de 4.000 armónicos:)
+                    - **Lady Ithell:** Necesito 4000 polvo armónico para convertir este hacha de dragón en un hacha de cristal.
+                    - (previous|tool)
+                  - (Condition: Con polvo de 4.000 armónicos:)
+                    - (removes=dragon hatchet and 4,000 harmonic dust) (receives=crystal hatchet)
+                    - [Lady Ithell ha actualizado tu hacha de dragón a un hacha de cristal.]
+                - [Choice]: ¿Puedes convertir mi hacha de cristal en un hacha de dragón?
+                  - [Menu]: Revertir Crystal Hatchet<br>No se te reembolsará el polvo armónico que le diste a Lady Ithell para mejorar tu hacha.<br>A¿Estás seguro de que quieres volver a convertirlo en un hacha de dragón?
+                    - [Choice]: Cancelar
+                      - (previous2|tool)
+                    - [Choice]: Ok
+                      - (removes=crystal hatchet) (receives=dragon hatchet)
+                      - [Lady Ithell ha revertido tu hacha de cristal en un hacha de dragón.]
+                      - (previous2|tool)
+            - [Choice]: Pico.
+              - [Menu]: Se abre la interfaz Elija una herramienta.
+                - [Choice]: ¿Puedes actualizar mi pico de dragón a un pico de cristal?
+                  - (Condition: Sin polvo de 4.000 armónicos:)
+                    - **Lady Ithell:** Necesito 4000 polvo armónico para convertir este pico de dragón en un pico de cristal.
+                    - (previous|tool)
+                  - (Condition: Con polvo de 4.000 armónicos:)
+                    - (removes=dragon pickaxe and 4,000 harmonic dust) (receives=crystal pickaxe)
+                    - [Lady Ithell ha actualizado tu pico de dragón a un pico de cristal.]
+                - [Choice]: ¿Puedes actualizar mi pico de dragón deslizado a un pico de cristal deslizado?
+                  - {{Transcript missing}}
+                - [Choice]: ¿Puedes usar mi pico Imcando para hacer un pico Imcando de cristal?
+                  - {{Transcript missing}}
+                - [Choice]: ¿Puedes convertir mi pico de cristal en un pico de dragón?
+                  - [Menu]: Revertir el pico de cristal<br>No se te reembolsará el polvo armónico que le diste a Lady Ithell para mejorar tu pico.<br>¿Estás seguro de que quieres volver a convertirlo en un pico de dragón?
+                    - [Choice]: Cancelar
+                      - (previous2|tool)
+                    - [Choice]: Ok
+                      - (removes=crystal pickaxe) (receives=dragon pickaxe)
+                      - [Lady Ithell ha convertido tu pico de cristal en un pico de dragón.]
+                      - (previous2|tool)
+            - [Choice]: Azadón.
+              - [Menu]: Se abre la interfaz Elija una herramienta.
+                - [Choice]: ¿Puedes actualizar mi azadón de dragón a un azadón de cristal?
+                  - (Condition: Sin polvo de 4.000 armónicos:)
+                    - **Lady Ithell:** Necesito 4000 polvo armónico para convertir este azadón de dragón en un azadón de cristal.
+                    - (previous|tool)
+                  - (Condition: Con polvo de 4.000 armónicos:)
+                    - (removes=dragon mattock and 4,000 harmonic dust) (receives=crystal mattock)
+                    - [Lady Ithell ha mejorado tu azadón de dragón a un azadón de cristal.]
+                - [Choice]: ¿Puedes usar mi azadón Imcando para hacer un azadón Imcando de cristal?
+                  - **Lady Ithell:** Ni yo ni el anterior Lady Ithell hemos trabajado con los encantamientos de los enanos Imcando. Eso está más allá de mi capacidad, me temo.
+                  - **Lady Ithell:** Podría tratar tu azadón Imcando con polvo armónico como un azadón de dragón, pero perderá su encantamiento y funcionará como cualquier otro azadón de cristal.
+                  - [Menu]: Reemplazar Imcando Mattock<br> No reclamará ninguno de los componentes del Imcando Mattock. <br>A¿Estás seguro de que quieres reemplazar este azadón Imcando por un azadón de cristal?
+                    - [Choice]: Cancelar
+                      - (previous2|tool)
+                    - [Choice]: Ok
+                      - (Condition: Sin polvo de 4.000 armónicos:)
+                        - **Lady Ithell:** Necesito 4000 polvo armónico para reemplazar este azadón Imcando por un azadón de cristal.
+                        - (previous2|tool)
+                      - (Condition: Con polvo de 4.000 armónicos:)
+                        - (removes=Imcando mattock and 4,000 harmonic dust) (receives=crystal mattock)
+                        - [Lady Ithell ha sustituido su azadón Imcando por un azadón de cristal.]
+                        - (previous2|tool)
+                - [Choice]: ¿Puedes convertir mi azadón de cristal en un azadón de dragón?
+                  - [Menu]: Revertir Crystal Mattock<br>No se te reembolsará el polvo armónico que le diste a Lady Ithell para mejorar tu azadón.<br>A¿Estás seguro de que quieres revertirlo a un azadón de dragón?
+                    - [Choice]: Cancelar
+                      - (previous2|tool)
+                    - [Choice]: Ok
+                      - (removes=crystal mattock) (receives=dragon mattock)
+                      - [Lady Ithell ha revertido tu azadón de cristal en un azadón de dragón.]
+                      - (previous2|tool)
+        - (Condition: Si el player no tiene hachas, picos o azadones de dragón o cristal en su inventario:)
+          - **Lady Ithell:** No llevas ninguna herramienta de dragón o cristal que pueda actualizar o revertir. Si está buscando actualizar una herramienta aumentada, deberá mostrármelo directamente.
+          - (previous)
+      - [Choice]: cond=After making at least one crystal hatchet, pickaxe, or mattock|Cuéntame otra vez sobre el proceso.
+        - **Lady Ithell:** Normalmente, tendrías que cultivar un hacha o un pico a partir de una semilla de herramienta, y se degradaría con el uso.
+        - **Lady Ithell:** Sin embargo, dado que estás decidido a romper las leyes fundamentales del canto de los cristales, especulo que podría sustituir la semilla de la herramienta por un núcleo de metal de dragón.
+        - **Lady Ithell:** Eso debería mantener la integridad estructural de la herramienta. Luego cubriría el metal del dragón con una densa matriz de polvo armónico.
+        - **Lady Ithell:** Después de colocar una dura capa de cristal alrededor del objeto, debería ser susceptible a un encantamiento que inhiba la degradación.
+        - **Lady Ithell:** Podría funcionar, o la herramienta podría romperse en una lluvia de fragmentos desgarradores al impactar.
+        - **Lady Ithell:** Tendrás la amabilidad de contarme qué ocurrió si sobrevives a la explosión, ¿no?
+        - (previous)
+      - [Choice]: Tengo otras preguntas...
+        - (previous)
+  - [Choice]: cond=Before talking about storing crystal seeds|¿Hay algo que pueda hacer por ti?
+    - **Lady Ithell:** Bueno, hay un pequeño favor que podrías hacerme...
+    - **Lady Ithell:** Verás, la Lady Ithell anterior realizó un proyecto de investigación al final de su vida. No estoy seguro de si alguna vez lo terminó: imbuyó el esquema de la estatua con sus recuerdos bastante tiempo antes de morir.
+    - **Lady Ithell:** La versión de Lady Ithell en mi mente apenas había dado los primeros pasos en un largo viaje de descubrimiento.
+    - **Lady Ithell:** Estaba buscando una manera de estabilizar los cristales, para que no se degraden con el uso. Quiero continuar su trabajo.
+    - **Player:** Entonces, ¿cuál es el favor?
+    - **Lady Ithell:** Necesito semillas de cristal. Semillas agotadas. Tantos como sea posible. Sólo para estudiarlas, ya sabes, puedes recolectar tus semillas de cristal cuando quieras.
+    - **Player:** ¿Las semillas con cargas no sirven?
+    - **Lady Ithell:** No, es necesario revertirlos a su forma de semilla más básica. Lady Ithell estaba seguro de que hay algún inhibidor en la naturaleza básica de las semillas (estos pequeños fragmentos de Seren) que limita su potencia.
+    - **Lady Ithell:** Oh, Lady Hefin se pondría furiosa si me oyera hablar de esa manera sobre Seren. Estoy seguro de que Seren no restringiría deliberadamente a las personas que eligió.
+    - **Lady Ithell:** Aún así, hay un poder increíble en las semillas de cristal, y creo que a través del canto de los cristales apenas estamos aprovechando su verdadero potencial.
+    - **Lady Ithell:** Entonces, ¿me dejarás cuidar tus semillas de cristal?
+    - [Menu]: Selecciona una opción
+      - [Choice]: Abre tu tienda de semillas de cristal.
+        - *(Se abre el Almacenamiento de Semillas de Cristal.)*
+      - [Choice]: Dime otra vez por qué necesitas semillas de cristal.
+        - **Lady Ithell:** La anterior Lady Ithell realizó un proyecto de investigación al final de su vida. No estoy seguro de si alguna vez lo terminó: imbuyó el esquema de la estatua con sus recuerdos bastante tiempo antes de morir.
+        - **Lady Ithell:** La versión de Lady Ithell en mi mente apenas había dado los primeros pasos en un largo viaje de descubrimiento.
+        - **Lady Ithell:** Estaba buscando una manera de estabilizar los cristales, para que no se degraden con el uso. Lady Ithell estaba seguro de que hay algún inhibidor en la naturaleza básica de las semillas de cristal que limita su potencia.
+        - **Lady Ithell:** Quiero continuar su trabajo y desbloquear todo nuestro potencial.
+        - **Lady Ithell:** Para hacer eso, necesito semillas de cristal agotadas, revertidas a su forma de semilla más básica. Tantos como sea posible. Sólo para estudiarlas, ya sabes, puedes recolectar tus semillas de cristal cuando quieras.
+        - **Lady Ithell:** Entonces, ¿tienes alguna semilla de cristal que quieras prestarme?
+        - (previous)
+      - [Choice]: Tengo otras preguntas...
+        - (previous)
+  - [Choice]: cond=After talking about storing crystal seeds|Pregunte sobre el almacenamiento de semillas de cristal...
+    - [Menu]: Selecciona una opción
+      - [Choice]: Abre tu tienda de semillas de cristal.
+        - *(Se abre el Almacenamiento de Semillas de Cristal.)*
+      - [Choice]: Dime otra vez por qué necesitas semillas de cristal.
+        - (arriba)
+      - [Choice]: Tengo otras preguntas...
+        - (previous)
+  - [Choice]: ¿Hay algo más en lo que pueda ayudarte?
+    - (Condition: Antes de ayudar a Lady Ithell con la investigación sobre el canto con cristales:)
+      - **Lady Ithell:** En realidad, me preguntaba si podrías ayudarme con un pequeño proyecto. Realmente me ayudaría si manejaras algunos objetos de cristal mágico por mí.
+      - **Lady Ithell:** Si puedo entender cómo reacciona el cristal elfo ante los humanos, me ayudará a darle sentido a algunos de los recuerdos del ex Lady Ithell.
+      - **Lady Ithell:** Si pudieras cantar o encontrarme un cristal staff, una varita, un orbe y una protección completamente cargados, ampliaré tu propio conocimiento de Magic. Incluso te reembolsaré la semilla de cristal por cada artículo.
+      - (Condition: Sin haberle regalado a Lady Ithell ningún objeto de cristal:)
+        - **Lady Ithell:** Todavía necesito un:<br>Barra de cristal<br>Varita de cristal<br>Orbe de cristal
+        - **Lady Ithell:** Guardián de cristal
+        - (initial)
+      - (Condition: Con algunos de los artículos de cristal solicitados en backpack:)
+        - **Lady Ithell:** ¿Tienes algún objeto de cristal mágico para mí?
+        - [Menu]: ¿Darle a Lady Ithell un cristal [staff/wand/orb/ward]?
+          - [Choice]: Sí.
+            - (Condition: Si el artículo entregado es un cristal staff:)
+              - (removes=crystal staff) (receives=crystal weapon seed)
+              - [Lady Ithell te da una semilla de arma de cristal a cambio del cristal staff.]
+              - (continue)
+            - (Condition: Si el objeto entregado es una varita de cristal:)
+              - (removes=crystal wand) (receives=crystal weapon seed)
+              - [Lady Ithell te da una semilla de arma de cristal a cambio de la varita de cristal.]
+              - (continue)
+            - (Condition: Si el objeto entregado es un orbe de cristal:)
+              - (removes=crystal orb) (receives=crystal weapon seed)
+              - [Lady Ithell te da una semilla de arma de cristal a cambio del orbe de cristal.]
+              - (continue)
+            - (Condition: Si el objeto entregado es una protección de cristal:)
+              - (removes=crystal ward) (receives=crystal armour seed)
+              - [Lady Ithell te da una semilla de armadura de cristal a cambio de la protección de cristal.]
+              - (continue)
+            - (Condition: Si el player tiene artículos de cristal adicionales para entregar:)
+              - (continuea|give)
+            - (Condition: Si el player no tiene más objetos de cristal para entregar:)
+              - (continue|stillneed)
+            - (Condition: Al entregar los cuatro artículos de cristal solicitados:)
+              - (receives=Magic XP lamp)
+              - [Lady Ithell te entrega una lámpara Magic.]
+              - {{RSFontAchievement|Sing for the Lady}}
+              - **Lady Ithell:** Oh, gracias por la ayuda. El residuo cuasi élfico de tu contacto con los objetos tiene una firma mágica fascinante. Esto requerirá más estudio, pero algunos de los recuerdos de Lady Ithell ahora me resultan mucho más claros.
+              - (initial)
+          - [Choice]: No.
+            - **Lady Ithell:** Todavía necesito un:<br>Crystal [item]
+            - (previous2)
+    - (Condition: Después de entregar algunos artículos de cristal a Lady Ithell, sin más artículos de cristal en backpack:)
+      - **Lady Ithell:** Todavía necesito un:<br>Crystal [item]
+      - (initial)
+    - (Condition: Después de entregar algunos artículos de cristal a Lady Ithell, con artículos de cristal en backpack:)
+      - **Lady Ithell:** ¿Tienes algún objeto de cristal mágico para mí?
+      - (continuea|give)
+    - (Condition: Después de ayudar a Lady Ithell con la investigación sobre el canto con cristales:)
+      - **Lady Ithell:** Gracias, pero no por el momento.
+      - **Lady Ithell:** El residuo cuasi élfico de tu contacto con los objetos tenía una firma mágica fascinante. Esto requerirá más estudio, pero algunos de los recuerdos de Lady Ithell ahora me resultan mucho más claros.
+  - [Choice]: Nada, gracias.
+    - (end)

@@ -1,0 +1,12 @@
+{
+  "name": "RS Hekili",
+  "version": "1.0.0",
+  "description": "Asistente visual de rotaciones de combate en tiempo real (estilo Hekili de WoW).",
+  "contactEmailAddress": "desarrollador@ejemplo.com",
+  "hasRibbonIcon": true,
+  "hasSettingsIcon": true,
+  "requiredPermissions": [],
+  "optionalPermissions": [],
+  "requiredDependencies": {},
+  "optionalDependencies": {}
+}

@@ -1,0 +1,236 @@
+# Bard Roberts
+
+- **Original Wiki Page**: [Transcript:Bard Roberts](https://runescape.wiki/w/Transcript%3ABard%20Roberts)
+- **Letter**: `B`
+
+---
+
+## Dialogue Transcript
+
+
+### Talk-to
+
+- [Menu]: Select an Option
+  - [Choice]: Who are you?
+    - **Player:** Who are you?
+    - **Bard Roberts:** Arr, the name be Bard Roberts, an' me companion here be Stanky Morgan. Pleased to meet ye!
+    - **Stanky Morgan:** Ecstatic.
+    - **Player:** So, what do you do?
+    - **Bard Roberts:** I play music an' sing, mostly. Ye can sit down and rest a while, if ye like.
+    - (Condition: If the player has not completed neither Pirate's Treasure nor Rum Deal:)
+      - (initial|initial-options)
+    - (Condition: If the player has completed Pirate's Treasure and/or Rum Deal:)
+      - **Bard Roberts:** Oh! It's ye, Player! Tales of yer heroism among the pirates has spread far an' wide. I've knocked up a little shanty about ye, if ye have time fer it?
+      - [Menu]: Listen to Bard's shanty?
+        - [Choice]: How could I refuse?
+          - **Player:** How could I refuse?
+          - **Stanky Morgan:** Easily, Player. Ye just say 'no'. Too late now, though. Thanks a bunch.
+          - **Bard Roberts:** Aha! Time fer a shanty! Which of yer adventures shall I regale ye with, Player?
+          - **Stanky Morgan:** Here we go again...
+          - (continue|shanty)
+        - [Choice]: Not right now, thanks.
+          - **Player:** Not right now, thanks.
+          - **Bard Roberts:** Come see me again if ye changed yer mind.
+          - **Stanky Morgan:** Thank ye, Player. Ye've spared us all agony.
+          - **Bard Roberts:** Shut it, Stanky!
+          - (initial|initial-options)
+  - [Choice]: Can I ask you some questions about resting?
+    - [Menu]: Can I ask you some questions about resting?
+      - [Choice]: How does resting work?
+        - **Player:** So, how does resting work?
+        - **Stanky Morgan:** What do ye mean, 'how does resting work'? Rest an' work are opposing concepts: restin' don't work. Ye get tired, ye sit down, ye regain yer energy. No work involved.
+        - **Bard Roberts:** What Stanky means is, choose the rest option on yer run button to start restin'.
+        - **Bard Roberts:** When ye rest, ye'll recharge run energy an' life points faster than normal.
+        - **Bard Roberts:** Restin' by a musician such as mesel-
+        - **Stanky Morgan:** Huh! Musician? That be charitable.
+        - **Bard Roberts:** Restin' by a musician such as meself will have a similar but more potent effect.
+        - (previous|resting-questions)
+      - [Choice]: What's special about resting by a musician?
+        - **Player:** What's special about resting by a musician?
+        - **Bard Roberts:** Music soothes the mind an' relaxes ye, Player. Restin' by a musician will restore yer energy an' life points even faster than restin' anywhere else.
+        - (previous|resting-questions)
+      - [Choice]: Can you summarise the effects for me?
+        - **Player:** Can you summarise the effects for me?
+        - **Bard Roberts:** Choose rest on yer run button te sit down. Yer life points an' energy will come back faster. If yer near enough te a musician, such as me'self, they'll come back even faster still.
+        - (previous|resting-questions)
+      - [Choice]: That's all for now.
+        - (below|thats-all-for-now)
+  - [Choice]: Can I ask you some questions about running?
+    - **Player:** Can I ask you some questions about running?
+    - **Stanky Morgan:** No.
+    - **Player:** Can I ask YOU some questions about running, Bard?
+    - **Bard Roberts:** Aye, Player. Course ye can.
+    - **Player:** Why do I need to run anyway?
+    - **Bard Roberts:** Te get where yer goin' twice as fast was walkin', fer a start! And te escape from a fight faster if ye happen ye be losin'.
+    - **Player:** Can I keep running forever?
+    - **Stanky Morgan:** What kind of question be that? Ye can't do anythin' forever, Player. Ye'd be dead afore then.
+    - **Bard Roberts:** Stanky! No, ye can't. Ye'll run outta breath after runnin' for a time. Ye'll need to catch it before ye can run again. If yer walkin' or standin' aroud, yer energy'll come back slowly. If yer restin', it'll come back quicker.
+    - You may start running by clicking once on a run button attached to your minimap. It has an icon of a boot. Clicking the run button a second time will switch you back to walking. The button will tell you how much run energy you currently have.
+    - (initial|initial-options)
+  - [Choice]: That's all for now.
+    - **Player:** That's all for now.
+    - **Bard Roberts:** Come back soon, Player!
+    - **Stanky Morgan:** Or don't, preferably.
+
+### Hear-shanty
+
+
+#### Before Pirate's Treasure and Rum Deal
+
+- **Bard Roberts:** Sorry, but I don't have any shanties about ye.
+- **Stanky Morgan:** It must be because ye are so very interesting.
+
+#### After Pirate's Treasure and/or Rum Deal
+
+- [Menu]: Which quest do you want to recap?
+  - [Choice]: cond=If the player has completed Pirate's Treasure:|Pirate's Treasure.
+    - **Player:** Can you sing about the time I found the pirate's treasure?
+    - **Bard Roberts:** Aye, Player! I certainly can!
+    - This cutscene is roughly one minute long and, once started, cannot be cancelled. Make sure your music volume is turned up!
+    - [Menu]: Continue?
+      - [Choice]: Yes!
+        - {{Qact|Shanty cutscene begins.}}
+        - **Bard Roberts:** Oh, Frank's love of o'erproof rum,
+        - **Bard Roberts:** Proved to be quite the conundrum,
+        - **Bard Roberts:** 'Cause those custom sorts,
+        - **Bard Roberts:** Banned it from exports,
+        - **Bard Roberts:** So poor Frank was sober 'n' glum!
+        - **Bard Roberts:** In a crate filled up with 'nanas,
+        - **Bard Roberts:** But devoid of all sultanas,
+        - **Bard Roberts:** The rum ye concealed,
+        - **Bard Roberts:** And the crate ye sealed,
+        - **Bard Roberts:** And smuggled it off Karamja!
+        - **Stanky Morgan:** {{RSChat|Arrr, that don't rhyme!}}
+        - **Bard Roberts:** {{RSChat|Ah, shut it, you!}}
+        - **Bard Roberts:** Well, ye sailed back to Port Sarim,
+        - **Bard Roberts:** And ye got a job from Wydin.
+        - **Bard Roberts:** With yer apron ties,
+        - **Bard Roberts:** Ye reclaimed yer prize,
+        - **Bard Roberts:** From the crate it got dropped off in!
+        - **Bard Roberts:** With his rum, Frank were elated,
+        - **Bard Roberts:** His alcohol cravings sated.
+        - **Bard Roberts:** He showed ye the mark,
+        - **Bard Roberts:** In Falador Park,
+        - **Bard Roberts:** Where the treasure were located!
+      - [Choice]: No, I need to change my audio settings.
+        - (end)
+  - [Choice]: cond=If the player has completed Rum Deal:|Rum Deal.
+    - **Player:** Can you sing about the time I got a rum deal from Cap'n Braindeath?
+    - **Bard Roberts:** Aye, Player! I certainly can!
+    - This cutscene is roughly one minute long and, once started, cannot be cancelled. Make sure your music volume is turned up!
+    - [Menu]: Continue?
+      - [Choice]: Yes!
+        - {{Qact|Shanty cutscene begins.}}
+        - **Bard Roberts:** Pirate Pete told ye a tall tale,
+        - **Bard Roberts:** Of a demon on which to wail,
+        - **Bard Roberts:** But 'twas all a test,
+        - **Bard Roberts:** A made-up request,
+        - **Bard Roberts:** Afore the truth he could unveil!
+        - **Bard Roberts:** To the Braindeath Isle ye travelled,
+        - **Bard Roberts:** By the business-end o' paddle,
+        - **Bard Roberts:** Zombie pirate drunks,
+        - **Bard Roberts:** With 'rum'-ridden funks,
+        - **Bard Roberts:** And yer sanity unravelled!
+        - **Bard Roberts:** Braindeath revealed his conundrum,
+        - **Bard Roberts:** As a task 'twas nothing humdrum,
+        - **Bard Roberts:** Make a vile brew,
+        - **Bard Roberts:** Use it to subdue,
+        - **Bard Roberts:** Zombies picketing the 'rum'-run!
+        - **Zombie protester:** {{RSChat|*Hic!* Aarrr...|color=yellow}}
+        - **Bard Roberts:** So, ye brewed it like ye oughta,
+        - **Bard Roberts:** Using squids, slugs, stagnant water,
+        - **Bard Roberts:** Got the zombies drunk,
+        - **Bard Roberts:** Their blockade debunked,
+        - **Zombie protester:** {{RSChat|Rum! Aaar!|color=yellow}}
+        - **Bard Roberts:** Nay more brewers to the slaughter!
+        - **Captain Donnie:** {{RSChat|Arrr! *hic!*|color=yellow}}
+      - [Choice]: No, I need to change my audio settings.
+        - (end)
+  - [Choice]: cond=If the player has completed Cabin Fever:|Cabin Fever.
+    - **Player:** Can you sing about the time me and Bill had a case of cabin fever?
+    - **Bard Roberts:** Aye, Player! I certainly can!
+    - This cutscene is roughly one minute long and, once started, cannot be cancelled. Make sure your music volume is turned up!
+    - [Menu]: Continue?
+      - [Choice]: Yes!
+        - {{Qact|Shanty cutscene begins.}}
+        - **Bard Roberts:** At the Green Ghost in Phasmatys,
+        - **Bard Roberts:** Ye had offered yer help gratis.
+        - **Bard Roberts:** Bill Teach were his name,
+        - **Bard Roberts:** Sailing were his game,
+        - **Bard Roberts:** But he lacked the apparatus!
+        - **Bard Roberts:** 'Twas nay a ship he was lackin',
+        - **Bard Roberts:** But his crew had all gone packin'.
+        - **Bard Roberts:** Bill's men had all fled,
+        - **Bard Roberts:** Filled with fear 'n' dread,
+        - **Bard Roberts:** Of his enemies attackin'!
+        - **Bard Roberts:** With ye as his crew instated,
+        - **Bard Roberts:** Bill's fears chemically abated,
+        - **Bard Roberts:** Ye and he set sail,
+        - **Bard Roberts:** Him certain ye'd fail,
+        - **Bard Roberts:** He believed yer trip ill-fated!
+        - **Bard Roberts:** When the enemy descended,
+        - **Bard Roberts:** Yer performance were most splendid,
+        - **Bard Roberts:** Ye pilfered their loot,
+        - **Bard Roberts:** Sank their ship te boot,
+        - **Bard Roberts:** Yon Adventurous defended!
+      - [Choice]: No, I need to change my audio settings.
+        - (end)
+  - [Choice]: cond=If the player has completed The Great Brain Robbery:|The Great Brain Robbery.
+    - **Player:** Can you sing about the time I thwarted the Great Brain Robbery?
+    - **Bard Roberts:** Aye, Player! I certainly can!
+    - This cutscene is roughly one minute long and, once started, cannot be cancelled. Make sure your music volume is turned up!
+    - [Menu]: Continue?
+      - [Choice]: Yes!
+        - {{Qact|Shanty cutscene begins.}}
+        - **Bard Roberts:** On Mos'Le Harmless by the sea,
+        - **Bard Roberts:** Ye met Brother Tranquil-i-ty,
+        - **Bard Roberts:** He asked a favour,
+        - **Bard Roberts:** From someone braver,
+        - **Bard Roberts:** For his brothers on Har-mo-ny.
+        - **Bard Roberts:** The monks' bodies were out on loans,
+        - **Bard Roberts:** Thanks te zombie pirate Sorebones,
+        - **Bard Roberts:** They hit ye wi' gas,
+        - **Bard Roberts:** But yer ward held fast,
+        - **Bard Roberts:** Ye escaped meetin' Davey Jones!
+        - **Bard Roberts:** Just east of the Slayer Tower,
+        - **Bard Roberts:** Was a surgeon who did cower,
+        - **Bard Roberts:** You made Fenk-en-strain,
+        - **Bard Roberts:** Transplant the monks' brains,
+        - **Bard Roberts:** For freedom from lupine glower!
+        - **Bard Roberts:** Mi-Gor tried to stop your heart's pace,
+        - **Bard Roberts:** Yer foe's arm: part anchor, part mace,
+        - **Bard Roberts:** Struck without delay,
+        - **Bard Roberts:** But him ye did slay,
+        - **Bard Roberts:** Made him look a total...
+        - **Bard Roberts:** ...moron.
+      - [Choice]: No, I need to change my audio settings.
+        - (end)
+  - [Choice]: cond=If the player has completed Rocking Out:|Rocking Out.
+    - **Player:** Can you sing about the time me and Young Ralph were rocking out?
+    - **Bard Roberts:** Aye, Player! I certainly can!
+    - This cutscene is roughly one minute long and, once started, cannot be cancelled. Make sure your music volume is turned up!
+    - [Menu]: Continue?
+      - [Choice]: Yes!
+        - {{Qact|Shanty cutscene begins.}}
+        - **Bard Roberts:** In Jack ye were in-ter-ested,
+        - **Bard Roberts:** So, you got yerself arrested,
+        - **Bard Roberts:** To hear Ralph's remarks,
+        - **Bard Roberts:** But he wanted marks,
+        - **Bard Roberts:** From five captains tried and tested!
+        - **Bard Roberts:** So, fer Bill ye claimed a treasure,
+        - **Bard Roberts:** A new hand were Harry's pleasure,
+        - **Bard Roberts:** And fer Braindeath's role,
+        - **Bard Roberts:** Got a drinking hole,
+        - **Bard Roberts:** To sell his 'rum' by the measure!
+        - **Bard Roberts:** Stole a brooch for Izzy No-Beard,
+        - **Bard Roberts:** And for Frank confirmed what he feared,
+        - **Bard Roberts:** Proved that Jack was back,
+        - **Bard Roberts:** And on the attack,
+        - **Bard Roberts:** To secure a mark from Redbeard.
+        - **Bard Roberts:** With the marks, ye heard the story,
+        - **Bard Roberts:** Bloody, vi-o-lent and gory,
+        - **Bard Roberts:** Of how Jack were beat,
+        - **Bard Roberts:** And we sunk his fleet,
+        - **Bard Roberts:** For a short-lived age of glory!
+      - [Choice]: No, I need to change my audio settings.
+        - (end)

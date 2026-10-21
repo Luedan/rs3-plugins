@@ -1,0 +1,207 @@
+# Goblin generals
+
+- **Original Wiki Page**: [Transcript:Goblin generals](https://runescape.wiki/w/Transcript%3AGoblin%20generals)
+- **Letter**: `G`
+
+---
+
+## Dialogue Transcript
+
+- ((Initiating the conversation with either General Bentnoze or Warface results in the same dialogue.))
+- **General Bentnoze:** You here about archaeologies?
+- **General Wartface:** About our artefact collections?
+- [Menu]: Talk about Archaeology?
+  - [Choice]: Yes.
+    - [Menu]: Select an Option
+      - [Choice]: Who are you?
+        - **General Bentnoze:** I General Bentnoze. I once of Thorobshuun tribe.
+        - **General Wartface:** And I General Wartface. I once of Garagorshuun tribe.
+        - **General Bentnoze:** We lead Goblin Village together.
+        - **General Wartface:** And that about only thing we agree on.
+        - (previous)
+      - [Choice]: What are you collecting?
+        - **General Bentnoze:** You may talk in general or about specific General collection?
+        - **Player:** That's a confusing question.
+        - [Menu]: What would you like to do?
+          - [Choice]: View General Bentnoze's collections.
+            - ((Red Rum Reliquary interface opens.))
+          - [Choice]: View General Wartface's collections.
+            - ((Green Gobbo Goodies interface opens.))
+          - [Choice]: Talk about collections in general.
+            - **General Wartface:** I want all gobbo stuff! Gobbo stuff best!
+            - **General Bentnoze:** Nuh! Gobbo stuff worst, which is why I want all non-gobbo stuff!
+            - **Player:** Let's not worry about what is best, right now. But hey, at least there's no overlap with what you both want.
+            - **General Wartface:** Well, is maybe one thing. We both like Da Boss Man.
+            - **General Bentnoze:** Yeah, Big High War God. Him not around so much, so want something to remember him with.
+            - **General Wartface:** Yeah, like a statue.
+            - **Player:** Is the one just outside Goblin Village not enough?
+            - **General Bentnoze:** Not arty enough.
+            - **Player:** When you say gobbo and non-gobbo stuff... I mean, 'non-gobbo' stuff is a LOT of stuff.
+            - **General Wartface:** Oh, right, yeah.
+            - **General Bentnoze:** We should have say.
+            - **General Wartface:** Only stuff from Warforge.
+            - **General Bentnoze:** Yeah, non-gobbo stuff bad, but non-gobbo stuff from non-gobbo place even worse.
+            - **General Wartface:** Except to say gobbo stuff is best, me agree. Non-gobbo places - yuck.
+            - (previous2)
+      - [Choice]: What are your collection rewards?
+        - ((If the player hasn't completed their first collections:))
+          - **General Bentnoze:** Between us we got...
+          - **General Wartface:** ...pieces of tetracompass.
+          - **General Wartface:** You complete each of our first two collections...
+          - **General Bentnoze:** ...then you get a complete tetracompass.
+          - (continue)
+        - ((If the player has completed their first collections:))
+          - **General Bentnoze:** How was tetracompass? Hope you got something.
+          - **General Wartface:** We not get it working. Worth nothing to us.
+          - (continue)
+        - ((If the player hasn't completed their final collections:))
+          - ((If the player hasn't lost a Helm of Terror component:))
+            - **General Bentnoze:** We had a relic, but it broke.
+            - **General Wartface:** Yeah, 'cos you kept pulling it.
+            - **General Bentnoze:** That because it mine!
+            - **General Wartface:** No, it mine!
+            - **Player:** What was it? And why would I want a broken relic?
+            - **General Wartface:** It called Helm of Terror.
+            - **General Bentnoze:** Make you fight better.
+            - **Player:** From the sound of it, it just made you fight MORE.
+            - **General Bentnoze:** We not agree who gets to wear.
+            - **General Wartface:** So we fought and it snap in half.
+            - **General Wartface:** You can have my half. It useless unless fixed.
+            - **General Bentnoze:** And if we fix it, we fight. You have my half too.
+            - **Player:** And then I can fix it and keep it?
+            - **General Wartface:** Sure, you bring peace to Goblin Village.
+            - **General Bentnoze:** And I not have to hear about it no more.
+            - (previous)
+          - ((If the player has lost a Helm of Terror component:))
+            - **Player:** I lost the half of the Helm of Terror one of you gave me.
+            - **General Bentnoze:** That careless. We look for it.
+            - **General Wartface:** In meantime, you complete other collection for other half.
+            - **General Bentnoze:** We only return both halfs when you can make helm, since you lose stuff.
+            - (previous)
+        - ((If the player has completed their final collections:))
+          - **General Bentnoze:** How is Helm of Terror?
+          - ((If the player has lost a Helm of Terror component:))
+            - **Player:** Um, lost and still broken...
+            - **General Wartface:** You lose part? That careless.
+            - **General Bentnoze:** Me found part. Here!
+            - ((Without space in backpack for the missing components:))
+              - **General Wartface:** You not have room for part. Make some.
+            - ((With space in backpack for the missing components:))
+              - [Menu]: Take Helm of Terror part from the goblin generals?
+                - [Choice]: Yes.
+                  - (The player receives the missing components.)
+                  - **General Wartface:** Make helm now! Lose again and we get upset.
+                  - (previous2)
+                - [Choice]: No.
+                  - (end)
+          - ((If the player hasn't combined the components into Helm of Terror:))
+            - **Player:** Right, yes, I should probably put those halves together and reform the helm. Thanks for reminding me.
+            - (previous)
+          - ((If the player has combined the components into Helm of Terror:))
+            - **Player:** It's awesome, thanks!
+            - **General Wartface:** You inspire awe now.
+            - (previous)
+      - [Choice]: Bye.
+        - **General Bentnoze:** See ya.
+  - [Choice]: No.
+    - (Condition: If the goblin cower shield has not been claimed:)
+      - **General Bentnoze:** We got a shield for you.
+      - **General Wartface:** Yeah, for savin' Zanik and all dat.
+      - **General Bentnoze:** There, we give, you take!
+      - (receives=Goblin cower shield)
+      - **Player:** Thanks!
+      - (continue)
+    - [Menu]: Choose an option:
+      - [Choice]: I want to talk about the Kyzaj Tournament.
+        - **General Bentnoze:** Hey look! It cave human!
+        - **General Wartface:** I can see that, dumb-dumb.
+        - **General Bentnoze:** You dumb-dumb!
+        - [Menu]: Select an Option
+          - [Choice]: What did you think of the tournament?
+            - **General Bentnoze:** It great! Except for Wartface. Him ruin commentary with stupid talk.
+            - **General Wartface:** Me have best commentary. You stupid.
+            - **General Bentnoze:** Hope there another tournament so can do commentary without Wartface.
+            - **General Wartface:** Me working on catchphrase: 'IT SLOBBERKNOCKER!' Need work me think.
+            - **General Bentnoze:** The worst catchphrase. You worst at commentating.
+            - **General Wartface:** You worst at everything!
+            - (previous)
+          - [Choice]: You didn't go with Zanik?
+            - **General Wartface:** Was gonna. Then Bentnoze say he go. Clearly going stupid.
+            - **General Bentnoze:** That not right! You tell story wrong stupid!
+            - **General Wartface:** So me stay. But then Bentnoze stay as well. So me punch Bentnoze.
+            - **General Bentnoze:** Real story is, Wartface is dumb-dumb; punch Bentnoze for no reason.
+            - **General Wartface:** So me punch Bentnoze right back. Lots of punching, then fall asleep.
+            - **General Bentnoze:** When we wake up, Chosen Commander already left. So came back to village instead.
+            - (previous)
+          - [Choice]: Good bye.
+            - (end)
+      - [Choice]: So how is life for the goblins?
+        - **Player:** So how is life for the goblins?
+        - {{Trandom}}
+          - ((Option 1:))
+            - **General Bentnoze:** Now Grubfoot gone, we need find new servant. Who you think?
+            - **General Wartface:** What about Wartknees?
+            - **General Bentnoze:** No, he too stupid. What about Snailhead?
+            - **General Wartface:** No, he too clumsy. What about Toadbrain?
+            - **General Bentnoze:** No, he not exist. He figment of your imagination.
+            - **General Wartface:** Oh yeah. Me always forget.
+          - ((Option 2:))
+            - **General Bentnoze:** Our soldiers need better weapons. We give them all warhammers!
+            - **General Wartface:** No no give them battleaxes!
+            - **General Bentnoze:** Axes stupid! They things you cut wood with!
+            - **General Wartface:** But hammers things you put nails in wood with! At least axes sharp!
+            - **General Bentnoze:** You not need sharp when you have strong goblin swinging big lump of iron!
+            - **Player:** Do you want me to...
+            - **General Wartface:** Shut up, human, we sort this one out ourselves!
+          - ((Option 3:))
+            - **General Bentnoze:** Shut up, Grubfoot!
+            - **General Wartface:** Grubfoot not here.
+            - **General Bentnoze:** Oh, yeah.
+            - **General Bentnoze:** Human, if you see Grubfoot, you tell him 'shut up' for me!
+          - ((Option 4:))
+            - **General Bentnoze:** What we do now, Warface?
+            - **General Wartface:** Me dunno...maybe we change armour colour again.
+            - **General Bentnoze:** Human, what colour you think best?
+            - **Player:** What about brown?
+            - **General Wartface:** Yeah brown is nice.
+            - **General Bentnoze:** Thanks, human.
+          - ((Option 5:))
+            - **General Bentnoze:** When Chosen Commander come to speak to us again?
+            - **Player:** I don't know. I don't think she was making any progress when she spoke to you before.
+            - **General Wartface:** We listen to whatever she say!
+            - **General Bentnoze:** Yeah, as long as she agree with truths of Big High War God!
+            - **General Wartface:** Goblins mighty, war good, Big High War God greatest god!
+            - **Player:** I don't think Zanik is likely to say any of that. Bandos is dead, remember?
+            - **General Bentnoze:** Oh. Yes, me remember.
+            - **General Wartface:** Goblins mighty, war good... er... pike best fish?
+            - **General Bentnoze:** Trout best fish.
+            - **Player:** Don't start all that again. What about 'You don't have to fight all the time'?
+            - **General Wartface:** Hahaha!
+            - **General Bentnoze:** Hahaha! Stupid human.
+            - **General Wartface:** Chosen Commander would never say such silly things.
+          - ((Option 6:))
+            - **General Wartface:** Big High War God dead?
+            - **General Bentnoze:** Think so, Wartface.
+            - **General Wartface:** What we do now?
+            - **General Bentnoze:** We...hide from Big High War God? He probably angry he dead.
+            - **General Wartface:** No, stupid. He just dead.
+            - **General Bentnoze:** Oh yeah.
+            - **Player:** You could join another god, I suppose. Or be Godless.
+            - **General Wartface:** But which god we choose?
+            - **Player:** Oh no. I'm getting out of this one.
+          - ((Option 7:))
+            - **General Wartface:** Human! Did you save Chosen Commander from horrible fate?
+            - **Player:** Yes! She's fine now!
+            - **General Bentnoze:** That good. Horrible fate no good, my uncle had one once. You honourary goblin!
+          - ((Option 8:))
+            - **General Wartface:** Last night I have vision of Chosen Commander. She say me biggest general, so me lead village.
+            - **General Bentnoze:** You not have vision! You make that up!
+            - **General Wartface:** In my vision, Chosen Commander say you say that. So now I know it true.
+            - **General Bentnoze:** Well... I have vision too. Chosen Commander say me big general!
+            - **General Wartface:** That not fair! Me have vision first!
+            - **General Bentnoze:** Chosen Commander also say you fat and stupid.
+            - **General Wartface:** Shut up!
+          - ((Option 9:))
+            - **General Wartface:** Me tell Mudknuckles make worm stew for dinner.
+            - **General Bentnoze:** Me not like worm stew! Tell him make beetle pie!
+            - **General Wartface:** Beetle pie give you wind! You smell bad enough already!

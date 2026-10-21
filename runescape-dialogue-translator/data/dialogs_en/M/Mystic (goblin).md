@@ -1,0 +1,172 @@
+# Mystic (goblin)
+
+- **Original Wiki Page**: [Transcript:Mystic (goblin)](https://runescape.wiki/w/Transcript%3AMystic%20%28goblin%29)
+- **Letter**: `M`
+
+---
+
+## Dialogue Transcript
+
+
+### Talking to the mystic
+
+- **Mystic:** Hail, Holy Ones!
+  - Just put me on a team.
+    - *(If you have items equipped or in your inventory:)*
+      - **Mystic:** You have to get rid of stuff first. You not allowed to take stuff. You put stuff in bank box.
+    - *(If you have nothing equipped or in your inventory:)*
+      - {{qact|Assigned to a random team.}}
+      - The mystic assigns you to a team.
+  - I have some questions about that primordial realm...
+    - **Player:** I have some questions about that primordial realm...
+      - What am I meant to do? <div id="First set of game explanation"></div>
+        - **Player:** What am I meant to do?
+        - **Mystic:** You gather as much sacred clay as you can. You can turn clay into things using creation kilns. These things help you gather clay more quick and help you fight other team. There clay in five levels. Called classes. Clay with higher class make better equipment and worth more points, but more hard to gather.
+          - Back to my other questions...
+            - *(Shows previous options)*
+          - That's all I need to know.
+            - **Player:** That's all I need to know.
+      - How do I gather clay?
+        - **Player:** How do I gather clay?
+        - **Mystic:** You find class 1 clay lying on ground. You not need tools to pick it up. You find higher-class clay in four different forms. You need skill to get these, and you need tools to get them quick!
+          - Tell me about what tools I need.
+            - **Player:** Tell me about what tools I need.
+            - **Mystic:** You need a pickaxe to mine clay from rock, hatchet to cut down tree, harpoon to catch clay in pool and butterfly net to gather from swarm. You should try to use tool of one class below the place you gathering from, or better. So to mine class 3 rock you should have class 2 pickaxe. You can get clay without the right tool, but it very slow!
+            - *(Shows other options)*
+          - Tell me about the level requirements.
+            - **Player:** Tell me about the level requirements.
+            - **Mystic:** You not need level to get class 1 clay fragments. To get class 2 clay you need level 20; class 3 you need level 40; class 4, level 60; and class 5, level 80.
+            - *(Shows other options)*
+          - Back to my other questions...
+            - *(Shows previous options)*
+          - That's all I need to know.
+            - **Player:** That's all I need to know.
+      - How do I use the creation kilns?
+        - **Player:** How do I use the creation kilns?
+        - **Mystic:** You can use kiln thingy to make things out of sacred clay. If you have clay in your inventory, you can click on kiln to open creation menu. Kiln will normally use highest class of clay you carrying. If you want use different class you select one on right side of menu. There four groups of object you can make: weapons, armour, equipment and tools. Select a group on left side of the menu. Objects you can make appear in middle of menu. Click on thing to make it. You can make several things at once by right-clicking on name of thing. You will need high enough level in right skill: Smithing for metal armour, Cooking for food, and so on.
+          - Back to my other questions...
+            - *(Shows previous options)*
+          - That's all I need to know.
+            - **Player:** That's all I need to know.
+      - What skill level do I need?
+        - **Player:** What skill level do I need?
+        - **Mystic:** You not need skill for class 1 clay. To use class 2 clay you need level 20 in the right skill; class 3 requires level 40; class 4, level 60; and class 5, level 80. For example, to mine level 3 clay you need level 40 Mining. You turn that clay into helmet, you need level 40 Smithing. Then to wear helmet you need level 40 Defence to wear.
+          - Back to my other questions...
+            - *(Shows previous options)*
+          - That's all I need to know.
+            - **Player:** That's all I need to know.
+      - (More...)
+        - How is the score calculated?
+          - **Player:** How is the score calculated?
+          - **Mystic:** Each team has score, and everyone in game has own score. You can be on losing team and score good, or be on winning team and score bad!
+            - Tell me about the personal score.
+              - **Player:** Tell me about the personal score.
+              - **Mystic:** You see own score in top left of window. You get points for getting clay, making things from clay, and putting clay or things in the base. You also get some points for hurting other players, and you get bonus if your team win in the end.
+                - What do I score for gathering and processing?
+                  - **Player:** What do I score for gathering and processing?
+                  - **Mystic:** Gathering clay gives you points according to the class of the clay: 15 for class 1, 30 for class 2, 45 for class 3, 60 for class 4, and 75 for class 5. You get the same number of points for processing the clay at a creation kiln.
+                  - *(Shows other options)*
+                - What do I score for depositing clay?
+                  - **Player:** What do I score for depositing clay?
+                  - **Mystic:** Putting raw clay in base give you points based on class of clay: 15 for class 1, 30 for class 2, 45 for class 3, 60 for class 4, and 75 for class 5. Things you make are worth twice as many points. You lose points for taking things from the base. Do not take thing unless you use it good! Sometimes you make many things from one clay piece. Then whole set of things is worth normal number of points, so each thing worth less.
+                  - *(Shows other options)*
+                - What do I score for fighting enemies?
+                  - **Player:** What do I score for fighting enemies?
+                  - **Mystic:** You get five points for each hitpoint of damage you do to enemy. You should also pick up things they drop and bring them back to base.
+                  - *(Shows other options)*
+                - What bonus do I get for being on the winning team?
+                  - **Player:** What bonus do I get for being on the winning team?
+                  - **Mystic:** If you are on winning team you get 10% bonus added to score. Winning team is the one that has the most sacred clay at end of the game.
+                  - *(Shows other options)*
+                - Back to my other questions...
+                  - *(Shows first set of options)*
+            - Tell me about the team score.
+              - **Player:** Tell me about the team score.
+              - **Mystic:** Your team's score based on the amount and quality of sacred clay in base. You can find out the current scores by talking to me. If your team has the highest score at the end of the game, you get a 10% bonus added to personal score.
+              - *(Shows other options)*
+            - Back to my other questions...
+              - *(Shows first set of options)*
+            - That's all I need to know.
+              - **Player:** That's all I need to know.
+        - How can I give items to my team mates?
+          - **Player:** How can I give items to my team mates?
+          - **Mystic:** If you use thing on player who on your team, you will give them thing, as long as they have space. If you want to give them several things, you can right-click on them and use Give-to option. This work like the trade menu, but you only give and not take. You can also leave things on the tables in base, and team mates can pick them up.
+            - Back to my other questions...
+              - *(Shows first set of options)*
+            - How do the tables work?
+              - *(Continues as per the next option)*
+            - That's all I need to know.
+              - **Player:** That's all I need to know.
+        - How do the tables work? <div id="How do the tables work"></div>
+          - **Player:** How do the tables work?
+          - **Mystic:** Each table store different type of thing. When you put thing on any table it will jump to right table. You can take things by picking them up as normal. Or you can click on table to get a menu of things. That may be easier if there lots of things. Table in middle of base let you deposit all things you carrying very quick. When you do this you will keep best tool of each type.
+            - Back to my other questions...
+              - *(Shows first set of options)*
+            - That's all I need to know.
+              - **Player:** That's all I need to know.
+        - What happens if I die?
+          - **Player:** What happens if I die?
+          - **Mystic:** If you die in the primordial realm you come back in team start area or inside barrier of your team, whichever closer. You drop all things you carrying, unless you pray to Big High War God and he let you keep one thing.
+            - Back to my other questions...
+              - *(Shows first set of options)*
+            - That's all I need to know.
+              - **Player:** That's all I need to know.
+        - (More...)
+          - Tell me about barriers.
+            - **Player:** Tell me about barriers.
+            - **Mystic:** You can make sacred clay into barriers using kiln. You set up barriers around some places by using them on barrier hotspot. You need four barrier objects to set them up. Setting up barrier around places means only your team can get to place. Skilly players can work safe inside barrier. If you die, you respawn in your team's barrier, if that closer than team start area. Other team can attack barriers and break barriers. Barriers also fall apart over time. Barriers made of better clay last longer.
+              - Back to my other questions...
+                - *(Shows first set of options)*
+              - That's all I need to know.
+                - **Player:** That's all I need to know.
+          - Tell me about Summoning creatures.
+            - **Player:** Tell me about Summoning creatures.
+            - **Mystic:** You can make Summoning pouches and scrolls out of sacred clay at kiln. Once you have scroll, you can summon creature as normal. Creatures made from higher-class clay are better in combat. Creatures can also carry things for you. Those made of higher-class clay can carry more things at one time. Sacred clay Summoning scrolls make your familiar teleport all the things it carrying to base. You can get Summoning points back at altars.
+              - Back to my other questions...
+                - *(Shows first set of options)*
+              - That's all I need to know.
+                - **Player:** That's all I need to know.
+          - Tell me about fog patches.
+            - **Player:** Tell me about fog patches.
+            - **Mystic:** If you go into fog, you hidden. No one see you or attack you until you come out. When you leave fog patch you may be dizzy.
+              - Back to my other questions...
+                - *(Shows first set of options)*
+              - That's all I need to know.
+                - **Player:** That's all I need to know.
+          - (More...)
+            - How does the game end?
+              - **Player:** How does the game end?
+            - **Mystic:** Game normally last 20 minutes. You should see clock in the top right corner of your window showing you time left. The game will end if all clay in the area is gone, or if all players on one team quit.
+                - Back to my other questions...
+                  - *(Shows first set of options)*
+                - That's all I need to know.
+                  - **Player:** That's all I need to know.
+            - What happens if I leave the game early?
+              - **Player:** What happens if I leave the game early?
+            - **Mystic:** If you leave the game early you not score any points, and you not join a new game for five minutes. If you last player on your team and you quit, the game will end. Otherwise it will carry on without you. Any things you are carrying when you quit appear in your team's base.
+                - Back to my other questions...
+                  - *(Shows first set of options)*
+                - That's all I need to know.
+                  - **Player:** That's all I need to know.
+            - What are the rewards?
+              - **Player:** What are the rewards?
+            - **Mystic:** You earn points in primordial realm, and you can swap these for things we have made from sacred clay. You can buy morphic tool that change into many different types of tool, and morphic armour and weapons that change for different combat styles. You want know more, talk to rewards mystic in north-east of camp.
+                - Back to my other questions...
+                  - *(Shows first set of options)*
+                - That's all I need to know.
+                  - **Player:** That's all I need to know.
+            - (Back to start...)
+              - *(Goes back to first set of options)*
+  - I'm not THAT holy...
+    - **Player:** I'm not THAT holy...
+    - **Mystic:** I not talking about you! I talk about spirits of great warriors who make Big High War God proud in ancient battle, and who still fight under Wilderness.
+    - **Player:** Oh. Shame. Ah well.
+    - **Mystic:** We on great mission to bring Holy Ones to life!
+    - **Player:** Aren't the dead usually better left dead?
+    - **Mystic:** You not know what you say. Holy Ones holy. We must bring them back for glory of Big High War God!
+      - *(Shows other options)*
+  - Can I help you?
+    - **Player:** Can I help you?
+    - **Mystic:** You help us! If you alone, go into all comer start area on west side. If you in clan, go into clan challenge area on east side.
+  - Never mind.
+    - **Player:** Never mind.

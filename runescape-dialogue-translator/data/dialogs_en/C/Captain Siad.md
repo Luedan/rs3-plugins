@@ -1,0 +1,128 @@
+# Captain Siad
+
+- **Original Wiki Page**: [Transcript:Captain Siad](https://runescape.wiki/w/Transcript%3ACaptain%20Siad)
+- **Letter**: `C`
+
+---
+
+## Dialogue Transcript
+
+
+### Talking to Captain Siad
+
+- The captain looks up from his work as you address him.
+- **Captain Siad:** {{anchor|siad-start}}What are you doing in here?
+- **Select an Option**
+  - I wanted to have a chat?
+    - **Player:** I wanted to have a chat?
+    - **Captain Siad:** You don't belong in here, get out!
+    - **Select an Option**
+      - But I just need two minutes of your time?
+        - **Player:** But I just need two minutes of your time?
+        - **Captain Siad:** Well, okay, but very quickly. I am a very busy person you know!
+        - **Select an Option**
+          - Well, er... erm, I err....{{anchor|erm}}
+            - **Player:** Well, er... erm, I err....
+            - **Captain Siad:** Come on, spit it out! Right that's it! Guards!
+            - **Guard:** {{anchor|siad-guard}}Hey, you there!
+            - Guard: Hey, you there!
+            - **Guard:** You're in some serious trouble now!
+            - Guard: You're in some serious trouble now!
+            - **Captain Siad:** What are you looking at?
+            - **Player:** Hmm, best not start a fight I suppose.
+          - Oh my, a dragon just flew straight past your window!{{anchor|dragon}}
+            - **Player:** Oh my, a dragon just flew straight past your window!
+            - **Captain Siad:** Really! Where? I don't see any dragons young [man/lady]? Now, please get out of my office, I have work to do.
+            - The Captain goes back to his work.
+      - Prepare to die!
+        - (below|prepare-to-die)
+      - All the slaves have broken free!
+        - (below|slaves-freed)
+      - Fire! Fire!
+        - (below|fire)
+      - You seem to have a lot of books!
+        - **Player:** You seem to have a lot of books!
+        - **Captain Siad:** Yes, I do. Now please get to the point?
+        - **Select an Option**
+          - How long have you been interested in books?
+            - **Player:** How long have you been interested in books?
+            - **Captain Siad:** Long enough to know when someone is stalling! Okay, that's it, get out! Guards!
+            - (continuea|siad-guard)
+          - I could get you some books!
+            - **Player:** I could get you some books!
+            - **Captain Siad:** Oh, really! Sorry, not interested!
+            - **Captain Siad:** {{RSChat|GUARDS!}}
+            - **Captain Siad:** What are you looking at?
+            - **Player:** Hmm, best not start a fight I suppose.
+  - What's it got to do with you?
+    - **Player:** What's it got to do with you?
+    - **Captain Siad:** This happens to be my office. Now explain yourself before I run you through!
+    - **Select an Option**{{anchor|siad-lonely}}
+      - I'm here to take your plans, hand them over now or I'll kill you!{{anchor|plans}}
+        - **Player:** I'm here to take your plans, hand them over now or I'll kill you!
+        - **Guard:** Guards! Guards!
+        - (continuea|siad-guard)
+      - The guard downstairs said you were lonely.
+        - **Player:** The guard downstairs said you were lonely.
+        - **Captain Siad:** Well, I most certainly am not lonely! I'm an incredibly busy man you know! Now, get to the point, what do you want?
+        - **Select an Option**
+          - Well, er... erm, I err....
+            - (above|erm)
+          - I need to service your chest.
+            - (below|service)
+      - I need to service your chest.{{anchor|service}}
+        - **Player:** I need to service your chest.
+        - **Captain Siad:** You need to what?
+        - **Player:** I need to service your chest?
+        - **Captain Siad:** There's nothing wrong with the chest, it's fine, now get out!
+        - **Select an Option**
+          - I'm here to take your plans, hand them over now or I'll kill you!
+            - (above|plans)
+          - Fire! Fire!
+            - (below|fire)
+  - Prepare to die!{{anchor|prepare-to-die}}
+    - **Player:** Prepare to die!
+    - **Captain Siad:** I'll teach you a lesson!
+    - **Captain Siad:** {{RSChat|Guards! Guards!}}
+    - (continuea|siad-guard)
+  - All the slaves have broken free!{{anchor|slaves-freed}}
+    - **Player:** All the slaves have broken free!
+    - ((Unknown condition:))
+      - The captain seems distracted with what you just said. The captain looks out of the window to see if there are any prisoners escaping.
+    - ((Otherwise:))
+      - **Captain Siad:** Don't talk rubbish, the warning siren isn't sounding. Now state your business before I have you thrown out.
+      - (above|siad-lonely)
+  - Fire! Fire!{{anchor|fire}}
+    - **Player:** Fire! Fire!
+    - **Captain Siad:** Where's the fire? I don't see any fire? Stop messing me around and state your business!
+    - **Select an Option**
+      - It's down in the lower mines, sound the alarm!
+        - **Player:** It's down in the lower mines, sound the alarm!
+        - **Captain Siad:** You go and sound the alarm, I can't see anything wrong with the mine. Have you seen the fire yourself?
+        - **Select an Option**
+          - Yes actually!
+            - **Player:** Yes actually!
+            - **Captain Siad:** Well, why didn't you raise the alarm?
+            - **Select an Option**
+              - I don't know where the alarm is.
+                - **Player:** I don't know where the alarm is.
+                - **Captain Siad:** That's the most ridiculous thing I've heard. Who are you? Where do you come from? It doesn't matter... Guards! Show this person out!
+                - (continuea|siad-guard)
+              - I was so concerned for your safety that I rushed to save you.
+                - **Player:** I was so concerned for your safety that I rushed to save you.
+                - **Captain Siad:** Well, that's very good of you. But as you can see, I am very fine and well thanks! Now, please leave so that I can get back to my work.
+            - The Captain goes back to his desk.
+          - Er, no, one of the slaves told me.
+            - **Player:** Er, no, one of the slaves told me.
+            - **Captain Siad:** Well... you can't believe them, they're all a bunch of convicts. Anyway, it doesn't look as if there is a fire down there. So I'm going to get on with my work. Please remove yourself from my office.
+            - The Captain goes back to his desk and starts studying.
+      - Oh yes, you're right, they must have put it out!
+        - **Player:** Oh yes, you're right, they must have put it out!
+        - **Captain Siad:** Good, now perhaps you can leave me in peace? After all I do have some work to do.
+        - **Select an Option**
+          - Er, yes okay then.
+            - **Player:** Er, yes okay then.
+            - **Captain Siad:** Good! Please remove yourself from my office.
+            - The Captain goes back to his desk and starts studying.
+          - Well, er... erm, I err....
+            - (above|erm)

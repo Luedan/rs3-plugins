@@ -1,0 +1,302 @@
+# Pikkupstix
+
+- **Original Wiki Page**: [Transcript:Pikkupstix](https://runescape.wiki/w/Transcript%3APikkupstix)
+- **Letter**: `P`
+
+---
+
+## Dialogue Transcript
+
+
+### Talk to
+
+- **Pikkupstix:** Hello there! Welcome to my humble abode. How can I help you?
+- [Menu]: Choose an option:
+  - [Choice]: I have a question about Summoning...
+    - ((If the player has 99 Summoning:))
+      - **Pikkupstix:** Why, I've never seen such raw summoning power before! If anyone has the right to own a skillcape of Summoning, then it's you!
+      - (continue)
+    - [Menu]: Choose an option:
+      - [Choice]: cond=If the player has 99 Summoning|Yes, please sell me a skillcape of Summoning.
+        - (Condition: If the player has a ring of charos (a) equipped:)
+          - **Pikkupstix:** I don't do this for anyone, but I've got a special offer today! Normally I require 99,000 coins for this prestigious item, but for you it's half price. Only 92,000 coins!
+          - [Menu]: Choose an option:
+            - [Choice]: 92,000 coins? That's much too expensive.
+              - **Player:** I know where to find you if I change my mind.
+            - [Choice]: I think I have the money right here, actually.
+              - (Condition: If the player has no backpack space:)
+                - **Pikkupstix:** Unfortunately all skillcapes are only available with a free hood, it's part of a skill promotion deal; buy one get one free, you know. So, you'll need to free up some backpack space before I can sell you one.
+              - (Condition: If the player does not have enough money:)
+                - **Player:** But unfortunately, I was mistaken.
+                - **Pikkupstix:** Well, come back and see me when you do.
+              - (Condition: If the player has enough money:)
+                - (receives=summoning cape and summoning hood) (removes=92,000 coins)
+                - **Pikkupstix:** Excellent! Wear that cape with pride my friend.
+            - [Choice]: cond=If the player has 120 Summoning|I've mastered this skill. Is there anything else?
+              - **Pikkupstix:** There is something...though I have kept it a secret for a very long time. It is something that can only be worn by a true master.
+              - **Pikkupstix:** Not even I can wear it - that's how hard it is to achieve.
+              - **Pikkupstix:** You say you're a master. Stand straight, let me take a look at you.
+              - **Pikkupstix:** You...really have mastered it. What an honour! It would be my pleasure to sell you a Summoning master cape.
+              - [Menu]: Buy Summoning master cape for 120,000 coins?
+                - [Choice]: Yes.
+                  - (Condition: If the player has no backpack space:)
+                    - **Pikkupstix:** You do not have enough room in your backpack. Please come back when you have some more.
+                  - (Condition: If the player does not have enough money:)
+                    - You do not have enough money to purchase this cape.
+                  - (Condition: If the player has enough money:)
+                    - (receives=summoning master cape) (removes=120,000 coins)
+                    - {{qact|Master cape music plays.}}
+                - [Choice]: No.
+                  - (end)
+      - (Condition: If the player does not have a ring of charos (a) equipped:)
+        - [Menu]: Choose an option:
+          - [Choice]: 99,000 coins? That's much too expensive.
+            - **Player:** I know where to find you if I change my mind.
+          - [Choice]: I think I have the money right here, actually.
+            - (Condition: If the player has no backpack space:)
+              - (above)
+            - (Condition: If the player does not have enough money:)
+              - (above)
+            - (Condition: If the player has enough money:)
+              - (receives=summoning cape and summoning hood) (removes=99,000 coins)
+              - **Pikkupstix:** Excellent! Wear that cape with pride my friend.
+          - [Choice]: cond=If the player has 120 summoning|I've mastered this skill. Is there anything else?
+            - (above)
+      - [Choice]: So, what's Summoning all about then?
+        - **Pikkupstix:** In general? Or did you have a specific topic in mind?
+        - [Menu]: Select an Option
+          - [Choice]: In general.
+            - **Pikkupstix:** Well, you already know about Summoning in general; otherwise, we would not be having this conversation!
+            - **Pikkupstix:** Effectively, the skill can be broken into three main parts: summoned familiars, charged items and pets.
+            - **Pikkupstix:** Summoned familiars are spiritual animals that can be called to you from the spirit plane, to serve you for a period of time.
+            - **Pikkupstix:** These animals can also perform a special move, which is specific to the species. For example, a spirit wolf can perform the Howl special move if you are holding the correct Howl scroll.
+            - **Pikkupstix:** Charged items contain summoning power, but in a stable form.
+            - **Pikkupstix:** They can be used to physically store any scrolls you have.
+            - **Pikkupstix:** Those are the main effects of Summoning.
+            - **Pikkupstix:** Are you still following me?
+            - **Player:** Yes, I think so.
+            - **Pikkupstix:** I can supply you with pouches and spirit shards, but you will have to bring your own charms and secondary ingredients.
+            - **Pikkupstix:** Many creatures drop charms when you kill them in combat. There are many different charms in the world: gold, blue, green, crimson and even some specialist ones like obsidian.
+            - **Player:** I'll be sure to keep my eyes open for them.
+            - **Pikkupstix:** The best way to raise your Summoning level is to infuse pouches.
+            - **Pikkupstix:** You will still learn a little from summoning a familiar, as well as using a scroll and transforming the summoning pouches into scrolls.
+            - **Pikkupstix:** But nothing is more potent than infusing a spirit into a Summoning pouch in the first place.
+            - **Pikkupstix:** Do you understand?
+            - **Player:** Sure!
+            - **Pikkupstix:** Good!
+            - **Pikkupstix:** Where was I?
+            - **Pikkupstix:** Ah, yes, the last part of Summoning: the pets. The more you practice the skill, the more you will comprehend the natural world around you.
+            - **Pikkupstix:** This is reflected in your increased ability to raise animals as pets. It takes a skilled summoner to be able to raise some of Gielinor's more exotic animals, such as the lizards of Karamja, or even dragons!
+            - **Pikkupstix:** Now that I've given you this overview, do you want to know about anything specific?
+            - (other)
+          - [Choice]: Tell me about Summoning familiars.
+            - **Pikkupstix:** Summoned familiars are at the very core of Summoning. Each familiar is different, and the more powerful the summoner, the more powerful the familiar they can summon.
+            - **Pikkupstix:** The animals themselves are not real, in the sense that you or I are real; they are spirits drawn from the spirit plane.
+            - **Pikkupstix:** As a result, they have powers that the animals they resemble do not.
+            - **Pikkupstix:** They cannot remain in this world indefinitely; they require a constant supply of energy to maintain their link to the spirit plane.
+            - **Pikkupstix:** This energy is drained from your Summoning skill points.
+            - **Pikkupstix:** Your level of the Summoning skill is not drained, and you can refresh your points back up to your maximum level at an obelisk whenever you wish.
+            - **Player:** So, my Summoning skill points are like food to them?
+            - **Pikkupstix:** Yes, that is an appropriate analogy.
+            - **Pikkupstix:** The more powerful the familiar, the more it must 'feed' and the more 'food' it will need to be satisfied.
+            - **Pikkupstix:** As a result, only the most powerful summoners are able to maintain a link from a familiar to the spirit plane, since they are able to provide more 'food' with each Summoning level they gain.
+            - **Player:** I'm starting to get a little hungry now.
+            - **Pikkupstix:** As you gain mastery of the skill you will be able to have familiars out for the full time they exist. And still have some points over to re-summon them afterwards, if you wish.
+            - **Pikkupstix:** This is because you are able to feed them the energy they need and have leftovers to spare!
+            - **Player:** Great!
+            - **Player:** So, what can these familiars do?
+            - **Pikkupstix:** Why not ask me to count every blade of grass on a lawn?
+            - **Pikkupstix:** The familiars each have unique abilities and even the most experienced summoner will not know them all.
+            - **Player:** Well, can you give me some hints?
+            - **Pikkupstix:** Well, some familiars are able to fight with you in combat. They will keep an eye out to see if you are fighting and will intervene, if they can.
+            - **Pikkupstix:** Other familiars will not fight, for various reasons, but they may provide bonuses in other tasks. Some will even carry your items for you, if you need them to.
+            - **Player:** Amazing!
+            - **Pikkupstix:** Would you like to know anything else about Summoning?
+            - (other)
+          - [Choice]: Tell me about special moves.
+            - **Pikkupstix:** Well, if a Summoning pouch is split apart at an obelisk, then the energy it contained will reconstitute itself - transform - into a scroll.
+            - **Pikkupstix:** This scroll can then be used to make your familiar perform its special move.
+            - **Pikkupstix:** For example, spirit wolves are able to Howl, scaring away an opponent for a short period of time.
+            - **Player:** Or longer, in the case of that giant wolpertinger.
+            - **Pikkupstix:** Indeed!
+            - **Pikkupstix:** Well, each familiar has its own special move, and you can only use scrolls on the familiar that it applies to.
+            - **Pikkupstix:** For example, a spirit wolf will only look at you oddly if you wish it to perform a dreadfowl special move.
+            - **Player:** So, what sort of special moves are there?
+            - **Pikkupstix:** The special moves are as varied as the familiars themselves.
+            - **Pikkupstix:**  A good rule of thumb is that if a familiar helps you in combat, then its special move is likely to damage attackers when you use a scroll.
+            - **Pikkupstix:** On the other hand, if a familiar is more peaceful by nature, then its special move might heal or provide means to train your other skills - that sort of thing.
+            - **Player:** Are the familiar's special moves similar to its normal abilities?
+            - **Pikkupstix:** In general, no. But some familiars' special moves can be a more powerful version of their normal ability.
+            - **Pikkupstix:** Take the spirit wolf, for example. Its special move and its normal ability are essentially the same.
+            - **Pikkupstix:** However, the special move can be used on any nearby opponent, while the normal ability only works on those opponents you are currently fighting.
+            - **Pikkupstix:** If your familiar is fighting with you, it will use its normal ability whenever it can.
+            - **Pikkupstix:** It won't however, use its special move unless you have expressly asked it to, by activating a scroll.
+            - **Player:** I see. Thanks for the information.
+            - **Pikkupstix:** Would you like to know anything else about Summoning?
+            - (other)
+          - [Choice]: Tell me about charged items.
+            - **Pikkupstix:** Charged items are very simple to create, if you have the correct Crafting level.
+            - **Pikkupstix:** If not, then you can simply buy a set of antlers or a lizard skull from me. You can take an item that can be charged, usually a headdress, and attach scrolls to them.
+            - **Pikkupstix:** The scrolls are then stored in the headdress. Aggressive combat scrolls, however, are the only ones that can be used in this way.
+            - **Player:** Why is that?
+            - **Pikkupstix:** Well, a scroll in a charged item will only be activated when it is hit with enough power.
+            - **Pikkupstix:** Since this can only happen from the impact of combat, it makes sense that only combat-based scrolls can be stored here. The activated scroll will then be sensed by your familiar, and it will defend you.
+            - **Player:** What sort of impact are we talking about here?
+            - **Pikkupstix:** Oh, nothing too serious: stabbings, explosions, arrows to the torso - that sort of thing.
+            - **Player:** What?
+            - **Pikkupstix:** Oh, come now; a strapping lad like you will barely feel it. Your opponent, however, will certainly feel the power of your retaliation!
+            - **Pikkupstix:** Anyway, one impact is not enough; it will take a series of strikes to activate the power in the charged item.
+            - **Player:** So, will this allow familiars to perform the special moves of other familiars? Or will it work if I have no familiar out?
+            - **Pikkupstix:** No. As with the normal method of instigating a special move, the correct scroll is required for the correct familiar.
+            - **Pikkupstix:** Even if some dreadfowl scroll power was hanging in the air, a spirit wolf would not be able to do anything with it.
+            - **Player:** What happens when the item runs out of charge? Do they disintegrate or something?
+            - **Pikkupstix:** Only if you've made them shoddily!
+            - **Pikkupstix:** The items should be useful for a long time. When you run out of charges, you simply need to attach more scrolls.
+            - **Player:** That's a relief.
+            - **Pikkupstix:** Would you like to know anything else about Summoning?
+            - (other)
+          - [Choice]: Tell me about pets.
+            - **Pikkupstix:** Well, these are not really an element of the skill, as such, but more like a side-effect of training.
+            - **Pikkupstix:** Essentially, the higher the Summoning level an adventurer has, the more they become in tune with nature.
+            - **Pikkupstix:** As a result, they can approach animals that would otherwise run away from them.
+            - **Pikkupstix:** This means that you will be able to befriend and raise various animals from around the world.
+            - **Player:** So, what will I need to do to raise these pets?
+            - **Pikkupstix:** Oh, most of them will be quite content to follow you around. You just have to feed them and make sure they are generally healthy.
+            - **Pikkupstix:** It is the goal of every summoner to be able to raise a dragon, yet few have been able to perform this feat.
+            - **Player:** Wow! Imagine riding around on a dragon - even fighting with it!
+            - **Pikkupstix:** That's not the right attitude at all!
+            - **Player:** What?
+            - **Pikkupstix:** When you raise a pet it becomes your responsibility - your friend.
+            - **Pikkupstix:** You can't ride into battle on your friend, or make them fight for you. These are not spiritual familiars: if they die, they die!
+            - **Player:** I didn't realise.
+            - **Pikkupstix:** Well, now you know.
+            - **Pikkupstix:** Pets do not fight for you, cast spells or have strange abilities, and you may certainly not ride around on them. They are animals you raise from birth to follow you wherever you go.
+            - **Pikkupstix:** Remember that and take good care of them.
+            - **Player:** I will!
+            - **Pikkupstix:** Would you like to know anything else about Summoning?
+            - (other)
+      - [Choice]: Can I buy some Summoning supplies?
+        - **Player:** Can I buy some summoning supplies, please?
+        - **Pikkupstix:** If you like! It's good to see you training.
+        - (opens=Pikkupstix's Summoning Shop)
+      - [Choice]: I've noticed there are a couple of versions of each skillcape.
+        - **Pikkupstix:** Yes! We, the skill masters, have crafted new versions of all skillcapes! We felt like it was time for a change.
+        - (Condition: If you use the old model:)
+          - **Pikkupstix:** It looks like you're currently using the old model for your Summoning skillcape. Would you like to change to the newer one?
+          - (continue)
+        - (Condition: If you use the new model:)
+          - **Pikkupstix:** You can still choose to wear the old model skillcape if you want. Would you like to change which model you are currently using?
+          - (continue)
+        - [Menu]: Select an Option
+          - [Choice]: Yes, I would like to wear the [new/old] version of the skillcape.
+            - **Pikkupstix:** Would you like to wear the [old/newer] model for just this cape, or for the Quest Cape and all of the skillcapes you own?
+            - [Menu]: Select an Option
+              - [Choice]: I would just like to change the summoning skillcape.
+                - **Pikkupstix:** No problem, you will now use the [older/newer] model for your summoning skillcape.
+              - [Choice]: I would like to change all my skillcapes.
+                - **Pikkupstix:** No problem, you will now use the [older/newer] model for all of your skillcapes!
+              - [Choice]: I've changed my mind!
+                - (end)
+          - [Choice]: No, thank you.
+            - **Pikkupstix:** Great! I'm glad you're still enjoying the [old/new] version!
+            - (Condition: If the player uses the new model for any other skillcape:)
+              - **Pikkupstix:** If you want, I can make it so you use the old model for all of the skillcapes you own.
+              - [Menu]: Select an Option
+                - [Choice]: Ok, I'd like to wear the old version for all my skillcapes.
+                  - **Pikkupstix:** Great, you will now use the old model for all of your skillcapes!
+                - [Choice]: No, thanks.
+                  - (end)
+  - [Choice]: cond=After Wolf Whistle|I need to ask you something about the quest...
+    - **Pikkupstix:** Well done! I heard the news! You've saved my assistants from a fate worse than death!
+    - **Player:** Yes, that giant wolpertinger really made the difference.
+    - **Player:** Say, do you have the parts needed to summon it again? I'm sure it would come in handy.
+    - **Pikkupstix:** No, I am afraid not. The pieces you used were rare...unique in some cases.
+    - **Pikkupstix:** But in the end they were all used up for a good cause. And it did take a hero like you to bring it about.
+    - **Player:** Darn. Oh well, at least Bowloftrix is safe...
+    - **Player:** ...for now.
+    - **Pikkupstix:** What was that?
+    - **Player:** Nothing.
+    - **Pikkupstix:** Anyway, once they are rested, I'll be sending those two off to gather some of those highly poisonous weeds that I need for my research.
+    - **Pikkupstix:** They grow in a pretty dangerous place in the wilderness. Tell me, would you like to be my assistant as well?
+    - **Player:** I have to go! Look at the time! My oven is on and I need to feed the cat!
+    - **Pikkupstix:** Strange...that's what most people say when I ask them that.
+    - **Pikkupstix:** Is there anything else I can help you with?
+    - (other)
+  - [Choice]: Talk about Pikkenmix.
+    - **Player:** I'm here to talk about the obelisks that Pikkenmix is investigating.
+    - **Pikkupstix:** Ah, my apprentice, Pikkenmix. He's coming along quite nicely, learning the art of familiarisation.
+    - [Menu]: Select an Option
+      - [Choice]: So where's Pikkenmix?
+        - **Player:** So where's Pikkenmix?
+        - (Condition: If Familiarisation is not active:)
+          - **Pikkupstix:** I expect he's off somewhere relaxing. He's been quite busy lately.
+          - **Player:** Bye!
+        - (Condition: If Familiarisation is active:)
+          - **Pikkupstix:** He's off investigating another of those obelisk phenomena.
+          - [Menu]: Select an Option
+            - [Choice]: Can you tell me where?
+              - **Player:** Can you tell me where?
+              - **Pikkupstix:** I can try...
+              - Pikkupstix enters a trance...
+              - **Pikkupstix:** ''(See Familiarisation#Obelisk locations for a full list of dialogue.)
+              - [Menu]: Select an Option
+                - [Choice]: What does that mean?
+                  - **Player:** What does that mean?
+                  - **Pikkupstix:** Sorry, I don't really know what happens when I have those visions. I... didn't do anything embarassing did I?
+                  - **Player:** Not entirely.
+                  - **Player:** Bye!
+                - [Choice]: Thanks, that was helpful.
+                  - **Player:** Thanks, that was helpful.
+                  - **Pikkupstix:** You're welcome.
+                  - **Player:** Bye!
+            - [Choice]: Okay, thanks.
+              - **Player:** Okay, thanks.
+              - **Player:** Bye!
+      - [Choice]: What's it all about?
+        - **Player:** What's it all about?
+        - **Pikkupstix:** Well, we druids have been gathering raw shards from the spirit plane for a while now. Recently, however, the mini obelisks have been starting to sparkle and familiars have been stopping us returning with shards.
+        - **Pikkupstix:** If you could help us out, that would be great.
+        - **Player:** How can I help?
+        - (Condition: If Familiarisation is active:)
+          - **Pikkupstix:** Just speak to Pikkenmix; he'll be investigating one of the phenomena.
+          - (continue)
+        - (Condition: If Familiarisation is not active:)
+          - **Pikkupstix:** You'll have to wait until the phenomena next occurs. Our studies seem to indicate they happen once every couple of hours.
+          - (continue)
+        - **Player:** Okay.
+        - **Player:** Bye!
+  - [Choice]: cond=After Wolf Whistle|You really seem to have had some problems with your assistants.
+    - **Pikkupstix:** You are right, it has been pretty hard since the war started.
+    - **Player:** Well what's happened? Have the trolls been killing them, or has it all been down to accidents?
+    - **Pikkupstix:** It is a mixture of both, really. To be honest, I have always found that my assistants have had a lot of eagerness and a lot less common sense for self-preservation.
+    - **Pikkupstix:** Now, let me see...You already know about Stikklebrix...who else was there?
+    - **Pikkupstix:** There was poor Lunatrix, who went mad. He tried to commune with some elder spirits, and they were not happy.
+    - **Pikkupstix:** Last I saw of him, he went running out of the door with his pants on his head...
+    - **Pikkupstix:** Then there was Ashtrix. He managed to cut his own hand off, the poor fool.
+    - **Pikkupstix:** It would have been all right, except he then managed to wedge a hacksaw in the stump, and in his delirium wouldn't let anyone help him.
+    - **Pikkupstix:** Then there was Spartrix, who was captured by the Black Knights and taken as a slave.
+    - **Pikkupstix:** I hear that he tried to lead a slave rebellion. Which, while noble in itself, is not really the sort of thing a 5-foot, sickly, bookish druid should do.
+    - **Pikkupstix:** Especially when unarmed and facing evil knights in full plate mail.
+    - **Pikkupstix:** Let's see...there was Beezeltrix and the smoke devil; we literally lost Felitrix; those trolls took the twins when they were healing soldiers on the front line...
+    - **Pikkupstix:** And the less said about Hastrix, the better!
+    - **Player:** Wow...you really haven't had much luck with assistants.
+    - **Pikkupstix:** It has been one heck of a busy week, I can tell you.
+    - **Pikkupstix:** Now, is there anything else you need?
+    - (previous)
+
+### Making a Summoning pouch during the 25th Anniversary celebrations task
+
+- {{RSFontAchievement|That's the Spirit|Create a Summoning pouch using the Taverley summoning obelisk.}}
+- ((Shown in a task completion pop-up:))
+  - {{Colour|#F0BE79|&nbsp;25TH ANNIVERSARY TASK&nbsp;|#181513}}
+  - That's the Spirit
+  - Create a Summoning pouch using the Taverley summoning obelisk.
+  - (continue)
+- **Pikkupstix:** Hold on, that pouch looks a little bit...familiar!
+- **Pikkupstix:** Aha, just a bit of druid humour.
+- **Player:** I thought druids were meant to live in harmony with nature, not cause it physical pain by making terrible puns.
+- **Pikkupstix:** Everything is a balance. Take the humble pun, for instance: if it is not bad, then it is not good!
+- **Player:** ...
+- **Pikkupstix:** Everyone's a critic. That one would have had the spirit wolves...howling! Get it?
+- (Condition: If all the tasks have been completed:)
+  - **Player:** Looks like I've completed everything. I'd better go and see Hans about that reward!

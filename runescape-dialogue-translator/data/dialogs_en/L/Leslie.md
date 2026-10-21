@@ -1,0 +1,639 @@
+# Leslie
+
+- **Original Wiki Page**: [Transcript:Leslie](https://runescape.wiki/w/Transcript%3ALeslie)
+- **Letter**: `L`
+
+---
+
+## Dialogue Transcript
+
+
+### Talk to
+
+
+#### Prior to the end of the event
+
+- (Condition: Only on the first time:)
+  - **{{#vardefineecho:leslie|Leslie {{Colour|#cccf3a|th}}{{Colour|#777856|e B}}{{Colour|#cccf3a|ee}}{{Colour|#777856|-ri}}{{Colour|#cccf3a|ll}}{{Colour|#777856|ia}}{{Colour|#cccf3a|nt}}}}:** Hello, hello, hello!
+  - **{{#var:leslie}}:** Want some mead?
+  - **Player:** Um...
+  - **{{#var:leslie}}:** Took too long! Looks like I'm having another!
+  - **Player:** Is that a good idea?
+  - **{{#var:leslie}}:** It sure is!
+  - **Player:** Is everything okay?
+  - **{{#var:leslie}}:** Yeah!
+  - **{{#var:leslie}}:** Well, no.
+  - **{{#var:leslie}}:** I just can't do it!
+  - **{{#var:leslie}}:** I've spent my life brewing mead!
+  - **{{#var:leslie}}:** I can make a very good batch but it's never perfect.
+  - **Player:** I'm sure it tastes fine!
+  - **{{#var:leslie}}:** Fine?
+  - **{{#var:leslie}}:** FINE?
+  - **{{#var:leslie}}:** HOW DARE YOU!
+  - **{{#var:leslie}}:** No! I'm sorry.
+  - **{{#var:leslie}}:** It's just so tiring to fail over and over again.
+  - **Player:** Is there anything I can do to help?
+  - **{{#var:leslie}}:** You know what, maybe that's what I'm missing?
+  - **{{#var:leslie}}:** An assistant!
+  - **Player:** I mean I wasn't really offering to be your assistant...
+  - **{{#var:leslie}}:** The job is yours!
+  - **{{#var:leslie}}:** You've made me one happy brewer!
+  - **Player:** Fine. I guess I'm your assistant.
+  - (continue)
+- (Condition: After the first time:)
+  - **{{#var:leslie}}:** Hello, hello, hello.
+  - (continue)
+- [Menu]: Choose an option:
+  - [Choice]: What is going on?
+    - **{{#var:leslie}}:** Well, my lovely assistant, we're trying to make the best mead on Gielinor!
+    - **{{#var:leslie}}:** I've been trying for years. It always tastes great, but never perfect.
+    - **{{#var:leslie}}:** I collect my own honey for the mead. I love bees, you see.
+    - **{{#var:leslie}}:** They're awesome! From their fuzzy little coats, to their colourful stripy patterns, to the sweet, sweet honey that makes mead taste so good!
+    - **{{#var:leslie}}:** The issue is, I think the honey is the problem.
+    - **{{#var:leslie}}:** It's just not sweet enough and there's not enough depth in the flavour.
+    - **{{#var:leslie}}:** I've tried everything to change that. Different foods, different bees from different locations.
+    - **{{#var:leslie}}:** All of it changed the flavour, but none of it was right.
+    - **{{#var:leslie}}:** So, using my knowledge of bees, I started a breeding program.
+    - **Player:** A what?
+    - **{{#var:leslie}}:** A breeding program...
+    - **{{#var:leslie}}:** Using knowledge I gained while training with the druids.
+    - **Player:** Wait, Druids? You don't look like a druid.
+    - **{{#var:leslie}}:** How about you stop interrupting me?
+    - **Player:** Sorry!
+    - **{{#var:leslie}}:** But yes, I trained with the druids. No, I never graduated.
+    - **{{#var:leslie}}:** It turns out obsessions with bees and mead don't make for the best student.
+    - **{{#var:leslie}}:** Anyway...
+    - **{{#var:leslie}}:** I started a breeding program to selectively breed all of the ideal traits into a single, new type of bee.
+    - **{{#var:leslie}}:** They should now be perfect but they're useless.
+    - **{{#var:leslie}}:** Instead of making great honey, they just got massive.
+    - **{{#var:leslie}}:** Just look at these beasts!
+    - Leslie looks around at the bees flying nearby.
+    - **{{#var:leslie}}:** They're just so... lazy! They don't produce any honey.
+    - **{{#var:leslie}}:** Strangely though, since they've started breeding themselves and spreading across Gielinor, there's Nectar everywhere.
+    - **{{#var:leslie}}:** That's where you come in, my little assistant, or maybe I should call you my Nectar collector?
+    - **{{#var:leslie}}:** No, I don't like that for you. It sounds too good.
+    - **Player:** ...
+    - (previous)
+  - [Choice]: What rewards can I get?
+    - **{{#var:leslie}}:** It's always the same. Never happy to just help for nothing...
+    - **Player:** You're the one who gave me a job title!
+    - **{{#var:leslie}}:** True...
+    - **{{#var:leslie}}:** Then yes, my little assistant. I will reward you for your help!
+    - **{{#var:leslie}}:** You can have my clothes.
+    - **Player:** Really? But if you give me those, what will you wear?
+    - **{{#var:leslie}}:** Well, not these exact clothes. I have more just like them.
+    - **{{#var:leslie}}:** It's the perfect attraction for my bees.
+    - **{{#var:leslie}}:** Not only that, if you work hard enough, you can take one of my bees.
+    - **Player:** Wait, seriously?
+    - **{{#var:leslie}}:** Sure! They're breeding like crazy. I don't know what else to do with them.
+    - **Player:** That's awesome! I'm in!
+    - **{{#var:leslie}}:** There's more. If you help me create the greatest mead Gielinor has ever seen, you can have my backpack too.
+    - **Player:** Sweet!
+    - **{{#var:leslie}}:** Oh, I also have some mystery boxes lying around I never got around to opening. Don't ask what they contain because I don't know; that's what makes it a mystery, but I'm sure they're worth your while.
+    - **Player:** Nice!
+    - (previous)
+  - [Choice]: How do I gather Nectar?
+    - **{{#var:leslie}}:** It's very simple. I don't know why but for some reason, the bees are causing Nectar to appear everywhere and it seems to be attracted to everything.
+    - **{{#var:leslie}}:** If you're doing any of that skilling and killing you adventurers seem fond of, the Nectar will be attracted to you.
+    - **{{#var:leslie}}:** I may have some tasks for you as time goes on which will help bring in more Nectar. If you're interested, just ask me.
+    - **{{#var:leslie}}:** Bring the Nectar back here and I'll happily reward you for it.
+    - (previous)
+  - [Choice]: cond=Before having handed in 1,500 nectar:|Why are so many bees around?
+    - (Condition: Only on the first time:)
+      - **{{#var:leslie}}:** Ten of my beautiful bees have gone off exploring.
+      - **{{#var:leslie}}:** It's good for them to have some independence, but it does always worry me.
+      - **{{#var:leslie}}:** Could you do me a favour?
+      - **Player:** Well, I'm a bit bu-
+      - **{{#var:leslie}}:** Great, thanks!
+      - **Player:** ...
+      - **{{#var:leslie}}:** I don't need you to bring them back, but if you could find them and let me know where they are, that'd be great.
+      - **{{#var:leslie}}:** You'll likely find them near lodestones. They seem to be attracted to them for some reason.
+      - **{{#var:leslie}}:** They're always covered in Nectar, feel free to take it from them as payment for the trouble.
+      - (Condition: Without a free space in the backpack:)
+        - **{{#var:leslie}}:** If you make some space in your backpack, I can give you a list to help keep track of the bees.
+        - (continue)
+      - (Condition: With a free space in the backpack:)
+        - **{{#var:leslie}}:** Here's a list to help keep track.
+        - (receives=a bee list)
+        - (continue)
+      - **Player:** Okay. I'll keep an eye out for them.
+      - (previous)
+    - (Condition: After the first time:)
+      - (Condition: Without having spotted all the bees:)
+        - **{{#var:leslie}}:** How're you getting on with finding all of my bees?
+        - (Condition: With no bees spotted:)
+          - **Player:** I've not found any yet.
+          - **{{#var:leslie}}:** They're not hard to find... They're massive.
+          - (continue)
+        - (Condition: With some bees spotted:)
+          - **Player:** I've found some. I'll keep looking.
+          - **{{#var:leslie}}:** Great!
+          - (continue)
+        - (Condition: Without a bee list:)
+          - **{{#var:leslie}}:** You seem to have misplaced your bee spotting list.
+          - [Menu]: Do you want a bee spotting list?
+            - [Choice]: Yes.
+              - (Condition: Without a free space in the backpack:)
+                - **{{#var:leslie}}:** If you make some space in your backpack, I can give you a list to help keep track of the bees.
+                - (continue)
+              - (Condition: With a free space in the backpack:)
+                - **{{#var:leslie}}:** Here's a list to help keep track.
+                - (receives=a bee list)
+                - (continue)
+              - **{{#var:leslie}}:** Thanks!
+              - (continue)
+            - [Choice]: No.
+              - (continue)
+        - (previous)
+      - (Condition: Having spotted all the bees:)
+        - (Condition: With a bee list:)
+          - (removes=bee list)
+          - (continue)
+        - **{{#var:leslie}}:** You found all my bees. Thanks!
+        - (previous)
+  - [Choice]: cond=After having handed in 1,500 nectar:|Talk about tasks.
+    - (Condition: Before having received the mead delivery list:)
+      - **{{#var:leslie}}:** Using the Nectar you've been giving me, I've been able to actually get the bees to create some honey.
+      - **{{#var:leslie}}:** I've brewed a batch of mead from it and it may just be my best yet.
+      - **{{#var:leslie}}:** I know it's not perfect but I'd be interested in the opinions of some of the finest bartenders I know.
+      - **{{#var:leslie}}:** Please deliver one keg of mead to each pub on my list.
+      - **{{#var:leslie}}:** This has to be fresh, so it needs to be taken right away. It can't be banked, it needs to be delivered cold.
+      - **{{#var:leslie}}:** Are you able to help now?
+      - [Menu]: Help now?
+        - [Choice]: Yes.
+          - (Condition: Without two free spaces in the backpack:)
+            - **{{#var:leslie}}:** These kegs aren't small. Make some space so I can hand them over.
+            - [You need 2 free spaces in your backpack to hold the delivery list and the kegs of mead.]
+          - (Condition: With two free spaces in the backpack:)
+            - (receives=five kegs of mead and a mead delivery list)
+            - **{{#var:leslie}}:** Fantastic!
+            - **{{#var:leslie}}:** Deliver these to the Blue Moon Inn, the Jolly Boar Inn, the Rusty Anchor, the Rising Sun and the Pick and Lute.
+            - **{{#var:leslie}}:** Please deliver one keg of mead to each pub on my list.
+        - [Choice]: No.
+          - **{{#var:leslie}}:** You're not very helpful, are you?
+          - **{{#var:leslie}}:** Stop by again if you're happy to help. You'll get some Nectar for your troubles.
+          - **{{#var:leslie}}:** Please deliver one keg of mead to each pub on my list.
+    - (Condition: After having received the mead delivery list:)
+      - (Condition: Before making all the deliveries:)
+        - **{{#var:leslie}}:** How're you getting on?
+        - (Condition: Before making any deliveries:)
+          - **Player:** Well, I've not actually made a start yet.
+          - **{{#var:leslie}}:** Get a move on!
+          - (continue)
+        - (Condition: After making some of the deliveries:)
+          - **Player:** I've made a start.
+          - **{{#var:leslie}}:** Great! Please get them delivered as soon as possible!
+          - (continue)
+        - (Condition: Without the mail delivery list:)
+          - **Player:** I seem to have misplaced the delivery list.
+          - (Condition: Without free space in the backpack:)
+            - **{{#var:leslie}}:** Make some space in your backpack and I'll write you a new one!
+          - (Condition: With free space in the backpack:)
+            - **{{#var:leslie}}:** You're not a very good assistant, are you?
+            - **{{#var:leslie}}:** Here!
+            - (receives=mead delivery list)
+            - [Leslie hands over the list.]
+            - (continue)
+        - (Condition: Without the kegs of mead:)
+          - **Player:** I've lost some of the mead kegs.
+          - **{{#var:leslie}}:** Really?
+          - **Player:** Um... Yes.
+          - (Condition: Without free space in the backpack:)
+            - **{{#var:leslie}}:** Make some space in your backpack and I'll give you some more!
+          - (Condition: With free space in the backpack:)
+            - **{{#var:leslie}}:** Useless... Here we go!
+            - (receives=missing kegs of mead)
+      - (Condition: After making all the deliveries:)
+        - (Condition: First time:)
+          - **Player:** I've delivered all of the kegs.
+          - **{{#var:leslie}}:** Faaaantassstic...
+          - **Player:** Are you okay?
+          - **{{#var:leslie}}:** Yep! Mead is just sooooo good!
+          - **{{#var:leslie}}:** Anyway, what did Tostig think?
+          - **Player:** So out of all five pubs-
+          - **{{#var:leslie}}:** Nooo... I don't care about the others. What did Tostig think?
+          - **Player:** If you don't care, why did you send me?
+          - **{{#var:leslie}}:** Thought it would be funny!
+          - **{{#var:leslie}}:** And you know what? It was very funny!
+          - **Player:** ...
+          - **{{#var:leslie}}:** TOSTIG, what did he think?
+          - **Player:** He thought it was great, though he felt the flavour was a bit lacking.
+          - **Player:** He suggested using less water during brewing, and feeding the bees something with a richer flavour to help improve their honey.
+          - **{{#var:leslie}}:** Hmmm...
+          - (Condition: If the player has not already handed in 5,000 nectar:)
+            - **{{#var:leslie}}:** I think we can do that. I'll need to do some research. Come back soon as I think I'll need some help with that.
+            - [Come back after handing in 5000 Nectar.]
+            - (Condition: With mead delivery list:)
+              - (removes=mead delivery list)
+          - (Condition: If the player has already handed in 5,000 nectar:)
+            - **{{#var:leslie}}:** Give me one moment. I just need to do a bit of research on what to try and feed them to enhance the flavour.
+            - {{Qact|Screen fades out and back in.}}
+            - (Condition: With mead delivery list:)
+              - (removes=mead delivery list)
+              - (continue|Second-task)
+        - (Condition: Afterwards:)
+          - (Condition: Before handing in 5,000 nectar:)
+            - **{{#var:leslie}}:** Thanks for delivering those kegs. I think we're on to a winner with Tostig's suggestions.
+            - **{{#var:leslie}}:** I'm still not certain about how we address the suggestions but I'm working on it. Come back soon.
+            - [Come back after handing in 5000 Nectar.]
+          - (Condition: After handing in 5,000 nectar:)
+            - (Condition: First time:)
+              - **{{#var:leslie}}:** Thanks for delivering those kegs. I think we're on to a winner with Tostig's suggestions.
+              - **{{#var:leslie}}:** Okay, research done. We're going to make some super rich food for the bees.
+              - **Player:** We?
+              - **{{#var:leslie}}:** Sorry, I'll rephrase that.
+              - **{{#var:leslie}}:** You're going to make some super rich food for the bees.
+              - **Player:** Of course I am... So, how do I do that?
+              - **{{#var:leslie}}:** I've got a list of ingredients I need you to get.
+              - **{{#var:leslie}}:** Collect everything here and then take it to the cook in Lumbridge Castle.
+              - **{{#var:leslie}}:** He'll then be able to make it into an extremely rich mush which I can then feed to the bees.
+              - **Player:** Okay, sounds simple.
+              - **{{#var:leslie}}:** Super simple!
+              - (Condition: Without free space in the backpack:)
+                - **{{#var:leslie}}:** Make some space in your backpack and I'll hand over the list.
+              - (Condition: With free space in the backpack:)
+                - **{{#var:leslie}}:** Here's the list!
+                - (receives=an ingredient list)
+            - (Condition: Afterwards before obtaining rich mush:)
+              - **{{#var:leslie}}:** How are you getting on collecting all the ingredients?
+              - (Condition: Without the ingredient list:)
+                - **Player:** I need a copy of the ingredient list, please.
+                - (Condition: Without free space in the backpack:)
+                  - **{{#var:leslie}}:** Make some space in your backpack and I'll hand over the list.
+                - (Condition: With free space in the backpack:)
+                  - **{{#var:leslie}}:** Why am I not surprised... Here we go.
+                  - (receives=an ingredient list)
+              - (Condition: With the ingredient list:)
+                - **Player:** I'm going to collect everything now.
+                - **{{#var:leslie}}:** Great. Once you have all the ingredients, take them to the cook in Lumbridge Castle.
+            - (Condition: After obtaining rich mush:)
+              - (Condition: Before handing in rich mush:)
+                - (Condition: Without rich mush:)
+                  - **{{#var:leslie}}:** Too lazy to bring the rich mush back to me yourself then?
+                  - **{{#var:leslie}}:** It's just been delivered by the Cook, it smells FANTASTIC!
+                  - (continue)
+                - (Condition: With rich mush:)
+                  - (removes=rich mush)
+                  - **{{#var:leslie}}:** That mush, it smells FANTASTIC!
+                  - (continue)
+                - (Condition: After collecting only woad leaves:)
+                  - **Player:** Good!
+                  - **{{#var:leslie}}:** Are you not frustrated with me at all?
+                  - **Player:** Why would I be?
+                  - **{{#var:leslie}}:** Because of the ingredient list?
+                  - **Player:** Nope. I got a heads up. I only collected the woad leaves.
+                  - **{{#var:leslie}}:** What! Who told you?
+                  - **{{#var:leslie}}:** Killjoy...
+                  - (continue)
+                - (Condition: After collecting more items than woad leaves:)
+                  - **Player:** What, the rich mush made only out of woad leaves?
+                  - **{{#var:leslie}}:** Hahaha!
+                  - **Player:** Why di-
+                  - **{{#var:leslie}}:** Hahahaha!
+                  - **Player:** Sto-
+                  - **{{#var:leslie}}:** Hahahaha!
+                  - **Player:** ...
+                  - **Player:** Why? Why make me collect all of that when it wasn't even needed?
+                  - **{{#var:leslie}}:** Hahaha!
+                  - **{{#var:leslie}}:** Because it's really funny!
+                  - **Player:** It's really not.
+                  - **{{#var:leslie}}:** It really, really is.
+                  - **{{#var:leslie}}:** Anyway... Thanks.
+                  - **Player:** ...
+                  - **Player:** No problem.
+                  - (continue)
+                - (Condition: If the player has not already handed in 10,000 nectar:)
+                  - **{{#var:leslie}}:** Anyway, I'm going to feed the bees this shortly. Pop back soon, I'm sure I'll have more work for you to do.
+                  - [Come back after handing in 10000 Nectar.]
+                  - (Condition: With ingredient list:)
+                    - (removes=ingredient list)
+                - (Condition: If the player has already handed in 10,000 nectar:)
+                  - **{{#var:leslie}}:** I'm going to go and feed the bees. Wait here for one second.
+                  - {{Qact|Screen fades out and back in.}}
+                  - (continue|Third-task)
+              - (Condition: After handing in rich mush:)
+                - (Condition: Before handing in 10,000 nectar:)
+                  - **{{#var:leslie}}:** Thanks for getting me that rich mush. I don't need anything else right now but do come back later.
+                  - [Come back after handing in 10000 Nectar.]
+                - (Condition: After handing in 10,000 nectar:)
+                  - (Condition: First time:)
+                    - **{{#var:leslie}}:** They won't eat it!
+                    - **Player:** Who won't eat what?
+                    - **{{#var:leslie}}:** The bees! They won't eat that lovely rich mush I made for them.
+                    - **Player:** I'm not surprised. It smells good but it does look disgusting.
+                    - **{{#var:leslie}}:** I don't know how to fix it...
+                    - **{{#var:leslie}}:** I've been nice to them. I've tried stroking their bellies. NOTHING!
+                    - **Player:** Can I help at all?
+                    - **{{#var:leslie}}:** Hmmm... maybe you can.
+                    - **{{#var:leslie}}:** Yes!
+                    - **{{#var:leslie}}:** There was a book I think could help called: The Art of Animal Consumption.
+                    - **{{#var:leslie}}:** The druids would never let me near the book as there's only one known copy and apparently I couldn't be trusted.
+                    - **{{#var:leslie}}:** I only ruined a few books by spilling honey and mead on them.
+                    - **{{#var:leslie}}:** The copy I know of can be found in Ivy Sophista's house in Taverley.
+                    - **{{#var:leslie}}:** There's no chance she'll let you take it. If you could distract her somehow, you could probably just take it right off the shelf.
+                    - **Player:** I'm not too sure how I feel about stealing a book from the {{Sic|Druids}}.
+                    - **{{#var:leslie}}:** Don't worry, I'll return it when I'm done. Probably.
+                    - **Player:** Hmmm...
+                    - **Player:** Okay, fine. I'll get the book.
+                    - **{{#var:leslie}}:** Yay!
+                  - (Condition: Afterwards before completing the task:)
+                    - (Condition: Without the art of animal consumption:)
+                      - **{{#var:leslie}}:** Do you have my book yet?
+                      - **Player:** Your what?
+                      - **{{#var:leslie}}:** The book I need... From Ivy Sophista's house in Taverley.
+                      - **Player:** Oh yeah. I'm going, I'm going.
+                    - (Condition: With the art of animal consumption:)
+                      - **{{#var:leslie}}:** You actually have the book!
+                      - **{{#var:leslie}}:** I can't believe you managed it.
+                      - **Player:** It really wasn't hard.
+                      - **{{#var:leslie}}:** Well, thank you!
+                      - (removes=the art of animal consumption) (receives=250 nectar)
+                      - (see|nectar)
+                      - ((Shown in a pop-up:))
+                        - {{Pop-up|You find 250 x Nectar as you hand over the book.|colour=#00FF00}}
+                        - (continue)
+                      - **{{#var:leslie}}:** Oh yeah, there's no chance I'll be returning this book.
+                      - **Player:** What?
+                      - **{{#var:leslie}}:** As soon as I have what I need, it's going to the bottom of the River Lum.
+                      - **Player:** You can't be serious?
+                      - **Player:** It's no surprise the {{Sic|Druids}} kicked you out!
+                      - **{{#var:leslie}}:** That wasn't very nice.
+                      - (Condition: If the player has not already handed in 15,000 nectars:)
+                        - **{{#var:leslie}}:** Anyway, thanks! I'd better get reading. Come back soon!
+                        - [Come back after handing in 15000 Nectar.]
+                      - (Condition: If the player has not already handed in 15,000 nectars:)
+                        - **{{#var:leslie}}:** Anyway, thanks! Give me a minute to quickly read through this.
+                        - {{Qact|Screen fades out and back in.}}
+                        - (continue|Fourth-task)
+                  - (Condition: After completing the task:)
+                    - (Condition: Before handing in 15,000 nectar:)
+                      - **{{#var:leslie}}:** Thanks for the book!
+                      - **{{#var:leslie}}:** {{Sic|I'm still not sure the best way to get them to eat this food yet.}} Come check back soon though.
+                      - [Come back after handing in 15000 Nectar.]
+                    - (Condition: After handing in 15,000 nectar:)
+                      - (Condition: First time:)
+                        - **{{#var:leslie}}:** I know what I need to do to get them to eat the food.
+                        - **Player:** Then why do you look so sad?
+                        - **{{#var:leslie}}:** The book says that they're too relaxed. They won't try anything new.
+                        - **{{#var:leslie}}:** It's nonsense! I may tuck them into bed at night and read them stories but I only give them one massage a day.
+                        - **Player:** I mean...that does sound a little bit over the top.
+                        - **{{#var:leslie}}:** It's not! They're my babies.
+                        - **Player:** What's more important? The mead or the bees?
+                        - **{{#var:leslie}}:** Both!
+                        - **Player:** Sounds to me like you need to pick one or the other.
+                        - **{{#var:leslie}}:** I have to know if this works!
+                        - **{{#var:leslie}}:** In the name of mead, I'm going to do it. After we've done all of this, I need to know if this will work.
+                        - **{{#var:leslie}}:** I can apologise to them afterwards!
+                        - **Player:** So what are you going to do?
+                        - **{{#var:leslie}}:** I'm going to have to be mean to them.
+                        - **{{#var:leslie}}:** I want your help though, otherwise I'll not be able to go through with it.
+                        - **{{#var:leslie}}:** If you start the conversation with the bees then I think I'll be able to do it.
+                        - **{{#var:leslie}}:** Go and talk with Bee-yonce, Bee Marley and Steve and then I'll upset them.
+                        - **{{#var:leslie}}:** They should be here somewhere, they never go far.
+                        - **Player:** Okay! Let's do it.
+                      - (Condition: Afterwards:)
+                        - (Condition: Before talking to the three bees:)
+                          - **{{#var:leslie}}:** We need to upset my bees. I don't want to do it either but we need to.
+                          - **Player:** I never said I didn't want to do it.
+                          - **{{#var:leslie}}:** Please just go and talk with Bee-yonce, Bee Marley and Steve and then I'll upset them.
+                        - (Condition: After talking to the three bees:)
+                          - (Condition: First time:)
+                            - **{{#var:leslie}}:** That was one of the hardest things I've ever had to do.
+                            - (Condition: If the player has not already handed in 20,000 nectar:)
+                              - **{{#var:leslie}}:** Come back soon and hopefully they'll have eaten the food.
+                              - [Come back after handing in 20000 Nectar.]
+                            - (Condition: If the player has already handed in 20,000 nectar:)
+                              - **{{#var:leslie}}:** Now to wait and see if that worked.
+                              - {{Qact|Screen fades out and back in.}}
+                              - (continue|Fifth-task)
+                          - (Condition: Afterwards:)
+                            - (Condition: Before handing in 20,000 nectar:)
+                              - **{{#var:leslie}}:** My bees are just so sad. This is horrible. I hate being rude to them.
+                              - **{{#var:leslie}}:** I'm not sure this is going to be worth it...
+                              - **{{#var:leslie}}:** I don't need anything else from you just yet. Come back soon.
+                              - [Come back after handing in 20000 Nectar.]
+                            - (Condition: After handing in 20,000 nectar:)
+                              - (Condition: First time:)
+                                - **{{#var:leslie}}:** I've done it! I've actually done it! The perfect mead!
+                                - **Player:** I, you mean we?
+                                - **{{#var:leslie}}:** No, I!
+                                - **Player:** Okay...
+                                - **{{#var:leslie}}:** So, do you want to try it?
+                                - **Player:** After all this, of course!
+                                - {{Qact|The player drinks the mead.}}
+                                - **Player:** That's actually really good!
+                                - **{{#var:leslie}}:** It's far better than really good... it's perfect.
+                                - **Player:** For someone who claims to have just made the perfect mead, you don't seem very happy.
+                                - **{{#var:leslie}}:** How can I possibly be happy?
+                                - **{{#var:leslie}}:** The mead is great, yes, but you've destroyed my relationships with my bees.
+                                - **Player:** Me?
+                                - **{{#var:leslie}}:** Yes, you! It wasn't worth it...
+                                - **{{#var:leslie}}:** I'm never making this mead again!
+                                - **{{#var:leslie}}:** I should never have picked the mead over the bees.
+                                - **Player:** I'm sure you cou-
+                                - **{{#var:leslie}}:** Shhh... I'm going on a journey with myself here. I don't need your help.
+                                - **Player:** ...
+                                - **{{#var:leslie}}:** It can't be too late.
+                                - **{{#var:leslie}}:** I'm going to win them back!
+                                - **{{#var:leslie}}:** Yes! Player, {{Sic|You're}} fired!
+                                - **Player:** Fired?
+                                - **{{#var:leslie}}:** Yes, I'm going to win them back. I don't need, or want, your help anymore.
+                                - Congratulations! You've unlocked: Meadweaver Backpack. Your new item(s) can be found in the Customisations Interface.
+                                - (pop-up)
+                                  - {{Pop-up|Congratulations! You've unlocked: Meadweaver Backpack. Your new item(s) can be found in the Customisations Interface.|colour=#00FF00}}
+                                  - (continue)
+                                - **{{#var:leslie}}:** Here! As agreed, here's my mead backpack.
+                              - (Condition: Second time:)
+                                - **Player:** So, what now?
+                                - **{{#var:leslie}}:** I'm well on my way to making these bees love me again, no thanks to you.
+                                - **Player:** I did everything you asked.
+                                - **{{#var:leslie}}:** Evidently not very well.
+                                - **Player:** Well... I hope the bees always hate you.
+                                - **{{#var:leslie}}:** How dare you!
+                                - **Player:** Oh, and I'm going to tell Ivy Sophista you destroyed her book!
+                                - **{{#var:leslie}}:** Don't you dare!
+                                - **Player:** Even after everything I did to help you, you're not nice. Why shouldn't I?
+                                - **{{#var:leslie}}:** Okay, I'm sorry!
+                                - **{{#var:leslie}}:** I'll think more about how I treat others. Sorry.
+                                - **Player:** I don't believe you.
+                                - **Player:** I should tell her but I'll think about it.
+                                - **{{#var:leslie}}:** Thank you!
+                              - (Condition: Afterwards:)
+                                - (Condition: Before talking to Ivy Sophista:)
+                                  - **{{#var:leslie}}:** Thank you for not telling Ivy Sophista on me.
+                                  - **Player:** I still haven't decided if I will yet.
+                                - (Condition: After talking to Ivy Sophista:)
+                                  - (Condition: First time:)
+                                    - (Condition: If you told Ivy Sophista about Leslie:)
+                                      - **{{#var:leslie}}:** Ivy and the Druids have banished me from ever returning to them.
+                                      - **{{#var:leslie}}:** I'm not angry. I understand why you told them. I would have done the same.
+                                      - **{{#var:leslie}}:** I'm sorry for how I treated you.
+                                    - (Condition: If you didn't tell Ivy Sophista about Leslie:)
+                                      - **Player:** I decided not to tell Ivy. But I did point her to where she can find her book.
+                                      - **{{#var:leslie}}:** What if they fish it out of the River Lum and it still has traces of honey on it?
+                                      - **{{#var:leslie}}:** They'll know it was me. The druids have banished people for less.
+                                      - **Player:** Honestly, I hope they do.
+                                      - **{{#var:leslie}}:** Well, I think you're...
+                                      - **{{#var:leslie}}:** No, you were right earlier. I need to stop taking out my problems on others.
+                                      - **{{#var:leslie}}:** I can understand why you feel that way. I'm sorry for how I treated you.
+                                  - (Condition: Afterwards:)
+                                    - **{{#var:leslie}}:** There's nothing else to do now. Thank you for all of your help.
+  - [Choice]: [More...]
+    - [Menu]: Choose an option:
+      - [Choice]: cond=Before having handed in 1,500 nectar:|Talk about tasks.
+        - **{{#var:leslie}}:** I have no tasks for you currently. Come back soon though.
+        - [Come back after handing in 1500 Nectar.]
+      - [Choice]: cond=After having handed in 1,500 nectar:|Why are so many bees around?
+        - (above|Why are so)
+      - [Choice]: I'd like to hand in some Nectar.
+        - (below|Hand-in for rewards)
+      - [Choice]: Goodbye.
+        - **{{#var:leslie}}:** Byeeee.
+      - [Choice]: [More...]
+        - (previous2)
+
+#### After the end of the event
+
+- **{{#var:leslie}}:** We did it! The best mead Gielinor has ever seen. Thanks for your help.
+- [Menu]: Choose an option:
+  - [Choice]: Why are so many bees around?
+    - (above|Why are so)
+  - [Choice]: I'd like to hand in some Nectar.
+    - (below|Hand-in for rewards)
+  - [Choice]: Goodbye.
+    - (above|Byeeee)
+
+### Hand-in for rewards
+
+
+#### Before handing in 20,000 nectar
+
+
+##### Without nectar
+
+- You do not have anything to hand in.
+- (pop-up)
+  - {{Pop-up|You do not have anything to hand in.|warning=yes}}
+
+##### With nectar
+
+- ((The following is shown in an interface titled "Redeem Currency":))
+  - Handing in event currency will increase your progress for this event unlocking unique rewards. This will remove currency up to the amount that is required to complete the event.
+  - Do you wish to continue?
+    - [Choice]: NO
+      - ((The interface closes.))
+    - [Choice]: YES
+      - ((The interface closes and the dialogue continues below.))
+- (removes=smaller number of all and as much nectar as are missing from handing in 20,000)
+- (Condition: If the player hasn't handed in 10,001 nectar:)
+  - You hand in [number] Nectar. You need to hand in [number]K more to complete the event.
+  - (pop-up)
+    - {{Pop-up|You hand in [number] Nectar. You need to hand in [number]K more to complete the event.}}
+    - (continue)
+- (Condition: If the player has handed in between 10,001 and 19,999 nectar:)
+  - You hand in [number] Nectar. You need to hand in [number] more to complete the event.
+  - (pop-up)
+    - {{Pop-up|You hand in [number] Nectar. You need to hand in [number] more to complete the event.}}
+    - (continue)
+- (Condition: If the player has handed in 20,000 nectar:)
+  - You have completed the event!
+  - (continue)
+- (Condition: If Meadweaver Footwraps were unlocked:)
+  - Congratulations! You've unlocked: Meadweaver Footwraps. Your new item(s) can be found in the Customisations Interface.
+  - (pop-up)
+    - {{Pop-up|Congratulations! You've unlocked: Meadweaver Footwraps. Your new item(s) can be found in the Customisations Interface.|colour=#00FF00}}
+    - (continue)
+- (Condition: If Meadweaver Gloves were unlocked:)
+  - Congratulations! You've unlocked: Meadweaver Gloves. Your new item(s) can be found in the Customisations Interface.
+  - (pop-up)
+    - {{Pop-up|Congratulations! You've unlocked: Meadweaver Gloves. Your new item(s) can be found in the Customisations Interface.|colour=#00FF00}}
+    - (continue)
+- (Condition: If an event mystery box was unlocked:)
+  - (Condition: Without backpack space for the event mystery box:)
+    - You do not have enough backpack space for some of the rewards. Please make some space and try again.
+    - (pop-up)
+      - {{Pop-up|You do not have enough backpack space for some of the rewards. Please make some space and try again.|warning=yes}}
+      - (continue)
+  - (Condition: With backpack space for the event mystery box:)
+    - (receives=event mystery box)
+    - Congratulations, you have been awarded: 1 x Event mystery box.
+    - (continue)
+- (Condition: If Meadweaver Bottoms were unlocked:)
+  - Congratulations! You've unlocked: Meadweaver Bottoms. Your new item(s) can be found in the Customisations Interface.
+  - (pop-up)
+    - {{Pop-up|Congratulations! You've unlocked: Meadweaver Bottoms. Your new item(s) can be found in the Customisations Interface.|colour=#00FF00}}
+    - (continue)
+- (Condition: If Meadweaver Top was unlocked:)
+  - Congratulations! You've unlocked: Meadweaver Top. Your new item(s) can be found in the Customisations Interface.
+  - (pop-up)
+    - {{Pop-up|Congratulations! You've unlocked: Meadweaver Top. Your new item(s) can be found in the Customisations Interface.|colour=#00FF00}}
+    - (continue)
+- (Condition: If Meadweaver Hat was unlocked:)
+  - Congratulations! You've unlocked: Meadweaver Hat. Your new item(s) can be found in the Customisations Interface.
+  - (pop-up)
+    - {{Pop-up|Congratulations! You've unlocked: Meadweaver Hat. Your new item(s) can be found in the Customisations Interface.|colour=#00FF00}}
+    - (continue)
+- (Condition: If 'the Bee-rilliant' title was unlocked:)
+  - You have unlocked the title:
+  - {{Colour {{Colour|#CCCF3A|th}}{{Colour|#777856|e B}}{{Colour|#CCCF3A|ee}}{{Colour|#777856|-ri}}{{Colour|#CCCF3A|ll}}{{Colour|#777856|ia}}{{Colour|#CCCF3A|nt}}'}}
+  - You can activate this via the 'Titles' tab in the 'Customisations' interface.
+  - (continue)
+- (Condition: If big event mystery boxes were unlocked:)
+  - (Condition: Without backpack space for the big event mystery boxes:)
+    - You do not have enough backpack space for some of the rewards. Please make some space and try again.
+    - (pop-up)
+      - {{Pop-up|You do not have enough backpack space for some of the rewards. Please make some space and try again.|warning=yes}}
+      - (continue)
+  - (Condition: With backpack space for the big event mystery boxes:)
+    - (receives=two big event mystery boxes)
+    - Congratulations, you have been awarded: 2 x Big event mystery box.
+    - (continue)
+- (Condition: If Chunky Bee was unlocked:)
+  - Congratulations! You've unlocked: Chunky Bee. Your new item(s) can be found in the Customisations Interface.
+  - (pop-up)
+    - {{Pop-up|Congratulations! You've unlocked: Chunky Bee. Your new item(s) can be found in the Customisations Interface.|colour=#00FF00}}
+    - (continue)
+- (Condition: Without having any rewards unlocked:)
+  - **{{#var:leslie}}:** You'll need to help me some more before I can offer you any rewards.
+- (Condition: With some of the rewards unlocked:)
+  - You have unlocked [number claimed]/10 of the rewards for the Need for Mead event.
+  - (Condition: If some new rewards were just claimed:)
+    - **{{#var:leslie}}:** Thanks for your help. We're getting closer to that perfect mead.
+  - (Condition: If no new rewards were just claimed:)
+    - **{{#var:leslie}}:** I have additional rewards to offer if you can find more Nectar.
+
+#### After handing in 20,000 nectar
+
+- You have handed in as much currency as you can this event. You can convert any remaining currency into consumable rewards.
+- (pop-up)
+  - {{Pop-up|You have handed in as much currency as you can this event. You can convert any remaining currency into consumable rewards.|colour=#FFC800}}
+
+### Claim rewards
+
+
+#### With rewards to unlock
+
+- (above|claim)
+
+#### Without rewards to unlock
+
+
+##### First time
+
+- **{{#var:leslie}}:** You've already claimed all of the rewards I have to offer. However, you can convert any extra Nectar you find into mystery boxes.
+- You have unlocked all of the rewards available for this event. You can convert any remaining Nectar into mystery boxes.
+
+##### Afterwards
+
+- (above|claim)
+
+### Open event
+
+
+#### During the event
+
+- ((The event interface opens.))
+
+#### After the event
+
+- ((The Vote Now! interface opens.))

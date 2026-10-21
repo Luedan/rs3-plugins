@@ -1,0 +1,386 @@
+# Granny Potterington
+
+- **Original Wiki Page**: [Transcript:Granny Potterington](https://runescape.wiki/w/Transcript%3AGranny%20Potterington)
+- **Letter**: `G`
+
+---
+
+## Dialogue Transcript
+
+
+### Tutorial
+
+{{Main|Transcript:Player-owned farm Tutorial}}
+
+### After the tutorial
+
+- {{Trandom}}
+  - **Granny Potterington:** Good day, my little bread basket.
+  - **Granny Potterington:** Greetings, sugar plum.
+  - **Granny Potterington:** Hello there, banana cake.
+  - **Granny Potterington:** Hello there, my little cupcake with pineapple sprinkles.
+  - **Granny Potterington:** Hello there, my lovely little biscuit.
+  - **Granny Potterington:** Hello, treacle.
+  - **Granny Potterington:** Hey there, grapefruit.
+  - **Granny Potterington:** Hey there, pickle... er, I mean pudding... Pickle's the dog I think. Or was it the cat?
+  - **Granny Potterington:** How goes it, string bean?
+  - **Granny Potterington:** Nice to see you, my little cherry tomato.
+  - **Granny Potterington:** Well, if it isn't my favourite cheese wheel. What can I do for you?
+  - **Granny Potterington:** Well, if it isn't my favourite cucumber sandwich.
+  - **Granny Potterington:** What brings you to my farm, pumpkin?
+- (Condition: Only if the beans from levelling Farming are not claimed:)
+  - (receives=some beans)
+  - Granny just handed you [number] beans.
+  - **Granny Potterington:** Oh! I found some beans down the back of the sofa. Here you go!
+  - (Condition: If the beans from level 99 Farming aren't claimed:)
+    - {{Qact|The player receives 100 beans.}}
+    - (continue)
+  - (Condition: If the beans from level 120 Farming aren't claimed:)
+    - {{Qact|The player receives 500 beans.}}
+    - Granny just handed you 500 beans.
+    - (continue)
+- (Condition: If a male lizard chicken named Malcolm with the Chaotic trait is in the inventory:)
+  - **Granny Potterington:** Wait a minute, how did you get a MALE lizard chicken? I though they were all hens! Mind if I keep him around on the farm?
+  - [Menu]: Hand in Malcolm the lizard chicken to Granny P?
+    - [Choice]: Yes.
+      - Congratulations! You have completed: 'Life, Uh, Found a Way'. (Hand in a lizard chicken called Malcolm with the Chaotic trait to Granny P.)
+    - [Choice]: No.
+      - (continue)
+- (Condition: If a magical zygomite named Trevor with the Loyal trait is in the backpack:)
+  - **Granny Potterington:** Oh, who's that little fun guy? Trevor, the magical zygomite, hey? He's loyal too. He'd make for a great pet! Want me to housebreak him for ya?
+  - [Menu]: HAND IN MAGICAL TREVOR TO GRANNY P?
+    - [Choice]: Yes.
+      - Congratulations! You have completed: 'Ever So Clever' - Hand in a magical zygomite called Trevor with the Loyal trait to Granny P.
+      - (continue)
+    - [Choice]: No.
+      - (continue)
+- [Menu]: Choose an option:
+  - [Choice]: [Ask about Granny.]
+    - [Menu]: Select an Option
+      - [Choice]: Tell me about life on the farm.
+        - **Granny Potterington:** These days, it's not quite as fun as it used to be. I can't go galivanting in the wheat fields with scores of young men chasing after me.
+        - **Granny Potterington:** Oh my, those were the days.
+        - **Granny Potterington:** ....
+        - **Player:** Er...Granny?
+        - **Granny Potterington:** Hrmm, what? Oh. Sorry, sausage, I was reminiscing. Where was I?
+        - **Player:** You were telling me about the farm.
+        - **Granny Potterington:** Well, these days I don't really do much except for seducing attractive young adventurers into helping me out around the farm.
+        - **Granny Potterington:** No no, don't deny it. How could you resist this graceful nose and my magnificent...arms? I know I have a siren like allure, there's no need to be ashamed.
+        - **Player:** Riiiiiight.
+        - (previous)
+      - [Choice]: Tell me about your family.
+        - **Granny Potterington:** They're all gone now, sadly. My husband, Hector, passed away a few months ago.
+        - **Player:** Old age?
+        - [Monday]
+          - **Granny Potterington:** It was a terrible accident. Somehow, our entire supply of pitchforks just fell into him...some, apparently, out and then into him again a few times.
+        - [Tuesday]
+          - **Granny Potterington:** At 27? No, sadly he misread a cooking recipe and managed to set himself on fire. Sad,really. The meal was ruined.
+        - [Wednesday]
+          - **Granny Potterington:** Angry sheep. Don't let the wooliness lull you into a false sense of security, sheep are malicious killers at heart.
+        - [Thursday]
+          - **Granny Potterington:** A chimney fell on him. It's weird, it wasn't even ours. It just came out of nowhere. I blame those floating island types.
+        - [Friday]
+          - **Granny Potterington:** He was electrocuted to death by a wandering pig. Very strange, but his heart couldn't take it and he gave out.
+        - [Saturday]
+          - **Granny Potterington:** Crushed to death by cheese wheels. He was trying to stack them too high and down they all came. His funeral stank; in hindsight, we shouldn't have cremated him.
+        - [Sunday]
+          - **Granny Potterington:** He decided he could make more money as an adventurer. Chickens can apparently be dangerous opponents when angry.
+        - **Player:** That's, er, terrible. What about your kids?
+        - **Granny Potterington:** Ah, Henry and Harry. Both of them went off to join the Battle of Lumbridge, but were tragically killed by adventurers looking to support one of the gods.
+        - **Granny Potterington:** They could probably have helped each other out if they hadn't insisted on joining opposite sides.
+        - (previous)
+      - [Choice]: What have you been up to?
+        - **Granny Potterington:** Oh, you know, not much. Just been bumbling about the farm like I always do. 'Course, I have also been brewing a lot of homemade mead and some of it is quite potent. So there's every chance I've also been rampaging through Ardougne like a deranged dragon on cart wheels. Difficult to say, really.
+        - (Condition: During the month of January:)
+          - **Granny Potterington:** Oh, I've not been up to much. I've recently had to deal with a few young whippersnappers who think they can disrespect an old lady in a wheelchair.
+          - **Granny Potterington:** Funny thing try to outrun an old lady in a wheelchair, we can have quite the burst in speed if we need it.
+          - **Granny Potterington:** They won't be disrespecting old Granny anytime soon. Oh, no.
+        - (Condition: During the month of February:)
+          - **Granny Potterington:** Nothing. Literally nothing interesting has happened.
+          - **Granny Potterington:** I am so BORED!
+        - (Condition: During the month of March:)
+          - **Granny Potterington:** Well, some of the bears round the back got awful feisty.
+          - **Granny Potterington:** In hindsight, it probably wasn't a good idea to put all the beehives out back.
+          - **Granny Potterington:** They were all growly and angry and I thought to myself: 'Granny, are you gonna take that from them beasties?' And I'm like: 'Oh, heck no!'
+          - **Granny Potterington:** So I wheeled right over there and then do you know what I did?
+          - **Player:** I dread to think.
+          - **Granny Potterington:** I shaved them. Each and every one of them. That'll teach them.
+        - (Condition: During the month of April:)
+          - **Granny Potterington:** Well, it's a lovely time of the year, so I took old Sam here and went riding off into town.
+          - **Granny Potterington:** It's terribly unfortunate that, in my old age, I completely forgot that I was holding a broom in each hand, charging forward like a dragon with a spear in its behind.
+          - **Granny Potterington:** Oh, the carnage. Market stall doodads sent flying, guards collapsing into helpless villagers.
+          - **Granny Potterington:** I am such a silly sausage. Hehehehe.
+        - (Condition: During the month of May:)
+          - **Granny Potterington:** I had a lovely date with the captain of the guard.
+          - **Player:** Oh, where did you go?
+          - **Granny Potterington:** Well, he took me out for a few drinks... Well, okay, he met me after I'd had a few drinks.
+          - **Granny Potterington:** Then the little devil took me back to his dungeons for a 'night in the cells', if you know what I mean.
+          - **Player:** You mean you were arrested for being drunk and disorderly?
+          - **Granny Potterington:** I prefer my version of the evening.
+        - (Condition: During the month of June:)
+          - **Granny Potterington:** I got the old dancing pole and invited some of my favourite villagers over for wine and dance.
+          - **Player:** Folk dancing round the maypole? Sounds lovely.
+          - **Granny Potterington:** What the banana is a maypole?
+        - (Condition: During the month of July:)
+          - **Granny Potterington:** I put on me armour and I went goblin slaying.
+          - **Player:** You fight goblins?
+          - **Granny Potterington:** Don't look so surprised, my little pancake. I used to be quite the adventurer back in my day.
+          - **Granny Potterington:** 'Course, I'm lucky if I can wallop one goblin with me broom these days, but it helps keep the joints limber.
+        - (Condition: During the month of August:)
+          - **Granny Potterington:** These days, it's not quite as fun as it used to be. I can't go galivanting in the wheat fields with scores of young men chasing after me.
+          - **Granny Potterington:** Oh my, those were the days.
+          - **Granny Potterington:** ....
+          - **Player:** Er...Granny?
+          - **Granny Potterington:** Hrmm, what? Oh. Sorry, sausage, I was reminiscing. Where was I?
+          - **Player:** You were telling me about the farm.
+          - **Granny Potterington:** Well, these days I don't really do much except for seducing attractive young adventurers into helping me out around the farm.
+          - **Granny Potterington:** No no, don't deny it. How could you resist this graceful nose and my magnificent...arms? I know I have a siren like allure, there's no need to be ashamed.
+          - **Player:** Riiiiiight.
+        - (Condition: During the month of September:)
+          - **Granny Potterington:** Oh, you know, not much. Just been bumbling about the farm like I always do.
+          - **Granny Potterington:** 'Course, I have also been brewing a lot of homemade mead and some of it is quite potent.
+          - **Granny Potterington:** So there's every chance I've also been rampaging through Ardougne like a deranged dragon on cart wheels.
+          - **Granny Potterington:** Difficult to say, really.
+        - (Condition: During the month of October:)
+          - **Granny Potterington:** Well, you know what season it is and all the dangers that comes with that, so I've been making sure I'm prepared.
+          - **Granny Potterington:** I've been eating seven cloves of garlic each meal so no vampyres are going to give me trouble.
+          - **Granny Potterington:** I've got all me best silverware in my underwiring so I'm ready for any werewolves that come a-prowlin'.
+          - **Granny Potterington:** I've got a nice sturdy spade to wallop any zombie on the head. I think I'm covered.
+          - **Player:** What are you doing about ghosts?
+          - **Granny Potterington:** ...
+          - **Granny Potterington:** Oh, $#!^.
+        - (Condition: During the month of November:)
+          - **Granny Potterington:** I've been writing a book.
+          - **Player:** What kind of book?
+          - **Granny Potterington:** Oh, just a little book o' poetry.
+          - **Player:** Mind if I have a read?
+          - Granny hands you over the book, which you foolishly read out loud.
+          - **Player:** Shall I compare thee to a summer's day?
+          - **Player:** With brilliant light from the heavens sits.
+          - **Player:** You lay with me in the golden hay.
+          - **Player:** Then place your hands upon me...
+          - **Player:** Granny! NO!
+          - **Granny Potterington:** It's a work in progress.
+        - (Condition: During the month of December:)
+          - {{Transcript missing}}
+        - (previous)
+      - [Choice]: Can you tell me a joke?
+        - [Day 1]
+          - **Granny Potterington:** Knock knock.
+          - **Player:** Who's there?
+          - **Granny Potteringont:** The interrupting cow.
+          - **Player:** The interrupting cow wh-
+          - **Granny Potterington:** MOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!
+        - [Day 2]
+          - **Granny Potterington:** As a farmer, I hear lots of jokes about sheep...
+          - **Granny Potterington:** I'd tell them to me dog, but he'd herd them all.
+        - [Day 3]
+          - **Granny Potterington:** Why did the scarecrow win a prize? - Because he was outstanding in his field!
+        - [Day 4]
+          - **Granny Potterington:** What did the neurotic pig say to the farmer? - You take me for grunted.
+        - [Day 5]
+          - **Granny Potterington:** Why did the cow jump over the moon?
+          - **Granny Potterington:** The farmer had cold hands!
+        - [Day 6]
+          - **Granny Potterington:** Who tells chicken jokes?
+          - **Granny Potterington:** Comedi-hens!
+          - **Player:** That's rubbish.
+          - **Granny Potterington:** Yeah, it's not me best.
+        - [Day 7]
+          - **Granny Potterington:** What kind of thing does a farmer talk about when he is milking cows? - Udder nonsense!
+        - [Day 8]
+          - **Granny Potterington:** Why did the guards arrest the rooster? - They suspected him of fowl play!
+        - [Day 9]
+          - **Granny Potterington:** Why were the baby strawberries crying? - Because their mum and dad were in a jam!
+          - **Player:** That's pretty dark when you think about it.
+          - **Granny Potterington:** Oh, don't be a spoilsport.
+        - [Day 10]
+          - **Granny Potterington:** What did the farmer say when his fat pig wouldn't fit into the pen?
+          - **Granny Potterington:** There's more there than meets the STY!
+        - [Day 11]
+          - **Granny Potterington:** What did the farmer say when he accidentally set his cow on fire? - That was a bit of a mis-steak.
+        - [Day 12]
+          - **Granny Potterington:** Why did the sheep call the guardsmen? - He'd just been fleeced!
+        - [Day 13]
+          - **Granny Potterington:** Why was the cucumber mad? - Because he was in a pickle!
+        - [Day 14]
+          - **Granny Potterington:** What do you call cattle with a sense of humour? - Laughing stock!
+        - (previous)
+      - [Choice]: I'd like to talk about something else.
+        - (initial)
+  - [Choice]: [Ask about the farm.]
+    - [Menu]: Select an Option
+      - [Choice]: Ask about the farm's background.
+        - **Granny Potterington:** This farm has been with me family for generations. There's years of Potterington blood, sweat and tears in this 'ere soil.
+        - **Granny Potterington:** Which sounds horrible when I say it out loud.
+        - **Granny Potterington:** But regardless, these old bones can no longer manage the farm properly. I can't care for the animals, or tend the crops.
+        - **Granny Potterington:** But what I can do is manage farmers and farmers' markets. Why I've got those old farmers wrapped around my little finger I have.
+        - **Granny Potterington:** So if you can tend to the farm tasks for me, I'll handle the management and paperwork side. You can keep the materials, I'll keep the cash.
+        - **Granny Potterington:** Any questions?
+        - (previous)
+      - [Choice]: Can we hire any help?
+        - **Granny Potterington:** I think there are a few individuals which could help you out with the farm.
+        - **Granny Potterington:** They're a bit of a ragtag bunch, I must say, but where there's a will, there's a way!
+        - **Granny Potterington:** You can hire them from the farmers' market and they will perform a task for you for a fee.
+        - **Granny Potterington:** For instance, a babysitter will stop any animals in a pen from growing past adolescence, meaning you are more likely to sell them for top bean.
+        - **Granny Potterington:** A collector will pick up any babies born after the breeding pen has filled, and store up to 30 of them in up to 3 different types as unchecked animals.
+        - **Granny Potterington:** A trapper will, for a fee, look for a lost baby animal in the wild and bring it back. It could be pretty much anything although it's quite likely to be something common.
+        - **Granny Potterington:** Any questions?
+        - (previous)
+      - [Choice]: Can we advertise what we're selling?
+        - **Granny Potterington:** Well of course dearie, you can place an advert on the board to the south-west to attract a specific trader here.
+        - (previous)
+      - [Choice]: Where can I store my animals.
+        - **Granny Potterington:** These days, I've heard a lot of people store animals waiting to be sold in their bank.
+        - **Granny Potterington:** Their bank! Would you believe it! I don't know how these town folks cope with the smell, if you ask me.
+        - **Granny Potterington:** Personally, I'd just use to storm barn!
+        - **Granny Potterington:** Any questions?
+        - (previous)
+      - [Choice]: [Ask about something else.]
+        - (initial)
+  - [Choice]: [Ask about animals.]
+    - [Menu]: Select an Option
+      - [Choice]: How do I get animals?
+        - **Granny Potterington:** Your typical farm animals - your cows, sheep and chickens - you can get from me.
+        - **Granny Potterington:** I just need a few beans and I can go and get us a good deal for one from the farmers' market.
+        - **Granny Potterington:** Some animals you'll get from your general skilling. Sometimes you might find one as you go about your business.
+        - **Granny Potterington:** For the scarier stuff, you'll need to don your shiniest adventuring gear and get killing.
+        - **Granny Potterington:** Of course, you can also trade any of them with your fellow farmers. The Grand Exchange won't let us trade animals on it, but you can trade with each other directly.
+        - (previous)
+      - [Choice]: How do I raise animals?
+        - **Granny Potterington:** To raise an animal, you first need to make sure you've checked it over.
+        - **Granny Potterington:** An unchecked animal could have all manner of diseases, ticks, parasites or curses attached to it and you don't want that.
+        - **Granny Potterington:** Then you just need to use the animal on an appropriately sized paddock. Small animals go in the small pen, large in the large, etc.
+        - **Granny Potterington:** You can't raise different animals in the same paddock either as they tend to fight.
+        - **Granny Potterington:** You'll also need to feed your animals. This is just a simple case of making sure you've put the right sort of food in the feeding trough for the animal in that paddock.
+        - **Granny Potterington:** Remember that not all animals will eat all types of food, so make sure you're not trying to feed dragons strawberries or they'll starve.
+        - **Granny Potterington:** A starving animal will lose happiness and health, increasing the chance of it becoming sick and reducing the weight, speed and attractiveness potential of that animal.
+        - **Granny Potterington:** If your animal gets diseases you will need to examine it. Look over its symptoms and administer the appropriate treatment to cure it.
+        - **Granny Potterington:** A diseased animal gives fewer rewards when harvested and has lower stats than healthier animals, so it's always worth keeping them healthy.
+        - **Granny Potterington:** If you want a helping hand with your animals, we have some special beehives on the south-east of the farm.
+        - **Granny Potterington:** These beehives will slowly convert any flowers you give them into special honeys which can bolster the health, happiness, weight, speed or attractiveness of your animal.
+        - **Granny Potterington:** Some rare cows produce strange milk which farm animals also seem to adore.
+        - **Granny Potterington:** Animals are fairly chilled out on the farm, so you don't need to keep a constant eye on them. Just pop back every once in a while to see how they're doing.
+        - (previous)
+      - [Choice]: How do I breed animals?
+        - **Granny Potterington:** Oh, that's easy. You just need to get two animals of the same species and put them in the breeding pen.
+        - **Granny Potterington:** Make sure that they're of sufficient breeding age and that they have food, then just wait...
+        - **Granny Potterington:** They'll get it together on their own time and eventually you should have a lovely baby animal waiting for you.
+        - **Granny Potterington:** Despite claims by today's youth, elder animals are quite capable of breeding. So don't worry if your animals get a bit long in the tooth.
+        - **Granny Potterington:** They are still quite capable of...doing the job.
+        - **Granny Potterington:** Animals take time to breed and you'll need to keep them as healthy and happy as possible to get the fastest results.
+        - **Granny Potterington:** Also, remember that the breeding pen can only hold 4 animals at a time, so make sure you keep taking the kids out to get new ones in.
+        - (previous)
+      - [Choice]: What are traits and perks?
+        - **Granny Potterington:** Traits are little identifiers that indicate how that animal differs from others.
+        - **Granny Potterington:** Some traits mean an animal is much happier than others and easy to keep amused.
+        - **Granny Potterington:** Some traits mean that you can harvest them for more materials.
+        - **Granny Potterington:** Some traits may do seemingly nothing at all. Whilst others will do strange things.
+        - **Granny Potterington:** It's generally always a good thing to try and breed multiple traits into animals as the benefits are cumulative.
+        - **Player:** And what are perks?
+        - **Granny Potterington:** Ah, now for those you first need to buy a farm totem from the farmers' market and attach it to an animal pen.
+        - **Granny Potterington:** Then place an elder animal in that pen to activate that animal's perk. For instance, the perk for rabbits is an increase in all animal breeding chances.
+        - **Granny Potterington:** If you place a second elder animal of the same type in the other pen of that size - also with an attached farm totem - you'll make the perk more potent!
+        - (previous)
+      - [Choice]: I'd like to talk about something else.
+        - (initial)
+    - [Choice]: [Ask about sales.]
+      - [Choice]: Select an Option
+        - [Choice]: How can I earn beans?
+          - **Granny Potterington:** Pretty much the only way to earn more beans is to sell on some of the animals you've raised.
+          - **Granny Potterington:** You'll find buyers showing up on the farm by the well over there quite regularly.
+          - **Granny Potterington:** Sell 'em the animals they're after, and you'll soon see them beans flowing in.
+          - **Granny Potterington:** Progress will be slow to start, but once we've built up some reputation and a customer base, you'll have more beans than you know what to do with!
+          - (previous)
+        - [Choice]: How does selling work?
+          - **Granny Potterington:** Listen close, 'cos there's a lot of nuance to making a great sale.
+          - **Granny Potterington:** First up, a buyer will only have interest in a specific type of animal. Take Myfi, for instance - she'll only ever want to buy rabbits.
+          - **Granny Potterington:** Each day they show up, they'll only want up to a specific amount of that animal too. They ain't made of beans, so will be on a budget.
+          - **Granny Potterington:** The best age at which to sell animals is adolescence. You can sell older animals at a slight discount - they may be past their prime, but still hold fair value.
+          - **Granny Potterington:** And while you can sell eggs and babies, you won't get very much for them. That's what people pay us for - to raise them.
+          - (previous)
+        - [Choice]: Any other useful tips?
+          - **Granny Potterington:** Buyers will also have a special request - both a specific breed and a specific trait. Match either with any sale and you'll get more beans. Match both and you'll get a nice little bonus on top.
+          - **Granny Potterington:** That said, they'll overlook the specific breed if you're selling 'em a shiny animal!
+          - **Granny Potterington:** For all sales, regardless of any special request, there are also certain animal traits that can affect bean offers.
+          - **Granny Potterington:** Anything with the Surly, Nice But Dim or Limited Efficiency traits will sell for fewer beans.
+          - **Granny Potterington:** But anything with the Lucky, Fortunate or Unlucky For Some traits will sell for more beans.
+          - **Granny Potterington:** It still might be worth selling animals with bad bean traits if it's to fulfill a special request. The boost from matching the special request should offset any negatives.
+          - **Granny Potterington:** Finally, if you can get hold of one of those fancy farming outfits, you might be able to negotiate better bean prices on EVERY sale! Imagine that...
+          - (previous)
+        - [Choice]: Show me the farmers' market?
+          - (opens=Farmers' Market)
+        - [Choice]: [Ask about something else.]
+          - (initial)
+  - [Choice]: Goobye, Granny.
+    - **Granny Potterington:** Goodbye, dearie.
+
+### Attempting to use seasonaliser without having purchased it
+
+- **Granny Potterington:** That old thing hasn't worked in years. You'll need to buy some parts for it from the farmers' market.
+
+### Using an item on her
+
+
+#### Male lizard chicken
+
+- **Granny Potterington:** Wait a minute, how did you get a MALE lizard chicken? I though they were all hens! Mind if I keep him around on the farm?
+  - [Menu]: Hand in Malcolm the lizard chicken to Granny P?
+    - [Choice]: Yes.
+      - Congratulations! You have completed: 'Life Uh, Found a Way'. (Hand in a lizard chicken called Malcolm with the Chaotic trait to Granny P.)
+    - [Choice]: No.
+      - {{Transcript missing}}
+
+#### Loyal magical zygomite
+
+- **Granny Potterington:** Oh, who's that little fun guy? Trevor, the magical zygomite, hey? He's loyal too. He'd make for a great pet! want me to housebreak him for ya?
+  - [Menu]: Hand in magical Trevor to Granny P.?
+    - [Choice]: Yes.
+      - Congratulations! You have completed: 'Ever So Clever'. (Hand in a magical zygomite called Trevor with the Loyal trait to Granny P.)
+    - [Choice]: No.
+      - {{Transcript missing}}
+
+#### Any other item
+
+- **Granny Potterington:** What am I supposed to do with that? You deal with it.
+
+### Contract Options
+
+- Do you have any questions?
+  - Can we advertise what we're selling?
+    - **Granny Potterington:** Of course! If there's a particular animal you want to attract buyers for, I'll put the word out. Or if you'd rather go back to relying on word of mouth, I can do that too. Which small animal would you like me to advertise?
+      - Attract buyers for which small animal?
+        - Rabbits.
+          - *(Continues below)*
+        - Chickens.
+          - *(Continues below)*
+        - Chinchompas.
+          - *(Continues below)*
+        - Return to word of mouth.
+          - **Granny Potterington:** Which medium animal would you like me to advertise?
+            - Attract buyers for which medium animal?
+              - Sheep.
+                - *(Continues below)*
+              - Spiders.
+                - *(Continues below)*
+              - Zygomites.
+                - *(Continues below)*
+              - Return to word of mouth.
+                - **Granny Potterington:** Which large animal would you like me to advertise?
+                  - Attract buyers for which large animal?
+                    - Cows.
+                      - *(Continues below)*
+                    - Yaks.
+                      - *(Continues below)*
+                    - Dragons.
+                      - *(Continues below)*
+                    - Return to word of mouth.
+                      - *(Shows normal dialogue options)*
+  - No, ma'am.
+    - *(Shows normal dialogue options)*
+
+### After the release of Ranch Out of Time
+
+- *(Random greeting as above.)*
+- **Granny Potterington:** My dear, did you know that the Potterington brand has expanded? Why yes my little avocado, we have just opened up a new ranch over on Anachronia. You can raise great big bloody lizards there! If you want to take a look, you should head upstairs and take a look at the great big vine in the greenhouse. Those farming guild boffins have found a way to make it whisk you all the way over there. It's quite fun, gave me all the flutters when I tried it. Go on, take a look. I imagine there's lots of things you could do with ingredients harvested from those absolute units.
+- *(Dialogue options as above.)*

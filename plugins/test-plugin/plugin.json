@@ -1,0 +1,12 @@
+{
+  "name": "RS Test Plugin",
+  "version": "1.0.0",
+  "description": "Plugin de prueba para verificar conectividad con la API, eventos en tiempo real, UI y persistencia.",
+  "contactEmailAddress": "developer@rsplugins.local",
+  "hasRibbonIcon": true,
+  "hasSettingsIcon": true,
+  "requiredPermissions": [],
+  "optionalPermissions": [],
+  "requiredDependencies": {},
+  "optionalDependencies": {}
+}

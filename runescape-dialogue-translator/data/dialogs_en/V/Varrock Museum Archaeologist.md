@@ -1,0 +1,212 @@
+# Varrock Museum Archaeologist
+
+- **Original Wiki Page**: [Transcript:Varrock Museum Archaeologist](https://runescape.wiki/w/Transcript%3AVarrock%20Museum%20Archaeologist)
+- **Letter**: `V`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+*(This dialogue is for the four archaeologists that can be seen inside the roped-off area inside the Varrock Museum, and can only be spoken to on a member server.)*
+- {{trandom|First line is a random one out of the following:}}
+  - **Archaeologist:** Greetings, my dear [sir/madam]. Have you come to give us a hand?
+  - **Archaeologist:** Hello there; I see you're qualified. Come to help us out?
+  - **Archaeologist:** Hello! You're that student who recently finished all three Earth Sciences exams, aren't you? Come to help us out?
+- [Menu]: Choose an option:
+  - [Choice]: Yes, how can I help out?
+    - **Player:** Yes, how can I help out?
+    - (Condition: When you don't have the equipment:)
+      - **Archaeologist:** Well, you'll need to get your equipment first - it's all there on the tool rack. Use what you learned from your Earth Sciences exams. You'll need to be wearing your leather gloves and boots as well as have access to your trowel, rock pick and specimen brush.
+    - (Condition: When you're wearing leather boots and gloves and have the trowel, rock pick and specimen brush in your inventory:)
+      - **Archaeologist:**
+      - I see you have your equipment -well done.
+      - **Archaeologist:** To really give us a hand, you could clean some finds for us. They're mostly done - just some fine work to finish off. Take a find from the pile that the workmen are bringing in, then there are spare tables over there to clean them on. If you find anything interesting, let us know and we'll see if it's good enough to go on display.
+      - (end)
+  - [Choice]:  I found something interesting |cond=With an artefact in inventory
+    - **Player:**I found something interesting.
+    - **Archeologist:**Oh? Let's take a look...
+    - *(continues below)*
+  - [Choice]: I have a question about the Statue of Dahmaroc.
+    - **Player:** I have a question about the Statue of Dahmaroc.
+    - [Menu]: Select An Option
+      - [Choice]: Tell me again where the statue comes from.
+        - **Player:** Tell me again where the statue comes from.
+        - **Archaeologist:** Well, we've only been able to piece bits together here and there, but it appears that Dahmaroc was a mage of great power who was caught up in an almighty battle back in the Second Age. It seems this battle was over who should have the lion's share of the runes that the sentient races had found around RuneScape.
+        - **Player:** Runes? As in the ones I use for magic now? Surely they're unlimited.
+        - **Archaeologist:** Now they are, yes, but back then there was a limited supply. At least, that's what the scraps of information we've found indicate.
+        - **Player:** Interesting. So what happened to Dahmaroc?
+        - **Archaeologist:** As far as we can gather, he lost, was turned to stone and then cursed. It's said he was doomed to spend eternity with the thing he loved most...
+        - **Player:** That doesn't sound so bad. Did he have a wife?
+        - **Archaeologist:** Well, we're not sure about that. We do know that he loved to gain knowledge and skill in new disciplines. No taste for fighting, though. Indeed, it was combat that proved to be his downfall.
+      - (Condition: If you don't have a statue collection bag:)
+        - **Archaeologist:** By the way, if you want a bag to keep further finds in, I can supply one.
+        - [Menu]: Select An Option
+          - [Choice]: Yes please.
+            - **Player:** Yes please.
+            - [The archaeologist hands you a sturdy bag.]
+            - (initial)
+          - [Choice]: No thanks.
+            - **Player:** No thanks.
+            - (initial)
+      - (Condition: If you already have a statue collection bag:)
+        - **Archaeologist:** You already have a statue collection bag.
+        - (initial)
+      - [Choice]: Twin? How do I get its twin?
+        - **Player:** Twin? How do I get its twin?
+        - **Archaeologist:** Well, I'm not sure, but I suspect the same way you got the first one.
+        - **Player:** Why do I even need a twin?
+        - **Archaeologist:** Because, rather intriguingly, they interlock in pairs to make up the whole statue without any kind of adhesive being required.
+      - (Condition: If you don't have a statue collection bag:)
+        - **Archaeologist:** By the way, if you want a bag to keep further finds in, I can supply one.
+        - [Menu]: Select An Option
+          - [Choice]: Yes please.
+            - **Player:** Yes please.
+            - [The archaeologist hands you a sturdy bag.]
+            - (initial)
+          - [Choice]: No thanks.
+            - **Player:** No thanks.
+            - (initial)
+      - (Condition: If you already have a statue collection bag:)
+        - **Archaeologist:** You already have a statue collection bag.
+        - (initial)
+      - [Choice]: How do I add it to the statue?
+        - **Player:** How do I add it to the statue?
+        - **Archaeologist:** If you have strange rocks you've found from training, simply use the pairs of parts on the plinth over there. If you mean one of the replicas we made for you, use the pairs of replica parts on the plinth in your house.
+      - (Condition: If you don't have a statue collection bag:)
+        - **Archaeologist:** By the way, if you want a bag to keep further finds in, I can supply one.
+        - **Player:** Yes please.
+        - [The archaeologist hands you a sturdy bag.]
+        - (initial)
+      - (Condition: If you don't have a statue collection bag:)
+        - **Archaeologist:** By the way, if you want a bag to keep further finds in, I can supply one.
+        - [Menu]: Select An Option
+          - [Choice]: Yes please.
+            - **Player:** Yes please.
+            - [The archaeologist hands you a sturdy bag.]
+            - (initial)
+          - [Choice]: No thanks.
+            - **Player:** No thanks.
+            - (initial)
+      - (Condition: If you already have a statue collection bag:)
+        - **Archaeologist:** You already have a statue collection bag.
+        - (initial)
+      - [Choice]: I'll have to keep a list of pieces.
+        - **Player:** I'll have to keep a list of pieces.
+        - **Archaeologist:** Yes, that would be wise. Here's some paper to use.
+        - [The archaeologist hands you a piece of paper which you quickly scribble on.]
+        - (end)
+  - (Condition: If you're still receiving rocks:)
+    - [Choice]: How can I stop getting these rocks?
+      - **Player:** How can I stop getting these rocks?
+      - **Archaeologist:** Ah, I do recall an incantation that might help. I believe it was...
+      - (The archaeologist casts a spell named "Incanto Negato Silicis")
+      - *You will stop receiving rocks*
+      - (initial)
+  - (Condition: If you have chosen to stop receiving rocks:)
+    - [Choice]: How can I get these rocks again?
+      - **Player:** How can I get these rocks again?
+      - **Archaeologist:** Ah, I do recall an incantation that might help. I believe it was...
+      - (The archaeologist casts a spell named "Incanto Additto Silicis")
+      - *You will start receiving rocks again*
+    - (Condition: If you don't have a statue collection bag:)
+      - **Archaeologist:** By the way, if you want a bag to keep further finds in, I can supply one.
+      - [Menu]: Select An Option
+        - [Choice]: Yes please.
+          - **Player:** Yes please.
+          - [The archaeologist hands you a sturdy bag.]
+          - (initial)
+        - [Choice]: No thanks.
+          - **Player:** No thanks.
+          - (initial)
+      - (Condition: If you already have a statue collection bag:)
+        - **Archaeologist:** You already have a statue collection bag.
+        - (initial)
+    - [Choice]: I'd like to reset my statue.
+      - **Player:** I'd like to reset my statue.
+      - **Archaeologist:** Are you sure? You'll lose all of your progress!
+      - *Warning: You will lose all your progress, including any statue built in your house. This can not be reversed.*
+      - [Menu]: Reset All Progress?
+        - [Choice]: Yes
+          - {{transcript missing}}
+        - [Choice]: No
+        - (end)
+  - [Choice]: No thanks.
+    - **Player:** No, just here to watch.
+
+### When using an artefact obtained from an uncleaned find on them
+
+- **Player:** Take a look at this...
+- (Condition: If showing an ancient coin:)
+  - **Player:** I found this really old coin - is it of any use?
+  - **Archaeologist:** What have we here?
+  - **Archaeologist:** Oh! This is very interesting...and confusing at the same time. This coin means that the city that we're excavating at Varrock Dig Site - Saranthium - was actually inhabited much, much earlier by followers of Zamorak, at which time, the city was known as Senntisten.
+  - **Archaeologist:** This is a most remarkable discovery, as we have other evidence indicating that Zarosian followers were resident before the Saradominists took over, but it also seems that Zamorakian forces used it during a battle of some sort. Still, it allows us to roughly date when the city changed from following Zaros and Zamorak to following Saradomin. Put it in display case 44.
+  - **Player:** Case 44 it is!
+- *(If the player did not put the ancient coin in Case 44)*
+  - **Archaeologist:** Back again? Have you put the coin in display case 44 yet?
+  - **Player:**No, I'll go do that now.
+- (Condition: If showing an ancient symbol:)
+  - **Player:** I found this crumbly old decoration - is it of any use?
+  - **Archaeologist:** Ahh... That looks like an altar piece. Hmm, yes...from the early Saradominist worshippers by the looks of it. Quite delicate, too. Put it in display case 37.
+  - **Player:** Case 37 it is!
+- *(If the player did not put the ancient symbol in Case 37)*
+  - **Archaeologist:**Back again? Have you put the symbol in display case 37 yet?
+  - **Player:**No, I'll go do that now.
+- (Condition: If showing arrowheads:)
+  - **Player:** I found these old arrowheads.
+  - **Archaeologist:** Ahh, yes, we find lots of those - they're not important. We already have some in our display. Just add it to the crate of finds over near the door.
+  - **Archaeologist:** If there is anything already in the crate, feel free to take it as a reward for your work.
+  - **Player:** Oh, okay.
+- (Condition: If showing a clean necklace:)
+  - **Player:** I found this pretty necklace.
+  - **Archaeologist:** Interesting...yes...yes...hmmm.... It looks like it's enchanted.
+  - **Player:** With what?
+  - **Archaeologist:** Oh, I think it's just a benign teleportation spell. I tinker in magic when I'm not doing archaeology. I can teach you how to make more necklaces like this. Amazing that they had this kind of knowledge back then.
+  - **Player:** That would be good. Where is the teleport to?
+  - **Archaeologist:** Hmm...all the indications are that it's somewhere to the east of us, but I'm not sure how far. Perhaps it was a teleport back to Saranthium. Let me just take a closer look.
+  - [The archaeologist takes the necklace and turns it over in his hands, studying it closely.]
+  - (removes=clean necklace)
+  - {{RSFontAchievement|I Dig This Transportation}}
+  - [The archaeologist shows you the techniques for this particular spell, which requires five fire runes arranged around one cosmic rune - and level 49 Magic - then casting the spell on a crafted ruby necklace of your own.]
+  - [You can make enchanted ruby necklaces.]
+  - **Player:** So I just make a ruby necklace and use five fire runes and one cosmic rune to enchant it.
+  - **Archaeologist:** Yes, indeed. Well done, youngster, thanks for helping us.
+- (Condition: If showing jewellery:)
+  - **Player:** I found these old necklaces.
+  - **Archaeologist:** An interesting find... Here, let me offer you something in return.
+  - **Player:** Oh! Okay.
+  - (removes=all jewellery artefacts) (receives=5 coins per jewellery artefact)
+  - [The archaeologist gives you [number] coins... must have been worth a lot in his day!]
+- (Condition: If showing an old chipped vase:)
+  - **Player:** I cleaned up this old vase.
+  - **Archaeologist:** Ah, the vases... I've lost count of how many we've found of those... The only completely intact one is in the display case already. Just add it to the crate of finds over near the door.
+  - **Archaeologist:** If there is anything already in the crate, feel free to take it as a reward for your work.
+  - **Player:** Right.
+- (Condition: If showing an old coin:)
+  - **Player:** I've cleaned this old coin - is it of any use?
+  - **Archaeologist:** Oh my! What a wonderful find! If this is what I believe it to be, it would allow us to date the Dig Site city.
+  - **Archaeologist:** And look here, it has the name of the city too! Saranthium! That must be during the Saradominist occupation. This is a wonderful find. Please take it and place it in display case 45.
+  - **Player:** Right, display case 45 it is...
+- *(If the player did not put the old coin in Case 45)*
+  - **Archaeologist:** Back again? Have you put the old coin in display case 45 yet?
+  - **Player:**No, I'll go do that now.
+- (Condition: If showing an old symbol:)
+  - **Player:** I found this really old decoration - is it of any use?
+  - **Archaeologist:** Wow! That's in rather good condition, isn't it? An old altar decoration by the looks of things, from the Saradominist city no doubt. Put it in display case 36.
+  - **Player:** Case 36 it is!
+- *(If the player did not put the old symbol in case 36)*
+  - **Archaeologist:**Back again? Have you put the symbol in display case 36 yet?
+  - **Player:**No, I'll go do that now.
+- (Condition: If showing pottery:)
+  - **Player:** I found this piece of pottery - is it of any use?
+  - **Archaeologist:** Ahh... Oh! Hmm...yes...made by Zaros worshippers, by the looks of it. Beautifully-shaped. It looks as if this would go nicely in display case 39. This piece reinforces our evidence that the city was occupied by Zarosians before Saradominists.
+  - **Player:** Case 39 it is!
+- *(If the player did not put the pottery in case 39)*
+  - **Archaeologist:**Back again? Have you put the pottery in display case 39 yet?
+  - **Player:**No, I'll go do that now.
+- (Condition: If showing an unrelated item:)
+  - **Archaeologist:** Thank you, but I don't need that.
+- **Archaeologist:** An interesting find... Here, let me offer you something in return.

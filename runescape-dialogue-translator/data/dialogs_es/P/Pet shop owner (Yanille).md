@@ -1,0 +1,173 @@
+# Pet shop owner (Yanille)
+
+- **Original Wiki Page**: [Transcript:Pet shop owner (Yanille)](https://runescape.wiki/w/Transcript%3APet%20shop%20owner%20%28Yanille%29)
+- **Letter**: `P`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Standard Dialogue
+
+- [Menu]: Elige una opción:
+  - [Choice]: ¿Puedo ver su tienda, por favor?
+    - **Player:** ¿Puedo ver su tienda, por favor?
+    - (opens=Pet Shop (Yanille))
+  - [Choice]: ¿Cuánto cuesta ese cachorro en la ventana?
+    - **Player:** ¿Cuánto cuesta ese cachorro en la ventana?
+    - **Dueño de la tienda de mascotas:** ¿El que tiene la cola meneando?
+      - *(Abre la interfaz Elige un cachorro:)*
+      - [Menu]: Elige un cachorro
+        - [Choice]: labrador
+        - **Player:** No, el labrador.
+          - **Propietario de la tienda de mascotas:** 500 de oro.
+          - **Player:** ¿No es un poco caro?
+          - **Propietario de una tienda de mascotas:** Bueno, si los regaláramos, la gente simplemente los compraría y los tiraría sin preocuparse.
+          - **Propietario de una tienda de mascotas:** Los perros son una gran responsabilidad y deben ser cuidados.
+          - **Propietario de una tienda de mascotas:** Si una persona no está dispuesta a invertir 500 coins, entonces, en primer lugar, no merece tener el cachorro.
+          - **Propietario de la tienda de mascotas:** Entonces, ¿todavía quieres uno?
+          - [Menu]: Selecciona una opción
+            - [Choice]: Está bien, me quedo con el labrador.
+              - **Player:** Está bien, me quedo con el Labrador.
+              - **Propietario de la tienda de mascotas:** ¡Ahí lo tienes! Espero que ustedes dos se lleven bien.
+            - [Choice]: No gracias.
+              - **Player:** No, gracias.
+          - (Condición: si el inventario de el player está lleno:) {{anchor|inventoryfull}}
+            - **Dueño de la tienda de mascotas:** ¿Dónde lo vas a poner, en tu cabeza?
+            - **Propietario de una tienda de mascotas:** No puedes comprar un cachorro a menos que tengas espacio para sostenerlo.
+            - **Player:** Buen punto, guardaré algunos artículos.
+        - [Choice]: bulldog
+          - **Player:** No, el bulldog.
+          - (Condition: Si el player tiene espacio libre en el inventario:)
+            - (above|priceandresponsibility)
+            - [Menu]: Selecciona una opción
+              - [Choice]: Está bien, me quedo con el bulldog.
+                - **Player:** Está bien, me quedo con el Bulldog.
+                - **Propietario de la tienda de mascotas:** ¡Ahí lo tienes! Espero que ustedes dos se lleven bien.
+              - [Choice]: No gracias.
+                - **Player:** No, gracias.
+          - (Condition: Si el inventario de el player está lleno:)
+            - (above|inventoryfull)
+        - [Choice]: dálmata
+          - **Player:** No, el dálmata.
+          - (Condition: Si el player tiene espacio libre en el inventario:)
+            - (above|priceandresponsibility)
+            - [Menu]: Selecciona una opción
+              - [Choice]: Bien, me quedo con el dálmata.
+                - **Player:** Está bien, me quedo con el dálmata.
+                - **Propietario de la tienda de mascotas:** ¡Ahí lo tienes! Espero que ustedes dos se lleven bien.
+              - [Choice]: No gracias.
+                - **Player:** No, gracias.
+          - (Condition: Si el inventario de el player está lleno:)
+            - (above|inventoryfull)
+        - [Choice]: Galgo
+          - **Player:** No, el galgo.
+          - (Condition: Si el player tiene espacio libre en el inventario:)
+            - (above|priceandresponsibility)
+            - [Menu]: Selecciona una opción
+              - [Choice]: Está bien, me quedo con el galgo.
+                - **Player:** Está bien, me quedo con el Greyhound.
+                - **Propietario de la tienda de mascotas:** ¡Ahí lo tienes! Espero que ustedes dos se lleven bien.
+              - [Choice]: No gracias.
+                - **Player:** No, gracias.
+          - (Condition: Si el inventario de el player está lleno:)
+            - (above|inventoryfull)
+        - [Choice]: terrier
+          - **Player:** No, el terrier.
+          - (Condition: Si el player tiene espacio libre en el inventario:)
+            - (above|priceandresponsibility)
+            - [Menu]: Selecciona una opción
+              - [Choice]: Está bien, me quedo con el terrier.
+                - **Player:** Está bien, me quedo con el Terrier.
+                - **Propietario de la tienda de mascotas:** ¡Ahí lo tienes! Espero que ustedes dos se lleven bien.
+              - [Choice]: No gracias.
+                - **Player:** No, gracias.
+          - (Condition: Si el inventario de el player está lleno:)
+            - (above|inventoryfull)
+        - [Choice]: perro pastor
+          - **Player:** No, el perro pastor.
+          - (Condition: Si el player tiene espacio libre en el inventario:)
+            - (above|priceandresponsibility)
+            - [Menu]: Selecciona una opción
+              - [Choice]: Está bien, me quedo con el perro pastor.
+                - **Player:** Está bien, me quedo con el perro pastor.
+                - **Propietario de la tienda de mascotas:** ¡Ahí lo tienes! Espero que ustedes dos se lleven bien.
+              - [Choice]: No gracias.
+                - **Player:** No, gracias.
+          - (Condition: Si el inventario de el player está lleno:)
+            - (above|inventoryfull)
+    - (Condition: Si el player ya tiene un cachorro siguiéndolo o en el banco o inventario:)
+      - **Dueño de una tienda de mascotas:** Me preguntaste eso la última vez que recogiste un perro y no puedo venderte otro.
+  - [Choice]: Entonces, ¿qué tipo de mascotas hay disponibles?
+    - **Player:** Entonces, ¿qué tipo de mascotas hay disponibles?
+    - **Propietario de la tienda de mascotas:** Bueno, aquí vendemos perros, pero también tenemos suministros para cualquier otra criatura que quieras criar.
+    - **Player:** ¿Por ejemplo?
+    - **Dueño de una tienda de mascotas:** Bueno, vendemos nueces. Se pueden utilizar para alimentar a las ardillas. Si quieres capturar una ardilla, necesitarás usar las nueces de la trampa que colocaste, ya que los pequeños bribones no se dejarán engañar por nada más.
+    - **Player:** ¡Lo tendré en cuenta!
+    - **Propietario de una tienda de mascotas:** También hay varias aves que viven en los bosques del mundo. Si puedes encontrar sus huevos, puedes usar la incubadora que está allí para incubarlos.
+    - **Propietario de la tienda de mascotas:** Mientras seas lo primero que vean fuera del caparazón, te seguirán a cualquier parte.
+    - **Propietario de la tienda de mascotas:** Después de eso, solo necesitas alimentar al polluelo con cebo de pesca terrestre hasta que tenga la edad suficiente para comerlo sólido.
+    - **Player:** Me aseguraré de vigilarlos si voy a algún lugar peligroso.
+    - **Propietario de una tienda de mascotas:** También hay varios lagartos fabulosos y exóticos en Karamja. Algunos pueden quedar atrapados fácilmente en una trampa de caja, mientras que otros deberán criarse a partir de un huevo.
+    - **Player:** ¿La incubadora también funcionará para ellos?
+    - **Propietario de la tienda de mascotas:** ¡Por supuesto! Estaré atento a todos los huevos que pongas allí, para que nunca acaben duros.
+    - **Player:** ¡Gracias a Dios!
+    - **Propietario de una tienda de mascotas:** Los geckos de Karamja son bastante fáciles de atrapar, como los mapaches. Ambos investigarán alegremente una trampa sin ningún cebo especial.
+    - **Propietario de una tienda de mascotas:** ¡Sin embargo, los monos son una historia diferente!
+    - **Player:** ¿Qué quieres decir?
+    - **Dueño de una tienda de mascotas:** Bueno, son pequeñas cosas inteligentes y pueden salir fácilmente de una caja trampa, a menos que estén atrapadas. La forma más sencilla de hacerlo es poner un plátano en el proceso.
+    - **Propietario de la tienda de mascotas:** ¡Se aferrarán fuerte y nunca los soltarán, incluso cuando la trampa se cierre!
+    - **Player:** ¡Muchas gracias, has sido de gran ayuda!
+    - **Propietario de una tienda de mascotas:** Siempre es un placer ayudar a un compañero amante de los animales. Vuelve y visítanos pronto.
+  - [Choice]: ¿Estás interesado en comprar fragmentos de espíritu?
+    - **Player:** ¿Estás interesado en comprar fragmentos de espíritu?
+    - **Propietario de una tienda de mascotas:** Ciertamente lo soy. ¡Muchos de ellos también!
+      - {{tinput|How many will you sell? (25 coins each, you have #)}}
+      - sombra=si
+      - (end)
+    - (Condition: Si el player no tiene fragmentos de espíritu:)
+      - **Player:** Gracias, lo tendré en cuenta.
+- (Condition: Si a el player se le ha escapado su cachorro, o lo han destrozado:)
+  - [Choice]: ¿Tienes algún perro callejero?
+    - **Player:** ¿Tienes algún perro callejero?
+    - **Propietario de la tienda de mascotas:** Déjame revisar mis registros...
+    - **Propietario de la tienda de mascotas:** ¡Estás de suerte! ¡Tengo un stray dog!
+    - **Player:** ¿En serio? ¿Me dejarías darle un hogar?
+    - **Propietario de la tienda de mascotas:** Primero solo tengo que hacerte algunas preguntas para asegurarme de que eres adecuado.
+    - **Propietario de la tienda de mascotas:** Bien, pregunta 1.
+    - **Dueño de una tienda de mascotas:** ¿Cuál es tu tipo de perro favorito?
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¡Terrier!
+        - **Player:** ¡Terrier!
+        - **Propietario de la tienda de mascotas:** Bueno, ¡eso fue una coincidencia! ¡Cuídalo bien!
+        - [¡El comerciante te entrega un terrier!]
+      - [Choice]: ¡Galgo!
+        - **Player:** ¡Galgo!
+        - **Propietario de la tienda de mascotas:** Bueno, ¡eso fue una coincidencia! ¡Cuídalo bien!
+        - [¡El comerciante te entrega un galgo!]
+      - [Choice]: ¡Dálmata!
+        - **Player:** ¡Dálmata!
+        - **Propietario de la tienda de mascotas:** Bueno, ¡eso fue una coincidencia! ¡Cuídalo bien!
+        - [¡El comerciante te entrega un dálmata!
+      - [Choice]: ¡Labrador!
+        - **Player:** ¡Labrador!
+        - **Propietario de la tienda de mascotas:** Bueno, ¡eso fue una coincidencia! ¡Cuídalo bien!
+        - [¡El comerciante te entrega un labrador!]
+      - [Choice]: ¡Perro pastor!
+        - **Player:** ¡Perro pastor!
+        - **Propietario de la tienda de mascotas:** Bueno, ¡eso fue una coincidencia! ¡Cuídalo bien!
+        - [¡El comerciante te entrega un perro pastor!]
+      - [Choice]: ¡Bulldog!
+        - **Player:** ¡Bulldog!
+        - **Propietario de la tienda de mascotas:** Bueno, ¡eso fue una coincidencia! ¡Cuídalo bien!
+        - [¡El comerciante te entrega un bulldog!]
+
+### Summoning pre-release teaser
+
+- (Saliendo de la tienda de mascotas)
+  - **Propietario de la tienda de mascotas:** {{RSChat|Time for your walk.}}
+  - **Bulldog:** {{RSChat|Whurf!}}
+- (Ser hablado)
+  - **Propietario de la tienda de mascotas:** ¡Lo siento, no puedo hablar! ¡Tengo que pasear al perro y preparar la tienda para la gran inauguración!

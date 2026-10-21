@@ -1,0 +1,278 @@
+# Fiara
+
+- **Original Wiki Page**: [Transcript:Fiara](https://runescape.wiki/w/Transcript%3AFiara)
+- **Letter**: `F`
+
+---
+
+## Dialogue Transcript
+
+{{Incomplete|see hidden text - condition needs finding out}}
+
+### In the Fist of Guthix waiting area
+
+
+#### First time dialogue
+
+- (Condition: Talking directly to Fiara:)
+  - As you approach the...big creature thing, it lets out a hiss that sounds partly like a threat and partly like a sigh.
+  - **Player:** Hmm. What was that about?
+  - **Fiara:** *Hiss* Another human. Why do you all keep coming down here?
+  - (continue|Before Fist of Guthix tutorial)
+- (Condition: Talking to Alran, Getorix, or Pontimer first:)
+  - As you approach the...big creature thing, it lets out a hiss that sounds partly like a threat and partly like a sigh.
+  - **Player:** Erm, excuse me...Lady Fiara, but the druids told me to talk to you.
+  - **Fiara:** *Hiss* Yes...the druids. They say and do far more than they should.
+  - **Player:** What's wrong with the druids? They seem to worship you.
+  - **Fiara:** They worship everything that is green or sounds even slightly magical. Not just worship - they stalk. And when they have arrived, it is impossible to get them away. They are like insects.
+  - **Player:** You want to get rid of them, eh? I might be able to-
+  - **Fiara:** No, no. *Hiss* Now you're just like them. "What can we do for you today, oh great Guardian of Guthix, Lady Fiara?"
+  - **Player:** Erm, sorry, I guess.
+  - **Fiara:** *Hiss* Do not worry your feeble mind with it. What was it you wanted? Let's just get it over with.
+  - (continue|Before Fist of Guthix tutorial)
+
+#### Before Fist of Guthix tutorial
+
+- [Menu]: Select an Option
+  - [Choice]: What is this place?
+    - **Player:** What is this place?
+    - **Fiara:** It is the site of the Fist of Guthix.
+    - **Player:** Fist of Guthix? What is that?
+    - **Fiara:** It is what it is. If you do not already know, it's probably best that you don't learn.
+    - **Player:** Umm, okay. What are you all doing down here then?
+    - **Fiara:** *Hiss* Three druids are mainly just walking around NOT being quiet. Another one is setting up a fortress of crates and dragging all kinds of material junk into the cave. The fifth human, who isn't a druid, showed up when the following masses swarmed the cave.
+    - **Player:** I see. But...what drew them here in the first place?
+    - **Fiara:** The Fist of Guthix. And now they try to harness its power through this little business they've set up.
+    - (Condition: If the druids were spoken to beforehand:)
+      - **Player:** Okay, but they told me to talk to you. Why did they want that?
+      - **Fiara:** Because I am the guardian of this site and I need to make sure that their games do not get out of control.
+      - **Player:** Alright. Can you tell me about the games, then?
+      - (continue)
+    - (Condition: If the druids were not spoken to beforehand:)
+      - **Player:** Ooh, that sounds interesting. I am a fan of power, myself.
+      - **Fiara:** I figured you were. After all, you are human.
+      - **Player:** I guess I should talk to the druids about that business, then.
+      - **Fiara:** No, you should not. I am the guardian here. I need to make sure that the rules are obeyed and that their games do not go out of control.
+      - **Player:** Okay, you tell me about it, then.
+      - (continue)
+    - **Fiara:** Okay, I will tell you. Now, listen carefully so that you do not forget.
+    - {{Qact|The Fist of Guthix tutorial starts.}}
+    - **Fiara:** The passageway on my left leads into the {{colour|red|waiting room}}. If you want to participate in the games, this is where you must go.
+    - **Fiara:** Once enough adventurers have gathered, I will pair you up {{colour|red|one-on-one}} against each other, and send you into the arena. The arena is the cave of the Fist of Guthix. Allow me to show you.
+    - {{Qact|Screen fades out and then fades in. Subsequent dialogue appears over views of the Fist of Guthix arena.}}
+    - **Fiara:** Each game is divided into {{colour|red|two rounds}}, and you and your opponent will take turns being the {{colour|red|hunter}} and the {{colour|red|hunted}}. I decide who starts as what.
+    - **Fiara:** While you are the {{colour|red|hunter}}, you will see the text {{colour|red|'Hunting'}} in the {{colour|red|upper right corner}} of the screen.
+    - **Fiara:** While you are the {{colour|red|hunted}}, this text will say {{colour|red|'Hunted by'}}.
+    - {{Qact|View pans to the centre of the arena.}}
+    - **Fiara:** The arena is large and circular, and ancient power emanates from its {{colour|red|centre}}. You will start on opposite sides of this arena.
+    - **Fiara:** The goal of the {{colour|red|hunter}} is simple: chase down and {{colour|red|defeat the hunted}} by any means necessary.
+    - {{Qact|View pans to the stone dispenser.}}
+    - **Fiara:** The goal of the {{colour|red|hunted}} is not quite as easy. When you appear in the arena, you will find yourself close to a small stone altar - a {{colour|red|stone dispenser}}. On top of this, you should see a {{colour|red|glowing stone}}.
+    - **Fiara:** In the role of the {{colour|red|hunted}}, you must pick up a {{colour|red|stone}} from the {{colour|red|dispenser}}. This is what you will use to gather the powerful energy from the centre of the arena.
+    - **Fiara:** While you are {{colour|red|wielding the stone}} - and ONLY while you {{colour|red|hold it in your hands}}, NOT when it's in your backpack - it will draw energy from the Fist of Guthix. Your objective is to get as many of these {{colour|red|charges}} as possible.
+    - **Fiara:** The amount of {{colour|red|charges}} you have gathered is listed in the {{colour|red|upper right corner}}.
+    - **Fiara:** As the {{colour|red|hunted}}, however, you must be careful. Your opponent, the {{colour|red|hunter}}, is there to defeat you. While you are {{colour|red|wielding the stone}}, you will be {{colour|red|unable to fight}}. Also, you may feel very strong, but in the role of the {{colour|red|hunted}}, you will find your {{colour|red|abilities severely drained}}, more as you get closer to the centre - someone who otherwise may be an easy opponent to defeat in combat may instead prove most dangerous.
+    - **Fiara:** You can of course try to fight back against your opponent, even though it may be difficult. Also, as the {{colour|red|hunted}}, you will be limited in your magical abilities as well. Only a certain spellbook can aid you in this role.
+    - **Fiara:** Speaking of {{colour|red|magic}}, I should also mention that you will find that some spells are {{colour|red|not as efficient}} in the cave as they may be in other areas.
+    - **Fiara:** Finally, as the {{colour|red|hunted}}, you will also take {{colour|red|periodic damage}} from the powerful energies in the arena.
+    - **Player:** Okay, so the hunter only has to hunt down their target?
+    - **Fiara:** That is correct.
+    - **Player:** And the hunted will be weaker than usual, has to pick up a stone from the stone dispenser at the edge of the arena, and wield this stone in order to charge it?
+    - **Fiara:** Yes, and the {{colour|red|closer to the centre}} of the arena you are, the more it will be {{colour|red|charged}}.
+    - **Player:** Anything else?
+    - {{Qact|View pans to one of the buildings in the arena.}}
+    - **Fiara:** Yes. You will find four small {{colour|red|buildings}} in the arena. Their doorways are blocked by {{colour|red|magical barriers}}. Only the {{colour|red|hunted}} can enter through these, and, while inside, will be completely {{colour|red|invisible}} to everyone else. The barriers are
+    - **Fiara:** dangerous, however, and will {{colour|red|drain some of your health}} as you pass through them.
+    - **Fiara:** Inside these {{colour|red|houses}}, you will find {{colour|red|portals}}. you can use them to {{colour|red|teleport from house to house}} - still {{colour|red|invisible}} to everyone else - but be aware that the magic is very old and the portals have not been actively used for thousands of years.
+    - **Fiara:** They may act a bit strangely from time to time. Also, the portals require energy to work properly, and will {{colour|red|drain some charges}} from your stone. If you don't have enough charges, you won't be able to use the portal.
+    - **Player:** Okay, I will keep that in mind. So, when does the round end?
+    - **Fiara:** A round can end in four different ways;
+    - **Fiara:** One: If the {{colour|red|hunted is defeated}}.
+    - **Fiara:** Two: If the hunted {{colour|red|completely charges his or her stone}} - which is unlikely to happen.
+    - {{Qact|A scoreboard and 'Time left:' bar appear on screen.}}
+    - **Fiara:** Three: If the {{colour|red|time runs out}} - each round can take no longer than ten minutes. You can see how much time there is left in the {{colour|red|lower left corner}} of the screen.
+    - {{Qact|View pans to the exit of the arena.}}
+    - **Fiara:** Four: If either player {{colour|red|leaves the arena}}, in which case the other one will be declared the winner. The forfeiter will also be flagged as such as receive less tokens in the next game they play.
+    - **Fiara:** When the first round as ended, the second round {{colour|red|starts immediately}} and the roles switch. The one who played the {{colour|red|hunter}} in first round will now have a chance to play the {{colour|red|hunted}} and gather {{colour|red|charges}}.
+    - **Fiara:** When both rounds have been played, the one with the {{colour|red|most charges wins}}.
+    - **Player:** Ooh, what are the rewards?
+    - **Fiara:** The druids put a lot of value into the gathered energy, and you will be {{colour|red|awarded Fist of Guthix tokens}}. How many tokens you get depends on your {{colour|red|total skill level}} - a wide and balanced array of knowledge is something positive in
+    - **Fiara:** the eyes of Guthix - and how many {{colour|red|charges}} you've got.
+    - **Fiara:** The {{colour|red|Fist of Guthix tokens}} can then be {{colour|red|spent on items}} in the shop the druids have decided to clutter my cave with.
+    - **Fiara:** You will also be awarded a {{colour|red|rating}}, which is completely separate from the tokens. This will simply to keep track of how well you play the game. If you win, your rating improves. If you lose, your rating will suffer.
+    - **Fiara:** Your rating will improve significantly if you gather a lot {{colour|red|more charges than your opponent}}. Also, the rating will be further adjusted if the difference in combat levels is large. If you lose to someone much more capable than you in combat,
+    - **Fiara:** your rating won't suffer as much if you lost to someone around your own level.
+    - **Player:** Is that it?
+    - **Fiara:** Almost. Patience is a great virtue.
+    - **Fiara:** Finally, you cannot bring just anything you want into the game. {{colour|red|Only items usable in combat}}, but {{colour|red|no food}} and {{colour|red|no potions}}. I will supply you with some means of healing and a large amount of {{colour|red|generic runes}}, called {{colour|red|elemental runes}} and
+    - **Fiara:** {{colour|red|catalytic runes}}, for your {{colour|red|magic}}. These {{colour|red|runes}} can be used in place of any other runes you can take with you, but do note that they can only be used in the Fist of Guthix cave. Also, any {{colour|red|arrows}} or other forms of {{colour|red|ammunition}} used in
+    - **Fiara:** the arena will be handed back to you after the game. Assuming they are still inTact, of course. And don't leave anything lying around! I don't want you to complete ruin this sacred site.
+    - {{Qact|Screen fades out and then fades back in. The view is back in the Fist of Guthix lobby.}}
+    - **Fiara:** Now, do you have any questions?
+    - (continue|about-fist-of-guthix)
+  - [Choice]: What are you?
+    - **Player:** What are you?
+    - **Fiara:** I am Fiara, Guardian of Guthix. What are you?
+    - [Menu]: Select an Option
+      - [Choice]: I am Player. What are you guarding?
+        - **Player:** I am Player. What are you guarding?
+        - **Fiara:** Hello, Player. I am guarding this very site.
+        - **Player:** And what's so special about it?
+        - **Fiara:** It is the site of the Fist of Guthix. If you do not already know that, you are probably not fit to learn.
+        - **Fiara:** Is there anything else I can help you with?
+        - (continue|what-place)
+      - [Choice]: I am Player, a Guardian of Saradomin.
+        - **Player:** I am Player, a Guardian of Saradomin.
+        - **Fiara:** Hello, Player, blind follower of the evil good and keeper of lies. Was there anything else you wanted?
+        - (continue|what-place)
+      - [Choice]: I am Player, also a Guardian of Guthix.
+        - **Player:** I am Player, also a Guardian of Guthix.
+        - **Fiara:** Hello, Player, seer of light but bringer of lies. Was there anything else you wanted?
+        - (continue|what-place)
+      - [Choice]: I am Player, a Guardian of Zamorak.
+        - **Player:** I am Player, a Guardian of Zamorak.
+        - **Fiara:** Hello, Player, follower of the usurper and bringer of your own demise. Was there anything else you wanted?
+        - [Menu]: Select an Option
+          - [Choice]: What is this place?
+            - (above|place)
+          - [Choice]: No, thanks.
+            - **Player:** No, thanks.
+  - [Choice]: Never mind.
+    - **Player:** Never mind.
+
+#### After the Fist of Guthix tutorial
+
+- (Condition: Before the player introduces themselves:)
+  - **Fiara:** Can I help you?
+- (Condition: If the player introduced themselves as a Guardian of Saradomin:)
+  - **Fiara:** Hello, blind follower of evil good and keeper of lies. Can one such as I be of any help to you?
+- (Condition: If the player introduced themselves as a Guardian of Guthix:)
+  - **Fiara:** Hello, Player, what tales do you bring with you today? One would think you'd already know whatever I have to tell you.
+- (Condition: If the player introduced themselves as a Guardian of Zamorak:)
+  - **Fiara:** Hello, usurper, Should you not be raining destruction on those who want nothing to do with you?
+- (Condition: If the player introduced themselves with no alignment, or after asking to just be called Player:)
+  - **Fiara:** Greetings, Player, can I be of assistance?
+- [Menu]: Select an Option
+  - [Choice]: I have some questions about the Fist of Guthix game.
+    - [Menu]: Select an Option
+      - [Choice]: Could you tell me all about the game again?
+        - **Fiara:** Okay, I will tell you. Now, listen carefully, so that you do not forget.
+        - {{Qact|The Fist of Guthix tutorial starts.}}
+        - (above2|tutorial)
+        - **Fiara:** Now, do you have any questions?
+        - (previous)
+      - [Choice]: How do I get charges?
+        - **Player:** How do I get charges?
+        - **Fiara:** You can only get charges while you are in the role of the {{colour|red|hunted}}. When the game starts, look around you - there should be a {{colour|red|stone dispenser}} nearby. Pick up a {{colour|red|magical stone}} from there and {{colour|red|wield it}} to gather {{colour|red|charges}}. The closer to the centre you are, the more {{colour|red|charges}} you will get.
+        - **Fiara:**Any more questions?
+        - [Menu]: Select an Option {{fact|does the Just call me player options also appear here?}}
+          - [Choice]: I have more questions about the Fist of Guthix game.
+            - (previous)
+          - [Choice]: What are you?
+            - (below)
+          - [Choice]: cond=If the player is not playing on mobile:|No, thanks.
+            - **Player:** No, thanks.
+        - [Choice]: Why can't I get into the arena?
+      - **Player:** Why can't I get into the game?
+        - **Fiara:** There must be enough players in the waiting room for a game to start. Also, there can only be a certain amount of players in the game at any time.
+        - **Fiara:** Any more questions?
+        - (above|morequestions)
+      - [Choice]: I keep losing all the time!
+        - **Player:** I keep losing all the time!
+        - **Fiara:** That was not a question, but I will give you some tips.
+        - **Fiara:** Remember that the {{colour|red|closer you are to the centre}} of the arena, the {{colour|red|weaker you will become}}. If you find yourself getting defeated easily and that your armour does you no good, you may want to try to flee to the outer edges of
+        - **Fiara:** the arena where you will be less weakened. This also applies to your opponent. if it is someone who appears to be a lot stronger than you, he or she will still be very weak closer to the centre - this is where you should strike.
+        - **Fiara:** You should also know that while you are in the very centre, the energy from the Fist of Guthix will help you replenish your run energy much faster than usual.
+        - **Fiara:** Also, use the ruins of the past to your advantage. Hide behind rubble and make a run for it when your opponent is out of reach. Use the buildings to hide or as a means of escape.
+        - **Fiara:** Any more questions?
+        - (above|morequestions)
+      - [Choice]: cond=If the player is not playing on mobile:|Never mind.
+        - **Player:** Never mind.
+  - [Choice]: What are you?
+    - **Player:** What are you?
+    - (Condition: If the player has not introduced themselves yet:)
+      - **Fiara:** I am Fiara, Guardian of Guthix. What are you?
+      - [Menu]: Select an Option
+        - [Choice]: I am Player. What are you guarding?
+          - **Player:** I am Player. What are you guarding?
+          - **Fiara:** Hello, Player. I am guarding this very site.
+          - **Player:** And what's so special about it?
+          - **Fiara:** It is the site of the Fist of Guthix. If you do not already know that, you are probably not fit to learn.
+          - **Fiara:** Is there anything else I can help you with?
+          - (continue|some-questions)
+        - [Choice]: I am Player, a Guardian of Saradomin.
+          - **Player:** I am Player, a Guardian of Saradomin.
+          - **Fiara:** Hello, Player, blind follower of the evil good and keeper of lies. Was there anything else you wanted?
+          - (continue|some-questions)
+        - [Choice]: I am Player, also a Guardian of Guthix.
+          - **Player:** I am Player, also a Guardian of Guthix.
+          - **Fiara:** Hello, Player, seer of light but bringer of lies. Was there anything else you wanted?
+          - (continue|some-questions)
+        - [Choice]: I am Player, a Guardian of Zamorak.
+          - **Player:** I am Player, a Guardian of Zamorak.
+          - **Fiara:** Hello, Player, follower of the usurper and bringer of your own demise. Was there anything else you wanted?
+          - (continue|some-questions)
+    - (Condition: If the player has introduced themselves before:)
+      - **Fiara:** I am Fiara, a Guardian of Guthix.
+      - **Player:** And you are guarding the Fist of Guthix, which, if I don't already know about, I am not fit to know about?
+      - **Fiara:** That is correct. Was there anything else?
+      - [Menu]: Select an Option
+        - [Choice]: I have some questions about the Fist of Guthix game.
+          - (above|questions-fog-game)
+        - [Choice]: No, thanks.
+          - **Player:** No, thanks.
+  - [Choice]: cond=If the player aligned themselves with one of the gods in their introduction, and before this option is used:|Just call me Player.
+    - **Player:** Just call me Player.
+    - **Fiara:** Alright, Player the Indecisive. How can I be of assistance?
+    - (other)
+  - [Choice]: cond=If the player is not playing on mobile:|Never mind.
+    - **Player:** Never mind.
+
+##### If The World Wakes has been completed
+
+- (Condition: Before the player introduces themselves:)
+  - **Fiara:** Can I help you?
+  - (continue)
+- (Condition: If the player introduced themselves as a Guardian of Saradomin:)
+  - **Fiara:** Hello, blind follower of evil good and keeper of lies. Can one such as I be of any help to you?
+  - (continue)
+- (Condition: If the player introduced themselves as a Guardian of Guthix:)
+  - **Fiara:** Hello, Player, what tales do you bring with you today? One would think you'd already know whatever I have to tell you.
+  - (continue)
+- (Condition: If the player introduced themselves as a Guardian of Zamorak:)
+  - **Fiara:** Hello, usurper, Should you not be raining destruction on those who want nothing to do with you?
+  - (continue)
+- (Condition: If the player introduced themselves with no alignment, or after asking to just be called Player:)
+  - **Fiara:** Greetings, Player, can I be of assistance?
+  - (continue)
+- [Menu]: Select an Option
+  - [Choice]: I'd like to talk about the Fist of Guthix.
+    - (above|about-fist-of-guthix)
+  - [Choice]: What do you think will happen now Guthix is dead?
+    - **Fiara:** There is no going back now. The young gods will return, one by one.
+    - **Fiara:** They will not share land, or followers. They are greedy, every last one of them.
+    - **Fiara:** We cannot let another God Wars happen. Guthix may be gone, but we still stand.
+    - **Fiara:** I will never stop fighting for him. And you should remember the gift he gave you.
+    - [Menu]: Select an Option
+      - [Choice]: I'd like to talk about the Fist of Guthix.
+        - (above|about-fist-of-guthix)
+      - [Choice]: That's all, thanks.
+        - (end)
+<!-- Not sure where this fits in
+    - (Condition: First time talking to Fiara without introducing yourself:)
+    - What are you?
+      - **Player:** What are you?
+      - **Fiara:** I am Fiara, a Guardian of Guthix.
+      - **Player:** What are you guarding?
+      - **Fiara:** Guthix placed me here thousands of years ago to guard the Fist of Guthix.
+      - **Player:** You're guarding Guthix's hand...?
+      - **Fiara:** Do not take everything literally. No, I have been the guardian of this sacred site since the end of the Third Age, and it does not contain a hand.
+      - **Player:** What is it that you're guarding, then?
+      - **Fiara:** I have already told you. Now, was there anything else?
+        - **Select an Option**
+          - What is this place?
+          - **Player:** What is this place?
+          - No, nothing else.
+            - **Player:** No, nothing else.
+              - (end)
+-->

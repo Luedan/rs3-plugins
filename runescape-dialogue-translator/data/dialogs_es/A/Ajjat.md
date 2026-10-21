@@ -1,0 +1,123 @@
+# Ajjat
+
+- **Original Wiki Page**: [Transcript:Ajjat](https://runescape.wiki/w/Transcript%3AAjjat)
+- **Letter**: `A`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### In the Warriors' Guild
+
+- **Ajjat:** Saludos, compañero guerrero. Soy Ajjat, ex Black Knight y ahora training officer aquí en Warriors' Guild.
+- (Condition: Si el player tiene 99 de ataque:)
+  - **Ajjat:** Ah, pero veo que ya eres un maestro en el fino arte de atacar. ¿Quizás has venido a mí para comprar un Skillcape of Attack y así unirte a la élite que domina esta exigente habilidad?
+  - (continue)
+- [Menu]: Selecciona una opción
+  - [Choice]: cond=If the player does not have 99 Attack:|¿Puedes hablarme de skillcapes, por favor?
+    - **Ajjat:** Skillcapes, también conocidos como Capes of Accomplishment, están reservados para la élite de la élite. Sólo una persona que realmente ha dominado una habilidad puede comprar uno, e incluso entonces un skillcape y sólo se lo puede comprar a alguien que sea reconocido como
+    - **Ajjat:** el más hábil del país en cualquier habilidad en particular. Tengo el privilegio de ser la persona que controla el acceso al Skillcape of Attack. ¿Hay algo más en lo que pueda ayudarte?
+    - (initial)
+  - [Choice]: cond=If the player has 99 Attack:|¿Puedo comprar un Skillcape of Attack, por favor?
+    - (Condition: Si el player no tiene un ring of charos(a) equipado:)
+      - **Ajjat:** Sin duda; Desafortunadamente, siendo un artículo tan prestigioso, son apropiadamente caros. Me temo que debo pedirte 99.000 de oro.
+      - (continue)
+    - (Condition: Si el player tiene un ring of charos (a) equipado:)
+      - **Ajjat:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins para este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
+      - (continue)
+    - (Condition: Con un token inverted skillcape:)
+      - **Ajjat:** ¡Veo que tienes una de las fichas de inversión de capa de Han! Te quitaré eso de las manos y te venderé cualquier inverted cape para el que seas elegible.
+      - (removes=inverted skillcape token)
+      - (continue)
+    - [Menu]: Elige una opción:
+      - [Choice]: cond=While wearing an activated or imbued ring of charos:|¿92.000 coins? Eso es demasiado caro.
+        - **Player:** Sé dónde encontrarte si cambio de opinión.
+      - [Choice]: cond=Without an activated or imbued ring of charos:|¿99.000 coins? Eso es demasiado caro.
+        - **Player:** Sé dónde encontrarte si cambio de opinión.
+      - [Choice]: De hecho, creo que tengo el dinero aquí.
+        - (Condition: Si el player no tiene espacio backpack:)
+          - **Ajjat:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar espacio en backpack antes de que pueda venderte uno.
+        - (Condition: Si el player no tiene suficiente dinero:)
+          - **Player:** Pero desafortunadamente me equivoqué.
+          - **Ajjat:** Bueno, vuelve a verme cuando lo hagas.
+        - (Condition: Si el player tiene suficiente dinero:)
+          - (elimina=92,000 o 99,000 coins) (recibe=Attack cape y Attack hood)
+          - **Ajjat:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+      - [Choice]: cond=Having unlocked the inverted skillcape:|Me gustaría un skillcape con los colores invertidos.
+        - (Condition: Sin suficiente coins:)
+          - **Player:** Pero, desafortunadamente, no tengo suficiente coins.
+          - **Ajjat:** Bueno, vuelve a verme cuando lo hagas.
+        - (Condition: Sin un espacio backpack libre:)
+          - **Ajjat:** Desafortunadamente necesitarás liberar algo de espacio en backpack antes de que pueda venderte uno.
+        - (Condition: Con suficiente coins y dos espacios libres en backpack:)
+          - (elimina = 92,000 o 99,000 coins) (recibe = una capa de Nigromancia con capucha invertida)
+          - **Ajjat:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+      - [Choice]: cond=Only with true skill mastery in Attack:|He dominado esta habilidad. ¿Hay algo más?
+        - **Ajjat:** Hay algo... aunque lo he mantenido en secreto durante mucho tiempo. Es algo que sólo puede ser usado por un verdadero maestro.
+        - **Ajjat:** Ni siquiera yo puedo usarlo, así de difícil es lograrlo.
+        - **Ajjat:** Dices que eres un maestro. Ponte derecho, déjame echarte un vistazo...
+        - **Ajjat:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Attack master cape.
+        - [Menu]: ¿Comprar Attack master cape por 120.000 coins?
+          - [Choice]: Sí.
+            - (Condition: Sin espacio libre backpack:)
+              - **Ajjat:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
+            - (Condition: Con espacio gratuito backpack:)
+              - (Condition: Sin 120.000 coins:)
+                - No tienes suficiente dinero para comprar esta capa.
+                - (ventana emergente)
+                  - (Ventana emergente: No tienes suficiente dinero para comprar esta capa).
+              - (Condition: Con 120.000 coins:)
+                - (elimina=120,000 coins) (recibe=Attack master cape)
+                - (Action: Suena música Master cape.)
+          - [Choice]: No.
+            - (end)
+  - [Choice]: ¿Black Knight? ¿Por qué estás aquí?
+    - **Player:** ¿Black Knight? ¿Por qué estás aquí?
+    - **Ajjat:** De hecho lo era, sin embargo, sus... métodos no coincidían con mis ideales, así que me fui. Harrallak, reconociendo mi talento como guerrero, me acogió y me ofreció trabajo aquí.
+    - **Player:** Hmm... bueno, si Harrallak confía en ti, supongo que puedo hacerlo.
+    - (initial)
+  - [Choice]: ¿De qué se trata el dummy room?
+    - **Player:** ¿De qué se trata el Dummy Room?
+    - **Ajjat:** Ahh sí, el dummies. Otro ingenioso invento del noble enano, Gamfred. Son mecánicos, ¿sabe?, y emergen del suelo. Tienes que golpearlos con el modo de ataque correcto antes de que vuelvan a desaparecer.
+    - **Player:** Entonces, ¿cómo puedo saber cuál es cuál?
+    - **Ajjat:** Hay dos formas diferentes. Una indicación es su color, la otra es la pose y las armas que llevan, por ejemplo, la que lleva daggers tendrás que golpearla con un piercing attack.
+    - **Ajjat:** En la habitación, encontrarás un cartel en la pared que te ayudará a reconocer cada muñeco diferente.
+    - **Player:** ¡Eso suena ingenioso!
+    - **Ajjat:** De hecho, es posible que necesites varias armas para tener éxito todo el tiempo, pero sigue intentándolo. La tienda de armas de arriba puede ayudarte allí.
+    - (initial)
+  - [Choice]: cond=If the player has 99 Attack|He notado que hay un par de versiones de cada skillcape.
+    - **Ajjat:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
+    - (Condition: Si el player utiliza el modelo antiguo:)
+      - **Ajjat:** Parece que actualmente estás usando el modelo antiguo para tu Attack skillcape. ¿Quieres cambiar a uno más nuevo?
+      - (continue)
+    - (Condition: Si el player está utilizando el nuevo modelo:)
+      - **Ajjat:** Aún puedes optar por usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
+      - (continue)
+    - [Menu]: Selecciona una opción
+      - [Choice]: Sí, me gustaría usar la versión [new/old] del skillcape.
+        - **Ajjat:** ¿Te gustaría usar el modelo [old/newer] solo para esta capa, o para el Quest Cape y todos los skillcapes que tienes?
+        - [Menu]: Selecciona una opción
+          - [Choice]: Sólo me gustaría cambiar el ataque skillcape.
+            - **Ajjat:** No hay problema, ahora usarás el modelo [older/newer] para tu Attack skillcape.
+          - [Choice]: Me gustaría cambiar todos mis skillcapes.
+            - **Ajjat:** ¡No hay problema, ahora usarás el modelo [older/newer] para todos tus skillcapes!
+          - [Choice]: ¡He cambiado de opinión!
+            - (end)
+      - [Choice]: No, gracias.
+        - **Ajjat:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
+        - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+          - **Ajjat:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
+          - [Menu]: Selecciona una opción
+            - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.
+              - **Ajjat:** ¡Genial, ahora usarás el modelo antiguo para todos tus skillcapes!
+            - [Choice]: No, gracias.
+              - (end)
+  - [Choice]: ¡Adiós!
+    - **Player:** ¡Adiós!
+    - **Ajjat:** Adiós, guerrero. Manténgase alejado del lado oscuro.
+
+### Heart of Gielinor: Encampment
+
+- (ver|Corazón de Gielinor: Campamento)

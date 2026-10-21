@@ -1,0 +1,95 @@
+# Ramokee Skinweaver (Polypore Dungeon)
+
+- **Original Wiki Page**: [Transcript:Ramokee Skinweaver (Polypore Dungeon)](https://runescape.wiki/w/Transcript%3ARamokee%20Skinweaver%20%28Polypore%20Dungeon%29)
+- **Letter**: `R`
+
+---
+
+## Dialogue Transcript
+
+
+### In the [[Polypore Dungeon]]
+
+- **Ramokee Skinweaver:** Mmmm?
+- Select an option
+  - Hello, I'm Player.
+    - **Player:** Hello, I'm Player.
+    - **Ramokee Skinweaver:** Skip the chit-chat, human.
+    - (previous|initial-options)
+  - I'd like to ask you about yourself.
+    - **Player:** I'd like to ask you about yourself.
+    - **Ramokee Skinweaver:** Alright.
+      - Who are you?
+        - **Player:** Who are you?
+        - **Ramokee Skinweaver:** Your question is vague, and it has many answers. If you want to know my race, I am gorajo. If you want to know my class, I was born as a skinweaver. If you want to know my tribe, I serve no tribe, so I am called a ramokee. I am all those things, but they do not define who I am.
+        - (previous|ask-about-ramokee)
+      - Why are you here?
+        - **Player:** Why are you here?
+        - **Ramokee Skinweaver:** I am here because I wish to be here. But perhaps that is not what you meant to ask; I shall tell you more of my history. Among my race, skinweavers are rare. Almost as soon as we are born, the tribe expects us to undergo intensive training, learning to serve as healers. I had not asked to be a skinweaver; my class was a mere accident of fate, yet it set the course of my entire life. That is the gorajo way, and I rejected it. Once I had mastered my powers, I left the tribe, becoming a ramokee. Now I serve no-one, and my powers are mine to use as I wish.
+        - (previous|ask-about-ramokee)
+          - That was very selfish of you.
+            - **Player:** That was very selfish of you.
+            - **Ramokee Skinweaver:** Human, I could dissolve your heart with a mere thought. Do not interrupt me.
+              - *(Continues below)*
+          - I admire your independence.
+            - **Player:** I admire your independence.
+            - **Ramokee Skinweaver:** That is right and proper. I shall continue.
+              - *(Continues below)*
+          - I'll leave you alone now.
+            - (below|leave-alone)
+        - **Ramokee Skinweaver:** Wandering alone, I came across a strange hole in the world, and passed through it into a land unlike any I had ever seen. Its winged inhabitants called it Zanaris.
+        - **Player:** Zanaris? Yes, I've been there.
+        - **Ramokee Skinweaver:** The hole, through which I had entered Zanaris, closed itself. The creatures of Zanaris said that it must have been an unstable portal; such things happen there. Although I could no longer return to my world, I had no desire to do so. There was nothing back there to interest me. Zanaris had rings of magical fungus through which I could travel from world to world. One such journey brought me to your world. As a skinweaver, I was fascinated by the fungus in those rings. It is a living organism, yet it contains magical power. I began to study fungi. I experimented on the fungi that were native to this damp cave, and I learned to imbue some of my own skinweaving powers into them. I could even weave the fungi around the native beasts, creating completely new creatures. They already had brute strength, but my fungus gave them magic. So now this cave is my home, where I can use my skinweaving powers to create whatever I wish. It is satisfactory.
+        - (previous|ask-about-ramokee)
+      - Can I fight you?
+        - **Player:** Can I fight you?
+        - **Ramokee Skinweaver:** Human, I am a skinweaver. I can strip the flesh from your bones with a mere thought, then grow it into a more pleasing shape. Before you could strike me, you would find your intestines growing out through your nose.
+        - **Player:** I'll bear that in mind.
+        - (previous|ask-about-ramokee)
+      - Let's talk about something else.
+        - **Player:** Let's talk about something else.
+        - **Ramokee Skinweaver:** If you must.
+        - (initial|initial-options)
+  - I'd like to ask you about this place.
+    - **Player:** I'd like to ask you about this place.
+    - **Ramokee Skinweaver:** This place? It is my home. What about it?
+    - Select an option
+      - Why is the cave full of fungus?
+        - **Player:** Why is the cave full of fungus?
+        - **Ramokee Skinweaver:** Fungi are incredibly flexible life forms. I can imbue my powers into them, then grow them all over the beasts of the cave to make new kinds of creature. When I arrived here, the cave already contained fungi because this is a naturally damp region. I have simply encouraged the growth of these amazing organisms.
+        - (previous|ask-about-place)
+      - What do you do here?
+        - **Player:** What do you do here?
+        - **Ramokee Skinweaver:** I do whatever I wish! There is no tribe here to make demands of me. My powers are mine to use as I please. I have learned to imbue my skinweaving powers into the fungus of this cave. By growing it onto the native beasts, I have created new forms of life. I also make simple garments of mycelium. The merchant sells these upstairs. If you gather flakes of my fungus from my creatures, you can try to stitch the fungus to the mycelium garments to make protective armour imbued with my magical powers.
+        - (previous|ask-about-place)
+      - Let's talk about something else.
+        - **Player:** Let's talk about something else.
+        - **Ramokee Skinweaver:** If you must.
+        - (initial|initial-options)
+  - I'd like to ask you about these creatures.
+    - **Player:** I'd like to ask you about these creatures.
+    - **Ramokee Skinweaver:** My creatures? Alright, go ahead.
+    - Select an option
+      - What are these creatures?
+        - **Player:** What are these creatures?
+        - **Ramokee Skinweaver:** When I first arrived here, they were mindless beasts lumbering around the cave, squatting in slime. They had brute strength, but nothing more. As I learned to imbue my powers into the native fungi, I was able to grow my fungi onto the creatures, and I adapted their bodies to receive it. In my creatures, I have achieved a perfect combination of the magical powers of the fungus with the strength and voracity of the beast.
+        - (previous|ask-about-creatures)
+      - How should I fight them?
+        - **Player:** How should I fight them?
+        - **Ramokee Skinweaver:** When a human sees a strange creature, their instinct is to kill it. Your race is strange indeed! Nevertheless, you may try to cull them, if you dare; while I enjoy creating them, the fully-formed beasts are of no use to me. You will need skill, human. My fungus is powerful, and some of the creatures cannot even be harmed except by immensely skilled slayers. Furthermore, you should know that my fungus makes the creatures resilient to physical attacks. You may have more success using your magical powers. If you let the larger creatures touch you, their fungus will attempt to infest you. This will kill you very quickly, so keep your distance. The neem drupes that grow upstairs can be ground up to extract their oil. This is a natural fungicide. You can collect it in a jug. Splashing the neem oil on my creatures will weaken my fungus for a moment. If you daren't approach the creature to do this, get another human to do it for you. While the fungus is weakened, the creature will be confused, and it will be unable to cast magical attacks for a short time. Try not to die horribly.
+        - (previous|ask-about-creatures)
+      - What loot can I get from them?
+        - **Player:** What loot can I get from them?
+        - **Ramokee Skinweaver:** Spores and flakes of fungus are fairly common. If you collect enough spores, you may be able to grow them on a polypore stick. Polypore sticks are found on the ganodermic beasts, the large ones. If you grow spores on a polypore stick, you can create a powerful magical staff. The flakes of fungus can be attached to mycelium garments that I make, turning them into magical armour. The merchant upstairs can sell you the garments. He is strange, even for a human, but he runs his little shop adequately. Apart from that I have created a special fungus that can be eaten by humans. I have named it the Gorajian Mushroom. It is imbued with my skinweaving powers. When you eat a gorajian mushroom, it will restore some of your health immediately, and you will benefit from a healing effect for a short period. The healing effect makes you take less damage when you are harmed by a human like yourself. You might even gain a little health if the damage was sufficiently slight.  The effect is triggered by the spiritual conflict of the combatants. If you are fighting monsters, there will be no spiritual conflict, so the healing does nothing. Even if your foe is human, their origin may be too different from yours to trigger the healing effect.
+        - The Ramokee Skinweaver is trying to explain that the healing effect only works in player-vs-player combat.
+        - **Player:** Okay, I'll keep an eye out for those things.
+        - **Ramokee Skinweaver:** If they don't interest you, maybe you'll be able to sell them on.
+        - (previous|ask-about-creatures)
+      - Let's talk about something else.
+        - **Player:** Let's talk about something else.
+        - **Ramokee Skinweaver:** If you must.
+        - (initial|initial-options)
+  - I'll leave you alone now.
+    - **Player:** I'll leave you alone now.
+    - The Ramokee Skinweaver does not appear to care.
+    - (end)

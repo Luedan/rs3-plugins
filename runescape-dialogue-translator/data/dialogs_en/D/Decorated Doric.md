@@ -1,0 +1,67 @@
+# Decorated Doric
+
+- **Original Wiki Page**: [Transcript:Decorated Doric](https://runescape.wiki/w/Transcript%3ADecorated%20Doric)
+- **Letter**: `D`
+
+---
+
+## Dialogue Transcript
+
+- Hand in decorated items for XP.
+- *If you don't have any decorated items*:
+  - **Decorated Doric** You dont' have any decorated items.
+- I have questions about Mining.
+  - Why do I have two bars above my head when mining?
+    - **Decorated Doric** The two bars over your head when mining show your stamina (top) and progress (bottom).
+    - **Decorated Doric** We'll find a better way to show this information for the full release.
+    - **Decorated Doric** Stamina shows how tired you are, click on rocks to restore it. Low stamina means you mine slower.
+    - **Decorated Doric** Progress shows how close you are to getting your next ore. It goes up every time yout strike the rock with your pick.
+  - What's with the smoking rocks?
+    - **Decorated Doric** Every so often when you're mining you'll notice an especially tasty bit of rock nearby!
+    - **Decorated Doric** I call them 'rockertunities!
+    - **Decorated Doric** Hahahahaha! Rockertunities! Get it?
+    - **Decorated Doric** They look like harmonised ore, like smoke puffs.
+    - **Decorated Doric** Just click on it and you'll get a chunk of extra XP!
+    - **Player** Why does this mechanic exist?
+    - **Decorated Doric** It's a reward for paying attention, like bird's nests.
+  - Does clicking on mining rock make a difference?
+    - **Decorated Doric** When you're mining, you'll gradually get tired out.
+    - **Decorated Doric** You have a higher and higher chance to play a slower animation which reduces your XP and ore rates.
+    - **Decorated Doric** The Effect is subtle but a higher level you'll see a 25% penatly for going full AFK.
+    - **Decorated Doric** To refresh your stamina and resume mining at maximum speed, all you need to do is click the rock you're mining!
+    - **Decorated Doric** It's up to you how frequently you think it's worth clicking. The fastest that makes a difference is one click for every swing of the pickaxe.
+  - Can I go AFK?
+    - **Decorated Doric** Rocks don't deplete anymore, so you can mine almost completely AFK if you want.
+    - **Decorated Doric** Since you're not refreshing your stamina and not clicking on rockertunities, you'll get less XP and ore.
+  - Back
+    - *(Shows initial options)*
+- I have questions about Smithing.
+  - Why do I have two bars above my head when smithing?
+    - **Decorated Doric** The two bars over your head when smithing show your progress (top) and heat (bottom).
+    - **Decorated Doric** We'll find a better way to show this information for the full release.
+    - **Decorated Doric** Progress shows how close you are to finishing the item. It goes up every time yout strike the item with your hammer.
+    - **Decorated Doric** Heat shows how hot your item is. Higher heat means faster progress and faster XP. You get the same XP per bar regardless.
+    - **Decorated Doric** At zero heat you can't smith the item anymore and you nee to reheat it at he forge to continue.
+  - What's all this about a hopper?
+    - **Decorated Doric** The hopper is like a shared bank for ore and bars.
+    - **Decorated Doric** You can deposit ore and bars, even noted or straight out of the ore bag, at any furnace, forge or anvil.
+    - **Decorated Doric** When mining, you might as well dumpo your stuff straight into the hoppet rather than going to a bank.
+    - **Decorated Doric** When smelting and smithing, you can use ore and bars straight from the hopper.
+    - **Decorated Doric** When smelting, remember to put your bars back in the hopper when your inventory is full.
+    - **Decorated Doric** Like a bank, you only have one hopper, but youcan access it anywhere in the world.
+  - What are decorated items?
+    - **Decorated Doric** You can get better XP by decorating your items and handing them in to me.
+    - **Decorated Doric** You need to get a rune item or better,and upgrade it all the to 'decorated'.
+    - **Decorated Doric** Then bring it to me, and I'll take it off your hands, and give you some sweet XP for your trouble.
+    - **Player** Do decorated items have any other use?
+    - **Decorated Doric** No. Once you've decorated them you can only hand them in.
+    - **Decorated Doric** You might want to trade or sell your items instead, but in that case you should do that before you decorate them.
+    - **Decorated Doric** Decorating and handing in is the fastest XP but destroys the item so also th most expensive.
+  - What is item upgrading?
+    - **Decorated Doric** From iron, you can upgrade your items.
+    - **Decorated Doric** You get the same XP per bar regardless, but upgrading gets you the XP faster than making base items.
+    - **Decorated Doric** How much you van upgrade an item depends on the metal tier.
+    - **Decorated Doric** Upgraded items are better in combat too.
+  - Back
+    - (Shows initial options)
+- Enought talk!

@@ -1,0 +1,1450 @@
+# Kili
+
+- **Original Wiki Page**: [Transcript:Kili](https://runescape.wiki/w/Transcript%3AKili)
+- **Letter**: `K`
+
+---
+
+## Dialogue Transcript
+
+
+### Talk to
+
+
+#### Before having completed Kili Row
+
+- (see|Kili Row)
+
+#### After having completed Kili Row
+
+- **Kili:** Hello Player, what can I do for you today?
+- [Menu]: Choose an option:
+  - [Choice]: cond=Only without having completed all equipment upgrade tasks:|Talk about active equipment upgrade task.
+    - (Condition: If you don't meet requirements for any uncompleted tasks:)
+      - **Kili:** I don't have any upgrade tasks available for you at the moment.
+      - (Condition: If your next uncompleted task requires below level 70 Necromancy:)
+        - [You need level [number] Necromancy for the next upgrade task.]
+        - (previous)
+      - (Condition: If your next uncompleted task requires level 70 Necromancy or above:)
+        - [You need level [number] Necromancy, and must have completed 'The Spirit of War' for the next upgrade task.]
+        - (previous)
+    - (Condition: If you only have a single uncompleted task available or have a task in process:)
+      - (Condition: If the task is for tier 30:)
+        - (Condition: Before having received the soul urn:)
+          - (below|Before having received the soul urn)
+        - (Condition: After having received the soul urn:)
+          - (below|After having received the soul urn)
+      - (Condition: If the task is for tier 40:)
+        - (Condition: Before having received the soul urn:)
+          - (below|Before having received the soul urn 2)
+        - (Condition: After having received the soul urn:)
+          - (below|After having received the soul urn 2)
+      - (Condition: If the task is for tier 50:)
+        - (Condition: Before having received the soul urn:)
+          - (below|Before having received the soul urn 3)
+        - (Condition: After having received the soul urn:)
+          - (below|After having received the soul urn 3)
+      - (Condition: If the task is for tier 60:)
+        - (Condition: Before having received the soul urn:)
+          - (below|Before having received the soul urn 4)
+        - (Condition: After having received the soul urn:)
+          - (below|After having received the soul urn 4)
+      - (Condition: If the task is for tier 70 (tank):)
+        - (Condition: Before having received the soul urn:)
+          - (below|Before having received the soul urn 5)
+        - (Condition: After having received the soul urn:)
+          - (below|After having received the soul urn 5)
+      - (Condition: If the task is for tier 70 (power):)
+        - (Condition: Before having selected the task:)
+          - (below|Before having selected the task)
+        - (Condition: After having selected the task:)
+          - (below|After having selected the task)
+      - (Condition: If the task is for tier 80 (tank):)
+        - (Condition: Before having received the uncharged spiritbound hammer:)
+          - (below|Before having received the uncharged spiritbound hammer)
+        - (Condition: After having received the uncharged spiritbound hammer:)
+          - (below|After having received the uncharged spiritbound hammer)
+      - (Condition: If the task is for tier 80 (power):)
+        - (Condition: Before having selected the task:)
+          - (below|Before having selected the task 2)
+        - (Condition: After having selected the task:)
+          - (below|After having selected the task 2)
+      - (Condition: If the task is for tier 90 (tank):)
+        - (Condition: Before having received the inert necromantic crystal:)
+          - (below|Before having received the inert necromantic crystal)
+        - (Condition: After having received the inert necromantic crystal:)
+          - (below|After having received the inert necromantic crystal)
+      - (Condition: If the task is for tier 90 (power):)
+        - (Condition: Before having selected the task:)
+          - (below|Before having selected the task 3)
+        - (Condition: After having selected the task:)
+          - (below|After having selected the task 3)
+    - (Condition: If you have multiple uncompleted tasks available:)
+      - [Menu]: Which upgrade would you like to work on?
+        - [Choice]: cond=Only with the tier 70 tank task uncompleted:|Tier 70
+          - ((As above with only this task available.))
+        - [Choice]: cond=Only with the tier 70 power task uncompleted:|Tier 70 (power)
+          - ((As above with only this task available.))
+        - [Choice]: cond=Only with the tier 80 tank task available and uncompleted:|Tier 80
+          - ((As above with only this task available.))
+        - [Choice]: cond=Only with the tier 80 power task available and uncompleted:|Tier 80 (power)
+          - ((As above with only this task available.))
+        - [Choice]: cond=Only with the tier 90 tank task available and uncompleted:|Tier 90
+          - ((As above with only this task available.))
+        - [Choice]: cond=Only with the tier 90 power task available and uncompleted:|Tier 90 (power)
+          - ((As above with only this task available.))
+  - [Choice]: Talk about equipment upgrades.
+    - **Player:** I'd like to know more about equipment upgrades.
+    - **Kili:** Equipment upgrades... What would you like to know about them?
+    - [Menu]: Select an Option
+      - [Choice]: How can I learn more upgrades?
+        - **Player:** How can I learn more equipment upgrades?
+        - (Condition: Without having completed all the equipment upgrade tasks:)
+          - **Kili:** As you grow more powerful as a necromancer, just return to me and ask about equipment upgrade tasks.
+          - **Kili:** If you haven't grown much since completing your last task, I won't have anything more for you to do.
+          - **Player:** How many tasks are there?
+          - **Kili:** Hmm... I can teach you how to upgrade your necromancer's equipment from tier 20, all the way up to tier 90.
+          - **Kili:** Once you've reached tier 70 and above, I can also teach you how to craft power armour... So that would make for a total of 10 tasks altogether!
+          - (previous)
+        - (Condition: Having completed all the equipment upgrade tasks:)
+          - **Kili:** I've already taught you everything there is to know!
+          - (previous)
+      - [Choice]: How can I apply the upgrades I've learned?
+        - **Player:** How can I apply the equipment upgrades that I've learned to my necromancer's equipment?
+        - **Kili:** It's simple. You'll just want to take your necromancer's equipment to my soul forge that's just over there. It will tell you what materials you'll need.
+        - **Kili:** Do you need me to give you directions to the soul forge?
+        - [Menu]: Would you like directions to the soul forge?
+          - [Choice]: Yes please.
+            - (A marker is placed above the soul forge.)
+            - (previous2)
+          - [Choice]: No thanks, I can find it myself.
+            - (previous2)
+      - [Choice]: Where can I get the materials needed?
+        - **Player:** Where can I get the materials needed to upgrade my necromancer's equipment?
+        - **Kili:** The main things you'll need are ensouled materials - cloth, thread, and bars. These come in lesser, normal, and greater variants.
+        - **Kili:** As I taught you, you'll be able to get ahold of these by performing ensoul rituals on various items from the overworld, to imbue them with necromantic energy.
+        - **Kili:** It's worth mentioning that to ensoul bars, you'll first need to smelt a variety of metals together in a furnace.
+        - **Kili:** Some upgrades may also need necromancy runes, which you can get by runecrafting impure essence to the northeast of Um, or through trading with other players.
+        - (Condition: Having completed a power equipment upgrade task:)
+          - **Player:**  What about a Hermodic plate?
+          - **Kili:** Ah yes, a Hermodic plate. You'll only need those for the higher tiered upgrades - defeating Hermod should get you some.
+          - (continue)
+        - (previous)
+      - [Choice]: Nevermind.
+        - **Player:** Nevermind.
+        - (initial)
+  - [Choice]: Show me the hard Underworld tasks I can do.
+    - (opens=Underworld Set Tasks - Hard)
+  - [Choice]: cond=With hard Underworld achievements completed:|Can I claim any rewards from you?
+    - (Condition: Without having claimed the rewards:)
+      - **Player:** I've completed all the tasks in the hard Underworld task set.
+      - **Kili:** Well done Player, I've kept some rewards aside for you.
+      - **Kili:** Lupe has also agreed to provide you with a daily supply of dragon bones, greater ghostly ink and greater ritual candles in recognition of your efforts. She's also started selling a small amount of buckets of slime.
+      - (Condition: Without two free backpack spaces:)
+        - **Kili:** I'm afraid you don't have enough backpack space to claim all your rewards. Speak to me again when you have 2 spaces.
+      - (Condition: With two free backpack spaces:)
+        - (receives=antique lamp (Hard Underworld Tasks) and Underworld Grimoire 3)
+        - [You are given some rewards for completing the hard Underworld task set!]
+        - **Kili:** There you go, looks like that's everything.
+    - (Condition: Having claimed the rewards:)
+      - (Condition: Owning an Underworld Grimoire 3:)
+        - **Kili:** You don't have any rewards to claim!
+      - (Condition: Without owning an Underworld Grimoire 3:)
+        - **Player:** I lost the Underworld Grimoire 3 you gave me...
+        - (Condition: Without free backpack space:)
+          - **Kili:** You don't seem to have any room for a new one, come back to me when you do.
+        - (Condition: With free backpack space:)
+          - **Kili:** Lucky for you I have a spare. Take better care of this one.
+          - (receives=Underworld Grimoire 3)
+          - [You're handed another Underworld Grimoire 3.]
+  - [Choice]: Ask about the Task System.
+    - [Menu]: Choose an option:
+      - [Choice]: cond=Only if not selected last:|Tell me about the Task System.
+        - **Kili:** Very well: the Achievement System is a collection of deeds you may wish to complete while adventuring around the world.
+        - **Kili:** You can earn special rewards for completing certain achievements; at the very least, each is worth a cash bounty from Explorer Jack in Lumbridge.
+        - **Kili:** Some also give items that will help complete other achievements, and many count as progress towards the set for the area they're in.
+        - [Menu]: Choose an option:
+          - [Choice]: Tell me about the set reward for this locality.
+            - **Kili:** For completing the Underworld set, you are presented with the Underworld Grimoire.
+            - **Kili:** This book will become increasingly useful with each difficulty level of the set that you complete.
+            - **Kili:** When you are presented with your rewards, you will be told of their uses.
+            - [You may also see what rewards a set item provides by hovering over the rewards icon on its corresponding achievement in the Achievements interface.]
+            - (previous2|Task System options)
+          - [Choice]: How do I claim these rewards?
+            - **Kili:** You need to complete all of the tasks in the set of a particular difficulty, then you can claim your reward. Some of the Underworld tasks are straightforward, some will require skill levels, and some might require quests to be started or completed.
+            - **Kili:** To claim the Underworld set reward, speak to Icthlarin, Frank, Crunchy or myself.
+            - [Menu]: Choose an option:
+              - [Choice]: Tell me about the Task System.
+                - (above)
+              - [Choice]: Sorry, I was just leaving.
+                - (end)
+          - [Choice]: Sorry, I was just leaving.
+            - (end)
+      - [Choice]: Can I claim any rewards from you?
+        - (Condition: Without rewards to claim:)
+          - **Kili:** You don't have any rewards to claim!
+        - (Condition: With rewards to claim:)
+          - (Condition: Without having claimed the rewards before:)
+            - **Player:** I've completed all the tasks in the hard Underworld task set.
+            - **Kili:** Well done Player, I've kept some rewards aside for you.
+            - **Kili:** Lupe has also agreed to provide you with a daily supply of dragon bones, greater ghostly ink and greater ritual candles in recognition of your efforts. She's also started selling a small amount of buckets of slime.
+            - (Condition: Without two free backpack spaces:)
+              - **Kili:** I'm afraid you don't have enough backpack space to claim all your rewards. Speak to me again when you have 2 spaces.
+            - (Condition: With two free backpack spaces:)
+              - (receives=antique lamp (Hard Underworld Tasks) and Underworld Grimoire 3)
+              - [You are given some rewards for completing the hard Underworld task set!]
+              - **Kili:** There you go, looks like that's everything.
+          - (Condition: Having claimed the rewards before:)
+            - **Player:** I lost the Underworld Grimoire 3 you gave me...
+            - (Condition: Without free backpack space:)
+              - **Kili:** You don't seem to have any room for a new one, come back to me when you do.
+            - (Condition: With free backpack space:)
+              - **Kili:** Lucky for you I have a spare. Take better care of this one.
+              - (receives=Underworld Grimoire 3)
+              - [You're handed another Underworld Grimoire 3.]
+      - [Choice]: Could I buy a spare of the reward?
+        - [Menu]: Choose an option:
+          - [Choice]: Underworld Grimoire 1
+            - (Condition: Without free space in backpack:)
+              - **Kili:** You'll need space in your inventory.
+            - (Condition: With free space in backpack:)
+              - **Kili:** Underworld Grimoire 1? Yes, but I'm afraid it would cost you 5,000 coins.
+              - [Menu]: Purchase another for 5,000 coins?
+                - [Choice]: Yes
+                  - (Condition: Without 5,000 coins:)
+                    - You can not afford that.
+                    - ((Repeated in a pop-up:))
+                      - You can not afford that.
+                      - (continue)
+                    - **Kili:** It doesn't look like you can afford it right now, though. Come back to me when you can.
+                  - (Condition: With 5,000 coins:)
+                    - (removes=5,000 coins) (receives=Underworld Grimoire 1)
+                    - [You're handed another Underworld Grimoire 1.]
+                - [Choice]: No
+                  - **Player:** No thanks.
+          - [Choice]: Underworld Grimoire 2
+            - (Condition: Without free space in backpack:)
+              - **Kili:** You'll need space in your inventory.
+            - (Condition: With free space in backpack:)
+              - **Kili:** Underworld Grimoire 2? Yes, but I'm afraid it would cost you 10,000 coins.
+              - [Menu]: Purchase another for 10,000 coins?
+                - [Choice]: Yes
+                  - (Condition: Without 10,000 coins:)
+                    - You can not afford that.
+                    - ((Repeated in a pop-up:))
+                      - You can not afford that.
+                      - (continue)
+                    - **Kili:** It doesn't look like you can afford it right now, though. Come back to me when you can.
+                  - (Condition: With 10,000 coins:)
+                    - (removes=10,000 coins) (receives=Underworld Grimoire 2)
+                    - [You're handed another Underworld Grimoire 2.]
+                - [Choice]: No
+                  - **Player:** No thanks.
+          - [Choice]: cond=Having unlocked Underworld Grimoire 3:|Underworld Grimoire 3
+            - (Condition: Without free space in backpack:)
+              - **Kili:** You'll need space in your inventory.
+            - (Condition: With free space in backpack:)
+              - **Kili:** Underworld Grimoire 3? Yes, but I'm afraid it would cost you 25,000 coins.
+              - [Menu]: Purchase another for 25,000 coins?
+                - [Choice]: Yes
+                  - (Condition: Without 25,000 coins:)
+                    - You can not afford that.
+                    - ((Repeated in a pop-up:))
+                      - You can not afford that.
+                      - (continue)
+                    - **Kili:** It doesn't look like you can afford it right now, though. Come back to me when you can.
+                  - (Condition: With 25,000 coins:)
+                    - (removes=25,000 coins) (receives=Underworld Grimoire 3)
+                    - [You're handed another Underworld Grimoire 3.]
+                - [Choice]: No
+                  - **Player:** No thanks.
+          - [Choice]: cond=Having unlocked Underworld Grimoire 4:|Underworld Grimoire 4
+            - (Condition: Without free space in backpack:)
+              - **Kili:** You'll need space in your inventory.
+            - (Condition: With free space in backpack:)
+              - **Kili:** Underworld Grimoire 4? Yes, but I'm afraid it would cost you 50,000 coins.
+              - [Menu]: Purchase another for 505,000 coins?
+                - [Choice]: Yes
+                  - (Condition: Without 50,000 coins:)
+                    - You can not afford that.
+                    - ((Repeated in a pop-up:))
+                      - You can not afford that.
+                      - (continue)
+                    - **Kili:** It doesn't look like you can afford it right now, though. Come back to me when you can.
+                  - (Condition: With 50,000 coins:)
+                    - (removes=50,000 coins) (receives=Underworld Grimoire 4)
+                    - [You're handed another Underworld Grimoire 4.]
+                - [Choice]: No
+                  - **Player:** No thanks.
+      - [Choice]: Sorry, I was just leaving.
+        - (end)
+  - [Choice]: [More...]
+    - [Menu]: Choose an Option:
+      - [Choice]: Talk about Kili.
+        - **Player:** Can you tell me a bit about yourself?
+        - **Kili:** Ha! There's not much to know.
+        - **Player:** Well, er, what do you like about Um?
+        - **Kili:** It's nice that I get to be the sole blacksmith...
+        - **Player:** Soul blacksmith?
+        - **Kili:** ...
+        - **Kili:** As I was saying, it's nice that I get to be the only blacksmith here in the city - I get to provide for all sorts of people that pass through here!
+        - **Kili:** And Thalmund, ever the traveller, gets to explore all over the Underworld.
+        - **Player:** Have you ever thought of passing on?
+        - **Kili:** Thalmund and I talk about it every now and again. Um has been our home for so long, that makes it hard to leave.
+        - **Kili:** I'm sure we'll pass over at some point, but not just yet.
+        - (initial)
+      - [Choice]: Ask when Thalmund is visiting.
+        - **Player:** When is Thalmund next visiting?
+        - (Condition: Outside Tuesdays and Wednesdays:)
+          - **Kili:** He'll be popping by in [number] days.
+          - (continue)
+        - (Condition: On Tuesday:)
+          - **Kili:** He'll be popping by in 1 day.
+          - (continue)
+        - (Condition: On Wednesday:)
+          - **Kili:** He's here today, just over there with his cart.
+          - (continue)
+        - **Kili:** Make sure to visit! He always has a good stock of wares from his travels across the Underworld.
+        - (initial)
+      - [Choice]: Goodbye.
+        - **Player:** Goodbye.
+        - **Kili:** Bye!
+      - [Choice]: [More...]
+        - (initial)
+
+### Upgrading necromancy equipment
+
+
+#### Tier 30
+
+
+##### Before having received the soul urn
+
+- **Kili:** What can I help you with?
+- **Player:** I'd like to learn more equipment upgrades, please!
+- **Kili:** Let's get started then! The next step is to learn the tier 30 upgrade.
+- **Player:** What's the maximum tier I can upgrade my equipment to?
+- **Kili:** You can upgrade it every 10 tiers until it's tier 90. For tiers 70, 80, and 90 I can also give you the option of power armour, or the standard tank armour.
+- **Kili:** But let's not get ahead of ourselves just yet!
+- **Kili:** Right, so where were we... Tier 30.
+- **Kili:** Similar to when I taught you the first upgrade, I'll need you to take this soul urn and fill it with some souls.
+- **Kili:** This urn will only accept souls from killing trolls using necromancy, or completing lesser communion rituals. I need 25 troll souls, or 3 lesser communion souls.
+- ((Without space in backpack:))
+  - **Kili:** Ah, it looks like you don't have space for the soul urn. Come back when you do.
+- ((With space in backpack:))
+  - ((If you don't have the soul urn:))
+    - (receives=a soul urn)
+    - Kili gives you a soul urn.
+    - (continue)
+  - **Player:** Easy peasy. Let me just find a pen and paper to write this down...
+  - **Kili:** Way ahead of you! I've already noted it down on a list so you can easily keep track of what's needed.
+  - ((Without space in backpack:))
+    - **Kili:** Ah, it looks like you don't have space for the equipment upgrade task list. Come back when you do.
+  - ((With space in backpack:))
+    - (receives=an equipment upgrade task list)
+    - Kili gives you an equipment upgrade task list.
+    - **Player:** Nevermind then! I'll go and get those souls for you.
+
+##### After having received the soul urn
+
+- **Select an Option**
+  - Ask about your current task.
+    - ((Without a full soul urn:))
+      - ((Without equipment upgrade task list:))
+        - **Player:** I need to reclaim my equipment upgrade task list.
+        - ((Without space in backpack:))
+          - **Kili:** I can replace it for you, but you'll need to come back when you have a free space in your backpack.
+          - (continue|30)
+        - ((With space in backpack:))
+          - (receives=an equipment upgrade task list)
+          - Kili hands you a new equipment upgrade task list.
+          - (continue)
+      - ((Without soul urn:))
+        - **Player:** I need to reclaim my soul urn.
+        - ((Without space in backpack:))
+          - **Kili:** I can replace it for you, but you'll need to come back when you have a free space in your backpack.
+          - (continue)
+        - ((With space in backpack:))
+          - (receives=a soul urn)
+          - Kili hands you a new soul urn.
+          - (continue)
+      - **Player:** What do I need to do again?
+      - **Kili:** Don't you have the list I gave you?
+      - **Player:** Well, yes, but I prefer the human interaction.
+      - **Player:** Er, human-dwarf-ghost interaction.
+      - **Kili:** ...
+      - **Kili:** Alright, well, I just need you to bring me some souls in that soul urn I gave you.
+      - **Kili:** The urn is modified to only accept souls from killing trolls using necromancy, or completing lesser communion rituals. I need 25 troll souls, or 3 lesser communion souls.
+      - **Player:** Ok! I'll be off again then.
+    - ((With a full soul urn:))
+      - **Player:** I filled up the soul urn!
+      - **Kili:** Great!
+      - Kili takes the soul urn.
+      - (removes=the equipment upgrade task list and soul urn)
+      - **Player:** So, er, what now?
+      - **Kili:** More or less the same as the first upgrade.
+      - **Kili:** Just follow me over to the soul forge and I'll teach you what you need to know...
+      - {{Qact|The screen fades out.}}
+      - Kili imbues her forge with energy from the soul urn. She then explains the tier 30 upgrade process in great depth.
+      - **Kili:** ...You'll want to hold the fabric this way around, that way you won't lose a finger...
+      - You take notes, ensuring you won't forget anything.
+      - {{Qact|The screen fades back in.}}
+      - **Kili:** ... And that should be everything. Easy as redberry pie!
+      - **Player:** ...
+      - **Kili:** Ah, there's nothing to worry about! All you need to remember is to gather the ensouled items required for your upgrade, and then return to the soul forge to perform it.
+      - **Kili:**Come and check in with me whenever you want to learn the next upgrade!
+      - Congratulations! You have completed: 'Kili's Knowledge I' - Learn how to upgrade your Death Skull and Deathwarden equipment to tier 30 from Kili.
+      - **Player:** Thanks!
+  - Cancel your current task.
+    - **Kili:** Are you sure you want to stop working on your current upgrade task?
+    - **Select an Option**
+      - Yes, I want to stop working on my current upgrade task.
+        - ((If you have an equipment upgrade task list in backpack:))
+          - (removes=the equipment upgrade task list)
+          - (continue)
+        - **Kili:** No problem. You can come back anytime to work on a new task.
+        - (initial)
+      - No, I want to continue working on my current upgrade task.
+        - **Kili:** Great. You know where to find me if you need any help.
+        - (initial)
+
+#### Tier 40
+
+
+##### Before having received the soul urn
+
+- **Kili:** Ok, time to teach you tier 40!
+- **Kili:** As before, you'll need to go and fill this soul urn up with some souls.
+- **Kili:** This time, the urn will only accept souls from killing any undead creatures using necromancy, or completing lesser communion rituals. I need 50 undead souls, or 5 lesser communion souls.
+- ((Without space in backpack:))
+  - **Kili:** Ah, it looks like you don't have space for the soul urn. Come back when you do.
+- ((With space in backpack:))
+  - ((If you don't have the soul urn:))
+    - (receives=a soul urn)
+    - Kili gives you a soul urn.
+    - (continue)
+  - **Kili:** Also, I'd like a meat pie.
+  - **Player:** A meat pie?
+  - **Kili:** A meat pie.
+  - **Kili:** Not that there's anything wrong with a meat pie, but why not a redberry pie?
+  - **Kili:** Well, I don't want to go diving in head first.
+  - **Kili:** It's been so long since I've had any sort of pie, so I'll start off by dipping my toes in the water.
+  - **Player:** Right. And this will help upgrade my equipment how, exactly?
+  - **Kili:** Everyone needs a bit of sustenance, don't they? Even ghosts.
+  - **Player:** ...
+  - **Kili:** Moving on. Here's the task list for you.
+  - ((Without space in backpack:))
+    - **Kili:** Ah, it looks like you don't have space for the equipment upgrade task list. Come back when you do.
+  - ((With space in backpack:))
+    - (receives=an equipment upgrade task list)
+    - Kili gives you an equipment upgrade task list.
+    - **Kili:** Oh, and one last thing. Only bring me what I need once you have everything, rather than in dribs and drabs. We like to keep our home tidy, and Thalmund gets grumpy when the living room is full of items from adventurers.
+    - **Player:** Noted. I guess I'll go get those souls and that pie, then.
+
+##### After having received the soul urn
+
+- **Select an Option**
+  - Ask about your current task.
+    - ((Without a full soul urn and a meat pie:))
+      - ((Without equipment upgrade task list:))
+        - **Player:** I need to reclaim my equipment upgrade task list.
+        - ((Without space in backpack:))
+          - **Kili:** I can replace it for you, but you'll need to come back when you have a free space in your backpack.
+          - (continue|40)
+        - ((With space in backpack:))
+          - (receives=an equipment upgrade task list)
+          - Kili hands you a new equipment upgrade task list.
+          - (continue)
+      - ((Without soul urn:))
+        - **Player:** I need to reclaim my soul urn.
+        - ((Without space in backpack:))
+          - **Kili:** I can replace it for you, but you'll need to come back when you have a free space in your backpack.
+          - (continue|40)
+        - ((With space in backpack:))
+          - (receives=a soul urn)
+          - Kili hands you a new soul urn.
+          - (continue)
+      - **Player:** What do I need to do again?
+      - **Kili:** Don't you have that list I gave you?
+      - **Player:** Well, yes, but I guess I just wanted to see your face.
+      - **Kili:** ...
+      - **Kili:** Er, well, I just need you to bring me some souls in that soul urn I gave you.
+      - **Kili:** The urn is modified to only accept souls from killing any undead creatures using necromancy, or completing lesser communion rituals. I need 50 undead souls, or 5 lesser communion souls.
+      - **Kili:** Oh, and a meat pie!
+      - **Player:** Ok! Goodbye then.
+    - ((With a full soul urn and a meat pie:))
+      - **Player:** I've got the full soul urn and that meat pie for you.
+      - **Kili:** Lovely stuff.
+      - Kili takes the meat pie and the soul urn.
+      - (removes=the equipment upgrade task list, meat pie, and soul urn)
+      - Kili chows down on the meat pie.
+      - **Player:** How was it?
+      - **Kili:** A good first choice, I'd say. You can't go wrong with the rich flavours of the meat, combined with the milder flaky crust.
+      - **Kili:** Now, time to teach you the upgrade!
+      - {{Qact|The screen fades out.}}
+      - Kili imbues her forge with energy from the soul urn and explains the tier 40 upgrade process in great depth.
+      - Her hands shine with greasy meat drippings.
+      - **Kili:** ...You'll want to sew the thread in this direction, so you don't poke an eye out...
+      - You take notes, ensuring you won't forget anything.
+      - {{Qact|The screen fades back in.}}
+      - **Kili:** ...And that's it! There's a little more work required, but nothing too challenging.
+      - **Player:** Shouldn't be much harder than the last upgrade.
+      - **Kili:** Come back and let me know when you're ready to learn tier 50.
+      - Congratulations! You have completed: 'Kili's Knowledge II' - Learn how to upgrade your Death Skull and Deathwarden equipment to tier 40 from Kili.
+      - **Player:** Will do!
+  - Cancel your current task.
+    - **Kili:** Are you sure you want to stop working on your current upgrade task?
+    - **Select an Option**
+      - Yes, I want to stop working on my current upgrade task.
+        - ((If you have an equipment upgrade task list in backpack:))
+          - (removes=the equipment upgrade task list)
+          - (continue)
+        - **Kili:** No problem. You can come back anytime to work on a new task.
+      - No, I want to continue working on my current upgrade task.
+        - **Kili:** Great. You know where to find me if you need any help.
+        - (initial)
+
+#### Tier 50
+
+
+##### Before having received the soul urn
+
+- **Kili:** So, now for tier 50.
+- **Kili:** You know the drill - I need you to gather some souls in this soul urn.
+- **Kili:** The urn will only accept souls from killing demons using necromancy, or completing lesser communion rituals. I need 75 demon souls, or 10 lesser communion souls.
+- ((Without space in backpack:))
+  - **Kili:** Ah, it looks like you don't have space for the soul urn. Come back when you do.
+- ((With space in backpack:))
+  - ((If you don't have the soul urn:))
+    - (receives=a soul urn)
+    - Kili gives you a soul urn.
+    - (continue)
+  - **Kili:** There's a couple of additional things this time as well...
+  - **Player:** Let me guess, another pie?
+  - **Kili:** Indeed! An apple pie this time, though.
+  - **Kili:** I'm not very familiar with, I guess you'd call them, 'dessert pies'. And so I'd like to try one.
+  - **Kili:** That's not it, though!
+  - **Player:** Two pies?!
+  - **Kili:** No, not two pies. I'm only a small dwarf!
+  - **Kili:** I also need you to get some necromancer's flippers.
+  - **Player:** Er... what?
+  - **Kili:** You know, flippers? The things you wear on your feet?
+  - **Player:** Yes, I know what flippers are, but what on Gielinor are necromancer's flippers? And where am I meant to get them from?
+  - **Kili:** Well, they're just like normal flippers, but to wear if you're a necromancer.
+  - **Player:** ...
+  - **Kili:** Mogres will probably drop them, if you kill them using necromancy.
+  - **Player:** I guess I'll go and get these flippers then.
+  - **Kili:** Here's a list of everything so you don't forget!
+  - ((Without space in backpack:))
+    - **Kili:** Ah, it looks like you don't have space for the equipment upgrade task list. Come back when you do.
+  - ((With space in backpack:))
+    - (receives=an equipment upgrade task list)
+    - Kili gives you an equipment upgrade task list.
+    - **Player:** Thanks.
+
+##### After having received the soul urn
+
+- **Select an Option**
+  - Ask about your current task.
+    - ((Without all the necessary items:))
+      - ((Without equipment upgrade task list:))
+        - **Player:** I need to reclaim my equipment upgrade task list.
+        - ((Without space in backpack:))
+          - **Kili:** I can replace it for you, but you'll need to come back when you have a free space in your backpack.
+          - (continue|50)
+        - ((With space in backpack:))
+          - (receives=an equipment upgrade task list)
+          - Kili hands you a new equipment upgrade task list.
+          - (continue)
+      - ((If you lost your soul urn:))
+        - **Player:** I need to reclaim my soul urn.
+        - ((Without space in backpack:))
+          - **Kili:** I can replace it for you, but you'll need to come back when you have a free space in your backpack.
+          - (continue|50)
+        - ((With space in backpack:))
+          - (receives=a soul urn)
+          - Kili hands you a new soul urn.
+          - (continue|50)
+      - **Player:** What do I need to do again?
+      - **Kili:** Don't you have that list I gave you?
+      - **Player:** Well, yes, but it's less boring talking to you than looking at a sheet of paper.
+      - **Kili:** ...
+      - **Kili:** Thanks. Well, I just need you to bring me some souls in that soul urn I gave you.
+      - **Kili:** The urn is modified to only accept souls from killing demons using necromancy, or completing lesser communion rituals. I need 75 undead souls, or 10 lesser communion souls.
+      - **Kili:** I'd also like an apple pie, and some necromancer's flippers, which you should be able to get by killing mogres with necromancy.
+      - **Player:** Got it!
+    - ((With all the necessary items:))
+      - **Player:** I've filled up the soul urn, got your apple pie, and the er, necromancer's flippers.
+      - **Kili:** You actually managed to get the flippers, eh? I'm impressed.
+      - Kili takes the necromancer's flippers, the apple pie, and the soul urn.
+      - (removes=the apple pie, equipment upgrade task list, necromancer's flippers, and soul urn)
+      - **Player:** So, what do you need the flippers for?
+      - **Kili:** Don't you worry about that. Ah, best try out this pie before it gets cold!
+      - Kili digs into the apple pie.
+      - **Kili:** Pretty good. Not sure I prefer it over savoury pies, but I'm glad I tried it nonetheless.
+      - **Kili:** Now, let's teach you that upgrade.
+      - {{Qact|The screen fades out.}}
+      - Kili imbues her forge with energy from the soul urn and explains the tier 50 upgrade process in great depth.
+      - Her apple pie breath wafts over to you, smothering you.
+      - **Kili:** ...You'll want to hammer the bar into this shape, so you don't accidentally whack your fingernails off...
+      - You take notes, ensuring you won't forget anything.
+      - {{Qact|The screen fades back in.}}
+      - **Kili:** ...And that's all there is to it!
+      - **Player:** Great!
+      - **Kili:** Come back and let me know when you're ready to learn tier 60.
+      - Congratulations! You have completed: 'Kili's Knowledge III' - Learn how to upgrade your Death Skull and Deathwarden equipment to tier 50 from Kili.
+      - **Player:** Sure thing.
+  - Cancel your current task.
+    - **Kili:** Are you sure you want to stop working on your current upgrade task?
+    - **Select an Option**
+      - Yes, I want to stop working on my current upgrade task.
+        - ((If you have an equipment upgrade task list in backpack:))
+          - (removes=the equipment upgrade task list)
+          - (continue)
+        - **Kili:** No problem. You can come back anytime to work on a new task.
+      - No, I want to continue working on my current upgrade task.
+        - **Kili:** Great. You know where to find me if you need any help.
+        - (initial)
+
+#### Tier 60
+
+
+##### Before having received the soul urn
+
+- **Kili:** It's time for tier 60 then!
+- **Kili:** As always, you'll need to gather some souls in this soul urn.
+- **Kili:** The urn will only accept souls from killing any monster that is at least level 70 using necromancy, or completing greater communion rituals. I need 50 monster souls, or 10 greater communion souls.
+- ((If you don't have the soul urn:))
+  - ((Without space in backpack:))
+    - **Kili:** Ah, it looks like you don't have space for the soul urn. Come back when you do.
+  - ((With space in backpack:))
+    - (receives=a soul urn)
+    - Kili gives you a soul urn.
+    - (continue)
+- **Kili:** I also need some more things... And yes, one of the things is a pie.
+- **Kili:** A garden pie!
+- **Kili:** The meat pie you got me a while back was lovely, but I'd like to try out the vegetarian option this time.
+- **Player:** Fair enough, the Lumbridge cow population is getting a bit sparse. What else?
+- **Player:** Nothing as ridiculous as flippers this time, I hope...
+- **Kili:** No no, not to worry! I just need you to take this device and use it on an ankou.
+- ((If you don't have the ankou agitator:))
+  - ((Without space in backpack:))
+    - **Kili:** Ah, it looks like you don't have space for the ankou agitator. Come back when you do.
+  - ((With space in backpack:))
+    - (receives=an ankou agitator)
+    - Kili gives you an ankou agitator.
+    - (continue)
+- **Player:** ...
+- **Kili:** It's a device I fiddled with that measures what kind of necromantic magic is being used on them. You might need to use it on a few to get what's needed... I think 10 should do it.
+- **Player:** I suppose that sounds more purposeful than flippers.
+- **Player:** Ok. So, 50 souls, a garden pie, and... something from ankou.
+- **Kili:** And that's it! Don't forget your list.
+- ((Without space in backpack:))
+  - **Kili:** Ah, it looks like you don't have space for the equipment upgrade task list. Come back when you do.
+- ((With space in backpack:))
+  - (receives=an equipment upgrade task list)
+  - Kili gives you an equipment upgrade task list.
+  - **Player:** I'll be back later.
+
+##### After having received the soul urn
+
+- **Select an Option**
+  - Ask about your current task.
+    - ((Without all the necessary items:))
+      - ((Without equipment upgrade task list:))
+        - **Player:** I need to reclaim my equipment upgrade task list.
+        - ((Without space in backpack:))
+          - **Kili:** I can replace it for you, but you'll need to come back when you have a free space in your backpack.
+          - (continue|60)
+        - ((With space in backpack:))
+          - (receives=an equipment upgrade task list)
+          - Kili hands you a new equipment upgrade task list.
+          - (continue)
+      - ((Without soul urn:))
+        - **Player:** I need to reclaim my soul urn.
+        - ((Without space in backpack:))
+          - **Kili:** I can replace it for you, but you'll need to come back when you have a free space in your backpack.
+          - (continue|60)
+        - ((With space in backpack:))
+          - (receives=a soul urn)
+          - Kili hands you a new soul urn.
+          - (continue)
+      - ((Without ankou agitator:))
+        - **Player:** I need to reclaim my ankou agitator.
+        - ((Without space in backpack:))
+          - **Kili:** I can replace it for you, but you'll need to come back when you have a free space in your backpack.
+          - (continue)
+        - ((With space in backpack:))
+          - (receives=an ankou agitator)
+          - Kili hands you a new ankou agitator.
+          - (continue)
+      - **Player:** What do I need to do again?
+      - **Kili:** Don't you have that list I gave you?
+      - **Player:** Well, yes, but you smell much nicer than a sheet of paper.
+      - **Kili:** ...
+      - **Kili:** I try. Well, I need you to bring me some souls in that soul urn I gave you.
+      - **Kili:** The urn is modified to only accept souls from killing monsters that are at least level 70 using necromancy, or completing greater communion rituals. I need 50 monster souls, or 10 greater communion souls.
+      - **Kili:** I'd also like a garden pie, and for you to use that ankou agitator on a few  for me... Around 10 should do it.
+      - **Player:** Righto.
+    - ((With all the necessary items:))
+      - **Player:** Ok, I'm back with the full soul urn, a garden pie, and some... residue from an ankou. It was left behind by one after using your agitator doodad on it, so I think it's what you need?
+      - **Kili:** It dropped some residue? Er... great! I'll just take all of that then.
+      - Kili takes the ankou residue, the garden pie, and the soul urn.
+      - (removes=the ankou agitator, ankou residue, garden pie, equipment upgrade task list, and soul urn)
+      - **Player:** Will the residue give you the information you needed? Will it help improve my equipment?
+      - **Kili:** Yep! It'll uh, give it a magical protection-y boost that your equipment was missing.
+      - **Player:** Well, I'm glad it has some value then.
+      - **Kili:** It sure does. Now, let's try out this pie.
+      - Kili munches on the garden pie.
+      - **Kili:** Hmm.
+      - **Player:** A good 'hmm'? A bad 'hmm'?
+      - **Kili:** It's actually pretty good! The tomatoes are lovely and juicy, and the onion gives a nice crunch.
+      - **Player:** Better than the meat pie?
+      - **Kili:** Possibly not, but a strong contender at least.
+      - **Kili:** Anyway! Enough about pies, let's teach you the upgrade.
+      - {{Qact|The screen fades out.}}
+      - Kili imbues her forge with energy from the soul urn and explains the tier 60 upgrade process in great depth.
+      - Her hands drip with tomato juice, and her breath stinks of onion.
+      - **Kili:** ...Make sure to imbue the runic energy for this exact amount of time, so you don't burn your hair off...
+      - You take notes, ensuring you won't forget anything.
+      - {{Qact|The screen fades back in.}}
+      - **Kili:** ...That should be all!
+      - **Kili:** Come back and let me know when you're ready to learn tier 70.
+      - **Player:** See you later!
+  - Cancel your current task.
+    - **Kili:** Are you sure you want to stop working on your current upgrade task?
+    - **Select an Option**
+      - Yes, I want to stop working on my current upgrade task.
+        - ((If you have an equipment upgrade task list in backpack:))
+          - (removes=the equipment upgrade task list)
+          - (continue)
+        - **Kili:** No problem. You can come back anytime to work on a new task.
+      - No, I want to continue working on my current upgrade task.
+        - **Kili:** Great. You know where to find me if you need any help.
+        - (initial)
+
+#### Tier 70
+
+
+##### Tank
+
+
+##### Before having received the soul urn
+
+- **Kili:** Alright, so you want to upgrade to tier 70.
+- **Kili:** Of course, I'll need some more souls in this soul urn.
+- **Kili:** The urn will only accept souls from killing dragons using necromancy, or completing greater communion rituals. I need 100 dragon souls, or 20 greater communion souls.
+- ((If you don't have the soul urn:))
+  - ((Without space in backpack:))
+    - **Kili:** Ah, it looks like you don't have space for the soul urn. Come back when you do.
+  - ((With space in backpack:))
+    - (receives=a soul urn)
+    - Kili gives you a soul urn.
+    - (continue)
+- **Kili:** This time, I'd also like to try a fish pie.
+- **Kili:** Back when I was living, fish pies were one of my favourites. I'm curious if they taste any better now that I'm dead.
+- **Player:** Ok, soul urn and pie. Standard. What's the last thing you need?
+- **Kili:** Am I that predictable?
+- **Player:** A little.
+- **Kili:** Well, the last thing I need is some necroplasm. Necroplasm from the original Barrows brothers, specifically.
+- **Player:** How can I get it?
+- **Kili:** Firstly, you'll need some greater necroplasm. Around 20 for each brother should be enough.
+- **Kili:** Once you have that, take it to their crypts. The energy from their sarcophagi should be enough to transform the necroplasm.
+- **Kili:** But... I don't want the individual brothers' necroplasm. You'll need to find a way to combine them into a singular necroplasm.
+- **Player:** That sounds doable, I think.
+- **Kili:** Perfect. Here's the list.
+- ((Without space in backpack:))
+  - **Kili:** Ah, it looks like you don't have space for the equipment upgrade task list. Come back when you do.
+- ((With space in backpack:))
+  - (receives=an equipment upgrade task list)
+  - Kili gives you an equipment upgrade task list.
+  - **Player:** Be back soon!
+
+##### After having received the soul urn
+
+- **Select an Option**
+  - Ask about your current task.
+    - ((Not having all the necessary items:))
+      - ((If you lost your equipment upgrade task list:))
+        - **Player:** I need to reclaim my equipment upgrade task list.
+        - ((Without space in backpack:))
+          - **Kili:** I can replace it for you, but you'll need to come back when you have a free space in your backpack.
+          - (continue|70)
+        - ((With space in backpack:))
+          - (receives=an equipment upgrade task list)
+          - Kili hands you a new equipment upgrade task list.
+          - (continue)
+      - ((If you lost your soul urn:))
+        - **Player:** I need to reclaim my soul urn.
+        - ((Without space in backpack:))
+          - **Kili:** I can replace it for you, but you'll need to come back when you have a free space in your backpack.
+          - (continue)
+        - ((With space in backpack:))
+          - (receives=a soul urn)
+          - Kili hands you a new soul urn.
+          - (continue)
+      - **Player:** What do I need to do again?
+      - **Kili:** Don't you have that list I gave you?
+      - **Player:** Well, yes, but I was hoping you might have some leftover pie to share.
+      - **Kili:** I do not.
+      - **Kili:** But, to answer your question, I need you to bring me some souls in that soul urn I gave you.
+      - **Kili:** The urn is modified to only accept souls from killing dragons using necromancy, or completing greater communion rituals. I need 100 dragon souls, or 20 greater communion souls.
+      - **Kili:** I'd also like a fish pie, and some necroplasm from the Barrows brothers.
+      - **Kili:** You'll need 20 greater necroplasm for each brother, and to take it to each of their sarcophagi.
+      - **Kili:** After that, you're a bit on your own - I want the necroplasm to be combined, rather than individual ones.
+      - **Player:** I'll see what I can do.
+    - ((Having all the necessary items:))
+      - **Player:** Alright! I have your soul urn, fish pie, and I figured out how to combine the necroplasm.
+      - **Kili:** Amazing!
+      - Kili takes the barrows necroplasm, the fish pie, and the soul urn.
+      - (removes=the barrows necroplasm, fish pie, equipment upgrade task list, and soul urn)
+      - **Player:** So, what will you use the necroplasm for?
+      - **Kili:** Ah, you know, to imbue the forge! And such.
+      - **Kili:** Anyway, I can't wait to try out the pie any longer.
+      - Kili horks down the fish pie.
+      - **Kili:** Wonderful. Simply wonderful.
+      - **Player:** Better than when you were living?
+      - **Kili:** I think so? The aroma of the fish. The butteriness of the pastry...
+      - **Kili:** Or maybe it tastes so good because I haven't had it for so long.
+      - **Kili:** Or maybe it IS because I'm dead, and my senses are heightened...
+      - **Kili:** OR maybe the batch you brought me just used especially high-quality fish...
+      - **Kili:** OR-
+      - **Player:** Er, can you teach me the upgrade now?
+      - Kili snaps out of her pie-induced trance.
+      - **Kili:** Sorry, yes, come with me...
+      - {{Qact|The screen fades out.}}
+      - Kili imbues her forge with energy from the soul urn and explains the tier 70 upgrade process in great depth.
+      - Vague scents of cod and trout fill the air around you.
+      - **Kili:** ...Be careful to measure out this exact length of thread, so it doesn't get tangled around your ears...
+      - You take notes, ensuring you won't forget anything.
+      - {{Qact|The screen fades back in.}}
+      - **Kili:** ...There we go!
+      - **Kili:** Come back and let me know when you're ready to learn tier 80.
+      - **Player:** Bye for now.
+      - Congratulations! You have completed: 'Kili's Knowledge V' - Learn how to upgrade your Death Skull and Deathwarden equipment to tier 70 from Kili.
+  - Cancel your current task.
+    - **Kili:** Are you sure you want to stop working on your current upgrade task?
+    - **Select an Option**
+      - Yes, I want to stop working on my current upgrade task.
+        - ((If you have an equipment upgrade task list in backpack:))
+          - (removes=the equipment upgrade task list)
+          - (continue)
+        - **Kili:** No problem. You can come back anytime to work on a new task.
+      - No, I want to continue working on my current upgrade task.
+        - **Kili:** Great. You know where to find me if you need any help.
+        - (initial)
+
+##### Power
+
+
+##### Before having selected the task
+
+- **Kili:** Alright, so you want to upgrade to tier 70, into some power armour.
+- **Player:** So, this time you'll need a soul urn, a pie, and...
+- **Kili:** Not this time!
+- **Kili:** The power armour works a little differently, so no soul urn needed. And I can do without the pie for a bit.
+- **Kili:** Instead, you'll need to get some materials from some of the great beasts of Gielinor.
+- **Kili:** I need you to get me 5 royal chitin, which can be obtained from the Kalphite Queen, and 5 hideous moleskins, which can be obtained from the Giant Mole.
+- **Kili:** You should know that they'll only shed them when fought with necromancy, though.
+- **Player:** Kalphite Queen... Giant Mole... Necromancy... Got it.
+- **Player:** Anything else? You're really sure you don't want a pie?
+- **Kili:** Nope. That's all!
+- A drop of sweat falls from Kili's forehead as she shows great restraint in turning down your offer of a pie.
+- **Kili:** Be off, before I change my mind. Here's the list.
+- ((Without space in backpack:))
+  - **Kili:** Ah, it looks like you don't have space for the equipment upgrade task list. Come back when you do.
+- ((With space in backpack:))
+  - (receives=an equipment upgrade task list)
+  - Kili gives you an equipment upgrade task list.
+  - **Player:** Whatever you say!
+
+##### After having selected the task
+
+- **Select an Option**
+  - Ask about your current task.
+    - (Condition: Without all the required items:)
+      - (Condition: Without the equipment upgrade task list:)
+        - **Player:** I need to reclaim my equipment upgrade task list.
+        - ((Without space in backpack:))
+          - **Kili:** I can replace it for you, but you'll need to come back when you have a free space in your backpack.
+          - (continue)
+        - ((With space in backpack:))
+          - (receives=an equipment upgrade task list)
+          - Kili hands you a new equipment upgrade task list.
+          - (continue)
+      - **Player:** What do I need to do again?
+      - **Kili:** Don't you have that list I gave you?
+      - **Player:** Well, yes, but I thought I'd check that you really don't want a pie this time.
+      - **Kili:** No. No pie!
+      - **Kili:** Moving on, you'll need to get me 5 royal chitin from the Kalphite Queen, and 5 hideous moleskins from the Giant Mole.
+      - **Kili:** They should only shed them when fought with necromancy, though.
+      - **Player:** Thanks, I'll be off then.
+    - (Condition: With all the required items:)
+      - **Player:** I'm back with the royal chitin and hideous moleskins!
+      - **Kili:** Nice work!
+      - Kili takes the royal chitin and the hideous moleskins.
+      - (removes=5 royal chitin, 5 hideous moleskin, and equipment upgrade task list)
+      - **Kili:** Onto the upgrade!
+      - **Player:** Wait, what are you going to do with the chitin and moleskins?
+      - **Kili:** It's a secret.
+      - **Player:** A secret?
+      - **Kili:** Yes. Top secret knowledge that only dwarves of the Imcando clan can know.
+      - **Player:** ...
+      - **Kili:** Back to what I was saying, let's teach you the upgrade!
+      - {{Qact|The screen fades out.}}
+      - Kili explains the tier 70 upgrade process for power armour in great depth.
+      - **Kili:** ...Make sure you cut the fabric to this specific size, so you don't have any overhang that could trip you up and cause a nasty concussion...
+      - You take notes, ensuring you won't forget anything.
+      - {{Qact|The screen fades back in.}}
+      - **Kili:** ...And that's all!
+      - **Kili:** Come back and let me know when you're ready to learn tier 80.
+      - **Player:** Thanks!
+      - Congratulations! You have completed: 'Kili's Knowledge V (power)' - Learn how to upgrade your Death Skull equipment to tier 70, and upgrade your Deathwarden equipment to tier 70 Deathdealer from Kili.
+  - Cancel your current task.
+    - **Kili:** Are you sure you want to stop working on your current upgrade task?
+    - **Select an Option**
+      - Yes, I want to stop working on my current upgrade task.
+        - ((If you have an equipment upgrade task list in backpack:))
+          - (removes=the equipment upgrade task list)
+          - (continue)
+        - **Kili:** No problem. You can come back anytime to work on a new task.
+      - No, I want to continue working on my current upgrade task.
+        - **Kili:** Great. You know where to find me if you need any help.
+        - (initial)
+
+#### Tier 80
+
+
+##### Tank
+
+
+##### Before having received the uncharged spiritbound hammer
+
+- **Kili:** So, you want to upgrade to tier 80.
+- **Kili:** First off, I'll need some more souls in this soul urn.
+- **Kili:** The urn will only accept souls from killing monsters assigned as your Slayer task using necromancy, or completing greater communion rituals. I need 150 Slayer task souls, or 30 greater communion souls.
+- ((If you don't have the soul urn:))
+  - ((Without space in backpack:))
+    - **Kili:** Ah, it looks like you don't have space for the soul urn. Come back when you do.
+  - ((With space in backpack:))
+    - (receives=a soul urn)
+    - Kili gives you a soul urn.
+    - (continue)
+- **Kili:** I also need you to recharge this special hammer of mine, with some powerful soul energy.
+- ((If you don't have the spiritbound hammer (uncharged):))
+  - ((Without space in backpack:))
+    - **Kili:** Ah, it looks like you don't have space for the spiritbound hammer (uncharged). Come back when you do.
+  - ((With space in backpack:))
+    - (receives=a spiritbound hammer (uncharged))
+    - Kili gives you a spiritbound hammer (uncharged).
+    - (continue)
+- **Player:** Powerful, eh? Do I need to defeat an elder god? An average god? A demi-god?
+- **Kili:** Er, not exactly. Just some of their followers.
+- **Player:** Oh.
+- **Kili:** Powerful followers, though! I was thinking of the four generals in God Wars Dungeon.
+- **Kili:** Defeat them, and then charge up my hammer with residual energy from their altars. It depletes quickly after their defeat though, so you'll have to be fast.
+- **Player:** Fast as lightning, noted.
+- **Kili:** And last but not least...
+- **Player:** A pie?
+- **Kili:** A pie!
+- **Kili:** But not any old pie...
+- **Kili:** A redberry pie!
+- **Player:** I was wondering how long it would take for you to ask for one.
+- **Kili:** I've exercised a lot of restraint by trying the other pies first, but I think it's time.
+- **Kili:** Now here's your list.
+- ((Without space in backpack:))
+  - **Kili:** Ah, it looks like you don't have space for the equipment upgrade task list. Come back when you do.
+- ((With space in backpack:))
+  - (receives=an equipment upgrade task list)
+  - Kili gives you an equipment upgrade task list.
+  - **Kili:** Hurry back!
+
+##### After having received the uncharged spiritbound hammer
+
+- **Select an Option**
+  - Ask about your current task.
+    - (Condition: Without all the required items:)
+        - **Player:** I need to reclaim my equipment upgrade task list.
+        - ((Without space in backpack:))
+          - **Kili:** I can replace it for you, but you'll need to come back when you have a free space in your backpack.
+          - (continue|80)
+        - ((With space in backpack:))
+          - (receives=an equipment upgrade task list)
+          - Kili hands you a new equipment upgrade task list.
+          - (continue)
+      - (Condition: Without the soul urn:)
+        - **Player:** I need to reclaim my soul urn.
+        - ((Without space in backpack:))
+          - **Kili:** I can replace it for you, but you'll need to come back when you have a free space in your backpack.
+          - (continue|80)
+        - ((With space in backpack:))
+          - (receives=a soul urn)
+          - Kili hands you a new soul urn.
+          - (continue)
+      - (Condition: Without the spiritbound hammer (uncharged):)
+        - **Player:** I need to reclaim my spiritbound hammer (uncharged).
+        - ((Without space in backpack:))
+          - **Kili:** I can replace it for you, but you'll need to come back when you have a free space in your backpack.
+          - (continue|80)
+        - ((With space in backpack:))
+          - (receives=a spiritbound hammer (uncharged))
+          - Kili hands you a new spiritbound hammer (uncharged).
+          - (continue|80)
+      - **Player:** What do I need to do again?
+      - **Kili:** Don't you have that list I gave you?
+      - **Player:** Well, yes, but I was hoping you might have changed your mind and are now willing to teach me the upgrade for no effort on my behalf.
+      - **Kili:** No.
+      - **Player:** Oh.
+      - **Kili:** But, to answer your question, I need you to bring me some souls in that soul urn I gave you.
+      - **Kili:** The urn is modified to only accept souls from killing monsters assigned as your Slayer task using necromancy, or completing greater communion rituals. I need 150 Slayer task souls, or 30 greater communion souls.
+      - **Kili:** I also need you to charge up my hammer from the altars of the four God Wars Dungeon generals. You'll have to be quick after defeating them, though.
+      - **Kili:** And, most important of all, I need you to get me a redberry pie.
+      - **Player:** I'll continue getting your things.
+    - (Condition: With all the required items:)
+      - **Player:** Ok, I'm back with the filled soul urn, charged hammer, and redberry pie.
+      - **Kili:** Pie...
+      - Kili takes the charged hammer, the redberry pie, and the soul urn.
+      - (removes=the spiritbound hammer (charged), redberry pie, equipment upgrade task list, and soul urn)
+      - **Player:** Be careful, the pie is quite ho-
+      - Kili gobbles up the redberry pie before you have a chance to react.
+      - **Kili:** Ahh. That hits the spot.
+      - **Player:** As I was trying to say, the pie was quite hot. Just wanted to make sure you didn't burn yourself.
+      - Kili pokes around her mouth.
+      - **Kili:** Ah, I guess I did burn myself. Well you know what they say, no pain, no gain!
+      - **Player:** I mean, you could have waited for the pie to cool down, and then just had the gain without the pain but...
+      - **Kili:** I think the molten hot redberry sauce added to the gain, though.
+      - **Player:** Suit yourself.
+      - **Kili:** Pie aside, let's go and teach you the upgrade.
+      - {{Qact|The screen fades out.}}
+      - Kili imbues her forge with energy from the soul urn and explains the tier 80 upgrade process in great depth.
+      - A rich scent of redberry coats the air around you.
+      - **Kili:** ...You'll want to stand in this exact position when hammering, so you don't fracture a bone...
+      - You take notes, ensuring you won't forget anything.
+      - {{Qact|The screen fades back in.}}
+      - **Kili:** ...And that's all done!
+      - **Kili:** One last thing I should mention. If you choose to upgrade your equipment from an augmented version, you should know that any augmentations will also be applied to the upgraded version.
+      - **Kili:** So no need to worry about losing anything.
+      - **Kili:** Come back and let me know when you're ready to learn tier 90.
+      - **Player:** Bye for now.
+      - Congratulations! You have completed: 'Kili's Knowledge VI' - Learn how to upgrade your Death Skull and Deathwarden equipment to tier 80 from Kili.
+  - Cancel your current task.
+    - **Kili:** Are you sure you want to stop working on your current upgrade task?
+    - **Select an Option**
+      - Yes, I want to stop working on my current upgrade task.
+        - ((If you have an equipment upgrade task list in backpack:))
+          - (removes=the equipment upgrade task list)
+          - (continue)
+        - **Kili:** No problem. You can come back anytime to work on a new task.
+      - No, I want to continue working on my current upgrade task.
+        - **Kili:** Great. You know where to find me if you need any help.
+        - (initial)
+
+##### Power
+
+
+##### Before having selected the task
+
+- **Kili:** Right. You want to learn tier 80, power armour.
+- **Kili:** So, as it's power armour, I won't need you to gather me any souls.
+- **Player:** Phew.
+- **Kili:** Instead, you'll need to defeat Nex and the Queen Black Dragon!
+- **Player:** So much for an easy task.
+- **Kili:** First of all, I'm in need of 5 Zaryte fragments. You should be able to get these from Nex.
+- **Kili:** Second of all, I'd like 5 tortured soul essences. I believe the Queen Black Dragon will possess these.
+- **Player:** Poor souls.
+- **Kili:** Another thing to note, is that they'll probably only drop the things I need if you defeat them with necromancy.
+- **Player:** Probably?
+- **Kili:** Almost certainly, according to my research...
+- **Player:** A definite guarantee would be appreciated, before I charge in all gung-ho.
+- **Kili:** Well, we don't always get what we want in life. Or the afterlife.
+- **Player:** ...
+- **Kili:** ...And that should be all I need! Here's the list.
+- ((Without space in backpack:))
+  - **Kili:** Ah, it looks like you don't have space for the equipment upgrade task list. Come back when you do.
+- ((With space in backpack:))
+  - (receives=an equipment upgrade task list)
+  - Kili gives you an equipment upgrade task list.
+  - **Player:** I'll go and prepare to get your things then.
+
+##### After having selected the task
+
+- **Select an Option**
+  - Ask about your current task.
+    - (Condition: Without all the required items:)
+      - (Condition: Without the equipment upgrade task list:)
+        - **Player:** I need to reclaim my equipment upgrade task list.
+        - ((Without space in backpack:))
+          - **Kili:** I can replace it for you, but you'll need to come back when you have a free space in your backpack.
+          - (continue)
+        - ((With space in backpack:))
+          - (receives=an equipment upgrade task list)
+          - Kili hands you a new equipment upgrade task list.
+          - (continue)
+      - **Player:** What do I need to do again?
+      - **Kili:** Don't you have that list I gave you?
+      - **Player:** Well, yes, but I just wanted to come and bother you.
+      - **Kili:** ...
+      - **Kili:** Well, you need to get me 5 Zaryte fragments from Nex, and 5 tortured soul essences from the Queen Black Dragon.
+      - **Kili:** You should also know that they'll only drop them when defeated using necromancy.
+      - **Player:** Thanks!
+    - (Condition: With all the required items:)
+      - **Player:** I've got those Zaryte fragments and tortured soul essences for you!
+      - **Kili:** Good job.
+      - Kili takes the Zaryte fragments and the tortured soul essences.
+      - (removes=5 zaryte fragments, 5 tortured soul essences, and equipment upgrade task list)
+      - **Player:** What are you going to do with them?
+      - **Kili:** Ah, I'm glad you asked! You see...
+      - Kili starts talking about some extremely in depth Smithing-related gobbledygook.
+      - **Kili:** ...And then I'll instil the essence into the alloys, whilst infusing the fragments into the welding bucket...
+      - She continues to talk in terms you hadn't heard before. You assume you don't know of these terms because she's the master smith here, not you.
+      - You regret asking in the first place.
+      - **Kili:** ...And that's how we'll make you the best armour to ever exist!
+      - **Player:** ...
+      - **Kili:** ...Player?
+      - **Player:** Oop, sorry, I must have zoned out. What was that?
+      - **Kili:** Nevermind. Now follow me, and I'll teach you the upgrade...
+      - {{Qact|The screen fades out.}}
+      - Kili explains the tier 80 upgrade process for power armour in great depth.
+      - **Kili:** ...Don't forget to put on goggles before bashing the bars, otherwise you might make yourself blind...
+      - You take notes, ensuring you won't forget anything.
+      - {{Qact|The screen fades back in.}}
+      - **Kili:** ...And that should be it!
+      - **Kili:** One last thing I should mention. If you choose to upgrade your equipment from an augmented version, you should know that any augmentations will also be applied to the upgraded version.
+      - **Kili:** So no need to worry about losing anything.
+      - **Kili:** Come back and let me know when you're ready to learn tier 90.
+      - **Player:** Great!
+      - Congratulations! You have completed: 'Kili's Knowledge VI (power)' - Learn how to upgrade your Death Skull and Deathdealer equipment to tier 80 from Kili.
+  - Cancel your current task.
+    - **Kili:** Are you sure you want to stop working on your current upgrade task?
+    - **Select an Option**
+      - Yes, I want to stop working on my current upgrade task.
+        - ((If you have an equipment upgrade task list in backpack:))
+          - (removes=the equipment upgrade task list)
+          - (continue)
+        - **Kili:** No problem. You can come back anytime to work on a new task.
+      - No, I want to continue working on my current upgrade task.
+        - **Kili:** Great. You know where to find me if you need any help.
+        - (initial)
+
+#### Tier 90
+
+
+##### Tank
+
+
+##### Before having received the inert necromantic crystal
+
+- **Kili:** So you've chosen to upgrade to tier 90.
+- **Kili:** To start, you'll need to fill up this soul urn for me.
+- **Kili:** The urn will only accept souls from powerful communion rituals, of which I need 50. Alternatively, you can fill it up by just completing a Soul Reaper task using necromancy.
+- ((If you don't have the soul urn:))
+  - ((Without space in backpack:))
+    - **Kili:** Ah, it looks like you don't have space for the soul urn. Come back when you do.
+  - ((With space in backpack:))
+    - (receives=a soul urn)
+    - [Kili gives you a soul urn.]
+    - (continue)
+- **Kili:** Next, I need 10 empowered necromantic seals from each of the generals of the Heart of Gielinor.
+- **Kili:** This is a complex process that's taken a lot of time to perfect, so pay attention.
+- **Kili:** First off, you'll need to defeat the boss to gain the unpowered seals. Make sure to bring along 25 greater necroplasm too.
+- **Kili:** Now, once you have a bunch of their seals, they'll each require a different process to empower...
+- **Kili:** The seals from Helwyr should be empowered through opening a crystal chest.
+- **Kili:** Gregorovic's seals will need you to craft some miasmic runes.
+- **Kili:** Vindicta's seals will need you to use Bone Shield against a dragonfire attack.
+- **Kili:** And last but not least, the Twin Furies seals will need you to restore some Zamorakian artefacts.
+- **Player:** That is... a lot of work.
+- **Kili:** Oh, I'm not finished yet!
+- **Player:** ...
+- **Kili:** I also need a pulsating onyx. You'll be able to craft this by combining an uncut onyx and a special crystal.
+- **Kili:** Lucky for you, I already have the crystal here with me.
+- ((If you don't have the inert necromantic crystal:))
+  - ((Without space in backpack:))
+    - **Kili:** Ah, it looks like you don't have space for the inert necromantic crystal. Come back when you do.
+  - ((With space in backpack:))
+    - (receives=an inert necromantic crystal)
+    - [Kili gives you an inert necromantic crystal.]
+    - (continue)
+- **Player:** Great!
+- **Kili:** Unlucky for you, it needs powering up. The energies from defeating TzTok-Jad in the TzHaar Fight Cave should be enough for that.
+- **Player:** Great.
+- **Player:** So that's it, right? I'll be off now!
+- **Kili:** Not so fast!
+- **Kili:** Lastly, I would like a blueberry pie.
+- **Player:** A BLUEberry pie?
+- **Player:** I'm not sure exactly what Gielinor was like during your time alive, but I can tell you now that we don't have such a thing as a blueberry.
+- **Kili:** I'm sure you can figure it out. Maybe some inhabitants around the city can help you.
+- **Player:** So that's...
+- [You take a deep breath.]
+- **Player:** A full soul urn, 10 empowered necromantic seals from each of the 4 Heart of Gielinor generals, a pulsating onyx...
+- [You breathe out.]
+- **Player:** ... And a blueberry pie.
+- **Kili:** That's everything!
+- **Kili:** You've got a lot of work ahead of you, so no need to hang around. Here's the list.
+- ((Without space in backpack:))
+  - **Kili:** Ah, it looks like you don't have space for the equipment upgrade task list. Come back when you do.
+- ((With space in backpack:))
+  - (receives=an equipment upgrade task list)
+  - Kili gives you an equipment upgrade task list.
+  - **Player:** I'd best get started then.
+
+##### After having received the inert necromantic crystal
+
+- [Menu]: Select an Option
+  - [Choice]: Ask about your current task.
+    - ((Without the necessary items:))
+      - (Condition: Only on the first time after having talked to Kharen and Lupe about blueberries:)
+        - **Player:** I'm back with some information that may help me find some blueberries.
+        - **Kili:** Oh?
+        - **Player:** Someone suggested that as blue is the opposite of red, then I would simply have to find a land of opposites.
+        - **Player:** They were joking, but I also talked to someone else who mentioned a land where things work backwards.
+        - **Player:** Something about an evil cat, and uncooked fish...
+        - **Kili:** Oh no.
+        - **Player:** You know something?
+        - **Kili:** A pest. Evil Bob.
+        - **Player:** ...Evil Bob?
+        - **Kili:** He resides in a land of opposites, reigning over humans. A place called ScapeRune.
+        - **Kili:** More than once has he tried to imprison me over there.
+        - **Kili:** But you should be fine! Just do as he says.
+        - **Player:** ...
+        - **Player:** How can I get there?
+        - **Kili:** That I can't help you with, as I never actually visited myself. It's a different realm to Gielinor, though, so it should be accessible via magical means.
+        - **Player:** Thanks for the help.
+      - ((Without equipment upgrade task list:))
+        - **Player:** I need to reclaim my equipment upgrade task list.
+        - ((Without space in backpack:))
+          - **Kili:** I can replace it for you, but you'll need to come back when you have a free space in your backpack.
+          - (continue|90)
+        - ((With space in backpack:))
+          - (receives=an equipment upgrade task list)
+          - Kili hands you a new equipment upgrade task list.
+          - (continue)
+      - ((Without soul urn:))
+        - **Player:** I need to reclaim my soul urn.
+        - ((Without space in backpack:))
+          - **Kili:** I can replace it for you, but you'll need to come back when you have a free space in your backpack.
+          - (continue|90)
+        - ((With space in backpack:))
+          - (receives=a soul urn)
+          - Kili hands you a new soul urn.
+          - (continue)
+      - ((Without inert necromantic crystal:))
+        - **Player:** I need to reclaim my inert necromantic crystal.
+        - ((Without space in backpack:))
+          - **Kili:** I can replace it for you, but you'll need to come back when you have a free space in your backpack.
+          - (continue)
+        - ((With space in backpack:))
+          - (receives=an inert necromantic crystal)
+          - Kili hands you a new inert necromantic crystal.
+          - (continue)
+      - **Player:** What do I need to do again?
+      - **Kili:** Don't you have that list I gave you?
+      - **Player:** Well, yes, but I just wanted to talk to a friend.
+      - **Kili:** First of all, I need you to bring me some souls in that soul urn I just gave you.
+      - **Kili:** It can be filled through 50 powerful communion rituals, or completing a Soul Reaper task with necromancy.
+      - **Kili:** Next, I need 10 empowered necromantic seals from the general of the Heart of Gielinor.
+      - **Kili:** First off, you'll need to defeat the boss to gain the unpowered seals. Make sure to bring along 25 greater necroplasm too.
+      - **Kili:** Then, to empower them, each requires a different process.
+      - **Kili:** The seals from Helwyr should be empowered through opening a crystal chest.
+      - **Kili:** Gregorovic's seals will need you to craft some miasmic runes.
+      - **Kili:** Vindicta's seals will need you to use Bone Shield against a dragonfire attack.
+      - **Kili:** The Twin Furies seals will need you to restore some Zamorakian artefacts.
+      - **Kili:** Secondly, I need a pulsating onyx. You'll be able to craft this by combining an uncut onyx and that crystal I gave you.
+      - **Kili:** The crystal first needs charging up by defeating TzTok-Jad in the TzHaar Fight Cave, though.
+      - **Kili:** And last but not least, I want a blueberry pie. Some inhabitants of the city may be able to help you figure that one out.
+      - **Player:** I'll get back to it then.
+    - ((With the necessary items:))
+      - **Player:** Ok, I finally managed to gather all the things you needed.
+      - **Kili:** So you did manage to find a blueberry?
+      - **Player:** I could barely believe it myself, but yes. I did manage to find a blueberry.
+      - [Kili takes the pulsating onyx, the necromantic seals, the blueberry pie, and the soul urn.]
+      - (removes=the blueberry pie, equipment upgrade task list, necromantic seals, pulsating onyx, and soul urn)
+      - **Player:** What did you need this abundance of items for?
+      - **Kili:** Something very exciting.
+      - **Player:** Oh?
+      - **Kili:** That I can't tell you about yet.
+      - **Player:** Really? I went to all that effort, you could at least give me a crumb of knowledge.
+      - **Kili:** That's true...
+      - **Kili:** I suppose I can tell you after you've learnt all of the upgrades.
+      - **Player:** Fine.
+      - **Player:** Can we eat the pie now?
+      - **Kili:** We?
+      - **Player:** I've never tasted a blueberry. I didn't even know they existed until this task.
+      - **Kili:** Alright, I guess we can share the pie this time.
+      - [Kili chomps down half of the pie, leaving the remaining half for you.]
+      - [You chomp down on the other half of the pie, leaving nothing but crumbs.]
+      - **Kili:** Thoughts?
+      - **Player:** Hmm. That was pretty good! A hint of sourness, combined with a unique tinge of sugary goodness.
+      - **Kili:** I couldn't have said it better myself.
+      - **Kili:** Now! Let's head over to the workshop so I can teach you the upgrade.
+      - {{Qact|The screen fades out.}}
+      - [Kili imbues her forge with energy from the soul urn and explains the tier 90 upgrade process in great depth.]
+      - [A novel fragrance fills your nose. You can only assume that it's blueberry.]
+      - **Kili:** ...Make sure to hydrate before starting the process, so you don't pass out...
+      - [You take notes, ensuring you won't forget anything.]
+      - {{Qact|The screen fades in.}}
+      - ((If this was not the last task:))
+        - **Kili:** ...And that's it!
+        - **Kili:** I haven't taught you all there is to know yet, so come back whenever you'd like to learn more.
+        - **Player:** Will do.
+        - Congratulations! You have completed: 'Kili's Knowledge VII' - Learn how to upgrade your Death Skull and Deathwarden equipment to tier 90 from Kili.
+      - ((If this was the last task:))
+        - **Kili:** Hmm..
+        - **Kili:** Tier 70... tank.... power... Tier 80... Tier 90....
+        - **Kili:** And with that, I believe I've taught you everything you need to know!
+        - **Player:** The student becomes the master!
+        - **Kili:** You were a wonderful student, Player. I'll see you around!
+        - **Player:** Hold on a minute.
+        - **Kili:** Yes?
+        - **Player:** What exactly did you end up doing with all the miscellaneous items I painstakingly collected for you?
+        - **Player:** The residue, the flippers, the chitin, the fragments?
+        - **Kili:** Ah. But didn't I tell you at the time?
+        - **Player:** You really expected me to believe the things you were telling me? Things like 'only the Imcando are allowed to know of some top secret use for hideous moleskins'?
+        - **Kili:** ...
+        - **Kili:** You got me.
+        - **Kili:** I just wanted to see how far you'd go to learn the upgrades, really.
+        - **Kili:** Turns out, quite far!
+        - **Kili:** Unnecessarily slaughtering mogres... Annoying ankou... You even went and defeated the Ambassador!
+        - **Player:** ...
+        - **Player:** After all those pies I gathered for you, and this is how you repaid me.
+        - **Kili:** The pies were much appreciated.
+        - **Player:** Well, at least I can fully upgrade my equipment now. Thanks, I guess.
+        - **Kili:** Anytime!
+        - **Kili:** I'm not going anywhere, so you know where to find me should you need anything.
+        - **Player:** See you around!
+        - Congratulations! You have completed: 'Kili's Knowledge VII' - Learn how to upgrade your Death Skull and Deathwarden equipment to tier 90 from Kili.
+  - [Choice]: Cancel your current task.
+    - **Kili:** Are you sure you want to stop working on your current upgrade task?
+    - [Menu]: Select an Option
+      - [Choice]: Yes, I want to stop working on my current upgrade task.
+        - ((If you have an equipment upgrade task list in backpack:))
+          - (removes=the equipment upgrade task list)
+          - (continue)
+        - **Kili:** No problem. You can come back anytime to work on a new task.
+      - [Choice]: No, I want to continue working on my current upgrade task.
+        - **Kili:** Great. You know where to find me if you need any help.
+        - (initial)
+
+##### Power
+
+
+##### Before having selected the task
+
+- **Kili:** So, now we're onto tier 90, power armour.
+- **Kili:** This time you won't need to fill up any soul urns for me.
+- **Kili:** Instead, I need a few items which will require some challenging tasks.
+- **Player:** I'm up for anything.
+- **Kili:** That's the spirit!
+- **Kili:** To start with then, I need a piece of greater ensouled cloth, dripping with venom.
+- **Kili:** Using the cloth on the corpse of Araxxi should be sufficient.
+- **Kili:** The next thing I need is a fragment of anima. You should just be able to get one of these from defeating either Vorago, Telos, or Solak, with necromancy.
+- **Player:** A piece of cake.
+- **Kili:** Really? Well, I still need one more thing...
+- **Player:** A special pie infused with the power of the gods, which I can only get by defeating Zamorak?
+- **Kili:** I wish!
+- **Kili:** But no. The last thing I need is some ulthven necroplasm, which you'll be able to get from defeating the Ambassador with necromancy.
+- **Player:** I hope this upgrade is worth it.
+- **Kili:** Maybe. Before you go, here's the list.
+- ((Without space in backpack:))
+  - **Kili:** Ah, it looks like you don't have space for the equipment upgrade task list. Come back when you do.
+- ((With space in backpack:))
+  - (receives=an equipment upgrade task list)
+  - Kili gives you an equipment upgrade task list.
+  - **Player:** I'll go and get started then.
+
+##### After having selected the task
+
+- [Menu]: Select an Option
+  - [Choice]: Ask about your current task.
+    - ((Not having all the necessary items:))
+      - ((If you lost your equipment upgrade task list:))
+        - **Player:** I need to reclaim my equipment upgrade task list.
+        - ((Without space in backpack:))
+          - **Kili:** I can replace it for you, but you'll need to come back when you have a free space in your backpack.
+          - (continue)
+        - ((With space in backpack:))
+          - (receives=an equipment upgrade task list)
+          - [Kili hands you a new equipment upgrade task list.]
+          - (continue)
+      - **Player:** What do I need to do again?
+      - **Kili:** Don't you have that list I gave you?
+      - **Player:** Well, yes, but I missed looking at your dazzling eyes and glowing hair.
+      - **Player:** Or, glowing everything I guess.
+      - **Kili:** ...
+      - **Kili:** I'll take that as a compliment.
+      - **Kili:** So, first thing I need is some greater ensouled cloth, dripping in venom.
+      - **Kili:** Using the cloth on the corpse of Araxxi should do the job.
+      - **Kili:** The second thing I need is a fragment of anima. Defeating Vorago, Telos, or Solak, with necromancy, should yield one of these.
+      - **Kili:** The third and final thing I need is some ulthven necroplasm. You'll be able to get this by defeating the Ambassador with necromancy.
+      - **Player:** Alright!
+    - ((Having all the necessary items:))
+      - **Player:** I've got the venomous cloth, fragment of anima, and ulthven necroplasm for you!
+      - **Kili:** Good work.
+      - [Kili takes the venomous greater ensouled cloth, fragment of anima, and ulthven necroplasm.]
+      - (removes=the equipment upgrade task list, fragment of anima, ulthven necroplasm, and venomous greater ensouled cloth)
+      - **Player:** What are you going to do with them?
+      - **Kili:** Sorry, what was that?
+      - **Player:** I asked what you're going to do w-
+      - **Kili:** Player, I think you're breaking up.
+      - **Player:** What? I'm right next to you.
+      - **Kili:** Maybe their amulet of ghostspeak stopped working.
+      - **Player:** I don't even need that in the underworld!
+      - **Kili:** Maybe they've faded out from the underworld, because they're not dead.
+      - **Player:** Nope, I'm still fully here.
+      - **Kili:** Well, it was nice to know them.
+      - **Player:** Hey! I'm still here! Can we just get the upgrade out of the way?
+      - **Kili:** Ah, Player, there you are! Great suggestion, let's teach you the upgrade.
+      - {{Qact|The screen fades out.}}
+      - [Kili explains the tier 90 upgrade process for power armour in great depth.]
+      - **Kili:** ...Make sure you wear some steel-toed boots, so you don't burn your toes off...
+      - [You take notes, ensuring you won't forget anything.]
+      - {{Qact|The screen fades in.}}
+      - ((If this was not the last task:))
+        - **Kili:** ...And that's all there is to it!
+        - **Kili:** I haven't taught you everything there is to know yet, so come back whenever you'd like to learn more.
+        - **Player:** Will do!
+        - Congratulations! You have completed: 'Kili's Knowledge VII (power)' - Learn how to upgrade your Death Skull and Deathdealer equipment to tier 90 from Kili.
+      - ((If this was the last task:))
+        - **Kili:** Hmm..
+        - **Kili:** Tier 70... tank.... power... Tier 80... Tier 90....
+        - **Kili:** And with that, I believe I've taught you everything you need to know!
+        - **Player:** The student becomes the master!
+        - **Kili:** You were a wonderful student, Player. I'll see you around!
+        - **Player:** Hold on a minute.
+        - **Kili:** Yes?
+        - **Player:** What exactly did you end up doing with all the miscellaneous items I painstakingly collected for you?
+        - **Player:** The residue, the flippers, the chitin, the fragments?
+        - **Kili:** Ah. But didn't I tell you at the time?
+        - **Player:** You really expected me to believe the things you were telling me? Things like 'only the Imcando are allowed to know of some top secret use for hideous moleskins'?
+        - **Kili:** ...
+        - **Kili:** You got me.
+        - **Kili:** I just wanted to see how far you'd go to learn the upgrades, really.
+        - **Kili:** Turns out, quite far!
+        - **Kili:** Unnecessarily slaughtering mogres... Annoying ankou... You even went and defeated the Ambassador!
+        - **Player:** ...
+        - **Player:** After all those pies I gathered for you, and this is how you repaid me.
+        - **Kili:** The pies were much appreciated.
+        - **Player:** Well, at least I can fully upgrade my equipment now. Thanks, I guess.
+        - **Kili:** Anytime!
+        - **Kili:** I'm not going anywhere, so you know where to find me should you need anything.
+        - **Player:** See you around!
+        - Congratulations! You have completed: 'Kili's Knowledge VII (power)' - Learn how to upgrade your Death Skull and Deathdealer equipment to tier 90 from Kili.
+        - Congratulations! You have completed: 'Student Becomes the Master' - Learn all of Kili's equipment upgrade tasks.
+  - [Choice]: Cancel your current task.
+    - **Kili:** Are you sure you want to stop working on your current upgrade task?
+    - [Menu]: Select an Option
+      - [Choice]: Yes, I want to stop working on my current upgrade task.
+        - ((If you have an equipment upgrade task list in backpack:))
+          - (removes=the equipment upgrade task list)
+          - (continue)
+        - **Kili:** No problem. You can come back anytime to work on a new task.
+      - [Choice]: No, I want to continue working on my current upgrade task.
+        - **Kili:** Great. You know where to find me if you need any help.
+        - (initial)
+
+#### View Hard Tasks
+
+- (opens=Underworld Set Tasks - Hard)
+
+#### Task Set Overview
+
+- (opens=Underworld achievements)

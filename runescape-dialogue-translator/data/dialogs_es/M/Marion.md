@@ -1,0 +1,213 @@
+# Marion
+
+- **Original Wiki Page**: [Transcript:Marion](https://runescape.wiki/w/Transcript%3AMarion)
+- **Letter**: `M`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### When talked to
+
+- **Marion:** ¿Qué puedo ofrecerte?
+- Seleccione una opción
+  - ¿Qué tienes para beber?
+    - **Player:** ¿Qué tienes para beber?
+    - **Marion:** Tengo cerveza normal o puedes probar la especialidad de la casa<!-- This is British spelling-->: Ranger's Aid. Incluso tenemos un lote de material maduro. Pero cuidado: ¡eso te dejará boquiabierto!
+    - Seleccione una opción
+      - Tomaré una cerveza.
+        - **Player:** Tomaré una cerveza.
+        - **Marion:** Serán 2 coins.
+        - **Player:** Aquí tienes.
+        - **Marion:** ¡Y aquí tienes!
+        - **Player:** ¡Gracias!
+      - Tomaré la ayuda de un guardabosques.
+        - **Player:** Tomaré una ayuda de guardabosques.
+        - **Marion:** Serán 25 coins.
+        - *(Igual que el anterior.)*
+      - Probaré una ayuda para guardabosques madura.
+        - **Player:** Probaré una ayuda para guardabosques madura.
+        - **Marion:** Serán 50 coins.
+        - *(Igual que el anterior.)*
+      - De hecho, estoy bien por ahora.
+        - **Player:** De hecho, estoy bien por ahora.
+        - **Marion:** Haz lo que quieras.
+  - ¿Tienes algo para comer?
+  - **Player:** ¿Tienes algo para comer?
+  - **Marion:** ¡Ahí está nuestro mundialmente famoso kebab en brocheta! Sólo 25 coins.
+  - Seleccione una opción
+    - Probaré uno de esos.
+      - **Player:** Probaré uno de esos.
+      - **Marion:** Serán 25 coins.
+      - **Player:** Aquí tienes.
+      - **Marion:** ¡Y aquí tienes!
+      - **Player:** ¡Gracias!
+    - ¿Cuál es uno de esos?
+      - **Player:** ¿Cuál es uno de esos?
+      - **Marion:** Es la mejor carne asada y verduras a la parrilla, ensartada con una de las flechas de Geoff. ¿Te apetece uno?
+      - Seleccione una opción
+        - Probaré uno de esos.
+          - *(Igual que el anterior.)*
+        - ¿Comida en una flecha? ¿No es eso un poco impráctico?
+          - **Player:** ¿Comida en una flecha? ¿No es eso un poco impráctico?
+          - **Marion:** ¡No para mí! Geoff fabrica toneladas de cosas y evita que se desperdicien.
+          - Seleccione una opción
+            - ¿No te apuñalas en the face al comerlo?
+              - **Player:** ¿No te apuñalas en the face cuando lo comes?
+              - **Marion:** Puedes intentar no meterte el extremo puntiagudo en la boca; ya sabes, cómelo de lado.
+              - **Player:** ...
+              - **Marion:** Haz una pregunta estúpida y obtén una respuesta estúpida.
+              - Seleccione una opción
+                - ¿Qué tienes para beber?
+                  - *(Igual que el anterior.)*
+                - Charlemos.
+                  - *(Igual que a continuación.)*
+                - Me iré ahora.
+                  - *(Igual que a continuación.)*
+            - Bastante justo.
+              - **Player:** Muy bien.
+              - **Marion:** Entonces, ¿había algo que quisieras?
+              - Seleccione una opción
+                - ¿Qué tienes para beber?
+                  - *(Igual que el anterior.)*
+                - ¿Tienes algo para comer?
+                  - *(Igual que el anterior.)*
+                - Charlemos.
+                  - *(Igual que a continuación.)*
+                - En realidad, nada.
+                  - *(Igual que a continuación.)*
+            - Me iré ahora.
+              - **Player:** Me iré ahora.
+        - De hecho, estoy bien por ahora.
+          - *(Igual que a continuación.)*
+    - De hecho, estoy bien por ahora.
+      - **Player:** De hecho, estoy bien por ahora.
+      - **Marion:** Haz lo que quieras.
+  - Charlemos.
+    - **Player:** Charlemos.
+    - **Marion:** ¿Qué pasa?
+    - Seleccione una opción
+      - ¿Qué haces en un lugar como este?
+        - **Player:** ¿Qué haces en un lugar como este?
+        - **Marion:** No soy el típico barman, ¿verdad?
+        - Seleccione una opción
+          - ¿Aspirabas a ser bartender?
+            - **Player:** ¿Aspirabas a ser bartender?
+            - **Marion:** Oh no, solía vivir la vida de un bandido antes de establecerme aquí.
+            - Seleccione una opción
+              - ¿Cómo fue ser un bandido?
+                - **Player:** ¿Cómo fue ser un bandido?
+                - **Marion:** Oh, esos eran los días. Solíamos robar a los ricos...
+                - **Player:** ...¿y dar a los pobres?
+                - **Marion:** Erm, sí.
+                - **Player:** ...
+                - **Marion:** ...
+                - **Player:** Entonces, ¿qué te hizo cambiar tus costumbres y sentar cabeza?
+                - **Marion:** ¡Mis trofeos! Míralos, ¿no son brillantes?
+                - Seleccione una opción
+                  - ¡Sí, mucho!
+                    - **Player:** ¡Sí, mucho!
+                    - **Marion:** Son mi orgullo y alegría. No podía tenerlos en una vieja y mohosa tienda de bandidos, ¿sabes? Así que tuve que encontrarles un hogar mejor.
+                    - Seleccione una opción
+                      - ¿Cómo los conseguiste?
+                        - **Player:** ¿Cómo los conseguiste?
+                        - **Marion:** Competiciones de tiro con arco en el Ranging Guild. Solía ​​​​poder dar en el blanco desde una milla de distancia con vientos fuertes.
+                        - Seleccione una opción
+                          - ¡Guau!
+                            - **Player:** ¡Guau!
+                            - **Marion:** Sin embargo, eso fue hasta el "incidente".
+                            - **Player:** ¿Incidente?
+                            - **Marion:** Por eso perdí mi habilidad con el arco. Digamos que se trataba de una mantequera y una chinchompa.
+                            - **Player:** ¿Una chinchompa?
+                            - **Marion:** Pobre Fluffy. ¿Por qué? ¿POR QUÉ?
+                            - **Player:** Hablemos de otra cosa, ¿vale?
+                            - **Marion:** ¿Cómo qué?
+                            - *(Vuelve a las opciones iniciales.)*
+                          - ¿Solía hacerlo?
+                            - **Player:** ¿Solías hacerlo?
+                            - **Marion:** Hubo un "incidente".
+                            - **Player:** ¿Incidente?
+                            - *(Igual que el anterior.)*
+                      - Hablemos de otra cosa.
+                        - *(Igual que a continuación.)*
+                  - Supongo.
+                    - **Player:** Supongo.
+                    - **Marion:** Son mi orgullo y alegría. No podía tenerlos en una vieja y mohosa tienda de bandidos, ¿sabes? Así que tuve que encontrarles un hogar mejor.
+                    - *(Igual que el anterior.)*
+                  - <nowiki>*</nowiki>ronquidos*
+                    - **Player:** ZzZzZz.
+                    - **Marion:** Son mi orgullo y alegría. No podía tenerlos en una vieja y mohosa tienda de bandidos, ¿sabes? Así que tuve que encontrarles un hogar mejor.
+                    - *(Igual que el anterior.)*
+              - ¡Eras un criminal asqueroso!
+                - **Player:** ¡Eras un criminal asqueroso!
+                - **Marion:** ¡Oye! ¡Solía ​​bañarme cada dos días de Dune!
+                - **Player:** ...
+                - **Marion:** Dije 'solía'...
+                - **Player:** Entonces, ¿qué te hizo cambiar tus costumbres y sentar cabeza?
+                - *(Igual que el anterior.)*
+              - Hablemos de otra cosa.
+                - **Player:** Hablemos de otra cosa.
+                - **Marion:** ¿De qué quieres hablar?
+                - Seleccione una opción
+                  - ¿Qué tienes para beber?
+                    - *(Igual que el anterior.)*
+                  - ¿Tienes algo para comer?
+                    - *(Igual que el anterior.)*
+                  - Charlemos.
+                    - *(Igual que el anterior.)*
+                  - En realidad, nada.
+                    - *(Igual que el anterior.)*
+          - Realmente no, no.
+            - **Player:** En realidad no, no.
+            - **Marion:** Sí, solía vivir la vida de un bandido antes de establecerme aquí.
+            - Seleccione una opción
+              - ¿Cómo fue ser un bandido?
+                - *(Igual que el anterior.)*
+              - ¡Eras un criminal asqueroso!
+                - *(Igual que el anterior.)*
+              - Hablemos de otra cosa.
+                - *(Igual que el anterior.)*
+          - Hablemos de otra cosa.
+            - *(Igual que el anterior.)*
+      - ¿No es peligroso tenerlo tirando flechas así?
+        - **Player:** ¿No es peligroso tenerlo lanzando flechas de esa manera?
+        - **Marion:** Oh, estoy seguro de que nunca podría pasar nada malo. Somos muy responsables aquí en Poison Arrow.
+        - **Player:** Mmm.
+        - Seleccione una opción
+          - ¿Qué tienes para beber?
+            - *(Igual que el anterior.)*
+          - ¿Tienes algo para comer?
+            - *(Igual que el anterior.)*
+          - ¿Charlamos?
+            - *(Igual que el anterior.)*
+          - En realidad, nada.
+            - *(Igual que a continuación.)*
+      - ¿Qué pasa con la ardilla?
+        - **Player:** ¿Qué le pasa a la ardilla?
+        - **Marion:** Oh, Geoff lo cuida. Mejor habla con él si quieres saber más.
+        - **Player:** Hablemos de otra cosa, ¿vale?
+        - **Marion:** ¿Por ejemplo?
+        - Seleccione una opción
+          - ¿Qué tienes para beber?
+            - *(Igual que el anterior.)*
+          - ¿Tienes algo para comer?
+            - *(Igual que el anterior.)*
+          - ¿Charlamos?
+            - *(Igual que el anterior.)*
+          - En realidad, nada.
+            - *(Igual que a continuación.)*
+      - En realidad, nada.
+        - **Player:** Nada, en realidad.
+        - **Marion:** Solo avísame si cambias de opinión.
+  - En realidad, nada.
+    - *(Igual que arriba)*
+
+### Overhead lines
+
+- *(Uno de los siguientes se ve aleatoriamente cuando Marion pule el trofeo :)*
+  - {{RSChat|Dazzling!|bg=#0A1720}}
+  - {{RSChat|Much better.|bg=#0A1720}}
+  - {{RSChat|Shiny!|bg=#0A1720}}
+  - {{RSChat|Those were the days.|bg=#0A1720}}

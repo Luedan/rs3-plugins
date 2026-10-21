@@ -1,0 +1,193 @@
+# Nastroth
+
+- **Original Wiki Page**: [Transcript:Nastroth](https://runescape.wiki/w/Transcript%3ANastroth)
+- **Letter**: `N`
+
+---
+
+## Dialogue Transcript
+
+
+### Talking to Nastroth
+
+
+#### Without ancient artefacts in backpack
+
+- **Nastroth:** Greetings, brave warrior.<br>What can I do for you?
+- [Menu]: Choose an option:
+  - [Choice]: Tell me about yourself.
+    - [Menu]: Select an Option
+      - [Choice]: Who are you?
+        - **Nastroth:** I am Nastroth. Like my brother, Mandrith, I'm a collector of ancient artefacts. I'm just not as excited about it as he is.
+        - [Menu]: Select an Option
+          - [Choice]: Why aren't you excited about it?
+            - **Nastroth:** Truth be told, I'd much rather be out there with the rest of you, breaking bones and cracking skulls.
+            - [Menu]: Select an Option
+              - [Choice]: Then why aren't you?
+                - **Nastroth:** My days of battle are over. Now I spend my time here, collecting ancient artefacts.
+                - [Menu]: Select an Option
+                  - [Choice]:  What are these ancient artefacts?
+                    - (below|As the blood and sweat)
+                  - [Choice]: Have fun with that.
+                    - (previous|Options)
+              - [Choice]: That's not what I do.
+                - **Nastroth:** Oh. My apologies.
+                - (previous|Options)
+              - [Choice]: Let's talk about something else.
+                - (previous|Options)
+          - [Choice]: What are these ancient artefacts?
+            - **Nastroth:** As the blood and sweat of warriors is spilled on the ground, relics of the God Wars are drawn out from the dirt where they were once left forgotten. If you happen to come acoss any of these ancient items, bring them to me or my brother Mandrith near the Pirates' Hideout in the Wilderness, and we will pay you a fair price for them. We don't accept them in noted form, though, remember that. Also, we don't want to buy any weapons or armour.
+            - [Menu]: Select an Option
+              - [Choice]: Who is Mandrith?
+                - (below|Mandrith)
+              - [Choice]: Why won't you buy weapons or armour?
+                - **Nastroth:** They should be used as they were meant to be used, not traded for money. Mandrith and I only collect ancient artefacts.
+                - [Menu]: Select an Option
+                  - [Choice]: What are these ancient artefacts?
+                    - (above|As the blood and sweat)
+                  - [Choice]: Let's talk about something else.
+                    - (previous|Options)
+              - [Choice]: Let's talk about something else.
+                - (previous|Options)
+          - [Choice]: Who is Mandrith?
+            - **Nastroth:** Mandrith is my overly excited brother and the one who made me wear this outfit. We share the same purpose, collecting ancient artefacts, but he is located near the Pirates' Hideout in the Wilderness.
+            - [Menu]: Select an Option
+              - [Choice]: What are these ancient artefacts?
+                - (above|As the blood and sweat)
+              - [Choice]: Let's talk about something else.
+                - (previous|Options)
+          - [Choice]: Let's talk about something else.
+            - (previous|Options)
+      - [Choice]: What do you do here?
+        - **Nastroth:** I collect ancient artefacts acquired by warriors in return for money.
+        - [Menu]: Select an Option
+          - [Choice]: What are these ancient artefacts?
+            - (above|As the blood and sweat)
+          - [Choice]: Let's talk about something else.
+            - (previous|Options)
+      - [Choice]: Let's talk about something else.
+        - (previous|Initial)
+  - [Choice]: cond=If the players have incomplete basic challenges:|I'd like to skip my current challenges.
+    - (A dialogue box shows titled with the challenge name.)
+    - [challenge content]<br><br>Would you like to skip this objective?<br><br>When you Claim Rewards, you won't get XP in this challenge's skill.
+      - [Choice]: Cancel
+        - (previous2)
+  - [Choice]: I want to block XP from specific skills.
+    - (opens=Skill selection)
+    - [Menu]: Block XP from which skill?
+      - [Choice]: Cancel
+        - (previous2)
+      - [Choice]: Block XP
+        - Disabled [skill] XP
+        - ((Repeated in a pop-up:)) Disabled [skill] XP
+      - [Choice]: Give XP
+        - Enabled [skill] XP
+        - ((Repeated in a pop-up:)) Enabled [skill] XP
+  - [Choice]: cond=Only if you have not at any time requested Nasroth to never reset your skills:|Let's talk about skill resets.
+    - (Condition: If the bank pin is not active:)
+      - **Nastroth:** For your own protection, to request a skill reset, you must have an active bank pin.
+      - (previous)
+    - **Nastroth:** Okay, what would you like to reset?
+    - [Menu]: What do you want to reset?
+      - [Choice]: Constitution & Prayer.
+        - **Nastroth:** Are you sure you want to reset? The process can be quite...rough...
+        - (Condition: If you are currently eligible to reset your skills:)
+          - (Condition: If you have any items equipped:)
+            - **Nastroth:** You cannot have anything equipped while resetting your stats.
+          - (Condition: If you have any items in your backpack:)
+            - **Nastroth:** You need an empty inventory to reset your stats.
+          - (Condition: If you have recently dropped something:)
+            - **Nastroth:** You have recently dropped something. Try again later.
+          - (Condition: If Nasroth have already reset your stats:)
+            - **Nastroth:** I have already done this for you once, if I do this again I might do permanent damage.
+          - (Condition: Otherwise:)
+            - (Skill Reset interface opens.)
+              - Reset My Skills
+                - **Nastroth:** Okay, here we go!
+                - {{Qact|Nastroth punches you; you fall to the ground and then rise again.}}
+                - You have just advanced -[number] Prayer levels! You have reached level 1.
+                - You have just advanced -[number] Constitution levels! You have reached level 10.
+              - Don't Reset My Skills
+                - (end)
+        - (Condition: If you must wait for a seven-day cooldown before resetting your skills:)
+          - (Condition: If currently not on cooldown:)
+            - **Nastroth:** Are you sure you want to do this? To make sure of this come back and talk to me in 7 days if you're still serious about this.
+            - To cancel this 7 day cooldown, speak to Nastroth again.
+          - (Condition: If currently on cooldown:)
+            - **Nastroth:** I told you to come back in 7 days. You've still got [number] days to wait. Or did you want something else?
+            - [Menu]: Select an option
+              - [Choice]: I don't want to reset
+                - **Nastroth:** Fine. Begone.
+              - [Choice]: No thanks
+                - **Nastroth:** I'll see you soon.
+      - [Choice]: Defence.
+        - **Nastroth:** Are you sure you want to reset? The process can be quite...rough...
+        - (Condition: If you are currently eligible to reset your skills:)
+          - **Nastroth:** You waited 7 days for this. Are you sure you want to go through with this?
+          - (Condition: If you have any items equipped:)
+            - **Nastroth:** You cannot have anything equipped while resetting your stats.
+          - (Condition: If you have any items in your backpack:)
+            - **Nastroth:** You need an empty inventory to reset your stats.
+          - (Condition: If you have recently dropped something:)
+            - **Nastroth:** You have recently dropped something. Try again later.
+          - (Condition: If Nasroth have already reset your stats:)
+            - **Nastroth:** I have already done this for you once, if I do this again I might do permanent damage.
+          - (Condition: Otherwise:)
+            - (Skill Reset interface opens.)
+              - Reset My Skills
+                - **Nastroth:** Okay, here we go!
+                - {{Qact|Nastroth punches you; you fall to the ground and then rise again.}}
+                - You have just advanced -[number] Defence levels! You have reached level 1.
+              - Don't Reset My Skills
+                - (end)
+        - (Condition: If you must wait for a seven-day cooldown before resetting your skills:)
+          - (Condition: If currently not on cooldown:)
+            - **Nastroth:** Are you sure you want to do this? To make sure of this come back and talk to me in 7 days if you're still serious about this.
+            - To cancel this 7 day cooldown, speak to Nastroth again.
+          - (Condition: If currently on cooldown:)
+            - **Nastroth:** I told you to come back in 7 days. You've still got [number] days to wait. Or did you want something else?
+            - [Menu]: Select an option
+              - [Choice]: I don't want to reset
+                - **Nastroth:** Fine. Begone.
+              - [Choice]: No thanks
+                - **Nastroth:** I'll see you soon.
+      - [Choice]: Never reset my skills.
+        - **Nastroth:** Are you sure you want me to stop offering to reset your skills? If you do this, I will NEVER ask about resetting your skills again.
+        - [Menu]: Never reset your skills?
+          - [Choice]: Yes, never reset my skills.
+            - **Nastroth:** Fair enough, let's never talk of this again.
+          - [Choice]: No, let me reset my skills.
+            - (end)
+      - [Choice]: Nothing.
+        - (end)
+  - [Choice]: cond=Proof disabled:|I want to prove I've never used an XP block/reset.
+    - (A "Proof disabled" dialogue box shows.)
+    - If you choose to enable proof and a player examines your skills, the tooltip for your combat level will display the following information:<br><br>This player has never:<br>- blocked XP<br>- blocked reward XP<br>- reset a specific skill<br><br>Would you like to enable proof?
+      - [Choice]: Cancel
+        - (end)
+      - [Choice]: OK
+        - (previous)
+  - [Choice]: cond=Proof enabled:|I no longer want to prove I've never used an XP block/reset.
+    - (A "Proof enabled" dialogue box shows.)
+    - If a player examines your skills, the tooltip for your combat level currently displays the following information:<br><br>This player has never:<br>- blocked XP<br>- blocked reward XP<br>- reset a specific skill<br><br>Would you like to disable proof?
+      - [Choice]: Cancel
+        - (end)
+      - [Choice]: OK
+        - (previous)
+
+#### With ancient artefacts in backpack
+
+- **Nastroth:** Ah! I see you have found [one/some] of the ancient artefacts my brother and I are seeking.
+- **Nastroth:** Say, you wouldn't be willing to sell [it/them] to me?
+- ((In the following the prompt appears empty with full-screen dialogue boxes toggled on.))
+- [Menu]: Select an Option
+  - [Choice]: Sure, I can do that.
+    - **Player:** Sure, I can do that.
+    - (removes=ancient artefacts) (receives=coins)
+    - You sold the [artefact/artefacts] for [number] coins.
+  - [Choice]: Who are you?
+    - (above|I am Nastroth)
+
+### Using a noted ancient artefact on Nastroth
+
+- **Nastroth:** If you brought me the item itself, rather than a picture of it, I could give you some money for it.

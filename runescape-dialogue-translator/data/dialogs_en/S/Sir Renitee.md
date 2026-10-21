@@ -1,0 +1,266 @@
+# Sir Renitee
+
+- **Original Wiki Page**: [Transcript:Sir Renitee](https://runescape.wiki/w/Transcript%3ASir%20Renitee)
+- **Letter**: `S`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Sir Renitee:** Hmm? What's that, young [man/woman]? What can I do for you?
+- [Menu]: Select an option
+  - [Choice]: I don't know, what can you do for me?
+    - **Sir Renitee:** Hmm, well, mmm, do you have a family crest? I keep track of every Gielinorian family, you know, so I might be able to find yours.
+    - **Sir Renitee:** I'm also something of an, mmm, a painter. If you've met any important persons or visited any nice places I could paint them for you.
+    - [Menu]: Select an option
+      - [Choice]: Can you see if I have a family crest?
+        - **Sir Renitee:** A family crest, mmm? So, what is your name?
+        - **Player:** Player.
+        - **Sir Renitee:** Mmm, Player, let me see...
+        - (Condition: If the player is below level 16 Construction:)
+          - **Sir Renitee:** First things first, young [man/woman]! There is not much point in having a family crest if you cannot display it. You should train construction until you can build a wall decoration in your dining room.
+        - (Condition: If the player is at least level 16 Construction:)
+          - (Condition: First time:)
+            - (Condition: If the player's ancestors were from a kingdom:)
+              - **Sir Renitee:** Well, I don't think you have any noble blood, but I see that your ancestors came from [Asgarnia/Kandarin/Misthalin], so that can be your crest.
+              - (Condition: If the achievement 'Family Values' hasn't been completed:)
+                - colour=white
+              - (continue|crest-opts-init)
+            - (Condition: If the player's ancestors were from Varrock:)
+              - **Sir Renitee:** Well, I don't think you have any noble blood, but I see that your ancestors came from Varrock, so you can use that city's crest.
+              - (Condition: If the achievement 'Family Values' hasn't been completed:)
+                - colour=white
+              - (continue|crest-opts-init)
+          - (Condition: Subsequent times:)
+            - **Sir Renitee:** According to my records, your crest is [the symbol of Shield of Arrav/the symbol of Asgarnia/the symbol of Dorgeshuun brooch/a dragon/a fairy/the symbol of Guthix/the symbol of the HAM cult/a horse/a jungle orge/the symbol of Kandarin/the symbol of Misthalin/a bag of money/the symbol of Saradomin/a skull/the symbol of Varrock/the symbol of Zamorak].
+            - (continue|crest-opts-init)
+          - [Menu]: Select an option{{anchor|crest-opts-init}}
+            - [Choice]: I don't like that crest. Can I have a different one?
+              - (Condition: If the Child of Saradomin achievement hasn't been completed and currently have a bag of money crest:)
+                - **Sir Renitee:** Looking to tick off a hard task in your Falador Achievement diary, eh?
+                - **Player:** Perhaps.
+                - **Sir Renitee:** It's just that I realise you spent a lot on your current crest, it being the money crest and all, and I wish to inform you that we will be giving you a voucher allowing you to get your old crest back. Assuming you're changing to the Saradomin symbol, that is. You'll only ever get one voucher, though. We won't give you another once you've ticked off that task in your diary.
+                - **Player:** That's very kind of you!
+                - **Sir Renitee:** Yes, well, duty to serve and all that. Unfortunately, I can't waive the usual 5,000 fee for changing your crest, though. There are sixteen different symbols; which one would you like?
+                - (continue|crest-opts-2)
+              - {{anchor|crest-cost}}**Sir Renitee:** Mmm, very well. Changing your crest will cost 5,000 coins. There are sixteen different symbols; which one would you like?
+              - [Menu]: Select an option{{anchor|crest-opts-1}}
+                - [Choice]: Shield of Arrav
+                  - (Condition: If the player hasn't completed the Shield of Arrav quest:)
+                    - **Sir Renitee:** But that legendary shield is still lost! I don't think it would be proper for you to wear its symbol.
+                  - (Condition: If the player has completed the Shield of Arrav quest:)
+                    - (removes=5,000 coins)
+                    - **Sir Renitee:** Ah yes, the shield that you helped to retrieve. You have certainly earned the right to wear its symbol.
+                - [Choice]: Asgarnia
+                  - (removes=5,000 coins)
+                  - **Sir Renitee:** Ah, splendid, splendid. There is no better symbol than that of our fair land!
+                - [Choice]: Dorgeshuun symbol
+                  - (Condition: If the player hasn't completed The Lost Tribe quest:)
+                    - **Sir Renitee:** Hmm, have you ever even met the Dorgeshuun? I don't think you should wear their symbol until you have made contant with that lost tribe.
+                    - (previous|crest-opts-1)
+                  - (Condition: If the player has completed The Lost Tribe quest:)
+                    - (removes=5,000 coins)
+                    - **Sir Renitee:** Ah yes, our new neighbours under Lumbridge. I hear you were the one who made contact with them, jolly good.
+                - [Choice]: Dragon
+                  - (Condition: If the player hasn't completed the Dragon Slayer quest:)
+                    - **Sir Renitee:** When the dragon on Crandor Isle remains undefeated? I think you should prove yourself a dragon-slayer before you can wear a dragon symbol!
+                  - (Condition: If the player has completed the Dragon Slayer quest:)
+                    - (removes=5,000 coins)
+                    - **Sir Renitee:** I see you are a mighty dragon-slayer! You have certainly earned the right to wear a dragon symbol.
+                - [Choice]: More...
+                  - [Menu]: Select an option
+                    - [Choice]: Fairy
+                      - **Sir Renitee:** Hmm, mmm, yes, everyone likes pretty fairies.
+                    - [Choice]: Guthix
+                      - (Condition: If the player has less than level 70 Prayer)
+                        - **Sir Renitee:** You do not seem very devoted to any god. I will not let you have a divine symbol unless you have level 70 prayer.
+                      - (Condition: If the player has at least level 70 Prayer)
+                        - **Sir Renitee:** Guthix, god of balance! I'm a Saradominist myself, you know, but we all find meaning in our own way, what?
+                    - [Choice]: HAM
+                      - **Sir Renitee:** Hmm, I'm not sure I like that HAM group, their beliefs are a little extreme for me. But if that's what you want.
+                    - [Choice]: Horse
+                      - (Condition: Without a toy horsey in the inventory:)
+                        - **Sir Renitee:** A horse? I know people talk about them, but I'm not at all sure they ever existed. I don't think I could let you use one as your symbol unless you can fetch me some kind of model of one.
+                      - (Condition: With a toy horsey in the inventory:)
+                        - **Sir Renitee:** Ah, I see you've brought a toy horse for me to see. An interesting beast. Certainly you can use that as your crest if you like, although it seems a bit strange to me.
+                    - [Choice]: More...
+                      - [Menu]: Select an option
+                        - [Choice]: Jogre
+                          - **Sir Renitee:** A Jungle Ogre, eh? Odd beast, very odd.
+                        - [Choice]: Kandarin
+                          - **Sir Renitee:** Our neighbours in the west? Very good, very good.
+                        - [Choice]: Misthalin
+                          - **Sir Renitee:** Ah, the fair land of Lumbridge and Varrock.
+                        - [Choice]: Money
+                          - (Condition: If the player has a money crest voucher:)
+                          - **Sir Renitee:** You wish to represent yourself by a moneybag? I can do that for you in exchange for that voucher, and the 5,000 coin fee of course.
+                          - (Condition: If the player doesn't have a money crest voucher:)
+                          - **Sir Renitee:** You wish to represent yourself by a moneybag? I think to make that meaningful I should increase the price to 500,000 coins. Do you agree?
+                            - [Choice]: All right
+                              - **Player:** All right.
+                              - **Sir Renitee:** Thank you very much! You may now use a money-bag as your symbol.
+                            - [Choice]: No way
+                              - **Player:** No way!
+                              - **Sir Renitee:** Well we can't have just any pauper using a money-bag as a symbol, can we? You'll have to choose a different symbol.
+                              - (previous)
+                        - [Choice]: More...
+                          - [Menu]: Select an option
+                            - [Choice]: Saradomin
+                              - (Condition: If the player has less than level 70 Prayer)
+                                - **Sir Renitee:** You do not seem very devoted to any god. I will not let you have a divine symbol unless you have level 70 prayer.
+                              - (Condition: If the player has at least level 70 Prayer)
+                                - **Sir Renitee:** Ah, the great god Saradomin! May he smile on your house as you adorn it with his symbol!
+                              - {{anchor|crest-opts-2}}
+                                - (Condition: If choosing this crest with the deal for a money crest voucher:)
+                                  - **Sir Renitee:** As I mentioned, here's a coupon allowing you turn your crest back to the money-bag if you so wish.
+                                  - [The herald hands you a voucher, then makes the necessary changes to your crest.]
+                              - '''
+                            - [Choice]: Skull
+                              - (Condition: If the player is not skulled)
+                                - **Sir Renitee:** A symbol of death? You do not seem like a killer to me; perhaps some other symbol would suit you better.
+                              - (Condition: If the player is skulled)
+                                - **Sir Renitee:** Of, of course you can have a skull symbol, sir/madam!
+                            - [Choice]: Varrock
+                              - **Sir Renitee:** Ah, Varrock, a fine city!
+                            - [Choice]: Zamorak
+                              - (Condition: If the player has less than level 70 Prayer)
+                                - **Sir Renitee:** You do not seem very devoted to any god. I will not let you have a divine symbol unless you have level 70 prayer.
+                              - (Condition: If the player has at least level 70 Prayer)
+                                - **Sir Renitee:** The god of Chaos? It is a terrible thing to worship that evil being. But if that is what you wish...
+                            - [Choice]: More...
+                              - (continuea|crest-opts-1)
+            - [Choice]: What does a crest do for me?
+              - **Sir Renitee:** Well, mmm, do you own a house? You can build a plaque on the wall with your crest, in your dining room. Then if you have a workshop you can paint your crest onto a steel shield or a banner.
+              - [Menu]: Select an option
+                - [Choice]: Can I change my crest?
+                  - (above|crest-cost)
+                - [Choice]: Thanks!
+                  - (below|thanks)
+            - [Choice]: Thanks!{{anchor|thanks}}
+              - **Player:** Thanks!
+              - **Sir Renitee:** You're welcome, my [boy/girl].
+      - [Choice]: Can I buy a painting?
+        - **Sir Renitee:** Would you like a portrait or an, mmm, a landscape? Or a map, maybe?
+        - [Menu]: Select an option
+          - [Choice]: A portrait
+            - **Sir Renitee:{{anchor|portrait-intro}}** Mmm, well, there are a few portraits I can paint. I can only let you have one if you've got some connection with that person though. Who would you like?
+            - [Menu]: Select an option
+              - [Choice]: King Arthur
+                - (Condition: If the player hasn't completed the Holy Grail quest:)
+                  - **Sir Renitee:** Do you have, mmm, a connection with King Arthur? He wouldn't like me to just give his picture to anyone.
+                  - To buy the portrait of King Arthur you must have completed {{Colour|#003366|The Holy Grail}}.
+                  - **Sir Renitee:{{anchor|different-painting}}** Would you like a different painting?
+                  - [Menu]: Select an option{{anchor|different-painting-opts}}
+                    - [Choice]: Yes - a portrait
+                      - (above|portrait-intro)
+                    - [Choice]: Yes - a landscape
+                      - (below|landscape-intro)
+                    - [Choice]: Yes - a map
+                      - (below|map-intro)
+                    - [Choice]: No, thanks.
+                      - **Sir Renitee:** Mmm, well, see you some other time maybe.
+                - (Condition: If the player has completed the Holy Grail quest:)
+                  - **Sir Renitee:{{anchor|portrait-price}}** That will be, mmm, 1000 coins please.
+                  - [Menu]: Select an option
+                    - [Choice]: All right
+                      - (removes=1,000 coins) (receives=a painting)
+                      - **Sir Renitee:** There you go. Would you like another painting?
+                      - (above|different-painting-opts)
+                    - [Choice]: No thanks
+                      - **Sir Renitee:** Well, mmm, maybe a different painting, mmm?
+                      - (above|different-painting-opts)
+              - [Choice]: Elena of Ardougne
+                - (Condition: If the player hasn't completed the Plague City quest:)
+                  - **Sir Renitee:** The last I heard, Elena was, mmm, trapped in West Ardougne. I wouldn't feel right selling her portrait while she was in danger.
+                  - [Plague City] quest.}}
+                - (Condition: If the player has completed the Plague City quest:)
+                  - (above|portrait-price)
+              - [Choice]: King Alvis of Keldagrim
+                - (Condition: If the player hasn't completed The Giant Dwarf quest:)
+                  - **Sir Renitee:** Have you ever been to Keldagrim? I think I'd need you to jog my memory...
+                  - [The Giant Dwarf].}}
+                  - (above|different-painting)
+                - (Condition: If the player has completed The Giant Dwarf quest:)
+                  - (above|portrait-price)
+              - [Choice]: The Prince and Princess of Miscellania
+                - (Condition: If the player hasn't completed The Throne of Miscellania quest:)
+                  - **Sir Renitee:** Do you have some connection with the prince and princess? I wouldn't want to give out their picture to just anyone?
+                  - [The Throne of Miscellania].}}
+                  - (above|different-painting)
+                - (Condition: If the player has completed The Throne of Miscellania quest:)
+                  - (above|portrait-price)
+          - [Choice]: A landscape
+            - **Sir Renitee:{{anchor|landscape-intro}}** Mmm, well, I can paint a few places. Where have you had your adventures?
+            - [Menu]: Select an option
+              - [Choice]: The River Lum
+                - (Condition: If the player hasn't completed the Cook's Assistant, Rune Mysteries and The Restless Ghost quests:)
+                  - **Sir Renitee:** Mmm, I'm not sure you've had enough adventures in Lumbridge to deserve a painting of it.
+                  - [Cook's Assistant, Rune Mysteries, and The Restless Ghost].}}
+                  - (above|different-painting)
+                - (Condition: If the player has completed the Cook's Assistant, Rune Mysteries and The Restless Ghost quests:)
+                  - **Sir Renitee:{{anchor|landscape-price}}** That will be, mmm, 2000 coins please.
+                  - [Menu]: Select an option
+                    - [Choice]: All right
+                      - (removes=2,000 coins) (receives=a painting of the landscape)
+                      - **Sir Renitee:** There you go. Would you like another painting?
+                      - (above|different-painting-opts)
+                    - [Choice]: No thanks
+                      - **Sir Renitee:** Well, mmm, maybe a different painting, mmm?
+                      - (above|different-painting-opts)
+              - [Choice]: The Kharid desert
+                - (Condition: If the player hasn't completed the Diamond in the Rough, The Tourist Trap, The Feud and The Golem quests:)
+                  - **Sir Renitee:** Mmm, I'm not sure you've had enough adventures in the desert to deserve a painting of it.
+                  - [Diamond in the Rough, Tourist Trap, The Feud, and The Golem].}}
+                  - (above|different-painting)
+                - (Condition: If the player has completed the Diamond in the Rough, The Tourist Trap, The Feud and The Golem quests:)
+                  - (above|landscape-price)
+              - [Choice]: Morytania
+                - (Condition: If the player hasn't completed the Shades of Mort'ton, Creature of Fenkenstrain, Ghosts Ahoy, and Haunted Mine quests:)
+                  - **Sir Renitee:** Mmm, I'm not sure you've had enough adventures in Morytania to deserve a painting of it.
+                  - [Shades of Mort'ton, The Creature of Fenkenstrain, Ghosts Ahoy, and The Haunted Mine].}}
+                  - (above|different-painting)
+                - (Condition: If the player has completed the Shades of Mort'ton, Creature of Fenkenstrain, Ghosts Ahoy, and Haunted Mine quests:)
+                  - (above|landscape-price)
+              - [Choice]: Karamja
+                - (Condition: If the player hasn't completed the Pirate's Treasure, Tai Bwo Wannai Trio, and Shilo Village quests:)
+                  - **Sir Renitee:** Mmm, I'm not sure you've had enough adventures in Karamja to deserve a painting of it.
+                  - [Pirate's Treasure, Tai Bwo Wannai Trio, and Shilo Village].}}
+                  - (above|different-painting)
+                - (Condition: If the player has completed the Pirate's Treasure, Tai Bwo Wannai Trio, and Shilo Village quests:)
+                  - (above|landscape-price)
+              - [Choice]: Isafdar
+                - (Condition: If the player hasn't completed the Roving Elves quest:)
+                  - **Sir Renitee:** Mmm, I'm not sure you've had enough adventures in Isafdar to deserve a painting of it.
+                  - [Roving Elves].}}
+                  - (above|different-painting)
+                - (Condition: If the player has completed the Roving Elves quest:)
+                  - (above|landscape-price)
+          - [Choice]: A map
+            - **Sir Renitee:{{anchor|portrait-intro}}** Mmm, yes, ah, I have painted maps of the known world on several different sizes of parchment. you like?
+            - [Menu]: Select an option
+              - [Choice]: Small
+                - (Condition: If the player has less than 51 Quest Points:)
+                  - **Sir Renitee:** Mmm, I'm not sure you've had enough adventures in the world to deserve that map.
+                  - [51] Quest Points.}}
+                  - (above|different-painting)
+                - (Condition: If the player has at least 51 Quest Points:)
+                  - (above|portrait-price)
+              - [Choice]: Medium
+                - (Condition: If the player has less than 101 Quest Points:'')
+                  - **Sir Renitee:** Mmm, I'm not sure you've had enough adventures in the world to deserve that map.
+                  - [101] Quest Points.}}
+                  - (above|different-painting)
+                - (Condition: If the player has at least 101 Quest Points:)
+                  - (above|portrait-price)
+              - [Choice]: Large
+                - (Condition: If the player has less than 151 Quest Points:)
+                  - **Sir Renitee:** Mmm, I'm not sure you've had enough adventures in the world to deserve that map.
+                  - [151] Quest Points.}}
+                  - (above|different-painting)
+                - (Condition: If the player has at least 151 Quest Points:)
+                  - (above|portrait-price)
+  - [Choice]: Nothing, thanks
+    - **Sir Renitee:** Mmm, well, see you some other time maybe.

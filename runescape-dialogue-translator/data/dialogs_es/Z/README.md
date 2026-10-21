@@ -1,0 +1,48 @@
+# Transcripciones de Diálogos de NPCs - Letra Z
+
+- **Total NPCs**: 40
+- **Idioma**: Español
+- **Reglas de Traducción**: Diálogos traducidos al español natural, preservando estrictamente en inglés nombres de ítems, armas, armaduras, ubicaciones, habilidades, misiones, comandos de wiki (Contrast, Colour, Audio button, variables) y mecánicas de juego.
+
+## Índice de NPCs
+
+- [Zaff](./Zaff.md)
+- [Zahra (Menaphos)](./Zahra%20%28Menaphos%29.md)
+- [Zahra](./Zahra.md)
+- [Zahur](./Zahur.md)
+- [Zahwa](./Zahwa.md)
+- [Zaida](./Zaida.md)
+- [Zaman](./Zaman.md)
+- [Zamorak mage (Runecrafting Guild)](./Zamorak%20mage%20%28Runecrafting%20Guild%29.md)
+- [Zamorak, Lord of Chaos](./Zamorak%2C%20Lord%20of%20Chaos.md)
+- [Zamorak](./Zamorak.md)
+- [Zamorakian cultist](./Zamorakian%20cultist.md)
+- [Zamorakian diviner](./Zamorakian%20diviner.md)
+- [Zamorakian fanatic (Battle of Lumbridge)](./Zamorakian%20fanatic%20%28Battle%20of%20Lumbridge%29.md)
+- [Zamorakian herbalist (female)](./Zamorakian%20herbalist%20%28female%29.md)
+- [Zamorakian herbalist (male)](./Zamorakian%20herbalist%20%28male%29.md)
+- [Zamorakian miner](./Zamorakian%20miner.md)
+- [Zanaris choir](./Zanaris%20choir.md)
+- [Zandar Horfyre](./Zandar%20Horfyre.md)
+- [Zanik](./Zanik.md)
+- [Zarador](./Zarador.md)
+- [Zavistic Rarve](./Zavistic%20Rarve.md)
+- [Zeid the Tailor](./Zeid%20the%20Tailor.md)
+- [Zeke](./Zeke.md)
+- [Zembo](./Zembo.md)
+- [Zenesha](./Zenesha.md)
+- [Zenkog](./Zenkog.md)
+- [Zhuka (bamboo merchant)](./Zhuka%20%28bamboo%20merchant%29.md)
+- [Zimberfizz ashes](./Zimberfizz%20ashes.md)
+- [Zoe (zygomite trader)](./Zoe%20%28zygomite%20trader%29.md)
+- [Zoe](./Zoe.md)
+- [Zoja](./Zoja.md)
+- [Zombie (2005 Halloween event)](./Zombie%20%282005%20Halloween%20event%29.md)
+- [Zombie (Harvest Hollow)](./Zombie%20%28Harvest%20Hollow%29.md)
+- [Zombie (Malignius Mortifer)](./Zombie%20%28Malignius%20Mortifer%29.md)
+- [Zombie farmer](./Zombie%20farmer.md)
+- [Zombie head](./Zombie%20head.md)
+- [Zombie impling (Harvest Hollow)](./Zombie%20impling%20%28Harvest%20Hollow%29.md)
+- [Zookeeper](./Zookeeper.md)
+- [Zrik](./Zrik.md)
+- [Zumblefloof](./Zumblefloof.md)

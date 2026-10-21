@@ -1,0 +1,259 @@
+# Goblin scribe
+
+- **Original Wiki Page**: [Transcript:Goblin scribe](https://runescape.wiki/w/Transcript%3AGoblin%20scribe)
+- **Letter**: `G`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Goblin scribe:** ¿Mmm? ¡Hola, habitante de la superficie!
+- [Menu]: Selecciona una opción
+  - [Choice]: ¿Qué estás haciendo?
+    - **Player:** ¿Qué estás haciendo?
+    - **Goblin scribe:** ¡Estoy escribiendo la historia definitiva de Dorgesh-Kaan!
+    - **Goblin scribe:** En realidad, me pregunto si podrías ayudarme...
+    - {{trandom}}
+      - (Condition: Diálogo 1:)
+        - **Goblin scribe:** Sé que el gobernante de Lumbridge se llama Horacio, pero no sé cuál es su título. ¿Usted pude decirme?
+        - [Menu]: Selecciona una opción
+          - [Choice]: Es un duque.
+            - **Player:** Es un duque.
+            - **Goblin scribe:** Duke Horacio. Gracias.
+          - [Choice]: Es un general.
+            - **Player:** Es un general.
+            - **Goblin scribe:** General Horacio. Gracias.
+          - [Choice]: Él es un rey.
+            - **Player:** Es un rey.
+            - **Goblin scribe:** Rey Horacio. Gracias.
+          - [Choice]: Es un señor.
+            - **Player:** Es un señor.
+            - **Goblin scribe:** Señor Horacio. Gracias.
+      - (Condition: Diálogo 2:)
+        - **Goblin scribe:** Has hablado con los duendes de la superficie, ¿no? ¿Sabes el nombre del dios que adoran los duendes de la superficie?
+        - [Menu]: Selecciona una opción
+          - [Choice]: Nadie lo sabe.
+            - **Player:** Nadie lo sabe.
+            - **Goblin scribe:** Ah, bueno. Gracias de todos modos.
+          - [Choice]: Gran Dios War.
+            - **Player:** Simplemente se llama el Dios Grande War.
+            - **Goblin scribe:** Ah, gracias.
+          - [Choice]: Zamorak.
+            - **Player:** Era Zamorak.
+            - **Goblin scribe:** Ah, gracias.
+          - [Choice]: Más...
+            - [Menu]: Selecciona una opción
+              - [Choice]: Era Guthix.
+                - **Player:** Era Guthix.
+                - **Goblin scribe:** Ah, gracias.
+              - [Choice]: Era Saradomin.
+                - **Player:** Era Saradomin.
+                - **Goblin scribe:** Ah, gracias.
+              - [Choice]: Era Player.
+                - **Player:** Era Player.
+                - **Goblin scribe:** ¿Player? ¡Qué nombre tan terrible y aterrador!
+              - [Choice]: Más...
+                - (previous2)
+      - (Condition: Diálogo 3:)
+        - **Goblin scribe:** Estoy escribiendo sobre la gran guerra entre los dioses que ocurrió hace miles de años. ¿Sabes el motivo de esta guerra?
+        - [Menu]: Selecciona una opción
+          - [Choice]: Era para entretenimiento de los dioses.
+            - **Player:** Fue para entretenimiento de los dioses.
+            - **Goblin scribe:** Tal como había pensado. Gracias.
+          - [Choice]: Zamorak atacó a los otros dioses.
+            - **Player:** Zamorak atacó a los otros dioses.
+            - **Goblin scribe:** ¿En serio? Gracias por la información.
+          - [Choice]: Los otros dioses atacaron a Zaros.
+            - **Player:** Los otros dioses atacaron a Zaros.
+            - **Goblin scribe:** Gracias.
+          - [Choice]: Guthix quería preservar el equilibrio.
+            - **Player:** Guthix quería preservar el equilibrio, por lo que hizo que los otros dioses pelearan.
+            - **Goblin scribe:** ¡Una extraña idea de equilibrio! Gracias.
+      - (Condition: Diálogo 4:)
+        - **Goblin scribe:** ¿Cómo se llama el grupo de gente de la superficie que intentó destruir Dorgesh-Kaan?
+        - [Menu]: Selecciona una opción
+          - [Choice]: JAMÓN
+            - **Player:** H.A.M.
+            - **Goblin scribe:** Hmm, me pregunto qué significa eso.
+            - **Player:** Significa Humanos Contra Monstruos.
+            - **Goblin scribe:** Entonces somos monstruos, ¿verdad? ¡Gracias por decírmelo!
+          - [Choice]: TOCINO.
+            - **Player:** TOCINO.
+            - **Goblin scribe:** Hmm, me pregunto qué significa eso. Gracias.
+          - [Choice]: CERDO
+            - **Player:** CERDO.
+            - **Goblin scribe:** Hmm, me pregunto qué significa eso. Gracias.
+          - [Choice]: CARNE
+            - **Player:** CARNE
+            - **Goblin scribe:** Hmm, me pregunto qué significa eso. Gracias.
+      - (Condition: Diálogo 5:)
+        - **Goblin scribe:** ¿De qué especie eres, si no te importa que te lo pregunte? Sé que hay muchas razas diferentes viviendo en la superficie, pero no sé cuál eres tú.
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¡Soy humano!
+            - **Player:** ¡Soy un humano!
+            - (Condition: Si goblin scribe anteriormente pensaba que el player era humano:)
+              - **Goblin scribe:** Ah, bien, eso es lo que pensé.
+              - **Goblin scribe:** Un humano, ¿eh? Gracias.
+            - (Condition: Si goblin scribe anteriormente pensaba que el player era un ogro:)
+              - **Goblin scribe:** ¡Eso es un alivio! ¡Pensé que eras una especie de ogro horrible!
+              - **Goblin scribe:** Un humano, ¿eh? Gracias.
+            - (Condition: Si goblin scribe anteriormente pensaba que el player era un enano:)
+              - **Goblin scribe:** Ah, por supuesto. Pensé que parecías un poco alto para ser un enano.
+              - **Goblin scribe:** Un humano, ¿eh? Gracias.
+            - (Condition: Si goblin scribe anteriormente pensaba que el player era un elfo:)
+              - **Goblin scribe:** ¡Oh! Pensé que eras un elfo. ¡Las especies de superficie son confusas!
+              - **Goblin scribe:** Un humano, ¿eh? Gracias.
+          - [Choice]: Soy un ogro.
+            - **Player:** Soy un ogro. ¡Raah!
+            - (Condition: Si goblin scribe anteriormente pensaba que el player era humano:)
+              - **Goblin scribe:** ¡Eek! ¡Un ogro! ¡Pensé que eras humano!
+              - **Goblin scribe:** Un ogro, ¿eh? Gracias.
+            - (Condition: Si goblin scribe anteriormente pensaba que el player era un ogro:)
+              - **Goblin scribe:** ¡Ah, eso es lo que pensé!
+              - **Goblin scribe:** Un ogro, ¿eh? Gracias.
+            - (Condition: Si goblin scribe anteriormente pensaba que el player era un enano:)
+              - **Goblin scribe:** Ah, por supuesto. Pensé que parecías un poco alto para ser un enano.
+              - **Goblin scribe:** Un ogro, ¿eh? Gracias.
+            - (Condition: Si goblin scribe anteriormente pensaba que el player era un elfo:)
+              - **Goblin scribe:** ¡Y pensé que eras un elfo! ¡Qué error tan tonto!
+              - **Goblin scribe:** Un ogro, ¿eh? Gracias.
+          - [Choice]: Soy un enano.
+            - **Player:** ¡Soy un enano!
+            - (Condition: Si goblin scribe anteriormente pensaba que el player era humano:)
+              - **Goblin scribe:** ¿Ah? Pensé que los enanos eran más bajos. ¡Pensé que eras humano!
+              - **Goblin scribe:** Un enano, ¿eh? Gracias.
+            - (Condition: Si goblin scribe anteriormente pensaba que el player era un ogro:)
+              - **Goblin scribe:** ¡Eso es un alivio! ¡Pensé que eras una especie de ogro horrible!
+              - **Goblin scribe:** Un enano, ¿eh? Gracias.
+            - (Condition: Si goblin scribe anteriormente pensaba que el player era un enano:)
+              - **Goblin scribe:** Ah, sí, por supuesto, dijiste.
+              - **Goblin scribe:** Un enano, ¿eh? Gracias.
+            - (Condition: Si goblin scribe anteriormente pensaba que el player era un elfo:)
+              - **Goblin scribe:** ¡Oh! Pensé que eras un elfo. ¡Las especies de superficie son confusas!
+              - **Goblin scribe:** Un enano, ¿eh? Gracias.
+          - [Choice]: Soy un elfo.
+            - **Player:** ¡Soy un elfo!
+            - (Condition: Si goblin scribe anteriormente pensaba que el player era humano:)
+              - **Goblin scribe:** ¿Ah? Pensé que los elfos eran más elegantes. ¡Pensé que eras humano!
+              - **Goblin scribe:** Un elfo, ¿eh? Gracias.
+            - (Condition: Si goblin scribe anteriormente pensaba que el player era un ogro:)
+              - **Goblin scribe:** ¡Eso es un alivio! ¡Pensé que eras una especie de ogro horrible!
+              - **Goblin scribe:** Un elfo, ¿eh? Gracias.
+            - (Condition: Si goblin scribe anteriormente pensaba que el player era un enano:)
+              - **Goblin scribe:** ¿Ah? Pensé que los elfos eran más elegantes. ¡Pensé que eras un enano!
+              - **Goblin scribe:** Un elfo, ¿eh? Gracias.
+            - (Condition: Si goblin scribe anteriormente pensaba que el player era un elfo:)
+              - **Player:** ¡Soy un elfo!
+              - **Goblin scribe:** Ah, sí, eso es lo que pensé.
+              - **Goblin scribe:** Un elfo, ¿eh? Gracias.
+  - [Choice]: ¿Qué es este edificio?
+    - **Player:** ¿Qué es este edificio?
+    - **Goblin scribe:** ¡Esta es la cámara del Consejo Dorgeshuun!
+    - **Goblin scribe:** Siempre que es necesario tomar una decisión, los siete miembros del Consejo Dorgeshuun se reúnen aquí. La última reunión fue cuando decidieron abrir la ciudad a los habitantes de la superficie.
+    - **Goblin scribe:** Entre reuniones, trabajo aquí redactando las actas de las reuniones y trabajando en la historia definitiva de Dorgesh-Kaan.
+  - [Choice]: ¿Puedes contarme sobre la historia de la ciudad?
+    - **Player:** ¿Puedes contarme sobre la historia de la ciudad?
+    - **Goblin scribe:** ¡Por supuesto! ¡Revisé todas las notas de mis predecesores y compilé la historia definitiva del Dorgeshuun! ¿Qué te gustaría escuchar?
+    - [Menu]: Selecciona una opción
+      - [Choice]: La fundación de Dorgesh-Kaan.
+        - **Player:** ¿Puedes contarme sobre la fundación de Dorgesh-Kaan?
+        - **Goblin scribe:** ¡Por supuesto!<br /><br />*Ejem*
+        - (Condition: Dependiendo de qué dios el goblin scribe cree que adoraban los duendes:)
+          - (Condition: Si goblin scribe cree que los duendes adoraban a un dios desconocido:)
+            - **Goblin scribe:** Antes de Dorgesh-Kaan, los Dorgeshuun vivían en la superficie con muchas otras tribus de duendes. Todos los duendes estaban gobernados por un dios maligno cuyo nombre ha sido olvidado.
+            - (continue)
+          - (Condition: Si goblin scribe cree que los duendes adoraban al Gran Dios War:)
+            - **Goblin scribe:** Antes de Dorgesh-Kaan, los Dorgeshuun vivían en la superficie con muchas otras tribus de duendes. Todos los duendes estaban gobernados por un dios malvado llamado Big High War God.
+            - (continue)
+          - (Condition: Si goblin scribe cree que los duendes adoraban a Zamorak:)
+            - **Goblin scribe:** Antes de Dorgesh-Kaan, los Dorgeshuun vivían en la superficie con muchas otras tribus de duendes. Todos los duendes estaban gobernados por un dios malvado llamado Zamorak.
+            - (continue)
+          - (Condition: Si goblin scribe cree que los duendes adoraban a Guthix:)
+            - **Goblin scribe:** Antes de Dorgesh-Kaan, los Dorgeshuun vivían en la superficie con muchas otras tribus de duendes. Todos los duendes estaban gobernados por un dios malvado llamado Guthix.
+            - (continue)
+          - (Condition: Si goblin scribe cree que los duendes adoraban a Saradomin:)
+            - **Goblin scribe:** Antes de Dorgesh-Kaan, los Dorgeshuun vivían en la superficie con muchas otras tribus de duendes. Todos los duendes estaban gobernados por un dios malvado llamado Saradomin.
+            - (continue)
+          - (Condition: Si goblin scribe cree que los duendes adoraban a el player:)
+            - **Goblin scribe:** Antes de Dorgesh-Kaan, los Dorgeshuun vivían en la superficie con muchas otras tribus de duendes. Todos los duendes estaban gobernados por un dios malvado llamado Player.
+            - (continue)
+        - (Condition: Dependiendo de la razón por la que goblin scribe cree que comenzaron las Guerras de Dios:)
+          - (Condition: Si goblin scribe cree que la guerra fue para el entretenimiento de los dioses:)
+            - **Goblin scribe:** Los dioses se aburrieron y decidieron hacer que las razas mortales lucharan para divertirse. Los duendes fueron enviados a luchar en muchas batallas sangrientas entre sí y contra otras razas.
+            - (continue)
+          - (Condition: Si goblin scribe cree que la guerra fue porque Zamorak atacó a los otros dioses:)
+            - **Goblin scribe:** El dios Zamorak atacó a los otros dioses, iniciando una gran guerra. Los duendes fueron enviados a luchar en muchas batallas sangrientas entre sí y contra otras razas.
+            - (continue)
+          - (Condition: Si goblin scribe cree que la guerra fue porque los otros dioses atacaron a Zaros:)
+            - **Goblin scribe:** Los otros dioses decidieron sacar del poder al gran dios Zaros y comenzaron una gran guerra. Los duendes fueron enviados a luchar en muchas batallas sangrientas entre sí y contra otras razas.
+            - (continue)
+          - (Condition: Si goblin scribe cree que la guerra fue porque Guthix quería preservar el equilibrio:)
+            - **Goblin scribe:** Para preservar el equilibrio, el dios Guthix hizo que los otros dioses lucharan entre sí. Los duendes fueron enviados a luchar en muchas batallas sangrientas entre sí y contra otras razas.
+            - (continue)
+        - **Goblin scribe:** La guerra duró miles de años y millones de duendes murieron. Finalmente, el dios maligno envió a la tribu Dorgeshuun a librar una batalla que no pudieron ganar.
+        - **Goblin scribe:** Pero el general Bloodfist de Dorgeshuun se negó a luchar en esta batalla.  En cambio, ordenó al ejército Dorgeshuun que marchara hacia una fisura en el suelo.
+        - **Goblin scribe:** El general Bloodfist se paró en la boca de la fisura y desafió el poder del dios maligno.
+        - **Goblin scribe:** El dios maligno lo golpeó con una poderosa explosión que sacudió la tierra, pero esa explosión también cerró la fisura, sellando al Dorgeshuun lejos del alcance de los dioses.
+        - **Goblin scribe:** El teniente Strongaxe, ahora líder de los Dorgeshuun, condujo a la tribu a las profundidades de las cuevas. Encontraron esta caverna, y aquí fundaron Dorgesh-Kaan, ciudad de los Dorgeshuun.
+      - [Choice]: La guerra civil de Dorgeshuun.
+        - **Player:** ¿Puedes contarme sobre la guerra civil de Dorgeshuun?
+        - **Goblin scribe:** ¡Por supuesto!<br /><br />*Ejem*
+        - **Goblin scribe:** Al principio, Dorgesh-Kaan estaba gobernado por generales, tal como lo había sido la tribu cuando estaba en la superficie. Cada general sucedió al último derrotándolo en combate.
+        - **Goblin scribe:** Los generales fueron asesorados por un consejo de ancianos, pero los Dorgeshuun ya no eran un ejército, y mucha gente sentía que el Consejo debería tener autoridad.
+        - **Goblin scribe:** El pueblo votó para convertirse en una república, pero el general Bonehelm se negó a ceder el poder, y así comenzó el Dorgeshuun Civil War.
+        - **Goblin scribe:** La facción republicana era más grande, pero la facción militar contenía a la mayoría de los guerreros entrenados y controlaba el equipo mágico que la tribu había traído de la superficie.
+        - **Goblin scribe:** El general Bonehelm fue expulsado de la ciudad, pero excavó su propia base en las cuevas cercanas.
+        - **Goblin scribe:** El ejército del general Bonehelm atacó la ciudad utilizando arqueros montados en ranas gigantes. Hubo una batalla sangrienta y el general Bonehelm fue obligado a regresar a su base.
+        - **Goblin scribe:** Pero la minería del general Bonehelm había debilitado la piedra alrededor de su base, y los pasos del ejército en retirada provocaron que el techo se derrumbara, aplastando a su ejército.
+        - **Goblin scribe:** Esa fue la última vez que un Dorgeshuun levantó las armas contra otro. Desde entonces, la ciudad ha sido gobernada pacíficamente por un consejo electo.
+      - [Choice]: Años recientes.
+        - **Player:** ¿Puedes hablarme de los últimos años?
+        - **Goblin scribe:** ¡Ah, aquí es donde entras tú!<br /><br />*Ejem*
+        - **Goblin scribe:** En el siglo XXIX desde la fundación de la ciudad, uno de los mineros atravesó una pared y entró en el sótano de una vivienda en la superficie.  Los mineros bloquearon el túnel y regresaron a sus minas.
+        - (Condition: Dependiendo de qué raza el player se haya descrito a sí mismo como:)
+          - (Condition: Si el player se ha descrito a sí mismo como un humano:)
+            - **Goblin scribe:** Sin embargo, un humano llamado Player encontró a [his/her] a través de las cuevas y se puso en contacto con los mineros.
+            - (continue)
+          - (Condition: Si el player se ha descrito a sí mismo como un ogro:)
+            - **Goblin scribe:** Sin embargo, un ogro llamado Player encontró [his/her] camino a través de las cuevas y se puso en contacto con los mineros.
+            - (continue)
+          - (Condition: Si el player se ha descrito a sí mismo como un enano:)
+            - **Goblin scribe:** Sin embargo, un enano llamado Player encontró a [his/her] a través de las cuevas y se puso en contacto con los mineros.
+            - (continue)
+          - (Condition: Si el player se ha descrito a sí mismo como un elfo:)
+            - **Goblin scribe:** Sin embargo, un elfo llamado Player encontró [his/her] camino a través de las cuevas y se puso en contacto con los mineros.
+            - (continue)
+        - (Condition: Dependiendo del título que goblin scribe crea que Duke Horacio tiene:)
+          - (Condition: Si goblin scribe cree que el título de Horacio es duque:)
+            - **Goblin scribe:** Ur-tag, jefe del Consejo, firmó un tratado de paz con Duke Horacio de Lumbridge, gobernante de la ciudad sobre la mina de los Dorgeshuun.
+            - (continue)
+          - (Condition: Si goblin scribe cree que el título de Horacio es general:)
+            - **Goblin scribe:** Ur-tag, jefe del Consejo, firmó un tratado de paz con el general Horacio de Lumbridge, gobernante de la ciudad situada encima de la mina de los Dorgeshuun.
+            - (continue)
+          - (Condition: Si goblin scribe cree que el título de Horacio es el rey:)
+            - **Goblin scribe:** Ur-tag, jefe del Consejo, firmó un tratado de paz con el rey Horacio de Lumbridge, gobernante de la ciudad situada encima de la mina de los Dorgeshuun.
+            - (continue)
+          - (Condition: Si goblin scribe cree que el título de Horacio es señor:)
+            - **Goblin scribe:** Ur-tag, jefe del Consejo, firmó un tratado de paz con Lord Horacio de Lumbridge, gobernante de la ciudad sobre la mina de los Dorgeshuun.
+            - (continue)
+        - (Condition: Dependiendo del nombre que goblin scribe crea que el grupo que intentó destruir Dorgesh-Kaan tiene:)
+          - (Condition: Si goblin scribe cree que el grupo que odia a los monstruos es H.A.M.:)
+            - **Goblin scribe:** Pero no todos los habitantes de la superficie eran amigables, y una facción llamada H.A.M. intentó destruir el Dorgeshuun.
+            - **Goblin scribe:** El Consejo envió a Zanik a explorar la superficie para ver si el H.A.M. El grupo estaba tramando algo. Con la ayuda de Player, Zanik derrotó a H.A.M. Parcela para inundar Dorgesh-Kaan.
+            - (continue)
+          - (Condition: Si goblin scribe cree que el grupo que odia a los monstruos es B.A.C.O.N.:)
+            - **Goblin scribe:** Pero no todos los habitantes de la superficie eran amigables, y una facción llamada B.A.C.O.N. intentó destruir el Dorgeshuun.
+            - **Goblin scribe:** El Consejo envió a Zanik a explorar la superficie para ver si el B.A.C.O.N. El grupo estaba tramando algo. Con la ayuda de Player, Zanik derrotó a B.A.C.O.N. Parcela para inundar Dorgesh-Kaan.
+          - (Condition: Si goblin scribe cree que el grupo que odia a los monstruos es P.O.R.K.:)
+            - **Goblin scribe:** Pero no todos los habitantes de la superficie eran amigables, y una facción llamada P.O.R.K. intentó destruir el Dorgeshuun.
+            - **Goblin scribe:** El Consejo envió a Zanik a explorar la superficie para ver si el P.O.R.K. El grupo estaba tramando algo. Con la ayuda de Player, Zanik derrotó a P.O.R.K. Parcela para inundar Dorgesh-Kaan.
+            - (continue)
+          - (Condition: Si goblin scribe cree que el grupo que odia a los monstruos es B.E.E.F.:)
+            - **Goblin scribe:** Pero no todos los habitantes de la superficie eran amigables, y una facción llamada B.E.E.F. intentó destruir el Dorgeshuun.
+            - **Goblin scribe:** El Consejo envió a Zanik a explorar la superficie para ver si el B.E.E.F. El grupo estaba tramando algo. Con la ayuda de Player, Zanik derrotó a B.E.E.F. Parcela para inundar Dorgesh-Kaan.
+            - (continue)
+        - **Goblin scribe:** A pesar de las reservas de muchos ciudadanos, el Consejo finalmente votó 4-3 para abrir Dorgesh-Kaan a los habitantes de la superficie.

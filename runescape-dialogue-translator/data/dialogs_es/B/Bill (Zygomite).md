@@ -1,0 +1,187 @@
+# Bill (Zygomite)
+
+- **Original Wiki Page**: [Transcript:Bill (Zygomite)](https://runescape.wiki/w/Transcript%3ABill%20%28Zygomite%29)
+- **Letter**: `B`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Talk to
+
+
+#### Antes de la extinción
+
+- **Bill:** ¿Puedes oír eso?
+- **Bill:** Escucha.
+- **Player:** ¿Solo puedo escuchar las olas?
+- **Bill:** ¡Exactamente! El sonido pacífico del agua.
+- **Bill:** El sonido me hace sentir tranquilo, pacífico y tranquilo.
+- **Player:** Es bastante bonito.
+- **Bill:** También es maravilloso tener un descanso de mi hermano. Encontré este árbol que transporta cualquier cosa que trepe a esa isla al otro lado de la costa.
+- **Bill:** Le pedí que subiera por un poco de fruta y *puf*. Él desapareció. Permitiéndome tener paz y tranquilidad durante el día.
+- **Bill:** Si quieres cruzar, simplemente súbete al árbol y también te teletransportarás. ¡Realmente útil para llegar a lugares rápidamente!
+- **Player:** ¡Gracias!
+
+#### Después de la extinción
+
+- ((Antes de hablar de la experimentación con huevos:))
+  - **Bill:** ...¡son adorables!<br>Qué ruiditos hacen.
+  - Bill emite un breve y agudo chillido de deleite.
+  - **Salusan:** No necesitas adorar a estas bestias, Bill. Están destinados a convertirse en feroces luchadores.
+  - (continue)
+- ((Antes de haber completado Hacer macetas es un dolor tan dulce:))
+  - **Bill:** Oh, lo siento. No te vi allí.<br>¿Cómo puedo ayudar?
+  - (continue)
+- ((Después de haber completado Hacer macetas es un dolor tan dulce:))
+  - **Bill:** ¡Yippee!<br>Flobbadob!<br>¡Vaya!
+  - **Player:** Galimatías, pero feliz galimatías. <br>Bill ahora está viviendo su mejor vida.
+  - (continue)
+- **ELIGE UNA OPCIÓN:**
+  - ¿Quién eres?
+    - **Bill:** Soy Bill. Al parecer ahora soy investigador.
+    - **Salusan:** En realidad, Potterington dijo que soy head of research. Eres un asistente.
+    - **Bill:** Soy Bill. Al parecer ahora soy asistente de investigación.
+    - **Salusan:** Pensándolo bien, en realidad no has ayudado mucho. <br> ¿Serías tan amable de limpiar el granero de tormentas?
+    - **Bill:** Soy Bill. Al parecer ahora soy peón de campo.
+    - **Player:** Creo que se supone que debes *ascender* en la escala profesional, Bill...
+    - (previous|Bill-options)
+  - ¿Qué estás haciendo aquí?
+    - **Bill:** Estamos experimentando con la dieta de los dinosaurios bebés.
+    - **Salusan:** Potterington quiere que aumentemos el rendimiento del fertilizante que producen.
+    - **Salusan:** ¡Es apropiado que guerreros así produzcan otra arma!
+    - **Player:** ¿Arma? ¿Pensé que era para cultivar más cultivos?
+    - **Salusan:** No, estamos optimizando para obtener un rendimiento explosivo. ¿Por qué contrataría a un experto en armas si quería mejores cosechas?
+    - **Bill:** ¡Las explosiones son divertidas!
+    - **Player:** Normalmente, como aventurero bien intencionado, corregiría este malentendido. ¡Pero esas explosiones suenan divertidas!
+    - (previous|Bill-options)
+  - [Habla sobre ayudar con la experimentación con huevos.]
+    - ((Con menos de 95 Firemaking:))
+      - **Bill:** Si nos ayudas, no estoy convencido de que no puedas hacer explotar un dinosaurio.
+      - **Player:** De repente estoy mucho más preocupado por la ética de esta operación.
+      - ((Se muestra en una ventana emergente:))
+        - Necesitas 95 Firemaking para participar en Eggsperimentation.
+        - (continue)
+      - (previous)
+    - ((Con al menos 95 Firemaking:))
+      - ((Sólo la primera vez:))
+        - **Bill:** Estamos probando cómo la dieta de los dinosaurios cambia la explosividad del fertilizante que producen.
+        - (Action: La cámara se desplaza hacia el granero de tormentas.)
+        - **Bill:** Deberías coger algunos dinosaurios del granero de tormentas que hay al sureste.
+        - (Action: La cámara se desplaza hacia el comedero de papilla de frijoles.)
+        - **Bill:** Los diferentes tipos de dinosaurios anhelan diferentes alimentos. Los alimentos se encuentran en comederos repartidos por esta zona. ¡Puedes pedirles a los dinosaurios que te lleven a su comida si quieres!
+        - (Action: La cámara se desplaza hacia el centro del área.)
+        - **Player:** ¿Por qué habéis alejado tanto los comederos?
+        - (Action: La cámara se desplaza hacia el comedero de papilla de frutos rojos.)
+        - **Bill:** Es para que los dinosaurios hagan algo de ejercicio.<br>No podemos dejar que pierdan forma ahora, ¿verdad?
+        - (Action: La cámara se desplaza hacia el comedero de papilla de cereales.)
+        - **Player:** Pero yo llevaré los dinosaurios. Ni siquiera pueden llegar a los abrevaderos. ¡Son demasiado cortos!
+        - (Action: La cámara se desplaza hacia el comedero de papilla con raíces.)
+        - **Bill:** Es para que hagas algo de ejercicio.<br>No podemos dejar que pierdas forma, ¿verdad?
+        - (Action: La cámara vuelve a la normalidad.)
+        - **Player:** ..!
+        - **Bill:** Una vez que los dinosaurios estén llenos, producirán un poco de fertilizante y se marcharán a casa.
+        - **Bill:** Entonces sólo tienes que prenderle fuego a tus pies y disfrutar de los fuegos artificiales.
+        - **Player:** ¿Es eso seguro?
+        - **Bill:** Estoy seguro de que sí. ¡Pareces tener suficiente experiencia!
+        - **Bill:** Tráeme algunos de los restos explosivos para que podamos anotar los resultados. ¿Alguna pregunta?
+        - **Player:** Hay muchas cosas que probablemente no debería preguntar.
+        - (previous|Bill-options)
+    - ((Después de la primera vez pero sin 'propulsor' de dinosaurio:))
+      - **Bill:** No escuché ninguna explosión. ¿Hemos descubierto bombas silenciosas?
+      - (Action: La cámara se desplaza hacia el granero de tormentas.)
+      - Necesitas reunir algo de "propulsor" de dinosaurio. Puedes encontrar dinosaurios en el granero de tormentas al sureste. Pídele a un dinosaurio en tu backpack que te lleve a la comida que deseas. Alimenta a los dinosaurios hasta que estén llenos y enciende el fertilizante que producen.
+        - (Action: La cámara vuelve a la normalidad.)
+        - (previous|Bill-options)
+    - ((Con 'propulsor' de dinosaurio antes de haber completado Mycomanagement:))
+      - [Muestras el 'propulsor' del dinosaurio Bill.]
+      - **Bill:** ¡Bien hecho! ¡Definitivamente hemos investigado aquí!
+      - **Bill:** ¡Oh, ese propulsor lanzaría cosas muy lejos!
+      - **Salusan:** Probablemente podría lanzar una flecha a una buena distancia.
+      - **Player:** Tal vez también debería intentar poner un poco en un contenedor de abono para mantener feliz a la abuela.
+      - **Bill:** ¡Hoy han funcionado cosas más extrañas!
+      - **Salusan:** Si tienes un momento, analicemos las capacidades militares de este propulsor.
+      - **Bill:** ¡Gracias! Estoy seguro de que la abuela apreciará lo que has hecho.
+      - {{RSFontAchievement|Mycomanagement}}
+      - **Player:** Realmente no estoy seguro de que lo haga.
+      - (previous|Bill-options)
+    - ((Después de haber completado Mycomanagement:))
+      - **Player:** ¿Qué puedo hacer con el 'propulsor' de dinosaurio?
+      - **Bill:** ¡Oh, ese propulsor lanzaría cosas muy lejos!
+      - **Salusan:** Probablemente podría lanzar una flecha a una buena distancia.
+      - **Player:** Tal vez también debería intentar poner un poco en un contenedor de abono para mantener feliz a la abuela.
+      - **Bill:** ¡Hoy han funcionado cosas más extrañas!
+      - **Salusan:** Si tienes un momento, analicemos las capacidades militares de este propulsor.
+      - (previous|Bill-options)
+  - ¿Por qué estás aquí?
+    - **Bill:** Shh.<br>¿Puedes oír eso?
+    - **Bill:** Escucha.
+    - **Player:** ¿Solo puedo escuchar las olas?
+    - **Bill:** ¡Exactamente! El sonido pacífico del agua.
+    - **Bill:** El sonido me hace sentir tranquilo, pacífico y tranquilo.
+    - **Player:** Es bastante bonito.
+    - **Bill:** También es maravilloso tener un descanso de mi hermano. Encontré este árbol que transporta cualquier cosa que trepe a esa isla al otro lado de la costa.
+    - **Bill:** Le pedí que subiera por un poco de fruta y *puf*. Él desapareció. Permitiéndome tener paz y tranquilidad durante el día.
+    - **Bill:** Si quieres cruzar, simplemente súbete al árbol y también te teletransportarás. ¡Realmente útil para llegar a lugares rápidamente!
+    - **Player:** ¡Gracias!
+    - (previous|Bill-options)
+  - ((Sólo después de haber completado Mycomanagement y antes de haber completado Potting Is Such Sweet Sorrow:))
+    - [Habla sobre la olla mágica de Bill]
+      - ((Sólo la primera vez:))
+        - **Player:** ¿Hay algo más que pueda hacer para ayudarte? Los actos aleatorios de heroísmo son lo mío.
+        - **Player:** Aunque, mi especialidad es recibir compensación por actos aleatorios de heroísmo.
+        - **Bill:** Bueno, mi artículo favorito ha desaparecido.<br>Aotra vez.
+        - Adivina el artículo favorito de Bill.
+          - ¿Una poción mágica?
+            - **Salusan:** Hmm, cerca. Omnipotentemente cercano.
+            - **Bill:** ¿Existe alguna poción mágica que podrías darle a mi hermano y que evitaría que se llevara mis cosas?
+            - **Player:** Tendría que consultar existencias en la botica, pero probablemente no.
+            - **Bill:** Entonces no importa.<br>Mi artículo favorito es mi olla mágica.
+            - (continue)
+          - ¿Una patata al horno?
+            - **Bill:** Las patatas asadas me parecen tan elegantes como cualquier otro cigomita, pero no diría que es mi favorita.
+            - **Salusan:** Una compota de frutas es más mi estilo.
+            - **Bill:** ¡Oh, me estás dando hambre! <br>Mi artículo favorito es mi olla mágica.
+            - (continue)
+          - ¿Una maceta vacía?
+            - **Bill:** ¿Por qué necesitaría una maceta vacía?
+            - **Player:** Sin ningún motivo en particular. Una maceta vacía fue lo primero que pensé.
+            - **Bill:** No importa.<br> Entonces, mi artículo favorito es mi olla mágica.
+            - (continue)
+          - ¿Tu olla mágica?
+            - **Bill:** Espera, ¿qué? ¿Cómo sabes que mi objeto favorito es mi olla mágica?
+            - **Player:** Soy extremadamente observador.
+            - (continue)
+        - **Bill:** Apuesto a que Ben, mi hermano con manchas e ir al baño, lo ha vuelto a hacer.
+        - **Player:** Ah, sí. Cuando Ben me habló del carestyling, había una olla mágica en el suelo junto a él.
+        - **Bill:** ¡Ajá! Bien visto. ¡Lo sabía! Ben siempre hace una mezcolanza de cosas.
+        - **Bill:** No tengo ninguna recompensa que ofrecerte. La virtud es su propia recompensa, ¿supongo? Pero te estaré muy agradecido si me traes mi olla mágica.
+        - **Player:** Eso suena como la búsqueda de un aventurero prepotente como yo.
+        - **Bill:** Esto definitivamente no es una misión, ni siquiera hipotéticamente. Es sólo un poco de juego.
+      - ((Después de la primera vez, sin olla mágica:))
+        - **Player:** Recuérdame mi misión.
+        - **Bill:** Te lo dije. ¡Esto no es una búsqueda! Apenas es un recado.
+        - **Bill:** Como dije, mi artículo favorito es mi olla mágica.
+        - **Bill:** Apuesto a que Ben, mi hermano con manchas e ir al baño, lo ha vuelto a hacer.
+        - **Player:** Ah, sí. Cuando Ben me habló del carestyling, había una olla mágica en el suelo junto a él.
+        - **Bill:** ¡Ajá! Bien visto. ¡Lo sabía! Ben siempre hace una mezcolanza de cosas.
+        - **Bill:** No tengo ninguna recompensa que ofrecerte. La virtud es su propia recompensa, ¿supongo? Pero te estaré muy agradecido si me traes mi olla mágica.
+        - **Bill:** No hay misiones. No hay grandes aventuras Sólo un pequeño favor. Eso es todo.
+        - (Action: La cámara se vuelve negra.)
+        - Las palabras de Bill 'Un pequeño favor' resuenan grotescamente en tu cabeza. <br> Te disocias durante uno o dos minutos, recordando un trauma relativamente reciente.
+        - (Action: La cámara se desvanece.)
+        - Recuperas los sentidos, empapado en un sudor frío.
+        - **Bill:** ¿Estás bien? Estabas murmurando "llavero" una y otra vez.
+        - **Player:** Bien. Sólo... no vuelvas a mencionar esa misión.
+        - **Bill:** ¿Cuántas veces tengo que...<br>Esto no es una misión!
+        - (previous|Bill-options)
+      - ((Después de la primera vez, con olla mágica:))
+        - **Player:** Ben me dio tu maceta mágica a cambio de una maceta vacía.
+        - **Bill:** ¡Sí! ¡Bote!<br>¿Puedo tenerlo?
+        - Reúnes a Bill con su olla mágica. Él chilla de alegría y lo deja con orgullo a su lado.
+        - (removes=magic pot)
+        - {{RSFontAchievement|Potting Is Such Sweet Sorrow}}
+  - Adiós.
+    - **Bill:** ¡Adiós!

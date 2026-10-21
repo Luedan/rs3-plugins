@@ -1,0 +1,379 @@
+# Gambler
+
+- **Original Wiki Page**: [Transcript:Gambler](https://runescape.wiki/w/Transcript%3AGambler)
+- **Letter**: `G`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Poor
+
+
+#### Hombre sin camisa
+
+- **Player:** ¡Hola!
+- **Player:** ¿Qué haces aquí?
+- **Gambler:** Intentando recuperar mi camiseta. Lo perdí anoche en una apuesta tonta.
+- **Player:** Bueno, espero que tu suerte mejore. Dudo que pueda empeorar.
+- **Gambler:** Bueno, poco me queda que perder, tal vez algo más de pelo y mis pantalones.
+- **Player:** Realmente creo que deberías intentar conservarlos.
+- **Player:** Entonces, ¿cómo funcionan estos pozos de ratas?
+- **Gambler:** Las cosas funcionan de forma sencilla en las ratoneras de Ardougne.
+- **Gambler:** Si tienes un gatito y al menos 100 coins, puedes desafiar a otra persona que también tenga un gatito y algo de cambio.
+- **Player:** Eso suena bastante simple hasta ahora.
+- **Gambler:** Luego aceptas una apuesta. Se rumorea que algunos cazadores de ratas pueden hablar con sus propios gatos y darles tácticas para ayudarlos.
+- **Player:** Entonces, ¿cómo se gana el desafío?
+- **Gambler:** Estaba llegando a eso. Los gatos de ambos jugadores se colocan dentro del área vallada y quien mate primero a 5 ratas gana.
+  - **Player:** Eso suena vil y cruel.
+    - **Gambler:** Es un mundo cruel y los boxes no son una excepción.
+    - **Gambler:** Todos los días matan a guardias sin más motivo que saciar la sed de sangre de algún aventurero despreciable.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** Suena un poco peligroso para mi gato.
+    - **Gambler:** Estoy de acuerdo. Se sabe que los gatos mueren en peleas.
+    - **Player:** Oh, qué terrible. ¿No hay nada que puedas hacer para salvar a tu gato?
+    - **Gambler:** Por supuesto que sí, puedes indicarle que tenga cuidado y se irá una vez que sienta que está en peligro.
+    - **Player:** Oh, eso suena muy sabio.
+    - **Gambler:** Eso depende de cómo valoras a tu gato.
+    - **Player:** Lo siento, no te sigo.
+    - **Gambler:** Bueno, si tu gato muere o se escapa, pierdes.
+    - **Gambler:** Entonces, cuanto más tiempo permanezca en la pelea, más posibilidades tendrás de ganar.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¡Vaya, eso suena divertido!
+    - **Gambler:** No sé nada de eso.
+    - **Gambler:** Una cosa que sé es que es una forma rápida de ganar y perder dinero.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¿Existe un límite de cuánto puedes apostar?
+    - **Gambler:** Hmmm... déjame ver. Si no me equivoco, actualmente puedes apostar hasta un máximo de [número] coins.
+    - **Player:** Suena como una cantidad tonta de dinero para apostar en una pelea de gatos.
+    - **Gambler:** Te sorprendería lo que algunas personas estarían dispuestas a apostar.
+    - **Gambler:** También hay una apuesta mínima de 100 coins.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¿Puedo desafiarte a ti y a tu gato?
+    - **Gambler:** No, ahora no, realmente no apostamos con forasteros.
+    - **Player:** Pero no soy un outsider, ¿no estoy ahora en boxes?
+    - **Gambler:** No lo sé, tal vez una vez que hayas hecho algo para ganarte mi confianza.
+    - **Player:** ¿Se puede comprar?
+    - **Gambler:** ¿Qué?
+    - **Player:** Tu confianza.
+    - **Gambler:** No. No agradamos a la gente común del pueblo, lo que nos lleva a desconfiar de ellos y de cualquier otra persona.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+
+#### Mujer con boina
+
+- **Player:** ¡Hola!
+- **Player:** ¿Qué haces aquí?
+- **Gambler:** Divirtiéndose. Es una maravilla, ya gané 5 mil gold coins hoy, mi gato sigue ganando.
+- **Player:** Entonces, ¿cómo funcionan estos pozos de ratas?
+- **Gambler:** Los boxes de Port Sarim son bastante complicados, no se permiten gatos perezosos aquí.
+- **Player:** ¿Gatos perezosos?
+- **Gambler:** Sabes que si descuidas a un gato astuto, se vuelve gordo y perezoso, bueno, aquí no se les permite pelear, solo los gatos astutos.
+- **Player:** Eso suena bastante simple hasta ahora.
+- **Gambler:** Luego aceptas una apuesta. Se rumorea que algunos cazadores de ratas pueden hablar con sus propios gatos y darles tácticas para ayudarlos.
+- **Player:** Entonces, ¿cómo se gana el desafío?
+- **Gambler:** Estaba llegando a eso. Los gatos de ambos jugadores se colocan dentro del área vallada y quien mate primero a 11 ratas gana.
+  - **Player:** Eso suena vil y cruel.
+    - **Gambler:** Es un mundo cruel y los boxes no son una excepción.
+    - **Gambler:** Todos los días matan a guardias sin más motivo que saciar la sed de sangre de algún aventurero despreciable.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** Suena un poco peligroso para mi gato.
+    - **Gambler:** Estoy de acuerdo. Se sabe que los gatos mueren en peleas.
+    - **Player:** Oh, qué terrible. ¿No hay nada que puedas hacer para salvar a tu gato?
+    - **Gambler:** Por supuesto que sí, puedes indicarle que tenga cuidado y se irá una vez que sienta que está en peligro.
+    - **Player:** Oh, eso suena muy sabio.
+    - **Gambler:** Eso depende de cómo valoras a tu gato.
+    - **Player:** Lo siento, no te sigo.
+    - **Gambler:** Bueno, si tu gato muere o se escapa, pierdes.
+    - **Gambler:** Entonces, cuanto más tiempo permanezca en la pelea, más posibilidades tendrás de ganar.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¡Vaya, eso suena divertido!
+    - **Gambler:** No sé nada de eso.
+    - **Gambler:** Una cosa que sé es que es una forma rápida de ganar y perder dinero.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¿Existe un límite de cuánto puedes apostar?
+    - **Gambler:** Hmmm... déjame ver. Si no me equivoco, actualmente puedes apostar hasta un máximo de [número] coins.
+    - **Player:** Suena como una cantidad tonta de dinero para apostar en una pelea de gatos.
+    - **Gambler:** Te sorprendería lo que algunas personas estarían dispuestas a apostar.
+    - **Gambler:** También hay una apuesta mínima de 100 coins.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¿Puedo desafiarte a ti y a tu gato?
+    - **Gambler:** No, ahora no, realmente no apostamos con forasteros.
+    - **Player:** Pero no soy un outsider, ¿no estoy ahora en boxes?
+    - **Gambler:** No lo sé, tal vez una vez que hayas hecho algo para ganarte mi confianza.
+    - **Player:** ¿Se puede comprar?
+    - **Gambler:** ¿Qué?
+    - **Player:** Tu confianza.
+    - **Gambler:** No. No agradamos a la gente común del pueblo, lo que nos lleva a desconfiar de ellos y de cualquier otra persona.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+
+#### Hombre con cuerpo de cuero.
+
+- **Player:** Buenos días.
+- **Gambler:** ¿Qué tiene de bueno?
+- **Player:** ¿Qué te está comiendo?
+- **Gambler:** ¡Estoy arruinado, todo por culpa de ese estúpido gato! Me ha arruinado.
+- **Gambler:** ¿Por qué hubo que dejar que lo mataran? ¿Por qué?
+- **Player:** {{colour|blue|*Aside* I think I should leave him alone. He seems a little upset right now.}}
+
+#### Mujer con pantalón roto
+
+- **Player:** ¡Hola!
+- **Player:** ¿Qué estás haciendo?
+- **Gambler:** Intentando recuperar algo de dinero.
+- **Player:** ¿Va bien?
+- **Gambler:** En cada apuesta hay un tonto y un ladrón y estoy empezando a pensar que no soy un gran ladrón.
+- **Player:** Entonces, ¿cómo funcionan estos pozos de ratas?
+- **Gambler:** Es simple.
+- **Gambler:** En Varrock, si tienes un gato adulto y un par de coins, puedes desafiar a otra persona que también tenga un gato adulto y algo de cambio.
+- **Player:** Eso suena bastante simple hasta ahora.
+- **Gambler:** Luego aceptas una apuesta. Se rumorea que algunos cazadores de ratas pueden hablar con sus propios gatos y darles tácticas para ayudarlos.
+- **Player:** Entonces, ¿cómo se gana el desafío?
+- **Gambler:** Estaba llegando a eso. Los gatos de ambos jugadores se colocan dentro del área vallada, y quien mate primero las ratas del 7/5/11 gana.
+  - **Player:** Eso suena vil y cruel.
+    - **Gambler:** Es un mundo cruel y los boxes no son una excepción.
+    - **Gambler:** Todos los días matan a guardias sin más motivo que saciar la sed de sangre de algún aventurero despreciable.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** Suena un poco peligroso para mi gato.
+    - **Gambler:** Estoy de acuerdo. Se sabe que los gatos mueren en peleas.
+    - **Player:** Oh, qué terrible. ¿No hay nada que puedas hacer para salvar a tu gato?
+    - **Gambler:** Por supuesto que sí, puedes indicarle que tenga cuidado y se irá una vez que sienta que está en peligro.
+    - **Player:** Oh, eso suena muy sabio.
+    - **Gambler:** Eso depende de cómo valoras a tu gato.
+    - **Player:** Lo siento, no te sigo.
+    - **Gambler:** Bueno, si tu gato muere o se escapa, pierdes.
+    - **Gambler:** Entonces, cuanto más tiempo permanezca en la pelea, más posibilidades tendrás de ganar.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¡Vaya, eso suena divertido!
+    - **Gambler:** No sé nada de eso.
+    - **Gambler:** Una cosa que sé es que es una forma rápida de ganar y perder dinero.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¿Existe un límite de cuánto puedes apostar?
+    - **Gambler:** Hmmm... déjame ver. Si no me equivoco, actualmente puedes apostar hasta un máximo de [número] coins.
+    - **Player:** Suena como una cantidad tonta de dinero para apostar en una pelea de gatos.
+    - **Gambler:** Te sorprendería lo que algunas personas estarían dispuestas a apostar.
+    - **Gambler:** También hay una apuesta mínima de 100 coins.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¿Puedo desafiarte a ti y a tu gato?
+    - **Gambler:** No, ahora no, realmente no apostamos con forasteros.
+    - **Player:** Pero no soy un outsider, ¿no estoy ahora en boxes?
+    - **Gambler:** No lo sé, tal vez una vez que hayas hecho algo para ganarte mi confianza.
+    - **Player:** ¿Se puede comprar?
+    - **Gambler:** ¿Qué?
+    - **Player:** Tu confianza.
+    - **Gambler:** No. No agradamos a la gente común del pueblo, lo que nos lleva a desconfiar de ellos y de cualquier otra persona.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+
+#### Mujer vestida
+
+- **Player:** ¡Hola!
+- **Player:** ¿Qué estás haciendo?
+- **Gambler:** No mucho. Simplemente manteniéndome ocupada, haciendo un par de apuestas aquí y allá.
+- **Player:** ¿Estás ganando?
+- **Gambler:** Sí, en el sentido de que no estoy tan aburrido como antes y no en términos de la cantidad de coins en mi bolso.
+- **Player:** Entonces, ¿cómo funcionan estos pozos de ratas?
+- **Gambler:** Las cosas funcionan de forma sencilla en las ratoneras de Ardougne.
+- **Gambler:** Si tienes un gatito y al menos 100 coins, puedes desafiar a otra persona que también tenga un gatito y algo de cambio.
+- **Player:** Eso suena bastante simple hasta ahora.
+- **Gambler:** Luego aceptas una apuesta. Se rumorea que algunos cazadores de ratas pueden hablar con sus propios gatos y darles tácticas para ayudarlos.
+- **Player:** Entonces, ¿cómo se gana el desafío?
+- **Gambler:** Estaba llegando a eso. Los gatos de ambos jugadores se colocan dentro del área vallada y quien mate primero a 5 ratas gana.
+  - **Player:** Eso suena vil y cruel.
+    - **Gambler:** Es un mundo cruel y los boxes no son una excepción.
+    - **Gambler:** Todos los días matan a guardias sin más motivo que saciar la sed de sangre de algún aventurero despreciable.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** Suena un poco peligroso para mi gato.
+    - **Gambler:** Estoy de acuerdo. Se sabe que los gatos mueren en peleas.
+    - **Player:** Oh, qué terrible. ¿No hay nada que puedas hacer para salvar a tu gato?
+    - **Gambler:** Por supuesto que sí, puedes indicarle que tenga cuidado y se irá una vez que sienta que está en peligro.
+    - **Player:** Oh, eso suena muy sabio.
+    - **Gambler:** Eso depende de cómo valoras a tu gato.
+    - **Player:** Lo siento, no te sigo.
+    - **Gambler:** Bueno, si tu gato muere o se escapa, pierdes.
+    - **Gambler:** Entonces, cuanto más tiempo permanezca en la pelea, más posibilidades tendrás de ganar.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¡Vaya, eso suena divertido!
+    - **Gambler:** No sé nada de eso.
+    - **Gambler:** Una cosa que sé es que es una forma rápida de ganar y perder dinero.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¿Existe un límite de cuánto puedes apostar?
+    - **Gambler:** Hmmm... déjame ver. Si no me equivoco, actualmente puedes apostar hasta un máximo de [número] coins.
+    - **Player:** Suena como una cantidad tonta de dinero para apostar en una pelea de gatos.
+    - **Gambler:** Te sorprendería lo que algunas personas estarían dispuestas a apostar.
+    - **Gambler:** También hay una apuesta mínima de 100 coins.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¿Puedo desafiarte a ti y a tu gato?
+    - **Gambler:** No, ahora no, realmente no apostamos con forasteros.
+    - **Player:** Pero no soy un outsider, ¿no estoy ahora en boxes?
+    - **Gambler:** No lo sé, tal vez una vez que hayas hecho algo para ganarte mi confianza.
+    - **Player:** ¿Se puede comprar?
+    - **Gambler:** ¿Qué?
+    - **Player:** Tu confianza.
+    - **Gambler:** No. No agradamos a la gente común del pueblo, lo que nos lleva a desconfiar de ellos y de cualquier otra persona.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+
+### Rich
+
+
+#### Hombre con caballero
+
+- **Player:** ¡Hola!
+- **Player:** ¿Qué está pasando aquí?
+- **Gambler:** Sólo un poco de bebida, un poco de pelea y un poco de juego.
+- **Player:** Nada más que diversión familiar limpia y buena.
+- **Gambler:** Exactamente.
+- **Player:** Entonces, ¿cómo funcionan estos pozos de ratas?
+- **Gambler:** Las cosas funcionan de forma sencilla en las ratoneras de Ardougne.
+- **Gambler:** Si tienes un gatito y al menos 100 coins, puedes desafiar a otra persona que también tenga un gatito y algo de cambio.
+- **Player:** Eso suena bastante simple hasta ahora.
+- **Gambler:** Luego aceptas una apuesta. Se rumorea que algunos cazadores de ratas pueden hablar con sus propios gatos y darles tácticas para ayudarlos.
+- **Player:** Entonces, ¿cómo se gana el desafío?
+- **Gambler:** Estaba llegando a eso. Los gatos de ambos jugadores se colocan dentro del área vallada y quien mate primero a 5 ratas gana.
+  - **Player:** Eso suena vil y cruel.
+    - **Gambler:** Es un mundo cruel y los boxes no son una excepción.
+    - **Gambler:** Todos los días matan a guardias sin más motivo que saciar la sed de sangre de algún aventurero despreciable.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** Suena un poco peligroso para mi gato.
+    - **Gambler:** Estoy de acuerdo. Se sabe que los gatos mueren en peleas.
+    - **Player:** Oh, qué terrible. ¿No hay nada que puedas hacer para salvar a tu gato?
+    - **Gambler:** Por supuesto que sí, puedes indicarle que tenga cuidado y se irá una vez que sienta que está en peligro.
+    - **Player:** Oh, eso suena muy sabio.
+    - **Gambler:** Eso depende de cómo valoras a tu gato.
+    - **Player:** Lo siento, no te sigo.
+    - **Gambler:** Bueno, si tu gato muere o se escapa, pierdes.
+    - **Gambler:** Entonces, cuanto más tiempo permanezca en la pelea, más posibilidades tendrás de ganar.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¡Vaya, eso suena divertido!
+    - **Gambler:** No sé nada de eso.
+    - **Gambler:** Una cosa que sé es que es una forma rápida de ganar y perder dinero.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¿Existe un límite de cuánto puedes apostar?
+    - **Gambler:** Hmmm... déjame ver. Si no me equivoco, actualmente puedes apostar hasta un máximo de [número] coins.
+    - **Player:** Suena como una cantidad tonta de dinero para apostar en una pelea de gatos.
+    - **Gambler:** Te sorprendería lo que algunas personas estarían dispuestas a apostar.
+    - **Gambler:** También hay una apuesta mínima de 100 coins.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¿Puedo desafiarte a ti y a tu gato?
+    - **Gambler:** No, ahora no, realmente no apostamos con forasteros.
+    - **Player:** Pero no soy un outsider, ¿no estoy ahora en boxes?
+    - **Gambler:** No lo sé, tal vez una vez que hayas hecho algo para ganarte mi confianza.
+    - **Player:** ¿Se puede comprar?
+    - **Gambler:** ¿Qué?
+    - **Player:** Tu confianza.
+    - **Gambler:** No. No agradamos a la gente común del pueblo, lo que nos lleva a desconfiar de ellos y de cualquier otra persona.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+
+### Very rich
+
+
+#### Hombre con sombrero de copa
+
+- **Player:** ¡Hola!
+- **Gambler:** ¿Qué quieres?
+- **Player:** Me preguntaba qué estabas haciendo aquí.
+- **Gambler:** Me hago la misma pregunta a menudo.
+- **Gambler:** ¿Qué estoy haciendo aquí abajo en estos pozos junto con esta sucia escoria de la sociedad?
+- **Player:** ¿Y alguna vez se te ocurre una respuesta?
+- **Gambler:** Siempre.
+- **Gambler:** Estoy aquí tomando su dinero, eso es.
+- **Player:** Entonces, ¿cómo funcionan estos pozos de ratas?
+- **Gambler:** Las cosas funcionan de forma sencilla en las ratoneras de Ardougne.
+- **Gambler:** Si tienes un gatito y al menos 100 coins, puedes desafiar a otra persona que también tenga un gatito y algo de cambio.
+- **Player:** Eso suena bastante simple hasta ahora.
+- **Gambler:** Luego aceptas una apuesta. Se rumorea que algunos cazadores de ratas pueden hablar con sus propios gatos y darles tácticas para ayudarlos.
+- **Player:** Entonces, ¿cómo se gana el desafío?
+- **Gambler:** Estaba llegando a eso. Los gatos de ambos jugadores se colocan dentro del área vallada y quien mate primero a 5 ratas gana.
+  - **Player:** Eso suena vil y cruel.
+    - **Gambler:** Es un mundo cruel y los boxes no son una excepción.
+    - **Gambler:** Todos los días matan a guardias sin más motivo que saciar la sed de sangre de algún aventurero despreciable.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** Suena un poco peligroso para mi gato.
+    - **Gambler:** Estoy de acuerdo. Se sabe que los gatos mueren en peleas.
+    - **Player:** Oh, qué terrible. ¿No hay nada que puedas hacer para salvar a tu gato?
+    - **Gambler:** Por supuesto que sí, puedes indicarle que tenga cuidado y se irá una vez que sienta que está en peligro.
+    - **Player:** Oh, eso suena muy sabio.
+    - **Gambler:** Eso depende de cómo valoras a tu gato.
+    - **Player:** Lo siento, no te sigo.
+    - **Gambler:** Bueno, si tu gato muere o se escapa, pierdes.
+    - **Gambler:** Entonces, cuanto más tiempo permanezca en la pelea, más posibilidades tendrás de ganar.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¡Vaya, eso suena divertido!
+    - **Gambler:** No sé nada de eso.
+    - **Gambler:** Una cosa que sé es que es una forma rápida de ganar y perder dinero.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¿Existe un límite de cuánto puedes apostar?
+    - **Gambler:** Hmmm... déjame ver. Si no me equivoco, actualmente puedes apostar hasta un máximo de [número] coins.
+    - **Player:** Suena como una cantidad tonta de dinero para apostar en una pelea de gatos.
+    - **Gambler:** Te sorprendería lo que algunas personas estarían dispuestas a apostar.
+    - **Gambler:** También hay una apuesta mínima de 100 coins.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¿Puedo desafiarte a ti y a tu gato?
+    - **Gambler:** No, ahora no, realmente no apostamos con forasteros.
+    - **Player:** Pero no soy un outsider, ¿no estoy ahora en boxes?
+    - **Gambler:** No lo sé, tal vez una vez que hayas hecho algo para ganarte mi confianza.
+    - **Player:** ¿Se puede comprar?
+    - **Gambler:** ¿Qué?
+    - **Player:** Tu confianza.
+    - **Gambler:** No. No agradamos a la gente común del pueblo, lo que nos lleva a desconfiar de ellos y de cualquier otra persona.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.

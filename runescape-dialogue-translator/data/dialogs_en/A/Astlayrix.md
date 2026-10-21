@@ -1,0 +1,159 @@
+# Astlayrix
+
+- **Original Wiki Page**: [Transcript:Astlayrix](https://runescape.wiki/w/Transcript%3AAstlayrix)
+- **Letter**: `A`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Astlayrix:** Hello! Isn't this place exciting? So many different jadinkos, so many factors that influence their life here. Truly, Guthix moves in mysterious ways.
+- Select an option
+  - Who are you?
+    - **Player:** Who are you?
+    - **Astlayrix:** My name is Astlayrix. I'm originally from Taverley, but I simply had to come and see this astounding habitat in person.
+    - Select an option
+      - What's so special about it?
+        - **Player:** What's so special about it?
+        - **Astlayrix:** Everything! Well, okay, maybe not everything, but a decent proportion. For a start, did you know that you can grow combinations of plants to attract different jadinkos?
+        - Select an option
+          - What's a jadinko?{{anchor|about-jadinko}}
+            - **Player:** What's a jadinko?
+            - **Astlayrix:** It's a curious name, I agree. Papa Mambo apparently named them. A jadinko is a strange lizard-like creature. They're evidently some kind of walking plant: fascinating, really. What's more, they have vines growing from them, each infused with remarkable magical energies. Imagine the potions you could create using those vines as ingredients.
+            - Select an option
+              - What potions do you think I could create?
+                - {{tact|below|potions}}
+              - What influences the jadinkos?
+                - {{tact|below|influence-jadinkos}}
+              - *After the player has attracted some type of jadinko:*
+                - Can you show me which creatures I've attracted so far?
+                  - {{tact|below|known-jadinkos}}
+              - Can you show me how to attract jadinkos?
+                - {{tact|below|attract-jadinkos}}
+          - What can I grow?{{anchor|grow}}
+            - **Player:** What can I grow?
+            - **Astlayrix:** Well, there are new species of plant to grow here. Each one must be grown from the vine herself - erm, I mean, 'itself'. There are two new species of bush, three different flowers and five herbs. All can be grown from the vine itself. There's also a fruit tree patch, but there's nothing new about that. Each of these plants can attract a bizarre race of plant creatures called the jadinko.
+            - Select an option
+              - What herbs can I grow here?{{anchor|herbs}}
+                - **Player:** What herbs can I grow here?
+                - **Astlayrix:** Well, certainly not the herbs you'll be used to growing. Everything you can grow here, with the exception of certain fruit trees, is grown from the vine herself. So, you can only grow special vine herbs here.
+                - Select an option
+                  - Herself?
+                    - **Player:** Herself?
+                    - **Astlayrix:** Grimy toadflax! He's got me thinking the vine is a female now! It! Clearly, I meant to refer to the vine as 'itself', rather than 'herself'.
+                    - Select an option
+                      - Who's got you thinking the vine is a female?
+                        - **Player:** Who's got you thinking the vine is a female?
+                        - **Astlayrix:** Oh, that creepy shaman chap. Calls himself 'Papa Mambo', or something. Quite an unnerving fellow.
+                        - **Papa Mambo:** Heh heh heh. I's can hear you talking 'bout me. Heh Heh heh.
+                        - **Astlayrix:** Sheesh! It really unnerves me when he does that. That shaman is responsible for encouraging this vine to become such a miraculous habitat. I've absolutely no idea how he did it, but I suspect he has no idea either.
+                        - Select an option
+                          - What's a jadinko?
+                            - {{tact|above|about-jadinko}}
+                          - What influences the jadinkos?
+                            - {{tact|below|influence-jadinkos}}
+                          - *After the player has attracted some type of jadinko:*
+                            - Can you show me which creatures I've attracted so far?
+                              - {{tact|below|known-jadinkos}}
+                          - Can you show me how to attract jadinkos?
+                            - {{tact|below|attract-jadinkos}}
+                      - Can you show me how to attract jadinkos?
+                        - {{tact|below|attract-jadinkos}}
+                      - Can you show me which creatures I've attracted so far?
+                        - {{tact|below|known-jadinkos}}
+                      - Can you show me how to attract jadinkos?
+                        - {{tact|below|attract-jadinkos}}
+                  - What can I grow?
+                    - {{tact|above|grow}}
+                  - *After the player has attracted some type of jadinko:*
+                    - Can you show me which creatures I've attracted so far?
+                      - {{tact|below|known-jadinkos}}
+                  - Can you show me how to attract jadinkos?
+                    - {{tact|below|attract-jadinkos}}
+              - What influences the jadinkos?
+                - {{tact|below|influence-jadinkos}}
+              - *After the player has attracted some type of jadinko:*
+                - Can you show me which creatures I've attracted so far?
+                  - {{tact|below|known-jadinkos}}
+              - Can you show me how to attract jadinkos?
+                - {{tact|below|attract-jadinkos}}
+          - What influences the jadinkos?
+            - {{tact|below|influence-jadinkos}}
+          - *After the player has attracted some type of jadinko:*
+            - Can you show me which creatures I've attracted so far?
+              - {{tact|below|known-jadinkos}}
+          - Can you show me how to attract jadinkos?
+            - {{tact|below|attract-jadinkos}}
+      - What influences the jadinkos?
+        - {{tact|below|influence-jadinkos}}
+      - Can you show me how to attract jadinkos?
+        - {{tact|below|attract-jadinkos}}
+  - What influences the jadinkos?{{anchor|influence-jadinkos}}
+    - **Player:** What influences the jadinkos?
+    - **Astlayrix:** Well, now, that's a bit of a loaded question. You see, not all creatures are attracted by the same things; in fact, some species of jadinko can never be in the habitat at the same time. If you look around the habitat, you'll notice several vines growing out of the ground, as well as a patch of land ideal for construction. If you grow the right things in the vine patches, and if you build the right environmental feature, you'll attract a jadinko. I can show you what I mean, if you like.
+    - Select an option
+      - Can you show me how to attract jadinkos?
+        - {{tact|below|attract-jadinkos}}
+      - What's the point of attracting different jadinkos?
+        - **Player:** What's the point of attracting different jadinkos?
+        - **Astlayrix:** Well, each jadinko has a different vine crest, which you can glean if you successfully hunt them. These vines each have different magical properties and can be turned into different potions. Each week, Papa Mambo offers a reward for anyone able to catch every type of jadinko. Should definitely be worth a try.
+        - Select an option
+          - What potions do you think I could make?{{anchor|potions}}
+            - **Player:** What potions do you think I could create?
+            - **Astlayrix:** Hmm...I'm afraid you have me a little stumped there, friend, but I'm willing to bet that the potions have unique effects. Why, there are even new herbs that can be grown here. I'm guessing that, combined with some of those magical vines, you can get a variety of effects.
+            - Select an option
+              - What herbs can I grow here?
+                - {{tact|above|herbs}}
+              - What can I grow?
+                - {{tact|above|grow}}
+              - Can you show me how to attract jadinkos?
+                - {{tact|below|attract-jadinkos}}
+          - What reward is he offering?
+            - **Player:** What reward is he offering?
+            - **Astlayrix:** I don't really know, you'd have to ask him. I know it's likely to involve a gift of knowledge and he's been crafting some...interesting clothes.
+            - Select an option
+              - What influences the jadinkos?
+                - {{tact|above|influence-jadinkos}}
+              - Can you show me how to attract jadinkos?
+                - {{tact|below|attract-jadinkos}}
+              - *After the player has attracted some type of jadinko:*
+                - Can you show me which creatures I've attracted so far?
+                  - {{tact|below|known-jadinkos}}
+          - Can you show me how to attract jadinkos?
+            - {{tact|below|attract-jadinkos}}
+  - *After the player has attracted some type of jadinko:*
+    - Can you show me which creatures I've attracted so far?{{anchor|known-jadinkos}}
+      - **Player:** Can you show me which creatures I've attracted so far?
+      - **Astlayrix:** Of course.
+      - *(Known Jadinko Requirements interface opens.)*
+  - Can you show me how to attract jadinkos?{{anchor|attract-jadinkos}}
+    - **Astlayrix:** But of course! Follow me!
+    - {{qact|Fade out/in. Cutscene begins. Astlayrix and the player are near the Herblore Habitat farming patches.}}
+    - **Astlayrix:** Let's start with this flower patch here. As you can see, there's nothing growing here yet; however, if we were to cause something to grow here...
+    - {{qact|A fully grown blue vine blossom appears in the vine patch.}}
+    - **Astlayrix:** Naturally, vine plants don't grow this fast, but I have a few tricks up my robe sleeves. Still, you will find that you can grow plants here faster than normal. Now, with this plant fully grown, you should sense a change in the habitat. Let's see if a jadinko turns up.
+    - {{qact|A common jadinko appears in the northern Hunter area.}}
+    - **Astlayrix:** Aha! There's one now. A common jadinko! These are the easiest of the jadinkos to attract, as they are enticed by the aroma of all flower types that grow here. Let's send it away. Sometimes, you won't want to attract all available creature types. Talk to Papa Mambo to ward them away.
+    - {{qact|The common jadinko disappears.}}
+    - **Astlayrix:** Okay, as that clearly worked, let's try something more complex.
+    - {{qact|Astlayrix and the player walk towards the feature patch.}}
+    - **Astlayrix:** This is an environmental feature. Constructing different features is likely to attract different creatures. Let's create a thermal vent for the moment and see if we can attract something new.
+    - {{qact|Astlayrix builds a thermal vent.}}
+    - **Astlayrix:** Phew, that was hard work! You'll need a certain degree of construction knowledge to be able to build these features. They're not easy to make! Of course, if you can't build them yourself, you can always pay Papa Mambo to build them for you. He makes quite a lucrative business out of it. Hmm, well, building this feature alone didn't appear to do anything. Let's see what else the creature may be attracted by. An orange tree might help.
+    - {{qact|Astlayrix walks towards the fruit tree patch and fully grows an orange tree in it. The player walks towards Astlayrix.}}
+    - **Astlayrix:** Finally, let's see what happens if we grow a lergberry bush.
+    - {{qact|Astlayrix walks towards the bush patch and fully grows a lergberry bush in it. The player walks towards Astlayrix.}}
+    - **Astlayrix:** Aha! There you go! I can hear them coming now.
+    - {{qact|The camera pans over to the northern hunting area, where an igneous jadinko has appeared.}}
+    - **Astlayrix:** An igneous jadinko! These rocky creatures are tougher to catch than the basic jadinko, but their vines are so much more useful.
+    - {{qact|A marasamaw plant appears in front of the igneous jadinko.}}
+    - **Astlayrix:** Most jadinkos are caught using marasamaw plants. You lay these plants on the ground, much as you would a standard boxtrap. Marasamaw plants can only be planted in the herblore habitat, however.
+    - {{qact|The igneous jadinko stands on the marasamaw plant, which engulfs the jadinko.}}
+    - **Astlayrix:** In addition to marasamaw plants, you can catch some jadinkos using tracking.
+    - {{qact|The camera pans over the various holes in the ground in the southern Hunter area.}}
+    - **Astlayrix:** There are networks of tunnels beneath the herblore habitat; so, if a jadinko goes down one of those holes, they could emerge at any other hole. It's worth being thorough.
+    - {{qact|Fade out/in. Cutscene ends.}}
+    - **Astlayrix:** I've heard Papa Mambo talk about some rare jadinkos whose tastes are more whimsical. Evidently, there are three types of jadinko that frequent the nearby island. These creatures share traits with Guthix, Saradomin or Zamorak and their tastes vary each week. One week they could be attracted to apple trees, the next orange trees, and so on; however, I have no doubt that their vines would make for powerful potions within this habitat. I bet Papa Mambo will offer an additional reward if you can catch them all in a week as well. Well, I think that covers everything. If you manage to attract a new type of jadinko, I'll record the combination of plants you used to do it. As the whimsical jadinkos change each week, I won't keep a record of their tastes. You can also find plant seeds by hunting jadinkos: they seem to hoard them, for some reason.

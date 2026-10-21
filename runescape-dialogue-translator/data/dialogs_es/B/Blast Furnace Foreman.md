@@ -1,0 +1,153 @@
+# Blast Furnace Foreman
+
+- **Original Wiki Page**: [Transcript:Blast Furnace Foreman](https://runescape.wiki/w/Transcript%3ABlast%20Furnace%20Foreman)
+- **Letter**: `B`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Speaking to him
+
+- **Blast Furnace Foreman:** ¡Tú! ¡Empezar a trabajar!
+  - [Menu]: Selecciona una opción
+    - [Choice]: ¿Qué?
+      - **Player:** ¿Qué?
+      - **Blast Furnace Foreman:** Estás aquí para ayudar a trabajar en el alto horno, ¿no?
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Qué es el alto horno?
+            - **Player:** ¿Qué es el alto horno?
+            - **Blast Furnace Foreman:** ¡El alto horno es el pináculo del procesamiento de metales enanos! ¡El mineral sube por la parte superior y sale como barras de metal casi al mismo tiempo! Y es tan eficiente que solo se necesita la mitad de carbón para purificarlo que un horno normal.
+            - **Blast Furnace Foreman:** Pero tenemos un poco de escasez de mano de obra en este momento, por lo que tengo que depender de trabajadores inmigrantes para mantener el horno en funcionamiento. Entonces, ¿estás aquí para empezar a trabajar?
+            - (previous|first-menu)
+          - [Choice]: ¿Cómo puedo ayudar a trabajar el alto horno?
+            - **Player:** ¿Cómo puedo ayudar a hacer funcionar el alto horno?
+            - **Blast Furnace Foreman:** El alto horno sólo funcionará si hay un grupo de personas que lo mantengan en funcionamiento. Déjame explicarte...
+            - (Action: Aparece el diagrama del plano del alto horno y la cruz al lado de la estufa parpadea)
+            - **Blast Furnace Foreman:** En primer lugar, la estufa debe mantenerse llena de carbón. Si esto se acaba, el horno no funcionará.
+            - (Action: La cruz al lado de la bomba de aire parpadea)
+            - **Blast Furnace Foreman:** En segundo lugar, alguien necesita operar la bomba que mantiene el aire caliente circulando a través del horno.
+            - (Action: La cruz al lado del indicador de temperatura parpadea)
+            - **Blast Furnace Foreman:** En tercer lugar, alguien debe vigilar el indicador de temperatura. Deben decirle a la bomba que arranque o se detenga para que la temperatura se mantenga en el rango correcto.
+            - (Action: La cruz al lado de los engranajes parpadea)
+            - **Blast Furnace Foreman:** Por último, es necesario que alguien esté sobre los pedales para impulsar la cinta transportadora que coloca el mineral en el horno.
+            - (Action: La cruz al lado de los engranajes deja de parpadear)
+            - **Blast Furnace Foreman:** ¡Alguien también tendrá que estar preparado con un martillo en caso de que la máquina se rompa!
+            - **Blast Furnace Foreman:** Mientras eso sucede, cualquiera puede poner su mineral en la cinta transportadora para fundirlo.
+              - [Menu]: Selecciona una opción
+                - [Choice]: Entonces, ¿qué gano con esto?
+                  - **Player:** Entonces, ¿qué gano con esto?
+                  - **Blast Furnace Foreman:** ¡Mantener el horno en funcionamiento es una experiencia valiosa en sí misma! Mantener la estufa encendida entrenará tu habilidad para hacer fuego, hacer funcionar la bomba entrenará tu fuerza, pedalear la cinta transportadora entrenará tu agilidad y reparar el horno entrenará tu artesanía. Además, todos los que trabajen en el horno obtendrán un poco de experiencia en la forja cada vez que alguien funda mineral en él.
+                    - [Menu]: Selecciona una opción
+                      - [Choice]: ¿Entonces en realidad no me pagan?
+                        - **Player:** Entonces, ¿en realidad no me pagan?
+                        - **Blast Furnace Foreman:** ¿Te ofrezco el privilegio de trabajar en el mejor ejemplo de ingeniería enana y quieres que te PAGUEN? Si coopera con un grupo de personas, todos podrán realizar la fundición con bastante rapidez. O tal vez algunos humanos que necesitan fundir algo les paguen, ya que ustedes, los humanos, están muy obsesionados con el dinero.
+                          - [Menu]: Selecciona una opción
+                            - [Choice]: Está bien, me pondré a trabajar.
+                              - **Player:** Está bien, me pondré a trabajar.
+                              - **Blast Furnace Foreman:** ¡Espléndido!
+                            - [Choice]: Quizás en otro momento.
+                              - **Player:** Quizás en otro momento.
+                              - **Blast Furnace Foreman:** Bueno, si no estás aquí para trabajar, ¡vete a otro lugar!
+                            - [Choice]: ¡No es de extrañar que haya escasez de mano de obra si no les paga a sus trabajadores!
+                              - **Player:** ¡No es de extrañar que tengas escasez de mano de obra si no les pagas a tus trabajadores!
+                              - **Blast Furnace Foreman:** ¿Qué sentido tendría ganar dinero si se lo diera todo a trabajadores de baja categoría? Quiero decir... ¡El dinero no es importante! ¿Qué pasa con la mayor gloria de la ingeniería enana? ¿Qué pasa con la satisfacción de ayudar a los demás? ¿Qué pasa con el XP?
+                                - *(Muestra otras opciones)*
+                      - [Choice]: Está bien, me pondré a trabajar.
+                        - **Player:** Está bien, me pondré a trabajar.
+                        - **Blast Furnace Foreman:** ¡Espléndido!
+                      - [Choice]: Quizás en otro momento.
+                        - **Player:** Quizás en otro momento.
+                        - **Blast Furnace Foreman:** Bueno, si no estás aquí para trabajar, ¡vete a otro lugar!
+                - [Choice]: Está bien, me pondré a trabajar.
+                  - **Player:** Está bien, me pondré a trabajar.
+                  - **Blast Furnace Foreman:** ¡Espléndido!
+                - [Choice]: Quizás en otro momento.
+                  - **Player:** Quizás en otro momento.
+                  - **Blast Furnace Foreman:** Bueno, si no estás aquí para trabajar, ¡vete a otro lugar!
+          - [Choice]: ¿Puedo usar el horno para fundir mineral?
+            - **Player:** ¿Puedo usar el horno para fundir mineral?
+            - **Blast Furnace Foreman:** Puedes, aunque necesitarás encontrar algunas personas que también trabajen para ti. Pero el horno es muy delicado, así que cobro una tarifa a cualquiera que no tenga nivel 60 de herrería.
+              - [Menu]: Selecciona una opción
+                - [Choice]: ¡Tengo nivel 60!
+                  - **Player:** ¡Tengo el nivel 60!
+                  - **Blast Furnace Foreman:** ¿Un humano tiene nivel 60 de herrería? ¡Qué extraordinario! Siéntete libre de utilizar el horno. Recuerde, sólo necesita la mitad de carbón que con un horno normal.
+                - [Choice]: No tengo nivel 60.
+                  - **Player:** No tengo el nivel 60.
+                  - **Blast Furnace Foreman:** Hmm, bueno, te dejaré usar el horno si quieres, pero debes pagar una tarifa de 2500 coins.
+                    - [Menu]: Selecciona una opción
+                      - [Choice]: Está bien.
+                        - **Player:** Bien, aquí tienes.
+                        - Se han eliminado 2500 coins de su bolsa de dinero.
+                        - **Blast Furnace Foreman:** Está bien, puedes usar el horno durante diez minutos. Recuerde, sólo necesita la mitad de carbón que con un horno normal.
+                      - [Choice]: Quizás en otro momento.
+                        - **Player:** Quizás en otro momento.
+                        - **Blast Furnace Foreman:** Bueno, si no estás aquí para trabajar, ¡vete a otro lugar!
+          - [Choice]: Quizás en otro momento.
+            - **Player:** Quizás en otro momento.
+            - **Blast Furnace Foreman:** Bueno, si no estás aquí para trabajar, ¡vete a otro lugar!
+    - [Choice]: cond=If the player has not yet asked about dragon metal before:|¿Para qué serviría el dragon metal?
+      - (below|dragon-metal)
+    - [Choice]: cond=If the player has asked about dragon metal before:|Pregunte por los martillos de fusión por explosión.
+      - [Menu]: Selecciona una opción
+        - [Choice]: ¿Cuánto cuesta un martillo?
+          - **Blast Furnace Foreman:** Cuesta 1.000.000 coins.
+            - [Menu]: Selecciona una opción
+              - [Choice]: Comprar martillo de granallado: 1.000.000 (1M) coins.
+                - (removes=1,000,000 coins) (receives=blast fusion hammer)
+                - Se han eliminado 1.000.000 coins de su bolsa de dinero.
+                - [Entregas 1.000.000 coins por el martillo de fusión explosiva.]
+              - [Choice]: Lo dejaré por ahora, gracias.
+                - Usted decide no realizar una compra.
+        - [Choice]: Quiero cambiar mi martillo y recuperar algo de dinero.
+          - **Player:** Quiero cambiar mi martillo y recuperar algo de dinero.
+          - **Blast Furnace Foreman:** No hay problema. Sólo dame el martillo que quieres devolver y te diré cuánto puedo devolverte.
+          - **Player:** Yo simplemente uso el martillo contigo y acordaremos un precio, ¿no?
+          - **Blast Furnace Foreman:** ¡Exactamente!
+        - [Choice]: ¿Cómo es que tienes un martillo así?
+          - **Player:** ¿Cómo es que tienes un martillo así?
+          - **Blast Furnace Foreman:** Una pregunta interesante que, lamento decirlo, no puedo responder. Secretos industriales y tecnológicos enanos ultrasecretos, ya ves.
+          - **Player:** Oh, suena emocionante. Vamos, puedes decirme...
+          - **Blast Furnace Foreman:** Oh, está bien, pero guárdalo para ti.
+          - **Player:** Lo haré.
+          - **Blast Furnace Foreman:** Muy bien. Nosotros, los enanos, hemos estado trabajando en una serie de experimentos metalúrgicos muy importantes. Encontramos algunas formaciones rocosas bastante interesantes, en un lugar que permanecerá sin nombre, y nuestros experimentos se desarrollaron y evolucionaron hasta que se nos ocurrió el martillo de fusión explosiva. ¡El martillo es capaz de trabajar incluso los metales más fuertes y mágicos!
+        - [Choice]: ¿Para qué serviría el dragon metal?
+          - **Blast Furnace Foreman:** Bueno, supongo que si pudieras encontrar un horno lo suficientemente caliente y un martillo lo suficientemente caliente, probablemente podrías convertirlo en una armadura personal efectiva.
+          - **Blast Furnace Foreman:** Me temo que no puedo ofrecer ningún consejo sobre el horno, pero tal vez pueda ayudar con el martillo.
+          - **Player:** Oh, ¿en serio?
+          - **Blast Furnace Foreman:** Sí, necesitará una resistencia al calor muy alta para trabajar con materiales difíciles. Tengo un tipo de martillo muy especial que guardo para los herreros experimentados: lo llamo martillo de fusión explosiva. Es muy resistente y de máxima calidad.
+          - **Player:** Y, supongo, ¿muy caro?
+          - **Blast Furnace Foreman:** La calidad no es barata, amigo.
+          - (previous|hammer-menu)
+        - [Choice]: Bien, gracias.
+          - **Player:** Está bien, gracias.
+    - [Choice]: Está bien.
+      - **Player:** Está bien.
+
+### Using a blast fusion hammer on him
+
+- **Blast Furnace Foreman:** Por ese martillo puedo ofrecerte 1.000.000 coins para el intercambio. ¿Aceptas?
+  - [Menu]: Selecciona una opción
+    - [Choice]: Sí, aceptaré tu oferta.
+      - **Player:** Sí, aceptaré tu oferta.
+      - (removes=blast fusion hammer) (receives=1,000,000 coins)
+      - Se han añadido 1.000.000 coins a tu bolsa de dinero.
+      - [Entregas el martillo: Explosión del martillo de fusión. Y consigue 1.000.000 coins.]
+    - [Choice]: Lo siento, por ahora me quedaré con el martillo.
+      - **Player:** Lo siento, por ahora me quedaré con el martillo.
+
+### Speaking to him in Ironman mode
+
+- **Blast Furnace Foreman:** ¡No te dejaré entrar a mi horno! ¡Deja de preguntar!
+- [Menu]: Selecciona una opción
+  - [Choice]: ¿Qué?
+    - **Player:** ¿Qué?
+    - Este minijuego está desactivado en el modo Ironman.
+    - **Blast Furnace Foreman:** Mi horno depende de un equipo de aventureros. He oído historias sobre cómo evitas a otros aventureros, así que no te dejaré acercarte a mi precioso equipo.
+    - (end)
+  - [Choice]: Pregunta por dragon metal.
+    - (arriba)
+  - [Choice]: Está bien.
+    - **Player:** Está bien.

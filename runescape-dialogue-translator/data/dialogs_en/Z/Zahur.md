@@ -1,0 +1,161 @@
+# Zahur
+
+- **Original Wiki Page**: [Transcript:Zahur](https://runescape.wiki/w/Transcript%3AZahur)
+- **Letter**: `Z`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Zahur:** Hi, I can clean your herbs for you at a cost of 200 coins per herb. If you want me to clean herbs individually please use each herb on me, or I can clean all the herbs in your inventory at once now.
+- **Zahur:** If you want potions decanted into 3, 2 or 1- ose versions, I can do that too. I charge 2 coins for each normal vial, 2 coins for each juju vial and 2 coins for each powerburst vial I have to supply.
+- [Menu]: Select an Option
+  - [Choice]: Please clean all my herbs.
+    - (Condition: If the player is carrying one or more grimy herbs:)
+      - (removes=grimy herbs and 200 coins per herb) (receives=clean herbs)
+      - **Zahur:** Okay, that's all the herbs in your inventory cleaned.
+    - (Condition: If the player is not carrying any grimy herbs:)
+      - **Zahur:** You've not got any grimy herbs for me to clean!
+    - (Condition: If the player has grimy herbs, but does not have enough money:)
+      - You can not afford that.
+      - **Zahur:** You don't have enough coins to clean any more herbs.
+  - [Choice]: Please decant my potions.
+    - **Player:** Please decant my potions.
+    - **Zahur:** Would you like them to become 1-, 2- or 3-dose potions?
+    - [Menu]: Select an Option
+      - [Choice]: Make them all 1-dose potions.
+        - **Player:** Make them all 1-dose potions.
+        - (Condition: If the player is carrying any decantable potions:)
+          - ((2 coins for any vial supplied by Zahur are removed from the player's pouch))
+          - **Zahur:** There you go, enjoy.
+        - (Condition: If player is not carrying any decantable potions:)
+          - **Zahur:** Sorry, I don't know how to decant any of that stuff you've got with you.
+        - (Condition: If the player has decantable potions, but does not have enough money:)
+          - **Zahur:** I'm afraid that you don't have enough money to pay for enough empty vials.
+        - (Condition: If the player has an empty inventory:)
+          - **Zahur:** Are you trying to waste my time? You haven't got anything on you!
+      - [Choice]: Make them all 2-dose potions.
+        - **Player:** Make them all 2-dose potions.
+        - (Condition: If the player is carrying any decantable potions:)
+          - ((2 coins for any vial supplied by Zahur are removed from the player's pouch))
+          - **Zahur:** There you go, enjoy.
+        - (Condition: If player is not carrying any decantable potions:)
+          - **Zahur:** Sorry, I don't know how to decant any of that stuff you've got with you.
+        - (Condition: If the player has decantable potions, but does not have enough money:)
+          - **Zahur:** I'm afraid that you don't have enough money to pay for enough empty vials.
+        - (Condition: If the player has an empty inventory:)
+          - **Zahur:** Are you trying to waste my time? You haven't got anything on you!
+      - [Choice]: Make them all 3-dose potions.
+        - **Player:** Make them all 3-dose potions.
+        - (Condition: If the player is carrying any decantable potions:)
+          - ((2 coins for any vial supplied by Zahur are removed from the player's pouch))
+          - **Zahur:** There you go, enjoy.
+        - (Condition: If player is not carrying any decantable potions:)
+          - **Zahur:** Sorry, I don't know how to decant any of that stuff you've got with you.
+        - (Condition: If the player has decantable potions, but does not have enough money:)
+          - **Zahur:** I'm afraid that you don't have enough money to pay for enough empty vials.
+        - (Condition: If the player has an empty inventory:)
+          - **Zahur:** Are you trying to waste my time? You haven't got anything on you!
+      - [Choice]: Actually, forget it.
+        - **Player:** Actually, forget it.
+  - [Choice]: Please explain your charges.
+    - [Menu]: Select an Option
+      - [Choice]: Why would I pay you to clean herbs?
+        - **Player:** Why would I pay you to clean herbs? I can gain Herblore experience by cleaning them myself.
+        - **Zahur:** This is true, but many customers want to sell the herbs on without advancing their own skill. They can get particularly high prices selling those grimy herbs that only the more accomplished herbalist can clean.
+        - (initial)
+      - [Choice]: Please explain your fee for decanting potions.
+        - **Player:** Please explain your fee for decanting potions.
+        - **Zahur:** If I change your 4-dose potions into 3-dose or 2-dose potions, you may need more vials to hold the same number of doses. I charge 2 coins for normal vials, 2 coins for juju vials and 2 coins for each powerburst vial.
+        - **Zahur:** If I don't need to supply any extra vials, it works out completely free!
+        - (initial)
+  - [Choice]: Talk about tasks.
+    - (Condition: If the Medium desert achievements have been completed and the rewards not claimed:)
+      - **Player:** I've completed all of the Medium Tasks in the Desert set.
+      - **Zahur:** So you have. I have a special amulet kept aside for you.
+      - [Zahur hands you a beautifully crafted amulet and a lamp.]
+      - **Zahur:** There you go. Goes beautifully with your eyes and - even better - it will be sure to charm the Weird Old Man near the Kalphite Lair, who may have something useful for you.
+      - **Zahur:** While you wear it, it will also allow you to balance better on that terribly unstable pyramid and allow you to teleport here.
+      - **Zahur:** Oh, and it's crafted in such a way as to focus the sunlight, so...you can use the desert sand to create molten glass, if you have the soda ash with you.
+      - **Player:** Thanks!
+      - (continue)
+    - (Condition: If the player has lost their desert amulet 2:)
+      - **Zahur:** Ah, the amulet wearer! How are you finding it?
+      - **Player:** I lost it.
+      - **Zahur:** Oh, no!
+      - **Zahur:** Never mind, I have another. Here...
+      - (receives=desert amulet 2)
+      - [Zahur hands you an amulet.]
+      - (continue)
+    - '''Choose an option:
+      - [Choice]: Tell me about the Achievement System.
+        - **Zahur:** Very well: the Achievement System is a collection of deeds you may wish to complete while adventuring around the world.
+        - **Zahur:** You can earn special rewards for completing certain achievements; at the very least, each is worth a cash bounty from Explorer Jack in Lumbridge.
+        - **Zahur:** Some also give items that will help complete other achievements, and many count as progress towards the set for the area they're in.
+        - '''Choose an option:
+          - [Choice]: Tell me about the set reward for this locality.
+            - **Zahur:** For completing the Desert set, you are presented with an amulet.
+            - **Zahur:** This amulet will become increasingly useful as you complete greater difficulty levels.
+            - **Zahur:** When you are presented with your rewards, you will be told of their uses.
+            - You may also see what rewards a set item provides by hovering over the Rewards icon for its Exploration Achievement set in the Achievements interface.
+            - (previous2)
+          - [Choice]: How do I claim these rewards?
+            - **Zahur:** You need to complete all Tasks within a particular difficulty set; then you can claim your reward.
+            - **Zahur:** Some of the Desert Tasks are simple, some require certain skill levels, and others require quests to be started or completed.
+            - **Zahur:** To claim your Desert set rewards, speak to Hassan in Al Kharid Palace, Ali the Mayor in Pollnivneach, the Golem in Uzer, or myself.
+            - (previous2)
+          - [Choice]: Sorry, I was just leaving.
+            - (end)
+      - [Choice]: Could I buy a spare of the reward?
+        - [Menu]: Choose an option:
+          - [Choice]: Desert amulet 1
+            - **Zahur:** Desert amulet 1? Yes, but I'm afraid it would cost you 1,500 coins.
+            - [Menu]: Purchase another for 1,500 coins?
+              - [Choice]: Yes
+                - (receives=Desert amulet 1) (removes= 1,500 coins)
+                - [You're handed another Desert amulet 1.]
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Desert amulet 2
+            - **Zahur:** Desert amulet 2? Yes, but I'm afraid it would cost you 7,500 coins.
+            - [Menu]: Purchase another for 7,500 coins?
+              - [Choice]: Yes
+                - (receives=Desert amulet 2) (removes= 7,500 coins)
+                - [You're handed another Desert amulet 2.]
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Desert amulet 3
+            - **Zahur:** Desert amulet 3? Yes, but I'm afraid it would cost you 25,000 coins.
+            - [Menu]: Purchase another for 25,000 coins?
+              - [Choice]: Yes
+                - (receives=Desert amulet 3) (removes= 25,000 coins)
+                - [You're handed another Desert amulet 3.]
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Desert amulet 4
+            - **Zahur:** Desert amulet 4? Yes, but I'm afraid it would cost you 50,000 coins.
+            - [Menu]: Purchase another for 50,000 coins?
+              - [Choice]: Yes
+                - (receives=Desert amulet 4) (removes= 50,000 coins)
+                - [You're handed another Desert amulet 4.]
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Sorry, I was just leaving.
+            - (end)
+      - [Choice]: Sorry, I was just leaving.
+        - (end)
+  - [Choice]: Can you convert my flasks into normal vials for me?
+    - (Condition: If the player is not carrying any decantable flasks:)
+      - **Zahur:** Sorry, you don't seem to have anything I can use. Make sure you have at least 1 flask!
+    - (Condition: If the player is carrying any decantable flasks:)
+      - **Zahur:** Certainly. I think I can make use of the flasks, so I'll give you the vials for free.
+      - [Menu]: Convert the flasks, and I will keep any empty flasks?
+        - [Choice]: Yes
+          - **Zahur:** There you go, that's the best I can do!
+        - [Choice]: No
+          - (end)
+        - [Choice]: Yes, and don't ask again.
+          - **Zahur:** There you go, that's the best I can do!

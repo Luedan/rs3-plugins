@@ -1,0 +1,131 @@
+# Dunstan
+
+- **Original Wiki Page**: [Transcript:Dunstan](https://runescape.wiki/w/Transcript%3ADunstan)
+- **Letter**: `D`
+
+---
+
+## Dialogue Transcript
+
+
+### Before Death Plateau
+
+- **Player:** Hi!
+- **Dunstan:** Hi! Did you want something?
+- [Menu]: Choose an option:
+  - [Choice]: Is it Okay{{Sic if I use your anvil?}} {{anchor|anvil}}
+    - **Dunstan:** So you're a smith are you?
+    - **Player:** I dabble.
+    - **Dunstan:** A fellow smith is welcome to use my anvil!
+    - **Player:** Thanks!
+  - [Choice]: Can you repair my items for me?
+    - **Dunstan:** Of course I can, though the materials may cost you. Just hand me what you've got and I'll have a look.
+  - [Choice]: Nothing, thanks. {{anchor|laterthen}}
+    - **Dunstan:** All right. Speak to you later then.
+
+### After Death Plateau
+
+- **Player:** Hi!
+- (Condition: Before Troll Romance:)
+  - **Dunstan:** Hi! What can I do for you?
+  - (continue)
+- (Condition: After Troll Romance:)
+  - **Dunstan:** Well, if it isn't our very own sledder! What can I do for you today?
+  - (continue)
+- [Menu]: Select an option
+  - [Choice]: Can you put some spikes on my Climbing boots? {{anchor|spikes}}
+    - **Dunstan:** For you, no problem. You do realise you can only use the climbing boots right now? The spiked boots can only be used in the Icelands but no-one's been able to get there for years!
+      - [Choice]: Yes, but I still want them.
+        - (Condition: If the player does not have an iron bar with you:)
+          - **Dunstan:** Sorry, I'll need an iron bar to make the spikes.
+          - (continue)
+        - (Condition: If the player has an iron bar but not the climbing boots:)
+          - **Player:** I don't have them on me.
+          - (continue)
+        - (Condition: If the player has both an iron bar and the climbing boots:)
+          - (removes=iron bar and climbing boots) (receives=spiked boots)
+          - You give Dunstan an iron bar and the climbing boots.
+          - [Dunstan has given you the spiked boots.]
+          - (continue)
+        - {{anchor|anythingelse}}**Dunstan:** Anything else before I get on with my work?
+        - [Menu]: Select an option
+          - [Choice]: Can you put some spikes on my climbing boots?
+            - (above|spikes)
+          - [Choice]: Is it okay if I use your anvil?
+            - (above|anvil)
+          - [Choice]: Nothing, thanks.
+            - (above|laterthen)
+      - [Choice]: Oh okay, I'll leave them thanks.
+        - **Dunstan:** Anything else before I get on with my work?
+        - (continuea|anythingelse)
+  - [Choice]: Can you make me another sled?
+    - **Player:** Can you make me another sled?
+    - **Dunstan:** Yeah sure, have you got the maple or yew logs, an iron bar and some rope?
+    - (Condition: If the player does not have all the materials:)
+      - **Player:** No, I haven't got everything yet.
+      - **Dunstan:** Well, unfortunately I can't make the sled without all the materials.
+    - (Condition: If the player has all the materials:)
+      - **Player:** Yes, I have all the materials for the sled.
+      - (removes=maple logs, iron bar and rope) (receives=sled)
+      - [Dunstan takes the materials and some of his tools and starts making a sled. After a while Dunstan hands you a finished sled.]
+      - **Dunstan:** Well, here's the sled but it will need to be waxed. The wax will need to both protect the sled as well as smoothen it. Maybe if you mix some wax with a bit of swamp tar it will achieve the desired effect. You'll also need something to store the wax in...like a cake tin.
+      - (removes=rope, maple log and iron bar)
+      - (receives=sled)
+      - [Menu]: Select an option
+        - [Choice]: Where can I get wax from?
+          - (below)
+        - [Choice]:  Where can I get swamp tar from?
+          - (below)
+        - [Choice]: What else do I need?
+          - (below)
+  - [Choice]: What do I need for the sled wax again?
+    - **Player:** What do I need for the sled wax again?
+    - **Dunstan:** You will need some wax and some swamp tar.
+    - [Menu]: Select an option
+      - [Choice]: Where can I get wax from?
+        - **Player:** Where can I get wax from?
+        - **Dunstan:** I don't know. I'm a smith! But maybe you should look for some bees.
+        - [Menu]: Select an option
+          - [Choice]:  Where can I get swamp tar from?
+            - (below)
+          - [Choice]: What else do I need?
+            - (below)
+          - [Choice]: See you!
+            - **Player:** See you!
+            - **Dunstan:** Thank you, come again.
+      - [Choice]: Where can I get swamp tar from?
+        - **Player:**Where can I get swamp tar from?
+        - **Dunstan:** The swamp of course! It's south of Lumbridge.
+        - [Menu]: Select an option
+          - [Choice]: Where can I get wax from?
+            - (above)
+          - [Choice]: What else do I need?
+            - (below)
+          - [Choice]: See you!
+            - (above)
+      - [Choice]: What else do I need?
+        - **Player:** What else do I need?
+        - **Dunstan:** You will also need a cake tin to store the wax in.
+        - [Menu]: Select an option
+          - [Choice]: Where can I get wax from?
+            - (above)
+          - [Choice]: Where can I get swamp tar from?
+            - (above)
+          - [Choice]: See you!
+            - (above)
+  - [Choice]: How is your son getting on?
+    - (Condition: Before Troll Stronghold:)
+      - **Dunstan:** He was captured by those cursed trolls! I don't know what to do. Even the imperial guard are too afraid to go rescue him.
+      - **Player:** What happened?
+      - **Dunstan:** Talk to Denulth, he can tell you all about it.
+      - **Dunstan:** Anything else before I get on with my work?
+      - (continuea|anythingelse)
+    - (Condition: After Troll Stronghold:)
+      - **Dunstan:** He is getting on fine! He has just been promoted to Sergeant! I'm really proud of him!
+      - **Player:** I'm happy for you!
+      - **Dunstan:** Anything else before I get on with my work?
+      - (continuea|anythingelse)
+  - [Choice]: Is it OK if I use your anvil?
+    - (above|anvil)
+  - [Choice]: Nothing, thanks.
+    - (above|laterthen)

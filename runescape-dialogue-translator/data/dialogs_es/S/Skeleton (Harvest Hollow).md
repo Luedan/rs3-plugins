@@ -1,0 +1,40 @@
+# Skeleton (Harvest Hollow)
+
+- **Original Wiki Page**: [Transcript:Skeleton (Harvest Hollow)](https://runescape.wiki/w/Transcript%3ASkeleton%20%28Harvest%20Hollow%29)
+- **Letter**: `S`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Spook (melee)
+
+
+#### Sin garrote de huesos
+
+- No tienes una herramienta aterradora para asustar a este enemigo.
+- (ventana emergente)
+  - (Ventana emergente: No tienes una herramienta aterradora para asustar a este enemigo.|advertencia=yes)
+
+#### Con un garrote de hueso
+
+- (Action: El esqueleto desaparece.)
+- (Condition: Si la maza de hueso se rompe:)
+  - (removes=bone club)
+  - Tu garrote de huesos se rompe.
+
+### Spook (ranged)
+
+
+#### Sin dardo de hueso de piedra lunar
+
+- No tienes una herramienta aterradora para asustar a este enemigo.
+- (ventana emergente)
+  - (Ventana emergente: No tienes una herramienta aterradora para asustar a este enemigo.|advertencia=yes)
+
+#### Con un dardo de hueso de piedra lunar.
+
+- (removes=moonstone bone dart)
+- (Action: El esqueleto desaparece.)

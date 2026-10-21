@@ -1,0 +1,129 @@
+# Yadech Strongarm
+
+- **Original Wiki Page**: [Transcript:Yadech Strongarm](https://runescape.wiki/w/Transcript%3AYadech%20Strongarm)
+- **Letter**: `Y`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### In the Warriors' Guild
+
+- (Condition: Antes de lanzar un lanzamiento de peso:)
+  - **Yadech Strongarm:** Te ves fuerte. Bienvenido al área de pruebas Strength del Warriors' Guild. Soy Yadech. Estoy cuidando esta área ahora que Sloane ha ido al Salón de los Guerreros a beber por la eternidad.
+  - (continue)
+- (Condition: Después de lanzar un lanzamiento de peso:)
+  - **Yadech Strongarm:** Ahhh, hola, Player.
+  - (continue)
+- (Condition: Si el player tiene 99 Strength:)
+  - **Yadech Strongarm:** ¡Ah, pero puedo ver que ya eres lo más fuerte posible! ¿Quizás has venido a mí para comprar un Skillcape o un Strength y así unirte a la élite que domina esta exigente habilidad?
+  - (continue)
+- [Menu]: Selecciona una opción
+  - [Choice]: cond=Without 99 Strength:|¿Puedes contarme un poco sobre skillcapes?
+    - **Player:** ¿Puedes contarme un poco sobre skillcapes?
+    - **Yadech Strongarm:** Claro. Puedes comprar un skillcape cuando alcances el nivel 99 en una habilidad. Además de mejorar tus estadísticas en esa habilidad, ¡también pueden usarse para realizar algunos gestos increíbles! ¿Hay algo más que te gustaría saber?
+    - (initial|strong)
+  - [Choice]: cond=With 99 Strength:|¿Puedo comprar un Skillcape de Strength, por favor?
+    - (Condition: Si el player tiene un ring of charos (a) equipado:)
+      - **Yadech Strongarm:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins por este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
+      - [Menu]: Elige una opción:
+        - [Choice]: ¿92.000 coins? Eso es demasiado caro.
+          - **Player:** Sé dónde encontrarte si cambio de opinión.
+        - [Choice]: De hecho, creo que tengo el dinero aquí.
+          - (Condition: Si el player no tiene espacio backpack:)
+            - **Yadech Strongarm:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar algo de espacio en backpack antes de que pueda venderte uno.
+          - (Condition: Si el player no tiene suficiente dinero:)
+            - **Player:** Pero desafortunadamente me equivoqué.
+            - **Yadech Strongarm:** Bueno, vuelve a verme cuando lo hagas.
+          - (Condition: Si el player tiene suficiente dinero:)
+            - (receives=Strength cape and Strength hood) (removes=92,000 coins)
+            - **Yadech Strongarm:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+    - (Condition: Si el player no tiene un ring of charos(a) equipado:)
+      - **Yadech Strongarm:** Hmm, sí, ciertamente te ves lo suficientemente fuerte. Serán 99.000 gold coins, por favor.
+      - [Menu]: Elige una opción:
+        - [Choice]: ¿99.000 coins? Eso es demasiado caro.
+          - **Player:** Sé dónde encontrarte si cambio de opinión.
+        - [Choice]: De hecho, creo que tengo el dinero aquí.
+          - (Condition: Si el player no tiene espacio backpack:)
+            - (arriba)
+          - (Condition: Si el player no tiene suficiente dinero:)
+            - (arriba)
+          - (Condition: Si el player tiene suficiente dinero:)
+            - (receives=Strength cape and Strength hood) (removes=99,000 coins)
+            - **Yadech Strongarm:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+        - [Choice]: cond=With 120 Strength:|He dominado esta habilidad. ¿Hay algo más?
+        - **Yadech Strongarm:** Hay algo... aunque lo he mantenido en secreto durante mucho tiempo. Es algo que sólo puede ser usado por un verdadero maestro.
+        - **Yadech Strongarm:** Ni siquiera yo puedo usarlo, así de difícil es lograrlo.
+        - **Yadech Strongarm:** Dices que eres un maestro. Ponte derecho, déjame echarte un vistazo...
+        - **Yadech Strongarm:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Strength master cape.
+        - [Menu]: ¿Comprar Strength master cape por 120.000 coins?
+          - [Choice]: Sí.
+            - (Condition: Sin espacio libre backpack:)
+              - **Yadech Strongarm:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
+            - (Condition: Con espacio gratuito backpack:)
+              - (Condition: Sin 120.000 coins:)
+                - No tienes suficiente dinero para comprar esta capa.
+                - (ventana emergente)
+                  - (Ventana emergente: No tienes suficiente dinero para comprar esta capa).
+              - (Condition: Con 120.000 coins:)
+                - (removes=120,000 coins) (receives=Strength master cape)
+                - (Action: Suena música Master cape.)
+          - [Choice]: No.
+            - (end)
+  - [Choice]: He notado que hay un par de versiones de cada skillcape.
+    - **Yadech Strongarm:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
+    - (Condition: Si usas el modelo antiguo:)
+      - **Yadech Strongarm:** Parece que actualmente estás usando el modelo anterior para tu Strength skillcape. ¿Quieres cambiar a uno más nuevo?
+      - (continue)
+    - (Condition: Si utiliza el nuevo modelo:)
+      - **Yadech Strongarm:** Aún puedes elegir usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
+      - (continue)
+    - [Menu]: Selecciona una opción
+      - [Choice]: Sí, me gustaría usar la versión [new/old] del skillcape.
+        - **Yadech Strongarm:** ¿Te gustaría usar el modelo [old/newer] solo para esta capa, o para el Quest Cape y todos los skillcapes que tienes?
+        - [Menu]: Selecciona una opción
+          - [Choice]: Solo me gustaría cambiar el Strength skillcape.
+            - **Yadech Strongarm:** No hay problema, ahora utilizarás el modelo [older/newer] para tu Strength skillcape.
+          - [Choice]: Me gustaría cambiar todos mis skillcapes.
+            - **Yadech Strongarm:** ¡No hay problema, ahora usarás el modelo [older/newer] para todos tus skillcapes!
+          - [Choice]: ¡He cambiado de opinión!
+            - (end)
+      - [Choice]: No, gracias.
+        - **Yadech Strongarm:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
+        - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+          - **Yadech Strongarm:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
+          - [Menu]: Selecciona una opción
+            - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.
+              - **Yadech Strongarm:** ¡Genial, ahora usarás el modelo antiguo para todos tus skillcapes!
+            - [Choice]: No, gracias.
+              - (end)
+  - [Choice]: ¿Qué puedo hacer aquí?
+    - **Player:** ¿Qué puedo hacer aquí?
+    - **Yadech Strongarm:** Ahh, el lanzamiento de peso es una gran prueba de fuerza y ​​puede ser bastante gratificante. Eso sí, asegúrate de hacerlo correctamente; es posible que primero quieras espolvorearte las manos con alguna sustancia en polvo. Le dará un mejor agarre.
+    - **Player:** Lo recordaré. ¿Qué debo usar?
+    - **Yadech Strongarm:** Personalmente prefiero las cenizas molidas, produce un polvo fino y agradable y proporciona un agarre realmente bueno.
+    - **Player:** Vale, ¿qué más?
+    - **Yadech Strongarm:** Básicamente tendrás que entrar allí, asegurarte de no tener nada en tus manos, tomar un tiro y lanzarlo. Dependiendo de tu técnica, puedes realizar lanzamientos bastante largos.
+    - **Player:** ¿Cuál fue tu mejor?
+    - **Yadech Strongarm:** Ahh, eso sería revelador.
+    - (initial|strong)
+  - [Choice]: ¿Por qué empuñas una rama de árbol?
+    - **Player:** ¿Por qué empuñas la rama de un árbol?
+    - **Yadech Strongarm:** Bueno... hay una historia en eso. Verás, debería tener un hacha, pero...
+    - **Player:** ¿El hacha de Sloane?
+    - **Yadech Strongarm:** Mi hacha. Lo ganó gracias a una ardilla.
+    - **Player:** ¿Una ardilla?
+    - **Yadech Strongarm:** Me apostó a que no podría atrapar a la ardilla mientras todavía sostenía mi hacha, pero que él sí... ¡pero me engañó!
+    - **Player:** Ahh, sí, Sloane me contó esa historia antes... cómo intentaste perseguir a la ardilla hasta el árbol con tu hacha, pero él simplemente cortó el árbol con tu hacha y ganó.
+    - **Yadech Strongarm:** Sí, así es.
+    - **Player:** Sin embargo, eso no explica por qué tienes una rama de árbol.
+    - **Yadech Strongarm:** Un guerrero bárbaro está atado a su hacha, no puedo tomar otra a menos que mi hacha esté arruinada sin posibilidad de reparación. Así que usé parte del árbol que Sloane cortó como arma... también me recuerda a él.
+    - **Player:** Era un gran guerrero.
+    - **Yadech Strongarm:** Pero él querría que estemos felices de estar ahora con sus hermanos guerreros. ¿Puedo ayudarte con algo más?
+    - (initial|strong)
+  - [Choice]: ¡Adiós!
+    - **Player:** ¡Adiós!
+    - **Yadech Strongarm:** Que estés bien, guerrero Player.
+    - (Action: Yadech hace el gesto de Arco.)

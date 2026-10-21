@@ -1,0 +1,168 @@
+# Hunting expert (Rellekka Hunter area)
+
+- **Original Wiki Page**: [Transcript:Hunting expert (Rellekka Hunter area)](https://runescape.wiki/w/Transcript%3AHunting%20expert%20%28Rellekka%20Hunter%20area%29)
+- **Letter**: `H`
+
+---
+
+## Dialogue Transcript
+
+
+### At the Rellekka Hunter area
+
+- **Hunting expert:** Ah, this is a wonderful area for a spot of hunting, don't you think?
+- [Menu]: Choose an option:
+  - [Choice]: I don't know, is it?
+    - **Player:** I don't know, is it?
+    - **Hunting expert:** Oh, absolutely! There's a huge variety of creatures to catch around here. You've got butterflies, polar kebbits, sabre-toothed kebbits, birds, skillchompas, and even kyatts! Surely one of those piques your interest.
+    - [Menu]: Select an Option
+      - [Choice]: Where would I find polar kebbits?
+        - **Player:** Where would I find polar kebbits?
+        - **Hunting expert:** Funnily enough, you've just put your finger on the problem. With polar kebbits, finding them is the hardest part! You'll have to track them down.
+        - **Player:** How would I go about doing them, then?
+        - **Hunting expert:** The easiest way to get started is by looking somewhere you can be sure a kebbit will have been and then working from there. You see the holes around here leading down into the ice? They're kebbit burrows!
+        - **Hunting expert:** You'll be hard pressed to find a polar kebbit in its home, but if you search around the entrance to a burrow then you might be able to find a trail.
+        - **Hunting expert:** Now, kebbit trails are usually fairly easy to follow once you've found them, but if the trail does peter out, you should try inspecting the surrounding scenery for clues as to where the creature may have gone.
+        - **Hunting expert:** Good places to look for clues include hollow logs in which the kebbit may have hidden or vegetation which may have been chewed or damaged.
+        - **Hunting expert:** There are also tunnels running through the ice that the kebbits use, so you should check those out as well.
+        - **Hunting expert:** What's more, these tunnels can often help to shelter a trail from further snow, making it even easier for you to pick them up again.
+        - **Hunting expert:** Eventually, of course, the kebbit will have probably hidden somewhere. Polar kebbits don't hang about in the open for too long for fear of their natural predators.
+        - **Hunting expert:** If you suspect a kebbit is close by, try looking around for signs of disturbed snow. Polar kebbits will often bury themselves in snow drifts as a means of hiding.
+        - **Hunting expert:** If you think you've found a kebbit, use a noose wand to haul the creature out from the snow.
+        - **Player:** Wow, that's quite a lot to remember.
+        - **Hunting expert:** Don't worry, if you find yourself struggling to follow a trail, just come and ask me and I'll see if I can help.
+        - **Hunting expert:** But remember, the best place to start is by searching around their burrows.
+        - **Player:** Great, thanks.
+      - [Choice]: How do you hunt birds?
+        - **Player:** How do you hunt birds?
+        - **Hunting expert:** Ah, you can get cunning little bird snares for just that. You should be able to find them in specialist Hunter shops. Try to lay them in fairly open areas with lots of birds.
+        - **Player:** Do I need to place any bait on these traps?
+        - **Hunting expert:**No, that’s not necessary. The idea is that the bird will see the trap as somewhere to perch. If the bird lands on the trigger stick, it should drop away and a small loop of wire should close around the bird’s feet.
+        - **Hunting expert:**And remember, it’s important to collect any captures from your traps fairly quickly, otherwise, you risk losing them to various wild scavengers.
+        - [Menu]: Select an Option
+          - [Choice]: I’d like to ask about another creature.
+            - (previous)
+          - [Choice]: How can I improve my chances of capturing a creature?
+            - **Player:** How can I improve my chances of capturing a creature?
+            - **Hunting expert:** Ah, the key there is concealment, both of yourself and your traps.
+            - **Hunting expert:** The most obvious point is to stay out of sight of your own traps. If possible, hide around a wall, hedge or similar. Failing that, make sure you’re a good few feet away from your trap.
+            - **Hunting expert:** You can hide yourself even better by wearing clothing appropriate to the area in which you are hunting.
+            - **Hunting expert:** Your best bet is to use the skins of creatures native to the area. There is a very good tailor in east Varrock who may be able to help you in making clothing out of such skins.
+            - **Hunting expert:** Finally, a lot of creatures may avoid your traps if they can smell a human scent on them.This is where smoking a trap may be useful.
+            - **Hunting expert:** It takes a bit of practice, but by using the smoke from a torch, you can mask any other scents that may surround a trap.
+            - **Player:** Wow, thanks for your help.
+          - [Choice]: Thanks for your help.
+            - **Player:** Thanks for your help.
+      - [Choice]: What's so special about butterflies?
+        - **Player:** What's so special about butterflies?
+        - **Hunting expert:** That depends entirely on the butterfly.
+        - **Hunting expert:** I’ll admit that the activities of many butterflies may be of no interest at all. However, we are lucky around here in having some fine examples of thaumic butterflies.
+        - **Hunting expert:** These butterflies reputedly have magical powers that, when released, can make a person stronger or heal otherwise critical wounds.
+        - **Hunting expert:** At this point, I should offer a word of caution: it is also said that these powers will not manifest themselves if the butterflies are captured for selfish purposes.
+        - **Hunting expert:** Rather, they are gifts that must be used by one person to aid another. Of course, you’ll have to catch them first.
+        - **Player:** And how do I do that?
+        - **Hunting expert:** Why, with a butterfly net of course! You should also carry some empty butterfly jars with you in which to keep the butterflies.
+        - [Menu]: Select an Option
+          - [Choice]: I’d like to ask about another creature.
+            - (above)
+          - [Choice]: How can I improve my chances of capturing a creature?
+            - (above|improve)
+          - [Choice]: Thanks for your help.
+            - (above)
+      - [Choice]: How can I capture a sabre-toothed kebbit?
+        - **Player:** How can I capture a sabre-toothed kebbit?
+        - **Hunting expert:** Ah, now for these creatures I would recommend using a deadfall trap. Deadfalls are quite easy to set up,and yet you can catch some very reasonably sized creatures with them.
+        - **Hunting expert:**Deadfall traps basically work by having a large dead weight, such as a boulder, positioned so as to be delicately balanced above some form of bait.
+        - **Hunting expert:**You will need to make sure you have a knife and some wood with you to create appropriate supports and a trigger for this sort trap.
+        - **Hunting expert:**In the case of sabre-toothed kebbits you should use some form of raw meat to bait your trap, but other animals may prefer other baits, such as fish or vegetables.
+        - [Menu]: Select an Option
+          - [Choice]: I’d like to ask about another creature.
+            - (above)
+          - [Choice]: How can I improve my chances of capturing a creature?
+            - (above|improve)
+          - [Choice]: Thanks for your help.
+            - (above)
+      - [Choice]: More
+        - [Menu]: Select an Option
+          - [Choice]: What are skillchompas?
+            - **Player:** What are skillchompas?
+            - **Hunting expert:** Good question. They seem to be a sort of mutated chinchompa, except instead of getting very excited and exploding in combat situations, they've taken a liking to a variety of natural resources.
+            - **Player:** What sorts of things do they go for then?
+            - **Hunting expert:** Well, they've clearly been watching humans who have been training their skills and abilities. They seem to get very excited around the divination energy, fishing spots, mining rocks and even trees!
+            - **Player:** How would I hunt them then?
+            - **Hunting expert:** They're very similar to chinchompas, so you'll need some box traps. If you really want to attract them you can use some bait as well. Spicy food seems to do the trick.
+            - [Menu]: Select an Option
+              - [Choice]: I’d like to ask about another creature.
+                - (above)
+              - [Choice]: How can I improve my chances of capturing a creature?
+                - (above|improve)
+              - [Choice]: Thanks for your help.
+                - (above)
+          - [Choice]: Oooh, kyatts sound interesting.
+            - **Player:** Oooh, kyatts sound interesting. I want to catch one of those.
+            - **Hunting expert:** Well, you've set your sights high, kyatts are incredibly fearsome creatures, but with determination like that I'm sure you'll make it.
+            - **Hunting expert:** Now, you're not going to be able to catch a kyatt with just a small box or a noose or a stick. You need a much bigger trap.
+            - **Hunting expert:** Pit traps are a good bet. You'd be best off finding a natural dip in the ground as the basis for your trap. If you dig a pit yourself, you risk creatures noticing the disturbed ground nearby.
+            - **Hunting expert:** Once you've found an appropriate spot, you'll need some logs and a knife. The logs serve two purposes.
+            - **Hunting expert:** Some can be carved into sharp skewers for the bottom of the pit; hopefully the kyatt will die when it falls onto these. Others can be used to conceal the trap.
+            - **Hunting expert:** Of course, even then the pit is going to look suspicious, so you're going to need to lure the kyatt onto the branches in some way. What actually tends to work best is, well, yourself!
+            - **Player:** What? I don't like the sound of that.
+            - **Hunting expert:** Yes, that's the normal response, but I kid you not. If you really want a kyatt to follow you over that pit then just give it a good poke!
+            - **Hunting expert:** Of course, I suggest you use something long to poke it with. Poking a kyatt with your finger is likely to end in permanent limb loss.
+            - **Hunting expert:** Fortunately, you can get very good sticks for poking from most Hunter shops.
+            - **Hunting expert:** Once you have...got the creature's attention, try to lead it to one of your traps. Make sure to jump the branches when you reach the trap yourself, of course; it would be embarrassing to fall into your own trap.
+            - **Hunting expert:** Then, if the kyatt is giving you all of its attention, hopefully it won't notice the trap, and with any luck, it will stumble right into the pit.
+            - **Player:** That sounds a bit hit or miss, and kind of suicidal too!
+            - **Hunting expert:** Well that's what makes it exciting, isn't it? But honestly, if you want to capture a kyatt, that's your best bet.
+            - [Menu]: Select an Option
+              - [Choice]: I’d like to ask about another creature.
+                - (above)
+              - [Choice]: How can I improve my chances of capturing a creature?
+                - (above|improve)
+              - [Choice]: Thanks for your help.
+                - (above)
+          - [Choice]: Back
+            - (previous)
+  - [Choice]: Can you teach me out to hunt?
+    - **Player:** Can you teach me out to hunt?
+    - **Hunting expert:** Why certainly. I reached the peak of my abilities some time ago, but I'm more than happy to help newcomers to the field. Was there anything in particular you had in mind?
+    - [Menu]: Select an Option
+      - [Choice]: Where is the best place to start?
+        - **Player:** Where is the best place to start?
+        - **Hunting expert:** I always say a good starting point is to learn how to follow the creatures you want to capture. Around here, that means practicing on polar kebbits.
+        - **Player:** So how do I track them down, then?
+        - (continuea|polarkebbit)
+      - [Choice]: What sort of creatures are there to hunt around here?
+        - **Player:** What sort of creatures are there to hunt around here?
+        - **Hunting expert:** Well, there's pretty much anything you could want to hunt. You've got butterflies, polar kebbits, sabre-toothed kebbits, birds, skillchompas, and even kyatts! Surely one of those interests you.
+        - (continuea|variety)
+      - [Choice]: Do you have anything for sale?
+        - **Player:** Do you have anything for sale?
+        - **Hunting expert:** I reckon I've got some hunting gear knocking around that you might be interested in.
+        - (opens=Hunting Supplies (Rellekka Hunter area))
+      - [Choice]: How can I improve my chances of capturing a creature?
+        - (above|improve)
+  - [Choice]: Sorry, I'm not that keen on hunting.
+    - **Player:** Sorry, I'm not that keen on hunting.
+    - **Hunting expert:** What a shame, you looked like someone who could have had some promise.
+
+#### When attempting to climb-down the cave entrance without the warning disabled
+
+- **Hunting expert:** Stop! It's dangerous down there. I keep seeing adventurers going down there and never coming back.
+- [Menu]: Select an Option
+  - [Choice]: Don't tell me again, please.
+    - **Player:** It's fine, I've already been in there and killed the big yeti. Can you stop warning me about it please?
+    - **Hunting expert:** If you're sure.
+    - [Menu]: Select an Option
+      - [Choice]: Yes, I'm sure.
+        - **Player:** Yes, I'm sure.
+        - **Hunting expert:** Right you are. I won't warn you again.
+      - [Choice]: No, best not.
+        - **Player:** No, best not.
+  - [Choice]: Thanks, I'll bear that in mind.
+    - **Player:** Thanks, I'll bear that in mind.
+    - [Menu]: Do you want to go into the dangerous cave?
+      - [Choice]: Yes.
+        - {{Qact|The player enters the icy cave.}}
+      - [Choice]: No.
+        - (end)

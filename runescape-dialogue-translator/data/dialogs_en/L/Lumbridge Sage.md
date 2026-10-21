@@ -1,0 +1,365 @@
+# Lumbridge Sage
+
+- **Original Wiki Page**: [Transcript:Lumbridge Sage](https://runescape.wiki/w/Transcript%3ALumbridge%20Sage)
+- **Letter**: `L`
+
+---
+
+## Dialogue Transcript
+
+
+### In Lumbridge
+
+- **Lumbridge Sage:** Greetings, adventurer. <br>How may I help you?
+- (Condition: If this is the first time speaking to him:)
+  - {{RSFontAchievement|Sage Advice}}
+  - (continue)
+- [Menu]: Select an Option
+  - [Choice]: Where can I find a quest?
+    - [Your minimap has various icons showing the location of points of interest. Look for the icon on the left to find quest start points.]
+    - **Lumbridge Sage:** What kind of quest do you seek?
+    - [Menu]: What kind of quest?
+      - [Choice]: I fancy a bit of a fight. Anything dangerous?
+        - **Lumbridge Sage:** Hmm...dangerous, you say? What sort of creatures are you looking to fight?
+        - [Menu]: Fight what?
+          - [Choice]: A dragon!
+            - **Lumbridge Sage:** You would slay a dragon? You bear the courage of a true hero!
+            - **Lumbridge Sage:** Seek out the guildmaster of the champions' guild south of Varrock. But only an adventurer who has proven their worth by completing many quests can enter.
+            - (Condition: Before Dragon Slayer:)
+              - **Player:** Then I shall grow my influence by completing many a quest. I shall be a dragon slayer!
+              - (previous|fight)
+            - (Condition: After Dragon Slayer:)
+              - **Player:** I travelled to Crandor and slew the dread dragon Elvarg!
+              - **Lumbridge Sage:** Congratulations, champion!
+              - (previous|fight)
+          - [Choice]: Big scary demons!
+            - **Lumbridge Sage:** You are a brave soul, indeed.
+            - **Lumbridge Sage:** Now that you mention it, I heard a rumour about a Saradominist in the Varrock church rambling about some kind of great evil. Sounds demon-like, if you ask me.
+            - **Lumbridge Sage:** Perhaps you could check it out if you are as brave as you say?
+            - (Condition: Before Demon Slayer:)
+              - **Player:** Thanks for the tip. Perhaps I will.
+              - (previous|fight)
+            - (Condition: After Demon Slayer:)
+              - **Player:** I've already killed the demon Delrith. He was merely a stain on my sword when I finished with him!
+              - **Lumbridge Sage:** Well done! However I'm sure if you search around the world you will find more challenging foes to slay.
+              - (previous|fight)
+          - [Choice]: Vampyres!
+            - **Lumbridge Sage:** Ha ha. I personally don't believe in such things. However, there is a man in Draynor Village who has been scaring the village folk with stories of vampyres.
+            - **Lumbridge Sage:** He's named Morgan and can be found in one of the village houses. Perhaps you could see what the matter is?
+            - (Condition: Before Vampyre Slayer:)
+              - **Player:** Thanks for the tip.
+              - (previous|fight)
+            - (Condition: After Vampyre Slayer:)
+              - **Player:** Oh, I've already killed that nasty blood-sucking vampyre. Draynor will now be safe.
+              - **Lumbridge Sage:** Yeah, yeah, of course you did. Everyone knows vampyres are not real.
+              - **Lumbridge Sage:** You're not fooling anyone, you know.
+              - (previous|fight)
+          - [Choice]: Something small would be good.
+            - **Lumbridge Sage:** Small? Small isn't really that dangerous though, is it?
+            - **Player:** It could be anything from an evil chicken to a poisonous spider. They attack in numbers, you know!
+            - **Lumbridge Sage:** Point taken. Speaking of small monsters, I heard old Wizard Mizgog in the Wizards' Tower has just had his special beads taken by a gang of mischievous imps.
+            - **Lumbridge Sage:** Sounds like it could be a quest for you?
+            - (Condition: Before Imp Catcher:)
+              - **Player:** Thanks for your help.
+              - (previous|fight)
+            - (Condition: After Imp Catcher:)
+              - **Player:** Yes, I know of Mizgog and have already helped him with his imp problem.
+              - **Lumbridge Sage:** Imps will be imps!
+              - (previous|fight)
+          - [Choice]: Maybe another quest.
+            - (previous2|quest)
+      - [Choice]: Something easy, please. I'm new here.
+        - **Lumbridge Sage:** I can tell you about plenty of small, easy tasks.
+        - **Lumbridge Sage:** The Lumbridge cook has been having problems, Xenia is holding out for a hero in Lumbridge cemetery, and Father Aereck claims he's seen a ghost.
+        - [Menu]: Tell me about...
+          - [Choice]: The Lumbridge cook.
+            - **Lumbridge Sage:** It's funny, really. The cook would forget his head if it wasn't screwed on. This time he forgot to get ingredients for the Duke's birthday cake.
+            - **Lumbridge Sage:** Perhaps you could help him? You'll probably find him in the Lumbridge castle kitchen.
+            - (Condition: Before Cook's Assistant:)
+              - **Player:** Thank you, I shall go speak with him.
+              - (previous|small)
+            - (Condition: After Cook's Assistant:)
+              - **Player:** I have already helped the cook in Lumbridge.
+              - **Lumbridge Sage:** Oh, yes. So you have. I am sure the Duke will be pleased.
+              - (previous|small)
+          - [Choice]: Xenia.
+            - **Lumbridge Sage:** Xenia's a veteran adventurer who's in search of someone to accompany her into the depths of Lumbridge catacombs. Something about a kidnapping.
+            - (Condition: Before The Blood Pact:)
+              - **Player:** Sounds interesting. I may just do that. Thanks.
+              - (previous|small)
+            - (Condition: After The Blood Pact:)
+              - **Player:** Yes, I have already confronted the cultists and rescued Ilona.
+              - **Lumbridge Sage:** Ah, excellent. Thank you very much, adventurer.
+              - (previous|small)
+          - [Choice]: Father Aereck.
+            - **Lumbridge Sage:** Father Aereck's the local priest. You can find him in Lumbridge church, just north of the cemetery.
+            - (Condition: Before The Restless Ghost:)
+              - **Player:** I'll see if I can lay that ghost to rest.
+              - (previous|small)
+            - (Condition: After The Restless Ghost:)
+              - **Player:** I returned the ghost's skull. He's finally resting.
+              - **Lumbridge Sage:** Jolly good.
+              - (previous|small)
+          - [Choice]: Maybe another quest.
+            - (previous2|quest)
+      - [Choice]: Anything skill oriented?
+        - **Lumbridge Sage:** Skills play a big part when you want to progress in knowledge. I know of a few skill-related quests that can get you started.
+        - **Lumbridge Sage:** You could help out Fred the farmer who is in need of someone's crafting expertise.
+        - **Lumbridge Sage:** Or there's Doric the dwarf who needs help with his family business?
+        - [Menu]: Tell me about...
+          - [Choice]: Fred the farmer.
+            - **Lumbridge Sage:** You can find Fred's farm near the field of sheep north of Lumbridge market. Perhaps you should go and speak with him.
+            - (Condition: Before Sheep Shearer:)
+              - **Player:** Thanks. Maybe I will.
+              - (previous|skill)
+            - (Condition: After Sheep Shearer:)
+              - **Player:** I have already helped Fred the farmer. I sheared his sheep and made 20 balls of wool for him.
+              - **Player:** He wouldn't let me kill his chickens, though.
+              - **Lumbridge Sage:** Lumbridge chickens do make good target practice.
+              - **Lumbridge Sage:** You will have to wait until he isn't looking.
+              - (previous|skill)
+          - [Choice]: Doric the dwarf.
+            - **Lumbridge Sage:** Doric the dwarf is located north of Falador. He might be able to help you with something. You should speak to him. He may let you use his anvils.
+            - (Condition: Before What's Mine Is Yours:)
+              - **Player:** Thanks for the tip.
+              - (previous|skill)
+            - (Condition: After What's Mine Is Yours:)
+              - **Player:** Yes, I've been to see Doric already. I got to the bottom of an unscrupulous plot to undermine his metalworking business, resolved Doric's conflict with his son, and rekindled his client list.
+              - **Lumbridge Sage:** Oh, good. Thank you, Player!
+              - (previous|skill)
+          - [Choice]: Maybe another quest.
+            - (previous2|quest)
+      - [Choice]: I want to do all sorts of things. Do you know anything like that?
+        - **Lumbridge Sage:** Of course I do. Gielinor is a huge place, you know.
+        - **Lumbridge Sage:** Let me think...
+        - **Lumbridge Sage:** You could help out Ernest. He got lost in Draynor manor. Spooky place, that.
+        - **Lumbridge Sage:** Hetty the witch in Rimmington knows a little about magic.
+        - **Lumbridge Sage:** Also, pirates are currently docked in Port Sarim. Where there are pirates, treasure is never far away.
+        - [Menu]: Tell me about...
+          - [Choice]: Hetty the witch.
+            - **Lumbridge Sage:**  Hetty the witch can be found in Rimmington, south of Falador. She's currently working on some new potions. Perhaps you could lend her a hand?
+            - (Condition: Before Witch's Potion:)
+              - **Player:** Thanks. Let's hope she doesn't turn me into a potato or something.
+              - (previous|sorts)
+            - (Condition: After Witch's Potion:)
+              - **Player:** Yes, I have already been to see Hetty. She gave me super cosmic powers after I helped her out with her potion! I could probably destroy you with a single thought.
+              - **Lumbridge Sage:** Did she?
+              - **Player:** No, not really.
+              - **Lumbridge Sage:** Right...
+              - (previous|sorts)
+          - [Choice]: Ernest and Draynor Manor.
+            - **Lumbridge Sage:** The first place to start would be the gate to Draynor Manor. There you will find Veronica who will be able to tell you more.
+            - **Lumbridge Sage:** I suggest you tread carefully in that place; it's haunted.
+            - (Condition: Before Ernest the Chicken:)
+              - **Player:** A haunted manor? Sounds like fun.
+              - (previous|sorts)
+            - (Condition: After Ernest the Chicken:)
+              - **Player:** I already found Ernest. Professor Oddenstein turned him into a chicken!
+              - **Lumbridge Sage:** A chicken?
+              - **Player:** A chicken. <br>He ran afoul of weird science.
+              - (previous|sorts)
+          - [Choice]: Pirate's treasure.
+            - **Lumbridge Sage:** It's rumoured Redbread Frank in Port Sarim's bar, the Rusty Anchor, may know the location of buried treasure.
+            - (Condition: Before Pirate's Treasure:)
+              - **Player:** Sounds adventurous. I may have to check that out. Thank you.
+              - (previous|sorts)
+            - (Condition: After Pirate's Treasure:)
+              - **Player:** Yarr! I already found the booty!
+              - **Lumbridge Sage:** Yarr indeed my friend. A most excellent find.
+              - **Player:** Yarr!
+              - **Lumbridge Sage:** Yarrr!
+              - **Player:** YARRR!
+              - **Lumbridge Sage:** Right, that's enough of that!
+              - **Player:** ...Sorry.
+              - (previous|sorts)
+          - [Choice]: Maybe another quest.
+            - (previous2|quest)
+      - [Choice]: Maybe another time.
+        - (initial|start)
+  - [Choice]: What monsters should I fight?
+    - (Condition: Unknown parameter)
+      - **Lumbridge Sage:** There are things to kill all over the place! At your level, you might like to try wandering westwards to the Wizards' Tower or north-west to Gunnarsgrunn.
+      - [Non-player characters usually appear as yellow dots on your minimap, although there are some, such as the Lumbridge sage, that you won't be able to fight.]
+      - [If you explore further afield, you may be able to find areas that are less crowded, but watch out for monsters that are stronger than you.]
+      - [A monster's combat level is shown next to their 'Attack' option. If that level is coloured green, it means the monster is weaker than you. If it is red, it means that the monster is tougher than you.]
+      - **Lumbridge Sage:** Remember, you will do better if you have better armour and weapons and it's always worth carrying a bit of food to heal yourself.
+    - (Condition: Unknown parameter)
+      - **Lumbridge Sage:** You're strong enough to work out what monsters to fight for yourself.
+      - **Lumbridge Sage:** You'll find plenty of opponents back at War's Retreat.
+      - **Lumbridge Sage:** There are things to kill all over the place! At your level, you might like to try wandering westwards to the Wizards' Tower or north-west to Gunnarsgrunn.
+      - [Non-player characters usually appear as yellow dots on your minimap, although there are some, such as the Lumbridge sage, that you won't be able to fight.]
+      - [If you explore further afield, you may be able to find areas that are less crowded, but watch out for monsters that are stronger than you.]
+      - [A monster's combat level is shown next to their 'Attack' option. If that level is coloured green, it means the monster is weaker than you. If it is red, it means that the monster is tougher than you.]
+      - **Lumbridge Sage:** Remember, you will do better if you have better armour and weapons and it's always worth carrying a bit of food to heal yourself.
+    - [Menu]: Select an Option
+      - [Choice]: Where can I get food to heal myself?
+        - **Lumbridge Sage:** There are many different foods in the game such as cabbage, fish, meat and many more. Which do you wish to hear about?
+        - [Menu]: Select an Option
+          - [Choice]: How do I get cabbages?
+            - **Player:** How do I get cabbages?
+            - **Lumbridge Sage:** There is a field a little distance to the north of here packed full of cabbages which are there for the picking.
+            - (previous|heal)
+          - [Choice]: How do I fish?
+            - **Player:** How do I fish?
+            - **Lumbridge Sage:** Fishing spots require different levels and equipment to use.
+            - **Lumbridge Sage:** Depending on which fishing method you choose at a fishing spot, you may need additional items, such as bait, which you can buy at the fishing shop near Lumbridge market.
+            - [Your minimap has various icons showing the location of points of interest. This icon to the left shows where fishing spots are.]
+            - (previous|heal)
+          - [Choice]: Where can I find meat?
+            - **Player:** Where can I find meat?
+            - **Lumbridge Sage:** I suggest you go and kill some chickens. The roads on either side of this river eventually go past a chicken farm. When you have killed some chickens, cook them. You could either make a fire or use a range.
+            - [Your minimap has various icons showing the location of points of interest. You can cook raw food by chopping down a tree and making a fire...]
+            - **Lumbridge Sage:** But you're much more likely to burn your food if you cook on a log fire out in the open. You should cook at a range whenever you can. There is a range at the southern end of this town.
+            - **Lumbridge Sage:** As you increase your Cooking skill, you'll be less likely to burn food, and able to cook more advanced recipes that heal more life points.
+            - [Your minimap has various icons showing the location of points of interest. This icon to the left shows where Cooking ranges are.]
+            - (previous|heal)
+          - [Choice]: I'd like to know about something else.
+            - (initial|start)
+      - [Choice]: Where can I get better armour and weapons?
+        - **Lumbridge Sage:** Well, you can either make them, find them or buy them.
+        - [Menu]: Select an Option
+          - [Choice]: Where can I find a weapon?
+            - **Lumbridge Sage:** There are a few cheap weapons lying around in the world. For example, you can get an iron dagger if you cross the bridge and look in the little hut where some goblins live.
+            - **Lumbridge Sage:** If it's not there, it probably means someone else has taken it. If you wait a while, a new one should appear. As you explore, you may find other weapons, too.
+            - (previous|weapons)
+          - [Choice]: How do I make a weapon?
+            - **Lumbridge Sage:** The Smithing skill allows you to make armour and weapons.
+            - **Lumbridge Sage:** Lumbridge has a furnace, forge and anvil to the north of us, east of Lumbridge market.
+            - [Your minimap has various icons showing the location of points of interest. Look for the left icon to locate a furnace where you can smelt ores into bars.]
+            - [Look for the left icon to locate a forge where you can heat and smith bars into equipment.]
+            - (previous|weapons)
+          - [Choice]: Where can I buy a weapon?
+            - **Lumbridge Sage:** The nearest shop that would sell you something of that nature is Bob's Brilliant Axes in this very town.
+            - **Lumbridge Sage:** If you want a bigger choice, I suggest you head to one of the big cities.
+            - **Lumbridge Sage:** If you follow the road east over the bridge and then head north, you will eventually reach Varrock, where you can buy all manner of things. You can use the world map to help you find your way.
+            - (previous|weapons)
+          - [Choice]: Could I get a staff like yours?
+            - **Lumbridge Sage:** There is no other staff like this in all the land. It's a very important staff. It shows who holds the job as the guide of Lumbridge, and that's me.
+            - (previous|weapons)
+          - [Choice]: I'd like to know about something else.
+            - (initial|start)
+      - [Choice]: I'd like to know about something else.
+        - (initial|start)
+  - [Choice]: Where can I make money?
+    - **Lumbridge Sage:** There are many ways to make money in the game. I would suggest either killing monsters or doing a trade skill such as Smithing or Fishing.
+    - **Lumbridge Sage:** Many enemies will drop items when they die. You can sell them to a general store or on the Grand Exchange in Varrock.
+    - **Lumbridge Sage:** By getting a high level in skills, such as Cooking, Mining, Smithing or Fishing, you can create or gather your own items and sell them for pure profit.
+    - **Lumbridge Sage:** Please don't try to get money by begging off other adventurers. It will make you unpopular. Nobody likes a beggar. It is very irritating to have other adventurers asking for your hard-earned cash.
+    - [Menu]: Select an Option
+      - [Choice]: Where can I smith?
+        - **Lumbridge Sage:** Lumbridge has a furnace, forge and anvil to the north of us, east of Lumbridge market.
+        - [Your minimap has various icons showing the location of points of interest. Look for the left icon to locate a furnace where you can smelt ores into bars.]
+        - [Look for the left icon to locate a forge where you can heat and smith bars into equipment.]
+        - [Your minimap has various icons showing the location of points of interest. This icon to the left shows where Mining sites are.]
+        - **Lumbridge Sage:** I suggest you go and mine some ore; find the Mining symbol - with the guide symbol near it - in the swamp south of here.
+        - (initial|start)
+      - [Choice]: How do I fish?
+        - (above|fish)
+      - [Choice]: What monsters should I fight?
+        - (above|fight)
+  - [Choice]: Where can I find a bank?
+    - **Lumbridge Sage:** You'll find a bank upstairs in Lumbridge Castle - go right to the top - or there's a bank chest at Lumbridge market to the north.
+    - [Your minimap has various icons showing the location of points of interest. This icon to the left shows banks where you can store your items.]
+    - **Lumbridge Sage:** You can only carry so many items in your backpack. You can deposit items you want to keep and not sell into your bank.
+    - (initial|start)
+  - [Choice]: More options...
+    - [Menu]: Select an Option
+      - [Choice]: Navigation and lodestones.
+        - ((The following is shown in a tooltip titled "Navigation":))
+          - [Left-click] a location on the minimap to travel to your location.}}
+          - [You can use the lodestone network to quickly teleport to lodestones you have activated. <br>Click Home Teleport if you want to view the Lodestone Map.]
+          - [If you want to see a more detailed map of the world, click here.]
+          - (previous|start2)
+      - [Choice]: Tools and tool belt.
+        - ((The following is shown in a tooltip titled "Tool belt":))
+          - [Most of your skills require some kind of tool. For example, woodcutting requires a hatchet, and mining requires a pickaxe. <br> You start with a bronze hatchet, pickaxe and some other basic tools on your tool belt. Items on your tool belt are protected if you die.]
+          - [Add to tool belt] option on the tool in your backpack.<br>This will replace the item on your tool belt.}}
+          - (previous|start2)
+      - [Choice]: Quest list.
+        - ((The following is shown in a tooltip titled "Quest list":))
+          - [completed] the quest.}}
+          - [To review your objectives during a quest, open your quest journal, and select the quest in your quest list for more information.]
+          - [minimap]. You'll usually start the quest by talking to someone nearby.}}
+          - [During a quest, a blue border on your map shows the area containing your current quest objective.]
+          - (previous|start2)
+      - [Choice]: Skills list.
+        - ((The following is shown in a tooltip titled "Skills":))
+          - [You have many skills you can train. The more you practice a skill, the better it gets. <br>Higher skill levels unlock new activities: equipment to craft, locations to explore, quests to complete, and much more.]
+          - [Perform actions associated with a skill to earn experience points (XP) in that skill. Earn enough XP, and you'll gain a level in that skill.]
+          - [Most skills start at level 1, and you unlock all their benefits by leveling the skill to 99. (Some skills have unlocks up to level 120.)]
+          - [The bottom number next to a skill icon is your base level in that skill (un-modified by buffs or debuffs). It is used for most equipment checks.]
+          - [The top number is your modified skill level (temporarily boosted or drained by skill buffs or debuffs - such as potions or spells). It is used for most skill checks.]
+          - [Achieve 99 in your skills to earn the coveted Max Cape!]
+          - (previous|start2)
+      - [Choice]: Even more options...
+        - [Menu]: Select an Option
+          - [Choice]: Who are you?
+            - **Lumbridge Sage:** I am Phileas, the Lumbridge Sage. I am here to give information and directions to new adventurers.
+            - **Lumbridge Sage:** In times past, people came from all around to ask me for advice. My renown seems to have diminished somewhat in recent years, though. Can I help you with anything?
+            - (previous|start3)
+          - [Choice]: Tell me about the town of Lumbridge.
+            - **Lumbridge Sage:** Lumbridge is one of the older towns in the human-controlled kingdoms. It was founded over two hundred years ago towards the end of the Fourth Age. It's called Lumbridge because of this bridge built over the River Lum.
+            - **Lumbridge Sage:** The town is governed by Duke Horacio, who is a good friend of our monarch, King Roald of Misthalin.
+            - (previous|start3)
+          - [Choice]: Where can I find more information?
+            - [What you'll want is the RuneScape Wiki! There's information and guides on almost everything, all easily searched and it's even written and maintained by players.]
+            - [You can search the wiki with the /wiki command or by pressing the Wiki button in your local chatbox.]
+            - (previous|start3)
+          - [Choice]: I don't need any help.
+            - **Lumbridge Sage:** Good adventuring, traveller.
+          - [Choice]: Previous options...
+            - (initial|start)
+
+#### As a player moderator
+
+- **Lumbridge Sage:** Greetings, adventurer. <br>How may I help you?
+- [Menu]: Select an Option
+  - [Choice]: Take me to the P-Mod Room.
+    - {{Qact|The player is teleported to the Player Moderator room.}}
+  - [Choice]: More options...
+    - (above|start)
+
+#### Historical dialogue
+
+- **Lumbridge Sage:** Greetings, adventurer. <br>How may I help you?
+- (Condition: If this is the first time speaking to him:)
+  - {{RSFontAchievement|Sage Advice}}
+  - (continue)
+- [Menu]: Choose an option:
+  - [Choice]: cond=If a Player Moderator|Take me to the P-Mod Room.
+    - {{Qact|The player is teleported to the Player Moderator room.}}
+  - [Choice]: Who are you?
+    - **Lumbridge Sage:** I am Phileas, the Lumbridge Sage. In times past, people came from all around to ask me for advice. My renown seems to have diminished somewhat in recent years, though. Can I help you with anything?
+    - (previous)
+  - [Choice]: Tell me about the town of Lumbridge.
+    - **Lumbridge Sage:** Lumbridge is one of the older towns in the human-controlled kingdoms. It was founded over two hundred years ago towards the end of the Fourth Age. It's called Lumbridge because of this bridge built over the River Lum.
+    - **Lumbridge Sage:** The town is governed by Duke Horacio, who is a good friend of our monarch, King Roald of Misthalin.
+    - **Lumbridge Sage:** Recently, however, there have been great changes due to the Battle of Lumbridge.
+    - **Player:** What about the battle?
+    - (Condition: After the Lumbridge Rebuildathon:)
+      - **Lumbridge Sage:** Some time ago, there was a great fight between Saradomin and Zamorak on the battlefield to the west of the castle.
+      - **Lumbridge Sage:** Titanic forces were unleashed as neither side could gain the upper hand. Each side sought advantages, but it was close until the end.
+      - **Lumbridge Sage:** The battle lasted for months, but in the end, the forces of the holy Saradomin were triumphant. Zamorak was defeated... but...
+      - **Lumbridge Sage:** Before Saradomin could complete his victory, Moia, the general of Zamorak's forces, transported him away.
+      - **Lumbridge Sage:** Now, the battlefield (usually) lies empty, save for a single Saradominist devotee.
+      - (previous)
+    - (Condition: During the Lumbridge Rebuildathon:)
+      - **Lumbridge Sage:** Some time ago, there was a great fight between Saradomin and Zamorak on the battlefield to the west of the castle.
+      - **Lumbridge Sage:** Titanic forces were unleashed as neither side could gain the upper hand. Each side sought advantages, but it was close until the end.
+      - **Lumbridge Sage:** The battle lasted for months, but in the end, the forces of the holy Saradomin were triumphant. Zamorak was defeated... but...
+      - **Lumbridge Sage:** Before Saradomin could complete his victory, Moia, the general of Zamorak's forces, transported him away.
+      - **Lumbridge Sage:** Now, the battlefield (usually) lies empty, save for a single Saradominist devotee, and Lumbridge lies in ruins.
+      - **Lumbridge Sage:** Luckily, Foreman George is organising a rebuilding effort, to the north of the castle.
+      - (previous)
+    - (Condition: During the Battle of Lumbridge:)
+      - **Lumbridge Sage:** Why, the battle rages even now, on the far side of the castle. Saradomin and Zamorak are locked in battle, neither able to gain the upper hand.
+      - **Lumbridge Sage:** Where once was forest, there is a giant crater, in which soldiers and creatures fight to the death.
+      - **Lumbridge Sage:** And the city of Lumbridge has seen the ill-effects already! The castle walls themselves have fallen!
+      - **Player:** Is there anything I can do?
+      - **Lumbridge Sage:** You could join the battle if you wish. Both sides are seeking help from any individual who is willing, and not just for fighting - they are seeking something known as divine tears.
+      - **Lumbridge Sage:** You can join Saradomin by going to the camp at the north of the battlefield, and Zamorak by going to the south.
+      - (previous)
+  - [Choice]: I need guidance.
+    - *(Tutorial selection interface opens.)*
+  - [Choice]: I'm fine for now, thanks.
+    - **Lumbridge Sage:** Good adventuring, traveller.

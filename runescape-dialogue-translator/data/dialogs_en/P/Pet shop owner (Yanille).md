@@ -1,0 +1,172 @@
+# Pet shop owner (Yanille)
+
+- **Original Wiki Page**: [Transcript:Pet shop owner (Yanille)](https://runescape.wiki/w/Transcript%3APet%20shop%20owner%20%28Yanille%29)
+- **Letter**: `P`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard Dialogue
+
+- [Menu]: Choose an option:
+  - [Choice]: Can I see your shop, please?
+    - **Player:** Can I see your shop please?
+    - (opens=Pet Shop (Yanille))
+  - [Choice]: How much is that puppy in the window?
+    - **Player:** How much is that puppy in the window?
+    - **Pet shop owner:** The one with the waggly tail?
+      - *(Opens Pick a Puppy interface:)*
+      - [Menu]: Pick a Puppy
+        - [Choice]: Labrador
+        - **Player:** No, the labrador.
+          - **Pet shop owner:** 500 gold.
+          - **Player:** Isn't that a little steep?
+          - **Pet shop owner:** Well, if we gave them away for free then people would just buy them and dump them without a care.
+          - **Pet shop owner:** Dogs are a big responsibility and should be cared for.
+          - **Pet shop owner:** If a person is unwilling to invest 500 coins, then they don't deserve to have the puppy in the first place.
+          - **Pet shop owner:** So, do you still want one?
+          - [Menu]: Select an Option
+            - [Choice]: Okay, I'll take the labrador.
+              - **Player:** Okay, I'll take the Labrador.
+              - **Pet shop owner:** There you go! I hope you two get on.
+            - [Choice]: No thanks.
+              - **Player:** No thanks.
+          - (Condition: If the player's inventory is full:) {{anchor|inventoryfull}}
+            - **Pet shop owner:** Where are you going to put it, on your head?
+            - **Pet shop owner:** You can't buy a puppy unless you have space to hold it.
+            - **Player:** Good point, I'll go bank some items.
+        - [Choice]: Bulldog
+          - **Player:** No, the bulldog.
+          - (Condition: If the player has free inventory space:)
+            - (above|priceandresponsibility)
+            - [Menu]: Select an Option
+              - [Choice]: Okay, I'll take the bulldog.
+                - **Player:** Okay, I'll take the Bulldog.
+                - **Pet shop owner:** There you go! I hope you two get on.
+              - [Choice]: No thanks.
+                - **Player:** No thanks.
+          - (Condition: If the player's inventory is full:)
+            - (above|inventoryfull)
+        - [Choice]: Dalmatian
+          - **Player:** No, the dalmatian.
+          - (Condition: If the player has free inventory space:)
+            - (above|priceandresponsibility)
+            - [Menu]: Select an Option
+              - [Choice]: Okay, I'll take the dalmatian.
+                - **Player:** Okay, I'll take the Dalmatian.
+                - **Pet shop owner:** There you go! I hope you two get on.
+              - [Choice]: No thanks.
+                - **Player:** No thanks.
+          - (Condition: If the player's inventory is full:)
+            - (above|inventoryfull)
+        - [Choice]: Greyhound
+          - **Player:** No, the greyhound.
+          - (Condition: If the player has free inventory space:)
+            - (above|priceandresponsibility)
+            - [Menu]: Select an Option
+              - [Choice]: Okay, I'll take the greyhound.
+                - **Player:** Okay, I'll take the Greyhound.
+                - **Pet shop owner:** There you go! I hope you two get on.
+              - [Choice]: No thanks.
+                - **Player:** No thanks.
+          - (Condition: If the player's inventory is full:)
+            - (above|inventoryfull)
+        - [Choice]: Terrier
+          - **Player:** No, the terrier.
+          - (Condition: If the player has free inventory space:)
+            - (above|priceandresponsibility)
+            - [Menu]: Select an Option
+              - [Choice]: Okay, I'll take the terrier.
+                - **Player:** Okay, I'll take the Terrier.
+                - **Pet shop owner:** There you go! I hope you two get on.
+              - [Choice]: No thanks.
+                - **Player:** No thanks.
+          - (Condition: If the player's inventory is full:)
+            - (above|inventoryfull)
+        - [Choice]: Sheepdog
+          - **Player:** No, the sheepdog.
+          - (Condition: If the player has free inventory space:)
+            - (above|priceandresponsibility)
+            - [Menu]: Select an Option
+              - [Choice]: Okay, I'll take the sheepdog.
+                - **Player:** Okay, I'll take the Sheepdog.
+                - **Pet shop owner:** There you go! I hope you two get on.
+              - [Choice]: No thanks.
+                - **Player:** No thanks.
+          - (Condition: If the player's inventory is full:)
+            - (above|inventoryfull)
+    - (Condition: If the player already has a puppy following them or in the bank or inventory:)
+      - **Pet shop owner:** You asked me that when you last picked up a dog, and I can't sell you another.
+  - [Choice]: So, what sorts of pets are available?
+    - **Player:** So, what sorts of pets are available?
+    - **Pet shop owner:** Well, here we sell dogs, but we also have supplies for any other creatures you might want to raise.
+    - **Player:** Such as?
+    - **Pet shop owner:** Well, we sell nuts. Those can be used to feed squirrels. If you want to capture a squirrel, you'll need to use the nuts on the trap you set, as the little scamps won't be fooled by anything else.
+    - **Player:** I'll bear that in mind!
+    - **Pet shop owner:** There are also a number of birds that live in the woodlands of the world. If you can find their eggs then you can use the incubator over there to hatch it.
+    - **Pet shop owner:** So long as you are the first thing they see out of the shell, they will follow you anywhere.
+    - **Pet shop owner:** After that, you just need to feed the chick ground fishing bait until it's old enough to eat it solid.
+    - **Player:** I'll make sure to keep an eye on them if I go anywhere dangerous.
+    - **Pet shop owner:** There are also a number of fabulous and exotic lizards in Karamja. Some can be caught easily in a box trap, while others will need to be raised from an egg.
+    - **Player:** Will the incubator work for them, too?
+    - **Pet shop owner:** Of course! I'll keep an eye on all the eggs you put in there, so they will never end up hard-boiled.
+    - **Player:** Thank goodness!
+    - **Pet shop owner:** The geckos of Karamja are quite easy to trap, like raccoons. Both will investigate a trap happily without any special bait.
+    - **Pet shop owner:** Monkeys are a different story, however!
+    - **Player:** What do you mean?
+    - **Pet shop owner:** Well, they are clever little things and can easily get out of a box trap, unless they are stuck. The easiest way to do that is to put a banana into the workings.
+    - **Pet shop owner:** They will hang on tight, and never let go, even when the trap closes!
+    - **Player:** Thanks a lot, you've been very helpful!
+    - **Pet shop owner:** It's always a pleasure to help a fellow animal-lover. Come back and visit soon.
+  - [Choice]: Are you interested in buying spirit shards?
+    - **Player:** Are you interested in buying spirit shards?
+    - **Pet shop owner:** I certainly am. Lots of them, too!
+      - {{tinput|How many will you sell? (25 coins each, you have #)}}
+      - shadow=yes
+      - (end)
+    - (Condition: If the player doesn't have any spirit shards:)
+      - **Player:** Thanks, I'll bear that in mind.
+- (Condition: If the player has had their puppy run away, or they have destroyed it:)
+  - [Choice]: Have you got any strays in?
+    - **Player:** Have you got any strays in?
+    - **Pet shop owner:** Let me just check my records...
+    - **Pet shop owner:** You're in luck! I have a stray dog in!
+    - **Player:** Really? Would you let me give it a home?
+    - **Pet shop owner:** I just have to ask you a few questions first, to make sure you're suitable.
+    - **Pet shop owner:** Okay, question 1.
+    - **Pet shop owner:** What's your favourite kind of dog?
+    - [Menu]: Select an Option
+      - [Choice]: Terrier!
+        - **Player:** Terrier!
+        - **Pet shop owner:** Well, that was a coincidence! Take good care of it!
+        - [The shopkeeper hands you a terrier!]
+      - [Choice]: Greyhound!
+        - **Player:** Greyhound!
+        - **Pet shop owner:** Well, that was a coincidence! Take good care of it!
+        - [The shopkeeper hands you a greyhound!]
+      - [Choice]: Dalmation!
+        - **Player:** Dalmation!
+        - **Pet shop owner:** Well, that was a coincidence! Take good care of it!
+        - [The shopkeeper hands you a dalmation!
+      - [Choice]: Labrador!
+        - **Player:** Labrador!
+        - **Pet shop owner:** Well, that was a coincidence! Take good care of it!
+        - [The shopkeeper hands you a labrador!]
+      - [Choice]: Sheepdog!
+        - **Player:** Sheepdog!
+        - **Pet shop owner:** Well, that was a coincidence! Take good care of it!
+        - [The shopkeeper hands you a sheepdog!]
+      - [Choice]: Bulldog!
+        - **Player:** Bulldog!
+        - **Pet shop owner:** Well, that was a coincidence! Take good care of it!
+        - [The shopkeeper hands you a bulldog!]
+
+### Summoning pre-release teaser
+
+- (Exiting the pet shop)
+  - **Pet shop owner:** {{RSChat|Time for your walk.}}
+  - **Bulldog:** {{RSChat|Whurf!}}
+- (Being spoken to)
+  - **Pet shop owner:** Sorry, I can't talk! I have to walk the dog and get the shop ready for the grand opening!

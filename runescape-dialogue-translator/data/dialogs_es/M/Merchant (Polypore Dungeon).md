@@ -1,0 +1,108 @@
+# Merchant (Polypore Dungeon)
+
+- **Original Wiki Page**: [Transcript:Merchant (Polypore Dungeon)](https://runescape.wiki/w/Transcript%3AMerchant%20%28Polypore%20Dungeon%29)
+- **Letter**: `M`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Comerciante:** Es un [gentleman/lady] joven. Quizás quiera comerciar con nosotros. O quizás necesite que cuidemos sus esporas y escamas.
+- **¿Qué te gustaría decir?**
+  - Tengo una pregunta para ti.
+    - **Player:** Tengo una pregunta para ti.
+    - **¿Qué te gustaría decir?**
+      - ¿Quién eres?
+        - **Player:** ¿Quién eres?
+        - **Comerciante:** Quiere saber de nosotros, ¿verdad? Es un pequeño [gentleman/lady] entrometido, pensamos. Pero la responderemos.
+        - **Comerciante:** Solíamos vivir en una casa, una casita en una tierra cálida, solo nosotros y Darling.
+        - **Comerciante:** Sí, teníamos a Darling entonces, con su cabello suave, sus mechones sedosos sobre la almohada... hace mucho tiempo.
+        - **Comerciante:** Vivíamos en nuestra casa, brillaba el sol y todos los días Darling cantaba mientras cocinaba y limpiaba.
+        - **Comerciante:** Hicimos cosas bonitas para venderlas a la gente noble, y a Darling le encantaban las cosas bonitas y a nosotros nos encantaba.
+        - **Comerciante:** Entonces no quedó más Darling - el doctor lo intentó todo - así que no más mechones sedosos, no más cantos... sólo la casa vacía.
+        - **Comerciante:** Nos fuimos; caminamos a través de días y noches y sol y lluvia. Luego encontramos este lugar y conocimos a Ladyship.
+        - **Comerciante:** Ladyship también hace cosas bonitas. La gente viene a verlos y comerciamos con la gente. Les vendemos ropa hecha por la Señoría; ella nos deja.
+        - **¿Qué te gustaría decir?**
+          - ¿Qué es este lugar?
+            - (below|Place)
+          - Cuéntame sobre las cosas que vendes.
+            - (below|Sell)
+          - ¿Puedo comprar tu disfraz?
+            - (below|Costume)
+          - Bien, terminé de hacer preguntas.
+            - (below|Finished)
+          - ¡Creo que te dejaré en paz!
+            - (below|Leave)
+      - ¿Qué es este lugar?
+        - **Player:** ¿Qué es este lugar?
+        - **Comerciante:** No sabe dónde está, pequeño tonto [gentleman/lady]. Lo contaremos.
+        - **Comerciante:** Este es el jardín de Ladyship. La señora vino de muy lejos. La señora es inteligente; ella hace crecer las flores.
+        - **Comerciante:** Una vez hubo bestias feas aquí, pero Ladyship cultivó sus flores sobre todas las bestias para hacerlas hermosas. Ahora son sus mascotas.
+        - **Comerciante:** La gente vino a ver las cosas bonitas que hace Ladyship. A la señora no le importa; le gusta cuando la gente juega con sus mascotas.
+        - '''¿Qué te gustaría decir?
+          - ¿Quién eres?
+            - (above|Who)
+          - Cuéntame sobre las cosas que vendes.
+            - (below|Sell)
+          - ¿Puedo comprar tu disfraz?
+            - (below|Costume)
+          - Bien, terminé de hacer preguntas.
+            - (below|Finished)
+          - ¡Creo que te dejaré en paz!
+            - (below|Leave)
+      - Cuéntame sobre las cosas que vendes.
+        - **Player:** Cuéntame sobre las cosas que vendes.
+        - **Comerciante:** Quiere saber sobre la ropa inteligente de Ladyship. Esperamos que compre cosas después.
+        - **Comerciante:** Ladyship hace ropa con redes de micelio extraído de sus flores. Los magos pueden usar la ropa de Ladyship para ayudar con su magia.
+        - **Comerciante:** Si recolectamos escamas de las mascotas de Ladyship, podemos coserlas en la ropa de Ladyship para darles más poder, mucho más poder.
+        - **Comerciante:** Los mejores copos provienen de las mascotas más fuertes de Ladyship, pero es difícil luchar contra ellos; muy complicado por cierto. No mucha gente puede tocarlos.
+        - **Comerciante:** Además, los copos se caen de la ropa después de un tiempo, por lo que la gente regresa a buscar más copos de las mascotas de Ladyship.
+        - '''¿Qué te gustaría decir?
+          - ¿Quién eres?
+            - (above|Who)
+          - ¿Qué es este lugar?
+            - (above|Place)
+          - ¿Puedo comprar tu disfraz?
+            - (below|Costume)
+          - Bien, terminé de hacer preguntas.
+            - (below|Finished)
+          - ¡Creo que te dejaré en paz!
+            - (below|Leave)
+      - ¿Puedo comprar tu disfraz?
+        - **Player:** ¿Puedo comprar tu disfraz?
+        - **Comerciante:** El joven [gentleman/lady] quiere comprar nuestra ropa. Si le vendemos nuestra ropa, estaremos desnudos. A la señora no le gusta que estemos desnudos; ella lo dijo. Será mejor que le digamos al joven [gentleman/lady] que no puede quedarse con nuestra ropa, no a ningún precio.
+        - **Player:** ¡Es justo!
+        - '''¿Qué te gustaría decir?
+          - ¿Quién eres?
+            - (above|Who)
+          - ¿Qué es este lugar?
+            - (above|Place)
+          - Cuéntame sobre las cosas que vendes.
+            - (above|Sell)
+          - Bien, terminé de hacer preguntas.
+            - (below|Finished)
+          - ¡Creo que te dejaré en paz!
+            - (below|Leave)
+      - Bien, terminé de hacer preguntas.
+        - **Player:** Bien, terminé de hacer preguntas.
+        - **Comerciante:** Quizás al joven [gentleman/lady] le gustaría comerciar ahora. O podemos cuidar sus esporas y escamas si así lo desea.
+        - '''¿Qué te gustaría decir?
+          - Me gustaría negociar.
+            - (below|trade)
+          - Necesito que cuides algo.
+            - (below|Finished)
+          - ¡Creo que te dejaré en paz!
+            - (below|Leave)
+  - Me gustaría negociar.
+    - **Player:** Me gustaría realizar un intercambio.
+    - (opens=Polypore Dungeon Supplies)
+  - Necesito que cuides algo.
+    - **Player:** Necesito que cuides algo.
+    - *(Se abre la interfaz de almacenamiento de hongos.)*
+  - ¡Creo que te dejaré en paz!
+    - **Player:** ¡Creo que te dejaré en paz!
+    - **Comerciante:** Nos va a dejar en paz. Pero no estamos solos, ¿verdad?

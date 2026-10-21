@@ -1,0 +1,122 @@
+# Martin the Master Gardener
+
+- **Original Wiki Page**: [Transcript:Martin the Master Gardener](https://runescape.wiki/w/Transcript%3AMartin%20the%20Master%20Gardener)
+- **Letter**: `M`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+{{Incomplete|potentially missing dialogue between Fairy Tale 1 and Fairy Tale 3}}
+
+### In Draynor Village
+
+- [Menu]: ¿Sobre qué te gustaría preguntar?
+  - [Choice]: Skillcape de Farming.
+    - (Condition: Si el player no ha alcanzado el nivel 99 Farming:)
+      - **Player:** ¿Qué es esa capa que llevas puesta?
+      - **Martin the Master Gardener:** Este es un Skillcape de Farming, ¿no es increíble? ¡Es un símbolo de mi habilidad como el mejor granjero del país!
+    - (Condition: Si el player ha alcanzado el nivel 99 Farming:)
+      - [Menu]: Elige una opción:
+        - [Choice]: ¿Puedo comprar un skillcape de Farming, por favor?
+          - (Condition: Si el player tiene un ring of charos (a) equipado:)
+            - **Martin the Master Gardener:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins por este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
+            - [Menu]: Elige una opción:
+              - [Choice]: ¿92.000 coins? Eso es demasiado caro.
+                - **Player:** Sé dónde encontrarte si cambio de opinión.
+              - [Choice]: De hecho, creo que tengo el dinero aquí.
+                - (Condition: Si el player no tiene espacio backpack:)
+                  - **Martin the Master Gardener:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar algo de espacio en backpack antes de que pueda venderte uno.
+                - (Condition: Si el player no tiene suficiente dinero:)
+                  - **Player:** Pero desafortunadamente me equivoqué.
+                  - **Martin the Master Gardener:** Bueno, vuelve a verme cuando lo hagas.
+                - (Condition: Si el player tiene suficiente dinero:)
+                  - (receives=farming cape and farming hood) (removes=92,000 coins)
+                  - **Martin the Master Gardener:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+              - [Choice]: cond=If the player has 120 Farming|He dominado esta habilidad. ¿Hay algo más?
+                - **Martin the Master Gardener:** Hay algo... aunque lo he mantenido en secreto durante mucho tiempo. Es algo que sólo puede ser usado por un verdadero maestro.
+                - **Martin the Master Gardener:** Ni siquiera yo puedo usarlo, así de difícil es lograrlo.
+                - **Martin the Master Gardener:** Dices que eres un maestro. Ponte derecho, déjame echarte un vistazo.
+                - **Martin the Master Gardener:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Farming master cape.
+                - [Menu]: ¿Comprar Farming master cape por 120.000 coins?
+                  - [Choice]: Sí.
+                    - (Condition: Si el player no tiene espacio backpack:)
+                      - **Martin the Master Gardener:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
+                    - (Condition: Si el player no tiene suficiente dinero:)
+                      - No tienes suficiente dinero para comprar esta capa.
+                    - (Condition: Si el player tiene suficiente dinero:)
+                      - (receives=farming master cape) (removes=120,000 coins)
+                      - (Action: Suena música Master cape.)
+                  - [Choice]: No.
+                    - (end)
+        - (Condition: Si el player no tiene un ring of charos(a) equipado:)
+          - [Menu]: Elige una opción:
+            - [Choice]: ¿99.000 coins? Eso es demasiado caro.
+              - **Player:** Sé dónde encontrarte si cambio de opinión.
+            - [Choice]: De hecho, creo que tengo el dinero aquí.
+              - (Condition: Si el player no tiene espacio backpack:)
+                - (arriba)
+              - (Condition: Si el player no tiene suficiente dinero:)
+                - (arriba)
+              - (Condition: Si el player tiene suficiente dinero:)
+                - (receives=farming cape and farming hood) (removes=99,000 coins)
+                - **Martin the Master Gardener:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+            - [Choice]: cond=If the player has 120 Farming|He dominado esta habilidad. ¿Hay algo más?
+              - (arriba)
+        - [Choice]: He notado que hay un par de versiones de cada skillcape.
+          - **Martin the Master Gardener:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
+          - (Condition: Si usas el modelo antiguo:)
+            - **Martin the Master Gardener:** Parece que actualmente estás usando el modelo anterior para tu Farming skillcape. ¿Quieres cambiar a uno más nuevo?
+            - (continue)
+          - (Condition: Si utiliza el nuevo modelo:)
+            - **Martin the Master Gardener:** Aún puedes elegir usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
+            - (continue)
+          - [Menu]: Selecciona una opción
+            - [Choice]: Sí, me gustaría usar la versión [new/old] del skillcape.
+              - **Martin the Master Gardener:** ¿Te gustaría usar el modelo [old/newer] solo para esta capa, o para el Quest Cape y todos los skillcapes que tienes?
+              - [Menu]: Selecciona una opción
+                - [Choice]: Sólo me gustaría cambiar la agricultura skillcape.
+                  - **Martin the Master Gardener:** No hay problema, ahora usarás el modelo [older/newer] para tu skillcape agrícola.
+                - [Choice]: Me gustaría cambiar todos mis skillcapes.
+                  - **Martin the Master Gardener:** ¡No hay problema, ahora usarás el modelo [older/newer] para todos tus skillcapes!
+                - [Choice]: ¡He cambiado de opinión!
+                  - (end)
+            - [Choice]: No, gracias.
+              - **Martin the Master Gardener:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
+              - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+                - **Martin the Master Gardener:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
+                - [Menu]: Selecciona una opción
+                  - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.
+                    - **Martin the Master Gardener:** ¡Genial, ahora usarás el modelo antiguo para todos tus skillcapes!
+                  - [Choice]: No, gracias.
+                    - (end)
+  - [Choice]: cond=If the Fairy series of quests has not been started|Charla General.
+    - **Martin the Master Gardener:** No puedo chatear ahora, tengo demasiadas cosas de qué preocuparme.
+  - [Choice]: cond=If the Fairy series of quests has been started|Habla sobre problemas agrícolas y hadas.
+    - (Condition: Después del cuento I de Fairy:)
+      - {{transcript missing}}
+    - (Condition: Después de Fairy Cuento II:)
+      - {{transcript missing}}
+    - (Condition: Después de Fairy Cuento III:)
+      - **Player:** Oye, ¿cómo te va?
+      - **Martin the Master Gardener:** Bien, gracias. Ahora estoy obteniendo cosechas excelentes de los parches, así que gracias por su ayuda.
+      - **Martin the Master Gardener:** Como forma de agradecer, he conversado con todos los granjeros de parches... y estarán felices de mantener tus parches libres de maleza a partir de ahora, si así lo deseas. Sólo habla con uno de ellos.
+      - **Player:** Oh, eso es genial, ¡gracias!
+  - [Choice]: cond=If Vampyre Slayer is completed|Vampyre Slayer.
+    - **Martin The Master Gardener:** Te estoy muy agradecido por librar al pueblo de ese vampyre. Ha sido muy agradable sentarse al aire libre por las noches y no preocuparse.
+    - **Player:** Encantado de poder ayudar.
+  - [Choice]: cond=If Bringing Home the Bacon is completed|Llevar el tocino a casa.
+    - **Player:** ¿Puedo cambiar el nombre del cerdo que me regalaste?
+    - ((Se abre la interfaz de selección Pig Name.))
+  - [Choice]: El cerdo gigante.
+    - **Player:** Un adulto por favor.
+    - **Martin the Master Gardener:** ...¡Eso no es un paseo, ese es Pigzilla!
+    - **Player:** Oh, pero quiero montarlo.
+    - **Martin the Master Gardener:** No.
+    - **Player:** ...
+    - **Martin the Master Gardener:** Aunque puedes luchar si quieres.
+    - (Condition: Antes de llevar el tocino a casa:)
+      - **Player:** ¿Lucha de cerdos? Eso es para niños. Creo que pasaré.
+    - (Condition: Durante y después de Bringing Home the Bacon:)
+      - **Player:** Hoy no. He tenido una mejor idea de lo que podemos hacer con los cerdos...

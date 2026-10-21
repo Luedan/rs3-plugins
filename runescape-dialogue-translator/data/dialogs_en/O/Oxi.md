@@ -1,0 +1,63 @@
+# Oxi
+
+- **Original Wiki Page**: [Transcript:Oxi](https://runescape.wiki/w/Transcript%3AOxi)
+- **Letter**: `O`
+
+---
+
+## Dialogue Transcript
+
+- **Player:** Hello. What are you doing?
+- **Oxi:** I'm the rat keeper, it's my job to look after these here rats.
+- **Player:** You do know that there are some rats running loose?
+- **Oxi:** Some nibble their way out from time to time. Don't worry there's enough cats down here to sort anything that gets out.
+- **Player:** So how do these rat pits work?
+- **Oxi:** The Keldagrim pits cater for those with the larger variety of cats.
+- **Oxi:** If you have an overgrown cat and a couple of coins you can challenge someone else who also has an overgrown cat and some spare change.
+- **Player:** That sounds simple enough so far.
+- **Oxi:** You then agree on a wager. It's rumoured that some ratcatchers can talk to their own cats and give them tactics to aid them.
+- **Player:** So then how do you win the challenge?
+- **Oxi:** I was just getting to that. Both the gamblers' cats are placed inside of the fenced off area, and whoever kills 9 rats first wins.
+  - **Player:** That sounds vile and cruel.
+    - **Oxi:** It's a cruel world and the pits are no exception.
+    - **Oxi:** Each to their own I say.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** It sounds a little dangerous for my cat.
+    - **Oxi:** I agree. Cats have been known to be killed in fights.
+    - **Player:** Oh how terrible. Is there nothing you can do to save your cat?
+    - **Oxi:** Of course there is, you can instruct it to be cautious, and it will leave once it feels as if it is in danger.
+    - **Player:** Oh that sounds quite wise.
+    - **Oxi:** That depends on how you value your cat.
+    - **Player:** Sorry, I don't follow.
+    - **Oxi:** Well if your cat dies or it runs away you lose.
+    - **Oxi:** So the longer it stays in the fight the better chance you have of winning.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Wow that sounds like fun!
+    - **Oxi:** I don't know about that.
+    - **Oxi:** One thing I know though is that it's a quick way to make and lose money.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Is there a limit to how much you can bet?
+    - **Oxi:** Hmmm...let me see. If I'm not mistaken, you can currently bet up to a maximum of [number] coins.
+    - **Player:** That sounds like a silly amount of money to bet on a cat fight.
+    - **Oxi:** You'd be surprised what some people would be willing to bet.
+    - **Oxi:** There is a minimum bet of 100 coins too.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Can I challenge you and your cat?
+    - **Oxi:** No, not now, we don't really bet with outsiders.
+    - **Player:** But I'm not an outsider, am I not inside in the pits now?
+    - **Oxi:** I don't know, maybe once you've done something to win over my trust.
+    - **Player:** Can it be bought?
+    - **Oxi:** What?
+    - **Player:** Your trust.
+    - **Oxi:** No. Regular townsfolk don't like us, which leads us to distrust them and anyone else.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.

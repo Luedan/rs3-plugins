@@ -1,0 +1,21 @@
+# Ermin
+
+- **Original Wiki Page**: [Transcript:Ermin](https://runescape.wiki/w/Transcript%3AErmin)
+- **Letter**: `E`
+
+---
+
+## Dialogue Transcript
+
+
+### Dialogue
+
+- **Ermin:** Ooh, I'm all dizzy...
+- **Player:** Why's that?
+- **Ermin:** Well, watching that wheel go round and round and round...
+- **Ermin:** and round and round and round...
+- **Player:** Looks like you need a bit of a rest.
+- **Ermin:** and round and round and round again...
+- **Player:** See you around!
+- **Ermin:** Very funny.
+- (end)

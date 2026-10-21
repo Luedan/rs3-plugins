@@ -1,0 +1,116 @@
+# Larriar
+
+- **Original Wiki Page**: [Transcript:Larriar](https://runescape.wiki/w/Transcript%3ALarriar)
+- **Letter**: `L`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Larriar:** Hello. What can I do for you?
+- What would you like to say?
+  - Who are you?
+    - **Player:** Who are you?
+    - **Larriar:** I used to be a runecrafter. Days, weeks and months I spent at the altars, practising and practising the craft.
+    - **Larriar:** Now that I've achieved everything I wanted to do, I hang around here, watching other people working. It's far more relaxing!
+    - **Larriar:** Also, I sell skillcapes to people who deserve them. Now, can I help you?
+    - (previous)
+  - Can I buy a Runecrafting skillcape?
+    - **Larriar:** Well, it looks like you deserve it after all that running!
+    - ((If the player has a Ring of charos (a equipped, the message is replaced with the following:))
+    - **Larriar:** I don't do this for anyone, but I've got a special offer today! Normally I require 99,000 coins for this prestigious item, but for you it's half price. Only 92,000 coins!
+    - Choose an option:
+      - 99,000 coins? That's much too expensive. ((or 92,000 coins with Ring of charos (a)))
+        - **Larriar:** Not at all; there are many other adventurers who would love the opportunity to purchase such a prestigious item! You can find me here if you change your mind.
+      - I think I have the money right here, actually.
+        - *(If the player has at least two free backpack spaces:)*
+          - (removes=99,000 coins (or 92,000 coins with Ring of charos (a))) (receives=Runecrafting cape (or trimmed version if level 99 in at least two skills) and Runecrafting hood)
+          - **Larriar:** Excellent! Wear that cape with pride my friend.
+        - *(If the player doesn't have at least two free backpack spaces:)*
+          - **Larriar:** Unfortunately all skillcapes are only available with a free hood, it's part of a skill promotion deal; buy one get one free, you know. So, you'll need to free up some inventory space before I can sell you one.
+          - (end)
+      - *(If the player has unlocked the inverted Runecrafting cape:)*
+      - I'd like a skillcape with the colours inverted.
+        - *(If the player has at least one free backpack spaces:)*
+          - (removes=99,000 coins (or 92,000 coins with Ring of charos (a))) (receives=inverted hooded Runecrafting cape (or trimmed version if level 99 in at least two skills))
+          - **Larriar:** Excellent! Wear that cape with pride my friend.
+        - *(If the player doesn't have at least one free backpack spaces:)*
+          - **Larriar:** Unfortunately you'll need to free up some backpack space before I can sell you one.
+      - *(If the player has (virtual) level 120 Runecrafting:)*
+      - I've mastered this skill. Is there anything else?
+        - **Larriar:** There is something...though I have kept it a secret for a very long time. It is something that can only be worn by a true master.
+        - **Larriar:** Not even I can wear it – that's how hard it is to achieve.
+        - **Larriar:** You say you're a master. Stand straight, let me take a look at you...
+        - **Larriar:** You...really have mastered it. What an honour! It would be my pleasure to sell you a Runecrafting master cape.
+          - Buy Runecrafting master cape for 120,000 coins?
+            - Yes.
+              - ((If the player has at least one free backpack space:))
+                - (removes=120,000 coins) (receives=Runecrafting master cape)
+                - (end)
+              - ((If the player does not have at least one free backpack space:))
+                - **Larriar:** You do not have enough room in your inventory. Please come back when you have some more.
+            - No.
+              - (end)
+      - *(If the player has unlocked the inverted Runecrafting master cape:)*
+        - I'd like a master cape with the colours inverted.
+          - **Larriar:** (above2|120)
+  - I've noticed there are a couple versions of each skillcape.
+    - **Larriar:** Yes! We, the skill masters, have crafted new versions of all skillcapes! We felt like it was time for a change.
+    - *(If the player has chosen the new skillcape models:)*
+      - **Larriar:** You can still choose to wear the old model skillcape if you want. Would you like to change which model you are currently using?
+      - Select an option
+        - Yes, I would like to wear the old version of the skillcape.
+          - **Larriar:** Would you like to wear the old model for just this cape, or for the Quest point cape and all of the skillcapes you own?
+          - Select an option
+            - I would just like to change the Runecrafting skillcape.
+              - **Larriar:** No problem, you will now use the older model for your Runecrafting skillcape.
+            - I would like to change all my skillcapes.
+              - **Larriar:** No problem, you will now use the older model for all of your skillcapes!
+            - I've changed my mind!
+              - (end)
+        - No, thank you.
+          - **Larriar:** Great! I'm glad you're enjoying our new version!
+          - *(If the player is using the old skillcape models except for the Runecrafting cape:)*
+            - **Larriar:** If you want, I can make it so you use the newer model for all of the skillcapes you own!
+            - Select an option
+              - Ok, I'd like to wear the newer version for all my skillcapes.
+                - **Larriar:** Great, you will now use the newer model for all of your skillcapes!
+              - No, thanks.
+                - (end)
+    - *(If the player has chosen the old skillcape models:)*
+      - **Larriar:** It looks like you're currently using the old model for your Runecrafting skillcape. Would you like to change to the newer one?
+      - Select an option
+        - Yes, I would like to wear the new version of the skillcape.
+          - **Larriar:** Would you like to wear the newer model for just this cape, or all of the skillcapes you own?
+          - Select an option
+            - I would just like to change the Runecrafting skillcape.
+              - **Larriar:** No problem, you will now use the newer model for your Runecrafting skillcape.
+            - I would like to change all my skillcapes.
+              - **Larriar:** No problem, you will now use the newer model for all of your skillcapes!
+            - I've changed my mind!
+              - (end)
+        - No, thank you.
+          - **Larriar:** Great! I'm glad you're still enjoying the old version!
+          - *(If the player is using the new skillcape models except for the Runecrafting cape:)*
+            - **Larriar:** If you want, I can make it so you use the old model for all of the skillcapes you own!
+            - Select an option
+              - Ok, I'd like to wear the old version for all my skillcapes.
+                - **Larriar:** Great, you will now use the old model for all of your skillcapes!
+              - No, thanks.
+                - (end)
+  - Can you help me with the rune ethereal outfits?
+    - **Player:** Can you help me with the rune ethereal outfits?
+      - *If the player can't receive rune ethereal fragments and hasn't unlocked the blueprint required to make the outfit pieces:*
+        - **Larriar:** At level 70 you can start to collect fragments to make elite skilling outfits. When you get to that level you will automatically start collecting fragments. Then you can use them with a blueprint to make yourself any remaining elite outfit pieces for this skill.
+      - *If the player can receive rune ethereal fragments but hasn't unlocked the blueprint required to make the outfit pieces: *
+        - **Larriar:** You are set up to receive fragments. When you get to level 80 you will be able to create outfit pieces.
+      - *If the player can receive rune ethereal fragments and has unlocked the blueprint required to make the outfit pieces: *
+        - **Larriar:** You are set up to receive fragments. When you get to level 80 you will be able to create outfit pieces. Simply go to an Invention workbench to create the pieces.
+      - *If the player already owns the infinity ethereal outfit, or all of the outfit pieces:*
+        - **Larriar:** You have already created all of the possible outfit pieces. I will make sure you do not receive any further fragments.
+        - **Larriar:** You can combine the base outfit pieces to make the high tier versions, to get the additional benefits.
+  - Never mind.
+    - **Player:** Never mind.

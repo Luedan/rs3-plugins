@@ -1,0 +1,94 @@
+# Hickton
+
+- **Original Wiki Page**: [Transcript:Hickton](https://runescape.wiki/w/Transcript%3AHickton)
+- **Letter**: `H`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Talk to
+
+- **Hickton:** Bienvenido al Emporio de Tiro con Arco de Hickton. ¿Quieres ver mis productos?
+- [Menu]: Elige una opción:
+  - [Choice]: Sí, por favor.
+    - (opens=Hickton's Archery Emporium)
+  - [Choice]: ¿Puedes venderme un Fletching Skillcape?
+    - (Condition: Si el player tiene un ring of charos (a) equipado:)
+      - **Hickton:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins para este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
+      - [Menu]: Elige una opción:
+        - [Choice]: ¿92.000 coins? Eso es demasiado caro.
+          - **Player:** Sé dónde encontrarte si cambio de opinión.
+        - [Choice]: De hecho, creo que tengo el dinero aquí.
+          - (Condition: Si el player no tiene espacio backpack:)
+            - **Hickton:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar espacio en backpack antes de que pueda venderte uno.
+          - (Condition: Si el player no tiene suficiente dinero:)
+            - **Player:** Pero desafortunadamente me equivoqué.
+            - **Hickton:** Bueno, vuelve a verme cuando lo hagas.
+          - (Condition: Si el player tiene suficiente dinero:)
+            - (receives=fletching cape and fletching hood) (removes=92,000 coins)
+            - **Hickton:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+    - (Condition: Si el player no tiene un ring of charos(a) equipado:)
+      - **Hickton:** ¿Buscas un flechero de tu calibre? Me temo que esas cosas no salen baratas. ¡Cuestan 99.000 coins, para ser precisos!
+      - [Menu]: Elige una opción:
+        - [Choice]: ¿99.000 coins? Eso es demasiado caro.
+          - **Player:** Sé dónde encontrarte si cambio de opinión.
+        - [Choice]: De hecho, creo que tengo el dinero aquí.
+          - (Condition: Si el player no tiene espacio backpack:)
+            - (arriba)
+          - (Condition: Si el player no tiene suficiente dinero:)
+            - (arriba)
+          - (Condition: Si el player tiene suficiente dinero:)
+            - (receives=fletching cape and fletching hood) (removes=99,000 coins)
+            - **Hickton:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+        - [Choice]: cond=With virtual 120 Fletching:|He dominado esta habilidad. ¿Hay algo más?
+          - (below|120)
+  - [Choice]: cond=With virtual 120 Fletching:|He dominado esta habilidad. ¿Hay algo más?
+    - **Hickton:** Hay algo... aunque lo he mantenido en secreto durante mucho tiempo. Es algo que sólo puede ser usado por un verdadero maestro.
+    - **Hickton:** Ni siquiera yo puedo usarlo, así de difícil es lograrlo.
+    - **Hickton:** Dices que eres un maestro. Ponte derecho, déjame echarte un vistazo...
+    - **Hickton:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Fletching master cape.
+    - [Menu]: ¿Comprar Fletching master cape por 120.000 coins?
+      - [Choice]: Sí.
+        - (Condition: Sin espacio libre backpack:)
+          - **Hickton:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
+        - (Condition: Sin 120.000 coins:)
+          - No tienes suficiente dinero para comprar esta capa.
+          - (ventana emergente)
+            - (Ventana emergente: No tienes suficiente dinero para comprar esta capa.|advertencia=yes)
+        - (Condition: Con espacio backpack gratuito y 120.000 coins:)
+          - (removes=120,000 coins) (receives=Fletching master cape)
+          - (Action: Suena música Master cape.)
+      - [Choice]: No.
+        - (end)
+  - [Choice]: He notado que hay un par de versiones de cada skillcape.
+    - **Hickton:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
+    - (Condition: Si usas el modelo antiguo:)
+      - **Hickton:** Parece que actualmente estás usando el modelo anterior para tu Fletching skillcape. ¿Quieres cambiar a uno más nuevo?
+      - (continue)
+    - (Condition: Si utiliza el nuevo modelo:)
+      - **Hickton:** Aún puedes optar por usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
+      - (continue)
+    - [Menu]: Selecciona una opción
+      - [Choice]: Sí, me gustaría usar la versión [new/old] del skillcape.
+        - **Hickton:** ¿Te gustaría usar el modelo [old/newer] solo para esta capa, o para el Quest Cape y todos los skillcapes que tienes?
+        - [Menu]: Selecciona una opción
+          - [Choice]: Sólo me gustaría cambiar el skillcape con plumas.
+            - **Hickton:** No hay problema, ahora usarás el modelo [older/newer] para tu skillcape con emplumados.
+          - [Choice]: Me gustaría cambiar todos mis skillcapes.
+            - **Hickton:** ¡No hay problema, ahora usarás el modelo [older/newer] para todos tus skillcapes!
+          - [Choice]: ¡He cambiado de opinión!
+            - (end)
+      - [Choice]: No, gracias.
+        - **Hickton:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
+        - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+          - **Hickton:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
+          - [Menu]: Selecciona una opción
+            - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.
+              - **Hickton:** ¡Genial, ahora usarás el modelo antiguo para todos tus skillcapes!
+            - [Choice]: No, gracias.
+              - (end)
+  - [Choice]: No, prefiero ver las cosas de cerca.
+    - **Player:** No, prefiero ver las cosas de cerca.

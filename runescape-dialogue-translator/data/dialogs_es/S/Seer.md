@@ -1,0 +1,127 @@
+# Seer
+
+- **Original Wiki Page**: [Transcript:Seer](https://runescape.wiki/w/Transcript%3ASeer)
+- **Letter**: `S`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### In Seers' Village
+
+- **Seer:** Eh, ¿qué era esa fuerza oscura? Nunca he sentido nada parecido...
+- **Seer:** De todos modos, lo siento.
+- [Menu]: Elige una opción:
+  - [Choice]: Busco conocimiento y poder.
+    - **Player:** ¡Busco conocimiento y poder!
+    - **Seer:** El conocimiento proviene de la experiencia, el poder proviene de las hachas de batalla.
+  - [Choice]: Acerca del sistema de tareas...
+    - (Condition: Si el player ha completado las tareas fáciles del conjunto Seers' Village y las recompensas no han sido reclamadas:)
+      - **Player:** Hola. Completé las tareas fáciles en el conjunto Aldea de los videntes.
+      - **Seer:** Bien hecho, aventurero. Es evidente que eres un hombre de gran sabiduría. Tengo un regalo para ti.
+      - [El vidente te entrega una diadema de aspecto extraño y una lámpara oxidada.]
+      - **Seer:** Ahora eres un vidente honorario y Geoffrey, que trabaja en el campo de lino del sur, te dará lino gratis todos los días. Pero no lo llames Geoffrey; prefiere que lo conozcan como "Flax".
+      - **Player:** ¿Es eso todo?
+      - **Seer:** No, no. Además de que Flax te dará 30 linaza por día, podrás ver con claridad en la oscuridad y tu defensa contra los ataques mágicos aumentará.
+      - **Seer:** Stankers permitirá 140 trozos de carbón en su camión de carbón y obtendrás un tronco adicional al cortar árboles normales.
+      - **Player:** ¿Lino? ¿Qué clase de nombre es ese para una persona?
+      - **Seer:** Lo sé, lo sé. El pobre niño es un alma sencilla: le encanta recoger lino. Me temo que demasiado.
+      - (continue)
+    - (Condition: Si el player ha perdido la diadema 1 de su Seer:)
+      - **Player:** He perdido la diadema de mi vidente.
+      - **Seer:** ¡No temas! Puedo darte uno nuevo. Nosotros, los videntes, somos olvidadizos, así que tengo muchos.
+      - (receives=Seer's headband 1)
+      - [El vidente te entrega una diadema de aspecto extraño.]
+      - **Player:** ¡Gracias!
+      - (continue)
+    - (Condition: De lo contrario:)
+      - **Seer:** ¿Cómo disfrutas tu diadema?
+      - **Player:** ¡Me encanta!
+      - (continue)
+    - [Menu]: Elige una opción:
+      - [Choice]: Háblame del Sistema de Logros.
+        - **Seer:** Muy bien: el Sistema de Logros es una colección de hazañas que quizás desees completar mientras viajas por el mundo.
+        - **Seer:** Puedes ganar recompensas especiales por completar ciertos logros; como mínimo, cada uno vale una recompensa en efectivo de Explorer Jack en Lumbridge.
+        - **Seer:** Algunos también ofrecen elementos que ayudarán a completar otros logros y muchos cuentan como progreso hacia el conjunto del área en la que se encuentran.
+        - [Menu]: Elige una opción:
+          - [Choice]: Cuéntame sobre la recompensa establecida para esta localidad.
+            - **Player:** Cuéntame sobre la recompensa establecida para esta localidad.
+            - **Seer:** Para completar el conjunto Seers' Village, se te presenta una diadema.
+            - **Seer:** Recibirás una diadema mejor con cada nivel de dificultad del conjunto que completes.
+            - **Seer:** Cuando se le presenten sus recompensas, se le informará sobre sus usos.
+            - También puedes ver qué recompensas proporciona un elemento determinado al pasar el cursor sobre el ícono de Recompensas de su Logro de exploración establecido en la interfaz de Logros.
+            - (previous2)
+          - [Choice]: ¿Cómo reclamo estas recompensas?
+            - **Player:** ¿Cómo reclamo las recompensas?
+            - **Seer:** Debes completar todas las tareas de un conjunto de una dificultad particular y luego podrás reclamar tu recompensa.
+            - **Seer:** Algunas de las tareas del conjunto Seers' Village son simples, algunas requerirán cierto skill levels y otras pueden requerir que se inicien o completen misiones.
+            - **Seer:** Para reclamar las recompensas del conjunto Seers' Village, habla con Stankers en la mina de carbón al oeste, con Sir Kay en Camelot o con cualquiera de nosotros, los videntes.
+            - (previous2)
+          - [Choice]: Lo siento, me estaba yendo.
+            - (end)
+      - [Choice]: ¿Puedo comprar un repuesto de la recompensa?
+        - [Menu]: Elige una opción:
+          - [Choice]: Diadema de Seer 1
+            - **Seer:** ¿La diadema 1 de Seer? Sí, pero me temo que te costaría 1.500 coins.
+            - [Menu]: ¿Comprar otro por 1.500 coins?
+              - [Choice]: si
+                - [Te entregan la diadema 1 de otro Seer.]
+                - (receives=Seer's headband 1) (removes= 1,500 coins)
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Diadema de Seer 2
+            - **Seer:** ¿La diadema 2 de Seer? Sí, pero me temo que te costaría 2500 coins.
+            - [Menu]: ¿Comprar otro por 2500 coins?
+              - [Choice]: si
+                - [Te entregan la diadema 2 de otro Seer.]
+                - (receives=Seer's headband 2) (removes= 2,500 coins)
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Diadema de Seer 3
+            - **Seer:** ¿La diadema 3 de Seer? Sí, pero me temo que te costaría 7.500 coins.
+            - [Menu]: ¿Comprar otro por 7.500 coins?
+              - [Choice]: si
+                - [Te entregan la diadema de otro Seer 3.]
+                - (receives=Seer's headband 3) (removes= 7,500 coins)
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Diadema de Seer 4
+            - **Seer:** ¿La diadema 4 de Seer? Sí, pero me temo que te costaría 15.000 coins.
+            - [Menu]: ¿Comprar otro por 15.000 coins?
+              - [Choice]: si
+                - [Te entregan la diadema de otro Seer 4.]
+                - (receives=Seer's headband 4) (removes= 15,000 coins)
+              - [Choice]: No
+                - **Player:** No, gracias.
+      - [Choice]: cond=If at least the hard Seers' Village achievements are completed and the rewards claimed|Me gustaría cambiar mi punto de teletransporte.
+        - **Player:** Me gustaría cambiar mi punto de Camelot Teleport.
+        - [Menu]: ¿Cambiar Camelot Teleport a [Seers' Village/Camelot]?
+          - [Choice]: si
+            - Camelot Teleport ahora te teletransportará al [Seers' Village/to the gates of Camelot].
+          - [Choice]: No
+            - (end)
+      - [Choice]: Lo siento, me estaba yendo.
+        - (end)
+  - [Choice]: cond=If at least the hard Seers' Village achievements are completed and the rewards claimed|Alternar teletransporte de Camelot
+    - [Menu]: ¿Cambiar Camelot Teleport a [Seers' Village/Camelot]?
+      - [Choice]: Sí.
+        - Camelot Teleport ahora te teletransportará al [Seers' Village/to the gates of Camelot].
+      - [Choice]: No.
+        - (end)
+
+#### Diálogo histórico
+
+- **Seer:** Eh, ¿qué era esa fuerza oscura? Nunca he sentido nada parecido...
+- **Seer:** De todos modos, lo siento.
+- [Menu]: Elige una opción:
+  - [Choice]: Busco conocimiento y poder.
+    - (arriba)
+  - [Choice]: ¿Qué has sentido últimamente?
+    - **Seer:** No he sentido mucho últimamente, excepto cuando los dioses partieron del campo de batalla cerca de Lumbridge.
+    - **Seer:** ¡Quizás suceda algo pronto!
+  - [Choice]: Acerca del sistema de tareas...
+    - (arriba)
+  - [Choice]: cond=If at least the hard Seers' Village achievements are completed and the rewards claimed|Alternar teletransporte de Camelot
+    - (arriba)

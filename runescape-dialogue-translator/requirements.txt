@@ -1,0 +1,5 @@
+# RuneScape Dialogue Translator
+# Requisitos del Sistema:
+# - Python 3.8 o superior (probado en Python 3.10, 3.11, 3.12, 3.13)
+# - No requiere librerías externas (cero pip install necesarios).
+# - Utiliza exclusivamente módulos nativos de la librería estándar de Python (urllib, json, re, argparse, os, sys, shutil, time).

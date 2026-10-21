@@ -1,0 +1,122 @@
+# Ajjat
+
+- **Original Wiki Page**: [Transcript:Ajjat](https://runescape.wiki/w/Transcript%3AAjjat)
+- **Letter**: `A`
+
+---
+
+## Dialogue Transcript
+
+
+### In the Warriors' Guild
+
+- **Ajjat:** Greetings, fellow warrior. I am Ajjat, former Black Knight and now training officer here in the Warriors' Guild.
+- {{tcond|If the player has 99 Attack:}}
+  - **Ajjat:** Ah, but I can see you are already a master in the fine art of attacking, perhaps you have come to me to purchase a Skillcape of Attack, and thus join the elite few who have mastered this exacting skill?
+  - {{tact|continue}}
+- {{tselect|Select an Option}}
+  - {{topt|cond=If the player does not have 99 Attack:|Can you tell me about skillcapes, please?}}
+    - **Ajjat:** Skillcapes, also known as Capes of Accomplishment, are reserved for the elite of the elite. Only a person who has truly mastered a skill can buy one, and even then a skillcape and only be bought from one who is recognised as
+    - **Ajjat:** the highest skilled in the land at any particular skill. I have the privilege of being the person that controls access to the Skillcape of Attack. Is there anything else I can help you with?
+    - {{tact|initial}}
+  - {{topt|cond=If the player has 99 Attack:|May I buy a Skillcape of Attack, please?}}
+    - {{tcond|If the player does not have a ring of charos (a) equipped:}}
+      - **Ajjat:** Most certainly; unfortunately being such a prestigious item, they are appropriately expensive. I'm afraid I must ask you for 99,000 gold.
+      - (continue)
+    - {{tcond|If the player has a ring of charos (a) equipped:}}
+      - **Ajjat:** I don't do this for anyone, but I've got a special offer today! Normally I require 99,000 coins for this prestigious item, but for you it's half price. Only 92,000 coins!
+      - (continue)
+    - (Condition: With an inverted skillcape token:)
+      - **Ajjat:** I see you have one of Han's cape inversion tokens! I'll take that off your hands, and will sell you any inverted cape you're eligible for.
+      - (removes=inverted skillcape token)
+      - (continue)
+    - {{tselect|Choose an option:}}
+      - [Choice]: cond=While wearing an activated or imbued ring of charos:|92,000 coins? That's much too expensive.
+        - **Player:** I know where to find you if I change my mind.
+      - [Choice]: cond=Without an activated or imbued ring of charos:|99,000 coins? That's much too expensive.
+        - **Player:** I know where to find you if I change my mind.
+      - {{topt|I think I have the money right here, actually.}}
+        - {{tcond|If the player has no backpack space:}}
+          - **Ajjat:** Unfortunately all skillcapes are only available with a free hood, it's part of a skill promotion deal; buy one get one free, you know. So, you'll need to free up some backpack space before I can sell you one.
+        - {{tcond|If the player does not have enough money:}}
+          - **Player:** But unfortunately, I was mistaken.
+          - **Ajjat:** Well, come back and see me when you do.
+        - {{tcond|If the player has enough money:}}
+          - (removes=92,000 or 99,000 coins) {{tact|receives=Attack cape and Attack hood}}
+          - **Ajjat:** Excellent! Wear that cape with pride my friend.
+      - [Choice]: cond=Having unlocked the inverted skillcape:|I'd like a skillcape with the colours inverted.
+        - (Condition: Without enough coins:)
+          - **Player:** But, unfortunately, I don't have enough coins.
+          - **Ajjat:** Well, come back and see me when you do.
+        - (Condition: Without one free backpack space:)
+          - **Ajjat:** Unfortunately you'll need to free up some backpack space before I can sell you one.
+        - (Condition: With enough coins and two free spaces in backpack:)
+          - (removes=92,000 or 99,000 coins) (receives=a Inverted hooded Necromancy cape)
+          - **Ajjat:** Excellent! Wear that cape with pride my friend.
+      - [Choice]: cond=Only with true skill mastery in Attack:|I've mastered this skill. Is there anything else?
+        - **Ajjat:** There is something...though I have kept it a secret for a very long time. It is something that can only be worn by a true master.
+        - **Ajjat:** Not even I can wear it - that's how hard it is to achieve.
+        - **Ajjat:** You say you're a master. Stand straight, let me take a look at you...
+        - **Ajjat:** You...really have mastered it. What an honour! It would be my pleasure to sell you a Attack master cape.
+        - [Menu]: Buy Attack master cape for 120,000 coins?
+          - [Choice]: Yes.
+            - (Condition: Without free backpack space:)
+              - **Ajjat:** You do not have enough room in your backpack. Please come back when you have some more.
+            - (Condition: With free backpack space:)
+              - (Condition: Without 120,000 coins:)
+                - You do not have enough money to purchase this cape.
+                - (pop-up)
+                  - {{Pop-up|You do not have enough money to purchase this cape.}}
+              - (Condition: With 120,000 coins:)
+                - (removes=120,000 coins) (receives=Attack master cape)
+                - {{Qact|Master cape music plays.}}
+          - [Choice]: No.
+            - (end)
+  - [Choice]: Black Knight? Why are you here?
+    - **Player:** Black Knight? Why are you here?
+    - **Ajjat:** Indeed I was, however, their...methods did not match with my ideals, so I left. Harrallak, recognising my talent as a warrior, took me in and offered me a job here.
+    - **Player:** Hmm...well, if Harrallak trusts you, I guess I can.
+    - (initial)
+  - [Choice]: What's the dummy room all about?
+    - **Player:** What's the Dummy Room all about?
+    - **Ajjat:** Ahh yes, the dummies. Another ingenious invention of the noble dwarf, Gamfred. They're mechanical, you see, and pop up out of the floor. You have to hit them with the correct attack mode before they disappear again.
+    - **Player:** So, how do I tell which one is which?
+    - **Ajjat:** There are two different ways. One indication is their colour, the other is the pose and weapons they are holding, for instance, the one holding daggers you will need to hit with a piercing attack.
+    - **Ajjat:** In the room, you will find a poster on the wall to help you recognise each different dummy.
+    - **Player:** That sounds ingenious!
+    - **Ajjat:** Indeed, you may find that you need several weapons to be successful all of the time, but keep trying. The weapons shop upstairs may help you there.
+    - {{tact|initial}}
+  - {{topt|cond=If the player has 99 Attack|I've noticed there are a couple of versions of each skillcape.}}
+    - **Ajjat:** Yes! We, the skill masters, have crafted new versions of all skillcapes! We felt like it was time for a change.
+    - (Condition: If the player is using the old model:)
+      - **Ajjat:** It looks like you're currently using the old model for your Attack skillcape. Would you like to change to the newer one?
+      - {{tact|continue}}
+    - (Condition: If the player is using the new model:)
+      - **Ajjat:** You can still choose to wear the old model skillcape if you want. Would you like to change which model you are currently using?
+      - {{tact|continue}}
+    - {{tselect|Select an Option}}
+      - [Choice]: Yes, I would like to wear the [new/old] version of the skillcape.
+        - **Ajjat:** Would you like to wear the [old/newer] model for just this cape, or for the Quest Cape and all of the skillcapes you own?
+        - {{tselect|Select an Option}}
+          - [Choice]: I would just like to change the Attack skillcape.
+            - **Ajjat:** No problem, you will now use the [older/newer] model for your Attack skillcape.
+          - [Choice]: I would like to change all my skillcapes.
+            - **Ajjat:** No problem, you will now use the [older/newer] model for all of your skillcapes!
+          - [Choice]: I've changed my mind!
+            - {{tact|end}}
+      - [Choice]: No, thank you.
+        - **Ajjat:** Great! I'm glad you're still enjoying the [old/new] version!
+        - (Condition: If the player uses the new model for any other skillcape:)
+          - **Ajjat:** If you want, I can make it so you use the old model for all of the skillcapes you own.
+          - [Menu]: Select an Option
+            - [Choice]: Ok, I'd like to wear the old version for all my skillcapes.
+              - **Ajjat:** Great, you will now use the old model for all of your skillcapes!
+            - [Choice]: No, thanks.
+              - (end)
+  - [Choice]: Bye!
+    - **Player:** Bye!
+    - **Ajjat:** Farewell, warrior. Stay away from the dark side.
+
+### Heart of Gielinor: Encampment
+
+- (see|Heart of Gielinor: Encampment)

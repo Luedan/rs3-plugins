@@ -1,0 +1,193 @@
+# Lumbridge Guardsmen
+
+- **Original Wiki Page**: [Transcript:Lumbridge Guardsmen](https://runescape.wiki/w/Transcript%3ALumbridge%20Guardsmen)
+- **Letter**: `L`
+
+---
+
+## Dialogue Transcript
+
+
+### On the {{floorNumber|1}} and {{floorNumber|2}} of Lumbridge Castle
+
+- ((The player greets with one of the following at random:))
+  - **Player:** Greetings.
+  - **Player:** Good day.
+  - **Player:** Howdy.
+  - **Player:** Salutations!
+  - **Player:** Nice to meet you.
+  - (continue)
+- ((The guardsman responds with one of the following at random:))
+  - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Well met, adventurer.
+  - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Well, hello there.
+  - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Good day to you, adventurer.
+  - (continue)
+- [Menu]: What would you like to say?
+  - [Choice]: Tell me more about the Lumbridge Guardsmen.
+    - ((The guardsman responds with one of the following at random:))
+    - (Dialogue 1:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** I spoke to a few people who asked me about signing up for the guardsmen. To be asked, you need to be a true local. Our troops are ready for action.
+      - (initial)
+    - (Dialogue 2:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** I won't pretend that we're an elite fighting force, but we know how to work with the castle's defences. That means just a few of us can hold a fairly strong position.
+      - (initial)
+    - (Dialogue 3:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** The Guardsmen are mainly local farmers who come to the town's defence in hours of need.
+      - (initial)
+  - [Choice]: What is there to do around here?
+    - ((The guardsman responds with one of the following at random:))
+    - (Dialogue 1:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Goblins have invaded to the east, and we could use your help to keep the numbers down!
+      - (initial)
+    - (Dialogue 2:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** There are many people who need help. When in doubt, check your quest journal.
+      - (initial)
+    - (Dialogue 3:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** If you want to train your skills, there are trees to cut, or you could collect leather from the cow fields to the east.
+      - (initial)
+  - [Choice]: Tell me about Lumbridge.
+    - ((The guardsman responds with one of the following at random:))
+    - (Dialogue 1:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Lumbridge is a safe haven where you can find your feet. It's good to be home.
+      - (initial)
+    - (Dialogue 2:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** It's nice here. Sure, we have goblins raiding from time to time, but it's mostly peaceful.
+      - (initial)
+    - (Dialogue 3:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Lumbridge has been through its share of difficult changes over the years, but we rebuild and look after each other and life goes on.
+      - (initial)
+  - [Choice]: What are you guarding?
+    - ((The guardsman responds with one of the following at random:))
+    - (Dialogue 1:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** We guard the castle against any incursion. We must always be ready, especially in these interesting times.
+      - (initial)
+    - (Dialogue 2:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** We work for the safety of the people and the Duke, and we must be vigilant at all times against potential threats, be they acts of god or goblin invasions.
+      - (initial)
+    - (Dialogue 3:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Although we are in a time of relative peace, we need to be prepared for any eventuality.
+      - (initial)
+  - [Choice]: Bye.
+    - **Player:** Bye.
+
+#### Historical dialogue, after the Battle of Lumbridge
+
+- ((The player greets with one of the following at random:))
+  - **Player:** Greetings.
+  - **Player:** Good day.
+  - **Player:** Howdy.
+  - **Player:** Salutations!
+  - **Player:** Nice to meet you.
+  - (continue)
+- ((The guardsman responds with one of the following at random:))
+  - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Well met, adventurer.
+  - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Well, hello there.
+  - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Good day to you, adventurer.
+  - (continue)
+- [Menu]: What would you like to say?
+  - [Choice]: Tell me more about the Lumbridge Guardsmen.
+    - ((The guardsman responds with one of the following at random:))
+    - (Dialogue 1:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** I spoke to a few people who asked me about signing up for the guardsmen. To be asked, you need to be a true local. I mean, when the call to arms was raised, our troops were waiting here, ready for action.
+      - (initial)
+    - (Dialogue 2:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** I won't pretend that we're an elite fighting force, but we know how to work with the castle's defences. That means just a few of us can hold a fairly strong defence, if we ever need to again.
+      - (initial)
+    - (Dialogue 3:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** The Guardsmen are mainly local farmers who come to the town's defence in hours of need. We were here and ready, for example, when Saradomin and Zamorak fought the Battle of Lumbridge.
+      - (initial)
+  - [Choice]: What is there to do around here?
+    - ((The guardsman responds with one of the following at random:))
+    - (Dialogue 1:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** The battlefield is not the only threat to Lumbridge. Goblins have invaded to the east, and we could use your help to keep the numbers down!
+      - (initial)
+    - (Dialogue 2:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Although the battle is over, the problems of the world have not gone away. There are many people who need help nearby. Perhaps Xenia or Explorer Jack have some work!
+      - (initial)
+    - (Dialogue 3:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** If you want to train your creative skills, there are trees to cut, or you could collect leather from the cow fields to the east.
+      - (initial)
+  - [Choice]: Tell me about Lumbridge.
+    - ((The guardsman responds with one of the following at random:))
+    - (Dialogue 1:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Lumbridge used to be a safe haven where you could find your feet. It is safe again now, but I wonder if we will ever recover what we've lost.
+      - (initial)
+    - (Dialogue 2:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** It used to be much nicer here, before the Battle of Lumbridge. Sure, we had goblins raiding from time to time, but they're easy compared to Zamorakian demons!
+      - (initial)
+    - (Dialogue 3:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Lumbridge was devastated by the battle between Zamorak and Saradomin. I'm glad it's over, and we have a chance to rebuild.
+      - (initial)
+  - [Choice]: What are you guarding?
+    - ((The guardsman responds with one of the following at random:))
+    - (Dialogue 1:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** We guard the castle against any resurgence in fighting, such as the Battle of Lumbridge. We must always be ready, especially in these troubled times.
+      - (initial)
+    - (Dialogue 2:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** We work for the safety of the people and the Duke, and must be vigilant at all times against potential threats, be they acts of god or goblin invasion.
+      - (initial)
+    - (Dialogue 3:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Although we are in a time of relative peace, the Battle of Lumbridge taught us that we always need to be prepared for any eventuality.
+      - (initial)
+  - [Choice]: Bye.
+    - **Player:** Bye.
+
+#### Historically, during the Battle of Lumbridge
+
+- ((The player greets with one of the following at random:))
+  - **Player:** Greetings.
+  - **Player:** Good day.
+  - **Player:** Howdy.
+  - **Player:** Salutations!
+  - **Player:** Nice to meet you.
+  - (continue)
+- ((The guardsman responds with one of the following at random:))
+  - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Well met, adventurer.
+  - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Well, hello there.
+  - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Good day to you, adventurer.
+  - (continue)
+- [Menu]: What would you like to say?
+  - [Choice]: Tell me more about the Lumbridge Guardsmen.
+    - (Dialogue 1:)
+      - (above|a1)
+    - (Dialogue 2:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** I won't pretend that we're an elite fighting force, but we do our best, and so far we've held back the knights on the battlefield from entering the castle.
+      - (initial)
+    - (Dialogue 3:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** The Guardsmen are mainly local farmers who come to the town's defence in hours of need, such as now! We defend the castle from the battle that is raging to the west.
+      - (initial)
+  - [Choice]: What is there to do around here?
+    - ((The guardsman responds with one of the following at random:))
+    - (Dialogue 1:)
+      - (above|b1)
+    - (Dialogue 2:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Although the battle rages on, the other problems of the world have not gone away. There are many people who need help nearby. Perhaps Xenia or Explorer Jack have some work.
+      - (initial)
+    - (Dialogue 3:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Many people have gone to join the armies or Saradomin or Zamorak, and I suppose you could too, but we'd appreciate it if you keep the fighting away from the castle!
+      - (initial)
+  - [Choice]: Tell me about Lumbridge.
+    - ((The guardsman responds with one of the following at random:))
+    - (Dialogue 1:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Lumbridge used to be a safe haven where you could find your feet. Now it's a war-torn battleground. I long for the day when the battle is over?
+      - (initial)
+    - (Dialogue 2:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** It used to be much nicer here, before the Battle of Lumbridge started. Sure, we had goblins raiding from time to time, but they're easy compared to Zamorakian demons!
+      - (initial)
+    - (Dialogue 3:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Lumbridge is currently devastated by the battle raging to the west. Have you seen the state of Explorer Jack's house? And the castle walls are ruined!
+      - (initial)
+  - [Choice]: What are you guarding?
+    - ((The guardsman responds with one of the following at random:))
+    - (Dialogue 1:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** I am guarding the castle as best I can. We don't have many troops left, between our losses and people defecting to join Saradomin, or even Zamorak.
+      - (initial)
+    - (Dialogue 2:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** I'm doing the best I can to keep the fighting on the battlefield to the west and away from the Duke! At least the knights on the battlefield are mainly focused on each other!
+      - (initial)
+    - (Dialogue 3:)
+      - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** We all have to act together in times of trouble. What if a Zamorakian demon or rogue Saradominist sneaks into the castle? We must be ready!
+      - (initial)
+  - [Choice]: Bye.
+    - **Player:** Bye.
+pt:Transcrição:Guardas de Lumbridge

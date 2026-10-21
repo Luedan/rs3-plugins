@@ -1,0 +1,122 @@
+# Miss Schism
+
+- **Original Wiki Page**: [Transcript:Miss Schism](https://runescape.wiki/w/Transcript%3AMiss%20Schism)
+- **Letter**: `M`
+
+---
+
+## Dialogue Transcript
+
+
+### In Draynor Village
+
+- **Miss Schism:** Oooh, my dear, have you heard the news?
+- [Menu]: What would you like to say?
+  - [Choice]: Ok, tell me about the news.
+    - **Miss Schism:** Well, there's just too much to tell at once! What would you first like to hear: the vampyre or the bank?
+    - [Menu]: Select an Option
+      - [Choice]: Tell me about the vampyre.
+        - (Condition: Before Vampyre Slayer:)
+          - **Miss Schism:** It's terrible, absolutely terrible! Those poor people!
+          - **Player:** What is terrible?
+          - **Miss Schism:** Why, the attacks!
+          - **Player:** A vampyre is attacking people?
+          - **Miss Schism:** Yes, haven't you been listening?
+          - **Miss Schism:** And no one is lifting a finger to do anything about it. Well, that new couple, Morgan and Maris, they think we should find a vampyre slayer, but I'm not sure I trust them.
+          - **Miss Schism:** They aren't local.
+          - (previous)
+        - (Condition: After Vampyre Slayer:)
+          - **Miss Schism:** Well, there's nothing to tell NOW. You killed it.
+          - **Player:** You could sound a little grateful.
+          - **Miss Schism:** I'm sure I could, but I don't see why. The vampyre wasn't bothering me.
+          - **Player:** ...
+          - (previous)
+      - [Choice]: Tell me about the bank.
+        - **Player:** What about the bank?
+        - **Miss Schism:** It's terrible, absolutely terrible! Those poor people!
+        - **Player:** Ok, yeah.
+        - **Miss Schism:** And who'd have ever thought such a sweet old gentleman would do such a thing?
+        - (Condition: If the player has not spoken to the bank guard already:)
+          - **Player:** I really don't know what you're talking about.
+          - **Miss Schism:** Oooh, my dear, had you not heard?
+          - **Player:** At this rate I don't think I want to know...
+          - **Miss Schism:** Oh, you must quickly go and speak to the bank guard outside the bank. He'll tell you all about it, oooh, such a shock it was...
+          - **Player:** ...
+        - (Condition: If the player has already spoken to the bank guard:)
+          - **Player:** Are we talking about the bank robbery?
+          - **Miss Schism:** Oh yes, my dear. It was terrible! TERRIBLE!
+          - **Miss Schism:** But tell me - have you been around here before, or are you new to these parts?
+          - [Menu]: What would you like to say?
+            - [Choice]: I'm quite new.
+              - **Miss Schism:** Aah, perhaps you missed the excitement. It's that old man in his house here. Do you know him?
+              - (Condition: If the player has not spoken to the Wise Old Man before:)
+                - **Player:** I haven't spoken to him yet.
+                - (continue)
+              - (Condition: If the player has spoken to the Wise Old Man before:)
+                - **Player:** Well, I've spoken to him.
+                - (continue)
+              - **Miss Schism:** When he first moved here, he didn't bring much. From the window you could see he just had some old furniture and a few dusty ornaments.
+              - **Miss Schism:** Here, look at this picture:
+              - You look at the picture...
+              - {{Qact|Screen fades in and out to show the sparse interior of the Wise Old Man's house in the past.}}
+              - **Wise Old Man:** {{RSChat|Oi - who's that spying on me?}}
+              - {{Qact|Screen fades in and out as the cutscene ends.}}
+              - **Miss Schism:** Also, he always seemed so poor. When I went round to collect donations for the Draynor Manor Restoration Fund, he couldn't spare them a penny!
+              - **Player:** So he's redecorated?
+              - **Miss Schism:** Well, just you look in there now!
+              - {{Qact|Camera shifts to the Candelabrum in the Wise Old Man's house.}}
+              - {{Qact|Camera shifts to the Study Desk.}}
+              - {{Qact|Camera shifts to the Wise Old Man and the Globe of Gielinor next to him.}}
+              - **Wise Old Man:** {{RSChat|Heh heh heh.}}
+              - {{Qact|Camera shifts back to the player and Miss Schism.}}
+              - **Miss Schism:** You see? It's full of jewellery and decorations! And all those expensive things appeared just after the bank got robbed.
+              - **Miss Schism:** He changed his hat too - he used to wear a scruffy old black thing, but suddenly he was wearing that party hat!
+              - (Condition: If the player has also completed Love Story:)
+                - **Miss Schism:** He's got that horrible woman in there too. I know her type. I'll bet you they're up to no good.
+                - (continue)
+              - **Player:** So that's why you're telling people he was the bank robber?
+              - **Miss Schism:** Oh, my dear, I'm SURE of it! I went upstairs in his house once, while he was out walking, and do you know what I found?
+              - **Player:** A sign saying 'Trespassers will be prosecuted'?
+              - **Miss Schism:** No, it was a telescope! It was pointing right at the bank! He was spying on the bankers, planning the big robbery!
+              - **Miss Schism:** I bet if you go and look through it now, you'll find it's pointing somewhere different now he's finished with the bank.
+              - **Player:** I'd like to go now.
+              - **Miss Schism:** Oh, really? Well, do keep an eye on him: I just KNOW he's planning something.
+            - [Choice]: I've been around here for ages.
+              - **Miss Schism:** Ah, so you'd seen the changes here. It's that old man in this house here. Do you know him?
+              - (continuea|wiseoldman)
+            - [Choice]: I've had enough of talking to you.
+              - **Miss Schism:** Maybe another time, my dear.
+  - [Choice]: Who are you?
+    - **Miss Schism:** I, my dear, am a concerned citizen of Draynor Village. Ever since the Council allowed those farmers to set up their stalls here, we've had a constant flow of thieves and murderers through our fair village, and I decided that
+    - **Miss Schism:** someone HAD to stand up and <br>keep an eye on the situation.
+    - **Miss Schism:** I also do voluntary work for the Draynor Manor Restoration Fund. We're campaigning to have Draynor Manor turned into a museum before the wet-rot destroys it completely.
+    - (Condition: Before Vampyre Slayer:)
+      - **Player:** Right...
+    - (Condition: After Vampyre Slayer:)
+      - **Player:** Well, now that I've cleared the vampyre out of the manor, I guess you won't have too much trouble turning it into a museum.
+      - **Miss Schism:** That's all very well dear, but no vampyre was ever going to stop me making it a museum.
+  - [Choice]: I'm not talking to you, you horrible woman.
+    - **Miss Schism:** Oooh.
+
+#### Historical dialogue
+
+- **Miss Schism:** Oooh, my dear, have you heard the news?
+- [Menu]: What would you like to say?
+  - [Choice]: Ok, tell me about the news.
+    - **Miss Schism:** Well, there's just too much to tell at once! What would you like to hear first: the , the bank or the battlefield?
+    - [Menu]: Select an Option
+      - [Choice]: Tell me about the
+        - (above|vampire)
+      - [Choice]: Tell me about the bank.
+        - (above|bank)
+      - [Choice]: Tell me about the battlefield.
+        - (Condition: During the Battle of Lumbridge:)
+          - **Miss Schism:** Have you seen the battlefield! Saradomin and Zamorak are fighting over to the east!
+          - **Miss Schism:** I can't believe what they're doing to the tourist trade! Soldiers everywhere and spells flying over the town.
+          - **Miss Schism:** I can't believe someone hasn't done something about it!
+        - (Condition: After the Battle of Lumbridge:)
+          - **Miss Schism:** Yes, it's a great tourist attraction. It proves our little village is important.
+  - [Choice]: Who are you?
+    - (above|concerned)
+  - [Choice]: I'm not talking to you, you horrible woman.
+    - **Miss Schism:** Oooh.

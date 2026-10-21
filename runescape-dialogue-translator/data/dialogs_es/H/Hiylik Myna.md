@@ -1,0 +1,115 @@
+# Hiylik Myna
+
+- **Original Wiki Page**: [Transcript:Hiylik Myna](https://runescape.wiki/w/Transcript%3AHiylik%20Myna)
+- **Letter**: `H`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue east of Paterdomus
+
+- **Hiylik Myna:** Hola amigo. ¿Qué puedo hacer por ti?
+- [Menu]: Selecciona una opción
+  - [Choice]: Hable sobre el sistema de tareas...
+    - ((Si el player ha completado los logros fáciles de Morytania y no se han reclamado las recompensas:))
+      - **Player:** He completado todas las tareas fáciles del conjunto Morytania.
+      - **Hiylik Myna:** Ah, eso es un alivio. Ya puedes usar leggings Morytania. Tengo algunos para ti.
+      - [Hiylik Myna te entrega unas mallas y una lámpara vieja.]
+      - **Hiylik Myna:** Estos son verdaderamente unos leggings benditos; Estoy seguro de que el propio Saradomin habría estado orgulloso de usarlos. Los fantasmas te molestarán sólo la mitad, la floración te dará el doble de hongos y ayudar a los peregrinos al templo te ofrecerá
+      - **Hiylik Myna:** más recompensas. Oh, también hay una lámpara aquí que encontré en el pantano; quizás le encuentres utilidad.
+      - **Player:** ¡Gracias!
+      - (continue)
+    - (Condition: Si el player ha perdido sus patas Morytania 1:)
+      - **Hiylik Myna:** ¿Tú otra vez? ¿Cómo te fue con los leggins?
+      - **Player:** Los perdí.
+      - **Hiylik Myna:** ¿Los perdiste? Bueno, da la casualidad de que encontré otro par. Cuida mejor estos.
+      - [Hiylik Myna te entrega un par de leggings.]
+      - (continue)
+    - [Menu]: Elige una opción:
+      - [Choice]: Háblame del Sistema de Logros.
+        - **Hiylik Myna:** Muy bien: el Sistema de Logros es una colección de hazañas que quizás desees completar mientras viajas por el mundo.
+        - **Hiylik Myna:**Puedes ganar recompensas especiales por completar ciertos logros; como mínimo, cada uno vale una recompensa en efectivo de Explorer Jack en Lumbridge.
+        - **Hiylik Myna:** Algunos también ofrecen elementos que ayudarán a completar otros logros y muchos cuentan como progreso hacia el conjunto del área en la que se encuentran.
+        - [Menu]: Elige una opción:
+          - [Choice]: Cuéntame sobre la recompensa establecida para esta localidad.
+            - **Player:** Cuéntame sobre la recompensa establecida para esta área.
+            - **Hiylik Myna:** Para completar el conjunto Morytania, se te presentan unos leggings.
+            - **Hiylik Myna:** Estos leggings serán cada vez más útiles a medida que completes conjuntos de tareas de mayor dificultad.
+            - **Hiylik Myna:** Cuando se le presenten sus recompensas, se le informará sobre sus usos.
+            - También puedes ver qué recompensas proporciona un elemento determinado al pasar el cursor sobre el ícono de Recompensas de su Logro de exploración establecido en la interfaz de Logros.
+            - (previous2)
+          - [Choice]: ¿Cómo reclamo estas recompensas?
+            - **Player:** ¿Cómo reclamo las recompensas?
+            - **Hiylik Myna:** Debes completar todas las tareas dentro de un conjunto de dificultad particular y luego podrás reclamar tu recompensa.
+            - **Hiylik Myna:** Algunas de las tareas del conjunto Morytania son simples, algunas requieren cierto skill levels y otras requieren que se inicien o completen misiones.
+            - **Hiylik Myna:** Para reclamar las recompensas del conjunto Morytania, habla con Robin en Port Phasmatys, con Strange Old Man en Barrows, con Old Man Ral en Meiyerditch o conmigo mismo.
+            - (previous2)
+          - [Choice]: Lo siento, me estaba yendo.
+            - (end)
+      - [Choice]: ¿Puedo comprar un repuesto de la recompensa?
+        - [Menu]: Elige una opción:
+          - [Choice]: Morytania piernas 1
+            - **Hiylik Myna:** Morytania piernas 1? Sí, pero me temo que te costaría 1.500 coins.
+            - [Menu]: ¿Comprar otro por 1.500 coins?
+              - [Choice]: si
+                - [Te entregan otras piernas Morytania 1.]
+                - (receives=Morytania legs 1) (removes= 1,500 coins)
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Morytania piernas 2
+            - **Hiylik Myna:** Morytania piernas 2? Sí, pero me temo que te costaría 2500 coins.
+            - [Menu]: ¿Comprar otro por 2500 coins?
+              - [Choice]: si
+                - [Te entregan otras piernas Morytania 2.]
+                - (receives=Morytania legs 2) (removes= 2,500 coins)
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Morytania piernas 3
+            - **Hiylik Myna:** Morytania piernas 3? Sí, pero me temo que te costaría 7.500 coins.
+            - [Menu]: ¿Comprar otro por 7.500 coins?
+              - [Choice]: si
+                - [Te entregan otras piernas Morytania 3.]
+                - (receives=Morytania legs 3) (removes= 7,500 coins)
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Morytania piernas 4
+            - **Hiylik Myna:** Morytania patas 4? Sí, pero me temo que te costaría 15.000 coins.
+            - [Menu]: ¿Comprar otro por 15.000 coins?
+              - [Choice]: si
+                - [Te entregan otras patas Morytania 4.]
+                - (receives=Morytania legs 4) (removes= 15,000 coins)
+              - [Choice]: No
+                - **Player:** No, gracias.
+      - [Choice]: Lo siento, me estaba yendo.
+        - (end)
+  - [Choice]: Habla de otra cosa.
+    - [Menu]: ¿Qué te gustaría decir?
+      - [Choice]: ¿Qué haces aquí?
+        - **Player:** ¿Qué haces aquí?
+        - **Hiylik Myna:** Estoy aquí para ayudar a mantener el tablón de anuncios cerca. Los mercenarios o supervivientes de Burgh De Rott normalmente quieren un paso seguro a través del Myre y, independientemente de su capacidad, necesitan ayuda. Nadie debería atravesar el Myre solo.
+        - **Hiylik Myna:** Me aseguro de que estas personas tengan un anuncio publicado en el tablero aquí para que los más heroicos puedan ofrecerles un viaje seguro a su destino.
+        - **Hiylik Myna:** ¿Algo más?
+        - (otro)
+      - [Choice]: ¿Cómo empiezo?
+        - **Player:** ¿Cómo empiezo?
+        - **Hiylik Myna:** Oh, bueno, eso es fácil, hija mía. Echa un vistazo al tablón de anuncios justo aquí y elige a una persona para que te ayude.
+        - **Player:** ¿Eso es todo?
+        - **Hiylik Myna:** De hecho. Las personas que dejan anuncios habrán dejado allí más información. Algunas serán más fáciles de defender que otras; algunos pelean, otros no. Debes elegir a alguien con quien te sientas cómodo protegiendo.
+        - **Hiylik Myna:** ¿Algo más?
+        - (otro)
+      - [Choice]: ¿Qué gano yo con esto?
+        - **Player:** ¿Qué gano yo con esto?
+        - **Hiylik Myna:** Además de la sensación de hacer el bien a tu prójimo, obtendrás una variedad de recompensas. Sin duda la persona que lleves a través del Myre te dará una muestra de su agradecimiento.
+        - **Player:** ¿Eso es todo?
+        - **Hiylik Myna:** Hay más. Las personas a las que guías son como tú, aunque empiezan un poco más delicadas. Si continúas guiando a las mismas personas, descubrirás que pueden adquirir más experiencia, mejorar y navegar por el pantano, e incluso identificar qué eventos podrían suceder a continuación si quieres evitar ciertos encuentros.
+        - **Player:** Bueno, eso suena como una buena recompensa para ellos. ¿Algo más?
+        - **Hiylik Myna:** A medida que las personas adquieran experiencia, lo conocerán más y es posible que obtengan recompensas únicas para que usted muestre su agradecimiento por su continuo apoyo.
+        - **Hiylik Myna:** Nuevamente, pondrán todo esto en su anuncio en el tablón de anuncios, así que te aconsejo que lo revises para obtener los detalles adecuados.
+        - **Hiylik Myna:** ¿Algo más?
+        - (otro)
+      - [Choice]: Nada, gracias.
+        - **Player:** Nada, gracias.
+        - **Hiylik Myna:** Saradomin estará contigo.

@@ -1,0 +1,193 @@
+# Crunchy
+
+- **Original Wiki Page**: [Transcript:Crunchy](https://runescape.wiki/w/Transcript%3ACrunchy)
+- **Letter**: `C`
+
+---
+
+## Dialogue Transcript
+
+
+### The Last Call
+
+
+#### Talk to
+
+- (Condition: Without The Alms of Death:)
+  - **Crunchy:** Is that you, Tim? Have you finally joined me in dea-
+  - **Crunchy:** Oh, you're not.
+  - **Crunchy:** I'll just go back...to drowning my sorrows...in the 'alms of death'...
+  - (continue)
+- (Condition: With The Alms of Death:)
+  - **Crunchy:** Is that beer for me?
+  - [Menu]: Give 'Alms of Death' to Crunchy?
+    - [Choice]: Yes.
+      - (removes=The Alms of Death)
+      - (Condition: Only on the first time:)
+        - 2 souls fly over to power the vessel.
+        - ((Repeated in a pop-up:))
+          - 2 souls fly over to power the vessel.
+          - (continue)
+      - **Crunchy:** Thanks, pal! You know, you remind me a bit of Tim. Must be all that skin.
+      - (continue)
+    - [Choice]: No.
+      - **Crunchy:** Oh...okay.
+      - (continue)
+- [Menu]: Choose an option:
+  - [Choice]: Show me the elite Underworld tasks I can do.
+    - (opens=Underworld Set Tasks - Elite)
+  - [Choice]: cond=With elite Underworld achievements completed:|Can I claim any rewards from you?
+    - (Condition: Before having unlocked Underworld Grimoire 4:)
+      - **Player:** I've completed all the tasks in the elite Underworld task set.
+      - **Crunchy:** Well done Player, I've kept some rewards aside for you.
+      - **Crunchy:** Lupe has also agreed to provide you with a daily supply of powerful ghostly ink in recognition of your efforts. She's also agreed to store your rewards in the bank and focus storage when you visit her.
+      - **Crunchy:** Death has also agreed to handle the fees for your first death every day too! How generous!
+      - (Condition: Without two free spaces in backpack:)
+        - **Crunchy:** I'm afraid you don't have enough backpack space to claim all your rewards. Speak to me again when you have 2 spaces.
+      - (Condition: With two free spaces in backpack:)
+        - (receives=antique lamp and Underworld Grimoire 4)
+        - [You are given some rewards for completing the elite Underworld task set!]
+        - **Crunchy:** There you go, looks like that's everything.
+    - (Condition: After having unlocked Underworld Grimoire 4:)
+      - (Condition: Without owning an Underworld Grimoire 4:)
+        - **Player:** I lost the Underworld Grimoire 4 you gave me...
+        - (Condition: Without free backpack space:)
+          - **Crunchy:** You don't seem to have any room for a new one, come back to me when you do.
+        - (Condition: With free backpack space:)
+          - **Crunchy:** Lucky for you I have a spare. Take better care of this one.
+          - (receives=Underworld Grimoire 4)
+          - [You're handed another Underworld Grimoire 4.]
+      - (Condition: Owning an Underworld Grimoire 4:)
+      - **Crunchy:** You don't have any rewards to claim!
+  - [Choice]: Ask about the Task System.
+    - [Menu]: Choose an option:
+      - [Choice]: cond=Only if not selected last:|Tell me about the Task System.
+        - **Crunchy:** Very well: the Achievement System is a collection of deeds you may wish to complete while adventuring around the world.
+        - **Crunchy:** You can earn special rewards for completing certain achievements; at the very least, each is worth a cash bounty from Explorer Jack in Lumbridge.
+        - **Crunchy:** Some also give items that will help complete other achievements, and many count as progress towards the set for the area they're in.
+        - [Menu]: Choose an option:
+          - [Choice]: Tell me about the set reward for this locality.
+            - **Crunchy:** For completing the Underworld set, you are presented with the Underworld Grimoire.
+            - **Crunchy:** This book will become increasingly useful with each difficulty level of the set that you complete.
+            - **Crunchy:** When you are presented with your rewards, you will be told of their uses.
+            - [You may also see what rewards a set item provides by hovering over the rewards icon on its corresponding achievement in the Achievements interface.]
+            - (previous2|Task System options)
+          - [Choice]: How do I claim these rewards?
+            - **Crunchy:** You need to complete all of the tasks in the set of a particular difficulty, then you can claim your reward. Some of the Underworld tasks are straightforward, some will require skill levels, and some might require quests to be started or completed.
+            - **Crunchy:** To claim the Underworld set reward, speak to Icthlarin, Frank, Kili or myself.
+            - [Menu]: Choose an option:
+              - [Choice]: Tell me about the Task System.
+                - (above)
+              - [Choice]: Sorry, I was just leaving.
+                - (end)
+          - [Choice]: Sorry, I was just leaving.
+            - (end)
+      - [Choice]: Can I claim any rewards from you?
+        - (Condition: Without rewards to claim:)
+          - **Crunchy:** You don't have any rewards to claim!
+        - (Condition: With rewards to claim:)
+          - (Condition: Without having claimed the rewards before:)
+            - **Player:** I've completed all the tasks in the elite Underworld task set.
+            - **Crunchy:** Well done Player, I've kept some rewards aside for you.
+            - **Crunchy:** Lupe has also agreed to provide you with a daily supply of powerful ghostly ink in recognition of your efforts. She's also agreed to store your rewards in the bank and focus storage when you visit her.
+            - **Crunchy:** Death has also agreed to handle the fees for your first death every day too! How generous!
+            - (Condition: Without two free spaces in backpack:)
+              - **Crunchy:** I'm afraid you don't have enough backpack space to claim all your rewards. Speak to me again when you have 2 spaces.
+            - (Condition: With two free spaces in backpack:)
+              - (receives=antique lamp and Underworld Grimoire 4)
+              - [You are given some rewards for completing the elite Underworld task set!]
+              - **Crunchy:** There you go, looks like that's everything.
+          - (Condition: Having claimed the rewards before:)
+            - **Player:** I lost the Underworld Grimoire 4 you gave me...
+            - (Condition: Without free backpack space:)
+              - **Crunchy:** You don't seem to have any room for a new one, come back to me when you do.
+            - (Condition: With free backpack space:)
+              - **Crunchy:** Lucky for you I have a spare. Take better care of this one.
+              - (receives=Underworld Grimoire 4)
+              - [You're handed another Underworld Grimoire 4.]
+      - [Choice]: Could I buy a spare of the reward?
+        - [Menu]: Choose an option:
+          - [Choice]: Underworld Grimoire 1
+            - (Condition: Without free space in backpack:)
+              - **Crunchy:** You'll need space in your inventory.
+            - (Condition: With free space in backpack:)
+              - **Crunchy:** Underworld Grimoire 1? Yes, but I'm afraid it would cost you 5,000 coins.
+              - [Menu]: Purchase another for 5,000 coins?
+                - [Choice]: Yes
+                  - (Condition: Without 5,000 coins:)
+                    - You can not afford that.
+                    - ((Repeated in a pop-up:))
+                      - You can not afford that.
+                      - (continue)
+                    - **Crunchy:** It doesn't look like you can afford it right now, though. Come back to me when you can.
+                  - (Condition: With 5,000 coins:)
+                    - (removes=5,000 coins) (receives=Underworld Grimoire 1)
+                    - [You're handed another Underworld Grimoire 1.]
+                - [Choice]: No
+                  - **Player:** No thanks.
+          - [Choice]: Underworld Grimoire 2
+            - (Condition: Without free space in backpack:)
+              - **Crunchy:** You'll need space in your inventory.
+            - (Condition: With free space in backpack:)
+              - **Crunchy:** Underworld Grimoire 2? Yes, but I'm afraid it would cost you 10,000 coins.
+              - [Menu]: Purchase another for 10,000 coins?
+                - [Choice]: Yes
+                  - (Condition: Without 10,000 coins:)
+                    - You can not afford that.
+                    - ((Repeated in a pop-up:))
+                      - You can not afford that.
+                      - (continue)
+                    - **Crunchy:** It doesn't look like you can afford it right now, though. Come back to me when you can.
+                  - (Condition: With 10,000 coins:)
+                    - (removes=10,000 coins) (receives=Underworld Grimoire 2)
+                    - [You're handed another Underworld Grimoire 2.]
+                - [Choice]: No
+                  - **Player:** No thanks.
+          - [Choice]: cond=Having unlocked Underworld Grimoire 3:|Underworld Grimoire 3
+            - (Condition: Without free space in backpack:)
+              - **Crunchy:** You'll need space in your inventory.
+            - (Condition: With free space in backpack:)
+              - **Crunchy:** Underworld Grimoire 3? Yes, but I'm afraid it would cost you 25,000 coins.
+              - [Menu]: Purchase another for 25,000 coins?
+                - [Choice]: Yes
+                  - (Condition: Without 25,000 coins:)
+                    - You can not afford that.
+                    - ((Repeated in a pop-up:))
+                      - You can not afford that.
+                      - (continue)
+                    - **Crunchy:** It doesn't look like you can afford it right now, though. Come back to me when you can.
+                  - (Condition: With 25,000 coins:)
+                    - (removes=25,000 coins) (receives=Underworld Grimoire 3)
+                    - [You're handed another Underworld Grimoire 3.]
+                - [Choice]: No
+                  - **Player:** No thanks.
+          - [Choice]: cond=Having unlocked Underworld Grimoire 4:|Underworld Grimoire 4
+            - (Condition: Without free space in backpack:)
+              - **Crunchy:** You'll need space in your inventory.
+            - (Condition: With free space in backpack:)
+              - **Crunchy:** Underworld Grimoire 4? Yes, but I'm afraid it would cost you 50,000 coins.
+              - [Menu]: Purchase another for 50,000 coins?
+                - [Choice]: Yes
+                  - (Condition: Without 50,000 coins:)
+                    - You can not afford that.
+                    - ((Repeated in a pop-up:))
+                      - You can not afford that.
+                      - (continue)
+                    - **Crunchy:** It doesn't look like you can afford it right now, though. Come back to me when you can.
+                  - (Condition: With 50,000 coins:)
+                    - (removes=50,000 coins) (receives=Underworld Grimoire 4)
+                    - [You're handed another Underworld Grimoire 4.]
+                - [Choice]: No
+                  - **Player:** No thanks.
+      - [Choice]: Sorry, I was just leaving.
+        - (end)
+  - [Choice]: Goodbye.
+    - **Player:** Goodbye.
+
+#### View Elite Tasks
+
+- (opens=Underworld Set Tasks - Elite)
+
+#### Task Set Overview
+
+- (opens=Underworld achievements)

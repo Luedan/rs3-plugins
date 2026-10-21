@@ -1,0 +1,366 @@
+# Lumbridge Sage
+
+- **Original Wiki Page**: [Transcript:Lumbridge Sage](https://runescape.wiki/w/Transcript%3ALumbridge%20Sage)
+- **Letter**: `L`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### In Lumbridge
+
+- **Lumbridge Sage:** Saludos, aventurero. <br>¿Cómo puedo ayudarte?
+- (Condition: Si es la primera vez que habla con él:)
+  - {{RSFontAchievement|Sage Advice}}
+  - (continue)
+- [Menu]: Selecciona una opción
+  - [Choice]: ¿Dónde puedo encontrar una misión?
+    - [Su minimapa tiene varios íconos que muestran la ubicación de puntos de interés. Busque el ícono a la izquierda para encontrar los puntos de inicio de la misión.]
+    - **Lumbridge Sage:** ¿Qué tipo de misión buscas?
+    - [Menu]: ¿Qué tipo de búsqueda?
+      - [Choice]: Me apetece un poco de pelea. ¿Algo peligroso?
+        - **Lumbridge Sage:** Hmm... ¿peligroso, dices? ¿Con qué tipo de criaturas quieres luchar?
+        - [Menu]: ¿Pelear qué?
+          - [Choice]: ¡Un dragón!
+            - **Lumbridge Sage:** ¿Matarías a un dragón? ¡Tienes el coraje de un verdadero héroe!
+            - **Lumbridge Sage:** Busca al maestro del gremio de champions' guild al sur de Varrock. Pero sólo puede participar un aventurero que haya demostrado su valía completando muchas misiones.
+            - (Condition: Antes de Dragon Slayer:)
+              - **Player:** Entonces aumentaré mi influencia completando muchas misiones. ¡Seré un dragon slayer!
+              - (previous|fight)
+            - (Condition: Después de Dragon Slayer:)
+              - **Player:** ¡Viajé a Crandor y maté al temible dragón Elvarg!
+              - **Lumbridge Sage:** ¡Felicitaciones, campeón!
+              - (previous|fight)
+          - [Choice]: ¡Grandes demonios aterradores!
+            - **Lumbridge Sage:** Eres un alma valiente, de hecho.
+            - **Lumbridge Sage:** Ahora que lo mencionas, escuché un rumor sobre un saradominista en la iglesia de Varrock que divagaba sobre algún tipo de gran mal. Suena como un demonio, si me preguntas.
+            - **Lumbridge Sage:** ¿Quizás podrías comprobarlo si eres tan valiente como dices?
+            - (Condition: Antes del demonio Slayer:)
+              - **Player:** Gracias por el consejo. Quizás lo haga.
+              - (previous|fight)
+            - (Condition: Después del demonio Slayer:)
+              - **Player:** Ya maté al demonio Delrith. ¡Él era simplemente una mancha en mi espada cuando terminé con él!
+              - **Lumbridge Sage:** ¡Bien hecho! Sin embargo, estoy seguro de que si buscas por todo el mundo encontrarás enemigos más difíciles a los que matar.
+              - (previous|fight)
+          - [Choice]: Vampyres!
+            - **Lumbridge Sage:** Ja, ja. Yo personalmente no creo en esas cosas. Sin embargo, hay un hombre en Draynor Village que ha estado asustando a la gente del pueblo con historias sobre vampyres.
+            - **Lumbridge Sage:** Se llama Morgan y se puede encontrar en una de las casas del pueblo. ¿Quizás puedas ver cuál es el problema?
+            - (Condition: Antes de Vampyre Slayer:)
+              - **Player:** Gracias por el consejo.
+              - (previous|fight)
+            - (Condition: Después de Vampyre Slayer:)
+              - **Player:** Oh, ya maté a ese desagradable chupasangre vampyre. Draynor ahora estará a salvo.
+              - **Lumbridge Sage:** Sí, sí, por supuesto que sí. Todo el mundo sabe que vampyres no son reales.
+              - **Lumbridge Sage:** No estás engañando a nadie, ¿sabes?
+              - (previous|fight)
+          - [Choice]: Algo pequeño estaría bien.
+            - **Lumbridge Sage:** ¿Pequeño? Lo pequeño no es realmente tan peligroso, ¿verdad?
+            - **Player:** Podría ser cualquier cosa, desde un evil chicken hasta una araña venenosa. Atacan en gran número, ¿sabes?
+            - **Lumbridge Sage:** Punto tomado. Hablando de pequeños monstruos, escuché que al viejo Wizard Mizgog en el Wizards' Tower le acaban de quitar sus cuentas especiales una pandilla de diablillos traviesos.
+            - **Lumbridge Sage:** ¿Parece que podría ser una misión para ti?
+            - (Condition: Antes del cazador de diablillos:)
+              - **Player:** Gracias por tu ayuda.
+              - (previous|fight)
+            - (Condition: Después del cazador de diablillos:)
+              - **Player:** Sí, conozco a Mizgog y ya lo he ayudado con su problema de diablillo.
+              - **Lumbridge Sage:** ¡Los diablillos serán diablillos!
+              - (previous|fight)
+          - [Choice]: Quizás otra búsqueda.
+            - (previous2|quest)
+      - [Choice]: Algo fácil, por favor. Soy nuevo aquí.
+        - **Lumbridge Sage:** Puedo hablarte de muchas tareas pequeñas y sencillas.
+        - **Lumbridge Sage:** El cocinero de Lumbridge ha estado teniendo problemas, Xenia espera a un héroe en el cementerio de Lumbridge y Father Aereck afirma haber visto un fantasma.
+        - [Menu]: Háblame de...
+          - [Choice]: El cocinero de Lumbridge.
+            - **Lumbridge Sage:** Es gracioso, de verdad. El cocinero olvidaría su cabeza si no estuviera atornillada. Esta vez se olvidó de conseguir los ingredientes para el pastel de cumpleaños del Duque.
+            - **Lumbridge Sage:** ¿Quizás podrías ayudarlo? Probablemente lo encontrarás en la cocina del castillo Lumbridge.
+            - (Condition: Antes de Cook's Assistant:)
+              - **Player:** Gracias, iré a hablar con él.
+              - (previous|small)
+            - (Condition: Después de Cook's Assistant:)
+              - **Player:** Ya ayudé al cocinero en Lumbridge.
+              - **Lumbridge Sage:** Ah, sí. Entonces lo tienes. Estoy seguro de que el duque estará contento.
+              - (previous|small)
+          - [Choice]: Xenia.
+            - **Lumbridge Sage:** Xenia es una aventurera veterana que busca a alguien que la acompañe a las profundidades de las catacumbas de Lumbridge. Algo sobre un secuestro.
+            - (Condition: Antes del Pacto de Sangre:)
+              - **Player:** Suena interesante. Quizás simplemente haga eso. Gracias.
+              - (previous|small)
+            - (Condition: Después del Pacto de Sangre:)
+              - **Player:** Sí, ya me enfrenté a los cultistas y rescaté a Ilona.
+              - **Lumbridge Sage:** Ah, excelente. Muchas gracias aventurero.
+              - (previous|small)
+          - [Choice]: Father Aereck.
+            - **Lumbridge Sage:** Father Aereck es el sacerdote local. Puedes encontrarlo en la iglesia Lumbridge, justo al norte del cementerio.
+            - (Condition: Antes del Restless Ghost:)
+              - **Player:** Veré si puedo dejar descansar a ese fantasma.
+              - (previous|small)
+            - (Condition: Después del Restless Ghost:)
+              - **Player:** Le devolví el cráneo al fantasma. Por fin está descansando.
+              - **Lumbridge Sage:** Muy bien.
+              - (previous|small)
+          - [Choice]: Quizás otra búsqueda.
+            - (previous2|quest)
+      - [Choice]: ¿Algo orientado a las habilidades?
+        - **Lumbridge Sage:** Las habilidades juegan un papel importante cuando quieres progresar en conocimientos. Conozco algunas misiones relacionadas con habilidades que pueden ayudarte a comenzar.
+        - **Lumbridge Sage:** Podrías ayudar a Fred the farmer que necesita la experiencia de alguien en artesanía.
+        - **Lumbridge Sage:** ¿O está Doric, el enano que necesita ayuda con su negocio familiar?
+        - [Menu]: Háblame de...
+          - [Choice]: Fred the farmer.
+            - **Lumbridge Sage:** Puedes encontrar la granja de Fred cerca del campo de ovejas al norte del mercado Lumbridge. Quizás deberías ir a hablar con él.
+            - (Condition: Antes de la esquiladora Sheep:)
+              - **Player:** Gracias. Quizás lo haga.
+              - (previous|skill)
+            - (Condition: Después de la esquiladora Sheep:)
+              - **Player:** Ya he ayudado a Fred the farmer. Esquilé sus ovejas y le hice 20 ovillos de lana.
+              - **Player:** Sin embargo, no me dejaba matar sus gallinas.
+              - **Lumbridge Sage:** Las gallinas Lumbridge son una buena práctica de tiro.
+              - **Lumbridge Sage:** Tendrás que esperar hasta que él no esté mirando.
+              - (previous|skill)
+          - [Choice]: Doric el enano.
+            - **Lumbridge Sage:** Doric el enano se encuentra al norte de Falador. Quizás él pueda ayudarte con algo. Deberías hablar con él. Puede que te deje usar sus yunques.
+            - (Condition: Antes de que lo mío sea tuyo:)
+              - **Player:** Gracias por el consejo.
+              - (previous|skill)
+            - (Condition: Después de Lo mío es tuyo:)
+              - **Player:** Sí, ya fui a ver Doric. Llegué al fondo de un complot sin escrúpulos para socavar su negocio metalúrgico, resolví el conflicto de Doric con su hijo y reavivé su lista de clientes.
+              - **Lumbridge Sage:** Oh, bien. ¡Gracias, Player!
+              - (previous|skill)
+          - [Choice]: Quizás otra búsqueda.
+            - (previous2|quest)
+      - [Choice]: Quiero hacer todo tipo de cosas. ¿Sabes algo así?
+        - **Lumbridge Sage:** Por supuesto que sí. Gielinor es un lugar enorme, ¿sabes?
+        - **Lumbridge Sage:** Déjame pensar...
+        - **Lumbridge Sage:** Podrías ayudar a Ernest. Se perdió en Draynor manor. Un lugar espeluznante, ese.
+        - **Lumbridge Sage:** Hetty la bruja de Rimmington sabe un poco sobre magia.
+        - **Lumbridge Sage:** Además, actualmente los piratas están atracados en Port Sarim. Donde hay piratas, el tesoro nunca está lejos.
+        - [Menu]: Háblame de...
+          - [Choice]: Hetty la bruja.
+            - **Lumbridge Sage:** Hetty la bruja se puede encontrar en Rimmington, al sur de Falador. Actualmente está trabajando en algunas pociones nuevas. ¿Quizás podrías echarle una mano?
+            - (Condition: Antes de la poción de bruja:)
+              - **Player:** Gracias. Esperemos que no me convierta en papa o algo así.
+              - (previous|sorts)
+            - (Condition: Después de la poción de bruja:)
+              - **Player:** Sí, ya fui a ver Hetty. ¡Ella me dio poderes súper cósmicos después de que la ayudé con su poción! Probablemente podría destruirte con un solo pensamiento.
+              - **Lumbridge Sage:** ¿Lo hizo?
+              - **Player:** No, en realidad no.
+              - **Lumbridge Sage:** Cierto...
+              - (previous|sorts)
+          - [Choice]: Ernesto y Draynor Manor.
+            - **Lumbridge Sage:** El primer lugar para comenzar sería la puerta de Draynor Manor. Allí encontrarás a Veronica quien podrá contarte más.
+            - **Lumbridge Sage:** Te sugiero que andes con cuidado en ese lugar; está embrujado.
+            - (Condition: Antes de Ernesto el Chicken:)
+              - **Player:** ¿Una mansión embrujada? Suena divertido.
+              - (previous|sorts)
+            - (Condition: Después de Ernesto el Chicken:)
+              - **Player:** Ya encontré a Ernest. ¡Professor Oddenstein lo convirtió en pollo!
+              - **Lumbridge Sage:** ¿Un pollo?
+              - **Player:** Un pollo. <br>Se topó con una ciencia extraña.
+              - (previous|sorts)
+          - [Choice]: El tesoro de Pirate.
+            - **Lumbridge Sage:** Se rumorea que Redbread Frank en el bar de Port Sarim, Rusty Anchor, puede conocer la ubicación del tesoro enterrado.
+            - (Condition: Antes del tesoro de Pirate:)
+              - **Player:** Suena aventurero. Quizás tenga que comprobarlo. Gracias.
+              - (previous|sorts)
+            - (Condition: Después del tesoro de Pirate:)
+              - **Player:** ¡Sí! ¡Ya encontré el botín!
+              - **Lumbridge Sage:** Sí, claro, amigo mío. Un hallazgo excelente.
+              - **Player:** ¡Sí!
+              - **Lumbridge Sage:** ¡Sí!
+              - **Player:** ¡YARRR!
+              - **Lumbridge Sage:** ¡Bien, ya es suficiente!
+              - **Player:** ...Lo siento.
+              - (previous|sorts)
+          - [Choice]: Quizás otra búsqueda.
+            - (previous2|quest)
+      - [Choice]: Quizás en otra ocasión.
+        - (initial|start)
+  - [Choice]: ¿Con qué monstruos debería luchar?
+    - (Condition: Parámetro desconocido)
+      - **Lumbridge Sage:** ¡Hay cosas que matar por todas partes! A tu nivel, quizás te interese deambular hacia el oeste hasta Wizards' Tower o hacia el noroeste hasta Gunnarsgrunn.
+      - [Los personajes que no son jugadores suelen aparecer como puntos amarillos en tu minimapa, aunque hay algunos, como el Lumbridge sage, con los que no podrás luchar.]
+      - [Si exploras más lejos, es posible que puedas encontrar áreas menos concurridas, pero ten cuidado con los monstruos que son más fuertes que tú.]
+      - [El nivel de combate de un monstruo se muestra junto a su opción 'Attack'. Si ese nivel es de color verde, significa que el monstruo es más débil que tú. Si es rojo, significa que el monstruo es más duro que tú.]
+      - **Lumbridge Sage:** Recuerda, te irá mejor si tienes mejores armaduras y armas y siempre vale la pena llevar un poco de comida para curarte.
+    - (Condition: Parámetro desconocido)
+      - **Lumbridge Sage:** Eres lo suficientemente fuerte como para decidir contra qué monstruos luchar por ti mismo.
+      - **Lumbridge Sage:** Encontrarás muchos oponentes en el Retiro de War.
+      - **Lumbridge Sage:** ¡Hay cosas que matar por todas partes! A tu nivel, quizás te interese deambular hacia el oeste hasta Wizards' Tower o hacia el noroeste hasta Gunnarsgrunn.
+      - [Los personajes que no son jugadores suelen aparecer como puntos amarillos en tu minimapa, aunque hay algunos, como el Lumbridge sage, con los que no podrás luchar.]
+      - [Si exploras más lejos, es posible que puedas encontrar áreas menos concurridas, pero ten cuidado con los monstruos que son más fuertes que tú.]
+      - [El nivel de combate de un monstruo se muestra junto a su opción 'Attack'. Si ese nivel es de color verde, significa que el monstruo es más débil que tú. Si es rojo, significa que el monstruo es más duro que tú.]
+      - **Lumbridge Sage:** Recuerda, te irá mejor si tienes mejores armaduras y armas y siempre vale la pena llevar un poco de comida para curarte.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Dónde puedo conseguir comida para curarme?
+        - **Lumbridge Sage:** Hay muchos alimentos diferentes en el juego, como repollo, pescado, carne y muchos más. ¿De cuál deseas oír hablar?
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Cómo consigo coles?
+            - **Player:** ¿Cómo consigo coles?
+            - **Lumbridge Sage:** Hay un campo a poca distancia al norte de aquí lleno de coles que están allí para la recolección.
+            - (previous|heal)
+          - [Choice]: ¿Cómo pesco?
+            - **Player:** ¿Cómo pesco?
+            - **Lumbridge Sage:** Los puntos Fishing requieren diferentes niveles y equipos para su uso.
+            - **Lumbridge Sage:** Dependiendo del método de pesca que elijas en el lugar de pesca, es posible que necesites artículos adicionales, como cebo, que puedes comprar en la tienda de pesca cerca del mercado Lumbridge.
+            - [Su minimapa tiene varios íconos que muestran la ubicación de puntos de interés. Este icono a la izquierda muestra dónde están los lugares de pesca.]
+            - (previous|heal)
+          - [Choice]: ¿Dónde puedo encontrar carne?
+            - **Player:** ¿Dónde puedo encontrar carne?
+            - **Lumbridge Sage:** Te sugiero que vayas y mates algunas gallinas. Los caminos a ambos lados de este río eventualmente pasan por una granja de pollos. Cuando hayas matado algunas gallinas, cocínalas. Podrías hacer un fuego o usar una estufa.
+            - [Su minimapa tiene varios íconos que muestran la ubicación de puntos de interés. Puedes cocinar alimentos crudos cortando un árbol y haciendo fuego...]
+            - **Lumbridge Sage:** Pero es mucho más probable que quemes la comida si cocinas en un fuego de leña al aire libre. Debes cocinar a distancia siempre que puedas. Hay una sierra en el extremo sur de esta ciudad.
+            - **Lumbridge Sage:** A medida que aumentes tu habilidad Cooking, será menos probable que quemes comida y podrás cocinar recetas más avanzadas que curan más puntos de vida.
+            - [Su minimapa tiene varios íconos que muestran la ubicación de puntos de interés. Este icono a la izquierda muestra dónde están los rangos de Cooking.]
+            - (previous|heal)
+          - [Choice]: Me gustaría saber algo más.
+            - (initial|start)
+      - [Choice]: ¿Dónde puedo conseguir mejores armaduras y armas?
+        - **Lumbridge Sage:** Bueno, puedes hacerlos, encontrarlos o comprarlos.
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Dónde puedo encontrar un arma?
+            - **Lumbridge Sage:** Hay algunas armas baratas en el mundo. Por ejemplo, puedes conseguir un iron dagger si cruzas el puente y miras en la pequeña cabaña donde viven unos duendes.
+            - **Lumbridge Sage:** Si no está allí, probablemente significa que alguien más lo ha cogido. Si espera un poco, debería aparecer uno nuevo. A medida que exploras, es posible que también encuentres otras armas.
+            - (previous|weapons)
+          - [Choice]: ¿Cómo hago un arma?
+            - **Lumbridge Sage:** La habilidad Smithing te permite fabricar armaduras y armas.
+            - **Lumbridge Sage:** Lumbridge tiene horno, forja y yunque al norte de nosotros, al este del mercado Lumbridge.
+            - [Su minimapa tiene varios íconos que muestran la ubicación de puntos de interés. Busque el ícono de la izquierda para ubicar un horno donde puede fundir minerales en barras.]
+            - [Busque el ícono de la izquierda para ubicar una forja donde puede calentar y convertir barras en equipos.]
+            - (previous|weapons)
+          - [Choice]: ¿Dónde puedo comprar un arma?
+            - **Lumbridge Sage:** La tienda más cercana que te vendería algo de esa naturaleza es Brilliant Axes de Bob en esta misma ciudad.
+            - **Lumbridge Sage:** Si quieres tener más opciones, te sugiero que te dirijas a una de las grandes ciudades.
+            - **Lumbridge Sage:** Si sigues la carretera hacia el este sobre el puente y luego te diriges hacia el norte, eventualmente llegarás a Varrock, donde podrás comprar todo tipo de cosas. Puedes utilizar el mapa mundial para ayudarte a encontrar tu camino.
+            - (previous|weapons)
+          - [Choice]: ¿Podría conseguir un staff como el tuyo?
+            - **Lumbridge Sage:** No hay otro staff como este en todo el país. Es un staff muy importante. Muestra quién ocupa el puesto de guía de Lumbridge, y ese soy yo.
+            - (previous|weapons)
+          - [Choice]: Me gustaría saber algo más.
+            - (initial|start)
+      - [Choice]: Me gustaría saber algo más.
+        - (initial|start)
+  - [Choice]: ¿Dónde puedo ganar dinero?
+    - **Lumbridge Sage:** Hay muchas formas de ganar dinero en el juego. Sugeriría matar monstruos o realizar una habilidad comercial como Smithing o Fishing.
+    - **Lumbridge Sage:** Muchos enemigos soltarán objetos cuando mueran. Puedes venderlos a general store o en Grand Exchange en Varrock.
+    - **Lumbridge Sage:** Al obtener un alto nivel en habilidades, como Cooking, Mining, Smithing o Fishing, puedes crear o reunir tus propios artículos y venderlos para obtener ganancias puras.
+    - **Lumbridge Sage:** Por favor, no intentes conseguir dinero mendigando a otros aventureros. Te hará impopular. A nadie le gusta un mendigo. Es muy irritante que otros aventureros te pidan el dinero que tanto te ha costado ganar.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Dónde puedo herrar?
+        - **Lumbridge Sage:** Lumbridge tiene horno, forja y yunque al norte de nosotros, al este del mercado Lumbridge.
+        - [Su minimapa tiene varios íconos que muestran la ubicación de puntos de interés. Busque el ícono de la izquierda para ubicar un horno donde puede fundir minerales en barras.]
+        - [Busque el ícono de la izquierda para ubicar una forja donde puede calentar y convertir barras en equipos.]
+        - [Su minimapa tiene varios íconos que muestran la ubicación de puntos de interés. Este icono a la izquierda muestra dónde están los sitios Mining.]
+        - **Lumbridge Sage:** Te sugiero que vayas a extraer algo de mineral; Encuentra el símbolo Mining, con el símbolo de guía cerca, en el pantano al sur de aquí.
+        - (initial|start)
+      - [Choice]: ¿Cómo pesco?
+        - (above|fish)
+      - [Choice]: ¿Con qué monstruos debería luchar?
+        - (above|fight)
+  - [Choice]: ¿Dónde puedo encontrar un banco?
+    - **Lumbridge Sage:** Encontrarás un banco arriba en el Castillo Lumbridge (ve directamente a la cima) o hay un cofre del banco en el mercado Lumbridge al norte.
+    - [Su minimapa tiene varios íconos que muestran la ubicación de puntos de interés. Este ícono a la izquierda muestra los bancos donde puede almacenar sus artículos.]
+    - **Lumbridge Sage:** Solo puedes llevar una cantidad limitada de artículos en tu backpack. Puede depositar en su banco los artículos que desee conservar y no vender.
+    - (initial|start)
+  - [Choice]: Más opciones...
+    - [Menu]: Selecciona una opción
+      - [Choice]: Navegación y imanes.
+        - ((Lo siguiente se muestra en una información sobre herramientas titulada "Navegación":))
+          - [Left-click] una ubicación en el minimapa para viajar a tu ubicación.}}
+          - [Puede utilizar la red lodestone para teletransportarse rápidamente a las piedras imán que haya activado. <br>Haga clic en Home Teleport si desea ver el mapa Lodestone.]
+          - [Si quieres ver un mapa más detallado del mundo, haz clic aquí.]
+          - (previous|start2)
+      - [Choice]: Herramientas y cinturón de herramientas.
+        - ((Lo siguiente se muestra en una información sobre herramientas titulada "Cinturón de herramientas":))
+          - [La mayoría de tus habilidades requieren algún tipo de herramienta. Por ejemplo, para cortar madera se necesita un hacha y para minar, un pico. <br> Comienzas con un hacha de bronce, un pico y algunas otras herramientas básicas en tu cinturón de herramientas. Los artículos en su cinturón de herramientas están protegidos si usted muere.]
+          - Opción [Add to tool belt] en la herramienta de su backpack.<br>Esto reemplazará el elemento en su cinturón de herramientas.}}
+          - (previous|start2)
+      - [Choice]: Lista de misiones.
+        - ((Lo siguiente se muestra en una información sobre herramientas titulada "Lista de misiones":))
+          - [completed] la misión.}}
+          - [Para revisar tus objetivos durante una misión, abre tu diario de misiones y selecciona la misión en tu lista de misiones para obtener más información.]
+          - [minimap]. Normalmente comenzarás la misión hablando con alguien cercano.}}
+          - [Durante una misión, un borde azul en tu mapa muestra el área que contiene tu objetivo de misión actual.]
+          - (previous|start2)
+      - [Choice]: Lista de habilidades.
+        - ((Lo siguiente se muestra en una información sobre herramientas titulada "Habilidades":))
+          - [Tienes muchas habilidades que puedes entrenar. Cuanto más practicas una habilidad, mejor se vuelve. <br>Higher skill levels desbloquea nuevas actividades: equipos para crear, lugares para explorar, misiones para completar y mucho más.]
+          - [Realiza acciones asociadas con una habilidad para ganar puntos de experiencia (XP) en esa habilidad. Gana suficiente XP y ganarás un nivel en esa habilidad.]
+          - [La mayoría de las habilidades comienzan en el nivel 1 y desbloqueas todos sus beneficios al subir la habilidad al nivel 99. (Algunas habilidades se pueden desbloquear hasta el nivel 120).]
+          - [El número inferior al lado del ícono de una habilidad es tu nivel base en esa habilidad (sin modificar por ventajas o desventajas). Se utiliza para la mayoría de las comprobaciones de equipos.]
+          - [El número superior es tu skill level modificado (impulsado o agotado temporalmente por mejoras o desventajas de habilidades, como pociones o hechizos). Se utiliza para la mayoría de las pruebas de habilidades.]
+          - [¡Alcanza 99 en tus habilidades para ganar la codiciada capa Max!]
+          - (previous|start2)
+      - [Choice]: Aún más opciones...
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Quién eres?
+            - **Lumbridge Sage:** Soy Phileas, el Lumbridge Sage. Estoy aquí para dar información e indicaciones a nuevos aventureros.
+            - **Lumbridge Sage:** En el pasado, la gente venía de todas partes para pedirme consejo. Sin embargo, mi fama parece haber disminuido un poco en los últimos años. ¿Puedo ayudarte con algo?
+            - (previous|start3)
+          - [Choice]: Háblame de la ciudad de Lumbridge.
+            - **Lumbridge Sage:** Lumbridge es una de las ciudades más antiguas de los reinos controlados por humanos. Fue fundada hace más de doscientos años, a finales de la Cuarta Edad. Se llama Lumbridge por este puente construido sobre el río Lum.
+            - **Lumbridge Sage:** La ciudad está gobernada por Duke Horacio, quien es un buen amigo de nuestro monarca, King Roald de Misthalin.
+            - (previous|start3)
+          - [Choice]: ¿Dónde puedo encontrar más información?
+            - [¡Lo que querrás es RuneScape Wiki! Hay información y guías sobre casi todo, todo fácil de buscar e incluso escrito y mantenido por los jugadores.]
+            - [Puede buscar en la wiki con el comando /wiki o presionando el botón Wiki en su chat local.]
+            - (previous|start3)
+          - [Choice]: No necesito ninguna ayuda.
+            - **Lumbridge Sage:** Buenas aventuras, viajero.
+          - [Choice]: Opciones anteriores...
+            - (initial|start)
+
+#### Como moderador de jugadores
+
+- **Lumbridge Sage:** Saludos, aventurero. <br>¿Cómo puedo ayudarte?
+- [Menu]: Selecciona una opción
+  - [Choice]: Llévame a la sala P-Mod.
+    - (Action: el player es teletransportado a la sala del moderador de el player.)
+  - [Choice]: Más opciones...
+    - (above|start)
+
+#### Diálogo histórico
+
+- **Lumbridge Sage:** Saludos, aventurero. <br>¿Cómo puedo ayudarte?
+- (Condition: Si es la primera vez que habla con él:)
+  - {{RSFontAchievement|Sage Advice}}
+  - (continue)
+- [Menu]: Elige una opción:
+  - [Choice]: cond=If a Player Moderator|Llévame a la sala P-Mod.
+    - (Action: el player es teletransportado a la sala del moderador de el player.)
+  - [Choice]: ¿Quién eres?
+    - **Lumbridge Sage:** Soy Phileas, el Lumbridge Sage. En tiempos pasados ​​venía gente de todas partes a pedirme consejo. Sin embargo, mi fama parece haber disminuido un poco en los últimos años. ¿Puedo ayudarte con algo?
+    - (previous)
+  - [Choice]: Háblame de la ciudad de Lumbridge.
+    - **Lumbridge Sage:** Lumbridge es una de las ciudades más antiguas de los reinos controlados por humanos. Fue fundada hace más de doscientos años, a finales de la Cuarta Edad. Se llama Lumbridge por este puente construido sobre el río Lum.
+    - **Lumbridge Sage:** La ciudad está gobernada por Duke Horacio, quien es un buen amigo de nuestro monarca, King Roald de Misthalin.
+    - **Lumbridge Sage:** Sin embargo, recientemente ha habido grandes cambios debido a la Batalla de Lumbridge.
+    - **Player:** ¿Qué pasa con la batalla?
+    - (Condition: Después del Lumbridge Rebuildathon:)
+      - **Lumbridge Sage:** Hace algún tiempo, hubo una gran pelea entre Saradomin y Zamorak en el campo de batalla al oeste del castillo.
+      - **Lumbridge Sage:** Se desataron fuerzas titánicas ya que ninguno de los bandos pudo tomar ventaja. Cada bando buscó ventajas, pero estuvo igualado hasta el final.
+      - **Lumbridge Sage:** La batalla duró meses, pero al final, las fuerzas del santo Saradomin triunfaron. Zamorak fue derrotado... pero...
+      - **Lumbridge Sage:** Antes de que Saradomin pudiera completar su victoria, Moia, el general de las fuerzas de Zamorak, lo transportó.
+      - **Lumbridge Sage:** Ahora, el campo de batalla (normalmente) está vacío, salvo por un único devoto saradominista.
+      - (previous)
+    - (Condition: Durante el Lumbridge Rebuildathon:)
+      - **Lumbridge Sage:** Hace algún tiempo, hubo una gran pelea entre Saradomin y Zamorak en el campo de batalla al oeste del castillo.
+      - **Lumbridge Sage:** Se desataron fuerzas titánicas ya que ninguno de los bandos pudo tomar ventaja. Cada bando buscó ventajas, pero estuvo igualado hasta el final.
+      - **Lumbridge Sage:** La batalla duró meses, pero al final, las fuerzas del santo Saradomin triunfaron. Zamorak fue derrotado... pero...
+      - **Lumbridge Sage:** Antes de que Saradomin pudiera completar su victoria, Moia, el general de las fuerzas de Zamorak, lo transportó.
+      - **Lumbridge Sage:** Ahora, el campo de batalla (generalmente) está vacío, salvo por un solo devoto saradominista, y Lumbridge está en ruinas.
+      - **Lumbridge Sage:** Afortunadamente, Foreman George está organizando un esfuerzo de reconstrucción al norte del castillo.
+      - (previous)
+    - (Condition: Durante la Batalla de Lumbridge:)
+      - **Lumbridge Sage:** Vaya, la batalla continúa incluso ahora, al otro lado del castillo. Saradomin y Zamorak están enfrascados en la batalla y ninguno de los dos puede tomar la delantera.
+      - **Lumbridge Sage:** Donde antes había un bosque, hay un cráter gigante, en el que soldados y criaturas luchan hasta la muerte.
+      - **Lumbridge Sage:** ¡Y la ciudad de Lumbridge ya ha visto los efectos nocivos! ¡Los propios muros del castillo han caído!
+      - **Player:** ¿Hay algo que pueda hacer?
+      - **Lumbridge Sage:** Puedes unirte a la batalla si lo deseas. Ambos bandos buscan ayuda de cualquier individuo que esté dispuesto, y no sólo para luchar: buscan algo conocido como lágrimas divinas.
+      - **Lumbridge Sage:** Puedes unirte a Saradomin yendo al campamento al norte del campo de batalla y a Zamorak yendo al sur.
+      - (previous)
+  - [Choice]: Necesito orientación.
+    - *(Se abre la interfaz de selección de tutoriales.)*
+  - [Choice]: Estoy bien por ahora, gracias.
+    - **Lumbridge Sage:** Buenas aventuras, viajero.

@@ -1,0 +1,234 @@
+# Aggie
+
+- **Original Wiki Page**: [Transcript:Aggie](https://runescape.wiki/w/Transcript%3AAggie)
+- **Letter**: `A`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### In Draynor Village
+
+- **Aggie:** ¿En qué puedo ayudarte?
+- ((Con un construction contract para Aggie:))
+  - [Menu]: Selecciona una opción
+    - [Choice]: Pregunta por contracts.
+      - [Menu]: Selecciona una opción
+        - [Choice]: ¿Qué necesitas reparar?
+          - **Aggie:** Déjame ver, ahora mismo necesito que repares el siguiente pieces of furniture.
+          - **Aggie:** [Furniture 1], [Furniture 2], [Furniture 3], [Furniture 4], [Furniture 5]
+          - (previous)
+        - [Choice]: ¿Qué materiales necesito?
+          - **Aggie:** Necesitas: Planks x [número], Steel nails x [número], [Additional material 1] x [número], [Additional material 2] x [número]
+          - (previous)
+        - [Choice]: [Leave]
+          - (end)
+    - [Choice]: Pregunta por otra cosa.
+      - (continue|standard)
+- ((De lo contrario:))
+  - [Menu]: Elige una opción:
+    - [Choice]: Oye, eres una bruja, ¿no?
+      - **Player:** Oye, eres una bruja, ¿no?
+      - **Aggie:** ¡Vaya, eres observador!
+      - **Player:** Genial, ¿conviertes a las personas en ranas?
+      - **Aggie:** Oh, no desde hace años. Pero si conoces a un talking chicken, probablemente hayas conocido al profesor en la mansión al norte de aquí. Hace unos años era un flying fish. Esa máquina es una amenaza.
+    - [Choice]: Entonces, ¿qué hay realmente en ese caldero?
+      - **Player:** Entonces, ¿qué hay realmente en ese caldero?
+      - **Aggie:** Realmente no esperas que revele secretos comerciales, ¿verdad?
+    - [Choice]: cond=After Vampyre Slayer|Habla de Vampyre Slayer.
+      - **Aggie:** ¡Debo felicitarte por matar a Count Draynor! Has hecho algo grandioso por nuestro pueblo.
+      - **Player:** Estaré feliz de poder ayudar.
+    - [Choice]: cond=Before Vampyre Slayer|¿Qué hay de nuevo en Draynor Village?
+      - **Player:** ¿Qué hay de nuevo en Draynor Village?
+      - **Aggie:** El chupasangre ha regresado a Draynor Manor. Odio a los de su clase.
+      - **Player:** ¿El chupasangre?
+      - **Aggie:** Sí, Count Draynor, el vampyre. Se está aprovechando de la gente inocente de este pueblo. Hago lo mejor que puedo para protegerlos con la magia que tengo, pero él es poderoso.
+      - **Player:** Vaya, eso es triste.
+    - [Choice]: Más...
+      - [Menu]: Selecciona una opción
+        - [Choice]: ¿Qué podrías hacer por mí?
+          - **Player:** ¿Qué podrías hacer por mí?
+          - **Aggie:** Principalmente hago lo que encuentro bonito. A veces hago dye para la ropa de mujer para alegrar el lugar. Puedo hacer dyes rojo, amarillo y azul. Si quieres un poco, tráeme los ingredientes apropiados.
+          - [Menu]: Selecciona una opción
+            - [Choice]: ¿Qué necesitas para hacer red dye?
+              - (abajo|ingredientes-rojo-dye)
+            - [Choice]: ¿Qué necesitas para hacer yellow dye?
+              - (abajo|ingredientes-amarillo-dye)
+            - [Choice]: ¿Qué necesitas para hacer blue dye?
+              - (abajo|ingredientes-azul-dye)
+            - [Choice]: No gracias, estoy feliz del color que tengo.
+              - **Player:** No gracias, estoy feliz del color que tengo.
+              - **Aggie:** Entonces es fácil que te sientas satisfecho contigo mismo. Cuando necesites dyes, ven a mí.
+        - [Choice]: ¿Puedes hacerme dyes, por favor?
+          - **Player:** ¿Puedes hacerme dyes, por favor?
+          - **Aggie: ** ¿Qué tipo de dye te gustaría? ¿Rojo, amarillo o azul?
+          - [Menu]: Selecciona una opción
+            - [Choice]: ¿Qué necesitas para hacer red dye?
+              - **Player:** ¿Qué necesitas para hacer red dye?
+              - **Aggie:** 3 lotes de redberries y 5 coins para ti.
+              - [Menu]: Selecciona una opción
+                - [Choice]: ¿Podrías prepararme un poco de red dye, por favor?
+                  - (Condition: Si el player no tiene suficiente redberries:)
+                    - No tienes suficiente berries para hacer el red dye.
+                  - (Condition: Si el player no tiene suficiente coins:)
+                    - No puedes permitirte eso.
+                    - No tienes suficiente coins para pagar el dye.
+                  - (Condition: Si el player tiene tres redberries y 25 coins:)
+                    - (elimina=tres redberries y 25 coins) (recibe=red dye)
+                    - **Player:** ¿Podrías prepararme un poco de red dye, por favor?
+                    - [Entregas el berries y el pago a Aggie. Aggie saca una botella roja y te la entrega.]
+                - [Choice]: Creo que todavía no tengo todos los ingredientes.
+                  - **Player:** Creo que aún no tengo todos los ingredientes.
+                  - **Aggie:** Ya sabes lo que necesitas conseguir, ahora vuelve cuando los tengas. Adiós por ahora.
+                - [Choice]: Puedo prescindir de dye a ese precio.
+                  - **Player:** Puedo prescindir de dye a ese precio.
+                  - **Aggie:** Esa es tu elección, pero creo que has matado por menos. Puedo verlo en tus ojos.
+                - [Choice]: ¿Dónde puedo conseguir redberries?
+                  - **Player:** ¿Dónde puedo conseguir redberries?
+                  - **Aggie:** Escojo el mío en el bosque al sur de Varrock. La tienda de alimentación de Port Sarim a veces también tiene algunos.
+                  - [Menu]: Selecciona una opción
+                    - [Choice]: ¿Qué otros colores puedes hacer?
+                      - **Player:** ¿Qué otros colores puedes hacer?
+                      - **Aggie:** Rojo, amarillo y azul. ¿Cuál te gustaría?
+                      - (continuea|dye-ingredients)
+                    - [Choice]: Gracias.
+                      - **Player:** Gracias.
+                      - **Aggie:** ¡De nada!
+                - [Choice]: ¿Qué otros colores puedes hacer?
+                  - **Player:** ¿Qué otros colores puedes hacer?
+                  - **Aggie:** Rojo, amarillo o azul. ¿Cuál te gustaría?
+                  - (continuea|dye-ingredients)
+            - [Choice]: ¿Qué necesitas para hacer yellow dye?
+              - **Player:** ¿Qué necesitas para hacer yellow dye?
+              - **Aggie:** El amarillo es un color extraño, proviene de la piel de la cebolla. Necesito 2 cebollas y 5 coins para hacer yellow dye.
+              - [Menu]: Selecciona una opción
+                - [Choice]: ¿Podrías prepararme un poco de yellow dye, por favor?
+                  - (Condition: Si el player no tiene suficientes cebollas:)
+                    - No tienes suficientes cebollas para hacer el yellow dye.
+                  - (Condition: Si el player no tiene suficiente coins:)
+                    - No puedes permitirte eso.
+                    - No tienes suficiente coins para pagar el dye.
+                  - (Condition: Si el player tiene dos cebollas y 25 coins:)
+                    - **Player:** ¿Podrías prepararme un poco de yellow dye, por favor?
+                    - (quita=dos cebollas y 25 coins) (recibe=yellow dye)
+                    - [Entregas las cebollas y el pago a Aggie. Aggie saca una botella amarilla y te la entrega.]
+                - [Choice]: Creo que todavía no tengo todos los ingredientes.
+                  - **Player:** Creo que aún no tengo todos los ingredientes.
+                  - **Aggie:** Ya sabes lo que necesitas conseguir, ahora vuelve cuando los tengas. Adiós por ahora.
+                - [Choice]: Puedo prescindir de dye a ese precio.
+                  - **Player:** Puedo prescindir de dye a ese precio.
+                  - **Aggie:** Esa es tu elección, pero creo que has matado por menos. Puedo verlo en tus ojos.
+                - [Choice]: ¿Dónde puedo conseguir cebollas?
+                  - **Player:** ¿Dónde puedo conseguir cebollas?
+                  - **Aggie:** Hay algunas cebollas que crecen en una granja al este de aquí, al lado del campo de ovejas.
+                  - (continuea|other-colours)
+                - [Choice]: ¿Qué otros colores puedes hacer?
+                  - **Player:** ¿Qué otros colores puedes hacer?
+                  - **Aggie:** Rojo, amarillo o azul. ¿Cuál te gustaría?
+                  - (continuea|dye-ingredients)
+            - [Choice]: ¿Qué necesitas para hacer blue dye?
+              - **Player:** ¿Qué necesitas para hacer blue dye?
+              - **Aggie:** 2 hojas de glasto y 5 coins para ti.
+              - [Menu]: Selecciona una opción
+                - [Choice]: ¿Podrías prepararme un poco de blue dye, por favor?
+                  - (Condition: Si el player no tiene suficientes hojas de glasto:)
+                    - No tienes suficientes hojas de glasto para hacer el blue dye.
+                  - (Condition: Si el player no tiene suficiente coins:)
+                    - No puedes permitirte eso.
+                    - No tienes suficiente coins para pagar el dye.
+                  - (Condition: Si el player tiene dos hojas de glasto y 25 coins:)
+                    - **Player:** ¿Podrías prepararme un poco de blue dye, por favor?
+                    - (quita=dos hojas de glasto y 25 coins) (recibe=blue dye)
+                    - [Entregas las hojas de glasto y el pago a Aggie. Aggie saca una botella azul y te la entrega.]
+                - [Choice]: Creo que todavía no tengo todos los ingredientes.
+                  - **Player:** Creo que aún no tengo todos los ingredientes.
+                  - **Aggie:** Ya sabes lo que necesitas conseguir, ahora vuelve cuando los tengas. Adiós por ahora.
+                - [Choice]: Puedo prescindir de dye a ese precio.
+                  - **Player:** Puedo prescindir de dye a ese precio.
+                  - **Aggie:** Esa es tu elección, pero creo que has matado por menos. Puedo verlo en tus ojos.
+                - [Choice]: ¿Dónde puedo conseguir hojas de glasto?
+                  - **Player:** ¿Dónde puedo conseguir hojas de glasto?
+                  - **Aggie:** Las hojas de glasto son bastante difíciles de encontrar. Mis otros clientes me dicen que los cultiva el jardinero jefe de Falador.
+                  - (continuea|other-colours)
+                - [Choice]: ¿Qué otros colores puedes hacer?
+                  - **Player:** ¿Qué otros colores puedes hacer?
+                  - **Aggie:** Rojo, amarillo o azul. ¿Cuál te gustaría?
+                  - (continuea|dye-ingredients)
+            - [Choice]: cond=During and after Land of the Goblins|¿Qué necesitas para eliminar dye del correo goblin?
+              - **Player:** ¿Qué necesitas para eliminar dye del correo goblin?
+              - **Aggie:** Necesitaré un ingrediente especial que se encuentra en el intestino del pescado blanco de Hemenster. Sólo tráeme el pescado blanco, cinco coins y algo de correo goblin, y veré qué puedo hacer.
+              - [Menu]: Selecciona una opción
+                - [Choice]: Bien, elimina el dye de este correo duende, por favor.
+                  - **Player:** Bien, elimina el dye de este correo duende, por favor.
+                  - (Condition: Sin correo duende en backpack:)
+                    - **Aggie:** ¿Qué correo de duende?
+                    - **Player:** Ah, claro. Iré a buscar un poco.
+                  - (Condition: Con correo de duende, pero sin pescado blanco en backpack:)
+                    - **Aggie:** Primero tendrás que ir a buscar un pescado blanco de Hemenster.
+                    - **Player:** Sí. Estaba a punto de hacer eso.
+                  - (Condition: Con malla de duendes y pescado blanco en backpack, pero menos de cinco coins:)
+                    - **Aggie:** Serán cinco coins, por favor.
+                    - **Player:** No tengo tanto dinero encima.
+                  - (Condition: Con todo lo necesario:)
+                    - (elimina=correo de duende, pescado blanco y cinco coins) (recibe=correo de duende blanco)
+                    - [Entregas el correo duende, el pescado blanco y el pago a Aggie. Aggie saca una malla de duende blanca y te la entrega.]
+                  - (Condition: Con cota de duende blanca:)
+                    - **Aggie:** Esa cota de malla de duende ya es blanca.
+                    - **Player:** Oh, sí, así es.
+                - [Choice]: Creo que todavía no tengo todos los ingredientes.
+                  - **Player:** Creo que aún no tengo todos los ingredientes.
+                  - **Aggie:** Ya sabes lo que necesitas conseguir, ahora vuelve cuando los tengas. Adiós por ahora.
+                - [Choice]: Puedo prescindir de dye a ese precio.
+                  - **Player:** Puedo prescindir de dye a ese precio.
+                  - **Aggie:** Esa es tu elección, pero creo que has matado por menos. Puedo verlo en tus ojos.
+                - [Choice]: ¿Dónde puedo conseguir el pescado blanco?
+                  - **Player:** ¿Dónde puedo conseguir el pescado blanco?
+                  - **Aggie:** De Hemenster, por supuesto. Sólo se encuentra en los lugares de pesca donde se realiza el Concurso de Pesca. Para pescarlo es necesario utilizar otro pez como cebo: las anguilas babosas.
+                  - **Aggie:** Creo que puedes encontrarlos en Morytania y Lumbridge Swamp Dungeon. Cuando hayas hecho todo eso, tráeme el pescado blanco y veré qué puedo hacer.
+                - [Choice]: ¿Qué otros colores puedes hacer?
+                  - **Player:** ¿Qué otros colores puedes hacer?
+                  - **Aggie:** Rojo, amarillo o azul. ¿Cuál te gustaría?
+                  - (continuea|dye-ingredients)
+
+#### Usando 50 tonos de Dye en ella
+
+- **Aggie:** ¡Alguien compró mi libro! ¿Has revisado dye número 42? ¡Es mi favorito!
+- **Player:** Aún no he tenido la oportunidad, lo siento.
+- **Aggie:** Está bien, todos los dye que he hecho están en ese libro. <br>Realmente hay una gran mezcla.
+- **Player:** ¿Entonces puedes hacer todos los dye? Eso es fascinante.
+- **Aggie:** Realmente no es ningún problema. Te sorprenderá lo que puedes preparar con una pequeña hoja de glasto y un poco de redberries.
+- **Aggie:** ¡Estoy bastante seguro de que podría hacer cualquier tipo de dye con los ojos vendados! Me resulta útil cuando corto la cebolla para hacer un dye.
+- **Player:** ¿Hay algún dyes nuevo que puedas hacer para mí a partir de tu libro?
+- **Aggie:** Me temo que no. Como parte del contrato del libro, no se me permitió hacer más dyes a partir de mi propio libro.
+- **Aggie:** Es una verdadera lástima. Estaba redecorando un poco y quería cambiar el color de mi almacén de granos a un bonito tono rojo.
+- **Player:** Entonces, ¿esa sería una sala roja de grano?
+- **Aggie:** Precisamente.
+- **Player:** Te dejaré con eso.
+
+#### Diálogo histórico, solo después de Vampyre Slayer
+
+- **Aggie:** ¿En qué puedo ayudarte?
+- [Menu]: Elige una opción:
+  - [Choice]: Oye, eres una bruja, ¿no?
+    - (arriba)
+  - [Choice]: Entonces, ¿qué hay realmente en ese caldero?
+    - (arriba)
+  - [Choice]: Habla de Vampyre Slayer.
+    - (arriba)
+  - [Choice]: ¿Qué hay de nuevo en Draynor Village?
+    - **Player:** ¿Qué hay de nuevo en Draynor Village?
+    - **Aggie:** Mmmm. Hace un tiempo apareció un portal en el bosque al este de Draynor.
+    - **Aggie:** Cuando se abrió el portal, ¡el dios Zamorak lo atravesó!
+    - **Aggie:** Sin embargo, inmediatamente fue confrontado por Saradomin y se produjo una batalla. Ambas fuerzas lucharon durante meses, incapaces de tomar ventaja.
+    - **Aggie:** Sin embargo, al final, el poder de Zamorak no fue rival para el poder de Saradomin. Zamorak fue derrotado.
+    - **Aggie:** Zamorak se retiró con la ayuda de su general. Pero la victoria le costó caro a Saradomin, por lo que abandonó el campo de batalla para reagruparse.
+    - **Aggie:** El campo de batalla ahora está en paz.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Puedo preguntarte algo más?
+        - (initial|standard2)
+      - [Choice]: ¡Bien, gracias!
+        - (end)
+  - [Choice]: Más...
+    - (arriba)

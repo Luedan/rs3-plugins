@@ -1,0 +1,369 @@
+# Malignius Mortifer
+
+- **Original Wiki Page**: [Transcript:Malignius Mortifer](https://runescape.wiki/w/Transcript%3AMalignius%20Mortifer)
+- **Letter**: `M`
+
+---
+
+## Dialogue Transcript
+
+
+### Northwest of Port Sarim
+
+- **Malignius Mortifer:** So, Player, your curiosity leads you to speak to me?
+- What would you like to say?
+  - Who are you and what are you doing here?
+    - **Player:** Who are you and what are you doing here?
+    - **Malignius Mortifer:** I am the great Malignius Mortifer, wielder of strange and terrible powers. These lowly followers of mine are dedicated students of the magical arts. Their business is to follow me and learn all they can.
+    - **Player:** They don't look very tough.
+    - **Malignius Mortifer:** You may believe that, but even if you strike one down, another will rise up within minutes.
+    - **Player:** Yeah, right.
+    - **Malignius Mortifer:** Each of my followers is a master of his chosen element. His life becomes bound to that element in a way you could not hope to understand.
+    - **Player:** And what do you do?
+    - **Malignius Mortifer:** I am mastering a branch of magic that few dare to attempt: Necromancy! The fools in the Guild of Wizards shun anyone who practices this art, but there are a few across the lands who know the rudiments. Grayzag, Invrigar, Sithik... Even Melzar studied the methods of necromancy, until an accident affected his mind. Now his spells tend to result in... ... well, let us simply say that he does NOT raise armies of undead minions.
+    - What would you like to say?
+      - Is this like Summoning?
+        - **Player:** Is this like Summoning? Can you teach me?
+        - **Malignius Mortifer:** The obscure magical art of necromancy has nothing to do with Summoning. Through necromancy, I may resurrect the bodies of those who have fallen, and bend them to my will, and even command them to tell me hidden knowledge. I shall not pass on my secrets lightly to any passer-by!
+        - **Player:** Even a mighty hero like me?
+        - *(If the player isn't wearing items aligned to Guthix, Saradomin or Zamorak:)*
+          - **Malignius Mortifer:** There are ways through which you may summon creatures to your side, but my own work is of a different sort.
+          - (other)
+        - *(If the player is wearing items aligned to Guthix:)*
+          - **Malignius Mortifer:** Deluded lover of Guthix, you will get no secrets from me!
+          - (other)
+        - *(If the player is wearing items aligned to Saradomin:)*
+          - **Malignius Mortifer:** Saradominist fool, you will get no secrets from me!
+          - (other)
+        - *(If the player is wearing items aligned to Zamorak:)*
+          - **Malignius Mortifer:** Although I note your respect for our Lord Zamorak, I am afraid the subtle secrets of necromancy must remain beyond your grasp.
+          - (other)
+      - What happened to Melzar?
+        - **Player:** What happened to Melzar?
+        - **Malignius Mortifer:** The forces required to wield power over the dead are very difficult to control. Melzar's concentration slipped, and his spell rebounded upon him. Although he did not die, his mind broke. Now he dwells amidst the beasts that fill his strange home, and when he attempts to do magic he gets... amusing results.
+        - (other)
+      - Why do you keep making fungi appear?
+        - **Player:** Why do you keep making fungi appear?
+        - **Malignius Mortifer:** Necromancy is... still not fully understood. So few people dare to study it. Although my spells usually raise whichever undead creature I desire, they sometimes misfire. As Melzar has learnt!
+        - (other)
+      - Thanks, I'll be off now.
+        - **Player:** Thanks, I'll be off now.
+        - **Malignius Mortifer:** I am sure your curiosity will eventually draw you to speak to me again, Player.
+  - Can you teach me something about magic?
+    - **Player:** Can you teach me something about magic?
+    - *(Unknown condition 1:)*
+      - **Malignius Mortifer:** I see no glimmer of understanding in your eyes; my time would be wasted trying to teach you of the subtle arts. If you are truly interested in magic, perhaps you should go and speak to the Duke of Lumbridge, who lives east of this place. Perchance he will have a mission for you that will teach you something.
+    - *(Unknown condition 2:)*
+      - **Malignius Mortifer:** Ah, you are an inquisitive young fellow. I shall speak of the great Wizards' Tower, destroyed by fire many years ago… Many say it was the greatest building in the history of Gielinor, a magnificent monument to human ingenuity. Yet when humans are offered great power, they so often buy it at the cost of their principles. Wizards who claimed allegiance to Saradomin began to insist that magic be restricted to the few they deemed 'worthy' of such powers. Before long, those who did not share their fatuous obsession with Saradomin were excluded from the Tower completely. This state of affairs could not continue. One dark night, a brave band of magic loyal to the great Lord Zamorak stormed the Tower. Despite heavy losses, they fought their way up the levels until they reached the Library of all known RuneLore. Alas, they were trapped and could not steal the precious records. But before they could be defeated, the bravest of them all took it upon himself to blast the writings into nothingness, destroying the Library. The ensuing fire raced through the Tower, and none escaped its fury. Some say that Lord Zamorak himself fanned the flames to ensure the destruction of his enemies! All that knowledge was lost, but those magi loyal to Zamorak have not ceased to seek it. One day we will regain the power to create unlimited runestones. Let the world beware!
+      - **Player:** Um... I suppose so.
+      - **Malignius Mortifer:** I bid you farewell for now, Player.
+  - Where can I get clothes like those?
+    - **Player:** Where can I get clothes like those?
+    - **Malignius Mortifer:** Bah! Our garments are an outward sign of our dominance of the magical arts. You cannot simply buy them in a shop!
+    - **Player:** What happens if I kill you and take them?
+    - **Malignius Mortifer:** Try it and see!
+    - **Player:** How about if you teach me enough about magic so I can wear those clothes too?
+    - **Malignius Mortifer:** How about if I turn you into a mushroom to make you stop bothering me?
+    - {{Qact|Malignius casts a spell on the player, turning them into a mushroom for a few seconds.}}
+    - **Player:** MMMmmph!
+  - *(After Swan Song:)*
+  - Can I have some more bone seeds?
+    - *(If lacking an airtight pot:)*
+      - **Player:** Can I have some more bone seeds?
+      - **Malignius Mortifer:** You fetch me a pot with a lid first.
+  - *(If carrying an airtight pot:)*
+    - **Player:** Can I have some more bone seeds? Fortunately I do have another pot with a lid.
+    - **Malignius Mortifer:** Yes, yes, have fun with them.
+  - *(After Swan Song:)*
+    - About those skeletal magi...
+    - **Player:** About those skeletal magi in the Colony - why don't they disappear now the Colony's safe?
+    - **Malignius Mortifer:** HAHAHA! I never specified how long they'd stay there!
+    - **Player:** So when will they go away? They're in the dormitories, and that's a real nuisance for the colonists!
+    - **Malignius Mortifer:** HAHAHA!
+    - **Player:** So you're not going to get rid of them?
+    - **Malignius Mortifer:** HAHAHA!
+    - **Player:** Oh, forget I asked.
+  - Actually, I don't want to talk to you.
+    - **Player:** Actually, I don't want to talk to you.
+    - **Malignius Mortifer:** Bah! Then go away!
+
+#### Overhead dialogue
+
+*(This dialogue occurs once a minute:)*
+- {{Qact|Malignius casts a fire spell somewhere close to him.}}
+- *(Malignius may shout one of the following lines:)*
+  - **Malignius Mortifer:** {{RSChat|Da mihi potentia!}}
+  - **Malignius Mortifer:** {{RSChat|Veni, cohortes malefici!}}
+  - (continue)
+- *(If a creature appears:)*
+  - {{Qact|A [ghost/skeleton/skeleton mage/zombie] appears amidst flames.}}
+  - *(If a ghost was spawned:)*
+    - **Ghost:** {{RSChat|OoooOOOooooOOOOooo}}
+    - (continue)
+  - *(If a skeleton or skeleton mage was spawned:)*
+    - **[Skeleton/Skeleton mage]:** {{RSChat|Krrrrsssss}}
+    - (continue)
+  - *(If a zombie was spawned:)*
+    - **Zombie:** {{RSChat|DUUUHHH}}
+    - (continue)
+  - {{Qact|It follows Malignius and shortly disappears.}}
+- *(If fungi appears:)*
+  - {{Qact|Fungi appears amidst flames.}}
+  - *(Continues with one of the following lines:)*
+    - **Malignius Mortifer:** {{RSChat|Blast - fungi again!}}
+    - **Malignius Mortifer:** {{RSChat|Curses - more fungi!}}
+
+#### Treasure Trails
+
+- (receives=lockbox (master))
+- **Malignius Mortifer:** Can you solve this for me?
+- [Malignius Mortifer has given you a lockbox!]
+
+##### Talking to him with the unsolved lockbox in the backpack
+
+- **Malignius Mortifer:** Nope, that's not completed yet.
+
+##### Talking to him with the unsolved lockbox in the bank
+
+- **Player:** I left the puzzle scroll in the bank.
+- **Malignius Mortifer:** Well then, go and get it, so I can check you've done it.
+
+##### Talking to him with the solved lockbox in the backpack
+
+- *(Starts with one of the following lines:)*
+  - **Malignius Mortifer:** Excellent, here is your reward!
+  - **Malignius Mortifer:** I can't believe you did it!
+  - (continue)
+- (removes=lockbox (master) and clue scroll (master))
+- (Condition: If the trail continues:)
+  - (receives=a new clue scroll (master))
+  - [You've found another clue!]
+- (Condition: If the trail ends:)
+  - (receives=reward casket (master))
+  - [You've found a casket!]
+
+### City of Um
+
+
+#### Normally
+
+- (Condition: Before having accepted the ritual supplies from Lupe:)
+  - A trail has been added to: Soul Supplies.
+  - **Malignius Mortifer:** You should pay Lupe a visit in her shop, 'Soul Supplies'. She said she has some free ritual supplies set aside for you.
+  - (continue)
+- (Condition: Before having accepted the necromancer robes from Sostratus:)
+  - A trail has been added to: Buried Bargains.
+  - **Malignius Mortifer:** You should check in with Sostratus at his store, 'Buried Bargains' in the Sunken Market. He has a set of necromancer robes for you.
+  - (continue)
+- (Condition: Before having accepted both free gifts:)
+  - **Malignius Mortifer:** Now, what necromancy wisdom might I impart upon you this hour?
+  - (continue)
+- (Condition: After having accepted both free gifts:)
+  - **Malignius Mortifer:** Ah, Player, what necromancy wisdom might I impact upon you this hour?
+  - (continue)
+- [Menu]: Ask about which topic?
+  - [Choice]: Rituals.
+    - **Player:** Remind me how to do rituals again?
+    - **Malignius Mortifer:** Rituals are easy! You just need to interact with the pedestal at the centre of the site and select the type of ritual you want to perform.
+    - **Malignius Mortifer:** Each ritual has a variety of objects you can place as the focus object - generally speaking, the more valuable the object, the more you'll get out of the ritual.
+    - **Malignius Mortifer:** Then you just need to place light sources and draw glyphs as listed by your chosen ritual.
+    - **Malignius Mortifer:** As you grow as a necromancer, you'll get access to more rituals, stronger glyphs and light sources, as well as a larger ritual site.
+    - **Malignius Mortifer:** Is there anything else you want to know about rituals?
+    - [Menu]: What do you want to know about rituals?
+      - [Choice]: Ritual components.
+        - **Player:** Can you tell me more about ritual components?
+        - **Malignius Mortifer:** Of course! Ritual components are the light sources and glyphs that you place around the ritual site.
+        - **Malignius Mortifer:** These components have durability - each ritual you complete will degrade them slightly, so you'll need to replace or repair them from time to time.
+        - **Malignius Mortifer:** Better light sources and higher tier glyphs will be needed for the greater and powerful ritual variants, but you'll want to build up to those as they'll help you progress faster.
+        - **Malignius Mortifer:** When you become more powerful as a necromancer, you'll also be able to draw a new type of glyph - alteration glyphs.
+        - **Malignius Mortifer:** These are different to foundational glyphs, which are required for rituals, as they provide different benefits - such as decreasing the length of a ritual, or increasing the output of a ritual.
+        - **Player:** That's good to know! What materials do I need to craft the ritual components?
+        - **Malignius Mortifer:** Glyphs required ghostly ink to draw. Basic variants of ghostly ink can be bought from Lupe in Soul Supplies, but higher-tiered variants will need crafting with necroplasm.
+        - **Malignius Mortifer:** Lights sources mainly require candles - again, the basic variant can be bought from Lupe, but higher-tiered variants have to be crafted with necroplasm.
+        - (previous)
+      - [Choice]: Types of rituals.
+        - **Player:** What types of rituals are there?
+        - **Malignius Mortifer:** Let's see...
+        - **Malignius Mortifer:** There are communion rituals, which attract more souls into the Well of Souls and grow your potential power as a necromancer.
+        - **Malignius Mortifer:** There are also necroplasm rituals, which are needed to enhance weak necroplasm into more powerful variants. More powerful necroplasm can the be used to craft better ghostly inks and candles.
+        - (previous)
+      - [Choice]: Soul attraction and soul disturbances.
+        - **Player:** What is soul attraction?
+        - **Malignius Mortifer:** I'm glad you asked!
+        - **Malignius Mortifer:** Soul attraction represents how enticing the ritual site is to outside souls.
+        - **Malignius Mortifer:** The higher the attraction, the higher the chance that one of those souls - or other - will visit the ritual site while you're performing a ritual. We call these ritual disturbances.
+        - **Malignius Mortifer:** Make sure to interact with anything that visits the ritual site, as you'll be rewarded handsomely!
+        - **Player:** Thanks! But, how can I change my amount of soul attraction?
+        - **Malignius Mortifer:** Ah, yes, that's probably a handy thing to know.
+        - **Malignius Mortifer:** When you become a more powerful necromancer, you'll be able to draw alteration glyphs.
+        - **Malignius Mortifer:** These special glyphs have different effects on rituals - including increasing or decreasing your amount of soul attraction.
+        - (previous)
+      - [Choice]: What are those storage containers next to you for?
+        - **Player:** What are those storage containers next to your for?
+        - **Malignius Mortifer:** Oh, the ritual chest and the focus storage? I'll explain them to you!
+        - **Malignius Mortifer:** The ritual chest simply holds everything that you gain as output from the rituals you perform, so no need to worry about your backpack filling up.
+        - **Malignius Mortifer:** As for the focus storage, that can hold any focus object that's needed for each of the core rituals.
+        - **Malignius Mortifer:** Whenever you choose a ritual to perform, so long as you have the focus object either in your backpack, or the focus storage, you're good to go.
+        - **Malignius Mortifer:** Additionally, once you've finished performing a ritual, if you have another focus object from the same ritual in your focus storage, the pedestal will simply set itself up ready for you to perform the ritual again!
+        - (previous)
+      - [Choice]: Nothing right now.
+        - **Player:** I don't need to know anything else about rituals.
+        - **Malignius Mortifer:** Alright then!
+        - (initial)
+  - [Choice]: Quests.
+    - (Condition: With only one quest below not finished:)
+      - ((As below after asking about the unfinished quest.))
+    - [Menu]: Ask about which quest?
+      - [Choice]: cond=If Rune Mythos hasn't been completed:|Rune Mythos.
+        - (Condition: Before having accepted the quest:)
+          - **Malignius Mortifer:** I've spotted a strange dark portal in north-east Um. I'd advise you not to mess with it until I've figured out what it is...
+          - Requirements to start the 'Rune Mythos' quest: 24 Necromancy.
+          - (initial)
+        - (Condition: During the quest:)
+          - ((Continues with quest dialogue.))
+      - [Choice]: cond=If Rune Mythos is completed and Vessel of the Harbinger has not been completed:|Vessel of the Harbinger.
+        - (Condition: Before reaching 46 Necromancy, 40 Prayer, and having completed Ghosts Ahoy, or before having accepted the quest:)
+          - **Malignius Mortifer:** I think Death wants to see a bit more progress before he'll tell you more about Rasial...
+          - Requirements to start the 'Vessel of the Harbinger' quest: 46 Necromancy, 40 Prayer, Ghosts Ahoy.
+          - (initial)
+        - (Condition: During the quest:)
+          - **Malignius Mortifer:** You should finish your investigation into Necrovarus. It could provide a clue for defeating Rasial.
+          - (initial)
+      - [Choice]: cond=If Vessel of the Harbinger is completed and The Spirit of War has not been completed:|The Spirit of War.
+        - ((Before having accepted the quest with or without all the necessary requirements:))
+          - (Condition: If Angurvadal hasn't appeared:)
+            - **Malignius Mortifer:** I've got a horrible feeling you're soon going to be put to the test. Best get prepared...
+            - (continue)
+          - (Condition: If Angurvadal has appeared:)
+            - **Malignius Mortifer:** Er... That animated sword of Hermod's is just over the bridge stealing souls! You need to scare that thing away.
+            - (continue)
+          - Requirements to start 'The Spirit of War' quest: 65 Necromancy, 3,000 City of Um vessel souls.
+          - (initial)
+        - (Condition: During the quest:)
+          - **Malignius Mortifer:** Angurvadal is still harassing spirits over in the main plaza. You've got to take  fight to Hermod up in Rasial's citadel, my friend. Show tham what you've learned so far!
+          - (initial)
+      - [Choice]: cond=If The Spirit of War is completed and Tomes of the Warlock has not been completed:|Tomes of the Warlock.
+        - (Condition: Before having accepted the quest:)
+          - **Malignius Mortifer:** I think Death wants to see a bit more progress before he'll tell you more about Rasial...
+          - Requirements to start the 'Tomes of the Warlock' quest: 75 Necromancy, 86 Archaeology, 66 Magic, The Jack of Spades.
+          - (initial)
+        - (Condition: During the quest:)
+          - **Malignius Mortifer:** You should finish your investigation into Orcus the Necromancer. It could provide a clue for defeating Rasial.
+          - (initial)
+      - [Choice]: cond=If Tomes of the Warlock is completed and the Necrolord has not been completed:|Remains of the Necrolord.
+        - (Condition: Before having accepted the quest:)
+          - **Malignius Mortifer:** I think Death wants to see a bit more progress before he'll tell you more about Rasial...
+          - Requirements to start the 'Remains of the Necrolord' quest: 85 Necromancy, 77 Dungeoneering, Vengeance (saga), Nadir (saga).
+          - (initial)
+        - (Condition: During the quest:)
+          - **Malignius Mortifer:** You should finish your investigation into the necrolords of Daemonheim. It could provide a clue for defeating Rasial.
+          - (initial)
+      - [Choice]: cond=If Remains of the Necrolord is completed and Alpha vs Omega has not been completed:|Alpha vs Omega.
+        - (Condition: Before Rasial has appeared on the bridge:)
+          - **Malignius Mortifer:** I've got real sense of foreboding and dread. I hope you're almost ready to face Rasial...
+          - Requirements to start the 'Alpha vs Omega' quest: 95 Necromancy, 30,000 City of Um vessel souls{{Sic|..}}
+          - (initial)
+        - (Condition: After Rasial has appeared on the bridge and before having accepted the quest:)
+          - **Malignius Mortifer:** Er... Rasial has showed up in Um. He's standing right smack band in the middle of the bridge, bold as brass. I don't think he's at all impressed or concerned by your progress...
+          - Requirements to start the 'Alpha vs Omega' quest: 95 Necromancy, 30,000 City of Um vessel souls.
+          - (initial)
+        - (Condition: During the quest:)
+          - **Malignius Mortifer:** Come on! Show Rasial what for, from all of us down here in Um. We've got your back!
+          - (initial)
+      - [Choice]: cond=If Kili Row has not been completed:|Kili Row/equipment.
+        - (Condition: Before reaching level 20 Necromancy:)
+          - **Malignius Mortifer:** Hmm, we need to find a way for you to upgrade your equipment. Best we can do is wait for a competent smith to show up in the city.
+          - **Player:** Can't I just ask someone on the surface? I normally just give Thurgo a redberry pie and we're all good.
+          - **Malignius Mortifer:** Oh, no - it takes more to craft necromancy gear than hammering some metal and sewing some fabric. We need the aid of the spirits too!
+          - (initial)
+        - (Condition: Before having accepted the quest with all the necessary requirements:)
+          - **Malignius Mortifer:** I heard a rumour that the ghost of a master smith recently arrived. They're setting up a smithy in the north-east of Um. You should go introduce yourself.
+          - [Menu]: Would you like directions?
+            - [Choice]: Yes, please.
+              - (A marker is placed on Kili.)
+              - (initial)
+            - [Choice]: No, I'll find it myself.
+              - (initial)
+        - (Condition: During Kili Row:)
+          - **Malignius Mortifer:** You should head back up to Kili's smithy in north-east Um and get busy crafting some better equipment!
+          - (initial)
+      - [Choice]: cond=If That Old Black Magic has not been completed:|That Old Black Magic.
+        - (Condition: Before reaching level 32 Necromancy:)
+          - **Malignius Mortifer:** This place is feeling a bit lifeless - no pun intended. I don't just mean spirits, I mean vibes.
+          - **Malignius Mortifer:** Someone should put some music on or something. That always lifts my mood.
+          - (initial)
+        - (Condition: After reaching level 32 Necromancy but before having accepted the quest:)
+          - **Malignius Mortifer:** Oh, hey, I saw a ghost lady looking like she was setting up in the main plaza's bankstand!
+          - **Malignius Mortifer:** I wonder if she's going to put some music on, I'd love that. You should see if she needs any .
+          - (initial)
+        - (Condition: During the quest:)
+          - **Malignius Mortifer:** I'm getting a good feeling about how you're helping Lady Grey out over at the bankstand.
+          - (initial)
+      - [Choice]: cond=If Housing of Parliament has not been completed:|Housing of Parliament.
+        - (Condition: Before reaching level 54 Necromancy:)
+          - **Malignius Mortifer:** It's a shame there's no one around to look after the owls. Their owlery is getting a bit messy.
+          - (initial)
+        - (Condition: After reaching level 54 Necromancy but before having accepted the quest:)
+          - **Malignius Mortifer:** I heard the owl keeper is back to look after the owls!
+          - **Malignius Mortifer:** The owlery got into quite a mess while she was away. Maybe she could use some help.
+        - (Condition: After having accepted the quest:)
+          - **Malignius Mortifer:** It's good to hear you helping out with the owlery!
+          - (initial)
+      - (Condition: If you have completed every quest above:)
+        - **Malignuis Mortifer:** I think you're all done, fellow necromancer. Rasial's plan is defeated and the City of Um is a vibrant, happy place once more!
+  - [Choice]: City of Um.
+    - **Player:** What is there to do in the City of Um?
+    - **Malignius Mortifer:** I've just been happy to be able to explore this place!
+    - **Player:** What have you discovered of note so far?
+    - (Condition: Before unlocking the lodestone:)
+      - **Malignius Mortifer:** I saw that Death 'remembered' a lodestone into existence, just over the bridge. You should activate that; Death did say we could come and go as we please.
+      - (continue)
+    - (Condition: With unknown condition:)
+      - **Malignius Mortifer:** Ooh, remember those ghost trolls from earlier? I think I saw some more of them in a cave in south-east Um. You should lay them all to rest.
+      - **Malignius Mortifer:** I think I spotted one of them carrying a fancy, but also deadly-looking, cape...
+      - (continue)
+    - (Condition: With unknown condition:)
+      - **Malignius Mortifer:** I believe some souls are starting to repopulate the city.
+      - **Malignius Mortifer:** You should introduce yourself to any notable spirits, try to get them on our side in the fight against Rasial.
+      - **Malignius Mortifer:** Ted is keeping a log of new inhabitants; you should talk to them if you want suggestions.
+      - (continue)
+    - **Malignius Mortifer:** I've spotted a few ghost implings flying past. Maybe try to catch some.
+    - **Malignius Mortifer:** Also, deathshead moths seem to be attracted to various parts of the city.
+    - (previous)
+  - [Choice]: [More options]
+    - [Menu]: Ask about which topic?
+      - [Choice]: Other things to do.
+        - **Player:** What else can I do with necromancy?
+        - **Malignius Mortifer:** The same you can do with any other combat style!
+        - **Malignius Mortifer:** You should try necromancy out on Slayer and Reaper tasks, killing boss monsters, and the like!
+        - **Malignius Mortifer:** I have no doubt, in time, you'll NEED necromancy to defeat certain enemies, to obtain specific loot...so best get some practice in early.
+        - (initial)
+      - [Choice]: Replay City of Um cutscene.
+        - (see|Necromancy!#City of Um cutscene)
+      - [Choice]: [Previous options]
+        - (initial)
+  - [Choice]: Nothing, thanks.
+    - **Player:** Nothing, thanks.
+    - **Malignius Mortifer:** Good luck!
+
+#### During the 25th Anniversary celebrations task
+
+- **Malignius Mortifer:** Er, how much do you like mushrooms, boss?
+- **Player:** What have you done now, Malignius?
+- **Malignius Mortifer:** My necromancy training isn't going so well. I didn't mean to, but...
+- **Player:** But...
+- **Malignius Mortifer:** ...but I think I accidentally turned my therapist into a portobello.
+- **Player:** You think? How can you not know?
+- **Malignius Mortifer:** Well, it might be a porcini.
+- **Player:** *sigh* It doesn't matter what kind of mushroom he is, turn him back! If you're not sure how, just ask Death.
+- **Malignius Mortifer:** Ah, right, yeah... I'll go talk to *gulp* ...Death. Er, right away, boss.
+- **Player:** Do you want me to talk to him for you?
+- {{RSFontAchievement|Femurs and Fungi|Talk to Malignius Mortifer in the City of Um Ritual Site.}}
+- ((Shown in a task completion pop-up:))
+  - {{Colour|#F0BE79|&nbsp;25TH ANNIVERSARY TASK&nbsp;|#181513}}
+  - Femurs and Fungi
+  - Talk to Malignius Mortifer in the City of Um Ritual Site.
+  - (continue)
+- **Malignius Mortifer:** N-no... I'm on it. I just need to psyche myself up first...
+- (Condition: If all the tasks have been completed:)
+  - **Player:** Looks like I've completed everything. I'd better go and see Hans about that reward!

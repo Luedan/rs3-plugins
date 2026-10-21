@@ -1,0 +1,213 @@
+# Varrock Museum Archaeologist
+
+- **Original Wiki Page**: [Transcript:Varrock Museum Archaeologist](https://runescape.wiki/w/Transcript%3AVarrock%20Museum%20Archaeologist)
+- **Letter**: `V`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+*(Este diálogo es para los cuatro arqueólogos que se pueden ver dentro del área acordonada dentro del Museo Varrock, y solo se puede hablar con ellos a través de un servidor miembro.)*
+- {{trandom|First line is a random one out of the following:}}
+  - **Arqueólogo:** Saludos mi querido [sir/madam]. ¿Has venido a echarnos una mano?
+  - **Arqueólogo:** Hola; Veo que estás calificado. ¿Vienes a ayudarnos?
+  - **Arqueólogo:** ¡Hola! Eres ese estudiante que recientemente terminó los tres exámenes de Ciencias de la Tierra, ¿no? ¿Vienes a ayudarnos?
+- [Menu]: Elige una opción:
+  - [Choice]: Sí, ¿cómo puedo ayudar?
+    - **Player:** Sí, ¿cómo puedo ayudar?
+    - (Condition: Cuando no tienes el equipo:)
+      - **Arqueólogo:** Bueno, primero necesitarás conseguir tu equipo; está todo en el estante de herramientas. Utilice lo que aprendió en sus exámenes de Ciencias de la Tierra. Deberá usar guantes y botas de cuero, así como tener acceso a su paleta, pico de roca y cepillo para muestras.
+    - (Condition: Cuando usas botas y guantes de cuero y tienes la paleta, el pico de piedra y el cepillo para muestras en tu inventario:)
+      - **Arqueólogo:**
+      - Veo que tienes tu equipo, bien hecho.
+      - **Arqueólogo:** Para ayudarnos realmente, podrías limpiar algunos hallazgos para nosotros. Ya casi están terminados, sólo un buen trabajo para rematar. Tome un hallazgo del montón que están trayendo los trabajadores, luego hay mesas de repuesto allí para limpiarlas. Si encuentra algo interesante, háganoslo saber y veremos si es lo suficientemente bueno como para exhibirlo.
+      - (end)
+  - [Choice]: I found something interesting |cond=Con un artefacto en el inventario
+    - **Player:**Encontré algo interesante.
+    - **Arqueólogo:**¿Oh? Echemos un vistazo...
+    - *(continúa a continuación)*
+  - [Choice]: Tengo una pregunta sobre la Estatua de Dahmaroc.
+    - **Player:** Tengo una pregunta sobre la Estatua de Dahmaroc.
+    - [Menu]: Selecciona una opción
+      - [Choice]: Dime otra vez de dónde viene la estatua.
+        - **Player:** Dime otra vez de dónde viene la estatua.
+        - **Arqueólogo:** Bueno, solo hemos podido juntar fragmentos aquí y allá, pero parece que Dahmaroc era un mago de gran poder que quedó atrapado en una batalla todopoderosa en la Segunda Edad. Parece que esta batalla había terminado sobre quién debería tener la mayor parte de las runas que las razas inteligentes habían encontrado en RuneScape.
+        - **Player:** ¿Runas? ¿Como los que uso para magia ahora? Seguramente son ilimitados.
+        - **Arqueólogo:** Ahora sí, sí, pero en aquel entonces había una oferta limitada. Al menos, eso es lo que indican los fragmentos de información que hemos encontrado.
+        - **Player:** Interesante. Entonces, ¿qué pasó con Dahmaroc?
+        - **Arqueólogo:** Hasta donde sabemos, perdió, fue convertido en piedra y luego maldecido. Se dice que estaba condenado a pasar la eternidad con lo que más amaba...
+        - **Player:** Eso no suena tan mal. ¿Tenía esposa?
+        - **Arqueólogo:** Bueno, no estamos seguros de eso. Sabemos que le encantaba adquirir conocimientos y habilidades en nuevas disciplinas. Aunque no tiene gusto por pelear. De hecho, fue el combate lo que resultó ser su perdición.
+      - (Condition: Si no tienes una bolsa de recolección de estatuas:)
+        - **Arqueólogo:** Por cierto, si quieres una bolsa para guardar más hallazgos, te la puedo proporcionar.
+        - [Menu]: Selecciona una opción
+          - [Choice]: Sí por favor.
+            - **Player:** Sí, por favor.
+            - [El arqueólogo te entrega una bolsa resistente.]
+            - (initial)
+          - [Choice]: No gracias.
+            - **Player:** No, gracias.
+            - (initial)
+      - (Condition: Si ya tienes una bolsa recolectora de estatuas:)
+        - **Arqueólogo:** Ya tienes una bolsa de recolección de estatuas.
+        - (initial)
+      - [Choice]: ¿Gemelo? ¿Cómo consigo su gemelo?
+        - **Player:** ¿Gemelo? ¿Cómo consigo su gemelo?
+        - **Arqueólogo:** Bueno, no estoy seguro, pero sospecho que de la misma manera que obtuviste el primero.
+        - **Player:** ¿Por qué necesito un gemelo?
+        - **Arqueólogo:** Porque, curiosamente, se entrelazan en pares para formar la estatua completa sin necesidad de ningún tipo de adhesivo.
+      - (Condition: Si no tienes una bolsa de recolección de estatuas:)
+        - **Arqueólogo:** Por cierto, si quieres una bolsa para guardar más hallazgos, te la puedo proporcionar.
+        - [Menu]: Selecciona una opción
+          - [Choice]: Sí por favor.
+            - **Player:** Sí, por favor.
+            - [El arqueólogo te entrega una bolsa resistente.]
+            - (initial)
+          - [Choice]: No gracias.
+            - **Player:** No, gracias.
+            - (initial)
+      - (Condition: Si ya tienes una bolsa recolectora de estatuas:)
+        - **Arqueólogo:** Ya tienes una bolsa de recolección de estatuas.
+        - (initial)
+      - [Choice]: ¿Cómo lo agrego a la estatua?
+        - **Player:** ¿Cómo lo agrego a la estatua?
+        - **Arqueólogo:** Si tienes rocas extrañas que encontraste durante el entrenamiento, simplemente usa los pares de piezas en el pedestal de allí. Si te refieres a una de las réplicas que hicimos para ti, usa los pares de piezas de réplica en el zócalo de tu casa.
+      - (Condition: Si no tienes una bolsa de recolección de estatuas:)
+        - **Arqueólogo:** Por cierto, si quieres una bolsa para guardar más hallazgos, te la puedo proporcionar.
+        - **Player:** Sí, por favor.
+        - [El arqueólogo te entrega una bolsa resistente.]
+        - (initial)
+      - (Condition: Si no tienes una bolsa de recolección de estatuas:)
+        - **Arqueólogo:** Por cierto, si quieres una bolsa para guardar más hallazgos, te la puedo proporcionar.
+        - [Menu]: Selecciona una opción
+          - [Choice]: Sí por favor.
+            - **Player:** Sí, por favor.
+            - [El arqueólogo te entrega una bolsa resistente.]
+            - (initial)
+          - [Choice]: No gracias.
+            - **Player:** No, gracias.
+            - (initial)
+      - (Condition: Si ya tienes una bolsa recolectora de estatuas:)
+        - **Arqueólogo:** Ya tienes una bolsa de recolección de estatuas.
+        - (initial)
+      - [Choice]: Tendré que mantener una lista de piezas.
+        - **Player:** Tendré que mantener una lista de piezas.
+        - **Arqueólogo:** Sí, eso sería prudente. Aquí tienes algo de papel para usar.
+        - [El arqueólogo te entrega una hoja de papel que rápidamente garabateas.]
+        - (end)
+  - (Condition: Si todavía recibes piedras:)
+    - [Choice]: ¿Cómo puedo dejar de recibir estas piedras?
+      - **Player:** ¿Cómo puedo dejar de recibir estas piedras?
+      - **Arqueólogo:** Ah, recuerdo un encantamiento que podría ayudar. Creo que fue...
+      - (El arqueólogo lanza un hechizo llamado "Incanto Negato Silicis")
+      - *Dejarás de recibir piedras*
+      - (initial)
+  - (Condition: Si has elegido dejar de recibir piedras:)
+    - [Choice]: ¿Cómo puedo conseguir estas rocas nuevamente?
+      - **Player:** ¿Cómo puedo recuperar estas rocas?
+      - **Arqueólogo:** Ah, recuerdo un encantamiento que podría ayudar. Creo que fue...
+      - (El arqueólogo lanza un hechizo llamado "Incanto Additto Silicis")
+      - *Comenzarás a recibir piedras nuevamente*
+    - (Condition: Si no tienes una bolsa de recolección de estatuas:)
+      - **Arqueólogo:** Por cierto, si quieres una bolsa para guardar más hallazgos, te la puedo proporcionar.
+      - [Menu]: Selecciona una opción
+        - [Choice]: Sí, por favor.
+          - **Player:** Sí, por favor.
+          - [El arqueólogo te entrega una bolsa resistente.]
+          - (initial)
+        - [Choice]: No gracias.
+          - **Player:** No, gracias.
+          - (initial)
+      - (Condition: Si ya tienes una bolsa recolectora de estatuas:)
+        - **Arqueólogo:** Ya tienes una bolsa de recolección de estatuas.
+        - (initial)
+    - [Choice]: Me gustaría restablecer mi estatua.
+      - **Player:** Me gustaría restablecer mi estatua.
+      - **Arqueólogo:** ¿Estás seguro? ¡Perderás todo tu progreso!
+      - *Advertencia: Perderás todo tu progreso, incluida cualquier estatua construida en tu casa. Esto no se puede revertir.*
+      - [Menu]: ¿Restablecer todo el progreso?
+        - [Choice]: si
+          - {{transcript missing}}
+        - [Choice]: No
+        - (end)
+  - [Choice]: No gracias.
+    - **Player:** No, solo estoy aquí para mirar.
+
+### When using an artefact obtained from an uncleaned find on them
+
+- **Player:** Echa un vistazo a esto...
+- (Condition: Si muestra una moneda antigua:)
+  - **Player:** Encontré esta moneda muy antigua. ¿Tiene alguna utilidad?
+  - **Arqueólogo:** ¿Qué tenemos aquí?
+  - **Arqueólogo:** ¡Oh! Esto es muy interesante... y confuso al mismo tiempo. Esta moneda significa que la ciudad que estamos excavando en el sitio de excavación Varrock, Saranthium, en realidad estuvo habitada mucho, mucho antes por seguidores de Zamorak, en cuyo momento la ciudad era conocida como Senntisten.
+  - **Arqueólogo:** Este es un descubrimiento muy notable, ya que tenemos otra evidencia que indica que los seguidores zarosianos residían antes de que los saradoministas tomaran el control, pero también parece que las fuerzas zamorakianas lo usaron durante una batalla de algún tipo. Aún así, nos permite fechar aproximadamente cuándo la ciudad pasó de seguir a Zaros y Zamorak a seguir a Saradomin. Ponlo en la vitrina 44.
+  - **Player:** ¡Caso 44, así es!
+- *(Si el player no puso la moneda antigua en el Caso 44)*
+  - **Arqueólogo:** ¿De nuevo? ¿Ya has puesto la moneda en la vitrina 44?
+  - **Player:**No, lo haré ahora.
+- (Condition: Si muestra un símbolo antiguo:)
+  - **Player:** Encontré esta vieja decoración que se desmorona. ¿Sirve de algo?
+  - **Arqueólogo:** Ahh... Eso parece un retablo. Hmm, sí... de los primeros adoradores saradoministas por lo que parece. Bastante delicado también. Ponlo en la vitrina 37.
+  - **Player:** ¡Caso 37, así es!
+- *(Si el player no puso el símbolo antiguo en el Caso 37)*
+  - **Arqueólogo:**¿De nuevo? ¿Ya pusiste el símbolo en la vitrina 37?
+  - **Player:**No, lo haré ahora.
+- (Condition: Si muestra puntas de flecha:)
+  - **Player:** Encontré estas viejas puntas de flecha.
+  - **Arqueólogo:** Ahh, sí, encontramos muchos de esos, no son importantes. Ya tenemos algunos en nuestro display. Simplemente agréguelo a la caja de hallazgos cerca de la puerta.
+  - **Arqueólogo:** Si ya hay algo en la caja, no dudes en tomarlo como recompensa por tu trabajo.
+  - **Player:** Oh, está bien.
+- (Condition: Si muestra un collar limpio:)
+  - **Player:** Encontré este bonito collar.
+  - **Arqueólogo:** Interesante...si...si...hmmm.... Parece que está encantado.
+  - **Player:** ¿Con qué?
+  - **Arqueólogo:** Oh, creo que es sólo un hechizo de teletransportación benigno. Juego con la magia cuando no estoy haciendo arqueología. Puedo enseñarte a hacer más collares como este. Es sorprendente que tuvieran este tipo de conocimiento en aquel entonces.
+  - **Player:** Eso sería bueno. ¿A dónde está el teletransporte?
+  - **Arqueólogo:** Hmm... todo indica que está en algún lugar al este de nosotros, pero no estoy seguro de a qué distancia. Quizás fue un teletransporte de regreso a Saranthium. Déjame echar un vistazo más de cerca.
+  - [El arqueólogo toma el collar y lo gira entre sus manos, estudiándolo de cerca.]
+  - (removes=clean necklace)
+  - {{RSFontAchievement|I Dig This Transportation}}
+  - [El arqueólogo te muestra las técnicas para este hechizo en particular, que requiere cinco runas de fuego dispuestas alrededor de una runa cósmica (y nivel 49 Magic) y luego lanzar el hechizo en tu propio collar de rubíes elaborado.]
+  - [Puedes hacer collares de rubíes encantados.]
+  - **Player:** Así que simplemente hago un collar de rubíes y uso cinco runas de fuego y una runa cósmica para encantarlo.
+  - **Arqueólogo:** Sí, efectivamente. Bien hecho jovencito, gracias por ayudarnos.
+- (Condition: Si muestra joyas:)
+  - **Player:** Encontré estos collares viejos.
+  - **Arqueólogo:** Un hallazgo interesante... Déjame ofrecerte algo a cambio.
+  - **Player:** ¡Oh! Bueno.
+  - (removes=all jewellery artefacts) (receives=5 coins per jewellery artefact)
+  - [El arqueólogo te regala [número] coins… ¡debió valer mucho en su día!]
+- (Condition: Si muestra un jarrón viejo y desconchado:)
+  - **Player:** Limpié este viejo jarrón.
+  - **Arqueólogo:** Ah, los jarrones... He perdido la cuenta de cuántos hemos encontrado de esos... El único completamente intacto ya está en la vitrina. Simplemente agréguelo a la caja de hallazgos cerca de la puerta.
+  - **Arqueólogo:** Si ya hay algo en la caja, no dudes en tomarlo como recompensa por tu trabajo.
+  - **Player:** Correcto.
+- (Condition: Si muestra una moneda antigua:)
+  - **Player:** He limpiado esta moneda antigua. ¿Sirve de algo?
+  - **Arqueólogo:** ¡Dios mío! ¡Qué maravilloso hallazgo! Si esto es lo que creo que es, nos permitiría fechar la ciudad del sitio de excavación.
+  - **Arqueólogo:** Y mira aquí, ¡tiene el nombre de la ciudad también! ¡Sarantio! Eso debe ser durante la ocupación saradominista. Este es un hallazgo maravilloso. Por favor, tómalo y colócalo en la vitrina 45.
+  - **Player:** Derecha, vitrina 45 es...
+- *(Si el player no puso la moneda antigua en el Caso 45)*
+  - **Arqueólogo:** ¿De nuevo? ¿Ya has puesto la moneda antigua en la vitrina 45?
+  - **Player:**No, lo haré ahora.
+- (Condition: Si muestra un símbolo antiguo:)
+  - **Player:** Encontré esta decoración muy antigua. ¿Sirve de algo?
+  - **Arqueólogo:** ¡Guau! Está en bastante buenas condiciones, ¿no? Una antigua decoración de altar por lo que parece, de la ciudad saradominista sin duda. Ponlo en la vitrina 36.
+  - **Player:** ¡Caso 36, así es!
+- *(Si el player no puso el símbolo antiguo en el caso 36)*
+  - **Arqueólogo:**¿De nuevo? ¿Ya pusiste el símbolo en la vitrina 36?
+  - **Player:**No, lo haré ahora.
+- (Condition: Si muestra cerámica:)
+  - **Player:** Encontré esta pieza de cerámica. ¿Tiene alguna utilidad?
+  - **Arqueólogo:** Ahh... ¡Oh! Hmm... sí... hecho por adoradores de Zaros, por lo que parece. Hermosamente formado. Parece que esto quedaría bien en la vitrina 39. Esta pieza refuerza nuestra evidencia de que la ciudad fue ocupada por zarosianos antes que por saradoministas.
+  - **Player:** ¡Caso 39, así es!
+- *(Si el player no puso la cerámica en el caso 39)*
+  - **Arqueólogo:**¿De nuevo? ¿Ya pusiste la cerámica en la vitrina 39?
+  - **Player:**No, lo haré ahora.
+- (Condition: Si muestra un elemento no relacionado:)
+  - **Arqueólogo:** Gracias, pero no necesito eso.
+- **Arqueólogo:** Un hallazgo interesante... Déjame ofrecerte algo a cambio.

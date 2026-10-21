@@ -1,0 +1,92 @@
+# Bogrog
+
+- **Original Wiki Page**: [Transcript:Bogrog](https://runescape.wiki/w/Transcript%3ABogrog)
+- **Letter**: `B`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Bogrog:** Oye, amigo, ¿qué quieres?
+- Seleccione una opción
+  - Entonces, ¿de qué se trata Summoning?
+    - **Bogrog:** ¿De qué estás hablando, amigo?
+    - Seleccione una opción
+      - Summoning.
+        - **Player:** Sí, eso creo.
+        - **Bogrog:** Tengo bolsas y fragmentos de espíritu, pero no amuletos. Yooman tiene que conseguirlos él mismo. Yooman simplemente consigue un garrote y golpea cosas hasta que los monstruos sueltan amuletos. Hay un montón de cosas que tienen encanto. Hay un montón de amuletos por todo el lugar, dorado, azul, verde, carmesí... incluso algunos muy raros como los amuletos de obsidiana también.
+        - **Player:** Me aseguraré de mantener los ojos abiertos para verlos.
+        - **Bogrog:** Si yooman quiere aprender a invocar bien, el yooman necesita hacer bolsas de invocación. Yooman también aprende de la invocación, los pergaminos y la división de las bolsas de invocación. Las bolsas de invocación son la mejor forma de aprender sobre todas ellas. ¿Yooman lo entendió, o yooman es estúpido?
+        - **Player:** ¡Claro!
+        - **Bogrog:** ¡Ja! ¡Yooman es inteligente para un pequeño toque! Lo último son las mascotas. Cuanto más convocado seas, más entenderás los pájaros, las abejas, las rocas y esas cosas. Cuanto mayor sea la capacidad de convocatoria del hombre, más fuertes serán las mascotas que el hombre podrá conservar. ¡Los verdaderos grandes invocadores pueden criar animales como lagartos, incluidos dragones! Ahora bien, si el cerebro de Yooman no va a estallar, ¿quiere saber algo más?
+        - Seleccione una opción
+          - Háblame de Summoning familiars.
+            - (below|familiars)
+          - Cuéntame sobre movimientos especiales.
+            - (below|special-moves)
+          - Háblame de mascotas.
+            - (below|pets)
+      - Cuéntame sobre Summoning familiars.{{anchor|familiars}}
+        - **Bogrog:** Los familiares convocados son lo principal en Summonin', como si yooman no estuviera adivinando. Hay todo tipo de cosas que un hombre puede invocar. Cuanto mayor es la capacidad de invocación del hombre, más grandes son las cosas que el hombre puede convocar. Ting es que esos familiares no son realmente, REALMENTE animales, si me entiendes. Son realmente REALMENTE espíritus que son más fuertes que el animal real, con todo tipo de poderes que el resto no lo hacen. Esa es la razón por la que no están corriendo por ahí todo el tiempo: es porque el invocador pone sus puntos de habilidad de invocación para convocarlos y mantenerlos aquí.
+        - **Player:** Entonces, los puntos de habilidad de Summoning son como comida para ellos. ¿Lo siento, ellos?
+        - **Bogrog:** ¡Sí! ¡Eso es correcto! Cuanto más grande es, más tienes que alimentarlo y más a menudo tiene hambre. Es por eso que solo los tipos de invocación grandes, como yo, tienen suficientes puntos de habilidad de invocación para los familiares más grandes. Y cuanto mayor sea el nivel de invocación del hombre, más fácil será alimentar a los más pequeños durante más tiempo.
+        - **Player:** Estoy empezando a tener un poco de hambre.
+        - **Bogrog:** Es como si un hombre tuviera bolsas de trigo en la mano. Cuanto más grandes son las bolsas que sostiene, más grandes se vuelven los brazos del hombre, para que las bolsas más grandes puedan sostenerse la próxima vez. Si el youman alimenta un poco de ting den, ¡también le sobrará mucho trigo!
+        - **Player:** ¡Genial! Entonces, ¿qué pueden hacer estos familiares?
+        - **Bogrog:** ¿Qué no pueden hacer, más bien? Hay un montón de dem (toneladas, montones y montones) y cada uno de ellos no es como los uvvers.
+        - **Player:** Bueno, ¿puedes darme algunas pistas entonces?
+        - **Bogrog:** Bueno, ¡Bogrog solo llama a aquellos que pelean! ¡Se quedan ahí hasta que Bogrog esté peleando y luego saltan! Supongo que un hombre como usted querrá los que simplemente lo hacen más hábil, o aquellos que arrastran cosas que los brazos del hombre son demasiado débiles para levantarlos.
+        - **Player:** ¡Increíble!
+        - **Bogrog:** Ahora, si el cerebro de Yooman no va a explotar, ¿quiere saber algo más?
+        - Seleccione una opción
+          - Cuéntame sobre movimientos especiales.
+            - (below|special-moves)
+          - Háblame de mascotas.
+            - (below|pets)
+      - Cuéntame sobre movimientos especiales.{{anchor|special-moves}}
+        - **Bogrog:** Si cortas una de las bolsas de invocación, en el obelisco, la energía se tritura muy bien, transformándose en una gran pila de pergaminos. ¡Estos pergaminos se pueden usar para hacer que los familiares hagan un movimiento especial! ¡Hurra, hur, hur! Los lobos espirituales, por ejemplo, pueden hacer que las pequeñas cosas se escapen muy bien si realizan el movimiento especial Aullido.
+        - **Player:** ¡O más, en el caso de ese wolpertinger gigante!
+        - **Bogrog:** ¡Hurra, hur, hur, me enteré de eso por los espíritus! Sin embargo, Yooman no puede mezclar los pergaminos: ¡los lobos espirituales se ponen muy gruñones si intentas obligarlos a realizar un movimiento especial de pavo real!
+        - **Player:** Entonces, ¿qué tipo de movimientos especiales existen?
+        - **Bogrog:** ¡Hay muchos de ellos, como los familiares! Si usted está confundido, simplemente piense en esto; los familiares atacantes obtuvieron muchos más movimientos especiales de ataque, y los sensibles y no atacantes tienen movimientos especiales no atacantes. Yooman querrá que los que no atacan los curen, les consigan cosas o los mejoren en la inversión de cosas.
+        - **Player:** ¿Son similares los movimientos especiales y las habilidades normales del familiar?
+        - **Bogrog:** No, son en su mayoría diferentes. Sin embargo, los espíritus lobos son similares. Tienen el movimiento especial Howl, pero también tienen una habilidad normal. Puedes hacer que el espíritu lobo use Aullido en cualquier cosa que veas, pero solo puede usar su habilidad normal de aullido en cosas contra las que estás luchando. Si está familiarizado con la habilidad normal y está peleando con un hombre, entonces utiliza la habilidad normal cuando ve una apertura. Sin embargo, los movimientos especiales nunca los usan a menos que Yooman les diga que usen un pergamino.
+        - **Player:** Ya veo. ¡Gracias por la información!
+        - **Bogrog:** Ahora, si el cerebro de Yooman no va a explotar, ¿quiere saber algo más?
+        - Seleccione una opción
+          - Háblame de Summoning familiars.
+            - (above|familiars)
+          - Háblame de mascotas.
+            - (below|pets)
+      - Háblame de mascotas.{{anchor|pets}}
+        - **Bogrog:** ¿Los mezquinos? Bueno, no son cosas reales de convocatoria, pero si entrenas duro, entonces puedes ser amigo de ellos. El invocador del yooman se vuelve más parecido a la naturaleza, por lo que a los pequeños mezquinos les gusta más el yooman. Entonces, los mezquinos que estarían huyendo no lo hacen, e incluso los mezquinos desagradables también se quedan muy callados. Y cuando no corren ni muerden, el hombre puede alimentarlos, acariciarlos y quedarse con ellos.
+        - **Player:** Entonces, ¿qué tendré que hacer para criar a los animales?
+        - **Bogrog:** Ellos simplemente caminan detrás del yooman, por lo que el yooman solo les da comida, más comida y buena comida. ¡Los mejores invocadores quieren acariciar a un dragón!
+        - **Player:** ¡Guau! ¡Imagínese cabalgando sobre un dragón y luchando con él!
+        - **Bogrog:** Yooman es demasiado estúpido.
+        - **Player:** ¿Qué?
+        - **Bogrog:** Primero, eres demasiado débil para obligar a un dragón a hacer lo que dices. Dos, cuando usted tiene una mascota, usted recuerda que todavía está viva y que es su amiga. Las mascotas no son como los familiares espirituales: ¡mueren si las matas! ¿Qué amigo le da un golpe a su amigo en la cabeza y le dice: 'Vamos a pelear ahora'. ¿Me subo a tu espalda y luchas por mí?
+        - **Player:** No me di cuenta.
+        - **Bogrog:** Eso es porque Yooman es estúpido. Petties, no juguetes, palos o ridy-tings. Están viviendo cosas que usted está criando desde que nació. ¡Si eres un hombre malo y mezquino, te aporreo!
+        - **Player:** Los cuidaré bien.
+        - **Bogrog:** Ahora, si el cerebro de Yooman no va a explotar, ¿quiere saber algo más?
+        - Seleccione una opción
+          - Háblame de Summoning familiars.
+            - (above|familiars)
+          - Cuéntame sobre movimientos especiales.
+            - (above|special-moves)
+          - Háblame de mascotas.
+            - (above|pets)
+  - ¿Puedo comprar algunos suministros de invocación?
+    - **Player:** ¿Puedo comprar algunos suministros de invocación, por favor?
+    - **Bogrog:** ¡Hurra, hurra, hurra! ¡Yooman tiene que comprar muchas cosas si quiere entrenar bien!
+    - (opens=Summoning Supplies (Bogrog))
+  - ¿Estás interesado en comprar bolsas o pergaminos?
+    - **Player:** ¿Estás interesado en comprar bolsas o pergaminos?
+    - **Bogrog:** Otros ogros están robando las acciones de Bogrog. Dame bolsas y pergaminos y yooman obtiene los fragmentos.
+    - **Player:** Vale.
+    - *(Se abre la interfaz de intercambio de Summoning.)*

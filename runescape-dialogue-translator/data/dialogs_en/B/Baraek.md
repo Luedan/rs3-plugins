@@ -1,0 +1,132 @@
+# Baraek
+
+- **Original Wiki Page**: [Transcript:Baraek](https://runescape.wiki/w/Transcript%3ABaraek)
+- **Letter**: `B`
+
+---
+
+## Dialogue Transcript
+
+
+### In Varrock
+
+- '''Select an option
+- *Before the Shield of Arrav:*
+  - Hello. I am in search of a quest.
+    - **Player:** Hello! I am in search of a quest.
+    - **Baraek:** Sorry kiddo, I'm a fur trader not a damsel in distress.
+    - (initial)
+- *After the Shield of Arrav:*
+  - Remind me where I can find the Phoenix Gang.
+    - **Baraek:**  To get to the gang hideout, enter Varrock through the south gate. Then, if you take the first turning east, somewhere along there is an alleyway to the south. The door at the end of there is the entrance to the Phoenix Gang. They're operating there under the name of the VTAM Corporation. Be careful. The Phoenixes ain't the types to be messed about.
+    - '''Select an option
+      - You're really bad at giving directions.
+        - **Player:**  Seriously...I paid 10 gold coins for that? I hope you're a better fur trader than a navigator.
+        - **Baraek:**  Hey now...the Phoenix Gang make it their business to not be easy to find. Look, if you get lost, talk to Charlie the tramp near the Varrock south gate. He can give you better directions.
+        - (initial)
+      - Thanks!
+        - (end)
+- Can you sell me some furs?
+  - **Player:** Can you sell me some furs?
+  - **Baraek:** Yeah, sure. They're 20 gold coins each.
+    - *If you do not have sufficient money with you*
+      - I can't afford that.
+      - **Baraek:** Well, my best price is 18 coins.
+        - *If you do not have sufficient money with you*
+          - **Player:** I haven't actually got that much.
+          - **Baraek:** Well, I can't go any cheaper than that mate. I've got a family to feed.
+          - **Player:** Oh well, never mind.
+        - *If you have sufficient money with you*
+          - OK, here you go.
+            - **Player:** OK, here you go.
+            - (receives=bear fur)
+            - (removes=18 coins)
+            - Baraek sells you a fur.
+          - No, thanks, I'll leave it.
+            - **Player:** No, thanks, I'll leave it.
+            - **Baraek:** It's your loss mate.
+    - *If you have sufficient money with you*
+      - Yeah, okay, here you go.
+        - **Player:** Yeah, OK, here you go.
+        - (receives=bear fur)
+        - (removes=20 coins)
+        - Baraek sells you a fur.
+    - 20 gold coins? That's an outrage!
+      - **Player:** 20 gold coins? That's an outrage!
+      - **Baraek:** Well, my best price is 18 coins.
+      - ''If you have sufficient money with you:
+        - OK, here you go.
+          - **Player:** OK, here you go.
+          - (receives= bear fur)
+          - (removes=18 coins)
+          - Baraek sells you a fur.
+        - No, thanks, I'll leave it.
+          - **Player:** No, thanks, I'll leave it.
+          - **Baraek:** It's your loss mate.
+  - *If you have any bear furs in your inventory:*
+    - Would you like to buy my fur?
+      - **Player:** Would you like to buy my fur?
+      - **Baraek:** Let's have a look at it.
+      - You hand Baraek your fur to look at.
+      - **Baraek:** It's not in the best condition. I guess I could give you 12 coins for each one.
+      - '''Select an option
+        - Yeah, that'll do.
+          - **Player:** Yeah, that'll do.
+          - *For each fur that you sell to Baraek:*
+          - (receives=12 coins)
+          - (removes=bear fur)
+          - **Player:** Thanks!
+        - I think I'll keep hold of it actually.
+          - **Player:** I think I'll keep hold of it actually!
+          - **Baraek:** Oh ok. Didn't want it anyway!
+        - ''If wearing a ring of Charos:
+          - [Charm] Are you sure? You don't see quality furs like this too often.
+            - **Player:** Are you sure? You don't see quality furs like this too often.
+            - **Baraek:** Mmm, let me have another look.
+            - ''If the player has precisely one bear fur:
+              - **Baraek:** That is a really fine piece of fur. Tell you what, I'll give you 20 gold pieces for it.
+            - ''If the player has multiple bear furs:
+              - **Baraek:** Those are really fine pieces of fur. Tell you what, I'll give you 20 gold pieces each for them.
+              - **Player:** Now that's more like it!
+            - *For each fur that you sell to Baraek:*
+            - (receives=20 coins)
+            - (removes=bear fur)
+            - **Player:** Thanks!
+  - *If you have any grey wolf furs in your inventory:*
+    - Would you like to buy my grey wolf fur?
+      - **Player:** Would you like to buy my grey wolf fur?
+      - **Baraek:** GREY WOLF FUR??? NOW you're talking! Grey wolf fur is something of a desirable item to me. I'll take all you have for 120 gold pieces per fur, does that sound fair?
+      - '''Select an option
+        - Yep, sounds fine.
+          - **Player:** Yep, sounds fine.
+          - *For each fur that you sell to Baraek:*
+          - (receives=120 coins)
+          - (removes=grey wolf fur)
+          - **Player:** Thanks!
+        - No! I almost got my throat torn out by a wolf to get this!
+          - **Player:** No! I almost got my throat torn out by a wolf to get this!
+        - ''If wearing a ring of Charos:
+          - [Charm] Are you sure? You don't see quality furs like this too often.
+            - **Player:** Are you sure? You don't see quality furs like this too often.
+            - **Baraek:** Mmm, let me have another look.
+            - ''If the player has precisely one grey wolf fur:
+              - **Baraek:** That is a really fine piece of fur. Tell you what, I'll give you 150  gold pieces for it.
+            - ''If the player has multiple grey wolf furs:
+              - **Baraek:** Those are really fine pieces of fur. Tell you what, I'll give you 150 gold pieces each for them.
+              - **Player:** Now that's more like it!
+            - *For each fur that you sell to Baraek:*
+            - (receives=150 coins)
+            - (removes=grey wolf fur)
+            - **Player:** Thanks!
+
+### In New Varrock
+
+- [Menu]: Choose an option:
+  - [Choice]: Can you sell me some furs?
+    - **Baraek:** Sorry, all fur's reserved for Lord Zemouregal. He demands a fresh teddy bear every day.
+    - (initial)
+  - [Choice]: Hello. I am in search of a quest.
+    - **Baraek:** Quests?<br>Sorry kiddo, I'm a fur trader not a zombie-in-distress.
+    - (initial)
+  - [Choice]: Farewell.
+    - **Baraek:** Come back any time.

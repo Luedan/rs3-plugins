@@ -1,0 +1,80 @@
+# Pirate
+
+- **Original Wiki Page**: [Transcript:Pirate](https://runescape.wiki/w/Transcript%3APirate)
+- **Letter**: `P`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+- **Player:** ¡Hola!
+- {{trandom}}
+  - [Choice]: Diálogo 1
+    - **Pirate:** ¡3 días en el puerto para reabastecerse y luego en alta mar!
+  - [Choice]: Diálogo 2
+    - **Pirate:** ¡Que tengas viruela!
+  - [Choice]: Diálogo 3
+    - **Pirate:** ¡Todos manos a la obra!
+  - [Choice]: Diálogo 4
+    - **Pirate:** ¡Arra!
+  - [Choice]: Diálogo 5
+    - **Pirate:** ¡Arra! ¡Estaré en busca del tesoro enterrado!
+  - [Choice]: Diálogo 6
+    - **Pirate:** ¡Arra, arra!
+  - [Choice]: Diálogo 7
+    - **Pirate:** ¡Arrh, vete!
+  - [Choice]: Diálogo 8
+    - **Pirate:** ¡Arrh, te arrastraré con la quilla!
+  - [Choice]: Diálogo 9
+    - **Pirate:** ¡Arra, lobo de mar escorbuto!
+  - [Choice]: Diálogo 10
+    - **Pirate:** ¡Arrrh, marinero de agua dulce con hígado de lirio!
+  - [Choice]: Diálogo 11
+    - **Pirate:** ¡Avast detrás!
+    - **Player:** ¿Quién tiene un trasero enorme?
+    - **Pirate:** Oh, olvídalo.
+  - [Choice]: Diálogo 12
+    - **Pirate:** ¡Avastenme, corazones!
+  - [Choice]: Diálogo 13
+    - **Pirate:** ¡Avast! ¡Avast!
+    - **Player:** ¿Un gran qué?
+    - **Pirate:** Arrh, guarda tu charla y déjame en paz.
+  - [Choice]: Diálogo 14
+    - **Pirate:** ¡Bajen las escotillas, se avecina una tormenta!
+  - [Choice]: Diálogo 15
+    - **Pirate:** ¡Buenos días, mi querido señor!
+  - [Choice]: Diálogo 16
+    - **Pirate:** ¡Gran barba de Barbanegra!
+  - [Choice]: Diálogo 17
+    - **Pirate:** ¡Creo que darás un largo paseo sobre una tabla corta!
+  - [Choice]: Diálogo 18
+    - **Pirate:** ¡Soy el azote de los siete mares!
+  - [Choice]: Diálogo 19
+    - **Pirate:** ¡Soy el azote de los seis mares!
+    - **Player:** ¿No te refieres a siete mares?
+    - **Pirate:** ¡Soy el azote de los siete mares!
+  - [Choice]: Diálogo 20
+    - **Pirate:** ¡Quilla, llévalas, digo!
+  - [Choice]: Diálogo 21
+    - **Pirate:** ¡Hombre al agua!
+  - [Choice]: Diálogo 22
+    - **Pirate:** ¡Oh, arra!
+    - **Pirate:** No, espera. Ese es un granjero.
+  - [Choice]: Diálogo 23
+    - **Pirate:** ¡Piezas de ocho! piezas de ocho!
+    - **Pirate:** Oh, espera, esa es la línea del loro.
+  - [Choice]: Diálogo 24
+    - **Pirate:** ¡Tiemblen mis maderas!
+  - [Choice]: Diálogo 25
+    - **Pirate:** ¡Empareja el soporte principal!
+  - [Choice]: Diálogo 26
+    - **Pirate:** ¡Yo ho ho y una botella de ron!
+  - [Choice]: Diálogo 27
+    - **Pirate:** ¡Ho ho ho y una taza de té!
+  - [Choice]: Diálogo 28
+    - **Pirate:** ¡Yo ho ho y una botella de alcopop!
+  - [Choice]: Diálogo 29
+    - **Pirate:** ¡Yo ho ho, cariños!
+  - [Choice]: Diálogo 30
+    - **Pirate:** ¡Te unirás a Davey Jones en su casillero!

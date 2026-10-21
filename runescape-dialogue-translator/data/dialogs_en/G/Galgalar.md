@@ -1,0 +1,92 @@
+# Galgalar
+
+- **Original Wiki Page**: [Transcript:Galgalar](https://runescape.wiki/w/Transcript%3AGalgalar)
+- **Letter**: `G`
+
+---
+
+## Dialogue Transcript
+
+
+### Talk to
+
+- ((Only before having asked about Seggregation:))
+  - The ilujanka mutters to himself as he surveys the incubator.
+  - **Galgalar:** Eggcellent, eggcellent...<br>The incubator eggceeds my eggspectations...
+  - (continue)
+- **Galgalar:** Ah hello, friend! I was eggcitedly eggsamining my egg incubator, but that is no eggcuse for rudeness.
+- Choose an option:
+  - Who are you?
+    - **Galgalar:** I am Galgalar: eggsalted tender of eggs and incubator eggstraordinaire.
+    - **Galgalar:** My eggquaintance Salusan and I are here after our unfortunate eggspulsion from Iaia. We seek to eggsact our place in your world.
+    - **Galgalar:** She has eggstravagant ideas about dragon riders becoming dino-riders.
+    - **Galgalar:** I merely wish to eggspand my eggsperience as an eggcellent egg hatcher. Salusan's more of a weapons eggspert.
+    - **Galgalar:** The Potterington supports our coeggsistence. I assume running such a large operation eggsausts her.
+    - (previous|Galgalar-options)
+  - Why are you talking like that?
+    - **Galgalar:** Talking like what?<br>Could you be more eggsplicit?
+    - **Player:** You keep making egg puns. Or do I hear a regional ilujankan accent?
+    - **Galgalar:** Eggscent?<br>I don't have an eggscent.
+    - **Galgalar:** The deggsterity and fleggsibility of my vocal chords is one of my most veggsing features.
+    - **Galgalar:** The elders told me it was how they knew I would eggcel at incubation, though.
+    - **Player:** I'm not sure if that makes more or less sense...
+    - (previous|Galgalar-options)
+  - [Talk about helping with Seggregation]
+    - ((With less than 87 Firemaking:))
+      - **Galgalar:** You don't look like you could withstand the eggstreme heat of my incubator.
+      - **Player:** I sweat because I care.
+      - ((Shown in a pop-up:))
+        - You require 87 Firemaking to take part in Seggregation.
+        - (continue)
+      - **Galgalar:** You might find it less teggsing to help Ben, on the beach just south of here. I've not seen him in a while. Probably over-eggserted himself. Ben's an eggsitable little fellow.
+      - (previous|Galgalar-options)
+    - ((With at least 87 Firemaking:))
+      - ((Only on the first time:))
+        - **Galgalar:** The Potterington wants to hatch only eggsceptional eggs, and produce the finest eggscretors.
+        - **Galgalar:** Ben was supposed to eggstract the bad eggs to a compost bin. He even had a wheelbarrow to eggspedite the process.
+        - {{Qact|Camera pans to the fast incubator.}}
+        - **Galgalar:** But you should be able to do it just as quickly.
+        - {{Qact|Camera pans to the pile of dinosaur eggs.}}
+        - **Galgalar:** Find the pile of eggs to the south-east.
+        - {{Qact|Camera pans to the fast compost bin.}}
+        - **Galgalar:** Take bad eggs to whatever compost bin Ben has set up to the south.
+        - {{Qact|Camera pans back to the fast incubator.}}
+        - **Galgalar:** Bring the good eggs back here to incubate.
+        - {{Qact|Camera returns to normal.}}
+        - **Galgalar:** Eggsemplify your understanding by returning some egg shards to me.
+        - **Player:** That doesn't sound too hard or morally questionable.
+        - (previous|Galgalar-options)
+      - ((After the first time without sharp shell shards and before having completed Off to See the Lizard:))
+        - **Galgalar:** Where eggsactly are the egg shells?
+        - {{Qact|Camera pans to the fast incubator.}}
+        - You need to gather some sharp shells by incubating good eggs and boiling bad eggs.
+        - {{Qact|Camera pans to the pile of dinosaur eggs.}}
+        - You can find the eggs in a pile to the south-east.
+        - {{Qact|Camera returns to normal.}}
+        - (previous|Galgalar-options)
+      - ((After the first time with sharp shell shards and before having completed Off to See the Lizard:))
+        - [You show Galgalar sharp shell shards.]
+        - **Galgalar:** Yes, those are eggsactly what I eggspected.
+        - **Galgalar:** Those eggstremely sharp shards could make eggsquisite arrowheads.
+        - **Galgalar:** The eggscretory nature of their former inhabitants will give them an eggsplosive edge. Perhaps you could learn something about pyrotechnics by eggniting them?
+        - **Galgalar:** Eggstinguisher on standby, I think.
+        - **Player:** So where are the incubated dinos going?
+        - **Galgalar:** I direct them to Bill and Sal on the Anachronia coastline. You can follow them via the mystical tree to the south.
+        - **Galgalar:** On your way to the magic tree, you could check on Ben. He's been gone for an eggscessively long time.
+        - **Galgalar:** Anyway, your eggspeditious egg indeggsing has eggsceeded my eggspectations.
+        - Congratulations! You have completed 'Off to See the Lizard' - Help Galgalar the ilujanka near the incubator south of the Anachronia dinosaur farm.
+        - **Player:** Try saying that three times fast.
+        - **Galgalar:** Eggsactly.
+        - (previous|Galgalar-options)
+      - ((After having completed Off to See the Lizard:))
+        - **Galgalar:** Thank you for your help. I need to stay here and monitor the incubator, so with no sign of Bill or Ben, I was going through a bit of a midwife crisis.
+        - **Player:** I'm going to pretend I didn't hear that.<br>What can I do with sharp shell shards?
+        - **Galgalar:** Those eggstremely sharp shards could make eggsquisite arrowheads.
+        - **Galgalar:** The eggscretory nature of their former inhabitants will give them an eggsplosive edge. Perhaps you could learn something about pyrotechnics by eggniting them?
+        - **Galgalar:** Eggstinguisher on standby, I think.
+        - **Player:** So where are the incubated dinos going?
+        - **Galgalar:** I direct them to Bill and Sal on the Anachronia coastline. You can follow them via the mystical tree to the south.
+        - **Galgalar:** On your way to the magic tree, you could check on Ben. He's been gone for an eggscessively long time.
+        - (previous|Galgalar-options)
+  - Goodbye.
+    - **Galgalar:** See you neggst time!

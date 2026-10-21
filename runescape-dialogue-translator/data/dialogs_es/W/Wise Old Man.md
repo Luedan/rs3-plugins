@@ -1,0 +1,659 @@
+# Wise Old Man
+
+- **Original Wiki Page**: [Transcript:Wise Old Man](https://runescape.wiki/w/Transcript%3AWise%20Old%20Man)
+- **Letter**: `W`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Talk to
+
+
+#### Sólo la primera vez
+
+- **Wise Old Man:** Saludos, Player.
+- (Condition: Condición desconocida:)
+  - **Wise Old Man:** Espera, espera, espera. Antes de comenzar, ¿estás aquí por mi colección de arqueología?
+  - ¿Quieres hablar de Archaeology?
+    - Sí.
+      - (abajo)
+    - No.
+      - (continue)
+- **Player:** Entonces eres un wise old man, ¿eh?
+- **Wise Old Man:** ¡Menos del 'viejo', por favor!
+- **Wise Old Man:** Pero sí, supongo que se podría decir eso. Prefiero considerarme un sabio.
+- **Player:** Entonces, ¿qué hace un sabio aquí?
+- **Wise Old Man:** He pasado la mayor parte de mi vida estudiando este mundo en el que vivimos. Caminé a través de las profundidades de las mazmorras más mortíferas, recorrí las turbias junglas de Karamja, medité sobre las glorias de Saradomin en Entrana,
+- **Wise Old Man:** y lee tomos polvorientos en la biblioteca de Varrock.
+- **Wise Old Man:** Ahora no soy tan joven como solía ser, me estoy instalando aquí donde hay paz.
+- **Wise Old Man:** Es una lástima que vampyre siga atacando la aldea. Al menos Saradomin me protege.
+- **Player:** Has tenido una vida muy emocionante.
+- **Wise Old Man:** ¿Emocionante? Sí, supongo que sí.
+- **Wise Old Man:** Ahora que estoy aquí, ¿quizás podría ofrecerte el beneficio de mi experiencia y sabiduría?
+- **Player:** ¡Gracias! Entonces, ¿cómo puedes ayudarme?
+- **Wise Old Man:** Bueno, imagino que habrás reunido bastantes cosas en tus viajes. Cosas que usaste para misiones hace mucho tiempo y que no necesitas ahora.
+- **Wise Old Man:** Si quieres, puedo revisar tu banco y ver si hay algo que puedas tirar.
+- **Wise Old Man:** Alternativamente, puedes traer artículos aquí y mostrármelos. Si veo que es algo que no necesitas te lo haré saber. Incluso podría estar dispuesto a comprarlo.
+- **Player:** ¿Entonces me ayudarás a eliminar la basura de mi banco?
+- **Wise Old Man:** Sí, es cierto. ¡O estaré encantado de charlar contigo sobre las maravillas de este mundo!
+- [Menu]: ¿Qué te gustaría decir?
+  - [Choice]: ¿Podría darme algunas cosas gratis, por favor?
+    - **Player:** ¿Podría darme algunas cosas gratis, por favor?
+    - **Wise Old Man:** Querido, querido yo...
+    - (Condition: Si el player está en un mundo F2P:)
+      - **Wise Old Man:** No estoy dando dinero gratis, pero si inicias sesión en un mundo de miembros, estaré encantado de recompensarte si haces un pequeño trabajo por mí.
+    - (Condition: Si el player está en un mundo P2P:)
+      - **Wise Old Man:** No voy a dar dinero gratis, pero estaré encantado de recompensarte si haces un pequeño trabajo por mí.
+        - [Menu]: ¿Qué te gustaría decir?
+          - [Choice]: Ok, ¿qué quieres que haga?
+            - **Player:** Ok, ¿qué quieres que haga?
+            - **Wise Old Man:** Estoy seguro de que se me ocurren algunos pequeños trabajos. Esto no será una misión, claro está, sólo un pequeño favor... Tengo un poco de hambre. Quiero carne cocida, no pollo ni ningún tipo de ave. ¡Y definitivamente tampoco camello ni conejo! Por favor tráeme 3.
+            - [Menu]: ¿Qué te gustaría decir?
+              - [Choice]: ¿Dónde puedo conseguir eso?
+                - **Player:** ¿Dónde puedo conseguirlo?
+                - **Wise Old Man:** Simplemente cocina un poco de carne de res, rata u oso.
+                - **Player:** Bien, nos vemos luego.
+              - [Choice]: Bien, te veré más tarde.
+                - **Player:** Bien, nos vemos luego.
+          - [Choice]: Gracias, tal vez en otro momento.
+            - **Player:**Gracias, tal vez en otro momento.
+            - **Wise Old Man:**Como desees. Adiós, Player.
+  - [Choice]: Sólo me gustaría preguntarte algo.
+    - (continue|I'd-just-like-to)
+  - [Choice]: ¿Hay algo que pueda hacer por ti?
+    - (continue|Is-there-anything-I)
+  - [Choice]: ¿Podrías revisar mis cosas en busca de basura, por favor?
+    - (continue|Could-you-check-my)
+  - [Choice]: cond=Unknown condition:|Quiero hablar de las colecciones de Archaeology.
+    - (continue|Archaeology-collection)
+
+#### Después
+
+- **Wise Old Man:** Saludos, Player.
+- **Wise Old Man:** Espera, espera, espera. Antes de comenzar, ¿estás aquí por mi colección de arqueología?
+- [Menu]: ¿Quieres hablar de Archaeology?
+  - [Choice]: Sí.
+    - (continue|Archaeology-collection)
+  - [Choice]: No.
+    - (continue)
+- ((Con un construction contract para wise old man:))
+  - [Menu]: Selecciona una opción
+    - [Choice]: Pregunta por contracts.
+      - [Menu]: Selecciona una opción
+        - [Choice]: ¿Qué necesitas reparar?
+          - **Wise Old Man:** Déjame ver, ahora mismo necesito que repares el siguiente pieces of furniture.
+          - **Wise Old Man:** [Furniture 1], [Furniture 2], [Furniture 3], [Furniture 4], [Furniture 5]
+          - (previous)
+        - [Choice]: ¿Qué materiales necesito?
+          - **Wise Old Man:** Necesitas: Planks x [número], Steel nails x [número]
+          - (previous)
+        - [Choice]: [Leave]
+          - (end)
+    - [Choice]: Pregunta por otra cosa.
+      - (continue)
+- [Menu]: ¿Qué te gustaría decir?
+  - [Choice]: cond=If the player lacks a task and has not completed all quests:|¿Hay algo que pueda hacer por ti?
+    - **Wise Old Man:** Estoy seguro de que se me ocurren algunos pequeños trabajos. Esto no será una misión, eso sí, sólo un pequeño favor...
+    - ((El Wise Old Man da una tarea.))
+  - [Choice]: cond=If the player has a task:|¿Qué me pediste que hiciera?
+    - ((El Wise Old Man repite la tarea.))
+  - [Choice]: cond=If the player has completed all quests:|Me gustaría comprar una capa Quest Point, por favor.
+    - **Player:** Me gustaría comprar una capa de Quest Point, por favor.
+    - **Zenevivia:** ¿Sigues haciendo misiones, eh? <br> ¡Bah, aventureros!
+    - **Wise Old Man:** Zinny todavía no se ha rendido con ese tema.<br>Ahora, Quest Capes cuesta 99,000 coins.
+    - [Menu]: Elige una opción:
+      - [Choice]: Paga 99.000 coins por un Quest Cape.
+        - **Player:** Sí
+        - **Wise Old Man:** Diviértete con ello.
+        - **Player:** En realidad, olvídalo.
+      - [Choice]: No, gracias.
+        - (end)
+      - [Choice]: He notado que hay un par de versiones de cada skillcape.
+        - **Wise Old Man:** ¡Sí! Sentimos que era hora de un cambio.
+        - **Wise Old Man:** Aún puedes elegir usar el modelo antiguo Quest Cape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
+        - [Menu]: Selecciona una opción
+          - [Choice]: Sí, me gustaría usar la versión antigua del Quest Cape.
+            - {{Transcript missing}}
+          - [Choice]: No, gracias.
+            - **Wise Old Man:** ¡Genial! ¡Me alegra que estés disfrutando de nuestra nueva versión!
+  - [Choice]: ¿Podrías revisar mis cosas en busca de basura, por favor?
+    - [Menu]: Elige una opción:
+      - [Choice]: ¿Podrías revisar mi banco en busca de basura, por favor?
+        - **Wise Old Man:** Por supuesto, pero debo advertirte que no conozco todos los elementos.
+        - ((Se abre la interfaz de limpieza de artículos para el banco.))
+      - [Choice]: ¿Podrías revisar mi inventario en busca de basura, por favor?
+        - **Wise Old Man:** Por supuesto, pero debo advertirte que no conozco todos los elementos.
+        - ((Si hay basura en el inventario:))
+          - ((Se abre la interfaz de limpieza de elementos para backpack).
+        - ((Si no hay basura en el inventario:))
+          - **Wise Old Man:** No parece haber nada basura en tu inventario.
+      - [Choice]: cond=If the player has a beast of burden summoned:|¿Podrías revisar mi bestia de carga en busca de basura, por favor?
+        - **Wise Old Man:** Por supuesto, pero debo advertirte que no conozco todos los elementos.
+        - ((Si hay chatarra en bestia de carga:))
+          - ((Se abre la interfaz de limpieza de elementos para bestia de carga).
+        - ((Si no hay basura en bestia de carga:))
+          - **Wise Old Man:** No parece haber ninguna basura en tu bestia de carga.
+  - [Choice]: Tengo algo que me gustaría que vieras.
+    - **Player:** Tengo algo que me gustaría que vieras.
+    - **Wise Old Man:** Muy bien. Dámelo y te contaré todo lo que sé al respecto.
+  - [Choice]: Sólo me gustaría preguntarte algo.
+    - **Player:** Sólo me gustaría preguntarte algo.
+    - **Wise Old Man:** ¡Por favor hazlo!
+    - [Menu]: Elige un tema
+      - [Choice]: Tierras lejanas
+        - [Menu]: Elige un tema
+          - [Choice]: El Wilderness
+            - **Player:** ¿Podría hablarme sobre el Wilderness, por favor?
+            - **Wise Old Man:** Hace muchos años, cuando el asqueroso Zamorak estaba luchando contra las fuerzas de Saradomin, los confines del norte de este continente fueron destruidos por su magia maligna, transformando una vasta área en un páramo árido de rocas.
+            - **Wise Old Man:** y lava.
+            - **Wise Old Man:** Los espíritus de los monstruos que perecieron en este cataclismo todavía deambulan por Wilderness, incluso hoy, buscando personas para masacrar en su interminable deseo de venganza. Son increíblemente peligrosos, mucho más mortales.
+            - **Wise Old Man:** que otros monstruos.
+            - **Wise Old Man:** Sin embargo, todavía vale la pena correr el riesgo de ingresar al Wilderness. Hay tesoros en Wilderness que escasean en otros lugares, y algunos de los otros monstruos son populares para el entrenamiento de combate. Incluso hay arenas
+            - **Wise Old Man:** ¡donde puedes luchar contra otras personas como tú!
+            - **Wise Old Man:** Si te atreves a ir al extremo noroeste de Wilderness, ¡hay un edificio llamado Mage Arena donde puedes aprender a invocar el poder del mismísimo Saradomin!
+            - (continue|Other questions)
+          - [Choice]: Misty selvas
+            - **Player:** ¿Qué puedes decirme sobre las junglas?
+            - **Wise Old Man:** Si lo que quieres es una jungla, no busques más que las regiones del sur de Karamja.
+            - **Wise Old Man:** Una vez que llegas al sur de Brimhaven, toda la isla está prácticamente cubierta de árboles, enredaderas y arbustos exóticos.
+            - **Wise Old Man:** Hay un pequeño asentamiento llamado Tai Bwo Wannai Village en el medio de la isla. Es un lugar divertido; El jefe es un tipo antipático y sus hijos están ladrando como locos.
+            - **Wise Old Man:** Honestamente, ¡uno de ellos me pidió que rellenara un mono muerto con algas para poder COMERLA!
+            - (Condition: Si el player ha completado Tai Bwo Wannai Village:)
+              - **Player:** Sí, los conozco.
+              - (continue)
+            - **Wise Old Man:** Más al sur encontrarás Shilo Village. Ha estado bajo ataque de terroríficos zombis en los últimos meses, si mis fuentes son correctas.
+            - (Condition: Si el player ha completado Shilo Village:)
+              - **Player:** Ya me he ocupado de ellos, aunque todavía hay algunos dando vueltas.
+              - (continue)
+            - **Wise Old Man:** La jungla está llena de criaturas desagradables. Hay arañas feroces que apenas puedes ver antes de que intenten arrancarte las piernas de un mordisco, y grandes ogros de la jungla.
+            - (continue|Other questions)
+          - [Choice]: Dominios subterráneos
+            - **Player:** Cuéntame qué hay bajo tierra.
+            - **Wise Old Man:** Oh, ¿los reinos de los enanos?
+            - **Wise Old Man:** Sí, hubo un tiempo, allá por la Cuarta Edad, en el que los humanos no hubiéramos podido aventurarnos bajo tierra. Eso fue antes de que tuviéramos magia; Los enanos eran una gran amenaza.
+            - **Wise Old Man:** Aún así, ahora es mucho más amigable. Puedes visitar la gran mina enana si quieres; la entrada está en la montaña al norte de Falador.
+            - **Wise Old Man:** Si vas más al oeste podrás visitar la ciudad enana de Keldagrim. Pero la última vez que les pregunté, fueron un poco cautelosos al dejar entrar a los humanos.
+            - **Wise Old Man:** Por otro lado, si vas al oeste de Brimhaven, encontrarás un enorme laberinto subterráneo lleno de gigantes, demonios, perros y dragones contra los que luchar. Es incluso más grande que las cuevas debajo de Taverley, aunque la mazmorra de Taverley es bonita.
+            - **Wise Old Man:** bueno para entrenar tus habilidades de combate.
+            - (continue|Other questions)
+          - [Choice]: Reinos místicos
+            - **Player:** ¿Qué reinos místicos puedo visitar?
+            - (Condition: Si el player no ha completado Ciudad Perdida:)
+              - **Wise Old Man:** La legendaria Ciudad Perdida de Zanaris tiene una entrada en algún lugar cerca de aquí. Quizás algún día vayas allí.
+              - (continue)
+            - (Condition: Si el player ha completado Ciudad Perdida:)
+              - **Wise Old Man:** Bueno, has estado en Zanaris. Hace años conocí a un hada que decía que vivía allí. Era una guerrera increíble, considerando que no medía ni un metro de altura.
+              - (continue)
+            - **Wise Old Man:** Además, en mi investigación encontré referencias antiguas a algún tipo de Abismo. Los demonios del Abismo ya han escapado a esta tierra; ¡Agradezca a Saradomin que son muy raros!
+            - ((Si el player ha completado El Golem:))
+              - **Player:** He atravesado un portal hacia la guarida de un demonio antiguo. Fue en la ciudad de Uzer.
+              - **Wise Old Man:** Ah, Uzer. Una ciudad muy favorecida por Saradomin, destruida por Thammaron, el demonio mayor, a finales de la Tercera Edad.
+              - **Player:** Sí, no queda mucho allí.
+              - (continue)
+            - (continue|Other questions)
+      - [Choice]: Bestias extrañas
+        - [Menu]: Elige un tema
+          - [Choice]: El más grande y el más malo
+            - **Player:** Háblame de monstruos poderosos.
+            - **Wise Old Man:** Hay un poderoso dragón que escupe fuego que vive bajo tierra en las profundidades de Wilderness, conocido como el Rey Dragón Negro. Es una bestia temible, con un aliento que puede envenenarte, congelarte hasta el suelo o incinerarte donde quieras.
+            - **Wise Old Man:** de pie.
+            - **Wise Old Man:** Pero aún más mortal es la Reina de los Calfitos. Como si sus gigantescas mandíbulas de la muerte no fueran suficientes, también lanza sus espinas a sus enemigos con fuerza letal. Incluso puede lanzar hechizos rudimentarios.
+            - **Wise Old Man:** Algún poder oscuro debe estar protegiéndola, ya que puede bloquear ataques usando la oración tal como lo hacen los humanos.
+            - **Wise Old Man:** Otra bestia que merece una mención especial es el Shaikahan. Habita en los confines orientales de Karamja y es casi imposible matarlo excepto con armas especialmente preparadas.
+            - (Condition: Si el player ha completado Tai Bwo Wannai Trio :))
+              - **Player:** En realidad, ese está muerto. He estado ayudando a un cazador chiflado que había jurado matarlo.
+              - (continue)
+            - **Wise Old Man:** En el norte, más allá de las tierras troll, hay una caverna donde se libra una batalla interminable entre las fuerzas de Saradomin y las de Zamorak.
+            - **Wise Old Man:** Las fuerzas de Saradomin están dirigidas por la guerrera helada Comandante Zilyana, Guardiana de la Fe. Según la leyenda, toma la forma de una mujer con alas.
+            - **Wise Old Man:** Las fuerzas de Zamorak están dirigidas por K'ril Tsutsaroth, un demonio de poder devastador. Alrededor de su campamento hay una oscuridad mística que ninguna linterna puede aliviar.
+            - **Wise Old Man:** Dos ejércitos menores están ligeramente aliados con la fuerza saradominista. Uno está formado por criaturas parecidas a pájaros, los Aviansie. Otro está formado por monstruos sin sentido como ogros y orkos. Los líderes de esos ejércitos son criaturas aterradoras.
+            - **Wise Old Man:** por derecho propio, aunque inferiores con diferencia a Zilyana.
+            - **Wise Old Man:** Más allá de las tierras de Fremennik habitan los temibles Reyes Dagannoth, criaturas de las profundidades. Hay tres de ellos, luchando con ataques cuerpo a cuerpo, mágicos y a distancia respectivamente, en una pequeña isla en el fondo de un
+            - **Wise Old Man:** caverna laberíntica.
+            - (Condition: Si el player ha completado Summer's End:)
+              - **Wise Old Man:** Más recientemente, apareció un nuevo monstruo en el mundo. Se la conoce simplemente como la Bestia Corpórea.
+              - **Player:** Lo he visto.
+              - (continue)
+            - (continue|Other questions)
+          - [Choice]: Veneno y cómo sobrevivir a él.
+            - **Player:** ¿Qué hace el veneno?
+            - **Wise Old Man:** Muchos monstruos usan veneno contra sus enemigos. Si te envenenas, no lo sentirás en el momento, pero después comenzarás a sufrir sus efectos y tu vida se irá drenando lentamente.
+            - **Wise Old Man:** Con el tiempo, los efectos se reducen a nada, pero si ya has sido herido, puedes morir antes de que desaparezcan por completo.
+            - **Wise Old Man:** Afortunadamente, los seguidores de Guthix han ideado pociones que pueden curar el veneno o incluso darle inmunidad.
+            - **Wise Old Man:** Si deseas usar veneno contra tus propios enemigos y los de nuestro Señor Saradomin, hay una poción que puedes untar en tu daggers, flechas, lanzas, jabalinas y cuchillos arrojadizos.
+            - (continue|Other questions)
+          - [Choice]: Riqueza a través del sacrificio
+            - **Player:** ¿Qué monstruos arrojan buenos objetos?
+            - **Wise Old Man:** Como regla general, los monstruos más duros arrojan objetos más valiosos. Pero incluso un humilde duende puede dejar caer gemas valiosas; simplemente hace esto muy raramente.
+            - **Wise Old Man:** Si puedes convencer al Slayer Masters para que te entrene como Slayer, podrás luchar contra ciertos monstruos que arrojan objetos valiosos con mucha más frecuencia.
+            - **Wise Old Man:** Quizás te interese invertir en un anillo de piedra de dragón encantado. Se dice que esto hace que un monstruo deje caer sus objetos más valiosos con un poco más de frecuencia.
+            - (continue|Other questions)
+      - [Choice]: Días pasados
+        - [Menu]: Elige un tema
+          - [Choice]: Figuras heroicas
+            - **Player:** ¡Háblame de héroes valientes!
+            - **Wise Old Man:** Ja, ja, ja... Hay muchos héroes. Siempre lo han sido, siempre lo serán, hasta la caída del mundo.
+            - **Wise Old Man:** ¡Tú también eres un aventurero bastante destacado!
+            - **Wise Old Man:** Pero supongo que podría hablarte de un par...
+            - **Wise Old Man:** Sí, había un hombre llamado Arrav. Nadie sabía de dónde venía, pero era un luchador temible, un cazador hábil y un granjero extraordinario. Vivió en el antiguo asentamiento de Avarrocka, defendiéndolo de los duendes, hasta que
+            - **Wise Old Man:** salió en busca de algún extraño artefacto largamente deseado por el temido Mahjarrat.
+            - (Condition: Si el player no ha completado Defensor de Varrock :))
+              - **Player:** Quizás algún día pueda contarte qué fue de él.
+              - (continue)
+            - (Condition: Si el player ha completado Defensor de Varrock:)
+              - **Player:** Eso no pudo haberle funcionado muy bien. Se convirtió en esclavo de Zemouregal.
+              - **Wise Old Man:** La vida de un héroe tiene sus riesgos laborales.
+              - (Condition: Si el player no ha completado La Maldición de Arrav:)
+                - **Player:** ¡Aunque es emocionante!
+                - (continue)
+              - (Condition: Si el player ha completado La Maldición de Arrav:)
+                - **Player:** He recuperado su corazón de la base de Zemouregal.
+                - **Wise Old Man:** Bien hecho.
+                - **Player:** Gracias. No fue fácil.
+                - (continue)
+              - (continue)
+            - **Wise Old Man:** Pero no dejes que la heroicidad te haga girar la cabeza. Randas fue otro gran hombre, pero se dejó engañar para servir a Zamorak, y dicen que ahora es una criatura sin sentido en lo profundo de Underground Pass que
+            - **Wise Old Man:** conduce a Isafdar.
+            - (continue|Other questions)
+          - [Choice]: El origen de la magia
+            - **Player:** ¿Dónde aprendieron los humanos a usar la magia?
+            - **Wise Old Man:** ¡Ah, fue todo un descubrimiento! Revolucionó nuestra forma de vida y nos lanzó a la Quinta Edad del mundo.
+            - **Wise Old Man:** Dicen que un viajero en el norte descubrió la llave, aunque no hay registros que indiquen exactamente qué encontró. A partir de esto pudo convocar la magia de cuatro elementos, usando la magia como herramienta y arma. el y su
+            - **Wise Old Man:** los seguidores aprendieron a unir el poder en pequeñas piedras para que otros pudieran usarlo.
+            - **Wise Old Man:** En las tierras al sur de aquí construyeron una inmensa torre donde se podía estudiar el poder, pero los seguidores de Zamorak la destruyeron con fuego hace muchos años, y la mayor parte del conocimiento se perdió.
+            - (continue|Other questions)
+          - [Choice]: Asentamientos
+            - **Player:** ¿Supongo que conocerías la historia de las ciudades actuales?
+            - **Wise Old Man:** Sí, existen registros bastante buenos de la formación de las ciudades a partir de asentamientos primitivos.
+            - **Wise Old Man:** A principios de la Cuarta Edad, por supuesto, no había asentamientos permanentes. Las tribus vagaron por las tierras y permanecieron donde pudieron hasta que se agotaron los recursos.
+            - **Wise Old Man:** Esto cambió a medida que la gente aprendió a cultivar y criar animales, y ahora quedan muy pocas de las antiguas tribus nómadas. Sin embargo, hay al menos una tribu deambulando entre Troll Stronghold y Rellekka.
+            - (Condition: Si el player ha completado Mountain Daughter:)
+              - **Player:** Sí, los conozco. Están todos locos.
+              - **Wise Old Man:** En verdad, su fe en los espíritus naturales es bastante tonta, pero son personas bastante agradables.
+              - **Wise Old Man:** De todos modos, ¿qué estaba diciendo? Ah, si...
+              - (continue)
+            - **Wise Old Man:** Un asentamiento fue Avarrocka, un popular centro comercial.
+            - **Wise Old Man:** En el oeste, Ardougne se formó gradualmente bajo el liderazgo de la familia Carnillean, a pesar de la amenaza del señor de la guerra Mahjarrat Hazeel que habitó en esa zona hasta su caída.
+            - (Condition: Si el player ayudó a los cultistas en Hazeel Cult:)
+              - **Player:** Él volverá, ¡solo espera!
+              - **Wise Old Man:** ¡Dios mío, espero que no hayas hecho nada precipitado!
+              - (continue)
+            - (Condition: Si el player ayudó a la familia Carnillean en Hazeel Cult:)
+            - **Player:** He frustrado un cobarde complot zamorakiano para resucitar a Hazeel.
+              - **Wise Old Man:** Eso había oído. Lord Saradomin te está sonriendo.
+              - (continue)
+            - (continue|Other questions)
+          - [Choice]: El Wise Old Man de Draynor Village
+            - **Player:** Háblame de ti, old man.
+            - **Wise Old Man:** Ah, entonces quieres saber sobre mí, ¿eh?
+            - **Wise Old Man:** Mmm... ¿qué podría decir de mí? <br>Veamos qué he hecho...
+            - **Wise Old Man:** Me adentré en la mazmorra al oeste de Brimhaven y escuché el aterrador CRASH de los dragones de acero luchando entre sí por el territorio.
+            - **Wise Old Man:** Pasé algunos años en Entrana, donde aprendí las técnicas de meditación pura.
+            - **Wise Old Man:** He vagado por el vasto desierto que se encuentra al sur de Al Kharid y he visto las grandes murallas de Menaphos y Sophanem.
+            - ((Si has completado el pequeño ayudante de Icthlarin:))
+              - **Player:** Esa estatua felina que tienes en tu estantería. Estoy seguro de que vi algo así cuando estaba en Sophanem.
+              - **Wise Old Man:** Siempre me ha gustado coleccionar pequeñas baratijas para recordar la época en la que mi vida era más... ah... emocionante.
+              - **Player:** Entonces, ¿has hablado con Sphinx?
+              - **Wise Old Man:** ¿Hablado con una esfinge, dices? Mi querido joven, ¡no es posible que hables en serio!
+              - **Player:** ¿Qué quieres decir?
+              - **Wise Old Man:** ¡Ja, ja, ja! Las personas que viven en las profundidades de las arenas movedizas del desierto a menudo cuentan a los viajeros cuentos fantásticos sobre extrañas bestias, ¡pero eso no significa que nada de eso sea ni remotamente cierto!
+              - **Player:** Pero conocí a Sph...
+              - **Wise Old Man:** Por favor, aventurero, no se gana nada interfiriendo en asuntos que no comprendes.
+              - **Wise Old Man:** Incluso si tal criatura existiera...
+              - **Player:** ...lo cual hace...
+              - **Wise Old Man:** INCLUSO SI UNA CRIATURA TAL EXISTIERA, sería terriblemente peligroso para ti involucrarte en sus negocios.
+              - **Wise Old Man:** He oído hablar de cosas terribles que les suceden a los viajeros en esa tierra, y no desearía que te arrastraran a algo así.
+              - **Wise Old Man:** De hecho, he oído hablar de aventureros que cometen los actos más vergonzosos y blasfemos creyendo que actúan en nombre de algún dios falso.
+              - **Player:** ¿Mmmm?
+              - **Wise Old Man:** Así que por favor no vuelvas a hablarme de este asunto. Ahora, creo que les estaba hablando de mi juventud aventurera...
+              - (continue)
+            - **Wise Old Man:** Aparte de todo eso, he pasado muchas horas felices en bibliotecas polvorientas, buscando en pergaminos y textos antiguos la sabiduría de aquellos que han fallecido.
+            - **Wise Old Man:** Además de muchas otras aventuras, misiones, viajes...<br>¿Hay algo más que te gustaría saber?
+            - (continue|Other questions)
+      - [Choice]: Dioses y demonios
+        - [Menu]: Elige un tema
+          - [Choice]: ¿Tres dioses?
+            - **Player:** Escuché que el mundo solía tener tres dioses.
+            - **Wise Old Man:** En una forma informal de hablar, eso fue correcto:<br>Saradomin, Guthix y Zamorak.
+            - **Wise Old Man:** Saradomin, el grande y glorioso, supuestamente dio vida a este mundo.
+            - **Wise Old Man:** Se creía que Zamorak sólo anhelaba muerte y destrucción.
+            - **Wise Old Man:** Y que Guthix, llamándose a sí mismos un dios del "equilibrio", no tenía ninguna lealtad, sino que simplemente ayudaba cualquier causa que se adaptara a su cambiante propósito.
+            - **Wise Old Man:** Como suele ser el caso, la verdad es bastante más complicada.
+            - (Condition: Si el player completó The Dig Site:)
+              - **Player:** Entonces, ¿quién es Zaros?
+              - **Wise Old Man:** ¿Qué dijiste?
+              - **Player:** Descubrí un altar enterrado a un dios llamado Zaros.
+              - **Wise Old Man:** Por favor, no hables más de esto. Nada bueno puede resultar de inmiscuirse en tales cosas.
+              - **Player:** Entonces, ¿Zaros es real?
+              - **Wise Old Man:** Aventurero, mi paciencia es limitada. No me hables más de esta... esta... esta tontería.
+              - (Condition: Si el player completó Desert Treasure:)
+                - **Player:** ¿Eso significa que no debería preguntarte sobre las antiguas magias que aprendí en esa pirámide al norte de Sophanem?
+                - **Wise Old Man:** ¡BASTA! ¡Aléjate de mí, asqueroso embaucador!
+            - (Condition: Si el player completó Little Helper de Icthlarin y no completó Desert Treasure:)
+              - **Player:** ¿Qué tal Tumeken, Icthlarin y el Devorador?
+              - **Wise Old Man:** ¿Qué nombres son estos?
+              - **Player:** Abajo, en Sophanem, tienen un dios principal llamado Tumeken, además de una diosa de la fertilidad llamada. Icthlarin es su dios de los muertos y el Devorador...
+              - **Wise Old Man:** Aventurero, ¿qué locura te lleva a pensar que alguna de estas cosas existe?
+              - **Player:** ¡Pero conocí a Icthlarin!  ¡Tiene cabeza de chacal!
+              - **Wise Old Man:** Hace calor en esa tierra y el calor puede afectar al viajero de formas extrañas. Cuéntame, cuando conociste a 'Icthlarin', ¿te sentías mal?
+              - **Player:** Bueno, ahora que lo mencionas, acababa de hipnotizarme una mujer extraña que conocí en el desierto.
+              - **Wise Old Man:** ¿Entonces una mujer extraña interfirió en tu mente, luego conociste a un hombre con cabeza de chacal y decidiste que debía ser un dios?
+              - **Player:** Mmm...
+              - **Wise Old Man:** Bueno, asegúrate de no volver a ser hipnotizado y estoy seguro de que no volverás a encontrarte con más hombres con cabeza de chacal que digan ser dioses.
+              - **Player:** ¿Pero...?
+              - **Wise Old Man:** Probablemente sería mejor que no volvieras allí.
+              - **Player:** Pero has estado por toda esa zona, ¿no? ¿Cuando viajabas?
+              - **Wise Old Man:** De hecho, sí.
+              - **Player:** ¿Entonces sabrías todo sobre sus dioses?
+              - **Wise Old Man:** Sé lo que sé.
+              - **Wise Old Man:** Y sabiendo lo que sé, no hablo de este asunto. Quizás sería prudente que siguieran mi ejemplo.
+              - (continue)
+            - (Condition: Si el player completó Temple of Ikov y no completó Desert Treasure:)
+              - **Player:** He oído hablar de otro dios, llamado Armadyl.
+              - **Wise Old Man:** ¿Qué es esto de lo que hablas?
+              - **Player:** Un hombre extraño me pidió que fuera al Templo de Ikov y robara el Staff de Armadyl.
+              - **Wise Old Man:** ¿Y qué te hace creer en este 'Armadyl'?
+              - **Player:** Bueno, había sirvientes de Armadyl viviendo en las profundidades del templo. Habían estado allí durante generaciones, protegiendo el staff.
+              - **Wise Old Man:** ¿Entonces confiaste en la palabra de estas personas que habían estado sentadas en un hoyo toda su vida?
+              - **Player:** Um... Sí, supongo que sí.
+              - **Wise Old Man:** Ya no me preocuparía más por este sagrado 'armadyllo'. Sólo otro mito tonto.
+              - (Condition: Si el player se puso del lado de los Guardianes de Armadyl:)
+                - **Player:** Oh, bueno, los sirvientes me recompensaron muy amablemente por derrotar a Lucien.
+                - **Wise Old Man:** Esa es una hazaña impresionante, aventurero. En verdad debes ser amado a los ojos de Saradomin.
+              - (Condition: Si el player se puso del lado de Lucien:)
+                - **Player:** ¡Qué suerte que no exista Armadyl! Le pellizqué el staff y se lo di a Lucien.
+                - **Wise Old Man:** ¿QUÉ HAS HECHO?
+                - **Wise Old Man:** Aventurero, te lo ruego, no te entrometas en los asuntos de los dioses. No puede salir nada bueno de ello.
+          - [Choice]: Las guerras de los dioses
+            - **Player:** ¡Quiero saber sobre las guerras de los dioses!
+            - **Wise Old Man:** Ah, las guerras de dioses de la Tercera Edad fueron una época terrible. Los ejércitos de Saradomin lucharon gloriosamente contra los secuaces de Zamorak, pero muchos guerreros valientes y ciudades nobles fueron derrocados y destruidos por completo.
+            - (Condition: Si el player completó El Golem:)
+              - **Wise Old Man:** Has visitado a Uzer y has visto por ti mismo el daño que podría causar un demonio anciano en su ira.
+              - (continue)
+            - **Player:** ¿Cómo terminó?
+            - **Wise Old Man:** Antes de que las fuerzas zamorakianas pudieran ser derrotadas por completo, Lord Saradomin se apiadó de ellos y del mundo marcado por la batalla, y permitió una tregua.
+            - (continue|Other questions)
+          - [Choice]: El Mahjarrat
+            - **Player:** ¿Qué son los Mahjarrat?
+            - **Wise Old Man:** Se escribe muy poco sobre la tribu de los Mahjarrat. Se cree que provienen de un reino de Freneskae o Frenaskrae; la ortografía en esta lengua es sólo aproximada.
+            - **Wise Old Man:** Uno de ellos, el asqueroso Zamorak, ha alcanzado la divinidad, aunque nadie sabe cómo llegó a serlo.
+            - **Wise Old Man:** Otros Mahjarrat que han estado particularmente activos en este plano son Hazeel, Lucien, Azzanadra y Zemouregal.
+            - (Condition: Si el player ayudó a los cultistas en Hazeel Cult:)
+              - **Player:** Hazeel volverá a subir, ¡ya verás!
+              - **Wise Old Man:** ¡Aventurero, tus acciones me llenan de preocupación!
+              - (continue)
+            - (Condition: Si el player ayudó a la familia Carnillean en Hazeel Cult:)
+              - **Player:** He frustrado un cobarde complot zamorakiano para resucitar a Hazeel.
+              - **Wise Old Man:** Eso había oído. Lord Saradomin te está sonriendo.
+              - (continue)
+            - (Condition: Si el player se puso del lado de Lucien:)
+              - **Player:** Conocí a Lucien. Me pagó muy bien por traerle un staff que quería.
+              - **Wise Old Man:** Viajero, te lo ruego, ¡no tengas más tratos con criaturas así! No conoces su poder como yo.
+              - (continue)
+            - (Condition: Si el player se puso del lado de los Guardianes de Armadyl:)
+              - **Player:** He derrotado a Lucien.
+              - **Wise Old Man:** En verdad, tu valentía supera tu estatura. Pero me temo que su derrota no será permanente.
+              - (continue)
+            - (Condition: Si el player completó Desert Treasure:)
+              - **Player:** Azzanadra me enseñó algunos poderes mágicos antiguos después de que desbloqueé la pirámide donde había quedado atrapado.
+              - **Wise Old Man:** Déjame, viajero; Soy viejo y tus palabras me llenan de horror.
+            - (Condition: Si el player completó Defender de Varrock y no completó Desert Treasure:)
+              - {{Transcript missing}}
+          - [Choice]: Ejerciendo el poder de los dioses
+            - **Player:** ¿Puedo ejercer el poder de Saradomin yo mismo?
+            - (Condition: Si el player no ha completado Mage Arena:)
+              - **Wise Old Man:** Si viajas a Mage Arena en el extremo noroeste de Wilderness, el mago de batalla Kolodion puede estar dispuesto a dejarte aprender a invocar el poder de Saradomin, en caso de que puedas pasar su prueba.
+              - (continue)
+            - (Condition: Si el player ha completado Mage Arena:)
+              - **Wise Old Man:** Veo que ya estás aprendiendo a invocar el poder de Saradomin.
+              - (continue)
+            - (continue|Other questions)
+      - [Choice]: cond=Unknown condition:|¡Tu sombrero!
+        - **Player:** Quiero preguntarte sobre tu sombrero.
+        - **Wise Old Man:** ¡Gracias! A mí me gusta más bien.
+        - [Menu]: ¿Qué te gustaría preguntar?
+          - [Choice]: ¿Dónde lo conseguiste?
+            - **Player:** ¿De dónde lo conseguiste?
+            - **Wise Old Man:** Oh, lo vi en el suelo cuando salí a dar mi paseo matutino.
+            - **Player:** ¿Encontraste un GORRO DE FIESTA en el suelo?
+            - **Wise Old Man:** Sí, es cierto. ¿Quieres preguntarme sobre algo más?
+          - [Choice]: ¿Cómo puedo conseguir un sombrero así?
+            - **Wise Old Man:** Ahh, lamentablemente estos sombreros ahora son muy raros. Quizás algún otro jugador estaría dispuesto a venderte el suyo, pero sería increíblemente caro.
+            - **Player:** ¿Puedo comprar tu sombrero?
+            - **Wise Old Man:** Ohhh no, no tengo intención de separarme de esto.<br>¿Te gustaría preguntarme sobre algo más?
+      - [Choice]: cond=Unknown condition:|Algo que ver contigo...
+        - **Elige un tema**
+          - [Choice]: ¡Tu sombrero!
+            - **Player:** Quiero preguntarte sobre tu sombrero.
+            - (Condition: Si el player no ha completado Love Story:)
+              - **Wise Old Man:** ¡Gracias! A mí me gusta más bien.
+                - Deberías devolverlo, ¿sabes?
+                  - **Wise Old Man:** No, creo que me lo quedaré.
+                  - **Player:** Pero...
+                  - **Wise Old Man:** Ahora que ya te has desahogado, ¿te gustaría preguntarme sobre algo más?
+                - ¿Cómo puedo conseguir un sombrero así?
+                  - **Wise Old Man:** Ahh, lamentablemente estos sombreros ahora son muy raros. Quizás algún otro jugador estaría dispuesto a venderte el suyo, pero sería increíblemente caro.
+                  - **Player:** ¿Puedo comprar tu sombrero?
+                  - **Wise Old Man:** Ohhh no, no tengo intención de separarme de esto.
+            - (Condition: Si el player completó Historia de amor:)
+              - **Wise Old Man:** ¡Gracias! Creo que realmente le sienta bien.
+              - **Zenevivia:** Dissy, eres tan dulce.
+              - **Wise Old Man:** ¿Alguna otra pregunta?
+              - (continue|other-questions-variant)
+          - [Choice]: Esa búsqueda que hicimos juntos...
+            - **Player:** ¡Fue una búsqueda muy emocionante que hicimos juntos!
+            - **Wise Old Man:** Oh, sí, sin duda fue un final apropiado para mis días de aventurero. ¡Tu lucha contra la Reina Sea Troll fue muy impresionante!
+            - **Player:** ¿Estás tentado a emprender otra misión en el futuro?
+            - (Condition: Si el player no ha completado Love Story:)
+              - **Wise Old Man:** No, siento que ahora soy un poco mayor para ese tipo de cosas. ¡Los nuevos tiempos necesitan nuevos héroes y estoy seguro de que siempre estarás ahí para responder al llamado!
+              - **Player:** Sin duda veré qué puedo hacer.
+              - (continue)
+            - (Condition: Si el player ha completado Love Story:)
+              - **Wise Old Man:** No, Zinny y yo no estamos interesados ​​en ese tipo de aventuras.
+              - **Zenevivia:** Muy cierto. La gente debería resolver sus propios problemas en lugar de quedarse sentada esperando que un aventurero los ayude.
+              - (continue)
+            - (continue|Other questions)
+          - [Choice]: tu jubilación
+            - **Player:** Cuando terminamos de luchar contra esos trolls marinos, dijiste que habías terminado con las aventuras, ¿no?
+            - (Condition: Si el player no ha completado Love Story:)
+              - **Wise Old Man:** Sí, es cierto. Soy un old man, no se puede negar, y necesito una jubilación agradable y tranquila. Además, creo que has demostrado que la nueva generación tiene sus propios héroes y aventureros. ¡Debería dar un paso atrás y dejarte seguir adelante!
+              - **Player:** ¿Significa esto que no vas a cometer más robos importantes?
+              - **Wise Old Man:** Bueno, ya que me salvaste la vida cuando luchábamos contra la Reina Troll Marina, no me importa decírtelo... ¿Confío en que no le contarás a nadie sobre esto?
+              - **Player:** Continúa...
+              - **Wise Old Man:** Puede que tenga algo en mente. Después de todo, ese pequeño incidente bancario transcurrió sin problemas.
+              - **Player:** ¡Pero estás retirado!
+              - **Wise Old Man:** Me retiré de las aventuras y las misiones. ¡El episodio en el banco no fue una búsqueda, sino más bien un viaje de compras!
+              - **Player:** Tu viaje de compras mató a 3 bancos staff y a varios transeúntes inocentes, ¡sin mencionar al vigilante!
+              - **Wise Old Man:** He salvado innumerables aldeas de terrores indescriptibles y matado innumerables monstruos malvados. ¿Seguramente merezco algún tipo de recompensa a cambio? Sin embargo, ¿qué obtuve? ¡NADA! Tú mismo te enfadarías mucho si hicieras una misión larga y peligrosa y no obtuvieras ninguna recompensa, ¿eh? ¡Estoy seguro de que lo harías! Bueno, imagina cómo me sentí al final de una larga vida de búsqueda cuando me quedé sin un centavo y tuve que mudarme a esta aldea infestada de ladrones. ¡Esta pequeña choza se estaba cayendo a pedazos cuando llegué! Ve a hablar con la bruja que sigue mirando por mi ventana. ¡Ella te mostrará cómo se veía antes de que pudiera permitirme el lujo de redecorarla! Ser noble y virtuoso no pone comida en la mesa, y no tengo intención de sentarme en los bancos a mendigar como hace tanta gente estos días.
+              - **Player:** Entonces, todas esas misiones en el pasado, cuando salvabas a personas de monstruos y cosas así... ¿solo los ayudabas porque querías una recompensa?
+              - **Wise Old Man:** No, no siempre fue así. Solía ​​sentirme satisfecho con sólo saber que había ayudado, y eso era recompensa suficiente. Pero finalmente me di cuenta de que la gente se olvidó de mí tan pronto como pasó el peligro y ni siquiera me pagaban adecuadamente por mis servicios. A veces me ofrecieron entrenamiento en las distintas habilidades, ¡pero eso no me sirve de nada! Finalmente me di cuenta de que la única manera de obtener una recompensa adecuada por los esfuerzos de mi vida es si la aceptaba yo mismo. Entonces tomé mi capa y staff y me dirigí al banco.
+              - **Player:** ¿Y ahora planeas cometer otro robo? ¿No recibiste suficiente del banco?
+              - **Wise Old Man:** Quizás no... ¡Pero basta de este asunto!
+              - (continue|Other questions)
+            - (Condition: Si el player ha completado Love Story:)
+              - **Wise Old Man:** Así es. Zinny y yo no hacemos ese tipo de cosas. ¿Hay algo más que quieras preguntar?
+              - (continue|other-questions-variant)
+  - [Choice]: cond=Unknown condition:|Quiero hablar de las colecciones de Archaeology.
+    - **Wise Old Man:** Excelente. Entonces, vayamos a ello.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Quién eres?
+        - **Wise Old Man:** Soy el Wise Old Man. ¡Siguiente pregunta!
+        - (previous)
+      - [Choice]: ¿Qué estás coleccionando?
+        - **Wise Old Man:** ¿Quieres una lista sencilla o un poco de charla?
+        - **¿Qué te gustaría hacer?**
+          - [Choice]: Ver colecciones.
+            - ((Se abre la interfaz de Sombreros y Hedgewizarry.))
+          - [Choice]: Habla de colecciones.
+            - **Wise Old Man:** Mis gustos son lo que se podría llamar eclécticos. Me gusta coleccionar artefactos relacionados con la música, el poder mágico y, sobre todo, ¡el conocimiento!
+            - **Wise Old Man:** También sombreros.
+            - **Wise Old Man:** Me gustan los sombreros.
+            - **Player:** Eso es ecléctico. Creo que tal vez debería simplemente mirar sus listas.
+            - **Wise Old Man:** ¡Buena idea!
+            - (previous2)
+      - [Choice]: ¿Cuáles son las recompensas de tu colección?
+        - **Wise Old Man:** Hmm, bueno, tengo un par de reliquias de elementos adyacentes a las reliquias...
+        - (Condition: Si el player no ha completado la colección Wise Am the Music Man:)
+          - **Wise Old Man:** ¡Si completas mi colección de música, te regalaré esta aguja de mi viejo gramófono!
+          - **Player:** ¿La aguja de un gramófono? ¿Me odias o algo así?
+          - **Wise Old Man:** ¡Dios mío, oye, oye! No, nada de eso. Es un gramófono viejo y necesito uno nuevo de todos modos. La aguja original se rompió hace años, así que encontré un reemplazo improvisado.
+          - **Wise Old Man:** Era una vieja reliquia mágica que tenía por ahí y que solía pertenecer a un tipo llamado Koschei.
+          - **Player:** Espera, ¿el Fremennik? ¿Koschei el Inmortal? ¿Y acabas de usar alguna de sus agujas mágicas para tocar música?
+          - **Wise Old Man:** Bueno, ¿quién quiere vivir para siempre?
+          - **Wise Old Man:** Si se lo devuelves, sospecho que te recompensará por tus esfuerzos.
+          - (continue)
+        - (Condition: Si el player ha completado la colección Wise Am the Music Man:)
+          - **Wise Old Man:** Mira, todavía estoy vivo. ¡Quizás con esa aguja vivas tanto como yo!
+          - (Condition: Habiendo perdido la aguja:)
+            - **Player:** Aunque no si pierdo la aguja...
+            - **Wise Old Man:** Entonces es un buen trabajo. Tengo una caja arriba.
+            - (Condition: Sin espacio en backpack:)
+              - **Wise Old Man:** Pero necesitas dejar espacio para uno más.
+            - (Condition: Con espacio en backpack:)
+              - **Wise Old Man:** Esto debería devolverle la vida a tu búsqueda.
+              - [Menu]: ¿QUITAR LA AGUJA DE KOSCHEI DEL WISE OLD MAN?
+                - [Choice]: Sí.
+                  - (receives=Koschei's needle)
+                  - (continue)
+                - [Choice]: No.
+                  - (end)
+          - (Condition: No haber perdido la aguja, antes de obtener la reliquia:)
+            - **Player:** Aunque, probablemente debería devolverle esto a Koschei primero...
+            - (continue)
+          - (Condition: Después de obtener la reliquia:)
+            - **Player:** Quizás sí.
+            - (continue)
+        - (Condition: Si el player no ha completado la colección El conocimiento es poder:)
+          - **Wise Old Man:** Ah, sí, creo que podría interesarte este. Tengo la primera gema encantada, creada por la propia Amascut y utilizada por la Orden de Slayer masters para establecer tareas.
+          - **Wise Old Man:** Entonces, cada vez que eliges una nueva tarea, puedes establecer el recuento de tareas en la cantidad mínima o máxima de muertes necesarias para completarla. Genial, ¿eh?
+          - **Wise Old Man:** También tengo muchas cronotas, ¡y quiero decir MUCHAS!
+          - (previous)
+        - (Condition: Si el player ha completado la colección El conocimiento es poder:)
+          - **Wise Old Man:** ¿Cómo va el mínimo/máximo de tus tareas de Slayer?
+          - **Wise Old Man:** Solo me quedan una cantidad regular de cronotas.
+          - (previous)
+      - [Choice]: Adiós.
+        - **Wise Old Man:** Adiós, Player.
+
+#### Otras preguntas
+
+- **Wise Old Man:** ¿Hay algo más que quieras preguntar?
+- **¿Qué te gustaría decir?**
+  - Sí por favor.
+    - **Player:** Sí, por favor.
+    - (above|topics)
+  - Gracias, tal vez en otro momento.
+    - **Player:** Gracias, tal vez en otro momento.
+    - **Wise Old Man:** Como desees. Adiós, Player.
+
+### Using items on him
+
+
+#### Objeto de combate
+
+- **Player:** ¿Crees que necesito conservar esto?
+- **Wise Old Man:** Supongo que podrías usarlo en combate.
+- **Player:** Gracias, old man.
+
+#### Runas de bajo valor
+
+- **Player:** ¿Crees que necesito conservar esto?
+- *(Wise Old Man te quita cinco runas.)*
+- **Wise Old Man:** Las runas son cosas muy útiles, pero te quitaré algunas de ellas.
+
+#### Runas de alto valor
+
+- **Player:** ¿Crees que necesito conservar esto?
+- **Wise Old Man:** Oh, ¿runas? Sí, son bastante valiosos.
+
+#### Coins
+
+- **Player:** ¿Crees que necesito conservar esto?
+- **Wise Old Man:** Eso se llama "dinero". El dinero es tremendamente importante si no tienes suficiente, pero cuando tienes tanto como yo, te das cuenta de que el dinero no importa.
+- **Player:** Cierto...
+
+#### Artículos sin información
+
+- **Player:** ¿Crees que necesito conservar esto?
+- **Wise Old Man:** Realmente no podría decir si lo necesitarás o no.
+- **Wise Old Man:** Recuerde que no conozco todos los artículos.
+
+#### El Ring of Charos
+
+- **Player:** ¿Crees que necesito conservar esto?
+- **Wise Old Man:** ¡El Ring of Charos! Este es definitivamente un artículo valioso. Sí, creo que deberías conservarlo por ahora.
+- **Player:** Gracias, old man.
+
+### Search bookcases or observe telescope before talking to him first
+
+- **Wise Old Man:** ¡Sería más educado venir a hablar conmigo antes de que empieces a jugar con mis posesiones!
+
+### After peering through the telescope
+
+- **Player:** Veo que tienes tu telescopio<br>apuntando al Wizards' Tower.
+- **Wise Old Man:** Oh, ¿verdad? Bueno, ¿por qué te interesa eso?
+- (Condition: Antes de enterarse del atraco al banco:)
+  - **Player:** Parece un poco extraño.
+  - **Wise Old Man:** ¿Extraño? No hay nada extraño en la fascinación por las artes mágicas. Además, la arquitectura de esa Torre es verdaderamente notable, para quien estudia tales cosas.
+  - **Player:** ¿Entonces no planeas atacar la Torre?
+  - **Wise Old Man:** ¡No, ni se me ocurriría hacer algo así!
+  - **Player:** Mmm...
+- (Condition: Después de enterarse del robo al banco:)
+  - **Player:** Bueno, robaste un banco y apuesto a que ahora estás planeando algo que ver con esa Torre.
+  - **Wise Old Man:** No, no, no planeo nada parecido otra vez.
+  - **Player:** Bueno, te estaré observando...
+
+### After finding all the R.U.N.E.F.E.S.T. penguins
+
+- **Wise Old Man:** Saludos, Player.
+- **Player:** ¡Oye, unos pingüinos estaban espiando y tenían un trozo de papel con tu nombre!
+- **Wise Old Man:** Bueno, eso sí que es curioso.
+- **Player:** ¡¿Qué significa?!
+- **Wise Old Man:** Tengo mis sospechas, pero por ahora no me preocuparía. ¡Estaré atento y veremos cuál es su próximo movimiento!
+- ¡Has avisado al Wise Old Man y has desbloqueado un chip de habilidad!
+- *(Si no hay espacio en el inventario de el player:)*
+  - Te has ganado una pequeña lámpara prismática, pero no tienes espacio para ella. Habla con Skillchipx cuando tengas espacio para reclamarlo.
+  - *(Continúa a continuación.)*
+- *(Si hay espacio en el inventario de el player:)*
+  - Te has ganado una pequeña lámpara prismática. Se ha agregado a su inventario.
+  - *(Continúa a continuación.)*
+- *(Si el player ha desbloqueado todas las fichas de habilidad:)*
+  - ¡Felicitaciones! ¡Has completado las tareas de RuneFest de este año para Skillchipx!
+  - Te has ganado una lámpara prismática mediana. Se ha agregado a su inventario.
+  - *(Continúa a continuación.)*
+- *(Continúa normalmente.)*
+
+### With Wilough's red envelope
+
+- **Wise Old Man:** Saludos, Player.
+- **Wise Old Man:** ¡Hola! ¿Qué puedo hacer por ti?
+- **Player:** Estoy aquí para entregarte una carta de Wilough.
+- **Wise Old Man:** ¡Oh! ¡Espléndido! Echemos un vistazo.
+- El Wise Old Man abre el sobre y comienza a leer la carta.
+- **Wise Old Man:** Qué lindo...
+- **Wise Old Man:** Oh...
+- **Wise Old Man:** Oh, no.
+- **Wise Old Man:** ¿¡Qué es este idioma!?
+- **Wise Old Man:** ¿¡Qué diablos es el jamón al vapor!?
+- **Wise Old Man:** ¡Los jóvenes de hoy en día no tienen respeto!
+- El Wise Old Man refunfuña.
+- **Wise Old Man:** Muy bien... entonces sigue contigo.
+- **Player:** Lo siento.
+- *(Continúa normalmente.)*
+
+### In Varrock during Golden Partyhat Hunt
+
+- (ver|Celebraciones del 20 Aniversario)
+
+### In Varrock during Golden Cape Hunt
+
+- (ver | Caza del Cabo Dorado)
+
+### In Lumbridge during the 25th Anniversary celebrations
+
+- **Wise Old Man:** Ah, ahora quiero un sombrero con un pequeño '25'...
+- **Player:** Estamos planeando otro atraco, ¿verdad?
+- **Wise Old Man:** ¡Shh! Mantenlo bajo.

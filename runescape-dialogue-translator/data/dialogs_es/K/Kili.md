@@ -1,0 +1,1451 @@
+# Kili
+
+- **Original Wiki Page**: [Transcript:Kili](https://runescape.wiki/w/Transcript%3AKili)
+- **Letter**: `K`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Talk to
+
+
+#### Antes de haber completado Kili Fila
+
+- (ver | Fila Kili)
+
+#### Después de haber completado Kili Fila
+
+- **Kili:** Hola Player, ¿qué puedo hacer por ti hoy?
+- [Menu]: Elige una opción:
+  - [Choice]: cond=Only without having completed all equipment upgrade tasks:|Hable sobre la tarea de actualización de equipo activo.
+    - (Condition: Si no cumple con los requisitos para alguna tarea incompleta:)
+      - **Kili:** No tengo ninguna tarea de actualización disponible para usted en este momento.
+      - (Condition: Si su próxima tarea incompleta requiere un nivel inferior a 70 Necromancy:)
+        - [Necesita el nivel [número] Necromancy para la siguiente tarea de actualización.]
+        - (previous)
+      - (Condition: Si tu próxima tarea sin completar requiere el nivel 70 Necromancy o superior:)
+        - [Necesita el nivel [número] Necromancy y debe haber completado 'El Spirit de War' para la siguiente tarea de actualización.]
+        - (previous)
+    - (Condition: Si solo tienes una tarea incompleta disponible o tienes una tarea en proceso:)
+      - (Condition: Si la tarea es para el nivel 30:)
+        - (Condition: Antes de haber recibido la urna del alma:)
+          - (below|Before having received the soul urn)
+        - (Condition: Después de haber recibido la urna del alma:)
+          - (below|After having received the soul urn)
+      - (Condition: Si la tarea es para el nivel 40:)
+        - (Condition: Antes de haber recibido la urna del alma:)
+          - (below|Before having received the soul urn 2)
+        - (Condition: Después de haber recibido la urna del alma:)
+          - (below|After having received the soul urn 2)
+      - (Condition: Si la tarea es para el nivel 50:)
+        - (Condition: Antes de haber recibido la urna del alma:)
+          - (below|Before having received the soul urn 3)
+        - (Condition: Después de haber recibido la urna del alma:)
+          - (below|After having received the soul urn 3)
+      - (Condition: Si la tarea es para el nivel 60:)
+        - (Condition: Antes de haber recibido la urna del alma:)
+          - (below|Before having received the soul urn 4)
+        - (Condition: Después de haber recibido la urna del alma:)
+          - (below|After having received the soul urn 4)
+      - (Condition: Si la tarea es para el nivel 70 (tanque):)
+        - (Condition: Antes de haber recibido la urna del alma:)
+          - (below|Before having received the soul urn 5)
+        - (Condition: Después de haber recibido la urna del alma:)
+          - (below|After having received the soul urn 5)
+      - (Condition: Si la tarea es para el nivel 70 (poder):)
+        - (Condition: Antes de haber seleccionado la tarea:)
+          - (below|Before having selected the task)
+        - (Condition: Después de haber seleccionado la tarea:)
+          - (below|After having selected the task)
+      - (Condition: Si la tarea es para el nivel 80 (tanque):)
+        - (Condition: Antes de haber recibido el martillo ligado al espíritu descargado:)
+          - (below|Before having received the uncharged spiritbound hammer)
+        - (Condition: Después de haber recibido el martillo ligado al espíritu descargado:)
+          - (below|After having received the uncharged spiritbound hammer)
+      - (Condition: Si la tarea es para el nivel 80 (potencia):)
+        - (Condition: Antes de haber seleccionado la tarea:)
+          - (below|Before having selected the task 2)
+        - (Condition: Después de haber seleccionado la tarea:)
+          - (below|After having selected the task 2)
+      - (Condition: Si la tarea es para el nivel 90 (tanque):)
+        - (Condition: Antes de haber recibido el cristal nigromántico inerte:)
+          - (below|Before having received the inert necromantic crystal)
+        - (Condition: Después de haber recibido el cristal nigromántico inerte:)
+          - (below|After having received the inert necromantic crystal)
+      - (Condition: Si la tarea es para el nivel 90 (poder):)
+        - (Condition: Antes de haber seleccionado la tarea:)
+          - (below|Before having selected the task 3)
+        - (Condition: Después de haber seleccionado la tarea:)
+          - (below|After having selected the task 3)
+    - (Condition: Si tiene varias tareas sin completar disponibles:)
+      - [Menu]: ¿En qué actualización te gustaría trabajar?
+        - [Choice]: cond=Only with the tier 70 tank task uncompleted:|Nivel 70
+          - ((Como arriba con solo esta tarea disponible.))
+        - [Choice]: cond=Only with the tier 70 power task uncompleted:|Nivel 70 (potencia)
+          - ((Como arriba con solo esta tarea disponible.))
+        - [Choice]: cond=Only with the tier 80 tank task available and uncompleted:|Nivel 80
+          - ((Como arriba con solo esta tarea disponible.))
+        - [Choice]: cond=Only with the tier 80 power task available and uncompleted:|Nivel 80 (potencia)
+          - ((Como arriba con solo esta tarea disponible.))
+        - [Choice]: cond=Only with the tier 90 tank task available and uncompleted:|Nivel 90
+          - ((Como arriba con solo esta tarea disponible.))
+        - [Choice]: cond=Only with the tier 90 power task available and uncompleted:|Nivel 90 (potencia)
+          - ((Como arriba con solo esta tarea disponible.))
+  - [Choice]: Hable sobre actualizaciones de equipos.
+    - **Player:** Me gustaría saber más sobre las actualizaciones de equipos.
+    - **Kili:** Mejoras de equipos... ¿Qué te gustaría saber sobre ellas?
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Cómo puedo obtener más actualizaciones?
+        - **Player:** ¿Cómo puedo obtener más actualizaciones de equipo?
+        - (Condition: Sin haber completado todas las tareas de actualización de equipos:)
+          - **Kili:** A medida que te vuelvas más poderoso como nigromante, regresa conmigo y pregúntame sobre las tareas de mejora del equipo.
+          - **Kili:** Si no has crecido mucho desde que completaste tu última tarea, no tendré nada más que hacer.
+          - **Player:** ¿Cuántas tareas hay?
+          - **Kili:** Hmm... Puedo enseñarte cómo mejorar el equipo de tu nigromante desde el nivel 20 hasta el nivel 90.
+          - **Kili:** Una vez que hayas alcanzado el nivel 70 y superior, también puedo enseñarte cómo fabricar servoarmaduras... ¡Eso daría un total de 10 tareas en total!
+          - (previous)
+        - (Condition: Habiendo completado todas las tareas de actualización del equipo:)
+          - **Kili:** ¡Ya te he enseñado todo lo que hay que saber!
+          - (previous)
+      - [Choice]: ¿Cómo puedo aplicar las actualizaciones que he aprendido?
+        - **Player:** ¿Cómo puedo aplicar las mejoras de equipo que aprendí al equipo de mi nigromante?
+        - **Kili:** Es simple. Sólo querrás llevar el equipo de tu nigromante a mi forja de almas que está justo por allí. Le dirá qué materiales necesitará.
+        - **Kili:** ¿Necesitas que te dé indicaciones para llegar a Soul Forge?
+        - [Menu]: ¿Quieres indicaciones para llegar a Soul Forge?
+          - [Choice]: Sí por favor.
+            - (Se coloca un marcador encima de la forja del alma).
+            - (previous2)
+          - [Choice]: No gracias, puedo encontrarlo yo mismo.
+            - (previous2)
+      - [Choice]: ¿Dónde puedo conseguir los materiales necesarios?
+        - **Player:** ¿Dónde puedo conseguir los materiales necesarios para mejorar el equipo de mi nigromante?
+        - **Kili:** Lo principal que necesitarás son materiales con alma: tela, hilo y barras. Estos vienen en variantes menores, normales y mayores.
+        - **Kili:** Como te enseñé, podrás conseguirlos realizando rituales de alma en varios objetos del supramundo, para imbuirlos de energía nigromántica.
+        - **Kili:** Vale la pena mencionar que para darle vida a las barras, primero necesitarás fundir una variedad de metales juntos en un horno.
+        - **Kili:** Algunas mejoras también pueden necesitar runas de nigromancia, que puedes obtener elaborando runas con esencia impura al noreste de Um o intercambiando con otros jugadores.
+        - (Condition: Habiendo completado una tarea de actualización del equipo eléctrico:)
+          - **Player:** ¿Qué tal un plato hermódico?
+          - **Kili:** Ah, sí, un plato hermódico. Solo los necesitarás para las actualizaciones de niveles superiores; derrotar a Hermod debería conseguir algunas.
+          - (continue)
+        - (previous)
+      - [Choice]: No importa.
+        - **Player:** No importa.
+        - (initial)
+  - [Choice]: Muéstrame las tareas difíciles de Underworld que puedo hacer.
+    - (opens=Underworld Set Tasks - Hard)
+  - [Choice]: cond=With hard Underworld achievements completed:|¿Puedo reclamar alguna recompensa de usted?
+    - (Condition: Sin haber reclamado las recompensas:)
+      - **Player:** He completado todas las tareas del conjunto de tareas difíciles de Underworld.
+      - **Kili:** Bien hecho Player, he reservado algunas recompensas para ti.
+      - **Kili:** Lupe también acordó proporcionarte un suministro diario de huesos de dragón, tinta fantasmal mayor y velas rituales mayores en reconocimiento a tus esfuerzos. También empezó a vender una pequeña cantidad de cubos de baba.
+      - (Condition: Sin dos espacios backpack libres:)
+        - **Kili:** Me temo que no tienes suficiente espacio backpack para reclamar todas tus recompensas. Hablame de nuevo cuando tengas 2 espacios.
+      - (Condition: Con dos espacios backpack gratuitos:)
+        - (receives=antique lamp (Hard Underworld Tasks) y Grimorio del Inframundo 3)
+        - [¡Recibirás algunas recompensas por completar el difícil conjunto de tareas de Underworld!]
+        - **Kili:** Ahí lo tienes, parece que eso es todo.
+    - (Condition: Habiendo reclamado las recompensas:)
+      - (Condition: Poseer un Grimorio 3 del Inframundo:)
+        - **Kili:** ¡No tienes ninguna recompensa que reclamar!
+      - (Condition: Sin poseer un Underworld Grimoire 3:)
+        - **Player:** Perdí el Underworld Grimoire 3 que me diste...
+        - (Condition: Sin espacio libre backpack:)
+          - **Kili:** Parece que no tienes espacio para uno nuevo, vuelve conmigo cuando lo tengas.
+        - (Condition: Con espacio gratuito backpack:)
+          - **Kili:** Por suerte para ti, tengo uno de repuesto. Cuida mejor este.
+          - (receives=Underworld Grimoire 3)
+          - [Te entregan otro Underworld Grimoire 3.]
+  - [Choice]: Pregunta por el Sistema de Tareas.
+    - [Menu]: Elige una opción:
+      - [Choice]: cond=Only if not selected last:|Cuéntame sobre el sistema de tareas.
+        - **Kili:** Muy bien: el Sistema de Logros es una colección de hazañas que quizás desees completar mientras viajas por el mundo.
+        - **Kili:** Puedes ganar recompensas especiales por completar ciertos logros; como mínimo, cada uno vale una recompensa en efectivo de Explorer Jack en Lumbridge.
+        - **Kili:** Algunos también ofrecen elementos que ayudarán a completar otros logros y muchos cuentan como progreso hacia el conjunto del área en la que se encuentran.
+        - [Menu]: Elige una opción:
+          - [Choice]: Cuéntame sobre la recompensa establecida para esta localidad.
+            - **Kili:** Por completar el conjunto Underworld, se te presenta el Grimorio de Underworld.
+            - **Kili:** Este libro será cada vez más útil con cada nivel de dificultad del conjunto que completes.
+            - **Kili:** Cuando se le presenten sus recompensas, se le informará sobre sus usos.
+            - [También puedes ver qué recompensas proporciona un elemento determinado al pasar el cursor sobre el ícono de recompensas en su logro correspondiente en la interfaz de Logros.]
+            - (previous2|Task System options)
+          - [Choice]: ¿Cómo reclamo estas recompensas?
+            - **Kili:** Debes completar todas las tareas del conjunto de una dificultad particular y luego podrás reclamar tu recompensa. Algunas de las tareas de Underworld son sencillas, algunas requerirán skill levels y otras pueden requerir que se inicien o completen misiones.
+            - **Kili:** Para reclamar la recompensa del conjunto Underworld, habla con Icthlarin, Frank, Crunchy o conmigo mismo.
+            - [Menu]: Elige una opción:
+              - [Choice]: Cuéntame sobre el sistema de tareas.
+                - (arriba)
+              - [Choice]: Lo siento, me estaba yendo.
+                - (end)
+          - [Choice]: Lo siento, me estaba yendo.
+            - (end)
+      - [Choice]: ¿Puedo reclamar alguna recompensa de usted?
+        - (Condition: Sin recompensas para reclamar:)
+          - **Kili:** ¡No tienes ninguna recompensa que reclamar!
+        - (Condition: Con recompensas para reclamar:)
+          - (Condition: Sin haber reclamado las recompensas antes:)
+            - **Player:** He completado todas las tareas del conjunto de tareas difíciles de Underworld.
+            - **Kili:** Bien hecho Player, he reservado algunas recompensas para ti.
+            - **Kili:** Lupe también acordó proporcionarte un suministro diario de huesos de dragón, tinta fantasmal mayor y velas rituales mayores en reconocimiento a tus esfuerzos. También empezó a vender una pequeña cantidad de cubos de baba.
+            - (Condition: Sin dos espacios backpack libres:)
+              - **Kili:** Me temo que no tienes suficiente espacio backpack para reclamar todas tus recompensas. Hablame de nuevo cuando tengas 2 espacios.
+            - (Condition: Con dos espacios backpack gratuitos:)
+              - (receives=antique lamp (Hard Underworld Tasks) y Grimorio del Inframundo 3)
+              - [¡Recibirás algunas recompensas por completar el difícil conjunto de tareas de Underworld!]
+              - **Kili:** Ahí lo tienes, parece que eso es todo.
+          - (Condition: Habiendo reclamado las recompensas antes:)
+            - **Player:** Perdí el Underworld Grimoire 3 que me diste...
+            - (Condition: Sin espacio libre backpack:)
+              - **Kili:** Parece que no tienes espacio para uno nuevo, vuelve conmigo cuando lo tengas.
+            - (Condition: Con espacio gratuito backpack:)
+              - **Kili:** Por suerte para ti, tengo uno de repuesto. Cuida mejor este.
+              - (receives=Underworld Grimoire 3)
+              - [Te entregan otro Underworld Grimoire 3.]
+      - [Choice]: ¿Puedo comprar un repuesto de la recompensa?
+        - [Menu]: Elige una opción:
+          - [Choice]: Grimorio del inframundo 1
+            - (Condition: Sin espacio libre en backpack:)
+              - **Kili:** Necesitarás espacio en tu inventario.
+            - (Condition: Con espacio libre en backpack:)
+              - **Kili:** ¿Grimorio del inframundo 1? Sí, pero me temo que te costaría 5.000 coins.
+              - [Menu]: ¿Comprar otro por 5.000 coins?
+                - [Choice]: si
+                  - (Condition: Sin 5.000 coins:)
+                    - No puedes permitirte eso.
+                    - ((Repetido en una ventana emergente:))
+                      - No puedes permitirte eso.
+                      - (continue)
+                    - **Kili:** Sin embargo, no parece que puedas permitírtelo en este momento. Vuelve conmigo cuando puedas.
+                  - (Condition: Con 5.000 coins:)
+                    - (removes=5,000 coins) (receives=Underworld Grimoire 1)
+                    - [Te entregan otro Grimorio 1 de Underworld.]
+                - [Choice]: No
+                  - **Player:** No, gracias.
+          - [Choice]: Grimorio del inframundo 2
+            - (Condition: Sin espacio libre en backpack:)
+              - **Kili:** Necesitarás espacio en tu inventario.
+            - (Condition: Con espacio libre en backpack:)
+              - **Kili:** ¿Grimorio del inframundo 2? Sí, pero me temo que te costaría 10.000 coins.
+              - [Menu]: ¿Comprar otro por 10.000 coins?
+                - [Choice]: si
+                  - (Condition: Sin 10.000 coins:)
+                    - No puedes permitirte eso.
+                    - ((Repetido en una ventana emergente:))
+                      - No puedes permitirte eso.
+                      - (continue)
+                    - **Kili:** Sin embargo, no parece que puedas permitírtelo en este momento. Vuelve conmigo cuando puedas.
+                  - (Condition: Con 10.000 coins:)
+                    - (removes=10,000 coins) (receives=Underworld Grimoire 2)
+                    - [Te entregan otro Underworld Grimoire 2.]
+                - [Choice]: No
+                  - **Player:** No, gracias.
+          - [Choice]: cond=Having unlocked Underworld Grimoire 3:|Grimorio del inframundo 3
+            - (Condition: Sin espacio libre en backpack:)
+              - **Kili:** Necesitarás espacio en tu inventario.
+            - (Condition: Con espacio libre en backpack:)
+              - **Kili:** ¿Grimorio del inframundo 3? Sí, pero me temo que te costaría 25.000 coins.
+              - [Menu]: ¿Comprar otro por 25.000 coins?
+                - [Choice]: si
+                  - (Condition: Sin 25.000 coins:)
+                    - No puedes permitirte eso.
+                    - ((Repetido en una ventana emergente:))
+                      - No puedes permitirte eso.
+                      - (continue)
+                    - **Kili:** Sin embargo, no parece que puedas permitírtelo en este momento. Vuelve conmigo cuando puedas.
+                  - (Condition: Con 25.000 coins:)
+                    - (removes=25,000 coins) (receives=Underworld Grimoire 3)
+                    - [Te entregan otro Underworld Grimoire 3.]
+                - [Choice]: No
+                  - **Player:** No, gracias.
+          - [Choice]: cond=Having unlocked Underworld Grimoire 4:|Grimorio del inframundo 4
+            - (Condition: Sin espacio libre en backpack:)
+              - **Kili:** Necesitarás espacio en tu inventario.
+            - (Condition: Con espacio libre en backpack:)
+              - **Kili:** ¿Grimorio del inframundo 4? Sí, pero me temo que te costaría 50.000 coins.
+              - [Menu]: ¿Comprar otro por 505.000 coins?
+                - [Choice]: si
+                  - (Condition: Sin 50.000 coins:)
+                    - No puedes permitirte eso.
+                    - ((Repetido en una ventana emergente:))
+                      - No puedes permitirte eso.
+                      - (continue)
+                    - **Kili:** Sin embargo, no parece que puedas permitírtelo en este momento. Vuelve conmigo cuando puedas.
+                  - (Condition: Con 50.000 coins:)
+                    - (removes=50,000 coins) (receives=Underworld Grimoire 4)
+                    - [Te entregan otro Underworld Grimoire 4.]
+                - [Choice]: No
+                  - **Player:** No, gracias.
+      - [Choice]: Lo siento, me estaba yendo.
+        - (end)
+  - [Choice]: [More...]
+    - [Menu]: Elige una opción:
+      - [Choice]: Habla de Kili.
+        - **Player:** ¿Puedes contarme un poco sobre ti?
+        - **Kili:** ¡Ja! No hay mucho que saber.
+        - **Player:** Bueno, ejem, ¿qué es lo que te gusta de Um?
+        - **Kili:** Es bueno poder ser el único herrero...
+        - **Player:** ¿Herrero del alma?
+        - **Kili:** ...
+        - **Kili:** Como decía, es bueno poder ser el único herrero aquí en la ciudad. ¡Puedo atender a todo tipo de personas que pasan por aquí!
+        - **Kili:** Y Thalmund, siempre el viajero, puede explorar todo el inframundo.
+        - **Player:** ¿Alguna vez has pensado en fallecer?
+        - **Kili:** Thalmund y yo hablamos de ello de vez en cuando. Um ha sido nuestro hogar durante tanto tiempo que hace que sea difícil salir.
+        - **Kili:** Estoy seguro de que lo pasaremos por alto en algún momento, pero no todavía.
+        - (initial)
+      - [Choice]: Pregunte cuando Thalmund esté de visita.
+        - **Player:** ¿Cuándo será la próxima visita de Thalmund?
+        - (Condition: Fuera los martes y miércoles:)
+          - **Kili:** Pasará por aquí en los días [número].
+          - (continue)
+        - (Condition: El martes:)
+          - **Kili:** Llegará en 1 día.
+          - (continue)
+        - (Condition: El miércoles:)
+          - **Kili:** Hoy está aquí, justo por allá con su carrito.
+          - (continue)
+        - **Kili:** ¡Asegúrate de visitarlo! Siempre tiene un buen stock de mercancías de sus viajes por el inframundo.
+        - (initial)
+      - [Choice]: Adiós.
+        - **Player:** Adiós.
+        - **Kili:** ¡Adiós!
+      - [Choice]: [More...]
+        - (initial)
+
+### Upgrading necromancy equipment
+
+
+#### Nivel 30
+
+
+##### Antes de haber recibido la urna del alma
+
+- **Kili:** ¿En qué puedo ayudarte?
+- **Player:** ¡Me gustaría conocer más actualizaciones de equipos, por favor!
+- **Kili:** ¡Empecemos entonces! El siguiente paso es aprender la actualización de nivel 30.
+- **Player:** ¿Cuál es el nivel máximo al que puedo actualizar mi equipo?
+- **Kili:** Puedes actualizarlo cada 10 niveles hasta que sea el nivel 90. Para los niveles 70, 80 y 90 también puedo darte la opción de servoarmadura o armadura de tanque estándar.
+- **Kili:** ¡Pero no nos adelantemos todavía!
+- **Kili:** Bien, entonces, ¿dónde estábamos?... Nivel 30.
+- **Kili:** Al igual que cuando te enseñé la primera actualización, necesitaré que tomes esta urna de almas y la llenes con algunas almas.
+- **Kili:** Esta urna solo aceptará almas provenientes de matar trolls usando nigromancia o completando rituales de comunión menores. Necesito 25 almas troll, o 3 almas de comunión menor.
+- ((Sin espacio en backpack:))
+  - **Kili:** Ah, parece que no tienes espacio para la urna del alma. Vuelve cuando lo hagas.
+- ((Con espacio en backpack:))
+  - ((Si no tienes la urna del alma:))
+    - (receives=a soul urn)
+    - Kili te regala una urna para el alma.
+    - (continue)
+  - **Player:** Fácil. Déjame buscar papel y lápiz para escribir esto...
+  - **Kili:** ¡Muy por delante de ti! Ya lo he anotado en una lista para que puedas realizar un seguimiento de lo que se necesita fácilmente.
+  - ((Sin espacio en backpack:))
+    - **Kili:** Ah, parece que no tienes espacio para la lista de tareas de actualización de equipo. Vuelve cuando lo hagas.
+  - ((Con espacio en backpack:))
+    - (receives=an equipment upgrade task list)
+    - Kili le ofrece una lista de tareas de actualización de equipos.
+    - **Player:** ¡No importa entonces! Iré a buscar esas almas para ti.
+
+##### Después de haber recibido la urna del alma.
+
+- **Seleccione una opción**
+  - Pregunta sobre tu tarea actual.
+    - ((Sin urna de alma llena:))
+      - ((Sin lista de tareas de actualización de equipo:))
+        - **Player:** Necesito recuperar mi lista de tareas de actualización de equipo.
+        - ((Sin espacio en backpack:))
+          - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
+          - (continue|30)
+        - ((Con espacio en backpack:))
+          - (receives=an equipment upgrade task list)
+          - Kili le entrega una nueva lista de tareas de actualización de equipos.
+          - (continue)
+      - ((Sin alma urna:))
+        - **Player:** Necesito recuperar la urna de mi alma.
+        - ((Sin espacio en backpack:))
+          - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
+          - (continue)
+        - ((Con espacio en backpack:))
+          - (receives=a soul urn)
+          - Kili te entrega una nueva urna para el alma.
+          - (continue)
+      - **Player:** ¿Qué debo hacer de nuevo?
+      - **Kili:** ¿No tienes la lista que te di?
+      - **Player:** Bueno, sí, pero prefiero la interacción humana.
+      - **Player:** Er, interacción humano-enano-fantasma.
+      - **Kili:** ...
+      - **Kili:** Muy bien, solo necesito que me traigas algunas almas en esa urna de almas que te di.
+      - **Kili:** La urna se modifica para aceptar solo almas provenientes de matar trolls usando nigromancia o completando rituales de comunión menores. Necesito 25 almas troll, o 3 almas de comunión menor.
+      - **Player:** ¡Vale! Entonces me iré de nuevo.
+    - ((Con una urna de alma llena:))
+      - **Player:** ¡Lléne la urna del alma!
+      - **Kili:** ¡Genial!
+      - Kili toma la urna del alma.
+      - (removes=the equipment upgrade task list and soul urn)
+      - **Player:** Entonces, eh, ¿y ahora qué?
+      - **Kili:** Más o menos igual que la primera actualización.
+      - **Kili:** Sígueme hasta Soul Forge y te enseñaré lo que necesitas saber...
+      - (Action: La pantalla se desvanece.)
+      - Kili imbuye su forja con la energía de la urna del alma. Luego explica con gran profundidad el proceso de actualización al nivel 30.
+      - **Kili:** ...Querrás sujetar la tela de esta manera, así no perderás ni un dedo...
+      - Toma notas, asegurándote de no olvidar nada.
+      - (Action: La pantalla vuelve a desaparecer.)
+      - **Kili:** ... Y eso debería ser todo. ¡Tan fácil como pastel de frutos rojos!
+      - **Player:** ...
+      - **Kili:** ¡Ah, no hay nada de qué preocuparse! Todo lo que necesitas recordar es reunir los elementos con alma necesarios para tu actualización y luego regresar a la forja de almas para realizarla.
+      - **Kili:**¡Ven y consúltame cuando quieras conocer la próxima actualización!
+      - ¡Felicitaciones! Has completado: 'Conocimiento I de Kili': aprende cómo actualizar tu equipo Death Skull y Deathwarden al nivel 30 de Kili.
+      - **Player:** ¡Gracias!
+  - Cancela tu tarea actual.
+    - **Kili:** ¿Está seguro de que desea dejar de trabajar en su tarea de actualización actual?
+    - **Seleccione una opción**
+      - Sí, quiero dejar de trabajar en mi tarea de actualización actual.
+        - ((Si tiene una lista de tareas de actualización de equipos en backpack:))
+          - (removes=the equipment upgrade task list)
+          - (continue)
+        - **Kili:** No hay problema. Puede volver en cualquier momento para trabajar en una nueva tarea.
+        - (initial)
+      - No, quiero seguir trabajando en mi tarea de actualización actual.
+        - **Kili:** Genial. Ya sabes dónde encontrarme si necesitas ayuda.
+        - (initial)
+
+#### Nivel 40
+
+
+##### Antes de haber recibido la urna del alma
+
+- **Kili:** Ok, ¡es hora de enseñarte el nivel 40!
+- **Kili:** Como antes, tendrás que ir y llenar esta urna de almas con algunas almas.
+- **Kili:** Esta vez, la urna solo aceptará almas provenientes de matar criaturas no muertas usando nigromancia o completando rituales de comunión menores. Necesito 50 almas de no-muertos o 5 almas de comunión menor.
+- ((Sin espacio en backpack:))
+  - **Kili:** Ah, parece que no tienes espacio para la urna del alma. Vuelve cuando lo hagas.
+- ((Con espacio en backpack:))
+  - ((Si no tienes la urna del alma:))
+    - (receives=a soul urn)
+    - Kili te regala una urna para el alma.
+    - (continue)
+  - **Kili:** Además, me gustaría un pastel de carne.
+  - **Player:** ¿Un pastel de carne?
+  - **Kili:** Un pastel de carne.
+  - **Kili:** No es que haya nada malo con un pastel de carne, pero ¿por qué no un pastel de frutos rojos?
+  - **Kili:** Bueno, no quiero lanzarme de cabeza.
+  - **Kili:** Ha pasado mucho tiempo desde que comí algún tipo de pastel, así que comenzaré sumergiendo los dedos de los pies en el agua.
+  - **Player:** Correcto. ¿Y esto ayudará a mejorar mi equipo, cómo exactamente?
+  - **Kili:** Todo el mundo necesita un poco de sustento, ¿no? Incluso fantasmas.
+  - **Player:** ...
+  - **Kili:** Continuando. Aquí está la lista de tareas para usted.
+  - ((Sin espacio en backpack:))
+    - **Kili:** Ah, parece que no tienes espacio para la lista de tareas de actualización de equipo. Vuelve cuando lo hagas.
+  - ((Con espacio en backpack:))
+    - (receives=an equipment upgrade task list)
+    - Kili le ofrece una lista de tareas de actualización de equipos.
+    - **Kili:** Ah, y una última cosa. Sólo tráeme lo que necesito una vez que lo tengas todo, en lugar de poco a poco. Nos gusta mantener nuestra casa ordenada y Thalmund se pone de mal humor cuando la sala está llena de objetos de aventureros.
+    - **Player:** Anotado. Supongo que entonces iré a buscar esas almas y ese pastel.
+
+##### Después de haber recibido la urna del alma.
+
+- **Seleccione una opción**
+  - Pregunta sobre tu tarea actual.
+    - ((Sin urna llena de alma y pastel de carne:))
+      - ((Sin lista de tareas de actualización de equipo:))
+        - **Player:** Necesito recuperar mi lista de tareas de actualización de equipo.
+        - ((Sin espacio en backpack:))
+          - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
+          - (continue|40)
+        - ((Con espacio en backpack:))
+          - (receives=an equipment upgrade task list)
+          - Kili le entrega una nueva lista de tareas de actualización de equipos.
+          - (continue)
+      - ((Sin alma urna:))
+        - **Player:** Necesito recuperar la urna de mi alma.
+        - ((Sin espacio en backpack:))
+          - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
+          - (continue|40)
+        - ((Con espacio en backpack:))
+          - (receives=a soul urn)
+          - Kili te entrega una nueva urna para el alma.
+          - (continue)
+      - **Player:** ¿Qué debo hacer de nuevo?
+      - **Kili:** ¿No tienes esa lista que te di?
+      - **Player:** Bueno, sí, pero supongo que solo quería ver tu cara.
+      - **Kili:** ...
+      - **Kili:** Er, bueno, solo necesito que me traigas algunas almas en esa urna de almas que te di.
+      - **Kili:** La urna se modifica para aceptar solo almas provenientes de matar criaturas no muertas usando nigromancia o completando rituales de comunión menores. Necesito 50 almas de no-muertos o 5 almas de comunión menor.
+      - **Kili:** ¡Ah, y un pastel de carne!
+      - **Player:** ¡Vale! Adiós entonces.
+    - ((Con urna de alma llena y pastel de carne:))
+      - **Player:** Tengo la urna de alma llena y ese pastel de carne para ti.
+      - **Kili:** Cosas preciosas.
+      - Kili se lleva el pastel de carne y la urna del alma.
+      - (removes=the equipment upgrade task list, meat pie, and soul urn)
+      - Kili come el pastel de carne.
+      - **Player:** ¿Cómo estuvo?
+      - **Kili:** Una buena primera opción, diría yo. No te puedes equivocar con los ricos sabores de la carne, combinados con la corteza hojaldrada más suave.
+      - **Kili:** ¡Ahora es el momento de enseñarte la actualización!
+      - (Action: La pantalla se desvanece.)
+      - Kili imbuye su forja con la energía de la urna del alma y explica el proceso de actualización al nivel 40 con gran profundidad.
+      - Sus manos brillan con la grasa de la carne.
+      - **Kili:** ...Querrás coser el hilo en esta dirección, para no sacar un ojo...
+      - Toma notas, asegurándote de no olvidar nada.
+      - (Action: La pantalla vuelve a desaparecer.)
+      - **Kili:** ...¡Y listo! Se requiere un poco más de trabajo, pero nada demasiado desafiante.
+      - **Player:** No debería ser mucho más difícil que la última actualización.
+      - **Kili:** Vuelve y avísame cuando estés listo para aprender el nivel 50.
+      - ¡Felicitaciones! Has completado: 'Conocimiento II de Kili': aprende cómo actualizar tu equipo Death Skull y Deathwarden al nivel 40 de Kili.
+      - **Player:** ¡Lo haré!
+  - Cancela tu tarea actual.
+    - **Kili:** ¿Está seguro de que desea dejar de trabajar en su tarea de actualización actual?
+    - **Seleccione una opción**
+      - Sí, quiero dejar de trabajar en mi tarea de actualización actual.
+        - ((Si tiene una lista de tareas de actualización de equipos en backpack:))
+          - (removes=the equipment upgrade task list)
+          - (continue)
+        - **Kili:** No hay problema. Puede volver en cualquier momento para trabajar en una nueva tarea.
+      - No, quiero seguir trabajando en mi tarea de actualización actual.
+        - **Kili:** Genial. Ya sabes dónde encontrarme si necesitas ayuda.
+        - (initial)
+
+#### Nivel 50
+
+
+##### Antes de haber recibido la urna del alma
+
+- **Kili:** Entonces, ahora para el nivel 50.
+- **Kili:** Ya conoces el procedimiento: necesito que reúnas algunas almas en esta urna de almas.
+- **Kili:** La urna solo aceptará almas provenientes de matar demonios usando nigromancia o completando rituales de comunión menores. Necesito 75 almas de demonios, o 10 almas de comunión menor.
+- ((Sin espacio en backpack:))
+  - **Kili:** Ah, parece que no tienes espacio para la urna del alma. Vuelve cuando lo hagas.
+- ((Con espacio en backpack:))
+  - ((Si no tienes la urna del alma:))
+    - (receives=a soul urn)
+    - Kili te regala una urna para el alma.
+    - (continue)
+  - **Kili:** Esta vez también hay un par de cosas adicionales...
+  - **Player:** Déjame adivinar, ¿otro pastel?
+  - **Kili:** ¡Efectivamente! Pero esta vez, una tarta de manzana.
+  - **Kili:** No estoy muy familiarizado con, supongo que los llamarías, 'pasteles de postre'. Y entonces me gustaría probar uno.
+  - **Kili:** ¡Pero eso no es todo!
+  - **Player:** ¡¿Dos pasteles?!
+  - **Kili:** No, dos pasteles no. ¡Soy sólo un pequeño enano!
+  - **Kili:** También necesito que consigas unas aletas de nigromante.
+  - **Player:** Er... ¿qué?
+  - **Kili:** Ya sabes, ¿aletas? ¿Las cosas que usas en tus pies?
+  - **Player:** Sí, sé qué son las aletas, pero ¿qué son las aletas de nigromante en Gielinor? ¿Y de dónde debo sacarlos?
+  - **Kili:** Bueno, son como aletas normales, pero para usar si eres un nigromante.
+  - **Player:** ...
+  - **Kili:** Mogres probablemente los dejará caer si los matas usando nigromancia.
+  - **Player:** Supongo que entonces iré a buscar estas aletas.
+  - **Kili:** ¡Aquí tienes una lista de todo para que no lo olvides!
+  - ((Sin espacio en backpack:))
+    - **Kili:** Ah, parece que no tienes espacio para la lista de tareas de actualización de equipo. Vuelve cuando lo hagas.
+  - ((Con espacio en backpack:))
+    - (receives=an equipment upgrade task list)
+    - Kili le ofrece una lista de tareas de actualización de equipos.
+    - **Player:** Gracias.
+
+##### Después de haber recibido la urna del alma.
+
+- **Seleccione una opción**
+  - Pregunta sobre tu tarea actual.
+    - ((Sin todos los elementos necesarios:))
+      - ((Sin lista de tareas de actualización de equipo:))
+        - **Player:** Necesito recuperar mi lista de tareas de actualización de equipo.
+        - ((Sin espacio en backpack:))
+          - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
+          - (continue|50)
+        - ((Con espacio en backpack:))
+          - (receives=an equipment upgrade task list)
+          - Kili le entrega una nueva lista de tareas de actualización de equipos.
+          - (continue)
+      - ((Si perdiste la urna de tu alma:))
+        - **Player:** Necesito recuperar la urna de mi alma.
+        - ((Sin espacio en backpack:))
+          - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
+          - (continue|50)
+        - ((Con espacio en backpack:))
+          - (receives=a soul urn)
+          - Kili te entrega una nueva urna para el alma.
+          - (continue|50)
+      - **Player:** ¿Qué debo hacer de nuevo?
+      - **Kili:** ¿No tienes esa lista que te di?
+      - **Player:** Bueno, sí, pero es menos aburrido hablar contigo que mirar una hoja de papel.
+      - **Kili:** ...
+      - **Kili:** Gracias. Bueno, sólo necesito que me traigas algunas almas en esa urna que te di.
+      - **Kili:** La urna se modifica para aceptar solo almas provenientes de matar demonios usando nigromancia o completando rituales de comunión menores. Necesito 75 almas de no-muertos o 10 almas de comunión menor.
+      - **Kili:** También me gustaría una tarta de manzana y unas aletas de nigromante, que deberías poder conseguir matando mogres con nigromancia.
+      - **Player:** ¡Entendido!
+    - ((Con todos los elementos necesarios:))
+      - **Player:** Llené la urna del alma, compré tu pastel de manzana y, eh, las aletas del nigromante.
+      - **Kili:** De hecho lograste conseguir las aletas, ¿eh? Estoy impresionado.
+      - Kili se lleva las aletas del nigromante, la tarta de manzana y la urna del alma.
+      - (removes=the apple pie, equipment upgrade task list, necromancer's flippers, and soul urn)
+      - **Player:** Entonces, ¿para qué necesitas las aletas?
+      - **Kili:** No te preocupes por eso. ¡Ah, será mejor que pruebes este pastel antes de que se enfríe!
+      - Kili se sumerge en la tarta de manzana.
+      - **Kili:** Bastante bien. No estoy seguro de preferirlo a los pasteles salados, pero de todos modos me alegro de haberlo probado.
+      - **Kili:** Ahora, vamos a enseñarte esa actualización.
+      - (Action: La pantalla se desvanece.)
+      - Kili imbuye su forja con la energía de la urna del alma y explica el proceso de actualización al nivel 50 con gran profundidad.
+      - Su aliento a tarta de manzana flota hacia ti, asfixiándote.
+      - **Kili:** ...Querrás martillar la barra para darle esta forma, para no arrancarte las uñas accidentalmente...
+      - Toma notas, asegurándote de no olvidar nada.
+      - (Action: La pantalla vuelve a desaparecer.)
+      - **Kili:** ... ¡Y eso es todo!
+      - **Player:** ¡Genial!
+      - **Kili:** Vuelve y avísame cuando estés listo para aprender el nivel 60.
+      - ¡Felicitaciones! Has completado: 'Conocimiento III de Kili': aprende cómo actualizar tu equipo Death Skull y Deathwarden al nivel 50 de Kili.
+      - **Player:** Claro.
+  - Cancela tu tarea actual.
+    - **Kili:** ¿Está seguro de que desea dejar de trabajar en su tarea de actualización actual?
+    - **Seleccione una opción**
+      - Sí, quiero dejar de trabajar en mi tarea de actualización actual.
+        - ((Si tiene una lista de tareas de actualización de equipos en backpack:))
+          - (removes=the equipment upgrade task list)
+          - (continue)
+        - **Kili:** No hay problema. Puede volver en cualquier momento para trabajar en una nueva tarea.
+      - No, quiero seguir trabajando en mi tarea de actualización actual.
+        - **Kili:** Genial. Ya sabes dónde encontrarme si necesitas ayuda.
+        - (initial)
+
+#### Nivel 60
+
+
+##### Antes de haber recibido la urna del alma
+
+- **Kili:** ¡Entonces es hora del nivel 60!
+- **Kili:** Como siempre, necesitarás reunir algunas almas en esta urna de almas.
+- **Kili:** La urna solo aceptará almas provenientes de matar cualquier monstruo que tenga al menos nivel 70 usando nigromancia o completando rituales de comunión mayores. Necesito 50 almas de monstruos, o 10 almas de comunión mayores.
+- ((Si no tienes la urna del alma:))
+  - ((Sin espacio en backpack:))
+    - **Kili:** Ah, parece que no tienes espacio para la urna del alma. Vuelve cuando lo hagas.
+  - ((Con espacio en backpack:))
+    - (receives=a soul urn)
+    - Kili te regala una urna para el alma.
+    - (continue)
+- **Kili:** También necesito algunas cosas más... Y sí, una de ellas es un pastel.
+- **Kili:** ¡Un pastel de jardín!
+- **Kili:** El pastel de carne que me regalaste hace un tiempo estaba delicioso, pero esta vez me gustaría probar la opción vegetariana.
+- **Player:** Es cierto, la población de Lumbridge cow se está volviendo un poco escasa. ¿Qué otra cosa?
+- **Player:** Nada tan ridículo como las aletas esta vez, espero...
+- **Kili:** ¡No, no, no te preocupes! Sólo necesito que tomes este dispositivo y lo uses en un ankou.
+- ((Si no tienes el agitador ankou:))
+  - ((Sin espacio en backpack:))
+    - **Kili:** Ah, parece que no tienes espacio para el agitador ankou. Vuelve cuando lo hagas.
+  - ((Con espacio en backpack:))
+    - (receives=an ankou agitator)
+    - Kili te ofrece un agitador ankou.
+    - (continue)
+- **Player:** ...
+- **Kili:** Es un dispositivo con el que jugué y que mide qué tipo de magia nigromántica se está usando en ellos. Es posible que necesites usarlo en algunos para obtener lo que se necesita... Creo que 10 deberían ser suficientes.
+- **Player:** Supongo que eso suena más útil que las aletas.
+- **Player:** Vale. Entonces, 50 almas, un pastel de jardín y... algo de ankou.
+- **Kili:** ¡Y listo! No olvides tu lista.
+- ((Sin espacio en backpack:))
+  - **Kili:** Ah, parece que no tienes espacio para la lista de tareas de actualización de equipo. Vuelve cuando lo hagas.
+- ((Con espacio en backpack:))
+  - (receives=an equipment upgrade task list)
+  - Kili le ofrece una lista de tareas de actualización de equipos.
+  - **Player:** Volveré más tarde.
+
+##### Después de haber recibido la urna del alma.
+
+- **Seleccione una opción**
+  - Pregunta sobre tu tarea actual.
+    - ((Sin todos los elementos necesarios:))
+      - ((Sin lista de tareas de actualización de equipo:))
+        - **Player:** Necesito recuperar mi lista de tareas de actualización de equipo.
+        - ((Sin espacio en backpack:))
+          - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
+          - (continue|60)
+        - ((Con espacio en backpack:))
+          - (receives=an equipment upgrade task list)
+          - Kili le entrega una nueva lista de tareas de actualización de equipos.
+          - (continue)
+      - ((Sin alma urna:))
+        - **Player:** Necesito recuperar la urna de mi alma.
+        - ((Sin espacio en backpack:))
+          - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
+          - (continue|60)
+        - ((Con espacio en backpack:))
+          - (receives=a soul urn)
+          - Kili te entrega una nueva urna para el alma.
+          - (continue)
+      - ((Sin agitador ankou:))
+        - **Player:** Necesito recuperar mi agitador ankou.
+        - ((Sin espacio en backpack:))
+          - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
+          - (continue)
+        - ((Con espacio en backpack:))
+          - (receives=an ankou agitator)
+          - Kili te entrega un nuevo agitador ankou.
+          - (continue)
+      - **Player:** ¿Qué debo hacer de nuevo?
+      - **Kili:** ¿No tienes esa lista que te di?
+      - **Player:** Bueno, sí, pero hueles mucho mejor que una hoja de papel.
+      - **Kili:** ...
+      - **Kili:** Lo intento. Bueno, necesito que me traigas algunas almas en esa urna que te di.
+      - **Kili:** La urna se modifica para aceptar solo almas provenientes de matar monstruos que tengan al menos nivel 70 usando nigromancia o completando rituales de comunión mayores. Necesito 50 almas de monstruos, o 10 almas de comunión mayores.
+      - **Kili:** También me gustaría un pastel de jardín, y si usas ese agitador ankou en algunos para mí... Alrededor de las 10 deberían ser suficientes.
+      - **Player:** Correcto.
+    - ((Con todos los elementos necesarios:))
+      - **Player:** Ok, he vuelto con la urna del alma llena, un pastel de jardín y algunos... residuos de un ankou. Uno lo dejó atrás después de usar su adorno agitador, así que creo que es lo que necesita.
+      - **Kili:** ¿Se le cayó algún residuo? Eh... ¡genial! Entonces me quedo con todo eso.
+      - Kili toma el residuo de ankou, el pastel de jardín y la urna del alma.
+      - (removes=the ankou agitator, ankou residue, garden pie, equipment upgrade task list, and soul urn)
+      - **Player:** ¿El residuo le dará la información que necesitaba? ¿Ayudará a mejorar mi equipo?
+      - **Kili:** ¡Sí! Le dará un impulso mágico de protección que le faltaba a su equipo.
+      - **Player:** Bueno, entonces me alegro de que tenga algún valor.
+      - **Kili:** Seguro que sí. Ahora, probemos este pastel.
+      - Kili mastica el pastel de la huerta.
+      - **Kili:** Mmm.
+      - **Player:** ¿Un buen 'hmm'? ¿Un mal 'hmm'?
+      - **Kili:** ¡En realidad es bastante bueno! Los tomates son deliciosos y jugosos, y la cebolla queda crujiente.
+      - **Player:** ¿Mejor que el pastel de carne?
+      - **Kili:** Posiblemente no, pero al menos es un fuerte contendiente.
+      - **Kili:** ¡De todos modos! Ya basta de pasteles, vamos a enseñarte la actualización.
+      - (Action: La pantalla se desvanece.)
+      - Kili imbuye su forja con la energía de la urna del alma y explica el proceso de actualización al nivel 60 con gran profundidad.
+      - Sus manos gotean jugo de tomate y su aliento apesta a cebolla.
+      - **Kili:** ...Asegúrate de imbuir la energía rúnica durante este período de tiempo exacto, para no quemarte el cabello...
+      - Toma notas, asegurándote de no olvidar nada.
+      - (Action: La pantalla vuelve a desaparecer.)
+      - **Kili:** ... ¡Eso debería ser todo!
+      - **Kili:** Vuelve y avísame cuando estés listo para aprender el nivel 70.
+      - **Player:** ¡Hasta luego!
+  - Cancela tu tarea actual.
+    - **Kili:** ¿Está seguro de que desea dejar de trabajar en su tarea de actualización actual?
+    - **Seleccione una opción**
+      - Sí, quiero dejar de trabajar en mi tarea de actualización actual.
+        - ((Si tiene una lista de tareas de actualización de equipos en backpack:))
+          - (removes=the equipment upgrade task list)
+          - (continue)
+        - **Kili:** No hay problema. Puede volver en cualquier momento para trabajar en una nueva tarea.
+      - No, quiero seguir trabajando en mi tarea de actualización actual.
+        - **Kili:** Genial. Ya sabes dónde encontrarme si necesitas ayuda.
+        - (initial)
+
+#### Nivel 70
+
+
+##### Tanque
+
+
+##### Antes de haber recibido la urna del alma
+
+- **Kili:** Muy bien, entonces quieres actualizar al nivel 70.
+- **Kili:** Por supuesto, necesitaré más almas en esta urna de almas.
+- **Kili:** La urna solo aceptará almas provenientes de matar dragones usando nigromancia o completando rituales de comunión mayores. Necesito 100 almas de dragón, o 20 almas de comunión mayor.
+- ((Si no tienes la urna del alma:))
+  - ((Sin espacio en backpack:))
+    - **Kili:** Ah, parece que no tienes espacio para la urna del alma. Vuelve cuando lo hagas.
+  - ((Con espacio en backpack:))
+    - (receives=a soul urn)
+    - Kili te regala una urna para el alma.
+    - (continue)
+- **Kili:** Esta vez también me gustaría probar un pastel de pescado.
+- **Kili:** Cuando yo vivía, los pasteles de pescado eran uno de mis favoritos. Tengo curiosidad por saber si saben mejor ahora que estoy muerto.
+- **Player:** Ok, urna del alma y pastel. Estándar. ¿Qué es lo último que necesitas?
+- **Kili:** ¿Soy tan predecible?
+- **Player:** Un poco.
+- **Kili:** Bueno, lo último que necesito es algo de necroplasma. Necroplasma de los hermanos Barrows originales, específicamente.
+- **Player:** ¿Cómo puedo conseguirlo?
+- **Kili:** En primer lugar, necesitarás un necroplasma mayor. Unas 20 por cada hermano deberían ser suficientes.
+- **Kili:** Una vez que tengas eso, llévalo a sus criptas. La energía de sus sarcófagos debería ser suficiente para transformar el necroplasma.
+- **Kili:** Pero... No quiero el necroplasma de los hermanos individuales. Necesitarás encontrar una manera de combinarlos en un necroplasma singular.
+- **Player:** Creo que eso parece factible.
+- **Kili:** Perfecto. Aquí está la lista.
+- ((Sin espacio en backpack:))
+  - **Kili:** Ah, parece que no tienes espacio para la lista de tareas de actualización de equipo. Vuelve cuando lo hagas.
+- ((Con espacio en backpack:))
+  - (receives=an equipment upgrade task list)
+  - Kili le ofrece una lista de tareas de actualización de equipos.
+  - **Player:** ¡Vuelve pronto!
+
+##### Después de haber recibido la urna del alma.
+
+- **Seleccione una opción**
+  - Pregunta sobre tu tarea actual.
+    - ((No contar con todos los elementos necesarios:))
+      - ((Si perdió la lista de tareas de actualización de su equipo:))
+        - **Player:** Necesito recuperar mi lista de tareas de actualización de equipo.
+        - ((Sin espacio en backpack:))
+          - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
+          - (continue|70)
+        - ((Con espacio en backpack:))
+          - (receives=an equipment upgrade task list)
+          - Kili le entrega una nueva lista de tareas de actualización de equipos.
+          - (continue)
+      - ((Si perdiste la urna de tu alma:))
+        - **Player:** Necesito recuperar la urna de mi alma.
+        - ((Sin espacio en backpack:))
+          - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
+          - (continue)
+        - ((Con espacio en backpack:))
+          - (receives=a soul urn)
+          - Kili te entrega una nueva urna para el alma.
+          - (continue)
+      - **Player:** ¿Qué debo hacer de nuevo?
+      - **Kili:** ¿No tienes esa lista que te di?
+      - **Player:** Bueno, sí, pero esperaba que te sobrara algo de pastel para compartir.
+      - **Kili:** No lo hago.
+      - **Kili:** Pero, para responder a tu pregunta, necesito que me traigas algunas almas en esa urna de almas que te di.
+      - **Kili:** La urna se modifica para aceptar solo almas provenientes de matar dragones usando nigromancia o completando rituales de comunión mayores. Necesito 100 almas de dragón, o 20 almas de comunión mayor.
+      - **Kili:** También me gustaría un pastel de pescado y un poco de necroplasma de los hermanos Barrows.
+      - **Kili:** Necesitarás 20 necroplasmas mayores para cada hermano, y llevarlos a cada uno de sus sarcófagos.
+      - **Kili:** Después de eso, estarás un poco solo. Quiero que los necroplasmas estén combinados, en lugar de individualmente.
+      - **Player:** Veré qué puedo hacer.
+    - ((Contando con todos los elementos necesarios:))
+      - **Player:** ¡Muy bien! Tengo tu urna del alma, pastel de pescado y descubrí cómo combinar el necroplasma.
+      - **Kili:** ¡Increíble!
+      - Kili se lleva el necroplasma de los túmulos, el pastel de pescado y la urna del alma.
+      - (removes=the barrows necroplasm, fish pie, equipment upgrade task list, and soul urn)
+      - **Player:** Entonces, ¿para qué usarás el necroplasma?
+      - **Kili:** ¡Ah, ya sabes, para imbuir la fragua! Y tal.
+      - **Kili:** De todos modos, no puedo esperar más para probar el pastel.
+      - Kili devora el pastel de pescado.
+      - **Kili:** Maravilloso. Simplemente maravilloso.
+      - **Player:** ¿Mejor que cuando vivías?
+      - **Kili:** ¿Creo que sí? El aroma del pescado. La mantecosidad de la masa...
+      - **Kili:** O tal vez sabe tan bien porque hace mucho que no lo pruebo.
+      - **Kili:** O tal vez ES porque estoy muerto y mis sentidos están intensificados...
+      - **Kili:** O tal vez el lote que me trajiste solo usaba pescado de especialmente alta calidad...
+      - **Kili:** O-
+      - **Player:** Er, ¿puedes enseñarme la actualización ahora?
+      - Kili sale del trance inducido por el pastel.
+      - **Kili:** Lo siento, sí, ven conmigo...
+      - (Action: La pantalla se desvanece.)
+      - Kili imbuye su forja con la energía de la urna del alma y explica el proceso de actualización al nivel 70 con gran profundidad.
+      - Vagos aromas a bacalao y trucha llenan el aire a tu alrededor.
+      - **Kili:** ...Ten cuidado de medir esta longitud exacta de hilo, para que no se enrede alrededor de tus orejas...
+      - Toma notas, asegurándote de no olvidar nada.
+      - (Action: La pantalla vuelve a desaparecer.)
+      - **Kili:** ... ¡Allá vamos!
+      - **Kili:** Vuelve y avísame cuando estés listo para aprender el nivel 80.
+      - **Player:** Adiós por ahora.
+      - ¡Felicitaciones! Has completado: 'Conocimiento V de Kili': aprende cómo actualizar tu equipo Death Skull y Deathwarden al nivel 70 de Kili.
+  - Cancela tu tarea actual.
+    - **Kili:** ¿Está seguro de que desea dejar de trabajar en su tarea de actualización actual?
+    - **Seleccione una opción**
+      - Sí, quiero dejar de trabajar en mi tarea de actualización actual.
+        - ((Si tiene una lista de tareas de actualización de equipos en backpack:))
+          - (removes=the equipment upgrade task list)
+          - (continue)
+        - **Kili:** No hay problema. Puede volver en cualquier momento para trabajar en una nueva tarea.
+      - No, quiero seguir trabajando en mi tarea de actualización actual.
+        - **Kili:** Genial. Ya sabes dónde encontrarme si necesitas ayuda.
+        - (initial)
+
+##### Poder
+
+
+##### Antes de haber seleccionado la tarea
+
+- **Kili:** Muy bien, entonces quieres actualizar al nivel 70 y ponerte una servoarmadura.
+- **Player:** Entonces, esta vez necesitarás una urna para el alma, un pastel y...
+- **Kili:** ¡Esta vez no!
+- **Kili:** La servoarmadura funciona un poco diferente, por lo que no se necesita una urna de alma. Y puedo prescindir del pastel por un tiempo.
+- **Kili:** En su lugar, necesitarás conseguir algunos materiales de algunas de las grandes bestias de Gielinor.
+- **Kili:** Necesito que me consigas 5 quitina real, que se pueden obtener del Kalphite Queen, y 5 horribles pieles de topo, que se pueden obtener del topo gigante.
+- **Kili:** Sin embargo, debes saber que solo los arrojarán cuando luchen contra la nigromancia.
+- **Player:** Kalphite Queen... Topo gigante... Necromancy... Entendido.
+- **Player:** ¿Algo más? ¿Estás realmente seguro de que no quieres un pastel?
+- **Kili:** No. ¡Eso es todo!
+- Una gota de sudor cae de la frente de Kili mientras muestra gran moderación al rechazar tu oferta de un pastel.
+- **Kili:** Vete antes de que cambie de opinión. Aquí está la lista.
+- ((Sin espacio en backpack:))
+  - **Kili:** Ah, parece que no tienes espacio para la lista de tareas de actualización de equipo. Vuelve cuando lo hagas.
+- ((Con espacio en backpack:))
+  - (receives=an equipment upgrade task list)
+  - Kili le ofrece una lista de tareas de actualización de equipos.
+  - **Player:** ¡Lo que tú digas!
+
+##### Después de haber seleccionado la tarea
+
+- **Seleccione una opción**
+  - Pregunta sobre tu tarea actual.
+    - (Condition: Sin todos los elementos requeridos:)
+      - (Condition: Sin la lista de tareas de actualización de equipos:)
+        - **Player:** Necesito recuperar mi lista de tareas de actualización de equipo.
+        - ((Sin espacio en backpack:))
+          - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
+          - (continue)
+        - ((Con espacio en backpack:))
+          - (receives=an equipment upgrade task list)
+          - Kili le entrega una nueva lista de tareas de actualización de equipos.
+          - (continue)
+      - **Player:** ¿Qué debo hacer de nuevo?
+      - **Kili:** ¿No tienes esa lista que te di?
+      - **Player:** Bueno, sí, pero pensé en comprobar que esta vez realmente no quieres un pastel.
+      - **Kili:** No. ¡Sin pastel!
+      - **Kili:** Continuando, necesitarás conseguirme 5 quitina real del Kalphite Queen y 5 horribles pieles de topo del topo gigante.
+      - **Kili:** Sin embargo, solo deberían deshacerse de ellos cuando luchen con nigromancia.
+      - **Player:** Gracias, entonces me voy.
+    - (Condition: Con todos los elementos requeridos:)
+      - **Player:** ¡Estoy de vuelta con la quitina real y las horribles pieles de topo!
+      - **Kili:** ¡Buen trabajo!
+      - Kili toma la quitina real y las horribles pieles de topo.
+      - (removes=5 royal chitin, 5 hideous moleskin, and equipment upgrade task list)
+      - **Kili:** ¡A la actualización!
+      - **Player:** Espera, ¿qué vas a hacer con la quitina y las pieles de topo?
+      - **Kili:** Es un secreto.
+      - **Player:** ¿Un secreto?
+      - **Kili:** Sí. Conocimiento ultrasecreto que sólo los enanos del clan Imcando pueden conocer.
+      - **Player:** ...
+      - **Kili:** Volviendo a lo que estaba diciendo, ¡vamos a enseñarte la actualización!
+      - (Action: La pantalla se desvanece.)
+      - Kili explica con gran profundidad el proceso de actualización de nivel 70 para servoarmadura.
+      - **Kili:** ...Asegúrate de cortar la tela a este tamaño específico, para que no quede ningún saliente que pueda hacerte tropezar y causar una conmoción cerebral desagradable...
+      - Toma notas, asegurándote de no olvidar nada.
+      - (Action: La pantalla vuelve a desaparecer.)
+      - **Kili:** ... ¡Y eso es todo!
+      - **Kili:** Vuelve y avísame cuando estés listo para aprender el nivel 80.
+      - **Player:** ¡Gracias!
+      - ¡Felicitaciones! Ha completado: 'Conocimiento V (poder) de Kili': aprenda cómo actualizar su equipo Death Skull al nivel 70 y actualizar su equipo Deathwarden al nivel 70 Deathdealer de Kili.
+  - Cancela tu tarea actual.
+    - **Kili:** ¿Está seguro de que desea dejar de trabajar en su tarea de actualización actual?
+    - **Seleccione una opción**
+      - Sí, quiero dejar de trabajar en mi tarea de actualización actual.
+        - ((Si tiene una lista de tareas de actualización de equipos en backpack:))
+          - (removes=the equipment upgrade task list)
+          - (continue)
+        - **Kili:** No hay problema. Puede volver en cualquier momento para trabajar en una nueva tarea.
+      - No, quiero seguir trabajando en mi tarea de actualización actual.
+        - **Kili:** Genial. Ya sabes dónde encontrarme si necesitas ayuda.
+        - (initial)
+
+#### Nivel 80
+
+
+##### Tanque
+
+
+##### Antes de haber recibido el martillo ligado al espíritu descargado
+
+- **Kili:** Entonces, deseas actualizar al nivel 80.
+- **Kili:** En primer lugar, necesitaré más almas en esta urna de almas.
+- **Kili:** La urna solo aceptará almas provenientes de matar monstruos asignados como tu tarea Slayer usando nigromancia o completando rituales de comunión mayores. Necesito 150 almas de tarea Slayer, o 30 almas de comunión mayor.
+- ((Si no tienes la urna del alma:))
+  - ((Sin espacio en backpack:))
+    - **Kili:** Ah, parece que no tienes espacio para la urna del alma. Vuelve cuando lo hagas.
+  - ((Con espacio en backpack:))
+    - (receives=a soul urn)
+    - Kili te regala una urna para el alma.
+    - (continue)
+- **Kili:** También necesito que recargues este martillo especial mío, con una poderosa energía del alma.
+- ((Si no tienes el martillo vinculado al espíritu (descargado):))
+  - ((Sin espacio en backpack:))
+    - **Kili:** Ah, parece que no tienes espacio para el martillo vinculado al espíritu (sin carga). Vuelve cuando lo hagas.
+  - ((Con espacio en backpack:))
+    - (receives=a spiritbound hammer (uncharged))
+    - Kili te da un martillo vinculado al espíritu (sin carga).
+    - (continue)
+- **Player:** Potente, ¿eh? ¿Necesito derrotar a un dios mayor? ¿Un dios promedio? ¿Un semidiós?
+- **Kili:** Er, no exactamente. Sólo algunos de sus seguidores.
+- **Player:** Oh.
+- **Kili:** ¡Pero poderosos seguidores! Estaba pensando en los cuatro generales de God Wars Dungeon.
+- **Kili:** Derrótalos y luego carga mi martillo con la energía residual de sus altares. Sin embargo, se agota rápidamente después de su derrota, así que tendrás que ser rápido.
+- **Player:** Rápido como un rayo, señaló.
+- **Kili:** Y por último, pero no menos importante...
+- **Player:** ¿Un pastel?
+- **Kili:** ¡Un pastel!
+- **Kili:** Pero no cualquier pastel viejo...
+- **Kili:** ¡Un pastel de frutos rojos!
+- **Player:** Me preguntaba cuánto tiempo te tomaría pedir uno.
+- **Kili:** He ejercido mucha moderación al probar los otros pasteles primero, pero creo que es el momento.
+- **Kili:** Ahora aquí está tu lista.
+- ((Sin espacio en backpack:))
+  - **Kili:** Ah, parece que no tienes espacio para la lista de tareas de actualización de equipo. Vuelve cuando lo hagas.
+- ((Con espacio en backpack:))
+  - (receives=an equipment upgrade task list)
+  - Kili le ofrece una lista de tareas de actualización de equipos.
+  - **Kili:** ¡Vuelve rápido!
+
+##### Después de haber recibido el martillo ligado al espíritu descargado
+
+- **Seleccione una opción**
+  - Pregunta sobre tu tarea actual.
+    - (Condition: Sin todos los elementos requeridos:)
+        - **Player:** Necesito recuperar mi lista de tareas de actualización de equipo.
+        - ((Sin espacio en backpack:))
+          - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
+          - (continue|80)
+        - ((Con espacio en backpack:))
+          - (receives=an equipment upgrade task list)
+          - Kili le entrega una nueva lista de tareas de actualización de equipos.
+          - (continue)
+      - (Condition: Sin la urna del alma:)
+        - **Player:** Necesito recuperar la urna de mi alma.
+        - ((Sin espacio en backpack:))
+          - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
+          - (continue|80)
+        - ((Con espacio en backpack:))
+          - (receives=a soul urn)
+          - Kili te entrega una nueva urna para el alma.
+          - (continue)
+      - (Condition: Sin el martillo ligado al espíritu (sin carga):)
+        - **Player:** Necesito recuperar mi martillo vinculado al espíritu (descargado).
+        - ((Sin espacio en backpack:))
+          - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
+          - (continue|80)
+        - ((Con espacio en backpack:))
+          - (receives=a spiritbound hammer (uncharged))
+          - Kili te entrega un nuevo martillo vinculado al espíritu (sin carga).
+          - (continue|80)
+      - **Player:** ¿Qué debo hacer de nuevo?
+      - **Kili:** ¿No tienes esa lista que te di?
+      - **Player:** Bueno, sí, pero esperaba que hubieras cambiado de opinión y ahora estés dispuesto a enseñarme la actualización sin ningún esfuerzo por mi parte.
+      - **Kili:** No.
+      - **Player:** Oh.
+      - **Kili:** Pero, para responder a tu pregunta, necesito que me traigas algunas almas en esa urna de almas que te di.
+      - **Kili:** La urna se modifica para aceptar solo almas provenientes de matar monstruos asignados como tu tarea Slayer usando nigromancia o completando rituales de comunión mayores. Necesito 150 almas de tarea Slayer, o 30 almas de comunión mayor.
+      - **Kili:** También necesito que cargues mi martillo desde los altares de los cuatro generales de God Wars Dungeon. Sin embargo, tendrás que ser rápido después de derrotarlos.
+      - **Kili:** Y, lo más importante de todo, necesito que me traigas una tarta de frutos rojos.
+      - **Player:** Seguiré recogiendo tus cosas.
+    - (Condition: Con todos los elementos requeridos:)
+      - **Player:** Ok, he vuelto con la urna del alma llena, el martillo cargado y el pastel de frutos rojos.
+      - **Kili:** Pastel...
+      - Kili toma el martillo cargado, el pastel de frutos rojos y la urna del alma.
+      - (removes=the spiritbound hammer (charged), pastel de frutos rojos, lista de tareas de mejora de equipo y urna de alma)
+      - **Player:** Cuidado, el pastel está bastante ho-
+      - Kili devora el pastel de frutos rojos antes de que tengas oportunidad de reaccionar.
+      - **Kili:** Ahh. Eso da en el clavo.
+      - **Player:** Como intentaba decir, el pastel estaba bastante caliente. Sólo quería asegurarme de que no te quemaras.
+      - Kili se asoma alrededor de la boca.
+      - **Kili:** Ah, supongo que me quemé. Bueno, ya sabes lo que dicen, ¡sin dolor no hay ganancia!
+      - **Player:** Quiero decir, podrías haber esperado a que el pastel se enfriara y luego obtener la ganancia sin el dolor, pero...
+      - **Kili:** Sin embargo, creo que la salsa picante de frutos rojos fundida contribuyó a la ganancia.
+      - **Player:** Haz lo que quieras.
+      - **Kili:** Dejando a un lado el pastel, vamos a enseñarte la actualización.
+      - (Action: La pantalla se desvanece.)
+      - Kili imbuye su forja con la energía de la urna del alma y explica el proceso de actualización al nivel 80 con gran profundidad.
+      - Un rico aroma a frutos rojos envuelve el aire que te rodea.
+      - **Kili:** ...Querrás pararte exactamente en esta posición al martillar, para no fracturarte un hueso...
+      - Toma notas, asegurándote de no olvidar nada.
+      - (Action: La pantalla vuelve a desaparecer.)
+      - **Kili:** ... ¡Y listo!
+      - **Kili:** Una última cosa que debo mencionar. Si elige actualizar su equipo desde una versión aumentada, debe saber que cualquier aumento también se aplicará a la versión mejorada.
+      - **Kili:** Así que no hay necesidad de preocuparse por perder nada.
+      - **Kili:** Vuelve y avísame cuando estés listo para aprender el nivel 90.
+      - **Player:** Adiós por ahora.
+      - ¡Felicitaciones! Has completado: 'Conocimiento VI de Kili': aprende cómo actualizar tu equipo Death Skull y Deathwarden al nivel 80 desde Kili.
+  - Cancela tu tarea actual.
+    - **Kili:** ¿Está seguro de que desea dejar de trabajar en su tarea de actualización actual?
+    - **Seleccione una opción**
+      - Sí, quiero dejar de trabajar en mi tarea de actualización actual.
+        - ((Si tiene una lista de tareas de actualización de equipos en backpack:))
+          - (removes=the equipment upgrade task list)
+          - (continue)
+        - **Kili:** No hay problema. Puede volver en cualquier momento para trabajar en una nueva tarea.
+      - No, quiero seguir trabajando en mi tarea de actualización actual.
+        - **Kili:** Genial. Ya sabes dónde encontrarme si necesitas ayuda.
+        - (initial)
+
+##### Poder
+
+
+##### Antes de haber seleccionado la tarea
+
+- **Kili:** Correcto. Quieres aprender servoarmadura de nivel 80.
+- **Kili:** Entonces, como es una servoarmadura, no necesitaré que me recojas almas.
+- **Player:** Uf.
+- **Kili:** ¡En lugar de eso, tendrás que derrotar a Nex y a la Reina Dragón Negro!
+- **Player:** Hasta aquí es una tarea fácil.
+- **Kili:** Primero que nada, necesito 5 fragmentos de Zaryte. Debería poder obtenerlos de Nex.
+- **Kili:** En segundo lugar, me gustaría 5 esencias de almas torturadas. Creo que la Reina Dragón Negro los poseerá.
+- **Player:** Pobres almas.
+- **Kili:** Otra cosa a tener en cuenta es que probablemente solo dejarán caer las cosas que necesito si los derrotas con nigromancia.
+- **Player:** ¿Probablemente?
+- **Kili:** Casi seguro, según mi investigación...
+- **Player:** Se agradecería una garantía definitiva antes de cargar con todo entusiasmo.
+- **Kili:** Bueno, no siempre conseguimos lo que queremos en la vida. O la otra vida.
+- **Player:** ...
+- **Kili:** ...¡Y eso debería ser todo lo que necesito! Aquí está la lista.
+- ((Sin espacio en backpack:))
+  - **Kili:** Ah, parece que no tienes espacio para la lista de tareas de actualización de equipo. Vuelve cuando lo hagas.
+- ((Con espacio en backpack:))
+  - (receives=an equipment upgrade task list)
+  - Kili le ofrece una lista de tareas de actualización de equipos.
+  - **Player:** Entonces iré y me prepararé para recoger tus cosas.
+
+##### Después de haber seleccionado la tarea
+
+- **Seleccione una opción**
+  - Pregunta sobre tu tarea actual.
+    - (Condition: Sin todos los elementos requeridos:)
+      - (Condition: Sin la lista de tareas de actualización de equipos:)
+        - **Player:** Necesito recuperar mi lista de tareas de actualización de equipo.
+        - ((Sin espacio en backpack:))
+          - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
+          - (continue)
+        - ((Con espacio en backpack:))
+          - (receives=an equipment upgrade task list)
+          - Kili le entrega una nueva lista de tareas de actualización de equipos.
+          - (continue)
+      - **Player:** ¿Qué debo hacer de nuevo?
+      - **Kili:** ¿No tienes esa lista que te di?
+      - **Player:** Bueno, sí, pero solo quería venir a molestarte.
+      - **Kili:** ...
+      - **Kili:** Bueno, necesitas conseguirme 5 fragmentos de Zaryte de Nex y 5 esencias de alma torturadas de la Reina Dragón Negro.
+      - **Kili:** También debes saber que solo los soltarán cuando sean derrotados usando nigromancia.
+      - **Player:** ¡Gracias!
+    - (Condition: Con todos los elementos requeridos:)
+      - **Player:** ¡Tengo esos fragmentos de Zaryte y esencias de almas torturadas para ti!
+      - **Kili:** Buen trabajo.
+      - Kili toma los fragmentos de Zaryte y las esencias del alma torturada.
+      - (removes=5 zaryte fragments, 5 tortured soul essences, and equipment upgrade task list)
+      - **Player:** ¿Qué vas a hacer con ellos?
+      - **Kili:** ¡Ah, me alegra que lo hayas preguntado! Ya ves...
+      - Kili comienza a hablar sobre algunas palabrerías extremadamente profundas relacionadas con Smithing.
+      - **Kili:** ...Y luego infundiré la esencia en las aleaciones, mientras infundo los fragmentos en el cubo de soldadura...
+      - Ella continúa hablando en términos que no habías escuchado antes. Asumes que no conoces estos términos porque ella es la maestra herrera aquí, no tú.
+      - Te arrepientes de haber preguntado en primer lugar.
+      - **Kili:** ... ¡Y así es como te haremos la mejor armadura que jamás haya existido!
+      - **Player:** ...
+      - **Kili:** ...Player?
+      - **Player:** Vaya, lo siento, debo haberme desconectado. ¿Qué fue eso?
+      - **Kili:** No importa. Ahora sígueme y te enseñaré la actualización...
+      - (Action: La pantalla se desvanece.)
+      - Kili explica con gran profundidad el proceso de actualización de nivel 80 para servoarmadura.
+      - **Kili:** ...No olvides ponerte gafas antes de golpear las barras, de lo contrario podrías quedar ciego...
+      - Toma notas, asegurándote de no olvidar nada.
+      - (Action: La pantalla vuelve a desaparecer.)
+      - **Kili:** ... ¡Y eso debería ser todo!
+      - **Kili:** Una última cosa que debo mencionar. Si elige actualizar su equipo desde una versión aumentada, debe saber que cualquier aumento también se aplicará a la versión mejorada.
+      - **Kili:** Así que no hay necesidad de preocuparse por perder nada.
+      - **Kili:** Vuelve y avísame cuando estés listo para aprender el nivel 90.
+      - **Player:** ¡Genial!
+      - ¡Felicitaciones! Has completado: 'Conocimiento VI (poder) de Kili': aprende cómo actualizar tu equipo Death Skull y Deathdealer al nivel 80 de Kili.
+  - Cancela tu tarea actual.
+    - **Kili:** ¿Está seguro de que desea dejar de trabajar en su tarea de actualización actual?
+    - **Seleccione una opción**
+      - Sí, quiero dejar de trabajar en mi tarea de actualización actual.
+        - ((Si tiene una lista de tareas de actualización de equipos en backpack:))
+          - (removes=the equipment upgrade task list)
+          - (continue)
+        - **Kili:** No hay problema. Puede volver en cualquier momento para trabajar en una nueva tarea.
+      - No, quiero seguir trabajando en mi tarea de actualización actual.
+        - **Kili:** Genial. Ya sabes dónde encontrarme si necesitas ayuda.
+        - (initial)
+
+#### Nivel 90
+
+
+##### Tanque
+
+
+##### Antes de haber recibido el cristal nigromántico inerte.
+
+- **Kili:** Entonces has elegido actualizar al nivel 90.
+- **Kili:** Para empezar, tendrás que llenar esta urna del alma por mí.
+- **Kili:** La urna solo aceptará almas de poderosos rituales de comunión, de las cuales necesito 50. Alternativamente, puedes llenarla simplemente completando una tarea de Soul Reaper usando nigromancia.
+- ((Si no tienes la urna del alma:))
+  - ((Sin espacio en backpack:))
+    - **Kili:** Ah, parece que no tienes espacio para la urna del alma. Vuelve cuando lo hagas.
+  - ((Con espacio en backpack:))
+    - (receives=a soul urn)
+    - [Kili te regala una urna para el alma.]
+    - (continue)
+- **Kili:** A continuación, necesito 10 sellos nigrománticos potenciados de cada uno de los generales del Corazón de Gielinor.
+- **Kili:** Este es un proceso complejo que requiere mucho tiempo para perfeccionarse, así que preste atención.
+- **Kili:** En primer lugar, tendrás que derrotar al jefe para obtener los sellos sin poder. Asegúrate de llevar también 25 necroplasmas mayores.
+- **Kili:** Ahora, una vez que tengas varios de sus sellos, cada uno necesitará un proceso diferente para potenciarlos...
+- **Kili:** Los sellos de Helwyr deben potenciarse abriendo un cofre de cristal.
+- **Kili:** Los sellos de Gregorovic necesitarán que crees algunas runas miasmáticas.
+- **Kili:** Los sellos de Vindicta necesitarán que uses Escudo óseo contra un ataque de fuego de dragón.
+- **Kili:** Y por último, pero no menos importante, los sellos de las Furias Gemelas necesitarán que restaures algunos artefactos zamorakianos.
+- **Player:** Eso es... mucho trabajo.
+- **Kili:** ¡Oh, todavía no he terminado!
+- **Player:** ...
+- **Kili:** También necesito un ónix pulsante. Podrás crear esto combinando un ónix sin cortar y un cristal especial.
+- **Kili:** Por suerte para ti, ya tengo el cristal aquí conmigo.
+- ((Si no tienes el cristal nigromántico inerte:))
+  - ((Sin espacio en backpack:))
+    - **Kili:** Ah, parece que no tienes espacio para el cristal nigromántico inerte. Vuelve cuando lo hagas.
+  - ((Con espacio en backpack:))
+    - (receives=an inert necromantic crystal)
+    - [Kili te ofrece un cristal nigromántico inerte.]
+    - (continue)
+- **Player:** ¡Genial!
+- **Kili:** Por desgracia para ti, es necesario encenderlo. Las energías obtenidas al derrotar a TzTok-Jad en la cueva de lucha de TzHaar deberían ser suficientes para eso.
+- **Player:** Genial.
+- **Player:** Entonces eso es todo, ¿verdad? ¡Me voy ahora!
+- **Kili:** ¡No tan rápido!
+- **Kili:** Por último, me gustaría un pastel de arándanos.
+- **Player:** ¿Un pastel de arándanos?
+- **Player:** No estoy seguro exactamente de cómo era Gielinor durante tu época de vida, pero puedo decirte ahora que no tenemos algo llamado arándano.
+- **Kili:** Estoy seguro de que puedes resolverlo. Quizás algunos habitantes de la ciudad puedan ayudarte.
+- **Player:** Así que eso es...
+- [Respiras profundamente.]
+- **Player:** Una urna de alma llena, 10 sellos nigrománticos potenciados de cada uno de los 4 generales del Corazón de Gielinor, un ónix pulsante...
+- [Exhalas.]
+- **Player:** ... Y una tarta de arándanos.
+- **Kili:** ¡Eso es todo!
+- **Kili:** Tienes mucho trabajo por delante, así que no necesitas perder el tiempo. Aquí está la lista.
+- ((Sin espacio en backpack:))
+  - **Kili:** Ah, parece que no tienes espacio para la lista de tareas de actualización de equipo. Vuelve cuando lo hagas.
+- ((Con espacio en backpack:))
+  - (receives=an equipment upgrade task list)
+  - Kili le ofrece una lista de tareas de actualización de equipos.
+  - **Player:** Entonces será mejor que empiece.
+
+##### Después de haber recibido el cristal nigromántico inerte.
+
+- [Menu]: Selecciona una opción
+  - [Choice]: Pregunta sobre tu tarea actual.
+    - ((Sin los elementos necesarios:))
+      - (Condition: Sólo la primera vez después de haber hablado con Kharen y Lupe sobre los arándanos:)
+        - **Player:** Regresé con información que puede ayudarme a encontrar algunos arándanos.
+        - **Kili:** ¿Ah?
+        - **Player:** Alguien sugirió que como el azul es lo opuesto al rojo, entonces simplemente tendría que encontrar una tierra de opuestos.
+        - **Player:** Estaban bromeando, pero también hablé con alguien más que mencionó una tierra donde las cosas funcionan al revés.
+        - **Player:** Algo sobre un gato malvado y pescado crudo...
+        - **Kili:** Oh, no.
+        - **Player:** ¿Sabes algo?
+        - **Kili:** Una plaga. Evil Bob.
+        - **Player:** ...Evil Bob?
+        - **Kili:** Reside en una tierra de opuestos, reinando sobre los humanos. Un lugar llamado ScapeRune.
+        - **Kili:** Más de una vez ha intentado encarcelarme allí.
+        - **Kili:** ¡Pero deberías estar bien! Simplemente haz lo que él dice.
+        - **Player:** ...
+        - **Player:** ¿Cómo puedo llegar?
+        - **Kili:** En eso no puedo ayudarte, ya que nunca fui a visitarme. Sin embargo, es un reino diferente a Gielinor, por lo que debería ser accesible a través de medios mágicos.
+        - **Player:** Gracias por la ayuda.
+      - ((Sin lista de tareas de actualización de equipo:))
+        - **Player:** Necesito recuperar mi lista de tareas de actualización de equipo.
+        - ((Sin espacio en backpack:))
+          - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
+          - (continue|90)
+        - ((Con espacio en backpack:))
+          - (receives=an equipment upgrade task list)
+          - Kili le entrega una nueva lista de tareas de actualización de equipos.
+          - (continue)
+      - ((Sin alma urna:))
+        - **Player:** Necesito recuperar la urna de mi alma.
+        - ((Sin espacio en backpack:))
+          - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
+          - (continue|90)
+        - ((Con espacio en backpack:))
+          - (receives=a soul urn)
+          - Kili te entrega una nueva urna para el alma.
+          - (continue)
+      - ((Sin cristal nigromántico inerte:))
+        - **Player:** Necesito recuperar mi cristal nigromántico inerte.
+        - ((Sin espacio en backpack:))
+          - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
+          - (continue)
+        - ((Con espacio en backpack:))
+          - (receives=an inert necromantic crystal)
+          - Kili te entrega un nuevo cristal nigromántico inerte.
+          - (continue)
+      - **Player:** ¿Qué debo hacer de nuevo?
+      - **Kili:** ¿No tienes esa lista que te di?
+      - **Player:** Bueno, sí, pero solo quería hablar con un amigo.
+      - **Kili:** Primero que nada, necesito que me traigas algunas almas en esa urna de almas que te acabo de dar.
+      - **Kili:** Se puede completar a través de 50 poderosos rituales de comunión o completando una tarea de Soul Reaper con nigromancia.
+      - **Kili:** A continuación, necesito 10 sellos nigrománticos potenciados del general del Corazón de Gielinor.
+      - **Kili:** En primer lugar, tendrás que derrotar al jefe para obtener los sellos sin poder. Asegúrate de llevar también 25 necroplasmas mayores.
+      - **Kili:** Luego, para potenciarlos, cada uno requiere un proceso diferente.
+      - **Kili:** Los sellos de Helwyr deben potenciarse abriendo un cofre de cristal.
+      - **Kili:** Los sellos de Gregorovic necesitarán que crees algunas runas miasmáticas.
+      - **Kili:** Los sellos de Vindicta necesitarán que uses Escudo óseo contra un ataque de fuego de dragón.
+      - **Kili:** Los sellos de las Furias Gemelas necesitarán que restaures algunos artefactos zamorakianos.
+      - **Kili:** En segundo lugar, necesito un ónix pulsante. Podrás crear esto combinando un ónix sin cortar y el cristal que te di.
+      - **Kili:** Sin embargo, primero es necesario cargar el cristal al derrotar a TzTok-Jad en la cueva de lucha de TzHaar.
+      - **Kili:** Y por último, pero no menos importante, quiero una tarta de arándanos. Algunos habitantes de la ciudad pueden ayudarte a resolverlo.
+      - **Player:** Volveré a ello entonces.
+    - ((Con los elementos necesarios:))
+      - **Player:** Ok, finalmente logré reunir todas las cosas que necesitabas.
+      - **Kili:** Entonces, ¿conseguiste encontrar un arándano?
+      - **Player:** Yo mismo apenas podía creerlo, pero sí. Logré encontrar un arándano.
+      - [Kili toma el ónix pulsante, los sellos nigrománticos, el pastel de arándanos y la urna del alma.]
+      - (removes=the blueberry pie, equipment upgrade task list, necromantic seals, pulsating onyx, and soul urn)
+      - **Player:** ¿Para qué necesitabas esta abundancia de artículos?
+      - **Kili:** Algo muy emocionante.
+      - **Player:** ¿Ah?
+      - **Kili:** Eso no puedo contarte todavía.
+      - **Player:** ¿En serio? Hice todo ese esfuerzo, al menos podrías darme una migaja de conocimiento.
+      - **Kili:** Eso es cierto...
+      - **Kili:** Supongo que podré decírtelo después de que hayas aprendido todas las actualizaciones.
+      - **Player:** Bien.
+      - **Player:** ¿Podemos comer el pastel ahora?
+      - **Kili:** ¿Nosotros?
+      - **Player:** Nunca he probado un arándano. Ni siquiera sabía que existían hasta esta tarea.
+      - **Kili:** Muy bien, supongo que esta vez podemos compartir el pastel.
+      - [Kili muerde la mitad del pastel y deja la mitad restante para ti.]
+      - [Muerdes la otra mitad del pastel, dejando nada más que migajas.]
+      - **Kili:** ¿Pensamientos?
+      - **Player:** Mmm. ¡Eso estuvo bastante bien! Un toque de acidez, combinado con un matiz único de bondad azucarada.
+      - **Kili:** Ni yo mismo podría haberlo dicho mejor.
+      - **Kili:** ¡Ahora! Vayamos al taller para poder enseñarte la actualización.
+      - (Action: La pantalla se desvanece.)
+      - [Kili imbuye su forja con la energía de la urna del alma y explica el proceso de actualización al nivel 90 con gran profundidad.]
+      - [Una fragancia novedosa llena tu nariz. Sólo puedes asumir que es arándano.]
+      - **Kili:** ...Asegúrate de hidratarte antes de iniciar el proceso, para no desmayarte...
+      - [Toma notas, asegurándote de no olvidar nada.]
+      - (Action: La pantalla se desvanece.)
+      - ((Si esta no fuera la última tarea:))
+        - **Kili:** ...¡Y listo!
+        - **Kili:** Aún no te he enseñado todo lo que hay que saber, así que vuelve cuando quieras aprender más.
+        - **Player:** Lo haré.
+        - ¡Felicitaciones! Has completado: 'Conocimiento VII de Kili': aprende cómo actualizar tu equipo Death Skull y Deathwarden al nivel 90 de Kili.
+      - ((Si esta fuera la última tarea:))
+        - **Kili:** Mmmm..
+        - **Kili:** Nivel 70... tanque... potencia... Nivel 80... Nivel 90....
+        - **Kili:** ¡Y con eso, creo que te he enseñado todo lo que necesitas saber!
+        - **Player:** ¡El alumno se convierte en el maestro!
+        - **Kili:** Fuiste un estudiante maravilloso, Player. ¡Nos vemos por ahí!
+        - **Player:** Espera un minuto.
+        - **Kili:** ¿Sí?
+        - **Player:** ¿Qué terminaste haciendo exactamente con todos los artículos diversos que recopilé minuciosamente para ti?
+        - **Player:** ¿El residuo, las aletas, la quitina, los fragmentos?
+        - **Kili:** Ah. ¿Pero no te lo dije en ese momento?
+        - **Player:** ¿Realmente esperabas que creyera las cosas que me decías? ¿Cosas como 'sólo los Imcando pueden conocer algún uso ultrasecreto de horribles pieles de topo'?
+        - **Kili:** ...
+        - **Kili:** Me tienes.
+        - **Kili:** Sólo quería ver hasta dónde llegarías para aprender las actualizaciones, de verdad.
+        - **Kili:** ¡Resulta que está bastante lejos!
+        - **Kili:** Matando mogres innecesariamente... Ankou molesto... ¡Incluso fuiste y derrotaste a the Ambassador!
+        - **Player:** ...
+        - **Player:** Después de todos esos pasteles que reuní para ti, y así es como me pagaste.
+        - **Kili:** Los pasteles fueron muy apreciados.
+        - **Player:** Bueno, al menos ahora puedo actualizar completamente mi equipo. Gracias, supongo.
+        - **Kili:** ¡En cualquier momento!
+        - **Kili:** No voy a ir a ningún lado, así que ya sabes dónde encontrarme si necesitas algo.
+        - **Player:** ¡Nos vemos!
+        - ¡Felicidades! Has completado: 'Conocimiento VII de Kili': aprende cómo actualizar tu equipo Death Skull y Deathwarden al nivel 90 de Kili.
+  - [Choice]: Cancela tu tarea actual.
+    - **Kili:** ¿Está seguro de que desea dejar de trabajar en su tarea de actualización actual?
+    - [Menu]: Selecciona una opción
+      - [Choice]: Sí, quiero dejar de trabajar en mi tarea de actualización actual.
+        - ((Si tiene una lista de tareas de actualización de equipos en backpack:))
+          - (removes=the equipment upgrade task list)
+          - (continue)
+        - **Kili:** No hay problema. Puede volver en cualquier momento para trabajar en una nueva tarea.
+      - [Choice]: No, quiero seguir trabajando en mi tarea de actualización actual.
+        - **Kili:** Genial. Ya sabes dónde encontrarme si necesitas ayuda.
+        - (initial)
+
+##### Poder
+
+
+##### Antes de haber seleccionado la tarea
+
+- **Kili:** Entonces, ahora estamos en el nivel 90, servoarmadura.
+- **Kili:** Esta vez no necesitarás llenar ninguna urna de almas para mí.
+- **Kili:** En cambio, necesito algunos elementos que requerirán algunas tareas desafiantes.
+- **Player:** Estoy dispuesto a cualquier cosa.
+- **Kili:** ¡Ese es el espíritu!
+- **Kili:** Entonces, para empezar, necesito un trozo de tela con mayor alma, que gotea veneno.
+- **Kili:** Usar la tela sobre el cadáver de Araxxi debería ser suficiente.
+- **Kili:** Lo siguiente que necesito es un fragmento de ánima. Deberías poder obtener uno de estos al derrotar a Vorago, Telos o Solak con nigromancia.
+- **Player:** Pan comido.
+- **Kili:** ¿En serio? Bueno, todavía necesito una cosa más...
+- **Player:** ¿Un pastel especial infundido con el poder de los dioses, que solo puedo obtener derrotando a Zamorak?
+- **Kili:** ¡Ojalá!
+- **Kili:** Pero no. Lo último que necesito es un poco de necroplasma ultimo, que podrás obtener al derrotar a the Ambassador con nigromancia.
+- **Player:** Espero que esta actualización valga la pena.
+- **Kili:** Quizás. Antes de irte, aquí tienes la lista.
+- ((Sin espacio en backpack:))
+  - **Kili:** Ah, parece que no tienes espacio para la lista de tareas de actualización de equipo. Vuelve cuando lo hagas.
+- ((Con espacio en backpack:))
+  - (receives=an equipment upgrade task list)
+  - Kili le ofrece una lista de tareas de actualización de equipos.
+  - **Player:** Entonces iré y empezaré.
+
+##### Después de haber seleccionado la tarea
+
+- [Menu]: Selecciona una opción
+  - [Choice]: Pregunta sobre tu tarea actual.
+    - ((No contar con todos los elementos necesarios:))
+      - ((Si perdió la lista de tareas de actualización de su equipo:))
+        - **Player:** Necesito recuperar mi lista de tareas de actualización de equipo.
+        - ((Sin espacio en backpack:))
+          - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
+          - (continue)
+        - ((Con espacio en backpack:))
+          - (receives=an equipment upgrade task list)
+          - [Kili le entrega una nueva lista de tareas de actualización de equipos.]
+          - (continue)
+      - **Player:** ¿Qué debo hacer de nuevo?
+      - **Kili:** ¿No tienes esa lista que te di?
+      - **Player:** Bueno, sí, pero extrañaba tus ojos deslumbrantes y tu cabello resplandeciente.
+      - **Player:** O, supongo que brillando todo.
+      - **Kili:** ...
+      - **Kili:** Lo tomaré como un cumplido.
+      - **Kili:** Entonces, lo primero que necesito es una tela con mayor alma, goteando veneno.
+      - **Kili:** Usar la tela sobre el cadáver de Araxxi debería funcionar.
+      - **Kili:** Lo segundo que necesito es un fragmento de ánima. Derrotar a Vorago, Telos o Solak con nigromancia debería dar como resultado uno de estos.
+      - **Kili:** La tercera y última cosa que necesito es un necroplasma definitivo. Podrás conseguirlo derrotando a the Ambassador con nigromancia.
+      - **Player:** ¡Muy bien!
+    - ((Contando con todos los elementos necesarios:))
+      - **Player:** ¡Tengo la tela venenosa, el fragmento de ánima y el último necroplasma para ti!
+      - **Kili:** Buen trabajo.
+      - [Kili toma la venenosa tela con alma mayor, un fragmento de ánima y el último necroplasma.]
+      - (removes=the equipment upgrade task list, fragment of anima, ulthven necroplasm, and venomous greater ensouled cloth)
+      - **Player:** ¿Qué vas a hacer con ellos?
+      - **Kili:** Lo siento, ¿qué fue eso?
+      - **Player:** Te pregunté qué vas a hacer con-
+      - **Kili:** Player, creo que estás rompiendo.
+      - **Player:** ¿Qué? Estoy justo a tu lado.
+      - **Kili:** Quizás su amuleto de habla fantasmal dejó de funcionar.
+      - **Player:** ¡Ni siquiera necesito eso en el inframundo!
+      - **Kili:** Tal vez se hayan desvanecido del inframundo, porque no están muertos.
+      - **Player:** No, todavía estoy completamente aquí.
+      - **Kili:** Bueno, fue un placer conocerlos.
+      - **Player:** ¡Oye! ¡Todavía estoy aquí! ¿Podemos eliminar la actualización?
+      - **Kili:** ¡Ah, Player, ahí estás! Gran sugerencia, vamos a enseñarte la actualización.
+      - (Action: La pantalla se desvanece.)
+      - [Kili explica con gran detalle el proceso de actualización de nivel 90 para servoarmadura.]
+      - **Kili:** ...Asegúrate de usar botas con punta de acero para no quemarte los dedos...
+      - [Toma notas, asegurándote de no olvidar nada.]
+      - (Action: La pantalla se desvanece.)
+      - ((Si esta no fuera la última tarea:))
+        - **Kili:** ... ¡Y eso es todo!
+        - **Kili:** Aún no te he enseñado todo lo que hay que saber, así que vuelve cuando quieras aprender más.
+        - **Player:** ¡Lo haré!
+        - ¡Felicitaciones! Has completado: 'Conocimiento VII de Kili (poder)': aprende cómo actualizar tu equipo Death Skull y Deathdealer al nivel 90 de Kili.
+      - ((Si esta fuera la última tarea:))
+        - **Kili:** Mmmm..
+        - **Kili:** Nivel 70... tanque... potencia... Nivel 80... Nivel 90....
+        - **Kili:** ¡Y con eso, creo que te he enseñado todo lo que necesitas saber!
+        - **Player:** ¡El alumno se convierte en el maestro!
+        - **Kili:** Fuiste un estudiante maravilloso, Player. ¡Nos vemos por ahí!
+        - **Player:** Espera un minuto.
+        - **Kili:** ¿Sí?
+        - **Player:** ¿Qué terminaste haciendo exactamente con todos los artículos diversos que recopilé minuciosamente para ti?
+        - **Player:** ¿El residuo, las aletas, la quitina, los fragmentos?
+        - **Kili:** Ah. ¿Pero no te lo dije en ese momento?
+        - **Player:** ¿Realmente esperabas que creyera las cosas que me decías? ¿Cosas como 'sólo los Imcando pueden conocer algún uso ultrasecreto de horribles pieles de topo'?
+        - **Kili:** ...
+        - **Kili:** Me tienes.
+        - **Kili:** Sólo quería ver hasta dónde llegarías para aprender las actualizaciones, de verdad.
+        - **Kili:** ¡Resulta que está bastante lejos!
+        - **Kili:** Matando mogres innecesariamente... Ankou molesto... ¡Incluso fuiste y derrotaste a the Ambassador!
+        - **Player:** ...
+        - **Player:** Después de todos esos pasteles que reuní para ti, y así es como me pagaste.
+        - **Kili:** Los pasteles fueron muy apreciados.
+        - **Player:** Bueno, al menos ahora puedo actualizar completamente mi equipo. Gracias, supongo.
+        - **Kili:** ¡En cualquier momento!
+        - **Kili:** No voy a ir a ningún lado, así que ya sabes dónde encontrarme si necesitas algo.
+        - **Player:** ¡Nos vemos!
+        - ¡Felicitaciones! Has completado: 'Conocimiento VII de Kili (poder)': aprende cómo actualizar tu equipo Death Skull y Deathdealer al nivel 90 de Kili.
+        - ¡Felicitaciones! Ha completado: 'El estudiante se convierte en maestro': aprenda todas las tareas de actualización de equipos de Kili.
+  - [Choice]: Cancela tu tarea actual.
+    - **Kili:** ¿Está seguro de que desea dejar de trabajar en su tarea de actualización actual?
+    - [Menu]: Selecciona una opción
+      - [Choice]: Sí, quiero dejar de trabajar en mi tarea de actualización actual.
+        - ((Si tiene una lista de tareas de actualización de equipos en backpack:))
+          - (removes=the equipment upgrade task list)
+          - (continue)
+        - **Kili:** No hay problema. Puede volver en cualquier momento para trabajar en una nueva tarea.
+      - [Choice]: No, quiero seguir trabajando en mi tarea de actualización actual.
+        - **Kili:** Genial. Ya sabes dónde encontrarme si necesitas ayuda.
+        - (initial)
+
+#### Ver tareas difíciles
+
+- (opens=Underworld Set Tasks - Hard)
+
+#### Descripción general del conjunto de tareas
+
+- (opens=Underworld achievements)

@@ -1,0 +1,204 @@
+# Jungle forester
+
+- **Original Wiki Page**: [Transcript:Jungle forester](https://runescape.wiki/w/Transcript%3AJungle%20forester)
+- **Letter**: `J`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+{{Incomplete|missing dialogue to claim elite task rewards}}
+
+### North of Kharazi Jungle
+
+- **Jungle forester:** Hola amigo. ¡Estás muy lejos de la civilización!
+- [Menu]: Selecciona una opción
+  - [Choice]: ¿Cómo llego a la jungla Kharazi?
+    - **Player:** ¿Cómo entro a la jungla Kharazi?
+    - **Jungle forester:** Bueno, aún no lo he logrado, pero escuché que alguien logró encontrar una manera de entrar. Pero apenas lograron escapar de la jungla con vida.
+    - **Jungle forester:** Aparentemente tenía la misión de mapear el área. ¿Qué tan tonto es eso?
+    - [Menu]: Selecciona una opción
+      - [Choice]: cond=During and after Legends' Quest|Bueno, de hecho planeo mapear esa área yo mismo.
+        - **Player:** Bueno, de hecho planeo mapear esa área yo mismo.
+        - **Jungle forester:** --El guardabosques parece muy interesado-- <br>Oh, bueno, eso suena bastante bien en realidad... <br>Perdón si soné grosero antes, simplemente no me pareció una buena idea.
+        - **Jungle forester:** Supongo que no me gustaría hacerlo yo mismo. Pero un mapa de esa zona sería ciertamente una gran tarea. Y sin duda sería muy útil... -- El guardabosques se ve muy pensativo --
+        - **Jungle forester:** Oye, si logras completarlo, ¡déjame echarle un vistazo! Bueno, mucha suerte con esto, estoy seguro de que lo necesitarás.
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Tienes algún otro consejo sobre la jungla Kharazi?
+            - **Player:** ¿Tienes algún otro consejo sobre la jungla Kharazi?
+            - **Jungle forester:** En realidad no, pero diría que ten cuidado, es un lugar peligroso. Y buena suerte.
+          - [Choice]: ¿Has visto algún nativo en la selva?
+            - (below|seen-natives)
+          - [Choice]: Ok gracias.
+            - (below|ok-thanks)
+      - [Choice]: cond=During and after Legends' Quest|¿Me estás llamando tonto?
+        - **Player:** ¿Me estás llamando tonto?
+        - **Jungle forester:** No, claro que no... Lo siento, tengo que seguir mi camino...
+      - [Choice]: cond=Before Legends' Quest|¿Alguien logró entrar en la jungla Kharazi?
+        - **Player:** ¿Entonces alguien logró entrar a la jungla?
+        - **Jungle forester:** Sí, dijo que era de algún lugar... cerca de la Torre del Hechicero. ¿Mencionó algo sobre una leyenda? Aunque no significó nada para mí.
+          - [Menu]: Selecciona una opción
+            - [Choice]: ¿Cómo entro a la jungla?
+              - (above|how-kharazi-jungle)
+            - [Choice]: ¿Qué haces aquí?
+              - (below|what-do-you-do-here)
+            - [Choice]: Ok gracias.
+              - (below|ok-thanks)
+      - [Choice]: ¿Qué haces aquí?
+        - (below|what-do-you-do-here)
+      - [Choice]: ¿Has visto algún nativo en la selva?
+        - (below|seen-natives)
+      - [Choice]: Ok gracias.
+        - **Player:** Ok, gracias.
+        - **Jungle forester:** ¡De nada! Nos vemos por ahí...
+  - [Choice]: cond=If the player has lost the bull roarer from Legends' Quest|¿Puedo conseguir otro bullroarer{{Sic please?}}?
+    - **Player:** ¿Puedo conseguir otro bullroarer{{Sic}}, por favor?
+    - **Jungle forester:** Mmmm, ¡lo que tenemos aquí es una oportunidad para comerciar! Tengo un poco de hambre, así que ¿por qué no me traes un delicioso wrap oomlie cocido y hacemos un trato?
+    - (Condition: Si el player tiene un wrap oomlie cocido:)
+      - **Player:** ¡Tengo uno aquí!
+      - **Jungle forester:** ¡Genial! ¡Dámelo entonces!
+      - [Cambias el pájaro Oomlie cocido por el rugido{{Sic].}}
+      - (removes=cooked oomlie wrap) (receives=Bull roarer)
+    - (Condition: Si el player no tiene wrap oomlie cocido:)
+      - [Menu]: Selecciona una opción
+        - [Choice]: ¿Cómo puedo conseguir uno de esos?
+          - **Player:** ¿Cómo puedo conseguir uno de esos?
+          - **Jungle forester:** Los pájaros Oomlie son nativos de la jungla Kharazi, ¡pero no serán capturados sin luchar! Una vez que se resuelva el problema, simplemente cocine el ave en una hoja de palma al fuego. ¡Dejaré a tu imaginación cómo conseguir la hoja de palma!
+          - (previous|bull-roarer-options)
+        - [Choice]: ¿No aceptarás algo más a cambio?
+          - **Player:** ¿No aceptarás algo más a cambio?
+          - **Jungle forester:** Bueno, dudo que tengas algo más que valga la pena para mí y los wraps de aves de Oomlie son bastante sabrosos. Tendría que pedir perdón pero no, esa es mi oferta final.
+          - (previous|bull-roarer-options)
+        - [Choice]: Ok, lo pensaré.
+          - **Player:** Ok, lo pensaré.
+          - **Jungle forester:** ¡Vale! Sabes dónde estoy si me necesitas.
+  - [Choice]: ¿Qué haces aquí?
+    - **Player:** ¿Qué haces aquí?
+    - **Jungle forester:** Soy forestal y me especializo en maderas exóticas. No he logrado penetrar muy lejos en la selva de Kharazi, pero he encontrado algunos ejemplares de árboles interesantes.
+    - **Jungle forester:** Si por casualidad te adentras en la jungla Kharazi, ven y avísame. Me encantaría poder entrar y salir de forma segura.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Quién eres?
+        - (below|who-are-you)
+      - [Choice]: ¿Cómo llego a la jungla Kharazi?
+        - (above|how-kharazi-jungle)
+      - [Choice]: ¿Has visto algún nativo en la selva?
+        - (below|seen-natives)
+      - [Choice]: Bueno, gracias.
+        - (above|ok-thanks)
+  - [Choice]: cond=Before Legends' Quest|¿Quién eres?
+    - **Player:** ¿Quién eres?
+    - **Jungle forester:** Soy un jungle forester. Los nombres significan poco en esta parte del mundo.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Qué haces aquí?
+        - (above|what-do-you-do-here)
+      - [Choice]: ¿Cómo llego a la jungla Kharazi?
+        - (above|how-kharazi-jungle)
+  - [Choice]: cond=During and after Legends' Quest|¿Has visto algún nativo en la selva?
+    - **Player:** ¿Has visto algún nativo en la jungla?
+    - **Jungle forester:** Bueno, he escuchado algunos sonidos graciosos y creo que he visto a un nativo... pero no estoy seguro. Supongo que generalmente no les gusta que los vean.
+    - **Jungle forester:** Pero encontré un artículo que podría interesarte. Lo mueves sobre tu cabeza y hace un sonido extraño, parece atraer su atención.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Puedo tener el artículo por favor?
+        - **Player:** ¿Me pueden dar el artículo, por favor?
+        - **Jungle forester:** Bueno, desearía poder dártelo. Sin embargo, le he cogido cariño. Y puede que me ayude en caso de que me pierda en la jungla.
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Cambiarías algo por ello?
+            - **Player:** ¿Cambiarías algo por ello?
+            - **Jungle forester:** Bueno, si tienes algo interesante, déjame echarle un vistazo y te ofreceré algo a cambio. Vale, tengo que irme ahora, pero ha sido un placer hablar contigo.
+          - [Choice]: Ok gracias.
+            - (above|ok-thanks)
+      - [Choice]: ¿Cómo entro a la jungla?
+        - (above|how-kharazi-jungle)
+      - [Choice]: Bueno, gracias.
+        - (above|ok-thanks)
+  - [Choice]: Acerca del sistema de tareas...
+    - (Condition: Si el player ha completado los logros difíciles de Karamja, pero aún no ha reclamado las recompensas:)
+      - **Player:** He realizado todas las tareas difíciles del conjunto Karamja.
+      - **Jungle forester:** Hmm, efectivamente. ¡Supongo que querrás una recompensa!
+      - **Player:** Sí, por favor.
+      - (Condition: Si el player no tiene guantes Karamja 2 en backpack:)
+        - **Jungle forester:** ¿Cómo puedo encantar tus guantes Karamja con el poder del bosque si no los tienes contigo? Tráeme los guantes Karamja que se obtienen al completar las tareas medianas.
+        - (continue|task-system)
+      - (Condition: Si el player tiene guantes Karamja 2 en backpack:)
+        - El guardabosques toma los guantes Karamja y parece entrar en trance. Se oye un susurro en el bosque; los guantes parecen brillar y luego adquieren un tono verde más oscuro.
+        - (removes=Karamja gloves 2) (receives=Karamja gloves 3 and an antique lamp)
+        - **Jungle forester:** La bendición que he puesto en estos guantes Karamja es un símbolo de la exploración exhaustiva de la isla que habéis realizado. Además de los beneficios del par anterior, puedes ir a un lugar debajo de Shilo.
+        - **Jungle forester:** Village en cualquier momento y entra gratis a Brimhaven Dungeon. Oh, también hay un pequeño extra por todo tu arduo trabajo.
+        - **Player:** ¡Vaya, gracias!
+        - **Jungle forester:** Si los pierdes, vuelve conmigo para reclamarlos.
+        - (continue|task-system)
+    - (Condition: Si el player ha completado los logros de élite de Karamja, pero aún no ha reclamado las recompensas:)
+      - {{transcript missing}}
+      - (continue|task-system)
+    - (Condition: Si el player ha perdido sus guantes Karamja 3:)
+      - **Jungle forester:** Ahh... Te recuerdo, ¿no bendije tus guantes Karamja?
+      - **Player:** Sí, pero los perdí.
+      - **Jungle forester:** Lo mismo pensé. Toma, toma otro par.
+      - [Jungle forester te entrega otro par de guantes.]
+      - (receives=Karamja gloves 3)
+      - (continue|task-system)
+    - (Condition: Si el player ha perdido sus guantes Karamja 4:)
+      - **Jungle forester:** Ahh... Te recuerdo, ¿no bendije tus guantes Karamja?
+      - **Player:** Sí, pero los perdí.
+      - **Jungle forester:** Lo mismo pensé. Toma, toma otro par.
+      - (receives=Karamja gloves 4)
+      - [Jungle forester te entrega otro par de guantes.]
+      - (continue|task-system)
+    - [Menu]: Elige una opción:{{anchor|task-system}}
+      - [Choice]: Cuéntame sobre el sistema de logros.{{anchor|achievements}}
+        - **Jungle forester:** Muy bien: el Sistema de Logros es una colección de hazañas que quizás desees completar mientras viajas por el mundo.
+        - **Jungle forester:** Puedes ganar recompensas especiales por completar ciertos logros; como mínimo, cada uno vale una recompensa en efectivo de Explorer Jack en Lumbridge.
+        - **Jungle forester:** Algunos también ofrecen elementos que ayudarán a completar otros logros y muchos cuentan como progreso hacia el conjunto del área en la que se encuentran.
+        - [Menu]: Elige una opción:
+          - [Choice]: Cuéntame sobre la recompensa establecida para esta localidad.
+            - **Player:** Cuéntame sobre la recompensa establecida para esta área.
+            - **Jungle forester:** Para completar las tareas del conjunto Karamja, se te entregará un par de guantes.
+            - **Jungle forester:** Completar cada nivel de dificultad del conjunto permitirá mejorar tus guantes.
+            - **Jungle forester:** Cuando se le presenten sus recompensas, se le informará sobre sus usos.
+            - También puedes ver qué recompensas proporciona un elemento determinado al pasar el cursor sobre el ícono de Recompensas de su Logro de exploración establecido en la interfaz de Logros.
+            - (previous)
+          - [Choice]: ¿Cómo reclamo estas recompensas?
+            - **Player:** ¿Cómo reclamo las recompensas?
+            - **Jungle forester:** Debes completar todas las tareas del conjunto de una dificultad particular y luego podrás reclamar tu recompensa.
+            - **Jungle forester:** Algunas de las tareas del conjunto Karamja son simples, algunas requerirán cierto skill levels y otras pueden requerir que se inicien o completen misiones.
+            - **Jungle forester:** Para reclamar las recompensas del conjunto Karamja, habla con Jackie the Fruit en el Agility Arena de Brimhaven, con Kaleb Paramaya en la posada Shilo Village o conmigo.
+            - (previous)
+          - [Choice]: Lo siento, me estaba yendo.
+            - (end)
+      - [Choice]: ¿Puedo comprar un repuesto de la recompensa?
+        - [Menu]: Elige una opción:
+          - [Choice]: guantes Karamja 1
+            - **Jungle forester:** ¿Guantes Karamja 1? Sí, pero me temo que te costaría 1.500 coins.
+            - [Menu]: ¿Comprar otro por 1.500 coins?
+              - [Choice]: si
+                - (receives=Karamja gloves 1) (removes=1,500 coins)
+                - [Te entregan otros guantes Karamja 1.]
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: guantes Karamja 2
+            - **Jungle forester:** ¿Guantes Karamja 2? Sí, pero me temo que te costaría 2500 coins.
+            - [Menu]: ¿Comprar otro por 2500 coins?
+              - [Choice]: si
+                - (receives=Karamja gloves 2) (removes=2,500 coins)
+                - [Te entregan otros guantes Karamja 2.]
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Guantes Karamja 3
+            - **Jungle forester:** ¿Guantes Karamja 3? Sí, pero me temo que te costaría 7.500 coins.
+            - [Menu]: ¿Comprar otro por 7.500 coins?
+              - [Choice]: si
+                - (receives=Karamja gloves 3) (removes=7,500 coins)
+                - [Te entregan otros guantes Karamja 3.]
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Guantes Karamja 4
+            - **Jungle forester:** ¿Guantes Karamja 4? Sí, pero me temo que te costaría 15.000 coins.
+            - [Menu]: ¿Comprar otro por 15.000 coins?
+              - [Choice]: si
+                - (receives=Karamja gloves 4) (removes=15,000 coins)
+                - [Te entregan otros guantes Karamja 4.]
+              - [Choice]: No
+                - **Player:** No, gracias.
+      - [Choice]: Lo siento, me estaba yendo.
+        - (end)

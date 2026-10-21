@@ -1,0 +1,205 @@
+# The Keeper
+
+- **Original Wiki Page**: [Transcript:The Keeper](https://runescape.wiki/w/Transcript%3AThe%20Keeper)
+- **Letter**: `T`
+
+---
+
+## Dialogue Transcript
+
+
+### In the Orthen Oubliette
+
+
+#### Standard dialogue
+
+- **Player:** Where did Zaros go?
+- **The Keeper:** Your predecessor has damaged the oubliette and released Raksha.
+- **Player:** My predecessor?
+- **The Keeper:** The purple deity. He told me of your coming.
+- **The Keeper:** He told me of your strange new species.
+- **The Keeper:** He told me you can survive in this environment.
+- **The Keeper:** You must enter the inner chamber and stop Raksha.
+- [Menu]: Select an Option
+  - [Choice]: I'll get right on that.
+    - **The Keeper:** Do you need anything else?
+    - (continue|Learning about Raksha)
+  - [Choice]: Wait, who are you?
+    - **Player:** Wait, who are you?
+    - **The Keeper:** I am the Keeper, the caretaker of the oubliette.
+    - **The Keeper:** I maintain the apparatus that sustains and imprisons Raksha, the prisoner of this place.
+    - **The Keeper:** I have maintained this vigil for many centuries, and the seals have never been broken until now.
+    - **The Keeper:** Do you need anything else?
+    - (continue|Learning about Raksha)
+- [Menu]: Select an Option
+  - [Choice]: Ask about the creature.
+    - **The Keeper:** What about the creature?
+    - [Menu]: Select an Option
+      - [Choice]: What is it?
+        - **Player:** What is it?
+        - **The Keeper:** We call it Raksha. The One That Speaks.
+        - **Player:** But what is it? Zaros called it a 'shadow colossus'.
+        - **The Keeper:** I do not know this term. Raksha is a unique being.
+        - **The Keeper:** There were other dinosaurs, some truly titanic beings, but nothing like this.
+        - **The Keeper:** Kerapac experimented on it. It had strange powers, which he cut from its strange flesh, but he could not remove its fundamental aspect.
+        - **The Keeper:** Magic of a kind we had never seen before courses throughout its body.
+        - **The Keeper:** It must be fed with that energy to remain alive - it does not generate it.
+        - (previous|keeper-ask-creature)
+      - [Choice]: How was it captured?
+        - **Player:** How was it captured?
+        - **The Keeper:** We hunted it for weeks across the mainland.
+        - **The Keeper:** When we cornered it, it poisoned me.
+        - **The Keeper:** Transporting it here was a complex matter but the Kindra demanded it.
+        - **The Keeper:** I am proud to say that there were no other fatalities.
+        - (previous|keeper-ask-creature)
+      - [Choice]: Why did it stir now?
+        - **Player:** Why did it stir now?
+        - **The Keeper:** Kerapac somehow created a source of the energy it needs to survive.
+        - **The Keeper:** After the curse, the supply of energy ceased.
+        - **The Keeper:** We remained awake, the beast and I, for many more years, but eventually Raksha slipped into a coma, and I slumbered with it.
+        - **The Keeper:** I do not know how long it has been since then.
+        - **The Keeper:** Recently the supply resumed once more, drawing both of us into wakefulness, until it once more ceased.
+        - **The Keeper:** Raksha would have slept once more if not for the purple deity's interference.
+        - (previous|keeper-ask-creature)
+      - [Choice]: [Previous options]
+        - (previous2|Learning about Raksha)
+  - [Choice]: Ask about this place.
+    - **The Keeper:** What about this place?
+    - [Menu]: Select an Option
+      - [Choice]: What is this place?
+        - **Player:** What is this place?
+        - **The Keeper:** We are in the antechamber of the oubliette.
+        - **The Keeper:** The oubliette was designed and built solely to contain Raksha.
+        - **The Keeper:** Apparatus channels energy here to sustain the creature.
+        - **The Keeper:** I was embedded here as its keeper, overseeing it.
+        - (previous)
+      - [Choice]: What experiments were done here?
+        - **Player:** What experiments were done here?
+        - **The Keeper:** It is not my place to understand the details.
+        - **The Keeper:** Syrtes, Aughra and Dactyl alike visited this place for their work.
+        - **The Keeper:** When agitated, Raksha broadcasts hateful visions.
+        - **The Keeper:** I remember one priest, Kranon, was quite touched by the experience.
+        - **The Keeper:** He claimed that it had religious significance to him, though I cannot imagine what. I wonder what became of him.
+        - (Condition: If the player has completed Curse of the Black Stone:)
+          - **Player:** He met a bad end.
+          - **The Keeper:** Unsurprising.
+          - (previous)
+        - (Condition: If the player has not completed Curse of the Black Stone:)
+          - (previous)
+      - [Choice]: [Previous options]
+        - (previous2|Learning about Raksha)
+  - [Choice]: Ask about ancient history.
+    - **The Keeper:** Ask what you must.
+    - [Menu]: Select an Option
+      - [Choice]: Do you know anything about the 'Codex' Zaros mentioned?
+        - **Player:** Do you know anything about the 'Codex' Zaros mentioned?
+        - **The Keeper:** I do not. He showed me the same visions he showed you.
+        - **The Keeper:** We never learned the source of Raksha's powers.
+        - **The Keeper:** Perhaps this Codex is linked to the same powers.
+        - **Player:** I know where it is.
+        - **The Keeper:** Really?
+        - **Player:** We built the Archaeology Guild around it.
+        - **The Keeper:** That seems unwise.
+        - (previous)
+      - [Choice]: Can you tell me anything about your people?
+        - **Player:** Can you tell me anything about your people?
+        - **The Keeper:** My people ruled this world, until the curse befell us.
+        - **The Keeper:** I was interred here long beforehand, but I still felt it.
+        - **The Keeper:** After that moment there was no interest in the oubliette or its prisoner. I have had no visitors.
+        - **The Keeper:** Now the curse is gone, but my own vigil remains.
+        - **The Keeper:** The purple deity told me that my civilisation is long gone.
+        - **Player:** Does that trouble you?
+        - **The Keeper:** ...
+        - **The Keeper:** It makes no difference to me as long as Raksha remains contained.
+        - (previous)
+      - [Choice]: Can you tell me anything about the city of Orthen?
+        - **Player:** Can you tell me anything about the city of Orthen?
+        - **The Keeper:** This is our first city on this world.
+        - **The Keeper:** There were other colonies but this was the capital.
+        - **Player:** There are archaeologists outside studying the ruins.
+        - **Player:** They would be fascinated to talk to you.
+        - **The Keeper:** Are they like you? Are they able to survive in here?
+        - **Player:** No. Only I can do that. I'm kind of a special case.
+        - **The Keeper:** Unfortunate.
+        - (previous)
+      - [Choice]: What was your world like?
+        - **Player:** What was your world like?
+        - **The Keeper:** You have seen it yourself, have you not?
+        - **Player:** Well, this island is experiencing a... um... let's say time, uh, issue.
+        - **Player:** It's covered in jungle, but the rest of the world isn't.
+        - **Player:** What did the mainland look like in your time?
+        - **The Keeper:** It was much like this island. Volcanoes, ferns, dinosaurs.
+        - **The Keeper:** A young and vibrant world, the air sweet and clean.
+        - (previous)
+      - [Choice]: [Previous options]
+        - (previous2|Learning about Raksha)
+  - [Choice]: Ask about someone.
+    - **The Keeper:** Who do you want to know about?
+    - [Menu]: Select an Option
+      - [Choice]: What did Zaros tell you?
+        - **Player:** What did Zaros tell you?
+        - **The Keeper:** Who?
+        - **Player:** The, uh, purple deity.
+        - **The Keeper:** He told me that I have been ripped from time.
+        - **The Keeper:** He told me many thousands of years have passed, but I have stood still.
+        - **The Keeper:** He told me the world is now under the control of lesser beings.
+        - **Player:** Do you know what he wanted?
+        - **The Keeper:** He has removed part of the apparatus of the oubliette.
+        - **The Keeper:** I instructed him not to but I could do nothing against a being of such potency.
+        - **The Keeper:** He seemed confident that you specifically would deal with the aftereffects.
+        - (previous)
+      - [Choice]: What can you tell me about yourself?
+        - **Player:** What can you tell me about yourself?
+        - **The Keeper:** Once I was a hunter. It was I who captured Raksha and brought him here.
+        - **The Keeper:** I was poisoned, but by Kerapac's machinations I was interred here.
+        - **The Keeper:** The same apparatus that sustains Raksha sustains me.
+        - **The Keeper:** We are linked, forever.
+        - (Condition: If the player has recovered Varanus's journals)
+          - **Player:** You're Varanus!
+          - **Player:** I recovered your journals from the Orthen ruins.
+          - **The Keeper:** Yes. That was my name.
+          - **Player:** But that's impossible. There's a huge sarcophagus with your name on it not far from here.
+          - **Player:** How are you alive?
+          - **The Keeper:** Someone needed to contain Raksha. It had to be me.
+          - **The Keeper:** Kerapac's methods can be extreme, but they were necessary.
+          - **The Keeper:** I would not let the creature I died to capture go free, and I would not let another languish in this prison.
+          - **The Keeper:** But the others would not have understood. They would have objected, maybe even damaged the oubliette.
+          - **The Keeper:** An empty tomb was my final camouflage.
+          - (previous)
+        - (Condition: If the player has not recovered Varanus's journals)
+          - (previous)
+      - [Choice]: [Previous options]
+        - (previous2|Learning about Raksha)
+  - [Choice]: Replay cutscene.
+    - (above|Raksha, the Shadow Colossus)
+
+#### Post-kill dialogue
+
+- **Player:** We did it!
+- **The Keeper:** Thank you.
+- **The Keeper:** Is the supply of energy likely to be restored?
+- **Player:** No. Kerapac's device was destroyed.
+- **The Keeper:** How?
+- **Player:** Dramatically.
+- **The Keeper:** Then Raksha will likely not stir again.
+- **The Keeper:** He and I will sink once more into slumber.
+- **The Keeper:** Do you need anything else?
+- (continuea|Learning about Raksha)
+
+### Inside Asuran Arsenal
+
+- **The Keeper:** Proceed no further. This facility is restricted.
+- [Menu]: Select an Option
+  - [Choice]: What is this place?
+    - **Player:** What is this place?
+    - **The Keeper:** Experimental weapons facility zero-zero-one.
+    - **Player:** Ah, of course.
+    - (previous)
+  - [Choice]: Why is it off limits?
+    - **Player:** Why can't I go any further?
+    - **The Keeper:** Only dragonkin are authorised for entry. You may not pass.
+    - **Player:** Good luck with that.
+    - (previous)
+  - [Choice]: Goodbye.
+    - **Player:** Goodbye.
+    - **The Keeper:** ...

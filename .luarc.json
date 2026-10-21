@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sumneko/vscode-lua/master/setting/schema.json",
+  "runtime.version": "Lua 5.4",
+  "runtime.path": [
+    "?.lua",
+    "?/init.lua",
+    "src/?.lua",
+    "src/?/init.lua",
+    "shared/?.lua",
+    "modules/?.lua"
+  ],
+  "workspace.library": [
+    "types",
+    "shared"
+  ],
+  "workspace.checkThirdParty": false,
+  "diagnostics.globals": [
+    "core",
+    "game",
+    "ui",
+    "id",
+    "Event",
+    "Player",
+    "PlayerList",
+    "NpcList",
+    "LocList",
+    "ObjStackList",
+    "Inventory",
+    "PersistentDB",
+    "prettyui",
+    "Plugin",
+    "PluginShutdown",
+    "log",
+    "print",
+    "ExecuteConsoleCommand",
+    "EntityType",
+    "GameState",
+    "SkillType",
+    "Vector2",
+    "Vector3",
+    "Vector4",
+    "Rect",
+    "Matrix",
+    "Quaternion"
+  ]
+}

@@ -1,0 +1,67 @@
+# Sagira
+
+- **Original Wiki Page**: [Transcript:Sagira](https://runescape.wiki/w/Transcript%3ASagira)
+- **Letter**: `S`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+- **Player:** Hola.
+- **Sagira:** Hola, ¿puedo ayudarte en algo?
+- **Player:** No eres de por aquí ¿verdad?
+- **Sagira:** ¿Por qué dices eso?
+- **Player:** Bueno, tu acento suena un poco gracioso y pareces tener un poco más de color que la mayoría de los enanos.
+- **Sagira:** Vivir bajo una montaña no es la mejor manera de broncearse. No, no soy de por aquí. Nací y trabajé la mayor parte de mi vida en el desierto.
+- **Sagira:** Sólo pensar en el lugar me da sed. ¿Ahora puedo ayudarte en algo?
+- **Player:** Entonces, ¿cómo funcionan estos pozos de ratas?
+- **Sagira:** Las fosas Keldagrim atienden a aquellos con una mayor variedad de gatos.
+- **Sagira:** Si tienes un gato grande y un par de coins, puedes desafiar a otra persona que también tenga un gato grande y algo de cambio.
+- **Player:** Eso suena bastante simple hasta ahora.
+- **Sagira:** Luego aceptas una apuesta. Se rumorea que algunos cazadores de ratas pueden hablar con sus propios gatos y darles tácticas para ayudarlos.
+- **Player:** Entonces, ¿cómo se gana el desafío?
+- **Sagira:** Estaba llegando a eso. Los gatos de ambos jugadores se colocan dentro del área vallada y quien mate primero a 9 ratas gana.
+  - **Player:** Eso suena vil y cruel.
+    - **Sagira:** Es un mundo cruel y los boxes no son una excepción.
+    - **Sagira:** A cada uno lo suyo digo.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** Suena un poco peligroso para mi gato.
+    - **Sagira:** Estoy de acuerdo. Se sabe que los gatos mueren en peleas.
+    - **Player:** Oh, qué terrible. ¿No hay nada que puedas hacer para salvar a tu gato?
+    - **Sagira:** Por supuesto que sí, puedes indicarle que tenga cuidado y se irá una vez que sienta que está en peligro.
+    - **Player:** Oh, eso suena muy sabio.
+    - **Sagira:** Eso depende de cómo valoras a tu gato.
+    - **Player:** Lo siento, no te sigo.
+    - **Sagira:** Bueno, si tu gato muere o se escapa, pierdes.
+    - **Sagira:** Entonces, cuanto más tiempo permanezca en la pelea, más posibilidades tendrás de ganar.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¡Vaya, eso suena divertido!
+    - **Sagira:** No sé nada de eso.
+    - **Sagira:** Una cosa que sé es que es una forma rápida de ganar y perder dinero.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¿Existe un límite de cuánto puedes apostar?
+    - **Sagira:** Hmmm... déjame ver. Si no me equivoco, actualmente puedes apostar hasta un máximo de [número] coins.
+    - **Player:** Suena como una cantidad tonta de dinero para apostar en una pelea de gatos.
+    - **Sagira:** Te sorprendería lo que algunas personas estarían dispuestas a apostar.
+    - **Sagira:** También hay una apuesta mínima de 100 coins.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¿Puedo desafiarte a ti y a tu gato?
+    - **Sagira:** No, ahora no, realmente no apostamos con forasteros.
+    - **Player:** Pero no soy un outsider, ¿no estoy ahora en boxes?
+    - **Sagira:** No lo sé, tal vez una vez que hayas hecho algo para ganarte mi confianza.
+    - **Player:** ¿Se puede comprar?
+    - **Sagira:** ¿Qué?
+    - **Player:** Tu confianza.
+    - **Sagira:** No. No agradamos a la gente común del pueblo, lo que nos lleva a desconfiar de ellos y de cualquier otra persona.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.

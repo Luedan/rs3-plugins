@@ -1,0 +1,169 @@
+# Chemist
+
+- **Original Wiki Page**: [Transcript:Chemist](https://runescape.wiki/w/Transcript%3AChemist)
+- **Letter**: `C`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### In west Rimmington
+
+
+#### En mundos gratuitos
+
+- **Chemist:** Es muy bueno que hayas venido hasta aquí, pero realmente no tengo tiempo para hablar en este momento. Tal vez si regresas más tarde al mundo de miembros podré ayudarte.
+
+#### En los mundos de los miembros
+
+- [Menu]: Elige una opción:
+  - [Choice]: Pregunta por el aceite para lámparas.
+    - **Player:** Hola, necesito combustible para una lámpara.
+    - **Chemist:** Hola, el combustible que necesitas es aceite para lámparas, ¿necesitas ayuda para hacerlo?
+    - [Menu]: Selecciona una opción
+      - [Choice]: Sí por favor.
+        - **Player:** Sí, por favor.
+        - **Chemist:** Es realmente bastante simple. Usas el alambique pequeño que hay aquí. Está todo configurado, así que no hay que jugar con los diales...
+        - **Chemist:** Simplemente coloque alquitrán de pantano común y luego use una linterna o lámpara para sacar el aceite.
+        - **Player:** Gracias.
+      - [Choice]: No gracias.
+        - **Player:** No, gracias.
+  - [Choice]: Pregunte acerca de los frascos implícitos.
+    - (Condition: Sin aceite de anchoa en backpack:)
+      - **Player:** Tengo una pregunta un poco extraña.
+      - **Chemist:** Muy bien, cuanto más raro, mejor. Me gustan las rarezas.
+      - **Player:** ¿Sabes cómo puedo destilar una mezcla de aceite de anchoa y flores para que forme una capa en el interior de un frasco de mariposas?
+      - **Chemist:** Esa es una pregunta extraña. Te felicito por ello. ¿Por qué querrías hacer eso?
+      - **Player:** Aparentemente, si puedo hacer un frasco como este, será útil para almacenar implings.
+      - **Chemist:** Entonces, ¿tienes algo de este aceite con sabor a pescado y flores y un frasco de mariposas?
+      - **Player:** En realidad, no.
+      - **Chemist:** Si vas a buscarlos, es posible que pueda ayudarte. Soy mejor para encontrar respuestas si las preguntas están en mis manos. ¿Hay algo más que quieras preguntar?
+      - [Menu]: ¿Hay algo más que quieras preguntar?
+        - [Choice]: Entonces, ¿cómo se hace el aceite de anchoa?
+          - **Player:** ¿Cómo se hace el aceite de anchoa?
+          - **Chemist:** Las anchoas son un pescado bastante graso. Pensé que podrías molerlos con un mortero y tamizar los pedazos.
+          - **Chemist:** Probablemente quieras eliminar el agua primero; Cooking debería hacerlo bastante bien.
+          - **Chemist:** Supongo que necesitarás tamizar 8 lotes de pasta de anchoas para obtener un vial de aceite de anchoas.
+          - (otro)
+        - [Choice]: ¿Tienes un colador que pueda usar?
+          - **Player:** ¿Tienes un colador que pueda usar?
+          - (Condition: Si el player lleva un tamiz:)
+            - **Chemist:** Errm, sí. Pero ya tienes uno. Dos tamices es un poco excesivo, ¿no crees?
+          - (Condition: Si el player tiene un tamiz en su banco:)
+            - **Chemist:** ¿Estás seguro de que aún no tienes uno?
+            - [pic=Tamiz detail.png]
+          - (Condition: Si el player no posee tamiz:)
+            - **Chemist:** Errm, sí. Toma, toma este. Sólo se ha utilizado para sacar ratas muertas del agua de alcantarillado.
+            - **Player:** Err, ¿por qué? En realidad, pensándolo bien, no quiero saberlo.
+            - **Chemist:** Bueno, debería ser ideal para tu tarea.
+            - (Condition: Si el player tiene espacio libre en backpack:)
+              - (receives=sieve)
+              - (continue)
+            - (Condition: Si el player no tiene espacio libre en backpack:)
+              - **Chemist:** ¡No puedo darte un colador si no tienes dónde ponerlo! Vuelve cuando lo hayas hecho.
+              - (continue)
+            - **Player:** Muy bien.
+        - [Choice]: Será mejor que vaya a buscar los ingredientes.
+          - **Player:** Será mejor que vaya a buscar los ingredientes.
+          - **Chemist:** Eso creo.
+    - (Condition: Con repelente de diablillos en backpack:)
+      - **Chemist:** Es posible que el aceite de mi lámpara todavía pueda hacer lo que tú quieras. Utilice la mezcla de aceite y flores en el alambique.
+      - (Condition: Con un tarro de mariposas en backpack:)
+        - **Chemist:** Una vez hecho esto, usa uno de esos frascos de mariposas para recoger el destilado.
+        - **Player:** ¡Gracias!
+      - (Condition: Sin tarros de mariposas:)
+        - **Chemist:** Una vez hecho esto, coge uno de esos frascos de mariposas para recoger el destilado.
+        - **Player:** ¡Gracias!
+    - (Condition: Con aceite de anchoa en backpack:)
+      - **Player:** ¿Sabes cómo puedo destilar una mezcla de aceite de anchoa y flores para que forme una capa en el interior de un frasco de mariposas?
+      - (Condition: Con flores en backpack:)
+        - **Chemist:** Es posible que el aceite de mi lámpara todavía pueda hacer lo que tú quieras. Primero deberás mezclar las flores con el aceite de anchoa. Luego use la mezcla de aceite y flores en el alambique.
+        - (continue)
+      - (Condition: Sin flores:)
+        - **Chemist:** Es posible que el aceite de mi lámpara todavía pueda hacer lo que tú quieras. Primero deberás conseguir flores y luego mezclarlas con el aceite de anchoa. Luego use la mezcla de aceite y flores en el alambique.
+        - (Condition: Con un tarro de mariposas en backpack:)
+          - **Chemist:** Una vez hecho esto, usa uno de esos frascos de mariposas para recoger el destilado.
+          - **Player:** ¡Gracias!
+        - (Condition: Sin tarros de mariposas:)
+          - **Chemist:** Una vez hecho esto, coge uno de esos frascos de mariposas para recoger el destilado.
+          - **Player:** ¡Gracias!
+  - [Choice]: Acerca del sistema de tareas...
+    - (Condition: Si el player ha completado los logros medios de Falador, pero aún no ha reclamado las recompensas:)
+      - **Player:** He venido por mi recompensa.
+      - **Chemist:** Entonces, ya terminaste, ¡bien hecho! Creo que las felicitaciones son necesarias.
+      - **Player:** Creo que las recompensas están en orden.
+      - **Chemist:** Tienes razón.
+      - (receives=Falador shield 2 and Antique lamp (Medium Falador Tasks))
+      - **Chemist:** Esta es la segunda etapa del escudo Falador: un escudo de cometa. Le otorga todos los beneficios del escudo, pero con una mayor restauración de Prayer y una mayor experiencia de Farming al usar los parches cerca de Falador.
+      - **Chemist:** Como antes, la restauración Prayer solo se puede usar una vez al día, pero ahora restaura la mitad de tus puntos Prayer.
+      - **Chemist:** La experiencia mejorada de Farming solo está disponible en los huertos y huertos de flores y hierbas que se encuentran justo al norte de Port Sarim.
+      - **Chemist:** Además de todas estas características, el escudo es bastante útil en combate y te da un buen impulso de Prayer.
+      - **Chemist:** Incluso arrojé una lámpara vieja que encontré. Por más que lo intento, no consigo llenarlo de combustible ni encenderlo.
+      - **Player:** ¡Vaya, gracias!
+      - **Chemist:** Si pierdes tu escudo, regresa y busca otro.
+      - (continue)
+    - (Condition: Si el player ha perdido su escudo Falador 2:)
+      - **Player:** He perdido mi escudo.
+      - **Chemist:** ¿Qué? ¡Ese era un equipo valioso!
+      - **Chemist:** Por suerte, tengo uno de repuesto. Cuídalo mejor la próxima vez.
+      - (receives=Falador shield 2)
+      - (continue)
+    - [Menu]: Elige una opción:
+      - [Choice]: Cuéntame sobre el sistema de logros.{{anchor|achievements}}
+        - **Chemist:** Muy bien: el Sistema de Logros es una colección de hazañas que quizás desees completar mientras viajas por el mundo.
+        - **Chemist:** Puedes ganar recompensas especiales por completar ciertos logros; como mínimo, cada uno vale una recompensa en efectivo de Explorer Jack en Lumbridge.
+        - **Chemist:** Algunos también ofrecen elementos que ayudarán a completar otras tareas y muchos cuentan como progreso hacia el conjunto del área en la que se encuentran.
+        - [Menu]: Elige una opción:
+          - [Choice]: Cuéntame sobre la recompensa establecida para esta localidad.
+            - **Player:** Cuéntame sobre la recompensa establecida para esta área.
+            - **Chemist:** Por completar el conjunto Falador, se te presenta un escudo.
+            - **Chemist:** Este escudo se actualizará con cada nivel de dificultad del conjunto que completes.
+            - **Chemist:** Cuando se le presenten sus recompensas, se le informará sobre sus usos.
+            - También puedes ver qué recompensas proporciona un elemento determinado al pasar el cursor sobre el ícono de Recompensas de su Logro de exploración establecido en la interfaz de Logros.
+            - (previous)
+          - [Choice]: ¿Cómo reclamo estas recompensas?
+            - **Player:** ¿Cómo reclamo las recompensas?
+            - **Chemist:** Debes completar todas las tareas en un conjunto de dificultad particular y luego podrás reclamar tu recompensa.
+            - **Chemist:** Algunas de las tareas del conjunto Falador son simples, algunas requerirán cierto skill levels y otras pueden requerir que se inicien o completen misiones.
+            - **Chemist:** Para reclamar las recompensas del conjunto Falador, habla con Redbeard Frank en Port Sarim, el escudero de Sir Vyvin en el Castillo de los Caballeros Blancos o conmigo mismo.
+            - (previous)
+          - [Choice]: Lo siento, me estaba yendo.
+            - (end)
+      - [Choice]: ¿Puedo comprar un repuesto de la recompensa?
+        - [Menu]: Elige una opción:
+          - [Choice]: Escudo Falador 1
+            - **Chemist:** ¿Escudo Falador 1? Sí, pero me temo que te costaría 1.500 coins.
+            - [Menu]: ¿Comprar otro por 1.500 coins?
+              - [Choice]: si
+                - (receives=Falador shield 1) (removes=1,500 coins)
+                - [Te entregan otro escudo Falador 1.]
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Escudo Falador 2
+            - **Chemist:** ¿Escudo Falador 2? Sí, pero me temo que te costaría 2500 coins.
+            - [Menu]: ¿Comprar otro por 2500 coins?
+              - [Choice]: si
+                - (receives=Falador shield 2) (removes=2,500 coins)
+                - [Te entregan otro escudo Falador 2.]
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Escudo Falador 3
+            - **Chemist:** ¿Escudo Falador 3? Sí, pero me temo que te costaría 7.500 coins.
+            - [Menu]: ¿Comprar otro por 7.500 coins?
+              - [Choice]: si
+                - (receives=Falador shield 3) (removes=7,500 coins)
+                - [Te entregan otro escudo Falador 3.]
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Escudo Falador 4
+            - **Chemist:** ¿Escudo Falador 4? Sí, pero me temo que te costaría 15.000 coins.
+            - [Menu]: ¿Comprar otro por 15.000 coins?
+              - [Choice]: si
+                - (receives=Falador shield 4) (removes=15,000 coins)
+                - [Te entregan otro escudo Falador 4.]
+              - [Choice]: No
+                - **Player:** No, gracias.
+      - [Choice]: Lo siento, me estaba yendo.
+        - (end)

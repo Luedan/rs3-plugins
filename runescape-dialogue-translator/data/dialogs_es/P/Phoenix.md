@@ -1,0 +1,88 @@
+# Phoenix
+
+- **Original Wiki Page**: [Transcript:Phoenix](https://runescape.wiki/w/Transcript%3APhoenix)
+- **Letter**: `P`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+- **Phoenix:** (Bienvenido de nuevo, Player. Es bueno ver que estás entusiasmado, como siempre. ¡Je, je, je!)
+- **Player:** Hola a ti también. ¡Gracias por el entrenamiento!
+- **Phoenix:** (¿Había algo sobre lo que quisieras preguntar?)
+  - Háblame de convocarte de nuevo.
+    - **Player:** Cuéntame cómo volver a convocarte.
+    - **Phoenix:** (Las plumas que te di son parte de mí. Puedes usarlas para infundir algo de mi esencia en una bolsa de invocación).
+    - **Player:** ¿Un poco de tu esencia?
+    - **Phoenix:** (Efectivamente. La energía de la bolsa crea una versión espectral de mí, pero la esencia contenida en ella la vincula a mi mente.)
+    - **Phoenix:** (Verás, solo hay uno de mí, pero usar las bolsas de invocación y las esencias espectrales significa que puedo estar en muchos lugares a la vez).
+    - **Player:** Creo que lo entiendo. ¿Qué poderes tienes en esta forma?
+    - **Phoenix:** (Seguiré siendo un poderoso luchador mágico y también tendré el poder de conjurar cenizas y arrojarlas a tu enemigo, cegándolo temporalmente).
+    - **Phoenix:** (Cuando estas cenizas caigan al suelo, usa mi pergamino de invocación sobre ellas. Esto será particularmente útil si me estoy quedando sin puntos de vida. ¡Je, je, je!
+    - **Player:** Bien, gracias por la información.
+    - **Player:** (¿Había algo sobre lo que quisieras preguntar?)
+  - Si supieras lo del sacerdote...
+    - **Player:** Si supieras lo del sacerdote...
+    - **Phoenix:** (¿Por qué no fue asesinado como los otros intrusos en mi guarida?)
+    - **Player:** Erm... bueno, sí.
+    - **Phoenix:** (Debo admitir que lo miré con cautela por un tiempo; pero en todos sus viajes a mi guarida, nunca hizo nada que valiera la pena detener).
+    - **Phoenix:** (Lo encontré muy curioso, evitando cuidadosamente a mis guardianes con todo su sigilo y astucia. Sabía que estaba allí, pero los estaba reteniendo).
+    - **Phoenix:** (En todas sus visitas, lo único que hacía era mirar a su alrededor y tomar notas; observarme mientras hacía mis asuntos; y estudiar a mis tutores mientras se ocupaban de los suyos).
+    - **Phoenix:** (Supongo que me ofendí porque me quitó mi colección de antigüedades, pero a cambio me proporcionó un hermoso santuario y un tapiz. Así que estoy contento. Je, je.)
+    - **Phoenix:** (¿Había algo sobre lo que quisieras preguntar?)
+  - ((Sólo aparece si has encontrado un huevo Phoenix:))
+    - Me perdí al salir y...
+      - **Player:** Me perdí al salir y-
+      - **Phoenix:** (¿Encontraste mi cámara de óvulos?)
+      - **Player:** Sí. Uno de los huevos eclosionó.
+      - **Phoenix:** (Sí, lo sé. Esto es extremadamente raro. Imagino que tienes muchas preguntas. Pregunte).
+      - **Player:** Está bien. En primer lugar, ¿no te molesta que me haya llevado el huevo?
+      - **Phoenix:** (En absoluto. Me ayudaste en mi momento de necesidad. Sé que cuidarás bien de mi huevo hasta el momento en que pueda cuidar de sí mismo).
+      - **Player:** ¡Qué alivio!
+      - **Player:** Me he preguntado cómo el óvulo se volvió fértil. Eres el único fénix vivo en este momento, ¿verdad?
+      - **Phoenix:** (Excepto el huevo que has adoptado para mí y cualquier otro que pueda nacer, eso es cierto, sí. El tema de la reproducción en mi especie... difiere un poco de la norma.)
+      - **Player:** ¿Te importaría dar más detalles?
+      - **Phoenix:** (¡Ciertamente! No tenía idea de que fueras un ávido apreciador de la naturaleza).
+      - **Phoenix:** (Después de que un fénix realiza su ritual de renacimiento, sus cenizas se almacenan dentro de un huevo mágico. Realizo esta parte de mi ritual después de que te hayas ido; necesito descansar un poco antes de poder utilizar la magia necesaria para realizar el acto).
+      - **Phoenix:** (Mantengo todos estos óvulos en mi cámara de óvulos. Sin embargo, en este momento están en su mayoría inactivos).
+      - **Phoenix:** (Los huevos son una especie de plan de contingencia. Verás, los fénix están vinculados. Es un vínculo similar al que comparto con mis guardianes; una especie de conciencia compartida. Si todos los fénix se extinguieran a la vez, uno de los huevos se volvería mágicamente fértil, asegurando que, siempre que completemos nuestro ritual de renacimiento al menos una vez antes de encontrar nuestro fin, siempre habrá un fénix huevo que se hará cargo cuando pasemos... encendido.)
+      - **Player:** ¡Guau! ¡Eso es asombroso!
+      - **Player:** Espera: ¡no estás muerto! ¿Por qué eclosionó el huevo?
+      - **Phoenix:** (Existe una posibilidad muy pequeña de que un huevo se vuelva mágicamente fértil sin la muerte de todos los fénix. Dado que los fénix realizamos nuestros rituales una vez cada quinientos años, en circunstancias normales, esto significa que la población suele ser de uno. La mayor cantidad de fénix vivos a la vez, desde mi nacimiento, ha sido dos.)
+      - **Phoenix:** (Ah, Si'morgh. Te extraño mucho.)
+      - **Phoenix:** (De todos modos, para abreviar la historia, simplemente tuviste mucha suerte de encontrar un huevo para incubar).
+      - **Phoenix:** (Player, prométeme algo).
+      - **Player:** ¿Qué me pedirías?
+      - **Phoenix:** (Deja que mi hijo vea el mundo, pero enséñale a temer el peligro. No quiero que acabe muerto como Si'morgh, o como un ermitaño asustado como yo.)
+      - **Player:** Haré lo mejor que pueda.
+      - **Phoenix:** (Gracias, Player.)
+  - ((Sólo después de terminar la conversación anterior:))
+    - ¿Quién era Si'morgh?
+      - **Player:** ¿Quién era Si'morgh? No tienes que decírmelo si no quieres.
+      - **Phoenix:** (Está bien, Player. No hay mucho que contar. Le debo mi vida a él, al igual que a ti.)
+      - **Phoenix:** (Sucedió hace un milenio. Verás, nací de un huevo de la suerte. Mi padre era un fénix solitario que se mantuvo vivo durante apenas dos ciclos. Un huevo, el mío, ya era fértil, y cuando mi padre murió, el otro huevo, Si'morgh, se volvió fértil. Nacimos juntos, hermano y hermana para todos los efectos, y solíamos vivir juntos en esta misma guarida.)
+      - **Player:** ¡Vaya, las posibilidades de que eso suceda son muy escasas! Debe haber sido agradable haber crecido con alguien.
+      - **Phoenix:** (Sí, lo fue. Si'morgh aprendió mucho más rápido que yo. Siempre estuvo cuidándome, encontrándome comida y protegiéndome del peligro a medida que crecía. Teníamos aproximadamente la edad en la que se podía llamar adolescente a un fénix cuando sucedió).
+      - **Phoenix:** (Había una nueva criatura extraña fuera de nuestra guarida. La curiosidad me llevó a abandonar la seguridad de la cueva e investigar).
+      - **Phoenix:** (Nunca antes había visto un dragón).
+      - **Player:** ¿Era un dragón?
+      - **Phoenix:** (Si'morgh estaba afuera buscando algo de comer en ese momento. El dragón me atacó. Traté de defenderme, pero fui vencido. En el último momento, cuando el dragón estaba a punto de asestar el golpe mortal, Si'morgh regresó. Se arrojó sobre el dragón para protegerme y me gritó que corriera. Me escapé lo más rápido que pude, escondiéndome en nuestra guarida, donde el enorme dragón no podía seguirme. Pasaron las horas y Si'morgh no regresó. Esa noche, eché un vistazo cauteloso fuera de la cueva y no pude ver ni oír al dragón por ninguna parte, así que salí a buscar a Si'morgh).
+      - **Phoenix:** (Lo encontré. Al menos pedazos de él.)
+      - **Player:** Eso es terrible.
+      - **Phoenix:** (Él dio su vida a cambio de la mía, pero me dejó en paz.)
+      - **Player:** Por eso tu guarida está tan bien defendida.
+      - **Phoenix:** (Sí. Tuve que crecer rápidamente, ya que no había ningún Si'morgh que me cuidara. Básicamente, tenía que valerme por mí mismo, así que lo primero que hice fue fortificar mi hogar. Empecé a volverme más aventurero cuando me afectó la soledad. Después de todo, estaba acostumbrado a la compañía y vivir sin ninguna era bastante difícil.)
+      - **Phoenix:** (Comencé a coleccionar baratijas para mantenerme ocupado, dejando mi guarida durante siglos y regresando solo para renacer. Me convertí en un observador de personas, observando las razas a medida que se desarrollaban con el tiempo. Conoces el resto de mi historia, Player, porque me has ayudado a continuar escribiéndola).
+      - **Player:** Gracias por contarme sobre esto. Sé que debe haber sido difícil para ti.
+      - **Phoenix:** (No es ninguna molestia. En verdad, es bueno tener a alguien con quien hablar, alguien a quien llamar amigo. Gracias por escuchar, nombre de Player.)
+      - **Player:** Fue un placer.
+      - **Phoenix:** (No quiero ser grosero, amigo, pero ¿puedo tener un tiempo a solas con mis pensamientos?)
+      - **Player:** Por supuesto. Te veré de nuevo pronto.
+      - (Action: Dejas la guarida.)
+  - En realidad no, sólo vine a saludar.
+    - **Player:** En realidad, no. Sólo vine a saludar.
+    - **Phoenix:** (¡Hola!)
+    - **Player:** ¡Hola!
+    - **Phoenix:** (¡Y adiós!)
+    - **Player:** ¡Adiós!

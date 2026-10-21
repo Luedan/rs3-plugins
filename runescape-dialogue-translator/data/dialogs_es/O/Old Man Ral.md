@@ -1,0 +1,129 @@
+# Old Man Ral
+
+- **Original Wiki Page**: [Transcript:Old Man Ral](https://runescape.wiki/w/Transcript%3AOld%20Man%20Ral)
+- **Letter**: `O`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue after Darkness of Hallowvale
+
+- **Player:** ¡Hola de nuevo!
+- **Old Man Ral:** ¡Hmph!
+- [Menu]: Selecciona una opción
+  - [Choice]: Safalaan dijo que podría conseguirte más papiro.
+    - **Player:** Safalaan dijo que podría conseguirte más papiro.
+    - **Old Man Ral:** Hmph, mmm. Supongo que sí. Aquí tienes.
+    - (Condition: Si el player no tiene suficiente espacio backpack:)
+      - **Player:** Erk... lo siento, no tengo suficiente espacio en mi inventario. Necesito 3 espacios libres.
+      - **Old Man Ral:** ¡Hmph, típico! Vuelve cuando lo hayas hecho.
+      - (initial)
+    - (Condition: Si el player tiene suficiente espacio backpack:)
+      - (receives=three papyrus)
+      - [Old Man Ral te regala unos papiros.]
+      - (initial)
+  - [Choice]: ¿Qué haces aquí?
+    - **Player:** ¿Qué haces aquí?
+    - **Old Man Ral:** ¡Hmph! ¿Por qué? ¿Qué sé yo? Solo soy un old man; ¿Qué querría alguien con un old man?
+    - (initial)
+  - [Choice]: Estoy perdido. ¿Me puedes ayudar?
+    - **Player:** Estoy perdido... ¿Puedes ayudarme?
+    - **Old Man Ral:** ¡Hmph! ¿Quién dice que no estoy perdido, eh? ¿Alguna vez pensaste en eso, verdad? ¡Con prisa por encontrar todas las respuestas, sin pensar ni por un segundo que alguien más podría estar tan perdido, si no más, que tú! ¿Y a ti qué te importan, eh?
+    - (initial)
+  - [Choice]: ¿Conoces el Myreque?
+    - **Player:** ¿Conoces el Myreque?
+    - **Old Man Ral:** ¡Hmph! ¿Por qué debería saber del Myreque, eh? ¿De qué me han servido alguna vez, eh? ¡Les pido que!
+    - (initial)
+  - [Choice]: ¿Puedes ayudarme?
+    - **Player:** ¿Puedes ayudarme?
+    - **Old Man Ral:** ¡Hmph! ¿Qué te hace pensar que puedo ayudarte, eh? ¿Parezco una fuente de conocimiento, eh? ¿Yo?
+    - **Player:** Bueno, ¡me has ayudado antes! ¿Dijiste algo sobre símbolos? Para encontrar el Myreque.
+    - **Old Man Ral:** ¡Hmph! Sí, por supuesto, así es como llegar a ellos. Sigue los símbolos.
+    - **Player:** ¿Qué símbolos?
+    - **Old Man Ral:** El símbolo del Myreque: ¡la hoz de plata!
+    - **Player:** Ah, ¿y dónde sería eso entonces?
+    - **Old Man Ral:** Vueltas y vueltas; debería ser una ayuda.
+    - (initial)
+  - [Choice]: Más...
+    - [Menu]: Selecciona una opción
+      - [Choice]: Anterior...
+        - (initial)
+      - [Choice]: Acerca del sistema de tareas...
+        - ((Si el player ha completado los logros de élite de Morytania y no se han reclamado las recompensas:))
+          - **Player:** He completado todas las tareas Elite del conjunto Morytania.
+          - **Old Man Ral:** Así que sí. Tengo un par de mallas especiales reservadas para ti.
+          - [Old Man Ral te entrega un par de mallas y algunas lámparas.]
+          - **Old Man Ral:** Ahí lo tienes. Son un poco viscosos, pero deberían ayudarte en el Columbario a la hora de hacer esas runas de sangre tuyas. Ah, y es posible que adquieras más habilidades para preparar pociones renovadoras de oración.
+          - **Player:** ¡Gracias! ¿Qué más hacen?
+          - **Old Man Ral:** Bueno, por lo que he oído, Lyra se está volviendo tan bueno con los hongos que obtendrás el doble con ese parche, y también deberías ser más próspero en la Torre Slayer.
+          - (continue)
+        - (Condition: Si el player ha perdido sus patas Morytania 4:)
+          - **Old Man Ral:** ¡Ah, el que usa calzas! ¿Cómo los estás encontrando?
+          - **Player:** Los perdí.
+          - **Old Man Ral:** ¡Oh, no!
+          - **Old Man Ral:** No importa, tengo otro par. Aquí...
+          - (receives=Morytania legs 4)
+          - [Old Man Ral te entrega unos leggings.]
+          - (continue)
+        - [Menu]: Elige una opción:
+          - [Choice]: Háblame del Sistema de Logros.
+            - **Old Man Ral:** Muy bien: el Sistema de Logros es una colección de hazañas que quizás desees completar mientras viajas por el mundo.
+            - **Old Man Ral:** Puedes ganar recompensas especiales por completar ciertos logros; como mínimo, cada uno vale una recompensa en efectivo de Explorer Jack en Lumbridge.
+            - **Old Man Ral:** Algunos también ofrecen elementos que ayudarán a completar otros logros y muchos cuentan como progreso hacia el conjunto del área en la que se encuentran.
+            - [Menu]: Elige una opción:
+              - [Choice]: Cuéntame sobre la recompensa establecida para esta localidad.
+                - **Player:** Cuéntame sobre la recompensa establecida para esta área.
+                - **Old Man Ral:** Para completar el conjunto Morytania, se te presentan unos leggings.
+                - **Old Man Ral:** Estos leggings serán cada vez más útiles a medida que completes conjuntos de tareas de mayor dificultad.
+                - **Old Man Ral:** Cuando se le presenten sus recompensas, se le informará sobre sus usos.
+                - También puedes ver qué recompensas proporciona un elemento determinado al pasar el cursor sobre el ícono de Recompensas de su Logro de exploración establecido en la interfaz de Logros.
+                - (previous2)
+              - [Choice]: ¿Cómo reclamo estas recompensas?
+                - **Player:** ¿Cómo reclamo las recompensas?
+                - **Old Man Ral:** Debes completar todas las tareas dentro de un conjunto de dificultad particular y luego podrás reclamar tu recompensa.
+                - **Old Man Ral:** Algunas de las tareas del conjunto Morytania son simples, algunas requieren cierto skill levels y otras requieren que se inicien o completen misiones.
+                - **Old Man Ral:** Para reclamar las recompensas del conjunto Morytania, habla con Hiylik Myna justo al este de Paterdomus, con Robin en Port Phasmatys, con Strange Old Man en Barrows o conmigo mismo.
+                - (previous2)
+              - [Choice]: Lo siento, me estaba yendo.
+                - (end)
+          - [Choice]: ¿Puedo comprar un repuesto de la recompensa?
+            - [Menu]: Elige una opción:
+              - [Choice]: Morytania piernas 1
+                - **Old Man Ral:** Morytania piernas 1? Sí, pero me temo que te costaría 1.500 coins.
+                - [Menu]: ¿Comprar otro por 1.500 coins?
+                  - [Choice]: si
+                    - [Te entregan otras piernas Morytania 1.]
+                    - (receives=Morytania legs 1) (removes= 1,500 coins)
+                  - [Choice]: No
+                    - **Player:** No, gracias.
+              - [Choice]: Morytania piernas 2
+                - **Old Man Ral:** Morytania piernas 2? Sí, pero me temo que te costaría 2500 coins.
+                - [Menu]: ¿Comprar otro por 2500 coins?
+                  - [Choice]: si
+                    - [Te entregan otras piernas Morytania 2.]
+                    - (receives=Morytania legs 2) (removes= 2,500 coins)
+                  - [Choice]: No
+                    - **Player:** No, gracias.
+              - [Choice]: Morytania piernas 3
+                - **Old Man Ral:** Morytania piernas 3? Sí, pero me temo que te costaría 7.500 coins.
+                - [Menu]: ¿Comprar otro por 7.500 coins?
+                  - [Choice]: si
+                    - [Te entregan otras piernas Morytania 3.]
+                    - (receives=Morytania legs 3) (removes= 7,500 coins)
+                  - [Choice]: No
+                    - **Player:** No, gracias.
+              - [Choice]: Morytania piernas 4
+                - **Old Man Ral:** Morytania patas 4? Sí, pero me temo que te costaría 15.000 coins.
+                - [Menu]: ¿Comprar otro por 15.000 coins?
+                  - [Choice]: si
+                    - [Te entregan otras patas Morytania 4.]
+                    - (receives=Morytania legs 4) (removes= 15,000 coins)
+                  - [Choice]: No
+                    - **Player:** No, gracias.
+          - [Choice]: Lo siento, me estaba yendo.
+            - (end)
+      - [Choice]: Bien, gracias.
+        - **Player:** Está bien, gracias.

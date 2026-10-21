@@ -1,0 +1,134 @@
+# Mercenary
+
+- **Original Wiki Page**: [Transcript:Mercenary](https://runescape.wiki/w/Transcript%3AMercenary)
+- **Letter**: `M`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Before The Tourist Trap
+
+- **Mercenary:** Sí, ¿qué quieres?
+- [Menu]: Selecciona una opción
+  - [Choice]: ¿Qué es este lugar?
+    - **Player:** ¿Qué es este lugar?
+    - **Mercenary:** No es asunto tuyo ahora, piérdete.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Quizás cinco gold coins lo convertirán en mi negocio?
+        - {{anchor|sweeten-mood2}}**Player:** ¿Quizás cinco gold coins harán que sea mi negocio?
+        - (removes=5 coins)
+        - **Mercenary:** Bueno, ciertamente ayudará... -- El guardia toma los cinco gold coins. -- Ahora bien, ¿qué querías saber?
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Qué es este lugar?
+            - **Player:** ¿Qué es este lugar?
+            - **Mercenary:** Es sólo un campamento minero. Los prisioneros son enviados aquí desde Al Kharid. Cumplen su condena minando. La mayoría de los prisioneros terminarán sus días aquí, rodeados de desierto.
+            - **Player:** Así que casi se podría decir que obtuvieron sus... 'Just Desserts'
+            - **Mercenary:** Se podría decir que... -- Hay una pausa incómoda --
+            - **Mercenary:** Pero no sería muy divertido.
+            - **Player:** Cuando hablan de 'el silencio del desierto', esto debe ser lo que quieren decir.
+            - [Menu]: Selecciona una opción
+              - [Choice]: ¿Puedo echar un vistazo al lugar?
+                - **Player:** ¿Puedo echar un vistazo al lugar?
+                - **Mercenary:** En realidad, no. El Capitán no te dejará entrar al complejo. Él es el único que tiene la llave de la puerta. Y si hablas con él, probablemente simplemente nos ordenará que te matemos. A menos que...
+                - {{anchor|captain-orders}}[Menú]: Seleccione una opción
+                  - [Choice]: ¿El Capitán te ordena matar a mucha gente?
+                    - **Player:** ¿El Capitán te ordena matar a mucha gente?
+                    - **Mercenary:** -- El guardia resopla. -- *Resopla* Casi cualquiera que hable con él.
+                    - **Mercenary:** A menos que te necesite, probablemente simplemente nos ordenará que te matemos. Y es un trabajo horrible limpiar el desorden después.
+                    - [Menu]: Selecciona una opción
+                      - [Choice]: Por no hablar del desperdicio sin sentido de vidas humanas.
+                        - **Player:** Sin mencionar el desperdicio sin sentido de vidas humanas.
+                        - **Mercenary:** ¿Eh? Son tus palabras, no las mías.
+                        - [Menu]: Selecciona una opción
+                          - [Choice]: No parece que respetes mucho a tu Capitán.
+                            - **Player:** No parece que respetes mucho a tu Capitán.
+                            - -- El guardia mira a su alrededor con complicidad. --
+                            - **Mercenary:** Bueno, para ser honesto. Creemos que no es exactamente tan valiente como parece. Pero tenemos que seguir sus órdenes. Si alguien lo llamara cobarde o lograra engañarlo para un duelo uno contra uno, muchos de nosotros apostamos a que sería derrotado.
+                            - **Player:** ¿Y cómo podría engañarlo para un duelo uno contra uno?
+                            - **Mercenary:** Como a todos los cobardes, le gusta que lo hagan sentir importante. Si alguien lo insulta abiertamente, simplemente nos obliga a hacer el trabajo sucio. Sin embargo, si él piensa que es mejor que tú, si lo felicitas, puede sentir que puede derrotarte. y
+                            - **Mercenary:** si iniciaba un duelo, todos los hombres acordaron que no intervendrían. Creemos que sería asesinado en el doble de tiempo.
+                            - [Menu]: Selecciona una opción
+                              - [Choice]: ¿Puedo apostar sobre eso?
+                                - **Player:** ¿Puedo apostar sobre eso?
+                                  - (Condition: Si el player ya ha realizado una apuesta:)
+                                    - **Mercenary:** Lo sentimos, ya hemos aceptado tu apuesta, no queremos que te hagan trampa ahora. De todos modos, tengo que volver al trabajo. Nos vemos por ahí...
+                                  - (Condition: Si el player aún no ha realizado una apuesta:)
+                                    - **Mercenary:** Bueno, si crees que tienes una oportunidad, claro. Pero recuerda, si él nos da una orden, tenemos que obedecerla.
+                                    - [Menu]: Selecciona una opción
+                                      - [Choice]: Apuesto 5 de oro a que gano.
+                                        - **Player:** Apuesto 5 de oro a que gano.
+                                        - **Mercenary:** Genial, aceptaré esa apuesta.
+                                        - (removes=5 coins)
+                                        - Entregas 5 gold coins.
+                                        - **Mercenary:** Ok, si ganas, recuperarás 6 de oro. De todos modos, tengo que irme, tengo trabajo que hacer. -- El guardia se marcha. --
+                                      - [Choice]: Apuesto 10 de oro a que gano.
+                                        - {{Transcript missing}}
+                                      - [Choice]: Apuesto 15 de oro a que gano.
+                                        - {{Transcript missing}}
+                                      - [Choice]: Apuesto 20 de oro a que gano.
+                                        - {{Transcript missing}}
+                                      - [Choice]: Bien, gracias.
+                                        - (below|okay)
+                              - [Choice]: Bien, gracias.
+                                - (below|okay)
+                          - [Choice]: Bien, gracias.
+                            - (below|okay)
+                      - [Choice]: Bien, gracias.
+                        - (below|okay)
+                  - [Choice]: ¿A menos que?
+                    - **Player:** ¿A menos que?
+                    - **Mercenary:** A menos que tenga alguna utilidad para ti. Ha estado intentando localizar a alguien llamado 'Al Zaba Bhasim'. ¿Podrías ofrecerte a atraparlo y eso podría ponerte en sus buenos libros?
+                    - [Menu]: Selecciona una opción
+                      - [Choice]: ¿Dónde puedo encontrar a este Al Zaba Bhasim?
+                        - **Player:** ¿Dónde puedo encontrar este Al Zaba Bhasim?
+                        - **Mercenary:** Bueno, podría estar en cualquier lugar. Es un habitante nómada del desierto. Sin embargo, dicen que a menudo se le encuentra en el oeste, en la hospitalidad de los Tentis.
+                        - [Menu]: Selecciona una opción
+                          - [Choice]: Los Tentis, ¿quiénes son?
+                            - **Player:** Los Tentis, ¿quiénes son?
+                            - **Mercenary:** Bueno, no estamos muy seguros de cuál es su nombre correcto, pero viven en tiendas de campaña, por eso los llamamos 'Tentis'.
+                            - [Menu]: Selecciona una opción
+                              - [Choice]: Bien, gracias.
+                                - (below|okay)
+                              - [Choice]: ¿Es muy duro Al Zaba Bhasim?
+                                - **Player:** ¿Es Al Zaba Bhasim muy duro?
+                                - **Mercenary:** Bueno, no estoy seguro, pero según todos dicen, es un tipo resbaladizo. El Capitán lleva años intentando capturarlo. Una pequeña pérdida de tiempo si me preguntas. De todos modos, tengo que irme, tengo trabajo que hacer.
+                                - El guardia se marcha.
+                          - [Choice]: Bien, gracias.
+                            - (below|okay)
+                      - [Choice]: Bien, gracias.
+                        - (below|okay)
+              - [Choice]: Bien, gracias.
+                - (below|okay)
+          - [Choice]: ¿Qué estás protegiendo?
+            - **Player:** ¿Qué estás protegiendo?
+            - **Mercenary:** Bueno, si tienes que saberlo, nos estamos asegurando de que ningún prisionero salga. -- El guardia te lanza una mirada de desaprobación. -- Y para asegurarse de que no entren personas no autorizadas.
+            - **Mercenary:** -- El guardia mira a su alrededor con nerviosismo. -- Será mejor que te vayas pronto antes de que el Capitán nos ordene matarte.
+            - (continuea|captain-orders)
+      - [Choice]: Bien, gracias.
+        - (below|okay)
+  - [Choice]: ¿Qué estás protegiendo?
+    - **Player:** ¿Qué estás protegiendo?
+    - **Mercenary:** ¡Piérdete antes de que te corte la cabeza!
+    - {{anchor|sweeten-mood}}[Menú]: Seleccione una opción
+      - {{anchor|okay}}[Elección]: Está bien, gracias.
+        - **Player:** Está bien, gracias.
+        - **Mercenary:** ¡Sí, lo que sea!
+      - [Choice]: ¿Quizás estos cinco gold coins endulzarán tu estado de ánimo?
+        - **Player:** ¿Quizás cinco gold coins endulzarán tu estado de ánimo?
+        - (removes=5 coins)
+        - Se han eliminado 5 coins de tu bolsa de dinero.
+        - **Mercenary:** Bueno, ¡sin duda te ayudará!
+        - [El guardia toma los cinco gold coins.]
+        - **Mercenary:** Ahora bien, ¿qué querías saber?
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Qué es este lugar?
+            - **Player:** ¿Qué es este lugar?
+            - **Mercenary:** No es asunto tuyo ahora, piérdete.
+            - (previous2|sweeten-mood2)
+          - [Choice]: ¿Qué estás protegiendo?
+            - **Player:** ¿Qué estás protegiendo?
+            - **Mercenary:** ¡Piérdete antes de que te corte la cabeza!
+            - (previous2|sweeten-mood)

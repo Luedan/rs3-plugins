@@ -1,0 +1,168 @@
+# Chemist
+
+- **Original Wiki Page**: [Transcript:Chemist](https://runescape.wiki/w/Transcript%3AChemist)
+- **Letter**: `C`
+
+---
+
+## Dialogue Transcript
+
+
+### In west Rimmington
+
+
+#### On free-to-play worlds
+
+- **Chemist:** It's very nice that you've come all the way down here, but I really don't have time to talk at the moment. Maybe if you come back later on a members' world I'll be able to help.
+
+#### On members' worlds
+
+- [Menu]: Choose an option:
+  - [Choice]: Ask about lamp oil.
+    - **Player:** Hi, I need fuel for a lamp.
+    - **Chemist:** Hello there, the fuel you need is lamp oil, do you need help making it?
+    - [Menu]: Select an Option
+      - [Choice]: Yes please.
+        - **Player:** Yes please.
+        - **Chemist:** It's really quite simple. You use the small still in here. It's all set up, so there's no fiddling around with dials...
+        - **Chemist:** Just put ordinary swamp tar in, and then use a lantern or lamp to get the oil out.
+        - **Player:** Thanks.
+      - [Choice]: No thanks.
+        - **Player:** No thanks.
+  - [Choice]: Ask about impling jars.
+    - (Condition: Without anchovy oil in backpack:)
+      - **Player:** I have a slightly odd question.
+      - **Chemist:** Jolly good, the odder the better. I like oddities.
+      - **Player:** Do you know how I might distil a mix of anchovy oil and flowers so that it forms a layer on the inside of a butterfly jar?
+      - **Chemist:** That is an odd question. I commend you for it. Why would you want to do that?
+      - **Player:** Apparently, if I can make a jar like this it will be useful for storing implings in.
+      - **Chemist:** So, do you have any of this fish-and-flower flavoured oil and a butterfly jar then?
+      - **Player:** Actually, no.
+      - **Chemist:** If you go and get them then I may be able to help you. I'm better at coming up with answers if the questions are in my hands. Is there anything else you want to ask?
+      - [Menu]: Is there anything else you want to ask?
+        - [Choice]: So how do you make anchovy oil?
+          - **Player:** How do you make anchovy oil?
+          - **Chemist:** Anchovies are pretty oily fish. I'd have thought you could just grind them up using a pestle and mortar and sieve out the bits.
+          - **Chemist:** You'd probably want to remove any water first - Cooking should do that pretty well.
+          - **Chemist:** I reckon you'll need to sieve 8 lots of anchovies paste to get one vial of anchovy oil.
+          - (other)
+        - [Choice]: Do you have a sieve I can use?
+          - **Player:** Do you have a sieve I can use?
+          - (Condition: If the player is carrying a sieve:)
+            - **Chemist:** Errm, yes. But you already have one. Two sieves is a bit excessive, don't you think?
+          - (Condition: If the player has a sieve in their bank:)
+            - **Chemist:** Are you sure you don't already have one?
+            - [pic=Sieve detail.png]
+          - (Condition: If the player does not own a sieve:)
+            - **Chemist:** Errm, yes. Here, have this one. It's only been used for sieving dead rats out of sewer water.
+            - **Player:** Err, why? Actually, on second thoughts I don't want to know.
+            - **Chemist:** Well, it should be ideally suited to your task.
+            - (Condition: If the player has free backpack space:)
+              - (receives=sieve)
+              - (continue)
+            - (Condition: If the player does not have free backpack space:)
+              - **Chemist:** I can't give you a sieve if you have nowhere to put it! Come back when you have.
+              - (continue)
+            - **Player:** Fair enough.
+        - [Choice]: I'd better go and get the ingredients.
+          - **Player:** I'd better go and get the ingredients.
+          - **Chemist:** I think so.
+    - (Condition: With imp repellent in backpack:)
+      - **Chemist:** My lamp oil still may be able to do what you want. Use the oil and flower mix on the still.
+      - (Condition: With a butterfly jar in backpack:)
+        - **Chemist:** Once that's done, use one of those butterfly jars to collect the distillate.
+        - **Player:** Thanks!
+      - (Condition: Without butterfly jars:)
+        - **Chemist:** Once that's done, get one of those butterfly jars to collect the distillate.
+        - **Player:** Thanks!
+    - (Condition: With anchovy oil in backpack:)
+      - **Player:** Do you know how I might distil a mix of anchovy oil and flowers so that it forms a layer on the inside of a butterfly jar?
+      - (Condition: With flowers in backpack:)
+        - **Chemist:** My lamp oil still may be able to do what you want. You'll need to mix your flowers to the anchovy oil first. Then use the oil and flower mix on the still.
+        - (continue)
+      - (Condition: Without flowers:)
+        - **Chemist:** My lamp oil still may be able to do what you want. You'll need to get flowers first, then mix them to your anchovy oil. Then use the oil and flower mix on the still.
+        - (Condition: With a butterfly jar in backpack:)
+          - **Chemist:** Once that's done, use one of those butterfly jars to collect the distillate.
+          - **Player:** Thanks!
+        - (Condition: Without butterfly jars:)
+          - **Chemist:** Once that's done, get one of those butterfly jars to collect the distillate.
+          - **Player:** Thanks!
+  - [Choice]: About the Task System...
+    - (Condition: If the player has completed the medium Falador achievements, but not yet claimed the rewards:)
+      - **Player:** I've come for my reward.
+      - **Chemist:** So, you've finished, well done! I believe congratulations are in order.
+      - **Player:** I believe rewards are in order.
+      - **Chemist:** Right you are.
+      - (receives=Falador shield 2 and Antique lamp (Medium Falador Tasks))
+      - **Chemist:** This is the second stage of the Falador shield: a kiteshield. It grants you all the benefits of the buckler, but with increased Prayer restore, and increased Farming experience when using the patches near Falador.
+      - **Chemist:** As before, Prayer restore can only be used once per day, but it now restores half of your Prayer points.
+      - **Chemist:** The increased Farming experience is only available at the allotments, flower and herb patches found just north of Port Sarim.
+      - **Chemist:** As well as all of these features, the shield is pretty handy in combat, and gives you a good Prayer boost.
+      - **Chemist:** I've even thrown in an old lamp I found. Try as I might, I can't fill it with fuel or get it to light.
+      - **Player:** Wow, thanks!
+      - **Chemist:** If you should lose your shield, come back and see me for another one.
+      - (continue)
+    - (Condition: If the player has lost their Falador shield 2:)
+      - **Player:** I've lost my shield.
+      - **Chemist:** What? That was valuable equipment!
+      - **Chemist:** Luckily, I have a spare. Take better care of it next time.
+      - (receives=Falador shield 2)
+      - (continue)
+    - [Menu]: Choose an option:
+      - [Choice]: Tell me about the Achievement System.{{anchor|achievements}}
+        - **Chemist:** Very well: the Achievement System is a collection of deeds you may wish to complete while adventuring around the world.
+        - **Chemist:** You can earn special rewards for completing certain achievements; at the very least, each is worth a cash bounty from Explorer Jack in Lumbridge.
+        - **Chemist:** Some also give items that will help complete other tasks, and many count as progress towards the set for the area they're in.
+        - [Menu]: Choose an option:
+          - [Choice]: Tell me about the set reward for this locality.
+            - **Player:** Tell me about the set reward for this area.
+            - **Chemist:** For completing the Falador set, you are presented with a shield.
+            - **Chemist:** This shield will then be upgraded with each difficulty level of the set that you complete.
+            - **Chemist:** When you are presented with your rewards, you will be told of their uses.
+            - You may also see what rewards a set item provides by hovering over the Rewards icon for its Exploration Achievement set in the Achievements interface.
+            - (previous)
+          - [Choice]: How do I claim these rewards?
+            - **Player:** How do I claim the rewards?
+            - **Chemist:** You need to complete all of the tasks in a set a particular difficulty, then you can claim your reward.
+            - **Chemist:** Some of the Falador set's tasks are simple, some will require certain skill levels, and some might require quests to be started or completed.
+            - **Chemist:** To claim your Falador set rewards, speak to Redbeard Frank in Port Sarim, Sir Vyvin's squire in the White Knights' Castle, or myself.
+            - (previous)
+          - [Choice]: Sorry, I was just leaving.
+            - (end)
+      - [Choice]: Could I buy a spare of the reward?
+        - [Menu]: Choose an option:
+          - [Choice]: Falador shield 1
+            - **Chemist:** Falador shield 1? Yes, but I'm afraid it would cost you 1,500 coins.
+            - [Menu]: Purchase another for 1,500 coins?
+              - [Choice]: Yes
+                - (receives=Falador shield 1) (removes=1,500 coins)
+                - [You're handed another Falador shield 1.]
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Falador shield 2
+            - **Chemist:** Falador shield 2? Yes, but I'm afraid it would cost you 2,500 coins.
+            - [Menu]: Purchase another for 2,500 coins?
+              - [Choice]: Yes
+                - (receives=Falador shield 2) (removes=2,500 coins)
+                - [You're handed another Falador shield 2.]
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Falador shield 3
+            - **Chemist:** Falador shield 3? Yes, but I'm afraid it would cost you 7,500 coins.
+            - [Menu]: Purchase another for 7,500 coins?
+              - [Choice]: Yes
+                - (receives=Falador shield 3) (removes=7,500 coins)
+                - [You're handed another Falador shield 3.]
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Falador shield 4
+            - **Chemist:** Falador shield 4? Yes, but I'm afraid it would cost you 15,000 coins.
+            - [Menu]: Purchase another for 15,000 coins?
+              - [Choice]: Yes
+                - (receives=Falador shield 4) (removes=15,000 coins)
+                - [You're handed another Falador shield 4.]
+              - [Choice]: No
+                - **Player:** No thanks.
+      - [Choice]: Sorry, I was just leaving.
+        - (end)

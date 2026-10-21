@@ -1,0 +1,257 @@
+# Wizard Elriss
+
+- **Original Wiki Page**: [Transcript:Wizard Elriss](https://runescape.wiki/w/Transcript%3AWizard%20Elriss)
+- **Letter**: `W`
+
+---
+
+## Dialogue Transcript
+
+{{incomplete|missing bits of dialogue for Elriss research and omni-talisman conditions}}
+*To access all of this dialogue you must have a Ring of Charos (a) and a set of Runecrafter robes (any colour) equipped.*
+- **Wizard Elriss:** Welcome to the Runecrafting Guild.
+- [Menu]: Select an option
+  - [Choice]: I have some tokens I'd like to cash in.
+    - **Player:** I have some tokens I'd like to cash in.{{anchor|tokens}}
+      - (opens=Runecrafting Guild Rewards)
+  - [Choice]: cond=If the player has a talisman in their backpack|I have a talisman to show you.
+    - **Player:** I have a talisman to show you.
+    - (Condition: If the player has a talisman they haven't shown Wizard Elriss yet:)
+      - {{Transcript missing}}
+    - (Condition: If the player already has an omni-talisman:)
+      - **Wizard Elriss:** You've already shown me that you have all the talismans, which is why I've already given you an omni-talisman!
+      - **Player:** Oh yeah.
+      - (end)
+  - [Choice]: cond=If the player doesn't have an omni-talisman|I've lost my omni-talisman.
+    - **Player:** I've lost my omni-talisman.
+    - **Wizard Elriss:** You lost the talisman? The talisman that some might say was the culmination of my life's work. The only one of its kind. My magnum opus. That talisman?
+    - **Player:** Yes.
+    - **Wizard Elriss:** I suppose I can make you a new one, but the materials need to be paid for. I suppose I could part with another one for 50,000 coins.
+    - [Menu]: Select an option
+      - [Choice]: Pay the 50,000 coins.
+        - (removes=50,000 coins)
+        - (receives=Omni-talisman)
+        - **Wizard Elriss:** Oh, well. Here's another one. Do try to be careful with it this time.
+        - (end)
+      - [Choice]: Not right now.
+        - **Wizard Elriss:** Oh, well. If you change your mind I will be here.
+        - (end)
+  - [Choice]: What is this place?
+    - **Player:** What is this place?
+    - **Wizard Elriss:** This is the Runecrafting Guild, as I said. After the secret of Runecrafting was re-discovered, I set up the guild as a place for the most advanced runecrafters to work together.
+    - [Menu]: Choose an option
+      - [Choice]: Work together towards what?
+        - **Player:** Work together towards what?
+        - **Wizard Elriss:** Towards a greater understanding of Runecrafting, of course. The basics of Runecrafting were preserved when the first Tower was destroyed, but many of the more advanced secrets remain unknown.
+        - [Menu]: Select an option
+          - [Choice]: What secrets?
+            - **Player:** What secrets?
+            - **Wizard Elriss:** Oh, nothing to interest an adventurer such as yourself, I'm sure.
+            - [Menu]: Select an option
+              - [Choice]: I am interested.
+                - **Player:** I am interested.
+                - **Wizard Elriss:** We all have our projects, adventurer. Acantha and Vief are happy to involve junior runecrafters in their feud, but others prefer to keep their research private until it is revealed.
+                - **Wizard Elriss:** An idea may be subject to cruel ridicule if it is aired prematurely, as I have learned to my cost. You must forgive me if I am not so forthcoming again.
+                - [Menu]: Select an option
+                  - [Choice]: Never mind, then.
+                    - **Player:** Never mind, then.
+                    - (initial)
+                  - [Choice]: Go on, tell me.
+                    - **Player:** Go on, tell me,
+                    - **Wizard Elriss:** Leave me be!
+                    - (end)
+                  - [Choice]: cond=If the player is wearing the Ring of charos (a)|[Charm] You can tell me.
+                    - **Player:** You can tell me.
+                    - **Wizard Elriss:** You do seem trustworthy. I suppose it can't hurt to tell you a little.
+                    - **Wizard Elriss:** I am searching for an artefact that gives off a very specific type of energy. After many years of research, I think I'm finally drawing near.
+                    - [Menu]: Select an option
+                      - [Choice]: How are you looking for it?
+                        - **Player:** How are you looking for it?
+                        - (Condition: If the player is not wearing a full set of Runecrafter robes:)
+                          - **Wizard Elriss:** You are barely a member of this guild. Anyone can see you don't fit in here. I don't think I need to explain my methods to you.
+                          - [Menu]: Select an option
+                            - [Choice]: What artefact are you looking for?
+                              - (below)
+                            - [Choice]: Well, good luck with that.
+                              - (below)
+                        - (Condition: If the player is wearing a full set of Runecrafter robes:)
+                          - **Wizard Elriss:** You have already been helping me, actually. I am using the Runecrafting altars to triangulate the artefact's position. Every time Acantha and Vief send teams through around the altars, the signal's position becomes a little clearer.
+                          - You were using me!
+                            - **Player:** You were using me!
+                            - **Wizard Elriss:** People use one another. That is how life is. Years ago, a treasure hunter used me on his quest for this artefact - used me in a far more hurtful way than I've used you. after he left, however, I worked out what he was after and it set me on this line of research. If you are strong enough, you will learn from this. If not, I have no time for you and no sympathy.
+                              - Who was it? What happened?
+                                - **Player:** Who was it? What happened?
+                                - **Wizard Elriss:** We were apprentices together here. He left after graduating, but a few years later he cane back. I was young and naive and fell in love. I thought he would stay at the tower but he never wanted me to be a proper wizard. He was a treasure hunter, stealing magical artefacts from tombs and selling them for base gold. He used me to get at the tower's records and was never interested in me. He only wanted to look in the records for clues about the artefact's location. I saw what he was reading and tried to help him, but he was angry. He wanted to keep his research secret from me! Once he had what he was looking for, he left without a word. Well, now I have no use for him. I went over what he had been reading and found the clues he had found. I will find that artefact, and I will use its power to crush him like an insect.
+                      - [Choice]: What artefact are you looking for?
+                        - **Player:** What artefact are you looking for?
+                        - (Condition: If the player is not wearing a full set of Runecrafter robes:)
+                          - **Wizard Elriss:** Even if I told you, it would mean nothing to you. You are not yet ready for Runecrafting's inner secrets.
+                          - [Menu]: Select an option
+                            - [Choice]: How are you looking for it?
+                              - (above)
+                            - [Choice]: Well, good luck with that.
+                              - (below)
+                        - (Condition: If the player is wearing a full set of Runecrafter robes:)
+                          - **Wizard Elriss:** I know you are an experienced runecrafter, unlike the wizards of the tower. Perhaps you will understand.
+                          - **Wizard Elriss:** Have you ever wondered how the rune essence and rune altars came to be? How the altars and rune essence can work together when they are so spread out?
+                          - **Wizard Elriss:** The wizards called this the Eye of Saradomin. That is what I am looking for. None of the other wizards believe it is possible, which is why I am working secretly. When I find it, it's power will be all mine.
+                      - [Choice]: Well, good luck with that.
+                        - **Player:** Well, good luck with that.
+                        - (initial)
+              - [Choice]: Yeah, I'm not really interested.
+                - **Player:** Yeah, I'm not really interested.
+                - **Wizard Elriss:** Was there something else you wanted?
+                - (initial)
+          - [Choice]: Acantha and Vief are hardly working together!
+            - (below)
+          - [Choice]: Where are we exactly?
+            - (below)
+          - [Choice]: What can I do here?
+            - (below)
+          - [Choice]: Never mind.
+            - **Player:** Never mind.
+            - (end)
+      - [Choice]: Acantha and Vief are hardly working together!
+        - **Player:** Acantha and Vief are hardly working together!
+        - **Wizard Elriss:** Aren't they? They think that their debate about orb colour is so important, but do you really think it matters which team you join?
+        - [Menu]: Select an option|anchor=matters
+          - [Choice]: Of course it matters.
+            - **Player:** Of course it matters.
+            - **Wizard Elriss:** Of course it does, of course it does. Be careful which team you join, then. I'll accept your reward tokens, either way.
+            - (initial)
+          - [Choice]: No, I suppose not.
+            - **Player:** No, I suppose not.
+            - **Wizard Elriss:** No. The important thing is that the orbs get pushed back into the altars, whatever colour they are.
+            - (initial)
+          - [Choice]: Never mind.
+            - **Player:** Never mind.
+            - (end)
+      - [Choice]: Where are we exactly?
+        - **Player:** Where are we exactly?
+        - **Wizard Elriss:** You will notice that, whenever you use a Runecrafting altar, you enter another plane: a self-contained island, or cave, or some other place, which contains the true altar.
+        - **Wizard Elriss:** These temples are not exactly on Gielinor. They are pocket dimensions unto themselves: areas of folded space created by the energy of the rune altar.
+        - [Menu]: Select an option
+          - [Choice]: So we're in something similar?
+            - **Player:** So we're in something similar?
+            - **Wizard Elriss:** Quite right. This is a shadow of Wizard's Tower, created by our own magic - also known as the Runespan. What better place to study the mysteries of Runecrafting?
+            - (end)
+          - [Choice]: What does that have to do with the guild?
+            - **Player:** What does that have to do with the guild?
+            - **Wizard Elriss:** Don't you see? The Runecrafting Guild exists in a similar pocket dimension, created by our own magic - also known as the Runespan. What better place to study the mysteries of Runecrafting?
+            - (end)
+          - [Choice]: Not the Astral Altar. That has no pocket dimension.
+            - **Player:** Not the Astral Altar. That has no pocket dimension.
+            - **Wizard Elriss:** Quite right. I have heard of the Astral Altar, although I have not been there myself.
+            - **Wizard Elriss:** The lunar wizards have found a way to keep the altar open. Their magic has flattened out the space around the altar so the pocket dimension becomes part of normal space.
+            - (end)
+      - [Choice]: What can I do here?
+        - (below)
+      - [Choice]: Never mind.
+        - **Player:** Never mind.
+        - (end)
+  - [Choice]: What can I do here?
+    - **Player:** What can I do here?
+    - **Wizard Elriss:** Wizard Acantha and Wizard Vief are running The Great Orb Project. It requires large numbers of runecrafters, so you should speak with them if you want something to do.
+    - **Wizard Elriss:** Wizard Korvak has visited the Abyss and can repair abyssal pouches, I, myself, am working on a new kind of talisman: the omni-talisman.
+    - [Menu]: Select an option
+      - [Choice]: Tell me about Acantha and Vief's project.
+        - **Player:** Tell me about Acantha and Vief's project.
+        - {{anchor|instructions}}**Wizard Elriss:** The Orb Proj...I beg your pardon, The Great Orb Project? It's truly fascinating. Wizards Acantha and Vief have found that energy leaks out of some of the Runecrafting altars. They are recruiting teams of experienced runecrafters such as yourself, to force the energy back in.
+        - **Wizard Elriss:** Join one of the teams by speaking to Wizard Acantha of Wizard Vief. When the wizards have enough helpers, I will open a portal to the Air Altar.
+        - **Wizard Elriss:** The energy appears in the form of floating orbs. These can be moved by means of wands that attract or repel them. Acantha or Vief will give you one of each wand.
+        - **Wizard Elriss:** Your goal is to move the correct colour orb to the altar stone, while keeping the other orbs away. Wizard Acantha favours the green orbs, while Wizard Vief favours the yellow ones.
+        - **Wizard Elriss:** You will also have a third wand, which allows you to create magical barriers to block the opposing team's orbs.
+        - ** Wizard Elriss:** After two minutes, the team that absorbed the most orbs wins that altar. I then open the portal to the next altar in the sequence. After you have visited all eight altars, you will be returned here.
+        - [Menu]: Select an option
+          - [Choice]: What's in it for me?
+            - **Player:** What's in it for me?
+            - **Wizard Elriss:** A fair question. We have agreed on a token scheme that allows you to choose from several rewards. When you return from the last altar, your senior wizard will give you a number of tokens.
+            - **Wizard Elriss:** You will get 50 tokens per altar that your team captured, provided that you contributed to the capture in some way. You will get an extra 100 tokens if your team captured more altars overall, or 50 extra if it is a draw.
+            - **Wizard Elriss:** You can exchange the tokens for rewards by speaking to me.
+            - **Wizard Elriss:** You may also find rune essence appearing in your inventory at the end of each round. This is a side-product of the absorption process and you are free to use it as you wish.
+            - [Menu]: Select an option
+              - [Choice]: I have some tokens I'd like to cash in.
+                - (above|tokens)
+              - [Choice]: What rewards are there?
+                - **Player:** What rewards are there?
+                - **Wizard Elriss:** The rewards include runemaster robes, designed to protect you while Runecrafting. These robes also let you move orbs a little further - if you wear robes of the same colour as the orb.
+                - **Wizard Elriss:** Another reward is the Runecrafting staff. This cam be combined with a talisman, in the same way that a tiara can.
+                - **Wizard Elriss:** I also offer teleport tablets to the various altars.
+                - **Wizard Elriss:** You may also trade your tokens in for talismans and certificates you can exchange at a bank for rune essence.
+                - [Menu]: Select an option
+                  - [Choice]: I have some tokens I'd like to cash in.
+                    - (above|tokens)
+                  - [Choice]: Could you go over the instructions again?
+                    - (below)
+                  - [Choice]: Which colour orb is best?
+                    - (below)
+                  - [Choice]: Thanks.
+                    - (below)
+              - [Choice]: Could you go over the instructions again?
+                - (below)
+              - [Choice]: Which colour orb is best?
+                - (below)
+              - [Choice]: Thanks.
+                - (below)
+          - [Choice]: Could you go over the instructions again?
+            - **Player:** Could you go over the instructions again?
+            - (above|instructions)
+          - [Choice]: Which colour orb is best?
+            - **Player:** Which colour orb is best?
+            - **Wizard Elriss:** Wizard Acantha believes that the green orbs are best. Wizard Vief believe that the yellow ones are. You should help out the wizard whose team you join.
+            - **Player:** But what do you think?
+            - **Wizard Elriss:** Does it matter?
+            - (above2|matters)
+          - [Choice]: Thanks.
+            - **Player:** Thanks.
+            - (end)
+      - [Choice]: Tell me about the omni-talisman.
+        - **Player:** Tell me about the omni-talisman.
+        - **Wizard Elriss:** I have spent many years studying the Runecrafting talismans, and I believe I can create a new form of talisman that combines the properties of all of them.
+        - **Wizard Elriss:** This omni-talisman will allow you to access any of the Runecrafting altars. It can be combined with a tiara or a staff, just like an ordinary talisman.
+        - **Wizard Elriss:** If you show me each type of known talisman, I will create an omni-talisman for you. For each talisman you show me, I will also teach you a bit about Runecrafting.
+        - [Menu]: Select an option
+          - [Choice]: I have a talisman to show you.
+            - **Player:** I have a talisman to show you.
+            - (Condition: If the player has a new talisman:)
+              - {{Transcript missing}}
+            - (Condition: If the player has already obtained an omni-talisman before:)
+              - **Wizard Elriss:** You've already shown me that you have all the talismans, which is why I've already given you an omni-talisman!
+              - **Player:** Oh yeah.
+              - (end)
+          - [Choice]: Never mind.
+            - **Player:** Never mind.
+            - (end)
+      - [Choice]: Tell me about Wizard Korvak's pouch repairs.
+        - **Player:** Tell me about Wizard Korvak's pouch repairs.
+        - **Wizard Elriss:** Wizard Korvak is the only one of us to have visited the Abyss. He learned about rune pouches and how to repair them.
+        - **Wizard Elriss:** None of us quite knows how he does it, and I'm not sure he does either, but it seems to work.
+        - (initial)
+      - [Choice]: Never mind.
+        - **Player:** Never mind.
+        - (end)
+  - [Choice]: Who is that wizard outside the guild portal?
+    - **Wizard Elriss:** Ah you have met Wizard Finix; a promising young wizard.
+    - **Wizard Elriss:** Even if he does have some rather controversial theories.
+    - **Player:** What theories has he come up with?
+    - **Wizard Elriss:** His boldest theory is that the altars are not endless pools of energy, as we though they were. His research notes seem to be in order, but I find myself seriously questioning the validity of that statement.
+    - **Player:** Why?
+    - **Wizard Elriss:** Many of the current theories on the altars are based on the long-held assumption that the altars are everlasting.
+    - **Wizard Elriss:** If that assumption is proven to be untrue, it sets our work back by quite a margin.
+    - **Wizard Elriss:** The trouble is, the implications of him being correct are so great we cannot ignore his theories until we have either proven or disproven them.
+    - **Player:** What implications are these?
+    - **Wizard Elriss:** The human ability to perform magic is something that helps protect us from those that wish us harm. Without runes, we would not be able to perform magic, and that would be a rather dire situation.
+    - **Player:** Is there nothing we can do?
+    - **Wizard Elriss:** Wizard Finix has come up with a proposed solution. He has come up with a method of siphoning runic energy from sources other than the altars.
+    - **Wizard Elriss:** Wizard Finix believes that the world around us is made up of runic energy, but his studies came to a halt when he failed to siphon runic energy from Gielinor.
+    - **Player:** Do we know why it didn't work?
+    - **Wizard Elriss:** Nobody knows for sure. Some believe that his theory is incorrect. Other believe that it could be correct, but that it would take a runecrafter of immense talent to siphon runic energy from Gielinor itself.
+    - **Wizard Elriss:** Whoever is right, I have found myself with no choice but to open the Runespan up for investigation into this siphoning method.
+    - **Player:** The Runespan?
+    - **Wizard Elriss:** The Runespan is a plane in which the runecrafting Guild is situated. It is a chaotic plane with a runic energy flying around, unbound to anything, which makes it perfect for siphoning training.
+    - **Wizard Elriss:** Hopefully, if we can train up enough runecrafters, one day we may be able to siphon energy from Gielinor.
+    - **Player:** I had better get out there and start training, then!
+    - **Wizard Elriss:** You efforts would be very much appreciated, Player.
+    - (end)
+<!--*Never mind.
+  - **Player:** Never mind.-->

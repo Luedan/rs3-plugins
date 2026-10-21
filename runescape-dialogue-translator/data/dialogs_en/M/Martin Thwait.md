@@ -1,0 +1,114 @@
+# Martin Thwait
+
+- **Original Wiki Page**: [Transcript:Martin Thwait](https://runescape.wiki/w/Transcript%3AMartin%20Thwait)
+- **Letter**: `M`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Martin Thwait:** You know it's sometimes funny how things work out... I lose some gold but find an item, or I lose an item and find some gold. No-one ever knows what's gone where, ya know.
+- [Menu]: Choose an option:
+  - [Choice]: Yeah, I know what you mean. Found anything recently?
+    - *(If the player does not meet the skill requirements:)*
+      - **Martin Thwait:** Sorry, mate. Train up your Thieving skill to at least 50 and I might be able to help you out.
+    - *(If the player meets the skill requirements:)*
+      - (opens=Martin Thwait's Lost and Found)
+  - [Choice]: cond=If the player has 99 Thieving|I've noticed there are a couple of versions of each skillcape.
+    - **Martin Thwait:** Yes! We, the skill masters, have crafted new versions of all skillcapes! We felt like it was time for a change.
+    - (Condition: If you use the old model:)
+      - **Martin Thwait:** It looks like you're currently using the old model for your Thieving skillcape. Would you like to change to the newer one?
+      - (continue)
+    - (Condition: If you use the new model:)
+      - **Martin Thwait:** You can still choose to wear the old model skillcape if you want. Would you like to change which model you are currently using?
+      - (continue)
+    - [Menu]: Select an Option
+      - [Choice]: Yes, I would like to wear the [new/old] version of the skillcape.
+        - **Martin Thwait:** Would you like to wear the [old/newer] model for just this cape, or for the Quest Cape and all of the skillcapes you own?
+        - [Menu]: Select an Option
+          - [Choice]: I would just like to change the Thieving skillcape.
+            - **Martin Thwait:** No problem, you will now use the [older/newer] model for your Thieving skillcape.
+          - [Choice]: I would like to change all my skillcapes.
+            - **Martin Thwait:** No problem, you will now use the [older/newer] model for all of your skillcapes!
+          - [Choice]: I've changed my mind!
+            - (end)
+      - [Choice]: No, thank you.
+        - **Martin Thwait:** Great! I'm glad you're still enjoying the [old/new] version!
+        - (Condition: If the player uses the new model for any other skillcape:)
+          - **Martin Thwait:** If you want, I can make it so you use the old model for all of the skillcapes you own.
+          - [Menu]: Select an Option
+            - [Choice]: Ok, I'd like to wear the old version for all my skillcapes.
+              - **Martin Thwait:** Great, you will now use the old model for all of your skillcapes!
+            - [Choice]: No, thanks.
+              - (end)
+  - [Choice]: cond=If the player has 99 Thieving|Can I buy a skillcape of Thieving?
+    - (Condition: If the player has a ring of charos (a) equipped:)
+      - **Martin Thwait:** I don't do this for anyone, but I've got a special offer today! Normally I require 99,000 coins for this prestigious item, but for you it's half price. Only 92,000 coins!
+      - [Menu]: Choose an option:
+        - [Choice]: 92,000 coins? That's much too expensive.
+          - **Player:** I know where to find you if I change my mind.
+        - [Choice]: I think I have the money right here, actually.
+          - (Condition: If the player has no backpack space:)
+            - **Martin Thwait:** Unfortunately all skillcapes are only available with a free hood, it's part of a skill promotion deal; buy one get one free, you know. So, you'll need to free up some backpack space before I can sell you one.
+          - (Condition: If the player does not have enough money:)
+            - **Player:** But unfortunately, I was mistaken.
+            - **Martin Thwait:** Well, come back and see me when you do.
+          - (Condition: If the player has enough money:)
+            - (receives=Thieving cape and Thieving hood) (removes=92,000 coins)
+            - **Martin Thwait:** Excellent! Wear that cape with pride my friend.
+        - [Choice]: cond=If the player has 120 Thieving|I've mastered this skill. Is there anything else?
+          - **Martin Thwait:** There is something...though I have kept it a secret for a very long time. It is something that can only be worn by a true master.
+          - **Martin Thwait:** Not even I can wear it - that's how hard it is to achieve.
+          - **Martin Thwait:** You say you're a master. Stand straight, let me take a look at you.
+          - **Martin Thwait:** You...really have mastered it. What an honour! It would be my pleasure to sell you a Thieving master cape.
+          - [Menu]: Buy Thieving master cape for 120,000 coins?
+            - [Choice]: Yes.
+              - (Condition: If the player has no backpack space:)
+                - **Martin Thwait:** You do not have enough room in your backpack. Please come back when you have some more.
+              - (Condition: If the player does not have enough money:)
+                - You do not have enough money to purchase this cape.
+              - (Condition: If the player has enough money:)
+                - (receives=Thieving master cape) (removes=120,000 coins)
+                - {{qact|Master cape music plays.}}
+            - [Choice]: No.
+              - (end)
+    - (Condition: If the player does not have a ring of charos (a) equipped:)
+      - **Martin Thwait:** Looks like you've picked enough pockets for 99,000 coins if you know what I mean...
+      - (Condition: If the player has an inverted skillcape token or inverted master skillcape token in their inventory attuned to Thieving:)
+        - **Martin Thwait:** I see you have one of Hans' cape inversion tokens! I'll take that off your hands, and will sell you any inverted cape you're eligible for.
+        - (removes=any inverted skillcape token or inverted master skillcape token)
+        - (continue)
+      - [Menu]: Choose an option:
+        - [Choice]: 99,000 coins? That's much too expensive.
+          - **Player:** I know where to find you if I change my mind.
+        - [Choice]: I think I have the money right here, actually.
+          - (Condition: If the player has no backpack space:)
+            - (above)
+          - (Condition: If the player does not have enough money:)
+            - (above)
+          - (Condition: If the player has enough money:)
+            - (receives=Thieving cape and Thieving hood) (removes=99,000 coins)
+            - **Martin Thwait:** Excellent! Wear that cape with pride my friend.
+        - [Choice]: cond=If the player has given Martin Thwait an inverted skillcape token:|I'd like a skillcape with the colours inverted.
+          - (Condition: Without free backpack space:)
+            - **Martin Thwait:** Unfortunately you'll need to free up some backpack space before I can sell you one.
+          - (Condition: With free backpack space:)
+            - ((Same as above, but for an inverted hooded Thieving cape.))
+        - [Choice]: cond=If the player has 120 Thieving|I've mastered this skill. Is there anything else?
+          - (above)
+        - [Choice]: cond=If the player has given Martin Thwait an inverted master skillcape token:|I'd like a master cape with the colours inverted.
+          - ((Same as above, but for an inverted Thieving master cape.))
+  - [Choice]: Can you help me with the camouflage outfits?
+    - ((If the player can't receive camouflage fragments and hasn't unlocked the blueprint required to make the outfit pieces:))
+      - **Martin Thwait:** At level 70 you can start to collect fragments to make elite skilling outfits. When you get to that level you will automatically start collecting fragments. Then you can use them with a blueprint to make yourself any remaining elite outfit pieces for this skill.
+    - ((If the player can receive camouflage fragments but hasn't unlocked the blueprint required to make the outfit pieces:))
+      - **Martin Thwait:** You are set up to receive fragments. When you get to level 80 you will be able to create outfit pieces.
+    - ((If the player can receive camouflage fragments and has unlocked the blueprint required to make the outfit pieces:))
+      - **Martin Thwait:** You are set up to receive fragments. When you have 3600 fragments you can use them to create an elite outfit piece. Simply go to an Invention workbench to create the pieces.
+    - ((If the player owns the full master camouflage outfit, or all of the outfit pieces required to craft it:))
+      - **Martin Thwait:** You have already created all of the possible outfit pieces. I will make sure you do not receive any further fragments. Remember you can combine the base outfit pieces to make the high tier versions, to get the additional benefits.
+  - [Choice]: Okay... I'll be going now.
+    - **Player:** Okay... I'll be going now.

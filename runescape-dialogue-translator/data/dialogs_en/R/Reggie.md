@@ -1,0 +1,98 @@
+# Reggie
+
+- **Original Wiki Page**: [Transcript:Reggie](https://runescape.wiki/w/Transcript%3AReggie)
+- **Letter**: `R`
+
+---
+
+## Dialogue Transcript
+
+
+### In the Fist of Guthix waiting area
+
+- **Reggie:** Welcome, adventurer. Have you come to have a look at my fine wares?
+- [Menu]: Select an Option
+  - [Choice]: Yes, I want to see what you're selling.
+    - (opens=Fist of Guthix Reward Shop)
+  - [Choice]: No, I have some questions.
+    - [Menu]: Select an Option
+      - [Choice]: What currency are you trading in?
+        - **Player:** What currency are you trading in? It doesn't seem to be regular coins.
+        - **Reggie:** You are absolutely right, my friend. I exchange my goods for so called Fist of Guthix tokens.
+        - [Menu]: Select an Option
+          - [Choice]: How can I get hold of these tokens?
+            - **Reggie:** We run a little business here, together with Fiara. You see, this is a holy site of Guthix and there is great power emanating from that cave over there. We're not quite sure what it is yet, but it has to do with Guthix itself.
+            - **Reggie:** We try to store as much as we can, so that we're ready to use it once we know what it's for.
+            - **Player:** And what does that have to do with the tokens?
+            - **Reggie:** Oh yes, the tokens. Everyone is free to enter the contest we're running here, and the winners are rewarded with tokens which you can then trade in for goods. If you want to know more, you should speak to Fiara.
+            - [Menu]: Select an Option
+              - [Choice]: I want to see what you're trading first.
+                - (opens=Fist of Guthix Reward Shop)
+              - [Choice]: I have more questions that I want answered.
+                - (previous2|questions)
+              - [Choice]: Alright, I will do that.
+          - [Choice]: What are Fist of Guthix tokens?
+            - **Player:** What are Fist of Guthix tokens?
+            - **Reggie:** Oh, they're nothing special in themselves. They are just tokens we use as currency.
+            - [Menu]: Select an Option
+              - [Choice]: What are you selling?
+                - (opens=Fist of Guthix Reward Shop)
+              - [Choice]: How can I get hold of these tokens?
+                - (above|tokens)
+              - [Choice]: I have another question.
+                - (previous2|questions)
+          - [Choice]: I have to go now.
+            - **Player:** I have to go now.
+      - [Choice]: Can you recharge my items?
+        - **Player:** Can you recharge my items?
+        - **Reggie:** By items, I assume you mean items originally acquired from me. If so, the answer is yes, my friend. I gladly spread the power of Guthix, if I am able to.
+        - **Player:** That's great.
+        - **Reggie:** It certainly is. The power of Guthix does not come cheaply, though. So, I'm afraid I will have to charge you some tokens for it. And I can only recharge items that have been completely depleted of their magical energy.
+        - **Player:** Sounds fair. So, how do I go about doing this?
+        - **Reggie:** Just hand me the item you want recharged and I'll see what I can do.
+        - [Menu]: Select an Option
+          - [Choice]: I want to see what you're selling first.
+            - (opens=Fist of Guthix Reward Shop)
+          - [Choice]: How can I get hold of these tokens?
+            - (above|tokens)
+          - [Choice]: I still have more questions.
+            - (previous|questions)
+          - [Choice]: Okay, I'll do that.
+            - **Player:** Okay, I'll do that.
+      - [Choice]: Can you uncharge my items?
+        - **Player:** Can you uncharge my items for me?
+        - **Reggie:** You don't want to keep the power of Guthix? That's strange. But yes, of course I can do this for you. Please be aware that you won't get anything in return, except the degraded item, and it will cost you tokens to have it charged again.
+        - **Player:** Yes, I will keep that in mind.
+        - **Reggie:** Good. In that case, just hand me the item from which you want the charge removed.
+        - [Menu]: Select an Option
+          - [Choice]: I want to see what you're selling first.
+            - (opens=Fist of Guthix Reward Shop)
+          - [Choice]: How can I get hold of these tokens?
+            - (above|tokens)
+          - [Choice]: I still have more questions.
+            - (previous|questions)
+          - [Choice]: Okay, I'll do that.
+            - **Player:** Okay, I'll do that.
+      - [Choice]: Why do all of your wares degrade?
+        - **Player:**Why do all of your wares degrade? I have seen plenty of similar items in my days, but they all seem to last a lot longer than yours.
+        - **Reggie:** A most accurate observation, my friend. But the other items you've come across in your travels most certainly have not been directly infused with the power emanating from the Fist of Guthix.
+        - **Player:** Umm...I suppose not. But wouldn't the power of Guthix have made the items stronger?
+        - **Reggie:** Why, yes, they have. Keeping a shop so close to the source of this power has resulted in the items being infused with energy. This makes them stronger than they normally would have been, but, unfortunately, they are
+        - **Reggie:** hardly suitable vessels for such divine power. As they are being used, the power will be spent, and all that will remain is an empty, weakened shell. When this happens, just come back to me and I will gladly recharge them for you.
+        - **Player:** ...For a small fee.
+        - **Reggie:** Haha. Yes, my friend, for a small fee. The power of a god does not come cheaply, not even in small doses. If we were to give it out for free, we would run out of resources in an instant. Balance must be maintained.
+        - **Player:**Okay, I will keep that in mind. Thank you.
+        - **Reggie:** Now, is there anything else I can help you with?
+        - [Menu]: Select an Option
+          - [Choice]: What are you selling?
+            - (opens=Fist of Guthix Reward Shop)
+          - [Choice]: How can I get hold of these tokens?
+            - (above|tokens)
+          - [Choice]: I have another question.
+            - (previous|questions)
+          - [Choice]: I have to go now.
+            - **Player:** I have to go now.
+      - [Choice]: I have to leave now.
+        - **Player:** Sorry, I have to leave now. Goodbye.
+  - [Choice]: No, I'm just passing by.
+    - **Player:** No, I'm just passing by.

@@ -1,0 +1,169 @@
+# Hunting expert (Rellekka Hunter area)
+
+- **Original Wiki Page**: [Transcript:Hunting expert (Rellekka Hunter area)](https://runescape.wiki/w/Transcript%3AHunting%20expert%20%28Rellekka%20Hunter%20area%29)
+- **Letter**: `H`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### At the Rellekka Hunter area
+
+- **Hunting expert:** Ah, esta es una zona maravillosa para cazar, ¿no crees?
+- [Menu]: Elige una opción:
+  - [Choice]: No lo sé, ¿verdad?
+    - **Player:** No lo sé, ¿verdad?
+    - **Hunting expert:** ¡Oh, absolutamente! Hay una gran variedad de criaturas para atrapar por aquí. ¡Tienes mariposas, kebbits polares, kebbits con dientes de sable, pájaros, skillschompas e incluso kyatts! Seguramente alguno de esos despierta tu interés.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Dónde puedo encontrar kebbits polares?
+        - **Player:** ¿Dónde puedo encontrar kebbits polares?
+        - **Hunting expert:** Curiosamente, acabas de señalar el problema. ¡Con los kebbits polares, encontrarlos es la parte más difícil! Tendrás que localizarlos.
+        - **Player:** ¿Cómo haría entonces para hacerlos?
+        - **Hunting expert:** La forma más fácil de comenzar es buscar en algún lugar donde puedas estar seguro de que habrá estado un kebbit y luego trabajar desde allí. ¿Ves los agujeros por aquí que conducen al hielo? ¡Son madrigueras de kebbit!
+        - **Hunting expert:** Te resultará difícil encontrar un kebbit polar en su hogar, pero si buscas alrededor de la entrada de una madriguera, es posible que puedas encontrar un rastro.
+        - **Hunting expert:** Ahora, los senderos de kebbit suelen ser bastante fáciles de seguir una vez que los has encontrado, pero si el rastro desaparece, deberías intentar inspeccionar el paisaje circundante en busca de pistas sobre adónde pudo haber ido la criatura.
+        - **Hunting expert:** Buenos lugares para buscar pistas incluyen logs huecos en los que puede haberse escondido el kebbit o vegetación que puede haber sido masticada o dañada.
+        - **Hunting expert:** También hay túneles que atraviesan el hielo y que usan los kebbits, así que deberías revisarlos también.
+        - **Hunting expert:** Es más, estos túneles a menudo pueden ayudar a proteger un sendero de más nieve, lo que te facilita aún más recuperarlos.
+        - **Hunting expert:** Al final, por supuesto, el kebbit probablemente se habrá escondido en algún lugar. Los kebbits polares no permanecen mucho tiempo al aire libre por miedo a sus depredadores naturales.
+        - **Hunting expert:** Si sospechas que hay un kebbit cerca, intenta buscar señales de nieve removida a tu alrededor. Los kebbits polares a menudo se entierran en la nieve para esconderse.
+        - **Hunting expert:** Si crees que has encontrado un kebbit, usa una varita con lazo para sacar a la criatura de la nieve.
+        - **Player:** Vaya, hay mucho que recordar.
+        - **Hunting expert:** No te preocupes, si te cuesta seguir un rastro, solo ven y pregúntame y veré si puedo ayudarte.
+        - **Hunting expert:** Pero recuerda, el mejor lugar para empezar es buscar alrededor de sus madrigueras.
+        - **Player:** Genial, gracias.
+      - [Choice]: ¿Cómo se cazan pájaros?
+        - **Player:** ¿Cómo cazas pájaros?
+        - **Hunting expert:** Ah, puedes conseguir astutas trampas para pájaros solo por eso. Deberías poder encontrarlos en tiendas especializadas Hunter. Intente colocarlos en áreas bastante abiertas con muchas aves.
+        - **Player:** ¿Necesito colocar algún cebo en estas trampas?
+        - **Hunting expert:**No, eso no es necesario. La idea es que el pájaro vea la trampa como un lugar donde posarse. Si el pájaro aterriza en el gatillo, debería caer y un pequeño lazo de alambre debería cerrarse alrededor de las patas del pájaro.
+        - **Hunting expert:**Y recuerda, es importante recolectar las capturas de tus trampas con bastante rapidez; de lo contrario, corres el riesgo de perderlas en manos de varios carroñeros salvajes.
+        - [Menu]: Selecciona una opción
+          - [Choice]: Me gustaría preguntar sobre otra criatura.
+            - (previous)
+          - [Choice]: ¿Cómo puedo mejorar mis posibilidades de capturar una criatura?
+            - **Player:** ¿Cómo puedo mejorar mis posibilidades de capturar una criatura?
+            - **Hunting expert:** Ah, la clave es ocultarte, tanto a ti como a tus trampas.
+            - **Hunting expert:** El punto más obvio es mantenerse fuera de la vista de sus propias trampas. Si es posible, escóndete detrás de una pared, un seto o similar. De lo contrario, asegúrese de estar a unos cuantos metros de distancia de su trampa.
+            - **Hunting expert:** Puedes esconderte aún mejor usando ropa apropiada para el área en la que estás cazando.
+            - **Hunting expert:** Lo mejor que puedes hacer es usar pieles de criaturas nativas de la zona. Hay un muy buen sastre en el este de Varrock que puede ayudarte a confeccionar ropa con esas pieles.
+            - **Hunting expert:** Finalmente, muchas criaturas pueden evitar tus trampas si pueden oler un olor humano en ellas. Aquí es donde fumar una trampa puede ser útil.
+            - **Hunting expert:** Se necesita un poco de práctica, pero usando el humo de una antorcha, puedes enmascarar cualquier otro olor que pueda rodear una trampa.
+            - **Player:** Vaya, gracias por tu ayuda.
+          - [Choice]: Gracias por tu ayuda.
+            - **Player:** Gracias por tu ayuda.
+      - [Choice]: ¿Qué tienen de especial las mariposas?
+        - **Player:** ¿Qué tienen de especial las mariposas?
+        - **Hunting expert:** Eso depende completamente de la mariposa.
+        - **Hunting expert:** Admito que las actividades de muchas mariposas pueden no tener ningún interés. Sin embargo, tenemos la suerte de contar por aquí con algunos buenos ejemplares de mariposas taúmicas.
+        - **Hunting expert:** Se dice que estas mariposas tienen poderes mágicos que, cuando se liberan, pueden fortalecer a una persona o curar heridas que de otro modo serían críticas.
+        - **Hunting expert:** En este punto, debo ofrecer una advertencia: también se dice que estos poderes no se manifestarán si las mariposas son capturadas con fines egoístas.
+        - **Hunting expert:** Más bien, son regalos que una persona debe utilizar para ayudar a otra. Por supuesto, primero tendrás que atraparlos.
+        - **Player:** ¿Y cómo hago eso?
+        - **Hunting expert:** ¡Pues con un cazamariposas, por supuesto! También debes llevar contigo algunos frascos de mariposas vacíos para guardar las mariposas.
+        - [Menu]: Selecciona una opción
+          - [Choice]: Me gustaría preguntar sobre otra criatura.
+            - (arriba)
+          - [Choice]: ¿Cómo puedo mejorar mis posibilidades de capturar una criatura?
+            - (above|improve)
+          - [Choice]: Gracias por tu ayuda.
+            - (arriba)
+      - [Choice]: ¿Cómo puedo capturar un kebbit dientes de sable?
+        - **Player:** ¿Cómo puedo capturar un kebbit con dientes de sable?
+        - **Hunting expert:** Ah, ahora para estas criaturas recomendaría usar una trampa mortal. Los Deadfalls son bastante fáciles de configurar y, aún así, puedes atrapar algunas criaturas de tamaño muy razonable con ellos.
+        - **Hunting expert:**Las trampas mortales funcionan básicamente con un gran peso muerto, como una roca, colocado de manera que quede delicadamente equilibrado sobre algún tipo de cebo.
+        - **Hunting expert:**Deberás asegurarte de tener un cuchillo y algo de madera contigo para crear soportes apropiados y un disparador para este tipo de trampa.
+        - **Hunting expert:**En el caso de los kebbits con dientes de sable, debes utilizar algún tipo de carne cruda como cebo para la trampa, pero otros animales pueden preferir otros cebos, como pescado o verduras.
+        - [Menu]: Selecciona una opción
+          - [Choice]: Me gustaría preguntar sobre otra criatura.
+            - (arriba)
+          - [Choice]: ¿Cómo puedo mejorar mis posibilidades de capturar una criatura?
+            - (above|improve)
+          - [Choice]: Gracias por tu ayuda.
+            - (arriba)
+      - [Choice]: Más
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Qué son los skillschompas?
+            - **Player:** ¿Qué son los skillschompas?
+            - **Hunting expert:** Buena pregunta. Parecen una especie de chinchompa mutada, excepto que en lugar de excitarse mucho y explotar en situaciones de combate, les ha gustado una variedad de recursos naturales.
+            - **Player:** ¿Qué tipo de cosas hacen entonces?
+            - **Hunting expert:** Bueno, claramente han estado observando a los humanos que han estado entrenando sus habilidades y destrezas. ¡Parecen entusiasmarse mucho con la energía de adivinación, los lugares de pesca, las rocas mineras e incluso los árboles!
+            - **Player:** ¿Cómo los cazaría entonces?
+            - **Hunting expert:** Son muy similares a las chinchompas, por lo que necesitarás algunas cajas trampa. Si realmente quieres atraerlos, también puedes utilizar algún cebo. La comida picante parece funcionar.
+            - [Menu]: Selecciona una opción
+              - [Choice]: Me gustaría preguntar sobre otra criatura.
+                - (arriba)
+              - [Choice]: ¿Cómo puedo mejorar mis posibilidades de capturar una criatura?
+                - (above|improve)
+              - [Choice]: Gracias por tu ayuda.
+                - (arriba)
+          - [Choice]: Oh, los kyatts suenan interesantes.
+            - **Player:** Oooh, los kyatts suenan interesantes. Quiero atrapar uno de esos.
+            - **Hunting expert:** Bueno, has puesto tus miras altas, los kyatts son criaturas increíblemente temibles, pero con una determinación como esa, estoy seguro de que lo lograrás.
+            - **Hunting expert:** Ahora, no podrás atrapar un kyatt con solo una caja pequeña, una soga o un palo. Necesitas una trampa mucho más grande.
+            - **Hunting expert:** Las trampas de pozo son una buena apuesta. Lo mejor sería encontrar un hueco natural en el suelo como base para su trampa. Si cavas un hoyo tú mismo, corres el riesgo de que las criaturas noten el suelo perturbado cercano.
+            - **Hunting expert:** Una vez que hayas encontrado un lugar apropiado, necesitarás logs y un cuchillo. El logs tiene dos propósitos.
+            - **Hunting expert:** Algunos se pueden cortar en brochetas afiladas para el fondo del hoyo; Con suerte, el kyatt morirá cuando caiga sobre ellos. Se pueden utilizar otros para ocultar la trampa.
+            - **Hunting expert:** Por supuesto, incluso entonces el pozo parecerá sospechoso, por lo que tendrás que atraer al kyatt hacia las ramas de alguna manera. Lo que realmente tiende a funcionar mejor es, bueno, ¡tú mismo!
+            - **Player:** ¿Qué? No me gusta cómo suena eso.
+            - **Hunting expert:** Sí, esa es la respuesta normal, pero no bromeo. Si realmente quieres que un kyatt te siga por ese pozo, ¡dale un buen empujón!
+            - **Hunting expert:** Por supuesto, te sugiero que uses algo largo para pincharlo. Es probable que pinchar un kyatt con el dedo provoque la pérdida permanente de una extremidad.
+            - **Hunting expert:** Afortunadamente, puedes conseguir muy buenos palos para pinchar en la mayoría de las tiendas Hunter.
+            - **Hunting expert:** Una vez que... hayas captado la atención de la criatura, intenta llevarla a una de tus trampas. Asegúrate de saltar las ramas cuando llegues a la trampa, por supuesto; Sería vergonzoso caer en tu propia trampa.
+            - **Hunting expert:** Entonces, si el kyatt te está prestando toda su atención, con suerte no notará la trampa y, con un poco de suerte, tropezará y caerá directamente en el pozo.
+            - **Player:** Eso suena un poco impredecible, ¡y también algo suicida!
+            - **Hunting expert:** Bueno, eso es lo que lo hace emocionante, ¿no? Pero, sinceramente, si quieres capturar un kyatt, esa es tu mejor opción.
+            - [Menu]: Selecciona una opción
+              - [Choice]: Me gustaría preguntar sobre otra criatura.
+                - (arriba)
+              - [Choice]: ¿Cómo puedo mejorar mis posibilidades de capturar una criatura?
+                - (above|improve)
+              - [Choice]: Gracias por tu ayuda.
+                - (arriba)
+          - [Choice]: Atrás
+            - (previous)
+  - [Choice]: ¿Puedes enseñarme a cazar?
+    - **Player:** ¿Puedes enseñarme a cazar?
+    - **Hunting expert:** Por qué, sin duda. Alcancé la cima de mis habilidades hace algún tiempo, pero estoy más que feliz de ayudar a los recién llegados al campo. ¿Había algo en particular que tuvieras en mente?
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Cuál es el mejor lugar para empezar?
+        - **Player:** ¿Cuál es el mejor lugar para empezar?
+        - **Hunting expert:** Siempre digo que un buen punto de partida es aprender a seguir a las criaturas que quieres capturar. Por aquí, eso significa practicar con kebbits polares.
+        - **Player:** Entonces, ¿cómo puedo localizarlos?
+        - (continuea|polarkebbit)
+      - [Choice]: ¿Qué tipo de criaturas hay para cazar por aquí?
+        - **Player:** ¿Qué tipo de criaturas hay para cazar por aquí?
+        - **Hunting expert:** Bueno, hay prácticamente cualquier cosa que quieras cazar. ¡Tienes mariposas, kebbits polares, kebbits con dientes de sable, pájaros, skillschompas e incluso kyatts! Seguro que alguno de esos te interesa.
+        - (continuea|variety)
+      - [Choice]: ¿Tienes algo a la venta?
+        - **Player:** ¿Tienes algo a la venta?
+        - **Hunting expert:** Creo que tengo algo de equipo de caza por ahí que podría interesarte.
+        - (opens=Hunting Supplies (Rellekka Hunter area))
+      - [Choice]: ¿Cómo puedo mejorar mis posibilidades de capturar una criatura?
+        - (above|improve)
+  - [Choice]: Lo siento, no me gusta mucho la caza.
+    - **Player:** Lo siento, no me gusta mucho la caza.
+    - **Hunting expert:** Qué lástima, parecías alguien que podría haber prometido algo.
+
+#### Al intentar bajar por la entrada de la cueva sin la advertencia desactivada
+
+- **Hunting expert:** ¡Para! Es peligroso ahí abajo. Sigo viendo aventureros bajando allí y nunca regresando.
+- [Menu]: Selecciona una opción
+  - [Choice]: No me lo vuelvas a decir, por favor.
+    - **Player:** Está bien, ya estuve allí y maté al gran yeti. ¿Puedes dejar de advertirme sobre esto, por favor?
+    - **Hunting expert:** Si estás seguro.
+    - [Menu]: Selecciona una opción
+      - [Choice]: Sí, estoy seguro.
+        - **Player:** Sí, estoy seguro.
+        - **Hunting expert:** Tienes razón. No te lo volveré a advertir.
+      - [Choice]: No, mejor no.
+        - **Player:** No, mejor no.
+  - [Choice]: Gracias, lo tendré en cuenta.
+    - **Player:** Gracias, lo tendré en cuenta.
+    - [Menu]: ¿Quieres entrar en la cueva peligrosa?
+      - [Choice]: Sí.
+        - (Action: el player entra en la cueva helada.)
+      - [Choice]: No.
+        - (end)

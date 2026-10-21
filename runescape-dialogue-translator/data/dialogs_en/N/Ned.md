@@ -1,0 +1,272 @@
+# Ned
+
+- **Original Wiki Page**: [Transcript:Ned](https://runescape.wiki/w/Transcript%3ANed)
+- **Letter**: `N`
+
+---
+
+## Dialogue Transcript
+
+
+### In Draynor Village
+
+
+#### Before Dragon Slayer
+
+- [Menu]: What would you like to talk about?
+  - {{anchor|task-system}} [Choice]: About the Task System...
+    - (Condition: If the player has completed the Medium tasks in the Lumbridge and Draynor set and the rewards not claimed:)
+      - **Player:** I've completed all the Medium Tasks in the Lumbridge set.
+      - **Ned:** I can imagine! I'll expect you'll be wanting a reward, eh?
+      - **Player:** Yes, please.
+      - **Ned:** It looks as though you've done a large amount of exploring, so I'll reward you well for your work.
+      - **Player:** Great! Thanks.
+      - (receives=explorer's ring 3 and Antique lamp (Medium Lumbridge Tasks))
+      - Ned hands you a brighter, gold version of the Explorer's Ring.
+      - **Ned:** Now, as before, this ring will retain all the functions of your last two rings, however, this one is better.
+      - **Ned:** Not only do you get a third and final run energy charge, but this particular ring was blessed by the Farming patch spirit herself! You might see her if you hang around Farming patches for a little while.
+      - **Ned:** She gets anxious about people loitering or something odd like that.
+      - **Ned:** Anyway, this ring allows you to travel on the dual-cabbageway!
+      - **Player:** Travel on the what?
+      - **Ned:** Dual-cabbageway. It's a very secret method of travel not widely known across these lands. Using this ring will allow you to travel to the cabbage fields south of Falador.
+      - **Player:** That sounds amazing.
+      - **Ned:** Well, you deserve it. Congratulations on completing all your tasks, my friend.
+      - **Player:** Wow, thanks!
+      - **Ned:** You can also have this old lamp. I don't need it any more - I'm getting too old for adventuring myself. Now, if you should happen to lose that ring, you may come back to me to reclaim it. Anything else?
+      - (continue)
+    - (Condition: If the player has completed the Hard tasks in the Lumbridge and Draynor set and the rewards not claimed:)
+      - **Player:** I've completed all the hard tasks in the Lumbridge set.
+      - **Ned:** My warmest congratulations! I expect you'll be wanting a reward, eh?
+      - **Player:** Yes, please.
+      - **Ned:** Well, it looks like you've explored pretty much everywhere! A suitable reward is in order.
+      - **Player:** Great! Thanks.
+      - (receives=explorer's ring 4 and Antique lamp (Hard Lumbridge Tasks))
+      - Ned hands you a brighter, shinier version of the Explorer's Ring.
+      - **Ned:** Now, as before, this ring will retain all the functions of your last three rings, however, this one is the best of them all.
+      - **Ned:** I got a few wizards to help with it, so it can now give you a few free casts of the High-Alchemy and Superheat Item spells.
+      - **Ned:** Ahh, you also have a chance of not using runes when casting Bones to Bananas, but you don't need the ring for that. Oh, and a hamper has been donated by Lumbridge Castle's cook - you can get that daily.
+      - **Player:** Wow!
+      - **Ned:** You can also have this old lamp. I don't need it any more - I'm getting too old for adventuring myself. Now, if you should happen to lose that ring, you may come back to me to reclaim it. Anything else?
+      - (continue)
+    - (Condition: If the player has lost their Explorer's ring 3:)
+      - **Ned:** Where is the ring that I gave you, Player?
+      - **Player:** I lost it; I'm not sure where.
+      - **Ned:** Yes, I thought so. The look on your face told me as much. I have another one that you may have.
+      - (receives=Explorer's ring 3)
+      - [Ned hands you another ring.]
+      - (continue)
+    - (Condition: If the player has lost their Explorer's ring 4:)
+      - **Ned:** Where is the ring that I gave you, Player?
+      - **Player:** I lost it; I'm not sure where.
+      - **Ned:** Yes, I thought so. The look on your face told me as much. I have another one that you may have.
+      - (receives=Explorer's ring 4)
+      - [Ned hands you another ring.]
+      - (continue)
+    - [Menu]: Choose an option:
+      - [Choice]: Tell me about the Achievement System.
+        - **Ned:** Very well: the Achievement System is a collection of deeds you may wish to complete while adventuring around the world.
+        - **Ned:** You can earn special rewards for completing certain achievements; at the very least, each is worth a cash bounty from Explorer Jack in Lumbridge.
+        - **Ned:** Some also give items that will help complete other achievements, and many count as progress towards the set for the area they're in.
+        - [Menu]: Choose an option:
+          - [Choice]: Tell me about the set reward for this locality.
+            - **Ned:** For completing the Lumbridge and Draynor set, you are presented with an explorer's ring.
+            - **Ned:** This ring will become increasingly useful with each difficulty level of the set that you complete.
+            - **Ned:** When you are presented with your rewards, you will be told of their uses.
+            - You may also see what rewards a set item provides by hovering over the Rewards icon for its Exploration Achievement set in the Achievements interface.
+            - (previous)
+          - [Choice]: How do I claim these rewards?
+            - **Ned:** You need to complete all Tasks in the set of a particular difficulty, then you can claim your reward. Most of the Lumbridge set's Tasks are straightforward, although you might find some require quests to be started, if not finished.
+            - **Ned:** To claim the Lumbridge set rewards, speak to Bob in Bob's Axes in Lumbridge, Explorer Jack in Lumbridge, or myself.
+            - (previous)
+          - [Choice]: Sorry, I was just leaving.
+            - (end)
+      - [Choice]: Could I buy a spare of the reward?
+      - [Menu]: Choose an option:
+        - [Choice]: Explorer's ring 1
+          - **Ned:** Explorer's ring 1? Yes, but I'm afraid it would cost you 500 coins.
+          - [Menu]: Purchase another for 500 coins?
+            - [Choice]: Yes
+              - [You're handed another Explorer's ring 1.]
+              - (receives=Explorer's ring 1) (removes=500 coins)
+            - [Choice]: No
+              - **Player:** No thanks.
+        - [Choice]: Explorer's ring 2
+          - **Ned:** Explorer's ring 2? Yes, but I'm afraid it would cost you 1,000 coins.
+          - [Menu]: Purchase another for 1,000 coins?
+            - [Choice]: Yes
+              - [You're handed another Explorer's ring 2.]
+              - (receives=Explorer's ring 2) (removes=1,000 coins)
+            - [Choice]: No
+              - **Player:** No thanks.
+        - [Choice]: Explorer's ring 3
+          - **Ned:** Explorer's ring 3? Yes, but I'm afraid it would cost you 2,000 coins.
+          - [Menu]: Purchase another for 2,000 coins?
+            - [Choice]: Yes
+              - [You're handed another Explorer's ring 3.]
+              - (receives=Explorer's ring 3) (removes=2,000 coins)
+            - [Choice]: No
+              - **Player:** No thanks.
+        - [Choice]: Explorer's ring 4
+          - **Ned:** Explorer's ring 4? Yes, but I'm afraid it would cost you 10,000 coins.
+          - [Menu]: Purchase another for 10,000 coins?
+            - [Choice]: Yes
+              - [You're handed another Explorer's ring 4.]
+              - (receives=Explorer's ring 4) (removes=10,000 coins)
+            - [Choice]: No
+              - **Player:** No thanks.
+      - [Choice]: Sorry, I was just leaving.
+        - (end)
+  - [Choice]: Talk about something else.
+    - **Ned:** Why, hello there, [lad/lass]. Me friends call me Ned. I was a man of the sea, but it's past me now. Could I be making or selling you some rope?
+    - [Menu]: Choose an option:
+      - {{anchor|yesrope}} [Choice]: Yes, I would like some rope.
+        - **Player:** Yes, I would like some rope.
+        - **Ned:** Well, I can sell you some rope for 15 coins. Or I can be making you some if you gets me 4 balls of wool. I strands them together I does, makes them strong.
+        - **Player:** You make rope from wool?
+        - **Ned:** Of course you can!
+        - **Player:** I thought you needed hemp or jute.
+        - **Ned:** Do you want some rope or not?
+        - [Menu]: Select an Option
+          - [Choice]: Okay, please sell me some rope.
+            - **Player:** Okay, please sell me some rope.
+            - (Condition: If the player has less than 15 coins:)
+              - You can not afford that.
+              - You don't have enough coins to buy any rope!
+            - (Condition: If the player has  15 coins:)
+              - (receives=Rope)
+              - (removes=15 coins)
+              - **Ned:** There you go. <br>Finest rope in Gielinor.
+              - You hand Ned 15 coins. Ned gives you a coil of rope.
+              - (Condition: If the player has also completed The Fremennik Isles:)
+                - **Player:** Thanks. Hmmm, do you know something? This rope has a funny smell.
+                - **Ned:** Really?
+                - **Player:** Yes, It reminds me of...yaks. I was travelling in the Fremennik Isles recently and, do you know what? They made rope out of yak's hair.
+                - **Ned:** What a coincidence?
+                - **Player:** There was a lady over there who sold wool, she said she traded rope for the wool.
+                - **Ned:** Who would have thought it?
+                - **Player:** I don't think you make rope at all. I think you trade balls of wool for rope.
+                - **Ned:** Oh, I confess. You have found the truth. I used to make the rope myself, but my fingers aren't as nimble as they used to be and so many people wanted my rope. Demand was so high I had to find another source. But I couldn't tell anyone since Ned's Handmade Rope (100% Wool) is a high profile brand now.
+                - **Player:** Yes, well, the wool is still pretty good, though yak hair makes fine rope. I don't suppose any harm will come of it.
+                - (Condition: Only on the very first time:)
+                  - **Ned:** Thanks. Here take this, a free sample! Please, don't tell anyone.
+                  - (receives=rope)
+                  - (continue)
+                - **Player:** Well, it's always good to keep on the good side of a sailor. Your secret is safe with me.
+                - **Ned:** Oh, if you're in the Isles again, tell Jofridr that her Neddie will be there soon.
+                - **Player:** I will do that!
+          - [Choice]: cond=If the player has 4 balls of wool|I have some balls of wool. Could you make me some rope?
+            - **Player:** I have some balls of wool. <br>Could you make me some rope?
+            - **Ned:** Sure I can.
+            - You hand over 4 balls of wool. Ned gives you a coil of rope.
+            - (receives=Rope)
+            - (removes=4 balls of wool)
+          - [Choice]: That's a little more than I want to pay.
+            - **Player:** That's a little more than I want to pay.
+            - **Ned:** Well, if you ever need rope that's the price. Sorry. An old sailor needs money for a little drop o' rum.
+          - [Choice]: cond=If the player doesn't have 4 balls of wool|I will go and get some wool.
+            - **Player:** I will go and get some wool.
+            - **Ned:** Aye, you do that. Remember, it takes 4 balls of wool to make strong rope.
+          - [Choice]: No thanks Ned, I don't need any.
+            - **Player:** No thanks Ned, I don't need any. {{anchor|nothanks}}
+            - **Ned:** Well, old Neddy is always here if you do. Tell your friends. I can always be using the business.
+      - [Choice]: No thanks Ned, I don't need any.
+        - (above|nothanks)
+      - [Choice]: cond=Before Vampyre Slayer|Anything interesting happening in Draynor Village? {{anchor|interesting}}
+        - **Ned:** Well, there's a nasty vampyre causing a ruckus every night. I s'pose that's interesting.
+        - **Player:** You seem pretty calm about it.
+        - **Ned:** [Laddy/Girly] after everything I've seen in my life, a vampyre doesn't ruffle my feathers. Long as I stay inside after dark, I'm fine.
+        - (previous)
+      - [Choice]: cond=After Vampyre Slayer|Talk about Vampyre Slayer {{anchor|vampyre}}
+        - **Ned:** So, I hear you managed to kill that vampyre. Good on yah.
+        - **Player:** Thanks, Ned.
+        - (previous)
+
+#### After Dragon Slayer
+
+- [Menu]: What would you like to talk about?
+  - [Choice]: About the Task System...
+    - (above|task-system)
+  - [Choice]: Talk about something else.
+    - **Ned:** Hello again, [lad/lass]. Something I can help you with? Want to buy some rope perhaps?
+    - [Menu]: Choose an option:
+      - [Choice]: How did you get back from Crandor?
+        - **Player:** How did you get back from Crandor?
+        - **Ned:** I got towed back by a friendly passing whale.
+        - **Ned:** Anyway, would you like me to make some rope while you're here?
+        - [Menu]: Select an Option
+          - [Choice]: Can you take me back to Crandor again?
+            - **Player:** Can you take me back to Crandor again?
+            - (Condition: If the secret passage has been opened:)
+              - **Ned:** Can you find some other way? I think that voyage is cursed!
+              - **Player:** Now that you mention it, I found a secret door that led into a cave inside Karamja volcano.
+              - **Ned:** That's a relief. You can go and use that instead.
+            - (Condition: If the secret passage has not been opened:)
+              - **Ned:** Aye, that I could. I'll meet you at the Port Sarim docks again. I'll try to steer a bit better this time!
+          - [Choice]: Yes, I would like some rope.
+            - (above|yesrope)
+          - [Choice]: No thanks Ned, I don't need any.
+            - (above|nothanks)
+      - [Choice]: Yes, I would like some rope.
+        - (above|yesrope)
+      - [Choice]: cond=Before Vampyre Slayer|Anything interesting happening in Draynor Village?
+        - (above|interesting)
+      - [Choice]: cond=After Vampyre Slayer|Talk about Vampyre Slayer
+        - (above|vampyre)
+
+#### With a construction contract for Ned
+
+- [Menu]: Select an Option
+  - [Choice]: Ask about contracts.
+    - [Menu]: Select an Option
+      - [Choice]: What do you need repairing?
+        - **Ned:** Let me see, right now I need you to repair the following pieces of furniture.
+        - **Ned:** [Furniture 1], [Furniture 2], [Furniture 3], [Furniture 4], [Furniture 5]
+        - (previous)
+      - [Choice]: What materials do I need?
+        - **Ned:** You need: Planks x [number], Steel nails x [number], [Additional material] x [number]
+        - (previous)
+      - [Choice]: Leave
+        - (end)
+  - [Choice]: Ask about something else.
+    - (continuea|In Draynor Village)
+
+#### Treasure Trails
+
+- (removes=the old clue scroll (easy))
+- ((If the trail continues:))
+  - (receives=a new clue scroll (easy))
+  - [Ned has given you your next clue scroll.]
+  - (continue)
+- ((If the trail ends:))
+  - (receives=reward casket (easy))
+  - [You've found a casket!]
+  - (continue)
+- **Ned:** Good job.
+
+#### Historical dialogue
+
+- [Menu]: What would you like to talk about?
+  - [Choice]: About the Task System...
+    - (above|task-system)
+  - [Choice]: Talk about something else.
+    - **Ned:** Hello again, [lad/lass]. Something I can help you with? Want to buy some rope perhaps?
+    - [Menu]: Choose an option:
+      - [Choice]: How did you get back from Crandor?
+        - (above|get-back)
+      - [Choice]: Yes, I would like some rope.
+        - (above|yesrope)
+      - [Choice]: cond=After starting Vampyre Slayer|Anything interesting happening in Draynor Village?
+        - (Condition: After the battle of Lumbridge:)
+          - **Ned:** Well, there's a great ruddy crater on the old battlefield to the east. I s'pose that might be interesting.
+        - (Condition: During the battle of Lumbridge:)
+          - **Ned:** Well, there's a battle going on to the east between two gods. I s'pose that's interesting.
+          - **Player:** You seem pretty calm about it.
+          - **Ned:** [Laddy/Girly] after everything I've seen in my life, a mere battle between gods doesn't ruffle my feathers. I just keep away and I'm fine.
+      - [Choice]: cond=After Vampyre Slayer|Talk about Vampyre Slayer
+        - (above|vampyre)
+
+### On Crandor
+
+- **Ned:** Now I see why all the other captains said I'd be mad to go near Crandor. It looks like we're stranded.
+- **Player:** Don't worry about that. I found a secret passage in the dragon's lair that leads off the island!
+- **Ned:** Oh, that's good. I'll be able to get back to Draynor somehow, if I can sneak past all the skeletons and demons on this island!

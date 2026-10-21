@@ -1,0 +1,114 @@
+# Hiylik Myna
+
+- **Original Wiki Page**: [Transcript:Hiylik Myna](https://runescape.wiki/w/Transcript%3AHiylik%20Myna)
+- **Letter**: `H`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue east of Paterdomus
+
+- **Hiylik Myna:** Hello friend. What can I do for you?
+- [Menu]: Select an Option
+  - [Choice]: Talk about the Task System...
+    - ((If the player has completed the easy Morytania achievements and the rewards have not been claimed:))
+      - **Player:** I've completed all of the Easy Tasks in the Morytania set.
+      - **Hiylik Myna:** Ah, that's a relief. You can wear Morytania leggings now. I have some for you.
+      - [Hiylik Myna hands you some leggings and an old lamp.]
+      - **Hiylik Myna:** These truly are blessed leggings; I'm sure Saradomin himself would have been proud to wear them. Ghasts will bother you only half as much, bloom will give you twice as many fungi and assisting pilgrims to the temple will offer
+      - **Hiylik Myna:** more rewards. Oh, there's also a lamp here that I found in the swamp - you might find a use for it.
+      - **Player:** Thanks!
+      - (continue)
+    - (Condition: If the player has lost their Morytania legs 1:)
+      - **Hiylik Myna:** You again? How did you get on with the leggings?
+      - **Player:** I lost them.
+      - **Hiylik Myna:** Lost them? Well, it just so happens I found another pair. Take better care of these.
+      - [Hiylik Myna hands you a pair of leggings.]
+      - (continue)
+    - [Menu]: Choose an option:
+      - [Choice]: Tell me about the Achievement System.
+        - **Hiylik Myna:** Very well: the Achievement System is a collection of deeds you may wish to complete while adventuring around the world.
+        - **Hiylik Myna:**You can earn special rewards for completing certain achievements; at the very least, each is worth a cash bounty from Explorer Jack in Lumbridge.
+        - **Hiylik Myna:** Some also give items that will help complete other achievements, and many count as progress towards the set for the area they're in.
+        - [Menu]: Choose an option:
+          - [Choice]: Tell me about the set reward for this locality.
+            - **Player:** Tell me about the set reward for this area.
+            - **Hiylik Myna:** For completing the Morytania set, you are presented with some leggings.
+            - **Hiylik Myna:** These leggings will become increasingly useful as you complete greater difficulties of task sets.
+            - **Hiylik Myna:** When you are presented with your rewards, you will be told of their uses.
+            - You may also see what rewards a set item provides by hovering over the Rewards icon for its Exploration Achievement set in the Achievements interface.
+            - (previous2)
+          - [Choice]: How do I claim these rewards?
+            - **Player:** How do I claim the rewards?
+            - **Hiylik Myna:** You need to complete all Tasks within a particular difficulty set, then you can claim your reward.
+            - **Hiylik Myna:** Some of the Morytania set's Tasks are simple, some require certain skill levels, and others require quests to be started or completed.
+            - **Hiylik Myna:**  To claim your Morytania set rewards, speak to Robin in Port Phasmatys, the Strange Old Man at the Barrows, Old Man Ral in Meiyerditch or myself.
+            - (previous2)
+          - [Choice]: Sorry, I was just leaving.
+            - (end)
+      - [Choice]: Could I buy a spare of the reward?
+        - [Menu]: Choose an option:
+          - [Choice]: Morytania legs 1
+            - **Hiylik Myna:** Morytania legs 1? Yes, but I'm afraid it would cost you 1,500 coins.
+            - [Menu]: Purchase another for 1,500 coins?
+              - [Choice]: Yes
+                - [You're handed another Morytania legs 1.]
+                - (receives=Morytania legs 1) (removes= 1,500 coins)
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Morytania legs 2
+            - **Hiylik Myna:** Morytania legs 2? Yes, but I'm afraid it would cost you 2,500 coins.
+            - [Menu]: Purchase another for 2,500 coins?
+              - [Choice]: Yes
+                - [You're handed another Morytania legs 2.]
+                - (receives=Morytania legs 2) (removes= 2,500 coins)
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Morytania legs 3
+            - **Hiylik Myna:** Morytania legs 3? Yes, but I'm afraid it would cost you 7,500 coins.
+            - [Menu]: Purchase another for 7,500 coins?
+              - [Choice]: Yes
+                - [You're handed another Morytania legs 3.]
+                - (receives=Morytania legs 3) (removes= 7,500 coins)
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Morytania legs 4
+            - **Hiylik Myna:** Morytania legs 4? Yes, but I'm afraid it would cost you 15,000 coins.
+            - [Menu]: Purchase another for 15,000 coins?
+              - [Choice]: Yes
+                - [You're handed another Morytania legs 4.]
+                - (receives=Morytania legs 4) (removes= 15,000 coins)
+              - [Choice]: No
+                - **Player:** No thanks.
+      - [Choice]: Sorry, I was just leaving.
+        - (end)
+  - [Choice]: Talk about something else.
+    - [Menu]: What would you like to say?
+      - [Choice]: What do you do here?
+        - **Player:** What do you do here?
+        - **Hiylik Myna:** I'm here to help maintain the noticeboard nearby. Mercenaries or survivors of Burgh De Rott usually want safe passage through the Myre and, regardless of their ability, they need assistance. No one should trek through the Myre alone.
+        - **Hiylik Myna:** I make sure these people have an advert posted up on the board here so the more heroic types can offer them a secure journey to their destination.
+        - **Hiylik Myna:** Anything else?
+        - (other)
+      - [Choice]: How do I start?
+        - **Player:** How do I start?
+        - **Hiylik Myna:** Oh well that's easy, my child. Take a look at the noticeboard just here and pick a person to help.
+        - **Player:** That's it?
+        - **Hiylik Myna:** Indeed. The people who leave adverts will have left more information there. Some will be easier to defend than others; some fight, some don't. You should pick someone you feel comfortable protecting.
+        - **Hiylik Myna:** Anything else?
+        - (other)
+      - [Choice]: What is in it for me?
+        - **Player:** What is in it for me?
+        - **Hiylik Myna:** Other than the feeling of doing good for your fellow man, you'll obtain a variety of rewards. No doubt the person you take through the Myre will give a token of their appreciation.
+        - **Player:** That's it?
+        - **Hiylik Myna:** There is more to it. The people who you guide are just like you, they start off a bit more delicate though. If you continue to guide the same people you'll find they can gain more experience, becoming better and navigating the swamp - even identifying what events might be next if you want to avoid certain encounters.
+        - **Player:** Well, that sounds like a nice reward for them. Anything else?
+        - **Hiylik Myna:** As the people gain experience, they'll know you more and may have unique rewards for you to show their appreciation of your continued support.
+        - **Hiylik Myna:** Again, they'll put all this up in their advert on the noticeboard so I advise you to check that for the proper details.
+        - **Hiylik Myna:** Anything else?
+        - (other)
+      - [Choice]: Nothing, thanks.
+        - **Player:** Nothing, thanks.
+        - **Hiylik Myna:** Saradomin be with you.

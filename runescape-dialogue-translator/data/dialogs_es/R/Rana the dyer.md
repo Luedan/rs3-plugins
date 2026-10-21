@@ -1,0 +1,103 @@
+# Rana the dyer
+
+- **Original Wiki Page**: [Transcript:Rana the dyer](https://runescape.wiki/w/Transcript%3ARana%20the%20dyer)
+- **Letter**: `R`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Player:** ¡Guau! Mira este lugar, es tan colorido.
+- **Rana the Dyer:** Pues, gracias. ¿Puedo ayudarte con algo?
+- **Player:** ¿Supongo que por la ropa que llevas y esta habitación en la que estás en el comercio dye?
+- **Rana the Dyer:** Qué observador de tu parte.
+- [Menu]: Selecciona una opción
+  - [Choice]: ¿Podrías prepararme un poco de dye, por favor?
+    - **Player:** ¿Podrías prepararme un poco de dye, por favor?
+    - **Rana the Dyer:** ¿Qué color de dye quieres? Puedo hacerte dyes azul, rojo o amarillo para ti. Si me traes las materias primas correctas.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Qué necesitas para hacer red dye?
+        - **Player:** ¿Qué necesitas para hacer red dye?
+        - **Rana the Dyer:** Hmm... 3 lotes de redberries deberían ser suficientes y 25 coins deberían cubrir cualquier otro costo.
+        - [Menu]: Selecciona una opción
+          - [Choice]: Bien, hazme un poco de red dye, por favor.
+            - (Condition: Si el player no tiene tres redberries:)
+              - No tienes suficiente berries para hacer el red dye.
+            - (Condition: Si el player tiene tres redberries pero menos de 25 coins:)
+              - No puedes permitirte eso.
+              - No tienes suficiente coins para pagar el dye.
+            - (Condition: Si el player tiene tres redberries y 25 coins:)
+              - (removes=three redberries and 25 coins) (receives=red dye)
+              - Le entregas el redberries y un poco de coins a Rana, quien luego hurga en algunos estantes y finalmente encuentra una botella roja, que luego te entrega.
+          - [Choice]: Creo que todavía no tengo todos los ingredientes.
+            - **Player:** Creo que aún no tengo todos los ingredientes.
+            - **Rana the Dyer:** Ya sabes lo que necesitas conseguir, ahora vuelve cuando los tengas. Adiós por ahora.
+          - [Choice]: Puedo prescindir de dye a ese precio.
+            - **Player:** Puedo prescindir de dye a ese precio.
+            - **Rana the Dyer:** Es cierto, sigo pensando que el precio es bastante razonable teniendo en cuenta que soy la única fuente de dye de este lado del Shantay Pass.
+          - [Choice]: ¿Dónde puedo encontrar un arbusto de frutos rojos?
+            - **Player:** ¿Dónde puedo encontrar un arbusto de frutos rojos?
+            - **Rana the Dyer:** Bueno, podrías intentar cultivarlos. No deberían ser demasiado difíciles de cultivar.
+            - **Player:** Si no me importara cultivar el mío, ¿dónde más podría conseguirlo?
+            - **Rana the Dyer:** Bueno, estoy seguro de que el clima desértico no les convendría. El mío lo recogí en el bosque al sur de Varrock.
+      - [Choice]: ¿Qué necesitas para hacer yellow dye?
+        - **Player:** ¿Qué necesitas para hacer yellow dye?
+        - **Rana the Dyer:** El amarillo es un color difícil de recrear. Supongo que si me das 2 cebollas, podría usar sus pieles para preparar un yellow dye cálido para ti. Ah, sí, y para que no lo olvide, necesitaré 25 coins para cubrir el coste de la cristalería y mi salario.
+        - [Menu]: Selecciona una opción
+          - [Choice]: Bien, hazme un poco de yellow dye, por favor.
+            - (Condition: Si el player no tiene dos cebollas:)
+              - No tienes suficientes cebollas para hacer el yellow dye.
+            - (Condition: Si el player tiene dos cebollas pero menos de 25 coins:)
+              - No puedes permitirte eso.
+              - No tienes suficiente coins para pagar el dye.
+            - (Condition: Si el player tiene dos cebollas y 25 coins:)
+              - (removes=two onions and 25 coins) (receives=yellow dye)
+              - Le entregas dos cebollas a Rana, quien luego hurga en algunos estantes y finalmente encuentra una botella amarilla, que luego te entrega.
+          - [Choice]: Creo que todavía no tengo todos los ingredientes.
+            - (arriba)
+          - [Choice]: Puedo prescindir de dye a ese precio.
+            - (arriba)
+          - [Choice]: ¿Dónde puedo encontrar algunas cebollas?
+            - **Player:** ¿Dónde puedo encontrar algunas cebollas?
+            - **Rana the Dyer:** Generalmente encontrarás cebollas en los huertos, tonto.
+            - **Player:** Ok, ya me tienes allí, pero ¿hay algún lugar por aquí donde pueda conseguir algunas cebollas?
+            - **Rana the Dyer:** Realmente no lo sé. Una amiga mía cultiva la suya en una planta cercana a Draynor village. Pero eso está un poco lejos de ser útil.
+      - [Choice]: ¿Qué necesitas para hacer blue dye?
+        - **Player:** ¿Qué necesitas para hacer blue dye?
+        - **Rana the Dyer:** Para hacer una botella de blue dye necesitaré 2 hojas de glasto y 25 coins de tu parte.
+        - [Menu]: Selecciona una opción
+          - [Choice]: Bien, hazme un poco de blue dye, por favor.
+            - (Condition: Si el player no tiene dos hojas de glasto:)
+              - No tienes suficientes hojas de glasto para hacer el blue dye.
+            - (Condition: Si el player tiene dos hojas de glasto pero menos de 25 coins:)
+              - No puedes permitirte eso.
+              - No tienes suficiente coins para pagar el dye.
+            - (Condition: Si el player tiene dos hojas de glasto y 25 coins:)
+              - (removes=two woad leaves and 25 coins) (receives=blue dye)
+              - Le entregas las hojas de glasto y un poco de coins a Rana, quien luego hurga en algunos estantes y finalmente encuentra una botella azul, que luego te entrega.
+          - [Choice]: Creo que todavía no tengo todos los ingredientes.
+            - (arriba)
+          - [Choice]: Puedo prescindir de dye a ese precio.
+            - (arriba)
+          - [Choice]: ¿Dónde puedo conseguir algunas hojas de glasto?
+            - **Player:** ¿Dónde puedo conseguir algunas hojas de glasto?
+            - **Rana the Dyer:** Las hojas de glasto son bastante difíciles de encontrar por aquí. Mis otros clientes me dicen que hay un jardinero en Falador que los cultiva.
+      - [Choice]: Pensándolo bien, realmente no necesito ningún dye.
+        - **Player:** Pensándolo bien, no creo que necesite dye en este momento.
+  - [Choice]: ¿Cómo llegaste al negocio del color?
+    - **Rana the Dyer:** Bueno, es bastante simple, realmente mi madre era saladora y aprendí el oficio de ella.
+    - **Player:** Umm, ¿qué es un drysalter? No es una condición médica, ¿verdad?
+    - **Rana the dyer:** No es tonto, es alguien que se ocupa de conservantes y dyes. Realmente no disfruté el lado de los conservantes, así que elegí dedicarme únicamente al teñido.
+    - **Player:** Entonces, ¿cómo va el negocio?
+    - **Rana the Dyer:** ¡Es un oficio de teñido! Oh Dios, lo siento, fue una broma verdaderamente espantosa.
+    - **Player:** Hmm, sí, al menos lo peor que he escuchado hoy.
+    - **Rana the Dyer:** Gracias. Pero realmente, aquí no es lo mejor. Casi todo el mundo en esta ciudad viste sólo de blanco, lo que significa que no hago exactamente un gran negocio. ¿Hay algo que pueda conseguirte?
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Podrías prepararme un poco de dye, por favor?
+        - (arriba)
+      - [Choice]: No gracias, sólo estoy echando un vistazo.
+        - **Player:** No, gracias, solo estoy echando un vistazo.

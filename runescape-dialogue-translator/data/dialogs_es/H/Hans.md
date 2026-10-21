@@ -1,0 +1,360 @@
+# Hans
+
+- **Original Wiki Page**: [Transcript:Hans](https://runescape.wiki/w/Transcript%3AHans)
+- **Letter**: `H`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+{{External|os=Hans/Dialogue|rsc=Hans/Dialogue}}
+
+### Standard dialogue
+
+- [Menu]: Elige una opción:
+  - [Choice]: cond=Only during the 25th Anniversary celebrations event:|Habla sobre el evento de aniversario.
+    - [Menu]: Elige una opción:|anchor=Evento-aniversario
+      - [Choice]: cond=With enough shards for a token:|¡Quiero canjear una ficha de inversión de capa!
+        - (Condition: Sin espacios backpack libres y solo 990 fragmentos inverted skillcape o 1200 fragmentos maestros inverted skillcape y habiendo entregado ya 990 fragmentos inverted skillcape:)
+          - **Hans:** Primero necesitas un espacio libre en tu backpack.
+        - (Condition: Sin dos espacios backpack libres y 990 fragmentos inverted skillcape y 1200 fragmentos maestros inverted skillcape:)
+          - **Hans:** Primero necesitas dos espacios libres en tu backpack.
+        - (Condition: Si el player tiene 990 fragmentos inverted skillcape:)
+          - (removes=990 inverted skillcape shards) (receives=inverted skillcape token)
+          - (continue)
+        - (Condition: Si el player tiene 1200 fragmentos maestros de inverted skillcape:)
+          - (removes=1,200 master inverted skillcape shards) (receives=inverted master skillcape token)
+          - (continue)
+        - **Hans:** ¡Aquí tienes!
+        - (Condition: Si el player acaba de obtener una ficha de capa Archaeology:)
+          - **Hans:** Entrégale esto a la Guildmaster en funciones Lottie Reiniger, la maestra de Archaeology en el gremio Archaeology, para desbloquear tu nuevo inverted cape.
+          - (continue)
+        - (Condition: Si el player acaba de obtener un token Attack cape:)
+          - **Hans:** Entrégale esto a Ajjat, el maestro de Attack del Warrior's Guild, para desbloquear tu nuevo inverted cape.
+          - (continue)
+        - (Condition: Si el player acaba de obtener una ficha de capa Dungeoneering:)
+          - **Hans:** Dale esto a Thok, el maestro de Dungeoneering en Daemonheim, para desbloquear tu nuevo inverted cape.
+          - (continue)
+        - (Condition: Si el player acaba de obtener una ficha de capa Herblore:)
+          - **Hans:** Entrégale esto a Kaqemeex, el maestro de Herblore en Taverley, para desbloquear tu nuevo inverted cape.
+          - (continue)
+        - (Condition: Si el player acaba de obtener un token Necromancy master cape:)
+          - **Hans:** Entrégale esto a the Spirit of Mastery, el maestro de Necromancy en City of Um, para desbloquear tu nuevo inverted cape.
+          - (continue)
+        - (Condition: Si el player acaba de obtener una ficha de capa Ranged:)
+          - **Hans:** Dale esto a Aaron the armour salesman, el maestro de Ranged en Ranging Guild, para desbloquear tu nuevo inverted cape.
+          - (continue)
+        - (Condition: Si el player acaba de obtener una ficha de capa Slayer:)
+          - **Hans:** Dale esto a Kuradal, el Slayer master en la Caverna Antigua, para desbloquear tu nuevo inverted cape.
+          - (continue)
+        - (Condition: Si el player acaba de obtener una ficha de capa Thieving:)
+          - **Hans:** Dale esto a Martin Thwait, el maestro de Thieving en Rogues' Den, para desbloquear tu nuevo inverted cape.
+          - (continue)
+        - **Hans:** ¡Felicitaciones!
+      - [Choice]: cond=After asking about inverted skillcapes:|Quiero centrarme en un inverted skillcape.
+        - (opens=25th Anniversary celebrations)
+      - [Choice]: ¿Puedes hablarme de inverted skillcapes?
+        - **Hans:** Inverted skillcapes están disponibles para cualquier persona que haya demostrado que es un maestro en una habilidad.
+        - **Hans:** Si has ganado Cape of Accomplishment, puedo mostrarte cómo desbloquear la versión invertida.
+        - **Hans:** Estas capas especiales son exclusivas para los aventureros que trabajan en sus habilidades durante este evento de aniversario.
+        - **Hans:** Elige una habilidad en la que concentrarte y luego, y esto es lo importante, trabaja en esa habilidad mientras usas el cape of accomplishment correspondiente.
+        - **Hans:** Tu concentración generará fragmentos de mejora para esa capa. Recógelos y devuélvemelos, y los cambiaré por una ficha de mejora.
+        - **Hans:** ¡Dale el token de actualización al vendedor de skillcape y desbloquearás el inverted cape en su tienda!
+        - **Hans:** Para un cape of accomplishment normal, necesitarás darme 990 fragmentos de actualización.
+        - **Hans:** Para un master cape, necesitaré 1200 fragmentos de actualización maestra.
+        - **Hans:** Si eres elegible tanto para el inverted capes normal como para el maestro, obtendrás ambos tipos de fragmentos simultáneamente.
+        - **Hans:** ¡Déjame saber en qué habilidad te gustaría concentrarte y podrás continuar con tus habilidades!
+        - (opens=25th Anniversary celebrations)
+      - [Choice]: cond=With enough shards for a token:|[More...]
+        - (continue)
+      - [Choice]: ¿Qué estás celebrando aquí?
+        - **Hans:** RuneScape alcanza un gran hito este año. ¡Cumplimos 25 años!
+        - **Hans:** Pensé en preparar este rincón de nuestra ciudad natal para conmemorar la ocasión.
+        - **Hans:** Otras ciudades de todo el mundo también han puesto sus decoraciones. Esté atento a ellos a medida que avanza en sus aventuras.
+        - **Hans:** Si dominas alguna habilidad, puedes ganar un inverted skillcape en hasta cuatro habilidades en el transcurso de este mes.
+        - **Hans:** También he encargado algunas bufandas especiales, exclusivas para las celebraciones de este año.
+        - **Hans:** Y, por supuesto, ¡ha vuelto el pastel mágico que se repone automáticamente!
+        - **Hans:** No tengo idea de dónde viene. Probablemente sea mejor no preguntar.
+        - **Hans:** De todos modos, ¡feliz aniversario! Es genial tenerte aquí.
+        - (previous|Anniversary-event)
+      - [Choice]: ¿Tienes pastel?
+        - **Player:** ¿Tienes pastel?
+        - **Hans:** ¡Por supuesto!
+        - (Condition: Sin espacio libre backpack:)
+          - **Hans:** Pero no tienes suficiente espacio en tu backpack para ello. Limpia un espacio y luego podrás tener otro.
+          - (previous|Anniversary-event)
+        - (Condition: Con espacio gratuito backpack:)
+          - (Condition: Sin tarta 25 Aniversario:)
+            - (receives=25th Anniversary cake)
+            - **Hans:** Aquí tienes. ¡Disfrutar!
+            - (previous|Anniversary-event)
+          - (Condition: Con tarta 25 Aniversario:)
+            - **Hans:** Pero ya tienes algunos. ¡Me temo que una rebanada para cada uno!
+            - (previous|Anniversary-event)
+      - [Choice]: ¿Puedo tener una bufanda?
+        - (Condition: Sin espacio libre backpack:)
+          - **Hans:** Pero no tienes suficiente espacio en tu backpack para ello. Limpia un espacio y luego podrás tener uno.
+          - (previous|Anniversary-event)
+        - (Condition: Con espacio gratuito backpack:)
+          - (Condition: Sin bufanda del 25 aniversario:)
+            - (receives=25th Anniversary Scarf (Blue))
+            - (Condition: Sólo la primera vez:)
+              - ¡Has desbloqueado la bufanda del 25 aniversario (azul)!
+              - (ventana emergente)
+                - (Ventana emergente: ¡Has desbloqueado la bufanda del 25.º aniversario (azul)!|color=#00FF00)
+                - (continue)
+            - **Hans:** Los hice especialmente para las celebraciones del aniversario.
+            - (previous|Anniversary-event)
+          - (Condition: Con una bufanda del 25 aniversario:)
+            - **Hans:** Ya tienes una bufanda; yo solo tengo suficiente para una para cada una.
+            - (previous|Anniversary-event)
+  - [Choice]: Habla sobre las tareas de aniversario.
+    - (Condition: Antes de recibir una lista de tareas del 25º aniversario:)
+      - **Hans:** Oh, oye, me pregunto si estarías interesado en ayudar en un recorrido nostálgico...
+      - **Player:** ¿Un qué?
+      - **Hans:** He estado deambulando por este castillo durante unos veinticinco años y déjame decirte que ¡es agradable tomarse un descanso!
+      - **Hans:** Y me hizo recordar todo lo que pasó en ese tiempo.
+      - **Player:** Está bien...
+      - **Hans:** Estaba planeando pasear por Misthalin y Asgarnia, disfrutando de las vistas y los recuerdos: cosas que he visto y hecho, cosas que los aventureros me han contado...
+      - **Player:** ¿Por qué siento que está a punto de haber un 'pero'?
+      - **Hans:** ...pero acepté organizar este pequeño evento, así que no puedo irme.
+      - **Hans:** Entonces pensé que tal vez podría vivir indirectamente a través de ti...
+      - **Player:** ¿Qué quieres que haga?
+      - (Condition: Sin espacio libre backpack:)
+        - **Hans:** Tengo una lista de tareas que planeaba completar; háblame sobre esto nuevamente cuando tengas espacio para realizarlas...
+      - (Condition: Con espacio gratuito backpack:)
+        - (receives=25th Anniversary task list)
+        - **Hans:** Aquí hay una lista de las tareas que planeaba completar. ¿Quizás podrías completarla por mí?
+        - [Habla con Hans sobre las tareas del 25 Aniversario]
+        - **Player:** Espera un segundo, la primera tarea aquí dice "Habla con Hans sobre las tareas del 25º aniversario". - ¿Por qué siento que me están engañando?
+        - ¡Felicitaciones! Has completado: 'Hans Free' - Habla con Hans sobre las tareas del 25º aniversario.
+        - ((Se muestra en una ventana emergente de finalización de tarea:))
+          - TAREA DEL 25 ANIVERSARIO
+          - Hans Gratis
+          - Habla con Hans sobre las tareas del 25 aniversario.
+          - (continue)
+        - **Hans:** Shhh, ya has empezado, así que tendrás que terminar... ¡pero hay una brillante recompensa para ti!
+    - (Condition: Después de recibir una lista de tareas del 25.º aniversario:)
+      - [Menu]: Elige una opción:
+        - [Choice]: cond=Without 25th Anniversary task list:|Perdí tu lista de tareas.
+          - **Player:** Perdí tu lista de tareas.
+          - (Condition: Sin espacio libre backpack:)
+            - **Hans:** Tengo uno de repuesto, pero no tienes espacio para llevarlo...
+          - (Condition: Con espacio gratuito backpack:)
+            - (receives=25th Anniversary task list)
+            - **Hans:** No te molestes: ¡aquí tienes una lista de reemplazo!
+        - [Choice]: cond=After completing the list and before claiming the reward:|¿Tienes alguna recompensa para mí?
+          - **Hans:** Creo que tengo algunas recompensas para ti...
+          - Has desbloqueado la anulación cosmética. 'Capa 25 Aniversario'.
+          - Puedes activar esto a través de la pestaña 'Armario' en la interfaz 'Personalizaciones'.
+          - (ventana emergente)
+            - (Ventana emergente: has desbloqueado la anulación cosmética. 'Capa del 25 aniversario'.<br>Puedes activarla a través de la pestaña 'Armario' en la interfaz 'Personalizaciones'.|color=#00FF00)
+            - (continue)
+          - **Hans:** ¡Eso debería ser todo! Gracias de nuevo por ayudarme.
+        - [Choice]: ¿Qué querías que hiciera de nuevo?
+          - **Hans:** Estaba planeando pasear por Misthalin y Asgarnia, disfrutando de las vistas y los recuerdos: cosas que he visto y hecho, cosas que los aventureros me han contado...
+          - (Condition: Durante el evento de celebración del 25 Aniversario:)
+            - **Hans:** ...pero acepté organizar este pequeño evento, así que no puedo irme.
+            - (continue)
+          - (Condition: Después del evento de celebración del 25 Aniversario:)
+            - **Hans:** ...pero me he dado cuenta de lo cansado que estoy y es bueno no tener que caminar un poco.
+            - (continue)
+          - **Hans:** Te di una lista de tareas que planeaba completar. ¿Quizás podrías completarla por mí?
+        - [Choice]: Adiós.
+          - **Hans:** ¡Adiós!
+  - [Choice]: Habla de otra cosa.
+    - **Hans:** Hola. ¿Qué estás haciendo aquí?
+    - Seleccione una opción
+      - Estoy buscando a quien esté a cargo de este lugar.
+        - **Hans:** ¿Quién, el duque? Está en su estudio, en el primer piso.
+      - ¡He venido a matar a todos en este castillo!
+        - (Action: Hans da un paso atrás.)
+        - **Hans:** {{RSChat|Help! Help!}}
+      - No lo sé. Estoy perdido. ¿Dónde estoy?
+        - **Hans:** Estás en el Castillo Lumbridge.
+      - Me preguntaba ¿qué pasó con el castillo?
+        - ''Durante la batalla de Lumbridge:
+          - **Hans:** Recientemente recibió una paliza. Si aún no lo has notado, ¡hay una batalla en marcha afuera entre Saradomin y Zamorak! ¡Nunca en todos mis años esperé que esto sucediera en el castillo!
+        - ''Entre la Batalla de Lumbridge y el Rebuildathon de Lumbridge:
+          - **Hans:** Recientemente recibió una paliza. Los propios Saradomin y Zamorak tuvieron una batalla justo al oeste de aquí.  Sin embargo, la batalla ya ha terminado. Zamorak fue derrotado por Saradomin y obligado a retirarse, gravemente dañado. Aún así, ¡nunca en todos mis años esperé que esto sucediera en el castillo!
+        - ''Durante el Lumbridge Rebuildathon:
+          - **Hans:** Recientemente recibió una paliza. Los propios Saradomin y Zamorak tuvieron una batalla justo al oeste de aquí.  Sin embargo, la batalla ya ha terminado. Zamorak fue derrotado por Saradomin y obligado a retirarse, gravemente dañado. ¡Ahora, personas de todo el mundo vienen a ayudarnos a reconstruir! Si quieres ayudar, habla con Foreman George al norte del castillo.
+        - ''Después del Lumbridge Rebuildathon:
+          - **Hans:** Recientemente recibió una paliza. ¡Los propios Saradomin y Zamorak tuvieron una batalla justo al oeste de aquí! Sin embargo, la batalla ya ha terminado. Zamorak fue derrotado por Saradomin y obligado a retirarse, gravemente dañado. Aún así, ¡nunca en todos mis años esperé que esto sucediera en el castillo!
+          - Seleccione una opción
+            - ¿Has estado aquí tanto tiempo como yo?
+              - (abajo)
+            - ¡Iré a echar un vistazo entonces!
+              - (end)
+      - ¿Has estado aquí tanto tiempo como yo?
+        - **Hans:** Llevo años patrullando este castillo, te recuerdo...
+        - **Hans:** Has pasado x días, x horas, x minutos en el mundo desde que llegaste hace x días.
+        - **Player:** ¿Debes ser viejo entonces?
+        - **Hans:** Jaja, se podría decir que soy todo un veterano en estas tierras. Sí, llevo aquí bastante tiempo...
+        - ''Si el player aún no es elegible para la capa de veterano (5 años):
+          - **Hans:** Lamentablemente, no eres elegible para la capa de veterano de cinco años.
+        - ''Si el player aún no es elegible para la capa de veterano (10 años):
+          - **Hans:** Lamentablemente, no eres elegible para la capa de veterano de diez años.
+        - ''Si el player aún no es elegible para la capa de veterano (15 años):
+          - **Hans:** Lamentablemente, no eres elegible para la capa de veterano de quince años.
+        - ''Si el player aún no es elegible para la capa de veterano (20 años):
+          - **Hans:** Lamentablemente, no eres elegible para la capa de veterano de veinte años.
+        - *(Si falta más de un año:)*
+          - **Hans:** Me temo que todavía pasará más de un año para ti.
+          - Podrás reclamar la capa de veterano de cinco/diez/quince/veinte años de Hans en [X] días.
+          - (continue)
+        - *(Si falta menos de un año pero más de un mes:)*
+          - **Hans:** Estoy seguro de que llegarás allí pronto, dentro de un año si mis sentidos son correctos.
+          - Podrás reclamar la capa de veterano de cinco/diez/quince/veinte años de Hans en [X] días.
+        - *(Si falta menos de un mes pero más de un día:)*
+          - **Hans:** Ya falta poco para que tú también lo estés, solo [X] días.
+          - Podrás reclamar la capa de veterano de cinco/diez/quince/veinte años de Hans en [X] días.
+          - (continue)
+        - *(Si falta un día:)*
+          - **Hans:** Ya falta poco para que tú también lo estés, ¡sólo 1 día!
+          - ¡Mañana podrás reclamar la capa de veterano de cinco, diez, quince o veinte años de Hans!
+          - (continue)
+        - (Si el player es elegible para la capa de veterano (10 años):)
+          - **Hans:** Sin embargo, tengo una capa de veterano de cinco años por 50.000 coins.
+        - (Si el player es elegible para la capa de veterano (10 años):)
+          - **Hans:** Sin embargo, tengo una capa de veterano de diez años por 100 000 coins y una capa de veterano de cinco años por 50 000 coins.
+          - (continue)
+        - (Si el player es elegible para la capa de veterano (15 años):)
+          - **Hans:** Sin embargo, tengo una capa de veterano de quince años por 150 000 coins, una capa de veterano de diez años por 100 000 coins y una capa de veterano de cinco años por 50 000 coins.
+          - (continue)
+        - (Si el player es elegible para la capa de veterano (20 años):)
+          - **Hans:** ¡Puedo ver que llevas aquí muchísimo tiempo! ¿Te interesaría presumir este tiempo de servicio con una de mis capas?
+          - **Hans:** Tengo una capa de veterano de veinte años por 200.000, una capa de veterano de quince años por 150.000, una capa de veterano de diez años por 100.000 coins o una capa de veterano de cinco años por 50.000 coins.
+          - (continue)
+        - **{{AnchorText|Select an Option}}**
+          - (Si el player es elegible para la capa de veterano (20 años):)
+            - Compraré la capa de veterano de veinte años - 200.000 coins
+              - (Si el player no ha comprado la capa antes:)
+                - (continue)
+              - (Si el player ha comprado la capa antes :)
+                - **Hans:** Ya compraste una capa de veterano (20 años).
+                - **¿ESTÁS SEGURO DE QUE QUIERES COMPRAR OTRO?**
+                  - si
+                    - (Sin al menos dos espacios backpack libres :)
+                      - **Hans:** Eso está bien, pero no tienes espacio en tu inventario para la capa y la capucha.
+                    - (Con al menos dos espacios backpack libres :)
+                      - (Sin 200.000 coins :)
+                        - **Hans:** Eso está bien, pero no tienes suficiente dinero para la capa.
+                      - (Con 200.000 coins :)
+                        - (continue)
+                  - No
+                    - (end)
+              - (removes=200,000 coins)
+              - (receives=veteran cape (20 year))
+              - (receives=veteran hood (20 year))
+              - Hans te pasa la capa de veterano (20 años) y la capucha de veterano (20 años).
+              - **Hans:** Gracias. ¡Disfrutar!
+          - (Si el player es elegible para la capa de veterano (15 años):)
+            - Compraré la capa de veterano de quince años - 150.000 coins
+            - ''Si el player no ha comprado la capa antes:
+              - Hans te pasa la capa de veterano (15 años) y la capucha de veterano (15 años).
+              - **Hans:** Gracias. ¡Disfrutar!
+            - ''Si el player ha comprado la capa antes:
+              - **Hans:** Ya compraste una capa de veterano de quince años.
+              - ¿Estás seguro de que quieres comprar otro?
+                - si
+                  - Hans te pasa la capa de veterano de quince años.
+                  - Hans te otorga el título de veterano de quince años.
+                  - **Hans:** Gracias. ¡Disfrutar!
+                - No
+                  - (end)
+          - Compraré la capa de veterano de diez años - 100.000 coins
+            - ''Si el player no ha comprado la capa antes:
+              - Hans te pasa la capa de veterano (10 años) y la capucha de veterano (10 años).
+              - **Hans:** Gracias. ¡Disfrutar!
+            - ''Si el player ha comprado la capa antes:
+              - **Hans:** Ya compraste una capa de veterano de diez años.
+              - ¿Estás seguro de que quieres comprar otro?
+                - si
+                  - Hans te pasa la capa de veterano de diez años.
+                  - Hans te otorga el título de veterano de diez años.
+                  - **Hans:** Gracias. ¡Disfrutar!
+                - No
+                  - (end)
+          - Compraré la capa de veterano de cinco años - 50.000 coins
+            - ''Si el player no ha comprado la capa antes:
+              - Hans te pasa la capa de veterano (5 años) y la capucha de veterano (5 años).
+              - **Hans:** Gracias. ¡Disfrutar!
+            - ''Si el player ha comprado la capa antes:
+              - **Hans:** Ya compraste una capa de veterano de cinco años.
+              - ¿Estás seguro de que quieres comprar otro?
+                - si
+                  - Hans te pasa la capa de veterano de cinco años.
+                  - Hans te otorga el título de veterano de cinco años.
+                  - **Hans:** Gracias. ¡Disfrutar!
+                - No
+                  - (end)
+          - No gracias.
+            - **Player:** No, gracias.
+
+### Buy veteran capes option
+
+- (above|Select an Option)
+
+### Open anniversary event option
+
+- (opens=25th Anniversary celebrations)
+
+### Plague Doctor
+
+*Si la visita al médico en la lista de tareas de la plaga no está completa:*
+- *Si la máscara antigás no está equipada:*
+  - **Player:** Si estuviera usando una máscara de gas en este momento podría fingir ser médico y meterme con Hans...
+  - **Hans:** ¿Qué fue eso?
+  - **Player:** ¡Nada!
+  - *(Continúa con el diálogo estándar.)*
+- *Si la máscara antigás está equipada:*
+  - *Si está en el primer prestigio de la lista de tareas de la plaga:*
+    - **Player:** ¡Hola Hans! Soy el médico aquí para tu chequeo personal.
+    - **Hans:** No llamé a un médico... ¿Cómo te llamas?
+    - **Player:** Eh... Mantis... Tobogán...
+    - **Hans:** Doctor... ¿Tobogán Mantis?
+    - **Player:** M.D.
+    - **Hans:** ¿Eres tú, Player? ¡Quítate esa ridícula máscara!
+    - **Player:** Creo que me han atrapado.
+    - color=#00FF00
+    - *(Continúa con el diálogo estándar.)*
+  - *Si estás en el segundo prestigio de la lista de tareas de plaga o superior:*
+    - **Player:** ¡El doctor está en la casa!
+    - **Hans:** Player, ya hemos pasado por esta farsa antes...
+    - color=#00FF00
+    - *(Continúa con el diálogo estándar.)*
+
+### Treasure Trails
+
+- **Hans:** Bien hecho, aquí tienes.
+- (removes=the old clue scroll (easy))
+- (Si el camino continúa:)
+  - (receives=a new clue scroll (easy))
+  - Hans te ha dado otro pergamino de pistas.
+- (Si el sendero termina:)
+  - (receives=reward casket (easy))
+  - ¡Has encontrado un ataúd!
+
+### Using dragon bones on Hans during the 25th Anniversary celebrations
+
+
+#### Sólo la primera vez
+
+- **Hans:** ¡Ah, huesos de dragón! Ahora, eso me lleva hacia atrás...
+- **Hans:** Una vez intenté entrar al Champions' Guild en uno de mis paseos, pero solo me dejaron entrar si derrotaba a un dragón.
+- **Hans:** 'No hay posibilidad', pensé, así que seguí caminando.
+- {{RSFontAchievement|Dragon These Bones With Me|Show Hans some dragon bones.}}
+- ((Se muestra en una ventana emergente de finalización de tarea:))
+  - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
+  - Dragón estos huesos conmigo
+  - Muéstrale a Hans algunos huesos de dragón.
+  - (continue)
+- **Hans:** Yo diría que te ha ido mejor que a mí como campeón, pero cuando se trata de conteo de pasos, ¡soy el campeón!
+- (Condition: Si se han completado todas las tareas:)
+  - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!
+
+#### Después
+
+- No pasa nada interesante.

@@ -1,0 +1,91 @@
+# Art Critic Jacques
+
+- **Original Wiki Page**: [Transcript:Art Critic Jacques](https://runescape.wiki/w/Transcript%3AArt%20Critic%20Jacques)
+- **Letter**: `A`
+
+---
+
+## Dialogue Transcript
+
+
+### Talk to
+
+- **Player:** Hello.
+- **Art Critic Jacques:** Ahh, many greetinks and welcomes to ze Museum!
+- Choose an option:
+  - Who are you?
+    - **Player:** Who are you?
+    - **Art Critic Jacques:** Ahhh, mon ami! My name iz Jacques and I am ze Museum's finest art critic!
+    - **Player:** Looks to me like you're the ONLY one.
+    - **Art Critic Jacques:** Zis iz true, mon ami. 'owever, in ze future, I will 'ave my own entire floor of ze Museum with paintings galore!
+    - **Player:** Uhh... Has that been approved or are you just dreaming?
+    - **Art Critic Jacques:** Ah, I see monsieur/madame iz 'aving ze little bon mot, eh?
+    - **Player:** Err...bone what?
+    - **Art Critic Jacques:** Ze bon mot, ze laugh, ze fun of poking at me, eh? I shall 'ave my gallery, you vill see eventually, mon ami. Zen I shall be ze, 'ow you say, laughing last!
+    - (initial)
+  - What do you do here?
+    - **Player:** What do you do here?
+    - **Art Critic Jacques:** I critique ze art! See the bautifool colours and ze masterful use of ze brush to capture perfectly ze royal presence...
+    - Select an option
+      - Umm...it's a painting.
+        - **Player:** Umm...it's just a painting.
+        - **Art Critic Jacques:** JUST a painting? 'ow could you say such a t'ing? When you learn 'ow to appreciate ze wonderful works of art, you may talk to me.
+        - It looks like you offended Jacques.
+        - (initial)
+      - Yes, I see!
+        - **Player:** Yes, I see!
+        - **Player:** And look at the use of shade and contrast - isn't it just magnificent?
+        - **Art Critic Jacques:** Oui...so eet eez. So perfect it almost makes me weep wiz joy! The grandiloquent strokes of ze brush convey a kind of mystic quality...eet iz almost as if 'e were 'ere with us.
+        - **Art Critic Jacques:** My father, 'e too waz ze critic of art...'e also saw ze poetry in ze painintg. Zis reminds me of a verse 'e would read me - would you like to 'ear it?
+        - Select an option
+          - Yes please.
+            - **Player:** Yes please.
+            - **Art Critic Jacques:** Ahh, good. Zis verse is from a poem by a most talented writer of ze poetry, Charles Baudelaire. My father would place me on 'is knee and read to me like zis...
+            - **Art Critic Jacques:** Je trône dans l'azuz comme un sphinx incompris; J'unis un coeur de neige à la blancheur des cygnes; Je hais le mouvement qui déplace les lignes, Et jamais je ne pleure et jamais je ne ris.
+            - Select an option
+              - That was nice, what did it mean?
+                - **Player:** That was nice, what did it mean?
+                - **Art Critic Jacques:** Ahh, yes, I forget, open ze ears and I shall tell monsieur/madame.
+                - **Art Critic Jacques:** Swan-white of heart, a sphinx no mortal knows, My throne is in the heaven's azure deep, I hate all movements that disturb my pose, I smile not ever, neither do I weep.
+                - Select an option
+                  - Wow!
+                    - **Player:** Wow.
+                    - **Player:** That's powerful stuff...and yes, I see what you mean about the painting inspiring you to remember that poem...
+                    - **Art Critic Jacques:** I am glad you enjoyed. Please, take ze time to appreciate ze Museum and ze wealth of information 'ere. Come visit me when I 'ave my own gallery!
+                    - (initial)
+                  - I still didn't like it.
+                    - **Player:** I still didn't like it.
+                    - **Art Critic Jacques:** Eet iz such a shame, but you must 'ave your own opinion, no? Feel free to look around ze Museum some more.
+                    - (initial)
+              - Beautiful.
+                - **Player:** Beautiful.
+                - **Art Critic Jacques:** Ahh yes, it eez. Feel free to look around ze Musem some more.
+                - (initial)
+              - I didn't like it, but I still like the painting.
+                - **Player:** I didn't like it, but I still like the painting.
+                - **Art Critic Jacques:** Ahh well, eet iz not for everyone but I am glad you like ze painting.
+                - (initial)
+          - No thanks.
+            - **Player:** No thanks.
+            - **Art Critic Jacques:** Ahh, well, eet iz not for everyone.
+            - (initial)
+  - What are you collecting?
+    - **Art Critic Jacques:** You want ze lowdown or zee speaking of ze words, ah?
+    - What would you like to do?
+      - View collections.
+        - ((You Don't Know Jacques interface opens.))
+      - Talk about collections.
+        - **Art Critic Jacques:** Well, I am only really interested in any painting you restore, mon ami! It iz for my gallery project!
+        - **Art Critic Jacques:** I would love to also take statues and sculptures you come across, but even though ze museum 'as increased funds, they still limit my department.
+        - **Art Critic Jacques:** Art 'as always been my passion, so let us start with ze art!
+        - **Player:** Gotcha, any paintings I find, I'll consider bringing in for you.
+        - (initial)
+  - What are your collection rewards?
+    - **Art Critic Jacques:** 'Ave you 'eard ze saying 'Those zat can, zey do, and zose that can't, zey critique'?
+    - **Player:** Not sure that I have.
+    - **Art Critic Jacques:** Well, it iz not ze truth! I critique AND I paint. And I am amazing, even if I do say so myself...and I do!
+    - **Player:** Okay...
+    - **Art Critic Jacques:** Well, I will make you a deal. Any paintings zat you bring to me, ahh, I will paint you a replica! You may 'ang it somewhere. I hear you 'ave access to Guildmaster Tony's old office, no? Zat would be ideal!
+    - **Art Critic Jacques:** And if you find all ze art I am after... Well, let us just say I am working on a Jacques original! It iz a modern piece about all zis mad rush of archaeology. I call it 'Ze God Wars'.
+    - **Art Critic Jacques:** Not an original title, I know, but still it could be yours.
+    - (initial)

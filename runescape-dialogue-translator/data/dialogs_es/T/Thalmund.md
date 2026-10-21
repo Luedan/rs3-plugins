@@ -1,0 +1,226 @@
+# Thalmund
+
+- **Original Wiki Page**: [Transcript:Thalmund](https://runescape.wiki/w/Transcript%3AThalmund)
+- **Letter**: `T`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Talk to
+
+- (Condition: Sólo la primera vez durante las primeras siete semanas:)
+  - (Condition: Durante la primera semana:)
+    - **Player:** Hola. ¿Supongo que no serías Thalmund?
+    - **Thalmund:** ¡De hecho lo soy! Y supongo que eso te convertiría en Player.
+    - **Player:** ¡Ese soy yo! Kili te mencionó un poco, dice que vienes a regresar aquí de vez en cuando.
+    - **Thalmund:** Sí, mi compañero Kili también me habló de ti. Un aventurero de la tierra de los vivos, aquí en Um. ¡Tiempos emocionantes!
+    - **Player:** No puedo decir que las circunstancias fueran ideales, pero sin embargo, ha sido bastante emocionante visitar finalmente el Inframundo.
+    - **Thalmund:** Bueno, es un placer conocerte, Player. Viajo por el inframundo vendiendo mis productos.
+    - **Player:** ¿Qué tipo de productos vende?
+    - **Thalmund:** Vendo una variedad de productos, como runas necróticas, materiales con alma y artículos para rituales. Normalmente tengo una rotación de acciones diferente cada vez que vuelvo a Um.
+    - **Player:** Quizás en algún momento pueda echar un vistazo a tus productos.
+    - **Thalmund:** Incluso si no te apetece comprar nada, siempre estaré feliz de charlar.
+    - **Player:** ¡Entonces espero verte de nuevo!
+    - **Thalmund:** ¡Adiós por ahora, Player!
+    - (continue)
+  - (Condition: Durante la segunda semana:)
+    - **Thalmund:** Me alegro de verte de nuevo, Player.
+    - **Player:** ¿Cómo va el turno de hoy, Thalmund?
+    - **Thalmund:** Ah, las viejas articulaciones doloridas están de nuevo. Cargar este viejo carro por el lugar no les hace ningún favor, pero seguimos adelante.
+    - **Thalmund:** Aparte de eso, soy lo mejor posible: ¡con la barriga llena de pastel y nada más que clientes satisfechos!
+    - **Player:** ¿Qué te hizo decidir convertirte en travelling merchant?
+    - **Thalmund:** La respuesta simple es que no tuve mucha... oportunidad de viajar mucho en Gielinor, así que lo compensaré con la muerte.
+    - **Thalmund:** Trabajar como comerciante también me permite permanecer dentro del ámbito del negocio de la herrería, por lo que no estoy demasiado fuera de mi alcance.
+    - **Player:** Me imagino que tú también tienes mucha libertad.
+    - **Thalmund:** De hecho, puedo vender lo que me gusta y trabajar cuando quiero. ¡Aquí no hay salidas tempranas!
+    - **Player:** Esas son algunas de las grandes ventajas del trabajo.
+    - **Thalmund:** Beneficios maravillosos, pero lejos de ser los mejores.
+    - **Thalmund:** Lo que más me gusta de mi línea de trabajo es la variedad de seres que conozco en el Inframundo. Siempre es una ventaja charlar con alguien nuevo.
+    - **Thalmund:** ¡Supongo que el pastel ocasional que me regalan mis clientes habituales tampoco hace daño!
+    - **Player:** Verdaderamente un enano Imcando en el fondo.
+    - **Thalmund:** '¡Me temo que sí!
+    - (continue)
+  - (Condition: Durante la tercera semana:)
+    - **Player:** ¡Hola Thalmund!
+    - **Thalmund:** Me alegro de verte de nuevo, Player. ¿Qué puedo hacer por hoy?
+    - **Player:** De hecho, quería preguntarte sobre ser herrero.
+    - **Thalmund:** Bueno, la herrería no es mi competencia hoy en día, ya que Kili se encarga de la parte metalúrgica del negocio.
+    - **Player:** ¿Seguramente debes involucrarte de vez en cuando? Como Imcando, imagino que debe ser difícil abandonar completamente el oficio.
+    - **Thalmund:** Por supuesto, ¡pero te equivocarías si pensaras que quiero decirle adiós!
+    - **Thalmund:** Empezar a trabajar algo de metal con mi amor, Kili, sigue siendo una de mis mayores alegrías, incluso después de la muerte.
+    - **Player:** Eso es encantador. ¿Tienes un metal favorito para trabajar?
+    - **Thalmund:** Como maestro herrero, ¿cuál esperarías que fuera mi respuesta?
+    - **Player:** Runa antigua, supongo. Un metal fuerte para un herrero fuerte.
+    - **Thalmund:** Suena lógico, amigo mío, pero mi respuesta puede sorprenderte. Lo que más disfruto es trabajar con su contraparte menor, runita.
+    - **Thalmund:** Es un metal resistente para su nivel, con una aplicación versátil y no demasiado voluble para trabajar con él.
+    - **Player:** Eso tiene sentido. Esto crea armaduras y armamento bastante accesibles.
+    - **Thalmund:** ¡Exactamente! Puede usarlo gente de todo tipo, que es lo que me gusta ver.
+    - **Player:** ¿Alguna vez pensaste que volverías a ser herrero?
+    - **Thalmund:** Ah, no tengo planes actuales de hacerlo, Player.
+    - **Thalmund:** Después de vivir y respirar la vida de un herrero en Gielinor, viajar ha sido un soplo de aire fresco... Tanto en sentido literal como figurado.
+    - **Thalmund:** Pero esa tendrá que ser una historia para otro momento.
+    - **Player:** Espero ansiosamente escuchar más historias tuyas en el futuro.
+    - (continue)
+  - (Condition: Durante la cuarta semana:)
+    - **Player:** ¡Buenos días, Thalmund!
+    - **Player:** ¿Puedo escuchar esa historia tuya ahora?
+    - **Thalmund:** ¡No lo dudes, eh!
+    - **Thalmund:** Culpa mía. Dije que es una historia para otro momento, y ahora nos encontramos aquí, en otro tiempo.
+    - **Thalmund:** Me temo que no es la historia más alegre.
+    - **Player:** No todo puede ser tartas de frutos rojos y sombreros de fiesta.
+    - **Thalmund:** Efectivamente no. Bueno, como mencioné en nuestra última charla, mi vida en Gielinor no era más que la de un herrero.
+    - **Thalmund:** Aunque no es un herrero gratuito. Los duendes me atraparon mientras tenía la guardia baja y me obligaron a crear armamento para Bandos, al que llamaron el 'Gran Dios War'.
+    - **Player:** En realidad... Creo que descubrí algunas cartas que escribiste mientras estabas capturado. Tú creaste Warforge.
+    - **Thalmund:** Oh, mis cartas para Kili. ¡Me sorprende que alguien haya logrado encontrarlos! Pero sí, creé a Bertha, la gran fragua.
+    - **Player:** ¿Conseguiste escapar alguna vez?
+    - **Thalmund:** Ah... Esto ha desenterrado recuerdos tan dolorosos. Terminé allí hasta mi último día en Gielinor.
+    - **Thalmund:** Una explosión casera logró abrir una salida a ese maldito pozo. Logré convencer a algunos de mis amigos, los duendes, de escapar... Pero no hubo tiempo suficiente para seguirlos.
+    - **Thalmund:** La explosión provocó un colapso y, bueno... Puedes imaginar lo que pasó a partir de ahí.
+    - **Thalmund:** ...
+    - **Player:** Lo siento, no debería haberte presionado para que hablaras de ello.
+    - **Thalmund:** No, no. Ofrecí la historia. Y, por doloroso que sea, era parte de mi vida. Siento que es importante recordar tanto las partes buenas de la vida como las malas.
+    - **Thalmund:** Así que te agradezco por preguntar.
+    - (continue)
+  - (Condition: Durante la quinta semana:)
+    - **Thalmund:** ¡Buenos días, Player!
+    - **Player:** Hola, Thalmund.
+    - **Thalmund:** Supongo que te interesará saber qué vino después de mi muerte, ¿eh?
+    - **Player:** Bueno, me habría sentido un poco grosero preguntándolo... Pero es algo sobre lo que me he estado preguntando.
+    - **Thalmund:** Entonces, vayamos a ello. Después de mi muerte, me encontré despierto en el inframundo. Todo fue muy repentino, como un sueño confuso.
+    - **Thalmund:** Como ocurre con todas las almas, supongo que fui transportado a través del Noúmeno y luego guiado hasta aquí por como-se-llame... El hombre-perro de aspecto elegante.
+    - **Player:** Eso suena como Icthlarin. Es el cuidador de los muertos.
+    - **Thalmund:** Icthlarin, ese es el indicado. Entonces, desperté por primera vez aquí en Um. Me tomó un tiempo adaptarme a estar muerto: en un momento estoy bombeando pólvora al pozo de Bandos y al minuto siguiente estoy en este mundo completamente nuevo.
+    - **Player:** ¿Estabas asustado?
+    - **Thalmund:** ¿Asustado? ¡Ja!
+    - **Thalmund:** ...
+    - **Thalmund:** Sí, estaba bastante asustado. Completamente solo en este nuevo mundo. Ni amigos ni familiares.
+    - **Thalmund:** Intenté hacerme amigo de algunos de los duendes de aquí, parientes de aquellos a quienes alguna vez consideré familia en la vida. Pero sus mentes habían sido envenenadas por la guerra y no daban señales de ceder, ni siquiera en la muerte. Fue triste verlo.
+    - **Thalmund:** Mi amor aún no estaba aquí, así que encendí un santuario para ella. ¡Me enorgullecí de asegurarme de que el suyo fuera el santuario más querido de todo Um! Pulido y grabado, completo con capuchinas, su flor favorita.
+    - **Thalmund:** Deambulé sin rumbo durante un rato, reflexionando sobre la vida. ¿Qué debo hacer ahora? ¿Debería pasar por alto? ¿Debería esperar? ¿Empezar una nueva carrera?
+    - **Player:** ¿Por qué no pasaste?
+    - **Thalmund:** El inframundo me gustó. Al final decidí abrir la herrería Um. Me resultaba familiar y me ayudó a establecerme en Um como mi nuevo hogar.
+    - **Player:** Entonces, ¿cuándo finalmente se unió a ti Kili?
+    - **Thalmund:** ¡Oh, todavía no por un tiempo!
+    - **Player:** Entonces quizás puedas hablarme de ella la próxima vez.
+    - **Thalmund:** Sería un placer.
+    - (continue)
+  - (Condition: Durante la sexta semana:)
+    - **Player:** Soy todo oídos para que me cuentes sobre Kili.
+    - **Thalmund:** Siempre ansioso, Player.
+    - **Thalmund:** No pasó un día en Um en el que no deseara que ella estuviera a mi lado.
+    - **Thalmund:** Es peligroso, ya sabes, estar solo en la muerte. Mi mente fue a todo tipo de lugares.
+    - **Player:** ¿Te preocupaba que ella siguiera adelante? ¿O que te perderías su paso? Es un lugar bastante grande.
+    - **Thalmund:** ¡Oh, estaba atento a los recién llegados todos los días! Si ella pasara, lo sabría.
+    - **Thalmund:** No estaba particularmente preocupado de que ella siguiera adelante. Cuando nos casamos, nos comprometimos el uno con el otro. En la vida y en la muerte. Nosotros, los enanos, también tenemos tendencia a la lealtad.
+    - **Thalmund:** Me preocupaba que las cosas fueran diferentes.
+    - **Player:** Por supuesto que las cosas serían diferentes, ¿no? Estás muerto ahora, en Um.
+    - **Thalmund:** Sí, sí, ¡pero las pequeñas cosas! Los chistes internos, nuestros intereses compartidos, el conocimiento de las complejidades de la mente más fascinante de otro enano.
+    - **Thalmund:** ¿Ya no me amaría, ya que me había vuelto viejo y gordo? ¿Habían cambiado nuestros humores?
+    - **Thalmund:** Y así, por supuesto, llegó el día en que mi amor pasó a Um.
+    - **Thalmund:** Aunque estaba muy feliz, después de haber esperado este día durante mucho tiempo, tenía que tener paciencia con ella. Al igual que a mí, le tomó algún tiempo aceptar la idea de ya no estar viva.
+    - **Thalmund:** A mí también me entristeció verla finalmente.
+    - **Thalmund:** Ambos nos dimos cuenta del tiempo que nos habíamos perdido juntos. Ambos envejecimos, pero solos y separados. Nuestras vidas, destrozadas por esos duendes a los que finalmente llegué a llamar mis amigos.
+    - **Player:** ...
+    - **Thalmund:** Por supuesto, la muerte fue solo el comienzo para nosotros. Um era el lugar donde finalmente podíamos vivir nuestros sueños domésticos.
+    - **Player:** Lo que nos lleva al día de hoy, ¿verdad?
+    - **Thalmund:** ¡Efectivamente! Kili finalmente se hizo cargo de la herrería y apoyó con creces mis deseos de viajar. Por supuesto que le ofrecí venir conmigo, pero en el fondo es una persona hogareña.
+    - **Player:** Estoy feliz de que ustedes dos finalmente se hayan reunido.
+    - **Thalmund:** Yo también, Player. Yo también.
+    - (continue)
+  - (Condition: Durante la séptima semana:)
+    - ¡Felicitaciones! Has completado: 'Amigo del Imcando' - Participa en todas las conversaciones de Thalmund.
+    - **Player:** ¿Cuáles son tus planes para el futuro, Thalmund?
+    - **Thalmund:** ¡Oh, es un tema pesado para ti como siempre, Player!
+    - **Thalmund:** Por ahora, simplemente estoy disfrutando de la vida de un viajero. La vida me va bien: conozco gente nueva, como tú, todo el tiempo, ¡y trabajo para perder peso mientras lo hago!
+    - **Thalmund:** ...
+    - **Thalmund:** Pero la idea de seguir adelante me atormenta de vez en cuando.
+    - **Thalmund:** No hay nada más que esté esperando aquí ahora. ¡Podía ver a mi papá otra vez! ¡Kili pudo volver a ver a sus hermanos!
+    - **Player:** Entonces, ¿qué te detiene?
+    - **Thalmund:** Es incómodo lo desconocido. Sin saber muy bien cómo cambiará la vida más allá del inframundo.
+    - **Thalmund:** Hemos construido una vida agradable aquí abajo. Es acogedor. ¡Es casa!
+    - **Player:** Lo entiendo. Tienes todo el tiempo que necesitas para seguir adelante cuando te sientas bien. No debería ser forzado.
+    - **Thalmund:** Eso es exactamente.
+    - **Thalmund:** ...
+    - **Thalmund:** Lo admito, Player, no pensé que te convertirías en un habitual.
+    - **Thalmund:** Al ser un aventurero, eres una abeja ocupada la mayor parte del tiempo y estoy acostumbrado a que tanta gente se vaya y no los vuelvan a ver.
+    - **Player:** Puedo hacer tiempo para un viejo y amigable enano.
+    - **Thalmund:** ...
+    - **Thalmund:** ¡Y lo agradezco! Lo que más he disfrutado son nuestras pequeñas charlas. Por favor, no te conviertas en un extraño.
+    - **Player:** ¡Intentaré no hacerlo! Ha sido esclarecedor escuchar sus historias y la vida que ha construido aquí.
+    - **Thalmund:** Entonces te veré la próxima vez, Player.
+    - **Player:** Nos vemos, Thalmund.
+    - (continue)
+  - (Condition: Si habla por primera vez durante la semana:)
+    - (continue|Select)
+  - (Condition: Si reproduce la conversación durante las semanas 1 a 3:)
+    - (continue|Choose)
+  - (Condition: Si repite la conversación durante las semanas 4 a 6:)
+    - (continue|Choose 2)
+  - (Condition: Si reproduce la conversación de la semana 7:)
+    - (continue|Choose 3)
+- (Condition: Después de la primera vez durante una semana específica o después de la séptima semana:)
+  - **Thalmund:** ¡Buenos días, Player!
+  - **Thalmund:** Ahora, ¿en qué puedo ayudarte?
+  - (continue|Select)
+- [Menu]: Elige una opción:
+  - [Choice]: Reproduce conversaciones anteriores.
+    - [Menu]: Elige una opción:
+      - [Choice]: Thalmund.
+        - (above|Hello)
+      - [Choice]: cond=If the second week's conversation has been unlocked:|Comercio.
+        - (above|second-week)
+      - [Choice]: cond=If the third week's conversation has been unlocked:|Smithing.
+        - (above|third-week)
+      - [Choice]: cond=If the fourth week's conversation has been unlocked:|[More options]
+        - [Menu]: Elige una opción:
+          - [Choice]: Forja de guerra.
+            - (above|fourth-week)
+          - [Choice]: cond=If the fifth week's conversation has been unlocked:|Muerte.
+            - (above|fifth-week)
+          - [Choice]: cond=If the sixth week's conversation has been unlocked:|Kili.
+            - (above|fifth-week)
+          - [Choice]: cond=If the seventh week's conversation has been unlocked:|[More options]
+            - [Menu]: Elige una opción:
+              - [Choice]: Mmm.
+                - (above|seventh-week)
+              - [Choice]: [Previous options]
+                - (previous)
+          - [Choice]: [Previous options]
+            - (previous)
+      - [Choice]: No importa.
+        - (previous2|Select)
+  - [Choice]: Me gustaría negociar.
+    - **Player:** Me gustaría intercambiar, por favor.
+    - **Thalmund:** Esto es lo que tengo en stock hoy.
+    - (opens=Thalmund's Wares)
+  - [Choice]: cond=With a blueberry pie in backpack before having completed He's My Berry Pie:|Tengo un pastel para ti.
+    - **Player:** Tengo un pastel para ti.
+    - [Menu]: ¿Darle a Thalmund tu pastel de arándanos?
+      - [Choice]: si
+        - (removes=blueberry pie)
+        - {{RSFontAchievement|He's My Berry Pie}}
+        - **Thalmund:** ¡Oh, mi favorito! Es una verdadera lástima que no pueda profundizar en esto. Gracias.
+        - (initial|Select)
+      - [Choice]: No
+        - **Player:** Pensándolo bien, tal vez no.
+        - **Thalmund:** Es cruel excitar así a un enano...
+        - (initial|Select)
+  - [Choice]: Nada, gracias.
+    - **Player:** Nada, gracias.
+    - **Thalmund:** Muy bien. Espero verte de nuevo.
+- (Condition: Si conversa a las 00:00 o después del día siguiente)
+  - **Thalmund:** Ah, me temo que apenas estoy empezando a empacar mis mercancías. Ven a verme la próxima vez que visite.
+
+### Trade
+
+- (Condition: Si opera a las 00:00 o después del día siguiente)
+  - **Thalmund:** Ah, me temo que apenas estoy empezando a empacar mis mercancías. Ven a verme la próxima vez que visite.
+- (Condition: De lo contrario)
+  - (opens=Thalmund's Wares)
+
+### First time logging in on Wednesdays
+
+- ¡Thalmund ha llegado a la herrería, con una variedad de productos a la venta!

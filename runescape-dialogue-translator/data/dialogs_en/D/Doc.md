@@ -1,0 +1,192 @@
+# Doc
+
+- **Original Wiki Page**: [Transcript:Doc](https://runescape.wiki/w/Transcript%3ADoc)
+- **Letter**: `D`
+
+---
+
+## Dialogue Transcript
+
+
+### Invention Guild
+
+- **Doc:** What can I do you for, boss?
+- **What would you like to say?**
+  - Who are you?
+    - **Player:** Who are you?
+    - **Doc:** Did you take a knock to your noggin' boss? It's me, Doc. Been with you since the start. I dunno, you get in that lab of yours and forget the world sometimes.
+    - **Player:** Oh, right, Doc. Of course. I, er, know who you are. Of course I do. Yeah.
+  - Remind me how Invention works?
+    - *Options for redoing the tutorial appear.*
+  - What can you tell me about technologies?
+    - ((Unknown conditions; probably having a technology tree completed:))
+      - **Doc:** Ooh, you look about ready to be inspired by a new master tinkerer!
+      - ((If the player has not talked to Drorkar after completing the dwarven technology tree:))
+        - **Doc:** Right, then. Well, you could go see my own master in Keldagrim - he'd teach you about dwarven steam-powered devices, I reckon! His name's Drorkar. He's a cantankerous old geezer, but he knows his stuff. You'll find him in Keldagrim Palace's forge.
+        - (previous|docQs)
+      - ((If the player has completed the dwarven technology tree:))
+          - **Doc:** Well, I got word from Drorkar that he's already schooled you in the ways of dwarven steam - good on you, pal!
+    - ((Unknown conditions; probably the first time you talk to him:))
+      - **Doc:** Ah, technology trees, you say? Now, that's more my sort of thing! Basically, there's a lots of different races in this world, and they all have their own way of doing things. Take us dwarves, for instance - we've mastered the use of lava to generate steam, and we use that steam to power devices - transport, power tools, that sorta thing. But then there's a bunch of goblins that have harnessed the power of lightning! They call it electricity or something.
+      - **Player:** You're saying the word 'thing' a lot.
+      - **Doc:** Aye, I suppose I am. A better word would be 'device' - specialised equipment created to excel at one, er, thing...
+      - **Player:** What about us humans - are we known to have a particular specialisation?
+      - **Doc:** Oh, you lot are known to be the creative bunch. You certainly got a handle on all this divine energy stuff, with its transmuting and magical properties. You could no doubt use the stuff to make some devices of human origin.
+      - **Player:** Can I specialise in the technology that other races use?
+      - **Doc:** Oh, not doubt you can find someone to teach you, so long as you teach them about divine energy in return. I'm sure you could learn about steam power from my master, Drorkar, and about electrical energy from a cave gobin fella named Oldak. This is, though, when you learn about a new technology, you can't focus on another one until you've mastered it. Once you've made your choice, you're locked in until you have enough inspiration to take on more learning. And whatever technology you learn about later on, it'll be a little bit harder for you to make stuff with that technology. 'Cause you're coming 'late to the party', as it were.
+      - *You'll be inspired enough to commit to your first technology tree unlock at level 40 Invention. Any technology trees you unlock AFTER your first increases the Invention level requirement to build devices within it (+20 levels for your secondary specialisation)!*
+  - ((If the player is below 99 Invention:))
+    - You're an experienced inventor.
+      - **Doc:** Glad you think so. I couldn't have got here without you pioneering with inventing and stuff.
+  - ((If the player has achieved 99 Invention:))
+    - Let's discuss skill mastery...
+      - **What would you like to say?**
+        - Can I buy an Invention skillcape?
+          - **Player:** Can I buy an Invention skillcape?
+          - ((If the player has a ring of charos (a) equipped:))
+            - **Doc:** I don't do this for anyone, but I've got a special offer today! Normally I require 99,000 coins for this prestigious item, but for you it's half price. Only 92,000 coins!
+          - ((Otherwise:))
+            - **Doc:** A cape of this quality carries a cost! 99,000 to be precise.
+          - **Choose an option:**
+            - 99,000 coins? That's much too expensive. ((or 92,000 coins with ring of charos (a)))
+              - **Doc:** Not at all; there are many other adventurers who would love the opportunity to purchase such a prestigious item! You can find me here if you change your mind.
+            - I think I have the money right here, actually.
+              - ((If the player has at least two free backpack spaces:))
+                - (removes=99,000 coins (or 92,000 coins with ring of charos (a))) (receives=Invention cape (or trimmed version if level 99 in at least two skills) and Invention hood)
+                - **Doc:** Excellent! Wear that cape with pride my friend.
+              - ((If the player doesn't have at least two free backpack spaces:))
+                - **Doc:** Unfortunately all skillcapes are only available with a free hood, it's part of a skill promotion deal; buy one get one free, you know. So, you'll need to free up some backpack space before I can sell you one.
+            - ((If the player has achieved level 120 Invention:))
+              - I've master this skill. Is there anything else?
+            - **Doc:** There is something...though I have kept it a secret for a very long time. It is something that can only be worn by a true master.
+            - **Doc:** Not even I can wear it – that's how hard it is to achieve.
+            - **Doc:** You say you're a master. Stand straight, let me take a look at you...
+            - **Doc:** You...really have mastered it. What an honour! It would be my pleasure to sell you a Invention master cape.
+              - **Buy Invention master cape for 120,000 coins?**
+                - Yes.
+                  - ((If the player has at least one free backpack space:))
+                    - (removes=120,000 coins) (receives=Invention master cape)
+                  - ((If the player does not have at least one free backpack space:))
+                    - **Doc:** You do not have enough room in your backpack Please come back when you have some more.
+                - No.
+                  - (end)
+              - Let's discuss something else...
+                - (previous|docQs)
+              - Never mind.
+                - **Player:** Never mind.
+        - I've noticed there are a couple versions of each skillcape.
+          - **Doc:** Yes! We, the skill masters, have crafted new versions of all skillcapes! We felt like it was time for a change.
+          - ((If the player has chosen the new skillcape models:))
+            - **Doc:** You can still choose to wear the old model skillcape if you want. Would you like to change which model you are currently using?
+            - **Select an Option**
+              - Yes, I would like to wear the old version of the skillcape.
+                - **Doc:** Would you like to wear the old model for just this cape, or for the Quest point cape and all of the skillcapes you own?
+                - **Select an Option**
+                  - I would just like to change the Invention skillcape.
+                    - **Doc:** No problem, you will now use the older model for your Invention skillcape.
+                  - I would like to change all my skillcapes.
+                    - **Doc:** No problem, you will now use the older model for all of your skillcapes!
+                  - I've changed my mind!
+                    - (end)
+              - No, thank you.
+                - **Doc:** Great! I'm glad you're enjoying our new version!
+                - ((If the player is using the old skillcape models except for the Invention cape:))
+                  - **Doc:** If you want, I can make it so you use the newer model for all of the skillcapes you own!
+                  - **Select an Option**
+                    - Ok, I'd like to wear the newer version for all my skillcapes.
+                      - **Doc:** Great, you will now use the newer model for all of your skillcapes!
+                    - No, thanks.
+                      - (end)
+          - ((If the player has chosen the old skillcape models:))
+            - **Doc:** It looks like you're currently using the old model for your Invention skillcape. Would you like to change to the newer one?
+            - **Select an Option**
+              - Yes, I would like to wear the new version of the skillcape.
+                - **Doc:** Would you like to wear the newer model for just this cape, or all of the skillcapes you own?
+                - **Select an Option**
+                  - I would just like to change the Invention skillcape.
+                    - **Doc:** No problem, you will now use the newer model for your Invention skillcape.
+                  - I would like to change all my skillcapes.
+                    - **Doc:** No problem, you will now use the newer model for all of your skillcapes!
+                  - I've changed my mind!
+                    - (end)
+              - No, thank you.
+                - **Doc:** Great! I'm glad you're still enjoying the old version!
+                - ((If the player is using the new skillcape models except for the Invention cape:))
+                  - **Doc:** If you want, I can make it so you use the old model for all of the skillcapes you own!
+                  - **Select an Option**
+                    - Ok, I'd like to wear the old version for all my skillcapes.
+                      - **Doc:** Great, you will now use the old model for all of your skillcapes!
+                    - No, thanks.
+                      - (end)
+        - ((Only if the player has achieved 120 Invention:))
+          - I've mastered this skill. Is there anything else?
+            - **Doc:** I've been saving this master cape for the first true tinkerer. Is that really you?
+            - **Player:** I think so. I mean, I have mastered inventing things.
+            - **Doc:** Aye, I can see that. So I guess you must be a master of tinkering.
+            - **Player:** Please don't go around telling other people that.
+            - **Buy Invention master cape for 120,000 coins?**
+              - Yes
+                - ((If the player has at least one free backpack space:))
+                  - (removes=120,000 coins) (receives=Invention master cape)
+                  - (previous2)
+                - ((If the player does not have at least one free backpack space:))
+                  - **Doc:** You do not have enough room in your backpack Please come back when you have some more.
+              - (previous2)
+          - No
+            - (previous2)
+    - Let's discuss something else...
+      - (previous)
+    - Never mind.
+      - **Player:** Never mind.
+    - ((If the player has at least one augmentable tool on the tool belt:))
+      - Can you help me augment my tools?
+        - **Doc:** Certainly, lad. I can help if you've got a tool on your tool belt that you'd like to augment.
+        - **Select an Option**
+          - Augment my hatchet.
+            - *If the player has not augmented a hatchet from the tool belt:*
+              - *If the player does not have an augmentable hatchet on the tool belt:*
+                - **Doc:** Of course, you don't have any hatchets you can augment on your tool belt. If you have something later, perhaps I will be able to help.
+                - **Doc:** You'll need to bring me any augmentor, and I'm only going to help you remove one hatchet.
+              - *If the player has an augmentable hatchet on the tool belt:*
+                - *If the player does not have an augmentor:*
+                  - **Doc:** I don't have any spare augmentors, though. You'll have to bring me one before we can augment a tool.
+                  - **Doc:** If you do, I'll help you augment your tool and I'll even throw in a rune replacement for free!
+                - *If the player has an augmentor:*
+                  - **Doc:** I see you have a hatchet that I could augment. How about it? I'll even give you a free rune hatchet to replace it!
+                  - Augment tool
+                  - Augmenting: [Dragon/Crystal/Imcando] hatchet
+                  - Do you wish to remove this tool from your tool belt and augment it?
+                  - Your augmentor will be used as well, and you will be given a replacement {{Sic|rune axe}} on your tool belt.
+                  - You can only do this once.
+                    - Cancel
+                      - **Doc:** So be it, lad. Maybe I can help you later.
+                    - Ok
+                      - Doc helps you remove your hatchet from your tool belt and augment it. He hands you a replacement rune hatchet.
+                      - **Doc:** There we go. That's a fine tool you have there, lad. Keep it up!
+            - *If the player has already augmented a hatchet from the tool belt:*
+              - **Doc:** I told you I can only do this once! You've already had a hatchet off me.
+          - Augment my pickaxe.
+            - *If the player has not augmented a pickaxe from the tool belt:*
+              - *If the player does not have an augmentable pickaxe on the tool belt:*
+                - **Doc:** Of course, you don't have any pickaxes you can augment on your tool belt. If you have something later, perhaps I will be able to help.
+                - **Doc:** You'll need to bring me any augmentor, and I'm only going to help you remove one pickaxe.
+              - *If the player has an augmentable pickaxe on the tool belt:*
+                - *If the player does not have an augmentor:*
+                  - **Doc:** I don't have any spare augmentors, though. You'll have to bring me one before we can augment a tool.
+                  - **Doc:** If you do, I'll help you augment your tool and I'll even throw in a rune replacement for free!
+                - *If the player has an augmentor:*
+                  - **Doc:** I see you have a pickaxe that I could augment. How about it? I'll even give you a free rune pickaxe to replace it!
+                  - Augment tool
+                  - Augmenting: [Dragon/Crystal] pickaxe {{Transcript missing|(possibly also Imcando and Earth and Song)}}
+                  - Do you wish to remove this tool from your tool belt and augment it?
+                  - Your augmentor will be used as well, and you will be given a replacement rune pickaxe on your tool belt.
+                  - You can only do this once.
+                    - Cancel
+                      - **Doc:** So be it, lad. Maybe I can help you later.
+                    - Ok
+                      - Doc helps you remove your pickaxe from your tool belt and augment it. He hands you a replacement rune pickaxe.
+                      - **Doc:** There we go. That's a fine tool you have there, lad. Keep it up!
+            - *If the player has already augmented a pickaxe from the tool belt:*
+              - **Doc:** I told you I can only do this once! You've already had a pickaxe off me.
+- Never mind.
+  - (end)

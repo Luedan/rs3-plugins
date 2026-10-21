@@ -1,0 +1,320 @@
+# Historian Minas
+
+- **Original Wiki Page**: [Transcript:Historian Minas](https://runescape.wiki/w/Transcript%3AHistorian%20Minas)
+- **Letter**: `H`
+
+---
+
+## Dialogue Transcript
+
+{{incomplete|Missing dialogue at Archaeology Guild when the player is at Professor level}}
+
+### Varrock Museum
+
+- **Player:** Hello!
+- **Historian Minas:** Hello there, welcome to Varrock Museum! Can I help you?
+- [Menu]: Select an Option
+  - [Choice]: cond=With an ancient effigy:|Is this ancient effigy of use to you?
+    - **Player:** Is this ancient effigy of use to you?
+    - **Historian Minas:** Ancient effigy?
+    - **Player:** I found it on my travels, but I don't quite know what it is.
+    - **Historian Minas:** Intriguing... I wonder where it came from.
+    - **Player:** Would it be of interest to the museum?
+    - **Historian Minas:** Oh my, yes, we are always interested in relics and oddities.
+    - **Historian Minas:** If you would care to donate it to the museum, I'm sure I could find something around here to reward you with.
+    - **Historian Minas:** Let me see...ah, yes! Here, I have this antique lamp that you can have.
+    - [Do you wish to donate the ancient effigy to the museum in return for an antique lamp?]
+    - [Menu]: Select an Option
+      - [Choice]: Yes.
+        - **Player:** That sounds like a good deal to me! Here you go...
+        - (removes=Ancient effigy) (receives=Antique lamp)
+        - **Historian Minas:** The museum thanks you for your donation. We'll have our top men look into this right away!
+        - **Player:** Who?
+        - **Historian Minas:** Top...men...
+        - **Player:** Okay...
+      - [Choice]: No.
+        - **Player:** Actually, I think I'll hold on to it for a while longer.
+        - **Historian Minas:** Very well. If you change your mind, you know where to find me.
+  - [Choice]: Tell me about the Museum.
+    - **Player:** Tell me about the Museum.
+    - **Historian Minas:** Well, as you can see we have recently expanded a great deal to cope with the influx of finds from the Dig Site. Also, of course, to prepare for the new dig we're opening soon.
+    - [Menu]: Select an Option
+      - [Choice]: Tell me about the new dig.
+        - **Player:** Tell me about the new dig.
+        - **Historian Minas:** Well, we recently had a large chunk of funds donated to us, so we sent out all sorts of explorers - I'm sure you'll meet them as you go around the world. People like Simon down in the desert near the pyramid as well as
+        - **Historian Minas:** Aristarchus in Pollnivneach, Varmen and, of course, Anna Jones. Anyway, we think we have discovered an island that has massive archaeological significance. We can't say much beyond that at this point, as we haven't researched
+        - **Historian Minas:** it. If you have the qualifications and help us out around the Museum, I'm sure we could offer you a place on the dig when we're ready to go.
+        - **Player:** That would be very nice.
+        - (previous)
+      - [Choice]: I have some information that might be of use in your displays.
+        - (below)
+      - [Choice]: Tell me about other sections of the Museum.
+        - **Player:** Tell me about other sections of the Museum.
+        - **Historian Minas:** I'd be delighted to; which areas are you interested in?
+        - [Menu]: Select an Option
+          - [Choice]: Natural History exhibit
+            - **Player:** Tell me about the Natural History exhibit.
+            - **Historian Minas:** Ah, our newest expansion. The Natural History exhibit in the basement was set up to inform our citizens of the weird and wonderful diversity in our environment today. Indeed, I am sure you will recognise some of the
+            - **Historian Minas:** creatures down there. Hopefully, our lectures will teach you some things you didn't know about them!
+            - **Player:** So where does the 'history' bit come in?
+            - **Historian Minas:** Ah, I see. The 'history' refers to that of the species - it doesn't necessarily mean it's died out. After all, we have human history and we're still here!
+            - **Player:** I guess that makes sense.
+            - (previous)
+          - [Choice]: Dig Site exhibit
+            - **Player:** Tell me about the Dig Site exhibit.
+            - **Historian Minas:** Ahh, those. We're slowly filling them up with the help of people who have their Earth Sciences exams completed at the Dig Site. If you have, feel free to give us a hand. We'd appreciate it.
+            - (previous)
+          - [Choice]: Dig Site find cleaning area
+            - **Player:** Tell me about the Dig Site find cleaning area.
+            - **Historian Minas:** The cleaning area, yes. Well, we have some really good archaeologists on site right now. They're cleaning up the finds that are shipped over from the Dig Site to the east of here. If you have the right qualifications, you can help
+            - **Historian Minas:** them clean the finds.
+            - **Player:** What qualifications?
+            - **Historian Minas:** Level 3 Earth Science exams. You can take them over at the Exam Centre on the Dig Site.
+            - (Condition: If you have not completed The Dig Site:)
+              - **Player:** Oh, I don't have those.
+              - **Historian Minas:** I'm sure you can get them easily enough. Just pop over to the Exam Centre on the Dig Site and speak to one of the examiners there.
+              - (previous)
+            - (Condition: If you have completed The Dig Site:)
+              - **Player:** Oh, I already have those!
+              - **Historian Minas:** That's excellent. If you feel like helping us out, pop downstairs and clean some finds for us.
+              - (previous)
+          - [Choice]: Timeline exhibit
+            - **Player:** Tell me about the Timeline exhibit.
+            - **Historian Minas:** Ahh, my speciality. Being a historian, matters of the past are my passion. Collated on this floor and the one above are just part of my life's work. I am still working on updating and finding out more everyday, so if you find any
+            - **Historian Minas:** information on your travels that may be useful, please do let me know.
+            - **Historian Minas:** You can follow the timeline of the history of Gielinor from the creation of the world to the present day, simply by walking around this display. A wondrous journey, I think you'll agree!
+            - **Player:** Wow, that's a lot of information. I'm sure in my travels and quests I'll pick up a few bits of information for you.
+            - (previous)
+          - [Choice]: Previous...
+            - (previous2)
+  - [Choice]: I have some information that might be of use in your displays.
+    - **Player:** I have some information that might be of use in your displays.
+    - **Historian Minas:** That's grand! We're always glad to have more facts. Now, tell me what you know...
+    - (Condition: If no relevant quests have been completed and not yet explained:)
+      - **Player:** On second thoughts, you seem to have everything I know covered here!
+      - **Historian Minas:** No matter. I'm sure you'll find more. Look around the Museum, explore the city and maybe do some quests, and I'm sure you'll find out something worth telling.
+      - **Player:** Yes, I'll go do some quests or something...
+    - (Condition: If Shield of Arrav has been completed but not yet explained:)
+      - (Condition: If the Shield of Arrav was completed in solo mode:)
+        - **Player:** Well, I infiltrated two of the gangs here in Varrock...
+        - **Historian Minas:** We have gangs?
+        - **Player:** Erm, yes...anyway, I managed to recover both halves of the Shield of Arrav.
+        - **Historian Minas:** Halves?
+        - **Player:** Yes. The gangs had a bit of a tiff, you see. Anyway, I re-assembled the shield and presented it to King Roald to get my reward.
+        - (continue)
+      - (Condition: If the Shield of Arrav was completed with a partner:)
+        - **Player:** Well, I infiltrated one of the gangs here in Varrock...
+        - **Historian Minas:** We have gangs?
+        - **Player:** Erm, yes...anyway, I managed to get half the shield back.
+        - **Historian Minas:** Only half?
+        - **Player:** Yes. The gangs had a bit of a tiff, you see. A friend helped me get the other half and I returned it here to get my reward.
+        - (continue)
+      - **Historian Minas:** Yes, yes, we were most pleased to have the shield returned - as was the King, I imagine. This is wonderful news, I shall make sure the display is updated at once! Display number 24, 4th Age, year 700-800. Oh, and before I forget, we found this old lamp lying around...and since you've done such a sterling job, we'd like you to have it.
+      - **Player:** Oh, random bits of tat. Thank you very much.
+      - **Historian Minas:** You're welcome!
+        - *(If backpack is full)*
+        - **Historian Minas:**Hmm, your backpack seems a tad full, though. Best come back when you have a little more space!
+      - (receives=antique lamp (Kudos))
+      - You have earned Kudos with the Museum!
+      - You receive an old lamp.
+      - [You receive an old lamp.]
+      - (continue)
+    - (Condition: If Observatory Quest has been completed but not yet explained:)
+      - **Player:** I helped to rebuild the Observatory near Ardougne. I had to fight to do it, and learn how to use the telescope too. I can draw you a diagram of the Observatory if it would help.
+      - You have earned Kudos with the Museum!
+      - **Historian Minas:** That would help immensely. Restored it, eh? And it works, you say? Excellent, perhaps we can get to some real stargazing now! Display number 17, 5th age, year 70.
+      - (continue)
+    - (Condition: If Merlin's Crystal has been completed but not yet explained:)
+      - **Player:** I helped to free the wizard, Merlin, by using Excalibur...
+      - **Historian Minas:** Is that some kind of spell?
+      - **Player:** No, it's a sword. King Arthur's sword.
+      - **Historian Minas:** What kingdom does he rule then?
+      - **Player:** Ananka - one of the kingdoms of Teragard.
+      - **Historian Minas:** Where on Gielinor is that?
+      - **Player:** It's not! That's what I've trying to tell you. I found that King Arthur and his knights are really biding their time here in Gielinor until they are called back to their own world, when they are needed!
+      - **Historian Minas:** That's amazing! So he's really from another world! Well, this is interesting, I'll make sure a display is put up immediately. Well done, Player! Display number 9, 5th Age, year 132.
+      - **Historian Minas:** Oh, and before I forget, we found this old lamp laying around...and since you've done such a sterling job, we'd like you to have it.
+      - **Player:** Oh, random bits of tat, thank you very much.
+      - **Historian Minas:** You're welcome!
+      - (receives=antique lamp (Kudos))
+      - You have earned Kudos with the Museum!
+      - You receive an old lamp.
+      - [You receive an old lamp.]
+      - (continue)
+    - (Condition: If Demon Slayer has been completed but not yet explained:)
+      - **Player:** Well, I recently defeated Delrith, a demon! I did it by using a sword called Silverlight, which is apparently the only sword that could do it. I can give you a description if you want?
+      - You have earned Kudos with the Museum!
+      - **Historian Minas:** Delrith! Incredible! I am grateful to you for letting me know. Please tell me more about Silverlight and I'll get a display erected. Display number 25, 5th Age, year 20.
+      - (continue)
+    - (Condition: If The Grand Tree has been completed but not yet explained:)
+      - **Player:** I helped to save the gnomes' Grand Tree!
+      - **Historian Minas:** Oh? You mean those little green fellows with their gliders?
+      - **Player:** Yes, I uncovered this nasty character called Glough and ended up being ambushed by a black demon...
+      - **Historian Minas:** A black demon! How did you survive!?
+      - **Player:** Oh, I was fine. After the demon it was downhill all the way, and King Narnode allowed me to use the mine under the Tree, and free passage on gnome gliders.
+      - You have earned Kudos with the Museum!
+      - **Historian Minas:** You mean that those flimsy things can fly with more than a gnome in? That is unexpected. I shall update the display immediately. Display number 10, upstairs in the middle of the room!
+      - (continue)
+    - (Condition: If Making History has been completed but not yet explained:)
+      - **Player:** I found out more about King Lathas's ancestors.
+      - **Historian Minas:** Oh? I'd be interested to hear this, we have a painting of him upstairs.
+      - **Player:** Indeed, it turns out that there was a big battle in the year 98 of the 5th Age. One of his ancestors became king because he survived it...
+      - **Historian Minas:** Ahh, is this relating to that small museum near Ardougne?
+      - **Player:** Yes!
+      - **Historian Minas:** Ahh yes, we've been meaning to make a display on that for some time. They sent us some information, too; I'm glad you reminded me, I'll get that done now. Display number 46, 5th Age, year 98.
+      - **Historian Minas:** Oh, and before I forget, we found this old lamp lying around...and since you've done such a sterling job, we'd like you to have it.
+      - **Player:** Oh, random bits of tat, thank you very much.
+      - **Historian Minas:** You're welcome!
+      - (receives=antique lamp (Kudos))
+      - You have earned Kudos with the Museum!
+      - You receive an old lamp.
+      - [You receive an old lamp.]
+      - (continue)
+    - (Condition: If Priest in Peril has been completed but not yet explained:)
+      - **Player:** Some disturbing and heroic news from Morytania concerning the River Salve and the seven priests.
+      - **Historian Minas:** Oh?
+      - **Player:** Yes, it seems that these seven priests were also warriors and drove back the nasty things coming out of Morytania. Then Saradomin blessed the Salve to stop them getting back.
+      - You have earned Kudos with the Museum!
+      - **Historian Minas:** Quite worrying that it's just a bit of water keeping them there, but Saradomin will protect us, I've no doubt. Thank you for the information, I'll get a display put up. Display number 23, 4th Age, year 1100-1200.
+      - (continue)
+    - (Condition: If In Aid of the Myreque has been completed but not yet explained:)
+      - **Player:** Some disturbing and heroic news from Morytania, concerning the River Salve and the Temple Knights.
+      - **Historian Minas:** Ahh, the Temple Knights...little is known of them.
+      - **Player:** Yes, it seems that these seven knights drove back the nasty things coming out of Morytania, and Saradomin blessed the Salve to stop them getting back.
+      - You have earned Kudos with the Museum!
+      - **Historian Minas:** Quite worrying that it's just a bit of water keeping them there, but Saradomin will protect us I've no doubt. Thank you for the information, I'll get a display put up. Display number 23, 4th Age, year 1100-1200.
+      - (continue)
+    - (Condition: If Glorious Memories has been completed but not yet explained:)
+      - **Player:** I uncovered the secrets of a glorious Fremennik adventure!
+      - **Historian Minas:** That doesn't sound very historical. What were they doing?
+      - **Player:** There was a prophecy inscribed on five stone tablets. The adventurers were searching for the last one to complete the set.
+      - **Historian Minas:** That sounds much more relevant: we like prophecy. What do the tablets say? Where are they now?
+      - **Player:** Only the last tablet has survived, but I have it here.
+      - **Historian Minas:** That's excellent! Hmm, this inscription doesn't make much sense: who's [Fremennik name]?
+      - **Player:** Well, actually, that's-
+      - **Historian Minas:** No matter. I'll sort the display immediately. It will be in display number 48, on the top floor.
+    - (Condition: If Meeting History has been completed but not yet explained:)
+      - **Player:** I discovered about the origin of humankind!
+      - **Historian Minas:** Are you sure?
+      - **Player:** Yes, we came from another place, through a portal! Guthix was there to meet us and he was also the one to create rune stones for us to use.
+      - **Historian Minas:** That's incredible. I shall make a display for that straight away. Display number 13, the second display of the 1st Age.
+    - (Condition: If A Tail of Two Cats has been completed but not yet explained:)
+      - **Player:** You know Bob the Cat?
+      - *Some unknown trigger:*
+        - **Historian Minas:** The little black cat that wanders around sometimes? Sure, most people know him.
+      - *Some unknown trigger:*
+        - **Historian Minas:** The little black cat that used to wander around sometimes? Sure, I remember him.
+      - **Player:** I found out a lot about his background...turns out he was once human and helped to defeat a dragonkin once!
+      - **Historian Minas:** Dragonkin? Tell me more!
+      - **Player:** Well, you see, it started when Bob went missing...and involved a big sphinx in Sophanem, the City of the Dead, and me taking care of Unferth...
+      - **Historian Minas:** This is starting to sound familiar...
+      - **Player:** It must...you know Reldo, the Varrock librarian - he knows all about Robert the Strong.
+      - **Historian Minas:** You mean that was Bob? Wow... I will get a display erected immediately about the history of this brave warrior. Display number 20, 4th Age, year 1-100.
+    - (Condition: If Temple of Ikov has been completed but not yet explained:)
+      - (Condition: If the player sided with the Guardians of Armadyl:)
+        - **Player:** Well, I was asked to retrieve the Staff of Armadyl, from the Temple of Ikov, by Lucien, but instead, I helped the guardians of the staff and banished Lucien from this plane of existence, so that he could never again return. I saw the staff and can describe it to you if you want?
+        - (continue)
+      - (Condition: If the player sided with Lucien:)
+        - **Player:** Well, I was asked to retrieve the Staff of Armadyl, from the Temple of Ikov, by Lucien. When I returned it he grew in power unimaginably. I held the staff and can describe it to you if you want?
+        - (continue)
+      - **Historian Minas:** Yes! Please do!
+      - [You describe the staff in detail while the historian takes notes.]
+      - You have earned Kudos with the Museum!
+      - **Historian Minas:** That's excellent, I'll get a display put up straight away! Display number 28, end of the 2nd Age.
+      - (continue)
+    - (Condition: If Defender of Varrock has been completed but not yet explained:)
+      - **Player:** Well, we got rid of the marauding zombies.
+      - **Historian Minas:** That's handy: zombies tend to leave horrible muddy footprints around the place.
+      - **Player:** Erm, yes. Anyway, did you get the shield back?
+      - **Historian Minas:** Yes, Dimintheis returned it to us. I have two questions. What actually happened today, and is it safe to put the shield back on display?
+      - **Player:** Well, Zemouregal the mahjarrat sent his zombie army against Varrock; however, we figured out how to stop him. I found out that the descendant of the founder of Varrock could use the shield to stop the zombie army. It turns out that the leader of the tribe that founded Varrock was of the Fitzharmon bloodline. Dimintheis is a member of that bloodline, so he defeated the zombies.
+      - **Historian Minas:** My, my, that is all very interesting. I shall make sure the display is updated at once! Display number 24, 4th Age, year 700-800.
+      - **Historian Minas:** Oh, and before I forget, we found this old lamp lying around. Since you've done such a sterling job, we'd like you to have it.
+      - **Player:** Oh, random bits of tat, thank you very much.
+      - **Historian Minas:** You're welcome!
+      - (receives=antique lamp (Kudos))
+      - You have earned Kudos with the Museum!
+      - You receive an old lamp.
+      - [You receive an old lamp.]
+      - (continue)
+    - (Condition: If Hazeel Cult has been completed but not yet explained:)
+      - **Player:** I discovered the truth behind the Carnillean family fortune!
+      - **Historian Minas:** Oh? Is that the family over near Ardougne?
+      - **Player:** Yes. I got a bit involved in family business...
+      - **Historian Minas:** And?
+      - **Player:** I found a secret cult in Ardougne and found that the Carnillean family started building the city of Ardougne from a house they'd captured from a Zamorakian lord.
+      - [The historian pulls out his writing implements and listens while you explain the whole story....]
+      - You have earned Kudos with the Museum!
+      - **Historian Minas:** How exciting, I'll get a display put up immediately. Display number 7, 5th Age, year 7.
+      - (continue)
+    - (Condition: If What Lies Below has been completed but not yet explained:)
+      - **Player:** I discovered a tunnel and a cult of chaos mages here in Varrock!
+      - **Historian Minas:** Oh! Whatever can we do!
+      - **Player:** Calm down, I have arrested the ringleader.
+      - **Historian Minas:** Oh, thank Saradomin for that. So, tell me the story!
+      - **Player:** Well, I met Rat and he asked me to fill his folder, and I got mixed up with Surok...
+      - **Historian Minas:** A rat asked you to fill a folder?
+      - **Player:** No, no, no - Rat Burgiss. But anyways, it turns out that this cult had been trying to get to the King, but I stopped them.
+      - (Condition: If you have the Dagon'hai history book in your inventory:)
+        - [The historian is scribbling furiously on his pad, and finally turns to you.]
+        - **Player:** Actually, to save you some writing, I have this book here that has lots of information. You can have it if you want...
+        - (removes=Dagon'hai history)
+        - You have earned Kudos with the Museum!
+        - **Historian Minas:** Why, thank you... Yes, this is a bit of a revelation! I'll get a display put up immediately. Display number 3, 5th Age, year 70.
+        - (continue)
+      - (Condition: If you don't have the Dagon'hai history book in your inventory:)
+        - [The historian looks a little overwhelmed, but also skeptical.]
+        - **Historian Minas:** I don't suppose you have any evidence of this cult?
+        - **Player:** Not with me, but there is a book I can get you from the library.
+        - **Historian Minas:** That sounds good - bring me that and we'll create a display.
+        - (continue)
+    - (Condition: If Rune Mysteries has been completed but not yet explained:)
+      - **Player:** The mages let me in on the secret to runecrafting!
+      - **Historian Minas:** Ah. That. Tell me more.
+      - **Player:** Hmm I can't tell you much, but I do know that rune essence can be mined from a secret place, then, using the altars and talismans, I can change it into runes.
+      - You have earned Kudos with the Museum!
+      - **Historian Minas:** Sounds like magic to me! I'll get a display put up immediately. Display number 21, the first display of the 5th Age.
+      - (continue)
+    - (Condition: If The Curse of Zaros has been completed but not yet explained:)
+      - **Player:** Well, I found out more about the Staff of Armadyl from a ghost. It seems that Zamorak was a mortal when he got hold of the staff, and he used it to, well...spear Zaros, and somehow ended up becoming a god. It was a bit confusing.
+      - **Historian Minas:** Now that is what you call a story. Tell me more so that I can put it up on the display.
+      - [You recount the tale of the battle between Zaros and Zamorak as you heard it from the ghostly swordsman.]
+      - **Historian Minas:** This is wonderful, I shall have a display made immediately to go with the staff model. Display number 28, end of the 2nd Age.
+      - **Historian Minas:** Oh, and before I forget, we found this old lamp lying around. Since you've done such a sterling job, we'd like you to have it.
+      - **Player:** Oh, random bits of tat, thank you very much.
+      - **Historian Minas:** You're welcome!
+      - (receives=antique lamp (Historian Minas))
+      - You have earned Kudos with the Museum!
+      - You receive an old lamp.
+      - [You receive an old lamp.]
+      - (continue)
+  - [Choice]: No thanks.
+    - **Player:** No thanks.
+
+### Archaeology Guild
+
+
+#### Before Archaeology release
+
+- **Seth Minas (site manager):** Welcome to the Varrock Dig Site! Feel free to look around, but please don't touch anything without permission. We're doing delicate work here.
+
+#### Before completing Archaeology tutorial
+
+- **Seth Minas (site manager):** Oh, my! You'd be a perfect new recruit for the Archaeology Guild. You should go and talk to Acting Guildmaster Reiniger!
+
+#### After completing Archaeology tutorial
+
+- **Seth Minas (site manager):** Ah, I see we have a new recuit! Welcome to the team! I suggest you take a look at the dig sites map on the opposite side of this room, and pick where you want to explore.
+- **Seth Minas (site manager):** Hint - you probably want to head to the Kharid-et Dig Site to begin with... Have fun, and good luck! However, the Acting Guildmaster could better direct you to other digs around the world!
+
+#### When the player is at Assistant or Associate level
+
+- **Seth Minas (site manager):** Ah, hello there, fellow archaeologist. I hope you are faring well.
+
+#### When the player is at Professor level
+
+- {{transcript missing}}
+
+#### When the player is at Guildmaster level
+
+- **Seth Minas (site manager):** Ah, hello, Guildmaster! Good to see you.

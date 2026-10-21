@@ -1,0 +1,206 @@
+# The Keeper
+
+- **Original Wiki Page**: [Transcript:The Keeper](https://runescape.wiki/w/Transcript%3AThe%20Keeper)
+- **Letter**: `T`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### In the Orthen Oubliette
+
+
+#### Diálogo estándar
+
+- **Player:** ¿A dónde fue Zaros?
+- **The Keeper:** Tu predecesor dañó la mazmorra y liberó a Raksha.
+- **Player:** ¿Mi predecesor?
+- **The Keeper:** La deidad púrpura. Me habló de tu venida.
+- **The Keeper:** Me habló de tu nueva y extraña especie.
+- **The Keeper:** Me dijo que puedes sobrevivir en este entorno.
+- **The Keeper:** Debes ingresar a la cámara interior y detener a Raksha.
+- [Menu]: Selecciona una opción
+  - [Choice]: Me ocuparé de eso.
+    - **The Keeper:** ¿Necesitas algo más?
+    - (continue|Learning about Raksha)
+  - [Choice]: Espera, ¿quién eres?
+    - **Player:** Espera, ¿quién eres?
+    - **The Keeper:** Soy the Keeper, el cuidador de la mazmorra.
+    - **The Keeper:** Mantengo el aparato que sostiene y aprisiona a Raksha, el prisionero de este lugar.
+    - **The Keeper:** He mantenido esta vigilia durante muchos siglos y los sellos nunca se han roto hasta ahora.
+    - **The Keeper:** ¿Necesitas algo más?
+    - (continue|Learning about Raksha)
+- [Menu]: Selecciona una opción
+  - [Choice]: Pregunta por la criatura.
+    - **The Keeper:** ¿Qué pasa con la criatura?
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Qué es?
+        - **Player:** ¿Qué es?
+        - **The Keeper:** Lo llamamos Raksha. El que habla.
+        - **Player:** ¿Pero qué es? Zaros lo llamó un "coloso de las sombras".
+        - **The Keeper:** No conozco este término. Raksha es un ser único.
+        - **The Keeper:** Había otros dinosaurios, algunos seres verdaderamente titánicos, pero nada como esto.
+        - **The Keeper:** Kerapac experimentó con ello. Tenía poderes extraños, que cortó de su extraña carne, pero no pudo eliminar su aspecto fundamental.
+        - **The Keeper:** Magic de un tipo que nunca habíamos visto antes recorre todo su cuerpo.
+        - **The Keeper:** Hay que alimentarlo con esa energía para seguir vivo, no la genera.
+        - (previous|keeper-ask-creature)
+      - [Choice]: ¿Cómo fue capturado?
+        - **Player:** ¿Cómo fue capturado?
+        - **The Keeper:** Lo cazamos durante semanas por todo el continente.
+        - **The Keeper:** Cuando lo acorralamos, me envenenó.
+        - **The Keeper:** Transportarlo aquí fue un asunto complejo pero los Kindra lo exigieron.
+        - **The Keeper:** Me enorgullece decir que no hubo otras muertes.
+        - (previous|keeper-ask-creature)
+      - [Choice]: ¿Por qué se agitó ahora?
+        - **Player:** ¿Por qué se agitó ahora?
+        - **The Keeper:** Kerapac de alguna manera creó una fuente de energía que necesita para sobrevivir.
+        - **The Keeper:** Después de la maldición, cesó el suministro de energía.
+        - **The Keeper:** the beast y yo permanecimos despiertos durante muchos años más, pero finalmente Raksha entró en coma y yo me quedé dormido con él.
+        - **The Keeper:** No sé cuánto tiempo ha pasado desde entonces.
+        - **The Keeper:** Recientemente, el suministro se reanudó una vez más, despertándonos a ambos, hasta que cesó una vez más.
+        - **The Keeper:** Raksha habría dormido una vez más si no fuera por la interferencia de la deidad púrpura.
+        - (previous|keeper-ask-creature)
+      - [Choice]: [Previous options]
+        - (previous2|Learning about Raksha)
+  - [Choice]: Pregunta por este lugar.
+    - **The Keeper:** ¿Qué pasa con este lugar?
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Qué es este lugar?
+        - **Player:** ¿Qué es este lugar?
+        - **The Keeper:** Estamos en la antecámara de la mazmorra.
+        - **The Keeper:** La mazmorra fue diseñada y construida únicamente para contener a Raksha.
+        - **The Keeper:** El aparato canaliza energía aquí para sostener a la criatura.
+        - **The Keeper:** Yo estaba incrustado aquí como su guardián, supervisándolo.
+        - (previous)
+      - [Choice]: ¿Qué experimentos se hicieron aquí?
+        - **Player:** ¿Qué experimentos se realizaron aquí?
+        - **The Keeper:** No me corresponde entender los detalles.
+        - **The Keeper:** Syrtes, Aughra y Dactyl visitaron este lugar por su trabajo.
+        - **The Keeper:** Cuando está agitado, Raksha transmite visiones de odio.
+        - **The Keeper:** Recuerdo que un sacerdote, Kranon, quedó muy conmovido por la experiencia.
+        - **The Keeper:** Afirmó que tenía un significado religioso para él, aunque no puedo imaginar qué. Me pregunto qué fue de él.
+        - (Condition: Si el player ha completado La maldición de la Piedra Negra:)
+          - **Player:** Tuvo un mal final.
+          - **The Keeper:** No es de extrañar.
+          - (previous)
+        - (Condition: Si el player no ha completado La Maldición de la Piedra Negra:)
+          - (previous)
+      - [Choice]: [Previous options]
+        - (previous2|Learning about Raksha)
+  - [Choice]: Pregunta sobre la historia antigua.
+    - **The Keeper:** Pregunta lo que necesites.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Sabes algo sobre el 'Codex' que mencionó Zaros?
+        - **Player:** ¿Sabes algo sobre el 'Codex' que mencionó Zaros?
+        - **The Keeper:** No lo hago. Me mostró las mismas visiones que te mostró a ti.
+        - **The Keeper:** Nunca supimos la fuente de los poderes de Raksha.
+        - **The Keeper:** Quizás este Códice esté vinculado a los mismos poderes.
+        - **Player:** Sé dónde está.
+        - **The Keeper:** ¿En serio?
+        - **Player:** Construimos el gremio Archaeology a su alrededor.
+        - **The Keeper:** Eso parece imprudente.
+        - (previous)
+      - [Choice]: ¿Puedes contarme algo sobre tu gente?
+        - **Player:** ¿Puedes contarme algo sobre tu gente?
+        - **The Keeper:** Mi pueblo gobernó este mundo, hasta que nos sobrevino la maldición.
+        - **The Keeper:** Me enterraron aquí mucho antes, pero todavía lo sentía.
+        - **The Keeper:** Después de ese momento no hubo ningún interés en la mazmorra ni en su prisionero. No he tenido visitas.
+        - **The Keeper:** Ahora la maldición se ha ido, pero mi propia vigilia permanece.
+        - **The Keeper:** La deidad púrpura me dijo que mi civilización desapareció hace mucho tiempo.
+        - **Player:** ¿Eso te preocupa?
+        - **The Keeper:** ...
+        - **The Keeper:** Para mí no hay ninguna diferencia mientras Raksha permanezca contenida.
+        - (previous)
+      - [Choice]: ¿Puedes contarme algo sobre la ciudad de Orthen?
+        - **Player:** ¿Puedes contarme algo sobre la ciudad de Orthen?
+        - **The Keeper:** Esta es nuestra primera ciudad en este mundo.
+        - **The Keeper:** Había otras colonias pero esta era la capital.
+        - **Player:** Hay arqueólogos afuera estudiando las ruinas.
+        - **Player:** Les fascinaría hablar contigo.
+        - **The Keeper:** ¿Son como tú? ¿Podrán sobrevivir aquí?
+        - **Player:** No. Sólo yo puedo hacer eso. Soy una especie de caso especial.
+        - **The Keeper:** Desafortunadamente.
+        - (previous)
+      - [Choice]: ¿Cómo era tu mundo?
+        - **Player:** ¿Cómo era tu mundo?
+        - **The Keeper:** Lo has visto tú mismo, ¿no?
+        - **Player:** Bueno, esta isla está experimentando un... um... digamos que el tiempo, uh, problema.
+        - **Player:** Está cubierto de jungla, pero el resto del mundo no.
+        - **Player:** ¿Cómo era el continente en tu época?
+        - **The Keeper:** Se parecía mucho a esta isla. Volcanes, helechos, dinosaurios.
+        - **The Keeper:** Un mundo joven y vibrante, el aire dulce y limpio.
+        - (previous)
+      - [Choice]: [Previous options]
+        - (previous2|Learning about Raksha)
+  - [Choice]: Pregunta por alguien.
+    - **The Keeper:** ¿De quién quieres saber?
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Qué te dijo Zaros?
+        - **Player:** ¿Qué te dijo Zaros?
+        - **The Keeper:** ¿Quién?
+        - **Player:** La, uh, deidad púrpura.
+        - **The Keeper:** Me dijo que me han arrancado el tiempo.
+        - **The Keeper:** Me dijo que han pasado muchos miles de años, pero yo me he quedado quieto.
+        - **The Keeper:** Me dijo que el mundo ahora está bajo el control de seres inferiores.
+        - **Player:** ¿Sabes lo que quería?
+        - **The Keeper:** Ha quitado parte del aparato de la mazmorra.
+        - **The Keeper:** Le dije que no lo hiciera, pero no podía hacer nada contra un ser de tal potencia.
+        - **The Keeper:** Parecía seguro de que usted se ocuparía específicamente de las secuelas.
+        - (previous)
+      - [Choice]: ¿Qué puedes decirme sobre ti?
+        - **Player:** ¿Qué puedes contarme sobre ti?
+        - **The Keeper:** Una vez fui cazador. Fui yo quien capturó a Raksha y lo trajo aquí.
+        - **The Keeper:** Fui envenenado, pero por las maquinaciones de Kerapac fui enterrado aquí.
+        - **The Keeper:** El mismo aparato que sostiene a Raksha me sostiene a mí.
+        - **The Keeper:** Estamos vinculados para siempre.
+        - (Condition: Si el player ha recuperado los diarios de Varanus)
+          - **Player:** ¡Eres Varanus!
+          - **Player:** Recuperé tus diarios de las ruinas de Orthen.
+          - **The Keeper:** Sí. Ese era mi nombre.
+          - **Player:** Pero eso es imposible. Hay un sarcófago enorme con tu nombre no muy lejos de aquí.
+          - **Player:** ¿Cómo estás vivo?
+          - **The Keeper:** Alguien necesitaba contener a Raksha. Tenía que ser yo.
+          - **The Keeper:** Los métodos de Kerapac pueden ser extremos, pero eran necesarios.
+          - **The Keeper:** No dejaría que la criatura por la que morí para capturar quedara libre, y no dejaría que otra languideciera en esta prisión.
+          - **The Keeper:** Pero los demás no lo habrían entendido. Se habrían opuesto y tal vez incluso habrían dañado la mazmorra.
+          - **The Keeper:** Una tumba vacía fue mi camuflaje final.
+          - (previous)
+        - (Condition: Si el player no ha recuperado los diarios de Varanus)
+          - (previous)
+      - [Choice]: [Previous options]
+        - (previous2|Learning about Raksha)
+  - [Choice]: Reproducir escena.
+    - (above|Raksha, the Shadow Colossus)
+
+#### Diálogo posterior a la muerte
+
+- **Player:** ¡Lo logramos!
+- **The Keeper:** Gracias.
+- **The Keeper:** ¿Es probable que se restablezca el suministro de energía?
+- **Player:** No. El dispositivo de Kerapac fue destruido.
+- **The Keeper:** ¿Cómo?
+- **Player:** Dramáticamente.
+- **The Keeper:** Entonces Raksha probablemente no volverá a moverse.
+- **The Keeper:** Él y yo nos hundiremos una vez más en el sueño.
+- **The Keeper:** ¿Necesitas algo más?
+- (continuea|Learning about Raksha)
+
+### Inside Asuran Arsenal
+
+- **The Keeper:** No continúes. Esta instalación está restringida.
+- [Menu]: Selecciona una opción
+  - [Choice]: ¿Qué es este lugar?
+    - **Player:** ¿Qué es este lugar?
+    - **The Keeper:** Instalación de armas experimentales cero-cero-uno.
+    - **Player:** Ah, por supuesto.
+    - (previous)
+  - [Choice]: ¿Por qué está prohibido?
+    - **Player:** ¿Por qué no puedo ir más lejos?
+    - **The Keeper:** Sólo los dragonantes están autorizados a entrar. Puede que no pases.
+    - **Player:** Buena suerte con eso.
+    - (previous)
+  - [Choice]: Adiós.
+    - **Player:** Adiós.
+    - **The Keeper:** ...

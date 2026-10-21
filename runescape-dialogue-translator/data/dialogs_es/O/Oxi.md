@@ -1,0 +1,64 @@
+# Oxi
+
+- **Original Wiki Page**: [Transcript:Oxi](https://runescape.wiki/w/Transcript%3AOxi)
+- **Letter**: `O`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+- **Player:** Hola. ¿Qué estás haciendo?
+- **Oxi:** Soy el cuidador de las ratas, mi trabajo es cuidar de estas ratas.
+- **Player:** ¿Sabes que hay algunas ratas sueltas?
+- **Oxi:** Algunos mordisquean para salir de vez en cuando. No te preocupes, hay suficientes gatos aquí abajo para clasificar cualquier cosa que salga.
+- **Player:** Entonces, ¿cómo funcionan estos pozos de ratas?
+- **Oxi:** Las fosas Keldagrim atienden a aquellos con una mayor variedad de gatos.
+- **Oxi:** Si tienes un gato grande y un par de coins, puedes desafiar a otra persona que también tenga un gato grande y algo de cambio.
+- **Player:** Eso suena bastante simple hasta ahora.
+- **Oxi:** Luego aceptas una apuesta. Se rumorea que algunos cazadores de ratas pueden hablar con sus propios gatos y darles tácticas para ayudarlos.
+- **Player:** Entonces, ¿cómo se gana el desafío?
+- **Oxi:** Estaba llegando a eso. Los gatos de ambos jugadores se colocan dentro del área vallada y quien mate primero a 9 ratas gana.
+  - **Player:** Eso suena vil y cruel.
+    - **Oxi:** Es un mundo cruel y los boxes no son una excepción.
+    - **Oxi:** Cada uno por su lado digo.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** Suena un poco peligroso para mi gato.
+    - **Oxi:** Estoy de acuerdo. Se sabe que los gatos mueren en peleas.
+    - **Player:** Oh, qué terrible. ¿No hay nada que puedas hacer para salvar a tu gato?
+    - **Oxi:** Por supuesto que sí, puedes indicarle que tenga cuidado y se irá una vez que sienta que está en peligro.
+    - **Player:** Oh, eso suena muy sabio.
+    - **Oxi:** Eso depende de cómo valoras a tu gato.
+    - **Player:** Lo siento, no te sigo.
+    - **Oxi:** Bueno, si tu gato muere o se escapa, pierdes.
+    - **Oxi:** Entonces, cuanto más tiempo permanezca en la pelea, más posibilidades tendrás de ganar.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¡Vaya, eso suena divertido!
+    - **Oxi:** No sé nada de eso.
+    - **Oxi:** Una cosa que sé es que es una forma rápida de ganar y perder dinero.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¿Existe un límite de cuánto puedes apostar?
+    - **Oxi:** Hmmm... déjame ver. Si no me equivoco, actualmente puedes apostar hasta un máximo de [número] coins.
+    - **Player:** Suena como una cantidad tonta de dinero para apostar en una pelea de gatos.
+    - **Oxi:** Te sorprendería lo que algunas personas estarían dispuestas a apostar.
+    - **Oxi:** También hay una apuesta mínima de 100 coins.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¿Puedo desafiarte a ti y a tu gato?
+    - **Oxi:** No, ahora no, realmente no apostamos con forasteros.
+    - **Player:** Pero no soy un outsider, ¿no estoy ahora en boxes?
+    - **Oxi:** No lo sé, tal vez una vez que hayas hecho algo para ganarte mi confianza.
+    - **Player:** ¿Se puede comprar?
+    - **Oxi:** ¿Qué?
+    - **Player:** Tu confianza.
+    - **Oxi:** No. No agradamos a la gente común del pueblo, lo que nos lleva a desconfiar de ellos y de cualquier otra persona.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.

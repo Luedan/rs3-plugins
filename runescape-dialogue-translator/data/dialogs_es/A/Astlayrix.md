@@ -1,0 +1,160 @@
+# Astlayrix
+
+- **Original Wiki Page**: [Transcript:Astlayrix](https://runescape.wiki/w/Transcript%3AAstlayrix)
+- **Letter**: `A`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Astlayrix:** ¡Hola! ¿No es este lugar emocionante? Hay tantos jadinkos diferentes, tantos factores que influyen en su vida aquí. En verdad, Guthix se mueve de maneras misteriosas.
+- Seleccione una opción
+  - ¿Quién eres?
+    - **Player:** ¿Quién eres?
+    - **Astlayrix:** Mi nombre es Astlayrix. Soy originario de Taverley, pero simplemente tenía que venir y ver este asombroso hábitat en persona.
+    - Seleccione una opción
+      - ¿Qué tiene de especial?
+        - **Player:** ¿Qué tiene de especial?
+        - **Astlayrix:** ¡Todo! Bueno, está bien, tal vez no todo, pero sí una proporción decente. Para empezar, ¿sabías que puedes cultivar combinaciones de plantas para atraer diferentes jadinkos?
+        - Seleccione una opción
+          - ¿Qué es un jadinko?{{anchor|about-jadinko}}
+            - **Player:** ¿Qué es un jadinko?
+            - **Astlayrix:** Es un nombre curioso, estoy de acuerdo. Papa Mambo aparentemente los nombró. Un jadinko es una extraña criatura parecida a un lagarto. Evidentemente son una especie de planta andante: fascinante, de verdad. Es más, de ellos crecen enredaderas, cada una de las cuales está imbuida de notables energías mágicas. Imagina las pociones que podrías crear usando esas enredaderas como ingredientes.
+            - Seleccione una opción
+              - ¿Qué pociones crees que podría crear?
+                - (Action: abajo|pociones)
+              - ¿Qué influye en los jadinkos?
+                - (Action: abajo|influencia-jadinkos)
+              - *Después de que el player haya atraído algún tipo de jadinko:*
+                - ¿Puedes mostrarme qué criaturas he atraído hasta ahora?
+                  - (Action: abajo|conocido-jadinkos)
+              - ¿Puedes mostrarme cómo atraer jadinkos?
+                - (Action: abajo|atraer-jadinkos)
+          - ¿Qué puedo cultivar?{{anchor|grow}}
+            - **Player:** ¿Qué puedo cultivar?
+            - **Astlayrix:** Bueno, hay nuevas especies de plantas que se pueden cultivar aquí. Cada uno debe ser cultivado a partir de la propia vid... erm, quiero decir, "en sí misma". Hay dos nuevas especies de arbustos, tres flores diferentes y cinco hierbas. Todos pueden cultivarse a partir de la propia vid. También hay un huerto de árboles frutales, pero eso no tiene nada de nuevo. Cada una de estas plantas puede atraer una extraña raza de criaturas vegetales llamadas jadinko.
+            - Seleccione una opción
+              - ¿Qué hierbas puedo cultivar aquí?{{anchor|herbs}}
+                - **Player:** ¿Qué hierbas puedo cultivar aquí?
+                - **Astlayrix:** Bueno, ciertamente no las hierbas que estás acostumbrado a cultivar. Todo lo que se puede cultivar aquí, a excepción de ciertos árboles frutales, se cultiva a partir de la propia vid. Por lo tanto, aquí solo puedes cultivar hierbas de vid especiales.
+                - Seleccione una opción
+                  - ¿Ella misma?
+                    - **Player:** ¿Ella misma?
+                    - **Astlayrix:** ¡Lino de sapo sucio! ¡Me tiene pensando que la vid es hembra ahora! ¡Él! Claramente, quise referirme a la vid como "ella misma", en lugar de "ella misma".
+                    - Seleccione una opción
+                      - ¿Quién te hizo pensar que la vid es hembra?
+                        - **Player:** ¿Quién te hizo pensar que la vid es hembra?
+                        - **Astlayrix:** Oh, ese chamán espeluznante. Se hace llamar 'Papa Mambo', o algo así. Un tipo bastante desconcertante.
+                        - **Papa Mambo:** Je, je, je. Puedo oírte hablar de mí. Je je je.
+                        - **Astlayrix:** ¡Dios! Realmente me pone nervioso cuando hace eso. Ese chamán es el responsable de fomentar que esta enredadera se convierta en un hábitat tan milagroso. No tengo ni idea de cómo lo hizo, pero sospecho que él tampoco.
+                        - Seleccione una opción
+                          - ¿Qué es un jadinko?
+                            - (Action: arriba|acerca de-jadinko)
+                          - ¿Qué influye en los jadinkos?
+                            - (Action: abajo|influencia-jadinkos)
+                          - *Después de que el player haya atraído algún tipo de jadinko:*
+                            - ¿Puedes mostrarme qué criaturas he atraído hasta ahora?
+                              - (Action: abajo|conocido-jadinkos)
+                          - ¿Puedes mostrarme cómo atraer jadinkos?
+                            - (Action: abajo|atraer-jadinkos)
+                      - ¿Puedes mostrarme cómo atraer jadinkos?
+                        - (Action: abajo|atraer-jadinkos)
+                      - ¿Puedes mostrarme qué criaturas he atraído hasta ahora?
+                        - (Action: abajo|conocido-jadinkos)
+                      - ¿Puedes mostrarme cómo atraer jadinkos?
+                        - (Action: abajo|atraer-jadinkos)
+                  - ¿Qué puedo cultivar?
+                    - (Action: arriba|crecer)
+                  - *Después de que el player haya atraído algún tipo de jadinko:*
+                    - ¿Puedes mostrarme qué criaturas he atraído hasta ahora?
+                      - (Action: abajo|conocido-jadinkos)
+                  - ¿Puedes mostrarme cómo atraer jadinkos?
+                    - (Action: abajo|atraer-jadinkos)
+              - ¿Qué influye en los jadinkos?
+                - (Action: abajo|influencia-jadinkos)
+              - *Después de que el player haya atraído algún tipo de jadinko:*
+                - ¿Puedes mostrarme qué criaturas he atraído hasta ahora?
+                  - (Action: abajo|conocido-jadinkos)
+              - ¿Puedes mostrarme cómo atraer jadinkos?
+                - (Action: abajo|atraer-jadinkos)
+          - ¿Qué influye en los jadinkos?
+            - (Action: abajo|influencia-jadinkos)
+          - *Después de que el player haya atraído algún tipo de jadinko:*
+            - ¿Puedes mostrarme qué criaturas he atraído hasta ahora?
+              - (Action: abajo|conocido-jadinkos)
+          - ¿Puedes mostrarme cómo atraer jadinkos?
+            - (Action: abajo|atraer-jadinkos)
+      - ¿Qué influye en los jadinkos?
+        - (Action: abajo|influencia-jadinkos)
+      - ¿Puedes mostrarme cómo atraer jadinkos?
+        - (Action: abajo|atraer-jadinkos)
+  - ¿Qué influye en los jadinkos?{{anchor|influence-jadinkos}}
+    - **Player:** ¿Qué influye en los jadinkos?
+    - **Astlayrix:** Bueno, esa es una pregunta un poco capciosa. Verás, no todas las criaturas se sienten atraídas por las mismas cosas; de hecho, algunas especies de jadinko nunca pueden estar en el hábitat al mismo tiempo. Si miras alrededor del hábitat, notarás varias enredaderas que crecen en el suelo, así como un terreno ideal para la construcción. Si cultivas las cosas correctas en las parcelas de enredaderas y si construyes la característica ambiental adecuada, atraerás un jadinko. Puedo mostrarte lo que quiero decir, si quieres.
+    - Seleccione una opción
+      - ¿Puedes mostrarme cómo atraer jadinkos?
+        - (Action: abajo|atraer-jadinkos)
+      - ¿Cuál es el punto de atraer diferentes jadinkos?
+        - **Player:** ¿Cuál es el punto de atraer diferentes jadinkos?
+        - **Astlayrix:** Bueno, cada jadinko tiene una cresta de enredadera diferente, que puedes obtener si las cazas con éxito. Cada una de estas enredaderas tiene diferentes propiedades mágicas y se pueden convertir en diferentes pociones. Cada semana, Papa Mambo ofrece una recompensa a cualquiera que pueda capturar cada tipo de jadinko. Definitivamente debería valer la pena intentarlo.
+        - Seleccione una opción
+          - ¿Qué pociones crees que podría hacer?{{anchor|potions}}
+            - **Player:** ¿Qué pociones crees que podría crear?
+            - **Astlayrix:** Hmm... Me temo que me tienes un poco perplejo, amigo, pero estoy dispuesto a apostar que las pociones tienen efectos únicos. Vaya, incluso hay nuevas hierbas que se pueden cultivar aquí. Supongo que, combinado con algunas de esas enredaderas mágicas, puedes obtener una variedad de efectos.
+            - Seleccione una opción
+              - ¿Qué hierbas puedo cultivar aquí?
+                - (Action: arriba|hierbas)
+              - ¿Qué puedo cultivar?
+                - (Action: arriba|crecer)
+              - ¿Puedes mostrarme cómo atraer jadinkos?
+                - (Action: abajo|atraer-jadinkos)
+          - ¿Qué recompensa ofrece?
+            - **Player:** ¿Qué recompensa ofrece?
+            - **Astlayrix:** Realmente no lo sé, tendrías que preguntarle. Sé que es probable que implique un don de conocimiento y ha estado confeccionando algunas... prendas interesantes.
+            - Seleccione una opción
+              - ¿Qué influye en los jadinkos?
+                - (Action: arriba|influencia-jadinkos)
+              - ¿Puedes mostrarme cómo atraer jadinkos?
+                - (Action: abajo|atraer-jadinkos)
+              - *Después de que el player haya atraído algún tipo de jadinko:*
+                - ¿Puedes mostrarme qué criaturas he atraído hasta ahora?
+                  - (Action: abajo|conocido-jadinkos)
+          - ¿Puedes mostrarme cómo atraer jadinkos?
+            - (Action: abajo|atraer-jadinkos)
+  - *Después de que el player haya atraído algún tipo de jadinko:*
+    - ¿Puedes mostrarme qué criaturas he atraído hasta ahora?{{anchor|known-jadinkos}}
+      - **Player:** ¿Puedes mostrarme qué criaturas he atraído hasta ahora?
+      - **Astlayrix:** Por supuesto.
+      - *(Se abre la interfaz de requisitos conocidos de Jadinko.)*
+  - ¿Puedes mostrarme cómo atraer jadinkos?{{anchor|attract-jadinkos}}
+    - **Astlayrix:** ¡Pero claro! ¡Sígueme!
+    - (Action: Desaparecer/aparecer. Comienza la escena. Astlayrix y el player están cerca de las parcelas agrícolas de Herblore Habitat.)
+    - **Astlayrix:** Comencemos con este parche de flores. Como puedes ver, aquí todavía no crece nada; sin embargo, si hiciéramos que algo creciera aquí...
+    - (Action: Una flor de vid azul completamente desarrollada aparece en el parche de vid.)
+    - **Astlayrix:** Naturalmente, las plantas de vid no crecen tan rápido, pero tengo algunos trucos bajo la manga de mi bata. Aún así, descubrirás que puedes cultivar plantas aquí más rápido de lo normal. Ahora, con esta planta completamente desarrollada, deberías sentir un cambio en el hábitat. A ver si aparece un jadinko.
+    - (Action: Un jadinko común aparece en el área norte de Hunter.)
+    - **Astlayrix:** ¡Ajá! Hay uno ahora. ¡Un jadinko común y corriente! Estos son los jadinkos más fáciles de atraer, ya que se sienten atraídos por el aroma de todos los tipos de flores que crecen aquí. Enviémoslo lejos. A veces, no querrás atraer todos los tipos de criaturas disponibles. Habla con Papa Mambo para alejarlos.
+    - (Action: El jadinko común desaparece.)
+    - **Astlayrix:** Bien, como claramente funcionó, intentemos algo más complejo.
+    - (Action: Astlayrix y el player caminan hacia el parche de funciones.)
+    - **Astlayrix:** Esta es una característica ambiental. Es probable que la construcción de diferentes elementos atraiga a diferentes criaturas. Creemos un respiradero térmico por el momento y veamos si podemos atraer algo nuevo.
+    - (Action: Astlayrix construye un respiradero térmico.)
+    - **Astlayrix:** ¡Uf, fue un trabajo duro! Necesitará un cierto grado de conocimiento de construcción para poder crear estas funciones. ¡No son fáciles de hacer! Por supuesto, si no puede crearlos usted mismo, siempre puede pagarle a Papa Mambo para que los construya por usted. Con ello consigue un negocio bastante lucrativo. Mmmm, bueno, la creación de esta característica por sí sola no pareció hacer nada. Veamos qué más puede atraer a la criatura. Un naranjo podría ayudar.
+    - (Action: Astlayrix camina hacia el huerto de árboles frutales y en él crece un naranjo. el player camina hacia Astlayrix.)
+    - **Astlayrix:** Finalmente, veamos qué pasa si cultivamos un arbusto de arándano rojo.
+    - (Action: Astlayrix camina hacia el arbusto y en él crece un arbusto de arándano rojo. el player camina hacia Astlayrix.)
+    - **Astlayrix:** ¡Ajá! ¡Ahí tienes! Puedo oírlos venir ahora.
+    - (Action: La cámara se desplaza hacia la zona de caza del norte, donde ha aparecido un jadinko ígneo.)
+    - **Astlayrix:** ¡Un jadinko ígneo! Estas criaturas rocosas son más difíciles de atrapar que el jadinko básico, pero sus enredaderas son mucho más útiles.
+    - (Action: Una planta marasamaw aparece frente al ígneo jadinko.)
+    - **Astlayrix:** La mayoría de los jadinkos se capturan utilizando plantas de marasamaw. Coloca estas plantas en el suelo, como lo haría con una trampa de caja estándar. Sin embargo, las plantas de Marasamaw sólo se pueden plantar en el hábitat herbáceo.
+    - (Action: El jadinko ígneo se encuentra sobre la planta marasamaw, que envuelve al jadinko.)
+    - **Astlayrix:** Además de las plantas de marasamaw, puedes capturar algunos jadinkos mediante el seguimiento.
+    - (Action: La cámara recorre los distintos agujeros en el suelo en el área sur de Hunter.)
+    - **Astlayrix:** Hay redes de túneles debajo del hábitat de la hierba; Entonces, si un jadinko cae por uno de esos agujeros, podría emerger por cualquier otro agujero. Vale la pena ser minucioso.
+    - (Action: Desaparecer/aparecer. La escena termina.)
+    - **Astlayrix:** He escuchado a Papa Mambo hablar sobre algunos jadinkos raros cuyos gustos son más caprichosos. Evidentemente, hay tres tipos de jadinko que frecuentan la isla cercana. Estas criaturas comparten rasgos con Guthix, Saradomin o Zamorak y sus gustos varían cada semana. Una semana podrían sentirse atraídos por los manzanos, la siguiente por los naranjos, etcétera; sin embargo, no tengo ninguna duda de que sus enredaderas servirían para crear poderosas pociones dentro de este hábitat. Apuesto a que Papa Mambo ofrecerá una recompensa adicional si también puedes atraparlos a todos en una semana. Bueno, creo que eso cubre todo. Si logras atraer un nuevo tipo de jadinko, anotaré la combinación de plantas que usaste para hacerlo. Como los caprichosos jadinkos cambian cada semana, no llevaré un registro de sus gustos. También puedes encontrar semillas de plantas cazando jadinkos: parecen acapararlas, por alguna razón.

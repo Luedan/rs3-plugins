@@ -1,0 +1,237 @@
+# Bard Roberts
+
+- **Original Wiki Page**: [Transcript:Bard Roberts](https://runescape.wiki/w/Transcript%3ABard%20Roberts)
+- **Letter**: `B`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Talk-to
+
+- [Menu]: Selecciona una opción
+  - [Choice]: ¿Quién eres?
+    - **Player:** ¿Quién eres?
+    - **Bard Roberts:** Arr, el nombre será Bard Roberts, y mi compañero aquí será Stanky Morgan. ¡Encantado de conocerte!
+    - **Stanky Morgan:** Eufórico.
+    - **Player:** Entonces, ¿a qué te dedicas?
+    - **Bard Roberts:** Toco música y canto, principalmente. Puedes sentarte y descansar un rato, si quieres.
+    - (Condition: Si el player no ha completado ni el Tesoro de Pirate ni el Trato de ron:)
+      - (initial|initial-options)
+    - (Condition: Si el player ha completado la oferta del tesoro y/o ron de Pirate:)
+      - **Bard Roberts:** ¡Oh! ¡Eres tú, Player! Las historias de tu heroísmo entre los piratas se han extendido por todas partes. He preparado una pequeña chabola sobre ti, ¿si tienes tiempo para ello?
+      - [Menu]: ¿Escuchar la chabola de Bard?
+        - [Choice]: ¿Cómo podría negarme?
+          - **Player:** ¿Cómo podría negarme?
+          - **Stanky Morgan:** Fácilmente, Player. Simplemente dices "no". Aunque ya es demasiado tarde. Muchas gracias.
+          - **Bard Roberts:** ¡Ajá! ¡Es hora de una chabola! ¿Con cuál de tus aventuras te regalaré, Player?
+          - **Stanky Morgan:** Aquí vamos de nuevo...
+          - (continue|shanty)
+        - [Choice]: Ahora no, gracias.
+          - **Player:** Ahora no, gracias.
+          - **Bard Roberts:** Ven a verme de nuevo si cambias de opinión.
+          - **Stanky Morgan:** Gracias, Player. Nos has ahorrado a todos la agonía.
+          - **Bard Roberts:** ¡Cállate, Stanky!
+          - (initial|initial-options)
+  - [Choice]: ¿Puedo hacerte algunas preguntas sobre el descanso?
+    - [Menu]: ¿Puedo hacerte algunas preguntas sobre el descanso?
+      - [Choice]: ¿Cómo funciona el descanso?
+        - **Player:** Entonces, ¿cómo funciona el descanso?
+        - **Stanky Morgan:** ¿Qué quieres decir con "cómo funciona el descanso"? Descanso y trabajo son conceptos opuestos: descansar no funciona. Te cansas, te sientas, recuperas la energía. No hay trabajo involucrado.
+        - **Bard Roberts:** Lo que Stanky quiere decir es que elige la opción de descanso en el botón de ejecución para comenzar a descansar.
+        - **Bard Roberts:** Cuando descanses, recargarás energía y puntos de vida más rápido de lo normal.
+        - **Bard Roberts:** Descansando por un músico como mesel-
+        - **Stanky Morgan:** ¡Eh! ¿Musician? Que sea caritativo.
+        - **Bard Roberts:** El descanso de un músico como yo tendrá un efecto similar pero más potente.
+        - (previous|resting-questions)
+      - [Choice]: ¿Qué tiene de especial el descanso de un músico?
+        - **Player:** ¿Qué tiene de especial el descanso de un músico?
+        - **Bard Roberts:** La música calma la mente y te relaja, Player. Descansar junto a un músico restaurará tu energía y puntos de vida incluso más rápido que descansar en cualquier otro lugar.
+        - (previous|resting-questions)
+      - [Choice]: ¿Puedes resumirme los efectos?
+        - **Player:** ¿Puedes resumirme los efectos?
+        - **Bard Roberts:** Elige descansar en el botón de correr para sentarte. Tus puntos de vida y tu energía volverán más rápido. Si estás lo suficientemente cerca de un músico, como yo, volverán aún más rápido.
+        - (previous|resting-questions)
+      - [Choice]: Eso es todo por ahora.
+        - (below|thats-all-for-now)
+  - [Choice]: ¿Puedo hacerte algunas preguntas sobre correr?
+    - **Player:** ¿Puedo hacerte algunas preguntas sobre correr?
+    - **Stanky Morgan:** No.
+    - **Player:** ¿Puedo hacerte algunas preguntas sobre correr, Bardo?
+    - **Bard Roberts:** Sí, Player. Por supuesto que puedes.
+    - **Player:** ¿Por qué necesito ejecutar de todos modos?
+    - **Bard Roberts:** ¡Para empezar, llegar a donde vas dos veces más rápido fue caminar! Y escaparás más rápido de una pelea si estás perdiendo.
+    - **Player:** ¿Puedo seguir corriendo para siempre?
+    - **Stanky Morgan:** ¿Qué clase de pregunta es esa? No podrás hacer nada para siempre, Player. Estarías muerto antes de esa fecha.
+    - **Bard Roberts:** ¡Apestoso! No, no puedes. Te quedarás sin aliento después de correr un rato. Tendrás que atraparlo antes de poder volver a correr. Si estás caminando o parado, tu energía regresará lentamente. Si estás descansando, volverá más rápido.
+    - Puedes comenzar a correr haciendo clic una vez en el botón de ejecución adjunto a tu minimapa. Tiene un icono de una bota. Al hacer clic en el botón Ejecutar por segunda vez, volverá a caminar. El botón le indicará cuánta energía de funcionamiento tiene actualmente.
+    - (initial|initial-options)
+  - [Choice]: Eso es todo por ahora.
+    - **Player:** Eso es todo por ahora.
+    - **Bard Roberts:** ¡Vuelve pronto, Player!
+    - **Stanky Morgan:** O no, preferiblemente.
+
+### Hear-shanty
+
+
+#### Antes del trato del tesoro y el ron de Pirate
+
+- **Bard Roberts:** Lo siento, pero no tengo ninguna chanza sobre ti.
+- **Stanky Morgan:** Debe ser porque sois muy interesantes.
+
+#### Después del acuerdo del tesoro y/o ron de Pirate
+
+- [Menu]: ¿Qué misión quieres recapitular?
+  - [Choice]: cond=If the player has completed Pirate's Treasure:|El tesoro de Pirate.
+    - **Player:** ¿Puedes cantar sobre cuando encontré el tesoro del pirata?
+    - **Bard Roberts:** ¡Sí, Player! ¡Ciertamente puedo!
+    - Esta escena dura aproximadamente un minuto y, una vez iniciada, no se puede cancelar. ¡Asegúrate de que el volumen de tu música esté alto!
+    - [Menu]: ¿Continuar?
+      - [Choice]: ¡Sí!
+        - (Action: Comienza la escena de Shanty.)
+        - **Bard Roberts:** Oh, el amor de Frank por el ron resistente,
+        - **Bard Roberts:** Resultó ser todo un enigma,
+        - **Bard Roberts:** Porque esos tipos personalizados,
+        - **Bard Roberts:** Prohibido su exportación,
+        - **Bard Roberts:** ¡Qué pobre Frank estaba sobrio y triste!
+        - **Bard Roberts:** En una caja llena de 'nanas,
+        - **Bard Roberts:** Pero sin todas las pasas,
+        - **Bard Roberts:** El ron que ocultasteis,
+        - **Bard Roberts:** Y la caja que sellasteis,
+        - **Bard Roberts:** ¡Y lo sacó de contrabando de Karamja!
+        - **Stanky Morgan:** {{RSChat|Arrr, that don't rhyme!}}
+        - **Bard Roberts:** {{RSChat|Ah, shut it, you!}}
+        - **Bard Roberts:** Bueno, navegaste de regreso a Port Sarim,
+        - **Bard Roberts:** Y conseguiste un trabajo de Wydin.
+        - **Bard Roberts:** Con tus corbatas de delantal,
+        - **Bard Roberts:** Reclamaste tu premio,
+        - **Bard Roberts:** ¡Desde la caja en la que lo dejaron!
+        - **Bard Roberts:** Con su ron, Frank estaban eufóricos,
+        - **Bard Roberts:** Sus antojos de alcohol se saciaron.
+        - **Bard Roberts:** Él os mostró la marca,
+        - **Bard Roberts:** En el parque Falador,
+        - **Bard Roberts:** ¡Dónde se encontraba el tesoro!
+      - [Choice]: No, necesito cambiar mi configuración de audio.
+        - (end)
+  - [Choice]: cond=If the player has completed Rum Deal:|Oferta de ron.
+    - **Player:** ¿Puedes cantar sobre la vez que Cap'n Braindeath me hizo una oferta de ron?
+    - **Bard Roberts:** ¡Sí, Player! ¡Ciertamente puedo!
+    - Esta escena dura aproximadamente un minuto y, una vez iniciada, no se puede cancelar. ¡Asegúrate de que el volumen de tu música esté alto!
+    - [Menu]: ¿Continuar?
+      - [Choice]: ¡Sí!
+        - (Action: Comienza la escena de Shanty.)
+        - **Bard Roberts:** Pirate Pete os contó un cuento fantástico,
+        - **Bard Roberts:** De un demonio sobre el cual llorar,
+        - **Bard Roberts:** Pero todo fue una prueba,
+        - **Bard Roberts:** Una petición inventada,
+        - **Bard Roberts:** ¡Antes de la verdad que podría revelar!
+        - **Bard Roberts:** Hasta la Isla de la Muerte Cerebral habéis viajado,
+        - **Bard Roberts:** Por el final del remo,
+        - **Bard Roberts:** Borrachos piratas zombis,
+        - **Bard Roberts:** Con funks cargados de 'ron',
+        - **Bard Roberts:** ¡Y tu cordura se deshizo!
+        - **Bard Roberts:** Braindeath reveló su enigma,
+        - **Bard Roberts:** Como tarea no fue nada aburrido,
+        - **Bard Roberts:** Haz una bebida vil,
+        - **Bard Roberts:** Úsalo para someter,
+        - **Bard Roberts:** ¡Zombis protestando contra el 'ron'!
+        - **Manifestante zombi:** {{RSChat|*Hic!* Aarrr...|color=yellow}}
+        - **Bard Roberts:** Entonces, lo preparaste como debías,
+        - **Bard Roberts:** Usando calamares, babosas, agua estancada,
+        - **Bard Roberts:** Emborrachó a los zombies.
+        - **Bard Roberts:** Su bloqueo desacreditado,
+        - **Manifestante zombi:** {{RSChat|Rum! Aaar!|color=yellow}}
+        - **Bard Roberts:** ¡No, más cerveceros al matadero!
+        - **Capitán Donnie:** {{RSChat|Arrr! *hic!*|color=yellow}}
+      - [Choice]: No, necesito cambiar mi configuración de audio.
+        - (end)
+  - [Choice]: cond=If the player has completed Cabin Fever:|Fiebre de cabina.
+    - **Player:** ¿Puedes cantar sobre la vez que Bill y yo tuvimos un caso de fiebre de cabina?
+    - **Bard Roberts:** ¡Sí, Player! ¡Ciertamente puedo!
+    - Esta escena dura aproximadamente un minuto y, una vez iniciada, no se puede cancelar. ¡Asegúrate de que el volumen de tu música esté alto!
+    - [Menu]: ¿Continuar?
+      - [Choice]: ¡Sí!
+        - (Action: Comienza la escena de Shanty.)
+        - **Bard Roberts:** En el Fantasma Verde en Phasmatys,
+        - **Bard Roberts:** Habéis ofrecido vuestra ayuda gratis.
+        - **Bard Roberts:** Bill Teach era su nombre,
+        - **Bard Roberts:** Navegar era su juego,
+        - **Bard Roberts:** ¡Pero le faltaba el aparato!
+        - **Bard Roberts:** 'No era un barco lo que le faltaba,
+        - **Bard Roberts:** Pero todo su equipo se había ido a hacer las maletas.
+        - **Bard Roberts:** Todos los hombres de Bill habían huido,
+        - **Bard Roberts:** Lleno de miedo y pavor,
+        - **Bard Roberts:** ¡De sus enemigos atacando!
+        - **Bard Roberts:** Con vosotros como su tripulación instalada,
+        - **Bard Roberts:** Los temores de Bill disminuyeron químicamente,
+        - **Bard Roberts:** Vosotros y él zarpamos,
+        - **Bard Roberts:** Él está seguro de que fallarías,
+        - **Bard Roberts:** ¡Creía que tu viaje había sido desafortunado!
+        - **Bard Roberts:** Cuando el enemigo descendió,
+        - **Bard Roberts:** Tu actuación fue de lo más espléndida.
+        - **Bard Roberts:** Robasteis su botín,
+        - **Bard Roberts:** Hundió su barco en el maletero,
+        - **Bard Roberts:** ¡Yon Adventurous defendió!
+      - [Choice]: No, necesito cambiar mi configuración de audio.
+        - (end)
+  - [Choice]: cond=If the player has completed The Great Brain Robbery:|El gran robo de cerebros.
+    - **Player:** ¿Puedes cantar sobre la vez que frustré el Gran Robo de Cerebros?
+    - **Bard Roberts:** ¡Sí, Player! ¡Ciertamente puedo!
+    - Esta escena dura aproximadamente un minuto y, una vez iniciada, no se puede cancelar. ¡Asegúrate de que el volumen de tu música esté alto!
+    - [Menu]: ¿Continuar?
+      - [Choice]: ¡Sí!
+        - (Action: Comienza la escena de Shanty.)
+        - **Bard Roberts:** En Mos'Le Harmless junto al mar,
+        - **Bard Roberts:** Conociste al hermano Tranquilidad,
+        - **Bard Roberts:** Me pidió un favor,
+        - **Bard Roberts:** De alguien más valiente,
+        - **Bard Roberts:** Para sus hermanos de Har-mo-ny.
+        - **Bard Roberts:** Los cuerpos de los monjes estaban prestados,
+        - **Bard Roberts:** Gracias, pirata zombie Sorebones,
+        - **Bard Roberts:** Te golpean con gas,
+        - **Bard Roberts:** Pero tu pupilo se mantuvo firme,
+        - **Bard Roberts:** ¡Escapaste del encuentro con Davey Jones!
+        - **Bard Roberts:** Justo al este de la torre Slayer,
+        - **Bard Roberts:** Era un cirujano que se encogía de miedo,
+        - **Bard Roberts:** Tú hiciste Fenk-en-strain,
+        - **Bard Roberts:** Transplanta los cerebros de los monjes,
+        - **Bard Roberts:** ¡Por liberarnos del ceño fruncido del lupino!
+        - **Bard Roberts:** Mi-Gor intentó detener el ritmo de tu corazón,
+        - **Bard Roberts:** El brazo de tu enemigo: en parte ancla, en parte maza,
+        - **Bard Roberts:** Golpeado sin demora,
+        - **Bard Roberts:** Pero a él lo matasteis,
+        - **Bard Roberts:** Lo hacía lucir total...
+        - **Bard Roberts:** ...imbécil.
+      - [Choice]: No, necesito cambiar mi configuración de audio.
+        - (end)
+  - [Choice]: cond=If the player has completed Rocking Out:|Rockeando.
+    - **Player:** ¿Puedes cantar sobre la época en la que el joven Ralph y yo estábamos rockeando?
+    - **Bard Roberts:** ¡Sí, Player! ¡Ciertamente puedo!
+    - Esta escena dura aproximadamente un minuto y, una vez iniciada, no se puede cancelar. ¡Asegúrate de que el volumen de tu música esté alto!
+    - [Menu]: ¿Continuar?
+      - [Choice]: ¡Sí!
+        - (Action: Comienza la escena de Shanty.)
+        - **Bard Roberts:** En Jack estabais interesados,
+        - **Bard Roberts:** Entonces, te arrestaron,
+        - **Bard Roberts:** Para escuchar los comentarios de Ralph,
+        - **Bard Roberts:** Pero él quería marcas,
+        - **Bard Roberts:** ¡De cinco capitanes probados y comprobados!
+        - **Bard Roberts:** Entonces, para Bill reclamaste un tesoro,
+        - **Bard Roberts:** Una nueva mano fue un placer para Harry,
+        - **Bard Roberts:** Y para el papel de Braindeath,
+        - **Bard Roberts:** Tengo un agujero para beber,
+        - **Bard Roberts:** ¡A vender su 'ron' por medida!
+        - **Bard Roberts:** Le robó un broche a Izzy Sin-Barba,
+        - **Bard Roberts:** Y para Frank confirmó lo que temía,
+        - **Bard Roberts:** Demostró que Jack había regresado,
+        - **Bard Roberts:** Y al ataque,
+        - **Bard Roberts:** Para asegurar una marca de Barba Roja.
+        - **Bard Roberts:** Con las marcas, escuchaste la historia,
+        - **Bard Roberts:** Sangriento, violento y sangriento,
+        - **Bard Roberts:** De cómo derrotaron a Jack,
+        - **Bard Roberts:** Y hundimos su flota,
+        - **Bard Roberts:** ¡Por una corta era de gloria!
+      - [Choice]: No, necesito cambiar mi configuración de audio.
+        - (end)

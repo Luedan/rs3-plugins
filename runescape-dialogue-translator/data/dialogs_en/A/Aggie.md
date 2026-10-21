@@ -1,0 +1,233 @@
+# Aggie
+
+- **Original Wiki Page**: [Transcript:Aggie](https://runescape.wiki/w/Transcript%3AAggie)
+- **Letter**: `A`
+
+---
+
+## Dialogue Transcript
+
+
+### In Draynor Village
+
+- **Aggie:** What can I help you with?
+- ((With a construction contract for Aggie:))
+  - [Menu]: Select an Option
+    - [Choice]: Ask about contracts.
+      - [Menu]: Select an Option
+        - [Choice]: What do you need repairing?
+          - **Aggie:** Let me see, right now I need you to repair the following pieces of furniture.
+          - **Aggie:** [Furniture 1], [Furniture 2], [Furniture 3], [Furniture 4], [Furniture 5]
+          - (previous)
+        - [Choice]: What materials do I need?
+          - **Aggie:** You need: Planks x [number], Steel nails x [number], [Additional material 1] x [number], [Additional material 2] x [number]
+          - (previous)
+        - [Choice]: [Leave]
+          - (end)
+    - [Choice]: Ask about something else.
+      - (continue|standard)
+- ((Otherwise:))
+  - [Menu]: Choose an option:
+    - [Choice]: Hey, you're a witch aren't you?
+      - **Player:** Hey, you're a witch aren't you?
+      - **Aggie:** My, you're observant!
+      - **Player:** Cool, do you turn people into frogs?
+      - **Aggie:** Oh, not for years. But if you meet a talking chicken, you have probably met the professor in the manor north of here. A few years ago it was a flying fish. That machine is a menace.
+    - [Choice]: So what is actually in that cauldron?
+      - **Player:** So what is actually in that cauldron?
+      - **Aggie:** You don't really expect me to give away trade secrets, do you?
+    - [Choice]: cond=After Vampyre Slayer|Talk about Vampyre Slayer.
+      - **Aggie:** I must congratulate you on killing Count Draynor! You've done a great thing for our village.
+      - **Player:** I'm happy to help.
+    - [Choice]: cond=Before Vampyre Slayer|What's new in Draynor Village?
+      - **Player:** What's new in Draynor Village?
+      - **Aggie:** The blood sucker has returned to Draynor Manor. I hate his kind.
+      - **Player:** The blood sucker?
+      - **Aggie:** Yes, Count Draynor, the vampyre. He's preying on the innocent people of this village. I do my best to protect them with what magic I have, but he is powerful.
+      - **Player:** Wow, that's sad.
+    - [Choice]: More...
+      - [Menu]: Select an Option
+        - [Choice]: What could you make for me?
+          - **Player:** What could you make for me?
+          - **Aggie:** I mostly just make what I find pretty. I sometimes make dye for the women's clothes to brighten the place up. I can make red, yellow and blue dyes. If you'd like some, just bring me the appropriate ingredients.
+          - [Menu]: Select an Option
+            - [Choice]: What do you need to make red dye?
+              - (below|red-dye-ingredients)
+            - [Choice]: What do you need to make yellow dye?
+              - (below|yellow-dye-ingredients)
+            - [Choice]: What do you need to make blue dye?
+              - (below|blue-dye-ingredients)
+            - [Choice]: No thanks, I am happy the colour I am.
+              - **Player:** No thanks, I am happy the colour I am.
+              - **Aggie:** You are easily pleased with yourself then. When you need dyes, come to me.
+        - [Choice]: Can you make dyes for me please?
+          - **Player:** Can you make dyes for me please?
+          - **Aggie: ** What sort of dye would you like? Red, yellow or blue?
+          - [Menu]: Select an Option
+            - [Choice]: What do you need to make red dye?
+              - **Player:** What do you need to make red dye?
+              - **Aggie:** 3 lots of redberries and 5 coins to you.
+              - [Menu]: Select an Option
+                - [Choice]: Could you make me some red dye, please?
+                  - (Condition: If the player doesn't have enough redberries:)
+                    - You don't have enough berries to make the red dye.
+                  - (Condition: If the player doesn't have enough coins:)
+                    - You can not afford that.
+                    - You don't have enough coins to pay for the dye.
+                  - (Condition: If the player has three redberries and 25 coins:)
+                    - (removes=three redberries and 25 coins) (receives=red dye)
+                    - **Player:** Could you make me some red dye, please?
+                    - [You hand the berries and payment to Aggie. Aggie produces a red bottle and hands it to you.]
+                - [Choice]: I don't think I have all the ingredients yet.
+                  - **Player:** I don't think I have all the ingredients yet.
+                  - **Aggie:** You know what you need to get, now come back when you have them. Goodbye for now.
+                - [Choice]: I can do without dye at that price.
+                  - **Player:** I can do without dye at that price.
+                  - **Aggie:** That's your choice, but I would think you have killed for less. I can see it in your eyes.
+                - [Choice]: Where can I get redberries?
+                  - **Player:** Where can I get redberries?
+                  - **Aggie:** I pick mine from the woods south of Varrock. The food shop in Port Sarim sometimes has some as well.
+                  - [Menu]: Select an Option
+                    - [Choice]: What other colours can you make?
+                      - **Player:** What other colours can you make?
+                      - **Aggie:** Red, yellow and blue. Which one would you like?
+                      - (continuea|dye-ingredients)
+                    - [Choice]: Thanks.
+                      - **Player:** Thanks.
+                      - **Aggie:** You're welcome!
+                - [Choice]: What other colours can you make?
+                  - **Player:** What other colours can you make?
+                  - **Aggie:** Red, yellow or blue. Which one would you like?
+                  - (continuea|dye-ingredients)
+            - [Choice]: What do you need to make yellow dye?
+              - **Player:** What do you need to make yellow dye?
+              - **Aggie:** Yellow is a strange colour to get, comes from onion skins. I need 2 onions and 5 coins to make yellow dye.
+              - [Menu]: Select an Option
+                - [Choice]: Could you make me some yellow dye, please?
+                  - (Condition: If the player doesn't have enough onions:)
+                    - You don't have enough onions to make the yellow dye.
+                  - (Condition: If the player doesn't have enough coins:)
+                    - You can not afford that.
+                    - You don't have enough coins to pay for the dye.
+                  - (Condition: If the player has two onions and 25 coins:)
+                    - **Player:** Could you make me some yellow dye, please?
+                    - (removes=two onions and 25 coins) (receives=yellow dye)
+                    - [You hand the onions and payment to Aggie. Aggie produces a yellow bottle and hands it to you.]
+                - [Choice]: I don't think I have all the ingredients yet.
+                  - **Player:** I don't think I have all the ingredients yet.
+                  - **Aggie:** You know what you need to get, now come back when you have them. Goodbye for now.
+                - [Choice]: I can do without dye at that price.
+                  - **Player:** I can do without dye at that price.
+                  - **Aggie:** That's your choice, but I would think you have killed for less. I can see it in your eyes.
+                - [Choice]: Where can I get onions?
+                  - **Player:** Where can I get onions?
+                  - **Aggie:** There are some onions growing on a farm to the East of here, next to the sheep field.
+                  - (continuea|other-colours)
+                - [Choice]: What other colours can you make?
+                  - **Player:** What other colours can you make?
+                  - **Aggie:** Red, yellow or blue. Which one would you like?
+                  - (continuea|dye-ingredients)
+            - [Choice]: What do you need to make blue dye?
+              - **Player:** What do you need to make blue dye?
+              - **Aggie:** 2 Woad leaves and 5 coins to you.
+              - [Menu]: Select an Option
+                - [Choice]: Could you make me some blue dye, please?
+                  - (Condition: If the player doesn't have enough woad leaves:)
+                    - You don't have enough woad leaves to make the blue dye.
+                  - (Condition: If the player doesn't have enough coins:)
+                    - You can not afford that.
+                    - You don't have enough coins to pay for the dye.
+                  - (Condition: If the player has two woad leaves and 25 coins:)
+                    - **Player:** Could you make me some blue dye, please?
+                    - (removes=two woad leaves and 25 coins) (receives=blue dye)
+                    - [You hand the woad leaves and payment to Aggie. Aggie produces a blue bottle and hands it to you.]
+                - [Choice]: I don't think I have all the ingredients yet.
+                  - **Player:** I don't think I have all the ingredients yet.
+                  - **Aggie:** You know what you need to get, now come back when you have them. Goodbye for now.
+                - [Choice]: I can do without dye at that price.
+                  - **Player:** I can do without dye at that price.
+                  - **Aggie:** That's your choice, but I would think you have killed for less. I can see it in your eyes.
+                - [Choice]: Where can I get woad leaves?
+                  - **Player:** Where can I get woad leaves?
+                  - **Aggie:** Woad leaves are fairly hard to find. My other customers tell me the chief gardener in Falador grows them.
+                  - (continuea|other-colours)
+                - [Choice]: What other colours can you make?
+                  - **Player:** What other colours can you make?
+                  - **Aggie:** Red, yellow or blue. Which one would you like?
+                  - (continuea|dye-ingredients)
+            - [Choice]: cond=During and after Land of the Goblins|What do you need to remove dye from goblin mail?
+              - **Player:** What do you need to remove dye from goblin mail?
+              - **Aggie:** I'll need a special ingredient found in the gut of the Hemenster whitefish. Just bring me the whitefish, five coins, and some goblin mail, and I'll see what I can do.
+              - [Menu]: Select an Option
+                - [Choice]: Okay, remove the dye from this goblin mail please.
+                  - **Player:** Okay, remove the dye from this goblin mail please.
+                  - (Condition: With no goblin mail in backpack:)
+                    - **Aggie:** What goblin mail?
+                    - **Player:** Oh right. I'll go get some.
+                  - (Condition: With goblin mail, but no whitefish in backpack:)
+                    - **Aggie:** You'll need to go get a Hemenster whitefish first.
+                    - **Player:** Yeah. I was just about to do that.
+                  - (Condition: With goblin mail and whitefish in backpack, but less than five coins:)
+                    - **Aggie:** That'll be five coins, please.
+                    - **Player:** I don't have that much money on me.
+                  - (Condition: With everything required:)
+                    - (removes=goblin mail, whitefish and five coins) (receives=white goblin mail)
+                    - [You hand the goblin mail, whitefish and payment to Aggie. Aggie produces a white goblin mail and hands it to you.]
+                  - (Condition: With white goblin mail:)
+                    - **Aggie:** That goblin mail is already white.
+                    - **Player:** Oh yes, so it is.
+                - [Choice]: I don't think I have all the ingredients yet.
+                  - **Player:** I don't think I have all the ingredients yet.
+                  - **Aggie:** You know what you need to get, now come back when you have them. Goodbye for now.
+                - [Choice]: I can do without dye at that price.
+                  - **Player:** I can do without dye at that price.
+                  - **Aggie:** That's your choice, but I would think you have killed for less. I can see it in your eyes.
+                - [Choice]: Where can I get the whitefish?
+                  - **Player:** Where can I get the whitefish?
+                  - **Aggie:** From Hemenster, of course. It's only found in the Fishing spots where the Fishing Contest takes place. To catch it, you need to use another fish as bait: slimy eels.
+                  - **Aggie:** I think you can find them in Morytania and Lumbridge Swamp Dungeon. When you've done all that, bring the whitefish to me and I'll see what I can do.
+                - [Choice]: What other colours can you make?
+                  - **Player:** What other colours can you make?
+                  - **Aggie:** Red, yellow or blue. Which one would you like?
+                  - (continuea|dye-ingredients)
+
+#### Using 50 Shades of Dye on her
+
+- **Aggie:** Someone bought my book! Have you checked out dye number 42? It's my favourite!
+- **Player:** I haven't had a chance yet, I'm sorry.
+- **Aggie:** That's OK, every dye I've ever made is in that book. <br>There really is quite the mixture.
+- **Player:** So you can make every dye? That is fascinating.
+- **Aggie:** It's no trouble really. You'd be surprised at what you can whip up with a little woad leaf and some redberries.
+- **Aggie:** I'm fairly certain that I could make any type of dye with a blindfold on! Comes in handy when I'm chopping the onion for a dye.
+- **Player:** Are there any new dyes that you can make for me from your book?
+- **Aggie:** I'm afraid not. As part of the book contract, I wasn't allowed to make any more of the dyes from my own book.
+- **Aggie:** It's a shame really. I was doing a bit of redecorating and wanted to recolour my grain storage to a nice shade of red.
+- **Player:** So that would then be a red room of grain?
+- **Aggie:** Precisely.
+- **Player:** I'll, uh, leave you to it.
+
+#### Historical dialogue, only after Vampyre Slayer
+
+- **Aggie:** What can I help you with?
+- [Menu]: Choose an option:
+  - [Choice]: Hey, you're a witch aren't you?
+    - (above)
+  - [Choice]: So what is actually in that cauldron?
+    - (above)
+  - [Choice]: Talk about Vampyre Slayer.
+    - (above)
+  - [Choice]: What's new in Draynor Village?
+    - **Player:** What's new in Draynor Village?
+    - **Aggie:** Hm. A while ago there was a portal that appeared in the woods to the east of Draynor.
+    - **Aggie:** When the portal opened, the god Zamorak stepped through!
+    - **Aggie:** However, immediately he was confronted by Saradomin and a battle ensued. Both forces fought  for months, unable to gain the upper hand.
+    - **Aggie:** In the end, however, the power of Zamorak was no match for the might of Saradomin. Zamorak was defeated.
+    - **Aggie:** Zamorak retreated with the help of his general. But the victory had its cost Saradomin dearly, and so he left the battlefield to regroup.
+    - **Aggie:** The battlefield is at peace now.
+    - [Menu]: Select an Option
+      - [Choice]: Can I ask you something else?
+        - (initial|standard2)
+      - [Choice]: Ok, thanks!
+        - (end)
+  - [Choice]: More...
+    - (above)

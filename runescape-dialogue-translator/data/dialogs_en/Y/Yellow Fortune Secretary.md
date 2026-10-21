@@ -1,0 +1,394 @@
+# Yellow Fortune Secretary
+
+- **Original Wiki Page**: [Transcript:Yellow Fortune Secretary](https://runescape.wiki/w/Transcript%3AYellow%20Fortune%20Secretary)
+- **Letter**: `Y`
+
+---
+
+## Dialogue Transcript
+
+- ''Note: Before and during the Giant Dwarf, all companies start at medium reputation. After The Giant Dwarf, the player's chosen company is permanently at highest reputation while all other companies will be at low reputation.
+
+### Low reputation
+
+- ''One of the following dialogue plays at random:
+  - Dialogue 1:
+    - **Yellow Fortune Secretary:** I don't have much time for you, what do you want?
+  - Dialogue 2:
+    - **Yellow Fortune Secretary:** You're blocking my view, human, so hurry up.
+  - Dialogue 3:
+    - **Yellow Fortune Secretary:** Can we hurry this along?
+  - Dialogue 4:
+    - **Yellow Fortune Secretary:** Say what you want or get out of our office, human!
+  - Dialogue 5:
+    - **Yellow Fortune Secretary:** Do not test the patience of the Yellow Fortune, human. Say what you need!
+  - Dialogue 6:
+    - **Yellow Fortune Secretary:** I think I've misplaced my quill somewhere...
+    - **Yellow Fortune Secretary:** Oh, and what did you want?
+- '''Choose an option: {{anchor|xzx}}
+  - [Choice]: Who are you?
+    - **Player:** Who are you?
+    - **Yellow Fortune Secretary:** I am the head secretary of the Yellow Fortune.
+    - **Player:** The what?
+    - **Yellow Fortune Secretary:** The Yellow Fortune! We are the grandest of the mining companies that make up the Consortium!
+    - **Player:** How is that?
+    - **Yellow Fortune Secretary:** Why, because men are not allowed to work in our company, of course!
+    - ''If the player is female:
+      - **Player:** Ha, I see what you mean!
+      - (initial)
+    - ''If the player is male:
+      - **Player:** That’s a bit drastic, don’t you think?
+      - **Yellow Fortune Secretary:** We simply consider men to be weak and inferior.
+      - **Player:** I think I better go now, I don’t like being insulted.
+  - [Choice]: Where am I?
+    - **Player:** Where am I?
+    - ''One of the following replies plays at random:
+      - Dialogue 1:
+        - **Yellow Fortune Secretary:** I'm not here to give directions!
+      - Dialogue 2:
+        - **Yellow Fortune Secretary:** Do I look like a tour guide to you?
+      - Dialogue 3:
+        - **Yellow Fortune Secretary:** I'd tell you, human, but you wouldn't understand anyway.
+      - Dialogue 4:
+        - **Yellow Fortune Secretary:** These are the offices of the Yellow Fortune.
+        - **Yellow Fortune Secretary:** We share this floor of the palace with the other companies of the Consortium. And trade with them on the Trade Octagon.
+        - **Player:** The Trade Octagon?
+        - **Yellow Fortune Secretary:** See those traders standing out there, just out the door? They're all standing in the Trade Octagon. There's an awful lot of trade going on in the palace, you know.
+        - **Player:** Anything else of interest in the palace?
+        - **Yellow Fortune Secretary:** You will have to find that out on your own, I'm afraid. I do have more work to do.
+        - (initial)
+  - [Choice]: Is there anything I can help you with?
+    - **Player:** Is there anything I can help you with?
+    - ''If the player is male:
+      - **Yellow Fortune Secretary:{{anchor|weak}}** The Yellow Fortune does not employ the services of men.
+      - **Player:** Why not?
+      - **Yellow Fortune Secretary:** We often find that they are too weak or too slow to be of sufficient use.
+      - **Player:** You shouldn't say such things to people.
+    - ''If the player is female, one of the following replies plays at random:
+      - Dialogue 1:
+        - **Yellow Fortune Secretary:** Come to redeem yourself at our company, have you?
+      - Dialogue 2:
+        - **Yellow Fortune Secretary:** So you're looking for work with us all of a sudden?
+      - Dialogue 3:
+        - **Yellow Fortune Secretary:** You're lucky the Yellow Fortune is very forgiving, human.
+      - Dialogue 4:
+        - **Yellow Fortune Secretary:** I'm not sure if I'm allowed to give someone like you a task, I'll check.
+        - **Yellow Fortune Secretary:** All right, you've been cleared.
+      - Dialogue 5:
+        - **Yellow Fortune Secretary:** Your motives are questionable but we'll give you a chance.
+    - **Yellow Fortune Secretary:** We need [number] pieces of [ore] in the next [number] minutes.
+    - '''Select an option
+      - [Choice]: I'll take it.
+        - **Player:** I'll take it.
+        - ''The Secretary replies with one of the following at random:
+          - Dialogue 1:
+            - **Yellow Fortune Secretary:** Do no disappoint the Yellow Fortune, human.
+          - Dialogue 2:
+            - **Yellow Fortune Secretary:** Go then! The longer you stand here the more time you waste!
+          - Dialogue 3:
+            - **Yellow Fortune Secretary:** Hurry back or don't come back at all!
+          - Dialogue 4:
+            - **Yellow Fortune Secretary:** Let's hope I was wrong about you, human.
+          - Dialogue 5:
+            - **Yellow Fortune Secretary:** You'd better not fail!
+      - [Choice]: No thanks.
+        - **Player:** No thanks.
+        - ''The Secretary replies with one of the following at random:
+          - Dialogue 1:
+            - **Yellow Fortune Secretary:** Oh, so you were just stopping by to waste my time, then? Goodbye!
+          - Dialogue 2:
+            - **Yellow Fortune Secretary:** To say a thing like that after the mercy I just showed you! Go away!
+          - Dialogue 3:
+            - **Yellow Fortune Secretary:** You dare!
+          - Dialogue 4:
+            - **Yellow Fortune Secretary:** Thought you wouldn't. Now get out of here!
+          - Dialogue 5:
+            - **Yellow Fortune Secretary:** Leave now, don't make me call the Black Guard to throw you out!
+          - Dialogue 6:
+            - **Yellow Fortune Secretary:** Get out of our office then!
+          - Dialogue 7:
+            - **Yellow Fortune Secretary:** The Yellow Fortune offers you a chance and you say this? Just stay away!
+    - ''If the player is already on a task:
+      - **Yellow Fortune Secretary:** Have you completed your current task yet? Did you get me my [number] pieces of [ore]?
+      - **Player:** No, not yet.
+      - **Yellow Fortune Secretary:** You're a disgrace to the Yellow Fortune. Hurry up if you want to redeem yourself.
+      - (initial)
+    - ''If the player is already on a task from a different company:
+      - **Yellow Fortune Secretary:** Go back to your friends at the [other Company], I hear you're in league with them.
+      - (initial)
+  - [Choice]: I have to go!
+    - **Player:** I have to go!
+    - ''One of the following replies plays at random:
+      - Dialogue 1:
+        - **Yellow Fortune Secretary:** Finally...back to work at last.
+      - Dialogue 2:
+        - **Yellow Fortune Secretary:** Good.
+      - Dialogue 3:
+        - **Yellow Fortune Secretary:** Don't hurry back.
+      - Dialogue 4:
+        - **Yellow Fortune Secretary:** The door is over there. I suggest you use it.
+      - Dialogue 5:
+        - **Yellow Fortune Secretary:** And good riddance to you.
+
+#### Handing in a task
+
+- **Player:** I've completed your task! Here is your ore!
+- (removes=ore) (receives=coins)
+- ''The Secretary replies with one of the following at random:
+  - Dialogue 1:
+    - **Yellow Fortune Secretary:** How unusual for you, but it is appreciated nonetheless.
+  - Dialogue 2:
+    - **Yellow Fortune Secretary:** The Yellow Fortune is pleased that the trust it put in you has not been put to shame after all.
+  - Dialogue 3:
+    - **Yellow Fortune Secretary:** That is quite a pleasant and unexpected surprise.
+  - Dialogue 4:
+    - **Yellow Fortune Secretary:** Perhaps I was wrong about you after all...
+  - Dialogue 5:
+    - **Yellow Fortune Secretary:** Thanks... I suppose.
+- (continuea|xzx)
+
+### Medium reputation
+
+- ''One of the following dialogue plays at random:
+  - Dialogue 1:
+    - **Yellow Fortune Secretary:** What did you need of the Yellow Fortune?
+  - Dialogue 2:
+    - **Yellow Fortune Secretary:** And what can I do for you?
+  - Dialogue 3:
+    - **Yellow Fortune Secretary:** Is there anything you need assistance with?
+  - Dialogue 4:
+    - **Yellow Fortune Secretary:** Can I help you with anything?
+  - Dialogue 5:
+    - **Yellow Fortune Secretary:** Was there anything you wanted?
+  - Dialogue 6:
+    - **Yellow Fortune Secretary:** What can I do for you, human?
+- '''Choose an option: {{anchor|zxc}}
+  - [Choice]: Who are you?
+    - (above)
+  - [Choice]: Where am I?
+    - **Player:**  Where am I?
+    - **Yellow Fortune Secretary:** Why, this is the headquarters of the Yellow Fortune.
+    - **Yellow Fortune Secretary:** We share this floor of the palace with the other companies of the Consortium. And trade with them on the Trade Octagon.
+    - **Player:** The Trade Octagon?
+    - **Yellow Fortune Secretary:** See those traders standing out there, just out the door? They're all standing in the Trade Octagon. There's an awful lot of trade going on in the palace, you know.
+    - **Player:** Anything else of interest in the palace?
+    - **Yellow Fortune Secretary:** You will have to find that out on your own, I'm afraid. I do have more work to do.
+    - (initial)
+  - [Choice]: Is there anything I can help you with?
+    - **Player:** Is there anything I can help you with?
+    - ''If the player is male:
+      - (above|weak)
+    - ''If the player is female, one of the following replies plays at random:
+      - Dialogue 1:
+        - **Yellow Fortune Secretary:** There's always work to be done, yes.
+      - Dialogue 2:
+        - **Yellow Fortune Secretary:** Just a moment.
+      - Dialogue 3:
+        - **Yellow Fortune Secretary:** Yes, the Yellow Fortune always has work to do!
+      - Dialogue 4:
+        - **Yellow Fortune Secretary:** Let's see... yes, yes, I do have a task for you.
+      - Dialogue 5:
+        - **Yellow Fortune Secretary:** Yes, I think we do have something for you.
+      - Dialogue 6:
+        - **Yellow Fortune Secretary:** I believe we have some work available, yes.
+    - **Yellow Fortune Secretary:** We need [number] pieces of [ore] in the next [number] minutes.
+    - '''Select an option
+      - [Choice]: I'll take it.
+        - **Player:** I'll take it.
+        - ''The Secretary replies with one of the following at random:
+          - Dialogue 1:
+            - **Yellow Fortune Secretary:** The Yellow Fortune has noted your willingness to help.
+          - Dialogue 2:
+            - **Yellow Fortune Secretary:** That ore needs to go on the trade floor soon, player, please hurry back with it.
+          - Dialogue 3:
+            - **Yellow Fortune Secretary:** Thanks, it's appreciated.
+          - Dialogue 4:
+            - **Yellow Fortune Secretary:** The clock is ticking, please hurry back.
+          - Dialogue 5:
+            - **Yellow Fortune Secretary:** I will await your return soon, then.
+      - [Choice]: No thanks.
+        - **Player:** No thanks.
+        - ''The Secretary replies with one of the following at random:
+          - Dialogue 1:
+            - **Yellow Fortune Secretary:** Fair enough, maybe some other time?
+          - Dialogue 2:
+            - **Yellow Fortune Secretary:** Please, it would be appreciated if you made up your mind before you ask. I'm very busy you know.
+          - Dialogue 3:
+            - **Yellow Fortune Secretary:** Please, in that case, you're wasting my time.
+          - Dialogue 4:
+            - **Yellow Fortune Secretary:** That's unfortunate to hear.
+          - Dialogue 5:
+            - **Yellow Fortune Secretary:** I can't say I'm too pleased to hear that, to be honest.
+          - Dialogue 6:
+            - **Yellow Fortune Secretary:** That does not reflect well on you.
+          - Dialogue 7:
+            - **Yellow Fortune Secretary:** The Yellow Fortune isn't too pleased to hear that.
+    - ''If the player is already on a task:
+      - **Yellow Fortune Secretary:** Have you completed your current task yet? Did you get me my [number] pieces of [ore]?
+      - **Player:** No, not yet.
+      - **Yellow Fortune Secretary:** Then please, hurry up before time runs out.
+      - (initial)
+    - ''If the player is already on a task from a different company:
+      - **Yellow Fortune Secretary:** From what I understand, you have some business to finish with the [other Company] first.
+      - (initial)
+  - [Choice]: I have to go!
+    - **Player:** I have to go!
+    - ''One of the following replies plays at random:
+      - Dialogue 1:
+        - **Yellow Fortune Secretary:** See you later.
+      - Dialogue 2:
+        - **Yellow Fortune Secretary:** Okay.
+      - Dialogue 3:
+        - **Yellow Fortune Secretary:** Goodbye, human.
+
+#### Handing in a task
+
+- **Player:** I've completed your task! Here is your ore!
+- (removes=ore) (receives=coins)
+- ''The Secretary replies with one of the following at random:
+  - Dialogue 1:
+    - **Yellow Fortune Secretary:** I have to admit, I was worried for a moment, but I'm glad to see you came through for us.
+  - Dialogue 2:
+    - **Yellow Fortune Secretary:** I am happy to see that the trust we put in you has not been in vain.
+  - Dialogue 3:
+    - **Yellow Fortune Secretary:** And not a minute too late as well. Well done.
+  - Dialogue 4:
+    - **Yellow Fortune Secretary:** The Yellow Fortune recognizes your performance.
+  - Dialogue 5:
+    - **Yellow Fortune Secretary:** That's good to hear, thanks.
+- (continuea|zxc)
+
+### High reputation
+
+- ''One of the following dialogue plays at random: {{anchor|high1}}
+  - Dialogue 1:
+    - **Yellow Fortune Secretary:** How may the Yellow Fortune assist you today?
+  - Dialogue 2:
+    - **Yellow Fortune Secretary:** And what can I do for you on this fine day?
+  - Dialogue 3:
+    - **Yellow Fortune Secretary:** Come to help us some more, Player?
+  - Dialogue 4:
+    - **Yellow Fortune Secretary:** Oh, hello there Player! Nice to see you!
+  - Dialogue 5:
+    - **Yellow Fortune Secretary:** Welcome back to the palace of Keldagrim, Player!
+  - Dialogue 6:
+    - **Yellow Fortune Secretary:** Come in, come in! And tell us what you need!
+- '''Choose an option: {{anchor|asdf}}
+  - [Choice]: Who are you?
+    - (above)
+  - [Choice]: Where am I?
+    - **Player:**  Where am I? {{anchor|high2}}
+    - **Yellow Fortune Secretary:** Why, this is the headquarters of the Yellow Fortune.
+    - **Yellow Fortune Secretary:** We share this floor of the palace with the other companies of the Consortium. And trade with them on the Trade Octagon.
+    - **Player:** The Trade Octagon?
+    - **Yellow Fortune Secretary:** See those traders standing out there, just out the door? They're all standing in the Trade Octagon. There's an awful lot of trade going on in the palace, you know.
+    - **Player:** Anything else of interest in the palace?
+    - **Yellow Fortune Secretary:** The top floor of the palace is the Meeting Octagon. That's the place where the Consortium makes all the important decisions.
+    - **Player:** Can I go there?
+    - **Yellow Fortune Secretary:** Oh, yes, you certainly can. But not while the Consortium is in session, I would imagine.
+    - **Yellow Fortune Secretary:** Even though you are a very friendly human, I'm not sure if you would be allowed to visit during a meeting.
+    - **Yellow Fortune Secretary:** But I don't know enough about that, the director probably knows more.
+    - **Player:** Thanks for the info!
+    - (initial)
+  - [Choice]: Is there anything I can help you with?
+    - **Player:** Is there anything I can help you with?
+    - ''If the player is male:
+      - (above|weak)
+    - ''If the player is female, one of the following replies plays at random:
+      - Dialogue 1:
+        - **Yellow Fortune Secretary:** Ah, always looking for ways to help us!
+      - Dialogue 2:
+        - **Yellow Fortune Secretary:** Naturally, my good human, naturally!
+      - Dialogue 3:
+        - **Yellow Fortune Secretary:** Of course, we reserve our best tasks just for you, Player!
+      - Dialogue 4:
+        - **Yellow Fortune Secretary:** I do believe we do, yes!
+      - Dialogue 5:
+        - **Yellow Fortune Secretary:** I dare say we have something for you, yes.
+      - Dialogue 6:
+        - **Yellow Fortune Secretary:** Oh yes, as you know the Yellow Fortune always has work!
+    - **Yellow Fortune Secretary:** We need [number] pieces of [ore] in the next [number] minutes.
+    - '''Select an option
+      - [Choice]: I'll take it.
+        - **Player:** I'll take it.
+        - ''The Secretary replies with one of the following at random:
+          - Dialogue 1:
+            - **Yellow Fortune Secretary:** You never disappoint, Player!
+          - Dialogue 2:
+            - **Yellow Fortune Secretary:** Excellent, I thought you'd like this!
+          - Dialogue 3:
+            - **Yellow Fortune Secretary:** I'm happy to hear that!
+          - Dialogue 4:
+            - **Yellow Fortune Secretary:** The Yellow Fortune appreciates the hard work you do.
+          - Dialogue 5:
+            - **Yellow Fortune Secretary:** Thanks! But hurry back please, we really need that ore!
+      - [Choice]: No thanks.
+        - **Player:** No thanks.
+        - ''The Secretary replies with one of the following at random:
+          - Dialogue 1:
+            - **Yellow Fortune Secretary:** I suppose you have other important business to attend to?
+          - Dialogue 2:
+            - **Yellow Fortune Secretary:** Oh. Didn't know you were the type to refuse work.
+          - Dialogue 3:
+            - **Yellow Fortune Secretary:** Is everything okay? I didn't think you normally refused our tasks.
+          - Dialogue 4:
+            - **Yellow Fortune Secretary:** That's a great shame, Player.
+          - Dialogue 5:
+            - **Yellow Fortune Secretary:** No? That's unusual for you, Player.
+    - ''If the player is already on a task:
+      - **Yellow Fortune Secretary:** Have you completed your current task yet? Did you get me my [number] pieces of [ore]?
+      - **Player:** No, not yet.
+      - **Yellow Fortune Secretary:** Sorry to hear that, but please hurry up!
+      - (initial)
+    - ''If the player is already on a task from a different company:
+      - **Yellow Fortune Secretary:** Don't you have some business with [other company] to deal with first? Hurry back when you're done!
+      - (initial)
+  - [Choice]: I have to go!
+    - **Player:** I have to go!
+    - ''One of the following replies plays at random: {{anchor|high3}}
+      - Dialogue 1:
+        - **Yellow Fortune Secretary:** It was a pleasure to talk to you again, Player.
+      - Dialogue 2:
+        - **Yellow Fortune Secretary:** Come back any time!
+      - Dialogue 3:
+        - **Yellow Fortune Secretary:** See you soon!
+
+#### Handing in a task
+
+- **Player:** I've completed your task! Here is your ore!
+- (removes=ore) (receives=coins)
+- ''The Secretary replies with one of the following at random:
+  - Dialogue 1:
+    - **Yellow Fortune Secretary:** Wonderful! I will personally oversee that it goes to the trade floor on time!
+  - Dialogue 2:
+    - **Yellow Fortune Secretary:** Well done, well done!
+  - Dialogue 3:
+    - **Yellow Fortune Secretary:** I knew you were the right human for the job!
+  - Dialogue 4:
+    - **Yellow Fortune Secretary:** Thanks, I will make sure the director hears of your expeditiousness!
+  - Dialogue 5:
+    - **Yellow Fortune Secretary:** You're always reliable, Player!
+- (continuea|asdf)
+
+### Higher or highest reputation
+
+- ''One of the following dialogue plays at random:
+  - (above|high1)
+- '''Choose an option:
+  - [Choice]: Who are you?
+    - (above)
+  - [Choice]: Where am I?
+    - (above|high2)
+  - [Choice]: Is there anything I can help you with?
+    - **Player:** Is there anything I can help you with?
+    - ''One of the following replies plays at random:
+      - Dialogue 1:
+        - **Yellow Fortune Secretary:** I'm afraid I have no more work to offer you, Player, please speak to the director.
+      - Dialogue 2:
+        - **Yellow Fortune Secretary:** You should speak directly to the director.
+      - (initial)
+    - ''If the player is already on a task from a different company:
+      - **Yellow Fortune Secretary:** Don't you have some business with [other company] to deal with first? Hurry back when you're done!
+      - (initial)
+  - [Choice]: I have to go!
+    - (above|high3)

@@ -1,0 +1,267 @@
+# Sir Renitee
+
+- **Original Wiki Page**: [Transcript:Sir Renitee](https://runescape.wiki/w/Transcript%3ASir%20Renitee)
+- **Letter**: `S`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Sir Renitee:** ¿Mmm? ¿Qué es eso, joven [man/woman]? ¿Qué puedo hacer por ti?
+- [Menu]: Selecciona una opción
+  - [Choice]: No lo sé, ¿qué puedes hacer por mí?
+    - **Sir Renitee:** Hmm, bueno, mmm, ¿tienes un escudo familiar? Llevo un registro de cada familia gielinoriana, ya sabes, para poder encontrar la tuya.
+    - **Sir Renitee:** También soy algo así como, mmm, pintor. Si has conocido a personas importantes o has visitado algún lugar agradable, podría pintarlo para ti.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Puedes ver si tengo un escudo familiar?
+        - **Sir Renitee:** Un escudo familiar, ¿mmm? Entonces, ¿cuál es tu nombre?
+        - **Player:** Player.
+        - **Sir Renitee:** Mmm, Player, déjame ver...
+        - (Condition: Si el player está por debajo del nivel 16 Construction:)
+          - **Sir Renitee:** ¡Lo primero es lo primero, joven [man/woman]! No tiene mucho sentido tener un escudo familiar si no puedes exhibirlo. Debes entrenar en construcción hasta que puedas construir una decoración de pared en tu comedor.
+        - (Condition: Si el player tiene al menos el nivel 16 Construction:)
+          - (Condition: Primera vez:)
+            - (Condition: Si los antepasados de el player fueran de un reino:)
+              - **Sir Renitee:** Bueno, no creo que tengas sangre noble, pero veo que tus antepasados vinieron de [Asgarnia/Kandarin/Misthalin], así que ese puede ser tu escudo.
+              - (Condition: Si no se ha completado el logro 'Valores familiares':)
+                - color = blanco
+              - (continue|crest-opts-init)
+            - (Condition: Si los antepasados de el player fueran de Varrock:)
+              - **Sir Renitee:** Bueno, no creo que tengas sangre noble, pero veo que tus antepasados vinieron de Varrock, así que puedes usar el escudo de esa ciudad.
+              - (Condition: Si no se ha completado el logro 'Valores familiares':)
+                - color = blanco
+              - (continue|crest-opts-init)
+          - (Condition: Tiempos posteriores:)
+            - **Sir Renitee:** Según mis registros, tu escudo es [the symbol of Shield of Arrav/the symbol of Asgarnia/the symbol of Dorgeshuun brooch/a dragon/a fairy/the symbol of Guthix/the symbol of the HAM cult/a horse/a jungle orge/the symbol of Kandarin/the symbol of Misthalin/a bag of money/the symbol of Saradomin/a skull/the symbol of Varrock/the symbol of Zamorak].
+            - (continue|crest-opts-init)
+          - [Menu]: Seleccione una opción{{anchor|crest-opts-init}}
+            - [Choice]: No me gusta esa cresta. ¿Puedo tener uno diferente?
+              - (Condition: Si el logro Niño de Saradomin no se ha completado y actualmente tienes un escudo de bolsa de dinero:)
+                - **Sir Renitee:** ¿Quieres marcar una tarea difícil en tu diario de logros de Falador, ¿eh?
+                - **Player:** Quizás.
+                - **Sir Renitee:** Es solo que me doy cuenta de que gastaste mucho en tu escudo actual, siendo el escudo de dinero y todo, y deseo informarte que te daremos un vale que te permitirá recuperar tu antiguo escudo. Suponiendo que esté cambiando al símbolo Saradomin, claro está. Sin embargo, solo recibirás un cupón. No te daremos otra una vez que hayas marcado esa tarea en tu diario.
+                - **Player:** ¡Es muy amable de tu parte!
+                - **Sir Renitee:** Sí, bueno, deber de servir y todo eso. Desafortunadamente, no puedo renunciar a la tarifa habitual de 5.000 por cambiar tu escudo. Hay dieciséis símbolos diferentes; cual te gustaria?
+                - (continue|crest-opts-2)
+              - {{anchor|crest-cost}}**Sir Renitee:** Mmm, muy bien. Cambiar tu escudo te costará 5000 coins. Hay dieciséis símbolos diferentes; cual te gustaria?
+              - [Menu]: Seleccione una opción{{anchor|crest-opts-1}}
+                - [Choice]: Escudo de Arrav
+                  - (Condition: Si el player no ha completado la misión Escudo de Arrav:)
+                    - **Sir Renitee:** ¡Pero ese escudo legendario aún está perdido! No creo que sea apropiado que uses su símbolo.
+                  - (Condition: Si el player ha completado la misión Escudo de Arrav:)
+                    - (removes=5,000 coins)
+                    - **Sir Renitee:** Ah, sí, el escudo que ayudaste a recuperar. Sin duda te has ganado el derecho a llevar su símbolo.
+                - [Choice]: Asgarnia
+                  - (removes=5,000 coins)
+                  - **Sir Renitee:** Ah, espléndido, espléndido. ¡No hay mejor símbolo que el de nuestra bella tierra!
+                - [Choice]: Símbolo de Dorgeshuun
+                  - (Condition: Si el player no ha completado la misión La tribu perdida:)
+                    - **Sir Renitee:** Hmm, ¿alguna vez has conocido al Dorgeshuun? No creo que debas usar su símbolo hasta que te hayas puesto en contacto con esa tribu perdida.
+                    - (previous|crest-opts-1)
+                  - (Condition: Si el player ha completado la misión La Tribu Perdida:)
+                    - (removes=5,000 coins)
+                    - **Sir Renitee:** Ah, sí, nuestros nuevos vecinos bajo Lumbridge. He oído que fuiste tú quien se puso en contacto con ellos, muy bien.
+                - [Choice]: dragón
+                  - (Condition: Si el player no ha completado la misión Dragon Slayer:)
+                    - **Sir Renitee:** ¿Cuando el dragón de la isla Crandor permanezca invicto? ¡Creo que deberías demostrar que eres un cazador de dragones antes de poder usar un símbolo de dragón!
+                  - (Condition: Si el player ha completado la misión Dragon Slayer:)
+                    - (removes=5,000 coins)
+                    - **Sir Renitee:** ¡Veo que eres un poderoso cazador de dragones! Sin duda te has ganado el derecho a llevar un símbolo de dragón.
+                - [Choice]: Más...
+                  - [Menu]: Selecciona una opción
+                    - [Choice]: Fairy
+                      - **Sir Renitee:** Hmm, mmm, sí, a todo el mundo le gustan las hadas bonitas.
+                    - [Choice]: Guthix
+                      - (Condition: Si el player tiene menos del nivel 70 Prayer)
+                        - **Sir Renitee:** No pareces muy devoto de ningún dios. No te dejaré tener un símbolo divino a menos que tengas nivel de oración 70.
+                      - (Condition: Si el player tiene al menos el nivel 70 Prayer)
+                        - **Sir Renitee:** ¡Guthix, dios del equilibrio! Yo también soy saradominista, ¿sabes? Pero todos encontramos significado a nuestra manera, ¿qué?
+                    - [Choice]: JAMÓN
+                      - **Sir Renitee:** Hmm, no estoy seguro de que me guste ese grupo HAM, sus creencias son un poco extremas para mí. Pero si eso es lo que quieres.
+                    - [Choice]: caballo
+                      - (Condition: Sin caballo de juguete en el inventario:)
+                        - **Sir Renitee:** ¿Un caballo? Sé que la gente habla de ellos, pero no estoy del todo seguro de que alguna vez existieron. No creo que pueda permitirte usar uno como símbolo a menos que puedas traerme algún tipo de modelo de uno.
+                      - (Condition: Con un caballo de juguete en el inventario:)
+                        - **Sir Renitee:** Ah, veo que trajiste un caballo de juguete para que lo vea. Una bestia interesante. Ciertamente puedes usarlo como tu escudo si quieres, aunque me parece un poco extraño.
+                    - [Choice]: Más...
+                      - [Menu]: Selecciona una opción
+                        - [Choice]: Jogre
+                          - **Sir Renitee:** Un ogro de la jungla, ¿eh? Bestia rara, muy rara.
+                        - [Choice]: candarín
+                          - **Sir Renitee:** ¿Nuestros vecinos del oeste? Muy bien, muy bien.
+                        - [Choice]: Misthalin
+                          - **Sir Renitee:** Ah, la bella tierra de Lumbridge y Varrock.
+                        - [Choice]: dinero
+                          - (Condition: Si el player tiene un vale de cresta de dinero:)
+                          - **Sir Renitee:** ¿Quieres representarte mediante una bolsa de dinero? Puedo hacerlo por ti a cambio de ese vale y, por supuesto, de la tarifa de 5000 monedas.
+                          - (Condition: Si el player no tiene un vale de cresta de dinero:)
+                          - **Sir Renitee:** ¿Quieres representarte mediante una bolsa de dinero? Creo que para que eso tenga sentido debería aumentar el precio a 500.000 coins. ¿Estás de acuerdo?
+                            - [Choice]: Está bien
+                              - **Player:** Muy bien.
+                              - **Sir Renitee:** ¡Muchas gracias! Ahora puedes utilizar una bolsa de dinero como símbolo.
+                            - [Choice]: De ninguna manera
+                              - **Player:** ¡De ninguna manera!
+                              - **Sir Renitee:** Bueno, no podemos permitir que cualquier pobre utilice una bolsa de dinero como símbolo, ¿verdad? Tendrás que elegir un símbolo diferente.
+                              - (previous)
+                        - [Choice]: Más...
+                          - [Menu]: Selecciona una opción
+                            - [Choice]: Saradomin
+                              - (Condition: Si el player tiene menos del nivel 70 Prayer)
+                                - **Sir Renitee:** No pareces muy devoto de ningún dios. No te dejaré tener un símbolo divino a menos que tengas nivel de oración 70.
+                              - (Condition: Si el player tiene al menos el nivel 70 Prayer)
+                                - **Sir Renitee:** ¡Ah, el gran dios Saradomin! ¡Que sonría en tu casa mientras la adornas con su símbolo!
+                              - {{anchor|crest-opts-2}}
+                                - (Condition: Si elige este escudo con la oferta de un vale de escudo en dinero:)
+                                  - **Sir Renitee:** Como mencioné, aquí tienes un cupón que te permite devolver tu escudo a la bolsa de dinero si así lo deseas.
+                                  - [El heraldo le entrega un vale y luego realiza los cambios necesarios en su escudo.]
+                              - '''
+                            - [Choice]: calavera
+                              - (Condition: Si el player no está cráneo)
+                                - **Sir Renitee:** ¿Un símbolo de muerte? No me pareces un asesino; quizás algún otro símbolo le convenga mejor.
+                              - (Condition: Si el player tiene cráneo)
+                                - **Sir Renitee:** ¡Por supuesto que puede tener un símbolo de calavera, señor/señora!
+                            - [Choice]: Varrock
+                              - **Sir Renitee:** ¡Ah, Varrock, una hermosa ciudad!
+                            - [Choice]: Zamorak
+                              - (Condition: Si el player tiene menos del nivel 70 Prayer)
+                                - **Sir Renitee:** No pareces muy devoto de ningún dios. No te dejaré tener un símbolo divino a menos que tengas nivel de oración 70.
+                              - (Condition: Si el player tiene al menos el nivel 70 Prayer)
+                                - **Sir Renitee:** ¿El dios del Caos? Es algo terrible adorar a ese ser maligno. Pero si eso es lo que deseas...
+                            - [Choice]: Más...
+                              - (continuea|crest-opts-1)
+            - [Choice]: ¿Qué hace una cresta por mí?
+              - **Sir Renitee:** Bueno, mmm, ¿tienes una casa? Puedes construir una placa en la pared con tu escudo, en tu comedor. Luego, si tienes un taller, puedes pintar tu escudo en un escudo de acero o en una pancarta.
+              - [Menu]: Selecciona una opción
+                - [Choice]: ¿Puedo cambiar mi escudo?
+                  - (above|crest-cost)
+                - [Choice]: ¡Gracias!
+                  - (below|thanks)
+            - [Choice]: ¡Gracias!{{anchor|thanks}}
+              - **Player:** ¡Gracias!
+              - **Sir Renitee:** De nada, mi [boy/girl].
+      - [Choice]: ¿Puedo comprar un cuadro?
+        - **Sir Renitee:** ¿Quieres un retrato o, mmm, un paisaje? ¿O un mapa, tal vez?
+        - [Menu]: Selecciona una opción
+          - [Choice]: un retrato
+            - **Sir Renitee:{{anchor|portrait-intro}}** Mmm, bueno, hay algunos retratos que puedo pintar. Sin embargo, sólo puedo permitirte tener uno si tienes alguna conexión con esa persona. ¿A quién te gustaría?
+            - [Menu]: Selecciona una opción
+              - [Choice]: King Arthur
+                - (Condition: Si el player no ha completado la misión del Santo Grial:)
+                  - **Sir Renitee:** ¿Tienes, mmm, conexión con King Arthur? No le gustaría que le diera su foto a nadie.
+                  - Para comprar el retrato de King Arthur debes haber completado {{Colour|#003366|El Santo Grial}}.
+                  - **Sir Renitee:{{anchor|different-painting}}** ¿Quieres un cuadro diferente?
+                  - [Menu]: Seleccione una opción{{anchor|different-painting-opts}}
+                    - [Choice]: Si - un retrato
+                      - (above|portrait-intro)
+                    - [Choice]: Si - un paisaje
+                      - (below|landscape-intro)
+                    - [Choice]: Sí - un mapa
+                      - (below|map-intro)
+                    - [Choice]: No, gracias.
+                      - **Sir Renitee:** Mmm, bueno, quizás nos veamos en otro momento.
+                - (Condition: Si el player ha completado la misión del Santo Grial:)
+                  - **Sir Renitee:{{anchor|portrait-price}}** Eso será, mmm, 1000 coins por favor.
+                  - [Menu]: Selecciona una opción
+                    - [Choice]: Está bien
+                      - (removes=1,000 coins) (receives=a painting)
+                      - **Sir Renitee:** Ahí lo tienes. ¿Quieres otro cuadro?
+                      - (above|different-painting-opts)
+                    - [Choice]: No gracias
+                      - **Sir Renitee:** Bueno, mmm, ¿quizás un cuadro diferente, mmm?
+                      - (above|different-painting-opts)
+              - [Choice]: Elena de Ardougne
+                - (Condition: Si el player no ha completado la misión Plague City:)
+                  - **Sir Renitee:** Lo último que escuché es que Elena estaba, mmm, atrapado en West Ardougne. No me sentiría bien vendiendo su retrato mientras estuviera en peligro.
+                  - Misión [Plague City].}}
+                - (Condition: Si el player ha completado la misión Plague City:)
+                  - (above|portrait-price)
+              - [Choice]: Rey Alvis de Keldagrim
+                - (Condition: Si el player no ha completado la misión El enano gigante:)
+                  - **Sir Renitee:** ¿Has estado alguna vez en Keldagrim? Creo que necesitaría que me refrescaras la memoria...
+                  - [The Giant Dwarf].}}
+                  - (above|different-painting)
+                - (Condition: Si el player ha completado la misión El enano gigante:)
+                  - (above|portrait-price)
+              - [Choice]: El Príncipe y la Princesa de Miscellania
+                - (Condition: Si el player no ha completado la misión El trono de Miscellania:)
+                  - **Sir Renitee:** ¿Tienes alguna conexión con el príncipe y la princesa? ¿No me gustaría darle su foto a cualquiera?
+                  - [The Throne of Miscellania].}}
+                  - (above|different-painting)
+                - (Condition: Si el player ha completado la misión El trono de Miscellania:)
+                  - (above|portrait-price)
+          - [Choice]: un paisaje
+            - **Sir Renitee:{{anchor|landscape-intro}}** Mmm, bueno, puedo pintar algunos lugares. ¿Dónde has vivido tus aventuras?
+            - [Menu]: Selecciona una opción
+              - [Choice]: El río Lum
+                - (Condition: Si el player no ha completado las misiones Cook's Assistant, Rune Mysteries y The Restless Ghost:)
+                  - **Sir Renitee:** Mmm, no estoy seguro de que hayas tenido suficientes aventuras en Lumbridge como para merecer una pintura.
+                  - [Cook's Assistant, Rune Mysteries, and The Restless Ghost].}}
+                  - (above|different-painting)
+                - (Condition: Si el player ha completado las misiones Cook's Assistant, Rune Mysteries y The Restless Ghost:)
+                  - **Sir Renitee:{{anchor|landscape-price}}** Eso será, mmm, 2000 coins por favor.
+                  - [Menu]: Selecciona una opción
+                    - [Choice]: Está bien
+                      - (removes=2,000 coins) (receives=a painting of the landscape)
+                      - **Sir Renitee:** Ahí lo tienes. ¿Quieres otro cuadro?
+                      - (above|different-painting-opts)
+                    - [Choice]: No gracias
+                      - **Sir Renitee:** Bueno, mmm, ¿quizás un cuadro diferente, mmm?
+                      - (above|different-painting-opts)
+              - [Choice]: El desierto de Kharid
+                - (Condition: Si el player no ha completado las misiones Diamante en bruto, La trampa para turistas, The Feud y El Golem:)
+                  - **Sir Renitee:** Mmm, no estoy seguro de que hayas tenido suficientes aventuras en el desierto como para merecer una pintura de ellas.
+                  - [Diamond in the Rough, Tourist Trap, The Feud, and The Golem].}}
+                  - (above|different-painting)
+                - (Condition: Si el player ha completado las misiones Diamante en bruto, La trampa para turistas, The Feud y El Golem:)
+                  - (above|landscape-price)
+              - [Choice]: Morytania
+                - (Condition: Si el player no ha completado las misiones Shades of Mort'ton, Creature of Fenkenstrain, Ghosts Ahoy y Haunted Mine:)
+                  - **Sir Renitee:** Mmm, no estoy seguro de que hayas tenido suficientes aventuras en Morytania como para merecer una pintura.
+                  - [Shades of Mort'ton, The Creature of Fenkenstrain, Ghosts Ahoy, and The Haunted Mine].}}
+                  - (above|different-painting)
+                - (Condition: Si el player ha completado las misiones Shades of Mort'ton, Creature of Fenkenstrain, Ghosts Ahoy y Haunted Mine:)
+                  - (above|landscape-price)
+              - [Choice]: Karamja
+                - (Condition: Si el player no ha completado las misiones Tesoro de Pirate, Trío Tai Bwo Wannai y Shilo Village:)
+                  - **Sir Renitee:** Mmm, no estoy seguro de que hayas tenido suficientes aventuras en Karamja como para merecer una pintura.
+                  - [Pirate's Treasure, Tai Bwo Wannai Trio, and Shilo Village].}}
+                  - (above|different-painting)
+                - (Condition: Si el player ha completado las misiones El tesoro de Pirate, Trío Tai Bwo Wannai y Shilo Village:)
+                  - (above|landscape-price)
+              - [Choice]: Isafdar
+                - (Condition: Si el player no ha completado la misión Roving Elves:)
+                  - **Sir Renitee:** Mmm, no estoy seguro de que hayas tenido suficientes aventuras en Isafdar como para merecer una pintura.
+                  - [Roving Elves].}}
+                  - (above|different-painting)
+                - (Condition: Si el player ha completado la misión Roving Elves:)
+                  - (above|landscape-price)
+          - [Choice]: un mapa
+            - **Sir Renitee:{{anchor|portrait-intro}}** Mmm, sí, ah, he pintado mapas del mundo conocido en pergaminos de varios tamaños diferentes. ¿te gusta?
+            - [Menu]: Selecciona una opción
+              - [Choice]: pequeño
+                - (Condition: Si el player tiene menos de 51 puntos de misión:)
+                  - **Sir Renitee:** Mmm, no estoy seguro de que hayas tenido suficientes aventuras en el mundo para merecer ese mapa.
+                  - [51] Puntos de misión.}}
+                  - (above|different-painting)
+                - (Condition: Si el player tiene al menos 51 puntos de misión:)
+                  - (above|portrait-price)
+              - [Choice]: Medio
+                - (Condition: Si el player tiene menos de 101 puntos de misión:'')
+                  - **Sir Renitee:** Mmm, no estoy seguro de que hayas tenido suficientes aventuras en el mundo para merecer ese mapa.
+                  - [101] Puntos de misión.}}
+                  - (above|different-painting)
+                - (Condition: Si el player tiene al menos 101 puntos de misión:)
+                  - (above|portrait-price)
+              - [Choice]: Grande
+                - (Condition: Si el player tiene menos de 151 puntos de misión:)
+                  - **Sir Renitee:** Mmm, no estoy seguro de que hayas tenido suficientes aventuras en el mundo para merecer ese mapa.
+                  - [151] Puntos de misión.}}
+                  - (above|different-painting)
+                - (Condition: Si el player tiene al menos 151 puntos de misión:)
+                  - (above|portrait-price)
+  - [Choice]: Nada, gracias
+    - **Sir Renitee:** Mmm, bueno, quizás nos veamos en otro momento.

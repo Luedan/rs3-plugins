@@ -1,0 +1,365 @@
+# Miodvetnir, Derni and Dernu
+
+- **Original Wiki Page**: [Transcript:Miodvetnir, Derni and Dernu](https://runescape.wiki/w/Transcript%3AMiodvetnir%2C%20Derni%20and%20Dernu)
+- **Letter**: `M`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+{{incomplete|Missing dialogue during quests (from Forgiveness of a Chaos Dwarf onwards)}}
+
+### Talking to them for the first time
+
+- **Miodvetnir:** ¡Oh, mira, un humano!
+- **Dernu:** ¿Un humano? ¿Podemos comerlo?
+- **Derni:** ¡No, eres un cerebro increíble! ¡Los humanos son nuestros amigos!
+- **Player:** Hola, disculpe...
+- **Miodvetnir:** No estoy seguro si los llamaría nuestros amigos... Tampoco enemigos, por supuesto.
+- **Dernu:** No como los trolls. Odiamos a los trolls.
+- **Player:** Disculpe, solo quiero-
+- **Derni:** No hay nada peor que un troll.
+- **Dernu:** Excepto descubrir que tu pico se ha vuelto desafilado justo cuando tú-
+- **Player:** ¡¡¡Disculpe!!!
+- **Miodvetnir:** Hola, sí, ¿qué es?
+- **Player:** Yo eh... bueno, ¿quién eres tú?
+- **Derni:** Soy Derni.
+- **Dernu:** Soy Dernu.
+- **Miodvetnir:** Y yo soy Miodvetnir. Estos son mis hermanos. ¿Y quién podrías ser?
+- **Player:** Mi nombre es Player.
+- **Derni:** ¡Encantado de conocerte, Player!
+- **Dernu:** Ya digo, ¡no vemos un hummon aquí muy a menudo!
+- **Miodvetnir:** ¡Es un humano, cabeza de metal! ¡Deberías prestar más atención!
+- **Player:** Entonces, ¿puedo hacerles algunas preguntas a ustedes, enanos?
+- **Miodvetnir:** ¡Por supuesto, nos encanta responder preguntas!
+- **Dernu:** ¡Somos muy buenos respondiendo preguntas!
+- **Derni:** ¡Dispara!
+
+### Thereafter
+
+- **Miodvetnir:** ¡Hola de nuevo, Player!
+- **Dernu:** ¿Estás perdido aquí abajo?
+- **Derni:** ¿O simplemente pasaste por aquí para charlar?
+- **Player:** Solo paso para charlar.
+- [Menu]: Elige una opción:
+  - [Choice]: cond=Before starting The Giant Dwarf|¿Qué hay río abajo?
+    - **Player:** ¿Qué hay río abajo?
+    - **Miodvetnir:** Oh, ¿no lo sabes?
+    - **Dernu:** ¿[He/She] no lo sabe?
+    - **Derni:** ¡[He/She] no lo sabe!
+    - **Player:** ¿No puedes simplemente decírmelo?
+    - **Miodvetnir:** ¡Es nuestra gloriosa ciudad!
+    - **Dernu:** ¡La gran ciudad de los enanos!
+    - **Derni:** ¡Joya brillante de la montaña!
+    - **Miodvetnir:** Keldagrim, ¡nuestro hogar!
+    - **Player:** ¿Puedes llevarme allí?
+    - **Derni:** Oh, no, no podemos hacer eso.
+    - **Miodvetnir:** Estamos demasiado ocupados.
+    - **Dernu:** Tienes que mantenerte ocupado, ¿ves?
+    - **Derni:** Mantente siempre ocupado, es lo que solía decir nuestro buen padre.
+    - **Dernu:** Además, han ocurrido algunos sucesos extraños en la ciudad.
+    - **Derni:** ¡No le digas eso a [him/her]! ¡No es asunto suyo!
+    - **Miodvetnir:** Sólo es justo si [he/she] quiere ir a la ciudad.
+    - **Dernu:** Oh, sí, acaban de limpiar el desorden del último pequeño incidente.
+    - **Miodvetnir:** ¡Así que ten cuidado si alguna vez logras viajar a la ciudad! ¡Podrían pasar cosas raras!
+    - (initial)
+  - [Choice]: ¿Algún buen lugar para pescar por aquí?
+    - **Player:** ¿Algún buen lugar para pescar por aquí?
+    - **Miodvetnir:** ¿Pescado?
+    - **Derni:** ¿Pescado?
+    - **Dernu:** ¿Qué son los peces?
+    - **Miodvetnir:** No hay peces por aquí.
+    - (Condition: Después del concurso Fishing:)
+      - **Miodvetnir:** Dime, eres el campeón de Fishing, ¿no?
+      - **Derni:** Debe ser por eso que estabas hablando de pescado entonces...
+      - **Dernu:** ¿Qué son los peces?
+    - **Derni:** Pero esta agua de aquí, ya ves, viene goteando desde arriba.
+    - **Miodvetnir:** Nieve fundida, ya ves.
+    - **Dernu:** ¿Qué son los peces?
+    - **Derni:** Oh, son estas pequeñas cosas que se retuercen y viven en el agua.
+    - **Miodvetnir:** ¡Pero no todos son pequeños! ¡Algunos pueden ser grandes!
+    - **Derni:** Y no respiran aire.
+    - (Condition: Después del concurso Fishing:)
+      - **Miodvetnir:** ¡Pero Player podría contarte todo al respecto! Después de todo, ¡[he/she] es el campeón de Fishing!
+      - **Player:** Quizás más tarde...
+    - (initial)
+  - [Choice]: ¿Para qué se utilizan estas minas?
+    - **Player:** ¿Para qué se utilizan estas minas?
+    - **Miodvetnir:** ¿Para qué parece que se usan?
+    - **Derni:** ¿No es obvio?
+    - **Dernu:** ¡Para la minería, por supuesto!
+    - **Miodvetnir:** Estas minas son en realidad el territorio de una de las ocho principales empresas del Consorcio minero.
+    - (Condition: Antes del enano gigante:)
+      - **Player:** ¿Empresas Mining? ¿Dónde están entonces?
+      - **Derni:** Oh, todos tienen su sede en la ciudad.
+      - **Dernu:** Primer piso del palacio.
+      - **Derni:** No es necesario darle instrucciones.
+    - **Miodvetnir:** Transportamos todas nuestras mercancías a la ciudad en barco, ¿sabes?
+    - **Dernu:** Ya que los carros mineros no vienen aquí.
+    - **Derni:** Pero como el río va directo a la ciudad, esto es igual de fácil.
+  - [Choice]: cond=During Between a Rock...|¿Puedes ayudarme con esta piedra?
+    - **Player:** ¿Puedes ayudarme con esta roca en las minas?
+    - **Player:** Parece irrompible. Necesito saber por qué.
+    - **Miodvetnir:** Dime, ¿esa es la roca de Dondakan?
+    - **Dernu:** ¿Esa gran roca irrompible?
+    - **Derni:** Eso es lo que dijo [he/she], ¿no? ¡Presta más atención!
+    - **Player:** Sí, sí, ese es el indicado.
+    - **Miodvetnir:** Oh, me temo que no podrás pasar por allí.
+    - **Dernu:** Es irrompible, ya ves.
+    - **Derni:** Dondakan ha estado allí durante...
+    - **Derni:** ¿Cuánto tiempo dirías que lleva allí, Miotvednir?
+    - **Miodvetnir:** ¡Dieciocho años, Derni, y ni un año menos!
+    - **Dernu:** ¡Eso sí que es dedicación!
+    - **Derni:** Pero mira lo que le consiguió.
+    - **Dernu:** Nada, eso es.
+    - **Player:** No importa.
+    - (initial)
+  - [Choice]: cond=During Between a Rock...|¿Qué material rompería esa roca?
+    - **Player:** ¿Qué material rompería esa roca? Ya sabes, ¿el impenetrable?
+    - **Miodvetnir:** Bueno... ¿has probado un pico rúnico?
+    - **Derni:** ¿Una herramienta de adamantita?
+    - **Dernu:** ¿Qué tal un pico de bronce?
+    - **Miodvetnir:** ¿¿Un pico de bronce??
+    - **Derni:** ¿De qué serviría eso?
+    - **Dernu:** Bueno, nunca se sabe...
+    - **Derni:** ¿No crees que fue lo primero que intentaron?
+    - **Dernu:** ¡Oye, fue sólo una sugerencia!
+    - **Player:** No importa.
+    - (initial)
+  - [Choice]: cond=During Between a Rock...|¿Conoces a alguien llamado Rolad?
+    - **Player:** ¿Conoces a alguien llamado Rolad? ¿Una especie de erudito enano?
+    - **Miodvetnir:** Lo siento, no me suena.
+    - **Dernu:** ¡Oh, sí, conozco a Rolad!
+    - **Derni:** ¡Oh, deja de molestar al humano, Dernu!
+    - **Player:** ¿Sabes dónde está ahora mismo?
+    - **Dernu:** No tengo idea, ¿por qué?
+    - **Player:** No importa.
+    - (initial)
+  - [Choice]: cond=During Between a Rock...|¡Dondakan quiere dispararme con un cañón!
+    - **Player:** ¡Dondakan quiere dispararme con un cañón!
+    - **Miodvetnir:** ¡Dios mío!
+    - **Dernu:** ¡Qué horrible!
+    - **Derni:** ¡Eso es terrible!
+    - **Player:** Él cree que en realidad voy a volar a través de él y aterrizar en el otro lado.
+    - **Derni:** Eso suena un poco tonto.
+    - **Miodvetnir:** ¿Cómo funcionaría eso?
+    - **Dernu:** Creo que te vas a lastimar la cabeza.
+    - **Derni:** El viejo Dondakan finalmente podría haber perdido el control.
+    - **Miodvetnir:** Siempre estuvo obsesionado con esa roca.
+    - **Dernu:** Y oro.
+    - **Derni:** Correcto y dorado.
+    - **Player:** No importa.
+    - (initial)
+  - [Choice]: cond=During Between a Rock...|¿Algún consejo sobre cómo derrotar a un demonio malvado?
+    - **Player:** ¿Algún consejo sobre cómo derrotar a un demonio malvado?
+    - **Miodvetnir:** ¿Un demonio malvado, dices?
+    - **Dernu:** Me escaparía si alguna vez me encontrara con un demonio malvado.
+    - **Derni:** ¡No seas tan cobarde, Dernu!
+    - **Dernu:** Bueno, ¿qué harías entonces?
+    - **Derni:** No lo sé, nunca me he encontrado con un demonio malvado.
+    - **Miodvetnir:** Sin embargo, una vez conocí a un buen demonio.
+    - **Dernu:** Oh, sí, ¿qué dijo?
+    - **Miodvetnir:** Me dio una caja de rompecabezas y luego se fue de nuevo.
+    - **Derni:** Creo que debes haber tenido demasiada corpulencia enana en ti.
+    - **Miodvetnir:** Podría ser, podría ser, pero no se sabe, ¿verdad?
+    - **Player:** No importa.
+    - (initial)
+  - [Choice]: cond=First time after Between a Rock...|¡Derroté al espíritu de la roca! {{anchor|a01}}
+    - **Player:** ¡Derroté al espíritu de la roca!
+    - **Miodvetnir:** ¡Eso es increíble!
+    - **Derni:** ¡Eso es fantástico!
+    - **Dernu:** ¿Qué roca era esa?
+    - **Derni:** ¡Presta atención por una vez, Dernu! ¡Es la roca de Dondakan!
+    - **Miodvetnir:** Eso es bastante impresionante, Player. ¿Cómo lograste hacer eso?
+    - **Player:** Bueno, verás, yo solo-
+    - **Derni:** ¿Qué tipo de pregunta es esa? ¡Con su gran poder, por supuesto!
+    - **Dernu:** ¡O vastas habilidades mágicas!
+    - **Miodvetnir:** No, eres más un guardabosques, ¿no es así Player?
+    - **Player:** En realidad, yo-
+    - **Derni:** De todos modos, esto requiere una celebración.
+    - **Dernu:** Oh, sí, deberíamos bajar a Keldagrim para celebrar.
+    - **Miodvetnir:** Esta noche, por supuesto, ahora no. Estamos de servicio ahora.
+    - **Derni:** Correcto... y estoy seguro de que el tráfico aquí aumentará pronto con esa roca rota.
+    - **Miodvetnir:** ¡Escuché que hay una gran cantidad de oro adentro!
+    - **Dernu:** ¡La empresa va a ser rica!
+    - **Derni:** Ahora no vayas a discutir asuntos de la empresa delante de este humano, Dernu.
+    - **Miodvetnir:** Correcto. Volvamos al trabajo.
+    - **Dernu:** ¿Algo más que quisieras, Player?
+    - **Player:** No importa.
+    - (initial)
+  - [Choice]: cond=During The Giant Dwarf:|Necesito ayuda con esta estatua...
+    - **Player:** Necesito ayuda con esta estatua... La estatua del rey Alvis, para ser precisos.
+    - **Dernu:** Oh, sí, ¿cuál es el problema entonces?
+    - **Derni:** Fue derribado, ¿recuerdas? ¿Algunas partes casi caen sobre nuestras cabezas?
+    - **Miodvetnir:** ¡También hizo un ruido terrible!
+    - (Condition: Antes de ayudar a Blasidar:)
+      - **Player:** No importa.
+    - (Condition: Mientras ayudaba a Blasidar:)
+      - **Player:** Este escultor me tiene buscando muchos artículos, ¿sabes?
+      - **Dernu:** Artículos, ¿eh?
+      - **Derni:** Nos encantan los artículos.
+      - **Miodvetnir:** No puedo tener suficiente de ellos.
+      - **Player:** Bueno, ¿puedes...
+      - **Dernu:** Una vez compré esta caja de rompecabezas, ¿sabes?
+      - **Derni:** Oh, esa historia no otra vez.
+      - **Miodvetnir:** Ya has contado esa historia antes, Dernu.
+      - **Dernu:** Bueno, entonces olvídalo. Me callaré si no quieres oír hablar de ello.
+      - **Player:** No importa.
+    - (Condition: Después de ayudar a Blasidar:)
+      - **Player:** Bueno, el escultor sólo necesita construir la cabeza ahora. Pero necesito que el Consorcio me ayude con eso.
+      - **Miodvetnir:** ¿El Consorcio, dices?
+      - **Dernu:** ¿Vas a hablar con el Consorcio?
+      - **Derni:** Vaya, ciertamente estás ascendiendo en el mundo de los enanos, ¿no?
+      - **Miodvetnir:** ¿Para qué nos necesitas entonces?
+      - **Dernu:** No somos más que simples enanos.
+      - **Derni:** Especialmente tú, Dernu.
+      - **Miodvetnir:** Ahora, Derni, no había necesidad de eso.
+      - **Player:** No importa.
+    - (initial)
+  - [Choice]: cond=First time after The Giant Dwarf and after Between A Rock... dialogue:|¡He reconstruido la estatua del [company name]! {{anchor|a02}}
+    - **Player:** ¡He reconstruido la estatua del [company name]!
+    - **Dernu:** ¿Qué, en serio?
+    - **Derni:** ¡Por supuesto, de verdad! Player no lo habría dicho de otra manera, ¿verdad [he/she]?
+    - **Miodvetnir:** ¿Y no viste a Blasidar trabajando en la estatua?
+    - **Dernu:** Oh, sí, estuvo ahí afuera por bastante tiempo.
+    - **Derni:** Esa debe haber sido una tarea enorme.
+    - **Dernu:** Nada es demasiado difícil para el viejo Blasidar.
+    - **Miodvetnir:** Realmente es un maestro constructor.
+    - **Derni:** Todos podemos tomar un ejemplo de su arduo trabajo y dedicación.
+    - **Dernu:** Hablando de eso, ¿no deberíamos volver a trabajar nosotros mismos?
+    - **Miodvetnir:** Muy cierto. ¿Algo más que quisieras, Player?
+    - **Player:** No importa.
+    - (initial)
+  - [Choice]: cond=During Forgettable Tale of a Drunken Dwarf:|¿Conoces este drunken dwarf...?
+    - **Player:** ¿Conoces este drunken dwarf...?
+    - **Miodvetnir:** ¿Drunken dwarf?
+    - **Dernu:** ¡Sí, conocemos un drunken dwarf!
+    - **Derni:** ¡De hecho, sabemos mucho!
+    - **Dernu:** Pero hay un enano realmente molesto, que a veces me tira piedras sin ningún motivo.
+    - **Player:** Sí, cuéntamelo.
+    - **Player:** Me refiero a su pariente, que vive en el noreste de Keldagrim. Me pregunto si podrías ayudarme con él.
+    - **Miodvetnir:** Ah, sí, él.
+    - **Derni:** Qué caso tan triste, pobrecito.
+    - **Dernu:** ¿Quién es él?
+    - **Derni:** ¿No sabes nada?
+    - **Miodvetnir:** Ahora, no hay razón para enojarse.
+    - **Derni:** Supongo que tienes razón. Bueno, es un enano borracho que habla mucho de kebabs.
+    - **Miodvetnir:** También tiene algunas historias bastante extrañas que contar.
+    - **Dernu:** Y tengo entendido que es pariente de ese enano que mencioné antes.
+    - **Derni:** Espero que haya ayudado, ¿Player?
+    - **Player:** No importa.
+    - (initial)
+  - [Choice]: cond=First time after Forgettable Tale of a Drunken Dwarf and after The Giant Dwarf dialogue:|¡Tengo esta historia inolvidable que contarte! {{anchor|a03}}
+    - **Player:** ¡Tengo esta historia inolvidable que contarte!
+    - **Miodvetnir:** ¡Un cuento!
+    - **Dernu:** ¡Nos encantan los cuentos!
+    - **Derni:** ¡Vivimos para los cuentos!
+    - **Dernu:** Hubo una vez en la que perdí mi llave en las minas...
+    - **Derni:** ¡Player quiere contar una historia!
+    - **Dernu:** Pero mi llave... es una historia muy interesante, ¿sabes?
+    - **Miodvetnir:** Creo que lo hemos escuchado antes.
+    - **Derni:** Fue bastante olvidable.
+    - **Player:** Disculpe, ¿quieres escuchar mi historia o no?
+    - **Miodvetnir:** Feliz de hacerlo.
+    - **Derni:** Me encantaría escucharlo.
+    - **Dernu:** Siempre y cuando sea mejor que mi historia de llave inglesa.
+    - **Miodvetnir:** Entonces, ¿cómo es tu historia?
+    - **Player:** Ah, me equivoco...
+    - **Player:** Parece que lo he olvidado.
+    - **Derni:** Debe haber sido bastante olvidable también entonces.
+    - (Condition: Antes de La primogenitura de los enanos:)
+      - **Player:** No importa.
+    - (Condition: Después de La primogenitura de los enanos:)
+      - **Player:** No, espera, ¡lo recuerdo! ¡Recuperé mi memoria! Crucé un abismo que estaba lleno de complejas huellas de carros mineros sin una buena razón, luego encontré una base de Red Axe...
+      - **Miodvetnir:** Oh, ¿esa vieja historia?
+      - **Derni:** Esas son noticias viejas. ¡El Hacha Roja ya no está!
+      - **Dernu:** ¿No preferirías oír hablar de mi llave inglesa?
+      - **Miodvetnir:** ¡No!
+    - (initial)
+  - [Choice]: cond=First time after Forgiveness of a Chaos Dwarf and after Forgettable Tale of a Drunken Dwarf dialogue:|¡Tengo otra historia que contarte! {{anchor|a04}}
+    - **Player:** ¡Tengo otra historia que contarte!
+    - **Miodvetnir:** ¡Un cuento!
+    - **Dernu:** ¡Nos encantan los cuentos!
+    - **Derni:** ¡Vivimos para los cuentos!
+    - **Dernu:** Hubo una vez en la que tuve que luchar contra un dragón...
+    - **Miodvetnir:** ¡Cuéntanos tu historia, Player!
+    - **Derni:** ¿Qué? ¿Peleaste contra qué?
+    - **Dernu:** ¡Un dragón! ¡Era rosa! ¡Un dragón rosa!
+    - **Derni:** ¡No existen los dragones rosados, idiota!
+    - **Miodvetnir:** Quizás fue un cruce entre un dragón rojo y un dragón de acero...
+    - **Dernu:** No lo sé, ¡solo sé que era rosa!
+    - **Miodvetnir:** O tal vez era un dragón rojo albino, o uno que había estado fuera del sol durante demasiado tiempo.
+    - **Derni:** Bueno, todavía no te creo. Creo que lo estás inventando.
+    - **Miodvetnir:** Al menos tenías algo que decir. Player aún no nos ha contado nada.
+    - **Player:** Si me dejas...
+    - **Dernu:** No importa, Player. ¿Hay algo más de lo que quieras hablar?
+    - (initial)
+  - [Choice]: cond=First time after King of the Dwarves and after Forgiveness of a Chaos Dwarf dialogue:|¿Qué opinas del Rey Veldaban? {{anchor|a05}}
+    - **Player:** ¿Qué opinas del Rey Veldaban?
+    - **Miodvetnir:** ¡El rey!
+    - **Dernu:** ¡El rey de Keldagrim!
+    - **Derni:** ¡Viva el rey!
+    - **Dernu:** Espera, ¿Veldaban es el rey? ¿Cuándo pasó eso?
+    - **Derni:** ¡Keldagrim no tiene rey! ¡Qué tonto! ¡Tiene Consorcio!
+    - **Miodvetnir:** ¡Un conglomerado!
+    - **Derni:** ¡Una corporación!
+    - **Dernu:** ¡Un cartel!
+    - **Player:** No, Veldaban es el rey ahora. Sucedió cuando...
+    - **Derni:** Si alguien se convirtiera en rey, ¡creo que nos lo habrían contado!
+    - **Miodvetnir:** ¡Escuchamos todo lo que sucede!
+    - **Derni:** ¡Tenemos el dedo en el pulso de Keldagrim!
+    - **Dernu:** En realidad, ¿no vino un mensajero por aquí y dijo algo...?
+    - **Derni:** Creo que sí, pero no recuerdo lo que dijo.
+    - **Miodvetnir:** ¡No creo que haya entregado su mensaje correctamente!
+    - **Player:** Tal vez si la dejaras terminar, entonces...
+    - **Derni:** No, no puede haber sido importante, o se habría asegurado de terminar su mensaje.
+    - **Miodvetnir:** ¡Tienes razón! ¡Nadie se olvidará de decírnoslo!
+    - **Dernu:** ¡Eso es! ¡Somos los hermanos más populares de Keldagrim!
+    - **Derni:** ¡Debe ser porque somos tan buenos oyentes!
+    - **Dernu:** Entonces no hay rey. ¡Me alegra que hayamos podido aclarar tu confusión, humano!
+    - **Miodvetnir:** ¿Hay algo más en lo que podamos ayudarte?
+    - (initial)
+  - [Choice]: cond=First time after Birthright of the Dwarves and after King of the Dwarves dialogue:|¡Tengo una última historia que contarte! {{anchor|a06}}
+    - **Player:** ¡Tengo una última historia que contarte!
+    - **Miodvetnir:** ¡Oh, ya conocemos esa historia!
+    - **Dernu:** ¡La historia de la primogenitura de los enanos!
+    - **Derni:** ¡La caída final del Hacha Roja!
+    - **Dernu:** Fue una lástima que Veldaban muriera.
+    - **Miodvetnir:** ¡No murió, idiota! ¡Player lo salvó!
+    - **Player:** En realidad...
+    - **Dernu:** De todos modos, me alegro de que el Consorcio esté nuevamente en el poder.
+    - **Derni:** ¿El Consorcio está en el poder? Pensé que alguien más se convirtió en rey. Rey... ¿cómo se llama?
+    - **Miodvetnir:** ¡Ambos están equivocados! ¡Veldaban sigue siendo el rey!
+    - **Player:** Si me dejas decir una palabra, podría decirte...
+    - **Derni:** De todos modos, me alegra que hayas dejado ir a Luitger, sabía que no podía ser un espía de Red Axe.
+    - **Player:** ¡Luitger ni siquiera era sospechoso! Era Klaas, y yo...
+    - **Miodvetnir:** No es bueno, humano. Tendremos que resolver este desacuerdo antes de que puedas contarnos tu historia.
+    - (initial)
+  - [Choice]: cond=After telling all tales:|Quiero volver a contarte un cuento...{{clarify|Does this appear if one of the stories hasn't been told due the quest not being completed? How about the follow-up options then?}}
+    - [Menu]: Elige una opción:
+      - [Choice]: (Entre una roca...)
+        - (above|a01)
+      - [Choice]: (El enano gigante)
+        - (above|a02)
+      - [Choice]: (Historia olvidable de un Drunken Dwarf)
+        - (above|a03)
+      - [Choice]: (Más...)
+        - [Menu]: Elige una opción:
+          - [Choice]: (El perdón de un enano del caos)
+            - (above|a04)
+          - [Choice]: (Rey de los Enanos)
+            - (above|a05)
+          - [Choice]: (Patrimonio de los enanos)
+            - (above|a06)
+          - [Choice]: (Volver...)
+            - (previous)
+          - [Choice]: (Cancelar)
+            - (initial)
+      - [Choice]: (Cancelar)
+        - (initial)
+  - [Choice]: Debo irme ahora.
+    - **Player:** Debo irme ahora, gracias por la charla.
+    - **Miodvetnir:** ¡No hay problema!
+    - **Dernu:** ¡Me alegra poder servirte!
+    - **Derni:** ¡Vuelve cuando quieras!

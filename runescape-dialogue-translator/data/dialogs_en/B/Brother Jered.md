@@ -1,0 +1,139 @@
+# Brother Jered
+
+- **Original Wiki Page**: [Transcript:Brother Jered](https://runescape.wiki/w/Transcript%3ABrother%20Jered)
+- **Letter**: `B`
+
+---
+
+## Dialogue Transcript
+
+
+### Before 99 Prayer
+
+- [Menu]: Select an option
+  - [Choice]: What can you do to help a bold adventurer like myself?
+    - **Player:{{anchor|help}}** What can you do to help a bold adventurer like myself?
+    - (Condition: If the player is not carrying an unblessed symbol:)
+      - **Brother Jered:** I can tell you about holy symbols or the Skillcape of Prayer.
+      - [Menu]: Select an option
+        - [Choice]: Tell me about holy symbols.
+          - **Player:** Tell me about holy symbols.
+          - **Brother Jered:** If you have a silver star, which is the holy symbol of Saradomin, then I can bless it. Then if you are wearing it, it will help you when you are praying.
+        - [Choice]: Tell me about the Skillcape of Prayer.{{anchor|skillcape}}
+          - **Player:** Tell me about the Skillcape of Prayer.
+          - **Brother Jered:** The Skillcape of Prayer is the hardest of all the skillcapes to get; it requires much devotion to acquire but also imbues the wearer with the ability to briefly fly! Is there something else I can do for you?
+          - [Menu]: Select an option
+            - [Choice]: Yes, what else can you do for a bold adventurer like myself?
+              - (continuea|help)
+            - [Choice]: No, thank you.
+              - **Player:** No thank you.
+    - (Condition: If the player is carrying an unblessed symbol:)
+      - **Brother Jered:** Well I can bless that star of Saradomin you have, or I could tell you about the Skillcape of Prayer!
+      - [Menu]: Select an option
+        - [Choice]: Yes please, bless my star. {{anchor|blessstar}}
+          - **Player:** Yes please, bless my star.
+          - [Jered closes his eyes and softly chants. The symbol is imbued with his blessing.]
+          - (removes=unblessed symbol) (receives=holy symbol)
+        - [Choice]: Tell me about the Skillcape of Prayer.
+          - (above|skillcape)
+        - [Choice]: None of those, thanks.
+          - **Player:** No thank you.
+    - (Condition: If the player is carrying multiple unblessed symbols:)
+      - **Brother Jered:** Well I can bless those stars of Saradomin you have, or I could tell you about the Skillcape of Prayer!
+      - [Menu]: Select an option
+        - [Choice]: Yes please, bless my stars.
+          - **Player:** Yes please, bless my stars. {{anchor|blessstars}}
+          - [Jered closes his eyes and softly chants. The symbols are imbued with his blessing.]
+          - (removes=unblessed symbols) (receives=holy symbols)
+        - [Choice]: Tell me about the Skillcape of Prayer.
+          - (above|skillcape)
+        - [Choice]: None of those, thanks.
+          - **Player:** No thank you.
+  - [Choice]: Praise be to Saradomin!
+    - **Player:** Praise be to Saradomin!
+    - **Brother Jered:** Yes! Praise he who brings life to this world.
+
+### After 99 Prayer
+
+- [Menu]: Select an option
+  - [Choice]: What can you do to help a bold adventurer like myself?
+    - **Player:** What can you do to help a bold adventurer like myself?
+    - (Condition: If the player is not carrying an unblessed symbol:)
+      - **Brother Jered:** Well, seeing as you are so devout in praising the gods, I could sell you a Skillcape of Prayer.
+      - [Menu]: Select an option
+        - [Choice]: Yes, please. So few people have Skillcapes of Prayer!
+          - (Condition: If the player is on a free-to-play world:)
+            - **Brother Jered:** I'm sorry, I can't sell you one here. Try talking to me on a members' world.
+          - (Condition: If the player is on a members' world:)
+            - (Condition: If the player has a ring of charos (a) equipped:)
+              - **Brother Jered:** I don't do this for anyone, but I've got a special offer today! Normally I require 99,000 coins for this prestigious item, but for you it's half price. Only 92,000 coins!
+              - [Menu]: Choose an option:
+                - [Choice]: 92,000 coins? That's much too expensive.
+                  - **Player:** I know where to find you if I change my mind.
+                - [Choice]: I think I have the money right here, actually.
+                  - (Condition: If the player has no backpack space:)
+                    - **Brother Jered:** Unfortunately all skillcapes are only available with a free hood, it's part of a skill promotion deal; buy one get one free, you know. So, you'll need to free up some backpack space before I can sell you one.
+                  - (Condition: If the player does not have enough money:)
+                    - **Player:** But unfortunately, I was mistaken.
+                    - **Brother Jered:** Well, come back and see me when you do.
+                  - (Condition: If the player has enough money:)
+                    - (receives=prayer cape and prayer hood) (removes=92,000 coins)
+                    - **Brother Jered:** Excellent! Wear that cape with pride my friend.
+            - (Condition: If the player does not have a ring of charos (a) equipped:)
+              - [Menu]: Choose an option:
+                - [Choice]: 99,000 coins? That's much too expensive.
+                  - **Player:** I know where to find you if I change my mind.
+                - [Choice]: I think I have the money right here, actually.
+                - (Condition: If the player has no backpack space:)
+                  - (above)
+                - (Condition: If the player does not have enough money:)
+                  - (above)
+                - (Condition: If the player has enough money:)
+                  - (receives=prayer cape and prayer hood) (removes=99,000 coins)
+                  - **Brother Jered:** Excellent! Wear that cape with pride my friend.
+        - [Choice]: I've noticed there are a couple of versions of each skillcape.
+          - **Brother Jered:** Yes! We, the skill masters, have crafted new versions of all skillcapes! We felt like it was time for a change.
+          - (Condition: If you use the old model:)
+            - **Brother Jered:** It looks like you're currently using the old model for your Prayer skillcape. Would you like to change to the newer one?
+            - (continue)
+          - (Condition: If you use the new model:)
+            - **Brother Jered:** You can still choose to wear the old model skillcape if you want. Would you like to change which model you are currently using?
+            - (continue)
+          - [Menu]: Select an option
+            - [Choice]: Yes, I would like to wear the [new/old] version of the skillcape.
+              - **Brother Jered:** Would you like to wear the [old/newer] model for just this cape, or for the Quest Cape and all of the skillcapes you own?
+              - [Menu]: Select an option
+                - [Choice]: I would just like to change the Prayer skillcape.
+                  - **Brother Jered:** No problem, you will now use the [older/newer] model for your Prayer skillcape.
+                - [Choice]: I would like to change all my skillcapes.
+                  - **Brother Jered:** No problem, you will now use the [older/newer] model for all of your skillcapes!
+                - [Choice]: I've changed my mind!
+                  - (end)
+            - [Choice]: No, thank you.
+              - **Brother Jered:** Great! I'm glad you're still enjoying the [old/new] version!
+              - (Condition: If the player uses the new model for any other skillcape:)
+                - **Brother Jered:** If you want, I can make it so you use the old model for all of the skillcapes you own.
+                - [Menu]: Select an option
+                  - [Choice]: Ok, I'd like to wear the old version for all my skillcapes.
+                    - **Brother Jered:** Great, you will now use the old model for all of your skillcapes!
+                  - [Choice]: No, thanks.
+                    - (end)
+        - [Choice]: No thanks, I can't afford one of those.
+          - **Player:** No thanks, I can't afford one of those.
+          - **Brother Jered:** I am sorry to hear that. If you should find yourself in wealthier times come back and see me.
+    - (Condition: If the player is carrying an unblessed symbol:)
+      - **Brother Jered:** Well I can bless that star of Saradomin you have.
+      - [Menu]: Select an option
+        - [Choice]: Yes please, bless my star.
+          - (above|blessstar)
+        - [Choice]: No thank you.
+          - **Player:** No thank you.
+    - (Condition: If the player is carrying more than one unblessed symbol:)
+      - **Brother Jered:** Well I can bless those stars of Saradomin you have.
+      - [Menu]: Select an option
+        - [Choice]: Yes please, bless my stars.
+          - (above|blessstars)
+        - [Choice]: No thank you.
+          - **Player:** No thank you.
+  - [Choice]: Praise be to Saradomin!
+    - (above)

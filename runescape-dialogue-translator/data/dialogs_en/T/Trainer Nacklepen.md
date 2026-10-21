@@ -1,0 +1,64 @@
+# Trainer Nacklepen
+
+- **Original Wiki Page**: [Transcript:Trainer Nacklepen](https://runescape.wiki/w/Transcript%3ATrainer%20Nacklepen)
+- **Letter**: `T`
+
+---
+
+## Dialogue Transcript
+
+- Select an option
+  - Who are you then?
+    - **Player:** Who are you then?
+    - **Trainer Nacklepen:** Hurumph. Nacklepen, tortoise trainer extraordinaire.
+    - **Player:** What's extraordinary about you?
+    - **Trainer Nacklepen:** Do you know any other tortoise trainers?
+    - **Player:** Well, no.
+    - **Trainer Nacklepen:** Well there you go then.
+    - Select an option
+      - So what are you training these tortoises to do?
+        - **Trainer Nacklepen:** Tortoises are naturally pacifistic animals that eat nothing but cabbages. I am required to beat those peaceful tendencies out of the softies and turn them into hardened battle-trained killers. Firstly I acclimatise them to excessive aural stimulation and simple physical confrontation.
+        - **Player:** You shout at them and beat them with sticks?
+        - **Trainer Nacklepen:** Of course. Then I re-educate them to become comfortable with riders and military combat situations.
+        - **Player:** You sit on their backs and prod them with sharp pointy things.
+        - **Trainer Nacklepen:** If you like.
+        - **Player:** Doesn't seem very fair on the tortoises.
+        - **Trainer Nacklepen:** This is War! Fairness is a luxury of the weak.
+        - **Player:** Hmmm, profound but disturbing.
+        - Select an option
+          - Why tortoises?
+            - (below)
+          - Where did these tortoises come from?
+            - (below)
+          - I've heard enough.
+            - (end)
+      - Why tortoises?
+        - **Player:** So why tortoises?
+        - **Trainer Nacklepen:** Isn't it obvious? Surely even to your untrained eye that giant tortoises are the perfect mobile armoured field unit? They are sturdy animals, and well protected by their shell. They can even swim! All we need to do is put a bit of fire in their bellies.
+        - **Player:** I suppose so....
+        - Select an option
+          - So what are you training these tortoises to do?
+            - (above)
+          - Where did these tortoises come from?
+            - (below)
+          - I've heard enough.
+            - (end)
+      - Where did these tortoises come from?
+        - **Player:** Where do these tortoises come from?
+        - **Trainer Nacklepen:** We breed them. The originals were found by gnome explorers back in King Healthorg the Great's rule. On their discovery King Healthorg authorised a small party to go there and transport a breeding pair back here. He kept one for himself to ride into battle. Trouble is they take a lot of skill and time to breed, so we're only just getting them battle ready.
+          - Select an option
+            - So what are you training these tortoises to do?
+              - (above)
+            - Why tortoises?
+              - (above)
+            - I've heard enough.
+              - (end)
+  - *(If the player has not completed The Eyes of Glouphrie:)*
+    - What's that cute creature doing here?
+      - **Player:** What's that cute creature doing here?
+      - **Trainer Nacklepen:** Hurumph. Don't ask me. I didn't put it there. I keep trying to get my tortoises to stomp on it, but it keeps running away.
+      - **Player:** That's not very nice, they are kind of cute.
+      - **Trainer Nacklepen:** Will these creatures make useful foot soldiers in the gnome Army? I think not.
+      - **Player:** I wonder why it's here then?
+      - **Trainer Nacklepen:** How would I know! I've got tortoises to train - you have wasted enough of my time with trivialities, Goodbye.
+      - **Player:** Okay Grumpy, I'm off then.

@@ -1,0 +1,81 @@
+# Overseer Siv
+
+- **Original Wiki Page**: [Transcript:Overseer Siv](https://runescape.wiki/w/Transcript%3AOverseer%20Siv)
+- **Letter**: `O`
+
+---
+
+## Dialogue Transcript
+
+- ((Before having built the Command Centre:))
+  - **Overseer Siv:** This looks like a good spot for a command centre.
+  - (continue)
+- ((After having built the Command Centre:))
+  - **Overseer Siv:** Welcome to the command centre.
+  - (continue)
+- **Select an Option**
+  - What does a command centre do?
+    - **Overseer Siv:** With a functioning command centre you will have remote access to all your global operations.
+    - **Player:** Global operations?
+    - ((If the player has not yet chosen a title with Aster:))
+      - **Overseer Siv:** Surely a great person like you must have more going on beyond these walls. You can manage all of it from here.
+      - (continue)
+    - ((If the player has chosen a title with Aster:))
+      - **Overseer Siv:** Surely a [Title] like you must have more going on beyond these walls. You can manage all of it from here.
+      - (continue)
+    - **Select an Option**
+      - Ask about Miscellania.
+        - ((If the player hasn't completed Throne of Miscellania:))
+          - **Overseer Siv:** Do you have any holdings in Miscellania?
+          - **Player:** Not as such, no.
+          - Complete the Throne of Miscellania quest to unlock Managing Miscellania.
+          - (previous)
+        - ((If the player has completed Throne of Miscellania:))
+          - **Player:** I have a whole Kingdom in Miscellania, actually.
+          - **Overseer Siv:** You're [Fremennik name]? I had no idea.
+          - **Overseer Siv:** I imagine you're finding it hard to keep your subjects happy?
+          - **Player:** It can be a bit of a chore.
+          - **Overseer Siv:** Through the command {{Sic|center}} we could organise a care package system, if we have the resources and you can fund it.
+          - You can pay gold to improve subject approval. This requires a tier 3 command centre.
+          - (previous)
+      - Ask about Anachronia.
+        - ((If the player hasn't completed the Anachronia base camp tutorial:))
+          - **Overseer Siv:** Anachronia? Have you been there?
+          - **Player:** No.
+          - Travel to Anachronia aboard the Stormbreaker, docked at the Archaeology Guild, to unlock the Base Camp.
+          - (previous)
+        - ((If the player has completed the Anachronia base camp tutorial:))
+          - **Player:** I manage the base camp on Anachronia.
+          - **Overseer Siv:** Always in need of more labour, I assume. I'm sure we can organise something.
+          - **Player:** Couldn't hurt.
+          - Building tier 2 and 3 of the command centre each add 5 workers to your Base Camp.
+          - (previous)
+      - Ask about Archaeology.
+        - ((If the player hasn't attained the Assistant qualification:))
+          - **Overseer Siv:** Archaeology? Is that a specialisation of yours?
+          - **Player:** Not really.
+          - Reach level 40 Archaeology and attain the Assistant qualification to unlock Research.
+          - (previous)
+        - ((If the player has attained the Assistant qualification:))
+          - **Player:** My team of crack researchers are always busy at the Archaeology Guild.
+          - **Overseer Siv:** We are in the Wilderness. I'm sure we can dig up something interesting to send them.
+          - A tier 2 command centre reduces research costs by 3%. A tier 3 command centre increases research speed by 3%.
+          - (previous)
+      - Ask about Player-owned Ports.
+        - ((If the player hasn't unlocked the Player-owned port:))
+          - **Overseer Siv:** Do you spend much of your time hanging around in ports?
+          - **Player:** No.
+          - Reach level 90 Agility, Construction, Cooking, Divination, Dungeoneering, Fishing, Herblore-
+          - *gasp*
+          - -Hunter, Prayer, Runecrafting, Slayer or Thieving to unlock Player-owned Ports.
+          - (previous)
+        - ((If the player has unlocked the Player-owned port:))
+          - **Player:** I do like to send the occasional voyage out to the Eastern Lands from my merchant venture.
+          - **Overseer Siv:** Well that's no problem. We Fremennik are the world's greatest merchant sailors.
+          - **Overseer Siv:** With enough resources, I'm sure we can make some efficiency savings.
+          - Ports missions gain a 3%, 6% and 10% boost to success chance at tier 1, 2 and 3 of the command centre respectively.
+          - (previous)
+      - Goodbye.
+        - (end)
+  - Goodbye.
+    - (end)

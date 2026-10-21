@@ -1,0 +1,148 @@
+# Aleck
+
+- **Original Wiki Page**: [Transcript:Aleck](https://runescape.wiki/w/Transcript%3AAleck)
+- **Letter**: `A`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+{{dialogue|npc}}
+
+### In Yanille
+
+- **Player:** Hola.
+- **Aleck:** Hola, hola y una cálida bienvenida a mi emporio Hunter. Tenemos todo lo que el Hunter más exigente podría necesitar.
+- **Aleck:** ¿Quieres que te muestre nuestra gama de equipos? ¿O buscabas algo específico?
+- [Menu]: Selecciona una opción
+  - [Choice]: Hablar sobre el emporio Hunter
+    - [Menu]: Elige una opción:
+      - [Choice]: Bien, veamos qué tienes.
+        - **Player:** Bien, veamos qué tienes.
+        - (opens=Aleck's Hunter Emporium)
+      - [Choice]: No me interesa, gracias.
+        - **Player:** No me interesa, gracias.
+        - **Aleck:** Bueno, si alguna vez necesitas el mejor equipo Hunter disponible, entonces sabes a dónde acudir.
+      - [Choice]: ¿Quién es ese tipo de ahí?
+        - **Player:** ¿Quién es ese tipo de ahí?
+        - **Aleck:** ¿Él? Creo que podría estar loco. O eso o está buscando atención.
+        - **Aleck:** Sigue intentando venderme esas armas que parecen chifladas que ha inventado. No puedo verlos trabajando, personalmente.
+      - [Choice]: ¿Tiene algún conocimiento de Hunter para compartir?
+        - **Player:** ¿Tienes algún conocimiento de Hunter para compartir?
+        - **Aleck:** A algunas criaturas les puede gustar especialmente cierta comida. Si pones cebo en tu trampa, es más probable que atrapes a los bichos.
+        - **Player:** Entonces, ¿necesito usar cebo?
+        - **Aleck:** A veces es esencial. Recuerdo que cuando estaba cazando en Isafdar, los animales ni siquiera miraban una trampa a menos que usara cebo. Esos pawya y grenwalls no se dejan engañar fácilmente.
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Cómo supiste qué cebo usar?
+            - **Player:** ¿Cómo supiste qué cebo usar?
+            - **Aleck:** Después de observarlos por un tiempo, noté que los grenwalls se comían la pawya, así que me di cuenta de que podía usar carne de pawya para atrapar grenwall.
+            - **Player:** Pero, para empezar, ¿cómo atrapaste la pawya?
+            - **Aleck:** Eso fue más difícil de entender. Me di cuenta de que no comían carne, así que probé otros cebos y descubrí que no podían resistirse a la papaya.
+            - **Aleck:** De todos modos, ¿te gustaría que te mostrara nuestra gama de equipos o buscabas algo específico?
+            - (previous2)
+          - [Choice]: Gracias por tu ayuda.
+            - **Player:** Gracias por tu ayuda.
+            - **Aleck:** Siempre es un placer compartir el conocimiento de Hunter.
+            - **Aleck:** ¿Quieres que te muestre nuestra gama de equipos o buscabas algo específico?
+            - (previous2)
+  - [Choice]: Acerca del sistema de tareas...
+    - (Condition: Si el player ha completado las tareas difíciles del conjunto Ardougne y aún no se ha reclamado la recompensa:)
+      - **Player:** He completado todas las tareas difíciles del conjunto Ardougne.
+      - **Aleck:** ¡Oh! Así lo has hecho, ¡bien hecho! Tengo una capa preciosa aquí para ti.
+      - {{tbox|pic=Ardougne cloak 3 detail.png|pic2=Antique lamp (Hard Ardougne Tasks) detail.png|Aleck hands you a cloak and a lamp.}}
+      - **Aleck:** Ahí lo tienes. Creo que ahora descubrirás que puedes, umm, digamos "expropiar" cosas en todo el mundo más fácilmente mientras usas esa capa. Además, es posible que Cromperty pueda ayudarte con la creación de runas. También puede haber otros efectos; es todo un enigma.
+      - **Player:** ¡Gracias!
+      - **Aleck:** De nada.
+      - (continue)
+    - (Condition: Si el player ha completado las tareas Elite del conjunto Ardougne y aún no se ha reclamado la recompensa:)
+      - **Player:** He completado todas las tareas de élite del conjunto Ardougne.
+      - **Aleck:** ¡Mis más sinceras felicitaciones! Supongo que querrás una recompensa, ¿eh?
+      - **Player:** Sí, por favor.
+      - **Aleck:** Bueno, ¡parece que has explorado prácticamente todos lados! Es necesaria una recompensa adecuada.
+      - **Player:** ¡Genial! Gracias.
+      - **Player:** He completado todas las tareas de élite del conjunto Ardougne.
+      - **Aleck:** ¡Vaya, eso es impresionante! Has superado con creces mis expectativas, enhorabuena.
+      - {{tbox|pic=Antique lamp (Elite Ardougne Tasks) detail.png|Aleck hands you four old lamps and does something to your cloak that you can't quite see.}}
+      - **Aleck:** Ahí lo tienes. Eso debería ayudarte con la renuencia de la capa a teletransportarte a la zona agrícola al norte de Ardougne más de una vez al día.
+      - **Player:** ¡Gracias!
+      - **Aleck:** De nada.
+      - (continue)
+    - (Condition: Si el player ha perdido su Ardougne cloak 3:)
+      - **Aleck:** ¿Cómo está la capa?
+      - **Player:** Lo perdí.
+      - **Aleck:** ¿En serio? Aquí encontré otro en el almacén.
+      - (receives=Ardougne cloak 3)
+      - {{tbox|pic=Ardougne cloak 3 detail.png|Aleck hands you another cloak.}}
+      - (continue)
+    - (Condition: Si el player ha perdido su Ardougne cloak 4:)
+      - **Aleck:** ¿Cómo está la capa?
+      - **Player:** Lo perdí.
+      - **Aleck:** ¿En serio? Aquí encontré otro en el almacén.
+      - (receives=Ardougne cloak 4)
+      - {{tbox|pic=Ardougne cloak 4 detail.png|Aleck hands you another cloak.}}
+      - (continue)
+    - [Menu]: Elige una opción:
+      - [Choice]: Háblame del Sistema de Logros.
+        - **Aleck:** Muy bien: el Sistema de Logros es una colección de hazañas que quizás desees completar mientras viajas por el mundo.
+        - **Aleck:** Puedes ganar recompensas especiales por completar ciertos logros; como mínimo, cada uno vale una recompensa en efectivo de Explorer Jack en Lumbridge.
+        - **Aleck:** Algunos también ofrecen elementos que ayudarán a completar otros logros y muchos cuentan como progreso hacia el conjunto del área en la que se encuentran.
+        - [Menu]: Elige una opción:
+          - [Choice]: Cuéntame sobre la recompensa establecida para esta localidad.
+            - **Player:** Cuéntame sobre la recompensa establecida para esta localidad.
+            - **Aleck:** Por completar el conjunto Ardougne, se te presenta una capa.
+            - **Aleck:** Esta capa será cada vez más útil con cada nivel de dificultad del conjunto que completes.
+            - **Aleck:** Cuando se le presenten sus recompensas, se le informará sobre sus usos.
+            - También puedes ver qué recompensas proporciona un elemento determinado al pasar el cursor sobre el ícono de Recompensas de su Logro de exploración establecido en la interfaz de Logros.
+            - (previous2)
+          - [Choice]: ¿Cómo reclamo estas recompensas?
+            - **Player:** ¿Cómo reclamo las recompensas?
+            - **Aleck:** Debes completar todas las tareas de un conjunto de una dificultad particular y luego podrás reclamar tu recompensa.
+            - **Aleck:** Algunas de las tareas del conjunto Ardougne son simples, algunas requerirán cierto skill levels y otras pueden requerir que se inicien o completen misiones.
+            - **Aleck:** Para reclamar las recompensas del conjunto Ardougne, hable con town crier de Ardougne, Doctor Orbon en la iglesia East Ardougne o conmigo mismo.
+            - (previous2)
+          - [Choice]: Lo siento, me estaba yendo.
+            - (end)
+      - [Choice]: ¿Puedo comprar un repuesto de la recompensa?
+        - [Menu]: Elige una opción:
+          - [Choice]: Ardougne cloak 1
+            - **Aleck:** Ardougne cloak 1? Sí, pero me temo que te costaría 1.500 coins.
+            - [Menu]: ¿Comprar otro por 1.500 coins?
+              - [Choice]: si
+                - {{tbox|pic=Ardougne cloak 1 detail.png|You're handed another Ardougne cloak 1.}}
+                - (receives=Ardougne cloak 1) (removes= 1,500 coins)
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Ardougne cloak 2
+            - **Aleck:** Ardougne cloak 2? Sí, pero me temo que te costaría 2500 coins.
+            - [Menu]: ¿Comprar otro por 2500 coins?
+              - [Choice]: si
+                - {{tbox|pic=Ardougne cloak 2 detail.png|You're handed another Ardougne cloak 2.}}
+                - (receives=Ardougne cloak 2) (removes= 2,500 coins)
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Ardougne cloak 3
+            - **Aleck:** Ardougne cloak 3? Sí, pero me temo que te costaría 7.500 coins.
+            - [Menu]: ¿Comprar otro por 7.500 coins?
+              - [Choice]: si
+                - {{tbox|pic=Ardougne cloak 3 detail.png|You're handed another Ardougne cloak 3.}}
+                - (receives=Ardougne cloak 3) (removes= 7,500 coins)
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Ardougne cloak 4
+            - **Aleck:** Ardougne cloak 4? Sí, pero me temo que te costaría 15.000 coins.
+            - [Menu]: ¿Comprar otro por 15.000 coins?
+              - [Choice]: si
+                - {{tbox|pic=Ardougne cloak 4 detail.png|You're handed another Ardougne cloak 4.}}
+                - (receives=Ardougne cloak 4) (removes= 15,000 coins)
+              - [Choice]: No
+                - **Player:** No, gracias.
+      - [Choice]: cond=If at least the hard Ardougne achievements are completed and the rewards claimed|Me gustaría cambiar mi punto de teletransporte.
+        - **Player:** Me gustaría cambiar mi punto de teletransporte de Watchtower.
+        - [Menu]: ¿Alternar teletransporte de Watchtower a [Watchtower/Yanille]?
+          - [Choice]: si
+            - Watchtower Teleport ahora te teletransportará al [Watchtower/centre of Yanille].
+          - [Choice]: No
+            - (end)
+      - [Choice]: Lo siento, me estaba yendo.
+        - (end)

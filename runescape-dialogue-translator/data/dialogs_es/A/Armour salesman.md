@@ -1,0 +1,124 @@
+# Armour salesman
+
+- **Original Wiki Page**: [Transcript:Armour salesman](https://runescape.wiki/w/Transcript%3AArmour%20salesman)
+- **Letter**: `A`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+- **Player:** Buenos días para ti.
+- **Armour Salesman:** Y para ti. ¿Puedo ayudarle?
+  - ¿Qué haces aquí?
+    - **Player:** ¿Qué haces aquí?
+    - **Armour Salesman:** Soy proveedor de armaduras y accesorios de cuero. Pregunta y te diré lo que sé.
+      - Cuéntame sobre tus armaduras.
+        - **Player:** Cuéntame sobre tus armaduras.
+        - **Armour salesman:** Tengo tipos normales, tachonados y duros.
+          - Háblame del cuero normal.
+            - **Player:** Háblame del cuero normal.
+            - **Armour salesman:** De hecho, la armadura de espuma es excelente para los arqueros. Es flexible y no muy pesado.
+          - ¿Qué es el cuero con tachuelas?
+            - **Player:** ¿Qué es el cuero con tachuelas?
+            - **Armour salesman:** Ah, eso es cuero cubierto con tachuelas. Es más protector que el cuero normal.
+          - ¿Qué es el cuero duro?
+            - **Player:** ¿Qué es el cuero duro?
+            - **Armour salesman:** El cuero duro se trata especialmente con aceites y métodos de secado para crear una armadura resistente.
+          - Ya basta de armaduras.
+            - **Player:** Ya basta de armaduras.
+            - **Armour salesman:** Como quieras, viajero.
+            - *(vuelve a opciones anteriores)*
+      - Cuéntame sobre tus accesorios
+        - **Player:** Cuéntame sobre tus accesorios.
+        - **Armour salesman:** Ah, sí, tenemos una nueva gama de accesorios en stock. Artículos esenciales para un arquero como tú. Disponemos de brazales, chaparreras, capuchas y cofias.
+          - Háblame de los brazales.
+            - **Player:** Háblame de los brazales.
+            - **Armour salesman:** Ah, sí, brazales. Estos útiles artículos son para tus brazos. Una funda protectora que favorece el arco y la flecha. Una compra imprescindible.
+          - Háblame de los chicos.
+            - **Player:** Háblame de los capítulos.
+            - **Armour salesman:** Los capítulos tienen dos funciones; en primer lugar, para proteger sus piernas y, en segundo lugar, para facilitar la recarga de flechas. Te los recomiendo encarecidamente para tiro con arco rápido.
+          - Háblame de capuchas.
+            - **Player:** Háblame de las capuchas.
+            - **Armour salesman:** La capucha es un sombrero de cuero suave, ideal para protección con maniobrabilidad. Estos son muy favorecidos por nuestros guardias.
+          - Háblame de las cofias.
+            - **Player:** Háblame de las cofias.
+            - **Armour salesman:** La cofia es una capucha especializada que tiene protección de cadena adicional para mantener seguros el cuello y los hombros. Una excelente incorporación a nuestra gama, viajero.
+          - Ya basta de accesorios.
+            - **Player:** Ya basta de accesorios.
+            - **Armour salesman:** Como desees.
+            - *(vuelve a opciones anteriores)*
+        - Ya he visto suficiente, gracias.
+          - **Player:** Ya he visto suficiente, gracias.
+          - **Armour salesman:** Muy bien, aventurero.
+  - Me gustaría ver lo que vendes.
+    - **Player:** Me gustaría ver qué vendes.
+      - **Armour salesman:** De hecho, mira mis mercancías, aventurero.
+      - (Action: abre los apéndices de tiro con arco de Aaron)
+  - *Si tienes el nivel 99 Ranged*
+    - ¿Puedo comprar un Ranged skillcape?
+      - **Armour salesman:** Tus ojos son todo lo que necesito saber. 99.000 coins y la capa es tuya.
+      - (Condition: Con un token inverted skillcape o un token maestro skillcape invertido para Ranged:)
+        - **Armour salesman:** ¡Veo que tienes una de las fichas de inversión de capa de Hans! Te quitaré eso de las manos y te venderé cualquier inverted cape para el que seas elegible.
+        - (removes=any inverted skillcape token and inverted master skillcape token)
+        - (continue)
+      - [Menu]: Elige una opción:
+        - [Choice]: ¿99.000 coins? Eso es demasiado caro.
+          - **Armour salesman:** En absoluto; ¡Hay muchos otros aventureros a quienes les encantaría tener la oportunidad de comprar un artículo tan prestigioso! Puedes encontrarme aquí si cambias de opinión.
+        - [Choice]: De hecho, creo que tengo el dinero aquí.
+          - (Action: Le das al Armour salesman 99,000 coins, y el skillcape y la campana se colocan en tu inventario.)
+          - **Armour salesman:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+        - [Choice]: cond=With inverted Ranged cape unlocked:|Me gustaría un skillcape con los colores invertidos.
+          - (Condition: Sin 99.000 coins:)
+            - **Player:** Pero, desafortunadamente, no tengo suficiente coins.
+            - **Armour salesman:** Bueno, vuelve a verme cuando lo hagas.
+          - (Condition: Con 99.000 coins:)
+            - (Condition: Sin espacio libre backpack:)
+              - **Armour salesman:** Desafortunadamente necesitarás liberar espacio en backpack antes de que pueda venderte uno.
+            - (Condition: Con espacio gratuito backpack:)
+              - (removes=99,000 coins (from money pouch if not in backpack)) (receives=inverted Ranged cape variant depending on their skill masteries)
+              - **Armour salesman:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+        - [Choice]: cond=With virtual 120 Ranged:|He dominado esta habilidad. ¿Hay algo más?
+          - **Armour salesman:** Hay algo... aunque lo he mantenido en secreto durante mucho tiempo. Es algo que sólo puede ser usado por un verdadero maestro.
+          - **Armour salesman:** Ni siquiera yo puedo usarlo, así de difícil es lograrlo.
+          - **Armour salesman:** Dices que eres un maestro. Ponte derecho, déjame echarte un vistazo...
+          - **Armour salesman:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Ranged master cape.
+          - [Menu]: ¿COMPRAR MASTER CAPE A RANGO POR 120.000 COINS?
+            - [Choice]: Sí.
+              - (Condition: Sin espacio backpack:)
+                - **Armour salesman:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
+              - (Condition: Con espacio backpack:)
+                - (Condition: Sin 120.000 coins:)
+                  - No tienes suficiente dinero para comprar esta capa.
+                    - ((Repetido en una ventana emergente:))
+                      - No tienes suficiente dinero para comprar esta capa.
+                - (Condition: Con 120.000 coins:)
+                  - (removes=120,000 coins (from money pouch if not in backpack)) (receives=Ranged master cape)
+            - [Choice]: No.
+              - (end)
+        - [Choice]: cond=With inverted Ranged master cape unlocked:|Me gustaría un master cape con los colores invertidos.
+          - **Armour salesman:** Hay algo... aunque lo he mantenido en secreto durante mucho tiempo. Es algo que sólo puede ser usado por un verdadero maestro.
+          - **Armour salesman:** Ni siquiera yo puedo usarlo, así de difícil es lograrlo.
+          - **Armour salesman:** Dices que eres un maestro. Ponte derecho, déjame echarte un vistazo...
+          - **Armour salesman:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Ranged master cape.
+          - [Menu]: ¿Comprar Ranged master cape por 120.000 coins?
+            - [Choice]: Sí.
+              - (Condition: Sin espacio libre backpack:)
+                - **Armour salesman:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
+              - (Condition: Con espacio gratuito backpack:)
+                - (Condition: Sin 120.000 coins:)
+                  - No tienes suficiente dinero para comprar esta capa.
+                  - (ventana emergente)
+                    - (Ventana emergente: No tienes suficiente dinero para comprar esta capa.|advertencia=yes)
+                - (Condition: Con 120.000 coins:)
+                  - (removes=120,000 coins (from money pouch if not in backpack)) (receives=inverted Ranged master cape)
+            - [Choice]: No.
+              - (end)
+    - He notado que hay un par de versiones de cada skillcape.
+      - **Armour salesman:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio. Aún puedes optar por usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
+        - Sí, me gustaría usar la versión antigua del skillcape.
+        - No, gracias.
+          - **Armour salesman:** ¡Genial! ¡Me alegra que estés disfrutando de nuestra nueva versión!
+    - Ya he visto suficiente, gracias.
+      - **Player:** Ya he visto suficiente, gracias.
+      - **Armour salesman:** Muy bien, aventurero.

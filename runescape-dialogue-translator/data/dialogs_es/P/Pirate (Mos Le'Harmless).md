@@ -1,0 +1,69 @@
+# Pirate (Mos Le'Harmless)
+
+- **Original Wiki Page**: [Transcript:Pirate (Mos Le'Harmless)](https://runescape.wiki/w/Transcript%3APirate%20%28Mos%20Le%27Harmless%29)
+- **Letter**: `P`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+- *Conversación 1*
+  - **Pirate:** ¿No eres tú el perro con escorbuto que me mató hermano?
+  - **Player:** No estoy seguro. Mato tantas cosas a diario que todo tiende a desdibujarse. Dígame, ¿tenía alguna característica inusual que me ayudara a recordarla?
+  - **Pirate:** ¿Cuántas cosas tienes que matar en un día para perder la cuenta?
+  - **Player:** No lo sé, ¡si lo supiera no habría perdido la cuenta! Ahora, sobre tu hermano...
+  - **Pirate:** ¡No importa! ¡Nunca me gustó tanto de todos modos!
+- *Conversación 2*
+  - **Pirate:** ¿Qué hace aquí un marinero de agua dulce como tú?
+  - **Player:** Ayudando al Capitán Teach a abrirse camino a través de un pequeño bloqueo.
+  - **Pirate:** Enhorabuena. Nos vemos por ahí.
+- *Conversación 3*
+  - **Pirate:** ¿Estás aquí para... ya sabes... las cosas?
+  - **Player:** ¿El qué?
+  - **Pirate:** Las cosas. Ya sabes... ¿las cosas?
+  - **Player:** No estoy seguro de seguirte.
+  - **Pirate:** ¿No eres Toothless Kevin?
+  - **Player:** No.
+  - **Pirate:** ¡Lo siento, lo siento, error mío!
+- *Conversación 4*
+  - **Pirate:** ¿En qué barco llegaste, extraño?
+  - **Player:** El Aventurero.
+  - **Pirate:** Es un buen barco, que así sea.
+- *Conversación 5*
+  - **Pirate:** ¡Mira por dónde vas!
+  - **Player:** ¡Lo estaba!
+  - **Pirate:** Entonces debe haber sido culpa mía y te pido disculpas, muchacho.
+  - **Player:** Y acepto tus disculpas. Buen día.
+  - **Pirate:** Sí, buenos días para ti también.
+- *Conversación 6*
+  - **Player:** ¡Arriba!
+  - **Pirate:** ¿Llegó?
+  - **Player:** ¿Llegó?
+  - **Pirate:** ¡Arr!
+  - **Player:** Llega...
+  - **Pirate:** Arr.
+- *Conversación 7*
+  - **Player:** ¿Por qué este lugar está amurallado?
+  - **Pirate:** Bueno, muchacho, es porque hay cosas asquerosas en la jungla más allá.
+  - **Player:** ¿Qué clase de cosas asquerosas?
+  - **Pirate:** Grandes muchachos. Chicos desagradables. Lo que sea, lo tenemos. Hay horrores de la jungla en las junglas y horrores de las cuevas en las cuevas. No es lugar para hacer un picnic, y no me equivoco.
+- *Conversación 8*
+  - **Player:** ¡Buenos días!
+  - **Pirate:** Supongo que sí. ¿Qué pasa con eso?
+  - **Player:** Estaba entablando una conversación.
+  - **Pirate:** Bueno... ¿por qué harías algo así?
+  - **Player:** Sin motivo.
+- *Conversación 9*
+  - **Player:** Aquí hay bastante tranquilidad para ser un refugio de piratas, ¿no?
+  - **Pirate:** Arr, nos gusta mantener la paz por aquí. A algunos de los piratas más veteranos no les gusta, pero Mos Le'Harmless es un hervidero de sentido común y civilidad.
+  - **Player:** ¡Qué lindo!
+  - **Pirate:** Arr, que así sea.
+- *Conversación 10*
+  - **Player:** ¡Hola!
+  - **Pirate:** Baja la voz [lass/lad], ¿no ves que estoy ocupado?
+  - **Player:** Primero que nada, es [lad/lass], y segundo, aparte de estar ocupado borracho, no entiendo de qué estás hablando.
+  - **Pirate:** Ya no puedo sentir mi cerebro...
+  - **Player:** Espera... Reconozco ese olor. Has estado bebiendo "ron", ¿no?
+  - **Pirate:** Llega... estás barajando el murmullo...
+  - **Player:** Creo que eso se puede presentar como un "sí".

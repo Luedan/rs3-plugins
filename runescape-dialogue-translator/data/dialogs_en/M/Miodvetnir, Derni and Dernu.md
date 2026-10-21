@@ -1,0 +1,364 @@
+# Miodvetnir, Derni and Dernu
+
+- **Original Wiki Page**: [Transcript:Miodvetnir, Derni and Dernu](https://runescape.wiki/w/Transcript%3AMiodvetnir%2C%20Derni%20and%20Dernu)
+- **Letter**: `M`
+
+---
+
+## Dialogue Transcript
+
+{{incomplete|Missing dialogue during quests (from Forgiveness of a Chaos Dwarf onwards)}}
+
+### Talking to them for the first time
+
+- **Miodvetnir:** Oh look, a human!
+- **Dernu:** A human? Can we eat it?
+- **Derni:** No, you rock brain! Humans are our friends!
+- **Player:** Hello, excuse me...
+- **Miodvetnir:** Not sure if I would call them our friends... Not enemies either, of course.
+- **Dernu:** Not like the trolls. We hate trolls.
+- **Player:** Excuse me, I just want to-
+- **Derni:** Nothing's worse than a troll.
+- **Dernu:** Except discovering that your pickaxe's gone blunt just as you-
+- **Player:** Excuse me!!!
+- **Miodvetnir:** Why, hello, yes, what is it?
+- **Player:** I er... well, who are you?
+- **Derni:** I'm Derni.
+- **Dernu:** I'm Dernu.
+- **Miodvetnir:** And I'm Miodvetnir. These are my brothers. And who might you be?
+- **Player:** My name is Player.
+- **Derni:** Pleased to meet you, Player!
+- **Dernu:** I say, we don't get to see a hummon down here very often!
+- **Miodvetnir:** It's a human, you metal head! You should pay more attention!
+- **Player:** So, can I ask you dwarves a few questions?
+- **Miodvetnir:** Of course, we love answering questions!
+- **Dernu:** We're very good at answering questions!
+- **Derni:** Fire away!
+
+### Thereafter
+
+- **Miodvetnir:** Hello again, Player!
+- **Dernu:** Are you lost down here?
+- **Derni:** Or were you just stopping by for a chat?
+- **Player:** Just stopping by for a chat.
+- [Menu]: Choose an option:
+  - [Choice]: cond=Before starting The Giant Dwarf|What's down this river?
+    - **Player:** What's down this river?
+    - **Miodvetnir:** Oh, you don't know?
+    - **Dernu:** [He/She] doesn't know?
+    - **Derni:** [He/She] doesn't know!
+    - **Player:** Can't you just tell me?
+    - **Miodvetnir:** It is our glorious city!
+    - **Dernu:** The grand city of the dwarves!
+    - **Derni:** Sparkling jewel of the mountain!
+    - **Miodvetnir:** Keldagrim, our home!
+    - **Player:** Can you take me there?
+    - **Derni:** Oh no, we can't do that.
+    - **Miodvetnir:** We're far too busy.
+    - **Dernu:** You have to keep busy, you see.
+    - **Derni:** Always keep busy, is what our good father used to say.
+    - **Dernu:** Besides, there's been some weird going ons in the city.
+    - **Derni:** Don't tell [him/her] that! None of his/her business!
+    - **Miodvetnir:** Only fair if [he/she] wants to go into the city.
+    - **Dernu:** Oh yes, they only just cleaned up the mess from the last little incident.
+    - **Miodvetnir:** So watch out if you ever do manage to travel to the city! Weird things could happen!
+    - (initial)
+  - [Choice]: Any good spots to fish around here?
+    - **Player:** Any good spots to fish around here?
+    - **Miodvetnir:** Fish?
+    - **Derni:** Fish?
+    - **Dernu:** What are fish?
+    - **Miodvetnir:** No fish around here.
+    - (Condition: After Fishing Contest:)
+      - **Miodvetnir:** Say, you're the Fishing Champion, aren't you?
+      - **Derni:** That must be why you were talking about fish then...
+      - **Dernu:** What are fish?
+    - **Derni:** But this water here, you see, it comes dripping down from above.
+    - **Miodvetnir:** Molten snow, you see.
+    - **Dernu:** What are fish?
+    - **Derni:** Oh, they're these small wriggly things that live in the water.
+    - **Miodvetnir:** But they're not all small! Some can be large!
+    - **Derni:** And they don't breathe air.
+    - (Condition: After Fishing Contest:)
+      - **Miodvetnir:** But Player could tell you all about it! After all, [he/she]'s the Fishing Champion!
+      - **Player:** Maybe later...
+    - (initial)
+  - [Choice]: What are these mines used for?
+    - **Player:** What are these mines used for?
+    - **Miodvetnir:** What does it look like they're used for?
+    - **Derni:** Isn't it obvious?
+    - **Dernu:** For mining of course!
+    - **Miodvetnir:** These mines are actually the territory of one of the eight major companies of the mining Consortium.
+    - (Condition: Before The Giant Dwarf:)
+      - **Player:** Mining companies? Where are they at then?
+      - **Derni:** Oh, they all have their headquarters in the city.
+      - **Dernu:** First floor of the palace.
+      - **Derni:** No need to give him/her directions.
+    - **Miodvetnir:** We haul all our goods to the city by ship, you see.
+    - **Dernu:** Since the mine carts don't come here.
+    - **Derni:** But because the river goes right to the city, this is just as easy.
+  - [Choice]: cond=During Between a Rock...|Can you help me with this rock?
+    - **Player:** Can you help me with this rock down in the mines?
+    - **Player:** It seems to be unbreakable. I need to know why.
+    - **Miodvetnir:** Say, is that Dondakan's rock?
+    - **Dernu:** That big unbreakable rock?
+    - **Derni:** That's what [he/she] said, isn't? Pay more attention!
+    - **Player:** Yes, yes, that's the one.
+    - **Miodvetnir:** Oh, you're not going to get through there I'm afraid.
+    - **Dernu:** It's unbreakable, you see.
+    - **Derni:** Dondakan's been there for...
+    - **Derni:** How long would you say he's been there, Miotvednir?
+    - **Miodvetnir:** Eighteen years, Derni, and not a year shorter!
+    - **Dernu:** That's some dedication!
+    - **Derni:** But look at what it got him.
+    - **Dernu:** Nothing, that's what.
+    - **Player:** Never mind.
+    - (initial)
+  - [Choice]: cond=During Between a Rock...|What material would break that rock?
+    - **Player:** What material would break that rock? You know, the impenetrable one?
+    - **Miodvetnir:** Well... have you tried a rune pickaxe?
+    - **Derni:** An adamantite tool?
+    - **Dernu:** What about a bronze pickaxe?
+    - **Miodvetnir:** A bronze pickaxe??
+    - **Derni:** What good would that do?
+    - **Dernu:** Well, you never know...
+    - **Derni:** Don't you think that's the first thing they tried?
+    - **Dernu:** Hey, it was just a suggestion!
+    - **Player:** Never mind.
+    - (initial)
+  - [Choice]: cond=During Between a Rock...|Do you know anyone named Rolad?
+    - **Player:** Do you know anyone named Rolad? Some kind of a dwarven scholar?
+    - **Miodvetnir:** Sorry, doesn't ring a bell.
+    - **Dernu:** Oh yes, I know Rolad!
+    - **Derni:** Oh, stop winding up the human, Dernu!
+    - **Player:** Do you know where he is right now?
+    - **Dernu:** No idea, why?
+    - **Player:** Never mind.
+    - (initial)
+  - [Choice]: cond=During Between a Rock...|Dondakan wants to shoot me out of a cannon!
+    - **Player:** Dondakan wants to shoot me out of a cannon!
+    - **Miodvetnir:** Oh dear!
+    - **Dernu:** How awful!
+    - **Derni:** That's terrible!
+    - **Player:** He thinks I'm actually going to fly through it and land on the other side.
+    - **Derni:** That sounds a bit daft.
+    - **Miodvetnir:** How would that work?
+    - **Dernu:** I think you're going to hurt your head.
+    - **Derni:** Old Dondakan might have finally lost it.
+    - **Miodvetnir:** He was always obsessed with that rock.
+    - **Dernu:** And gold.
+    - **Derni:** Right, and gold.
+    - **Player:** Never mind.
+    - (initial)
+  - [Choice]: cond=During Between a Rock...|Any tips on how to defeat an evil demon?
+    - **Player:** Any tips on how to defeat an evil demon?
+    - **Miodvetnir:** An evil demon, you say?
+    - **Dernu:** I'd run away if I ever ran into an evil demon.
+    - **Derni:** Don't be such a coward, Dernu!
+    - **Dernu:** Well, what would you do then?
+    - **Derni:** I don't know, I've never encountered an evil demon.
+    - **Miodvetnir:** I once met a good demon though.
+    - **Dernu:** Oh yes, what did he say?
+    - **Miodvetnir:** He gave me a puzzle box and then went off again.
+    - **Derni:** I think you must have had too much dwarven stout in you.
+    - **Miodvetnir:** Could be, could be, but there's no telling, is there?
+    - **Player:** Never mind.
+    - (initial)
+  - [Choice]: cond=First time after Between a Rock...|I defeated the spirit of the rock! {{anchor|a01}}
+    - **Player:** I defeated the spirit of the rock!
+    - **Miodvetnir:** That's amazing!
+    - **Derni:** That's fantastic!
+    - **Dernu:** What rock was that again?
+    - **Derni:** Pay attention for once, Dernu! It's Dondakan's rock!
+    - **Miodvetnir:** That's quite impressive, Player. How did you manage to do that?
+    - **Player:** Well, you see, I just-
+    - **Derni:** What kind of question is that to ask? With his/her great might of course!
+    - **Dernu:** Or vast magical skills!
+    - **Miodvetnir:** No, you're more a ranger, aren't you Player?
+    - **Player:** Actually, I-
+    - **Derni:** Anyway, this calls for a celebration.
+    - **Dernu:** Oh yes, we should go down into Keldagrim to celebrate.
+    - **Miodvetnir:** Tonight, of course, not now. We're on duty now.
+    - **Derni:** Right... and I'm sure traffic here will pick up soon with that rock broken.
+    - **Miodvetnir:** I heard there's vast amount of gold inside!
+    - **Dernu:** The company is going to be rich!
+    - **Derni:** Now don't you go and discuss company business in front of this human, Dernu.
+    - **Miodvetnir:** Right. Let's get back to work.
+    - **Dernu:** Anything else you wanted, Player?
+    - **Player:** Never mind.
+    - (initial)
+  - [Choice]: cond=During The Giant Dwarf:|I need some help with this statue...
+    - **Player:** I need some help with this statue... King Alvis' statue, to be precise.
+    - **Dernu:** Oh yes, what's the problem then?
+    - **Derni:** It was knocked down, remember? Parts of it nearly landed on our heads?
+    - **Miodvetnir:** A terrible noise it made too!
+    - (Condition: Before helping Blasidar:)
+      - **Player:** Never mind.
+    - (Condition: While helping Blasidar:)
+      - **Player:** This sculptor has got me looking for a lot of items, you see.
+      - **Dernu:** Items eh?
+      - **Derni:** We love items.
+      - **Miodvetnir:** Can't get enough of them.
+      - **Player:** Well, can you he-
+      - **Dernu:** I got this puzzle box once, you know.
+      - **Derni:** Oh, not that story again.
+      - **Miodvetnir:** You have told that story before, Dernu.
+      - **Dernu:** Well forget about it then. I'll shut up if you don't want to hear about it.
+      - **Player:** Never mind.
+    - (Condition: After helping Blasidar:)
+      - **Player:** Well, the sculptor only needs to build the head now. But I need to get the Consortium to help me with that.
+      - **Miodvetnir:** The Consortium, you say?
+      - **Dernu:** You're going to talk to the Consortium?
+      - **Derni:** My, you're certainly moving up in the dwarven world, aren't you?
+      - **Miodvetnir:** What do you need us for then?
+      - **Dernu:** We are but simple dwarves.
+      - **Derni:** Especially you, Dernu.
+      - **Miodvetnir:** Now now, Derni, there was no need for that.
+      - **Player:** Never mind.
+    - (initial)
+  - [Choice]: cond=First time after The Giant Dwarf and after Between A Rock... dialogue:|I have rebuilt the statue for the [company name]! {{anchor|a02}}
+    - **Player:** I have rebuilt the statue for the [company name]!
+    - **Dernu:** What, really?
+    - **Derni:** Of course, really! Player wouldn't have said it otherwise, would [he/she]?
+    - **Miodvetnir:** And didn't you see Blasidar working on the statue?
+    - **Dernu:** Oh yes, he was out there for quite a while.
+    - **Derni:** That must have been a huge task.
+    - **Dernu:** Nothing's too difficult for old Blasidar.
+    - **Miodvetnir:** He truly is a master builder.
+    - **Derni:** We can all take an example to his hard work and dedication.
+    - **Dernu:** Speaking of, shouldn't we get back to work ourselves?
+    - **Miodvetnir:** Quite right. Anything else you wanted, Player?
+    - **Player:** Never mind.
+    - (initial)
+  - [Choice]: cond=During Forgettable Tale of a Drunken Dwarf:|Do you know about this drunken dwarf...?
+    - **Player:** Do you know about this drunken dwarf...?
+    - **Miodvetnir:** Drunken dwarf?
+    - **Dernu:** Yeah, we know a drunken dwarf!
+    - **Derni:** In fact we know plenty!
+    - **Dernu:** There's this one really annoying dwarf though, he sometimes throws rocks at me for no reason.
+    - **Player:** Yeah, tell me about it.
+    - **Player:** The one I mean is his relative, living in the northeast of Keldagrim. I wonder if you could help me with him.
+    - **Miodvetnir:** Ah yes, him.
+    - **Derni:** Such a sad case, poor fellow.
+    - **Dernu:** Who is he?
+    - **Derni:** Don't you know anything?
+    - **Miodvetnir:** Now now, there's no reason to get angry.
+    - **Derni:** I suppose you're right. Well, he's a drunk dwarf that talks about kebabs a lot.
+    - **Miodvetnir:** Has some pretty odd tales to tell too.
+    - **Dernu:** And I understand he's the relative of that dwarf I mentioned earlier.
+    - **Derni:** I hope that helped, Player?
+    - **Player:** Never mind.
+    - (initial)
+  - [Choice]: cond=First time after Forgettable Tale of a Drunken Dwarf and after The Giant Dwarf dialogue:|I have this unforgettable tale to tell you! {{anchor|a03}}
+    - **Player:** I have this unforgettable tale to tell you!
+    - **Miodvetnir:** A tale!
+    - **Dernu:** We love tales!
+    - **Derni:** We live for tales!
+    - **Dernu:** Like, there was this one time when I lost my spanner in the mines...
+    - **Derni:** Player wants to tell a tale!
+    - **Dernu:** But my spanner... it's a very interesting tale you know.
+    - **Miodvetnir:** I think we've heard it before.
+    - **Derni:** It was pretty forgettable.
+    - **Player:** Excuse me, do you want to hear my tale or not?
+    - **Miodvetnir:** Happy to.
+    - **Derni:** Would love to hear it.
+    - **Dernu:** As long as it's better than my spanner story.
+    - **Miodvetnir:** So, what's your tale like?
+    - **Player:** Ah, I errrr...
+    - **Player:** I seem to have forgotten.
+    - **Derni:** Must have been pretty forgettable as well then.
+    - (Condition: Before Birthright of the Dwarves:)
+      - **Player:** Never mind.
+    - (Condition: After Birthright of the Dwarves:)
+      - **Player:** No, wait, I do remember! I had my memory restored! I went across a chasm that was filled with complex mine-cart tracks for no good reason, then I found a Red Axe base...
+      - **Miodvetnir:** Oh, that old story?
+      - **Derni:** That's old news. The Red Axe is gone now!
+      - **Dernu:** Wouldn't you rather hear about my spanner?
+      - **Miodvetnir:** No!
+    - (initial)
+  - [Choice]: cond=First time after Forgiveness of a Chaos Dwarf and after Forgettable Tale of a Drunken Dwarf dialogue:|I have another tale to tell you! {{anchor|a04}}
+    - **Player:** I have another tale to tell you!
+    - **Miodvetnir:** A tale!
+    - **Dernu:** We love tales!
+    - **Derni:** We live for tales!
+    - **Dernu:** Like, there was this one time when I had to fight a dragon...
+    - **Miodvetnir:** Tell us your tale, Player!
+    - **Derni:** What, you fought a what?
+    - **Dernu:** A dragon! It was pink! A pink dragon!
+    - **Derni:** There's no such thing as pink dragons, you idiot!
+    - **Miodvetnir:** Maybe it was a cross between a red dragon and a steel dragon...
+    - **Dernu:** I don't know, I just know it was pink!
+    - **Miodvetnir:** Or maybe it was an albino red dragon, or one that had been out of the sun for too long.
+    - **Derni:** Well, I still don't believe you. I think you're making it up.
+    - **Miodvetnir:** At least you had something to say. Player hasn't even told us a tale yet.
+    - **Player:** If you let me...
+    - **Dernu:** Never mind, Player. Is there anything else you want to talk about?
+    - (initial)
+  - [Choice]: cond=First time after King of the Dwarves and after Forgiveness of a Chaos Dwarf dialogue:|What do you think of King Veldaban? {{anchor|a05}}
+    - **Player:** What do you think of King Veldaban?
+    - **Miodvetnir:** The king!
+    - **Dernu:** The king of Keldagrim!
+    - **Derni:** Long live the king!
+    - **Dernu:** Wait, Veldaban is king? When did that happen?
+    - **Derni:** Keldagrim doesn't have a king! Silly hummon! It has a Consortium!
+    - **Miodvetnir:** A Conglomerate!
+    - **Derni:** A Corporation!
+    - **Dernu:** A Cartel!
+    - **Player:** No, Veldaban is king now. It happened when...
+    - **Derni:** If someone became king, I think we would have been told about it!
+    - **Miodvetnir:** We hear everything that goes on!
+    - **Derni:** We have our finger on the pulse of Keldagrim!
+    - **Dernu:** Actually, didn't a messenger come around here and say something...
+    - **Derni:** I think so, but I don't remember what she said.
+    - **Miodvetnir:** I don't think she delivered her message properly!
+    - **Player:** Maybe if you'd let her finish, then...
+    - **Derni:** No, it can't have been important, or she'd have made sure to finish her message.
+    - **Miodvetnir:** You're right! No one would forget to tell us!
+    - **Dernu:** That's right! We're the most popular brothers in Keldagrim!
+    - **Derni:** It must be because we're such good listeners!
+    - **Dernu:** So there's no king. I'm glad we could clear up your confusion, human!
+    - **Miodvetnir:** Is there anything else we can help you with?
+    - (initial)
+  - [Choice]: cond=First time after Birthright of the Dwarves and after King of the Dwarves dialogue:|I have one final tale to tell you! {{anchor|a06}}
+    - **Player:** I have one final tale to tell you!
+    - **Miodvetnir:** Oh, we already know that tale!
+    - **Dernu:** The tale of the Birthright of the Dwarves!
+    - **Derni:** The final downfall of the Red Axe!
+    - **Dernu:** It was such a pity that Veldaban died.
+    - **Miodvetnir:** He didn't die, you idiot! Player saved him!
+    - **Player:** Actually...
+    - **Dernu:** Anyway, I'm glad the Consortium is in power again now.
+    - **Derni:** The Consortium is in power? I thought someone else became king. King...what's his name?
+    - **Miodvetnir:** You're both wrong! Veldaban is still king!
+    - **Player:** If you let me get a word in edgeways I could tell you...
+    - **Derni:** Anyway, I'm glad you let Luitger go, I knew he couldn't be a Red Axe spy.
+    - **Player:** Luitger wasn't even a suspect! It was Klaas, and I...
+    - **Miodvetnir:** It's no good, human. We'll have to sort out this disagreement before you can tell us your story.
+    - (initial)
+  - [Choice]: cond=After telling all tales:|I want to tell you a tale again...{{clarify|Does this appear if one of the stories hasn't been told due the quest not being completed? How about the follow-up options then?}}
+    - [Menu]: Choose an option:
+      - [Choice]: (Between a Rock...)
+        - (above|a01)
+      - [Choice]: (The Giant Dwarf)
+        - (above|a02)
+      - [Choice]: (Forgettable Tale of a Drunken Dwarf)
+        - (above|a03)
+      - [Choice]: (More...)
+        - [Menu]: Choose an option:
+          - [Choice]: (Forgiveness of a Chaos Dwarf)
+            - (above|a04)
+          - [Choice]: (King of the Dwarves)
+            - (above|a05)
+          - [Choice]: (Birthright of the Dwarves)
+            - (above|a06)
+          - [Choice]: (Back...)
+            - (previous)
+          - [Choice]: (Cancel)
+            - (initial)
+      - [Choice]: (Cancel)
+        - (initial)
+  - [Choice]: I must be off now.
+    - **Player:** I must be off now, thanks for the chat.
+    - **Miodvetnir:** No problem!
+    - **Dernu:** Glad to be of service!
+    - **Derni:** Come back any time!

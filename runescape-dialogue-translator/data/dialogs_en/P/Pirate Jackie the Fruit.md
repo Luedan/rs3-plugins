@@ -1,0 +1,111 @@
+# Pirate Jackie the Fruit
+
+- **Original Wiki Page**: [Transcript:Pirate Jackie the Fruit](https://runescape.wiki/w/Transcript%3APirate%20Jackie%20the%20Fruit)
+- **Letter**: `P`
+
+---
+
+## Dialogue Transcript
+
+
+### In Brimhaven
+
+- **Player:** Ahoy there!
+- **Pirate Jackie the Fruit:** Ahoy!
+- [Menu]: Select an Option
+  - [Choice]: About the Task System...
+    - (Condition: If the player has completed the easy Karamja achievements, but not yet claimed the rewards:)
+      - **Player:** I've done all the Easy Tasks in the Karamja set.
+      - **Pirate Jackie the Fruit:** Arr, ye have that, I see yer list. I s'pose ye'll be wantin' yer reward then!
+      - **Player:** Yes, please.
+      - **Pirate Jackie the Fruit:** These 'ere Karamja gloves be a symbol of yer explorin' on the island. I'll 'ave a word with the seafarin' folk who sail to Port Sarim and Ardougne; they should take ye on board fer half price, if yer wearin' 'em. Dell Monti might think ye
+      - **Pirate Jackie the Fruit:** worthy o' his pineapples, if ye show 'em to 'im. Arrr, you can take this lamp I found washed ashore too.
+      - (receives=Karamja gloves 1 and an antique lamp)
+      - **Player:** Wow, thanks!
+      - (continue)
+    - (Condition: If the player has lost their Karamja gloves 1:)
+      - **Pirate Jackie the Fruit:** Hrm, I seem ta remem'r ya... Didn't I already give you Karamja gloves?
+      - **Player:** Yes, but I lost them.
+      - **Pirate Jackie the Fruit:** Arr, I thought as much. 'Ere, 'ave another pair, matey.
+      - (receives=Karamja gloves 1)
+      - (continue)
+    - [Menu]: Choose an option:
+      - [Choice]: Tell me about the Achievement System.{{anchor|achievements}}
+        - **Pirate Jackie the Fruit:** Arr! The Achievement System be a load o' challenges ta do while adventuring 'round the world.
+        - **Pirate Jackie the Fruit:** Ye can earn plunder for completin' certain achievements - either booty or pieces o' eight - which ye can get from Explorer Jack in Lumbridge.
+        - **Pirate Jackie the Fruit:** Most o' them, if ye do enough in an area, gets ye a powerful item which can be claimed from someone in the area, such as meself.
+        - [Menu]: Choose an option:
+          - [Choice]: Tell me about the set reward for this locality.
+            - **Player:** Tell me about the set reward for this area.
+            - **Pirate Jackie the Fruit:** Here in Karamja we offers a pair of gloves when ye finishes a set o' Tasks. The more ye does, the more power we can add to 'em! They've got nifty uses, which ye'll find out in the using o' them.
+            - You may also see what rewards a set item provides by hovering over the Rewards icon for its Exploration Achievement set in the Achievements interface.
+            - (previous)
+          - [Choice]: How do I claim these rewards?
+            - **Player:** How do I claim the rewards?
+            - **Pirate Jackie the Fruit:** You need to complete all of the tasks in a set a particular difficulty, then you can claim your reward.
+            - **Pirate Jackie the Fruit:** Some of the Karamja set's tasks are simple, some will require certain skill levels, and some might require quests to be started or completed.
+            - **Pirate Jackie the Fruit:** Ta claim yer Karamja set rewards, have a chinwag with yer 'umble servant here, or ol' Kaleb down in Shilo Village, or a jungle forester down on the border with Kharazi.
+            - (previous)
+          - [Choice]: Sorry, I was just leaving.
+            - (end)
+      - [Choice]: Could I buy a spare of the reward?
+        - [Menu]: Choose an option:
+          - [Choice]: Karamja gloves 1
+            - **Pirate Jackie the Fruit:** Karamja gloves 1? Yes, but I'm afraid it would cost you 1,500 coins.
+            - [Menu]: Purchase another for 1,500 coins?
+              - [Choice]: Yes
+                - (receives=Karamja gloves 1) (removes=1,500 coins)
+                - [You're handed another Karamja gloves 1.]
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Karamja gloves 2
+            - **Pirate Jackie the Fruit:** Karamja gloves 2? Yes, but I'm afraid it would cost you 2,500 coins.
+            - [Menu]: Purchase another for 2,500 coins?
+              - [Choice]: Yes
+                - (receives=Karamja gloves 2) (removes=2,500 coins)
+                - [You're handed another Karamja gloves 2.]
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Karamja gloves 3
+            - **Pirate Jackie the Fruit:** Karamja gloves 3? Yes, but I'm afraid it would cost you 7,500 coins.
+            - [Menu]: Purchase another for 7,500 coins?
+              - [Choice]: Yes
+                - (receives=Karamja gloves 3) (removes=7,500 coins)
+                - [You're handed another Karamja gloves 3.]
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Karamja gloves 4
+            - **Pirate Jackie the Fruit:** Karamja gloves 4? Yes, but I'm afraid it would cost you 15,000 coins.
+            - [Menu]: Purchase another for 15,000 coins?
+              - [Choice]: Yes
+                - (receives=Karamja gloves 4) (removes=15,000 coins)
+                - [You're handed another Karamja gloves 4.]
+              - [Choice]: No
+                - **Player:** No thanks.
+      - [Choice]: Sorry, I was just leaving.
+        - (end)
+  - [Choice]: What do you do?
+    - **Player:** What do you do?
+    - **Pirate Jackie the Fruit:** I be the Jack o' Tickets. I exchange the tickets ye collect in the Agility Arena for more stuff. Ye can obtain more agility experience or some items ye won't find anywhere else!
+    - **Player:** Sounds good!
+    - (initial|jackie-options)
+  - [Choice]: I'd like to trade in my tickets, please.
+    - **Player:** I'd like to trade in my tickets, please.
+    - **Pirate Jackie the Fruit:** Aye, ye be on the right tack.
+    - (opens=Agility Arena Ticket Exchange)
+  - [Choice]: Ask about something else.
+    - [Menu]: Select an Option
+      - [Choice]: What potions do these new herbs make?
+        - **Player:** What potions do these new herbs make?
+        - **Pirate Jackie the Fruit:** I be no herbalist but I were given the recipes to go with these herbs: Toadflax + Toad legs = Agility potion Snapdragon + Red spider's eggs = Super restore potion.
+        - **Player:** Thanks!
+        - (initial|jackie-options)
+      - [Choice]: What is this place?
+        - **Player:** What is this place?
+        - **Pirate Jackie the Fruit:** Welcome to the Brimhaven Agility Arena!
+        - **Pirate Jackie the Fruit:** If ye want to know more talk to Cap'n Izzy, he found it!
+        - (initial|jackie-options)
+      - [Choice]: See you later.
+        - **Player:** See you later.
+  - [Choice]: See you later.
+    - **Player:** See you later.

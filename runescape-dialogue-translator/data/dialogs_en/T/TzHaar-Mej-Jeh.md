@@ -1,0 +1,75 @@
+# TzHaar-Mej-Jeh
+
+- **Original Wiki Page**: [Transcript:TzHaar-Mej-Jeh](https://runescape.wiki/w/Transcript%3ATzHaar-Mej-Jeh)
+- **Letter**: `T`
+
+---
+
+## Dialogue Transcript
+
+{{Incomplete| Missing little bits of dialogue, and the dialogue is most likely different based on completion of TzHaar quests; dialogue when reclaiming Antique lamp (The Elder Kiln)}}
+- **TzHaar-Mej-Jeh:** Thank you. You are TzHaar now. You are great champion.
+  - Are you concerned about the TokHaar?
+    - **TzHaar-Mej-Jeh:** We...underestimated the TokHaar. I still do not understand why they sought to destroy us.
+    - **Player:** Are you concerned that the TokHaar might invade TzHaar City?
+    - **TzHaar-Mej-Jeh:** No. You demonstrated the strength of your protection, and the TokHaar seem satisfied. If the TokHaar wanted to leave the Kiln, they would have done so long ago. The TokHaar are old TzHaar, and we like to keep to ourselves. We battle for honour and to hone our skills, not to destroy and conquer. It is important that you uphold your agreement. Do battle with the TokHaar, and occupy their attention.
+  - Tell me about the Fight Cauldron.
+    - **TzHaar-Mej-Jeh:** The crucible of lava where you fought TokHaar-Hok...we have named it Fight Cauldron. The TokHaar are eager to do battle with you there. The TokKul-Zo ring I gave you can now teleport you to the entrance to the tunnel where you pursued Ga'al-Xox. You may come and go as you please. Many TzHaar warriors have already proved their worth in the Fight Cauldron.
+    - **Player:** When I fought the TokHaar, they left behind shards of obsidian. What use are they?
+    - **TzHaar-Mej-Jeh:** We TzHaar forge weapons from TokTz, or 'obsidian' as you call it, for it can be honed to a very sharp, yet brittle edge. TokTz conducts the enchantments we place upon our equipment - that is why the protective magic of the TokHaar-Kal cape is so effective.
+    - **Player:** Could I use the shards to smith a suit of obsidian armour?
+    - **TzHaar-Mej-Jeh:** TokTz is dark volcanic glass, highly brittle and sharp. It chips easily and is extremely fragile. You would encase yourself in a heavy, jagged suit of obsidian. For what purpose?
+      - It would look amazing!
+        - **TzHaar-Mej-Jeh:** You make a compelling argument, JalYt. I suppose that obsidian plates could be prepared and enchanted to protect your soft and fragile flesh. The armour would degrade with each blow, however. It would not be long before you had to forge new armour to replace it. TzHaar have no need of armour. Our bodies are stone and our blood magma. The TzHaar-Hur have no experience with crafting armour. You would have to be a master of the forge to achieve such a unique feat, but it is possible.
+        - *(continues below)*
+      - Superior defence. I can handle a few scratches.
+        - **TzHaar-Mej-Jeh:** No doubt. Your skill in battle is without question. I suppose that obsidian plates could be prepared and enchanted to protect your soft and fragile flesh. The armour would degrade with each blow, however. It would not be long before you had to forge new armour to replace it. TzHaar have no need of armour. Our bodies are stone and our blood magma. The TzHaar-Hur have no experience with crafting armour. You would have to be a master of the forge to achieve such a unique feat, but it is possible.
+      - It would be very effective against similar opponents.
+        - **TzHaar-Mej-Jeh:** True...you will need to weave spells of protection into the TokTz during the forging process, but the armour would be extremely effective against TzHaar, TokHaar and other creatures of similar composition. The defensive enchantment will not be triggered by other targets, however. TzHaar have no need of armour. Our bodies are stone and our blood magma. The TzHaar-Hur have no experience with crafting armour. You would have to be a master of the forge to achieve such a unique feat, but it is possible.
+        - *(continues below)*
+  - About this ring...
+    - **TzHaar-Mej-Jeh:** You want to know more about TokKul-Zo?
+      - What does it do?
+        - **TzHaar-Mej-Jeh:** This ring has a piece of TokKul in it. When worn, it will guide your hand and make you better when fighting TzHaar, fire creatures and maybe even TokHaar.
+        - **Player:** How does it do that?
+        - **TzHaar-Mej-Jeh:** My magic taps into the memories in the ring, so you better at fighting like a TzHaar. The magic will fade after time. When this happens, return to me and I will recharge it for you...for a price.
+        - **Player:** What's your price?
+        - **TzHaar-Mej-Jeh:** 50,000 TokKul for a full recharge. Normally I would do it for free, but we need all the TokKul we can get, so that we can melt it down in the sacred lava, and release our ancestors from their suffering.
+          - I feel bad about using TokKul as currency now.
+            - **TzHaar-Mej-Jeh:** Why do you feel bad?
+            - **Player:** Well, now that I know the TzHaar trapped in TokKul are in pain, it doesn't feel right.
+            - **TzHaar-Mej-Jeh:** Spending TokKul in shops means we have more TokKul to release into the sacred lava. We will break down your TokKul, and the souls of our ancestors shall be at peace.
+          - Okay.
+            - *(returns to previous options)*
+      - Can you recharge it?
+        - *If your TokKul-Zo is fully charged*
+          - **TzHaar-Mej-Jeh:** This ring is already fully charged. Don't waste your TokKul on it.
+      - Let's talk about something else.
+        - *(returns to previous options)*
+      - I have to be going.
+        - *(dialogue terminates)*
+  - **TzHaar-Mej-Jeh:**You have all Tokhaar-Kal with you. Are you looking for reward?
+    - What's on offer?
+      - *You can trade in the Tokhaar-Kal-Ket, Tokhaar-Kal-Xil and Tokhaar-Kal-Mej to receive a cosmetic override cape.* **This will destroy all three of your cape items and is irreversible.**
+      - Give up all three capes for a cosmetic override cape?
+        - Yes, destroy all three capes.
+          - *You have unlocked the Enhanced Fire Cape cosmetic override.*
+          - *(dialogue terminates)*
+        - No, don't destroy my capes!
+          - *(dialogue terminates)*
+    - No, talk about something else.
+      - *(returns to previous options)*
+  - I'd like to talk about titles.
+    - *Claim Yt'Haar title.*
+      - **TzHaar-Mej-Jeh:**You shall now be known as 'Yt'Haar' wherever you go.
+      - *(returns to previous options)*
+    - *Claim TzHaar title.*
+      - **TzHaar-Mej-Jeh:**You shall now be known as 'TzHaar' wherever you go.
+      - *(returns to previous options)*
+    - *Clear current title.*
+      - **TzHaar-Mej-Jeh:**Your title has been removed.
+      - *(returns to previous options)*
+    - *Leave.*
+      - *(returns to previous options)*
+  - Goodbye.
+    - *(dialogue terminates)*

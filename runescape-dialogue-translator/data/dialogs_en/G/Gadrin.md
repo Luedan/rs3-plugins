@@ -1,0 +1,134 @@
+# Gadrin
+
+- **Original Wiki Page**: [Transcript:Gadrin](https://runescape.wiki/w/Transcript%3AGadrin)
+- **Letter**: `G`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Gadrin:** Welcome to the Mining Guild. Can I help you with anything?
+- [Menu]: What would you like to say?
+  - [Choice]: What have you got in the guild?
+    - **Player:** What have you got in the guild?
+    - **Gadrin:** Ooh, it's WONDERFUL! There are orichalcite, runite and coal rocks, all exclusively for people with at least level 60 Mining.
+    - *(If the player has not achieved 60 Mining:)*
+      - **Player:** So you won't let me go in there?
+      - **Gadrin:** Sorry, but rules are rules. Go do some more training first. Can I help you with anything else?
+    - *(If the player has achieved 60 Mining:)*
+      - **Player:** It's a good thing I have level [number] Mining.
+      - **Gadrin:** Yes, that's amazing! Did you want anything else?
+      - (initial)
+  - [Choice]: What do you dwarves do with the ore you mine?
+    - **Player:** What do you dwarves do with the ore you mine?
+    - **Gadrin:** What do you think? We smelt it into bars, smith the metal to make armour and weapons, then we exchange them for goods and services.
+    - **Player:** I don't see many dwarves selling armour or weapons here.
+    - **Gadrin:** No, this is only a mining outpost. We dwarves don't much like to settle in human cities. Most of the ore is carted off to Keldagrim, the great dwarven city. They've got a special blast furnace up there - it makes smelting the ore
+    - **Gadrin:** so much easier. There are plenty of dwarven traders working in Keldagrim. Anyway, can I help you with anything else?
+    - (initial)
+  - [Choice]: Can you tell me about your skillcape?
+    - **Player:** Can you tell me about your skillcape?
+    - **Gadrin:** Sure, this is a Skillcape of Mining. It shows my stature as a master miner! It has all sorts of uses including a skill boost to my Mining skill. When you get to level 99 come and talk to me and I'll sell you one. Is there anything else I can help you with?
+    - (initial)
+  - [Choice]: cond=If the player has 99 Mining|Can I buy a Skillcape of Mining from you?
+    - (Condition: If the player has a ring of charos (a) equipped:)
+      - **Gadrin:** I don't do this for anyone, but I've got a special offer today! Normally I require 99,000 coins for this prestigious item, but for you it's half price. Only 92,000 coins!
+      - [Menu]: Choose an option:
+        - [Choice]: 92,000 coins? That's much too expensive.
+          - **Player:** I know where to find you if I change my mind.
+        - [Choice]: I think I have the money right here, actually.
+          - (Condition: If the player has no backpack space:)
+            - **Gadrin:** Unfortunately all skillcapes are only available with a free hood, it's part of a skill promotion deal; buy one get one free, you know. So, you'll need to free up some backpack space before I can sell you one.
+          - (Condition: If the player does not have enough money:)
+            - **Player:** But unfortunately, I was mistaken.
+            - **Gadrin:** Well, come back and see me when you do.
+          - (Condition: If the player has enough money:)
+            - (receives=Mining cape and Mining hood) (removes=92,000 coins)
+            - **Gadrin:** Excellent! Wear that cape with pride my friend.
+        - [Choice]: cond=If the player has 120 Mining|I've mastered this skill. Is there anything else?
+          - **Gadrin:** There is something...though I have kept it a secret for a very long time. It is something that can only be worn by a true master.
+          - **Gadrin:** Not even I can wear it - that's how hard it is to achieve.
+          - **Gadrin:** You say you're a master. Stand straight, let me take a look at you...
+          - **Gadrin:** You...really have mastered it. What an honour! It would be my pleasure to sell you a Mining master cape.
+          - [Menu]: Buy Mining master cape for 120,000 coins?
+            - [Choice]: Yes.
+              - (Condition: Without free backpack space:)
+                - **Gadrin:** You do not have enough room in your backpack. Please come back when you have some more.
+              - (Condition: With free backpack space:)
+                - (Condition: Without 120,000 coins:)
+                  - You do not have enough money to purchase this cape.
+                  - (pop-up)
+                    - {{Pop-up|You do not have enough money to purchase this cape.}}
+                - (Condition: With 120,000 coins:)
+                  - (removes=120,000 coins) (receives=Mining master cape)
+                  - {{Qact|Master cape music plays.}}
+            - [Choice]: No.
+              - (end)
+    - (Condition: If the player does not have a ring of charos (a) equipped:)
+      - **Gadrin:** You believe right, miner. You have earned the right to wear one, but I'll need 99,000 coins from you first.
+        - (Condition: If the player has an inverted skillcape token or inverted master skillcape token in their inventory attuned to Mining:)
+          - **Gadrin:** I see you have one of Hans' cape inversion tokens! I'll take that off your hands, and will sell you any inverted cape you're eligible for.
+      - [Menu]: Choose an option:
+        - [Choice]: 99,000 coins? That's much too expensive.
+          - **Player:** I know where to find you if I change my mind.
+        - [Choice]: I think I have the money right here, actually.
+          - (Condition: If the player has no backpack space:)
+            - (above)
+          - (Condition: If the player does not have enough money:)
+            - (above)
+          - (Condition: If the player has enough money:)
+            - (receives=Mining cape and Mining hood) (removes=99,000 coins)
+            - **Gadrin:** Excellent! Wear that cape with pride my friend.
+        - [Choice]: cond=If the player has redeemed the inverted skillcape token|I'd like a skillcape with the colours inverted.
+          - (above)
+        - [Choice]: cond=If the player has 120 Mining|I've mastered this skill. Is there anything else?
+          - (above)
+        - [Choice]: cond=If the player has redeemed the inverted master skillcape token|I'd like a master cape with the colours inverted.
+          - (above)
+  - [Choice]: [More...]
+    - [Menu]: What would you like to say?
+      - [Choice]: cond=If the player has 99 Mining|I've noticed there are a couple of versions of each skillcape.
+        - **Gadrin:** Yes! We, the skill masters, have crafted new versions of all skillcapes! We felt like it was time for a change.
+        - (Condition: If the player is using the old model:)
+          - **Gadrin:** It looks like you're currently using the old model for your Mining skillcape. Would you like to change to the newer one?
+          - (continue)
+        - (Condition: If the player is using the new model:)
+          - **Gadrin:** You can still choose to wear the old model skillcape if you want. Would you like to change which model you are currently using?
+          - (continue)
+        - [Menu]: Select an Option
+          - [Choice]: Yes, I would like to wear the [new/old] version of the skillcape.
+            - **Gadrin:** Would you like to wear the [old/newer] model for just this cape, or for the Quest Cape and all of the skillcapes you own?
+            - [Menu]: Select an Option
+              - [Choice]: I would just like to change the Mining skillcape.
+                - **Gadrin:** No problem, you will now use the [older/newer] model for your Mining skillcape.
+              - [Choice]: I would like to change all my skillcapes.
+                - **Gadrin:** No problem, you will now use the [older/newer] model for all of your skillcapes!
+              - [Choice]: I've changed my mind!
+                - (end)
+          - [Choice]: No, thank you.
+            - **Gadrin:** Great! I'm glad you're still enjoying the [old/new] version!
+            - (Condition: If the player uses the new model for any other skillcape:)
+              - **Gadrin:** If you want, I can make it so you use the old model for all of the skillcapes you own.
+              - [Menu]: Select an Option
+                - [Choice]: Ok, I'd like to wear the old version for all my skillcapes.
+                  - **Gadrin:** Great, you will now use the old model for all of your skillcapes!
+                - [Choice]: No, thanks.
+                  - (end)
+      - [Choice]: Can you help me with the gemstone golem outfits?
+        - **Player:** Can you help me with the gemstone golem outfits?
+        - *(If the player can't receive gemstone golem fragments and hasn't unlocked the blueprint required to make the outfit pieces:)*
+          - **Gadrin:** At level 70 you can start to collect fragments to make elite skilling outfits. When you get to that level you will automatically start collecting fragments. Then you can use them with a blueprint to make yourself any remaining elite outfit pieces for this skill.
+        - *(If the player can receive gemstone golem fragments but hasn't unlocked the blueprint required to make the outfit pieces:) *
+          - **Gadrin:** You are set up to receive fragments. When you get to level 80 you will be able to create outfit pieces.
+        - *(If the player can receive gemstone golem fragments and has unlocked the blueprint required to make the outfit pieces:) *
+          - **Gadrin:** You are set up to receive fragments. When you have 3600 fragments you can use them to create an elite outfit piece. Simply go to an Invention workbench to create the pieces.
+        - *(If the player already owns the magic golem outfit, or all of the outfit pieces:)*
+          - **Gadrin:** You have already created all of the possible outfit pieces. I will make sure you do not receive any further fragments.
+          - **Gadrin:** You can combine the base outfit pieces to make the high tier versions, to get the additional benefits.
+      - [Choice]: No, thanks. I'm fine.
+        - (end)
+      - [Choice]: [More...]
+        - (initial)

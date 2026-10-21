@@ -1,0 +1,79 @@
+# Pirate
+
+- **Original Wiki Page**: [Transcript:Pirate](https://runescape.wiki/w/Transcript%3APirate)
+- **Letter**: `P`
+
+---
+
+## Dialogue Transcript
+
+- **Player:** Hello!
+- {{trandom}}
+  - [Choice]: Dialogue 1
+    - **Pirate:** 3 days at port for resupply then out on the high sea!
+  - [Choice]: Dialogue 2
+    - **Pirate:** A pox on ye!
+  - [Choice]: Dialogue 3
+    - **Pirate:** All hands on deck!
+  - [Choice]: Dialogue 4
+    - **Pirate:** Arrh!
+  - [Choice]: Dialogue 5
+    - **Pirate:** Arrh! I be in search of buried treasure!
+  - [Choice]: Dialogue 6
+    - **Pirate:** Arrh arrh!
+  - [Choice]: Dialogue 7
+    - **Pirate:** Arrh be off with ye!
+  - [Choice]: Dialogue 8
+    - **Pirate:** Arrh I'll keel haul ye!
+  - [Choice]: Dialogue 9
+    - **Pirate:** Arrh ye scurvy sea dog!
+  - [Choice]: Dialogue 10
+    - **Pirate:** Arrrh ye lily livered landlubber!
+  - [Choice]: Dialogue 11
+    - **Pirate:** Avast behind!
+    - **Player:** Who's got a vast behind?
+    - **Pirate:** Oh forget it.
+  - [Choice]: Dialogue 12
+    - **Pirate:** Avast me hearties!
+  - [Choice]: Dialogue 13
+    - **Pirate:** Avast! Avast!
+    - **Player:** A vast what?
+    - **Pirate:** Arrh, stow yer gab and leave me be.
+  - [Choice]: Dialogue 14
+    - **Pirate:** Batton down the hatches, there's a storm a brewin!
+  - [Choice]: Dialogue 15
+    - **Pirate:** Good day to you my dear sir!
+  - [Choice]: Dialogue 16
+    - **Pirate:** Great blackbeard's beard!
+  - [Choice]: Dialogue 17
+    - **Pirate:** I think ye'll be taking a long walk off a short plank!
+  - [Choice]: Dialogue 18
+    - **Pirate:** I'm the scourge of the seven seas!
+  - [Choice]: Dialogue 19
+    - **Pirate:** I'm the scourge of the six seas!
+    - **Player:** Don't you mean seven seas?
+    - **Pirate:** I'm the scourge of the seven seas!
+  - [Choice]: Dialogue 20
+    - **Pirate:** Keel haul them I say!
+  - [Choice]: Dialogue 21
+    - **Pirate:** Man overboard!
+  - [Choice]: Dialogue 22
+    - **Pirate:** Oooh arrh!
+    - **Pirate:** No wait. That's a farmer.
+  - [Choice]: Dialogue 23
+    - **Pirate:** Pieces of eight! pieces of eight!
+    - **Pirate:** Oh wait that's the parrot's line.
+  - [Choice]: Dialogue 24
+    - **Pirate:** Shiver me timbers!
+  - [Choice]: Dialogue 25
+    - **Pirate:** Splice the mainbrace!
+  - [Choice]: Dialogue 26
+    - **Pirate:** Yo ho ho and a bottle of rum!
+  - [Choice]: Dialogue 27
+    - **Pirate:** Yo ho ho and a cup of tea!
+  - [Choice]: Dialogue 28
+    - **Pirate:** Yo ho ho and bottle of alcopop!
+  - [Choice]: Dialogue 29
+    - **Pirate:** Yo ho ho me hearties!
+  - [Choice]: Dialogue 30
+    - **Pirate:** You'll be joining Davey Jones in his locker!

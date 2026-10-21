@@ -1,0 +1,152 @@
+# Scuffle
+
+- **Original Wiki Page**: [Transcript:Scuffle](https://runescape.wiki/w/Transcript%3AScuffle)
+- **Letter**: `S`
+
+---
+
+## Dialogue Transcript
+
+
+### Overhead dialogue
+
+- ((Random one of the following is seen once every 45 seconds:))
+  - **Scuffle:** {{RSChat|Come one, come all, and test your courage in the Maize Maze!}}
+  - **Scuffle:** {{RSChat|Defeat the powerful illusion in the Maize Maze and be greatly rewarded!}}
+  - **Scuffle:** {{RSChat|Move it and challenge the Maize Maze, you cowardly maggots!}}
+  - **Scuffle:** {{RSChat|You're not cut out to survive the terrifying Maize Maze. It will eat you alive and spit you out!}}
+
+### Talk to
+
+- **Scuffle:** You ready to take on the Maize Maze, then?
+- [Menu]: Select an Option
+  - [Choice]: What's the Maize Maze?
+    - **Player:** What's the Maize Maze?
+    - **Scuffle:** It's a little something War cooked up. You could call it a proving ground for new clan members, to check if they're up to snuff.
+    - **Scuffle:** We also use it to heighten our reflexes and steel our hearts against all fear.
+    - **Scuffle:** It's not actually made of maize by the way. Some crop blight wiped out most of it, so we had to rebuild the maze with hedges and brick walls.
+    - **Scuffle:** Name was too good to change, though.
+    - [Menu]: Select an Option|anchor=Maize-maze-options
+      - [Choice]: How does it work?
+        - **Player:** How does it work?
+        - **Scuffle:** When you go through this gate, we'll assign you a starting location.
+        - **Scuffle:** From there, all you have to do is make it to the centre and overcome the terrifying illusion that dwells there.
+        - **Scuffle:** Once you've done that, we'll pull you back out, job done. Easy.
+        - (previous|Maize-maze-options)
+      - [Choice]: What will I find in there?
+        - **Player:** What will I find in there?
+        - **Scuffle:** Well, first there's the roaming enemies that will spook you if they spot you.
+        - **Scuffle:** You can deal with them by spooking them back with the help of the local impling population.
+        - **Scuffle:** You can hunt zombie implings to get tools for spooking enemies up close.
+        - (Condition: Before 2026:)
+          - **Scuffle:** Ghost implings will give you materials that can upgrade your melee tools into ranged ones.
+          - (continue)
+        - (Condition: Since 2026:)
+          - **Scuffle:** Ghost implings will give you a spooking tool you can use at range.
+          - (continue)
+        - **Scuffle:** Then there's the walls. Sometimes, they will open up shortcuts that can get you to the centre more quickly if you use them right.
+        - **Scuffle:** And last but not least, there's the magical illusion at the maze's centre. It can take the shape of various different horrifying creatures.
+        - **Scuffle:** The statue over there always shows its current form, but it can change form even while you're fighting it!
+        - **Scuffle:** Either way, you'll get real spooked by its attacks, but with enough spooking of your own, you'll be able to defeat it no problem.
+        - (previous|Maize-maze-options)
+      - [Choice]: What's in it for me?
+        - **Player:** What's in it for me?
+        - **Scuffle:** If you manage to defeat the illusion at the centre of the maze, I'll give you some spooky tokens.
+        - **Scuffle:** You'll also get a themed bag of spoils. The stuff inside depends on the form the illusion took when you defeated it.
+        - (Condition: Before having completed Field of Screams:)
+          - **Scuffle:** If you join the clan, you can also get another team's uniform from those.
+          - [Complete the 'Field of Screams' quest to unlock the ability to receive 'The Horsemen's Uniform token' from spoils.]
+          - (continue)
+        - (Condition: Before 2026:)
+          - **Scuffle:** I'll give you three of those bags for your first successful run every day, two of 'em for your second and third runs, and one for every run after that. I'm nice like that.
+          - **Scuffle:** Of course, you'll also learn on the job from jumping over obstacles, hunting implings and fletching ranged spooking tools.
+          - (continue)
+        - (Condition: Since 2026:)
+          - **Scuffle:** I'll give you three of those bags for your first successful run every day, and two of 'em for your second and third runs. You'll also find triple and double loot entry tokens while skilling around Harvest Hollow.
+          - **Scuffle:** Of course, you'll also learn on the job from jumping over obstacles and hunting implings.
+          - (continue)
+        - (previous|Maize-maze-options)
+      - [Choice]: Do I need to bring anything?
+        - **Player:** Do I need to bring anything?
+        - **Scuffle:** Nope, you'll find everything you need in the maze.
+        - **Scuffle:** Just grab some implings on your way to the centre to gather the spooking tools that you'll need to overcome the illusion.
+        - (previous|Maize-maze-options)
+      - [Choice]: I'm good for now.
+        - **Player:** I'm good for now, thanks.
+        - **Scuffle:** I'll get you to go in there eventually!
+  - [Choice]: Show me the available rewards.
+    - (continue|Reward info)
+  - [Choice]: Maybe later.
+    - **Player:** Maybe later.
+    - **Scuffle:** That's what they all say!
+
+### Reward info
+
+- ((The following is shown in an interface titled "MAIZE MAZE REWARDS INFORMATION":))
+  - Open the spoils for loot, and for a chance at special, boss-specific prizes! Rewards shown are for the currently active boss.
+  - (Condition: With Phosphosseus active:)
+    - File:Basic Phosphosseous spoils.png Basic Phosphosseous spoils
+      - [Choice]: INFO
+        - ((The interface changes to one titled "BASIC PHOSPHOSSEOUS SPOILS" with the following content:))
+          - Contains {{Colour of the following rewards. Quantities shown are the {{Colour|#FFFFFF|maximum}} that can be obtained. {{Colour|#FFFFFF|Oddments}} only {{Colour|#FFFFFF|replace Spooky tokens}} at the Spooky token soft cap.|colour=#E3D7CF|bg=#322E28}}
+          - ((Rewards are listed.))
+            - [Choice]: BACK
+              - (above|Reward info)
+    - File:Impressive Phosphosseous spoils.png Impressive Phosphosseous spoils
+      - [Choice]: INFO
+        - ((The interface changes to one titled "IMPRESSIVE PHOSPHOSSEOUS SPOILS" with the following content:))
+          - Contains {{Colour of the following rewards. Quantities shown are the {{Colour|#FFFFFF|maximum}} that can be obtained. {{Colour|#FFFFFF|Oddments}} only {{Colour|#FFFFFF|replace Spooky tokens}} at the Spooky token soft cap.|colour=#E3D7CF|bg=#322E28}}
+          - ((Rewards are listed.))
+            - [Choice]: BACK
+              - (above|Reward info)
+    - File:Prestigious Phosphosseous spoils.png Prestigious Phosphosseous spoils
+      - [Choice]: INFO
+        - ((The interface changes to one titled "PRESTIGIOUS PHOSPHOSSEOUS SPOILS" with the following content:))
+          - Contains {{Colour of the following rewards.|colour=#E3D7CF|bg=#322E28}}
+          - ((Rewards are listed.))
+            - [Choice]: BACK
+              - (above|Reward info)
+  - (Condition: With Skaraxxi active:)
+    - File:Basic Skaraxxi spoils.png Basic Skaraxxi spoils
+      - [Choice]: INFO
+        - ((The interface changes to one titled "BASIC SKARAXXI SPOILS" with the following content:))
+          - Contains {{Colour of the following rewards. Quantities shown are the {{Colour|#FFFFFF|maximum}} that can be obtained. {{Colour|#FFFFFF|Oddments}} only {{Colour|#FFFFFF|replace Spooky tokens}} at the Spooky token soft cap.|colour=#E3D7CF|bg=#322E28}}
+          - ((Rewards are listed.))
+            - [Choice]: BACK
+              - (above|Reward info)
+    - File:Impressive Skaraxxi spoils.png Impressive Skaraxxi spoils
+      - [Choice]: INFO
+        - ((The interface changes to one titled "IMPRESSIVE SKARAXXI SPOILS" with the following content:))
+          - Contains {{Colour of the following rewards. Quantities shown are the {{Colour|#FFFFFF|maximum}} that can be obtained. {{Colour|#FFFFFF|Oddments}} only {{Colour|#FFFFFF|replace Spooky tokens}} at the Spooky token soft cap.|colour=#E3D7CF|bg=#322E28}}
+          - ((Rewards are listed.))
+            - [Choice]: BACK
+              - (above|Reward info)
+    - File:Prestigious Skaraxxi spoils.png Prestigious Skaraxxi spoils
+      - [Choice]: INFO
+        - ((The interface changes to one titled "PRESTIGIOUS SKARAXXI SPOILS" with the following content:))
+          - Contains {{Colour of the following rewards.|colour=#E3D7CF|bg=#322E28}}
+          - ((Rewards are listed.))
+            - [Choice]: BACK
+              - (above|Reward info)
+  - (Condition: With Solak-o'-lantern active:)
+    - File:Basic Solak-o'-lantern spoils.png Basic Solak-o'-lantern spoils
+      - [Choice]: INFO
+        - ((The interface changes to one titled "BASIC SOLAK-O'-LANTERN SPOILS" with the following content:))
+          - Contains {{Colour of the following rewards. Quantities shown are the {{Colour|#FFFFFF|maximum}} that can be obtained. {{Colour|#FFFFFF|Oddments}} only {{Colour|#FFFFFF|replace Spooky tokens}} at the Spooky token soft cap.|colour=#E3D7CF|bg=#322E28}}
+          - ((Rewards are listed.))
+            - [Choice]: BACK
+              - (above|Reward info)
+    - File:Impressive Solak-o'-lantern spoils.png Impressive Solak-o'-lantern spoils
+      - [Choice]: INFO
+        - ((The interface changes to one titled "IMPRESSIVE SOLAK-O'-LANTERN SPOILS" with the following content:))
+          - Contains {{Colour of the following rewards. Quantities shown are the {{Colour|#FFFFFF|maximum}} that can be obtained. {{Colour|#FFFFFF|Oddments}} only {{Colour|#FFFFFF|replace Spooky tokens}} at the Spooky token soft cap.|colour=#E3D7CF|bg=#322E28}}
+          - ((Rewards are listed.))
+            - [Choice]: BACK
+              - (above|Reward info)
+    - File:Prestigious Solak-o'-lantern spoils.png Prestigious Solak-o'-lantern spoils
+      - [Choice]: INFO
+        - ((The interface changes to one titled "PRESTIGIOUS SOLAK-O'-LANTERN SPOILS" with the following content:))
+          - Contains {{Colour of the following rewards.|colour=#E3D7CF|bg=#322E28}}
+          - ((Rewards are listed.))
+            - [Choice]: BACK
+              - (above|Reward info)

@@ -1,0 +1,359 @@
+# Hans
+
+- **Original Wiki Page**: [Transcript:Hans](https://runescape.wiki/w/Transcript%3AHans)
+- **Letter**: `H`
+
+---
+
+## Dialogue Transcript
+
+{{External|os=Hans/Dialogue|rsc=Hans/Dialogue}}
+
+### Standard dialogue
+
+- [Menu]: Choose an option:
+  - [Choice]: cond=Only during the 25th Anniversary celebrations event:|Talk about Anniversary event.
+    - [Menu]: Choose an option:|anchor=Anniversary-event
+      - [Choice]: cond=With enough shards for a token:|I want to redeem a cape inversion token!
+        - (Condition: Without a free backpack spaces and only either 990 inverted skillcape shards or 1,200 master inverted skillcape shards and having already turned in 990 inverted skillcape shards:)
+          - **Hans:** You need one free space in your backpack first.
+        - (Condition: Without two free backpack spaces and 990 inverted skillcape shards and 1,200 master inverted skillcape shards:)
+          - **Hans:** You need two free spaces in your backpack first.
+        - (Condition: If the player has 990 inverted skillcape shards:)
+          - (removes=990 inverted skillcape shards) (receives=inverted skillcape token)
+          - (continue)
+        - (Condition: If the player has 1,200 master inverted skillcape shards:)
+          - (removes=1,200 master inverted skillcape shards) (receives=inverted master skillcape token)
+          - (continue)
+        - **Hans:** Here you go!
+        - (Condition: If the player just obtained an Archaeology cape token:)
+          - **Hans:** Give this to Acting Guildmaster Lottie Reiniger, the Archaeology master at the Archaeology Guild, to unlock your new inverted cape.
+          - (continue)
+        - (Condition: If the player just obtained an Attack cape token:)
+          - **Hans:** Give this to Ajjat, the Attack master in the Warrior's Guild, to unlock your new inverted cape.
+          - (continue)
+        - (Condition: If the player just obtained a Dungeoneering cape token:)
+          - **Hans:** Give this to Thok, the Dungeoneering master in Daemonheim, to unlock your new inverted cape.
+          - (continue)
+        - (Condition: If the player just obtained a Herblore cape token:)
+          - **Hans:** Give this to Kaqemeex, the Herblore master in Taverley, to unlock your new inverted cape.
+          - (continue)
+        - (Condition: If the player just obtained a Necromancy master cape token:)
+          - **Hans:** Give this to the Spirit of Mastery, the Necromancy master in the City of Um, to unlock your new inverted cape.
+          - (continue)
+        - (Condition: If the player just obtained a Ranged cape token:)
+          - **Hans:** Give this to Aaron the armour salesman, the Ranged master in the Ranging Guild, to unlock your new inverted cape.
+          - (continue)
+        - (Condition: If the player just obtained a Slayer cape token:)
+          - **Hans:** Give this to Kuradal, the Slayer master in the Ancient Cavern, to unlock your new inverted cape.
+          - (continue)
+        - (Condition: If the player just obtained a Thieving cape token:)
+          - **Hans:** Give this to Martin Thwait, the Thieving master in the Rogues' Den, to unlock your new inverted cape.
+          - (continue)
+        - **Hans:** Congratulations!
+      - [Choice]: cond=After asking about inverted skillcapes:|I want to focus on an inverted skillcape.
+        - (opens=25th Anniversary celebrations)
+      - [Choice]: Can you tell me about inverted skillcapes?
+        - **Hans:** Inverted skillcapes are available to anyone who has proven they're a master in a skill.
+        - **Hans:** If you've earned any Cape of Accomplishment, I can show you how to unlock the inverted version.
+        - **Hans:** These special capes are exclusive to adventurers who work on their skills during this anniversary event.
+        - **Hans:** Choose a skill to focus on, then - and this is the important bit - work on that skill while wearing the relevant cape of accomplishment.
+        - **Hans:** Your focus will generate upgrade shards for that cape. Collect them and return them to me, and I'll swap them for an upgrade token.
+        - **Hans:** Give the upgrade token to the skillcape seller, and you'll unlock the inverted cape in their shop!
+        - **Hans:** For a regular cape of accomplishment, you'll need to give me 990 upgrade shards.
+        - **Hans:** For a master cape, I'll need 1200 master upgrade shards.
+        - **Hans:** If you're eligible for both the regular and master inverted capes, you'll earn both shard types simultaneously.
+        - **Hans:** So let me know what skill you'd like to focus on and you can get on with skilling!
+        - (opens=25th Anniversary celebrations)
+      - [Choice]: cond=With enough shards for a token:|[More...]
+        - (continue)
+      - [Choice]: What are you celebrating here?
+        - **Hans:** RuneScape hits a big milestone this year. We're turning 25 years old!
+        - **Hans:** I thought I'd set up this corner of our home city to mark the occasion.
+        - **Hans:** Other cities around the world have put up their decorations too. Look out for them as you go about your adventures.
+        - **Hans:** If you're a master of any skill, you can earn yourself an inverted skillcape in up to four skills over the course of this month.
+        - **Hans:** I've also commissioned some special scarves, exclusive to this year's celebrations.
+        - **Hans:** And, of course, the magical self-replenishing cake is back!
+        - **Hans:** I've no idea where it comes from. Probably best not to ask.
+        - **Hans:** Anyway, happy anniversary! It's great to have you here.
+        - (previous|Anniversary-event)
+      - [Choice]: Have you got any cake?
+        - **Player:** Have you got any cake?
+        - **Hans:** Of course!
+        - (Condition: Without free backpack space:)
+          - **Hans:** But you don't have enough room in your backpack for it. Clear one space and then you can have some.
+          - (previous|Anniversary-event)
+        - (Condition: With free backpack space:)
+          - (Condition: Without 25th Anniversary cake:)
+            - (receives=25th Anniversary cake)
+            - **Hans:** Here you are. Enjoy!
+            - (previous|Anniversary-event)
+          - (Condition: With 25th Anniversary cake:)
+            - **Hans:** But you already have some. One slice each, I'm afraid!
+            - (previous|Anniversary-event)
+      - [Choice]: Can I have a scarf?
+        - (Condition: Without free backpack space:)
+          - **Hans:** But you don't have enough room in your backpack for it. Clear one space and then you can have one.
+          - (previous|Anniversary-event)
+        - (Condition: With free backpack space:)
+          - (Condition: Without a 25th Anniversary Scarf:)
+            - (receives=25th Anniversary Scarf (Blue))
+            - (Condition: Only on the first time:)
+              - You have unlocked the 25th Anniversary Scarf (Blue)!
+              - (pop-up)
+                - {{Pop-up|You have unlocked the 25th Anniversary Scarf (Blue)!|colour=#00FF00}}
+                - (continue)
+            - **Hans:** I had these made specially for the anniversary celebrations.
+            - (previous|Anniversary-event)
+          - (Condition: With a 25th Anniversary Scarf:)
+            - **Hans:** You've already got a scarf - I only have enough for one each.
+            - (previous|Anniversary-event)
+  - [Choice]: Talk about Anniversary tasks.
+    - (Condition: Before receiving a 25th Anniversary task list:)
+      - **Hans:** Oh, hey, I wonder if you'd be interested in helping out on a bit of a nostalgia tour...
+      - **Player:** A what?
+      - **Hans:** I've been wandering around this castle for some twenty-five years now, and let me tell you, it's nice to take a break!
+      - **Hans:** And it got me reminiscing about everything that's happened in that time.
+      - **Player:** Okay...
+      - **Hans:** I was planning to wander around Misthalin and Asgarnia, taking in the sights and the memories - things I've seen and done, things adventurers have told me about...
+      - **Player:** Why do I feel there's about to be a 'but'?
+      - **Hans:** ...but I've agreed to run this little event, so can't really leave.
+      - **Hans:** So I thought, maybe, I could live vicariously through you...?
+      - **Player:** What do you want me to do?
+      - (Condition: Without free backpack space:)
+        - **Hans:** I have a list of tasks I was planning to complete - talk to me about this again when you have room to take it...
+      - (Condition: With free backpack space:)
+        - (receives=25th Anniversary task list)
+        - **Hans:** Here's a list of the tasks I was planning to complete - perhaps you could complete it for me?
+        - [Talk to Hans about 25th Anniversary tasks]
+        - **Player:** Wait a second, the first task here says 'Talk to Hans about 25th Anniversary tasks.' - why do I feel like I'm being hoodwinked?
+        - Congratulations! You have completed: 'Hans Free' - Talk to Hans about 25th Anniversary tasks.
+        - ((Shown in a task completion pop-up:))
+          - 25TH ANNIVERSARY TASK
+          - Hans Free
+          - Talk to Hans about 25th Anniversary tasks.
+          - (continue)
+        - **Hans:** Shhh, you've started now, so you'll have to finish...but there is a shiny reward in it for you!
+    - (Condition: After receiving a 25th Anniversary task list:)
+      - [Menu]: Choose an option:
+        - [Choice]: cond=Without 25th Anniversary task list:|I lost your task list.
+          - **Player:** I lost your task list.
+          - (Condition: Without free backpack space:)
+            - **Hans:** I have a spare, but you don't have room to take it...
+          - (Condition: With free backpack space:)
+            - (receives=25th Anniversary task list)
+            - **Hans:** No bother - here's a replacement list!
+        - [Choice]: cond=After completing the list and before claiming the reward:|Do you have any rewards for me?
+          - **Hans:** I think I have some rewards for you...
+          - You have unlocked the cosmetic override. '25th Anniversary cape'.
+          - You can activate this via the 'Wardrobe' tab in the 'Customisations' interface.
+          - (pop-up)
+            - {{Pop-up|You have unlocked the cosmetic override. '25th Anniversary cape'.<br>You can activate this via the 'Wardrobe' tab in the 'Customisations' interface.|colour=#00FF00}}
+            - (continue)
+          - **Hans:**  That should be everything! Thanks again for helping me out.
+        - [Choice]: What did you want me to do again?
+          - **Hans:** I was planning to wander around Misthalin and Asgarnia, taking in the sights and the memories - things I've seen and done, things adventurers have told me about...
+          - (Condition: During the 25th Anniversary celebrations event:)
+            - **Hans:** ...but I've agreed to run this little event, so can't really leave.
+            - (continue)
+          - (Condition: After the 25th Anniversary celebrations event:)
+            - **Hans:** ...but I've realised how tired I am, and it's nice to not have to walk for a bit.
+            - (continue)
+          - **Hans:** I gave you a list of tasks that I planned to complete - perhaps you could complete it for me?
+        - [Choice]: Goodbye.
+          - **Hans:** Goodbye!
+  - [Choice]: Talk about something else.
+    - **Hans:** Hello. What are you doing here?
+    - Select an option
+      - I'm looking for whoever is in charge of this place.
+        - **Hans:** Who, the Duke? He's in his study, on the first floor.
+      - I have come to kill everyone in this castle!
+        - {{Qact|Hans takes a step back.}}
+        - **Hans:** {{RSChat|Help! Help!}}
+      - I don't know. I'm lost. Where am I?
+        - **Hans:** You are in Lumbridge Castle.
+      - I wondered what happened to the castle?
+        - ''During the Battle of Lumbridge:
+          - **Hans:** It did take a battering recently. If you've not noticed already, there is a battle going on just outside between Saradomin and Zamorak! Never in all my years did I expect to see this happen to the castle!
+        - ''Between the Battle of Lumbridge and Lumbridge Rebuildathon:
+          - **Hans:** It did take a battering recently. Saradomin and Zamorak themselves had a battle just to the west of here.  The battle is over now, though. Zamorak was defeated by Saradomin and forced into retreat, severely damaged. Still, never in all my years did I expect to see this happen to the castle!
+        - ''During the Lumbridge Rebuildathon:
+          - **Hans:** It did take a battering recently. Saradomin and Zamorak themselves had a battle just to the west of here.  The battle is over now, though. Zamorak was defeated by Saradomin and forced into retreat, severely damaged. Now, people from all over the world are coming to help us rebuild! If you'd like to help, speak to Foreman George to the north of the castle.
+        - ''After the Lumbridge Rebuildathon:
+          - **Hans:** It did take a battering recently. Saradomin and Zamorak themselves had a battle just to the west of here! The battle is over now, though. Zamorak was defeated by Saradomin and forced into retreat, severely damaged. Still, never in all my years did I expect to see this happen to the castle!
+          - Select an option
+            - Have you been here as long as me?
+              - (below)
+            - I'll go and have a look then!
+              - (end)
+      - Have you been here as long as me?
+        - **Hans:** I've been patrolling this castle for years, I remember you...
+        - **Hans:** You've spent x days, x hours, x minutes in the world since you arrived x days ago.
+        - **Player:** You must be old then?
+        - **Hans:** Haha, you could say I'm quite the veteran of these lands. Yes, I've been here a fair while...
+        - ''If the player is not yet eligible for the veteran cape (5 year):
+          - **Hans:** Sadly you are not eligible for the five-year veteran cape.
+        - ''If the player is not yet eligible for the veteran cape (10 year):
+          - **Hans:** Sadly you are not eligible for the ten-year veteran cape.
+        - ''If the player is not yet eligible for the veteran cape (15 year):
+          - **Hans:** Sadly you are not eligible for the fifteen-year veteran cape.
+        - ''If the player is not yet eligible for the veteran cape (20 year):
+          - **Hans:** Sadly you are not eligible for the twenty-year veteran cape.
+        - *(If there is more than a year to go:)*
+          - **Hans:** It'll be longer than a year for you yet I'm afraid.
+          - You will be able to claim the five/ten/fifteen/twenty-year veteran cape from Hans in [X] days.
+          - (continue)
+        - *(If there is less than a year but more than a month to go:)*
+          - **Hans:** I'm sure you'll get there soon, within a year if my senses are correct.
+          - You will be able to claim the five/ten/fifteen/twenty-year veteran cape from Hans in [X] days.
+        - *(If there is less than a month but more than a day to go:)*
+          - **Hans:** Not long until you are now too, only [X] days.
+          - You will be able to claim the five/ten/fifteen/twenty-year veteran cape from Hans in [X] days.
+          - (continue)
+        - *(If there is a day to go:)*
+          - **Hans:** Not long until you are now too, only 1 day!
+          - You will be able to claim the five/ten/fifteen/twenty-year veteran cape from Hans tomorrow!
+          - (continue)
+        - (If the player is eligible for the veteran cape (10 year):)
+          - **Hans:** I do however have a five-year veteran cape for 50,000 coins.
+        - (If the player is eligible for the veteran cape (10 year):)
+          - **Hans:** I do however have a ten-year veteran cape for 100,000 coins and a five-year veteran cape for 50,000 coins.
+          - (continue)
+        - (If the player is eligible for the veteran cape (15 year):)
+          - **Hans:** I do however have a fifteen-year veteran cape for 150,000 coins, a ten-year veteran cape for 100,000 coins and a five-year veteran cape for 50,000 coins.
+          - (continue)
+        - (If the player is eligible for the veteran cape (20 year):)
+          - **Hans:** I can see you have been here for an awfully long time now! Would you be interested in showing off this length of service with one of my capes?
+          - **Hans:** I have a twenty-year veteran cape for 200,000, a fifteen-year veteran cape for 150,000, a ten-year veteran cape for 100,000 coins or a five-year veteran cape for 50,000 coins.
+          - (continue)
+        - **{{AnchorText|Select an Option}}**
+          - (If the player is eligible for the veteran cape (20 year):)
+            - I'll buy the twenty-year veteran cape - 200,000 coins
+              - (If the player has not bought the cape before:)
+                - (continue)
+              - (If the player has bought the cape before:)
+                - **Hans:** You have already purchased a Veteran cape (20 year).
+                - **ARE YOU SURE YOU WANT TO BUY ANOTHER?**
+                  - Yes
+                    - (Without at least two free backpack space:)
+                      - **Hans:** That's good, but you've got no space in your inventory for the cape and hood.
+                    - (With at least two free backpack space:)
+                      - (Without 200,000 coins:)
+                        - **Hans:** That's good, but you've not enough money for the cape.
+                      - (With 200,000 coins:)
+                        - (continue)
+                  - No
+                    - (end)
+              - (removes=200,000 coins)
+              - (receives=veteran cape (20 year))
+              - (receives=veteran hood (20 year))
+              - Hans passes you the Veteran cape (20 year) and Veteran hood (20 year).
+              - **Hans:** Thanks. Enjoy!
+          - (If the player is eligible for the veteran cape (15 year):)
+            - I'll buy the fifteen-year veteran cape - 150,000 coins
+            - ''If the player has not bought the cape before:
+              - Hans passes you the Veteran cape (15 year) and Veteran hood (15 year).
+              - **Hans:** Thanks. Enjoy!
+            - ''If the player has bought the cape before:
+              - **Hans:** You have already purchased a fifteen-year veteran cape.
+              - Are you sure you want to buy another?
+                - Yes
+                  - Hans passes you the fifteen-year veteran cape.
+                  - Hans passes you the fifteen-year veteran hood.
+                  - **Hans:** Thanks. Enjoy!
+                - No
+                  - (end)
+          - I'll buy the ten-year veteran cape - 100,000 coins
+            - ''If the player has not bought the cape before:
+              - Hans passes you the Veteran cape (10 year) and Veteran hood (10 year).
+              - **Hans:** Thanks. Enjoy!
+            - ''If the player has bought the cape before:
+              - **Hans:** You have already purchased a ten-year veteran cape.
+              - Are you sure you want to buy another?
+                - Yes
+                  - Hans passes you the ten-year veteran cape.
+                  - Hans passes you the ten-year veteran hood.
+                  - **Hans:** Thanks. Enjoy!
+                - No
+                  - (end)
+          - I'll buy the five-year veteran cape - 50,000 coins
+            - ''If the player has not bought the cape before:
+              - Hans passes you the Veteran cape (5 year) and Veteran hood (5 year).
+              - **Hans:** Thanks. Enjoy!
+            - ''If the player has bought the cape before:
+              - **Hans:** You have already purchased a five-year veteran cape.
+              - Are you sure you want to buy another?
+                - Yes
+                  - Hans passes you the five-year veteran cape.
+                  - Hans passes you the five-year veteran hood.
+                  - **Hans:** Thanks. Enjoy!
+                - No
+                  - (end)
+          - No thanks.
+            - **Player:** No, thanks.
+
+### Buy veteran capes option
+
+- (above|Select an Option)
+
+### Open anniversary event option
+
+- (opens=25th Anniversary celebrations)
+
+### Plague Doctor
+
+*If doctor's visit on plague task list is not complete:*
+- *If gas mask is not equipped:*
+  - **Player:** If I was wearing a gas mask right now I could pretend to be a doctor and mess with Hans...
+  - **Hans:** What was that?
+  - **Player:** Nothing!
+  - *(Continues with standard dialogue.)*
+- *If gas mask is equipped:*
+  - *If on plague task list's first prestige:*
+    - **Player:** Hello Hans! I am the doctor here for your personal checkup.
+    - **Hans:** I didn't call for a doctor... What's your name?
+    - **Player:** Uh... Mantis... Toboggan...
+    - **Hans:** Doctor... Mantis Toboggan?
+    - **Player:** M.D.
+    - **Hans:** Is that you Player? Take off that ridiculous mask!
+    - **Player:** I think I've been caught.
+    - colour=#00FF00
+    - *(Continues with standard dialogue.)*
+  - *If on plague task list's second prestige or higher:*
+    - **Player:** The doctor is in the house!
+    - **Hans:** Player, we've been through this charade before...
+    - colour=#00FF00
+    - *(Continues with standard dialogue.)*
+
+### Treasure Trails
+
+- **Hans :** Well done, here you go.
+- (removes=the old clue scroll (easy))
+- (If the trail continues:)
+  - (receives=a new clue scroll (easy))
+  - Hans has given you another clue scroll.
+- (If the trail ends:)
+  - (receives=reward casket (easy))
+  - You've found a casket!
+
+### Using dragon bones on Hans during the 25th Anniversary celebrations
+
+
+#### Only the first time
+
+- **Hans:** Ah, dragon bones! Now, that takes me way back...
+- **Hans:** I once tried to enter the Champions' Guild on one of my walks, but they'd only let me in if I defeated a dragon.
+- **Hans:** 'No chance', I thought, so I just went back to my walking.
+- {{RSFontAchievement|Dragon These Bones With Me|Show Hans some dragon bones.}}
+- ((Shown in a task completion pop-up:))
+  - {{Colour|#F0BE79|&nbsp;25TH ANNIVERSARY TASK&nbsp;|#181513}}
+  - Dragon These Bones With Me
+  - Show Hans some dragon bones.
+  - (continue)
+- **Hans:** I'd say you've fared better than I at being a champion, but when it comes to step count, I'm the champion!
+- (Condition: If all the tasks have been completed:)
+  - **Player:** Looks like I've completed everything. I'd better go and see Hans about that reward!
+
+#### Afterwards
+
+- Nothing interesting happens.

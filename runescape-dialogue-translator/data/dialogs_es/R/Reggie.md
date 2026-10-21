@@ -1,0 +1,99 @@
+# Reggie
+
+- **Original Wiki Page**: [Transcript:Reggie](https://runescape.wiki/w/Transcript%3AReggie)
+- **Letter**: `R`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### In the Fist of Guthix waiting area
+
+- **Reggie:** Bienvenido, aventurero. ¿Has venido a echar un vistazo a mis finos productos?
+- [Menu]: Selecciona una opción
+  - [Choice]: Sí, quiero ver lo que estás vendiendo.
+    - (opens=Fist of Guthix Reward Shop)
+  - [Choice]: No, tengo algunas preguntas.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿En qué moneda está operando?
+        - **Player:** ¿En qué moneda opera? No parece ser un coins normal.
+        - **Reggie:** Tienes toda la razón, amigo mío. Cambio mis productos por las llamadas fichas del Puño de Guthix.
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Cómo puedo hacerme con estos tokens?
+            - **Reggie:** Tenemos un pequeño negocio aquí, junto con Fiara. Verás, este es un lugar sagrado de Guthix y hay un gran poder que emana de esa cueva de allí. No estamos muy seguros de qué es todavía, pero tiene que ver con el propio Guthix.
+            - **Reggie:** Intentamos almacenar todo lo que podemos para estar listos para usarlo una vez que sepamos para qué sirve.
+            - **Player:** ¿Y eso qué tiene que ver con los tokens?
+            - **Reggie:** Ah, sí, las fichas. Todo el mundo es libre de participar en el concurso que organizamos aquí y los ganadores son recompensados ​​con fichas que luego pueden canjear por productos. Si quieres saber más, debes hablar con Fiara.
+            - [Menu]: Selecciona una opción
+              - [Choice]: Primero quiero ver qué estás negociando.
+                - (opens=Fist of Guthix Reward Shop)
+              - [Choice]: Tengo más preguntas que quiero respuestas.
+                - (previous2|questions)
+              - [Choice]: Muy bien, lo haré.
+          - [Choice]: ¿Qué son las fichas del Puño de Guthix?
+            - **Player:** ¿Qué son las fichas de Fist of Guthix?
+            - **Reggie:** Oh, no son nada especiales en sí mismos. Son sólo tokens que utilizamos como moneda.
+            - [Menu]: Selecciona una opción
+              - [Choice]: ¿Qué estás vendiendo?
+                - (opens=Fist of Guthix Reward Shop)
+              - [Choice]: ¿Cómo puedo hacerme con estos tokens?
+                - (above|tokens)
+              - [Choice]: Tengo otra pregunta.
+                - (previous2|questions)
+          - [Choice]: Tengo que irme ahora.
+            - **Player:** Tengo que irme ahora.
+      - [Choice]: ¿Puedes recargar mis artículos?
+        - **Player:** ¿Pueden recargar mis artículos?
+        - **Reggie:** Por artículos, asumo que te refieres a artículos que adquirí originalmente de mí. Si es así, la respuesta es sí, amigo. Con mucho gusto difundo el poder de Guthix, si puedo.
+        - **Player:** Eso es genial.
+        - **Reggie:** Ciertamente lo es. Sin embargo, el poder de Guthix no es barato. Entonces, me temo que tendré que cobrarte algunas fichas por ello. Y sólo puedo recargar elementos cuya energía mágica se haya agotado por completo.
+        - **Player:** Suena justo. Entonces, ¿cómo hago para hacer esto?
+        - **Reggie:** Sólo pásame el artículo que deseas recargar y veré qué puedo hacer.
+        - [Menu]: Selecciona una opción
+          - [Choice]: Primero quiero ver qué estás vendiendo.
+            - (opens=Fist of Guthix Reward Shop)
+          - [Choice]: ¿Cómo puedo hacerme con estos tokens?
+            - (above|tokens)
+          - [Choice]: Todavía tengo más preguntas.
+            - (previous|questions)
+          - [Choice]: Está bien, lo haré.
+            - **Player:** Está bien, lo haré.
+      - [Choice]: ¿Pueden descargar mis artículos?
+        - **Player:** ¿Pueden descargar mis artículos por mí?
+        - **Reggie:** ¿No quieres conservar el poder de Guthix? Eso es extraño. Pero sí, por supuesto que puedo hacer esto por ti. Tenga en cuenta que no recibirá nada a cambio, excepto el artículo degradado, y le costará tokens cargarlo nuevamente.
+        - **Player:** Sí, lo tendré en cuenta.
+        - **Reggie:** Bien. En ese caso, simplemente entrégueme el artículo del que desea eliminar el cargo.
+        - [Menu]: Selecciona una opción
+          - [Choice]: Primero quiero ver qué estás vendiendo.
+            - (opens=Fist of Guthix Reward Shop)
+          - [Choice]: ¿Cómo puedo hacerme con estos tokens?
+            - (above|tokens)
+          - [Choice]: Todavía tengo más preguntas.
+            - (previous|questions)
+          - [Choice]: Está bien, lo haré.
+            - **Player:** Está bien, lo haré.
+      - [Choice]: ¿Por qué todos sus productos se degradan?
+        - **Player:**¿Por qué se degradan todos tus productos? He visto muchos artículos similares en mis días, pero todos parecen durar mucho más que los tuyos.
+        - **Reggie:** Una observación muy precisa, amigo mío. Pero los otros elementos con los que te has topado en tus viajes seguramente no han sido infundidos directamente con el poder que emana del Puño de Guthix.
+        - **Player:** Umm... Supongo que no. ¿Pero el poder de Guthix no habría hecho que los objetos fueran más fuertes?
+        - **Reggie:** Vaya, sí, lo han hecho. Mantener una tienda tan cerca de la fuente de este poder ha resultado en que los artículos se infundan de energía. Esto los hace más fuertes de lo que normalmente habrían sido, pero, desafortunadamente, son
+        - **Reggie:** Vasijas difícilmente adecuadas para tal poder divino. A medida que se utilicen, la energía se gastará y todo lo que quedará será un caparazón vacío y debilitado. Cuando esto suceda, simplemente regresa conmigo y con gusto los recargaré por ti.
+        - **Player:** ...Por una pequeña tarifa.
+        - **Reggie:** Jaja. Sí, amigo mío, por una pequeña tarifa. El poder de un dios no es barato, ni siquiera en pequeñas dosis. Si lo diéramos gratis, nos quedaríamos sin recursos en un instante. Se debe mantener el equilibrio.
+        - **Player:**Está bien, lo tendré en cuenta. Gracias.
+        - **Reggie:** Ahora, ¿hay algo más en lo que pueda ayudarte?
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Qué estás vendiendo?
+            - (opens=Fist of Guthix Reward Shop)
+          - [Choice]: ¿Cómo puedo hacerme con estos tokens?
+            - (above|tokens)
+          - [Choice]: Tengo otra pregunta.
+            - (previous|questions)
+          - [Choice]: Tengo que irme ahora.
+            - **Player:** Tengo que irme ahora.
+      - [Choice]: Tengo que irme ahora.
+        - **Player:** Lo siento, tengo que irme ahora. Adiós.
+  - [Choice]: No, sólo estoy de paso.
+    - **Player:** No, solo estoy de paso.

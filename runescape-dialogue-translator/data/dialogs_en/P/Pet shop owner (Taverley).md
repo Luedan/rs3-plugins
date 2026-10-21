@@ -1,0 +1,100 @@
+# Pet shop owner (Taverley)
+
+- **Original Wiki Page**: [Transcript:Pet shop owner (Taverley)](https://runescape.wiki/w/Transcript%3APet%20shop%20owner%20%28Taverley%29)
+- **Letter**: `P`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- [Menu]: Choose an option:
+  - [Choice]: Can I see your shop, please?
+    - **Player:** Can I see your shop please?
+    - (opens=Pet Shop)
+  - [Choice]: How much is that puppy in the window?
+    - **Player:** How much is that puppy in the window?
+    - (Condition: If the player does not meet Summoning requirement:)
+      - **Pet shop owner:** I'm sorry, but I can't sell them to you, I'm afraid. You don't strike me as having an affinity with animals.
+      - **Player:** Awww...
+    - (Condition: If the player does not own a pet dog:)
+      - **Pet shop owner:** The one with the waggly tail?
+      - {{qact|Puppy choosing interface opens}}
+      - [Menu]: Pick a puppy
+        - [Choice]: Labrador
+          - **Player:** No, the labrador.
+          - **Pet shop owner:** 500 gold.
+          - **Player:** Isn't that a little steep?
+          - **Pet shop owner:** Well, if we gave them away for free then people would just buy them and dump them without a care.
+          - **Pet shop owner:** Dogs are big responsibility and should be cared for.
+          - **Pet shop owner:** If a person is unwilling to invest 500 coins, then they don't deserve to have the puppy in the first place.
+          - **Pet shop owner:** So, do you still want one?
+          - [Menu]: Select an option
+            - [Choice]: Okay, I'll take the labrador.
+              - (removes=500 coins) (receives=Labrador puppy)
+              - **Player:** Okay, I'll take the Labrador.
+          - **Pet shop owner:** There you go! I hope you two get on.
+            - [Choice]: No thanks.
+              - **Player:** No thanks.
+        - [Choice]: Bulldog
+        - [Choice]: Dalmatian
+        - [Choice]: Greyhound
+        - [Choice]: Terrier
+        - [Choice]: Sheepdog
+    - (Condition: If the player already owns a pet dog:)
+      - **Pet shop owner:** You asked me that when you last picked up a dog, and I can't sell you another.
+  - [Choice]: So, what sorts of pets are available?
+    - **Player:** So, what sorts of pets are available?
+    - **Pet shop owner:** Well, here we sell dogs, but we also have supplies for any other creatures you might want to raise.
+    - **Player:** Such as?
+    - **Pet shop owner:** Well, we sell nuts. Those can be used to feed squirrels. If you want to capture a squirrel, you'll need to use the nuts on the trap you set, as the little scamps won't be fooled by anything else.
+    - **Player:** I'll bear that in mind!
+    - **Pet shop owner:** There are also a number of birds that live in the woodlands of the world. If you can find their eggs then you can use the incubator over there to hatch it.
+    - **Pet shop owner:** So long as you are the first thing they see out of the shell, they will follow you anywhere.
+    - **Pet shop owner:** After that, you just need to feed the chick ground fishing bait until it's old enough to eat it solid.
+    - **Player:** I'll make sure to keep an eye on them if I go anywhere dangerous.
+    - **Pet shop owner:** There are also a number of fabulous and exotic lizards found in Karamja. Some can be caught easily in a box trap, while others will need to be raised from an egg.
+    - **Player:** Will the incubator work for them, too?
+    - **Pet shop owner:** Of course! I'll keep an eye on all the eggs you put in there, so they will never end up hard-boiled.
+    - **Player:** Thank goodness!
+    - **Pet shop owner:** The geckos of Karamja are quite easy to trap, like raccoons. Both will investigate a trap happily without any special bait.
+    - **Pet shop owner:** Monkeys are a different story, however!
+    - **Player:** What do you mean?
+    - **Pet shop owner:** Well, they are clever little things and can easily get out of a box trap, unless they are stuck. The easiest way to do that is to put a banana in the workings.
+    - **Pet shop owner:** They will hang on tight, and never let go, even when the trap closes!
+    - **Player:** Thanks a lot, you've been very helpful!
+    - **Pet shop owner:** It's always a pleasure to help a fellow animal-lover. Come back and visit soon.
+  - [Choice]: Are you interested in buying spirit shards?
+    - **Player:** Are you interested in buying spirit shards?
+    - **Pet shop owner:** I certainly am. Lots of them, too!
+    - (Condition: If the player has no spirit shards on them:)
+      - **Player:** Thanks, I'll bear that in mind.
+    - (Condition: If the player has spirit shards on them:)
+      - How many will you sell? (25 coins each, you have [amount])
+      - You sell [number] shards for [amount] coins.
+  - [Choice]: cond=If the player has pets to reclaim|Have you got any strays in?
+    - **Player:** Have you got any strays in?
+      - (Condition: If the player has lost Mackers:)
+        - **Pet shop owner:** Let me just check my records…
+        - **Pet shop owner:** You're in luck! I found Mackers wandering around outside! He's been asking after you.
+        - **Player:** Still looking for cake, is he?
+        - **Pet shop owner:** Of course.
+        - [Mackers wanders over to you.]
+      - (Condition: If the player has lost Sparkles:)
+        - **Pet shop owner:** You're in luck! I do have a stray...shiney, wiggly thing in. It was hard to catch!
+        - **Player:** Tell me about it! Would you let me give it a home?
+        - **Pet shop owner:** Certainly! Take good care of it.
+        - [The shopkeeper hands you a tinsel snake.]
+        - **Pet shop owner:** It's yours now. Don't lose it again please, I don't want to have to catch it again!
+      - (Condition: If the player has lost Corgi:)
+        - **Pet shop owner:** You're in luck! A cute little fluffy-wuffy doggie did come in earlier!
+        - **Player:** Yes, yes, it has that effect on everyone.
+        - **Pet shop owner:** It's such a cutie!
+        - **Player:** Just give me the dog, would you?
+        - **Pet shop owner:** Fine… Take good care of it.
+        - [The shopkeeper hands you a corgi.]
+      - (Condition: If the player has lost San'tar Spawnling:)
+        - **Pet shop owner:** You're in luck! A particularly angry creature did come in here earlier. I'd really appreciate it if you took it away!
+        - [The shopkeeper hands you the San'tar Spawnling.]

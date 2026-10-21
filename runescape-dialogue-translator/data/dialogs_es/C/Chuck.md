@@ -1,0 +1,157 @@
+# Chuck
+
+- **Original Wiki Page**: [Transcript:Chuck](https://runescape.wiki/w/Transcript%3AChuck)
+- **Letter**: `C`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+{{incomplete|Needs dialogue between quest and quest, and misc.}}
+- **Player:** Hola Chuck. ¿Cómo estás?
+- **Chuck:** Ah, Player. Es bueno verte de nuevo.
+- (Condition: Primera vez:)
+  - **Chuck:** Antes de hablar, quería mencionar que un compañero agente mío está estacionado en el iceberg.
+  - **Chuck:** Él está allí para ayudarte a espiar a los pingüinos, pero también está a cargo de una unidad de recopilación de inteligencia que está interrogando a un agente del KGP recién llegado.
+  - **Chuck:** Quizás necesite tu ayuda para cazar pingüinos.
+  - **Player:** Está bien, estaré atento a él la próxima vez que esté en el iceberg.
+- [Menu]: Elige una opción:
+  - [Choice]: Volver a la misión del congelador
+    - **Player:** ¿Has oído algo de Gordon recientemente?
+    - **Chuck:** Envía informes cuando puede, a través de una alfombra mágica.
+    - **Chuck:** Los pingüinos están intentando reparar su T.A.R.D.I.S., pero como puedes imaginar, les resulta casi imposible conseguir piezas de repuesto.
+    - **Chuck:** ¡Gielinor es seguro por el momento!
+    - (Condition: Primera vez después de desbloquear Invention si la misión se completó antes de hacerlo:)
+      - **Chuck:** Ah, veo que finalmente has aprendido sobre Invention, aquí tengo algo para
+      - (Action: el player gana 10.000 de experiencia en Invention.)
+      - [Recibes 10k XP en Invention por tus habilidades inconscientes demostradas en Back to the Freezer.]
+    - (end)
+  - [Choice]: A algunos les gusta la búsqueda fría
+    - **Player:** Pensé que Larry podría volver a andar por el zoológico. ¿Adónde se fue?
+    - **Chuck:** Creemos que ha aprendido la ubicación de la base secreta de los pingüinos en Acheron. Lo llevamos al cuartel general de PBJ para interrogarlo.
+    - (Condition: Si Player no es propietario de Sheldon el Pingüino:)
+      - **Player:** ¿Qué pasa con su bebé pingüino? ¿Qué pasará con Sheldon?
+      - **Chuck:** ¿Esa abominación? No sé. Larry no nos dejó deshacernos de él. Parece que quizás su lealtad ya no sea tan fuerte como solía ser.
+    - (Condition: Si Player es dueño del pingüino Sheldon:)
+      - **Chuck:** ¿Cómo es esa abominación de pingüino de la que Larry no nos deja deshacernos? ¿Ha mostrado ya algún signo de traición?
+      - **Player:** ¿Sheldon? Oh, en absoluto; De hecho, es un excelente compañero.
+      - **Chuck:** No temas. Me quedaré aquí para recoger los pedazos después de que finalmente te traicione.
+  - [Choice]: El escondite del pingüino
+    - **Player:** Quería hablarte sobre los pingüinos espías.
+    - (Condition: Si Player no posee un dispositivo espía)
+      - **Chuck:** Deberías llevar este dispositivo para espiar a los pingüinos. Debería resultarte útil ya que tiene una serie de funciones útiles que te ayudarán en tu misión. Primero, proporcionará pistas sobre todas las ubicaciones de los pingüinos. No puede localizarlo con exactitud, pero debería brindarle el área general para comenzar su búsqueda. Una vez que esté en el área, puede iniciar un escaneo que buscará en sus inmediaciones e identificará los pingüinos cercanos. A medida que veas más pingüinos, te ofreceré una mejora en el rango de escaneo y una nueva función de descarga que congelará a los pingüinos en su lugar.
+      - (receives=penguin spy device)
+    - (Condition: Si Player ha perdido o destruido su dispositivo espía)
+      - **Chuck:** Hm... ¿parece que te falta tu dispositivo espía pingüino?
+      - **Player:** Sólo me di vuelta por un segundo...
+      - **Chuck:** Tienes suerte de que Larry haya hecho muchos de ellos. Por lo que puedo decir, de todos modos están hechos en su mayoría de papel de aluminio.
+      - (receives=penguin spy device)
+    - [Menu]: Selecciona una opción
+      - (Solo si no se preguntó al final:)
+        - [Choice]: He encontrado más pingüinos.
+          - **Player:** He encontrado más pingüinos.
+          - **Chuck:** Hmm, se mueven rápidamente, esto no se anticipó.
+          - ((Sólo la primera vez:))
+            - **Player:** ¡Eso no es todo! Descubrí que hay pingüinos agentes secretos que también han comenzado a aparecer en Gielinor.
+            - **Chuck:** Parece que están evolucionando rápidamente. Esta es una noticia realmente preocupante.
+            - **Player:** ¿Qué debemos hacer al respecto?
+            - **Chuck:** Sigamos rastreándolos por ahora. Al final tendrán que cometer un error.
+            - **Player:** Por el hielo, ¿verdad?
+            - **Chuck:** A veces me preocupo por ti. No, estos agentes podrían ser un nuevo enemigo peligroso y deberíamos aprender todo lo que podamos sobre sus movimientos.
+            - **Player:** Lo siento. Enfoque total a partir de ahora.
+            - (continue)
+          - **Player:** Encontré [número] pingüino[s] esta semana.
+          - (Condition: Si encontró los 12 y aún no ha completado I C U K G P:)
+            - ¡Felicitaciones! Has completado: 'I C U K G P' - Encuentra 12 pingüinos espías y el oso polar en una sola semana e informa tus hallazgos.
+            - (continue)
+          - (Condition: Si tienes puntos para gastar:)
+            - **Chuck:** Bien hecho. Tienes puntos [número][s] para gastar. Quizás deberías pensar en reclamar tu recompensa.
+            - (previous)
+          - (Condition: Si no tienes puntos acumulados:)
+            - **Chuck:** Es cierto, has hecho bien en encontrar espías. Sin embargo, no tienes puntos de pingüino guardados. ¡Sigue buscando!
+            - (previous)
+      - [Choice]: Tengo problemas para encontrar los pingüinos, ¿puedo darme una pista?
+        - ((Se muestra uno de los siguientes, dependiendo de la ubicación de los pingüinos:))
+          - **Chuck:** He oído que hay un pingüino ubicado alrededor de un pueblo entre una gran torre y la mansión de vampyre.
+          - **Chuck:** He oído que hay un pingüino ubicado alrededor de Ardougne.
+          - **Chuck:** He oído que hay un pingüino ubicado alrededor de Feldip Hills, cerca de Gu'Tanoth.
+          - **Chuck:** He oído que hay un pingüino ubicado alrededor de la región Al Kharid, al norte del paso Shantay.
+          - **Chuck:** He oído que hay un pingüino ubicado alrededor de la región de Ice Mountain.
+          - **Chuck:** He oído que hay un pingüino ubicado entre los Fremenniks y los Bárbaros.
+          - **Chuck:** He oído que hay un pingüino ubicado en lo profundo de la jungla.
+          - **Chuck:** He oído que hay un pingüino ubicado al este del Mage Training Arena.
+          - **Chuck:** He oído que hay un pingüino ubicado en una ciudad de plagas dentro del desierto.
+          - **Chuck:** He oído que hay un pingüino ubicado en un pueblo de druidas.
+          - **Chuck:** He oído que hay un pingüino ubicado en Falador o sus alrededores.
+          - **Chuck:** He oído que hay un pingüino ubicado al este del reino de Kandarin.
+          - **Chuck:** He oído que hay un pingüino ubicado en el reino de las hadas.
+          - **Chuck:** He oído que hay un pingüino ubicado en los páramos helados.
+          - **Chuck:** He oído que hay un pingüino ubicado en el norte del reino de Misthalin.
+          - **Chuck:** He oído que hay un pingüino ubicado en el sur del reino de Misthalin.
+          - **Chuck:** He oído que hay un pingüino ubicado en el norte de Kharidian desert.
+          - **Chuck:** He oído que hay un pingüino ubicado en el sur de Kharidian desert.
+          - **Chuck:** He oído que hay un pingüino ubicado en el oeste del reino de Kandarin.
+          - **Chuck:** He oído que hay un pingüino ubicado en wilderness.
+          - **Chuck:** He oído que hay un pingüino ubicado cerca de un gran árbol rodeado de gente baja.
+          - **Chuck:** He oído que hay un pingüino ubicado cerca de una montaña de lobos.
+          - **Chuck:** He oído que hay un pingüino ubicado cerca de un pantano contaminado.
+          - **Chuck:** He oído que hay un pingüino ubicado cerca de un pueblo de hombres lobo.
+          - **Chuck:** He oído que hay un pingüino ubicado cerca de unos ogros en South Feldip Hills.
+          - **Chuck:** He oído que hay un pingüino ubicado cerca del Puesto Bárbaro.
+          - **Chuck:** He oído que hay un pingüino ubicado cerca de las abejas y el lino.
+          - **Chuck:** He oído que hay un pingüino ubicado cerca del Castillo de Arturo.
+          - **Chuck:** He oído que hay un pingüino ubicado cerca de la ciudad de los fantasmas.
+          - **Chuck:** He oído que hay un pingüino ubicado cerca de la costa, al este de Ardougne.
+          - **Chuck:** He oído que hay un pingüino ubicado cerca de la isla de Dragontooth.
+          - **Chuck:** He oído que hay un pingüino ubicado cerca de los de orejas puntiagudas.
+          - **Chuck:** He oído que hay un pingüino ubicado cerca de Port Sarim.
+          - **Chuck:** He oído que hay un pingüino ubicado cerca de los saltamontes.
+          - **Chuck:** He oído que hay un pingüino ubicado al norte de Ardougne.
+          - **Chuck:** He oído que hay un pingüino ubicado en una gran isla en forma de media luna.
+          - **Chuck:** He oído que hay un pingüino ubicado en una isla, etc.
+          - **Chuck:** He oído que hay un pingüino ubicado en islas donde los hermanos se pelean.
+          - **Chuck:** He oído que hay un pingüino ubicado en algún lugar más allá de la detección.
+          - **Chuck:** He oído que hay un pingüino ubicado en algún lugar de Gielinor.
+          - **Chuck:** He oído que hay un pingüino ubicado al sur de Ardougne.
+          - **Chuck:** He oído que hay un pingüino ubicado al oeste de Ardougne, en las colinas.
+          - **Chuck:** He oído que hay un pingüino ubicado al oeste de Varrock.
+          - **Chuck:** He oído que hay un pingüino ubicado donde habitan los contrabandistas de plátanos.
+          - **Chuck:** He oído que hay un pingüino ubicado donde gobiernan los chupasangres.
+          - **Chuck:** He oído que hay un pingüino ubicado donde vuelan las águilas.
+          - **Chuck:** He oído que hay un pingüino ubicado donde los pescadores colonizan.
+          - **Chuck:** He oído que hay un pingüino ubicado donde gobiernan los monos.
+          - **Chuck:** He oído que hay un pingüino ubicado donde no pueden ir armas.
+          - **Chuck:** He oído que hay un pingüino ubicado donde los piratas se sienten en su mayoría inofensivos.
+          - **Chuck:** He oído que hay un pingüino ubicado donde habitan los duendes de ojos grandes.
+          - **Chuck:** He oído que hay un pingüino ubicado donde los enanos excavan profundamente.
+          - **Chuck:** He oído que hay un pingüino ubicado donde el Fremennik 'heim' y busca
+          - **Chuck:** He oído que hay un pingüino ubicado donde entrena la Guardia Imperial.
+          - **Chuck:** He oído que hay un pingüino ubicado donde estudian los magos.
+          - (end)
+      - ((Sólo si la primera opción no fue seleccionada en último lugar:))
+        - [Choice]: Quiero reclamar mi recompensa.
+          - (opens=Spy Club)
+      - [Choice]: ¿Qué necesito hacer de nuevo?
+        - **Player:** ¿Qué debo hacer de nuevo?
+        - **Chuck:** Ustedes los humanos tienen poca capacidad de atención, ¿no?
+        - **Chuck:** Los pingüinos han enviado espías por todo el mundo. Necesito que aventureros valientes los encuentren y me informen de su ubicación, ya que no puedo salir de esta jaula.
+        - **Chuck:** Siempre que veas un pingüino, espíalo. Están bien entrenados y cambiarán de posición cada semana, así que mantén los ojos bien abiertos.
+        - **Chuck:** Te daré un dispositivo que puede rastrear a los pingüinos espías y ofrecerte pistas sobre sus ubicaciones. Los pingüinos valen entre 1 y 3 Penguin Points dependiendo de lo difíciles que sean de encontrar.
+        - **Chuck:** Infórmate aquí y te recompensaré por tus esfuerzos.
+        - **Chuck:** Finalmente, es posible que veas un oso polar en tus viajes. Si me informas de su ubicación, te recompensaré con un Penguin Point extra. Es uno de los nuestros, pero también me gusta vigilar a nuestros espías.
+      - [Choice]: No importa.
+        - **Player:** No importa.
+        - **Chuck:** Muy bien.
+        - (end)
+  - [Choice]: He perdido el libro del reloj, ¿podría tener otro?
+    - (Condition: Si no tienes el libro del reloj)
+      - **Player:** He perdido el libro del mecanismo de relojería, ¿podría tener otro?
+      - **Chuck:** Afortunadamente, Larry le puso un hechizo que me lo devolvió cuando lo perdiste. Aquí lo tienes.
+- (Condition: Si el player no tiene la carta de rescate:)
+  - [Choice]: Perdí la carta de rescate que te envió la Morsa, ¿podrías darme otra?
+    - **Player:** ¿Puedo darme una copia de la carta que te envió la Morsa?
+    - **Chuck:** Por supuesto.
+    - [Chuck pasa la carta a través de los barrotes de la jaula.]
+    - (receives=Ransom letter)
+    - (end)

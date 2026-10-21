@@ -1,0 +1,193 @@
+# Doc
+
+- **Original Wiki Page**: [Transcript:Doc](https://runescape.wiki/w/Transcript%3ADoc)
+- **Letter**: `D`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Invention Guild
+
+- **Doc:** ¿Qué puedo hacer por usted, jefe?
+- **¿Qué te gustaría decir?**
+  - ¿Quién eres?
+    - **Player:** ¿Quién eres?
+    - **Doc:** ¿Le diste un golpe a tu jefe? Soy yo, Doc. He estado contigo desde el principio. No sé, entras en ese laboratorio tuyo y a veces te olvidas del mundo.
+    - **Player:** Ah, claro, Doc. Por supuesto. Yo... sé quién eres. Por supuesto que sí. Sí.
+  - ¿Recuérdame cómo funciona Invention?
+    - *Aparecen opciones para rehacer el tutorial.*
+  - ¿Qué puedes decirme sobre las tecnologías?
+    - ((Condiciones desconocidas; probablemente teniendo un árbol de tecnología completado:))
+      - **Doc:** ¡Oh, pareces listo para inspirarte con un nuevo maestro manitas!
+      - ((Si el player no ha hablado con Drorkar después de completar el árbol de tecnología enano:))
+        - **Doc:** Bien, entonces. Bueno, podrías ir a ver a mi propio maestro en Keldagrim: ¡creo que él te enseñaría sobre los dispositivos enanos impulsados ​​por vapor! Su nombre es Drorkar. Es un viejo cascarrabias, pero sabe lo que hace. Lo encontrarás en la forja del Palacio Keldagrim.
+        - (previous|docQs)
+      - ((Si el player ha completado el árbol tecnológico enano:))
+          - **Doc:** Bueno, me ha dicho Drorkar que ya te ha enseñado los métodos del vapor enano. ¡Bien por ti, amigo!
+    - ((Condiciones desconocidas; Probablemente la primera vez que hablas con él:))
+      - **Doc:** Ah, ¿árboles tecnológicos, dices? ¡Ese es más mi tipo de cosas! Básicamente, hay muchas razas diferentes en este mundo y todas tienen su propia forma de hacer las cosas. Tomemos a nosotros, los enanos, por ejemplo: hemos dominado el uso de la lava para generar vapor, y usamos ese vapor para alimentar dispositivos: transporte, herramientas eléctricas, ese tipo de cosas. ¡Pero luego hay un grupo de duendes que han aprovechado el poder del rayo! Lo llaman electricidad o algo así.
+      - **Player:** Estás diciendo mucho la palabra "cosa".
+      - **Doc:** Sí, supongo que sí. Una palabra mejor sería "dispositivo": equipo especializado creado para sobresalir en una cosa...
+      - **Player:** ¿Qué pasa con nosotros, los humanos? ¿Se sabe que tenemos una especialización particular?
+      - **Doc:** Oh, se sabe que ustedes son el grupo creativo. Ciertamente dominaste todo este asunto de la energía divina, con sus propiedades mágicas y transmutadoras. Sin duda, podrías utilizar este material para fabricar algunos dispositivos de origen humano.
+      - **Player:** ¿Puedo especializarme en la tecnología que usan otras razas?
+      - **Doc:** Oh, no hay duda de que puedes encontrar a alguien que te enseñe, siempre y cuando a cambio le enseñes sobre la energía divina. Estoy seguro de que podrías aprender sobre la energía del vapor de mi maestro, Drorkar, y sobre la energía eléctrica de un tipo gobin de las cavernas llamado Oldak. Sin embargo, cuando aprendes sobre una nueva tecnología, no puedes concentrarte en otra hasta que la domines. Una vez que haya hecho su elección, estará encerrado hasta que tenga suficiente inspiración para continuar aprendiendo. Y sea cual sea la tecnología que aprenda más adelante, le resultará un poco más difícil crear cosas con esa tecnología. Porque llegarás "tarde a la fiesta", por así decirlo.
+      - *Estarás lo suficientemente inspirado como para comprometerte a desbloquear tu primer árbol de tecnología en el nivel 40 Invention. ¡Cualquier árbol de tecnología que desbloquees DESPUÉS del primero aumenta el requisito de nivel Invention para construir dispositivos dentro de él (+20 niveles para tu especialización secundaria)!*
+  - ((Si el player está por debajo de 99 Invention:))
+    - Eres un inventor experimentado.
+      - **Doc:** Me alegra que pienses eso. No podría haber llegado aquí sin ti, pionero en inventos y esas cosas.
+  - ((Si el player ha alcanzado 99 Invention:))
+    - Hablemos del dominio de las habilidades...
+      - **¿Qué te gustaría decir?**
+        - ¿Puedo comprar un Invention skillcape?
+          - **Player:** ¿Puedo comprar un Invention skillcape?
+          - ((Si el player tiene un ring of charos (a) equipado:))
+            - **Doc:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins para este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
+          - ((De lo contrario:))
+            - **Doc:** ¡Una capa de esta calidad tiene un coste! 99.000 para ser precisos.
+          - **Elige una opción:**
+            - ¿99.000 coins? Eso es demasiado caro. ((o 92.000 coins con ring of charos (a)))
+              - **Doc:** En absoluto; ¡Hay muchos otros aventureros a quienes les encantaría tener la oportunidad de comprar un artículo tan prestigioso! Puedes encontrarme aquí si cambias de opinión.
+            - De hecho, creo que tengo el dinero aquí.
+              - ((Si el player tiene al menos dos espacios backpack libres:))
+                - (removes=99,000 coins (or 92,000 coins with ring of charos (a))) Campana (receives=Invention cape (or trimmed version if level 99 in at least two skills) y Invention)
+                - **Doc:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+              - ((Si el player no tiene al menos dos espacios backpack libres:))
+                - **Doc:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar espacio en backpack antes de que pueda venderte uno.
+            - ((Si el player ha alcanzado el nivel 120 Invention:))
+              - He dominado esta habilidad. ¿Hay algo más?
+            - **Doc:** Hay algo... aunque lo he mantenido en secreto durante mucho tiempo. Es algo que sólo puede ser usado por un verdadero maestro.
+            - **Doc:** Ni siquiera yo puedo usarlo, así de difícil es lograrlo.
+            - **Doc:** Dices que eres un maestro. Ponte derecho, déjame echarte un vistazo...
+            - **Doc:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Invention master cape.
+              - **¿Comprar Invention master cape por 120.000 coins?**
+                - Sí.
+                  - ((Si el player tiene al menos un espacio backpack libre:))
+                    - (removes=120,000 coins) (receives=Invention master cape)
+                  - ((Si el player no tiene al menos un espacio backpack libre:))
+                    - **Doc:** No tienes suficiente espacio en tu backpack. Vuelve cuando tengas más.
+                - No.
+                  - (end)
+              - Hablemos de otra cosa...
+                - (previous|docQs)
+              - No importa.
+                - **Player:** No importa.
+        - He notado que hay un par de versiones de cada skillcape.
+          - **Doc:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
+          - ((Si el player ha elegido los nuevos modelos skillcape:))
+            - **Doc:** Aún puedes optar por usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
+            - **Seleccione una opción**
+              - Sí, me gustaría usar la versión antigua del skillcape.
+                - **Doc:** ¿Te gustaría usar el modelo antiguo solo para esta capa, o para la capa de puntos Quest y todos los skillcapes que tienes?
+                - **Seleccione una opción**
+                  - Solo me gustaría cambiar el Invention skillcape.
+                    - **Doc:** No hay problema, ahora utilizarás el modelo anterior para tu Invention skillcape.
+                  - Me gustaría cambiar todos mis skillcapes.
+                    - **Doc:** No hay problema, ¡ahora usarás el modelo anterior para todos tus skillcapes!
+                  - ¡He cambiado de opinión!
+                    - (end)
+              - No, gracias.
+                - **Doc:** ¡Genial! ¡Me alegra que estés disfrutando de nuestra nueva versión!
+                - ((Si el player utiliza los modelos antiguos de skillcape, excepto la capa Invention:))
+                  - **Doc:** ¡Si quieres, puedo hacerlo para que uses el modelo más nuevo para todos los skillcapes que tienes!
+                  - **Seleccione una opción**
+                    - Ok, me gustaría usar la versión más nueva para todos mis skillcapes.
+                      - **Doc:** ¡Genial, ahora usarás el modelo más nuevo para todos tus skillcapes!
+                    - No, gracias.
+                      - (end)
+          - ((Si el player ha elegido los antiguos modelos skillcape:))
+            - **Doc:** Parece que actualmente estás usando el modelo anterior para tu Invention skillcape. ¿Quieres cambiar a uno más nuevo?
+            - **Seleccione una opción**
+              - Sí, me gustaría usar la nueva versión del skillcape.
+                - **Doc:** ¿Te gustaría usar el modelo más nuevo solo para esta capa o para todos los skillcapes que tienes?
+                - **Seleccione una opción**
+                  - Solo me gustaría cambiar el Invention skillcape.
+                    - **Doc:** No hay problema, ahora utilizarás el modelo más nuevo para tu Invention skillcape.
+                  - Me gustaría cambiar todos mis skillcapes.
+                    - **Doc:** No hay problema, ¡ahora usarás el modelo más nuevo para todos tus skillcapes!
+                  - ¡He cambiado de opinión!
+                    - (end)
+              - No, gracias.
+                - **Doc:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión anterior!
+                - ((Si el player está utilizando los nuevos modelos skillcape excepto la capa Invention:))
+                  - **Doc:** ¡Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas!
+                  - **Seleccione una opción**
+                    - Ok, me gustaría usar la versión antigua para todos mis skillcapes.
+                      - **Doc:** ¡Genial, ahora usarás el modelo antiguo para todos tus skillcapes!
+                    - No, gracias.
+                      - (end)
+        - ((Sólo si el player ha alcanzado 120 Invention:))
+          - He dominado esta habilidad. ¿Hay algo más?
+            - **Doc:** He estado guardando este master cape para el primer verdadero experto. ¿Eres realmente tú?
+            - **Player:** Eso creo. Quiero decir, he dominado la invención de cosas.
+            - **Doc:** Sí, puedo verlo. Así que supongo que debes ser un maestro en retoques.
+            - **Player:** Por favor, no andes diciéndole eso a otras personas.
+            - **¿Comprar Invention master cape por 120.000 coins?**
+              - si
+                - ((Si el player tiene al menos un espacio backpack libre:))
+                  - (removes=120,000 coins) (receives=Invention master cape)
+                  - (previous2)
+                - ((Si el player no tiene al menos un espacio backpack libre:))
+                  - **Doc:** No tienes suficiente espacio en tu backpack. Vuelve cuando tengas más.
+              - (previous2)
+          - No
+            - (previous2)
+    - Hablemos de otra cosa...
+      - (previous)
+    - No importa.
+      - **Player:** No importa.
+    - ((Si el player tiene al menos una herramienta aumentable en el cinturón de herramientas:))
+      - ¿Puedes ayudarme a aumentar mis herramientas?
+        - **Doc:** Por supuesto, muchacho. Puedo ayudarte si tienes una herramienta en tu cinturón de herramientas que te gustaría aumentar.
+        - **Seleccione una opción**
+          - Aumenta mi hacha.
+            - *Si el player no ha aumentado un hacha del cinturón de herramientas:*
+              - *Si el player no tiene un hacha aumentable en el cinturón de herramientas:*
+                - **Doc:** Por supuesto, no tienes hachas que puedas aumentar en tu cinturón de herramientas. Si tienes algo más tarde, tal vez pueda ayudarte.
+                - **Doc:** Tendrás que traerme cualquier potenciador y solo te ayudaré a quitar un hacha.
+              - *Si el player tiene un hacha aumentable en el cinturón de herramientas:*
+                - *Si el player no tiene aumentador:*
+                  - **Doc:** Sin embargo, no tengo ningún potenciador de repuesto. Tendrás que traerme uno antes de que podamos aumentar una herramienta.
+                  - **Doc:** ¡Si lo haces, te ayudaré a mejorar tu herramienta e incluso te ofreceré un reemplazo de runa gratis!
+                - *Si el player tiene un aumentador:*
+                  - **Doc:** Veo que tienes un hacha que podría aumentar. ¿Qué tal? ¡Incluso te daré un hacha rúnica gratis para reemplazarla!
+                  - Herramienta de aumento
+                  - Aumento: hacha [Dragon/Crystal/Imcando]
+                  - ¿Desea quitar esta herramienta de su cinturón de herramientas y aumentarla?
+                  - También se utilizará su aumentador y se le entregará un {{Sic|rune axe}} de repuesto en su cinturón de herramientas.
+                  - Sólo puedes hacer esto una vez.
+                    - Cancelar
+                      - **Doc:** Que así sea, muchacho. Quizás pueda ayudarte más tarde.
+                    - Ok
+                      - Doc te ayuda a quitar el hacha de tu cinturón de herramientas y aumentarla. Te entrega un hacha rúnica de reemplazo.
+                      - **Doc:** Ahí vamos. Es una buena herramienta la que tienes ahí, muchacho. ¡Avanza!
+            - *Si el player ya ha aumentado un hacha del cinturón de herramientas:*
+              - **Doc:** ¡Te dije que solo puedo hacer esto una vez! Ya me has quitado un hacha.
+          - Aumenta mi pico.
+            - *Si el player no ha aumentado un pico del cinturón de herramientas:*
+              - *Si el player no tiene un pico aumentable en el cinturón de herramientas:*
+                - **Doc:** Por supuesto, no tienes ningún pico que puedas aumentar en tu cinturón de herramientas. Si tienes algo más tarde, tal vez pueda ayudarte.
+                - **Doc:** Tendrás que traerme cualquier potenciador y solo te ayudaré a quitar un pico.
+              - *Si el player tiene un pico aumentable en el cinturón de herramientas:*
+                - *Si el player no tiene aumentador:*
+                  - **Doc:** Sin embargo, no tengo ningún potenciador de repuesto. Tendrás que traerme uno antes de que podamos aumentar una herramienta.
+                  - **Doc:** ¡Si lo haces, te ayudaré a mejorar tu herramienta e incluso te ofreceré un reemplazo de runa gratis!
+                - *Si el player tiene un aumentador:*
+                  - **Doc:** Veo que tienes un pico que podría aumentar. ¿Qué tal? ¡Incluso te daré un pico rúnico gratis para reemplazarlo!
+                  - Herramienta de aumento
+                  - Aumento: pico [Dragon/Crystal] {{Transcript missing|(possibly also Imcando and Earth and Song)}}
+                  - ¿Desea quitar esta herramienta de su cinturón de herramientas y aumentarla?
+                  - También se utilizará tu aumentador y se te entregará un pico rúnico de repuesto en tu cinturón de herramientas.
+                  - Sólo puedes hacer esto una vez.
+                    - Cancelar
+                      - **Doc:** Que así sea, muchacho. Quizás pueda ayudarte más tarde.
+                    - Ok
+                      - Doc te ayuda a quitar el pico de tu cinturón de herramientas y aumentarlo. Te entrega un pico rúnico de reemplazo.
+                      - **Doc:** Ahí vamos. Es una buena herramienta la que tienes ahí, muchacho. ¡Avanza!
+            - *Si el player ya ha aumentado un pico del cinturón de herramientas:*
+              - **Doc:** ¡Te dije que solo puedo hacer esto una vez! Ya me has quitado un pico.
+- No importa.
+  - (end)

@@ -1,0 +1,303 @@
+# Pikkupstix
+
+- **Original Wiki Page**: [Transcript:Pikkupstix](https://runescape.wiki/w/Transcript%3APikkupstix)
+- **Letter**: `P`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Talk to
+
+- **Pikkupstix:** ¡Hola! Bienvenidos a mi humilde morada. ¿Le puedo ayudar en algo?
+- [Menu]: Elige una opción:
+  - [Choice]: Tengo una pregunta sobre Summoning...
+    - ((Si el player tiene 99 Summoning:))
+      - **Pikkupstix:** ¡Nunca antes había visto un poder de invocación tan puro! Si alguien tiene derecho a poseer un skillcape de Summoning, ¡eres tú!
+      - (continue)
+    - [Menu]: Elige una opción:
+      - [Choice]: cond=If the player has 99 Summoning|Sí, por favor véndeme un skillcape de Summoning.
+        - (Condition: Si el player tiene un ring of charos (a) equipado:)
+          - **Pikkupstix:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins para este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
+          - [Menu]: Elige una opción:
+            - [Choice]: ¿92.000 coins? Eso es demasiado caro.
+              - **Player:** Sé dónde encontrarte si cambio de opinión.
+            - [Choice]: De hecho, creo que tengo el dinero aquí.
+              - (Condition: Si el player no tiene espacio backpack:)
+                - **Pikkupstix:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar espacio en backpack antes de que pueda venderte uno.
+              - (Condition: Si el player no tiene suficiente dinero:)
+                - **Player:** Pero desafortunadamente me equivoqué.
+                - **Pikkupstix:** Bueno, vuelve a verme cuando lo hagas.
+              - (Condition: Si el player tiene suficiente dinero:)
+                - (receives=summoning cape and summoning hood) (removes=92,000 coins)
+                - **Pikkupstix:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+            - [Choice]: cond=If the player has 120 Summoning|He dominado esta habilidad. ¿Hay algo más?
+              - **Pikkupstix:** Hay algo... aunque lo he mantenido en secreto durante mucho tiempo. Es algo que sólo puede ser usado por un verdadero maestro.
+              - **Pikkupstix:** Ni siquiera yo puedo usarlo, así de difícil es lograrlo.
+              - **Pikkupstix:** Dices que eres un maestro. Ponte derecho, déjame echarte un vistazo.
+              - **Pikkupstix:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Summoning master cape.
+              - [Menu]: ¿Comprar Summoning master cape por 120.000 coins?
+                - [Choice]: Sí.
+                  - (Condition: Si el player no tiene espacio backpack:)
+                    - **Pikkupstix:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
+                  - (Condition: Si el player no tiene suficiente dinero:)
+                    - No tienes suficiente dinero para comprar esta capa.
+                  - (Condition: Si el player tiene suficiente dinero:)
+                    - (receives=summoning master cape) (removes=120,000 coins)
+                    - (Action: Suena música Master cape.)
+                - [Choice]: No.
+                  - (end)
+      - (Condition: Si el player no tiene un ring of charos(a) equipado:)
+        - [Menu]: Elige una opción:
+          - [Choice]: ¿99.000 coins? Eso es demasiado caro.
+            - **Player:** Sé dónde encontrarte si cambio de opinión.
+          - [Choice]: De hecho, creo que tengo el dinero aquí.
+            - (Condition: Si el player no tiene espacio backpack:)
+              - (arriba)
+            - (Condition: Si el player no tiene suficiente dinero:)
+              - (arriba)
+            - (Condition: Si el player tiene suficiente dinero:)
+              - (receives=summoning cape and summoning hood) (removes=99,000 coins)
+              - **Pikkupstix:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+          - [Choice]: cond=If the player has 120 summoning|He dominado esta habilidad. ¿Hay algo más?
+            - (arriba)
+      - [Choice]: Entonces, ¿de qué se trata Summoning?
+        - **Pikkupstix:** ¿En general? ¿O tenías algún tema específico en mente?
+        - [Menu]: Selecciona una opción
+          - [Choice]: En general.
+            - **Pikkupstix:** Bueno, ya conoces Summoning en general; de lo contrario, ¡no estaríamos teniendo esta conversación!
+            - **Pikkupstix:** Efectivamente, la habilidad se puede dividir en tres partes principales: familiares convocados, objetos cargados y mascotas.
+            - **Pikkupstix:** Los familiares invocados son animales espirituales que pueden ser llamados desde el plano espiritual para que te sirvan durante un período de tiempo.
+            - **Pikkupstix:** Estos animales también pueden realizar un movimiento especial, que es específico de la especie. Por ejemplo, un lobo espiritual puede realizar el movimiento especial Aullido si sostienes el pergamino Aullido correcto.
+            - **Pikkupstix:** Los objetos cargados contienen poder de invocación, pero en una forma estable.
+            - **Pikkupstix:** Se pueden usar para almacenar físicamente cualquier pergamino que tengas.
+            - **Pikkupstix:** Esos son los efectos principales de Summoning.
+            - **Pikkupstix:** ¿Aún me sigues?
+            - **Player:** Sí, eso creo.
+            - **Pikkupstix:** Puedo proporcionarte bolsas y fragmentos de espíritu, pero tendrás que traer tus propios amuletos e ingredientes secundarios.
+            - **Pikkupstix:** Muchas criaturas sueltan amuletos cuando las matas en combate. Hay muchos amuletos diferentes en el mundo: dorado, azul, verde, carmesí e incluso algunos especializados como la obsidiana.
+            - **Player:** Me aseguraré de mantener los ojos abiertos para verlos.
+            - **Pikkupstix:** La mejor manera de aumentar tu nivel de Summoning es infundir bolsas.
+            - **Pikkupstix:** Aún aprenderás un poco al invocar a un familiar, así como a usar un pergamino y transformar las bolsas de invocación en pergaminos.
+            - **Pikkupstix:** Pero, para empezar, nada es más potente que infundir un espíritu en una bolsa de Summoning.
+            - **Pikkupstix:** ¿Entiendes?
+            - **Player:** ¡Claro!
+            - **Pikkupstix:** ¡Bien!
+            - **Pikkupstix:** ¿Dónde estaba?
+            - **Pikkupstix:** Ah, sí, la última parte de Summoning: las mascotas. Cuanto más practiques la habilidad, más comprenderás el mundo natural que te rodea.
+            - **Pikkupstix:** Esto se refleja en tu mayor capacidad para criar animales como mascotas. Se necesita un invocador experto para poder criar algunos de los animales más exóticos de Gielinor, como los lagartos de Karamja, ¡o incluso dragones!
+            - **Pikkupstix:** Ahora que te he dado esta descripción general, ¿quieres saber algo específico?
+            - (otro)
+          - [Choice]: Háblame de Summoning familiars.
+            - **Pikkupstix:** Los familiares convocados son el núcleo de Summoning. Cada familiar es diferente, y cuanto más poderoso sea el invocador, más poderoso será el familiar que podrá convocar.
+            - **Pikkupstix:** Los animales en sí no son reales, en el sentido en que tú o yo somos reales; son espíritus extraídos del plano espiritual.
+            - **Pikkupstix:** Como resultado, tienen poderes que los animales a los que se parecen no tienen.
+            - **Pikkupstix:** No pueden permanecer en este mundo indefinidamente; Requieren un suministro constante de energía para mantener su vínculo con el plano espiritual.
+            - **Pikkupstix:** Esta energía se drena de tus puntos de habilidad Summoning.
+            - **Pikkupstix:** Tu nivel de la habilidad Summoning no se agota y puedes actualizar tus puntos hasta tu nivel máximo en un obelisco cuando lo desees.
+            - **Player:** Entonces, ¿mis puntos de habilidad Summoning son como comida para ellos?
+            - **Pikkupstix:** Sí, esa es una analogía apropiada.
+            - **Pikkupstix:** Cuanto más poderoso sea el familiar, más deberá "alimentarse" y más "comida" necesitará para ser satisfecho.
+            - **Pikkupstix:** Como resultado, solo los invocadores más poderosos pueden mantener un vínculo desde un plano familiar al plano espiritual, ya que pueden proporcionar más "comida" con cada nivel de Summoning que obtienen.
+            - **Player:** Estoy empezando a tener un poco de hambre.
+            - **Pikkupstix:** A medida que domines la habilidad, podrás tener familiares fuera durante todo el tiempo que existan. Y todavía te quedan algunos puntos para volver a convocarlos después, si lo deseas.
+            - **Pikkupstix:** ¡Esto se debe a que puedes alimentarlos con la energía que necesitan y tienes sobras de sobra!
+            - **Player:** ¡Genial!
+            - **Player:** Entonces, ¿qué pueden hacer estos familiares?
+            - **Pikkupstix:** ¿Por qué no me pides que cuente cada brizna de hierba del césped?
+            - **Pikkupstix:** Cada uno de los familiares tiene habilidades únicas e incluso el invocador más experimentado no las conocerá todas.
+            - **Player:** Bueno, ¿puedes darme algunas pistas?
+            - **Pikkupstix:** Bueno, algunos familiares pueden luchar contigo en combate. Estarán atentos para ver si estás peleando e intervendrán, si pueden.
+            - **Pikkupstix:** Otros familiares no pelearán, por varias razones, pero pueden proporcionar bonificaciones en otras tareas. Algunos incluso llevarán sus artículos por usted, si los necesita.
+            - **Player:** ¡Increíble!
+            - **Pikkupstix:** ¿Te gustaría saber algo más sobre Summoning?
+            - (otro)
+          - [Choice]: Cuéntame sobre movimientos especiales.
+            - **Pikkupstix:** Bueno, si una bolsa de Summoning se divide en un obelisco, entonces la energía que contenía se reconstituirá (se transformará) en un pergamino.
+            - **Pikkupstix:** Este pergamino puede usarse para hacer que tu familiar realice su movimiento especial.
+            - **Pikkupstix:** Por ejemplo, los lobos espirituales pueden aullar y ahuyentar a un oponente durante un corto período de tiempo.
+            - **Player:** O más, en el caso de ese wolpertinger gigante.
+            - **Pikkupstix:** ¡Efectivamente!
+            - **Pikkupstix:** Bueno, cada familiar tiene su propio movimiento especial y solo puedes usar pergaminos en el familiar al que se aplica.
+            - **Pikkupstix:** Por ejemplo, un espíritu lobo solo te mirará de manera extraña si deseas que realice un movimiento especial de pavor.
+            - **Player:** Entonces, ¿qué tipo de movimientos especiales existen?
+            - **Pikkupstix:** Los movimientos especiales son tan variados como los propios familiares.
+            - **Pikkupstix:** Una buena regla general es que si un familiar te ayuda en combate, es probable que su movimiento especial dañe a los atacantes cuando uses un pergamino.
+            - **Pikkupstix:** Por otro lado, si un familiar es más pacífico por naturaleza, entonces su movimiento especial podría curarte o proporcionarte medios para entrenar tus otras habilidades, ese tipo de cosas.
+            - **Player:** ¿Los movimientos especiales del familiar son similares a sus habilidades normales?
+            - **Pikkupstix:** En general, no. Pero los movimientos especiales de algunos familiares pueden ser una versión más poderosa de su habilidad normal.
+            - **Pikkupstix:** Tomemos como ejemplo el espíritu lobo. Su movimiento especial y su habilidad normal son esencialmente los mismos.
+            - **Pikkupstix:** Sin embargo, el movimiento especial se puede usar con cualquier oponente cercano, mientras que la habilidad normal solo funciona con aquellos oponentes con los que estás luchando actualmente.
+            - **Pikkupstix:** Si tu familiar está peleando contigo, usará su habilidad normal siempre que pueda.
+            - **Pikkupstix:** Sin embargo, no utilizará su movimiento especial a menos que tú se lo hayas pedido expresamente, activando un pergamino.
+            - **Player:** Ya veo. Gracias por la información.
+            - **Pikkupstix:** ¿Te gustaría saber algo más sobre Summoning?
+            - (otro)
+          - [Choice]: Cuénteme sobre los artículos cargados.
+            - **Pikkupstix:** Los elementos cargados son muy sencillos de crear, si tienes el nivel Crafting correcto.
+            - **Pikkupstix:** Si no, entonces puedes simplemente comprarme un par de astas o un cráneo de lagarto. Puedes tomar un objeto que se pueda cargar, generalmente un tocado, y adjuntarle pergaminos.
+            - **Pikkupstix:** Los pergaminos luego se guardan en el tocado. Los pergaminos de combate agresivos, sin embargo, son los únicos que se pueden utilizar de esta manera.
+            - **Player:** ¿Por qué?
+            - **Pikkupstix:** Bueno, un pergamino en un objeto cargado solo se activará cuando reciba suficiente poder.
+            - **Pikkupstix:** Dado que esto solo puede suceder por el impacto del combate, tiene sentido que aquí solo se puedan almacenar pergaminos basados en el combate. Tu familiar detectará el pergamino activado y te defenderá.
+            - **Player:** ¿De qué tipo de impacto estamos hablando aquí?
+            - **Pikkupstix:** Oh, nada demasiado grave: apuñalamientos, explosiones, flechas en el torso... ese tipo de cosas.
+            - **Player:** ¿Qué?
+            - **Pikkupstix:** Oh, vamos; Un chico fornido como tú apenas lo sentirá. ¡Tu oponente, sin embargo, ciertamente sentirá el poder de tu represalia!
+            - **Pikkupstix:** De todos modos, un impacto no es suficiente; Se necesitarán una serie de golpes para activar el poder del objeto cargado.
+            - **Player:** Entonces, ¿esto permitirá a los familiares realizar movimientos especiales de otros familiares? ¿O funcionará si no tengo ningún familiar?
+            - **Pikkupstix:** No. Al igual que con el método normal de instigar un movimiento especial, se requiere el pergamino correcto para el familiar correcto.
+            - **Pikkupstix:** Incluso si algún poder de pergamino dreadfowl estuviera flotando en el aire, un espíritu lobo no podría hacer nada con él.
+            - **Player:** ¿Qué sucede cuando el artículo se agota? ¿Se desintegran o algo así?
+            - **Pikkupstix:** ¡Solo si los has hecho de mala calidad!
+            - **Pikkupstix:** Los elementos deberían ser útiles durante mucho tiempo. Cuando te quedas sin cargas, simplemente necesitas adjuntar más pergaminos.
+            - **Player:** Eso es un alivio.
+            - **Pikkupstix:** ¿Te gustaría saber algo más sobre Summoning?
+            - (otro)
+          - [Choice]: Háblame de mascotas.
+            - **Pikkupstix:** Bueno, estos no son realmente un elemento de la habilidad como tal, sino más bien un efecto secundario del entrenamiento.
+            - **Pikkupstix:** Básicamente, cuanto más alto es el nivel de Summoning que tiene un aventurero, más en sintonía se vuelve con la naturaleza.
+            - **Pikkupstix:** Como resultado, pueden acercarse a animales que de otro modo huirían de ellos.
+            - **Pikkupstix:** Esto significa que podrás hacerte amigo y criar varios animales de todo el mundo.
+            - **Player:** Entonces, ¿qué tendré que hacer para criar a estas mascotas?
+            - **Pikkupstix:** Oh, la mayoría de ellos estarán muy contentos de seguirte. Sólo tienes que alimentarlos y asegurarte de que en general estén sanos.
+            - **Pikkupstix:** El objetivo de todo invocador es poder criar un dragón, pero pocos han podido realizar esta hazaña.
+            - **Player:** ¡Guau! Imagínese cabalgando sobre un dragón, ¡incluso luchando con él!
+            - **Pikkupstix:** ¡Esa no es la actitud correcta en absoluto!
+            - **Player:** ¿Qué?
+            - **Pikkupstix:** Cuando crías una mascota, se convierte en tu responsabilidad: tu amigo.
+            - **Pikkupstix:** No puedes ir a la batalla montado en tu amigo ni obligarlo a luchar por ti. Estos no son familiares espirituales: ¡si mueren, mueren!
+            - **Player:** No me di cuenta.
+            - **Pikkupstix:** Bueno, ahora ya lo sabes.
+            - **Pikkupstix:** Las mascotas no luchan por ti, no lanzan hechizos ni tienen habilidades extrañas, y ciertamente no puedes montarlas. Son animales que crías desde que naces para que te sigan allá donde vayas.
+            - **Pikkupstix:** Recuerda eso y cuídalos bien.
+            - **Player:** ¡Lo haré!
+            - **Pikkupstix:** ¿Te gustaría saber algo más sobre Summoning?
+            - (otro)
+      - [Choice]: ¿Puedo comprar algunos suministros Summoning?
+        - **Player:** ¿Puedo comprar algunos suministros de invocación, por favor?
+        - **Pikkupstix:** ¡Si quieres! Es bueno verte entrenar.
+        - (opens=Pikkupstix's Summoning Shop)
+      - [Choice]: He notado que hay un par de versiones de cada skillcape.
+        - **Pikkupstix:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
+        - (Condition: Si usas el modelo antiguo:)
+          - **Pikkupstix:** Parece que actualmente estás usando el modelo anterior para tu Summoning skillcape. ¿Quieres cambiar a uno más nuevo?
+          - (continue)
+        - (Condition: Si utiliza el nuevo modelo:)
+          - **Pikkupstix:** Aún puedes optar por usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
+          - (continue)
+        - [Menu]: Selecciona una opción
+          - [Choice]: Sí, me gustaría usar la versión [new/old] del skillcape.
+            - **Pikkupstix:** ¿Te gustaría usar el modelo [old/newer] solo para esta capa, o para el Quest Cape y todos los skillcapes que tienes?
+            - [Menu]: Selecciona una opción
+              - [Choice]: Sólo me gustaría cambiar la convocatoria skillcape.
+                - **Pikkupstix:** No hay problema, ahora usarás el modelo [older/newer] para invocar a skillcape.
+              - [Choice]: Me gustaría cambiar todos mis skillcapes.
+                - **Pikkupstix:** ¡No hay problema, ahora usarás el modelo [older/newer] para todos tus skillcapes!
+              - [Choice]: ¡He cambiado de opinión!
+                - (end)
+          - [Choice]: No, gracias.
+            - **Pikkupstix:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
+            - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+              - **Pikkupstix:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
+              - [Menu]: Selecciona una opción
+                - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.
+                  - **Pikkupstix:** ¡Genial, ahora usarás el modelo antiguo para todos tus skillcapes!
+                - [Choice]: No, gracias.
+                  - (end)
+  - [Choice]: cond=After Wolf Whistle|Necesito preguntarte algo sobre la misión...
+    - **Pikkupstix:** ¡Bien hecho! ¡Escuché la noticia! ¡Has salvado a mis asistentes de un destino peor que la muerte!
+    - **Player:** Sí, ese wolpertinger gigante realmente marcó la diferencia.
+    - **Player:** Dime, ¿tienes las piezas necesarias para invocarlo nuevamente? Estoy seguro de que sería útil.
+    - **Pikkupstix:** No, me temo que no. Las piezas que usaste eran raras... únicas en algunos casos.
+    - **Pikkupstix:** Pero al final se agotaron todos para una buena causa. Y fue necesario un héroe como tú para lograrlo.
+    - **Player:** Maldita sea. Bueno, al menos Bowloftrix es seguro...
+    - **Player:** ...por ahora.
+    - **Pikkupstix:** ¿Qué fue eso?
+    - **Player:** Nada.
+    - **Pikkupstix:** De todos modos, una vez que hayan descansado, los enviaré a esos dos a recolectar algunas de esas hierbas altamente venenosas que necesito para mi investigación.
+    - **Pikkupstix:** Crecen en un lugar bastante peligroso en wilderness. Dime, ¿te gustaría ser mi asistente también?
+    - **Player:** ¡Me tengo que ir! ¡Mira la hora! ¡Mi horno está encendido y necesito alimentar al gato!
+    - **Pikkupstix:** Qué extraño... eso es lo que dice la mayoría de la gente cuando les pregunto eso.
+    - **Pikkupstix:** ¿Hay algo más en lo que pueda ayudarte?
+    - (otro)
+  - [Choice]: Habla de Pikkenmix.
+    - **Player:** Estoy aquí para hablar sobre los obeliscos que Pikkenmix está investigando.
+    - **Pikkupstix:** Ah, mi aprendiz, Pikkenmix. Está progresando bastante bien, aprendiendo el arte de la familiarización.
+    - [Menu]: Selecciona una opción
+      - [Choice]: Entonces, ¿dónde está Pikkenmix?
+        - **Player:** Entonces, ¿dónde está Pikkenmix?
+        - (Condition: Si la familiarización no está activa:)
+          - **Pikkupstix:** Supongo que estará en algún lugar relajante. Ha estado bastante ocupado últimamente.
+          - **Player:** ¡Adiós!
+        - (Condition: Si la familiarización está activa:)
+          - **Pikkupstix:** Está investigando otro de esos fenómenos del obelisco.
+          - [Menu]: Selecciona una opción
+            - [Choice]: ¿Puedes decirme dónde?
+              - **Player:** ¿Puedes decirme dónde?
+              - **Pikkupstix:** Puedo intentarlo...
+              - Pikkupstix entra en trance...
+              - **Pikkupstix:** ''(Consulta Familiarización#Ubicaciones de Obelisco para obtener una lista completa de diálogos).
+              - [Menu]: Selecciona una opción
+                - [Choice]: ¿Qué significa eso?
+                  - **Player:** ¿Qué significa eso?
+                  - **Pikkupstix:** Lo siento, realmente no sé qué pasa cuando tengo esas visiones. Yo... no hice nada vergonzoso, ¿verdad?
+                  - **Player:** No del todo.
+                  - **Player:** ¡Adiós!
+                - [Choice]: Gracias, eso fue útil.
+                  - **Player:** Gracias, fue útil.
+                  - **Pikkupstix:** De nada.
+                  - **Player:** ¡Adiós!
+            - [Choice]: Bien, gracias.
+              - **Player:** Está bien, gracias.
+              - **Player:** ¡Adiós!
+      - [Choice]: ¿De qué se trata?
+        - **Player:** ¿De qué se trata?
+        - **Pikkupstix:** Bueno, nosotros los druidas hemos estado recolectando fragmentos en bruto del plano espiritual desde hace un tiempo. Sin embargo, recientemente los mini obeliscos han comenzado a brillar y los familiares nos han impedido regresar con fragmentos.
+        - **Pikkupstix:** Si pudieras ayudarnos, sería genial.
+        - **Player:** ¿Cómo puedo ayudar?
+        - (Condition: Si la familiarización está activa:)
+          - **Pikkupstix:** Solo habla con Pikkenmix; Estará investigando uno de los fenómenos.
+          - (continue)
+        - (Condition: Si la familiarización no está activa:)
+          - **Pikkupstix:** Tendrás que esperar hasta que vuelva a ocurrir el fenómeno. Nuestros estudios parecen indicar que ocurren una vez cada dos horas.
+          - (continue)
+        - **Player:** Está bien.
+        - **Player:** ¡Adiós!
+  - [Choice]: cond=After Wolf Whistle|Realmente parece que has tenido algunos problemas con tus asistentes.
+    - **Pikkupstix:** Tienes razón, ha sido bastante difícil desde que comenzó la guerra.
+    - **Player:** Bueno, ¿qué pasó? ¿Los han estado matando los trolls o todo se debe a accidentes?
+    - **Pikkupstix:** Es una mezcla de ambos, de verdad. Para ser honesto, siempre he descubierto que mis asistentes tenían mucho entusiasmo y mucho menos sentido común para la autoconservación.
+    - **Pikkupstix:** Ahora, déjame ver... Ya sabes sobre Stikklebrix... ¿quién más estaba allí?
+    - **Pikkupstix:** Estaba la pobre Lunatrix, que se volvió loca. Intentó comunicarse con algunos espíritus mayores y no estaban contentos.
+    - **Pikkupstix:** La última vez que lo vi, salió corriendo por la puerta con los pantalones en la cabeza...
+    - **Pikkupstix:** Luego estaba Ashtrix. El pobre tonto logró cortarse la mano.
+    - **Pikkupstix:** Habría estado bien, excepto que luego logró clavar una sierra para metales en el muñón y, en su delirio, no dejó que nadie lo ayudara.
+    - **Pikkupstix:** Luego estaba Spartrix, quien fue capturado por Black Knights y tomado como esclavo.
+    - **Pikkupstix:** He oído que intentó liderar una rebelión de esclavos. Lo cual, si bien es noble en sí mismo, no es realmente el tipo de cosas que debería hacer un druida estudioso, enfermizo y de 5 pies de altura.
+    - **Pikkupstix:** Especialmente cuando estás desarmado y te enfrentas a caballeros malvados con una cota de malla completa.
+    - **Pikkupstix:** Veamos... estaban Beezeltrix y el demonio de humo; literalmente perdimos a Felitrix; Esos trolls se llevaron a los gemelos cuando estaban curando a los soldados en la línea del frente...
+    - **Pikkupstix:** ¡Y cuanto menos se hable de Hastrix, mejor!
+    - **Player:** Vaya... realmente no has tenido mucha suerte con los asistentes.
+    - **Pikkupstix:** Ha sido una semana tremendamente ocupada, te lo puedo asegurar.
+    - **Pikkupstix:** Ahora, ¿hay algo más que necesites?
+    - (previous)
+
+### Making a Summoning pouch during the 25th Anniversary celebrations task
+
+- {{RSFontAchievement|That's the Spirit|Create a Summoning pouch using the Taverley summoning obelisk.}}
+- ((Se muestra en una ventana emergente de finalización de tarea:))
+  - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
+  - Ese es el Spirit
+  - Crea una bolsa Summoning usando el obelisco de invocación Taverley.
+  - (continue)
+- **Pikkupstix:** Espera, esa bolsa parece un poco... ¡familiar!
+- **Pikkupstix:** Ajá, sólo un poco de humor druida.
+- **Player:** Pensé que los druidas estaban destinados a vivir en armonía con la naturaleza, no a causarle dolor físico haciendo terribles juegos de palabras.
+- **Pikkupstix:** Todo es un equilibrio. Tomemos como ejemplo el humilde juego de palabras: ¡si no es malo, entonces no es bueno!
+- **Player:** ...
+- **Pikkupstix:** Todo el mundo es crítico. Ese habría tenido a los lobos espirituales... ¡aullando! ¿Consíguelo?
+- (Condition: Si se han completado todas las tareas:)
+  - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!

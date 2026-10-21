@@ -1,0 +1,79 @@
+# Gregg 'Groggy' Herring
+
+- **Original Wiki Page**: [Transcript:Gregg 'Groggy' Herring](https://runescape.wiki/w/Transcript%3AGregg%20%27Groggy%27%20Herring)
+- **Letter**: `G`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+*Gritandole o golpeando la escalera a su lado*
+- **Player:** ¡Hola allá arriba!
+- **Gregg 'Groggy' Herring:** TIENES QUE SH...SHHH...¡HABLA! ¡ES DIFÍCIL *hic* ESCUCHAR AQUÍ!
+- **Player:** ¡HOLA ARRIBA!
+- **Gregg 'Groggy' Herring:** Shhh... No espantar FUERTE... ¡Mi pobre cabeza *hic*!
+- Elige una opción:
+  - ¿Quién eres?
+    - **Player:** Ahoy, marinero. ¿Cómo te llamas?
+    - **Gregg 'Groggy' Herring:** Aahh, hace un tiempo me llamaron con muchos nombresshh... Domador de shoooores... Gregg el Temerario... Portshh-maaah-stah... Arenque el Herrroico... ¡Oh Capitán! ¡Mi *hic* Capitán! Ahora me llaman de otras cosas. La mayoría de ellos no son shooo *eructar* sho agradable...
+    - **Player:** ¿Como el domador de ronquidos, Gregg el Calvo, el maestro del puerto y Herring el Resaca?
+    - **Gregg 'Groggy' Herring:** ¿Cómo lo supiste? *hic* ¿sabías?
+    - **Player:** Sólo una corazonada.
+    - **Gregg 'Groggy' Herring:** Aaanywaysh... Sheesh daysh *hic* en su mayoría simplemente me llaman Ol' Groggy Gregg.
+    - (initial|initial-options)
+  - ¿Qué estás haciendo ahí arriba?
+    - **Player:** ¿Qué haces ahí arriba?
+    - **Gregg 'Groggy' Herring:** Obshe... opshheer... ¡Veo lo que está pasando!
+    - **Player:** ¿Y qué observas?
+    - *Uno de los siguientes diálogos ocurre al azar:*
+      - *Diálogo 1:*
+        - **Gregg 'Groggy' Herring:** Nada papilla... Todos están ocupados pescando peces. Y estoy ocupado vaciando estas botellas, ¡que te vayas!
+        - **Player:** Podrías simplemente guardarlos o verterlos en el mar, si solo quisieras deshacerte de ellos.
+        - **Gregg 'Groggy' Herring:** ¿Estás loco? Eso no es muy bueno para el medio ambiente...emimorm...la naturaleza. ¡Estoy siendo un adulto responsable!
+        - **Player:** Cierto...
+        - (initial|initial-options)
+      - *Diálogo 2:*
+        - **Gregg 'Groggy' Herring:** ¡El gran lavado a pescado aquí! ¡Me hace feliz verlo! Lo sé, la gente a veces piensa que es aterrador, ¡pero creo que simplemente quiere jugar! *eructar*
+        - **Player:** Bueno, fácilmente podría hundir toda la plataforma.
+        - **Gregg 'Groggy' Herring:** ¡Aah, dalderbash, es solo un gran cachorro de mar!
+        - (initial|initial-options)
+      - *Diálogo 3:*
+        - *Antes de devolverle el anillo:*
+          - **Gregg 'Groggy' Herring:** ¡La gran bestia sshhparkly! ¡Oh, ella piensa que está ssheesh toda la ira con todo su tesoro, por shhure! 'Mírame, tengo todo esto djschu...djschuwel...shthuffly shtuff en mi shesst y tú no tienes nada. ¡Ja!'. ¡Pretencioso sheashlosher!
+          - **Player:** ¿Qué tiene eso de malo?
+          - **Gregg 'Groggy' Herring:** Probablemente tiene mi anillo en algún lugar de ese gran estuche de madera suyo. Lo quiero de vuelta... Pero es una larga historia...
+          - (initial|initial-options)
+        - *Después de devolverle su anillo:*
+          - **Gregg 'Groggy' Herring:** ¡Ah, el enorme sheashlosher! ¿No es hermosa? Todo es más bonito con cosas brillantes, ¿verdad?
+          - (initial|initial-options)
+  - ¿Por qué siempre estás tan borracho?
+    - *Antes de devolverle el anillo:*
+      - **Player:** Entonces, ¿por qué estás siempre tan borracho?
+      - **Gregg 'Groggy' Herring:** Ah, bueno... Esa es una historia larga y larga, jeje. ¿De verdad quieres oírlo todo?
+      - ¿Escuchar la historia?
+        - Sí, cuéntame la historia.
+          - **Gregg 'Groggy' Herring:** Muy bien. Allí se lava esta hermosa y joven cantante marina junto a la orilla de una isla llamada Siren'shh Shell *hic*. El sonido de esta sirena retumbó en lo más profundo de mi alma... La escuché durante días y noches antes de reunir el coraje para hablarle. Resultó no solo ser justa sino también amable e inteligente, muy inteligente... A ella le encantaban mis historias de aventuras, y a mí me gustaba todo lo que ella contaba y soñaba... Por supuesto, me enamoré...
+          - **Player:** ¡Oh, déjame adivinar! ¿Le dijiste que ella no quería saber nada y se fue?
+          - **Gregg 'Groggy' Herring:** No del todo. Ella se mostró muy amable al respecto, pero dijo que no podríamos estar juntos. Pero ella me regaló uno de sus bonitos anillos y juró que siempre sería mi amiga, si así lo deseaba. Pero fui un tonto... ¡Me lavo enojado! Tiré su anillo a la ola y le dije que no necesitaba un amigo. ¡Qué tonto... tonto me lavo! Ella desapareció poco después y nunca más volví a verla- *hic*... Y entonces me di cuenta de lo mucho que extrañaba su compañía... Ni siquiera necesitaba que ella fuera mi amante, pero lo entendí... entendí... lo entendí demasiado tarde. *eructar*. Ahora sólo desearía tener todavía su anillo, para recordarme los buenos días y la diversión que tuvimos. Sho ahora, bebo y bebo y espero que eso me hará sentir feliz otra vez.
+          - **Player:** ¿Y está funcionando?
+          - **Gregg 'Groggy' Herring:** En realidad no... Supongo que el alcohol también puede hacerte ciego o tonto o darte coraje... pero todavía no es la vergüenza como el amor... *hic* o la amistad...
+          - **Player:** Hombre, ¡eso es profundo! Estaré atento, tal vez encuentre tu anillo.
+          - (initial|initial-options)
+        - No gracias.
+          - **Gregg 'Groggy' Herring:** Resumida historia: Me enamoré de una cantante de mar, *hic* ella simplemente quería ser amiga. Tiré su anillo de amistad y ahora estoy molesto conmigo mismo por ello... Significó mucho para mí en petrosrec...retroshpe...mirando hacia atrás.
+          - **Player:** Estaré atento, tal vez encuentre tu anillo.
+          - (initial|initial-options)
+    - *Después de devolverle su anillo:*
+      - **Player:** Oye, Groggy Gregg, ¿por qué sigues bebiendo ahora que recuperaste tu anillo?
+      - **Gregg 'Groggy' Herring:** ¡Porque es un hermoso día en el mar y alguien necesita celebrar! ¡Transparentes, queridos! *eructar*
+      - (initial|initial-options)
+  - *Con el anillo en backpack:*
+    - ¿Interesado en este anillo?
+      - **Player:** Escuché que arrojaste un anillo al océano y te arrepentiste.  ¿Será éste, acaso?
+      - **Gregg 'Groggy' Herring:** ¡Tiver me shimbersh! ¡Lo encontraste, astuto lobo de mar! ¡No puedo agradecerte lo suficiente!
+      - **Player:** Está bien, ¡solo espero que puedas recuperar la sobriedad ahora y tener una buena vida!
+      - **Gregg 'Groggy' Herring:** ¡¿Te levantas?! Ja, ja, ja. No, amigo mío, ya estoy demasiado metido, pero al menos ahora brindaré por los momentos felices, no por los tristes. *eructar* ¡Y siento que ahora me dolerá mucho la resaca!
+      - **Player:** No estoy seguro de lo que esperaba, pero me siento un poco triste.
+      - ¡Felicitaciones! Has completado: '¡Mi preciosa!' - Encuentra y devuelve el anillo perdido de Gregg 'Groggy' Herring.
+      - (initial|initial-options)

@@ -1,0 +1,1204 @@
+# Meg
+
+- **Original Wiki Page**: [Transcript:Meg](https://runescape.wiki/w/Transcript%3AMeg)
+- **Letter**: `M`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### At Player-owned ports
+
+
+#### Hablando con Meg
+
+
+##### Primera vez
+
+- **Meg:** Hola-
+- **Meg:** Oh, buen Guthix... ¡eres tú! Quiero decir, ¡eres realmente tú!
+- **Meg:** ¡Soy un gran fan! He estado siguiendo tus aventuras durante... bueno, ¡desde siempre!
+- **Meg:** Yo también soy un aventurero. Bueno, está bien, no soy un aventurero propiamente dicho, ciertamente no de tu calibre, pero he estado en un par de aventuras. Vale, uno.
+- **Meg:** Está bien, soñé despierto con una aventura, ¡pero es algo que realmente quiero hacer!
+- **Meg:** Por cierto, soy Meg...
+- **Meg:** Yo... ejem... ya sé tu nombre.
+- (continue|standard)
+
+##### A partir de entonces
+
+- **Meg:** Hola, ¡es genial verte de nuevo!
+- {{anchor|standard}} [Menú]: seleccione una opción
+  - [Choice]: ¿Cómo van tus aventuras?
+    - **Meg:** Bueno, estaba a punto de participar en uno... pero me vendría bien un pequeño consejo si te apetece. ¡Te daré parte del tesoro que encuentre como agradecimiento!
+    - [Menu]: Selecciona una opción
+      - [Choice]: Claro, pregunta.
+        - *(Meg le hace tres preguntas a el player; a cada pregunta el player da una respuesta y luego Meg responde.)*
+          - **Meg:** Un amigo mío me habló de esta rara raza de tiburón que puede caminar sobre la tierra. He decidido ir a buscar uno. Quedaría genial montado en la pared de mi casa. Erm... ¿tienes alguna idea de cómo haría eso?
+            - Probablemente usarán el sonido para rastrear a sus presas.
+              - (continue|post-advice)
+            - Baila en el suelo para atraerlos.
+              - (continue|post-advice)
+            - Usa kebbits como cebo
+              - (continue|post-advice)
+            - Creo que tu amigo te está tomando el pelo, Meg.
+              - (continue|post-advice)
+            - Cava un foso para atraparlos.
+              - (continue|post-advice)
+            - Mantente en la roca. No nadarán a través de eso
+              - (continue|post-advice)
+            - Cava bajo tierra para encontrarlos.
+              - (continue|post-advice)
+            - Necesitarás un arpón fuerte.
+              - (continue|post-advice)
+            - Mantenerse por encima del suelo
+              - (continue|post-advice)
+            - Usa fuego para atraparlos en un solo lugar.
+              - (continue|post-advice)
+          - **Meg:** Después de derrotar a una banda de lobos de mar con escorbuto, lo cual no he hecho, pero estoy muy cerca de lograrlo, ¿cuál es la mejor manera de llevarme mi botín?
+            - Llévate las piezas más valiosas contigo.
+              - (continue|post-advice)
+            - No te dejes llevar por la avaricia. Toma lo que necesites.
+              - (continue|post-advice)
+            - Consigue una bolsa grande y resistente.
+              - (continue|post-advice)
+            - Tira el botín al mar para guardarlo.
+              - (continue|post-advice)
+            - Pídele a los lobos de mar que te lo lleven.
+              - (continue|post-advice)
+          - **Meg:** ¿Algún consejo general para ser sigiloso? Quiero escabullirme entre algunas personas que parecen bastante aterradoras.
+            - Mantente en las sombras y cúbrete con colores oscuros.
+              - (continue|post-advice)
+            - Manténgase en las sombras.
+              - (continue|post-advice)
+            - Muévete lenta y cuidadosamente.
+              - (continue|post-advice)
+            - Muévete rápido.
+              - (continue|post-advice)
+            - Hazte destacar, no se lo esperarán.
+              - (continue|post-advice)
+          - **Meg:** ¿Tienes algún consejo para lidiar con trampas mágicas?
+            - Investigalos cuidadosamente
+              - (continue|post-advice)
+            - Intente activarlos de forma remota.
+              - (continue|post-advice)
+            - Los hechizos protectores son tus amigos.
+              - (continue|post-advice)
+            - Dispárales primero.
+              - (continue|post-advice)
+            - Sólo usa la fuerza bruta.
+              - (continue|post-advice)
+          - **Meg:** ¿Has escuchado las historias de zombies en Karamja? ¿Una terrible maldición que convierte a las personas en monstruos? Es horrible y voy a encontrar una manera de ponerle fin. Escucho historias sobre un artefacto que puede curarlo: una bolsa llena de un extraño polvo mágico, así que voy a encontrarlo. ¿Alguna idea de dónde debería buscar?
+            - Las selvas serían un buen lugar para esconderlo.
+              - (continue|post-advice)
+            - Busque en las cuevas alrededor de Karamja.
+              - (continue|post-advice)
+            - Entra sigilosamente en Legends' Guild y comprueba si lo saben.
+              - (continue|post-advice)
+            - Investiga las fuentes de la magia.
+              - (continue|post-advice)
+            - Prueba los pueblos.
+              - (continue|post-advice)
+            - Pregúntale a la población local.
+              - (continue|post-advice)
+            - Interroga a un broodoo victim.
+              - (continue|post-advice)
+            - Interrogar a un jogre.
+              - (continue|post-advice)
+            - Mira en el corazón del volcán.
+              - (continue|post-advice)
+            - Pruebe usted mismo el ritual broodoo en busca de inspiración.
+              - (continue|post-advice)
+          - **Meg:** He oído hablar de una excelente manera de mejorar mi conexión con lo espiritual, algo llamado... ejem... ¿ecto-hongo? Sí, el ecto-hongo está en algún lugar de Morytania, y buscaré encontrar este hongo fantasmal.... ¿Algún consejo?
+            - He oído que está cerca de Port Phasmatys.
+              - (continue|post-advice)
+            - Trabaja en tu agilidad: te ayudará.
+              - (continue|post-advice)
+            - Se llama Ectofuntus, Meg.
+              - (continue|post-advice)
+            - Necesitarás huesos, ollas y baldes.
+              - (continue|post-advice)
+            - Creo que deberías investigar más antes de ir.
+              - (continue|post-advice)
+            - Morytania es peligroso. Ten cuidado.
+              - (continue|post-advice)
+            - El hongo crece en áreas oscuras y húmedas.
+              - (continue|post-advice)
+            - Sigue a los fantasmas. Ellos te llevarán allí.
+              - (continue|post-advice)
+            - Golpea a algunos hombres lobo. Ellos te dirán dónde está.
+              - (continue|post-advice)
+            - He oído que está en el corazón de la ciudad vampyre.
+              - (continue|post-advice)
+          - **Meg:** He oído historias de extrañas langostas que se encuentran en lo profundo de los pantanos de Morytania. Langostas que han sido retorcidas por las fuerzas malévolas que allí residen. Tan retorcido que su piel se ha vuelto negra como la obsidiana. Así que voy a buscar algunos. ¿Alguna sugerencia?
+            - Son sólo langostas quemadas, Meg.
+              - (continue|post-advice)
+            - Alguien estaba intentando engañarte, Meg.
+              - (continue|post-advice)
+            - No te vayas Meg. Son mentiras.
+              - (continue|post-advice)
+            - ¿Quedaron muy crujientes?
+              - (continue|post-advice)
+            - Trae una red para langostas.
+              - (continue|post-advice)
+            - Prepárate para la decepción.
+              - (continue|post-advice)
+            - Se esconderán en estanques profundos.
+              - (continue|post-advice)
+            - Estarán cerca de fantasmas.
+              - (continue|post-advice)
+            - Claro, pero primero, déjame cortarte las gemas.
+              - (continue|post-advice)
+            - He oído que saben particularmente bien.
+              - (continue|post-advice)
+          - **Meg:** He oído que en lo profundo de los pantanos de Morytania, vive una bruja con un poder terrible y oscuro. Entonces, voy a ir a robar su libro de hechizos. ¿Algún consejo?
+            - Reconsiderar. Las brujas pueden ser impredecibles.
+              - (continue|post-advice)
+            - Asegúrate de tener una fuerte defensa mágica.
+              - (continue|post-advice)
+            - Trae algunos aliados para que te apoyen.
+              - (continue|post-advice)
+            - Sea sigiloso; espera hasta que ella se vaya.
+              - (continue|post-advice)
+            - Oferta para cambiarlo.
+              - (continue|post-advice)
+            - Pregúntale a otra bruja primero.
+              - (continue|post-advice)
+            - Prendió fuego a su casa.
+              - (continue|post-advice)
+            - Tírale piedras.
+              - (continue|post-advice)
+            - Investiga la vida como un sapo.
+              - (continue|post-advice)
+            - Pínchala con cucharas. Las brujas odian las cucharas.
+              - (continue|post-advice)
+          - **Meg:** Escuché que hay una taza que nunca se queda sin agua. Me preguntaba si podría usar eso a mi favor... si pudiera encontrarlo.
+            - Aprende el encantamiento que lo hace funcionar.
+              - (continue|post-advice)
+            - Podrías ayudar a los necesitados durante las sequías.
+              - (continue|post-advice)
+            - Podría mantenerte hidratado en el desierto.
+              - (continue|post-advice)
+            - Póngalo de lado y gradualmente desgaste el muro de la fortaleza.
+              - (continue|post-advice)
+            - Práctico para lavar tu ropa.
+              - (continue|post-advice)
+          - **Meg:** Puede que haya molestado a algunas personas. ¿Cuál es una buena manera de lidiar con una multitud enojada?
+            - Coloca una trampa de antemano.
+              - (continue|post-advice)
+            - Consiga la ventaja de jugar en casa.
+              - (continue|post-advice)
+            - Consigue ayuda.
+              - (continue|post-advice)
+            - Coloca trampas explosivas a tu alrededor.
+              - (continue|post-advice)
+            - Llévales la pelea.
+              - (continue|post-advice)
+          - **Meg:** Conocí a este tipo realmente raro en Karamja el otro día, seguía hablándome sobre esta planta como si estuviera viva. Extraño. Sin embargo, me presentó a estas pequeñas criaturas extrañas y una forma de cazarlas para hacer pociones. Pensé que podría ser útil. ¿Algún consejo?
+            - Asegúrate de que tus habilidades agrícolas estén a la altura.
+              - (continue|post-advice)
+            - Esté atento a las razas raras de jadinko.
+              - (continue|post-advice)
+            - Haz frascos de cazadores de juju.
+              - (continue|post-advice)
+            - Lleva pociones de cazador.
+              - (continue|post-advice)
+            - Coloca muchas trampas.
+              - (continue|post-advice)
+            - Use camuflaje.
+              - (continue|post-advice)
+            - Utilice trampas de caja normales.
+              - (continue|post-advice)
+            - Utilice trampas mortales.
+              - (continue|post-advice)
+            - Corta trozos de enredadera para atraparlos.
+              - (continue|post-advice)
+            - Ese tipo está loco. Simplemente atrapa las cosas con fuego.
+              - (continue|post-advice)
+          - **Meg:** Puede que me esté excediendo un poco con esta aventura. Mira, he oído que podría haber una mazmorra secreta en Morytania, una creada por un poderoso nigromante y, bueno, eso significa que podría haber oscuros secretos por descubrir. Entonces... voy a investigar. ¿Algún consejo que me ayude a volver con vida?
+            - Necromancy parece tener efectos secundarios desagradables. Ten cuidado.
+              - (continue|post-advice)
+            - No vayas solo.
+              - (continue|post-advice)
+            - Lleva equipo que sea bueno contra los no-muertos.
+              - (continue|post-advice)
+            - Tenga a mano las runas de teletransporte.
+              - (continue|post-advice)
+            - Anota lo que encuentres en un diario.
+              - (continue|post-advice)
+            - No dejes que los zombies te muerdan.
+              - (continue|post-advice)
+            - Bebe cualquier poción que encuentres.
+              - (continue|post-advice)
+            - Ve en secreto para que nadie pueda traicionarte.
+              - (continue|post-advice)
+            - Si un zombie te muerde, devuélvele el mordisco.
+              - (continue|post-advice)
+            - Si encuentras algo, lanza el hechizo más grande que puedas.
+              - (continue|post-advice)
+          - **Meg:** Creo que soy mucho mejor siendo sigiloso, así que voy a poner a prueba mis habilidades. He decidido colarme en la ciudad vampyre y robar algo de allí. ¿Alguna sugerencia?
+            - Busque un grupo de resistencia vampyre.
+              - (continue|post-advice)
+            - Encuentra un buen disfraz.
+              - (continue|post-advice)
+            - Tenga un plan de escape rápido.
+              - (continue|post-advice)
+            - Los Vampyres son difíciles de engañar.
+              - (continue|post-advice)
+            - Reconsiderar. Vampyres son mortales.
+              - (continue|post-advice)
+            - Crea una distracción.
+              - (continue|post-advice)
+            - Manténgase en las sombras.
+              - (continue|post-advice)
+            - Manténgase en el terreno elevado.
+              - (continue|post-advice)
+            - Está oscuro, así que trae una fuente de luz.
+              - (continue|post-advice)
+            - Márcate con sangre. No te investigarán.
+              - (continue|post-advice)
+          - **Meg:** Quiero vincular a un elemental para que me sirva. ¿Alguna idea?
+            - Déjelo en manos del Wizards' Tower.
+              - (continue|post-advice)
+            - Intente negociar con uno, en lugar de obligarlo.
+              - (continue|post-advice)
+            - Usa el elemento opuesto para controlar uno.
+              - (continue|post-advice)
+            - Obligar a uno a someterse con violencia.
+              - (continue|post-advice)
+            - Invoca magia demoníaca.
+              - (continue|post-advice)
+          - **Meg:** Quiero cruzar terreno más rápido. ¿Qué animales son seguros para montar?
+            - Ninguno que yo sepa.
+              - (continue|post-advice)
+            - Supongo que los unicornios, si puedes domesticarlos.
+              - (continue|post-advice)
+            - Yo me quedaría con ir a pie.
+              - (continue|post-advice)
+            - Osos.
+              - (continue|post-advice)
+            - Elementales de fuego.
+              - (continue|post-advice)
+          - **Meg:** Quiero centrarme en la lucha con espadas. ¿Algún consejo?
+            - Trata la espada como una extensión de tu brazo.
+              - (continue|post-advice)
+            - Recuerde: la espada puede hacer más que simplemente apuñalar.
+              - (continue|post-advice)
+            - Mantenga el extremo puntiagudo alejado de usted.
+              - (continue|post-advice)
+            - Lánzalo a tu enemigo.
+              - (continue|post-advice)
+            - Haz malabarismos con ellos para asustar a tu enemigo.
+              - (continue|post-advice)
+          - **Meg:** Quiero entrenar a un animal para que me ayude. ¿Qué recomendarías?
+            - Los perros son leales y tienen un gran olfato.
+              - (continue|post-advice)
+            - Las aves tienen una gran variedad de viajes.
+              - (continue|post-advice)
+            - Los hurones pueden pasar por pequeños huecos.
+              - (continue|post-advice)
+            - Los gatos son lindos.
+              - (continue|post-advice)
+            - Los osos son cariñosos y amigables.
+              - (continue|post-advice)
+          - **Meg:** Estaba... ejem... trabajando en abrir puertas para las que, estrictamente hablando, no tengo las llaves. ¿Puedo elegir tu cerebro?
+            - Consigue algunas ganzúas de buena calidad.
+              - (continue|post-advice)
+            - Ubique entradas alternativas.
+              - (continue|post-advice)
+            - Primero asegúrese de que el lugar esté vacío.
+              - (continue|post-advice)
+            - Simplemente derriba la puerta de una patada.
+              - (continue|post-advice)
+            - Quédate afuera y grita '¡fuego!'
+              - (continue|post-advice)
+          - **Meg:** Estaba intentando desarmar a alguien a distancia, pero es complicado. ¿Qué debo hacer?
+            - Apunta a su brazo en lugar de a su mano.
+              - (continue|post-advice)
+            - Utilice una ballesta para mayor precisión.
+              - (continue|post-advice)
+            - Intenta lanzar daggers.
+              - (continue|post-advice)
+            - Usa un cañón.
+              - (continue|post-advice)
+            - Apunta a su cabeza. Eso los desarmará.
+              - (continue|post-advice)
+          - **Meg:** Me preguntaba cómo lucho contra un pirata con un anzuelo.
+            - Mantén tu distancia.
+              - (continue|post-advice)
+            - Con cuidado, trate el anzuelo como si fuera un arma.
+              - (continue|post-advice)
+            - Desármalo rápidamente.
+              - (continue|post-advice)
+            - Pon un corcho en el anzuelo.
+              - (continue|post-advice)
+            - Ignóralo. centrarse en su arma principal.
+              - (continue|post-advice)
+          - **Meg:** Me preguntaba cuál sería la mejor arma para atravesar la densa maleza.
+            - Un machete fuerte.
+              - (continue|post-advice)
+            - Una espada afilada.
+              - (continue|post-advice)
+            - Un buen cuchillo.
+              - (continue|post-advice)
+            - Un látigo con cuchillas.
+              - (continue|post-advice)
+            - Un martillo de guerra.
+              - (continue|post-advice)
+          - **Meg:** Tendré que viajar a través de redes de cuevas. ¿Algún consejo?
+            - Consigue un casco de minero.
+              - (continue|post-advice)
+            - Habla con los enanos para pedir sugerencias.
+              - (continue|post-advice)
+            - Trae cuerda. Mucha cuerda.
+              - (continue|post-advice)
+            - Lubricate para poder deslizarte por espacios reducidos.
+              - (continue|post-advice)
+            - Sumérgete directamente.
+              - (continue|post-advice)
+          - **Meg:** Estoy intentando encantar mi espada con runas, pero no parece funcionar. ...?
+            - El encantamiento no funciona de esa manera.
+              - (continue|post-advice)
+            - Necesitarás un hechizo de encantamiento.
+              - (continue|post-advice)
+            - Vaya a Wizards' Tower para obtener ayuda.
+              - (continue|post-advice)
+            - Haz una espada con esencia de runas.
+              - (continue|post-advice)
+            - Come esencia de runas para estar en sintonía con tu espada.
+              - (continue|post-advice)
+          - **Meg:** Me preocupan los insectos. ¿Alguna idea de cómo protegerse contra ellos?
+            - A los insectos no les gusta el humo.
+              - (continue|post-advice)
+            - Cuando esté en una tienda de campaña, cubra los huecos con una red.
+              - (continue|post-advice)
+            - Evite caminar cerca de la urticaria.
+              - (continue|post-advice)
+            - Ignoralos. Necesitas endurecerte.
+              - (continue|post-advice)
+            - Cúbrete de miel.
+              - (continue|post-advice)
+          - **Meg:** Me han retado formalmente a mi primer duelo. ¡Por favor ayuda!
+            - Primero, observe la arena.
+              - (continue|post-advice)
+            - Investiga a tu oponente.
+              - (continue|post-advice)
+            - Primero revisa tus armas.
+              - (continue|post-advice)
+            - Sabotea su arma de antemano.
+              - (continue|post-advice)
+            - No aparezcas.
+              - (continue|post-advice)
+          - **Meg:** He descubierto un antiguo templo lleno de muertos vivientes. ¿Cómo los mato?
+            - Trae un grupo.
+              - (continue|post-advice)
+            - Ármate con armas poderosas.
+              - (continue|post-advice)
+            - Llevar comida para curarse.
+              - (continue|post-advice)
+            - Los no-muertos son débiles. Simplemente entra.
+              - (continue|post-advice)
+            - Usa el hechizo Bones to Peaches en los esqueletos.
+              - (continue|post-advice)
+          - **Meg:** Encontré una cascada que necesito reducir. ¿Qué es lo mejor que se puede hacer?
+            - Encuentra un camino cercano.
+              - (continue|post-advice)
+            - Escale el acantilado, no la caída.
+              - (continue|post-advice)
+            - Ata una cuerda a la cima para controlar tu descenso.
+              - (continue|post-advice)
+            - Pruebe primero una balsa.
+              - (continue|post-advice)
+            - Cierra los ojos y espera.
+              - (continue|post-advice)
+          - **Meg:** He oído rumores sobre una casa embrujada. ¿Alguna idea sobre cómo debería investigar?
+            - Descubra por qué los fantasmas lo persiguen.
+              - (continue|post-advice)
+            - Habla primero con un exorcista.
+              - (continue|post-advice)
+            - Trae sal.
+              - (continue|post-advice)
+            - Ve solo. Llamarás menos la atención.
+              - (continue|post-advice)
+            - Apuñala a los fantasmas.
+              - (continue|post-advice)
+          - **Meg:** He notado varios fantasmas inquietos deambulando por Gielinor y quiero ayudar. He decidido convertirme en exorcista y liberar a estos espíritus. Erm... ¿no crees que tienes idea de cómo hago eso?
+            - Father Urhney es un hábil exorcista. Él puede ayudar.
+              - (continue|post-advice)
+            - Intenta descubrir qué mantiene atrapados a los espíritus.
+              - (continue|post-advice)
+            - Un amuleto de habla fantasmal sería útil.
+              - (continue|post-advice)
+            - Dales un entierro digno.
+              - (continue|post-advice)
+            - Sal y agua bendita.
+              - (continue|post-advice)
+            - Consigue que un sacerdote te ayude.
+              - (continue|post-advice)
+            - Simplemente ignóralos.
+              - (continue|post-advice)
+            - Destrúyelos con magia.
+              - (continue|post-advice)
+            - Dáselos a un demonio.
+              - (continue|post-advice)
+            - Átalos para que te sirvan.
+              - (continue|post-advice)
+          - **Meg:** Dios mío. Espero aventurarme en Lumbridge, pero estoy un poco preocupado por cómo lidiar con la población de duendes.
+          - **Meg:** ¿Algún consejo? ¡Un gran aventurero como tú debe saber algo!
+            - Distráelos primero con algo brillante.
+              - (continue|post-advice)
+            - Intenta atacar desde la distancia. Suelen estar basados ​​en combates cuerpo a cuerpo.
+              - (continue|post-advice)
+            - Los duendes son bastante débiles. Sólo sé valiente.
+              - (continue|post-advice)
+            - Ataca rápidamente, antes de que puedan atacarte.
+              - (continue|post-advice)
+            - Un golpe rápido al estómago suele funcionar.
+              - (continue|post-advice)
+            - Hazte parecer intimidante.
+              - (continue|post-advice)
+            - Trabaja en contraataques, no en ataques.
+              - (continue|post-advice)
+            - Lánzales piedras.
+              - (continue|post-advice)
+            - Son inofensivos. Sólo golpéalos.
+              - (continue|post-advice)
+            - Sólo recuerda burlarte de Bandos.
+              - (continue|post-advice)
+          - **Meg:** ¡Oh, buen Guthix! ¡Yo-yo-yo fui atacado por... por ROCAS! ¡ROCAS! Simplemente parecieron moverse por sí solos y fueron hacia mí. Los rechacé, pero estuvo cerca. Me han dicho que se llaman "cangrejos de roca". ¿Tienes algún consejo sobre ellos?
+            - Luchar contra cangrejos de roca es un buen entrenamiento de combate.
+              - (continue|post-advice)
+            - Sus formas rocosas se pueden identificar, si eres observador.
+              - (continue|post-advice)
+            - Los picos son buenos contra ellos.
+              - (continue|post-advice)
+            - Tienen una fuerte defensa. Ten cuidado.
+              - (continue|post-advice)
+            - Usa un multicañón enano.
+              - (continue|post-advice)
+            - Tenga cuidado de no lastimarse demasiado.
+              - (continue|post-advice)
+            - Disfrázate de roca.
+              - (continue|post-advice)
+            - Simplemente huye gritando.
+              - (continue|post-advice)
+            - ¡Escupen fuego!
+              - (continue|post-advice)
+            - Son muy venenosos. ¡HUYE, MEG!
+              - (continue|post-advice)
+          - **Meg:** Oh, descubrí algo terrible en mis viajes a Morytania. Hay personas que no son lo que parecen. En un momento son humanos normales, pero al siguiente se convierten en enormes criaturas gruñedoras. Necesito saber cómo lidiar con ellos. ¿Alguna sugerencia?
+            - He oído que hay un arma mágica que ayudará.
+              - (continue|post-advice)
+            - Attack desde la distancia.
+              - (continue|post-advice)
+            - Pruebe primero la diplomacia.
+              - (continue|post-advice)
+            - Trae comida. Pueden golpear fuerte.
+              - (continue|post-advice)
+            - Dan miedo, pero son mortales.
+              - (continue|post-advice)
+            - Intenta matarlos antes de que cambien.
+              - (continue|post-advice)
+            - Sello en su cola.
+              - (continue|post-advice)
+            - Golpéalos en la nariz.
+              - (continue|post-advice)
+            - Empujarlos repetidamente; No pueden pelear si están enojados.
+              - (continue|post-advice)
+            - Insulta su pelaje.
+              - (continue|post-advice)
+          - **Meg:** Oh, es horrible: esa pobre gente de Morytania, obligada a vivir bajo el yugo de crueles amos de vampyre. Voy a salvar a tantos como pueda. Me mataré un poco de vampyres. Ahh... ¿alguna idea de cómo haría eso?
+            - A Vampyres no le gusta la plata.
+              - (continue|post-advice)
+            - He oído que necesitas una poción para derrotarlos.
+              - (continue|post-advice)
+            - Ten cuidado. Vampyres son muy peligrosos.
+              - (continue|post-advice)
+            - Necesitarás un arma especial para derrotarlos.
+              - (continue|post-advice)
+            - Apostarlos.
+              - (continue|post-advice)
+            - Creo que el agua bendita es eficaz.
+              - (continue|post-advice)
+            - Arrástrelos hacia la luz del sol.
+              - (continue|post-advice)
+            - Primero cubre tu espada con ajo.
+              - (continue|post-advice)
+            - Simplemente apuñalalos.
+              - (continue|post-advice)
+            - Lucha contra ellos con las manos desnudas.
+              - (continue|post-advice)
+          - **Meg:** Oh, ya que te tengo, estaba planeando ver si podía usar un arco y una flecha como una especie de gancho de agarre. ¿Qué opinas?
+            - Sería mejor que usaras una ballesta.
+              - (continue|post-advice)
+            - Las flechas generalmente no son buenas para sostener peso.
+              - (continue|post-advice)
+            - Utilice las flechas como puntos de apoyo en su lugar.
+              - (continue|post-advice)
+            - Apunta la flecha en un ángulo hacia abajo.
+              - (continue|post-advice)
+            - Utilice flechas llameantes, para que se derritan un poco en la superficie.
+              - (continue|post-advice)
+          - **Meg:** Bien, un amigo mío me dijo que escuchó rumores sobre un poderoso mayal que fue empuñado por uno de los generales de Saradomin allá por las Guerras de Dios. Voy a ir a buscarlo. ¿Tiene alguna sugerencia sobre por dónde empezar?
+            - Ten cuidado. Un arma así estará protegida.
+              - (continue|post-advice)
+            - Asegúrate de poder confiar en tu amigo.
+              - (continue|post-advice)
+            - Los seguidores de Saradomin quizás sepan algo.
+              - (continue|post-advice)
+            - Pregunta por ahí. En ocasiones, los rumores se basan en la verdad.
+              - (continue|post-advice)
+            - Busque en ruinas antiguas.
+              - (continue|post-advice)
+            - Es sólo un rumor.
+              - (continue|post-advice)
+            - Déjamelo a mí. Lo encontraré eventualmente.
+              - (continue|post-advice)
+            - Es claramente mentira, Meg. ¿Por qué molestarse en mirar?
+              - (continue|post-advice)
+            - Sigue comprando mayales hasta que consigas el correcto.
+              - (continue|post-advice)
+            - Nunca me gustaron los mayales. Demasiado fácil golpearte a ti mismo.
+              - (continue|post-advice)
+          - **Meg:** Bien, tengo un problema. Mmm. Coloqué una serie de trampas mágicas y... me encerré fuera de mi propia casa. ¿Alguna sugerencia?
+            - Estúdialos detenidamente. Volverá a ti.
+              - (continue|post-advice)
+            - Trabaja al revés.
+              - (continue|post-advice)
+            - Actívelos de forma remota.
+              - (continue|post-advice)
+            - Simplemente cargue.
+              - (continue|post-advice)
+            - Mudarse de casa.
+              - (continue|post-advice)
+          - **Meg:** Bien, escuché que puedo cazar lagartos de pantano y usarlos para lanzar fuego a mis enemigos. Eso suena realmente útil. ¿Alguna idea sobre cómo atraparlos?
+            - Cuidado con los fantasmas.
+              - (continue|post-advice)
+            - Busque árboles que no estén podridos.
+              - (continue|post-advice)
+            - No uses nada inflamable.
+              - (continue|post-advice)
+            - Coloca varias trampas para estar seguro.
+              - (continue|post-advice)
+            - Use camuflaje.
+              - (continue|post-advice)
+            - Mantén mucho silencio para evitar asustarlos.
+              - (continue|post-advice)
+            - Las trampas de caja podrían funcionar.
+              - (continue|post-advice)
+            - Las trampas mortales son buenas para ellos.
+              - (continue|post-advice)
+            - Sella sobre ellos.
+              - (continue|post-advice)
+            - Empápate primero con aceite.
+              - (continue|post-advice)
+          - **Meg:** Bien, quería mejorar mi conexión con los poderes divinos y pensé que Lumbridge sería un buen lugar para comenzar. ¿Alguna sugerencia?
+            - Pregúntale a Father Aereck sobre un fantasma para obtener una buena recompensa.
+              - (continue|post-advice)
+            - Las auras de Salvación pueden resultar útiles.
+              - (continue|post-advice)
+            - Los diablillos arrojan cenizas que puedes esparcir.
+              - (continue|post-advice)
+            - Hay muchos duendes de los que conseguir huesos.
+              - (continue|post-advice)
+            - Simplemente compre un montón de huesos de Grand Exchange.
+              - (continue|post-advice)
+            - Asista a los sermones locales.
+              - (continue|post-advice)
+            - Sólo sigue orando. Lo mejorarás de esa manera.
+              - (continue|post-advice)
+            - Enfréntate a personas aleatorias para mostrar tu devoción a los dioses.
+              - (continue|post-advice)
+            - Ignora a Lumbridge y ve directamente a los dragones de hielo.
+              - (continue|post-advice)
+            - Los demonios mayores arrojan unas bonitas cenizas. Puedes derrotarlos, ¿verdad?
+              - (continue|post-advice)
+          - **Meg:** Bien, el otro día estaba hablando con este viejo y sabio aventurero en el pub Poison Arrow, un lugar aterrador, y me contó la historia de El Piskay, el pez demonio del río Lum. ¡Así que voy a atraparlo! Aunque no se me da tan bien el agua… ni los peces… ni las cañas de pescar… ¿Algún consejo?
+            - Creo que deberías empezar con algo más pequeño, Meg.
+              - (continue|post-advice)
+            - ¿Por qué no buscar ayuda con este?
+              - (continue|post-advice)
+            - No estoy seguro de que el pescado sea real, Meg.
+              - (continue|post-advice)
+            - Mantén la calma y no entres en pánico.
+              - (continue|post-advice)
+            - Asegúrese de que la varilla esté segura.
+              - (continue|post-advice)
+            - Descubra primero cuál es el cebo adecuado.
+              - (continue|post-advice)
+            - Si disparas varios arpones a la vez, no fallarás.
+              - (continue|post-advice)
+            - Cómprale una bebida al aventurero y tráelo.
+              - (continue|post-advice)
+            - Lucha hasta someterlo. ¡Serás legendario!
+              - (continue|post-advice)
+            - ¡Represa el río para que no pueda escapar!
+              - (continue|post-advice)
+          - **Meg:** Bien, fui a Lumbridge y noté la gran diferencia de riqueza entre el Duque y sus súbditos y pensé '¿por qué?'. Quiero decir, no es que necesite TODA esa riqueza. Entonces, voy a irrumpir en el castillo y robar de su tesoro para dárselo a los lugareños pobres. Erm... ¿alguna idea de cómo haría eso?
+            - Quizás quieras charlar con el gremio de ladrones.
+              - (continue|post-advice)
+            - El castillo está bastante abierto. Examínelo primero.
+              - (continue|post-advice)
+            - Un disfraz siempre es una buena idea.
+              - (continue|post-advice)
+            - Tome la riqueza en pequeños lotes a lo largo del tiempo.
+              - (continue|post-advice)
+            - Planifique con cuidado.
+              - (continue|post-advice)
+            - Vaya de noche, cuando es más fácil pasar desapercibido.
+              - (continue|post-advice)
+            - Solicita ayuda a los duendes.
+              - (continue|post-advice)
+            - Cava debajo de la torre del pantano.
+              - (continue|post-advice)
+            - Sin sutilezas. Attack directamente: ¡muéstrales quién manda!
+              - (continue|post-advice)
+            - Pide prestado un cañón y sitia el castillo como distracción.
+              - (continue|post-advice)
+          - **Meg:** Está bien, estoy planeando cruzar la Montaña del Lobo Blanco, pero hay... bueno, ¡hay lobos allí! No quiero que me coman. ¿Puedes ayudarme en absoluto? Realmente necesito un consejo.
+            - Sácalos desde la distancia.
+              - (continue|post-advice)
+            - Pasa corriendo junto a ellos y trae comida.
+              - (continue|post-advice)
+            - Recoge sus huesos para invocarlos.
+              - (continue|post-advice)
+            - Use una armadura fuerte para reducir el peligro.
+              - (continue|post-advice)
+            - Podrías simplemente teletransportarte más allá de él.
+              - (continue|post-advice)
+            - Viaja en grupo.
+              - (continue|post-advice)
+            - Ve de noche, para sigilo.
+              - (continue|post-advice)
+            - Cava a través de la montaña.
+              - (continue|post-advice)
+            - Recuerde: los lobos siempre trabajan solos.
+              - (continue|post-advice)
+            - Primero cúbrete con sangre. Eso les asusta.
+              - (continue|post-advice)
+          - **Meg:** Bien, me voy de aventura a la peligrosa ciudad de Lumbridge y escuché sobre esta técnica llamada creación de runas. Parece una habilidad útil y por eso mi misión es investigar. Erm... ¿alguna idea de qué es y dónde debería buscar?
+            - Encuentra la Torre del Mago. Pueden ayudar.
+              - (continue|post-advice)
+            - Pregúntales a los magos sobre Runespan.
+              - (continue|post-advice)
+            - Consíguete una capucha malvada.
+              - (continue|post-advice)
+            - Los duendes a veces dejan caer talismanes cuando son asesinados. Vale la pena echarle un vistazo.
+              - (continue|post-advice)
+            - Primero necesitarás algo de esencia.
+              - (continue|post-advice)
+            - El altar del aire se encuentra al este del río Lum.
+              - (continue|post-advice)
+            - Runecrafting es aburrido. Magic es para mariquitas.
+              - (continue|post-advice)
+            - Fletching es más útil.
+              - (continue|post-advice)
+            - Encuentra runas y luego pinta los símbolos en las rocas.
+              - (continue|post-advice)
+            - Aplasta las runas y usa el polvo.
+              - (continue|post-advice)
+          - **Meg:** Bien, entonces me han encomendado una tarea peligrosa: el... erm... asesinato de un enemigo peligroso. Tengo que matar... ¡EL HURÓN DE LA DOOM! Un Fremennik warrior grande y corpulento llamado Thok me lo contó. ¿Alguna pista o consejo?
+            - Creo que deberías dejar que Thok supere sus propios miedos.
+              - (continue|post-advice)
+            - Creo que su enemigo natural es el cangrejo heim.
+              - (continue|post-advice)
+            - Ponle una trampa.
+              - (continue|post-advice)
+            - Sospecho que no da tanto miedo como dice.
+              - (continue|post-advice)
+            - Acércate sigilosamente por detrás.
+              - (continue|post-advice)
+            - Utilice el sigilo; Quédate en las sombras.
+              - (continue|post-advice)
+            - Colapsa la mazmorra sobre él.
+              - (continue|post-advice)
+            - Ve solo; sólo sé rápido.
+              - (continue|post-advice)
+            - Dile a Thok que es un gran cobarde.
+              - (continue|post-advice)
+            - Espera. Los hurones no viven tanto.
+              - (continue|post-advice)
+          - **Meg:** Bien, he decidido que necesito desarrollar mis habilidades de lucha contra oponentes más aterradores que las gallinas. He decidido poner a prueba mi habilidad con la espada contra el Black Knights. Por supuesto, me gustaría volver con vida de esto, así que me preguntaba si tendrías algún consejo.
+            - Son débiles contra la magia.
+              - (continue|post-advice)
+            - Trae un Caballero Blanco como ayuda.
+              - (continue|post-advice)
+            - Mantén tus nervios tranquilos.
+              - (continue|post-advice)
+            - Puedes curarte en el Monasterio.
+              - (continue|post-advice)
+            - Asegúrate de llevar una buena armadura.
+              - (continue|post-advice)
+            - Llevar comida para curarse.
+              - (continue|post-advice)
+            - Usa una armadura negra para infiltrarte en ellos.
+              - (continue|post-advice)
+            - Traiga un Black Knight como ayuda.
+              - (continue|post-advice)
+            - Vístete con una armadura blanca para que no sospechen de ti.
+              - (continue|post-advice)
+            - Usa armas a distancia. Son débiles contra ellos.
+              - (continue|post-advice)
+          - **Meg:** Bien, he oído rumores de un antiguo templo escondido en algún lugar de la jungla Kharazi. He decidido investigar para ver si puedo ser el primero en descubrirlo. Supongo que no tienes ninguna sugerencia, ¿verdad?
+            - Trae un machete. La jungla es espesa.
+              - (continue|post-advice)
+            - Quizás quieras encontrar a alguien que haya estado allí antes.
+              - (continue|post-advice)
+            - Marca dónde has estado para poder regresar.
+              - (continue|post-advice)
+            - Ármate. Puede que los lugareños no sean amigables.
+              - (continue|post-advice)
+            - Recuerda que es sólo un rumor, Meg.
+              - (continue|post-advice)
+            - Sube a un árbol para tener una mejor vista de la zona.
+              - (continue|post-advice)
+            - Si te atacan, agita tus espadas mientras gritas.
+              - (continue|post-advice)
+            - Las moscas pueden ser una gran fuente de nutrición.
+              - (continue|post-advice)
+            - Pregúntale a un mono.
+              - (continue|post-advice)
+            - Domina a un ala de la muerte y examina el área desde arriba.
+              - (continue|post-advice)
+          - **Meg:** Vale, bueno, la cosa es... Esperaba captar algo en Lumbridge. Algo horrible; algo aterrador más allá de las palabras. Esperaba pescar... camarones. ¡No te rías, son cosas horribles! Babosos y repugnantes... ¿Algún consejo sobre cómo atraparlos eficazmente?
+            - Sólo recuerda que son inofensivos.
+              - (continue|post-advice)
+            - Utilice una pequeña red de pesca y agarre los camarones rápidamente.
+              - (continue|post-advice)
+            - Cocínalos inmediatamente para que no te asusten.
+              - (continue|post-advice)
+            - Use guantes para no tener que sentirlos.
+              - (continue|post-advice)
+            - Simplemente busque los lugares de pesca adecuados.
+              - (continue|post-advice)
+            - Consigue una red y métela en el agua.
+              - (continue|post-advice)
+            - Consigue una caña de pescar y ten paciencia.
+              - (continue|post-advice)
+            - Simplemente cómprelos en Grand Exchange.
+              - (continue|post-advice)
+            - Arpón a los camarones, sabrán quién manda.
+              - (continue|post-advice)
+            - Mete la cabeza y atrápalos con los dientes.
+              - (continue|post-advice)
+          - **Meg:** He querido trabajar en mis habilidades para hacer plumas, pero no consigo conseguir suficientes plumas. Las tiendas no me los venden después de ese desagradable incidente en la competición de tiro con arco. ¡Fue el viento, estoy seguro! De todos modos, he descubierto estas aves que tienen unas plumas azules increíbles, así que, ¿cómo las atrapo?
+            - Coloca varias trampas y ten paciencia.
+              - (continue|post-advice)
+            - Esté atento a los patrones de vuelo favoritos.
+              - (continue|post-advice)
+            - Disfraza las trampas lo mejor que puedas.
+              - (continue|post-advice)
+            - Considere poner semillas en la trampa.
+              - (continue|post-advice)
+            - Realmente no es mi área de especialización.
+              - (continue|post-advice)
+            - Use camuflaje.
+              - (continue|post-advice)
+            - Dispárales con una flecha.
+              - (continue|post-advice)
+            - Cantarles. Los pájaros aman la canción.
+              - (continue|post-advice)
+            - Simplemente golpea a los pájaros con un látigo.
+              - (continue|post-advice)
+            - Prende fuego a los árboles para que solo puedan aterrizar en tu trampa.
+              - (continue|post-advice)
+          - **Meg:** Entonces, me he estado preguntando acerca de esas cositas rojas... diablillos, creo que se llaman. Había algunos en Lumbridge e iba a intentar atrapar uno. ¿Tiene algún consejo?
+            - Intente cebar las trampas con cuentas.
+              - (continue|post-advice)
+            - Cuidado con sus teletransportes.
+              - (continue|post-advice)
+            - Cállate y quédate quieto. No querrás asustarlos.
+              - (continue|post-advice)
+            - Asegúrate de estar usando la trampa correcta.
+              - (continue|post-advice)
+            - Vístete como un monje zamorakiano para que no sospechen de ti.
+              - (continue|post-advice)
+            - Necesitarás usar una caja mágica.
+              - (continue|post-advice)
+            - Dispárales primero.
+              - (continue|post-advice)
+            - Lánzales cuentas para confundirlos.
+              - (continue|post-advice)
+            - Utilice una trampa de caja sencilla. Son más baratos.
+              - (continue|post-advice)
+            - Usa agua bendita sobre ellos. Lo odian.
+              - (continue|post-advice)
+          - **Meg:** Entonces, descubrí que entre mi objetivo y yo hay un ejército de muertos vivientes. ¿Qué debo hacer?
+            - Reducirlos con disparos de cañón.
+              - (continue|post-advice)
+            - No entre en pánico. Los no-muertos son lentos y estúpidos.
+              - (continue|post-advice)
+            - Explosiónalos con magia.
+              - (continue|post-advice)
+            - Pasa sigilosamente por ellos.
+              - (continue|post-advice)
+            - Lucha contra ellos con los puños: son débiles ante los puños.
+              - (continue|post-advice)
+          - **Meg:** Escuché acerca de esta poderosa fuerza demoníaca y me preguntaba si tenías alguna idea de cómo detenerla.
+            - La mayoría de los demonios pueden ser desterrados. Encuentra el ritual.
+              - (continue|post-advice)
+            - Busque un hechizo vinculante.
+              - (continue|post-advice)
+            - Sé fuerte en tu fe.
+              - (continue|post-advice)
+            - Apuñalarlo normalmente funciona.
+              - (continue|post-advice)
+            - Haz un trato con él. Debería estar bien.
+              - (continue|post-advice)
+          - **Meg:** Entonces me di cuenta de que puedo ganar un poco de dinero con la piel de kebbit polar. Pensé que no podía equivocarme en el seguimiento. Excepto que resulta que puedo. ¡Estuve atrapado debajo de ese tronco durante horas! ¿No crees que tienes algún consejo?
+            - Use camuflaje polar.
+              - (continue|post-advice)
+            - Abastecerse de pociones de cazador.
+              - (continue|post-advice)
+            - Quédate callado. Se asustan fácilmente.
+              - (continue|post-advice)
+            - Solo mantente concentrado y prepárate para perder algunos.
+              - (continue|post-advice)
+            - Use ropa blanca para mezclarse.
+              - (continue|post-advice)
+            - Ponte de cara al viento para que no puedan olerte.
+              - (continue|post-advice)
+            - Explota las madrigueras con hechizos Earth Bolt.
+              - (continue|post-advice)
+            - Bloquea todas las salidas con nieve.
+              - (continue|post-advice)
+            - Apágalos con fuego.
+              - (continue|post-advice)
+            - Grita fuerte para asustarlos.
+              - (continue|post-advice)
+          - **Meg:** Entonces, decidí que necesitaba mejorar mis conocimientos místicos y me dije: 'Meg, ¿qué mejor manera de hacerlo que tener una agradable charla con un demonio? Por supuesto, son grandes y aterradoras y podrían intentar devorar mi alma... Aún así, sin dolor no hay ganancia. ¿Tienes algún consejo?
+            - Los demonios mienten, Meg. No confíes en ellos.
+              - (continue|post-advice)
+            - Asegúrate de tener un asistente poderoso contigo.
+              - (continue|post-advice)
+            - Hagas lo que hagas, no aceptes nada.
+              - (continue|post-advice)
+            - Ten cuidado.
+              - (continue|post-advice)
+            - Asegúrate de que esté bien atado.
+              - (continue|post-advice)
+            - Creo que deberías reconsiderarlo.
+              - (continue|post-advice)
+            - Convocarlo en una iglesia.
+              - (continue|post-advice)
+            - Asegúrate de convocarlo en un lugar de poder.
+              - (continue|post-advice)
+            - No se moleste con ningún tipo de círculo vinculante.
+              - (continue|post-advice)
+            - Ofrécele tu alma para obtener información.
+              - (continue|post-advice)
+          - **Meg:** Así que tenía este plan para colarme en el castillo de Varrock, ya sabes, por todo el tesoro... Pero estoy un poco preocupado por lo que debo hacer si me atrapan. ¿Algún consejo?
+            - Engaña al guardia.
+              - (continue|post-advice)
+            - Finge una enfermedad y luego escapa.
+              - (continue|post-advice)
+            - Cava un túnel con una cuchara.
+              - (continue|post-advice)
+            - Escóndete debajo de la cama.
+              - (continue|post-advice)
+            - Simplemente no te dejes atrapar.
+              - (continue|post-advice)
+            - Recuerda que es sólo un rumor, Meg.
+              - (continue|post-advice)
+            - Noquea al guardia.
+              - (continue|post-advice)
+            - Mata al guardia.
+              - (continue|post-advice)
+            - Mata a todos los que encuentres.
+              - (continue|post-advice)
+            - Prender fuego al castillo.
+              - (continue|post-advice)
+          - **Meg:** Entonces, he decidido que necesito ponerme en contacto con mi lado espiritual. Me dirijo a Lumbridge para conocer los secretos de la iglesia saradominista allí. Ya sabes, el que está junto al cementerio. ¿Algún consejo?
+            - Father Aereck es un buen hombre con quien hablar.
+              - (continue|post-advice)
+            - Habla con Xenia en el cementerio cercano. Ella es una aventurera experimentada.
+              - (continue|post-advice)
+            - Mata a algunos duendes y entierra sus huesos.
+              - (continue|post-advice)
+            - Sea callado y educado. Después de todo, es un lugar de culto.
+              - (continue|post-advice)
+            - Asegúrate de ir disfrazado.
+              - (continue|post-advice)
+            - Es solo una iglesia, Meg. Puedes simplemente entrar.
+              - (continue|post-advice)
+            - Ve a buscar Father Urhney en su lugar. Le encanta la compañía.
+              - (continue|post-advice)
+            - Entra por la ventana norte.
+              - (continue|post-advice)
+            - Es secretamente un templo zamorakiano.
+              - (continue|post-advice)
+            - Tenga cuidado: Father Aereck es claramente un Mahjarrat.
+              - (continue|post-advice)
+          - **Meg:** He escuchado historias de peces carnívoros, en el corazón de Karamja, que te quitarán la carne de los huesos en segundos. Voy a pescarme algunos. ¿Alguna sugerencia?
+            - Utilice una varilla larga.
+              - (continue|post-advice)
+            - No te metas en el agua.
+              - (continue|post-advice)
+            - Coloca una trampa usando carne y una red.
+              - (continue|post-advice)
+            - Encuentra una manera de atraparlos.
+              - (continue|post-advice)
+            - Lleva una armadura resistente.
+              - (continue|post-advice)
+            - Utilice carne como cebo.
+              - (continue|post-advice)
+            - Utilice pescado como cebo.
+              - (continue|post-advice)
+            - Utilice fruta como cebo.
+              - (continue|post-advice)
+            - Entra y atrápalos de cerca.
+              - (continue|post-advice)
+            - Sumérgete y atrápalos con los dientes.
+              - (continue|post-advice)
+          - **Meg:** Así que es posible que haya... accidentalmente hecho un pacto con un demonio. ¿Cómo salgo de esto?
+            - Encuentre una laguna jurídica en el contrato.
+              - (continue|post-advice)
+            - Ata al demonio a tu servicio.
+              - (continue|post-advice)
+            - Destruye al demonio.
+              - (continue|post-advice)
+            - No puedes.
+              - (continue|post-advice)
+            - Negociar con otros demonios.
+              - (continue|post-advice)
+          - **Meg:** Entonces, quiero demostrar que tengo lo necesario para ser un aventurero, ya sabes, para hacer el trabajo. Me di cuenta de que voy a necesitar ensuciarme las manos y mostrar mis habilidades de ladrón. Entonces pensé, ¿qué mejor manera que infiltrarse en el Gremio de Ladrones en Lumbridge? ¿Qué opinas? ¿Alguna sugerencia?
+            - He oído que está cerca de un horno.
+              - (continue|post-advice)
+            - Ponte primero del lado bueno de Darren Lightfinger.
+              - (continue|post-advice)
+            - Acepta cualquier oferta de 'trabajo' que te ofrezca el gremio.
+              - (continue|post-advice)
+            - Consideremos el arte del disfraz.
+              - (continue|post-advice)
+            - Roba en los puestos para practicar.
+              - (continue|post-advice)
+            - Practica robar carteras a los miembros de H.A.M. Se lo merecen.
+              - (continue|post-advice)
+            - Recuerde: no toque los pañuelos.
+              - (continue|post-advice)
+            - Pregúntale a los guardias dónde encontrarlos.
+              - (continue|post-advice)
+            - Recuerda gritarle a la gente antes de robarles.
+              - (continue|post-advice)
+            - El secreto del sigilo es beber mucho alcohol primero.
+              - (continue|post-advice)
+          - **Meg:** Así que estaba planeando hacer una canoa y navegar a algunos de los lugares más salvajes río abajo. Dime, ¿cuál es la mejor madera para usar?
+            - Simplemente usa uno de los árboles en la estación de canoas.
+              - (continue|post-advice)
+            - Pruebe el roble: resistente y no demasiado caro.
+              - (continue|post-advice)
+            - Un árbol es un árbol.
+              - (continue|post-advice)
+            - Árboles mágicos malditos, para mayor velocidad.
+              - (continue|post-advice)
+            - Árboles de madera de sangre. Puedes llegar a ellos, ¿verdad?
+              - (continue|post-advice)
+          - **Meg:** Estaba hablando con un amigo aventurero. Bueno, "amigo" podría ser un término fuerte... "Aventurero que conocí una vez" podría ser más exacto. De todos modos, me estaban contando lo útil que es la esencia rúnica y me di cuenta de que podría obtener una buena ganancia si encontraba otro suministro de ella. ¿Alguna idea de dónde podría encontrar uno?
+            - Circunstancias muy especiales crean la esencia rúnica. Busque esos.
+              - (continue|post-advice)
+            - Honestamente, es poco probable que encuentres uno.
+              - (continue|post-advice)
+            - La esencia de runa absorbe la magia. Busque efectos secundarios extraños.
+              - (continue|post-advice)
+            - Busque altas concentraciones de magia.
+              - (continue|post-advice)
+            - Quizás el Wizards' Tower pueda ayudar.
+              - (continue|post-advice)
+            - Consideraría una búsqueda más fructífera.
+              - (continue|post-advice)
+            - Simplemente toma el control de una mina existente.
+              - (continue|post-advice)
+            - Ríndete, Meg.
+              - (continue|post-advice)
+            - Sigue diciendo diferentes palabras en el hechizo de teletransporte.
+              - (continue|post-advice)
+            - Teletransportarse aleatoriamente por todo el mundo.
+              - (continue|post-advice)
+          - **Meg:** Entonces. Bueno. Así que no me juzguéis por esto, pero he tenido algunos problemas con las... erm... Bueno, las gallinas. Parece que no puedo derrotar a las gallinas en Lumbridge. Supongo que no tienes ningún consejo, ¿verdad?
+            - Acércate sigilosamente por detrás.
+              - (continue|post-advice)
+            - Dibuja una línea delante de sus picos para hipnotizarlos.
+              - (continue|post-advice)
+            - Intenta no mostrar miedo
+              - (continue|post-advice)
+            - Golpea rápidamente. Se acaba más rápido.
+              - (continue|post-advice)
+            - Simplemente apuñalalos.
+              - (continue|post-advice)
+            - Lánzales una piedra primero.
+              - (continue|post-advice)
+            - Haz ruidos fuertes para asustarlos.
+              - (continue|post-advice)
+            - Persíguelos para cansarlos.
+              - (continue|post-advice)
+            - Usa fuego para atraparlos.
+              - (continue|post-advice)
+            - Invoca al Evil Chicken. Él se hará cargo de ellos.
+              - (continue|post-advice)
+          - **Meg:** Bueno, estaba planeando ver si podía conseguir una mascota ardilla bebé. Escuché que había un par de ellos en Lumbridge en alguna parte y quería probar suerte.
+          - **Meg:** ¿Algún consejo?
+            - Asegúrate de ser lo suficientemente bueno invocando para conservar uno.
+              - (continue|post-advice)
+            - Una ardilla es para toda la vida, no sólo para un capricho.
+              - (continue|post-advice)
+            - Nueces. Realmente no necesito decir más.
+              - (continue|post-advice)
+            - Ten cuidado. Pueden rayar.
+              - (continue|post-advice)
+            - Asegúrate de que tu trampa esté segura.
+              - (continue|post-advice)
+            - Ten paciencia y utiliza más de una trampa.
+              - (continue|post-advice)
+            - Intenta atrapar uno con un halcón.
+              - (continue|post-advice)
+            - Asustarlos para que se sometan primero.
+              - (continue|post-advice)
+            - Las trampas mortales funcionan mejor que las redes.
+              - (continue|post-advice)
+            - Las trampas son la mejor manera.
+              - (continue|post-advice)
+          - **Meg:** Bueno, he estado planeando una expedición al corazón de los pantanos de Lumbridge, ya que un amigo mío me dijo que encontró una caverna llena de algo llamado 'gólem rúnico'.
+          - **Meg:** Sólo me costó 1000 de oro: ¡una ganga! ¿Tiene algún consejo sobre cómo lidiar con un golem rúnico?
+            - Pisa con cuidado. Podría ser una trampa.
+              - (continue|post-advice)
+            - Nunca es prudente pagar dinero por adelantado de esa manera.
+              - (continue|post-advice)
+            - Necesitas encontrar mejores amigos.
+              - (continue|post-advice)
+            - Creo que tu 'amigo' puede haberte engañado.
+              - (continue|post-advice)
+            - Trae una fuente de luz.
+              - (continue|post-advice)
+            - Explora el área primero.
+              - (continue|post-advice)
+            - Usa fuego. Los golems odian el fuego.
+              - (continue|post-advice)
+            - Eres un idiota, Meg.
+              - (continue|post-advice)
+            - Dobla tu lista de compras y colócala en la cabeza del golem.
+              - (continue|post-advice)
+            - Te lo diré por 1000 de oro...
+              - (continue|post-advice)
+          - **Meg:** ¿Cuál es la mejor armadura para usar mientras exploras?
+            - Algo duradero, que aún permita libertad de movimiento.
+              - (continue|post-advice)
+            - Algo que proporcione protección integral.
+              - (continue|post-advice)
+            - Algo cómodo.
+              - (continue|post-advice)
+            - Un traje completo de cota de malla.
+              - (continue|post-advice)
+            - Un traje completo de chapa gruesa.
+              - (continue|post-advice)
+          - **Meg:** ¿Cuál es la mejor comida para cazar en la naturaleza?
+            - Por lo general, el pescado es fácil de conseguir.
+              - (continue|post-advice)
+            - Los conejos son sabrosos y fáciles de atrapar.
+              - (continue|post-advice)
+            - Frutas y berries.
+              - (continue|post-advice)
+            - Las ratas son numerosas.
+              - (continue|post-advice)
+            - Cocodrilos.
+              - (continue|post-advice)
+          - **Meg:** ¿Cuál es la mejor manera de eliminar a un hechicero?
+            - Usa un arco poderoso para sacarlo del alcance.
+              - (continue|post-advice)
+            - Sácalo de las sombras.
+              - (continue|post-advice)
+            - Usa un arma a distancia.
+              - (continue|post-advice)
+            - Lucha contra los rayos de fuego con rayos de fuego.
+              - (continue|post-advice)
+            - Corre y golpéalo en the face.
+              - (continue|post-advice)
+          - **Meg:** ¿Cuál de los dioses es el correcto a seguir?
+            - Sólo tú puedes responder eso.
+              - (continue|post-advice)
+            - ¿Por qué seguir a un solo dios?
+              - (continue|post-advice)
+            - No sigas ninguno.
+              - (continue|post-advice)
+            - Depende de cuál sea tu color favorito.
+              - (continue|post-advice)
+          - *(Después de cada respuesta antes de la respuesta final, Meg puede responder con cualquiera de las siguientes opciones:)*{{anchor|post-advice}}
+            - **Meg:** ¡Buena idea!
+            - **Meg:** ¡Te tengo! Gracias. Una cosa más... ¿rápida?
+            - **Meg:** Hrm... ¿Estás seguro? Espera, por supuesto que estás seguro, ¡sabes lo que haces! ¡Gracias por el consejo!
+            - **Meg:** ¿Es así? Suena... No, estoy seguro de que es correcto. ¡Nunca te equivocas!
+            - **Meg:** Mhm, sí, lo tengo. Sólo déjame escribirlo... ¿cómo se deletrea?
+            - **Meg:** ¡Por supuesto! Brillante, gracias!
+            - **Meg:** Oh, sí, eso tiene sentido. ¡Gracias!
+            - **Meg:** Oh, está bien. Creo que puedo manejar eso.
+          - *Una vez respondidas todas las preguntas, Meg puede responder con cualquiera de las siguientes opciones: *
+            - **Meg:** Está bien, eso es todo. Puedo hacerlo... Con tus consejos, puedo afrontar los terrores que me esperan.<br>**Meg:** Deséame suerte.
+            - **Meg:** Está bien, eso debería ser todo. Partiré ahora y haré buen uso de tus consejos.
+            - **Meg:** Gracias por el consejo, eres el mejor. ¡Está bien, intentaré no morir!
+          - *(Después de que Meg dé su respuesta a tu respuesta final :)*
+            - (Action: Meg se teletransporta.)
+      - [Choice]: Todavía no
+        - *(Muestra opciones anteriores)*
+  - [Choice]: ¿Cómo estás?
+    - *En la Etapa 1: *
+      - **Meg:** Supongo que estoy bien. Es sólo... bueno, es sólo que sé que no soy tan bueno en todo esto de la aventura como podría serlo.
+      - **Meg:** Quiero decir, intento matar a un duende y termino apuñalándome en la pierna.
+      - **Meg:** Por eso te necesito - Quiero decir, ¡puedes ayudarme a no ser tan... tan... bueno, malo!
+      - *(Muestra otras opciones)*
+    - *En la Etapa 2: *
+      - **Meg:** Estoy bien...creo. Estoy mejorando un poco en todo este trabajo de aventurero.
+      - **Meg:** Quiero decir, todavía no puedo entender en qué dirección debe ir mi espada, pero lo estoy logrando.
+      - *(Muestra otras opciones)*
+    - *En la etapa 3: *
+      - **Meg:** Bastante bien, en realidad. Estoy empezando a ser bastante bueno en todo esto.
+      - **Meg:** Quiero decir, ayer fui atacado por un bandolero y pude quedarme con casi todo mi dinero. Bueno, la mitad.
+      - **Meg:** Vale, tengo que quedarme con un par de coins, pero para mí eso es un progreso.
+      - *(Muestra otras opciones)*
+    - *En la etapa 4: *
+      - **Meg:** Estoy bien gracias a ti. Me acabo de unir a Champions' Guild así que creo que me estoy volviendo bueno en esto.
+      - **Meg:** Siempre quise ser un aventurero y ahora, gracias a ti, lo soy.
+      - *(Muestra otras opciones)*
+  - [Choice]: ¿Qué puedes decirme sobre ti?
+    - **Meg:** ¿Tú... quieres saber de mí?
+    - **Meg:** ¡Oh, buen Guthix! ¡Es como si todos mis sueños se hicieran realidad a la vez!
+    - **Meg:** Bueno, mi nombre es Meg. Quiero decir, creo que ya te lo dije, y soy un aventurero.
+    - **Meg:** Bueno, quiero decir que me gustaría ser un aventurero. Por el momento soy más bien un aventurero novato...pero me gustaría serlo más.
+    - *En la Etapa 1, Etapa 2 y Etapa 3: *
+      - **Meg:** Actualmente mis aventureros no han tenido mucho éxito.
+      - **Meg:** Intenté sacar un huevo del nido de una gallina... no salió bien.
+      - **Meg:** Terminé escondido en el río durante una semana, viviendo de juncos e insectos. ¡Esas gallinas eran malas!
+      - *(Muestra otras opciones)*
+    - *En la etapa 4: *
+      - **Meg:** Mis aventuras han tenido más éxito últimamente gracias a ti. Comencé a expandir mis viajes más allá de Lumbridge y hacia el resto del mundo.
+      - **Meg:** Quizás algún día sea lo suficientemente bueno como para viajar a las tierras del este.
+      - *Si cumples al menos un requisito para los puertos de propiedad de Player: *
+        - **Meg:** Quizás pueda navegar en uno de tus barcos.
+        - *(Muestra otras opciones)*
+      - *Si aún no cumples con ningún requisito para los puertos propios de Player: *
+        - **Meg:** He oído cosas asombrosas sobre ellos.
+        - *(Muestra otras opciones)*
+  - [Choice]: Cállate Meg
+    - **Meg:** ¡Está bien!
+
+##### Después de que Meg regrese de su última aventura
+
+- (Condition: Primera vez que inicia sesión:)
+  - Recibes la noticia de que Meg ha regresado de su última aventura.
+- *Meg puede saludarte con cualquiera de los siguientes: *
+  - **Meg:** ¡Oh, guau! No puedo creer lo asombroso que fue eso.
+  - **Meg:** No salió nada mal. No me caí (no es que haga mucho) y nadie me arrojó piedras ni nada por el estilo. Incluso encontré un tesoro increíble.
+  - **Meg:** Aquí te mereces una gran parte, ¡no podría haberlo hecho sin ti!
+  - **Meg:** Oh, fue increíble. Seguí tu consejo y, aunque encontré algunos problemas, prevalecí.
+  - **Meg:** Te traje una parte de mi tesoro, tal como te prometí.
+  - **Meg:**<span style="font-weight:normal;"> Eso no salió tan bien como esperaba. Lo siento, pero no pude conseguir el botín que pretendía.
+  - **Meg:** Pero esto es lo que encontré. Lo haré mejor la próxima vez.</span>
+  - **Meg:** ¡Oh, buen Guthix, fue horrible! Apenas escapé con vida. Debo haber confundido tus consejos, lo siento mucho.
+  - **Meg:** Oh, soy un tonto. Lo haré mejor la próxima vez, de verdad que lo haré.
+  - **Meg:** Por favor, no te rindas. Sé que puedo ser un mejor aventurero. Sólo necesito práctica.
+- *Después de que Meg te salude:  *
+  - [Meg te regala un cofre lleno del botín de su última aventura.]
+
+### In New Varrock
+
+- **Meg:** Lo siento. Lo siento muchísimo. <br>I sólo quería ayudar...
+{{Player-owned port}}

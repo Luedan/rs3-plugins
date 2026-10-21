@@ -1,0 +1,22 @@
+# Memoriam crystal 16
+
+- **Original Wiki Page**: [Transcript:Memoriam crystal 16](https://runescape.wiki/w/Transcript%3AMemoriam%20crystal%2016)
+- **Letter**: `M`
+
+---
+
+## Dialogue Transcript
+
+**Acceptance**.
+- **Seren:** So much has happened since Guthix removed himself from this world. I thought if I were ever to see him again it would bring joy to both our hearts, but we have found nothing but sadness. {{Audio button|Seren - So much has happened since Guthix removed himself from this world. I thought if I were ever to see him again it would bring joy to both our hearts, but we have found nothing but sadness.ogg}}
+- **Seren:** The petty squabbling of the young gods has awoken him. He has taken the example of my barrier around Tirranwn and applied it to the world as a whole, to stop the evicted gods from returning. {{Audio button|Seren - The petty squabbling of the young gods has awoken him. He has taken the example of my barrier around Tirranwn and applied it to the world as a whole, to stop the evicted gods from returning.ogg}}
+- **Seren:** I am glad he has returned and put a stop to them. I am glad that he returned to me too, but he no longer asks me to leave this place...he demands it. {{Audio button|Seren - I am glad he has returned and put a stop to them. I am glad that he returned to me too, but he no longer asks me to leave this place...he demands it.ogg}}
+- **Seren:** In that moment, I confessed to him what I had done to the elves and hence why I could not...why I still cannot. {{Audio button|Seren - In that moment, I confessed to him what I had done to the elves and hence why I could not...why I still cannot.ogg}}
+- **Seren:** There was only one course of action. I would be leaving, just not with Guthix. {{Audio button|Seren - There was only one course of action. I would be leaving, just not with Guthix.ogg}}
+- **Seren:** He tried to convince me otherwise, but upon realising my resolve he conceded, and with no words left to speak, he bowed his head, then turned and left. {{Audio button|Seren - He tried to convince me otherwise, but upon realising my resolve he conceded, and with no words left to speak, he bowed his head, then turned and left.ogg}}
+- **Seren:** Before I could do what must be done, I recalled my proxy, and into it poured all of my negativity, my darkest thoughts, my fears and regrets, and then sent it away from elven lands where it could do no harm. {{Audio button|Seren - Before I could do what must be done, I recalled my proxy, and into it poured all of my negativity, my darkest thoughts, my fears and regrets, and then sent it away from elven lands where it could do no harm.ogg}}
+- **Seren:** I had to be rid of it for what was to come next. {{Audio button|Seren - I had to be rid of it for what was to come next.ogg}}
+- **Seren:** Prifddinas now lies temporarily evacuated - it shall be regrown once I am gone, with the crystals I have handed to the lords and ladies. {{Audio button|Seren - Prifddinas now lies temporarily evacuated - it shall be regrown once I am gone, with the crystals I have handed to the lords and ladies.ogg}}
+- **Seren:** By expelling my energy, this area will be forever infused with it, and small fragments of my body, when carried, will allow elves to journey far beyond these city walls. In time, even these shall no longer be needed. {{Audio button|Seren - By expelling my energy, this area will be forever infused with it, and small fragments of my body, when carried, will allow elves to journey far beyond these city walls. In time, even these shall no longer be needed.ogg}}
+- **Seren:** I have encouraged Baxorian to do just this, and to journey east once more. Now that the wars have ended, it is time for my elves to rejoin this world. {{Audio button|Seren - I have encouraged Baxorian to do just this, and to journey east once more. Now that the wars have ended, it is time for my elves to rejoin this world.ogg}}
+- **Seren:** I accept now that even divine beings can die, and that my time has come. At least I go knowing that the harm I have caused this gentle people can and will eventually be undone, and that my death will not lead to theirs. {{Audio button|Seren - I accept now that even divine beings can die, and that my time has come. At least I go knowing that the harm I have caused this gentle people can and will eventually be undone, and that my death will not lead to theirs.ogg}}

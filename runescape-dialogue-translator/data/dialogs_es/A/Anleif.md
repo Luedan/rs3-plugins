@@ -1,0 +1,67 @@
+# Anleif
+
+- **Original Wiki Page**: [Transcript:Anleif](https://runescape.wiki/w/Transcript%3AAnleif)
+- **Letter**: `A`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+- **Player:** Hola.
+- *La señora enana parece estar buscando a alguien.*
+- **Anleif:** Hola, estoy buscando a mi marido. ¿Lo has visto?
+- **Player:** ¿Cómo es?
+- **Anleif:** Oh, a la mierda con esta tonta farsa, estoy aquí para jugar.
+- **Player:** Espera, pensé que estabas buscando a tu marido.
+- **Anleif:** Mm no, solo estaba fingiendo. Está un poco mal visto por estos lares.
+- **Player:** Entonces, ¿cómo funcionan estos pozos de ratas?
+- **Anleif:** Las fosas Keldagrim atienden a aquellos con una mayor variedad de gatos.
+- **Anleif:** Si tienes un gato grande y un par de coins, puedes desafiar a otra persona que también tenga un gato grande y algo de cambio.
+- **Player:** Eso suena bastante simple hasta ahora.
+- **Anleif:** Luego aceptas una apuesta. Se rumorea que algunos cazadores de ratas pueden hablar con sus propios gatos y darles tácticas para ayudarlos.
+- **Player:** Entonces, ¿cómo se gana el desafío?
+- **Anleif:** Estaba llegando a eso. Los gatos de ambos jugadores se colocan dentro del área vallada y quien mate primero a 9 ratas gana.
+  - **Player:** Eso suena vil y cruel.
+    - **Anleif:** Es un mundo cruel y los boxes no son una excepción.
+    - **Anleif:** Cada uno por su lado digo.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** Suena un poco peligroso para mi gato.
+    - **Anleif:** Estoy de acuerdo. Se sabe que los gatos mueren en peleas.
+    - **Player:** Oh, qué terrible. ¿No hay nada que puedas hacer para salvar a tu gato?
+    - **Anleif:** Por supuesto que sí, puedes indicarle que tenga cuidado y se irá una vez que sienta que está en peligro.
+    - **Player:** Oh, eso suena muy sabio.
+    - **Anleif:** Eso depende de cómo valoras a tu gato.
+    - **Player:** Lo siento, no te sigo.
+    - **Anleif:** Bueno, si tu gato muere o se escapa, pierdes.
+    - **Anleif:** Entonces, cuanto más tiempo permanezca en la pelea, más posibilidades tendrás de ganar.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¡Vaya, eso suena divertido!
+    - **Anleif:** No sé nada de eso.
+    - **Anleif:** Una cosa que sé es que es una forma rápida de ganar y perder dinero.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¿Existe un límite de cuánto puedes apostar?
+    - **Anleif:** Hmmm... déjame ver. Si no me equivoco, actualmente puedes apostar hasta un máximo de [número] coins.
+    - **Player:** Suena como una cantidad tonta de dinero para apostar en una pelea de gatos.
+    - **Anleif:** Te sorprendería lo que algunas personas estarían dispuestas a apostar.
+    - **Anleif:** También hay una apuesta mínima de 100 coins.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.
+  - **Player:** ¿Puedo desafiarte a ti y a tu gato?
+    - **Anleif:** No, ahora no, realmente no apostamos con forasteros.
+    - **Player:** Pero no soy un outsider, ¿no estoy ahora en boxes?
+    - **Anleif:** No lo sé, tal vez una vez que hayas hecho algo para ganarte mi confianza.
+    - **Player:** ¿Se puede comprar?
+    - **Anleif:** ¿Qué?
+    - **Player:** Tu confianza.
+    - **Anleif:** No. No agradamos a la gente común del pueblo, lo que nos lleva a desconfiar de ellos y de cualquier otra persona.
+      - **Player:** Una cosa más...
+        - *[returns to responses]*
+      - **Player:** Gracias por tu ayuda.

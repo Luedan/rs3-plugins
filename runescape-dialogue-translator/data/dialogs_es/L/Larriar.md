@@ -1,0 +1,117 @@
+# Larriar
+
+- **Original Wiki Page**: [Transcript:Larriar](https://runescape.wiki/w/Transcript%3ALarriar)
+- **Letter**: `L`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Larriar:** Hola. ¿Qué puedo hacer por ti?
+- ¿Qué te gustaría decir?
+  - ¿Quién eres?
+    - **Player:** ¿Quién eres?
+    - **Larriar:** Solía ser un creador de runas. Días, semanas y meses los pasé en los altares, practicando y practicando el oficio.
+    - **Larriar:** Ahora que he logrado todo lo que quería hacer, me quedo por aquí viendo a otras personas trabajar. ¡Es mucho más relajante!
+    - **Larriar:** Además, vendo skillcapes a personas que los merecen. Ahora, ¿puedo ayudarte?
+    - (previous)
+  - ¿Puedo comprar un Runecrafting skillcape?
+    - **Larriar:** Bueno, ¡parece que te lo mereces después de tanto correr!
+    - ((Si el player tiene un Ring of charos (a equipado, el mensaje se reemplaza por lo siguiente:))
+    - **Larriar:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins para este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
+    - Elige una opción:
+      - ¿99.000 coins? Eso es demasiado caro. ((o 92.000 coins con Ring of charos (a)))
+        - **Larriar:** En absoluto; ¡Hay muchos otros aventureros a quienes les encantaría tener la oportunidad de comprar un artículo tan prestigioso! Puedes encontrarme aquí si cambias de opinión.
+      - De hecho, creo que tengo el dinero aquí.
+        - *(Si el player tiene al menos dos espacios backpack libres:)*
+          - (removes=99,000 coins (or 92,000 coins with Ring of charos (a))) Campana (receives=Runecrafting cape (or trimmed version if level 99 in at least two skills) y Runecrafting)
+          - **Larriar:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+        - *(Si el player no tiene al menos dos espacios backpack libres:)*
+          - **Larriar:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar algo de espacio en el inventario antes de que pueda venderte uno.
+          - (end)
+      - *(Si el player ha desbloqueado la capa Runecrafting invertida:)*
+      - Me gustaría un skillcape con los colores invertidos.
+        - *(Si el player tiene al menos un espacio backpack libre:)*
+          - (removes=99,000 coins (or 92,000 coins with Ring of charos (a))) (receives=inverted hooded Runecrafting cape (or trimmed version if level 99 in at least two skills))
+          - **Larriar:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+        - *(Si el player no tiene al menos un espacio backpack libre:)*
+          - **Larriar:** Desafortunadamente necesitarás liberar algo de espacio en backpack antes de que pueda venderte uno.
+      - *(Si el player tiene el nivel (virtual) 120 Runecrafting :)*
+      - He dominado esta habilidad. ¿Hay algo más?
+        - **Larriar:** Hay algo... aunque lo he mantenido en secreto durante mucho tiempo. Es algo que sólo puede ser usado por un verdadero maestro.
+        - **Larriar:** Ni siquiera yo puedo usarlo, así de difícil es lograrlo.
+        - **Larriar:** Dices que eres un maestro. Ponte derecho, déjame echarte un vistazo...
+        - **Larriar:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Runecrafting master cape.
+          - ¿Comprar Runecrafting master cape por 120.000 coins?
+            - Sí.
+              - ((Si el player tiene al menos un espacio backpack libre:))
+                - (removes=120,000 coins) (receives=Runecrafting master cape)
+                - (end)
+              - ((Si el player no tiene al menos un espacio backpack libre:))
+                - **Larriar:** No tienes suficiente espacio en tu inventario. Por favor regresa cuando tengas más.
+            - No.
+              - (end)
+      - *(Si el player ha desbloqueado el Runecrafting master cape invertido:)*
+        - Me gustaría un master cape con los colores invertidos.
+          - **Larriar:** (arriba de 2|120)
+  - He notado que hay un par de versiones de cada skillcape.
+    - **Larriar:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
+    - *(Si el player ha elegido los nuevos modelos skillcape :)*
+      - **Larriar:** Aún puedes optar por usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
+      - Seleccione una opción
+        - Sí, me gustaría usar la versión antigua del skillcape.
+          - **Larriar:** ¿Te gustaría usar el modelo antiguo solo para esta capa, o para la capa de puntos Quest y todos los skillcapes que tienes?
+          - Seleccione una opción
+            - Solo me gustaría cambiar el Runecrafting skillcape.
+              - **Larriar:** No hay problema, ahora utilizarás el modelo anterior para tu Runecrafting skillcape.
+            - Me gustaría cambiar todos mis skillcapes.
+              - **Larriar:** No hay problema, ¡ahora usarás el modelo anterior para todos tus skillcapes!
+            - ¡He cambiado de opinión!
+              - (end)
+        - No, gracias.
+          - **Larriar:** ¡Genial! ¡Me alegra que estés disfrutando de nuestra nueva versión!
+          - *(Si el player está usando los modelos skillcape antiguos excepto la capa Runecrafting :)*
+            - **Larriar:** ¡Si quieres, puedo hacerlo para que uses el modelo más nuevo para todos los skillcapes que tienes!
+            - Seleccione una opción
+              - Ok, me gustaría usar la versión más nueva para todos mis skillcapes.
+                - **Larriar:** ¡Genial, ahora usarás el modelo más nuevo para todos tus skillcapes!
+              - No, gracias.
+                - (end)
+    - *(Si el player ha elegido los modelos antiguos skillcape :)*
+      - **Larriar:** Parece que actualmente estás usando el modelo anterior para tu Runecrafting skillcape. ¿Quieres cambiar a uno más nuevo?
+      - Seleccione una opción
+        - Sí, me gustaría usar la nueva versión del skillcape.
+          - **Larriar:** ¿Te gustaría usar el modelo más nuevo solo para esta capa o para todos los skillcapes que tienes?
+          - Seleccione una opción
+            - Solo me gustaría cambiar el Runecrafting skillcape.
+              - **Larriar:** No hay problema, ahora utilizarás el modelo más nuevo para tu Runecrafting skillcape.
+            - Me gustaría cambiar todos mis skillcapes.
+              - **Larriar:** No hay problema, ¡ahora usarás el modelo más nuevo para todos tus skillcapes!
+            - ¡He cambiado de opinión!
+              - (end)
+        - No, gracias.
+          - **Larriar:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión anterior!
+          - *(Si el player está usando los nuevos modelos skillcape excepto la capa Runecrafting :)*
+            - **Larriar:** ¡Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas!
+            - Seleccione una opción
+              - Ok, me gustaría usar la versión antigua para todos mis skillcapes.
+                - **Larriar:** ¡Genial, ahora usarás el modelo antiguo para todos tus skillcapes!
+              - No, gracias.
+                - (end)
+  - ¿Puedes ayudarme con los trajes etéreos de runas?
+    - **Player:** ¿Puedes ayudarme con los atuendos etéreos de runas?
+      - *Si el player no puede recibir fragmentos etéreos de runas y no ha desbloqueado el plano necesario para crear las piezas del atuendo:*
+        - **Larriar:** En el nivel 70 puedes comenzar a recolectar fragmentos para crear trajes de habilidades de élite. Cuando llegues a ese nivel, automáticamente comenzarás a recolectar fragmentos. Luego puedes usarlos con un plano para hacerte las piezas restantes del atuendo de élite para esta habilidad.
+      - *Si el player puede recibir fragmentos etéreos de runas pero no ha desbloqueado el plano necesario para crear las piezas del atuendo: *
+        - **Larriar:** Estás configurado para recibir fragmentos. Cuando llegues al nivel 80 podrás crear prendas de vestir.
+      - *Si el player puede recibir fragmentos etéreos de runas y ha desbloqueado el plano necesario para crear las piezas del atuendo: *
+        - **Larriar:** Estás configurado para recibir fragmentos. Cuando llegues al nivel 80 podrás crear prendas de vestir. Simplemente acude a un banco de trabajo Invention para crear las piezas.
+      - *Si el player ya posee el conjunto etéreo infinito o todas las piezas del conjunto:*
+        - **Larriar:** Ya has creado todas las prendas posibles. Me aseguraré de que no reciba más fragmentos.
+        - **Larriar:** Puedes combinar las piezas del atuendo básico para crear las versiones de nivel alto y obtener beneficios adicionales.
+  - No importa.
+    - **Player:** No importa.

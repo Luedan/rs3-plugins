@@ -1,0 +1,387 @@
+# Granny Potterington
+
+- **Original Wiki Page**: [Transcript:Granny Potterington](https://runescape.wiki/w/Transcript%3AGranny%20Potterington)
+- **Letter**: `G`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Tutorial
+
+{{Main|Transcript:Player-owned farm Tutorial}}
+
+### After the tutorial
+
+- {{Trandom}}
+  - **Granny Potterington:** Buenos días, mi cestita de pan.
+  - **Granny Potterington:** Saludos, ciruela azucarada.
+  - **Granny Potterington:** Hola, pastel de plátano.
+  - **Granny Potterington:** Hola, mi pequeño cupcake con chispas de piña.
+  - **Granny Potterington:** Hola, mi galletita encantadora.
+  - **Granny Potterington:** Hola, melaza.
+  - **Granny Potterington:** Hola, pomelo.
+  - **Granny Potterington:** Hola, Pickler... ejem, me refiero al pudín... Creo que Pickle es el perro. ¿O fue el gato?
+  - **Granny Potterington:** ¿Cómo te va, judía verde?
+  - **Granny Potterington:** Encantado de verte, mi pequeño tomate cherry.
+  - **Granny Potterington:** Bueno, si no es mi rueda de queso favorita. ¿Qué puedo hacer por ti?
+  - **Granny Potterington:** Bueno, si no es mi sándwich de pepino favorito.
+  - **Granny Potterington:** ¿Qué te trae por mi granja, calabaza?
+- (Condition: Sólo si los granos de nivelación Farming no son reclamados:)
+  - (receives=some beans)
+  - La abuela te acaba de entregar frijoles [número].
+  - **Granny Potterington:** ¡Oh! Encontré algunos frijoles en el respaldo del sofá. ¡Aquí tienes!
+  - (Condition: Si los frijoles del nivel 99 Farming no se reclaman:)
+    - (Action: el player recibe 100 frijoles.)
+    - (continue)
+  - (Condition: Si los frijoles del nivel 120 Farming no se reclaman:)
+    - (Action: el player recibe 500 frijoles.)
+    - La abuela te acaba de dar 500 frijoles.
+    - (continue)
+- (Condition: Si un pollo lagarto macho llamado Malcolm con el rasgo Caótico está en el inventario:)
+  - **Granny Potterington:** Espera un minuto, ¿cómo conseguiste un pollo lagarto MACHO? ¡Pensé que todas eran gallinas! ¿Te importa si lo dejo en la granja?
+  - [Menu]: ¿Entregarle Malcolm, el pollo lagarto, a la abuela P?
+    - [Choice]: Sí.
+      - ¡Felicitaciones! Has completado: 'La vida, uh, encontró un camino'. (Entregue un pollo lagarto llamado Malcolm con el rasgo Caótico a Granny P.)
+    - [Choice]: No.
+      - (continue)
+- (Condition: Si un cigomita mágico llamado Trevor con el rasgo Leal está en backpack:)
+  - **Granny Potterington:** Oh, ¿quién es ese pequeño y divertido? Trevor, el cigomita mágico, ¿eh? Él también es leal. ¡Sería una gran mascota! ¿Quieres que lo domine por ti?
+  - [Menu]: ENTREGAR TREVOR MÁGICO A LA ABUELITA P?
+    - [Choice]: Sí.
+      - ¡Felicitaciones! Has completado: 'Ever So Clever': entrega un cigomita mágico llamado Trevor con el rasgo Leal a Granny P.
+      - (continue)
+    - [Choice]: No.
+      - (continue)
+- [Menu]: Elige una opción:
+  - [Choice]: [Ask about Granny.]
+    - [Menu]: Selecciona una opción
+      - [Choice]: Cuéntame sobre la vida en la granja.
+        - **Granny Potterington:** Hoy en día, ya no es tan divertido como solía ser. No puedo andar vagando por los campos de trigo con decenas de jóvenes persiguiéndome.
+        - **Granny Potterington:** Dios mío, esos eran los días.
+        - **Granny Potterington:** ....
+        - **Player:** Er... ¿Abuelita?
+        - **Granny Potterington:** Mmmm, ¿qué? Oh. Lo siento, salchicha, estaba recordando. ¿Dónde estaba yo?
+        - **Player:** Me estabas hablando de la granja.
+        - **Granny Potterington:** Bueno, estos días realmente no hago mucho excepto seducir a jóvenes y atractivos aventureros para que me ayuden en la granja.
+        - **Granny Potterington:** No, no, no lo niegues. ¿Cómo pudiste resistirte a esta elegante nariz y mis magníficos... brazos? Sé que tengo un encanto de sirena, no hay de qué avergonzarse.
+        - **Player:** Correcto.
+        - (previous)
+      - [Choice]: Cuéntame sobre tu familia.
+        - **Granny Potterington:** Lamentablemente, ya no están todos. Mi esposo, Héctor, falleció hace unos meses.
+        - **Player:** ¿Vejez?
+        - [lunes]
+          - **Granny Potterington:** Fue un accidente terrible. De alguna manera, todo nuestro suministro de horcas simplemente cayó dentro de él... algunos, aparentemente, salieron y luego volvieron a caer dentro de él unas cuantas veces.
+        - [martes]
+          - **Granny Potterington:** ¿A los 27? No, lamentablemente leyó mal una receta de cocina y logró prenderse fuego. Triste, de verdad. La comida se arruinó.
+        - [miércoles]
+          - **Granny Potterington:** Oveja enojada. No dejes que la confusión te adormezca con una falsa sensación de seguridad, las ovejas son asesinas maliciosas en el fondo.
+        - [jueves]
+          - **Granny Potterington:** Le cayó encima una chimenea. Es raro, ni siquiera era nuestro. Simplemente surgió de la nada. Culpo a esos tipos de islas flotantes.
+        - [viernes]
+          - **Granny Potterington:** Murió electrocutado por un cerdo errante. Muy extraño, pero su corazón no pudo soportarlo y se rindió.
+        - [sábado]
+          - **Granny Potterington:** Aplastado hasta morir por ruedas de queso. Estaba tratando de apilarlos demasiado alto y todos cayeron. Su funeral apestaba; En retrospectiva, no deberíamos haberlo incinerado.
+        - [domingo]
+          - **Granny Potterington:** Decidió que podía ganar más dinero como aventurero. Aparentemente, las gallinas pueden ser oponentes peligrosos cuando están enojadas.
+        - **Player:** Eso es, ejem, terrible. ¿Qué pasa con tus hijos?
+        - **Granny Potterington:** Ah, Henry y Harry. Ambos fueron a unirse a la Batalla de Lumbridge, pero fueron asesinados trágicamente por aventureros que buscaban apoyar a uno de los dioses.
+        - **Granny Potterington:** Probablemente podrían haberse ayudado mutuamente si no hubieran insistido en unirse a lados opuestos.
+        - (previous)
+      - [Choice]: ¿Qué has estado haciendo?
+        - **Granny Potterington:** Oh, ya sabes, no mucho. He estado dando vueltas en la granja como siempre lo hago. Por supuesto, también he estado preparando una gran cantidad de hidromiel casero y parte de ella es bastante potente. Así que hay muchas posibilidades de que yo también haya estado arrasando Ardougne como un dragón trastornado sobre ruedas de carro. Es difícil decirlo, de verdad.
+        - (Condition: Durante el mes de enero:)
+          - **Granny Potterington:** Oh, no he estado haciendo mucho. Recientemente he tenido que lidiar con algunos jóvenes mequetrefes que creen que pueden faltarle el respeto a una anciana en silla de ruedas.
+          - **Granny Potterington:** Es curioso intentar dejar atrás a una anciana en silla de ruedas, podemos alcanzar una gran velocidad si lo necesitamos.
+          - **Granny Potterington:** No le faltarán el respeto a la vieja abuela en el corto plazo. Oh, no.
+        - (Condition: Durante el mes de febrero:)
+          - **Granny Potterington:** Nada. Literalmente no ha pasado nada interesante.
+          - **Granny Potterington:** ¡Estoy tan ABURRIDO!
+        - (Condition: Durante el mes de marzo:)
+          - **Granny Potterington:** Bueno, algunos de los osos de atrás se pusieron muy luchadores.
+          - **Granny Potterington:** En retrospectiva, probablemente no fue una buena idea dejar todas las colmenas atrás.
+          - **Granny Potterington:** Todos estaban gruñendo y enojados y pensé: 'Abuela, ¿vas a quitarles eso a esas bestias?' Y yo digo: '¡Oh, diablos, no!'
+          - **Granny Potterington:** Así que me dirigí hacia allí y luego, ¿sabes lo que hice?
+          - **Player:** Me da miedo pensar.
+          - **Granny Potterington:** Me los afeité. Todos y cada uno de ellos. Eso les enseñará.
+        - (Condition: Durante el mes de abril:)
+          - **Granny Potterington:** Bueno, es una época encantadora del año, así que llevé al viejo Sam y me fui a la ciudad.
+          - **Granny Potterington:** Es terriblemente desafortunado que, en mi vejez, olvidé por completo que estaba sosteniendo una escoba en cada mano, cargando hacia adelante como un dragón con una lanza en el trasero.
+          - **Granny Potterington:** Oh, la matanza. Los adornos de los puestos del mercado salieron volando y los guardias se desplomaron sobre los aldeanos indefensos.
+          - **Granny Potterington:** Soy una salchicha tan tonta. Jejejeje.
+        - (Condition: Durante el mes de mayo:)
+          - **Granny Potterington:** Tuve una cita encantadora con captain of the guard.
+          - **Player:** Oh, ¿a dónde fuiste?
+          - **Granny Potterington:** Bueno, me invitó a tomar unas copas... Bueno, está bien, me conoció después de tomar unas copas.
+          - **Granny Potterington:** Entonces el diablillo me llevó de regreso a sus mazmorras para pasar una "noche en las celdas", si sabes a qué me refiero.
+          - **Player:** ¿Quieres decir que te arrestaron por estar ebrio y alterar el orden público?
+          - **Granny Potterington:** Prefiero mi versión de la noche.
+        - (Condition: Durante el mes de June:)
+          - **Granny Potterington:** Compré la vieja barra de baile e invité a algunos de mis aldeanos favoritos a tomar vino y bailar.
+          - **Player:** ¿Bailes folclóricos alrededor del mayo? Suena encantador.
+          - **Granny Potterington:** ¿Qué carajo es un árbol de mayo?
+        - (Condition: Durante el mes de julio:)
+          - **Granny Potterington:** Me puse la armadura y comencé a matar duendes.
+          - **Player:** ¿Luchas contra duendes?
+          - **Granny Potterington:** No parezcas tan sorprendida, mi pequeño panqueque. Yo solía ser todo un aventurero en mi época.
+          - **Granny Potterington:** Por supuesto, tengo suerte si puedo golpear a un duende con mi escoba estos días, pero ayuda a mantener las articulaciones flexibles.
+        - (Condition: Durante el mes de agosto:)
+          - **Granny Potterington:** Hoy en día, ya no es tan divertido como solía ser. No puedo andar vagando por los campos de trigo con decenas de jóvenes persiguiéndome.
+          - **Granny Potterington:** Dios mío, esos eran los días.
+          - **Granny Potterington:** ....
+          - **Player:** Er... ¿Abuelita?
+          - **Granny Potterington:** Mmmm, ¿qué? Oh. Lo siento, salchicha, estaba recordando. ¿Dónde estaba yo?
+          - **Player:** Me estabas hablando de la granja.
+          - **Granny Potterington:** Bueno, estos días realmente no hago mucho excepto seducir a jóvenes y atractivos aventureros para que me ayuden en la granja.
+          - **Granny Potterington:** No, no, no lo niegues. ¿Cómo pudiste resistirte a esta elegante nariz y mis magníficos... brazos? Sé que tengo un encanto de sirena, no hay de qué avergonzarse.
+          - **Player:** Correcto.
+        - (Condition: Durante el mes de septiembre:)
+          - **Granny Potterington:** Oh, ya sabes, no mucho. He estado dando vueltas en la granja como siempre lo hago.
+          - **Granny Potterington:** Por supuesto, también he estado preparando mucho hidromiel casero y parte de él es bastante potente.
+          - **Granny Potterington:** Así que hay muchas posibilidades de que yo también haya estado arrasando Ardougne como un dragón trastornado sobre ruedas de carro.
+          - **Granny Potterington:** Es difícil decirlo, la verdad.
+        - (Condition: Durante el mes de octubre:)
+          - **Granny Potterington:** Bueno, ya sabes qué estación es y todos los peligros que conlleva, así que me he asegurado de estar preparado.
+          - **Granny Potterington:** He estado comiendo siete dientes de ajo en cada comida, así que ningún vampyres me va a dar problemas.
+          - **Granny Potterington:** Tengo mis mejores cubiertos en mis aros, así que estoy listo para cualquier hombre lobo que venga a rondar.
+          - **Granny Potterington:** Tengo una pala bonita y resistente para golpear a cualquier zombi en la cabeza. Creo que estoy cubierto.
+          - **Player:** ¿Qué estás haciendo con los fantasmas?
+          - **Granny Potterington:** ...
+          - **Granny Potterington:** ¡Oh, $#!^.
+        - (Condition: Durante el mes de noviembre:)
+          - **Granny Potterington:** He estado escribiendo un libro.
+          - **Player:** ¿Qué tipo de libro?
+          - **Granny Potterington:** Oh, sólo un librito de poesía.
+          - **Player:** ¿Te importa si tengo una lectura?
+          - La abuela te entrega el libro, que tontamente lees en voz alta.
+          - **Player:** ¿Debo compararte con un día de verano?
+          - **Player:** Con una luz brillante del cielo se sienta.
+          - **Player:** Te acostaste conmigo en el heno dorado.
+          - **Player:** Entonces coloca tus manos sobre mí...
+          - **Player:** ¡Abuela! ¡NO!
+          - **Granny Potterington:** Es un trabajo en progreso.
+        - (Condition: Durante el mes de diciembre:)
+          - {{Transcript missing}}
+        - (previous)
+      - [Choice]: ¿Puedes contarme un chiste?
+        - [Día 1]
+          - **Granny Potterington:** Toc, toc.
+          - **Player:** ¿Quién está ahí?
+          - **Abuela Potteringont:** La vaca que interrumpe.
+          - **Player:** La vaca que interrumpe qu-
+          - **Granny Potterington:** ¡MOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!
+        - [Día 2]
+          - **Granny Potterington:** Como granjero, escucho muchos chistes sobre ovejas...
+          - **Granny Potterington:** Se los contaba a mi perro, pero él los pastoreaba a todos.
+        - [Día 3]
+          - **Granny Potterington:** ¿Por qué el espantapájaros ganó un premio? - ¡Porque era sobresaliente en su campo!
+        - [Día 4]
+          - **Granny Potterington:** ¿Qué le dijo el cerdo neurótico al granjero? - Me tomas por gruñido.
+        - [Día 5]
+          - **Granny Potterington:** ¿Por qué la vaca saltó sobre la luna?
+          - **Granny Potterington:** ¡El granjero tenía las manos frías!
+        - [Día 6]
+          - **Granny Potterington:** ¿Quién cuenta chistes sobre gallinas?
+          - **Granny Potterington:** ¡Gallinas comediantes!
+          - **Player:** Eso es basura.
+          - **Granny Potterington:** Sí, no soy el mejor.
+        - [Día 7]
+          - **Granny Potterington:** ¿De qué tipo de cosas habla un granjero cuando ordeña vacas? - ¡Tonterías de ubre!
+        - [Día 8]
+          - **Granny Potterington:** ¿Por qué los guardias arrestaron al gallo? - ¡Sospechaban que jugaba con las aves!
+        - [Día 9]
+          - **Granny Potterington:** ¿Por qué lloraban las fresas pequeñas? - ¡Porque su mamá y su papá estaban en un aprieto!
+          - **Player:** Eso es bastante oscuro si lo piensas.
+          - **Granny Potterington:** Oh, no seas aguafiestas.
+        - [Día 10]
+          - **Granny Potterington:** ¿Qué dijo el granjero cuando su cerdo gordo no cabía en el corral?
+          - **Granny Potterington:** ¡Hay más de lo que STY ofrece!
+        - [Día 11]
+          - **Granny Potterington:** ¿Qué dijo el granjero cuando accidentalmente prendió fuego a su vaca? - Eso fue un bistec un poco equivocado.
+        - [Día 12]
+          - **Granny Potterington:** ¿Por qué las ovejas llamaron a los guardias? - ¡Lo acababan de desplumar!
+        - [Día 13]
+          - **Granny Potterington:** ¿Por qué se enojó el pepino? - ¡Porque estaba en un aprieto!
+        - [Día 14]
+          - **Granny Potterington:** ¿Cómo llamas al ganado con sentido del humor? - ¡El hazmerreír!
+        - (previous)
+      - [Choice]: Me gustaría hablar de otra cosa.
+        - (initial)
+  - [Choice]: [Ask about the farm.]
+    - [Menu]: Selecciona una opción
+      - [Choice]: Pregunte sobre los antecedentes de la finca.
+        - **Granny Potterington:** Esta granja ha estado con mi familia durante generaciones. Hay años de sangre, sudor y lágrimas de Potterington en este suelo.
+        - **Granny Potterington:** Lo cual suena horrible cuando lo digo en voz alta.
+        - **Granny Potterington:** Pero de todos modos, estos viejos huesos ya no pueden administrar la granja adecuadamente. No puedo cuidar de los animales ni cuidar los cultivos.
+        - **Granny Potterington:** Pero lo que puedo hacer es gestionar los agricultores y los mercados de agricultores. Por qué tengo a esos viejos granjeros enredados en mi dedo meñique.
+        - **Granny Potterington:** Entonces, si puedes encargarte de las tareas agrícolas por mí, yo me encargaré de la gestión y el papeleo. Puedes quedarte con los materiales, yo me quedaré con el efectivo.
+        - **Granny Potterington:** ¿Alguna pregunta?
+        - (previous)
+      - [Choice]: ¿Podemos contratar alguna ayuda?
+        - **Granny Potterington:** Creo que hay algunas personas que podrían ayudarte con la granja.
+        - **Granny Potterington:** Son un grupo un poco heterogéneo, debo decir, ¡pero donde hay voluntad, hay una manera!
+        - **Granny Potterington:** Puedes contratarlos en el mercado de agricultores y realizarán una tarea por ti pagando una tarifa.
+        - **Granny Potterington:** Por ejemplo, una niñera impedirá que los animales en un corral crezcan más allá de la adolescencia, lo que significa que es más probable que los vendas por frijoles de primera calidad.
+        - **Granny Potterington:** Un coleccionista recogerá a los bebés que nazcan después de que el corral de cría se haya llenado y almacenará hasta 30 de ellos en hasta 3 tipos diferentes como animales no controlados.
+        - **Granny Potterington:** Un trampero, por una tarifa, buscará una cría de animal perdida en la naturaleza y la traerá de regreso. Podría ser prácticamente cualquier cosa, aunque es muy probable que sea algo común.
+        - **Granny Potterington:** ¿Alguna pregunta?
+        - (previous)
+      - [Choice]: ¿Podemos anunciar lo que vendemos?
+        - **Granny Potterington:** Bueno, por supuesto querida, puedes colocar un anuncio en el tablero hacia el suroeste para atraer a un comerciante específico aquí.
+        - (previous)
+      - [Choice]: ¿Dónde puedo guardar mis animales?
+        - **Granny Potterington:** Estos días, he oído que mucha gente guarda animales en espera de ser vendidos en su banco.
+        - **Granny Potterington:** ¡Su banco! ¡Lo creerías! En mi opinión, no sé cómo la gente del pueblo soporta el olor.
+        - **Granny Potterington:** Personalmente, ¡solía asaltar el granero!
+        - **Granny Potterington:** ¿Alguna pregunta?
+        - (previous)
+      - [Choice]: [Ask about something else.]
+        - (initial)
+  - [Choice]: [Ask about animals.]
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Cómo consigo animales?
+        - **Granny Potterington:** Tus típicos animales de granja (vacas, ovejas y gallinas) los puedes conseguir de mí.
+        - **Granny Potterington:** Sólo necesito unos cuantos frijoles y puedo conseguir una buena oferta en el mercado de agricultores.
+        - **Granny Potterington:** Algunos animales los obtendrás gracias a tu habilidad general. A veces puede encontrar uno mientras se ocupa de sus asuntos.
+        - **Granny Potterington:** Para las cosas más aterradoras, tendrás que ponerte tu equipo de aventuras más brillante y empezar a matar.
+        - **Granny Potterington:** Por supuesto, también puedes intercambiar cualquiera de ellos con tus compañeros agricultores. El Grand Exchange no nos permitirá intercambiar animales en él, pero podéis comerciar entre vosotros directamente.
+        - (previous)
+      - [Choice]: ¿Cómo crío animales?
+        - **Granny Potterington:** Para criar un animal, primero debes asegurarte de haberlo revisado.
+        - **Granny Potterington:** Un animal no controlado podría tener todo tipo de enfermedades, garrapatas, parásitos o maldiciones y tú no quieres eso.
+        - **Granny Potterington:** Entonces solo necesitas usar el animal en un prado del tamaño adecuado. Los animales pequeños van en el corral pequeño, los grandes en el grande, etc.
+        - **Granny Potterington:** Tampoco puedes criar diferentes animales en el mismo prado, ya que tienden a pelear.
+        - **Granny Potterington:** También necesitarás alimentar a tus animales. Este es solo un caso simple de asegurarse de haber puesto el tipo correcto de comida en el comedero para el animal en ese prado.
+        - **Granny Potterington:** Recuerda que no todos los animales comen todo tipo de alimentos, así que asegúrate de no intentar alimentar a los dragones con fresas o morirán de hambre.
+        - **Granny Potterington:** Un animal hambriento perderá felicidad y salud, lo que aumentará las posibilidades de que enferme y reducirá el peso, la velocidad y el potencial de atractivo de ese animal.
+        - **Granny Potterington:** Si tu animal contrae enfermedades, tendrás que examinarlo. Revisa sus síntomas y administra el tratamiento adecuado para curarlo.
+        - **Granny Potterington:** Un animal enfermo otorga menos recompensas cuando se lo caza y tiene estadísticas más bajas que los animales más sanos, por lo que siempre vale la pena mantenerlos sanos.
+        - **Granny Potterington:** Si quieres que te ayuden con tus animales, tenemos algunas colmenas especiales en el sureste de la granja.
+        - **Granny Potterington:** Estas colmenas convertirán lentamente cualquier flor que les des en mieles especiales que pueden reforzar la salud, la felicidad, el peso, la velocidad o el atractivo de tu animal.
+        - **Granny Potterington:** Algunas vacas raras producen una leche extraña que los animales de granja también parecen adorar.
+        - **Granny Potterington:** Los animales están bastante tranquilos en la granja, por lo que no es necesario que los vigiles constantemente. Simplemente regrese de vez en cuando para ver cómo les va.
+        - (previous)
+      - [Choice]: ¿Cómo crío animales?
+        - **Granny Potterington:** Oh, eso es fácil. Sólo necesitas conseguir dos animales de la misma especie y ponerlos en el corral de cría.
+        - **Granny Potterington:** Asegúrate de que tengan suficiente edad reproductiva y de que tengan comida, luego espera...
+        - **Granny Potterington:** Lo arreglarán a su propio ritmo y, eventualmente, deberías tener un adorable animalito esperándote.
+        - **Granny Potterington:** A pesar de las afirmaciones de los jóvenes de hoy, los animales mayores son bastante capaces de reproducirse. Así que no te preocupes si a tus animales les crecen un poco los dientes.
+        - **Granny Potterington:** Todavía son bastante capaces de... hacer el trabajo.
+        - **Granny Potterington:** Los animales tardan en reproducirse y tendrás que mantenerlos lo más sanos y felices posible para obtener los resultados más rápidos.
+        - **Granny Potterington:** Además, recuerda que el corral de cría solo puede albergar a 4 animales a la vez, así que asegúrate de sacar a los niños para conseguir otros nuevos.
+        - (previous)
+      - [Choice]: ¿Qué son los rasgos y las ventajas?
+        - **Granny Potterington:** Los rasgos son pequeños identificadores que indican en qué se diferencia ese animal de los demás.
+        - **Granny Potterington:** Algunos rasgos significan que un animal es mucho más feliz que otros y es fácil entretenerlo.
+        - **Granny Potterington:** Algunos rasgos significan que puedes cosecharlos para obtener más materiales.
+        - **Granny Potterington:** Algunos rasgos pueden aparentemente no hacer nada en absoluto. Mientras que otros harán cosas raras.
+        - **Granny Potterington:** Generalmente, siempre es bueno intentar reproducir múltiples rasgos en animales, ya que los beneficios son acumulativos.
+        - **Player:** ¿Y qué son las ventajas?
+        - **Granny Potterington:** Ah, ahora, para aquellos, primero deben comprar un tótem de granja en el mercado de agricultores y adjuntarlo a un corral para animales.
+        - **Granny Potterington:** Luego, coloca un animal mayor en ese corral para activar su beneficio. Por ejemplo, la ventaja para los conejos es un aumento en todas las posibilidades de reproducción de animales.
+        - **Granny Potterington:** Si colocas un segundo animal anciano del mismo tipo en el otro corral de ese tamaño, también con un tótem de granja adjunto, ¡harás que el beneficio sea más potente!
+        - (previous)
+      - [Choice]: Me gustaría hablar de otra cosa.
+        - (initial)
+    - [Choice]: [Ask about sales.]
+      - [Choice]: Seleccione una opción
+        - [Choice]: ¿Cómo puedo ganar frijoles?
+          - **Granny Potterington:** Prácticamente la única forma de ganar más frijoles es vender algunos de los animales que has criado.
+          - **Granny Potterington:** Encontrarás compradores que aparecen en la granja junto al pozo con bastante regularidad.
+          - **Granny Potterington:** Véndeles los animales que buscan y pronto verás cómo fluyen los frijoles.
+          - **Granny Potterington:** El progreso será lento al comenzar, pero una vez que hayamos construido cierta reputación y una base de clientes, ¡tendrás más frijoles de los que sabrás qué hacer!
+          - (previous)
+        - [Choice]: ¿Cómo funciona la venta?
+          - **Granny Potterington:** Escuche atentamente, porque hay muchos matices para lograr una gran venta.
+          - **Granny Potterington:** En primer lugar, un comprador solo tendrá interés en un tipo específico de animal. Tomemos como ejemplo a Myfi: ella sólo querrá comprar conejos.
+          - **Granny Potterington:** Cada día que aparezcan, también querrán una cantidad específica de ese animal. No están hechos de frijoles, por lo que tendrán un presupuesto limitado.
+          - **Granny Potterington:** La mejor edad para vender animales es la adolescencia. Puede vender animales más viejos con un ligero descuento; es posible que ya hayan pasado su mejor momento, pero aún tienen un valor razonable.
+          - **Granny Potterington:** Y aunque puedes vender huevos y bebés, no obtendrás mucho por ellos. Para eso nos paga la gente: para criarlos.
+          - (previous)
+        - [Choice]: ¿Algún otro consejo útil?
+          - **Granny Potterington:** Los compradores también tendrán una solicitud especial: tanto una raza específica como un rasgo específico. Combina cualquiera de ellos con cualquier oferta y obtendrás más frijoles. Combina ambos y obtendrás un pequeño bono además.
+          - **Granny Potterington:** Dicho esto, ¡pasarán por alto la raza específica si les vendes un animal brillante!
+          - **Granny Potterington:** Para todas las ventas, independientemente de cualquier solicitud especial, también existen ciertos rasgos animales que pueden afectar las ofertas de frijoles.
+          - **Granny Potterington:** Cualquier cosa con los rasgos Hosco, Agradable pero tenue o Eficiencia limitada se venderá por menos granos.
+          - **Granny Potterington:** Pero cualquier cosa con los rasgos Afortunado, Afortunado o Desafortunado para algunos se venderá por más frijoles.
+          - **Granny Potterington:** Todavía podría valer la pena vender animales con malas características de los frijoles si es para cumplir con un pedido especial. El impulso de cumplir con la solicitud especial debería compensar cualquier aspecto negativo.
+          - **Granny Potterington:** Finalmente, si puedes conseguir uno de esos elegantes trajes agrícolas, ¡quizás puedas negociar mejores precios de frijoles en CADA venta! Imagínate que...
+          - (previous)
+        - [Choice]: ¿Muéstrame el mercado de agricultores?
+          - (opens=Farmers' Market)
+        - [Choice]: [Ask about something else.]
+          - (initial)
+  - [Choice]: Adiós, abuela.
+    - **Granny Potterington:** Adiós, querida.
+
+### Attempting to use seasonaliser without having purchased it
+
+- **Granny Potterington:** Esa cosa vieja no ha funcionado en años. Tendrás que comprar algunas piezas en el mercado de agricultores.
+
+### Using an item on her
+
+
+#### Pollo lagarto macho
+
+- **Granny Potterington:** Espera un minuto, ¿cómo conseguiste un pollo lagarto MACHO? ¡Pensé que todas eran gallinas! ¿Te importa si lo dejo en la granja?
+  - [Menu]: ¿Entregarle Malcolm, el pollo lagarto, a la abuela P?
+    - [Choice]: Sí.
+      - ¡Felicitaciones! Has completado: 'La vida, eh, encontré un camino'. (Entregue un pollo lagarto llamado Malcolm con el rasgo Caótico a Granny P.)
+    - [Choice]: No.
+      - {{Transcript missing}}
+
+#### Cigomita mágico leal
+
+- **Granny Potterington:** Oh, ¿quién es ese pequeño y divertido? Trevor, el cigomita mágico, ¿eh? Él también es leal. ¡Sería una gran mascota! ¿Quieres que lo domine por ti?
+  - [Menu]: ¿Entregar el mágico Trevor a la abuela P.?
+    - [Choice]: Sí.
+      - ¡Felicitaciones! Has completado: 'Ever So Clever'. (Entregue un cigomita mágico llamado Trevor con el rasgo Leal a Granny P.)
+    - [Choice]: No.
+      - {{Transcript missing}}
+
+#### Cualquier otro artículo
+
+- **Granny Potterington:** ¿Qué se supone que debo hacer con eso? Tú te ocupas de ello.
+
+### Contract Options
+
+- ¿Tiene alguna pregunta?
+  - ¿Podemos anunciar lo que vendemos?
+    - **Granny Potterington:** ¡Por supuesto! Si hay un animal en particular para el que desea atraer compradores, lo haré correr la voz. O si prefieres volver a confiar en el boca a boca, yo también puedo hacerlo. ¿Qué animalito te gustaría que anunciara?
+      - ¿Atraer compradores para qué animal pequeño?
+        - Conejos.
+          - *(Continúa a continuación)*
+        - Pollos.
+          - *(Continúa a continuación)*
+        - Chinchompas.
+          - *(Continúa a continuación)*
+        - Volver al boca a boca.
+          - **Granny Potterington:** ¿Qué animal mediano te gustaría que anunciara?
+            - ¿Atraer compradores para qué animal mediano?
+              - Sheep.
+                - *(Continúa a continuación)*
+              - Arañas.
+                - *(Continúa a continuación)*
+              - Cigomitas.
+                - *(Continúa a continuación)*
+              - Volver al boca a boca.
+                - **Granny Potterington:** ¿Qué animal grande te gustaría que anunciara?
+                  - ¿Atraer compradores para qué animal grande?
+                    - Vacas.
+                      - *(Continúa a continuación)*
+                    - Yaks.
+                      - *(Continúa a continuación)*
+                    - Dragones.
+                      - *(Continúa a continuación)*
+                    - Volver al boca a boca.
+                      - *(Muestra opciones de diálogo normales)*
+  - No, señora.
+    - *(Muestra opciones de diálogo normales)*
+
+### After the release of Ranch Out of Time
+
+- *(Saludo aleatorio como arriba.)*
+- **Granny Potterington:** Querida, ¿sabías que la marca Potterington se ha expandido? Por qué sí, mi pequeño aguacate, acabamos de abrir un nuevo rancho en Anacronia. ¡Allí puedes criar grandes y malditos lagartos! Si quieres echar un vistazo, debes subir las escaleras y echar un vistazo a la gran enredadera en el invernadero. Esos expertos del gremio de agricultores han encontrado una manera de hacer que te lleve hasta allí. Es bastante divertido, me dio todos los escalofríos cuando lo probé. Anda, echa un vistazo. Me imagino que hay muchas cosas que se podrían hacer con los ingredientes recolectados de esas unidades absolutas.
+- *(Opciones de diálogo como arriba.)*

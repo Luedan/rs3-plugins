@@ -1,0 +1,150 @@
+# Saradomin
+
+- **Original Wiki Page**: [Transcript:Saradomin](https://runescape.wiki/w/Transcript%3ASaradomin)
+- **Letter**: `S`
+
+---
+
+## Dialogue Transcript
+
+{{incomplete|Missing post-quest dialogues}}
+
+### In White Knights' Castle before Sliske's Endgame
+
+- *Before completion of Missing, Presumed Death:*
+  - **Saradomin:** So, this is the World Guardian. I believe the standard line is 'I expected someone taller', but I have no desire to offend you this day.
+  - **Saradomin:** I assume I do not need to introduce myself. My religion has been the primary religion of humanity since before humanity left Teragard.
+  - **Player:** Why are you back now?
+  - **Saradomin:** Because the other gods are here and when the gods gather it means that something dangerous is approaching.
+  - **Saradomin:** I must be there to help guide people towards a sensible outcome, for the younger gods are not wise enough to do so without me.
+- *After completion of Missing, Presumed Death:*
+  - **Saradomin:** Hello again World Guardian<!-- different if not world guardian? -->. I assume you've noticed how shadows have begun to fall strangely across the world. It is the strange light that heralds an eclipse, the time when Zanaris blocks the light of the sun. A time of great power, and even greater danger. We both know what this eclipse heralds. Sliske's final pieces of his inevitable trap have fallen into place and we gods must spring it.
+  - **Player:** Could you not just stay away and avoid the trap?
+  - **Saradomin:** Would that we could Player, but no. We gods must answer this call, or the stone will inevitably fall into the wrong hands. Zamorak, Zaros, even Armadyl and Seren. If any of these were to claim the stone, it would lead to war. No, the stone must be claimed by a strong god. A god wise enough to use it. Only I have such experience. Only I can be trusted to save the lesser gods from themselves.
+- *After completion of Evil Dave's Big Day Out:*
+  - **Saradomin:**Sorry - I didn't recognise you when you weren't acting like a toddler and being a gigantic pain in my divine behind.
+  - **Saradomin:**How are you and Zamorak getting on? Best friends?
+  - **Saradomin:**Just kidding, I seriously don't care. Get out of my sight.
+
+### After Sliske's Endgame
+
+- Can I talk to you about Sliske's game?
+  - **Saradomin:** It is better that the stone is lost, than for it to have fallen into enemy hands.
+  - **Saradomin:** Still without the stone what becomes of the dragonkin now? This is not the end of the danger they represent. Merely the beginning.
+- Can I ask you about...
+    - Armadyl
+      - **Saradomin:** Armadyl showed great promise when I first encountered him. A willingness to learn and a drive for justice that appealed to my own. He was a young deity, but not a rival, and I saw a wisdom in taking him under my wing...if you'll pardon the pun. During the conflict with the vile Zamorak, Armadyl counselled a temporary alliance with ourselves and the warmongering Bandos. A wise move, for Zamorak was the more immediate threat. Sadly, that allegiance would not last. Old rivalries proved more important than reason. Armadyl's people would perhaps suffer the most from the conflict that followed. I know Armadyl holds me in some way responsible. i suspect he is unwilling to recognise his own fault in this. Still, I would be willing to accept vassalage of Armadyl and his people. They are a noble species and I believe they would benefit from my tutelage.
+        - *(Shows previous options)*
+    - Seren
+      - **Saradomin:** Seren thinks of herself as a good, kind, deity, but she is a fraud. She enslaved her people and she refuses to help anyone beyond her precious elves. A benevolent god would seek to protect all people, not just a subset.
+        - Would you?
+          - **Saradomin:** What alternative is there? Understand. I do not say this out of arrogance. I have lived millennia, and in that time I have seen countless governments rise and fall. There is a pattern to the ascendance and collapse of civilisation. A cycle of tragedy. I have the knowledge to break this cycle, and most importantly the will to lead everyone forwards. Is it wrong to use this knowledge? Gielinor, and other worlds, would be bought to a new future. A utopia. Other gods can claim this, but only I have the experience necessary to make it happen.
+            - *(Shows previous-to-previous options)*
+        - You mean control them?
+          - **Saradomin:** You say that as though it were a bad thing. People need to be led. They need governments. They need leaders. They need structures. Freedom doesn't mean anarchy. Just as control doesn't have to mean slavery. I offer guidance and leadership. Law and order. Under my 'control', people could thrive. Everyone would have the reassurance that they know where they belong and how they should behave. The people crave. Deep down everyone wants to know where they sit in the world. What you call control, I would argue is true freedom. Freedom to know how life should be lived and how to fulfil once potential.
+            - *(Shows previous-to-previous options)*
+        - [Say nothing]
+          - *(Shows previous-to-previous options)*
+    - Zamorak
+      - **Saradomin:** I have walked many worlds and interacted with numerous deities, but none I find quite as deplorable as the usurper Zamorak. Even his divine nature is brought about by the betrayal of one he claimed to serve. The theft of another's essence. He preaches a creed of 'strength through chaos', spreading the lie that his acts of wanton cruelty are really lessons that help us grow. Why must people die for us to learn how to defend them? Could he not simply teach them? Offer the people ways to improve themselves, spread his meagre knowledge to better them? No. Instead he sends demons to raid their villages. He tricks learned mages into dabbling with foreign magics. Then Zamorak watches as people die in suffering and agony. Where is the strength in that? Where is the wisdom? It's psychotic indulgence of a monster, not the acts of a god.
+        - You've killed people, though.
+          - **Saradomin:** Yes. I have taken lives in my time. I won't deny that. But i have always done so with purpose...with greater good in mind. I fought wars because there are some who understand no other discussion. Without the clash of sword and shield, they cannot hear reason. It is silence to them. I have committed acts that some would call cruel, but they are a woeful necessity. Once I was forced to take the wings of an icyene. To tear them from her back and leave to the the mercy of winter. We were heading into a time of war, against an aggressor native to Hallow. I had been forced to militarise the noble icyene. The icyene are a powerful race, but still mortal, and their numbers comparatively few. I needed each of them to stand up and join the fight, less they all suffer. But one refused. She cried out that the conflict would solve nothing. She proclaimed that all icyene should lay down their spear and embrace a peaceful approach. Her words were...enticing. I wanted to follow them myself. I would have loved little more than for conflict to end and peace to flourish. But I knew better. I knew inaction would lead to the destruction of my people. I had to show the icyene what they faced if they did not fight. I had to show them how the enemy would show no mercy...just as I had to show no mercy. I will not forget that...feeling. that horrible stretching sensation followed by that terrible, sudden, snap. Feathers and tendons falling around me like some horrible snowstorm. It was...cruel, but I had no choice. That act reminded the icyene why they were fighting, what they were fighting, and it reminded them that everyone must do their duty. A moment of cruelty, for decades of prosperity. A fair, if unsightly, trade.
+            - Thats not how Garlandia sees it
+              - **Saradomin:** No. I imagine not. She will only see the barbarism and the cruelty, but the lesson was, ultimately, not for her.
+                - *(Shows previous-to-previous-to-previous options)*
+            - [Stay silent]
+              - *(Shows previous-to-previous-to-previous otpions)*
+        - They better themselves.
+          - **Saradomin:** But do they? Really? What of the ones who die? Their potential lost, squandered and meaningless.
+          - **Saradomin:** What of the wise scholar, whose library is burned to the ground. He becomes a builder, reclaiming what was lost, but he could have resolved vital mysteries.
+          - **Saradomin:** At best, chaos is an engine for change, but it is change without focus or purpose. Simply reaction, rather than evolution. There are better ways.
+          - **Saradomin:** No. Zamorak is a dangerous creature with delusions of grandeur; little more.
+        - [Stay silent]
+          - **Saradomin:** No. Zamorak is a dangerous creature with delusions of grandeur; little more.
+            - *(Shows previous-to-previous options)*
+    - Zaros
+      - **Saradomin:** Ah, yes. The "Empty Lord". The lord of the Empty Throne who ruled his empire from the shadows. Another god whose lethargy was stronger than his leadership skills. He ruled from seclusion, letting his own people do the work for him. No wonder he was betrayed. He would have you believe he is a guide rather than a monarch, but he lacks the conviction to truly lead. True leadership is sacrifice. A willingness to give yourself fully to guiding your people.
+        - Zaros is our only hope.
+          - **Saradomin:** You think so? Who told you this? Hmm? Was it the Empty Lord himself, perchance? Or one of his sycophants? I would expect more from the World Guardian. You are a role model...an inspiration to some. I would counsel you to use more common sense. Zaros has an agenda. Just as we all do.
+        - [Say nothing]
+          - *(Shows previous options)*
+    - [More Options]
+      - Vorago
+        - **Saradomin:** And you would expect me to say what about this hulking monstrosity? Should I be in awe? Should I cower in fear? I have wandered worlds long before the first footprints pressed into Gielinor. In that time, I have witnessed wonders and nightmares that make this Vorago pale in comparison. I am not sure why Sliske invited him, but his presence changes little.
+          - *(Shows previous options)*
+      - Icthlarin
+        - **Saradomin:** He serves a noble purpose. I can respect that. If he sticks to his duty I will have no qualms with him.
+          - *(Shows previous options)*
+      - Death
+        - **Saradomin:** Death performs a necessary function, however little most mortals may like it. It is a lonely, but important job. I wish him well. That said, it would be unwise to allow Death to claim the stone. There is a natural order to things, and we should not risk that.
+          - *(Shows previous options)*
+      - Sliske
+        - **Saradomin:** Sliske is a dangerous creature. Perhaps even more so than Zamorak. Both seek chaos, but at least one seeks chaos for a purpose. Sliske just wants to see the world aflame, with all hope and purpose cast into the inferno for his amusement. That such a lunatic could possess the stone is concerning. That such a lunatic has chosen not to ascend, perhaps more worrying still. If he craved power, I could understand. If he craved a nihilistic end to existence, I could perhaps begin to understand that. But Sliske's motivations appear...incomprehensible, and that concerns me greatly.
+          - *(Shows previous options)*
+      - [More Options]
+        - Bandos
+          - **Saradomin:** There is little point to speak of the dead. Bandos had his merits and his flaws, but he is gone now and no more needs to be said.
+            - *(Shows previous options)*
+        - The Dragonkin
+          - **Saradomin:** I have little to say of these creatures. They are dangerous beasts, little more.
+          - You get the impression that Saradomin may be hiding something.
+            - *(Shows previous options)*
+        - Brassica Prime
+          - **Saradomin:** Ha ha ha. That thing calls itself a god? Laughable. Truly. Whatever that thing is, it has demonstrated no real power and has no real followers. I find it almost contemptible that we're even discussing it.
+            - *(Shows previous options)*
+        - Marimbo
+          - **Saradomin:** We will not discuss that...that...drunken harlot.
+            - *(Shows previous options)*
+        - [More Options]
+          - [See previous options]
+            - Armadyl
+              - *(Same as above)*
+            - Seren
+              - *(Same as above)*
+            - Zamorak
+              - *(Same as above)*
+            - Zaros
+              - *(Same as above)*
+          - [Ask about something else]
+            - *(Shows initial options)*
+          - Goodbye
+            - *(Dialogue ends)*
+- Can you talk about your history?
+    - How did you ascend?
+      - *If consistently aligned to Saradomin*
+        - **Saradomin:**I was a justicar on Teragard, one tasked with upholding and enforcing the law. I risked my life each day to preserve order and protect the innocent. At times the forces of avarice and corruption I fought against seemed insurmountable. Upholding the law was a tough yet noble duty, and my obsession. It took its toll on me, and my family, but my community thrived as a result. Perhaps that's why the Crown chose me. It could sense in me the drive for order. The yearning for the world to be the best it could. You perhaps expect the Crown to have been discovered at the end of an epic quest. Perhaps I slew demons or wrestled chthonic entities into the abyss, but I did none of these things. Instead, whilst hunting down a criminal, I discovered a cave that hadn't seen human life...ever. Within, I saw a golden circlet that called out to me, choosing me. This was the Crown and I knew without hesitation that it was made for me. That I had been chosen. My apotheosis did not happen overnight. The Crown led me to objects of power and importance, and these became my tools. With them, I began to slowly reshape Teragard into something greater. Over time, I discovered the tools were no longer necessary, and that I now wielded the power without them. Henceforth, my power grew and grew, and I took my rightful place as the god of Teragard. Progression from there was obvious and inevitable. I realized that there would be other worlds out there, worlds that needed guidance and order. I would not leave them forgotten.
+      - *If unaligned to Saradomin:*
+        - **Saradomin:**No. You have shown me little loyalty, so I see no reason to explain my secrets.
+          - *(Shows previous options)*
+      - *If you have not consistently supported Saradomin (unknown condition)): *
+        - **Saradomin:** Whilst your allegiance to me now is gratifying, your track record has been less than exceptional. Perhaps in future I will have this conversation, but not today. Forgive me.
+          - *(Shows previous options)*
+    - Can you tell me about Teragard?
+      - **Saradomin:** The birthplace of humanity is a beautiful world, if not a kind one. Snow covers the lands and the winds would chill you to the bone. Nonetheless, it was my home. We were disparate nations, spread across the world. When I ascended, I decided to rectify that. To bring an end to pointless conflicts over invisible territorial lines that serve no one. I created magisters...priests and teachers who were to act as my authority where I could not. They were learned individuals whom I would personally instruct on what lessons to teach others. I created twelve in total, each tasked with governing a different part of the world, and each given a mandate to improve humanity in line with my teachings. With the magisters in place, my people prospered, and entered a glorious age of enlightenment. Confident that my world was in safe hands, I turned my attention to other worlds in greater need of my assistance.
+      - **Player:** Do you often return to Teragard?
+      - **Saradomin:** I...have not yet had the opportunity. Other worlds have greater need of my attention.
+    - Can you tell me about your family?
+      - **Saradomin:** What family I had are long since dead.
+        - I'm sorry.
+          - **Saradomin:** There is no reason to be, it was millennia ago. Death comes to all mortals. I watched each of my family line wither and die, and could do nothing to prevent the ravages of time. At one time, I held onto their personal possessions, but they have long since disintegrated. All I have of them are the memories I carry through the ages, though I barely recall the names of my parents or the colour of my wife's eyes. They are part of the life of the man I was before, not the god I am now. I have moved on from that life and embraced a greater responsibility.
+        - [Say nothing]
+          - **Saradomin:**They are part of the life of the man I was before, not the god I am now. I have moved on from that life and embraced a greater responsibility.
+    - Can you tell me about Hallow?
+      - **Saradomin:** It is a beautiful world filled with noble creatures. The transition from day to night takes almost a year as you know it, so each night the icyene move from one island to the next. The migrations are such a sight to behold. Flocks of icyene abandon one home and fly across the oceans to settle once more in structures that have lain empty for the entire winter.
+        - Are there any other races there?
+          - **Saradomin:** There are other creatures, certainly. Skypouncers roam the plains and there are visitors from other worlds from time to time...but natives...no.
+          - Saradomin doesn't say the words 'no longer' but they hang in the air, spoken but unsaid.
+        - [Stay silent]
+          - *(Shows previous options)*
+    - Ask about something else.
+      - *(Shows previous options)*
+  - I want to side with you.
+    - Side with Saradomin in the endgame?
+      - Yes
+        - **Player:**Saradomin, you deserve the stone. I shall stand with you.
+        - **Saradomin:**Thank you, Player. Together we will lay the foundation for a glorious future.
+          - *(Shows previous-to-previous options)*
+      - No
+        - *(Shows previous-to-previous options)*
+  - Goodbye.
+    - *(Dialogue ends)*

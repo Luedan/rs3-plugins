@@ -1,0 +1,121 @@
+# Martin the Master Gardener
+
+- **Original Wiki Page**: [Transcript:Martin the Master Gardener](https://runescape.wiki/w/Transcript%3AMartin%20the%20Master%20Gardener)
+- **Letter**: `M`
+
+---
+
+## Dialogue Transcript
+
+{{Incomplete|potentially missing dialogue between Fairy Tale 1 and Fairy Tale 3}}
+
+### In Draynor Village
+
+- [Menu]: What would you like to ask about?
+  - [Choice]: Skillcape of Farming.
+    - (Condition: If the player hasn't reached level 99 Farming:)
+      - **Player:** What is that cape that you're wearing?
+      - **Martin the Master Gardener:** This is a Skillcape of Farming, isn't it incredible? It's a symbol of my ability as the finest farmer in the land!
+    - (Condition: If the player has reached level 99 Farming:)
+      - [Menu]: Choose an option:
+        - [Choice]: May I buy a skillcape of Farming, please?
+          - (Condition: If the player has a ring of charos (a) equipped:)
+            - **Martin the Master Gardener:** I don't do this for anyone, but I've got a special offer today! Normally I require 99,000 coins for this prestigious item, but for you it's half price. Only 92,000 coins!
+            - [Menu]: Choose an option:
+              - [Choice]: 92,000 coins? That's much too expensive.
+                - **Player:** I know where to find you if I change my mind.
+              - [Choice]: I think I have the money right here, actually.
+                - (Condition: If the player has no backpack space:)
+                  - **Martin the Master Gardener:** Unfortunately all skillcapes are only available with a free hood, it's part of a skill promotion deal; buy one get one free, you know. So, you'll need to free up some backpack space before I can sell you one.
+                - (Condition: If the player does not have enough money:)
+                  - **Player:** But unfortunately, I was mistaken.
+                  - **Martin the Master Gardener:** Well, come back and see me when you do.
+                - (Condition: If the player has enough money:)
+                  - (receives=farming cape and farming hood) (removes=92,000 coins)
+                  - **Martin the Master Gardener:** Excellent! Wear that cape with pride my friend.
+              - [Choice]: cond=If the player has 120 Farming|I've mastered this skill. Is there anything else?
+                - **Martin the Master Gardener:** There is something...though I have kept it a secret for a very long time. It is something that can only be worn by a true master.
+                - **Martin the Master Gardener:** Not even I can wear it - that's how hard it is to achieve.
+                - **Martin the Master Gardener:** You say you're a master. Stand straight, let me take a look at you.
+                - **Martin the Master Gardener:** You...really have mastered it. What an honour! It would be my pleasure to sell you a Farming master cape.
+                - [Menu]: Buy Farming master cape for 120,000 coins?
+                  - [Choice]: Yes.
+                    - (Condition: If the player has no backpack space:)
+                      - **Martin the Master Gardener:** You do not have enough room in your backpack. Please come back when you have some more.
+                    - (Condition: If the player does not have enough money:)
+                      - You do not have enough money to purchase this cape.
+                    - (Condition: If the player has enough money:)
+                      - (receives=farming master cape) (removes=120,000 coins)
+                      - {{qact|Master cape music plays.}}
+                  - [Choice]: No.
+                    - (end)
+        - (Condition: If the player does not have a ring of charos (a) equipped:)
+          - [Menu]: Choose an option:
+            - [Choice]: 99,000 coins? That's much too expensive.
+              - **Player:** I know where to find you if I change my mind.
+            - [Choice]: I think I have the money right here, actually.
+              - (Condition: If the player has no backpack space:)
+                - (above)
+              - (Condition: If the player does not have enough money:)
+                - (above)
+              - (Condition: If the player has enough money:)
+                - (receives=farming cape and farming hood) (removes=99,000 coins)
+                - **Martin the Master Gardener:** Excellent! Wear that cape with pride my friend.
+            - [Choice]: cond=If the player has 120 Farming|I've mastered this skill. Is there anything else?
+              - (above)
+        - [Choice]: I've noticed there are a couple of versions of each skillcape.
+          - **Martin the Master Gardener:** Yes! We, the skill masters, have crafted new versions of all skillcapes! We felt like it was time for a change.
+          - (Condition: If you use the old model:)
+            - **Martin the Master Gardener:** It looks like you're currently using the old model for your Farming skillcape. Would you like to change to the newer one?
+            - (continue)
+          - (Condition: If you use the new model:)
+            - **Martin the Master Gardener:** You can still choose to wear the old model skillcape if you want. Would you like to change which model you are currently using?
+            - (continue)
+          - [Menu]: Select an Option
+            - [Choice]: Yes, I would like to wear the [new/old] version of the skillcape.
+              - **Martin the Master Gardener:** Would you like to wear the [old/newer] model for just this cape, or for the Quest Cape and all of the skillcapes you own?
+              - [Menu]: Select an Option
+                - [Choice]: I would just like to change the farming skillcape.
+                  - **Martin the Master Gardener:** No problem, you will now use the [older/newer] model for your farming skillcape.
+                - [Choice]: I would like to change all my skillcapes.
+                  - **Martin the Master Gardener:** No problem, you will now use the [older/newer] model for all of your skillcapes!
+                - [Choice]: I've changed my mind!
+                  - (end)
+            - [Choice]: No, thank you.
+              - **Martin the Master Gardener:** Great! I'm glad you're still enjoying the [old/new] version!
+              - (Condition: If the player uses the new model for any other skillcape:)
+                - **Martin the Master Gardener:** If you want, I can make it so you use the old model for all of the skillcapes you own.
+                - [Menu]: Select an Option
+                  - [Choice]: Ok, I'd like to wear the old version for all my skillcapes.
+                    - **Martin the Master Gardener:** Great, you will now use the old model for all of your skillcapes!
+                  - [Choice]: No, thanks.
+                    - (end)
+  - [Choice]: cond=If the Fairy series of quests has not been started|General Chat.
+    - **Martin the Master Gardener:** I can't chat now, I have too many things to worry about.
+  - [Choice]: cond=If the Fairy series of quests has been started|Talk about farming problems and fairies.
+    - (Condition: After Fairy Tale I:)
+      - {{transcript missing}}
+    - (Condition: After Fairy Tale II:)
+      - {{transcript missing}}
+    - (Condition: After Fairy Tale III:)
+      - **Player:** Hey, how's it going?
+      - **Martin the Master Gardener:** Good, thanks. I'm getting some bumper harvests from the patches now, so thanks for your help.
+      - **Martin the Master Gardener:** As a way of saying thanks, I've had a chat with all the patch farmers...and they'd be happy to keep your patches weed free for you from now on, if you like. Just have a word with one of them.
+      - **Player:** Oh, that's great, thanks!
+  - [Choice]: cond=If Vampyre Slayer is completed|Vampyre Slayer.
+    - **Martin The Master Gardener:** I'm very grateful to you for ridding the village of that vampyre. It's been so nice to sit outdoors in the evenings and not worry.
+    - **Player:** Glad to help.
+  - [Choice]: cond=If Bringing Home the Bacon is completed|Bringing Home the Bacon.
+    - **Player:** Can I rename that pig I got from you?
+    - ((Pig Name Selection interface opens.))
+  - [Choice]: The behemoth pig.
+    - **Player:** One adult please.
+    - **Martin the Master Gardener:** ...that's no ride, that's Pigzilla!
+    - **Player:** Aww but I wanna ride it.
+    - **Martin the Master Gardener:** No.
+    - **Player:** ...
+    - **Martin the Master Gardener:** You can wrestle it if you want though.
+    - (Condition: Before Bringing Home the Bacon:)
+      - **Player:** Pig wrestling? That's for kids. I think I'll pass.
+    - (Condition: During and after Bringing Home the Bacon:)
+      - **Player:** Not today. I have had a better idea for what we can do with pigs...

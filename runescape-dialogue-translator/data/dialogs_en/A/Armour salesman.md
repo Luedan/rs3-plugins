@@ -1,0 +1,123 @@
+# Armour salesman
+
+- **Original Wiki Page**: [Transcript:Armour salesman](https://runescape.wiki/w/Transcript%3AArmour%20salesman)
+- **Letter**: `A`
+
+---
+
+## Dialogue Transcript
+
+- **Player:** Good day to you.
+- **Armour Salesman:** And to you. Can I help you?
+  - What do you do here?
+    - **Player:** What do you do here?
+    - **Armour Salesman:** I am a supplier of leather armours and accessories. Ask and I will tell you what I know.
+      - Tell me about your armours.
+        - **Player:** Tell me about your armours.
+        - **Armour salesman:** I have normal, studded and hard types.
+          - Tell me about normal leather.
+            - **Player:** Tell me about normal leather.
+            - **Armour salesman:** Indeed, lather armour is excellent for archers. It's supple and not very heavy.
+          - What's studded leather?
+            - **Player:** What's studded leather?
+            - **Armour salesman:** Ah now that's leather covered with studs. It's more protective than ordinary leather.
+          - What's hard leather?
+            - **Player:** What's hard leather?
+            - **Armour salesman:** Hard leather is specially treated using oils and drying methods to create a hard wearing armour.
+          - Enough about armour.
+            - **Player:** Enough about armour.
+            - **Armour salesman:** As you wish, traveller.
+            - *(returns to previous options)*
+      - Tell me about your accessories
+        - **Player:** Tell me about your accessories.
+        - **Armour salesman:** Ah yes we have a new range accessories in stock. Essential items for an archer like you. We have vambraces, chaps, cowls, and coifs.
+          - Tell me about vambraces.
+            - **Player:** Tell me about vambraces.
+            - **Armour salesman:** Ah yes, vambraces. These useful items are for your arms. A protective sheath that favours the bow and arrow. An essential purchase.
+          - Tell me about chaps.
+            - **Player:** Tell me about chaps.
+            - **Armour salesman:** Chaps have two functions; firstly to protect your legs, and secondly for ease of reloading arrows. I can highly recommend these to you for quick archery.
+          - Tell me about cowls.
+            - **Player:** Tell me about cowls.
+            - **Armour salesman:** The cowl is a soft leather hat, ideal for protection with manouverability. These are highly favoured with our guards.
+          - Tell me about coifs.
+            - **Player:** Tell me about coifs.
+            - **Armour salesman:** The coif is a specialized cowl, that has extra chain protection to keep your neck and shoulders safe. An excellent addition to our range, traveller.
+          - Enough about accessories.
+            - **Player:** Enough about accessories.
+            - **Armour salesman:** As you wish.
+            - *(returns to previous options)*
+        - I've seen enough, thanks.
+          - **Player:** I've seen enough, thanks.
+          - **Armour salesman:** Very good, adventurer.
+  - I'd like to see what you sell.
+    - **Player:** I'd like to see what you sell.
+      - **Armour salesman:** Indeed, cast your eyes upon my wares, adventurer.
+      - {{Qact|opens up Aaron's Archery Appendages}}
+  - *If you have level 99 Ranged*
+    - Could I buy a Ranged skillcape?
+      - **Armour salesman:** Your eyes are all I need to know. 99,000 coins and the cape is yours.
+      - (Condition: With an inverted skillcape token or an inverted master skillcape token for Ranged:)
+        - **Armour salesman:** I see you have one of Hans' cape inversion tokens! I'll take that off your hands, and will sell you any inverted cape you're eligible for.
+        - (removes=any inverted skillcape token and inverted master skillcape token)
+        - (continue)
+      - [Menu]: Choose an option:
+        - [Choice]: 99,000 coins? That's much too expensive.
+          - **Armour salesman:** Not at all; there are many other adventurers who would love the opportunity to purchase such a prestigious item! You can find me here if you change your mind.
+        - [Choice]: I think I have the money right here, actually.
+          - {{Qact|You give the Armour salesman 99,000 coins, and the skillcape and hood are placed in your inventory}}
+          - **Armour salesman:** Excellent! Wear that cape with pride my friend.
+        - [Choice]: cond=With inverted Ranged cape unlocked:|I'd like a skillcape with the colours inverted.
+          - (Condition: Without 99,000 coins:)
+            - **Player:** But, unfortunately, I don't have enough coins.
+            - **Armour salesman:** Well, come back and see me when you do.
+          - (Condition: With 99,000 coins:)
+            - (Condition: Without free backpack space:)
+              - **Armour salesman:** Unfortunately you'll need to free up some backpack space before I can sell you one.
+            - (Condition: With free backpack space:)
+              - (removes=99,000 coins (from money pouch if not in backpack)) (receives=inverted Ranged cape variant depending on their skill masteries)
+              - **Armour salesman:** Excellent! Wear that cape with pride my friend.
+        - [Choice]: cond=With virtual 120 Ranged:|I've mastered this skill. Is there anything else?
+          - **Armour salesman:** There is something...though I have kept it a secret for a very long time. It is something that can only be worn by a true master.
+          - **Armour salesman:** Not even I can wear it - that's how hard it is to achieve.
+          - **Armour salesman:** You say you're a master. Stand straight, let me take a look at you...
+          - **Armour salesman:** You...really have mastered it. What an honour! It would be my pleasure to sell you a Ranged master cape.
+          - [Menu]: BUY RANGED MASTER CAPE FOR 120,000 COINS?
+            - [Choice]: Yes.
+              - (Condition: Without backpack space:)
+                - **Armour salesman:** You do not have enough room in your backpack. Please come back when you have some more.
+              - (Condition: With backpack space:)
+                - (Condition: Without 120,000 coins:)
+                  - You do not have enough money to purchase this cape.
+                    - ((Repeated in a pop-up:))
+                      - You do not have enough money to purchase this cape.
+                - (Condition: With 120,000 coins:)
+                  - (removes=120,000 coins (from money pouch if not in backpack)) (receives=Ranged master cape)
+            - [Choice]: No.
+              - (end)
+        - [Choice]: cond=With inverted Ranged master cape unlocked:|I'd like a master cape with the colours inverted.
+          - **Armour salesman:** There is something...though I have kept it a secret for a very long time. It is something that can only be worn by a true master.
+          - **Armour salesman:** Not even I can wear it - that's how hard it is to achieve.
+          - **Armour salesman:** You say you're a master. Stand straight, let me take a look at you...
+          - **Armour salesman:** You...really have mastered it. What an honour! It would be my pleasure to sell you a Ranged master cape.
+          - [Menu]: Buy Ranged master cape for 120,000 coins?
+            - [Choice]: Yes.
+              - (Condition: Without free backpack space:)
+                - **Armour salesman:** You do not have enough room in your backpack. Please come back when you have some more.
+              - (Condition: With free backpack space:)
+                - (Condition: Without 120,000 coins:)
+                  - You do not have enough money to purchase this cape.
+                  - (pop-up)
+                    - {{Pop-up|You do not have enough money to purchase this cape.|warning=yes}}
+                - (Condition: With 120,000 coins:)
+                  - (removes=120,000 coins (from money pouch if not in backpack)) (receives=inverted Ranged master cape)
+            - [Choice]: No.
+              - (end)
+    - I've noticed there are a couple of versions of each skillcape.
+      - **Armour salesman:** Yes! We, the skill masters, have crafted new versions of all skillcapes! We felt like it was time for a change. You can still choose to wear the old model skillcape if you want. Would you like to change which model you are currently using?
+        - Yes, I would like to wear the old version of the skillcape.
+        - No, thank you.
+          - **Armour salesman:** Great! I'm glad you're enjoying our new version!
+    - I've seen enough, thanks.
+      - **Player:** I've seen enough, thanks.
+      - **Armour salesman:** Very good, adventurer.

@@ -1,0 +1,23 @@
+# Memoriam crystal 16
+
+- **Original Wiki Page**: [Transcript:Memoriam crystal 16](https://runescape.wiki/w/Transcript%3AMemoriam%20crystal%2016)
+- **Letter**: `M`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+**Aceptación**.
+- **Seren:** Han pasado muchas cosas desde que Guthix se retiró de este mundo. Pensé que si alguna vez lo volvía a ver traería alegría a nuestros corazones, pero no hemos encontrado nada más que tristeza. {{Audio button|Seren - So much has happened since Guthix removed himself from this world. I thought if I were ever to see him again it would bring joy to both our hearts, but we have found nothing but sadness.ogg}}
+- **Seren:** Las pequeñas disputas de los jóvenes dioses lo han despertado. Ha tomado el ejemplo de mi barrera alrededor de Tirranwn y lo ha aplicado al mundo en su conjunto, para impedir que los dioses desalojados regresen. {{Audio button|Seren - The petty squabbling of the young gods has awoken him. He has taken the example of my barrier around Tirranwn and applied it to the world as a whole, to stop the evicted gods from returning.ogg}}
+- **Seren:** Me alegro de que haya regresado y les haya puesto fin. Me alegro de que él también haya regresado a mí, pero ya no me pide que abandone este lugar... lo exige. {{Audio button|Seren - I am glad he has returned and put a stop to them. I am glad that he returned to me too, but he no longer asks me to leave this place...he demands it.ogg}}
+- **Seren:** En ese momento, le confesé lo que les había hecho a los elfos y por eso no pude... por qué todavía no puedo. {{Audio button|Seren - In that moment, I confessed to him what I had done to the elves and hence why I could not...why I still cannot.ogg}}
+- **Seren:** Sólo había un curso de acción. Me iría, pero no con Guthix. {{Audio button|Seren - There was only one course of action. I would be leaving, just not with Guthix.ogg}}
+- **Seren:** Trató de convencerme de lo contrario, pero al darse cuenta de mi determinación aceptó, y sin palabras para hablar, inclinó la cabeza, luego se giró y se fue. {{Audio button|Seren - He tried to convince me otherwise, but upon realising my resolve he conceded, and with no words left to speak, he bowed his head, then turned and left.ogg}}
+- **Seren:** Antes de que pudiera hacer lo que debía hacer, recordé a mi proxy y en él vertí toda mi negatividad, mis pensamientos más oscuros, mis miedos y arrepentimientos, y luego lo envié lejos de las tierras élficas donde no podía hacer daño. {{Audio button|Seren - Before I could do what must be done, I recalled my proxy, and into it poured all of my negativity, my darkest thoughts, my fears and regrets, and then sent it away from elven lands where it could do no harm.ogg}}
+- **Seren:** Tuve que deshacerme de él para lo que vendría después. {{Audio button|Seren - I had to be rid of it for what was to come next.ogg}}
+- **Seren:** Prifddinas ahora se encuentra temporalmente evacuado; volverá a crecer una vez que yo me haya ido, con los cristales que le he entregado a los señores y damas. {{Audio button|Seren - Prifddinas now lies temporarily evacuated - it shall be regrown once I am gone, with the crystals I have handed to the lords and ladies.ogg}}
+- **Seren:** Al expulsar mi energía, esta área quedará infundida para siempre con ella, y pequeños fragmentos de mi cuerpo, cuando los lleve, permitirán a los elfos viajar mucho más allá de las murallas de esta ciudad. Con el tiempo, incluso estos ya no serán necesarios. {{Audio button|Seren - By expelling my energy, this area will be forever infused with it, and small fragments of my body, when carried, will allow elves to journey far beyond these city walls. In time, even these shall no longer be needed.ogg}}
+- **Seren:** He alentado a Baxorian a hacer precisamente esto y a viajar hacia el este una vez más. Ahora que las guerras han terminado, es hora de que mis elfos se reúnan con este mundo. {{Audio button|Seren - I have encouraged Baxorian to do just this, and to journey east once more. Now that the wars have ended, it is time for my elves to rejoin this world.ogg}}
+- **Seren:** Ahora acepto que incluso los seres divinos pueden morir y que ha llegado mi momento. Al menos voy sabiendo que el daño que he causado a esta gentil gente puede y eventualmente será deshacer, y que mi muerte no conducirá a la de ellos. {{Audio button|Seren - I accept now that even divine beings can die, and that my time has come. At least I go knowing that the harm I have caused this gentle people can and will eventually be undone, and that my death will not lead to theirs.ogg}}

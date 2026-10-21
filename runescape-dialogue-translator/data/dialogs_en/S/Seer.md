@@ -1,0 +1,126 @@
+# Seer
+
+- **Original Wiki Page**: [Transcript:Seer](https://runescape.wiki/w/Transcript%3ASeer)
+- **Letter**: `S`
+
+---
+
+## Dialogue Transcript
+
+
+### In Seers' Village
+
+- **Seer:** Uh, what was that dark force? I've never sensed anything like it...
+- **Seer:** Anyway, sorry about that.
+- [Menu]: Choose an option:
+  - [Choice]: I seek knowledge and power.
+    - **Player:** I seek knowledge and power!
+    - **Seer:** Knowledge comes from experience, power comes from battleaxes.
+  - [Choice]: About the Task System...
+    - (Condition: If the player has completed the easy tasks in the Seers' Village set and the rewards not claimed:)
+      - **Player:** Hi. I’ve completed the Easy Tasks in the Seers’ Village set.
+      - **Seer:** Well done, adventurer. You are clearly a man of great wisdom. I have a gift for you.
+      - [The seer hands you a strange-looking headband and a rusty lamp.]
+      - **Seer:** You are now a honorary seer and Geoffrey - who works in the flax field to the south - will give you free flax every day. Don’t call him Geoffrey, though; he prefers to be known as ‘Flax’.
+      - **Player:** Is that it?
+      - **Seer:** No, no. As well as Flax giving you 30 flax per day, you’ll be able to see dimly in the dark and your defence against magic attacks will be boosted.
+      - **Seer:** Stankers will allow 140 pieces of coal in his coal truck, and you’ll get an extra log when cutting normal trees.
+      - **Player:** Flax? What sort of name is that for a person?
+      - **Seer:** I know, I know. The poor boy is a simple soul - he just really loves picking flax. A little too much, I fear.
+      - (continue)
+    - (Condition: If the player has lost their Seer's headband 1:)
+      - **Player:** I've lost my seers' headband.
+      - **Seer:** Never fear! I can give you a new one. We seers are forgetful ourselves, so I have plenty.
+      - (receives=Seer's headband 1)
+      - [The seer hands you a strange-looking headband.]
+      - **Player:** Thank you!
+      - (continue)
+    - (Condition: Otherwise:)
+      - **Seer:** How are you enjoying your headband?
+      - **Player:** I love it!
+      - (continue)
+    - [Menu]: Choose an option:
+      - [Choice]: Tell me about the Achievement System.
+        - **Seer:** Very well: the Achievement System is a collection of deeds you may wish to complete while adventuring around the world.
+        - **Seer:**  You can earn special rewards for completing certain achievements; at the very least, each is worth a cash bounty from Explorer Jack in Lumbridge.
+        - **Seer:** Some also give items that will help complete other achievements, and many count as progress towards the set for the area they're in.
+        - [Menu]: Choose an option:
+          - [Choice]: Tell me about the set reward for this locality.
+            - **Player:** Tell me about the set reward for this locality.
+            - **Seer:** For completing the Seers' Village set, you are presented with a headband.
+            - **Seer:** You will receive a better headband with each difficulty level of the set that you complete.
+            - **Seer:** When you are presented with your rewards, you will be told of their uses.
+            - You may also see what rewards a set item provides by hovering over the Rewards icon for its Exploration Achievement set in the Achievements interface.
+            - (previous2)
+          - [Choice]: How do I claim these rewards?
+            - **Player:** How do I claim the rewards?
+            - **Seer:** You need to complete all of the Tasks in a set of a particular difficulty, then you can claim your reward.
+            - **Seer:** Some of the Seers' Village set's Tasks are simple, some will require certain skill levels, and some might require quests to be started or completed.
+            - **Seer:** To claim your Seers' Village set rewards, speak to Stankers at the coal mine to the west, Sir Kay in Camelot, or any of us seers.
+            - (previous2)
+          - [Choice]: Sorry, I was just leaving.
+            - (end)
+      - [Choice]: Could I buy a spare of the reward?
+        - [Menu]: Choose an option:
+          - [Choice]: Seer's headband 1
+            - **Seer:** Seer's headband 1? Yes, but I'm afraid it would cost you 1,500 coins.
+            - [Menu]: Purchase another for 1,500 coins?
+              - [Choice]: Yes
+                - [You're handed another Seer's headband 1.]
+                - (receives=Seer's headband 1) (removes= 1,500 coins)
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Seer's headband 2
+            - **Seer:** Seer's headband 2? Yes, but I'm afraid it would cost you 2,500 coins.
+            - [Menu]: Purchase another for 2,500 coins?
+              - [Choice]: Yes
+                - [You're handed another Seer's headband 2.]
+                - (receives=Seer's headband 2) (removes= 2,500 coins)
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Seer's headband 3
+            - **Seer:** Seer's headband 3? Yes, but I'm afraid it would cost you 7,500 coins.
+            - [Menu]: Purchase another for 7,500 coins?
+              - [Choice]: Yes
+                - [You're handed another Seer's headband 3.]
+                - (receives=Seer's headband 3) (removes= 7,500 coins)
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Seer's headband 4
+            - **Seer:** Seer's headband 4? Yes, but I'm afraid it would cost you 15,000 coins.
+            - [Menu]: Purchase another for 15,000 coins?
+              - [Choice]: Yes
+                - [You're handed another Seer's headband 4.]
+                - (receives=Seer's headband 4) (removes= 15,000 coins)
+              - [Choice]: No
+                - **Player:** No thanks.
+      - [Choice]: cond=If at least the hard Seers' Village achievements are completed and the rewards claimed|I'd like to change my teleport point.
+        - **Player:** I'd like to change my Camelot Teleport point.
+        - [Menu]: Toggle Camelot Teleport to [Seers' Village/Camelot]?
+          - [Choice]: Yes
+            - Camelot Teleport will now teleport you to the [Seers' Village/to the gates of Camelot].
+          - [Choice]: No
+            - (end)
+      - [Choice]: Sorry, I was just leaving.
+        - (end)
+  - [Choice]: cond=If at least the hard Seers' Village achievements are completed and the rewards claimed|Toggle Camelot Teleport
+    - [Menu]: Toggle Camelot Teleport to [Seers' Village/Camelot]?
+      - [Choice]: Yes.
+        - Camelot Teleport will now teleport you to the [Seers' Village/to the gates of Camelot].
+      - [Choice]: No.
+        - (end)
+
+#### Historical dialogue
+
+- **Seer:** Uh, what was that dark force? I've never sensed anything like it...
+- **Seer:** Anyway, sorry about that.
+- [Menu]: Choose an option:
+  - [Choice]: I seek knowledge and power.
+    - (above)
+  - [Choice]: What have you sensed lately?
+    - **Seer:** I haven't sensed much lately, except when the gods departed from the battlefield near Lumbridge.
+    - **Seer:** Perhaps something will happen soon!
+  - [Choice]: About the Task System...
+    - (above)
+  - [Choice]: cond=If at least the hard Seers' Village achievements are completed and the rewards claimed|Toggle Camelot Teleport
+    - (above)

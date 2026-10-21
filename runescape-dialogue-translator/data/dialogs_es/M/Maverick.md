@@ -1,0 +1,102 @@
+# Maverick
+
+- **Original Wiki Page**: [Transcript:Maverick](https://runescape.wiki/w/Transcript%3AMaverick)
+- **Letter**: `M`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Maverick:** '¿Qué pasa?
+- (Condition: Si el player aún no ha hablado con Dotmatrix:)
+  - **Player:** Er, no estoy seguro. ¿Qué está pasando aquí?
+  - **Maverick:** Pregúntale a Beardie aquí. No quiero soltar la sopa.
+  - **Player:** Está bien.
+- (Condition: Después de que el player haya hablado con Dotmatrix:)
+  - **Player:** Dotmatrix me dijo que tendrías información práctica sobre lo que está pasando allí abajo.
+  - **Maverick:** Eso sí, sí. Necesitarás habilidades si quieres sobrevivir allí abajo. Muchas habilidades. ¿De qué quieres saber?
+  - [Menu]: Selecciona una opción
+    - [Choice]: Habilidad Woodcutting.
+      - **Maverick:** Abajo, en las cuevas, verás raíces colgando. Con una de esas hachas, puedes darles el golpe. Se necesita un poco de piratería antes de sacarles cosas. Golpéalos una vez y dejarán de moverse. Golpéalos dos veces y obtendrás
+      - **Maverick:** un poco de madera. Si se rizan cuando los cortas, obtendrás leña. Si están derechos, obtendrás un palo que sirve para emplumar. Al fondo de la cueva, está esa enorme bestia. Reina, la llama Beardie. Tiene raíces a su alrededor
+      - **Maverick:** que lo alimentan. Si se vuelven raros, como azules, con púas y retorcidos, córtalos. Las bestias te amarán por eso. Aunque no los cortes sanos, o las bestias se enojarán. Justo, de verdad. ¿Algo más?
+      - [Menu]: Selecciona una opción
+        - [Choice]: Habilidad Firemaking.
+          - (below|firemaking)
+        - [Choice]: Habilidad Fletching.
+          - (below|fletching)
+        - [Choice]: Habilidad Slayer.
+          - (below|slayer)
+        - [Choice]: Otros consejos.
+          - (below|other-advice)
+        - [Choice]: No, gracias.
+          - **Player:** No, gracias.
+          - **Maverick:** ¡Correcto!
+    - [Choice]: Habilidad Firemaking.
+      - **Maverick:** Las cuevas de ahí abajo están muy húmedas. No hay forma de encender un fuego adecuado con normalidad. Pero hay algunos pasillos que están lo suficientemente secos como para que puedas quemar cosas en las hogueras. Si tienes uno de esos polvorines, o una raíz dura (eso es
+      - **Maverick:** una de esas raíces rectas que se han endurecido al fuego), entonces es fácil. Simplemente corte algunas de esas raíces rizadas y encienda hogueras en los pasillos. Encontrarás las zonas secas con bastante facilidad. Si acabas de conseguir la madera rizada, espero
+      - **Maverick:** algún otro loco para encender un fuego en los pasillos. Entonces sólo tienes que echar raíces. Esos incendios mantienen a las bestias mutadas alejadas de las sanas. A las bestias sanas les agradarás por ello. ¿Algo más?
+      - [Menu]: Selecciona una opción
+        - [Choice]: Habilidad Woodcutting.
+          - (above|woodcutting)
+        - [Choice]: Habilidad Fletching.
+          - (below|fletching)
+        - [Choice]: Habilidad Slayer.
+          - (below|slayer)
+        - [Choice]: Otros consejos.
+          - (below|other-advice)
+        - [Choice]: No, gracias.
+          - (above|no-thanks)
+    - [Choice]: Habilidad Fletching.
+      - **Maverick:** Cuando les cortas las raíces rectas, obtienes material para armas. Crudo. Lo que haces es endurecerlos al fuego hasta que estén sólidos como una roca, ¿sí? Entonces tíralos. Necesitarás un cuchillo. Obtendrás flechas tipo jabalina adecuadas.
+      - **Maverick:** Primitivo, sí, pero eficiente también. Una vez que tengas los ejes, necesitarás una enredadera. Los obtienes de las graciosas enredaderas detrás de la Reina o matándolos como bestias mutadas. Un eje, una enredadera, se unen y tienen un asesino.
+      - **Maverick:** arma. Eso no es todo. Esas bestias mutadas pueden soltar esas bolas de madera y huesos cuando las matas. Consigue dos de estos y una de las enredaderas y obtendrás algo grandioso que enreda todo lo que le arrojes. Se quedan pegados al
+      - **Maverick:** ¡tierra, como por arte de magia! ¿Algo más?
+      - [Menu]: Selecciona una opción
+        - [Choice]: Habilidad Woodcutting.
+          - (above|woodcutting)
+        - [Choice]: Habilidad Firemaking.
+          - (above|firemaking)
+        - [Choice]: Habilidad Slayer.
+          - (below|slayer)
+        - [Choice]: Otros consejos.
+          - (below|other-advice)
+        - [Choice]: No, gracias.
+          - (above|no-thanks)
+    - [Choice]: Habilidad Slayer.
+      - **Maverick:** Ahora, las bestias mutadas de ahí abajo son un buen trabajo, ¿verdad? Sin un nivel alto de Slayer, no hay forma de que puedas atacarlos. No les gusta que los empujen, eso es justo, pero no te dejarán salirte con la tuya si lo haces.
+      - **Maverick:** Tienen un mordisco fuerte, tontos, así que piensas, 'bien, los alinearé', ¿no? No es mala idea; No les gusta que les arrojen cosas desde la distancia. Esas armas primitivas que puedes arrojar allí abajo causarán mucho daño.
+      - **Maverick:** Pero eso no significa que no puedan atraparte si intentas esconderte. ¡Usan magia para atraparte! Y si crees que está bien, puedes protegerte de la magia, bueno, aún pueden atraparte. Les comunican raíces en la habitación,
+      - **Maverick:** ya ves, y ordena a los que están a tu lado que te azoten. Ahora puedes cortarles las raíces un poco antes y no te atacarán. Pero hay muchos de ellos y volverán a crecer, se moverán y te atacarán de nuevo. Criaturas malditas,
+      - **Maverick:** esas bestias mutadas. ¿Y qué obtienes? Frutas, semillas y cosas que puedes usar para Fletching. Aunque los masculinos, los más poderosos, no me sorprendería que pudieran soltar algo increíble, ¿no? Pero tendrás que probarlo por
+      - **Maverick:** tú mismo. ¡No volveré allí ni por mi vida! ¿Algo más?
+      - [Menu]: Selecciona una opción
+        - [Choice]: Habilidad Woodcutting.
+          - (above|woodcutting)
+        - [Choice]: Habilidad Firemaking.
+          - (above|firemaking)
+        - [Choice]: Habilidad Fletching.
+          - (above|fletching)
+        - [Choice]: Otros consejos.
+          - (below|other-advice)
+        - [Choice]: No, gracias.
+          - (above|no-thanks)
+    - [Choice]: Otros consejos.
+      - **Maverick:** Cualquier cosa que hagas para ayudarlas a tener bestias sanas, como cortar raíces malas, encender fuegos o matar bestias mutadas, lo agradecerán. No son criaturas desagradecidas. Tienen una piedra de ofrenda en la cueva y pondrán frutas y semillas.
+      - **Maverick:** y otras cosas cuando les ayudas. Es bueno saber si has recibido una paliza, ¿no? Algunas de las frutas también son especiales. Cómelos y descubrirás que hacen cosas buenas por ti. Pruébalos y verás. Esas frutas especiales se convertirán
+      - **Maverick:** sencillo y aburrido si te alejas demasiado de la vid y sus hábitats. Supongo que la magia sólo ocurre aquí. Finalmente, revisa la parte trasera de la cueva. Quizás encuentres otra manera de salir de allí, nunca se sabe. ¿Algo más?
+      - [Menu]: Selecciona una opción
+        - [Choice]: Habilidad Woodcutting.
+          - (above|woodcutting)
+        - [Choice]: Habilidad Firemaking.
+          - (above|firemaking)
+        - [Choice]: Habilidad Fletching.
+          - (above|fletching)
+        - [Choice]: Habilidad Slayer.
+          - (above|slayer)
+        - [Choice]: No, gracias.
+          - (above|no-thanks)

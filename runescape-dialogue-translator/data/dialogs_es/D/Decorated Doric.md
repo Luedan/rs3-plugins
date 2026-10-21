@@ -1,0 +1,68 @@
+# Decorated Doric
+
+- **Original Wiki Page**: [Transcript:Decorated Doric](https://runescape.wiki/w/Transcript%3ADecorated%20Doric)
+- **Letter**: `D`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+- Entrega artículos decorados para obtener XP.
+- *Si no tienes ningún artículo decorado*:
+  - **Decorated Doric** No tienes ningún artículo decorado.
+- Tengo preguntas sobre Mining.
+  - ¿Por qué tengo dos barras encima de mi cabeza cuando minado?
+    - **Decorated Doric** Las dos barras sobre tu cabeza cuando minas muestran tu resistencia (arriba) y tu progreso (abajo).
+    - **Decorated Doric** Encontraremos una mejor manera de mostrar esta información para la versión completa.
+    - **Decorated Doric** La resistencia muestra lo cansado que estás, haz clic en las rocas para restaurarla. Baja resistencia significa que extraes más lento.
+    - **Decorated Doric** El progreso muestra qué tan cerca estás de obtener tu próximo mineral. Sube cada vez que golpeas la roca con tu pico.
+  - ¿Qué pasa con las piedras humeantes?
+    - **Decorated Doric** ¡De vez en cuando, cuando estés minando, notarás un trozo de roca especialmente sabroso cerca!
+    - **Decorated Doric** ¡Yo las llamo 'rockertunidades!
+    - **Decorated Doric** ¡Jajajajaja! ¡Rockerunidades! ¿Consíguelo?
+    - **Decorated Doric** Parecen minerales armonizados, como bocanadas de humo.
+    - **Decorated Doric** ¡Simplemente haz clic en él y obtendrás una gran cantidad de XP extra!
+    - **Player** ¿Por qué existe esta mecánica?
+    - **Decorated Doric** Es una recompensa por prestar atención, como los nidos de los pájaros.
+  - ¿Hacer clic en la roca minera hace alguna diferencia?
+    - **Decorated Doric** Cuando estés minando, gradualmente te cansarás.
+    - **Decorated Doric** Tienes cada vez más posibilidades de reproducir una animación más lenta que reduce tu XP y tus tasas de mineral.
+    - **Decorated Doric** El efecto es sutil, pero en un nivel más alto verás una penalización del 25% por estar completamente AFK.
+    - **Decorated Doric** Para refrescar tu resistencia y reanudar la minería a máxima velocidad, ¡todo lo que necesitas hacer es hacer clic en la roca que estás extrayendo!
+    - **Decorated Doric** Depende de usted con qué frecuencia cree que vale la pena hacer clic. Lo más rápido que marca la diferencia es un clic por cada movimiento del pico.
+  - ¿Puedo ir AFK?
+    - **Decorated Doric** Las rocas ya no se agotan, por lo que puedes extraerlas casi por completo sin autorización si así lo deseas.
+    - **Decorated Doric** Dado que no actualizas tu resistencia ni haces clic en rockertunities, obtendrás menos XP y menos mineral.
+  - Atrás
+    - *(Muestra opciones iniciales)*
+- Tengo preguntas sobre Smithing.
+  - ¿Por qué tengo dos barras encima de mi cabeza cuando hago herrería?
+    - **Decorated Doric** Las dos barras sobre tu cabeza al forjar muestran tu progreso (arriba) y tu calor (abajo).
+    - **Decorated Doric** Encontraremos una mejor manera de mostrar esta información para la versión completa.
+    - **Decorated Doric** El progreso muestra qué tan cerca estás de terminar el artículo. Sube cada vez que golpeas el objeto con el martillo.
+    - **Decorated Doric** Calor muestra qué tan caliente está tu artículo. Un calor más alto significa un progreso más rápido y XP más rápido. Obtienes la misma XP por barra independientemente.
+    - **Decorated Doric** A temperatura cero ya no puedes forjar el artículo y necesitas recalentarlo en la forja para continuar.
+  - ¿Qué es todo eso sobre una tolva?
+    - **Decorated Doric** La tolva es como un banco compartido de minerales y barras.
+    - **Decorated Doric** Puedes depositar minerales y barras, incluso notados o directamente de la bolsa de mineral, en cualquier horno, forja o yunque.
+    - **Decorated Doric** Al minar, también puedes tirar tus cosas directamente al hoppet en lugar de ir a un banco.
+    - **Decorated Doric** Al fundir y forjar, puedes usar minerales y barras directamente de la tolva.
+    - **Decorated Doric** Al fundir, recuerda volver a colocar las barras en la tolva cuando tu inventario esté lleno.
+    - **Decorated Doric** Como un banco, solo tienes un hopper, pero puedes acceder a él en cualquier parte del mundo.
+  - ¿Qué son los artículos decorados?
+    - **Decorated Doric** Puedes obtener mejores XP decorando tus artículos y entregándomelos.
+    - **Decorated Doric** Necesitas obtener un objeto de runa o mejor y actualizarlo todo para que esté "decorado".
+    - **Decorated Doric** Entonces tráemelo, te lo quitaré de las manos y te daré algo de XP por tus molestias.
+    - **Player** ¿Los artículos decorados tienen algún otro uso?
+    - **Decorated Doric** No. Una vez que los hayas decorado sólo podrás entregarlos.
+    - **Decorated Doric** Es posible que quieras intercambiar o vender tus artículos, pero en ese caso debes hacerlo antes de decorarlos.
+    - **Decorated Doric** Decorar y entregar es el XP más rápido, pero destruye el artículo, por lo que también es el más caro.
+  - ¿Qué es la actualización de elementos?
+    - **Decorated Doric** Desde hierro, puedes mejorar tus artículos.
+    - **Decorated Doric** Obtienes la misma XP por barra independientemente, pero actualizar te proporciona XP más rápido que crear elementos básicos.
+    - **Decorated Doric** La cantidad que puedas mejorar de un artículo depende del nivel de metal.
+    - **Decorated Doric** Los elementos mejorados también son mejores en combate.
+  - Atrás
+    - (Muestra opciones iniciales)
+- ¡Basta de hablar!

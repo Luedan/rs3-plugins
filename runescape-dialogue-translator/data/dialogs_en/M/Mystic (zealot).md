@@ -1,0 +1,213 @@
+# Mystic (zealot)
+
+- **Original Wiki Page**: [Transcript:Mystic (zealot)](https://runescape.wiki/w/Transcript%3AMystic%20%28zealot%29)
+- **Letter**: `M`
+
+---
+
+## Dialogue Transcript
+
+- **Mystic:** Greetings, adventurer.
+- **Select an option**
+  - Just put me on a team
+    - {{qact|You are teleported into one of the free-for-all enclosures}}
+    - The mystic assigns you a team
+  - I have some questions about the primordial realm...
+    - **Player:** I have some questions about the primordial realm...
+    - **Select an option**
+      - What am I meant to do?
+        - **Player:** What am I meant to do?
+        - **Mystic:** Your task in the primordial realm is to gether as much sacred clay as you can. You can transform the clay into items using the creation kilns. These items will help you gather clay more quickly and aid you in battle against the other team. The clay appears in five levels of quality, called classes. Clay with a higher class will make better equipment and is worth more points, but is more difficult to gather.
+        - **Select an option**
+          - Back to my other questions...
+            - *(Returns to previous options)*
+          - That's all I need to know.
+            - **Player:** That's all I need to know.
+            - *(Conversation ends)*
+      - How do I gather clay?
+        - **Player:** How do I gather clay?
+        - **Mystic:** Fragments of class 1 can be found lying on the ground. Anyone can pick these up without any tools. Higher-class clay can be found in four different forms, which require different skills to gather them, and cannot be gathered quickly without tools.
+        - **Select an option**
+          - Tell me what tools I need.
+            - **Player:** Tell me about what tools I need.
+            - **Mystic:** You will need a pickaxe to mine clay from a rock, a hatchet to cut down a tree, a harpoon to catch clay in a pool, and a butterfly net to gather from a swarm. You should try to use a tool that is one class below the location you are gathering from, or better. For example, to mine a class 3 rock you should try to use a class 2 pickaxe. You can gather clay without the appropriate tool, but it will be very slow.
+            - *(Shows other options)*
+          - Tell me about the level requirements.
+            - **Player:** Tell me about the level requirements.
+            - **Mystic:** There is no requirement to gather class 1 clay fragments. To gather class 2 clay you need level 20 in the relevant skill; class 3 requires level 40; class 4, level 60; and class 5, level 80.
+            - *(Shows other options)*
+          - Back to my other questions...
+            - *(Returns to previous options)*
+          - That's all I need to know.
+            - **Player:** That's all I need to know.
+            - *(Conversation ends)*
+      - How do I use the creation kilns?
+        - **Player:** How do I use the creation kilns?
+        - **Mystic:** You can use the creation kilns to make items out of sacred clay. If you have some clay in your inventory you can click on the kiln to open the creation menu. By default, the kiln will use the highest class of clay you are carrying. If you want to use a different class you can select one on the right side of the menu. There are four categories of objects you can make: weapons, armour, equipment and tools. Select a category on the left side of the menu. The objects you can make appear in the middle of the menu. click on one to make it. You can make several items at a time by right-clicking on the item name. You will need a high enough level in whatever skill is associated with making that type of item: Smithing for metal armour, Cooking for food, and so forth.
+          - Back to my other questions...
+            - *(Returns to previous options)*
+          - That's all I need to know.
+            - **Player:** That's all I need to know.
+            - *(Conversation ends)*
+      - What skill level do I need?
+        - **Player:** What skill level do I need?
+        - **Mystic:** There is no requirement to gather class 1 clay fragments. To gather class 2 clay you need level 20 in the relevant skill; class 3 requires level 40; class 4, level 60; and class 5, level 80. For example, mining level 3 clay requires level 40 Mining. Turning that clay into a helmet would require level 40 Smithing, and the helmet would require level 40 Defence to wear.
+          - Back to my other questions...
+            - *(Returns to previous options)*
+          - That's all I need to know.
+            - **Player:** That's all I need to know.
+            - *(Conversation ends)*
+      - (More...)
+        - How is the score calculated?
+          - **Player:** How is the score calculated?
+          - **Mystic:** Each team has a score, and everyone in the game as a personal score. You can be on the losing team and still score well, or be on the winning team and score badly.
+          - **Select an option**
+            - Tell me about the personal score.
+              - **Player:** Tell me about the personal score.
+              - **Mystic:** Your personal score is the one shows on the top left of your window. You get points for gathering clay, processing it, and depositing it in the base. You also get a small number of points for damaging other players, and you get a bonus if your team wins overall.
+              - **Select an option**
+                - What do I score for gathering and processing?
+                  - **Player:** What do I score for gathering and processing?
+                  - **Mystic:** Gathering clay gives you points according to the class of the clay: 15 for class 1, 30 for class 2, 45 for class 3, 60 for class 4, and 75 for class 5. You get the same number of points for processing the clay at a creation kiln.
+                  - *(Shows other options)*
+                - What do I score for depositing clay?
+                  - **Player:** What do I score for depositing clay?
+                  - '''Mystic: Depositing raw clay gives you points according to the class of the clay: 15 for class 1, 30 for class 2, 45 for class 3, 60 for class 4, and 75 for class 5. Processed items are wirth twice as many points. Bear in mind that you will lose points for taking items from the base as well as gaining points for depositing them. Do not take an item unless you intend to make good use of it! In some cases a single piece of clay will be processed into multiple items. In this case the whole set of items is worth the normal number of points, and each individual item is worth proportionally less.
+                  - ''(Shows other options)
+                - What do I score for fighting enemies?
+                  - **Player:** What do I score for fighting enemies?
+                  - '''Mystic: You get five points of damage for each hitpoint of damage you do to an enemy. You should add to this by picking up the items they drop and bringing them back to your base.
+                  - *(Shows other options)*
+                - What bonus do I get for being on the winning team?
+                  - **Player:** What bonus do I get for being on the winning team?
+                  - '''Mystic: If you are on the winning team you get a 10% bonus added to your score. The winning team is the one that has the most sacred clay in its base at the ends of the game.
+                  - *(Shows other options)*
+                - Back to my other questions...
+                  - *(Returns to previous-to-previous-to-previous options)*
+                - *(After asking any question about personal score)* That's all I need to know.
+                  - *(Conversation ends)*
+            - Tell me about the team score.
+              - **Player:** Tell me about the team score.
+              - **Mystic:** Your team's score is based on the amount and quality of sacred clay in your base. You can find out the current scores by talking to me. If your team has the highest score at the end of the dame, you will get a 10% bonus added to your personal score.
+              - **Select an option**
+                - Tell me about the personal score
+                  - *(Same as above)*
+                - Back to my other questions...
+                  - *(Shows previous-to-previous options)*
+                - That's all I need to know.
+                  - **Player:** That's all I need to know.
+                  - *(Conversation ends)*
+            - Back to my other questions
+              - *(Returns to previous-to-previous options)*
+            - That's all I need to know.
+              - **Player:** That's all I need to know.
+              - *(Conversation ends)*
+        - How can I give items to my team mates?
+          - **Player:** How can I give items to my team mates?
+          - **Mystic:** If you use an item on another player who is on your team, you will give them that item, as long as they have space to take it. If you want to give them several items, you can right-click on them and use the Give-to option. This works like the trade menu, but the transfer is one-way. You can also leave items on the tables in your base, and your team mates will be able to pick them up.
+            - **Select an option**
+              - Back to my other question...
+                - *(Shows previous-to-previous options)*
+              - How do the tables work?
+                - *(Same as below)*
+              - That's all I need to know.
+                - **Player:** That's all I need to know.
+                - *(Conversation ends)*
+        - How do the tables work?
+          - **Player:** How do the tables work?
+          - **Mystic:** Each table stores a different type of item. When you put an item on any table it will jump to the correct one. You can take items by picking them up as normal, but you can also click on a table to bring up a menu of the items available, which may be more convenient if there are many items on the table. The table in the middle of your base allows you to deposit all the items you are carrying very quickly. When you do this you will keep your highest-class tool of each type.
+          - **Select an option**
+            - Back to my other questions...
+              - *(Shows previous-to-previous options)*
+            - That's all I need to know.
+              - **Player:** That's all I need to know.
+              - *(Conversation ends)*
+        - What happens if I die?
+          - **Player:** What happens if I die?
+          - **Mystic:** If you die in the primordial realm, you will instantly respawn in the team start area on inside a barrier that your team controls, whichever is closest to the point where you died. You will drop all of the items you are carrying, unless you are using the Protect Item prayer, in which case you will keep one.
+          - **Select an option**
+            - Back to my other questions...
+              - *(Shows previous-to-previous options)*
+            - That's all I need to know.
+              - **Player:** That's all I need to know.
+              - *(Conversation ends)*
+        - (More...)
+          - Tell me about barriers.
+            - **Player:** Tell me about barriers.
+            - **Mystic:** You can make sacred clay into barriers using a creation kiln. You can then set these barriers up around certain locations by using them on a barrier hotspot. You need four barrier objects in order to set them up. Setting up a barrier around a location ensures that only members of your team can access the location. Skill-focused players can work in safety inside the barrier. If you die you will respawn inside one of your team's barriers, if that is closer than the team start area. The other team can break down barriers by attacking the,. Barriers also degrade over time. Barriers made of higher quality clay will last longer.
+              - **Select an option**
+                - Back to my other questions...
+                  - *(Shows previous-to-previous-to-previous options)*
+              - That's all I need to know.
+                - **Player:** That's all I need to know.
+                - *(Conversation ends)*
+          - Tell me about Summoning creatures.
+            - **Player:** Tell me about Summoning creatures.
+            - **Mystic:** You can make Summoning pouches and scrolls out of sacred clay at a creation kiln. Once you have a scroll, you can summon the creature as normal. As with everything in the primordial realm, creatures made from higher classes of clay are more powerful in combat. The creatures can also carry items for you. Those made from higher classes of clay can carry more items at a time. The sacred clay Summoning scroll causes your familiar to teleport all the items it is carrying to your team's base. You can recharge your Summoning points at the altars scattered around the realm.
+              - **Select an option**
+                - Back to my other questions...
+                  - *(Shows previous-to-previous-to-previous options)*
+              - That's all I need to know.
+                - **Player:** That's all I need to know.
+                - *(Conversation ends)*
+          - Tell me about fog patches.
+            - **Player:** Tell me about fog patches.
+            - **Mystic:** If you enter one of the fog patches you will be hidden. No one will be able to see you or attack you until you emerge. When you leave the fog patch you may find yourself momentarily disoriented.
+              - **Select an option**
+                - Back to my other questions...
+                  - *(Shows previous-to-previous-to-previous options)*
+              - That's all I need to know.
+                - **Player:** That's all I need to know.
+                - *(Conversation ends)*
+          - (More...)
+            - How does the game end?
+              - **Player:** How does the game end?
+              - **Mystic:** The game will normally last 20 minues. You should see a timer in the top right corner of your window showing you how much time is remaining. The game will end prematurely if all the clay in the area is exhausted, or if all the players on one team quit.
+                - **Select an option**
+                  - Back to my other questions...
+                    - *(Shows previous-to-previous-to-previous-to-previous options)*
+                - That's all I need to know.
+                  - **Player:** That's all I need to know.
+                  - *(Conversation ends)*
+            - What happens if I leave the game early?
+              - **Player:** What happens if I leave the game early?
+              - **Mystic:** If you leave the game early you will not score any points for that game, and you will be unable to join a new game for five minutes. If you are the last player on your team and you quit, the game will end. Otherwise it will continue without you. Any items you are carrying when you quit will appear in your team's base.
+                - **Select an option**
+                  - Back to my other questions...
+                    - *(Shows previous-to-previous-to-previous-to-previous options)*
+                - That's all I need to know.
+                  - **Player:** That's all I need to know.
+                  - *(Conversation ends)*
+            - What are the rewards?
+              - **Player:** What are the rewards?
+              - **Mystic:** You will earn points for your activities in the primordial realm, and you can exchange these for items we have made from the sacred clay. You can buy morphic tools that change into many different types of tool, and morphic armour and weapons that will change to suit different combat styles. For more information, talk to the rewards mystic in the north-east of the camp.
+                - **Select an option**
+                  - Back to my other questions...
+                    - *(Shows previous-to-previous-to-previous-to-previous options)*
+                - That's all I need to know.
+                  - **Player:** That's all I need to know.
+                  - *(Conversation ends)*
+            - (Back to start...)
+              - *(Shows previous-to-previous-to-previous options)*
+  - What is this place?
+    - **Player:** What is this place?
+    - **Mystic:** This is our humble encampment. It all started when our master recieved, in his dreams, a call from the sacred beings of the Wilderness.
+    - **Player:** The sacred beings of the Wilderness?
+    - **Mystic:** Yes. The ghostly remains of some of the greatest warriors of all time. I believe your people call them the revenants. These sacred beings dwell in a cave beneath the Wilderness, continuing to fight even though their ancient wars are long finished. They shows our master how to open the portal to a new world. But not just any world! That world they led us to contains the very stuff of creation! A sacred clay that can be turned into anything we want, and it assumes the properties of the shape it adopts!
+    - **Player:** That sounds awesome!
+    - **Mystic:** Indeed. It's with this very material that we intend on achieving our goal.
+    - *(Shows other options)*
+  - Can I help you?
+    - **Player:** Can I help you?
+    - Of course! If you're on your own, just join one of the two all-comers teams by entering one of the enclosures to the west of the camp. If you have friends with you, you could make a clan and challenge another clan, in the clan enclosure to the east. You can even ally your clan with up to three others!
+    - **Select an option**
+      - I have some questions about the primordial realm
+        - *(Same as above)*
+      - Just put me on a team
+        - *(Same as above)*
+      - Never mind.
+        - *(Same as below)*
+  - Never mind.
+    - **Player:** Never mind.
+    - *(Conversation ends)*
+Category:NPC dialogue

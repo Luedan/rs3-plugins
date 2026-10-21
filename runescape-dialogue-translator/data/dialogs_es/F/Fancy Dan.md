@@ -1,0 +1,176 @@
+# Fancy Dan
+
+- **Original Wiki Page**: [Transcript:Fancy Dan](https://runescape.wiki/w/Transcript%3AFancy%20Dan)
+- **Letter**: `F`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+- **Fancy Dan:** ¡Arr!
+- **Fancy Dan:** ¿Hay algo en lo que pueda ayudarte?
+- Seleccione una opción
+  - Me gustaría unirme a su equipo.
+    - **Player:** Me gustaría unirme a tu equipo.
+    - **Fancy Dan:** ¡Por supuesto que sí!
+    - **Fancy Dan:** Arr, bueno, te solucionaremos el problema con una gorra de equipo de inmediato.
+    - **Fancy Dan:** Ve a esperar en la sala de espera, te llamaré cuando estemos listos para comenzar.
+    - Si usa sombrero o casco
+    - **Fancy Dan:** ¡Por supuesto que sí!
+    - **Fancy Dan:** Sin embargo, no dejo a nadie en el equipo si lleva gorra o casco.
+    - **Fancy Dan:** Puedes ir y guardarlo en la caja de depósito al lado del puesto de Jimmy.
+    - **Player:** ¿Por qué no?
+    - **Fancy Dan:** Bueno, para decírselo a mi equipo de San Fan's tendré que regalarles un sombrero como el mío.
+    - **Fancy Dan:** Si llevas sombrero, es posible que se pierda cuando te entregue el sombrero de mi equipo.
+    - **Fancy Dan:** No querrías eso, ¿verdad?
+    - **Player:** No, de hecho, eso suena muy razonable.
+    - Si no tienes un inventario vacío
+    - **Fancy Dan:** ¡Por supuesto que sí!
+    - **Fancy Dan:** Bueno, me alegrará tenerte a bordo, pero primero tendrás que ir a guardar todo tu equipo.
+    - **Player:** ¿Qué quieres decir?
+    - **Fancy Dan:** Bueno, necesitarás todo el espacio de tu inventario para los ingredientes y todas las demás cosas que necesitaré que cargues.
+    - **Fancy Dan:** Hay una caja de depósito bancaria al lado del puesto de Jimmy si la necesitas. Ven a verme cuando tengas el inventario completamente vacío.
+  - ¿Quién eres y qué es este lugar?
+    - **Player:** ¿Quién eres y qué es este lugar?
+    - **Fancy Dan:** ¡Arrarra!
+    - **Fancy Dan:** ¿No me reconoces? ¡Soy el famoso pirata dandy 'Fancy' Dan!
+    - **Player:** Sí, por supuesto, cualquier pirata sabe quién eres.
+    - **Fancy Dan:** Pero claro.
+    - **Fancy Dan:** En cuanto a lo que es este lugar, es mi glorioso alambique, que produce el 'ron' de mejor calidad de este lado de Braindeath Island.
+    - **Fancy Dan:** Ah, y la zanja deteriorada que produce basura y que San Fan llama alambique.
+    - **Player:** Entonces con dos fotogramas tienes mucho 'ron', ¿verdad?
+    - **Fancy Dan:** ¡Bueno, lo haríamos si esa bruja con cara de hacha no siguiera intentando incendiar el lugar!
+    - **Player:** ¡Yo digo!
+    - **Fancy Dan:** Hace poco tuvimos verdaderos problemas para llevar ron a la isla, de ahí los dos alambiques.
+    - **Fancy Dan:** Sin embargo, después de un pequeño malentendido que involucró al alambique de San y un barril de pólvora, nuestra relación parece haberse vuelto un poco tensa.
+    - **Fancy Dan:** Aparentemente está perfectamente dentro del código pirata quemar imágenes fijas unos de otros, siempre y cuando nadie ataque directamente a la tripulación de la otra persona, por lo que la producción ha disminuido ligeramente últimamente.
+    - **Player:** ¿Puedo ayudar?
+    - **Fancy Dan:** Sí, probablemente. Tengo un montón de trabajos que hacer, si te sientes con ganas.
+    - **Fancy Dan:** ¿Qué te gustaría saber?
+    - Seleccione una opción
+      - Elaborar ron
+        - **Player:** ¿Cómo te ayudo a preparar 'ron'?
+        - **Fancy Dan:** Bueno, las imágenes fijas que hemos creado se basan en las de Braindeath Island... bueno, más o menos, en cualquier caso.
+        - **Fancy Dan:** Todo lo que tienes que hacer es ayudar a poner los ingredientes en la tolva y mantener las calderas encendidas.
+        - **Fancy Dan:** Si agregas suficientes ingredientes a la tolva, podrás recoger una sola botella de ron cuando se prepare.
+        - **Fancy Dan:** Entonces, si agregas 5 cubos de agua a la tolva, tendrás acceso a una botella. Si agregas 3 tazones de agua coloreada, tendrás acceso a una botella, y si agregas uno de cualquier otra cosa, tendrás acceso a una botella.
+        - **Fancy Dan:** Esto es acumulativo, lo que significa que si agregas (por ejemplo) 10 cubos de agua, 3 larvas dulces y 6 tazones de agua coloreada, tendrás la oportunidad de recolectar 7 botellas de ron para el equipo.
+        - **Fancy Dan:** Las calderas son muy fáciles de clasificar. Simplemente pones un poco de logs, los enciendes con un yesquero y luego sigues poniendo logs hasta que estén bien y calientes.
+        - **Fancy Dan:** Tres logs deberían ser suficientes, pero es mejor seguir amontonándolos por si acaso.
+        - **Fancy Dan:** Los ingredientes son; Nueces amargas, corteza de árbol raspada, larvas dulces, cubos de agua y un poco de agua coloreada.
+        - Seleccione una opción
+          - ¿Dónde puedo conseguir Bitternuts?
+            - **Player:** ¿Dónde puedo conseguir Bitternuts?
+            - **Fancy Dan:** Hay muchos árboles Bitternut dentro de esta área amurallada. El problema es que los árboles son demasiado complicados para que un humano los trepe.
+            - **Fancy Dan:** Tendrás que atrapar un mono y enviarlo al árbol para que te consiga la nuez.
+            - **Player:** ¿Enviarlo al árbol? ¿Cómo funciona eso?
+            - **Fancy Dan:** Bueno, si fueras un mono y una persona al azar te agarrara, te arrojara un poco de dye en tu pelaje y te empujara hacia un árbol, también les arrojarías el objeto pesado más cercano.
+            - **Player:** Espera un segundo, ¿dye?
+            - **Fancy Dan:** Sí, necesitarás conseguir un recipiente con agua coloreada y verterlo sobre el mono. De lo contrario no podrás saber a qué equipo pertenece el mono.
+            - **Player :** Eso tiene sentido... Creo...
+            - **Fancy Dan:** ¿Algo más?
+          - ¿Dónde puedo conseguir la corteza de árbol Scrapey?
+            - **Player:** ¿Dónde puedo conseguir corteza de árbol Scrapey... y por qué tengo la sensación de que no me gustará la respuesta?
+            - **Fancy Dan:** Dentro de esta zona amurallada hay algunos árboles Scrapey. Son los grandes y feos, no te los puedes perder.
+            - **Fancy Dan:** Básicamente, los cortas y luego les cortas la corteza con un cuchillo.
+            - **Fancy Dan:** Es bastante simple, excepto que la savia tiende a hacer que las personas se sientan un poco enfermas si se manchan.
+            - **Player:** ¿Qué tan enfermo?
+            - **Fancy Dan:** No te preocupes, no estamos hablando de una enfermedad mortal ni nada por el estilo.
+            - **Fancy Dan:** Es más como si te sintieras bastante mareado y débil por un tiempo.
+            - **Player:** Alegría...
+            - **Fancy Dan:** ¿Algo más?
+          - ¿Dónde puedo conseguir larvas dulces?
+            - **Player:** ¿Larvas dulces? ¿Cuáles son?
+            - **Fancy Dan:** Bueno, a falta de babosas en el área, agregamos estas pequeñas larvas llamadas Sweetgrubs. Si ignoras el regusto que provoca náuseas, son bastante dulces.
+            - **Player:** ¿Cómo... cómo puedes beber esa cosa?
+            - **Fancy Dan:** ¡Muy fácil!
+            - **Fancy Dan:** Los piratas tienen fama de ser duros por una razón.
+            - **Player:** Entonces, ¿de dónde obtengo estas larvas?
+            - **Fancy Dan:** Bueno, hay algunos montículos de larvas dulces ahí dentro. Tenemos un puñado de carne de rata que puedes usar en los montículos para atraer las larvas a la superficie.
+            - **Fancy Dan:** Pero ten cuidado con los dedos, son cositas voraces.
+            - **Player:** Y aquí estaba yo pensando que nada podría ser más repugnante que Braindeath 'Rum'.
+            - **Capitán Braindeath:** Arr, ahí es donde te equivocarías muchacho, porque el nuevo y mejorado Braindeath 'Rum' Classic es ahora un 200% más repugnante que cualquier competidor líder.
+            - **Capitán Braindeath:** Aviso legal; La peligrosa cantidad de asco del nuevo Braindeath 'Rum' Classic es demasiado para las mujeres embarazadas, los burros y cualquier persona con más de siete letras en su apellido.
+            - **Player:** ¿Qué fue eso?
+            - **Fancy Dan:** ¿Qué fue qué?
+            - **Fancy Dan:** ¿Hay algo más?
+          - ¿Dónde puedo conseguir baldes de agua?
+            - **Player:** ¿Cómo consigo...?
+            - **Player:** Espera, no, esa pregunta me hace parecer como si no tuviera ni idea de lo que estoy haciendo.
+            - **Player:** ¿Dónde puedo conseguir cubos allí?
+            - **Fancy Dan:** Hay algunos por ahí. Ayudar a sí mismo.
+            - **Fancy Dan:** Hay una bomba en el alambique, mientras esté funcionando deberías tener agua casi ilimitada.
+            - **Player:** Espera, ¿tengo que agregar algo repugnante y/o potencialmente letal al agua antes de verterla?
+            - **Fancy Dan:** ¡Maldito pensamiento!
+            - **Player:** Ok, solo estoy comprobando.
+            - **Fancy Dan:** ¿Algo más?
+          - ¿Dónde puedo conseguir agua coloreada?
+            - **Player:** ¿De qué tipo de agua coloreada estamos hablando aquí?
+            - **Fancy Dan:** Bueno, el otro todavía tiene un terreno baldío con una flor creciendo en él. Si vas y agarras una de las flores y la metes en la tetera, el agua perderá el color.
+            - **Fancy Dan:** Usamos el color para que nuestro ron sea fácilmente identificable.
+            - **Player:** Así que simplemente vacío el hervidor en la tolva, ¿verdad?
+            - **Fancy Dan:** No, no, tendrás que coger un recipiente vacío y llenarlo con la tetera.
+            - **Fancy Dan:** De esa manera puedes usar las cosas en un mono si es necesario.
+            - **Player:** Úselo en un mono... por supuesto.
+            - **Fancy Dan:** ¿Algo más?
+      - Reparando el alambique
+        - **Player:** ¿Cómo reparo el alambique?
+        - **Fancy Dan:** Bueno, suponiendo que esos perros con escorbuto hayan logrado prenderle fuego a algo, entonces tendrás que echarle un balde de agua antes de poder repararlo.
+        - **Fancy Dan:** Luego, todo se reduce a qué parte resultó dañada.
+        - Seleccione una opción
+          - ¿Cómo reparo las tolvas?
+            - **Player:** ¿Cómo puedo reparar las tolvas?
+            - **Fancy Dan:** Bueno, suponiendo que no estén en llamas, todo lo que necesitas hacer es usar los parches de madera pesados. Son lo suficientemente grandes como para cubrir la mayoría de los agujeros.
+            - **Player:** ¿Necesitaré un martillo?
+            - **Fancy Dan:** No, simplemente empújalo en su lugar y golpéalo hasta que quede alineado.
+            - **Fancy Dan:** ¿Algo más?
+          - ¿Cómo reparo las tuberías y la bomba?
+            - **Player:** ¿Cómo reparo las tuberías y la bomba?
+            - **Fancy Dan:** Bueno, si usas una sección de tubería en la parte dañada deberías poder reemplazarla fácilmente.
+            - **Player:** ¿Necesitaré un martillo?
+            - **Fancy Dan:** No, probablemente solo tendrás que sacar el viejo y colocar el nuevo con las manos.
+            - **Fancy Dan:** ¿Algo más?
+          - ¿Cómo reparo puentes?
+            - **Player:** ¿Cómo reparo puentes?
+            - **Fancy Dan:** Bueno, tenemos estas prácticas secciones de puentes que puedes usar para reparar los puentes.
+            - **Fancy Dan:** El problema principal es que, mientras que un alambique seguirá funcionando si solo se daña una parte, los puentes quedan completamente fuera de servicio si se dañan aunque sea ligeramente.
+            - **Player:** ¿Eso va a ser un problema? Quiero decir, creo que puedo saltar.
+            - **Fancy Dan:** ¡No intentes eso! Nuestros abogados nos dicen que no estamos cubiertos por las lesiones sufridas al saltar sobre puentes quemados.
+            - **Fancy Dan:** En serio, mantente alejado de los puentes hasta que estén reparados.
+            - **Fancy Dan:** ¿Algo más?
+          - ¿Cómo obtengo artículos de reparación?
+            - **Player:** ¿De dónde consigo todas estas cosas?
+            - **Fancy Dan:** Ya tenemos un montón de artículos en una mesa dentro del alambique. También puedes crear otros nuevos si compras logs.
+            - **Player:** ¿Cómo funciona eso?
+            - **Fancy Dan:** Tenemos una mesa de trabajo instalada en el alambique. Si usa el logs, puede crear un reemplazo útil para parte del alambique.
+            - **Fancy Dan:** No te preocupes por que encajen, las cosas se mantienen juntas gracias a nails, las piezas de repuesto y el hollín.
+            - **Player:** Bueno... qué sanitario...
+            - **Fancy Dan:** ¿Algo más?
+          - Ok, creo que ya he escuchado suficiente.
+            - **Player:** Ok, creo que ya he escuchado suficiente.
+            - **Fancy Dan:** Bien. Me alegra poder ayudar.
+            - (Termina el diálogo)
+      - Saboteando el alambique de San
+        - **Player:** Entonces... ¿cómo haría para seguir saboteando al enemigo?
+        - **Fancy Dan:** Ok, esto es lo que debes hacer.
+        - **Fancy Dan:** La madera que hay por aquí está muy seca e inflamable, así que toma una de las antorchas, enciéndela y luego ataca al enemigo que todavía la tiene.
+        - **Player:** ¿Eso es todo?
+        - **Fancy Dan:** La mayor parte de su alambique está empapado en 'alcohol' y hecho de yesca de madera seca.
+        - **Fancy Dan:** Básicamente, si no es nuestro, intente usar una antorcha y vea qué sucede.
+        - **Player:** Ok, te entiendo.
+        - **Fancy Dan:** ¿Algo más?
+      - ¿Qué me pagarás?
+        - **Player:** Entonces, ¿qué me darás por ayudar?
+        - **Fancy Dan:** ¡Jajajaja! ¡Qué actitud tan mercenaria! Te irá bien aquí.
+        - **Fancy Dan:** Bueno, por cada botella que produzca tu equipo, te daré una pieza de ocho.
+        - **Fancy Dan:** Si lograste prender fuego a algo, arrojaré otro, lo mismo para reparar el alambique.
+        - **Player:** ¿Para qué puedo utilizar estos ocho?
+        - **Fancy Dan:** ¿Ves Honest Jimmy allí? Te cambiará algunas cosas muy bonitas por ellas.
+        - **Player:** ¡Genial!
+        - **Fancy Dan:** ¿Algo más?
+      - Ok, creo que ya he escuchado suficiente.
+        - **Player:** Ok, creo que ya he escuchado suficiente.
+        - **Fancy Dan:** Bien. Me alegra poder ayudar.
+        - (Termina el diálogo)
+Categoría: Diálogo NPC

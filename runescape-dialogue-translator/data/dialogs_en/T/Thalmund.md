@@ -1,0 +1,225 @@
+# Thalmund
+
+- **Original Wiki Page**: [Transcript:Thalmund](https://runescape.wiki/w/Transcript%3AThalmund)
+- **Letter**: `T`
+
+---
+
+## Dialogue Transcript
+
+
+### Talk to
+
+- (Condition: Only on the first time during the first seven weeks:)
+  - (Condition: During the first week:)
+    - **Player:** Hello there. I don't suppose you'd happen to be Thalmund?
+    - **Thalmund:** I am indeed! And I suppose that would make you Player.
+    - **Player:** That's me! Kili mentioned you a bit, says you come to return here every so often.
+    - **Thalmund:** Yes, my partner Kili told me about you too. An adventurer from the land of the living, here in Um. Exciting times!
+    - **Player:** I can't say the circumstances were ideal, but nevertheless, it has been rather exciting to finally visit the Underworld.
+    - **Thalmund:** Well, it's a pleasure to meet you, Player. I travel around the Underworld selling my goods.
+    - **Player:** What kind of goods do you sell?
+    - **Thalmund:** I sell a variety of wares - such as necrotic runes, ensouled materials, and items for rituals. I usually have a different stock rotation each time I come back to Um.
+    - **Player:** Perhaps I'll have a peruse of your wares sometime.
+    - **Thalmund:** Even if you don't fancy buying anything, I'm always happy to have a natter.
+    - **Player:** Then I hope to see you again!
+    - **Thalmund:** Farewell for now then, Player!
+    - (continue)
+  - (Condition: During the second week:)
+    - **Thalmund:** Good to see you again, Player.
+    - **Player:** How is today's shift going, Thalmund?
+    - **Thalmund:** Ah, the ol' achy joints are at it again. Lugging this old cart around the place doesn't do them any favours, but we move on.
+    - **Thalmund:** Other than that, I'm as good as can be - with a belly full of pie, and nothing but happy customers!
+    - **Player:** What made you decide to become a travelling merchant?
+    - **Thalmund:** The simple answer is that I didn't have much of an... Opportunity to travel much back on Gielinor, so I'm making up for it in death.
+    - **Thalmund:** Working as a merchant also lets me stay within the realms of the blacksmithing business, so I'm not too far out of my depth.
+    - **Player:** I imagine you have a lot of freedom, too?
+    - **Thalmund:** Indeed - I get to sell what I like, and work when I like. No early starts here!
+    - **Player:** Those are some great perks of the job.
+    - **Thalmund:** Wonderful perks indeed, but far from the best.
+    - **Thalmund:** The thing I like most about my line of work is the variety of beings I get to meet across the Underworld. It's always a bonus to have a chatter with someone new.
+    - **Thalmund:** I suppose the occasional pie that my regulars gift me doesn't hurt, either!
+    - **Player:** Truly an Imcando dwarf at heart.
+    - **Thalmund:** 'Fraid so!
+    - (continue)
+  - (Condition: During the third week:)
+    - **Player:** Hi Thalmund!
+    - **Thalmund:** Fancy seeing you again, Player. What can I do you for today?
+    - **Player:** I actually wanted to ask you about being a blacksmith.
+    - **Thalmund:** Well, smithing isn't quite in my remit nowadays, as Kili handles the metalworking side of the business.
+    - **Player:** Surely you must get involved every now and then? As an Imcando, I imagine it must be hard to completely let go of the craft.
+    - **Thalmund:** Of course - but you'd be mistaken to think I want to say goodbye to it!
+    - **Thalmund:** Getting to work some metal with my love, Kili, still remains one of my greatest joys, even in death.
+    - **Player:** That's lovely. Do you have a favourite metal to work with?
+    - **Thalmund:** As a master  smith, what would you expect my answer to be?
+    - **Player:** Elder rune, I suppose. A strong metal for a strong smith.
+    - **Thalmund:** Sound logic my friend, but my answer may surprise you. I most enjoy working with its lesser counterpart, runite.
+    - **Thalmund:** It's a sturdy metal for its tier, with a versatile application, and not too fickle to work with.
+    - **Player:** That makes sense. It makes for quite accessible armour and weaponry.
+    - **Thalmund:** Exactly! Folks of all sorts can use it, which is what I like to see.
+    - **Player:** Do you ever think you'll return to being a blacksmith?
+    - **Thalmund:** Ah, I have no current plans to, Player.
+    - **Thalmund:** After living and breathing the life of a blacksmith back on Gielinor, travelling has been a breath of fresh air... Both literally and figuratively.
+    - **Thalmund:** But, that'll have to be a story for another time.
+    - **Player:** I eagerly await to hear more of your tales in the future.
+    - (continue)
+  - (Condition: During the fourth week:)
+    - **Player:** Good day, Thalmund!
+    - **Player:** May I hear that story of yours now?
+    - **Thalmund:** No hesitation, eh!
+    - **Thalmund:** My own fault - I said it's a story for another time, and now we find ourselves here, in another time.
+    - **Thalmund:** It's not the cheeriest of stories I'm afraid.
+    - **Player:** Not everything can be redberry pies and party hats.
+    - **Thalmund:** Indeed not. Well, as I touched upon in our last chat, my life on Gielinor was nothing but that of a blacksmith.
+    - **Thalmund:** Not a free blacksmith, though. Goblins caught me while my guard was down, and I was forced into creating weaponry for Bandos, the one they called the 'Big High War God'.
+    - **Player:** Actually... I think I discovered some letters you wrote whilst captured. You created Warforge.
+    - **Thalmund:** Oh, my letters for Kili. I'm surprised anyone managed to find them! But yes, I created Bertha, the great forge.
+    - **Player:** Did you ever manage to escape?
+    - **Thalmund:** Ah... This has dug up such painful memories. I ended up there until my last day on Gielinor.
+    - **Thalmund:** A home-made explosion managed to blast a way out of that darned pit. I managed to convince some of my friends, the goblins, to escape... But there was not enough time for me to follow behind.
+    - **Thalmund:** The explosion triggered a collapse, and, well... You can imagine what happened from there.
+    - **Thalmund:** ...
+    - **Player:** I'm sorry, I shouldn't have pushed you to talk about it.
+    - **Thalmund:** No, no. I offered the story. And, as painful it may be, it was a part of my life. I feel it's important to remember both the good parts of life, as well as the bad.
+    - **Thalmund:** So I thank you for asking.
+    - (continue)
+  - (Condition: During the fifth week:)
+    - **Thalmund:** Good day, Player!
+    - **Player:** Hi there, Thalmund.
+    - **Thalmund:** I suppose you might be interested in hearing what came after my death, eh?
+    - **Player:** Well, I would have felt a bit rude asking... But, it is something I've been wondering about.
+    - **Thalmund:** Let's get to it, then. After my demise, I found myself then awake in the Underworld. It was all very sudden - like a hazy dream.
+    - **Thalmund:** As with all souls, I suppose I was ferried across the Noumenon, then guided here by what's-his-name... The fancy-lookin' dog-man.
+    - **Player:** That sounds like Icthlarin. He's the caretaker of the dead.
+    - **Thalmund:** Icthlarin, that's the one. So, I first awakened here in Um. It took a while to adjust to being dead - one minute I'm pumping powder into the pit of Bandos, next minute I'm in this entirely new world.
+    - **Player:** Were you scared?
+    - **Thalmund:** Scared? Ha!
+    - **Thalmund:** ...
+    - **Thalmund:** Yes, I was rather scared. All alone in this new world. No friends, or family.
+    - **Thalmund:** I tried befriending some of the goblins down here - kin of those who I once considered family in life. But their minds had been poisoned by war, with no sign of letting up, even in death. It was sad to see.
+    - **Thalmund:** My love wasn't yet here, so I lit a shrine for her. I took pride in making sure hers was the most well-loved shrine in the whole of Um! Polished and engraved, complete with nasturtiums, her favourite flower.
+    - **Thalmund:** I wandered aimlessly for a while, reflecting on life. What should I do now? Should I pass over? Should I wait? Take up a new career?
+    - **Player:** Why didn't you pass over?
+    - **Thalmund:** The Underworld grew on me. Ultimately, I decided to open up the Um smithy. It was familiar to me, and helped me settle in Um as my new home.
+    - **Player:** So when did Kili finally join you?
+    - **Thalmund:** Oh, not for some time, yet!
+    - **Player:** Maybe you can tell me about her next time, then.
+    - **Thalmund:** It would be my pleasure.
+    - (continue)
+  - (Condition: During the sixth week:)
+    - **Player:** I'm all ears for you to tell me about Kili.
+    - **Thalmund:** Ever the eager, Player.
+    - **Thalmund:** There wasn't a day that passed in Um that I didn't wish she was by my side.
+    - **Thalmund:** It's dangerous, you know, being alone in death. My mind went to all sorts of places.
+    - **Player:** Were you worried she moved on? Or, that you'd miss her pass through? Um is a rather large place.
+    - **Thalmund:** Oh, I had my eye on the new arrivals every day! If she passed through, I would know.
+    - **Thalmund:** I wasn't particularly worried about her moving on. When we married, we made a commitment to each other. In life, and in death. We dwarves have a tendency for loyalty, too.
+    - **Thalmund:** I was worried that things would be different.
+    - **Player:** Of course things would be different, no? You're dead now, in Um.
+    - **Thalmund:** Yes, yes, but the little things! The inside jokes, our shared interests, the knowing the intricacies of another dwarf's most fascinating mind.
+    - **Thalmund:** Would she no longer love me, since I'd gotten old and fat? Had our humours changed?
+    - **Thalmund:** And so, of course, the eventual day did come, when my love passed through to Um.
+    - **Thalmund:** While I was overjoyed, having waited for this day for a long long time, I had to be patient with her. As with me, it took her some time to settle with the idea of being no longer alive.
+    - **Thalmund:** It saddened me too, finally seeing her.
+    - **Thalmund:** We both realised the time we'd missed out on together. We both grew old, but alone and apart. Our lives, ripped apart by those goblins I eventually came to call my friends.
+    - **Player:** ...
+    - **Thalmund:** Of course though, death was just the beginning for us. Um was the place where we could finally live our domestic dreams.
+    - **Player:** Which leads us to today, right?
+    - **Thalmund:** Indeed! Kili eventually took over the smithy, and was more than supportive of my desires to travel. Of course I offered her to come with me, but she's a homebody at heart.
+    - **Player:** I'm happy that you two were finally reunited.
+    - **Thalmund:** Me too, Player. Me too.
+    - (continue)
+  - (Condition: During the seventh week:)
+    - Congratulations! You have completed: 'Friend of the Imcando' - Engage in all of Thalmund's conversations.
+    - **Player:** What are your plans for the future, Thalmund?
+    - **Thalmund:** Oh, it's a heavy topic with you as always, Player!
+    - **Thalmund:** For now, I'm just enjoying the life of a traveller. The life suits me - I get to meet new folk, such as yourself, all the time - and work off the pie weight as I do it!
+    - **Thalmund:** ...
+    - **Thalmund:** But, the thought of moving on does plague me every now and then.
+    - **Thalmund:** There's nothing else I'm waiting here for, now. I could see my Pa again! Kili could see her siblings again!
+    - **Player:** So, what's stopping you?
+    - **Thalmund:** It's uneasy, the unknown. Not quite knowing what life will change into beyond the Underworld.
+    - **Thalmund:** We've built a nice life for ourselves down here. It's cosy. It's home!
+    - **Player:** I understand. You've got all the time you need to move on when it feels right. It shouldn't be forced.
+    - **Thalmund:** That's exactly it.
+    - **Thalmund:** ...
+    - **Thalmund:** I'll admit, Player, I didn't think you'd become a regular.
+    - **Thalmund:** Being an adventurer, you're a busy bee a lot of the time, and I'm used to so many folks moving on, not to be seen again.
+    - **Player:** I can make time for a friendly old dwarf.
+    - **Thalmund:** ...
+    - **Thalmund:** And I appreciate it! I've most enjoyed our little chats. Please, don't become a stranger.
+    - **Player:** I'll try not to! It's been enlightening hearing your stories, and the life you've built for yourself out here.
+    - **Thalmund:** I'll see you next time then, Player.
+    - **Player:** See you, Thalmund.
+    - (continue)
+  - (Condition: If talking for the first time during the week:)
+    - (continue|Select)
+  - (Condition: If replaying the conversation for weeks 1–3:)
+    - (continue|Choose)
+  - (Condition: If replaying the conversation for weeks 4–6:)
+    - (continue|Choose 2)
+  - (Condition: If replaying the conversation for week 7:)
+    - (continue|Choose 3)
+- (Condition: After the first time for a specific week or after the seventh week:)
+  - **Thalmund:** Good day, Player!
+  - **Thalmund:** Now, what can I do you for?
+  - (continue|Select)
+- [Menu]: Choose an option:
+  - [Choice]: Replay previous conversations.
+    - [Menu]: Choose an option:
+      - [Choice]: Thalmund.
+        - (above|Hello)
+      - [Choice]: cond=If the second week's conversation has been unlocked:|Trading.
+        - (above|second-week)
+      - [Choice]: cond=If the third week's conversation has been unlocked:|Smithing.
+        - (above|third-week)
+      - [Choice]: cond=If the fourth week's conversation has been unlocked:|[More options]
+        - [Menu]: Choose an option:
+          - [Choice]: Warforge.
+            - (above|fourth-week)
+          - [Choice]: cond=If the fifth week's conversation has been unlocked:|Death.
+            - (above|fifth-week)
+          - [Choice]: cond=If the sixth week's conversation has been unlocked:|Kili.
+            - (above|fifth-week)
+          - [Choice]: cond=If the seventh week's conversation has been unlocked:|[More options]
+            - [Menu]: Choose an option:
+              - [Choice]: Um.
+                - (above|seventh-week)
+              - [Choice]: [Previous options]
+                - (previous)
+          - [Choice]: [Previous options]
+            - (previous)
+      - [Choice]: Nevermind.
+        - (previous2|Select)
+  - [Choice]: I'd like to trade.
+    - **Player:** I'd like to trade, please.
+    - **Thalmund:** Here's what I've got in stock today.
+    - (opens=Thalmund's Wares)
+  - [Choice]: cond=With a blueberry pie in backpack before having completed He's My Berry Pie:|I have a pie for you.
+    - **Player:** I have a pie for you.
+    - [Menu]: Give Thalmund your blueberry pie?
+      - [Choice]: Yes
+        - (removes=blueberry pie)
+        - {{RSFontAchievement|He's My Berry Pie}}
+        - **Thalmund:** Ooh, my favourite! It's a real shame I can't dig into this. Thanks though.
+        - (initial|Select)
+      - [Choice]: No
+        - **Player:** On second thoughts, maybe not.
+        - **Thalmund:** Cruel to get a dwarf excited like that...
+        - (initial|Select)
+  - [Choice]: Nothing, thanks.
+    - **Player:** Nothing, thanks.
+    - **Thalmund:** Alrighty. Hope to see you again.
+- (Condition: If conversing at or past 00:00 of the following day)
+  - **Thalmund:** Ah, I'm just starting to pack up my wares I'm afraid. Come and see me next time I visit.
+
+### Trade
+
+- (Condition: If trading at or past 00:00 of the following day)
+  - **Thalmund:** Ah, I'm just starting to pack up my wares I'm afraid. Come and see me next time I visit.
+- (Condition: Otherwise)
+  - (opens=Thalmund's Wares)
+
+### First time logging in on Wednesdays
+
+- Thalmund has arrived by the smithy, with a variety of wares for sale!

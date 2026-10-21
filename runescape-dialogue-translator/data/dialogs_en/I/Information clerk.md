@@ -1,0 +1,123 @@
+# Information clerk
+
+- **Original Wiki Page**: [Transcript:Information clerk](https://runescape.wiki/w/Transcript%3AInformation%20clerk)
+- **Letter**: `I`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Information clerk:** Welcome to Varrock Museum. How can I help you today?
+- {{anchor|standard}} [Menu]: What would you like to do?
+  - [Choice]: Take a map of the Museum.
+    - (receives=museum map)
+    - [You reach and take a map of the Museum.]
+  - [Choice]: Find out about the Dig Site exhibit.
+    - **Player:** Could you tell me about the Dig Site exhibit please?
+    - **Information clerk:** Of course. The Dig Site exhibit has several display cases of finds discovered on the Dig Site to the east of Varrock.
+    - (Condition: If the player is on a free-to-play world:)
+      - **Information clerk:** As you are on a free world, you can't help us with cleaning finds and putting them in their display cases, but do feel free to take a look around at the displays available. You'll find out a little about the things we've found on the Dig
+      - **Information clerk:** Site from the 3rd and 4th Ages - all really quite interesting.
+      - (continue)
+    - (Condition: If the player has not completed The Dig Site quest:)
+      - **Information clerk:** Unfortunately, you haven't passed your Earth Science exams, so you aren't qualified to help us on the dig. If you're interested, visit the Education Centre on the Dig Site to the east and talk to the examiners there.
+      - (continue)
+    - (Condition: If the player has completed The Dig Site quest but has not helped with the exhibit:)
+      - **Information clerk:** As you've passed your Earth Science exams at the Dig Site, you can go through into the cleaning area and clean off some finds. This will help our Dig Site display floor to give a more accurate view of life back in the 3rd and 4th Ages, as well as earning you Kudos. If you'd like to know more about cleaning finds, just ask the archaeologists.
+      - (continue)
+    - (Condition: If the player has started on the exhibit:)
+      - **Information clerk:** I see you've already helped out in the Dig Site exhibit. Our picture of life back in the 3rd and 4th Ages in that old city is really becoming clearer. There are still a few displays that need updating, though. If you'd like to know more about cleaning finds, just ask the archaeologists.
+      - (continue)
+    - (Condition: If the player has completed the exhibit:)
+      - **Information clerk:** You have really helped out a lot. I see all the nice clean finds with their information are in the once empty cases. I'm sure we'll get some more cases in soon for you to fill. For now, perhaps you should investigate the rest of the
+      - **Information clerk:** Museum.
+      - (continue)
+    - {{anchor|ask}} [Menu]: Select an Option
+      - [Choice]: Ask about something else.
+        - (above|standard)
+      - [Choice]: Bye
+        - **Player:** Bye.
+        - **Information clerk:** Have a good day!
+- (Condition: If the player is on a members world:)
+  - [Choice]: Find out about the Timeline exhibit.
+    - **Player:** Could you tell me about the Timeline exhibit please?
+    - **Information clerk:** Why, yes. The Timeline exhibit has lots of display cases showing things from the beginning of time right up to the present day.
+    - (Condition: If the player has not filled up the museum displays:)
+      - **Information clerk:** You could help out in the Timeline exhibit upstairs. By providing information you may have gathered on your travels around the world, you can help to make our displays more comprehensive and earn yourself Kudos too.
+      - (continue)
+    - (Condition: If the player has partially filled up the museum displays:)
+      - **Information clerk:** I know you've helped out a bit in the Timeline exhibit upstairs, but I'm sure you can help more. When you're out on your travels being a brave adventurer, remember that you can come back to the Museum after some quests to
+      - **Information clerk:** let us know important historical facts. This will help us to update the displays and make the Museum a more informative place! You'll earn yourself Kudos too.
+      - (continue)
+    - (Condition: If the player has completely filled up the museum displays:)
+      - **Information clerk:** I see you have filled up the display cases we have, and given us large amounts of information for the Timeline exhibit. At the moment, you have left us nothing to do ourselves, but I'm sure we'll be getting some new cases in soon for you to help us out with! For now, perhaps you should investigate the rest of the Museum.
+      - (continue)
+    - **Player:** Okay, thanks. One more question: why are the display numbers all out of sequence?
+    - **Information clerk:** Ahh, that's due to the numbering being done as we were constructing the cases and putting the displays in them, then shuffling them into the right places. We thought rather than renumbering them all - such a boring job,
+    - **Information clerk:** writing labels - we'd leave it. They all have unique numbers and future displays would mess up the consecutive numbering anyway.
+    - **Player:** Ahhh, I see.
+    - (continuea|ask)
+- (Condition: If the player is on a members world:)
+  - [Choice]: Find out about the Natural History exhibit.
+    - **Player:** Could you tell me about the Natural History exhibit please?
+    - **Information clerk:** Why, yes. The Natural History exhibit has displays of various creatures you can find around Gielinor.
+    - (Condition: If the player has not started the natural history quiz:)
+      - **Information clerk:** Downstairs, in the Natural History exhibit, you can answer quizzes about animals to show us your knowledge and earn Kudos at the same time. Talk to Orlando, I'm sure he'd appreciate your knowledge.
+      - (continue)
+    - (Condition: If the player has corrected some of the display cases:)
+      - **Information clerk:** I see you have already demonstrated some of your knowledge of the natural world in the Natural History exhibit, so why not pop down and do some more quizzes with Orlando! You can earn Kudos at the same time.
+      - (continue)
+    - (Condition: If the player has corrected all display cases:)
+      - **Information clerk:** You really know your stuff when it comes to animals, don't you! Orlando tells me you have exceeded his teachings. For now, perhaps you should investigate the rest of the Museum.
+      - (continue)
+    - [Menu]: Select an Option
+      - [Choice]: But what's Natural History got to do with existing animals?
+        - **Player:** But what's natural history got to do with existing animals?
+        - **Information clerk:** The study of natural history is simply the study of the history of the species. The species doesn't necessarily need to be an extinct one.
+        - (continuea|ask)
+      - [Choice]: Ask about something else.
+        - (above|standard)
+      - [Choice]: Bye
+        - (above)
+- (Condition: If the player is on a members world:)
+  - [Choice]: Find out about Kudos.
+    - (Condition: If the player have not started assisting the Museum:)
+      - (continue|what-is-kudos)
+    - (Condition: Otherwises:)
+      - (continue)
+    - [Menu]: Select an Option
+      - [Choice]: Find out about kudos
+        - {{anchor|what-is-kudos}}**Player:** What is Kudos?
+        - **Information clerk:** Kudos is a measure of how much you've assisted the Museum. The more information you give us, Dig Site finds that you clean and quizzes you solve, the higher your Kudos.
+        - **Player:** But what's it for?
+        - **Information clerk:** Well, recently we found a rather interesting island to the north of Morytania. We believe that it may be of archaeological significance. I suspect we'll be looking for qualified archaeologists once we have constructed our
+        - **Information clerk:**  canal and barge. So, we're using Kudos as a measure of who is willing and able to help us here at the Museum, so they can then be invited on our dig on the new island.
+        - **Player:** Would I qualify, then?
+        - (Condition: If the player does not have enough Kudos:)
+          - **Information clerk:** Unfortunately, you haven't earned enough Kudos yet, so you aren't qualified to help us on the dig. If you're interested in helping us out and getting that Kudos, simply help out around the Museum.
+          - **Player:** Okay, thanks.
+        - (Condition: If the player has enough Kudos:)
+          - **Information clerk:** Why yes! You've helped us so much around the Museum and you have the necessary qualifications from the Earth Sciences exams you took. When the canal is ready, we'll let you know.
+          - **Player:** Thank you, I'll look forward to it!
+      - [Choice]: How can I earn more kudos?
+        - **Information clerk:** Hmm, let me see, I've got this written down somewhere...
+        - [The Information clerk hands you a sheet of paper.]
+        - {{qact|A 'Kudos Requirements' display is shown, listing how to get remaining Kudos.}}
+
+### If the player is eligible for rewards
+
+- **Information clerk:** Ohh, hello there, I see from our records that you've helped us out a bit. My father knew an awful lot about all sorts like Mining, Crafting and such, and he passed his tricks on to me... would you like me to share?
+- [Menu]: Select an Option
+  - [Choice]: Yes
+    - **Player:** Yes.
+    - [You feel more knowledgeable in the skills Crafting, Smithing, Slayer, Prayer and Hunter.]
+    - **Player:** Wow, thanks.
+    - **Information clerk:** You're most welcome. Now, is there anything else I can help you with?
+    - (continuea|standard)
+  - [Choice]: No
+    - **Player:** No.
+    - **Player:** I'll come back later.
+    - **Information clerk:** Okay!

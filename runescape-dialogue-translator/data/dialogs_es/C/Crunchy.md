@@ -1,0 +1,194 @@
+# Crunchy
+
+- **Original Wiki Page**: [Transcript:Crunchy](https://runescape.wiki/w/Transcript%3ACrunchy)
+- **Letter**: `C`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### The Last Call
+
+
+#### Habla con
+
+- (Condition: Sin la limosna de la muerte:)
+  - **Crunchy:** ¿Eres tú, Tim? ¿Finalmente te uniste a mí en la muerte?
+  - **Crunchy:** Oh, no lo eres.
+  - **Crunchy:** Simplemente volveré... a ahogar mis penas... en la 'limosna de la muerte'...
+  - (continue)
+- (Condition: Con La limosna de la muerte:)
+  - **Crunchy:** ¿Esa cerveza es para mí?
+  - [Menu]: ¿Dar 'limosna de la muerte' a Crunchy?
+    - [Choice]: Sí.
+      - (removes=The Alms of Death)
+      - (Condition: Sólo la primera vez:)
+        - 2 almas vuelan para impulsar el barco.
+        - ((Repetido en una ventana emergente:))
+          - 2 almas vuelan para impulsar el barco.
+          - (continue)
+      - **Crunchy:** ¡Gracias, amigo! Sabes, me recuerdas un poco a Tim. Debe ser toda esa piel.
+      - (continue)
+    - [Choice]: No.
+      - **Crunchy:** Oh... está bien.
+      - (continue)
+- [Menu]: Elige una opción:
+  - [Choice]: Muéstrame las tareas de élite del Inframundo que puedo realizar.
+    - (opens=Underworld Set Tasks - Elite)
+  - [Choice]: cond=With elite Underworld achievements completed:|¿Puedo reclamar alguna recompensa de usted?
+    - (Condition: Antes de haber desbloqueado Underworld Grimoire 4:)
+      - **Player:** He completado todas las tareas del conjunto de tareas de élite de Underworld.
+      - **Crunchy:** Bien hecho Player, he reservado algunas recompensas para ti.
+      - **Crunchy:** Lupe también acordó proporcionarte un suministro diario de poderosa tinta fantasmal en reconocimiento a tus esfuerzos. También acordó almacenar sus recompensas en el banco y concentrarse en el almacenamiento cuando la visite.
+      - **Crunchy:** ¡La muerte también acordó hacerse cargo de los honorarios de tu primera muerte todos los días! ¡Qué generoso!
+      - (Condition: Sin dos espacios libres en backpack:)
+        - **Crunchy:** Me temo que no tienes suficiente espacio backpack para reclamar todas tus recompensas. Hablame de nuevo cuando tengas 2 espacios.
+      - (Condition: Con dos espacios libres en backpack:)
+        - (receives=antique lamp and Underworld Grimoire 4)
+        - [¡Recibirás algunas recompensas por completar el conjunto de tareas de élite de Underworld!]
+        - **Crunchy:** Ahí lo tienes, parece que eso es todo.
+    - (Condition: Después de haber desbloqueado Underworld Grimoire 4:)
+      - (Condition: Sin poseer un Underworld Grimoire 4:)
+        - **Player:** Perdí el Grimorio de Underworld 4 que me diste...
+        - (Condition: Sin espacio libre backpack:)
+          - **Crunchy:** Parece que no tienes espacio para uno nuevo, vuelve conmigo cuando lo tengas.
+        - (Condition: Con espacio gratuito backpack:)
+          - **Crunchy:** Por suerte para ti, tengo uno de repuesto. Cuida mejor este.
+          - (receives=Underworld Grimoire 4)
+          - [Te entregan otro Underworld Grimoire 4.]
+      - (Condition: Poseer un Grimorio 4 del Inframundo:)
+      - **Crunchy:** ¡No tienes ninguna recompensa que reclamar!
+  - [Choice]: Pregunta por el Sistema de Tareas.
+    - [Menu]: Elige una opción:
+      - [Choice]: cond=Only if not selected last:|Cuéntame sobre el sistema de tareas.
+        - **Crunchy:** Muy bien: el Sistema de Logros es una colección de hazañas que quizás desees completar mientras viajas por el mundo.
+        - **Crunchy:** Puedes ganar recompensas especiales por completar ciertos logros; como mínimo, cada uno vale una recompensa en efectivo de Explorer Jack en Lumbridge.
+        - **Crunchy:** Algunos también ofrecen elementos que ayudarán a completar otros logros y muchos cuentan como progreso hacia el conjunto del área en la que se encuentran.
+        - [Menu]: Elige una opción:
+          - [Choice]: Cuéntame sobre la recompensa establecida para esta localidad.
+            - **Crunchy:** Por completar el conjunto Underworld, se te presenta el Grimorio de Underworld.
+            - **Crunchy:** Este libro será cada vez más útil con cada nivel de dificultad del conjunto que completes.
+            - **Crunchy:** Cuando se le presenten sus recompensas, se le informará sobre sus usos.
+            - [También puedes ver qué recompensas proporciona un elemento determinado al pasar el cursor sobre el ícono de recompensas en su logro correspondiente en la interfaz de Logros.]
+            - (previous2|Task System options)
+          - [Choice]: ¿Cómo reclamo estas recompensas?
+            - **Crunchy:** Debes completar todas las tareas del conjunto de una dificultad particular y luego podrás reclamar tu recompensa. Algunas de las tareas de Underworld son sencillas, algunas requerirán skill levels y otras pueden requerir que se inicien o completen misiones.
+            - **Crunchy:** Para reclamar la recompensa del conjunto Underworld, habla con Icthlarin, Frank, Kili o conmigo mismo.
+            - [Menu]: Elige una opción:
+              - [Choice]: Cuéntame sobre el sistema de tareas.
+                - (arriba)
+              - [Choice]: Lo siento, me estaba yendo.
+                - (end)
+          - [Choice]: Lo siento, me estaba yendo.
+            - (end)
+      - [Choice]: ¿Puedo reclamar alguna recompensa de usted?
+        - (Condition: Sin recompensas para reclamar:)
+          - **Crunchy:** ¡No tienes ninguna recompensa que reclamar!
+        - (Condition: Con recompensas para reclamar:)
+          - (Condition: Sin haber reclamado las recompensas antes:)
+            - **Player:** He completado todas las tareas del conjunto de tareas de élite de Underworld.
+            - **Crunchy:** Bien hecho Player, he reservado algunas recompensas para ti.
+            - **Crunchy:** Lupe también acordó proporcionarte un suministro diario de poderosa tinta fantasmal en reconocimiento a tus esfuerzos. También acordó almacenar sus recompensas en el banco y concentrarse en el almacenamiento cuando la visite.
+            - **Crunchy:** ¡La muerte también acordó hacerse cargo de los honorarios de tu primera muerte todos los días! ¡Qué generoso!
+            - (Condition: Sin dos espacios libres en backpack:)
+              - **Crunchy:** Me temo que no tienes suficiente espacio backpack para reclamar todas tus recompensas. Hablame de nuevo cuando tengas 2 espacios.
+            - (Condition: Con dos espacios libres en backpack:)
+              - (receives=antique lamp and Underworld Grimoire 4)
+              - [¡Recibirás algunas recompensas por completar el conjunto de tareas de élite de Underworld!]
+              - **Crunchy:** Ahí lo tienes, parece que eso es todo.
+          - (Condition: Habiendo reclamado las recompensas antes:)
+            - **Player:** Perdí el Grimorio de Underworld 4 que me diste...
+            - (Condition: Sin espacio libre backpack:)
+              - **Crunchy:** Parece que no tienes espacio para uno nuevo, vuelve conmigo cuando lo tengas.
+            - (Condition: Con espacio gratuito backpack:)
+              - **Crunchy:** Por suerte para ti, tengo uno de repuesto. Cuida mejor este.
+              - (receives=Underworld Grimoire 4)
+              - [Te entregan otro Underworld Grimoire 4.]
+      - [Choice]: ¿Puedo comprar un repuesto de la recompensa?
+        - [Menu]: Elige una opción:
+          - [Choice]: Grimorio del inframundo 1
+            - (Condition: Sin espacio libre en backpack:)
+              - **Crunchy:** Necesitarás espacio en tu inventario.
+            - (Condition: Con espacio libre en backpack:)
+              - **Crunchy:** ¿Grimorio del inframundo 1? Sí, pero me temo que te costaría 5.000 coins.
+              - [Menu]: ¿Comprar otro por 5.000 coins?
+                - [Choice]: si
+                  - (Condition: Sin 5.000 coins:)
+                    - No puedes permitirte eso.
+                    - ((Repetido en una ventana emergente:))
+                      - No puedes permitirte eso.
+                      - (continue)
+                    - **Crunchy:** Sin embargo, no parece que puedas permitírtelo en este momento. Vuelve conmigo cuando puedas.
+                  - (Condition: Con 5.000 coins:)
+                    - (removes=5,000 coins) (receives=Underworld Grimoire 1)
+                    - [Te entregan otro Grimorio 1 de Underworld.]
+                - [Choice]: No
+                  - **Player:** No, gracias.
+          - [Choice]: Grimorio del inframundo 2
+            - (Condition: Sin espacio libre en backpack:)
+              - **Crunchy:** Necesitarás espacio en tu inventario.
+            - (Condition: Con espacio libre en backpack:)
+              - **Crunchy:** ¿Grimorio del inframundo 2? Sí, pero me temo que te costaría 10.000 coins.
+              - [Menu]: ¿Comprar otro por 10.000 coins?
+                - [Choice]: si
+                  - (Condition: Sin 10.000 coins:)
+                    - No puedes permitirte eso.
+                    - ((Repetido en una ventana emergente:))
+                      - No puedes permitirte eso.
+                      - (continue)
+                    - **Crunchy:** Sin embargo, no parece que puedas permitírtelo en este momento. Vuelve conmigo cuando puedas.
+                  - (Condition: Con 10.000 coins:)
+                    - (removes=10,000 coins) (receives=Underworld Grimoire 2)
+                    - [Te entregan otro Underworld Grimoire 2.]
+                - [Choice]: No
+                  - **Player:** No, gracias.
+          - [Choice]: cond=Having unlocked Underworld Grimoire 3:|Grimorio del inframundo 3
+            - (Condition: Sin espacio libre en backpack:)
+              - **Crunchy:** Necesitarás espacio en tu inventario.
+            - (Condition: Con espacio libre en backpack:)
+              - **Crunchy:** ¿Grimorio del inframundo 3? Sí, pero me temo que te costaría 25.000 coins.
+              - [Menu]: ¿Comprar otro por 25.000 coins?
+                - [Choice]: si
+                  - (Condition: Sin 25.000 coins:)
+                    - No puedes permitirte eso.
+                    - ((Repetido en una ventana emergente:))
+                      - No puedes permitirte eso.
+                      - (continue)
+                    - **Crunchy:** Sin embargo, no parece que puedas permitírtelo en este momento. Vuelve conmigo cuando puedas.
+                  - (Condition: Con 25.000 coins:)
+                    - (removes=25,000 coins) (receives=Underworld Grimoire 3)
+                    - [Te entregan otro Underworld Grimoire 3.]
+                - [Choice]: No
+                  - **Player:** No, gracias.
+          - [Choice]: cond=Having unlocked Underworld Grimoire 4:|Grimorio del inframundo 4
+            - (Condition: Sin espacio libre en backpack:)
+              - **Crunchy:** Necesitarás espacio en tu inventario.
+            - (Condition: Con espacio libre en backpack:)
+              - **Crunchy:** ¿Grimorio del inframundo 4? Sí, pero me temo que te costaría 50.000 coins.
+              - [Menu]: ¿Comprar otro por 50.000 coins?
+                - [Choice]: si
+                  - (Condition: Sin 50.000 coins:)
+                    - No puedes permitirte eso.
+                    - ((Repetido en una ventana emergente:))
+                      - No puedes permitirte eso.
+                      - (continue)
+                    - **Crunchy:** Sin embargo, no parece que puedas permitírtelo en este momento. Vuelve conmigo cuando puedas.
+                  - (Condition: Con 50.000 coins:)
+                    - (removes=50,000 coins) (receives=Underworld Grimoire 4)
+                    - [Te entregan otro Underworld Grimoire 4.]
+                - [Choice]: No
+                  - **Player:** No, gracias.
+      - [Choice]: Lo siento, me estaba yendo.
+        - (end)
+  - [Choice]: Adiós.
+    - **Player:** Adiós.
+
+#### Ver tareas de élite
+
+- (opens=Underworld Set Tasks - Elite)
+
+#### Descripción general del conjunto de tareas
+
+- (opens=Underworld achievements)

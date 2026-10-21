@@ -1,0 +1,234 @@
+# Selene
+
+- **Original Wiki Page**: [Transcript:Selene](https://runescape.wiki/w/Transcript%3ASelene)
+- **Letter**: `S`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Talk to
+
+- (Condition: Sólo la primera vez:)
+  - **Player:** Hola.
+  - **Selene:** Saludos, joven. No es frecuente ver a los vivos en estos lugares.
+  - **Player:** ¿Quién eres?
+  - **Selene:** Soy Selene. Fui sacerdotisa en vida, y supongo que todavía lo soy incluso muerta.
+  - 2 almas vuelan para impulsar el barco.
+  - (Condition: Repetido en una ventana emergente:)
+    - 2 almas vuelan para impulsar el barco.
+    - (continue)
+- [Menu]: ¿Qué te gustaría decir?
+  - [Choice]: ¿A qué Dios adoras?
+    - **Player:** ¿De qué dios eres sacerdotisa?
+    - **Selene:** Dios no, dulce niña. Gallinero.
+    - **Player:** ¿Adoras a varios dioses? Eso es poco común.
+    - **Selene:** Sí, eso me han dicho.
+    - **Selene:** Verás, de donde soy, vemos valor en las enseñanzas de todos los dioses.
+    - **Player:** Pero ¿cómo puedes adorar tanto a dioses que enseñan la paz como a dioses que promueven la guerra? ¿Caos y orden? ¿No son contradictorios?
+    - **Selene:** Ah, estás familiarizado con los dioses.
+    - **Selene:** Verás, hija mía, estos no son tan contradictorios como crees.
+    - **Selene:** Quizás algún día pueda enseñarte.
+    - [Menu]: ¿Qué te gustaría decir?
+      - [Choice]: Estoy bien.
+        - **Player:** Uhhh... Estoy bien, gracias.
+        - (initial)
+      - [Choice]: Bien, gracias.
+        - **Player:** Está bien, gracias.
+        - (initial)
+  - [Choice]: ¿Qué es este lugar?
+    - **Player:** ¿Qué es este lugar?
+    - **Selene:** Supongo que te estarás preguntando acerca de los santuarios.
+    - **Player:** Bueno, sí, un poco.
+    - **Selene:** Hay quienes luchan mucho, hija mía. Tanto en la vida como en la muerte.
+    - **Selene:** Creo los santuarios en honor a ellos, con la esperanza de que el universo pueda aliviar su carga.
+    - **Selene:** Hay una ironía, supongo.
+    - **Selene:** En vida, me compadecían de los muertos. Pero sólo en la muerte me di cuenta de que, para algunos, la vida es mucho más dura.
+    - **Player:** Eso es triste.
+    - **Selene:** De hecho lo es. Quizás también te encienda un santuario.
+    - (previous)
+  - [Choice]: cond=After asking about gods:|¿Puedes enseñarme alguna oración?
+    - **Player:** ¿Conoces alguna oración que pueda ayudarme en la nigromancia?
+    - (Condition: Sólo la primera vez:)
+      - **Selene:** ¿Señor Saradomin no escucha tu llamada?
+      - **Selene:** Me encantaría sentarme y escuchar estas palabras, joven.
+      - (Action: La pantalla se desvanece.)
+      - {{RSFontAchievement|A Prayer for the Dying}}
+      - Estudias a Selene mientras ella te enseña dos oraciones para ayudarte con la nigromancia.
+      - (Condition: Repetido en una ventana emergente:)
+        - Estudias a Selene mientras ella te enseña dos oraciones para ayudarte con la nigromancia.
+        - (continue)
+      - (Action: La pantalla vuelve a desaparecer.)
+      - [Has desbloqueado las oraciones de Hand of Doom y Accelerated Decay.]
+      - **Selene:** ¿Algo más?
+      - (continue)
+    - [Menu]: ¿Qué te gustaría aprender?
+      - [Choice]: cond=If you haven't learned Sanctity:|Santidad (requires 60 Necromancy).
+        - **Player:** ¿Conoces alguna otra oración que puedas enseñarme?
+        - **Selene:** Dime, ¿conoces las Piadosas oraciones de Saradomin?
+        - (Condition: Si Pious Prayers no está desbloqueado:)
+          - **Player:** Me temo que no.
+          - **Selene:** Vuelve a mí cuando hayas profundizado tu conocimiento de las enseñanzas de Saradomin.
+          - [Necesitas el nivel 60 Necromancy y haber completado la misión King's Ransom y el campo de entrenamiento Knight's Waves para desbloquear la oración de santidad.]
+          - (initial)
+        - (Condition: Si Oraciones Piadosas está desbloqueado:)
+          - **Player:** Sí, sí.
+          - (Condition: Si tiene un nivel inferior a 60 Necromancy:)
+            - **Selene:** Déjame verte entonces.
+            - **Selene:** Hmm... No creo que seas lo suficientemente fuerte para aprender esta oración. Vuelve a mí cuando lo estés.
+            - [Necesitas el nivel 60 Necromancy para desbloquear la oración de santidad.]
+            - (initial)
+          - (Condition: Si tienes al menos el nivel 60 Necromancy:)
+            - **Selene:** Entonces permíteme enseñarte más.
+            - (Action: La pantalla se desvanece.)
+            - Escuchas atentamente mientras Selene te enseña una antigua oración saradominista.
+            - (Condition: Repetido en una ventana emergente:)
+              - Escuchas atentamente mientras Selene te enseña una antigua oración saradominista.
+            - (Action: La pantalla vuelve a desaparecer.)
+            - [Has desbloqueado la oración de Santidad.]
+            - (initial)
+      - [Choice]: cond=If you haven't learned Sap Necromancy Attack:|Savia Necromancy.
+        - **Player:** ¿Conoces alguna otra oración que puedas enseñarme?
+        - **Selene:** Hmm... Dime, niña, ¿qué sabes de las enseñanzas de Zaros?
+        - (Condition: Si las maldiciones antiguas no están desbloqueadas:)
+          - **Player:** No es mucho, en realidad.
+          - **Selene:** Expande tus horizontes y luego regresa a mí. Tienes mucho que aprender.
+          - [Debes haber completado la misión The Temple at Senntisten para desbloquear las maldiciones Sap Necromancy Attack y Sap Necromancy Strength.]
+          - (initial)
+        - (Condition: Si se desbloquean las maldiciones antiguas:)
+          - **Player:** Yo diría que conozco mi parte justa. De hecho, ya conozco una serie de maldiciones antiguas a través de un antiguo himnario que leí una vez.
+          - **Selene:** Muy bien, entonces déjame enseñarte más.
+          - (Action: La pantalla se desvanece.)
+          - Escuchas atentamente mientras Selene recita un par de maldiciones antiguas.
+          - (Condition: Repetido en una ventana emergente:)
+            - Escuchas atentamente mientras Selene recita un par de maldiciones antiguas.
+            - (continue)
+          - (Action: La pantalla vuelve a desaparecer.)
+          - [Has desbloqueado las maldiciones Sap Necromancy Attack y Sap Necromancy Strength.]
+          - (initial)
+      - [Choice]: cond=If you have learned the Sap Necromancy Attack but not Leech Necromancy:|Sanguijuela Necromancy (requires 70 Necromancy).
+        - **Player:** ¿Conoces alguna otra maldición que puedas enseñarme?
+        - **Selene:** ¿Podría enseñarte más maldiciones antiguas?
+        - (Condition: Si tienes Necromancy por debajo del nivel 70:)
+          - **Selene:** Lamentablemente, necesitas hacerte más fuerte para dominar esta maldición.
+          - [Necesitas el nivel 70 Necromancy para desbloquear las maldiciones Leech Necromancy Attack y Leech Necromancy Strength.]
+          - (initial)
+        - (Condition: Si tienes al menos el nivel 70 Necromancy:)
+          - **Player:** Estoy listo.
+          - **Selene:** Muy bien, entonces déjame enseñarte.
+          - (Action: La pantalla se desvanece.)
+          - Escuchas mientras Selene te enseña un proverbio zarosiano muy antiguo. No estás seguro de qué tiene que ver con las oraciones.
+          - (Condition: Repetido en una ventana emergente:)
+            - Escuchas mientras Selene te enseña un proverbio zarosiano muy antiguo. No estás seguro de qué tiene que ver con las oraciones.
+          - (Action: La pantalla vuelve a desaparecer.)
+          - [Has desbloqueado las maldiciones Leech Necromancy Attack y Leech Necromancy Strength.]
+          - (initial)
+      - [Choice]: cond=If you have learned Leech Necromancy:|Dolor (requires 90 Necromancy).
+        - **Player:** ¿Conoces alguna otra maldición que puedas enseñarme?
+        - **Selene:** Hay una última maldición poderosa que podría enseñarte.
+        - (Condition: Si tienes Necromancy por debajo del nivel 90:)
+          - **Selene:** Por desgracia, necesitas volverte más fuerte para dominar esta maldición.
+          - [Necesitas el nivel 90 Necromancy para desbloquear la maldición del dolor.]
+          - (initial)
+        - (Condition: Si tienes al menos el nivel 90 Necromancy:)
+          - **Player:** Estoy listo.
+          - **Selene:** Muy bien, entonces déjame enseñarte.
+          - (Action: La pantalla se desvanece.)
+          - Selene te enseña a extraer un poder antiguo de ti mismo, no estás seguro si te quedaste dormido.
+          - (Condition: Repetido en una ventana emergente:)
+            - Selene te enseña a extraer un poder antiguo de ti mismo, no estás seguro si te quedaste dormido.
+          - (Action: La pantalla vuelve a desaparecer.)
+          - [Has desbloqueado la maldición del dolor.]
+      - [Choice]: cond=If you have learned Sorrow:|Ruina (requires 95 Necromancy).
+        - (Condition: Sólo la primera vez:)
+          - **Player:** ¿Conoces alguna otra maldición que puedas enseñarme?
+          - **Selene:** Creo que has aprendido todas las maldiciones que tengo para enseñarte.
+          - **Selene:** Aunque...
+          - **Selene:** Cuando estaba vivo, escuché reflexiones.
+          - **Selene:** Si tuvieran algo de peso, sugeriría que hay algunas copias de un códice que detalla las maldiciones utilizadas por la antigua orden Praesul.
+          - **Selene:** Si te encuentras con uno en tus viajes, tráemelo.
+          - (Condition: Si no hay un códice Praesul en su backpack:)
+            - **Player:** Estaré atento a cualquier libro antiguo.
+            - [Debes llevar un códice Praesul a Selene para desbloquear la maldición de la ruina.]
+            - (initial)
+          - (Condition: Si hay un códice Praesul en tu backpack:)
+            - **Player:** Oh, ¿te refieres a un códice Praesul?
+            - **Player:** Da la casualidad de que tengo uno aquí.
+            - **Selene:** Hmm... Qué extraño.
+            - **Player:** Sí... Extraño...
+            - [Menu]: ¿Desbloquear la maldición de la ruina?
+              - [Choice]: Sí.
+                - **Player:** Estoy listo.
+                - **Selene:** Muy bien, entonces déjame enseñarte.
+                - (removes=the praesul codex)
+                - (Action: La pantalla se desvanece.)
+                - Selene lee una escritura del códice y luego la guarda detrás de un santuario. Sientes que probablemente podrías haberlo leído tú mismo.
+                - (Condition: Repetido en una ventana emergente:)
+                  - Selene lee una escritura del códice y luego la guarda detrás de un santuario. Sientes que probablemente podrías haberlo leído tú mismo.
+                - (Action: La pantalla vuelve a desaparecer.)
+                - [Has desbloqueado la maldición de la ruina.]
+                - (initial)
+              - [Choice]: No.
+                - **Player:** Pensándolo bien, prefiero conservarlo un poco más.
+              - **Selene:** Muy bien. Vuelve conmigo si cambias de opinión.
+              - (initial)
+        - (Condition: Después:)
+          - **Selene:** ¿Tuviste suerte para encontrar un códice Praesul?
+          - (Condition: Si no hay un códice Praesul en tu backpack:)
+            - **Player:** Me temo que no.
+            - **Selene:** Te deseo suerte para encontrar uno, hija mía.
+            - **Player:** Gracias.
+            - (initial)
+          - (Condition: Si hay un códice Praesul en tu backpack pero tienes un nivel inferior a 95 Necromancy:)
+            - **Player:** ¡Tengo uno aquí!
+            - **Selene:** Excelente, dámelo y te lo enseñaré.
+            - **Selene:** Lamentablemente, necesitas hacerte más fuerte para dominar esta maldición.
+            - [Necesitas el nivel 95 Necromancy para desbloquear la maldición de la ruina.]
+          - (Condition: Si hay un códice Praesul en tu backpack y tienes al menos el nivel 95 Necromancy:)
+            - **Player:** ¡Tengo uno aquí!
+            - **Selene:** Excelente, dámelo y te lo enseñaré.
+            - [Menu]: ¿Desbloquear la maldición de la ruina?
+              - [Choice]: Sí.
+                - (arriba)
+              - [Choice]: No.
+                - **Player:** Pensándolo bien, prefiero conservarlo un poco más.
+                - **Selene:** Muy bien. Vuelve conmigo si cambias de opinión.
+                - (initial)
+      - [Choice]: cond=If you have learned Ruination:|Otro.
+        - **Selene:** Hmm, ¿quizás podríamos explicarte las oraciones de otro dios?
+        - (Condition: Si es lunes:)
+          - **Selene:** Dime, ¿tienes un conocimiento fundamental de las oraciones gutixianas?
+        - (Condition: Si es martes:)
+          - **Selene:** Dime, ¿tienes un conocimiento fundamental de las oraciones zamorakianas?
+        - (Condition: Si es miércoles:)
+          - **Selene:** Dime, ¿tienes un conocimiento fundamental de las oraciones Kharazian?
+        - (Condition: Si es jueves:)
+          - **Selene:** Dime, ¿tienes un conocimiento fundamental de las oraciones?
+        - (Condition: Si es viernes:)
+          - **Selene:** Dime, ¿tienes un conocimiento fundamental de las oraciones sin Dios?
+        - (Condition: Si es sábado:)
+          - **Selene:** Dime, ¿tienes un conocimiento fundamental de las oraciones bandosianas?
+        - (Condition: Si es domingo:)
+          - **Selene:** Dime, ¿tienes un conocimiento fundamental de las oraciones menafitas?
+        - **Player:** Yo... eh, no. yo no
+        - **Selene:** Vuelve conmigo cuando lo hagas. Quizás podamos enseñarnos unos a otros.
+      - [Choice]: No importa.
+        - **Player:** ¡Gracias por la charla, adiós!
+        - **Selene:** Adiós, joven.
+  - [Choice]: Háblame de ti.
+    - **Player:** Háblame de ti.
+    - **Selene:** No quisiera aburrirte con los detalles, joven.
+    - **Player:** Estoy interesado, sinceramente.
+    - **Selene:** En vida, fui Sacerdotisa de los Grises, un gran honor entre mi pueblo.
+    - **Selene:** Ofrecí guía espiritual a través de las enseñanzas de los dioses, para que mi pueblo pudiera mejorar.
+    - **Selene:** A través de Zamorak: enseñé ambición, fuerza y cambio.
+    - **Selene:** A través de Saradomin: lealtad, sabiduría, autocontrol.
+    - **Selene:** A través de Armadyl: altruismo, equidad, perdón...
+    - **Selene:** Yo... me perdí por un momento allí.
+    - **Player:** Parece que lo estás reviviendo.
+    - **Selene:** Irónico. Ahora, sigue adelante, que habrá mucho tiempo para los dioses más tarde.
+  - [Choice]: Adiós.
+    - **Player:** ¡Gracias por la charla, adiós!
+    - **Selene:** Adiós, joven.

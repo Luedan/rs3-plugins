@@ -1,0 +1,133 @@
+# Mercenary
+
+- **Original Wiki Page**: [Transcript:Mercenary](https://runescape.wiki/w/Transcript%3AMercenary)
+- **Letter**: `M`
+
+---
+
+## Dialogue Transcript
+
+
+### Before The Tourist Trap
+
+- **Mercenary:** Yeah, what do you want?
+- [Menu]: Select an Option
+  - [Choice]: What is this place?
+    - **Player:** What is this place?
+    - **Mercenary:** It's none of your business now get lost.
+    - [Menu]: Select an Option
+      - [Choice]: Perhaps five gold coins will make it my business?
+        - {{anchor|sweeten-mood2}}**Player:** Perhaps five gold coins will make it my business?
+        - (removes=5 coins)
+        - **Mercenary:** Well, it certainly will help... -- The guard takes the five gold coins. -- Now then, what did you want to know?
+        - [Menu]: Select an Option
+          - [Choice]: What is this place?
+            - **Player:** What is this place?
+            - **Mercenary:** It's just a mining camp. Prisoners are sent here from Al Kharid. They serve out their sentence by mining. Most prisoners will end their days here, surrounded by desert.
+            - **Player:** So you could almost say that they got their ... 'Just Desserts'
+            - **Mercenary:** You could say that... -- There is an awkward pause --
+            - **Mercenary:** But it wouldn't be very funny.
+            - **Player:** When they talk about 'the silence of the desert', this must be what they mean.
+            - [Menu]: Select an Option
+              - [Choice]: Can I take a look around the place?
+                - **Player:** Can I take a look around the place?
+                - **Mercenary:** Not really. The Captain won't let you in the compound. He's the only one who has the key to the gate. And if you talk to him, he'll probably just order us to kill you. Unless...
+                - {{anchor|captain-orders}}[Menu]: Select an Option
+                  - [Choice]: Does the Captain order you to kill a lot of people?
+                    - **Player:** Does the Captain order you to kill a lot of people?
+                    - **Mercenary:** -- The guard snorts. -- *Snort* Just about anyone who talks to him.
+                    - **Mercenary:** Unless he has a use for you, he'll probably just order us to kill you. And it's such a horrible job cleaning up the mess afterwards.
+                    - [Menu]: Select an Option
+                      - [Choice]: Not to mention the senseless waste of human life.
+                        - **Player:** Not to mention the senseless waste of human life.
+                        - **Mercenary:** Huh? Them's your words, not mine.
+                        - [Menu]: Select an Option
+                          - [Choice]: It doesn't sound as if you respect your Captain much.
+                            - **Player:** It doesn't sound as if you respect your Captain much.
+                            - -- The guard looks around conspiratorially. --
+                            - **Mercenary:** Well, to be honest. We think he's not exactly as brave as he makes out. But we have to follow his orders. If someone called him a coward, or managed to trick him into a one-on-one duel many of us bet that he'd be beaten.
+                            - **Player:** And how could I trick him into a one-on-one duel?
+                            - **Mercenary:** Like all cowards, he likes to be made to feel important. If anyone insults him outright, he just gets us to do his dirty work. However, if he thinks he's better than you, if you compliment him, he may feel that he can defeat you. And
+                            - **Mercenary:** if he initiated a duel, all the men agreed that they wouldn't intervene. We think he'd be slaughtered in double quick time.
+                            - [Menu]: Select an Option
+                              - [Choice]: Can I have a bet on that?
+                                - **Player:** Can I have a bet on that?
+                                  - (Condition: If the player has already placed a bet:)
+                                    - **Mercenary:** Sorry, we've already taken your bet, wouldn't want any cheating now. Anyway, I have to get back to work. See ya around...
+                                  - (Condition: If the player hasn't placed a bet yet:)
+                                    - **Mercenary:** Well, if you think you stand a chance, sure. But remember, if he gives us an order, we have to obey.
+                                    - [Menu]: Select an Option
+                                      - [Choice]: I'll bet 5 gold that I win.
+                                        - **Player:** I'll bet 5 gold that I win.
+                                        - **Mercenary:** Great, I'll take that bet.
+                                        - (removes=5 coins)
+                                        - You hand over 5 gold coins.
+                                        - **Mercenary:** Ok, if you win, you'll get 6 gold back. Anyway, I have to get going, I do have work to do. -- The guard walks off. --
+                                      - [Choice]: I'll bet 10 gold that I win.
+                                        - {{Transcript missing}}
+                                      - [Choice]: I'll bet 15 gold that I win.
+                                        - {{Transcript missing}}
+                                      - [Choice]: I'll bet 20 gold that I win.
+                                        - {{Transcript missing}}
+                                      - [Choice]: Okay, thanks.
+                                        - (below|okay)
+                              - [Choice]: Okay, thanks.
+                                - (below|okay)
+                          - [Choice]: Okay, thanks.
+                            - (below|okay)
+                      - [Choice]: Okay, thanks.
+                        - (below|okay)
+                  - [Choice]: Unless what?
+                    - **Player:** Unless what?
+                    - **Mercenary:** Unless he has a use for you. He's been trying to track down someone called 'Al Zaba Bhasim'. You could offer to catch him and that might put you in his good books?
+                    - [Menu]: Select an Option
+                      - [Choice]: Where would I find this Al Zaba Bhasim?
+                        - **Player:** Where would I find this Al Zaba Bhasim?
+                        - **Mercenary:** Well, he could be anywhere. He's a nomadic desert dweller. However, they say that he's frequently to be found to the west in the hospitality of the Tentis.
+                        - [Menu]: Select an Option
+                          - [Choice]: The Tentis, who are they?
+                            - **Player:** The Tentis, who are they?
+                            - **Mercenary:** Well, we're not really sure what their proper name is, but they live in tents so we call them the 'Tentis'.
+                            - [Menu]: Select an Option
+                              - [Choice]: Okay, thanks.
+                                - (below|okay)
+                              - [Choice]: Is Al Zaba Bhasim very tough?
+                                - **Player:** Is Al Zaba Bhasim very tough?
+                                - **Mercenary:** Well, I'm not sure, but by all accounts, he is a slippery fellow. The Captain has been trying to capture him for years. A bit of a waste of time if you ask me. Anyway, I have to get going, I do have work to do.
+                                - The guard walks off.
+                          - [Choice]: Okay, thanks.
+                            - (below|okay)
+                      - [Choice]: Okay, thanks.
+                        - (below|okay)
+              - [Choice]: Okay, thanks.
+                - (below|okay)
+          - [Choice]: What are you guarding?
+            - **Player:** What are you guarding?
+            - **Mercenary:** Well, if you have to know, we're making sure that no prisoners get out. -- The guard gives you a disapproving look. -- And to make sure that unauthorised people don't get in.
+            - **Mercenary:** -- The guard looks around nervously. -- You'd better go soon before the Captain orders us to kill you.
+            - (continuea|captain-orders)
+      - [Choice]: Okay, thanks.
+        - (below|okay)
+  - [Choice]: What are you guarding?
+    - **Player:** What are you guarding?
+    - **Mercenary:** Get lost before I chop off your head!
+    - {{anchor|sweeten-mood}}[Menu]: Select an Option
+      - {{anchor|okay}}[Choice]: Okay, thanks.
+        - **Player:** Okay, thanks.
+        - **Mercenary:** Yeah, whatever!
+      - [Choice]: Perhaps these five gold coins will sweeten your mood?
+        - **Player:** Perhaps five gold coins will sweeten your mood?
+        - (removes=5 coins)
+        - 5 coins have been removed from your money pouch.
+        - **Mercenary:** Well, it certainly will help!
+        - [The guard takes the five gold coins.]
+        - **Mercenary:** Now then, what did you want to know?
+        - [Menu]: Select an Option
+          - [Choice]: What is this place?
+            - **Player:** What is this place?
+            - **Mercenary:** It's none of your business now get lost.
+            - (previous2|sweeten-mood2)
+          - [Choice]: What are you guarding?
+            - **Player:** What are you guarding?
+            - **Mercenary:** Get lost before I chop off your head!
+            - (previous2|sweeten-mood)

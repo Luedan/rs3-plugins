@@ -1,0 +1,378 @@
+# Gambler
+
+- **Original Wiki Page**: [Transcript:Gambler](https://runescape.wiki/w/Transcript%3AGambler)
+- **Letter**: `G`
+
+---
+
+## Dialogue Transcript
+
+
+### Poor
+
+
+#### Shirtless man
+
+- **Player:** Hello!
+- **Player:** What are you doing here?
+- **Gambler:** Trying to win my shirt back. I lost it last night in a silly bet.
+- **Player:** Well I hope your luck improves. I doubt it can get any worse.
+- **Gambler:** Well I've little left to lose, maybe some more hair and my trousers.
+- **Player:** I really think you should try to hold on to them.
+- **Player:** So how do these rat pits work?
+- **Gambler:** Things work simply in the Ardougne ratpits.
+- **Gambler:** If you have a kitten and at least 100 coins you can challenge someone else who also has a kitten and some spare change.
+- **Player:** That sounds simple enough so far.
+- **Gambler:** You then agree on a wager. It's rumoured that some ratcatchers can talk to their own cats and give them tactics to aid them.
+- **Player:** So then how do you win the challenge?
+- **Gambler:** I was just getting to that. Both the gamblers' cats are placed inside of the fenced off area, and whoever kills 5 rats first wins.
+  - **Player:** That sounds vile and cruel.
+    - **Gambler:** It's a cruel world and the pits are no exception.
+    - **Gambler:** Every day guards are killed for no better reason than to sate the bloodlust of some despicable adventurer.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** It sounds a little dangerous for my cat.
+    - **Gambler:** I agree. Cats have been known to be killed in fights.
+    - **Player:** Oh how terrible. Is there nothing you can do to save your cat?
+    - **Gambler:** Of course there is, you can instruct it to be cautious, and it will leave once it feels as if it is in danger.
+    - **Player:** Oh that sounds quite wise.
+    - **Gambler:** That depends on how you value your cat.
+    - **Player:** Sorry, I don't follow.
+    - **Gambler:** Well if your cat dies or it runs away you lose.
+    - **Gambler:** So the longer it stays in the fight the better chance you have of winning.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Wow that sounds like fun!
+    - **Gambler:** I don't know about that.
+    - **Gambler:** One thing I know though is that it's a quick way to make and lose money.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Is there a limit to how much you can bet?
+    - **Gambler:** Hmmm...let me see. If I'm not mistaken, you can currently bet up to a maximum of [number] coins.
+    - **Player:** That sounds like a silly amount of money to bet on a cat fight.
+    - **Gambler:** You'd be surprised what some people would be willing to bet.
+    - **Gambler:** There is a minimum bet of 100 coins too.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Can I challenge you and your cat?
+    - **Gambler:** No, not now, we don't really bet with outsiders.
+    - **Player:** But I'm not an outsider, am I not inside in the pits now?
+    - **Gambler:** I don't know, maybe once you've done something to win over my trust.
+    - **Player:** Can it be bought?
+    - **Gambler:** What?
+    - **Player:** Your trust.
+    - **Gambler:** No. Regular townsfolk don't like us, which leads us to distrust them and anyone else.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+
+#### Woman with beret
+
+- **Player:** Hello!
+- **Player:** What are you doing here?
+- **Gambler:** Having fun. It's such a blast I've already won 5 thousand gold coins today, my cat just keeps winning.
+- **Player:** So how do these rat pits work?
+- **Gambler:** The Port Sarim pits are quite fussy, no lazy cats allowed in here.
+- **Player:** Lazy cats?
+- **Gambler:** You know if you neglect a wily cat, it gets fat and lazy, well they're not allowed to fight in here, only wily cats.
+- **Player:** That sounds simple enough so far.
+- **Gambler:** You then agree on a wager. It's rumoured that some ratcatchers can talk to their own cats and give them tactics to aid them.
+- **Player:** So then how do you win the challenge?
+- **Gambler:** I was just getting to that. Both the gamblers' cats are placed inside of the fenced off area, and whoever kills 11 rats first wins.
+  - **Player:** That sounds vile and cruel.
+    - **Gambler:** It's a cruel world and the pits are no exception.
+    - **Gambler:** Every day guards are killed for no better reason than to sate the bloodlust of some despicable adventurer.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** It sounds a little dangerous for my cat.
+    - **Gambler:** I agree. Cats have been known to be killed in fights.
+    - **Player:** Oh how terrible. Is there nothing you can do to save your cat?
+    - **Gambler:** Of course there is, you can instruct it to be cautious, and it will leave once it feels as if it is in danger.
+    - **Player:** Oh that sounds quite wise.
+    - **Gambler:** That depends on how you value your cat.
+    - **Player:** Sorry, I don't follow.
+    - **Gambler:** Well if your cat dies or it runs away you lose.
+    - **Gambler:** So the longer it stays in the fight the better chance you have of winning.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Wow that sounds like fun!
+    - **Gambler:** I don't know about that.
+    - **Gambler:** One thing I know though is that it's a quick way to make and lose money.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Is there a limit to how much you can bet?
+    - **Gambler:** Hmmm...let me see. If I'm not mistaken, you can currently bet up to a maximum of [number] coins.
+    - **Player:** That sounds like a silly amount of money to bet on a cat fight.
+    - **Gambler:** You'd be surprised what some people would be willing to bet.
+    - **Gambler:** There is a minimum bet of 100 coins too.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Can I challenge you and your cat?
+    - **Gambler:** No, not now, we don't really bet with outsiders.
+    - **Player:** But I'm not an outsider, am I not inside in the pits now?
+    - **Gambler:** I don't know, maybe once you've done something to win over my trust.
+    - **Player:** Can it be bought?
+    - **Gambler:** What?
+    - **Player:** Your trust.
+    - **Gambler:** No. Regular townsfolk don't like us, which leads us to distrust them and anyone else.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+
+#### Man with leather body
+
+- **Player:** Good day.
+- **Gambler:** What's so good about it?
+- **Player:** What's eating you.
+- **Gambler:** I'm ruined, all because of that stupid cat! It has ruined me.
+- **Gambler:** Why did it have to get itself killed? Why?
+- **Player:** {{colour|blue|*Aside* I think I should leave him alone. He seems a little upset right now.}}
+
+#### Woman with ripped trousers
+
+- **Player:** Hello!
+- **Player:** What are you up to?
+- **Gambler:** Trying to win back some money.
+- **Player:** Is it going well?
+- **Gambler:** In every bet there is a fool and a thief and I'm beginning to think that I'm not much of a thief.
+- **Player:** So how do these rat pits work?
+- **Gambler:** It's simple.
+- **Gambler:** In Varrock if you have a grown cat and a couple of coins you can challenge someone else who also has a grown cat and some spare change.
+- **Player:** That sounds simple enough so far.
+- **Gambler:** You then agree on a wager. It's rumoured that some ratcatchers can talk to their own cats and give them tactics to aid them.
+- **Player:** So then how do you win the challenge?
+- **Gambler:** I was just getting to that. Both the gamblers' cats are placed inside of the fenced off area, and whoever kills 5/7/11 rats first wins.
+  - **Player:** That sounds vile and cruel.
+    - **Gambler:** It's a cruel world and the pits are no exception.
+    - **Gambler:** Every day guards are killed for no better reason than to sate the bloodlust of some despicable adventurer.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** It sounds a little dangerous for my cat.
+    - **Gambler:** I agree. Cats have been known to be killed in fights.
+    - **Player:** Oh how terrible. Is there nothing you can do to save your cat?
+    - **Gambler:** Of course there is, you can instruct it to be cautious, and it will leave once it feels as if it is in danger.
+    - **Player:** Oh that sounds quite wise.
+    - **Gambler:** That depends on how you value your cat.
+    - **Player:** Sorry, I don't follow.
+    - **Gambler:** Well if your cat dies or it runs away you lose.
+    - **Gambler:** So the longer it stays in the fight the better chance you have of winning.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Wow that sounds like fun!
+    - **Gambler:** I don't know about that.
+    - **Gambler:** One thing I know though is that it's a quick way to make and lose money.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Is there a limit to how much you can bet?
+    - **Gambler:** Hmmm...let me see. If I'm not mistaken, you can currently bet up to a maximum of [number] coins.
+    - **Player:** That sounds like a silly amount of money to bet on a cat fight.
+    - **Gambler:** You'd be surprised what some people would be willing to bet.
+    - **Gambler:** There is a minimum bet of 100 coins too.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Can I challenge you and your cat?
+    - **Gambler:** No, not now, we don't really bet with outsiders.
+    - **Player:** But I'm not an outsider, am I not inside in the pits now?
+    - **Gambler:** I don't know, maybe once you've done something to win over my trust.
+    - **Player:** Can it be bought?
+    - **Gambler:** What?
+    - **Player:** Your trust.
+    - **Gambler:** No. Regular townsfolk don't like us, which leads us to distrust them and anyone else.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+
+#### Woman in dress
+
+- **Player:** Hello!
+- **Player:** What are you doing?
+- **Gambler:** Nothing much. Just keeping myself occupied, placing a couple of wagers here and there.
+- **Player:** Are you winning?
+- **Gambler:** Yes in the sense that I'm not as bored as I was and no in terms of the number of coins in my purse.
+- **Player:** So how do these rat pits work?
+- **Gambler:** Things work simply in the Ardougne ratpits.
+- **Gambler:** If you have a kitten and at least 100 coins you can challenge someone else who also has a kitten and some spare change.
+- **Player:** That sounds simple enough so far.
+- **Gambler:** You then agree on a wager. It's rumoured that some ratcatchers can talk to their own cats and give them tactics to aid them.
+- **Player:** So then how do you win the challenge?
+- **Gambler:** I was just getting to that. Both the gamblers' cats are placed inside of the fenced off area, and whoever kills 5 rats first wins.
+  - **Player:** That sounds vile and cruel.
+    - **Gambler:** It's a cruel world and the pits are no exception.
+    - **Gambler:** Every day guards are killed for no better reason than to sate the bloodlust of some despicable adventurer.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** It sounds a little dangerous for my cat.
+    - **Gambler:** I agree. Cats have been known to be killed in fights.
+    - **Player:** Oh how terrible. Is there nothing you can do to save your cat?
+    - **Gambler:** Of course there is, you can instruct it to be cautious, and it will leave once it feels as if it is in danger.
+    - **Player:** Oh that sounds quite wise.
+    - **Gambler:** That depends on how you value your cat.
+    - **Player:** Sorry, I don't follow.
+    - **Gambler:** Well if your cat dies or it runs away you lose.
+    - **Gambler:** So the longer it stays in the fight the better chance you have of winning.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Wow that sounds like fun!
+    - **Gambler:** I don't know about that.
+    - **Gambler:** One thing I know though is that it's a quick way to make and lose money.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Is there a limit to how much you can bet?
+    - **Gambler:** Hmmm...let me see. If I'm not mistaken, you can currently bet up to a maximum of [number] coins.
+    - **Player:** That sounds like a silly amount of money to bet on a cat fight.
+    - **Gambler:** You'd be surprised what some people would be willing to bet.
+    - **Gambler:** There is a minimum bet of 100 coins too.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Can I challenge you and your cat?
+    - **Gambler:** No, not now, we don't really bet with outsiders.
+    - **Player:** But I'm not an outsider, am I not inside in the pits now?
+    - **Gambler:** I don't know, maybe once you've done something to win over my trust.
+    - **Player:** Can it be bought?
+    - **Gambler:** What?
+    - **Player:** Your trust.
+    - **Gambler:** No. Regular townsfolk don't like us, which leads us to distrust them and anyone else.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+
+### Rich
+
+
+#### Man with cavalier
+
+- **Player:** Hello!
+- **Player:** What's going on here?
+- **Gambler:** Just a bit of drinking, a bit of fighting and a bit of gambling.
+- **Player:** Nothing but good clean family fun.
+- **Gambler:** Exactly.
+- **Player:** So how do these rat pits work?
+- **Gambler:** Things work simply in the Ardougne ratpits.
+- **Gambler:** If you have a kitten and at least 100 coins you can challenge someone else who also has a kitten and some spare change.
+- **Player:** That sounds simple enough so far.
+- **Gambler:** You then agree on a wager. It's rumoured that some ratcatchers can talk to their own cats and give them tactics to aid them.
+- **Player:** So then how do you win the challenge?
+- **Gambler:** I was just getting to that. Both the gamblers' cats are placed inside of the fenced off area, and whoever kills 5 rats first wins.
+  - **Player:** That sounds vile and cruel.
+    - **Gambler:** It's a cruel world and the pits are no exception.
+    - **Gambler:** Every day guards are killed for no better reason than to sate the bloodlust of some despicable adventurer.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** It sounds a little dangerous for my cat.
+    - **Gambler:** I agree. Cats have been known to be killed in fights.
+    - **Player:** Oh how terrible. Is there nothing you can do to save your cat?
+    - **Gambler:** Of course there is, you can instruct it to be cautious, and it will leave once it feels as if it is in danger.
+    - **Player:** Oh that sounds quite wise.
+    - **Gambler:** That depends on how you value your cat.
+    - **Player:** Sorry, I don't follow.
+    - **Gambler:** Well if your cat dies or it runs away you lose.
+    - **Gambler:** So the longer it stays in the fight the better chance you have of winning.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Wow that sounds like fun!
+    - **Gambler:** I don't know about that.
+    - **Gambler:** One thing I know though is that it's a quick way to make and lose money.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Is there a limit to how much you can bet?
+    - **Gambler:** Hmmm...let me see. If I'm not mistaken, you can currently bet up to a maximum of [number] coins.
+    - **Player:** That sounds like a silly amount of money to bet on a cat fight.
+    - **Gambler:** You'd be surprised what some people would be willing to bet.
+    - **Gambler:** There is a minimum bet of 100 coins too.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Can I challenge you and your cat?
+    - **Gambler:** No, not now, we don't really bet with outsiders.
+    - **Player:** But I'm not an outsider, am I not inside in the pits now?
+    - **Gambler:** I don't know, maybe once you've done something to win over my trust.
+    - **Player:** Can it be bought?
+    - **Gambler:** What?
+    - **Player:** Your trust.
+    - **Gambler:** No. Regular townsfolk don't like us, which leads us to distrust them and anyone else.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+
+### Very rich
+
+
+#### Man with a top hat
+
+- **Player:** Hello!
+- **Gambler:** What do you want?
+- **Player:** I was just wondering what you were doing here?
+- **Gambler:** I ask myself the same question often.
+- **Gambler:** What am I doing down here in these pits along with these filthy dregs of society?
+- **Player:** And do you ever come up with an answer?
+- **Gambler:** Always.
+- **Gambler:** I'm here taking their money, that's what.
+- **Player:** So how do these rat pits work?
+- **Gambler:** Things work simply in the Ardougne ratpits.
+- **Gambler:** If you have a kitten and at least 100 coins you can challenge someone else who also has a kitten and some spare change.
+- **Player:** That sounds simple enough so far.
+- **Gambler:** You then agree on a wager. It's rumoured that some ratcatchers can talk to their own cats and give them tactics to aid them.
+- **Player:** So then how do you win the challenge?
+- **Gambler:** I was just getting to that. Both the gamblers' cats are placed inside of the fenced off area, and whoever kills 5 rats first wins.
+  - **Player:** That sounds vile and cruel.
+    - **Gambler:** It's a cruel world and the pits are no exception.
+    - **Gambler:** Every day guards are killed for no better reason than to sate the bloodlust of some despicable adventurer.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** It sounds a little dangerous for my cat.
+    - **Gambler:** I agree. Cats have been known to be killed in fights.
+    - **Player:** Oh how terrible. Is there nothing you can do to save your cat?
+    - **Gambler:** Of course there is, you can instruct it to be cautious, and it will leave once it feels as if it is in danger.
+    - **Player:** Oh that sounds quite wise.
+    - **Gambler:** That depends on how you value your cat.
+    - **Player:** Sorry, I don't follow.
+    - **Gambler:** Well if your cat dies or it runs away you lose.
+    - **Gambler:** So the longer it stays in the fight the better chance you have of winning.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Wow that sounds like fun!
+    - **Gambler:** I don't know about that.
+    - **Gambler:** One thing I know though is that it's a quick way to make and lose money.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Is there a limit to how much you can bet?
+    - **Gambler:** Hmmm...let me see. If I'm not mistaken, you can currently bet up to a maximum of [number] coins.
+    - **Player:** That sounds like a silly amount of money to bet on a cat fight.
+    - **Gambler:** You'd be surprised what some people would be willing to bet.
+    - **Gambler:** There is a minimum bet of 100 coins too.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Can I challenge you and your cat?
+    - **Gambler:** No, not now, we don't really bet with outsiders.
+    - **Player:** But I'm not an outsider, am I not inside in the pits now?
+    - **Gambler:** I don't know, maybe once you've done something to win over my trust.
+    - **Player:** Can it be bought?
+    - **Gambler:** What?
+    - **Player:** Your trust.
+    - **Gambler:** No. Regular townsfolk don't like us, which leads us to distrust them and anyone else.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.

@@ -1,0 +1,142 @@
+# Gudrik
+
+- **Original Wiki Page**: [Transcript:Gudrik](https://runescape.wiki/w/Transcript%3AGudrik)
+- **Letter**: `G`
+
+---
+
+## Dialogue Transcript
+
+
+### Talk to
+
+- **Gudrik:** Hello there, [laddie/lassie]! What can I do for you?
+- {{anchor|initial-options}} [Menu]: Choose an option:
+  - [Choice]: cond=If the player has not completed A Shadow over Ashdale:|Ask about A Shadow over Ashdale.
+    - (see|A Shadow over Ashdale)
+  - [Choice]: Can you take me to the island of Ashdale?
+    - {{anchor|travel-to-ashdale}} [Menu]: Would you like to travel to the island of Ashdale?
+      - [Choice]: Yes.
+        - {{Qact|Screen fades out and then fades in. The player appears at Ashdale's southern docks.}}
+      - [Choice]: No.
+        - (initial|initial-options)
+  - [Choice]: Do you have anything for me?
+    - (Condition: If the player does not have Morwenna's headdress, the full pathfinder equipment set, the smuggler's journal, or the journal entry:)
+      - (Condition: If the player does not have Morwenna's headdress:)
+        - [Menu]: Claim Morwenna's headdress?
+          - [Choice]: Yes.
+            - (Condition: If the player does not have at least one free backpack space:)
+              - [You need one free inventory space to claim Morwenna's headdress.]
+            - (Condition: If the player has at least one free backpack space:)
+              - (receives=Morwenna's headdress)
+              - [Gudrik gives you Morwenna's headdress.]
+              - (continue)
+          - [Choice]: No.
+            - (continue)
+      - (Condition: If the player does not have the full pathfinder equipment set:)
+        - [Menu]: Claim pathfinder equipment?
+          - [Choice]: Yes.
+            - (Condition: If the player does not have at least 11 free backpack spaces:)
+              - You need 11 free spaces in your backpack to claim pathfinder equipment.
+            - (Condition: If the player has at least 11 free backpack spaces:)
+              - (Condition: If the player does not have the pathfinder jacket:)
+                - (receives=pathfinder jacket)
+                - [Gudrik gives you the pathfinder jacket.]
+                - (continue)
+              - (Condition: If the player does not have the pathfinder trousers:)
+                - (receives=pathfinder trousers)
+                - [Gudrik gives you the pathfinder trousers.]
+                - (continue)
+              - (Condition: If the player does not have the pathfinder hood:)
+                - (receives=pathfinder hood)
+                - [Gudrik gives you the pathfinder hood.]
+                - (continue)
+              - (Condition: If the player does not have the pathfinder gloves:)
+                - (receives=pathfinder gloves)
+                - [Gudrik gives you the pathfinder gloves.]
+                - (continue)
+              - (Condition: If the player does not have the pathfinder boots:)
+                - (receives=pathfinder boots)
+                - [Gudrik gives you the pathfinder boots.]
+                - (continue)
+              - (Condition: If the player does not have the pathfinder cape:)
+                - (receives=pathfinder cape)
+                - [Gudrik gives you the pathfinder cape.]
+                - (continue)
+              - (Condition: If the player does not have the amulet of potency:)
+                - (receives=amulet of potency)
+                - [Gudrik gives you the Amulet of Potency.]
+                - (continue)
+              - (Condition: If the player does not have the ring of potency:)
+                - (receives=ring of potency)
+                - [Gudrik gives you the Ring of Potency.]
+                - (continue)
+              - (Condition: If the player does not have a keenblade:)
+                - (receives=keenblade)
+                - [Gudrik gives you a keenblade.]
+                - (continue)
+              - (Condition: If the player does not have a quickbow:)
+                - (receives=quickbow)
+                - [Gudrik gives you a quickbow.]
+                - (continue)
+              - (Condition: If the player does not have a mindspike:)
+                - (receives=mindspike (air))
+                - [Gudrik gives you a mindspike.]
+                - (continue)
+          - [Choice]: No.
+            - (continue)
+      - (Condition: If the player does not have the smuggler's journal:)
+        - [Menu]: Claim smuggler's journal?
+          - [Choice]: Yes.
+            - (Condition: If the player does not have at least one free backpack space:)
+              - [You need one free inventory space to claim the smuggler's journal.]
+            - (Condition: If the player has at least one free backpack space:)
+              - (receives=smuggler's journal)
+              - [Gudrik gives you the smuggler's journal.]
+              - (continue)
+          - [Choice]: No.
+            - (continue)
+      - (Condition: If the player does not have the journal entry:)
+        - [Menu]: Claim journal entry?
+          - [Choice]: Yes.
+            - (Condition: If the player does not have at least one free backpack space:)
+              - [You need one free inventory space to claim the journal entry.]
+            - (Condition: If the player has at least one free backpack space:)
+              - (receives=journal entry)
+              - [Gudrik gives you the journal entry.]
+              - (initial|initial-options)
+          - [Choice]: No.
+            - (initial|initial-options)
+    - (Condition: If the player has Morwenna's headdress, the full pathfinder equipment set, the smuggler's journal, and the journal entry:)
+      - **Gudrik:** I have no rewards to give you, [laddie/lassie].
+      - (initial|initial-options)
+  - [Choice]: I'd like to ask you something else.
+    - **Gudrik:** Fire away.
+    - {{anchor|other-questions}} [Menu]: Select an Option
+      - [Choice]: Tell me about yourself.
+        - **Gudrik:** I'm enjoying my retirement, [laddie/lassie]!
+        - **Gudrik:** I was an adventurer for more than eighty years, you know, and I've probably explored every dungeon, ruin and tomb in Gielinor, so I feel like I've earned a wee rest.
+        - **Gudrik:** But that was many moons ago, back when I still had all my limbs!<br/>These days I prefer to leave the fighting to others.
+        - (previous|other-questions)
+      - [Choice]: How did you lose your arm?
+        - **Gudrik:** It happened years ago. I was exploring the Kharidian Desert and accidentally disturbed a Kalphite hive.
+        - **Gudrik:** Vicious wee blighters, those kalphites.
+        - **Gudrik:** They swarmed me, and- well, you can see the result for yourself.<br/>It makes opening jars a challenge, I can tell you that.
+        - (previous|other-questions)
+      - [Choice]: Tell me about Gielinor's history.
+        - **Gudrik:** Our recorded history goes back about 12,000 years, and is divided into six ages, each one representing an important period in Gielinor's history.
+        - **Gudrik:** The Sixth Age - which we're in now - began when the god Guthix was killed. After that, the younger gods began to return to the world.
+        - **Gudrik:** It's a time of great change...and great danger.
+        - (previous|other-questions)
+      - [Choice]: Tell me about Gielinor's culture.
+        - **Gudrik:** There are lots of different cultures in the world, some friendly, some not so friendly. Humans are the most numerous, of course, but dwarves and goblins are also pretty common.
+        - **Gudrik:** Then you've got your trolls and giants, your vampyres and werewolves, gnomes and elves, mahjarrat and the icyene...the list goes on!
+        - (previous|other-questions)
+      - [Choice]: Enough questions.
+        - (initial|initial-options)
+  - [Choice]: Goodbye.
+    - (end)
+
+### Travel to Ashdale
+
+- (above|travel-to-ashdale)

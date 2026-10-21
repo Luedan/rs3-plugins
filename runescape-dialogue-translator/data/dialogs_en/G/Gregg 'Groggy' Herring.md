@@ -1,0 +1,78 @@
+# Gregg 'Groggy' Herring
+
+- **Original Wiki Page**: [Transcript:Gregg 'Groggy' Herring](https://runescape.wiki/w/Transcript%3AGregg%20%27Groggy%27%20Herring)
+- **Letter**: `G`
+
+---
+
+## Dialogue Transcript
+
+*Shouting up to him, or banging on the ladder next to him*
+- **Player:** Hello up there!
+- **Gregg 'Groggy' Herring:** YE GOTTA SH...SHHH..SPEAK UP! IT'SHH HARD TO *hic* HEAR UP 'ERE!
+- **Player:** HELLO UP THERE!
+- **Gregg 'Groggy' Herring:** Shhh... Not shoo LOUD.. My poor *hic* head!
+- Choose an option:
+  - Who are you?
+    - **Player:** Ahoy there, sailor. What's your name?
+    - **Gregg 'Groggy' Herring:** Aahh, onshh upon a time they called me maaany namesshh... Tamer o' shoooores...  Gregg the Bold... Portshh-maaah-stah... Herring the Herrroic... Oh Captain! My *hic* Captain! Now they call me other thingssh. Moshht of 'em are not shooo *burp* sho nice...
+    - **Player:** Such as tamer of the snores, Gregg the Bald, 'Port'-master and Herring the Hungover?
+    - **Gregg 'Groggy' Herring:** How didshh *hic* didsshh ye know?
+    - **Player:** Just a hunch.
+    - **Gregg 'Groggy' Herring:** Aaanywaysh... Sheesh daysh *hic* they moshtly jussh call me Ol' Groggy Gregg.
+    - (initial|initial-options)
+  - What are you doing up there?
+    - **Player:** What are you doing up there?
+    - **Gregg 'Groggy' Herring:** I obshe..opshheer..I watssh whatssh going on!
+    - **Player:** And what do you observe?
+    - *One of the following dialogues occur at random:*
+      - *Dialogue 1:*
+        - **Gregg 'Groggy' Herring:** Nothing mushh... Everyone'sh jusht busy catshing the fishies. And I'm just busy emptying these bottles, shomeone hash to!
+        - **Player:** You could just store them or pour them in the sea, if you just wanted to get rid of them.
+        - **Gregg 'Groggy' Herring:** Are 'ye out of 'yer mind? Thatsh not very good for the enmironv...emimorm...nature. I'm being an reshponshible adult!
+        - **Player:** Right...
+        - (initial|initial-options)
+      - *Dialogue 2:*
+        - **Gregg 'Groggy' Herring:** The big fishy wash 'ere! It makes me happy to shee it! I know, people sometimesshh think itshh ssshcary, but I think it jussh wantsh to play! *burp*
+        - **Player:** Well, it could easily sink the whole platform.
+        - **Gregg 'Groggy' Herring:** Aah, dalderbash, he'shh just a biiig seapuppy!
+        - (initial|initial-options)
+      - *Dialogue 3:*
+        - *Before returning his ring:*
+          - **Gregg 'Groggy' Herring:** The big sshhparkly beast! Oh, she thinksh ssheesh all the rage with all of 'er treashhuresh, for shhure! 'Look at meee, I've got all of thish djschu...djschuwel...shparkly shtuff in my shessst and you have nothing. Ha!'. Pretentioush sheashlosher!
+          - **Player:** What's so bad about that?
+          - **Gregg 'Groggy' Herring:** Sshe's pro'ly got my ring shomewhere in that big wooden shesst of hers. I want it back... But itsh a loong shtory...
+          - (initial|initial-options)
+        - *After returning his ring:*
+          - **Gregg 'Groggy' Herring:** Aah, the huuugsh sheashlosher! Ishn't she beautiful?! Everything'sh prettierer with shome shparkly shtuff, right?
+          - (initial|initial-options)
+  - Why are you always so drunk?
+    - *Before returning his ring:*
+      - **Player:** So why are you always so drunk?
+      - **Gregg 'Groggy' Herring:** Ah well... That'sh a loong, ssshad shtory, you shee. You really wanna hear it all?
+      - Listen to the story?
+        - Yes, tell me the story.
+          - **Gregg 'Groggy' Herring:** Alright. Onsh there wash thish beauuutiful young seasinger by the shore of an island named Siren'shh Shell *hic*. This siren's shinging shtirred shomethin' deep inshide my soul... I lishtened to her for daysh and nightsh on end before I mushtered up the couragsh to shpeak to her. Turned out to not only be fair but also kind and shmart, so shmart... She loved my sthories of adventuresh, and I, I liked everything she was shinging and dreaming about... Of coursh, I fell in love...
+          - **Player:** Oh, let me guess! You told her, she wanted to know nothing of it and wam off?
+          - **Gregg 'Groggy' Herring:** Not quite. She wash very nice about it but she shaid, we couldn't be together. But she gave me one of her pretty rings and shwore she'd alwaysh be my friend, if I wanted it. But I was foolish... I wash sho angry! I threw her ring into the wavesh and told her I didn't need a friend. What a witnit...nitwit I wash! She dishappeared shortly after and I never shaw her aga- *hic* again... And then I notished how mush I missed her company... I didn't even need her to be my lover, but I unnersh...undersht... got that too late. *burp*. Now I only wish I shtill had her ring, to remind me of the good daysh  and fun we had. Sho now, I drink and drink and hope, it'll make me sheerful again.
+          - **Player:** And, is it working?
+          - **Gregg 'Groggy' Herring:** Not really... I guess al'ohol can also make you blind or a fool or give you couragsh...but it'sh shtill not the shame as love...*hic* or friendship...
+          - **Player:** Man, that's deep! I'll keep an eye out, maybe I'll find your ring.
+          - (initial|initial-options)
+        - No thanks.
+          - **Gregg 'Groggy' Herring:** Long sthory short: I fell in love with a seasinger, *hic* she jush wan'ed to be friendsh. I threw her ring of friendsship away and now I'm upshet at myshelf for it... It meant a lot to me in petrosrec...retroshpe...looking back.
+          - **Player:** I'll keep an eye out, maybe I'll find your ring.
+          - (initial|initial-options)
+    - *After returning his ring:*
+      - **Player:** Hey, Groggy Gregg, why are you still on the drink, now that you have your ring back?
+      - **Gregg 'Groggy' Herring:** Becaush it's shushh a beautiful day on the sea and someone needsh to shelebraate! Sheers, me hearties! *burp*
+      - (initial|initial-options)
+  - *With the ring in backpack:*
+    - Interested in this ring?
+      - **Player:** So, I heard you threw a ring in the ocean and regretted it.  Is it this one, perchance?
+      - **Gregg 'Groggy' Herring:** Tiver me shimbersh! 'Ye found it, 'ye wily sea dog! I cannot thank you enough!
+      - **Player:** That's alright, I just hope you can sober up now and have a good life!
+      - **Gregg 'Groggy' Herring:** Shhober up?! Ha ha ha. No my friend, I'm already in too deep, but at least I'll drink to happy timesh now, not the sad onesh. *burp* And I feel like my hangoversh will feel way lesh painful now!
+      - **Player:** I'm not sure what I expected but this feels a bit sad.
+      - Congratulations! You have completed: 'My precious!' - Find and return Gregg 'Groggy' Herring's lost ring.
+      - (initial|initial-options)

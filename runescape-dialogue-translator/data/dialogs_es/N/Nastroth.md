@@ -1,0 +1,194 @@
+# Nastroth
+
+- **Original Wiki Page**: [Transcript:Nastroth](https://runescape.wiki/w/Transcript%3ANastroth)
+- **Letter**: `N`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Talking to Nastroth
+
+
+#### Sin artefactos antiguos en backpack
+
+- **Nastroth:** Saludos, valiente guerrero.<br>¿Qué puedo hacer por ti?
+- [Menu]: Elige una opción:
+  - [Choice]: Háblame de ti.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Quién eres?
+        - **Nastroth:** Soy Nastroth. Al igual que mi hermano Mandrith, soy coleccionista de artefactos antiguos. Simplemente no estoy tan emocionado como él.
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Por qué no estás emocionado por eso?
+            - **Nastroth:** A decir verdad, preferiría estar ahí fuera con el resto de ustedes, rompiendo huesos y rompiendo cráneos.
+            - [Menu]: Selecciona una opción
+              - [Choice]: ¿Entonces por qué no lo estás?
+                - **Nastroth:** Mis días de batalla han terminado. Ahora paso mi tiempo aquí, coleccionando artefactos antiguos.
+                - [Menu]: Selecciona una opción
+                  - [Choice]: ¿Cuáles son estos artefactos antiguos?
+                    - (below|As the blood and sweat)
+                  - [Choice]: Diviértete con eso.
+                    - (previous|Options)
+              - [Choice]: Eso no es lo que hago.
+                - **Nastroth:** Ah. Mis disculpas.
+                - (previous|Options)
+              - [Choice]: Hablemos de otra cosa.
+                - (previous|Options)
+          - [Choice]: ¿Cuáles son estos artefactos antiguos?
+            - **Nastroth:** A medida que la sangre y el sudor de los guerreros se derraman en el suelo, las reliquias de las Guerras de Dios se extraen de la tierra donde una vez quedaron olvidadas. Si te encuentras con alguno de estos objetos antiguos, tráelos a mí o a mi hermano Mandrith cerca del escondite de los piratas en Wilderness y te pagaremos un precio justo por ellos. Sin embargo, no los aceptamos en forma anotada, recuérdelo. Además, no queremos comprar armas ni armaduras.
+            - [Menu]: Selecciona una opción
+              - [Choice]: ¿Quién es Mandrith?
+                - (below|Mandrith)
+              - [Choice]: ¿Por qué no compras armas o armaduras?
+                - **Nastroth:** Deben usarse como deben usarse, no intercambiarse por dinero. Mandrith y yo sólo coleccionamos artefactos antiguos.
+                - [Menu]: Selecciona una opción
+                  - [Choice]: ¿Cuáles son estos artefactos antiguos?
+                    - (above|As the blood and sweat)
+                  - [Choice]: Hablemos de otra cosa.
+                    - (previous|Options)
+              - [Choice]: Hablemos de otra cosa.
+                - (previous|Options)
+          - [Choice]: ¿Quién es Mandrith?
+            - **Nastroth:** Mandrith es mi hermano demasiado emocionado y quien me hizo usar este conjunto. Compartimos el mismo propósito, recolectar artefactos antiguos, pero él está ubicado cerca del escondite de los piratas en Wilderness.
+            - [Menu]: Selecciona una opción
+              - [Choice]: ¿Cuáles son estos artefactos antiguos?
+                - (above|As the blood and sweat)
+              - [Choice]: Hablemos de otra cosa.
+                - (previous|Options)
+          - [Choice]: Hablemos de otra cosa.
+            - (previous|Options)
+      - [Choice]: ¿Qué haces aquí?
+        - **Nastroth:** Colecciono artefactos antiguos adquiridos por guerreros a cambio de dinero.
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Cuáles son estos artefactos antiguos?
+            - (above|As the blood and sweat)
+          - [Choice]: Hablemos de otra cosa.
+            - (previous|Options)
+      - [Choice]: Hablemos de otra cosa.
+        - (previous|Initial)
+  - [Choice]: cond=If the players have incomplete basic challenges:|Me gustaría saltarme mis desafíos actuales.
+    - (Se muestra un cuadro de diálogo titulado con el nombre del desafío).
+    - [challenge content]<br><br>¿Te gustaría saltarte este objetivo?<br><br>Cuando reclamas recompensas, no obtendrás XP en la habilidad de este desafío.
+      - [Choice]: Cancelar
+        - (previous2)
+  - [Choice]: Quiero bloquear XP de habilidades específicas.
+    - (opens=Skill selection)
+    - [Menu]: ¿Bloquear XP de qué habilidad?
+      - [Choice]: Cancelar
+        - (previous2)
+      - [Choice]: Bloquear XP
+        - Deshabilitado [skill] XP
+        - ((Repetido en una ventana emergente:)) Deshabilitado [skill] XP
+      - [Choice]: Dar XP
+        - Habilitado [skill] XP
+        - ((Repetido en una ventana emergente:)) Habilitado [skill] XP
+  - [Choice]: cond=Only if you have not at any time requested Nasroth to never reset your skills:|Hablemos de reinicios de habilidades.
+    - (Condition: Si el pin bancario no está activo:)
+      - **Nastroth:** Para tu propia protección, para solicitar un reinicio de habilidad, debes tener un pin bancario activo.
+      - (previous)
+    - **Nastroth:** Bien, ¿qué te gustaría restablecer?
+    - [Menu]: ¿Qué quieres restablecer?
+      - [Choice]: Constitution & Prayer.
+        - **Nastroth:** ¿Estás seguro de que quieres restablecer? El proceso puede ser bastante... duro...
+        - (Condition: Si actualmente eres elegible para restablecer tus habilidades:)
+          - (Condition: Si tienes algún artículo equipado:)
+            - **Nastroth:** No puedes tener nada equipado mientras restableces tus estadísticas.
+          - (Condition: Si tiene algún artículo en su backpack:)
+            - **Nastroth:** Necesitas un inventario vacío para restablecer tus estadísticas.
+          - (Condition: Si se te ha caído algo recientemente:)
+            - **Nastroth:** Recientemente se te ha caído algo. Vuelve a intentarlo más tarde.
+          - (Condition: Si Nasroth ya restableció sus estadísticas:)
+            - **Nastroth:** Ya hice esto por ti una vez, si lo hago de nuevo podría causar un daño permanente.
+          - (Condition: De lo contrario:)
+            - (Se abre la interfaz de reinicio de habilidades).
+              - Restablecer mis habilidades
+                - **Nastroth:** ¡Bien, allá vamos!
+                - (Action: Nastroth te golpea; caes al suelo y luego te levantas de nuevo.)
+                - ¡Acabas de avanzar niveles -[número] Prayer! Has alcanzado el nivel 1.
+                - ¡Acabas de avanzar niveles -[número] Constitution! Has alcanzado el nivel 10.
+              - No reinicies mis habilidades
+                - (end)
+        - (Condition: Si debes esperar un tiempo de reutilización de siete días antes de restablecer tus habilidades:)
+          - (Condition: Si actualmente no está en tiempo de reutilización:)
+            - **Nastroth:** ¿Estás seguro de que quieres hacer esto? Para asegurarte de esto, regresa y habla conmigo en 7 días si todavía te tomas esto en serio.
+            - Para cancelar este tiempo de reutilización de 7 días, habla con Nastroth nuevamente.
+          - (Condition: Si actualmente está en tiempo de reutilización:)
+            - **Nastroth:** Te dije que volvieras en 7 días. Todavía te quedan [número] días de espera. ¿O querías algo más?
+            - [Menu]: Selecciona una opción
+              - [Choice]: no quiero resetear
+                - **Nastroth:** Bien. Vete.
+              - [Choice]: No gracias
+                - **Nastroth:** Te veré pronto.
+      - [Choice]: Defence.
+        - **Nastroth:** ¿Estás seguro de que quieres restablecer? El proceso puede ser bastante... duro...
+        - (Condition: Si actualmente eres elegible para restablecer tus habilidades:)
+          - **Nastroth:** Esperaste 7 días para esto. ¿Estás seguro de que quieres seguir adelante con esto?
+          - (Condition: Si tienes algún artículo equipado:)
+            - **Nastroth:** No puedes tener nada equipado mientras restableces tus estadísticas.
+          - (Condition: Si tiene algún artículo en su backpack:)
+            - **Nastroth:** Necesitas un inventario vacío para restablecer tus estadísticas.
+          - (Condition: Si se te ha caído algo recientemente:)
+            - **Nastroth:** Recientemente se te ha caído algo. Vuelve a intentarlo más tarde.
+          - (Condition: Si Nasroth ya restableció sus estadísticas:)
+            - **Nastroth:** Ya hice esto por ti una vez, si lo hago de nuevo podría causar un daño permanente.
+          - (Condition: De lo contrario:)
+            - (Se abre la interfaz de reinicio de habilidades).
+              - Restablecer mis habilidades
+                - **Nastroth:** ¡Bien, allá vamos!
+                - (Action: Nastroth te golpea; caes al suelo y luego te levantas de nuevo.)
+                - ¡Acabas de avanzar niveles -[número] Defence! Has alcanzado el nivel 1.
+              - No reinicies mis habilidades
+                - (end)
+        - (Condition: Si debes esperar un tiempo de reutilización de siete días antes de restablecer tus habilidades:)
+          - (Condition: Si actualmente no está en tiempo de reutilización:)
+            - **Nastroth:** ¿Estás seguro de que quieres hacer esto? Para asegurarte de esto, regresa y habla conmigo en 7 días si todavía te tomas esto en serio.
+            - Para cancelar este tiempo de reutilización de 7 días, habla con Nastroth nuevamente.
+          - (Condition: Si actualmente está en tiempo de reutilización:)
+            - **Nastroth:** Te dije que volvieras en 7 días. Todavía te quedan [número] días de espera. ¿O querías algo más?
+            - [Menu]: Selecciona una opción
+              - [Choice]: no quiero resetear
+                - **Nastroth:** Bien. Vete.
+              - [Choice]: No gracias
+                - **Nastroth:** Te veré pronto.
+      - [Choice]: Nunca reinicies mis habilidades.
+        - **Nastroth:** ¿Estás seguro de que quieres que deje de ofrecerme para restablecer tus habilidades? Si haces esto, NUNCA te preguntaré sobre cómo restablecer tus habilidades nuevamente.
+        - [Menu]: ¿Nunca reinicias tus habilidades?
+          - [Choice]: Sí, nunca reinicies mis habilidades.
+            - **Nastroth:** Es justo, no volvamos a hablar de esto nunca más.
+          - [Choice]: No, déjame restablecer mis habilidades.
+            - (end)
+      - [Choice]: Nada.
+        - (end)
+  - [Choice]: cond=Proof disabled:|Quiero demostrar que nunca he usado un bloqueo/restablecimiento de XP.
+    - (Aparecerá un cuadro de diálogo "Prueba deshabilitada".)
+    - Si eliges habilitar la prueba y un jugador examina tus habilidades, la información sobre herramientas para tu nivel de combate mostrará la siguiente información:<br><br>Este jugador nunca ha:<br>- bloqueado XP<br>- recompensa bloqueada XP<br>- restablecer una habilidad específica<br><br>¿Te gustaría habilitar la prueba?
+      - [Choice]: Cancelar
+        - (end)
+      - [Choice]: bien
+        - (previous)
+  - [Choice]: cond=Proof enabled:|Ya no quiero demostrar que nunca he usado un bloqueo/restablecimiento de XP.
+    - (Aparecerá un cuadro de diálogo "Prueba habilitada".)
+    - Si un jugador examina tus habilidades, la información sobre herramientas para tu nivel de combate actualmente muestra la siguiente información:<br><br>Este jugador nunca ha:<br>- bloqueado XP<br>- recompensa bloqueada XP<br>- restablecer una habilidad específica<br><br>¿Te gustaría desactivar la prueba?
+      - [Choice]: Cancelar
+        - (end)
+      - [Choice]: bien
+        - (previous)
+
+#### Con artefactos antiguos en backpack
+
+- **Nastroth:** ¡Ah! Veo que has encontrado [one/some] de los artefactos antiguos que mi hermano y yo estamos buscando.
+- **Nastroth:** Oye, ¿no estarías dispuesto a venderme [it/them]?
+- ((A continuación, el mensaje aparece vacío con cuadros de diálogo de pantalla completa activados.))
+- [Menu]: Selecciona una opción
+  - [Choice]: Claro, puedo hacer eso.
+    - **Player:** Claro, puedo hacerlo.
+    - (removes=ancient artefacts) (receives=coins)
+    - Vendiste el [artefact/artefacts] por [número] coins.
+  - [Choice]: ¿Quién eres?
+    - (above|I am Nastroth)
+
+### Using a noted ancient artefact on Nastroth
+
+- **Nastroth:** Si me trajeras el artículo en sí, en lugar de una foto, podría darte algo de dinero por él.

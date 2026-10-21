@@ -1,0 +1,87 @@
+# Phoenix
+
+- **Original Wiki Page**: [Transcript:Phoenix](https://runescape.wiki/w/Transcript%3APhoenix)
+- **Letter**: `P`
+
+---
+
+## Dialogue Transcript
+
+- **Phoenix:** (Welcome back, Player. It is good to see you are enthusiastic, as ever. Heh heh heh!)
+- **Player:** Hello to you, too. Thanks for the workout!
+- **Phoenix:** (Was there something you wanted to ask about?)
+  - Tell me about summoning you again.
+    - **Player:** Tell me about summoning you again.
+    - **Phoenix:** (The feathers I gave you are a part of me. You can use them to infuse a summoning pouch with some of my essence.)
+    - **Player:** Some of your essence?
+    - **Phoenix:** (Indeed. The energy from the pouch creates a spectral version of my, but the essence contained within it links it to my mind.)
+    - **Phoenix:** (You see, there is only one of me, but using the summoning pouches and spectral essences means I can be in many places at once.)
+    - **Player:** I think I understand. What powers do you have in this form?
+    - **Phoenix:** (I will still be a powerful magical fighter, and will also have the power to conjure up ashes and hurl them at your foe, blinding them temporarily.)
+    - **Phoenix:** (When these ashes fall to the floor, use my summoning scroll on them. This will be particularly useful if I am running low on life points. Heh heh heh!
+    - **Player:** Okay, thanks for the information.
+    - **Player:** (Was there something you wanted to ask about?)
+  - If you knew about the priest...
+    - **Player:** If you knew about the priest...
+    - **Phoenix:** (Why was he not slain like the other intruders in my lair?)
+    - **Player:** Erm...well, yes.
+    - **Phoenix:** (I must admit, I did regard him with cautions for a while; but in all his trips into my lair, he never did anything worth stopping.)
+    - **Phoenix:** (I found him most curious, carefully avoiding my guardians with all his stealth and guile. I knew he was there, but I was holding them back.)
+    - **Phoenix:** (In all his visits, all he ever did was look around and take notes; watch me as I went about my business; and study my guardians going about theirs.)
+    - **Phoenix:** (I did take exception to him taking away my antiques collection, I suppose, but he provided me with a lovely shrine and tapestry in exchange. So, I'm content. Heh heh.)
+    - **Phoenix:** (Was there something you wanted to ask about?)
+  - ((Only appears if you have found a Phoenix eggling:))
+    - I got lost on the way out and...
+      - **Player:** I got lost on the way out, and-
+      - **Phoenix:** (Found my egg chamber?)
+      - **Player:** Yes. One of the eggs hatched.
+      - **Phoenix:** (Yes, I know. This is extremely rare. I imagine you have many questions. Ask away.)
+      - **Player:** Okay. Firstly, are you not upset that I took the eggling with me?
+      - **Phoenix:** (Not at all. You helped me in my time of need. I know you'll take good care of my eggling until such a time that it can take care of itself.)
+      - **Player:** What a relief!
+      - **Player:** I have found myself wondering how the egg became fertile. You are the only phoenix alive at the moment, right?
+      - **Phoenix:** (Barring the eggling you've adopted for me and any others that may hatch, that is true, yes. The matter of reproduction in my species...differs from the norm, somewhat.)
+      - **Player:** Care to elaborate?
+      - **Phoenix:** (Certainly! I had no idea you were such an avid appreciator of nature.)
+      - **Phoenix:** (After a phoenix performs its rebirth ritual, its ashes are stored within a magical egg. I perform this part of my ritual after you have left; I need some rest before I can utilise the necessary magicks to perform the act.)
+      - **Phoenix:** (I keep all of these eggs in my egg chamber. They are mostly dormant at the moment, though.)
+      - **Phoenix:** (The eggs are a sort of contingency plan. You see, the phoenixes are linked. It is a link similar to that which I share with my guardians; a sort of shared consciousness. If all the phoenixes were to die out at once, one of the eggs would become magically fertile, ensuring that, as long as we complete our rebirth ritual at least once before meeting our end, there will always be an eggling phoenix to take over when we...pass on.)
+      - **Player:** Wow! That's amazing!
+      - **Player:** Hold on: you're not dead! Why did the egg hatch?
+      - **Phoenix:** (There is a very small chance that an egg will become magically fertile without the death of all phoenixes. Seeing as we phoenixes perform our rituals once every five hundred years - under normal circumstances - this means the population is usually one. The most phoenixes alive at once, since my birth, has been two.)
+      - **Phoenix:** (Ah, Si'morgh. I miss you so.)
+      - **Phoenix:** (Anyway, to make a long story short, you were simply very lucky to find a hatching egg.)
+      - **Phoenix:** (Player, promise me something.)
+      - **Player:** What would you ask of me?
+      - **Phoenix:** (Let my child see the world, but teach it to fear danger. I don't want it to end up dead like Si'morgh, or a frightened hermit like me.)
+      - **Player:** I will try my best.
+      - **Phoenix:** (Thank you, Player.)
+  - ((Only after finishing the above conversation:))
+    - Who was Si'morgh?
+      - **Player:** Who was Si'morgh? You don't have to tell me if you don't want to.
+      - **Phoenix:** (It's okay, Player. There isn't much to tell. I owe my life to him, as I do to you.)
+      - **Phoenix:** (It happened a millennia ago now. You see, I hatched from a lucky egg. My parent was a solo phoenix that stayed alive for a mere two cycles. One egg - mine - was already fertile, and when my parent died, the other egg, Si'morgh, became fertile. We hatched together, brother and sister for all intents and purposes, and used to live in this very lair together.)
+      - **Player:** Wow, the chances of that are very slim indeed! It must have been nice to have grown up with someone.
+      - **Phoenix:** (Yes, it was. Si'morgh learned a lot faster than I did. He was always looking out for me, finding me food and protecting me from danger as I grew up. We were about the age at which you could call a phoenix a teenager when it happened.)
+      - **Phoenix:** (There was a strange new creature outside of our lair. Curiosity led me to leave the safety of the cave and investigate.)
+      - **Phoenix:** (I had never seen a dragon before.)
+      - **Player:** It was a dragon?
+      - **Phoenix:** (Si'morgh was out looking for something to eat at the time. The dragon attacked me. I tried to defend myself, but I was overpowered. At the last moment, as the dragon was about to land the killing blow, Si'morgh returned. He threw himself at the dragon to protect me, and screamed at me to run. I got away as fast as I could, hiding in our lair, where the huge dragon could not follow. Hours passed, and Si'morgh did not return. That night, I took a cautious peek out of the cave. I couldn't see or hear the dragon anywhere, so I went out looking for Si'morgh.)
+      - **Phoenix:** (I found him. Bits of him, at least.)
+      - **Player:** That's terrible.
+      - **Phoenix:**  (He gave his life in exchange for mine, but he left me alone.)
+      - **Player:** So, that's why your lair is so well-defended.
+      - **Phoenix:** (Yes. I had to grow up quickly, as there was no Si'morgh to look after me. Essentially, I had to fend for myself, so the first thing I did was to fortify my home. I started becoming more adventurous when the loneliness got to me. After all, I was used to company, and living with none was quite difficult.)
+      - **Phoenix:** (I started collecting trinkets to keep myself occupied, leaving my lair for centuries at a time and returning only to reborn. I became a people-watcher - watching the races as they developed with time. You know the rest of my story, Player, because you have helped to continue writing it.)
+      - **Player:** Thank you for telling me about this. I know it must have been difficult for you.
+      - **Phoenix:** (It is no bother. In truth, it is nice to have someone to talk to - someone to call a friend. Thank you for listening, Player name.)
+      - **Player:** It was my pleasure.
+      - **Phoenix:** (I do not wish to be rude, friend, but may I have some time alone with my thoughts?)
+      - **Player:** Of course. I'll see you again soon.
+      - {{Qact|You leave the lair.}}
+  - Not really, I just came to say hello.
+    - **Player:** Not really. I just came to say hello.
+    - **Phoenix:** (Hello!)
+    - **Player:** Hello!
+    - **Phoenix:** (And goodbye!)
+    - **Player:** Goodbye!

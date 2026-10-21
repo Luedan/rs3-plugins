@@ -1,0 +1,65 @@
+# Trainer Nacklepen
+
+- **Original Wiki Page**: [Transcript:Trainer Nacklepen](https://runescape.wiki/w/Transcript%3ATrainer%20Nacklepen)
+- **Letter**: `T`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+- Seleccione una opción
+  - ¿Quién eres entonces?
+    - **Player:** ¿Quién eres entonces?
+    - **Trainer Nacklepen:** Humph. Nacklepen, tortuga trainer extraordinaria.
+    - **Player:** ¿Qué tienes de extraordinario?
+    - **Trainer Nacklepen:** ¿Conoces otros entrenadores de tortugas?
+    - **Player:** Bueno, no.
+    - **Trainer Nacklepen:** Bueno, ahí lo tienes.
+    - Seleccione una opción
+      - Entonces, ¿para qué estás entrenando a estas tortugas?
+        - **Trainer Nacklepen:** Las tortugas son animales naturalmente pacifistas que no comen más que coles. Se me exige que elimine esas tendencias pacíficas de los blandos y los convierta en asesinos endurecidos y entrenados en la batalla. En primer lugar los aclimato a una estimulación auditiva excesiva y a una simple confrontación física.
+        - **Player:** ¿Les gritas y los golpeas con palos?
+        - **Trainer Nacklepen:** Por supuesto. Luego los reeduco para que se sientan cómodos con los jinetes y las situaciones de combate militar.
+        - **Player:** Te sientas sobre sus espaldas y los pinchas con objetos puntiagudos.
+        - **Trainer Nacklepen:** Si quieres.
+        - **Player:** No parece muy justo para las tortugas.
+        - **Trainer Nacklepen:** ¡Esto es War! La justicia es un lujo de los débiles.
+        - **Player:** Hmmm, profundo pero inquietante.
+        - Seleccione una opción
+          - ¿Por qué tortugas?
+            - (abajo)
+          - ¿De dónde vinieron estas tortugas?
+            - (abajo)
+          - Ya he oído suficiente.
+            - (end)
+      - ¿Por qué tortugas?
+        - **Player:** Entonces, ¿por qué tortugas?
+        - **Trainer Nacklepen:** ¿No es obvio? ¿Seguramente incluso para tu ojo inexperto las tortugas gigantes son la unidad de campo blindada móvil perfecta? Son animales robustos y bien protegidos por su caparazón. ¡Incluso saben nadar! Lo único que tenemos que hacer es poner un poco de fuego en sus barrigas.
+        - **Player:** Supongo que sí....
+        - Seleccione una opción
+          - Entonces, ¿para qué estás entrenando a estas tortugas?
+            - (arriba)
+          - ¿De dónde vinieron estas tortugas?
+            - (abajo)
+          - Ya he oído suficiente.
+            - (end)
+      - ¿De dónde vinieron estas tortugas?
+        - **Player:** ¿De dónde vienen estas tortugas?
+        - **Trainer Nacklepen:** Los criamos. Los originales fueron encontrados por exploradores gnomos durante el gobierno del Rey Healthorg el Grande. Tras su descubrimiento, el Rey Healthorg autorizó a un pequeño grupo a ir allí y transportar una pareja reproductora de vuelta aquí. Se quedó con uno para ir a la batalla. El problema es que requieren mucha habilidad y tiempo para reproducirse, por lo que apenas los estamos preparando para la batalla.
+          - Seleccione una opción
+            - Entonces, ¿para qué estás entrenando a estas tortugas?
+              - (arriba)
+            - ¿Por qué tortugas?
+              - (arriba)
+            - Ya he oído suficiente.
+              - (end)
+  - *(Si el player no ha completado Los ojos de Glouphrie:)*
+    - ¿Qué hace esa linda criatura aquí?
+      - **Player:** ¿Qué está haciendo esa linda criatura aquí?
+      - **Trainer Nacklepen:** Humph. No me preguntes. No lo puse ahí. Sigo intentando que mis tortugas la pisoteen, pero ella sigue huyendo.
+      - **Player:** Eso no es muy lindo, son algo lindos.
+      - **Trainer Nacklepen:** ¿Serán estas criaturas útiles soldados de infantería en el ejército de gnomos? Creo que no.
+      - **Player:** Me pregunto por qué está aquí entonces.
+      - **Trainer Nacklepen:** ¡Cómo iba a saberlo! Tengo tortugas que entrenar; ya me has hecho perder suficiente tiempo con trivialidades, adiós.
+      - **Player:** Está bien, Gruñón, entonces me voy.

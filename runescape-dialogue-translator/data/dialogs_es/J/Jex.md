@@ -1,0 +1,151 @@
+# Jex
+
+- **Original Wiki Page**: [Transcript:Jex](https://runescape.wiki/w/Transcript%3AJex)
+- **Letter**: `J`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### After Icthlarin's Little Helper and before Contact!
+
+- **Player:** Hola.
+- **Jex:** Saludos, no creyente. Que las bendiciones de Icthlarin descansen sobre tus hombros cansados ​​y que te tranquilicen en momentos interesantes.
+
+### After Contact!
+
+- **Player:** Hola, Jex.
+- **Jex:** Hola, Player.
+- **Jex:** Jex se frota la cabeza con ternura.
+- [Menu]: Selecciona una opción
+  - [Choice]: ¿Estás bien?
+    - **Player:** ¿Estás bien?
+    - **Jex:** Un degenerado me golpeó y me hizo un bulto del tamaño de un huevo en la nuca.
+    - **Player:** Estaré atento a personajes sospechosos.
+    - **Jex:** Tengo una idea bastante clara de quién lo hizo.
+    - **Player:** ¿Quién?
+    - **Jex:** Ese comerciante de ropa blanca, Siamun; A ella nunca le agrado.
+    - **Player:** Estaré atento a ella.
+  - [Choice]: ¿Podrías contarme más sobre los dioses menores?
+    - **Player:** ¿Podrías contarme más sobre los dioses menores?
+    - [Menu]: Seleccione una opción|ancla=dioses menores
+      - [Choice]: ¿Podrías contarme más sobre Scabaras?
+        - **Player:** ¿Podrías contarme más sobre Scabaras?
+        - **Jex:** Creo que habrás recopilado la mayoría de los detalles relevantes de otros lugares, pero el conocimiento general no siempre es el más preciso.
+        - **Player:** ¿Estás afirmando que me han informado mal?
+        - **Jex:** En realidad no; simplemente hay detalles de la caída en desgracia de Scabaras que sólo conocemos los sacerdotes.
+        - **Player:** ¿Por ejemplo?
+        - **Jex:** Algunas de sus supuestas faltas pueden ser perdonadas. Simplemente no puedo explicar por qué en este momento.
+        - **Player:** No estoy seguro de si debería agradecerte por ese poco de confusión o aumentar ese chichón en tu cabeza.
+        - **Player:** ¿Podrías contarme más sobre los dioses menores?
+        - (previous|minorgods)
+      - [Choice]: ¿Podrías contarme más sobre Het?
+        - **Player:** ¿Podrías contarme más sobre Het?
+        - **Jex:** Es el aspecto menos extraño de nuestras deidades a ojos extranjeros; se parece a nosotros. Sospecho que es por eso que sus santuarios son particularmente atacados por el infame Templeton.
+        - **Player:** ¿Qué cubre su patrocinio?
+        - **Jex:** Él es la encarnación misma de la salud y la fuerza tanto en la mente como en el cuerpo.
+        - [Menu]: Seleccione una opción|anclaje=het
+          - [Choice]: ¿Podrías contarme más sobre la influencia de Het sobre el desierto?
+            - **Player:** ¿Podrías contarme más sobre la influencia de Het en el desierto?
+            - **Jex:** Cuando era joven, pensaba en Het como un caballero fuerte y virtuoso: valiente, atrevido y, tal vez, un poco tonto.
+            - **Player:** Suena como todos los caballeros que he conocido.
+            - **Jex:** Pero, a medida que crezco, no estoy tan seguro. Está claro que la influencia de Het se siente en todo el desierto; su fuerza se puede sentir en los bordes dentados de las espadas de los menafitas. Su valor está en la punta de cada lanza que empuñan los soldados de Al Kharid.
+            - **Jex:** Fortalece cada esposa de acero que restringe a un esclavo. Él es el mismo remolcador del río Elid que arrastra a muchos a la muerte.
+            - **Jex:** Sin embargo, hemos debilitado a los esclavos y a las aldeas. Incluso en esta misma ciudad hay una plaga que nos está quitando nuestras fuerzas.
+            - **Player:** Entonces, ¿sientes que Het le ha dado la espalda a tu gente?
+            - **Jex:** No, yo no diría eso. Nosotros, los mortales, nos apresuramos a culpar a los dioses de nuestros problemas. Después de todo, sin debilidad no hay fuerza.
+            - (previous|het)
+          - [Choice]: ¿Podrías contarme más sobre los seguidores de Het?
+            - **Player:** ¿Podrías contarme más sobre los seguidores de Het?
+            - **Jex:** Het se originó en el norte, por lo que la gente de Al Kharid lo adora fervientemente; sin embargo, es un dios popular en todo el desierto: su poderosa imagen de fuerza y ​​salud lo convierte en un dios popular entre soldados y líderes.
+            - (previous|het)
+          - [Choice]: ¿Podrías contarme más sobre los dioses menores?
+            - **Player:** ¿Podrías contarme más sobre los dioses menores?
+            - (previous2|minorgods)
+      - [Choice]: ¿Podrías contarme más sobre Crondis?
+        - **Player:** ¿Podrías contarme más sobre Crondis?
+        - **Jex:** Crondis es una dama feroz con cabeza de un poderoso cocodrilo.
+        - **Player:** Eso debe ser incómodo a la hora de comprar cascos.
+        - **Jex:** Basta de ligereza: recuerda que ella es una deidad y este es su lugar de poder.
+        - **Player:** ¿Qué tipo de gente la sigue?
+        - **Jex:** Ella encarna la modestia, la diligencia y el ingenio, por eso Crondis es adorada por los agricultores y cazadores de subsistencia del desierto. Por el contrario, resulta impopular entre la élite de la sociedad.
+        - **Player:** ¿Cómo es eso?
+        - **Jex:** Crondis enseña que las personas no deben tomar más de lo que necesitan y arreglárselas con poco, lo cual, como puedes imaginar, entra en conflicto con los valores de muchos en los niveles más ricos de la sociedad.
+        - **Jex:** En Menaphos, ella está particularmente mal vista, aunque eso no es sorprendente.
+        - **Player:** ¿Por qué?
+        - **Jex:** El faraón de Menaphos es un hombre codicioso y cruel cuya falta de control está más allá incluso de la ayuda de Crondis.
+        - **Jex:** Disculpe, no debería haber hablado de esa manera. No es prudente hablar mal de los mejores.
+        - [Menu]: Seleccione una opción|ancla=croc
+          - [Choice]: ¿Podrías contarme más sobre la conexión de Crondis con los cocodrilos?
+            - **Player:** ¿Podrías contarme más sobre la conexión de Crondis con los cocodrilos?
+            - **Jex:** Crondis fue una vez un cocodrilo. Mucha gente cree que quienes cazan en las aguas del río Elid encarnan su espíritu. Eran sus seguidores más queridos.
+            - **Jex:** Cuando era joven, la gente desconfiaba de ellos, incluso los veneraban, pero no les tenían miedo. Con los recientes ataques de cocodrilos, eso ha cambiado.
+            - **Jex:** Me temo que la creciente falta de control de los cocodrilos a lo largo del río Elid es sólo una prueba más de que no todo va bien con Crondis.
+            - (previous|croc)
+          - [Choice]: ¿Podrías contarme más sobre los seguidores de Crondis?
+            - **Player:** ¿Podrías contarme más sobre los seguidores de Crondis?
+            - **Jex:** Crondis es adorada por aquellos que dependen de su ingenio para sobrevivir: marineros, ingenieros y pícaros la tienen en alta estima.
+            - **Jex:** Debido a su popularidad entre la gente de mar, la palabra sobre Crondis se ha extendido por todas partes y sus seguidores se pueden encontrar en una gran cantidad de lugares exóticos.
+            - (previous|croc)
+          - [Choice]: ¿Podrías contarme más sobre la influencia de Crondis sobre el desierto?
+            - **Player:** ¿Podrías contarme más sobre la influencia de Crondis?
+            - **Jex:** Crondis espera inspirar ingenio y modestia sin pretensiones. Si bien este siempre ha sido su objetivo, sus métodos varían más que la mayoría.
+            - **Player:** Estoy confundido. ¿Qué quieres decir?
+            - **Jex:** Crondis puede salvar una cosecha difícil haciendo estallar las nubes, o puede lanzar enjambres de langostas sobre una cosecha abundante para detener la complacencia.
+            - (previous|croc)
+          - [Choice]: ¿Podrías contarme más sobre los dioses menores?
+            - **Player:** ¿Podrías contarme más sobre los dioses menores?
+            - (previous2|minorgods)
+      - [Choice]: ¿Podrías contarme más sobre Apmeken?
+        - **Player:** ¿Podrías contarme más sobre Apmeken?
+        - (Condition: Después de No hacer el mal:)
+          - **Jex:** Algo me dice que quizás sepas más que yo. He sentido un cambio en los cielos, aunque sea pequeño, y no puedo evitar pensar que tiene algo que ver contigo.
+          - **Player:** ¿Qué te hace pensar eso?
+          - **Jex:** No viene mucha gente aquí y, de los pocos que lo hacen, solo unos pocos se preocupan por mencionar Apmeken. Siento su sonrisa soleada brillando sobre el desierto y estoy convencido de que tú eres el responsable de ello. Te lo agradezco.
+          - **Player:** ¿Podrías contarme más sobre los dioses menores?
+          - (previous|minorgods)
+        - (Condition: Antes de no hacer ningún mal:)
+          - **Jex:** Apmeken era la más traviesa, juguetona e impredecible de las deidades menores. Mi favorito personal, de hecho.
+          - **Player:** Supongo que no debería confiar en ti, ¿entonces?
+          - **Jex:** Si bien Apmeken era traviesa, también era una diosa de la amistad. Como ella, puedo hacerte tropezar, pero te atraparé antes de que caigas.
+          - **Player:** Bueno, es bueno saberlo. ¿Supongo que parece un poco inhumana?
+          - **Jex:** Tenía cabeza de mono, simio o babuino, dependiendo de la naturaleza que mostrara en ese momento. El mono era hábil, el simio sabio y el babuino cómico.
+          - **Player:** Ya veo. Jex, no puedo evitar notar que estás hablando en tiempo pasado.
+          - **Jex:** Ah, lo siento, sí. Soy de la opinión -y es una opinión que no comparten muchos, debo añadir- que Apmeken ha abandonado estas tierras.
+          - **Jex:** He leído montones de escrituras que detallan a Apmeken y he escuchado infinitas historias sobre sus hazañas. No puedo creer que el desierto sería un lugar tan guerrero, sombrío y lleno de plagas si todavía se sintiera aquí.
+          - **Player:** Eso es interesante, Jex; ¿Puedo hacerte más preguntas sobre ella?
+          - **Jex:** Por supuesto.
+          - [Menu]: Seleccione una opción|ancla=mono
+            - [Choice]: ¿Podrías contarme más sobre la conexión de Apmeken con los monos?
+              - **Player:** ¿Podrías contarme más sobre la conexión de Apmeken con los monos?
+              - **Jex:** Apmeken alguna vez fue un mono. Mucha gente cree que los monos nativos encarnaban su espíritu. Eran sus seguidores más queridos. Hace mucho tiempo que no hay monos salvajes en el desierto, desde que yo era niño.
+              - **Jex:** Me temo que la falta de monos viviendo aquí es sólo una prueba más de que Apmeken realmente ha seguido adelante.
+              - (previous|monkey)
+            - [Choice]: ¿Podrías contarme más sobre los seguidores de Apmeken?
+              - **Player:** ¿Podrías contarme más sobre los seguidores de Apmeken?
+              - **Jex:** Apmeken es adorado por quienes valoran la comunidad y la amistad por encima de todo: madres, sacerdotes e incluso políticos.
+              - **Jex:** Apmeken se originó en el oeste, en el espacio entre dos tribus en guerra, y es allí donde encontró la mayor parte de su apoyo.
+              - (previous|monkey)
+            - [Choice]: ¿Podrías contarme más sobre la influencia de Apmeken sobre el desierto?
+              - **Player:** ¿Podrías contarme más sobre la influencia de Apmeken sobre el desierto?
+              - **Jex:** La influencia de Apmeken fue sutil pero increíble, ella era una risa contagiosa, una jiga alegre, una broma que has escuchado cientos de veces antes, pero de la que aún te ríes.
+              - **Jex:** Puede que no parezca mucho, pero se sabe que estas sutilezas evitan guerras y hacen que los enemigos dejen de lado sus diferencias.
+            - [Choice]: ¿Podrías contarme más sobre los dioses menores?
+              - **Player:** ¿Podrías contarme más sobre los dioses menores?
+              - (previous2|minorgods)
+      - [Choice]: Adiós, Jex.
+        - **Player:** Adiós, Jex.
+        - **Jex:** Adiós. Que los dioses estén contigo.
+  - [Choice]: ¿Por qué vuestro templo sigue en tal estado?
+    - **Player:** ¿Por qué tu templo sigue en ese estado?
+    - **Jex:** Los dioses menores no son particularmente venerados en nuestra hermosa ciudad. Icthlarin domina aquí y, aunque es una excelente deidad, no es el más alegre.
+    - **Player:** ¿Pensé que eras un sacerdote de Icthlarin?
+    - **Jex:** Bueno, sí y no. Ciertamente soy principalmente un sacerdote de Icthlarin, pero también he sido entrenado en los ritos de los dioses menores.
+    - **Player:** ¿Qué se necesitaría entonces para reparar este templo? ¿Dinero? ¿Materiales? ¿Mano de obra?
+    - **Jex:** Para ser honesto, no estoy muy seguro. La mayoría de los adoradores naturales están en Menaphos; Por supuesto, y la economía local está bastante deprimida. Además, ese pícaro de Templeton se llevó parte de la mampostería dañada. Deberíamos cazarlo como el chacal que es.
+    - **Player:** Estoy seguro de que se te ocurrirá algo; Podrás contar conmigo cuando lo hagas.
+  - [Choice]: Adiós, Jex.
+    - **Player:** Adiós, Jex.
+    - **Jex:** Adiós. Que los dioses estén contigo.

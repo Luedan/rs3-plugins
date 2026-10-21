@@ -1,0 +1,76 @@
+# TzHaar-Mej-Jeh
+
+- **Original Wiki Page**: [Transcript:TzHaar-Mej-Jeh](https://runescape.wiki/w/Transcript%3ATzHaar-Mej-Jeh)
+- **Letter**: `T`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+{{Incomplete| Missing little bits of dialogue, and the dialogue is most likely different based on completion of TzHaar quests; dialogue when reclaiming Antique lamp (The Elder Kiln)}}
+- **TzHaar-Mej-Jeh:** Gracias. Ahora eres TzHaar. Eres un gran campeón.
+  - ¿Estás preocupado por el TokHaar?
+    - **TzHaar-Mej-Jeh:** Nosotros...subestimamos al TokHaar. Todavía no entiendo por qué buscaron destruirnos.
+    - **Player:** ¿Te preocupa que TokHaar pueda invadir la ciudad de TzHaar?
+    - **TzHaar-Mej-Jeh:** No. Demostraste la fuerza de tu protección y los TokHaar parecen satisfechos. Si los TokHaar quisieran abandonar el Horno, lo habrían hecho hace mucho tiempo. Los TokHaar son viejos TzHaar y nos gusta mantenernos reservados. Luchamos por el honor y para perfeccionar nuestras habilidades, no para destruir y conquistar. Es importante que respete su acuerdo. Lucha contra los TokHaar y ocupa su atención.
+  - Háblame del Caldero de Lucha.
+    - **TzHaar-Mej-Jeh:** El crisol de lava donde luchaste contra TokHaar-Hok... lo hemos llamado Fight Cauldron. Los TokHaar están ansiosos por luchar contigo allí. El anillo TokKul-Zo que te di ahora puede teletransportarte a la entrada del túnel donde perseguiste a Ga'al-Xox. Puedes entrar y salir cuando quieras. Muchos guerreros TzHaar ya han demostrado su valía en Fight Cauldron.
+    - **Player:** Cuando luché contra los TokHaar, dejaron fragmentos de obsidiana. ¿Para qué sirven?
+    - **TzHaar-Mej-Jeh:** Nosotros, los TzHaar, forjamos armas con TokTz, u 'obsidiana' como tú la llamas, ya que se puede pulir hasta obtener un borde muy afilado pero quebradizo. TokTz dirige los encantamientos que colocamos en nuestro equipo; es por eso que la magia protectora de la capa TokHaar-Kal es tan efectiva.
+    - **Player:** ¿Puedo usar los fragmentos para fabricar una armadura de obsidiana?
+    - **TzHaar-Mej-Jeh:** TokTz es vidrio volcánico oscuro, muy quebradizo y afilado. Se astilla fácilmente y es extremadamente frágil. Te envolverías en un pesado y dentado traje de obsidiana. ¿Con qué propósito?
+      - ¡Se vería increíble!
+        - **TzHaar-Mej-Jeh:** Tienes un argumento convincente, JalYt. Supongo que se podrían preparar y encantar placas de obsidiana para proteger tu carne suave y frágil. Sin embargo, la armadura se degradaría con cada golpe. No pasaría mucho tiempo antes de que tuvieras que forjar una nueva armadura para reemplazarla. Los TzHaar no necesitan armadura. Nuestros cuerpos son piedra y nuestra sangre magma. Los TzHaar-Hur no tienen experiencia en la fabricación de armaduras. Tendrías que ser un maestro de la forja para lograr una hazaña tan única, pero es posible.
+        - *(continúa a continuación)*
+      - Defensa superior. Puedo soportar algunos rasguños.
+        - **TzHaar-Mej-Jeh:** Sin duda. Tu habilidad en la batalla es indudable. Supongo que se podrían preparar y encantar placas de obsidiana para proteger tu carne suave y frágil. Sin embargo, la armadura se degradaría con cada golpe. No pasaría mucho tiempo antes de que tuvieras que forjar una nueva armadura para reemplazarla. Los TzHaar no necesitan armadura. Nuestros cuerpos son piedra y nuestra sangre magma. Los TzHaar-Hur no tienen experiencia en la fabricación de armaduras. Tendrías que ser un maestro de la forja para lograr una hazaña tan única, pero es posible.
+      - Sería muy eficaz contra oponentes similares.
+        - **TzHaar-Mej-Jeh:** Es cierto... necesitarás tejer hechizos de protección en el TokTz durante el proceso de forja, pero la armadura sería extremadamente efectiva contra TzHaar, TokHaar y otras criaturas de composición similar. Sin embargo, el encantamiento defensivo no será activado por otros objetivos. Los TzHaar no necesitan armadura. Nuestros cuerpos son piedra y nuestra sangre magma. Los TzHaar-Hur no tienen experiencia en la fabricación de armaduras. Tendrías que ser un maestro de la forja para lograr una hazaña tan única, pero es posible.
+        - *(continúa a continuación)*
+  - Sobre este anillo...
+    - **TzHaar-Mej-Jeh:** ¿Quieres saber más sobre TokKul-Zo?
+      - ¿Qué hace?
+        - **TzHaar-Mej-Jeh:** Este anillo tiene un trozo de TokKul. Cuando lo uses, guiará tu mano y te hará mejor cuando luches contra TzHaar, criaturas de fuego y tal vez incluso contra TokHaar.
+        - **Player:** ¿Cómo se hace eso?
+        - **TzHaar-Mej-Jeh:** Mi magia aprovecha los recuerdos del ring, por lo que será mejor que pelees como un TzHaar. La magia se desvanecerá con el tiempo. Cuando esto suceda, regresa conmigo y te lo recargaré... por un precio.
+        - **Player:** ¿Cuál es tu precio?
+        - **TzHaar-Mej-Jeh:** 50.000 TokKul por una recarga completa. Normalmente lo haría gratis, pero necesitamos todo el TokKul que podamos conseguir para poder derretirlo en la lava sagrada y liberar a nuestros ancestros de su sufrimiento.
+          - Me siento mal por usar TokKul como moneda ahora.
+            - **TzHaar-Mej-Jeh:** ¿Por qué te sientes mal?
+            - **Player:** Bueno, ahora que sé que los TzHaar atrapados en TokKul están sufriendo, no me siento bien.
+            - **TzHaar-Mej-Jeh:** Gastar TokKul en tiendas significa que tenemos más TokKul para liberar en la lava sagrada. Derribaremos vuestro TokKul y las almas de nuestros antepasados ​​estarán en paz.
+          - Está bien.
+            - *(vuelve a opciones anteriores)*
+      - ¿Puedes recargarlo?
+        - *Si tu TokKul-Zo está completamente cargado*
+          - **TzHaar-Mej-Jeh:** Este anillo ya está completamente cargado. No desperdicies tu TokKul en ello.
+      - Hablemos de otra cosa.
+        - *(vuelve a opciones anteriores)*
+      - Tengo que irme.
+        - *(termina el diálogo)*
+  - **TzHaar-Mej-Jeh:**Tienes todos los Tokhaar-Kal contigo. ¿Estás buscando recompensa?
+    - ¿Qué hay en oferta?
+      - *Puedes intercambiar Tokhaar-Kal-Ket, Tokhaar-Kal-Xil y Tokhaar-Kal-Mej para recibir una capa de anulación cosmética.* **Esto destruirá los tres elementos de tu capa y es irreversible.**
+      - ¿Renunciar a las tres capas por una capa de anulación cosmética?
+        - Sí, destruye las tres capas.
+          - *Has desbloqueado la anulación cosmética de Capa de fuego mejorada.*
+          - *(termina el diálogo)*
+        - ¡No, no destruyas mis capas!
+          - *(termina el diálogo)*
+    - No, habla de otra cosa.
+      - *(vuelve a opciones anteriores)*
+  - Me gustaría hablar de títulos.
+    - *Reclama el título de Yt'Haar.*
+      - **TzHaar-Mej-Jeh:**Ahora serás conocido como 'Yt'Haar' dondequiera que vayas.
+      - *(vuelve a opciones anteriores)*
+    - *Reclama el título de TzHaar.*
+      - **TzHaar-Mej-Jeh:**Ahora serás conocido como 'TzHaar' dondequiera que vayas.
+      - *(vuelve a opciones anteriores)*
+    - *Borrar título actual.*
+      - **TzHaar-Mej-Jeh:**Tu título ha sido eliminado.
+      - *(vuelve a opciones anteriores)*
+    - *Salir.*
+      - *(vuelve a opciones anteriores)*
+  - Adiós.
+    - *(termina el diálogo)*

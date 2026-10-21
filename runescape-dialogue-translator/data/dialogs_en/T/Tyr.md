@@ -1,0 +1,170 @@
+# Tyr
+
+- **Original Wiki Page**: [Transcript:Tyr](https://runescape.wiki/w/Transcript%3ATyr)
+- **Letter**: `T`
+
+---
+
+## Dialogue Transcript
+
+{{incomplete|missing dialogue for upgrading void knight armour}}
+
+### Before Quiet Before the Swarm
+
+- **Captain Tyr:** Hi, how can I help you?
+- **Choose an option:**
+  - Who are you?
+    - **Player:** Who are you?
+    - **Captain Tyr:** I'm a Void Knight, one of the order of Guthix. We are warriors of balance who do Guthix's work here in Gielinor.
+    - **Select an option**
+      - Wow, can I join?
+        - **Player:** Wow, can I join?
+        - **Captain Tyr:** Entry is strictly invite only, however we do need help continuing Guthix's work.
+        - **Select an option**
+          - What kind of work?
+            - *(Same as below.)*
+          - Good luck with that.
+            - **Player:** Good luck with that.
+      - What kind of work?
+        - **Player:** What kind of work?
+        - **Captain Tyr:** Ah well you see we try to keep Gielinor as Guthix intended, it's very challenging. Actually we've been having some problems recently, maybe you could help us?
+        - **Select an option**
+          - What's the problem?
+            - **Player:** What's the problem?
+            - **Captain Tyr:** Well the order has become quite diminished over the years, it's a very long process to learn the skills of a Void Knight. Recently there have been beaches into our realm from somewhere else, and strange creatures have been pouring through. We can't let that happen, and we'd be very grateful if you'd help us.
+            - **Select an option**
+              - How can I help?
+                - **Player:** How can I help?
+                - **Captain Tyr:** We send launchers from our outpost to the nearby islands. If you go and wait in the lander there that'd really help.
+              - Sorry, but I can't.
+                - **Player:** Sorry, but I can't.
+          - What's 'Gielinor'?
+            - *(Same as below)*
+          - I'd rather not, sorry.
+            - **Player:** I'd rather not, sorry.
+      - What's 'Gielinor'?
+        - **Player:** What's 'Gielinor'?
+        - **Captain Tyr:** It is the name that Guthix gave to this world, so we honour him with its use.
+      - Uh huh, sure.
+        - **Player:** Uh huh, sure.
+  - What is this place?
+    - **Player:** What is this place?
+    - **Captain Tyr:** This is our outpost. From here we send launches out to the nearby islands to beat back the invaders.
+    - **Select an option**
+      - What invaders?
+        - **Player:** What invaders?
+        - *(Same response as 'What's the problem' above.)*
+      - How can I help?
+        - *(Same as above.)*
+      - Good luck with that.
+        - **Player:** Good luck with that.
+  - I'm fine thanks.
+    - **Player:** I'm fine thanks.
+
+### After Quiet Before the Swarm
+
+- **Player:** Commodore Tyr.
+- **Commodore Tyr:** Player, it's good to see you. What can I do for you?
+- **WHAT DO YOU WANT TO ASK?**
+  - How are things at the outpost?
+    - **Player:** How are things at the outpost?
+    - **Commodore Tyr:** We mourn the loss of our friends.
+    - **Commodore Tyr:** But we are Void Knights and we balance our mourning with the destruction of portals. We'll continue fighting for as long as balance requires us to.
+    - *If Jessika died during The Void Stares Back:*
+      - **Player:** Where's Korasi?
+    - *If Korasi died during The Void Stares Back:*
+      - **Player:** Where's Jessika?
+    - **Commodore Tyr:** She's probably on the battlefield. She's really thrown herself into it since the defeat of the Pest Queen. I think she finds relief there.
+    - **Player:** Oh. I'd kind of hoped to speak to her.
+    - **Commodore Tyr:** Give her time, Player. Korasi and Jessika had become close friends during all of this. It was a hard battle for all of us, but, I think, hardest for her.
+  - I'm still a little bewildered by what happened.
+    - **Player:** I'm still a little bewildered by what happened.
+    - **Commodore Tyr:** It was an... odd plot that Grayzag hatched, for sure.
+    - **Player:** Did he really think he could control the Pest Queen?
+    - **Commodore Tyr:** Grayzag was not mentally sound. There's no telling what he believed. He was a fool, and we paid a heavy price for his foolishness.
+    - **Player:** And what about the Valluta? I thought you said it was a weapon.
+    - **Commodore Tyr:** Yes, that was a misintepretation of the text. Our people craved a weapon that would end our struggles against the pests, but, having spoken to the Valluta, I understand the truth:
+    - **Commodore Tyr:** All creatures of Guthix and those who serve him in defending this world from outside imbalance are the Valluta. We are instruments of balance.
+    - **Player:** So, was the big turtle the Valluta or a weapon?
+    - **Commodore Tyr:** She is not a weapon. She is the Valluta, but so am I and so are you.
+    - **Commodore Tyr:** Guthix granted her the power to heal rifts between our world and the Void.
+    - **Commodore Tyr:** Grayzag's meddling made too many portals for her to heal at once, distracting her, and then the goo drained her of her power.
+    - **Commodore Tyr:** When the boxes of goo exploded, she regained her power and will now make sure the main portal remains closed.
+    - **Commodore Tyr:** My people must continue to contain the pests using these portals, however, lest the Valluta spread her power too thin again.
+  - I've lost Korasi's sword.
+    - **Player:** I've lost Korasi's sword.
+    - **Commodore Tyr:** Really? Well, let's take a look.
+    - *If you have Korasi's sword:*
+      - **Commodore Tyr:** It seems you still have the sword, Player.
+    - *If you do not have Korasi's sword:*
+      - **Commodore Tyr:** Ah, yes, it's returned home. I can give it to you again, but I'll have to ask you for 500,000 coins to honour those who died in the Pest Queen conflict.
+      - **WILL YOU PAY 500,000 COINS TO RETRIEVE THE SWORD?**
+        - Yes.
+          - 500,000 coins have been removed from your money pouch.
+          - **Commodore Tyr:** Korasi's sword is yours once again. Look after it.
+        - No.
+          - *(Dialogue ends)*
+  - I'd like to trade my regular void knight armour for its elite version.
+    - **Player:** I'd like to trade my regular Void Knight armour for its elite version.
+    - **Commodore Tyr:** I can do this for you for a hundred Commendations. Are you looking to trade the top, the legs or both?
+    - **WHICH PIECE OF ARMOUR DO YOU REQUIRE?**
+      - The torso.
+        - *If you lack the torso piece of the regular armour:*
+          - **Commodore Tyr:** You will need your regular armour piece and a hundred Commendations to upgrade your top, I fear.
+        - *If you have the torso piece of the regular armour:*
+          - {{transcript missing}}
+      - The legs.
+        - *If you lack the legs piece of the regular armour:*
+          - **Commodore Tyr:** You will need your regular armour piece and a hundred Commendations to upgrade your robes, I fear.
+        - *If you have the legs piece of the regular armour:*
+          - **Commodore Tyr:** Your robes are improved. Wear them proudly.
+      - Both.
+        - *If you lack both pieces of the regular armour:*
+          - **Commodore Tyr:** You will need your regular armour piece and a hundred Commendations to upgrade your top, I fear.
+          - **Commodore Tyr:** You will need your regular armour piece and a hundred Commendations to upgrade your robes, I fear.
+        - *If you lack the torso piece of the regular armour:*
+          - **Commodore Tyr:** You will need your regular armour piece and a hundred Commendations to upgrade your top, I fear.
+          - {{transcript missing}}
+        - *If you lack the legs piece of the regular armour:*
+          - **Commodore Tyr:** You will need your regular armour piece and a hundred Commendations to upgrade your robes, I fear.
+          - {{transcript missing}}
+        - *If you have both pieces of the regular armour:*
+          - {{transcript missing}}
+      - Can I trade in superior Void Knight armour?
+        - **Commodore Tyr:** Yes, for the same price. Are you looking to trade the superior top, the legs, or both?
+        - **WHICH PIECE OF ARMOUR DO YOU REQUIRE?**
+          - The torso.
+            - *If you lack the torso piece of the superior armour:*
+              - **Commodore Tyr:** You will need your superior armour piece and a hundred Commendations to upgrade your top, I fear.
+            - *If you have the torso piece of the superior armour:*
+              - {{transcript missing}}
+          - The legs.
+            - *If you lack the legs piece of the superior armour:*
+              - **Commodore Tyr:** You will need your superior armour piece and a hundred Commendations to upgrade your robes, I fear.
+            - *If you have the legs piece of the superior armour:*
+              - {{transcript missing}}
+          - Both.
+            - *If you lack both pieces of superior armour:*
+              - **Commodore Tyr:** You will need your superior armour piece and a hundred Commendations to upgrade your top, I fear.
+              - **Commodore Tyr:** You will need your superior armour piece and a hundred Commendations to upgrade your robes, I fear.
+            - *If you lack the torso piece of superior armour:*
+              - **Commodore Tyr:** You will need your superior armour piece and a hundred Commendations to upgrade your top, I fear.
+              - {{transcript missing}}
+            - *If you lack the leg piece of superior armour:*
+              - **Commodore Tyr:** You will need your superior armour piece and a hundred Commendations to upgrade your robes, I fear.
+              - {{transcript missing}}
+            - *If you have both pieces of superior armour and a hundred commendations:*
+              - {{transcript missing}}
+  - I'd like to change the colour of my armour.
+    - **Player:** I'd like to change the colour of my armour.
+    - **Commodore Tyr:** You feel your morality was not correctly reflected? Very well. I can alter your armour, but I must ask for a donation to our cause to ensure this is not merely a passing fancy.
+    - Changing your armour's colour will cost 100,000 coins.
+    - **Commodore Tyr:** What colour do you feel best reflects your inner self?
+    - **CHOOSE YOUR COLOUR.**
+      - White (Guardian).
+        - 100,000 coins have been removed from your money pouch.
+        - **Commodore Tyr:** Your armour is recoloured. Wear it in balance and in Guthix's name.
+      - Grey (Justicar).
+        - (above|recolour)
+      - Black (Executioner).
+        - (above|recolour)

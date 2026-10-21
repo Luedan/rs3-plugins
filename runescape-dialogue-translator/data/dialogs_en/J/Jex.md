@@ -1,0 +1,150 @@
+# Jex
+
+- **Original Wiki Page**: [Transcript:Jex](https://runescape.wiki/w/Transcript%3AJex)
+- **Letter**: `J`
+
+---
+
+## Dialogue Transcript
+
+
+### After Icthlarin's Little Helper and before Contact!
+
+- **Player:**  Hello.
+- **Jex:**  Greetings, non-believer. May the blessings of Icthlarin rest on your tired shoulders and may they set you at ease during interesting times.
+
+### After Contact!
+
+- **Player:** Hello, Jex.
+- **Jex:** Hello, Player.
+- **Jex:** Jex rubs his head tenderly.
+- [Menu]: Select an Option
+  - [Choice]: Are you okay?
+    - **Player:** Are you okay?
+    - **Jex:** Some degenerate clubbed me and gave me a lump the size of an egg on the back of my head.
+    - **Player:** I'll keep my eyes peeled for suspicious characters.
+    - **Jex:** I have a fairly good idea who did it.
+    - **Player:** Who?
+    - **Jex:** That linen merchant, Siamun; she's never liked me.
+    - **Player:** I'll keep an eye out for her.
+  - [Choice]: Could you tell me more about the minor gods?
+    - **Player:** Could you tell me more about the minor gods?
+    - [Menu]: Select an Option|anchor=minorgods
+      - [Choice]: Could you tell me more about Scabaras?
+        - **Player:** Could you tell me more about Scabaras?
+        - **Jex:** I think you'll have gathered most of the relevant details from elsewhere, but general knowledge isn't always the most accurate.
+        - **Player:** Are you claiming I've been misinformed?
+        - **Jex:** Not really; there are simply details of Scabaras's fall from grace that are only known to we priests.
+        - **Player:** Such as?
+        - **Jex:** Some of his supposed faults can be forgiven. I just can't explain why at the moment.
+        - **Player:** I'm not sure whether I should thank you for that bit of confusion or add to that bump on your head.
+        - **Player:** Could you tell me more about the minor gods?
+        - (previous|minorgods)
+      - [Choice]: Could you tell me more about Het?
+        - **Player:** Could you tell me more about Het?
+        - **Jex:** Het is the least strange looking of our deities to foreign eyes; he looks just like us. I suspect this is why his shrines are particularly targeted by the infamous Templeton.
+        - **Player:** What does his patronage cover?
+        - **Jex:** He is the very incarnation of health and strength in both mind and body.
+        - [Menu]: Select an Option|anchor=het
+          - [Choice]: Could you tell me more about Het's influence over the desert?
+            - **Player:** Could you tell me more about Het's influence over the desert?
+            - **Jex:** When I was young, I thought of Het as a strong virtuous knight: brave, daring, and, perhaps, just a little dim.
+            - **Player:** Sounds like every knight I've ever known.
+            - **Jex:** But, as I grow older, I'm not so sure. It is clear that Het's influence is felt all over the desert; his strength can be felt on the serrated edges of the Menaphites' blades. His nerve is in the tip of every spear wielded by the soldiers of Al Kharid.
+            - **Jex:** He fortifies each steel cuff that constrains a slave. He is the very tug in the river Elid that drags many to their deaths.
+            - **Jex:** Yet, we have enfeebled slaves and weakened villages. Even in this very city there is a plague sapping us of our strength.
+            - **Player:** So, you feel that Het has turned his back on your people?
+            - **Jex:** No, I wouldn't say that. We mortals are too quick to blame our problems on the gods. Without weakness there is no strength, after all.
+            - (previous|het)
+          - [Choice]: Could you tell me more about Het's followers?
+            - **Player:** Could you tell me more about Het's followers?
+            - **Jex:** Het originated in the north, so he is worshipped fervently by the people of Al Kharid; however, he is a popular god across the desert - his powerful image of strength and health make him a popular god amongst soldiers and leaders.
+            - (previous|het)
+          - [Choice]: Could you tell me more about the minor gods?
+            - **Player:** Could you tell me more about the minor gods?
+            - (previous2|minorgods)
+      - [Choice]: Could you tell me more about Crondis?
+        - **Player:** Could you tell me more about Crondis?
+        - **Jex:** Crondis is a ferocious lady with the head of a mighty crocodile.
+        - **Player:** That must be awkward when buying helmets.
+        - **Jex:** Enough flippancy: remember she is a deity, and this is her place of power.
+        - **Player:** What kind of people follow her?
+        - **Jex:** She embodies modesty, diligence and resourcefulness, so Crondis is worshipped by the desert's subsistence farmers and hunters. Conversely, she proves unpopular amongst society's elite.
+        - **Player:** How so?
+        - **Jex:** Crondis teaches that people should take no more than they need and make do with little, which, as you can imagine, conflicts with the values of many in the richer echelons of society.
+        - **Jex:** In Menaphos, she is particularly frowned upon, although that is hardly surprising.
+        - **Player:** Why?
+        - **Jex:** The Pharaoh of Menaphos is a greedy, cruel man whose lack of restraint is beyond even Crondis's help.
+        - **Jex:** Excuse me, I should not have spoken that way. It is unwise to speak ill of one's betters.
+        - [Menu]: Select an Option|anchor=croc
+          - [Choice]: Could you tell me more about Crondis's connection with crocodiles?
+            - **Player:** Could you tell me more about Crondis's connection with crocodiles?
+            - **Jex:** Crondis was once a crocodile. Many people believe that those that hunt in the waters of the River Elid embody her very spirit. They were her most beloved supporters.
+            - **Jex:** When I was young, people were wary of them, revered them even, but were not afraid of them. With the recent crocodile attacks, that has changed.
+            - **Jex:** I'm afraid that the growing lack of restraint of the crocodiles along the River Elid is only further proof that not all is well with Crondis.
+            - (previous|croc)
+          - [Choice]: Could you tell me more about Crondis's followers?
+            - **Player:** Could you tell me more about Crondis's followers?
+            - **Jex:** Crondis is worshipped by those who rely upon their ingenuity to survive: sailors, engineers and rogues hold her in high regard.
+            - **Jex:** Due to her popularity amongst seafarers, word of Crondis has spread far and wide and her followers can be found in a great number of exotic places.
+            - (previous|croc)
+          - [Choice]: Could you tell me more about Crondis's influence over the desert?
+            - **Player:** Could you tell me more about Crondis's influence?
+            - **Jex:** Crondis hopes to inspire resourcefulness and unassuming modesty. While this has always been her goal, her methods vary more than most.
+            - **Player:** I'm confused. What do you mean?
+            - **Jex:** Crondis may save a struggling harvest by bursting the clouds, or she might set swarms of locusts upon a bountiful crop to stop complacency.
+            - (previous|croc)
+          - [Choice]: Could you tell me more about the minor gods?
+            - **Player:** Could you tell me more about the minor gods?
+            - (previous2|minorgods)
+      - [Choice]: Could you tell me more about Apmeken?
+        - **Player:** Could you tell me more about Apmeken?
+        - (Condition: After Do No Evil:)
+          - **Jex:** Something tells me that you might know more than I. I've sensed a change in the heavens, albeit a small one, and I can't help thinking it has something to do with you.
+          - **Player:** What makes you think that?
+          - **Jex:** Not many people come here, and, of those few that do, only a few care to mention Apmeken. I feel her sunny smile shining upon the desert, and I am convinced you are responsible for that. I thank you.
+          - **Player:** Could you tell me more about the minor gods?
+          - (previous|minorgods)
+        - (Condition: Before Do No Evil:)
+          - **Jex:** Apmeken was the most mischievous, playful and unpredictable of the minor deities. My personal favourite, in fact.
+          - **Player:** I'm guessing I shouldn't trust you, then?
+          - **Jex:** While Apmeken was mischievous, she was also a goddess of friendship. Like her, I may trip you, but I'd catch you before you fell.
+          - **Player:** Well, that's good to know. I presume she looks slightly inhuman?
+          - **Jex:** She had the head of a monkey, ape or baboon, depending on the nature she was displaying at the time. The monkey was skilful, the ape was wise and the baboon was comical.
+          - **Player:** I see. Jex, I can't help notice that you're speaking in the past tense.
+          - **Jex:** Ah, sorry, yes. I'm of the opinion - and it's an opinion not shared by many, I should add - that Apmeken has moved on from these lands.
+          - **Jex:** I've read reams of scripture detailing Apmeken, and heard endless tales of her deeds. I can't believe that the desert would be such a warring, sombre, plague-filled place if she was still felt here.
+          - **Player:** That's interesting, Jex; can I ask you some more questions about her?
+          - **Jex:** Of course.
+          - [Menu]: Select an Option|anchor=monkey
+            - [Choice]: Could you tell me more about Apmeken's connection with monkeys?
+              - **Player:** Could you tell me more about Apmeken's connection with monkeys?
+              - **Jex:** Apmeken was once a monkey. Many people believe that the native monkeys embodied her very spirit. They were her most beloved supporters. There hasn't been any wild monkeys in the desert for a long time - not since I was a child.
+              - **Jex:** I'm afraid that the lack of monkeys living here is only further proof that Apmeken has indeed moved on.
+              - (previous|monkey)
+            - [Choice]: Could you tell me more about Apmeken's followers?
+              - **Player:** Could you tell me more about Apmeken's followers?
+              - **Jex:** Apmeken is worshipped by those who value the community and friendship above everything else: mothers, priests and even politicians.
+              - **Jex:** Apmeken originated in the west, in the space between two warring tribes, and it is there she found most of her support.
+              - (previous|monkey)
+            - [Choice]: Could you tell me more about Apmeken's influence over the desert?
+              - **Player:** Could you tell me more about Apmeken's influence over the desert?
+              - **Jex:** Apmeken's influence was subtle but incredible, she was an infectious laugh, a jaunty jig, a joke you've heard a hundred times before, but still chuckle at.
+              - **Jex:** It may not sound like much, but these subtleties have been known to avert wars and make enemies set aside their differences.
+            - [Choice]: Could you tell me more about the minor gods?
+              - **Player:** Could you tell me more about the minor gods?
+              - (previous2|minorgods)
+      - [Choice]: Goodbye, Jex.
+        - **Player:** Goodbye, Jex.
+        - **Jex:** Goodbye. May the gods be with you.
+  - [Choice]: Why is your temple still in such a state?
+    - **Player:** Why is your temple still in such a state?
+    - **Jex:** The minor gods aren't particularly revered in our fine city. Icthlarin holds sway here and, although a fine deity indeed, he's not the most jolly of sorts.
+    - **Player:** I thought you were a priest of Icthlarin?
+    - **Jex:** Well, yes and no. I am primarily a priest of Icthlarin, certainly, but I have been trained in the rites of the minor gods as well.
+    - **Player:** What would it take to repair this temple, then? Money? Materials? Manpower?
+    - **Jex:** I'm not really sure, to be honest. Most of the natural worshippers are in Menaphos; of course, and the local economy is rather depressed. In addition, that Templeton rogue made off with some of the damaged stonework. We should hunt him down like the jackal he is.
+    - **Player:** I'm sure you'll think of something; you'll be able to count on me when you do.
+  - [Choice]: Goodbye, Jex.
+    - **Player:** Goodbye, Jex.
+    - **Jex:** Goodbye. May the gods be with you.

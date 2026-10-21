@@ -1,0 +1,210 @@
+# Angof
+
+- **Original Wiki Page**: [Transcript:Angof](https://runescape.wiki/w/Transcript%3AAngof)
+- **Letter**: `A`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### In Tarddiad, after The Light Within
+
+
+#### Hablando con Angof
+
+- **Angof:** Hola de nuevo Player.
+- [Menu]: Elija una opción:|ancla=inicial
+  - [Choice]: Háblame de los fragmentos de cristal.
+    - **Player:** Cuéntame sobre los cristales.
+    - **Angof:** ¿Qué sabrías tú?
+    - [Menu]: Elige una opción:|fragmentos
+      - [Choice]: necesito cristales completos
+        - **Player:** Necesito cristales completos.
+        - **Angof:** Supuse que lo harías. He eliminado de la zona a todos los de mi tipo, excepto a los más peligrosos. Los que quedan no tienen ayuda y sería un gesto de bondad sacarlos de su miseria.
+        - (Action: anterior|fragmentos)
+      - [Choice]: ¿Puedo intercambiar fragmentos?
+        - **Player:** ¿Puedo intercambiar fragmentos?
+        - (Condition: Sin suficientes fragmentos de cristal en el backpack:)
+          - **Angof:** Parece que no tienes suficientes fragmentos para intercambiar.
+        - (Condition: De lo contrario:)
+          - **Angof:** Te daré {{colour|#ff0000|[number1]}} cristales completos por {{colour|#ff0000|[number2]}} fragmentos de cristal.
+          - [Menu]: Selecciona una opción
+            - [Choice]: Ok
+              - (removes=[number2] crystal fragments) (receives=[number1] Tarddian crystals)
+              - Recibirás cristales tardianos [number1].
+            - [Choice]: Ahora no
+              - (end)
+      - [Choice]: ¿Puedo hacer algo con estos fragmentos?
+        - **Player:** ¿Puedo hacer algo con estos fragmentos?
+        - **Angof:** Por el momento puedes hacer algunas campanas de viento u otra decoración. Hubo un tiempo en el que podíamos convertirlos en armaduras. Pero como ocurre con muchas otras cosas, el conocimiento casi se pierde.
+        - **Player:** ¿Lo sabes?
+        - **Angof:** De hecho. Y practicar este arte puede ayudarme a mantener mi concentración. Muy bien. Si me traes fragmentos infundidos, cantaré la armadura para que exista para ti.
+        - (Action: anterior|fragmentos)
+      - [Choice]: ¿Qué hacen los cristales?
+        - **Player:** ¿Qué hacen los cristales?
+        - **Angof:** Para los de mi especie, evitan la terrible necesidad, aunque sólo sea por un tiempo. Nos permiten un breve momento de lucidez antes de tragarnos de nuevo.
+        - **Player:** Eso suena... desagradable.
+        - **Angof:** Lo es. Pero es eso o la muerte.
+        - (Action: anterior|fragmentos)
+      - [Choice]: Pregunta por otra cosa.
+        - (Action: inicial|inicial)
+  - [Choice]: Háblame de ti.
+    - **Player:** Háblame de ti.
+    - **Angof:** ¿Qué te gustaría saber?
+    - [Menu]: Elige una opción:|tú mismo
+      - [Choice]: ¿Cuál es tu papel aquí?
+        - **Player:** ¿Cuál es tu papel aquí?
+        - **Angof:** Preguntas eso como si hubiera algún tipo de jerarquía aquí. A decir verdad, soy simplemente el más coherente actualmente. Oficialmente no desempeño ningún papel. Con el tiempo yo también me olvidaré de mí mismo y seré... como los demás. Quizás otro se vuelva lo suficientemente consciente como para ocupar mi lugar, o quizás no.
+        - **Player:** ¿Entonces no hay ningún señor, dama ni ningún tipo de gobernante aquí?
+        - **Angof:** Jaja, tal vez una vez. Pero nuestra civilización, tal como es, ya no tiene tales cosas.
+        - (Action: anterior|tú mismo)
+      - [Choice]: ¿Qué puedes contarme sobre tu historia?
+        - **Player:** ¿Qué puedes contarme sobre tu historia?
+        - **Angof:** Una pregunta amplia. Nací aquí, en Tarddiad, en el pueblo de Cysur. Yo era un orgulloso descendiente de la propia Ceidwad. Todo un manto para llevar. Pero ni siquiera ese impresionante linaje me impidió contraer la Enfermedad. Tomé el cristal antes de saber qué era. Y esa, para todos los efectos, es mi historia. Desde entonces, todos los días han estado buscando esos fragmentos de cristal. No es una existencia que recomendaría. Confieso mayor coherencia que mis hermanos, por eso me encargué de velar por ellos. Como ofrecer una alternativa a su matanza por parte de algún desventurado aventurero. Sin ofender.
+        - **Player:** Ninguno tomado.
+        - (Action: anterior|tú mismo)
+      - [Choice]: ¿Cuáles son tus opiniones sobre Seren?
+        - **Player:** ¿Cuáles son tus opiniones sobre Seren?
+        - **Angof:** Es extraño. Debería odiarla por abandonarnos. Pero yo no. Lo único que siento es una profunda tristeza porque ella no está conmigo. Extraño, ¿no?
+        - (Action: anterior|tú mismo)
+      - [Choice]: Pregunta por otra cosa.
+        - (Action: inicial|inicial)
+  - [Choice]: Háblame de los cambiaformas.
+    - **Player:** Háblame de los cambiaformas.
+    - **Angof:** ¿Qué te gustaría saber?
+    - [Menu]: Elige una opción:|anchor=cambiaformas
+      - [Choice]: ¿Cuáles son?
+        - **Player:** ¿Qué son?
+        - **Angof:** Qué pregunta. Son mi familia, mis amigos, las personas que amo. Pero, por supuesto, no lo dices así. Una vez fuimos elfos. Alto, elegante, orgulloso y noble. Pero amamos a un dios y ella nos abandonó. Después de eso, nunca podremos estar completos. Nuestras historias hablan de las innumerables muertes que siguieron al Gran Éxodo. Muerte por soledad, por un anhelo doloroso e imposible. Apuesto a que has sentido el dolor de un desamor al menos una vez en tu vida. Ahora imagina que eso aumentó en mil. Fue una agonía; tortura. Teníamos que encontrar una solución y la hicimos... hasta cierto punto. Los cristales nativos de Tarddiad retenidos trazan su resonancia. La más mínima astilla de su esencia. No eran suficientes por sí solos... pero éramos adaptables. Usando magia y una variación de la Canción de la Creación, incrustamos estos cristales dentro de nosotros mismos. Al principio ayudó. Pero simplemente reemplazamos una necesidad por otra y con el tiempo nos volvimos cada vez más dependientes de los cristales. Con el tiempo los cristales nos cambiaron. Nos convertimos en... esto. Los cristales que incrustamos dentro de nosotros mismos comenzaron a torcernos. La carne y los huesos se volvieron maleables, como la arcilla. Al principio fue una bendición. Podríamos remodelarnos y reforjarnos. Nos convertimos en nuestras armas. Nuestros artesanos ya no necesitaban crear y mantener herramientas para realizar sus manualidades. Nuestra forma era flexible y estaba limitada únicamente por nuestra creatividad. Pudo haber sido una época dorada para mi pueblo. Pero fuimos tontos al creer que no habría ningún costo. Los cristales crearon dentro de nosotros una nueva necesidad, un nuevo hambre. Un deseo insaciable de más cristales. Pero es un círculo vicioso: cuanto más adquirimos, más anhelamos. Pronto no queda nada más que la dolorosa necesidad de fragmentos de cristal. Ahora puedes ver por qué la mayoría de mis hermanos están enojados. Consumidos por completo por su hambre por los cristales.
+        - **Player:** ¿Pero tú no?
+        - **Angof:** Ja, ja. Oh, anhelo los cristales. No tienes idea de lo mucho que los anhelo. Cada minuto es una lucha. Cada pensamiento está plagado de un deseo desesperado de tener más. Pero me resisto. Recuerdo lo que yo... lo que nosotros... alguna vez fuimos y uso ese conocimiento para aferrarme. Pero estoy resbalando y basta un momento de debilidad para caer para siempre.
+        - (Action: anterior|cambiadores de forma)
+      - [Choice]: ¿Qué son los cristales?
+        - **Player:** ¿Qué son los cristales?
+        - **Angof:** Son simultáneamente nuestra salvación y nuestra perdición. Eran crecimientos naturales en Tarddiad. Los usamos en nuestras herramientas y arquitectura. Pero no fue hasta que llegó Seren que vimos su verdadero potencial. Seren era una hermosa diosa del cristal y estos cristales resonaban con ella. Sus canciones, y las nuestras, hicieron que estos cristales absorbieran la más mínima astilla de su naturaleza. Su esencia, por así decirlo. No lo suficiente como para causarle daño, o incluso para que ella lo note, pero sí lo suficiente para ser especial. También contienen suficiente esencia para contener la enfermedad. Aunque no lo suficiente para eliminarlo por completo. Pero se pueden ver claramente los profundos efectos secundarios que tienen en nosotros físicamente, aunque el efecto mental es mucho peor.
+        - (Action: anterior|cambiadores de forma)
+      - [Choice]: ¿Puedo ayudarlos?
+        - **Player:** ¿Puedo ayudarlos?
+        - **Angof:** Quizás Player, quizás. Los cristales que anhelamos también pueden ser nuestra salvación. Si puedo sacarlos lentamente de los cristales, entonces podrían volverse tan conscientes como yo. Quizás entonces, ayudándonos unos a otros, podríamos ayudarnos unos a otros a encontrar una alternativa a estos cristales.
+        - [Menu]: Selecciona una opción
+          - [Choice]: Quizás los elfos de Gielinor puedan ayudar.
+            - **Player:** {{anchor|perhaps-help}}Quizás los elfos de Gielinor puedan ayudar.
+            - **Angof:** Les pareceríamos monstruos y ¿qué podrían hacer sino vernos sufrir? No, no les creemos sentimientos de culpa ni maldijemos a los de mi especie con lástima. Quizás con el tiempo nuestro pueblo pueda reunirse, pero ese momento aún no ha llegado.
+            - (Action: anterior2|cambiadores de forma)
+          - [Choice]: Podría reunir más cristales.
+            - **Player:** Podría reunir más cristales. De todos modos, necesito reunirlos para los elfos en Gielinor.
+            - **Angof:** Sí, eso ayudaría. Podría racionarlos y ayudar a mis hermanos a recuperarse.
+            - **Player:** ¿Podrás resistir la tentación de usarlos tú mismo?
+            - **Angof:** Sinceramente, no sabría decirlo. Pero he resistido hasta ahora, con un objetivo claro en mente creo que puedo prevalecer.
+            - [Menu]: Selecciona una opción
+              - [Choice]: Quizás los elfos de Gielinor puedan ayudar.
+                - (Action: arriba|quizás-ayuda)
+              - [Choice]: [Continue]
+                - (Action: anterior2|cambiadores de forma)
+      - [Choice]: I need infused crystals|cond=Después de preguntarle a Angof si puedes ayudar a los cambiaformas de cristal:
+        - (Action: arriba|completo)
+      - [Choice]: Pregunta por otra cosa.
+        - (initial|initial)
+  - [Choice]: Tell me about Tarddiad.|cond=Antes de darle a Angof el antiguo anillo de bodas élfico:
+    - **Player:** {{anchor|aboutTarddiad}}Háblame de Tarddiad.
+    - **Angof:** ¿Qué sabrías tú?
+    - [Menu]: Elige una opción:|anchor=tarddiad
+      - [Choice]: ¿Qué pasó con la civilización élfica?
+        - **Player:** ¿Qué pasó con la civilización élfica?
+        - **Angof:** Cuando Seren nos dejó y se llevó a la mayoría de nuestra gente con ella, lo que quedó apenas fue suficiente para mantener una civilización. Nos retiramos hacia adentro, convirtiéndonos en una serie de pequeñas comunidades en lugar de las grandes ciudades de antaño. Pero sin su luz para guiarnos y protegernos, enfermamos. Luego encontramos los cristales. Empezamos a preocuparnos menos por mantener nuestra sociedad y nos centramos cada vez más en simplemente encontrar más cristales. Pronto ni siquiera hubo aldeas, nos convertimos en vagabundos. Nómadas. Buscando la próxima fuente de cristales.
+        - (Action: anterior|tarddiad)
+      - [Choice]: ¿Cuáles son estos crecimientos de cristales?
+        - **Player:** ¿Qué son estos crecimientos de cristales?
+        - **Angof:** Sí, escuché que tu Gielinor no los tenía. Pero para nosotros son tan naturales como los árboles y las rocas. Siempre han sido parte de mi mundo.
+        - (Action: anterior|tarddiad)
+      - [Choice]: ¿Cuál era la religión antes de Seren?
+        - **Player:** ¿Cuál era la religión antes de Seren?
+        - **Angof:** ¿Sabes? No tengo idea. Supongo que simplemente dejó de ser relevante. Ni siquiera estoy seguro de que tuviéramos religión antes que ella. Trabajamos con la tierra, venerando lo que era, más que lo intangible.
+        - (Action: anterior|tarddiad)
+      - [Choice]: Pregunta por otra cosa.
+        - (Action: inicial|inicial)
+  - [Choice]: [Leave]|cond=Antes de darle a Angof el antiguo anillo de bodas élfico:
+    - (end)
+  - [Choice]: [More...]|cond=Después de darle a Angof el antiguo anillo de bodas élfico:
+    - [Choice]: Háblame de Tarddiad.
+      - (Action: arriba|sobreTarddiad)
+    - [Choice]: Háblame de Maldwyn.
+      - (continue|Maldwyn)
+    - [Choice]: [Leave]
+      - (end)
+    - [Choice]: [More...]
+      - (previous|initial)
+
+#### Usando un antiguo anillo de bodas élfico en Angof
+
+- **Player:** Encontré este anillo, ¿significa algo para ti?
+- (removes=one ancient elven wedding ring)
+- Nueva entrada de registro de colección: Anillo de bodas élfico antiguo
+- (Condition: Si esta fue la primera vez que le dio el anillo a Angof:)
+  - Has completado: 'Angs Off My Ring' - Devuelve el anillo de bodas después de 'The Light Within'.
+  - (continue)
+- **Angof:** Déjame ver eso...
+- **Angof:** No... Maldwyn.
+- **Angof:** Él... él es... era... mi marido.
+- [Menu]: Selecciona una opción
+  - [Choice]: Lo siento.
+    - **Player:** Lo siento.
+    - **Angof:** No te culpo Player. Imagino que te dejó pocas opciones y, si te soy sincera, lo perdí hace mucho tiempo.
+    - [Menu]: Selecciona una opción
+      - [Choice]: Háblame de Maldwyn.
+        - **Player:** Háblame de Maldwyn.
+        - **Angof:** Es doloroso hablar de él, pero lo intentaré. ¿Qué te gustaría saber?
+        - [Menu]: Elija una opción:|anchor=maldQs
+          - [Choice]: cond=Only if not asked last or if "You weren't always female?" was asked previously:|¿Cómo os conocisteis?
+            - **Player:** ¿Cómo se conocieron?
+            - **Angof:** Originalmente crecimos juntos, antes de que ambos nos perdiéramos en el cristal.
+            - **Angof:** Solíamos correr juntos por el bosque, jugando a los juegos que suelen jugar los niños pequeños.
+            - [Menu]: Selecciona una opción
+              - [Choice]: [No {{Sic|interupt]}}
+                - **Angof:** Nos distanciamos a medida que los cristales se apoderaban de nosotros. Pero nos volvimos a encontrar hace unos años y nos convertimos en la roca del otro.
+                - **Angof:** Nos manteníamos alejados de los cristales y nos apoyábamos mutuamente en los momentos más dolorosos.
+                - **Angof:** No éramos perfectos. Fallamos más de una vez. Pero estábamos allí para ayudar al otro cuando lo hiciéramos.
+                - **Angof:** Finalmente me propuso matrimonio y acepté.
+                - **Angof:** Pero eso fue hace mucho tiempo.
+                - (previous2|maldQs)
+              - [Choice]: Espera, ¿chicos jóvenes?
+                - **Player:** Espera, ¿chicos jóvenes?
+                - **Angof:** Sí. Este cuerpo nació, incorrectamente, masculino. Cambié eso.
+                - [Menu]: Selecciona una opción
+                  - [Choice]: ¿No siempre fuiste mujer?
+                    - **Player:** ¿No siempre fuiste mujer?
+                    - **Angof:** Dices eso como si fuera inusual. Somos cambiaformas, el género para nosotros no es una constante.
+                    - **Angof:** A veces nacemos en un cuerpo que no es el nuestro. Sin el cristal, ese sería el final, pero tuve la suerte de poder corregir ese error.
+                    - **Angof:** Lo que yo era es irrelevante. Lo que soy es lo único que importa.
+                    - (above|maldQs)
+                  - [Choice]: Lo siento, continúa tu historia.
+                    - **Player:** Lo siento, continúa tu historia.
+                    - **Angof:** Como deseas, ¿ahora dónde estaba?
+                    - (above|interrupt)
+          - [Choice]: cond=Only after asking something else after just having given a ring or not having just given a ring, and not asked last:|¿No siempre fuiste mujer?
+            - (above|You weren't)
+          - [Choice]: cond=Only if not asked last:|¿Cómo era él?
+            - **Player:** ¿Cómo era él?
+            - **Angof:** Práctico. Sabía lo que necesitábamos y se aseguró de que lo tuviéramos.
+            - **Angof:** Este no es un mundo donde los grandes gestos románticos sigan siendo relevantes.
+            - **Angof:** Lo importante... lo que amaba de él... era que nos mantenía a salvo, vivos y cuerdos.
+            - **Angof:** Tenía un sentido del humor seco y un sentido apropiado del ritmo cómico. Sabía qué decir cuando estaba estresada y cuándo no decir nada.
+            - **Angof:** Él podría hacerme olvidar esta horrible vida, aunque solo sea por un pequeño momento perfecto.
+            - **Angof:** Y ahora se ha ido.
+            - (previous|maldQs)
+          - [Choice]: cond=Only if not asked last:|¿Estás bien?
+            - **Player:** ¿Estás bien?
+            - **Angof:** En muchos sentidos, ha estado muerto para mí durante años. Entonces sobreviviré.
+            - **Angof:** ¿Pero estoy bien? No Player, no he estado bien durante muchos... muchos años.
+            - (previous|maldQs)
+          - [Choice]: Pregunta por otra cosa.
+            - (continuea|initial)
+      - [Choice]: Te daré algo de espacio.
+        - **Player:** Te daré algo de espacio.
+        - **Angof:** Gracias.
+  - [Choice]: Ups
+    - **Player:** Ups.
+    - **Angof:** No, no, por favor, ríase de esto. Has masacrado al amor de mi vida. Mi única luz en una vida de oscuridad interminable y empalagosa.
+    - **Angof:** Pero no, adelante, ríete.

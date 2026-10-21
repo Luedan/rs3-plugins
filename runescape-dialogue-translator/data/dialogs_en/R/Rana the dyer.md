@@ -1,0 +1,102 @@
+# Rana the dyer
+
+- **Original Wiki Page**: [Transcript:Rana the dyer](https://runescape.wiki/w/Transcript%3ARana%20the%20dyer)
+- **Letter**: `R`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Player:** Wow! look at this place, it's so colourful.
+- **Rana the Dyer:** Why thank you. Can I help you with anything?
+- **Player:** I take it by the clothes you are wearing and this room that you are in the dye trade?
+- **Rana the Dyer:** How observant of you.
+- [Menu]: Select an Option
+  - [Choice]: Could you make some dye for me please?
+    - **Player:** Could you make some dye for me please?
+    - **Rana the Dyer:** What colour dye do you want? I can make you blue, red or yellow dyes for you. If you bring me the correct raw materials.
+    - [Menu]: Select an Option
+      - [Choice]: What do you need to make red dye?
+        - **Player:** What do you need to make red dye?
+        - **Rana the Dyer:** Hmm... 3 lots of redberries should do the trick and 25 coins should cover any other costs.
+        - [Menu]: Select an Option
+          - [Choice]: Okay, make me some red dye please.
+            - (Condition: If the player does not have three redberries:)
+              - You don't have enough berries to make the red dye.
+            - (Condition: If the player has three redberries but less than 25 coins:)
+              - You can not afford that.
+              - You don't have enough coins to pay for the dye.
+            - (Condition: If the player has three redberries and 25 coins:)
+              - (removes=three redberries and 25 coins) (receives=red dye)
+              - You hand the redberries and some coins to Rana, who then rummages around some shelves, eventually finding a red bottle, which she then hands to you.
+          - [Choice]: I don't think I have all the ingredients yet.
+            - **Player:** I don't think I have all the ingredients yet.
+            - **Rana the Dyer:** You know what you need to get, now come back when you have them. Goodbye for now.
+          - [Choice]: I can do without dye at that price.
+            - **Player:** I can do without dye at that price.
+            - **Rana the Dyer:** Fair enough, I still think that the price is fairly reasonable considering that I'm the only source of dye this side of the Shantay Pass.
+          - [Choice]: Where would I find a redberry bush?
+            - **Player:** Where would I find a redberry bush?
+            - **Rana the Dyer:** Well you could try growing them. They shouldn't be too hard to grow.
+            - **Player:** If I didn't care to grow my own, where else could I get some?
+            - **Rana the Dyer:** Well I know for sure that the desert climate wouldn't suit them. I have mine picked for me in the woods south of Varrock.
+      - [Choice]: What do you need to make yellow dye?
+        - **Player:** What do you need to make yellow dye?
+        - **Rana the Dyer:** Yellow is an awkward colour to recreate, I guess if you  me 2 onions I could use their skins to make a warm yellow dye for you. Oh yes and lest I forget I'll need 25 coins to cover the cost of the glass ware and my wages.
+        - [Menu]: Select an Option
+          - [Choice]: Okay, make me some yellow dye please.
+            - (Condition: If the player does not have two onions:)
+              - You don't have enough onions to make the yellow dye.
+            - (Condition: If the player has two onions but less than 25 coins:)
+              - You can not afford that.
+              - You don't have enough coins to pay for the dye.
+            - (Condition: If the player has two onions and 25 coins:)
+              - (removes=two onions and 25 coins) (receives=yellow dye)
+              - You hand two onions to Rana, who then rummages around some shelves, eventually finding a yellow bottle, which she then hands to you.
+          - [Choice]: I don't think I have all the ingredients yet.
+            - (above)
+          - [Choice]: I can do without dye at that price.
+            - (above)
+          - [Choice]: Where would I find some onions?
+            - **Player:** Where would I find some onions?
+            - **Rana the Dyer:** Generally you would find onions in vegetable gardens, silly.
+            - **Player:** Ok you have me there but is there anywhere around here where I could get my hands on some onions?
+            - **Rana the Dyer:** I really don't know. A friend of mine grows hers on a  near Draynor village. But that's a little far from here to be useful.
+      - [Choice]: What do you need to make blue dye?
+        - **Player:** What do you need to make blue dye?
+        - **Rana the Dyer:** To make a bottle of blue dye I'll need 2 woad leaves and 25 coins from you.
+        - [Menu]: Select an Option
+          - [Choice]: Okay, make me some blue dye please.
+            - (Condition: If the player does not have two woad leaves:)
+              - You don't have enough woad leaves to make the blue dye.
+            - (Condition: If the player has two woad leaves but less than 25 coins:)
+              - You can not afford that.
+              - You don't have enough coins to pay for the dye.
+            - (Condition: If the player has two woad leaves and 25 coins:)
+              - (removes=two woad leaves and 25 coins) (receives=blue dye)
+              - You hand the woad leaves and some coins to Rana, who then rummages around some shelves, eventually finding a blue bottle, which she then hands to you.
+          - [Choice]: I don't think I have all the ingredients yet.
+            - (above)
+          - [Choice]: I can do without dye at that price.
+            - (above)
+          - [Choice]: Where can I get some woad leaves?
+            - **Player:** Where can I get some woad leaves?
+            - **Rana the Dyer:** Woad leaves are fairly fairly hard to find round here. My other customers tell me that there's a gardener in Falador who grows them.
+      - [Choice]: On second thoughts I don't really need any dye.
+        - **Player:** On second thoughts, I don't think that I need some dye right now.
+  - [Choice]: How did you get into the colour business?
+    - **Rana the Dyer:** Well, it's quite simple really my mother was a drysalter and I learnt the trade from her.
+    - **Player:** Umm, what's a drysalter, it isn't a medical condition is it?
+    - **Rana the dyer:** No silly, it's someone who deals with preservatives and dyes. I didn't really enjoy the preservatives side of the things so I've chosen to deal solely in dyeing.
+    - **Player:** So how's business then?
+    - **Rana the Dyer:** It's a dyeing trade! Oh gosh I'm sorry that was a truly dreadful joke.
+    - **Player:** Hmm yes, about the worst I've heard today at least.
+    - **Rana the Dyer:** Thanks. But really, it's not the best around here. nearly everyone in this town wears only white, which means I don't exactly do a roaring trade. Now is there anything I can get you?
+    - [Menu]: Select an Option
+      - [Choice]: Could you make some dye for me please?
+        - (above)
+      - [Choice]: No thanks, I'm just having a look around.
+        - **Player:** No thanks, I'm just having a look around.

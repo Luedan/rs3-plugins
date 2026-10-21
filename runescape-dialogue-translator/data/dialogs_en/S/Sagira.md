@@ -1,0 +1,66 @@
+# Sagira
+
+- **Original Wiki Page**: [Transcript:Sagira](https://runescape.wiki/w/Transcript%3ASagira)
+- **Letter**: `S`
+
+---
+
+## Dialogue Transcript
+
+- **Player:** Hello.
+- **Sagira:** Hi, can I help you with something?
+- **Player:** You're not from around here are you?
+- **Sagira:** Why do you say that?
+- **Player:** Well your accent for one sounds a little funny, and you seem to have a little more colour than most dwarves.
+- **Sagira:** Living under a mountain isn't the best way to get a tan. No I'm not from around here. I was born and worked most of my life in the desert.
+- **Sagira:** Just even thinking of the place makes me thirsty. Now can I help you with anything?
+- **Player:** So how do these rat pits work?
+- **Sagira:** The Keldagrim pits cater for those with the larger variety of cats.
+- **Sagira:** If you have an overgrown cat and a couple of coins you can challenge someone else who also has an overgrown cat and some spare change.
+- **Player:** That sounds simple enough so far.
+- **Sagira:** You then agree on a wager. It's rumoured that some ratcatchers can talk to their own cats and give them tactics to aid them.
+- **Player:** So then how do you win the challenge?
+- **Sagira:** I was just getting to that. Both the gamblers' cats are placed inside of the fenced off area, and whoever kills 9 rats first wins.
+  - **Player:** That sounds vile and cruel.
+    - **Sagira:** It's a cruel world and the pits are no exception.
+    - **Sagira:** To each their own I say.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** It sounds a little dangerous for my cat.
+    - **Sagira:** I agree. Cats have been known to be killed in fights.
+    - **Player:** Oh how terrible. Is there nothing you can do to save your cat?
+    - **Sagira:** Of course there is, you can instruct it to be cautious, and it will leave once it feels as if it is in danger.
+    - **Player:** Oh that sounds quite wise.
+    - **Sagira:** That depends on how you value your cat.
+    - **Player:** Sorry, I don't follow.
+    - **Sagira:** Well if your cat dies or it runs away you lose.
+    - **Sagira:** So the longer it stays in the fight the better chance you have of winning.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Wow that sounds like fun!
+    - **Sagira:** I don't know about that.
+    - **Sagira:** One thing I know though is that it's a quick way to make and lose money.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Is there a limit to how much you can bet?
+    - **Sagira:** Hmmm...let me see. If I'm not mistaken, you can currently bet up to a maximum of [number] coins.
+    - **Player:** That sounds like a silly amount of money to bet on a cat fight.
+    - **Sagira:** You'd be surprised what some people would be willing to bet.
+    - **Sagira:** There is a minimum bet of 100 coins too.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.
+  - **Player:** Can I challenge you and your cat?
+    - **Sagira:** No, not now, we don't really bet with outsiders.
+    - **Player:** But I'm not an outsider, am I not inside in the pits now?
+    - **Sagira:** I don't know, maybe once you've done something to win over my trust.
+    - **Player:** Can it be bought?
+    - **Sagira:** What?
+    - **Player:** Your trust.
+    - **Sagira:** No. Regular townsfolk don't like us, which leads us to distrust them and anyone else.
+      - **Player:** One more thing...
+        - *[returns to responses]*
+      - **Player:** Thanks for your help.

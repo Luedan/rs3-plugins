@@ -1,0 +1,143 @@
+# Gudrik
+
+- **Original Wiki Page**: [Transcript:Gudrik](https://runescape.wiki/w/Transcript%3AGudrik)
+- **Letter**: `G`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Talk to
+
+- **Gudrik:** ¡Hola, [laddie/lassie]! ¿Qué puedo hacer por ti?
+- {{anchor|initial-options}} [Menú]: Elija una opción:
+  - [Choice]: cond=If the player has not completed A Shadow over Ashdale:|Pregunte sobre Una sombra sobre Ashdale.
+    - (ver | Una sombra sobre Ashdale)
+  - [Choice]: ¿Puedes llevarme a la isla de Ashdale?
+    - {{anchor|travel-to-ashdale}} [Menú]: ¿Te gustaría viajar a la isla de Ashdale?
+      - [Choice]: Sí.
+        - (Action: La pantalla se desvanece y luego aparece. el player aparece en los muelles del sur de Ashdale.)
+      - [Choice]: No.
+        - (initial|initial-options)
+  - [Choice]: ¿Tienes algo para mí?
+    - (Condition: Si el player no tiene el tocado de Morwenna, el equipo completo del explorador, el diario del contrabandista o la entrada del diario:)
+      - (Condition: Si el player no tiene el tocado de Morwenna:)
+        - [Menu]: ¿Reclamar el tocado de Morwenna?
+          - [Choice]: Sí.
+            - (Condition: Si el player no tiene al menos un espacio backpack libre:)
+              - [Necesitas un espacio de inventario libre para reclamar el tocado de Morwenna.]
+            - (Condition: Si el player tiene al menos un espacio backpack libre:)
+              - (receives=Morwenna's headdress)
+              - [Gudrik te regala el tocado de Morwenna.]
+              - (continue)
+          - [Choice]: No.
+            - (continue)
+      - (Condition: Si el player no tiene configurado el equipo Pathfinder completo:)
+        - [Menu]: ¿Reclamar equipo Pathfinder?
+          - [Choice]: Sí.
+            - (Condition: Si el player no tiene al menos 11 espacios backpack libres:)
+              - Necesitas 11 espacios libres en tu backpack para reclamar el equipo Pathfinder.
+            - (Condition: Si el player tiene al menos 11 espacios backpack libres:)
+              - (Condition: Si el player no tiene la chaqueta Pathfinder:)
+                - (receives=pathfinder jacket)
+                - [Gudrik te regala la chaqueta Pathfinder.]
+                - (continue)
+              - (Condition: Si el player no tiene el pantalón Pathfinder:)
+                - (receives=pathfinder trousers)
+                - [Gudrik te regala los pantalones Pathfinder.]
+                - (continue)
+              - (Condition: Si el player no tiene la capucha Pathfinder:)
+                - (receives=pathfinder hood)
+                - [Gudrik te ofrece la capucha Pathfinder.]
+                - (continue)
+              - (Condition: Si el player no tiene los guantes Pathfinder:)
+                - (receives=pathfinder gloves)
+                - [Gudrik te regala los guantes Pathfinder.]
+                - (continue)
+              - (Condition: Si el player no tiene las botas Pathfinder:)
+                - (receives=pathfinder boots)
+                - [Gudrik te ofrece las botas Pathfinder.]
+                - (continue)
+              - (Condition: Si el player no tiene la capa de buscador de caminos:)
+                - (receives=pathfinder cape)
+                - [Gudrik te regala la capa de conquistador.]
+                - (continue)
+              - (Condition: Si el player no tiene el amuleto de la potencia:)
+                - (receives=amulet of potency)
+                - [Gudrik te regala el Amuleto de la Potencia.]
+                - (continue)
+              - (Condition: Si el player no tiene el anillo de potencia:)
+                - (receives=ring of potency)
+                - [Gudrik te ofrece el Anillo de Potencia.]
+                - (continue)
+              - (Condition: Si el player no tiene cuchilla afilada:)
+                - (receives=keenblade)
+                - [Gudrik te ofrece una espada afilada.]
+                - (continue)
+              - (Condition: Si el player no tiene arco rápido:)
+                - (receives=quickbow)
+                - [Gudrik te da una reverencia.]
+                - (continue)
+              - (Condition: Si el player no tiene un mindspike:)
+                - (receives=mindspike (air))
+                - [Gudrik te da un alucinación.]
+                - (continue)
+          - [Choice]: No.
+            - (continue)
+      - (Condition: Si el player no tiene el diario del contrabandista:)
+        - [Menu]: ¿Reclamar el diario del contrabandista?
+          - [Choice]: Sí.
+            - (Condition: Si el player no tiene al menos un espacio backpack libre:)
+              - [Necesitas un espacio de inventario libre para reclamar el diario del contrabandista.]
+            - (Condition: Si el player tiene al menos un espacio backpack libre:)
+              - (receives=smuggler's journal)
+              - [Gudrik te entrega el diario del contrabandista.]
+              - (continue)
+          - [Choice]: No.
+            - (continue)
+      - (Condition: Si el player no tiene el asiento de diario:)
+        - [Menu]: ¿Asiento en el diario de reclamaciones?
+          - [Choice]: Sí.
+            - (Condition: Si el player no tiene al menos un espacio backpack libre:)
+              - [Necesita un espacio de inventario gratuito para reclamar el asiento de diario.]
+            - (Condition: Si el player tiene al menos un espacio backpack libre:)
+              - (receives=journal entry)
+              - [Gudrik le proporciona la entrada del diario.]
+              - (initial|initial-options)
+          - [Choice]: No.
+            - (initial|initial-options)
+    - (Condition: Si el player tiene el tocado de Morwenna, el equipo completo del explorador, el diario del contrabandista y la entrada del diario:)
+      - **Gudrik:** No tengo recompensas que darte, [laddie/lassie].
+      - (initial|initial-options)
+  - [Choice]: Me gustaría preguntarte algo más.
+    - **Gudrik:** Dispara.
+    - {{anchor|other-questions}} [Menú]: seleccione una opción
+      - [Choice]: Háblame de ti.
+        - **Gudrik:** ¡Estoy disfrutando de mi jubilación, [laddie/lassie]!
+        - **Gudrik:** Fui aventurero durante más de ochenta años, ya sabes, y probablemente exploré cada mazmorra, ruina y tumba en Gielinor, así que siento que me he ganado un pequeño descanso.
+        - **Gudrik:** ¡Pero eso fue hace muchas lunas, cuando todavía tenía todas mis extremidades! <br/> Estos días prefiero dejar la lucha a otros.
+        - (previous|other-questions)
+      - [Choice]: ¿Cómo perdiste tu brazo?
+        - **Gudrik:** Sucedió hace años. Estaba explorando el Kharidian Desert y accidentalmente alteré una colmena de Kalphite.
+        - **Gudrik:** Pequeños y viciosos plagadores, esos calfitos.
+        - **Gudrik:** Me invadieron y... bueno, puedes ver el resultado por ti mismo. <br/> Hace que abrir frascos sea un desafío, te lo puedo asegurar.
+        - (previous|other-questions)
+      - [Choice]: Cuéntame sobre la historia de Gielinor.
+        - **Gudrik:** Nuestra historia registrada se remonta a unos 12.000 años y se divide en seis eras, cada una de las cuales representa un período importante en la historia de Gielinor.
+        - **Gudrik:** La Sexta Edad, en la que nos encontramos ahora, comenzó cuando el dios Guthix fue asesinado. Después de eso, los dioses más jóvenes comenzaron a regresar al mundo.
+        - **Gudrik:** Es una época de grandes cambios... y de gran peligro.
+        - (previous|other-questions)
+      - [Choice]: Cuéntame sobre la cultura de Gielinor.
+        - **Gudrik:** Hay muchas culturas diferentes en el mundo, algunas amigables y otras no tan amigables. Los humanos son los más numerosos, por supuesto, pero los enanos y los duendes también son bastante comunes.
+        - **Gudrik:** Luego tienes tus trolls y gigantes, tu vampyres y hombres lobo, gnomos y elfos, mahjarrat y el icyene... ¡la lista continúa!
+        - (previous|other-questions)
+      - [Choice]: Basta de preguntas.
+        - (initial|initial-options)
+  - [Choice]: Adiós.
+    - (end)
+
+### Travel to Ashdale
+
+- (above|travel-to-ashdale)

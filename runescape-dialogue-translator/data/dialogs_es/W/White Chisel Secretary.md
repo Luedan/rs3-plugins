@@ -1,0 +1,378 @@
+# White Chisel Secretary
+
+- **Original Wiki Page**: [Transcript:White Chisel Secretary](https://runescape.wiki/w/Transcript%3AWhite%20Chisel%20Secretary)
+- **Letter**: `W`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+- ''Nota: Antes y durante el Enano Gigante, todas las empresas comienzan con una reputación media. Después de The Giant Dwarf, la empresa elegida por el player tendrá permanentemente la mayor reputación, mientras que todas las demás empresas tendrán una reputación baja.
+
+### Low reputation
+
+- ''Uno de los siguientes diálogos se reproduce al azar:
+  - Diálogo 1:
+    - **White Chisel Secretary:** No tengo mucho tiempo para ti, ¿qué quieres?
+  - Diálogo 2:
+    - **White Chisel Secretary:** Estás bloqueando mi vista, humano, así que date prisa.
+  - Diálogo 3:
+    - **White Chisel Secretary:** ¿Podemos apurarnos?
+  - Diálogo 4:
+    - **White Chisel Secretary:** ¡Di lo que quieras o sal de nuestra oficina, humano!
+  - Diálogo 5:
+    - **White Chisel Secretary:** No pongas a prueba la paciencia del Cincel Blanco, humano. ¡Di lo que necesites!
+  - Diálogo 6:
+    - **White Chisel Secretary:** Creo que perdí mi pluma en alguna parte...
+    - **White Chisel Secretary:** Ah, ¿y qué querías?
+- '''Elige una opción: {{anchor|xzx}}
+  - [Choice]: ¿Quién eres?
+    - **Player:** ¿Quién eres?
+    - **White Chisel Secretary:** Soy el secretario principal del White Chisel.
+    - **Player:** ¿El qué?
+    - **White Chisel Secretary:** El cincel blanco. Somos una de las empresas más poderosas de todo el reino de los enanos, lo somos. Nos hemos vuelto tan poderosos que ahora somos parte del Consorcio.
+    - (initial)
+  - [Choice]: ¿Dónde estoy?
+    - **Player:** ¿Dónde estoy?
+    - ''Una de las siguientes respuestas se reproduce al azar:
+      - Diálogo 1:
+        - **White Chisel Secretary:** ¡No estoy aquí para dar instrucciones!
+      - Diálogo 2:
+        - **White Chisel Secretary:** ¿Te parezco un guía turístico?
+      - Diálogo 3:
+        - **White Chisel Secretary:** Te lo diría, humano, pero de todos modos no lo entenderías.
+      - Diálogo 4:
+        - **White Chisel Secretary:** Estas son las oficinas del Cincel Blanco.
+        - **White Chisel Secretary:** Compartimos esta planta del palacio con el resto de empresas del Consorcio. Y comercie con ellos en el octágono comercial.
+        - **Player:** ¿El octágono comercial?
+        - **White Chisel Secretary:** ¿Ves a esos comerciantes parados ahí afuera, justo afuera de la puerta? Todos están parados en el octágono comercial. Hay muchísimo comercio en el palacio, ¿sabes?
+        - **Player:** ¿Algo más de interés en el palacio?
+        - **White Chisel Secretary:** Me temo que tendrás que descubrirlo por tu cuenta. Tengo más trabajo que hacer.
+        - (initial)
+  - [Choice]: ¿Hay algo en lo que pueda ayudarte?
+    - **Player:** ¿Hay algo en lo que pueda ayudarte?
+    - ''Una de las siguientes respuestas se reproduce al azar:
+      - Diálogo 1:
+        - **White Chisel Secretary:** Ven a redimirte en nuestra empresa, ¿verdad?
+      - Diálogo 2:
+        - **White Chisel Secretary:** ¿Entonces de repente estás buscando trabajo con nosotros?
+      - Diálogo 3:
+        - **White Chisel Secretary:** Tienes suerte de que el Cincel Blanco sea muy indulgente, humano.
+      - Diálogo 4:
+        - **White Chisel Secretary:** No estoy seguro de poder asignarle una tarea a alguien como tú, lo comprobaré.
+        - **White Chisel Secretary:** Muy bien, has sido autorizado.
+      - Diálogo 5:
+        - **White Chisel Secretary:** Tus motivos son cuestionables, pero te daremos una oportunidad.
+    - **White Chisel Secretary:** Necesitamos [número] piezas de [ore] en los próximos minutos [número].
+    - '''Selecciona una opción
+      - [Choice]: Yo lo tomaré.
+        - **Player:** Lo aceptaré.
+        - ''El Secretario responde con uno de los siguientes al azar:
+          - Diálogo 1:
+            - **White Chisel Secretary:** No decepciones al Cincel Blanco, humano.
+          - Diálogo 2:
+            - **White Chisel Secretary:** ¡Vete entonces! ¡Cuanto más tiempo estés aquí, más tiempo perderás!
+          - Diálogo 3:
+            - **White Chisel Secretary:** ¡Date prisa o no vuelvas!
+          - Diálogo 4:
+            - **White Chisel Secretary:** Esperemos haberme equivocado contigo, humano.
+          - Diálogo 5:
+            - **White Chisel Secretary:** ¡Será mejor que no falles!
+      - [Choice]: No gracias.
+        - **Player:** No, gracias.
+        - ''El Secretario responde con uno de los siguientes al azar:
+          - Diálogo 1:
+            - **White Chisel Secretary:** Oh, ¿entonces viniste a hacerme perder el tiempo? ¡Adiós!
+          - Diálogo 2:
+            - **White Chisel Secretary:** ¡Decir algo así después de la misericordia que te acabo de mostrar! ¡Irse!
+          - Diálogo 3:
+            - **White Chisel Secretary:** ¡Te atreves!
+          - Diálogo 4:
+            - **White Chisel Secretary:** Pensé que no lo harías. ¡Ahora sal de aquí!
+          - Diálogo 5:
+            - **White Chisel Secretary:** ¡Vete ahora, no me hagas llamar al Black Guard para echarte!
+          - Diálogo 6:
+            - **White Chisel Secretary:** ¡Entonces sal de nuestra oficina!
+          - Diálogo 7:
+            - **White Chisel Secretary:** El Cincel Blanco te ofrece una oportunidad ¿y dices esto? ¡Sólo mantente alejado!
+    - ''Si el player ya está en una tarea:
+      - **White Chisel Secretary:** ¿Ya has completado tu tarea actual? ¿Me conseguiste mis piezas [número] de [ore]?
+      - **Player:** No, todavía no.
+      - **White Chisel Secretary:** Eres una vergüenza para el Cincel Blanco. Date prisa si quieres redimirte.
+      - (initial)
+    - ''Si el player ya está en una tarea de otra empresa:
+      - **White Chisel Secretary:** Vuelve con tus amigos del [other Company], he oído que estás aliado con ellos.
+      - (initial)
+  - [Choice]: ¡Tengo que irme!
+    - **Player:** ¡Me tengo que ir!
+    - ''Una de las siguientes respuestas se reproduce al azar:
+      - Diálogo 1:
+        - **White Chisel Secretary:** Finalmente... por fin volvemos al trabajo.
+      - Diálogo 2:
+        - **White Chisel Secretary:** Bien.
+      - Diálogo 3:
+        - **White Chisel Secretary:** No te apresures a regresar.
+      - Diálogo 4:
+        - **White Chisel Secretary:** La puerta está por ahí. Te sugiero que lo uses.
+      - Diálogo 5:
+        - **White Chisel Secretary:** Y adiós.
+
+#### Entregar una tarea
+
+- **Player:** ¡He completado tu tarea! ¡Aquí está tu mineral!
+- (removes=ore) (receives=coins)
+- ''El Secretario responde con uno de los siguientes al azar:
+  - Diálogo 1:
+    - **White Chisel Secretary:** Qué inusual para ti, pero de todos modos se agradece.
+  - Diálogo 2:
+    - **White Chisel Secretary:** El Cincel Blanco se alegra de que, después de todo, la confianza que depositó en ti no haya sido avergonzada.
+  - Diálogo 3:
+    - **White Chisel Secretary:** Es una sorpresa bastante agradable e inesperada.
+  - Diálogo 4:
+    - **White Chisel Secretary:** Quizás me equivoqué contigo después de todo...
+  - Diálogo 5:
+    - **White Chisel Secretary:** Gracias... Supongo.
+- (continuea|xzx)
+
+### Medium reputation
+
+- ''Uno de los siguientes diálogos se reproduce al azar:
+  - Diálogo 1:
+    - **White Chisel Secretary:** ¿Qué necesitabas del Cincel Blanco?
+  - Diálogo 2:
+    - **White Chisel Secretary:** ¿Y qué puedo hacer por ti?
+  - Diálogo 3:
+    - **White Chisel Secretary:** ¿Hay algo con lo que necesites ayuda?
+  - Diálogo 4:
+    - **White Chisel Secretary:** ¿Puedo ayudarte en algo?
+  - Diálogo 5:
+    - **White Chisel Secretary:** ¿Había algo que quisieras?
+  - Diálogo 6:
+    - **White Chisel Secretary:** ¿Qué puedo hacer por ti, humano?
+- '''Elige una opción: {{anchor|zxc}}
+  - [Choice]: ¿Quién eres?
+    - (arriba)
+  - [Choice]: ¿Dónde estoy?
+    - **Player:** ¿Dónde estoy?
+    - **White Chisel Secretary:** Vaya, esta es la sede del White Chisel.
+    - **White Chisel Secretary:** Compartimos esta planta del palacio con el resto de empresas del Consorcio. Y comercie con ellos en el octágono comercial.
+    - **Player:** ¿El octágono comercial?
+    - **White Chisel Secretary:** ¿Ves a esos comerciantes parados ahí afuera, justo afuera de la puerta? Todos están parados en el octágono comercial. Hay muchísimo comercio en el palacio, ¿sabes?
+    - **Player:** ¿Algo más de interés en el palacio?
+    - **White Chisel Secretary:** Me temo que tendrás que descubrirlo por tu cuenta. Tengo más trabajo que hacer.
+    - (initial)
+  - [Choice]: ¿Hay algo en lo que pueda ayudarte?
+    - **Player:** ¿Hay algo en lo que pueda ayudarte?
+    - ''Una de las siguientes respuestas se reproduce al azar:
+      - Diálogo 1:
+        - **White Chisel Secretary:** Siempre hay trabajo por hacer, sí.
+      - Diálogo 2:
+        - **White Chisel Secretary:** Un momento.
+      - Diálogo 3:
+        - **White Chisel Secretary:** Sí, ¡el Cincel Blanco siempre tiene trabajo que hacer!
+      - Diálogo 4:
+        - **White Chisel Secretary:** Veamos... sí, sí, tengo una tarea para ti.
+      - Diálogo 5:
+        - **White Chisel Secretary:** Sí, creo que tenemos algo para ti.
+      - Diálogo 6:
+        - **White Chisel Secretary:** Creo que tenemos trabajo disponible, sí.
+    - **White Chisel Secretary:** Necesitamos [número] piezas de [ore] en los próximos minutos [número].
+    - '''Selecciona una opción
+      - [Choice]: Yo lo tomaré.
+        - **Player:** Lo aceptaré.
+        - ''El Secretario responde con uno de los siguientes al azar:
+          - Diálogo 1:
+            - **White Chisel Secretary:** El Cincel Blanco ha notado tu voluntad de ayudar.
+          - Diálogo 2:
+            - **White Chisel Secretary:** Ese mineral debe estar pronto en la sala de operaciones, jugador, por favor regresa con él.
+          - Diálogo 3:
+            - **White Chisel Secretary:** Gracias, se agradece.
+          - Diálogo 4:
+            - **White Chisel Secretary:** El tiempo corre, por favor regresa rápido.
+          - Diálogo 5:
+            - **White Chisel Secretary:** Entonces, esperaré tu regreso pronto.
+      - [Choice]: No gracias.
+        - **Player:** No, gracias.
+        - ''El Secretario responde con uno de los siguientes al azar:
+          - Diálogo 1:
+            - **White Chisel Secretary:** Muy bien, ¿tal vez en otro momento?
+          - Diálogo 2:
+            - **White Chisel Secretary:** Por favor, le agradeceríamos que tomara una decisión antes de preguntar. Estoy muy ocupado, ¿sabes?
+          - Diálogo 3:
+            - **White Chisel Secretary:** Por favor, en ese caso, estás perdiendo el tiempo.
+          - Diálogo 4:
+            - **White Chisel Secretary:** Es lamentable escuchar eso.
+          - Diálogo 5:
+            - **White Chisel Secretary:** Para ser honesto, no puedo decir que esté muy contento de escuchar eso.
+          - Diálogo 6:
+            - **White Chisel Secretary:** Eso no te refleja bien.
+          - Diálogo 7:
+            - **White Chisel Secretary:** El Cincel Blanco no está muy contento de escuchar eso.
+    - ''Si el player ya está en una tarea:
+      - **White Chisel Secretary:** ¿Ya has completado tu tarea actual? ¿Me conseguiste mis piezas [número] de [ore]?
+      - **Player:** No, todavía no.
+      - **White Chisel Secretary:** Entonces, por favor, apúrate antes de que se acabe el tiempo.
+      - (initial)
+    - ''Si el player ya está en una tarea de otra empresa:
+      - **White Chisel Secretary:** Por lo que tengo entendido, primero tienes algunos asuntos que terminar con el [other Company].
+      - (initial)
+  - [Choice]: ¡Tengo que irme!
+    - **Player:** ¡Me tengo que ir!
+    - ''Una de las siguientes respuestas se reproduce al azar:
+      - Diálogo 1:
+        - **White Chisel Secretary:** Hasta luego.
+      - Diálogo 2:
+        - **White Chisel Secretary:** Está bien.
+      - Diálogo 3:
+        - **White Chisel Secretary:** Adiós, humano.
+
+#### Entregar una tarea
+
+- **Player:** ¡He completado tu tarea! ¡Aquí está tu mineral!
+- (removes=ore) (receives=coins)
+- ''El Secretario responde con uno de los siguientes al azar:
+  - Diálogo 1:
+    - **White Chisel Secretary:** Tengo que admitir que estuve preocupado por un momento, pero me alegra ver que nos ayudaste.
+  - Diálogo 2:
+    - **White Chisel Secretary:** Me alegra comprobar que la confianza que depositamos en vosotros no ha sido en vano.
+  - Diálogo 3:
+    - **White Chisel Secretary:** Y ni un minuto tarde también. Bien hecho.
+  - Diálogo 4:
+    - **White Chisel Secretary:** El White Chisel reconoce tu desempeño.
+  - Diálogo 5:
+    - **White Chisel Secretary:** Es bueno escucharlo, gracias.
+- (continuea|zxc)
+
+### High reputation
+
+- ''Uno de los siguientes diálogos se reproduce aleatoriamente: {{anchor|high1}}
+  - Diálogo 1:
+    - **White Chisel Secretary:** ¿Cómo puede ayudarte el Cincel Blanco hoy?
+  - Diálogo 2:
+    - **White Chisel Secretary:** ¿Y qué puedo hacer por ti en este lindo día?
+  - Diálogo 3:
+    - **White Chisel Secretary:** ¿Ven a ayudarnos un poco más, Player?
+  - Diálogo 4:
+    - **White Chisel Secretary:** ¡Oh, hola Player! ¡Qué bueno verte!
+  - Diálogo 5:
+    - **White Chisel Secretary:** ¡Bienvenido de nuevo al palacio de Keldagrim, Player!
+  - Diálogo 6:
+    - **White Chisel Secretary:** ¡Entra, entra! ¡Y cuéntanos qué necesitas!
+- '''Elige una opción: {{anchor|asdf}}
+  - [Choice]: ¿Quién eres?
+    - (arriba)
+  - [Choice]: ¿Dónde estoy?
+    - **Player:** ¿Dónde estoy? {{anchor|high2}}
+    - **White Chisel Secretary:** Vaya, esta es la sede del White Chisel.
+    - **White Chisel Secretary:** Compartimos esta planta del palacio con el resto de empresas del Consorcio. Y comercie con ellos en el octágono comercial.
+    - **Player:** ¿El octágono comercial?
+    - **White Chisel Secretary:** ¿Ves a esos comerciantes parados ahí afuera, justo afuera de la puerta? Todos están parados en el octágono comercial. Hay muchísimo comercio en el palacio, ¿sabes?
+    - **Player:** ¿Algo más de interés en el palacio?
+    - **White Chisel Secretary:** El último piso del palacio es el Octágono de Reuniones. Ese es el lugar donde el Consorcio toma todas las decisiones importantes.
+    - **Player:** ¿Puedo ir allí?
+    - **White Chisel Secretary:** Oh, sí, ciertamente puedes. Pero me imagino que no mientras el Consorcio esté en sesión.
+    - **White Chisel Secretary:** Aunque eres una persona muy amigable, no estoy seguro de si se te permitiría visitarnos durante una reunión.
+    - **White Chisel Secretary:** Pero no sé lo suficiente sobre eso, el director probablemente sepa más.
+    - **Player:** ¡Gracias por la información!
+    - (initial)
+  - [Choice]: ¿Hay algo en lo que pueda ayudarte?
+    - **Player:** ¿Hay algo en lo que pueda ayudarte?
+    - ''Una de las siguientes respuestas se reproduce al azar:
+      - Diálogo 1:
+        - **White Chisel Secretary:** ¡Ah, siempre buscando formas de ayudarnos!
+      - Diálogo 2:
+        - **White Chisel Secretary:** ¡Por supuesto, mi buen humano, por supuesto!
+      - Diálogo 3:
+        - **White Chisel Secretary:** ¡Por supuesto, reservamos nuestras mejores tareas solo para ti, Player!
+      - Diálogo 4:
+        - **White Chisel Secretary:** Creo que sí, ¡sí!
+      - Diálogo 5:
+        - **White Chisel Secretary:** Me atrevo a decir que tenemos algo para ti, sí.
+      - Diálogo 6:
+        - **White Chisel Secretary:** ¡Oh, sí, como sabes, el Cincel Blanco siempre tiene trabajo!
+    - **White Chisel Secretary:** Necesitamos [número] piezas de [ore] en los próximos minutos [número].
+    - '''Selecciona una opción
+      - [Choice]: Yo lo tomaré.
+        - **Player:** Lo aceptaré.
+        - ''El Secretario responde con uno de los siguientes al azar:
+          - Diálogo 1:
+            - **White Chisel Secretary:** ¡Nunca decepcionas, Player!
+          - Diálogo 2:
+            - **White Chisel Secretary:** ¡Excelente, pensé que te gustaría esto!
+          - Diálogo 3:
+            - **White Chisel Secretary:** ¡Me alegra escuchar eso!
+          - Diálogo 4:
+            - **White Chisel Secretary:** The White Chisel aprecia el arduo trabajo que haces.
+          - Diálogo 5:
+            - **White Chisel Secretary:** ¡Gracias! Pero date prisa, por favor, ¡realmente necesitamos ese mineral!
+      - [Choice]: No gracias.
+        - **Player:** No, gracias.
+        - ''El Secretario responde con uno de los siguientes al azar:
+          - Diálogo 1:
+            - **White Chisel Secretary:** Supongo que tienes otros asuntos importantes que atender.
+          - Diálogo 2:
+            - **White Chisel Secretary:** Ah. No sabía que eras del tipo que rechaza el trabajo.
+          - Diálogo 3:
+            - **White Chisel Secretary:** ¿Está todo bien? No pensé que normalmente rechazaras nuestras tareas.
+          - Diálogo 4:
+            - **White Chisel Secretary:** Es una gran lástima, Player.
+          - Diálogo 5:
+            - **White Chisel Secretary:** ¿No? Eso es inusual para ti, Player.
+    - ''Si el player ya está en una tarea:
+      - **White Chisel Secretary:** ¿Ya has completado tu tarea actual? ¿Me conseguiste mis piezas [número] de [ore]?
+      - **Player:** No, todavía no.
+      - **White Chisel Secretary:** Lamento escuchar eso, ¡pero apúrate!
+      - (initial)
+    - ''Si el player ya está en una tarea de otra empresa:
+      - **White Chisel Secretary:** ¿No tienes algún asunto con [other company] que tratar primero? ¡Date prisa cuando hayas terminado!
+      - (initial)
+  - [Choice]: ¡Tengo que irme!
+    - **Player:** ¡Me tengo que ir!
+    - ''Una de las siguientes respuestas se reproduce aleatoriamente: {{anchor|high3}}
+      - Diálogo 1:
+        - **White Chisel Secretary:** Fue un placer volver a hablar contigo, Player.
+      - Diálogo 2:
+        - **White Chisel Secretary:** ¡Vuelve cuando quieras!
+      - Diálogo 3:
+        - **White Chisel Secretary:** ¡Hasta pronto!
+
+#### Entregar una tarea
+
+- **Player:** ¡He completado tu tarea! ¡Aquí está tu mineral!
+- (removes=ore) (receives=coins)
+- ''El Secretario responde con uno de los siguientes al azar:
+  - Diálogo 1:
+    - **White Chisel Secretary:** ¡Maravilloso! ¡Supervisaré personalmente que llegue a tiempo al parqué!
+  - Diálogo 2:
+    - **White Chisel Secretary:** ¡Bien hecho, bien hecho!
+  - Diálogo 3:
+    - **White Chisel Secretary:** ¡Sabía que eras la persona adecuada para el trabajo!
+  - Diálogo 4:
+    - **White Chisel Secretary:** ¡Gracias, me aseguraré de que el director se entere de su rapidez!
+  - Diálogo 5:
+    - **White Chisel Secretary:** ¡Siempre eres confiable, Player!
+- (continuea|asdf)
+
+### Higher or highest reputation
+
+- ''Uno de los siguientes diálogos se reproduce al azar:
+  - (above|high1)
+- '''Elige una opción:
+  - [Choice]: ¿Quién eres?
+    - (arriba)
+  - [Choice]: ¿Dónde estoy?
+    - (above|high2)
+  - [Choice]: ¿Hay algo en lo que pueda ayudarte?
+    - **Player:** ¿Hay algo en lo que pueda ayudarte?
+    - ''Una de las siguientes respuestas se reproduce al azar:
+      - Diálogo 1:
+        - **White Chisel Secretary:**Me temo que no tengo más trabajo que ofrecerte, Player, por favor habla con el director.
+      - Diálogo 2:
+        - **White Chisel Secretary:** Deberías hablar directamente con el director.
+      - (initial)
+    - ''Si el player ya está en una tarea de otra empresa:
+      - **White Chisel Secretary:** ¿No tienes algún asunto con [other company] que tratar primero? ¡Date prisa cuando hayas terminado!
+      - (initial)
+  - [Choice]: ¡Tengo que irme!
+    - (above|high3)

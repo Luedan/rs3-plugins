@@ -1,0 +1,377 @@
+# Silver Cog Secretary
+
+- **Original Wiki Page**: [Transcript:Silver Cog Secretary](https://runescape.wiki/w/Transcript%3ASilver%20Cog%20Secretary)
+- **Letter**: `S`
+
+---
+
+## Dialogue Transcript
+
+- ''Note: Before and during the Giant Dwarf, all companies start at medium reputation. After The Giant Dwarf, the player's chosen company is permanently at highest reputation while all other companies will be at low reputation.
+
+### Low reputation
+
+- ''One of the following dialogue plays at random:
+  - Dialogue 1:
+    - **Silver Cog Secretary:** I don't have much time for you, what do you want?
+  - Dialogue 2:
+    - **Silver Cog Secretary:** You're blocking my view, human, so hurry up.
+  - Dialogue 3:
+    - **Silver Cog Secretary:** Can we hurry this along?
+  - Dialogue 4:
+    - **Silver Cog Secretary:** Say what you want or get out of our office, human!
+  - Dialogue 5:
+    - **Silver Cog Secretary:** Do not test the patience of the Silver Cog, human. Say what you need!
+  - Dialogue 6:
+    - **Silver Cog Secretary:** I think I've misplaced my quill somewhere...
+    - **Silver Cog Secretary:** Oh, and what did you want?
+- '''Choose an option: {{anchor|xzx}}
+  - [Choice]: Who are you?
+    - **Player:** Who are you?
+    - **Silver Cog Secretary:** I am the head secretary of the Silver Cog.
+    - **Player:** The what?
+    - **Silver Cog Secretary:** The Silver Cog! A shining example of how a mining company should be run to join the Consortium.
+    - (initial)
+  - [Choice]: Where am I?
+    - **Player:**  Where am I?
+    - ''One of the following replies plays at random:
+      - Dialogue 1:
+        - **Silver Cog Secretary:** I'm not here to give directions!
+      - Dialogue 2:
+        - **Silver Cog Secretary:** Do I look like a tour guide to you?
+      - Dialogue 3:
+        - **Silver Cog Secretary:** I'd tell you, human, but you wouldn't understand anyway.
+      - Dialogue 4:
+        - **Silver Cog Secretary:** These are the offices of the Silver Cog.
+        - **Silver Cog Secretary:** We share this floor of the palace with the other companies of the Consortium. And trade with them on the Trade Octagon.
+        - **Player:** The Trade Octagon?
+        - **Silver Cog Secretary:** See those traders standing out there, just out the door? They're all standing in the Trade Octagon. There's an awful lot of trade going on in the palace, you know.
+        - **Player:** Anything else of interest in the palace?
+        - **Silver Cog Secretary:** You will have to find that out on your own, I'm afraid. I do have more work to do.
+        - (initial)
+  - [Choice]: Is there anything I can help you with?
+    - **Player:** Is there anything I can help you with?
+    - ''One of the following replies plays at random:
+      - Dialogue 1:
+        - **Silver Cog Secretary:** Come to redeem yourself at our company, have you?
+      - Dialogue 2:
+        - **Silver Cog Secretary:** So you're looking for work with us all of a sudden?
+      - Dialogue 3:
+        - **Silver Cog Secretary:** You're lucky the Silver Cog is very forgiving, human.
+      - Dialogue 4:
+        - **Silver Cog Secretary:** I'm not sure if I'm allowed to give someone like you a task, I'll check.
+        - **Silver Cog Secretary:** All right, you've been cleared.
+      - Dialogue 5:
+        - **Silver Cog Secretary:** Your motives are questionable but we'll give you a chance.
+    - **Silver Cog Secretary:** We need [number] pieces of [ore] in the next [number] minutes.
+    - '''Select an option
+      - [Choice]: I'll take it.
+        - **Player:** I'll take it.
+        - ''The Secretary replies with one of the following at random:
+          - Dialogue 1:
+            - **Silver Cog Secretary:** Do no disappoint the Silver Cog, human.
+          - Dialogue 2:
+            - **Silver Cog Secretary:** Go then! The longer you stand here the more time you waste!
+          - Dialogue 3:
+            - **Silver Cog Secretary:** Hurry back or don't come back at all!
+          - Dialogue 4:
+            - **Silver Cog Secretary:** Let's hope I was wrong about you, human.
+          - Dialogue 5:
+            - **Silver Cog Secretary:** You'd better not fail!
+      - [Choice]: No thanks.
+        - **Player:** No thanks.
+        - ''The Secretary replies with one of the following at random:
+          - Dialogue 1:
+            - **Silver Cog Secretary:** Oh, so you were just stopping by to waste my time, then? Goodbye!
+          - Dialogue 2:
+            - **Silver Cog Secretary:** To say a thing like that after the mercy I just showed you! Go away!
+          - Dialogue 3:
+            - **Silver Cog Secretary:** You dare!
+          - Dialogue 4:
+            - **Silver Cog Secretary:** Thought you wouldn't. Now get out of here!
+          - Dialogue 5:
+            - **Silver Cog Secretary:** Leave now, don't make me call the Black Guard to throw you out!
+          - Dialogue 6:
+            - **Silver Cog Secretary:** Get out of our office then!
+          - Dialogue 7:
+            - **Silver Cog Secretary:** The Silver Cog offers you a chance and you say this? Just stay away!
+    - ''If the player is already on a task:
+      - **Silver Cog Secretary:** Have you completed your current task yet? Did you get me my [number] pieces of [ore]?
+      - **Player:** No, not yet.
+      - **Silver Cog Secretary:** You're a disgrace to the Silver Cog. Hurry up if you want to redeem yourself.
+      - (initial)
+    - ''If the player is already on a task from a different company:
+      - **Silver Cog Secretary:** Go back to your friends at the [other Company], I hear you're in league with them.
+      - (initial)
+  - [Choice]: I have to go!
+    - **Player:** I have to go!
+    - ''One of the following replies plays at random:
+      - Dialogue 1:
+        - **Silver Cog Secretary:** Finally...back to work at last.
+      - Dialogue 2:
+        - **Silver Cog Secretary:** Good.
+      - Dialogue 3:
+        - **Silver Cog Secretary:** Don't hurry back.
+      - Dialogue 4:
+        - **Silver Cog Secretary:** The door is over there. I suggest you use it.
+      - Dialogue 5:
+        - **Silver Cog Secretary:** And good riddance to you.
+
+#### Handing in a task
+
+- **Player:** I've completed your task! Here is your ore!
+- (removes=ore) (receives=coins)
+- ''The Secretary replies with one of the following at random:
+  - Dialogue 1:
+    - **Silver Cog Secretary:** How unusual for you, but it is appreciated nonetheless.
+  - Dialogue 2:
+    - **Silver Cog Secretary:** The Silver Cog is pleased that the trust it put in you has not been put to shame after all.
+  - Dialogue 3:
+    - **Silver Cog Secretary:** That is quite a pleasant and unexpected surprise.
+  - Dialogue 4:
+    - **Silver Cog Secretary:** Perhaps I was wrong about you after all...
+  - Dialogue 5:
+    - **Silver Cog Secretary:** Thanks... I suppose.
+- (continuea|xzx)
+
+### Medium reputation
+
+- ''One of the following dialogue plays at random:
+  - Dialogue 1:
+    - **Silver Cog Secretary:** What did you need of the Silver Cog?
+  - Dialogue 2:
+    - **Silver Cog Secretary:** And what can I do for you?
+  - Dialogue 3:
+    - **Silver Cog Secretary:** Is there anything you need assistance with?
+  - Dialogue 4:
+    - **Silver Cog Secretary:** Can I help you with anything?
+  - Dialogue 5:
+    - **Silver Cog Secretary:** Was there anything you wanted?
+  - Dialogue 6:
+    - **Silver Cog Secretary:** What can I do for you, human?
+- '''Choose an option: {{anchor|zxc}}
+  - [Choice]: Who are you?
+    - (above)
+  - [Choice]: Where am I?
+    - **Player:**  Where am I?
+    - **Silver Cog Secretary:** Why, this is the headquarters of the Silver Cog.
+    - **Silver Cog Secretary:** We share this floor of the palace with the other companies of the Consortium. And trade with them on the Trade Octagon.
+    - **Player:** The Trade Octagon?
+    - **Silver Cog Secretary:** See those traders standing out there, just out the door? They're all standing in the Trade Octagon. There's an awful lot of trade going on in the palace, you know.
+    - **Player:** Anything else of interest in the palace?
+    - **Silver Cog Secretary:** You will have to find that out on your own, I'm afraid. I do have more work to do.
+    - (initial)
+  - [Choice]: Is there anything I can help you with?
+    - **Player:** Is there anything I can help you with?
+    - ''One of the following replies plays at random:
+      - Dialogue 1:
+        - **Silver Cog Secretary:** There's always work to be done, yes.
+      - Dialogue 2:
+        - **Silver Cog Secretary:** Just a moment.
+      - Dialogue 3:
+        - **Silver Cog Secretary:** Yes, the Silver Cog always has work to do!
+      - Dialogue 4:
+        - **Silver Cog Secretary:** Let's see... yes, yes, I do have a task for you.
+      - Dialogue 5:
+        - **Silver Cog Secretary:** Yes, I think we do have something for you.
+      - Dialogue 6:
+        - **Silver Cog Secretary:** I believe we have some work available, yes.
+    - **Silver Cog Secretary:** We need [number] pieces of [ore] in the next [number] minutes.
+    - '''Select an option
+      - [Choice]: I'll take it.
+        - **Player:** I'll take it.
+        - ''The Secretary replies with one of the following at random:
+          - Dialogue 1:
+            - **Silver Cog Secretary:** The Silver Cog has noted your willingness to help.
+          - Dialogue 2:
+            - **Silver Cog Secretary:** That ore needs to go on the trade floor soon, player, please hurry back with it.
+          - Dialogue 3:
+            - **Silver Cog Secretary:** Thanks, it's appreciated.
+          - Dialogue 4:
+            - **Silver Cog Secretary:** The clock is ticking, please hurry back.
+          - Dialogue 5:
+            - **Silver Cog Secretary:** I will await your return soon, then.
+      - [Choice]: No thanks.
+        - **Player:** No thanks.
+        - ''The Secretary replies with one of the following at random:
+          - Dialogue 1:
+            - **Silver Cog Secretary:** Fair enough, maybe some other time?
+          - Dialogue 2:
+            - **Silver Cog Secretary:** Please, it would be appreciated if you made up your mind before you ask. I'm very busy you know.
+          - Dialogue 3:
+            - **Silver Cog Secretary:** Please, in that case, you're wasting my time.
+          - Dialogue 4:
+            - **Silver Cog Secretary:** That's unfortunate to hear.
+          - Dialogue 5:
+            - **Silver Cog Secretary:** I can't say I'm too pleased to hear that, to be honest.
+          - Dialogue 6:
+            - **Silver Cog Secretary:** That does not reflect well on you.
+          - Dialogue 7:
+            - **Silver Cog Secretary:** The Silver Cog isn't too pleased to hear that.
+    - ''If the player is already on a task:
+      - **Silver Cog Secretary:** Have you completed your current task yet? Did you get me my [number] pieces of [ore]?
+      - **Player:** No, not yet.
+      - **Silver Cog Secretary:** Then please, hurry up before time runs out.
+      - (initial)
+    - ''If the player is already on a task from a different company:
+      - **Silver Cog Secretary:** From what I understand, you have some business to finish with the [other Company] first.
+      - (initial)
+  - [Choice]: I have to go!
+    - **Player:** I have to go!
+    - ''One of the following replies plays at random:
+      - Dialogue 1:
+        - **Silver Cog Secretary:** See you later.
+      - Dialogue 2:
+        - **Silver Cog Secretary:** Okay.
+      - Dialogue 3:
+        - **Silver Cog Secretary:** Goodbye, human.
+
+#### Handing in a task
+
+- **Player:** I've completed your task! Here is your ore!
+- (removes=ore) (receives=coins)
+- ''The Secretary replies with one of the following at random:
+  - Dialogue 1:
+    - **Silver Cog Secretary:** I have to admit, I was worried for a moment, but I'm glad to see you came through for us.
+  - Dialogue 2:
+    - **Silver Cog Secretary:** I am happy to see that the trust we put in you has not been in vain.
+  - Dialogue 3:
+    - **Silver Cog Secretary:** And not a minute too late as well. Well done.
+  - Dialogue 4:
+    - **Silver Cog Secretary:** The Silver Cog recognizes your performance.
+  - Dialogue 5:
+    - **Silver Cog Secretary:** That's good to hear, thanks.
+- (continuea|zxc)
+
+### High reputation
+
+- ''One of the following dialogue plays at random: {{anchor|high1}}
+  - Dialogue 1:
+    - **Silver Cog Secretary:** How may the Silver Cog assist you today?
+  - Dialogue 2:
+    - **Silver Cog Secretary:** And what can I do for you on this fine day?
+  - Dialogue 3:
+    - **Silver Cog Secretary:** Come to help us some more, Player?
+  - Dialogue 4:
+    - **Silver Cog Secretary:** Oh, hello there Player! Nice to see you!
+  - Dialogue 5:
+    - **Silver Cog Secretary:** Welcome back to the palace of Keldagrim, Player!
+  - Dialogue 6:
+    - **Silver Cog Secretary:** Come in, come in! And tell us what you need!
+- '''Choose an option: {{anchor|asdf}}
+  - [Choice]: Who are you?
+    - (above)
+  - [Choice]: Where am I?
+    - **Player:**  Where am I? {{anchor|high2}}
+    - **Silver Cog Secretary:** Why, this is the headquarters of the Silver Cog.
+    - **Silver Cog Secretary:** We share this floor of the palace with the other companies of the Consortium. And trade with them on the Trade Octagon.
+    - **Player:** The Trade Octagon?
+    - **Silver Cog Secretary:** See those traders standing out there, just out the door? They're all standing in the Trade Octagon. There's an awful lot of trade going on in the palace, you know.
+    - **Player:** Anything else of interest in the palace?
+    - **Silver Cog Secretary:** The top floor of the palace is the Meeting Octagon. That's the place where the Consortium makes all the important decisions.
+    - **Player:** Can I go there?
+    - **Silver Cog Secretary:** Oh, yes, you certainly can. But not while the Consortium is in session, I would imagine.
+    - **Silver Cog Secretary:** Even though you are a very friendly human, I'm not sure if you would be allowed to visit during a meeting.
+    - **Silver Cog Secretary:** But I don't know enough about that, the director probably knows more.
+    - **Player:** Thanks for the info!
+    - (initial)
+  - [Choice]: Is there anything I can help you with?
+    - **Player:** Is there anything I can help you with?
+    - ''One of the following replies plays at random:
+      - Dialogue 1:
+        - **Silver Cog Secretary:** Ah, always looking for ways to help us!
+      - Dialogue 2:
+        - **Silver Cog Secretary:** Naturally, my good human, naturally!
+      - Dialogue 3:
+        - **Silver Cog Secretary:** Of course, we reserve our best tasks just for you, Player!
+      - Dialogue 4:
+        - **Silver Cog Secretary:** I do believe we do, yes!
+      - Dialogue 5:
+        - **Silver Cog Secretary:** I dare say we have something for you, yes.
+      - Dialogue 6:
+        - **Silver Cog Secretary:** Oh yes, as you know the Silver Cog always has work!
+    - **Silver Cog Secretary:** We need [number] pieces of [ore] in the next [number] minutes.
+    - '''Select an option
+      - [Choice]: I'll take it.
+        - **Player:** I'll take it.
+        - ''The Secretary replies with one of the following at random:
+          - Dialogue 1:
+            - **Silver Cog Secretary:** You never disappoint, Player!
+          - Dialogue 2:
+            - **Silver Cog Secretary:** Excellent, I thought you'd like this!
+          - Dialogue 3:
+            - **Silver Cog Secretary:** I'm happy to hear that!
+          - Dialogue 4:
+            - **Silver Cog Secretary:** The Silver Cog appreciates the hard work you do.
+          - Dialogue 5:
+            - **Silver Cog Secretary:** Thanks! But hurry back please, we really need that ore!
+      - [Choice]: No thanks.
+        - **Player:** No thanks.
+        - ''The Secretary replies with one of the following at random:
+          - Dialogue 1:
+            - **Silver Cog Secretary:** I suppose you have other important business to attend to?
+          - Dialogue 2:
+            - **Silver Cog Secretary:** Oh. Didn't know you were the type to refuse work.
+          - Dialogue 3:
+            - **Silver Cog Secretary:** Is everything okay? I didn't think you normally refused our tasks.
+          - Dialogue 4:
+            - **Silver Cog Secretary:** That's a great shame, Player.
+          - Dialogue 5:
+            - **Silver Cog Secretary:** No? That's unusual for you, Player.
+    - ''If the player is already on a task:
+      - **Silver Cog Secretary:** Have you completed your current task yet? Did you get me my [number] pieces of [ore]?
+      - **Player:** No, not yet.
+      - **Silver Cog Secretary:** Sorry to hear that, but please hurry up!
+      - (initial)
+    - ''If the player is already on a task from a different company:
+      - **Silver Cog Secretary:** Don't you have some business with [other company] to deal with first? Hurry back when you're done!
+      - (initial)
+  - [Choice]: I have to go!
+    - **Player:** I have to go!
+    - ''One of the following replies plays at random: {{anchor|high3}}
+      - Dialogue 1:
+        - **Silver Cog Secretary:** It was a pleasure to talk to you again, Player.
+      - Dialogue 2:
+        - **Silver Cog Secretary:** Come back any time!
+      - Dialogue 3:
+        - **Silver Cog Secretary:** See you soon!
+
+#### Handing in a task
+
+- **Player:** I've completed your task! Here is your ore!
+- (removes=ore) (receives=coins)
+- ''The Secretary replies with one of the following at random:
+  - Dialogue 1:
+    - **Silver Cog Secretary:** Wonderful! I will personally oversee that it goes to the trade floor on time!
+  - Dialogue 2:
+    - **Silver Cog Secretary:** Well done, well done!
+  - Dialogue 3:
+    - **Silver Cog Secretary:** I knew you were the right human for the job!
+  - Dialogue 4:
+    - **Silver Cog Secretary:** Thanks, I will make sure the director hears of your expeditiousness!
+  - Dialogue 5:
+    - **Silver Cog Secretary:** You're always reliable, Player!
+- (continuea|asdf)
+
+### Higher or highest reputation
+
+- ''One of the following dialogue plays at random:
+  - (above|high1)
+- '''Choose an option:
+  - [Choice]: Who are you?
+    - (above)
+  - [Choice]: Where am I?
+    - (above|high2)
+  - [Choice]: Is there anything I can help you with?
+    - **Player:** Is there anything I can help you with?
+    - ''One of the following replies plays at random:
+      - Dialogue 1:
+        - **Silver Cog Secretary:**I'm afraid I have no more work to offer you, Player, please speak to the director.
+      - Dialogue 2:
+        - **Silver Cog Secretary:** You should speak directly to the director.
+      - (initial)
+    - ''If the player is already on a task from a different company:
+      - **Silver Cog Secretary:** Don't you have some business with [other company] to deal with first? Hurry back when you're done!
+      - (initial)
+  - [Choice]: I have to go!
+    - (above|high3)

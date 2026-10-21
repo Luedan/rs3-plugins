@@ -1,0 +1,61 @@
+# Smokey
+
+- **Original Wiki Page**: [Transcript:Smokey](https://runescape.wiki/w/Transcript%3ASmokey)
+- **Letter**: `S`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Upon appearing
+
+- (Action: Smokey el carbón aparece cerca de la estufa con una barra de progreso roja encima.)
+- {{Colour AAH! TOO HOT! TOO HOT!}}
+- **Smokey:** {{RSChat|AAH! TOO HOT! TOO HOT!}}
+
+### Pelt snowball
+
+
+#### Antes de que Smokey se haya enfriado
+
+
+##### Sin bola de nieve equipada
+
+- Necesitas equipar una bola de nieve para enfriar el carbón.
+- (ventana emergente)
+  - (Ventana emergente: necesitas equipar una bola de nieve para enfriar el carbón.|advertencia=yes)
+
+##### Con una bola de nieve equipada.
+
+- (removes=one equipped snowball)
+- (Condition: Si esta fuera la tercera bola de nieve lanzada:)
+  - (Condition: Con menos de 49.926 espíritu navideño:)
+    - (receives=75 Christmas spirit)
+    - Se ha añadido lo siguiente a su bolsa de divisas: 75 x Espíritu navideño.
+    - (continue)
+  - (Condition: Con al menos 49.926 espíritu navideño:)
+    - (Condition: Con menos de 50.000 espíritu navideño:)
+      - (receives=as much Christmas spirit as is missing from 50,000)
+      - Se ha agregado lo siguiente a su bolsa de divisas: [número] x Espíritu navideño.
+      - (continue)
+    - Has alcanzado el límite flexible de espíritu navideño de 50.000. Debes gastar algunas fichas en la tienda navideña Spirit antes de poder ganar más.
+    - (continue)
+  - Enfrías completamente el carbón.
+  - (ventana emergente)
+    - (Ventana emergente: Enfrías completamente el carbón.|color=#00FF00)
+    - (continue)
+  - {{Colour Thank you Player!}}
+  - **Smokey el carbón:** {{RSChat|Thank you Player!}}
+
+#### Después de que Smokey se haya enfriado
+
+- ¡El carbón ya se ha enfriado!
+- (ventana emergente)
+  - (Ventana emergente: ¡El carbón ya se ha enfriado!|advertencia=yes)
+
+### Failing to pelt Smokey three times before 18 seconds have elapsed
+
+- {{Colour Ah. The fresh snow air is nice and cooling.}}
+- **Smokey el carbón:** {{RSChat|Ah. The fresh snow air is nice and cooling.}}

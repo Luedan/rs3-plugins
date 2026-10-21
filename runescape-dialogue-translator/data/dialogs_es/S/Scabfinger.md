@@ -1,0 +1,261 @@
+# Scabfinger
+
+- **Original Wiki Page**: [Transcript:Scabfinger](https://runescape.wiki/w/Transcript%3AScabfinger)
+- **Letter**: `S`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Exchange
+
+- ((Se abre la interfaz de la tienda Farming.))
+
+### Talk to
+
+- **Scabfinger:** Hola, pie seco.
+- [Menu]: Elige...
+  - [Choice]: Almacenamiento de herramientas.
+    - [Menu]: ¿Qué te gustaría decir?|anchor=standard
+      - [Choice]: ¿Qué herramientas puedes almacenar?
+        - **Player:** ¿Qué puedes almacenar?
+        - **Scabfinger:** Puedo guardar herramientas agrícolas, obviamente. ¿Quieres usar la tienda?
+        - [Menu]: ¿Qué te gustaría decir?
+          - [Choice]: Sí, por favor.
+            - **Player:** Sí, por favor.
+            - ((Se abre la interfaz de la tienda Farming.))
+          - [Choice]: ¿Qué haces con las herramientas que estás almacenando?
+            - **Player:** ¿Qué haces con las herramientas que almacenas? ¡Es imposible que todos quepan en tus bolsillos!
+            - **Scabfinger:** Pregunta tonta, obviamente mantén las herramientas en el pantano.
+            - **Scabfinger:** Ahora, ¿quieres que cuide el tuyo o no?
+            - [Menu]: ¿Qué te gustaría decir?
+              - [Choice]: Sí, por favor.
+                - **Player:** Sí, por favor.
+                - ((Se abre la interfaz de la tienda Farming.))
+              - [Choice]: ¿Qué puedes almacenar?
+              - (arriba)
+              - [Choice]: No gracias, guardaré mis cosas.
+                - **Player:** No, gracias, guardaré mis cosas.
+                - **Scabfinger:** ¿Está bien? Quizás en otra ocasión.
+          - [Choice]: No gracias, guardaré mis cosas.
+            - **Player:** No, gracias, guardaré mis cosas.
+            - **Scabfinger:** ¿Está bien? Quizás en otra ocasión.
+      - [Choice]: Abre tu tienda de herramientas, por favor.
+      - ((Se abre la interfaz de la tienda Farming.))
+      - [Choice]: En realidad, estoy bien.
+        - **Player:** En realidad, estoy bien.
+        - (arriba)
+  - [Choice]: La granja de Winkin.
+    - [Menu]: ¿Qué te gustaría decir?
+      - [Choice]: ¿Puedes llevarme a la granja de Winkin?
+        - **Player:** ¿Puedes llevarme a Winkin's Farm?
+        - **Scabfinger:** ¿Qué es un Winkin?
+        - **Player:** Oh... Supongo que entonces no.
+        - **Scabfinger:** Eres un extraño con los pies secos.
+      - [Choice]: En realidad, estoy bien.
+        - (arriba)
+  - [Choice]: Compostaje.
+    - [Menu]: ¿Qué te gustaría decir?
+      - [Choice]: ¿Pueden hacerme abono con parches?
+        - **Player:** ¿Pueden hacerme abono con parches?
+        - **Scabfinger:** Claro, puedo hacerlo en todos tus parches usando el abono que me das, si estás dispuesto a pagar por la conveniencia.
+        - **Scabfinger:** 500 de oro para abono normal, 1500 de oro para supercompost o 2500 de oro para ultracompost. Paga hasta 60.000 por adelantado, pero no hay reembolsos.
+        - (Condition: Con compost que queda por comprar:)
+          - [Menu]: ¿Qué quieres recargar?|cond=top-up
+            - [Choice]: Normal compost.|cond=Con compost normal queda por comprar:
+              - ((Una entrada de número con el mensaje "¿Pagar por cuántos (máximo 60 000)?" se abre.))
+              - ((Después de ingresar un número positivo:))
+                - **¿Pagar [número] coins?**
+                  - Sí.
+                    - ((Si no tienes suficiente dinero contigo:))
+                      - **Scabfinger:** Parece que no puedes pagar. Vuelve cuando puedas.
+                    - ((Si tienes suficiente dinero contigo:))
+                      - (removes=coins)
+                      - **Scabfinger:** Muy bien, mantendré tus parches en abono. ¡Solo mantén tu almacenamiento lleno!
+                  - No.
+                    - **Scabfinger:** Parece que no puedes pagar. Vuelve cuando puedas.
+              - ((Después de ingresar 0:))
+                - **Scabfinger:** Haz lo que quieras.
+            - [Choice]: Supercompost.|cond=Con supercompostaje queda por comprar:
+              - ((Una entrada de número con el mensaje "¿Pagar por cuántos (máximo 60 000)?" se abre.))
+              - ((Después de ingresar un número positivo:))
+                - **¿Pagar [número] coins?**
+                  - Sí.
+                    - ((Si no tienes suficiente dinero contigo:))
+                      - **Scabfinger:** Parece que no puedes pagar. Vuelve cuando puedas.
+                    - ((Si tienes suficiente dinero contigo:))
+                      - (removes=coins)
+                      - **Scabfinger:** Muy bien, mantendré tus parches en abono. ¡Solo mantén tu almacenamiento lleno!
+                  - No.
+                    - **Scabfinger:** Parece que no puedes pagar. Vuelve cuando puedas.
+              - ((Después de ingresar 0:))
+                - **Scabfinger:** Haz lo que quieras.
+            - [Choice]: Ultracompost.|cond=Con ultracompostaje queda por comprar:
+              - ((Una entrada de número con el mensaje "¿Pagar por cuántos (máximo 60 000)?" se abre.))
+              - ((Después de ingresar un número positivo:))
+                - **¿Pagar [número] coins?**
+                  - Sí.
+                    - ((Si no tienes suficiente dinero contigo:))
+                      - **Scabfinger:** Parece que no puedes pagar. Vuelve cuando puedas.
+                    - ((Si tienes suficiente dinero contigo:))
+                      - (removes=coins)
+                      - **Scabfinger:** Muy bien, mantendré tus parches en abono. ¡Solo mantén tu almacenamiento lleno!
+                  - No.
+                    - **Scabfinger:** Parece que no puedes pagar. Vuelve cuando puedas.
+              - ((Después de ingresar 0:))
+                - **Scabfinger:** Haz lo que quieras.
+            - [Choice]: nada
+              - (continue|refund)
+        - (Condition: Sin compostaje queda por comprar:)
+          - **Scabfinger:** Parece que ya pagaste todo.
+      - [Choice]: ¿Puedes dejar de hacer abono con parches por mí?
+        - **Player:** ¿Puedes dejar de hacer abono con parches por mí?
+        - ((Si no has pagado por el compostaje:))
+          - **Scabfinger:** No me habías pagado, así que no lo haría de todos modos.
+        - ((Si has pagado por el compostaje:))
+          - (continue|refund)
+      - [Choice]: ¿Cuánto he pagado?
+        - **Player:** ¿Cuánto abono usarás?
+        - **Scabfinger:** Usaremos [número] regular, supercompost [número] y ultracompost [número]. ¿Quieres recargar?
+        - [Menu]: Selecciona una opción
+          - [Choice]: Sí.
+            - (above|top-up)
+          - [Choice]: No.
+            - **Scabfinger:** ¿Quieres un reembolso entonces?
+            - [Menu]: Selecciona una opción
+              - [Choice]: Sí.
+                - ((Sin nada que reembolsar:))
+                  - **Scabfinger:** ¡Parece que ya te han reembolsado todo! Uf...
+                - ((Con algo para reembolsar:))
+                  - **¿Qué quieres reembolsar?**
+                    - [Choice]: Normal compost.|cond=Sólo con abono normal a reembolsar:
+                      - ((Se abre una entrada de número con el mensaje "¿Cuántos reembolsos (máx. [número])?"))
+                      - ((Después de ingresar un número positivo:))
+                        - (receives=coins)
+                        - **Scabfinger:** ¡Ahí lo tienes!
+                      - ((Después de ingresar 0:))
+                        - **Scabfinger:** Haz lo que quieras.
+                    - [Choice]: Supercompost.|cond=Solo con supercompost para reembolsar:
+                      - ((Se abre una entrada de número con el mensaje "¿Cuántos reembolsos (máx. [número])?"))
+                      - ((Después de ingresar un número positivo:))
+                        - (receives=coins)
+                        - **Scabfinger:** ¡Ahí lo tienes!
+                      - ((Después de ingresar 0:))
+                        - **Scabfinger:** Haz lo que quieras.
+                    - [Choice]: Ultracompost.|cond=Solo con ultracompost para reembolsar:
+                      - ((Se abre una entrada de número con el mensaje "¿Cuántos reembolsos (máx. [número])?"))
+                      - ((Después de ingresar un número positivo:))
+                        - (receives=coins)
+                        - **Scabfinger:** ¡Ahí lo tienes!
+                      - ((Después de ingresar 0:))
+                        - **Scabfinger:** Haz lo que quieras.
+                    - [Choice]: Nada.
+                      - (end)
+              - [Choice]: No.
+                - (end)
+      - [Choice]: ¿Puedo cambiar qué parches compostas?
+        - ((Si hay áreas en las que Scabfingers está compostando:))
+          - ((A continuación solo se enumeran los parches que los duendes están compostando:))
+            - **Scabfinger:** Actualmente usaremos su abono en:<br>Parches de árboles<br>Parches de huertos<br>Parches de lúpulo<br>Parches de arbustos<br>Parches de hierbas<br>Parches de flores<br>Parches especiales
+            - (continue)
+        - ((Si hay áreas en las que Scabfingers no está compostando))
+          - ((A continuación sólo se enumeran los parches que los duendes no están compostando:))
+            - **Scabfinger:** No usaremos su abono en<br>Parches de árboles<br>Parches de huertos<br>Parches de lúpulo<br>Parches de arbustos<br>Parches de hierbas<br>Parches de flores<br>Parches especiales
+            - (continue)
+        - [Menu]: Selecciona una opción
+          - [Choice]: Alternar parches de árbol
+            - **Scabfinger:** ¿Quieres cambiar algo más?
+            - [Menu]: Selecciona una opción
+              - [Choice]: Sí.
+                - (previous)
+              - [Choice]: No.
+                - (end)
+          - [Choice]: Alternar parches de asignación
+            - **Scabfinger:** ¿Quieres cambiar algo más?
+            - **Seleccione una opción**
+              - [Choice]: Sí.
+                - (previous)
+              - [Choice]: No.
+                - (end)
+          - [Choice]: Alternar parches de lúpulo
+            - **Scabfinger:** ¿Quieres cambiar algo más?
+            - [Menu]: Selecciona una opción
+              - [Choice]: Sí.
+                - (previous)
+              - [Choice]: No.
+                - (end)
+          - [Choice]: Alternar parches de arbustos
+            - **Scabfinger:** ¿Quieres cambiar algo más?
+            - [Menu]: Selecciona una opción
+              - [Choice]: Sí.
+                - (previous)
+              - [Choice]: No.
+                - (end)
+          - [Choice]: [More Options]
+            - [Menu]: Selecciona una opción
+              - [Choice]: Alternar parches de hierbas
+                - **Scabfinger:** ¿Quieres cambiar algo más?
+                - [Menu]: Selecciona una opción
+                  - [Choice]: Sí.
+                    - (previous2)
+                  - [Choice]: No.
+                    - (end)
+              - [Choice]: Alternar parches de flores
+                - **Scabfinger:** ¿Quieres cambiar algo más?
+                - [Menu]: Selecciona una opción
+                  - [Choice]: Sí.
+                    - (previous2)
+                  - [Choice]: No.
+                    - (end)
+              - [Choice]: Alternar parches varios
+                - **Scabfinger:** ¿Quieres cambiar algo más?
+                - [Menu]: Selecciona una opción
+                  - [Choice]: Sí.
+                    - (previous2)
+                  - [Choice]: No.
+                    - (end)
+              - [Choice]: [Previous Options]
+                - (previous)
+      - [Choice]: En realidad, estoy bien.
+        - (arriba)
+  - [Choice]: Otros temas.
+    - [Menu]: ¿Qué te gustaría decir?
+      - [Choice]: Can I collect my rewards from the Evil Tree?|cond=Si hay recompensas para recolectar:
+        - {{Tmissing}}
+      - [Choice]: Háblame de ti.
+        - **Player:** ¿Cultivas algo aquí?
+        - **Scabfinger:** No.
+        - **Scabfinger:** Probé flores. Probé 'hongos'. Probé barro. Todo va mal.
+        - **Player:** ¿Alguna idea de por qué?
+        - **Scabfinger:** Por esos desagradables tótems.
+        - **Scabfinger:** Deja fuera lo bueno. Mantennos dentro.
+        - **Player:** Eso no parece ideal.
+        - **Scabfinger:** No lo es, parecía funcionar cuando el tipo verde estaba cerca.
+        - **Player:** ¿Chico verde?
+        - **Scabfinger:** Sí, un pequeño con un sombrero gracioso, solía crecer mucho aquí.
+        - **Player:** Eso suena como un duende, ¿qué le pasó?
+        - **Scabfinger:** Fenmoor se lo llevó. Ni siquiera queda el sombrero.
+        - **Player:** Oh...
+        - **Scabfinger:** Mmmmm.
+        - **Scabfinger:** ¿Ahora quieres que me ocupe de algo? {{Sic}}
+        - [Menu]: ¿Qué te gustaría decir?
+          - [Choice]: Sí, por favor.
+            - **Player:** Sí, por favor.
+            - ((Se abre la interfaz de la tienda Farming.))
+          - [Choice]: ¿Qué puedes almacenar?
+            - [Choice]: ¿Qué herramientas puedes almacenar?
+            - **Player:** ¿Qué puedes almacenar?
+            - **Scabfinger:** Puedo guardar herramientas agrícolas, obviamente. ¿Quieres usar la tienda?
+          - [Choice]: No gracias, guardaré mis cosas.
+            - **Player:** No, gracias, guardaré mis cosas.
+            - **Scabfinger:** ¿Está bien? Quizás en otra ocasión.
+      - [Choice]: En realidad, estoy bien.
+        - **Player:** En realidad, estoy bien.
+        - (end)
+
+### Attempting to use Nightshade patch before completing Bogolin Dichromacy
+
+- **Scabfinger:** ¡Oye! ¡No para humies! Sólo boggos optimistas o amigables damas vampyre.
+- **Player:** Eso es extrañamente específico.

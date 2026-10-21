@@ -1,0 +1,113 @@
+# Rat Burgiss
+
+- **Original Wiki Page**: [Transcript:Rat Burgiss](https://runescape.wiki/w/Transcript%3ARat%20Burgiss)
+- **Letter**: `R`
+
+---
+
+## Dialogue Transcript
+
+
+### Southeast of Varrock
+
+- [Menu]: Select an Option
+  - [Choice]: About the Task System...
+    - ((If the player has completed the easy Varrock achievements and the rewards have not been claimed:))
+      - **Player:** I think I've finished all of the Easy Tasks in the Varrock set.
+      - **Rat Burgiss:** You have? Excellent! Well done.
+      - **Player:** Thank you. Uh...can I have the reward?
+      - **Rat Burgiss:** Reward? Ah, yes! Of course. Your reward: it's right here.
+      - (receives=Varrock armour 1 and Antique lamp (Easy Varrock Tasks))
+      - **Rat Burgiss:** Now, this body armour is magically enhanced to help you with your Smithing and Mining. There is a furnace, not far from here, in Edgeville. Use this armour there and, when smelting ores up to and including steel, you will have a
+      - **Rat Burgiss:** chance of making an extra bar every time. Also, when you mine with this armour on, you will have a chance of Mining extra ores from rocks up to and including coal.
+      - **Rat Burgiss:** Oh, and it will also make you more likely to obtain parts of the spectre from the Stronghold of Security. And, when you assemble it, instead of 5 charges per day you'll get 10. Bear in mind that you'll need to be wearing the armour for any of these to work.
+      - **Rat Burgiss:** I can also change your Varrock Teleport spell so that it takes you to the Grand Exchange, if you'd find that more convenient.
+      - **Rat Burgiss:** As an extra reward, you can also have this old magical lamp to help with your skills. I was going to use it myself but I don't really need it.
+      - **Player:** Wow, thanks!
+      - **Rat Burgiss:** If you should lose the armour, come back and see me for another set.
+      - (continue)
+    - (Condition: If the player has lost their Varrock armour 1:)
+      - **Rat Burgiss:**Ah, hello there! How's the armour going for you?
+      - **Player:**I lost it.
+      - **Rat Burgiss:**Not a problem. I have a another one here that you can have.
+      - (receives=Varrock armour 1)
+      - (continue)
+    - [Menu]: Choose an option:
+      - [Choice]: Tell me about the Achievement System.
+        - **Rat Burgiss:** Very well: the Achievement System is a collection of deeds you may wish to complete while adventuring around the world.
+        - **Rat Burgiss:**You can earn special rewards for completing certain achievements; at the very least, each is worth a cash bounty from Explorer Jack in Lumbridge.
+        - **Rat Burgiss:** Some also give items that will help complete other achievements, and many count as progress towards the set for the area they're in.
+        - [Menu]: Choose an option:
+          - [Choice]: Tell me about the set reward for this locality.
+            - **Player:** Tell me about the set reward for this area.
+            - **Rat Burgiss:** For completing the Varrock set, you are presented with some body armour.
+            - **Rat Burgiss:** This armour will become increasingly useful with each difficulty level of the set that you complete.
+            - **Rat Burgiss:** When you are presented with your rewards, you will be told of their uses.
+            - You may also see what rewards a set item provides by hovering over the Rewards icon for its Exploration Achievement set in the Achievements interface.
+            - (previous2)
+          - [Choice]: How do I claim these rewards?
+            - **Player:** How do I claim the rewards?
+            - **Rat Burgiss:** You need to complete all of the Tasks in the set of a particular difficulty, then you can claim your reward.
+            - **Rat Burgiss:** Most of the Varrock set's Tasks are straightforward, though you might find some require quests to be started, if not finished.
+            - **Rat Burgiss:** To claim your Varrock set reward, speak to Reldo in Varrock Library, Vannaka in Edgeville, or me.
+            - (previous2)
+          - [Choice]: Sorry, I was just leaving.
+            - (end)
+      - [Choice]: Could I buy a spare of the reward?
+        - [Menu]: Choose an option:
+          - [Choice]: Varrock armour 1
+            - **Rat Burgiss:** Varrock armour 1? Yes, but I'm afraid it would cost you 1,500 coins.
+            - [Menu]: Purchase another for 1,500 coins?
+              - [Choice]: Yes
+                - [You're handed another Varrock armour 1.]
+                - (receives=Varrock armour 1) (removes= 1,500 coins)
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Varrock armour 2
+            - **Rat Burgiss:** Varrock armour 2? Yes, but I'm afraid it would cost you 2,500 coins.
+            - [Menu]: Purchase another for 2,500 coins?
+              - [Choice]: Yes
+                - [You're handed another Varrock armour 2.]
+                - (receives=Varrock armour 2) (removes= 2,500 coins)
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Varrock armour 3
+            - **Rat Burgiss:** Varrock armour 3? Yes, but I'm afraid it would cost you 7,500 coins.
+            - [Menu]: Purchase another for 7,500 coins?
+              - [Choice]: Yes
+                - [You're handed another Varrock armour 3.]
+                - (receives=Varrock armour 3) (removes= 7,500 coins)
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Varrock armour 4
+            - **Rat Burgiss:** Varrock armour 4? Yes, but I'm afraid it would cost you 15,000 coins.
+            - [Menu]: Purchase another for 15,000 coins?
+              - [Choice]: Yes
+                - [You're handed another Varrock armour 4.]
+                - (receives=Varrock armour 4) (removes= 15,000 coins)
+              - [Choice]: No
+                - **Player:** No thanks.
+      - [Choice]: cond=If at least the easy Varrock tasks have been completed and the rewards claimed|I'd like to change my teleport point.
+        - **Player:** I'd like to change my Varrock Teleport point.
+        - **Player:** Can I change my Varrock teleport point?
+        - **Rat Burgiss:** Certainly. It's currently set to the [the fountain in the middle of Varrock/Grand Exchange/the altar in the north of Varrock]. Where would you prefer?
+        - [Menu]: Choose an option:
+          - [Choice]: Fountain in the middle of Varrock.
+            - **Rat Burgiss:** Okay, that's all done.
+            - Your Varrock teleport will now teleport you to the middle of Varrock.
+          - [Choice]: Grand Exchange.
+            - **Rat Burgiss:** Okay, that's all done.
+            - Your Varrock teleport will now teleport you to the Grand Exchange.
+          - [Choice]: Altar in the north.
+            - **Rat Burgiss:** Okay, that's all done.
+            - Your Varrock teleport will now teleport you to the altar in the north of Varrock.
+      - [Choice]: Sorry, I was just leaving.
+        - (end)
+  - [Choice]: Hello there!
+    - (Condition: Without 35 Runecrafting:)
+      - **Player:** Hello there!
+      - **Rat Burgiss:** Oh, hello. I'd love to chat right now, but I'm a bit busy. Perhaps you could come back and chat some other time?
+      - **Player:** Of course. Sorry to bother you!
+      - **Rat Burgiss:** Not at all! Farewell!
+    - (Condition: With 35 Runecrafting:)
+      - (see|What Lies Below)

@@ -1,0 +1,21 @@
+# Ambassador Ferrnook
+
+- **Original Wiki Page**: [Transcript:Ambassador Ferrnook](https://runescape.wiki/w/Transcript%3AAmbassador%20Ferrnook)
+- **Letter**: `A`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Player:** Hello Ambassador. Are you here visiting King Roald?
+- **Ambassador Ferrnook:** Well, in theory, but he always seems to be busy.
+- **Player:** You don't seem that upset by that, though...
+- **Ambassador Ferrnook:** Oh no, I like travelling, and if you become a diplomat patience is a vital skill.
+- **Player:** I'll try to remember that.
+
+### Gnome Restaurant delivery
+
+- **Ambassador Ferrnook:** Excellent. A taste of home.

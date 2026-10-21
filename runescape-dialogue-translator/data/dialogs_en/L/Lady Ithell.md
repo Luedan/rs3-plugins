@@ -1,0 +1,303 @@
+# Lady Ithell
+
+- **Original Wiki Page**: [Transcript:Lady Ithell](https://runescape.wiki/w/Transcript%3ALady%20Ithell)
+- **Letter**: `L`
+
+---
+
+## Dialogue Transcript
+
+{{Incomplete|Missing dialogue to upgrade or revert hatchets and pickaxes on tool belt, and to upgrade glided and Imcando pickaxes}}
+
+### In Lletya, before Plague's End
+
+- **Player:** Hello.
+- **Kelyn:** Huh... Oh sorry, you made me jump. I was miles away, day dreaming.
+- **Player:** About what may I ask?
+- **Kelyn:** I was thinking about the crystal spires of Prifddinas.
+- **Player:** It must be beautiful, I've only seen the city walls.
+- **Kelyn:** I have never been myself, some of my friends have though. I only know of the stories told by the elders.
+
+### In Prifddinas, after Plague's End
+
+
+#### Without owning an attuned crystal weapon nor having completed the Xena-Phile achievement
+
+- (receives=attuned crystal weapon seed)
+- [Lady Ithell gives you a free attuned crystal seed with which to show your dedication to the elves by completing the elf task set.]
+- [If you destroy this seed you will have to wait a week before you can claim a replacement. Once you complete the Xena-Phile task you will not be able to claim another.]
+- **Lady Ithell:** I am looking forward to seeing what you create.
+- (continue|standard)
+
+#### Wearing a full mourner outfit
+
+- (Condition: If the "the Mourner" title has not already been unlocked:)
+  - You have unlocked the title 'the Mourner'.
+  - (continue)
+- **Lady Ithell:** Well, you certainly look silly in that outfit.
+- (continue|standard)
+
+#### Standard dialogue
+
+- **Lady Ithell:** It's wonderful, isn't it? <br>The crystal spires of Prifddinas...it's more beautiful than I could've dreamed. The stories didn't do it justice.
+- [Menu]: Choose an option:
+  - [Choice]: Ask about Lady Ithell and her clan...
+    - [Menu]: Select an Option
+      - [Choice]: Ask about Lady Ithell...
+        - **Player:** Can you tell me about yourself?
+        - **Lady Ithell:** Have you forgotten me already? I used to live in Lletya. I was just a day-dreaming young elf, with no idea of the destiny that awaited me.
+        - **Lady Ithell:** You built a statue of the former Lady Ithell, and when I gazed at her beauty, it spoke to me. I felt Lady Ithell's memories enter my mind.
+        - **Lady Ithell:** The crystal spires...the delicate harmonies...the recreation of those harmonies in wood! I saw how she did it, I gained her knowledge, and I became the new Lady Ithell.
+        - [Menu]: Select an Option
+          - [Choice]: What happened with you and the statue?
+            - **Lady Ithell:** The Riddle of the Lost Elders was literally true - Lady Ithell put her soul into her greatest work.
+            - **Lady Ithell:** She took part of her soul - the essential truths about who she was, and what made her Lady Ithell - and encoded them in the statue plans you found around Lletya.
+            - **Lady Ithell:** I'm a member of Clan Ithell, with a love of architecture. When I saw the statue, that soul spoke to me...I mean, spoke in the same way a work of art speaks to someone who looks at it.
+            - **Lady Ithell:** I gained the essential knowledge of the leader of Clan Ithell. I am the new Lady Ithell - I sang her part of the city into shape!
+            - (previous|ask-about-lady)
+          - [Choice]: If you're Lady Ithell, what happened to Kelyn?
+            - **Lady Ithell:** I'm still Kelyn. I'm not possessed - my memories haven't been changed.
+            - **Lady Ithell:** But I have some new knowledge as well - abilities that the old Lady Ithell encoded into her statue plans. The knowledge I need to be the new Lady Ithell.
+            - (Condition: If the player has not yet helped Lady Ithell with crystal singing research:)
+              - **Lady Ithell:** Well, some of it, anyway. My head is so full of chants and schematics and songs it hurts, and I'm still trying to make sense of it all.
+              - (previous|ask-about-lady)
+            - (Condition: If the player has helped Lady Ithell with crystal singing research:)
+              - **Lady Ithell:** Well, some of it, anyway. My head is so full of chants and schematics and songs it hurts, but thanks to your help I'm making much better sense of it all.
+              - (previous|ask-about-lady)
+          - [Choice]: Why didn't you ever build that statue yourself?
+            - **Lady Ithell:** I must have walked past those plans on the walls every day for years, and never noticed them. Sometimes it takes an outsider's eye to see details.
+            - **Lady Ithell:** I doubted I could build the statue like you could. It took a master of construction to properly express all the details that made up Lady Ithell's soul.
+            - **Lady Ithell:** So, I set myself a task when I arrived in Prifddinas. I tried to replicate your statue here.
+            - **Lady Ithell:** I don't think it's as good as yours, to be honest. I have Lady Ithell's knowledge, but talent isn't so easily inherited.
+            - **Lady Ithell:** I'll keep working at it. I want to have an image of Lady Ithell here with me, to watch over me, and help me remember her legacy.
+            - **Lady Ithell:** At least it's better than my first attempt. I wish the clan hadn't made that little statue a centrepiece of the harmonium. It's awful...the clumsy work of an amateur chanter, but I learned a lot from singing it.
+            - (previous|ask-about-lady)
+          - [Choice]: How are you coping with your new role?
+            - **Lady Ithell:** I...I'm not coping very well, to be honest. <br>My head feels like a waterskin that's full to bursting. Sometimes I get headaches, and when I sleep, I have frightening dreams.
+            - **Lady Ithell:** The clan looks to me for guidance. They expect me to have Lady Ithell's wisdom, but my nose bleeds when I try to understand her memories.
+            - **Lady Ithell:** I wonder...did Lady Ithell choose me, or was I just in the right place at the right place at the right time?
+            - **Lady Ithell:** I'm probably too young to be an elder, but I'm going to do the best job I can.
+            - (previous|ask-about-lady)
+          - [Choice]: I have other questions...
+            - (previous2|original)
+      - [Choice]: Ask about Clan Ithell...
+        - **Player:** Can you tell me about Clan Ithell?
+        - **Lady Ithell:** We're most well-known for our ability to sing crystal seeds - tiny, precious fragments of Seren herself - into new and glorious shapes.
+        - **Lady Ithell:** Quite a lot of these gifts from Seren were kept safe on Tarddiad, the true home of the elves.
+        - (Condition: Before The Light Within:)
+          - **Lady Ithell:** We've not been able to return to Tarddiad since we lost access to the World Gate in the Second Age.
+          - (continue)
+        - (Condition: After The Light Within:)
+          - **Lady Ithell:** Thanks to you we now have a chance to go back there and recover them. Something we thought impossible after the Second Age.
+          - (continue)
+        - **Lady Ithell:** Guthix established his edicts after the God Wars of the Third Age, to protect Gielinor from the gods. Seren didn't want to be separated from us, so to share her power with the elves, Seren shattered her body.
+        - **Lady Ithell:** These crystal seeds come from Seren. By vocalising at a pitch beyond human hearing, and by varying tone, a crystal chanter can change the shape and size of a crystal seed. Gifted chanters can even imbue powers into these objects.
+        - **Lady Ithell:** Crystal singing isn't limited to the Ithell clan, but more crystal chanters are born into our family than any of the other clans.
+        - (previous|original)
+      - [Choice]: Ask about Ithell skills...
+        - **Player:** Can you tell me about Clan Ithell's skills?
+        - **Lady Ithell:** We are the architects of Prifddinas, responsible for its construction and maintenance.
+        - **Lady Ithell:** Most of the city's infrastructure was encoded in the Grand Library, but through crystal singing we shape the spires, buildings and walkways, as needed by the clans.
+        - **Lady Ithell:** We also chant crystal seeds into tools, instruments, and even weapons. I suppose it's roughly equivalent to what humans call 'crafting'...though our equipment is much prettier.
+        - (previous|original)
+      - [Choice]: I have other questions...
+        - (previous|original)
+  - [Choice]: Can you make me a crystal hatchet, pickaxe or mattock?
+    - **Lady Ithell:** Give me a dragon hatchet, pickaxe or mattock to upgrade, and at least 4,000 harmonic dust, and I'll see what I can do.
+    - **Lady Ithell:** If you're looking to upgrade an augmented tool, you'll need to show me that directly.
+    - [Menu]: Choose an option:
+      - [Choice]: cond=If the player has a dragon hatchet on their tool belt|Upgrade the dragon hatchet in my tool belt.
+        - (Condition: Without the required harmonic dust:)
+          - **Lady Ithell:** I need 4,000 harmonic dust to upgrade the dragon hatchet in your tool belt.
+          - (previous|dust)
+        - (Condition: With the required harmonic dust:)
+          - {{Transcript missing}}
+      - [Choice]: cond=If the player has a crystal hatchet on their tool belt|Revert the crystal hatchet on my tool belt.
+        - {{Transcript missing}}
+      - [Choice]: cond=If the player has a dragon pickaxe on their tool belt|Upgrade the dragon pickaxe in my tool belt.
+        - (Condition: Without the required harmonic dust:)
+          - **Lady Ithell:** I need 4,000 harmonic dust to upgrade the dragon pickaxe in your tool belt.
+          - (previous|dust)
+        - (Condition: With the required harmonic dust:)
+          - (removes=dragon pickaxe and 4,000 harmonic dust) (receives=crystal pickaxe)
+          - [Lady Ithell has upgraded the dragon pickaxe in your tool belt to a crystal pickaxe.]
+          - (previous|dust)
+      - [Choice]: cond=If the player has a crystal pickaxe on their tool belt|Revert the crystal pickaxe on my tool belt.
+        - [Menu]: Revert Crystal Pickaxe<br>You will not be refunded the harmonic dust you gave Lady Ithell to upgrade your pickaxe.<br>Are you sure you want to revert it back to a dragon pickaxe?
+          - [Choice]: Cancel
+            - (previous2|dust)
+          - [Choice]: Ok
+            - (removes=crystal pickaxe) (receives=dragon pickaxe)
+            - [Lady Ithell has reverted your crystal pickaxe in your tool belt to a dragon pickaxe.]
+            - (previous2|dust)
+      - [Choice]: Check for tools in my backpack...
+        - (Condition: With an Imcando pickaxe, a (gilded) dragon pickaxe, a dragon hatchet, a crystal hatchet, a crystal pickaxe, or a dragon mattock in backpack:)
+          - [Menu]: Which tool do you want to alter?
+            - [Choice]: Hatchet.
+              - [Menu]: Choose a tool interface opens.
+                - [Choice]: Can you upgrade my dragon hatchet to a crystal hatchet?
+                  - (Condition: Without 4,000 harmonic dust:)
+                    - **Lady Ithell:** I need 4,000 harmonic dust to upgrade this dragon hatchet to a crystal hatchet.
+                    - (previous|tool)
+                  - (Condition: With 4,000 harmonic dust:)
+                    - (removes=dragon hatchet and 4,000 harmonic dust) (receives=crystal hatchet)
+                    - [Lady Ithell has upgraded your dragon hatchet to a crystal hatchet.]
+                - [Choice]: Can you revert my crystal hatchet to a dragon hatchet?
+                  - [Menu]: Revert Crystal Hatchet<br>You will not be refunded the harmonic dust you gave Lady Ithell to upgrade your hatchet.<br>Are you sure you want to revert it back to a dragon hatchet?
+                    - [Choice]: Cancel
+                      - (previous2|tool)
+                    - [Choice]: Ok
+                      - (removes=crystal hatchet) (receives=dragon hatchet)
+                      - [Lady Ithell has reverted your crystal hatchet to a dragon hatchet.]
+                      - (previous2|tool)
+            - [Choice]: Pickaxe.
+              - [Menu]: Choose a tool interface opens.
+                - [Choice]: Can you upgrade my dragon pickaxe to a crystal pickaxe?
+                  - (Condition: Without 4,000 harmonic dust:)
+                    - **Lady Ithell:** I need 4,000 harmonic dust to upgrade this dragon pickaxe to a crystal pickaxe.
+                    - (previous|tool)
+                  - (Condition: With 4,000 harmonic dust:)
+                    - (removes=dragon pickaxe and 4,000 harmonic dust) (receives=crystal pickaxe)
+                    - [Lady Ithell has upgraded your dragon pickaxe to a crystal pickaxe.]
+                - [Choice]: Can you upgrade my glided dragon pickaxe to a glided crystal pickaxe?
+                  - {{Transcript missing}}
+                - [Choice]: Can you use my Imcando pickaxe to make a crystal Imcando pickaxe?
+                  - {{Transcript missing}}
+                - [Choice]: Can you revert my crystal pickaxe to a dragon pickaxe?
+                  - [Menu]: Revert Crystal Pickaxe<br>You will not be refunded the harmonic dust you gave Lady Ithell to upgrade your pickaxe.<br>Are you sure you want to revert it back to a dragon pickaxe?
+                    - [Choice]: Cancel
+                      - (previous2|tool)
+                    - [Choice]: Ok
+                      - (removes=crystal pickaxe) (receives=dragon pickaxe)
+                      - [Lady Ithell has reverted your crystal pickaxe to a dragon pickaxe.]
+                      - (previous2|tool)
+            - [Choice]: Mattock.
+              - [Menu]: Choose a tool interface opens.
+                - [Choice]: Can you upgrade my dragon mattock to a crystal mattock?
+                  - (Condition: Without 4,000 harmonic dust:)
+                    - **Lady Ithell:** I need 4,000 harmonic dust to upgrade this dragon mattock to a crystal mattock.
+                    - (previous|tool)
+                  - (Condition: With 4,000 harmonic dust:)
+                    - (removes=dragon mattock and 4,000 harmonic dust) (receives=crystal mattock)
+                    - [Lady Ithell has upgraded your dragon mattock to a crystal mattock.]
+                - [Choice]: Can you use my Imcando mattock to make a crystal Imcando mattock?
+                  - **Lady Ithell:** Neither myself nor the previous Lady Ithell have worked with the enchantments of the Imcando dwarves. That's beyond my ability, I'm afraid.
+                  - **Lady Ithell:** I could treat your Imcando mattock with harmonic dust like a dragon mattock, but it will lose its enchantment and function just like any other crystal mattock.
+                  - [Menu]: Replace Imcando Mattock<br> You will not reclaim any of the Imcando mattock's component parts. <br>Are you sure you want to replace this Imcando mattock with a crystal mattock?
+                    - [Choice]: Cancel
+                      - (previous2|tool)
+                    - [Choice]: Ok
+                      - (Condition: Without 4,000 harmonic dust:)
+                        - **Lady Ithell:** I need 4,000 harmonic dust to replace this Imcando mattock with a crystal mattock.
+                        - (previous2|tool)
+                      - (Condition: With 4,000 harmonic dust:)
+                        - (removes=Imcando mattock and 4,000 harmonic dust) (receives=crystal mattock)
+                        - [Lady Ithell has replaced your Imcando mattock with a crystal mattock.]
+                        - (previous2|tool)
+                - [Choice]: Can you revert my crystal mattock to a dragon mattock?
+                  - [Menu]: Revert Crystal Mattock<br>You will not be refunded the harmonic dust you gave Lady Ithell to upgrade your mattock.<br>Are you sure you want to revert it back to a dragon mattock?
+                    - [Choice]: Cancel
+                      - (previous2|tool)
+                    - [Choice]: Ok
+                      - (removes=crystal mattock) (receives=dragon mattock)
+                      - [Lady Ithell has reverted your crystal mattock to a dragon mattock.]
+                      - (previous2|tool)
+        - (Condition: If the player has no dragon or crystal hatchets, pickaxes, or mattocks in their inventory:)
+          - **Lady Ithell:** You are not carrying any dragon or crystal tools I can upgrade or revert. If you're looking to upgrade an augmented tool, you'll need to show me that directly.
+          - (previous)
+      - [Choice]: cond=After making at least one crystal hatchet, pickaxe, or mattock|Tell me again about the process.
+        - **Lady Ithell:** Normally you'd have to grow a hatchet or pickaxe from a tool seed, and it would degrade with use.
+        - **Lady Ithell:** However, since you're determined to break the fundamental laws of crystal singing, I speculate I could substitute the tool seed for a core of dragon metal.
+        - **Lady Ithell:** That should maintain the tool's structural integrity. Then I'd coat the dragon metal in a dense matrix of harmonic dust.
+        - **Lady Ithell:** After I sing a hard shell of crystal around the item, it should be susceptible to an enchantment that inhibits degradation.
+        - **Lady Ithell:** It might work, or the tool could shatter in a shower of flesh-rending fragments on impact.
+        - **Lady Ithell:** You'll be nice enough to let me know which occurred, if you survive the explosion, won't you?
+        - (previous)
+      - [Choice]: I have other questions...
+        - (previous)
+  - [Choice]: cond=Before talking about storing crystal seeds|Is there anything I can do for you?
+    - **Lady Ithell:** Well, there is one little favour you could do for me...
+    - **Lady Ithell:** You see, the previous Lady Ithell pursued a research project late in her life. I'm not sure if she ever finished it - she imbued the statue schematic with her memories quite a time before she died.
+    - **Lady Ithell:** The version of Lady Ithell in my mind had only just taken the first steps on a long journey of discovery.
+    - **Lady Ithell:** She was looking for a way to stabilise crystals, so they do not degrade with use. I want to continue her work.
+    - **Player:** So what's the favour?
+    - **Lady Ithell:** I need crystal seeds. Depleted seeds. As many as possible. Just to study them, you understand - you can collect your crystal seeds any time you like.
+    - **Player:** Seeds with charges won't do?
+    - **Lady Ithell:** No, they need to be reverted to their most basic seed form. Lady Ithell was sure there's some inhibitor in the basic nature of the seeds - these tiny fragments of Seren - that limits their potency.
+    - **Lady Ithell:** Oh, Lady Hefin would throw a fit if she heard me talk that way about Seren. I'm sure Seren wouldn't deliberately restrict her chosen people.
+    - **Lady Ithell:** Still, there's incredible power in the crystal seeds, and I believe through crystal singing we're barely tapping their true potential.
+    - **Lady Ithell:** So, will you let me look after your crystal seeds?
+    - [Menu]: Select an Option
+      - [Choice]: Open your crystal seed store.
+        - *(Crystal Seed Storage opens.)*
+      - [Choice]: Tell me again why you need crystal seeds.
+        - **Lady Ithell:** The previous Lady Ithell pursued a research project late in her life. I'm not sure if she ever finished it - she imbued the statue schematic with her memories quite a time before she died.
+        - **Lady Ithell:** The version of Lady Ithell in my mind had only just taken the first steps on a long journey of discovery.
+        - **Lady Ithell:** She was looking for a way to stabilise crystals, so they do not degrade with use. Lady Ithell was sure there's some inhibitor in the basic nature of the crystal seeds that limits their potency.
+        - **Lady Ithell:** I want to continue her work, and unlock our full potential.
+        - **Lady Ithell:** To do that, I need depleted crystal seeds, reverted to their most basic seed form. As many as possible. Just to study them, you understand - you can collect your crystal seeds any time you like.
+        - **Lady Ithell:** So, do you have any crystal seeds you'd like to loan to me?
+        - (previous)
+      - [Choice]: I have other questions...
+        - (previous)
+  - [Choice]: cond=After talking about storing crystal seeds|Ask about storing crystal seeds...
+    - [Menu]: Select an Option
+      - [Choice]: Open your crystal seed store.
+        - *(Crystal Seed Storage opens.)*
+      - [Choice]: Tell me again why you need crystal seeds.
+        - (above)
+      - [Choice]: I have other questions...
+        - (previous)
+  - [Choice]: Is there anything else I can help you with?
+    - (Condition: Before helping Lady Ithell with crystal singing research:)
+      - **Lady Ithell:** Actually, I was wondering if you could help me with a little project. It would really help me if you'd handle some magic crystal items for me.
+      - **Lady Ithell:** If I can understand how elf crystal reacts to humans, it will help me make sense of some of the former Lady Ithell's memories.
+      - **Lady Ithell:** If you could sing or find me a fully charged crystal staff, wand, orb, and ward, I'll expand your own knowledge of Magic. I'll even re-imburse you the crystal seed for each item.
+      - (Condition: Without having given Lady Ithell any crystal item:)
+        - **Lady Ithell:** I still need a:<br>Crystal staff<br>Crystal wand<br>Crystal orb
+        - **Lady Ithell:** Crystal ward
+        - (initial)
+      - (Condition: With some of the requested crystal items in backpack:)
+        - **Lady Ithell:**  Do you have any magic crystal items for me?
+        - [Menu]: Give Lady Ithell a crystal [staff/wand/orb/ward]?
+          - [Choice]: Yes.
+            - (Condition: If the item handed in is a crystal staff:)
+              - (removes=crystal staff) (receives=crystal weapon seed)
+              - [Lady Ithell gives you a crystal weapon seed in exchange for the crystal staff.]
+              - (continue)
+            - (Condition: If the item handed in is a crystal wand:)
+              - (removes=crystal wand) (receives=crystal weapon seed)
+              - [Lady Ithell gives you a crystal weapon seed in exchange for the crystal wand.]
+              - (continue)
+            - (Condition: If the item handed in is a crystal orb:)
+              - (removes=crystal orb) (receives=crystal weapon seed)
+              - [Lady Ithell gives you a crystal weapon seed in exchange for the crystal orb.]
+              - (continue)
+            - (Condition: If the item handed in is a crystal ward:)
+              - (removes=crystal ward) (receives=crystal armour seed)
+              - [Lady Ithell gives you a crystal armour seed in exchange for the crystal ward.]
+              - (continue)
+            - (Condition: If the player has additional crystal items to hand in:)
+              - (continuea|give)
+            - (Condition: If the player has no more crystal items to hand in:)
+              - (continue|stillneed)
+            - (Condition: Upon handing in all four requested crystal items:)
+              - (receives=Magic XP lamp)
+              - [Lady Ithell hands you a Magic lamp.]
+              - {{RSFontAchievement|Sing for the Lady}}
+              - **Lady Ithell:** Oh, thank you for the help. The quasi-elven residue from your contact with the items has a fascinating magical signature. This'll require further study, but some of Lady Ithell's memories are now much clearer to me.
+              - (initial)
+          - [Choice]: No.
+            - **Lady Ithell:** I still need a:<br>Crystal [item]
+            - (previous2)
+    - (Condition: After handing in some crystal items to Lady Ithell, without any more crystal items in backpack:)
+      - **Lady Ithell:** I still need a:<br>Crystal [item]
+      - (initial)
+    - (Condition: After handing in some crystal items to Lady Ithell, with crystal items in backpack:)
+      - **Lady Ithell:** Do you have any magic crystal items for me?
+      - (continuea|give)
+    - (Condition: After helping Lady Ithell with crystal singing research:)
+      - **Lady Ithell:** Thank you, but not at the moment.
+      - **Lady Ithell:** The quasi-elven residue from your contact with the items had a fascinating magical signature. This'll require further study, but some of Lady Ithell's memories are now much clearer to me.
+  - [Choice]: Nothing, thanks.
+    - (end)

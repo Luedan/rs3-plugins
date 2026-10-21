@@ -1,0 +1,279 @@
+# Fiara
+
+- **Original Wiki Page**: [Transcript:Fiara](https://runescape.wiki/w/Transcript%3AFiara)
+- **Letter**: `F`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+{{Incomplete|see hidden text - condition needs finding out}}
+
+### In the Fist of Guthix waiting area
+
+
+#### Diálogo por primera vez
+
+- (Condition: Hablando directamente con Fiara:)
+  - A medida que te acercas a la... gran criatura, deja escapar un silbido que suena en parte como una amenaza y en parte como un suspiro.
+  - **Player:** Mmm. ¿Qué fue eso?
+  - **Fiara:** *Hiss* Otro humano. ¿Por qué seguís viniendo aquí?
+  - (continue|Before Fist of Guthix tutorial)
+- (Condition: Hablando primero con Alran, Getorix o Pontimer:)
+  - A medida que te acercas a la... gran criatura, deja escapar un silbido que suena en parte como una amenaza y en parte como un suspiro.
+  - **Player:** Erm, discúlpeme... Lady Fiara, pero los druidas me dijeron que hablara con usted.
+  - **Fiara:** *Hiss* Sí... los druidas. Dicen y hacen mucho más de lo que deberían.
+  - **Player:** ¿Qué les pasa a los druidas? Parecen adorarte.
+  - **Fiara:** Adoran todo lo que es verde o suena incluso ligeramente mágico. No sólo adoran: acechan. Y cuando han llegado, es imposible sacarlos. Son como insectos.
+  - **Player:** Quieres deshacerte de ellos, ¿eh? Tal vez pueda-
+  - **Fiara:** No, no. *Hiss* Ahora eres como ellos. "¿Qué podemos hacer por ti hoy, oh gran Guardiana de Guthix, Lady Fiara?"
+  - **Player:** Erm, lo siento, supongo.
+  - **Fiara:** *Hiss* No preocupes tu débil mente con eso. ¿Qué era lo que querías? Terminemos con esto de una vez.
+  - (continue|Before Fist of Guthix tutorial)
+
+#### Tutorial Antes del Puño de Guthix
+
+- [Menu]: Selecciona una opción
+  - [Choice]: ¿Qué es este lugar?
+    - **Player:** ¿Qué es este lugar?
+    - **Fiara:** Es el sitio del Puño de Guthix.
+    - **Player:** ¿Puño de Guthix? ¿Qué es eso?
+    - **Fiara:** Es lo que es. Si aún no lo sabes, probablemente sea mejor que no aprendas.
+    - **Player:** Umm, está bien. ¿Qué están haciendo todos ustedes aquí abajo entonces?
+    - **Fiara:** *Hiss* Tres druidas están principalmente caminando SIN estar callados. Otro es montar una fortaleza de cajas y arrastrar todo tipo de material basura a la cueva. El quinto humano, que no es un druida, apareció cuando las siguientes masas invadieron la cueva.
+    - **Player:** Ya veo. Pero... ¿qué los atrajo aquí en primer lugar?
+    - **Fiara:** El Puño de Guthix. Y ahora intentan aprovechar su poder a través de este pequeño negocio que han montado.
+    - (Condition: Si se habló con los druidas de antemano:)
+      - **Player:** Está bien, pero me dijeron que hablara contigo. ¿Por qué querían eso?
+      - **Fiara:** Porque soy el guardián de este sitio y necesito asegurarme de que sus juegos no se salgan de control.
+      - **Player:** Muy bien. ¿Puedes hablarme entonces de los juegos?
+      - (continue)
+    - (Condition: Si no se habló con los druidas de antemano:)
+      - **Player:** Oh, eso suena interesante. Yo mismo soy un fanático del poder.
+      - **Fiara:** Me imaginé que sí. Después de todo, eres humano.
+      - **Player:** Supongo que entonces debería hablar con los druidas sobre ese asunto.
+      - **Fiara:** No, no deberías. Yo soy el guardián aquí. Necesito asegurarme de que se cumplan las reglas y de que sus juegos no se salgan de control.
+      - **Player:** Está bien, entonces cuéntamelo.
+      - (continue)
+    - **Fiara:** Está bien, te lo diré. Ahora, escucha atentamente para que no lo olvides.
+    - (Action: Comienza el tutorial del Puño de Guthix.)
+    - **Fiara:** El pasillo a mi izquierda conduce al {{colour|red|waiting room}}. Si quieres participar en los juegos, aquí es donde debes ir.
+    - **Fiara:** Una vez que se hayan reunido suficientes aventureros, los emparejaré {{colour|red|one-on-one}} entre sí y los enviaré a la arena. La arena es la cueva del Puño de Guthix. Permíteme mostrarte.
+    - (Action: La pantalla se desvanece y luego aparece. El diálogo posterior aparece sobre las vistas de la arena Fist of Guthix.)
+    - **Fiara:** Cada juego se divide en {{colour|red|two rounds}}, y tú y tu oponente os turnaréis para ser el {{colour|red|hunter}} y el {{colour|red|hunted}}. Yo decido quién empieza como qué.
+    - **Fiara:** Mientras seas {{colour|red|hunter}}, verás el texto {{colour|red|'Hunting'}} en el {{colour|red|upper right corner}} de la pantalla.
+    - **Fiara:** Mientras seas {{colour|red|hunted}}, este texto dirá {{colour|red|'Hunted by'}}.
+    - (Action: Ver panorámicas hacia el centro de la arena.)
+    - **Fiara:** La arena es grande y circular, y un poder antiguo emana de su {{colour|red|centre}}. Comenzarás en lados opuestos de esta arena.
+    - **Fiara:** El objetivo del {{colour|red|hunter}} es simple: perseguir y {{colour|red|defeat the hunted}} por cualquier medio necesario.
+    - (Action: Ver cacerolas al dispensador de piedra.)
+    - **Fiara:** El objetivo del {{colour|red|hunted}} no es tan fácil. Cuando aparezcas en la arena, te encontrarás cerca de un pequeño altar de piedra: un {{colour|red|stone dispenser}}. Además de esto, deberías ver un {{colour|red|glowing stone}}.
+    - **Fiara:** En el rol de {{colour|red|hunted}}, debes recoger un {{colour|red|stone}} del {{colour|red|dispenser}}. Esto es lo que usarás para reunir la poderosa energía del centro de la arena.
+    - **Fiara:** Mientras estés {{colour|red|wielding the stone}}, y SÓLO mientras estés {{colour|red|hold it in your hands}}, NO cuando estés en tu backpack, extraerá energía del Puño de Guthix. Su objetivo es conseguir tantos {{colour|red|charges}} como sea posible.
+    - **Fiara:** La cantidad de {{colour|red|charges}} que has reunido aparece en {{colour|red|upper right corner}}.
+    - **Fiara:** Sin embargo, al igual que el {{colour|red|hunted}}, debes tener cuidado. Tu oponente, el {{colour|red|hunter}}, está ahí para derrotarte. Mientras seas {{colour|red|wielding the stone}}, serás {{colour|red|unable to fight}}. Además, puede que te sientas muy fuerte, pero en el papel de {{colour|red|hunted}}, encontrarás tu {{colour|red|abilities severely drained}}, más a medida que te acerques al centro: alguien que de otro modo podría ser un oponente fácil de derrotar en combate, puede resultar más peligroso.
+    - **Fiara:** Por supuesto, puedes intentar contraatacar a tu oponente, aunque pueda resultar difícil. Además, como {{colour|red|hunted}}, tus habilidades mágicas también estarán limitadas. Sólo un determinado libro de hechizos puede ayudarte en este papel.
+    - **Fiara:** Hablando de {{colour|red|magic}}, también debo mencionar que encontrarás que algunos hechizos son {{colour|red|not as efficient}} en la cueva como pueden serlo en otras áreas.
+    - **Fiara:** Finalmente, como {{colour|red|hunted}}, también tomarás {{colour|red|periodic damage}} de las poderosas energías de la arena.
+    - **Player:** Bien, ¿entonces el cazador solo tiene que cazar a su objetivo?
+    - **Fiara:** Eso es correcto.
+    - **Player:** Y el cazado será más débil de lo habitual, ¿tiene que recoger una piedra del dispensador de piedras en el borde de la arena y empuñarla para cargarla?
+    - **Fiara:** Sí, y cuanto {{colour|red|closer to the centre}} de la arena seas, más será {{colour|red|charged}}.
+    - **Player:** ¿Algo más?
+    - (Action: Vea panorámicas de uno de los edificios de la arena.)
+    - **Fiara:** Sí. Encontrarás cuatro pequeños {{colour|red|buildings}} en la arena. Sus puertas están bloqueadas por {{colour|red|magical barriers}}. Sólo el {{colour|red|hunted}} puede entrar por estos y, mientras esté dentro, será completamente {{colour|red|invisible}} para todos los demás. Las barreras son
+    - **Fiara:** peligroso, sin embargo, y será {{colour|red|drain some of your health}} a medida que los atravieses.
+    - **Fiara:** Dentro de estos {{colour|red|houses}}, encontrarás {{colour|red|portals}}. puedes usarlos para {{colour|red|teleport from house to house}} (aún {{colour|red|invisible}} para todos los demás), pero ten en cuenta que la magia es muy antigua y los portales no se han utilizado activamente durante miles de años.
+    - **Fiara:** Es posible que actúen de forma un poco extraña de vez en cuando. Además, los portales requieren energía para funcionar correctamente y {{colour|red|drain some charges}} saldrán de tu piedra. Si no tiene suficientes cargos, no podrá utilizar el portal.
+    - **Player:** Está bien, lo tendré en cuenta. Entonces, ¿cuándo termina la ronda?
+    - **Fiara:** Una ronda puede terminar de cuatro maneras diferentes;
+    - **Fiara:** Uno: Si el {{colour|red|hunted is defeated}}.
+    - **Fiara:** Dos: Si el {{colour|red|completely charges his or her stone}} fue cazado, lo cual es poco probable que suceda.
+    - (Action: En la pantalla aparecen un marcador y una barra de "Tiempo restante:".)
+    - **Fiara:** Tres: Si es {{colour|red|time runs out}}, cada ronda no puede durar más de diez minutos. Puedes ver cuánto tiempo queda en el {{colour|red|lower left corner}} de la pantalla.
+    - (Action: Vista panorámica hasta la salida de la arena.)
+    - **Fiara:** Cuatro: Si alguno de los jugadores hace {{colour|red|leaves the arena}}, en cuyo caso el otro será declarado ganador. El perdedor también será marcado como tal por recibir menos fichas en el próximo juego que juegue.
+    - **Fiara:** Cuando termina la primera ronda, la segunda ronda {{colour|red|starts immediately}} y los roles cambian. El que jugó el {{colour|red|hunter}} en la primera ronda ahora tendrá la oportunidad de jugar el {{colour|red|hunted}} y reunir el {{colour|red|charges}}.
+    - **Fiara:** Cuando se hayan jugado ambas rondas, se jugará la que tenga el {{colour|red|most charges wins}}.
+    - **Player:** Oh, ¿cuáles son las recompensas?
+    - **Fiara:** Los druidas le dan mucho valor a la energía reunida y tú serás {{colour|red|awarded Fist of Guthix tokens}}. La cantidad de tokens que obtenga depende de su {{colour|red|total skill level}}: una gama amplia y equilibrada de conocimientos es algo positivo en
+    - **Fiara:** los ojos de Guthix - y cuántos {{colour|red|charges}} tienes.
+    - **Fiara:** El {{colour|red|Fist of Guthix tokens}} puede ser {{colour|red|spent on items}} en la tienda con la que los druidas han decidido abarrotar mi cueva.
+    - **Fiara:** También recibirás un {{colour|red|rating}}, que está completamente separado de los tokens. Esto simplemente servirá para realizar un seguimiento de qué tan bien juegas. Si ganas, tu calificación mejora. Si pierde, su calificación se verá afectada.
+    - **Fiara:** Tu calificación mejorará significativamente si reúnes mucho {{colour|red|more charges than your opponent}}. Además, la calificación se ajustará aún más si la diferencia en los niveles de combate es grande. Si pierdes contra alguien mucho más capaz que tú en combate,
+    - **Fiara:** tu calificación no se verá afectada tanto si pierdes contra alguien de tu mismo nivel.
+    - **Player:** ¿Es eso todo?
+    - **Fiara:** Casi. La paciencia es una gran virtud.
+    - **Fiara:** Finalmente, no puedes traer cualquier cosa que quieras al juego. {{colour|red|Only items usable in combat}}, pero {{colour|red|no food}} y {{colour|red|no potions}}. Te proporcionaré algunos medios de curación y una gran cantidad de {{colour|red|generic runes}}, llamado {{colour|red|elemental runes}} y
+    - **Fiara:** {{colour|red|catalytic runes}}, para tu {{colour|red|magic}}. Estos {{colour|red|runes}} se pueden usar en lugar de cualquier otra runa que puedas llevar contigo, pero ten en cuenta que solo se pueden usar en la cueva del Puño de Guthix. Además, cualquier {{colour|red|arrows}} u otras formas de {{colour|red|ammunition}} utilizadas en
+    - **Fiara:** la arena te será devuelta después del juego. Suponiendo que todavía estén intactos, por supuesto. ¡Y no dejes nada tirado por ahí! No quiero que arruines por completo este sitio sagrado.
+    - (Action: La pantalla se desvanece y luego vuelve a aparecer. La vista vuelve al vestíbulo del Puño de Guthix.)
+    - **Fiara:** Ahora, ¿tienes alguna pregunta?
+    - (continue|about-fist-of-guthix)
+  - [Choice]: ¿Qué eres?
+    - **Player:** ¿Qué eres?
+    - **Fiara:** Soy Fiara, Guardián de Guthix. ¿Qué vas a?
+    - [Menu]: Selecciona una opción
+      - [Choice]: Soy Player. ¿Qué estás protegiendo?
+        - **Player:** Soy Player. ¿Qué estás protegiendo?
+        - **Fiara:** Hola, Player. Estoy protegiendo este mismo sitio.
+        - **Player:** ¿Y qué tiene de especial?
+        - **Fiara:** Es el sitio del Puño de Guthix. Si aún no lo sabes, probablemente no estés capacitado para aprender.
+        - **Fiara:** ¿Hay algo más en lo que pueda ayudarte?
+        - (continue|what-place)
+      - [Choice]: Soy Player, un guardián de Saradomin.
+        - **Player:** Soy Player, un guardián de Saradomin.
+        - **Fiara:** Hola, Player, seguidor ciego del mal bien y guardián de la mentira. ¿Había algo más que quisieras?
+        - (continue|what-place)
+      - [Choice]: Soy Player, también Guardián de Guthix.
+        - **Player:** Soy Player, también guardián de Guthix.
+        - **Fiara:** Hola, Player, vidente de luz pero portador de mentiras. ¿Había algo más que quisieras?
+        - (continue|what-place)
+      - [Choice]: Soy Player, un guardián de Zamorak.
+        - **Player:** Soy Player, un guardián de Zamorak.
+        - **Fiara:** Hola, Player, seguidor del usurpador y portador de tu propia desaparición. ¿Había algo más que quisieras?
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Qué es este lugar?
+            - (above|place)
+          - [Choice]: No, gracias.
+            - **Player:** No, gracias.
+  - [Choice]: No importa.
+    - **Player:** No importa.
+
+#### Después del tutorial del Puño de Guthix
+
+- (Condition: Antes de que el player se presente:)
+  - **Fiara:** ¿Puedo ayudarte?
+- (Condition: Si el player se presentó como guardián de Saradomin:)
+  - **Fiara:** Hola, seguidor ciego del mal bien y guardián de la mentira. ¿Alguien como yo puede serle de alguna ayuda?
+- (Condition: Si el player se presentó como Guardián de Guthix:)
+  - **Fiara:** Hola, Player, ¿qué cuentos traes hoy? Uno pensaría que ya sabrías todo lo que tengo que decirte.
+- (Condition: Si el player se presentó como guardián de Zamorak:)
+  - **Fiara:** Hola, usurpador, ¿No deberías estar haciendo llover destrucción sobre aquellos que no quieren tener nada que ver contigo?
+- (Condition: Si el player se presentó sin alineación, o después de pedir que simplemente lo llamaran Player:)
+  - **Fiara:** Saludos, Player, ¿puedo ser de ayuda?
+- [Menu]: Selecciona una opción
+  - [Choice]: Tengo algunas preguntas sobre el juego Fist of Guthix.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Podrías volver a contarme todo sobre el juego?
+        - **Fiara:** Está bien, te lo diré. Ahora escucha atentamente, para que no lo olvides.
+        - (Action: Comienza el tutorial del Puño de Guthix.)
+        - (arriba2|tutorial)
+        - **Fiara:** Ahora, ¿tienes alguna pregunta?
+        - (previous)
+      - [Choice]: ¿Cómo obtengo cargos?
+        - **Player:** ¿Cómo obtengo cargos?
+        - **Fiara:** Solo puedes recibir cargos mientras desempeñas el rol de {{colour|red|hunted}}. Cuando comience el juego, mira a tu alrededor: debería haber un {{colour|red|stone dispenser}} cerca. Elija un {{colour|red|magical stone}} desde allí y {{colour|red|wield it}} para reunir {{colour|red|charges}}. Cuanto más cerca del centro estés, más {{colour|red|charges}} obtendrás.
+        - **Fiara:**¿Alguna pregunta más?
+        - [Menu]: Seleccione una opción {{fact|does the Just call me player options also appear here?}}
+          - [Choice]: Tengo más preguntas sobre el juego Fist of Guthix.
+            - (previous)
+          - [Choice]: ¿Qué eres?
+            - (abajo)
+          - [Choice]: cond=If the player is not playing on mobile:|No, gracias.
+            - **Player:** No, gracias.
+        - [Choice]: ¿Por qué no puedo entrar a la arena?
+      - **Player:** ¿Por qué no puedo entrar al juego?
+        - **Fiara:** Debe haber suficientes jugadores en la sala de espera para que comience un juego. Además, solo puede haber una cierta cantidad de jugadores en el juego en cualquier momento.
+        - **Fiara:** ¿Alguna pregunta más?
+        - (above|morequestions)
+      - [Choice]: ¡Sigo perdiendo todo el tiempo!
+        - **Player:** ¡Sigo perdiendo todo el tiempo!
+        - **Fiara:** Esa no era una pregunta, pero te daré algunos consejos.
+        - **Fiara:** Recuerda que el {{colour|red|closer you are to the centre}} de la arena, el {{colour|red|weaker you will become}}. Si te derrotan fácilmente y tu armadura no te sirve de nada, quizás quieras intentar huir a los bordes exteriores de
+        - **Fiara:** la arena donde estarás menos debilitado. Esto también se aplica a tu oponente. Si se trata de alguien que parece ser mucho más fuerte que tú, seguirá siendo muy débil más cerca del centro; aquí es donde debes atacar.
+        - **Fiara:** También debes saber que mientras estás en el centro, la energía del Puño de Guthix te ayudará a reponer tu energía de carrera mucho más rápido de lo habitual.
+        - **Fiara:** Además, utiliza las ruinas del pasado a tu favor. Escóndete detrás de los escombros y huye cuando tu oponente esté fuera de tu alcance. Utilice los edificios para esconderse o como medio de escape.
+        - **Fiara:** ¿Alguna pregunta más?
+        - (above|morequestions)
+      - [Choice]: cond=If the player is not playing on mobile:|No importa.
+        - **Player:** No importa.
+  - [Choice]: ¿Qué eres?
+    - **Player:** ¿Qué eres?
+    - (Condition: Si el player aún no se ha presentado:)
+      - **Fiara:** Soy Fiara, Guardián de Guthix. ¿Qué vas a?
+      - [Menu]: Selecciona una opción
+        - [Choice]: Soy Player. ¿Qué estás protegiendo?
+          - **Player:** Soy Player. ¿Qué estás protegiendo?
+          - **Fiara:** Hola, Player. Estoy protegiendo este mismo sitio.
+          - **Player:** ¿Y qué tiene de especial?
+          - **Fiara:** Es el sitio del Puño de Guthix. Si aún no lo sabes, probablemente no estés capacitado para aprender.
+          - **Fiara:** ¿Hay algo más en lo que pueda ayudarte?
+          - (continue|some-questions)
+        - [Choice]: Soy Player, un guardián de Saradomin.
+          - **Player:** Soy Player, un guardián de Saradomin.
+          - **Fiara:** Hola, Player, seguidor ciego del mal bien y guardián de la mentira. ¿Había algo más que quisieras?
+          - (continue|some-questions)
+        - [Choice]: Soy Player, también Guardián de Guthix.
+          - **Player:** Soy Player, también guardián de Guthix.
+          - **Fiara:** Hola, Player, vidente de luz pero portador de mentiras. ¿Había algo más que quisieras?
+          - (continue|some-questions)
+        - [Choice]: Soy Player, un guardián de Zamorak.
+          - **Player:** Soy Player, un guardián de Zamorak.
+          - **Fiara:** Hola, Player, seguidor del usurpador y portador de tu propia desaparición. ¿Había algo más que quisieras?
+          - (continue|some-questions)
+    - (Condition: Si el player se ha presentado antes:)
+      - **Fiara:** Soy Fiara, un guardián de Guthix.
+      - **Player:** ¿Y tú estás custodiando el Puño de Guthix, que, si aún no lo sé, no soy digno de saberlo?
+      - **Fiara:** Eso es correcto. ¿Hubo algo más?
+      - [Menu]: Selecciona una opción
+        - [Choice]: Tengo algunas preguntas sobre el juego Fist of Guthix.
+          - (above|questions-fog-game)
+        - [Choice]: No, gracias.
+          - **Player:** No, gracias.
+  - [Choice]: cond=If the player aligned themselves with one of the gods in their introduction, and before this option is used:|Sólo llámame Player.
+    - **Player:** Solo llámame Player.
+    - **Fiara:** Muy bien, Player el Indeciso. ¿Cómo puedo ser de ayuda?
+    - (otro)
+  - [Choice]: cond=If the player is not playing on mobile:|No importa.
+    - **Player:** No importa.
+
+##### Si se ha completado El mundo despierta
+
+- (Condition: Antes de que el player se presente:)
+  - **Fiara:** ¿Puedo ayudarte?
+  - (continue)
+- (Condition: Si el player se presentó como guardián de Saradomin:)
+  - **Fiara:** Hola, seguidor ciego del mal bien y guardián de la mentira. ¿Alguien como yo puede serle de alguna ayuda?
+  - (continue)
+- (Condition: Si el player se presentó como Guardián de Guthix:)
+  - **Fiara:** Hola, Player, ¿qué cuentos traes hoy? Uno pensaría que ya sabrías todo lo que tengo que decirte.
+  - (continue)
+- (Condition: Si el player se presentó como guardián de Zamorak:)
+  - **Fiara:** Hola, usurpador, ¿No deberías estar haciendo llover destrucción sobre aquellos que no quieren tener nada que ver contigo?
+  - (continue)
+- (Condition: Si el player se presentó sin alineación, o después de pedir que simplemente lo llamaran Player:)
+  - **Fiara:** Saludos, Player, ¿puedo ser de ayuda?
+  - (continue)
+- [Menu]: Selecciona una opción
+  - [Choice]: Me gustaría hablar sobre el Puño de Guthix.
+    - (above|about-fist-of-guthix)
+  - [Choice]: ¿Qué crees que pasará ahora que Guthix está muerto?
+    - **Fiara:** Ya no hay vuelta atrás. Los dioses jóvenes regresarán, uno por uno.
+    - **Fiara:** No compartirán terrenos, ni seguidores. Son codiciosos, hasta el último de ellos.
+    - **Fiara:** No podemos permitir que ocurra otra Guerra de Dioses. Puede que Guthix se haya ido, pero seguimos en pie.
+    - **Fiara:** Nunca dejaré de luchar por él. Y deberías recordar el regalo que te dio.
+    - [Menu]: Selecciona una opción
+      - [Choice]: Me gustaría hablar sobre el Puño de Guthix.
+        - (above|about-fist-of-guthix)
+      - [Choice]: Eso es todo, gracias.
+        - (end)
+<!-- No estoy seguro de dónde encaja esto
+    - (Condition: Primera vez hablando con Fiara sin presentarte:)
+    - ¿Qué eres?
+      - **Player:** ¿Qué eres?
+      - **Fiara:** Soy Fiara, un guardián de Guthix.
+      - **Player:** ¿Qué estás protegiendo?
+      - **Fiara:** Guthix me colocó aquí hace miles de años para proteger el Puño de Guthix.
+      - **Player:** ¿Estás protegiendo la mano de Guthix...?
+      - **Fiara:** No te tomes todo literalmente. No, soy el guardián de este lugar sagrado desde finales de la Tercera Edad y no contiene una mano.
+      - **Player:** ¿Qué es lo que estás protegiendo entonces?
+      - **Fiara:** Ya te lo he dicho. Ahora bien, ¿había algo más?
+        - **Seleccione una opción**
+          - ¿Qué es este lugar?
+          - **Player:** ¿Qué es este lugar?
+          - No, nada más.
+            - **Player:** No, nada más.
+              - (end)
+-->

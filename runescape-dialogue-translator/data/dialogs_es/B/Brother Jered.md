@@ -1,0 +1,140 @@
+# Brother Jered
+
+- **Original Wiki Page**: [Transcript:Brother Jered](https://runescape.wiki/w/Transcript%3ABrother%20Jered)
+- **Letter**: `B`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Before 99 Prayer
+
+- [Menu]: Selecciona una opción
+  - [Choice]: ¿Qué puedes hacer para ayudar a un aventurero audaz como yo?
+    - **Player:{{anchor|help}}** ¿Qué puedes hacer para ayudar a un aventurero audaz como yo?
+    - (Condition: Si el player no lleva un símbolo sin bendecir:)
+      - **Brother Jered:** Puedo hablarte de los símbolos sagrados o del Skillcape de Prayer.
+      - [Menu]: Selecciona una opción
+        - [Choice]: Háblame de los símbolos sagrados.
+          - **Player:** Háblame de los símbolos sagrados.
+          - **Brother Jered:** Si tienes una estrella plateada, que es el símbolo sagrado de Saradomin, entonces puedo bendecirla. Entonces, si lo llevas puesto, te ayudará cuando estés orando.
+        - [Choice]: Cuéntame sobre el Skillcape de Prayer.{{anchor|skillcape}}
+          - **Player:** Cuéntame sobre el Skillcape de Prayer.
+          - **Brother Jered:** El Skillcape de Prayer es el más difícil de conseguir de todos los skillcapes; Requiere mucha devoción para adquirirlo, ¡pero también otorga al usuario la capacidad de volar brevemente! ¿Hay algo más que pueda hacer por ti?
+          - [Menu]: Selecciona una opción
+            - [Choice]: Sí, ¿qué más puedes hacer por un aventurero audaz como yo?
+              - (continuea|help)
+            - [Choice]: No, gracias.
+              - **Player:** No, gracias.
+    - (Condition: Si el player lleva un símbolo sin bendecir:)
+      - **Brother Jered:** Bueno, puedo bendecir esa estrella de Saradomin que tienes, ¡o podría contarte sobre el Skillcape de Prayer!
+      - [Menu]: Selecciona una opción
+        - [Choice]: Sí por favor, bendita mi estrella. {{anchor|blessstar}}
+          - **Player:** Sí, por favor, bendita mi estrella.
+          - [Jered cierra los ojos y canta suavemente. El símbolo está imbuido de su bendición.]
+          - (removes=unblessed symbol) (receives=holy symbol)
+        - [Choice]: Háblame del Skillcape de Prayer.
+          - (above|skillcape)
+        - [Choice]: Ninguno de esos, gracias.
+          - **Player:** No, gracias.
+    - (Condition: Si el player lleva varios símbolos sin bendecir:)
+      - **Brother Jered:** Bueno, puedo bendecir esas estrellas de Saradomin que tienes, ¡o podría contarte sobre el Skillcape de Prayer!
+      - [Menu]: Selecciona una opción
+        - [Choice]: Sí por favor, benditas mis estrellas.
+          - **Player:** Sí, por favor, benditas mis estrellas. {{anchor|blessstars}}
+          - [Jered cierra los ojos y canta suavemente. Los símbolos están imbuidos de su bendición.]
+          - (removes=unblessed symbols) (receives=holy symbols)
+        - [Choice]: Háblame del Skillcape de Prayer.
+          - (above|skillcape)
+        - [Choice]: Ninguno de esos, gracias.
+          - **Player:** No, gracias.
+  - [Choice]: ¡Alabado sea Saradomin!
+    - **Player:** ¡Alabado sea Saradomin!
+    - **Brother Jered:** ¡Sí! Alabado sea el que trae vida a este mundo.
+
+### After 99 Prayer
+
+- [Menu]: Selecciona una opción
+  - [Choice]: ¿Qué puedes hacer para ayudar a un aventurero audaz como yo?
+    - **Player:** ¿Qué puedes hacer para ayudar a un aventurero audaz como yo?
+    - (Condition: Si el player no lleva un símbolo sin bendecir:)
+      - **Brother Jered:** Bueno, ya que eres tan devoto en alabar a los dioses, podría venderte un Skillcape de Prayer.
+      - [Menu]: Selecciona una opción
+        - [Choice]: Sí, por favor. ¡Tan pocas personas tienen Skillcapes de Prayer!
+          - (Condition: Si el player está en un mundo gratuito:)
+            - **Brother Jered:** Lo siento, no puedo venderte uno aquí. Intenta hablar conmigo en un mundo de miembros.
+          - (Condition: Si el player está en un mundo de miembros:)
+            - (Condition: Si el player tiene un ring of charos (a) equipado:)
+              - **Brother Jered:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins por este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
+              - [Menu]: Elige una opción:
+                - [Choice]: ¿92.000 coins? Eso es demasiado caro.
+                  - **Player:** Sé dónde encontrarte si cambio de opinión.
+                - [Choice]: De hecho, creo que tengo el dinero aquí.
+                  - (Condition: Si el player no tiene espacio backpack:)
+                    - **Brother Jered:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar algo de espacio en backpack antes de que pueda venderte uno.
+                  - (Condition: Si el player no tiene suficiente dinero:)
+                    - **Player:** Pero desafortunadamente me equivoqué.
+                    - **Brother Jered:** Bueno, vuelve a verme cuando lo hagas.
+                  - (Condition: Si el player tiene suficiente dinero:)
+                    - (receives=prayer cape and prayer hood) (removes=92,000 coins)
+                    - **Brother Jered:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+            - (Condition: Si el player no tiene un ring of charos(a) equipado:)
+              - [Menu]: Elige una opción:
+                - [Choice]: ¿99.000 coins? Eso es demasiado caro.
+                  - **Player:** Sé dónde encontrarte si cambio de opinión.
+                - [Choice]: De hecho, creo que tengo el dinero aquí.
+                - (Condition: Si el player no tiene espacio backpack:)
+                  - (arriba)
+                - (Condition: Si el player no tiene suficiente dinero:)
+                  - (arriba)
+                - (Condition: Si el player tiene suficiente dinero:)
+                  - (receives=prayer cape and prayer hood) (removes=99,000 coins)
+                  - **Brother Jered:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+        - [Choice]: He notado que hay un par de versiones de cada skillcape.
+          - **Brother Jered:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
+          - (Condition: Si usas el modelo antiguo:)
+            - **Brother Jered:** Parece que actualmente estás usando el modelo anterior para tu Prayer skillcape. ¿Quieres cambiar a uno más nuevo?
+            - (continue)
+          - (Condition: Si utiliza el nuevo modelo:)
+            - **Brother Jered:** Aún puedes elegir usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
+            - (continue)
+          - [Menu]: Selecciona una opción
+            - [Choice]: Sí, me gustaría usar la versión [new/old] del skillcape.
+              - **Brother Jered:** ¿Te gustaría usar el modelo [old/newer] solo para esta capa, o para el Quest Cape y todos los skillcapes que tienes?
+              - [Menu]: Selecciona una opción
+                - [Choice]: Solo me gustaría cambiar el Prayer skillcape.
+                  - **Brother Jered:** No hay problema, ahora utilizarás el modelo [older/newer] para tu Prayer skillcape.
+                - [Choice]: Me gustaría cambiar todos mis skillcapes.
+                  - **Brother Jered:** ¡No hay problema, ahora usarás el modelo [older/newer] para todos tus skillcapes!
+                - [Choice]: ¡He cambiado de opinión!
+                  - (end)
+            - [Choice]: No, gracias.
+              - **Brother Jered:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
+              - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+                - **Brother Jered:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
+                - [Menu]: Selecciona una opción
+                  - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.
+                    - **Brother Jered:** ¡Genial, ahora usarás el modelo antiguo para todos tus skillcapes!
+                  - [Choice]: No, gracias.
+                    - (end)
+        - [Choice]: No gracias, no puedo permitirme uno de esos.
+          - **Player:** No, gracias, no puedo permitirme uno de esos.
+          - **Brother Jered:** Lamento escuchar eso. Si te encuentras en tiempos más ricos, vuelve a verme.
+    - (Condition: Si el player lleva un símbolo sin bendecir:)
+      - **Brother Jered:** Bueno, puedo bendecir esa estrella de Saradomin que tienes.
+      - [Menu]: Selecciona una opción
+        - [Choice]: Sí por favor, bendita mi estrella.
+          - (above|blessstar)
+        - [Choice]: No, gracias.
+          - **Player:** No, gracias.
+    - (Condition: Si el player lleva más de un símbolo sin bendecir:)
+      - **Brother Jered:** Bueno, puedo bendecir esas estrellas de Saradomin que tienes.
+      - [Menu]: Selecciona una opción
+        - [Choice]: Sí por favor, benditas mis estrellas.
+          - (above|blessstars)
+        - [Choice]: No, gracias.
+          - **Player:** No, gracias.
+  - [Choice]: ¡Alabado sea Saradomin!
+    - (arriba)

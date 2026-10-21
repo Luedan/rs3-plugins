@@ -1,0 +1,31 @@
+# Denizen of Infernus
+
+- **Original Wiki Page**: [Transcript:Denizen of Infernus](https://runescape.wiki/w/Transcript%3ADenizen%20of%20Infernus)
+- **Letter**: `D`
+
+---
+
+## Dialogue Transcript
+
+
+### Entering combat
+
+- ((The following is shown as standard overhead dialogue and repeated in the chat interface as shown here.))
+  - {{#vardefineecho:Denizen of Infernus}} My power is incomplete.|color=#99FF99}} {{Audio button|Denizen of Infernus - My power is incomplete.ogg}}
+
+### Killing a chaos witch magus or apprentice
+
+- ((The following is shown as standard overhead dialogue and repeated in the chat interface as shown here.))
+  - {{#var:Denizen of Infernus}} Give me your life, vermin {{Audio button|Denizen of Infernus - Give me your life, vermin.ogg}}
+  - (continue)
+- **[Chaos witch magus or apprentice]:** {{RSChat|I die to serve our lord Zamorak}}
+- {{Qact|The witch dies, healing the denizen of Infernus.}}
+
+### Player using greater demon mask on Denizen of Infernus
+
+- ((If How Do You Do, Fellow Demon hasn't been completed:))
+  - Congratulations! You have completed: 'How Do You Do, Fellow Demon' - Use a Greater Demon Mask on the Denizen of Infernus.
+  - (continue)
+- **Denizen of Infernus:** {{RSChat|You disgust me!}} {{Audio button|Denizen of Infernus - You disgust me!.ogg}}
+- **Denizen of Infernus:** {{RSChat|Do you really think I can't smell your stinkin' human flesh?}} {{Audio button|Denizen of Infernus - Do you really think I can't smell your stinkin' human flesh?.ogg}}
+- **Denizen of Infernus:** {{RSChat|I'll rip that mask from your crumbling bones!}} {{Audio button|Denizen of Infernus - I'll rip that mask from your crumbling bones!.ogg}}

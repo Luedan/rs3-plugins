@@ -1,0 +1,167 @@
+# Kaqemeex
+
+- **Original Wiki Page**: [Transcript:Kaqemeex](https://runescape.wiki/w/Transcript%3AKaqemeex)
+- **Letter**: `K`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Before Druidic Ritual
+
+- [Menu]: Elige una opción:
+  - [Choice]: Habla sobre el ritual druídico.
+    - (ver|Ritual druídico)
+  - [Choice]: ¿Puedes decirme qué debo hacer para ganar un skillcape de Herblore?
+    - **Player:** ¿Puedes decirme qué debo hacer para ganar un skillcape de Herblore?
+    - **Kaqemeex:** Claro, para ganarte el derecho a usar cualquier skillcape necesitas haber dominado la habilidad al más alto nivel posible y no es diferente para Herblore. Cuando hayas alcanzado el nivel 99, vuelve y habla conmigo otra vez.
+
+### After Druidic Ritual
+
+- [Menu]: Elige una opción:
+  - [Choice]: Habla de cosas generales.
+    - **Kaqemeex:** Bienvenido de nuevo a nuestro círculo.
+    - **Kaqemeex:** Cuéntame, ¿cómo vas progresando con tu Herblore?
+    - [Menu]: Elige una opción:
+      - [Choice]: Muy bien, gracias.
+        - **Kaqemeex:** Es bueno escuchar eso.
+        - [Menu]: Elige una opción: {{anchor|herb-questions}}
+          - [Choice]: Entonces, ¿crees que el ritual ha tenido algún efecto?{{anchor|ritual}}
+            - **Kaqemeex:** Siento que sí. La mano de Guthix está ahora sobre la tierra y con el tiempo cambiará la situación para favorecernos de nuevo.
+            - **Player:** ¿Cuánto tiempo crees que llevará?
+            - **Kaqemeex:** Estas cosas sucederán al ritmo asignado. Un año parece sólo un momento para Guthix.
+            - **Player:** ¿Un año? ¿Quieres decir que salí corriendo para reunir todos esos artículos cuando podría pasar un año hasta que sucediera algo?
+            - **Kaqemeex:** No estoy seguro de lo que esperabas. ¿Pensaste que realizaríamos el ritual y Guthix saltaría del cielo y vencería a los trolls personalmente?
+            - **Player:** Bueno...
+            - **Kaqemeex:** Creo que tu comprensión de la teología es un poco débil. Te sugiero que estudies los misterios de los dioses y busques la sabiduría a través de la meditación.
+            - (otro)
+          - [Choice]: ¿Puedes explicar los fundamentos de Herblore?
+            - (continue|herblore)
+          - [Choice]: ¿Puedes decirme qué debo hacer para ganar un skillcape de Herblore?
+            - (continue|herb-cape)
+      - [Choice]: Necesito más práctica en eso...
+        - **Kaqemeex:** La persistencia es la clave del éxito.
+        - (continuea|herb-questions)
+      - [Choice]: ¿Puedes explicar los fundamentos de Herblore?{{anchor|herblore}}
+        - **Kaqemeex:** De hecho lo haré... Ahora explicaré los fundamentos de Herblore:
+        - **Kaqemeex:** Herblore es la habilidad de trabajar con hierbas y otros ingredientes para hacer pociones y venenos útiles.
+        - **Kaqemeex:** Primero necesitarás un vial, que puedes hacer con la habilidad Crafting, encontrarlo o comprarlo.
+        - **Kaqemeex:** A continuación, debes reunir las hierbas necesarias para hacer la poción que deseas.
+        - **Kaqemeex:** Consulta la guía de habilidades de Herblore para conocer los elementos necesarios para hacer un tipo particular de poción.
+        - **Kaqemeex:** Debes llenar tu vial con agua y agregar los ingredientes que necesites. Normalmente hay dos ingredientes para cada tipo de poción.
+        - **Kaqemeex:** Ten en cuenta que primero debes limpiar cada hierba antes de poder utilizarla.
+        - **Kaqemeex:** Es posible que también tengas que moler algunas hierbas antes de poder usarlas; necesitarás un mortero y un mortero para hacerlo.
+        - **Kaqemeex:** Las hierbas se pueden encontrar en el suelo y algunos monstruos también las dejan caer cuando los matas.
+        - **Kaqemeex:** Usemos la poción Attack como ejemplo: el primer ingrediente es la hoja de guam; el segundo es ojo de tritón.
+        - **Kaqemeex:** Mezcla estos dos ingredientes en tu vial lleno de agua y producirás una poción Attack.
+        - **Kaqemeex:** Bebe esta poción para aumentar temporalmente tu nivel de Attack.
+        - **Kaqemeex:** Diferentes pociones también requieren diferentes niveles de Herblore antes de poder prepararlas.
+        - **Kaqemeex:** Una vez más, consulta las instrucciones que se encuentran en la guía de habilidades de Herblore para conocer los niveles necesarios para hacer una poción en particular.
+        - **Kaqemeex:** Buena suerte con tu Herblore; Buenos días, aventurero.
+        - **Player:** Gracias por tu ayuda.
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Puedes explicar los fundamentos de Herblore?
+            - (continuea|herblore)
+          - [Choice]: ¿Puedes decirme qué debo hacer para ganar un skillcape de Herblore?
+            - (continue|herb-cape)
+      - [Choice]: ¿Puedes decirme qué debo hacer para ganar un skillcape de Herblore?
+        - (continue|herb-cape)
+  - {{anchor|herb-cape}} [Elección]: cond=Si el player tiene menos de 99 Herblore|¿Puedes decirme qué debo hacer para ganar un skillcape de Herblore?
+    - (arriba)
+  - [Choice]: cond=If the player has 99 Herblore|¿Creo que puedes venderme un skillcape de Herblore?
+    - (Condition: Si el player tiene un ring of charos (a) equipado:)
+      - **Kaqemeex:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins para este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
+      - [Menu]: Elige una opción:
+        - [Choice]: ¿92.000 coins? Eso es demasiado caro.
+          - **Player:** Sé dónde encontrarte si cambio de opinión.
+        - [Choice]: De hecho, creo que tengo el dinero aquí.
+          - (Condition: Si el player no tiene espacio backpack:)
+            - **Kaqemeex:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar espacio en backpack antes de que pueda venderte uno.
+          - (Condition: Si el player no tiene suficiente dinero:)
+            - **Player:** Pero desafortunadamente me equivoqué.
+            - **Kaqemeex:** Bueno, vuelve a verme cuando lo hagas.
+          - (Condition: Si el player tiene suficiente dinero:)
+            - (receives=Herblore cape and Herblore hood) (removes=92,000 coins)
+            - **Kaqemeex:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+        - [Choice]: cond=If the player has 120 Herblore|He dominado esta habilidad. ¿Hay algo más?
+          - **Kaqemeex:** Hay algo... aunque lo he mantenido en secreto durante mucho tiempo. Es algo que sólo puede ser usado por un verdadero maestro.
+          - **Kaqemeex:** Ni siquiera yo puedo usarlo, así de difícil es lograrlo.
+          - **Kaqemeex:** Dices que eres un maestro. Ponte derecho, déjame echarte un vistazo.
+          - **Kaqemeex:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Herblore master cape.
+          - [Menu]: ¿Comprar Herblore master cape por 120.000 coins?
+            - [Choice]: Sí.
+              - (Condition: Si el player no tiene espacio backpack:)
+                - **Kaqemeex:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
+              - (Condition: Si el player no tiene suficiente dinero:)
+                - No tienes suficiente dinero para comprar esta capa.
+              - (Condition: Si el player tiene suficiente dinero:)
+                - (receives=Herblore master cape) (removes=120,000 coins)
+                - (Action: Suena música Master cape.)
+            - [Choice]: No.
+              - (end)
+    - (Condition: Si el player no tiene un ring of charos(a) equipado:)
+      - **Kaqemeex:** Sin duda; Ha sido un placer verte crecer como herbolario. Tengo el privilegio de haber contribuido decisivamente a tu aprendizaje, pero debo pedir una donación de 99.000 coins para cubrir los gastos de la capa.
+      - (Condition: Con un token inverted skillcape o un token maestro skillcape invertido para Herblore:)
+        - **Kaqemeex:** ¡Veo que tienes una de las fichas de inversión de capa de Hans! Te quitaré eso de las manos y te venderé cualquier inverted cape para el que seas elegible.
+        - (removes=any inverted skillcape token and inverted master skillcape token)
+        - (continue)
+      - [Menu]: Elige una opción:
+        - [Choice]: ¿99.000 coins? Eso es demasiado caro.
+          - **Player:** Sé dónde encontrarte si cambio de opinión.
+        - [Choice]: De hecho, creo que tengo el dinero aquí.
+          - (Condition: Si el player no tiene espacio backpack:)
+            - (arriba)
+          - (Condition: Si el player no tiene suficiente dinero:)
+            - (arriba)
+          - (Condition: Si el player tiene suficiente dinero:)
+            - (receives=Herblore cape and Herblore hood) (removes=99,000 coins)
+            - **Kaqemeex:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+        - [Choice]: cond=With inverted Herblore cape unlocked:|Me gustaría un skillcape con los colores invertidos.
+          - (Condition: Sin espacio libre backpack:)
+            - **Kaqemeex:** Desafortunadamente necesitarás liberar algo de espacio en backpack antes de que pueda venderte uno.
+          - (Condition: Con espacio gratuito backpack:)
+            - {{Transcript missing}}
+        - [Choice]: cond=If the player has 120 Herblore|He dominado esta habilidad. ¿Hay algo más?
+          - (arriba)
+        - [Choice]: cond=With inverted Herblore master cape unlocked:|Me gustaría un master cape con los colores invertidos.
+          - **Kaqemeex:** Hay algo... aunque lo he mantenido en secreto durante mucho tiempo. Es algo que sólo puede ser usado por un verdadero maestro.
+          - **Kaqemeex:** Ni siquiera yo puedo usarlo, así de difícil es lograrlo.
+          - **Kaqemeex:** Dices que eres un maestro. Ponte derecho, déjame echarte un vistazo...
+          - **Kaqemeex:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Herblore master cape.
+          - [Menu]: ¿Comprar Herblore master cape por 120.000 coins?
+            - [Choice]: Sí.
+              - (Condition: Sin espacio libre backpack:)
+                - **Kaqemeex:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
+              - (Condition: Con espacio gratuito backpack:)
+                - {{Transcript missing}}
+            - [Choice]: No.
+              - (end)
+  - [Choice]: cond=If the player has 99 Herblore|He notado que hay un par de versiones de cada skillcape.
+    - **Kaqemeex:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
+    - (Condition: Si usas el modelo antiguo:)
+      - **Kaqemeex:** Parece que actualmente estás usando el modelo anterior para tu Herblore skillcape. ¿Quieres cambiar a uno más nuevo?
+      - (continue)
+    - (Condition: Si utiliza el nuevo modelo:)
+      - **Kaqemeex:** Aún puedes optar por usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
+      - (continue)
+    - [Menu]: Selecciona una opción
+      - [Choice]: Sí, me gustaría usar la versión [new/old] del skillcape.
+        - **Kaqemeex:** ¿Te gustaría usar el modelo [old/newer] solo para esta capa, o para el Quest Cape y todos los skillcapes que tienes?
+        - [Menu]: Selecciona una opción
+          - [Choice]: Solo me gustaría cambiar el Herblore skillcape.
+            - **Kaqemeex:** No hay problema, ahora utilizarás el modelo [older/newer] para tu Herblore skillcape.
+          - [Choice]: Me gustaría cambiar todos mis skillcapes.
+            - **Kaqemeex:** ¡No hay problema, ahora usarás el modelo [older/newer] para todos tus skillcapes!
+          - [Choice]: ¡He cambiado de opinión!
+            - (end)
+      - [Choice]: No, gracias.
+        - **Kaqemeex:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
+        - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+          - **Kaqemeex:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
+          - [Menu]: Selecciona una opción
+            - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.
+              - **Kaqemeex:** ¡Genial, ahora usarás el modelo antiguo para todos tus skillcapes!
+            - [Choice]: No, gracias.
+              - (end)

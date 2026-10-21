@@ -1,0 +1,67 @@
+# Captain Haskell
+
+- **Original Wiki Page**: [Transcript:Captain Haskell](https://runescape.wiki/w/Transcript%3ACaptain%20Haskell)
+- **Letter**: `C`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+- **Captain Haskell:** Hola. ¿Estás aquí por mis nuevos desafíos?
+  - **Player:** Cuéntame sobre tus desafíos.
+    - **Captain Haskell:** ¡Mis desafíos son los mejores! Nada de este trabajo largo y duro; el mío no debería llevarte más de unos minutos.
+    - **Captain Haskell:** Es más, no te estoy limitando como antes. Eres libre de elegir cualquier desafío y te recompensaré por completarlo.
+    - **Captain Haskell:** Sin embargo, necesitarás obtener una ficha de desafío para la habilidad adecuada.
+      - Habla de fichas de desafío.
+        - **Captain Haskell:** Bueno, no regalo mis desafíos a cualquiera que venga. ¡No tengo tanto tiempo!
+        - **Captain Haskell:** He llegado a un acuerdo con Alice y ella regalará fichas en Treasure Hunter.
+        - **Captain Haskell:** Todos los tokens tienen una habilidad asociada y, cuando tienes un token de desafío, puedes activarlo para elegir un desafío en esa habilidad.
+        - **Captain Haskell:** Si no quieres un desafío en esa habilidad, puedes intercambiar fichas con tus amigos por otras diferentes.
+        - *Durante la promoción*
+          - **Captain Haskell:** Por el momento, le he dado a Alice algunos tokens Agility, Hunter y Thieving, pero tengo otros guardados.
+        - *Después del final de la promoción*
+          - **Captain Haskell:** Desafortunadamente, Alice ha regalado todas las fichas que tenía, así que tendrás que esperar para conseguir más.
+      - Habla de recompensas.
+        - **Captain Haskell:** Cuando hayas terminado un desafío, puedes traerme tu token de desafío activo o simplemente revisar el token dondequiera que estés.
+        - **Captain Haskell:** Te recompensaré con algo de XP adicional en la habilidad relacionada con el desafío.
+        - **Captain Haskell:** No será tanto como solía darte para un desafío diario, pero estos son más rápidos de completar.
+      - Hable sobre elegir desafíos.
+        - **Captain Haskell:** A diferencia de ese infame gnomo, te dejo a ti seleccionar un desafío que disfrutarás de una lista de desafíos disponibles.
+        - **Captain Haskell:** Todos dan la misma recompensa, así que puedes elegir el que más te apetezca hacer. ¿No quieres desafiar el curso Wilderness Agility? ¡Simplemente elige Burthorpe!
+      - Cambia de tema.
+  - **Player:** ¡Tengo un desafío que entregar!
+    - **Captain Haskell:** No tienes uno de mis desafíos para entregar. ¿Quieres que el usurpador esté allí en la plataforma?
+  - **Player:** Háblame de ti.
+    - **Captain Haskell:** Solía ser intendente de la Guardia Imperial. Pero luego los ataques de los trolls disminuyeron y entonces fui "ascendido".
+    - **Captain Haskell:** ¡No es necesario que dé desafíos, dijeron! Bueno, les mostraré... ¡y esa amenaza de gnomo que está allí en su podio!
+      - **Player:** ¿Qué opinas de la Señora Fara?
+        - **Captain Haskell:** ¿SEÑORA Fara? Pah. Ladrona, espía, sinvergüenza, azote de Burthorpe tal vez... pero ella nunca será la amante.
+        - **Captain Haskell:** ¿Qué está haciendo ella aquí? Nadie parece saberlo. Ella vino aquí un día y comenzó a presentar desafíos a todos y cada uno. Justo después de que me relevaron de ese deber.
+        - **Captain Haskell:** No trama nada bueno, estoy seguro. Tomando todas esas reverencias y daggers, estoy seguro de que es parte de algo más grande. Simplemente no sé qué.
+      - **Player:** ¿Qué pasó con los trolls?
+        - **Captain Haskell:** ¡Los vencimos y los hicimos correr! Les mostramos el poder de la Guardia Imperial.
+        - **Captain Haskell:** Ahora hay rumores de que tiene algo que ver con la desaparición de Bandos, pero antes de eso los hicimos regresar a Death Plateau.
+        - **Captain Haskell:** Sin embargo, todavía organizan algún que otro ataque; puedes ayudarnos a defender si vas a la puerta de entrada al norte del Gremio de Guerreros.
+      - **Player:** ¿Qué has estado haciendo últimamente?
+        - **Captain Haskell:** Bueno, con mi pierna ya no soy apto para el servicio activo. Me ascendieron a capitán y me pusieron a supervisar a los nuevos reclutas.
+        - **Captain Haskell:** ¡Puedo darles un buen susto tanto con mis cicatrices como con mis historias!
+        - **Captain Haskell:** Pero siempre me ha gustado mi antiguo trabajo de intendente, así que decidí hacerlo por mi cuenta y aquí estoy. Captain Haskell, intendente extraordinario independiente.
+        - **Captain Haskell:** No estoy seguro de cómo se siente el comandante al respecto, pero todavía no he tenido ninguna queja.
+      - Cambia de tema.
+  - **Player:** Cuéntame sobre los boletos para la rifa.
+    - **Captain Haskell:** Me alegra decir que logré conseguir algunos boletos para la rifa de Balthazar y tengo algunos de sobra para regalar.
+      - **Player:** ¿Cómo consigo las entradas?
+        - **Captain Haskell:** Si quieres uno de mis boletos, tendrás que darme algunas fichas de desafío inactivas. Puedes conseguir los tokens probando suerte en Treasure Hunter.
+        - **Captain Haskell:** Cambiaré 1 boleto de rifa por 10 tokens inactivos de cualquier tipo.
+        - **Captain Haskell:** Sin embargo, me gusta compartir la riqueza, así que no te daré más de 2 boletos por día.
+        - Captain Haskell ofrecerá hasta 2 entradas por día hasta el final del lunes 15 de septiembre, hora del Reino Unido.
+      - **Player:** ¿Puedo cambiar mis tokens por un boleto?
+        - *Durante la promoción*
+          - **Captain Haskell:** No tienes suficientes tokens para intercambiar en tu backpack. Cambiaré 10 fichas por 1 boleto.
+        - *Después de la promoción*
+          - **Captain Haskell:** Tenía algunos boletos de rifa de sobra, pero ya los he regalado todos.
+          - **Captain Haskell:** Voy a usar el resto del mío en la rifa. Creo que una espada divina dorada me vendría bien.
+          - **Captain Haskell:** Sin embargo, aún deberías poder conseguir algo de Balthazar todos los días.
+      - cambiar de tema
+  - **Player:** Adiós.

@@ -1,0 +1,263 @@
+# Mr Ex
+
+- **Original Wiki Page**: [Transcript:Mr Ex](https://runescape.wiki/w/Transcript%3AMr%20Ex)
+- **Letter**: `M`
+
+---
+
+## Dialogue Transcript
+
+{{Obsolete|Dialogue for hardcore ironmen regarding the jar of divine light is likely to have changed after the update that always turns them into normal ironmen upon death}}
+
+### Standard dialogue
+
+- [Menu]: Choose an option:
+  - [Choice]: Wilderness hats
+    - (Condition: If you have not received a wildstalker helmet:)
+      - **Mr Ex:** Are you heading out into the Wilderness? If so, I have a gift for you.
+      - [Menu]: Select an Option
+        - [Choice]: Yes, I am.
+          - **Player:** Yes, I am.
+          - **Mr Ex:** Wouldn't catch me doing that, oh no. I'll just stay here and give wildstalker helmets to fighters like you.
+          - (Condition: Without backpack space:)
+            - **Mr Ex:** Once you have the space to carry it that is.
+          - (Condition: With backpack space:)
+            - (receives=Wildstalker helmet)
+            - [Mr Ex gives you an armoured helmet.]
+            - **Mr Ex:** I hope this looks after you out there. Wear it with pride.
+            - (continue|Options)
+        - [Choice]: Erm, no.
+          - **Player:** Erm, no.
+          - **Mr Ex:** A [man/lady] after my own heart! Stop here where it's safe.
+    - (Condition: If you already have a wildstalker helmet:)
+      - **Mr Ex:** You've still got that helmet I gave you? Good stuff. Better you than me out there, I say.
+      - (continue|Options)
+    - (Condition: If you lost/destroyed your wildstalker helmet:)
+      - **Mr Ex:** You've lost your hat, it seems.
+      - **Player:** Yes, somewhere out there.
+      - **Mr Ex:** Well, I don't mind getting it back for you...
+      - **Mr Ex:** It's not in the Wilderness, is it?
+      - (Condition: Without backpack space:)
+        - **Mr Ex:** That is if you make space to carry it.
+        - (continue)
+      - (Condition: With backpack space:)
+        - (receives=Wildstalker helmet)
+        - **Mr Ex:** Ah, here we go, it's come home to me. Look after it.
+        - **Player:** Thanks!
+        - (continue|Options)
+    - [Menu]: Select an Option
+      - [Choice]: Tell me more about this hat, then.
+        - **Player:** Tell me more about this hat, then.
+        - **Mr Ex:** While you own this hat, your kills and deaths in the Wilderness will be recorded, as will your most valuable kill and your current kill streak.
+        - **Mr Ex:** You can use your hat to display your achievements by turning yourself into a statue. Others will be able to read your statue's plague and see your statistics.
+        - **Mr Ex:** If you wish to, you can cause the hat to forget the carnage you've caused, or instruct it not to show certain elements.
+        - **Player:** Handy, thanks!
+      - [Choice]: Farewell.
+        - **Player:** Farewell.
+  - [Choice]: cond=If you are a Hardcore Ironman Mode player:|Hardcore mode
+    - **Mr Ex:** The gods appear to be turning a blind eye to you. Have you angered them...or was this a path of your choosing?
+    - **Player:** That's why I'm here. I've heard you may be able to help me.
+    - [Menu]: Choose an option:
+      - [Choice]: Jar of divine light
+        - (Condition: If you have not previously accepted the jar of divine light:)
+          - **Mr Ex:** Well, I did find this handy jar of divine light, it's yours if you want it?
+          - **Mr Ex:** You will need to take the jar in order to open it now, otherwise it will automatically activate to save you when you die - even without owning it.
+          - The jar of divine light, when used, will disable Hardcore mode. This cannot be undone once used.
+          - [Menu]: Select an Option
+            - [Choice]: That's great, thanks!
+              - **Mr Ex:** I'll keep hold of the jar for you. Speak to me again if you want to open it, otherwise I'll open it when it's time for you to meet the gods.
+            - [Choice]: No thanks, I'll wait until I die.
+              - (end)
+        - (Condition: If you have previously accepted the jar of divine light:)
+          - **Mr Ex:** You're back about the jar of divine light? You've already taken it. Would you like to open it now?
+          - [Opening this jar will envelop you in divine light, showing your presence to the gods. Once the gods are aware of your presence, you will be able to return to the world after death.]
+          - (Condition: If you have not disabled Hardcore mode yet:)
+            - [This will permanently disable Hardcore mode on your account after 7 days, dropping you to an Ironman account. This process cannot be reversed. This item can also be used automatically upon death. Are you sure?]
+            - **Disable Hardcore mode?**
+              - [Choice]: I want to disable Hardcore mode
+                - Try to open the jar of light in 7 days to disable Hardcore mode.
+              - [Choice]: Cancel
+                - (end)
+          - (Condition: If you have disabled Hardcore mode:)
+            - You have chosen to disable Hardcore mode in [number] days. Do you still wish to disable Hardcore mode?
+            - [Menu]: Disable hardcore mode
+              - [Choice]: Yes, I want to disable Hardcore mode
+                - **Mr Ex:** I'll keep hold of the jar for you. Speak to me again if you want to open it, otherwise I'll open it when it's time for you to meet the gods.
+              - [Choice]: No, I want to remain in Hardcore mode
+                - Disabling Hardcore mode cancelled.
+      - [Choice]: cond=If you have a total level of 1000 or 1600 and have not purchased the divine coins:|Divine coin
+        - (Condition: Purchasing the first divine coin:)
+          - **Mr Ex:** I found this coin. It seems to be exuding divine power. I'd be willing to sell it to you...for a price.
+          - **Mr Ex:** Yes, I think 100,000 coins will do nicely.
+          - **Mr Ex:** You will need to take it with you, wherever you go. Keep it concealed.
+          - **Mr Ex:** Should you fall, present the coin to whomever greets you. Meet their gaze without fear, but say nothing...and you shall live once again.
+          - This coin will grant you 1 extra death in Hardcore mode.
+          - [Menu]: Select an Option
+            - [Choice]: That's great, thanks!
+              - **Mr Ex:** Excellent. Let's see...
+              - [Mr Ex hands you the coin. You quickly stow it away.]
+            - [Choice]: No thanks.
+              - {{Transcript missing}}
+        - (Condition: Purchasing the second divine coin:)
+          - **Mr Ex:** I found this coin. It seems to be exuding divine power. I'd be willing to sell it to you... for a price. Yes, I think 10,000,000 coins will do nicely.
+          - **Player:** I bought an identical coin from you for far cheaper! Why is this so expensive?
+          - **Mr Ex:** Supply and demand, ma'am.
+          - **Player:** Fine...
+          - **Mr Ex:** You will need to take it with you, wherever you go. Keep it concealed. Should you fall, present the coin to whomever greets you. Meet their gaze without fear, but say nothing... and you shall live once again.
+          - This coin will grant you 1 extra death in Hardcore mode.
+          - [Menu]: Select an Option
+            - [Choice]: That's great, thanks!
+              - **Mr Ex:** Excellent. Let's see...
+              - Mr Ex hands you the coin. You quickly stow it away.
+            - [Choice]: No thanks.
+              - {{Transcript missing}}
+      - [Choice]: Never disable Hardcore Ironman mode
+        - **Player:** I never want to open the Jar of Divine Light unless I fall in combat. Is this possible?
+        - **Mr Ex:** I can seal the jar so you can't open it. I'll still be able to open the jar on your behalf should you be on your way to meet the gods.
+        - **Mr Ex:** However, if I do this, I won't sell the Book of Diplomacy to you either. I'd rather sell it to someone who may actually require it.
+        - **Mr Ex:** I won't undo this, mind. Once I've sealed your jar, you'll never be able to open it again. Nor will I offer to sell the Book of Diplomacy to you again.
+        - [Menu]: Never disable Hardcore Ironman mode?
+          - [Choice]: Yes, I never want to disable Hardcore Ironman mode
+            - **Mr Ex:** Your jar is now sealed.
+            - **Player:** Thanks!
+          - [Choice]: No, I want the option to disable Hardcore Ironman mode
+            - (end)
+  - [Choice]: cond=If you are a Hardcore or normal Ironman Mode player:|Ironman mode
+    - (Condition: If the player has not purchased the book of diplomacy:)
+      - (Condition: If you are playing in Hardcore Ironman mode and have not yet accepted a jar of divine light:)
+        - **Mr Ex:** I'm afraid that I can't sell you this book without selling you this lovely jar I have first.
+      - (Condition: If you are playing in regular Ironman mode, or playing in Hardcore Ironman mode but have accepted a jar of divine light:)
+        - **Mr Ex:** Hey, I don't mean offence by this, but I'm trying to sell this book.
+        - **Mr Ex:** I bought it myself for a decent sum of money, but I have no use for it.
+        - **Mr Ex:** It's a book which teaches the reader about how to interact with others. However, I'd need 50,000 coins to part with it.
+        - [Menu]: Select an Option
+          - [Choice]: That's great, thanks!
+            - **Player:** I've been looking for a book like this...
+            - (Condition: Without the 50,000 coins:)
+              - You can not afford that.
+              - ((Repeated in a pop-up:))
+                - You can not afford that.
+              - **Mr Ex:** You don't seem to have enough coins.
+            - (Condition: With the 50,000 coins:)
+              - (removes=50,000 coins) (receives=Book of diplomacy)
+              - [Mr Ex hands you the book.]
+          - [Choice]: No thanks
+            - (end)
+          - [Choice]: I never want to buy this book
+            - **Mr Ex:** Never means never. I won't offer you this book again. Are you sure you don't want this book?
+            - (Condition: If the player owns a jar of divine light:)
+              - **Mr Ex:** I will also seal your Jar of divine light, so only I can open it should you fall.
+              - (continue)
+            - [Menu]: Never disable ironman mode?
+              - [Choice]: Yes, I never want to disable Ironman mode
+                - **Mr Ex:** So be it, you'll never see the Book of Diplomacy again.
+                - **Player:** Thanks!
+              - [Choice]: No, I want to be able to cancel Ironman mode
+                - (end)
+    - (Condition: If the player has purchased the book of diplomacy:)
+      - **Player:** I never want to read the book of diplomacy, ever! I don't know why I bought it.
+      - **Mr Ex:** I'll take it back off you then.
+      - **Mr Ex:** Never means never. I won't offer you this book again. Are you sure you don't want this book?
+      - (Condition: If the player owns a jar of divine light:)
+        - **Mr Ex:** I will also seal your Jar of divine light, so only I can open it should you fall.
+        - (continue)
+      - [Menu]: Never disable ironman mode?
+        - [Choice]: Yes, I never want to disable Ironman mode
+          - **Mr Ex:** So be it, you'll never see the Book of Diplomacy again.
+          - **Player:** Thanks!
+        - [Choice]: No, I want to be able to cancel Ironman mode
+          - (end)
+  - [Choice]: Task System
+    - [Menu]: Choose an option:
+      - [Choice]: Tell me about the Task System.
+        - **Mr Ex:** Very well: the Achievement System is a collection of deeds you may wish to complete while adventuring around the world.
+        - **Mr Ex:** You can earn special rewards for completing certain achievements; at the very least, each is worth a cash bounty from Explorer Jack in Lumbridge.
+        - **Mr Ex:** Some also give items that will help complete other achievements, and many count as progress towards the set for the area they're in.
+        - [Menu]: Choose an option:
+          - [Choice]: Tell me about the set reward for this locality.
+            - **Mr Ex:** For completing the Wilderness set, you are presented with Wilderness sword.
+            - **Mr Ex:** This sword will become increasingly useful with each difficulty level of the set that you complete.
+            - **Mr Ex:** When you are presented with your rewards, you will be told of their uses.
+            - You may also select a set Task (denoted in the main Task System interface by a small shield icon) and choose 'Rewards' to see what rewards a set item provides.
+            - (previous2)
+          - [Choice]: How do I claim these rewards?
+            - **Mr Ex:** You need to complete all the Tasks in the set of a particular difficulty, then you can claim your reward. Most of the Wilderness set's Tasks are straightforward, although you might find some require quests to be
+            - **Mr Ex:** started, if not finished.
+            - **Mr Ex:** To claim the Wilderness set reward, speak to Mandrith, Quercus, Kolodion or myself.
+            - (previous2)
+          - [Choice]: Sorry, I was just leaving.
+            - (end)
+      - [Choice]: Can I claim any rewards from you?
+        - (Condition: If the player doesn't have any rewards to claim:)
+          - **Mr Ex:** You don't have any more rewards to claim!
+        - (Condition: If the player has not claimed the rewards from the easy Wilderness task set:)
+          - **Player:** I've completed all the tasks in the easy Wilderness task set.
+          - **Mr Ex:** Well done Player, I've kept some rewards aside for you.
+          - (Condition: Without three free backpack spaces:)
+            - **Mr Ex:** I'm afraid you don't have enough inventory space to claim all your rewards. Speak to me again when you have 3 spaces.
+          - (Condition: With three free backpack spaces:)
+            - (receives=two Antique lamp (Easy Wilderness Tasks) and Wilderness sword 1)
+            - [You are given some rewards for completing the easy Wilderness task set!]
+            - **Mr Ex:** There you go, looks like that's everything.
+        - (Condition: If the player has lost their Wilderness sword 1:)
+          - **Player:** I lost the Wilderness sword 1 you gave me...
+          - **Mr Ex:** Lucky for you I have a spare... I'm afraid it's going to cost you 50,000 coins though.
+          - [Menu]: Reclaim for 50,000 coins?
+            - [Choice]: Yes.
+              - (Condition: If the player does not have enough money:)
+                - You can not afford that.
+                - **Mr Ex:** But it doesn't look like you have enough money for that. Come back to me when you do.
+              - (Condition: If the player has enough money:)
+                - (removes=50,000 coins) (receives=Wilderness sword 1)
+                - [You're handed another Wilderness sword 1.]
+            - [Choice]: No.
+              - **Player:** No thanks.
+        - (Condition: If the player has lost their Wilderness sword 4:)
+          - **Player:** I lost the Wilderness sword 4.
+          - **Mr Ex:** Lucky for you I have a spare... I'm afraid it's going to cost you 100,000 coins though.
+          - [Menu]: Reclaim for 100,000 coins?
+            - [Choice]: Yes.
+              - (Condition: If the player does not have enough money:)
+                - You can not afford that.
+                - **Mr Ex:** But it doesn't look like you have enough money for that. Come back to me when you do.
+              - (Condition: If the player has enough money:)
+                - (removes=100,000 coins) (receives=Wilderness sword 4)
+                - [You're handed another Wilderness sword 4.]
+            - [Choice]: No.
+              - **Player:** No thanks.
+      - [Choice]: cond=If the player has claimed at least one of the Wilderness task set rewards:|Could I buy a spare of the reward?
+        - [Menu]: Choose an option:
+          - [Choice]: Wilderness sword 1
+            - **Mr Ex:** Wilderness sword 1? Yes, but I'm afraid it would cost you 50,000 coins.
+            - [Menu]: Purchase another for 50,000 coins?
+              - [Choice]: Yes
+                - (removes=50,000 coins) (receives=Wilderness sword 1)
+                - [You're handed another Wilderness sword 1.]
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Wilderness sword 2
+            - **Mr Ex:** Wilderness sword 2? Yes, but I'm afraid it would cost you 65,000 coins.
+            - [Menu]: Purchase another for 65,000 coins?
+              - [Choice]: Yes
+                - (removes=65,000 coins) (receives=Wilderness sword 2)
+                - [You're handed another Wilderness sword 2.]
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Wilderness sword 3
+            - **Mr Ex:** Wilderness sword 3? Yes, but I'm afraid it would cost you 80,000 coins.
+            - [Menu]: Purchase another for 80,000 coins?
+              - [Choice]: Yes
+                - (removes=80,000 coins) (receives=Wilderness sword 3)
+                - [You're handed another Wilderness sword 3.]
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Wilderness sword 4
+            - **Mr Ex:** Wilderness sword 4? Yes, but I'm afraid it would cost you 100,000 coins.
+            - [Menu]: Purchase another for 100,000 coins?
+              - [Choice]: Yes
+                - (removes=100,000 coins) (receives=Wilderness sword 4)
+                - [You're handed another Wilderness sword 4.]
+              - [Choice]: No
+                - **Player:** No thanks.
+      - [Choice]: Sorry, I was just leaving.
+        - (end)

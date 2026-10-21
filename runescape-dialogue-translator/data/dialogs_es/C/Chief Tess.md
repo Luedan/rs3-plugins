@@ -1,0 +1,214 @@
+# Chief Tess
+
+- **Original Wiki Page**: [Transcript:Chief Tess](https://runescape.wiki/w/Transcript%3AChief%20Tess)
+- **Letter**: `C`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Before As a First Resort
+
+- **Chief Tess:** ¿Quieres hablar sobre el resort o la ar-key-ología?
+- [Menu]: ¿De qué te gustaría hablar?
+  - [Choice]: Como misión de primer recurso.
+    - (ver|Como primer recurso)
+  - [Choice]: Colecciones Archaeology.
+    - (abajo)
+
+### After As a First Resort
+
+- **Chief Tess:** ¿Quieres hablar sobre el resort o la ar-key-ología?
+- [Menu]: ¿De qué te gustaría hablar?
+  - [Choice]: Técnicas de caza.
+    - **Chief Tess:** Oye, eres un buen cazador de humanos. ¡Me impresionó! ¿Puedo hacer algo por ti, pequeña?
+    - [Menu]: Selecciona una opción
+      - [Choice]: Entonces, he notado que no hay muchos ogros machos por aquí...
+        - **Player:** Entonces, he notado que no hay muchos ogros machos por aquí...
+        - **Chief Tess:** ¡Je, sí, hombres! Son un poco graciosos, como vivir en cuevas. Un poco húmedo, sin playa, mala vista. Yo tampoco lo entiendo.
+        - **Player:** ¿Tú... ya sabes... nunca quieres verlos?
+        - **Chief Tess:** ¡Oh, claro! Visitamos a hombres ogros de vez en cuando... o ellos nos visitan a nosotros. Organiza una gran celebración, caza, come muchos bocadillos, escucha a los chamanes contar historias del pasado... ese tipo de cosas.
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Con qué frecuencia os reunís?
+            - **Player:** ¿Con qué frecuencia os reunís?
+            - **Chief Tess:** Oh, supongo que cada dos temporadas tal vez... si lo recordamos.
+            - **Chief Tess:** Una vez fuimos a visitarlos a las cuevas y al mismo tiempo vinieron a visitarnos aquí; nos extrañamos por completo, ¡pero pasamos buenas vacaciones!
+            - **Player:** Vale, eso es un poco raro.
+            - [Menu]: Selecciona una opción
+              - [Choice]: ¿Por qué vivís en lugares separados?
+                - (abajo)
+              - [Choice]: Sí, bueno, gracias por tu tiempo.
+                - **Player:** Sí, bueno, gracias por tu tiempo.
+          - [Choice]: ¿Por qué vivís en lugares separados?
+            - **Player:** ¿Por qué vivís en lugares separados? ¿No sería más fácil si vivieran todos en el mismo lugar?
+            - **Chief Tess:** ¿Quieres decir que tanto los hombres como las damas ogros viven en Oo'glog? Pero... ¡no hay suficiente espacio!
+            - **Player:** Sí, pero bueno, no necesariamente tendrías que vivir AQUÍ, ¿sabes? Podrías-
+            - **Chief Tess:** ¿Qué hay de malo aquí? ¡Nos gusta aquí! Si no te gusta, vete a otro lado.
+            - **Player:** ¡No, espera! Solo quise decir, ya sabes... si vivieran más juntos, podrían verse más a menudo.
+            - **Chief Tess:** ¿Por qué queremos hacer eso?
+            - **Player:** Bueno, pensé... ya sabes, eh...
+            - **Chief Tess:** ¡Qué idea tan divertida: hombres y mujeres viviendo en el mismo lugar! ¿Qué piensas de eso, humano? Debes ser un excelente narrador.
+            - [Menu]: Selecciona una opción
+              - [Choice]: ¿Con qué frecuencia os reunís?
+                - (arriba)
+              - [Choice]: Sí, bueno, gracias por tu tiempo.
+                - (arriba)
+          - [Choice]: Eso es todo lo que quería saber.
+            - **Player:** Eso es todo lo que quería saber. Te estaré viendo.
+      - [Choice]: Tengo preguntas sobre la caza de criaturas por aquí.
+        - **Player:** Tengo preguntas sobre la caza de criaturas por aquí.
+        - **Chief Tess:** Sí, adelante.
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Cómo contraigo kebbits enfermos?
+            - **Player:** ¿Cómo puedo contraer kebbits enfermos?
+            - **Chief Tess:** Lo primero que debe hacer acerca de los kebbits enfermos es que pueden contagiarle enfermedades.
+            - **Player:** El nombre no revela nada.
+            - **Chief Tess:** Solo te lo advierto. Si no quieres prestar atención, está bien.
+            - **Player:** Lo siento. Por favor continúa.
+            - **Chief Tess:** Entonces, son portadores de enfermedades pero son tímidos. Y tonto. Realmente tonto.
+            - **Player:** Hola, pot, habla hervidor.
+            - **Chief Tess:** ¿Por qué hablas de ollas? ¿Después de todo no quieres hablar de kebbits?
+            - **Player:** No, de verdad, lo siento. No sé qué me pasó.
+            - **Chief Tess:** Mira, todo lo que digo es que el kebbit enfermo generalmente te deja en paz. Sin embargo, se vuelven más agresivos cuando quemas el tansymum. Es mucho más probable que muerdan si huelen a tansymum quemado.
+            - **Player:** Entonces, ¿qué les gusta?
+            - **Chief Tess:** Si quieres que el kebbit enfermo te siga, quema hierba para la fiebre. Les encanta la hierba de la fiebre. Me encanta el olfato, me encanta el sabor, me encanta todo lo relacionado con él. Incluso puedes usarlo para cebar las trampas mortales: se lo comen.
+            - **Player:** Es bueno saberlo. Gracias.
+            - **Chief Tess:** ¿Algo más que quieras saber, humano?
+            - [Menu]: Selecciona una opción
+              - [Choice]: ¿Cómo contraigo kebbits enfermos?
+                - (arriba)
+              - [Choice]: ¿Cómo atrapo ornitorrincos?
+                - (abajo)
+              - [Choice]: ¿Cómo atrapo pájaros débiles?
+                - (abajo)
+              - [Choice]: Nada más por el momento, gracias.
+                - **Player:** Nada más por el momento, gracias.
+                - **Chief Tess:** Je, bueno, siempre estaré aquí si no tienes suerte.
+          - [Choice]: ¿Cómo atrapo pájaros débiles?
+            - **Player:** ¿Cómo puedo atrapar pájaros débiles?
+            - **Chief Tess:** A los pájaros débiles les gusta el olor a tansymum quemándose; lo siguen a todas partes. No les gusta mucho quemar pasto contra la fiebre. Los asusta.
+            - **Player:** Entendido.
+            - **Chief Tess:** Ten cuidado si quemas lavanda cerca de los pájaros débiles. Yo soy pequeño, pero tienen un picota enorme.
+            - **Player:** Entendido.
+            - **Chief Tess:** ¿Algo más que quieras saber, humano?
+            - (continuea|anything-else)
+          - [Choice]: ¿Cómo atrapo ornitorrincos?
+            - **Player:** ¿Cómo atrapo ornitorrincos?
+            - **Chief Tess:** Lo primero es lo primero: necesitas una trampa de caja para atrapar al ornitorrinco.
+            - **Chief Tess:** No dañas a los ornitorrincos ni haces enojar mucho a los ogros, ¿entiendes?
+            - **Player:** No te preocupes; Se supone que debo moverlos, no lastimarlos.
+            - **Chief Tess:** Bien, entonces está bien.
+            - **Player:** Por curiosidad, ¿por qué?
+            - **Chief Tess:** No interrumpas todavía. Yo hablando.
+            - **Player:** Lo siento.
+            - **Chief Tess:** No escuchas muy bien, ¿verdad, humano? De todos modos, el ornitorrinco es un poco tímido. Necesitas animarlos quemando lavanda. Les gusta el olor dulce.
+            - **Player:** A los ornitorrincos les gusta la lavanda. Controlar. Ahora, ¿por qué-
+            - **Chief Tess:** ¡Aún no he terminado! Los humanos deben recordar esto: los ornitorrincos se sienten amenazados cuando huelen la hierba quemada por la fiebre. Cuando el ornitorrinco se siente amenazado, es probable que ataque. Ataca con espuelas venenosas en el pie trasero.
+            - **Player:** Ahora estás inventando cosas.
+            - **Chief Tess:** ¿No me crees? Pruébalo y verás. ¡No corras cuando te encuentres con los pies palmeados de la fatalidad!
+            - **Player:** No puedo creer que esté teniendo esta conversación.
+            - **Chief Tess:** ¿Algo más que quieras saber, humano?
+            - [Menu]: Selecciona una opción
+              - [Choice]: ¿Cómo contraigo kebbits enfermos?
+                - (arriba)
+              - [Choice]: ¿Cómo atrapo ornitorrincos?
+                - (arriba)
+              - [Choice]: ¿Cómo atrapo pájaros débiles?
+                - (arriba)
+              - [Choice]: Nada más por el momento, gracias.
+                - (arriba)
+              - [Choice]: Entonces, ¿por qué los ogros son tan protectores con los ornitorrincos?
+                - **Player:** Entonces, ¿por qué los ogros son tan protectores con los ornitorrincos?
+                - **Chief Tess:** Ah, es una historia larga e interesante. Se remonta a los días de la madre de la madre de mi madre...
+                - **Chief Tess:** madre madre madre, um, madre madre...
+                - **Chief Tess:** Bueno, de todos modos fue hace mucho tiempo.
+                - **Player:** Sí, lo tengo.
+                - **Chief Tess:** Eso es todo. Los humanos interrumpen demasiado. Si el ser humano va a ser así, ¡no contaré la historia!
+                - **Player:** Ah, ¿por favor? Estaré tan callado como un ratón hasta que termines.
+                - **Chief Tess:** No. Quizás te lo cuente más tarde, cuando me calme.
+                - **Player:** ¿Bonita, por favor?
+                - **Chief Tess:** No, ahora estoy demasiado enojado para decirlo bien.
+                - **Player:** ¿Por favor con azúcar encima?
+                - **Chief Tess:** ¡NO!
+                - **Player:** ¿Por favor, con azúcar encima y una cereza por si acaso?
+                - **Chief Tess:** ¡GRRRRA! ¡NO!
+                - **Player:** Bien. Sea así. Estoy seguro de que fue una historia estúpida de todos modos.
+          - [Choice]: ¿Dónde debo soltar los ornitorrincos?
+            - **Player:** ¿Dónde debo soltar los ornitorrincos?
+            - **Chief Tess:** Pequeños pies planos como la orilla junto al mar al este, dentro de las puertas de Oo'glog. El lugar tiene madrigueras en la orilla y juncos de ornitorrinco en los bajíos. Es su lugar de pesca favorito.
+            - **Player:** ¿Qué les pasa a las playas del sur?
+            - **Chief Tess:** No podemos cuidar de los ornitorrincos tan lejos. Los pequeños pies planos están protegidos aquí. Nos aseguramos de que nadie coloque trampas cerca de las madrigueras de los ornitorrincos.
+            - **Player:** ¿Por qué no permites-?
+            - **Chief Tess:** ¡Humano, silencio! ¡Yo sigo hablando!
+            - **Chief Tess:** Ahora, si llevas ornitorrincos al océano y los sueltas cerca del agua, serán pequeños bichos muy, muy felices. A cambio, a menudo te pescan un poco.
+            - **Player:** ¿Qué?
+            - **Chief Tess:** Inténtalo; verás. Suelte el ornitorrinco en la orilla del océano, cerca de los juncos. Ya ves lo que pasa entonces.
+          - [Choice]: ¿Dónde puedo encontrar estos productos que se pueden quemar?
+            - **Player:** ¿Dónde puedo encontrar estos productos para quemar?
+            - **Chief Tess:** Caminas por la puerta exterior de Oo'glog y encuentras todo lo que necesitas creciendo cerca.
+      - [Choice]: ¿Puedes volver a explicarme los conceptos básicos de los materiales humeantes?
+        - **Chief Tess:** Los antepasados han estado cazando aquí durante muchas, muchas edades, por lo que las criaturas de aquí son muy inteligentes con los cazadores. Saben evitar las trampas. Hunter debe ser muy astuto para atraer a las criaturas.
+        - **Player:** ¿Muy astuto?
+        - **Chief Tess:** Sí. Para atrapar criaturas, debes atraerlas con algo que les guste mucho.
+        - **Player:** Oh, ya sé acerca de las trampas de cebo, soy un Hunter experimentado, ¡lo soy!
+        - **Chief Tess:** El cebo es útil, pero no suficiente. Ya te lo dije, las criaturas aquí son muy inteligentes. Así que esto es lo que debes hacer:
+        - **Chief Tess:** Necesitas quemar algo que tenga un olor que les guste. Si quemas lo correcto, te seguirán. De esa manera, puedes llevarlos a las trampas.
+        - **Player:** ¿Quieres decir que necesito iniciar más incendios?
+        - **Chief Tess:** Sí, pero no grandes incendios. Debes quemar las cosas lentamente, con cuidado y mantener las cosas humeantes en alto para poder llevar a las criaturas a las trampas.
+        - **Chief Tess:** Es difícil. Las cosas se queman rápidamente y es necesario sostenerlas con cuidado para mantenerlas encendidas.
+      - [Choice]: Nada por ahora, gracias.
+        - **Player:** Nada por ahora, gracias.
+  - [Choice]: Colecciones Archaeology.
+    - **Chief Tess:** Bueno, escúpelo, tengo cosas importantes que hacer.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Quién eres?
+        - **Chief Tess:** Ya lo sabes. Yo soy la jefa por aquí. Soy el jefe de Oo'glog, ayudo con el resort, cazo.
+        - **Chief Tess:** Y si esto es una novedad para ti, ya lo sabes.
+        - (previous)
+      - [Choice]: ¿Qué estás coleccionando?
+        - **Chief Tess:** ¿Quieres simplemente mirar mi lista de tiendas o usar da wordies?
+        - [Menu]: ¿Qué te gustaría hacer?
+          - [Choice]: Ver colecciones.
+            - ((Se abre la interfaz de Shiny Pretties.))
+          - [Choice]: Habla de colecciones.
+            - **Chief Tess:** Quiero cosas para los luchadores, los modeladores, algunos otros peluches y, por supuesto, ¡siempre las bellezas brillantes!
+            - **Player:** Simplemente olvidé cómo funcionan las palabras.
+            - **Chief Tess:** *suspiro* Humies.
+            - **Player:** ¿No puede ser simplemente 'todo bandosiano', para que sea fácil para mí?
+            - **Chief Tess:** No. No es para mí, es para recurrir. Queremos armas, estatuas, joyas y demás para que el lugar luzca bonito.
+            - **Player:** Tal vez debería haber pedido ver tu lista de 'tiendas'.
+            - **Chief Tess:** Tal vez no me pongas en el casillero en el futuro porque soy un ogro.
+            - **Player:** Tienes razón, lo siento. Mis disculpas.
+            - (previous2)
+      - [Choice]: ¿Cuáles son las recompensas de tu colección?
+        - **Chief Tess:** Todo lo que me das, yo te doy notas cromáticas. No sé por qué quieres canciones de pájaros, pero las entiendes.
+        - **Chief Tess:** También tengo una reliquia para ti, también un vaso busty, pero debes estar completando mis colecciones para obtener la dosis.
+        - (Condition: Antes de completar la colección Smoky Fings:)
+          - **Chief Tess:** Hmm... ¿Qué tal si te doy biberón?
+          - **Player:** ¿Me darás un... biberón?
+          - **Chief Tess:** Sí. Aunque es una botella especial. Lo lleno del manantial de agua salada Oo'glog.
+          - **Player:** ¿Me darás una botella especial de agua de spa? ¿Agua de spa usada?
+          - **Chief Tess:** ¿Te burlas de Tess? ¡Es una botella especial! No tiene fondo...
+          - **Player:** Entonces, ¿cómo se queda el agua en él?
+          - **Chief Tess:** Como nunca se agota. Humano tonto...
+          - **Player:** Agua de manantial sin fondo: ¡estoy vendido!
+          - (continue)
+        - (Condition: Después de completar la colección Smoky Fings:)
+          - **Chief Tess:** ¡Mira! Botella de spa sin fondo, no se agota. Tess te lo dice, te burlas.
+          - **Player:** ¡Es genial! Lamento haber dudado alguna vez de ti.
+          - (continue)
+        - (Condition: Si nunca antes se ha reclamado vidrio robusto:)
+          - **Player:** Y "vidrio busty", ¿me atrevo a preguntar? No es una especie de figura de vidrio soplada atrevida, ¿verdad?
+          - **Chief Tess:** No, usted lo llama "rotura de hileras": esa gente de piedra de arena roja extrae minas en las afueras del pueblo.
+          - **Player:** ¡Oh, vidrio robusto! ¡Entiendo!
+          - **Chief Tess:** Sí, lo usamos para hacer lascivas. Bonito revestimiento suave para que los huéspedes del resort se lo lleven a casa. Tess modelo para ello.
+          - **Player:** *parpadeo* *parpadeo*
+          - (previous)
+        - (Condition: Si anteriormente se ha reclamado vidrio robusto:)
+          - **Chief Tess:** Ya me sacaste bastante vaso de tetona. ¿Prefieres un revestimiento suave?
+          - **Player:** Gracias, pero no, creo que lo rechazaré cortésmente.
+          - (previous)
+      - [Choice]: Adiós.
+        - **Chief Tess:** Nos vemos.

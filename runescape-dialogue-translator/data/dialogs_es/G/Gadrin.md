@@ -1,0 +1,135 @@
+# Gadrin
+
+- **Original Wiki Page**: [Transcript:Gadrin](https://runescape.wiki/w/Transcript%3AGadrin)
+- **Letter**: `G`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Gadrin:** Bienvenido al gremio Mining. ¿Puedo ayudarte con algo?
+- [Menu]: ¿Qué te gustaría decir?
+  - [Choice]: ¿Qué tienes en el gremio?
+    - **Player:** ¿Qué tienes en el gremio?
+    - **Gadrin:** ¡Oh, es MARAVILLOSO! Hay rocas de oricalcita, runita y carbón, todas exclusivas para personas con al menos el nivel 60 Mining.
+    - *(Si el player no ha alcanzado 60 Mining:)*
+      - **Player:** ¿Entonces no me dejas entrar ahí?
+      - **Gadrin:** Lo siento, pero las reglas son reglas. Primero haz un poco más de entrenamiento. ¿Puedo ayudarte con algo más?
+    - *(Si el player ha alcanzado 60 Mining:)*
+      - **Player:** Es bueno que tenga el nivel [número] Mining.
+      - **Gadrin:** Sí, ¡eso es increíble! ¿Querías algo más?
+      - (initial)
+  - [Choice]: ¿Qué hacéis los enanos con el mineral que extraéis?
+    - **Player:** ¿Qué hacen ustedes, enanos, con el mineral que extraen?
+    - **Gadrin:** ¿Qué opinas? Lo fundimos hasta convertirlo en barras, forjamos el metal para fabricar armaduras y armas y luego los intercambiamos por bienes y servicios.
+    - **Player:** No veo muchos enanos vendiendo armaduras o armas aquí.
+    - **Gadrin:** No, esto es sólo un puesto minero. A los enanos no nos gusta mucho establecernos en ciudades humanas. La mayor parte del mineral se transporta a Keldagrim, la gran ciudad enana. Allí arriba tienen un alto horno especial que permite fundir el mineral.
+    - **Gadrin:** mucho más fácil. Hay muchos comerciantes enanos trabajando en Keldagrim. De todos modos, ¿puedo ayudarte con algo más?
+    - (initial)
+  - [Choice]: ¿Puedes hablarme de tu skillcape?
+    - **Player:** ¿Puedes hablarme de tu skillcape?
+    - **Gadrin:** Claro, este es un Skillcape de Mining. ¡Muestra mi estatura como maestro minero! Tiene todo tipo de usos, incluido un aumento de habilidad para mi habilidad Mining. Cuando llegues al nivel 99 ven y habla conmigo y te venderé uno. ¿Hay algo más en lo que pueda ayudarte?
+    - (initial)
+  - [Choice]: cond=If the player has 99 Mining|¿Puedo comprarles un Skillcape o un Mining?
+    - (Condition: Si el player tiene un ring of charos (a) equipado:)
+      - **Gadrin:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins para este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
+      - [Menu]: Elige una opción:
+        - [Choice]: ¿92.000 coins? Eso es demasiado caro.
+          - **Player:** Sé dónde encontrarte si cambio de opinión.
+        - [Choice]: De hecho, creo que tengo el dinero aquí.
+          - (Condition: Si el player no tiene espacio backpack:)
+            - **Gadrin:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar espacio en backpack antes de que pueda venderte uno.
+          - (Condition: Si el player no tiene suficiente dinero:)
+            - **Player:** Pero desafortunadamente me equivoqué.
+            - **Gadrin:** Bueno, vuelve a verme cuando lo hagas.
+          - (Condition: Si el player tiene suficiente dinero:)
+            - (receives=Mining cape and Mining hood) (removes=92,000 coins)
+            - **Gadrin:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+        - [Choice]: cond=If the player has 120 Mining|He dominado esta habilidad. ¿Hay algo más?
+          - **Gadrin:** Hay algo... aunque lo he mantenido en secreto durante mucho tiempo. Es algo que sólo puede ser usado por un verdadero maestro.
+          - **Gadrin:** Ni siquiera yo puedo usarlo, así de difícil es lograrlo.
+          - **Gadrin:** Dices que eres un maestro. Ponte derecho, déjame echarte un vistazo...
+          - **Gadrin:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Mining master cape.
+          - [Menu]: ¿Comprar Mining master cape por 120.000 coins?
+            - [Choice]: Sí.
+              - (Condition: Sin espacio libre backpack:)
+                - **Gadrin:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
+              - (Condition: Con espacio gratuito backpack:)
+                - (Condition: Sin 120.000 coins:)
+                  - No tienes suficiente dinero para comprar esta capa.
+                  - (ventana emergente)
+                    - (Ventana emergente: No tienes suficiente dinero para comprar esta capa).
+                - (Condition: Con 120.000 coins:)
+                  - (removes=120,000 coins) (receives=Mining master cape)
+                  - (Action: Suena música Master cape.)
+            - [Choice]: No.
+              - (end)
+    - (Condition: Si el player no tiene un ring of charos(a) equipado:)
+      - **Gadrin:** Tienes razón, minero. Te has ganado el derecho a llevar uno, pero primero necesitaré 99.000 coins de ti.
+        - (Condition: Si el player tiene un token inverted skillcape o un token maestro skillcape invertido en su inventario sintonizado con Mining:)
+          - **Gadrin:** ¡Veo que tienes una de las fichas de inversión de capa de Hans! Te quitaré eso de las manos y te venderé cualquier inverted cape para el que seas elegible.
+      - [Menu]: Elige una opción:
+        - [Choice]: ¿99.000 coins? Eso es demasiado caro.
+          - **Player:** Sé dónde encontrarte si cambio de opinión.
+        - [Choice]: De hecho, creo que tengo el dinero aquí.
+          - (Condition: Si el player no tiene espacio backpack:)
+            - (arriba)
+          - (Condition: Si el player no tiene suficiente dinero:)
+            - (arriba)
+          - (Condition: Si el player tiene suficiente dinero:)
+            - (receives=Mining cape and Mining hood) (removes=99,000 coins)
+            - **Gadrin:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
+        - [Choice]: cond=If the player has redeemed the inverted skillcape token|Me gustaría un skillcape con los colores invertidos.
+          - (arriba)
+        - [Choice]: cond=If the player has 120 Mining|He dominado esta habilidad. ¿Hay algo más?
+          - (arriba)
+        - [Choice]: cond=If the player has redeemed the inverted master skillcape token|Me gustaría un master cape con los colores invertidos.
+          - (arriba)
+  - [Choice]: [More...]
+    - [Menu]: ¿Qué te gustaría decir?
+      - [Choice]: cond=If the player has 99 Mining|He notado que hay un par de versiones de cada skillcape.
+        - **Gadrin:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
+        - (Condition: Si el player utiliza el modelo antiguo:)
+          - **Gadrin:** Parece que actualmente estás usando el modelo anterior para tu Mining skillcape. ¿Quieres cambiar a uno más nuevo?
+          - (continue)
+        - (Condition: Si el player está utilizando el nuevo modelo:)
+          - **Gadrin:** Aún puedes optar por usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
+          - (continue)
+        - [Menu]: Selecciona una opción
+          - [Choice]: Sí, me gustaría usar la versión [new/old] del skillcape.
+            - **Gadrin:** ¿Te gustaría usar el modelo [old/newer] solo para esta capa, o para el Quest Cape y todos los skillcapes que tienes?
+            - [Menu]: Selecciona una opción
+              - [Choice]: Solo me gustaría cambiar el Mining skillcape.
+                - **Gadrin:** No hay problema, ahora utilizarás el modelo [older/newer] para tu Mining skillcape.
+              - [Choice]: Me gustaría cambiar todos mis skillcapes.
+                - **Gadrin:** ¡No hay problema, ahora usarás el modelo [older/newer] para todos tus skillcapes!
+              - [Choice]: ¡He cambiado de opinión!
+                - (end)
+          - [Choice]: No, gracias.
+            - **Gadrin:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
+            - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+              - **Gadrin:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
+              - [Menu]: Selecciona una opción
+                - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.
+                  - **Gadrin:** ¡Genial, ahora usarás el modelo antiguo para todos tus skillcapes!
+                - [Choice]: No, gracias.
+                  - (end)
+      - [Choice]: ¿Puedes ayudarme con los trajes de golem de piedras preciosas?
+        - **Player:** ¿Puedes ayudarme con los trajes de gólem de piedras preciosas?
+        - *(Si el player no puede recibir fragmentos de gólem de piedras preciosas y no ha desbloqueado el plano necesario para crear las piezas del atuendo:)*
+          - **Gadrin:** En el nivel 70 puedes comenzar a recolectar fragmentos para crear trajes de habilidades de élite. Cuando llegues a ese nivel, automáticamente comenzarás a recolectar fragmentos. Luego puedes usarlos con un plano para hacerte las piezas restantes del atuendo de élite para esta habilidad.
+        - *(Si el player puede recibir fragmentos de gólem de piedras preciosas pero no ha desbloqueado el plano necesario para crear las piezas del atuendo:) *
+          - **Gadrin:** Estás configurado para recibir fragmentos. Cuando llegues al nivel 80 podrás crear prendas de vestir.
+        - *(Si el player puede recibir fragmentos de gólem de piedras preciosas y ha desbloqueado el plano necesario para crear las piezas del atuendo:) *
+          - **Gadrin:** Estás configurado para recibir fragmentos. Cuando tengas 3600 fragmentos, podrás usarlos para crear una pieza de atuendo de élite. Simplemente acude a un banco de trabajo Invention para crear las piezas.
+        - *(Si el player ya posee el traje de golem mágico, o todas las piezas del traje:)*
+          - **Gadrin:** Ya has creado todas las prendas posibles. Me aseguraré de que no reciba más fragmentos.
+          - **Gadrin:** Puedes combinar las piezas del atuendo básico para crear las versiones de nivel alto y obtener beneficios adicionales.
+      - [Choice]: No, gracias. Estoy bien.
+        - (end)
+      - [Choice]: [More...]
+        - (initial)

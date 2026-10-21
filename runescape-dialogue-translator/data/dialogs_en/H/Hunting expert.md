@@ -1,0 +1,284 @@
+# Hunting expert
+
+- **Original Wiki Page**: [Transcript:Hunting expert](https://runescape.wiki/w/Transcript%3AHunting%20expert)
+- **Letter**: `H`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- [Menu]: What would you like to talk about?
+  - [Choice]: cond=If the player is below 99 Hunter|What is that cool cape you're wearing?
+    - **Player:** What is that cool cape you're wearing?
+    - **Hunting expert:** This? It's a Hunter's skillcape. It shows that I am a true master of the art of Hunting. If you ever manage to train your Hunter skill to its maximum level then I could sell you one.
+  - [Choice]: cond=If the player has 99 Hunter|Skillcape of Hunter.
+    - (Condition: Without 120 virtual Hunter:)
+      - (Condition: If the player has a ring of charos (a) equipped:)
+        - **Hunting expert:** I don't do this for anyone, but I've got a special offer today! Normally I require 99,000 coins for this prestigious item, but for you it's half price. Only 92,000 coins!
+        - [Menu]: Choose an option:
+          - [Choice]: 92,000 coins? That's much too expensive.
+            - **Player:** I know where to find you if I change my mind.
+          - [Choice]: I think I have the money right here, actually.
+            - (Condition: If the player has no backpack space:)
+              - **Hunting expert:** Unfortunately all skillcapes are only available with a free hood, it's part of a skill promotion deal; buy one get one free, you know. So, you'll need to free up some backpack space before I can sell you one.
+            - (Condition: If the player does not have enough money:)
+              - **Player:** But unfortunately, I was mistaken.
+              - **Hunting expert:** Well, come back and see me when you do.
+            - (Condition: If the player has enough money:)
+              - (receives=hunter cape and hunter hood) (removes=92,000 coins)
+              - **Hunting expert:** Excellent! Wear that cape with pride my friend.
+      - (Condition: If the player does not have a ring of charos (a) equipped:)
+        - [Menu]: Choose an option:
+          - [Choice]: 99,000 coins? That's much too expensive.
+            - **Player:** I know where to find you if I change my mind.
+          - [Choice]: I think I have the money right here, actually.
+            - (Condition: If the player has no backpack space:)
+              - (above)
+            - (Condition: If the player does not have enough money:)
+              - (above)
+            - (Condition: If the player has enough money:)
+              - (receives=hunter cape and hunter hood) (removes=99,000 coins)
+              - **Hunting expert:** Excellent! Wear that cape with pride my friend.
+          - [Choice]: cond=With 120 virtual Hunter:|I've mastered this skill. Is there anything else?
+            - **Hunting expert:** There is something...though I have kept it a secret for a very long time. It is something that can only be worn by a true master.
+            - **Hunting expert:** Not even I can wear it - that's how hard it is to achieve.
+            - **Hunting expert:** You say you're a master. Stand straight, let me take a look at you...
+            - **Hunting expert:** You...really have mastered it. What an honour! It would be my pleasure to sell you a Hunter master cape.
+            - [Menu]: Buy Hunter master cape for 120,000 coins?
+              - [Choice]: Yes.
+                - (Condition: Without free backpack space:)
+                  - **Hunting expert:** You do not have enough room in your backpack. Please come back when you have some more.
+                - (Condition: With free backpack space:)
+                  - (Condition: Without 120,000 coins:)
+                    - You do not have enough money to purchase this cape.
+                    - (pop-up)
+                      - {{Pop-up|You do not have enough money to purchase this cape.|warning=yes}}
+                  - (Condition: With 120,000 coins:)
+                    - (removes=120,000 coins) (receives=Hunter master cape)
+                    - {{Qact|Master cape music plays.}}
+              - [Choice]: No.
+                - (end)
+    - (Condition: With 120 virtual Hunter:)
+      - **Hunting expert:** Ah, a true master of hunting I see.
+      - [Menu]: Select an Option
+        - [Choice]: Can I buy a skillcape of Hunter?
+          - (above|99 cape)
+        - [Choice]: I've mastered this skill. Is there anything else?
+          - (above|120 cape)
+  - [Choice]: cond=If the player has 99 Hunter|I've noticed there are a couple of versions of each skillcape.
+    - **Hunting expert:** Yes! We, the skill masters, have crafted new versions of all skillcapes! We felt like it was time for a change.
+    - (Condition: If you use the old model:)
+      - **Hunting expert:** It looks like you're currently using the old model for your hunter skillcape. Would you like to change to the newer one?
+      - (continue)
+    - (Condition: If you use the new model:)
+      - **Hunting expert:** You can still choose to wear the old model skillcape if you want. Would you like to change which model you are currently using?
+      - (continue)
+    - [Menu]: Select an option
+      - [Choice]: Yes, I would like to wear the [new/old] version of the skillcape.
+        - **Hunting expert:** Would you like to wear the [old/newer] model for just this cape, or for the Quest Cape and all of the skillcapes you own?
+        - [Menu]: Select an Option
+          - [Choice]: I would just like to change the hunter skillcape.
+            - **Hunting expert:** No problem, you will now use the [older/newer] model for your hunter skillcape.
+          - [Choice]: I would like to change all my skillcapes.
+            - **Hunting expert:** No problem, you will now use the [older/newer] model for all of your skillcapes!
+          - [Choice]: I've changed my mind!
+            - (end)
+      - [Choice]: No, thank you.
+        - **Hunting expert:** Great! I'm glad you're still enjoying the [old/new] version!
+        - (Condition: If the player uses the new model for any other skillcape:)
+          - **Hunting expert:** If you want, I can make it so you use the old model for all of the skillcapes you own.
+          - [Menu]: Select an Option
+            - [Choice]: Ok, I'd like to wear the old version for all my skillcapes.
+              - **Hunting expert:** Great, you will now use the old model for all of your skillcapes!
+            - [Choice]: No, thanks.
+              - (end)
+  - [Choice]: Can you help me with the trapper outfits?
+    - **Player:** Can you help me with the trapper outfits?
+    - (Condition: If the player can't receive trapper fragments and hasn't unlocked the blueprint required to make the outfit pieces:)
+      - **Hunting expert:** At level 70 you can start to collect fragments to make elite skilling outfits. When you get to that level you will automatically start collecting fragments. Then you can use them with a blueprint to make yourself any remaining elite outfit pieces for this skill.
+    - (Condition: If the player can receive trapper fragments but hasn't unlocked the blueprint required to make the outfit pieces:)
+      - **Hunting expert:** You are set up to receive fragments. When you get to level 80 you will be able to create outfit pieces.
+    - (Condition: If the player can receive trapper fragments and has unlocked the blueprint required to make the outfit pieces:)
+      - **Hunting expert:** You are set up to receive fragments. When you have 3600 fragments you can use them to create an elite outfit piece. Simply go to an Invention workbench to create the pieces.
+    - (Condition: If the player owns the full Volcanic trapper outfit, or all of the outfit pieces required to craft it:)
+      - **Hunting expert:** You have already created all of the possible outfit pieces. I will make sure you do not receive any further fragments. Remember you can combine the base outfit pieces to make the high tier versions, to get the additional benefits.
+  - [Choice]: Hunting.
+    - **Hunting expert:** Whoah there, stranger, careful where you're walking. I almost clobbered you there; thought you were a larupia or something.
+    - [Menu]: Select an Option
+      - [Choice]: What are you doing here?
+        - **Player:** What are you doing here?
+        - **Hunting expert:** Me? Oh, I'm just having some fun, capturing wild animals, living on the edge, stuff like that.
+        - **Hunting expert:** Hey, want me to teach you how to catch the critters around here? Ain't come across anything yet that I couldn't capture.
+        - [Menu]: Select an Option
+          - [Choice]: Okay, where's a good place to start?
+            - **Player:** Ok, where's a good place to start?
+            - **Hunting expert:** Your easiest bet around here is probably to go for some of the birds. Go for the crimson swifts; they're the bright red ones that hang around near the coast. They're as obliging as can be, or maybe they're just plain dumb, but either way they just seem to throw themselves into traps half the time.
+            - **Player:** What sort of traps should I use?
+            - **Hunting expert:** Just use a standard bird snare and you'll be fine. You can get them in any decent shop that sells Hunter gear.
+            - **Player:** How do they work, then?
+            - **Hunting expert:** Well, they're kind of sneaky, really. You've got a tall post with what appears to be a little perch sticking out the side. Now, the bird will see this as somewhere to sit, but the perch is actually rigged such that when the bird lands on it, it'll drop away.
+            - **Hunting expert:** Further, as the perch drops, it releases a noose that tightens around the bird's feet and captures it. Neat huh?
+            - **Hunting expert:** So, was there anything else you wanted to ask about?
+            - [Menu]: Select an Option
+              - [Choice]: What other sorts of things are there to catch around here?
+                - **Player:** What other sorts of things are there to catch around here?
+                - (continue|interest)
+              - [Choice]: Thanks for your help.{{anchor|thanks}}
+                - **Player:** Thanks for your help.
+                - **Hunting expert:** Not a problem, any time.
+          - [Choice]: What sort of things are there to catch around here?
+            - **Player:** What sort of things are there to catch around here?
+            - **Hunting expert:{{anchor|interest}}** What're you interested in? You've got anything from birds for beginners up to larupias for the pros - not to mention weasels, butterflies, barb-tails, chinchompas and skillchompas.
+            - [Menu]: Select an Option
+              - [Choice]: How would I go about catching birds?
+                - **Player:** How would I go about catching birds?
+                - **Hunting expert:** There are a couple of varieties that you can try your hand at catching around here, but the technique for both is essentially the same. You need to set up a bird snare.
+                - **Player:** How do they work, then?
+                - **Hunting expert:** Well, they're kind of sneaky, really. You've got a tall post with what appears to be a little perch sticking out the side. Now, the bird will see this as somewhere to sit, but the perch is actually rigged such that when the bird lands on it, it'll drop away.
+                - **Hunting expert:** Further, as the perch drops, it releases a noose that tightens around the bird's feet and captures it. Neat, huh?
+                - **Hunting expert:** So, was there anything else you wanted to ask about?
+                - [Menu]: Select an Option{{anchor|ask2}}
+                  - [Choice]: I'd like to ask about another creature...
+                    - (previous2)
+                  - [Choice]: How can I improve my chances of making a capture?
+                    - (below|capture)
+                  - [Choice]: Where can I get clothes and equipment like yours?
+                    - (below|clothes)
+                  - [Choice]: Thanks for your help.
+                    - (above|thanks)
+              - [Choice]: How do I get hold of a weasel?
+                - **Player:** How do I get hold of a weasel?
+                - **Hunting expert:** Not with large quantities of rice and treacle as many people would have you believe. Besides, the Feldip weasel isn't technically a weasel, but, as is typical with any sort of colloquial name, it's been called that often enough now that it's stuck.
+                - **Hunting expert:** Anyway, the Feldip weasel's main survival technique is in hiding; other than that, it's pretty stupid. So, if you can actually find one, then you've probably got a fairly good chance of catching one.
+                - **Player:** And how would I actually go about finding one?
+                - **Hunting expert:** The best place to start would probably be just south of here. You'll find lots of kebbit burrows there. Take a close look at some of them, follow the trails and you can't go far wrong.
+                - (continuea|ask2)
+              - [Choice]: Well, seeing as you seem to like larupias so much...
+                - **Player:** Well, seeing as you seem to like larupias so much...
+                - **Hunting expert:** Ah yes, yes, larupias are fun; just think of them as big kittens.
+                - **Player:** Uh huh, big kittens that just want to rip your throat out!
+                - **Hunting expert:** Indeed, and you can use this to your advantage. If a larupia is keen to chase you then let it; that way you can happily lead it straight into your trap without any fuss or waiting around.
+                - **Player:** Into what sort of trap should I lead it?
+                - **Hunting expert:** A pit trap should do you. There are some appropriate pits to the east of here that you can use. Cover one with a few logs and branches, tease the kitty and then lead it to the pit. Simple.
+                - (continuea|ask2)
+              - [Choice]: Barb-tails sound interesting.
+                - **Player:** Barb-tails sound interesting.
+                - **Hunting expert:** They do sound interesting, don't they? Unfortunately, they're actually just another type of kebbit; those things get everywhere. Still, the tails of these particular kebbits can be useful for fishing.
+                - **Player:** So, how would I go about catching one them?
+                - **Hunting expert:** Just squash them with a boulder, quick and simple.
+                - **Player:** What, you mean just pick up some boulders and start throwing them at kebbits? That doesn't sound simple.
+                - **Hunting expert:** No silly, you let the creature squash itself. Just use some sticks to hold a boulder in a nice precarious position, place some bait underneath and let the creature knock itself out.
+                - (continuea|ask2)
+              - [Choice]: More...
+                - [Menu]: Select an Option
+                  - [Choice]: What on earth is a chinchompa?
+                    - **Player:** What on earth is a chinchompa?
+                    - **Hunting expert:** Awwww, chinchompas are great. They're highly volatile little balls of fluff. Cute as you like, but for some reason they do have this tendency to spontaneously combust.
+                    - **Player:** What? Why?
+                    - **Hunting expert:** Probably something to do with the fact they'll eat anything and everything, especially spicy food.
+                    - **Hunting expert:** Anyways, if you want to capture a chinchompa, I suggest using a box trap. That way, if the little fluffball does explode, then at least most of the blast will be contained within the box.
+                    - (continuea|ask2)
+                  - [Choice]: A skill-what now?
+                    - **Player:** A skill-what now?
+                    - **Hunting expert:** A skillchompa! They seem to be a sort of mutated chinchompa, except instead of getting very excited and exploding in combat situations, they've taken a liking to a variety of natural resources.
+                    - **Player:** What sorts of things do they go for then?
+                    - **Hunting expert:** Well, they've clearly been watching humans who've been training their skills and abilities. They seem to get very excited around the divination energy, fishing spots, mining rocks and even trees!
+                    - **Player:** How do I hunt them then?
+                    - **Hunting expert:** They're very similar to chinchompas, so you'll need some box traps. If you really want to attract them you can use some bait as well. Spicy food seems to do the trick.
+                    - (continuea|ask2)
+                  - [Choice]: Somehow butterflies don't strike me as your sort of thing.
+                    - **Player:** Somehow butterflies don't strike me as your sort of thing.
+                    - **Hunting expert:** Not really, but some people like them. The ones around here are at least vaguely interesting, though. The black ones are supposedly magical butterflies.
+                    - **Player:** Doesn't that make them harder to catch?
+                    - **Hunting expert:** Not particularly; you can still catch them using an ordinary butterfly net. Oh, and you'll probably need some butterfly jars in which to keep them as well.
+                    - (continuea|ask2)
+                  - [Choice]: Back...
+                    - (previous2)
+          - [Choice]: How can I improve my chances of making a capture?{{anchor|capture}}
+            - **Player:** How can I improve my chances of making a capture?
+            - **Hunting expert:** There are four key factors that will affect your chances: what bait you use, how close to the trap you are, your appearance and your smell.
+            - [Menu]: Select an option
+              - [Choice]: How does bait help?
+                - **Player:** How does bait help?
+                - **Hunting expert:** Unfortunately, creatures don't just jump into traps for the fun of it nearly as often as we as hunters might like. However, it is possible to improve those odds if you can find the right bait to use on your trap - something your
+                - **Hunting expert:** prey really craves - then hunger overrides fear and the creature is just that little bit more likely to bounce to its furry little doom. Some creatures, in fact, will not even approach a trap unless it is baited correctly.
+                - (other)
+              - [Choice]: Why is it important how close I am to the trap?
+                - **Player:** Why is it important how close I am to the trap?
+                - **Hunting expert:** However well you might be blending in, if you're standing with your nose pressed right up against your own trap, the poor little critters ain't going to go anywhere near it. So, you need to make sure you put a sensible distance -
+                - **Hunting expert:** I'd say at least four strides - between yourself and your trap.
+                - (other)
+              - [Choice]: Why would the creatures care about my appearance?
+                - **Player:** Why would the creatures care about my appearance?
+                - **Hunting expert:** You're a human. From the point of view of a lot of creatures, you're big and scary. So, it'd be best if the furry little monsters didn't notice you. You need to blend in like the creatures themselves.
+                - **Player:** And how do I do that?
+                - **Hunting expert:** Easy, dress up like one of them. Even easier, dress up using the furs of the creatures themselves; then you're bound to get the colour right. And, I suppose, if you don't fancy just slinging a dead fur over your shoulders, you
+                - **Hunting expert:** can probably get them made into something more appealing. I hear there are tailors in Varrock who are good at that sort of thing.
+                - (other)
+              - [Choice]: What's wrong with my smell?
+                - **Player:** What's wrong with my smell?
+                - **Hunting expert:** I'm sure there's nothing wrong with your smell...from a human point of view. But to your prey, any trap that you've set up will reek of human, and that's going to work against you if you don't do anything about it.
+                - **Player:** So what should I do?
+                - **Hunting expert:** You need to mask that lovely human scent of yours with something else. Smoke works well. Take a lit torch and waft it around the trap a bit. You'll quickly overpower most of the other smells around the trap.
+                - (other)
+          - [Choice]: Where can I get clothes and equipment like yours?{{anchor|clothes}}
+            - **Player:** Where can I get clothes and equipment like yours?
+            - **Hunting expert:** Well, the equipment isn't too hard to get hold of. You've got specialist shops like Aleck's in Yanille that'll see you right. He's a bit pricey, mind, but it's pretty decent kit.
+            - **Hunting expert:** The clothing is a tad trickier to get hold of, the materials required being rather difficult to separate from their reluctant owners.
+            - **Hunting expert:** But, if you can get the furs, there are shops like the tailor's in east Varrock that can help you.
+            - [Menu]: Select an Option
+              - [Choice]: So what's good to hunt around here?
+                - **Player:** So, what's good to hunt around here?
+                - (continuea|interest)
+              - [Choice]: How can I improve my chances of making a capture?
+                - (above|capture)
+              - [Choice]: Thanks for your help.
+                - (above|thanks)
+          - [Choice]: I think I'll give it a miss right now.
+            - **Player:** I think I'll give it a miss right now, thanks.
+            - **Hunting expert:** Suit yourself!
+      - [Choice]: What's a larupia?
+        - **Player:** What's a larupia?
+        - **Hunting expert:** What's a larupia? You don't know? You mean you really don't recognise the significance of these clothes I'm wearing?
+        - **Player:** Well, they're certainly decorative...what about them?
+        - **Hunting expert:** Well, these are the furs from a larupia. Caught the creature myself I did, and these make me blend in better, see?
+        - **Hunting expert:** If you want to be successful as a hunter you've got to be as stealthy as a kyatt, as quiet as a mouse and blend in like a, well, like a larupia, I guess!
+        - [Menu]: Select an Option
+          - [Choice]: So, what's good to hunt around here?
+            - **Player:** So, what's good to hunt around here?
+            - (continuea|interest)
+          - [Choice]: How can I improve my chances of making a capture?
+            - (above|capture)
+          - [Choice]: Where can I get clothes and equipment like yours?
+            - (above|clothes)
+      - [Choice]: Do you have anything for sale?
+        - **Player:** Do you have anything for sale?
+        - **Hunting expert:** I've got a few bits and bobs that might interest a budding hunter like yourself.
+        - (opens=Hunting Supplies (Feldip Hunter area))
+      - [Choice]: What is that cool cape you're wearing?
+        - **Player:** What is that cool cape you're wearing?
+        - **Hunting expert:** This? It's a Hunter's skillcape. It shows that I am a true master of the art of Hunting. If you ever manage to train your Hunter skill to its maximum level then I could sell you one.
+      - [Choice]: Ahh, leave me alone you crazy killing person.
+        - **Player:** Ahh, leave me alone you crazy killing person.
+        - **Hunting expert:** Heh, well I guess it's not everyone's thing.
+  - [Choice]: cond=If the player has completed While Guthix Sleeps|A creature to help track down a person.
+    - **Player:** Hello there.
+    - **Hunting expert:** Ah, hello. How's the hunting?
+    - [Menu]: Select an Option
+      - [Choice]: The hunting is going well, thanks.
+        - **Player:** The hunting is going well, thanks! I appreciate your introducing me to the skill!
+        - **Hunting expert:** My pleasure. Nothing beats the thrill of surviving on your own skills and instincts. Of course, we shouldn't take it for granted and we should be respectful of the environment as well.
+        - **Player:** Oh yes, I totally agree.
+        - (previous)
+      - [Choice]: I need to get another broav.
+        - **Player:** I need to get another broav.
+        - **Hunting expert:** No problem, you'll just need to trap another one and bring it to me. There's an old pitfall trapping spot to the west you can use. You'll have to get a mushroom from Morytania like I did.
+        - (previous)
+      - [Choice]: How can I get my broav to track someone?
+        - **Hunting expert:** Get something that belongs to the person you want to track and just let the broav sniff it for a while. It should be able to track a smell from a good distance away.
+        - (previous)
+      - [Choice]: Okay, thanks.
+        - **Player:** Okay, thanks.

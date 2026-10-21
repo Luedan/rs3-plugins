@@ -1,0 +1,175 @@
+# Fancy Dan
+
+- **Original Wiki Page**: [Transcript:Fancy Dan](https://runescape.wiki/w/Transcript%3AFancy%20Dan)
+- **Letter**: `F`
+
+---
+
+## Dialogue Transcript
+
+- **Fancy Dan:** Arr!
+- **Fancy Dan:** Is there something I can help ye with?
+- Select an option
+  - I would like to join your crew.
+    - **Player:** I would like to join your crew.
+    - **Fancy Dan:** Of course you would!
+    - **Fancy Dan:** Arr, well we'll get you sorted out with a team hat right away.
+    - **Fancy Dan:** Go wait in the waiting room, I'll call you when we are ready to begin.
+    - If wearing hat or helmet
+    - **Fancy Dan:** Of course you would!
+    - **Fancy Dan:** However, I don't let anyone on the team if they are wearing a hat or a helmet.
+    - **Fancy Dan:** You can go and store it in the deposit box next to Jimmy's stall.
+    - **Player:** Why not?
+    - **Fancy Dan:** Well, in order to tell my crew from San Fan's I will need to give you a hat like mine.
+    - **Fancy Dan:** If you are wearing a hat it might get lost when I give you my crew's hat.
+    - **Fancy Dan:** You wouldn't want that would you?
+    - **Player:** No, that sounds very reasonable in fact.
+    - If you do not have an empty inventory
+    - **Fancy Dan:** Of course you would!
+    - **Fancy Dan:** Well, I'll be glad to have you aboard, but you will need to go and store all of your gear first.
+    - **Player:** What do you mean?
+    - **Fancy Dan:** Well, you will need all of your inventory space for the ingredients, and all of the other things I'll need you to haul about.
+    - **Fancy Dan:** There is a bank deposit box next to Jimmy's stall if you need it. Come and see me when you have a fully empty inventory.
+  - Who are you, and what is this place?
+    - **Player:** Who are you, and what is this place?
+    - **Fancy Dan:** Arrharrharr!
+    - **Fancy Dan:** Do you not recognise me? I am the famous dandy pirate 'Fancy' Dan!
+    - **Player:** Yes, of course, any pirate knows who you are.
+    - **Fancy Dan:** But of course.
+    - **Fancy Dan:** As for what this place is, it is my glorious still, producing the best quality 'rum' this side of Braindeath Island.
+    - **Fancy Dan:** Oh, and the run-down swill-producing ditch that San Fan over there calls a still.
+    - **Player:**  So with two stills you have plenty of 'rum' right?
+    - **Fancy Dan:** Well we would do, if that hatchet-faced harridan wouldn't keep trying to torch the place!
+    - **Player:** I say!
+    - **Fancy Dan:** A little while ago we had some real problems getting rum to the island, hence the two stills.
+    - **Fancy Dan:** However, after a little misunderstanding involving San's still and a barrel of gunpowder our relationship seems to have become a little strained.
+    - **Fancy Dan:** Apparently it is perfectly within the pirate code to burn each others stills, so long as nobody directly attacks the other person's crew, so run production has taken a slight dip of late.
+    - **Player:** Can I help out?
+    - **Fancy Dan:** Yes, probably. I have a bunch of jobs that need doing, if you feel up to it.
+    - **Fancy Dan:** What would you like to know about?
+    - Select an option
+      - Brewing 'Rum
+        - **Player:** How do I help you brew 'Rum'?
+        - **Fancy Dan:** Well the stills we have set up are based on the ones on Braindeath Island... well roughly at any rate.
+        - **Fancy Dan:** All you have to do is help put the ingredients into the hopper and keep the boilers burning.
+        - **Fancy Dan:** If you add enough ingredients to the hopper's then you have the ability to pick up a single bottle of rum when it brews.
+        - **Fancy Dan:** So, if ye add 5 buckets of water to the hopper's, then ye get access to one bottle. If you add 3 bowls of coloured water you get access to one bottle, and if you add one of anything else you get access to one bottle.
+        - **Fancy Dan:** This is cumulative, meaning that if you add (for example ) 10 buckets of water, 3 sweetgrubs and 6 bowls of coloured water, then you have a chance to collect 7 bottles of rum for the team.
+        - **Fancy Dan:** The boilers are easy as pie to sort out. You just put some logs in, light them with a tinderbox, and then keep putting logs in until they are good and hot.
+        - **Fancy Dan:** Three logs should do it, but it's best to keep heaping them in just in case.
+        - **Fancy Dan:** The ingredients are; Bitternuts, Scrapey Tree Bark, Sweetgrubs, Buckets of Water and some Coloured Water.
+        - Select an option
+          - Where can I get Bitternuts?
+            - **Player:** Where can I get Bitternuts?
+            - **Fancy Dan:** There are plenty of Bitternut trees inside this walled off area. The problem is that the trees are too tricky for a human to climb.
+            - **Fancy Dan:** You will need to catch a monkey and send it up the tree to get the nut for you.
+            - **Player:** Send it up the tree? How does that work?
+            - **Fancy Dan:** Well, if you were a monkey, and some random person grabbed you, dumped some dye in your fur and shoved you up a tree, you would hurl the closest heavy object at them too.
+            - **Player:** Wait a second, dye?
+            - **Fancy Dan:** Yes, you'll need to get a bowl of coloured water and pour it on the monkey. Otherwise you won't be able to tell which team the monkey belongs to.
+            - **Player :** That makes sense...I think...
+            - **Fancy Dan:** Anything else?
+          - Where can I get Scrapey Tree Bark?
+            - **Player:** Where can I get Scrapey tree bark...and why do I get the feeling I won't like the answer?
+            - **Fancy Dan:** Inside this walled area there are a few Scrapey trees. They are the big, ill looking ones, you can't miss them.
+            - **Fancy Dan:** Basically, you cut them down and then carve the bark off with a knife.
+            - **Fancy Dan:** It's pretty simple, except the sap tends so make people feel kind of ill if they get any on themselves.
+            - **Player:** How ill?
+            - **Fancy Dan:** Don't worry, we aren't talking deadly ill or anything.
+            - **Fancy Dan:** It's more like you'll feel quite dizzy and weak for a bit.
+            - **Player:** Joy...
+            - **Fancy Dan:** Anything else?
+          - Where can I get Sweetgrubs?
+            - **Player:** Sweetgrubs? What are they?
+            - **Fancy Dan:** Well, lacking any sluglings in the area, we add these little grubs called Sweetgrubs. If you ignore the gag-inducing aftertaste, they are quite sweet.
+            - **Player:** How... how can you drink the stuff?
+            - **Fancy Dan:** Quite easily!
+            - **Fancy Dan:** Pirates are renowned as being tough for a reason.
+            - **Player:** So where do I get these grubs from anyway?
+            - **Fancy Dan:** Well, there are a few sweetgrub mounds inside there. We have a handful of rat meat that you can use on the mounds to draw the grubs to the surface.
+            - **Fancy Dan:** Mind your fingers though, they are voracious little things.
+            - **Player:** And here was me thinking that nothing could be more disgusting than Braindeath 'Rum'.
+            - **Captain Braindeath:** Arr, that's where ye'd be wrong lad, 'cos new, improved Braindeath 'Rum' Classic is now 200% more disgustin' then any leadin' competitor!
+            - **Captain Braindeath:** Legal disclaimer; the dangerous amount of disgustin' in new Braindeath 'Rum' Classic be too much for pregnant women, donkeys and anyone with more than seven letters in their last name.
+            - **Player:** What was that?
+            - **Fancy Dan:** What was what?
+            - **Fancy Dan:** Is there anything else?
+          - Where can I get buckets of water?
+            - **Player:** How do I get...
+            - **Player:** Wait, no, that question makes me sound like I haven't a clue what I'm doing.
+            - **Player:** Where can I get buckets in there?
+            - **Fancy Dan:** There are a few lying about. Help yourself.
+            - **Fancy Dan:** There is a pump in the still, so long as it's working you should have almost unlimited water.
+            - **Player:** Hold on, do I have to add anything disgusting and/or potential lethal to the water before I pour it in?
+            - **Fancy Dan:** Perish the thought!
+            - **Player:** Ok, just checking.
+            - **Fancy Dan:** Anything else?
+          - Where can I get coloured water?
+            - **Player:** What sort of coloured water are we talking about here?
+            - **Fancy Dan:** Well, the other still has an area of waste ground with a flower growing on it. If you go and grab one of the flowers and jam it in the kettle, the water will boil out the colour.
+            - **Fancy Dan:** We use the colour to keep our rum easily identifiable.
+            - **Player:** So I just empty the kettle into the hopper, right?
+            - **Fancy Dan:** No, no, you'll need to take an empty bowl and fill it from the kettle.
+            - **Fancy Dan:** That way you can use the stuff on a monkey if you need to.
+            - **Player:** Use it on a monkey...of course.
+            - **Fancy Dan:** Anything else?
+      - Repairing the Still
+        - **Player:** How do I repair the still?
+        - **Fancy Dan:** Well, assuming those scurvy dogs have managed to set any of it on fire, then you will need to tip a bucket of water on it before you can repair it.
+        - **Fancy Dan:** Then, it all comes down to what part of it was damaged.
+        - Select an option
+          - How do I repair Hoppers?
+            - **Player:** How can I repair hoppers?
+            - **Fancy Dan:** Well, assuming that they are not on fire, all you need to do is use the heavy lumber patches. They are big enough to cover most holes.
+            - **Player:** Will I need a hammer?
+            - **Fancy Dan:** No, just shove it into place and whack it until it lines up.
+            - **Fancy Dan:** Anything else?
+          - How do I repair Pipes and the pump?
+            - **Player:** How do I repair pipes and the pump?
+            - **Fancy Dan:** Well, if you use a pipe section on the damaged part you should be able to replace it easily.
+            - **Player:** Will I need a hammer?
+            - **Fancy Dan:** No, likely you'll just need to whack the old one out and slot the new one in with your hands.
+            - **Fancy Dan:** Anything else?
+          - How do I repair Bridges?
+            - **Player:** How do I repair bridges?
+            - **Fancy Dan:** Well, we have these handy bridge sections you can use to repair the bridges.
+            - **Fancy Dan:** The main problem is, while a still will keep working if a bit of it is only damaged, the bridges are completely out of commission if they are even slightly damaged.
+            - **Player:** Is that going to be a problem? I mean, I can jump across I think.
+            - **Fancy Dan:** Don't try that! Our lawyers tell us we aren't covered for injuries sustained while jumping over burned bridges.
+            - **Fancy Dan:** Seriously, just keep off the bridges until they are fixed.
+            - **Fancy Dan:** Anything else?
+          - How do I get repair items?
+            - **Player:** Where do I get all this stuff anyway?
+            - **Fancy Dan:** We have a load of items already on a table inside the still. You can also make new ones if you grab some logs.
+            - **Player:** How does that work?
+            - **Fancy Dan:** We have a worktable set up in the still. If you use the logs in it can craft up a handy replacement for part of the still.
+            - **Fancy Dan:** Don't worry about them fitting, the things are held together by nails, replacement parts and soot by now.
+            - **Player:** Well...how sanitary...
+            - **Fancy Dan:** Anything else?
+          - Ok, I think I've heard enough
+            - **Player:** Ok, I think I've heard enough.
+            - **Fancy Dan:** Fine. Glad I could help.
+            - (Dialogue ends)
+      - Sabotaging San's Still
+        - **Player:** So...how would I go about sabotaging the enemy still?
+        - **Fancy Dan:** Ok, here's what you need to do.
+        - **Fancy Dan:** The wood around here is really dry and flammable, so take one of the torches, light it up, and then go and attack the enemy still with it.
+        - **Player:** That's it?
+        - **Fancy Dan:** Most of their still is soaked in 'alcohol' and made from tinder dry wood.
+        - **Fancy Dan:** Essentially, if it isn't ours, try using a torch on it and see what happens.
+        - **Player:** Ok, I get you.
+        - **Fancy Dan:** Anything else?
+      - What will you pay me?
+        - **Player:** So what will you give me for helping out?
+        - **Fancy Dan:** Hahahaha! What a mercenary attitude! You'll do fine here.
+        - **Fancy Dan:** Well, for each bottle that your team produces, I'll give you one piece of eight.
+        - **Fancy Dan:** If you managed to set something on fire then I'll toss in another, same for repairing the still.
+        - **Player:** What can I use these pieces of eight for?
+        - **Fancy Dan:** See Honest Jimmy there? He will trade you some pretty nice stuff for them.
+        - **Player:** Great!
+        - **Fancy Dan:** Anything else?
+      - Ok, I think I've heard enough
+        - **Player:** Ok, I think I've heard enough.
+        - **Fancy Dan:** Fine. Glad I could help.
+        - (Dialogue ends)
+Category:NPC dialogue

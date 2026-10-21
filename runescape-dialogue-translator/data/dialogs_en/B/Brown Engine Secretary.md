@@ -1,0 +1,392 @@
+# Brown Engine Secretary
+
+- **Original Wiki Page**: [Transcript:Brown Engine Secretary](https://runescape.wiki/w/Transcript%3ABrown%20Engine%20Secretary)
+- **Letter**: `B`
+
+---
+
+## Dialogue Transcript
+
+- ''Note: Before and during the Giant Dwarf, all companies start at medium reputation. After The Giant Dwarf, the player's chosen company is permanently at highest reputation while all other companies will be at low reputation.
+
+### Low reputation
+
+- ''One of the following dialogue plays at random:
+  - Dialogue 1:
+    - **Brown Engine Secretary:** I don't have much time for you, what do you want?
+  - Dialogue 2:
+    - **Brown Engine Secretary:** You're blocking my view, human, so hurry up.
+  - Dialogue 3:
+    - **Brown Engine Secretary:** Can we hurry this along?
+  - Dialogue 4:
+    - **Brown Engine Secretary:** Say what you want or get out of our office, human!
+  - Dialogue 5:
+    - **Brown Engine Secretary:** Do not test the patience of the Brown Engine, human. Say what you need!
+  - Dialogue 6:
+    - **Brown Engine Secretary:** I think I've misplaced my quill somewhere...
+    - **Brown Engine Secretary:** Oh, and what did you want?
+- '''Choose an option: {{anchor|xzx}}
+  - [Choice]: Who are you?
+    - **Player:** Who are you?
+    - **Brown Engine Secretary:** I am the head secretary of the Brown Engine.
+    - **Player:** The what?
+    - **Brown Engine Secretary:** The Brown Engine. We are one of the eight major mining companies, but our standard is higher than all of the others.
+    - **Player:** How is that?
+    - **Brown Engine Secretary:** Our policy is strictly gentlemen only, you see.
+    - ''If the player is male:
+      - **Player:** I don’t quite see how that is good, but if you say so…
+      - (initial)
+    - ''If the player is female:
+      - **Player:** And this is a good thing, how?
+      - **Brown Engine Secretary:** Oh, my dear, please don't take it personally.
+      - **Player:** Don't patronise me. I've had enough of this.
+  - [Choice]: Where am I?
+    - **Player:** Where am I?
+    - ''One of the following replies plays at random:
+      - Dialogue 1:
+        - **Brown Engine Secretary:** I'm not here to give directions!
+      - Dialogue 2:
+        - **Brown Engine Secretary:** Do I look like a tour guide to you?
+      - Dialogue 3:
+        - **Brown Engine Secretary:** I'd tell you, human, but you wouldn't understand anyway.
+      - Dialogue 4:
+        - **Brown Engine Secretary:** These are the offices of the Brown Engine.
+        - **Brown Engine Secretary:** We share this floor of the palace with the other companies of the Consortium. And trade with them on the Trade Octagon.
+        - **Player:** The Trade Octagon?
+        - **Brown Engine Secretary:** See those traders standing out there, just out the door? They're all standing in the Trade Octagon. There's an awful lot of trade going on in the palace, you know.
+        - **Player:** Anything else of interest in the palace?
+        - **Brown Engine Secretary:** You will have to find that out on your own, I'm afraid. I do have more work to do.
+        - (initial)
+  - [Choice]: Is there anything I can help you with?
+    - **Player:** Is there anything I can help you with?
+    - ''If the player is female:
+      - **Brown Engine Secretary:{{anchor|rude}}** The Brown Engine is a gentleman only society, I'm afraid.
+      - **Player:** How rude.
+    - ''If the player is male, one of the following replies plays at random:
+      - Dialogue 1:
+        - **Brown Engine Secretary:** Come to redeem yourself at our company, have you?
+      - Dialogue 2:
+        - **Brown Engine Secretary:** So you're looking for work with us all of a sudden?
+      - Dialogue 3:
+        - **Brown Engine Secretary:** You're lucky the Brown Engine is very forgiving, human.
+      - Dialogue 4:
+        - **Brown Engine Secretary:** I'm not sure if I'm allowed to give someone like you a task, I'll check.
+        - **Brown Engine Secretary:** All right, you've been cleared.
+      - Dialogue 5:
+        - **Brown Engine Secretary:** Your motives are questionable but we'll give you a chance.
+    - **Brown Engine Secretary:** We need [number] pieces of [ore] in the next [number] minutes.
+    - '''Select an option
+      - [Choice]: I'll take it.
+        - **Player:** I'll take it.
+        - ''The Secretary replies with one of the following at random:
+          - Dialogue 1:
+            - **Brown Engine Secretary:** Do no disappoint the Brown Engine, human.
+          - Dialogue 2:
+            - **Brown Engine Secretary:** Go then! The longer you stand here the more time you waste!
+          - Dialogue 3:
+            - **Brown Engine Secretary:** Hurry back or don't come back at all!
+          - Dialogue 4:
+            - **Brown Engine Secretary:** Let's hope I was wrong about you, human.
+          - Dialogue 5:
+            - **Brown Engine Secretary:** You'd better not fail!
+      - [Choice]: No thanks.
+        - **Player:** No thanks.
+        - ''The Secretary replies with one of the following at random:
+          - Dialogue 1:
+            - **Brown Engine Secretary:** Oh, so you were just stopping by to waste my time, then? Goodbye!
+          - Dialogue 2:
+            - **Brown Engine Secretary:** To say a thing like that after the mercy I just showed you! Go away!
+          - Dialogue 3:
+            - **Brown Engine Secretary:** You dare!
+          - Dialogue 4:
+            - **Brown Engine Secretary:** Thought you wouldn't. Now get out of here!
+          - Dialogue 5:
+            - **Brown Engine Secretary:** Leave now, don't make me call the Black Guard to throw you out!
+          - Dialogue 6:
+            - **Brown Engine Secretary:** Get out of our office then!
+          - Dialogue 7:
+            - **Brown Engine Secretary:** The Brown Engine offers you a chance and you say this? Just stay away!
+    - ''If the player is already on a task:
+      - **Brown Engine Secretary:** Have you completed your current task yet? Did you get me my [number] pieces of [ore]?
+      - **Player:** No, not yet.
+      - **Brown Engine Secretary:** You're a disgrace to the Brown Engine. Hurry up if you want to redeem yourself.
+      - (initial)
+    - ''If the player is already on a task from a different company:
+      - **Brown Engine Secretary:** Go back to your friends at the [other Company], I hear you're in league with them.
+      - (initial)
+  - [Choice]: I have to go!
+    - **Player:** I have to go!
+    - ''One of the following replies plays at random:
+      - Dialogue 1:
+        - **Brown Engine Secretary:** Finally...back to work at last.
+      - Dialogue 2:
+        - **Brown Engine Secretary:** Good.
+      - Dialogue 3:
+        - **Brown Engine Secretary:** Don't hurry back.
+      - Dialogue 4:
+        - **Brown Engine Secretary:** The door is over there. I suggest you use it.
+      - Dialogue 5:
+        - **Brown Engine Secretary:** And good riddance to you.
+
+#### Handing in a task
+
+- **Player:** I've completed your task! Here is your ore!
+- (removes=ore) (receives=coins)
+- ''The Secretary replies with one of the following at random:
+  - Dialogue 1:
+    - **Brown Engine Secretary:** How unusual for you, but it is appreciated nonetheless.
+  - Dialogue 2:
+    - **Brown Engine Secretary:** The Brown Engine is pleased that the trust it put in you has not been put to shame after all.
+  - Dialogue 3:
+    - **Brown Engine Secretary:** That is quite a pleasant and unexpected surprise.
+  - Dialogue 4:
+    - **Brown Engine Secretary:** Perhaps I was wrong about you after all...
+  - Dialogue 5:
+    - **Brown Engine Secretary:** Thanks... I suppose.
+- (continuea|xzx)
+
+### Medium reputation
+
+- ''One of the following dialogue plays at random:
+  - Dialogue 1:
+    - **Brown Engine Secretary:** What did you need of the Brown Engine?
+  - Dialogue 2:
+    - **Brown Engine Secretary:** And what can I do for you?
+  - Dialogue 3:
+    - **Brown Engine Secretary:** Is there anything you need assistance with?
+  - Dialogue 4:
+    - **Brown Engine Secretary:** Can I help you with anything?
+  - Dialogue 5:
+    - **Brown Engine Secretary:** Was there anything you wanted?
+  - Dialogue 6:
+    - **Brown Engine Secretary:** What can I do for you, human?
+- '''Choose an option: {{anchor|zxc}}
+  - [Choice]: Who are you?
+    - (above)
+  - [Choice]: Where am I?
+    - **Player:**  Where am I?
+    - **Brown Engine Secretary:** Why, this is the headquarters of the Brown Engine.
+    - **Brown Engine Secretary:** We share this floor of the palace with the other companies of the Consortium. And trade with them on the Trade Octagon.
+    - **Player:** The Trade Octagon?
+    - **Brown Engine Secretary:** See those traders standing out there, just out the door? They're all standing in the Trade Octagon. There's an awful lot of trade going on in the palace, you know.
+    - **Player:** Anything else of interest in the palace?
+    - **Brown Engine Secretary:** You will have to find that out on your own, I'm afraid. I do have more work to do.
+    - (initial)
+  - [Choice]: Is there anything I can help you with?
+    - **Player:** Is there anything I can help you with?
+    - ''If the player is female:
+      - (above|rude)
+    - ''If the player is male, one of the following replies plays at random:
+      - Dialogue 1:
+        - **Brown Engine Secretary:** There's always work to be done, yes.
+      - Dialogue 2:
+        - **Brown Engine Secretary:** Just a moment.
+      - Dialogue 3:
+        - **Brown Engine Secretary:** Yes, the Brown Engine always has work to do!
+      - Dialogue 4:
+        - **Brown Engine Secretary:** Let's see... yes, yes, I do have a task for you.
+      - Dialogue 5:
+        - **Brown Engine Secretary:** Yes, I think we do have something for you.
+      - Dialogue 6:
+        - **Brown Engine Secretary:** I believe we have some work available, yes.
+    - **Brown Engine Secretary:** We need [number] pieces of [ore] in the next [number] minutes.
+    - '''Select an option
+      - [Choice]: I'll take it.
+        - **Player:** I'll take it.
+        - ''The Secretary replies with one of the following at random:
+          - Dialogue 1:
+            - **Brown Engine Secretary:** The Brown Engine has noted your willingness to help.
+          - Dialogue 2:
+            - **Brown Engine Secretary:** That ore needs to go on the trade floor soon, player, please hurry back with it.
+          - Dialogue 3:
+            - **Brown Engine Secretary:** Thanks, it's appreciated.
+          - Dialogue 4:
+            - **Brown Engine Secretary:** The clock is ticking, please hurry back.
+          - Dialogue 5:
+            - **Brown Engine Secretary:** I will await your return soon, then.
+      - [Choice]: No thanks.
+        - **Player:** No thanks.
+        - ''The Secretary replies with one of the following at random:
+          - Dialogue 1:
+            - **Brown Engine Secretary:** Fair enough, maybe some other time?
+          - Dialogue 2:
+            - **Brown Engine Secretary:** Please, it would be appreciated if you made up your mind before you ask. I'm very busy you know.
+          - Dialogue 3:
+            - **Brown Engine Secretary:** Please, in that case, you're wasting my time.
+          - Dialogue 4:
+            - **Brown Engine Secretary:** That's unfortunate to hear.
+          - Dialogue 5:
+            - **Brown Engine Secretary:** I can't say I'm too pleased to hear that, to be honest.
+          - Dialogue 6:
+            - **Brown Engine Secretary:** That does not reflect well on you.
+          - Dialogue 7:
+            - **Brown Engine Secretary:** The Brown Engine isn't too pleased to hear that.
+    - ''If the player is already on a task:
+      - **Brown Engine Secretary:** Have you completed your current task yet? Did you get me my [number] pieces of [ore]?
+      - **Player:** No, not yet.
+      - **Brown Engine Secretary:** Then please, hurry up before time runs out.
+      - (initial)
+    - ''If the player is already on a task from a different company:
+      - **Brown Engine Secretary:** From what I understand, you have some business to finish with the [other Company] first.
+      - (initial)
+  - [Choice]: I have to go!
+    - **Player:** I have to go!
+    - ''One of the following replies plays at random:
+      - Dialogue 1:
+        - **Brown Engine Secretary:** See you later.
+      - Dialogue 2:
+        - **Brown Engine Secretary:** Okay.
+      - Dialogue 3:
+        - **Brown Engine Secretary:** Goodbye, human.
+
+#### Handing in a task
+
+- **Player:** I've completed your task! Here is your ore!
+- (removes=ore) (receives=coins)
+- ''The Secretary replies with one of the following at random:
+  - Dialogue 1:
+    - **Brown Engine Secretary:** I have to admit, I was worried for a moment, but I'm glad to see you came through for us.
+  - Dialogue 2:
+    - **Brown Engine Secretary:** I am happy to see that the trust we put in you has not been in vain.
+  - Dialogue 3:
+    - **Brown Engine Secretary:** And not a minute too late as well. Well done.
+  - Dialogue 4:
+    - **Brown Engine Secretary:** The Brown Engine recognizes your performance.
+  - Dialogue 5:
+    - **Brown Engine Secretary:** That's good to hear, thanks.
+- (continuea|zxc)
+
+### High reputation
+
+- ''One of the following dialogue plays at random: {{anchor|high1}}
+  - Dialogue 1:
+    - **Brown Engine Secretary:** How may the Brown Engine assist you today?
+  - Dialogue 2:
+    - **Brown Engine Secretary:** And what can I do for you on this fine day?
+  - Dialogue 3:
+    - **Brown Engine Secretary:** Come to help us some more, Player?
+  - Dialogue 4:
+    - **Brown Engine Secretary:** Oh, hello there Player! Nice to see you!
+  - Dialogue 5:
+    - **Brown Engine Secretary:** Welcome back to the palace of Keldagrim, Player!
+  - Dialogue 6:
+    - **Brown Engine Secretary:** Come in, come in! And tell us what you need!
+- '''Choose an option: {{anchor|asdf}}
+  - [Choice]: Who are you?
+    - (above)
+  - [Choice]: Where am I?
+    - **Player:**  Where am I? {{anchor|high2}}
+    - **Brown Engine Secretary:** Why, this is the headquarters of the Brown Engine.
+    - **Brown Engine Secretary:** We share this floor of the palace with the other companies of the Consortium. And trade with them on the Trade Octagon.
+    - **Player:** The Trade Octagon?
+    - **Brown Engine Secretary:** See those traders standing out there, just out the door? They're all standing in the Trade Octagon. There's an awful lot of trade going on in the palace, you know.
+    - **Player:** Anything else of interest in the palace?
+    - **Brown Engine Secretary:** The top floor of the palace is the Meeting Octagon. That's the place where the Consortium makes all the important decisions.
+    - **Player:** Can I go there?
+    - **Brown Engine Secretary:** Oh, yes, you certainly can. But not while the Consortium is in session, I would imagine.
+    - **Brown Engine Secretary:** Even though you are a very friendly human, I'm not sure if you would be allowed to visit during a meeting.
+    - **Brown Engine Secretary:** But I don't know enough about that, the director probably knows more.
+    - **Player:** Thanks for the info!
+    - (initial)
+  - [Choice]: Is there anything I can help you with?
+    - **Player:** Is there anything I can help you with?
+    - ''If the player is female:
+      - (above|rude)
+    - ''If the player is male, one of the following replies plays at random:
+      - Dialogue 1:
+        - **Brown Engine Secretary:** Ah, always looking for ways to help us!
+      - Dialogue 2:
+        - **Brown Engine Secretary:** Naturally, my good human, naturally!
+      - Dialogue 3:
+        - **Brown Engine Secretary:** Of course, we reserve our best tasks just for you, Player!
+      - Dialogue 4:
+        - **Brown Engine Secretary:** I do believe we do, yes!
+      - Dialogue 5:
+        - **Brown Engine Secretary:** I dare say we have something for you, yes.
+      - Dialogue 6:
+        - **Brown Engine Secretary:** Oh yes, as you know the Brown Engine always has work!
+    - **Brown Engine Secretary:** We need [number] pieces of [ore] in the next [number] minutes.
+    - '''Select an option
+      - [Choice]: I'll take it.
+        - **Player:** I'll take it.
+        - ''The Secretary replies with one of the following at random:
+          - Dialogue 1:
+            - **Brown Engine Secretary:** You never disappoint, Player!
+          - Dialogue 2:
+            - **Brown Engine Secretary:** Excellent, I thought you'd like this!
+          - Dialogue 3:
+            - **Brown Engine Secretary:** I'm happy to hear that!
+          - Dialogue 4:
+            - **Brown Engine Secretary:** The Brown Engine appreciates the hard work you do.
+          - Dialogue 5:
+            - **Brown Engine Secretary:** Thanks! But hurry back please, we really need that ore!
+      - [Choice]: No thanks.
+        - **Player:** No thanks.
+        - ''The Secretary replies with one of the following at random:
+          - Dialogue 1:
+            - **Brown Engine Secretary:** I suppose you have other important business to attend to?
+          - Dialogue 2:
+            - **Brown Engine Secretary:** Oh. Didn't know you were the type to refuse work.
+          - Dialogue 3:
+            - **Brown Engine Secretary:** Is everything okay? I didn't think you normally refused our tasks.
+          - Dialogue 4:
+            - **Brown Engine Secretary:** That's a great shame, Player.
+          - Dialogue 5:
+            - **Brown Engine Secretary:** No? That's unusual for you, Player.
+    - ''If the player is already on a task:
+      - **Brown Engine Secretary:** Have you completed your current task yet? Did you get me my [number] pieces of [ore]?
+      - **Player:** No, not yet.
+      - **Brown Engine Secretary:** Sorry to hear that, but please hurry up!
+      - (initial)
+    - ''If the player is already on a task from a different company:
+      - **Brown Engine Secretary:** Don't you have some business with [other company] to deal with first? Hurry back when you're done!
+      - (initial)
+  - [Choice]: I have to go!
+    - **Player:** I have to go!
+    - ''One of the following replies plays at random: {{anchor|high3}}
+      - Dialogue 1:
+        - **Brown Engine Secretary:** It was a pleasure to talk to you again, Player.
+      - Dialogue 2:
+        - **Brown Engine Secretary:** Come back any time!
+      - Dialogue 3:
+        - **Brown Engine Secretary:** See you soon!
+
+#### Handing in a task
+
+- **Player:** I've completed your task! Here is your ore!
+- (removes=ore) (receives=coins)
+- ''The Secretary replies with one of the following at random:
+  - Dialogue 1:
+    - **Brown Engine Secretary:** Wonderful! I will personally oversee that it goes to the trade floor on time!
+  - Dialogue 2:
+    - **Brown Engine Secretary:** Well done, well done!
+  - Dialogue 3:
+    - **Brown Engine Secretary:** I knew you were the right human for the job!
+  - Dialogue 4:
+    - **Brown Engine Secretary:** Thanks, I will make sure the director hears of your expeditiousness!
+  - Dialogue 5:
+    - **Brown Engine Secretary:** You're always reliable, Player!
+- (continuea|asdf)
+
+### Higher or highest reputation
+
+- ''One of the following dialogue plays at random:
+  - (above|high1)
+- '''Choose an option:
+  - [Choice]: Who are you?
+    - (above)
+  - [Choice]: Where am I?
+    - (above|high2)
+  - [Choice]: Is there anything I can help you with?
+    - **Player:** Is there anything I can help you with?
+    - ''One of the following replies plays at random:
+      - Dialogue 1:
+        - **Brown Engine Secretary:** I'm afraid I have no more work to offer you, Player, please speak to the director.
+      - Dialogue 2:
+        - **Brown Engine Secretary:** You should speak directly to the director.
+      - (initial)
+    - ''If the player is already on a task from a different company:
+      - **Brown Engine Secretary:** Don't you have some business with [other company] to deal with first? Hurry back when you're done!
+      - (initial)
+  - [Choice]: I have to go!
+    - (above|high3)

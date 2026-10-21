@@ -1,0 +1,91 @@
+# Bogrog
+
+- **Original Wiki Page**: [Transcript:Bogrog](https://runescape.wiki/w/Transcript%3ABogrog)
+- **Letter**: `B`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Bogrog:** Hey, yooman, what you wanting?
+- Select an option
+  - So, what's Summoning all about, then?
+    - **Bogrog:** Whatchoo talkin' about, yooman?
+    - Select an option
+      - Summoning.
+        - **Player:** Yes, I think so.
+        - **Bogrog:** I gots da pouches and spirit shards, but no charms. Yooman gotta get dem himself. Yooman just gets a club and yooman goes whackin' things till monsters drop charms. Der'es loads of things that gots charms. Dere is loads of charms all over da place, gold, blue, green, crimson...even some real rare ones like obsidy-un charms as well.
+        - **Player:** I'll be sure to keep my eyes open for them.
+        - **Bogrog:** If yooman wants to learn Summonin' good, den yooman needs to make da Summonin' pouches. Yooman also gets learnin' from da Summonin' and da scrolls and da splittin' Summonin' pouches. Da Summonin' pouches is da bestest way of learnin' of them all. Yooman got it, or yooman stoopid?
+        - **Player:** Sure!
+        - **Bogrog:** Hah! Yooman is smart for a little ting! Da last ting is da pets. Da more summony you is, da more you understand der birds and der bees and der rocks and stuff. Der bigger yooman's summonyness is, da stronger der pets yooman will be able to keep. Real big summoners gets to raise animals like lizard tings, including dragons! Now if yooman's brains isn't gonna pop, does it wanna know about somefin' else?
+        - Select an option
+          - Tell me about Summoning familiars.
+            - (below|familiars)
+          - Tell me about special moves.
+            - (below|special-moves)
+          - Tell me about pets.
+            - (below|pets)
+      - Tell me about Summoning familiars.{{anchor|familiars}}
+        - **Bogrog:** Summoned familiars are da main ting in Summonin', as if yooman didn't be guessing. There's all kinds of tings yooman can summon. Der bigger der yooman's summonyness, der bigger der tings yooman can summon. Ting is, dem familiars not really, REALLY animals, if yer get me. Dey are really REALLY spirits dat are stronger than der real animal, wiv all kinds of powaz dat der rest don't. Dat's why dey are not runnin' around all da time - it's cos der summoner puts dere Summonin' skill points inta summonin' em, and keeping em here.
+        - **Player:** So Summoning skill points are like food to dem - sorry, them?
+        - **Bogrog:** Yah! Dat's right! Der bigger der ting, der more ya gotta feed it, and der more often it gets hungry. Dat's why only der big summony types, like me, have enough Summonin' skill points for der biggest familiars. And der bigger der yooman's Summonin' level, der easier it is to be feedin' der littler tings for longer.
+        - **Player:** I'm starting to get a little hungry now.
+        - **Bogrog:** It's like if yooman be holdin' bags of wheat. Der bigger der bags yooman be holdin', der bigger der yooman's arms get, so de bigger bags dey can hold next time. If da youman feeds a little ting den dey will have lots of wheat left over too!
+        - **Player:** Great! So, what can these familiars do?
+        - **Bogrog:** What can dey not do, more like? Dere is a load of dem - tons, lots and lots - and each of dem is not like der uvvers.
+        - **Player:** Well, can you give me some hints, then?
+        - **Bogrog:** Well, Bogrog only calls on der ones dat fight! Dey hang around until Bogrog be fightin' and den dey leap in! I suppose yooman like you will be wantin' the ones that just make yooman more skilful, or dem ones dat lug around tings dat yooman's arms too puny to lift.
+        - **Player:** Amazing!
+        - **Bogrog:** Now, if yooman's brains isn't gonna pop, does it wanna know about someting else?
+        - Select an option
+          - Tell me about special moves.
+            - (below|special-moves)
+          - Tell me about pets.
+            - (below|pets)
+      - Tell me about special moves.{{anchor|special-moves}}
+        - **Bogrog:** If you cuts up one of dem Summonin' pouches, over at der obelisk, den da energy gets mushed up real good, transformin' into a big stack of scrolls. Dese scrolls can den be used to make da familiars do a speshial move! Hur, hur, hur! Der spirit wolfies, fer example, dey can make little tings run away real good if dey perform dere Howl speshial move.
+        - **Player:** Or longer, in the case of that giant wolpertinger!
+        - **Bogrog:** Hur hur hur, me hearing about dat from da spirities! Yooman can't mix up der scrolls, though - spirit wolfies get real growly if ya try to make 'em perform dreadfowl speshial move!
+        - **Player:** So, what sort of special moves are there?
+        - **Bogrog:** Dere is lots of dem - like da familiars! If yooman's confoosed, den just think of dis; the attackin' familiars got a lot more of der attackin' speshial moves, and der soppy, non-attackin' ones gots da non-attackin' speshial moves. Yooman will want da non-attackin' ones to heal dem, or get dem stuff, or make dem better at uvver tings.
+        - **Player:** Are the special moves and the familiar's normal abilities similar?
+        - **Bogrog:** Naah, dem's mostly diff'rent. Da spirit wolfies' are sim'lar though. Dey's got da Howl speshial move, but dey's also got a howly normal ability. You can get der spirit wolfy to use Howl on anyt'ing you see, but it can only uses its howly normal ability on tings you is fightin'. If der familiar with the normal ability is fighting with a yooman, den it makes der normal ability when it sees an openin'. Der speshial moves though - dey never use dem unless yooman tells 'em to wiv a scroll.
+        - **Player:** I see. Thanks for the information!
+        - **Bogrog:** Now, if yooman's brains isn't gonna pop, does it wanna know about somefin' else?
+        - Select an option
+          - Tell me about Summoning familiars.
+            - (above|familiars)
+          - Tell me about pets.
+            - (below|pets)
+      - Tell me about pets.{{anchor|pets}}
+        - **Bogrog:** Der petties? Well dey's not real summony stuffs, but if yooman trains hard, then yooman gets to be friends wiv dem. Der summonier der yooman gets, der more like nature der yooman gets, so da little petties like yooman better. So, der petties dat would be runnin' away don't, and even der nasty petties get real quiet too. An' when dey not runnin' or bitin', den da yooman gets ta feed 'em and pet 'em and keep 'em.
+        - **Player:** So what will I need to do to raise the animals?
+        - **Bogrog:** Dey just walk behind da yooman, so yooman just gives dem food, more food and good foods. Da bestest summoners wants to pet themse'ves a dragon!
+        - **Player:** Wow! Imagine riding around on a dragon, and fighting with it!
+        - **Bogrog:** Yooman is too stoopid.
+        - **Player:** What?
+        - **Bogrog:** One, you too puny to make a dragon do as you sez. Two, when yooman gets a pet, yooman remembers it's still alive, an' yooman's friend. Pets are not like der spirity familiars - dey die if you kills dem! What friend pokes his friend in der head and says 'We go fight now. I gets on your back and you fights for me'?
+        - **Player:** I didn't realise.
+        - **Bogrog:** Dat's 'cos yooman's stoopid. Petties not toys or clubs, or ridy-tings. Dey is livin' tings dat yooman be raisin' from birthyness. If you a bad, petty yooman, I club you!
+        - **Player:** I'll take good care of them.
+        - **Bogrog:** Now, if yooman's brains isn't gonna pop, does it wanna know about somefin' else?
+        - Select an option
+          - Tell me about Summoning familiars.
+            - (above|familiars)
+          - Tell me about special moves.
+            - (above|special-moves)
+          - Tell me about pets.
+            - (above|pets)
+  - Can I buy some summoning supplies?
+    - **Player:** Can I buy some summoning supplies, please?
+    - **Bogrog:** Hur, hur, hur! Yooman's gotta buy lotsa stuff if yooman wants ta train good!
+    - (opens=Summoning Supplies (Bogrog))
+  - Are you interested in buying pouches or scrolls?
+    - **Player:** Are you interested in buying pouches or scrolls?
+    - **Bogrog:** Des other ogres's stealin' Bogrog's stock. Gimmie pouches and scrolls and yooman gets da shardies.
+    - **Player:** Ok.
+    - *(Summoning Trade In interface opens.)*

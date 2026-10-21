@@ -1,0 +1,209 @@
+# Mystic (dwarf)
+
+- **Original Wiki Page**: [Transcript:Mystic (dwarf)](https://runescape.wiki/w/Transcript%3AMystic%20%28dwarf%29)
+- **Letter**: `M`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+- **Mystic:** Pronto estarán terminados.
+- **Seleccione una opción**
+  - Solo ponme en un equipo
+    - (Action: Te teletransportan a uno de los recintos de todos contra todos.)
+    - El místico te asigna un equipo
+  - Tengo algunas preguntas sobre el reino primordial...
+    - **Player:** Tengo algunas preguntas sobre el reino primordial...
+    - **Seleccione una opción**
+      - ¿Qué se supone que debo hacer?
+        - **Player:** ¿Qué debo hacer?
+        - **Místico:** Tu tarea en el reino primordial es reunir tanta arcilla sagrada como puedas. Puedes transformar la arcilla en objetos utilizando los hornos de creación. Estos elementos te ayudarán a recolectar arcilla más rápidamente y te ayudarán en la batalla contra el otro equipo. La arcilla se presenta en cinco niveles de calidad, llamados clases. La arcilla con una clase más alta será un mejor equipamiento y vale más puntos, pero es más difícil de recolectar.
+        - **Seleccione una opción**
+          - Volviendo a mis otras preguntas...
+            - *(Vuelve a opciones anteriores)*
+          - Eso es todo lo que necesito saber.
+            - **Player:** Eso es todo lo que necesito saber.
+            - *(Termina la conversación)*
+      - ¿Cómo recojo arcilla?
+        - **Player:** ¿Cómo recojo arcilla?
+        - **Místico:** Se pueden encontrar fragmentos de clase 1 tirados en el suelo. Cualquiera puede recogerlos sin necesidad de herramientas. La arcilla de clase superior se puede encontrar en cuatro formas diferentes, que requieren diferentes habilidades para recolectarlas y no se pueden recolectar rápidamente sin herramientas.
+        - **Seleccione una opción**
+          - Dime qué herramientas necesito.
+            - **Player:** Cuéntame qué herramientas necesito.
+            - **Místico:** Necesitarás un pico para extraer arcilla de una roca, un hacha para talar un árbol, un arpón para atrapar arcilla en un estanque y un cazamariposas para recolectar de un enjambre. Debería intentar utilizar una herramienta que esté una clase por debajo de la ubicación desde la que está recopilando, o mejor. Por ejemplo, para extraer una roca de clase 3 deberías intentar utilizar un pico de clase 2. Puedes recolectar arcilla sin la herramienta adecuada, pero será muy lento.
+            - *(Muestra otras opciones)*
+          - Cuéntame sobre los requisitos de nivel.
+            - **Player:** Cuéntame sobre los requisitos de nivel.
+            - **Místico:** No es necesario recolectar fragmentos de arcilla de clase 1. Para recolectar arcilla de clase 2 necesitas el nivel 20 en la habilidad correspondiente; la clase 3 requiere el nivel 40; clase 4, nivel 60; y clase 5, nivel 80.
+            - *(Muestra otras opciones)*
+          - Volviendo a mis otras preguntas...
+            - *(Vuelve a opciones anteriores)*
+          - Eso es todo lo que necesito saber.
+            - **Player:** Eso es todo lo que necesito saber.
+            - *(Termina la conversación)*
+      - ¿Cómo uso los hornos de creación?
+        - **Player:** ¿Cómo uso los hornos de creación?
+        - **Místico:** Puedes usar los hornos de creación para hacer objetos de arcilla sagrada. Si tienes algo de arcilla en tu inventario, puedes hacer clic en el horno para abrir el menú de creación. De forma predeterminada, el horno utilizará la clase más alta de arcilla que lleve. Si desea utilizar una clase diferente, puede seleccionar una en el lado derecho del menú. Hay cuatro categorías de objetos que puedes fabricar: armas, armaduras, equipos y herramientas. Seleccione una categoría en el lado izquierdo del menú. Los objetos que puedes hacer aparecen en el medio del menú. haz clic en uno para hacerlo. Puede crear varios elementos a la vez haciendo clic derecho en el nombre del elemento. Necesitarás un nivel suficientemente alto en cualquier habilidad asociada con la fabricación de ese tipo de objeto: Smithing para armaduras de metal, Cooking para comida, etc.
+          - Volviendo a mis otras preguntas...
+            - *(Vuelve a opciones anteriores)*
+          - Eso es todo lo que necesito saber.
+            - **Player:** Eso es todo lo que necesito saber.
+            - *(Termina la conversación)*
+      - ¿Qué skill level necesito?
+        - **Player:** ¿Qué skill level necesito?
+        - **Místico:** No es necesario recolectar fragmentos de arcilla de clase 1. Para recolectar arcilla de clase 2 necesitas el nivel 20 en la habilidad correspondiente; la clase 3 requiere el nivel 40; clase 4, nivel 60; y clase 5, nivel 80. Por ejemplo, extraer arcilla de nivel 3 requiere el nivel 40 Mining. Convertir esa arcilla en un casco requeriría el nivel 40 Smithing, y el casco requeriría el nivel 40 Defence para usarlo.
+          - Volviendo a mis otras preguntas...
+            - *(Vuelve a opciones anteriores)*
+          - Eso es todo lo que necesito saber.
+            - **Player:** Eso es todo lo que necesito saber.
+            - *(Termina la conversación)*
+      - (Más...)
+        - ¿Cómo se calcula la puntuación?
+          - **Player:** ¿Cómo se calcula la puntuación?
+          - **Místico:** Cada equipo tiene una puntuación y todos los participantes en el juego tienen una puntuación personal. Puedes estar en el equipo perdedor y aún así anotar bien, o estar en el equipo ganador y anotar mal.
+          - **Seleccione una opción**
+            - Cuéntame sobre la puntuación personal.
+              - **Player:** Cuéntame sobre la puntuación personal.
+              - **Mystic:** Tu puntuación personal es la que se muestra en la parte superior izquierda de tu ventana. Obtienes puntos por recolectar arcilla, procesarla y depositarla en la base. También obtienes una pequeña cantidad de puntos por dañar a otros jugadores y obtienes una bonificación si tu equipo gana en general.
+              - **Seleccione una opción**
+                - ¿Qué puntaje obtengo por recopilación y procesamiento?
+                  - **Player:** ¿Qué puntuación obtengo por recopilación y procesamiento?
+                  - **Místico:** Recolectar arcilla te otorga puntos según la clase de arcilla: 15 para la clase 1, 30 para la clase 2, 45 para la clase 3, 60 para la clase 4 y 75 para la clase 5. Obtienes la misma cantidad de puntos por procesar la arcilla en un horno de creación.
+                  - *(Muestra otras opciones)*
+                - ¿Qué puntuación obtengo por depositar arcilla?
+                  - **Player:** ¿Qué puntuación obtengo por depositar arcilla?
+                  - '''Mystic: Depositar arcilla cruda te da puntos según la clase de la arcilla: 15 para la clase 1, 30 para la clase 2, 45 para la clase 3, 60 para la clase 4 y 75 para la clase 5. Los artículos procesados ganan el doble de puntos. Ten en cuenta que perderás puntos por coger objetos de la base y ganarás puntos por depositarlos. ¡No tomes un artículo a menos que tengas la intención de darle un buen uso! En algunos casos, una sola pieza de arcilla se transformará en varios elementos. En este caso, todo el conjunto de elementos vale la cantidad normal de puntos y cada elemento individual vale proporcionalmente menos.
+                  - ''(Muestra otras opciones)
+                - ¿Qué puntuación obtengo por luchar contra enemigos?
+                  - **Player:** ¿Qué puntuación obtengo por luchar contra enemigos?
+                  - '''Mystic: Obtienes cinco puntos de daño por cada punto de daño que le haces a un enemigo. Debes agregar a esto recogiendo los elementos que dejan caer y llevándolos de regreso a tu base.
+                  - *(Muestra otras opciones)*
+                - ¿Qué bonificación obtengo por estar en el equipo ganador?
+                  - **Player:** ¿Qué bonificación obtengo por estar en el equipo ganador?
+                  - '''Mystic: Si estás en el equipo ganador, obtendrás un bono del 10 % añadido a tu puntuación. El equipo ganador es el que tiene la arcilla más sagrada en su base al final del juego.
+                  - *(Muestra otras opciones)*
+                - Volviendo a mis otras preguntas...
+                  - *(Vuelve a las opciones anteriores a anteriores)*
+                - *(Después de hacer cualquier pregunta sobre puntuación personal)* Eso es todo lo que necesito saber.
+                  - *(Termina la conversación)*
+            - Cuéntame sobre la puntuación del equipo.
+              - **Player:** Cuéntame sobre la puntuación del equipo.
+              - **Místico:** La puntuación de tu equipo se basa en la cantidad y calidad de la arcilla sagrada en tu base. Puedes conocer las puntuaciones actuales hablando conmigo. Si tu equipo tiene el puntaje más alto al final de la dama, obtendrás una bonificación del 10% agregada a tu puntaje personal.
+              - **Seleccione una opción**
+                - Cuéntame sobre la puntuación personal.
+                  - *(Igual que arriba)*
+                - Volviendo a mis otras preguntas...
+                  - *(Muestra opciones anteriores a anteriores)*
+                - Eso es todo lo que necesito saber.
+                  - **Player:** Eso es todo lo que necesito saber.
+                  - *(Termina la conversación)*
+            - Volver a mis otras preguntas
+              - *(Vuelve a las opciones anteriores a anteriores)*
+            - Eso es todo lo que necesito saber.
+              - **Player:** Eso es todo lo que necesito saber.
+              - *(Termina la conversación)*
+        - ¿Cómo puedo regalar objetos a mis compañeros de equipo?
+          - **Player:** ¿Cómo puedo dar objetos a mis compañeros de equipo?
+          - **Místico:** Si usas un objeto en otro jugador que está en tu equipo, le darás ese objeto, siempre y cuando tenga espacio para tomarlo. Si desea darles varios elementos, puede hacer clic derecho sobre ellos y usar la opción Dar. Esto funciona como el menú de intercambio, pero la transferencia es unidireccional. También puedes dejar objetos en las mesas de tu base y tus compañeros de equipo podrán recogerlos.
+            - **Seleccione una opción**
+              - Volviendo a mi otra pregunta...
+                - *(Muestra opciones anteriores a anteriores)*
+              - ¿Cómo funcionan las mesas?
+                - *(Igual que a continuación)*
+              - Eso es todo lo que necesito saber.
+                - **Player:** Eso es todo lo que necesito saber.
+                - *(Termina la conversación)*
+        - ¿Cómo funcionan las mesas?
+          - **Player:** ¿Cómo funcionan las tablas?
+          - **Mystic:** Cada tabla almacena un tipo diferente de elemento. Cuando coloques un elemento en cualquier mesa, saltará al correcto. Puede tomar elementos recogiéndolos normalmente, pero también puede hacer clic en una mesa para abrir un menú de los elementos disponibles, lo que puede ser más conveniente si hay muchos elementos en la mesa. La mesa en el medio de tu base te permite depositar todos los artículos que llevas muy rápidamente. Cuando haga esto, conservará su herramienta de clase superior de cada tipo.
+          - **Seleccione una opción**
+            - Volviendo a mis otras preguntas...
+              - *(Muestra opciones anteriores a anteriores)*
+            - Eso es todo lo que necesito saber.
+              - **Player:** Eso es todo lo que necesito saber.
+              - *(Termina la conversación)*
+        - ¿Qué pasa si muero?
+          - **Player:** ¿Qué pasa si muero?
+          - **Místico:** Si mueres en el reino primordial, reaparecerás instantáneamente en el área de inicio del equipo dentro de una barrera que controla tu equipo, lo que esté más cerca del punto donde moriste. Dejarás caer todos los objetos que llevas, a menos que estés usando la oración Proteger objeto, en cuyo caso conservarás uno.
+          - **Seleccione una opción**
+            - Volviendo a mis otras preguntas...
+              - *(Muestra opciones anteriores a anteriores)*
+            - Eso es todo lo que necesito saber.
+              - **Player:** Eso es todo lo que necesito saber.
+              - *(Termina la conversación)*
+        - (Más...)
+          - Háblame de barreras.
+            - **Player:** Cuéntame sobre las barreras.
+            - **Místico:** Puedes convertir arcilla sagrada en barreras usando un horno de creación. Luego puede configurar estas barreras alrededor de ciertas ubicaciones usándolas en un punto de acceso de barrera. Necesitas cuatro objetos de barrera para poder configurarlos. Configurar una barrera alrededor de una ubicación garantiza que solo los miembros de su equipo puedan acceder a la ubicación. Los jugadores centrados en sus habilidades pueden trabajar con seguridad dentro de la barrera. Si mueres, reaparecerás dentro de una de las barreras de tu equipo, si está más cerca que el área de inicio del equipo. El otro equipo puede derribar barreras atacando. Las barreras también se degradan con el tiempo. Las barreras hechas de arcilla de mayor calidad durarán más.
+              - **Seleccione una opción**
+                - Volviendo a mis otras preguntas...
+                  - *(Muestra opciones de anterior a anterior a anterior)*
+              - Eso es todo lo que necesito saber.
+                - **Player:** Eso es todo lo que necesito saber.
+                - *(Termina la conversación)*
+          - Háblame de las criaturas Summoning.
+            - **Player:** Háblame de las criaturas Summoning.
+            - **Místico:** Puedes hacer bolsas y pergaminos Summoning con arcilla sagrada en un horno de creación. Una vez que tengas un pergamino, puedes convocar a la criatura como de costumbre. Como ocurre con todo en el reino primordial, las criaturas hechas de clases superiores de arcilla son más poderosas en combate. Las criaturas también pueden llevar objetos para ti. Los fabricados con clases superiores de arcilla pueden transportar más objetos a la vez. El pergamino de arcilla sagrada Summoning hace que tu familiar teletransporte todos los elementos que lleva a la base de tu equipo. Puedes recargar tus puntos Summoning en los altares repartidos por el reino.
+              - **Seleccione una opción**
+                - Volviendo a mis otras preguntas...
+                  - *(Muestra opciones de anterior a anterior a anterior)*
+              - Eso es todo lo que necesito saber.
+                - **Player:** Eso es todo lo que necesito saber.
+                - *(Termina la conversación)*
+          - Háblame de las manchas de niebla.
+            - **Player:** Cuéntame sobre las zonas de niebla.
+            - **Místico:** Si ingresas a uno de los parches de niebla, estarás oculto. Nadie podrá verte ni atacarte hasta que emerjas. Cuando abandones la zona de niebla, es posible que te encuentres momentáneamente desorientado.
+              - **Seleccione una opción**
+                - Volviendo a mis otras preguntas...
+                  - *(Muestra opciones de anterior a anterior a anterior)*
+              - Eso es todo lo que necesito saber.
+                - **Player:** Eso es todo lo que necesito saber.
+                - *(Termina la conversación)*
+          - (Más...)
+            - ¿Cómo termina el juego?
+              - **Player:** ¿Cómo termina el juego?
+              - **Mystic:** El juego normalmente durará 20 minutos. Deberías ver un temporizador en la esquina superior derecha de la ventana que te muestra cuánto tiempo queda. El juego terminará prematuramente si se agota toda la arcilla del área o si todos los jugadores de un equipo abandonan.
+                - **Seleccione una opción**
+                  - Volviendo a mis otras preguntas...
+                    - *(Muestra opciones de anterior a anterior a anterior a anterior)*
+                - Eso es todo lo que necesito saber.
+                  - **Player:** Eso es todo lo que necesito saber.
+                  - *(Termina la conversación)*
+            - ¿Qué pasa si salgo del juego antes de tiempo?
+              - **Player:** ¿Qué pasa si salgo del juego antes de tiempo?
+              - **Mystic:** Si abandonas el juego antes de tiempo, no obtendrás ningún punto para ese juego y no podrás unirte a un nuevo juego durante cinco minutos. Si eres el último jugador de tu equipo y abandonas, el juego terminará. De lo contrario, seguirá sin ti. Cualquier artículo que lleves cuando salgas aparecerá en la base de tu equipo.
+                - **Seleccione una opción**
+                  - Volviendo a mis otras preguntas...
+                    - *(Muestra opciones de anterior a anterior a anterior a anterior)*
+                - Eso es todo lo que necesito saber.
+                  - **Player:** Eso es todo lo que necesito saber.
+                  - *(Termina la conversación)*
+            - ¿Cuáles son las recompensas?
+              - **Player:** ¿Cuáles son las recompensas?
+              - **Místico:** Ganarás puntos por tus actividades en el reino primordial y podrás canjearlos por objetos que hemos hecho con arcilla sagrada. Puedes comprar herramientas mórficas que se transforman en muchos tipos diferentes de herramientas, y armaduras y armas mórficas que cambiarán para adaptarse a diferentes estilos de combate. Para obtener más información, hable con rewards mystic en el noreste del campamento.
+                - **Seleccione una opción**
+                  - Volviendo a mis otras preguntas...
+                    - *(Muestra opciones de anterior a anterior a anterior a anterior)*
+                - Eso es todo lo que necesito saber.
+                  - **Player:** Eso es todo lo que necesito saber.
+                  - *(Termina la conversación)*
+            - (Volver al inicio...)
+              - *(Muestra opciones de anterior a anterior a anterior)*
+  - ¿Qué estará terminado?
+    - **Player:** ¿Qué se terminará?
+    - **Mystic:** ¡Los nuevos cuerpos! ¡Los nuevos cuerpos para los Santos! Solía ​​hacer estatuas en Keldagrim. Aburridas estatuas de muertos, hechas de piedra. Toda mi vida fue inútil. ¡Pero ahora hago estatuas de arcilla sagrada, para que sean los nuevos cuerpos de los Santos!
+    - *(Muestra otras opciones)*
+  - ¿Puedo ayudarte?
+    - **Player:** ¿Puedo ayudarte?
+    - ¡Por supuesto! Si estás solo, únete a uno de los dos equipos de participantes ingresando a uno de los recintos al oeste del campamento. Si tienes amigos contigo, puedes formar un clan y desafiar a otro clan, en el recinto del clan al este. ¡Incluso puedes aliar tu clan con hasta tres personas más!
+    - **Seleccione una opción**
+      - Tengo algunas preguntas sobre el reino primordial.
+        - *(Igual que arriba)*
+      - Solo ponme en un equipo
+        - *(Igual que arriba)*
+      - No importa.
+        - *(Igual que a continuación)*
+  - No importa.
+    - **Player:** No importa.
+    - *(Termina la conversación)*

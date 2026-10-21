@@ -1,0 +1,428 @@
+# Donie
+
+- **Original Wiki Page**: [Transcript:Donie](https://runescape.wiki/w/Transcript%3ADonie)
+- **Letter**: `D`
+
+---
+
+## Dialogue Transcript
+
+
+### In Lumbridge
+
+*(The dialogue may start with different options presented each time. These cases are:)*
+
+#### Case 1
+
+- **Donie:** Hello there, can I help you?
+- [Menu]: Select an Option
+  - [Choice]: Where am I?
+    - **Donie:** This is the town of Lumbridge my friend.
+    - [Menu]: Select an Option
+      - [Choice]: How are you today?
+        - (below|how-are-you)
+      - [Choice]: Do you know of any quests I can do?
+        - (below|quests)
+      - [Choice]: Your shoe lace is untied.
+        - (below|shoe-lace)
+  - [Choice]: How are you today?
+    - **Donie:** Aye, not too bad thank you. Lovely weather in Gielinor this fine day.
+    - **Player:** Weather?
+    - **Donie:** Yes weather, you know.
+    - **Donie:** The state or condition of the atmosphere at a time and place, with respect to variables such as temperature, moisture, wind velocity, and barometric pressure.
+    - **Player:** ...
+    - **Donie:** Not just a pretty face eh? Ha ha ha.
+  - [Choice]: Are there any quests I can do here?
+    - **Donie:** What kind of quest do you seek?
+    - [Menu]: What kind of quest?
+      - [Choice]: I fancy a bit of a fight. Anything dangerous?
+        - **Donie:** Hmm...dangerous, you say? What sort of creatures are you looking to fight?
+        - [Menu]: Fight what?
+          - [Choice]: A dragon!
+            - **Donie:** You would slay a dragon? You bear the courage of a true hero!
+            - **Donie:** Seek out the guildmaster of the champions' guild south of Varrock. But only an adventurer who has proven their worth by completing many quests can enter.
+            - (Condition: Before Dragon Slayer:)
+              - **Player:** Then I shall grow my influence by completing many a quest. I shall be a dragon slayer!
+              - (previous|fight)
+            - (Condition: After Dragon Slayer:)
+              - **Player:** I travelled to Crandor and slew the dread dragon Elvarg!
+              - **Donie:** Congratulations, champion!
+              - (previous|fight)
+          - [Choice]: Big scary demons!
+            - **Donie:** You are a brave soul, indeed.
+            - **Donie:** Now that you mention it, I heard a rumour about a Saradominist in the Varrock church rambling about some kind of great evil. Sounds demon-like, if you ask me.
+            - **Donie:** Perhaps you could check it out if you are as brave as you say?
+            - (Condition: Before Demon Slayer:)
+              - **Player:** Thanks for the tip. Perhaps I will.
+              - (previous|fight)
+            - (Condition: After Demon Slayer:)
+              - **Player:** I've already killed the demon Delrith. He was merely a stain on my sword when I finished with him!
+              - **Donie:** Well done! However I'm sure if you search around the world you will find more challenging foes to slay.
+              - (previous|fight)
+          - [Choice]: Vampyres!
+            - **Donie:** Ha ha. I personally don't believe in such things. However, there is a man in Draynor Village who has been scaring the village folk with stories of vampyres.
+            - **Donie:** He's named Morgan and can be found in one of the village houses. Perhaps you could see what the matter is?
+            - (Condition: Before Vampyre Slayer:)
+              - **Player:** Thanks for the tip.
+              - (previous|fight)
+            - (Condition: After Vampyre Slayer:)
+              - **Player:** Oh, I've already killed that nasty blood-sucking vampyre. Draynor will now be safe.
+              - **Donie:** Yeah, yeah, of course you did. Everyone knows vampyres are not real.
+              - **Donie:** You're not fooling anyone, you know.
+              - (previous|fight)
+          - [Choice]: Something small would be good.
+            - **Donie:** Small? Small isn't really that dangerous though, is it?
+            - **Player:** It could be anything from an evil chicken to a poisonous spider. They attack in numbers, you know!
+            - **Donie:** Point taken. Speaking of small monsters, I heard old Wizard Mizgog in the Wizards' Tower has just had his special beads taken by a gang of mischievous imps.
+            - **Donie:** Sounds like it could be a quest for you?
+            - (Condition: Before Imp Catcher:)
+              - **Player:** Thanks for your help.
+              - (previous|fight)
+            - (Condition: After Imp Catcher:)
+              - **Player:** Yes, I know of Mizgog and have already helped him with his imp problem.
+              - **Donie:** Imps will be imps!
+              - (previous|fight)
+          - [Choice]: Maybe another quest.
+            - (previous2|quest)
+      - [Choice]: Something easy, please. I'm new here.
+        - **Donie:** I can tell you about plenty of small, easy tasks.
+        - **Donie:** The Lumbridge cook has been having problems, Xenia is holding out for a hero in Lumbridge cemetery, and Father Aereck claims he's seen a ghost.
+        - [Menu]: Tell me about...
+          - [Choice]: The Lumbridge cook.
+            - **Donie:** It's funny, really. The cook would forget his head if it wasn't screwed on. This time he forgot to get ingredients for the Duke's birthday cake.
+            - **Donie:** Perhaps you could help him? You'll probably find him in the Lumbridge castle kitchen.
+            - (Condition: Before Cook's Assistant:)
+              - **Player:** Thank you, I shall go speak with him.
+              - (previous|small)
+            - (Condition: After Cook's Assistant:)
+              - **Player:** I have already helped the cook in Lumbridge.
+              - **Donie:** Oh, yes. So you have. I am sure the Duke will be pleased.
+              - (previous|small)
+          - [Choice]: Xenia.
+            - **Donie:** Xenia's a veteran adventurer who's in search of someone to accompany her into the depths of Lumbridge catacombs. Something about a kidnapping.
+            - (Condition: Before The Blood Pact:)
+              - **Player:** Sounds interesting. I may just do that. Thanks.
+              - (previous|small)
+            - (Condition: After The Blood Pact:)
+              - **Player:** Yes, I have already confronted the cultists and rescued Ilona.
+              - **Donie:** Ah, excellent. Thank you very much, adventurer.
+              - (previous|small)
+          - [Choice]: Father Aereck.
+            - **Donie:** Father Aereck's the local priest. You can find him in Lumbridge church, just north of the cemetery.
+            - (Condition: Before The Restless Ghost:)
+              - **Player:** I'll see if I can lay that ghost to rest.
+              - (previous|small)
+            - (Condition: After The Restless Ghost:)
+              - **Player:** I returned the ghost's skull. He's finally resting.
+              - **Donie:** Jolly good.
+              - (previous|small)
+          - [Choice]: Maybe another quest.
+            - (previous2|quest)
+      - [Choice]: Anything skill oriented?
+        - **Donie:** Skills play a big part when you want to progress in knowledge. I know of a few skill-related quests that can get you started.
+        - **Donie:** You could help out Fred the farmer who is in need of someone's crafting expertise.
+        - **Donie:** Or there's Doric the dwarf who needs help with his family business?
+        - [Menu]: Tell me about...
+          - [Choice]: Fred the farmer.
+            - **Donie:** You can find Fred's farm near the field of sheep north of Lumbridge market. Perhaps you should go and speak with him.
+            - (Condition: Before Sheep Shearer:)
+              - **Player:** Thanks. Maybe I will.
+              - (previous|skill)
+            - (Condition: After Sheep Shearer:)
+              - **Player:** I have already helped Fred the farmer. I sheared his sheep and made 20 balls of wool for him.
+              - **Player:** He wouldn't let me kill his chickens, though.
+              - **Donie:** Lumbridge chickens do make good target practice.
+              - **Donie:** You will have to wait until he isn't looking.
+              - (previous|skill)
+          - [Choice]: Doric the dwarf.
+            - **Donie:** Doric the dwarf is located north of Falador. He might be able to help you with something. You should speak to him. He may let you use his anvils.
+            - (Condition: Before What's Mine Is Yours:)
+              - **Player:** Thanks for the tip.
+              - (previous|skill)
+            - (Condition: After What's Mine Is Yours:)
+              - **Player:** Yes, I've been to see Doric already. I got to the bottom of an unscrupulous plot to undermine his metalworking business, resolved Doric's conflict with his son, and rekindled his client list.
+              - **Donie:** Oh, good. Thank you, Player!
+              - (previous|skill)
+          - [Choice]: Maybe another quest.
+            - (previous2|quest)
+      - [Choice]: I want to do all sorts of things. Do you know anything like that?
+        - **Donie:** Of course I do. Gielinor is a huge place, you know.
+        - **Donie:** Let me think...
+        - **Donie:** You could help out Ernest. He got lost in Draynor manor. Spooky place, that.
+        - **Donie:** Hetty the witch in Rimmington knows a little about magic.
+        - **Donie:** Also, pirates are currently docked in Port Sarim. Where there are pirates, treasure is never far away.
+        - [Menu]: Tell me about...
+          - [Choice]: Hetty the witch.
+            - **Donie:**  Hetty the witch can be found in Rimmington, south of Falador. She's currently working on some new potions. Perhaps you could lend her a hand?
+            - (Condition: Before Witch's Potion:)
+              - **Player:** Thanks. Let's hope she doesn't turn me into a potato or something.
+              - (previous|sorts)
+            - (Condition: After Witch's Potion:)
+              - **Player:** Yes, I have already been to see Hetty. She gave me super cosmic powers after I helped her out with her potion! I could probably destroy you with a single thought.
+              - **Donie:** Did she?
+              - **Player:** No, not really.
+              - **Donie:** Right...
+              - (previous|sorts)
+          - [Choice]: Ernest and Draynor Manor.
+            - **Donie:** The first place to start would be the gate to Draynor Manor. There you will find Veronica who will be able to tell you more.
+            - **Donie:** I suggest you tread carefully in that place; it's haunted.
+            - (Condition: Before Ernest the Chicken:)
+              - **Player:** A haunted manor? Sounds like fun.
+              - (previous|sorts)
+            - (Condition: After Ernest the Chicken:)
+              - **Player:** I already found Ernest. Professor Oddenstein turned him into a chicken!
+              - **Donie:** A chicken?
+              - **Player:** A chicken. <br>He ran afoul of weird science.
+              - (previous|sorts)
+          - [Choice]: Pirate's treasure.
+            - **Donie:** It's rumoured Redbread Frank in Port Sarim's bar, the Rusty Anchor, may know the location of buried treasure.
+            - (Condition: Before Pirate's Treasure:)
+              - **Player:** Sounds adventurous. I may have to check that out. Thank you.
+              - (previous|sorts)
+            - (Condition: After Pirate's Treasure:)
+              - **Player:** Yarr! I already found the booty!
+              - **Donie:** Yarr indeed my friend. A most excellent find.
+              - **Player:** Yarr!
+              - **Donie:** Yarrr!
+              - **Player:** YARRR!
+              - **Donie:** Right, that's enough of that!
+              - **Player:** ...Sorry.
+              - (previous|sorts)
+          - [Choice]: Maybe another quest.
+            - (previous2|quest)
+      - [Choice]: Maybe another time.
+        - (initial)
+  - [Choice]: Your shoe lace is untied.
+    - **Donie:** No it's not!
+    - **Player:** No you're right. I have nothing to back that up.
+    - **Donie:** Fool! Leave me alone!
+
+#### Case 2
+
+- **Donie:** Hello there, can I help you?
+- [Menu]: Select an Option
+  - [Choice]: Where am I?
+    - (above|where-am-i)
+  - [Choice]: How are you today?
+    - (above|how-are-you)
+  - [Choice]: Are there any quests I can do here?
+    - (above|quests)
+  - [Choice]: What's happened here lately?
+    - (above|bol)
+  - [Choice]: Where can I get a haircut like yours?
+    - **Donie:** Yes, it does look like you need a hairdresser.
+    - **Player:** Oh thanks!
+    - **Donie:** No problem. The hairdresser in Falador will probably be able to sort you out.
+    - **Donie:** The Lumbridge general store sells useful maps if you don't know the way.
+
+#### Case 3
+
+- **Donie:** Hello there, can I help you?
+- [Menu]: Select an Option
+  - [Choice]: Do you have anything of value which I can have?
+    - **Donie:** Are you asking for free stuff?
+    - **Player:** Well... er... yes.
+    - **Donie:** No I do not have anything I can give you. If I did have anything of value I wouldn't want to give it away.
+  - [Choice]: Are there any quests I can do here?
+    - (above|quests)
+  - [Choice]: Can I buy your stick?
+    - **Donie:** It's not a stick! I'll have you know it's a very powerful staff!
+    - **Player:** Really? Show me what it can do!
+    - **Donie:** Um... It's a bit low on power at the moment.
+    - **Player:** It's a stick isn't it?
+    - **Donie:** ...Ok it's a stick. But only while I save up for a staff. Zaff in Varrock square sells them in his shop.
+    - **Player:** Well good luck with that.
+
+#### Case 4
+
+- **Donie:** Hello there, can I help you?
+- [Menu]: Select an Option
+  - [Choice]: Are there any quests I can do here?
+    - (above|quests)
+  - [Choice]: Can I buy your stick?
+    - (above|stick)
+
+#### Historical dialogue
+
+
+##### Case 1
+
+- **Donie:** Hello there, can I help you?
+- [Menu]: Select an Option
+  - [Choice]: Where am I?
+    - (above|where-am-i)
+  - [Choice]: How are you today?
+    - (above|how-are-you)
+  - [Choice]: Are there any quests I can do here?
+    - **Donie:** What kind of quest are you looking for?
+    - [Menu]: Select an Option
+      - [Choice]: I fancy a bit of a fight, anything dangerous?
+        - **Donie:** Hmm.. dangerous you say? What sort of creatures are you looking to fight?
+        - [Menu]: Select an Option
+          - [Choice]: Big scary demons!
+            - **Donie:** You are a brave soul indeed.
+            - **Donie:** Now that you mention it, I heard a rumour about a Saradominist in the Varrock church who is rambling about some kind of greater evil.. sounds demon-like if you ask me.
+            - **Donie:** Perhaps you should check it out if you are as brave as you say?
+            - (Condition: If the player has already completed Demon Slayer:)
+              - **Player:** I've already killed the demon Delrith. He was merely a stain on my sword when I was finished with him!
+              - **Donie:** Well done! However I'm sure if you search around the world you will find more challenging foes to slay.
+            - (Condition: If the player has not completed Demon Slayer:)
+              - **Player:** Thanks for the tip, perhaps I will.
+          - [Choice]: Vampyres!
+            - **Donie:** Ha ha. I personally don't believe in such things. However, there is a man in Draynor Village who has been scaring the village folk with stories of vampyres.
+            - **Donie:** He's named Morgan and can be found in one of the village houses. Perhaps you could see what the matter is?
+            - (Condition: If the player has already completed Vampyre Slayer:)
+              - **Player:** Oh I have already killed that nasty blood-sucking vampyre. Draynor will be safe now.
+              - **Donie:** Yeah, yeah of course you did. Everyone knows vampyres are not real...
+              - **Player:** What! I did slay the beast...I really did.
+              - **Donie:** You're not fooling anyone you know.
+              - **Player:** ..Huh.. But... Hey! I did... believe what you like.
+            - (Condition: If the player has not completed Vampyre Slayer:)
+              - **Player:** Thanks for the tip.
+          - [Choice]: Small.. something small would be good.
+            - **Donie:** Small? Small isn't really that dangerous though is it?
+            - **Player:** Yes it can be! There could be anything from an evil chicken to a poisonous spider. They attack in numbers you know!
+            - **Donie:** Point taken. Speaking of small monsters, I hear old Wizard Mizgog in the Wizards' Tower has just had his beads taken by a gang of mischievous imps.
+            - **Donie:** Sounds like it could be a quest for you?
+            - (Condition: If the player has already completed Imp Catcher:)
+              - **Player:** Yes I know of Mizgog and have already helped him with his imp problem.
+              - **Donie:** Imps will be imps!
+            - (Condition: If the player has not completed Imp Catcher:)
+              - **Player:** Thanks for your help.
+          - [Choice]: Maybe another time.
+            - (end)
+      - [Choice]: Something easy please, I'm new here.
+        - **Donie:** I can tell you about plenty of small easy tasks.
+        - **Donie:** The Lumbridge cook has been having problems and the Duke is confused over some strange rocks.
+        - [Menu]: Tell me about...
+          - [Choice]: The Lumbridge cook.
+            - **Donie:** It's funny really, the cook would forget his head if it wasn't screwed on. This time he forgot to get ingredients for the Duke's birthday cake.
+            - **Donie:** Perhaps you could help him? You will probably find him in the Lumbridge Castle kitchen.
+            - (Condition: If the player has already completed Cook's Assistant:)
+              - **Player:** I have already helped the cook in Lumbridge.
+              - **Donie:** Oh yes, so you have. I am sure the Duke will be pleased.
+            - (Condition: If the player has not completed Cook's Assistant:)
+              - **Player:** Thank you. I shall go speak with him.
+          - [Choice]: The Duke's strange stones.
+            - **Donie:** Well the Duke of Lumbridge has found a strange stone that no one seems to understand. Perhaps you could help him? You can probably find him upstairs in Lumbridge Castle.
+            - (Condition: If the player has already completed Rune Mysteries:)
+              - **Player:** Yes, I have already solved the Rune mysteries.
+              - **Donie:** Ah excellent. Thank you very much adventurer.
+            - (Condition: If the player has not completed Rune Mysteries:)
+              - **Player:** Sounds mysterious. I may just do that. Thanks.
+          - [Choice]: Maybe another time.
+            - (end)
+      - [Choice]: I'm a thinker rather than a fighter, anything skill oriented?
+        - **Donie:** Skills play a big part when you want to progress in knowledge. I know of a few skill-related quests that can get you started.
+        - **Donie:** You may be able to help out Fred the farmer who is in need of someones crafting expertise.
+        - **Donie:** Or, there's always Doric the dwarf who needs an errand running for him?
+        - [Menu]: Tell me about...
+          - [Choice]: Fred the farmer.
+            - **Donie:** You can find Fred next to the field of sheep in Lumbridge. Perhaps you should go and speak with him.
+            - (Condition: If the player has already completed Sheep Shearer:)
+              - **Player:** I have already helped Fred the farmer. I sheared his sheep and made 20 balls of wool for him.
+              - **Player:** He wouldn't let me kill his chickens though.
+              - **Donie:** Lumbridge chickens do make good target practice. You will have to wait until he isn't looking.
+            - (Condition: If the player has not completed Sheep Shearer:)
+              - **Player:** Thanks, maybe I will.
+          - [Choice]: Doric the dwarf.
+            - **Donie:** Doric the dwarf is located north of Falador. He might be able to help you with smithing. You should speak to him. He may let you use his anvils.
+            - (Condition: If the player has already completed Doric's Quest:)
+              - **Player:** Yes, I've been to see Doric already. He was happy to let me use his anvils after I ran a small errand for him.
+              - **Donie:** Oh, good. Thank you Player!
+            - (Condition: If the player has not completed Doric's Quest:)
+              - **Player:** Thanks for the tip.
+          - [Choice]: Maybe another time.
+            - (end)
+      - [Choice]: I want to do all kinds of things, do you know of anything like that?
+        - **Donie:** Of course I do. Gielinor is a huge place you know, now let me think...
+        - **Donie:** Hetty the witch in Rimmington might be able to offer help in the ways of magical abilities..
+        - **Donie:** Also, pirates are currently docked in Port Sarim, Where pirates are, treasure is never far away...
+        - **Donie:** Or you could go and help out Ernest who got lost in Draynor Manor, spooky place that.
+        - [Menu]: Tell me about...
+          - [Choice]: Hetty the Witch.
+            - **Donie:** Hetty the witch can be found in Rimmington, south of Falador. She's currently working on some new potions. Perhaps you could give her a hand? She might be able to offer help with your magical abilities.
+            - (Condition: If the player has already completed Witch's Potion:)
+              - **Player:** Yes, I have already been to see Hetty. She gave me super cosmic powers after I helped out with her potion! I could probably destroy you with a single thought.
+              - **Donie:** Did she really?
+              - **Player:** No, not really.
+              - **Donie:** Right...
+            - (Condition: If the player has not completed Witch's Potion:)
+              - **Player:** Thanks. Let's hope she doesn't turn me into a potato or something.
+          - [Choice]: Pirate's treasure.
+            - **Donie:** RedBeard Frank in Port Sarim's bar, the Rusty Anchor might be able to tell you about the rumored treasure that is buried somewhere in the world.
+            - (Condition: If the player has already completed Pirate's Treasure:)
+              - **Player:** Yarr! I already found the booty!
+              - **Donie:** Yarr indeed my friend. A most excellent find.
+              - **Player:** Yarr!
+              - **Donie:** Yarrr!
+              - **Player:** YARRR!
+              - **Donie:** Right, that's enough of that!
+              - **Player:** ..Sorry.
+            - (Condition: If the player has not completed Pirate's Treasure:)
+              - **Player:** Sounds adventurous, I may have to check that out. Thank you.
+          - [Choice]: Ernest and Draynor Manor.
+            - **Donie:** The best place to start would be at the gate to Draynor Manor. There you will find Veronica who will be able to tell you more.
+            - **Donie:** I suggest you tread carefully in that place; it's haunted.
+            - (Condition: If the player has already completed Ernest the Chicken:)
+              - **Player:** Yeah, I found Ernest already. Professor Oddstein had turned him into a chicken!
+              - **Donie:** A chicken!?
+              - **Player:** Yeah a chicken. It could have been worse though.
+              - **Donie:** Very true, poor guy.
+            - (Condition: If the player has not completed Ernest the Chicken:)
+              - **Player:** Sounds like fun. I've never been to a Haunted Manor before.
+          - [Choice]: Maybe another time.
+            - (end)
+  - [Choice]: What's happened here lately?
+    - (Condition: After the Battle of Lumbridge:)
+      - **Player:** What's happened here lately?
+      - **Donie:** Lumbridge has recently been damaged by a battle between Saradomin and Zamorak in the crater to the west of the castle.
+      - **Donie:** The battle is over now, though. There's a Saradominist zealot keeping vigil there now.
+    - (Condition: During the Battle of Lumbridge:)
+      - **Donie:** Lumbridge has recently been damaged by a battle between Saradomin and Zamorak in the crater to the west of the castle.
+      - **Donie:** They're still fighting there now. I suppose you could go and join in if you wanted to.
+      - **Player:** I already have!
+      - **Donie:** Well, you know as much as I do about it then.
+  - [Choice]: Your shoe lace is untied.
+    - (above|shoe-lace)
+
+##### Case 2
+
+- **Donie:** Hello there, can I help you?
+- [Menu]: Select an Option
+  - [Choice]: Where am I?
+    - (above|where-am-i)
+  - [Choice]: How are you today?
+    - (above|how-are-you)
+  - [Choice]: Are there any quests I can do here?
+    - (above|quests2)
+  - [Choice]: What's happened here lately?
+    - (above|bol)
+  - [Choice]: Where can I get a haircut like yours?
+    - (above|haircut)
+
+##### Case 3
+
+- **Donie:** Hello there, can I help you?
+- [Menu]: Select an Option
+  - [Choice]: Do you have anything of value which I can have?
+    - **Donie:** Are you asking for free stuff?
+    - **Player:** Well... er... yes.
+    - **Donie:** No I do not have anything I can give you. If I did have anything of value I wouldn't want to give it away.
+  - [Choice]: Are there any quests I can do here?
+    - (above|quests2)
+  - [Choice]: What's happened here lately?
+    - (above|bol)
+  - [Choice]: Can I buy your stick?
+    - (above|stick)
+
+##### Case 4
+
+- **Donie:** Hello there, can I help you?
+- [Menu]: Select an Option
+  - [Choice]: Are there any quests I can do here?
+    - (above|quests2)
+  - [Choice]: What's happened here lately?
+    - (above|bol)
+  - [Choice]: Can I buy your stick?
+    - (above|stick)

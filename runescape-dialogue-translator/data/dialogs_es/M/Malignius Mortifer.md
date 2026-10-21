@@ -1,0 +1,370 @@
+# Malignius Mortifer
+
+- **Original Wiki Page**: [Transcript:Malignius Mortifer](https://runescape.wiki/w/Transcript%3AMalignius%20Mortifer)
+- **Letter**: `M`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Northwest of Port Sarim
+
+- **Malignius Mortifer:** Entonces, Player, ¿tu curiosidad te lleva a hablar conmigo?
+- ¿Qué te gustaría decir?
+  - ¿Quién eres y qué haces aquí?
+    - **Player:** ¿Quién eres y qué haces aquí?
+    - **Malignius Mortifer:** Soy el gran Malignius Mortifer, portador de extraños y terribles poderes. Estos humildes seguidores míos son dedicados estudiantes de las artes mágicas. Su tarea es seguirme y aprender todo lo que puedan.
+    - **Player:** No parecen muy duros.
+    - **Malignius Mortifer:** Puedes creerlo, pero incluso si derribas a uno, otro se levantará en cuestión de minutos.
+    - **Player:** Sí, claro.
+    - **Malignius Mortifer:** Cada uno de mis seguidores es un maestro del elemento elegido. Su vida queda ligada a ese elemento de una manera que no podrías esperar comprender.
+    - **Player:** ¿Y tú a qué te dedicas?
+    - **Malignius Mortifer:** Estoy dominando una rama de la magia que pocos se atreven a intentar: ¡Necromancy! Los tontos del Gremio de Magos evitan a cualquiera que practique este arte, pero hay algunos en todas partes que conocen los rudimentos. Grayzag, Invrigar, Sithik... Incluso Melzar estudió los métodos de la nigromancia, hasta que un accidente afectó su mente. Ahora sus hechizos tienden a resultar en... ... bueno, digamos simplemente que NO levanta ejércitos de secuaces no-muertos.
+    - ¿Qué te gustaría decir?
+      - ¿Es esto como Summoning?
+        - **Player:** ¿Es esto como Summoning? ¿Puedes enseñarme?
+        - **Malignius Mortifer:** El oscuro arte mágico de la nigromancia no tiene nada que ver con Summoning. A través de la nigromancia, puedo resucitar los cuerpos de aquellos que han caído, y someterlos a mi voluntad, e incluso ordenarles que me revelen conocimientos ocultos. ¡No contaré mis secretos a la ligera a ningún transeúnte!
+        - **Player:** ¿Incluso un héroe poderoso como yo?
+        - *(Si el player no lleva artículos alineados con Guthix, Saradomin o Zamorak:)*
+          - **Malignius Mortifer:** Hay formas de convocar criaturas a tu lado, pero mi trabajo es de otro tipo.
+          - (otro)
+        - *(Si el player lleva prendas alineadas con Guthix:)*
+          - **Malignius Mortifer:** Amante engañado de Guthix, ¡no tendrás secretos para mí!
+          - (otro)
+        - *(Si el player lleva prendas alineadas con Saradomin:)*
+          - **Malignius Mortifer:** ¡Tonto saradominista, no tendrás secretos para mí!
+          - (otro)
+        - *(Si el player lleva prendas alineadas con Zamorak:)*
+          - **Malignius Mortifer:** Aunque noto tu respeto por nuestro Señor Zamorak, me temo que los sutiles secretos de la nigromancia deben permanecer fuera de tu alcance.
+          - (otro)
+      - ¿Qué pasó con Melzar?
+        - **Player:** ¿Qué pasó con Melzar?
+        - **Malignius Mortifer:** Las fuerzas necesarias para ejercer poder sobre los muertos son muy difíciles de controlar. La concentración de Melzar perdió fuerza y ​​su hechizo rebotó sobre él. Aunque no murió, su mente se rompió. Ahora habita entre las bestias que llenan su extraño hogar, y cuando intenta hacer magia obtiene... resultados divertidos.
+        - (otro)
+      - ¿Por qué sigues haciendo aparecer hongos?
+        - **Player:** ¿Por qué sigues haciendo aparecer hongos?
+        - **Malignius Mortifer:** Necromancy... todavía no se entiende del todo. Muy poca gente se atreve a estudiarlo. Aunque mis hechizos normalmente levantan cualquier criatura no-muerta que deseo, a veces fallan. ¡Como ha aprendido Melzar!
+        - (otro)
+      - Gracias, me voy ahora.
+        - **Player:** Gracias, ya me voy.
+        - **Malignius Mortifer:** Estoy seguro de que tu curiosidad eventualmente te llevará a hablar conmigo nuevamente, Player.
+  - ¿Puedes enseñarme algo sobre magia?
+    - **Player:** ¿Puedes enseñarme algo sobre magia?
+    - *(Condición desconocida 1:)*
+      - **Malignius Mortifer:** No veo ningún atisbo de comprensión en tus ojos; Perdería mi tiempo intentando enseñarte las artes sutiles. Si realmente estás interesado en la magia, quizás deberías ir a hablar con el Duque de Lumbridge, que vive al este de este lugar. Quizás tenga una misión para ti que te enseñe algo.
+    - *(Condición desconocida 2 :)*
+      - **Malignius Mortifer:** Ah, eres un joven curioso. Hablaré del gran Wizards' Tower, destruido por un incendio hace muchos años… Muchos dicen que fue el edificio más grande de la historia de Gielinor, un magnífico monumento al ingenio humano. Sin embargo, cuando a los humanos se les ofrece un gran poder, a menudo lo compran a costa de sus principios. Los magos que afirmaban lealtad a Saradomin comenzaron a insistir en que la magia se restringiera a los pocos que consideraban "dignos" de tales poderes. Al poco tiempo, aquellos que no compartían su fatua obsesión por Saradomin fueron excluidos por completo de la Torre. Esta situación no podía continuar. Una noche oscura, un valiente grupo de magos leales al gran Señor Zamorak asaltaron la Torre. A pesar de las grandes pérdidas, lucharon por subir de nivel hasta llegar a la Biblioteca de todos los RuneLore conocidos. Desgraciadamente, quedaron atrapados y no pudieron robar los preciados registros. Pero antes de que pudieran ser derrotados, el más valiente de todos se encargó de destruir los escritos y destruir la Biblioteca. El fuego que siguió arrasó la Torre y nadie escapó a su furia. ¡Algunos dicen que el propio Lord Zamorak avivó las llamas para asegurar la destrucción de sus enemigos! Todo ese conocimiento se perdió, pero los magos leales a Zamorak no han dejado de buscarlo. Un día recuperaremos el poder de crear piedras rúnicas ilimitadas. ¡Que el mundo tenga cuidado!
+      - **Player:** Um... Supongo que sí.
+      - **Malignius Mortifer:** Me despido de ti por ahora, Player.
+  - ¿Dónde puedo conseguir ropa como esa?
+    - **Player:** ¿Dónde puedo conseguir ropa como esa?
+    - **Malignius Mortifer:** ¡Bah! Nuestras prendas son una señal exterior de nuestro dominio de las artes mágicas. ¡No puedes comprarlos simplemente en una tienda!
+    - **Player:** ¿Qué pasa si te mato y me los llevo?
+    - **Malignius Mortifer:** ¡Pruébalo y verás!
+    - **Player:** ¿Qué tal si me enseñas lo suficiente sobre magia para que yo también pueda usar esa ropa?
+    - **Malignius Mortifer:** ¿Qué tal si te convierto en un hongo para que dejes de molestarme?
+    - (Action: Malignius lanza un hechizo sobre el player, convirtiéndolo en un hongo durante unos segundos.)
+    - **Player:** ¡MMMmm!
+  - *(Después del Canto del Cisne :)*
+  - ¿Puedo tener más semillas de huesos?
+    - *(Si falta una olla hermética:)*
+      - **Player:** ¿Me puedes dar más semillas de huesos?
+      - **Malignius Mortifer:** Primero tráeme una olla con tapa.
+  - *(Si llevas una olla hermética:)*
+    - **Player:** ¿Me puedes dar más semillas de huesos? Afortunadamente tengo otra olla con tapa.
+    - **Malignius Mortifer:** Sí, sí, diviértete con ellos.
+  - *(Después del Canto del Cisne :)*
+    - Sobre esos magos esqueléticos...
+    - **Player:** Acerca de esos magos esqueléticos en la Colonia: ¿por qué no desaparecen ahora que la Colonia está a salvo?
+    - **Malignius Mortifer:** ¡JAJAJA! ¡Nunca especifiqué cuánto tiempo permanecerían allí!
+    - **Player:** Entonces, ¿cuándo desaparecerán? ¡Están en dormitorios y eso es una auténtica molestia para los colonos!
+    - **Malignius Mortifer:** ¡JAJAJA!
+    - **Player:** ¿Entonces no te vas a deshacer de ellos?
+    - **Malignius Mortifer:** ¡JAJAJA!
+    - **Player:** Oh, olvida que pregunté.
+  - En realidad, no quiero hablar contigo.
+    - **Player:** En realidad, no quiero hablar contigo.
+    - **Malignius Mortifer:** ¡Bah! ¡Entonces vete!
+
+#### Diálogo aéreo
+
+*(Este diálogo ocurre una vez por minuto:)*
+- (Action: Malignius lanza un hechizo de fuego en algún lugar cercano a él.)
+- *(Malignius puede gritar una de las siguientes líneas:)*
+  - **Malignius Mortifer:** {{RSChat|Da mihi potentia!}}
+  - **Malignius Mortifer:** {{RSChat|Veni, cohortes malefici!}}
+  - (continue)
+- *(Si aparece una criatura:)*
+  - (Action: Un [ghost/skeleton/skeleton mage/zombie] aparece en medio de las llamas.)
+  - *(Si se generó un fantasma:)*
+    - **Fantasma:** {{RSChat|OoooOOOooooOOOOooo}}
+    - (continue)
+  - *(Si se generó un esqueleto o un mago esqueleto:)*
+    - **[Skeleton/Skeleton mage]:** {{RSChat|Krrrrsssss}}
+    - (continue)
+  - *(Si se generó un zombie:)*
+    - **Zombi:** {{RSChat|DUUUHHH}}
+    - (continue)
+  - (Action: Sigue a Malignius y pronto desaparece.)
+- *(Si aparecen hongos:)*
+  - (Action: Aparecen hongos en medio de las llamas.)
+  - *(Continúa con una de las siguientes líneas:)*
+    - **Malignius Mortifer:** {{RSChat|Blast - fungi again!}}
+    - **Malignius Mortifer:** {{RSChat|Curses - more fungi!}}
+
+#### Senderos del tesoro
+
+- (receives=lockbox (master))
+- **Malignius Mortifer:** ¿Puedes resolver esto por mí?
+- [¡Malignius Mortifer te ha regalado una caja de seguridad!]
+
+##### Hablando con él con la caja de seguridad sin resolver en el backpack
+
+- **Malignius Mortifer:** No, eso aún no está completo.
+
+##### Hablando con él con la caja fuerte sin resolver en el banco
+
+- **Player:** Dejé el pergamino del rompecabezas en el banco.
+- **Malignius Mortifer:** Bueno, entonces ve a buscarlo para que pueda comprobar que lo has hecho.
+
+##### Hablando con él con la caja de seguridad resuelta en el backpack
+
+- *(Comienza con una de las siguientes líneas:)*
+  - **Malignius Mortifer:** ¡Excelente, aquí tienes tu recompensa!
+  - **Malignius Mortifer:** ¡No puedo creer que lo hayas hecho!
+  - (continue)
+- (removes=lockbox (master) y desplazamiento de pistas (maestro))
+- (Condition: Si el rastro continúa:)
+  - (receives=a new clue scroll (master))
+  - [¡Has encontrado otra pista!]
+- (Condition: Si el sendero termina:)
+  - (receives=reward casket (master))
+  - [¡Has encontrado un ataúd!]
+
+### City of Um
+
+
+#### Normalmente
+
+- (Condition: Antes de haber aceptado los suministros rituales de Lupe:)
+  - Se ha agregado un sendero a: Suministros para el alma.
+  - **Malignius Mortifer:** Deberías visitar Lupe en su tienda, 'Soul Supplies'. Dijo que tiene algunos suministros rituales gratuitos reservados para ti.
+  - (continue)
+- (Condition: Antes de haber aceptado la túnica de nigromante de Sostratus:)
+  - Se ha añadido una ruta a: Ofertas enterradas.
+  - **Malignius Mortifer:** Debes registrarte con Sostratus en su tienda, 'Buried Bargains' en Sunken Market. Tiene un conjunto de túnicas de nigromante para ti.
+  - (continue)
+- (Condition: Antes de haber aceptado ambos obsequios:)
+  - **Malignius Mortifer:** Ahora, ¿qué sabiduría de nigromancia podría impartirte en esta hora?
+  - (continue)
+- (Condition: Después de haber aceptado ambos obsequios:)
+  - **Malignius Mortifer:** Ah, Player, ¿qué sabiduría de nigromancia podría impactarte en esta hora?
+  - (continue)
+- [Menu]: ¿Preguntar sobre qué tema?
+  - [Choice]: Rituales.
+    - **Player:** ¿Recuérdame cómo hacer rituales otra vez?
+    - **Malignius Mortifer:** ¡Los rituales son fáciles! Sólo necesitas interactuar con el pedestal en el centro del sitio y seleccionar el tipo de ritual que deseas realizar.
+    - **Malignius Mortifer:** Cada ritual tiene una variedad de objetos que puedes colocar como objeto de enfoque; en términos generales, cuanto más valioso sea el objeto, más obtendrás del ritual.
+    - **Malignius Mortifer:** Luego solo necesitas colocar fuentes de luz y dibujar glifos según lo indicado en el ritual elegido.
+    - **Malignius Mortifer:** A medida que crezcas como nigromante, tendrás acceso a más rituales, glifos más fuertes y fuentes de luz, así como a un sitio ritual más grande.
+    - **Malignius Mortifer:** ¿Hay algo más que quieras saber sobre los rituales?
+    - [Menu]: ¿Qué quieres saber sobre los rituales?
+      - [Choice]: Componentes rituales.
+        - **Player:** ¿Puedes contarme más sobre los componentes del ritual?
+        - **Malignius Mortifer:** ¡Por supuesto! Los componentes rituales son las fuentes de luz y los glifos que colocas alrededor del lugar del ritual.
+        - **Malignius Mortifer:** Estos componentes tienen durabilidad: cada ritual que completes los degradará ligeramente, por lo que tendrás que reemplazarlos o repararlos de vez en cuando.
+        - **Malignius Mortifer:** Se necesitarán mejores fuentes de luz y glifos de mayor nivel para las variantes rituales más grandes y poderosas, pero querrás desarrollarlas ya que te ayudarán a progresar más rápido.
+        - **Malignius Mortifer:** Cuando te vuelvas más poderoso como nigromante, también podrás dibujar un nuevo tipo de glifo: glifos de alteración.
+        - **Malignius Mortifer:** Estos son diferentes a los glifos fundamentales, que son necesarios para los rituales, ya que brindan diferentes beneficios, como disminuir la duración de un ritual o aumentar el resultado de un ritual.
+        - **Player:** ¡Es bueno saberlo! ¿Qué materiales necesito para elaborar los componentes rituales?
+        - **Malignius Mortifer:** Los glifos requerían tinta fantasmal para dibujar. Las variantes básicas de tinta fantasmal se pueden comprar en Lupe en Soul Supplies, pero las variantes de niveles superiores deberán elaborarse con necroplasma.
+        - **Malignius Mortifer:** Las fuentes de luz requieren principalmente velas; nuevamente, la variante básica se puede comprar en Lupe, pero las variantes de niveles superiores deben elaborarse con necroplasma.
+        - (previous)
+      - [Choice]: Tipos de rituales.
+        - **Player:** ¿Qué tipos de rituales existen?
+        - **Malignius Mortifer:** Veamos...
+        - **Malignius Mortifer:** Hay rituales de comunión que atraen más almas al Pozo de las Almas y aumentan tu poder potencial como nigromante.
+        - **Malignius Mortifer:** También existen rituales de necroplasma, que son necesarios para mejorar el necroplasma débil y convertirlo en variantes más poderosas. Se puede utilizar un necroplasma más potente para crear mejores tintas y velas fantasmales.
+        - (previous)
+      - [Choice]: Atracción del alma y perturbaciones del alma.
+        - **Player:** ¿Qué es la atracción del alma?
+        - **Malignius Mortifer:** ¡Me alegra que lo hayas preguntado!
+        - **Malignius Mortifer:** La atracción del alma representa lo atractivo que es el lugar del ritual para las almas externas.
+        - **Malignius Mortifer:** Cuanto mayor sea la atracción, mayor será la probabilidad de que una de esas almas, u otra, visite el lugar del ritual mientras realizas un ritual. A esto lo llamamos perturbaciones rituales.
+        - **Malignius Mortifer:** ¡Asegúrate de interactuar con cualquier persona que visite el sitio del ritual, ya que serás recompensado generosamente!
+        - **Player:** ¡Gracias! Pero, ¿cómo puedo cambiar la cantidad de atracción de mi alma?
+        - **Malignius Mortifer:** Ah, sí, probablemente sea útil saberlo.
+        - **Malignius Mortifer:** Cuando te conviertas en un nigromante más poderoso, podrás dibujar glifos de alteración.
+        - **Malignius Mortifer:** Estos glifos especiales tienen diferentes efectos en los rituales, incluido aumentar o disminuir la cantidad de atracción del alma.
+        - (previous)
+      - [Choice]: ¿Para qué sirven esos contenedores de almacenamiento que tienes al lado?
+        - **Player:** ¿Para qué sirven esos contenedores de almacenamiento que tienes al lado?
+        - **Malignius Mortifer:** Oh, ¿el cofre ritual y el almacenamiento de enfoque? ¡Te los explicaré!
+        - **Malignius Mortifer:** El cofre ritual simplemente contiene todo lo que obtienes como resultado de los rituales que realizas, por lo que no hay necesidad de preocuparte por que tu backpack se llene.
+        - **Malignius Mortifer:** En cuanto al almacenamiento de enfoque, puede contener cualquier objeto de enfoque que sea necesario para cada uno de los rituales principales.
+        - **Malignius Mortifer:** Siempre que elijas un ritual para realizar, siempre y cuando tengas el objeto de enfoque en tu backpack o en el almacenamiento de enfoque, estarás listo.
+        - **Malignius Mortifer:** Además, una vez que hayas terminado de realizar un ritual, si tienes otro objeto de enfoque del mismo ritual en tu almacenamiento de enfoque, ¡el pedestal simplemente se instalará solo y listo para que realices el ritual nuevamente!
+        - (previous)
+      - [Choice]: Nada ahora mismo.
+        - **Player:** No necesito saber nada más sobre rituales.
+        - **Malignius Mortifer:** ¡Muy bien entonces!
+        - (initial)
+  - [Choice]: Misiones.
+    - (Condition: Con solo una misión a continuación no terminada:)
+      - ((Como se muestra a continuación después de preguntar sobre la misión inacabada.))
+    - [Menu]: ¿Preguntar sobre qué misión?
+      - [Choice]: cond=If Rune Mythos hasn't been completed:|Mitos rúnicos.
+        - (Condition: Antes de haber aceptado la misión:)
+          - **Malignius Mortifer:** He visto un extraño portal oscuro en el noreste de Um. Te aconsejo que no te metas con eso hasta que haya descubierto qué es...
+          - Requisitos para iniciar la misión 'Rune Mythos': 24 Necromancy.
+          - (initial)
+        - (Condition: Durante la misión:)
+          - ((Continúa con el diálogo de misiones.))
+      - [Choice]: cond=If Rune Mythos is completed and Vessel of the Harbinger has not been completed:|Buque del Heraldo.
+        - (Condition: Antes de llegar a 46 Necromancy, 40 Prayer y haber completado Ghosts Ahoy, o antes de haber aceptado la misión:)
+          - **Malignius Mortifer:** Creo que la Muerte quiere ver un poco más de progreso antes de contarles más sobre Rasial...
+          - Requisitos para iniciar la misión 'Recipiente del Heraldo': 46 Necromancy, 40 Prayer, Ghosts Ahoy.
+          - (initial)
+        - (Condition: Durante la misión:)
+          - **Malignius Mortifer:** Deberías terminar tu investigación sobre Necrovarus. Podría proporcionar una pista para derrotar a Rasial.
+          - (initial)
+      - [Choice]: cond=If Vessel of the Harbinger is completed and The Spirit of War has not been completed:|El Spirit de War.
+        - ((Antes de haber aceptado la misión con o sin todos los requisitos necesarios:))
+          - (Condition: Si Angurvadal no ha aparecido:)
+            - **Malignius Mortifer:** Tengo la horrible sensación de que pronto te pondrán a prueba. Mejor prepárate...
+            - (continue)
+          - (Condition: Si ha aparecido Angurvadal:)
+            - **Malignius Mortifer:** Er... ¡Esa espada animada de Hermod está justo al otro lado del puente robando almas! Tienes que ahuyentar a esa cosa.
+            - (continue)
+          - Requisitos para iniciar la misión 'El Spirit de War': 65 Necromancy, 3000 almas de vasijas City of Um.
+          - (initial)
+        - (Condition: Durante la misión:)
+          - **Malignius Mortifer:** Angurvadal todavía está acosando a los espíritus en la plaza principal. Tienes que luchar contra Hermod en la ciudadela de Rasial, amigo mío. ¡Muéstrales lo que has aprendido hasta ahora!
+          - (initial)
+      - [Choice]: cond=If The Spirit of War is completed and Tomes of the Warlock has not been completed:|Tomos del brujo.
+        - (Condition: Antes de haber aceptado la misión:)
+          - **Malignius Mortifer:** Creo que la Muerte quiere ver un poco más de progreso antes de contarles más sobre Rasial...
+          - Requisitos para iniciar la misión 'Tomos del brujo': 75 Necromancy, 86 Archaeology, 66 Magic, La jota de espadas.
+          - (initial)
+        - (Condition: Durante la misión:)
+          - **Malignius Mortifer:** Deberías terminar tu investigación sobre Orcus el Nigromante. Podría proporcionar una pista para derrotar a Rasial.
+          - (initial)
+      - [Choice]: cond=If Tomes of the Warlock is completed and the Necrolord has not been completed:|Restos del Necroseñor.
+        - (Condition: Antes de haber aceptado la misión:)
+          - **Malignius Mortifer:** Creo que la Muerte quiere ver un poco más de progreso antes de contarles más sobre Rasial...
+          - Requisitos para iniciar la misión 'Restos del Necrolord': 85 Necromancy, 77 Dungeoneering, Vengeance (saga), Nadir (saga).
+          - (initial)
+        - (Condition: Durante la misión:)
+          - **Malignius Mortifer:** Deberías terminar tu investigación sobre los necroseñores de Daemonheim. Podría proporcionar una pista para derrotar a Rasial.
+          - (initial)
+      - [Choice]: cond=If Remains of the Necrolord is completed and Alpha vs Omega has not been completed:|Alfa contra Omega.
+        - (Condition: Antes de que Rasial apareciera en el puente:)
+          - **Malignius Mortifer:** Tengo un verdadero presentimiento y temor. Espero que estés casi listo para enfrentar a Rasial...
+          - Requisitos para iniciar la misión 'Alpha vs Omega': 95 Necromancy, 30.000 almas de vasijas City of Um{{Sic|..}}
+          - (initial)
+        - (Condition: Después de que Rasial haya aparecido en el puente y antes de haber aceptado la misión:)
+          - **Malignius Mortifer:** Er... Rasial ha aparecido en Um. Está parado justo en el medio del puente, audaz como el latón. No creo que esté en absoluto impresionado o preocupado por tu progreso...
+          - Requisitos para iniciar la misión 'Alpha vs Omega': 95 Necromancy, 30.000 almas de vasijas City of Um.
+          - (initial)
+        - (Condition: Durante la misión:)
+          - **Malignius Mortifer:** ¡Vamos! Muéstrale a Rasial para qué, de parte de todos nosotros aquí en Um. ¡Te respaldamos!
+          - (initial)
+      - [Choice]: cond=If Kili Row has not been completed:|Kili Remo/equipo.
+        - (Condition: Antes de alcanzar el nivel 20 Necromancy:)
+          - **Malignius Mortifer:** Hmm, necesitamos encontrar una manera de que puedas actualizar tu equipo. Lo mejor que podemos hacer es esperar a que aparezca un herrero competente en la ciudad.
+          - **Player:** ¿No puedo simplemente preguntarle a alguien en la superficie? Normalmente solo le doy a Thurgo un pastel de frutos rojos y todos estamos bien.
+          - **Malignius Mortifer:** Oh, no, se necesita más para fabricar equipos de nigromancia que martillar algo de metal y coser algo de tela. ¡Necesitamos la ayuda de los espíritus también!
+          - (initial)
+        - (Condition: Antes de haber aceptado la misión con todos los requisitos necesarios:)
+          - **Malignius Mortifer:** Escuché el rumor de que recientemente llegó el fantasma de un maestro herrero. Están instalando una herrería en el noreste de Um. Deberías ir a presentarte.
+          - [Menu]: ¿Quieres direcciones?
+            - [Choice]: Sí, por favor.
+              - (Se coloca un marcador en Kili.)
+              - (initial)
+            - [Choice]: No, lo encontraré yo mismo.
+              - (initial)
+        - (Condition: Durante la fila Kili:)
+          - **Malignius Mortifer:** ¡Deberías regresar a la herrería de Kili en el noreste de Um y ocuparte de fabricar mejores equipos!
+          - (initial)
+      - [Choice]: cond=If That Old Black Magic has not been completed:|Ese viejo Magic negro.
+        - (Condition: Antes de alcanzar el nivel 32 Necromancy:)
+          - **Malignius Mortifer:** Este lugar se siente un poco sin vida, sin juego de palabras. No me refiero sólo a espíritus, me refiero a vibraciones.
+          - **Malignius Mortifer:** Alguien debería poner algo de música o algo así. Eso siempre me levanta el ánimo.
+          - (initial)
+        - (Condition: Después de alcanzar el nivel 32 Necromancy pero antes de haber aceptado la misión:)
+          - **Malignius Mortifer:** Oh, oye, ¡vi a una dama fantasma que parecía estar instalándose en la tribuna de la plaza principal!
+          - **Malignius Mortifer:** Me pregunto si pondrá algo de música, me encantaría. Deberías ver si necesita alguno.
+          - (initial)
+        - (Condition: Durante la misión:)
+          - **Malignius Mortifer:** Tengo un buen presentimiento acerca de cómo estás ayudando a Lady Grey en el puesto del banco.
+          - (initial)
+      - [Choice]: cond=If Housing of Parliament has not been completed:|Vivienda del Parlamento.
+        - (Condition: Antes de alcanzar el nivel 54 Necromancy:)
+          - **Malignius Mortifer:** Es una pena que no haya nadie cerca para cuidar a los búhos. Su lechucería se está volviendo un poco desordenada.
+          - (initial)
+        - (Condition: Después de alcanzar el nivel 54 Necromancy pero antes de haber aceptado la misión:)
+          - **Malignius Mortifer:** ¡Escuché que el cuidador de los búhos ha vuelto para cuidarlos!
+          - **Malignius Mortifer:** La lechucería se metió en un gran lío mientras ella estaba fuera. Tal vez le vendría bien un poco de ayuda.
+        - (Condition: Después de haber aceptado la misión:)
+          - **Malignius Mortifer:** ¡Qué bueno escucharte ayudar con la lechuza!
+          - (initial)
+      - (Condition: Si has completado todas las misiones anteriores:)
+        - **Malignuis Mortifer:** Creo que ya terminaste, compañero nigromante. ¡El plan de Rasial fracasa y City of Um vuelve a ser un lugar vibrante y feliz!
+  - [Choice]: City of Um.
+    - **Player:** ¿Qué se puede hacer en City of Um?
+    - **Malignius Mortifer:** ¡Estoy feliz de poder explorar este lugar!
+    - **Player:** ¿Qué has descubierto interesante hasta ahora?
+    - (Condition: Antes de desbloquear el lodestone:)
+      - **Malignius Mortifer:** Vi que la Muerte 'recordó' la existencia de un lodestone, justo al otro lado del puente. Deberías activar eso; La muerte dijo que podíamos ir y venir cuando queramos.
+      - (continue)
+    - (Condition: Con condición desconocida:)
+      - **Malignius Mortifer:** Oh, ¿recuerdas esos trolls fantasmas de antes? Creo que vi algunos más en una cueva en el sureste de Um. Deberías dejarlos descansar a todos.
+      - **Malignius Mortifer:** Creo que vi a uno de ellos llevando una capa elegante, pero también de aspecto mortal...
+      - (continue)
+    - (Condition: Con condición desconocida:)
+      - **Malignius Mortifer:** Creo que algunas almas están empezando a repoblar la ciudad.
+      - **Malignius Mortifer:** Deberías presentarte a cualquier espíritu notable, intenta ponerlo de nuestro lado en la lucha contra Rasial.
+      - **Malignius Mortifer:** Ted mantiene un registro de nuevos habitantes; deberías hablar con ellos si quieres sugerencias.
+      - (continue)
+    - **Malignius Mortifer:** He visto algunos implicados fantasmas volando. Quizás intente atrapar algunos.
+    - **Malignius Mortifer:** Además, las polillas cabeza de muerte parecen sentirse atraídas por varias partes de la ciudad.
+    - (previous)
+  - [Choice]: [More options]
+    - [Menu]: ¿Preguntar sobre qué tema?
+      - [Choice]: Otras cosas que hacer.
+        - **Player:** ¿Qué más puedo hacer con la nigromancia?
+        - **Malignius Mortifer:** ¡Lo mismo puedes hacer con cualquier otro estilo de combate!
+        - **Malignius Mortifer:** ¡Deberías probar la nigromancia en las tareas de Slayer y Reaper, matar monstruos jefes y cosas similares!
+        - **Malignius Mortifer:** No tengo ninguna duda de que, con el tiempo, NECESITARÁS nigromancia para derrotar a ciertos enemigos, para obtener un botín específico... así que es mejor que practiques un poco cuanto antes.
+        - (initial)
+      - [Choice]: Reproduce la escena de City of Um.
+        - (ver|Necromancy!#City of Um escena)
+      - [Choice]: [Previous options]
+        - (initial)
+  - [Choice]: Nada, gracias.
+    - **Player:** Nada, gracias.
+    - **Malignius Mortifer:** ¡Buena suerte!
+
+#### Durante la tarea de celebraciones del 25 Aniversario
+
+- **Malignius Mortifer:** Er, ¿cuánto te gustan los champiñones, jefe?
+- **Player:** ¿Qué has hecho ahora, Malignius?
+- **Malignius Mortifer:** Mi entrenamiento de nigromancia no va muy bien. No era mi intención, pero...
+- **Player:** Pero...
+- **Malignius Mortifer:** ...pero creo que accidentalmente convertí a mi terapeuta en un portobello.
+- **Player:** ¿Crees? ¿Cómo es posible que no lo sepas?
+- **Malignius Mortifer:** Bueno, podría ser un boletus.
+- **Player:** *suspiro* No importa qué tipo de hongo sea, ¡dale la vuelta! Si no estás seguro de cómo, pregúntale a la Muerte.
+- **Malignius Mortifer:** Ah, claro, sí... Iré a hablar con *trago* ...Muerte. Er, ahora mismo, jefe.
+- **Player:** ¿Quieres que hable con él por ti?
+- {{RSFontAchievement|Femurs and Fungi|Talk to Malignius Mortifer in the City of Um Ritual Site.}}
+- ((Se muestra en una ventana emergente de finalización de tarea:))
+  - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
+  - Fémures y hongos
+  - Habla con Malignius Mortifer en el sitio del ritual City of Um.
+  - (continue)
+- **Malignius Mortifer:** N-no... Estoy en ello. Sólo necesito mentalizarme primero...
+- (Condition: Si se han completado todas las tareas:)
+  - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!

@@ -1,0 +1,128 @@
+# Yadech Strongarm
+
+- **Original Wiki Page**: [Transcript:Yadech Strongarm](https://runescape.wiki/w/Transcript%3AYadech%20Strongarm)
+- **Letter**: `Y`
+
+---
+
+## Dialogue Transcript
+
+
+### In the Warriors' Guild
+
+- (Condition: Before throwing a shot put:)
+  - **Yadech Strongarm:** You look strong. Welcome to the Strength testing area of the Warriors' Guild. I am Yadech. I am looking after this area now that Sloane has gone to the Hall of Warriors to drink for eternity.
+  - (continue)
+- (Condition: After throwing a shot put:)
+  - **Yadech Strongarm:** Ahhh, hello there, Player.
+  - (continue)
+- (Condition: If the player has 99 Strength:)
+  - **Yadech Strongarm:** Ah, but I can see you are already as strong as is possible! Perhaps you have come to me to purchase a Skillcape of Strength, and thus join the elite few who have mastered this exacting skill?
+  - (continue)
+- [Menu]: Select an Option
+  - [Choice]: cond=Without 99 Strength:|Can you tell me a bit about skillcapes?
+    - **Player:** Can you tell me a bit about skillcapes?
+    - **Yadech Strongarm:** Sure. You can buy a skillcape when you reach level 99 in a skill. Apart from boosting your statistics in that skill, they can also be used to perform some pretty amazing emotes! Is there anything else you would like to know?
+    - (initial|strong)
+  - [Choice]: cond=With 99 Strength:|May I buy a Skillcape of Strength, please?
+    - (Condition: If the player has a ring of charos (a) equipped:)
+      - **Yadech Strongarm:** I don't do this for anyone, but I've got a special offer today! Normally I require 99,000 coins for this prestigious item, but for you it's half price. Only 92,000 coins!
+      - [Menu]: Choose an option:
+        - [Choice]: 92,000 coins? That's much too expensive.
+          - **Player:** I know where to find you if I change my mind.
+        - [Choice]: I think I have the money right here, actually.
+          - (Condition: If the player has no backpack space:)
+            - **Yadech Strongarm:** Unfortunately all skillcapes are only available with a free hood, it's part of a skill promotion deal; buy one get one free, you know. So, you'll need to free up some backpack space before I can sell you one.
+          - (Condition: If the player does not have enough money:)
+            - **Player:** But unfortunately, I was mistaken.
+            - **Yadech Strongarm:** Well, come back and see me when you do.
+          - (Condition: If the player has enough money:)
+            - (receives=Strength cape and Strength hood) (removes=92,000 coins)
+            - **Yadech Strongarm:** Excellent! Wear that cape with pride my friend.
+    - (Condition: If the player does not have a ring of charos (a) equipped:)
+      - **Yadech Strongarm:** Hmm, yes, you certainly look strong enough. That'll be 99,000 gold coins, please.
+      - [Menu]: Choose an option:
+        - [Choice]: 99,000 coins? That's much too expensive.
+          - **Player:** I know where to find you if I change my mind.
+        - [Choice]: I think I have the money right here, actually.
+          - (Condition: If the player has no backpack space:)
+            - (above)
+          - (Condition: If the player does not have enough money:)
+            - (above)
+          - (Condition: If the player has enough money:)
+            - (receives=Strength cape and Strength hood) (removes=99,000 coins)
+            - **Yadech Strongarm:** Excellent! Wear that cape with pride my friend.
+        - [Choice]: cond=With 120 Strength:|I've mastered this skill. Is there anything else?
+        - **Yadech Strongarm:** There is something...though I have kept it a secret for a very long time. It is something that can only be worn by a true master.
+        - **Yadech Strongarm:** Not even I can wear it - that's how hard it is to achieve.
+        - **Yadech Strongarm:** You say you're a master. Stand straight, let me take a look at you...
+        - **Yadech Strongarm:** You...really have mastered it. What an honour! It would be my pleasure to sell you a Strength master cape.
+        - [Menu]: Buy Strength master cape for 120,000 coins?
+          - [Choice]: Yes.
+            - (Condition: Without free backpack space:)
+              - **Yadech Strongarm:** You do not have enough room in your backpack. Please come back when you have some more.
+            - (Condition: With free backpack space:)
+              - (Condition: Without 120,000 coins:)
+                - You do not have enough money to purchase this cape.
+                - (pop-up)
+                  - {{Pop-up|You do not have enough money to purchase this cape.}}
+              - (Condition: With 120,000 coins:)
+                - (removes=120,000 coins) (receives=Strength master cape)
+                - {{Qact|Master cape music plays.}}
+          - [Choice]: No.
+            - (end)
+  - [Choice]: I've noticed there are a couple of versions of each skillcape.
+    - **Yadech Strongarm:** Yes! We, the skill masters, have crafted new versions of all skillcapes! We felt like it was time for a change.
+    - (Condition: If you use the old model:)
+      - **Yadech Strongarm:** It looks like you're currently using the old model for your Strength skillcape. Would you like to change to the newer one?
+      - (continue)
+    - (Condition: If you use the new model:)
+      - **Yadech Strongarm:** You can still choose to wear the old model skillcape if you want. Would you like to change which model you are currently using?
+      - (continue)
+    - [Menu]: Select an Option
+      - [Choice]: Yes, I would like to wear the [new/old] version of the skillcape.
+        - **Yadech Strongarm:** Would you like to wear the [old/newer] model for just this cape, or for the Quest Cape and all of the skillcapes you own?
+        - [Menu]: Select an Option
+          - [Choice]: I would just like to change the Strength skillcape.
+            - **Yadech Strongarm:** No problem, you will now use the [older/newer] model for your Strength skillcape.
+          - [Choice]: I would like to change all my skillcapes.
+            - **Yadech Strongarm:** No problem, you will now use the [older/newer] model for all of your skillcapes!
+          - [Choice]: I've changed my mind!
+            - (end)
+      - [Choice]: No, thank you.
+        - **Yadech Strongarm:** Great! I'm glad you're still enjoying the [old/new] version!
+        - (Condition: If the player uses the new model for any other skillcape:)
+          - **Yadech Strongarm:** If you want, I can make it so you use the old model for all of the skillcapes you own.
+          - [Menu]: Select an Option
+            - [Choice]: Ok, I'd like to wear the old version for all my skillcapes.
+              - **Yadech Strongarm:** Great, you will now use the old model for all of your skillcapes!
+            - [Choice]: No, thanks.
+              - (end)
+  - [Choice]: What can I do here?
+    - **Player:** What can I do here?
+    - **Yadech Strongarm:** Ahh, the shot put is a great test of strength and can be quite rewarding. Mind you do it properly, though, you might want to dust your hands with some powdery substance first. It'll give better grip.
+    - **Player:** I'll remember that. What should I use?
+    - **Yadech Strongarm:** I personally prefer ground ashes, it makes a nice fine powder and gives some really good grip.
+    - **Player:** Okay, what else?
+    - **Yadech Strongarm:** Basically you'll need to go in there, make sure you've got nothing cluttering up your hands, pick up a shot and throw it. Depending upon your technique, you can get quite long throws.
+    - **Player:** What was your best?
+    - **Yadech Strongarm:** Ahh, that would be telling.
+    - (initial|strong)
+  - [Choice]: Why are you wielding a tree branch?
+    - **Player:** Why are you wielding a tree branch?
+    - **Yadech Strongarm:** Well...there's a story to that. You see, I should have an axe but-
+    - **Player:** Sloane's axe?
+    - **Yadech Strongarm:** My axe. He won it because of a squirrel.
+    - **Player:** A squirrel?
+    - **Yadech Strongarm:** He bet me that I couldn't catch the squirrel while still holding my axe, but that he could...but he tricked me!
+    - **Player:** Ahh, yes, Sloane told me that story before...how you tried to chase the squirrel up the tree with your axe, but that he just chopped the tree down with your axe and won it.
+    - **Yadech Strongarm:** Yes, this is so.
+    - **Player:** It doesn't explain why you have a tree branch, though.
+    - **Yadech Strongarm:** A barbarian warrior is bound to his axe, I cannot take up another unless my axe is ruined beyond repair. So I used part of the tree that Sloane cut down as my weapon...it also reminds me of him.
+    - **Player:** He was a great warrior.
+    - **Yadech Strongarm:** But he would want us to be happy that he is now with his warrior brethren. Can I help you with anything else?
+    - (initial|strong)
+  - [Choice]: Bye!
+    - **Player:** Bye!
+    - **Yadech Strongarm:** Be well, warrior Player.
+    - {{Qact|Yadech does the Bow emote.}}

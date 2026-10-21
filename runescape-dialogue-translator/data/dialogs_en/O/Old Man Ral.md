@@ -1,0 +1,128 @@
+# Old Man Ral
+
+- **Original Wiki Page**: [Transcript:Old Man Ral](https://runescape.wiki/w/Transcript%3AOld%20Man%20Ral)
+- **Letter**: `O`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue after Darkness of Hallowvale
+
+- **Player:** Hello again!
+- **Old Man Ral:** Hmph!
+- [Menu]: Select an Option
+  - [Choice]: Safalaan said I could get more papyrus from you.
+    - **Player:** Safalaan said I could get more papyrus from you.
+    - **Old Man Ral:** Hmph, hmm. I suppose so. Here you go.
+    - (Condition: If the player does not have enough backpack space:)
+      - **Player:** Erk...sorry, I don't have enough space in my inventory. I need 3 free slots.
+      - **Old Man Ral:** Hmph, typical! Come back when you have.
+      - (initial)
+    - (Condition: If the player has enough backpack space:)
+      - (receives=three papyrus)
+      - [Old Man Ral gives you some papyrus.]
+      - (initial)
+  - [Choice]: What do you do here?
+    - **Player:** What do you do here?
+    - **Old Man Ral:** Hmph! Why? What do I know? I'm just an old man; what would anyone want with an old man?
+    - (initial)
+  - [Choice]: I'm lost. Can you help me?
+    - **Player:** I'm lost... Can you help me?
+    - **Old Man Ral:** Hmph! Who says I'm not lost, eh? Ever think of that, did you? In a rush to find out all the answers, not thinking for a second that someone else might be just as lost, if not more lost, than you! And what do you care about them, huh?
+    - (initial)
+  - [Choice]: Do you know about the Myreque?
+    - **Player:** Do you know about the Myreque?
+    - **Old Man Ral:** Hmph! Why should I know about the Myreque, eh? What use have they ever been to me, huh? I ask you!
+    - (initial)
+  - [Choice]: Can you help me?
+    - **Player:** Can you help me?
+    - **Old Man Ral:** Hmph! What makes you think that I can help you, eh? Do I look like a fountain of knowledge, eh? Do I?
+    - **Player:** Well, you've helped me before! You said something about symbols? To find the Myreque.
+    - **Old Man Ral:** Hmph! Yes of course, that's how to get to them. Follow the symbols.
+    - **Player:** Which symbols?
+    - **Old Man Ral:** The symbol of the Myreque - the silver sickle!
+    - **Player:** Oh, and where would that be then?
+    - **Old Man Ral:** Around and about; it should be an aid.
+    - (initial)
+  - [Choice]: More...
+    - [Menu]: Select an Option
+      - [Choice]: Previous...
+        - (initial)
+      - [Choice]: About the Task System...
+        - ((If the player has completed the elite Morytania achievements and the rewards have not been claimed:))
+          - **Player:** I've completed all of the Elite tasks in the Morytania set.
+          - **Old Man Ral:** So you have. I have a special pair of leggings kept aside for you.
+          - [Old Man Ral hands you a pair of leggings and a few lamps.]
+          - **Old Man Ral:** There you go. They're a bit slimy, but they should help you out in the Columbarium when making those blood runes of yours. Oh, and you might find yourself more skilled at making prayer renewal potions.
+          - **Player:** Thanks! What else do they do?
+          - **Old Man Ral:** Well, from what I've heard, Lyra is getting so good with mushrooms that you'll get double from that patch, and you should be more prosperous in the Slayer Tower too.
+          - (continue)
+        - (Condition: If the player has lost their Morytania legs 4:)
+          - **Old Man Ral:** Ah, the leggings-wearer! How are you finding them?
+          - **Player:** I lost them.
+          - **Old Man Ral:** Oh, no!
+          - **Old Man Ral:** Never mind, I have another pair. Here...
+          - (receives=Morytania legs 4)
+          - [Old Man Ral hands you some leggings.]
+          - (continue)
+        - [Menu]: Choose an option:
+          - [Choice]: Tell me about the Achievement System.
+            - **Old Man Ral:** Very well: the Achievement System is a collection of deeds you may wish to complete while adventuring around the world.
+            - **Old Man Ral:** You can earn special rewards for completing certain achievements; at the very least, each is worth a cash bounty from Explorer Jack in Lumbridge.
+            - **Old Man Ral:** Some also give items that will help complete other achievements, and many count as progress towards the set for the area they're in.
+            - [Menu]: Choose an option:
+              - [Choice]: Tell me about the set reward for this locality.
+                - **Player:** Tell me about the set reward for this area.
+                - **Old Man Ral:** For completing the Morytania set, you are presented with some leggings.
+                - **Old Man Ral:** These leggings will become increasingly useful as you complete greater difficulties of task sets.
+                - **Old Man Ral:** When you are presented with your rewards, you will be told of their uses.
+                - You may also see what rewards a set item provides by hovering over the Rewards icon for its Exploration Achievement set in the Achievements interface.
+                - (previous2)
+              - [Choice]: How do I claim these rewards?
+                - **Player:** How do I claim the rewards?
+                - **Old Man Ral:** You need to complete all Tasks within a particular difficulty set, then you can claim your reward.
+                - **Old Man Ral:** Some of the Morytania set's Tasks are simple, some require certain skill levels, and others require quests to be started or completed.
+                - **Old Man Ral:** To claim your Morytania set rewards, speak to Hiylik Myna just east of Paterdomus, Robin in Port Phasmatys, the Strange Old Man at the Barrows or myself.
+                - (previous2)
+              - [Choice]: Sorry, I was just leaving.
+                - (end)
+          - [Choice]: Could I buy a spare of the reward?
+            - [Menu]: Choose an option:
+              - [Choice]: Morytania legs 1
+                - **Old Man Ral:** Morytania legs 1? Yes, but I'm afraid it would cost you 1,500 coins.
+                - [Menu]: Purchase another for 1,500 coins?
+                  - [Choice]: Yes
+                    - [You're handed another Morytania legs 1.]
+                    - (receives=Morytania legs 1) (removes= 1,500 coins)
+                  - [Choice]: No
+                    - **Player:** No thanks.
+              - [Choice]: Morytania legs 2
+                - **Old Man Ral:** Morytania legs 2? Yes, but I'm afraid it would cost you 2,500 coins.
+                - [Menu]: Purchase another for 2,500 coins?
+                  - [Choice]: Yes
+                    - [You're handed another Morytania legs 2.]
+                    - (receives=Morytania legs 2) (removes= 2,500 coins)
+                  - [Choice]: No
+                    - **Player:** No thanks.
+              - [Choice]: Morytania legs 3
+                - **Old Man Ral:** Morytania legs 3? Yes, but I'm afraid it would cost you 7,500 coins.
+                - [Menu]: Purchase another for 7,500 coins?
+                  - [Choice]: Yes
+                    - [You're handed another Morytania legs 3.]
+                    - (receives=Morytania legs 3) (removes= 7,500 coins)
+                  - [Choice]: No
+                    - **Player:** No thanks.
+              - [Choice]: Morytania legs 4
+                - **Old Man Ral:** Morytania legs 4? Yes, but I'm afraid it would cost you 15,000 coins.
+                - [Menu]: Purchase another for 15,000 coins?
+                  - [Choice]: Yes
+                    - [You're handed another Morytania legs 4.]
+                    - (receives=Morytania legs 4) (removes= 15,000 coins)
+                  - [Choice]: No
+                    - **Player:** No thanks.
+          - [Choice]: Sorry, I was just leaving.
+            - (end)
+      - [Choice]: Okay, thanks.
+        - **Player:** Okay, thanks.

@@ -1,0 +1,133 @@
+# Baraek
+
+- **Original Wiki Page**: [Transcript:Baraek](https://runescape.wiki/w/Transcript%3ABaraek)
+- **Letter**: `B`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### In Varrock
+
+- '''Selecciona una opción
+- *Ante el Escudo de Arrav:*
+  - Hola. Estoy en busca de una búsqueda.
+    - **Player:** ¡Hola! Estoy en busca de una búsqueda.
+    - **Baraek:** Lo siento, chico, soy un comerciante de pieles, no una damisela en apuros.
+    - (initial)
+- *Después del Escudo de Arrav:*
+  - Recuérdame dónde puedo encontrar a Phoenix Gang.
+    - **Baraek:** Para llegar al escondite de las pandillas, ingresa a Varrock por la puerta sur. Luego, si tomas el primer desvío hacia el este, en algún lugar hay un callejón hacia el sur. La puerta al final es la entrada a Phoenix Gang. Operan allí bajo el nombre de VTAM Corporation. Ten cuidado. Los Fénix no son el tipo de gente con la que hay que meterse.
+    - '''Selecciona una opción
+      - Eres muy malo dando direcciones.
+        - **Player:** En serio... ¿Pagué 10 gold coins por eso? Espero que seas mejor comerciante de pieles que navegante.
+        - **Baraek:** Hola... la pandilla Phoenix se encarga de no ser fácil de encontrar. Mira, si te pierdes, habla con Charlie the tramp cerca de la puerta sur de Varrock. Él puede darte mejores direcciones.
+        - (initial)
+      - ¡Gracias!
+        - (end)
+- ¿Puedes venderme algunas pieles?
+  - **Player:** ¿Puedes venderme algunas pieles?
+  - **Baraek:** Sí, claro. Cuestan 20 gold coins cada uno.
+    - *Si no tienes suficiente dinero contigo*
+      - No puedo permitirme eso.
+      - **Baraek:** Bueno, mi mejor precio es 18 coins.
+        - *Si no tienes suficiente dinero contigo*
+          - **Player:** En realidad no tengo tanto.
+          - **Baraek:** Bueno, no puedo conseguir nada más barato que ese amigo. Tengo una familia que alimentar.
+          - **Player:** Oh, bueno, no importa.
+        - *Si tienes suficiente dinero contigo*
+          - Bien, aquí tienes.
+            - **Player:** Bien, aquí tienes.
+            - (receives=bear fur)
+            - (removes=18 coins)
+            - Baraek te vende una piel.
+          - No, gracias, lo dejaré.
+            - **Player:** No, gracias, lo dejo.
+            - **Baraek:** Es tu pérdida, compañero.
+    - *Si tienes suficiente dinero contigo*
+      - Sí, está bien, aquí tienes.
+        - **Player:** Sí, está bien, aquí tienes.
+        - (receives=bear fur)
+        - (removes=20 coins)
+        - Baraek te vende una piel.
+    - 20gold coins? ¡Eso es una barbaridad!
+      - **Player:** 20 gold coins? ¡Eso es una barbaridad!
+      - **Baraek:** Bueno, mi mejor precio es 18 coins.
+      - ''Si tienes suficiente dinero contigo:
+        - Bien, aquí tienes.
+          - **Player:** Bien, aquí tienes.
+          - (receives= bear fur)
+          - (removes=18 coins)
+          - Baraek te vende una piel.
+        - No, gracias, lo dejaré.
+          - **Player:** No, gracias, lo dejo.
+          - **Baraek:** Es tu pérdida, compañero.
+  - *Si tienes pieles de oso en tu inventario:*
+    - ¿Quieres comprar mi piel?
+      - **Player:** ¿Te gustaría comprar mi piel?
+      - **Baraek:** Echemos un vistazo.
+      - Le entregas a Baraek tu pelaje para que lo mire.
+      - **Baraek:** No está en las mejores condiciones. Supongo que podría darte 12 coins por cada uno.
+      - '''Selecciona una opción
+        - Sí, eso servirá.
+          - **Player:** Sí, eso servirá.
+          - *Por cada piel que vendes a Baraek:*
+          - (receives=12 coins)
+          - (removes=bear fur)
+          - **Player:** ¡Gracias!
+        - De hecho, creo que lo conservaré.
+          - **Player:** ¡Creo que lo conservaré!
+          - **Baraek:** Oh, está bien. ¡No lo quería de todos modos!
+        - ''Si usa un ring of Charos:
+          - [Charm] ¿Estás seguro? No se ven pieles de calidad como ésta con demasiada frecuencia.
+            - **Player:** ¿Estás seguro? No se ven pieles de calidad como ésta con demasiada frecuencia.
+            - **Baraek:** Mmm, déjame echar otro vistazo.
+            - ''Si el player tiene precisamente un pelaje de oso:
+              - **Baraek:** Ese es un trozo de piel realmente fino. Te diré una cosa, te daré 20 monedas de oro por ello.
+            - ''Si el player tiene varias pieles de oso:
+              - **Baraek:** Esas son piezas de piel realmente finas. Te diré una cosa, te daré 20 monedas de oro a cada uno por ellos.
+              - **Player:** ¡Eso sí que me gusta más!
+            - *Por cada piel que vendes a Baraek:*
+            - (receives=20 coins)
+            - (removes=bear fur)
+            - **Player:** ¡Gracias!
+  - *Si tienes pieles de lobo gris en tu inventario:*
+    - ¿Quieres comprar mi piel de lobo gris?
+      - **Player:** ¿Te gustaría comprar mi piel de lobo gris?
+      - **Baraek:** ¿PIEL DE LOBO GRIS??? ¡AHORA estás hablando! La piel de lobo gris es un artículo deseable para mí. Tomaré todo lo que tienes por 120 piezas de oro por piel, ¿te parece justo?
+      - '''Selecciona una opción
+        - Sí, suena bien.
+          - **Player:** Sí, suena bien.
+          - *Por cada piel que vendes a Baraek:*
+          - (receives=120 coins)
+          - (removes=grey wolf fur)
+          - **Player:** ¡Gracias!
+        - ¡No! ¡Casi un lobo me arranca la garganta para conseguir esto!
+          - **Player:** ¡No! ¡Casi un lobo me arranca la garganta para conseguir esto!
+        - ''Si usa un ring of Charos:
+          - [Charm] ¿Estás seguro? No se ven pieles de calidad como ésta con demasiada frecuencia.
+            - **Player:** ¿Estás seguro? No se ven pieles de calidad como ésta con demasiada frecuencia.
+            - **Baraek:** Mmm, déjame echar otro vistazo.
+            - ''Si el player tiene precisamente un pelaje de lobo gris:
+              - **Baraek:** Ese es un trozo de piel realmente fino. Te diré una cosa, te daré 150 monedas de oro por ello.
+            - ''Si el player tiene varias pieles de lobo gris:
+              - **Baraek:** Esas son piezas de piel realmente finas. Te diré una cosa, te daré 150 monedas de oro a cada uno por ellos.
+              - **Player:** ¡Eso sí que me gusta más!
+            - *Por cada piel que vendes a Baraek:*
+            - (receives=150 coins)
+            - (removes=grey wolf fur)
+            - **Player:** ¡Gracias!
+
+### In New Varrock
+
+- [Menu]: Elige una opción:
+  - [Choice]: ¿Puedes venderme algunas pieles?
+    - **Baraek:** Lo sentimos, todas las pieles están reservadas para Lord Zemouregal. Exige un osito de peluche nuevo todos los días.
+    - (initial)
+  - [Choice]: Hola. Estoy en busca de una búsqueda.
+    - **Baraek:** ¿Misiones?<br>Lo siento chico, soy un comerciante de pieles, no un zombi en apuros.
+    - (initial)
+  - [Choice]: Adiós.
+    - **Baraek:** Vuelve cuando quieras.

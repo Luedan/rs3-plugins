@@ -1,0 +1,192 @@
+# Senliten
+
+- **Original Wiki Page**: [Transcript:Senliten](https://runescape.wiki/w/Transcript%3ASenliten)
+- **Letter**: `S`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue after Missing My Mummy
+
+*After she has been 100% restored, there are many conversations the player can have with her regarding history.*
+- **Senliten:** Greetings, traveller.
+- **Player:** Greetings, your majesty. May I ask you some questions?
+- **Senliten:** Certainly, traveller, I have had not much contact with the sentient of late, you will no doubt remind me of the living and happier days.
+- [Menu]: Choose an option:
+  - [Choice]: Can I talk to you about Leela?
+    - **Player:{{anchor|Leela}}** Can I talk to you about Leela?
+    - **Senliten:** I have talked with Leela now, she should be treated with respect by those who wish to go far.
+    - **Player:** Why did she contact you and what is all this about respect?
+    - **Senliten:** All will be revealed when the momentous times are come. Have patience and ancient wrongs will be righted.
+    - (previous)
+  - [Choice]: Can I talk to you about the tomb robbers?
+    - **Player:{{anchor|robbers}}** Can I talk to you about the tomb robbers?
+    - **Senliten:** The ones who seek to steal are beset by my curses and become guardians. Irony is served as revenge. With the coming of my rebirth, the mortal, too, will protect me as befits my station.
+    - **Player:** Will I be cursed, too? I don't want to become a skeleton.
+    - **Senliten:** You were protected before you set foot in here, young one. Once I would have said an excess, now my silence may tell you more than my words once did.
+    - **Player:** Well that is a relief, at least, while still remaining confusing.
+    - (previous)
+  - [Choice]: Can I talk to you about history?
+    - (Condition: Before being fully restored:)
+      - **Senliten:** I will answer to the best of my ability, but note well that until reunited my faculties are dulled.
+      - (continue)
+    - (Condition: After being fully restored:)
+      - **Senliten:{{anchor|history}}** What history would you like to know?
+      - (continue)
+    - [Menu]: Select an Option
+      - [Choice]: Can you tell me about your lands and palaces?
+        - **Player:** Can you tell me about your lands and palaces?
+        - **Senliten:** I was, in life, ruler of these lands from the plains of Uzer to the forests of Ullek. From the new settlement of Sophanem to the untamed hunting grounds of the Bedabin.
+        - **Player:** You talk of forests and plains, what kinds of lands were these?
+        - **Senliten:** Lands rich in resources, granite, sandstone, timber and game. You seem surprised by this?
+        - **Player:** Well the lands are now mostly deserts and, although Sophanem is a town, the rest are ruins, I think.
+        - **Senliten:** I fear our enemies must have fallen upon us after my demise. We were ever beset from the North.
+        - **Player:** Who would these enemies be, then?
+        - (Condition: Before Desert Treasure:)
+          - **Senliten:** Dark forces of which you are happily not yet fully aware. Ever plotting in the dark lands of Morytania. During my reign, we defeated them temporarily with the aid of the Stern Judges.
+          - **Senliten:** Icthlarin be praised for his strength and wisdom.
+          - (continue)
+        - (Condition: After Desert Treasure:)
+          - **Senliten:** That vile creature Zaros and his minions. Ever plotting in the dark lands of Morytania. During my reign, we defeated him temporarily with the aid of the Stern Judges. Icthlarin be praised for his strength and wisdom.
+          - (continue)
+        - **Player:** I always thought that Zamorak was the root of evil?
+        - **Senliten:** I have never heard of this Zamorak you speak of, I assume he is a newcomer to this world.
+        - **Player:** Well, he's an immortal deity, I guess you'll find out about him soon enough. What was that about Stern Judges?
+        - **Senliten:** The Stern Judges, the faceless ones, are Icthlarin's workers in the lands of the living. They see all, wield great power and are reborn through death. What more fitting servants could he have?
+        - **Player:** What was that about rebirth through death, and why are they called faceless ones?
+        - **Senliten:** The Judges have a central mystery in that one of their number must die in order to give life to the others. You can see how this appealed to Icthlarin.
+        - **Senliten:** They can also take any form they choose, any face that is of use. The power to rule is much enhanced when one's advisers can speak with traitors using the face of another.
+        - **Player:** I don't doubt. Were these Judges minor deities, spirits or something else? It all seems a bit strange that I haven't heard of them before.
+        - **Senliten:** Like many of the servants of the gods, and indeed like the newcomer gods worshiped by most of the North, the Stern Judges were not native to this world.
+        - **Senliten:**  Icthlarin, in his wisdom, foresaw that he would need servants to do his bidding among mortals. He thus transported the faceless ones to these lands.
+        - **Player:** So, where are they now?
+        - **Senliten:** I am still recovering my knowledge in some areas and must admit that I do not know.
+        - **Senliten:** Perhaps they were no longer needed and returned to their own plane. Perhaps they were freed by Icthlarin from their vows of obedience.
+        - **Senliten:** It is a subject I will look into in due time.
+        - **Senliten:** What history would you like to know?
+        - (previous)
+      - [Choice]: Can you tell me of religion?
+        - **Player:** Can you tell me of religion?
+        - **Senliten:** As you will know, the chief deities of these lands are Tumeken, the sun that gives life and punishes, and Elidinis, the water that gives life and soothes.
+        - **Player:** Icthlarin seems very popular, too.
+        - **Senliten:** Icthlarin is indeed powerful and exerts his force in the mortal world. While he is the force that brings life through death, Amascut is she who brings death through life. Together they maintain the balance.
+        - **Player:** Amascut and Icthlarin seem to be in opposition now. Amascut is known as 'The Devourer' and didn't seem very friendly to me at all.
+        - **Senliten:** You may think this, yet mortals do not always see the purpose behind the ways of the immortal.
+        - **Senliten:** For all that death is undesirable to the living, we must die or the lands would be overrun with our children and our children's children.
+        - **Senliten:** Do not judge the deathbringer lest she judge you.
+        - **Player:** What do you know of Scabaras?
+        - **Senliten:** Scabaras cleanses mind and body through solitude. His followers are always deep thinkers, coming to conclusions tempered by lack of distractions.
+        - **Senliten:** If you wish for a life of study, you can do no better than to follow his ways.
+        - **Senliten:** By the example of the dung beetle we learn that the unpalatable may be transformed into life through proper attitudes.
+        - **Player:** I think that, like Amascut, Scabaras has changed since you last were able to communicate with the world.
+        - **Senliten:** I sense things are not as they were, that there is dissent where there once was cooperation.
+        - **Senliten:** The ways of the greater powers are mysterious, yet this is something that worries me greatly.
+        - **Senliten:** Perhaps the situation is able to be altered by you mortals, we will see in time.
+        - **Player:** I am pretty sure I have annoyed Amascut and having a deity as an enemy isn't my idea of sensible. I would hope to be involved if ever you plan to return her to her old, friendly ways.
+        - **Senliten:** Friendly is not the phrase I would use to describe Amascut. You will be contacted, however, if ever I have plans to investigate this situation.
+        - **Senliten:** What history would you like to know?
+        - (previous)
+      - [Choice]: Can you tell me of your life and deeds?
+        - **Player:** Can you tell me of your life and deeds?
+        - **Senliten:** I lived in defence of my realm, as all rulers do. I provided an heir in my son Osmumten, as a good ruler does, and guaranteed the continuation of both the realm and the bloodline.
+        - **Player:** Were there any notable occurrences in your reign?
+        - **Senliten:** I pride myself that no notable occurrences occurred. This mastaba, however, my burial place and testament to my power; this was a thing not seen before.
+        - **Player:** So this is the first pyramid? Do you know that they are quite common now?
+        - **Senliten:** That is gratifying, imitation is flattery indeed. It is disappointing, however, that my creation of such a thing is blurred by these later copies.
+        - **Player:** Well the others are somewhat differently shaped, so you are distinguished by that, at least. Is there any other legacy you are proud of?
+        - **Senliten:** I mention my bloodline, the power that is transmitted to this day. Interruptions and diversions are inflicted upon the true flow of power but you are righting the course, albeit unwittingly.
+        - **Player:** I see, or rather I see to the extent that you seem to wish me to.
+        - **Senliten:** What history would you like to know?
+        - (previous)
+      - [Choice]: Can you tell me of life after death?
+        - **Player:** Can you tell me of life after death?
+        - **Senliten:** Icthlarin takes those who die into a new life. Whether this is new life after death or new life instead of death is something only he can decide.
+        - **Player:** Why were you split up when you died, though? It all seems rather odd to me.
+        - **Senliten:** In order to enter the afterlife in a full existence and not be reborn as a mortal, the deceased must be both mentally prepared and physically treated in the correct fashion.
+        - **Senliten:**As a member of the royal bloodline, I was prepared mentally and destined to be worthy.
+        - **Player:** What effect does reassembling you have?
+        - **Senliten:** As you will have realised, I am merely being returned to my proper state of burial. It is sometimes the case, for wise rulers such as I, to make themselves available to their descendants.
+        - **Senliten:** By reassembling my burial place you will make it possible for me to contact the world of the living, even to talk to those not directly related such as yourself.
+        - **Player:** Who performs these rituals?
+        - **Senliten:** A priest of Icthlarin is trained from their earliest days to be adept in these operations, which they will only perform upon the devout and deserving. In most cases, of course, simple burial suffices. Most are not worthy enough to enter the afterlife.
+        - **Player:** What if mistakes are made by the priest?
+        - **Senliten:** The process is more often twisted rather than mistakes being made - after all, Icthlarin is a deity and thus rather able to make good any minor mistakes by his devout followers.
+        - **Player:** Twisted? What sort of effect would this have?
+        - **Senliten:** If certain parts of the separation process are performed out of order or upon a living victim, the victim will be caught in a state between living and death. They may also be bound to the will of a person who controls certain parts of the ritual or physical portions of the one so afflicted. Such things are not good to discuss without good reason however.
+        - **Player:** Quite so, it sounds horrible.
+        - **Senliten:** Horrible, maybe; although the Stern Judges were masters of the art. Sometimes foul deeds must be done in the pursuit of further good.
+        - **Senliten:** What history would you like to know?
+        - (previous)
+      - [Choice]: That's enough history for now.
+        - (initial)
+  - [Choice]: Can we talk about quests again?
+    - [Menu]: Choose an option:
+      - [Choice]: Talk about Dealing with Scabaras.
+        - **Player:{{anchor|Scabaras}}** Can I talk about the Scabarites?
+        - **Senliten:** Certainly.
+        - **Player:** Why do you think the Devourer used the Scabarites to attack?
+        - **Senliten:** Why, you answered the question from your own lips. She wanted to 'burn Sophanem to the ground'.
+        - [Menu]: Select an Option
+          - [Choice]: Ah right, yes, I forgot.
+            - **Player:** Ah right, yes, I forgot.
+            - (previous2)
+          - [Choice]: But...
+            - **Player:** But...
+            - **Senliten:** Ah, you are sceptical. Good, yes, very good. I see why Leela respects you. The Scabarites of my day were mainly scholars and intellectuals - the shy, retiring types.
+            - **Senliten:** They were not warriors that could be used to overthrow a city. Perhaps they have changed...
+            - **Senliten:** You have to see; they gave up their isolation. There is importance to this. Isolation is the one ideal a Scabarite holds above everything else. Know this; in the attack, the Scabarites lost more than their enemies.
+            - **Player:** So, Amascut meant to hurt the Scabarites?
+            - **Senliten:** Perhaps, perhaps. Let us hope, since the alternative is...surely not...
+            - (previous2)
+      - [Choice]: Talk about Do No Evil.
+        - **Player:** Can I be of service?
+        - **Senliten:** Not at this moment; you need to learn more of the desert, first.
+      - [Choice]: Talk about Crocodile Tears.
+        - **Player:** Can I be of service?
+        - **Senliten:** Not at this moment; you need to learn more of the desert, first.
+      - [Choice]: Ask about something else.
+        - (initial)
+
+### After Dealing with Scabaras
+
+- **Senliten:** Greetings, Player.
+- [Menu]: Choose an option:
+  - [Choice]: Talk about Dealing With Scabaras.
+    - (above|Scabaras)
+  - [Choice]: Talk about Do No Evil.
+    - **Player:** Can we talk about Apmeken?
+    - **Senliten:** Apmeken is only the beginning. In restoring her, you have done the desert a great service, but there is still more to be done. Amascut's deeds, I fear, are widespread. No doubt her actions have bred more evil.
+    - **Player:** I don't understand.
+    - **Senliten:** The actions of gods are mirrored in the mortal realm. Amascut's actions heralded an era of cruelty, and mortals have adopted her unseemly behaviour towards sentient beings.
+    - **Senliten:** We must tread carefully, for we do not have just Amascut to contend with. Those who have benefitted from her storm of destruction will try to stop us.
+    - **Player:** I spoke to Apmeken after restoring her. She didn't act as I had expected.
+    - **Senliten:** How so?
+    - **Player:** Jex and the wise monkeys spoke of her as mischievous and cunning, but she seemed almost sombre.
+    - **Senliten:** Interesting. Gods suffer and feel pleasure as you do; their feelings are infinitely refined, but the general sentiments are one and the same.
+    - **Senliten:** She had a harrowing experience that will leave its mark. In time, we may see a return to form. Let us hope.
+    - (initial)
+  - [Choice]: Talk about Crocodile Tears.
+    - (Condition: Before meeting the quest requirements:)
+      - **Player:** Can I be of service?
+      - **Senliten:** Not at this moment; you need to learn more of the desert, first.
+    - (Condition: After meeting the quest requirements:)
+      - (see|Crocodile Tears#With all the requirements)
+    - (Condition: After completing the quest:)
+      - **Senliten:** Thank you for setting things right with Crondis. I can already feel her modesty returning to the hearts of the Kharidian people.
+  - [Choice]: cond=After Our Man in the North|Talk about Our Man in the North.
+    - **Player:** Osman admitted it - he says he only worked with Jabari for the greater good, to gain undeniable proof of his claim so that he could cement peace between Menaphos and Al Kharid.
+    - **Leela:** I cannot believe he would stoop so low. He has been spymaster so long, he has forgotten how to act.
+    - **Leela:** How can he become Pharaoh with such thoughts in his mind, such willingness to compromise his morals? I don't know if I can forgive him for this...
+    - **Senliten:** Worry not, Leela. Osman knows he must come to see me before he can progress his plans any further. We shall get through to him.
+  - [Choice]: Ask about something else.
+    - [Menu]: Choose an option:
+      - [Choice]: Can I talk to you about Leela?
+        - (above|Leela)
+      - [Choice]: Can I talk to you about the tomb robbers?
+        - (above|robbers)
+      - [Choice]: Can I talk to you about history?
+        - (above|history)
+      - [Choice]: Can we talk about quests again?
+        - (initial)

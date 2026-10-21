@@ -1,0 +1,83 @@
+# Ghost (Hopespear)
+
+- **Original Wiki Page**: [Transcript:Ghost (Hopespear)](https://runescape.wiki/w/Transcript%3AGhost%20%28Hopespear%29)
+- **Letter**: `G`
+
+---
+
+## Dialogue Transcript
+
+- **Ghost** Thank you for taking priest bones to Yu'biusk. You true holy servant of Big High War God.
+- [Menu]: Select an Option
+  - [Choice]: Why are you here? {{anchor|WhyHere}}
+    - **Player:** Why are you here?
+    - **Ghost:** Me dead, but me not go.
+    - **Ghost:** Long ago, me have vision of Big High War God. Me chosen prophet of Big High War God.
+    - **Ghost:** Me think, when me die, Big High War God take me to reward in Yu'biusk. Every day great battle, every night great victory with feasting.
+    - **Ghost:** Big High War God not come. But me have faith. Some day Big High War God come for me, take me to him. Until then me hang on, not let go into death.
+    - [Menu]: Select an Option
+      - [Choice]: Who are you? {{anchor|WhoYou}}
+        - **Player:** Who are you?
+        - **Ghost:** Me Hopespear of Narogoshuun tribe.
+        - (other)
+      - [Choice]: I visited Yu'biusk.
+        - **Player:** I visited Yu'biusk.
+        - **Ghost:** You go to Yu'biusk? What you see?
+        - [Menu]: Select an Option
+          - [Choice]: It was a wasteland.
+            - **Player:** It was a wasteland. It had been so devastated by war that nothing could live there.
+            - **Ghost:** All dead? No goblins fighting glorious battles?
+            - **Player:** No one. It was all empty.
+            - **Ghost:** You lie!
+            - **Player:** I'm not lying. It's what I saw.
+            - **Ghost:** Even so, Yu'biusk is place of Big High War God. Land of Goblins. It where goblins should go.
+            - **Ghost** Me happy now old priest bones rest in Yu'biusk. Me sure Big High War God take me to live with him soon.
+          - [Choice]: It was everything you hope for.
+            - **Player:** It was everything you hope for. A paradise for goblins. The Big High War God commands them personally there.
+            - **Ghost:** Thank you! I know Big High War God still care for us! I wait for him here. Some day he take me to Yu'biusk to live with him.
+            - **Ghost** Me happy now old priest bones rest in Yu'biusk. Me sure Big High War God take me to live with him soon.
+      - [Choice]: Tell me about the Big High War God.
+        - (below|TellAboutBHWG)
+      - [Choice]: Tell me about the prophecy.
+      - (below|TellAboutProphecy)
+  - [Choice]: What about your bones?
+    - **Player:** What about your bones?
+    - **Ghost** When me die, goblins burn bones and scatter ashes. No more Hopespear bones.
+    - **Ghost** Me stay here, look over goblin temple, wait for Big High War God to take me to Yu'biusk. Me know he come for me someday. Me have faith.
+    - **Ghost** Me happy now old priest bones rest in Yu'biusk. Me sure Big High War God take me to live with him soon.
+  - [Choice]: Tell me about the Big High War God. {{anchor|TellAboutBHWG}}
+    - **Player:** Tell me about the Big High War God.
+    - **Ghost:** Big High War God greatest of all gods! He take puny goblins from Yu'biusk and make them mighty warriors for great war of gods!
+    - **Ghost:** When gods go to war, goblin soldiers so good that Big High War God sell tribes to fight for different gods. Big High War God fight with other gods, sometimes for one, sometimes another.
+    - **Ghost:** Other gods fight for their own reasons, but Big High War God fight for war itself!
+    - (other)
+  - [Choice]: Tell me about the prophecy. {{anchor|TellAboutProphecy}}
+    - **Player:** Tell me about the prophecy.
+    - **Ghost:** Before I have prophecy, goblin tribes fight one another very much.
+    - **Ghost:** Long ago we fight other people: beardy-short-people, pointy-hat-short-people, keen-bladed-tall-people. But other people build cities with walls, and we not able to attack them any more.
+    - **Ghost:** There not enough food for all tribes. So tribes with no food attack tribes who have food. Goblin war last many, many years. Finally, all tribes meet at this place, where temple is now.
+    - **Ghost:** It rain many days. But rain not stop goblins. Goblin feet churn up ground with rain and goblin blood. All ground turn to mud. That why it called Battle of Plain of Mud.
+    - **Ghost:** Battle last many days. Both sides same size, none win, none lose. Goblin bodies everywhere, many dead.
+    - **Ghost:** Me not important general, not mighty sergeant. Me just goblin trooper. But one night in tent me have dream.
+    - **Ghost:** Me see throne of Big High War God. He shine with light so bright me cannot see him, but me hear his voice.
+    - **Ghost:** He say, 'Stop the fighting!' He say, 'Fighting good, but not if all my followers die! You must not fight one another so much you all die!'
+    - **Ghost:** Then he say, 'Today I cannot lead you. But someday I send Chosen Commander to lead you.' And I see Chosen Commander in dream. He wear shining armour and stand at front of army of goblins.
+    - **Ghost:** Behind Chosen Commander, army of goblins stretch to horizon. Many goblins, too many to count, and banners of every tribe. Banners of all tribes, even Dorgesh-tribe.
+    - **Ghost:** Other races, they run away from mighty goblin army! Chosen Commander make goblins build siege machines, they break down walls of cities. Then goblins march in and kill everyone!
+    - **Ghost:** And when all dead, Big High War God himself appear and sit on great throne of bronze and rule over all, with Chosen Commander beside him.
+    - **Ghost:** Then I wake from dream. I know it true vision from Big High War God. I run to general of my tribe, and he call other generals for emergency meeting.
+    - **Ghost:** I tell all generals what I see. They decide to stop fighting so goblins not all die. By this time in battle so many had died that there enough food for all.
+    - **Ghost:** Then generals set goblins to work building temple on site of battle. It sink into mud, so they turn it into underground temple, and keep it secret from others.
+    - **Ghost:** Goblins write my vision down in goblin holy book, along with history of goblins and commandments of Big High War God.
+    - [Menu]: Select an Option
+      - [Choice]: Who are you?
+        - (above|WhoYou)
+      - [Choice]: Why are you here?
+        - (above|WhyHere)
+      - [Choice]: Tell me about the Big High War God.
+        - (above|TellAboutBHWG)
+      - [Choice]: Tell me more about the Chosen Commander.
+        - **Player:** Tell me more about the Chosen Commander.
+        - **Ghost:** Me not know much more. In vision, Chosen Commander wear heavy armour and big helmet that cover face. Me not know what he look like. I see him give orders, but he far away, me not hear his voice.
+        - **Goblin:** Me think Chosen Commander will be great goblin general. But Big High War God chose me to have vision, not great general, so Chosen Commander could be anyone.
+        - (other)

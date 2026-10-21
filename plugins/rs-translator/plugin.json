@@ -1,0 +1,14 @@
+{
+  "name": "RS Traductor (ES)",
+  "version": "1.0.0",
+  "description": "Traduce automáticamente los diálogos de NPCs, opciones de respuesta, acciones del entorno y mensajes del juego al español. Mantiene intactos todos los nombres de ítems, armas, monstruos y lugares.",
+  "contactEmailAddress": "developer@rsplugins.local",
+  "hasRibbonIcon": false,
+  "hasSettingsIcon": true,
+  "requiredPermissions": [],
+  "optionalPermissions": [
+    "chatAccess"
+  ],
+  "requiredDependencies": {},
+  "optionalDependencies": {}
+}

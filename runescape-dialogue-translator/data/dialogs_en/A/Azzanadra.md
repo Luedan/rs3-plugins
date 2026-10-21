@@ -1,0 +1,809 @@
+# Azzanadra
+
+- **Original Wiki Page**: [Transcript:Azzanadra](https://runescape.wiki/w/Transcript%3AAzzanadra)
+- **Letter**: `A`
+
+---
+
+## Dialogue Transcript
+
+{{Incomplete|Missing a few post-quest dialogue after Heart of Stone and Sliske's Endgame}}
+
+### At Senntisten Temple
+
+
+#### After The Temple at Senntisten
+
+- **Azzanadra:** You have returned, faithful one.
+- [Menu]: What would you like to say?
+  - [Choice]: Remind me what this place is.
+    - **Player:** Remind me what this place is.
+    - **Azzanadra:** Would you like me to tell you about this temple, or Senntisten, the city that once stood above us?
+    - [Menu]: What would you like to say?
+      - [Choice]: Tell me about the temple.
+        - **Player:** Tell me about the temple.
+        - **Azzanadra:** Do you recall that my Lord, Zaros, was banished long ago, and that locked away in some distant plane he was unable to communicate with us?
+        - **Azzanadra:** When that happened, we created a communication portal in this temple allowing us contact with our Lord. It was more successful than I dared hope, Player!
+        - **Azzanadra:** I used to hear him all the time - in my head, guiding me, bringing me strength and wisdom.
+        - **Azzanadra:** This temple was clearly destroyed by our enemies. Without the communication portal, Zaros was too distant to be heard, locked in a cold and empty existence in some desolate plane. In the vast expanse of the universe he could not find his faithful.
+        - **Azzanadra:** But by restoring this temple and altar, and gathering these powerful holy artefacts within, Zaros is able to sense us and communicate with us once more, and now we shall harken unto him!
+        - **Azzanadra:** He shall advise me how best to aid his return. What a wondrous day this is!
+        - **Player:** And what about the chamber through there?
+        - **Azzanadra:** Do you mean the crypt? It was a resting place for Zaros' most loyal followers.
+        - **Azzanadra:** It is infested with skeletons now. That's what happens when burial sites are desecrated, of course.
+        - (previous)
+      - [Choice]: Tell me about the city.
+        - **Player:** Tell me about the city.
+        - **Azzanadra:** Above us, long ago, stood the glorious city of Senntisten. Huge towers loomed over the pass leading to Morytania, giant stone sentinels watching over the prize of Zaros's empire.
+        - **Azzanadra:** T'was the crowning jewel of Zarosian civilisation. Oh, if only you had witnessed Zaros's finest city, drenched in splendour as it was!
+        - **Azzanadra:** Or perhaps it is better you did not witness it, for it saves you the grief and sorrow of seeing it razed.
+        - **Azzanadra:** It was not long after Zaros was banished, and a communication portal constructed, that I became trapped in that pyramid. At that time, Senntisten was still exuberant and well defended.
+        - **Azzanadra:** Goodness only knows what befell the troops and citizens, but we can safely assume they didn't give up without a fight.
+        - **Player:** How do you know that?
+        - **Azzanadra:** When defenders submit, their city is often taken over, but when they fight to the death, their city is typically destroyed.
+        - **Azzanadra:** Yet there are those who would claim that war is an artform. Fools they are, and fools they remain. By their bloodlust they are blinded to beauty, deafened to melody, and numbed to sanctity!
+        - (previous)
+      - [Choice]: Let's talk about something else.
+        - **Player:** Let's talk about something else.
+        - (initial)
+      - [Choice]: Never mind.
+      - **Player:** Never mind.
+  - [Choice]: About the ancient hymnal...
+    - **Player:** About the ancient hymnal...
+    - [Menu]: What would you like to say?
+      - [Choice]: I've lost the ancient hymnal.
+        - **Player:** I've lost the ancient hymnal.
+        - (Condition: If the ancient hymnal has genuinely been lost:)
+          - **Azzanadra:** Very well, you may have another. The hymnal itself is of no value unless Zaros has granted you his power.
+          - [Azzanadra gives you a copy of the ancient hymnal.]
+          - (previous2|remind)
+        - (Condition: If the ancient hymnal is in backpack:)
+          - **Azzanadra:** I'm sure I can sense an ancient hymnal in your inventory.
+          - **Player:** Oh.
+        - (Condition: If the ancient hymnal is in bank:)
+          - **Azzanadra:** Are you sure you haven't simply put it in your bank?
+          - [Menu]: What would you like to say?
+            - [Choice]: Perhaps. Can I have another one anyway?
+              - **Player:** Perhaps. Can I have another one anyway?
+              - (continuea|another)
+            - [Choice]: Never mind, I'll get it from my bank.
+              - **Player:** Never mind, I'll get it from my bank.
+      - [Choice]: I have some questions about the ancient hymnal.
+        - **Player:** I have some questions about the ancient hymnal.
+        - [Menu]: What would you like to say?
+          - [Choice]: What are these curses?
+            - **Player:** What are these curses?
+            - **Azzanadra:** These curses are similar to the prayers that humans are so fond of.
+            - **Azzanadra:**Ah, but they are so much more!
+            - (previous|curses)
+          - [Choice]: How do I use the curses?
+            - **Player:** How do I use the curses?
+            - **Azzanadra:** Why, simply pray at the altar in this temple and allow the chanting voices of Mahjarrats past to fill your mind.
+            - **Azzanadra:** You'll then find that, with your prayers forgotten, you can use the curses instead.
+            - (previous|curses)
+          - [Choice]: How are curses different from prayers?
+            - **Player:** How are curses different from prayers?
+            - **Azzanadra:** To the ungodly they perhaps seem similar, but prayers are to curses as lambs are to lions.
+            - **Azzanadra:** Prayers are all about saving your petty, bleating hide, while curses are about rending your enemies with devastating force.
+            - **Azzanadra:** And so, you'll notice that while curses may offer you less protection, they more than make up for this by damaging your enemy. Some curses will even do both!
+            - (previous|curses)
+          - [Choice]: How do I go back to using standard prayers?
+            - **Player:** How do I go back to using standard prayers?
+            - **Azzanadra:** And turn your back on the glory of Zaros? How strange you humans are.
+            - **Azzanadra:** Should you wish to commit such folly, then praying at any altar will give you an option of returning to your tired old prayers.
+            - **Azzanadra:** But remember, if you then wish to use curses again, you will need to return to this altar and worship Zaros once more.
+            - (previous|curses)
+          - [Choice]: Never mind.
+            - **Player:** Never mind.
+      - [Choice]: Tell me about Zaros.
+        - **Player:** Tell me about Zaros.
+        - **Azzanadra:** What is it you wish to know?
+        - [Menu]: What would you like to say?
+          - [Choice]: So, is Zaros back then?
+            - **Player:** So, is Zaros back then?
+            - (Condition: Before Fate of the Gods:)
+              - **Azzanadra:** Not yet, no. I can merely communicate with him once more. But that is no small achievement, Player!
+              - **Azzanadra:** For now he can give me instructions, and I shall carry them out to aid his return.
+              - **Azzanadra:** Soon the world shall be bathed in the glory of Zaros once more!
+              - (previous|zaros)
+            - (Condition: After Fate of the Gods:)
+              - **Azzanadra:** Did you hit your head and forget? You're the one who helped him to return!
+              - (previous|zaros)
+          - [Choice]: What plans does Zaros have?
+            - **Player:** What plans does Zaros have?
+            - (Condition: Before Fate of the Gods:)
+              - **Azzanadra:** Regretably, I am under strict instructions to conceal Zaros's magnificent scheme.
+              - **Player:** Can't you tell me anything?
+              - **Azzanadra:** I can say that you should ensure no mishaps befall you. Zaros requires you very much in one piece. It is to this end that I have provided you with his hymnal, so that you may defeat your foes with more ease.
+              - **Player:** Zaros said he needed my help?
+              - **Azzanadra:** Er...something like that. In any case, you are most definitely needed.
+              - (previous|zaros)
+            - (Condition: After Fate of the Gods:)
+              - **Azzanadra:** He has me searching for the Elder Halls of Gielinor. When it is found, and we are fully prepared to deal with the consequences, we shall disturb what lies within so as to wake the elder gods and parlay with them.
+              - **Azzanadra:** It is a risky play, but to do nothing would be insane. I will not sit idly by and await oblivion.
+              - (previous|zaros)
+          - [Choice]: Why did Zaros get banished?
+            - **Player:** Why did Zaros get banished?
+            - **Azzanadra:** Why? Simply because of Zamorak's lust for power. That feeble usurper got lucky that day.
+            - **Azzanadra:** When Zaros and Zamorak did battle, both were impaled on the accursed Staff of Armadyl, and it really could have gone either way.
+            - **Azzanadra:** But it was Zaros who was banished, while Zamorak became stronger than ever.
+            - **Azzanadra:** It will take a great deal of work to undo that unlucky roll of the dice.
+            - **Player:** I didn't realise it was a matter of luck.
+            - **Azzanadra:** Hmm. No doubt you have heard a Zamorakian version of events. Well, now you have heard the Zarosian side of the story too. You can decide for yourself which faction is more trustworthy.
+            - (previous|zaros)
+          - [Choice]: Is Zaros a cat?
+            - **Player:** Is Zaros a cat?
+            - **Azzanadra:** Oh dear. Have you had a nasty knock on the head? Or perhaps you haven't listened to a word I've said.
+            - [Menu]: What would you like to say?
+              - [Choice]: Oh, yes, that doesn't make much sense.
+                - **Player:** Oh, yes, that doesn't make much sense.
+                - (previous2|zaros)
+              - [Choice]: Well, there's this cat called Bob.
+                - **Player:** Well, there's this cat called Bob...
+                - [Menu]: What would you like to say?
+                  - [Choice]: He hinted that he might be Zaros.
+                    - **Player:** He hinted that he might be Zaros.
+                    - **Azzanadra:** Hmm. Of course. A cat told you that he was Zaros. I cannot think why you failed to mention this before.
+                    - [Menu]: What would you like to say?
+                      - [Choice]: I've only just remembered.
+                        - **Player:** I've only just remembered.
+                        - **Azzanadra:** If I may offer some words to the wise, young [man/lady]?
+                        - **Azzanadra:** Do not get your information from a talking cat.
+                        - (previous|zaros)
+                      - [Choice]: I didn't want you to think I was crazy.
+                        - **Player:** I didn't want you to think I was crazy.
+                        - **Azzanadra:** Well, it's a little late to worry about that now, isn't it, [Mister/Mistress] Cat-whisperer?
+                        - **Azzanadra:** If I may offer some words to the wise, young [man/lady]?
+                        - **Azzanadra:** Do not get your information from a talking cat.
+                        - (previous|zaros)
+                  - [Choice]: I think he's a Mahjarr-cat!
+                    - **Player:** I think he's a Mahjarr-cat!
+                    - **Azzanadra:** I don't quite follow...
+                    - **Azzanadra:** Ah, I think I see.
+                    - **Azzanadra:** A Mahjarrat cat?
+                    - **Player:** That's right.
+                    - **Azzanadra:** In that case, allow me to offer some words of advice, Player...
+                    - **Azzanadra:** Do not abandon your adventuring to become an entertainer. It really won't end well for you.
+                    - (previous|zaros)
+          - [Choice]: Let's talk about something else.
+            - **Player:** Let's talk about something else.
+            - (initial|beginning)
+  - [Choice]: Can I use the altar here?
+    - **Player:** Can I use the altar here?
+    - **Azzanadra:** Certainly, you may. You'll find it considerably more effective than other altars. Have you read the ancient hymnal yet?
+    - [Menu]: What would you like to say?
+      - [Choice]: Yes, I've read all about the curses.
+        - **Player:** Yes, I've read all about the curses.
+        - **Azzanadra:** Then you'll know at this altar you can allow the power of Zarosian curses to fill your mind, replacing your prayers.
+        - **Azzanadra:** Remember, you can pray at any altar to return your standard prayers, but you must visit this altar again if you wish to use the curses.
+        - (initial|beginning)
+      - [Choice]: No, I haven't read it yet.
+        - **Player:** No, I haven't read it yet.
+        - **Azzanadra:** Surely you jest. To have such power at your fingertips yet ignore it?
+        - **Azzanadra:** How very human.
+        - (initial|beginning)
+  - [Choice]: Tell me about the artefacts I collected.
+    - **Player:** Tell me about the artefacts I collected.
+    - **Azzanadra:** You have indeed earned the knowledge. What would you like to know about?
+    - [Menu]: What would you like to say?
+      - [Choice]: Tell me about the Frostenhorn.
+        - **Player:** Tell me about the Frostenhorn.
+        - **Azzanadra:** Certainly. Is the Frostenhorn not wondrous? It has proved so troublesome to obtain, though.
+        - **Azzanadra:** So many of my contacts have tried, and failed, to bring it to me.
+        - **Azzanadra:** Yet you, Player, have proven yourself skilled beyond any mere adventurer. My eternal thanks.
+        - **Azzanadra:** And as I had hoped, it is in wonderful condition. It shall play its part well.
+        - [Menu]: What would you like to say?
+          - [Choice]: What does the Frostenhorn do?
+            - **Player:** What does the Frostenhorn do?
+            - **Azzanadra:** How can I explain this in human terms? It's like a magnifying glass for power.
+            - **Azzanadra:** It was in an icy area, up in the north, and so it magnified that, allowing the fortress to remain frozen.
+            - **Azzanadra:** I dare say that were you to return to the fortress you would find it thawing.
+            - (previous|Frostenhorn)
+          - [Choice]: Why is it called the Frostenhorn?
+            - **Player:** Why is it called the Frostenhorn?
+            - **Azzanadra:** That is the human name for it. Or rather, the Fremennik name. Humans have only ever witnessed its power in frozen lands, so they assumed the power it hold is that of ice.
+            - **Azzanadra:** However, we Mahjarrat know better. Not only do we know what it does, we also know how to harness its power.
+            - **Player:** If the Frostenhorn is the human name for it, what do the Mahjarrat call it?
+            - **Azzanadra:** I shall do you a service, Player, and not tell you. Were your ears to hear its true name, terrible and primeval as it is, they would melt from the side of your head.
+            - **Azzanadra:** How much power does a mere name hold? I pray you need never find out.
+            - (previous|Frostenhorn)
+          - [Choice]: Why do you need the Frostenhorn?
+            - **Player:** Why do you need the Frostenhorn?
+            - **Azzanadra:** My Lord is banished, distant and trapped, by those who fear his majesty.
+            - **Azzanadra:** So remote is he that I cannot communicate with him, but I know he will have a plan, a path to return to his rightful glory. With the Frostenhorn enhancing the power of his temple, I shall be able to converse with him once more. He will guide me, and I shall do whatever he needs.
+            - (previous|Frostenhorn)
+          - [Choice]: Let's talk about something else.
+            - (previous2|artefacts)
+          - [Choice]: Never mind.
+            - **Player:** Never mind.
+      - [Choice]: Tell me about the Barrows icon.
+        - **Player:** Tell me about the Barrows icon.
+        - **Azzanadra:** Splendid work you did there, Player! The Barrows Brothers will be furious with you, of course. They have guarded it well, and for so long, but you can clearly handle them without concern.
+        - **Azzanadra:** As you may recall me saying, it is better than I had hoped. I knew that, under the protection of the Barrows Brothers, the power of this icon would not fade.
+        - **Azzanadra:** But it is now much stronger than I recall. A great many adventurers must have uttered their dying prayers in the Barrows, and the icon has drawn all that holy power in.
+        - [Menu]: What would you like to say?
+          - [Choice]: What does the Barrows icon do?
+            - **Player:** What does the Barrows icon do?
+            - **Azzanadra:** It is a powerful artefact of prayer. It draws in prayer power, just as metal draws in heat.
+            - (previous|Barrows)
+          - [Choice]: How did the Barrows Brothers get the icon?
+            - **Player:** How did the Barrows Brothers get the icon?
+            - **Azzanadra:** It was no accident. An ally from the old days placed it in their care while I was trapped in that forsaken pyramid.
+            - **Azzanadra:** And it is good that they did so! The prayer energy it held needed to be preserved until this very day, when I would be able to use it to communicate with my Lord once more.
+            - **Azzanadra:** The Zamorakian Mahjarrat would have destroyed the icon, given the chance, but happily they never found it.
+            - **Azzanadra:** The accursed state of the Barrows Brothers has allowed them to conceal it from the Zamorakians. It's very much in their territory, and they never thought to look right under their own noses!
+            - (previous|Barrows)
+          - [Choice]: Why do you need the Barrows icon?
+            - **Player:** Why do you need the Barrows icon?
+            - **Azzanadra:** For my Lord, banished and remote, to communicate with me, first he must be able to find me.
+            - **Azzanadra:** After all this time in the Barrows, the icon has absorbed so much prayer power that it will be an irresistible beacon unto my Lord.
+            - (previous|Barrows)
+          - [Choice]: Let's talk about something else.
+            - (previous2|artefacts)
+          - [Choice]: Never mind.
+            - **Player:** Never mind.
+      - [Choice]: Tell me about the Entrana relic.
+        - **Player:** Tell me about the Entrana relic.
+        - **Azzanadra:** Ha! Storms raged through my mind when I saw what the Saradominists had done to the relic. Still I feel a terrible wrath when I think upon it.
+        - [Menu]: What would you like to say?
+          - [Choice]: What does the Entrana relic do?
+            - **Player:** What does the Entrana relic do?
+            - **Azzanadra:** As odd as this may sound, it acts as a catalyst for prayer energy.
+            - [Menu]: What would you like to say?
+              - [Choice]: So it helps unlock holy power?
+                - **Player:** So it helps unlock holy power?
+                - **Azzanadra:** Oh, well done, Player. Indeed.
+                - **Azzanadra:** So instead of the Barrows icon emitting its prayer power slowly, with the Entrana relic nearby it will give off brilliant pulses of prayer energy.
+                - (previous2|Entrana)
+              - [Choice]: What's a catalyst?
+                - **Player:** What's a catalyst?
+                - **Azzanadra:** In this sense, a catalyst is something that accelerates change.
+                - **Azzanadra:** So instead of the Barrows icon emitting its prayer power slowly, with the Entrana relic nearby it will give off brilliant pulses of prayer energy.
+                - (previous2|Entrana)
+          - [Choice]: How did the Entrana monks get the relic?
+            - **Player:** How did the Entrana monks get the relic?
+            - **Azzanadra:** Oh, who knows what depths they would stoop to just to grab power for their paltry deity.
+            - **Azzanadra:** Well, they may have taken the relic, but they didn't have the knowledge of how to use it.
+            - **Azzanadra:** After all, by itself the relic can achieve very little. It is only around an item of significant holy power that it has a noticeable effect.
+            - **Azzanadra:** You'll have likely noticed that the monks on Entrana didn't realise that, which only goes to show how puny Saradomin's might must be.
+            - (previous|Entrana)
+          - [Choice]: Why do you need the Entrana relic?
+            - **Player:** Why do you need the Entrana relic?
+            - **Azzanadra:** Ah, it is the last artefact I need to finally communicate with Zaros once more.
+            - **Azzanadra:** This relic, when aside the Barrows icon, will allow the icon to create dazzling pulses of prayer energy. That pulsing energy is magnified by the Frostenhorn to penetrate the darkest, most remote planes of existence.
+            - **Azzanadra:** Planes that have never seen light and where nothing exists. My beacon to Zaros will cut through these miserable pockets of reality and, wherever my Lord is, we will be able to communicate again.
+            - **Azzanadra:** Hear me, Player: with these artefacts there will be no place that has not been bathed in holy power in Zaros's name!
+            - (previous|Entrana)
+          - [Choice]: About the assassin...
+            - **Player:** About the assassin...
+            - [Menu]: What would you like to say?
+              - [Choice]: I can see why you didn't want your contact coming down here.
+                - **Player:** I can see why you didn't want your contact coming down here.
+                - **Azzanadra:** Indeed. I'm sure he's an honourable agent, but why take the risk?
+                - **Azzanadra:** The less he knows about the artefacts down here, the less likely he is to be tempted.
+                - (previous|assassin)
+              - [Choice]: Your choice in agents leaves something to be desired.
+                - **Player:** Your choice in agents leaves something to be desired.
+                - **Azzanadra:** He was not my choice, Player. Indeed, it was one of my Zarosian brothers who commissioned him to retrieve our relic from Entrana.
+                - **Azzanadra:** Who would you have chosen for the task? Did the assassin not manage to complete his mission? It seems to me he was the perfect choice for the job.
+                - (previous|assassin)
+              - [Choice]: It was great seeing the assassin again. It was just like old times.
+                - **Player:** It was great seeing the assassin again. It was just like old times.
+                - **Azzanadra:** Perhaps the two of you have much in common. I hope not too much, though, for he is hired, as is his loyalty and allegiance.
+                - **Azzanadra:** You may only depend upon such people while you pay them well, and to consider them an ally or friend would be a grave error.
+                - **Azzanadra:** However, such people do have a knack for getting things done.
+                - (previous|assassin)
+              - [Choice]: You sent me to collect a stolen relic!
+                - **Player:** You sent me to collect a stolen relic!
+                - **Azzanadra:** Yes, you are quite right.
+                - **Player:** So you admit it!
+                - **Azzanadra:** Of course. I am happy to admit that the relic was stolen from this very temple long ago.
+                - **Player:** Oh, so it's originally yours?
+                - **Azzanadra:** This age-battered stone belongs only to Zaros. The assassin deserves our thanks for liberating it from those light-fingered Saradominists.
+                - **Azzanadra:** My only regret is that we did not recover it before those imbeciles decided to carve Saradomin's crude mark upon it.
+                - **Azzanadra:** When Zaros sees that, well...let's just say it would be a good day to be a great distance away from any Saradominist lands.
+                - (previous|assassin)
+              - [Choice]: Let's talk about something else.
+                - **Player:** Let's talk about something else.
+                - (previous2|Entrana)
+      - [Choice]: Let's talk about something else.
+        - **Player:** Let's talk about something else.
+        - (previous|beginning)
+      - [Choice]: Never mind.
+        - **Player:** Never mind.
+
+#### After additional quests have been completed
+
+- [Menu]: What do you want to talk about?
+  - [Choice]: cond=After Ritual of the Mahjarrat|Ritual of the Mahjarrat.
+    - (below2|After Ritual of the Mahjarrat)
+  - [Choice]: cond=After The World Wakes|Guthix's death.
+    - (below2|After The World Wakes)
+  - [Choice]: cond=After Missing, Presumed Death|Sliske's announcement.
+    - (below2|After Missing, Presumed Death)
+  - [Choice]: [More...]
+    - [Menu]: What do you want to talk about?
+      - [Choice]: cond=After Fate of the Gods|Zaros's return.
+        - (below2|After Fate of the Gods)
+      - [Choice]: cond=After Heart of Stone|The elder gods.
+        - (below2|After Heart of Stone)
+      - [Choice]: cond=After The Light Within|Seren's return.
+        - (below2|After The Light Within)
+      - [Choice]: [More...]
+        - [Menu]: What do you want to talk about?
+          - [Choice]: cond=After Sliske's Endgame|Sliske's Endgame
+            - (below2|After Sliske's Endgame)
+          - [Choice]: Something else.
+            - (above|beginning)
+          - [Choice]: [More...]
+            - (initial)
+
+#### After Ritual of the Mahjarrat
+
+- **Azzanadra:** Player, you fought bravely during the ritual. I am pleased that Lucien is no longer among our number.
+- **Player:** Yes, but only to be replaced by an even larger threat. At least Lucien only wanted to rule over this plane; the dragonkin want to destroy it!
+- **Azzanadra:** Yes, it is troubling... I am sure you will do all you can to prevent that.
+- **Player:** Will you help?
+- **Azzanadra:** Maybe, I don't know. I have certain other priorities right now. When my plans have come to fruition it will be easier to deal with such enemies.
+- **Player:** What about Jhallan? I feel bad for him; I mean, I was the one who helped him to hide under the ritual site.
+- **Azzanadra:** You do like to get involved, don't you?
+- **Azzanadra:** It seems strange that you would be concerned when your race is so short-lived. It is the Mahjarrat way that the weak serve the strong. While he was not my own choice, we would have all died long ago without the sacrifice of others.
+- **Azzanadra:** We Zarosians may be fewer in number, but our day will come again, mark my words.
+- **Player:** Speaking of Zarosians, after you left...Sliske tried to turn me into one of his Barrows wights, but took one of my friends instead.
+- **Azzanadra:** I have no control over his actions. Even alongside other Mahjarrat, he's always been...different.
+- **Azzanadra:** While I would rather not lose him as my ally, I would not begrudge your revenge, though I doubt you will find him unless he wishes to be found.
+
+#### After The World Wakes
+
+- (Condition: If the player chose to protect Guthix:)
+  - **Azzanadra:** Ah yes. I am disappointed that we could not see eye-to-eye, Player.
+  - **Azzanadra:** You are a caring being. I can understand why you would want to protect Guthix, even if it was always going to be a fruitless decision, in my opinion.
+  - **Azzanadra:** I do hope this won't come between us, I see a great future for us both if we work together.
+  - **Azzanadra:** There is no denying that Guthix was immensely powerful. It is a shame that it had to come to that.
+  - (continue)
+- (Condition: If the player sided with Zaros:)
+  - **Azzanadra:** Ah yes. You were a great ally to us there, thank you.
+  - **Azzanadra:**I will be sure to tell Zaros your part in it when I can.
+  - **Azzanadra:** Of course, I had hoped we could avoid Guthix's death. But that is not of your doing.
+  - **Azzanadra:** There is no denying that Guthix was immensely powerful. It is a shame that it had to come to that.
+  - (continue)
+- (Condition: If the player chose to kill Guthix:)
+  - **Azzanadra:** Ah, yes. You surprised us all that day.
+  - **Azzanadra:** I had hoped to avoid Guthix's death, but both of our plans would have come to the same end.
+  - **Azzanadra:** The edicts are broken, and that's all that matters.
+  - **Azzanadra:** There is no denying that Guthix was immensely powerful. It is a shame that it had to come to this.
+  - (continue)
+- **Player:** Isn't Sliske Zarosian? It didn't look to me like he was trying to avoid bloodshed.
+- **Azzanadra:** We may be united in our devotion to Zaros, but Sliske and I are not one and the same.
+- **Azzanadra:** We had many centuries to discuss the possibility of discovering Guthix's location; so we had plenty of time to argue what should be done.
+- **Azzanadra:** We were not all united. My brothers, Wahisietel and Akthanakos, agreed that Guthix did not need to die. Sliske disagreed; sometimes I think just for the sake of disagreeing. However, he did eventually align with the majority.
+- **Azzanadra:** We couldn't quite believe our luck when it was you who discovered the entrance to Guthix's chambers. Our plan had not extended beyond letting the others exterminate each other before we stepped in.
+- **Azzanadra:** Sliske came to you and proposed our view; we believed he truly agreed with it.
+- **Azzanadra:** Of course, you should never believe anything Sliske tells you.
+- **Player:** So what happened after that?
+- **Azzanadra:** The next part of the plan; Sliske released Nex from her icy cage while I notified Char. It felt momentous; Zaros' true followers, together again.
+- **Azzanadra:** But then Sliske disappeared. This isn't unusual, of course. Besides, we didn't have time to chase him down. We arrived at the chambers, and well...you saw the rest.
+- **Azzanadra:** Sliske was lying to us the whole time. He never believed Guthix should live.
+- **Player:** What will happen to Sliske?
+- (Condition: After Fate of the Gods:)
+  - **Azzanadra:**  I do not know, and I no longer care. So long as he does not interfere with Zaros's plans, of course.
+- (Condition: Before Fate of the Gods:)
+  - **Azzanadra:** Sliske may have betrayed our trust, but he killed Guthix in the name of Zaros.
+  - **Azzanadra:** However you look at it, the edicts have been broken, paving the way for Zaros' return.
+  - **Azzanadra:** Sliske did us all a service, even if we would not agree with his methods.
+  - **Azzanadra:** Sliske has always been his own master; we could blame ourselves for believing he would do anything else.
+  - [Menu]: What would you like to say?
+    - [Choice]: What about killing a god? Will that change him?
+      - **Player:** What about killing a god? Will that change him?
+      - **Azzanadra:** An interesting question. We know all too well that is how Zamorak gained his power. I have not heard anything from him since the event, but then he is only ever in touch when it suits him.
+      - **Player:** Do you think Sliske was trying to become a god?
+      - **Azzanadra:** No, I have known Sliske for my entire life. I do not believe he would ever strive for that. He is a faithful supporter of Zaros, and he has no wish to rule. It would be far too much responsibility for him.
+    - [Choice]: Where did he get the Staff of Armadyl?
+      - **Player:** Where did he get the Staff of Armadyl?
+      - **Azzanadra:** I suppose he must have lingered at the ritual site. A foolish decision if you ask me; the dragonkin are not an enemy to be played with.
+    - [Choice]: Will Zaros return now?
+      - **Player:** Will Zaros return now?
+      - **Azzanadra:** The destruction of the edicts has certainly set things in motion.
+      - **Azzanadra:** It is refreshing not to have to sneak around, however we cannot act just yet.
+      - (Condition: Before the Battle of Lumbridge:)
+        - **Azzanadra:** The other gods and their followers will be watching intently for the first move. Even Saradomin has returned yet not acted. We must plan our path carefully.
+      - (Condition: After the Battle of Lumbridge:)
+        - **Azzanadra:** Saradomin and Zamorak rushed into battle, like the fools they are. They do not understand the advantages of patience, and subtlety. We Zarosians will plan our paths carefully.
+
+#### After Missing, Presumed Death
+
+- (Condition: If the player sided against Zaros in Missing, Presumed Death:)
+  - **Azzanadra:** Ah, yes. I was disappointed to hear that you did not champion the cause of Zaros, Player.
+  - **Azzanadra:** The Empty Lord has been watching, the events that transpired fit perfectly into his plans. He is aware of your actions, of course.
+  - (continue)
+- (Condition: If the player sided with Zaros in Missing, Presumed Death:)
+  - **Azzanadra:** Ah, yes. I have heard how you championed the cause of Zaros in the face of the other gods. The Empty Lord is most pleased with you.
+  - **Azzanadra:**  He knows everything that happened of course, the events that transpired fit perfectly into his plans.
+  - (continue)
+- [Menu]: Select an Option
+  - [Choice]: Do you still see Sliske as a Zarosian?
+    - (Condition: Before Fate of the Gods:)
+      - **Azzanadra:**  Unfortunately I cannot condone his actions. He has always acted on his own accord, but this time he has gone too far.
+      - **Azzanadra:** Even if his games play into Zaros' favour, Sliske's motives are unclear. I cannot gamble on his loyalty.
+      - **Azzanadra:** As for becoming a god, I see no reason to believe he has ascended. I'm sure if he had the effects would show by now.
+      - **Azzanadra:** If he really is a god, he's concealing it well. Although he has undoubtedly increased in power.
+      - (other)
+    - (Condition: After Fate of the Gods:)
+      - **Azzanadra:**  Alas, no more. He seemed to think he was, but Zaros disagreed.
+      - (other)
+  - [Choice]: Are you in contact with Zaros?
+    - (Condition: Before Fate of the Gods:)
+      - **Azzanadra:** I have been in communication with him, yes. My diligence and unwavering loyalty have earned me his trust, and I will play a vital role in his return.
+      - **Azzanadra:** It will not be long before his arrival, adventurer. Finally the Empty Lord will regain control of Gielinor.
+      - **Azzanadra:** Those who oppose him will fall, and finally he will have his revenge on the usurper Zamorak. It is long overdue.
+      - **Azzanadra:** Prove yourself worthy and perhaps you too will have a part to play.
+      - (other)
+    - (Condition: After Fate of the Gods:)
+      - **Azzanadra:**  Of course! The ruins of Senntisten are his home here on Gielinor. We have much planning to do!
+      - (other)
+  - [Choice]: Will you try and obtain the Stone of Jas?
+    - **Azzanadra:** The temptation of elder god energy is strong I must admit. The stone is a powerful artefact.
+    - **Azzanadra:** But I'm not interested in ascension like those power-hungry Zamorakians. Their aims are purely selfish, whilst I remain loyal to Zaros.
+    - (Condition: Before Fate of the Gods:)
+      - **Azzanadra:** If my lord desires the stone, then I and the other Zarosian Mahjarrat will do everything within our power to obtain it.
+      - (other)
+    - (Condition: After Fate of the Gods:)
+      - **Azzanadra:** Zaros wishes to keep the Catalyst, as he calls it, out of the hands of others...along with other elder artefacts.
+      - (other)
+  - [Choice]: That's all, farewell.
+    - (end)
+
+#### After Fate of the Gods
+
+- (Condition: If the player has not yet claimed the Survivor's lamp:)
+  - **Azzanadra:** Before anything else, I have been instructed to reward you further.
+  - (receives=Survivor's lamp (combat skills))
+  - Azzanadra hands you a combat lamp.  It can be used up to three times.
+  - **Azzanadra:** Now that is out of the way, what would you ask of me?
+  - (continue)
+- **Player:** So, about Zaros's return...
+- (Condition: If Zaros was given a dark simulacrum:)
+  - **Azzanadra:** It was a truly joyous occasion.
+  - **Azzanadra:** I suspected Sliske would attempt to coerce you - that was unavoidable - but my faith in you was well placed.
+  - **Azzanadra:** I hope you do not regret your actions.
+  - [Menu]: Are you happy with your decision?
+    - [Choice]: I'm happy!
+      - **Azzanadra:** Back at the height of the empire, had someone told me that Zaros would be banished from this world, I would not have believed it.
+      - **Azzanadra:** After his banishment, had someone told me that a mere human would be the one to return him, I would have laughed.
+      - **Azzanadra:** These things have taught me humility, a trait others of my kind lack.'''
+      - **Azzanadra:** But I'm not entirely sure you are human anymore. No, you are something else now. I am glad you are on our side.
+      - **Azzanadra:** Now that is out of the way, what would you ask of me?
+      - (continue|zaros-here)
+    - [Choice]: I regret it.
+      - **Azzanadra:** I suppose I can understand your reservations. Zaros is an unknown quantity to you.
+      - **Azzanadra:** I can only imagine that he managed to impress upon you the gravity of our situation.
+      - **Azzanadra:** I trust at least you can see the need for his return, even if you cannot be happy about it.
+      - **Azzanadra:** Being World Guardian requires you to make difficult decisions that affect us all. You do not have the luxury of personal bias.
+      - **Azzanadra:** Now that is out of the way, what would you ask of me?
+      - (continue|zaros-here)
+- (Condition: If Zaros was given a light simulacrum:)
+  - **Azzanadra:** Be very careful what you say here, 'World Guardian'. If I were not under orders from Zaros...
+  - **Azzanadra:** But I would know this: do you regret your choice?
+  - [Menu]: Do you regret your decision?
+    - [Choice]: Yes.
+      - **Azzanadra:** That...is a start, but know that there is not one word you could say to me to repair the damage you have done.
+      - **Azzanadra:** If you truly regret your choice, prove that with actions, not words. For so long as Zaros lives, you need not fear retribution.
+      - **Azzanadra:** But if he dies before his plan is complete, then no amount of apology or regret will keep my hands from your throat.
+      - **Azzanadra:** In time - if you prove yourself to me again - I may be able to forgive you.
+      - **Azzanadra:** Now that is out of the way, what would you ask of me?
+      - (continue|zaros-here)
+    - [Choice]: No.
+      - **Azzanadra:** In the short time I have known you, your powers have grown considerably.
+      - **Azzanadra:** You have a remarkable inner strength, and a capacity to overcome any obstacle. I doubt it will be long before you can stand up even to one of my kind. I have been honoured to call you a friend.
+      - **Azzanadra:** But, if Zaros dies as a result of your actions, do not think for one second that any of that will save you. I will pour every ounce of my strength into your destruction.
+      - **Azzanadra:** Nothing will stop me! Do you understand? Nothing!
+      - **Player:** ...
+      - **Azzanadra:** Now that that is out of the way, what would you ask of me?
+      - **Player:** Is Zaros here?
+      - **Azzanadra:** He returns here regularly, but is mostly familiarising himself with this world again.'''
+      - **Azzanadra:** He watches from the Shadow Realm - gods, dragonkin and mortals alike.
+      - **Azzanadra:** There is much work left to do, for which we must prepare.
+      - **Player:** Can I talk to him?
+      - **Azzanadra:** If you wish to converse with him, use the Shard of Zaros in the Sanctum on Freneskae.
+      - **Azzanadra:** We shall contact you when you are needed.
+
+#### After Heart of Stone
+
+
+##### Telling him information
+
+- **Azzanadra:** I hear you have news on the elder gods?
+- [Menu]: {{Tmissing}}
+  - [Choice]: Tell Azzanadra about the mouthpieces.
+    - **Player:** I discovered a number of living statues that referred to themselves as the mouthpieces of the elder gods. They referred to themselves as Kra, in Tzhaar language.
+    - **Azzanadra:** Fascinating, well found. Where did you find them?
+    - **Player:** FulKra was found under the Karamjan volcano.
+    - **Azzanadra:** Yes, that makes sense. My research indicates that Ful was closeley affiliated with with the early Tzhaar.
+    - **Player:** BikKra was found under Entrana.
+    - **Azzanadra:** No accounting for taste, still I imagine those detestable monks came later.
+    - **Player:** WenKra was found under White Wolf Mountain.
+    - **Azzanadra:** Really? Not where I imagined...which could me more concerning than you might think.
+    - **Player:** Care to explain?
+    - **Azzanadra:** In time Player, in time. Where were we?
+    - **Player:** JasKra was found in the Kharidian Desert, east of Sophanem.
+    - **Azzanadra:** Interesting. My studies had suspected as much. Still that's all of them accounted for now yes?
+    - **Player:** There was one more chamber. In Lumbridge, beneath the catacombs.
+    - **Azzanadra:** But Mah never made it to Gielinor... Unless...No, best not to leap to speculation just yet. So now we have a starting point, something that may help us find the Elder Halls.
+    - **Azzanadra:** Did you learn anything else?
+    - (Condition: If the player still has other dialogue options to pick:)
+      - {{Tmissing}}
+    - (Condition: If the player has picked all three dialogue options:)
+      - (continue|reward)
+  - [Choice]: Tell Azzanadra about Xenia.
+    - **Player:** Xenia was trying to drain the anima mundi from the mouthpieces. She wanted to siphon it off Gielinor.
+    - **Azzanadra:** What? What madness? Where was she siphoning it?
+    - **Player:** Into the Abyss.
+    - **Azzanadra:** Stupid woman, the consequences...
+    - **Player:** According to an ancient abyssal entity, she may have set in motion something terrible.
+    - **Azzanadra:** They could already be waking up because of her actions? So time is no longer an ally. We must redouble our efforts.
+    - **Azzanadra:** Did you learn anything else?
+    - (Condition: If the player still has other dialogue options to pick:)
+      - {{Tmissing}}
+    - (Condition: If the player has picked all three dialogue options:)
+      - (continue|reward)
+  - [Choice]: Tell Azzanadra about Kipple.
+    - **Player:** I befriended an intelligent golem that learns over time. It was able to track down energy traces and lead us to the mouthpieces.
+    - **Azzanadra:** A most remarkable tool, perhaps we can turn him to our mission?
+    - **Azzanadra:** Did you learn anything else?
+    - (Condition: If the player still has other dialogue options to pick:)
+      - {{Tmissing}}
+    - (Condition: If the player has picked all three dialogue options:)
+      - **Player:** No, that's it really.
+      - **Azzanadra:** It is more than I could have asked for, thank you Player.
+      - Azzanadra rewards you for the information you have brought him.
+
+##### Talking to him afterwards
+
+- **Azzanadra:** Ah yes, the elder gods. With everything I learn about them, they become more fascinating and terrifying.
+- [Menu]: What do you want to talk about?
+  - [Choice]: Azzanadra's mission
+    - **Azzanadra:** I have been tasked with seeking out the Elder Halls on Gielinor.
+    - **Azzanadra:** Where the elder gods rest even now.
+    - **Azzanadra:** A most important task. But not an easy one, I will need your help Player to seek it out.
+    - **Azzanadra:** All I know so far, is that the elder gods are here on Gielinor and that they are linked to those mouthpieces you discovered when hunting Xenia.
+    - **Azzanadra:** Perhaps we can use those mouthpieces to discover the elder halls, I shall investigate.
+    - (Condition: If Azzanadra has not visited JasKra:)
+      - **Azzanadra:** I have sent agents to each of the mouthpieces and will be visiting JasKra myself shortly.
+      - **Azzanadra:** Perhaps I will learn something of value there.
+      - **Azzanadra:** Come back to me after I have done so, I may know more.
+      - (previous|elder-gods-options)
+    - (Condition: If Azzanadra has visited JasKra:)
+      - **Azzanadra:** I visited the chamber of the mouthpiece JasKra. Sadly it told me nothing directly, but all those observation crystals were fascinating.
+      - **Azzanadra:** Oh if my fellow Mahjarrat only knew how many of their secrets were revealed to me there.
+      - **Azzanadra:** But I digress. I have begun to use those observations to help me pinpoint the Elder Halls.
+      - **Azzanadra:** It's a difficult task, as they are unsurprisingly well hidden. I have however obtained an item that may prove useful in the future.
+      - (Condition: If the player does not have the blank observation:)
+        - **Azzanadra:** Here. I obtained an empty observation crystal from JasKra. I am trusting you with this Player.
+        - (previous|elder-gods-options)
+      - (Condition: If the player has the blank observation:)
+        - **Azzanadra:** Keep it safe Player as it may be vitally important in the days ahead.
+        - (previous|elder-gods-options)
+  - [Choice]: What are the elder gods?
+    - **Azzanadra:** They are the creators of everything and perhaps the greatest threat to this world.
+    - **Azzanadra:** Beings of immense power, yet seeming to have little or no concern for the wellbeing of other life. If they even acknowledge other life at all.
+    - **Azzanadra:** We know that when they awaken from Gielinor, there is a distinct possibility that they will tear the entire planet apart.
+    - **Azzanadra:** It will be left like Freneskae, barren, inhospitable and dying.
+    - **Azzanadra:** Thanks to Xenia's reckless actions, we have a vague idea of where they are resting.
+    - **Azzanadra:** Wen rests under White Wolf mountain somewhere.
+    - **Azzanadra:** Ful resides somewhere around the Karamjan volcano.
+    - **Azzanadra:** Bik sleeps beneath Entrana. Likely lulled into sleep by the tedium of the monks chatter, but I digress.
+    - **Azzanadra:** Jas, creator of that most dangerous artefact the Stone of Jas, slumbers beneath the Kharidian desert.
+    - (Condition: {{Transcript missing|(unknown conditional)):}}
+      - [Menu]: Select an Option
+        - [Choice]: But I found Wen's chronicle on Ice Mountain.
+          - **Player:** But I found Wen's chronicle on Ice Mountain. I thought the measure showed where they were resting?
+          - **Azzanadra:** That...is concerning.
+          - **Player:** How so?
+          - **Azzanadra:** The Measure is an elder artefact and therefore not prone to making mistakes.
+          - **Azzanadra:** And the mouthpieces are tied to the elder gods in some fashion.
+          - **Azzanadra:** Everything we know of the elder gods says that this must be true. Which means...
+          - [Menu]: Select an Option
+            - [Choice]: That Wen must be under both mountains!
+              - **Player:** That Wen must be under both mountains!
+              - Azzanadra seems dissapointed{{Sic}} that you interrupted him.
+              - (continue|wen-under-both-mountains)
+            - [Choice]: [Say nothing.]
+              - **Azzanadra:** Which means that Wen must be under both mountains.
+              - [Menu]: Select an Option
+                - [Choice]: How is that possible?
+                  - **Player:** How is that possible?
+                  - **Azzanadra:** I have two theories, neither is particularly comforting.
+                  - **Azzanadra:** The first is that Wen is so phenomenally large, that she resides underneath both mountains and everything in between.
+                  - **Azzanadra:** The second is that Wen is resting in both places. Broken somehow, like the ice she represents, and resting under both mountains.
+                  - (continue|wen-chronicle-say-nothing)
+                - [Choice]: [Say nothing.]
+                  - **Azzanadra:** A disturbing thought, I'm sure you agree.
+                  - (continue|wen-chronicle-say-nothing)
+        - [Choice]: [Say nothing.]
+          - (below|wen-chronicle-say-nothing)
+    - (Condition: {{Transcript missing|(unknown conditional)):}}
+      - **Player:** And the other chamber, the one in Lumbridge?
+      - **Azzanadra:** Perhaps it is the chamber of Mah, which makes little sense seeing as she never arrived here.
+      - **Azzanadra:** But then again it could be for...no, enough speculation.
+      - **Player:** What do you mean?
+      - **Azzanadra:** Nothing nothing, a preposterous theory. One that I wont{{Sic}} repeat because it will only confuse matters.
+      - (previous|elder-gods-options)
+  - [Choice]: Xenia's actions.
+    - **Azzanadra:** Stupid, arrogant woman. To take an action that has endangered everyone, for some misguided sense of the greater good.
+    - **Azzanadra:** I am grateful you stopped her from completing her foolish ritual.
+    - **Azzanadra:** Had she succeeded then all of our work could have been undone.
+    - **Azzanadra:** But even now she has set in motion a chain of events that could lead to catastrophe.
+    - **Azzanadra:** I have faith that my lord, Zaros, will be able to overcome her recklessness. But time is not on our side.
+    - (previous|elder-gods-options)
+  - [Choice]: That's all, thanks.
+    - (end)
+
+#### After The Light Within
+
+
+##### If the player kicked the dark shard into the abyss
+
+- **Azzanadra:** Yes. My lord has informed me of her return.
+- **Azzanadra:** I am disappointed that you did not fully restore her.
+- (Condition: If the player sacrificed Eluned:)
+  - **Azzanadra:** You of all people should know that we cannot just cast aside of our mistakes and our darker impulses.
+  - (continue)
+- (Condition: If the player also did not sacrifice Eluned:)
+  - **Azzanadra:** Eluned may have been your friend, but she was part of Seren also. She should have returned to Seren.
+  - (continue)
+- **Azzanadra:** Now Seren is incomplete and who knows what complications that might have.
+- **Azzanadra:** My lord thinks fondly of her, though I know the two do not see eye to eye.
+- **Azzanadra:** I only hope that she isn't blinded by petty hatred still.
+- (initial|After additional quests have been completed)
+
+##### If the player took the dark shard to restore Seren
+
+- **Azzanadra:** Yes. My lord has informed me of her return.
+- **Azzanadra:** I am pleased to see you had the sense to restore Seren fully.
+- **Azzanadra:**I can think of few things as dangerous as a god of her power driven mad by incompleteness.
+- **Azzanadra:** My lord thinks fondly of her, though I know the two do not see eye to eye.
+- **Azzanadra:** I only hope that she isn't blinded by petty hatred still.
+- (initial|After additional quests have been completed)
+
+#### After Sliske's Endgame
+
+- [Menu]: Select an Option
+  - [Choice]: What is Zaros doing now?
+    - **Azzanadra:** My lord has returned here after the affair. He was invigorated and determined in a way I have not seen him in some time.
+    - **Azzanadra:** He has left this world for the moment, seeking something beyond the stars.
+    - **Azzanadra:** He has requested I prepare the temple for his return, a task that I am more than happy to attend to.
+    - (previous)
+  - [Choice]: How did the dragonkin destroy the stone?
+    - **Azzanadra:** Yes, when my lord mentioned what happened to the stone it left me quite confused.
+    - **Azzanadra:** I have consulted my notes on the dragonkin and the adventures you have shared together and I believe I have a theory.
+    - **Azzanadra:** I believe that you are the reason Kerapac was able to do this action.
+    - **Azzanadra:** When you worked with Kerapac, in exchange for healing Hannibus, Kerapac was studying the link between a dragonkin and the stone.
+    - **Azzanadra:** A powerful magical tether binding the species and the artefact together.
+    - **Azzanadra:** We already know from the terrible affair with the late god V that the Mirror can be used to channel, multiply and redirect energy.
+    - **Azzanadra:** Combine this with the vast Anima Mundi flowing in the Heart and I think we can easily establish what happened. Don't you agree?
+    - [Menu]: Select an Option
+      - {{topt|Yes, I think I understand.}}
+        - **Azzanadra:** I thought you might. Still, defying the designs of an elder god cannot go without consequence.
+        - **Azzanadra:** I imagine we are yet to see what the full ramifications of this act will be.
+        - (previous2)
+      - [Choice]: No, I still don't know.
+        - [Azzanadra is disappointed.]
+        - **Azzanadra:** Clearly brains are not a key component of being a World Guardian.
+        - **Azzanadra:** Think of it this way. What happens if you keep filling a waterskin with water? Eventually it bursts.
+        - **Azzanadra:** Now, instead of water, imagine a vast flowing river of energy channeled through Kerapac's connection to the stone.
+        - **Azzanadra:** In this analogy, the stone is the waterskin. Too much power, stone goes boom.
+        - (previous2)
+  - [Choice]: I met Jas!
+    - **Azzanadra:** Yes. I can only imagine what a humbling experience that must have been, to be an ant gazing at the shoe.
+    - **Azzanadra:** And of course now you are tasked with the unenviable responsibility of proving that all life should be allowed to exist.
+    - **Azzanadra:** I suggest from now on, you are on your best behaviour.
+    - (previous)
+  - [Choice]: Goodbye.
+    - (end)
+
+### At the Glacor Front
+
+
+#### Talk to
+
+- ((On first time:))
+  - **Azzanadra (Hardmode):** Stand fast, mages of Gielinor! This foe will not relent - your minds must be as steel!
+  - **Azzanadra (Hardmode):** World Guardian. You're late.
+  - **Player:** Someone's feeling better.
+  - **Azzanadra (Hardmode):** Yes. It took me some time to recover from teleporting the Elder Gods' eggs, but now I'm quite revived.
+  - **Azzanadra (Hardmode):** Ahh. This cold is rather bracing, once you get used to it. And what better morning constitutional than a bout with an Arch-Glacor?
+  - (continue)
+- ((After the first time:))
+  - **Azzanadra (Hardmode):** Hello again, World Guardian.
+  - (continue)
+- [Menu]: Choose an option:
+  - [Choice]: What's your role here?
+    - **Azzanadra (Hardmode):** An Arch-Glacor's potential power is staggering. If defeated, it will simply return - stronger than ever before.
+    - **Azzanadra (Hardmode):** I can directly oppose its onslaught - holding it fast with my magic so it does not reach the Cathedral.
+    - **Azzanadra (Hardmode):** I can also suppress its regenerative capabilities. While I do so, it will still come back if destroyed, but only at its base level of power.
+  - [Choice]: cond=With hardmode toggled off|Take a break. I can handle this.
+    - ((Without hardmode unlocked:))
+      - **Azzanadra (Hardmode):** I will stand down only once you have proven that you can handle the Arch-Glacor without the assistance of the other mages.
+    - ((With hardmode unlocked:))
+      - **Azzanadra (Hardmode):** Without my magic holding it back, you would need to fight that abomination yourself. And you would... willingly allow it to grow in strength?
+      - **Azzanadra (Hardmode):** If you were anyone but the World Guardian I would dismiss this outright. But you might just do it... And I would welcome the opportunity to replenish my strength.
+      - If Azzanadra stops channelling his spell, you will experience the 'Hard Mode' variant of the Arch-Glacor fight. Its power will scale up with every boss kill. Are you sure?
+      - [Menu]: Select an Option
+        - [Choice]: Yes, Bring
+          - **Azzanadra (Hardmode):** So be it. I am here to step back in, should you need it.
+          - The encounter is now in hard mode.
+        - [Choice]: Actually, wait!
+          - **Azzanadra (Hardmode):** This is no ordinary foe. There is no shame in backing down.
+  - [Choice]: cond=With hardmode toggled on|Could you start suppressing the Arch-Glacor's power again?
+    - **Azzanadra (Hardmode):** It shall be done.
+    - The encounter is now in normal mode.
+    - Azzanadra is now blocking the Hard Mode variant of the Arch-Glacor. Speak to him again to re-activate it.
+  - [Choice]: cond=With hardmode unlocked|(Discuss Hard Mode and Enrage)
+    - [Menu]: Select an Option
+      - [Choice]: (Reset your Enrage)
+        - ((If the Arch-Glacor is at 0% Enrage:))
+          - **Azzanadra (Hardmode):** The Arch-Glacor has yet to become enraged.
+          - (previous|azzanadra-enrage)
+        - ((If the Arch-Glacor is at over 0% Enrage:))
+          - **Azzanadra (Hardmode):** You wish to quell the Arch-Glacor?
+          - [Menu]: Your streak and unclaimed loot will be forfeit if you reset.
+            - [Choice]: Yes, reset my Enrage.
+              - **Azzanadra (Hardmode):** It is done.
+              - (previous|azzanadra-glacor)
+            - [Choice]: No, don't reset.
+              - **Azzanadra (Hardmode):** Very well. I shall leave it at its current strength.
+              - (previous|azzanadra-glacor)
+      - [Choice]: What will happen if I fight without your help?
+        - **Azzanadra (Hardmode):** The more times you face the Arch-Glacor, the more enraged the elemental will become.
+        - **Azzanadra (Hardmode):** Its power can increase to an order of 4,000. We calculate that to be its maximum potential.
+        - **Azzanadra (Hardmode):** Should it become too much of a force, I can use my magic to limit its power once again. If you were anyone but the World Guardian I would dismiss this outright, but I can also allow it to gain further strength if you so wish.
+        - When you defeat the Arch-Glacor, you will be able to choose between collecting your rewards immediately or risking them. If you choose to risk your rewards, its Enrage will increase, making the fight more difficult.
+        - If you choose to risk your rewards and fail to defeat the Arch-Glacor, you will lose all of your uncollected rewards. You will have a chance to use your bank between kills, however.
+        - Defeating the Arch-Glacor at higher levels of Enrage will significantly increase your chance at receiving high-value rewards.
+        - Should it become too difficult to defeat, choosing to collect your rewards will reset its Enrage and allow you to start again at a lower difficulty.
+        - Defeating the Arch-Glacor consecutive times and allowing its enrage to increase will add to your current streak. A higher streak increases the quantity of items you receive and also increases your chances at higher value rewards.
+        - (previous|azzanadra-enrage)
+      - [Choice]: Talk about other things.
+        - (previous|azzanadra-glacor)
+  - [Choice]: So how does it feel? Being a god, I mean.
+    - **Azzanadra (Hardmode):** Unlike some of my fellow Mahjarrat, I never spent a great deal of time yearning for divinity. My foremost concern was always the Empire.
+    - **Azzanadra (Hardmode):** And honestly? Being a god strikes me as... How should I put it?
+    - **Player:** Mind blowing?
+    - **Azzanadra (Hardmode):** Underwhelming.
+    - **Player:** Oh.
+    - **Azzanadra (Hardmode):** You must understand... I was a Mahjarrat - the direct issue of Mah. I was already an intrinsically divine being.
+    - **Azzanadra (Hardmode):** When I absorbed the energy of the Monolith, it changed my appearance and increased my power many times over.
+    - **Azzanadra (Hardmode):** Compared to a mortal being, though - whose corporeal form is fundamentally altered by ascension - my change was one of degree rather than state.
+    - **Player:** So you can't do anything new?
+    - **Azzanadra (Hardmode):** I wouldn't say that. I certainly wouldn't have been grappling an Arch-Glacor prior to my ascension.
+    - **Azzanadra (Hardmode):** Indeed, handling energies of such magnitude took some getting used to. Let's say that when you can level buildings with a word, you need to be careful where you sneeze.
+    - **Player:** The energy you absorbed. It looked... Well, shadowy.
+    - **Azzanadra (Hardmode):** Yes, the anima from the Monolith was...of a particular nature. But that is not so uncommon as you may think.
+    - **Azzanadra (Hardmode):** There is shadow in all of us, World Guardian. Not least of all you.
+    - **Azzanadra (Hardmode):** And I feel no ill effects. My mind is clear, my will is resolute, and my body is strong. That nasty twinge in my back seems to have gone, too.
+    - **Player:** How do you feel about Zaros? Now that you're a god too.
+    - **Azzanadra (Hardmode):** My lord's designs remain beyond my comprehension. Why would he retreat into the Shadow? Why would he unleash this terror upon his faithful?
+    - **Azzanadra (Hardmode):** Perhaps this is a test of our resolve. Or perhaps my lord is in contention with some unseen foe. It is of no consequence.
+    - **Azzanadra (Hardmode):** God I may be, but my role remains the same. I am ever his humble servant, and his regent until he deigns to return.
+
+#### Toggle hardmode
+
+
+##### With hardmode toggled off
+
+- (above|hardmode-on)
+
+##### With hardmode toggled on
+
+- {{Transcript missing}}
+
+#### After dying to Arch-Glacor in normal mode
+
+- ((Random one of the following is seen:))
+  - **Azzanadra:** Aren't you normally better at this?
+  - **Azzanadra:** Be careful World Guardian, you are still needed.
+  - **Azzanadra:** Do you enjoy being on the brink of death?
+  - **Azzanadra:** How disappointing.
+  - **Azzanadra:** How many times have I saved you now?
+  - **Azzanadra:** Perhaps you ought to warm up first next time.
+  - **Azzanadra:** Well... that went well.

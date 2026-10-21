@@ -1,0 +1,185 @@
+# Ben
+
+- **Original Wiki Page**: [Transcript:Ben](https://runescape.wiki/w/Transcript%3ABen)
+- **Letter**: `B`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Before unlocking 'Accidental' Fletching and Firemaking
+
+- **Ben:** ¡Waaaaah!
+- **Player:** Hola, ¿qué estás haciendo?
+- **Ben:** Estoy estancado. Estaba de aventuras con mi hermano, Bill. Empecé a trepar a un árbol cuando de repente...
+- **Ben:** ...Acabo de aparecer aquí. ¡Creo que el árbol es mágico!
+- **Player:** Bueno, mirando al otro lado de la orilla puedo ver un árbol del mismo tipo. Quizás si vuelves a subirlo te teletransportará de regreso a tu hermano.
+- **Ben:** ¡Waaaaaaah!
+- **Ben:** ¡Aunque tengo miedo de escalar!
+- **Player:** Espera un segundo, te metiste en este lío porque trepaste a un árbol. ¿Pero tienes miedo de escalar?
+- **Ben:** ¡Waaaaaaah!
+- **Ben:** Me quedaré quieto por ahora.
+- **Player:** Haz lo que quieras.
+
+### After unlocking 'Accidental' Fletching and Firemaking
+
+- ((Antes de comenzar a progresar en Egg McGuffin:))
+  - **Ben:** Ah, hola. ¡Soy Ben, un estilista zigopoderoso!
+  - (continue)
+- Elige una opción:
+  - ¿Qué es un 'carestylist'?
+    - **Ben:** ¡Yo! Soy estilista. Uno cigopoderoso.
+    - **Ben:** Es justo lo que un cigomita necesita cuando tenemos un mal día de cuidados. Un poco de mimo. Recorte de cutículas y movimiento de barbilla.
+    - **Player:** ¿Estás seguro de que no te refieres a "peluquero"?
+    - **Ben:** Los zigomitas no tienen pelo como los tontos humanos.<br>Tenemos cutículas.
+    - **Ben:** Hmm, tal vez lo llame "limpieza de cutículas". Aún no lo he decidido. 'Bill & Ben, las dos cutículas'. Suena bien, ¿eh?
+    - **Player:** No parece que estés haciendo mucho 'cuidado'.<br>Tus clientes están haciendo cola.
+    - **Ben:** Bueno, eso es porque necesito un aprendiz para trabajar, mientras yo administro el salón.
+    - **Player:** Hay mucha delegación en esta línea de producción, ¿no?
+    - (previous|Ben-options)
+  - ¿Eres responsable de los huevos grandes al norte de aquí?
+    - **Ben:** Oh, sí. Prometí ordenar la pila de huevos de dinosaurio de Galgalar, ¿no?
+    - **Ben:** ¡Me emocioné tanto con el diseño que lo olvidé!
+    - **Ben:** Buenos huevos en su incubadora rápida. Huevos podridos en el caldero rápido: contenedor de abono. Eso fue todo. Tal vez. ¿O fue al revés?
+    - **Ben:** No es que no me importe incubar los huevos. Pero ahora me preocupo aún más por este salón.
+    - **Ben:** Y la única manera que conozco de que algo me importe menos es poner toda mi energía en ello hasta que pueda concentrarme en otra cosa.
+    - **Player:** Lo mejor es dejar los huevos donde están. Alguien vendrá e incubará los huevos buenos para Galgalar. No es necesario que te involucres.
+    - **Ben:** ¿Estás usando micología inversa conmigo?
+    - (previous|Ben-options)
+  - [Hablar de ayudar en el salón.]
+    - **Player:** ¿Cómo puedo ayudarte a gestionar tu nuevo salón?
+    - ((Con menos de 82 Fletching:))
+      - **Ben:** Tus vides no parecen lo suficientemente fuertes para ayudar en el salón.
+      - **Player:** El tuyo tampoco...
+      - ((Se muestra en una ventana emergente:))
+        - Necesita 82 Fletching o Firemaking para cortar o secar las cutículas de zigomita.
+        - (continue)
+      - (previous|Ben-options)
+    - ((Con al menos 82 Fletching:))
+      - ((La primera vez:))
+        - (Action: La cámara se desplaza hacia los cigomitas desaliñados.)
+        - **Ben:** ¡Podrías ser mi aprendiz! Corta o seca las cutículas de un cliente en nuestros sillones de cuidado de lujo.
+        - **Player:** Supongo que te refieres a los medios barriles.
+        - (Action: La cámara vuelve a la normalidad.)
+        - **Ben:** ¡Sí! ¡Córtales o sécales las cutículas y tráeme algunas para demostrar que puedes hacerlo!
+        - (previous|Ben-options)
+      - ((Después de la primera vez sin eje fúngico templado:))
+        - **Ben:** ¿Dónde están las cutículas?
+        - Necesitas recolectar algunos ejes de hongos templados del cuidado del zigomita para mostrar Ben.
+      - ((Con un eje fúngico templado pero antes de haber completado Egg McGuffin:))
+        - Se muestran ejes fúngicos templados Ben.
+        - **Ben:** Sí, eso es exactamente lo que esperaba ver.
+        - (Action: La cámara se desplaza hacia los cigomitas desaliñados.)
+        - **Ben:** Deberías poder conseguir muchos tallos de hongos templados cortando y secando las cutículas de todos mis clientes.
+        - (Action: La cámara vuelve a la normalidad.)
+        - **Player:** Parece que serían buenos ejes resistentes para flechas.
+        - **Ben:** También puedes estirarlos.<br>¿Quizás eso sea útil?
+        - **Player:** Eso suena como una buena cuerda de arco. ¿Quizás debería intentar estirarlos en una rueca?
+        - **Ben:** ¿Por qué no? Puedes tomar tantos como quieras.
+        - **Player:** No estoy seguro de que sea tan generoso como crees.
+        - **Ben:** Hablando de no ser generoso, mi hermano Bill no me devolverá ningún fertilizante. No quiero que la abuela se enoje con nosotros.
+        - **Ben:** Él y una persona lagarto llamada Susan (¿creo?) deberían alimentar a los dinosaurios y probar el fertilizante.
+        - **Ben:** Si trepas a este árbol místico, te teletransportarás a mi hermano en la costa oeste.
+        - **Ben:** ¿Puedes preguntarle a Bill cuál es el retraso? Iría, pero tengo miedo de escalar.
+        - **Ben:** 'Felicidades por el trabajo bien hecho.
+        - **Ben:** ¡Ahora VUELVE A TRABAJAR, aprendiz!
+        - **Player:** Como jefe, esperaba que fueras más bien un hongo.
+        - **Ben:** Lo discutiremos en su próxima revisión del rendimiento de las esporas.
+        - **Player:** Oh, eres adorable. Lindo como un champiñón.
+        - {{RSFontAchievement|Egg McGuffin}}
+        - **Ben:** Tú también estás empezando a gustarme más.
+        - (previous|Ben-options)
+      - ((Después de haber completado Egg McGuffin:))
+        - (Action: La cámara se desplaza hacia los cigomitas desaliñados.)
+        - **Ben:** Deberías poder conseguir muchos tallos de hongos templados cortando y secando las cutículas de todos mis clientes.
+        - (Action: La cámara vuelve a la normalidad.)
+        - **Player:** Parece que serían buenos ejes resistentes para flechas.
+        - **Ben:** También puedes estirarlos.<br>¿Quizás eso sea útil?
+        - **Player:** Eso suena como una buena cuerda de arco. ¿Quizás debería intentar estirarlos en una rueca?
+        - **Ben:** ¿Por qué no? Puedes tomar tantos como quieras.
+        - **Player:** No estoy seguro de que sea tan generoso como crees.
+        - **Ben:** Hablando de no ser generoso, mi hermano Bill no me devolverá ningún fertilizante. No quiero que la abuela se enoje con nosotros.
+        - **Ben:** Él y una persona lagarto llamada Susan (¿creo?) deberían alimentar a los dinosaurios y probar el fertilizante.
+        - **Ben:** Si trepas a este árbol místico, te teletransportarás a mi hermano en la costa oeste.
+        - **Ben:** ¿Puedes preguntarle a Bill cuál es el retraso? Iría, pero tengo miedo de escalar.
+        - (previous|Ben-options)
+  - ¿Cómo llegaste aquí?
+    - **Ben:** Estaba de aventuras con mi hermano Bill, comencé a trepar a un árbol cuando de repente...
+    - **Ben:** ...Acabo de aparecer aquí. ¡Creo que el árbol es mágico!
+    - **Player:** Bueno, mirando al otro lado de la orilla puedo ver un árbol del mismo tipo. Quizás si vuelves a subirlo te teletransportará de regreso a tu hermano.
+    - **Ben:** ¡Waaaaaaah!
+    - **Ben:** ¡Aunque tengo miedo de escalar!
+    - **Player:** Espera un segundo, te metiste en este lío porque trepaste a un árbol. ¿Pero tienes miedo de escalar?
+    - **Ben:** ¡Waaaaaaah!
+    - **Ben:** Me quedaré quieto por ahora.
+    - **Player:** Haz lo que quieras.
+    - (previous|Ben-options)
+  - ((Solo después de comenzar el progreso de Potting Is Such Sweet Sorrow:))
+    - [Habla sobre la olla mágica de Bill]
+      - ((Sólo la primera vez:))
+        - **Player:** Tu hermano quiere que le devuelvas su olla mágica.
+        - **Ben:** ¿Qué me vas a dar?
+        - **Player:** Esto no es una negociación.
+        - **Ben:** ¿Qué me vas a dar?
+        - **Player:** Aparentemente esto ahora es una negociación.
+        - ¿Qué podría querer potencialmente Ben?
+        - ¿Una patata?
+          - **Ben:** No. Estoy reduciendo los carbohidratos.
+          - (previous|negotiations-with-ben)
+        - ¿Una tetera de chocolate?
+          - **Ben:** No. Inútil.<br>Y engorda.
+          - (previous|negotiations-with-ben)
+        - ¿Suplementos de potasio?
+          - **Ben:** ¿Qué?...<br>¿Qué?<br>No.
+          - (previous|negotiations-with-ben)
+        - ¿Un bote de harina?
+          - **Ben:** Mmm. Cerca. No lo traduciría.<br>Cada vez más cálido.
+          - (previous|negotiations-with-ben)
+        - ¿Una maceta?
+          - **Ben:** ¡Sí! Maceta vacía. Sin suciedad.
+          - **Ben:** He reunido mi propia suciedad sobre Bill.
+      - ((Después de la primera vez sin maceta vacía o llena y antes de haber recibido la maceta mágica:))
+        - **Player:** Como soy un ser humano racional, no ando con una maceta de repuesto. Vuelvo enseguida.
+        - (previous|Ben-options)
+      - ((Después de la primera vez con la maceta llena y antes de haber recibido la maceta mágica:))
+        - **Player:** Tengo una maceta para ti. Sólo necesita un poco de vaciado.
+        - **Ben:** ¡Dije 'sin suciedad'!
+        - **Player:** Oh, continúa.
+        - **Ben:** No.
+        - **Player:** Ah, vamos.
+        - **Ben:** ¡No!
+        - **Player:** Hazlo.
+        - **Ben:** No, uh.
+        - **Player:** ¡Hazlo!
+        - Ben suspira dramáticamente y pone los ojos en blanco. Luego se lleva la maceta a los labios y se lleva el contenido a la boca.
+        - Observas con horrorizada fascinación cómo Ben mastica un bocado de abono y luego lo traga ruidosamente. <<br>Es como escuchar cómo se desbloquea un desagüe.
+        - **Ben:** ¡ERUCTA! <br>'Disculpe.
+        - (removes=plant pot) (receives=magic pot)
+        - Ben reemplaza la maceta mágica con la maceta vacía y te regala la maceta mágica de Bill.
+        - **Ben:** Todo el mundo está contento. Dale esa olla mágica a Bill.
+      - ((Después de la primera vez con una maceta vacía y antes de haber recibido la maceta mágica:))
+        - **Player:** Resulta que tengo una maceta vacía para ti aquí mismo.
+        - (removes=plant pot) (receives=magic pot)
+        - Ben reemplaza la maceta mágica con la maceta vacía y te regala la maceta mágica de Bill.
+        - **Ben:** Todo el mundo está contento. Dale esa olla mágica a Bill.
+      - ((Después de haber recibido la olla mágica pero haberla perdido:))
+        - ((Sin espacio libre en backpack:))
+          - **Ben:** Encontré la olla mágica. Lo daría, pero tu backpack está lleno.
+          - (previous|Ben-options)
+        - ((Con espacio libre en backpack:))
+          - (receives=magic pot)
+          - **Ben:** Vaya. Aquí está la olla mágica. Dáselo a Bill.
+          - (previous|Ben-options)
+      - ((Con la olla mágica:))
+        - **Ben:** Todo el mundo está contento. Dale esa olla mágica a Bill.
+        - (previous|Ben-options)
+      - ((Después de haber completado Hacer macetas es un dolor tan dulce:))
+        - **Player:** ¿Qué estás cultivando en esa maceta?
+        - **Ben:** Flor.
+        - **Player:** Parece más bien malas hierbas en suelo húmedo.
+        - **Ben:** Malezas ahora.<br>Flor más tarde.
+        - (previous|Ben-options)
+  - Adiós.
+    - **Ben:** ¡Bai! Babap.

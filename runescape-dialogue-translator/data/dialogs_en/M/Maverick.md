@@ -1,0 +1,101 @@
+# Maverick
+
+- **Original Wiki Page**: [Transcript:Maverick](https://runescape.wiki/w/Transcript%3AMaverick)
+- **Letter**: `M`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Maverick:** 'Sup?
+- (Condition: If the player has not yet talked to Dotmatrix:)
+  - **Player:** Er, I'm not sure. What's going on here?
+  - **Maverick:** Ask Beardie 'ere. I don't wanna spill his beans.
+  - **Player:** Okaaay.
+- (Condition: After the player has talked to Dotmatrix:)
+  - **Player:** Dotmatrix told me you'd have practical information on what's going on down there?
+  - **Maverick:** That I do, yeh. Ya'll need skills if you want to survive down there. Many skills. Which d'ya wanna know about?
+  - [Menu]: Select an option
+    - [Choice]: Woodcutting skill.
+      - **Maverick:** Down in the caves, ya'll get them roots hanging down. With one of 'em hatchets, ya can give 'em the chop. They take a bit of hacking before ya get stuff off 'em. Hit'em once and they'll stop moving. Hit'em twice and you'll get
+      - **Maverick:** some wood. If them curly when you hack 'em, ya get firewood. If them straight, ya get a stick that's okay for fletching. At the back of the cave, there's that massive beastie. Queen, Beardie calls it. It's got roots around it
+      - **Maverick:** that feed it. If they go funny, like blue, spiked and twisted, cut'em. Beasties'll love ya for it. Don't cut them healthy ones tho', or the beasties'll get peeved. Fair, really. Anything else?
+      - [Menu]: Select an option
+        - [Choice]: Firemaking skill.
+          - (below|firemaking)
+        - [Choice]: Fletching skill.
+          - (below|fletching)
+        - [Choice]: Slayer skill.
+          - (below|slayer)
+        - [Choice]: Other advice.
+          - (below|other-advice)
+        - [Choice]: No, thanks.
+          - **Player:** No, thanks.
+          - **Maverick:** Righto!
+    - [Choice]: Firemaking skill.
+      - **Maverick:** Them caves down there are mighty damp. No way to light a proper fire normally. But there are some corridors which are dry enough that ya can burn stuff in firepits. If you have one of them tinderboxes, or a hard root (that's
+      - **Maverick:** one of them straight roots that's been hardened on a fire), then it's easy. Just cut some of them curly roots, and light fires in the corridors. Ya'll find the dry patches easily enough. If ya just got the curly wood, hope for
+      - **Maverick:** some other nutter to light a fire in the corridors. Then ya just have to throw your roots in. Them fires keep mutated beasties away from healthy ones. Healthy beasties'll like ya for it. Anything else?
+      - [Menu]: Select an option
+        - [Choice]: Woodcutting skill.
+          - (above|woodcutting)
+        - [Choice]: Fletching skill.
+          - (below|fletching)
+        - [Choice]: Slayer skill.
+          - (below|slayer)
+        - [Choice]: Other advice.
+          - (below|other-advice)
+        - [Choice]: No, thanks.
+          - (above|no-thanks)
+    - [Choice]: Fletching skill.
+      - **Maverick:** When you cut them straight roots, you get weapon material. Raw. What ya do is, ya harden them on a fire until they rock solid, yeah? Then ya fletch them. Ya'll need a knife. Ya'll get proper javelin-type shafts.
+      - **Maverick:** Primitive, yes, but efficient too. Once you got 'em shafts, ya need a vine. Ya get them from the funny vines behind the Queen, or by killing them mutated beasties. One shaft, one vine, you attach together and you have one killer
+      - **Maverick:** weapon. That's not all. Them mutated beasties may drop those boney-woody balls when ya kill them. Get two of these and one of the vines, and you get a great thing that tangles whatever you throw it at. They get stuck to the
+      - **Maverick:** ground, like by magic! Anything else?
+      - [Menu]: Select an option
+        - [Choice]: Woodcutting skill.
+          - (above|woodcutting)
+        - [Choice]: Firemaking skill.
+          - (above|firemaking)
+        - [Choice]: Slayer skill.
+          - (below|slayer)
+        - [Choice]: Other advice.
+          - (below|other-advice)
+        - [Choice]: No, thanks.
+          - (above|no-thanks)
+    - [Choice]: Slayer skill.
+      - **Maverick:** Now, the mutated beasties down there are a right piece o' work, right? Without a high Slayer level, there's no way ya'll be able to attack them. They don't like being poked, that's fair, but they won't let ya get away with it if ya do.
+      - **Maverick:** They have a sharp bite, blighters, so ya think, 'fine, I'll range them', yeah? Not a bad idea; they don't like stuff being thrown at them from a distance. Them primitive weapons ya can fletch down there, will do good damage.
+      - **Maverick:** But that doesn't mean they can't get at ya if ya try to hide. They use magic to get ya! And if ya think that it's okay, ya can protect yourself from magic, well they can still get ya. They communicate to them roots in the room,
+      - **Maverick:** ya see, and bid the ones next to ya to whip ya. Now, ya can cut them roots a bit beforehand and they won't attack ya. But there are lots of them, and they will grow back, and move, and attack ya again. Blasted creatures,
+      - **Maverick:** them mutated beasties. And what d'ya get? Fruits and seeds and stuff ya can use for Fletching. Tho the male ones, the mightiest, I wouldn't be surprised if they could drop something awesome yeah? But ya'll have to try it for
+      - **Maverick:** yourself. I ain't goin' back in there for the life of me! Anything else?
+      - [Menu]: Select an option
+        - [Choice]: Woodcutting skill.
+          - (above|woodcutting)
+        - [Choice]: Firemaking skill.
+          - (above|firemaking)
+        - [Choice]: Fletching skill.
+          - (above|fletching)
+        - [Choice]: Other advice.
+          - (below|other-advice)
+        - [Choice]: No, thanks.
+          - (above|no-thanks)
+    - [Choice]: Other advice.
+      - **Maverick:** Whatever ya do to help them healthy beasties, like cut bad roots, light fires or kill mutated beasties, they'll appreciate it. They not ungrateful creatures. They got an offering stone in the cave, and they'll put fruits and seeds
+      - **Maverick:** and stuff on it when ya do help them. Good to know if ya've taken a beating, yeah? Some of the fruits are special, too. Eat'em and you'll find they do nice things for ya. Try them and see. Tho them special fruits will become
+      - **Maverick:** plain and boring if you get too far away from the vine and its habitats. I guess the magic is only happenin' here. Finally, check around the back of the cave. Ya might find another way outta there, ya never know. Anything else?
+      - [Menu]: Select an option
+        - [Choice]: Woodcutting skill.
+          - (above|woodcutting)
+        - [Choice]: Firemaking skill.
+          - (above|firemaking)
+        - [Choice]: Fletching skill.
+          - (above|fletching)
+        - [Choice]: Slayer skill.
+          - (above|slayer)
+        - [Choice]: No, thanks.
+          - (above|no-thanks)

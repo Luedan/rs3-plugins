@@ -1,0 +1,151 @@
+# Saradomin
+
+- **Original Wiki Page**: [Transcript:Saradomin](https://runescape.wiki/w/Transcript%3ASaradomin)
+- **Letter**: `S`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+{{incomplete|Missing post-quest dialogues}}
+
+### In White Knights' Castle before Sliske's Endgame
+
+- *Antes de completar Desaparecido, Muerte Presunta:*
+  - **Saradomin:** Entonces, este es el Guardián Mundial. Creo que la frase estándar es "Esperaba a alguien más alto", pero no tengo ningún deseo de ofenderte este día.
+  - **Saradomin:** Supongo que no necesito presentarme. Mi religión ha sido la religión principal de la humanidad desde antes de que la humanidad abandonara Teragard.
+  - **Player:** ¿Por qué has vuelto ahora?
+  - **Saradomin:** Porque los otros dioses están aquí y cuando los dioses se reúnen significa que algo peligroso se acerca.
+  - **Saradomin:** Debo estar allí para ayudar a guiar a la gente hacia un resultado sensato, porque los dioses más jóvenes no son lo suficientemente sabios como para hacerlo sin mí.
+- *Después de completar Desaparecido, Muerte Presunta:*
+  - **Saradomin:** Hola de nuevo World Guardian<!-- different if not world guardian? -->. Supongo que habrás notado cómo las sombras han comenzado a caer de manera extraña en todo el mundo. Es la extraña luz que presagia un eclipse, el momento en que Zanaris bloquea la luz del sol. Una época de gran poder y peligro aún mayor. Ambos sabemos lo que presagia este eclipse. Las últimas piezas de la inevitable trampa de Sliske han caído en su lugar y nosotros, los dioses, debemos activarlas.
+  - **Player:** ¿No podrías simplemente mantenerte alejado y evitar la trampa?
+  - **Saradomin:** Ojalá pudiéramos Player, pero no. Nosotros, los dioses, debemos responder a este llamado, o la piedra caerá inevitablemente en las manos equivocadas. Zamorak, Zaros, incluso Armadyl y Seren. Si alguno de ellos reclamara la piedra, conduciría a la guerra. No, la piedra debe ser reclamada por un dios fuerte. Un dios lo suficientemente sabio como para usarlo. Sólo yo tengo esa experiencia. Sólo yo puedo confiar en mí para salvar a los dioses menores de sí mismos.
+- *Después de completar el Gran Día Fuera de Evil Dave:*
+  - **Saradomin:**Lo siento, no te reconocí cuando no actuabas como un niño pequeño y eras un dolor gigantesco en mi divino trasero.
+  - **Saradomin:**¿Cómo os lleváis tú y Zamorak? ¿Mejores amigos?
+  - **Saradomin:**Es broma, en serio, no me importa. Fuera de mi vista.
+
+### After Sliske's Endgame
+
+- ¿Puedo hablarte sobre el juego de Sliske?
+  - **Saradomin:** Es mejor que la piedra se pierda, que haber caído en manos enemigas.
+  - **Saradomin:** Aún sin la piedra, ¿qué será de los dragonantes ahora? Este no es el final del peligro que representan. Simplemente el comienzo.
+- ¿Puedo preguntarte sobre...?
+    - Armadyl
+      - **Saradomin:** Armadyl se mostró muy prometedor cuando lo conocí por primera vez. Una voluntad de aprender y un impulso por la justicia que atraía al mío. Era una deidad joven, pero no un rival, y vi que era una sabiduría tomarlo bajo mi protección... si me permiten el juego de palabras. Durante el conflicto con el vil Zamorak, Armadyl aconsejó una alianza temporal con nosotros y el belicista Bandos. Un acierto, ya que Zamorak era la amenaza más inmediata. Lamentablemente, esa lealtad no duraría. Las viejas rivalidades resultaron más importantes que la razón. La gente de Armadyl tal vez sería la que más sufriría el conflicto que siguió. Sé que Armadyl me hace responsable de alguna manera. Sospecho que no está dispuesto a reconocer su propia culpa en esto. Aún así, estaría dispuesto a aceptar el vasallaje de Armadyl y su gente. Son una especie noble y creo que se beneficiarían de mi tutela.
+        - *(Muestra opciones anteriores)*
+    - Seren
+      - **Saradomin:** Seren se considera una deidad buena y amable, pero es un fraude. Esclavizó a su pueblo y se niega a ayudar a nadie más que a sus preciosos elfos. Un dios benévolo buscaría proteger a todas las personas, no sólo a un subconjunto.
+        - ¿Lo harías?
+          - **Saradomin:** ¿Qué alternativa hay? Entender. No lo digo por arrogancia. He vivido milenios y en ese tiempo he visto incontables gobiernos surgir y caer. Hay un patrón en el ascenso y el colapso de la civilización. Un ciclo de tragedia. Tengo el conocimiento para romper este ciclo y, lo más importante, la voluntad de guiar a todos hacia adelante. ¿Está mal utilizar este conocimiento? Gielinor y otros mundos serían comprados para un nuevo futuro. Una utopía. Otros dioses pueden reclamar esto, pero sólo yo tengo la experiencia necesaria para hacerlo realidad.
+            - *(Muestra opciones anteriores a anteriores)*
+        - ¿Quieres decir controlarlos?
+          - **Saradomin:** Dices eso como si fuera algo malo. La gente necesita ser guiada. Necesitan gobiernos. Necesitan líderes. Necesitan estructuras. Libertad no significa anarquía. Así como control no tiene por qué significar esclavitud. Ofrezco orientación y liderazgo. Orden público. Bajo mi "control", la gente podría prosperar. Todos tendrían la seguridad de saber a dónde pertenecen y cómo deben comportarse. La gente anhela. En el fondo, todo el mundo quiere saber dónde se encuentra en el mundo. Yo diría que lo que usted llama control es verdadera libertad. Libertad para saber cómo se debe vivir la vida y cómo realizarla una vez potencial.
+            - *(Muestra opciones anteriores a anteriores)*
+        - [no digas nada]
+          - *(Muestra opciones anteriores a anteriores)*
+    - Zamorak
+      - **Saradomin:** He caminado por muchos mundos e interactuado con numerosas deidades, pero ninguna me parece tan deplorable como el usurpador Zamorak. Incluso su naturaleza divina se debe a la traición de alguien a quien afirmaba servir. El robo de la esencia ajena. Predica un credo de "fuerza a través del caos", difundiendo la mentira de que sus actos de crueldad sin sentido son en realidad lecciones que nos ayudan a crecer. ¿Por qué la gente debe morir para que aprendamos a defenderla? ¿No podría simplemente enseñarles? ¿Ofrecer a la gente formas de mejorarse, difundir sus escasos conocimientos para mejorarlos? No. En lugar de eso, envía demonios a asaltar sus aldeas. Engaña a magos eruditos para que incursionen en magias extranjeras. Luego, Zamorak observa cómo la gente muere en sufrimiento y agonía. ¿Dónde está la fuerza en eso? ¿Dónde está la sabiduría? Es la indulgencia psicótica de un monstruo, no los actos de un dios.
+        - Pero has matado gente.
+          - **Saradomin:** Sí. He quitado vidas en mi tiempo. No lo negaré. Pero siempre lo he hecho con un propósito... con un bien mayor en mente. Peleé guerras porque hay algunos que no entienden otra discusión. Sin el choque de espada y escudo, no pueden entrar en razón. Para ellos es silencio. He cometido actos que algunos llamarían crueles, pero son una necesidad lamentable. Una vez me obligaron a tomar las alas de un helado. Para arrancarlos de su espalda y dejarlos a merced del invierno. Nos dirigíamos a una época de guerra, contra un agresor nativo de Hallow. Me había visto obligado a militarizar al noble icyene. Los icyene son una raza poderosa, pero aún mortal, y su número es comparativamente reducido. Necesitaba que cada uno de ellos se levantara y se uniera a la lucha, para que todos no sufrieran. Pero uno se negó. Ella gritó que el conflicto no resolvería nada. Proclamó que todos los icyene deberían deponer la lanza y adoptar un enfoque pacífico. Sus palabras fueron... tentadoras. Quería seguirlos yo mismo. Me hubiera gustado poco más que terminar el conflicto y florecer la paz. Pero yo lo sabía mejor. Sabía que la inacción conduciría a la destrucción de mi pueblo. Tenía que mostrarle a los icyene a qué se enfrentarían si no luchaban. Tenía que mostrarles cómo el enemigo no mostraría piedad... así como yo no tenía que mostrar piedad. No olvidaré ese... sentimiento. esa horrible sensación de estiramiento seguida de ese terrible y repentino chasquido. Plumas y tendones cayendo a mi alrededor como una horrible tormenta de nieve. Fue... cruel, pero no tuve elección. Ese acto les recordó a los icyene por qué estaban peleando, contra qué estaban peleando, y les recordó que todos deben cumplir con su deber. Un momento de crueldad, para décadas de prosperidad. Un comercio justo, aunque desagradable.
+            - No es así como lo ve Garlandia.
+              - **Saradomin:** No. Me imagino que no. Ella sólo verá la barbarie y la crueldad, pero la lección, en última instancia, no fue para ella.
+                - *(Muestra opciones de anterior a anterior a anterior)*
+            - [quédate en silencio]
+              - *(Muestra opciones anteriores a anteriores)*
+        - Se mejoran a sí mismos.
+          - **Saradomin:** ¿Pero lo hacen? ¿En realidad? ¿Qué pasa con los que mueren? Su potencial perdido, desperdiciado y sin sentido.
+          - **Saradomin:** ¿Qué pasa con el sabio erudito, cuya biblioteca está quemada hasta los cimientos? Se convierte en constructor, recupera lo perdido, pero podría haber resuelto misterios vitales.
+          - **Saradomin:** En el mejor de los casos, el caos es un motor de cambio, pero es un cambio sin enfoque ni propósito. Simplemente reacción, más que evolución. Hay mejores maneras.
+          - **Saradomin:** No. Zamorak es una criatura peligrosa con delirios de grandeza; poco más.
+        - [quédate en silencio]
+          - **Saradomin:** No. Zamorak es una criatura peligrosa con delirios de grandeza; poco más.
+            - *(Muestra opciones anteriores a anteriores)*
+    - Zaros
+      - **Saradomin:** Ah, sí. El "Señor Vacío". El señor del Trono Vacío que gobernó su imperio desde las sombras. Otro dios cuyo letargo era más fuerte que sus habilidades de liderazgo. Gobernó desde su reclusión, dejando que su propio pueblo hiciera el trabajo por él. No es de extrañar que haya sido traicionado. Quiere hacerte creer que es un guía más que un monarca, pero carece de la convicción para liderar de verdad. El verdadero liderazgo es sacrificio. La voluntad de entregarse plenamente para guiar a su pueblo.
+        - Zaros es nuestra única esperanza.
+          - **Saradomin:** ¿Crees que sí? ¿Quién te dijo esto? ¿Mmm? ¿Fue tal vez el mismísimo Señor Vacío? ¿O uno de sus aduladores? Esperaría más del World Guardian. Eres un modelo a seguir... una inspiración para algunos. Le aconsejaría que utilice más el sentido común. Zaros tiene una agenda. Tal como lo hacemos todos.
+        - [no digas nada]
+          - *(Muestra opciones anteriores)*
+    - [Más opciones]
+      - Vorago
+        - **Saradomin:** ¿Y esperarías que dijera qué pasa con esta enorme monstruosidad? ¿Debería estar asombrado? ¿Debería encogerme de miedo? He vagado por mundos mucho antes de que las primeras huellas se dejaran en Gielinor. En ese tiempo, he sido testigo de maravillas y pesadillas que hacen que este Vorago palidezca en comparación. No estoy seguro de por qué Sliske lo invitó, pero su presencia cambia poco.
+          - *(Muestra opciones anteriores)*
+      - Icthlarin
+        - **Saradomin:** Tiene un propósito noble. Puedo respetar eso. Si cumple con su deber no tendré ningún reparo con él.
+          - *(Muestra opciones anteriores)*
+      - Muerte
+        - **Saradomin:** La muerte cumple una función necesaria, por poco que le guste a la mayoría de los mortales. Es un trabajo solitario pero importante. Le deseo lo mejor. Dicho esto, sería imprudente permitir que la Muerte reclame la piedra. Hay un orden natural en las cosas y no debemos arriesgarnos a eso.
+          - *(Muestra opciones anteriores)*
+      - Sliske
+        - **Saradomin:** Sliske es una criatura peligrosa. Quizás incluso más que Zamorak. Ambos buscan el caos, pero al menos uno busca el caos con un propósito. Sliske sólo quiere ver el mundo en llamas, con toda la esperanza y el propósito arrojados al infierno para su diversión. Que un lunático así pueda poseer la piedra es preocupante. Que un lunático así haya decidido no ascender, quizás sea aún más preocupante. Si ansiaba poder, podría entenderlo. Si anhelaba un final nihilista para su existencia, tal vez podría empezar a entenderlo. Pero las motivaciones de Sliske parecen... incomprensibles, y eso me preocupa mucho.
+          - *(Muestra opciones anteriores)*
+      - [Más opciones]
+        - Bandos
+          - **Saradomin:** No tiene mucho sentido hablar de los muertos. Bandos tuvo sus méritos y sus defectos, pero ya no está y no hace falta decir más.
+            - *(Muestra opciones anteriores)*
+        - Los dragonantes
+          - **Saradomin:** Tengo poco que decir de estas criaturas. Son bestias peligrosas, poco más.
+          - Da la impresión de que Saradomin puede estar ocultando algo.
+            - *(Muestra opciones anteriores)*
+        - Brassica Prime
+          - **Saradomin:** Ja, ja, ja. ¿Esa cosa se llama a sí misma un dios? Cómico. Realmente. Sea lo que sea, no ha demostrado ningún poder real y no tiene seguidores reales. Me parece casi despreciable que estemos siquiera discutiéndolo.
+            - *(Muestra opciones anteriores)*
+        - Marimbo
+          - **Saradomin:** No hablaremos de esa... esa... ramera borracha.
+            - *(Muestra opciones anteriores)*
+        - [Más opciones]
+          - [Ver opciones anteriores]
+            - Armadyl
+              - *(Igual que arriba)*
+            - Seren
+              - *(Igual que arriba)*
+            - Zamorak
+              - *(Igual que arriba)*
+            - Zaros
+              - *(Igual que arriba)*
+          - [pregunta sobre otra cosa]
+            - *(Muestra opciones iniciales)*
+          - Adiós
+            - *(Termina el diálogo)*
+- ¿Puedes hablar de tu historia?
+    - ¿Cómo ascendiste?
+      - *Si está consistentemente alineado con Saradomin*
+        - **Saradomin:**Yo era un justicar en Teragard, encargado de defender y hacer cumplir la ley. Arriesgué mi vida todos los días para preservar el orden y proteger a los inocentes. En ocasiones, las fuerzas de la avaricia y la corrupción contra las que luché parecían insuperables. Defender la ley era un deber duro pero noble, y mi obsesión. Me pasó factura a mí y a mi familia, pero como resultado mi comunidad prosperó. Quizás por eso me eligió la Corona. Podía sentir en mí el impulso por el orden. El anhelo de que el mundo sea lo mejor que pueda. Quizás esperes que la Corona haya sido descubierta al final de una búsqueda épica. Quizás maté demonios o luché con entidades ctónicas hacia el abismo, pero no hice ninguna de estas cosas. En cambio, mientras perseguía a un criminal, descubrí una cueva en la que nunca había visto vida humana... nunca. Dentro, vi un círculo dorado que me llamaba, eligiéndome. Esta era la Corona y supe sin dudarlo que estaba hecha para mí. Que yo había sido elegido. Mi apoteosis no ocurrió de la noche a la mañana. La Corona me llevó a objetos de poder e importancia, y éstos se convirtieron en mis herramientas. Con ellos, comencé a transformar lentamente a Teragard en algo más grande. Con el tiempo, descubrí que las herramientas ya no eran necesarias y que ahora ejercía el poder sin ellas. A partir de entonces, mi poder creció y creció, y tomé el lugar que me correspondía como dios de Teragard. La progresión a partir de ahí fue obvia e inevitable. Me di cuenta de que habría otros mundos ahí fuera, mundos que necesitaban guía y orden. No los dejaría olvidados.
+      - *Si no está alineado con Saradomin:*
+        - **Saradomin:**No. Me has mostrado poca lealtad, así que no veo ninguna razón para explicar mis secretos.
+          - *(Muestra opciones anteriores)*
+      - *Si no ha apoyado consistentemente a Saradomin (condición desconocida)): *
+        - **Saradomin:** Si bien su lealtad hacia mí ahora es gratificante, su historial no ha sido excepcional. Quizás en el futuro tenga esta conversación, pero hoy no. Perdóname.
+          - *(Muestra opciones anteriores)*
+    - ¿Puedes hablarme de Teragard?
+      - **Saradomin:** El lugar de nacimiento de la humanidad es un mundo hermoso, si no amable. La nieve cubre las tierras y los vientos te congelarían hasta los huesos. Sin embargo, era mi hogar. Éramos naciones dispares, repartidas por todo el mundo. Cuando ascendí, decidí rectificar eso. Poner fin a los conflictos inútiles por líneas territoriales invisibles que no sirven a nadie. Creé magistrados... sacerdotes y maestros que actuarían como mi autoridad donde yo no podía. Eran personas cultas a quienes yo personalmente instruía sobre qué lecciones enseñar a otros. Creé doce en total, cada uno con la tarea de gobernar una parte diferente del mundo, y a cada uno con el mandato de mejorar la humanidad de acuerdo con mis enseñanzas. Con los magistrados en sus puestos, mi pueblo prosperó y entró en una gloriosa era de iluminación. Confiado en que mi mundo estaba en buenas manos, centré mi atención en otros mundos que necesitaban más mi ayuda.
+      - **Player:** ¿Regresas a menudo a Teragard?
+      - **Saradomin:** Yo... todavía no he tenido la oportunidad. Otros mundos tienen mayor necesidad de mi atención.
+    - ¿Puedes hablarme de tu familia?
+      - **Saradomin:** La familia que tenía hace tiempo que murió.
+        - Lo siento.
+          - **Saradomin:** No hay razón para serlo, fue hace milenios. La muerte llega a todos los mortales. Vi a cada miembro de mi línea familiar marchitarse y morir, y no pude hacer nada para evitar los estragos del tiempo. Hubo un tiempo en que conservé sus pertenencias personales, pero hace tiempo que se desintegraron. Lo único que tengo de ellos son los recuerdos que llevo a través de los tiempos, aunque apenas recuerdo los nombres de mis padres o el color de ojos de mi esposa. Son parte de la vida del hombre que era antes, no del dios que soy ahora. Dejé atrás esa vida y acepté una mayor responsabilidad.
+        - [no digas nada]
+          - **Saradomin:**Son parte de la vida del hombre que era antes, no del dios que soy ahora. Dejé atrás esa vida y acepté una mayor responsabilidad.
+    - ¿Puedes hablarme de Hallow?
+      - **Saradomin:** Es un mundo hermoso lleno de criaturas nobles. La transición del día a la noche lleva casi un año como la conoces, por lo que cada noche los hielos se mueven de una isla a la siguiente. Las migraciones son un espectáculo digno de contemplar. Bandadas de icyene abandonan su hogar y vuelan a través de los océanos para establecerse una vez más en estructuras que han permanecido vacías durante todo el invierno.
+        - ¿Hay otras carreras allí?
+          - **Saradomin:** Ciertamente hay otras criaturas. Los saltadores del cielo deambulan por las llanuras y hay visitantes de otros mundos de vez en cuando... pero nativos... no.
+          - Saradomin no dice las palabras "ya no", pero quedan suspendidas en el aire, dichas pero no dichas.
+        - [quédate en silencio]
+          - *(Muestra opciones anteriores)*
+    - Pregunta por otra cosa.
+      - *(Muestra opciones anteriores)*
+  - Quiero estar de tu lado.
+    - ¿Del lado de Saradomin en el final del juego?
+      - si
+        - **Player:**Saradomin, te mereces la piedra. Estaré contigo.
+        - **Saradomin:**Gracias, Player. Juntos sentaremos las bases de un futuro glorioso.
+          - *(Muestra opciones anteriores a anteriores)*
+      - No
+        - *(Muestra opciones anteriores a anteriores)*
+  - Adiós.
+    - *(Termina el diálogo)*

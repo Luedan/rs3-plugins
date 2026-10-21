@@ -1,0 +1,113 @@
+# Stankers
+
+- **Original Wiki Page**: [Transcript:Stankers](https://runescape.wiki/w/Transcript%3AStankers)
+- **Letter**: `S`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Stankers:** Hola, aventurero audaz.
+- [Menu]: Seleccione una opción {{anchor|init}}
+  - [Choice]: ¿Son estos tus camiones?
+    - **Stankers:** Sí, los uso para transportar carbón por el río. Dejaré que otras personas los usen también, soy una buena persona así...
+    - **Stankers:** Simplemente pon carbón en un camión y lo llevaré a mi depósito sobre el río.
+    - (initial|init)
+  - [Choice]: Hola, señor Stankers.
+    - **Stankers:** ¿Quieres un cáliz envenenado?
+    - [Menu]: Seleccione una opción {{anchor|poison-chalice}}
+      - [Choice]: Sí, por favor.
+        - **Stankers:** Llévate uno de mi tienda. Podrías considerar comprar uno de mis finos picos mientras miras.
+        - **Player:** ¿Picos?
+        - **Stankers:** Sí, comencé un negocio. Las cosas no van muy bien hasta ahora, pero los cálices venenosos son un buen líder de pérdidas.
+        - (opens=Stankers' Bronze Pickaxes)
+      - [Choice]: ¿Qué es un cáliz venenoso?
+        - **Stankers:** Es una bebida emocionante que he inventado. No sé a qué sabe. Yo mismo no lo he probado.
+        - (previous|poison-chalice)
+      - [Choice]: No, gracias.
+        - (initial|init)
+  - [Choice]: Acerca del sistema de tareas...
+    - (Condition: Si el player ha completado las tareas medianas del conjunto Seers' Village y las recompensas no han sido reclamadas:)
+      - **Player:** Hola. Completé las tareas medianas en el conjunto Seers' Village. ¿Puedo tener una recompensa?
+      - **Stankers:** ¡Bien hecho! Sí, tengo una recompensa para ti. Simplemente ungiré tu diadema con una de mis mezclas. Ah, y aquí hay una lámpara vieja que tenía por ahí.
+      - (removes=Seer's headband 1)
+      - (receives=Seer's headband 2 and Antique lamp (Medium Seers' Village Tasks))
+      - [Stankers produce un cáliz que contiene un brebaje de aspecto vil que vierte sobre tu diadema.]
+      - **Player:** Erm, gracias... Supongo.
+      - **Stankers:** No te preocupes, pero puede que quede un poco pegajoso por un tiempo. Mientras lo uses, 'Flax' te dará 60 linaza por día, podrás ver mejor en la oscuridad y tu defensa contra ataques mágicos aumentará.
+      - **Stankers:** Permitiré 280 piezas de carbón en mi camión de carbón y recibirás bonificaciones al cortar arces y árboles normales. Oh, también descubrirás que tus dedos son más ágiles en la rueca en Seers' Village.
+      - (continue)
+    - (Condition: Si el player ha perdido la diadema 2 de su Seer:)
+      - **Player:** Perdí mi diadema.
+      - **Stankers:** No te preocupes. Resulta que tengo uno de repuesto aquí.
+      - (receives=Seer's headband 2)
+      - **Player:** ¡Gracias!
+      - (continue)
+    - [Menu]: Elige una opción:
+      - [Choice]: Háblame del Sistema de Logros.
+        - **Stankers:** Muy bien: el Sistema de Logros es una colección de hazañas que quizás desees completar mientras viajas por el mundo.
+        - **Stankers:** Puedes ganar recompensas especiales por completar ciertos logros; como mínimo, cada uno vale una recompensa en efectivo de Explorer Jack en Lumbridge.
+        - **Stankers:** Algunos también ofrecen elementos que ayudarán a completar otros logros y muchos cuentan como progreso hacia el conjunto del área en la que se encuentran.
+        - [Menu]: Elige una opción:
+          - [Choice]: Cuéntame sobre la recompensa establecida para esta localidad.
+            - **Player:** Cuéntame sobre la recompensa establecida para esta localidad.
+            - **Stankers:** Para completar el conjunto Seers' Village, se te presenta una diadema.
+            - **Stankers:** Recibirás una diadema mejor con cada nivel de dificultad del conjunto que completes.
+            - **Stankers:** Cuando se le presenten sus recompensas, se le informará sobre sus usos.
+            - También puedes ver qué recompensas proporciona un elemento determinado al pasar el cursor sobre el ícono de Recompensas de su Logro de exploración establecido en la interfaz de Logros.
+            - (previous2)
+          - [Choice]: ¿Cómo reclamo estas recompensas?
+            - **Player:** ¿Cómo reclamo las recompensas?
+            - **Stankers:** Debes completar todas las tareas de un conjunto de una dificultad particular y luego podrás reclamar tu recompensa.
+            - **Stankers:** Algunas de las tareas del conjunto Seers' Village son simples, algunas requerirán cierto skill levels y otras pueden requerir que se inicien o completen misiones.
+            - **Stankers:** Para reclamar las recompensas del conjunto Seers' Village, habla con cualquier vidente de la aldea, con Sir Kay en Camelot o conmigo mismo.
+            - (previous2)
+          - [Choice]: Lo siento, me estaba yendo.
+            - (end)
+      - [Choice]: ¿Puedo comprar un repuesto de la recompensa?
+        - [Menu]: Elige una opción:
+          - [Choice]: Diadema de Seer 1
+            - **Stankers:** ¿La diadema 1 de Seer? Sí, pero me temo que te costaría 1.500 coins.
+            - [Menu]: ¿Comprar otro por 1.500 coins?
+              - [Choice]: si
+                - [Te entregan la diadema 1 de otro Seer.]
+                - (receives=Seer's headband 1) (removes= 1,500 coins)
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Diadema de Seer 2
+            - **Stankers:** ¿La diadema 2 de Seer? Sí, pero me temo que te costaría 2500 coins.
+            - [Menu]: ¿Comprar otro por 2500 coins?
+              - [Choice]: si
+                - [Te entregan la diadema 2 de otro Seer.]
+                - (receives=Seer's headband 2) (removes= 2,500 coins)
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Diadema de Seer 3
+            - **Stankers:** ¿La diadema 3 de Seer? Sí, pero me temo que te costaría 7.500 coins.
+            - [Menu]: ¿Comprar otro por 7.500 coins?
+              - [Choice]: si
+                - [Te entregan la diadema de otro Seer 3.]
+                - (receives=Seer's headband 3) (removes= 7,500 coins)
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Diadema de Seer 4
+            - **Stankers:** ¿La diadema 4 de Seer? Sí, pero me temo que te costaría 15.000 coins.
+            - [Menu]: ¿Comprar otro por 15.000 coins?
+              - [Choice]: si
+                - [Te entregan la diadema de otro Seer 4.]
+                - (receives=Seer's headband 4) (removes= 15,000 coins)
+              - [Choice]: No
+                - **Player:** No, gracias.
+      - [Choice]: cond=If at least the hard Seers' Village achievements are completed and the rewards claimed|Me gustaría cambiar mi punto de teletransporte.
+        - **Player:** Me gustaría cambiar mi punto de Camelot Teleport.
+        - [Menu]: ¿Cambiar Camelot Teleport a [Seers' Village /Camelot]?
+          - [Choice]: si
+            - Camelot Teleport ahora te teletransportará al [Seers' Village /to the gates of Camelot].
+          - [Choice]: No
+            - (end)
+      - [Choice]: Lo siento, me estaba yendo.
+        - (end)

@@ -1,0 +1,112 @@
+# Stankers
+
+- **Original Wiki Page**: [Transcript:Stankers](https://runescape.wiki/w/Transcript%3AStankers)
+- **Letter**: `S`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Stankers:** Hello, bold adventurer.
+- [Menu]: Select an Option {{anchor|init}}
+  - [Choice]: Are these your trucks?
+    - **Stankers:** Yes, I use them to transport coal over the river. I will let other people use them too, I'm a nice person like that...
+    - **Stankers:** Just put coal in a truck and I'll move it down to my depot over the river.
+    - (initial|init)
+  - [Choice]: Hello, Mr Stankers.
+    - **Stankers:** Would you like a poison chalice?
+    - [Menu]: Select an Option {{anchor|poison-chalice}}
+      - [Choice]: Yes, please.
+        - **Stankers:** Take one from my shop. You might consider buying one of my fine pickaxes while you're looking.
+        - **Player:** Pickaxes?
+        - **Stankers:** Yes, I've started a business. It's not going very well so far, but the poison chalices are quite a nice loss-leader.
+        - (opens=Stankers' Bronze Pickaxes)
+      - [Choice]: What's a poison chalice?
+        - **Stankers:** It's an exciting drink I've invented. I don't know what it tastes like. I haven't tried it myself.
+        - (previous|poison-chalice)
+      - [Choice]: No, thank you.
+        - (initial|init)
+  - [Choice]: About the Task System...
+    - (Condition: If the player has completed the medium tasks in the Seers' Village set and the rewards not claimed:)
+      - **Player:** Hi. I've completed the Medium Tasks in the Seers' Village set. Can I have a reward?
+      - **Stankers:** Well done! Yes, I have a reward for you. I'll just anoint your headband with one of my mixtures. Oh and here's an old lamp I had lying around.
+      - (removes=Seer's headband 1)
+      - (receives=Seer's headband 2 and Antique lamp (Medium Seers' Village Tasks))
+      - [Stankers produces a chalice containing a vile-looking concoction that he pours all over your headband.]
+      - **Player:** Erm, thank you...I guess.
+      - **Stankers:** Don't worry, but it may be a little sticky for a while. While wearing it, 'Flax' will give you 60 flax per day, you'll be able to see better in the dark, and your defence against magic attacks will be boosted.
+      - **Stankers:** I'll allow 280 pieces of coal in my coal truck, and you'll receive bonuses when cutting maple and normal trees. Oh, you will also find your fingers are more nimble on the spinning wheel in Seers' Village.
+      - (continue)
+    - (Condition: If the player has lost their Seer's headband 2:)
+      - **Player:** I've lost my headband.
+      - **Stankers:** No worries. I happen to have a spare here.
+      - (receives=Seer's headband 2)
+      - **Player:** Thank you!
+      - (continue)
+    - [Menu]: Choose an option:
+      - [Choice]: Tell me about the Achievement System.
+        - **Stankers:** Very well: the Achievement System is a collection of deeds you may wish to complete while adventuring around the world.
+        - **Stankers:**  You can earn special rewards for completing certain achievements; at the very least, each is worth a cash bounty from Explorer Jack in Lumbridge.
+        - **Stankers:** Some also give items that will help complete other achievements, and many count as progress towards the set for the area they're in.
+        - [Menu]: Choose an option:
+          - [Choice]: Tell me about the set reward for this locality.
+            - **Player:** Tell me about the set reward for this locality.
+            - **Stankers:** For completing the Seers' Village set, you are presented with a headband.
+            - **Stankers:** You will receive a better headband with each difficulty level of the set that you complete.
+            - **Stankers:** When you are presented with your rewards, you will be told of their uses.
+            - You may also see what rewards a set item provides by hovering over the Rewards icon for its Exploration Achievement set in the Achievements interface.
+            - (previous2)
+          - [Choice]: How do I claim these rewards?
+            - **Player:** How do I claim the rewards?
+            - **Stankers:** You need to complete all of the Tasks in a set of a particular difficulty, then you can claim your reward.
+            - **Stankers:** Some of the Seers' Village set's Tasks are simple, some will require certain skill levels, and some might require quests to be started or completed.
+            - **Stankers:** To claim your Seers' Village set rewards, speak to any seer in the village, Sir Kay in Camelot, or myself.
+            - (previous2)
+          - [Choice]: Sorry, I was just leaving.
+            - (end)
+      - [Choice]: Could I buy a spare of the reward?
+        - [Menu]: Choose an option:
+          - [Choice]: Seer's headband 1
+            - **Stankers:** Seer's headband 1? Yes, but I'm afraid it would cost you 1,500 coins.
+            - [Menu]: Purchase another for 1,500 coins?
+              - [Choice]: Yes
+                - [You're handed another Seer's headband 1.]
+                - (receives=Seer's headband 1) (removes= 1,500 coins)
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Seer's headband 2
+            - **Stankers:** Seer's headband 2? Yes, but I'm afraid it would cost you 2,500 coins.
+            - [Menu]: Purchase another for 2,500 coins?
+              - [Choice]: Yes
+                - [You're handed another Seer's headband 2.]
+                - (receives=Seer's headband 2) (removes= 2,500 coins)
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Seer's headband 3
+            - **Stankers:** Seer's headband 3? Yes, but I'm afraid it would cost you 7,500 coins.
+            - [Menu]: Purchase another for 7,500 coins?
+              - [Choice]: Yes
+                - [You're handed another Seer's headband 3.]
+                - (receives=Seer's headband 3) (removes= 7,500 coins)
+              - [Choice]: No
+                - **Player:** No thanks.
+          - [Choice]: Seer's headband 4
+            - **Stankers:** Seer's headband 4? Yes, but I'm afraid it would cost you 15,000 coins.
+            - [Menu]: Purchase another for 15,000 coins?
+              - [Choice]: Yes
+                - [You're handed another Seer's headband 4.]
+                - (receives=Seer's headband 4) (removes= 15,000 coins)
+              - [Choice]: No
+                - **Player:** No thanks.
+      - [Choice]: cond=If at least the hard Seers' Village achievements are completed and the rewards claimed|I'd like to change my teleport point.
+        - **Player:** I'd like to change my Camelot Teleport point.
+        - [Menu]: Toggle Camelot Teleport to [Seers' Village /Camelot]?
+          - [Choice]: Yes
+            - Camelot Teleport will now teleport you to the [Seers' Village /to the gates of Camelot].
+          - [Choice]: No
+            - (end)
+      - [Choice]: Sorry, I was just leaving.
+        - (end)

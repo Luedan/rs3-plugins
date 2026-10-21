@@ -1,0 +1,62 @@
+# Lord Marshal Brogan
+
+- **Original Wiki Page**: [Transcript:Lord Marshal Brogan](https://runescape.wiki/w/Transcript%3ALord%20Marshal%20Brogan)
+- **Letter**: `L`
+
+---
+
+## Dialogue Transcript
+
+- **Player:** P-p-permission to speak freely, sir. *[player salutes]*
+- **Lord Marshal Brogan:** Go ahead.
+  - **Player:** May I ask: how long have you worked here?
+    - **Lord Marshal Brogan:** It seems you have earned it. I've been here 41 years; A.R.M.S. is my life and all I know.
+    - **Player:** Sir, do you mind me asking questions?
+    - **Lord Marshal Brogan:** That's fine. I do rather enjoy sharing my knowledge and experience.
+    - **Player:** That's most kind, sir. Did you found the organisation?
+    - **Lord Marshal Brogan:** That I did. I fought in many battles years ago, when things were a lot less stable than today. When the battles ended, I asked my fellow war veterans if they'd fancy using their expertise to explore distant lands. The problem was that it was hard to find a leader and few had any money. So, A.R.M.S. was the natural solution, where anyone could command and be given enough resources to fund an expedition.
+    - **Player:** And it was popular, Lord Marshal?
+    - **Lord Marshal Brogan:** Far too popular! So many people were interested that it quickly changed from non-violent expeditions to funded battles but, as veterans of war, nobody minded.
+    - **Player:** Very interesting. Thank you sir.
+  - **Player:** Please may I exchange my reward credits?
+    - **Lord Marshal Brogan:** That you may. What are you looking for in particular?
+      - [Menu]: Select an option.
+        - [Choice]: Reward items.
+          - (opens=Lord Marshal Brogan's reward shop)
+        - [Choice]: Spoils of war.
+          - (opens=Mobilising_Armies/Rewards#Second_floor_(rank_300+){{!)Spoils of war}}
+        - [Choice]: Imbue rings.
+          - **Lord Marshal Brogan:** I can imbue a few rings to give additional combat boosts. Which would you like?
+            - [Menu]: Select an option.
+              - [Choice]: Onyx ring (144,100 reward credits)
+                - **Player:** Onyx ring, please.
+                - (continue)
+              - [Choice]: Archer's ring (205,900 reward credits)
+                - **Player:** Archer's ring, please.
+                - (continue)
+              - [Choice]: Seer's ring (205,900 reward credits)
+                - **Player:** Seer's ring, please.
+                - (continue)
+              - [Choice]: Warrior ring (205,900 reward credits)
+                - **Player:** Warrior ring, please.
+                - (continue)
+              - [Choice]: Berserker ring (205,900 reward credits)
+                - **Player:** Berserker ring, please.
+                - (continue)
+            - (Condition: If the player is holding an imbued ring:)
+              - [Choice]: Can you remove the enchantment from my item?
+                - {{Transcript missing}}
+          - (Condition: If the player has enough reward credits:)
+            - **Lord Marshal Brogan:** There you go! If you want to remove the effect, come back and I'll do it for free.
+            - (end)
+          - (Condition: If the player does not have enough reward credits:)
+            - {{Transcript missing}}
+        - [Choice]: Leave.
+          - **Player:** Sorry, permission to leave, sir.
+          - **Lord Marshal Brogan:** You may.
+          - (end)
+  - **Player:** Can I change my rank prefix please?
+    - **War-chief Reeves:** Of course. What rank prefix would you like?
+    - *[title selection]*
+  - **Player:** Sorry, permission to leave, sir.
+    - **Lord Marshal Brogan:** You may.

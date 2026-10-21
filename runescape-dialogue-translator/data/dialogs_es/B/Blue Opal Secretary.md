@@ -1,0 +1,378 @@
+# Blue Opal Secretary
+
+- **Original Wiki Page**: [Transcript:Blue Opal Secretary](https://runescape.wiki/w/Transcript%3ABlue%20Opal%20Secretary)
+- **Letter**: `B`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+- ''Nota: Antes y durante el Enano Gigante, todas las empresas comienzan con una reputación media. After The Giant Dwarf, el player's chosen company is permanently at highest reputation while all other companies will be at low reputation.
+
+### Low reputation
+
+- ''Uno de los siguientes diálogos se reproduce al azar:
+  - Diálogo 1:
+    - **Blue Opal Secretary:** No tengo mucho tiempo para ti, ¿qué quieres?
+  - Diálogo 2:
+    - **Blue Opal Secretary:** Estás bloqueando mi vista, humano, así que date prisa.
+  - Diálogo 3:
+    - **Blue Opal Secretary:** ¿Podemos apurarnos?
+  - Diálogo 4:
+    - **Blue Opal Secretary:** ¡Di lo que quieras o sal de nuestra oficina, humano!
+  - Diálogo 5:
+    - **Blue Opal Secretary:** No pongas a prueba la paciencia del Ópalo Azul, humano. ¡Di lo que necesites!
+  - Diálogo 6:
+    - **Blue Opal Secretary:** Creo que perdí mi pluma en alguna parte...
+    - **Blue Opal Secretary:** Ah, ¿y qué querías?
+- '''Elige una opción: {{anchor|xzx}}
+  - [Choice]: ¿Quién eres?
+    - **Player:** ¿Quién eres?
+    - **Blue Opal Secretary:** Soy el secretario principal de Blue Opal.
+    - **Player:** ¿El qué?
+    - **Blue Opal Secretary:** Somos el Ópalo Azul. Somos parte del Consorcio, gobernantes de Keldagrim y más allá.
+    - (initial)
+  - [Choice]: ¿Dónde estoy?
+    - **Player:** ¿Dónde estoy?
+    - ''Una de las siguientes respuestas se reproduce al azar:
+      - Diálogo 1:
+        - **Blue Opal Secretary:** ¡No estoy aquí para dar instrucciones!
+      - Diálogo 2:
+        - **Blue Opal Secretary:** ¿Te parezco un guía turístico?
+      - Diálogo 3:
+        - **Blue Opal Secretary:** Te lo diría, humano, pero de todos modos no lo entenderías.
+      - Diálogo 4:
+        - **Blue Opal Secretary:** Estas son las oficinas de Blue Opal.
+        - **Blue Opal Secretary:** Compartimos esta planta del palacio con el resto de empresas del Consorcio. Y comercie con ellos en el octágono comercial.
+        - **Player:** ¿El octágono comercial?
+        - **Blue Opal Secretary:** ¿Ves a esos comerciantes parados ahí afuera, justo afuera de la puerta? Todos están parados en el octágono comercial. Hay muchísimo comercio en el palacio, ¿sabes?
+        - **Player:** ¿Algo más de interés en el palacio?
+        - **Blue Opal Secretary:** Me temo que tendrás que descubrirlo por tu cuenta. Tengo más trabajo que hacer.
+        - (initial)
+  - [Choice]: ¿Hay algo en lo que pueda ayudarte?
+    - **Player:** ¿Hay algo en lo que pueda ayudarte?
+    - ''Una de las siguientes respuestas se reproduce al azar:
+      - Diálogo 1:
+        - **Blue Opal Secretary:** Ven a redimirte en nuestra empresa, ¿verdad?
+      - Diálogo 2:
+        - **Blue Opal Secretary:** ¿Entonces de repente estás buscando trabajo con nosotros?
+      - Diálogo 3:
+        - **Blue Opal Secretary:** Tienes suerte de que el Ópalo Azul sea muy indulgente, humano.
+      - Diálogo 4:
+        - **Blue Opal Secretary:** No estoy seguro de poder asignarle una tarea a alguien como tú, lo comprobaré.
+        - **Blue Opal Secretary:** Muy bien, has sido autorizado.
+      - Diálogo 5:
+        - **Blue Opal Secretary:** Tus motivos son cuestionables, pero te daremos una oportunidad.
+    - **Blue Opal Secretary:** Necesitamos [número] piezas de [ore] en los próximos minutos [número].
+    - '''Selecciona una opción
+      - [Choice]: Yo lo tomaré.
+        - **Player:** Lo aceptaré.
+        - ''El Secretario responde con uno de los siguientes al azar:
+          - Diálogo 1:
+            - **Blue Opal Secretary:** No decepciones al Ópalo Azul, humano.
+          - Diálogo 2:
+            - **Blue Opal Secretary:** ¡Vete entonces! ¡Cuanto más tiempo estés aquí, más tiempo perderás!
+          - Diálogo 3:
+            - **Blue Opal Secretary:** ¡Date prisa o no vuelvas!
+          - Diálogo 4:
+            - **Blue Opal Secretary:** Esperemos haberme equivocado contigo, humano.
+          - Diálogo 5:
+            - **Blue Opal Secretary:** ¡Será mejor que no falles!
+      - [Choice]: No gracias.
+        - **Player:** No, gracias.
+        - ''El Secretario responde con uno de los siguientes al azar:
+          - Diálogo 1:
+            - **Blue Opal Secretary:** Oh, ¿entonces viniste a hacerme perder el tiempo? ¡Adiós!
+          - Diálogo 2:
+            - **Blue Opal Secretary:** ¡Decir algo así después de la misericordia que te acabo de mostrar! ¡Irse!
+          - Diálogo 3:
+            - **Blue Opal Secretary:** ¡Te atreves!
+          - Diálogo 4:
+            - **Blue Opal Secretary:** Pensé que no lo harías. ¡Ahora sal de aquí!
+          - Diálogo 5:
+            - **Blue Opal Secretary:** ¡Vete ahora, no me hagas llamar al Black Guard para echarte!
+          - Diálogo 6:
+            - **Blue Opal Secretary:** ¡Entonces sal de nuestra oficina!
+          - Diálogo 7:
+            - **Blue Opal Secretary:** El Ópalo Azul te ofrece una oportunidad ¿y dices esto? ¡Sólo mantente alejado!
+    - ''Si el player ya está en una tarea:
+      - **Blue Opal Secretary:** ¿Ya has completado tu tarea actual? ¿Me conseguiste mis piezas [número] de [ore]?
+      - **Player:** No, todavía no.
+      - **Blue Opal Secretary:** Eres una vergüenza para Blue Opal. Date prisa si quieres redimirte.
+      - (initial)
+    - ''Si el player ya está en una tarea de otra empresa:
+      - **Blue Opal Secretary:** Vuelve con tus amigos del [other Company], he oído que estás aliado con ellos.
+      - (initial)
+  - [Choice]: ¡Tengo que irme!
+    - **Player:** ¡Me tengo que ir!
+    - ''Una de las siguientes respuestas se reproduce al azar:
+      - Diálogo 1:
+        - **Blue Opal Secretary:** Finalmente... por fin volvemos al trabajo.
+      - Diálogo 2:
+        - **Blue Opal Secretary:** Bien.
+      - Diálogo 3:
+        - **Blue Opal Secretary:** No te apresures a regresar.
+      - Diálogo 4:
+        - **Blue Opal Secretary:** La puerta está por ahí. Te sugiero que lo uses.
+      - Diálogo 5:
+        - **Blue Opal Secretary:** Y adiós.
+
+#### Entregar una tarea
+
+- **Player:** ¡He completado tu tarea! ¡Aquí está tu mineral!
+- (removes=ore) (receives=coins)
+- ''El Secretario responde con uno de los siguientes al azar:
+  - Diálogo 1:
+    - **Blue Opal Secretary:** Qué inusual para ti, pero de todos modos se agradece.
+  - Diálogo 2:
+    - **Blue Opal Secretary:** El Ópalo Azul se alegra de que, después de todo, la confianza que depositó en ti no haya sido avergonzada.
+  - Diálogo 3:
+    - **Blue Opal Secretary:** Es una sorpresa bastante agradable e inesperada.
+  - Diálogo 4:
+    - **Blue Opal Secretary:** Quizás me equivoqué contigo después de todo...
+  - Diálogo 5:
+    - **Blue Opal Secretary:** Gracias... Supongo.
+- (continuea|xzx)
+
+### Medium reputation
+
+- ''Uno de los siguientes diálogos se reproduce al azar:
+  - Diálogo 1:
+    - **Blue Opal Secretary:** ¿Qué necesitabas del Ópalo Azul?
+  - Diálogo 2:
+    - **Blue Opal Secretary:** ¿Y qué puedo hacer por ti?
+  - Diálogo 3:
+    - **Blue Opal Secretary:** ¿Hay algo con lo que necesites ayuda?
+  - Diálogo 4:
+    - **Blue Opal Secretary:** ¿Puedo ayudarte en algo?
+  - Diálogo 5:
+    - **Blue Opal Secretary:** ¿Había algo que quisieras?
+  - Diálogo 6:
+    - **Blue Opal Secretary:** ¿Qué puedo hacer por ti, humano?
+- '''Elige una opción: {{anchor|zxc}}
+  - [Choice]: ¿Quién eres?
+    - (arriba)
+  - [Choice]: ¿Dónde estoy?
+    - **Player:** ¿Dónde estoy?
+    - **Blue Opal Secretary:** Vaya, esta es la sede de Blue Opal.
+    - **Blue Opal Secretary:** Compartimos esta planta del palacio con el resto de empresas del Consorcio. Y comercie con ellos en el octágono comercial.
+    - **Player:** ¿El octágono comercial?
+    - **Blue Opal Secretary:** ¿Ves a esos comerciantes parados ahí afuera, justo afuera de la puerta? Todos están parados en el octágono comercial. Hay muchísimo comercio en el palacio, ¿sabes?
+    - **Player:** ¿Algo más de interés en el palacio?
+    - **Blue Opal Secretary:** Me temo que tendrás que descubrirlo por tu cuenta. Tengo más trabajo que hacer.
+    - (initial)
+  - [Choice]: ¿Hay algo en lo que pueda ayudarte?
+    - **Player:** ¿Hay algo en lo que pueda ayudarte?
+    - ''Una de las siguientes respuestas se reproduce al azar:
+      - Diálogo 1:
+        - **Blue Opal Secretary:** Siempre hay trabajo por hacer, sí.
+      - Diálogo 2:
+        - **Blue Opal Secretary:** Un momento.
+      - Diálogo 3:
+        - **Blue Opal Secretary:** Sí, ¡el Ópalo Azul siempre tiene trabajo que hacer!
+      - Diálogo 4:
+        - **Blue Opal Secretary:** Veamos... sí, sí, tengo una tarea para ti.
+      - Diálogo 5:
+        - **Blue Opal Secretary:** Sí, creo que tenemos algo para ti.
+      - Diálogo 6:
+        - **Blue Opal Secretary:** Creo que tenemos trabajo disponible, sí.
+    - **Blue Opal Secretary:** Necesitamos [número] piezas de [ore] en los próximos minutos [número].
+    - '''Selecciona una opción
+      - [Choice]: Yo lo tomaré.
+        - **Player:** Lo aceptaré.
+        - ''El Secretario responde con uno de los siguientes al azar:
+          - Diálogo 1:
+            - **Blue Opal Secretary:** Blue Opal ha notado tu voluntad de ayudar.
+          - Diálogo 2:
+            - **Blue Opal Secretary:** Ese mineral debe estar pronto en la sala de operaciones, jugador, por favor regresa con él.
+          - Diálogo 3:
+            - **Blue Opal Secretary:** Gracias, se agradece.
+          - Diálogo 4:
+            - **Blue Opal Secretary:** El tiempo corre, por favor regresa rápido.
+          - Diálogo 5:
+            - **Blue Opal Secretary:** Entonces, esperaré tu regreso pronto.
+      - [Choice]: No gracias.
+        - **Player:** No, gracias.
+        - ''El Secretario responde con uno de los siguientes al azar:
+          - Diálogo 1:
+            - **Blue Opal Secretary:** Muy bien, ¿tal vez en otro momento?
+          - Diálogo 2:
+            - **Blue Opal Secretary:** Por favor, le agradeceríamos que tomara una decisión antes de preguntar. Estoy muy ocupado, ¿sabes?
+          - Diálogo 3:
+            - **Blue Opal Secretary:** Por favor, en ese caso, estás perdiendo el tiempo.
+          - Diálogo 4:
+            - **Blue Opal Secretary:** Es lamentable escuchar eso.
+          - Diálogo 5:
+            - **Blue Opal Secretary:** Para ser honesto, no puedo decir que esté muy contento de escuchar eso.
+          - Diálogo 6:
+            - **Blue Opal Secretary:** Eso no te refleja bien.
+          - Diálogo 7:
+            - **Blue Opal Secretary:** El Ópalo Azul no está muy contento de escuchar eso.
+    - ''Si el player ya está en una tarea:
+      - **Blue Opal Secretary:** ¿Ya has completado tu tarea actual? ¿Me conseguiste mis piezas [número] de [ore]?
+      - **Player:** No, todavía no.
+      - **Blue Opal Secretary:** Entonces, por favor, apúrate antes de que se acabe el tiempo.
+      - (initial)
+    - ''Si el player ya está en una tarea de otra empresa:
+      - **Blue Opal Secretary:** Por lo que tengo entendido, primero tienes algunos asuntos que terminar con el [other Company].
+      - (initial)
+  - [Choice]: ¡Tengo que irme!
+    - **Player:** ¡Me tengo que ir!
+    - ''Una de las siguientes respuestas se reproduce al azar:
+      - Diálogo 1:
+        - **Blue Opal Secretary:** Hasta luego.
+      - Diálogo 2:
+        - **Blue Opal Secretary:** Está bien.
+      - Diálogo 3:
+        - **Blue Opal Secretary:** Adiós, humano.
+
+#### Entregar una tarea
+
+- **Player:** ¡He completado tu tarea! ¡Aquí está tu mineral!
+- (removes=ore) (receives=coins)
+- ''El Secretario responde con uno de los siguientes al azar:
+  - Diálogo 1:
+    - **Blue Opal Secretary:** Tengo que admitir que estuve preocupado por un momento, pero me alegra ver que nos ayudaste.
+  - Diálogo 2:
+    - **Blue Opal Secretary:** Me alegra comprobar que la confianza que depositamos en vosotros no ha sido en vano.
+  - Diálogo 3:
+    - **Blue Opal Secretary:** Y ni un minuto tarde también. Bien hecho.
+  - Diálogo 4:
+    - **Blue Opal Secretary:** El Ópalo Azul reconoce tu desempeño.
+  - Diálogo 5:
+    - **Blue Opal Secretary:** Es bueno escucharlo, gracias.
+- (continuea|zxc)
+
+### High reputation
+
+- ''Uno de los siguientes diálogos se reproduce aleatoriamente: {{anchor|high1}}
+  - Diálogo 1:
+    - **Blue Opal Secretary:** ¿Cómo puede ayudarte el Ópalo Azul hoy?
+  - Diálogo 2:
+    - **Blue Opal Secretary:** ¿Y qué puedo hacer por ti en este lindo día?
+  - Diálogo 3:
+    - **Blue Opal Secretary:** ¿Ven a ayudarnos un poco más, Player?
+  - Diálogo 4:
+    - **Blue Opal Secretary:** ¡Oh, hola Player! ¡Qué bueno verte!
+  - Diálogo 5:
+    - **Blue Opal Secretary:** ¡Bienvenido de nuevo al palacio de Keldagrim, Player!
+  - Diálogo 6:
+    - **Blue Opal Secretary:** ¡Entra, entra! ¡Y cuéntanos qué necesitas!
+- '''Elige una opción: {{anchor|asdf}}
+  - [Choice]: ¿Quién eres?
+    - (arriba)
+  - [Choice]: ¿Dónde estoy?
+    - **Player:** ¿Dónde estoy? {{anchor|high2}}
+    - **Blue Opal Secretary:** Vaya, esta es la sede de Blue Opal.
+    - **Blue Opal Secretary:** Compartimos esta planta del palacio con el resto de empresas del Consorcio. Y comercie con ellos en el octágono comercial.
+    - **Player:** ¿El octágono comercial?
+    - **Blue Opal Secretary:** ¿Ves a esos comerciantes parados ahí afuera, justo afuera de la puerta? Todos están parados en el octágono comercial. Hay muchísimo comercio en el palacio, ¿sabes?
+    - **Player:** ¿Algo más de interés en el palacio?
+    - **Blue Opal Secretary:** El último piso del palacio es el Octágono de Reuniones. Ese es el lugar donde el Consorcio toma todas las decisiones importantes.
+    - **Player:** ¿Puedo ir allí?
+    - **Blue Opal Secretary:** Oh, sí, ciertamente puedes. Pero me imagino que no mientras el Consorcio esté en sesión.
+    - **Blue Opal Secretary:** Aunque eres una persona muy amigable, no estoy seguro de si se te permitiría visitarnos durante una reunión.
+    - **Blue Opal Secretary:** Pero no sé lo suficiente sobre eso, el director probablemente sepa más.
+    - **Player:** ¡Gracias por la información!
+    - (initial)
+  - [Choice]: ¿Hay algo en lo que pueda ayudarte?
+    - **Player:** ¿Hay algo en lo que pueda ayudarte?
+    - ''Una de las siguientes respuestas se reproduce al azar:
+      - Diálogo 1:
+        - **Blue Opal Secretary:** ¡Ah, siempre buscando formas de ayudarnos!
+      - Diálogo 2:
+        - **Blue Opal Secretary:** ¡Por supuesto, mi buen humano, por supuesto!
+      - Diálogo 3:
+        - **Blue Opal Secretary:** ¡Por supuesto, reservamos nuestras mejores tareas solo para ti, Player!
+      - Diálogo 4:
+        - **Blue Opal Secretary:** Creo que sí, ¡sí!
+      - Diálogo 5:
+        - **Blue Opal Secretary:** Me atrevo a decir que tenemos algo para ti, sí.
+      - Diálogo 6:
+        - **Blue Opal Secretary:** ¡Oh, sí, como sabes, el Ópalo Azul siempre tiene trabajo!
+    - **Blue Opal Secretary:** Necesitamos [número] piezas de [ore] en los próximos minutos [número].
+    - '''Selecciona una opción
+      - [Choice]: Yo lo tomaré.
+        - **Player:** Lo aceptaré.
+        - ''El Secretario responde con uno de los siguientes al azar:
+          - Diálogo 1:
+            - **Blue Opal Secretary:** ¡Nunca decepcionas, Player!
+          - Diálogo 2:
+            - **Blue Opal Secretary:** ¡Excelente, pensé que te gustaría esto!
+          - Diálogo 3:
+            - **Blue Opal Secretary:** ¡Me alegra escuchar eso!
+          - Diálogo 4:
+            - **Blue Opal Secretary:** El Ópalo Azul aprecia el arduo trabajo que haces.
+          - Diálogo 5:
+            - **Blue Opal Secretary:** ¡Gracias! Pero date prisa, por favor, ¡realmente necesitamos ese mineral!
+      - [Choice]: No gracias.
+        - **Player:** No, gracias.
+        - ''El Secretario responde con uno de los siguientes al azar:
+          - Diálogo 1:
+            - **Blue Opal Secretary:** Supongo que tienes otros asuntos importantes que atender.
+          - Diálogo 2:
+            - **Blue Opal Secretary:** Ah. No sabía que eras del tipo que rechaza el trabajo.
+          - Diálogo 3:
+            - **Blue Opal Secretary:** ¿Está todo bien? No pensé que normalmente rechazaras nuestras tareas.
+          - Diálogo 4:
+            - **Blue Opal Secretary:** Es una gran lástima, Player.
+          - Diálogo 5:
+            - **Blue Opal Secretary:** ¿No? Eso es inusual para ti, Player.
+    - ''Si el player ya está en una tarea:
+      - **Blue Opal Secretary:** ¿Ya has completado tu tarea actual? ¿Me conseguiste mis piezas [número] de [ore]?
+      - **Player:** No, todavía no.
+      - **Blue Opal Secretary:** Lamento escuchar eso, ¡pero apúrate!
+      - (initial)
+    - ''Si el player ya está en una tarea de otra empresa:
+      - **Blue Opal Secretary:** ¿No tienes algún asunto con [other company] que tratar primero? ¡Date prisa cuando hayas terminado!
+      - (initial)
+  - [Choice]: ¡Tengo que irme!
+    - **Player:** ¡Me tengo que ir!
+    - ''Una de las siguientes respuestas se reproduce aleatoriamente: {{anchor|high3}}
+      - Diálogo 1:
+        - **Blue Opal Secretary:** Fue un placer volver a hablar contigo, Player.
+      - Diálogo 2:
+        - **Blue Opal Secretary:** ¡Vuelve cuando quieras!
+      - Diálogo 3:
+        - **Blue Opal Secretary:** ¡Hasta pronto!
+
+#### Entregar una tarea
+
+- **Player:** ¡He completado tu tarea! ¡Aquí está tu mineral!
+- (removes=ore) (receives=coins)
+- ''El Secretario responde con uno de los siguientes al azar:
+  - Diálogo 1:
+    - **Blue Opal Secretary:** ¡Maravilloso! ¡Supervisaré personalmente que llegue a tiempo al parqué!
+  - Diálogo 2:
+    - **Blue Opal Secretary:** ¡Bien hecho, bien hecho!
+  - Diálogo 3:
+    - **Blue Opal Secretary:** ¡Sabía que eras la persona adecuada para el trabajo!
+  - Diálogo 4:
+    - **Blue Opal Secretary:** ¡Gracias, me aseguraré de que el director se entere de su rapidez!
+  - Diálogo 5:
+    - **Blue Opal Secretary:** ¡Siempre eres confiable, Player!
+- (continuea|asdf)
+
+### Higher or highest reputation
+
+- ''Uno de los siguientes diálogos se reproduce al azar:
+  - (above|high1)
+- '''Elige una opción:
+  - [Choice]: ¿Quién eres?
+    - (arriba)
+  - [Choice]: ¿Dónde estoy?
+    - (above|high2)
+  - [Choice]: ¿Hay algo en lo que pueda ayudarte?
+    - **Player:** ¿Hay algo en lo que pueda ayudarte?
+    - ''Una de las siguientes respuestas se reproduce al azar:
+      - Diálogo 1:
+        - **Blue Opal Secretary:**Me temo que no tengo más trabajo que ofrecerte, Player, por favor habla con el director.
+      - Diálogo 2:
+        - **Blue Opal Secretary:** Deberías hablar directamente con el director.
+      - (initial)
+    - ''Si el player ya está en una tarea de otra empresa:
+      - **Blue Opal Secretary:** ¿No tienes algún asunto con [other company] que tratar primero? ¡Date prisa cuando hayas terminado!
+      - (initial)
+  - [Choice]: ¡Tengo que irme!
+    - (above|high3)

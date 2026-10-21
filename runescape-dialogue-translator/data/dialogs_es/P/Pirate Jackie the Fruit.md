@@ -1,0 +1,112 @@
+# Pirate Jackie the Fruit
+
+- **Original Wiki Page**: [Transcript:Pirate Jackie the Fruit](https://runescape.wiki/w/Transcript%3APirate%20Jackie%20the%20Fruit)
+- **Letter**: `P`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### In Brimhaven
+
+- **Player:** ¡Ahoy!
+- **Pirate Jackie the Fruit:** ¡Ahoye!
+- [Menu]: Selecciona una opción
+  - [Choice]: Acerca del sistema de tareas...
+    - (Condition: Si el player ha completado los logros fáciles de Karamja, pero aún no ha reclamado las recompensas:)
+      - **Player:** He realizado todas las tareas fáciles del conjunto Karamja.
+      - **Pirate Jackie the Fruit:** Arr, ya lo tienes, veo tu lista. ¡Supongo que entonces querrás tu recompensa!
+      - **Player:** Sí, por favor.
+      - **Pirate Jackie the Fruit:** Estos guantes Karamja serán un símbolo de tu exploración en la isla. Hablaré con los marineros que navegan hacia Port Sarim y Ardougne; Deberían llevarte a bordo por la mitad de precio, si los llevas puestos. Dell Monti podría pensar que
+      - **Pirate Jackie the Fruit:** digno de sus piñas, si se las muestras. Arrr, también puedes llevarte esta lámpara que encontré arrastrada a la orilla.
+      - (receives=Karamja gloves 1 and an antique lamp)
+      - **Player:** ¡Vaya, gracias!
+      - (continue)
+    - (Condition: Si el player ha perdido sus guantes Karamja 1:)
+      - **Pirate Jackie the Fruit:** Hrm, parece que te recuerdo... ¿No te di ya los guantes Karamja?
+      - **Player:** Sí, pero los perdí.
+      - **Pirate Jackie the Fruit:** Arr, eso mismo pensé. Toma otro par, amigo.
+      - (receives=Karamja gloves 1)
+      - (continue)
+    - [Menu]: Elige una opción:
+      - [Choice]: Cuéntame sobre el sistema de logros.{{anchor|achievements}}
+        - **Pirate Jackie the Fruit:** ¡Arr! El sistema de logros será un montón de desafíos que afrontar mientras viajas por el mundo.
+        - **Pirate Jackie the Fruit:** Puedes ganar botín al completar ciertos logros, ya sea botín o piezas de ocho, que puedes obtener de Explorer Jack en Lumbridge.
+        - **Pirate Jackie the Fruit:** La mayoría de ellos, si haces lo suficiente en un área, obtienes un objeto poderoso que puedes reclamar de alguien en el área, como yo.
+        - [Menu]: Elige una opción:
+          - [Choice]: Cuéntame sobre la recompensa establecida para esta localidad.
+            - **Player:** Cuéntame sobre la recompensa establecida para esta área.
+            - **Pirate Jackie the Fruit:** Aquí en Karamja te ofrecemos un par de guantes cuando terminas una serie de tareas. ¡Cuanto más lo hagas, más poder podremos agregarles! Tienen usos ingeniosos, que descubrirás al usarlos.
+            - También puedes ver qué recompensas proporciona un elemento determinado al pasar el cursor sobre el ícono de Recompensas de su Logro de exploración establecido en la interfaz de Logros.
+            - (previous)
+          - [Choice]: ¿Cómo reclamo estas recompensas?
+            - **Player:** ¿Cómo reclamo las recompensas?
+            - **Pirate Jackie the Fruit:** Debes completar todas las tareas en un conjunto de dificultad particular y luego podrás reclamar tu recompensa.
+            - **Pirate Jackie the Fruit:** Algunas de las tareas del conjunto Karamja son simples, algunas requerirán cierto skill levels y otras pueden requerir que se inicien o completen misiones.
+            - **Pirate Jackie the Fruit:** Para reclamar las recompensas del conjunto Karamja, charla con tu humilde sirviente aquí, o con el viejo Kaleb en Shilo Village, o con un jungle forester en la frontera con Kharazi.
+            - (previous)
+          - [Choice]: Lo siento, me estaba yendo.
+            - (end)
+      - [Choice]: ¿Puedo comprar un repuesto de la recompensa?
+        - [Menu]: Elige una opción:
+          - [Choice]: guantes Karamja 1
+            - **Pirate Jackie the Fruit:** ¿Guantes Karamja 1? Sí, pero me temo que te costaría 1.500 coins.
+            - [Menu]: ¿Comprar otro por 1.500 coins?
+              - [Choice]: si
+                - (receives=Karamja gloves 1) (removes=1,500 coins)
+                - [Te entregan otros guantes Karamja 1.]
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: guantes Karamja 2
+            - **Pirate Jackie the Fruit:** ¿Guantes Karamja 2? Sí, pero me temo que te costaría 2500 coins.
+            - [Menu]: ¿Comprar otro por 2500 coins?
+              - [Choice]: si
+                - (receives=Karamja gloves 2) (removes=2,500 coins)
+                - [Te entregan otros guantes Karamja 2.]
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Guantes Karamja 3
+            - **Pirate Jackie the Fruit:** ¿Guantes Karamja 3? Sí, pero me temo que te costaría 7.500 coins.
+            - [Menu]: ¿Comprar otro por 7.500 coins?
+              - [Choice]: si
+                - (receives=Karamja gloves 3) (removes=7,500 coins)
+                - [Te entregan otros guantes Karamja 3.]
+              - [Choice]: No
+                - **Player:** No, gracias.
+          - [Choice]: Guantes Karamja 4
+            - **Pirate Jackie the Fruit:** ¿Guantes Karamja 4? Sí, pero me temo que te costaría 15.000 coins.
+            - [Menu]: ¿Comprar otro por 15.000 coins?
+              - [Choice]: si
+                - (receives=Karamja gloves 4) (removes=15,000 coins)
+                - [Te entregan otros guantes Karamja 4.]
+              - [Choice]: No
+                - **Player:** No, gracias.
+      - [Choice]: Lo siento, me estaba yendo.
+        - (end)
+  - [Choice]: ¿Qué haces?
+    - **Player:** ¿A qué te dedicas?
+    - **Pirate Jackie the Fruit:** Yo seré el Jack o' Tickets. Cambio las entradas que coleccionáis en el Agility Arena por más cosas. ¡Puedes obtener más experiencia de agilidad o algunos elementos que no encontrarás en ningún otro lugar!
+    - **Player:** ¡Suena bien!
+    - (initial|jackie-options)
+  - [Choice]: Me gustaría canjear mis boletos, por favor.
+    - **Player:** Me gustaría cambiar mis entradas, por favor.
+    - **Pirate Jackie the Fruit:** Sí, irás por el rumbo correcto.
+    - (opens=Agility Arena Ticket Exchange)
+  - [Choice]: Pregunta por otra cosa.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Qué pociones hacen estas nuevas hierbas?
+        - **Player:** ¿Qué pociones hacen estas nuevas hierbas?
+        - **Pirate Jackie the Fruit:** No soy herbolario, pero me dieron las recetas para acompañar estas hierbas: Toadflax + Patas de sapo = Poción Agility Boca de dragón + Huevos de araña roja = Súper poción restauradora.
+        - **Player:** ¡Gracias!
+        - (initial|jackie-options)
+      - [Choice]: ¿Qué es este lugar?
+        - **Player:** ¿Qué es este lugar?
+        - **Pirate Jackie the Fruit:** ¡Bienvenido a Brimhaven Agility Arena!
+        - **Pirate Jackie the Fruit:** Si quieres saber más, habla con el Capitán Izzy, ¡lo encontró!
+        - (initial|jackie-options)
+      - [Choice]: Hasta luego.
+        - **Player:** Hasta luego.
+  - [Choice]: Hasta luego.
+    - **Player:** Hasta luego.

@@ -1,0 +1,129 @@
+# Captain Siad
+
+- **Original Wiki Page**: [Transcript:Captain Siad](https://runescape.wiki/w/Transcript%3ACaptain%20Siad)
+- **Letter**: `C`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Talking to Captain Siad
+
+- El capitán levanta la vista de su trabajo cuando usted se dirige a él.
+- **Captain Siad:** {{anchor|siad-start}}¿Qué estás haciendo aquí?
+- **Seleccione una opción**
+  - ¿Quería tener una charla?
+    - **Player:** ¿Quería charlar?
+    - **Captain Siad:** ¡No perteneces aquí, lárgate!
+    - **Seleccione una opción**
+      - ¿Pero sólo necesito dos minutos de tu tiempo?
+        - **Player:** ¿Pero solo necesito dos minutos de tu tiempo?
+        - **Captain Siad:** Bueno, está bien, pero muy rápido. ¡Soy una persona muy ocupada, sabes!
+        - **Seleccione una opción**
+          - Bueno, er... erm, me equivoco....{{anchor|erm}}
+            - **Player:** Bueno, er... erm, me equivoco...
+            - **Captain Siad:** ¡Vamos, escúpelo! ¡Eso es todo! ¡Guardias!
+            - **Guardia:** {{anchor|siad-guard}}¡Oye, estás ahí!
+            - Guardia: ¡Oye, estás ahí!
+            - **Guardia:** ¡Estás en serios problemas ahora!
+            - Guardia: ¡Estás en serios problemas ahora!
+            - **Captain Siad:** ¿Qué estás mirando?
+            - **Player:** Hmm, supongo que será mejor no empezar una pelea.
+          - ¡Dios mío, un dragón acaba de pasar volando por tu ventana! {{anchor|dragon}}
+            - **Player:** ¡Oh, un dragón acaba de pasar volando por tu ventana!
+            - **Captain Siad:** ¡De verdad! ¿Dónde? ¿No veo ningún dragón joven [man/lady]? Ahora, por favor, salga de mi oficina, tengo trabajo que hacer.
+            - El Capitán vuelve a su trabajo.
+      - ¡Prepárate para morir!
+        - (below|prepare-to-die)
+      - ¡Todos los esclavos se han liberado!
+        - (below|slaves-freed)
+      - ¡Fuego! ¡Fuego!
+        - (below|fire)
+      - ¡Parece que tienes muchos libros!
+        - **Player:** ¡Parece que tienes muchos libros!
+        - **Captain Siad:** Sí, lo hago. Ahora, ¿vamos al grano?
+        - **Seleccione una opción**
+          - ¿Desde cuándo te interesan los libros?
+            - **Player:** ¿Cuánto tiempo llevas interesado en los libros?
+            - **Captain Siad:** ¡El tiempo suficiente para saber cuando alguien se está estancando! Está bien, eso es todo, ¡lárgate! ¡Guardias!
+            - (continuea|siad-guard)
+          - ¡Podría conseguirte algunos libros!
+            - **Player:** ¡Podría conseguirte algunos libros!
+            - **Captain Siad:** ¡Oh, de verdad! Lo siento, ¡no estoy interesado!
+            - **Captain Siad:** {{RSChat|GUARDS!}}
+            - **Captain Siad:** ¿Qué estás mirando?
+            - **Player:** Hmm, supongo que será mejor no empezar una pelea.
+  - ¿Qué tiene que ver contigo?
+    - **Player:** ¿Qué tiene que ver contigo?
+    - **Captain Siad:** Esta es mi oficina. ¡Ahora explícate antes de que te explique!
+    - **Seleccione una opción**{{anchor|siad-lonely}}
+      - ¡Estoy aquí para tomar tus planes, entrégalos ahora o te mataré! {{anchor|plans}}
+        - **Player:** ¡Estoy aquí para tomar tus planes, entrégalos ahora o te mato!
+        - **Guardia:** ¡Guardias! ¡Guardias!
+        - (continuea|siad-guard)
+      - El guardia de abajo dijo que estabas solo.
+        - **Player:** El guardia de abajo dijo que estabas solo.
+        - **Captain Siad:** Bueno, ¡ciertamente no me siento solo! ¡Soy un hombre increíblemente ocupado, sabes! Ahora, ve al grano, ¿qué quieres?
+        - **Seleccione una opción**
+          - Bueno, eh... eh, me equivoco...
+            - (above|erm)
+          - Necesito reparar tu pecho.
+            - (below|service)
+      - Necesito reparar tu pecho.{{anchor|service}}
+        - **Player:** Necesito reparar tu cofre.
+        - **Captain Siad:** ¿Necesitas qué?
+        - **Player:** ¿Necesito reparar tu pecho?
+        - **Captain Siad:** No hay nada malo con el cofre, está bien, ¡ahora lárgate!
+        - **Seleccione una opción**
+          - ¡Estoy aquí para tomar tus planes, entrégalos ahora o te mataré!
+            - (above|plans)
+          - ¡Fuego! ¡Fuego!
+            - (below|fire)
+  - ¡Prepárate para morir! {{anchor|prepare-to-die}}
+    - **Player:** ¡Prepárate para morir!
+    - **Captain Siad:** ¡Te daré una lección!
+    - **Captain Siad:** {{RSChat|Guards! Guards!}}
+    - (continuea|siad-guard)
+  - ¡Todos los esclavos se han liberado! {{anchor|slaves-freed}}
+    - **Player:** ¡Todos los esclavos se han liberado!
+    - ((Condición desconocida:))
+      - El capitán parece distraído con lo que acabas de decir. El capitán mira por la ventana para ver si hay prisioneros escapando.
+    - ((De lo contrario:))
+      - **Captain Siad:** No digas tonterías, la sirena de advertencia no suena. Ahora declara tu negocio antes de que te echen.
+      - (above|siad-lonely)
+  - ¡Fuego! ¡Fuego!{{anchor|fire}}
+    - **Player:** ¡Fuego! ¡Fuego!
+    - **Captain Siad:** ¿Dónde está el fuego? ¿No veo ningún fuego? ¡Deja de molestarme y expresa tu negocio!
+    - **Seleccione una opción**
+      - Está en las minas inferiores, ¡haz sonar la alarma!
+        - **Player:** Está en las minas inferiores, ¡haz sonar la alarma!
+        - **Captain Siad:** Ve y haz sonar la alarma, no veo nada malo en la mina. ¿Has visto el fuego tú mismo?
+        - **Seleccione una opción**
+          - ¡Sí, de hecho!
+            - **Player:** ¡Sí, de hecho!
+            - **Captain Siad:** Bueno, ¿por qué no diste la alarma?
+            - **Seleccione una opción**
+              - No sé dónde está la alarma.
+                - **Player:** No sé dónde está la alarma.
+                - **Captain Siad:** Eso es lo más ridículo que he oído. ¿Quién eres? ¿De dónde es? No importa... ¡Guardias! ¡Muéstrale a esta persona!
+                - (continuea|siad-guard)
+              - Estaba tan preocupado por tu seguridad que me apresuré a salvarte.
+                - **Player:** Estaba tan preocupado por tu seguridad que me apresuré a salvarte.
+                - **Captain Siad:** Bueno, eso es muy bueno de tu parte. Pero como veis estoy muy bien y bien gracias! Ahora, por favor, vete para que pueda volver a mi trabajo.
+            - El Capitán regresa a su escritorio.
+          - Er, no, me dijo uno de los esclavos.
+            - **Player:** Er, no, me dijo uno de los esclavos.
+            - **Captain Siad:** Bueno... no puedes creerlos, son todos un grupo de presos. De todos modos, no parece que haya fuego ahí abajo. Así que voy a seguir con mi trabajo. Por favor, retírese de mi oficina.
+            - El Capitán regresa a su escritorio y comienza a estudiar.
+      - Ah, sí, tienes razón, ¡deben haberlo apagado!
+        - **Player:** Oh, sí, tienes razón, ¡deben haberlo apagado!
+        - **Captain Siad:** Bien, ¿ahora quizás puedas dejarme en paz? Después de todo, tengo trabajo que hacer.
+        - **Seleccione una opción**
+          - Er, sí, está bien entonces.
+            - **Player:** Er, sí, está bien entonces.
+            - **Captain Siad:** ¡Bien! Por favor, retírese de mi oficina.
+            - El Capitán regresa a su escritorio y comienza a estudiar.
+          - Bueno, eh... eh, me equivoco...
+            - (above|erm)

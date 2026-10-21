@@ -1,0 +1,156 @@
+# Chuck
+
+- **Original Wiki Page**: [Transcript:Chuck](https://runescape.wiki/w/Transcript%3AChuck)
+- **Letter**: `C`
+
+---
+
+## Dialogue Transcript
+
+{{incomplete|Needs dialogue between quest and quest, and misc.}}
+- **Player:** Hi Chuck. How's it going?
+- **Chuck:** Ah, Player. It's good to see you again.
+- (Condition: First time:)
+  - **Chuck:** Before you speak, I wanted to mention that a fellow agent of mine is stationed on the iceberg.
+  - **Chuck:** He is there to help you spy on penguins, but he is also in charge of an intelligence gathering unit that is interrogating a recent arrival of KGP agents.
+  - **Chuck:** He may need your help hunting penguins.
+  - **Player:** Okay, I'll keep an eye out for him the next time I'm on the iceberg.
+- [Menu]: Choose an option:
+  - [Choice]: Back to the Freezer Quest
+    - **Player:** Have you heard anything from Gordon recently?
+    - **Chuck:** He sends in reports when he can, via magic carpet.
+    - **Chuck:** The penguins are trying to repair their T.A.R.D.I.S., but as you can imagine, it's almost impossible for them to get spare parts out there.
+    - **Chuck:** Gielinor is safe for the time being!
+    - (Condition: First time after unlocking Invention if the quest was completed before doing so:)
+      - **Chuck:** Ah, I see you've finally become learned about Invention, here I've got something for
+      - {{qact|The player gains 10,000 experience in Invention.}}
+      - [You receive 10k XP in Invention for your unknowing skills demonstrated in Back to the Freezer.]
+    - (end)
+  - [Choice]: Some Like It Cold Quest
+    - **Player:** I thought Larry might hang around the zoo again. Where's he gone off to?
+    - **Chuck:** We believe he has learned the location of the penguins' secret base on Acheron. We've taken him to the PBJ HQ to debrief him.
+    - (Condition: If Player does not own Sheldon the Penguin:)
+      - **Player:** What about his baby penguin? What will happen to Sheldon?
+      - **Chuck:** That abomination? I don't know. Larry wouldn't let us dispose of it. It seems perhaps his allegiance isn't as strong as it used to be.
+    - (Condition: If Player owns Sheldon the Penguin:)
+      - **Chuck:** How is that abomination of a penguin Larry wouldn't let us dispose of? Has it shown any signs of treachery yet?
+      - **Player:** Sheldon? Oh not at all; he's an excellent companion actually.
+      - **Chuck:** Never fear. I will remain here to pick up the pieces after it eventually betrays you.
+  - [Choice]: Penguin Hide and Seek
+    - **Player:** I wanted to talk to you about the penguin spies.
+    - (Condition: If Player does not own a spy device)
+      - **Chuck:** You should take this device for spying on the penguins. It should come in handy as it has a number of useful functions that will help you on your mission. First, it will provide hints to all the penguin locations. It can't get an exact lock on, but it should give you the general area to begin your search. Once you're in the area, you can start a scan which will search your immediate vicinity and identify any penguins nearby. As you spot more penguins, I will be offer an upgrade to scan range and a new zap function which will freeze any penguins in place.
+      - (receives=penguin spy device)
+    - (Condition: If Player has lost or destroyed their spy device)
+      - **Chuck:** Hm... you appear to be missing your penguin spy device?
+      - **Player:** I only turned around for a second...
+      - **Chuck:** You're lucky Larry made plenty of them. From what I can tell they are mostly made out of tin foil anyway.
+      - (receives=penguin spy device)
+    - [Menu]: Select an option
+      - (Only if not asked last:)
+        - [Choice]: I've found more penguins.
+          - **Player:** I've found more penguins.
+          - **Chuck:** Hmm, they move quickly, this was unanticipated.
+          - ((Only on first time:))
+            - **Player:** That's not all! I discovered there are secret agent penguins that have started to appear across Gielinor as well.
+            - **Chuck:** They're evolving quickly it appears. This is troubling news indeed.
+            - **Player:** What should we do about them?
+            - **Chuck:** Let's just keep tracking them for now. They have to slip up eventually.
+            - **Player:** Because of the ice, right?
+            - **Chuck:** I do worry about you sometimes. No, these agents could be a dangerous new foe and we should learn as much as we can about their movements.
+            - **Player:** Sorry. Full focus from now on.
+            - (continue)
+          - **Player:** I've found [number] penguin[s] this week.
+          - (Condition: If you have found all 12 and haven't completed I C U K G P yet:)
+            - Congratulations! You have completed: 'I C U K G P' - Find 12 penguin spies and the polar bear in a single week and report your findings.
+            - (continue)
+          - (Condition: If you have points to spend:)
+            - **Chuck:** Well done. You have [number] point[s] to spend. Perhaps you should think about claiming your reward.
+            - (previous)
+          - (Condition: If you have no points saved up:)
+            - **Chuck:** True, you have done well finding spies. However, you have no penguin points saved up. Keep looking!
+            - (previous)
+      - [Choice]: I'm having trouble finding the penguins, can I have a hint?
+        - ((One of the following is shown, depending on the location of the penguins:))
+          - **Chuck:** I've heard there's a penguin located around a village between a great tower and a vampyre's manor.
+          - **Chuck:** I've heard there's a penguin located around Ardougne
+          - **Chuck:** I've heard there's a penguin located around Feldip Hills, near Gu'Tanoth
+          - **Chuck:** I've heard there's a penguin located around the Al Kharid region, north of Shantay Pass
+          - **Chuck:** I've heard there's a penguin located around the Ice Mountain region
+          - **Chuck:** I've heard there's a penguin located between the Fremenniks and the Barbarians
+          - **Chuck:** I've heard there's a penguin located deep in the jungle
+          - **Chuck:** I've heard there's a penguin located east of the Mage Training Arena
+          - **Chuck:** I've heard there's a penguin located in a city of plagues within the desert
+          - **Chuck:** I've heard there's a penguin located in a town of druids
+          - **Chuck:** I've heard there's a penguin located in or around Falador
+          - **Chuck:** I've heard there's a penguin located in the east of the kingdom of Kandarin
+          - **Chuck:** I've heard there's a penguin located in the fairy realm
+          - **Chuck:** I've heard there's a penguin located in the frozen wastes
+          - **Chuck:** I've heard there's a penguin located in the north of the kingdom of Misthalin
+          - **Chuck:** I've heard there's a penguin located in the south of the kingdom of Misthalin
+          - **Chuck:** I've heard there's a penguin located in the north of the Kharidian desert
+          - **Chuck:** I've heard there's a penguin located in the south of the Kharidian desert
+          - **Chuck:** I've heard there's a penguin located in the west of the kingdom of Kandarin
+          - **Chuck:** I've heard there's a penguin located in the wilderness
+          - **Chuck:** I've heard there's a penguin located near a big tree surrounded by short people
+          - **Chuck:** I've heard there's a penguin located near a mountain of wolves
+          - **Chuck:** I've heard there's a penguin located near a tainted swamp
+          - **Chuck:** I've heard there's a penguin located near a town of werewolves
+          - **Chuck:** I've heard there's a penguin located near some ogres in South Feldip Hills
+          - **Chuck:** I've heard there's a penguin located near the Barbarian Outpost
+          - **Chuck:** I've heard there's a penguin located near the bees and flax
+          - **Chuck:** I've heard there's a penguin located near the Castle of Arthur
+          - **Chuck:** I've heard there's a penguin located near the city of ghosts
+          - **Chuck:** I've heard there's a penguin located near the coast, east of Ardougne
+          - **Chuck:** I've heard there's a penguin located near the island of Dragontooth
+          - **Chuck:** I've heard there's a penguin located near the pointy-eared ones
+          - **Chuck:** I've heard there's a penguin located near Port Sarim
+          - **Chuck:** I've heard there's a penguin located near the mudskippers
+          - **Chuck:** I've heard there's a penguin located north of Ardougne
+          - **Chuck:** I've heard there's a penguin located on a large crescent island
+          - **Chuck:** I've heard there's a penguin located on an island, etc
+          - **Chuck:** I've heard there's a penguin located on islands where brothers quarrel
+          - **Chuck:** I've heard there's a penguin located somewhere beyond detection
+          - **Chuck:** I've heard there's a penguin located somewhere in Gielinor
+          - **Chuck:** I've heard there's a penguin located south of Ardougne
+          - **Chuck:** I've heard there's a penguin located west of Ardougne, in the hills
+          - **Chuck:** I've heard there's a penguin located west of Varrock
+          - **Chuck:** I've heard there's a penguin located where banana smugglers dwell
+          - **Chuck:** I've heard there's a penguin located where bloodsuckers rule
+          - **Chuck:** I've heard there's a penguin located where eagles fly
+          - **Chuck:** I've heard there's a penguin located where fishers colonise
+          - **Chuck:** I've heard there's a penguin located where monkeys rule
+          - **Chuck:** I've heard there's a penguin located where no weapons may go
+          - **Chuck:** I've heard there's a penguin located where pirates feel mostly harmless
+          - **Chuck:** I've heard there's a penguin located where the big-eyed goblins dwell
+          - **Chuck:** I've heard there's a penguin located where the dwarves dig deep
+          - **Chuck:** I've heard there's a penguin located where the Fremennik 'heim' and seek
+          - **Chuck:** I've heard there's a penguin located where the Imperial Guard train
+          - **Chuck:** I've heard there's a penguin located where wizards study
+          - (end)
+      - ((Only if the first option wasn't selected last:))
+        - [Choice]: I want to claim my reward.
+          - (opens=Spy Club)
+      - [Choice]: What do I need to do again?
+        - **Player:** What do I need to do again?
+        - **Chuck:** You humans do have a short attention span, don't you?
+        - **Chuck:** The penguins have dispatched spies all over the world. I need brave adventurers to find them and report their locations to me, as I cannot leave this cage.
+        - **Chuck:** Whenever you spot a penguin, spy on it. They're well trained and will change their positions every week, so keep your eyes peeled.
+        - **Chuck:** I'll give you a device that can track the penguin spies and offer you hints on their locations. Penguins are worth between 1 and 3 Penguin Points depending how difficult they are to find.
+        - **Chuck:** Report back here and I will reward you for your efforts.
+        - **Chuck:** Finally, you may see a polar bear on your travels. If you report his location to me I will reward you with an extra Penguin Point. He's one of ours, but I like to keep tabs on our spies, too.
+      - [Choice]: Never mind.
+        - **Player:** Never mind.
+        - **Chuck:** Very well.
+        - (end)
+  - [Choice]: I've lost the clockwork book, could I have another?
+    - (Condition: If you don't own the clockwork book)
+      - **Player:** I've lost the clockwork book, could I have another?
+      - **Chuck:** Fortunately, Larry put a spell on it which returned it to me when you lost it. Here it is.
+- (Condition: If the player does not have the Ransom letter:)
+  - [Choice]: I lost the ransom letter the Walrus sent you, could I have another?
+    - **Player:** Can I have a copy of the letter the Walrus sent you?
+    - **Chuck:** Of course.
+    - [Chuck passes the letter through the cage bars.]
+    - (receives=Ransom letter)
+    - (end)

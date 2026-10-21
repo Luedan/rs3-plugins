@@ -1,0 +1,184 @@
+# Ben
+
+- **Original Wiki Page**: [Transcript:Ben](https://runescape.wiki/w/Transcript%3ABen)
+- **Letter**: `B`
+
+---
+
+## Dialogue Transcript
+
+
+### Before unlocking 'Accidental' Fletching and Firemaking
+
+- **Ben:** Waaaaaah!
+- **Player:** Hello there, what are you doing?
+- **Ben:** I'm stuck. I was out adventuring with my brother, Bill. I began to climb a tree when all of a sudden...
+- **Ben:** ...I just appeared here. I think the tree is magic!
+- **Player:** Well, looking across the shore I can see a tree of the same type. Perhaps if you climb it again it will teleport you back over to your brother.
+- **Ben:** Waaaaaaaah!
+- **Ben:** I'm scared of climbing, though!
+- **Player:** Hang on a second, you got in this mess because you climbed a tree. But you're scared of climbing?
+- **Ben:** Waaaaaaaah!
+- **Ben:** I'll stay put for now.
+- **Player:** Suit yourself.
+
+### After unlocking 'Accidental' Fletching and Firemaking
+
+- ((Before starting progress on Egg McGuffin:))
+  - **Ben:** Oh, hai. I'm Ben, a zygomighty carestylist!
+  - (continue)
+- Choose an option:
+  - What's a 'carestylist'?
+    - **Ben:** Me! I'm a carestylist. A zygomighty one.
+    - **Ben:** It's just the thing a zygomite needs when we're having a bad care day. A bit of pampering. Clipping of the cuticles and a bit of a chin-wag.
+    - **Player:** Are you sure you don't mean 'hairstylist'?
+    - **Ben:** Zygomites don't have hair like silly humans.<br>We have cuticles.
+    - **Ben:** Hmm, maybe I'll call it 'cuticlearing'. I haven't decided yet. 'Bill & Ben, the two cuticlears'. Has a nice ring to it, eh?
+    - **Player:** You don't seem to be doing much 'carestyling'.<br>Your customers are queuing up.
+    - **Ben:** Well that's because I need an apprentice to work, while I manage the salon.
+    - **Player:** There is a lot of delegation in this production line, isn't there?
+    - (previous|Ben-options)
+  - Are you responsible for the big eggs north of here?
+    - **Ben:** Ooh, yes. I promised to sort Galgalar's pile of dinosaur eggs, didn't I?
+    - **Ben:** I got so excited about carestyling that I forgot!
+    - **Ben:** Good eggs in his fast incubator. Bad eggs in the fast cauldr- compost bin. That was it. Maybe. Or was it the other way around?
+    - **Ben:** It's not that I don't care about hatching the eggs. But right now I care even more about this salon.
+    - **Ben:** And the only way I know to care less about something is to pour all my energy into it 'til I can focus on something else.
+    - **Player:** Best to leave the eggs where they are. Somebody will come along and hatch the good eggs for Galgalar. No need for you to get involved.
+    - **Ben:** Are you using reverse mycology on me?
+    - (previous|Ben-options)
+  - [Talk about helping in the salon]
+    - **Player:** How can I help you run your new salon?
+    - ((With less than 82 Fletching:))
+      - **Ben:** You're vines don't look strong enough to help around the salon.
+      - **Player:** Neither do yours...
+      - ((Shown in a pop-up:))
+        - You require 82 Fletching or Firemaking to cut or dry zygomite cuticles.
+        - (continue)
+      - (previous|Ben-options)
+    - ((With at least 82 Fletching:))
+      - ((On the first time:))
+        - {{Qact|Camera pans to the scruffy zygomites.}}
+        - **Ben:** You could be my apprentice! Cut or dry the cuticles of a client in our luxury carestyling chairs.
+        - **Player:** I assume you mean the half barrels?
+        - {{Qact|Camera returns to normal.}}
+        - **Ben:** Yeah! Cut or dry their cuticles and bring me some to show you can do it!
+        - (previous|Ben-options)
+      - ((After the first time without a tempered fungal shaft:))
+        - **Ben:** Where are the cuticles?
+        - You need to gather some tempered fungal shafts from zygomite carestyling to show Ben.
+      - ((With a tempered fungal shaft but before having completed Egg McGuffin:))
+        - You show Ben tempered fungal shafts.
+        - **Ben:** Yes, those are exactly what I expected to see.
+        - {{Qact|Camera pans to the scruffy zygomites.}}
+        - **Ben:** You should be able to get lots of tempered fungal shafts cutting and drying the cuticles of all my customers.
+        - {{Qact|Camera returns to normal.}}
+        - **Player:** They look like they would make good sturdy shafts for arrows.
+        - **Ben:** You can stretch them too.<br>Maybe that is useful?
+        - **Player:** That sounds like a good bowstring. Perhaps I should try stretching them on a spinning wheel?
+        - **Ben:** Why not? You can take as many as you like.
+        - **Player:** I am not sure that is as generous as you think it is.
+        - **Ben:** Speaking of not being generous, my brother Bill's not sending any fertiliser back. I don't want Granny mad at us.
+        - **Ben:** He and a lizard person called Susan (I think?) should be feeding the dinos and testing the fertiliser.
+        - **Ben:** If you climb this mystical tree, you'll teleport to my brother on the west coast.
+        - **Ben:** Can you ask Bill what's the hold up? I'd go, but I'm scared of climbing.
+        - **Ben:** 'Grats on a job well done.
+        - **Ben:** Now GET BACK TO WORK, apprentice!
+        - **Player:** As a boss, I expected you to be more of a fungi.
+        - **Ben:** We'll discuss it at your next per-spore-mance review.
+        - **Player:** Aww, you're adorable. Cute as a button mushroom.
+        - {{RSFontAchievement|Egg McGuffin}}
+        - **Ben:** You're starting to grow on me too.
+        - (previous|Ben-options)
+      - ((After having completed Egg McGuffin:))
+        - {{Qact|Camera pans to the scruffy zygomites.}}
+        - **Ben:** You should be able to get lots of tempered fungal shafts cutting and drying the cuticles of all my customers.
+        - {{Qact|Camera returns to normal.}}
+        - **Player:** They look like they would make good sturdy shafts for arrows.
+        - **Ben:** You can stretch them too.<br>Maybe that is useful?
+        - **Player:** That sounds like a good bowstring. Perhaps I should try stretching them on a spinning wheel?
+        - **Ben:** Why not? You can take as many as you like.
+        - **Player:** I am not sure that is as generous as you think it is.
+        - **Ben:** Speaking of not being generous, my brother Bill's not sending any fertiliser back. I don't want Granny mad at us.
+        - **Ben:** He and a lizard person called Susan (I think?) should be feeding the dinos and testing the fertiliser.
+        - **Ben:** If you climb this mystical tree, you'll teleport to my brother on the west coast.
+        - **Ben:** Can you ask Bill what's the hold up? I'd go, but I'm scared of climbing.
+        - (previous|Ben-options)
+  - How did you get here?
+    - **Ben:** I was out adventuring with my brother Bill, I began to climb a tree when all of a sudden...
+    - **Ben:** ...I just appeared here. I think the tree is magic!
+    - **Player:** Well, looking across the shore I can see a tree of the same type. Perhaps if you climb it again it will teleport you back over to your brother.
+    - **Ben:** Waaaaaaaah!
+    - **Ben:** I'm scared of climbing, though!
+    - **Player:** Hang on a second, you got in this mess because you climbed a tree. But you're scared of climbing?
+    - **Ben:** Waaaaaaaah!
+    - **Ben:** I'll stay put for now.
+    - **Player:** Suit yourself.
+    - (previous|Ben-options)
+  - ((Only after starting progress for Potting Is Such Sweet Sorrow:))
+    - [Talk about Bill's magic pot]
+      - ((Only on the first time:))
+        - **Player:** Your brother wants you to return his magic pot.
+        - **Ben:** Whatcha gonna give me?
+        - **Player:** This isn't a negotiation.
+        - **Ben:** What're you gonna give me?
+        - **Player:** Apparently this is now a negotiation.
+        - What could Ben potentially want?
+        - A potato?
+          - **Ben:** Nah. I'm cutting carbs.
+          - (previous|negotiations-with-ben)
+        - A chocolate teapot?
+          - **Ben:** Nah. Useless.<br>And fattening.
+          - (previous|negotiations-with-ben)
+        - Potassium supplements?
+          - **Ben:** What even...<br>What?<br>Nope.
+          - (previous|negotiations-with-ben)
+        - A pot of flour?
+          - **Ben:** Hmm. Close. Wouldn't translate.<br>Getting warmer.
+          - (previous|negotiations-with-ben)
+        - A flower pot?
+          - **Ben:** Yes! Empty plant pot. No dirt.
+          - **Ben:** I've gathered my own dirt on Bill.
+      - ((After the first time without an empty or filled plant pot and before having received the magic pot:))
+        - **Player:** Because I'm a rational human being, I don't walk around with a spare plant pot. I'll be back.
+        - (previous|Ben-options)
+      - ((After the first time with a filled plant pot and before having received the magic pot:))
+        - **Player:** I have a plant pot for you. It just needs a little emptying out.
+        - **Ben:** I said 'no dirt'!
+        - **Player:** Oh, go on.
+        - **Ben:** Nope.
+        - **Player:** Aw, come on.
+        - **Ben:** Nope!
+        - **Player:** Do it.
+        - **Ben:** Nuh-uh.
+        - **Player:** Do it!
+        - Ben sighs dramatically and rolls his eyes. Then he brings the plant pot to his lips, and tips the contents into his mouth.
+        - You watch in horrified fascination as Ben chews his way through a mouthful of compost, then loudly swallows.<<br>It's like listening to a drain unblock.
+        - **Ben:** BURP!<br>'Scuse me.
+        - (removes=plant pot) (receives=magic pot)
+        - Ben replaces the magic pot with the empty plant pot, and gives Bill's magic pot to you.
+        - **Ben:** Everybody's happy. Give that magic pot to Bill.
+      - ((After the first time with an empty plant pot and before having received the magic pot:))
+        - **Player:** I just happen to have an empty plant pot for you right here.
+        - (removes=plant pot) (receives=magic pot)
+        - Ben replaces the magic pot with the empty plant pot, and gives Bill's magic pot to you.
+        - **Ben:** Everybody's happy. Give that magic pot to Bill.
+      - ((After having received the magic pot but having lost it:))
+        - ((Without free space in backpack:))
+          - **Ben:** I found the magic pot. I'd give it, but your backpack's full.
+          - (previous|Ben-options)
+        - ((With free space in backpack:))
+          - (receives=magic pot)
+          - **Ben:** Whoopsie. Here's the magic pot. Give it to Bill.
+          - (previous|Ben-options)
+      - ((With the magic pot:))
+        - **Ben:** Everybody's happy. Give that magic pot to Bill.
+        - (previous|Ben-options)
+      - ((After having completed Potting Is Such Sweet Sorrow:))
+        - **Player:** What are you growing in that plant pot?
+        - **Ben:** Flower.
+        - **Player:** Looks more like weeds in wet soil.
+        - **Ben:** Weeds now.<br>Flower later.
+        - (previous|Ben-options)
+  - Goodbye.
+    - **Ben:** Bai! Babap.

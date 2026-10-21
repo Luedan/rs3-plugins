@@ -1,0 +1,96 @@
+# Ramokee Skinweaver (Polypore Dungeon)
+
+- **Original Wiki Page**: [Transcript:Ramokee Skinweaver (Polypore Dungeon)](https://runescape.wiki/w/Transcript%3ARamokee%20Skinweaver%20%28Polypore%20Dungeon%29)
+- **Letter**: `R`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### In the [[Polypore Dungeon]]
+
+- **Ramokee Skinweaver:** ¿Mmmm?
+- Seleccione una opción
+  - Hola, soy Player.
+    - **Player:** Hola, soy Player.
+    - **Ramokee Skinweaver:** Deja la charla, humano.
+    - (previous|initial-options)
+  - Me gustaría preguntarte sobre ti.
+    - **Player:** Me gustaría preguntarte sobre ti.
+    - **Ramokee Skinweaver:** Muy bien.
+      - ¿Quién eres?
+        - **Player:** ¿Quién eres?
+        - **Ramokee Skinweaver:** Tu pregunta es vaga y tiene muchas respuestas. Si quieres saber mi raza soy gorajo. Si quieres saber mi clase, nací como tejedora de pieles. Si quieres conocer mi tribu, no sirvo a ninguna tribu, por eso me llaman ramokee. Soy todas esas cosas, pero no definen quién soy.
+        - (previous|ask-about-ramokee)
+      - ¿Por qué estás aquí?
+        - **Player:** ¿Por qué estás aquí?
+        - **Ramokee Skinweaver:** Estoy aquí porque deseo estar aquí. Pero quizás eso no sea lo que querías preguntar; Les contaré más de mi historia. Entre mi raza, los tejedores de piel son raros. Casi tan pronto como nacemos, la tribu espera que pasemos por un entrenamiento intensivo, aprendiendo a servir como curanderos. No había pedido ser tejedor de pieles; Mi clase fue un mero accidente del destino, pero marcó el curso de toda mi vida. Ésa es la manera gorajo y la rechacé. Una vez que dominé mis poderes, dejé la tribu y me convertí en ramokee. Ahora no sirvo a nadie y mis poderes son míos para usarlos como quiera.
+        - (previous|ask-about-ramokee)
+          - Eso fue muy egoísta de tu parte.
+            - **Player:** Eso fue muy egoísta de tu parte.
+            - **Ramokee Skinweaver:** Humano, podría disolver tu corazón con un simple pensamiento. No me interrumpas.
+              - *(Continúa a continuación)*
+          - Admiro tu independencia.
+            - **Player:** Admiro tu independencia.
+            - **Ramokee Skinweaver:** Eso es correcto y apropiado. Continuaré.
+              - *(Continúa a continuación)*
+          - Te dejaré en paz ahora.
+            - (below|leave-alone)
+        - **Ramokee Skinweaver:** Vagando solo, me encontré con un extraño agujero en el mundo y lo atravesé hasta llegar a una tierra como nunca antes había visto. Sus habitantes alados lo llamaron Zanaris.
+        - **Player:** ¿Zanaris? Sí, he estado allí.
+        - **Ramokee Skinweaver:** El agujero por el que había entrado a Zanaris se cerró solo. Las criaturas de Zanaris dijeron que debió ser un portal inestable; cosas así suceden allí. Aunque ya no podía regresar a mi mundo, no tenía ningún deseo de hacerlo. Allí no había nada que me interesara. Zanaris tenía anillos de hongos mágicos a través de los cuales podía viajar de mundo en mundo. Uno de esos viajes me trajo a tu mundo. Como tejedora de pieles, me fascinaban los hongos que había en esos anillos. Es un organismo vivo, pero contiene poder mágico. Empecé a estudiar los hongos. Experimenté con los hongos nativos de esta cueva húmeda y aprendí a imbuirles algunos de mis propios poderes para tejer la piel. Incluso podría tejer los hongos alrededor de las bestias nativas, creando criaturas completamente nuevas. Ya tenían fuerza bruta, pero mi hongo les dio magia. Así que ahora esta cueva es mi hogar, donde puedo usar mis poderes de tejido de piel para crear lo que desee. Es satisfactorio.
+        - (previous|ask-about-ramokee)
+      - ¿Puedo pelear contigo?
+        - **Player:** ¿Puedo pelear contigo?
+        - **Ramokee Skinweaver:** Humano, soy un tejedor de pieles. Puedo arrancar la carne de tus huesos con un simple pensamiento y luego hacerla crecer hasta darle una forma más agradable. Antes de que pudieras golpearme, encontrarías que tus intestinos crecían a través de tu nariz.
+        - **Player:** Lo tendré en cuenta.
+        - (previous|ask-about-ramokee)
+      - Hablemos de otra cosa.
+        - **Player:** Hablemos de otra cosa.
+        - **Ramokee Skinweaver:** Si es necesario.
+        - (initial|initial-options)
+  - Me gustaría preguntarte sobre este lugar.
+    - **Player:** Me gustaría preguntarte sobre este lugar.
+    - **Ramokee Skinweaver:** ¿Este lugar? Es mi hogar. ¿Qué pasa con eso?
+    - Seleccione una opción
+      - ¿Por qué la cueva está llena de hongos?
+        - **Player:** ¿Por qué la cueva está llena de hongos?
+        - **Ramokee Skinweaver:** Los hongos son formas de vida increíblemente flexibles. Puedo imbuirles mis poderes y luego hacerlos crecer en todas las bestias de la cueva para crear nuevos tipos de criaturas. Cuando llegué aquí, la cueva ya contenía hongos porque esta es una región naturalmente húmeda. Simplemente he fomentado el crecimiento de estos asombrosos organismos.
+        - (previous|ask-about-place)
+      - ¿Qué haces aquí?
+        - **Player:** ¿Qué haces aquí?
+        - **Ramokee Skinweaver:** ¡Hago lo que quiero! No hay ninguna tribu aquí que me exija nada. Mis poderes son míos para usarlos como quiera. He aprendido a imbuir mis poderes para tejer piel en el hongo de esta cueva. Al cultivarlo en las bestias nativas, he creado nuevas formas de vida. También hago prendas sencillas de micelio. El comerciante los vende arriba. Si recoges escamas de mi hongo de mis criaturas, puedes intentar unir el hongo a las prendas de micelio para hacer una armadura protectora imbuida de mis poderes mágicos.
+        - (previous|ask-about-place)
+      - Hablemos de otra cosa.
+        - **Player:** Hablemos de otra cosa.
+        - **Ramokee Skinweaver:** Si es necesario.
+        - (initial|initial-options)
+  - Me gustaría preguntarte sobre estas criaturas.
+    - **Player:** Me gustaría preguntarte sobre estas criaturas.
+    - **Ramokee Skinweaver:** ¿Mis criaturas? Muy bien, adelante.
+    - Seleccione una opción
+      - ¿Qué son estas criaturas?
+        - **Player:** ¿Qué son estas criaturas?
+        - **Ramokee Skinweaver:** Cuando llegué aquí por primera vez, eran bestias sin sentido que caminaban pesadamente por la cueva, en cuclillas en limo. Tenían fuerza bruta, pero nada más. Cuando aprendí a imbuir mis poderes en los hongos nativos, pude hacer crecer mis hongos en las criaturas y adapté sus cuerpos para recibirlos. En mis criaturas he conseguido una combinación perfecta de los poderes mágicos del hongo con la fuerza y ​​voracidad de the beast.
+        - (previous|ask-about-creatures)
+      - ¿Cómo debería luchar contra ellos?
+        - **Player:** ¿Cómo debería luchar contra ellos?
+        - **Ramokee Skinweaver:** Cuando un humano ve una criatura extraña, su instinto es matarla. ¡Tu raza es realmente extraña! Sin embargo, puedes intentar sacrificarlos si te atreves; Si bien disfruto creándolos, las bestias completamente formadas no me sirven de nada. Necesitarás habilidad, humano. Mi hongo es poderoso y algunas de las criaturas ni siquiera pueden ser dañadas excepto por cazadores inmensamente hábiles. Además, debes saber que mi hongo hace que las criaturas sean resistentes a los ataques físicos. Es posible que tengas más éxito usando tus poderes mágicos. Si dejas que las criaturas más grandes te toquen, sus hongos intentarán infestarte. Esto te matará muy rápidamente, así que mantén la distancia. Las drupas de neem que crecen arriba se pueden triturar para extraer su aceite. Este es un fungicida natural. Puedes recogerlo en una jarra. Salpicar aceite de neem sobre mis criaturas debilitará mis hongos por un momento. Si no te atreves a acercarte a la criatura para hacer esto, consigue que otro humano lo haga por ti. Mientras el hongo esté debilitado, la criatura quedará confundida y no podrá lanzar ataques mágicos durante un breve periodo de tiempo. Intenta no morir horriblemente.
+        - (previous|ask-about-creatures)
+      - ¿Qué botín puedo obtener de ellos?
+        - **Player:** ¿Qué botín puedo obtener de ellos?
+        - **Ramokee Skinweaver:** Las esporas y escamas de hongos son bastante comunes. Si recolectas suficientes esporas, es posible que puedas cultivarlas en una varilla de poliporo. Las varillas de poliporo se encuentran en las bestias ganodermicas, las grandes. Si cultivas esporas en una barra de poliporo, puedes crear un poderoso y mágico staff. Las escamas de hongo se pueden adherir a prendas de micelio que hago, convirtiéndolas en armaduras mágicas. El comerciante de arriba puede venderte las prendas. Es extraño, incluso para un humano, pero dirige su pequeña tienda adecuadamente. Aparte de eso, he creado un hongo especial que los humanos pueden comer. Lo he llamado Hongo Gorajiano. Está imbuido de mis poderes para tejer piel. Cuando comes un hongo gorajian, restaurarás parte de tu salud inmediatamente y te beneficiarás de un efecto curativo durante un corto período. El efecto curativo hace que recibas menos daño cuando un humano como tú te lastima. Incluso podrías ganar un poco de salud si el daño fuera lo suficientemente leve.  El efecto es provocado por el conflicto espiritual de los combatientes. Si estás luchando contra monstruos, no habrá conflicto espiritual, por lo que la curación no hace nada. Incluso si tu enemigo es humano, su origen puede ser demasiado diferente al tuyo como para desencadenar el efecto curativo.
+        - Ramokee Skinweaver está tratando de explicar que el efecto curativo solo funciona en el combate jugador contra jugador.
+        - **Player:** Está bien, estaré atento a esas cosas.
+        - **Ramokee Skinweaver:** Si no te interesan, tal vez puedas venderlos.
+        - (previous|ask-about-creatures)
+      - Hablemos de otra cosa.
+        - **Player:** Hablemos de otra cosa.
+        - **Ramokee Skinweaver:** Si es necesario.
+        - (initial|initial-options)
+  - Te dejaré en paz ahora.
+    - **Player:** Te dejaré en paz ahora.
+    - Al Ramokee Skinweaver no parece importarle.
+    - (end)

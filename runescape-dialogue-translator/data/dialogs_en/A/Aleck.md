@@ -1,0 +1,147 @@
+# Aleck
+
+- **Original Wiki Page**: [Transcript:Aleck](https://runescape.wiki/w/Transcript%3AAleck)
+- **Letter**: `A`
+
+---
+
+## Dialogue Transcript
+
+{{dialogue|npc}}
+
+### In Yanille
+
+- **Player:** Hello.
+- **Aleck:** Hello, hello, and a most warm welcome to my Hunter Emporium. We have everything the discerning Hunter could need.
+- **Aleck:** Would you like me to show you our range of equipment? Or was there something specific you were after?
+- {{tselect|Select an Option}}
+  - {{topt|Talk about Hunter Emporium}}
+    - {{tselect|Choose an option:}}
+      - {{topt|Okay, let's see what you've got.}}
+        - **Player:** Okay, let's see what you've got.
+        - (opens=Aleck's Hunter Emporium)
+      - {{topt|I'm not interested, thanks.}}
+        - **Player:** I'm not interested, thanks.
+        - **Aleck:** Well, if you do ever find yourself in need of the finest Hunter equipment available, then you know where to come.
+      - {{topt|Who's that guy over there?}}
+        - **Player:** Who's that guy over there?
+        - **Aleck:** Him? I think he might be crazy. Either that or he's seeking attention.
+        - **Aleck:** He keeps trying to sell me these barmy looking weapons he's invented. I can't see them working, personally.
+      - {{topt|Do you have any Hunter wisdom to share?}}
+        - **Player:** Do you have any Hunter wisdom to share?
+        - **Aleck:** Some creatures can be particularly fond of certain food. If you bait your trap it's more likely that you'll catch the critters.
+        - **Player:** So, I need to use bait?
+        - **Aleck:** Sometimes it's essential. I remember when I was hunting in Isafdar, the animals there wouldn't even look at a trap unless I used bait. Those pawya and grenwalls aren't easily fooled.
+        - {{tselect|Select an Option}}
+          - {{topt|How did you find out which bait to use?}}
+            - **Player:** How did you find out which bait to use?
+            - **Aleck:** After watching them for a while I noticed that the grenwalls ate the pawya, so I realised I could use pawya meat to catch grenwall.
+            - **Player:** But how did you catch the pawya to start with?
+            - **Aleck:** That was harder to figure out. I could tell they didn't eat meat, so I tried other baits and found out that they couldn't resist papaya fruit.
+            - **Aleck:** Anyway, would you like me to show you our range of equipment or was there something specific you were after?
+            - (previous2)
+          - {{topt|Thanks for your help.}}
+            - **Player:** Thanks for your help.
+            - **Aleck:** It's always a pleasure to share Hunter knowledge.
+            - **Aleck:** Would you like me to show you our range of equipment or was there something specific you were after?
+            - (previous2)
+  - {{topt|About the Task System...}}
+    - {{tcond|If the player has completed the Hard tasks in the Ardougne set and the reward is not yet claimed:}}
+      - **Player:** I've completed all of the Hard Tasks in the Ardougne set.
+      - **Aleck:** Oh! So you have, well done! I have a lovely cloak here for you.
+      - {{tbox|pic=Ardougne cloak 3 detail.png|pic2=Antique lamp (Hard Ardougne Tasks) detail.png|Aleck hands you a cloak and a lamp.}}
+      - **Aleck:** There you are. I think you'll find you can now, umm, shall we say 'expropriate' things around the world more easily while wearing that cloak. Also, you may find Cromperty can help you out with your runecrafting. There may be other effects, too; it's quite an enigma.
+      - **Player:** Thanks!
+      - **Aleck:** You're welcome.
+      - {{tact|continue}}
+    - {{tcond|If the player has completed the Elite tasks in the Ardougne set and the reward is not yet claimed:}}
+      - **Player:** I've completed all the Elite Tasks in the Ardougne set.
+      - **Aleck:** My warmest congratulations! I expect you'll be wanting a reward, eh?
+      - **Player:** Yes please.
+      - **Aleck:** Well, it looks like you've explored pretty much everywhere! A suitable reward is in order.
+      - **Player:** Great! Thanks.
+      - **Player:** I've completed all the Elite Tasks in the Ardougne set.
+      - **Aleck:** Wow, that is impressive! You've far surpassed my expectations, well done.
+      - {{tbox|pic=Antique lamp (Elite Ardougne Tasks) detail.png|Aleck hands you four old lamps and does something to your cloak that you can't quite see.}}
+      - **Aleck:** There you are. That should help you with the cloak's reluctance to teleport you to the farming patch north of Ardougne more than once a day.
+      - **Player:** Thanks!
+      - **Aleck:** You're welcome.
+      - {{tact|continue}}
+    - {{tcond|If the player has lost their Ardougne cloak 3:}}
+      - **Aleck:** How's the cloak?
+      - **Player:** I lost it.
+      - **Aleck:** Really? Here, I found another in the storeroom.
+      - {{tact|receives=Ardougne cloak 3}}
+      - {{tbox|pic=Ardougne cloak 3 detail.png|Aleck hands you another cloak.}}
+      - {{tact|continue}}
+    - {{tcond|If the player has lost their Ardougne cloak 4:}}
+      - **Aleck:** How's the cloak?
+      - **Player:** I lost it.
+      - **Aleck:** Really? Here, I found another in the storeroom.
+      - {{tact|receives=Ardougne cloak 4}}
+      - {{tbox|pic=Ardougne cloak 4 detail.png|Aleck hands you another cloak.}}
+      - {{tact|continue}}
+    - {{tselect|Choose an option:}}
+      - {{topt|Tell me about the Achievement System.}}
+        - **Aleck:** Very well: the Achievement System is a collection of deeds you may wish to complete while adventuring around the world.
+        - **Aleck:**  You can earn special rewards for completing certain achievements; at the very least, each is worth a cash bounty from Explorer Jack in Lumbridge.
+        - **Aleck:** Some also give items that will help complete other achievements, and many count as progress towards the set for the area they're in.
+        - {{tselect|Choose an option:}}
+          - {{topt|Tell me about the set reward for this locality.}}
+            - **Player:** Tell me about the set reward for this locality.
+            - **Aleck:** For completing the Ardougne set, you are presented with a cloak.
+            - **Aleck:** This cloak will become increasingly useful with each difficulty level of the set that you complete.
+            - **Aleck:** When you are presented with your rewards, you will be told of their uses.
+            - You may also see what rewards a set item provides by hovering over the Rewards icon for its Exploration Achievement set in the Achievements interface.
+            - (previous2)
+          - {{topt|How do I claim these rewards?}}
+            - **Player:** How do I claim the rewards?
+            - **Aleck:** You need to complete all of the Tasks in a set of a particular difficulty, then you can claim your reward.
+            - **Aleck:** Some of the Ardougne set's Tasks are simple, some will require certain skill levels, and some might require quests to be started or completed.
+            - **Aleck:** To claim your Ardougne set rewards, speak to Ardougne's town crier, Doctor Orbon in East Ardougne church, or myself.
+            - (previous2)
+          - {{topt|Sorry, I was just leaving.}}
+            - (end)
+      - {{topt|Could I buy a spare of the reward?}}
+        - {{tselect|Choose an option:}}
+          - {{topt|Ardougne cloak 1}}
+            - **Aleck:** Ardougne cloak 1? Yes, but I'm afraid it would cost you 1,500 coins.
+            - {{tselect|Purchase another for 1,500 coins?}}
+              - {{topt|Yes}}
+                - {{tbox|pic=Ardougne cloak 1 detail.png|You're handed another Ardougne cloak 1.}}
+                - {{tact|receives=Ardougne cloak 1}} {{tact|removes= 1,500 coins}}
+              - {{topt|No}}
+                - **Player:** No thanks.
+          - {{topt|Ardougne cloak 2}}
+            - **Aleck:** Ardougne cloak 2? Yes, but I'm afraid it would cost you 2,500 coins.
+            - {{tselect|Purchase another for 2,500 coins?}}
+              - {{topt|Yes}}
+                - {{tbox|pic=Ardougne cloak 2 detail.png|You're handed another Ardougne cloak 2.}}
+                - {{tact|receives=Ardougne cloak 2}} {{tact|removes= 2,500 coins}}
+              - {{topt|No}}
+                - **Player:** No thanks.
+          - {{topt|Ardougne cloak 3}}
+            - **Aleck:** Ardougne cloak 3? Yes, but I'm afraid it would cost you 7,500 coins.
+            - {{tselect|Purchase another for 7,500 coins?}}
+              - {{topt|Yes}}
+                - {{tbox|pic=Ardougne cloak 3 detail.png|You're handed another Ardougne cloak 3.}}
+                - {{tact|receives=Ardougne cloak 3}} {{tact|removes= 7,500 coins}}
+              - {{topt|No}}
+                - **Player:** No thanks.
+          - {{topt|Ardougne cloak 4}}
+            - **Aleck:** Ardougne cloak 4? Yes, but I'm afraid it would cost you 15,000 coins.
+            - {{tselect|Purchase another for 15,000 coins?}}
+              - {{topt|Yes}}
+                - {{tbox|pic=Ardougne cloak 4 detail.png|You're handed another Ardougne cloak 4.}}
+                - {{tact|receives=Ardougne cloak 4}} {{tact|removes= 15,000 coins}}
+              - {{topt|No}}
+                - **Player:** No thanks.
+      - {{topt|cond=If at least the hard Ardougne achievements are completed and the rewards claimed|I'd like to change my teleport point.}}
+        - **Player:** I'd like to change my Watchtower Teleport point.
+        - {{tselect|Toggle Watchtower Teleport to [Watchtower/Yanille]?}}
+          - {{topt|Yes}}
+            - Watchtower Teleport will now teleport you to the [Watchtower/centre of Yanille].
+          - {{topt|No}}
+            - {{tact|end}}
+      - {{topt|Sorry, I was just leaving.}}
+        - (end)

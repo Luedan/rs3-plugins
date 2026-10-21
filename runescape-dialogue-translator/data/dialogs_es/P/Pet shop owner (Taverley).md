@@ -1,0 +1,101 @@
+# Pet shop owner (Taverley)
+
+- **Original Wiki Page**: [Transcript:Pet shop owner (Taverley)](https://runescape.wiki/w/Transcript%3APet%20shop%20owner%20%28Taverley%29)
+- **Letter**: `P`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- [Menu]: Elige una opción:
+  - [Choice]: ¿Puedo ver su tienda, por favor?
+    - **Player:** ¿Puedo ver su tienda, por favor?
+    - (opens=Pet Shop)
+  - [Choice]: ¿Cuánto cuesta ese cachorro en la ventana?
+    - **Player:** ¿Cuánto cuesta ese cachorro en la ventana?
+    - (Condition: Si el player no cumple con el requisito Summoning:)
+      - **Propietario de la tienda de mascotas:** Lo siento, pero me temo que no puedo vendértelos. No me parece que tengas afinidad con los animales.
+      - **Player:** Awww...
+    - (Condition: Si el player no tiene un perro como mascota:)
+      - **Dueño de la tienda de mascotas:** ¿El que tiene la cola meneando?
+      - (Action: Se abre la interfaz de elección de cachorros)
+      - [Menu]: elige un cachorro
+        - [Choice]: labrador
+          - **Player:** No, el labrador.
+          - **Propietario de la tienda de mascotas:** 500 de oro.
+          - **Player:** ¿No es un poco caro?
+          - **Propietario de una tienda de mascotas:** Bueno, si los regaláramos, la gente simplemente los compraría y los tiraría sin preocuparse.
+          - **Dueño de una tienda de mascotas:** Los perros son una gran responsabilidad y deben ser cuidados.
+          - **Propietario de una tienda de mascotas:** Si una persona no está dispuesta a invertir 500 coins, entonces, en primer lugar, no merece tener el cachorro.
+          - **Propietario de la tienda de mascotas:** Entonces, ¿todavía quieres uno?
+          - [Menu]: Selecciona una opción
+            - [Choice]: Está bien, me quedo con el labrador.
+              - (removes=500 coins) (receives=Labrador puppy)
+              - **Player:** Está bien, me quedo con el Labrador.
+          - **Propietario de la tienda de mascotas:** ¡Ahí lo tienes! Espero que ustedes dos se lleven bien.
+            - [Choice]: No gracias.
+              - **Player:** No, gracias.
+        - [Choice]: bulldog
+        - [Choice]: dálmata
+        - [Choice]: Galgo
+        - [Choice]: terrier
+        - [Choice]: perro pastor
+    - (Condition: Si el player ya tiene un perro como mascota:)
+      - **Dueño de una tienda de mascotas:** Me preguntaste eso la última vez que recogiste un perro y no puedo venderte otro.
+  - [Choice]: Entonces, ¿qué tipo de mascotas hay disponibles?
+    - **Player:** Entonces, ¿qué tipo de mascotas hay disponibles?
+    - **Propietario de la tienda de mascotas:** Bueno, aquí vendemos perros, pero también tenemos suministros para cualquier otra criatura que quieras criar.
+    - **Player:** ¿Por ejemplo?
+    - **Dueño de una tienda de mascotas:** Bueno, vendemos nueces. Se pueden utilizar para alimentar a las ardillas. Si quieres capturar una ardilla, necesitarás usar las nueces de la trampa que colocaste, ya que los pequeños bribones no se dejarán engañar por nada más.
+    - **Player:** ¡Lo tendré en cuenta!
+    - **Propietario de una tienda de mascotas:** También hay varias aves que viven en los bosques del mundo. Si puedes encontrar sus huevos, puedes usar la incubadora que está allí para incubarlos.
+    - **Propietario de la tienda de mascotas:** Mientras seas lo primero que vean fuera del caparazón, te seguirán a cualquier parte.
+    - **Propietario de la tienda de mascotas:** Después de eso, solo necesitas alimentar al polluelo con cebo de pesca terrestre hasta que tenga la edad suficiente para comerlo sólido.
+    - **Player:** Me aseguraré de vigilarlos si voy a algún lugar peligroso.
+    - **Dueño de una tienda de mascotas:** También hay una serie de lagartos fabulosos y exóticos que se encuentran en Karamja. Algunos pueden quedar atrapados fácilmente en una trampa de caja, mientras que otros deberán criarse a partir de un huevo.
+    - **Player:** ¿La incubadora también funcionará para ellos?
+    - **Propietario de la tienda de mascotas:** ¡Por supuesto! Estaré atento a todos los huevos que pongas allí, para que nunca acaben duros.
+    - **Player:** ¡Gracias a Dios!
+    - **Propietario de una tienda de mascotas:** Los geckos de Karamja son bastante fáciles de atrapar, como los mapaches. Ambos investigarán alegremente una trampa sin ningún cebo especial.
+    - **Propietario de una tienda de mascotas:** ¡Sin embargo, los monos son una historia diferente!
+    - **Player:** ¿Qué quieres decir?
+    - **Dueño de una tienda de mascotas:** Bueno, son pequeñas cosas inteligentes y pueden salir fácilmente de una caja trampa, a menos que estén atrapadas. La forma más sencilla de hacerlo es poner un plátano en funcionamiento.
+    - **Propietario de la tienda de mascotas:** ¡Se aferrarán fuerte y nunca los soltarán, incluso cuando la trampa se cierre!
+    - **Player:** ¡Muchas gracias, has sido de gran ayuda!
+    - **Propietario de una tienda de mascotas:** Siempre es un placer ayudar a un compañero amante de los animales. Vuelve y visítanos pronto.
+  - [Choice]: ¿Estás interesado en comprar fragmentos de espíritu?
+    - **Player:** ¿Estás interesado en comprar fragmentos de espíritu?
+    - **Propietario de una tienda de mascotas:** Ciertamente lo soy. ¡Muchos de ellos también!
+    - (Condition: Si el player no tiene fragmentos de espíritu:)
+      - **Player:** Gracias, lo tendré en cuenta.
+    - (Condition: Si el player tiene fragmentos de espíritu:)
+      - ¿Cuántos venderás? (25 coins cada uno, tienes [amount])
+      - Vendes fragmentos [número] para [amount] coins.
+  - [Choice]: cond=If the player has pets to reclaim|¿Tienes algún perro callejero?
+    - **Player:** ¿Tienes algún perro callejero?
+      - (Condition: Si el player ha perdido Mackers:)
+        - **Propietario de la tienda de mascotas:** Déjame revisar mis registros...
+        - **Propietario de la tienda de mascotas:** ¡Estás de suerte! ¡Encontré a Mackers deambulando afuera! Ha estado preguntando por ti.
+        - **Player:** Sigue buscando pastel, ¿verdad?
+        - **Propietario de la tienda de mascotas:** Por supuesto.
+        - [Mackers se acerca a ti.]
+      - (Condition: Si el player ha perdido Sparkles:)
+        - **Propietario de la tienda de mascotas:** ¡Estás de suerte! Tengo una cosa perdida... brillante y ondulante. ¡Fue difícil de atrapar!
+        - **Player:** ¡Cuéntamelo! ¿Me dejarías darle un hogar?
+        - **Propietario de la tienda de mascotas:** ¡Por supuesto! Cuídalo bien.
+        - [El comerciante te entrega una serpiente de oropel.]
+        - **Propietario de la tienda de mascotas:** Ahora es tuyo. ¡No lo vuelvas a perder por favor, no quiero tener que volver a atraparlo!
+      - (Condition: Si el player ha perdido a Corgi:)
+        - **Propietario de la tienda de mascotas:** ¡Estás de suerte! ¡Un perrito lindo y esponjoso llegó antes!
+        - **Player:** Sí, sí, tiene ese efecto en todos.
+        - **Propietario de la tienda de mascotas:** ¡Es tan lindo!
+        - **Player:** Sólo dame el perro, ¿quieres?
+        - **Propietario de la tienda de mascotas:** Bien… Cuídalo bien.
+        - [El comerciante te entrega un corgi.]
+      - (Condition: Si el player ha perdido San'tar Spawnling:)
+        - **Propietario de la tienda de mascotas:** ¡Estás de suerte! Una criatura particularmente enojada entró aquí antes. ¡Te agradecería mucho que te lo llevaras!
+        - [El comerciante te entrega el San'tar Spawnling.]

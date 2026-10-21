@@ -1,0 +1,213 @@
+# Chief Tess
+
+- **Original Wiki Page**: [Transcript:Chief Tess](https://runescape.wiki/w/Transcript%3AChief%20Tess)
+- **Letter**: `C`
+
+---
+
+## Dialogue Transcript
+
+
+### Before As a First Resort
+
+- **Chief Tess:** You want discuss da resort or ar-key-olo-gy?
+- [Menu]: What would you like to talk about?
+  - [Choice]: As a First Resort quest.
+    - (see|As a First Resort)
+  - [Choice]: Archaeology collections.
+    - (below)
+
+### After As a First Resort
+
+- **Chief Tess:** You want discuss da resort or ar-key-olo-gy?
+- [Menu]: What would you like to talk about?
+  - [Choice]: Hunting techniques.
+    - **Chief Tess:** Hey, you pretty good hunter for human. Me impressed! Anything me can do for you, small one?
+    - [Menu]: Select an Option
+      - [Choice]: So, I've noticed there aren't many male ogres around here...
+        - **Player:** So, I've noticed there aren't many male ogres around here...
+        - **Chief Tess:** Heh, yeah, de men! Dey kinda funny - like living in caves. Bit damp, no beach, bad view. Me no understand it, myself.
+        - **Player:** Don't you...you know...ever want to see them?
+        - **Chief Tess:** Oh, sure! We visit men ogres every now and again - or dey visit us. Throw big celebration, have hunt, eat lots of chompy, listen to shamans tell stories of past...dat sort of thing.
+        - [Menu]: Select an Option
+          - [Choice]: How often do you get together?
+            - **Player:** How often do you get together?
+            - **Chief Tess:** Oh, me suppose every couple seasons maybe...if we remember.
+            - **Chief Tess:** Once we went to visit dem in caves at same time dey came to visit us here - we completely miss each other, but had good holiday!
+            - **Player:** Okay, that's a little weird.
+            - [Menu]: Select an Option
+              - [Choice]: Why do you live in separate places?
+                - (below)
+              - [Choice]: Yes, well, thanks for your time.
+                - **Player:** Yes, well, thanks for your time.
+          - [Choice]: Why do you live in separate places?
+            - **Player:** Why do you live in separate places? Wouldn't it be easier if you all lived in the same place?
+            - **Chief Tess:** You mean, both men and lady ogres live in Oo'glog? But...there not enough space!
+            - **Player:** Yeah, but, well, you wouldn't necessarily have to live HERE, you know. You could-
+            - **Chief Tess:** What wrong with here? We likes it here! If you no like it, you go somewhere else.
+            - **Player:** No, wait! I just meant, you know...if you lived closer together, you'd get to see each other more often.
+            - **Chief Tess:** Why we want to do that?
+            - **Player:** Well, I just thought...you know, uh...
+            - **Chief Tess:** What funny idea - men an' lady living in same place! How you think of dat, human? You must be excellent story-teller.
+            - [Menu]: Select an Option
+              - [Choice]: How often do you get together?
+                - (above)
+              - [Choice]: Yes, well, thanks for your time.
+                - (above)
+          - [Choice]: That's all I wanted to know.
+            - **Player:** That's all I wanted to know. I'll be seein' ya.
+      - [Choice]: I have questions about hunting the creatures around here.
+        - **Player:** I have questions about hunting the creatures around here.
+        - **Chief Tess:** Yeah, go ahead.
+        - [Menu]: Select an Option
+          - [Choice]: How do I catch diseased kebbits?
+            - **Player:** How do I catch diseased kebbits?
+            - **Chief Tess:** First thing about diseased kebbits, dey can give you disease.
+            - **Player:** The name gives nothing away.
+            - **Chief Tess:** I just warning you. If you no want to pay attention, fine.
+            - **Player:** Sorry. Do please go on.
+            - **Chief Tess:** So, they carry disease but they shy. And dumb. Real dumb.
+            - **Player:** Hello, pot, this is kettle speaking.
+            - **Chief Tess:** Why you talk of pots? You not want to talk of kebbits after all?
+            - **Player:** No, really, I'm sorry. I don't know what came over me.
+            - **Chief Tess:** Look, all I say is dat diseased kebbit generally leave you alone. Dey gets more aggressive, though, when you burn de tansymum. Much more likely to bite if dey smell burning tansymum.
+            - **Player:** So, what do they like?
+            - **Chief Tess:** If you want make diseased kebbit follow you, burn fever grass. Dey love fever grass. Love de smell, love de taste, love everything about it. You can even use it to bait de deadfall traps - dey eat it right up.
+            - **Player:** That's good to know. Thanks.
+            - **Chief Tess:** Anything else you want to know, human?
+            - [Menu]: Select an Option
+              - [Choice]: How do I catch diseased kebbits?
+                - (above)
+              - [Choice]: How do I catch platypodes?
+                - (below)
+              - [Choice]: How do I catch wimpy birds?
+                - (below)
+              - [Choice]: Nothing else at the moment, thank you.
+                - **Player:** Nothing else at the moment, thank you.
+                - **Chief Tess:** Heh, well, me always here if you no have any luck.
+          - [Choice]: How do I catch wimpy birds?
+            - **Player:** How do I catch wimpy birds?
+            - **Chief Tess:** Wimpy birds like smell of tansymum burning - dey follow it anywheres. Dey not so much like fever grass burning. It scare dem off.
+            - **Player:** Got it.
+            - **Chief Tess:** You watch out if you burn lavender near de wimpy birds - dey me be little, but dey have mighty peck.
+            - **Player:** Got it.
+            - **Chief Tess:** Anything else you want to know, human?
+            - (continuea|anything-else)
+          - [Choice]: How do I catch platypodes?
+            - **Player:** How do I catch platypodes?
+            - **Chief Tess:** First thing first: you need box trap to catch de platypus.
+            - **Chief Tess:** You no harm platypus, or you make ogres very angry, you understand?
+            - **Player:** Don't worry; I'm just supposed to move them, not hurt them.
+            - **Chief Tess:** Good, that okay then.
+            - **Player:** Out of curiousity, why-
+            - **Chief Tess:** You no interrupt just yet. Me speaking.
+            - **Player:** Sorry.
+            - **Chief Tess:** You no listen very well, do you, human? Anyway, platypus a bit shy. You need encourage them by burning lavender. Dey like de sweet smell.
+            - **Player:** Platybodes like lavender. Check. Now, why do-
+            - **Chief Tess:** Me not finished yet! Human should remember dis: platypus feel threatened when dey smell burning fever grass. When platypus feel threatened, it likely to attack. It attack with poison spurs on back foot.
+            - **Player:** Now you're making things up.
+            - **Chief Tess:** You no believe me? Try it out and see. Just don't come running when you meet webbed feet of doom!
+            - **Player:** I can't believe I'm having this conversation.
+            - **Chief Tess:** Anything else you want to know, human?
+            - [Menu]: Select an Option
+              - [Choice]: How do I catch diseased kebbits?
+                - (above)
+              - [Choice]: How do I catch platypodes?
+                - (above)
+              - [Choice]: How do I catch wimpy birds?
+                - (above)
+              - [Choice]: Nothing else at the moment, thank you.
+                - (above)
+              - [Choice]: So why are ogres so protective of platypodes?
+                - **Player:** So, why are ogres so protective of platypodes?
+                - **Chief Tess:** Ah, it long and interesting story. It go back to the days of my mother's mother's mother's...
+                - **Chief Tess:** mother's mother's mother's, um, mother's...
+                - **Chief Tess:** Well, it was long time ago, anyway.
+                - **Player:** Yeah, I got that.
+                - **Chief Tess:** Dat's it. Human interrupt too much. If human going to be dat way, I not tell de story!
+                - **Player:** Aw, please? I'll be as quiet as a mouse until you're done.
+                - **Chief Tess:** No. Maybe I tell you later, when I calm down.
+                - **Player:** Pretty please?
+                - **Chief Tess:** No, I too angry now to tell it right.
+                - **Player:** Pretty please with sugar on top?
+                - **Chief Tess:** NO!
+                - **Player:** Pretty please with sugar on top and a cherry for good measure?
+                - **Chief Tess:** GRRRRAH! NO!
+                - **Player:** Fine. Be that way. I'm sure it was a stupid story anyway.
+          - [Choice]: Where should I release the platypodes?
+            - **Player:** Where should I release the platypodes?
+            - **Chief Tess:** Little flat-feets like the bank by the sea to de east, inside gates of Oo'glog. De place has burrows on de shore an' platypus reeds in de shallows. It their favourite fishing spot.
+            - **Player:** What's wrong with the beaches to the south?
+            - **Chief Tess:** We no can look after platypus dat far away. De little flat-feets protected here. We make sure no one set box trap near de platypus burrows.
+            - **Player:** Why don't you allow-?
+            - **Chief Tess:** Human, shush! Me still talking!
+            - **Chief Tess:** Now, if you take platypus to de ocean and release dem near de water, dey very, very happy little critters. Dey often do bit of fishing for you in return.
+            - **Player:** What?
+            - **Chief Tess:** Just try; you see. Release platypus on ocean shore, near reeds. You see what happens then.
+          - [Choice]: Where can I find these smoulderable stuffs?
+            - **Player:** Where can I find these smoulderable stuffs?
+            - **Chief Tess:** You walk around outside gate of Oo'glog - you find everything you need growing nearby.
+      - [Choice]: Can you explain the basics of smouldering materials to me again?
+        - **Chief Tess:** Ancestors have been hunting here for many, many ages, so de creatures around here very smart about hunters. Dey know to avoid traps. Hunter must be extra sneaksy to attract de creatures.
+        - **Player:** Extra sneaksy?
+        - **Chief Tess:** Yeah. To catch creatures, you must attract dem with something they like very much.
+        - **Player:** Oh, I already know about baiting traps, I'm an experienced Hunter, I am!
+        - **Chief Tess:** Bait helpful, but it not enough. Me told you, de creatures here very clever. So here's what you do:
+        - **Chief Tess:** You need to burn something with smell dat dey like. You burn de right thing, dey follow you. Dat way, you can leads dem to de traps.
+        - **Player:** You mean I need to start more fires?
+        - **Chief Tess:** Yes, but not big fires. You need to burn de stuffs slowly, carefully and hold de smouldering stuffs up high so you can lead de creatures to de traps.
+        - **Chief Tess:** It difficult. Stuffs burn away quick-like and you needs to hold it carefully to keep it lit.
+      - [Choice]: Nothing for now, thanks.
+        - **Player:** Nothing for now, thanks.
+  - [Choice]: Archaeology collections.
+    - **Chief Tess:** Well, spit out, I have chief stuffs to do.
+    - [Menu]: Select an Option
+      - [Choice]: Who are you?
+        - **Chief Tess:** You know dis. I boss lady round here. I chief of Oo'glog, help with resort, do huntin'.
+        - **Chief Tess:** And if dis is news to you, now you know.
+        - (previous)
+      - [Choice]: What are you collecting?
+        - **Chief Tess:** You want to just look at my shopsies list or be using da wordies?
+        - [Menu]: What would you like to do?
+          - [Choice]: View collections.
+            - ((Da Shiny Pretties interface opens.))
+          - [Choice]: Talk about collections.
+            - **Chief Tess:** I want stuff for the fightsies, the shapesies, some other stuffsies, and, of course, always da shiny pretties!
+            - **Player:** I just forgot how words work.
+            - **Chief Tess:** *sigh* You humies.
+            - **Player:** Can't it just be 'everything Bandosian', so it's easy for me?
+            - **Chief Tess:** Nope. It not for me, it for resort. We want weapons and statues and jewellery and stuffs to make place look nice.
+            - **Player:** Maybe I should have just asked to see your 'shopsies' list'.
+            - **Chief Tess:** Maybe you not put me in pigeon's hole in future because am ogre.
+            - **Player:** You're right, sorry. My apologies.
+            - (previous2)
+      - [Choice]: What are your collection rewards?
+        - **Chief Tess:** Everyfing you give me, I gives you chro-notes. Why you want birdy songs, me not know, but you gettin' 'em.
+        - **Chief Tess:** I got a relic fing for ya too, also some busty glass, but you gots to be completing my collections for dose.
+        - (Condition: Before completing the Smoky Fings collection:)
+          - **Chief Tess:** Hmm... How about I give you bottle.
+          - **Player:** You'll give me a...bottle?
+          - **Chief Tess:** Yeah. It special bottle, though. I fill from Oo'glog salt-water spring.
+          - **Player:** You'll give me a special bottle of spa water? Used spa water?
+          - **Chief Tess:** Are you make fun of Tess? It special bottle! It got no bottom...
+          - **Player:** Then how does the water stay in it?
+          - **Chief Tess:** As in it never run out. Silly human...
+          - **Player:** Bottomless spring water - I'm sold!
+          - (continue)
+        - (Condition: After completing the Smoky Fings collection:)
+          - **Chief Tess:** See! Spa bottle with no bottom, it not run out. Tess tell you, you make fun.
+          - **Player:** It's great! I'm sorry I ever doubted you.
+          - (continue)
+        - (Condition: If robust glass has never been claimed before:)
+          - **Player:** And 'busty glass' - dare I ask? It's not some sort of risque glass-blown figurine is it?
+          - **Chief Tess:** No, you calls it 'row-bust' - dat red sandy stone people mining just outside village.
+          - **Player:** Oh, robust glass! Got it!
+          - **Chief Tess:** Yer, we use it to make der lewdies. Nice soo-veneer for resort guest to take home. Tess model for it.
+          - **Player:** *blink* *blink*
+          - (previous)
+        - (Condition: If robust glass has been claimed before:)
+          - **Chief Tess:** You got enuff busty glass outta me fer now. You want soo-veneer instead?
+          - **Player:** Thank you, but no, I think I'll politely decline.
+          - (previous)
+      - [Choice]: Bye.
+        - **Chief Tess:** See ya.

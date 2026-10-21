@@ -1,0 +1,84 @@
+# Ghost (Hopespear)
+
+- **Original Wiki Page**: [Transcript:Ghost (Hopespear)](https://runescape.wiki/w/Transcript%3AGhost%20%28Hopespear%29)
+- **Letter**: `G`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+- **Fantasma** Gracias por llevar huesos de sacerdotes a Yu'biusk. Eres un verdadero santo siervo del Dios Grande y Alto War.
+- [Menu]: Selecciona una opción
+  - [Choice]: ¿Por qué estás aquí? {{anchor|WhyHere}}
+    - **Player:** ¿Por qué estás aquí?
+    - **Fantasma:** Estoy muerto, pero no me voy.
+    - **Fantasma:** Hace mucho tiempo, tuve una visión del Gran Dios War. Mi profeta elegido de Big High War Dios.
+    - **Fantasma:** Creo que, cuando muera, Big High War Dios me lleve a la recompensa en Yu'biusk. Cada día gran batalla, cada noche gran victoria con banquete.
+    - **Fantasma:** Big High War Dios no venga. Pero yo tengo fe. Algún día Big High War Dios ven por mí, llévame con él. Hasta entonces aguantaré, no me soltaré hacia la muerte.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Quién eres? {{anchor|WhoYou}}
+        - **Player:** ¿Quién eres?
+        - **Fantasma:** Yo Hopespear de la tribu Narogoshuun.
+        - (otro)
+      - [Choice]: Visité Yu'biusk.
+        - **Player:** Visité Yu'biusk.
+        - **Fantasma:** ¿Vas a Yu'biusk? ¿Qué ves?
+        - [Menu]: Selecciona una opción
+          - [Choice]: Era un páramo.
+            - **Player:** Era un páramo. Había quedado tan devastada por la guerra que nada podía vivir allí.
+            - **Fantasma:** ¿Todos muertos? ¿No hay duendes librando gloriosas batallas?
+            - **Player:** Nadie. Estaba todo vacío.
+            - **Fantasma:** ¡Mientes!
+            - **Player:** No estoy mintiendo. Es lo que vi.
+            - **Fantasma:** Aun así, Yu'biusk es el lugar del Gran Dios War. Tierra de duendes. Es donde deberían ir los duendes.
+            - **Fantasma** Yo, feliz ahora, los huesos del viejo sacerdote descansan en Yu'biusk. Estoy seguro de que Big High War Dios me lleve pronto a vivir con él.
+          - [Choice]: Era todo lo que esperabas.
+            - **Player:** Fue todo lo que esperabas. Un paraíso para los duendes. The Big High War Dios les ordena personalmente allí.
+            - **Fantasma:** ¡Gracias! Sé que Big High War ¡Dios todavía se preocupa por nosotros! Lo espero aquí. Algún día me llevará a Yu'biusk a vivir con él.
+            - **Fantasma** Yo, feliz ahora, los huesos del viejo sacerdote descansan en Yu'biusk. Estoy seguro de que Big High War Dios me lleve pronto a vivir con él.
+      - [Choice]: Háblame del Dios Grande y Alto War.
+        - (below|TellAboutBHWG)
+      - [Choice]: Cuéntame sobre la profecía.
+      - (below|TellAboutProphecy)
+  - [Choice]: ¿Qué pasa con tus huesos?
+    - **Player:** ¿Qué pasa con tus huesos?
+    - **Fantasma** Cuando muero, los duendes queman huesos y esparcen cenizas. No más huesos de Hopespear.
+    - **Fantasma** Yo me quedo aquí, miro el templo de los duendes y espero a que Big High War Dios me lleve a Yu'biusk. Sé que algún día vendrá por mí. Yo tengo fe.
+    - **Fantasma** Yo, feliz ahora, los huesos del viejo sacerdote descansan en Yu'biusk. Estoy seguro de que Big High War Dios me lleve pronto a vivir con él.
+  - [Choice]: Háblame del Dios Grande War. {{anchor|TellAboutBHWG}}
+    - **Player:** Háblame del Gran Dios War.
+    - **Fantasma:** Big High War ¡Dios, el más grande de todos los dioses! ¡Toma diminutos duendes de Yu'biusk y los convierte en poderosos guerreros para la gran guerra de los dioses!
+    - **Fantasma:** Cuando los dioses van a la guerra, los soldados duendes son tan buenos que Big High War Dios vende tribus para luchar por diferentes dioses. Big High War Dios lucha con otros dioses, a veces por uno, a veces por otro.
+    - **Fantasma:** Otros dioses luchan por sus propios motivos, pero Big High War ¡Dios lucha por la guerra misma!
+    - (otro)
+  - [Choice]: Cuéntame sobre la profecía. {{anchor|TellAboutProphecy}}
+    - **Player:** Cuéntame sobre la profecía.
+    - **Fantasma:** Antes de que tuviera la profecía, las tribus de duendes luchaban mucho entre sí.
+    - **Fantasma:** Hace mucho tiempo luchamos contra otras personas: gente baja y barbuda, gente baja con sombrero puntiagudo, gente alta y afilada. Pero otros construyen ciudades con murallas y ya no podemos atacarlas.
+    - **Fantasma:** No hay suficiente comida para todas las tribus. Entonces, las tribus que no tienen comida atacan a las tribus que tienen comida. La guerra de los duendes dura muchos, muchos años. Finalmente, todas las tribus se reúnen en este lugar, donde ahora se encuentra el templo.
+    - **Fantasma:** Llueve muchos días. Pero la lluvia no detiene a los duendes. Los pies de los duendes agitan el suelo con lluvia y sangre de duendes. Todo el terreno se convierte en barro. Por eso se llamó Batalla de la Llanura de Barro.
+    - **Fantasma:** La batalla duró muchos días. Ambos lados tienen el mismo tamaño, ninguno gana, ninguno pierde. Cuerpos de duendes por todas partes, muchos muertos.
+    - **Fantasma:** Yo no soy un general importante, ni un sargento poderoso. Yo solo soldado duende. Pero una noche en la tienda tuve un sueño.
+    - **Fantasma:** Veo el trono del Gran Dios War. Él brilla con una luz tan brillante que no puedo verlo, pero escucho su voz.
+    - **Fantasma:** Él dice: '¡Detengan la pelea!' Él dice: '¡Luchar bien, pero no si todos mis seguidores mueren! ¡No debéis luchar tanto entre vosotros que moriréis todos!'
+    - **Fantasma:** Luego dijo: 'Hoy no puedo guiarte. Pero algún día enviaré al Comandante Elegido para que te guíe. Y veo al Comandante Elegido en sueños. Lleva una armadura brillante y se para frente al ejército de duendes.
+    - **Fantasma:** Detrás del Comandante Elegido, un ejército de duendes se extiende hasta el horizonte. Muchos duendes, demasiados para contarlos, y estandartes de cada tribu. Estandartes de todas las tribus, incluso de la tribu Dorgesh.
+    - **Fantasma:** ¡Otras razas huyen del poderoso ejército de duendes! El comandante elegido hace que los duendes construyan máquinas de asedio y derriben los muros de las ciudades. ¡Entonces los duendes entran y matan a todos!
+    - **Fantasma:** Y cuando todos están muertos, el Gran Dios mismo War aparece y se sienta en un gran trono de bronce y gobierna sobre todo, con el Comandante Elegido a su lado.
+    - **Fantasma:** Entonces me despierto del sueño. Lo conozco como una verdadera visión de Big High War Dios. Corro hacia el general de mi tribu y él convoca a otros generales a una reunión de emergencia.
+    - **Fantasma:** Les cuento a todos los generales lo que veo. Deciden dejar de luchar para que no todos los duendes mueran. En ese momento en la batalla habían muerto tantos que había suficiente comida para todos.
+    - **Fantasma:** Luego los generales pusieron a los duendes a trabajar en la construcción del templo en el lugar de la batalla. Se hunde en el barro, por lo que lo convierten en un templo subterráneo y lo mantienen en secreto para los demás.
+    - **Fantasma:** Los duendes escriben mi visión en el libro sagrado de los duendes, junto con la historia de los duendes y los mandamientos del Gran Dios War.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Quién eres?
+        - (above|WhoYou)
+      - [Choice]: ¿Por qué estás aquí?
+        - (above|WhyHere)
+      - [Choice]: Háblame del Dios Grande y Alto War.
+        - (above|TellAboutBHWG)
+      - [Choice]: Cuéntame más sobre el Comandante Elegido.
+        - **Player:** Cuéntame más sobre el Comandante Elegido.
+        - **Fantasma:** No sé mucho más. En visión, el Comandante Elegido usa una armadura pesada y un gran casco que cubre la cara. No sé cómo es. Lo veo dar órdenes, pero está lejos, no escucho su voz.
+        - **Duende:** Creo que el Comandante Elegido será un gran general duende. Pero Big High War Dios me eligió para tener visión, no un gran general, por lo que el Comandante Elegido podría ser cualquiera.
+        - (otro)

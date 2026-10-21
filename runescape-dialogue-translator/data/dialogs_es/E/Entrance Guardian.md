@@ -1,0 +1,124 @@
+# Entrance Guardian
+
+- **Original Wiki Page**: [Transcript:Entrance Guardian](https://runescape.wiki/w/Transcript%3AEntrance%20Guardian)
+- **Letter**: `E`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### First-time dialogue
+
+- **Player:** Hola.
+- **Entrance Guardian:** Saludos. ¿Qué sabiduría buscas?
+- **Seleccione una opción**
+  - [Choice]: Soy nuevo en este lugar. ¿Dónde estoy?
+    - **Player:** Soy nuevo en este lugar. ¿Dónde estoy?
+    - **Entrance Guardian:** Bueno, joven, has ingresado al Magic Training Arena. Fue construido a principios de la Quinta Edad, cuando se descubrieron por primera vez las piedras rúnicas. Fue hecho debido a los muchos accidentes inútiles causados por inexpertos.
+    - **Entrance Guardian:** magos.
+    - **Player:** ¿Quién lo creó?
+    - **Entrance Guardian:** Buena pregunta. Originalmente fue hecho por los antepasados ​​​​de los magos en la Torre de los Magos. Sin embargo, fue destruido por guerreros cuerpo a cuerpo y a distancia que se ofendieron por el uso de este nuevo 'Arte Magic'. Recientemente, la actual
+    - **Entrance Guardian:** los habitantes de Wizards Tower han resucitado la arena, incluidos varios Guardianes que verás cuando mires a tu alrededor. Estamos aquí para ayudar y garantizar que todo funcione sin problemas.
+    - **Player:** Interesante. Entonces, ¿qué puedo hacer aquí?
+    - **Entrance Guardian:** Puedes mejorar tus habilidades en las artes mágicas viajando a través de uno de los portales en la parte trasera de este vestíbulo de entrada. Al entrenar en una de estas áreas, recibirás puntos Pizazz especiales, únicos para cada sala. Con
+    - **Entrance Guardian:** En estos puntos puedes reclamar una variedad de artículos de mi compañero guardián que está arriba de las escaleras.
+    - **Player:** ¿Cómo se registran los puntos que he ganado?
+    - **Entrance Guardian:** ¡Realmente estás lleno de preguntas! ¡Necesitarás un sombrero de progreso Pizazz especial! Puedo darte uno si así lo deseas para entrenar aquí.
+    - **Player:** ¡Sí, por favor!
+    - (Condition: Sin un espacio backpack libre:)
+      - **Entrance Guardian:** ¡Ah, me temo que no puedo dártelo porque no tienes espacio para llevarlo!
+    - (receives=progress hat)
+    - **Entrance Guardian:** Aquí tienes. Habla con el sombrero para conocer tus totales actuales de Pizazz Point.
+    - **Player:** ¿Hablar con él?
+    - **Entrance Guardian:** Bueno, por supuesto, ¡es un sombrero mágico de progreso de Pizazz! Pero cuida tus modales, ¡los sombreros también tienen sentimientos!
+    - **Player:** Er... si insistes.
+    - **Entrance Guardian:** Ah, y una advertencia: si decides salir de las habitaciones por cualquier método que no sea los portales de salida, serás teletransportado a la entrada y se te quitarán todos los objetos que hayas recogido en la habitación.
+    - {{anchor|they-lead}} **Player:** ¿Puedes explicar los diferentes portales?
+    - **Entrance Guardian:** Conducen a cuatro áreas para entrenar tu magia: El Teatro Telequinético, El Patio de Juegos de los Alquimistas, La Cámara Encantadora y El Cementerio de Criaturas.
+    - [Menu]: Selecciona una opción
+      - [Choice]: ¿Qué es el Teatro Telequinético?
+        - **Player:** ¿Qué es el Teatro Telequinético?
+        - **Entrance Guardian:** Allí puedes ganar puntos Telekinetic Pizazz para intercambiarlos en el piso de arriba.
+        - **Player:** ¿Qué haré allí?
+        - **Entrance Guardian:** ¡Eso depende de cuánto pierdes el tiempo! Debes usar el hechizo Telekinetic Grab para mover una estatua a través de un laberinto. Lanzar el hechizo moverá la estatua hacia ti hasta que llegue a una pared. Entonces por
+        - **Entrance Guardian:** de pie en los diferentes lados del laberinto puedes mover la estatua al norte, este, sur u oeste. Recibirás puntos Pizazz por cada laberinto resuelto con éxito.
+        - **Entrance Guardian:** Será más claro cuando llegues y habrá un Guardián a través del portal que podrá contarte más. Hay un libro que puedes comprar en Rewards Guardian arriba y que lo explicará todo.
+        - (previous)
+      - [Choice]: ¿Qué es el patio de recreo de los alquimistas?
+        - **Player:** ¿Qué es el patio de juegos de los alquimistas?
+        - **Entrance Guardian:** En el patio de juegos puedes ganar puntos Alchemist Pizazz por intercambiar con el rewards guardian de arriba.
+        - **Player:** ¿Qué hay ahí dentro?
+        - **Entrance Guardian:** Encontrarás ocho armarios que contienen elementos que puedes convertir en oro usando hechizos de alquimia baja y alta. El dinero que ganes te lo quitarán al salir del patio de recreo para pagar el mantenimiento de este campo de entrenamiento.
+        - **Entrance Guardian:** y para ayudar a financiar tiendas de magia alrededor de Gielinor. Serás recompensado con 1 Punto Pizazz por cada 100 coins depositados y un porcentaje del dinero que crees. Ten en cuenta que no podrás llevarte más de 1000 coins
+        - **Entrance Guardian:** Me voy contigo.
+        - **Player:** Suena simple.
+        - **Entrance Guardian:** Me temo que no, porque el costo de los artículos varía, al igual que su ubicación en los armarios. Verás una lista de costos de artículos que te ayudarán a decidir qué deberías convertir en oro.
+        - **Entrance Guardian:** No temas, será más claro cuando llegues y habrá un Guardián a través del portal que podrá contarte más. También puedes comprar un libro en Rewards Guardian arriba que lo explicará todo.
+        - (previous)
+      - [Choice]: ¿Qué es la Cámara Encantadora?
+        - **Player:** ¿Qué es la Cámara Encantadora?
+        - **Entrance Guardian:** Aquí podrás ganar puntos Enchantment Pizazz para intercambiarlos en el piso de arriba.
+        - **Player:** ¿Qué tendré que hacer?
+        - **Entrance Guardian:** Te encontrarás entre varios montones de formas. Puedes recoger estas formas y usar uno de tus hechizos encantadores sobre ellas para transformarlas en un orbe. También verás un agujero en el centro de la habitación; Pon los orbes aquí y para
+        - **Entrance Guardian:** cada 20 te acreditaremos un regalo. Obtendrás puntos Pizazz por cada 10 formas que conviertas y la cantidad de puntos depende del hechizo que uses.
+        - **Player:** ¿Cuál es la diferencia entre las formas?
+        - **Entrance Guardian:** Ah, se te notificará sobre una forma diferente que te dará un punto de Pizazz adicional cuando conviertas esa forma. También debes estar atento a las piedras de dragón, ya que te darán más puntos Pizazz cuando las conviertas.
+        - **Entrance Guardian:** Será más claro cuando llegues y habrá un Guardián a través del portal que podrá contarte más. También puedes comprar un libro en Rewards Guardian arriba que lo explicará todo.
+        - (previous)
+      - [Choice]: ¿Qué es el cementerio de criaturas?
+        - **Player:** ¿Qué es el Cementerio de Criaturas?
+        - **Entrance Guardian:** Aquí podrás ganar puntos Graveyard Pizazz para intercambiarlos en el piso de arriba.
+        - **Player:** ¿Pero qué tengo que hacer ahí dentro?
+        - **Entrance Guardian:** Paciencia, joven. Muchas criaturas mueren en este mundo y muchos de sus restos pueden causar desorden. Nos hemos encargado de teletransportar muchos huesos de estas criaturas a este cementerio para usarlos. depende de
+        - **Entrance Guardian:** debes practicar tu hechizo de huesos a plátanos para poder poner estos huesos en uso inmediato: ¡alimento nutritivo para monstruos! Simplemente convierte los huesos y colócalos en los agujeros de las paredes. Hay un inconveniente en esta habitación.
+        - **Entrance Guardian:** sin embargo, los huesos a menudo caen sobre las personas, por lo que es posible que quieras comer algunos de esos plátanos para seguir con vida. Cuando la gente muere, confiscamos los puntos Pizazz por el esfuerzo de teletransportar a magos incompetentes.
+        - **Player:** ¿Qué más me sale de esto además de moretones?
+        - **Entrance Guardian:** Además de los puntos Pizazz por darnos los plátanos, se te acreditarán piedras rúnicas por tus esfuerzos y es posible que puedas ahorrar para un nuevo tipo de hechizo para usar en el cementerio.
+        - **Entrance Guardian:** Será más claro cuando llegues y uno de mis compañeros guardianes a través del portal podrá contarte más. También puedes comprar un libro en Rewards Guardian arriba que lo explicará todo.
+        - (previous)
+      - [Choice]: ¡Gracias, adiós!
+        - **Player:** ¡Gracias, adiós!
+        - **Entrance Guardian:** Utilice lo que ha aprendido.
+  - [Choice]: Ninguno, realmente no me importa.
+    - **Player:** Ninguno, realmente no me importa.
+    - **Entrance Guardian:** No ganarás con esa actitud.
+
+### Subsequent dialogue
+
+- **Player:** Hola.
+- **Entrance Guardian:** Saludos. ¿Qué sabiduría buscas?
+- **Seleccione una opción**
+  - [Choice]: ¿Puedes hablarme de este lugar otra vez?
+    - **Player:** ¿Puedes hablarme de este lugar otra vez?
+    - **Entrance Guardian:** Muy bien. Has entrado en el campo del entrenamiento mágico. Fue construido a principios de la Quinta Edad, cuando se descubrieron por primera vez las piedras rúnicas. Fue creado debido a los muchos accidentes inútiles causados ​​por magos sin experiencia.
+    - **Player:** ¿Quién lo creó?
+    - **Entrance Guardian:** Buena pregunta. Originalmente fue hecho por los antepasados ​​​​de los magos en la Torre de los Magos. Sin embargo, fue destruido por guerreros cuerpo a cuerpo y a distancia que se ofendieron por el uso de este nuevo 'Arte Magic'. Recientemente, la actual
+    - **Entrance Guardian:** los habitantes de Wizards Tower han resucitado la arena, incluidos varios Guardianes que verás cuando mires a tu alrededor. Estamos aquí para ayudar y garantizar que todo funcione sin problemas.
+    - **Player:** Interesante. Entonces, ¿qué puedo hacer aquí?
+    - **Entrance Guardian:** Puedes mejorar tus habilidades en las artes mágicas viajando a través de uno de los portales en la parte trasera de este vestíbulo de entrada. Al entrenar en una de estas áreas, recibirás puntos Pizazz especiales, únicos para cada sala. Con estos puntos
+    - **Entrance Guardian:** puedo reclamar una variedad de artículos de mi compañero guardián de las escaleras.
+    - **Player:** ¿Cómo se registran los puntos Pizazz que he ganado?
+    - **Entrance Guardian:** ¡Con el sombrero de progreso Pizazz especial que te regalé, por supuesto!
+    - **Player:** Está bien.
+    - **Entrance Guardian:** Ah, y una advertencia: si decides salir de las habitaciones por cualquier método que no sea los portales de salida, serás teletransportado a la entrada y se te quitarán todos los objetos que hayas recogido en la habitación.
+    - (initial)
+  - [Choice]: ¿Puedes explicar los diferentes portales?
+    - (above|they-lead)
+  - [Choice]: Sobre el sombrero de progreso...
+    - **Player:** Acerca del sombrero de progreso...
+    - (Condition: Si el player ha destruido su sombrero de progreso:)
+      - **Entrance Guardian:** Quieres otro, ¿no?
+      - **Player:** Lo siento, ¿puedo?
+      - (receives=progress hat)
+      - **Entrance Guardian:** Aquí tienes. Habla con el sombrero para conocer tus totales actuales de Pizazz Point.
+      - (initial)
+    - (Condition: Si el player todavía tiene su sombrero de progreso:)
+      - **Entrance Guardian:** Lo cual, estoy seguro, lo tienes almacenado en algún lugar.
+      - **Player:** Sí. ¿Para qué es?
+      - **Entrance Guardian:** Recoge puntos Pizazz de las distintas áreas y el sombrero recordará tus totales. Habla con el sombrero en cualquier momento para saber qué puntos tienes. Sube las escaleras y habla con Rewards Guardian para reclamar artículos por los puntos.
+      - (initial)
+  - [Choice]: ¡Gracias, adiós!
+    - **Player:** ¡Gracias, adiós!
+    - **Entrance Guardian:** Utilice lo que ha aprendido.

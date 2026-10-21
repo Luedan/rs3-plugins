@@ -1,0 +1,70 @@
+# Faceless Assassin
+
+- **Original Wiki Page**: [Transcript:Faceless Assassin](https://runescape.wiki/w/Transcript%3AFaceless%20Assassin)
+- **Letter**: `F`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+- **Player:** ¿Qué es todo eso sobre la lista de contratos de asesino? {{Sic}}
+- **Faceless Assassin:** Baja la voz y tal vez comparta mis secretos contigo.
+- **Faceless Assassin:** La lista de contratos de The Assassin es sólo algo para los más dignos.
+- Pregunta sobre..
+  - *(Sólo inicialmente:)*
+    - soy digno
+      - **Player:** Soy digno. Lo probaré.
+      - **Faceless Assassin:** Veo que ya tienes una copia de la lista de contratos de the Assassin, ¡échale un vistazo a la lista y comprueba si tus habilidades son tan buenas como crees!
+      - *(Vuelve a las preguntas anteriores.)*
+  - *(Sólo después de elegir alguna otra opción:)*
+    - ¿Cómo puedo ayudar?
+      - *(Como después de la primera pregunta.)*
+  - Asesino Contracts
+    - **Player:** ¿Contracts del asesino?
+    - **Faceless Assassin:** Hay una selección de contracts para que los aspirantes a asesinos se comprometan a probar sus habilidades y ver si son dignos.
+    - **Faceless Assassin:** Cualquier cosa, desde hacer antiveneno y entrar en lugares peligrosos, hasta asesinar objetivos específicos con discreción.
+    - **Player:** Ok, veré si mis habilidades coinciden con las de tu contracts.
+    - *(Vuelve a las preguntas anteriores.)*
+  - Mezcla de contagio
+    - **Player:** Contagio, ¿no es peligroso?
+    - **Faceless Assassin:** No en sí mismo, pero cuando se combina correctamente... puede ser letal.
+    - **Faceless Assassin:** Si pudiera conseguir los reactivos, estaría muy impresionado.
+    - **Player:** ¿Qué necesitas?
+    - **Faceless Assassin:** Esta lista es sólo para sus ojos, requerirá...
+    - *(Se abre el libro Reactivos de contagio.)*
+  - Lista de contagios
+    - **Player:** ¿Puedo ver la lista nuevamente?
+    - *(Se abre el libro Reactivos de contagio.)*
+  - tengo algunos reactivos
+    - *(Sin faltar reactivos:)*
+      - **Faceless Assassin:** Parece que todavía nos faltan algunos reactivos. Vea si puede hacerlo mejor.
+    - *(Con reactivos:)*
+      - *(Si se lleva el ungüento de sobrecarga:)*
+        - **Player:** Te he traído un ungüento para sobrecarga.
+        - **Faceless Assassin:** Buen trabajo consiguiendo ese. Esto le dará al contagio las propiedades inestables que necesita.
+        - *(Continúa a continuación.)*
+      - *(Si se lleva la divina burbuja cola de roca:)*
+        - **Player:** Te he traído una burbuja divina de cola de roca.
+        - **Faceless Assassin:** Excelente trabajo al adquirir esto. Las burbujas ayudarán a que el contagio se propague bien.
+        - *(Continúa a continuación.)*
+      - *(Si se lleva el nido de pájaro vacío:)*
+        - **Player:** Te he traído un nido de pájaro vacío.
+        - **Faceless Assassin:** Has hecho bien en conseguir esto. Puedo incorporar esto a la mezcla.
+        - *(Continúa a continuación.)*
+      - *(Si se transporta polvo armónico:)*
+        - **Player:** Te he traído 134 polvo armónico.
+        - **Faceless Assassin:** Me centraré en {{Sic}}. El contagio realmente se extenderá con esto, con {{Sic}} como una pequeña onda al principio, acumulándose en ondas y hacia el éter.
+        - *(Continúa a continuación.)*
+      - *(Si se lleva el mineral azote de basilisco:)*
+        - **Player:** Te he traído un poco de mineral Basiliskbane{{Sic}}
+        - **Faceless Assassin:** Bueno, estoy impresionado. El poder que esto imbuirá en el contagio será perfecto.
+        - *(Continúa a continuación.)*
+      - *(Si se lleva el saco de cebollas:)*
+        - **Player:** Te he traído un saco de cebollas.
+        - **Faceless Assassin:** No esperaba menos. Esto agregará algo de potencia.
+        - *(Continúa a continuación.)*
+      - *(Si se han entregado todos los reactivos:)*
+        - Has adquirido todos los reactivos del Asesino sin rostro {{Sic}} para crear el Contagio y has completado uno de tus Contracts de Asesino.
+    - *(Con la tarea completada :)*
+      - **Faceless Assassin:** Creo que por ahora hemos terminado con los reactivos.

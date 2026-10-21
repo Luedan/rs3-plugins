@@ -1,0 +1,212 @@
+# Marion
+
+- **Original Wiki Page**: [Transcript:Marion](https://runescape.wiki/w/Transcript%3AMarion)
+- **Letter**: `M`
+
+---
+
+## Dialogue Transcript
+
+
+### When talked to
+
+- **Marion:** What can I get you?
+- Select An Option
+  - What do you have to drink?
+    - **Player:** What do you have to drink?
+    - **Marion:** I've got regular beer or you can try the house speciality<!-- This is British spelling--> - Ranger's Aid. We've even got a batch of the mature stuff. Careful, though: that will blow your socks off!
+    - Select An Option
+      - I'll have a beer.
+        - **Player:** I'll have a beer.
+        - **Marion:** That'll be 2 coins.
+        - **Player:** Here you go.
+        - **Marion:** And here you go!
+        - **Player:** Thanks!
+      - I'll take a Ranger's Aid.
+        - **Player:** I'll take a Ranger's Aid.
+        - **Marion:** That'll be 25 coins.
+        - *(Same as above.)*
+      - I'll try a mature Ranger's Aid.
+        - **Player:** I'll try a mature Ranger's Aid.
+        - **Marion:** That'll be 50 coins.
+        - *(Same as above.)*
+      - I'm okay for now, actually.
+        - **Player:** I'm okay for now, actually.
+        - **Marion:** Suit yourself.
+  - Do you have anything to eat?
+  - **Player:** Do you have anything to eat?
+  - **Marion:** There's our world-famous skewered kebab! Only 25 coins.
+  - Select An Option
+    - I'll try one of those.
+      - **Player:** I'll try one of those.
+      - **Marion:** That'll be 25 coins.
+      - **Player:** Here you go.
+      - **Marion:** And here you go!
+      - **Player:** Thanks!
+    - What's one of those?
+      - **Player:** What's one of those?
+      - **Marion:** It's the finest roast meat and grilled vegetables, skewered with one of Geoff's arrows. Fancy one?
+      - Select An Option
+        - I'll try one of those.
+          - *(Same as above.)*
+        - Food on an arrow? Isn't that a bit impractical?
+          - **Player:** Food on an arrow? Isn't that a bit impractical?
+          - **Marion:** Not for me! Geoff makes tons of the things, saves them going to waste.
+          - Select An Option
+            - Don't you stab yourself in the face when eating it?
+              - **Player:** Don't you stab yourself in the face when eating it?
+              - **Marion:** You could try not sticking the pointy end in your mouth - you know, eat it side on.
+              - **Player:** ...
+              - **Marion:** Ask a stupid question, get a stupid answer.
+              - Select An Option
+                - What do you have to drink?
+                  - *(Same as above.)*
+                - Let's chat.
+                  - *(Same as below.)*
+                - I'll be going now.
+                  - *(Same as below.)*
+            - Fair enough.
+              - **Player:** Fair enough.
+              - **Marion:** So, was there anything you wanted?
+              - Select An Option
+                - What do you have to drink?
+                  - *(Same as above.)*
+                - Do you have anything to eat?
+                  - *(Same as above.)*
+                - Let's chat.
+                  - *(Same as below.)*
+                - Nothing, actually.
+                  - *(Same as below.)*
+            - I'll be going now.
+              - **Player:** I'll be going now.
+        - I'm okay for now, actually.
+          - *(Same as below.)*
+    - I'm okay for now, actually.
+      - **Player:** I'm okay for now, actually.
+      - **Marion:** Suit yourself.
+  - Let's chat.
+    - **Player:** Let's chat.
+    - **Marion:** What about?
+    - Select An Option
+      - What are you doing in a place like this?
+        - **Player:** What are you doing in a place like this?
+        - **Marion:** Not quite the typical bartender, am I?
+        - Select An Option
+          - Was bartending something you aspired to do?
+            - **Player:** Was bartending something you aspired to do?
+            - **Marion:** Oh no, I used to live the life of a bandit before I settled down here.
+            - Select An Option
+              - What was it like being a bandit?
+                - **Player:** What was it like being a bandit?
+                - **Marion:** Oh, those were the days. We used to rob from the rich...
+                - **Player:** ...and give to the poor?
+                - **Marion:** Erm, yeah.
+                - **Player:** ...
+                - **Marion:** ...
+                - **Player:** So, what made you change your ways and settle down?
+                - **Marion:** My trophies! Look at them - aren't they shiny?
+                - Select An Option
+                  - Yes, very!
+                    - **Player:** Yes, very!
+                    - **Marion:** They're my pride and joy. I couldn't keep them in a mouldy old bandit tent, you see, so I had to find a better home for them.
+                    - Select An Option
+                      - How did you get them?
+                        - **Player:** How did you get them?
+                        - **Marion:** Archery competitions at the Ranging Guild. I used to be able to hit a bullseye from a mile away in high winds.
+                        - Select An Option
+                          - Wow!
+                            - **Player:** Wow!
+                            - **Marion:** That was until the 'incident', however.
+                            - **Player:** Incident?
+                            - **Marion:** Because of it, I lost my skill with the bow. Let's just say that it involved a butter churn and a chinchompa.
+                            - **Player:** A chinchompa?
+                            - **Marion:** Poor Fluffy. Why? WHY?
+                            - **Player:** Let's talk about something else, shall we?
+                            - **Marion:** Like what?
+                            - *(Returns to the initial options.)*
+                          - Used to?
+                            - **Player:** Used to?
+                            - **Marion:** There was an 'incident'.
+                            - **Player:** Incident?
+                            - *(Same as above.)*
+                      - Let's talk about something else.
+                        - *(Same as below.)*
+                  - I guess.
+                    - **Player:** I guess.
+                    - **Marion:** They're my pride and joy. I couldn't keep them in a mouldy old bandit tent, you see, so I had to find a better home for them.
+                    - *(Same as above.)*
+                  - <nowiki>*</nowiki>Snore*
+                    - **Player:** ZzZzZz.
+                    - **Marion:** They're my pride and joy. I couldn't keep them in a mouldy old bandit tent, you see, so I had to find a better home for them.
+                    - *(Same as above.)*
+              - You were a filthy criminal!
+                - **Player:** You were a filthy criminal!
+                - **Marion:** Hey! I used to have a bath every other Duneday!
+                - **Player:** ...
+                - **Marion:** I said 'used to'...
+                - **Player:** So, what made you change your ways and settle down?
+                - *(Same as above.)*
+              - Let's talk about something else.
+                - **Player:** Let's talk about something else.
+                - **Marion:** What do you want to talk about?
+                - Select An Option
+                  - What do you have to drink?
+                    - *(Same as above.)*
+                  - Do you have anything to eat?
+                    - *(Same as above.)*
+                  - Let's chat.
+                    - *(Same as above.)*
+                  - Nothing, actually.
+                    - *(Same as above.)*
+          - Not really, no.
+            - **Player:** Not really, no.
+            - **Marion:** Yeah, I used to live the life of a bandit before I settled down here.
+            - Select An Option
+              - What was it like being a bandit?
+                - *(Same as above.)*
+              - You were a filthy criminal!
+                - *(Same as above.)*
+              - Let's talk about something else.
+                - *(Same as above.)*
+          - Let's talk about something else.
+            - *(Same as above.)*
+      - Isn't it dangerous having him throwing arrows around like that?
+        - **Player:** Isn't it dangerous having him throwing arrows around like that?
+        - **Marion:** Oh, I'm sure nothing bad could ever happen. We're very responsible here at the Poison Arrow.
+        - **Player:** Hmm.
+        - Select An Option
+          - What do you have to drink?
+            - *(Same as above.)*
+          - Do you have anything to eat?
+            - *(Same as above.)*
+          - Let's chat?
+            - *(Same as above.)*
+          - Nothing, actually.
+            - *(Same as below.)*
+      - What's the deal with the squirrel?
+        - **Player:** What's the deal with the squirrel?
+        - **Marion:** Oh, Geoff looks after him. Best speak with him if you want to know more.
+        - **Player:** Let's talk about something else, shall we?
+        - **Marion:** Such as?
+        - Select An Option
+          - What do you have to drink?
+            - *(Same as above.)*
+          - Do you have anything to eat?
+            - *(Same as above.)*
+          - Let's chat?
+            - *(Same as above.)*
+          - Nothing, actually.
+            - *(Same as below.)*
+      - Nothing, actually.
+        - **Player:** Nothing, actually.
+        - **Marion:** Just give me a shout if you change your mind.
+  - Nothing, actually.
+    - *(Same as above)*
+
+### Overhead lines
+
+- *(One of the following is seen randomly when Marion polishes the trophy:)*
+  - {{RSChat|Dazzling!|bg=#0A1720}}
+  - {{RSChat|Much better.|bg=#0A1720}}
+  - {{RSChat|Shiny!|bg=#0A1720}}
+  - {{RSChat|Those were the days.|bg=#0A1720}}

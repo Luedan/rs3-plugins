@@ -1,0 +1,258 @@
+# Wizard Elriss
+
+- **Original Wiki Page**: [Transcript:Wizard Elriss](https://runescape.wiki/w/Transcript%3AWizard%20Elriss)
+- **Letter**: `W`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+{{incomplete|missing bits of dialogue for Elriss research and omni-talisman conditions}}
+*Para acceder a todo este diálogo debes tener un Ring of Charos (a) y un conjunto de túnicas Runecrafter (de cualquier color) equipados.*
+- **Wizard Elriss:** Bienvenido a Runecrafting Guild.
+- [Menu]: Selecciona una opción
+  - [Choice]: Tengo algunas fichas que me gustaría canjear.
+    - **Player:** Tengo algunos tokens que me gustaría canjear.{{anchor|tokens}}
+      - (opens=Runecrafting Guild Rewards)
+  - [Choice]: cond=If the player has a talisman in their backpack|Tengo un talismán que mostrarte.
+    - **Player:** Tengo un talismán que mostrarte.
+    - (Condition: Si el player tiene un talismán, aún no se lo ha mostrado a Wizard Elriss:)
+      - {{Transcript missing}}
+    - (Condition: Si el player ya tiene un omnitalismán:)
+      - **Wizard Elriss:** ¡Ya me has demostrado que tienes todos los talismanes, por eso ya te he dado un omnitalismán!
+      - **Player:** Ah, sí.
+      - (end)
+  - [Choice]: cond=If the player doesn't have an omni-talisman|He perdido mi omnitalismán.
+    - **Player:** He perdido mi omnitalismán.
+    - **Wizard Elriss:** ¿Perdiste el talismán? El talismán que algunos dirían que fue la culminación del trabajo de mi vida. El único de su tipo. Mi obra maestra. ¿Ese talismán?
+    - **Player:** Sí.
+    - **Wizard Elriss:** Supongo que puedo hacerte uno nuevo, pero hay que pagar los materiales. Supongo que podría desprenderme de otro por 50.000 coins.
+    - [Menu]: Selecciona una opción
+      - [Choice]: Paga los 50.000 coins.
+        - (removes=50,000 coins)
+        - (receives=Omni-talisman)
+        - **Wizard Elriss:** Oh, bueno. Aquí hay otro. Intenta tener cuidado esta vez.
+        - (end)
+      - [Choice]: No ahora mismo.
+        - **Wizard Elriss:** Oh, bueno. Si cambias de opinión estaré aquí.
+        - (end)
+  - [Choice]: ¿Qué es este lugar?
+    - **Player:** ¿Qué es este lugar?
+    - **Wizard Elriss:** Este es el Runecrafting Guild, como dije. Después de que se redescubriera el secreto de Runecrafting, creé el gremio como un lugar para que los creadores de runas más avanzados trabajaran juntos.
+    - [Menu]: Elige una opción:
+      - [Choice]: ¿Trabajar juntos para qué?
+        - **Player:** ¿Trabajar juntos para qué?
+        - **Wizard Elriss:** Hacia una mayor comprensión de Runecrafting, por supuesto. Los conceptos básicos de Runecrafting se conservaron cuando se destruyó la primera Torre, pero muchos de los secretos más avanzados siguen siendo desconocidos.
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Qué secretos?
+            - **Player:** ¿Qué secretos?
+            - **Wizard Elriss:** Oh, nada que pueda interesarle a un aventurero como tú, estoy seguro.
+            - [Menu]: Selecciona una opción
+              - [Choice]: Estoy interesado.
+                - **Player:** Estoy interesado.
+                - **Wizard Elriss:** Todos tenemos nuestros proyectos, aventurero. Acantha y Vief están felices de involucrar a los creadores de runas jóvenes en su disputa, pero otros prefieren mantener su investigación en privado hasta que se revele.
+                - **Wizard Elriss:** Una idea puede ser objeto de cruel ridículo si se ventila prematuramente, como he aprendido por mi cuenta. Debes perdonarme si no vuelvo a ser tan comunicativo.
+                - [Menu]: Selecciona una opción
+                  - [Choice]: Entonces no importa.
+                    - **Player:** Entonces no importa.
+                    - (initial)
+                  - [Choice]: Anda, dímelo.
+                    - **Player:** Continúa, cuéntame,
+                    - **Wizard Elriss:** ¡Déjame en paz!
+                    - (end)
+                  - [Choice]: cond=If the player is wearing the Ring of charos (a)|[Charm] Puedes decírmelo.
+                    - **Player:** Puedes decírmelo.
+                    - **Wizard Elriss:** Pareces digno de confianza. Supongo que no viene mal contarte un poco.
+                    - **Wizard Elriss:** Estoy buscando un artefacto que emita un tipo de energía muy específico. Después de muchos años de investigación, creo que finalmente me estoy acercando.
+                    - [Menu]: Selecciona una opción
+                      - [Choice]: ¿Cómo lo buscas?
+                        - **Player:** ¿Cómo lo buscas?
+                        - (Condition: Si el player no lleva un conjunto completo de túnicas Runecrafter:)
+                          - **Wizard Elriss:** Apenas eres miembro de este gremio. Cualquiera puede ver que no encajas aquí. No creo que necesite explicarte mis métodos.
+                          - [Menu]: Selecciona una opción
+                            - [Choice]: ¿Qué artefacto estás buscando?
+                              - (abajo)
+                            - [Choice]: Bueno, buena suerte con eso.
+                              - (abajo)
+                        - (Condition: Si el player lleva un conjunto completo de túnicas Runecrafter:)
+                          - **Wizard Elriss:** De hecho, ya me has estado ayudando. Estoy usando los altares Runecrafting para triangular la posición del artefacto. Cada vez que Acantha y Vief envían equipos alrededor de los altares, la posición de la señal se vuelve un poco más clara.
+                          - ¡Me estabas usando!
+                            - **Player:** ¡Me estabas usando!
+                            - **Wizard Elriss:** Las personas se utilizan unas a otras. Así es la vida. Hace años, un cazador de tesoros me utilizó en su búsqueda de este artefacto... me utilizó de una manera mucho más dañina que yo te he utilizado a ti. Sin embargo, después de que se fue, descubrí lo que buscaba y eso me puso en esta línea de investigación. Si eres lo suficientemente fuerte, aprenderás de esto. Si no, no tengo tiempo para ti ni simpatía.
+                              - ¿Quién fue? ¿Qué pasó?
+                                - **Player:** ¿Quién fue? ¿Qué pasó?
+                                - **Wizard Elriss:** Éramos aprendices juntos aquí. Se fue después de graduarse, pero unos años más tarde regresó. Yo era joven e ingenuo y me enamoré. Pensé que se quedaría en la torre pero nunca quiso que yo fuera un mago adecuado. Era un cazador de tesoros, robaba artefactos mágicos de las tumbas y los vendía por oro básico. Me utilizó para acceder a los registros de la torre y nunca estuvo interesado en mí. Sólo quería buscar en los registros pistas sobre la ubicación del artefacto. Vi lo que estaba leyendo y traté de ayudarlo, pero estaba enojado. ¡Quería mantenerme en secreto su investigación! Una vez que tuvo lo que buscaba, se fue sin decir palabra. Bueno, ahora ya no me sirve. Repasé lo que había estado leyendo y encontré las pistas que había encontrado. Encontraré ese artefacto y usaré su poder para aplastarlo como a un insecto.
+                      - [Choice]: ¿Qué artefacto estás buscando?
+                        - **Player:** ¿Qué artefacto estás buscando?
+                        - (Condition: Si el player no lleva un conjunto completo de túnicas Runecrafter:)
+                          - **Wizard Elriss:** Incluso si te lo dijera, no significaría nada para ti. Aún no estás preparado para los secretos internos de Runecrafting.
+                          - [Menu]: Selecciona una opción
+                            - [Choice]: ¿Cómo lo buscas?
+                              - (arriba)
+                            - [Choice]: Bueno, buena suerte con eso.
+                              - (abajo)
+                        - (Condition: Si el player lleva un conjunto completo de túnicas Runecrafter:)
+                          - **Wizard Elriss:** Sé que eres un creador de runas experimentado, a diferencia de los magos de la torre. Quizás lo entiendas.
+                          - **Wizard Elriss:** ¿Alguna vez te has preguntado cómo surgieron la esencia rúnica y los altares rúnicos? ¿Cómo pueden trabajar juntos los altares y la esencia rúnica cuando están tan dispersos?
+                          - **Wizard Elriss:** Los magos lo llamaron el Ojo de Saradomin. Eso es lo que estoy buscando. Ninguno de los otros magos cree que sea posible, por eso estoy trabajando en secreto. Cuando lo encuentre, su poder será todo mío.
+                      - [Choice]: Bueno, buena suerte con eso.
+                        - **Player:** Bueno, buena suerte con eso.
+                        - (initial)
+              - [Choice]: Sí, no estoy realmente interesado.
+                - **Player:** Sí, no estoy realmente interesado.
+                - **Wizard Elriss:** ¿Había algo más que quisieras?
+                - (initial)
+          - [Choice]: ¡Acantha y Vief difícilmente trabajan juntos!
+            - (abajo)
+          - [Choice]: ¿Dónde estamos exactamente?
+            - (abajo)
+          - [Choice]: ¿Qué puedo hacer aquí?
+            - (abajo)
+          - [Choice]: No importa.
+            - **Player:** No importa.
+            - (end)
+      - [Choice]: ¡Acantha y Vief difícilmente trabajan juntos!
+        - **Player:** ¡Acantha y Vief difícilmente trabajan juntos!
+        - **Wizard Elriss:** ¿No es así? Piensan que su debate sobre el color del orbe es muy importante, pero ¿realmente crees que importa a qué equipo te unes?
+        - [Menu]: Seleccione una opción|ancla=importa
+          - [Choice]: Por supuesto que importa.
+            - **Player:** Por supuesto que importa.
+            - **Wizard Elriss:** Por supuesto que sí, por supuesto que sí. Entonces ten cuidado a qué equipo te unes. Aceptaré tus fichas de recompensa, de cualquier manera.
+            - (initial)
+          - [Choice]: No, supongo que no.
+            - **Player:** No, supongo que no.
+            - **Wizard Elriss:** No. Lo importante es que los orbes vuelvan a los altares, sean del color que sean.
+            - (initial)
+          - [Choice]: No importa.
+            - **Player:** No importa.
+            - (end)
+      - [Choice]: ¿Dónde estamos exactamente?
+        - **Player:** ¿Dónde estamos exactamente?
+        - **Wizard Elriss:** Notarás que, cada vez que usas un altar Runecrafting, ingresas a otro plano: una isla autónoma, una cueva o algún otro lugar que contiene el verdadero altar.
+        - **Wizard Elriss:** Estos templos no están exactamente en Gielinor. Son dimensiones de bolsillo en sí mismas: áreas de espacio plegado creado por la energía del altar de las runas.
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Entonces estamos en algo similar?
+            - **Player:** ¿Entonces estamos en algo similar?
+            - **Wizard Elriss:** Muy cierto. Esta es una sombra de la Torre del Mago, creada por nuestra propia magia, también conocida como Runespan. ¿Qué mejor lugar para estudiar los misterios de Runecrafting?
+            - (end)
+          - [Choice]: ¿Qué tiene eso que ver con el gremio?
+            - **Player:** ¿Qué tiene eso que ver con el gremio?
+            - **Wizard Elriss:** ¿No lo ves? El Runecrafting Guild existe en una dimensión de bolsillo similar, creada por nuestra propia magia, también conocida como Runespan. ¿Qué mejor lugar para estudiar los misterios de Runecrafting?
+            - (end)
+          - [Choice]: No el Altar Astral. Eso no tiene dimensión de bolsillo.
+            - **Player:** No el Altar Astral. Eso no tiene dimensión de bolsillo.
+            - **Wizard Elriss:** Muy cierto. He oído hablar del Altar Astral, aunque yo no he estado allí.
+            - **Wizard Elriss:** Los magos lunares han encontrado una manera de mantener abierto el altar. Su magia ha aplanado el espacio alrededor del altar para que la dimensión del bolsillo se convierta en parte del espacio normal.
+            - (end)
+      - [Choice]: ¿Qué puedo hacer aquí?
+        - (abajo)
+      - [Choice]: No importa.
+        - **Player:** No importa.
+        - (end)
+  - [Choice]: ¿Qué puedo hacer aquí?
+    - **Player:** ¿Qué puedo hacer aquí?
+    - **Wizard Elriss:** Wizard Acantha y Wizard Vief están ejecutando The Great Orb Project. Requiere una gran cantidad de creadores de runas, por lo que debes hablar con ellos si quieres hacer algo.
+    - **Wizard Elriss:** Wizard Korvak ha visitado el Abismo y puede reparar bolsas abisales. Yo mismo estoy trabajando en un nuevo tipo de talismán: el omni-talismán.
+    - [Menu]: Selecciona una opción
+      - [Choice]: Cuéntame sobre el proyecto de Acantha y Vief.
+        - **Player:** Cuéntame sobre el proyecto de Acantha y Vief.
+        - {{anchor|instructions}}**Wizard Elriss:** El Proyecto Orbe... Perdón, ¿El Gran Proyecto Orbe? Es realmente fascinante. Los magos Acantha y Vief han descubierto que la energía se escapa de algunos de los altares de Runecrafting. Están reclutando equipos de creadores de runas experimentados, como usted, para obligar a que la energía regrese.
+        - **Wizard Elriss:** Únase a uno de los equipos hablando con Wizard Acantha de Wizard Vief. Cuando los magos tengan suficientes ayudantes, abriré un portal al Altar del Aire.
+        - **Wizard Elriss:** La energía aparece en forma de orbes flotantes. Estos se pueden mover mediante varitas que los atraen o repelen. Acantha o Vief te darán una de cada varita.
+        - **Wizard Elriss:** Tu objetivo es mover el orbe del color correcto a la piedra del altar, mientras mantienes alejados los otros orbes. Wizard Acantha favorece los orbes verdes, mientras que Wizard Vief favorece los amarillos.
+        - **Wizard Elriss:** También tendrás una tercera varita, que te permitirá crear barreras mágicas para bloquear los orbes del equipo contrario.
+        - ** Wizard Elriss:** Después de dos minutos, el equipo que absorbió la mayor cantidad de orbes gana ese altar. Luego abro el portal al siguiente altar de la secuencia. Una vez que hayas visitado los ocho altares, volverás aquí.
+        - [Menu]: Selecciona una opción
+          - [Choice]: ¿Qué gano yo con esto?
+            - **Player:** ¿Qué gano yo con esto?
+            - **Wizard Elriss:** Una pregunta justa. Hemos acordado un esquema de tokens que le permite elegir entre varias recompensas. Cuando regreses del último altar, tu mago mayor te dará una cantidad de fichas.
+            - **Wizard Elriss:** Obtendrás 50 fichas por cada altar que tu equipo capturó, siempre que hayas contribuido a la captura de alguna manera. Recibirás 100 fichas adicionales si tu equipo capturó más altares en general, o 50 adicionales si hay un empate.
+            - **Wizard Elriss:** Puedes cambiar los tokens por recompensas hablando conmigo.
+            - **Wizard Elriss:** También puedes encontrar esencia rúnica que aparece en tu inventario al final de cada ronda. Este es un subproducto del proceso de absorción y puedes usarlo como desees.
+            - [Menu]: Selecciona una opción
+              - [Choice]: Tengo algunas fichas que me gustaría canjear.
+                - (above|tokens)
+              - [Choice]: ¿Qué recompensas hay?
+                - **Player:** ¿Qué recompensas hay?
+                - **Wizard Elriss:** Las recompensas incluyen túnicas de maestro de runas, diseñadas para protegerte mientras Runecrafting. Estas túnicas también te permiten mover los orbes un poco más, si usas túnicas del mismo color que el orbe.
+                - **Wizard Elriss:** Otra recompensa es el Runecrafting staff. Esta puede combinarse con un talismán, del mismo modo que puede hacerlo una tiara.
+                - **Wizard Elriss:** También ofrezco tabletas de teletransporte a los distintos altares.
+                - **Wizard Elriss:** También puedes cambiar tus tokens por talismanes y certificados que puedes canjear en un banco por esencia de runas.
+                - [Menu]: Selecciona una opción
+                  - [Choice]: Tengo algunas fichas que me gustaría canjear.
+                    - (above|tokens)
+                  - [Choice]: ¿Podrías repasar las instrucciones nuevamente?
+                    - (abajo)
+                  - [Choice]: ¿Qué color de orbe es mejor?
+                    - (abajo)
+                  - [Choice]: Gracias.
+                    - (abajo)
+              - [Choice]: ¿Podrías repasar las instrucciones nuevamente?
+                - (abajo)
+              - [Choice]: ¿Qué color de orbe es mejor?
+                - (abajo)
+              - [Choice]: Gracias.
+                - (abajo)
+          - [Choice]: ¿Podrías repasar las instrucciones nuevamente?
+            - **Player:** ¿Podrías repasar las instrucciones nuevamente?
+            - (above|instructions)
+          - [Choice]: ¿Qué color de orbe es mejor?
+            - **Player:** ¿Qué color de orbe es mejor?
+            - **Wizard Elriss:** Wizard Acantha cree que los orbes verdes son los mejores. Wizard Vief cree que los amarillos lo son. Deberías ayudar al mago a cuyo equipo te unes.
+            - **Player:** ¿Pero qué piensas?
+            - **Wizard Elriss:** ¿Importa?
+            - (arriba2|importaciones)
+          - [Choice]: Gracias.
+            - **Player:** Gracias.
+            - (end)
+      - [Choice]: Háblame del omnitalismán.
+        - **Player:** Háblame del omnitalismán.
+        - **Wizard Elriss:** He pasado muchos años estudiando los talismanes Runecrafting y creo que puedo crear una nueva forma de talismán que combine las propiedades de todos ellos.
+        - **Wizard Elriss:** Este omnitalismán te permitirá acceder a cualquiera de los altares de Runecrafting. Se puede combinar con una tiara o un staff, como un talismán normal y corriente.
+        - **Wizard Elriss:** Si me muestras cada tipo de talismán conocido, crearé un omnitalismán para ti. Por cada talismán que me muestres, también te enseñaré un poco sobre Runecrafting.
+        - [Menu]: Selecciona una opción
+          - [Choice]: Tengo un talismán que mostrarte.
+            - **Player:** Tengo un talismán que mostrarte.
+            - (Condition: Si el player tiene un nuevo talismán:)
+              - {{Transcript missing}}
+            - (Condition: Si el player ya obtuvo un omnitalismán anteriormente:)
+              - **Wizard Elriss:** ¡Ya me has demostrado que tienes todos los talismanes, por eso ya te he dado un omnitalismán!
+              - **Player:** Ah, sí.
+              - (end)
+          - [Choice]: No importa.
+            - **Player:** No importa.
+            - (end)
+      - [Choice]: Cuénteme sobre las reparaciones de bolsas de Wizard Korvak.
+        - **Player:** Cuéntame sobre las reparaciones de la bolsa de Wizard Korvak.
+        - **Wizard Elriss:** Wizard Korvak es el único de nosotros que ha visitado el Abismo. Aprendió sobre las bolsas de runas y cómo repararlas.
+        - **Wizard Elriss:** Ninguno de nosotros sabe muy bien cómo lo hace, y no estoy seguro de que él tampoco, pero parece funcionar.
+        - (initial)
+      - [Choice]: No importa.
+        - **Player:** No importa.
+        - (end)
+  - [Choice]: ¿Quién es ese mago fuera del portal del gremio?
+    - **Wizard Elriss:** Ah, ya conociste a Wizard Finix; un joven mago prometedor.
+    - **Wizard Elriss:** Incluso si tiene algunas teorías bastante controvertidas.
+    - **Player:** ¿Qué teorías se le han ocurrido?
+    - **Wizard Elriss:** Su teoría más audaz es que los altares no son charcos interminables de energía, como pensábamos que eran. Sus notas de investigación parecen estar en orden, pero me encuentro cuestionando seriamente la validez de esa afirmación.
+    - **Player:** ¿Por qué?
+    - **Wizard Elriss:** Muchas de las teorías actuales sobre los altares se basan en la suposición arraigada de que los altares son eternos.
+    - **Wizard Elriss:** Si se demuestra que esa suposición es falsa, nuestro trabajo retrocede por un margen considerable.
+    - **Wizard Elriss:** El problema es que las implicaciones de que él tenga razón son tan grandes que no podemos ignorar sus teorías hasta que las hayamos probado o refutado.
+    - **Player:** ¿Qué implicaciones son estas?
+    - **Wizard Elriss:** La capacidad humana de realizar magia es algo que nos ayuda a protegernos de aquellos que desean hacernos daño. Sin runas, no podríamos realizar magia, y esa sería una situación bastante grave.
+    - **Player:** ¿No hay nada que podamos hacer?
+    - **Wizard Elriss:** Wizard Finix ha propuesto una solución. Ha ideado un método para extraer energía rúnica de fuentes distintas a los altares.
+    - **Wizard Elriss:** Wizard Finix cree que el mundo que nos rodea está hecho de energía rúnica, pero sus estudios se detuvieron cuando no pudo extraer energía rúnica de Gielinor.
+    - **Player:** ¿Sabemos por qué no funcionó?
+    - **Wizard Elriss:** Nadie lo sabe con seguridad. Algunos creen que su teoría es incorrecta. Otros creen que podría ser correcto, pero que se necesitaría un creador de runas de inmenso talento para extraer energía rúnica del propio Gielinor.
+    - **Wizard Elriss:** Quien tenga razón, no me ha quedado más remedio que abrir Runespan para investigar este método de extracción.
+    - **Player:** ¿El Runespan?
+    - **Wizard Elriss:** Runespan es un plano en el que se encuentra runecrafting Guild. Es un avión caótico con una energía rúnica volando alrededor, sin ataduras a nada, lo que lo hace perfecto para el entrenamiento de extracción.
+    - **Wizard Elriss:** Con suerte, si podemos entrenar suficientes creadores de runas, algún día podremos extraer energía de Gielinor.
+    - **Player:** ¡Entonces será mejor que salga y empiece a entrenar!
+    - **Wizard Elriss:** Tus esfuerzos serán muy apreciados, Player.
+    - (end)
+<!--*No importa.
+  - **Player:** No importa.-->

@@ -1,0 +1,152 @@
+# Blast Furnace Foreman
+
+- **Original Wiki Page**: [Transcript:Blast Furnace Foreman](https://runescape.wiki/w/Transcript%3ABlast%20Furnace%20Foreman)
+- **Letter**: `B`
+
+---
+
+## Dialogue Transcript
+
+
+### Speaking to him
+
+- **Blast Furnace Foreman:** You! Get to work!
+  - [Menu]: Select an option
+    - [Choice]: What?
+      - **Player:** What?
+      - **Blast Furnace Foreman:** You are here to help work the blast furnace, aren't you?
+        - [Menu]: Select an option
+          - [Choice]: What's the blast furnace?
+            - **Player:** What's the blast furnace?
+            - **Blast Furnace Foreman:** The blast furnace is the pinnacle of dwarven metal-processing! Ore goes in the top and comes out as metal bars almost at once! And it's so efficient it only takes half as much coal to purify it as a regular furnace.
+            - **Blast Furnace Foreman:** But we've got a bit of a labour shortage at the moment, which is why I have to rely on immigrant workers to keep the furnace going. So, are you here to start work?
+            - (previous|first-menu)
+          - [Choice]: How can I help work the blast furnace?
+            - **Player:** How can I help work the blast furnace?
+            - **Blast Furnace Foreman:** The blast furnace will only work if there is a group of people keeping it going. Let me explain...
+            - {{qact|Diagram of the Blast Furnace Plan appears, and the cross beside the stove blinks}}
+            - **Blast Furnace Foreman:** Firstly, the stove needs to be kept filled with coal. If this runs out the furnace will not work.
+            - {{qact|The cross beside the air pump blinks}}
+            - **Blast Furnace Foreman:** Secondly, someone needs to operate the pump that keeps the hot air circulating through the furnace.
+            - {{qact|The cross beside the temp gauge blinks}}
+            - **Blast Furnace Foreman:** Thirdly, someone needs to keep an eye on the temperature gauge. They should tell the pumper to start or stop so that the temperature stays in the right range.
+            - {{qact|The cross beside the cogs blinks}}
+            - **Blast Furnace Foreman:** Lastly, someone needs to be on the pedals to power the conveyor belt that puts ore into the furnace.
+            - {{qact|The cross beside the cogs stops blinking}}
+            - **Blast Furnace Foreman:** Someone will also need to be on standby with a hammer in case the machine breaks!
+            - **Blast Furnace Foreman:** While that's going, anyone else can put their ore on the conveyor belt to have it smelted.
+              - [Menu]: Select an option
+                - [Choice]: So what do I get out of it?
+                  - **Player:** So what do I get out of it?
+                  - **Blast Furnace Foreman:** Keeping the furnace going is valuable experience in itself! Keeping the stove alight will train your firemaking, working the pump will train your strength, pedalling the conveyor belt will train your agility and repairing the furnace will train crafting. Plus, everyone working the furnace will get a bit of experience at smithing whenever anyone smelts ore in it.
+                    - [Menu]: Select an option
+                      - [Choice]: So I don't actually get paid then?
+                        - **Player:** So I don't actually get paid then?
+                        - **Blast Furnace Foreman:** I offer you the privilege of working on the greatest example of dwarven engineering and you want to be PAID? If you co-operate with a group of people you can all get your smelting done pretty quickly. Or perhaps some humans who need to do some smelting will pay you, since you humans are all so obsessed with money.
+                          - [Menu]: Select an option
+                            - [Choice]: Okay, I'll get to work.
+                              - **Player:** Okay, I'll get to work.
+                              - **Blast Furnace Foreman:** Splendid!
+                            - [Choice]: Maybe some other time.
+                              - **Player:** Maybe some other time.
+                              - **Blast Furnace Foreman:** Well if you're not here to work, go hang around somewhere else!
+                            - [Choice]: No wonder you have a labour shortage if you don't pay your workers!
+                              - **Player:** No wonder you have a labour shortage if you don't pay your workers!
+                              - **Blast Furnace Foreman:** What would be the point of making money if I gave it all away to menial workers? I mean... Money isn't important! What about the greater glory of dwarven engineering? What about the satisfaction of helping others? What about the XP?
+                                - *(Shows other options)*
+                      - [Choice]: Okay I'll get to work.
+                        - **Player:** Okay, I'll get to work.
+                        - **Blast Furnace Foreman:** Splendid!
+                      - [Choice]: Maybe some other time.
+                        - **Player:** Maybe some other time.
+                        - **Blast Furnace Foreman:** Well if you're not here to work, go hang around somewhere else!
+                - [Choice]: Okay I'll get to work.
+                  - **Player:** Okay, I'll get to work.
+                  - **Blast Furnace Foreman:** Splendid!
+                - [Choice]: Maybe some other time.
+                  - **Player:** Maybe some other time.
+                  - **Blast Furnace Foreman:** Well if you're not here to work, go hang around somewhere else!
+          - [Choice]: Can I use the furnace to smelt ore?
+            - **Player:** Can I use the furnace to smelt ore?
+            - **Blast Furnace Foreman:** You can, although you'll need to find some people to work it for you as well. But the furnace is very delicate so I charge a fee for anyone who doesn't have level 60 smithing.
+              - [Menu]: Select an option
+                - [Choice]: I have level 60!
+                  - **Player:** I have level 60!
+                  - **Blast Furnace Foreman:** A human has level 60 smithing? How extraordinary! Feel free to use the furnace. Remember, you only need half as much coal as with a regular furnace.
+                - [Choice]: I don't have level 60.
+                  - **Player:** I don't have level 60.
+                  - **Blast Furnace Foreman:** Hmm, well, I'll let you use the furnace if you want, but you must pay a fee of 2,500 coins.
+                    - [Menu]: Select an option
+                      - [Choice]: Okay.
+                        - **Player:** Okay, here you are.
+                        - 2,500 coins have been removed from your money pouch.
+                        - **Blast Furnace Foreman:** Okay, you can use the furnace for ten minutes. Remember, you only need half as much coal as with a regular furnace.
+                      - [Choice]: Maybe some other time.
+                        - **Player:** Maybe some other time.
+                        - **Blast Furnace Foreman:** Well if you're not here to work, go hang around somewhere else!
+          - [Choice]: Maybe some other time.
+            - **Player:** Maybe some other time.
+            - **Blast Furnace Foreman:** Well if you're not here to work, go hang around somewhere else!
+    - [Choice]: cond=If the player has not yet asked about dragon metal before:|What would dragon metal be useful for?
+      - (below|dragon-metal)
+    - [Choice]: cond=If the player has asked about dragon metal before:|Ask about blast fusion hammers.
+      - [Menu]: Select an option
+        - [Choice]: How much is a hammer?
+          - **Blast Furnace Foreman:** It costs 1,000,000 coins.
+            - [Menu]: Select an option
+              - [Choice]: Buy blast fusion hammer: 1,000,000 (1M) coins.
+                - (removes=1,000,000 coins) (receives=blast fusion hammer)
+                - 1,000,000 coins have been removed from your money pouch.
+                - [You hand over 1,000,000 coins for the blast fusion hammer.]
+              - [Choice]: I'll leave it for now, thanks.
+                - You decide against making a purchase.
+        - [Choice]: I want to trade in my hammer and get some money back.
+          - **Player:** I want to trade in my hammer and get some money back.
+          - **Blast Furnace Foreman:** No problem. Just hand me the hammer you want to return and I'll tell you how much I can give you back.
+          - **Player:** I just, er, use the hammer on you and we'll agree a price, yes?
+          - **Blast Furnace Foreman:** Exactly!
+        - [Choice]: How come you have such a hammer in the first place?
+          - **Player:** How come you have such a hammer in the first place?
+          - **Blast Furnace Foreman:** An interesting question, which, I'm sorry to say, I can't answer. Top secret dwarven technological and industrial secrets, you see.
+          - **Player:** Oh, sounds exciting. Come on, you can tell me...
+          - **Blast Furnace Foreman:** Oh, okay, but keep it to yourself.
+          - **Player:** Will do.
+          - **Blast Furnace Foreman:** Very well. Us dwarves have been working on a series of very important metallurgical experiments. We found some quite interesting rock formations, in a place that shall remain nameless, and our experiments developed and evolved until we came up with the blast fusion hammer. The hammer is capable of working even the strongest and most magical of metals!
+        - [Choice]: What would dragon metal be useful for?
+          - **Blast Furnace Foreman:** Well, I guess if you could find a furnace hot enough and a hammer hot enough, you could probably make it into some effective personal armour.
+          - **Blast Furnace Foreman:** I'm afraid I can't offer any advice on the furnace, but I may be able to help out with the hammer.
+          - **Player:** Oh, really?
+          - **Blast Furnace Foreman:** Yes, you'll need very high heat resistance to work with difficult materials. I've got a very special type of hammer, which I hold back for experienced smiths - I call it the blast fusion hammer. It's very hard-wearing and of the utmost quality.
+          - **Player:** And, I suppose, very expensive?
+          - **Blast Furnace Foreman:** Quality doesn't come cheap, my friend.
+          - (previous|hammer-menu)
+        - [Choice]: Okay, thanks.
+          - **Player:** Okay, thanks.
+    - [Choice]: Okay.
+      - **Player:** Okay.
+
+### Using a blast fusion hammer on him
+
+- **Blast Furnace Foreman:** For that hammer I can offer you 1,000,000 coins for the trade-in. Do you accept?
+  - [Menu]: Select an option
+    - [Choice]: Yes, I'll take your offer.
+      - **Player:** Yes, I'll take your offer.
+      - (removes=blast fusion hammer) (receives=1,000,000 coins)
+      - 1,000,000 coins have been added to your money pouch.
+      - [You hand over the hammer: Blast fusion hammer. And get 1,000,000 coins.]
+    - [Choice]: Sorry, I'll keep hold of the hammer for now.
+      - **Player:** Sorry, I'll keep hold of the hammer for now.
+
+### Speaking to him in Ironman mode
+
+- **Blast Furnace Foreman:** I won't let you into my furnace! Stop asking!
+- [Menu]: Select an option
+  - [Choice]: What?
+    - **Player:** What?
+    - This minigame is disabled in Ironman mode.
+    - **Blast Furnace Foreman:** My furnace relies on a team of adventurers. I've heard tales about how you shun other adventurers, so I won't let you near my precious equipment.
+    - (end)
+  - [Choice]: Ask about dragon metal.
+    - (above)
+  - [Choice]: Okay.
+    - **Player:** Okay.

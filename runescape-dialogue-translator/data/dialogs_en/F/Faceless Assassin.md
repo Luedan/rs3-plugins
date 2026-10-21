@@ -1,0 +1,69 @@
+# Faceless Assassin
+
+- **Original Wiki Page**: [Transcript:Faceless Assassin](https://runescape.wiki/w/Transcript%3AFaceless%20Assassin)
+- **Letter**: `F`
+
+---
+
+## Dialogue Transcript
+
+- **Player:** What's all this about an Assassin's Contract list.{{Sic}}
+- **Faceless Assassin:** Keep your voice down, and perhaps I'll share my secrets with you.
+- **Faceless Assassin:** The Assassin's Contract list is only something for the most worthy.
+- Ask about..
+  - *(Only initially:)*
+    - I'm worthy
+      - **Player:** I'm worthy. I'll prove it.
+      - **Faceless Assassin:** I see you've already got a copy of the Assassin's Contract list, take a look at the list and see if your skills are as good as you think!
+      - *(Returns to the previous questions.)*
+  - *(Only after choosing some other option:)*
+    - How can I help?
+      - *(As after the first question.)*
+  - Assassin Contracts
+    - **Player:** Assassin's Contracts?
+    - **Faceless Assassin:** There's a selection of contracts for aspiring assassins to undertake to test their skills and see if they're worthy.
+    - **Faceless Assassin:** Anything from making antipoison and entering dangerous places, to assassinating specific targets with discretion.
+    - **Player:** Ok, I'll see if my skills are a match for your contracts.
+    - *(Returns to the previous questions.)*
+  - Contagion mixture
+    - **Player:** Contagion, isn't that dangerous?
+    - **Faceless Assassin:** Not in itself, but when put together correctly... it can be lethal.
+    - **Faceless Assassin:** If you can source the reagents I would be most impressed.
+    - **Player:** What do you need?
+    - **Faceless Assassin:** This list is for your eyes only, it will require...
+    - *(Contagion Reagents book opens.)*
+  - Contagion list
+    - **Player:** Can I see the list again?
+    - *(Contagion Reagents book opens.)*
+  - I've got some reagents
+    - *(Without any missing reagents:)*
+      - **Faceless Assassin:**  Looks like we're still missing some reagents. See if you can do better.
+    - *(With reagents:)*
+      - *(If the overload salve is carried:)*
+        - **Player:** I've brought you an Overload salve.
+        - **Faceless Assassin:** Good work getting that one. This will give the contagion the unstable properties it needs.
+        - *(Continues below.)*
+      - *(If the divine rocktail bubble is carried:)*
+        - **Player:** I've brought you a Divine rocktail bubble.
+        - **Faceless Assassin:** Excellent job in acquiring this. The bubbles will help the contagion spread nicely.
+        - *(Continues below.)*
+      - *(If the empty bird's nest is carried:)*
+        - **Player:** I've brought you an empty bird's nest.
+        - **Faceless Assassin:** You've done well to source this. I can weave this into the mix.
+        - *(Continues below.)*
+      - *(If the harmonic dust is carried:)*
+        - **Player:** I've brought you 134 Harmonic Dust.
+        - **Faceless Assassin:** I'll hodl{{Sic}} onto those. The contagion will really spread with this, With{{Sic}} a bit of a ripple at first, building up in waves and into the ether.
+        - *(Continues below.)*
+      - *(If the basiliskbane ore is carried:)*
+        - **Player:** I've brought you some Basiliskbane ore{{Sic}}
+        - **Faceless Assassin:** Well, I am impressed. The power this will imbibe into the contagion will be perfect.
+        - *(Continues below.)*
+      - *(If the sack of onions is carried:)*
+        - **Player:** I've brought you a sack of onions.
+        - **Faceless Assassin:** I expected no less. This will add some potency.
+        - *(Continues below.)*
+      - *(If all the reagents have been delivered:)*
+        - You've acquired all the reagents for the Faceless Assasin{{Sic}} to make the Contagion and completed one of your Assassin's Contracts.
+    - *(With the task completed:)*
+      - **Faceless Assassin:** I believe we're done with the reagents for now.

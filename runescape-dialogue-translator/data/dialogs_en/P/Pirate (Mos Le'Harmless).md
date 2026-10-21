@@ -1,0 +1,68 @@
+# Pirate (Mos Le'Harmless)
+
+- **Original Wiki Page**: [Transcript:Pirate (Mos Le'Harmless)](https://runescape.wiki/w/Transcript%3APirate%20%28Mos%20Le%27Harmless%29)
+- **Letter**: `P`
+
+---
+
+## Dialogue Transcript
+
+- *Conversation 1*
+  - **Pirate:** Ain't ye the scurvy cur that killed me brother?
+  - **Player:** I'm not sure.I kill so many things on a daily basis that it all tends to blur together. Tell me, did he have any unusual features that would help me to recall them?
+  - **Pirate:** How many things de ye have te kill in a day te lose count?
+  - **Player:** I don't know, if I did I wouldn't have lost count! Now, about your brother...
+  - **Pirate:** Never mind! I never liked him that much anyway!
+- *Conversation 2*
+  - **Pirate:** What's a landlubber like ye doin' here?
+  - **Player:** Helping Cap'n Teach shoot his way through a little blockade.
+  - **Pirate:** Well done to ye. I'll see ye around.
+- *Conversation 3*
+  - **Pirate:** Are ye here for...you know...the stuff?
+  - **Player:** The what?
+  - **Pirate:** The stuff. You know...the stuff?
+  - **Player:** I'm not sure I follow you.
+  - **Pirate:** Aren't ye Toothless Kevin?
+  - **Player:** No.
+  - **Pirate:** Sorry, sorry, my mistake!
+- *Conversation 4*
+  - **Pirate:** What ship did ye pull in on, stranger?
+  - **Player:** The Adventurous.
+  - **Pirate:** That's a good ship, that it be.
+- *Conversation 5*
+  - **Pirate:** Watch where yer goin'!
+  - **Player:** I was!
+  - **Pirate:** Then it must have been my fault and I apologise, lad.
+  - **Player:** And I accept your apology. Good day.
+  - **Pirate:** Aye, good day te ye too.
+- *Conversation 6*
+  - **Player:** Arr!
+  - **Pirate:** Arr?
+  - **Player:** Arr?
+  - **Pirate:** Arr!
+  - **Player:** Arr...
+  - **Pirate:** Arr.
+- *Conversation 7*
+  - **Player:** Why is this place walled off?
+  - **Pirate:** Well, lad, it's 'cos there be foul things in the jungle beyond.
+  - **Player:** What sort of foul things?
+  - **Pirate:** Big 'uns. Nasty 'uns. You name it, we got it. There be jungle horrors in the jungles and cave horrors in the caves. 'Tis no place te be havin' a picnic, and no mistake.
+- *Conversation 8*
+  - **Player:** Good morning!
+  - **Pirate:** I suppose it is. What of it?
+  - **Player:** I was just striking up a conversation.
+  - **Pirate:** Well...why would ye do a thing like that?
+  - **Player:** No reason.
+- *Conversation 9*
+  - **Player:** It's rather quiet around here for a pirate haven isn't it?
+  - **Pirate:** Arr, we like te keep the peace around here. Some of the older pirates don't like it, but Mos Le'Harmless be a hive of sense and civility.
+  - **Player:** How nice!
+  - **Pirate:** Arr, that it be.
+- *Conversation 10*
+  - **Player:** Hello!
+  - **Pirate:** Keep yer voice down [lass/lad], can't ye see I'm busy?
+  - **Player:** First off, it's [lad/lass], and second, other than busy being drunk I can't see what you are talking about.
+  - **Pirate:** I can't feel me brains no more...
+  - **Player:** Wait...I recognise that smell. You've been drinking 'rum' haven't you?
+  - **Pirate:** Arr...ye shufflin' muffle burble...
+  - **Player:** I think that can be filed as a 'yes'.

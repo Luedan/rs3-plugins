@@ -1,0 +1,381 @@
+# Ramarno
+
+- **Original Wiki Page**: [Transcript:Ramarno](https://runescape.wiki/w/Transcript%3ARamarno)
+- **Letter**: `R`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### After Defender of Varrock
+
+- [Menu]: Selecciona una opción
+  - [Choice]: ¿Puedes ayudarme a mejorar mi pico?
+    - (Condition: Antes de haberle mostrado a Ramarno un pico de tierra y una variante de canción:)
+      - (Condition: Sin pico de tierra y variante de canción empuñada o llevada en el backpack:)
+        - [Ramarno te cachea minuciosamente y revuelve tu backpack. Hace una pausa para inspeccionar cuidadosamente cualquier cosa que lleves o empuñes y que tenga incluso remotamente forma de pico.]
+        - **Ramarno:** Necesitas un pico de tierra y canción si quieres que te ayude a mejorarlo.
+      - (Condition: Con un pico de tierra y una variante de canción empuñada o llevada en el backpack:)
+        - [Muestras tu pico de tierra y canción a Ramarno.]
+        - [El sabio enano ciego pasa los dedos por la cabeza y el mango. Él gruñe en agradecimiento.]
+        - **Ramarno:** No está mal.<br>Aquí hay una fabricación enana imcando.<br>Pero podemos mejorarlo.
+        - **Player:** ¿Puedes hacer que este pico sea aún más poderoso?<br>¿Cómo?
+        - **Ramarno:** Un método antiguo, transmitido por mi abuelo, antes de que encontrara su fin.
+        - (continue|To make it)
+    - (Condition: Después de haberle mostrado a Ramarno un pico de tierra y una variante de canción pero antes de haberle pedido el pago:)
+      - (Condition: Antes de haber recibido el misterioso fragmento de piedra negra:)
+        - **Ramarno:** Para hacerlo, debes obtener un material extraño de una roca oscura y misteriosa, conocida como 'piedra negra'.
+        - **Ramarno:** He oído hablar de una isla en el extremo sureste donde se puede ubicar una roca así. Probablemente siga siendo dominio de piratas y otros horrores.
+        - (Condition: Antes de la fiebre de cabina:)
+          - **Player:** Tengo fiebre y la única receta son más misiones piratas.
+          - (continue)
+        - (Condition: Después de la fiebre de cabina:)
+          - **Player:** Piedra negra. Horrores indescriptibles. Isla Pirate. Entiendo.
+          - (continue)
+      - (Condition: Después de haber recibido el misterioso fragmento de piedra negra:)
+        - **Player:** Extraje un misterioso fragmento de piedra negra de una losa de piedra en Mos Le'Harmless.
+        - (Condition: Habiendo perdido el misterioso fragmento de piedra negra:)
+          - **Player:** Pero lo perdí.
+          - ((A continuación, las imágenes solo se muestran con los cuadros de diálogo de pantalla completa desactivados.))
+          - (Condition: Sin al menos un espacio backpack libre:)
+            - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+            - (continue)
+          - (Condition: Con al menos un espacio backpack libre:)
+            - (receives=a mysterious black stone fragment)
+            - [Ramarno le devuelve su artículo perdido.]
+            - (continue)
+        - (continue)
+      - (Condition: Antes de haber recibido una piedra lunar con alma:)
+        - **Ramarno:** Debes obtener una piedra lunar imbuida del poder del inframundo. No sé nada de esa práctica, pero de alguna manera debes armonizar tu pico con la piedra lunar.
+        - (Condition: Antes de haber completado el logro Piedra Lunar Mística:)
+          - **Player:** Si tan solo conociera a alguien que pudiera enseñarme formalmente cómo fabricar joyas con piedra lunar...
+          - (continue)
+        - (Condition: Después de haber completado el logro Piedra Lunar Mística:)
+          - **Player:** Conozco a alguien que sabe trabajar con piedra lunar. El former master crafter del city of Um me enseñó a fabricar joyas de piedra lunar.
+          - (continue)
+      - (Condition: Después de haber recibido una piedra lunar con alma pero antes de haber recibido una piedra lunar espiritual (roca):)
+        - **Player:** Le di vida a una piedra lunar realizando un ritual de nigromancia.
+        - (Condition: Habiendo perdido la piedra lunar con alma:)
+          - **Player:** Pero lo perdí.
+          - ((A continuación, las imágenes solo se muestran con los cuadros de diálogo de pantalla completa desactivados.))
+          - (Condition: Sin al menos un espacio backpack libre:)
+            - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+            - (continue)
+          - (Condition: Con al menos un espacio backpack libre:)
+            - (receives=an ensouled moonstone)
+            - [Ramarno le devuelve su artículo perdido.]
+            - (continue)
+        - **Player:** Ahora necesito alimentar la piedra lunar extrayéndola con espíritus de piedra.
+        - (continue)
+      - (Condition: Después de haber recibido una piedra lunar (roca) espiritual pero antes de haber recibido una piedra lunar (roca) sintonizada:)
+        - **Player:** Miné hasta que el hambre de espíritus de piedra de la piedra lunar con alma fue saciada.
+        - (Condition: Habiendo perdido el espíritu piedra lunar (roca):)
+          - **Player:** Pero lo perdí.
+          - ((A continuación, las imágenes solo se muestran con los cuadros de diálogo de pantalla completa desactivados.))
+          - (Condition: Sin al menos un espacio backpack libre:)
+            - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+            - (continue)
+          - (Condition: Con al menos un espacio backpack libre:)
+            - (receives=a spirit moonstone (rock))
+            - [Ramarno le devuelve su artículo perdido.]
+            - (continue)
+        - **Player:** Ahora necesito sintonizar la piedra lunar con la frecuencia espiritual de mi pico de tierra y mi canción extrayendo rocas duras.
+        - (continue)
+      - (Condition: Después de haber recibido una piedra lunar (roca) sintonizada:)
+        - **Player:** Sintonicé una piedra lunar con alma con la frecuencia espiritual de mi pico.
+        - (Condition: Habiendo perdido la piedra lunar sintonizada (roca):)
+          - **Player:** Pero lo perdí.
+          - ((A continuación, las imágenes solo se muestran con los cuadros de diálogo de pantalla completa desactivados.))
+          - (Condition: Sin al menos un espacio backpack libre:)
+            - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+            - (continue)
+          - (Condition: Con al menos un espacio backpack libre:)
+            - (receives=an attuned moonstone (rock))
+            - [Ramarno le devuelve su artículo perdido.]
+            - (continue)
+        - (continue)
+      - (Condition: Antes de haber recibido el fragmento metálico del meteorito:)
+        - **Ramarno:** Finalmente, deberás obtener un fragmento de metal del núcleo de un meteorito.
+        - **Player:** Hmm, tal vez podría encontrar eso en una estrella fugaz.
+      - (Condition: Después de haber recibido el fragmento metálico del meteorito:)
+        - **Player:** Extraje un fragmento de meteorito metálico de una estrella fugaz.
+        - (Condition: Habiendo perdido el fragmento metálico del meteorito:)
+          - **Player:** Pero lo perdí.
+          - ((A continuación, las imágenes solo se muestran con los cuadros de diálogo de pantalla completa desactivados.))
+          - (Condition: Sin al menos un espacio backpack libre:)
+            - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+          - (Condition: Con al menos un espacio backpack libre:)
+            - (receives=a metallic meteorite fragment)
+            - [Ramarno le devuelve su artículo perdido.]
+            - (continue)
+        - (continue)
+    - (Condition: Con los tres elementos requeridos en backpack:)
+      - [Ramarno frota sus manos sucias sobre los artículos que le piden que obtenga, hasta que queda satisfecho.]
+      - (Condition: Si el player aún no ha pagado Ramarno durante el proceso de actualización de un hacha de floración y plaga:)
+        - **Ramarno:** Bien hecho.<br>Ahora, necesito dos elementos más...
+        - **Ramarno:** Bueno, un millón de artículos, para ser precisos.
+        - **Player:** Déjame adivinar. ¿<br>A pastel de frutos rojos y un millón de coins?
+        - **Ramarno:** Se debe mantener la sagrada tradición de mi pueblo.
+        - **Ramarno:** Además, escucharte hacer todos esos recados me ha dado hambre.
+        - (Condition: Sin un millón de coins ni una tarta de frutos rojos:)
+          - [Ramarno se lame los labios, esperando con avidez que le llenes los bolsillos y el estómago.]
+        - (Condition: Con un millón de coins y una tarta de frutos rojos:)
+          - [De mala gana, le das a Ramarno un millón de coins y un pastel de frutos rojos.]
+          - (removes=one million coins and a redberry pie)
+          - [Ramarno devora el pastel de frutos rojos y se embolsa grasientamente su tarifa.]
+          - (ventana emergente)
+            - (Ventana emergente: Ramarno devora el pastel de frutos rojos y se embolsa grasientamente su tarifa).
+          - (continue)
+      - (Condition: Si el player pagó Ramarno durante el proceso de actualización de un hacha de floración y plaga:)
+        - **Player:** Déjame adivinar. ¿Quieres otro millón de coins y una tarta de frutos rojos?
+        - **Ramarno:** ¿Qué? No, ya me pagaste una vez. Tienes todos los artículos que necesitas.
+        - (continue)
+      - ((A continuación, las imágenes solo se muestran con los cuadros de diálogo de pantalla completa desactivados.))
+        - (Condition: Habiendo perdido el misterioso fragmento de piedra negra:)
+          - (Condition: Sin al menos un espacio backpack libre:)
+            - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+            - (continue)
+          - (Condition: Con al menos un espacio backpack libre:)
+            - (receives=a mysterious black stone fragment)
+            - [Ramarno le devuelve su artículo perdido.]
+            - (continue)
+        - (Condition: Habiendo perdido la piedra lunar sintonizada (roca):)
+          - (Condition: Sin al menos un espacio backpack libre:)
+            - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+            - (continue)
+          - (Condition: Con al menos un espacio backpack libre:)
+            - (receives=an attuned moonstone (rock))
+            - [Ramarno le devuelve su artículo perdido.]
+            - (continue)
+        - (Condition: Habiendo perdido el fragmento metálico del meteorito:)
+          - (Condition: Sin al menos un espacio backpack libre:)
+            - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+            - (continue)
+          - (Condition: Con al menos un espacio backpack libre:)
+            - (receives=a metallic meteorite fragment)
+            - [Ramarno le devuelve su artículo perdido.]
+            - (continue)
+      - **Ramarno:** Ahora puedes usar la forja sagrada para mejorar tu pico.
+    - (Condition: Después de haber sido solicitado el pago pero antes de haber recibido permiso para utilizar la fragua:)
+      - (above|payment)
+    - (Condition: Después de haber recibido permiso para utilizar la fragua:)
+      - (Condition: Antes de haber creado un pico de vida o muerte:)
+        - (Condition: Habiendo perdido el misterioso fragmento de piedra negra:)
+          - (Condition: Sin al menos un espacio backpack libre:)
+            - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+            - (continue)
+          - (Condition: Con al menos un espacio backpack libre:)
+            - (receives=a mysterious black stone fragment)
+            - [Ramarno te brinda uno de los ingredientes que necesitas para forjar un pico de vida o muerte.]
+            - (continue)
+        - (Condition: Habiendo perdido la piedra lunar sintonizada (roca):)
+          - (Condition: Sin al menos un espacio backpack libre:)
+            - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+            - (continue)
+          - (Condition: Con al menos un espacio backpack libre:)
+            - (receives=an attuned moonstone (rock))
+            - [Ramarno te brinda uno de los ingredientes que necesitas para forjar un pico de vida o muerte.]
+            - (continue)
+        - (Condition: Habiendo perdido el fragmento metálico del meteorito:)
+          - (Condition: Sin al menos un espacio backpack libre:)
+            - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+            - (continue)
+          - (Condition: Con al menos un espacio backpack libre:)
+            - (receives=a metallic meteorite fragment)
+            - [Ramarno te brinda uno de los ingredientes que necesitas para forjar un pico de vida o muerte.]
+            - (continue)
+        - **Ramarno:** Ahora puedes usar la forja sagrada para mejorar tu pico.
+      - (Condition: Después de haber creado un pico de vida o muerte:)
+        - **Ramarno:** He oído que tienes otro pico de tierra y canción. Continúe y use mi forja sagrada para mejorarla. Sin cargo.
+        - (Condition: Sin fragmento de piedra negra:)
+          - (Condition: Sin al menos un espacio backpack libre:)
+            - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+            - (continue)
+          - (Condition: Con al menos un espacio backpack libre:)
+            - (receives=a mysterious black stone fragment)
+            - [Ramarno te brinda uno de los ingredientes que necesitas para forjar un pico de vida o muerte.]
+            - (continue)
+        - (Condition: Sin una piedra lunar (roca) sintonizada:)
+          - (Condition: Sin al menos un espacio backpack libre:)
+            - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+            - (continue)
+          - (Condition: Con al menos un espacio backpack libre:)
+            - (receives=an attuned moonstone (rock))
+            - [Ramarno te brinda uno de los ingredientes que necesitas para forjar un pico de vida o muerte.]
+            - (continue)
+        - (Condition: Sin fragmento de meteorito metálico:)
+          - (Condition: Sin al menos un espacio backpack libre:)
+            - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+          - (Condition: Con al menos un espacio backpack libre:)
+            - (receives=a metallic meteorite fragment)
+            - [Ramarno te brinda uno de los ingredientes que necesitas para forjar un pico de vida o muerte.]
+  - [Choice]: ¿Puedes ayudarme a mejorar mi hacha?
+    - (Condition: Antes de haber creado un hacha de flor y ruina:)
+      - (Condition: Antes de haberle mostrado a Ramarno un hacha de brasa y variante claro:)
+        - (Condition: Sin un hacha de brasa y variante claro empuñada o llevada en el backpack o cinturón de herramientas:)
+          - [Ramarno te cachea minuciosamente y revuelve tu backpack. Hace una pausa para inspeccionar cuidadosamente cualquier cosa que lleves o empuñes y que tenga incluso remotamente forma de hacha.]
+          - **Ramarno:** Necesitas un hacha de brasas y claro si quieres que te ayude a mejorarla.
+        - (Condition: Con un hacha de brasa y variante claro empuñada o llevada en el backpack o cinturón de herramientas:)
+          - [Muestras tu hacha de brasas y claro a Ramarno.]
+          - [El sabio enano ciego pasa los dedos por la cabeza y el mango. Él gruñe en agradecimiento.]
+          - **Ramarno:** No está mal.<br>Aquí hay una fabricación enana imcando.<br>Pero podemos mejorarlo.
+          - **Player:** ¿Puedes hacer que este hacha sea aún más poderosa?<br>¿Cómo?
+          - **Ramarno:** Un método antiguo, transmitido por mi abuelo, antes de que encontrara su fin.
+          - (continue|To make it 2)
+      - (Condition: Después de haberle mostrado a Ramarno un hacha de brasa y una variante de claro:)
+        - (Condition: Antes de haber recibido el 50% del 100% de la pierna de Luke:)
+          - **Ramarno:** Para hacerlo, debes obtener un trozo considerable de madera mágica.
+          - **Ramarno:** Eso va a ser complicado, ya que los árboles de brujería están extintos.
+          - (Condition: Antes de pedazos de odio:)
+            - **Player:** Tengo fiebre y la única receta son más misiones piratas.
+          - (Condition: Después de Piezas de odio:)
+            - **Player:** Dudo en un 66,6%...% que Luke estuviera dispuesto a separarse de más de su media naranja, o que alguna fracción de Luke sobreviviera a ese enjambre de cangrejos bombeados con 'ron'.
+            - **Player:** Pero usé la pierna de Luke para bloquear la tolva en el nivel superior de la destilería de Braindeath Island. Quizás algo de brujería sobrevivió a la explosión.
+            - (continue)
+        - (Condition: Después de haber recibido el 50% del 100% de la pierna de Luke:)
+          - **Player:** Encontré un misterioso fragmento de madera mágica en Braindeath Island.
+          - (Condition: Si el player lo destruyó:)
+            - **Player:** Pero lo perdí.
+            - ((A continuación, las imágenes solo se muestran con los cuadros de diálogo de pantalla completa desactivados.))
+            - (Condition: Sin al menos un espacio backpack libre:)
+              - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+              - (continue)
+            - (Condition: Con al menos un espacio backpack libre:)
+              - (receives=50% of 100% Luke's leg)
+              - [Ramarno le devuelve su artículo perdido.]
+              - (continue)
+        - (Condition: Antes de haber recibido una piedra lunar con alma:)
+          - **Ramarno:** Debes obtener una piedra lunar imbuida del poder del inframundo. No sé nada de esa práctica, pero de alguna manera debes armonizar tu herramienta con la piedra lunar.
+          - (Condition: Antes de que le enseñen a animar las piedras lunares:)
+            - (Condition: Antes de haber completado el logro Piedra Lunar Mística:)
+              - **Player:** Si tan solo conociera a alguien que pudiera enseñarme formalmente cómo fabricar joyas con piedra lunar...
+              - (continue)
+            - (Condition: Después de haber completado el logro Piedra Lunar Mística:)
+              - **Player:** Conozco a alguien que sabe trabajar con piedra lunar. El former master crafter del city of Um me enseñó a fabricar joyas de piedra lunar.
+              - (continue)
+          - (Condition: Después de que le enseñaran a animar las piedras lunares:)
+            - **Player:** El former master crafter en el city of Um me enseñó cómo animar una piedra lunar en un sitio ritual de nigromancia.
+            - (continue)
+        - (Condition: Después de haber recibido una piedra lunar con alma:)
+          - (Condition: Antes de alimentarlo cortando madera con alcoholes de madera:)
+            - **Player:** Le di vida a una piedra lunar realizando un ritual de nigromancia.
+            - (Condition: Si el player lo destruyó:)
+              - **Player:** Pero lo perdí.
+              - ((A continuación, las imágenes solo se muestran con los cuadros de diálogo de pantalla completa desactivados.))
+              - (Condition: Sin al menos un espacio backpack libre:)
+                - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+                - (continue)
+              - (Condition: Con al menos un espacio backpack libre:)
+                - (receives=ensouled moonstone)
+                - [Ramarno le devuelve su artículo perdido.]
+                - (continue)
+            - **Player:** Ahora necesito alimentar la piedra lunar cortando madera con alcoholes de madera.
+            - (continue)
+          - (Condition: Después de alimentarlo cortando madera con alcoholes de madera:)
+            - (Condition: Antes de absorber 10 anima eterna magic tree:)
+              - **Player:** Grabé en madera hasta que se saciara el hambre de espíritus de madera de la piedra lunar con alma.
+              - (Condition: Si el player lo destruyó:)
+                - **Player:** Pero lo perdí.
+                - ((A continuación, las imágenes solo se muestran con los cuadros de diálogo de pantalla completa desactivados.))
+                - (Condition: Sin al menos un espacio backpack libre:)
+                  - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+                  - (continue)
+                - (Condition: Con al menos un espacio backpack libre:)
+                  - (receives=a spirit moonstone (wood))
+                  - [Ramarno le devuelve su artículo perdido.]
+                  - (continue)
+              - **Player:** Ahora necesito sintonizar la piedra lunar con la frecuencia espiritual de mi hacha de brasas y claro cortando árboles resistentes.
+              - (continue)
+            - (Condition: Después de absorber 10 animas eternas magic tree:)
+              - **Player:** Sintonicé una piedra lunar con alma con la frecuencia espiritual de mi hacha.
+              - (Condition: Si el player lo destruyó:)
+                - **Player:** Pero lo perdí.
+                - ((A continuación, las imágenes solo se muestran con los cuadros de diálogo de pantalla completa desactivados.))
+                - (Condition: Sin al menos un espacio backpack libre:)
+                  - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+                  - (continue)
+                - (Condition: Con al menos un espacio backpack libre:)
+                  - (receives=an attuned moonstone (wood))
+                  - [Ramarno le devuelve su artículo perdido.]
+                  - (continue)
+        - (Condition: Antes de haber recibido una vid extensible:)
+          - **Ramarno:** Finalmente, debes obtener una enredadera extensible.
+          - **Player:** Hmm, tal vez podría encontrar eso en un ídolo demasiado grande. Están cubiertos de enredaderas.
+        - (Condition: Después de haber recibido una enredadera tensada:)
+          - **Player:** Grabé en madera una enredadera extensible de un ídolo demasiado grande.
+          - (Condition: Si el player lo destruyó:)
+            - **Player:** Pero lo perdí.
+            - ((A continuación, las imágenes solo se muestran con los cuadros de diálogo de pantalla completa desactivados.))
+            - (Condition: Sin al menos un espacio backpack libre:)
+              - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+            - (Condition: Con al menos un espacio backpack libre:)
+              - (receives=a tensile vine)
+              - [Ramarno le devuelve su artículo perdido.]
+              - (continue)
+      - (Condition: Con los tres elementos requeridos en backpack:)
+        - [Ramarno frota sus manos sucias sobre los artículos que le piden que obtenga, hasta que queda satisfecho.]
+        - **Player:** Déjame adivinar. ¿Quieres otro millón de coins y una tarta de frutos rojos?
+        - (Condition: Con acceso a La Fragua Sagrada:)
+          - **Ramarno:** ¿Qué? No, ya me pagaste una vez. Tienes todos los artículos que necesitas.
+          - **Ramarno:** Ahora puedes usar la forja sagrada para mejorar tu hacha.
+    - (Condition: Después de haber creado un hacha de floración y plaga:)
+      - **Ramarno:** He oído que tienes otro hacha de brasas y claro. Continúe y use mi forja sagrada para mejorarla. Sin cargo.
+      - (Condition: Sin el 50% del 100% de la pierna de Luke.)
+        - (Condition: Sin al menos un espacio backpack libre:)
+          - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+          - (continue)
+        - (Condition: Con al menos un espacio backpack libre:)
+          - (receives=50% of 100% Luke's leg)
+          - [Ramarno te brinda uno de los ingredientes que necesitas para mejorar tu hacha.]
+          - (continue)
+      - (Condition: Sin piedra lunar armonizada (madera):)
+        - (Condition: Sin al menos un espacio backpack libre:)
+          - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+          - (continue)
+        - (Condition: Con al menos un espacio backpack libre:)
+          - (receives=an attuned moonstone (wood))
+          - [Ramarno te brinda uno de los ingredientes que necesitas para mejorar tu hacha.]
+          - (continue)
+      - (Condition: Sin enredadera extensible:)
+        - (Condition: Sin al menos un espacio backpack libre:)
+          - [Ramarno no puede devolver su artículo porque su backpack está lleno.]
+        - (Condition: Con al menos un espacio backpack libre:)
+          - (receives=a tensile vine)
+          - [Ramarno te brinda uno de los ingredientes que necesitas para mejorar tu hacha.]
+  - [Choice]: (Habla sobre el Defensor de Varrock.)
+    - **Ramarno:** ¿Cómo te fue en Varrock?
+    - **Player:** Lo logramos. Descubrimos cómo derrotar al ejército de Zemouregal.
+    - **Ramarno:** Bien hecho. Pensé que tenías la voz de un héroe.
+    - (previous)
+  - [Choice]: Adiós.
+    - (end)
+
+### Giving Ramarno a redberry pie
+
+
+#### Antes de completar el logro Enseñanza de Blinded by Ramarno
+
+- **Ramarno:** ¿Qué es ese olor divino? ¿Podría ser-?
+- **Player:** ¿Pastel de frutos rojos?
+- **Ramarno:** ¡Realmente lo es! Un pastel de frutos rojos legendario. ¿Supongo que no podría tener algunos?
+- [Menu]: Selecciona una opción
+  - [Choice]: Bien, aquí tienes.
+    - **Player:** Bien, aquí tienes.
+    - [Ramarno se come todo el pastel.]
+    - **Ramarno:** La reputación del pastel de frutos rojos es bien merecida; Eso fue absolutamente asombroso. Déjame recompensarte por permitirme experimentar una sensación de sabor tan exquisita.
+    - (removes=redberry pie)
+    - Ramarno le brinda conocimientos sobre algunas técnicas de Smithing. Obtienes 1000 de experiencia en herrería.
+    - {{RSFontAchievement|Blinded by Ramarno's Teaching|Claim Smithing XP from Ramarno after 'Defender of Varrock'.}}
+  - [Choice]: No, es mi pastel.
+    - **Player:** No, es mi pastel.
+    - **Ramarno:** Una lástima, pero comprensible. Tampoco regalaría pastel de frutos rojos si tuviera alguno.
+
+#### Después de completar el logro Enseñanza de Blinded by Ramarno
+
+- **Player:** Ya le he dado bastante pastel a ese enano.
+
+### Attempting to smithing pickaxe of life and death just after collecting all materials, and before talking to Ramarno
+
+- **Ramarno:** Espera. No he terminado contigo.

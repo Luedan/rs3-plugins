@@ -1,0 +1,233 @@
+# Selene
+
+- **Original Wiki Page**: [Transcript:Selene](https://runescape.wiki/w/Transcript%3ASelene)
+- **Letter**: `S`
+
+---
+
+## Dialogue Transcript
+
+
+### Talk to
+
+- (Condition: Only on the first time:)
+  - **Player:** Hello.
+  - **Selene:** Greetings, young one. It is not often we see the living in these parts.
+  - **Player:** Who are you?
+  - **Selene:** I am Selene. I was a priestess in life, and I suppose I still am even in death.
+  - 2 souls fly over to power the vessel.
+  - (Condition: Repeated in a pop-up:)
+    - 2 souls fly over to power the vessel.
+    - (continue)
+- [Menu]: What would you like to say?
+  - [Choice]: Which God do you worship?
+    - **Player:** What god are you a priestess of?
+    - **Selene:** Not god, sweet child. Gods.
+    - **Player:** You worship multiple gods? That's uncommon.
+    - **Selene:** Yes, so I've been told.
+    - **Selene:** You see, where I am from, we see value in the teachings of all the gods.
+    - **Player:** But how can you worship both gods that teach peace and gods that promote war? Chaos and order? Aren't they conflicting?
+    - **Selene:** Ah, you are familiar with the gods.
+    - **Selene:** You see, my child, these aren't as conflicting as you believe.
+    - **Selene:** Perhaps I could teach you one day.
+    - [Menu]: What would you like to say?
+      - [Choice]: I'm good.
+        - **Player:** Uhhh... I'm good, thanks.
+        - (initial)
+      - [Choice]: Okay, thanks.
+        - **Player:** Okay, thanks.
+        - (initial)
+  - [Choice]: What is this place?
+    - **Player:** What is this place?
+    - **Selene:** I suppose you're wondering about the shrines.
+    - **Player:** Well, yes, a little.
+    - **Selene:** There are those that struggle greatly, my child. Both in life and in death.
+    - **Selene:** I create the shrines in honour of those, in hope that the universe might ease their burden.
+    - **Selene:** There is an irony, I suppose.
+    - **Selene:** In life, it was the dead I pitied. But only in death did I realise that, for some, life is much harder.
+    - **Player:** That's sad.
+    - **Selene:** Indeed it is. Perhaps I will light a shrine for you too.
+    - (previous)
+  - [Choice]: cond=After asking about gods:|Can you teach me any prayers?
+    - **Player:** Would you happen to know any prayers that can aid me in necromancy?
+    - (Condition: Only on the first time:)
+      - **Selene:** Lord Saradomin not hearing your call?
+      - **Selene:** I would be happy to sit and hear these words, young one.
+      - {{Qact|The screen fades out.}}
+      - {{RSFontAchievement|A Prayer for the Dying}}
+      - You study Selene as she teaches you two prayers to help with necromancy.
+      - (Condition: Repeated in a pop-up:)
+        - You study Selene as she teaches you two prayers to help with necromancy.
+        - (continue)
+      - {{Qact|The screen fades back in.}}
+      - [You have unlocked the Hand of Doom and Accelerated Decay prayers.]
+      - **Selene:** Anything else?
+      - (continue)
+    - [Menu]: What would you like to learn?
+      - [Choice]: cond=If you haven't learned Sanctity:|Sanctity (requires 60 Necromancy).
+        - **Player:** Do you know any other prayers you could teach me?
+        - **Selene:** Tell me, do you know the Pious prayers of Saradomin?
+        - (Condition: If Pious Prayers isn't unlocked:)
+          - **Player:** I'm afraid not.
+          - **Selene:** Return to me when you have deepened your knowledge of Saradomin's teachings.
+          - [You require level 60 Necromancy, and need to have completed the King's Ransom quest and Knight's Waves training grounds to unlock the Sanctity prayer.]
+          - (initial)
+        - (Condition: If Pious Prayers is unlocked:)
+          - **Player:** I do.
+          - (Condition: If have below level 60 Necromancy:)
+            - **Selene:** Let me get a look at you then.
+            - **Selene:** Hmm... I do not think you are sufficiently strong to learn this prayer. Return to me when you are.
+            - [You require level 60 Necromancy to unlock the Sanctity prayer.]
+            - (initial)
+          - (Condition: If you have at least level 60 Necromancy:)
+            - **Selene:** Then allow me to teach you further.
+            - {{Qact|The screen fades out.}}
+            - You listen intently as Selene teaches you an old Saradominst prayer.
+            - (Condition: Repeated in a pop-up:)
+              - You listen intently as Selene teaches you an old Saradominst prayer.
+            - {{Qact|The screen fades back in.}}
+            - [You have unlocked the Sanctity prayer.]
+            - (initial)
+      - [Choice]: cond=If you haven't learned Sap Necromancy Attack:|Sap Necromancy.
+        - **Player:** Do you know any other prayers you could teach me?
+        - **Selene:** Hmm... Tell me, child, what do you know of Zaros's teachings?
+        - (Condition: If Ancient Curses aren't unlocked:)
+          - **Player:** Not a great deal, actually.
+          - **Selene:** Expand your horizons, then return to me. You have much to learn.
+          - [You need to have completed the The Temple at Senntisten quest to unlock the Sap Necromancy Attack and Sap Necromancy Strength curses.]
+          - (initial)
+        - (Condition: If Ancient Curses are unlocked:)
+          - **Player:** I'd say I know my fair share. I actually already know a series of ancient curses through an ancient hymnal I once read.
+          - **Selene:** Very good, then allow me to teach you more.
+          - {{Qact|The screen fades out.}}
+          - You listen intently as Selene recites a pair of ancient curses.
+          - (Condition: Repeated in a pop-up:)
+            - You listen intently as Selene recites a pair of ancient curses.
+            - (continue)
+          - {{Qact|The screen fades back in.}}
+          - [You have unlocked the Sap Necromancy Attack and Sap Necromancy Strength curses.]
+          - (initial)
+      - [Choice]: cond=If you have learned the Sap Necromancy Attack but not Leech Necromancy:|Leech Necromancy (requires 70 Necromancy).
+        - **Player:** Do you know any other curses you could teach me?
+        - **Selene:** I could teach you more ancient curses?
+        - (Condition: If you have below level 70 Necromancy:)
+          - **Selene:** Alas, you need to grow stronger to master this curse.
+          - [You require level 70 Necromancy to unlock the Leech Necromancy Attack and Leech Necromancy Strength curses.]
+          - (initial)
+        - (Condition: If you have at least level 70 Necromancy:)
+          - **Player:** I am ready.
+          - **Selene:** Very well, then allow me to teach you.
+          - {{Qact|The screen fades out.}}
+          - You listen as Selene teaches you a very old Zarosian proverb. You're not sure what it's got to do with prayers.
+          - (Condition: Repeated in a pop-up:)
+            - You listen as Selene teaches you a very old Zarosian proverb. You're not sure what it's got to do with prayers.
+          - {{Qact|The screen fades back in.}}
+          - [You have unlocked the Leech Necromancy Attack and Leech Necromancy Strength curses.]
+          - (initial)
+      - [Choice]: cond=If you have learned Leech Necromancy:|Sorrow (requires 90 Necromancy).
+        - **Player:** Do you know any other curses you could teach me?
+        - **Selene:** There is one last powerful curse I could teach you.
+        - (Condition: If you have below level 90 Necromancy:)
+          - **Selene:** Alas, you need to grow stonger to master this curse.
+          - [You require level 90 Necromancy to unlock the Sorrow curse.]
+          - (initial)
+        - (Condition: If you have at least level 90 Necromancy:)
+          - **Player:** I am ready.
+          - **Selene:** Very well, then allow me to teach you.
+          - {{Qact|The screen fades out.}}
+          - Selene teaches you to draw an ancient power from yourself, you're not sure if you nodded off.
+          - (Condition: Repeated in a pop-up:)
+            - Selene teaches you to draw an ancient power from yourself, you're not sure if you nodded off.
+          - {{Qact|The screen fades back in.}}
+          - [You have unlocked the Sorrow curse.]
+      - [Choice]: cond=If you have learned Sorrow:|Ruination (requires 95 Necromancy).
+        - (Condition: Only on first time:)
+          - **Player:** Do you know any other curses you could teach me?
+          - **Selene:** I believe you've learnt all the curses I have to teach.
+          - **Selene:** Although...
+          - **Selene:** When I was alive, I heard musings.
+          - **Selene:** If there was any weight to them, it would suggest there are a few copies of a codex detailing curses used by the ancient Praesul order.
+          - **Selene:** If you happen upon one in your travels bring it to me.
+          - (Condition: If a Praesul codex is not in your backpack:)
+            - **Player:** I'll keep my eyes open for any old books.
+            - [You need to bring a Praesul codex to Selene to unlock the Ruination curse.]
+            - (initial)
+          - (Condition: If a Praesul codex is in your backpack:)
+            - **Player:** Oh you mean a Praesul codex?
+            - **Player:** It just so happens I have one here.
+            - **Selene:** Hmm... What an odd .
+            - **Player:** Yeah... Odd...
+            - [Menu]: Unlock the ruination curse?
+              - [Choice]: Yes.
+                - **Player:** I am ready.
+                - **Selene:** Very well, then allow me to teach you.
+                - (removes=the praesul codex)
+                - {{Qact|The screen fades out.}}
+                - Selene reads a scripture from the codex, then tucks it away behind a shrine. You feel like you probably could've read it yourself.
+                - (Condition: Repeated in a pop-up:)
+                  - Selene reads a scripture from the codex, then tucks it away behind a shrine. You feel like you probably could've read it yourself.
+                - {{Qact|The screen fades back in.}}
+                - [You have unlocked the Ruination curse.]
+                - (initial)
+              - [Choice]: No.
+                - **Player:** On second thoughts, I'd rather keep hold of it a little longer.
+              - **Selene:** Very well. Return to me if you change your mind.
+              - (initial)
+        - (Condition: Afterwards:)
+          - **Selene:** Any luck finding a Praesul codex?
+          - (Condition: If a Praesul codex isn't in your backpack:)
+            - **Player:** Afraid not.
+            - **Selene:** I wish you luck finding one, my child.
+            - **Player:** Thanks.
+            - (initial)
+          - (Condition: If a Praesul codex is in your backpack but you have below level 95 Necromancy:)
+            - **Player:** I have one here!
+            - **Selene:** Excellent, hand it to me, and I will teach you.
+            - **Selene:** Alas, you need to grow stronger to master this curse.
+            - [You require level 95 Necromancy to unlock the Ruination curse.]
+          - (Condition: If a Praesul codex is in your backpack and you have at least level 95 Necromancy:)
+            - **Player:** I have one here!
+            - **Selene:** Excellent, hand it to me, and I will teach you.
+            - [Menu]: Unlock the ruination curse?
+              - [Choice]: Yes.
+                - (above)
+              - [Choice]: No.
+                - **Player:** On second thoughts, I'd rather keep hold of it a little longer.
+                - **Selene:** Very well. Return to me if you change your mind.
+                - (initial)
+      - [Choice]: cond=If you have learned Ruination:|Other.
+        - **Selene:** Hmm, perhaps we could take you through the prayers of another god?
+        - (Condition: If it's Monday:)
+          - **Selene:** Tell me, do you have a fundamental knowledge of the Guthixian prayers?
+        - (Condition: If it's Tuesday:)
+          - **Selene:** Tell me, do you have a fundamental knowledge of the Zamorakian prayers?
+        - (Condition: If it's Wednesday:)
+          - **Selene:** Tell me, do you have a fundamental knowledge of the Kharazian prayers?
+        - (Condition: If it's Thursday:)
+          - **Selene:** Tell me, do you have a fundamental knowledge of the  prayers?
+        - (Condition: If it's Friday:)
+          - **Selene:** Tell me, do you have a fundamental knowledge of the Godless prayers?
+        - (Condition: If it's Saturday:)
+          - **Selene:** Tell me, do you have a fundamental knowledge of the Bandosian prayers?
+        - (Condition: If it's Sunday:)
+          - **Selene:** Tell me, do you have a fundamental knowledge of the Menaphite prayers?
+        - **Player:** I...uh, no. I don't
+        - **Selene:** Return to me when you do. Perhaps we can teach each other.
+      - [Choice]: Nevermind.
+        - **Player:** Thanks for the chat, bye!
+        - **Selene:** Farewell, young one.
+  - [Choice]: Tell me about yourself.
+    - **Player:** Tell me about yourself.
+    - **Selene:** I would not wish to bore you with the details, young one.
+    - **Player:** I'm interested, honestly.
+    - **Selene:** In life, I was Priestess of the Grey, a great honour among my people.
+    - **Selene:** I offered spiritual guidance through teachings of the gods, so that my people might better themselves.
+    - **Selene:** Through Zamorak: I taught ambition, strength and change.
+    - **Selene:** Through Saradomin: loyalty, wisdom, self-control.
+    - **Selene:** Through Armadyl: altruism, equity, forgiveness...
+    - **Selene:** I...I lost myself for a moment there.
+    - **Player:** You seem to be reliving it.
+    - **Selene:** Ironic. Now, run along, there will be plenty of time for gods later.
+  - [Choice]: Bye.
+    - **Player:** Thanks for the chat, bye!
+    - **Selene:** Farewell, young one.

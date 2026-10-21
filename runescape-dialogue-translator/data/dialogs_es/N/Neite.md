@@ -1,0 +1,233 @@
+# Neite
+
+- **Original Wiki Page**: [Transcript:Neite](https://runescape.wiki/w/Transcript%3ANeite)
+- **Letter**: `N`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+<!-- Anclas
+- parientes
+-->
+- ¿Qué hay de nuevo?
+  - **Player:** ¿Qué hay de nuevo?
+  - **Neite:** Cuando llegas a mi edad, ya muy pocas cosas parecen nuevas.
+  - **Player:** ¿Qué edad tienes?
+  - **Neite:** ¡Nunca debes preguntarle a una dama su edad!
+  - **Player:** Pero no lo eres... quiero decir...
+- ¿Dónde está Bob?
+  - **Player:** Hola, Neite, ¿dónde está Bob?
+  - **Neite:** Deambulando y cazando novatos en el Wilderness. Ya sabes cómo es.
+  - **Player:** Entonces, ¿por qué no estás con él?
+  - **Neite:** Me gusta deambular tan cerca como cualquier gato, pero, de vez en cuando, me gusta volver a casa.
+  - **Player:** Entonces, ¿tú y Bob no habéis tenido una discusión?
+  - **Neite:** ¿Quién te dijo eso?
+  - **Player:** Umm...nadie.
+- ¿Qué estás haciendo?{{anchor|questions}}
+  - **Player:** ¿Qué estás haciendo entonces?
+  - **Neite:** Estoy cazando ranas y langostas.
+  - **Player:** ¿Por qué? ¿Saben bien?
+  - **Neite:** ¡Wayuckk! No, nunca me rebajaría a comer semejante porquería.
+  - **Player:** Entonces veo que eres un gato de buen gusto.
+  - **Neite:** Soy un gato de alta crianza. Mi árbol genealógico se remonta a días anteriores a cualquier sultán o rey de Gielinor.
+  - ¿De quién eres entonces el gato?
+    - **Player:** ¿De quién eres entonces el gato?
+    - **Neite:** Soy mi propio gato. No soy propiedad de nadie, aunque permito que el sumo sacerdote de Icthlarin me alimente.
+    - **Player:** Entonces, ¿cómo es él?
+    - (Condition: Antes:)
+    - **Neite:** El viejo sumo sacerdote era un old man vengativo y malhumorado. Si alguna vez no se salía con la suya, haría sufrir a todos hasta que alguien se desmoronara y cediera a su voluntad. Debo decir que respetaba eso en él.
+    - **Neite:** El nuevo sumo sacerdote es un poco una toalla mojada. Es muy inseguro de sí mismo y tiene poco respeto por parte de la gente del pueblo.
+    - **Player:** Eso es extraño. Nadie con quien hablé tenía nada malo que decir sobre él.
+    - **Neite:** Eso probablemente se debe a que la mayoría de la gente del pueblo huyó tan pronto como estalló la plaga. No tenían confianza en él para arreglar las cosas. Aunque debo decir que me trata mucho mejor que el viejo sumo sacerdote.
+    - (Condition: Después:)
+    - **Neite:** El nuevo sumo sacerdote solía ser una toalla un poco mojada. Era muy inseguro de sí mismo y tenía poco respeto por parte de la gente del pueblo.
+    - **Player:** Estás hablando en tiempo pasado.
+    - **Neite:** Sí, bueno, desde que la gente del pueblo regresó, tienen mucha más confianza en él y creo que puede haber ganado algo más de confianza en sí mismo.
+    - Ha sido agradable hablar, pero tengo que irme.
+      - **Player:** Ha sido un placer hablar contigo, pero realmente tengo que irme ahora.
+      - **Neite:** Adiós.
+    - (end)
+    - Me gustaría preguntarte algo más.
+    - (above|questions)
+  - ¿Qué haces con las ranas y las langostas?
+  - **Player:** ¿Qué haces con las ranas y las langostas?
+  - **Neite:** ¿Qué quieres decir con "hacer"?
+  - **Player:** Bueno, ya que los estás cazando, pensé que también te los comerías.
+  - **Neite:** No, no, solo los cazo, juego con ellos un rato y luego los mato.
+  - **Player:** ¿No es eso un poco malvado?
+  - **Neite:** ¿Qué tiene de malo un poco de destrucción?
+  - **Player:** ¿Qué no lo es? Destruyes y quitas la vida. ¿Qué hay de bueno en eso?
+  - **Neite:** Hsss. La vida también puede surgir de la destrucción. Tomemos un volcán; Destruirá toda la vida que lo rodea, pero también fertilizará y enriquecerá la tierra circundante. De esa tierra brotará más vida de la que había en un principio.
+  - Tus ideas me disgustan...
+    - **Player:** Tus ideas me disgustan. No quiero hablar más contigo.
+    - **Neite:** ¡¡Silbido!! Haz lo que quieras, humano.
+    - (end)
+  - Puedo ver de dónde vienes...
+    - **Player:** Puedo ver de dónde vienes, pero ¿cómo se compara matar ranas con un volcán?
+    - **Player:** Un volcán no tiene opción de explotar o no, pero creo que tú sí.
+    - **Neite:** No estoy de acuerdo. Está en mi naturaleza aprovecharme de formas de vida más pequeñas y patéticas de la misma manera que está en la naturaleza de los volcanes explotar.
+    - Debo decir que estoy totalmente en desacuerdo con sus puntos de vista.
+      - **Player:** Debo decir que estoy totalmente en desacuerdo con tus puntos de vista.
+      - **Neite:** ¿Lo que eliges creer es la ilusión de la elección?
+      - **Player:** No es una ilusión.
+      - **Neite:** Supongo que nunca has oído hablar de la frase "esa es la naturaleza de the beast". O tal vez estabas demasiado ocupado fingiendo decidirte a respirar.
+      - **Player:** Oh, aléjate de mí.
+      - (end)
+    - Sabes, me recuerdas a alguien.
+      - **Player:** Sabes, me recuerdas a alguien.
+      - **Neite:** ¿Quién? Alguien glamoroso, apuesto, o tal vez majestuoso.
+      - **Player:** ¡Tampoco! Estaba pensando que me recordabas a El Devorador.
+      - **Neite:** ¡¡¡Silbido!!! ¿Qué? ¡¡¡Silbido!!!
+      - Ya tuve suficiente de tu compañía.
+        - **Player:** Ya tuve suficiente de tu compañía. Adiós.
+        - **Neite:** ¡Pah! ¡El Errante! ¡Keh! ¿Sabes a quién me recuerdas?
+        - **Player:** Adiós, gatito.
+        - (end)
+      - Es algo irónico, ¿no?
+        - **Player:** Es algo irónico, ¿no?
+        - **Neite:** ¿Qué es?
+        - **Player:** Bueno, el hecho de que estés en conflicto directo con una deidad que realmente parece coincidir bastante con tus creencias.
+        - **Player:** Sin mencionar que trabajas para o con un dios mitad perro.
+        - **Neite:** No te burles de mí. Lo hago para buscar venganza.
+        - **Player:** ¿Qué dijiste?
+        - **Neite:** Silbido, nada.
+        - **Player:** ¿Buscas vengarte del Errante?
+        - **Neite:** Es una larga historia.
+        - Quizás podamos hablar de ello en otro momento.
+          - **Player:** Quizás podamos hablar de ello en otro momento.
+          - **Neite:** No tengo ningún deseo real de discutirlo contigo.
+          - **Player:** Bien, tal vez no lo hablemos entonces.
+          - (end)
+        - tengo tiempo; ¿me lo dirás?
+          - **Player:** Tengo tiempo; ¿me lo dirás?
+          - **Neite:** Hmm... Quizás... ¿Por qué no? ¿Sabes cuál es la verdadera forma de The Wanderer?
+          - **Player:** Sí. Tiene piel oscura, cabello rojo y ojos rojos.
+          - **Neite:** No, esa no es su verdadera forma. Ella solo ha adoptado una forma similar a esta recientemente, aunque tiene muchas formas desde que nos levantamos contra ella.
+          - **Player:** ¿Quiénes somos?
+          - **Neite:** Sus acólitos y sus sacerdotisas.
+          - **Player:** ¿Entonces todas sus sacerdotisas y acólitos eran gatos?
+          - **Neite:** No; No siempre fui un gato.
+          - **Player:** ¿No lo estabas?
+          - **Neite:** No, yo solía ser humano. De hecho, yo era una de sus principales sacerdotisas... pero eso fue antes de que nos levantáramos.
+          - **Player:** ¿Por qué hiciste eso?
+          - **Neite:** La Devoradora estaba tan enamorada de la muerte y la destrucción que incluso comenzó a destruir a sus propios adoradores. Toleramos esto hasta que ella incluso comenzó a destruir sus propios templos y clero.
+          - **Player:** Entonces, ¿qué hiciste?
+          - **Neite:** La última de sus sacerdotisas se reunió y la maldijo. Desafortunadamente, ella también lanzó su propio hechizo, condenándonos a una eternidad caminando por Gielinor en su forma.
+          - **Player:** ¿Entonces ella es un gato?
+          - **Neite:** Ella es tanto un gato como Icthlarin es un perro.
+          - **Player:** ¿Qué maldición le lanzaste?
+          - **Neite:** La maldijimos para que su nombre fuera olvidado, que cualquier cuerpo corpóreo que adoptara pronto la expulsaría y nunca más reuniría adoradores dispuestos.
+          - **Player:** ¿Por qué no la destruiste directamente, en ese mismo momento?
+          - **Neite:** Podríamos haberlo hecho, pero en ese momento, nuestra sed de destrucción estaba bien saciada.
+          - **Player:** Tu maldición parece no haber funcionado tan bien como habías planeado. Todavía se la recuerda, todavía puede adoptar una forma y todavía puede reclutar seguidores.
+          - **Neite:** Hmm... No la recuerdan; sólo lo son sus malas acciones. En cuanto a adoptar una forma, creo que la próxima vez que te encuentres con ella, se habrá visto obligada a buscar un nuevo anfitrión.
+          - **Player:** Todavía puede reclutar seguidores.
+          - **Neite:** Bueno, la calidad de la ayuda que se ha visto obligada a recibir ha sido bastante pobre recientemente; fallaste en la simple tarea de recuperar un frasco para ella.
+          - **Player:** ¡Disculpe! Tuve que luchar contra hordas de momias, escarabajos, trampas diabólicas y más para conseguir ese frasco. Además de eso, ganó mi extraordinario nivel de fuerza de voluntad.
+          - **Neite:** Estoy seguro de que tu gato hizo la mayor parte del trabajo duro.
+          - **Player:** Entonces, ¿por qué el Errante todavía tiene miedo de los gatos?
+          - **Neite:** Bueno, porque los pocos que quedamos todavía poseemos cierto grado de los poderes que ella nos dio.
+          - **Player:** Entonces, ¿quedan muchos de ustedes?
+          - **Neite:** Me niego a responder eso; cuanto menos sepa la gente sobre esto; más seguro estoy.
+          - **Neite:** Recientemente he notado que The Devourer ha centrado más su atención en los gatos. Creo que podría creer que si todos sus seguidores originales mueren, la maldición desaparecerá.
+          - **Player:** ¿Seguramente todo lo que ella tiene que hacer es esperar hasta que todos mueran por causas naturales?
+          - **Neite:** No es lo mejor para Icthlarin dejarnos morir, por lo que nunca moriremos por causas naturales.
+          - **Player:** ¡Oh! Debe ser un poco pesado estar por ahí.
+          - **Neite:** El rencor me sostiene.
+          - **Player:** ¡Trago! Espero nunca ponerme en tu lado malo.
+            - Ha sido agradable hablar, pero tengo que irme.
+              - **Player:** Ha sido un placer hablar contigo, pero realmente tengo que irme ahora.
+              - **Neite:** Adiós.
+            - (end)
+            - Me gustaría preguntarte algo más.
+            - (above|questions)
+- ¿De quién eres entonces el gato?
+  - **Player:** ¿De quién eres entonces el gato?
+  - **Neite:** Soy mi propio gato. No soy propiedad de nadie, aunque permito que el sumo sacerdote de Icthlarin me alimente.
+  - **Player:** Entonces, ¿cómo es él?
+    - (Condition: Antes:)
+    - **Neite:** El viejo sumo sacerdote era un old man vengativo y malhumorado. Si alguna vez no se salía con la suya, haría sufrir a todos hasta que alguien se desmoronara y cediera a su voluntad. Debo decir que respetaba eso en él.
+    - **Neite:** El nuevo sumo sacerdote es un poco una toalla mojada. Es muy inseguro de sí mismo y tiene poco respeto por parte de la gente del pueblo.
+    - **Player:** Eso es extraño. Nadie con quien hablé tenía nada malo que decir sobre él.
+    - **Neite:** Eso probablemente se debe a que la mayoría de la gente del pueblo huyó tan pronto como estalló la plaga. No tenían confianza en él para arreglar las cosas. Aunque debo decir que me trata mucho mejor que el viejo sumo sacerdote.
+    - (Condition: Después:)
+    - **Neite:** El nuevo sumo sacerdote solía ser una toalla un poco mojada. Era muy inseguro de sí mismo y tenía poco respeto por parte de la gente del pueblo.
+    - **Player:** Estás hablando en tiempo pasado.
+    - **Neite:** Sí, bueno, desde que la gente del pueblo regresó, tienen mucha más confianza en él y creo que puede haber ganado algo más de confianza en sí mismo.
+    - Ha sido agradable hablar, pero tengo que irme.
+      - **Player:** Ha sido un placer hablar contigo, pero realmente tengo que irme ahora.
+      - **Neite:** Adiós.
+    - (end)
+    - Me gustaría preguntarte algo más.
+    - (above|questions)
+- ¿Cuál es tu nombre?
+  - **Player:** ¿Cómo te llamas?
+  - **Neite:** No debería hablar con extraños.
+  - **Player:** Bueno, mi nombre es Player y estoy encantado de conocerte. Entonces, ahora ya no soy un extraño, ¿cómo te llamas?
+  - **Neite:** Ronroneo... Encantado de conocerte, Player. Mi nombre es Neite.
+  - **Player:** ¿Alguna vez has oído hablar de un gato llamado Bob?
+  - **Neite:** Un gato negro grande, ¿ronroneo?
+  - **Player:** Sí, ese es el indicado. ¿Lo conoces entonces?
+  - **Neite:** No sé si algún día podrás llegar a conocer a ese gato. Es un poco enigma... siempre deambula pero nadie sabe lo que está buscando. ¡Pero es una bestia bastante guapa!
+  - **Player:** Oh, ya veo, el romance está en el aire, ¿verdad?
+  - **Neite:** Bueno, la vida aquí en el desierto puede ser una existencia solitaria, incluso con todo mi trabajo ocupado... y él es el soltero más codiciado que existe. Cuando oigo hablar de él, se me eriza el bigote... Pero, la verdad, me preocupa.
+  - **Player:** ¿De qué manera?
+  - **Neite:** Bueno, me enorgullezco del conocimiento de las líneas familiares de los gatos. Obviamente, Bob aparece bastante en los árboles genealógicos de la mayoría de los gatos, ¡pero él mismo no tiene ninguno!
+  - **Player:** ¿Qué quieres decir?
+  - **Neite:** Quiero decir, nadie está seguro de dónde vino. Ni siquiera la Sssfinge lo sabe. Es sólo uno de esos misterios. Incluso hay dibujos e historias antiguas que hablan de un guerrero conocido como 'Robert' y sus luchas contra el
+  - **Neite:** parientes dragón. ¡Luchó con una feroz pantera negra que podía tragarse casas de un solo trago!
+  - **Player:** ¿Parientes de dragón? ¿Cuáles son?
+  - **Neite:** <span id="kin">¿El parentesco? Bueno, en su mayoría son solo historias. Algunos dicen que fueron los primeros: la verdadera raza antigua de este mundo. Se suponía que habían aprovechado el poder de los dragones, haciendo que las criaturas salvajes cumplieran sus órdenes. De alguna manera ellos
+  - **Neite:** ¡manipuló los huevos de los dragones y los hizo suyos! Entonces las historias simplemente terminan como si desaparecieran en sssmoke.</span>
+  - **Player:** Fascinante...
+  - **Neite:** Bueno, como digo, son solo historias. ¡Probablemente algún cuento que una madre gnoma inventó para evitar que sus pequeños huyeran solos al bosque!
+  - **Player:** Bueno, si alguna vez escuchas algo más concreto, ¿me lo harás saber? Parece que vale la pena investigar a estos dragones, incluso si es solo una historia.
+  - **Neite:** Sería un placer. ¡No me gustan los acertijos en el mejor de los casos! Ahora, si me disculpan, tengo algo que lavar.
+    - Ha sido agradable hablar, pero tengo que irme.
+      - **Player:** Ha sido un placer hablar contigo, pero realmente tengo que irme ahora.
+      - **Neite:** Adiós.
+    - (end)
+    - Me gustaría preguntarte algo más.
+    - (above|questions)
+- ¿Eres uno de los amigos de Sphinx?
+  - **Player:** ¿Eres uno de los amigos de Sphinx?
+  - **Neite:** El Sphinx no tiene amigos. Está demasiado absorta en preservar su propia inmortalidad para sus amigos.
+  - **Player:** ¿Entonces no te gusta?
+  - **Neite:** Nada de eso. No tengo nada más que respeto por ella.
+  - **Player:** ¿Por qué?
+  - **Neite:** Bueno, porque su inmortalidad se basa en que ella nos mantiene a los gatos a salvo, por lo que toda su existencia está dedicada a protegernos.
+  - **Player:** Eso no parece una gran vida.
+  - **Neite:** Es cierto, la vida no debe atesorarse sino vivirse... pero no le digas eso; De lo contrario, tendría que buscar un nuevo tutor.
+    - Ha sido agradable hablar, pero tengo que irme.
+      - **Player:** Ha sido un placer hablar contigo, pero realmente tengo que irme ahora.
+      - **Neite:** Adiós.
+    - (end)
+    - Me gustaría preguntarte algo más.
+    - (above|questions)
+- ¿Puedes hablarme sobre la Secta de Scabaras?
+  - **Player:** ¿Sabes algo sobre la Secta de Scabaras?
+  - **Neite:** ¡Ja! ¡Esos locos excavadores de tierra! ¡Recibieron su merecido!
+  - **Player:** ¿Qué les pasó?
+  - **Neite:** Pensaron que podrían socavar a los poderosos Elidinis, así que ella los enterró. Nunca más se los ha vuelto a ver por aquí desde entonces.
+  - ¿Dónde enterró a la secta?
+    - **Player:** ¿Dónde enterró a la secta?
+    - **Neite:** Debajo de ella misma.
+    - **Player:** ¿Qué quieres decir con 'debajo de ella'?
+    - **Neite:** ¡Pah! Humano estúpido. No sé por qué me molesto en hablar contigo.
+  - ¿Qué quieres decir con "socavar"?
+    - **Player:** Para cavar debajo.
+    - **Neite:** ¿Cómo se excava debajo de una diosa?
+    - **Player:** No lo sé. No soy tan estúpido como para intentarlo.
+- Cooch-ee-cooch-ee-coo
+  - **Player:** Cooch-ee-cooch-ee-coo
+  - **Neite:** Oh, deja de ser tan condescendiente, humano tonto, o te arrancaré la cara.
+  - **Player:** ¡Tranquilo, tigre! Sólo intentaba ser amable.
+  - **Neite:** ¡¡Silbido!!
+    - Ha sido agradable hablar, pero tengo que irme.
+      - **Player:** Ha sido un placer hablar contigo, pero realmente tengo que irme ahora.
+      - **Neite:** Adiós.
+    - (end)
+    - Me gustaría preguntarte algo más.
+    - (above|questions)

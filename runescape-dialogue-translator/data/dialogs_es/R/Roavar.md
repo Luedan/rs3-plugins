@@ -1,0 +1,169 @@
+# Roavar
+
+- **Original Wiki Page**: [Transcript:Roavar](https://runescape.wiki/w/Transcript%3ARoavar)
+- **Letter**: `R`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### In Canifis
+
+- **Player:** ¡Hola!
+- **Roavar:** Saludos viajero. Bienvenidos a la Taberna 'El Pelo del Perro'. ¿Para qué puedo hacerte?
+- [Menu]: Selecciona una opción
+  - [Choice]: ¿Puedo comprar una cerveza?
+    - **Player:** ¿Puedo comprar una cerveza?
+    - **Roavar:** ¡Bueno, esa es mi especialidad! La cerveza local se llama 'Moonlight Mead' y te costará 5 de oro. ¿Qué dices? ¿Te apetece una pinta?
+    - [Menu]: Selecciona una opción
+      - [Choice]: Sí por favor.
+        - **Player:** Sí, por favor.
+        - (Condition: Con cinco coins:)
+          - **Roavar:** Aquí tienes, amigo. ¡Disfrutar!
+          - (removes=5 coins) (receives=Moonlight Mead)
+        - (Condition: Sin cinco coins:)
+          - No puedes permitirte eso.
+          - (ventana emergente)
+            - (Ventana emergente: No puedes permitirte eso.|advertencia=yes)
+          - **Player:** Aunque no tengo el dinero encima en este momento... ¿puedo iniciar una cuenta?
+          - **Roavar:** ¿Ves ese cartel detrás de mí?
+          - **Player:** El que dice; '¿Por favor, no pida crédito porque ser atacado por un gran hombre lobo enojado Inn Keeper a menudo ofende'?
+          - **Roavar:** Bingo.
+      - [Choice]: En realidad, no gracias.
+        - **Player:** En realidad, no, gracias.
+        - **Roavar:** Eh, haz lo que quieras. Te estás perdiendo una experiencia de sabor genuina.
+  - [Choice]: ¿Puedo escuchar algunos chismes?
+    - **Player:** ¿Puedo escuchar algunos chismes?
+    - **Roavar:** Bueno, no sé... El pueblo está un poco al margen aquí, no sé qué tan actualizadas están las cosas que escucho...
+    - [Menu]: Selecciona una opción
+      - [Choice]: Háblame de este pueblo.
+        - **Roavar:** ¿Quieres saber más sobre Canifis? No sé por qué, aquí no pasan muchas cosas. Después de todo, somos el típico hombre lobo con los pies en la tierra...
+        - **Player:** Entonces... ¿todos aquí son hombres lobo?
+        - **Roavar:** Sí. ¡Somos como nos hizo Zamorak!
+        - **Player:** Mencionaste a Zamorak...
+        - (Condition: Diálogo actual:)
+          - **Roavar:** Sí, es genial, ¿no? Cada año celebramos un gran festival para agradecer a Zamorak por mantenernos bien alimentados y felices.
+          - **Roavar:** He oído que en el oeste adoran a Saradomin. ¡No sé por qué! ¿Qué ha hecho para ayudarnos a los hombres lobo, eh?
+          - **Roavar:** ¡Sus seguidores dicen cosas locas como '¡no deberíamos matar gente y comérnosla'! ¿Qué pasa con eso?
+          - **Player:** ... Entonces, ¿cuándo es este festival?
+          - **Roavar:** Ah, no hasta dentro de unos meses. Ven y pregúntame de nuevo cuando se acerque el momento. Te guardaré un poco de carne e hidromiel del resto, amigo.
+        - (Condition: Diálogo histórico, tras la Batalla de Lumbridge:)
+          - **Roavar:** ¡Sí, el gran dios Zamorak! Ése es otro crimen que añadir a la lista de Saradomin.
+          - **Roavar:** No hace mucho, Saradomin derrotó a Zamorak en una gran batalla cerca de un lugar llamado Lumbridge.
+          - **Roavar:** ¡Primero envenena nuestro río y luego destierra a nuestro dios! ¡Él realmente es un dios malvado!
+          - **Roavar:** ¡Y tiene todos estos seguidores locos que dicen cosas como que no deberíamos matar gente y comérnosla! ¿Qué pasa con eso?
+          - **Roavar:** De todos modos, cada año celebramos un gran festival para agradecer a Zamorak por mantenernos bien alimentados y felices aquí.
+          - **Player:** ... Entonces, ¿cuándo es este festival?
+          - **Roavar:** Aaaah, todavía no hasta dentro de unos meses. Ven y pregúntame más cerca del momento, te guardaré un poco de carne e hidromiel del resto, amigo.
+        - (Condition: Diálogo histórico, durante la Batalla de Lumbridge:)
+          - **Roavar:** Sí, él está ahí luchando por nuestros derechos incluso ahora, en algún lugar llamado Lumbridge.
+          - **Roavar:** He oído que Saradomin también ha vuelto. Es realmente malvado: ¡envenenó el río del oeste!
+          - **Roavar:** ¡Y tiene todos estos seguidores locos que dicen cosas como que no deberíamos matar gente y comérnosla! ¿Qué pasa con eso?
+          - **Roavar:** Pero Zamorak debería ponerlo en su lugar. Zamorak es genial, ¿no?
+          - **Roavar:** Cada año celebramos un gran festival para agradecer a Zamorak por mantenernos bien alimentados y felices aquí.
+          - **Player:** ... Entonces, ¿cuándo es este festival?
+          - **Roavar:** Aaaah, todavía no hasta dentro de unos meses. Ven y pregúntame más cerca del momento, te guardaré un poco de carne e hidromiel del resto, amigo.
+      - [Choice]: Háblame de la tierra de Morytania.
+        - **Player:** Háblame de la tierra de Morytania.
+        - (Condition: Antes de Río de Sangre:)
+          - **Roavar:** Bueno, no sé qué decirte la verdad. Este pueblo se llama Canifis y se encuentra en el límite entre Morytania y Misthalin. Entonces, estamos en la primera línea si esos saradoministas del oeste alguna vez deciden atacarnos.
+          - **Roavar:** Al sureste de aquí se encuentra el castillo de Lord Drakan, nuestro maestro.
+          - **Player:** ¿Señor Drakan? ¿Quién es ese?
+          - **Roavar:** Ahhh... ¡debes ser nuevo en estos lugares si no has oído hablar de Lord Drakan! Él es el señor de la tierra y todos le juramos lealtad.
+          - **Roavar:** A cambio de nuestra lealtad y el diezmo, por supuesto, él mantiene nuestra tierra a salvo de cualquier invasor y de los saradoministas que quieren matarnos a todos.
+          - **Player:** ¿Diezmo? ¿Qué quieres decir?
+          - **Roavar:** Ah, bueno, a cambio de su protección, tenemos que darle a Lord Drakan una porción de sangre cada semana. Si no nos sobra nadie en nuestras cacerías, entonces tendremos que elegir a un miembro de la aldea para que dé su vida a cambio de su sangre.
+          - **Roavar:** que se cumpla el diezmo.
+          - **Player:** ¿Quieres decir que matas a alguien que conoces para poder pagar el diezmo?
+          - **Roavar:** Así es, pero sólo si no hemos logrado obtener suficiente sangre extra de nuestras cacerías. Es un poco grave si lo miras de esa manera, pero, francamente, creo que el precio es justo a cambio de su protección y su tolerancia hacia nuestra
+          - **Roavar:** pueblo. Probablemente podría matarnos a todos si quisiera que nos fuéramos, por lo que mantener su lado bueno vale el sacrificio para nosotros. ¡Qué suerte que en realidad no somos humanos!
+          - **Player:** ¿Por qué?
+          - (Condition: Antes de Vampyre Slayer:)
+            - **Roavar:** ¡Odia a los humanos! Aparentemente su hermano Draynor está atrapado en Misthalin, ¡y pequeños aspirantes a héroes humanos aventureros siguen intentando matarlo!
+            - (continue)
+          - (Condition: Después de Vampyre Slayer:)
+            - **Roavar:** ¡Odia a los humanos! Aparentemente hace mucho tiempo su hermano Draynor quedó atrapado en Misthalin y perdió gran parte de sus poderes, ¡y recientemente fue asesinado por un humano!
+            - (continue)
+          - **Roavar:** Hombre, odiaría ser un humano por aquí, eso es seguro. ¡A Drakan realmente le encantaría cazarlos y matarlos!
+          - **Player:** Eh... gracias por la información...
+        - (Condition: Después de Río de sangre:)
+          - **Roavar:** Bueno, no sé qué decirte la verdad. Este pueblo se llama Canifis y se encuentra en el límite entre Morytania y Misthalin. Entonces, estamos en la primera línea si esos saradoministas del oeste alguna vez deciden atacarnos.
+          - **Player:** Eh... gracias por la información...
+      - [Choice]: Háblame de los comerciantes de aquí.
+        - **Player:** Háblame de los comerciantes de aquí.
+        - **Roavar:** ¿Mmmm? ¿De quién querías oír los chismes?
+        - [Menu]: Selecciona una opción
+          - [Choice]: Sbott o Tanner.
+            - **Player:** Cuéntame lo que sabes sobre Sbott y Tanner.
+            - **Roavar:** ¡Oye, no escucharé ni una palabra mala sobre ese tipo! ¡Es un lobo honesto y trabajador si alguna vez conocí uno! Cobra mucho por su trabajo, pero es uno de los mejores bronceadores que he visto en mi vida... ¡y tengo más de cuatrocientos años! tu
+            - **Roavar:** Necesito cosas para broncearme, ¡lo recomiendo!
+          - [Choice]: Rufus el vendedor de comida.
+            - **Player:** ¿Sabes algo interesante sobre Rufus, el vendedor de comida?
+            - **Roavar:** Ah, sí... el bueno de Rufus... Está envejeciendo y no le gusta salir de su forma de lobo tan a menudo, pero déjame decirte esto: ese tipo es un cazador de pies a cabeza. ¿Has visto cuánta comida pesca en un día? eso
+            - **Roavar:** ¡requiere verdadera dedicación! Algunos de los cachorros jóvenes piensan que solo porque un lobo tiene un poco de gris en su pelaje ya lo ha superado, ¡pero lo he visto avergonzar a esos cachorros en una cacería! ¡Es una verdadera inspiración para todos nosotros!
+          - [Choice]: Barker el vendedor de ropa.
+            - **Player:** ¿Tienes algo que compartir sobre Barker, el vendedor de ropa?
+            - **Roavar:** Eh, no me gusta mucho el tipo, pero no se puede reducir la calidad de sus acciones. Son algunos hilos de buena calidad que puedes conseguir tú mismo allí.
+            - **Player:** ¿Qué le pasa?
+            - **Roavar:** Eh... Realmente no puedo decírtelo para ser honesto. Hay algo en el tipo que me pone los pelos de punta cada vez que abre su ladrido, ¿sabes a qué me refiero?
+            - **Player:** No, en realidad no.
+            - **Roavar:** Por suerte para ti. Realmente no puedo explicarlo, simplemente no me gusta el chico. Aunque hace muy buena ropa, tienes que concedérselo.
+          - [Choice]: Fidelio el propietario de general store.
+            - **Player:** Apuesto a que tienes algún chisme jugoso sobre Fidelio, el propietario de general store.
+            - **Roavar:** ¿Ese loco? Oh, claro, todos sabemos sobre él. Era un verdadero temerario cuando era mucho más joven, siempre arriesgándose para ganar dinero rápido... quedó atrapado en el negocio del contrabando, escabulléndose por las calles.
+            - **Roavar:** bordea Misthalin y finge ser un humano para poder comprar artículos exóticos para vender.
+            - **Player:** ¿Artículos exóticos? ¿De Misthalin? ¿Cómo qué?
+            - **Roavar:** ¡Oh hombre, lo que sea! Harina... cubos... yesqueros... cinceles... ¡podría conseguirlo todo! Pero ya lleva tanto tiempo haciéndolo que tiene los nervios destrozados.
+            - **Roavar:** Hoy en día es una vergüenza, apenas puede articular una frase y salta hacia su propia sombra. Te da vergüenza ser un hombre lobo.
+      - [Choice]: Háblame del templo de Occidente.
+        - **Player:** Háblame del templo del oeste.
+        - **Roavar:** Bueno, no tengo edad suficiente para recordar la historia completa detrás de esto, pero fue un día terrible para nuestro reino cuando se construyó allí.
+        - **Roavar:** Aparentemente, Morytania alguna vez tuvo un reino fuerte, con tierras que se extendían mucho más al oeste de lo que lo hacen hoy, y al sur hacia el desierto, hasta el día en que un ataque furtivo de las odiadas fuerzas humanas que adoran a Saradomin ardió.
+        - **Roavar:** nuestras aldeas y masacraron a nuestros pueblos en masa.
+        - **Roavar:** ¡Luego maldijeron el río para que quemara a los de nuestra especie si lo tocáramos! ¿Te imaginas? ¿Hacer que todo un río sea venenoso para nosotros?
+        - (Condition: Antes de Río de Sangre:)
+          - **Roavar:** Afortunadamente parecen haberse calmado un poco recientemente y tienden a permanecer en su lado del río... pero el mal que le han hecho a mi gente nunca será olvidado y nunca será perdonado. Lo que es peor es
+          - **Roavar:** ¡Que luego tuvieron el descaro de construir esa gigantesca estatua en la desembocadura del río para burlarse de la masacre de nuestra gente y el envenenamiento de nuestro río! Puedo entender el odio de Lord Drakan hacia ellos incluso si no lo comparto con sus
+          - **Roavar:** extensión.
+          - (continue)
+        - (Condition: Después de Río de sangre:)
+          - **Roavar:** Afortunadamente, la maldición se ha levantado y podemos viajar a Misthalin en busca de comida. Sin embargo, la mayoría de nosotros tenemos demasiado miedo de esos malvados humanos, así que no nos arriesgamos.
+          - (continue)
+        - **Player:** ¿Entonces también odias a los humanos?
+        - **Roavar:** ¡Absolutamente! ¡Si alguna vez conociera a uno, lo devoraría allí mismo! ¡Y luego mastica los huesos como postre!
+        - **Player:** Um, está bien, gracias, adiós.
+  - [Choice]: ¿Puedo escuchar una historia?
+    - **Player:** ¿Puedo escuchar una historia?
+    - **Roavar:** ¿Una historia? Je, bueno, el único que se me ocurre ahora mismo es el que me dijo mi querida mami cuando era cachorro...
+    - **Roavar:** Ahora, ¿cómo te fue? ¡Ah, sí!
+    - **Roavar:** Érase una vez un joven lobo valiente que caminaba por un bosque, cuando se encontró con un humano vestido todo de rojo. '¡Ajá!' pensó para sí mismo: '¡Aquí tienes una comida fácil y agradable!' Pero el humano habló con él, y siempre le enseñaron a
+    - **Roavar:** sé un lobo educado, le respondió.
+    - **Roavar:** Bueno, este astuto humano le dijo que había una comida mejor que la que no se escaparía en la casa del bosque. Cuando el valiente joven lobo pudo ver que este humano no había crecido completamente, pensó que tal vez sería mejor conseguir un mejor
+    - **Roavar:** comida en esta casa, así que corrió tan rápido como sus patas pudieron llevarlo a la casa de la que le habló el humano... dentro encontró a una humana vieja acostada en la cama, y aunque era un poco dura, ya que el humano era mayor que él.
+    - **Roavar:** pensó, comió bien y decidió dormir un rato en la casa. No llevaba mucho tiempo dormido cuando lo despertaron unos golpes en la puerta. ¡El humano de rojo lo había seguido hasta la casa! Sospechar de un humano
+    - **Roavar:** trampa, el valiente joven lobo se puso la ropa de los viejos humanos y saltó a la cama, para poder fingir ser humano y escapar de esta terrible trampa. Bueno, este humano vestido de rojo entró en la casa y fingió
+    - **Roavar:** creyó que el valiente lobo era realmente un humano, y comenzó a hablar con él. Pero entonces el humano empezó a hacerle preguntas extrañas al lobo, ¡porque sabía que no era un humano en absoluto! El joven y valiente lobo decidió
+    - **Roavar:** intenta escapar, porque era solo un humano joven y no muy fuerte, ¡así que el joven lobo valiente dijo que se comería al humano si no lo dejaban escapar! Sin embargo, mientras decía esto, el humano de rojo le gritó: '¡Ajá! tu
+    - **Roavar:** ¡Eres un lobo!' ¡Y cuando el humano gritó esto, otro humano más grande entró corriendo a la habitación desde afuera! Este humano más grande era mucho más fuerte y llevaba un hacha, y el pobre joven lobo murió en esta terrible trampa que le tendió el
+    - **Roavar:** humanos.
+    - **Roavar:** ¿Y sabes cuál es la moraleja de esta historia?
+    - **Player:** Um... no, en realidad no.
+    - **Roavar:** ¡Es 'Nunca confíes en los humanos', por supuesto! Mi querida mami me contó esa historia cuando era un cachorro, ¡y todavía estoy viva y bien para contártela hoy!
+    - **Roavar:** Bastante buena historia, ¿eh?
+    - **Player:** Um... sí. Fue genial. En realidad.
+  - [Choice]: Nada gracias.
+    - **Player:** Nada, gracias.
+    - **Roavar:** ...No sé para qué me hablaste si no quieres nada entonces...
+
+#### Senderos del tesoro
+
+- **Roavar:** ¡Aquí tienes!
+- (removes=the old clue scroll (medium))
+- (Condition: Si el rastro continúa:)
+  - (receives=a new clue scroll (medium))
+  - [¡Roavar te ha dado otro pergamino de pistas!]
+- (Condition: Si el sendero termina:)
+  - (receives=reward casket (medium))
+  - [¡Has encontrado un ataúd!]

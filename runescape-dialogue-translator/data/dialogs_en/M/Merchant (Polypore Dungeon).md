@@ -1,0 +1,107 @@
+# Merchant (Polypore Dungeon)
+
+- **Original Wiki Page**: [Transcript:Merchant (Polypore Dungeon)](https://runescape.wiki/w/Transcript%3AMerchant%20%28Polypore%20Dungeon%29)
+- **Letter**: `M`
+
+---
+
+## Dialogue Transcript
+
+
+### Standard dialogue
+
+- **Merchant:** It's a young [gentleman/lady]. Perhaps it wants to trade with us. Or perhaps it needs us to look after its spores and flakes.
+- **What would you like to say?**
+  - I have a question for you.
+    - **Player:** I have a question for you.
+    - **What would you like to say?**
+      - Who are you?
+        - **Player:** Who are you?
+        - **Merchant:** It wants to know about us, does it? It's a nosey little [gentleman/lady], we thinks. But we shall answer it.
+        - **Merchant:** We used to live in a house, a little house in a warm land, just us and Darling.
+        - **Merchant:** Yes, we had Darling then, with her soft hair, silken tresses on the pillow... so long ago.
+        - **Merchant:** We lived in our house, and the sun shone, and every day Darling would sing as she cooked and cleaned.
+        - **Merchant:** We made pretty things to sell to the gentlefolk, and Darling loved the pretty things, and we loved Darling.
+        - **Merchant:** Then there was no more Darling - the doctor tried everything - so no more silken tresses, no more singing... just the empty house.
+        - **Merchant:** We left; we walked through days and nights and sun and rain. Then we found this place, and we met Ladyship.
+        - **Merchant:** Ladyship makes pretty things too. Folks come to see them, and we trade with the folks. We sell them clothes made by the Ladyship; she lets us.
+        - **What would you like to say?**
+          - What is this place?
+            - (below|Place)
+          - Tell me about the things you sell.
+            - (below|Sell)
+          - Can I buy your costume?
+            - (below|Costume)
+          - Okay, I've finished asking questions.
+            - (below|Finished)
+          - I think I'll leave you alone!
+            - (below|Leave)
+      - What is this place?
+        - **Player:** What is this place?
+        - **Merchant:** It doesn't know where it is, silly little [gentleman/lady]. We shall tell it.
+        - **Merchant:** This is Ladyship's garden. Ladyship came from a long way away. Ladyship is clever; she makes the flowers grow.
+        - **Merchant:** Once there were ugly beasts here, but Ladyship grew her flowers all over the beasts to make them beautiful. Now they are her pets.
+        - **Merchant:** Folks came to see the pretty things Ladyship makes. Ladyship doesn't mind; she likes it when folks play with her pets.
+        - '''What would you like to say?
+          - Who are you?
+            - (above|Who)
+          - Tell me about the things you sell.
+            - (below|Sell)
+          - Can I buy your costume?
+            - (below|Costume)
+          - Okay, I've finished asking questions.
+            - (below|Finished)
+          - I think I'll leave you alone!
+            - (below|Leave)
+      - Tell me about the things you sell.
+        - **Player:** Tell me about the things you sell.
+        - **Merchant:** It wants to know about Ladyship's clever clothes. We hope it will buy things afterwards.
+        - **Merchant:** Ladyship makes clothes out of webs of mycelium, taken from her flowers. Wizards can wear Ladyship's clothes to help their magicks.
+        - **Merchant:** If we gather flakes from Ladyship's pets, we can sew them onto Ladyship's clothes to give them more of her power - lots more power.
+        - **Merchant:** The best flakes come from Ladyship's strongest pets, but they're tricky to fight; very tricky indeed. Not many folks can touch them.
+        - **Merchant:** Also, the flakes fall off the clothes after a while, so folks come back to get more flakes from Ladyship's pets.
+        - '''What would you like to say?
+          - Who are you?
+            - (above|Who)
+          - What is this place?
+            - (above|Place)
+          - Can I buy your costume?
+            - (below|Costume)
+          - Okay, I've finished asking questions.
+            - (below|Finished)
+          - I think I'll leave you alone!
+            - (below|Leave)
+      - Can I buy your costume?
+        - **Player:** Can I buy your costume?
+        - **Merchant:** The young [gentleman/lady] wants to buy our clothes. If we sell it our clothes, we'll be naked. Ladyship doesn't like it when we're naked; she said so. We'd better tell the young [gentleman/lady] it can't have our clothes, not at any price.
+        - **Player:** Fair enough!
+        - '''What would you like to say?
+          - Who are you?
+            - (above|Who)
+          - What is this place?
+            - (above|Place)
+          - Tell me about the things you sell.
+            - (above|Sell)
+          - Okay, I've finished asking questions.
+            - (below|Finished)
+          - I think I'll leave you alone!
+            - (below|Leave)
+      - Okay, I've finished asking questions.
+        - **Player:** Okay, I've finished asking questions.
+        - **Merchant:** Perhaps the young [gentleman/lady] would like to trade now. Or we can look after its spores and flakes if it wishes.
+        - '''What would you like to say?
+          - I'd like to trade.
+            - (below|trade)
+          - I need you to look after something.
+            - (below|Finished)
+          - I think I'll leave you alone!
+            - (below|Leave)
+  - I'd like to trade.
+    - **Player:** I'd like to trade.
+    - (opens=Polypore Dungeon Supplies)
+  - I need you to look after something.
+    - **Player:** I need you to look after something.
+    - *(Fungal Storage interface opens.)*
+  - I think I'll leave you alone!
+    - **Player:** I think I'll leave you alone!
+    - **Merchant:** It's going to leave us alone. But we're not alone, are we?

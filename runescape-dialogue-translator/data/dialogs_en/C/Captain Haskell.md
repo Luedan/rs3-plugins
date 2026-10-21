@@ -1,0 +1,66 @@
+# Captain Haskell
+
+- **Original Wiki Page**: [Transcript:Captain Haskell](https://runescape.wiki/w/Transcript%3ACaptain%20Haskell)
+- **Letter**: `C`
+
+---
+
+## Dialogue Transcript
+
+- **Captain Haskell:** Hello. Are you here about my new challenges?
+  - **Player:** Tell me about your challenges.
+    - **Captain Haskell:** My challenges are the best! None of this long, hard slog - mine shouldn't take you more than a few minutes.
+    - **Captain Haskell:** What's more, I'm not limiting you like before. You are free to choose any challenge, and I'll reward you for completing it.
+    - **Captain Haskell:** You'll need to get a challenge token for the right skill, though.
+      - Talk about challenge tokens.
+        - **Captain Haskell:** Well, I don't just give away my challenges to anyone who comes along. I don't have that much time!
+        - **Captain Haskell:** I've come to an arrangement with Alice, and she'll give away tokens in Treasure Hunter.
+        - **Captain Haskell:** Tokens all have a skill associated with them, and when you've got a challenge token you can activate it to choose a challenge in that skill.
+        - **Captain Haskell:** If you don't want a challenge in that skill, you can swap tokens with your friends for different ones.
+        - *During the promotion*
+          - **Captain Haskell:** At the moment, I've given Alice some Agility, Hunter and Thieving tokens, but I've got some others saved up.
+        - *After the end of the promotion*
+          - **Captain Haskell:** Unfortunately, Alice has given away all the tokens I had, so you'll have to wait to get more.
+      - Talk about rewards.
+        - **Captain Haskell:** When you've finished a challenge you can bring your active challenge token to me, or just check the token wherever you are.
+        - **Captain Haskell:** I'll reward you with some extra XP in the skill related to the challenge.
+        - **Captain Haskell:** It won't be as much as I used to give you for a Daily Challenge, but these ones are quicker to complete.
+      - Talk about choosing challenges.
+        - **Captain Haskell:** Unlike that nefarious gnome, I leave it up to you select a challenge that you'll enjoy from a list of available challenges.
+        - **Captain Haskell:** They all give the same reward, so you can choose the one you most want to do. Don't want to brave the Wilderness Agility Course? Just choose Burthorpe!
+      - Change the subject.
+  - **Player:** I have a challenge to hand in!
+    - **Captain Haskell:** You don't have one of my challenges to hand in. Do you want the usurper over there on the platform?
+  - **Player:** Tell me about yourself.
+    - **Captain Haskell:** I used to be a quartermaster for the Imperial Guard. But then the troll attacks subsided, and so I was 'promoted'.
+    - **Captain Haskell:** No need for me to give challenges, they said! Well I'll show them - and that gnome menace over there on her podium!
+      - **Player:** What do you think of Mistress Fara?
+        - **Captain Haskell:** MISTRESS Fara? Pah. Stealer, Spy, Scoundrel, Scourge of Burthorpe maybe...but she'll never be mistress.
+        - **Captain Haskell:** What is she doing here? No-one seems to know. She just came here one day and started giving out challenges to all and sundry. Just after I was relieved of that duty.
+        - **Captain Haskell:** She's up to no good, I'm sure. Taking all those bows and daggers - I'm sure it's part of something bigger. I just don't know what.
+      - **Player:** What happened to the trolls?
+        - **Captain Haskell:** We beat them and sent them running! We showed them the power of the Imperial Guard.
+        - **Captain Haskell:** Now there's rumours that it's something to do with Bandos's demise, but we had them off back to Death Plateau before that.
+        - **Captain Haskell:** They still mount the odd attack, though - you can help us defend if you go to the gatehouse to the north of the Warrior's Guild.
+      - **Player:** What have you been doing lately?
+        - **Captain Haskell:** Well, with my leg, I'm not fit any more for active service. They promoted me to captain and set me overseeing the new recruits.
+        - **Captain Haskell:** I can give them a good scare with my scars as well as my stories!
+        - **Captain Haskell:** But I've always liked my old quartermaster's job, so I decided to do it on my own, and here I am. Captain Haskell, freelance quartermaster exraordinaire.
+        - **Captain Haskell:** Not sure how the commander feels about it, but I've had no complaints yet.
+      - Change the subject.
+  - **Player:** Tell me about raffle tickets.
+    - **Captain Haskell:** I'm happy to say that I've managed to get some raffle tickets from Balthazar, and i've got some spare to give away.
+      - **Player:** How do I get the tickets?
+        - **Captain Haskell:** If you want one of my tickets, you'll need to give me some inactive challenge tokens. You can get the tokens by trying your luck at Treasure Hunter.
+        - **Captain Haskell:** I will exchange 1 raffle ticket for 10 inactive tokens of any type.
+        - **Captain Haskell:** I like to share the wealth, though, so I will give you no more than 2 tickets each day.
+        - Captain Haskell will offer up to 2 tickets per day until the end of Monday, 15th September, UK time.
+      - **Player:** Can I exchange my tokens for a ticket?
+        - *During the promotion*
+          - **Captain Haskell:** You don't have enough tokens to exchange in your backpack. I will exchange 10 tokens for 1 ticket.
+        - *After the promotion*
+          - **Captain Haskell:** I did have some raffle tickets spare, but I've given them all away now.
+          - **Captain Haskell:** I'm going to use the rest of mine in the raffle. I think a golden godsword would suit me.
+          - **Captain Haskell:** You should still be able to get some from Balthazar every day, though.
+      - Change the subject
+  - **Player:** Goodbye.

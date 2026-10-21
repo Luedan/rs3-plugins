@@ -1,0 +1,73 @@
+# Mysterious Old Man
+
+- **Original Wiki Page**: [Transcript:Mysterious Old Man](https://runescape.wiki/w/Transcript%3AMysterious%20Old%20Man)
+- **Letter**: `M`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+- **Mysterious Old Man:** ¡Lo harás, [Player Name]!
+- **Player:** ¿Yo?  No hice nada... Erm, quiero decir, ¿haré para qué?
+- **Mysterious Old Man:** ¡No te preocupes! No te voy a secuestrar ni nada... ¡de verdad!
+- **Mysterious Old Man:** ¡Tampoco ninguno de mis otros amigos aleatorios!
+- Seleccione una opción
+  - Háblame de ti.
+    - **Mysterious Old Man:** ¡Soy el Mysterious Old Man! Soy misterioso - ¡wooo!
+    - **Mysterious Old Man:** Mis padres me llamaron Bebé Misterioso, pero nunca sentí que me convenía, así que lo cambié cuando me hice adulto.
+    - **Mysterious Old Man:** Fui adoptado, ¿ves? Me encontraron abandonado en las escaleras de esta misma casa.
+    - **Player:** Oh, ¿entonces te mudaste a la antigua casa de tus padres?
+    - **Mysterious Old Man:** ¿Qué?  No, nunca vivieron aquí.
+    - **Player:** Pero acabas de decir-
+    - **Mysterious Old Man:** No, vivíamos en esa casa grande frente al banco.
+    - **Mysterious Old Man:** Pero ahora es propiedad de un joven secuestrador llamado 'Wise Old Man', así que no puedo disfrutar de mi jubilación por completo.
+    - **Player:** ¿Qué solías hacer?
+    - **Mysterious Old Man:** ¡Oh, fue genial!  Tuve que viajar por todo el mundo secuestrando personas y obligándolas a jugar mis juegos.
+    - **Player:** ¿Secuestrar gente? No estoy seguro de saber cómo hablar contigo...
+  - Pregúntale sobre sus amigos "al azar".
+    - **Mysterious Old Man:** Sabes, si has estado aquí por un tiempo, probablemente hayas conocido a muchos de ellos.
+    - **Mysterious Old Man:** Pero si eres un joven mocoso como ese jovencito de mi antigua casa familiar, supongo que no estará de más mencionar algunos de ellos.
+    - **Mysterious Old Man:** Veamos, ahora. ¿Quién estaba ahí?
+    - **Mysterious Old Man:** Primero, había un apicultor que necesitaba ayuda para construir sus colmenas. He oído que ahora tiene un colmenar cerca de Catherby.
+    - **Mysterious Old Man:** ¡Ah, y los noteros! Tres hermanos: Miles, Giles y Niles. Apuesto a que pasan el rato en el Grand Exchange.
+    - **Mysterious Old Man:** Estaba Sergeant Damien. Era instructor en algún ejército de demonios; cómo tiene un trabajo en el circo.
+    - **Mysterious Old Man:** El siguiente fue el Freaky Forester. Ahora se ocupa de McGrubor's Wood.  Sin embargo, es raro: tiene algo con los faisanes.
+    - **Mysterious Old Man:** Ah, y la realeza rana: el príncipe y la princesa de la Tierra de las Ranas. ¡Se acaban de casar!
+    - **Mysterious Old Man:** El mimo ha encontrado trabajo en la sala de fiestas de Falador. No es muy hablador, pero es un tipo amigable.
+    - **Mysterious Old Man:** El viejo capitán Arnav se retiró de sus días de piratería y se compró una casa en Brimhaven.
+    - **Mysterious Old Man:** El Sandwich Lady tuvo un encontronazo con la ley. Lo último que supe fue que había instalado un puesto en el mercado Ardougne.
+    - **Mysterious Old Man:** Ah, y Leo, el sepulturero, también está en Ardougne estos días; consiguió un nuevo trabajo en la iglesia de allí.
+    - **Mysterious Old Man:** Luego está el Sr. Mordaut. Tiene un nuevo trabajo en el Museo Varrock. Profesor de Historia Antinatural... muy impresionante.
+    - **Mysterious Old Man:** Los gemelos, Molly and Moira, comparten una casa en el barrio pobre de Varrock.
+    - **Mysterious Old Man:** Los guardias de la picota ahora están vigilando todas las picotas, todo el día, todos los días.
+    - **Mysterious Old Man:** El pobre Prison Pete tuvo un pequeño episodio. Ha solicitado una "habitación" en la cárcel Port Sarim.
+    - **Mysterious Old Man:** ¡Uf!  Solía ​​haber algunos incluso más antiguos, pero mi mente ya no es la que solía ser.
+    - **Player:** ¿Por qué? ¿Qué solía ser?
+    - **Mysterious Old Man:** ...
+    - **Player:** No importa, olvida que pregunté.
+  - ¿Qué hay en la trampilla?
+    - **Mysterious Old Man:** ¡No!  Ni se te ocurra entrar ahí. ¡Eso está prohibido!
+    - **Player:** Vaya, está bien.  No hay necesidad de arrancarme la cabeza de un mordisco. ¿Qué hay ahí, de todos modos?
+    - **Mysterious Old Man:** No es asunto tuyo.
+  - ¿Por qué hablar de secuestros?
+    - **Mysterious Old Man:** Oh, lo siento, es posible que no sepas eso sobre mí. Es algo que solía hacer en mi antiguo trabajo; éramos algunos.
+    - **Player:** ¿Secuestraste gente?
+    - **Mysterious Old Man:** ¡No tienes que decirlo así! ¡No fue siniestro! ¡Brindamos un servicio valioso!
+    - **Mysterious Old Man:** Le daríamos a la gente un pequeño descanso de lo que sea que estuvieran haciendo y los mantendríamos atentos y activos.
+    - **Mysterious Old Man:** Además, repartiríamos premios a quienes completaran nuestros juegos.
+    - **Mysterious Old Man:** Bueno, había uno de nosotros que era un poco siniestro. Era malvado y vago, y jugaba con sus víctimas como un gato con un ovillo de lana.
+    - **Mysterious Old Man:** He oído que aún puedes invocarlo si dices tres letras en una secuencia.
+    - **Player:** Me parece un mito urbano. ¿Qué letras?
+    - **Mysterious Old Man:** C...
+    - **Mysterious Old Man:** I...
+    - **Mysterious Old Man:** ...
+    - **Player:** ¿Y?  ¿Cuál es la última letra?
+    - **Mysterious Old Man:** ...
+    - **Player:** ¡Dilo!
+    - **Mysterious Old Man:** S!
+    - **Evil Bob:** ¡Miau!
+    - **Mysterious Old Man:** No... ¿qué?  ¡Nooooo!
+    - **Player:** Bueno, ¡eso no se ve todos los días!
+  - Realmente debo irme.
+    - **Mysterious Old Man:** ¡No seas un extraño! Volverás a verme pronto, ¿verdad? ¿Bien?

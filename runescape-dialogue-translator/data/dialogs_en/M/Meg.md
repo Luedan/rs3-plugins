@@ -1,0 +1,1203 @@
+# Meg
+
+- **Original Wiki Page**: [Transcript:Meg](https://runescape.wiki/w/Transcript%3AMeg)
+- **Letter**: `M`
+
+---
+
+## Dialogue Transcript
+
+
+### At Player-owned ports
+
+
+#### Talking to Meg
+
+
+##### First time
+
+- **Meg:** Hi the-
+- **Meg:** Oh, good Guthix...it's you! I mean, it's really you!
+- **Meg:** I am such a fan! I've been following your adventures for - well, -forever!
+- **Meg:** I'm an adventurer myself. Well, okay, I'm not a proper adventurer - certainly not of your calibre - but I've been on a couple of adventures. Okay, one.
+- **Meg:** Okay, so I daydreamed about an adventure, but it's something I really want to do!
+- **Meg:** I'm Meg by the way...
+- **Meg:** I..erm...already know your name.
+- (continue|standard)
+
+##### Thereafter
+
+- **Meg:** Hi, it's so cool to see you again!
+- {{anchor|standard}} [Menu]: Select an Option
+  - [Choice]: How are your adventures going?
+    - **Meg:** Well, I was about to go on one...but I could use a little advice if you're up for it. I'll give you some of the treasure I find as a thank-you!
+    - [Menu]: Select an Option
+      - [Choice]: Sure, ask away.
+        - *(Meg asks the player three questions; to each question the player gives an answer, and then Meg responds.)*
+          - **Meg:** A friend of mine told me about this rare breed of shark that can walk on land. I've decided to go and hunt one down - It'd look great mounted on my wall at home. Erm..do you have any idea how I would go about doing that?
+            - They'll probably use sound to track prey.
+              - (continue|post-advice)
+            - Dance on the ground to attract them.
+              - (continue|post-advice)
+            - Use kebbits as bait
+              - (continue|post-advice)
+            - I think your friend is pulling your leg, Meg.
+              - (continue|post-advice)
+            - Dig a moat to trap them
+              - (continue|post-advice)
+            - Stay on rock. They won't swim through that
+              - (continue|post-advice)
+            - Dig underground to find them.
+              - (continue|post-advice)
+            - You'll need a strong harpoon.
+              - (continue|post-advice)
+            - Keep above the ground
+              - (continue|post-advice)
+            - Use fire to trap them in one place.
+              - (continue|post-advice)
+          - **Meg:** After defeating a gang of scurvy seadogs - which I've not done, but am very close to nearly-maybe doing - what's the best way to haul off my loot?
+            - Take the most valuable pieces with you.
+              - (continue|post-advice)
+            - Don't get carried away by greed. Take what you need.
+              - (continue|post-advice)
+            - Get a big, sturdy bag.
+              - (continue|post-advice)
+            - Throw the loot into the sea for safekeeping.
+              - (continue|post-advice)
+            - Ask the seadogs to carry it for you.
+              - (continue|post-advice)
+          - **Meg:** Any general tips on being stealthy? I want to sneak my way past some rather scary looking people.
+            - Keep to the shadows and cover yourself in dark colours.
+              - (continue|post-advice)
+            - Keep to the shadows.
+              - (continue|post-advice)
+            - Move slowly and carefully.
+              - (continue|post-advice)
+            - Move quickly.
+              - (continue|post-advice)
+            - Make yourself stand out, they won't expect that.
+              - (continue|post-advice)
+          - **Meg:** Do you have any advice for dealing with magical traps?
+            - Research them carefully
+              - (continue|post-advice)
+            - Try setting them off remotely.
+              - (continue|post-advice)
+            - Warding spells are your friend.
+              - (continue|post-advice)
+            - Shoot them first.
+              - (continue|post-advice)
+            - Just use brute force.
+              - (continue|post-advice)
+          - **Meg:** Have you heard the stories of zombies in Karamja? A terrible curse that turns people into monsters? It's horrible and I'm going to find a way to put a stop to it. I hear tales of an artefact that can cure it - a bag filled with strange magical powder, so I'm going to find it. Any idea of where I should look?
+            - The jungles would be a good place to hide it.
+              - (continue|post-advice)
+            - Look in the caves around Karamja.
+              - (continue|post-advice)
+            - Sneak into the Legends' Guild and see if they know.
+              - (continue|post-advice)
+            - Investigate sources of magic.
+              - (continue|post-advice)
+            - Try the villages.
+              - (continue|post-advice)
+            - Ask the local populace.
+              - (continue|post-advice)
+            - Interrogate a broodoo victim.
+              - (continue|post-advice)
+            - Interrogate a jogre.
+              - (continue|post-advice)
+            - Look in the heart of the volcano.
+              - (continue|post-advice)
+            - Try the broodoo ritual yourself for inspiration.
+              - (continue|post-advice)
+          - **Meg:** I have heard about a great way to improve my connection to the spiritual, something called an... erm... ecto-fungus? Yeah, the ecto-fungus is in Morytania somewhere, and I shall quest to find this ghostly mushroom... thing. Any tips?
+            - I hear it's near Port Phasmatys.
+              - (continue|post-advice)
+            - Work on your agility - it'll help.
+              - (continue|post-advice)
+            - It's called the Ectofuntus, Meg.
+              - (continue|post-advice)
+            - You'll need bones, pots and buckets.
+              - (continue|post-advice)
+            - I think you should do more research before going.
+              - (continue|post-advice)
+            - Morytania is dangerous. Be careful.
+              - (continue|post-advice)
+            - Fungus grows in dark damp areas.
+              - (continue|post-advice)
+            - Follow the ghasts. They'll lead you there.
+              - (continue|post-advice)
+            - Beat up some werewolves. They'll tell you where it is.
+              - (continue|post-advice)
+            - I hear it's in the heart of the vampyre city.
+              - (continue|post-advice)
+          - **Meg:** I have heard stories of strange lobsters that lie deep within the swamps of Morytania. Lobsters that have been twisted by the malevolent forces that reside there. So twisted, that their skin has turned into obsidian blackness. So I'm going to find some. Any suggestions?
+            - They're just burnt lobsters, Meg.
+              - (continue|post-advice)
+            - Someone was trying to trick you, Meg.
+              - (continue|post-advice)
+            - Don't go Meg. They're lies.
+              - (continue|post-advice)
+            - Were they very crispy?
+              - (continue|post-advice)
+            - Bring a lobster net.
+              - (continue|post-advice)
+            - Be prepared for disappointment.
+              - (continue|post-advice)
+            - They'll hide in deep ponds.
+              - (continue|post-advice)
+            - They'll be near ghasts.
+              - (continue|post-advice)
+            - Sure, but first, let me cut your gems for you.
+              - (continue|post-advice)
+            - I hear they taste particularly good.
+              - (continue|post-advice)
+          - **Meg:** I have heard that deep within the swamps of Morytania, there lives a witch with terrible and dark power. So, I'm going to go and steal her book of spells. Any advice?
+            - Reconsider. Witches can be unpredictable.
+              - (continue|post-advice)
+            - Make sure you have a strong magic defence.
+              - (continue|post-advice)
+            - Bring some allies for support.
+              - (continue|post-advice)
+            - Be stealthy; wait till she leaves.
+              - (continue|post-advice)
+            - Offer to trade for it.
+              - (continue|post-advice)
+            - Ask another witch first.
+              - (continue|post-advice)
+            - Set her house on fire.
+              - (continue|post-advice)
+            - Throw rocks at her.
+              - (continue|post-advice)
+            - Research life as a toad.
+              - (continue|post-advice)
+            - Poke her with spoons. Witches hate spoons.
+              - (continue|post-advice)
+          - **Meg:** I heard there's a cup that never runs out of water. I was wondering if I could use that to my advantage...if I could find it.
+            - Learn the enchantment that makes it work.
+              - (continue|post-advice)
+            - You could help the needy during droughts.
+              - (continue|post-advice)
+            - It could keep you hydrated in the desert.
+              - (continue|post-advice)
+            - Put it on its side and gradually wear a fortress wall away.
+              - (continue|post-advice)
+            - Handy for washing your clothes.
+              - (continue|post-advice)
+          - **Meg:** I may have upset a few people. What's a good way of dealing with an angry mob?
+            - Set a trap beforehand.
+              - (continue|post-advice)
+            - Get yourself the homeground advantage.
+              - (continue|post-advice)
+            - Get help.
+              - (continue|post-advice)
+            - Rig explosive traps around you.
+              - (continue|post-advice)
+            - Take the fight to them.
+              - (continue|post-advice)
+          - **Meg:** I met this really weird guy in Karamja the other day, he kept talking to me about this plant as though it were alive. Weird. However he did introduce me to these  bizarre little creatures and a way of hunting them to make potions. I thought it could be useful. Any tips?
+            - Make sure your farming skill is up to scratch.
+              - (continue|post-advice)
+            - Look out for the rare breeds of jadinko.
+              - (continue|post-advice)
+            - Make juju hunter flasks.
+              - (continue|post-advice)
+            - Bring hunter potions.
+              - (continue|post-advice)
+            - Set up lots of the traps.
+              - (continue|post-advice)
+            - Wear camouflage.
+              - (continue|post-advice)
+            - Use normal box traps.
+              - (continue|post-advice)
+            - Use deadfall traps.
+              - (continue|post-advice)
+            - Cut off bits of the vine to snare them.
+              - (continue|post-advice)
+            - That guy's crazy. Just trap the things with fire.
+              - (continue|post-advice)
+          - **Meg:** I might be overreaching a bit with this adventure. See I've heard that there might be a secret dungeon in Morytania, one created by a powerful necromancer and - well - that means there might be dark secrets to uncover. So... I'm going to investigate. Any advice that will help me get back alive?
+            - Necromancy seems to have nasty side effects. Be careful.
+              - (continue|post-advice)
+            - Don't go alone.
+              - (continue|post-advice)
+            - Bring equipment that's good against undead.
+              - (continue|post-advice)
+            - Keep teleport runes handy.
+              - (continue|post-advice)
+            - Note what you find in a journal.
+              - (continue|post-advice)
+            - Don't let zombies bite you.
+              - (continue|post-advice)
+            - Drink any potions you find.
+              - (continue|post-advice)
+            - Go in secret, so no one can betray you.
+              - (continue|post-advice)
+            - If a zombie bites you, bite back.
+              - (continue|post-advice)
+            - If you find anything, cast the biggest spell you can.
+              - (continue|post-advice)
+          - **Meg:** I think I've got a lot better at being stealthy, so I am going to test my skills. I have decided to sneak into the vampyre city and steal something from there. Any suggestions?
+            - Look for a vampyre resistance group.
+              - (continue|post-advice)
+            - Find a good disguise.
+              - (continue|post-advice)
+            - Have a quick escape plan.
+              - (continue|post-advice)
+            - Vampyres are hard to fool.
+              - (continue|post-advice)
+            - Reconsider. Vampyres are deadly.
+              - (continue|post-advice)
+            - Create a distraction.
+              - (continue|post-advice)
+            - Keep to the shadows.
+              - (continue|post-advice)
+            - Stick to the high ground.
+              - (continue|post-advice)
+            - It's dark, so bring a light source.
+              - (continue|post-advice)
+            - Mark yourself with blood. They won't investigate you.
+              - (continue|post-advice)
+          - **Meg:** I want to bind an elemental to serve me. Any ideas?
+            - Leave that to the Wizards' Tower.
+              - (continue|post-advice)
+            - Try and bargain with one, rather than bind it.
+              - (continue|post-advice)
+            - Use the opposite element to control one.
+              - (continue|post-advice)
+            - Force one into submission with violence.
+              - (continue|post-advice)
+            - Invoke demonic magic.
+              - (continue|post-advice)
+          - **Meg:** I want to cross terrain faster. What animals are safe to ride?
+            - None that I know of.
+              - (continue|post-advice)
+            - I guess unicorns, if you can tame them.
+              - (continue|post-advice)
+            - I'd stick to going on foot.
+              - (continue|post-advice)
+            - Bears.
+              - (continue|post-advice)
+            - Fire elementals.
+              - (continue|post-advice)
+          - **Meg:** I want to focus on sword fighting. Any pointers?
+            - Treat the sword as an extension of your arm.
+              - (continue|post-advice)
+            - Remember - the sword can do more than just stab.
+              - (continue|post-advice)
+            - Keep the pointy end away from you.
+              - (continue|post-advice)
+            - Throw it at your enemy.
+              - (continue|post-advice)
+            - Juggle with them to scare your foe.
+              - (continue|post-advice)
+          - **Meg:** I want to train an animal to help me. What would you recommend?
+            - Dogs are loyal and have great noses.
+              - (continue|post-advice)
+            - Birds have a great range of travel.
+              - (continue|post-advice)
+            - Ferrets can fit through small gaps.
+              - (continue|post-advice)
+            - Cats are cute.
+              - (continue|post-advice)
+            - Bears are cuddly and friendly.
+              - (continue|post-advice)
+          - **Meg:** I was... erm... working on opening doors that, strictly speaking, I don't have the keys for. Can I pick your brain?
+            - Get some good quality lockpicks.
+              - (continue|post-advice)
+            - Locate alternative entrances.
+              - (continue|post-advice)
+            - Make sure the place is empty first.
+              - (continue|post-advice)
+            - Just kick the door down.
+              - (continue|post-advice)
+            - Stand outside and shout 'fire!'
+              - (continue|post-advice)
+          - **Meg:** I was trying to disarm someone at range, but it's tricky. What do I do?
+            - Aim for their arm rather than their hand.
+              - (continue|post-advice)
+            - Use a crossbow for greater accuracy.
+              - (continue|post-advice)
+            - Try throwing daggers.
+              - (continue|post-advice)
+            - Use a cannon.
+              - (continue|post-advice)
+            - Aim for their head. That'll disarm them.
+              - (continue|post-advice)
+          - **Meg:** I was wondering how I fight a pirate with a hook.
+            - Keep your distance.
+              - (continue|post-advice)
+            - Carefully - treat the hook as a weapon.
+              - (continue|post-advice)
+            - Disarm him quickly.
+              - (continue|post-advice)
+            - Put a cork on the hook.
+              - (continue|post-advice)
+            - Ignore it. focus on their main weapon.
+              - (continue|post-advice)
+          - **Meg:** I was wondering what the best weapon was for cutting through dense undergrowth.
+            - A strong machete.
+              - (continue|post-advice)
+            - A sharp sword.
+              - (continue|post-advice)
+            - A good knife.
+              - (continue|post-advice)
+            - A bladed whip.
+              - (continue|post-advice)
+            - A warhammer.
+              - (continue|post-advice)
+          - **Meg:** I'll need to travel through cave networks. Any advice?
+            - Get a mining helmet.
+              - (continue|post-advice)
+            - Speak to the dwarves for suggestions.
+              - (continue|post-advice)
+            - Bring rope. Lots of rope.
+              - (continue|post-advice)
+            - Oil yourself so you can slip through tight spaces.
+              - (continue|post-advice)
+            - Dive straight in.
+              - (continue|post-advice)
+          - **Meg:** I'm trying to enchant my sword with runes, but it doesn't seem to work. ...?
+            - Enchanting doesn't work that way.
+              - (continue|post-advice)
+            - You'll need an enchantment spell.
+              - (continue|post-advice)
+            - Go to the Wizards' Tower for help.
+              - (continue|post-advice)
+            - Make a sword out of rune essence.
+              - (continue|post-advice)
+            - Eat rune essence so you're in tune with your sword.
+              - (continue|post-advice)
+          - **Meg:** I'm worried about insects. Any ideas of how to protect against them?
+            - Insects don't like smoke.
+              - (continue|post-advice)
+            - When in a tent, cover the gaps with netting.
+              - (continue|post-advice)
+            - Avoid walking near hives.
+              - (continue|post-advice)
+            - Ignore them. You need to toughen up.
+              - (continue|post-advice)
+            - Coat yourself in honey.
+              - (continue|post-advice)
+          - **Meg:** I've been formally challenged to my first duel. Please help!
+            - Scope out the arena first.
+              - (continue|post-advice)
+            - Research your opponent.
+              - (continue|post-advice)
+            - Check your weapons first.
+              - (continue|post-advice)
+            - Sabotage their weapon beforehand.
+              - (continue|post-advice)
+            - Don't turn up.
+              - (continue|post-advice)
+          - **Meg:** I've discovered an ancient temple filled with the undead. How do I kill them?
+            - Bring a group.
+              - (continue|post-advice)
+            - Arm yourself with powerful weapons.
+              - (continue|post-advice)
+            - Bring food to heal.
+              - (continue|post-advice)
+            - Undead are weak. Just charge in.
+              - (continue|post-advice)
+            - Use the Bones to Peaches spell on the skeletons.
+              - (continue|post-advice)
+          - **Meg:** I've found a waterfall I need to scale down. What's the best thing to do?
+            - Find a path nearby.
+              - (continue|post-advice)
+            - Scale the cliffside, not the fall.
+              - (continue|post-advice)
+            - Tie a rope to the top to control your descent.
+              - (continue|post-advice)
+            - Test a raft first.
+              - (continue|post-advice)
+            - Close your eyes and hope.
+              - (continue|post-advice)
+          - **Meg:** I've heard rumours of a haunted house. Any thoughts on how I should investigate?
+            - Find out why the ghosts are haunting it.
+              - (continue|post-advice)
+            - Talk to an exorcist first.
+              - (continue|post-advice)
+            - Bring salt.
+              - (continue|post-advice)
+            - Go alone. You'll draw less attention.
+              - (continue|post-advice)
+            - Stab the ghosts.
+              - (continue|post-advice)
+          - **Meg:** I've noticed several restless ghosts wandering around Gielinor and I want to help. I've decided I will become an exorcist, setting these spirits free. Erm... don't suppose you have any idea how I do that?
+            - Father Urhney is a skilled exorcist. He can help.
+              - (continue|post-advice)
+            - Try to find out what's keeping the spirits trapped.
+              - (continue|post-advice)
+            - An amulet of ghostspeak would be useful.
+              - (continue|post-advice)
+            - Give them a proper burial.
+              - (continue|post-advice)
+            - Salt and holy water.
+              - (continue|post-advice)
+            - Get a priest to help.
+              - (continue|post-advice)
+            - Just ignore them.
+              - (continue|post-advice)
+            - Destroy them with magic.
+              - (continue|post-advice)
+            - Give them to a demon.
+              - (continue|post-advice)
+            - Bind them to serve you.
+              - (continue|post-advice)
+          - **Meg:** Oh dear. I'm hoping to adventure in Lumbridge, but I'm a little concerned about how to deal with the goblin population.
+          - **Meg:** Any pointers? A great adventurer like you must know something!
+            - Distract them with something shiny first.
+              - (continue|post-advice)
+            - Try attacking from a distance. They tend to be melee-based.
+              - (continue|post-advice)
+            - Goblins are fairly weak. Just be brave.
+              - (continue|post-advice)
+            - Strike quickly, before they can strike you.
+              - (continue|post-advice)
+            - A quick strike to the stomach often works.
+              - (continue|post-advice)
+            - Make yourself seem intimidating.
+              - (continue|post-advice)
+            - Work on counter-attacks, not attacks.
+              - (continue|post-advice)
+            - Throw rocks at them.
+              - (continue|post-advice)
+            - They're harmless. Just punch them.
+              - (continue|post-advice)
+            - Just remember to mock Bandos.
+              - (continue|post-advice)
+          - **Meg:** Oh, good Guthix! I-I-I was attacked by... by ROCKS! ROCKS! They just seemed to move of their own accord and went for me. I fought them off, but it was close. I have been told that they're called 'rock crabs'. Do you have advice about them?
+            - Fighting rock crabs is good combat training.
+              - (continue|post-advice)
+            - Their rock forms can be identified, if you're observant.
+              - (continue|post-advice)
+            - Pickaxes are good against them.
+              - (continue|post-advice)
+            - They have a strong defence. Be careful.
+              - (continue|post-advice)
+            - Use a dwarf multicannon.
+              - (continue|post-advice)
+            - Take care not to get too injured.
+              - (continue|post-advice)
+            - Disguise yourself as a rock.
+              - (continue|post-advice)
+            - Just run away screaming.
+              - (continue|post-advice)
+            - They spit fire!
+              - (continue|post-advice)
+            - They're highly poisonous. FLEE, MEG!
+              - (continue|post-advice)
+          - **Meg:** Oh, I discovered a terrible thing on my travels to Morytania. There are people who are not what they seem. One moment they are normal humans, but the next they become huge snarling creatures. I need to know how to deal with them. Any suggestions?
+            - I hear there is a magic weapon that will help.
+              - (continue|post-advice)
+            - Attack from a distance.
+              - (continue|post-advice)
+            - Try diplomacy first.
+              - (continue|post-advice)
+            - Bring food. They can hit hard.
+              - (continue|post-advice)
+            - They're scary, but mortal.
+              - (continue|post-advice)
+            - Try and kill them before they change.
+              - (continue|post-advice)
+            - Stamp on their tail.
+              - (continue|post-advice)
+            - Swat them on the nose.
+              - (continue|post-advice)
+            - Poke them repeatedly; they can't fight if angry.
+              - (continue|post-advice)
+            - Insult their fur.
+              - (continue|post-advice)
+          - **Meg:** Oh, it's awful - those poor people in Morytania, forced to live under the yoke of cruel vampyre masters. I'm going to save as many as I can. I'll slay me some vampyres. Ahh... any idea how I would do that?
+            - Vampyres don't like silver.
+              - (continue|post-advice)
+            - I hear you need a potion to defeat them.
+              - (continue|post-advice)
+            - Be careful. Vampyres are very dangerous.
+              - (continue|post-advice)
+            - You'll need a special weapon to defeat them.
+              - (continue|post-advice)
+            - Stake them.
+              - (continue|post-advice)
+            - I think holy water is effective.
+              - (continue|post-advice)
+            - Drag them into sunlight.
+              - (continue|post-advice)
+            - Coat your sword in garlic first.
+              - (continue|post-advice)
+            - Just stab them.
+              - (continue|post-advice)
+            - Fight them bare-handed.
+              - (continue|post-advice)
+          - **Meg:** Oh, while I've got you - I was planning on seeing if I could use a bow and arrow as a sort of grappling hook thing. What do you think?
+            - You'd be better off using a crossbow
+              - (continue|post-advice)
+            - Arrows aren't generally good at holding weight.
+              - (continue|post-advice)
+            - Use the arrows as footholds instead.
+              - (continue|post-advice)
+            - Aim the arrow at a downward angle.
+              - (continue|post-advice)
+            - Use flaming arrows, so they melt into the surface a bit.
+              - (continue|post-advice)
+          - **Meg:** Okay, so a friend of mine told me he's heard rumours of a powerful flail that was wielded by one of Saradomin's generals way back in the God Wars. I'm going to go and quest for it. Do you have any suggestions on where to start?
+            - Be careful. A weapon like that will be guarded.
+              - (continue|post-advice)
+            - Be sure you can trust your friend.
+              - (continue|post-advice)
+            - Saradomin's followers may know something.
+              - (continue|post-advice)
+            - Ask around. Rumours are occasionally based on truth.
+              - (continue|post-advice)
+            - Look in ancient ruins.
+              - (continue|post-advice)
+            - It's just a rumour.
+              - (continue|post-advice)
+            - Leave it to me. I'll find it eventually.
+              - (continue|post-advice)
+            - It's clearly a lie, Meg. Why bother looking?
+              - (continue|post-advice)
+            - Keep buying flails until you get the right one.
+              - (continue|post-advice)
+            - Never liked flails. Too easy to hit yourself.
+              - (continue|post-advice)
+          - **Meg:** Okay, so I have a problem. Um. I set up a series of magical traps and... locked myself out of my own house. Any suggestions?
+            - Study them carefully. It'll come back to you.
+              - (continue|post-advice)
+            - Work backwards.
+              - (continue|post-advice)
+            - Set them off remotely.
+              - (continue|post-advice)
+            - Just charge through.
+              - (continue|post-advice)
+            - Move house.
+              - (continue|post-advice)
+          - **Meg:** Okay, so I heard that I can hunt swamp lizards and use them to breathe fire on my enemies. That sounds really useful. Any ideas on how to catch them?
+            - Watch out for ghasts.
+              - (continue|post-advice)
+            - Look for trees that aren't rotten.
+              - (continue|post-advice)
+            - Don't wear anything flammable.
+              - (continue|post-advice)
+            - Set several traps to be sure.
+              - (continue|post-advice)
+            - Wear camouflage.
+              - (continue|post-advice)
+            - Be very quiet to avoid spooking them.
+              - (continue|post-advice)
+            - Box traps might work.
+              - (continue|post-advice)
+            - Deadfall traps are good for them.
+              - (continue|post-advice)
+            - Stamp on them.
+              - (continue|post-advice)
+            - Douse yourself in oil first.
+              - (continue|post-advice)
+          - **Meg:** Okay, so I wanted to improve my connection to the divine powers and I thought Lumbridge would be a good place to start. Any suggestions?
+            - Ask Father Aereck about a ghost for a good reward.
+              - (continue|post-advice)
+            - The Salvation auras can be useful.
+              - (continue|post-advice)
+            - Imps drop ashes that you can scatter.
+              - (continue|post-advice)
+            - There are lots of goblins to get bones from.
+              - (continue|post-advice)
+            - Just buy a bunch of bones from the Grand Exchange.
+              - (continue|post-advice)
+            - Sit in on local sermons.
+              - (continue|post-advice)
+            - Just keep praying. You'll improve it that way.
+              - (continue|post-advice)
+            - Duel random people to show your devotion to the gods.
+              - (continue|post-advice)
+            - Ignore Lumbridge and go straight to the frost dragons.
+              - (continue|post-advice)
+            - Greater demons drop some nice ashes. You can defeat them, right?
+              - (continue|post-advice)
+          - **Meg:** Okay, so I was speaking to this wise old adventurer in the Poison Arrow pub the other day - scary place and he told me the tale of El Piskay the Demon Fish of the River Lum. So I am going to catch it! Although I'm not so good with water... or fish... or fishing rods... Any advice?
+            - I think you should start smaller, Meg.
+              - (continue|post-advice)
+            - Why not get some help on this one?
+              - (continue|post-advice)
+            - I'm not sure that fish is real, Meg.
+              - (continue|post-advice)
+            - Be calm and don't panic.
+              - (continue|post-advice)
+            - Make sure the rod is secure.
+              - (continue|post-advice)
+            - Find out what the right bait is first.
+              - (continue|post-advice)
+            - If you fire several harpoons at once, you won't miss.
+              - (continue|post-advice)
+            - Buy the adventurer a drink and bring him along.
+              - (continue|post-advice)
+            - Wrestle it into submission. You'll be legendary!
+              - (continue|post-advice)
+            - Dam up the river so it can't escape!
+              - (continue|post-advice)
+          - **Meg:** Okay, so I went to Lumbridge and I noticed the vast wealth difference between the Duke and his subjects and I just thought 'why?'. I mean, it's not like he needs ALL of that wealth. So, I am going to break into the castle and steal from his treasury to give it to the poor locals. Erm... any idea how I would go about doing that?
+            - You might want to have a chat with the Thieves' Guild.
+              - (continue|post-advice)
+            - The castle's fairly open. Scope it out first.
+              - (continue|post-advice)
+            - A disguise is always a good idea.
+              - (continue|post-advice)
+            - Take the wealth in small batches over time.
+              - (continue|post-advice)
+            - Plan carefully.
+              - (continue|post-advice)
+            - Go at night, when it's easier to stay unseen.
+              - (continue|post-advice)
+            - Enlist the goblins for help.
+              - (continue|post-advice)
+            - Dig under the tower from the swamp.
+              - (continue|post-advice)
+            - No subtlety. Attack directly - show them who's boss!
+              - (continue|post-advice)
+            - Borrow a cannon and lay siege to the castle as a distraction.
+              - (continue|post-advice)
+          - **Meg:** Okay, so I'm planning on crossing over White Wolf Mountain, but there are... well, there are wolves there! I don't want to be eaten. Can you help me at all? I really need advice.
+            - Take them out from a distance.
+              - (continue|post-advice)
+            - Run past them and bring food.
+              - (continue|post-advice)
+            - Collect their bones for summoning.
+              - (continue|post-advice)
+            - Wear strong armour to reduce the danger.
+              - (continue|post-advice)
+            - You could just teleport past it.
+              - (continue|post-advice)
+            - Travel in a group.
+              - (continue|post-advice)
+            - Go at night, for stealth.
+              - (continue|post-advice)
+            - Dig through the mountain.
+              - (continue|post-advice)
+            - Remember - wolves always work alone.
+              - (continue|post-advice)
+            - Cover yourself in blood first. That scares them.
+              - (continue|post-advice)
+          - **Meg:** Okay, so I'm taking myself on an adventure to the dangerous town of Lumbridge and I heard about this technique called runecrafting. It sounds like a useful skill to have and so I have made it my mission to investigate! Erm... any ideas what it is and where I should look?
+            - Find the Wizard's Tower. They can help.
+              - (continue|post-advice)
+            - Ask the wizards about the Runespan.
+              - (continue|post-advice)
+            - Get yourself a wicked hood.
+              - (continue|post-advice)
+            - Goblins sometimes drop talismans when slain. Worth a look.
+              - (continue|post-advice)
+            - You'll need some essence first.
+              - (continue|post-advice)
+            - The air altar can be found east of the River Lum.
+              - (continue|post-advice)
+            - Runecrafting is lame. Magic is for sissies.
+              - (continue|post-advice)
+            - Fletching is more useful.
+              - (continue|post-advice)
+            - Find runes, then just paint the symbols on rocks.
+              - (continue|post-advice)
+            - Crush runes up and use the dust.
+              - (continue|post-advice)
+          - **Meg:** Okay, so I've been tasked with a dangerous undertaking: the... erm... assassination of a dangerous foe. I have to kill... THE FERRET OF DOOM! A big, burly Fremennik warrior named Thok told me about it. Any hints or tips?
+            - I think you should let Thok overcome his own fears.
+              - (continue|post-advice)
+            - I think its natural enemy is the heim crab.
+              - (continue|post-advice)
+            - Set a trap for it.
+              - (continue|post-advice)
+            - I suspect it's not as scary as he claims.
+              - (continue|post-advice)
+            - Sneak up on it from behind.
+              - (continue|post-advice)
+            - Use stealth; stick to the shadows.
+              - (continue|post-advice)
+            - Collapse the dungeon on it.
+              - (continue|post-advice)
+            - Go alone; just be quick.
+              - (continue|post-advice)
+            - Just tell Thok that he's a big coward.
+              - (continue|post-advice)
+            - Wait it out. Ferrets don't live that long.
+              - (continue|post-advice)
+          - **Meg:** Okay, so I've decided I need to pitch my fighting skills against scarier opponents than chickens. I've decided to test my swordsmanship against the Black Knights. Of course, I would like to come back alive from this, so I wondered if you had any tips.
+            - They're weak against magic.
+              - (continue|post-advice)
+            - Bring a White Knight as assistance.
+              - (continue|post-advice)
+            - Keep your nerves steady.
+              - (continue|post-advice)
+            - You can heal at the Monastery.
+              - (continue|post-advice)
+            - Make sure you're wearing good armour.
+              - (continue|post-advice)
+            - Bring food to heal.
+              - (continue|post-advice)
+            - Wear black armour to infiltrate them.
+              - (continue|post-advice)
+            - Bring a Black Knight as assistance.
+              - (continue|post-advice)
+            - Dress in white armour so they don't suspect you.
+              - (continue|post-advice)
+            - Use ranged weapons. They're weak against those.
+              - (continue|post-advice)
+          - **Meg:** Okay, so I've heard rumours of an ancient temple hidden in the Kharazi jungle somewhere. I've decided to investigate to see if I can be the first to uncover it. Don't suppose you have any pointers do you?
+            - Bring a machete. The jungle is thick.
+              - (continue|post-advice)
+            - Might want to find someone who's been there before.
+              - (continue|post-advice)
+            - Mark where you've been so you can get back.
+              - (continue|post-advice)
+            - Arm yourself. The locals might not be friendly.
+              - (continue|post-advice)
+            - Remember that it's just a rumour, Meg.
+              - (continue|post-advice)
+            - Climb a tree to get a better view of the area.
+              - (continue|post-advice)
+            - If attacked, wave your swords around while screaming.
+              - (continue|post-advice)
+            - Flies can be a great source of nutrition.
+              - (continue|post-advice)
+            - Ask a monkey.
+              - (continue|post-advice)
+            - Tame a deathwing and survey the area from above.
+              - (continue|post-advice)
+          - **Meg:** Okay, well, thing is... I was hoping to catch something in Lumbridge. Something horrible; something terrifying beyond words. I was hoping to catch... shrimp. Don't laugh - they're horrible things! Slimy and icky... Any tips on how to catch them effectively?
+            - Just remember that they're harmless.
+              - (continue|post-advice)
+            - Use a small fishing net and grab the shrimp quickly.
+              - (continue|post-advice)
+            - Cook them immediately so they don't freak you out.
+              - (continue|post-advice)
+            - Wear gloves so you don't have to feel them.
+              - (continue|post-advice)
+            - Just look for the right fishing spots.
+              - (continue|post-advice)
+            - Get a net and shove it in the water.
+              - (continue|post-advice)
+            - Get a fishing rod and be patient.
+              - (continue|post-advice)
+            - Just buy them from the Grand Exchange.
+              - (continue|post-advice)
+            - Harpoon the shrimp, they'll know who's boss.
+              - (continue|post-advice)
+            - Stick your head in and catch them with your teeth.
+              - (continue|post-advice)
+          - **Meg:** So I've been wanting to work on my fletching skills, but I just can't get enough feathers. The shops won't sell them to me after that nasty incident at the archery competition. It was the wind, I'm sure of it! Anyway, I've discovered these birds that have amazing blue feathers so, how do I catch them?
+            - Set up several traps and be patient.
+              - (continue|post-advice)
+            - Watch for favoured flight patterns.
+              - (continue|post-advice)
+            - Disguise the traps as best you can.
+              - (continue|post-advice)
+            - Consider putting seeds on the trap.
+              - (continue|post-advice)
+            - Not really my area of expertise.
+              - (continue|post-advice)
+            - Wear camouflage.
+              - (continue|post-advice)
+            - Shoot them down with an arrow.
+              - (continue|post-advice)
+            - Sing at them. Birds love song.
+              - (continue|post-advice)
+            - Just whack the birds with a whip.
+              - (continue|post-advice)
+            - Set fire to the trees so they can only land on your trap.
+              - (continue|post-advice)
+          - **Meg:** So, I've been wondering about those little red things... imps, I think they're called. There were a few in Lumbridge and I was going to try my hand at catching one. Got any pointers?
+            - Try baiting the traps with beads.
+              - (continue|post-advice)
+            - Watch out for their teleports.
+              - (continue|post-advice)
+            - Be quiet and keep still. You don't want to spook them.
+              - (continue|post-advice)
+            - Make sure you're using the right trap.
+              - (continue|post-advice)
+            - Dress as a Zamorakian monk so they don't suspect you.
+              - (continue|post-advice)
+            - You'll need to use a magic box.
+              - (continue|post-advice)
+            - Shoot at them first.
+              - (continue|post-advice)
+            - Throw beads at them to confuse them.
+              - (continue|post-advice)
+            - Use a simple box trap. They're cheaper.
+              - (continue|post-advice)
+            - Use holy water on them. They hate it.
+              - (continue|post-advice)
+          - **Meg:** So, I've discovered that between me and my target is an army of the undead. What do I do?
+            - Whittle them down with cannonfire.
+              - (continue|post-advice)
+            - Don't panic. Undead are slow and stupid.
+              - (continue|post-advice)
+            - Blast them with magic.
+              - (continue|post-advice)
+            - Sneak past them.
+              - (continue|post-advice)
+            - Fight them with fists - they're weak to fists.
+              - (continue|post-advice)
+          - **Meg:** So I've heard about this powerful demonic force and I wondered if you had any idea how to stop it.
+            - Most demons can be banished. Find the ritual.
+              - (continue|post-advice)
+            - Look for a binding spell.
+              - (continue|post-advice)
+            - Be strong in your faith.
+              - (continue|post-advice)
+            - Stabbing it normally works.
+              - (continue|post-advice)
+            - Make a bargain with it. Should be fine.
+              - (continue|post-advice)
+          - **Meg:** So I've realised that I can make a little bit of money from polar kebbit fur. I figured I can't get tracking wrong. Except it turns out I can. I was stuck under that log for hours! Don't suppose you have any advice?
+            - Wear polar camouflage.
+              - (continue|post-advice)
+            - Stock up on hunter potions.
+              - (continue|post-advice)
+            - Keep quiet. They're easily spooked.
+              - (continue|post-advice)
+            - Just keep focused and prepare to lose a few.
+              - (continue|post-advice)
+            - Wear white clothes to blend in.
+              - (continue|post-advice)
+            - Stand upwind so they can't smell you.
+              - (continue|post-advice)
+            - Blast the burrows with Earth Bolt spells.
+              - (continue|post-advice)
+            - Block up all the exits with snow.
+              - (continue|post-advice)
+            - Smoke them out with fire.
+              - (continue|post-advice)
+            - Shout loudly to scare them.
+              - (continue|post-advice)
+          - **Meg:** So, I decided I need to improve my mystical knowledge and I said to myself, 'Meg, what better way to do so than to have a nice chat with a demon? Of course, they're big and scary and might try to devour my soul... Still, no pain no gain. Got any advice?
+            - Demons lie, Meg. Don't trust them.
+              - (continue|post-advice)
+            - Make sure you have a powerful wizard with you.
+              - (continue|post-advice)
+            - Whatever you do, don't agree to anything.
+              - (continue|post-advice)
+            - Be careful.
+              - (continue|post-advice)
+            - Make sure it's bound properly.
+              - (continue|post-advice)
+            - I think you should reconsider.
+              - (continue|post-advice)
+            - Summon it in a church.
+              - (continue|post-advice)
+            - Make sure you summon it in a place of power.
+              - (continue|post-advice)
+            - Don't bother with any sort of binding circle.
+              - (continue|post-advice)
+            - Offer it your soul for information.
+              - (continue|post-advice)
+          - **Meg:** So I had this plan to sneak into Varrock castle - you know, for all the treasure... But I'm a little concerned at what I should do if I get caught. Any tips?
+            - Trick the guard.
+              - (continue|post-advice)
+            - Fake illness, then escape.
+              - (continue|post-advice)
+            - Dig a tunnel with a spoon.
+              - (continue|post-advice)
+            - Hide under the bed.
+              - (continue|post-advice)
+            - Just don't get caught.
+              - (continue|post-advice)
+            - Remember that it's just a rumour, Meg.
+              - (continue|post-advice)
+            - Knock the guard out.
+              - (continue|post-advice)
+            - Kill the guard.
+              - (continue|post-advice)
+            - Kill everyone you meet.
+              - (continue|post-advice)
+            - Set fire to the castle.
+              - (continue|post-advice)
+          - **Meg:** So, I have decided that I need to get in touch with my spiritual side. I'm heading into Lumbridge to learn the secrets of the Saradominist church there. You know, the one by the graveyard. Any advice?
+            - Father Aereck is a good man to talk to.
+              - (continue|post-advice)
+            - Talk to Xenia in the nearby graveyard. She is an experienced adventurer.
+              - (continue|post-advice)
+            - Kill some goblins and bury their bones.
+              - (continue|post-advice)
+            - Be quiet and polite. It is a place of worship, after all.
+              - (continue|post-advice)
+            - Be sure to go in disguise.
+              - (continue|post-advice)
+            - It's just a church, Meg. You can just go inside.
+              - (continue|post-advice)
+            - Go find Father Urhney instead. He loves company.
+              - (continue|post-advice)
+            - Break in through the northern window.
+              - (continue|post-advice)
+            - It's secretly a Zamorakian temple.
+              - (continue|post-advice)
+            - Be careful - Father Aereck is clearly a Mahjarrat.
+              - (continue|post-advice)
+          - **Meg:** So I have heard the stories of flesh-eating fish, in the heart of Karamja, that will strip the flesh from your bones in seconds. I'm going to catch me some. Any suggestions?
+            - Use a long rod.
+              - (continue|post-advice)
+            - Don't go in the water.
+              - (continue|post-advice)
+            - Set a trap using meat and a net.
+              - (continue|post-advice)
+            - Find a way to trap them.
+              - (continue|post-advice)
+            - Wear sturdy armour.
+              - (continue|post-advice)
+            - Use meat as bait.
+              - (continue|post-advice)
+            - Use fish as bait.
+              - (continue|post-advice)
+            - Use fruit as bait.
+              - (continue|post-advice)
+            - Wade in and catch them close up.
+              - (continue|post-advice)
+            - Dive in and catch them with your teeth.
+              - (continue|post-advice)
+          - **Meg:** So I may have... accidentally made a pact with a demon. How do I get out of it?
+            - Find a loophole in the contract.
+              - (continue|post-advice)
+            - Bind the demon to your service.
+              - (continue|post-advice)
+            - Destroy the demon.
+              - (continue|post-advice)
+            - You can't.
+              - (continue|post-advice)
+            - Bargain with other demons.
+              - (continue|post-advice)
+          - **Meg:** So, I want to prove that I have what it takes to be an adventurer - you know, to get the job done. I realised that I'm going to need to get my hands dirty and show off my thieving skills. So I figured, what better way than to infiltrate the Thieves' Guild in Lumbridge? What do you think? Any suggestions?
+            - I've heard it's near a furnace.
+              - (continue|post-advice)
+            - Get on Darren Lightfinger's good side first.
+              - (continue|post-advice)
+            - Accept any 'job' offers the guild offers you.
+              - (continue|post-advice)
+            - Consider the art of disguise.
+              - (continue|post-advice)
+            - Steal from stalls to get some practice.
+              - (continue|post-advice)
+            - Practice pickpocketing on H.A.M members. They deserve it.
+              - (continue|post-advice)
+            - Remember - don't touch the handkerchiefs.
+              - (continue|post-advice)
+            - Ask the guards about where to find them.
+              - (continue|post-advice)
+            - Remember to shout at people before you rob them.
+              - (continue|post-advice)
+            - The secret to stealth is to drink a lot of alcohol first.
+              - (continue|post-advice)
+          - **Meg:** So, I was planning on making a canoe and sailing to some of the wilder places downriver. Tell me, what's the best wood to use?
+            - Just use one of the trees at the canoe station.
+              - (continue|post-advice)
+            - Try oak - sturdy, and not too expensive.
+              - (continue|post-advice)
+            - A tree's a tree.
+              - (continue|post-advice)
+            - Cursed magic trees, for extra speed.
+              - (continue|post-advice)
+            - Bloodwood trees. You can get to those, right?
+              - (continue|post-advice)
+          - **Meg:** So I was talking to an adventurer friend of mine. Well, 'friend' might be a strong term... 'Adventurer I met once' might be more accurate. Anyway, they were telling me about how useful rune essence is and I realised I could make a tidy profit if I just found another supply of it. Any idea where I might find one?
+            - Very special circumstances create rune essence. Look for those.
+              - (continue|post-advice)
+            - Honestly, it's unlikely you'll find one.
+              - (continue|post-advice)
+            - Rune essence absorbs magic. Look for weird side effects.
+              - (continue|post-advice)
+            - Look for high concentrations of magic.
+              - (continue|post-advice)
+            - Maybe the Wizards' Tower can help.
+              - (continue|post-advice)
+            - I'd consider a more fruitful quest.
+              - (continue|post-advice)
+            - Just take control of an existing mine.
+              - (continue|post-advice)
+            - Give up, Meg.
+              - (continue|post-advice)
+            - Just keep saying different words in the teleport spell.
+              - (continue|post-advice)
+            - Randomly teleport around the world.
+              - (continue|post-advice)
+          - **Meg:** So. Okay. So, don't judge me on this, but I've been having a few problems dealing with the... erm... Well, the chickens. I can't seem to defeat the chickens in Lumbridge. I don't suppose you have any advice do you?
+            - Sneak up on them from behind.
+              - (continue|post-advice)
+            - Draw a line in front of their beaks to hypnotise them.
+              - (continue|post-advice)
+            - Try not to show fear
+              - (continue|post-advice)
+            - Strike quickly. It gets it over with faster.
+              - (continue|post-advice)
+            - Just stab them.
+              - (continue|post-advice)
+            - Throw a rock at them first.
+              - (continue|post-advice)
+            - Make loud noises to scare them.
+              - (continue|post-advice)
+            - Chase them around to tire them out.
+              - (continue|post-advice)
+            - Use fire to trap them.
+              - (continue|post-advice)
+            - Summon the Evil Chicken. He'll take care of them.
+              - (continue|post-advice)
+          - **Meg:** Well I was planning on seeing if I could catch me a baby squirrel pet. I heard there were a couple of them around Lumbridge somewhere and I wanted to try my luck.
+          - **Meg:** Any advice?
+            - Make sure you're good enough at summoning to keep one.
+              - (continue|post-advice)
+            - A squirrel is for life, not just for a whim.
+              - (continue|post-advice)
+            - Nuts. I don't really need to say more.
+              - (continue|post-advice)
+            - Be careful. They can scratch.
+              - (continue|post-advice)
+            - Make sure your trap is secure.
+              - (continue|post-advice)
+            - Be patient and use more than one trap.
+              - (continue|post-advice)
+            - Try to catch one with a hawk.
+              - (continue|post-advice)
+            - Scare them into submission first.
+              - (continue|post-advice)
+            - Deadfall traps work better than nets.
+              - (continue|post-advice)
+            - Pitfall traps are the best way.
+              - (continue|post-advice)
+          - **Meg:** Well, I've been planning an expedition into the heart of the Lumbridge swamps, as a friend of mine told me that he's found a cavern full of something called a 'rune golem'.
+          - **Meg:** It only cost me 1000 gold - a bargain! Do you have any tips on how to deal with a rune golem?
+            - Tread carefully. It might be a trap.
+              - (continue|post-advice)
+            - It's never wise to pay money up-front like that.
+              - (continue|post-advice)
+            - You need to find better friends.
+              - (continue|post-advice)
+            - I think your 'friend' may have tricked you.
+              - (continue|post-advice)
+            - Bring a light source.
+              - (continue|post-advice)
+            - Scout out the area first.
+              - (continue|post-advice)
+            - Use fire. Golems hate fire.
+              - (continue|post-advice)
+            - You're an idiot, Meg.
+              - (continue|post-advice)
+            - Fold up your shopping list and put it into the golem's head.
+              - (continue|post-advice)
+            - I'll tell you for 1000 gold...
+              - (continue|post-advice)
+          - **Meg:** What's the best armour to wear while exploring?
+            - Something durable, which still allows freedom of movement.
+              - (continue|post-advice)
+            - Something that provides all-round protection.
+              - (continue|post-advice)
+            - Something comfortable.
+              - (continue|post-advice)
+            - A full suit of chainmail.
+              - (continue|post-advice)
+            - A full suit of heavy plate.
+              - (continue|post-advice)
+          - **Meg:** What's the best food to hunt for in the wild?
+            - Fish are generally easy to come by.
+              - (continue|post-advice)
+            - Rabbits are tasty and easy to catch.
+              - (continue|post-advice)
+            - Fruits and berries.
+              - (continue|post-advice)
+            - Rats are numerous.
+              - (continue|post-advice)
+            - Crocodiles.
+              - (continue|post-advice)
+          - **Meg:** What's the best way to take out a sorcerer?
+            - Use a powerful bow to take him out from range.
+              - (continue|post-advice)
+            - Take him out from the shadows.
+              - (continue|post-advice)
+            - Use a ranged weapon.
+              - (continue|post-advice)
+            - Fight Fire Bolts with Fire bolts.
+              - (continue|post-advice)
+            - Run up and punch him in the face .
+              - (continue|post-advice)
+          - **Meg:** Which of the gods is the right one to follow?
+            - Only you can answer that.
+              - (continue|post-advice)
+            - Why follow just one god?
+              - (continue|post-advice)
+            - Don't follow any.
+              - (continue|post-advice)
+            - Depends on what your favourite colour is.
+              - (continue|post-advice)
+          - *(After each answer prior to the final answer Meg may respond with any one of the following:)*{{anchor|post-advice}}
+            - **Meg:** Good idea!
+            - **Meg:** Gotcha! Thanks. One more...quick thing?
+            - **Meg:** Hrm... Are you sure? Wait, of course you're sure, you know your stuff! Thanks for the advice!
+            - **Meg:** Is that right? It sounds... No, I'm sure it's right. You're never wrong!
+            - **Meg:** Mhm, yep, got that. Just let me write that down...how do I spell that?
+            - **Meg:** Of course! Brilliant, thanks!
+            - **Meg:** Oh, yeah that makes sense. Thanks!
+            - **Meg:** Oh, okay. I think I can handle that.
+          - *After all questions are answered Meg may respond with any one of the following: *
+            - **Meg:** Okay, that's everything. I can do it... With your advice, I can brace the terrors that await me.<br>**Meg:** Wish me luck.
+            - **Meg:** Okay, that should be everything. I'll set off now and put your advice to good use.
+            - **Meg:** Thanks for the advice you're the best. Okay, I shall try not to die!
+          - *(After Meg gives her response to your final answer:)*
+            - {{Qact|Meg teleports away.}}
+      - [Choice]: Not just yet
+        - *(Shows previous options)*
+  - [Choice]: How are you?
+    - *At Stage 1: *
+      - **Meg:** I'm okay, I guess. It's just...well, it's just that I know I'm not as good at this whole adventure thing as I could be.
+      - **Meg:**  I mean, I try and slay a goblin and I end up stabbing myself in the leg.
+      - **Meg:** That's why I need you - I mean, you can help me to not be so...so...well, bad!
+      - *(Shows other options)*
+    - *At Stage 2: *
+      - **Meg:** I'm good...I think. I'm getting a little better at this whole adventurer gig.
+      - **Meg:** I mean, I still can't quite work out which way my sword's meant to go, but I'm getting there.
+      - *(Shows other options)*
+    - *At Stage 3: *
+      - **Meg:** Pretty good, actually. I'm starting to get quite good at all of this.
+      - **Meg:** I mean, only yesterday I was attacked by a highwayman and I was able to keep almost all of my money. Well, half.
+      - **Meg:** Okay, I got to keep a couple of coins, but for me that's progress.
+      - *(Shows other options)*
+    - *At Stage 4: *
+      - **Meg:** I'm good thanks to you. I've just joined the Champions' Guild so I think I'm getting good at this.
+      - **Meg:** I always wanted to be an adventurer, and now - thanks to you - I am.
+      - *(Shows other options)*
+  - [Choice]: What can you tell me about yourself?
+    - **Meg:** You...you want to know about me?
+    - **Meg:** Oh, good Guthix! It's like all my dreams came true at once!
+    - **Meg:** Well, my name's Meg - I mean, I think I told you that already - and I'm an adventurer.
+    - **Meg:** Well, I mean I'd like to be an adventurer. At the moment I'm more of a novice adventurer...but I'd like to be more.
+    - *At Stage 1, Stage 2, and Stage 3: *
+      - **Meg:** Currently my adventurers have been less than successful.
+      - **Meg:** I tried to take an egg from a chicken's nest... it didn't go well.
+      - **Meg:** I ended up hiding in the river for a week, living off reeds and insects. Those chickens were evil!
+      - *(Shows other options)*
+    - *At Stage 4: *
+      - **Meg:** My adventures have been more successful recently, thanks to you. I've started expanding my travels beyond Lumbridge and out into the wider world.
+      - **Meg:** Maybe one day I'll even be good enough to head out to the Eastern lands.
+      - *If you meet at least one requirement for Player Owned Ports: *
+        - **Meg:** Perhaps I'll be able to sail out on one of your ships.
+        - *(Shows other options)*
+      - *If you do not yet meet any requirement for Player Owned Ports: *
+        - **Meg:** I've heard some amazing things about them.
+        - *(Shows other options)*
+  - [Choice]: Shut up Meg
+    - **Meg:** OK!
+
+##### After Meg returns from her latest adventure
+
+- (Condition: First time logging in:)
+  - You receive word that Meg has returned from her latest adventure.
+- *Meg may greet you with any one of the following: *
+  - **Meg:** Oh, wow! I can't believe how amazing that was.
+  - **Meg:** Nothing went wrong. I didn't fall over my feet - not that I do that much - and no one threw rocks at me or anything like that. I even found some amazing treasure.
+  - **Meg:** Here, you deserve a big share, I couldn't have done it without you!
+  - **Meg:** Oh, it was amazing. I followed your advice and - while I did encounter a few problems - I prevailed.
+  - **Meg:** I brought you back a share of my treasure, just as I promised.
+  - **Meg:**<span style="font-weight:normal;"> That did not go as well as I expected. I'm sorry, but I wasn't able to get the loot that I intended to.
+  - **Meg:** Here's what I did find, though. I'll do better next time.</span>
+  - **Meg:** Oh, good Guthix, it was horrible! I barely escaped with my life. I-I must have gotten your advice mixed up, I'm so sorry.
+  - **Meg:** Oh, I'm such a fool. I'll do better next time, I really will.
+  - **Meg:** Please, don't give up on me - I know I can be a better adventurer. I just need practice.
+- *After Meg greets you:  *
+  - [Meg gives you a chest filled with spoils of her last adventure.]
+
+### In New Varrock
+
+- **Meg:** I'm sorry. I'm so, so sorry. <br>I just wanted to help...
+{{Player-owned port}}

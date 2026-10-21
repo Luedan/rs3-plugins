@@ -1,0 +1,610 @@
+# Santa Claus
+
+- **Original Wiki Page**: [Transcript:Santa Claus](https://runescape.wiki/w/Transcript%3ASanta%20Claus)
+- **Letter**: `S`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### 2018 Christmas event
+
+- **Santa Claus:** ¡Ho, ho, ho! ¡Feliz Navidad, Player!
+- **Player:** ¡Qué bueno verte de nuevo, Santa! ¿Qué tienes reservado para mí este año?
+- **Santa Claus:** Bueno, están sucediendo muchas cosas este año, por favor déjame saber de qué quieres hablar y continuaremos a partir de ahí.
+  - ¿De qué quieres hablar?
+    - La galleta navideña gigante.
+      - **Player:** ¿De qué se trata esa gran galleta que hay allí?
+      - **Santa Claus:** Ah, sí, ese es solo un pequeño regalo que traje aquí para compartir contigo. ¡Primero hay que envolverlo antes de poder separarlo! <!--break-->Puedes ayudar a envolver la galleta agregándole papel para galletas navideñas. El papel se obtiene al practicar y matar, ¡con un paquete adicional de papel disponible para completar tus desafíos diarios! <!--break-->Una vez que la galleta esté completamente envuelta, ¡puedes separarla para recibir muchos regalos! <!--break--> ¡No te preocupes si te pierdes la experiencia, tengo muchas más galletas conmigo que usaré para reemplazar las abiertas para poder envolverlas y sacarlas nuevamente! <!--break--> Sin embargo, debo advertirte que, en aras de la bondad, ¡debes agregar al menos 100 trozos de papel a una galleta para poder optar a un premio! <!--break--> Entonces, ¿a qué estás esperando? ¡Gánate algo de papel y empieza a envolver!
+        - Seleccione una opción
+          - ¿Qué premios están disponibles en el cracker?
+            - **Santa Claus:** Ho ho ho. Normalmente no permitiría esto, pero como me lo pediste tan amablemente, ¡te mostraré lo que se ofrece!
+            - **Player:** ¡Gracias, Papá Noel!
+            - *(Se muestra la interfaz de recompensas de galletas navideñas.)*
+          - Habla de otra cosa.
+            - *(Vuelve a las opciones iniciales.)*
+    - Fines de semana de invierno.
+      - **Player:** ¿Puede contarme más sobre los fines de semana de invierno, por favor?
+      - **Santa Claus:** ¡Por supuesto! Cada fin de semana de diciembre y durante el primer fin de semana de enero, habrá mejoras y mejoras para diversas actividades a lo largo del juego. <!--break-->Cada fin de semana comienza a partir del mediodía del viernes y termina al mediodía del lunes siguiente. ¡También hay un portal de invierno justo allí, que te ayudará a llegar a las ubicaciones activas más rápido que nunca! <!--break-->Si desea ver la lista completa de mejoras disponibles y en qué fines de semana estarán activas, abra la pestaña de eventos dentro de la interfaz de la comunidad.
+      - *(Vuelve a las opciones iniciales.)*
+    - El espíritu navideño.
+      - **Player:** ¡Amo tanto la Navidad! ¿Hay alguna forma en que pueda ayudarte?
+      - **Santa Claus:** Ahora que lo mencionas, hay algo. Mi trineo está impulsado por el espíritu navideño, pero parece estar desapareciendo este año. <!--break-->Si no consigo tener suficiente espíritu navideño a tiempo, me temo que no podré entregar todos los regalos que necesito. <!--break-->Si pudieras ayudarme, convocando un poco de tu propio espíritu navideño y transfiriéndolo a mi trineo, te estaría eternamente agradecido. <!--break-->I podrá ofrecerle experiencia en Summoning o Runecrafting por su tiempo y ayuda. Simplemente interactúa con mi trineo para comenzar.
+      - *(Vuelve a las opciones iniciales.)*
+    - Violet es azul.
+      - **Player:** ¿Conoces alguna misión en la que pueda participar?
+      - **Santa Claus:** ¡Sí, por supuesto! Escuché un rugido muy fuerte proveniente de White Wolf Mountain cuando llegué aquí, tal vez deberías comprobarlo para ver de qué se trataba el ruido. <!--break-->I he creado un portal en el extremo norte de Grand Exchange que le ayudará a empezar. No te preocupes, no deberías necesitar traer nada contigo.
+      - **Player:** ¡Eso suena intrigante! Gracias Papá Noel.
+      - *(Vuelve a las opciones iniciales.)*
+    - Cuéntame un chiste.
+      - *(Continúa con uno de los siguientes al azar:)*
+        - *(Diálogo 1:)*
+          - **Player:** ¡Apuesto a que no puedes hacerme reír!
+          - **Santa Claus:** ¡Reto aceptado! Tengo sólo el chiste para ti.
+          - *(Continúa a continuación.)*
+        - *(Diálogo 2:)*
+          - **Player:** ¡Cuéntame un chiste!
+          - **Santa Claus:** Déjame ver...
+          - *(Continúa a continuación.)*
+        - *(Diálogo 3:)*
+          - **Player:** ¿Cuál es el primer chiste que te viene a la mente?
+          - **Santa Claus:** Oh, eso es fácil...
+          - *(Continúa a continuación.)*
+        - *(Diálogo 4:)*
+          - **Player:** Debes haber escuchado muchos chistes a lo largo de los años, ¿cuál es el mejor?
+          - **Santa Claus:** Ja, ja, sí, ciertamente lo he hecho, déjame pensar...
+          - **Santa Claus:** Vale, aquí tienes uno bueno...
+          - *(Continúa a continuación.)*
+      - *(Continúa con uno de los siguientes al azar:)*
+        - *(Diálogo 1:)*
+          - **Santa Claus:** Un sándwich de jamón entra a un bar y pide una cerveza.
+          - **Santa Claus:** El camarero pide perdón, aquí no servimos comida.
+          - *(Continúa a continuación.)*
+        - *(Diálogo 2:)*
+          - **Santa Claus:** BNAG.
+          - **Player:** ¿Eh?
+          - **Santa Claus:** Eso está fuera de lugar.
+          - *(Continúa a continuación.)*
+        - *(Diálogo 3:)*
+          - **Santa Claus:** ¿Te enteraste del incendio en el circo de Balthazar?
+          - **Santa Claus:** ¡Estaba en tiendas de campaña!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 4:)*
+          - **Santa Claus:** ¿Te enteraste de la nueva escoba que acaba de salir?
+          - **Player:** ¿No?
+          - **Santa Claus:** ¡Está arrasando en todo el país!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 5:)*
+          - **Santa Claus:** ¿Quieres saber cómo mis renos son tan fuertes y pueden tirar de mi trineo toda la noche?
+          - **Player:** ¡Sí!
+          - **Santa Claus:** ¡Batidos proteicos!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 6:)*
+          - **Santa Claus:** ¿Has oído los chismes sobre la mantequilla?
+          - **Player:** ¿No?
+          - **Santa Claus:** En realidad, pensándolo bien, no debería difundirlo.
+          - *(Continúa a continuación.)*
+        - *(Diálogo 7 :)*
+          - **Santa Claus:** ¿Cómo es que {{Sic}} la ostra solo da botín una vez al mes?
+          - **Santa Claus:** ¡Porque son mariscos!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 8:)*
+          - **Santa Claus:** ¿Cómo ganó Scrooge el juego de gnomeball?
+          - **Player:** No lo sé.
+          - **Santa Claus:** ¡El fantasma de la Navidad pasó!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 9 :)*
+          - **Santa Claus:** ¿Cómo entran agresivamente los bandosianos en una habitación?
+          - **Santa Claus:** ¡Usan la puerta GRAAR!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 10 :)*
+          - **Santa Claus:** ¿Cómo comen los menafitas pasteles de roca?
+          - **Santa Claus:** ¡Ellos Sophanem!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 11 :)*
+          - **Santa Claus:** ¿Cómo se corta un océano en 2?
+          - **Santa Claus:** ¡Usas una sierra marina!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 12 :)*
+          - **Santa Claus:** ¿Cómo se puede entrar a la casa de los monos?
+          - **Santa Claus:** ¡Tienes que pagarle al Atolón de los Simios!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 13 :)*
+          - **Santa Claus:** ¿Cómo se organiza una fiesta en el espacio exterior?
+          - **Player:** No lo sé.
+          - **Santa Claus:** Tu planeta
+          - *(Continúa a continuación.)*
+        - *(Diálogo 14 :)*
+          - **Santa Claus:** Le entregué regalos al tipo que inventó los alféizares antes.
+          - **Player:** ¿Era un buen tipo?
+          - **Santa Claus:** Qué repisa.
+          - *(Continúa a continuación.)*
+        - *(Diálogo 15 :)*
+          - **Santa Claus:** ¿Cómo Santa derrota a Vorago?
+          - **Santa Claus:** ¡Utiliza el Mazo de los Hombres de Nieve!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 16 :)*
+          - **Santa Claus:** No suelo contar chistes de papá.
+          - **Santa Claus:** Pero cuando lo hago, se ríe.
+          - *(Continúa a continuación.)*
+        - *(Diálogo 17 :)*
+          - **Santa Claus:** Me perdí en la jungla de Karamjan mientras entregaba regalos el año pasado.
+          - **Player:** Oh no, ¿estabas bien?
+          - **Santa Claus:** Sí, afortunadamente tenía una brújula conmigo, así podía dibujar círculos con un lápiz.
+          - *(Continúa a continuación.)*
+        - *(Diálogo 18 :)*
+          - **Santa Claus:** Una vez ayudé a un granjero. Dijo que tiene 68 ovejas y me preguntó si podía reunirlas para él. dije seguro...
+          - **Santa Claus:** 70.
+          - *(Continúa a continuación.)*
+        - *(Diálogo 19 :)*
+          - **Santa Claus:** Una vez me dejaron algo de queso y leche cuando bajé por la chimenea de alguien.
+          - **Santa Claus:** ¡Qué lácteos!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 20 :)*
+          - **Santa Claus:** Una vez tuve citas rápidas. ¿Quieres saber qué pasó?
+          - **Player:** ¿Qué pasó?
+          - **Santa Claus:** ¡Saqué una galleta!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 21 :)*
+          - **Santa Claus:** ¿Soy solo yo quien encuentra los imanes realmente atractivos?
+          - *(Continúa a continuación.)*
+        - *(Diálogo 22 :)*
+          - **Santa Claus:** Toc, toc.
+          - **Player:** ¿Quién está ahí?
+          - **Santa Claus:** Quién.
+          - **Player:** ¿Quién, quién?
+          - **Santa Claus:** Suenas como un búho.
+          - *(Continúa a continuación.)*
+        - *(Diálogo 23 :)*
+          - **Santa Claus:** Toc, toc{{Sic}}
+          - **Player:** ¿Quién está ahí?
+          - **Santa Claus:** Arturo{{Sic}}
+          - **Player:** ¿Arturo, quién?
+          - **Santa Claus:** Arthur, ¿te quedan pasteles de carne picada?
+          - *(Continúa a continuación.)*
+        - *(Diálogo 24 :)*
+          - **Santa Claus:** ¿De qué lado tienen más plumas las gallinas?
+          - **Santa Claus:** ¡El exterior!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 25 :)*
+          - **Santa Claus:** Uno de mis elfos entró en mi oficina mientras yo hablaba de él con mi esposa.
+          - **Santa Claus:** Dijo que le disgusto.
+          - **Santa Claus:** Dije que sí, lo hice.
+          - *(Continúa a continuación.)*
+        - *(Diálogo 26 :)*
+          - **Santa Claus:** ¡La invención de la pala fue innovadora!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 27 :)*
+          - **Santa Claus:** ¿Qué villancico se escucha en el desierto?
+          - **Player:** No lo sé.
+          - **Santa Claus:** ¡Oh camello, fieles!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 28 :)*
+          - **Santa Claus:** ¿Qué le dijo Adam a su esposa el día antes de Navidad?
+          - **Santa Claus:** ¡Es Navidad, Nochebuena!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 29 :)*
+          - **Santa Claus:** ¿Cómo llamó el baterista a sus hijas gemelas?
+          - **Player:** No sé, ¿cómo llamó el baterista a sus hijas gemelas?
+          - **Santa Claus:** Anna 1, Anna 2.
+          - *(Continúa a continuación.)*
+        - *(Diálogo 30 :)*
+          - **Santa Claus:** ¿Qué dijo el granjero cuando perdió su tractor?
+          - **Santa Claus:** ¿Dónde está mi tractor?
+          - *(Continúa a continuación.)*
+        - *(Diálogo 31 :)*
+          - **Santa Claus:** ¿Qué dijo la cuerda después de enredarse?
+          - **Player:** ...
+          - **Santa Claus:** ¡Nuda de nuevo!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 32 :)*
+          - **Santa Claus:** ¿Qué se envían los ratones enojados en Navidad?
+          - **Player:** *encogimiento de hombros*
+          - **Santa Claus:** ¡Tarjetas cruzadas de ratón!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 33 :)*
+          - **Santa Claus:** ¿Qué montan los fantasmas en un parque de diversiones?
+          - **Player:** No lo sé. ¿Qué montan los fantasmas en un parque de diversiones?
+          - **Santa Claus:** Un fantasma rodante.
+          - *(Continúa a continuación.)*
+        - *(Diálogo 34 :)*
+          - **Santa Claus:** ¿Qué sufro si me quedo atrapado en una chimenea?
+          - **Player:** No sé, ¿qué sufres?
+          - **Santa Claus:** ¡Claustrofobia!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 35 :)*
+          - **Santa Claus:** ¿Qué cuelgan los renos de sus árboles de Navidad?
+          - **Player:** No lo sé.
+          - **Santa Claus:** ¡Cuernos!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 36 :)*
+          - **Santa Claus:** ¿Qué aprenden los pequeños ayudantes de Papá Noel en la escuela?
+          - **Player:** ...
+          - **Santa Claus:** ¡El elfo cómplice!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 37 :)*
+          - **Santa Claus:** ¿Qué cantan en la fiesta de cumpleaños de un muñeco de nieve?
+          - **Player:** ¿Feliz cumpleaños?
+          - **Santa Claus:** Congela a un buen amigo
+          - *(Continúa a continuación.)*
+        - *(Diálogo 38 :)*
+          - **Santa Claus:** ¿Qué cantan los vampiros{{Sic}} en Nochevieja?
+          - **Player:** ...
+          - **Santa Claus:** Auld Fang Syne{{Sic}}
+          - *(Continúa a continuación.)*
+        - *(Diálogo 39 :)*
+          - **Santa Claus:** ¿Cómo se llama a 2 arañas que se acaban de casar?
+          - **Player:** ...
+          - **Santa Claus:** Nuevas webs.
+          - *(Continúa a continuación.)*
+        - *(Diálogo 40:)*
+          - **Santa Claus:** ¿Cómo se llama a un gato en el desierto?
+          - **Player:** Anukat?
+          - **Santa Claus:** Sandy ¡Garras!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 41 :)*
+          - **Santa Claus:** ¿Cómo se llama un pollo embrujado?
+          - **Santa Claus:** ¡Geist de aves de corral!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 42 :)*
+          - **Santa Claus:** ¿Cómo se llama una chaqueta que se incendia?
+          - **Player:** No sé, ¿cómo se llama una chaqueta que se incendia?
+          - **Santa Claus:** ¡Una chaqueta!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 43 :)*
+          - **Santa Claus:** ¿Cómo se llama a un hombre sin cuerpo y sin nariz?
+          - **Player:** ¿Ayuda?
+          - **Santa Claus:** Nadie lo sabe.
+          - *(Continúa a continuación.)*
+        - *(Diálogo 44 :)*
+          - **Santa Claus:** ¿Cómo llamas a una persona que no cree en Santa Claus?
+          - **Player:** ¿Sin educación?
+          - **Santa Claus:** Ponche de huevo.
+          - *(Continúa a continuación.)*
+        - *(Diálogo 45 :)*
+          - **Santa Claus:** ¿Cómo se llama a alguien que se enoja cuando no tiene pan?
+          - **Player:** ¿Tienes hambre?
+          - **Santa Claus:** Falta intolerante a las tostadas.
+          - *(Continúa a continuación.)*
+        - *(Diálogo 46 :)*
+          - **Santa Claus:** ¿Qué haces si no puedes matar a un jefe?
+          - **Santa Claus:** ¡Pasa al Nex!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 47 :)*
+          - **Santa Claus:** ¿Qué obtienes si una oveja estudia karate?
+          - **Santa Claus:** Chuleta de cordero.
+          - *(Continúa a continuación.)*
+        - *(Diálogo 48 :)*
+          - **Santa Claus:** ¿Qué obtienes si cruzas a Santa con un pato?<!--...he's not speaking from experience is he?-->
+          - **Player:** No lo sé. ¿Qué obtienes si cruzas a Santa con un pato?
+          - **Santa Claus:** ¡Un charlatán navideño!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 49 :)*
+          - **Santa Claus:** ¿Qué obtienes si comes adornos navideños?
+          - **Player:** ...
+          - **Santa Claus:** ¡Tinsilitis!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 50 :)*
+          - **Santa Claus:** ¿Qué obtienes cuando cruzas un muñeco de nieve con un vampiro{{Sic}}?
+          - **Santa Claus:** ¡Congelación!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 51 :)*
+          - **Santa Claus:** ¿Qué le dice una abeja a su esposa con el pelo desordenado?
+          - **Player:** No lo sé.
+          - **Santa Claus:** ¡Haz un panal en tu cabello!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 52 :)*
+          - **Santa Claus:** ¿Qué dice un perro después de un duro entrenamiento?
+          - **Santa Claus:** ¡Eso fue fallo!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 53 :)*
+          - **Santa Claus:** ¿Qué dice 'Oh, Oh, Oh'?
+          - **Player:** ...
+          - **Santa Claus:** ¡Papá Noel caminando hacia atrás!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 54 :)*
+          - **Santa Claus:** ¿Qué pasó con el hombre que robó un Calendario de Adviento?
+          - **Player:** ¡Lo arrestaron, espero! ¡Ese chocolate tan dulce es sagrado!
+          - **Santa Claus:** ¡Tiene 25 días!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 55 :)*
+          - **Santa Claus:** ¿Cuál es la comida favorita de las ovejas?
+          - **Santa Claus:** ¡Bah-bah-que!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 56 :)*
+          - **Santa Claus:** ¿Cuál es la música favorita de los dioses mayores?
+          - **Santa Claus:** ¡Jazz!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 57 :)*
+          - **Santa Claus:** ¿Cuál es el animal más hambriento del mundo {{Sic}}?
+          - **Player:** No sé, ¿cuál es el animal más hambriento del mundo?
+          - **Santa Claus:** ¡Un pavo porque simplemente engullen, engullen, engullen!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 58 :)*
+          - **Santa Claus:** ¿Qué tipo de manzana crece en un árbol?
+          - **Player:** No lo sé. ¿Qué tipo de manzana crece en un árbol?
+          - **Santa Claus:** Todos ellos.
+          - *(Continúa a continuación.)*
+        - *(Diálogo 59 :)*
+          - **Santa Claus:** ¿Qué clase de gaviota no puede volar?
+          - **Player:** ...
+          - **Santa Claus:** ¡Una bi-gaviota!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 60 :)*
+          - **Santa Claus:** ¿Qué misión terminó con una rifa y un castillo inflable?
+          - **Santa Claus:** ¡Fiesta de los dioses!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 61 :)*
+          - **Santa Claus:** ¿Qué zapatillas usan las gallinas?
+          - **Player:** ¿Ninguno?
+          - **Santa Claus:** ¡Reeeebok-bok-bok-bokkaa!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 62 :)*
+          - **Santa Claus:** ¿Qué es marrón y pegajoso?
+          - **Player:** No lo sé.
+          - **Santa Claus:** Un palo.
+          - *(Continúa a continuación.)*
+        - *(Diálogo 63 :)*
+          - **Santa Claus:** ¿Cuál es el villancico favorito de un perro?
+          - **Player:** No lo sé. ¿Cuál es el villancico favorito de un perro?
+          - **Santa Claus:** Ladra, los ángeles heraldos cantan{{Sic}}
+          - *(Continúa a continuación.)*
+        - *(Diálogo 64 :)*
+          - **Santa Claus:** ¿Cuál es la diferencia entre un buen chiste y un mal momento?
+          - *(Continúa a continuación.)*
+        - *(Diálogo 65 :)*
+          - **Santa Claus:** ¿Qué monstruo jefe es más probable que encuentres en un taller?
+          - **Santa Claus:** ¡Un estante de sierras!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 66 :)*
+          - **Santa Claus:** ¿Quién entrega regalos a las crías de tiburón en Navidad?
+          - **Player:** *do dododo*
+          - **Santa Claus:** ¿Eh?
+          - **Player:** Oh, nada. Perdón, ¿cuál fue el chiste otra vez?
+          - **Santa Claus:** ¿Quién entrega regalos a las crías de tiburón en Navidad?
+          - **Santa Claus:** ¡Mandíbulas de Papá Noel!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 67 :)*
+          - **Santa Claus:** ¿Quién se esconde en la panadería en Navidad?
+          - **Player:** ...
+          - **Santa Claus:** ¡Un espía pícaro!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 68 :)*
+          - **Santa Claus:** ¿Por qué los árboles de Navidad son tan malos para coser?
+          - **Player:** *encogimiento de hombros*
+          - **Santa Claus:** ¡Siempre dejan caer las agujas!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 69 :)*
+          - **Santa Claus:** ¿Por qué una nariz no puede medir 30 centímetros de largo?
+          - **Santa Claus:** ¡Porque sería un pie!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 70 :)*
+          - **Santa Claus:** ¿Por qué el guardabosques no pudo matar a Nex?
+          - **Santa Claus:** ¡No trajo el arco de Za-ryte!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 71 :)*
+          - **Santa Claus:** ¿Por qué uno de mis ayudantes vio al médico?
+          - **Player:** ...
+          - **Santa Claus:** ¡Porque tenía una baja estima de 'elfo'!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 72 :)*
+          - **Santa Claus:** ¿Por qué la morsa lamió el sobre?
+          - **Player:** ...
+          - **Santa Claus:** ¡Porque estaba buscando un buen sello!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 73 :)*
+          - **Santa Claus:** ¿Por qué Rudolph no fue a la escuela?
+          - **Player:** No sé, ¿por qué Rudolph no fue a la escuela?
+          - **Santa Claus:** ¡Porque le enseñaron los elfos!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 74 :)*
+          - **Santa Claus:** ¿Por qué las vacas tienen pezuñas en lugar de patas?
+          - **Santa Claus:** ¡Porque tienen dedos de los pies!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 75 :)*
+          - **Santa Claus:** ¿Por qué la gente intenta minar los Túmulos?
+          - **Santa Claus:** ¡Para llegar a Dha-rocks!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 76 :)*
+          - **Santa Claus:** ¿Por qué Santa tiene tres jardines?
+          - **Player:** No lo sé.
+          - **Santa Claus:** ¡Para que pueda 'ho ho ho'!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 77 :)*
+          - **Santa Claus:** ¿Por qué Vorago come pizza de tiburón y camarones?
+          - **Santa Claus:** ¡Porque le gusta la combinación de tallas!
+          - *(Continúa a continuación.)*
+        - *(Diálogo 78 :)*
+          - **Santa Claus:** ¿Por qué el mercado de los elfos siempre está triste?
+          - **Santa Claus:** ¡Está lleno de puestos de llanto!
+          - *(Continúa a continuación.)*
+      - *(Continúa con uno de los siguientes al azar:)*
+        - *(Diálogo 1:)*
+          - **Player:** *palma de la cara*
+          - *(Vuelve a las opciones iniciales.)*
+        - *(Diálogo 2:)*
+          - **Player:** ...
+          - *(Vuelve a las opciones iniciales.)*
+        - *(Diálogo 3):*
+          - **Player:** ¡BUM BUM!
+          - *(Vuelve a las opciones iniciales.)*
+        - *(Diálogo 4:)*
+          - **Player:** JAJAJA ¡ESO ES DIVERTIDO!
+          - *(Vuelve a las opciones iniciales.)*
+        - *(Diálogo 5:)*
+          - **Player:** ¡JAJAJAJAJAJA!
+          - *(Vuelve a las opciones iniciales.)*
+        - *(Diálogo 6:)*
+          - **Player:** Por favor, detente.
+          - *(Vuelve a las opciones iniciales.)*
+        - *(Diálogo 7 :)*
+          - **Player:** ¡Papá Noel, eres el peor!
+          - *(Vuelve a las opciones iniciales.)*
+        - *(Diálogo 8:)*
+          - **Player:** Vaya. Simplemente guau.
+          - *(Vuelve a las opciones iniciales.)*
+        - *(Diálogo 9 :)*
+          - **Player:** Realmente estás lleno de chistes de papá, ¿no?
+          - **Santa Claus:** ¡Ho, ho, ho! ¡Hay mucho más de donde vino eso!
+          - *(Vuelve a las opciones iniciales.)*
+        - *(Diálogo 10 :)*
+          - **Santa Claus:** ¿Te gustó?
+          - **Player:** No.
+          - *(Vuelve a las opciones iniciales.)*
+        - *(Diálogo 11 :)*
+          - **Santa Claus:** ¿Te gustó?
+          - **Player:** ¡Ese fue el mejor chiste que he escuchado en mi vida!
+          - *(Vuelve a las opciones iniciales.)*
+        - *(Diálogo 12 :)*
+          - **Santa Claus:** ¡Nunca me canso de contarlo!
+          - *(Vuelve a las opciones iniciales.)*
+        - *(Diálogo 13 :)*
+          - **Santa Claus:** ¡Nunca me canso de contarlo!
+          - **Player:** Probablemente deberías...
+          - *(Vuelve a las opciones iniciales.)*
+
+### Christmas Village
+
+
+#### Apareciendo frente a su albergue.
+
+- (Action: Aparece Santa Claus. Dolph y Ru desaparecen. La puerta y la puerta del albergue se abren. Se ven fuegos artificiales.)
+- ((Los siguientes también se muestran como mensajes generales habituales:))
+  - {{Colour: {{Colour|#99FF99|Ho-ho-ho!}}}}
+  - {{Colour: {{Colour|#99FF99|MERRY CHRISTMAS!}}}}
+  - {{Colour: {{Colour|#99FF99|Welcome to my lodge! Come on in!}}}}
+  - {{Colour: {{Colour|#99FF99|If you've been nice, I just might have some presents for you!}}}}
+  - (continue)
+- (Action: Santa Claus entra.)
+
+#### Hablando con el interior del albergue.
+
+{{Incomplete|Missing picture for Santa looking at the list.}}
+- **Santa Claus:** ¡Ho-ho-ho! ¡Feliz navidad!
+- [Santa mira hacia abajo y revisa su lista.]
+- (Condition: Sin buenos puntos:)
+  - (Condition: Habiendo reclamado el regalo de la semana actual:)
+    - **Santa Claus:** No tengo nada para ti en este momento.
+    - (continue)
+  - (Condition: De lo contrario:)
+    - {{Transcript missing}}
+  - (Condition: Antes del último domingo del evento:)
+    - **Santa Claus:** Volveré la semana que viene. ¡Sé amable de ahora en adelante y quizás tenga más regalos para ti!
+  - (Condition: El último domingo del evento:)
+    - **Santa Claus:** ¡Las festividades están terminando pero este ha sido uno de los mejores años hasta ahora! ¡Te veré de nuevo el año que viene!
+    - **Santa Claus:** ¡Feliz Navidad y próspero año nuevo!
+- (Condition: Con buenos puntos:)
+  - **Santa Claus:** ¡Parece que has sido muy amable durante la semana pasada!
+  - (Condition: Habiendo reclamado el regalo de la semana actual:)
+    - **Santa Claus:** No tengo regalos nuevos para ti pero has sido amable. ¡Veamos si esos Nice Points te dan un sombrero de fiesta negro!
+    - (receives=700 Christmas spirit and mystery gift)
+    - Se ha agregado lo siguiente a su bolsa de divisas: [número] x Espíritu navideño.
+    - Abres tu regalo de Santa y recibes:
+    - [número] Espíritu navideño
+    - regalo misterioso
+    - (continue)
+  - (Condition: Sin haber reclamado el regalo de la semana actual:)
+    - **Santa Claus:** ¡Toma, toma este regalo!
+    - (Condition: Durante la semana 1 de 2023:)
+      - (Condition: Sin al menos cinco espacios backpack libres:)
+        - Necesitas al menos 5 espacios en tu backpack para recibir tu regalo.
+        - (ventana emergente)
+          - (Ventana emergente: Necesitas al menos 5 espacios en tu backpack para recibir tu regalo.|warning=yes)
+      - (Condition: Con al menos cinco espacios backpack libres:)
+        - (receives=peppermint top, peppermint legs, peppermint shoes, and peppermint gloves)
+        - Abres tu regalo de Santa y recibes:
+        - 1 x tapa de menta
+        - 1 x patas de menta
+        - 1 x zapatos de menta
+        - 1 x guantes de menta
+        - (continue)
+    - (Condition: Durante la semana 2 de 2023:)
+      - (Condition: Sin al menos dos espacios backpack libres:)
+        - Necesitas al menos 2 espacios en tu backpack para recibir tu regalo.
+        - (ventana emergente)
+          - (Ventana emergente: Necesitas al menos 2 espacios en tu backpack para recibir tu regalo.|warning=yes)
+      - (Condition: Con al menos dos espacios backpack libres:)
+        - (receives=Winter Hat (red and white))
+        - Abres tu regalo de Santa y recibes:
+        - 1 gorro de invierno.
+        - (continue)
+    - (Condition: Durante la semana 3 de 2023:)
+      - (Condition: Sin al menos dos espacios backpack libres:)
+        - Necesitas al menos 2 espacios en tu backpack para recibir tu regalo.
+        - (ventana emergente)
+          - (Ventana emergente: Necesitas al menos 2 espacios en tu backpack para recibir tu regalo.|warning=yes)
+      - (Condition: Con al menos dos espacios backpack libres:)
+        - (receives=Winter Scarf (red and white))
+        - Abres tu regalo de Santa y recibes:
+        - 1 bufanda de invierno.
+        - (continue)
+    - (Condition: Durante la semana 4 de 2023:)
+      - {{Transcript missing}}
+    - (Condition: Durante la semana 1 en 2024 o 2025:)
+      - (Condition: Sin espacio libre backpack:)
+        - Necesitas al menos 1 espacios en tu backpack para recibir tu regalo.
+        - (ventana emergente)
+          - (Ventana emergente: Necesitas al menos 1 espacio en tu backpack para recibir tu regalo.|advertencia=yes)
+      - (Condition: Con espacio gratuito backpack:)
+        - Abres tu regalo de Santa y recibes:
+        - Anulación cosmética 'Pijamas acogedores (árboles)'
+        - Anulación cosmética 'Cosy Slipper (Zuk)'
+        - (continue)
+    - (Condition: Durante la semana 2 en 2024 o 2025:)
+      - (Condition: Sin espacio libre backpack:)
+        - Necesitas al menos 1 espacios en tu backpack para recibir tu regalo.
+        - (ventana emergente)
+          - (Ventana emergente: Necesitas al menos 1 espacio en tu backpack para recibir tu regalo.|advertencia=yes)
+      - (Condition: Con espacio gratuito backpack:)
+        - Abres tu regalo de Santa y recibes:
+        - Anulación cosmética 'Cosy Pyjamas (Snowflakes)'
+        - Anulación cosmética "Zapatillas acogedoras (lisas)"
+        - (continue)
+    - (Condition: Durante la semana 3 en 2024 o 2025:)
+      - (Condition: Sin espacio libre backpack:)
+        - Necesitas al menos 1 espacios en tu backpack para recibir tu regalo.
+        - (ventana emergente)
+          - (Ventana emergente: Necesitas al menos 1 espacio en tu backpack para recibir tu regalo.|advertencia=yes)
+      - (Condition: Con espacio gratuito backpack:)
+        - Abres tu regalo de Santa y recibes:
+        - Anulación cosmética 'Pijamas acogedores (bastones de caramelo)'
+        - Anulación cosmética "Zapatillas acogedoras (pingüino)"
+        - (continue)
+    - (Condition: Durante la semana 4 en 2024 o 2025:)
+      - (Condition: Sin espacio libre backpack:)
+        - Necesitas al menos 1 espacios en tu backpack para recibir tu regalo.
+        - (ventana emergente)
+          - (Ventana emergente: Necesitas al menos 1 espacio en tu backpack para recibir tu regalo.|advertencia=yes)
+      - (Condition: Con espacio gratuito backpack:)
+        - Abres tu regalo de Santa y recibes:
+        - Anulación cosmética 'Cosy Pyjamas (a cuadros)'
+        - Anulación cosmética "Zapatillas acogedoras (a cuadros)"
+        - (continue)
+  - (Condition: Sin espacio libre backpack:)
+    - Necesitas al menos 1 espacios en tu backpack para recibir tu regalo.
+    - (ventana emergente)
+      - (Ventana emergente: Necesitas al menos 1 espacio en tu backpack para recibir tu regalo.|advertencia=yes)
+  - (Condition: Con espacio gratuito backpack:)
+    - (removes=all Nice Points)
+    - (Condition: Si el player ganó un sombrero de fiesta negro:)
+      - {{Transcript missing}}
+    - (Condition: Si el player no ganó un sombrero de fiesta negro:)
+      - (Condition: Si se acaban de reclamar otros regalos:)
+        - [Profundizas para comprobar si Santa te dejó algo especial para tus Nice Points.]
+        - [No había nada más dirigido a usted.]
+      - (Condition: Si otros regalos no fueran simplemente reclamados:)
+        - **Santa Claus:** Desafortunado, Player. No hay sombrero de fiesta negro para ti hoy, ¡pero siempre habrá la próxima vez!
+
+#### Saliendo del albergue
+
+- (Action: Los jugadores son sacados del albergue y el albergue y su puerta se cierran.)
+- ((Los siguientes también se muestran como mensajes generales habituales:))
+  - {{Colour: {{Colour|#99FF99|Ho-ho-ho!}}}}
+  - {{Colour: {{Colour|#99FF99|I must be on my way. These presents don't deliver themselves!}}}}
+  - {{Colour: {{Colour|#99FF99|MERRY CHRISTMAS!}}}}
+  - (continue)
+- (Action: Santa Claus desaparece.)
+- (Condition: Aproximadamente dos minutos después:)
+  - (Action: Buddy y el muñeco de nieve desaparecen. El depósito de carbón se vacía.)

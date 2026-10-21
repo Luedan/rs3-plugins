@@ -1,0 +1,92 @@
+# Art Critic Jacques
+
+- **Original Wiki Page**: [Transcript:Art Critic Jacques](https://runescape.wiki/w/Transcript%3AArt%20Critic%20Jacques)
+- **Letter**: `A`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### Talk to
+
+- **Player:** Hola.
+- **Art Critic Jacques:** ¡Ahh, muchos saludos y bienvenidos al Museo ze!
+- Elige una opción:
+  - ¿Quién eres?
+    - **Player:** ¿Quién eres?
+    - **Art Critic Jacques:** ¡Ahhh, amigo mío! ¡Mi nombre es Jacques y soy el mejor crítico de arte del Museo!
+    - **Player:** Me parece que eres el ÚNICO.
+    - **Art Critic Jacques:** Es cierto, amigo mío. ¡Sin embargo, en el futuro tendré mi propio piso completo del Museo con pinturas en abundancia!
+    - **Player:** Uhh... ¿Eso ha sido aprobado o solo estás soñando?
+    - **Art Critic Jacques:** Ah, veo que monsieur/madame tiene un pequeño bon mot, ¿eh?
+    - **Player:** Err... ¿hueso qué?
+    - **Art Critic Jacques:** Ze bon mot, se ríe, se burla de pincharme, ¿eh? Tendré mi galería, ya lo verás eventualmente, mon ami. Zen Seré ze, ¡cómo dices, riendo el último!
+    - (initial)
+  - ¿Qué haces aquí?
+    - **Player:** ¿Qué haces aquí?
+    - **Art Critic Jacques:** ¡Critico el arte! Vea los colores batifool y el uso magistral del pincel para capturar perfectamente la presencia real...
+    - Seleccione una opción
+      - Umm... es una pintura.
+        - **Player:** Umm... es sólo una pintura.
+        - **Art Critic Jacques:** ¿SOLO una pintura? ¿Cómo pudiste decir tal cosa? Cuando aprendas a apreciar estas maravillosas obras de arte, podrás hablar conmigo.
+        - Parece que ofendiste a Jacques.
+        - (initial)
+      - ¡Sí, ya veo!
+        - **Player:** ¡Sí, ya veo!
+        - **Player:** Y mira el uso de sombras y contrastes: ¿no es simplemente magnífico?
+        - **Art Critic Jacques:** Oui...así que eet eez. ¡Tan perfecto que casi me hace llorar de alegría! Las pinceladas grandilocuentes del pincel transmiten una especie de cualidad mística... parece casi como si estuviera aquí con nosotros.
+        - **Art Critic Jacques:** Mi padre, él también era crítico de arte... también veía la poesía en la pintura. Esto me recuerda un verso que me leería. ¿Te gustaría escucharlo?
+        - Seleccione una opción
+          - Sí, por favor.
+            - **Player:** Sí, por favor.
+            - **Art Critic Jacques:** Ahh, bien. Este verso proviene de un poema de uno de los más talentosos escritores de poesía, Charles Baudelaire. Mi padre me colocaba sobre sus rodillas y me leía como si...
+            - **Art Critic Jacques:** Je trône dans l'azuz comme un sphinx incompris; J'unis un coeur de neige à la blancheur des cygnes; Je hais le mouvement qui déplace les lignes, Et jamais je ne pleure et jamais je ne ris.
+            - Seleccione una opción
+              - Eso estuvo lindo, ¿qué significaba?
+                - **Player:** Eso estuvo lindo, ¿qué significa?
+                - **Art Critic Jacques:** Ahh, sí, lo olvidé, abre los oídos y se lo diré a monsieur/señora.
+                - **Art Critic Jacques:** Cisne de corazón blanco, una esfinge que ningún mortal conoce, Mi trono está en el profundo azul del cielo, odio todos los movimientos que perturban mi postura, nunca sonrío, ni lloro.
+                - Seleccione una opción
+                  - ¡Guau!
+                    - **Player:** Vaya.
+                    - **Player:** Eso es algo poderoso... y sí, entiendo lo que quieres decir con que la pintura te inspira a recordar ese poema...
+                    - **Art Critic Jacques:** Me alegro que lo hayas disfrutado. Por favor, tómese el tiempo para apreciar el Museo y la gran cantidad de información que hay aquí. ¡Ven a visitarme cuando tenga mi propia galería!
+                    - (initial)
+                  - Todavía no me gustó.
+                    - **Player:** Todavía no me gustó.
+                    - **Art Critic Jacques:** Es una pena, pero debes tener tu propia opinión, ¿no? Siéntase libre de explorar un poco más el Museo ze.
+                    - (initial)
+              - Hermosa.
+                - **Player:** Precioso.
+                - **Art Critic Jacques:** Ahh sí, así es. Siéntete libre de echar un vistazo más a ze Musem.
+                - (initial)
+              - No me gustó, pero todavía me gusta la pintura.
+                - **Player:** No me gustó, pero aún así me gusta la pintura.
+                - **Art Critic Jacques:** Ahh bueno, no es para todos, pero me alegra que te guste pintar.
+                - (initial)
+          - No gracias.
+            - **Player:** No, gracias.
+            - **Art Critic Jacques:** Ahh, bueno, no es para todos.
+            - (initial)
+  - ¿Qué estás coleccionando?
+    - **Art Critic Jacques:** Quieres información detallada o hablar de estas palabras, ¿eh?
+    - ¿Qué te gustaría hacer?
+      - Ver colecciones.
+        - ((Se abre la interfaz No conoces a Jacques.))
+      - Habla de colecciones.
+        - **Art Critic Jacques:** Bueno, ¡solo estoy realmente interesado en cualquier pintura que restaures, mon ami! ¡Es para mi proyecto de galería!
+        - **Art Critic Jacques:** Me encantaría llevarme también las estatuas y esculturas que encuentres, pero a pesar de que el museo tiene mayores fondos, todavía limitan mi departamento.
+        - **Art Critic Jacques:** El arte siempre ha sido mi pasión, ¡así que comencemos con el arte!
+        - **Player:** Entendido, cualquier pintura que encuentre, consideraré traerla para ti.
+        - (initial)
+  - ¿Cuáles son las recompensas de tu colección?
+    - **Art Critic Jacques:** '¿Has oído que dicen: 'Los que pueden, lo hacen, y los que no pueden, critican'?
+    - **Player:** No estoy seguro de haberlo hecho.
+    - **Art Critic Jacques:** Bueno, ¡no es la verdad! Critico Y pinto. Y soy increíble, aunque lo diga yo mismo... ¡y lo digo!
+    - **Player:** Está bien...
+    - **Art Critic Jacques:** Bueno, te haré un trato. Cualquier pintura que me traigas, ¡ahh, te pintaré una réplica! Puedes colgarlo en alguna parte. He oído que tienes acceso a la antigua oficina de Guildmaster Tony, ¿no? ¡Zat sería ideal!
+    - **Art Critic Jacques:** Y si encuentras todo el arte que busco... Bueno, ¡digamos que estoy trabajando en un original de Jacques! Es una pieza moderna sobre toda la locura de la arqueología. Yo lo llamo 'Ze God Wars'.
+    - **Art Critic Jacques:** No es un título original, lo sé, pero aún así podría ser tuyo.
+    - (initial)

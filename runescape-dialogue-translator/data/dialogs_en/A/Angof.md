@@ -1,0 +1,209 @@
+# Angof
+
+- **Original Wiki Page**: [Transcript:Angof](https://runescape.wiki/w/Transcript%3AAngof)
+- **Letter**: `A`
+
+---
+
+## Dialogue Transcript
+
+
+### In Tarddiad, after The Light Within
+
+
+#### Talking to Angof
+
+- **Angof:** Hello again Player.
+- [Menu]: Choose an option:|anchor=initial
+  - [Choice]: Tell me about the crystal shards.
+    - **Player:** Tell me about the crystals.
+    - **Angof:** What would you know?
+    - [Menu]: Choose an option:|shards
+      - [Choice]: I need complete crystals
+        - **Player:** I need complete crystals.
+        - **Angof:** I assumed you would. I have cleared all but the most dangerous of my kind from the area. Those that remain are beyond help and putting them out of their misery would be a kindness.
+        - {{tact|previous|shards}}
+      - [Choice]: Can I exchange fragments?
+        - **Player:** Can I exchange fragments?
+        - (Condition: Without sufficient crystal fragments in the backpack:)
+          - **Angof:** It appears you have insufficient fragments to trade.
+        - (Condition: Otherwise:)
+          - **Angof:** I will give you {{colour|#ff0000|[number1]}} complete crystals for {{colour|#ff0000|[number2]}} crystal fragments.
+          - [Menu]: Select an Option
+            - [Choice]: Ok
+              - {{tact|removes=[number2] crystal fragments}} {{tact|receives=[number1] Tarddian crystals}}
+              - You receive [number1] tarddian crystals.
+            - [Choice]: Not now
+              - {{tact|end}}
+      - [Choice]: Can I make anything with these shards?
+        - **Player:** Can I make anything with these shards?
+        - **Angof:** At the moment you could make some wind chimes or other decoration. There was a time when we could forge them into suits of armour. But like so much the knowledge is almost lost.
+        - **Player:** Do you know it?
+        - **Angof:** Indeed. And practicing this art may help to retain my focus. Very well. If you bring me infused shards I will sing the armour into being for you.
+        - {{tact|previous|shards}}
+      - [Choice]: What do the crystals do?
+        - **Player:** What do the crystals do?
+        - **Angof:** For my kind, they stave off the terrible need, if only for a while. They allow us a brief moment of lucidity before swallowing us back.
+        - **Player:** That sounds...unpleasant.
+        - **Angof:** It is. But it's either that or death.
+        - {{tact|previous|shards}}
+      - [Choice]: Ask about something else.
+        - {{tact|initial|initial}}
+  - [Choice]: Tell me about yourself.
+    - **Player:** Tell me about yourself.
+    - **Angof:** What would you like to know?
+    - [Menu]: Choose an option:|yourself
+      - [Choice]: What is your role here?
+        - **Player:** What is your role here?
+        - **Angof:** You ask that as though there were some sort of hierarchy here. Truth be told, I am merely the most coherent currently. Officially I serve no role. In time I too will forget myself and become...as the others. Perhaps another will become cognisant enough to take my place, or perhaps not.
+        - **Player:** So there's no lord, lady or any kind of ruler here?
+        - **Angof:** Haha once perhaps. But our civilisation, such that it is, no longer has such things.
+        - {{tact|previous|yourself}}
+      - [Choice]: What can you tell me about your history?
+        - **Player:** What can you tell me about your history?
+        - **Angof:** A broad question. I was born here, on Tarddiad, in the village of Cysur. I was a proud descendant of Ceidwad herself. Quite the mantle to carry. But even that impressive lineage did not stop me from getting the Sickness. I took the crystal before I even knew what it was. And that, for all intents and purposes, is my history. Every day since has been searching for those crystal shards. It is not an existence I would recommend. I confess greater coherence than my brethren, so I took it upon myself to watch out for them. Such as offering an alternative to their slaughter by some hapless adventurer. No offence.
+        - **Player:** None taken.
+        - {{tact|previous|yourself}}
+      - [Choice]: What are your opinions on Seren?
+        - **Player:** What are your opinions on Seren?
+        - **Angof:** It's strange. I should hate her for abandoning us. But I don't. All I feel is a profound sadness that she is not with me. Odd, isn't it?
+        - {{tact|previous|yourself}}
+      - [Choice]: Ask about something else.
+        - {{tact|initial|initial}}
+  - [Choice]: Tell me about the shapeshifters.
+    - **Player:** Tell me about the shapeshifters.
+    - **Angof:** What would you like to know?
+    - [Menu]: Choose an option:|anchor=shapeshifters
+      - [Choice]: What are they?
+        - **Player:** What are they?
+        - **Angof:** What a question. They are my family, my friends, the people I love. But of course you don't mean it like that. Once we were elves. Tall, graceful, proud and noble. But we loved a god and she abandoned us. After that, we could never be complete. Our histories speak of the countless deaths that followed the Great Exodus. Death from loneliness, from an impossible aching yearning. I'll wager that you have felt the pain of heartbreak at least once in your life. Now imagine that increased by a thousand. It was agony; torture. We had to find a solution and we did...to a degree. The native crystals to Tarddiad retained traces  her resonance. The tiniest sliver of her essence. Not enough by themselves...but we were adaptable. Using magic and a variation on the Song of Creation, we embedded these crystals within ourselves. It helped, at first. But we simply replaced one need for another and over time we became more and more dependant on the crystals. Over time the crystals changed us. We became...this. The crystals that we embedded within ourselves, began to twist us. Flesh and bone became malleable, like clay. At first it was a blessing. We could reshape and reforge ourselves. We became our weapons. Our artisans no longer needed to create and maintain tools to craft. Our form was pliable and limited only by our creativity. It could have been a golden age for my people. But we were fools to believe that there would be no cost. The crystals created within us a new need, a new hunger. An insatiable craving for more crystals. But it's a vicious cycle, the more we acquire, the more we crave. Soon there's nothing left but the aching need for crystal shards. You can see now why most of my brethren are mad. Consumed utterly by their hunger for the crystals.
+        - **Player:** But not you?
+        - **Angof:** Ha ha. Oh I crave the crystals. You have no idea how badly I crave them. Each minute is a struggle. Each thought is laced with desperate desire for more of them. But I resist. I remember what I...what we... once were and I use that knowledge to hold on. But I am slipping and it just takes one moment of weakness to fall forever.
+        - {{tact|previous|shapeshifters}}
+      - [Choice]: What are the crystals?
+        - **Player:** What are the crystals?
+        - **Angof:** Simultaneously they are our salvation and our doom. They were natural growths on Tarddiad. We used them in our tools and architecture. But it wasn't until Seren came that we saw their true potential. Seren was a beautiful goddess of crystal and these crystals resonated with her. Her songs, and ours, caused these crystals to absorb the tiniest sliver of her nature. Her essence, if you will. Not enough to cause her harm, or even for her to notice, but just enough to be special. They contain just enough essence to hold back the Sickness as well. Though not enough to  it off completely. But you can clearly see the profound side effects that they have on us physically, though the mental effect is far worse.
+        - {{tact|previous|shapeshifters}}
+      - [Choice]: Can I help them?
+        - **Player:** Can I help them?
+        - **Angof:** Perhaps Player, perhaps. The crystals that we crave can also be our salvation. If I can slowly  them off the crystals, then they might become as cognisant as I. Perhaps then, helping one another, we might help each other to find an alternative to these crystals.
+        - [Menu]: Select an Option
+          - [Choice]: Perhaps the elves on Gielinor can help.
+            - **Player:** {{anchor|perhaps-help}}Perhaps the elves on Gielinor can help.
+            - **Angof:** We would look like monsters to them and what could they do but watch us suffer? No, let us not create feelings of guilt for them or curse my kind with pity. Perhaps in time our people can reunite, but that time is not yet here.
+            - {{tact|previous2|shapeshifters}}
+          - [Choice]: I could gather more crystals.
+            - **Player:** I could gather more crystals. I need to gather them for the elves back in Gielinor anyway.
+            - **Angof:** Yes, that would help. I could ration them and help my brethren get back on their feet.
+            - **Player:** Will you be able to resist the temptation to use them yourself?
+            - **Angof:** Honestly I could not say. But I have resisted this long, with a clear goal in mind I believe I can prevail.
+            - [Menu]: Select an Option
+              - [Choice]: Perhaps the elves on Gielinor can help.
+                - {{tact|above|perhaps-help}}
+              - [Choice]: [Continue]
+                - {{tact|previous2|shapeshifters}}
+      - [Choice]: I need infused crystals|cond=After asking Angof if you can help the crystal shapeshifters:
+        - {{tact|above|complete}}
+      - [Choice]: Ask about something else.
+        - (initial|initial)
+  - [Choice]: Tell me about Tarddiad.|cond=Before giving Angof the ancient elven wedding ring:
+    - **Player:** {{anchor|aboutTarddiad}}Tell me about Tarddiad.
+    - **Angof:** What would you know?
+    - [Menu]: Choose an option:|anchor=tarddiad
+      - [Choice]: What happened to the elven civilisation?
+        - **Player:** What happened to the elven civilisation?
+        - **Angof:** When Seren left us and took the majority of our people with her, what remained was barely enough to maintain a civilisation. We drew inwards, becoming a number of small communities rather than the great cities of old. But without her light to guide us and to protect us, we became sick. Then we found the crystals. We began to care less about maintaining our society and more and more focused on simply finding more crystals. Soon there weren't even villages, we became wanderers. Nomads. Searching for the next source of crystals.
+        - {{tact|previous|tarddiad}}
+      - [Choice]: What are these crystal growths?
+        - **Player:** What are these crystal growths?
+        - **Angof:** Yes I heard your Gielinor did not have them. But to us they are as natural as the trees and rocks. They have always been part of my world.
+        - {{tact|previous|tarddiad}}
+      - [Choice]: What was the religion before Seren?
+        - **Player:** What was the religion before Seren?
+        - **Angof:** Do you know, I have no idea. I suppose it just stopped being relevant. I'm not even sure we had religion before her. We worked with the land, venerating what was, rather than the intangible.
+        - {{tact|previous|tarddiad}}
+      - [Choice]: Ask about something else.
+        - {{tact|initial|initial}}
+  - [Choice]: [Leave]|cond=Before giving Angof the ancient elven wedding ring:
+    - (end)
+  - [Choice]: [More...]|cond=After giving Angof the ancient elven wedding ring:
+    - [Choice]: Tell me about Tarddiad.
+      - {{tact|above|aboutTarddiad}}
+    - [Choice]: Tell me about Maldwyn.
+      - (continue|Maldwyn)
+    - [Choice]: [Leave]
+      - (end)
+    - [Choice]: [More...]
+      - (previous|initial)
+
+#### Using an ancient elven wedding ring on Angof
+
+- **Player:** I found this ring, does this mean anything to you?
+- (removes=one ancient elven wedding ring)
+- New collection log entry: Ancient elven wedding ring
+- (Condition: If this was the first time giving Angof the ring:)
+  - You have completed: 'Angs Off My Ring' - Return the wedding ring after 'The Light Within'.
+  - (continue)
+- **Angof:** Let me look at that...
+- **Angof:** No...Maldwyn.
+- **Angof:** He...he is...was...my husband.
+- [Menu]: Select an Option
+  - [Choice]: I'm sorry.
+    - **Player:** I'm sorry.
+    - **Angof:** I don't blame you Player. I imagine he left you little choice and if I'm truthful, I lost him long ago.
+    - [Menu]: Select an Option
+      - [Choice]: Tell me about Maldwyn.
+        - **Player:** Tell me about Maldwyn.
+        - **Angof:** It's painful to talk about him, but I'll try. What would you like to know?
+        - [Menu]: Choose an option:|anchor=maldQs
+          - [Choice]: cond=Only if not asked last or if "You weren't always female?" was asked previously:|How did you meet?
+            - **Player:** How did you meet?
+            - **Angof:** We grew up together originally, before we both lost ourselves to the crystal.
+            - **Angof:** We used to run through the forest together, playing the games that young boys tend to play.
+            - [Menu]: Select an Option
+              - [Choice]: [Don't {{Sic|interupt]}}
+                - **Angof:** We grew apart as the crystals took a greater hold on us. But we found each other again a few years back and we became each other's rock.
+                - **Angof:** We would keep each other away from the crystals and we supported each other through the most painful times.
+                - **Angof:** We weren't perfect. We failed more than once. But we were there to help the other back again when we did.
+                - **Angof:** Eventually he proposed to me and I accepted.
+                - **Angof:** But that was a long time ago now.
+                - (previous2|maldQs)
+              - [Choice]: Wait - young boys?
+                - **Player:** Wait - young boys?
+                - **Angof:** Yes. This body was born, incorrectly, male. I changed that.
+                - [Menu]: Select an Option
+                  - [Choice]: You weren't always female?
+                    - **Player:** You weren't always female?
+                    - **Angof:** You say that as though it is unusual. We are shapeshifters, gender to us is hardly a constant.
+                    - **Angof:** Sometimes we are born into a body that is not ours. Without the crystal that would be the end of it, but I was fortunate enough to be able to correct that mistake.
+                    - **Angof:** What I was is irrelevant. What I am is all that matters.
+                    - (above|maldQs)
+                  - [Choice]: Sorry, continue your story.
+                    - **Player:** Sorry, continue your story.
+                    - **Angof:** As you wish, now where was I?
+                    - (above|interrupt)
+          - [Choice]: cond=Only after asking something else after just having given a ring or not having just given a ring, and not asked last:|You weren't always female?
+            - (above|You weren't)
+          - [Choice]: cond=Only if not asked last:|What was he like?
+            - **Player:** What was he like?
+            - **Angof:** Practical. He knew what we needed and he made sure that we got it.
+            - **Angof:** This is not a world where grand sweep romantic gestures are still relevant.
+            - **Angof:** What was important...what I loved about him...was that he kept us safe, alive and sane.
+            - **Angof:** He had a dry sense of humour and an appropriate sense of comic timing. He knew what to say when I was stressed and when not to say anything.
+            - **Angof:** He could make me forget this horrible life, if only for a perfect little moment.
+            - **Angof:** And now he's gone.
+            - (previous|maldQs)
+          - [Choice]: cond=Only if not asked last:|Are you ok?
+            - **Player:** Are you ok?
+            - **Angof:** In many ways he's been dead to me for years. So I'll survive.
+            - **Angof:** But am I ok? No Player, I have not been ok for many...many years.
+            - (previous|maldQs)
+          - [Choice]: Ask about something else.
+            - (continuea|initial)
+      - [Choice]: I'll give you some space.
+        - **Player:** I'll give you some space.
+        - **Angof:** Thank you.
+  - [Choice]: Oops
+    - **Player:** Oops.
+    - **Angof:** No no, please, make fun of this. You have slaughtered the love of my life. My only light in a lifetime of endless, cloying, darkness.
+    - **Angof:** But no, go ahead, make fun.

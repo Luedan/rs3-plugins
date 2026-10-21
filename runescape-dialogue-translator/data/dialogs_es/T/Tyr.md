@@ -1,0 +1,171 @@
+# Tyr
+
+- **Original Wiki Page**: [Transcript:Tyr](https://runescape.wiki/w/Transcript%3ATyr)
+- **Letter**: `T`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+{{incomplete|missing dialogue for upgrading void knight armour}}
+
+### Before Quiet Before the Swarm
+
+- **Capitán Tyr:** Hola, ¿en qué puedo ayudarte?
+- **Elige una opción:**
+  - ¿Quién eres?
+    - **Player:** ¿Quién eres?
+    - **Capitán Tyr:** Soy un Void Knight, uno de la orden de Guthix. Somos guerreros del equilibrio que hacemos el trabajo de Guthix aquí en Gielinor.
+    - **Seleccione una opción**
+      - Vaya, ¿puedo unirme?
+        - **Player:** Vaya, ¿puedo unirme?
+        - **Capitán Tyr:** La entrada es estrictamente solo por invitación, sin embargo, necesitamos ayuda para continuar con el trabajo de Guthix.
+        - **Seleccione una opción**
+          - ¿Qué tipo de trabajo?
+            - *(Igual que a continuación.)*
+          - Buena suerte con eso.
+            - **Player:** Buena suerte con eso.
+      - ¿Qué tipo de trabajo?
+        - **Player:** ¿Qué tipo de trabajo?
+        - **Capitán Tyr:** Ah, bueno, verás, intentamos mantener Gielinor como pretendía Guthix, es un gran desafío. De hecho, hemos tenido algunos problemas recientemente, ¿quizás podrías ayudarnos?
+        - **Seleccione una opción**
+          - ¿Cuál es el problema?
+            - **Player:** ¿Cuál es el problema?
+            - **Capitán Tyr:** Bueno, el orden ha disminuido bastante con los años, es un proceso muy largo aprender las habilidades de un Void Knight. Recientemente, han llegado playas a nuestro reino desde algún otro lugar, y han estado atravesando extrañas criaturas. No podemos permitir que eso suceda y le agradeceríamos mucho que nos ayudara.
+            - **Seleccione una opción**
+              - ¿Cómo puedo ayudar?
+                - **Player:** ¿Cómo puedo ayudar?
+                - **Capitán Tyr:** Enviamos lanzadores desde nuestro puesto de avanzada a las islas cercanas. Si vas y esperas en el módulo de aterrizaje, eso sería de gran ayuda.
+              - Lo siento, pero no puedo.
+                - **Player:** Lo siento, pero no puedo.
+          - ¿Qué es 'Gielinor'?
+            - *(Igual que a continuación)*
+          - Preferiría no hacerlo, lo siento.
+            - **Player:** Preferiría no hacerlo, lo siento.
+      - ¿Qué es 'Gielinor'?
+        - **Player:** ¿Qué es 'Gielinor'?
+        - **Capitán Tyr:** Es el nombre que Guthix le dio a este mundo, por eso lo honramos con su uso.
+      - Ajá, claro.
+        - **Player:** Ajá, claro.
+  - ¿Qué es este lugar?
+    - **Player:** ¿Qué es este lugar?
+    - **Capitán Tyr:** Este es nuestro puesto de avanzada. Desde aquí enviamos lanchas a las islas cercanas para hacer retroceder a los invasores.
+    - **Seleccione una opción**
+      - ¿Qué invasores?
+        - **Player:** ¿Qué invasores?
+        - *(La misma respuesta que "¿Cuál es el problema?" arriba.)*
+      - ¿Cómo puedo ayudar?
+        - *(Igual que el anterior.)*
+      - Buena suerte con eso.
+        - **Player:** Buena suerte con eso.
+  - Estoy bien gracias.
+    - **Player:** Estoy bien, gracias.
+
+### After Quiet Before the Swarm
+
+- **Player:** Comodoro Tyr.
+- **Comodoro Tyr:** Player, es un gusto verte. ¿Qué puedo hacer por ti?
+- **¿QUÉ QUIERES PREGUNTAR?**
+  - ¿Cómo van las cosas en el puesto de avanzada?
+    - **Player:** ¿Cómo van las cosas en el puesto de avanzada?
+    - **Comodoro Tyr:** Lamentamos la pérdida de nuestros amigos.
+    - **Comodoro Tyr:** Pero somos Caballeros del Vacío y equilibramos nuestro duelo con la destrucción de portales. Seguiremos luchando mientras el equilibrio nos lo requiera.
+    - *Si Jessika murió durante The Void Stares Back:*
+      - **Player:** ¿Dónde está Korasi?
+    - *Si Korasi murió durante The Void Stares Back:*
+      - **Player:** ¿Dónde está Jessika?
+    - **Comodoro Tyr:** Probablemente esté en el campo de batalla. Ella realmente se ha volcado en ello desde la derrota de la Reina Pest. Creo que encuentra alivio allí.
+    - **Player:** Oh. En cierto modo esperaba hablar con ella.
+    - **Comodoro Tyr:** Dale tiempo, Player. Korasi y Jessika se habían hecho amigos cercanos durante todo esto. Fue una batalla dura para todos nosotros, pero creo que la más dura para ella.
+  - Todavía estoy un poco desconcertado por lo que pasó.
+    - **Player:** Todavía estoy un poco desconcertado por lo que pasó.
+    - **Comodoro Tyr:** Fue un... complot extraño el que Grayzag tramó, sin duda.
+    - **Player:** ¿Realmente pensó que podía controlar a la Reina Pest?
+    - **Comodoro Tyr:** Grayzag no estaba mentalmente sano. No se sabe en qué creía. Era un tonto y pagamos un alto precio por su tontería.
+    - **Player:** ¿Y qué pasa con el Valluta? Pensé que dijiste que era un arma.
+    - **Comodoro Tyr:** Sí, esa fue una mala interpretación del texto. Nuestro pueblo anhelaba un arma que pusiera fin a nuestra lucha contra las plagas, pero, habiendo hablado con Valluta, entiendo la verdad:
+    - **Comodoro Tyr:** Todas las criaturas de Guthix y aquellos que le sirven para defender este mundo del desequilibrio exterior son los Valluta. Somos instrumentos de equilibrio.
+    - **Player:** Entonces, ¿la tortuga grande era Valluta o un arma?
+    - **Comodoro Tyr:** Ella no es un arma. Ella es la Valluta, pero yo también y tú también.
+    - **Comodoro Tyr:** Guthix le otorgó el poder de curar las divisiones entre nuestro mundo y el Vacío.
+    - **Comodoro Tyr:** La intromisión de Grayzag creó demasiados portales para que ella sanara a la vez, lo que la distrajo, y luego la sustancia viscosa le quitó su poder.
+    - **Comodoro Tyr:** Cuando las cajas de sustancia viscosa explotaron, ella recuperó su poder y ahora se asegurará de que el portal principal permanezca cerrado.
+    - **Comodoro Tyr:** Sin embargo, mi gente debe continuar conteniendo las plagas usando estos portales, no sea que Valluta vuelva a extender demasiado su poder.
+  - He perdido la espada de Korasi.
+    - **Player:** He perdido la espada de Korasi.
+    - **Comodoro Tyr:** ¿En serio? Bueno, echemos un vistazo.
+    - *Si tienes la espada de Korasi:*
+      - **Comodoro Tyr:** Parece que todavía tienes la espada, Player.
+    - *Si no tienes la espada de Korasi:*
+      - **Comodoro Tyr:** Ah, sí, ha regresado a casa. Puedo dártelo de nuevo, pero tendré que pedirte 500.000 coins para honrar a los que murieron en el conflicto de Pest Queen.
+      - **¿PAGARÁS 500.000 COINS PARA RECUPERAR LA ESPADA?**
+        - Sí.
+          - Se han eliminado 500.000 coins de su bolsa de dinero.
+          - **Comodoro Tyr:** La espada de Korasi es tuya una vez más. Cuídalo.
+        - No.
+          - *(Termina el diálogo)*
+  - Me gustaría cambiar mi armadura void knight habitual por su versión élite.
+    - **Player:** Me gustaría cambiar mi armadura Void Knight habitual por su versión élite.
+    - **Comodoro Tyr:** Puedo hacer esto por ti por cien elogios. ¿Estás buscando intercambiar la parte superior, las piernas o ambas?
+    - **¿QUÉ PIEZA DE ARMADURA NECESITAS?**
+      - El torso.
+        - *Si te falta la pieza del torso de la armadura normal:*
+          - **Comodoro Tyr:** Me temo que necesitarás tu pieza de armadura habitual y cien elogios para mejorar tu camiseta.
+        - *Si tienes la pieza del torso de la armadura normal:*
+          - {{transcript missing}}
+      - Las piernas.
+        - *Si te falta la pieza de piernas de la armadura regular:*
+          - **Comodoro Tyr:** Me temo que necesitarás tu pieza de armadura habitual y cien elogios para mejorar tu túnica.
+        - *Si tienes la pieza de piernas de la armadura regular:*
+          - **Comodoro Tyr:** Tus túnicas han mejorado. Llévalos con orgullo.
+      - Ambos.
+        - *Si te faltan ambas piezas de la armadura normal:*
+          - **Comodoro Tyr:** Me temo que necesitarás tu pieza de armadura habitual y cien elogios para mejorar tu camiseta.
+          - **Comodoro Tyr:** Me temo que necesitarás tu pieza de armadura habitual y cien elogios para mejorar tu túnica.
+        - *Si te falta la pieza del torso de la armadura normal:*
+          - **Comodoro Tyr:** Me temo que necesitarás tu pieza de armadura habitual y cien elogios para mejorar tu camiseta.
+          - {{transcript missing}}
+        - *Si te falta la pieza de piernas de la armadura regular:*
+          - **Comodoro Tyr:** Me temo que necesitarás tu pieza de armadura habitual y cien elogios para mejorar tu túnica.
+          - {{transcript missing}}
+        - *Si tienes ambas piezas de la armadura normal:*
+          - {{transcript missing}}
+      - ¿Puedo intercambiar una armadura Void Knight superior?
+        - **Comodoro Tyr:** Sí, por el mismo precio. ¿Está buscando intercambiar la parte superior superior, las piernas o ambas?
+        - **¿QUÉ PIEZA DE ARMADURA NECESITAS?**
+          - El torso.
+            - *Si te falta la pieza del torso de la armadura superior:*
+              - **Comodoro Tyr:** Me temo que necesitarás tu pieza de armadura superior y cien elogios para mejorar tu parte superior.
+            - *Si tienes la pieza del torso de la armadura superior:*
+              - {{transcript missing}}
+          - Las piernas.
+            - *Si te falta la pieza de piernas de la armadura superior:*
+              - **Comodoro Tyr:** Me temo que necesitarás tu pieza de armadura superior y cien elogios para mejorar tu túnica.
+            - *Si tienes la pieza de piernas de la armadura superior:*
+              - {{transcript missing}}
+          - Ambos.
+            - *Si te faltan ambas piezas de armadura superior:*
+              - **Comodoro Tyr:** Me temo que necesitarás tu pieza de armadura superior y cien elogios para mejorar tu parte superior.
+              - **Comodoro Tyr:** Me temo que necesitarás tu pieza de armadura superior y cien elogios para mejorar tu túnica.
+            - *Si te falta la pieza del torso de armadura superior:*
+              - **Comodoro Tyr:** Me temo que necesitarás tu pieza de armadura superior y cien elogios para mejorar tu parte superior.
+              - {{transcript missing}}
+            - *Si te falta la pieza de pierna de la armadura superior:*
+              - **Comodoro Tyr:** Me temo que necesitarás tu pieza de armadura superior y cien elogios para mejorar tu túnica.
+              - {{transcript missing}}
+            - *Si tienes ambas piezas de armadura superior y cien elogios:*
+              - {{transcript missing}}
+  - Me gustaría cambiar el color de mi armadura.
+    - **Player:** Me gustaría cambiar el color de mi armadura.
+    - **Comodoro Tyr:** ¿Sientes que tu moralidad no se reflejó correctamente? Muy bien. Puedo alterar tu armadura, pero debo pedir una donación a nuestra causa para asegurar que esto no sea simplemente un capricho pasajero.
+    - Cambiar el color de tu armadura te costará 100.000 coins.
+    - **Comodoro Tyr:** ¿Qué color crees que refleja mejor tu yo interior?
+    - **ELIGE TU COLOR.**
+      - Blanco (Guardián).
+        - Se han eliminado 100.000 coins de su bolsa de dinero.
+        - **Comodoro Tyr:** Tu armadura ha sido recoloreada. Llévalo en equilibrio y en nombre de Guthix.
+      - Gris (Justicar).
+        - (above|recolour)
+      - Negro (verdugo).
+        - (above|recolour)

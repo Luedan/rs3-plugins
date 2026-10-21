@@ -1,0 +1,232 @@
+# Neite
+
+- **Original Wiki Page**: [Transcript:Neite](https://runescape.wiki/w/Transcript%3ANeite)
+- **Letter**: `N`
+
+---
+
+## Dialogue Transcript
+
+<!-- Anchors
+- kin
+-->
+- What's new?
+  - **Player:** What's new?
+  - **Neite:** When you get to my age, very little seems new anymore.
+  - **Player:** What age are you?
+  - **Neite:** You should never ask a lady her age!
+  - **Player:** But you're not... I mean...
+- Where's Bob?
+  - **Player:** Hey, Neite, where's Bob?
+  - **Neite:** Out gallivanting, hunting noobs in the Wilderness. You know what he's like.
+  - **Player:** So why aren't you out there with him?
+  - **Neite:** I like to roam as next as the next cat, but, every so often, I do like to come home.
+  - **Player:** So, you and Bob haven't had an argument?
+  - **Neite:** Who told you that?
+  - **Player:** Umm...nobody.
+- What are you doing?{{anchor|questions}}
+  - **Player:** What are you doing, then?
+  - **Neite:** I'm hunting frogs and locusts.
+  - **Player:** Why? Do they taste good?
+  - **Neite:** Wayuckk! No, I would never debase myself to eat such filth.
+  - **Player:** I see you're a cat of taste then.
+  - **Neite:** I am a cat of high breeding. My family tree dates back to days before any sultan or king of Gielinor.
+  - Whose cat are you then?
+    - **Player:** Whose cat are you then?
+    - **Neite:** I am my own cat. I'm not owned by anyone, although I do permit the high priest of Icthlarin to feed me.
+    - **Player:** So what's he like then?
+    - (Condition: Before:)
+    - **Neite:** The old high priest was a vindictive and cranky old man. If he ever didn't get his way, he would make everyone suffer until someone crumbled and gave into his will. I must say that I respected that in him.
+    - **Neite:** The new high priest is a bit of a wet towel. He is very unsure of himself and had little respect from the people of the town.
+    - **Player:** That's strange. Nobody I talked to had a bad word to say about him.
+    - **Neite:** That's probably because most of the townsfolk fled as soon as the plague broke out. They had no confidence in him to fix things. Though, I must say, he treats me much better than the old high priest.
+    - (Condition: After:)
+    - **Neite:** The new high priest used to be a bit of a wet towel. He was very unsure of himself and had little respect from the people of the town.
+    - **Player:** You're speaking in past tense.
+    - **Neite:** Yes, well, since the townspeople have returned, they've a lot more confidence in him and I think he may have gained some more self-belief.
+    - It's been nice talking, but I have to go.
+      - **Player:** It's been nice talking to you, but I really have to go now.
+      - **Neite:** Goodbye.
+    - (end)
+    - I'd like to ask you about something else.
+    - (above|questions)
+  - What do you do with the frogs and locusts?
+  - **Player:** What do you do with the frogs and locusts?
+  - **Neite:** What do you mean by 'do'?
+  - **Player:** Well, seeing as you're hunting them, I thought you'd eat them too.
+  - **Neite:** No, no, I just hunt them, play with them for a bit and then kill them.
+  - **Player:** Isn't that a little evil?
+  - **Neite:** What's evil about a little destruction?
+  - **Player:** What isn't? You destroy and take away life. What good is there in that?
+  - **Neite:** Hssss. Life can come from destruction too. Take a volcano; It will destroy all life that surrounds it, but it will also fertilise and enrich the surrounding earth. From that earth, more life will spring forth than there was in the first place.
+  - Your ideas disgust me...
+    - **Player:** Your ideas disgust me. I don't want to talk with you anymore.
+    - **Neite:** Hiss!! Suit yourself, human.
+    - (end)
+  - I can see where you're coming from...
+    - **Player:** I can see where you're coming from, but how do you compare killing frogs to a volcano?
+    - **Player:** A volcano has no choice whether it explodes or not, but I think you do.
+    - **Neite:** I disagree. It's in my nature to prey on smaller, pathetic life forms in the same way as it is in the volcanoes nature to explode.
+    - I must say, I strongly disagree with your views.
+      - **Player:** I must say, I strongly disagree with your views.
+      - **Neite:** What you choose to believe in is the illusion of choice?
+      - **Player:** It's not an illusion.
+      - **Neite:** I suppose you've never heard of the phrase, 'that's the nature of the beast'? Or maybe you were too busy pretending to decide to breathe.
+      - **Player:** Oh, get away from me.
+      - (end)
+    - You know, you remind me of someone.
+      - **Player:** You know, you remind me of someone.
+      - **Neite:** Who? Someone glamourous, I'd bet, or perhaps regal.
+      - **Player:** Neither! i was thinking you reminded me of The Devourer.
+      - **Neite:** Hisss!!! What? Hiss!!!
+      - I've had enough of your company.
+        - **Player:** I've had enough of your company. Goodbye.
+        - **Neite:** Pah! The Wanderer! Keh! Do you know who you remind me of?
+        - **Player:** Goodbye, little cat.
+        - (end)
+      - It's kind of ironic, isn't it?
+        - **Player:** It's kind of ironic, isn't it?
+        - **Neite:** What is?
+        - **Player:** Well, the fact that you are in direct conflict with a deity that really seems quite matched to your beliefs.
+        - **Player:** Not to mention you work for or with a half-dog god.
+        - **Neite:** Don't mock me. I do that to seek vengeance.
+        - **Player:** What did you say?
+        - **Neite:** Hiss, nothing.
+        - **Player:** You're seeking revenge on the Wanderer?
+        - **Neite:** It's a long story.
+        - Maybe we can talk about it another time.
+          - **Player:** Maybe we can talk about it another time.
+          - **Neite:** I have no real wish to discuss it with you.
+          - **Player:** Fine, maybe we won't discuss it, then.
+          - (end)
+        - I have time; will you tell me?
+          - **Player:** I have time; will you tell me?
+          - **Neite:** Hmm... Maybe... Why not. Do you know what The Wanderer's true form is?
+          - **Player:** Yes. She has dark skin, red hair and red eyes.
+          - **Neite:** No, that's not her true form. She has only taken to adopting a form similar to this recently, although she's has many forms since we rose up against her.
+          - **Player:** Who's we?
+          - **Neite:** Her acolytes and her priestesses.
+          - **Player:** Were all her priestesses and acolytes cats then?
+          - **Neite:** No; I wasn't always a cat.
+          - **Player:** You weren't?
+          - **Neite:** No, I used to be human. In fact, I was one of her chief priestesses...but that was before we rose up.
+          - **Player:** Why did you do that?
+          - **Neite:** The Devourer was so in love with death and destruction that she even started destroying her own worshippers. We tolerated this until she even started to destroy her own temples and clergy.
+          - **Player:** So what did you do?
+          - **Neite:** The last of her priestesses gathered and cursed her. Unfortunately she also cast a spell of her own, condemning us to an eternity of walking Gielinor in her form.
+          - **Player:** So she's a cat then?
+          - **Neite:** She's as much a cat as Icthlarin is a dog.
+          - **Player:** What curse did you cast upon her?
+          - **Neite:** We cursed her so that her name would be forgotten, that any corporeal body she adopted would soon cast her out and never again would she gather willing worshippers.
+          - **Player:** Why didn't you just destroy her outright, there and then?
+          - **Neite:** We could have, but at that point, our thirst for destruction was well sated.
+          - **Player:** Your curse seems not to have worked as well as you'd planned. She is still remembered, she can still adopt a form and she can still recruit supporters.
+          - **Neite:** Hmm... She is not remembered; only her foul deeds are. As for adopting a form, I believe the next time you come across her, she will have been forced to find a new host.
+          - **Player:** She is still able to recruit followers.
+          - **Neite:** Well, the quality of help she has been forced to take has been quite poor recently; you failed in the simple task of retrieving a jar for her.
+          - **Player:** Excuse me! I had to fight through hordes of mummies, scarabs, fiendish traps and more to get that jar. Besides that, my extra-ordinary level of willpower won out.
+          - **Neite:** I'm sure your cat did most of the hard work.
+          - **Player:** So why is the Wanderer still scared of cats then?
+          - **Neite:** Well, because the few remaining of us still possess some degree of the powers she gave us.
+          - **Player:** So are there many of you left?
+          - **Neite:** I refuse to answer that; the less people know about this; the safer I am.
+          - **Neite:** Recently I have noticed that The Devourer has focused her attentions more on cats. I think she might believe that if all of her original followers die, the curse will lift.
+          - **Player:** Surely all she has to do is to wait until you all die of natural causes?
+          - **Neite:** It is not in Icthlarin's best interest to let us die, so we will never die of natural causes.
+          - **Player:** Oh! It must become a bit of a drag just hanging around.
+          - **Neite:** Spite sustains me.
+          - **Player:** Gulp! I hope I never get on your bad side.
+            - It's been nice talking, but I have to go.
+              - **Player:** It's been nice talking to you, but I really have to go now.
+              - **Neite:** Goodbye.
+            - (end)
+            - I'd like to ask you about something else.
+            - (above|questions)
+- Whose cat are you then?
+  - **Player:** Whose cat are you then?
+  - **Neite:** I am my own cat. I'm not owned by anyone, although I do permit the high priest of Icthlarin to feed me.
+  - **Player:** So what's he like then?
+    - (Condition: Before:)
+    - **Neite:** The old high priest was a vindictive and cranky old man. If he ever didn't get his way, he would make everyone suffer until someone crumbled and gave into his will. I must say that I respected that in him.
+    - **Neite:** The new high priest is a bit of a wet towel. He is very unsure of himself and had little respect from the people of the town.
+    - **Player:** That's strange. Nobody I talked to had a bad word to say about him.
+    - **Neite:** That's probably because most of the townsfolk fled as soon as the plague broke out. They had no confidence in him to fix things. Though, I must say, he treats me much better than the old high priest.
+    - (Condition: After:)
+    - **Neite:** The new high priest used to be a bit of a wet towel. He was very unsure of himself and had little respect from the people of the town.
+    - **Player:** You're speaking in past tense.
+    - **Neite:** Yes, well, since the townspeople have returned, they've a lot more confidence in him and I think he may have gained some more self-belief.
+    - It's been nice talking, but I have to go.
+      - **Player:** It's been nice talking to you, but I really have to go now.
+      - **Neite:** Goodbye.
+    - (end)
+    - I'd like to ask you about something else.
+    - (above|questions)
+- What's your name?
+  - **Player:** What's your name?
+  - **Neite:** I sssshouldn't talk to strangers.
+  - **Player:** Well, my name is Player and I'm pleased to meet you. So, now I'm not a stranger anymore, what's your name?
+  - **Neite:** Purrr... Nice to meet you, Player. My name is Neite.
+  - **Player:** Have you ever heard of a cat called Bob?
+  - **Neite:** A large black cat, purrr?
+  - **Player:** Yes, that's the one. You know him, then?
+  - **Neite:** I don't know if you could ever get to know that cat. He is a bit of an enigma...always wandering but no one knows what he's looking for. He's quite a handsome beast, though!
+  - **Player:** Oh, I see, romance is in the air is it?
+  - **Neite:** Well, life here in the desert can be a lonely existence, even with all my busy work...and he is the most eligible bachelor around. When I hear about him, it makes my whisker tingle... But, to be honest, he worries me.
+  - **Player:** In what way?
+  - **Neite:** Well, I pride myself on the knowledge of the family lines in cats. Obviously, Bob features quite heavily in most cats' family trees, but he himself has none!
+  - **Player:** What do you mean?
+  - **Neite:** I mean, nobody is sure where he came from. Not even the Sssphinx knows. It's just one of those mysteries. There are even ancient drawings and ssstories that talk of a warrior known as 'Robert' and his ssstruggles against the
+  - **Neite:** dragon-kin. He fought with a ferocious black panther who could swallow houses in one gulp!
+  - **Player:** Dragon-kin? What are they?
+  - **Neite:** <span id="kin">The kin? Well mostly it's just stories. Some say they were the first - the true ancient race of this world. They were supposed to have harnessed the power of dragons, making the wild creatures do their bidding. Somehow they
+  - **Neite:** manipulated the dragons' eggs and made them their own! Then the ssstories just end as if they disappeared into sssmoke.</span>
+  - **Player:** Fascinating...
+  - **Neite:** Well, like I say, they are just stories. Probably some tale a gnomish mother invented to keep her little tykes from running off into the forest alone!
+  - **Player:** Well, if you ever hear anything more concrete, will you let me know? These dragon-kin sound worth investigating, even if it's just a story.
+  - **Neite:** It would be my pleasure. I don't like riddles at the best of times! Now, if you'll excuse me, I have some washing to do.
+    - It's been nice talking, but I have to go.
+      - **Player:** It's been nice talking to you, but I really have to go now.
+      - **Neite:** Goodbye.
+    - (end)
+    - I'd like to ask you about something else.
+    - (above|questions)
+- Are you one of the Sphinx's friends?
+  - **Player:** Are you one of the Sphinx's friends?
+  - **Neite:** The Sphinx has no friends. She is too wrapped up in preserving her own immortality for friends.
+  - **Player:** So you don't like her then?
+  - **Neite:** Nothing of the sorts. I have nothing but respect for her.
+  - **Player:** Why is that?
+  - **Neite:** Well, because her immortality is based on the fact that she keeps us cats safe, so her whole existence is dedicated to protecting us.
+  - **Player:** That doesn't seem like much of a life.
+  - **Neite:** True, life shouldn't be hoarded but lived...but don't tell her that; otherwise I'd have to be on the lookout for a new guardian.
+    - It's been nice talking, but I have to go.
+      - **Player:** It's been nice talking to you, but I really have to go now.
+      - **Neite:** Goodbye.
+    - (end)
+    - I'd like to ask you about something else.
+    - (above|questions)
+- Can you tell me about the Sect of Scabaras?
+  - **Player:** Do you know anything about the Sect of Scabaras?
+  - **Neite:** Hah! Those insane earth burrowers! They got their comeuppance!
+  - **Player:** What happened to them?
+  - **Neite:** They thought they could undermine the mighty Elidinis so she buried them. They have never been seen around here since.
+  - Where did she bury the sect?
+    - **Player:** Where did she bury the sect?
+    - **Neite:** Under herself.
+    - **Player:** What do you mean 'under herself'?
+    - **Neite:** Pah! Stupid human. I don't know why I bother to talk to you.
+  - What do you mean by 'undermine'?
+    - **Player:** To dig under.
+    - **Neite:** How do you dig under a goddess?
+    - **Player:** I don't know. I'm not stupid enough to try.
+- Cooch-ee-cooch-ee-coo
+  - **Player:** Cooch-ee-cooch-ee-coo
+  - **Neite:** Oh, stop being so condescending, you silly human, or I'll rip your face off.
+  - **Player:** Easy there, tiger! I was only trying to be nice.
+  - **Neite:** Hiss!!
+    - It's been nice talking, but I have to go.
+      - **Player:** It's been nice talking to you, but I really have to go now.
+      - **Neite:** Goodbye.
+    - (end)
+    - I'd like to ask you about something else.
+    - (above|questions)

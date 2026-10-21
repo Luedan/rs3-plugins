@@ -1,0 +1,241 @@
+# Natural historian
+
+- **Original Wiki Page**: [Transcript:Natural historian](https://runescape.wiki/w/Transcript%3ANatural%20historian)
+- **Letter**: `N`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+
+### First-time dialogue
+
+- **Natural historian:** ¡Hola y bienvenidos a la exposición de Historia Natural del Museo Varrock!
+- **Player:** Hola. Entonces, ¿qué haces aquí?
+- **Natural historian:** Bueno, nos ocupamos de toda la investigación en esta sección.
+- **Natural historian:** Cuando no hago eso, enseño a personas como tú lo maravilloso que es el mundo natural. Hazme una pregunta y te daré una idea del apasionante mundo de los animales.
+- **SELECCIONA UNA OPCIÓN**
+  - *Habitación Norte:*
+    - Háblame de lagartos.
+      - **Player:** Háblame de los lagartos.
+      - **Natural historian:** Ahh lagartos, los carnívoros escamosos.
+      - **Natural historian:** Si me sigues hasta la vitrina, te explicaré todo sobre ellos.
+      - **Natural historian:** Contrariamente a la creencia popular, aunque la mayoría de los lagartos tienen el vientre amarillo, en realidad no son cobardes. La mayoría de los lagartos gielinorianos no rehuyen una buena pelea y pueden ser muy duros.
+      - **Natural historian:** Esto se debe a una piel muy gruesa y resistente, hecha de miles de escamas gruesas. A la mayoría de las personas que dicen ser cazadores les resulta muy difícil acabar con los lagartos.
+      - **Natural historian:** De hecho, las únicas personas que lograron discernir con éxito cómo matar a estos pequeños y duros squamatas son los cinco legendarios Slayer masters, aunque asumimos que deben tener algún tipo de depredador natural.
+      - **Natural historian:** Curiosamente, estas escamas están hechas de la misma sustancia que compone tu cabello. Esta sustancia se llama queratina.
+      - **Natural historian:** Los lagartos tienen un sentido de la vista y el oído muy desarrollado. ¡Algunas personas piensan que algunos lagartos tienen un tercer ojo!
+      - **Natural historian:** Una estructura diminuta, transparente y sensible a la luz en la parte superior de la cabeza que les ayuda a regular cuánto tiempo permanecen al sol.
+      - **Natural historian:** Esto es vital para los lagartos de sangre fría que no tienen medios para regular su temperatura interna.
+      - **Natural historian:** Como muchas criaturas de sangre fría, si se les somete a una disminución repentina de temperatura, se volverán lentos y somnolientos.
+      - **Natural historian:** Y esto concluye mi breve conferencia sobre los lagartos. Espero que lo hayáis disfrutado.
+    - Háblame de las tortugas.
+      - **Player:** Háblame de las tortugas.
+      - **Natural historian:** Ahh tortugas, los antiguos acorazados.
+      - **Natural historian:** Si me sigues hasta la vitrina, te explicaré todo sobre ellos.
+      - **Natural historian:** La tortuga es una bestia muy bien defendida. Utiliza un caparazón blindado al igual que sus primas acuáticas, la galápago y la tortuga.
+      - **Natural historian:** Las tortugas pueden variar en tamaño, desde aproximadamente el largo de tu mano hasta el tamaño de un unicornio. La mayoría de las tortugas terrestres no comen más que plantas silvestres.
+      - **Natural historian:** ¿Sabías que puedes saber la edad de una tortuga por el número de anillos en su caparazón, como un árbol?
+      - **Natural historian:** La mayoría de las tortugas terrestres comen plantas y se alimentan de pastos, malezas, verduras de hojas verdes, flores y repollos.
+      - **Natural historian:** Las tortugas generalmente viven tanto como las personas, y se sabe que algunas han vivido más de 300 años.
+      - **Natural historian:** Debido a esto, simbolizan la longevidad dentro de algunas culturas, como los gnomos que también los crían para la batalla.
+      - **Natural historian:** La tortuga más antigua jamás registrada fue Mibbiwocket, quien fue presentada al Rey Healthorg el Grande por el famoso explorador Almirante Bake, poco después de su nacimiento.
+      - **Natural historian:** Mibbiwocket todavía está al cuidado de la familia real gnoma.
+      - **Natural historian:** Y aquí concluye mi breve conferencia sobre las tortugas. Espero que lo hayáis disfrutado.
+    - Háblame de dragones.
+      - **Player:** Háblame de dragones.
+      - **Natural historian:** Ahh dragones, los poderosos cazadores del cielo.
+      - **Natural historian:** Si me sigues hasta la vitrina, te explicaré todo sobre ellos.
+      - **Natural historian:** Los dragones de Gielinor son una especie muy confusa. Con una altura de aproximadamente tres metros y medio, estos imponentes depredadores infunden miedo en los corazones y las mentes de la mayoría de las personas en su sano juicio.
+      - **Natural historian:** Sin embargo, si profundizas un poco más en su historia y estilo de vida, algunas cosas destacan como muy inusuales.
+      - **Natural historian:** Con la mayoría de las especies hay una línea, una ascendencia si se quiere, mediante la cual se puede rastrear cómo una criatura ha llegado a su forma actual.
+      - **Natural historian:** Por ejemplo, puedes rastrear la ascendencia del gato doméstico común hasta la misma criatura que se convirtió en el kyatt con dientes de sable.
+      - **Natural historian:** Sin embargo, con el dragón, no se puede encontrar tal ancestro raíz.
+      - **Natural historian:** Hay muchas formas de dragón, como el dragón de color común y el dragón metálico o ferroso.
+      - **Natural historian:** Colonizan muchas áreas de Gielinor, aunque sobre todo sitios de antiguas batallas y pequeñas cuevas húmedas.
+      - **Natural historian:** Los hábitos alimentarios tienden a variar y la mayoría de sus alimentos son carne. Sin embargo, también se ha observado que pueden consumir metales con la misma facilidad, considerándose la runita un manjar.
+      - **Natural historian:** A lo largo de la historia, los dragones han aparecido en mitos y leyendas como temibles adversarios y criaturas astutas.
+      - **Natural historian:** Sin embargo, la evidencia moderna no respalda esto. La mayoría de los dragones jóvenes son en gran medida criaturas instintivas con una fuerte vena viciosa.
+      - **Natural historian:** La esperanza de vida del dragón común aún se desconoce, ya que nunca se ha observado que ningún dragón muera de viejo.
+      - **Natural historian:** Aunque se ha discutido que la combustión espontánea podría considerarse una causa natural de muerte de esta especie.
+      - **Natural historian:** Y esto concluye mi breve conferencia sobre dragones. Espero que lo hayáis disfrutado.
+    - Háblame de los wyverns.
+      - **Player:** Háblame de los wyverns.
+      - **Natural historian:** Ahh, wyverns. Los lagartos extintos.
+      - **Natural historian:** Si me sigues hasta la vitrina, te explicaré todo sobre ellos.
+      - **Natural historian:** La historia de los wyverns es triste. Se presume que esta especie ahora extinta está relacionada de alguna manera con el dragón, ya que ambos son grandes reptiles voladores. El wyvern es mucho más bajo que el dragón adulto y sólo tiene dos patas, a diferencia de las cuatro del dragón.
+      - **Natural historian:** Gran parte de la evidencia del comportamiento de los wyvern proviene de la reconstrucción de huesos antiguos en las montañas heladas de Asgarnia.
+      - **Natural historian:** Como la mayoría de los lagartos no pueden mantener su propia temperatura corporal, se han propuesto dos teorías sobre cómo lograron sobrevivir.
+      - **Natural historian:** Una es que Asgarnia alguna vez tuvo un clima mucho más templado de lo que es ahora. La otra es que los wyverns podrían generar fuego internamente de la misma manera que los dragones.
+      - **Natural historian:** Si siguen el paradigma del dragón, entonces habrían sido carnívoros y se alimentarían de vacas, ovejas y otros animales de ganado.
+      - **Natural historian:** Cómo y por qué se extinguieron los wyverns es un misterio. Aunque si consideramos la teoría de que el clima de Asgarnia cambió repentinamente, esto podría proporcionar una explicación.
+      - **Natural historian:** Hay algunas inconsistencias en los hallazgos que tenemos para los wyverns, como los extraños patrones de desgaste de algunos de los huesos {{Sic}}, que en realidad solo pudieron haber sucedido después de que la criatura murió.
+      - **Natural historian:** Además, los huesos que hemos recolectado permanecen un poco por debajo de la temperatura ambiente dondequiera que se guarden.
+      - **Natural historian:** También se ha demostrado que irradian un aura mágica muy débil.
+      - **Natural historian:** Estoy seguro de que a su debido tiempo estos misterios se resolverán.
+      - **Natural historian:** Y esto concluye mi breve conferencia sobre los wyverns. Espero que lo hayáis disfrutado.
+  - *Habitación este:*
+    - Háblame de los caracoles.
+      - **Player:** Háblame de los caracoles.
+      - **Natural historian:** Ahh caracoles, los gasterópodos gelatinosos.
+      - **Natural historian:** Si me sigues hasta la vitrina, te explicaré todo sobre ellos.
+      - **Natural historian:** Los caracoles se mueven como gusanos apretándose y estirándose, muy, muy lentamente. También producen mucha baba para facilitar el movimiento reduciendo la fricción.
+      - **Natural historian:** También usan limo como protección. Por ejemplo, los caracoles pueden usar su baba para arrastrarse sobre hojas de afeitar sin sufrir daño. También ayuda a mantener alejados insectos peligrosos como las hormigas.
+      - **Natural historian:** Cuando se esconden en sus caparazones, los caracoles secretan un tipo especial de baba, que se seca para cubrir la entrada de sus caparazones como una "trampilla". Esto se llama opérculo.
+      - **Natural historian:** Los caracoles de Morytania son los moluscos más malignos jamás estudiados.
+      - **Natural historian:** Se dividen en dos especies distintas: achatina acidia y achatina acidia giganteus o, como se les conoce más comúnmente, el caracol que escupe ácido y el caracol gigante que escupe ácido.
+      - **Natural historian:** Ambas variedades son carnívoros voraces y usan sus boquillas mutadas para escupir una bola de ácido poderoso para matar a su enemigo.
+      - **Natural historian:** Luego simplemente tienen que esperar, mientras los jugos digestivos acaban con la pobre criatura. Luego, simplemente sorben lo que queda.
+      - **Natural historian:** Cómo surgieron estas extrañas criaturas sigue siendo un misterio. La teoría más extendida sugiere que mutaron como reacción a un contaminante "aún desconocido" que apareció en los pantanos.
+      - **Natural historian:** La población local ha aprovechado la apariencia de estas extrañas especies, utilizando sus caparazones para crear un yelmo rudimentario que es bastante resistente al ácido de los caracoles.
+      - **Natural historian:** Otros usos conocidos de los subproductos del caracol incluyen un sabroso manjar local y un aceite ignífugo.
+      - **Natural historian:** Y aquí concluye mi breve conferencia sobre los caracoles. Espero que lo hayáis disfrutado.
+    - Háblame de los monos.
+      - **Player:** Háblame de los monos.
+      - **Natural historian:** Ahh monos, el colectivo de simios.
+      - **Natural historian:** Si me sigues hasta la vitrina, te explicaré todo sobre ellos.
+      - **Natural historian:** Un mono es miembro de cualquiera de dos grupos conocidos de primates simios. Estos dos grupos conocidos son los monos Karamja y los monos "inofensivos".
+      - **Natural historian:** Debido a su similitud con los monos, a los simios como los chimpancés y los gibones a menudo se les llama monos por accidente.
+      - **Natural historian:** Aunque algunos historiadores naturales no los consideran monos. Además, algunas especies de monos tienen la palabra "simio" en su nombre común.
+      - **Natural historian:** Se rumorea que los monos Karamja son criaturas bastante astutas e inteligentes, aunque los rumores de que han aprendido el habla humana son, en el mejor de los casos, anecdóticos.
+      - **Natural historian:** En apariencia, son mucho más bajos que un humano y tienden a moverse encorvados. Los monos Karamja también lucen un mohawk rojo, aunque se desconoce si se trata de una afectación o no.
+      - **Natural historian:** Les gustan mucho los plátanos y las nueces amargas y los comen en grandes cantidades siempre que pueden ponerles las patas encima.
+      - **Natural historian:** Los monos inofensivos de Mos Le'Harmless son una raza muy similar, pero en algunos aspectos completamente diferente. Son aproximadamente del mismo tamaño pero son de un color más claro.
+      - **Natural historian:** Curiosamente, a los monos Karamaja{{Sic}} les desagradan profundamente las algas, aunque esto puede deberse a las acciones de varias personas irresponsables.
+      - **Natural historian:** Y esto concluye mi breve conferencia sobre los monos. Espero que lo hayáis disfrutado.
+    - Háblame de las babosas marinas.
+      - **Player:** Háblame de las babosas marinas.
+      - **Natural historian:** Ahh babosas de mar, los lindos crustáceos.
+      - **Natural historian:** Si me sigues hasta la vitrina, te explicaré todo sobre ellos.
+      - **Natural historian:** El término "babosa de mar" es un nombre poco apropiado. Si bien estas pequeñas criaturas tienen un cuerpo blando como el de una babosa, también poseen un caparazón muy duro como el de un caracol.
+      - **Natural historian:** En realidad, se sabe muy poco sobre la babosa marina, ya que hasta el momento no hemos podido conseguir una muestra para observación y estudio.
+      - **Natural historian:** Por alguna razón, todas las expediciones que hemos enviado han desaparecido misteriosamente, o aquellos en la expedición han enviado cartas anunciando su deseo de abandonar el Museo y dedicarse a otras cosas.
+      - **Natural historian:** Se presume que la especie es nativa de las aguas muy profundas alrededor de la costa oriental de Ardougne.
+      - **Natural historian:** Debe haber algunos recursos naturales en el área que utilizan las babosas marinas, ya que el hábitat submarino es muy similar en muchas áreas costeras de Gielinor.
+      - **Natural historian:** Al observar especies similares, hemos determinado que la babosa marina es una pequeña criatura inofensiva. Pasa gran parte de su vida pastando algas y otras plantas.
+      - **Natural historian:** Hay informes de que estos animales solitarios tienen dos grandes colmillos en la parte delantera, aunque se supone que tienen fines decorativos o defensivos.
+      - **Natural historian:** Si siguen el mismo patrón que otras criaturas similares, el caparazón será casi impermeable a la mayoría de los ataques. La piel blanda expuesta puede tener varios nematocistos u órganos urticantes, similares a los de las medusas.
+      - **Natural historian:** Es típico de animales de presa como estos desarrollar algún tipo de mecanismo de defensa único que les permita sobrevivir.
+      - **Natural historian:** Si tan solo pudiéramos adquirir uno para estudiar. Estoy seguro de que este mecanismo nos parecerá verdaderamente único.
+      - **Natural historian:** Y esto concluye mi breve conferencia sobre las babosas marinas. Espero que lo hayáis disfrutado.
+    - Háblame de las serpientes.
+      - **Player:** Háblame de las serpientes.
+      - **Natural historian:** Ahh serpientes, las escamatas deslizantes.
+      - **Natural historian:** Si me sigues hasta la vitrina, te explicaré todo sobre ellos.
+      - **Natural historian:** Serpentes, u ofidios, es el suborden de squamata al que pertenecen las serpientes, como una gran familia.
+      - **Natural historian:** A diferencia de los lagartos, las serpientes no tienen extremidades; No es que esto los limite. Las serpientes viven en o cerca de todos los hábitats del mundo.
+      - **Natural historian:** Se encuentran en bonitos bosques tropicales, latitudes templadas e incluso en el océano; algunos han adaptado jugos estomacales especializados que inyectan en sus presas como veneno, mientras que otros prefieren agarrar y triturar su comida.
+      - **Natural historian:** Mientras que otros siguen siendo cazadores rápidos que usan la velocidad y la fuerza para vencer a sus presas.
+      - **Natural historian:** El sentido del olfato en las serpientes se ha mejorado de una manera asombrosa. En la mayoría de los animales, como tú y como yo, las partículas diminutas se filtran a través de la nariz.
+      - **Natural historian:** Sin embargo, en lugar de usar solo la nariz, estos animales también usan la lengua. Cuando un lagarto o una serpiente quiere oler su entorno, agitará su lengua y recogerá las partículas del aire.
+      - **Natural historian:** La lengua luego regresa a la boca y las puntas de la lengua se empujan contra dos pequeños hoyos en el paladar de la serpiente.
+      - **Natural historian:** Dado que estos hoyos están separados entre sí, la lengua misma también tiene que dividirse. Por eso las serpientes tienen la lengua bífida.
+      - **Natural historian:** Entonces, la próxima vez que veas una serpiente sacándote la lengua, recuerda, está olfateando el aire, no tratando de morderte.
+      - **Natural historian:** Y esto concluye mi breve conferencia sobre las serpientes. Espero que lo hayáis disfrutado.
+  - *Habitación Sur:*
+    - Háblame de historia natural.
+      - **Player:** Háblame de historia natural.
+      - **Natural historian:** Bueno, el campo de la historia natural cubre una amplia gama de ciencias.
+      - **Natural historian:** Entonces utilizamos la biología, el estudio de los seres vivos, la botánica, el estudio de las plantas y la zoología, el estudio de los animales.
+      - **Natural historian:** Aunque el campo está creciendo todo el tiempo y también utilizamos técnicas de magia, astrología y numerología.
+      - **Natural historian:** Una persona interesada en la historia natural se conoce como naturalista.
+    - Háblame de los pájaros del terror.
+      - **Player:** Háblame de los pájaros del terror.
+      - **Natural historian:** Ahh terrorbirds, el pájaro más rápido sobre dos patas.
+      - **Natural historian:** Si me sigues hasta la vitrina, te explicaré todo sobre ellos.
+      - **Natural historian:** Los pájaros del terror viven en grupos nómadas de entre cinco y cincuenta aves que a menudo viajan junto con otros animales que pastan.
+      - **Natural historian:** Se alimentan principalmente de semillas y otras plantas. También comen insectos como langostas si pueden atraparlas.
+      - **Natural historian:** No tienen dientes para masticar, por lo que tragan guijarros que ayudan a triturar los alimentos ingeridos en la molleja.
+      - **Natural historian:** Pueden pasar mucho tiempo sin agua, viviendo exclusivamente del agua de las plantas. Sin embargo, disfrutan del agua y se bañan con frecuencia cuando pueden.
+      - **Natural historian:** Se sabe que los pájaros del terror comen casi cualquier cosa, especialmente en cautiverio, donde aumentan las oportunidades.
+      - **Natural historian:** Los pájaros del terror suelen pesar un poco menos que un pequeño unicornio. Las plumas de los machos adultos son en su mayoría verdes, con algo de blanco en las alas y la cola.
+      - **Natural historian:** Hay garras en dos de los dedos de las alas y sus fuertes patas no tienen plumas. El pájaro se apoya en dos dedos, el más grande se asemeja a una pezuña. Sus pies no tienen garras.
+      - **Natural historian:** Esta es una adaptación exclusiva de los terrorbirds que parece ayudar a correr. Sus patas son lo suficientemente poderosas como para matar incluso animales grandes.
+      - **Natural historian:** Los gnomos en particular valoran al pájaro terrorífico por su rápida velocidad y lo utilizan como montura siempre que es posible.
+      - **Natural historian:** Hay varios incidentes registrados de personas atacadas y asesinadas. Los machos grandes pueden ser muy territoriales y agresivos, y pueden atacar y patear muy poderosamente con las piernas.
+      - **Natural historian:** Un pájaro terrorífico es tan rápido que puede dejar atrás fácilmente a cualquier atleta humano.
+      - **Natural historian:** Y esto concluye mi breve conferencia sobre los pájaros terroristas. Espero que lo hayáis disfrutado.
+    - Cuéntame sobre el Kalphite Queen.
+      - **Player:** Cuéntame sobre el Kalphite Queen.
+      - **Natural historian:** Ahh kalfitas, las máquinas devoradoras de insectoides.
+      - **Natural historian:** Si me sigues hasta la vitrina, te explicaré todo sobre ellos.
+      - **Natural historian:** Los kalphites, también conocidos como kalphiscarabeinae, son quizás la especie de insecto más grande en the face de Gielinor. Su reina se llama kalphiscarabeinae pasha.
+      - **Natural historian:** La mayor parte de la documentación e investigación iniciales sobre esta temible especie depredadora fue realizada por el destacado cazador de insectos Iqbar Ali-Abdula.
+      - **Natural historian:** Esto, por supuesto, fue antes de que su investigación lo volviera loco y huyera hacia el desierto, gritando.
+      - **Natural historian:** Los calfitos están relacionados con los escarabajos y los escorpiones; son principalmente de color verde. Algunos tienen antenas notables que pueden detectar el más mínimo movimiento. Su caparazón está compuesto por placas blindadas llamadas laminillas.
+      - **Natural historian:** Esta cáscara se puede comprimir hasta formar una bola o desplegarse como hojas para detectar olores. Las patas delanteras están adaptadas para cavar los enormes sistemas de túneles que les sirven de nidos.
+      - **Natural historian:** Existen en una sociedad basada en castas, con las larvas de caparazón blando en la parte inferior, pasando por los trabajadores, los soldados y finalmente la reina.
+      - **Natural historian:** Carnívoros voraces, un grupo de trabajadores adultos pueden arrancar la carne de un camello adulto en cuestión de segundos, dejando nada más que unos pocos huesos y tiras de pelo para que otros carroñeros los recojan.
+      - **Natural historian:** Por lo general, viven en grandes nidos marcados por pilares duros como rocas que se encuentran en desiertos cálidos y áridos, como el que se encuentra al suroeste de Al Kharid, que se elevan sobre las arenas como las tumbas de los faraones del desierto.
+      - **Natural historian:** De hecho, existe cierta relación entre Kalphite Queen y el dios del desierto Scabaras, pero nadie está realmente seguro de qué.
+      - **Natural historian:** Durante la primera parte de la cuarta edad, Scabaras se proclamó omnipotente y prohibió el culto a todos los demás dioses excepto él.
+      - **Natural historian:** Cuando el pueblo finalmente se rebeló contra su gobierno represivo y desterró a Scabaras, se dice que su sangre bañó a los escarabajos y los transformó en los calfitos que conocemos hoy.
+      - **Natural historian:** Por supuesto, cualquier científico con mentalidad correcta descarta estos mitos como meras historias, sin ninguna base histórica en los hechos.
+      - **Natural historian:** Y esto concluye mi breve conferencia sobre los calfitos. Espero que lo hayáis disfrutado.
+  - *Habitación oeste:*
+    - Háblame de los camellos.
+      - **Player:** Háblame de los camellos.
+      - **Natural historian:** Ahh camellos, los barcos del desierto.
+      - **Natural historian:** Si me sigues hasta la vitrina, te explicaré todo sobre ellos.
+      - **Natural historian:** El término camello se refiere a cualquiera de las dos especies conocidas de camélidos.
+      - **Natural historian:** Está el bactriano, que tiene dos jorobas y se puede encontrar en todo Al Kharid. También se refiere al Ugthanki, o camello de una joroba.
+      - **Natural historian:** Los camellos son bestias de mal genio en el mejor de los casos y requieren mucho tiempo y esfuerzo para domesticarlos.
+      - **Natural historian:** Esto explicaría por qué los vendedores de camellos usados tienen tanta prisa por deshacerse de ellos.
+      - **Natural historian:** En la naturaleza, se sabe que los camellos acechan y tienden emboscadas a los desventurados viajeros antes de devorarlos.
+      - **Natural historian:** Esto es bastante sorprendente, ya que la mayoría de los camellos domésticos son felices comiendo nada más que verduras.
+      - **Natural historian:** La leche Camel es mucho más nutritiva que la leche de vaca y combina bien con la bebida fuerte del desierto similar al té.
+      - **Natural historian:** Otro subproducto útil del camello es el estiércol. Su estiércol es muy seco debido al metabolismo altamente eficiente del camello.
+      - **Natural historian:** La investigación científica también ha demostrado que el chile tiene un efecto desastroso en el sistema digestivo de los camellos, que produce estiércol tóxico.
+      - **Natural historian:** Y con esto concluye mi breve conferencia sobre los camellos. Espero que lo hayáis disfrutado.
+    - Háblame de las sanguijuelas.
+      - **Player:** Háblame de las sanguijuelas.
+      - **Natural historian:** Ahh sanguijuelas, los parásitos hemofágicos.
+      - **Natural historian:** Si me sigues hasta la vitrina, te explicaré todo sobre ellos.
+      - **Natural historian:** Las sanguijuelas son criaturas fascinantes y muy similares a los gusanos en muchos aspectos.
+      - **Natural historian:** Les gusta habitar arroyos, ríos y mares, pero prefieren los charcos de agua estancada.
+      - **Natural historian:** Uno de los conceptos erróneos más comunes es que todas las sanguijuelas se alimentan de sangre.
+      - **Natural historian:** De hecho, muy, muy pocas sanguijuelas son animales parásitos chupadores de sangre.
+      - **Natural historian:** La mayoría de las sanguijuelas comen carne y se alimentan de una variedad de invertebrados como gusanos, caracoles, larvas de insectos y caracoles.
+      - **Natural historian:** Aquellos que se alimentan de sangre han desarrollado un método sorprendente para hacerlo. En primer lugar, se adhieren a la piel con un anillo de dientes diminutos, antes de inyectar un anestésico a sus presas.
+      - **Natural historian:** Luego muerden la piel usando una boquilla en forma de Y e introduciendo una sustancia química que impide que la sangre se coagule.
+      - **Natural historian:** Luego se alimentarán hasta que estén completamente llenos, ¡a veces hasta duplicar su tamaño!
+      - **Natural historian:** La mayoría de las sanguijuelas son muy pequeñas y no miden más que la longitud del dedo medio. Una excepción son las sanguijuelas de Morytania, que pueden alcanzar el tamaño de un perro.
+      - **Natural historian:** Son mucho más móviles que sus primos más pequeños y pueden saltar bastante alto cuando atacan.
+      - **Natural historian:** Cómo estas sanguijuelas llegaron a ser tan grandes es un misterio.
+      - **Natural historian:** Todo lo que podemos suponer es que existe algún tipo de influencia ambiental que ha gobernado su inmenso crecimiento.
+      - **Natural historian:** Y con esto concluye mi breve conferencia sobre sanguijuelas. Espero que lo hayáis disfrutado.
+    - Háblame de los lunares.
+      - **Player:** Háblame de los lunares.
+      - **Natural historian:** Ahh topos, los mamíferos hacedores de montañas.
+      - **Natural historian:** Si me sigues hasta la vitrina, te explicaré todo sobre ellos.
+      - **Natural historian:** Ahora bien, los topos son pequeños mamíferos de la familia talpidae. Estos excavadores subterráneos se alimentan principalmente de babosas, caracoles e insectos.
+      - **Natural historian:** Varían mucho en hábitat y se pueden encontrar en casi todas las partes de Gielinor.  {{Sic}}Incluso se sabe que algunas especies son acuáticas.
+      - **Natural historian:** Los topos machos se conocen como verracos y las hembras se llaman cerdas. Si te encontraras con un grupo de topos, los llamarías mano de obra.
+      - **Natural historian:** Los topos se consideran una plaga agrícola en la mayoría de los lugares, excavan el suelo y dejan toperas por todas partes.
+      - **Natural historian:** Esto ha sido destacado en Falador por Wyson the Gardener quien, después de usar la poción de crecimiento Super Ultra Flora de Malignus Mortifer, logró crear la única especie conocida de topo gigante de Gielinor.
+      - **Natural historian:** Esta temible bestia tiene enormes garras, dientes malvados y predilección por los objetos brillantes. Es un animal muy duro, con una piel protectora gruesa y de mal temperamento.
+      - **Natural historian:** Dicho esto, benefician el suelo al airearlo y labrarlo, lo que aumenta su fertilidad. Contrariamente a la creencia popular, los topos no comen raíces de plantas.
+      - **Natural historian:** Y con esto concluye mi breve conferencia sobre los lunares. Espero que lo hayáis disfrutado.
+    - Háblame de los pingüinos.
+      - **Player:** Háblame de los pingüinos.
+      - **Natural historian:** Ahh pingüinos, las astutas aves del mar.
+      - **Natural historian:** Si me sigues hasta la vitrina, te explicaré todo sobre ellos.
+      - **Natural historian:** Se sabe que esta ave acuática a menudo difamada es nativa de los campos de hielo de Etceteria, aunque se sabe que vive hasta los campos de Lumbridge.
+      - **Natural historian:** Estas aves acuáticas parecen pasar la mayor parte de su tiempo comiendo y cuidando a sus crías.
+      - **Natural historian:** A diferencia de la mayoría de los animales que prefieren climas fríos, estos esfenisciformes trabajan muy bien juntos en grupos grandes, observando a los depredadores y cuidando a las crías de los demás.
+      - **Natural historian:** Para criaturas con cerebros tan pequeños, parecen tener una capacidad desproporcionada para pensar y planificar con anticipación. Como esto no tiene ningún propósito natural, los estudiosos están divididos sobre cómo evolucionó.
+      - **Natural historian:** Su dieta se compone principalmente de pescado, calamares y una pequeña criatura parecida a un camarón llamada krill. Sin embargo, algunos han desarrollado un gusto por los hongos que crecen alrededor de los anillos de hadas.
+      - **Natural historian:** Los pingüinos dependen principalmente de su visión cuando cazan. Lo que no sabemos es cómo los pingüinos localizan a sus presas en la oscuridad o a grandes profundidades.
+      - **Natural historian:** Algunas teorías sugieren que a los pingüinos les ayuda algún tipo de percepción sensorial adicional; tal vez incluso precognición.
+      - **Natural historian:** Los pingüinos pasan mucho tiempo sin comer cuando se reproducen. De hecho, ni siquiera abandonarán sus nidos si pueden evitarlo.
+      - **Natural historian:** Afortunadamente, la mayoría de los pingüinos acumulan una capa de grasa para mantenerse calientes y proporcionarles energía hasta que termina la muda.
+      - **Natural historian:** Y esto concluye mi breve conferencia sobre los pingüinos. Espero que lo hayáis disfrutado.
+  - Eso es suficiente educación por un día.
+    - **Player:** Ya es suficiente educación por un día.
+    - **Natural historian:** ¡Tonterías! Siempre hay espacio para más. Y recuerde, ¡la ciencia no es aburrida!
+
+### Subsequent dialogue
+
+- **Natural historian:** Hola de nuevo señor, ¿en qué puedo ayudarle en este lindo día?
+- (continuea|historian-options)

@@ -1,0 +1,110 @@
+# Pirate Guard
+
+- **Original Wiki Page**: [Transcript:Pirate Guard](https://runescape.wiki/w/Transcript%3APirate%20Guard)
+- **Letter**: `P`
+- **Language**: Español (Entidades, ítems y ubicaciones preservados en inglés)
+
+---
+
+## Dialogue Transcript
+
+- **Player:** ¡Hola!
+- *El NPC puede decir cualquiera de las siguientes palabras al azar:*
+  - *Diálogo 1:*
+    - **Pirate:** ¡3 días en el puerto para reabastecerse y luego en alta mar!
+    - *(Fin del diálogo)*
+  - *Diálogo 2:*
+    - **Pirate:** ¡Que tengas viruela!
+    - *(Fin del diálogo)*
+  - *Diálogo 3:*
+    - **Pirate:** ¡Todos manos a la obra!
+    - *(Fin del diálogo)*
+  - *Diálogo 4:*
+    - **Pirate:** ¡Arra!
+    - *(Fin del diálogo)*
+  - *Diálogo 5:*
+    - **Pirate:** ¡Arra! ¡Estaré en busca del tesoro enterrado!
+    - *(Fin del diálogo)*
+  - *Diálogo 6:*
+    - **Pirate:** ¡Arra, arra!
+    - *(Fin del diálogo)*
+  - *Diálogo 7:*
+    - **Pirate:** ¡Arrh, vete!
+    - *(Fin del diálogo)*
+  - *Diálogo 8:*
+    - **Pirate:** ¡Arrh, te arrastraré con la quilla!
+    - *(Fin del diálogo)*
+  - *Diálogo 9:*
+    - **Pirate:** ¡Arra, lobo de mar escorbuto!
+    - *(Fin del diálogo)*
+  - *Diálogo 10:*
+    - **Pirate:** ¡Arrrh, marinero de agua dulce con hígado de lirio!
+    - *(Fin del diálogo)*
+  - *Diálogo 11:*
+    - **Pirate:** ¡Avast detrás!
+    - **Player:** ¿Quién tiene un trasero enorme?
+    - **Pirate:** Oh, olvídalo.
+    - *(Fin del diálogo)*
+  - *Diálogo 12:*
+    - **Pirate:** ¡Avastenme, corazones!
+    - *(Fin del diálogo)*
+  - *Diálogo 13:*
+    - **Pirate:** ¡Avast! ¡Avast!
+    - **Player:** ¿Un gran qué?
+    - **Pirate:** Arrh, guarda tu charla y déjame en paz.
+    - *(Fin del diálogo)*
+  - *Diálogo 14:*
+    - **Pirate:** ¡Bajen las escotillas, se avecina una tormenta!
+    - *(Fin del diálogo)*
+  - *Diálogo 15:*
+    - **Pirate:** ¡Buenos días, mi querido señor!
+    - *(Fin del diálogo)*
+  - *Diálogo 16:*
+    - **Pirate:** ¡Gran barba de Barbanegra!
+    - *(Fin del diálogo)*
+  - *Diálogo 17:*
+    - **Pirate:** ¡Creo que darás un largo paseo sobre una tabla corta!
+    - *(Fin del diálogo)*
+  - *Diálogo 18:*
+    - **Pirate:** ¡Soy el azote de los siete mares!
+    - *(Fin del diálogo)*
+  - *Diálogo 19:*
+    - **Pirate:** ¡Soy el azote de los seis mares!
+    - **Player:** ¿No te refieres a siete mares?
+    - **Pirate:** ¡Soy el azote de los siete mares!
+    - *(Fin del diálogo)*
+  - *Diálogo 20:*
+    - **Pirate:** ¡Quilla, llévalas, digo!
+    - *(Fin del diálogo)*
+  - *Diálogo 21:*
+    - **Pirate:** ¡Hombre al agua!
+    - *(Fin del diálogo)*
+  - *Diálogo 22:*
+    - **Pirate:** ¡Oh, arra!
+    - **Pirate:** No, espera. Ese es un granjero.
+    - *(Fin del diálogo)*
+  - *Diálogo 23:*
+    - **Pirate:** ¡Piezas de ocho! piezas de ocho!
+    - **Pirate:** Oh, espera, esa es la línea del loro.
+    - *(Fin del diálogo)*
+  - *Diálogo 24:*
+    - **Pirate:** ¡Tiemblen mis maderas!
+    - *(Fin del diálogo)*
+  - *Diálogo 25:*
+    - **Pirate:** ¡Empareja el soporte principal!
+    - *(Fin del diálogo)*
+  - *Diálogo 26:*
+    - **Pirate:** ¡Yo ho ho y una botella de ron!
+    - *(Fin del diálogo)*
+  - *Diálogo 27:*
+    - **Pirate:** ¡Ho ho ho y una taza de té!
+    - *(Fin del diálogo)*
+  - *Diálogo 28:*
+    - **Pirate:** ¡Yo ho ho y una botella de alcopop!
+    - *(Fin del diálogo)*
+  - *Diálogo 29:*
+    - **Pirate:** ¡Yo ho ho, cariños!
+    - *(Fin del diálogo)*
+  - *Diálogo 30:*
+    - **Pirate:** ¡Te unirás a Davey Jones en su casillero!
+    - *(Fin del diálogo)*
