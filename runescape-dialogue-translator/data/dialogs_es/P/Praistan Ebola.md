@@ -59,14 +59,14 @@
 - [Menu]: Elige una opción:
   - [Choice]: ¿Cuidarías mis cultivos por mí?
     - **Player:** ¿Cuidarías mis cultivos por mí?
-    - (Condition: Si el player no tiene nada plantado en el parche:)
+    - (Condition: If the player has nothing planted in the patch:)
       - **Praistan Ebola:** No tienes ni un retoño plantado en esa parcela. Planta algo y tal vez acepte cuidarlo por ti.
-    - (Condition: Si el player tiene un spirit tree completamente desarrollado plantado en el parche:)
+    - (Condition: If the player has a fully grown spirit tree planted in the patch:)
       - **Praistan Ebola:** ¡Ese parche ya está completamente desarrollado! ¡No sé qué quieres que haga con él!
-    - (Condition: Si el spirit tree en el parche aún no ha crecido completamente pero el player ya le pagó al jardinero:)
+    - (Condition: If the spirit tree in the patch is not yet fully grown but the player has already paid the gardener:)
       - **Praistan Ebola:** No sé de qué estás hablando. Ya estoy cuidando ese parche por ti.
       - **Player:** Oh, lo siento, lo olvidé.
-    - (Condition: Si el spirit tree del parche aún no ha crecido completamente:)
+    - (Condition: If the spirit tree in the patch is not yet fully grown:)
       - **Frizzy:** Primero, quiero nueces de mono [3/5], una barra de mono y un diente de suqah molido.
       - [Menu]: ¿Qué te gustaría decir?
         - [Choice]: ¿Dónde puedo conseguir todas esas cosas?
@@ -75,10 +75,10 @@
           - (otro)
         - [Choice]: Muy bien, pagaré.
           - **Player:** Muy bien, pagaré.
-          - (Condition: Si el player no tiene los elementos requeridos:)
+          - (Condition: If the player does not have the required items:)
             - **Player:** Me temo que no tengo suficientes en este momento.
             - **Praistan Ebola:** Bueno, no voy a perder el tiempo gratis.
-          - (Condition: Si el player tiene los elementos requeridos:)
+          - (Condition: If the player has the required items:)
             - (removes=monkey nuts, monkey bar and ground tooth)
             - **Praistan Ebola:** Eso estará bien, [sir/madam]. Déjamelo a mí, me aseguraré de que crezca para ti.
         - [Choice]: ¿Qué diablos quieres con ESO?
@@ -111,9 +111,9 @@
   - [Choice]: Alguna cura vegetal.
     - **Player:** Alguna cura vegetal.
     - **Praistan Ebola:** Cura vegetal, ¿eh? Quizás tenga algo reservado para mí. Te diré una cosa, te venderé una cura vegetal por 25 po si quieres.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - **Player:** Me temo que no tengo suficiente dinero para eso.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, parece un precio justo.
           - **Player:** Sí, parece un precio justo.
@@ -123,9 +123,9 @@
   - [Choice]: Un balde de abono.
     - **Player:** Un balde de abono.
     - **Praistan Ebola:** Un balde de abono, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 35 po si quieres.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - **Player:** Me temo que no tengo suficiente dinero para eso.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, parece un precio justo.
           - **Player:** Sí, parece un precio justo.
@@ -135,9 +135,9 @@
   - [Choice]: Un rastrillo.
     - **Player:** Un rastrillo.
     - **Praistan Ebola:** Un rastrillo, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 15 po si quieres.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - **Player:** Me temo que no tengo suficiente dinero para eso.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, parece un precio justo.
           - **Player:** Sí, parece un precio justo.
@@ -149,9 +149,9 @@
       - [Choice]: una regadera
         - **Player:** Una regadera.
         - **Praistan Ebola:** Una regadera, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 25 po si quieres.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Me temo que no tengo suficiente dinero para eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - [Menu]: Selecciona una opción
             - [Choice]: Sí, parece un precio justo.
               - **Player:** Sí, parece un precio justo.
@@ -161,9 +161,9 @@
       - [Choice]: Una paleta de jardinería
         - **Player:** Una paleta de jardinería.
         - **Praistan Ebola:** Una paleta de jardín, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 15 po si quieres.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Me temo que no tengo suficiente dinero para eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - [Menu]: Selecciona una opción
             - [Choice]: Sí, parece un precio justo.
               - **Player:** Sí, parece un precio justo.
@@ -173,9 +173,9 @@
       - [Choice]: Un zambullidor de semillas
         - **Player:** Un arrancador de semillas.
         - **Praistan Ebola:** Un zambullidor de semillas, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 15 po si quieres.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Me temo que no tengo suficiente dinero para eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - [Menu]: Selecciona una opción
             - [Choice]: Sí, parece un precio justo.
               - **Player:** Sí, parece un precio justo.

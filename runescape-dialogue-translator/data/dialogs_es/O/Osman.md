@@ -30,33 +30,33 @@
 
 #### Después de Diamante en bruto
 
-- (Condition: Si las lámparas XP de Stolen Hearts y Diamond in the Rough están disponibles:)
+- (Condition: If the XP lamps from Stolen Hearts and Diamond in the Rough are available:)
   - **Osman:** Otra cosa... Ozan me dio algo para darte.
   - [Menu]: ¿Quieres reclamar tus lámparas de recompensa?
     - [Choice]: Sí.
-      - (Condition: Sin espacio en backpack:)
+      - (Condition: Without space in backpack:)
         - Necesitará al menos [1/2/3/4/5/6] espacios de inventario para recibir todas sus lámparas de Osman.
-      - (Condition: Con espacio en backpack:)
+      - (Condition: With space in backpack:)
         - [Osman te entrega lámparas de recompensa [1/2/3/4/5/6] por tu ayuda para rescatar al Príncipe Ali.]
         - (continue)
     - [Choice]: No.
       - (continue)
 - **Osman:** Bien hecho. Un gran rescate. Te recordaré si tengo algo peligroso que hacer.
-- (Condition: Sólo la primera vez:)
+- (Condition: Only on the first time:)
   - **Player:** ¿Hay algo en lo que pueda ayudarte?
   - **Osman:** En realidad, hay una cosa que podrías hacer por mí.
   - **Player:** ¿Y cuál sería?
   - **Osman:** Podrías traerme un poco de jugo de sq'irk.
   - (continue)
-- (Condition: Tiempos posteriores:)
+- (Condition: Subsequent times:)
   - **Player:** Me gustaría hablarte sobre los sq'irks.
-  - (Condition: Con uno o más sq'irkjuices en backpack:)
+  - (Condition: With one or more sq'irkjuices in backpack:)
     - **Player:** Tengo un poco de jugo de sq'irk para ti.
     - (removes=all sq'irkjuices) (receives=Thieving experience)
     - Recibirás algunos consejos Thieving (puntos de experiencia [número] Thieving) como recompensa por el jugo sq'irk.
     - **Osman:** Muchas gracias Player. Si consigues más preguntas, asegúrate de volver.
     - **Player:** Lo haré. Ha sido un placer hacer negocios con usted.
-  - (Condition: Sin sq'irkjuices en backpack:)
+  - (Condition: Without sq'irkjuices in backpack:)
     - [Menu]: Selecciona una opción
       - [Choice]: ¿Dónde consigo sq'irks?
         - **Player:** ¿Dónde debo encontrar sq'irks?
@@ -111,12 +111,12 @@
     - **Player:** Quiero hablarte de Sophanem.
     - **Player:** ¡Hola, Osman! ¿Cómo estás?
     - **Osman:** Mis heridas se están curando lentamente pero creo que me recuperaré por completo.
-    - (Condition: Antes de lidiar con Scabaras:)
+    - (Condition: Before Dealing with Scabaras:)
       - **Player:** ¿Cómo es Maisa? ¿Está de vuelta en Al Kharid?
       - **Osman:** Maisa está bien. Dónde está o qué está haciendo, no podría decírtelo.
       - **Osman:** Un chisme de espionaje que puedo contarles es que no volveré a Sophanem o Menaphos en el corto plazo.
       - (continue)
-    - (Condition: Después de lidiar con Scabaras:)
+    - (Condition: After Dealing with Scabaras:)
       - **Player:** ¿Sabías que Maisa está en Sophanem y ofrece misiones?
       - **Osman:** Mi trabajo es saberlo todo. Simplemente no creas todo lo que oyes sobre mí. Algún día los sorprenderé a todos... Gratamente, eso es.
       - (continue)

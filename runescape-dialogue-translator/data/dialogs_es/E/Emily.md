@@ -21,24 +21,24 @@
     - [Menu]: Selecciona una opción
       - [Choice]: Una cerveza asgarniana, por favor.
         - **Player:** Una cerveza Asgarnian, por favor.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Emily:** ¡Dije 3 coins! ¡No tienes 3 coins! {{anchor|isaid3coins}}
           - **Player:** Lo siento, volveré otro día.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - (removes=3 coins) (receives=Asgarnian ale)
           - **Player:** Gracias, Emily.
       - [Choice]: Probaré la bomba mental.
         - **Player:** Probaré la bomba mental.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - (above|isaid3coins)
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - (removes=3 coins) (receives=Wizard's mind bomb)
           - **Player:** Gracias, Emily.
       - [Choice]: ¿Puedo tener una Dwarven Stout?
         - **Player:** ¿Puedo tener una Dwarven Stout?
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - (above|isaid3coins)
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - (removes=3 coins) (receives=Dwarven stout)
           - **Player:** Gracias, Emily.
       - [Choice]: No me siento como ninguno de esos.
@@ -57,8 +57,8 @@
 - **Emily:** Me encantaría probar el próximo lote de hidromiel de Leslie.
 - (removes=keg of mead) (receives=50 nectar)
 - (ver|néctar)
-- ((Se muestra en una ventana emergente:))
-  - (Ventana emergente: encontrarás 50 x néctar cuando entregas el barril de hidromiel.|color=#00FF00)
+- ((Shown in a pop-up:))
+  - (Pop-up: You find 50 x Nectar as you hand over the keg of mead.|colour=#00FF00)
   - (continue)
 - **Emily:** El hidromiel no es mi bebida favorita, pero es muy agradable.
 - **Emily:** En realidad, ese puede ser el mejor hidromiel que he bebido.

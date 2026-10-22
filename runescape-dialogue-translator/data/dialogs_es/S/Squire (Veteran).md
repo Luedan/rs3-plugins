@@ -11,7 +11,7 @@
 - ** Squire (Veterano): ** Hola, ¿en qué puedo ayudarte?
 - *Seleccione una opción*
   - ¿Quién eres?
-    - ((En condiciones desconocidas:))
+    - ((Under unknown conditions:))
       - ** Squire (Veterano): ** Soy un Squire de los Void Knights.
       - ** Player: ** ¿El quién?
       - ** Squire (Veterano): ** Los Void Knights, son grandes guerreros del equilibrio que hacen el trabajo de Guthix aquí en Gielinor.
@@ -39,7 +39,7 @@
         - ¿Qué es 'Gielinor'?
         - (arriba2)
         - Ajá, claro.
-    - ((En condiciones desconocidas:))
+    - ((Under unknown conditions:))
       - ** Player: ** ¿Quién eres?
       - ** Squire (Novicio): ** Soy un escudero de Void Knight, mi señor.
       - ** Player: ** Ya veo. Bueno, sigue con el buen trabajo.

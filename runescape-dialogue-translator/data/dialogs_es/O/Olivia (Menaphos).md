@@ -20,27 +20,27 @@
 - [Menu]: ¿Quieres ayudar?
   - [Choice]: Sí.
     - **Olivia:** ¡Salud, amor!
-    - (Condition: Si el tipo de misión de la ciudad es "Atacada por vida silvestre":)
+    - (Condition: If the city quest type is "Attacked by wildlife":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "En espera de entrega":)
+    - (Condition: If the city quest type is "Awaiting delivery":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Los niños no pueden dormir":)
+    - (Condition: If the city quest type is "Children can't sleep":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Coleccionista de curiosidades":)
+    - (Condition: If the city quest type is "Collector of curiosities":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Crondis está enojado":)
+    - (Condition: If the city quest type is "Crondis is angry":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Plagas de cultivos":)
+    - (Condition: If the city quest type is "Crop pests":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Ayuda de entrega":)
+    - (Condition: If the city quest type is "Delivery help":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "El hijo de un amigo muere lentamente":)
+    - (Condition: If the city quest type is "Friend's son slowly dying":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Nuevo producto":)
+    - (Condition: If the city quest type is "New product":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Slayer master":)
+    - (Condition: If the city quest type is "Slayer master":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "esfuerzo War":)
+    - (Condition: If the city quest type is "War effort":)
       - (continue)
   - [Choice]: No ahora mismo.
     - **Olivia:** Oh, bueno, tal vez aparezca alguien más.
@@ -152,10 +152,10 @@
     - **Olivia:** ¿Tienes el tributo a Crondis? Ella se impacienta. Necesito [número] [item]. ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Olivia ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Olivia:** Genial. Gracias.
@@ -212,10 +212,10 @@
     - **Olivia:** ¿Has reunido el [número] [item]? ¡Necesitamos apaciguar a Crondis lo antes posible! ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Olivia ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Olivia:** Genial. Gracias.
@@ -272,7 +272,7 @@
   - [Choice]: Puedo hacer eso.
     - **Olivia:** ¡Salud, amor!
     - **Player:** ¿Dónde puedo encontrar [monster]?
-    - (Condition: Si el monstruo asignado es Bandidos:)
+    - (Condition: If the monster assigned is Bandits:)
       - {{anchor|first}} **Olivia:** Creo que hay un gran campamento de bandidos al norte de aquí, más allá de la cantera.
   - [Choice]: No.
     - [Menu]: ¿Te gustaría abandonar esta búsqueda de la ciudad?
@@ -315,7 +315,7 @@
   - [Choice]: Claro.
     - **Olivia:** ¡Salud, amor!
     - **Player:** ¿Dónde puedo encontrar [monster]?
-    - (Condition: Si el monstruo asignado es kalfitas:)
+    - (Condition: If the monster assigned is kalphites:)
       - {{anchor|first}} **Olivia:** Se encuentran dentro de colmenas calfitas bajo las arenas del desierto. Al menos ahí me dijeron...
   - [Choice]: No, lo siento.
     - [Menu]: ¿Te gustaría abandonar esta búsqueda de la ciudad?
@@ -364,10 +364,10 @@
     - **Olivia:** ¿Tienes el [número] [item] a mano, soldado? ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Olivia ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Olivia:** Genial. Gracias.
@@ -431,10 +431,10 @@
     - **Olivia:** ¿Tienes los suministros, soldado? ¡Esta guerra no se financiará sola! ¡Necesitamos [número] [item]! ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Olivia ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Olivia:** Genial. Gracias.
@@ -486,9 +486,9 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: Hable sobre su tarea actual.
-    - (Condition: Si el monstruo son los calfitos:)
+    - (Condition: If the monster is kalphites:)
       - **Olivia:** ¿Has matado a los calfitos de [número]? Se encuentran dentro de colmenas calfitas bajo las arenas del desierto. ¡Podríamos ganar esta guerra todavía! ([número] restante)
-    - (Condition: Si el monstruo es una plaga de ranas:)
+    - (Condition: If the monster is plague frogs:)
       - **Olivia:** ¿Has matado las ranas plaga [número]? Por lo general, están adelgazando alrededor de Sophanem. ¡Podríamos ganar esta guerra todavía! ([número] restante)
   - [Choice]: Abandona esta búsqueda de la ciudad.
     - (Action: La misión está completa.)
@@ -498,10 +498,10 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: Hable sobre su tarea actual.
-    - (Condition: Si el monstruo son los calfitos:)
+    - (Condition: If the monster is kalphites:)
       - **Olivia:** ¿Has matado a los calfitos de [número]? Se encuentran dentro de colmenas calfitas bajo las arenas del desierto. ¡Podríamos ganar esta guerra todavía! ([número] restante)
       - (continue)
-    - (Condition: Si el monstruo es una plaga de ranas:)
+    - (Condition: If the monster is plague frogs:)
       - **Olivia:** ¿Has matado las ranas plaga [número]? Por lo general, están adelgazando alrededor de Sophanem. ¡Podríamos ganar esta guerra todavía! (0 restante)
       - (continue)
     - **Player:** Sí, he matado al [monster].

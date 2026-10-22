@@ -17,13 +17,13 @@
 - **SELECCIONA UNA OPCIÓN**
   - ¿Puedes ayudarme en el campo de batalla?
     - **Player:** ¿Puedes ayudarme contra las fuerzas que invaden la ciudad?
-    - ((Si la habilidad del campo de batalla Ira de la Naturaleza no está activa:))
+    - ((If the Wrath of Nature battlefield ability is not active:))
       - **SELECCIONA UNA OPCIÓN**
         - Sintoniza tu habilidad con la de Helwyr.
           - Has configurado tu habilidad en el campo de batalla en {{Colour.<br>Summons a Mushroom that explodes after a delay, dealing damage around it.}}.
         - Deja tu habilidad como está.
           - **Helwyr:** No importa. Sal y muestra tu valor.
-    - ((Si la habilidad del campo de batalla Ira de la Naturaleza está activa:))
+    - ((If the Wrath of Nature battlefield ability is active:))
       - **Helwyr:** Ya te estoy ayudando. ¡Sal y lucha!
   - Charla.
     - **Helwyr:** Hazlo rápido, Guardián Mundial.

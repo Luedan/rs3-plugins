@@ -25,7 +25,7 @@
       - [Choice]: Eso es todo, gracias.
         - (end)
   - [Choice]: Me gustaría hablar sobre el museo.
-    - (Condition: Si el player no ha completado el cuestionario de historia natural:)
+    - (Condition: If the player hasn't completed the Natural history quiz:)
       - (ver|Prueba de historia natural)
-    - (Condition: Si el player ha completado el cuestionario de Historia natural:)
+    - (Condition: If the player has completed the Natural history quiz:)
       - **Mark Brodie:** Gracias por toda tu ayuda, amigo. ¡Espero que disfrutes del museo!

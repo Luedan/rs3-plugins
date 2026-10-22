@@ -25,7 +25,7 @@
 
 - **Gayle:** Oh, eso huele maravilloso. Pero voy a tener que rechazarlo, ya que estoy ayunando ahora mismo.
 - **Player:** Quizás más tarde.
-- ((Si se completó el logro Vegano antipático:))
+- ((If the Vegan Unfriendly achievement was completed:))
   - ¡Felicitaciones! Has completado: 'Vegan Unfriendly': alimenta a todos los cocodrilos con un poco de filete.
   - Has desbloqueado el título: {{Colour ZZCMD0ZZPlayer}}|color=#00FF00}}
   - Puede activar esto a través de la pestaña 'Títulos' en la interfaz 'Personalizaciones'.

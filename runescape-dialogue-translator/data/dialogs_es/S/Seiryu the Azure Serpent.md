@@ -62,11 +62,11 @@
 - {{Colour You were beautiful lights on the horizon...|colour=#99FF99}}
 - {{Colour Blotted out by a dark storm.|colour=#99FF99}}
 - {{Colour Thank you.|colour=#99FF99}}
-- (Condition: Condición desconocida #1:)
+- (Condition: Unknown condition #1:)
   - {{Colour I felt...others...sharing my torment.|colour=#99FF99}}
   - {{Colour The exact same veiled confusion.|colour=#99FF99}}
   - {{Colour One hides it well, though it pains her. The other.. so alone.|colour=#99FF99}}
-- (Condition: Condición desconocida #2:)
+- (Condition: Unknown condition #2:)
   - {{Colour I felt...another...sharing my torment.|colour=#99FF99}}
   - {{Colour The exact same veiled confusion.|colour=#99FF99}}
   - {{Colour Under the obliterated crust of Forinthry...|colour=#99FF99}}

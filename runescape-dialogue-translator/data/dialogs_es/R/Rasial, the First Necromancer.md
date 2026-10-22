@@ -12,7 +12,7 @@
 ### Resting Lich Place
 
 - (Action: Mientras el player excava, Rasial se levanta del suelo por detrás.)
-- ((Excavando de nuevo después de que aparece Rasial:))
+- ((Digging again after Rasial appears:))
   - **Rasial:** Estoy parado aquí...
   - (end)
 - **Rasial:** Siguiendo los pasos de Orcus, ya veo. ¿Y qué espera que se logre con esto?
@@ -39,7 +39,7 @@
 
 #### Por debajo del nivel 70
 
-- ((Aparece uno de los siguientes:))
+- ((One of the following appears:))
   - {{Colour Do you really think you can stop me?}} {{Audio button|Rasial, the First Necromancer - Do you really think you can stop me?.ogg}}
   - {{Colour Everyone will die, and it will be your fault.}} {{Audio button|Rasial, the First Necromancer - Everyone will die, and it will be your fault..ogg}}
   - {{Colour Ha! World Guardian.}} {{Audio button|Rasial, the First Necromancer - Ha! World Guardian..ogg}}
@@ -60,7 +60,7 @@
 
 #### Por encima del nivel 70
 
-- ((Aparece uno de los siguientes:))
+- ((One of the following appears:))
   - {{Colour Ahahahahahaha.}} {{Audio button|Rasial, the First Necromancer - Ahahahahahaha..ogg}}
   - {{Colour Good. You are learning.}} {{Audio button|Rasial, the First Necromancer - Good. You are learning..ogg}}
   - {{Colour Hmm. Hurry up!}} {{Audio button|Rasial, the First Necromancer - Hmm. Hurry up!.ogg}}
@@ -73,12 +73,12 @@
 
 ### Angurvadal appears
 
-- ((Al alcanzar el nivel 60 Necromancy mientras estás en el City of Um, o ir al City of Um después de alcanzar el nivel 60 por primera vez:))
+- ((Upon reaching level 60 Necromancy while in the City of Um, or going to the City of Um after reaching level 60 for the first time:))
   - {{Colour Angurvadal!}} {{Audio button|Rasial, the First Necromancer - Angurvadal! (1).ogg}} {{Audio button|Rasial, the First Necromancer - Angurvadal! (2).ogg}}
 
 ### Fighting Rasial, the First Necromancer
 
-- ((Lo siguiente aparece en el cuadro de chat como se transcribe aquí y también como mensajes generales habituales.))
+- ((The following appear in chat box as transcribed here and also as usual overhead messages.))
 
 #### Entrando en la Fase 2
 
@@ -94,7 +94,7 @@
 
 #### Evitando el ataque Shadow Step
 
-- ((Se elige al azar uno de los siguientes:))
+- ((One of the following is picked at random:))
   - {{Colour: {{Colour|#99FF99|URGH!}}}} {{Audio button|Rasial, the First Necromancer - URGH!.ogg}}
   - {{Colour: {{Colour|#99FF99|HA, HARAR!}}}} {{Audio button|Rasial, the First Necromancer - HA, HARAR!.ogg}}
 

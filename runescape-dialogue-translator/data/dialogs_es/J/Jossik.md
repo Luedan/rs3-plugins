@@ -29,19 +29,19 @@
 ### Holy-book option
 
 - {{anchor|holy book}}**Player:** ¿Has encontrado algún libro de oraciones nuevo?
-- (Condition: Si el player no ha comprado todos los libros de dioses dañados disponibles:)
+- (Condition: If the player hasn't bought all the available damaged god books:)
   - **Jossik:** ¡Curiosamente sí! ¡Encontré estos libros [número] en ataúdes el otro día! Te vendo uno por 5000 coins: ¿qué dices?
   - [Menu]: Selecciona una opción
     - [Choice]: comprar un libro
       - (Se abre la interfaz "Elegir un libro").
-      - (Condition: Si compras alguno de los libros:)
+      - (Condition: If you buy any of the books:)
         - (removes=5,000 coins) (receives=the selected damaged book)
         - **Jossik:** ¡Aquí tienes!
     - [Choice]: no compres nada
       - **Player:** No, gracias.
       - **Jossik:** ¡Está bien! Haz lo que quieras.
-- (Condition: Si el player ha comprado todos los libros de dioses dañados disponibles:)
+- (Condition: If the player has bought all the available damaged god books:)
   - **Jossik:** No. Lo siento, aventurero, ¡supongo que los has encontrado todos! Sin embargo, te avisaré si aparece alguno nuevo.
-- (Condition: Si el player ha perdido uno de los libros de dioses dañados que compró anteriormente:)
+- (Condition: If the player has lost one of their previously purchased damaged god books:)
   - (receives=one of their missing god book with all previously attached pages intact)
   - **Jossik:** ¡De hecho, lo hice! Este libro apareció en la playa no hace mucho, ¡lo reconocí como tuyo inmediatamente! ¡Aquí tienes!

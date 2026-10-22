@@ -19,27 +19,27 @@
 - [Menu]: ¿Quieres ayudar?
   - [Choice]: Sí.
     - **Anhur:** Eso será suficiente.
-    - (Condition: Si el tipo de misión de la ciudad es "Atacada por vida silvestre":)
+    - (Condition: If the city quest type is "Attacked by wildlife":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "En espera de entrega":)
+    - (Condition: If the city quest type is "Awaiting delivery":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Los niños no pueden dormir":)
+    - (Condition: If the city quest type is "Children can't sleep":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Coleccionista de curiosidades":)
+    - (Condition: If the city quest type is "Collector of curiosities":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Crondis está enojado":)
+    - (Condition: If the city quest type is "Crondis is angry":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Plagas de cultivos":)
+    - (Condition: If the city quest type is "Crop pests":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Ayuda de entrega":)
+    - (Condition: If the city quest type is "Delivery help":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "El hijo de un amigo muere lentamente":)
+    - (Condition: If the city quest type is "Friend's son slowly dying":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Nuevo producto":)
+    - (Condition: If the city quest type is "New product":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Slayer master":)
+    - (Condition: If the city quest type is "Slayer master":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "esfuerzo War":)
+    - (Condition: If the city quest type is "War effort":)
       - (continue)
   - [Choice]: No ahora mismo.
     - **Anhur:** No importa.
@@ -51,17 +51,17 @@
 #### Esperando entrega
 
 - **Anhur:** He estado esperando una entrega que contenga algo de [item 1] y algo de [item 2]. Necesito urgentemente el [item 1], pero la gente en el muelle dice que no hay señales del barco en millas.
-- (Condition: Si el artículo deseado es mineral de cobre:)
+- (Condition: If the item desired is copper ore:)
   - **Anhur:** ¿Crees que podrías conseguirme [número]trozos de mineral de cobre? Estoy desesperado por rocas ricas en cobre.
   - **Player:** ¿Dónde podría encontrar un trozo de mineral de cobre?
   - **Anhur:** El mineral de cobre se puede encontrar al sureste de Varrock. ¿Está bien?
   - (continue)
-- (Condition: Si el artículo deseado son semillas de agracejo:)
+- (Condition: If the item desired is barberry seeds:)
   - **Anhur:** ¿Crees que podrías conseguirme semillas de agracejo [número]? Estoy desesperado por semillas que se conviertan en agracejos.
   - **Player:** ¿Dónde puedo encontrar una semilla de agracejo?
   - **Anhur:** Las semillas de agracejo a menudo las dejan los monstruos, o se pueden conseguir de los maestros agricultores alrededor de Gielinor. ¿Está bien?
   - (continue)
-- (Condition: Si el artículo deseado son semillas de romero:)
+- (Condition: If the item desired is rosemary seeds:)
   - **Anhur:** ¿Crees que podrías conseguirme semillas de romero [número]? Estoy desesperado por semillas que se conviertan en plantas de romero.
   - **Player:** ¿Dónde puedo encontrar una semilla de romero?
   - **Anhur:** Las semillas de romero a menudo las dejan los monstruos, o se pueden conseguir de los maestros agricultores alrededor de Gielinor. ¿Está bien?
@@ -98,10 +98,10 @@
     - **Anhur:** ¿Tienes [número] [item]? Es bastante urgente. ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Anhur ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Anhur:** Genial. Gracias.
@@ -131,13 +131,13 @@
 
 - **Anhur:** Los siguientes suministros que me faltan son un montón de [item].
 - **Player:** ...¿y todavía no han llegado?
-- (Condition: Si el artículo deseado son bolsas de alcohol kalphite:)
+- (Condition: If the item desired is spirit kalphite pouches:)
   - **Anhur:** ¡No! Todo lo que necesito son kalfitas instantáneas, que se pueden invocar desde bolsas y los trabajadores del puerto me dicen que pasarán días antes de que las vea.
   - (continue)
-- (Condition: Si el objeto deseado son bastones de batalla de fuego:)
+- (Condition: If the item desired is fire battlestaves:)
   - **Anhur:** ¡No! Todo lo que necesito es un staff con magia de fuego y los trabajadores del puerto me dicen que pasarán días antes de que los vea.
   - (continue)
-- (Condition: Si el artículo deseado son patatas:)
+- (Condition: If the item desired is potatoes:)
   - **Anhur:** ¡No! Todo lo que necesito es una cosecha de tubérculos y almidón y los trabajadores del puerto me dicen que pasarán días antes de que los vea.
   - (continue)
 - **Anhur:** ¿Podrías conseguirme algo para ayudarme por ahora? Acerca de [número] [item] debería funcionar.
@@ -173,10 +173,10 @@
     - **Anhur:** ¿Tienes [número] [item]? ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Anhur ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Anhur:** Genial. Gracias.
@@ -200,13 +200,13 @@
 
 - **Anhur:** Dado que eres tan ingenioso, me pregunto si podrías ahorrarme un viaje por la ciudad...
 - **Player:** Continúa…
-- (Condition: Si el artículo deseado son tiras de tela:)
+- (Condition: If the item desired is strips of cloth:)
   - **Anhur:** Necesito algo de material para vendas para pasar el mes. Aproximadamente [número] tiras de tela me ahorrarán muchos problemas.
   - (continue)
-- (Condition: Si el artículo deseado son semillas de malezas enanas:)
+- (Condition: If the item desired is dwarf weed seeds:)
   - **Anhur:** Necesito una forma de cultivar arbustos de malezas enanas para pasar el mes. Aproximadamente las semillas de malezas enanas [número] me ahorrarán muchos problemas.
   - (continue)
-- (Condition: Si el artículo deseado son cuernos de cabra:)
+- (Condition: If the item desired is goat horns:)
   - **Anhur:** Necesito suministros de pociones para terminar el mes. Aproximadamente [número] los cuernos de cabra me ahorrarán muchos problemas.
   - (continue)
 - **Anhur:** ¿[número] [item] es mucho pedir? ¿Me encontrarás algunos?
@@ -230,11 +230,11 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: Hable sobre su tarea actual.
-    - (Condition: Si el artículo deseado son tiras de tela:)
+    - (Condition: If the item desired is strips of cloth:)
       - **Anhur:** ¿Tienes tiras de tela [número]? Podrías hacerlos en un telar. ([número] restante)
-    - (Condition: Si el artículo deseado son semillas de malezas enanas:)
+    - (Condition: If the item desired is dwarf weed seeds:)
       - **Anhur:** ¿Tienes semillas de hierba enana [número]? Las semillas de malezas enanas a menudo las dejan caer los monstruos, o se pueden obtener de los maestros agricultores alrededor de Gielinor. ([número] restante)
-    - (Condition: Si el artículo deseado son cuernos de cabra:)
+    - (Condition: If the item desired is goat horns:)
       - **Anhur:** ¿Tienes cuernos de cabra [número]? Se pueden encontrar cabras alrededor de Nardah o al oeste de Kalphite Hive. ([número] restante)
   - [Choice]: Abandona esta búsqueda de la ciudad.
     - (Action: La misión está completa.)
@@ -244,21 +244,21 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: Hable sobre su tarea actual.
-    - (Condition: Si el artículo deseado son tiras de tela:)
+    - (Condition: If the item desired is strips of cloth:)
       - **Anhur:** ¿Tienes tiras de tela [número]? Podrías hacerlos en un telar. ([número] restante)
       - (continue)
-    - (Condition: Si el artículo deseado son semillas de malezas enanas:)
+    - (Condition: If the item desired is dwarf weed seeds:)
       - **Anhur:** ¿Tienes semillas de hierba enana [número]? Las semillas de malezas enanas a menudo las dejan caer los monstruos, o se pueden obtener de los maestros agricultores alrededor de Gielinor. ([número] restante)
       - (continue)
-    - (Condition: Si el artículo deseado son cuernos de cabra:)
+    - (Condition: If the item desired is goat horns:)
       - **Anhur:** ¿Tienes cuernos de cabra [número]? Se pueden encontrar cabras alrededor de Nardah o al oeste de Kalphite Hive. ([número] restante)
       - (continue)
     - (removes=the requested items)
     - Número de [item] dado a Anhur ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Anhur:** Genial. Gracias.
@@ -269,13 +269,13 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: Hable sobre su tarea actual.
-    - (Condition: Si el artículo deseado son tiras de tela:)
+    - (Condition: If the item desired is strips of cloth:)
       - **Anhur:** ¿Tienes tiras de tela [número]? Podrías hacerlos en un telar. ([número] restante)
       - (continue)
-    - (Condition: Si el artículo deseado son semillas de malezas enanas:)
+    - (Condition: If the item desired is dwarf weed seeds:)
       - **Anhur:** ¿Tienes semillas de hierba enana [número]? Las semillas de malezas enanas a menudo las dejan caer los monstruos, o se pueden obtener de los maestros agricultores alrededor de Gielinor. ([número] restante)
       - (continue)
-    - (Condition: Si el artículo deseado son cuernos de cabra:)
+    - (Condition: If the item desired is goat horns:)
       - **Anhur:** ¿Tienes cuernos de cabra [número]? Se pueden encontrar cabras alrededor de Nardah o al oeste de Kalphite Hive. ([número] restante)
       - (continue)
     - **Player:** Sí, tengo el [item].
@@ -302,9 +302,9 @@
   - [Choice]: Sí.
     - **Anhur:** Eso será suficiente.
     - **Player:** ¿Dónde puedo encontrar [monster]?
-    - (Condition: Si el monstruo asignado son matones menafitas:)
+    - (Condition: If the monster assigned is Menaphite thugs:)
       - **Anhur:** Fueron exiliados. Se rumorea que se han instalado en Pollnivneach. Eso es lo que he oído.
-    - (Condition: Si el monstruo asignado son guardias del campamento minero:)
+    - (Condition: If the monster assigned is mining camp guards:)
       - **Anhur:** El campamento minero está en algún lugar del desierto, al norte. Eso es lo que he oído.
   - [Choice]: No.
     - [Menu]: ¿Te gustaría abandonar esta búsqueda de la ciudad?
@@ -325,9 +325,9 @@
   - [Choice]: Hable sobre su tarea actual.
     - **Anhur:** ¿Se ocuparon del [número] [monster]? ([número] restantes)
     - **Player:** Todavía no. ¿Dónde podría encontrar [monster] nuevamente?
-    - (Condition: Si el monstruo asignado son matones menafitas:)
+    - (Condition: If the monster assigned is Menaphite thugs:)
       - **Anhur:** Fueron exiliados. Se rumorea que se han instalado en Pollnivneach.
-    - (Condition: Si el monstruo asignado son guardias del campamento minero:)
+    - (Condition: If the monster assigned is mining camp guards:)
       - **Anhur:** El campamento minero está en algún lugar del desierto, al norte.
   - [Choice]: Abandona esta búsqueda de la ciudad.
     - (Action: La misión está completa.)
@@ -357,7 +357,7 @@
   - [Choice]: Muy bien.
     - **Anhur:** Eso será suficiente.
     - **Player:** ¿Sabes dónde puedo conseguir [item]?
-    - (Condition: Si el artículo deseado es mineral de cobre:)
+    - (Condition: If the item desired is copper ore:)
       - **Anhur:** El mineral de cobre se puede encontrar al sureste de Varrock.
   - [Choice]: No, lo siento.
     - [Menu]: ¿Te gustaría abandonar esta búsqueda de la ciudad?
@@ -390,10 +390,10 @@
     - **Anhur:** ¿Ya has encontrado [número] [item]? ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Anhur ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Anhur:** Genial. Gracias.
@@ -427,7 +427,7 @@
   - [Choice]: Claro.
     - **Anhur:** Eso será suficiente.
     - **Player:** ¿Qué sabes sobre [item]?
-    - (Condition: Si el artículo deseado son velas negras:)
+    - (Condition: If the item desired is black candles:)
       - **Anhur:** He oído que hay un fabricante de velas de renombre en Catherby.
   - [Choice]: No.
     - [Menu]: ¿Te gustaría abandonar esta búsqueda de la ciudad?
@@ -460,10 +460,10 @@
     - **Anhur:** ¿Trajiste [número] [item]? ¡Este osito de peluche no se construirá solo! ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Anhur ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Anhur:** Genial. Gracias.
@@ -505,7 +505,7 @@
   - [Choice]: Bien, entonces.
     - **Anhur:** Eso será suficiente.
     - **Player:** ¿Dónde puedo encontrar [item]?
-    - (Condition: Si el artículo deseado son huesos de dragón:)
+    - (Condition: If the item desired is dragon bones:)
       - **Anhur:** Mata algunos dragones y recupera sus huesos.
   - [Choice]: No, lo siento.
     - [Menu]: ¿Te gustaría abandonar esta búsqueda de la ciudad?
@@ -532,10 +532,10 @@
     - **Anhur:** ¿Tienes el [número] [item]? ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Anhur ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Anhur:** Genial. Gracias.
@@ -569,7 +569,7 @@
 - [Menu]: Selecciona una opción
   - [Choice]: Bien, está bien.
     - **Anhur:** Eso será suficiente.
-    - (Condition: Si el artículo deseado es mineral de cobre:)
+    - (Condition: If the item desired is copper ore:)
       - **Anhur:** El mineral de cobre se puede encontrar al sureste de Varrock.
   - [Choice]: No, lo siento.
     - [Menu]: ¿Te gustaría abandonar esta búsqueda de la ciudad?
@@ -596,10 +596,10 @@
     - **Anhur:** ¿Ya tienes [número] [item]? ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Anhur ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Anhur:** Genial. Gracias.
@@ -646,7 +646,7 @@
   - [Choice]: Hable sobre su tarea actual.
     - **Anhur:** ¿Tienes el [item]? Necesito [número]. ([número] restantes)
     - **Player:** Todavía no. ¿Podrías indicarme la dirección de algún [item]?
-    - (Condition: Si el artículo deseado son rollos de tela:)
+    - (Condition: If the item desired is bolts of cloth:)
       - **Anhur:** Podrías hacerlos en un telar.
   - [Choice]: Abandona esta búsqueda de la ciudad.
     - (Action: La misión está completa.)
@@ -659,10 +659,10 @@
     - **Anhur:** ¿Tienes el [item]? Necesito [número]. ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Anhur ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Anhur:** Genial. Gracias.

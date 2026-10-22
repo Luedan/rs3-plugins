@@ -41,10 +41,10 @@
     - **Wizard Rosalina:** ¡Me alegra que tú también lo pienses! La astromancia ha recibido muchas críticas por parte de otros magos en el pasado.
     - **Wizard Rosalina:** Pero desde que mi compañero astromante, Wizard Chambers, lo usó para salvar a Gielinor de Tuska, poco a poco han ido reconociendo su legitimidad.
     - **Wizard Rosalina:** Sin embargo, mi especialidad particular son los duendes estelares.
-    - (Condition: Antes de hablar con un star sprite:)
+    - (Condition: Before talking to a star sprite:)
       - **Player:** ¿Qué son los duendes estelares?
       - (continue)
-    - (Condition: Después de hablar con un star sprite:)
+    - (Condition: After talking to a star sprite:)
       - **Player:** ¿Los extraterrestres de aspecto extraño que se pueden encontrar en las estrellas fugaces? ¡He conocido a uno de esos antes! Estrella fugaz.
       - **Wizard Rosalina:** ¡Sí! ¡Encantadores, verdad!
       - (continue)
@@ -83,9 +83,9 @@
       - [Choice]: [Previous options]
         - (previous2|Rosalina-options)
   - [Choice]: cond=Having lost a portable telescope:|Me gustaría recuperar mi telescopio portátil.
-    - (Condition: Sin espacio libre backpack:)
+    - (Condition: Without free backpack space:)
       - **Wizard Rosalina:** Tendrás que volver cuando tengas un espacio libre en tu backpack.
-    - (Condition: Con espacio gratuito backpack:)
+    - (Condition: With free backpack space:)
       - **Player:** He perdido mi telescopio portátil.
       - **Wizard Rosalina:** No te preocupes, ¡tengo muchos repuestos!
       - (receives=portable telescope)
@@ -117,13 +117,13 @@
 - **Wizard Rosalina:** Oh, hola, ¡estoy siguiendo estrellas fugaces!
 - **Wizard Rosalina:** ¡Estoy buscando ver si hay algún fallo, para poder enviar un mensaje y conseguir ayuda para los duendes de estrellas varados!
 - {{RSFontAchievement|Wish Upon a Star|Talk to Wizard Rosalina on the second floor of the Wizards' Tower about Shooting Stars.}}
-- ((Se muestra en una ventana emergente de finalización de tarea:))
+- ((Shown in a task completion pop-up:))
   - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
   - Deseo a una estrella
   - Habla con Wizard Rosalina en el segundo piso de Wizards' Tower sobre Shooting Stars.
   - (continue)
 - **Player:** ¡Bien! Bueno, ¡sigan con el buen trabajo!
-- (Condition: Si se han completado todas las tareas:)
+- (Condition: If all the tasks have been completed:)
   - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!
 
 ### Attempting to place a cannon on Zolarea
@@ -137,5 +137,5 @@
 - **Wizard Rosalina:** ¿En serio? Después de toda la hospitalidad que te mostraron los duendes estelares, ¿te dedicas a fotografiar su planeta?
 - **Wizard Rosalina:** Esperaba algo mejor de ti. Si algún daño le ocurre a uno solo de ellos...
 - **Player:** No, señora. Bajaré el cañón ahora mismo.
-- (Condition: Primera vez que intento esto:)
+- (Condition: First time attempting this:)
   - {{RSFontAchievement|Gielinor Attacks!}}

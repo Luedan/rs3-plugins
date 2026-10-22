@@ -26,7 +26,7 @@
 
 #### Texto de arriba
 
-- ((Cada 30 segundos, Ivar dirá una de las siguientes cosas:))
+- ((Every 30 seconds, Ivar will say one of the following:))
   - Ivar, King of Bones: {{Colour}} {{Audio button|Ivar, King of Bones - Come on, fight me (1).ogg}} {{Audio button|Ivar, King of Bones - Come on, fight me (2).ogg}} {{Audio button|Ivar, King of Bones - Come on, fight me (3).ogg}} {{Audio button|Ivar, King of Bones - Come on, fight me (4).ogg}}
   - Ivar, King of Bones: {{Colour}} {{Audio button|Ivar, King of Bones - Don't kill the funny man (1).ogg}} {{Audio button|Ivar, King of Bones - Don't kill the funny man (2).ogg}} {{Audio button|Ivar, King of Bones - Don't kill the funny man (3).ogg}} {{Audio button|Ivar, King of Bones - Don't kill the funny man (4).ogg}}
   - Ivar, King of Bones: {{Colour}} {{Audio button|Ivar, King of Bones - Get in here (1).ogg}} {{Audio button|Ivar, King of Bones - Get in here (2).ogg}} {{Audio button|Ivar, King of Bones - Get in here (3).ogg}}

@@ -23,32 +23,32 @@
 
 - [Menu]: ¿Alimentar a los renos con la comida navideña que llevas?
   - [Choice]: si
-    - (Condition: Antes de alimentar con 25 piezas diarias de comida navideña:)
+    - (Condition: Before feeding 25 daily pieces of Christmas food:)
       - (removes=all or as many as is missing from the daily 25 unnoted Christmas food)
-      - (Condition: Si se le dio un trozo de comida navideña que no se anotó:)
+      - (Condition: If one piece of unnoted Christmas food was fed:)
         - Le das al hungry reindeer un trozo de comida navideña.
-        - (ventana emergente)
-          - (Ventana emergente: le das al hungry reindeer un trozo de comida navideña).
+        - (pop-up)
+          - (Pop-up: You feed the hungry reindeer a piece of Christmas food.)
           - (continue)
-      - (Condition: Si se le dieron varios trozos de comida navideña que no se mencionaron:)
+      - (Condition: If multiple pieces of unnoted Christmas food were fed:)
         - Le das de comer a los hungry reindeer [número] trozos de comida navideña.
-        - (ventana emergente)
-          - (Ventana emergente: le das de comer a los hungry reindeer [número] trozos de comida navideña).
+        - (pop-up)
+          - (Pop-up: You feed the hungry reindeer [number] pieces of Christmas food.)
           - (continue)
-      - (Condition: Llegar a 50.000 espíritu navideño:)
+      - (Condition: Reaching 50,000 Christmas spirit:)
         - Has alcanzado el límite flexible de espíritu navideño de 50.000. Debes gastar algunas fichas en la tienda navideña Spirit antes de poder ganar más.
-        - (ventana emergente)
-          - (Ventana emergente: has alcanzado el límite mínimo de espíritu navideño de 50 000. Debes gastar algunas fichas en la tienda navideña Spirit antes de poder ganar más.|advertencia=yes)
+        - (pop-up)
+          - (Pop-up: You have reached the Christmas spirit soft cap of 50,000. You need to spend some tokens in the Christmas Spirit Shop before you can earn more.|warning=yes)
           - (continue)
-      - (Condition: Con menos de 50.000 espíritu navideño antes:)
+      - (Condition: With under 50,000 Christmas spirit before:)
         - Se ha agregado lo siguiente a su bolsa de divisas: [número] x Espíritu navideño.
         - (continue)
-      - (Condition: Si se obtiene Rudi:)
+      - (Condition: If Rudi is obtained:)
         - (receives=Rudi)
         - Mientras alimentas a los renos, te encuentras con Rudi, la mascota reno de Christmas Village.
-        - (ventana emergente)
-          - (Ventana emergente: mientras alimentas a los renos, encuentras a Rudi, la mascota reno de Christmas Village.|color=#00FF00)
-    - (Condition: Después de alimentar con 25 piezas diarias de comida navideña:)
+        - (pop-up)
+          - (Pop-up: Whilst feeding the reindeer you find Rudi, the Christmas Village reindeer pet.|colour=#00FF00)
+    - (Condition: After feeding 25 daily pieces of Christmas food:)
       - **Player:** Parece que ha comido todo lo que pudo por hoy.
       - En su lugar, se puede añadir comida navideña adicional al comedero cercano.
   - [Choice]: No

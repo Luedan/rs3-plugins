@@ -14,7 +14,7 @@
 
 #### Intercambio
 
-- ((Se abre la interfaz de la tienda Farming.))
+- ((Farming Store interface opens.))
 
 #### Habla con
 
@@ -31,7 +31,7 @@
         - **¿Qué te gustaría decir?**
           - Sí, por favor.
             - **Player:** Sí, por favor.
-            - ((Se abre la interfaz de la tienda Farming.))
+            - ((Farming Store interface opens.))
           - ¿Qué haces con las herramientas que estás almacenando?
             - **Player:** ¿Qué haces con las herramientas que almacenas? ¡No caben todos en tus bolsillos!
             - **Tool leprechaun:** Los duendes tenemos un cobertizo donde los guardamos. Es un cobertizo mágico, por lo que puedes recuperar tus objetos de cualquiera de nosotros, los duendes, cuando quieras. ¡Te ahorras tener que cargar un montón de cosas por todo el país!
@@ -39,7 +39,7 @@
             - **¿Qué te gustaría decir?**
               - {{Sic|Yes please.}}
                 - **Player:** Sí, por favor.
-                - ((Se abre la interfaz de la tienda Farming.))
+                - ((Farming Store interface opens.))
               - ¿Qué puedes almacenar?
                 - (arriba)
               - No gracias, guardaré mis cosas.
@@ -48,7 +48,7 @@
             - **Player:** No, gracias, guardaré mis cosas.
             - **Tool leprechaun:** Debes ser más tonto de lo que pareces si te gusta llevar tus herramientas a todas partes.
       - Abre tu tienda de herramientas, por favor.
-        - ((Se abre la interfaz de la tienda Farming.))
+        - ((Farming Store interface opens.))
       - En realidad, estoy bien.
         - **Player:** En realidad, estoy bien.
   - La granja de Winkin.
@@ -65,62 +65,62 @@
         - **Player:** ¿Pueden hacerme abono con parches?
         - **Tool leprechaun:** Claro, lo haremos en cada uno de tus parches usando el abono que tú nos das, pero no gratis.
         - **Tool leprechaun:** 500 de oro para abono normal, 1500 de oro para supercompost o 2500 de oro para ultracompost. Paga hasta 60.000 por adelantado, pero no hay reembolsos.
-        - ((Con compost que queda por comprar:))
+        - ((With composting left to buy:))
           - **¿Qué quieres recargar?**
-            - ((Con compost normal queda por comprar:))
+            - ((With normal composting left to buy:))
               - Abono normal.
-                - ((Una entrada de número con el mensaje "¿Pagar por cuántos (máximo 60 000)?" se abre.))
-                - ((Después de ingresar un número positivo:))
+                - ((A number input with prompt "Pay for how many (max 60,000)?" opens.))
+                - ((After entering a positive number:))
                   - **¿Pagar [número] coins?**
                     - Sí.
-                      - ((Si no tienes suficiente dinero contigo:))
+                      - ((If you do not have sufficient money with you:))
                         - **Tool leprechaun:** Parece que no puedes pagar. Vuelve cuando puedas.
-                      - ((Si tienes suficiente dinero contigo:))
+                      - ((If you have sufficient money with you:))
                         - (removes=coins)
                         - **Tool leprechaun:** Ya no te preocupes por el abono, ¡simplemente mantén tu almacenamiento lleno!
                     - No.
                       - **Tool leprechaun:** Parece que no puedes pagar. Vuelve cuando puedas.
-                - ((Después de ingresar 0:))
+                - ((After entering 0:))
                   - **Tool leprechaun:** Haz lo que quieras.
-            - ((Con supercompostaje queda por comprar:))
+            - ((With supercomposting left to buy:))
               - Supercompost.
-                - ((Una entrada de número con el mensaje "¿Pagar por cuántos (máximo 60 000)?" se abre.))
-                - ((Después de ingresar un número positivo:))
+                - ((A number input with prompt "Pay for how many (max 60,000)?" opens.))
+                - ((After entering a positive number:))
                   - **¿Pagar [número] coins?**
                     - Sí.
-                      - ((Si no tienes suficiente dinero contigo:))
+                      - ((If you do not have sufficient money with you:))
                         - **Tool leprechaun:** Parece que no puedes pagar. Vuelve cuando puedas.
-                      - ((Si tienes suficiente dinero contigo:))
+                      - ((If you have sufficient money with you:))
                         - (removes=coins)
                         - **Tool leprechaun:** Ya no te preocupes por el abono, ¡simplemente mantén tu almacenamiento lleno!
                     - No.
                       - **Tool leprechaun:** Parece que no puedes pagar. Vuelve cuando puedas.
-                - ((Después de ingresar 0:))
+                - ((After entering 0:))
                   - **Tool leprechaun:** Haz lo que quieras.
-            - ((Con ultracompostaje queda por comprar:))
+            - ((With ultracomposting left to buy:))
               - Ultracompost.
-                - ((Una entrada de número con el mensaje "¿Pagar por cuántos (máximo 60 000)?" se abre.))
-                - ((Después de ingresar un número positivo:))
+                - ((A number input with prompt "Pay for how many (max 60,000)?" opens.))
+                - ((After entering a positive number:))
                   - **¿Pagar [número] coins?**
                     - Sí.
-                      - ((Si no tienes suficiente dinero contigo:))
+                      - ((If you do not have sufficient money with you:))
                         - **Tool leprechaun:** Parece que no puedes pagar. Vuelve cuando puedas.
-                      - ((Si tienes suficiente dinero contigo:))
+                      - ((If you have sufficient money with you:))
                         - (removes=coins)
                         - **Tool leprechaun:** Ya no te preocupes por el abono, ¡simplemente mantén tu almacenamiento lleno!
                     - No.
                       - **Tool leprechaun:** Parece que no puedes pagar. Vuelve cuando puedas.
-                - ((Después de ingresar 0:))
+                - ((After entering 0:))
                   - **Tool leprechaun:** Haz lo que quieras.
             - nada
               - (continue|refund)
-        - ((Sin compostaje queda por comprar:))
+        - ((Without composting left to buy:))
           - **Tool leprechaun:** Parece que ya pagaste todo.
       - ¿Puedes dejar de hacer abono con parches por mí?
         - **Player:** ¿Puedes dejar de hacer abono con parches por mí?
-          - ((Si no has pagado por el compostaje:))
+          - ((If you have not paid for composting:))
             - **Tool leprechaun:** No has pagado de todos modos, no estaba sucediendo de todos modos.
-          - ((Si has pagado por el compostaje:))
+          - ((If you have paid for composting:))
             - (continue|refund)
       - ¿Cuánto he pagado?
         - **Player:** ¿Cuánto abono usarás?
@@ -132,45 +132,45 @@
             - **Tool leprechaun:** Entonces, ¿no crees que estás buscando un reembolso? Puedo devolverte todo el dinero que me diste originalmente.
             - **Seleccione una opción**
               - Sí.
-                - ((Sin nada que reembolsar:))
+                - ((Without anything to refund:))
                   - **Tool leprechaun:** ¡Parece que ya te han reembolsado todo! Uf...
-                - ((Con algo para reembolsar:))
+                - ((With something to refund:))
                   - **¿Qué quieres reembolsar?**
-                    - ((Sólo con abono normal se reembolsará:))
+                    - ((Only with normal compost to refund:))
                       - Abono normal.
-                        - ((Se abre una entrada de número con el mensaje "¿Cuántos reembolsos (máx. [número])?"))
-                        - ((Después de ingresar un número positivo:))
+                        - ((A number input opens with prompt "Refund how many (max [number])?"))
+                        - ((After entering a positive number:))
                           - (receives=coins)
                           - **Tool leprechaun:** ¡Ahí lo tienes!
-                        - ((Después de ingresar 0:))
+                        - ((After entering 0:))
                           - **Tool leprechaun:** Haz lo que quieras.
-                    - ((Sólo con supercompost a reembolsar:))
+                    - ((Only with supercompost to refund:))
                       - Supercompost.
-                        - ((Se abre una entrada de número con el mensaje "¿Cuántos reembolsos (máx. [número])?"))
-                        - ((Después de ingresar un número positivo:))
+                        - ((A number input opens with prompt "Refund how many (max [number])?"))
+                        - ((After entering a positive number:))
                           - (receives=coins)
                           - **Tool leprechaun:** ¡Ahí lo tienes!
-                        - ((Después de ingresar 0:))
+                        - ((After entering 0:))
                           - **Tool leprechaun:** Haz lo que quieras.
-                    - ((Sólo con ultracompost a reembolsar:))
+                    - ((Only with ultracompost to refund:))
                       - Ultracompost.
-                        - ((Se abre una entrada de número con el mensaje "¿Cuántos reembolsos (máx. [número])?"))
-                        - ((Después de ingresar un número positivo:))
+                        - ((A number input opens with prompt "Refund how many (max [number])?"))
+                        - ((After entering a positive number:))
                           - (receives=coins)
                           - **Tool leprechaun:** ¡Ahí lo tienes!
-                        - ((Después de ingresar 0:))
+                        - ((After entering 0:))
                           - **Tool leprechaun:** Haz lo que quieras.
                     - Nada.
                       - (end)
               - No.
                 - (end)
       - ¿Puedo cambiar qué parches compostas?
-        - ((Si hay parches que los duendes de herramientas están compostando:))
-          - ((A continuación solo se enumeran los parches que los duendes están compostando:))
+        - ((If there are patches that the tool leprechauns are composting:))
+          - ((In the following only the patches that the leprechauns are composting are listed:))
             - **Tool leprechaun:** Actualmente usaremos su abono en:<br>Parches de árboles<br>Parches de huertos<br>Parches de lúpulo<br>Parches de arbustos<br>Parches de hierbas<br>Parches de flores<br>Parches especiales
             - (continue)
-        - ((Si hay parches en los que los duendes de herramientas no están compostando))
-          - ((A continuación sólo se enumeran los parches que los duendes no están compostando:))
+        - ((If there are patches that the tool leprechauns are not composting))
+          - ((In the following only the patches that the leprechauns are not composting are listed:))
             - **Tool leprechaun:** No usaremos su abono en<br>Parches de árboles<br>Parches de huertos<br>Parches de lúpulo<br>Parches de arbustos<br>Parches de hierbas<br>Parches de flores<br>Parches especiales
             - (continue)
         - **Seleccione una opción**
@@ -229,7 +229,7 @@
                 - (previous)
       - En realidad, estoy bien.
         - (arriba)
-  - ((Si tienes alguna recompensa para recolectar del Árbol del Mal:))
+  - ((If you have any rewards to collect from the Evil Tree:))
     - Otros temas.
       - ¿Puedo recoger mis recompensas del Árbol del Mal?
         - **Player:** ¿Puedo recoger mis recompensas del Árbol del Mal?
@@ -269,8 +269,8 @@
 
 - (Se anota todo el elemento en backpack de el player).
 - El duende cambia tu [item/items] por: [número] x [banknote/banknotes].
-- (ventana emergente)
-  - (Ventana emergente: El duende cambia tu [item/items] por: [número] x [banknote/banknotes].|color=#00FF00)
+- (pop-up)
+  - (Pop-up: The leprechaun exchanges your [item/items] for: [number] x [banknote/banknotes].|color=#00FF00)
 
 ### At the allotment patch south of Falador
 
@@ -330,7 +330,7 @@
           - **¿QUÉ TE GUSTARÍA DECIR?**
             - Sí, por favor.
               - **Player:** Sí, por favor.
-              - ((Se abre la interfaz de la tienda Farming.))
+              - ((Farming Store interface opens.))
             - ¿Qué haces con las herramientas que estás almacenando?
               - **Player:** ¿Qué haces con las herramientas que almacenas? ¡No caben todos en tus bolsillos!
               - **Tool leprechaun:** Por supuesto que no. Tengo un cobertizo para herramientas. Aunque es un cobertizo bastante curioso. A veces, los elementos simplemente parecen aparecer allí.
@@ -338,7 +338,7 @@
               - **¿QUÉ TE GUSTARÍA DECIR?**
                 - {{Sic|Yes please.}}
                   - **Player:** Sí, por favor.
-                  - ((Se abre la interfaz de la tienda Farming.))
+                  - ((Farming Store interface opens.))
                 - ¿Qué puedes almacenar?
                   - (arriba)
                 - No gracias, guardaré mis cosas.
@@ -347,7 +347,7 @@
               - **Player:** No, gracias, guardaré mis cosas.
               - **Tool leprechaun:** Bueno, estaré aquí si alguna vez decides que puedo ser de utilidad.
       - Abre tu tienda de herramientas, por favor.
-        - ((Se abre la interfaz de la tienda Farming.))
+        - ((Farming Store interface opens.))
       - En realidad, estoy bien.
         - **Player:** En realidad, estoy bien.
   - La granja de Winkin.

@@ -14,7 +14,7 @@
 
 #### Habla con
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only on the first time:)
   - **Reyna:** ¡Bienvenido a la hermosa Sunlight Sands!
   - **Player:** ¡Gracias! Hace mucho calor aquí.
   - **Reyna:** Por supuesto, estamos en la Tierra de la Luz del Sol, ¿qué más se puede esperar?
@@ -41,7 +41,7 @@
 
 #### Verificar títulos
 
-- ((Lo siguiente se muestra en una interfaz titulada "VER TÍTULOS", con los títulos de la izquierda como opciones cambiando el contenido de la derecha:))
+- ((The following is shown in an interface titled "VIEW TITLES", with the titles on the left as options changing the content on the right:))
   - [Choice]: el vagabundo de la playa
     - {{Colour|#2DBA14|THE BEACHBUM|#322E28}}
     - Golpea con éxito 5 cocos seguidos en el coco tímido.
@@ -97,7 +97,7 @@
 
 #### Habla con
 
-- (Condition: Sólo durante una ola de calor:)
+- (Condition: Only during a heatwave:)
   - **Reyna:** ¡Oh, es abrasador! ¡La escala de temperatura está tan alta que dejó de funcionar para que puedas continuar con tus actividades en la playa independientemente del calor actual!
   - (continue)
 - [Menu]: Selecciona una opción
@@ -169,13 +169,13 @@
 
 - (receives=Sandy Clue Scroll)
 - **Reyna:** Aquí tengo un pergamino de pistas arenosas para ti.
-- ((Si el player tiene más pergaminos almacenados:))
+- ((If the player has more scrolls in store:))
   - Después de este desplazamiento de pistas, tienes [amount] desplazamiento de pistas adicionales [s].
 
 ##### Con un pergamino ya poseído
 
 - **Reyna:** No podrás recibir otra pista hasta que hayas completado o destruido la anterior.
-- ((Si el player tiene más pergaminos almacenados:))
+- ((If the player has more scrolls in store:))
   - Después de este desplazamiento de pistas, tienes [amount] desplazamiento de pistas adicionales [s].
 
 ##### Con el recorrido del día actual completado pero más para reclamar más adelante
@@ -188,7 +188,7 @@
 
 #### Ver títulos
 
-- ((Lo siguiente se muestra en una interfaz titulada "VER TÍTULOS", con los títulos de la izquierda como opciones cambiando el contenido de la derecha:))
+- ((The following is shown in an interface titled "VIEW TITLES", with the titles on the left as options changing the content on the right:))
   - [Choice]: el vagabundo de la playa
     - {{Colour|#2DBA14|THE BEACHBUM|#0A1F29}}
     - Golpea con éxito 5 cocos seguidos en el coco tímido.

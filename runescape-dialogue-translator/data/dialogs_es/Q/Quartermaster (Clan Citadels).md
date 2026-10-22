@@ -37,43 +37,43 @@
         - **Intendente:** Mover la marca de compilación tampoco llevará a cabo ningún trabajo de actualización o degradación que hayas enumerado.
         - [Menu]: ¿Desea mover el tick de compilación?
           - [Choice]: si
-            - (Condition: Si el rango del clan es lo suficientemente alto:)
+            - (Condition: If clan rank is high enough:)
               - {{Transcript missing}}
-            - (Condition: Si el rango del clan no es lo suficientemente alto:)
+            - (Condition: If clan rank is not high enough:)
               - Tu rango no es lo suficientemente alto como para cambiar el día de construcción/mantenimiento de tu clan.
           - [Choice]: No
             - (end)
       - [Choice]: Acerca de los aumentos de experiencia...
-        - (Condition: Si el player ha estado en el clan durante menos de 1 semana y recibió experiencia adicional dentro de 1 semana:)
+        - (Condition: If the player has been in the clan for less than 1 week, and received bonus experience within 1 week:)
           - **Intendente:** Me temo que te he dado experiencia hace poco y como eres nuevo en el clan no puedo darte más hasta al menos hasta dentro de un día.
-        - (Condition: Si el player ya recibió experiencia adicional por el ciclo de construcción actual:)
+        - (Condition: If the player has already received bonus experience for the current build cycle:)
           - **Intendente:** Ya te he dado algo de experiencia; No podré darte más hasta después del próximo ciclo de construcción.
-        - (Condition: Si el player aún no ha recibido experiencia adicional para el ciclo de construcción actual:)
+        - (Condition: If the player has not yet received bonus experience for the current build cycle:)
           - [Menu]: Selecciona una opción
             - [Choice]: ¿Puedes darme alguna experiencia?
               - **Intendente:** A medida que trabajes para tu clan, reuniendo los recursos que necesitamos para construir y mantener la Fortaleza, progresarás para obtener un aumento de experiencia. Podrás utilizar la experiencia adicional tanto aquí en la ciudadela como en el resto del mundo.
               - **Intendente:** Debo advertirles que solo puedo ofrecer un bono por semana.
               - **Intendente:** Ahora, veamos...
-              - (Condition: Si el player aún no ha reunido suficientes recursos para el ciclo de compilación actual:)
+              - (Condition: If the player has not yet gathered enough resources for the current build cycle:)
                 - **Intendente:** Nuestros registros muestran que no ha trabajado para nosotros esta semana.
-              - (Condition: Si el player aún no ha reunido suficientes recursos para el ciclo de compilación actual:)
+              - (Condition: If the player has not yet gathered enough resources for the current build cycle:)
                 - **Intendente:** Sí; has trabajado suficiente para ganar experiencia. ¿En qué habilidad te gustaría hacerlo?
-                - ((Se abre la interfaz de selección de habilidades.))
+                - ((Skill selection interface opens.))
             - [Choice]: ¿Cómo puedo ganar experiencia extra?
               - **Intendente:** Obtener el impulso es simplemente cuestión de trabajar en cualquiera de nuestros edificios de recolección de recursos, desde el árbol Woodcutting hasta la arboleda Summoning. Una vez que hayas reunido lo suficiente, reparte como quieras entre las parcelas disponibles para el clan, puedo otorgarte el bono.
               - (previous)
             - [Choice]: Estoy aquí para un impulso de experiencia.
-              - (Condition: Si el player aún no ha reunido suficientes recursos para el ciclo de compilación actual:)
+              - (Condition: If the player has not yet gathered enough resources for the current build cycle:)
                 - **Intendente:** Lo siento mucho. Necesitarás trabajar más antes de que pueda brindarte experiencia.
-              - (Condition: Si el player aún no ha reunido suficientes recursos para el ciclo de compilación actual:)
+              - (Condition: If the player has not yet gathered enough resources for the current build cycle:)
                 - **Intendente:** Sí; has trabajado suficiente para ganar experiencia. ¿En qué habilidad te gustaría hacerlo?
-                - ((Se abre la interfaz de selección de habilidades.))
+                - ((Skill selection interface opens.))
   - [Choice]: Me gustaría consultar la lista de trabajos.
     - *(Se abre la interfaz de lista de trabajos)*
   - [Choice]: Me gustaría mover el tick de construcción del clan.
-    - (Condition: Si el rango del clan es lo suficientemente alto:)
+    - (Condition: If clan rank is high enough:)
       - {{Transcript missing}}
-    - (Condition: Si el rango del clan es lo suficientemente alto:)
+    - (Condition: If clan rank is high enough:)
       - Tu rango no es lo suficientemente alto como para cambiar el día de construcción/mantenimiento de tu clan.
   - [Choice]: Acerca de la experiencia adicional...
     - (above|bxp)

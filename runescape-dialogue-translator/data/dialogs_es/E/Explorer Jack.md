@@ -43,7 +43,7 @@
 
 #### Sistema de tareas
 
-- (Condition: Si el player ha completado las tareas para principiantes en el conjunto Lumbridge y Draynor y las recompensas no han sido reclamadas:)
+- (Condition: If the player has completed the Beginner tasks in the Lumbridge and Draynor set and the rewards not claimed:)
   - **Player:** Creo que terminé todas las tareas para principiantes del conjunto Lumbridge.
   - **Explorer Jack:** ¿Tienes? ¡Ah, bien hecho! Todavía haremos de ti un explorador.
   - **Player:** Gracias. ¿Hay una recompensa?
@@ -58,7 +58,7 @@
   - **Player:** Muchas gracias.
   - **Explorer Jack:** Si pierdes tu anillo, vuelve a verme y seguro que tendré otro. Ahora, ¿tenías algo más que preguntar?
   - (continue)
-- (Condition: Si el player ha perdido su anillo de Explorador 1:)
+- (Condition: If the player has lost their Explorer's ring 1:)
   - **Explorer Jack:** ¡Qué carajo! ¿Cómo te va ese anillo?
   - **Player:** Lo perdí.
   - (receives=Explorer ring 1)
@@ -124,14 +124,14 @@
 
 #### Reclamar recompensas
 
-- (Condition: Sin recompensas para reclamar:)
+- (Condition: Without rewards to claim:)
   - **Explorer Jack:** Lo sentimos, no se te debe ninguna recompensa por logros en este momento. Mire su sistema de logros para saber qué hacer para ganar más.
-- (Condition: Con recompensas para reclamar:)
+- (Condition: With rewards to claim:)
   - **Explorer Jack:** Entonces llenaré tu inventario con lo que necesitas.
   - (receives=rewards)
-  - (Condition: Sin suficiente espacio backpack:)
+  - (Condition: Without enough backpack space:)
     - **Explorer Jack:** Ahí lo tienes. No tenías suficiente espacio para todo lo que te debían, así que me quedé con el resto.
-  - (Condition: Con suficiente espacio backpack:)
+  - (Condition: With enough backpack space:)
     - **Explorer Jack:** Ahí lo tienes.
 
 #### Intentando abrir la trampilla
@@ -178,14 +178,14 @@
 
 - **Explorer Jack:** ¡Estupendo! ¡Mira lo que han hecho Foreman George y su equipo de constructores! ¡Esta casa es perfecta!
 - **Explorer Jack:** Sólo necesito una alfombra y algunas decoraciones y esos meses de dormir a la intemperie en las ruinas de mi casa se convertirán en un recuerdo lejano.
-- ((Continúa con un diálogo regular.))
+- ((Continues with regular dialogue.))
 
 ##### Durante el Lumbridge Rebuildathon
 
 - **Explorer Jack:** Desde que comenzó la batalla entre Saradomin y Zamorak, ¡mi casa ha sido un completo desastre!
 - **Explorer Jack:** Pero Foreman George y su equipo ahora están en el caso. No puedo esperar a ver qué le hacen.
 - **Explorer Jack:** Una cosa es segura: ¡no puede ser peor que la ruina que me dejó la batalla!
-- ((Continúa con un diálogo regular.))
+- ((Continues with regular dialogue.))
 
 ##### Durante la batalla de Lumbridge y antes del Lumbridge Rebuildathon
 
@@ -195,4 +195,4 @@
 - **Explorer Jack:** ¡Pensé para mis adentros que se necesitaría más que una batalla de destrucción mundial entre dos dioses gigantescos y todopoderosos para detenerme!
 - **Explorer Jack:** Así que no dejaré que eso me deprima. ¡Todavía soy un capataz y tengo un trabajo que hacer!
 - **Explorer Jack:** Me alegra ver que la batalla ya terminó. No estoy seguro de cómo se recuperará Zamorak de esa derrota.
-- ((Continúa con un diálogo regular.))
+- ((Continues with regular dialogue.))

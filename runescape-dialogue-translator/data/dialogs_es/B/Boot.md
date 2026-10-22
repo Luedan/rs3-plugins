@@ -31,8 +31,8 @@
 - **Boot:** Hola viajero, supongo que estás buscando esto.
 - [Boot revela un huevo dorado escondido entre las estalagmitas y te lo entrega.]
 - ¡Encontraste un huevo de oro! ¡Al abrirlo descubres la siguiente pista!
-- (ventana emergente)
-  - (Ventana emergente: ¡Encontraste un huevo de oro! Al abrirlo, ¡descubres la siguiente pista!|color=#00FF00)
+- (pop-up)
+  - (Pop-up: You found a golden egg! Cracking it open you discover your next clue!|colour=#00FF00)
   - (continue)
 - Se ha agregado lo siguiente a su bolsa de divisas: 3 x puntos Egg.
 - Se ha agregado lo siguiente a su bolsa de divisas: 10 x Puntos Treasure Trail.

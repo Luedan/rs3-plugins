@@ -19,7 +19,7 @@
 - **Vermyx, Brood Mother:** {{RSChat|Snaaaarl!}}
 - {{Colour: Snaaaarl!|colour=#99FF99}}
 - Fragmentos de piedra lunar marcan tus pies. ¡Prepárate para moverte!
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Fragmentos de piedra lunar marcan tus pies. ¡Prepárate para moverte!
   - (continue)
 - (Action: Aparecen fragmentos de piedra lunar.)
@@ -36,20 +36,20 @@
 - {{Colour: Rarghh!|colour=#99FF99}}
 - (Action: Vermyx, Brooth Mother se retira a los túneles.)
 - Vermyx canaliza el poder desde el Sanctum hacia el [{{Colour] Stand in the marker to redirect it!}}
-- (Condition: Al pararse sobre un marcador por primera y segunda vez:)
+- (Condition: When standing on a marker for the first and second times:)
   - [número]/3 almas redirigidas.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - [número]/3 almas redirigidas.
-- (Condition: Al pararse sobre un marcador por tercera vez:)
+- (Condition: When standing on a marker for the third time:)
   - (Action: Vermyx, Brood Mother reaparece de los túneles.)
   - El control de Vermyx sobre el Sanctum se ha aflojado.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - El control de Vermyx sobre el Sanctum se ha aflojado.
 
 ### Soul Bomb attack
 
 - Vermyx te dispara una poderosa bomba. ¡Prepárate!
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Vermyx te dispara una poderosa bomba. ¡Prepárate!
   - (continue)
 - **Vermyx, Brood Mother:** {{RSChat|Kreeee!}}
@@ -60,7 +60,7 @@
 - **Vermyx, Brood Mother:** {{RSChat|Heaaall...}}
 - {{Colour: Heaaall...|colour=#99FF99}}
 - (Action: Aparece un sanador escarabajo corrupto y comienza a caminar hacia Vermyx, Brood Mother.)
-- (Condition: Al aturdir al sanador escarabajo corrupto:)
+- (Condition: When stunning the corrupted scarab healer:)
   - Aturdir al sanador escarabajo corrupto lo ha hecho susceptible al daño.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - Aturdir al sanador escarabajo corrupto lo ha hecho susceptible al daño.

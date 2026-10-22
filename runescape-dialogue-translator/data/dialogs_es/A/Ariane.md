@@ -134,9 +134,9 @@
 
 - **Ariane:** Ojalá hubiera podido ver la expresión del rostro del avatar de Bandos cuando disparaste esa ballesta. Asestaste un golpe no sólo a los duendes de las cavernas sino a todos los mortales.
 - **Ariane:** Nadie nos detiene. Nadie nos mantiene ignorantes. Los dioses son más poderosos que nosotros, pero no infinitamente: pueden ser derribados.
-- ((Antes del regreso de los dioses:))
+- ((Before the gods' return:))
   - **Ariane:** Cuando pienso en todo lo que hemos logrado en los últimos años, a veces me pregunto si se está gestando un nuevo Dios War: no dios contra dios, sino dioses contra mortales. Si tu derrota de Bandos es una indicación, creo que podríamos ganar.
-- ((Después del regreso de los dioses:))
+- ((After the gods' return:))
   - **Ariane:** Los dioses deberían recordar eso si van a regresar a nuestro mundo y usarlo como su campo de batalla. Los mortales hemos detenido sus planes antes y podemos hacerlo de nuevo.
 
 #### Desert Treasure
@@ -198,11 +198,11 @@
 
 #### Habla con
 
-- ((La primera vez:))
+- ((On first time:))
   - **Ariane (Glacyte Minions):** Eres... ¡Eres tú! Buenas Guthix, me alegra ver una cara conocida.
   - **Ariane (Glacyte Minions):** Ahora que estás aquí, tal vez podamos luchar contra estos monstruos y finalmente comenzar a hacer mella.
   - (continue)
-- ((Después de la primera vez:))
+- ((After the first time:))
   - **Ariane (Glacyte Minions):** ¿Cómo te va en primera línea?
   - (continue)
 - **ELIGE UNA OPCIÓN:**
@@ -214,7 +214,7 @@
     - **Player:** Um... No es que me queje, pero ¿dónde terminan los glacors?
     - **Ariane (Glacyte Minions):** No puedo decirlo. Estadísticamente hablando, la mayoría debería perderse en el Abismo, pero en teoría podrían ir a cualquier parte.
     - **Ariane (Glacyte Minions):** Mira, estoy haciendo lo mejor que puedo. Si, cuando todo esto termine, encuentras un glacor en tu jardín, refunfuña conmigo todo lo que quieras. Al menos estarás vivo para hacerlo.
-  - ((Solo con la mecánica de Glacyte Minions desactivada:))
+  - ((Only with the Glacyte Minions mechanic toggled off:))
     - Tómate un descanso. Puedo manejar esto.
       - **Ariane (Glacyte Minions):** Mantendré a raya a esos monstruos todo el tiempo que sea necesario. Aunque... es agotador. Si estás seguro...
       - Si Ariene deja de canalizar su hechizo, tendrás que enfrentarte a los refuerzos enemigos. ¿Está seguro?
@@ -225,7 +225,7 @@
           - Ariane ya no impide la llegada de refuerzos. Habla con ella nuevamente si deseas desactivar el mecánico.
         - En realidad, ¡espera!
           - **Ariane (Glacyte Minions):** Me alegra oírlo. Feliz de ayudar donde pueda.
-  - ((Solo con la mecánica Glacyte Minions activada:))
+  - ((Only with the Glacyte Minions mechanic toggled on:))
     - ¿Podrías empezar a bloquear los refuerzos de nuevo?
       - **Ariane (Glacyte Minions):** Eso creo. Un momento.
       - La mecánica 'Glacyte Minions' ha sido desactivada.

@@ -42,15 +42,15 @@
     - **Aubury:** Si completas esto, te daré: Runa de naturaleza x 100. ¡Estoy seguro de que también ganarás reputación en el gremio de agricultores!
     - **Aubury:** ¡Tendrás que ser rápido! Solo estoy aquí por [time]. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - (Condition: Sin los artículos solicitados:)
+    - (Condition: Without the requested items:)
       - **Aubury:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Aubury:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **Aubury:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal] o [Animal].
       - **Aubury:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
-    - (Condition: Con los artículos solicitados:)
+    - (Condition: With the requested items:)
       - (removes=the requested items) (receives=100 nature rune and 3 Brassica primers)
       - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
         - (continue)
       - {{tbox|pic=Nature rune detail.png|You've received : Nature rune x 100<br>And 13,750 farming reputation.}}
@@ -75,15 +75,15 @@
 
 ##### Con artículos solicitados
 
-- (Condition: Sin los artículos solicitados:)
+- (Condition: Without the requested items:)
   - **Aubury:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
   - **Aubury:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
   - **Aubury:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal] o [Animal].
   - **Aubury:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
-- (Condition: Con los artículos solicitados:)
+- (Condition: With the requested items:)
   - (removes=the requested items) (receives=100 nature rune and 3 Brassica primers)
   - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
     - (continue)
   - {{tbox|pic=Nature rune detail.png|You've received : Nature rune x 100<br>And 13,750 farming reputation.}}

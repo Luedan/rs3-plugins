@@ -75,7 +75,7 @@
 
 ##### Primera vez
 
-- ((Comienza la escena y Guildmaster Tony comienza a narrar lo siguiente.))
+- ((Cutscene begins, and Guildmaster Tony starts narrating the following.))
 - Me cuesta entender las direcciones del monolito hacia la 'Fuente'. Apunta al noroeste, pero la distancia y la profundidad no están claras y son variables.
 - Al menos Movario parece estar seguro de que estamos investigando en el lugar correcto. Explora los rumores de un culto que aparentemente operó en esta zona durante la Tercera Edad.
 - Aunque lo que realmente es la Fuente en sí sigue siendo un misterio. ¿Quizás todo esto se deba a la naturaleza caótica del asunto?
@@ -83,7 +83,7 @@
 
 ##### Después de resolver todos los misterios.
 
-- ((Comienza la escena y Guildmaster Tony comienza a narrar lo siguiente.))
+- ((Cutscene begins, and Guildmaster Tony starts narrating the following.))
 - ¡Movario tenía razón! ¡El Star Lodge enterrado contenía una mazmorra de culto secreta escondida debajo de ella, y dentro de ella un portal a la Fuente misma!
 - ¿Cuántos fueron tomados por este culto y sacrificados a lo largo de los siglos? Es horrible incluso pensar en ello.
 - ¡Que te arranquen el alma para abrir un portal a Dis y traer demonios a este mundo!
@@ -91,21 +91,21 @@
 
 ##### Diálogo normal
 
-- (Condition: Si se han perdido unos dados infernales:)
+- (Condition: If some infernal dice have been lost:)
   - **Movario:** Tengo unos extraños dados infernales aquí en alguna parte. ¿Los perdiste o algo así?
   - ¿Recuperar los dados de Movario?
   - Sí.
-    - ((Se devuelven los dados que faltan.))
+    - ((The missing dice are returned.))
     - (continue)
   - No.
     - **Movario:** Bien, los guardaré por ahora. Sabes, realmente no deberías jugar con diablillos: hacen trampa todo el tiempo.
     - (continue)
-- ((Si la caótica piedra de entrada se ha perdido:))
-  - ((Sin espacio en backpack:))
+- ((If the chaotic gatestone has been lost:))
+  - ((Without space in backpack:))
     - **Movario:** Me aferro a esta caótica piedra de entrada que compraste.
     - Necesitas 1 espacio de inventario gratuito.
     - (continue)
-  - ((Con espacio en backpack:))
+  - ((With space in backpack:))
     - **Movario:** Encontré esta caótica piedra de entrada. ¿La querías recuperar?
     - ¿Recuperar el caótico componente de reliquia de puerta de entrada?
     - Sí.
@@ -141,9 +141,9 @@
 
 #### Hablando con Movario sobre misterios
 
-- (Condition: Si no se han descubierto misterios:)
+- (Condition: If no mysteries have been uncovered:)
   - **Movario:** El único misterio que veo es por qué no has hecho ningún progreso hacia la búsqueda de la Fuente. Admítelo, ¡has estado holgazaneando en el pub!
-- (Condition: Si no se han descubierto otros misterios además de Ojos en sus estrellas:)
+- (Condition: If no other mysteries than Eyes in Their Stars have been uncovered:)
   - (ver|Ojos en sus estrellas#Hablando con Movario)
 - [Menu]: ¿Qué misterio te gustaría discutir?
   - [Choice]: Ojos en sus estrellas.
@@ -153,24 +153,24 @@
   - [Choice]: cond=Only after solving Embrace the Chaos:|Garras de contrato
     - (ver|Garras de contrato#Hablando con Movario)
   - [Choice]: cond=Only after discovering Dagon Bye:|Adiós Dagón
-    - (Condition: Antes de descubrir el código:)
+    - (Condition: Before finding out the code:)
       - **Player:** Bien, entonces... Me encontré con un demonio en el fondo del Infernal Source...
       - **Movario:** De hecho, los trabajadores en el sitio han estado escuchando y viendo cosas extrañas. Aún estás vivo, sin embargo, ¿qué significa eso...?
       - **Player:** Es un demonio infernal llamado Dagón. Está atrapado en el corazón de la Fuente... y quiere mi ayuda para romper su contrato.
       - **Player:** Está atrapado dentro de una extraña jaula rodeada de signos zodiacales.
       - **Movario:** Entonces dejaré esto en tus manos. Has hecho contacto, por lo que deberías llevarlo a cabo. Genera confianza con este Dagon.
-    - (Condition: Después de descubrir el código:)
+    - (Condition: After finding out the code:)
       - **Player:** Finalmente logré descubrir el código de 13 dígitos necesario para liberar a Dagon. Ahora, para descubrir cómo ingresarlo realmente...
       - **Movario:** Bueno, me temo que no puedo ayudar mucho. Eres natural en esto ahora, ¿verdad? De cualquier manera, Dagon probablemente pueda ayudar.
-    - (Condition: Después de liberar a Dagón:)
+    - (Condition: After freeing Dagon:)
       - **Player:** ¡Lo logré! ¡Liberé a Dagón!
       - **Movario:** ¡Sí, bastante! Mis instrumentos registraron un pico de actividad. Bien hecho, Player.
       - **Movario:** ¿Qué pasó con Dagón?
       - **Player:** Ah, sí. Buen punto. Probablemente debería regresar y hablar con él.
-    - (Condition: Después de recibir pacto con Dagón:)
+    - (Condition: After receiving pact with Dagon:)
       - **Player:** Entonces, ¿alguna idea de para qué sirve este Pacto con Dagón?
       - **Movario:** Es un premio muy raro y valioso, un contrato con Dagon es lo que es... Contracts con demonios era muy común durante las Guerras de Dios, pero incluso entonces, ¡no con un infernal!
-      - (Condition: Si el pacto aún no se ha firmado:)
+      - (Condition: If the pact hasn't been signed yet:)
         - **Movario:** Veamos aquí... Si lo firmas, obtendrás la capacidad de convocar a ciertos demonios bajo el mando de Dagon. También hay instrucciones aquí sobre cómo hacerlo.
         - (continue)
       - **Movario:** Tampoco tendrás ningún coste adicional. 'Este contrato es para servicios ya prestados.' Por liberar a Dagon y así romper su antiguo contrato, te otorgará esta bendición de forma continua.

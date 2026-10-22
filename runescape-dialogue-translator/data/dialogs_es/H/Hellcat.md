@@ -63,20 +63,20 @@
     - (El gato se pone de lado mientras el player se inclina para acariciarlo).
     - **Gato perezoso:** {{RSChat|Purr...purr...}}
   - [Choice]: Chase-Vermin.{{anchor|vermin}}
-  - (Condition: Si hay ratas cerca:)
+  - (Condition: If there are rats nearby:)
     - **Player:** {{RSChat|Go on puss... kill that rat!}}
     - **Gato perezoso:** {{RSChat|Meeeeeoooowww!}}
     - **Rata:** {{RSChat|Eek!}}
-    - (Condition: Si el gato no puede alcanzar a la rata:)
+    - (Condition: If the cat cannot reach the rat:)
       - Tu gato no puede llegar a su presa.
-    - (Condition: Si el gato falla:)
+    - (Condition: If the cat fails:)
       - ¡La rata logra escapar!
-    - (Condition: Si el gato lo consigue:)
+    - (Condition: If the cat succeeds:)
       - **Player:** {{RSChat|Hey well done puss, you got it!}}
       - **Gato perezoso:** {{RSChat|MeeeoooooW!}}
-      - (Condition: Sobre la décima captura exitosa de alimañas:)
+      - (Condition: On the 10th successful vermin catch:)
         - **Player:** ¡Bien hecho, gatito! ¡10 horribles roedores atrapados!
-  - (Condition: Si no hay ratas cerca:)
+  - (Condition: If there are no rats nearby:)
     - No hay alimañas alrededor.
   - [Choice]: Ahuyentar.
   - [Menu]: ¿Estás seguro de que quieres ahuyentar al gato?
@@ -267,22 +267,22 @@
     - (El gato se pone de lado mientras el player se inclina para acariciarlo).
     - **Gato perezoso:** {{RSChat|Purr...purr...}}
   - [Choice]: Chase-Alimañas.
-  - (Condition: Si hay ratas cerca:)
+  - (Condition: If there are rats nearby:)
     - **Player:** ¡Hola, huesos vagos! ¡Mueve una pierna y atrapa a ese roedor!
     - **Lazy Hellcat:** Sí, sí, un segundo; Entonces me pondré manos a la obra.
     - **Player:** {{RSChat|Go on puss... kill that rat!}}
     - **Gato perezoso:** {{RSChat|Meeeeeoooowww!}}
     - **Rata:** {{RSChat|Eek!}}
-    - (Condition: Si el gato no puede alcanzar a la rata:)
+    - (Condition: If the cat cannot reach the rat:)
       - Tu gato no puede llegar a su presa.
-    - (Condition: Si el gato falla:)
+    - (Condition: If the cat fails:)
       - ¡La rata logra escapar!
-    - (Condition: Si el gato lo consigue:)
+    - (Condition: If the cat succeeds:)
       - **Player:** {{RSChat|Hey well done puss, you got it!}}
       - **Gato perezoso:** {{RSChat|MeeeoooooW!}}
-      - (Condition: Sobre la décima captura exitosa de alimañas:)
+      - (Condition: On the 10th successful vermin catch:)
         - **Player:** ¡Bien hecho, gatito! ¡10 horribles roedores atrapados!
-  - (Condition: Si no hay ratas cerca:)
+  - (Condition: If there are no rats nearby:)
     - No hay alimañas alrededor.
   - [Choice]: ahuyentar
   - [Menu]: ¿Estás seguro de que quieres ahuyentar?

@@ -12,11 +12,11 @@
 ### Standard dialogue
 
 - **Maverick:** '¿Qué pasa?
-- (Condition: Si el player aún no ha hablado con Dotmatrix:)
+- (Condition: If the player has not yet talked to Dotmatrix:)
   - **Player:** Er, no estoy seguro. ¿Qué está pasando aquí?
   - **Maverick:** Pregúntale a Beardie aquí. No quiero soltar la sopa.
   - **Player:** Está bien.
-- (Condition: Después de que el player haya hablado con Dotmatrix:)
+- (Condition: After the player has talked to Dotmatrix:)
   - **Player:** Dotmatrix me dijo que tendrías información práctica sobre lo que está pasando allí abajo.
   - **Maverick:** Eso sí, sí. Necesitarás habilidades si quieres sobrevivir allí abajo. Muchas habilidades. ¿De qué quieres saber?
   - [Menu]: Selecciona una opción

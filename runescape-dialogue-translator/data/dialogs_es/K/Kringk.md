@@ -25,12 +25,12 @@
 - **Kringk:** Ya lo sé. ¿Quieres peluca en su lugar? ¡Te doy un gran descuento!
 - [Menu]: ¿Te gustaría comprar una peluca de ogro por 50 po?
   - [Choice]: Sí, por favor.
-    - (Condition: Si tienes menos de 50 coins:)
+    - (Condition: If you have less than 50 coins:)
       - **Kringk:** No tienes suficientes bellezas brillantes, humano.
-    - (Condition: Si tienes al menos 50 coins:)
+    - (Condition: If you have at least 50 coins:)
       - (receives=ogre wig)
       - **Kringk:** Ahí lo tienes. Bonita peluca para ti, hecha con los huesos de lobo más frescos.
-    - (Condition: Si no tienes espacio en backpack:)
+    - (Condition: If you have no space in backpack:)
       - **Kringk:** No tienes suficiente espacio para sostenerlo, humano. Vuelve cuando tengas espacio.
   - [Choice]: No, gracias.
     - **Player:** No, gracias.

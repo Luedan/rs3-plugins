@@ -27,7 +27,7 @@
     - **Sir Atcha:** ¿Quieres ver mis colecciones o simplemente hablar sobre ellas?
     - **¿Qué te gustaría hacer?**
       - Ver colecciones.
-        - ((Se abre la interfaz Everlight White Knight.))
+        - ((Everlight White Knight interface opens.))
       - Habla de colecciones.
         - **Sir Atcha:** ¡Estoy coleccionando cualquier cosa saradominista, por supuesto! En este momento, eso significa todo lo que encuentres en Everlight. Saradomin tomó con dureza la pérdida de Everlight, según me han dicho. Aunque no es algo de lo que él hable.
         - **Sir Atcha:** Padomenes - es realmente genial - también tiene un gran interés en mis hallazgos. Creo que solía vivir allí, ¿o tenía familia que vivía allí? Tal vez busque algo específico, no lo sé.
@@ -38,13 +38,13 @@
         - (initial)
   - ¿Cuáles son las recompensas de tu colección?
     - **Sir Atcha:** Ah, claro, ¡genial! Me autorizaron a intercambiar algunas reliquias a cambio de completar mis colecciones.
-    - ((Antes de completar Sir Atcha: Saradominista I:))
+    - ((Before completing Sir Atcha: Saradominist I:))
       - **Sir Atcha:** Tengo...espéralo...¡un mechón de pelo! ¡Espera, no te vayas! Es especial, de un relicario. Se lo quitó a la esposa de Dharok como recuerdo.
       - **Sir Atcha:** Si lo combinas con un amuleto de los desamparados, creo que las dos cosas combinadas te darán algo de fuerza de nivel berserker.
       - (continue)
-    - ((Después de completar Sir Atcha: Saradominist I:))
+    - ((After completing Sir Atcha: Saradominist I:))
       - **Sir Atcha:** Bueno, ya te cambié ese mechón de pelo del prometido de Dharok. Si lo combinas con un amuleto de los abandonados, ¡debería convertirse en una reliquia poderosa!
-      - ((Si el player ha perdido el mechón de pelo:))
+      - ((If the player has lost the lock of hair:))
         - **Player:** Sobre eso...
         - **Sir Atcha:** ¡Te tengo, ten otro candado!
         - ¿Coger mechón de pelo de Sir Atcha?
@@ -53,16 +53,16 @@
             - (continue)
           - No.
             - (end)
-      - ((Si el player todavía tiene el mechón de pelo:))
+      - ((If the player still has the lock of hair:))
         - **Player:** Cierto, sí, debería hacer eso...
         - (continue)
-      - ((Después de crear el Recuerdo de Dharok:))
+      - ((After creating Dharok's Memento:))
         - **Player:** ¡Y eso fue precisamente lo que hizo! Gracias.
         - (continue)
-    - ((Antes de completar Sir Atcha: Saradominist II y III:))
+    - ((Before completing Sir Atcha: Saradominist II and III:))
       - **Sir Atcha:** Para mi segunda y tercera colección, puedes tener... ¡un par de piezas de tetracompass! ¡Espero que estas cosas te parezcan útiles! Estoy seguro de que tienen valor; lo resolverás.
       - (continue)
-    - ((Antes de completar Sir Atcha: Saradominist IV:))
+    - ((Before completing Sir Atcha: Saradominist IV:))
       - **Sir Atcha:** ¡Oh, tengo un sombrero!
       - **Player:** Está bien...
       - **Sir Atcha:** ¡Es un sombrero mágico! Se llama Petasos. ¡Te hace recolectar cosas más rápido!
@@ -70,11 +70,11 @@
       - **Sir Atcha:** No lo entiendo...
       - **Player:** No te preocupes. Aprender habilidades de recolección más rápido suena bastante útil, gracias.
       - (continue)
-    - ((Después de completar Sir Atcha: Saradominist IV:))
+    - ((After completing Sir Atcha: Saradominist IV:))
       - **Sir Atcha:** ¿Ese sombrero de Petaso está acelerando tu reunión, Player? ¡Apuesto a que ahora te vas como un rayo!
       - (continue)
     - **Sir Atcha:** ¡Oh, además siempre hay cronotas para todas mis colecciones!
-    - ((Antes de darle a Reldo un dispositivo Dominarian:))
+    - ((Before giving Reldo a Dominarian device:))
       - **Sir Atcha:** ¡Ah, y un último consejo! Reldo, bibliotecario residente del Palacio Varrock, ha expresado interés en algo llamado dispositivo Dominariano. Supongo que si le entregas uno restaurado, obtendrás algo de valor a cambio...
       - (continue)
     - (initial)

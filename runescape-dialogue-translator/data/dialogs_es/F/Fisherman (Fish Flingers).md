@@ -14,37 +14,37 @@
 
 #### Fuera de la sala de espera
 
-- (Condition: Si estás en un mundo libre:)
+- (Condition: If you are on a free world:)
   - **Pescador:** Lo sentimos, tendrás que cambiar al mundo de miembros para poder jugar Fish Flingers.
   - (continue)
-- (Condition: Si Fish Flingers aún no ha comenzado, pero puedes teletransportarte a la zona de espera:)
+- (Condition: If Fish Flingers hasn't started yet, but you can teleport to the waiting area:)
   - **Pescador:** Fish Flingers comienza en [número] [minute/minutes].
   - (continue)
-- (Condition: Si te perdiste Fish Flingers:)
+- (Condition: If you just missed Fish Flingers:)
   - **Pescador:** Me temo que te acabas de perder el inicio de una competencia de Lanzadores de Peces. La sala de espera para la próxima competición Fish Flingers se abre en 15 minutos. Si vuelves a hablarme entonces, te teletransportaré a la competencia.
   - (continue)
-- (Condition: (Si Fish Flingers no arranca durante varios minutos más:)
+- (Condition: (If Fish Flingers won't start for several more minutes:)
   - **Pescador:** La zona de espera para la próxima competencia Fish Flingers se abre en [número] [minute/minutes]. Si vuelves a hablarme entonces, te teletransportaré a la competencia.
   - (continue)
 - [Menu]: ¿Qué te gustaría decir?{{anchor|initial-select}}
   - [Choice]: cond=Only if a competition is about to start:|Teletransportame a Fish Flingers.
-    - (Condition: Antes de la actualización de Dailyscape Overhaul:)
+    - (Condition: Before the Dailyscape Overhaul update:)
     - **Pescador:** Cuando comience Fish Flingers, utilizarás uno de tus boletos de entrada, lo que te dejará con [número] boletos más. ¿Está bien?
     - [Menu]: ¿Qué te gustaría decir?
       - [Choice]: Sí, usaré un boleto para competir.
-        - (Condition: Si la competición ya ha comenzado:)
+        - (Condition: If the competition has already started:)
           - **Pescador:** ¡Oh no! Me temo que la competencia Fish Flingers ha comenzado, así que no puedo teletransportarte. La próxima competición comienza en [número] minutos. Si vuelves a hablarme entonces, te teletransportaré a la competencia.
-        - (Condition: Si la competición no ha comenzado:)
+        - (Condition: If the competition hasn't started:)
           - (Action: el player es teletransportado a la zona de espera.)
       - [Choice]: No, he cambiado de opinión.
         - (end)
   - [Choice]: cond=Only if a competition is about to start:|Dame una pista para la próxima competición.
-    - ((Como se muestra a continuación, se muestran las opciones iniciales.))
+    - ((As below, then shows the initial options.))
   - [Choice]: cond=Only if there is no competition about to start soon:|¿Puedo participar en el concurso ahora?
-    - (Condition: Si estás en un mundo libre:)
+    - (Condition: If you are on a free world:)
       - **Pescador:** Lo sentimos, tendrás que cambiar al mundo de miembros para poder jugar Fish Flingers.
       - (initial)
-    - (Condition: Si estás en el mundo de un miembro:)
+    - (Condition: If you are on a member's world:)
       - **Pescador:** La zona de espera para la próxima competencia Fish Flingers se abre en [número] minutos. Si vuelves a hablarme entonces, te teletransportaré a la competencia.
       - (initial)
   - [Choice]: Acerca de los arrojadores de pescado...
@@ -64,7 +64,7 @@
         - **Pescador:** También vale la pena recordar que los peces son criaturas adaptables, por lo que el aparejo que funciona bien en una competencia puede no funcionar tan bien en la siguiente.
         - (previous)
       - [Choice]: ¿Con qué frecuencia puedo competir?
-        - (Condition: Antes de la actualización de Dailyscape Overhaul:)
+        - (Condition: Before the Dailyscape Overhaul update:)
         - **Pescador:** A todo el mundo se le permiten 2 entradas cada día. Guardamos los billetes por usted, por lo que no es necesario llevarlos consigo ni guardarlos en su banco.
         - **Pescador:** Si quieres saber cuántos te quedan o quieres reclamar más boletos, dímelo.
         - [Menu]: ¿Qué te gustaría decir?
@@ -72,7 +72,7 @@
             - **Pescador:** Te quedan entradas [número] en este momento.
             - (previous)
           - [Choice]: ¿Cuándo podré reclamar las entradas?
-            - (Condition: Si ha pasado suficiente tiempo:)
+            - (Condition: If enough time has passed:)
             - **Pescador:** Ha pasado suficiente tiempo desde la última vez que reclamaste boletos de entrada, por lo que podrás reclamar más tan pronto como hayas agotado los que te quedan.
             - (previous)
           - [Choice]: ¿Existe otra forma de conseguir entradas?
@@ -82,20 +82,20 @@
             - (previous)
           - [Choice]: Hablemos de otra cosa...
             - (initial)
-        - (Condition: Después de la actualización de Dailyscape Overhaul:)
+        - (Condition: After the Dailyscape Overhaul update:)
         - **Pescador:** ¡Tantas veces como quieras!
       - [Choice]: Sobre la puntuación de la competición...
         - [Menu]: ¿Qué te gustaría decir?
           - [Choice]: Dame una copia de mi historial de competencia.
-            - ((Sin cuadro de mando de Fish Flingers en backpack:))
-              - (Condition: Sin un espacio backpack libre:)
+            - ((Without Fish Flingers scorecard in backpack:))
+              - (Condition: Without one free backpack space:)
                 - **Pescador:** No tienes espacio para cargarlo. No hay problema, solo pregúntame nuevamente cuando tengas un espacio libre en el inventario.
                 - (previous)
-              - (Condition: Con un espacio backpack gratuito:)
+              - (Condition: With one free backpack space:)
                 - (receives=Fish Flingers scorecard)
                 - [El pescador te entrega una tarjeta de puntuación de Fish Flingers.]
                 - (previous)
-            - (Condition: Con el cuadro de mando de Fish Flingers en backpack:)
+            - (Condition: With Fish Flingers scorecard in backpack:)
               - **Pescador:** Parece que ya tienes uno en tu inventario.
               - (previous)
           - [Choice]: ¿Cómo se calcula mi puntuación?
@@ -117,7 +117,7 @@
       - [Choice]: Hablemos de otra cosa...
         - (initial)
     - [Choice]: Muéstrame la tienda de recompensas.
-      - ((Se abre la interfaz de la tienda de recompensas Fish Flingers.))
+      - ((Fish Flingers Reward Shop interface opens.))
   - [Choice]: Acerca de las recompensas...{{anchor|about-rewards}}
     - [Menu]: ¿Qué te gustaría decir?
       - [Choice]: Cuéntame sobre la recompensa de la experiencia Fishing.
@@ -142,16 +142,16 @@
 
 #### En la sala de espera
 
-- (Condition: Si falta más de un minuto para la salida:)
+- (Condition: If there is more than a minute to the start:)
   - **Pescador:** Ya no falta mucho. La competición comienza en [número] [minute/minutes].
   - (continue)
-- (Condition: Si falta menos de un minuto para la salida:)
+- (Condition: If there is less than a minute to the start:)
   - **Pescador:** La competencia está por comenzar. ¡Divertirse!
   - (continue)
 - [Menu]: ¿Qué te gustaría decir?
-  - (Condition: Sólo si una competición está por comenzar:)
+  - (Condition: Only if a competition is about to start:)
     - [Choice]: Dame una pista para la próxima competición.
-      - ((Como se muestra a continuación, se muestran las opciones iniciales.))
+      - ((As below, then shows the initial options.))
   - [Choice]: Acerca de los arrojadores de pescado...
     - **Pescador:** ¿Qué te gustaría que te dijera?
     - [Menu]: ¿Qué te gustaría decir?
@@ -187,15 +187,15 @@
       - [Choice]: Sobre la puntuación de la competición...
         - [Menu]: ¿Qué te gustaría decir?
           - [Choice]: Dame una copia de mi historial de competencia.
-            - (Condition: Sin cuadro de mando de Fish Flingers en backpack:)
-              - ((Sin espacio en backpack:))
+            - (Condition: Without Fish Flingers scorecard in backpack:)
+              - ((Without space in backpack:))
                 - **Pescador:** No tienes espacio para cargarlo. No hay problema, solo pregúntame nuevamente cuando tengas un espacio libre en el inventario.
                 - (previous)
-              - ((Con espacio en backpack:))
+              - ((With space in backpack:))
                 - (receives=Fish Flingers scorecard)
                 - [El pescador te entrega una tarjeta de puntuación de Fish Flingers.]
                 - (previous)
-            - ((Con el cuadro de mando de Fish Flingers en backpack:))
+            - ((With Fish Flingers scorecard in backpack:))
               - **Pescador:** Parece que ya tienes uno en tu inventario.
               - (previous)
           - [Choice]: ¿Cómo se calcula mi puntuación?
@@ -217,7 +217,7 @@
       - [Choice]: Hablemos de otra cosa...
         - (initial)
     - [Choice]: Muéstrame la tienda de recompensas.
-      - ((Se abre la interfaz de la tienda de recompensas Fish Flingers.))
+      - ((Fish Flingers Reward Shop interface opens.))
   - [Choice]: Sobre las recompensas...
     - [Menu]: ¿Qué te gustaría decir?
       - [Choice]: Cuéntame sobre la recompensa de la experiencia Fishing.
@@ -254,7 +254,7 @@
 
 ### Claim reward
 
-- ((Se abre la interfaz de la tienda de recompensas Fish Flingers.))
+- ((Fish Flingers Reward Shop interface opens.))
 
 #### Diálogo por primera vez
 
@@ -263,22 +263,22 @@
   - [Choice]: Cuéntame más sobre las recompensas.
     - (continuea|about-rewards)
   - [Choice]: Muéstrame la tienda de recompensas.
-    - ((Se abre la interfaz de la tienda de recompensas Fish Flingers.))
+    - ((Fish Flingers Reward Shop interface opens.))
   - [Choice]: Hablemos de otra cosa.
-    - (Condition: Antes de la actualización de Dailyscape Overhaul:)
+    - (Condition: Before the Dailyscape Overhaul update:)
       - **Pescador:** ¡Buenas noticias! Eres elegible para reclamar boletos de entrada. Ahora tienes entradas para [número] Fish Flingers. Vuelve mañana para reclamar más.
       - (continuea|initial-select)
 
 #### Actualización de una caja de aparejos
 
-- (Condition: Con la caja de aparejos anterior en el banco:)
+- (Condition: With the previous tackle box in the bank:)
   - **Pescador:** Necesitarás conseguir tu caja de aparejos del banco antes de que pueda actualizarla.
-- (Condition: Con la caja de aparejos anterior en el inventario:)
+- (Condition: With the previous tackle box in the inventory:)
   - (removes=previous tackle box) (receives=upgraded tackle box)
   - [La caja de aparejos de tu inventario se ha actualizado y ahora puede contener más artículos.]
-  - (Condition: Actualización a la caja de aparejos del campeón:)
+  - (Condition: Upgrading to the Champion's tackle box:)
     - {{RSFontAchievement|Master Angler|Purchase the champion's tackle box from the Fish Flingers fisherman.}}
-- (Condition: Con la caja de aparejos ya completamente actualizada:)
+- (Condition: With the tackle box already fully upgraded:)
   - Ya posees la mejor caja de aparejos disponible.
 
 ### Get hint from
@@ -293,7 +293,7 @@
 
 ##### Si la zona de espera ha estado abierta por un tiempo
 
-- ((Se muestra uno de los siguientes:))
+- ((One of the following is shown:))
   - **Pescador:** Encontrarás salmón bolina en la playa. Han sido avistados lejos de la orilla, así que coloca muchos pesos en tu línea para alcanzarlos.
   - **Pescador:** Encontrarás lubinas en la playa. Son inteligentes y pueden detectar metales a un kilómetro de distancia. Será mejor que pienses detenidamente qué tipo de anzuelo utilizas.
   - **Pescador:** Encontrarás bacalao dardo en el río. Se sabe que les gustan los mariscos, especialmente los grises.

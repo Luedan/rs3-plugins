@@ -22,93 +22,93 @@
       - [Choice]: No.
         - (initial|initial-options)
   - [Choice]: ¿Tienes algo para mí?
-    - (Condition: Si el player no tiene el tocado de Morwenna, el equipo completo del explorador, el diario del contrabandista o la entrada del diario:)
-      - (Condition: Si el player no tiene el tocado de Morwenna:)
+    - (Condition: If the player does not have Morwenna's headdress, the full pathfinder equipment set, the smuggler's journal, or the journal entry:)
+      - (Condition: If the player does not have Morwenna's headdress:)
         - [Menu]: ¿Reclamar el tocado de Morwenna?
           - [Choice]: Sí.
-            - (Condition: Si el player no tiene al menos un espacio backpack libre:)
+            - (Condition: If the player does not have at least one free backpack space:)
               - [Necesitas un espacio de inventario libre para reclamar el tocado de Morwenna.]
-            - (Condition: Si el player tiene al menos un espacio backpack libre:)
+            - (Condition: If the player has at least one free backpack space:)
               - (receives=Morwenna's headdress)
               - [Gudrik te regala el tocado de Morwenna.]
               - (continue)
           - [Choice]: No.
             - (continue)
-      - (Condition: Si el player no tiene configurado el equipo Pathfinder completo:)
+      - (Condition: If the player does not have the full pathfinder equipment set:)
         - [Menu]: ¿Reclamar equipo Pathfinder?
           - [Choice]: Sí.
-            - (Condition: Si el player no tiene al menos 11 espacios backpack libres:)
+            - (Condition: If the player does not have at least 11 free backpack spaces:)
               - Necesitas 11 espacios libres en tu backpack para reclamar el equipo Pathfinder.
-            - (Condition: Si el player tiene al menos 11 espacios backpack libres:)
-              - (Condition: Si el player no tiene la chaqueta Pathfinder:)
+            - (Condition: If the player has at least 11 free backpack spaces:)
+              - (Condition: If the player does not have the pathfinder jacket:)
                 - (receives=pathfinder jacket)
                 - [Gudrik te regala la chaqueta Pathfinder.]
                 - (continue)
-              - (Condition: Si el player no tiene el pantalón Pathfinder:)
+              - (Condition: If the player does not have the pathfinder trousers:)
                 - (receives=pathfinder trousers)
                 - [Gudrik te regala los pantalones Pathfinder.]
                 - (continue)
-              - (Condition: Si el player no tiene la capucha Pathfinder:)
+              - (Condition: If the player does not have the pathfinder hood:)
                 - (receives=pathfinder hood)
                 - [Gudrik te ofrece la capucha Pathfinder.]
                 - (continue)
-              - (Condition: Si el player no tiene los guantes Pathfinder:)
+              - (Condition: If the player does not have the pathfinder gloves:)
                 - (receives=pathfinder gloves)
                 - [Gudrik te regala los guantes Pathfinder.]
                 - (continue)
-              - (Condition: Si el player no tiene las botas Pathfinder:)
+              - (Condition: If the player does not have the pathfinder boots:)
                 - (receives=pathfinder boots)
                 - [Gudrik te ofrece las botas Pathfinder.]
                 - (continue)
-              - (Condition: Si el player no tiene la capa de buscador de caminos:)
+              - (Condition: If the player does not have the pathfinder cape:)
                 - (receives=pathfinder cape)
                 - [Gudrik te regala la capa de conquistador.]
                 - (continue)
-              - (Condition: Si el player no tiene el amuleto de la potencia:)
+              - (Condition: If the player does not have the amulet of potency:)
                 - (receives=amulet of potency)
                 - [Gudrik te regala el Amuleto de la Potencia.]
                 - (continue)
-              - (Condition: Si el player no tiene el anillo de potencia:)
+              - (Condition: If the player does not have the ring of potency:)
                 - (receives=ring of potency)
                 - [Gudrik te ofrece el Anillo de Potencia.]
                 - (continue)
-              - (Condition: Si el player no tiene cuchilla afilada:)
+              - (Condition: If the player does not have a keenblade:)
                 - (receives=keenblade)
                 - [Gudrik te ofrece una espada afilada.]
                 - (continue)
-              - (Condition: Si el player no tiene arco rápido:)
+              - (Condition: If the player does not have a quickbow:)
                 - (receives=quickbow)
                 - [Gudrik te da una reverencia.]
                 - (continue)
-              - (Condition: Si el player no tiene un mindspike:)
+              - (Condition: If the player does not have a mindspike:)
                 - (receives=mindspike (air))
                 - [Gudrik te da un alucinación.]
                 - (continue)
           - [Choice]: No.
             - (continue)
-      - (Condition: Si el player no tiene el diario del contrabandista:)
+      - (Condition: If the player does not have the smuggler's journal:)
         - [Menu]: ¿Reclamar el diario del contrabandista?
           - [Choice]: Sí.
-            - (Condition: Si el player no tiene al menos un espacio backpack libre:)
+            - (Condition: If the player does not have at least one free backpack space:)
               - [Necesitas un espacio de inventario libre para reclamar el diario del contrabandista.]
-            - (Condition: Si el player tiene al menos un espacio backpack libre:)
+            - (Condition: If the player has at least one free backpack space:)
               - (receives=smuggler's journal)
               - [Gudrik te entrega el diario del contrabandista.]
               - (continue)
           - [Choice]: No.
             - (continue)
-      - (Condition: Si el player no tiene el asiento de diario:)
+      - (Condition: If the player does not have the journal entry:)
         - [Menu]: ¿Asiento en el diario de reclamaciones?
           - [Choice]: Sí.
-            - (Condition: Si el player no tiene al menos un espacio backpack libre:)
+            - (Condition: If the player does not have at least one free backpack space:)
               - [Necesita un espacio de inventario gratuito para reclamar el asiento de diario.]
-            - (Condition: Si el player tiene al menos un espacio backpack libre:)
+            - (Condition: If the player has at least one free backpack space:)
               - (receives=journal entry)
               - [Gudrik le proporciona la entrada del diario.]
               - (initial|initial-options)
           - [Choice]: No.
             - (initial|initial-options)
-    - (Condition: Si el player tiene el tocado de Morwenna, el equipo completo del explorador, el diario del contrabandista y la entrada del diario:)
+    - (Condition: If the player has Morwenna's headdress, the full pathfinder equipment set, the smuggler's journal, and the journal entry:)
       - **Gudrik:** No tengo recompensas que darte, [laddie/lassie].
       - (initial|initial-options)
   - [Choice]: Me gustaría preguntarte algo más.

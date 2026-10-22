@@ -25,11 +25,11 @@
     - **Player:** No estoy seguro de que mi estómago esté de acuerdo...
     - (initial|judd-options)
   - [Choice]: ¿Puedes combinar algunas medusas para mí? {{anchor|combine}}
-    - (Condition: Si el player tiene medusas que se pueden combinar:)
+    - (Condition: If the player has jellyfish that can be combined:)
       - **Jellyfish Mender Judd:** Ahí lo tienes.
-    - (Condition: Si el player tiene medusas que no se pueden combinar:)
+    - (Condition: If the player has jellyfish that can't be combined:)
       - **Jellyfish Mender Judd:** Lo siento, no sé cómo combinar nada de lo que llevas.
-    - (Condition: Si el player no tiene medusas:)
+    - (Condition: If the player does not have any jellyfish:)
       - **Jellyfish Mender Judd:** ¡No tienes medusas para combinar!
 
 #### Combinar opción Medusa

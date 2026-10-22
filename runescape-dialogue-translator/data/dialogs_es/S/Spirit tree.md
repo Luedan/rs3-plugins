@@ -31,10 +31,10 @@
         - Te sientes uno con el spirit tree.
         - (Action: el player es teletransportado al spirit tree seleccionado.)
   - [Choice]: Árbol malvado.
-    - (Condition: Si actualmente hay un Árbol del Mal activo que fue asesinado recientemente:)
+    - (Condition: If there is currently an active Evil Tree which was recently killed:)
       - **Spirit tree:** La contaminación del árbol malvado no está actualmente en la tierra. No habrá un árbol malvado por mucho tiempo.
       - (continue)
-    - (Condition: De lo contrario:)
+    - (Condition: Otherwise:)
       - **Spirit tree:** La contaminación del árbol malvado no está actualmente en la tierra. Habrá un árbol malvado en aproximadamente [número] hora [número] minutos.
       - (continue)
     - **Spirit tree:** Puedo ayudarte a encontrar el lugar donde aparecerá, pero mi conocimiento fuera del anima mundi es limitado.

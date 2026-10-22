@@ -17,11 +17,11 @@
 - **Commander Yodri:** Mis hombres y yo estamos persiguiendo a unos asaltantes goblin. Al parecer han sido vistos en esta zona.
 - [Menu]: Selecciona una opción
   - [Choice]: He matado a algunos asaltantes goblin. ¿Puedo tener una recompensa?
-    - (Condition: Sin dos espacios backpack libres:)
+    - (Condition: Without two free backpack spaces:)
       - Yodri no puede darte todos tus artículos de recompensa. Necesitas tener 2 espacios libres en tu inventario para poder guardar todo.
       - **Commander Yodri:** ¿Hay algo más en lo que pueda ayudarte?
       - (previous|yodri-options)
-    - (Condition: Con dos espacios backpack gratuitos:)
+    - (Condition: With two free backpack spaces:)
       - (Commander Yodri le entrega algunos artículos a el player).
       - **Commander Yodri:** Creo que eso es todo. ¡Gracias por todo el arduo trabajo! ¿Puedo ayudarte con algo más?
       - (otras|yodri-opciones)

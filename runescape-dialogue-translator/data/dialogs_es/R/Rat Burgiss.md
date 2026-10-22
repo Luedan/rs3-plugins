@@ -13,7 +13,7 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: Acerca del sistema de tareas...
-    - ((Si el player ha completado los logros fáciles de Varrock y no se han reclamado las recompensas:))
+    - ((If the player has completed the easy Varrock achievements and the rewards have not been claimed:))
       - **Player:** Creo que terminé todas las tareas fáciles del conjunto Varrock.
       - **Rat Burgiss:** ¿Tienes? ¡Excelente! Bien hecho.
       - **Player:** Gracias. Uh... ¿puedo tener la recompensa?
@@ -27,7 +27,7 @@
       - **Player:** ¡Vaya, gracias!
       - **Rat Burgiss:** Si pierdes la armadura, vuelve a verme para otro juego.
       - (continue)
-    - (Condition: Si el player ha perdido su armadura Varrock 1:)
+    - (Condition: If the player has lost their Varrock armour 1:)
       - **Rat Burgiss:**¡Ah, hola! ¿Cómo te va con la armadura?
       - **Player:**Lo perdí.
       - **Rat Burgiss:**No hay problema. Tengo otro aquí que puedes tener.
@@ -105,10 +105,10 @@
       - [Choice]: Lo siento, me estaba yendo.
         - (end)
   - [Choice]: ¡Hola!
-    - (Condition: Sin 35 Runecrafting:)
+    - (Condition: Without 35 Runecrafting:)
       - **Player:** ¡Hola!
       - **Rat Burgiss:** Oh, hola. Me encantaría charlar ahora mismo, pero estoy un poco ocupado. ¿Quizás podrías volver y charlar en otro momento?
       - **Player:** Por supuesto. ¡Lamento molestarlo!
       - **Rat Burgiss:** ¡Para nada! ¡Despedida!
-    - (Condition: Con 35 Runecrafting:)
+    - (Condition: With 35 Runecrafting:)
       - (ver|Lo que hay debajo)

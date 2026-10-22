@@ -19,17 +19,17 @@
 
 - No tienes espacio en tu inventario para captar este implicado.
 - (ventana emergente)
-  - (Ventana emergente: No tienes espacio en tu inventario para capturar este implicado.|advertencia=yes)
+  - (Pop-up: You do not have any space in your inventory to catch this impling.|warning=yes)
 
 ##### Con espacio backpack
 
 - (Action: El snow impling desaparece.)
-- (Condition: Con al menos 50.000 espíritu navideño:)
+- (Condition: With at least 50,000 Christmas spirit:)
   - Has alcanzado el límite flexible de espíritu navideño de 50.000. Debes gastar algunas fichas en la tienda navideña Spirit antes de poder ganar más.
-  - (ventana emergente)
-    - (Ventana emergente: has alcanzado el límite mínimo de espíritu navideño de 50 000. Debes gastar algunas fichas en la tienda navideña Spirit antes de poder ganar más.|advertencia=yes)
+  - (pop-up)
+    - (Pop-up: You have reached the Christmas spirit soft cap of 50,000. You need to spend some tokens in the Christmas Spirit Shop before you can earn more.|warning=yes)
     - (continue)
-- (Condition: Con menos de 50.000 espíritu navideño:)
+- (Condition: With less than 50,000 Christmas spirit:)
   - Se ha añadido lo siguiente a su bolsa de divisas: 100 x Espíritu navideño.
   - (continue)
 - Consigues atrapar el implícito y saquearlo.

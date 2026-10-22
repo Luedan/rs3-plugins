@@ -31,7 +31,7 @@
       - [Choice]: No, gracias.
         - (initial|init)
   - [Choice]: Acerca del sistema de tareas...
-    - (Condition: Si el player ha completado las tareas medianas del conjunto Seers' Village y las recompensas no han sido reclamadas:)
+    - (Condition: If the player has completed the medium tasks in the Seers' Village set and the rewards not claimed:)
       - **Player:** Hola. Completé las tareas medianas en el conjunto Seers' Village. ¿Puedo tener una recompensa?
       - **Stankers:** ¡Bien hecho! Sí, tengo una recompensa para ti. Simplemente ungiré tu diadema con una de mis mezclas. Ah, y aquí hay una lámpara vieja que tenía por ahí.
       - (removes=Seer's headband 1)
@@ -41,7 +41,7 @@
       - **Stankers:** No te preocupes, pero puede que quede un poco pegajoso por un tiempo. Mientras lo uses, 'Flax' te dará 60 linaza por día, podrás ver mejor en la oscuridad y tu defensa contra ataques mágicos aumentará.
       - **Stankers:** Permitiré 280 piezas de carbón en mi camión de carbón y recibirás bonificaciones al cortar arces y árboles normales. Oh, también descubrirás que tus dedos son más ágiles en la rueca en Seers' Village.
       - (continue)
-    - (Condition: Si el player ha perdido la diadema 2 de su Seer:)
+    - (Condition: If the player has lost their Seer's headband 2:)
       - **Player:** Perdí mi diadema.
       - **Stankers:** No te preocupes. Resulta que tengo uno de repuesto aquí.
       - (receives=Seer's headband 2)

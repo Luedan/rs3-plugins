@@ -18,20 +18,20 @@
 
 #### Con 100 fragmentos espirituales
 
-- (Condition: Antes de desactivar esta confirmación:)
-  - ((Se abre una interfaz titulada 'CONFIRMACIÓN' con el siguiente texto y botones:))
+- (Condition: Before disabling this confirmation:)
+  - ((An interface titled 'CONFIRMATION' opens with the following text and buttons:))
     - Ofrecerás 100 fragmentos de espíritu a cambio de un aumento temporal de la velocidad de infusión de la bolsa. ¿Quieres continuar?
     - [Choice]: No volver a mostrar esto {{Checkbox}}
     - [Choice]: NO
-      - ((La interfaz se cierra.))
+      - ((Interface closes.))
     - [Choice]: SI
-      - ((La interfaz se cierra.))
+      - ((Interface closes.))
       - (continue)
 - (removes=100 spirit shards) (receives=Spirit Communion status)
 - Ofreces 100 fragmentos de espíritu al espíritu. Esta comunión fortalece la conexión de tu plano espiritual y te otorga la capacidad de infundir bolsas más rápidamente durante un tiempo.
 - (ventana emergente)
   - {{popup|You offer 100 spirit<br>shards to the spirit. This<br>communion strengthens<br>your spirit plane<br>connection and grants<br>you the ability to infuse<br>pouches more quickly for<br>a while.|colour=#0f0}}
-- (Condition: Primera vez:)
+- (Condition: First time:)
   - {{RSFontAchievement|Getting Familiar}}
 
 #### Sin 100 fragmentos espirituales

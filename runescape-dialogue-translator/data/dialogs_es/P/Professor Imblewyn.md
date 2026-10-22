@@ -15,7 +15,7 @@
 - **Professor Imblewyn:** A los gnomos les interesa todo, muchacho.
 - **Player:** Por supuesto.
 - **Professor Imblewyn:** Tenemos un dicho: "La curiosidad mató al gato". Pero los gatos no son lo suficientemente inteligentes como para entender lo que encuentran. Los gnomos lo son.
-- (Condition: Si el player ha completado La cola de dos gatos:)
+- (Condition: If the player has completed A Tail of Two Cats:)
   - **Player:** ¡Oye! ¡Algunos de mis mejores amigos son gatos!
   - **Professor Imblewyn:** Creo que eso dice más de ti que los gatos.
 
@@ -36,15 +36,15 @@
     - **Professor Imblewyn:** Si completas esto, te daré: Runa cósmica x 50. ¡Estoy seguro de que también ganarás algo de reputación en el gremio de agricultores!
     - **Professor Imblewyn:** ¡Tendrás que ser rápido! Solo estoy aquí por [número] horas y [número] minutos. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - ((Sin los artículos solicitados:))
+    - ((Without the requested items:))
       - **Professor Imblewyn:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Professor Imblewyn:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **Professor Imblewyn:** También estoy buscando un nuevo animal, actualmente estoy buscando A [animal]
-    - ((Con los artículos solicitados:))
+    - ((With the requested items:))
       - (removes=the requested items) (receives=50 cosmic runes)
-      - ((Si se premió una imprimación de Brassica:))
+      - ((If a Brassica primer was rewarded:))
         - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-        - ((Repetido en una ventana emergente:))
+        - ((Repeated in a pop-up:))
           - Por completar esta solicitud, recibió 1 imprimación para Brassica.
           - (continue)
       - [Has recibido: Runa cósmica x 50 <br>Y 2750 de reputación agrícola.]
@@ -69,9 +69,9 @@
 ##### Con artículos solicitados
 
 - (removes=the requested items) (receives=50 cosmic runes)
-- ((Si se premió una imprimación de Brassica:))
+- ((If a Brassica primer was rewarded:))
   - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - Por completar esta solicitud, recibió 1 imprimación para Brassica.
     - (continue)
 - [Has recibido: Runa cósmica x 50 <br>Y 2750 de reputación agrícola.]

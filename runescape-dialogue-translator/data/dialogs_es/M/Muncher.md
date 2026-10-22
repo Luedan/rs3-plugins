@@ -23,9 +23,9 @@
   - Sí.
     - (removes=bones)
     - **Muncher:** {{RSChat|*arf*}}
-    - ((Sólo la primera vez:))
+    - ((Only on the first time:))
       - 2 almas vuelan para impulsar el barco.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - 2 almas vuelan para impulsar el barco.
         - (continue)
   - No.

@@ -13,7 +13,7 @@
 
 - **Captain Shanks:** ¡Hola compañero de barco! Navego hasta el puerto de Khazard y hasta Port Sarim. ¿A dónde estás atado?
 - **Player:** Hmm, estoy interesado en un viaje en barco.
-- (Condition: Sin billete de barco:)
+- (Condition: Without a ship ticket:)
   - **Captain Shanks:** Veo que no tienes billete para el barco, mi colega normalmente sólo los vende en Shilo village. Pero podría venderte uno por un pequeño cargo adicional. ¿Diremos [26-45] piezas de oro?
     - [Menu]: Compra un billete para piezas de oro [26-45]
       - [Choice]: Sí, compraré un billete para el barco.
@@ -38,7 +38,7 @@
       - [Choice]: No gracias, no sólo por el momento.
         - **Player:** No, gracias, no sólo por el momento.
         - **Captain Shanks:** Muy bien, viejo compañero de barco, vuelve si cambias de opinión ahora.
-- (Condition: Con billete de barco:)
+- (Condition: With a ship ticket:)
   - [Menu]: Captain Shanks pregunta: "¿Adónde vas?"
     - [Choice]: Puerto Khazard, por favor.
       - (continuea|Khazard)

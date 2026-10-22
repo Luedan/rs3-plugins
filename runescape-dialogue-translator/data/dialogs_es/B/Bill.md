@@ -38,13 +38,13 @@
     - **Sawmill operator:** ¿Tus fuentes? ¿Quién ha estado hablando de mi aserradero a mis espaldas? Esto es un negocio. No tenemos animales en las instalaciones.
     - (initial)
   - Planks, por favor.
-    - ((Diálogo sin misiones))
+    - ((Non-quest dialogue))
   - ¿Qué tipo de planks puedes hacer?
-    - ((Diálogo sin misiones))
+    - ((Non-quest dialogue))
   - ¿Puedo comprar algunos suministros para la vivienda?
-    - ((Diálogo sin misiones))
+    - ((Non-quest dialogue))
   - Nada, gracias.
-    - ((Diálogo sin misiones))
+    - ((Non-quest dialogue))
 
 ### Fort Forinthry
 
@@ -158,11 +158,11 @@
 - **Elige una opción:**
   - Planks, por favor.
     - **Bill:** ¿Qué tipo de planks quieres?
-    - ((Sin logs que se puede convertir en planks en backpack:))
-      - ((Se muestra en una ventana emergente:))
+    - ((Without logs that can be made into planks in backpack:))
+      - ((Shown in a pop-up:))
         - No lleva ningún logs para cortar en planks.
-    - ((Con logs que se puede convertir en planks en backpack:))
-      - ((Se abre la interfaz Convertir madera a Planks.))
+    - ((With logs that can be made into planks in backpack:))
+      - ((Convert Wood to Planks interface opens.))
   - ¿Qué tipo de planks puedes hacer?
     - **Bill:** Puedo hacer planks con madera, roble, teca y caoba. No hago planks con otras maderas porque no sirven para hacer furniture.
     - **Bill:** La madera y el roble están por todas partes, pero la teca y la caoba solo se pueden encontrar en unos pocos lugares como Karamja y Etceteria.
@@ -175,69 +175,69 @@
 
 ##### Con logs especial en backpack
 
-- ((Sólo con teca especial logs en backpack:))
+- ((With only special teak logs in backpack:))
   - **Bill:** ¡Qué bonito tronco de teca tienes ahí! Te doy 1300 por ello.
   - (continue|multiple-special-logs)
-- ((Sólo con caoba especial logs en backpack:))
+- ((With only special mahogany logs in backpack:))
   - **Bill:** ¡Qué bonito tronco de caoba tienes ahí! Te doy 3900 por ello.
   - (continue|multiple-special-logs)
-- ((Con teca especial y caoba logs en backpack:))
+- ((With both special teak and mahogany logs in backpack:))
   - **Bill:** ¡Esos son unos logs muy bonitos que tienes ahí! Te doy 1300 por la teca especial y 3900 por la caoba especial.
   - (continue|multiple-special-logs)
-- ((Con múltiples logs especiales de un tipo en backpack:))
-  - ((Con múltiples teca especial logs y teca regular logs pero no múltiples caoba especial logs en backpack:))
+- ((With multiple special logs of one type in backpack:))
+  - ((With multiple teak special logs and regular teak logs but not multiple mahogany special logs in backpack:))
     - **Bill:** ...O podría convertir el resto de su logs de teca normal en planks, a cambio de dos logs de teca especiales.
     - (continue|main-menu-special)
-  - ((Con múltiples caoba especial logs y teca regular o caoba logs en backpack:))
+  - ((With multiple mahogany special logs and regular teak or mahogany logs in backpack:))
     - **Bill:** ...O podría convertir el resto de su logs normal de teca y caoba en planks, a cambio de dos logs especiales de caoba.
     - (continue|main-menu-special)
 - **¿Qué te gustaría hacer?**
   - Vender especial logs.
-    - ((Sólo con teca especial logs en backpack:))
+    - ((With only special teak logs in backpack:))
       - **¿Cuántos troncos de teca especiales desea vender?**
-      - ((Después de ingresar un número:))
-        - ((Si se ingresó un número positivo:))
+      - ((After entering a number:))
+        - ((If a positive number was entered:))
           - (removes=corresponding number of special teak logs) (receives=corresponding number of coins)
           - El proveedor le entrega [número] coins.
           - (continue)
       - (continue|Now)
-    - ((Sólo con caoba especial logs en backpack:))
+    - ((With only special mahogany logs in backpack:))
       - **¿Cuántos troncos de caoba especiales desea vender?**
-      - ((Después de ingresar un número:))
-        - ((Si se ingresó un número positivo:))
+      - ((After entering a number:))
+        - ((If a positive number was entered:))
           - (removes=corresponding number of special mahogany logs) (receives=corresponding number of coins)
           - El proveedor le entrega [número] coins.
           - (continue)
       - (continue|Now)
-    - ((Tanto con teca especial como con caoba especial logs en backpack:))
+    - ((With both special teak and special mahogany logs in backpack:))
       - **¿Qué te gustaría vender?**
         - Teca Especial logs
           - **¿Cuántos deseas vender?**
-          - ((Después de ingresar un número:))
-            - ((Si se ingresó un número positivo:))
+          - ((After entering a number:))
+            - ((If a positive number was entered:))
               - (removes=corresponding number of special teak logs) (receives=corresponding number of coins)
               - El proveedor le entrega [número] coins.
               - (continue)
           - (continue|Now)
         - Caoba Especial logs
           - **¿Cuántos deseas vender?**
-          - ((Después de ingresar un número:))
-            - ((Si se ingresó un número positivo:))
+          - ((After entering a number:))
+            - ((If a positive number was entered:))
               - (removes=corresponding number of special mahogany logs) (receives=corresponding number of coins)
               - El proveedor le entrega [número] coins.
               - (continue)
           - (continue|Now)
-  - ((Sólo si Bill se ofreció a intercambiar dos logs de teca:))
+  - ((Only if Bill offered exchanging two teak logs:))
     - Convertir teca logs.
       - (removes=two special teak logs and all regular teak logs) (receives=corresponding number of teak planks)
       - El proveedor toma dos logs de teca especiales y convierte toda su logs de teca normal en planks.
       - (continue|Now)
-  - ((Sólo si Bill se ofreció a intercambiar dos logs de caoba:))
+  - ((Only if Bill offered exchanging two mahogany logs:))
     - Conversión de teca y caoba logs.
       - (removes=two special mahogany logs and all regular teak and mahogany logs) (receives=corresponding number of teak and mahogany planks)
       - El vendedor toma dos logs de caoba especiales y convierte todos sus logs de teca y caoba normales en planks.
       - (continue|Now)
-  - ((Sólo si no se le preguntó al final:))
+  - ((Only if not asked last:))
     - '¿Por qué quieres tanto estos logs?'
       - **Player:** ¿Por qué quieres tanto estos logs?
       - **Bill:** Bueno, como puedes ver, tienen un patrón de vetas bastante singular.
@@ -255,7 +255,7 @@
 
 #### Estado del edificio
 
-- ((Se abre la interfaz Estado del edificio.))
+- ((Building Status interface opens.))
 
 #### Usando cerveza en Bill
 

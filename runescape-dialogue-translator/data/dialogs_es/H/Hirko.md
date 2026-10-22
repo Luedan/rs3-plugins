@@ -43,21 +43,21 @@
     - **Player:** ¡Oh, pobre banco mío! ¿Cómo guardaré todo eso?
     - **Hirko:** No te preocupes, aquí tengo justo lo que necesitas: una bolsa para virotes diseñada especialmente para guardar 4 tipos diferentes de virotes de ballesta.
     - **Player:** Vaya, ¿cuánto?
-    - (Condition: Si el player aún no posee una bolsa de cerrojo:)
+    - (Condition: If the player does not already own a bolt pouch:)
       - **Hirko:** Bueno, veamos ahora... ¿para ti? 1500 piezas de oro deberían ser suficientes.
       - [Menu]: ¿Quieres comprar una bolsa?
         - [Choice]: Sí, pagaré los 1500 gp.
           - **Player:** Sí, pagaré los 1500 po.
           - **Hirko:** Entrégalo entonces.
-          - (Condition: Si el player no tiene suficiente dinero:)
+          - (Condition: If the player does not have enough money:)
             - **Player:** Oh, no tengo tanto encima.
             - **Hirko:** Entonces será mejor que vayas a ganar algo de dinero, no debería llevarte mucho tiempo.
-          - (Condition: Si el player tiene suficiente dinero:)
+          - (Condition: If the player has enough money:)
             - (removes=1,500 coins) (receives=a bolt pouch)
             - [Entregas tu oro y recibes una bolsa de cuero bien hecha.]
         - [Choice]: Gracias por decírmelo. ¡Adiós!
           - (below|thanks)
-    - (Condition: De lo contrario:)
+    - (Condition: Otherwise:)
       - **Hirko:** Hmm... ¿no te vi aquí abajo comprando uno el otro día? Me temo que sólo puedes tener uno a la vez.
   - [Choice]: Gracias por decírmelo. ¡Adiós!
     - {{anchor|thanks}} **Player:** Gracias por decírmelo. ¡Adiós!

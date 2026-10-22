@@ -42,13 +42,13 @@
 
 ### Unstable Scarabs attack
 
-- (Condition: Impresionante un escarabajo volátil akh:)
+- (Condition: Stunning a volatile scarab akh:)
   - Aturdir al escarabajo volátil akh lo ha hecho susceptible a sufrir daños.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - Aturdir al escarabajo volátil akh lo ha hecho susceptible a sufrir daños.
 
 ### Moonstone Obelisks attack
 
 - Kezalam está sacando poder de los obeliscos. ¡Destrúyelos!
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Kezalam está sacando poder de los obeliscos. ¡Destrúyelos!

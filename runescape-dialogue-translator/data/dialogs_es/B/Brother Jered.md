@@ -14,7 +14,7 @@
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Qué puedes hacer para ayudar a un aventurero audaz como yo?
     - **Player:{{anchor|help}}** ¿Qué puedes hacer para ayudar a un aventurero audaz como yo?
-    - (Condition: Si el player no lleva un símbolo sin bendecir:)
+    - (Condition: If the player is not carrying an unblessed symbol:)
       - **Brother Jered:** Puedo hablarte de los símbolos sagrados o del Skillcape de Prayer.
       - [Menu]: Selecciona una opción
         - [Choice]: Háblame de los símbolos sagrados.
@@ -28,7 +28,7 @@
               - (continuea|help)
             - [Choice]: No, gracias.
               - **Player:** No, gracias.
-    - (Condition: Si el player lleva un símbolo sin bendecir:)
+    - (Condition: If the player is carrying an unblessed symbol:)
       - **Brother Jered:** Bueno, puedo bendecir esa estrella de Saradomin que tienes, ¡o podría contarte sobre el Skillcape de Prayer!
       - [Menu]: Selecciona una opción
         - [Choice]: Sí por favor, bendita mi estrella. {{anchor|blessstar}}
@@ -39,7 +39,7 @@
           - (above|skillcape)
         - [Choice]: Ninguno de esos, gracias.
           - **Player:** No, gracias.
-    - (Condition: Si el player lleva varios símbolos sin bendecir:)
+    - (Condition: If the player is carrying multiple unblessed symbols:)
       - **Brother Jered:** Bueno, puedo bendecir esas estrellas de Saradomin que tienes, ¡o podría contarte sobre el Skillcape de Prayer!
       - [Menu]: Selecciona una opción
         - [Choice]: Sí por favor, benditas mis estrellas.
@@ -59,45 +59,45 @@
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Qué puedes hacer para ayudar a un aventurero audaz como yo?
     - **Player:** ¿Qué puedes hacer para ayudar a un aventurero audaz como yo?
-    - (Condition: Si el player no lleva un símbolo sin bendecir:)
+    - (Condition: If the player is not carrying an unblessed symbol:)
       - **Brother Jered:** Bueno, ya que eres tan devoto en alabar a los dioses, podría venderte un Skillcape de Prayer.
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, por favor. ¡Tan pocas personas tienen Skillcapes de Prayer!
-          - (Condition: Si el player está en un mundo gratuito:)
+          - (Condition: If the player is on a free-to-play world:)
             - **Brother Jered:** Lo siento, no puedo venderte uno aquí. Intenta hablar conmigo en un mundo de miembros.
-          - (Condition: Si el player está en un mundo de miembros:)
-            - (Condition: Si el player tiene un ring of charos (a) equipado:)
+          - (Condition: If the player is on a members' world:)
+            - (Condition: If the player has a ring of charos (a) equipped:)
               - **Brother Jered:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins por este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
               - [Menu]: Elige una opción:
                 - [Choice]: ¿92.000 coins? Eso es demasiado caro.
                   - **Player:** Sé dónde encontrarte si cambio de opinión.
                 - [Choice]: De hecho, creo que tengo el dinero aquí.
-                  - (Condition: Si el player no tiene espacio backpack:)
+                  - (Condition: If the player has no backpack space:)
                     - **Brother Jered:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar algo de espacio en backpack antes de que pueda venderte uno.
-                  - (Condition: Si el player no tiene suficiente dinero:)
+                  - (Condition: If the player does not have enough money:)
                     - **Player:** Pero desafortunadamente me equivoqué.
                     - **Brother Jered:** Bueno, vuelve a verme cuando lo hagas.
-                  - (Condition: Si el player tiene suficiente dinero:)
+                  - (Condition: If the player has enough money:)
                     - (receives=prayer cape and prayer hood) (removes=92,000 coins)
                     - **Brother Jered:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
-            - (Condition: Si el player no tiene un ring of charos(a) equipado:)
+            - (Condition: If the player does not have a ring of charos (a) equipped:)
               - [Menu]: Elige una opción:
                 - [Choice]: ¿99.000 coins? Eso es demasiado caro.
                   - **Player:** Sé dónde encontrarte si cambio de opinión.
                 - [Choice]: De hecho, creo que tengo el dinero aquí.
-                - (Condition: Si el player no tiene espacio backpack:)
+                - (Condition: If the player has no backpack space:)
                   - (arriba)
-                - (Condition: Si el player no tiene suficiente dinero:)
+                - (Condition: If the player does not have enough money:)
                   - (arriba)
-                - (Condition: Si el player tiene suficiente dinero:)
+                - (Condition: If the player has enough money:)
                   - (receives=prayer cape and prayer hood) (removes=99,000 coins)
                   - **Brother Jered:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
         - [Choice]: He notado que hay un par de versiones de cada skillcape.
           - **Brother Jered:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
-          - (Condition: Si usas el modelo antiguo:)
+          - (Condition: If you use the old model:)
             - **Brother Jered:** Parece que actualmente estás usando el modelo anterior para tu Prayer skillcape. ¿Quieres cambiar a uno más nuevo?
             - (continue)
-          - (Condition: Si utiliza el nuevo modelo:)
+          - (Condition: If you use the new model:)
             - **Brother Jered:** Aún puedes elegir usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
             - (continue)
           - [Menu]: Selecciona una opción
@@ -112,7 +112,7 @@
                   - (end)
             - [Choice]: No, gracias.
               - **Brother Jered:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
-              - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+              - (Condition: If the player uses the new model for any other skillcape:)
                 - **Brother Jered:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
                 - [Menu]: Selecciona una opción
                   - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.
@@ -122,14 +122,14 @@
         - [Choice]: No gracias, no puedo permitirme uno de esos.
           - **Player:** No, gracias, no puedo permitirme uno de esos.
           - **Brother Jered:** Lamento escuchar eso. Si te encuentras en tiempos más ricos, vuelve a verme.
-    - (Condition: Si el player lleva un símbolo sin bendecir:)
+    - (Condition: If the player is carrying an unblessed symbol:)
       - **Brother Jered:** Bueno, puedo bendecir esa estrella de Saradomin que tienes.
       - [Menu]: Selecciona una opción
         - [Choice]: Sí por favor, bendita mi estrella.
           - (above|blessstar)
         - [Choice]: No, gracias.
           - **Player:** No, gracias.
-    - (Condition: Si el player lleva más de un símbolo sin bendecir:)
+    - (Condition: If the player is carrying more than one unblessed symbol:)
       - **Brother Jered:** Bueno, puedo bendecir esas estrellas de Saradomin que tienes.
       - [Menu]: Selecciona una opción
         - [Choice]: Sí por favor, benditas mis estrellas.

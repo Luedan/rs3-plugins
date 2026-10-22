@@ -20,19 +20,19 @@
     - {{anchor|glassblowing-tutorial}} **Fritz the Glassblower:** El vidrio está hecho de carbonato de sodio y sílice. Obtenemos nuestra carbonato de sodio recolectando algas de las rocas; las corrientes predominantes hacen que los rincones noreste y suroeste de la isla sean el mejor lugar para encontrarla; también se puede encontrar en
     - **Fritz the Glassblower:** tus redes a veces cuando estás pescando, en la isla Karamja o en la colonia Piscatoris Fishing en las redes de allí. Para convertir las algas en carbonato de sodio, todo lo que necesitas hacer es quemarlas al fuego. Siéntete libre de usar la estufa de mi casa para
     - **Fritz the Glassblower:** eso; es el que está directamente al oeste de aquí. A continuación recogemos arena del arenero que también encontrarás justo al oeste de aquí, hay otros ubicados en Yanille y Shilo Village.
-    - (Condition: Si el player no ha recibido un depósito vacío de Fritz the Glassblower:)
-      - (Condition: Si el player tiene un depósito vacío:)
+    - (Condition: If the player has not received an empty bucket from Fritz the Glassblower:)
+      - (Condition: If the player has an empty bucket:)
         - **Fritz the Glassblower:** Veo que ya tienes un cubo que puedes usar para transportarlo.
         - (continue|bring-the-sand)
-      - (Condition: Si el player no tiene un depósito vacío:)
+      - (Condition: If the player does not have an empty bucket:)
         - **Fritz the Glassblower:** Necesitarás un balde para transportarlo. Te diré una cosa, puedes quedarte con este viejo mío.
         - (receives=empty bucket)
         - (continue|bring-the-sand)
-    - (Condition: Si el player ya recibió un depósito vacío de Fritz the Glassblower:)
+    - (Condition: If the player has already received an empty bucket from Fritz the Glassblower:)
       - **Fritz the Glassblower:** Puedes usar el cubo que te di antes.
-      - (Condition: Si el player tiene un depósito vacío:)
+      - (Condition: If the player has an empty bucket:)
         - (continue|bring-the-sand)
-      - (Condition: Si el player no tiene un depósito vacío:)
+      - (Condition: If the player does not have an empty bucket:)
         - **Player:** Me temo que no tengo ese cubo conmigo. ¿Podrías darme otro, por favor?
         - **Fritz the Glassblower:** ¿Parece que estoy hecho de cubos? Sólo tendrás que comprar otro de un general store.
         - **Fritz the Glassblower:** Y no me interrumpas cuando hablo, es de mala educación. De todos modos, como decía...
@@ -54,11 +54,11 @@
 - [Menu]: Selecciona una opción
   - [Choice]: Sí.
     - **Player:** Sí.
-    - (Condition: Si el player no tiene vidrio fundido:)
+    - (Condition: If the player does not have molten glass:)
       - **Fritz the Glassblower:** Umm, no tiene mucho sentido que intente pagarte por un vaso que no tienes, ¿verdad?
       - **Player:** Bueno, en realidad, si no te importa...
       - **Fritz the Glassblower:** Supongo que nunca has oído hablar de una pregunta retórica. Te lo haré sencillo. Tú traes vidrio, yo pago brillante gold coins.
-    - (Condition: Si el player tiene vidrio fundido:)
+    - (Condition: If the player has molten glass:)
       - **Fritz the Glassblower:** ¡Fantástico! A ver, por tanto vaso te podría pagar... ... ¡<number> piezas de oro!
       - [Menu]: Selecciona una opción
         - [Choice]: ¿Estás enojado? He corrido por toda la isla para hacer este vaso.

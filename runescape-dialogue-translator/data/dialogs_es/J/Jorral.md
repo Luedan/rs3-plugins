@@ -30,12 +30,12 @@
 
 ### Historical dialogue
 
-- (Condition: Si la llave encantada no está en backpack después de terminar las misiones relevantes:)
+- (Condition: If the enchanted key is not in the backpack after finishing the relevant quests:)
   - **Jorral:** Supongo que necesitarás esto.
   - (receives=enchanted key)
   - **Player:** ¿La clave? Pero ¿cómo... qué... por qué?
   - **Jorral:** Creo que deberías cuidarlo mejor en el futuro.
-- (Condition: Si la llave encantada está en backpack después de terminar las misiones relevantes:)
+- (Condition: If the enchanted key is in the backpack after finishing the relevant quests:)
   - **Player:** ¿Cómo va la arqueología?
   - **Jorral:** Bien. Estoy investigando más el trasfondo de esa llave encantada; Con suerte, podremos viajar en el tiempo con él nuevamente en el futuro.
   - **Player:** ¿No te refieres al pasado?

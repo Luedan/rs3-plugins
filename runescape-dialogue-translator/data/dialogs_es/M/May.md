@@ -12,7 +12,7 @@
 ### When talked to
 
 - **Mayo:** ¡Saludos [travelerZZCMD0ZZ/World Guardian]! ¿Qué puedo hacer por ti hoy?
-- (Condition: Sólo en la primera conversación:)
+- (Condition: Only on the first conversation:)
   - **Player:** ¿Quién eres? ¿Qué es todo esto?
   - **May:** Bueno, soy May, y esto...
   - **Mayo:** ¡Este es mi último esfuerzo! ¡Quiero ayudar a aventureros como tú a convertirse en los héroes para los que están hechos!
@@ -23,35 +23,35 @@
   - [Choice]: Abre la tienda.
     - (opens=May's Quest Caravan)
   - [Choice]: Reclaim items.|cond=Si hay artículos para reclamar:
-    - (Condition: Si solo se pueden recuperar objetos que no sean de combate:)
-      - (Condition: Sin suficiente espacio backpack:)
+    - (Condition: If only non-combat items can be reclaimed:)
+      - (Condition: Without enough backpack space:)
         - **Mayo:** No tienes suficiente espacio en el inventario para que te dé todo ahora mismo.
-      - (Condition: Con suficiente espacio backpack:)
+      - (Condition: With enough backpack space:)
         - (receives=missing items)
         - **Mayo:** He colocado tus recompensas en tu inventario.
-    - (Condition: Si solo se pueden recuperar objetos de combate:)
-      - (Condition: Sin suficiente espacio backpack:)
-        - (Condition: Si tan solo se pudiera recuperar Vanquish:)
+    - (Condition: If only combat items can be reclaimed:)
+      - (Condition: Without enough backpack space:)
+        - (Condition: If only Vanquish can be reclaimed:)
           - **Mayo:** No tienes suficiente espacio libre para reclamar Vanquish.
-        - (Condition: Si se pueden reclamar otros objetos además de Vanquish:)
+        - (Condition: If items other than Vanquish can be reclaimed:)
           - **Mayo:** No tienes suficiente espacio libre para reclamar las piezas del Equipo de Pruebas que te faltan.
-      - (Condition: Con suficiente espacio backpack:)
-        - (Condition: Si tan solo se pudiera recuperar Vanquish:)
+      - (Condition: With enough backpack space:)
+        - (Condition: If only Vanquish can be reclaimed:)
           - [pic=Coins 250 detail.png]
           - (continue)
-        - (Condition: Si se pueden reclamar otros objetos además de Vanquish:)
+        - (Condition: If items other than Vanquish can be reclaimed:)
           - [pic=Coins 250 detail.png]
           - (continue)
         - [Menu]: ¿Recuperar piezas faltantes para [100,000-1,000,000]?
           - [Choice]: Sí.
             - (removes=coins) (receives=missing Armour of Trials piece(s) y/o Vanquish (cuerpo a cuerpo))
-            - (Condition: Aunque solo sea para recuperar Vanquish:)
+            - (Condition: If only reclaiming Vanquish:)
               - [pic=Vencer detail.png]
-            - (Condition: Si reclamas algo que no sea Vanquish:)
+            - (Condition: If reclaiming something other than Vanquish:)
               - [pic=Helm of Trials detail.png]  <!-- image is independent of reclaimed piece -->
           - [Choice]: No.
             - (end)
-    - (Condition: Si se pueden recuperar objetos tanto de combate como de no combate:)
+    - (Condition: If both combat and non-combat items can be reclaimed:)
       - [Menu]: Selecciona una opción
         - [Choice]: Recupera el atuendo de las pruebas.
           - (above|combat)
@@ -67,11 +67,11 @@
         - (initial)
       - [Choice]: Cuéntame sobre tus mascotas.
         - **May:** Son maravillosos, ¿verdad? Los encontré cuando eran apenas cachorros, perdidos y solos. No tengo idea de dónde vinieron y desde ese día nunca he visto otro como ellos.
-          - (Condition: Si el player no ha desbloqueado la mascota Lorehound:)
+          - (Condition: If the player hasn't unlocked the Lorehound pet:)
             - **May:** He entrenado a ambos para que sean útiles en una aventura, algo para lo que Didymus tenía un talento bastante natural.
             - **May:** Me entristecerá decirle adiós, pero a diferencia de Fenton, ¡él simplemente se muere por volver a la batalla con un héroe digno!
             - (continue)
-        - (Condition: Si el player ha desbloqueado la mascota Lorehound:)
+        - (Condition: If the player has unlocked the Lorehound pet:)
             - **Mayo:** Didymus parece estar pasando un buen rato aventurándose contigo, ¡espero que se porte tan bien como lo entrené!
             - (continue)
         - **Mayo:** ¿Hay algo más en lo que pueda ayudarte?

@@ -9,7 +9,7 @@
 ## Dialogue Transcript
 
 - (Action: Félix arroja regalos de Navidad blancos y azules al suelo durante un rato.)
-- ((Los siguientes también se muestran como mensajes generales habituales:))
+- ((The following are also shown as regular overhead messages:))
   - {{Colour: {{Colour|#99FF99|MERRY CHRISTMAS}}}}
   - {{Colour: {{Colour|#99FF99|'TIS THE BEST TIME OF THE YEAR!}}}}
   - {{Colour: {{Colour|#99FF99|FREE PRESENTS FOR EVERYONE!}}}}

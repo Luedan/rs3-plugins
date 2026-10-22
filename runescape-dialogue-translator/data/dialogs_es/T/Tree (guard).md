@@ -119,10 +119,10 @@
     - **Guardia en el árbol:** ¡Uf! ¡Ay! ¡Ay!
     - **Guardia en el árbol:** ¡Sí! ¡Sí! ¡Sí!
     - (Action: La pantalla se vuelve negra y vuelve a aparecer rápidamente. El árbol ahora es un tocón.)
-    - (Condition: Si el player aún no le ha devuelto el anillo a Mabel:)
+    - (Condition: If the player has not returned Mabel's ring yet:)
       - Estás a mitad de camino de completar: Por el amor de Mabel
       - (continue)
-    - (Condition: Si el player ya le devolvió el anillo a Mabel:)
+    - (Condition: If the player has already returned Mabel's ring:)
       - {{RSFontAchievement|For the Love of Mabel}}
       - (continue)
     - (receives=5,000 coins)

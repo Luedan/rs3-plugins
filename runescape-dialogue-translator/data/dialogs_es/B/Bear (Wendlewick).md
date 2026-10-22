@@ -15,7 +15,7 @@
   - **Player:** {{RSChat|Good doggy!}}
   - **Player:** {{RSChat|Who's a good Bear?}}
   - **Player:** {{RSChat|You like those belly rubs, eh?}}
-- ((Ocasionalmente ocurrirá uno de los siguientes:))
+- ((Occasionally one of the following will occur:))
   - **Oso:** {{RSChat|*bark* *bark*}}
   - **Oso:** {{RSChat|*whine*}}
   - **Oso:** {{RSChat|*ruff*}}

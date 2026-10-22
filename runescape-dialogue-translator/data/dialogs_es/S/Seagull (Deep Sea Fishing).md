@@ -11,7 +11,7 @@
 
 ### Overhead
 
-- ((Ocasionalmente se observa uno de los siguientes:))
+- ((One of the following is seen occasionally:))
   - **Gaviota:** {{RSChat|Sqaaaaaaww!}}
   - **Gaviota:** {{RSChat|Squaw squaw!}}
   - **Gaviota:** {{RSChat|Squaw squaw squawk!}}
@@ -24,17 +24,17 @@
 #### Primera vez
 
 - Intentas ahuyentar a la gaviota.
-- ((Repetido en un mensaje emergente:))
+- ((Repeated in a pop-up message:))
   - {{Popup|You try to scare off the seagull.}}
 
 #### Después
 
 - Ya has intentado ahuyentar a la gaviota.
-- ((Repetido en un mensaje emergente:))
+- ((Repeated in a pop-up message:))
   - {{Popup|You've already tried to scare off the seagull.}}
 
 ### Leaving after shooing
 
 - Serás recompensado por ahuyentar a la gaviota: recibirás 1940 Fishing XP.
-- ((Repetido en un mensaje emergente:))
+- ((Repeated in a pop-up message:))
   - Serás recompensado por ahuyentar a la gaviota: recibirás 1940 Fishing XP.

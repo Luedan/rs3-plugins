@@ -152,7 +152,7 @@
 
 #### Visto ocasionalmente
 
-- ((Se ve uno de los siguientes:))
+- ((One of the following is seen:))
   - **Captain Deathbeard:** {{RSChat|Ahoy there fisherman, I'm in need of directions!}}
   - **Captain Deathbeard:** {{RSChat|Help an old pirate out would ya? I'm lost}}
   - **Captain Deathbeard:** {{RSChat|I could really do with some help finding my way}}
@@ -164,10 +164,10 @@
 ##### Primera vez durante la visita
 
 - Le ofreces a Captain Deathbeard algunas direcciones.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Le ofreces a Captain Deathbeard algunas direcciones.
   - (continue)
-- ((Se ve uno de los siguientes:))
+- ((One of the following is seen:))
   - **Captain Deathbeard:** {{RSChat|EAST you reckon?}}
   - **Captain Deathbeard:** {{RSChat|NORTH you say?}}
   - **Captain Deathbeard:** {{RSChat|SOUTH you think?}}
@@ -176,7 +176,7 @@
 ##### Después
 
 - Ya has ofrecido tu ayuda.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Ya has ofrecido tu ayuda.
 
 #### Saliendo
@@ -185,5 +185,5 @@
 - **Captain Deathbeard:** {{RSChat|Right, NORTH I go then!}}
 - **Captain Deathbeard:** {{RSChat|I be on my way, I've got a sea that needs sailin'!}}
 - Será recompensado por ofrecer indicaciones para llegar a Captain Deathbeard: recibirá [número] Fishing XP.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Será recompensado por ofrecer indicaciones para llegar a Captain Deathbeard: recibirá [número] Fishing XP.

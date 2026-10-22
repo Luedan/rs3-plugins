@@ -14,11 +14,11 @@
 - **Gale Freshman:** Hola, Player. ¿Puedo ayudarte con algo?
 - ¿De qué quieres hablar?
   - ¿Qué está pasando?
-    - ((Antes del mediodía del 26 de septiembre de 2022:))
+    - ((Before the noon of 26 September 2022:))
       - **Gale Freshman:** A partir del 26 de septiembre a las 12:00, hora de Gielinor, los aventureros podrán aventurarse en Fresh Start Worlds, donde todo es nuevo nuevamente, ¡comenzando desde cero!
       - **Gale Freshman:** Si deseas unirte a ellos, debes crear una nueva cuenta una vez que haya comenzado el evento, lo que te dará la opción de convertirte en un retador de Fresh Start Worlds.
       - (continue)
-    - ((Después del mediodía del 26 de septiembre de 2022:))
+    - ((After the noon of 26 September 2022:))
       - **Gale Freshman:** Actualmente hay aventureros en Fresh Start Worlds, donde todo es nuevo nuevamente, ¡comenzando desde cero!
       - **Gale Freshman:** Desafortunadamente para ti, solo los nuevos aventureros pueden experimentarlo.
       - (continue)

@@ -20,13 +20,13 @@
     - [Menu]: Selecciona una opción
       - [Choice]: Sí por favor.
         - **Player:** Sí, por favor.
-        - (Condition: Con cinco coins:)
+        - (Condition: With five coins:)
           - **Roavar:** Aquí tienes, amigo. ¡Disfrutar!
           - (removes=5 coins) (receives=Moonlight Mead)
-        - (Condition: Sin cinco coins:)
+        - (Condition: Without five coins:)
           - No puedes permitirte eso.
-          - (ventana emergente)
-            - (Ventana emergente: No puedes permitirte eso.|advertencia=yes)
+          - (pop-up)
+            - (Pop-up: You can not afford that.|warning=yes)
           - **Player:** Aunque no tengo el dinero encima en este momento... ¿puedo iniciar una cuenta?
           - **Roavar:** ¿Ves ese cartel detrás de mí?
           - **Player:** El que dice; '¿Por favor, no pida crédito porque ser atacado por un gran hombre lobo enojado Inn Keeper a menudo ofende'?
@@ -43,13 +43,13 @@
         - **Player:** Entonces... ¿todos aquí son hombres lobo?
         - **Roavar:** Sí. ¡Somos como nos hizo Zamorak!
         - **Player:** Mencionaste a Zamorak...
-        - (Condition: Diálogo actual:)
+        - (Condition: Current dialogue:)
           - **Roavar:** Sí, es genial, ¿no? Cada año celebramos un gran festival para agradecer a Zamorak por mantenernos bien alimentados y felices.
           - **Roavar:** He oído que en el oeste adoran a Saradomin. ¡No sé por qué! ¿Qué ha hecho para ayudarnos a los hombres lobo, eh?
           - **Roavar:** ¡Sus seguidores dicen cosas locas como '¡no deberíamos matar gente y comérnosla'! ¿Qué pasa con eso?
           - **Player:** ... Entonces, ¿cuándo es este festival?
           - **Roavar:** Ah, no hasta dentro de unos meses. Ven y pregúntame de nuevo cuando se acerque el momento. Te guardaré un poco de carne e hidromiel del resto, amigo.
-        - (Condition: Diálogo histórico, tras la Batalla de Lumbridge:)
+        - (Condition: Historical dialogue, after the Battle of Lumbridge:)
           - **Roavar:** ¡Sí, el gran dios Zamorak! Ése es otro crimen que añadir a la lista de Saradomin.
           - **Roavar:** No hace mucho, Saradomin derrotó a Zamorak en una gran batalla cerca de un lugar llamado Lumbridge.
           - **Roavar:** ¡Primero envenena nuestro río y luego destierra a nuestro dios! ¡Él realmente es un dios malvado!
@@ -57,7 +57,7 @@
           - **Roavar:** De todos modos, cada año celebramos un gran festival para agradecer a Zamorak por mantenernos bien alimentados y felices aquí.
           - **Player:** ... Entonces, ¿cuándo es este festival?
           - **Roavar:** Aaaah, todavía no hasta dentro de unos meses. Ven y pregúntame más cerca del momento, te guardaré un poco de carne e hidromiel del resto, amigo.
-        - (Condition: Diálogo histórico, durante la Batalla de Lumbridge:)
+        - (Condition: Historical dialogue, during the Battle of Lumbridge:)
           - **Roavar:** Sí, él está ahí luchando por nuestros derechos incluso ahora, en algún lugar llamado Lumbridge.
           - **Roavar:** He oído que Saradomin también ha vuelto. Es realmente malvado: ¡envenenó el río del oeste!
           - **Roavar:** ¡Y tiene todos estos seguidores locos que dicen cosas como que no deberíamos matar gente y comérnosla! ¿Qué pasa con eso?
@@ -67,7 +67,7 @@
           - **Roavar:** Aaaah, todavía no hasta dentro de unos meses. Ven y pregúntame más cerca del momento, te guardaré un poco de carne e hidromiel del resto, amigo.
       - [Choice]: Háblame de la tierra de Morytania.
         - **Player:** Háblame de la tierra de Morytania.
-        - (Condition: Antes de Río de Sangre:)
+        - (Condition: Before River of Blood:)
           - **Roavar:** Bueno, no sé qué decirte la verdad. Este pueblo se llama Canifis y se encuentra en el límite entre Morytania y Misthalin. Entonces, estamos en la primera línea si esos saradoministas del oeste alguna vez deciden atacarnos.
           - **Roavar:** Al sureste de aquí se encuentra el castillo de Lord Drakan, nuestro maestro.
           - **Player:** ¿Señor Drakan? ¿Quién es ese?
@@ -80,15 +80,15 @@
           - **Roavar:** Así es, pero sólo si no hemos logrado obtener suficiente sangre extra de nuestras cacerías. Es un poco grave si lo miras de esa manera, pero, francamente, creo que el precio es justo a cambio de su protección y su tolerancia hacia nuestra
           - **Roavar:** pueblo. Probablemente podría matarnos a todos si quisiera que nos fuéramos, por lo que mantener su lado bueno vale el sacrificio para nosotros. ¡Qué suerte que en realidad no somos humanos!
           - **Player:** ¿Por qué?
-          - (Condition: Antes de Vampyre Slayer:)
+          - (Condition: Before Vampyre Slayer:)
             - **Roavar:** ¡Odia a los humanos! Aparentemente su hermano Draynor está atrapado en Misthalin, ¡y pequeños aspirantes a héroes humanos aventureros siguen intentando matarlo!
             - (continue)
-          - (Condition: Después de Vampyre Slayer:)
+          - (Condition: After Vampyre Slayer:)
             - **Roavar:** ¡Odia a los humanos! Aparentemente hace mucho tiempo su hermano Draynor quedó atrapado en Misthalin y perdió gran parte de sus poderes, ¡y recientemente fue asesinado por un humano!
             - (continue)
           - **Roavar:** Hombre, odiaría ser un humano por aquí, eso es seguro. ¡A Drakan realmente le encantaría cazarlos y matarlos!
           - **Player:** Eh... gracias por la información...
-        - (Condition: Después de Río de sangre:)
+        - (Condition: After River of Blood:)
           - **Roavar:** Bueno, no sé qué decirte la verdad. Este pueblo se llama Canifis y se encuentra en el límite entre Morytania y Misthalin. Entonces, estamos en la primera línea si esos saradoministas del oeste alguna vez deciden atacarnos.
           - **Player:** Eh... gracias por la información...
       - [Choice]: Háblame de los comerciantes de aquí.
@@ -123,12 +123,12 @@
         - **Roavar:** Aparentemente, Morytania alguna vez tuvo un reino fuerte, con tierras que se extendían mucho más al oeste de lo que lo hacen hoy, y al sur hacia el desierto, hasta el día en que un ataque furtivo de las odiadas fuerzas humanas que adoran a Saradomin ardió.
         - **Roavar:** nuestras aldeas y masacraron a nuestros pueblos en masa.
         - **Roavar:** ¡Luego maldijeron el río para que quemara a los de nuestra especie si lo tocáramos! ¿Te imaginas? ¿Hacer que todo un río sea venenoso para nosotros?
-        - (Condition: Antes de Río de Sangre:)
+        - (Condition: Before River of Blood:)
           - **Roavar:** Afortunadamente parecen haberse calmado un poco recientemente y tienden a permanecer en su lado del río... pero el mal que le han hecho a mi gente nunca será olvidado y nunca será perdonado. Lo que es peor es
           - **Roavar:** ¡Que luego tuvieron el descaro de construir esa gigantesca estatua en la desembocadura del río para burlarse de la masacre de nuestra gente y el envenenamiento de nuestro río! Puedo entender el odio de Lord Drakan hacia ellos incluso si no lo comparto con sus
           - **Roavar:** extensión.
           - (continue)
-        - (Condition: Después de Río de sangre:)
+        - (Condition: After River of Blood:)
           - **Roavar:** Afortunadamente, la maldición se ha levantado y podemos viajar a Misthalin en busca de comida. Sin embargo, la mayoría de nosotros tenemos demasiado miedo de esos malvados humanos, así que no nos arriesgamos.
           - (continue)
         - **Player:** ¿Entonces también odias a los humanos?
@@ -161,9 +161,9 @@
 
 - **Roavar:** ¡Aquí tienes!
 - (removes=the old clue scroll (medium))
-- (Condition: Si el rastro continúa:)
+- (Condition: If the trail continues:)
   - (receives=a new clue scroll (medium))
   - [¡Roavar te ha dado otro pergamino de pistas!]
-- (Condition: Si el sendero termina:)
+- (Condition: If the trail ends:)
   - (receives=reward casket (medium))
   - [¡Has encontrado un ataúd!]

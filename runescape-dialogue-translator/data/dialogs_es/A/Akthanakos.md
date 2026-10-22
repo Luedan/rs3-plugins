@@ -14,7 +14,7 @@
 
 #### Habla con
 
-- ((La primera vez:))
+- ((On first time:))
   - **Akthanakos (Pilares de Hielo):** Ahora lo has hecho, Enakhra.
   - **Enakhra:** ¿Por qué estás hablando? Mantén tus pequeños ojitos en el colosal monstruo de hielo y trata de que no nos maten a todos.
   - **Akthanakos (Pilares de Hielo):** ¡El Guardián Mundial tuvo que intervenir! Quizás si hubieras sido siquiera vagamente competente...
@@ -23,7 +23,7 @@
   - **Akthanakos (Pilares de Hielo):** Yo...
   - **Akthanakos (Pilares de Hielo):** Uf. Muy bien. ¿Qué es?
   - (continue)
-- ((Después de la primera vez:))
+- ((After the first time:))
   - **Akthanakos (Pilares de Hielo):** ¿Qué es?
   - (continue)
 - **ELIGE UNA OPCIÓN:**
@@ -32,7 +32,7 @@
     - **Akthanakos (Pilares de Hielo):** Uno de sus ataques iniciales parece ser disparar rayos helados, que congelan la carne y minan la energía divina de la víctima.
     - **Akthanakos (Pillars of Ice):** Tengo la tarea de anular este ataque. Es factible, pero requiere gran parte de mi atención.
     - **Akthanakos (Pillars of Ice):** Aún así, una tarea bastante simple, si no fuera por la constante molestia de la presencia de Enakhra.
-  - ((Sólo con la mecánica de Pillars of Ice desactivada:))
+  - ((Only with the Pillars of Ice mechanic toggled off:))
     - Tómate un descanso. Puedo manejar esto.
       - **Akthanakos (Pilares de Hielo):** Cuidado. Esos rayos pueden resultar problemáticos, incluso para los guerreros más fuertes. No debes dejar que te golpeen.
       - Si Akthanakos deja de canalizar su hechizo, tendrás que evitar rayos helados que causan daño y agotan tus puntos de oración. ¿Está seguro?
@@ -43,7 +43,7 @@
           - Habla con Akthanakos nuevamente si deseas desactivar el ataque del rayo helado.
         - En realidad, ¡espera!
           - **Akthanakos (Pilares de Hielo):** Muy bien.
-  - ((Solo con la mecánica de Pillars of Ice activada:))
+  - ((Only with the Pillars of Ice mechanic toggled on:))
     - ¿Podrías empezar a bloquear los rayos helados otra vez?
       - **Akthanakos (Pilares de Hielo):** Por supuesto.
       - La mecánica 'Pilares de Hielo' ha sido desactivada.

@@ -11,13 +11,13 @@
 
 ### Talk to
 
-- (Condition: Inicialmente:)
+- (Condition: Initially:)
   - **Rich Bunny:** ¡Bueno, hola, Player!
   - **Player:** ¿Cómo sabes mi nombre?
   - **Rich Bunny:** Oh, me he enterado de todos los aventureros que vienen a visitar nuestra maravillosa Madriguera. ¿Has venido a maravillarte con las maravillas de los barcos zanahoria?
   - **Player:** ¿Creo que sí?
   - (continue|Rich-Bunny-options)
-- (Condition: Después:)
+- (Condition: Afterwards:)
   - **Rich Bunny:** ¡Buenos días, Player! ¿Vienes a dar una vuelta con mis botes de zanahoria?
   - (continue|Rich-Bunny-options)
 - [Menu]: Seleccione una opción|ancla=Rich-Bunny-options
@@ -44,36 +44,36 @@
   - [Choice]: ¿Puedo personalizar mi barco?
     - **Player:** ¿Puedo personalizar mi barco?
     - **Rich Bunny:** ¡Por supuesto! Puedes ser el navegante de zanahorias más elegante que existe con mis decoraciones para barcos hechas a medida.
-    - ((La interfaz de personalización del barco se abre con la siguiente información sobre herramientas.))
-      - (Condition: Personalizaciones bloqueadas:)
-        - ((Bronce:))
+    - ((Boat customisations interface opens with the following tooltips.))
+      - (Condition: Locked customisations:)
+        - ((Bronze:))
           - {{Interface tooltip|Bronze skin<br>{{Colour|#EB2F2F|This can be unlocked by completing a boat race in 2 minutes.}}}}
-        - ((Plata:))
+        - ((Silver:))
           - {{Interface tooltip|Silver skin<br>{{Colour|#EB2F2F|This can be unlocked by completing a boat race in 1 minute 45 seconds.}}}}
-        - ((Oro:))
+        - ((Gold:))
           - {{Interface tooltip|Gold skin<br>{{Colour|#EB2F2F|This can be unlocked by completing a boat race in 1 minute 30 seconds.}}}}
-        - ((Adorno:))
+        - ((Ornament:))
           - {{Interface tooltip|Ornament decoration<br>{{Colour|#EB2F2F|This can be unlocked from The Grand Eggs-change.}}}}
-        - ((Empavesado:))
+        - ((Bunting:))
           - {{Interface tooltip|Bunting decoration<br>{{Colour|#EB2F2F|This can be unlocked from The Grand Eggs-change.}}}}
-        - ((Flores:))
+        - ((Flowers:))
           - {{Interface tooltip|Flowers decoration<br>{{Colour|#EB2F2F|This can be unlocked from The Grand Eggs-change.}}}}
-        - ((Huevos:))
+        - ((Eggs:))
           - {{Interface tooltip|Eggs decoration<br>{{Colour|#EB2F2F|This can be unlocked from The Grand Eggs-change.}}}}
-      - (Condition: Personalizaciones desbloqueadas:)
-        - ((Bronce:))
+      - (Condition: Unlocked customisations:)
+        - ((Bronze:))
           - {{Interface tooltip|Bronze skin}}
-        - ((Plata:))
+        - ((Silver:))
           - {{Interface tooltip|Silver skin}}
-        - ((Oro:))
+        - ((Gold:))
           - {{Interface tooltip|Gold skin}}
-        - ((Adorno:))
+        - ((Ornament:))
           - {{Interface tooltip|Ornament decoration}}
-        - ((Empavesado:))
+        - ((Bunting:))
           - {{Interface tooltip|Bunting decoration}}
-        - ((Flores:))
+        - ((Flowers:))
           - {{Interface tooltip|Flowers decoration}}
-        - ((Huevos:))
+        - ((Eggs:))
           - {{Interface tooltip|Eggs decoration}}
   - [Choice]: Adiós.
     - **Player:** Me voy ahora.
@@ -85,10 +85,10 @@
 
 ### Blooming Burrow race
 
-- ((Los siguientes también se muestran como mensajes generales de chat habituales:))
-  - (Condition: Cada minuto antes del inicio de la carrera:)
+- ((The following are also shown as regular chat overhead messages:))
+  - (Condition: Every minute before the race starts:)
     - {{Colour: {{Colour|#99FF99|The Blooming Burrow race is due to start in [1–5] [minutes/minute]!}}}}
-  - (Condition: Cuando comienza la carrera:)
+  - (Condition: When the race is starting:)
     - {{Colour: {{Colour|#99FF99|Get ready in...}}}}
     - {{Colour: {{Colour|#99FF99|3...}}}}
     - {{Colour: {{Colour|#99FF99|2...}}}}

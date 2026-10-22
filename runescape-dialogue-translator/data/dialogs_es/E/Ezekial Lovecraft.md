@@ -59,7 +59,7 @@
 
 - **Player:** Hola, Ezequial.
 - **Ezekial Lovecraft:** ¡Hola, Player! Me alegro mucho de verte de nuevo. La vida ha sido muy aburrida en este pequeño y tranquilo pueblo desde nuestra última aventura.
-- (Condition: Con rubium en inventario:)
+- (Condition: With rubium in inventory:)
   - **Ezekial Lovecraft:** Veo que tienes rubium. ¿Te gustaría vendérmelo?
   - **Player:** Bueno, ¡eso depende! ¿Cuánto me darías por las piezas [amount]?
   - **Ezekial Lovecraft:** Por esa cantidad de rubium te puedo ofrecer [10 gp per rubium].
@@ -71,7 +71,7 @@
     - [Choice]: Lo siento, Ezequial. Creo que por ahora me lo quedaré yo mismo.
       - **Player:** Lo siento, Ezekial. Creo que por ahora me lo quedaré yo mismo.
       - **Ezekial Lovecraft:** Vuelve más tarde si cambias de opinión. Voy a necesitar todo lo que pueda conseguir si finalmente queremos vencer a las babosas marinas.
-- (Condition: Sin rubium en inventario:)
+- (Condition: Without rubium in inventory:)
   - [Menu]: Selecciona una opción
     - [Choice]: Entonces, ¿no hay señales de más actividad de babosas marinas?
       - **Player:** Entonces, ¿no hay señales de más actividad de babosas marinas?

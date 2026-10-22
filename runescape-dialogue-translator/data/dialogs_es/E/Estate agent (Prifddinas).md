@@ -35,19 +35,19 @@
 
 - [Menu]: Elige una opción:
   - [Choice]: cond=Without a contract|Quiero un nuevo contrato.
-    - (Condition: Sin espacio libre backpack:)
+    - (Condition: Without free backpack space:)
       - **Estate agent:** Necesitará algo de espacio en su backpack para un contrato.
-    - (Condition: Con espacio gratuito backpack:)
+    - (Condition: With free backpack space:)
       - (receives=Construction contract)
       - Te entregan un Construction contract.
       - **Estate agent:** Aquí tienes, esto acaba de llegar para [character] en [location].
       - **Player:** ¡Gracias! Veré qué puedo hacer.
   - [Choice]: cond=With a contract|¿Cuál es mi contrato actual?
     - **Estate agent:** Parece que estás ayudando a [character] en [location].
-    - (Condition: Si se ha perdido el Construction contract:)
-      - (Condition: Sin espacio libre backpack:)
+    - (Condition: If the Construction contract has been lost:)
+      - (Condition: Without free backpack space:)
         - **Estate agent:** Necesitará algo de espacio en su backpack para un contrato.
-      - (Condition: Con espacio gratuito backpack:)
+      - (Condition: With free backpack space:)
         - (receives=Construction contract)
         - Te entregan un Construction contract.
   - [Choice]: Háblame de contracts
@@ -62,9 +62,9 @@
   - [Choice]: cond=If the player has lost their plank box|He perdido mi caja de tablones.
     - **Player:** He perdido mi caja de tablones.
     - **Estate agent:** No te preocupes, tengo otro por ahí.
-    - (Condition: Sin espacio libre backpack:)
+    - (Condition: Without free backpack space:)
       - **Estate agent:** Vuelve cuando tengas algo de espacio libre en tu backpack.
-    - (Condition: Con espacio gratuito backpack:)
+    - (Condition: With free backpack space:)
       - (receives=plank box)
       - **Estate agent:** Pero intenta no perder este.
   - [Choice]: ¿Tienes algo que pueda comprar?

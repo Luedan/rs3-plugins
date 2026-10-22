@@ -34,11 +34,11 @@
 - {{anchor|preserve}}[Menú]: Seleccione una opción
   - [Choice]: si por favor
     - **Player:** Sí, por favor.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - No puedes permitirte eso.
       - **Player:** Pero no tengo suficiente dinero encima.
       - **Taxidermist:** ¡Entonces no me hagas perder el tiempo!
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - (removes=coins and remains) (receives=stuffed remains)
       - **Taxidermist:** ¡Ahí lo tienes!
   - [Choice]: No gracias

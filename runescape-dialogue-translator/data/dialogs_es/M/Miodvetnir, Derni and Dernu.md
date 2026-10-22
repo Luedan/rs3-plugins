@@ -70,7 +70,7 @@
     - **Derni:** ¿Pescado?
     - **Dernu:** ¿Qué son los peces?
     - **Miodvetnir:** No hay peces por aquí.
-    - (Condition: Después del concurso Fishing:)
+    - (Condition: After Fishing Contest:)
       - **Miodvetnir:** Dime, eres el campeón de Fishing, ¿no?
       - **Derni:** Debe ser por eso que estabas hablando de pescado entonces...
       - **Dernu:** ¿Qué son los peces?
@@ -80,7 +80,7 @@
     - **Derni:** Oh, son estas pequeñas cosas que se retuercen y viven en el agua.
     - **Miodvetnir:** ¡Pero no todos son pequeños! ¡Algunos pueden ser grandes!
     - **Derni:** Y no respiran aire.
-    - (Condition: Después del concurso Fishing:)
+    - (Condition: After Fishing Contest:)
       - **Miodvetnir:** ¡Pero Player podría contarte todo al respecto! Después de todo, ¡[he/she] es el campeón de Fishing!
       - **Player:** Quizás más tarde...
     - (initial)
@@ -90,7 +90,7 @@
     - **Derni:** ¿No es obvio?
     - **Dernu:** ¡Para la minería, por supuesto!
     - **Miodvetnir:** Estas minas son en realidad el territorio de una de las ocho principales empresas del Consorcio minero.
-    - (Condition: Antes del enano gigante:)
+    - (Condition: Before The Giant Dwarf:)
       - **Player:** ¿Empresas Mining? ¿Dónde están entonces?
       - **Derni:** Oh, todos tienen su sede en la ciudad.
       - **Dernu:** Primer piso del palacio.
@@ -193,9 +193,9 @@
     - **Dernu:** Oh, sí, ¿cuál es el problema entonces?
     - **Derni:** Fue derribado, ¿recuerdas? ¿Algunas partes casi caen sobre nuestras cabezas?
     - **Miodvetnir:** ¡También hizo un ruido terrible!
-    - (Condition: Antes de ayudar a Blasidar:)
+    - (Condition: Before helping Blasidar:)
       - **Player:** No importa.
-    - (Condition: Mientras ayudaba a Blasidar:)
+    - (Condition: While helping Blasidar:)
       - **Player:** Este escultor me tiene buscando muchos artículos, ¿sabes?
       - **Dernu:** Artículos, ¿eh?
       - **Derni:** Nos encantan los artículos.
@@ -206,7 +206,7 @@
       - **Miodvetnir:** Ya has contado esa historia antes, Dernu.
       - **Dernu:** Bueno, entonces olvídalo. Me callaré si no quieres oír hablar de ello.
       - **Player:** No importa.
-    - (Condition: Después de ayudar a Blasidar:)
+    - (Condition: After helping Blasidar:)
       - **Player:** Bueno, el escultor sólo necesita construir la cabeza ahora. Pero necesito que el Consorcio me ayude con eso.
       - **Miodvetnir:** ¿El Consorcio, dices?
       - **Dernu:** ¿Vas a hablar con el Consorcio?
@@ -268,9 +268,9 @@
     - **Player:** Ah, me equivoco...
     - **Player:** Parece que lo he olvidado.
     - **Derni:** Debe haber sido bastante olvidable también entonces.
-    - (Condition: Antes de La primogenitura de los enanos:)
+    - (Condition: Before Birthright of the Dwarves:)
       - **Player:** No importa.
-    - (Condition: Después de La primogenitura de los enanos:)
+    - (Condition: After Birthright of the Dwarves:)
       - **Player:** No, espera, ¡lo recuerdo! ¡Recuperé mi memoria! Crucé un abismo que estaba lleno de complejas huellas de carros mineros sin una buena razón, luego encontré una base de Red Axe...
       - **Miodvetnir:** Oh, ¿esa vieja historia?
       - **Derni:** Esas son noticias viejas. ¡El Hacha Roja ya no está!

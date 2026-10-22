@@ -23,9 +23,9 @@
 
 ### Collect
 
-- (Condition: Sin ningún espacio en el inventario:)
+- (Condition: Without any space in inventory:)
   - **Adam Antite:** Tengo 1 animal para ti, pero tendrás que hacer espacio en tu inventario antes de que pueda dártelo.
-- (Condition: Con al menos un espacio en inventario:)
+- (Condition: With at least one space in inventory:)
   - (receives=a random unchecked animal item)
   - The trapper te entrega un [Animal] nuevo (sin marcar) para que lo guardes en tu granja.
   - **Adam Antite:** Encontré a este pequeño desgraciado deambulando solo y luciendo perdido, espero que lo cuides bien.

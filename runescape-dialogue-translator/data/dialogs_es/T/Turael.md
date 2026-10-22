@@ -138,7 +138,7 @@
 - **Player:** Soy Player. Estoy usando magia para comunicarme contigo.
 - **Turael:** Extraño. Anda entonces, ¿qué quieres?
 - [Menu]: Elige una opción:
-- (Condition: Durante Mientras Guthix duerme antes de reclutar a Turael:)
+- (Condition: During While Guthix Sleeps before recruiting Turael:)
   - [Choice]: Necesito hablar contigo sobre Lucien.
     - **Player:** ¡Necesito hablarte sobre Lucien!
     - **Turael:** Ah, sí, ¿y qué pasa con Lucien? Hace tiempo que no escucho ese nombre.
@@ -148,15 +148,15 @@
   - [Choice]: pregunta sobre otra cosa
     - [Choice]: Necesito otra tarea.
       - **Player:** Necesito otra tarea.
-      - (Condition: Si el jugador ya tiene una asignación Slayer:)
+      - (Condition: If player already has a Slayer assignment:)
         - **Turael:** Todavía estás cazando a [assigned creature]; Vuelve cuando hayas terminado tu tarea.
   - [Choice]: Eh... nada...
     - **Player:** Er... Nada...
-- (Condition: Después de reclutar a Turael (Mientras Guthix duerme))
+- (Condition: After recruiting Turael (While Guthix Sleeps))
   - **Player:** ¡Necesito hablarte sobre Lucien!
   - **Turael:** Pareces muy olvidadizo, de verdad. Ya me has reclutado, no tiene sentido volver a intentarlo.
   - (end)
-(Condition: Si Player está muy cerca de Turael)
+(Condition: If Player is in close proximity with Turael)
 - **Player:** ¿Hola?
 - **Turael:** 'Hola, ¿quién es ese?
 - **Player:** Soy Player. Estoy usando magia para comunicarme contigo.

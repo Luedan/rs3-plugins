@@ -100,11 +100,11 @@
 - [Menu]: Selecciona una opción
   - [Choice]: Yo lo tomaré.
     - **Player:** Lo aceptaré.
-    - (Condition: Si el player no tiene 600 coins:)
+    - (Condition: If the player does not have 600 coins:)
       - No puedes permitirte eso.
       - **Player:** ¿Puedo conseguirlo a crédito?
       - **Blackjack seller:** ¡Fuera de aquí!
-    - (Condition: Si el player tiene 600 coins:)
+    - (Condition: If the player has 600 coins:)
       - (removes=600 coins) (receives=willow-blackjack)
   - [Choice]: No gracias.
     - **Player:** No, gracias.

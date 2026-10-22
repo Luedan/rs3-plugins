@@ -12,10 +12,10 @@
 ### Using a meat tenderiser on a Super Cow
 
 - Sí... no creo que sea correcto.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Sí... no creo que sea correcto.
   - (continue)
-- ((Sin haber completado Golpeando tu carne:))
+- ((Without having completed Beating Your Meat:))
   - ¡Felicitaciones! Ha completado: 'Batir la carne': utilice un ablandador de carne en un super cow.
   - (continue)
 - No pasa nada interesante.

@@ -16,5 +16,5 @@
 ### Catch
 
 - Absorbes algo de energía necrótica de la polilla y ésta se aleja revoloteando.
-- ((Sólo la primera vez:))
+- ((Only on the first time:))
   - ¡Felicitaciones! Has completado: 'En la cabeza de la muerte' - Captura un deathshead moth.

@@ -45,9 +45,9 @@
 
 - **Carado:** Bueno, no me quejo: ¡esta celda es más grande que mi habitación en el Gran Árbol! Es un poco escaso sin embargo...
 - **Player:** Te sacaremos de allí pronto.
-- (Condition: Durante Monkey Madness:)
+- (Condition: During Monkey Madness:)
   - **Carado:** No hay prisa...
-- (Condition: Después de Monkey Madness:)
+- (Condition: After Monkey Madness:)
   - **Carado:** Se supone que debo estar aquí ahora. Estamos trabajando encubierto.
 
 ### Dialogue after getting caught and imprisoned

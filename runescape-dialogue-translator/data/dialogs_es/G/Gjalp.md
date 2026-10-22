@@ -15,8 +15,8 @@
 #### En mundos gratuitos
 
 - Debes estar en un mundo de miembros para acceder a este contenido.
-- (ventana emergente)
-  - (Ventana emergente: debes estar en un mundo de miembros para acceder a este contenido.|color=#EBE0BC|shadow=no)
+- (pop-up)
+  - (Pop-up: You need to be on a members' world to access this content.|colour=#EBE0BC|shadow=no)
 
 #### Antes de que todos se enciendan
 
@@ -52,17 +52,17 @@
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Podrías cuidar esta baliza por mí?
     - **Player:** ¿Podrías cuidar esta baliza por mí?
-    - (Condition: Si la baliza está apagada:)
+    - (Condition: If the beacon is unlit:)
       - **Gjalp:** Por supuesto. Una vez que enciendas la baliza, dame 5 logs y haré que el fuego arda por mucho tiempo.
-    - (Condition: Si la baliza está muriendo:)
+    - (Condition: If the beacon is dying:)
       - **Gjalp:** Sólo me ocupo del fuego ardiente. ¡Tú mismo te ocupas del fuego moribundo!
-    - (Condition: Si la baliza no muere:)
-      - (Condition: Si Gjalp no tiene cinco logs:)
-        - (Condition: Si el player no tiene al menos cinco logs del mismo tipo:)
+    - (Condition: If the beacon is not dying:)
+      - (Condition: If Gjalp does not have five logs:)
+        - (Condition: If the player does not have at least five logs of the same type:)
           - Debes darle al bombero cinco troncos del mismo tipo para la baliza.
           - **Gjalp:** ¿Cómo esperas que te atienda el fuego? ¡No tienes suficiente logs bueno para que yo lo use!
-        - (Condition: Si el player tiene al menos cinco logs del mismo tipo:)
-          - (Condition: Si el mensaje de confirmación está habilitado:)
+        - (Condition: If the player has at least five logs of the same type:)
+          - (Condition: If the confirmation prompt is enabled:)
             - **Gjalp:** Necesito cinco logs para cuidar el fuego por ti. ¿Bueno?
             - [Menu]: ¿Quieres darle cinco logs al fuego?
               - [Choice]: Sí.
@@ -74,9 +74,9 @@
                 - **Gjalp:** Hmph. Sabes dónde estoy si cambias de opinión.
               - [Choice]: Sí. Por favor, no me pidas confirmación en el futuro.
                 - (above|talk-give-logs)
-          - (Condition: Si el mensaje de confirmación está deshabilitado:)
+          - (Condition: If the confirmation prompt is disabled:)
             - (above|talk-give-logs)
-      - (Condition: Si Gjalp tiene cinco logs:)
+      - (Condition: If Gjalp has five logs:)
         - **Gjalp:** Por supuesto. Yo uso logs que me dejaste antes.
   - [Choice]: ¿Puedes hablarme de otras balizas?
     - **Player:** ¿Puedes hablarme de otras balizas?
@@ -89,9 +89,9 @@
     - **Player:** ¿Una guacamaya?
     - **Gjalp:** Sí. El guacamayo puede volar alto en el aire y ver a larga distancia. También son criaturas muy inteligentes.
     - **Gjalp:** El guacamayo puede volar por el aire y luego informar sobre toda la red de balizas.
-    - ((Si el player no tiene una bolsa de guacamayo en su backpack:))
+    - ((If the player does not have a macaw pouch in their backpack:))
       - **Gjalp:** Si me das una guacamaya, también puedo contarte sobre otras balizas.
-    - ((Si el player tiene una bolsa de guacamayo en su backpack:))
+    - ((If the player has a macaw pouch in their backpack:))
       - **Gjalp:** Oye, estás sosteniendo una guacamaya, justo ahí. Le das guacamayo, te hablo de otras balizas también.
       - (continue|macaw)
   - [Choice]: ¿Cómo te va?
@@ -123,27 +123,27 @@
 
 ### Using logs on Gjalp
 
-- (Condition: Si la baliza está apagada:)
+- (Condition: If the beacon is unlit:)
   - Aquí no hay fuego para que lo atienda el bombero.
-- (Condition: Si la baliza está muriendo:)
+- (Condition: If the beacon is dying:)
   - **Player:** Ya que estoy aquí y el fuego de la baliza se está apagando, también podría cuidarlo yo mismo.
-- (Condition: Si la baliza no muere:)
-  - (Condition: Si Gjalp no tiene cinco logs:)
-    - (Condition: Si el mensaje de confirmación está habilitado:)
+- (Condition: If the beacon is not dying:)
+  - (Condition: If Gjalp does not have five logs:)
+    - (Condition: If the confirmation prompt is enabled:)
       - [Menu]: ¿Quieres darle cinco logs al fuego?
         - [Choice]: Sí.
-          - (Condition: Si el player no tiene al menos cinco logs del mismo tipo:)
+          - (Condition: If the player does not have at least five logs of the same type:)
             - El bombero necesita cinco troncos del mismo tipo para mantener este fuego.
-          - (Condition: Si el player tiene al menos cinco logs del mismo tipo:)
+          - (Condition: If the player has at least five logs of the same type:)
             - (removes=five logs)
             - Le das al fuego tierno 5 [type] logs.
         - [Choice]: No.
           - **Player:** Creo que, después de todo, me quedaré con mi logs.
         - [Choice]: Sí. Por favor, no vuelvas a pedirme confirmación.
           - (above|use-give-logs)
-    - (Condition: Si el mensaje de confirmación está deshabilitado:)
+    - (Condition: If the confirmation prompt is disabled:)
       - (above|use-give-logs)
-  - (Condition: Si Gjalp tiene cinco logs:)
+  - (Condition: If Gjalp has five logs:)
     - Ya saliste de logs con este ténder de fuego.
 
 ### Attempting to open the log storage chest without the elite Varrock tasks completed

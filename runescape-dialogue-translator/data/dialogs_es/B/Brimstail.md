@@ -36,31 +36,31 @@
   - [Choice]: Hola, solo quería charlar.
     - **Player:** Hola, solo quería charlar.
     - **Brimstail:** ¡Siempre es un placer encontrarse con otro mago! ¡Especialmente uno que me ha ayudado tanto!
-    - (Condition: Si el player ha perdido la pequeña semilla de cristal:)
+    - (Condition: If the player has lost the small crystal seed:)
       - **Brimstail:** Ah, por cierto, encontré esta cosa rara por ahí, ¿te pertenece?
       - [Brimstail te muestra una pequeña semilla de cristal.]
       - **Player:** Oh, sí. Me preguntaba a dónde había ido eso...
       - (receives=small crystal seed)
       - **Brimstail:** Deberías cuidar tus cosas con más cuidado, ¿sabes?...
       - **Player:** ¡Gracias!
-    - (Condition: Si el player tiene la semilla de cristal pequeña:)
+    - (Condition: If the player has the small crystal seed:)
       - **Brimstail:** ¿Cómo van tus investigaciones?
       - **Player:** Oh, no está tan mal. Te haré saber si encuentro algo que creo que te resultará interesante...
       - **Brimstail:** ¡Gracias! Te lo agradecería.
-      - (Condition: Si la semilla se ha convertido en un timbre:)
+      - (Condition: If the seed has been made into a chime:)
         - (end)
-      - (Condition: Si la semilla sigue siendo una semilla:)
+      - (Condition: If the seed is still a seed:)
         - **Player:** ¿Qué hace esta semilla?
         - **Brimstail:** Fascinante... una semilla de cristal. Deberías echarle un vistazo al cuenco de cristal de la otra habitación, debe estar relacionado.
         - **Player:** Gracias, lo haré.
-      - (Condition: Si la semilla ha sido convertida en sierra:)
+      - (Condition: If the seed has been made into a saw:)
         - **Player:** ¿Qué hace esta sierra de cristal?
-        - (Condition: Antes Mientras Guthix Duerme:)
+        - (Condition: Before While Guthix Sleeps:)
           - **Brimstail:** No tengo idea, debe haber sido de Oaknock, le gustaba hablar con los elfos.
           - **Player:** ¿Dónde puedo averiguar cómo funciona?
           - **Brimstail:** Errrm, no estoy seguro. Charle con Hazelmere, tal vez él lo sepa. Estuvo presente cuando Oaknock estaba vivo y podría haberlo visto usarlo.
           - **Player:** Excelente idea, lo haré. Gracias.
-        - (Condition: Después de Mientras Guthix duerme:)
+        - (Condition: After While Guthix Sleeps:)
           - **Brimstail:** Recientemente leí que Oaknock usó algo como esto para ayudarlo a construir dispositivos que eran demasiado complicados para él solo con su habilidad. Quizás eso es lo que hace esta sierra.
           - [La sierra agregará tres niveles a su nivel Construction efectivo cuando esté construyendo algo que requiera una sierra.]
   - [Choice]: cond=After The Path of Glouphrie|He estado investigando a otro observador en Tree Gnome Village.
@@ -88,7 +88,7 @@
 
 #### Medio (reemplazo de Hazelmere)
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only the first time:)
   - **Brimstail:** Ah, sé para qué estás aquí.
   - **Player:** ¿Lo haces?
   - **Brimstail:** Sí. Pero antes de que te deje seguir adelante, debes ayudarme con este desafío.
@@ -99,14 +99,14 @@
 
 - **Brimstail:** ¿Sabes la respuesta a la pregunta?
 - Ingrese la cantidad:<br>[Input field]
-- (Condition: Cuando se le da la respuesta incorrecta:)
+- (Condition: When given the wrong answer:)
   - **Brimstail:** Esto no suena bien.
-- (Condition: Cuando se le da la respuesta correcta:)
+- (Condition: When given the correct answer:)
   - (removes=the clue scroll (medium) y desplazamiento de desafío (medio))
-  - (Condition: Si el rastro continúa:)
+  - (Condition: If the trail continues:)
     - (receives=a new clue scroll (medium))
     - [¡Brimstail te ha dado otro pergamino de pistas!]
-  - (Condition: Si el sendero termina:)
+  - (Condition: If the trail ends:)
     - (receives=reward casket (medium))
     - [¡Has encontrado un ataúd!]
   - **Brimstail:** ¡Gracias!

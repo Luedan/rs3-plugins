@@ -25,7 +25,7 @@
 
 - (receives=uncharged effigy)
 - Encuentras {{Sic [Item] whilst collecting from the remnant.|colour=#00FF00}}
-- (ventana emergente)
+- (pop-up)
   - (Ventana emergente: encontrará {{Sic|a) [Item] whilst collecting from the remnant.|colour=#00FF00}}
 
 ### Having a material hotspot change into different type or empty spot while collecting

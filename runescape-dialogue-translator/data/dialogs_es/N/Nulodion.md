@@ -26,11 +26,11 @@
       - Está bien, llevaré un cañón, por favor.
         - **Player:** Está bien, llevaré un cañón, por favor.
         - **Nulodion:** Está bien, pero mantenlo en secreto... ¡Esto es ultrasecreto!
-          - ((Si no tienes suficiente dinero contigo:))
+          - ((If you do not have sufficient money with you:))
             - **Player:** Vaya, no tengo suficiente dinero.
             - **Nulodion:** Lo siento, no puedo bajar más que eso.
-          - ((Si tienes suficiente dinero contigo:))
-            - ((Si el dinero a pagar está almacenado en su bolsa de dinero:))
+          - ((If you have sufficient money with you:))
+            - ((If money to be paid is stored in your money pouch:))
               - Se han eliminado 750.000 coins de su bolsa de dinero.
             - Le das al ingeniero de Cannon 750.000 coins.
             - Te entrega las cuatro piezas que componen el cañón, además de un molde de munición y un manual de instrucciones.
@@ -40,14 +40,14 @@
       - ¿Puedo ver las partes separadas, por favor?
         - **Player:** ¿Puedo ver las partes separadas, por favor?
         - **Nulodion:** ¡Por supuesto!
-        - ((Se abren las piezas de cañón múltiple de Nulodion.))
+        - ((Nulodion's Multicannon Parts opens.))
       - Lo siento, eso es demasiado para mí.
         - **Player:** Lo siento, eso es demasiado para mí.
         - **Nulodion:** Es cierto, es demasiado para la mayoría de nosotros.
       - ¿Tienes munición o instrucciones para vender?
         - **Player:** ¿Tienes munición o instrucciones para vender?
         - **Nulodion:** ¡Por supuesto!
-        - ((Se abren las piezas de cañón múltiple de Nulodion.))
+        - ((Nulodion's Multicannon Parts opens.))
   - Bueno, cuídate entonces.
     - **Player:** Bueno, entonces cuídate.
     - **Nulodion:** De hecho, seré un aventurero.
@@ -58,11 +58,11 @@
     - **Nulodion:** Tiene ráfagas cortas, es muy eficaz y es el arma más destructiva hasta la fecha. El cañón apunta automáticamente a los monstruos cercanos. Sólo tienes que hacer la munición y soltarla.
   - He perdido mi cañón.
     - **Player:** He perdido mi cañón.
-      - ((Si es elegible para un reemplazo sin costo:))
+      - ((If you are eligible for a replacement at no cost:))
         - **Nulodion:** ¡Mantén eso en silencio o estaré en un verdadero problema!
         - El enano te regala un nuevo [cannon variant].
         - **Player:** Por supuesto.
-      - ((Si no es elegible para un reemplazo sin costo:))
+      - ((If you are not eligible for a replacement at no cost:))
         - **Nulodion:** Dios mío, solo puedo reemplazar cañones que fueron robados en acción. Lo siento, pero tendrás que comprar un juego nuevo.
-      - ((Si tenía piezas de varios cañones almacenadas en Nulodion antes del cambio a un solo artículo en septiembre de 2021:))
+      - ((If you had multicannon parts stored with Nulodion prior to the September 2021 change to single-item:))
         - **Nulodion:** Parece que hiciste tu último cañón usando piezas extrañas. No puedo reemplazarlo. Quizás deberías ir a hacer otro.

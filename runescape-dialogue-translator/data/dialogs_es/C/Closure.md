@@ -228,7 +228,7 @@
 
 #### Estudio de Closure
 
-- ((Si el player lleva puesto el gorro de fiesta:))
+- ((If the player is wearing the party hat:))
   - **Closure:** Ese sombrero es... Bueno, digamos que no esperaba que la historia de tu vida se convirtiera en una tragicomedia.
   - (continue)
 - **Closure:** ¡No hay que hacer cola! ¿No viste a las otras almas esperando verme?
@@ -273,18 +273,18 @@
 - **Closure:** La muerte me ha enviado un contrato que te devolverá tu identidad. Sin embargo, necesitarás que ella lo firme. De buena gana.
 - **Player:** Ella nunca firmará nada de lo que le entregue. Ella piensa que estoy muerto o desaparecido; Tan pronto como me vea, sabrá que algo pasa.
 - **Closure:** Hmm... Podría modificar el hechizo de glamour que colocó en ese sombrero espantoso. Mientras uses eso mientras hablas con ella, ella no te verá como tú.
-- ((Sin espacio en backpack:))
+- ((Without space in backpack:))
   - **Closure:** Sin embargo, antes de continuar, necesitarás espacio para aceptar el nuevo contrato de Death.
-- ((Con espacio en backpack:))
-  - ((Si el player no tiene el gorro de fiesta:))
+- ((With space in backpack:))
+  - ((If the player doesn't have the party hat:))
     - **Player:** Ah, me deshice de él...
     - **Closure:** Hmm, bueno, puedo lanzarte el hechizo. Sólo asegúrate de coger otro de los sombreros de Relomia para ponértelo antes de volver a hablar con ella.
     - (continue)
-  - ((Si el player tiene el gorro de fiesta en backpack:))
+  - ((If the player has the party hat in backpack:))
     - **Player:** Aquí, todavía tengo uno...
     - **Closure:** Al menos tuviste la sensatez de no seguir usándolo. Bien.
     - (continue)
-  - ((Si el player lleva puesto el gorro de fiesta:))
+  - ((If the player is wearing the party hat:))
     - **Player:** Toma, todavía llevo uno. Déjame quitártelo...
     - **Closure:** No es necesario. Puedes dejar tu sombrero puesto. Incluso si es feo.
     - (continue)
@@ -296,9 +296,9 @@
 ##### Habiendo perdido el contrato de muerte
 
 - **Player:** Perdí ese contrato sin firmar que me diste.
-- ((Sin espacio en backpack:))
+- ((Without space in backpack:))
   - **Closure:** Necesitarás dejar espacio para una copia de reemplazo...
-- ((Con espacio en backpack:))
+- ((With space in backpack:))
   - (receives=Death contract)
   - Closure te entrega el contrato sin firmar.
   - **Closure:** Toma, no te pierdas este. Estas cosas no crecen en los árboles.
@@ -310,24 +310,24 @@
 
 ##### Reclamando la identidad de los jugadores
 
-- ((Haber perdido el contrato sin habérselo entregado a Closure:))
+- ((Having lost the contract without having given it to Closure:))
   - **Player:** Yo, ejem, conseguí que Relomia firmara el nuevo contrato, pero luego lo perdí...
   - **Closure:** No te preocupes, estoy acostumbrado a que otros no sean tan cuidadosos con el papeleo como yo. Le lancé un simple hechizo de recuperación y... ah, aquí está. Buen trabajo.
   - (continue)
-- ((Con el contrato:))
+- ((With the contract:))
   - **Closure:** Ese sombrero es... Bueno, digamos que no esperaba que la historia de tu vida se convirtiera en una tragicomedia.
   - **Player:** ¡Conseguí que Relomia firmara el nuevo contrato!
   - **Closure:** Excelente, déjame tomar eso.
   - (Closure toma el contrato de Player.)
   - (continue)
-- ((Sin espacio en backpack:))
+- ((Without space in backpack:))
   - **Closure:** Antes de continuar, debes liberar algo de espacio. Tengo algo que darte...
 - **Closure:** Bueno, ahora también nos encargamos de ese papeleo. Enhorabuena, eres tú mismo una vez más.
 - **Player:** Sin embargo, Relomia escapó.
 - **Closure:** Nunca pasa. He vuelto a separar sus travesuras en su propia biografía. Ella no hizo nada demasiado nefasto.
 - **Player:** ¿Quieres decir además de matarme?
 - **Closure:** Exactamente. No se ha hecho ningún daño. Al menos no hay daño duradero.
-- ((Si el player lleva puesto el gorro de fiesta:))
+- ((If the player is wearing the party hat:))
   - **Closure:** Excepto tal vez ese sombrero, que AÚN no te has quitado... ¡Déjame rectificar eso!
   - (continue)
 - (Se le quita el sombrero a el player.)

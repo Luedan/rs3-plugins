@@ -24,7 +24,7 @@
 - **Doomsayer:** ¡Por eso estoy esperando aquí!
 - **Doomsayer:** Si quieres volver a ver los mensajes de advertencia, puedo volver a activarlos.
 - **Doomsayer:** ¿Necesitas activar alguna advertencia ahora mismo?
-- (Condition: Si es la primera vez que habla con él:)
+- (Condition: If this is the first time talking to him:)
   - {{RSFontAchievement|Doom!}}
   - (continue)
 - [Menu]: Selecciona una opción
@@ -37,13 +37,13 @@
 ### Carrying the tainted shard
 
 - **Doomsayer:** ¿Qué es eso? Esa energía oscura que te rodea... ¿es así como se siente el final?
-- (Condition: Antes de que la muerte nos separe:)
+- (Condition: Before 'Til Death Do Us Part:)
   - **Player:** ¿Te refieres a este fragmento? Lo encontré, pero no estoy seguro de qué hace. ¿Crees que es seguro conservarlo?
   - (continue)
-- (Condition: Durante 'Hasta que la muerte nos separe:)
+- (Condition: During 'Til Death Do Us Part:)
   - **Player:** ¿Te refieres a este fragmento? Lo encontré y me está ayudando a cerrar una grieta que se abrió cerca de Draynor Village. ¿Crees que es seguro conservarlo?
   - (continue)
-- (Condition: Después hasta que la muerte nos separe:)
+- (Condition: After 'Til Death Do Us Part:)
   - **Player:** ¿Te refieres a este fragmento? Lo usé para cerrar una grieta que se abrió cerca de Draynor Village. ¿Crees que es seguro conservarlo?
   - (continue)
 - **Doomsayer:** Me temo que no. Sé que a menudo hablo de una perdición inminente, pero esto es una oscuridad diferente a todo lo que he sentido antes.

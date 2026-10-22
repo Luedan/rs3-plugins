@@ -22,14 +22,14 @@
   - *Diálogo 1:*
     - **Asistente:** ¡Ok! ¡Akk! ¡Oookawwwaaa!
     - El mono parece entenderlo.
-    - ((Se abre la interfaz de red de alfombras Magic.))
+    - ((Magic carpet network interface opens.))
   - *Diálogo 2:*
     - **Asistente:** ¡Oook! ¡Akkk! ¡Awwwwakkaa!
     - El mono te da un plátano.
     - (receives=banana)
     - **Asistente:** Ah, parece que estoy un poco oxidado. ¡Ok! ¡Akk! ¡Oookawwwaaa!
     - El mono parece entenderlo.
-    - ((Se abre la interfaz de red de alfombras Magic.))
+    - ((Magic carpet network interface opens.))
 
 #### Mientras llevas un amuleto de mono
 
@@ -38,7 +38,7 @@
   - [Choice]: Me gustaría viajar.
     - **Player:** Me gustaría viajar.
     - **Rug merchant:** Por supuesto, todos los viajes son gratuitos para usted desde este centro. ¿Adónde te gustaría ir?
-    - ((Se abre la interfaz de red de alfombras Magic.))
+    - ((Magic carpet network interface opens.))
   - [Choice]: ¿Qué piensa Ali Morrisane de esta configuración?
     - **Player:** ¿Qué piensa Ali Morrisane de esta configuración?
     - **Rug merchant:** Vino aquí con un amuleto de lengua de mono y nos acusó de robar sus alfombras. Al principio estaba bastante enojado, pero, con un poco de negociación dura, llegamos a un acuerdo.
@@ -50,10 +50,10 @@
     - **Rug merchant:** Oh, sí, es un poco miserable, ¿no? La última vez que contratamos a alguien por correo. Pensé que se suponía que los humanos eran cursis y llenos de energía; en todo caso, está alejando el negocio.
     - (initial)
   - [Choice]: Me gustaría ver qué se ha perdido y encontrado.
-    - (Condition: Si hay objetos perdidos y encontrados para recoger:)
+    - (Condition: If there is lost and found to be collected:)
       - (receives=Bag of lost items)
       - **Rug merchant:** Sí, he encontrado muchas cosas que no han sido reclamadas. Se caen de las mochilas de la gente cuando las alfombras se levantan. Toma, toma uno. ¡Vuelve mañana por más!
-    - (Condition: Si el player ha cobrado el día o no es elegible:)
+    - (Condition: If the player has collected for the day, or is not eligible:)
       - **Rug merchant:** Lo siento, todavía no he encontrado nada. Vuelve mañana.
   - [Choice]: Tengo que irme.
     - **Player:** Tengo que irme.

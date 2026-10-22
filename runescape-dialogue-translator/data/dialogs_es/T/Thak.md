@@ -18,9 +18,9 @@
 - [Menu]: Selecciona una opción
   - [Choice]: ¿A quién pertenece esta zona minera?
     - **Player:** ¿A quién pertenece esta zona minera?
-    - (Condition: Antes de completar Entre una roca...:)
+    - (Condition: Before completing Between a Rock...:)
       - **Thak:** Es propiedad conjunta de las empresas mineras del Consorcio.
-    - (Condition: Después de completar Entre una roca...:)
+    - (Condition: After completing Between a Rock...:)
       - **Thak:** Dondakan lo compró después de dar un gran golpe con su cañón en las minas del sur. Aunque lo mantiene exclusivo.
   - [Choice]: ¿Cuánto te costaría mirar para otro lado?
     - **Player:** ¿Cuánto te costaría mirar para otro lado?

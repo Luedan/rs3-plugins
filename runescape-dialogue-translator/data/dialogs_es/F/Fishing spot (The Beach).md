@@ -18,7 +18,7 @@
 ##### Con espacio en backpack
 
 - Lanzas tu línea...<br>Intentas pescar un pez.
-- ((Por cada trucha tropical cruda capturada:))
+- ((For each raw tropical trout caught:))
   - (receives=raw tropical trout)
   - Coges una trucha tropical.
 
@@ -29,5 +29,5 @@
 #### Fuera de un evento de verano
 
 - La playa Sunlight Sands no está activa en este momento.
-- (ventana emergente)
-  - (Ventana emergente: Sunlight Sands Beach no está activa en este momento.|advertencia=yes)
+- (pop-up)
+  - (Pop-up: The Sunlight Sands Beach is not active at the moment.|warning=yes)

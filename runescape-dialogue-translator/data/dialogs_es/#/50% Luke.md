@@ -28,7 +28,7 @@
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Qué te pasó?
     - **Player:** ¿Qué te pasó?
-    - (Condition: Sin un Ring of Charos (a) equipado:)
+    - (Condition: Without a Ring of Charos (a) equipped:)
       - **50% Luke:** ¡Es una historia tan desgarradora que hasta ahora ha arrancado los corazones de más de una docena de hombres más fuertes que tú!
       - **50% Luke:** Una historia de tal aflicción que nadie excepto los corazones más pétreos puede escucharla sin derramar una sola y conmovedora lágrima...
       - **50% Luke:** ¡Y nunca te lo diré, ni siquiera si usaras un objeto, como un anillo, con poderes de control mental!
@@ -36,7 +36,7 @@
       - **50% Luke:** Hmmmm... bueno, está bien...
       - **50% Luke:** ¡Espera, no!
       - **50% Luke:** ¡Vuélvete marinero de tierra firme antes de que lleve mi pie astillado hacia atrás!
-    - (Condition: Con un Ring of Charos (a) equipado:)
+    - (Condition: With a Ring of Charos (a) equipped:)
       - **50% Luke:** Bueno, pareces un [lad/lass] que puede manejar una historia así... así que te lo diré...
       - **50% Luke:** Bueno, todo comienza con este albatros...
       - **50% Luke:** Espera, no importa, avanzaré un poco.

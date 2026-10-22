@@ -11,12 +11,12 @@
 
 ### Talk to
 
-- (Condition: Si el player está dentro de un traje de relojería:)
+- (Condition: If the player is inside a clockwork suit:)
   - **Player:** ¡Hola Jim!
   - **Jim:** ¿Qué crees que estás haciendo? Vas a arruinar tu tapadera. Déjame sacarte ese traje.
   - [Menu]: ¿Quieres quitarte el traje de pingüino?
     - [Choice]: si
-      - (Condition: Sin al menos un espacio backpack libre:)
+      - (Condition: Without at least one free backpack space:)
         - **Player:** No tengo suficiente espacio para guardar mi traje de pingüino en mi mochila. Primero tendré que hacer espacio.
       - (Action: el player sale del traje de relojería y vuelve a crecer hasta su tamaño normal.)
       - (receives=a clockwork suit)
@@ -25,15 +25,15 @@
       - **Player:** No, gracias.
 - [Menu]: Selecciona una opción
   - [Choice]: Hora del esmoquin.
-    - (Condition: Con algo equipado en las ranuras de la mano principal o secundaria:)
+    - (Condition: With something equipped in the main- or off-hand slots:)
       - **Jim:** Necesitará tener las manos libres para operar el traje.
-    - (Condition: Con una capa equipada:)
+    - (Condition: With a cape equipped:)
       - **Jim:** No puedes usar una capa dentro del traje, podría quedar atrapada.
     - (Action: el player se encoge y se pone un traje de reloj.)
     - (removes=a clockwork suit (if one was present in the backpack))
     - Te encoges y te pones el traje de pingüino.
   - [Choice]: Preguntar por cotos de caza.
-    - (Condition: Primera vez que hablamos después de completar Hunt for Red Raktuber:)
+    - (Condition: First time talking after completing Hunt for Red Raktuber:)
       - **Jim:** Psst.
       - **Player:** Oh, ¿entonces puedes hablar ahora?
       - **Jim:** Siempre podría hablar. Pero no quería revelarme al enemigo.
@@ -59,15 +59,15 @@
         - [Choice]: La ignorancia es felicidad.
           - **Player:** Bien, no quiero saberlo.
           - **Jim:** Es lo mejor.
-    - (Condition: A partir de entonces:)
+    - (Condition: Thereafter:)
       - **Jim:** ¿Tiene algún agente de KGP capturado que le gustaría entregar?
       - [Menu]: Selecciona una opción
         - [Choice]: Sí.
           - **Player:** Sí, tengo algunos.
           - **Jim:** Muy bien. Déjame echar un vistazo.
-          - (Condition: Si el player no tiene ningún pingüino KGP con ellos:)
+          - (Condition: If the player doesn't have any KGP penguins with them:)
             - **Jim:** Parece que no tienes ninguno contigo.
-          - (Condition: Si el player tiene pingüinos KGP con ellos:)
+          - (Condition: If the player does have KGP penguins with them:)
             - **Jim:** La PBJ te agradece tu ayuda.
         - [Choice]: No.
           - **Player:** No, no tengo ninguno para ti en este momento.
@@ -79,9 +79,9 @@
 
 ### Tuxedo-Time
 
-- (Condition: Mientras no esté dentro de un traje de relojería:)
+- (Condition: While not inside a clockwork suit:)
   - (above|tuxedo-time)
-- (Condition: Mientras está dentro de un traje de relojería:)
-  - (Condition: Sin al menos un espacio libre en el backpack:)
+- (Condition: While inside a clockwork suit:)
+  - (Condition: Without at least one free space in the backpack:)
     - No tienes suficiente espacio en tu inventario para quitarte el traje.
   - (above|exit-suit)

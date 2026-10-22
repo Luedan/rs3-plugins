@@ -9,11 +9,11 @@
 ## Dialogue Transcript
 
 {{transcript npc|Ani (farming merchant)}}
-- ((Antes de descubrir todo Arc berries:))
+- ((Before discovering all Arc berries:))
   - **Ani (comerciante agrícola):** ¡Humano, dame tus semillas!
   - (continue|options)
-- ((Después de descubrir todo Arc berries:))
-  - ((Antes de desbloquear la recompensa:))
+- ((After discovering all Arc berries:))
+  - ((Before unlocking the reward:))
     - **Ani (comerciante agrícola):** ¡Humano! ¡He oído que eres un maestro cultivador de bayas!
     - **Player:** ¿Ah?
     - **Ani (comerciante agrícola):** ¡Hakase me dijo que hiciste polinización cruzada para encontrar los 16 tipos de bayas jamás documentadas en esta región!
@@ -21,19 +21,19 @@
     - **Ani (comerciante agrícola):** ¡Tus Musaberries son deliciosas! Incluso lograste cultivar Stoneberries, ¡están extintas desde hace cientos de años!
     - **Player:** ¿Extinto...? Encontré algunas semillas y las planté.
     - **Ani (comerciante agrícola):** ¡Oh ho ho! Tan humilde. ¡Permíteme regalarte esta lámpara de experiencia como recompensa!
-    - ((Sin espacio en backpack:))
+    - ((With no space in backpack:))
       - **Ani (comerciante agrícola):** ¡Tu backpack está lleno, humano! Hablame de nuevo cuando esté un poco más vacío.
-    - ((Con espacio en backpack:))
+    - ((With space in backpack:))
       - (receives=Farming XP lamp (Ani))
-      - ((Si se han obtenido todas las lámparas de la colección Arc:))
+      - ((If all of the Arc collection lamps have been obtained:))
         - ¡Felicitaciones! Has completado: 'Recompensas del Arco': recoge tus recompensas por completar todas las colecciones de Arco.
         - (continue)
       - **Ani (comerciante agrícola):** Te diré una cosa, humano. También cuidaré tus arbustos de bayas cuando no estés y te garantizaré una mayor producción de berries y experiencia.
       - **Player:** ¡Oh, gracias!
       - Ahora recibirás un 10% adicional de berries y experiencia de los arbustos de bayas que cultives.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - Ahora recibirás un 10% adicional de berries y experiencia de los arbustos de bayas que cultives.
-  - ((Después de desbloquear la recompensa:))
+  - ((After unlocking the reward:))
     - **Ani (comerciante agrícola):** ¡Es la extraordinaria horticultura humana! ¿Tienes semillas?
     - (continue|options)
 - [Menu]: Elige una opción:{{anchor|options}}

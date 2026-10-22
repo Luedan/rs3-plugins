@@ -16,31 +16,31 @@
 - [Menu]: Elige una opción:
   - [Choice]: ¿Tienes algo para intercambiar?
     - **Player:** ¿Tienes algo para intercambiar?
-    - (Condition: Antes de completar ¡Se busca! misión, o en un mundo gratuito:)
+    - (Condition: Before completing the Wanted! quest, or on a free-to-play world:)
       - **Sir Vyvin:** No, lo siento.
-    - (Condition: Después de completar ¡Se busca! misión, pero el player no está clasificado:)
+    - (Condition: After completing the Wanted! quest, but the player is unranked:)
       - **Sir Vyvin:** Bueno, tal vez sí, pero debes demostrar que eres digno como Caballero Blanco antes de que te venda algo.
       - **Player:** ¿Y cómo puedo hacer eso?
       - **Sir Vyvin:** ¡Mata a Black Knights y asegúrate de no matar a ningún Caballero Blanco!
       - **Player:** Bueno, entonces está bien.
-    - (Condition: Después de completar ¡Se busca! misión, y el player está clasificado:)
+    - (Condition: After completing the Wanted! quest, and the player is ranked:)
       - **Sir Vyvin:** ¡Bueno, por supuesto! <br>I ¡Después de todo, soy el armero de los Caballeros Blancos!
-      - (Condition: Si el player está en el nivel "Principiante":)
+      - (Condition: If the player is at "Novice" level:)
         - **Sir Vyvin:** Actualmente estás en el nivel Novato dentro de los Caballeros Blancos, por lo que tu acceso al equipo es limitado.
         - (continue)
-      - (Condition: Si el player está en el nivel "Peón":)
+      - (Condition: If the player is at "Peon" level:)
         - **Sir Vyvin:** Estás en el nivel Peón dentro de los Caballeros Blancos, así que me temo que no hay mucho para elegir.
         - (continue)
-      - (Condition: Si el player está en el nivel "Página":)
+      - (Condition: If the player is at "Page" level:)
         - **Sir Vyvin:** Has alcanzado el nivel de página, eso demuestra un poco de dedicación, ¿sabes? <br>¡Tu equipo disponible reflejará eso!
         - (continue)
-      - (Condition: Si el player está en el nivel "Noble":)
+      - (Condition: If the player is at "Noble" level:)
         - **Sir Vyvin:** ¡Y puedo decir que es un placer servir a cualquier Caballero que haya alcanzado el nivel Noble!
         - (continue)
-      - (Condition: Si el player está en el nivel "Adepto":)
+      - (Condition: If the player is at "Adept" level:)
         - **Sir Vyvin:** ¡Y es muy raro que vea a un Caballero Blanco que haya alcanzado el nivel de Adepto!
         - (continue)
-      - (Condition: Si el player está en el nivel "Maestro":)
+      - (Condition: If the player is at "Master" level:)
         - **Sir Vyvin:** Y para que un Caballero Blanco dedicado haya alcanzado el nivel Maestro como tú, ¡solo obtienes lo mejor de todos los equipos disponibles!
         - (continue)
       - (opens=White Knight Master Armoury)

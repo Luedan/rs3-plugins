@@ -8,15 +8,15 @@
 
 ## Dialogue Transcript
 
-
 ### Standard dialogue
-
-- (Condition: Antes del Restless Ghost:)
+- (Condition: Before The Restless Ghost:)
   - **Father Aereck:** Bienvenido a la iglesia del santo Saradomin.
   - (continue)
-- (Condition: Después del Restless Ghost:)
+- (Condition: After The Restless Ghost:)
   - **Father Aereck:** ¡Bienvenido de nuevo a la iglesia del santo Saradomin, amigo mío! ¿Qué puedo hacer por ti hoy?
   - (continue)
+- **Father Aereck:** Si encuentras huesos o cenizas en tus aventuras, no dudes en ofrecerlos en este altar. La luz de Saradomin te recompensará con mayor conocimiento por cada uno ofrecido.
+- (continue)
 - [Menu]: ¿Qué te gustaría decir?
   - [Choice]: cond=With a construction contract for Father Aereck:|Pregunta por tu construction contract.
     - [Menu]: Selecciona una opción
@@ -30,10 +30,21 @@
       - [Choice]: [Leave]
         - (end)
   - [Choice]: cond=Before The Restless Ghost:|¡Estoy buscando una misión! {{anchor|quest}}
-    - (ver|El Restless Ghost)
+    - **Father Aereck:** Qué suerte, necesito que alguien haga una misión para mí.
+    - (opens=Quest Overview)
+      - [Choice]: Ahora no
+        - **Father Aereck:** Oh, bueno. Si tienes algo de tiempo libre, regresa y habla conmigo.
+      - [Choice]: Aceptar misión
+        - **Father Aereck:** Gracias. El problema es que hay un fantasma en el cementerio justo al sur de esta iglesia. Me gustaría que te deshagas de él.
+        - **Father Aereck:** Necesitarás la ayuda de mi amigo, Father Urhney, que es un experto en fantasmas.
+        - **Father Aereck:** Actualmente vive en una pequeña choza en el sur de Lumbridge Swamps, cerca de la costa.
+        - **Father Aereck:** Por cierto, mi nombre es Father Aereck. Encantado de conocerte.
+        - **Player:** Igualmente.
+        - **Father Aereck:** Ten cuidado al viajar por los pantanos. Para llegar allí sólo sigue el camino hacia el sur, a través del cementerio.
+        - **Player:** Lo haré, gracias.
   - [Choice]: cond=After The Restless Ghost:|¿Puedes cambiar mi lápida ahora? {{anchor|gravestone}}
     - **Father Aereck:** Por supuesto. Todas las ganancias se donan al Fondo de Huérfanos y Viudas de los Guardias Varrockianos.
-    - (Action: Se abre la interfaz de lápida)
+    - (Action: Gravestone interface opens)
   - {{anchor|saradomin}}
   - [Choice]: ¿Quién es Saradomin?
     - **Father Aereck:** ¿Seguro que has oído hablar de nuestro dios, Saradomin?
@@ -53,7 +64,7 @@
             - **Father Aereck:** Bueno, puedo verlo. Aún así, hay algo especial en ti.
             - **Player:** Gracias, creo.
           - [Choice]: ¡Lo soy! ¿Te gusta mi disfraz?
-            - **Father Aereck:** ¡Argh! ¡Criatura asquerosa y audaz de otra dimensión! ¡Avaunt! ¡Vete en nombre de Saradomin!
+            - **Father Aereck:** ¡Argh! ¡Criatura asquerosa y audaz de otra dimensión! ¡Avaunt! ¡Vete en nombre de Saradomin!
             - **Player:** Está bien, está bien, ¡solo estaba bromeando!
       - [Choice]: ¿Puedes hablarme sobre el campo de batalla?
         - (continue|battlefield)
@@ -62,24 +73,24 @@
   - [Choice]: cond=With a clay ring:|¿Puedes bendecir mi anillo?
     - **Father Aereck:** Ah, ¿deseas mostrar tu devoción por Saradomin dedicándole un anillo? Muy bien, sería un placer ayudarte.
     - (removes=clay ring) (receives=ring of devotion)
-    - (Condition: Si el logro Bless Is More no se ha completado:)
-      - {{RSFontAchievement|Bless Is More}}
+    - (Condition: If the Bless Is More achievement hasn't been completed:)
+      - (Action: Bless Is More)
       - (continue)
     - [Father Aereck inscribe el símbolo de Saradomin en la cara del sello de su anillo y ofrece una breve bendición sobre él.]
-  - [Choice]: ¿Puedes hablarme sobre el cráter? {{anchor|battlefield}}
+  - [Choice]: ¿Puedes hablarme sobre el campo de batalla? {{anchor|battlefield}}
     - **Father Aereck:** Ah, Lumbridge Battlefield: ¡el sitio del regreso de Saradomin! ¡Ese fue un día trascendental para la iglesia y yo estuve allí!
     - **Father Aereck:** En una batalla titánica que duró meses, el poderoso Saradomin hizo retroceder a las fuerzas de Zamorak al inframundo al que pertenecen.
     - **Father Aereck:** Y ahora que Saradomin está aquí, podemos estar seguros de que estaremos a salvo bajo su protección divina.
     - **Father Aereck:** ¡Todos los elogios para Saradomin!
-
 ### Historical dialogue during the Battle of Lumbridge
-
-- (Condition: Antes del Restless Ghost:)
+- (Condition: Before The Restless Ghost:)
   - **Father Aereck:** Bienvenido a la iglesia del santo Saradomin.
   - (continue)
-- (Condition: Después del Restless Ghost:)
+- (Condition: After The Restless Ghost:)
   - **Father Aereck:** ¡Bienvenido de nuevo a la iglesia del santo Saradomin, amigo mío! ¿Qué puedo hacer por ti hoy?
   - (continue)
+- **Father Aereck:** Si encuentras huesos o cenizas en tus aventuras, no dudes en ofrecerlos en este altar. La luz de Saradomin te recompensará con mayor conocimiento por cada uno ofrecido.
+- (continue)
 - [Menu]: ¿Qué te gustaría decir?
   - [Choice]: ¡Estoy buscando una misión!
     - (above|quest)
@@ -91,3 +102,21 @@
     - (above|place)
   - [Choice]: ¿Puedes hablarme sobre el campo de batalla?
     - **Father Aereck:** ¡El campo de batalla de Lumbridge es donde el propio Saradomin está luchando actualmente contra Zamorak! ¡Gracias a Dios que está aquí! Si no hubiera aparecido cuando lo hizo, ¡ahora todos seríamos esclavos de Zamorak! Pero vino a nosotros desde muy lejos en nuestro momento de necesidad, e incluso ahora lucha contra el mal en Lumbridge Battlefield. Oh, debes estar de camino al campamento de guerra de Saradomin para poder ayudar. Está al noroeste de aquí. ¡No podemos dejar que el mal venza! ¡Buena suerte! ¡Y que Saradomin esté contigo!
+### During The Restless Ghost
+- **Father Aereck:** ¿Ya te has deshecho del fantasma?
+- **Player:** ¿Cómo se suponía que debía hacer eso?
+- **Father Aereck:** Bueno, deberías ir a buscar a Father Urhney, ya que sabe todo sobre fantasmas.
+- **Father Aereck:** Puedes llegar al pantano en el que vive yendo hacia el sur a través del cementerio.
+- **Father Aereck:** Tendrás que dirigirte hacia el sur a través del pantano; sigue la costa y encontrarás su casa en poco tiempo.
+- **Father Aereck:** ¿Ya te has deshecho del fantasma?
+- **Player:** Tuve una conversación con Father Urhney. Me ha dado un amuleto curioso para hablar con fantasmas.
+- **Father Aereck:** Siempre me pregunté qué era ese amuleto. Bueno, espero que sea útil. Avísame cuando te deshagas del fantasma.
+- **Father Aereck:** Eso lo explicaría. Mmm. Bueno, no he visto ninguna calavera.
+- **Father Aereck:** Odio a los warlocks. Bueno, buena suerte.
+- **Father Aereck:** ¡Genial! Ponlo en el ataúd del fantasma y mira qué pasa.
+- **Father Aereck:** No te preocupes, seguro que lo encuentras de nuevo.
+- **Father Aereck:** ¡No lo quiero! Mételo en el ataúd y mira qué pasa.
+- **Father Aereck:** Hola. Oye, tú eres quien se deshizo de ese fantasma. Quería recompensarte para agradecerte por ayudar.
+- **Father Aereck:** Te has deshecho de ese fantasma, ¿verdad?
+- **Father Aereck:** Muchas gracias. No tengo mucho dinero, así que no puedo pagarte, pero podría mejorar tu lápida.
+- **Father Aereck:** Sí, la lápida que aparece cuando mueres. Si vas a un lugar peligroso, a menudo descubrirás que la gente ha muerto allí y verás sus lápidas. La mayoría de las personas tienen diseños muy sencillos, pero puedo mejorarte con un mejor diseño.

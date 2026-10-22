@@ -33,9 +33,9 @@
 
 - [Menu]: ¿Darle a Assistant Le Smith todo tu logs?
   - [Choice]: Entrega tu logs
-  - (Condition: Si el player tiene logs para entregar:)
+  - (Condition: If the player has logs to hand over:)
     - **Assistant Le Smith:** ¡Gracias! Ahora tienes cargos [número].
-  - (Condition: Si el player no tiene logs para entregar:)
+  - (Condition: If the player has no logs to hand over:)
     - **Assistant Le Smith:** No tienes ningún logs que pueda almacenar. Tienes cargos [número].
   - [Choice]: Cancelar
     - (end)

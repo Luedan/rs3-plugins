@@ -14,14 +14,14 @@
 
 #### Normalmente
 
-- ((Sólo la primera vez:))
+- ((Only on first time:))
   - **Etta Stone:** ¡Hola!
   - **Player:** ¿Qué está pasando? La última vez que estuve aquí, ¡todo estaba intacto!
   - **Etta Stone:** Ah, bueno, verás... Aparentemente hubo un terremoto. ¡Todo el Duel Arena, simplemente destruido!
   - **Player:** ¡Qué horrible!
   - **Etta Stone:** De hecho. Mi equipo y yo estamos ayudando a los locales a recuperar y restaurar lo que podamos.
   - (continue)
-- ((Sólo después de la primera vez:))
+- ((Only after the first time:))
   - **Etta Stone:** Hola, Player.
   - (continue)
 - **ELIGE UNA OPCIÓN:**
@@ -30,7 +30,7 @@
     - **Etta Stone:** Desafortunadamente se produjo un devastador terremoto alrededor de lo que era el Duel Arena, convirtiéndolo en escombros y ruinas.
     - **Etta Stone:** Todos en el área están contribuyendo para ayudar a recuperar lo que podamos y para restaurar el área y convertirla en un oasis de vida y belleza.
     - (previous)
-  - ((Sólo durante el evento Restauración del Oasis:))
+  - ((Only during the Oasis Restoration event:))
     - ¿Qué puedo hacer para ayudar?
       - **Player:** ¿Qué puedo hacer para ayudar?
       - **Etta Stone:** En este momento, estamos tratando de desbloquear ese cofre pesado que está allí... Lo encontramos mientras buscábamos artefactos en las ruinas. Pero está resultando un poco más difícil de lo que esperábamos.
@@ -61,13 +61,13 @@
 - **Player:** Tal vez, pero solo una visita rápida a usted primero para completar esta tarea...
 - **Etta Stone:** Ah, ¿quieres mi firma? ¡Ja! ¡Debo ser famoso! Mamá y papá estarían orgullosos.
 - {{RSFontAchievement|It's Not Time to Duel|Talk to Etta Stone in front of Het's Oasis, north of Al Kharid.}}
-- ((Se muestra en una ventana emergente de finalización de tarea:))
+- ((Shown in a task completion pop-up:))
   - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
   - No es momento de batirse en duelo
   - Habla con Etta Stone frente a Het's Oasis, al norte de Al Kharid.
   - (continue)
 - **Player:** ¡Gracias! Sigue con el buen trabajo, Etta.
-- (Condition: Si se han completado todas las tareas:)
+- (Condition: If all the tasks have been completed:)
   - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!
 
 #### Durante el evento de Restauración del Oasis
@@ -82,9 +82,9 @@
 - **SELECCIONA UNA OPCIÓN**
   - Claro, los llevaré al museo.
     - **Etta Stone:** Fantástico, solo tendrás que entregárselos the curator.{{Sic}}
-    - ((Sin espacio en backpack:))
+    - ((Without space in backpack:))
       - **Etta Stone:** Dios mío, parece que ya estás sobrecargado. Cuando tengas algo de espacio libre en tu backpack ven a hablar conmigo de nuevo.
-    - ((Con espacio en backpack:))
+    - ((With space in backpack:))
       - (receives=research items)
       - Recibes un paquete lleno de trozos de cerámica rotos.
       - **Etta Stone:** ¡Muchas gracias!

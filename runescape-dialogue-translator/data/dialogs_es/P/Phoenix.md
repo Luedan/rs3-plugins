@@ -31,7 +31,7 @@
     - **Phoenix:** (En todas sus visitas, lo único que hacía era mirar a su alrededor y tomar notas; observarme mientras hacía mis asuntos; y estudiar a mis tutores mientras se ocupaban de los suyos).
     - **Phoenix:** (Supongo que me ofendí porque me quitó mi colección de antigüedades, pero a cambio me proporcionó un hermoso santuario y un tapiz. Así que estoy contento. Je, je.)
     - **Phoenix:** (¿Había algo sobre lo que quisieras preguntar?)
-  - ((Sólo aparece si has encontrado un huevo Phoenix:))
+  - ((Only appears if you have found a Phoenix eggling:))
     - Me perdí al salir y...
       - **Player:** Me perdí al salir y-
       - **Phoenix:** (¿Encontraste mi cámara de óvulos?)
@@ -57,7 +57,7 @@
       - **Phoenix:** (Deja que mi hijo vea el mundo, pero enséñale a temer el peligro. No quiero que acabe muerto como Si'morgh, o como un ermitaño asustado como yo.)
       - **Player:** Haré lo mejor que pueda.
       - **Phoenix:** (Gracias, Player.)
-  - ((Sólo después de terminar la conversación anterior:))
+  - ((Only after finishing the above conversation:))
     - ¿Quién era Si'morgh?
       - **Player:** ¿Quién era Si'morgh? No tienes que decírmelo si no quieres.
       - **Phoenix:** (Está bien, Player. No hay mucho que contar. Le debo mi vida a él, al igual que a ti.)

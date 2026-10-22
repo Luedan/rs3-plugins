@@ -16,8 +16,8 @@
 ### Collecting reward
 
 - El espíritu del fuego te recompensará con Firemaking XP extra para el próximo [número] logs.
-- (Condition: Sin espacio suficiente para la recompensa en el backpack:)
+- (Condition: Without sufficient space for the reward in the backpack:)
   - Capturas el espíritu del fuego bendito y lo llevan a tu banco.
-- (Condition: De lo contrario:)
+- (Condition: Otherwise:)
   - (receives=a fire spirit)
   - Capturas el espíritu del fuego bendito y lo colocas en tu backpack.

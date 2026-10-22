@@ -61,9 +61,9 @@
 - **Aris:** Tienes que tomarte esto con calma: usaste un anillo de la suerte la última vez, y esta vez deberías usar un Anillo de la riqueza, completamente cargado, por supuesto.
 - **Player:** Correcto. Universo explotando, hay que tener cuidado...
 - **Aris:** ¿Qué? No, simplemente no seas tacaño.
-- ((Si no hay un Anillo de riqueza completamente cargado en el inventario:))
+- ((If a fully charged Ring of Wealth is not in the inventory:))
   - **Player:** Bueno, supongo que será mejor que consiga un anillo de la suerte para este hand of glory.
-- ((Si hay un Anillo de riqueza completamente cargado en el inventario:))
+- ((If a fully charged Ring of Wealth is in the inventory:))
   - [Menu]: ¿Colocar anillo de la suerte en hand of glory?
     - [Choice]: Sí.
       - [Menu]: ¿Estás seguro de que uno o ambos artículos son comercializables?
@@ -90,9 +90,9 @@
 - **Player:** Está bien. Lo siento de nuevo. ¡Adiós!
 - **Player:** ...
 - **Player:** No, creo que se ha ido.
-- ((Si un Anillo de la Fortuna no está en el inventario:))
+- ((If a Ring of Fortune is not in the inventory:))
   - **Player:** Bueno, supongo que será mejor que consiga un anillo de la suerte para este hand of glory.
-- ((Si hay un Anillo de la Fortuna en el inventario:))
+- ((If a Ring of Fortune is in the inventory:))
   - ¿Colocar anillo de la suerte en hand of glory?
     - Sí.
       - ¿Estás seguro de que uno o ambos artículos son comercializables?
@@ -126,9 +126,9 @@
 - **Player:** Te tengo. Este es el último de ellos. De nuevo, perdón por molestarte. Adiós.
 - **Aris:** Adiós. ¡Toda la suerte!
 - **Aris:** Ahora, Meg, ¿dónde estábamos?
-- ((Si una Suerte de los Enanos no está en el inventario:))
+- ((If a Luck of the Dwarves is not in the inventory:))
   - **Player:** Bueno, supongo que será mejor que consiga un anillo de la suerte para este hand of glory.
-- ((Si hay una Suerte de los Enanos en el inventario:))
+- ((If a Luck of the Dwarves is in the inventory:))
   - **¿Colocar anillo de la suerte en hand of glory?**
     - Sí.
       - **¿Estás seguro? ¿Uno o ambos artículos son intercambiables?**

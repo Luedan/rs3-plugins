@@ -17,17 +17,17 @@
 
 #### Hablando con Lige Tonweight
 
-- (Condition: Si el player tiene espacio backpack:)
+- (Condition: If the player has backpack space:)
   - (receives=a ceremonial sword design)
   - **Lige Tonweight:** Tengo algunos planos de espadas ceremoniales aquí para ti.
   - (Action: Lige desaparece.)
-- (Condition: Si el player no tiene espacio backpack:)
+- (Condition: If the player has no backpack space:)
   - **Lige Tonweight:** Tengo algunos planes guardados para ti, pero no tienes espacio en tu backpack. Consigue algo de espacio y te los daré.
 
 ### Upon completion of a ceremonial sword
 
 - (Action: Lige aparece junto a el player.)
-- ((Si la espada completa coincide exactamente con el plan:))
+- ((If the completed sword exactly matches the plan:))
   - Esta espada ahora está perfecta y no requiere más trabajo.
   - Por producir una espada perfecta, recibirás el 120% de la experiencia normal. ¡Excelente trabajo!
 - **Lige Tonweight:** ¿Te gustaría tener esa espada que hiciste?

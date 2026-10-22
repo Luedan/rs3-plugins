@@ -34,7 +34,7 @@
 
 #### Gastos generales
 
-- ((Ocasionalmente ocurre lo siguiente:))
+- ((The following occurs occasionally:))
   - **Nic the trader:** {{RSChat|My wares seek an owner}}
 
 ### Golden Partyhat Hunt
@@ -80,7 +80,7 @@
 
 ##### Interacciones
 
-- ((Como antes.))
+- ((As before.))
 
 #### agosto de 2022
 
@@ -111,7 +111,7 @@
 
 ##### Sobrecarga
 
-- ((Ocasionalmente ocurre uno de los siguientes:))
+- ((One of the following occurs occasionally:))
   - **Nic the trader:** {{RSChat|Hey, you! Come see my offers!}}
   - **Nic the trader:** {{RSChat|Pockets feeling heavy? Let me lighten the load!}}
   - **Nic the trader:** {{RSChat|Take a look at my wares - before they're gone!}}
@@ -140,16 +140,16 @@
     - **Nic the trader:** Entonces, ¿quieres venderme tu Doble XP?
     - **¿QUIERES CONVERTIR 1 HORA DE DOBLE XP POR 250 CRÉDITOS?**
       - Sí.
-        - ((Con al menos una hora restante:))
-          - ((Por primera vez del día:))
+        - ((With at least an hour of time remaining:))
+          - ((For the first time of the day:))
             - (Action: Una hora de doble XP se intercambia por 250 créditos.)
             - Nic toma 1 hora de tu Doble XP y entrega 250 créditos.
             - **Nic the trader:** ¡Qué bueno hacer negocios contigo!
-          - ((Después de la primera hora del día:))
+          - ((After the first time of the day:))
             - Ya has intercambiado Doble XP hoy.
-        - ((Con menos de una hora restante pero más de una hora para que finalice el evento Double XP Live:))
+        - ((With less than an hour of time remaining but more than an hour to end of the Double XP Live event:))
           - No te queda suficiente tiempo para canjear por créditos.
-        - ((Cuando queda menos de una hora del evento Double XP Live:))
+        - ((With less than an hour of the Double XP Live event remaining:))
           - No puedes intercambiar Doble XP ahora.
       - No.
         - **Nic the trader:** Vuelve si cambias de opinión.
@@ -168,7 +168,7 @@
 
 ##### Sobrecarga
 
-- ((Ocasionalmente ocurre uno de los siguientes:))
+- ((One of the following occurs occasionally:))
   - **Nic the trader:** {{RSChat|Hey, you! Come see my offers!}}
   - **Nic the trader:** {{RSChat|Pockets feeling heavy? Let me lighten the load!}}
   - **Nic the trader:** {{RSChat|Take a look at my wares - before they're gone!}}

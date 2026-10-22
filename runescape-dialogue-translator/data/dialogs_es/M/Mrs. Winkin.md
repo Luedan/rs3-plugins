@@ -23,16 +23,16 @@
   - [Choice]: ¿Tienes alguna bandera?
     - **Player:** ¿Tienes alguna bandera?
     - **Mrs. Winkin:** Déjame comprobarlo por ti.
-    - (Condition: Si es la primera vez:)
+    - (Condition: If it is the first time:)
       - **Farmer Blinkin:** ¡Oh, debes ser nueva, querida! Siempre es bueno ver una cara nueva. Normalmente cobramos por las banderas, ya que muchas se pierden, pero puedes tener el primer juego gratis.
       - **Player:** ¡Vaya, gracias!
       - **Farmer Blinkin:** Ahora, recuerda: si plantas las banderas en cualquier lugar que no tenga semillas, perderás tu bandera, y no es barato volver a comprármelas. Aquí tienes, entonces.
       - (receives=10 flags)
       - **Player:** ¡Muchas gracias! Entonces me voy.
       - **Farmer Blinkin:** Adiós.
-    - (Condition: Si el jugador tiene menos de 10 banderas en backpack:)
+    - (Condition: If player has less than 10 flags in the backpack:)
       - **Mrs. Winkin:** ¡Ah! Lo primero es lo primero. Uno de los granjeros te dejó algunas banderas. Puedes recuperarlos. Aquí tienes.
-    - (Condition: Si el jugador todavía tiene menos de diez banderas en backpack, sustituya [price] por (10 - (# de banderas en backpack) * 500):)
+    - (Condition: If player still has less than ten flags in the backpack, substitute [price] with (10 - (# of flags in the backpack) * 500):)
       - **Mrs. Winkin:** Muy bien. Puedes tener un total de 10 banderas. Obtener un conjunto completo de banderas le costará [price] coins. ¿Quieres comprar estas banderas?
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, por favor.
@@ -42,9 +42,9 @@
         - [Choice]: No, gracias.
           - **Player:** No, gracias.
           - **Mrs. Winkin:** Está bien, querida. Adiós.
-    - (Condition: Si el jugador tiene 10 banderas en backpack:)
+    - (Condition: If player has 10 flags in the backpack:)
       - **Mrs. Winkin:** Parece que tienes todas las banderas que necesitas. No necesitas comprar más.
-    - (Condition: Si el jugador le pide banderas por primera vez:)
+    - (Condition: If player ask him for flags for the first time:)
       - **Mrs. Winkin:** ¡Oh, debes ser nueva, querida! Siempre es bueno ver una cara nueva. Normalmente cobramos por las banderas, ya que muchas se pierden, pero puedes tener el primer juego gratis.
       - **Player:** ¡Vaya, gracias!
       - **Mrs. Winkin:** Ahora, recuerda: si plantas las banderas en cualquier lugar que no tenga semillas, perderás la bandera, y no es barato volver a comprarlas. Aquí tienes, entonces.

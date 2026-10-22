@@ -64,12 +64,12 @@
 ##### Con al menos 70 Archaeology
 
 - **Gee'ka:** ¿Cómo lidias con estar parado todo el tiempo? Anhelo estar en los cielos...
-- ((Si es la primera vez que hablas con Gee'ka después de alcanzar el nivel 70 Archaeology, Guildmaster Tony te narrará lo siguiente:))
+- ((If this is your first time talking to Gee'ka after reaching level 70 Archaeology, Guildmaster Tony will narrate the following:))
   - El uso de ciudadelas flotantes por parte de los aviansie ya es bien conocido, gracias al resurgimiento de su uso como ciudadelas de clan.
   - Sin embargo, Stormguard, al parecer, era un secreto increíblemente bien guardado para ser redescubierto recién ahora, muchos años después.
   - ¿Qué secretos ha guardado durante todo este tiempo, flotando sobre nuestras cabezas? ¿Qué maravillas podría contener?
   - El monolito no tiene más información para compartir aquí. Stormguard es un misterio incluso para él... y quiere aprender.
-- ((Si es la primera vez que hablas con Gee'ka después de completar el Taller flotante de Howl, Guildmaster Tony te narrará lo siguiente:))
+- ((If this is your first time talking to Gee'ka after completing Howl's Floating Workshop, Guildmaster Tony will narrate the following:))
   - Stormguard era la instalación secreta de investigación, desarrollo y prueba de armas de Armadyl, dentro de la cual se forjó la espada divina.
   - Su presencia está envuelta en secreto, junto con una nube de tormenta que la encubre, y siempre moviéndose por los cielos para proteger su existencia.
   - Sus muchos secretos se perdieron en el tiempo, cuando la ciudadela quedó dividida por la explosión de Forinthy y sus restos quedaron a la deriva.
@@ -92,30 +92,30 @@
     - **Player:** ¡La historia espera que la desenterremos!
     - (previous)
   - [Choice]: Quiero hablar de misterios.
-    - ((Sin misterios descubiertos:))
+    - ((With no mysteries uncovered:))
       - **Gee'ka:** El único misterio en este momento es cómo llegamos al Stormguard Citadel...
-    - ((Si sólo se ha descubierto un misterio:))
-      - ((Como se muestra a continuación después de la elección.))
-    - ((Si se han descubierto varios misterios:))
+    - ((If only one mystery has been uncovered:))
+      - ((As below after the choice.))
+    - ((If multiple mysteries have been uncovered:))
       - ¿Qué misterio te gustaría discutir?
         - Salto de fe.
           - {{Main|Transcript:Leap of Faith (Archaeology achievement)#Gee'ka}}
-        - ((Sólo después de descubrir Wing Out!:))
+        - ((Only after uncovering Wing Out!:))
           - ¡Ala fuera!
             - {{Main|Transcript:Wing Out#Gee'ka}}
-        - ((Sólo después de descubrir el Taller Flotante de Howl:))
+        - ((Only after uncovering Howl's Floating Workshop:))
           - Taller flotante de Howl
             - {{Main|Transcript:Howl's Floating Workshop#Gee'ka}}
         - [Más opciones]
-          - ((Si tan solo se hubiera descubierto otro misterio:))
-            - ((Como se muestra a continuación después de la elección.))
-          - ((Si se han descubierto varios misterios:))
+          - ((If only one other mystery has been uncovered:))
+            - ((As below after the choice.))
+          - ((If multiple mysteries have been uncovered:))
             - ¿Qué misterio te gustaría discutir?
               - Expiación.
                 - {{Main|Transcript:Atonement#Gee'ka}}
               - El espía que amaba el metal.
                 - {{Main|Transcript:The Spy Who Loved Metal#Gee'ka}}
-              - ((Sólo después de descubrir Un estudio en éter:))
+              - ((Only after uncovering A Study in Aether:))
                 - Un estudio en éter
                   - {{Main|Transcript:A Study in Aether#Gee'ka}}
   - [Choice]: Adiós.

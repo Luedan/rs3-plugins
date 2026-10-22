@@ -12,7 +12,7 @@
 - ** Squire (novato): ** Hola, ¿en qué puedo ayudarte?
 - *Seleccione una opción*
   - ¿Quién eres?
-    - ((En condiciones desconocidas:))
+    - ((Under unknown conditions:))
       - ** Squire (novato): ** Soy un Squire de los Void Knights.
       - ** Player: ** ¿El quién?
       - ** Player: ** Ya veo. Bueno, sigue con el buen trabajo.
@@ -41,7 +41,7 @@
         - ¿Qué es 'Gielinor'?
         - (arriba2)
         - Ajá, claro.
-    - ((En condiciones desconocidas:))
+    - ((Under unknown conditions:))
       - ** Player: ** ¿Quién eres?
       - ** Squire (Novicio): ** Soy un escudero de Void Knight, mi señor.
       - ** Player: ** Ya veo. Bueno, sigue con el buen trabajo.

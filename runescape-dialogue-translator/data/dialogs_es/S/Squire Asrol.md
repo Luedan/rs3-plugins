@@ -42,7 +42,7 @@
 
 ### Task System
 
-- (Condition: Si se completaron los logros de Hard Falador y no se reclamaron las recompensas:)
+- (Condition: If the Hard Falador achievements have been completed and the rewards not claimed:)
   - **Player:** He venido por mi recompensa.
   - **Squire Asrol:** Entonces, has terminado las tareas difíciles, ¡bien hecho! Creo que las felicitaciones son necesarias.
   - **Squire Asrol:** Tienes razón.
@@ -59,17 +59,17 @@
   - **Player:** ¡Esto no es una tetera, es una lámpara mágica!
   - **Squire Asrol:** Ah. Eso explicaría muchas cosas...
   - (continue)
-- (Condition: Si se completaron los logros de élite de Falador y no se reclamaron las recompensas:)
+- (Condition: If the elite Falador achievements have been completed and the rewards not claimed:)
   - {{transcript missing}}
   - (continue)
-- (Condition: Si el player ha perdido su escudo Falador 3:)
+- (Condition: If the player has lost their Falador shield 3:)
   - **Squire Asrol:** ¿Dónde está el escudo que te di, Player?
   - **Player:** Lo perdí, no estoy seguro de dónde.
   - **Squire Asrol:** Por suerte, tengo uno de repuesto. Cuídalo mejor la próxima vez.
   - [El escudero te entrega un escudo nuevo.]
   - (receives=Falador shield 3)
   - (continue)
-- (Condition: Si el player ha perdido su escudo Falador 4:)
+- (Condition: If the player has lost their Falador shield 4:)
   - **Player:** He perdido mi escudo.
   - **Squire Asrol:** ¿Qué? ¡Ese era un equipo valioso!
   - **Squire Asrol:** Por suerte, tengo uno de repuesto. Cuídalo mejor la próxima vez.
@@ -137,11 +137,11 @@
 ### Treasure Trails
 
 - (removes=the old clue scroll (easy))
-- ((Si el rastro continúa:))
+- ((If the trail continues:))
   - (receives=a new clue scroll (easy))
   - [Squire Asrol te ha dado tu siguiente pergamino de pistas.]
   - (continue)
-- ((Si el sendero termina:))
+- ((If the trail ends:))
   - (receives=reward casket (easy))
   - [¡Has encontrado un ataúd!]
   - (continue)

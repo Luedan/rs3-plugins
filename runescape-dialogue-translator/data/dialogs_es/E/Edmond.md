@@ -26,7 +26,7 @@
 
 ### Treasure Trails
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only the first time:)
   - **Edmond:** ¿Puedo ayudarte?
   - **Player:** Posiblemente. ¿Tienes un desafío para mí?
   - **Edmond:** Sí, de hecho.
@@ -37,14 +37,14 @@
 
 - **Edmond:** Ingrese la respuesta a la pregunta.
 - Ingrese la cantidad:<br>[Input field]
-- (Condition: Cuando se le da la respuesta incorrecta:)
+- (Condition: When given the wrong answer:)
   - **Edmond:** ¿Es esa tu respuesta final? Porque me parece improbable.
-- (Condition: Cuando se le da la respuesta correcta:)
+- (Condition: When given the correct answer:)
   - (removes=the clue scroll (medium) y desplazamiento de desafío (medio))
-  - (Condition: Si el rastro continúa:)
+  - (Condition: If the trail continues:)
     - (receives=a new clue scroll (medium))
     - [¡Edmond te ha dado otro pergamino de pistas!]
-  - (Condition: Si el sendero termina:)
+  - (Condition: If the trail ends:)
     - (receives=reward casket (medium))
     - [¡Has encontrado un ataúd!]
     - **Edmond:** ¡Suena bien!

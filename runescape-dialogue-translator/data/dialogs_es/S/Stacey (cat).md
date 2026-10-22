@@ -32,14 +32,14 @@
 - **Stacey:** ¿Quieres que considere tu propuesta? En ese caso, ¡quiero que demuestres que eres un guerrero hábil!
 - **Stacey:** He oído rumores sobre una gran bestia hecha de hielo que ha reunido un ejército de guerreros congelados en una antigua ciudad enterrada bajo tierra.
 - **Stacey:** Derrota a esta bestia y consideraré tu propuesta.
-- ((Si el player tiene una muerte de Arch-Glacor:))
+- ((If the player has an Arch-Glacor kill:))
   - **Player:** ¿El Arch-Glacor? Ah, ya lo hice.
   - **Stacey:** ¿QUÉ? Quiero decir... Hrm... Quizás seas un guerrero digno después de todo.
   - **Stacey:** Muy bien, visitaré este oasis tuyo. Quizás allí haya una posibilidad de gloria.
   - Has completado: 'Impresionar al cazador' y has progresado hacia el evento Restauración del Oasis.
   - (Action: Stacey desaparece de la escena.)
   - **Stacey:** ¡Adiós guerrero!
-- ((Si el player no tiene muertes de Arch-Glacor:))
+- ((If the player has no Arch-Glacor kills:))
   - **Player:** Buscaré a este monstruo.
   - **Stacey:** Buena suerte, la necesitarás.
 

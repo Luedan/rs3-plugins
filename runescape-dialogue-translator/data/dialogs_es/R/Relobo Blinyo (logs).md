@@ -36,14 +36,14 @@
   - [Choice]: Estoy intentando encontrar los precios de logs.
     - **Player:** Estoy intentando encontrar los precios de logs.
     - **Relobo Blinyo (logs):** Entonces has llegado a la persona adecuada.
-    - ((Precios guía: se abre Logs.))
+    - ((Guide Prices: Logs opens up.))
   - [Choice]: Lo siento, necesito hacer pistas.
     - **Player:** Lo siento, necesito hacer pistas.
     - **Relobo Blinyo (logs):** ¡Está bien, un placer hablar contigo!
 
 #### Opción Info-logs
 
-- ((Precios guía: se abre Logs.))
+- ((Guide Prices: Logs opens up.))
 
 ### Overhead dialogue
 

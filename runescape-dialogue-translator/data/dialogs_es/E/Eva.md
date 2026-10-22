@@ -20,11 +20,11 @@
 
 ### Summer Skill Off
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only on first time:)
   - **Eva:** Ah, Player, que bueno verte de nuevo.
   - **Player:** ¡Hola Eva!
   - (continue)
-- (Condition: Posteriormente:)
+- (Condition: Subsequently:)
   - **Eva:** ¡Bienvenido de nuevo Player!
   - (continue)
 - [Menu]: Selecciona una opción
@@ -83,14 +83,14 @@
 
 #### Habla con
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only on first time:)
   - **Eva:** ¡Saludos Player!
   - **Eva:** ¡Bienvenido de nuevo al hoyo!
   - **Player:** ¡Me alegro de estar de regreso!
   - Esta es Eva, se quedó corta durante el Gran Herblore Runecrafting War del Summer Skill Off.
   - Ella todavía está un poco molesta por eso.
   - (continue)
-- (Condition: Posteriormente:)
+- (Condition: Subsequently:)
   - **Eva:** Player.
   - (continue)
 - [Menu]: Selecciona una opción

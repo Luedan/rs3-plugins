@@ -33,16 +33,16 @@
     - **Player:** Cuéntame más.
     - **Jardinero:** Es muy fácil de entender: tomas un tronco de cualquier tipo y un mecanismo de relojería, lo conviertes en una trampa para pájaros, lo colocas en un lugar y luego lo llenas con suficiente semilla...
     - **Jardinero:** ...vuelve un rato después y *puf*. Has atrapado algunos pájaros y, si tienes suerte, también algunos nidos de pájaros.
-    - (Condition: Antes de completar Cuando un pájaro mamá ama a un pájaro papá:)
-      - (Condition: Antes de pasar a "¿Tiene algún material de apicultura?" diálogo:)
+    - (Condition: Before completing When a Mummy Bird Loves a Daddy Bird:)
+      - (Condition: Before going through 'Do you have any beekeeping supplies?' dialogue:)
         - Estás a mitad de camino de completar: Cuando una mamá pájaro ama a un papá pájaro
-      - (Condition: Después de leer "¿Tiene algún material de apicultura?" diálogo:)
+      - (Condition: After going through 'Do you have any beekeeping supplies?' dialogue:)
         - {{RSFontAchievement|When a Mummy Bird Loves a Daddy Bird}}
-    - (Condition: Primera vez:)
+    - (Condition: First time:)
       - **Guardian:** Dado que estás tan dispuesto a ayudar, déjame comenzar con lo primero.
-      - (Condition: Sin espacio en backpack:)
+      - (Condition: Without space in backpack:)
         - **Guardián:** Pero primero querrás dejar espacio para 3 artículos en tu backpack.
-      - (Condition: Con espacio en backpack:)
+      - (Condition: With space in backpack:)
         - [pic2=Mecanismo de relojería detail.png]
         - (receives=logs, clockwork and 10 potato seeds)
         - **Jardinero:** Conviértalo en una pajarera y luego colóquelo {{fact}} en esa parcela justo al lado de la cerca.
@@ -76,10 +76,10 @@
     - **Player:** ¿Tiene algún material de apicultura a la venta?
     - **Jardinero:** ¡De hecho, sí!
     - (opens=The Birds and the Bees)
-    - (Condition: Antes de completar Cuando una mamá pájaro ama a un papá pájaro)
-      - (Condition: Antes de pasar a 'Cuénteme sobre la captura de aves'. diálogo:)
+    - (Condition: Before completing When a Mummy Bird Loves a Daddy Bird)
+      - (Condition: Before going through 'Tell me about bird trapping.' dialogue:)
         - Estás a mitad de camino de completar: Cuando una mamá pájaro ama a un papá pájaro
-      - (Condition: Después de leer 'Cuénteme sobre la captura de aves'. diálogo:)
+      - (Condition: After going through 'Tell me about bird trapping.' dialogue:)
         - {{RSFontAchievement|When a Mummy Bird Loves a Daddy Bird}}
   - [Choice]: Estoy bien por ahora.
     - **Player:** Estoy bien por ahora.

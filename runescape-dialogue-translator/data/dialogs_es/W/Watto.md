@@ -20,9 +20,9 @@
         - ¿Cuántos certificados desea intercambiar?
         - [Menu]: Selecciona una opción
           - [Choice]: uno
-            - (Condition: Si el player no tiene suficientes certificados:)
+            - (Condition: If the player doesn't have enough certs:)
               - No tienes tantos certificados.
-            - (Condition: Si el player tiene suficientes certificados:)
+            - (Condition: If the player has enough certs:)
               - Cambias tus certificados por barras.
             - (end)
           - [Choice]: dos
@@ -34,13 +34,13 @@
           - [Choice]: cinco
             - (arriba)
       - [Choice]: barra de acero
-        - ((Mismas opciones que las anteriores.))
+        - ((Same options as above.))
       - [Choice]: barra de mitril
-        - ((Mismas opciones que las anteriores.))
+        - ((Same options as above.))
       - [Choice]: barra de oro
-        - ((Mismas opciones que las anteriores.))
+        - ((Same options as above.))
       - [Choice]: barra de plata
-        - ((Mismas opciones que las anteriores.))
+        - ((Same options as above.))
   - [Choice]: Tengo algunas barras para intercambiar.
     - ¿Qué tipo de barras desea intercambiar?
     - [Menu]: Selecciona una opción
@@ -48,9 +48,9 @@
         - ¿En cuántas barras desea intercambiar?
         - [Menu]: Selecciona una opción
           - [Choice]: cinco
-            - (Condition: Si el player no tiene suficientes barras:)
+            - (Condition: If the player doesn't have enough bars:)
               - No tienes tantas barras
-            - (Condition: Si el player tiene suficientes barras:)
+            - (Condition: If the player has enough bars:)
               - Cambias tus barras por certificados
             - (end)
           - [Choice]: diez
@@ -62,13 +62,13 @@
           - [Choice]: veinticinco
             - (arriba)
       - [Choice]: barra de acero
-        - ((Mismas opciones que las anteriores.))
+        - ((Same options as above.))
       - [Choice]: barra de mitril
-        - ((Mismas opciones que las anteriores.))
+        - ((Same options as above.))
       - [Choice]: barra de oro
-        - ((Mismas opciones que las anteriores.))
+        - ((Same options as above.))
       - [Choice]: barra de plata
-        - ((Mismas opciones que las anteriores.))
+        - ((Same options as above.))
   - [Choice]: ¿Qué es un puesto de cambio de bar?
     - ¿Qué es una tienda de cambio de barras?
     - **Watto:** Puedes intercambiar tus barras aquí

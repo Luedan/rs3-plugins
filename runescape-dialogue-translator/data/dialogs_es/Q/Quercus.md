@@ -58,36 +58,36 @@
       - [Choice]: Adiós.
         - **Quercus:** Paz en equilibrio.
   - [Choice]: Habla sobre el evento actual.
-    - (Condition: Si no hay ningún campamento de Warbands actualmente en progreso:)
+    - (Condition: If there is no Warbands camp currently in progress:)
       - **Quercus:** No veo ningún campamento en Wilderness en este momento. Siento que queda alrededor de [hours and minutes] hasta el próximo evento.
       - (initial)
-    - (Condition: Si hay un campamento de Warbands a punto de comenzar dentro de un minuto:)
+    - (Condition: If there is a Warbands camp about to start within one minute:)
       - **Quercus:** No siento que no haya campamentos en Wilderness en este momento. Siento que sus fuerzas se reúnen. Estarán con nosotros en breve: ¡prepárate!
       - (initial)
-    - (Condition: Si hay un campamento de Warbands actualmente en progreso:)
-      - (Condition: Si las Bandas de Guerra están cerca de la Fortaleza de los Guerreros Oscuros:)
+    - (Condition: If there is a Warbands camp currently in progress:)
+      - (Condition: If the Warbands is near Dark Warriors' Fortress:)
         - **Quercus:** Siento un campamento al sur de la Fortaleza de los Guerreros Oscuros, no lejos de aquí.
         - (continue)
-      - (Condition: Si las Bandas de Guerra están cerca de la Isla del Dragón Rojo:)
+      - (Condition: If the Warbands is near Red Dragon Isle:)
         - **Quercus:** Siento un campamento al sureste de Red Dragon Isle.
         - (continue)
-      - (Condition: Si Warbands está cerca de Lava Maze:)
+      - (Condition: If the Warbands is near Lava Maze:)
         - **Quercus:** Siento un campamento al este del Laberinto de Lava.
         - (continue)
-      - (Condition: Si el rayo mágico no ha sido interrumpido:)
+      - (Condition: If the magic beam has not been interrupted:)
         - **Quercus:** No siento la presencia del rayo de invocación. El ritual debió haber fracasado. Ten cuidado cuando subas allí.
         - (continue)
-      - (Condition: Si el rayo mágico ha sido interrumpido:)
+      - (Condition: If the magic beam has been interrupted:)
         - **Quercus:** Siento que el rayo de invocación todavía está activo. Si llegas vivo al campamento a tiempo, estoy seguro de que podrás convocar una fuerza de equilibrio.
         - (continue)
-      - (Condition: Si se han convocado refuerzos:)
+      - (Condition: If reinforcements have been summoned:)
         - **Quercus:** Ahh... Siento la victoria. Ya se han enviado refuerzos al campo.
         - (continue)
       - **Player:** ¿Algo más que deba saber?
-      - (Condition: Si los NPC de Warbands todavía están activos:)
+      - (Condition: If the Warbands NPCs are still active:)
         - **Quercus:** Veo figuras moviéndose en el campamento, así que ten cuidado si decides atacar su posición. Sin embargo, la esperanza de la victoria todavía está con nosotros.
         - (initial)
-      - (Condition: Si los NPC de las Bandas de Guerra han sido neutralizados:)
+      - (Condition: If the Warbands NPCs have been neutralised:)
         - **Quercus:** Siento que la batalla ha terminado. El botín está a salvo para tomarlo. Bueno... lo más seguro posible, en el Wilderness.
         - (initial)
   - [Choice]: Habla de recompensas.
@@ -99,11 +99,11 @@
         - **Quercus:** Correcto. Puedo sentir los campos, pero no puedo intervenir directamente. Si estás dispuesto a hacerlo en mi lugar, regresa aquí con el botín si logras salir con vida.
         - (initial)
       - [Choice]: Me gustaría alternar mis recompensas.
-      - (Condition: Si el player está recibiendo suministros:)
+      - (Condition: If the player is receiving supplies:)
         - **Player:** Cuando derrote a un jugador que lleva suministros en wilderness, me gustaría recibir coins como recompensa.
         - **Quercus:** Ciertamente Player. Hable conmigo nuevamente si desea cambiar esto.
         - (initial)
-      - (Condition: Si el player recibe coins:)
+      - (Condition: If the player is receiving coins:)
         - **Player:** Cuando derrote a un jugador que lleva suministros en wilderness, me gustaría recibir sus suministros como recompensa.
         - **Quercus:** Ciertamente Player. Hable conmigo nuevamente si desea cambiar esto.
         - (initial)
@@ -128,26 +128,26 @@
           - [Choice]: Lo siento, me estaba yendo.
             - (end)
       - [Choice]: ¿Puedo reclamar alguna recompensa de usted?
-        - (Condition: Si el player no tiene ninguna recompensa para reclamar:)
+        - (Condition: If the player doesn't have any rewards to claim:)
           - **Quercus:** ¡Ya no tienes más recompensas para reclamar!
-        - (Condition: Si el player no ha reclamado las recompensas del conjunto de tareas difíciles de Wilderness:)
-          - (Condition: Sin tres espacios backpack libres:)
+        - (Condition: If the player has not claimed the rewards from the hard Wilderness task set:)
+          - (Condition: Without three free backpack spaces:)
             - **Quercus:** Me temo que no tienes suficiente espacio en el inventario para reclamar todas tus recompensas. Hablame de nuevo cuando tengas 3 espacios.
-          - (Condition: Con tres espacios backpack gratuitos:)
+          - (Condition: With three free backpack spaces:)
             - **Player:** He completado todas las tareas del conjunto de tareas difíciles de Wilderness.
             - **Quercus:** Bien hecho Player, he reservado algunas recompensas para ti.
             - Espada (receives=two Antique lamp (Hard Wilderness Tasks) y Wilderness 3)
             - [¡Recibirás algunas recompensas por completar el difícil conjunto de tareas Wilderness!]
             - **Quercus:** Ahí lo tienes, parece que eso es todo.
-        - (Condition: Si el player ha perdido su espada Wilderness 3:)
+        - (Condition: If the player has lost their Wilderness sword 3:)
           - **Player:** Perdí la espada Wilderness 3 que me diste...
           - **Quercus:** Por suerte para ti, tengo uno de repuesto... Aunque me temo que te costará 80.000 coins.
           - [Menu]: ¿Reclamar 80.000 coins?
             - [Choice]: Sí.
-              - (Condition: Si el player no tiene suficiente dinero:)
+              - (Condition: If the player does not have enough money:)
                 - No puedes permitirte eso.
                 - **Quercus:** Pero no parece que tengas suficiente dinero para eso. Vuelve conmigo cuando lo hagas.
-              - (Condition: Si el player tiene suficiente dinero:)
+              - (Condition: If the player has enough money:)
                 - (removes=80,000 coins) (receives=Wilderness sword 3)
                 - [Te entregan otra espada Wilderness 3.]
             - [Choice]: No.

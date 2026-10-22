@@ -62,23 +62,23 @@
 
 - **Luthas:** Felicitaciones.
 - (removes=the old clue scroll (medium))
-- (Condition: Si el rastro continúa:)
+- (Condition: If the trail continues:)
   - (receives=a new clue scroll (medium))
   - [¡Luthas te ha dado otro pergamino de pistas!]
-- (Condition: Si el sendero termina:)
+- (Condition: If the trail ends:)
   - (receives=reward casket (medium))
   - [¡Has encontrado un ataúd!]
 
 ### Sandy Clue Scroll (historical)
 
 - **Luthas:** Ah, mi mono encontró esto para ti.
-- ((Sin espacio en backpack para ataúd:))
+- ((Without space in backpack for a casket:))
   - Necesitas más espacio en el inventario para recibir tu cofre de pistas.
-- ((Con espacio en backpack:))
+- ((With space in backpack:))
   - (removes=Sandy Clue Scroll)
-  - (Condition: Si el rastro continúa:)
+  - (Condition: If the trail continues:)
     - (receives=Sandy Scroll box)
     - [scrollbox].}}
-  - (Condition: Si el sendero termina:)
+  - (Condition: If the trail ends:)
     - (receives=Sandy Casket and Sandy Casket (red))
     - [¡Te entregan un ataúd!]

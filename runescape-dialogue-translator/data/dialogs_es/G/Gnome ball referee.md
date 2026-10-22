@@ -80,7 +80,7 @@
 
 #### Recibiendo el pergamino de desafío
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only the first time:)
   - **Gnome ball referee:** Bien, aún no has terminado.
   - **Player:** Uf.
   - **Gnome ball referee:**Respóndeme esto.
@@ -91,15 +91,15 @@
 
 - **Gnome ball referee:** Ingrese la respuesta a la pregunta.
 - Ingrese la cantidad:<br>[Input field]
-- (Condition: Cuando se le da la respuesta incorrecta:)
+- (Condition: When given the wrong answer:)
   - **Gnome ball referee:** ¡Respuesta incorrecta!
-- (Condition: Cuando se le da la respuesta correcta:)
+- (Condition: When given the correct answer:)
   - (removes=the clue scroll (medium) y desplazamiento de desafío (medio))
-  - (Condition: Si el rastro continúa:)
+  - (Condition: If the trail continues:)
     - (receives=a new clue scroll (medium))
     - [¡El árbitro te ha dado otro pergamino de pistas!]
     - (continue)
-  - (Condition: Si el sendero termina:)
+  - (Condition: If the trail ends:)
     - (receives=reward casket (medium))
     - [¡Has encontrado un ataúd!]
     - (continue)

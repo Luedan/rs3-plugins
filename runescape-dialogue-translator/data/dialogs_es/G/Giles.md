@@ -20,12 +20,12 @@
     - (Se abre la Gestión del Campamento Base.))
   - [Choice]: Colección Archaeology.
     - **Player:** ¿Qué estás coleccionando?
-    - ((Antes de que se complete la colección.))
+    - ((Before the collection is completed.))
       - **Giles:** He oído que se han encontrado algunos objetos dragonkin en la isla. Estoy buscando un dispositivo y una tableta dragonkin ceremoniales.
-      - ((Se abre la interfaz de colección Archaeology.))
-    - ((Una vez completada la colección:))
+      - ((Archaeology collection interface opens.))
+    - ((After the collection is completed:))
       - **Giles:** No estoy recopilando nada más por el momento. Ya me has dado todo lo que estaba buscando.
-      - ((Se abre la interfaz de colección Archaeology.))
+      - ((Archaeology collection interface opens.))
   - [Choice]: Háblame de ti.
     - **Giles:** Ah, realmente no hay mucho que contar...
     - **Giles:** Veamos. Soy contador senior del museo Varrock. Mientras me entrenaba y trabajaba en el palacio, mostré un gran interés por la historia y fui transferido allí para ayudar con la dirección de sus operaciones.
@@ -36,28 +36,28 @@
     - (initial)
   - [Choice]: Reclamar.
     - **Player:** ¿Tienes algo que pueda reclamar?
-    - ((Si no hay nada que reclamar o si no se han completado Medidas desesperadas:))
+    - ((If there is nothing to reclaim or if Desperate Measures hasn't been completed:))
       - **Giles:** No tienes nada que reclamarme en este momento.
-    - ((Antes de crear el acumulador cósmico:))
-      - ((Si se ha perdido el enfoque cósmico:))
+    - ((Before creating the cosmic accumulator:))
+      - ((If the cosmic focus has been lost:))
         - **Giles:** Encontré este enfoque cósmico, creo que es tuyo.
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Giles:** Parece que no tienes espacio en el inventario para esto en este momento.
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=cosmic focus)
           - Giles amablemente entrega el enfoque Cósmico.
-      - ((Si la pirámide cósmica se ha perdido:))
+      - ((If the cosmic pyramid has been lost:))
         - **Giles:** ¡Veo que has perdido la pirámide cósmica que te di! Por suerte tengo otro que puedes tener.
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Giles:** Parece que no tienes espacio en el inventario para esto en este momento.
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=cosmic pyramid)
           - Giles amablemente entrega la pirámide cósmica.
-    - ((Después de crear el acumulador cósmico:))
+    - ((After creating the cosmic accumulator:))
       - **Giles:** Encontré este objeto que se parece a la pirámide cósmica que te di, supuse que era tuyo.
-      - ((Sin espacio en backpack:))
+      - ((Without space in backpack:))
         - **Giles:** Parece que no tienes espacio en el inventario para esto en este momento.
-      - ((Con espacio en backpack:))
+      - ((With space in backpack:))
         - (receives=cosmic accumulator)
         - Giles amablemente entrega el acumulador Cósmico.
   - [Choice]: Adiós.

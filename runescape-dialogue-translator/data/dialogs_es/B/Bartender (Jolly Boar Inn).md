@@ -19,10 +19,10 @@
   - [Choice]: Tomaré una cerveza, por favor.
     - **Player:** Tomaré una pinta de cerveza, por favor.
     - **Bartender:** Ok, serán dos coins, por favor.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - (removes=2 coins) (receives=beer)
       - **Player:** Gracias, camarero.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - No puedes permitirte eso.
       - **Bartender:** ¡Dije 2 coins! ¡No tienes 2 coins!
       - **Player:** Lo siento, volveré otro día.
@@ -44,8 +44,8 @@
 - **Bartender:** ¡Por Leslie, felizmente!
 - (removes=keg of mead) (receives=50 nectar)
 - (ver|néctar)
-- ((Se muestra en una ventana emergente:))
-  - (Ventana emergente: encontrarás 50 x néctar cuando entregas el barril de hidromiel.|color=#00FF00)
+- ((Shown in a pop-up:))
+  - (Pop-up: You find 50 x Nectar as you hand over the keg of mead.|colour=#00FF00)
   - (continue)
 - **Player:** No esperaba que te lo bebieras todo.
 - **Bartender:** Es la mejor manera.

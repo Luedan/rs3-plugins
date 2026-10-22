@@ -240,9 +240,9 @@
 - {{Tinput|Please enter the redemption code.}}
 - Espere mientras se procesa el código.
 - Procesando....
-- (Condition: Si el procesamiento es exitoso:)
+- (Condition: If the processing is successful:)
   - Su código ha sido procesado exitosamente. Reclame su artículo de Diango o Ianto.
-- (Condition: Si el procesamiento no tiene éxito:)
+- (Condition: If the processing is not successful:)
   - Tu código no era válido. Por favor compruébalo y vuelve a intentarlo.
 
 ### In Christmas Village
@@ -313,9 +313,9 @@
 
 - **Player:** He completado mi formación con Fabio.
 - **Diango:** Eso es genial. ¡Eres natural!
-- (Condition: Sin espacio libre backpack:)
+- (Condition: Without free backpack space:)
   - **Diango:** Necesitarás algo de espacio libre en tu backpack para recibir tu montura.
-- (Condition: Con espacio gratuito backpack:)
+- (Condition: With free backpack space:)
   - **Diango:** Ahora puedo confiarte este poderoso corcel.
   - **Diango:** Su nombre es Rocky. Ahora cuídalo bien.
   - (receives=ring of riding)

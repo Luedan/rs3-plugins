@@ -29,10 +29,10 @@
         - **Kathy Corkat:** Ahí arriba también es peligroso para mí, querida.
         - **Player:** ¿Te ayudaría si te diera algo de dinero?
         - **Kathy Corkat:** ¡Oh, eso está mejor! Te llevaré <br> al norte por 50 brillantes coins.
-        - (Condition: Sin 50 coins:)
+        - (Condition: Without 50 coins:)
           - **Player:** No tengo mucho conmigo.
           - **Kathy Corkat:** ¡Oh, y casi me convences!
-        - (Condition: Con 50 coins:)
+        - (Condition: With 50 coins:)
           - [Menu]: Selecciona una opción
             - [Choice]: Muy bien, pagaré.
               - **Player:** Muy bien, pagaré.

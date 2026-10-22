@@ -29,7 +29,7 @@
 #### Sin ambas manos libres
 
 - Necesitará ambas manos libres para hacerlo.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Necesitará ambas manos libres para hacerlo.
 
 #### Con ambas manos libres
@@ -42,7 +42,7 @@
 #### Sin ambas manos libres
 
 - Necesitará ambas manos libres para hacerlo.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Necesitará ambas manos libres para hacerlo.
 
 #### Con ambas manos libres
@@ -89,14 +89,14 @@
 - **Ed:** Sin embargo, una de las características más notables y duraderas de Um es su reloj de arena gigante.
 - **Ed:** Esta es una de las pocas características originales que se conservan desde los inicios de la ciudad, y se ha mantenido en la memoria debido a las frecuentes visitas de la Muerte.
 - **Ed:** Ahora, ¿alguien tiene alguna pregunta antes de finalizar el recorrido?
-- ((La primera vez:))
+- ((On the first time:))
   - **Player:** En realidad, esperaba que pudieras contarme sobre-
   - **Ed:** ¿No? Hermoso. Estos fueron los recorridos en barco de Ed: visita la tienda de regalos, cuéntaselo a tus amigos y disfruta de un resto mediocre de tu día.
   - Has desbloqueado el título: 'Player, {{colourZZCMD0ZZ'}}|color=#0f0}}
   - 25 almas vuelan para impulsar el barco.
   - ¡Felicitaciones! Has completado: 'Turista de Um': realiza uno de los recorridos en barco de Ed.
   - (continue|end)
-- ((Después de la primera vez:))
+- ((After the first time:))
   - **Player:** En realidad, esperaba que pudieras decirme-
   - **Ed:** ¿Tú otra vez? Supongo que esta vez puedo responderte una pregunta.
   - [Menu]: Selecciona una opción
@@ -118,7 +118,7 @@
 
 ### Continue tour
 
-- ((El diálogo se reinicia desde el inicio del paso actual del recorrido en barco.))
+- ((The dialogue restarts from the beginning of the current step in the boat tour.))
 
 ### End tour
 

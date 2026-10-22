@@ -19,7 +19,7 @@
 #### Con los Cuervos (gloriosos) encerrados
 
 - **Quoth the Raven:** Ofréceme la primera de las creaciones de tu maestro y recibe un regalo a cambio.
-- (Condition: Si lleva una rueda de queso:)
+- (Condition: If carrying a cheese wheel:)
   - [Menu]: ¿Ofrecer rueda de queso?
     - [Choice]: Sí, en nombre de Raven.
       - (removes=wheel of cheese)

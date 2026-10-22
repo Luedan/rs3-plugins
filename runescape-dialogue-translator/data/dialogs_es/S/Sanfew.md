@@ -26,11 +26,11 @@
 - **Sanfew:** ¿Qué puedo hacer por ti young 'un?
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Tienes más trabajo para mí?
-    - (Condition: Habiendo aún no completado Troll Stronghold:)
+    - (Condition: Having not yet completed Troll Stronghold:)
       - **Sanfew:** Todavía no, young 'un.
-    - (Condition: Habiendo completado Troll Stronghold, pero por debajo del nivel 31 Herblore:)
+    - (Condition: Having completed Troll Stronghold, but below level 31 Herblore:)
       - **Sanfew:** Me temo que aún no has aprendido lo suficiente en el arte de Herblore para poder ayudarme, aventurero...
-    - (Condition: Habiendo completado Troll Stronghold y con nivel 31 Herblore:)
+    - (Condition: Having completed Troll Stronghold and with level 31 Herblore:)
       - (ver | La artimaña de Eadgar)
   - [Choice]: En realidad, no necesito hablar contigo.
     - **Sanfew:** Bueno, todos cometemos errores a veces.
@@ -73,9 +73,9 @@
     - **Sanfew:** el suero Sanfew en sí... es muy extraño que una poción hecha con sus garras tenga un efecto tan pronunciado en ellos.
     - **Player:** Ok, eso es muy útil. Muchas gracias por tu ayuda.
   - [Choice]: Haga preguntas generales.
-    - (Condition: Antes del ritual druídico:)
+    - (Condition: Before Druidic Ritual:)
       - (arriba2|Antes del ritual druídico)
-    - (Condition: Después del ritual druídico:)
+    - (Condition: After Druidic Ritual:)
       - (arriba2|Después del ritual druídico)
-    - (Condition: Después de la artimaña de Eadgar:)
+    - (Condition: After Eadgar's Ruse:)
       - (arriba2|Después de la artimaña de Eadgar)

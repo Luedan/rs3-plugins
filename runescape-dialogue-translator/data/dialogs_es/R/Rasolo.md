@@ -30,8 +30,8 @@
     - **Rasolo:** Como desees. Viajaré a donde me lleve el negocio.
   - [Choice]: Perdí ese anillo que me diste...
     - **Player:** Perdí ese anillo que me diste...
-    - (Condition: Si el player realmente ha perdido el anillo de visibilidad:)
+    - (Condition: If the player has genuinely lost the ring of visibility:)
       - (receives=ring of visibility)
       - **Rasolo:** Entonces, por supuesto, toma otro. ¡Sólo un comerciante tonto regalaría sus únicas acciones!
-    - (Condition: Si el player todavía tiene el anillo de visibilidad:)
+    - (Condition: If the player still has the ring of visibility:)
       - **Rasolo:** ¿Estás seguro? ya no lo tengo...

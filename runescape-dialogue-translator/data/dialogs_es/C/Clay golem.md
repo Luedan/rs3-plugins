@@ -26,7 +26,7 @@
 
 - **Clay golem:** Lamento no haber podido ayudarte en el asesinato de Agrith Naar.
 - **Player:** ¡No te preocupes, golem! Ya has matado suficientes demonios en tu tiempo.
-- (Condition: Si se completaron los logros del desierto Elite y no se reclamaron las recompensas:)
+- (Condition: If the Elite desert achievements have been completed and the rewards not claimed:)
   - **Player:** Ah, y en otras noticias: ¡he completado todas las tareas de élite en el desierto!
   - **Clay golem:** Tarea completada. Bien.
   - [El Golem te entrega un amuleto con joyas y algunas lámparas que parecen muy antiguas.]
@@ -35,13 +35,13 @@
   - **Player:**¡Gracias! ¿Qué más hace?
   - **Clay golem:** ¿Necesitas más? Muy bien entonces. Puedo modificar cualquier staff antiguo para que seas... mejor.
   - (continue)
-- (Condition: Si el player ha perdido su amuleto del desierto 4:)
+- (Condition: If the player has lost their desert amulet 4:)
   - **Player:** Perdí el amuleto.
   - **Clay golem:** Lo sé. Lo recuperé.
   - (receives=Desert amulet 4)
   - [El Golem te entrega el amuleto.]
   - (continue)
-- (Condition: Si se han completado los logros de élite del Desierto y hay un staff antiguo en el backpack:)
+- (Condition: If the elite Desert achievements have been completed and an ancient staff is in the backpack:)
   - **Clay golem:** Si necesitas mejorar tu antiguo staff, dámelo.
   - (continue)
 - [Menu]: Elige una opción:

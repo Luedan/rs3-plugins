@@ -60,10 +60,10 @@
 #### Compras con Wizard Finix
 
 - (opens=Wizard Finix's Runecrafting Shop)
-  - (Condition: Si se compra algo:)
+  - (Condition: If something is purchased:)
     - **Wizard Finix:** ¡Disfruta!
     - (opens=Wizard Finix's Runecrafting Shop)
-  - (Condition: Si se compra estima:)
+  - (Condition: If esteem is purchased:)
     - **Wizard Finix:** ¡Felicitaciones! En reconocimiento a tu trabajo extrayendo energía rúnica, has alcanzado el rango [número] Estima.
     - (opens=Wizard Finix's Runecrafting Shop)
 

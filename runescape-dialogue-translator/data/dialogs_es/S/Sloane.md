@@ -12,7 +12,7 @@
 ### Standard dialogue
 
 - **Sloane:** Ahhh, hola, Player.
-- (Condition: Si el player tiene 99 Strength:)
+- (Condition: If the player has 99 Strength:)
   - **Sloane:** ¡Ah, pero puedo ver que ya eres lo más fuerte posible! ¿Quizás has venido a mí para comprar un Skillcape o un Strength y así unirte a la élite que domina esta exigente habilidad?
   - (continue)
 - [Menu]: Selecciona una opción
@@ -21,38 +21,38 @@
     - **Sloane:** Claro. Puedes comprar un skillcape cuando alcances el nivel 99 en una habilidad. Además de mejorar tus estadísticas en esa habilidad, ¡también pueden usarse para realizar algunos gestos increíbles! ¿Hay algo más que te gustaría saber?
     - (initial)
   - [Choice]: |cond=Si el player tiene 99 Strength:|¿Puedo comprar un Skillcape de Strength, por favor?
-    - (Condition: Si el player tiene un ring of charos (a) equipado:)
+    - (Condition: If the player has a ring of charos (a) equipped:)
       - **Sloane:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins para este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
       - [Menu]: Elige una opción:
         - [Choice]: ¿92.000 coins? Eso es demasiado caro.
           - **Player:** Sé dónde encontrarte si cambio de opinión.
         - [Choice]: De hecho, creo que tengo el dinero aquí.
-          - (Condition: Si el player no tiene espacio backpack:)
+          - (Condition: If the player has no backpack space:)
             - **Sloane:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar espacio en backpack antes de que pueda venderte uno.
-          - (Condition: Si el player no tiene suficiente dinero:)
+          - (Condition: If the player does not have enough money:)
             - **Player:** Pero desafortunadamente me equivoqué.
             - **Sloane:** Bueno, vuelve a verme cuando lo hagas.
-          - (Condition: Si el player tiene suficiente dinero:)
+          - (Condition: If the player has enough money:)
             - (receives=Strength cape and Strength hood) (removes=92,000 coins)
             - **Sloane:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
-    - (Condition: Si el player no tiene un ring of charos(a) equipado:)
+    - (Condition: If the player does not have a ring of charos (a) equipped:)
       - [Menu]: Elige una opción:
         - [Choice]: ¿99.000 coins? Eso es demasiado caro.
           - **Player:** Sé dónde encontrarte si cambio de opinión.
         - [Choice]: De hecho, creo que tengo el dinero aquí.
-          - (Condition: Si el player no tiene espacio backpack:)
+          - (Condition: If the player has no backpack space:)
             - (arriba)
-          - (Condition: Si el player no tiene suficiente dinero:)
+          - (Condition: If the player does not have enough money:)
             - (arriba)
-          - (Condition: Si el player tiene suficiente dinero:)
+          - (Condition: If the player has enough money:)
             - (receives=Strength cape and Strength hood) (removes=99,000 coins)
             - **Sloane:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
   - [Choice]: He notado que hay un par de versiones de cada skillcape.
     - **Sloane:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
-    - (Condition: Si usas el modelo antiguo:)
+    - (Condition: If you use the old model:)
       - **Sloane:** Parece que actualmente estás usando el modelo anterior para tu Strength skillcape. ¿Quieres cambiar a uno más nuevo?
       - (continue)
-    - (Condition: Si utiliza el nuevo modelo:)
+    - (Condition: If you use the new model:)
       - **Sloane:** Aún puedes optar por usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
       - (continue)
     - [Menu]: Selecciona una opción
@@ -67,7 +67,7 @@
             - (end)
       - [Choice]: No, gracias.
         - **Sloane:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
-        - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+        - (Condition: If the player uses the new model for any other skillcape:)
           - **Sloane:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
           - [Menu]: Selecciona una opción
             - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.

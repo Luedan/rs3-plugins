@@ -44,22 +44,22 @@
         - **Player:** ¿Puedo comprar un pretzel?
         - **Pretzel Bert:** ¡Por supuesto! Cuestan 1 po cada uno. ¿Cuantos quisieras?
         - {{Tinput|Enter amount:}}
-          - (Condition: Si intenta comprar no más de 24 pretzels:)
+          - (Condition: If attempting to buy no more than 24 pretzels:)
             - **Pretzel Bert:** ¡X pretzels! Ese será Xgp, por favor.
               - [Menu]: Selecciona una opción
                 - [Choice]: Está bien.
                   - **Player:** ¡Está bien!
-                    - (Condition: Sin suficiente espacio backpack:)
+                    - (Condition: Without enough backpack space:)
                       - **Player:** Oh, parece que no tengo suficiente espacio en mi bolso. Tendré que volver.
                       - **Pretzel Bert:** ¡Vuelve pronto, antes de que se enfríen!
-                    - (Condition: Con suficiente espacio backpack:)
+                    - (Condition: With enough backpack space:)
                       - **Pretzel Bert:** ¡Cuidado! Son picantes y muy, muy sabrosos.
-                      - ((Player recibe X pretzels. X coins se elimina de el player.))
-                    - (Condition: Sin suficiente dinero:)
+                      - ((Player receives X pretzels. X coins is removed from the player.))
+                    - (Condition: Without enough money:)
                       - {{Transcript missing}}
                 - [Choice]: Eso es más de lo que pensaba. No, gracias.
                   - {{Transcript missing}}
-          - (Condition: Si intenta comprar más de 24 pretzels:)
+          - (Condition: If attempting to buy more than 24 pretzels:)
             - **Pretzel Bert:** ¿Cuántos pretzels? Están muy buenos, ¡pero no creo que puedas comer tantos!
       - [Choice]: ¿Te das cuenta de lo tonto que pareces?
         - **Player:** ¿Te das cuenta de lo tonto que pareces?

@@ -17,9 +17,9 @@
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Puedo pasar esa barrera?
     - **Meilyr guard:** Sólo podrán entrar aquellos que hayan sido instruidos por un slayer master. Esta zona es demasiado peligrosa para dejar entrar a cualquiera.
-    - (Condition: Si se le asigna Edimmu:)
+    - (Condition: If assigned Edimmu:)
       - **Player:** [Slayer Master] me envió a matar a Edimmu.
-    - (Condition: Si se le asignan criaturas de Daemonheim:)
+    - (Condition: If assigned Creatures of Daemonheim:)
       - **Player:** Laniakea me envió a matar criaturas que habían escapado de las profundidades de Daemonheim.
     - **Meilyr guard:** Mmm, ¿en serio? Si creen que puedes sobrevivir, puedes pasar. Simplemente no esperes que te ayude si te metes en problemas. Ya estoy más cerca de esas... cosas... de lo que me gustaría estar.
   - [Choice]: ¿Qué estás protegiendo?

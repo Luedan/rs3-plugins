@@ -33,7 +33,7 @@
     - **Player:** ¿Pueden reparar mis artículos por mí?
     - **Bob:** Por supuesto que puedo, aunque los materiales pueden costarte. Sólo dame el artículo y echaré un vistazo.
   - [Choice]: Acerca del sistema de tareas...
-    - (Condition: Si el player ha completado las tareas fáciles del conjunto Lumbridge y Draynor y las recompensas no han sido reclamadas:)
+    - (Condition: If the player has completed the Easy tasks in the Lumbridge and Draynor set and the rewards not claimed:)
       - **Player:** He completado todas las tareas sencillas del conjunto Lumbridge.
       - **Bob:** Ah, digno, por decir lo menos.
       - **Player:** Gracias. ¿Hubo recompensa?
@@ -50,7 +50,7 @@
       - **Player:** ¡Muchas gracias! ¿Qué pasa si pierdo el nuevo anillo?
       - **Bob:** Bueno, espero que te enorgullezcas un poco más de tus posesiones que eso. Si lo pierdes, vuelve conmigo y te daré otro. Ahora, ¿algo más?
       - (continue)
-    - (Condition: Si el player ha perdido su anillo de Explorador 2:)
+    - (Condition: If the player has lost their Explorer's ring 2:)
       - **Bob:** ¿No me digas que perdiste el anillo que te di?
       - **Player:** Sí, lo siento. No sé qué pasó con eso.
       - (receives=Explorer's ring 2)

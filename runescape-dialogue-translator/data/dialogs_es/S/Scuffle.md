@@ -11,7 +11,7 @@
 
 ### Overhead dialogue
 
-- ((Se ve uno de los siguientes de forma aleatoria una vez cada 45 segundos:))
+- ((Random one of the following is seen once every 45 seconds:))
   - **Scuffle:** {{RSChat|Come one, come all, and test your courage in the Maize Maze!}}
   - **Scuffle:** {{RSChat|Defeat the powerful illusion in the Maize Maze and be greatly rewarded!}}
   - **Scuffle:** {{RSChat|Move it and challenge the Maize Maze, you cowardly maggots!}}
@@ -39,10 +39,10 @@
         - **Scuffle:** Bueno, primero están los enemigos errantes que te asustarán si te ven.
         - **Scuffle:** Puedes lidiar con ellos asustándolos con la ayuda de la población implícita local.
         - **Scuffle:** Puedes cazar implicaciones de zombis para conseguir herramientas que te permitan asustar a los enemigos de cerca.
-        - (Condition: Antes de 2026:)
+        - (Condition: Before 2026:)
           - **Scuffle:** Los impulsos fantasma te darán materiales que pueden mejorar tus herramientas cuerpo a cuerpo y convertirlas en herramientas a distancia.
           - (continue)
-        - (Condition: Desde 2026:)
+        - (Condition: Since 2026:)
           - **Scuffle:** Los implicaciones fantasma te darán una herramienta aterradora que puedes usar a distancia.
           - (continue)
         - **Scuffle:** Luego están las paredes. A veces, abrirán atajos que pueden llevarlo al centro más rápidamente si los usa correctamente.
@@ -54,15 +54,15 @@
         - **Player:** ¿Qué gano yo con esto?
         - **Scuffle:** Si logras derrotar la ilusión en el centro del laberinto, te daré algunas fichas espeluznantes.
         - **Scuffle:** También recibirás una bolsa temática de botín. Lo que hay dentro depende de la forma que tomó la ilusión cuando la derrotaste.
-        - (Condition: Antes de haber completado Campo de Gritos:)
+        - (Condition: Before having completed Field of Screams:)
           - **Scuffle:** Si te unes al clan, también puedes obtener el uniforme de otro equipo.
           - [Completa la misión "Campo de los gritos" para desbloquear la posibilidad de recibir la "ficha del uniforme de los jinetes" del botín.]
           - (continue)
-        - (Condition: Antes de 2026:)
+        - (Condition: Before 2026:)
           - **Scuffle:** Te daré tres de esas bolsas por tu primera carrera exitosa cada día, dos por tu segunda y tercera carrera, y una por cada carrera posterior. Soy agradable así.
           - **Scuffle:** Por supuesto, también aprenderás en el trabajo saltando obstáculos, cazando implings y emplumando herramientas aterradoras a distancia.
           - (continue)
-        - (Condition: Desde 2026:)
+        - (Condition: Since 2026:)
           - **Scuffle:** Te daré tres de esas bolsas por tu primera carrera exitosa todos los días, y dos por tu segunda y tercera carrera. También encontrarás fichas de entrada de botín triple y doble mientras practicas en Harvest Hollow.
           - **Scuffle:** Por supuesto, también aprenderás en el trabajo saltando obstáculos y cazando implings.
           - (continue)
@@ -83,71 +83,71 @@
 
 ### Reward info
 
-- ((Lo siguiente se muestra en una interfaz titulada "INFORMACIÓN DE RECOMPENSAS DE MAIZE MAZE":))
+- ((The following is shown in an interface titled "MAIZE MAZE REWARDS INFORMATION":))
   - ¡Abre el botín para obtener botín y tener la oportunidad de ganar premios especiales específicos para jefes! Las recompensas que se muestran son para el jefe actualmente activo.
-  - (Condition: Con Fosfoseo activo:)
+  - (Condition: With Phosphosseus active:)
     - Archivo:Botín básico de Phosphosseous spoils.png básico Phosphosseous
       - [Choice]: INFORMACIÓN
-        - ((La interfaz cambia a una titulada “DESPERDICIOS FOSFÓSEOS BÁSICOS” con el siguiente contenido:))
+        - ((The interface changes to one titled "BASIC PHOSPHOSSEOUS SPOILS" with the following content:))
           - Contiene {{Colour of the following rewards. Quantities shown are the ZZCMD0ZZmaximum}} que se puede obtener. {{Colour|#FFFFFF|Oddments}} solo {{Colour|#FFFFFF|reemplace los tokens Spooky}} en el límite flexible del token Spooky.|color=#E3D7CF|bg=#322E28}}
-          - ((Se enumeran las recompensas.))
+          - ((Rewards are listed.))
             - [Choice]: VOLVER
               - (above|Reward info)
     - Archivo:Impresionante Phosphosseous spoils.png Impresionante botín de Phosphosseous
       - [Choice]: INFORMACIÓN
-        - ((La interfaz cambia a una titulada “IMPRESIONANTE BOTÍN FOSFÓSEO” con el siguiente contenido:))
+        - ((The interface changes to one titled "IMPRESSIVE PHOSPHOSSEOUS SPOILS" with the following content:))
           - Contiene {{Colour of the following rewards. Quantities shown are the ZZCMD0ZZmaximum}} que se puede obtener. {{Colour|#FFFFFF|Oddments}} solo {{Colour|#FFFFFF|reemplace los tokens Spooky}} en el límite flexible del token Spooky.|color=#E3D7CF|bg=#322E28}}
-          - ((Se enumeran las recompensas.))
+          - ((Rewards are listed.))
             - [Choice]: VOLVER
               - (above|Reward info)
     - Archivo:Prestigioso Phosphosseous spoils.png Prestigioso Phosphosseous botín
       - [Choice]: INFORMACIÓN
-        - ((La interfaz cambia a una titulada “Prestigiosos BOTINES FOSFÓSEOS” con el siguiente contenido:))
+        - ((The interface changes to one titled "PRESTIGIOUS PHOSPHOSSEOUS SPOILS" with the following content:))
           - Contiene {{Colour of the following rewards.|colour=#E3D7CF|bg=#322E28}}
-          - ((Se enumeran las recompensas.))
+          - ((Rewards are listed.))
             - [Choice]: VOLVER
               - (above|Reward info)
-  - (Condition: Con Skaraxxi activo:)
+  - (Condition: With Skaraxxi active:)
     - Archivo:Botín básico de Skaraxxi spoils.png básico Skaraxxi
       - [Choice]: INFORMACIÓN
-        - ((La interfaz cambia a una titulada "BOTINES DE SKARAXXI BÁSICO" con el siguiente contenido:))
+        - ((The interface changes to one titled "BASIC SKARAXXI SPOILS" with the following content:))
           - Contiene {{Colour of the following rewards. Quantities shown are the ZZCMD0ZZmaximum}} que se puede obtener. {{Colour|#FFFFFF|Oddments}} solo {{Colour|#FFFFFF|reemplace los tokens Spooky}} en el límite flexible del token Spooky.|color=#E3D7CF|bg=#322E28}}
-          - ((Se enumeran las recompensas.))
+          - ((Rewards are listed.))
             - [Choice]: VOLVER
               - (above|Reward info)
     - Archivo:Impresionante Skaraxxi spoils.png Impresionante botín de Skaraxxi
       - [Choice]: INFORMACIÓN
-        - ((La interfaz cambia a una titulada “IMPRESIONANTE BOTINES DE SKARAXXI” con el siguiente contenido:))
+        - ((The interface changes to one titled "IMPRESSIVE SKARAXXI SPOILS" with the following content:))
           - Contiene {{Colour of the following rewards. Quantities shown are the ZZCMD0ZZmaximum}} que se puede obtener. {{Colour|#FFFFFF|Oddments}} solo {{Colour|#FFFFFF|reemplace los tokens Spooky}} en el límite flexible del token Spooky.|color=#E3D7CF|bg=#322E28}}
-          - ((Se enumeran las recompensas.))
+          - ((Rewards are listed.))
             - [Choice]: VOLVER
               - (above|Reward info)
     - Archivo:Prestigioso Skaraxxi spoils.png Prestigioso Skaraxxi botín
       - [Choice]: INFORMACIÓN
-        - ((La interfaz cambia a una titulada “PRESTIGIOSO BOTINES DE SKARAXXI” con el siguiente contenido:))
+        - ((The interface changes to one titled "PRESTIGIOUS SKARAXXI SPOILS" with the following content:))
           - Contiene {{Colour of the following rewards.|colour=#E3D7CF|bg=#322E28}}
-          - ((Se enumeran las recompensas.))
+          - ((Rewards are listed.))
             - [Choice]: VOLVER
               - (above|Reward info)
-  - (Condition: Con Solak-o'-lantern activo:)
+  - (Condition: With Solak-o'-lantern active:)
     - Archivo:Botín básico de Solak-o'-lantern spoils.png básico Solak-o'-lantern
       - [Choice]: INFORMACIÓN
-        - ((La interfaz cambia a una titulada "BASIC SOLAK-O'-LANTERN SPOILS" con el siguiente contenido:))
+        - ((The interface changes to one titled "BASIC SOLAK-O'-LANTERN SPOILS" with the following content:))
           - Contiene {{Colour of the following rewards. Quantities shown are the ZZCMD0ZZmaximum}} que se puede obtener. {{Colour|#FFFFFF|Oddments}} solo {{Colour|#FFFFFF|reemplace los tokens Spooky}} en el límite flexible del token Spooky.|color=#E3D7CF|bg=#322E28}}
-          - ((Se enumeran las recompensas.))
+          - ((Rewards are listed.))
             - [Choice]: VOLVER
               - (above|Reward info)
     - Archivo:Impresionante Solak-o'-lantern spoils.png Impresionante botín de Solak-o'-lantern
       - [Choice]: INFORMACIÓN
-        - ((La interfaz cambia a una titulada "IMPRESIONANTE BOTINES DE SOLAK-O'-LANTERN" con el siguiente contenido:))
+        - ((The interface changes to one titled "IMPRESSIVE SOLAK-O'-LANTERN SPOILS" with the following content:))
           - Contiene {{Colour of the following rewards. Quantities shown are the ZZCMD0ZZmaximum}} que se puede obtener. {{Colour|#FFFFFF|Oddments}} solo {{Colour|#FFFFFF|reemplace los tokens Spooky}} en el límite flexible del token Spooky.|color=#E3D7CF|bg=#322E28}}
-          - ((Se enumeran las recompensas.))
+          - ((Rewards are listed.))
             - [Choice]: VOLVER
               - (above|Reward info)
     - Archivo:Prestigioso Solak-o'-lantern spoils.png Prestigioso Solak-o'-lantern botín
       - [Choice]: INFORMACIÓN
-        - ((La interfaz cambia a una titulada "PRESTIGIOSO BOTINES DE SOLAK-O'-LANTERN" con el siguiente contenido:))
+        - ((The interface changes to one titled "PRESTIGIOUS SOLAK-O'-LANTERN SPOILS" with the following content:))
           - Contiene {{Colour of the following rewards.|colour=#E3D7CF|bg=#322E28}}
-          - ((Se enumeran las recompensas.))
+          - ((Rewards are listed.))
             - [Choice]: VOLVER
               - (above|Reward info)

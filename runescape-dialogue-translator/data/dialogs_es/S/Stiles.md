@@ -21,10 +21,10 @@
 - [Menu]: ¿Qué te gustaría decir?
   - [Choice]: cond=If the player has used the Exchange option or asked "Which fish can you exchange?" before|Está bien, cambia todo mi pescado por billetes.
     - **Player:** Está bien, cambio todos mis peces por billetes.
-    - (Condition: Con atún, bogavante o pez espada sin anotar en backpack:)
+    - (Condition: With unnoted tuna, lobsters or swordfish in backpack:)
       - (removes=all unnoted tuna, lobster or swordfish in backpack) (receives=noted tuna, lobster and/or swordfish)
       - **Stiles:** Ahí va.
-    - (Condition: Sin atún, langosta o pez espada desapercibidos en backpack:)
+    - (Condition: Without unnoted tuna, lobsters or swordfish in backpack:)
       - **Stiles:** Ahhh, no tienes nada que el viejo Stiles pueda intercambiar. Me encargaré de tus lobbys, de tus espadachines y de tu atún, eso es todo.
   - [Choice]: ¿Quién eres y por qué estás aquí?
     - **Player:** ¿Quién eres y por qué estás aquí?
@@ -60,8 +60,8 @@
 - **Stiles:** Ah-ha, entonces eres tú quien está buscando esto.
 - [Stiles saca un huevo de oro del barril cercano y te lo entrega.]
 - ¡Encontraste un huevo de oro! Al abrirlo, descubres la siguiente pista.
-- (ventana emergente)
-  - (Ventana emergente: ¡Encontraste un huevo de oro! Al abrirlo descubres la siguiente pista.|color=#00FF00)
+- (pop-up)
+  - (Pop-up: You found a golden egg! Cracking it open you discover your next clue.|colour=#00FF00)
   - (continue)
 - Se ha agregado lo siguiente a su bolsa de divisas: 3 x puntos Egg.
 - Se ha agregado lo siguiente a su bolsa de divisas: 10 x Puntos Treasure Trail.
@@ -70,8 +70,8 @@
 
 #### Opción de intercambio
 
-- (Condition: Si el player no ha utilizado la opción Intercambio ni ha preguntado "¿Qué pez puedes intercambiar?" antes:)
+- (Condition: If the player has not used the Exchange option nor asked "Which fish can you exchange?" before:)
   - **Stiles:** ¿Quieres que cambie todos tus lobbys, tus espadachines y tu atún por billetes?
     - (above|whichfish)
-- (Condition: Si el player utilizó la opción Intercambiar o preguntó "¿Qué pez puedes intercambiar?" antes:)
+- (Condition: If the player has used the Exchange option or asked "Which fish can you exchange?" before:)
   - (above|exchange2)

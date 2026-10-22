@@ -25,7 +25,7 @@
 ### Feeding while already satisfied
 
 - El sea monster ya no tiene hambre.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - El sea monster ya no tiene hambre.
 
 ### Quick-taking from fish barrel

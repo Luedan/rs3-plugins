@@ -37,18 +37,18 @@
 ### Aoife calling for ingredients or firewood during a Christmas event
 
 - {{Trandom|A random dialogue is selected from the following, which appears in the chat and is also repeated overhead:}}
-  - (Condition: Cuando se solicitan trozos de chocolate:)
+  - (Condition: When chocolate chunks are requested:)
     - {{Colour: {{Colour|#99FF99|Tastes a tad weak. I think we need another handful of chocolate chunks.}}}}
     - **Aoife:** {{RSChat|Tastes a tad weak. I think we need another handful of chocolate chunks.}}
-  - (Condition: Cuando se solicita leña:)
+  - (Condition: When firewood is requested:)
     - {{Colour: {{Colour|#99FF99|Oh no, it's barely simmering anymore. Could you fetch some more firewood?}}}}
     - **Aoife:** {{RSChat|Oh no, it's barely simmering anymore. Could you fetch some more firewood?}}
-  - (Condition: Cuando se solicita leche:)
+  - (Condition: When milk is requested:)
     - {{Colour: {{Colour|#99FF99|It's starting to thicken up. Let's add a splash of milk.}}}}
     - **Aoife:** {{RSChat|It's starting to thicken up. Let's add a splash of milk.}}
-  - (Condition: Cuando se solicitan especias:)
+  - (Condition: When spices are requested:)
     - {{Colour: {{Colour|#99FF99|Flavour's a little plain. I reckon we're ready to add another dash of spice.}}}}
     - **Aoife:** {{RSChat|Flavour's a little plain. I reckon we're ready to add another dash of spice.}}
-  - (Condition: Cuando se solicita azúcar:)
+  - (Condition: When sugar is requested:)
     - {{Colour: {{Colour|#99FF99|That's good but slightly bitter. We need a sprinkle of sugar to sweeten it up.}}}}
     - **Aoife:** {{RSChat|That's good but slightly bitter. We need a sprinkle of sugar to sweeten it up.}}

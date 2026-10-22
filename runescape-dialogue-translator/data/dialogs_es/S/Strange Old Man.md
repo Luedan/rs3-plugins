@@ -76,7 +76,7 @@
 
 ### Task System
 
-- ((Si el player ha completado los logros difíciles de Morytania y no se han reclamado las recompensas:))
+- ((If the player has completed the hard Morytania achievements and the rewards have not been claimed:))
   - **Player:** He completado todas las tareas difíciles del conjunto Morytania.
   - **Strange Old Man:** Así que sí. Tengo unos leggings especiales reservados para ti.
   - [El Strange Old Man te entrega un par de mallas y una lámpara.]
@@ -84,7 +84,7 @@
   - **Player:** ¡Gracias! ¿Qué más hacen?
   - **Strange Old Man:** Bueno, los fantasmas te entenderán y hablé con Hiylik, por lo que obtendrás mejores recompensas por ayudar a los desafortunados a llegar al templo. Ahh... también protegen un poco de la mala influencia de los Túmulos, y parecen estar relacionados con esas... tabletas que usas para llegar al Altar de Sangre.
   - (continue)
-- (Condition: Si el player ha perdido sus patas Morytania 3:)
+- (Condition: If the player has lost their Morytania legs 3:)
   - **Strange Old Man:** ¡Ah, el que usa calzas! ¿Cómo los estás encontrando?
   - **Player:** Los perdí.
   - **Strange Old Man:** ¡Oh, no!
@@ -163,30 +163,30 @@
     - **Player:** ¿Qué pides hoy?
     - **Strange Old Man:** ¡He estado trabajando en mi propia granja recientemente y necesito algunos artículos para aumentar mi productividad!
     - **Strange Old Man:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
-    - (Condition: Con 2 razas de animales aceptadas:)
+    - (Condition: With 2 accepted animal breeds:)
       - **Strange Old Man:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal] o [Animal].
       - (continue)
-    - (Condition: Con 3 razas de animales aceptadas:)
+    - (Condition: With 3 accepted animal breeds:)
       - **Strange Old Man:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal].
       - (continue)
     - **Strange Old Man:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
     - **Strange Old Man:** Si completas esto, te daré: Un objeto de Barrows x 1. ¡Estoy seguro de que también ganarás reputación en el gremio de agricultores!
     - **Strange Old Man:** ¡Tendrás que ser rápido!, solo estoy aquí por [número] días, [número] horas y [número] minutos. Para ser exactos.
   - Dales los artículos y animales que soliciten.
-    - ((Sin los artículos solicitados:))
+    - ((Without the requested items:))
       - **Strange Old Man:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Strange Old Man:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
-      - (Condition: Con 2 razas de animales aceptadas:)
+      - (Condition: With 2 accepted animal breeds:)
         - **Strange Old Man:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal] o [Animal].
         - (continue)
-      - (Condition: Con 3 razas de animales aceptadas:)
+      - (Condition: With 3 accepted animal breeds:)
         - **Strange Old Man:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal].
         - (continue)
       - **Strange Old Man:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
-    - ((Con los artículos solicitados:))
+    - ((With the requested items:))
       - (removes=the requested items) (receives=the reward)
       - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
         - (continue)
       - Has recibido: [Reward] x [número]<br>Y 13,750 reputación agrícola.
@@ -206,10 +206,10 @@
 
 - **Strange Old Man:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
 - **Strange Old Man:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
-- (Condition: Con 2 razas de animales aceptadas:)
+- (Condition: With 2 accepted animal breeds:)
   - **Strange Old Man:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal] o [Animal].
   - (continue)
-- (Condition: Con 3 razas de animales aceptadas:)
+- (Condition: With 3 accepted animal breeds:)
   - **Strange Old Man:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal].
   - (continue)
 - **Strange Old Man:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
@@ -218,7 +218,7 @@
 
 - (removes=the requested items) (receives=the reward)
 - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
   - (continue)
 - Has recibido: [Reward] x [número]<br>Y 13,750 reputación agrícola.

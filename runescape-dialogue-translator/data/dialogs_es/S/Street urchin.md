@@ -67,15 +67,15 @@
     - **Street urchin:** ¡Te arrepentirás!
   - [Choice]: Aquí tienes, gracias.
     - **Player:** Aquí tienes, gracias.
-    - (Condition: Sin al menos 10 coins:)
+    - (Condition: Without at least 10 coins:)
       - color=#EB2F2F
-      - (Condition: Repetido en una ventana emergente:)
-        - (Ventana emergente: No puedes permitirte eso.|advertencia=yes)
+      - (Condition: Repeated in a pop-up:)
+        - (Pop-up: You can not afford that.|warning=yes)
         - (continue)
       - **Street urchin:**¿Aquí voy, qué? ¡No tienes dinero!
       - **Player:** ¿Qué dinero?
       - (continuea|what-money)
-    - (Condition: Con al menos 10 coins:)
+    - (Condition: With at least 10 coins:)
       - (removes=10 coins)
       - **Street urchin:** Gracias [sir/ma'am], no pensé que cumplirías tu parte del trato. No hay mucho honor entre los ladrones, ¿sabes?
       - **Street urchin:** Bueno, ¿entonces necesitas alguna otra información?
@@ -113,14 +113,14 @@
 - **Street urchin:** ¡Ladrón! ¡Ladrón!
 - **Player:** ¡Cállate! No provoques más problemas o te arrepentirás.
 - **Street urchin:** ¡Dame el doble y me callaré!
-- (Condition: Si el player no tiene al menos 20 coins:)
+- (Condition: If the player does not have at least 20 coins:)
   - color=#EB2F2F
-  - (Condition: Repetido en una ventana emergente:)
-    - (Ventana emergente: No puedes permitirte eso.|advertencia=yes)
+  - (Condition: Repeated in a pop-up:)
+    - (Pop-up: You can not afford that.|warning=yes)
     - (continue)
   - **Player:** Lo siento, no tengo suficiente dinero encima, te lo daré la próxima vez que nos veamos.
   - **Street urchin:** Ya había oído eso antes. Si no me das el dinero, lo lamentarás.
-- (Condition: Si el player tiene al menos 20 coins:)
+- (Condition: If the player has at least 20 coins:)
   - **Player:** Ok, aquí tienes, ladrón.
   - (removes=20 coins)
   - **Street urchin:** ¡Qué observador de tu parte!
@@ -130,9 +130,9 @@
 - **Player:** ¡Hola!
 - **Street urchin:** ¡Hola! ¿Quieres ir a robar a más personas? Me vendría bien algo más de dinero.
 - **Player:** Ok, hagámoslo de nuevo.
-- (Condition: Si no hay aldeanos cerca:)
+- (Condition: If there are no villagers nearby:)
   - **Street urchin:** No parece haber nadie cerca a quien robar en este momento. Quizás podamos volver a intentarlo más tarde.
-- (Condition: Si hay un aldeano cerca:)
+- (Condition: If there is a villager nearby:)
   - **Street urchin:** {{RSChat|Hey you, camel features! Come here.}}
   - **Villager:** {{RSChat|I know your game guttersnipe.}}
   - **Street urchin:** {{RSChat|???}}

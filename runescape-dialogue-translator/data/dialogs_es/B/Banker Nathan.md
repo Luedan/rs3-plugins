@@ -49,9 +49,9 @@
 ### Load Last Preset from
 
 - Tu preset está siendo retirado. Consulte a continuación cualquier problema al intentar cargarlo...
-- (Condition: Sin problemas para cargar el preset:)
+- (Condition: Without issues loading the preset:)
   - (Action: el player retira el último preset utilizado.)
-- (Condition: Con algunos elementos no encontrados:)
+- (Condition: With some items not found:)
   - (Action: el player retira los elementos encontrados del último ajuste preestablecido utilizado.)
-  - ((Repetido para cada elemento no encontrado:))
+  - ((Repeated for each item not found:))
     - No se pudo encontrar el artículo: [Item]

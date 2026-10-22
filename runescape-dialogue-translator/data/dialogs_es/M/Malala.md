@@ -20,27 +20,27 @@
 - [Menu]: ¿Quieres ayudar?
   - [Choice]: Sí.
     - **Malala:** Gracias, eres amable.
-    - (Condition: Si el tipo de misión de la ciudad es "Atacada por vida silvestre":)
+    - (Condition: If the city quest type is "Attacked by wildlife":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "En espera de entrega":)
+    - (Condition: If the city quest type is "Awaiting delivery":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Los niños no pueden dormir":)
+    - (Condition: If the city quest type is "Children can't sleep":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Coleccionista de curiosidades":)
+    - (Condition: If the city quest type is "Collector of curiosities":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Crondis está enojado":)
+    - (Condition: If the city quest type is "Crondis is angry":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Plagas de cultivos":)
+    - (Condition: If the city quest type is "Crop pests":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Ayuda de entrega":)
+    - (Condition: If the city quest type is "Delivery help":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "El hijo de un amigo muere lentamente":)
+    - (Condition: If the city quest type is "Friend's son slowly dying":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Nuevo producto":)
+    - (Condition: If the city quest type is "New product":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Slayer master":)
+    - (Condition: If the city quest type is "Slayer master":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "esfuerzo War":)
+    - (Condition: If the city quest type is "War effort":)
       - (continue)
   - [Choice]: No ahora mismo.
     - **Malala:** Es una pena, aunque tal vez alguien más pueda ayudar. espero...
@@ -100,13 +100,13 @@
   - [Choice]: Puedo hacer eso.
     - **Malala:** Gracias, eres amable.
     - **Player:** ¿Dónde puedo encontrar [monster]?
-    - (Condition: Si el monstruo asignado son lagartos del desierto:)
+    - (Condition: If the monster assigned is desert lizards:)
 <!-- This needs double-checking -->
       - {{anchor|first}} **Malala:** Se pueden encontrar al este en el desierto.
-    - (Condition: Si el monstruo asignado son bandidos:)
+    - (Condition: If the monster assigned is bandits:)
 <!-- This needs double-checking -->
       - {{anchor|first}} **Malala:** Creo que hay un gran campamento de bandidos al norte de aquí, más allá de la cantera.
-    - (Condition: Si el monstruo asignado son escorpiones:)
+    - (Condition: If the monster assigned is scorpions:)
       - {{anchor|first}} **Malala:** Están muy al norte, en la mina cerca de Al Kharid. Creo.
   - [Choice]: No.
     - [Menu]: ¿Te gustaría abandonar esta búsqueda de la ciudad?
@@ -156,11 +156,11 @@
   - [Choice]: Seguro que puedes.
     - **Malala:** Gracias, eres amable.
     - **Player:** ¿Dónde puedo encontrar [monster]?
-    - (Condition: Si el monstruo asignado son bandidos:)
+    - (Condition: If the monster assigned is bandits:)
       - {{anchor|first}} **Malala:** Hay un gran campamento de bandidos al norte de aquí, más allá de la cantera. Al menos ahí me dijeron...
-    - (Condition: Si el monstruo asignado es kalfitas:)
+    - (Condition: If the monster assigned is kalphites:)
       - {{anchor|first}} **Malala:** Se encuentran dentro de colmenas calfitas bajo las arenas del desierto. Al menos ahí me dijeron...
-    - (Condition: Si el monstruo asignado es scabarites:)
+    - (Condition: If the monster assigned is scabarites:)
       - {{anchor|first}} **Malala:** Habitan principalmente en la Colmena Scabarite. Al menos ahí me dijeron...
   - [Choice]: No, lo siento.
     - [Menu]: ¿Te gustaría abandonar esta búsqueda de la ciudad?
@@ -181,9 +181,9 @@
   - [Choice]: Hable sobre su tarea actual.
     - **Malala:** ¿Ya te has ocupado del [número] [monster]? ([número] restantes)
     - **Player:** No. ¿Dónde puedo encontrar el [monster] nuevamente?
-    - (Condition: Si el monstruo asignado son bandidos:)
+    - (Condition: If the monster assigned is bandits:)
       - {{anchor|first}} **Malala:** Hay un gran campamento de bandidos al norte de aquí, más allá de la cantera.
-    - (Condition: Si el monstruo asignado es scabarites:)
+    - (Condition: If the monster assigned is scabarites:)
       - {{anchor|first}} **Malala:** Habitan principalmente en la Colmena Scabarite.
   - [Choice]: Abandona esta búsqueda de la ciudad.
     - (Action: La misión está completa.)
@@ -210,7 +210,7 @@
   - [Choice]: Lo haré.
     - **Malala:** Gracias, eres amable.
     - **Player:** ¿Dónde puedo encontrar [monster]?
-    - (Condition: Si el monstruo asignado son kalfitas exiliados:)
+    - (Condition: If the monster assigned is exiled kalphites:)
       - {{anchor|first}} **Malala:** Se encuentran dentro de las Colmenas Kalphite exiliadas, justo al norte de la ciudad.
   - [Choice]: No.
     - [Menu]: ¿Te gustaría abandonar esta búsqueda de la ciudad?

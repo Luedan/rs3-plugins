@@ -12,22 +12,22 @@
 ### Spawning
 
 - ¡Aparece un vengeful soul cerca! Evítalo hasta que se dé cuenta de que no eres el objetivo previsto de su ira.
-- ((Repetido en una ventana emergente:))
-  - (Ventana emergente: ¡Aparece un vengeful soul cerca! Evítalo hasta que se dé cuenta de que no eres el objetivo previsto de su ira.|advertencia=yes)
+- ((Repeated in a pop-up:))
+  - (Pop-up: A vengeful soul appears nearby! Avoid it until it realises you're not the intended target of its ire.|warning=yes)
 
 ### Catching the player
 
 - (Action: El Vengeful Soul desaparece.)
 - A medida que te alcanzan, el vengeful soul pierde interés y busca perseguir otro objetivo.
-- ((Repetido en una ventana emergente:))
-  - (Ventana emergente: a medida que te alcanzan, el vengeful soul pierde interés y busca perseguir otro objetivo.|advertencia=yes)
+- ((Repeated in a pop-up:))
+  - (Pop-up: As they catch up to you, the vengeful soul loses interest and seeks to pursue another target.|warning=yes)
 
 ### Avoiding for 15 seconds
 
 - (Action: El Vengeful Soul deja de perseguir a el player y se convierte en una variante que puede guiarse.)
 - El vengeful soul detiene su persecución. Parece estar listo para fallecer.
-- ((Repetido en una ventana emergente:))
-  - (Ventana emergente: El vengeful soul detiene su persecución. Parece estar listo para pasar.|color=#00FF00)
+- ((Repeated in a pop-up:))
+  - (Pop-up: The vengeful soul stops its pursuit. It appears to be ready to pass on.|colour=#00FF00)
 
 ### Guide
 
@@ -39,5 +39,5 @@
 
 - (Action: El Vengeful Soul desaparece.)
 - El alma perdida desaparece antes de que puedas guiarla hacia adelante.
-- ((Repetido en una ventana emergente:))
-  - (Ventana emergente: el alma perdida desaparece antes de que puedas guiarla hacia adelante).
+- ((Repeated in a pop-up:))
+  - (Pop-up: The lost soul disappears before you could guide it onwards.)

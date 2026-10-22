@@ -15,19 +15,19 @@
 - **Head Guard:** ¿Necesitas algo, [sir/ma'am]?
 - [Menu]: Selecciona una opción
   - [Choice]: Me gustaría una capa de clan.
-    - (Condition: Si el player ya tiene una capa de clan:)
+    - (Condition: If the player already has a clan cloak:)
       - **Head Guard:** ¡Ya te he regalado uno!
       - (previous)
-    - (Condition: Si el player no tiene una capa de clan:)
+    - (Condition: If the player does not have a clan cloak:)
       - **Head Guard:** Por supuesto. Aquí tiene.
       - El capitán te da una capa.
       - (receives=a clan cloak)
       - (previous)
   - [Choice]: Me gustaría un clan vexillum.
-    - (Condition: Si el player ya tiene un clan vexillum:)
+    - (Condition: If the player already has a clan vexillum:)
       - **Head Guard:** ¡Ya te he regalado uno!
       - (previous)
-    - (Condition: Si el player no tiene clan vexillum:)
+    - (Condition: If the player does not have a clan vexillum:)
       - **Head Guard:** Por supuesto. Aquí tiene.
       - El capitán te da un vexillum.
       - (receives=a clan vexillum)
@@ -50,18 +50,18 @@
       - [Choice]: Atrás.
         - (initial)
   - [Choice]: Me gustaría cambiar el idioma de mi ciudadela.
-    - (Condition: Si la ciudadela del clan está vinculada a servidores en inglés:)
+    - (Condition: If the clan citadel is affined to English servers:)
       - **Head Guard:** Tu ciudadela actualmente está vinculada a servidores de habla inglesa.
-    - (Condition: Si la ciudadela del clan está relacionada con servidores de otros idiomas:)
+    - (Condition: If the clan citadel is affined to other language servers:)
       - {{Transcript missing}}
-    - (Condition: Si el player tiene permisos para cambiar el idioma:)
+    - (Condition: If the player has permissions to change the language:)
       - {{Transcript missing}}
-    - (Condition: Si el player no tiene permisos para cambiar el idioma:)
+    - (Condition: If the player does not have permissions to change the language:)
       - **Head Guard:** Me temo que no tienes los permisos necesarios para eso, [sir/ma'am].
       - (previous)
   - [Choice]: Me gustaría cambiar la configuración de visibilidad del chat de mi ciudadela.
-    - (Condition: Si el player es el propietario del clan:)
+    - (Condition: If the player is the clan owner:)
       - {{Transcript missing}}
-    - (Condition: Si el player no es el propietario del clan:)
+    - (Condition: If the player is not the clan owner:)
       - Sólo el propietario del clan puede cambiar esta configuración.
       - (end)

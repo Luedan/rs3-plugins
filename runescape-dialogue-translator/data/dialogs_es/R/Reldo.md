@@ -44,7 +44,7 @@
       - [Choice]: Ya es suficiente sobre ti.
         - (initial)
   - [Choice]: Acerca del sistema de tareas...
-    - (Condition: Si el player completó el conjunto de tareas medianas, pero aún no las reclamó:)
+    - (Condition: If the player has completed medium task set, but not claimed it yet:)
       - **Player:** Terminé todas las tareas medianas del conjunto Varrock.
       - **Reldo:** ¿En serio? ¡Qué extraordinario! Bueno, ciertamente es un logro digno de mención.
       - **Player:** Gracias. ¿Hubo recompensa?
@@ -55,7 +55,7 @@
       - **Player:** ¡Vaya, gracias! ¿Qué pasa si pierdo la armadura?
       - **Reldo:** Oh, eso no es un problema. Puedes volver a verme y te conseguiré otro juego.
       - (continue)
-    - (Condition: Si el player ha perdido su armadura Varrock 2:)
+    - (Condition: If the player has lost their Varrock armour 2:)
       - **Reldo:** ¿No me digas que perdiste la armadura que te di?
       - **Player:** Sí, lo siento. No sé qué pasó con eso.
       - **Reldo:** Oh, bueno, no ha pasado nada. Afortunadamente, tengo otro conjunto aquí: tenemos muchos exploradores Varrock en estos días, ¿sabes?
@@ -142,21 +142,21 @@
 
 #### reliquia Archaeology
 
-(Condition: Después de alcanzar el nivel 42 Archaeology:)
+(Condition: After reaching level 42 Archaeology:)
 - **Reldo:** Antes de entrar en materia, escuché que tienes acceso al sitio de excavación Everlight. Me pregunto si podrías recuperar cierto artefacto de allí para mí...
 - **Reldo:** Si me trajeras un dispositivo Dominariano restaurado, tengo una reliquia mágica que te daría como pago. Podría ayudarle, digamos, a "financiar" proyectos futuros.
-- (Condition: Sólo después de completar Tiempos desesperados:)
+- (Condition: Only after completing Desperate Times:)
   - **Player:** ¿Por qué necesitas un dispositivo Dominarian?
   - **Reldo:** Oh, vamos, sabes que me gusta jugar. ¡La idea de alguna tecnología adelantada a su tiempo procedente de mi antiguo territorio es un misterio demasiado intrigante como para dejarlo pasar!
   - (continue)
-- (Condition: Si el player tiene el dispositivo Dominarian:)
+- (Condition: If the player has the Dominarian device:)
   - **Player:** Da la casualidad de que ¡tengo justo eso encima ahora mismo!
   - (continue)
 - [Menu]: ¿Darle dispositivo Dominarian a Reldo?
   - [Choice]: Sí.
     - (removes=Dominarian device) (receives=Andvaranaut)
     - **Reldo:** Y a cambio... este es Andvaranaut. Este anillo te ayudará a enmascararte de las personas a las que les estás robando los bolsillos. Ese no es realmente mi estilo.
-    - (Condition: Sólo después de completar Tiempos desesperados:)
+    - (Condition: Only after completing Desperate Times:)
       - **Player:** ¿Uno de tu propia creación, supongo? Tienes una habilidad especial para crear anillos que manipulan a las personas para que se deshagan de su dinero.
       - **Reldo:** ¿Qué puedo decir? Mi regalo es mi maldición.
       - **Player:** ¿Y dices que robar carteras no es tu estilo?
@@ -169,7 +169,7 @@
   - [Choice]: No.
     - **Reldo:** Espero que lo reconsideres. Lo necesito para mi investigación.
     - (continuea|Talking to Reldo)
-- (Condition: Si el player no tiene el dispositivo Dominarian:)
+- (Condition: If the player does not have the Dominarian device:)
   - **Player:** Te tendré en cuenta.
   - (continuea|Talking to Reldo)
 

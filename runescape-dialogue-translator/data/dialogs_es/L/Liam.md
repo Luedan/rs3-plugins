@@ -20,7 +20,7 @@
 
 #### Después
 
-- ((Si el player investigó la puerta de la prisión:))
+- ((If the player investigated the prison door:))
   - **Player:** Hmm, no se abre. Debe haber una manera de desbloquearlo...
   - (continue)
 - **Liam:** ¿Ya te alegra descubrir esta puerta?
@@ -29,7 +29,7 @@
 
 ### After obtaining two pages
 
-- ((Si el player investiga la puerta de la prisión:))
+- ((If the player investigates the prison door:))
   - **Player:** Hmm, no se abre. Debe haber una manera de desbloquearlo...
   - **Liam:** ¿Ya te alegra descubrir esta puerta?
   - **Player:** Bueno, encontré una entrada en el diario del custodio de la prisión. Creo que puede haber una pista sobre cómo desbloquear esta puerta enterrada en alguna parte.
@@ -39,7 +39,7 @@
 
 ### After obtaining all pages
 
-- ((Si el player investigó la puerta de la prisión:))
+- ((If the player investigated the prison door:))
   - **Player:** Hmm, no se abre. Debe haber una manera de desbloquearlo...
   - (continue)
   - **Player:** Quizás... encontré un par de páginas del diario del custodio de la prisión. Me pregunto si hay alguna pista dentro de ellos sobre cómo abrir esta puerta...

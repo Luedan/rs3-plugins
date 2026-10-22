@@ -42,16 +42,16 @@
     - (previous)
   - [Choice]: ¿Cómo puedo entrenar construcción?
     - **Player:** ¿Cómo puedo entrenar la construcción?
-    - (Condition: En Rimmington:)
+    - (Condition: In Rimmington:)
       - **Estate agent:** ¡Puedes entrenarlo aquí mismo! Encontrará un banco de trabajo furniture, así como miembros de la Agencia de Vivienda Gielinorian que pueden convertir su logs en planks, o convertir sus materiales destacados en materias primas.
       - **Estate agent:** Una vez que hayas construido un furniture, puedes colocarlo en un cofre de almacenamiento furniture para usarlo dentro de tu casa.
       - (previous)
-    - (Condition: En otros lugares:)
+    - (Condition: Elsewhere:)
       - **Estate agent:** ¡Puede comenzar con la capacitación en construcción visitando nuestra sede en Rimmington!
       - **Estate agent:** Allí encontrará una gran cantidad de comodidades que lo ayudarán a comenzar a construir furniture para hacer de su casa un hogar.
       - (previous)
   - [Choice]: ¿Puede cambiar la ubicación de mi portal de salida preferida, por favor?
-    - ((Lo siguiente se muestra en una interfaz titulada "SELECCIONE UNA OPCIÓN":))
+    - ((The following is shown in an interface titled "SELECT AN OPTION":))
       - ¿A dónde le gustaría trasladar el portal de su casa?
         - [Choice]: 1. Rimmington (2,500 coins)
           - (continue)
@@ -71,31 +71,31 @@
           - (continue)
         - [Choice]: 9. Prifddinas (25,000 coins)
           - (continue)
-      - (Condition: Con la casa ya en la ubicación seleccionada:)
+      - (Condition: With the house already in the selected location:)
         - ¡El portal de tu casa ya está ahí!
-        - (ventana emergente)
-          - (Ventana emergente: ¡El portal de tu casa ya está ahí!|advertencia=yes)
-      - (Condition: Sin la casa ya en la ubicación seleccionada:)
-        - (Condition: Sin suficiente coins:)
+        - (pop-up)
+          - (Pop-up: Your house portal is already there!|warning=yes)
+      - (Condition: Without the house already in the selected location:)
+        - (Condition: Without enough coins:)
           - Necesitas [número] coins para mover el portal de tu casa allí.
-          - (ventana emergente)
-            - (Ventana emergente: necesita [número] coins para mover el portal de su casa allí.|advertencia=yes)
-        - (Condition: Con suficiente coins:)
+          - (pop-up)
+            - (Pop-up: You need [number] coins to move your house portal there.|warning=yes)
+        - (Condition: With enough coins:)
           - (La interfaz se cierra y el diálogo continúa a continuación).
-      - ((Información sobre herramientas sobre las opciones:))
-        - ((Ubicación donde está el portal:))
+      - ((Tooltips on the options:))
+        - ((Location where the portal is:))
           - {{Interface tooltip|Your main portal is already there!}}
-        - ((Otras ubicaciones sin suficiente coins:))
+        - ((Other locations without enough coins:))
           - {{Interface tooltip|You need [number] coins.}}
     - (removes=coins depending on the selected location)
     - [El portal de su casa se ha trasladado a [Location].]
   - [Choice]: ¿Puedes hablarme de construction contracts?
     - (continue|Contracts)
   - [Choice]: ¿Puedes hablarme sobre el Construction skillcape?
-    - (Condition: Con menos de 99 Construction:)
+    - (Condition: With below 99 Construction:)
       - **Player:** ¿Puedes hablarme sobre el Construction skillcape?
       - **Estate agent:** Como sabrás, skillcapes solo está disponible para maestros en una habilidad. ¡He pasado toda mi vida construyendo casas y ahora dedico mi tiempo a venderlas! Como muestra de mis habilidades llevo este Skillcape de Construction. Si alguna vez tienes la habilidad suficiente para construir un trono demoníaco, ven a hablar conmigo y te venderé un skillcape como el mío.
-    - (Condition: Con al menos 99 Construction:)
+    - (Condition: With at least 99 Construction:)
       - [Menu]: Selecciona una opción
         - [Choice]: Me pregunto si tienes algún skillcapes por ahí.
           - **Player:** Me pregunto si tienes algún skillcapes por ahí.
@@ -105,18 +105,18 @@
           - [Menu]: ¿Qué skillcape te gustaría comprar?
             - [Choice]: 99 skillcape.
               - **Player:** Me gustaría el 99 skillcape, por favor.
-              - (Condition: Si el player tiene un ring of charos (a) equipado:)
+              - (Condition: If the player has a ring of charos (a) equipped:)
                 - **Estate agent:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins por este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
                 - [Menu]: Elige una opción:
                   - [Choice]: ¿92.000 coins? Eso es demasiado caro.
                     - **Player:** Sé dónde encontrarte si cambio de opinión.
                   - [Choice]: De hecho, creo que tengo el dinero aquí.
-                    - (Condition: Si el player no tiene espacio backpack:)
+                    - (Condition: If the player has no backpack space:)
                       - **Estate agent:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar algo de espacio en backpack antes de que pueda venderte uno.
-                    - (Condition: Si el player no tiene suficiente dinero:)
+                    - (Condition: If the player does not have enough money:)
                       - **Player:** Pero desafortunadamente me equivoqué.
                       - **Estate agent:** Bueno, vuelve a verme cuando lo hagas.
-                    - (Condition: Si el player tiene suficiente dinero:)
+                    - (Condition: If the player has enough money:)
                       - (receives=Construction cape and Construction hood) (removes=92,000 coins)
                       - **Estate agent:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
                   - [Choice]: cond=If the player has 120 Construction|He dominado esta habilidad. ¿Hay algo más?
@@ -125,19 +125,19 @@
                     - **Estate agent:** Dices que eres un maestro. Ponte derecho, déjame echarte un vistazo...
                     - **Estate agent:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Construction master cape.
                     - (continue|120)
-              - (Condition: Si el player no tiene un ring of charos(a) equipado:)
+              - (Condition: If the player does not have a ring of charos (a) equipped:)
                 - **Estate agent:** Para eso necesito 99.000 coins.
                 - [Menu]: Elige una opción:
                   - [Choice]: ¿99.000 coins? Eso es demasiado caro.
                     - **Player:** Sé dónde encontrarte si cambio de opinión.
                   - [Choice]: De hecho, creo que tengo el dinero aquí.
-                    - (Condition: Sin 99.000 coins:)
+                    - (Condition: Without 99,000 coins:)
                       - **Player:** Pero, desafortunadamente, no tengo suficiente coins.
                       - **Estate agent:** Bueno, vuelve a verme cuando lo hagas.
-                    - (Condition: Con 99.000 coins:)
-                      - (Condition: Sin dos espacios backpack gratuitos:)
+                    - (Condition: With 99,000 coins:)
+                      - (Condition: Without two free backpack slots:)
                         - **Estate agent:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar algo de espacio en backpack antes de que pueda venderte uno.
-                      - (Condition: Con dos espacios backpack gratuitos:)
+                      - (Condition: With two free backpack slots:)
                         - (removes=99,000 coins) (receives=Construction cape and Construction hood)
                         - **Estate agent:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
                   - [Choice]: cond=If the player has 120 Construction|He dominado esta habilidad. ¿Hay algo más?
@@ -152,24 +152,24 @@
               - **Estate agent:** Con eso, sería mi {{Sic|honor}} ofrecerte el Master skillcape por el costo de 120,000 coins.
               - [Menu]: ¿Comprar Construction master cape por 120.000 coins?
                 - [Choice]: Sí.
-                  - (Condition: Sin espacio libre backpack:)
+                  - (Condition: Without free backpack space:)
                     - **Estate agent:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
-                  - (Condition: Con espacio gratuito backpack:)
-                    - (Condition: Sin 120.000 coins:)
+                  - (Condition: With free backpack space:)
+                    - (Condition: Without 120,000 coins:)
                       - No tienes suficiente dinero para comprar esta capa.
-                      - (ventana emergente)
-                        - (Ventana emergente: No tienes suficiente dinero para comprar esta capa.|advertencia=yes)
-                    - (Condition: Con 120.000 coins:)
+                      - (pop-up)
+                        - (Pop-up: You do not have enough money to purchase this cape.|warning=yes)
+                    - (Condition: With 120,000 coins:)
                       - (removes=120,000 coins) (receives=Construction master cape)
                       - (Action: Suena música Master cape.)
                 - [Choice]: No.
                   - (end)
         - [Choice]: He notado que hay un par de versiones de cada skillcape.
           - **Estate agent:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
-          - (Condition: Si usas el modelo antiguo:)
+          - (Condition: If you use the old model:)
             - **Estate agent:** Parece que actualmente estás usando el modelo anterior para tu Construction skillcape. ¿Quieres cambiar a uno más nuevo?
             - (continue)
-          - (Condition: Si utiliza el nuevo modelo:)
+          - (Condition: If you use the new model:)
             - **Estate agent:** Aún puedes elegir usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
             - (continue)
           - [Menu]: Selecciona una opción
@@ -184,7 +184,7 @@
                   - (end)
             - [Choice]: No, gracias.
               - **Estate agent:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
-              - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+              - (Condition: If the player uses the new model for any other skillcape:)
                 - **Estate agent:** ¡Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas!
                 - [Menu]: Selecciona una opción
                   - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.
@@ -213,18 +213,18 @@
 #### Después de completar No hay lugar como el hogar...
 
 - **Estate agent:** Por supuesto. ¡Mi magia puede reconstruir el exterior de tu casa con un estilo completamente nuevo! ¿Cuál te gustaría?
-- ((Lo siguiente se muestra en una interfaz titulada "SELECCIONE UNA OPCIÓN":))
+- ((The following is shown in an interface titled "SELECT AN OPTION":))
   - ¿Qué estilo de casa te gustaría?
     - [Choice]: 1. Madera básica (1.250)
-      - ((La interfaz se cierra y el diálogo continúa a continuación.))
+      - ((The interface closes and the dialogue continues below.))
     - [Choice]: 2. Piedra básica (2500)
-      - ((La interfaz se cierra y el diálogo continúa a continuación.))
+      - ((The interface closes and the dialogue continues below.))
     - [Choice]: 3. Piedra elegante (12.500)
-      - ((La interfaz se cierra y el diálogo continúa a continuación.))
+      - ((The interface closes and the dialogue continues below.))
     - [Choice]: 4. Piedra oscura (12.500)
-      - ((La interfaz se cierra y el diálogo continúa a continuación.))
+      - ((The interface closes and the dialogue continues below.))
     - [Choice]: 5. Madera estilo Fremennik (5.000)
-      - ((La interfaz se cierra y el diálogo continúa a continuación.))
+      - ((The interface closes and the dialogue continues below.))
 - (removes=coins corresponding to the cost of the selected option)
 - **Estate agent:** Tu casa ha sido redecorada.
 
@@ -232,19 +232,19 @@
 
 - [Menu]: Elige una opción:
   - [Choice]: cond=Without a contract|Quiero un nuevo contrato.
-    - (Condition: Sin espacio libre backpack:)
+    - (Condition: Without free backpack space:)
       - **Estate agent:** Necesitará algo de espacio en su backpack para un contrato.
-    - (Condition: Con espacio gratuito backpack:)
+    - (Condition: With free backpack space:)
       - (receives=Construction contract)
       - Te entregan un Construction contract.
       - **Estate agent:** Aquí tienes, esto acaba de llegar para [character] en [location].
       - **Player:** ¡Gracias! Veré qué puedo hacer.
   - [Choice]: cond=With a contract|¿Cuál es mi contrato actual?
     - **Estate agent:** Parece que estás ayudando a [character] en [location].
-    - (Condition: Si se ha perdido el Construction contract:)
-      - (Condition: Sin espacio libre backpack:)
+    - (Condition: If the Construction contract has been lost:)
+      - (Condition: Without free backpack space:)
         - **Estate agent:** Necesitará algo de espacio en su backpack para un contrato.
-      - (Condition: Con espacio gratuito backpack:)
+      - (Condition: With free backpack space:)
         - (receives=Construction contract)
         - Te entregan un Construction contract.
   - [Choice]: Háblame de contracts
@@ -259,9 +259,9 @@
   - [Choice]: cond=If the player has lost their plank box|He perdido mi caja de tablones.
     - **Player:** He perdido mi caja de tablones.
     - **Estate agent:** No te preocupes, tengo otro por ahí.
-    - (Condition: Sin espacio libre backpack:)
+    - (Condition: Without free backpack space:)
       - **Estate agent:** Vuelve cuando tengas algo de espacio libre en tu backpack.
-    - (Condition: Con espacio gratuito backpack:)
+    - (Condition: With free backpack space:)
       - (receives=plank box)
       - **Estate agent:** Pero intenta no perder este.
   - [Choice]: ¿Tienes algo que pueda comprar?

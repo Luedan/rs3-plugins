@@ -17,11 +17,11 @@
     - **Benny:** Por supuesto, [Guv/Missus]. Serán 50 piezas de oro, por favor.
     - **Seleccione una opción**
       - [Choice]: Claro, aquí tienes. {{anchor|buy}}
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - No puedes permitirte eso.
           - **Player:** Dios mío, parece que no tengo suficiente dinero conmigo.
           - **Benny:** Bueno, sin efectivo ni papel. Vive en la ignorancia.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - (removes=50 coins) (receives=newspaper)
           - {{RSFontAchievement|Read All About It}}
       - [Choice]: Uh, no gracias, he cambiado de opinión.
@@ -59,11 +59,11 @@
     - **Benny:**5 de tus mejores zemomarks.
     - **Seleccione una opción**
       - [Choice]: Claro, aquí tienes.
-        - (Condition: Si el player no tiene cinco zemomarks:)
+        - (Condition: If the player does not have five zemomarks:)
           - **Player:** Me temo que no tengo suficiente dinero conmigo.
           - **Benny:** ¡Sin efectivo, sin heraldo! <br>I no reparte folletos gratis, jefe.
           - (initial)
-        - (Condition: Si el player tiene cinco zemomarks:)
+        - (Condition: If the player has five zemomarks:)
           - (removes=five zemomarks) (receives=Newspaper (New Varrock))
           - [Benny te vende una copia del Nuevo Varrock Herald.]
           - (initial)

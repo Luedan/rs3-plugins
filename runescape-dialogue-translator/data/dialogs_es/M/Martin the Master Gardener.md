@@ -14,24 +14,24 @@
 
 - [Menu]: ¿Sobre qué te gustaría preguntar?
   - [Choice]: Skillcape de Farming.
-    - (Condition: Si el player no ha alcanzado el nivel 99 Farming:)
+    - (Condition: If the player hasn't reached level 99 Farming:)
       - **Player:** ¿Qué es esa capa que llevas puesta?
       - **Martin the Master Gardener:** Este es un Skillcape de Farming, ¿no es increíble? ¡Es un símbolo de mi habilidad como el mejor granjero del país!
-    - (Condition: Si el player ha alcanzado el nivel 99 Farming:)
+    - (Condition: If the player has reached level 99 Farming:)
       - [Menu]: Elige una opción:
         - [Choice]: ¿Puedo comprar un skillcape de Farming, por favor?
-          - (Condition: Si el player tiene un ring of charos (a) equipado:)
+          - (Condition: If the player has a ring of charos (a) equipped:)
             - **Martin the Master Gardener:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins por este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
             - [Menu]: Elige una opción:
               - [Choice]: ¿92.000 coins? Eso es demasiado caro.
                 - **Player:** Sé dónde encontrarte si cambio de opinión.
               - [Choice]: De hecho, creo que tengo el dinero aquí.
-                - (Condition: Si el player no tiene espacio backpack:)
+                - (Condition: If the player has no backpack space:)
                   - **Martin the Master Gardener:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar algo de espacio en backpack antes de que pueda venderte uno.
-                - (Condition: Si el player no tiene suficiente dinero:)
+                - (Condition: If the player does not have enough money:)
                   - **Player:** Pero desafortunadamente me equivoqué.
                   - **Martin the Master Gardener:** Bueno, vuelve a verme cuando lo hagas.
-                - (Condition: Si el player tiene suficiente dinero:)
+                - (Condition: If the player has enough money:)
                   - (receives=farming cape and farming hood) (removes=92,000 coins)
                   - **Martin the Master Gardener:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
               - [Choice]: cond=If the player has 120 Farming|He dominado esta habilidad. ¿Hay algo más?
@@ -41,35 +41,35 @@
                 - **Martin the Master Gardener:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Farming master cape.
                 - [Menu]: ¿Comprar Farming master cape por 120.000 coins?
                   - [Choice]: Sí.
-                    - (Condition: Si el player no tiene espacio backpack:)
+                    - (Condition: If the player has no backpack space:)
                       - **Martin the Master Gardener:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
-                    - (Condition: Si el player no tiene suficiente dinero:)
+                    - (Condition: If the player does not have enough money:)
                       - No tienes suficiente dinero para comprar esta capa.
-                    - (Condition: Si el player tiene suficiente dinero:)
+                    - (Condition: If the player has enough money:)
                       - (receives=farming master cape) (removes=120,000 coins)
                       - (Action: Suena música Master cape.)
                   - [Choice]: No.
                     - (end)
-        - (Condition: Si el player no tiene un ring of charos(a) equipado:)
+        - (Condition: If the player does not have a ring of charos (a) equipped:)
           - [Menu]: Elige una opción:
             - [Choice]: ¿99.000 coins? Eso es demasiado caro.
               - **Player:** Sé dónde encontrarte si cambio de opinión.
             - [Choice]: De hecho, creo que tengo el dinero aquí.
-              - (Condition: Si el player no tiene espacio backpack:)
+              - (Condition: If the player has no backpack space:)
                 - (arriba)
-              - (Condition: Si el player no tiene suficiente dinero:)
+              - (Condition: If the player does not have enough money:)
                 - (arriba)
-              - (Condition: Si el player tiene suficiente dinero:)
+              - (Condition: If the player has enough money:)
                 - (receives=farming cape and farming hood) (removes=99,000 coins)
                 - **Martin the Master Gardener:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
             - [Choice]: cond=If the player has 120 Farming|He dominado esta habilidad. ¿Hay algo más?
               - (arriba)
         - [Choice]: He notado que hay un par de versiones de cada skillcape.
           - **Martin the Master Gardener:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
-          - (Condition: Si usas el modelo antiguo:)
+          - (Condition: If you use the old model:)
             - **Martin the Master Gardener:** Parece que actualmente estás usando el modelo anterior para tu Farming skillcape. ¿Quieres cambiar a uno más nuevo?
             - (continue)
-          - (Condition: Si utiliza el nuevo modelo:)
+          - (Condition: If you use the new model:)
             - **Martin the Master Gardener:** Aún puedes elegir usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
             - (continue)
           - [Menu]: Selecciona una opción
@@ -84,7 +84,7 @@
                   - (end)
             - [Choice]: No, gracias.
               - **Martin the Master Gardener:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
-              - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+              - (Condition: If the player uses the new model for any other skillcape:)
                 - **Martin the Master Gardener:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
                 - [Menu]: Selecciona una opción
                   - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.
@@ -94,11 +94,11 @@
   - [Choice]: cond=If the Fairy series of quests has not been started|Charla General.
     - **Martin the Master Gardener:** No puedo chatear ahora, tengo demasiadas cosas de qué preocuparme.
   - [Choice]: cond=If the Fairy series of quests has been started|Habla sobre problemas agrícolas y hadas.
-    - (Condition: Después del cuento I de Fairy:)
+    - (Condition: After Fairy Tale I:)
       - {{transcript missing}}
-    - (Condition: Después de Fairy Cuento II:)
+    - (Condition: After Fairy Tale II:)
       - {{transcript missing}}
-    - (Condition: Después de Fairy Cuento III:)
+    - (Condition: After Fairy Tale III:)
       - **Player:** Oye, ¿cómo te va?
       - **Martin the Master Gardener:** Bien, gracias. Ahora estoy obteniendo cosechas excelentes de los parches, así que gracias por su ayuda.
       - **Martin the Master Gardener:** Como forma de agradecer, he conversado con todos los granjeros de parches... y estarán felices de mantener tus parches libres de maleza a partir de ahora, si así lo deseas. Sólo habla con uno de ellos.
@@ -108,7 +108,7 @@
     - **Player:** Encantado de poder ayudar.
   - [Choice]: cond=If Bringing Home the Bacon is completed|Llevar el tocino a casa.
     - **Player:** ¿Puedo cambiar el nombre del cerdo que me regalaste?
-    - ((Se abre la interfaz de selección Pig Name.))
+    - ((Pig Name Selection interface opens.))
   - [Choice]: El cerdo gigante.
     - **Player:** Un adulto por favor.
     - **Martin the Master Gardener:** ...¡Eso no es un paseo, ese es Pigzilla!
@@ -116,7 +116,7 @@
     - **Martin the Master Gardener:** No.
     - **Player:** ...
     - **Martin the Master Gardener:** Aunque puedes luchar si quieres.
-    - (Condition: Antes de llevar el tocino a casa:)
+    - (Condition: Before Bringing Home the Bacon:)
       - **Player:** ¿Lucha de cerdos? Eso es para niños. Creo que pasaré.
-    - (Condition: Durante y después de Bringing Home the Bacon:)
+    - (Condition: During and after Bringing Home the Bacon:)
       - **Player:** Hoy no. He tenido una mejor idea de lo que podemos hacer con los cerdos...

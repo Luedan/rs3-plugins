@@ -20,10 +20,10 @@
 - **Odd Billy:** ¡Screeeee! ¡Piratas! ¡Los piratas son lo que pasa! A menudo viajo como polizón en barcos para desplazarme, pero un día perdí todas mis notas sobre la región de Arc en una... visita no deseada.
 - **Player:** Lamento escuchar eso. ¿Cómo puedo ayudar?
 - **Odd Billy:** ¡Screeeee! ¡Solo necesito que observes las aves tropicales que veas y tomes algunas notas! ¡Nada demasiado exigente!
-- (Condition: Si el player no ha comenzado a observar aves:)
+- (Condition: If the player has not started watching birds:)
   - **Player:** ¡Eso parece bastante fácil! Seguro. Cuenta conmigo.
   - (continue)
-- (Condition: Si el player ya empezó a observar aves:)
+- (Condition: If the player has already started watching birds:)
   - **Player:** Quizás deberías echarle un vistazo a esto...
   - Le muestras tu diario.
   - **Odd Billy:** ¡Screeeee! ¡BRILLANTE! ¡Ese es un gran comienzo!

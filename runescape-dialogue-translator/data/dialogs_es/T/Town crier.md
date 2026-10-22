@@ -23,55 +23,55 @@
 #### Antes del evento navideño de 2023
 
 - **Town crier:** {{RSChat|There's a lot to look forward to this festive season! See Spencer south of the Burthorpe lodestone for more information.}}
-- ((Repetido en el chat:))
+- ((Repeated in the chat:))
   - {{Colour: {{Colour|#99FF99|There's a lot to look forward to this festive season! See Spencer south of the Burthorpe lodestone for more information.}}}}
 
 #### Evento de Pascua 2024
 
 - **Town crier:** {{RSChat|It's time to celebrate the joys of the spring with the Easter Bunny! See Sour Bunny south of the Burthorpe lodestone for more information.}}
-- ((Repetido en el chat:))
+- ((Repeated in the chat:))
   - {{Colour: {{Colour|#99FF99|It's time to celebrate the joys of the spring with the Easter Bunny! See Sour Bunny south of the Burthorpe lodestone for more information.}}}}
 
 #### Eventos de Halloween desde 2024
 
 - **Town crier:** {{RSChat|It's time to celebrate the spooky season with The Horsemen! Head south of the Burthorpe lodestone for more information.}}
-- ((Repetido en el chat:))
+- ((Repeated in the chat:))
   - {{Colour: {{Colour|#99FF99|It's time to celebrate the spooky season with The Horsemen! Head south of the Burthorpe lodestone for more information.}}}}
 
 #### Evento de Navidad 2024
 
 - **Town crier:** {{RSChat|It's time to celebrate the festive season in the Christmas Village! Head south of the Burthorpe lodestone for more information.}}
-- ((Repetido en el chat:))
+- ((Repeated in the chat:))
   - {{Colour: {{Colour|#99FF99|It's time to celebrate the festive season in the Christmas Village! Head south of the Burthorpe lodestone for more information.}}}}
 
 #### Eventos de Semana Santa desde 2025
 
 - **Town crier:** {{RSChat|Visit the Blooming Burrow to celebrate Easter in Gielinor!}}
-- ((Repetido en el chat:))
+- ((Repeated in the chat:))
   - {{Colour: {{Colour|#99FF99|Visit the Blooming Burrow to celebrate Easter in Gielinor!}}}}
 
 #### La Playa 2025
 
 - **Town crier:** {{RSChat|Head down to the Lumbridge Crater to join the summer fun at The Beach!}}
-- ((Repetido en el chat:))
+- ((Repeated in the chat:))
   - {{Colour: {{Colour|#99FF99|Head down to the Lumbridge Crater to join the summer fun at The Beach!}}}}
 
 #### Evento de Navidad 2025
 
 - **Town crier:** {{RSChat|It's time to celebrate the festive season in the Christmas Village! Head to the Grand Exchange for more information.}}
-- ((Repetido en el chat:))
+- ((Repeated in the chat:))
   - {{Colour: {{Colour|#99FF99|It's time to celebrate the festive season in the Christmas Village! Head to the Grand Exchange for more information.}}}}
 
 #### Celebraciones del 25 Aniversario
 
 - **Town crier:** {{RSChat|Happy 25th anniversary! Speak to Hans in Lumbridge castle courtyard to earn your inverted skillcapes and complete his set of celebratory tasks!}}
-- ((Repetido en el chat:))
+- ((Repeated in the chat:))
   - {{Colour: {{Colour|#99FF99|Happy 25th anniversary! Speak to Hans in Lumbridge castle courtyard to earn your inverted skillcapes and complete his set of celebratory tasks!}}}}
 
 #### Playa de arenas de luz solar
 
 - **Town crier:** {{RSChat|Head on over to Sunlight Sands Beach and join in the summer fun!}}
-- ((Repetido en el chat:))
+- ((Repeated in the chat:))
   - {{Colour: {{Colour|#99FF99|Head on over to Sunlight Sands Beach and join in the summer fun!}}}}
 
 ### Talk to
@@ -134,13 +134,13 @@
   - [Choice]: Cuéntame sobre las reglas de RuneScape.
     - **Player:** Cuéntame sobre las reglas de RuneScape.
     - **Town crier:** De inmediato. Echa un vistazo a mi libro aquí.
-    - (Condition: Si no se ha completado el logro 'Las reglas de enfrentamiento'.)
+    - (Condition: If the achievement 'The Rules of Engagement' hasn't been completed.)
       - color = blanco
       - (continue)
     - (opens=Rules of RuneScape (book))
   - {{anchor|tips}}[Elección]: ¿Puedes darme un consejo útil, por favor?
     - **Player:** ¿Puedes darme un consejo útil, por favor?
-      - ((Se selecciona un diálogo aleatorio entre los siguientes y luego continúa a continuación:))
+      - ((A random dialogue is selected from the following, then continues below:))
       - **Town crier:** ¡Ten cuidado al luchar contra magos! ¡Usar una armadura pesada puede reducir tu resistencia a Magic!
       - **Town crier:** Ten cuidado con los jugadores que intentan atraerte al wilderness. ¡Tus artículos no se pueden devolver si los pierdes!
       - **Town crier:** ¿Sabías que tener un PIN bancario puede ayudarte a proteger tus objetos valiosos?
@@ -183,7 +183,7 @@
   - [Choice]: ¿Puedes darme un consejo útil, por favor?
     - (above|tips)
   - [Choice]: Acerca del sistema de tareas...
-    - (Condition: Si el player ha completado las tareas medianas del conjunto Ardougne y aún no se ha reclamado la recompensa:)
+    - (Condition: If the player has completed the Medium tasks in the Ardougne set and the reward is not yet claimed:)
       - **Player:** He completado todas las tareas medianas del conjunto Ardougne.
       - **Town crier:** Así que sí. Tengo una capa especial que he guardado para ti.
       - ¡Ahora tienes un teletransporte de Manor Farm en tu libro de habilidades!
@@ -193,16 +193,16 @@
       - **Town crier:** Bueno, Cromperty me dijo que cualquiera que conozca se lo haya ganado se llevará una pequeña sorpresa agradable si habla con él todos los días. Ah, y parece tener un efecto mágico cuando lo usas en ese altar de elaboración de runas controlado por los zamorakianos, al sur.
       - **Town crier:** al oeste de la ciudad. También escuché rumores de la última persona que lo poseyó de que tiene un uso en la Torre de la Vida. Por supuesto, puede hacer incluso más cosas de las que no soy consciente.
       - (continue)
-    - (Condition: Si el player ha perdido su Ardougne cloak 2:)
+    - (Condition: If the player has lost their Ardougne cloak 2:)
       - **Town crier:** ¡Ah, el portador de la capa! ¿Cómo lo estás encontrando?
       - **Player:** Lo perdí.
-      - (Condition: Si el player no ha desbloqueado Ardougne cloak 3:)
+      - (Condition: If the player hasn't unlocked Ardougne cloak 3:)
         - **Town crier:** ¡Oh, no!
         - **Town crier:** No importa, tengo otro. Aquí...
         - (receives=Ardougne cloak 2)
         - [El town crier te entrega una capa.]
         - (continue)
-      - (Condition: Si el player ha desbloqueado Ardougne cloak 3:)
+      - (Condition: If the player has unlocked Ardougne cloak 3:)
         - **Town crier:** ¡Oh, no! Bueno, escuché que Aleck en Yanille tiene uno como el tuyo. Ve a hablar con él a ver si te da otro.
         - (continue)
     - [Menu]: Elige una opción:
@@ -229,63 +229,63 @@
       - [Choice]: ¿Puedo comprar un repuesto de la recompensa?
         - [Menu]: Elige una opción:
           - [Choice]: Ardougne cloak 1
-            - (Condition: Sin espacio backpack:)
+            - (Condition: Without backpack space:)
                 - **Town crier:** Necesitarás espacio en tu inventario.
-            - (Condition: Con espacio backpack:)
+            - (Condition: With backpack space:)
               - **Town crier:** Ardougne cloak 1? Sí, pero me temo que te costaría 1.500 coins.
               - [Menu]: ¿Comprar otro por 1.500 coins?
                 - [Choice]: si
-                  - (Condition: Sin 1.500 coins:)
+                  - (Condition: Without 1,500 coins:)
                     - **Town crier:** Sin embargo, no parece que puedas permitírtelo en este momento. Vuelve conmigo cuando puedas.
-                  - (Condition: Con 1.500 coins:)
+                  - (Condition: With 1,500 coins:)
                     - (removes=1,500 coins) (receives=Ardougne cloak 1)
                     - [Te entregan otro Ardougne cloak 1.]
                 - [Choice]: No
                   - **Player:** No, gracias.
           - [Choice]: Ardougne cloak 2
-            - (Condition: Sin espacio backpack:)
+            - (Condition: Without backpack space:)
                 - **Town crier:** Necesitarás espacio en tu inventario.
-            - (Condition: Con espacio backpack:)
+            - (Condition: With backpack space:)
               - **Town crier:** Ardougne cloak 2? Sí, pero me temo que te costaría 2500 coins.
               - [Menu]: ¿Comprar otro por 2500 coins?
                 - [Choice]: si
-                  - (Condition: Sin 2.500 coins:)
+                  - (Condition: Without 2,500 coins:)
                     - **Town crier:** Sin embargo, no parece que puedas permitírtelo en este momento. Vuelve conmigo cuando puedas.
-                  - (Condition: Con 2.500 coins:)
+                  - (Condition: With 2,500 coins:)
                     - (removes=2,500 coins) (receives=Ardougne cloak 2)
                     - [Te entregan otro Ardougne cloak 2.]
                 - [Choice]: No
                 - **Player:** No, gracias.
           - [Choice]: Ardougne cloak 3
-            - (Condition: Sin espacio backpack:)
+            - (Condition: Without backpack space:)
                 - **Town crier:** Necesitarás espacio en tu inventario.
-            - (Condition: Con espacio backpack:)
+            - (Condition: With backpack space:)
               - **Town crier:** Ardougne cloak 3? Sí, pero me temo que te costaría 7.500 coins.
               - [Menu]: ¿Comprar otro por 7.500 coins?
                 - [Choice]: si
-                  - (Condition: Sin 7.500 coins:)
+                  - (Condition: Without 7,500 coins:)
                     - **Town crier:** Sin embargo, no parece que puedas permitírtelo en este momento. Vuelve conmigo cuando puedas.
-                  - (Condition: Con 7.500 coins:)
+                  - (Condition: With 7,500 coins:)
                     - (removes=7,500 coins) (receives=Ardougne cloak 3)
                     - [Te entregan otro Ardougne cloak 3.]
                 - [Choice]: No
                 - **Player:** No, gracias.
           - [Choice]: Ardougne cloak 4
-            - (Condition: Sin espacio backpack:)
+            - (Condition: Without backpack space:)
                 - **Town crier:** Necesitarás espacio en tu inventario.
-            - (Condition: Con espacio backpack:)
-              - (Condition: Sin haber perdido Ardougne cloak 4:)
+            - (Condition: With backpack space:)
+              - (Condition: Without having lost Ardougne cloak 4:)
                 - **Town crier:** Ardougne cloak 4? Sí, pero me temo que te costaría 15.000 coins.
                 - [Menu]: ¿Comprar otro por 15.000 coins?
                   - [Choice]: si
-                  - (Condition: Sin 15.000 coins:)
+                  - (Condition: Without 15,000 coins:)
                     - **Town crier:** Sin embargo, no parece que puedas permitírtelo en este momento. Vuelve conmigo cuando puedas.
-                  - (Condition: Con 15.000 coins:)
+                  - (Condition: With 15,000 coins:)
                     - (removes=15,000 coins) (receives=Ardougne cloak 4)
                     - [Te entregan otro Ardougne cloak 4.]
                   - [Choice]: No
                     - **Player:** No, gracias.
-              - (Condition: Habiendo perdido Ardougne cloak 4:)
+              - (Condition: Having lost Ardougne cloak 4:)
                 - **Town crier:** Ardougne cloak 4? Como has perdido el tuyo, puedes tener uno gratis.
                 - (receives=Ardougne cloak 4)
                 - [Te entregan otro Ardougne cloak 4.]
@@ -299,13 +299,13 @@
       - [Choice]: Lo siento, me estaba yendo.
         - (end)
   - [Choice]: cond=Only in Ardougne and at least the medium Ardougne achievements are completed and the rewards claimed:|Alternar ubicación de teletransporte de Ring of Life
-    - (Condition: Con la ubicación actualmente configurada en Ardougne:)
+    - (Condition: With the location currently set to Ardougne:)
       - [Menu]: ¿Cambiar el anillo de la vida a Lumbridge?
         - [Choice]: Sí.
           - Rings of life ahora te teletransportará a Lumbridge.
         - [Choice]: No.
           - (end)
-    - (Condition: Con la ubicación actualmente configurada en Lumbridge:)
+    - (Condition: With the location currently set to Lumbridge:)
       - [Menu]: ¿Cambiar el anillo de la vida a Ardougne?
         - [Choice]: Sí.
           - Rings of life ahora te teletransportará a Ardougne.
@@ -359,7 +359,7 @@
     - (Se abre el Código de conducta).
   - [Choice]: ¿Puedes darme un consejo de moderación, por favor?
     - **Player:** ¿Puedes darme un consejo para moderar, por favor?
-    - ((Se selecciona un diálogo aleatorio entre los siguientes y luego continúa a continuación:))
+    - ((A random dialogue is selected from the following, then continues below:))
       - **Town crier:** Agrega otros moderadores de Player a tu lista de amigos para obtener consejos rápidos y apoyo moral en el juego. ¡Ayuda!
       - **Town crier:** ¿Sabías que los P-mods gratuitos PUEDEN visitar los foros de moderadores iniciando sesión en los foros habituales en la parte superior derecha de la pantalla del foro, a pesar de que dice Solo miembros?
       - **Town crier:** No caigas en la tentación de informar cualquier cosa que no hayas visto, sin importar cuánto confíes en el player, quien te informa.

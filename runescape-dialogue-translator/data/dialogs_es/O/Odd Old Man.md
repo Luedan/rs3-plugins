@@ -171,7 +171,7 @@
       - **Odd Old Man:** ¿Eh?
       - **Player:** Err... no importa.
       - *(Vuelve a las opciones iniciales.)*
-    - ((Si el player ha desbloqueado el título Ravensworn:))
+    - ((If the player has unlocked the Ravensworn title:))
       - ¡Todos saluden a los Cuervos!
         - **Odd Old Man:** Oh, no, ninguno de ustedes, locos.
         - **Odd Old Man:** Mira, te diré lo que les dije a los demás.
@@ -205,11 +205,11 @@
 
 #### Cuando se volvió a hablar con él después de resolver el rompecabezas
 
-- (Condition: Si el rastro continúa:)
+- (Condition: If the trail continues:)
   - (removes=the old clue scroll (hard) y caja de rompecabezas) (receives= the new clue scroll (hard))
   - [¡El Odd Old Man te ha dado otro pergamino de pistas!]
   - (continue)
-- (Condition: Si el sendero termina:)
+- (Condition: If the trail ends:)
   - (removes=the old clue scroll (hard) y caja de rompecabezas) (receives=reward casket (hard))
   - [¡Has encontrado un ataúd!]
   - (continue)

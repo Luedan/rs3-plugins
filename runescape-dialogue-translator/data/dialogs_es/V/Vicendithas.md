@@ -21,11 +21,11 @@
     - **Player:** ¿No eres el hijo de Kerapac?
     - **Vicendithas:** Sí. Reduzcamos la totalidad de mi existencia a quiénes fueron mis padres. Después de todo, mis propios logros son claramente inútiles.
     - (initial|initial-options)
-  - ((Sólo después de jugar Effigy Incubator después del tutorial:))
+  - ((Only after playing Effigy Incubator after the tutorial:))
     - Sobre tu investigación...
       - **ELIGE UNA OPCIÓN:**
         - ¿Qué has aprendido?
-          - ((Se muestra lo último de lo siguiente))
+          - ((The latest of the following is shown))
             - (({{AnchorText|Chapter 1):)}}
               - **Vicendithas:** Hasta ahora las efigies han podido reunir relativamente poca información de valor.
               - **Vicendithas:** Principalmente por el momento, las emociones y obsesiones más fuertes son todo lo que he podido captar.
@@ -196,13 +196,13 @@
               - **Vicendithas:** Reclamaré mi propio destino y saldré de la sombra de mi padre.
               - **Vicendithas:** Quién sabe, tal vez con el tiempo sea él quien quede atrapado en el mío.
               - (previous|research-findings)
-        - ((Sólo después de completar el effigy incubator al menos por segunda vez:))
+        - ((Only after completing the effigy incubator for at least the second time:))
           - [Ver un capítulo anterior]
             - (Se abre una interfaz para ver uno de los capítulos anteriores).
         - [hablar de otra cosa]
           - (initial|initial-options)
   - ¿Configurar la incubadora?
-    - ((Antes de que se haya instalado la incubadora para el mes:))
+    - ((Before the incubator has been set up for the month:))
       - **Vicendithas:** La incubadora no ha sido calibrada. ¿Quieres calibrar la máquina?
       - **SELECCIONA UNA OPCIÓN**
         - Sí.
@@ -210,10 +210,10 @@
           - {{Colour Turn the [Colour] valve.|color=#FF9999}}
         - No.
           - **Vicendithas:** Está bien, avísame cuando quieras.
-    - ((Una vez instalada la incubadora para el mes:))
+    - ((After the incubator has been set up for the month:))
       - **Vicendithas:** La incubadora ha sido calibrada. Si desea comenzar a recolectar materiales enriquecidos de los nodos, tire de la palanca.
       - **Vicendithas:** Recuerda, solo tendrás 5 minutos al mes para recolectar los materiales enriquecidos. La incubadora sólo puede generar cierta cantidad de energía.
-    - ((Después de que se haya completado la Distracción y Desvío del mes:))
+    - ((After the Distraction and Diversion has been completed for the month:))
       - **Vicendithas:** La incubadora ya ha sido calibrada este mes. Podrás recalibrar en [days] días.
   - ¿Puedo hacer el tutorial?
     - **¿REPRODUCIR EL TUTORIAL?**
@@ -239,21 +239,21 @@
 
 ##### Con materiales de repuesto
 
-- (Condition: Sin 100.000 puntos de incubadora:)
+- (Condition: Without 100,000 Incubator Points:)
   - **Vicendithas:** Veo que tienes algunos materiales. ¿Quieres entregarlos?
   - (continue)
-- (Condition: Con 100.000 puntos de incubadora:)
+- (Condition: With 100,000 Incubator Points:)
   - **Vicendithas:** Tienes el máximo de puntos de incubadora. ¿Aún quieres entregar tus materiales?
   - (continue)
 - [Menu]: Selecciona una opción
   - [Choice]: Sí.
     - (removes=materials)
-    - (Condition: Con menos de 100.000 Puntos Incubadora después de entregar:)
+    - (Condition: With under 100,000 Incubator Points after handing in:)
       - Recibes puntos de incubadora [número].
-    - (Condition: Con 100.000 Puntos Incubadora después de entregar:)
+    - (Condition: With 100,000 Incubator Points after handing in:)
       - Entregas tus materiales. Recibes puntos de incubadora [número]. Has alcanzado el máximo de puntos de incubadora.
-      - (ventana emergente)
-        - (Ventana emergente: entrega sus materiales. Recibe puntos de incubadora [número]. Ha alcanzado el máximo de puntos de incubadora).
+      - (pop-up)
+        - (Pop-up: You hand in your materials. You receive [number] incubator points. You have reached maximum incubator points.)
   - [Choice]: No.
     - (end)
 

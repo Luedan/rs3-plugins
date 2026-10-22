@@ -40,31 +40,31 @@
         - **Player:** Un objetivo noble. Te ayudaré si puedo.
         - (initial)
   - [Choice]: ¿Cuáles son las recompensas de tu colección?
-    - (Condition: Antes de recibir la lágrima del guardián y después de recibir la lágrima de Inanna:)
+    - (Condition: Before receiving guardian's tear and after receiving the tear of Inanna:)
       - **Player:** ¿Qué recompensas ofreces?
       - **Artiefax:** Tengo pocos bienes materiales que pueda ofrecer a cambio, pero estoy feliz de poder darte cronotas. Tienen valor para arqueólogos como usted.
       - **Artiefax:** También tengo una colección de piezas de tetrabrújula que puedo intercambiar.
-      - (Condition: Antes de recibir la lágrima de Inanna:)
+      - (Condition: Before receiving the tear of Inanna:)
         - **Artiefax:** También hay un artículo de gran importancia en mi colección. Se dice que una lágrima fue derramada por un guardián de Guthix hace muchos años.
         - **Artiefax:** Estoy dispuesto a desprenderme de él, si me ayudas.
         - **Artiefax:** Si lo combinas con especias caras, es posible que puedas crear una reliquia poderosa.
         - **Player:** Eso suena útil.
         - (previous)
       - (previous)
-    - (Condition: Después de recibir la lágrima del guardián pero antes de recibir la lágrima de Inanna:)
-      - (Condition: Sin lágrima de guardián:)
+    - (Condition: After receiving guardian's tear but before receiving the tear of Inanna:)
+      - (Condition: Without guardian's tear:)
         - **Player:** Perdí la lágrima de guardián que me diste.
         - **Artiefax:** Afortunadamente, un amable extraño me lo devolvió.
-        - (Condition: Sin espacio libre backpack:)
+        - (Condition: Without free backpack space:)
           - **Artiefax:** Por desgracia, no tienes espacio para llevarlo.
-        - (Condition: Con espacio gratuito backpack:)
+        - (Condition: With free backpack space:)
           - **Artiefax:** ¡Por favor, ten más cuidado esta vez!
           - [Menu]: ¿Tomar la lágrima del guardián de Artiefax?
             - [Choice]: Sí.
               - (receives=guardian's tear)
             - [Choice]: No.
               - (end)
-      - (Condition: Con lágrima de guardián:)
+      - (Condition: With guardian's tear:)
         - **Artiefax:** ¿Ya usaste la lágrima del guardián que te di?
         - **Player:** Todavía no, no.
         - **Artiefax:** Si lo combinas con especias caras, es posible que puedas crear una reliquia poderosa.

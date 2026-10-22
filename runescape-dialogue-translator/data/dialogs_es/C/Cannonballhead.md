@@ -8,7 +8,7 @@
 
 ## Dialogue Transcript
 
-- ((Si la recompensa taijitu no se ha recibido antes:))
+- ((If the reward taijitu hasn't been received before:))
   - Las balas de cañón, me refiero a los caníbales, te regalan un taijitu en agradecimiento por el rescate.
   - (continue)
 - **Player:** Er, hola, entonces... ¿no se supone que hay un parque temático por aquí en alguna parte?

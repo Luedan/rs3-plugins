@@ -39,18 +39,18 @@
           - [Choice]: No.
             - (end)
   - [Choice]: Habla sobre el Skulls pirate, Jed.
-    - (Condition: Antes de impresionar a los lugareños:)
+    - (Condition: Before Impressing the Locals:)
       - (ver|Impresionando a los lugareños)
-    - (Condition: Después de impresionar a los lugareños:)
+    - (Condition: After Impressing the Locals:)
       - **Trader Stan:** ¡Vaya a buscarlo, capitán!
-    - (Condition: Después de Jed Hunter:)
+    - (Condition: After Jed Hunter:)
       - **Player:** Jed está muerto, Stan. Jed está muerto.
-    - (Condition: Después de Ojo por Ojo:)
+    - (Condition: After Eye for an Eye:)
       - **Player:** El no-muerto de Jed, Stan. Y ahora también muerto. De nuevo. Bien esta vez, creo.
   - [Choice]: Habla de barcos chárter.
     - **Player:{{anchor|charter}}** Sí, me gustaría alquilar un barco.
     - **Trader Stan:** Por supuesto [sir/madam], ¿adónde te gustaría ir?
-    - ((Se abre la interfaz de destino de Charter Ship.))
+    - ((Charter Ship destination interface opens.))
 
 #### Senderos del tesoro
 

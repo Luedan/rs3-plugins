@@ -23,9 +23,9 @@
     - **Fisherman Frodi:** Gracias.
   - [Choice]: Su índice de aprobación.
     - **Player:** ¿Qué piensa la gente de mí por aquí?
-    - (Condition: Si el índice de aprobación de el player es bajo:)
+    - (Condition: If the player's approval rating is low:)
       - **Fisherman Frodi:** Realmente no te has ganado el corazón de los lugareños, si entiendes lo que quiero decir. En la última encuesta, sólo le agradaste al 25% de la población.
-    - (Condition: Si el índice de aprobación de el player es alto:)
+    - (Condition: If the player's approval rating is high:)
       - **Fisherman Frodi:** {{Transcript missing}}
 
 #### Intentando utilizar un lugar de pesca
@@ -43,9 +43,9 @@
     - (end)
   - [Choice]: Su índice de aprobación.
     - **Player:** ¿Qué piensa la gente de mí por aquí?
-    - (Condition: Si el índice de aprobación de el player es bajo:)
+    - (Condition: If the player's approval rating is low:)
       - **Fisherman Frodi:** {{Transcript missing}}
-    - (Condition: Si el índice de aprobación de el player es alto:)
+    - (Condition: If the player's approval rating is high:)
       - **Fisherman Frodi:** {{Transcript missing}}
-    - (Condition: Si el índice de aprobación de el player fue alto y luego disminuyó:)
+    - (Condition: If the player's approval rating was high and then dimished:)
       - **Fisherman Frodi:** Su gente está cada vez más insatisfecha con el régimen, Su Alteza Real. En la última encuesta, sólo el [*x*]% de la población lo apoyó.

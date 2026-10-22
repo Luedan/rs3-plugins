@@ -15,10 +15,10 @@
 #### Hablando con ella
 
 - **Celia Diggory:** Hola aventurero. ¿Has venido a ayudar con el esfuerzo de excavación?
-- (Condition: Si el player lleva pergaminos Senntisten:)
+- (Condition: If the player is carrying Senntisten scrolls:)
   - **Celia Diggory:** ¡Veo que has encontrado algo especial entre los escombros!
   - **Celia Diggory:** Realmente pertenece a un museo. ¿Podría trabajar en una traducción y darte una copia?
-  - (Condition: Si el jugador tiene un pergamino:)
+  - (Condition: If player has one scroll:)
     - [Menu]: {{transcript missing}}
       - [Choice]: Sí, toma mi pergamino para estudiarlo.
         - **Celia Diggory:** ¡Gracias! Me aseguraré de que esto llegue sano y salvo al museo Varrock.
@@ -31,7 +31,7 @@
             - (continue)
       - [Choice]: No, me gustaría conservarlo.
         - (continue)
-  - (Condition: Si el jugador tiene varios pergaminos:)
+  - (Condition: If player has multiple scrolls:)
     - [Menu]: {{transcript missing}}
       - [Choice]: Sí, toma mis pergaminos para estudiarlos.
         - **Celia Diggory:** ¡Gracias! Me aseguraré de que lleguen sanos y salvos al museo Varrock.

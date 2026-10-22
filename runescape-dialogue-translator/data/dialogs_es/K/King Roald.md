@@ -30,10 +30,10 @@
     - **King Roald:** Excelente, excelente. El Reino de Misthalin está en deuda contigo.
     - **Player:** ¿Estás en deuda conmigo? ¿Eso significa que me vas a dar fabulosas recompensas por mis esfuerzos?
     - **King Roald:** Por supuesto que no; sin embargo, si lo que buscas son recompensas, se me ocurre que podrías ser de aún más servicio para el reino.
-    - (Condition: Sin 43 Firemaking:)
+    - (Condition: Without 43 Firemaking:)
       - **King Roald:** Aunque es posible que primero necesites un poco más de experiencia en el cuidado de incendios. Si estás interesado, ven a hablar conmigo cuando hayas practicado un poco más.
       - [Necesitas tener al menos 43 Firemaking para iniciar All Fired Up.]
-    - (Condition: Con 43 Firemaking:)
+    - (Condition: With 43 Firemaking:)
       - (ver|Todos entusiasmados)
   - [Choice]: Saluda al rey.
     - **Player:** Saludos, majestad.
@@ -80,28 +80,28 @@
 - [Menu]: Selecciona una opción
   - [Choice]: cond=If the player has rewards to claim|Estoy aquí para reclamar mi recompensa.
     - **Player:** ¡Estoy aquí para reclamar mi recompensa!
-    - (Condition: Si obtienes el anillo de fuego por primera vez:)
+    - (Condition: If obtaining the ring of fire for the first time:)
       - **King Roald:** Para mantener seis balizas encendidas simultáneamente, te presento el Anillo de Fuego.
       - **Player:** ¡Muchas gracias!
       - (receives=ring of fire)
       - (continue)
-    - (Condition: Si el anillo de fuego se ha perdido:)
+    - (Condition: If the ring of fire has been lost:)
       - **King Roald:** ¿Perdiste el Anillo de Fuego, verdad? Por suerte parece que tengo uno de repuesto.
       - **Player:** ¡Muchas gracias!
       - (receives=ring of fire)
       - (continue)
-    - (Condition: Si obtiene los guantes contra llamas por primera vez:)
+    - (Condition: If obtaining the flame gloves for the first time:)
       - {{transcript missing}}
       - (continue)
-    - (Condition: Si se han perdido los guantes contra llamas:)
+    - (Condition: If the flame gloves have been lost:)
       - **King Roald:** Hmm, parece que has extraviado tus guantes Flame, ¡qué bueno que tenemos más!
       - **Player:** ¡Muchas gracias!
       - (receives=flame gloves)
       - (continue)
-    - (Condition: Si obtienes la azuela infernal por primera vez:)
+    - (Condition: If obtaining the inferno adze for the first time:)
       - {{transcript missing}}
       - (continue)
-    - (Condition: Si la azuela infernal se ha perdido:)
+    - (Condition: If the inferno adze has been lost:)
       - **King Roald:** Esto apareció recientemente en el objeto perdido y encontrado, tu Inferno Adze.
       - **Player:** ¡Muchas gracias!
       - (receives=inferno adze)
@@ -124,22 +124,22 @@
   - [Choice]: cond=If there aren't any rewards to claim|Cuéntame sobre las recompensas.
     - **Player:** Háblame sobre las recompensas.
     - **King Roald:** Ejem, bueno. Está muy bien tener una red de balizas, pero es importante asegurarse de que funcione correctamente... y siga funcionando. Por lo tanto, estoy dispuesto a ofrecer varias recompensas si estás dispuesto a ayudarme. Hay recompensas disponibles por mantener encendidas seis, diez y catorce balizas simultáneamente.
-    - (Condition: Si el player no ha desbloqueado el anillo de fuego:)
+    - (Condition: If the player hasn't unlocked the ring of fire:)
       - **King Roald:** Por mantener seis balizas encendidas, estoy dispuesto a otorgarte un anillo que te ayudará en Firemaking.
       - (continue)
-    - (Condition: Si el player ha desbloqueado el anillo de fuego:)
+    - (Condition: If the player has unlocked the ring of fire:)
       - **King Roald:** Te he concedido el Anillo de Fuego por mantener encendidas seis balizas.
       - (continue)
-    - (Condition: Si el player no ha desbloqueado los guantes de llamas:)
+    - (Condition: If the player hasn't unlocked the flame gloves:)
       - **King Roald:** Por mantener diez balizas encendidas, te daré un par de guantes que funcionarán en combinación con el anillo.
       - (continue)
-    - (Condition: Si el player ha desbloqueado los guantes de llama:)
+    - (Condition: If the player has unlocked the flame gloves:)
       - **King Roald:** Ya has reclamado los guantes de llamas por mantener encendidas diez balizas.
       - (continue)
-    - (Condition: Si el player no ha desbloqueado la azuela infernal:)
+    - (Condition: If the player hasn't unlocked the inferno adze:)
       - **King Roald:** Para mantener encendidas las catorce balizas, bueno, tengo el magnífico Inferno Adze, una herramienta de encantamiento de fuego tanto para Woodcutting como para Mining, de la que estoy dispuesto a desprenderme. Creo que lo encontrarás de gran utilidad.
       - (continue)
-    - (Condition: Si el player ha desbloqueado la azuela infernal:)
+    - (Condition: If the player has unlocked the inferno adze:)
       - **King Roald:** Por mantener las catorce balizas encendidas simultáneamente, se te ha otorgado el Inferno Adze. ¿Hay algo más?
       - (previous)
   - [Choice]: Me gustaría algunos detalles más, por favor.
@@ -172,7 +172,7 @@
 
 #### Senderos del tesoro
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only the first time:)
   - **King Roald:** ¿Hay alguna razón para que estés aquí?
   - **Player:** Bueno, estoy siguiendo la pista del tesoro.
   - **King Roald:** ¡Oh! Bien, entonces puedes responderme esta pregunta.
@@ -183,14 +183,14 @@
 
 - **King Roald:** Ingrese la respuesta a la pregunta.
 - Ingrese la cantidad:<br>[Input field]
-- ((Cuando se le da la respuesta incorrecta:))
+- ((When given the wrong answer:))
   - **King Roald:** Err, eso me suena un poco mal.
-- ((Cuando se le da la respuesta correcta:))
+- ((When given the correct answer:))
   - (removes=the old clue scroll (medium) y desplazamiento de desafío (medio))
-  - ((Si el rastro continúa:))
+  - ((If the trail continues:))
     - (receives=a new clue scroll (medium))
     - [¡King Roald te ha dado otro pergamino de pistas!]
-  - ((Si el sendero termina:))
+  - ((If the trail ends:))
     - (receives=reward casket (medium))
     - [¡Has encontrado un ataúd!]
   - **King Roald:** ¡Correcto!
@@ -202,27 +202,27 @@
     - (ver|Sacerdote en peligro)
   - [Choice]: Pregunta sobre el reino.
     - **Player:** Saludos, majestad. ¿Cómo le va al reino?
-    - (Condition: Durante la Batalla de Lumbridge:)
+    - (Condition: During the Battle of Lumbridge:)
       - **King Roald:** ¡Es terrible! ¿No lo has oído? ¡Zamorak y Saradomin están peleando cerca de Lumbridge! ¡Han destruido gran parte del castillo! ¡Eso es propiedad real! Estoy muy molesto.
       - **King Roald:** Le he encargado a Duke Horacio que solucione el problema y él afirma que necesita más tropas.
       - **King Roald:** Como puedes ver, estoy muy ocupado en este momento. Por favor, no me hagas perder el tiempo.
       - (initial)
-    - (Condition: Después de la Batalla de Lumbridge:)
+    - (Condition: After the Battle of Lumbridge:)
       - **King Roald:** ¡El reino vuelve a estar en paz después de la batalla de Lumbridge! Me alegra ver que Saradomin y Zamorak ya no están allí.
       - **King Roald:** ¡Realmente espero que ese tipo de cosas no vuelvan a suceder en mi reino! ¡Hay mucho que ordenar!
       - **King Roald:** Como puedes ver, estoy muy ocupado en este momento. Por favor, no me hagas perder el tiempo.
   - [Choice]: Pregunta por el árbol protegido.
-    - (Condition: Cuando el árbol estuvo enfermo:)
+    - (Condition: When the tree was diseased:)
       - **Player:** Su majestad, traigo noticias preocupantes. ¡El árbol que estás protegiendo cerca de la ribera occidental de Varrock ha enfermado!
       - **King Roald:** Gracias por informarme sobre esto. Ya he mandado llamar a un maestro jardinero para restaurarlo.
       - **Player:** Oh, bien. Odiaría que le pasara algo más a ese árbol.
       - (initial|init_2022_10_31)
-    - (Condition: Cuando el árbol murió:)
+    - (Condition: When the tree died:)
       - **Player:** Su majestad, traigo noticias preocupantes. ¡El árbol que estás protegiendo cerca de la ribera occidental de Varrock ha muerto!
       - **King Roald:** ¿Cómo sucedió esto? ¡Mandé llamar a un maestro jardinero para restaurarlo hace más de una semana! Tiene algunas explicaciones que dar. Una vez que él aparezca, al menos.
       - **Player:** Otro árbol desaparecido...
       - (initial|init_2022_10_31)
-    - (Condition: Cuando se replantó el árbol:)
+    - (Condition: When the tree was replanted:)
       - **Player:** Saludos, majestad. ¿Cómo le va al árbol al oeste del banco Varrock?
       - **King Roald:** Recibí informes de que el árbol había muerto. Yo mismo visité el árbol y vi crecer un árbol sano.
       - **Player:** Sí, ¡eso es porque Farmer Jimbo reemplazó el árbol muerto!

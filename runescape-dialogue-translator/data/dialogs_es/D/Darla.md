@@ -45,9 +45,9 @@
   - [Choice]: ¿Cuánto hemos avanzado?
     - (Va a la imagen del evento del progreso que se muestra con una descripción).
   - [Choice]: ¿Hay alguna recompensa que pueda reclamar?
-    - (Condition: Si no hay ninguno:)
+    - (Condition: If there are none:)
       - **Darla:** No tienes ninguna recompensa para reclamar en este momento.
-    - (Condition: Si hay recompensas:)
+    - (Condition: If there are rewards:)
     - **Darla:** Parece que tenías algunas recompensas no reclamadas. ¡Las agregué a tu inventario!
   - [Choice]: ¿Puedo comprar algunas herramientas más?
     - **Darla:** Puedo venderte 10 paquetes de herramientas pequeños y 10 paquetes de herramientas grandes. Una vez que los hayas usado, me temo que no puedo conseguir más, así que úsalos con cuidado.

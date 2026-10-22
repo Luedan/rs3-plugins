@@ -2,6 +2,12 @@ import os
 import sys
 import re
 
+def normalize_quotes(s):
+    if not s:
+        return s
+    s = s.replace('’', "'").replace('‘', "'").replace('“', '"').replace('”', '"')
+    return s
+
 def clean_dialogue_line(line):
     if not line:
         return None, None
@@ -16,6 +22,11 @@ def clean_dialogue_line(line):
     # Strip list bullet: '- ' or '+ ' or '* '
     line = re.sub(r'^(?:[-+]\s+|\*(?!\*)\s+)+', '', line).strip()
     
+    # Standardize wiki templates to markdown
+    line = re.sub(r'\{\{tselect\|([^}]+)\}\}', r'[Menu]: \1', line)
+    line = re.sub(r'\{\{topt\|cond=([^|]+)\|([^}]+)\}\}', r'[Choice]: cond=\1|\2', line)
+    line = re.sub(r'\{\{topt\|([^}]+)\}\}', r'[Choice]: \1', line)
+    
     # Wiki scene descriptions/notes in italics
     if line.startswith("''"):
         return None, None
@@ -27,33 +38,132 @@ def clean_dialogue_line(line):
         text = m_spk.group(2).strip()
         text = re.sub(r'\{\{RSChat\|(.*?)\}\}', r'\1', text)
         text = re.sub(r'\{\{Qact\|(.*?)\}\}', r'\1', text)
-        text = text.strip().strip("'\"")
+        text = re.sub(r'\{\{anchor\|[^}]*\}\}', '', text)
+        text = re.sub(r'\{\{sic[^}]*\}\}', '', text, flags=re.I)
+        text = re.sub(r'\{\{[^}]*\}\}', '', text)
+        text = re.sub(r'<br\s*/?>', ' ', text, flags=re.I)
+        text = re.sub(r'\s+', ' ', text).strip()
+        text = normalize_quotes(text).strip().strip("'\"")
         return speaker, text
         
     # Check [Choice]: ...
     m_choice = re.match(r'^\[Choice\]:\s*(.*)', line)
     if m_choice:
         rest = m_choice.group(1)
-        if '|' in rest:
-            rest = rest.split('|')[-1]
         rest = re.sub(r'\{\{RSChat\|(.*?)\}\}', r'\1', rest)
-        return '[Choice]', rest.strip().strip("'\"")
+        rest = re.sub(r'\{\{anchor\|[^}]*\}\}', '', rest)
+        rest = re.sub(r'\{\{sic[^}]*\}\}', '', rest, flags=re.I)
+        rest = re.sub(r'\{\{[^}]*\}\}', '', rest)
+        if 'cond=' in rest and '|' in rest:
+            rest = rest.split('|', 1)[1]
+        elif '|' in rest:
+            rest = rest.split('|')[-1]
+        rest = re.sub(r'<br\s*/?>', ' ', rest, flags=re.I)
+        rest = re.sub(r'\s+', ' ', rest).strip()
+        rest = normalize_quotes(rest).strip().strip("'\"")
+        return '[Choice]', rest
         
     # Check [Menu]: ...
     m_menu = re.match(r'^\[Menu\]:\s*(.*)', line)
     if m_menu:
         rest = m_menu.group(1)
+        rest = re.sub(r'\{\{anchor\|[^}]*\}\}', '', rest)
+        rest = re.sub(r'\{\{sic[^}]*\}\}', '', rest, flags=re.I)
+        rest = re.sub(r'\{\{[^}]*\}\}', '', rest)
         if '|' in rest:
             rest = rest.split('|')[0]
-        return '[Menu]', rest.strip().strip("'\"")
+        rest = re.sub(r'<br\s*/?>', ' ', rest, flags=re.I)
+        rest = re.sub(r'\s+', ' ', rest).strip()
+        rest = normalize_quotes(rest).strip().strip("'\"")
+        return '[Menu]', rest
         
     # Other normal dialogue line or choice
     line = re.sub(r'\{\{RSChat\|(.*?)\}\}', r'\1', line)
-    line = line.strip().strip("'\"")
+    line = re.sub(r'\{\{anchor\|[^}]*\}\}', '', line)
+    line = re.sub(r'\{\{sic[^}]*\}\}', '', line, flags=re.I)
+    line = re.sub(r'\{\{[^}]*\}\}', '', line)
+    line = re.sub(r'<br\s*/?>', ' ', line, flags=re.I)
+    line = re.sub(r'\s+', ' ', line).strip()
+    line = normalize_quotes(line).strip().strip("'\"")
     if line.startswith('{{') or line.startswith('(') or line.startswith("''") or line.endswith(':'):
         return None, None
         
     return None, line
+
+CUSTOM_NPC_INJECTIONS = {
+    "B": {
+        "Bob": {
+            "Great! I buy and sell pickaxes and hatchets. There are plenty to choose from, and I've some free samples too. Take your pick...or hatchet.":
+                "¡Genial! Compro y vendo picos y hachas. Hay mucho para elegir y también tengo algunas muestras gratis. Elija... o hacha.",
+            "Great! I buy and sell pickaxes and hatchet. There are plenty to choose from, and I've some free samples too. Take your pick...or hatchet.":
+                "¡Genial! Compro y vendo picos y hachas. Hay mucho para elegir y también tengo algunas muestras gratis. Elija... o hacha.",
+        }
+    },
+    "L": {
+        "Lumbridge Sage": {
+            "Jacquelyn, the Slayer master in Lumbridge courtyard, can suggest monsters for you to fight.":
+                "Jacquelyn, la Slayer master en el patio de Lumbridge, puede sugerirte monstruos contra los que luchar.",
+            "Jacquelyn, the Slayer master in Lumbridge courtyard, can suggest monsters for you to fight. Remember, you will do better if you have better armour and weapons and it's always worth carrying a bit of food to heal yourself.":
+                "Jacquelyn, la Slayer master en el patio de Lumbridge, puede sugerirte monstruos contra los que luchar. Recuerda, te irá mejor si tienes mejores armaduras y armas y siempre vale la pena llevar un poco de comida para curarte.",
+            "Jacquelyn, the Slayer Master in Lumbridge courtyard, can suggest monsters for you to fight.":
+                "Jacquelyn, la Slayer Master en el patio de Lumbridge, puede sugerirte monstruos contra los que luchar.",
+        }
+    },
+    "G": {
+        "Gee": {
+            "Hello there, can I help you?": "Hola, ¿puedo ayudarte?",
+            "What is this place?": "¿Qué lugar es este?",
+            "This is the town of Lumbridge, adventurer. The town is famous for its castle and river.":
+                "Este es el pueblo de Lumbridge, aventurero. El pueblo es famoso por su castillo y su río.",
+            "What is there to do around here?": "¿Qué se puede hacer por aquí?",
+            "There are goblins across the river to fight, sheep to shear, and trees to cut down.":
+                "Hay goblins al otro lado del río contra los que luchar, ovejas que esquilar y árboles que talar.",
+            "Do you know of any quests?": "¿Conoces alguna misión?",
+            "The Cook in Lumbridge Castle might need some help, or perhaps the Duke upstairs.":
+                "El Cook del castillo de Lumbridge podría necesitar ayuda, o tal vez el Duke en el piso superior.",
+            "Do you know what happened in the castle cellar?": "¿Sabes qué pasó en el sótano del castillo?",
+            "I heard some strange noises coming from down there, like digging or tapping on the walls.":
+                "Escuché ruidos extraños provenientes de allí abajo, como excavaciones o golpes en las paredes.",
+            "I'm fine, thanks.": "Estoy bien, gracias.",
+            "Take care on your travels!": "¡Cuídate en tus viajes!",
+        }
+    }
+}
+
+NPC_ALIASES = {
+    "L": {
+        "Phileas": "Lumbridge Sage",
+        "Lumbridge Guide": "Lumbridge Sage",
+        "Sage": "Lumbridge Sage",
+    },
+    "D": {
+        "Donnie": "Donie",
+        "Duke": "Duke Horacio",
+        "Horacio": "Duke Horacio",
+    },
+    "F": {
+        "Aereck": "Father Aereck",
+        "Urhney": "Father Urhney",
+    },
+    "R": {
+        "Restless Ghost": "Restless ghost",
+        "Ghost": "Restless ghost",
+    },
+    "C": {
+        "Lumbridge Cook": "Cook",
+    }
+}
+
+def clean_file_lines(lines):
+    out = []
+    for l in lines:
+        s = l.strip()
+        if not s:
+            continue
+        if re.match(r'^\{\{(?:incomplete|cleanup|wip|ToC|DEFAULTSORT:[^}]+)\}\}$', s, re.I):
+            continue
+        out.append(s)
+    return out
 
 def escape_lua_str(s):
     s = s.replace('\\', '\\\\')
@@ -100,8 +210,8 @@ def process_letter(letter):
         if len(en_parts) < 2 or len(es_parts) < 2:
             continue
             
-        en_lines = [l.strip() for l in en_parts[1].splitlines()]
-        es_lines = [l.strip() for l in es_parts[1].splitlines()]
+        en_lines = clean_file_lines(en_parts[1].splitlines())
+        es_lines = clean_file_lines(es_parts[1].splitlines())
         
         current_npc_pairs = {}
         for el, sl in zip(en_lines, es_lines):
@@ -115,10 +225,31 @@ def process_letter(letter):
                 total_pairs += 1
                 
         if current_npc_pairs:
-            npc_map[raw_npc_name] = current_npc_pairs
+            if raw_npc_name not in npc_map:
+                npc_map[raw_npc_name] = {}
+            npc_map[raw_npc_name].update(current_npc_pairs)
+
             base_name = re.sub(r'\s*\([^)]*\)', '', raw_npc_name).strip()
-            if base_name != raw_npc_name and base_name not in npc_map:
-                npc_map[base_name] = current_npc_pairs
+            if base_name:
+                if base_name not in npc_map:
+                    npc_map[base_name] = {}
+                npc_map[base_name].update(current_npc_pairs)
+
+    # Inyectar líneas personalizadas para esta letra si existen
+    if letter_upper in CUSTOM_NPC_INJECTIONS:
+        for c_npc, c_pairs in CUSTOM_NPC_INJECTIONS[letter_upper].items():
+            if c_npc not in npc_map:
+                npc_map[c_npc] = {}
+            for k, v in c_pairs.items():
+                npc_map[c_npc][k] = v
+                all_global[k] = v
+                total_pairs += 1
+
+    # Aplicar alias de NPCs para esta letra
+    if letter_upper in NPC_ALIASES:
+        for alias, target in NPC_ALIASES[letter_upper].items():
+            if target in npc_map and alias not in npc_map:
+                npc_map[alias] = dict(npc_map[target])
 
     lines = []
     lines.append("--- ============================================================================")

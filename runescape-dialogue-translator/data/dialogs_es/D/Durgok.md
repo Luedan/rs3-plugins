@@ -24,13 +24,13 @@
 ### Overhead dialogue
 
 - {{trandom}}
-  - (Condition: Diálogo 1:)
+  - (Condition: Dialogue 1:)
     - **Durgok:** {{RSChat|Burgers!}}
-  - (Condition: Diálogo 2:)
+  - (Condition: Dialogue 2:)
     - **Durgok:** {{RSChat|Hot frogburgers!}}
-  - (Condition: Diálogo 3:)
+  - (Condition: Dialogue 3:)
     - **Durgok:** {{RSChat|Frogburgers!}}
-  - (Condition: Diálogo 4:)
+  - (Condition: Dialogue 4:)
     - **Durgok:** {{RSChat|Frog in a bun!}}
-  - (Condition: Diálogo 5:)
+  - (Condition: Dialogue 5:)
     - **Durgok:** {{RSChat|Tasty frogburgers!}}

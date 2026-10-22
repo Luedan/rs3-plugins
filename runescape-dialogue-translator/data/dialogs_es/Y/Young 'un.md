@@ -12,13 +12,13 @@
 ### In the Dorgesh-Kaan nursery
 
 - {{Trandom}}
-  - ((Diálogo 1:))
+  - ((Dialogue 1:))
     - **Young 'un:** ¿Ga ga?
-  - ((Diálogo 2:))
+  - ((Dialogue 2:))
     - **Young 'un:** ¡Jejejeje!
-  - ((Diálogo 3:))
+  - ((Dialogue 3:))
     - **Young 'un:** *tos*
-  - ((Diálogo 4:))
+  - ((Dialogue 4:))
     - **Young 'un:** *gorgoteo*
-  - ((Diálogo 5:))
+  - ((Dialogue 5:))
     - **Young 'un:** *hip*

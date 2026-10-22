@@ -49,7 +49,7 @@
   - [Choice]: ¡Ve a buscar trabajo!
     - (arriba)
   - [Choice]: Bien, aquí tienes.
-    - (Condition: Si el player tiene coins en su bolsa de dinero:)
+    - (Condition: If the player has coins in their money pouch:)
       - (removes=1 coin)
       - **Charlie the Tramp:** ¡Oye, muchas gracias!
       - [Menu]: Selecciona una opción
@@ -59,7 +59,7 @@
           - **Player:** ¿No recibo algún tipo de pista de misión o algo así ahora?
           - **Charlie the Tramp:** ¿Eh? ¿Qué quieres decir? No fue por eso que te pedí dinero.
           - **Charlie the Tramp:** Sólo necesito comer...
-    - (Condition: Si el player no tiene coins en su bolsa de dinero:)
+    - (Condition: If the player does not have coins in their money pouch:)
       - **Player:** Oh, espera. No tengo ninguno, lo siento.
       - **Charlie the Tramp:** Gracias de todos modos.
   - [Choice]: ¿Hay algo en este callejón?
@@ -72,12 +72,12 @@
         - (continue|join)
       - [Choice]: ¿Crees que me dejarían unirme?
         - **Player:{{anchor|join}}** ¿Crees que me dejarían unirme?
-        - (Condition: Si el player aún no se ha unido a ninguna de las pandillas:)
+        - (Condition: If the player has not yet joined either gang:)
           - **Charlie the Tramp:** Nunca se sabe. Encontrarás a una señora allí llamada Katrine. Habla con ella.
           - **Charlie the Tramp:** Pero no la molestes, es bastante peligrosa.
-        - (Condition: Si el player se ha unido a Black Arm Gang:)
+        - (Condition: If the player has joined the Black Arm Gang:)
           - **Charlie the Tramp:** Tenía la impresión de que ya eras miembro...
-        - (Condition: Si el player se ha unido a la pandilla Phoenix:)
+        - (Condition: If the player has joined the Phoenix Gang:)
           - **Charlie the Tramp:** No. Eres colaborador de la pandilla Phoenix. No hay forma de que te dejen unirte ahora.
           - [Menu]: Selecciona una opción
             - [Choice]: ¿Cómo supiste que estaba en la pandilla Phoenix?
@@ -102,11 +102,11 @@
 - **Charlie the Tramp:** ¿Te ahorras un zemomark, jefe?
 - [Menu]: Elige una opción:
   - [Choice]: Aquí tienes un par de zemomarcas.
-    - (Condition: Si el player no tiene suficientes zemomarks:)
+    - (Condition: If the player does not have enough zemomarks:)
       - **Player:** Oh, en realidad, no tengo tanto.
       - **Charlie the Tramp:** Es difícil saber cuál de nosotros es el vagabundo.
       - (initial)
-    - (Condition: Si el player tiene suficientes zemomarks:)
+    - (Condition: If the player has enough zemomarks:)
       - (removes=two zemomarks)
       - [Le das a Charlie 2 zemomarks.]
       - **Charlie the Tramp:** ¡Salud, jefe!

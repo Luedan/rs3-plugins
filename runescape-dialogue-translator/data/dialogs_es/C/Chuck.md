@@ -11,7 +11,7 @@
 {{incomplete|Needs dialogue between quest and quest, and misc.}}
 - **Player:** Hola Chuck. ¿Cómo estás?
 - **Chuck:** Ah, Player. Es bueno verte de nuevo.
-- (Condition: Primera vez:)
+- (Condition: First time:)
   - **Chuck:** Antes de hablar, quería mencionar que un compañero agente mío está estacionado en el iceberg.
   - **Chuck:** Él está allí para ayudarte a espiar a los pingüinos, pero también está a cargo de una unidad de recopilación de inteligencia que está interrogando a un agente del KGP recién llegado.
   - **Chuck:** Quizás necesite tu ayuda para cazar pingüinos.
@@ -22,7 +22,7 @@
     - **Chuck:** Envía informes cuando puede, a través de una alfombra mágica.
     - **Chuck:** Los pingüinos están intentando reparar su T.A.R.D.I.S., pero como puedes imaginar, les resulta casi imposible conseguir piezas de repuesto.
     - **Chuck:** ¡Gielinor es seguro por el momento!
-    - (Condition: Primera vez después de desbloquear Invention si la misión se completó antes de hacerlo:)
+    - (Condition: First time after unlocking Invention if the quest was completed before doing so:)
       - **Chuck:** Ah, veo que finalmente has aprendido sobre Invention, aquí tengo algo para
       - (Action: el player gana 10.000 de experiencia en Invention.)
       - [Recibes 10k XP en Invention por tus habilidades inconscientes demostradas en Back to the Freezer.]
@@ -30,19 +30,19 @@
   - [Choice]: A algunos les gusta la búsqueda fría
     - **Player:** Pensé que Larry podría volver a andar por el zoológico. ¿Adónde se fue?
     - **Chuck:** Creemos que ha aprendido la ubicación de la base secreta de los pingüinos en Acheron. Lo llevamos al cuartel general de PBJ para interrogarlo.
-    - (Condition: Si Player no es propietario de Sheldon el Pingüino:)
+    - (Condition: If Player does not own Sheldon the Penguin:)
       - **Player:** ¿Qué pasa con su bebé pingüino? ¿Qué pasará con Sheldon?
       - **Chuck:** ¿Esa abominación? No sé. Larry no nos dejó deshacernos de él. Parece que quizás su lealtad ya no sea tan fuerte como solía ser.
-    - (Condition: Si Player es dueño del pingüino Sheldon:)
+    - (Condition: If Player owns Sheldon the Penguin:)
       - **Chuck:** ¿Cómo es esa abominación de pingüino de la que Larry no nos deja deshacernos? ¿Ha mostrado ya algún signo de traición?
       - **Player:** ¿Sheldon? Oh, en absoluto; De hecho, es un excelente compañero.
       - **Chuck:** No temas. Me quedaré aquí para recoger los pedazos después de que finalmente te traicione.
   - [Choice]: El escondite del pingüino
     - **Player:** Quería hablarte sobre los pingüinos espías.
-    - (Condition: Si Player no posee un dispositivo espía)
+    - (Condition: If Player does not own a spy device)
       - **Chuck:** Deberías llevar este dispositivo para espiar a los pingüinos. Debería resultarte útil ya que tiene una serie de funciones útiles que te ayudarán en tu misión. Primero, proporcionará pistas sobre todas las ubicaciones de los pingüinos. No puede localizarlo con exactitud, pero debería brindarle el área general para comenzar su búsqueda. Una vez que esté en el área, puede iniciar un escaneo que buscará en sus inmediaciones e identificará los pingüinos cercanos. A medida que veas más pingüinos, te ofreceré una mejora en el rango de escaneo y una nueva función de descarga que congelará a los pingüinos en su lugar.
       - (receives=penguin spy device)
-    - (Condition: Si Player ha perdido o destruido su dispositivo espía)
+    - (Condition: If Player has lost or destroyed their spy device)
       - **Chuck:** Hm... ¿parece que te falta tu dispositivo espía pingüino?
       - **Player:** Sólo me di vuelta por un segundo...
       - **Chuck:** Tienes suerte de que Larry haya hecho muchos de ellos. Por lo que puedo decir, de todos modos están hechos en su mayoría de papel de aluminio.
@@ -52,7 +52,7 @@
         - [Choice]: He encontrado más pingüinos.
           - **Player:** He encontrado más pingüinos.
           - **Chuck:** Hmm, se mueven rápidamente, esto no se anticipó.
-          - ((Sólo la primera vez:))
+          - ((Only on first time:))
             - **Player:** ¡Eso no es todo! Descubrí que hay pingüinos agentes secretos que también han comenzado a aparecer en Gielinor.
             - **Chuck:** Parece que están evolucionando rápidamente. Esta es una noticia realmente preocupante.
             - **Player:** ¿Qué debemos hacer al respecto?
@@ -62,17 +62,17 @@
             - **Player:** Lo siento. Enfoque total a partir de ahora.
             - (continue)
           - **Player:** Encontré [número] pingüino[s] esta semana.
-          - (Condition: Si encontró los 12 y aún no ha completado I C U K G P:)
+          - (Condition: If you have found all 12 and haven't completed I C U K G P yet:)
             - ¡Felicitaciones! Has completado: 'I C U K G P' - Encuentra 12 pingüinos espías y el oso polar en una sola semana e informa tus hallazgos.
             - (continue)
-          - (Condition: Si tienes puntos para gastar:)
+          - (Condition: If you have points to spend:)
             - **Chuck:** Bien hecho. Tienes puntos [número][s] para gastar. Quizás deberías pensar en reclamar tu recompensa.
             - (previous)
-          - (Condition: Si no tienes puntos acumulados:)
+          - (Condition: If you have no points saved up:)
             - **Chuck:** Es cierto, has hecho bien en encontrar espías. Sin embargo, no tienes puntos de pingüino guardados. ¡Sigue buscando!
             - (previous)
       - [Choice]: Tengo problemas para encontrar los pingüinos, ¿puedo darme una pista?
-        - ((Se muestra uno de los siguientes, dependiendo de la ubicación de los pingüinos:))
+        - ((One of the following is shown, depending on the location of the penguins:))
           - **Chuck:** He oído que hay un pingüino ubicado alrededor de un pueblo entre una gran torre y la mansión de vampyre.
           - **Chuck:** He oído que hay un pingüino ubicado alrededor de Ardougne.
           - **Chuck:** He oído que hay un pingüino ubicado alrededor de Feldip Hills, cerca de Gu'Tanoth.
@@ -129,7 +129,7 @@
           - **Chuck:** He oído que hay un pingüino ubicado donde entrena la Guardia Imperial.
           - **Chuck:** He oído que hay un pingüino ubicado donde estudian los magos.
           - (end)
-      - ((Sólo si la primera opción no fue seleccionada en último lugar:))
+      - ((Only if the first option wasn't selected last:))
         - [Choice]: Quiero reclamar mi recompensa.
           - (opens=Spy Club)
       - [Choice]: ¿Qué necesito hacer de nuevo?
@@ -145,10 +145,10 @@
         - **Chuck:** Muy bien.
         - (end)
   - [Choice]: He perdido el libro del reloj, ¿podría tener otro?
-    - (Condition: Si no tienes el libro del reloj)
+    - (Condition: If you don't own the clockwork book)
       - **Player:** He perdido el libro del mecanismo de relojería, ¿podría tener otro?
       - **Chuck:** Afortunadamente, Larry le puso un hechizo que me lo devolvió cuando lo perdiste. Aquí lo tienes.
-- (Condition: Si el player no tiene la carta de rescate:)
+- (Condition: If the player does not have the Ransom letter:)
   - [Choice]: Perdí la carta de rescate que te envió la Morsa, ¿podrías darme otra?
     - **Player:** ¿Puedo darme una copia de la carta que te envió la Morsa?
     - **Chuck:** Por supuesto.

@@ -72,7 +72,7 @@
   - [Choice]: Vale, me gustaría un trabajo.{{anchor|accept-job}}
     - **Erskine:** Excelente. Echa un vistazo a mi contracts y mira cuál te gustaría hacer.
     - (opens=Slayer Contracts){{anchor|slayer-contracts}}
-      - (Condition: Al seleccionar una tarea:)
+      - (Condition: Upon selecting a task:)
         - (receives=Slayer contract (Wilderness))
         - [El pergamino sólo puede seguir tu progreso si lo llevas mientras matas. Tráelo de vuelta cuando hayas terminado.]
   - [Choice]: No, gracias.{{anchor|decline-job}}
@@ -104,12 +104,12 @@
 
 ### Talk to him when having a contract in the backpack
 
-- (Condition: Si el contrato no se completa:)
-  - (Condition: Si el contrato es un contrato especial de asesino:)
+- (Condition: If the contract is not completed:)
+  - (Condition: If the contract is a special slayer contract:)
     - {{anchor|show-special-contract}} **Erskine:** Muéstrame tu contrato especial cuando lo hayas terminado.
-  - (Condition: Si el contrato es un contrato de asesino normal:)
+  - (Condition: If the contract is a regular slayer contract:)
     - {{anchor|show-regular-contract}} **Erskine:** Muéstrame tu contrato cuando lo hayas terminado.
-- (Condition: Si el contrato se completa:)
+- (Condition: If the contract is completed:)
   - **Erskine:** Veo que has completado ese contrato. Trabajo bueno. ¿Quieres XP de combate o dinero en efectivo?
   - {{anchor|choose}} [Menú]: Elige tu recompensa:
     - [Choice]: XP de combate: [número] XP
@@ -124,18 +124,18 @@
 - **Erskine:** Tienes un contrato en tu banco.<br>¿Te lo busco?
 - [Menu]: ¿Qué te gustaría decir?
   - [Choice]: Sí. Por favor tráelo.
-    - (Condition: Si el contrato es un contrato especial de asesino:)
+    - (Condition: If the contract is a special slayer contract:)
       - [Su contrato ha sido recuperado de su banco.]
-      - (Condition: Si el contrato no se completa:)
+      - (Condition: If the contract is not completed:)
         - (above|show-special-contract)
-      - (Condition: Si el contrato se completa:)
+      - (Condition: If the contract is completed:)
         - (above|choose)
-    - (Condition: Si el contrato es un contrato de asesino normal:)
+    - (Condition: If the contract is a regular slayer contract:)
       - [Su contrato ha sido recuperado de su banco.]
       - (above|show-regular-contract)
   - [Choice]: No gracias. Déjalo en paz.
     - **Erskine:** Muy bien, pero necesitarás tenerlo en tu inventario si quieres progresar en él.
-    - (Condition: Si el contrato es un contrato especial de asesino:)
+    - (Condition: If the contract is a special slayer contract:)
       - (above|show-special-contract)
-    - (Condition: Si el contrato es un contrato de asesino normal:)
+    - (Condition: If the contract is a regular slayer contract:)
       - (above|show-regular-contract)

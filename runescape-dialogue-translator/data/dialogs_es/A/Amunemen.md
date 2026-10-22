@@ -21,27 +21,27 @@
 - [Menu]: ¿Quieres ayudar?
   - [Choice]: Sí.
     - **Amunemen:** Sólo quiero agradecerte.
-    - (Condition: Si el tipo de misión de la ciudad es "Atacada por vida silvestre":)
+    - (Condition: If the city quest type is "Attacked by wildlife":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "En espera de entrega":)
+    - (Condition: If the city quest type is "Awaiting delivery":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Los niños no pueden dormir":)
+    - (Condition: If the city quest type is "Children can't sleep":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Coleccionista de curiosidades":)
+    - (Condition: If the city quest type is "Collector of curiosities":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Crondis está enojado":)
+    - (Condition: If the city quest type is "Crondis is angry":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Plagas de cultivos":)
+    - (Condition: If the city quest type is "Crop pests":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Ayuda de entrega":)
+    - (Condition: If the city quest type is "Delivery help":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "El hijo de un amigo muere lentamente":)
+    - (Condition: If the city quest type is "Friend's son slowly dying":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Nuevo producto":)
+    - (Condition: If the city quest type is "New product":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Slayer master":)
+    - (Condition: If the city quest type is "Slayer master":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "esfuerzo War":)
+    - (Condition: If the city quest type is "War effort":)
       - (continue)
   - [Choice]: No ahora mismo.
     - **Amunemen:** Está bien. Todo se convertirá en humo...
@@ -118,10 +118,10 @@
     - **Amunemen:** ¿Cómo te llevas consiguiendome [número] [item]? ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Amunemen ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Amunemen:** Genial. Gracias.
@@ -182,10 +182,10 @@
     - **Amunemen:**¿Cómo va tu búsqueda para encontrarme [número] [item], Player? ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Amunemen ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Amunemen:** Genial. Gracias.
@@ -244,10 +244,10 @@
     - **Amunemen:** ¡Ah, Player! Por favor, dime que has logrado adquirir [número] [item]. ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Amunemen ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Amunemen:** Genial. Gracias.
@@ -317,10 +317,10 @@
     - **Amunemen:** ¿Tienes el [número] [item] a mano, soldado? ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Amunemen ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Amunemen:** Genial. Gracias.
@@ -384,10 +384,10 @@
     - **Amunemen:** ¿Tienes los suministros, soldado? ¡Esta guerra no se financiará sola! ¡Necesitamos [número] [item]! ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Amunemen ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Amunemen:** Genial. Gracias.
@@ -439,11 +439,11 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: Hable sobre su tarea actual.
-    - (Condition: Si el monstruo son los calfitos:)
+    - (Condition: If the monster is kalphites:)
       - **Amunemen:** ¿Has matado a los calfitos de [número]? Se encuentran dentro de colmenas calfitas bajo las arenas del desierto. ¡Podríamos ganar esta guerra todavía! ([número] restante)
-    - (Condition: Si el monstruo es una plaga de ranas:)
+    - (Condition: If the monster is plague frogs:)
       - **Amunemen:** ¿Has matado las ranas plaga [número]? Por lo general, están adelgazando alrededor de Sophanem. ¡Podríamos ganar esta guerra todavía! ([número] restante)
-    - (Condition: Si el monstruo son cocodrilos:)
+    - (Condition: If the monster is crocodiles:)
       - **Amunemen:** ¿Has matado cocodrilos [número]? Los cocodrilos se encuentran deambulando alrededor del río hacia el norte. ¡Podríamos ganar esta guerra todavía! ([número] restante)
   - [Choice]: Abandona esta búsqueda de la ciudad.
     - (Action: La misión está completa.)
@@ -453,13 +453,13 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: Hable sobre su tarea actual.
-    - (Condition: Si el monstruo son los calfitos:)
+    - (Condition: If the monster is kalphites:)
       - **Amunemen:** ¿Has matado a los calfitos de [número]? Se encuentran dentro de colmenas calfitas bajo las arenas del desierto. ¡Podríamos ganar esta guerra todavía! ([número] restante)
       - (continue)
-    - (Condition: Si el monstruo es una plaga de ranas:)
+    - (Condition: If the monster is plague frogs:)
       - **Amunemen:** ¿Has matado las ranas plaga [número]? Por lo general, están adelgazando alrededor de Sophanem. ¡Podríamos ganar esta guerra todavía! (0 restante)
       - (continue)
-    - (Condition: Si el monstruo son cocodrilos:)
+    - (Condition: If the monster is crocodiles:)
       - **Amunemen:** ¿Has matado cocodrilos [número]? Los cocodrilos se encuentran deambulando alrededor del río hacia el norte. ¡Podríamos ganar esta guerra todavía! ([número] restante)
       - (continue)
     - **Player:** Sí, he matado al [monster].

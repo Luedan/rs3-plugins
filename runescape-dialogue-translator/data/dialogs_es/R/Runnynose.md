@@ -17,19 +17,19 @@
 - **Runnynose:** Nada. Sólo me das.
 - **Runnynose:** *sniff* No puedo dejar Globin porque hay tótems. Aterrador.
 - **Runnynose:** *sniff* No puedo recolectar mis propias perlas.
-- (Condition: Sin teleperlas:)
+- (Condition: Without any telepearls:)
   - **Player:** Lo siento, no lo hago.
   - **Runnynose:** ¡Ay! Runnynose triste.
-- (Condition: Con al menos una teleperla:)
+- (Condition: With at least one telepearl:)
   - **Player:** Tengo una teleperla.
   - **Runnynose:** ¡Oh, puede escapar! ¿Puedo tener?
   - [Menu]: ¿Dar teleperla a Runnynose?
     - [Choice]: Sí.
       - **Player:** Aquí tienes.
-      - (Condition: Primera vez:)
+      - (Condition: First time:)
         - (removes=1 x Bogolin telepearl) (receives=Divine Ichor V)
         - **Runnynose:** ¡Gracias! Puedes tener esto. De todos modos no es brillante.
-      - (Condition: Después:)
+      - (Condition: Afterwards:)
         - **Runnynose:** ¡Gracias! ¡Brillante! No puedo escapar de todos modos, solo recoge.
     - [Choice]: No.
       - **Runnynose:** ¡Ay! Runnynose triste.

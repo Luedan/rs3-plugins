@@ -14,18 +14,18 @@
 
 #### Cuando hablamos
 
-- ((Se dice al azar uno de los siguientes:))
+- ((A random one of the following is said:))
 <!-- "Variants" are too vague; need to specify if they're sitting, standing, or excavating. -->
-  - ((Variante 1:))
+  - ((Variant 1:))
     - **Arqueólogo:** Oye, estoy tratando de descansar aquí.
-  - ((Variante 2:))
+  - ((Variant 2:))
     - **Arqueólogo:** He perdido mi pincel favorito.
-  - ((Variante 3:))
+  - ((Variant 3:))
     - **Arqueólogo:** Me duelen los antebrazos por llevar este azadón todo el día.
-  - ((Variante 4:))
+  - ((Variant 4:))
     - **Arqueólogo:** Por favor, no me denuncies al gremio. Sólo estoy tratando de relajar mis músculos.
     - **Arqueólogo:** Estoy sufriendo un dolor muscular severo de aparición tardía debido a todas las excavaciones de los últimos días.
-  - ((Variante 5:))
+  - ((Variant 5:))
     - **Arqueólogo:** ¡No creerás lo que pasó!
     - **Player:** ¿Qué pasó?
     - **Arqueólogo:** Mientras excavaba cerca, encontré la vasija más mágica...
@@ -41,17 +41,17 @@
 
 ##### En puntos de excavación distintos de Hellfire Forge
 
-- ((Cada cinco minutos se podrá ver lo siguiente:))
+- ((The following can be seen every five minutes:))
   - **Arqueólogo:** {{RSChat|That belongs in a museum!}}
 
 ##### En el punto de acceso a la excavación de Hellfire Forge
 
-- ((Cada cinco minutos se podrá ver lo siguiente:))
+- ((The following can be seen every five minutes:))
   - **Arqueólogo:** {{RSChat|Wahoo! I found something!}}
 
 ##### Mujer sin sombrero
 
-- ((Cada cinco minutos se puede ver uno de los siguientes:))
+- ((One of the following can be seen every five minutes:))
   - **Arqueólogo:** {{RSChat|Ooh, how wonderful!}}
   - **Arqueólogo:** {{RSChat|Ooh, ooh, how wonderful!}}
 
@@ -60,36 +60,36 @@
 
 ##### Sitio de excavación Kharid-et
 
-- ((Cada cinco minutos se podrá ver lo siguiente:))
+- ((The following can be seen every five minutes:))
   - **Arqueólogo:** {{RSChat|Oh, oh, how wonderful!}}
 
 ##### Sitio de excavación Everlight
 
-- ((Cada cinco minutos se podrá ver lo siguiente:))
+- ((The following can be seen every five minutes:))
   - **Arqueólogo:** {{RSChat|Oh! Hmm.}}
 
 ##### Sitio de excavación Stormguard Citadel
 
-- ((Cada cinco minutos se podrá ver lo siguiente:))
+- ((The following can be seen every five minutes:))
   - **Arqueólogo:** {{RSChat|That belongs in a museum!}}
   - **Arqueólogo:** {{RSChat|Ooh, shiny!}}
 
 ##### Sitio de excavación de Warforge
 
-- ((Cada cinco minutos se podrá ver lo siguiente:))
+- ((The following can be seen every five minutes:))
   - **Arqueólogo:** {{RSChat|Ooh, a fossil! I brought my magnifying glass!}}
 
 ##### Sitio de excavación de Orthen
 
-((Los arqueólogos del sitio de excavación de Orthen no dicen nada.))
+((The archaeologists at the Orthen Dig Site do not say anything.))
 
 ### At some materials carts and excavation sites
 
-- ((Se dice al azar uno de los siguientes:))
-  - ((Variante 1:))
+- ((A random one of the following is said:))
+  - ((Variant 1:))
     - **Arqueólogo** ¿Alguien ha visto mi té? No es posible que lo haya extraviado con tanta frecuencia...
     - **Arqueólogo** ¡Alguien tiene que estar jugando conmigo y ya casi he tenido suficiente!
-  - ((Variante 2:))
+  - ((Variant 2:))
     - **Arqueólogo** ¡Hola!
     - **Player** ¡Hola! Pareces bastante emocionado.
     - **Arqueólogo** Mire dónde estamos, tómese un momento para darse cuenta de que somos algunos de los primeros en años y años en ver estas cosas.
@@ -104,9 +104,9 @@
     - **Player** ¿Huesos?
     - **Arqueólogo** Podría haber elementos enterrados aquí que nos ayudarían a aprender sobre diferentes culturas según con qué fue enterrada la persona o criatura.
     - **Arqueólogo** Basta de charla, tengo que ponerme a trabajar. Debo impresionar a Reiniger.
-  - ((Variante 3:))
+  - ((Variant 3:))
     - **Arqueólogo** ¡Imagínese lo que podríamos descubrir aquí! Estoy muy entusiasmado con la historia de este lugar.
-  - ((Variante 4:))
+  - ((Variant 4:))
     - **Arqueólogo** El mundo es hermoso, ¿no crees?
     - **Player** Lo es.
     - **Arqueólogo** Imagínese cómo se veía este lugar en su mejor momento. Debe haber sido todo un espectáculo.

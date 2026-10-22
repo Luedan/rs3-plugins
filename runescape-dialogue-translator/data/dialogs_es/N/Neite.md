@@ -36,12 +36,12 @@
     - **Player:** ¿De quién eres entonces el gato?
     - **Neite:** Soy mi propio gato. No soy propiedad de nadie, aunque permito que el sumo sacerdote de Icthlarin me alimente.
     - **Player:** Entonces, ¿cómo es él?
-    - (Condition: Antes:)
+    - (Condition: Before:)
     - **Neite:** El viejo sumo sacerdote era un old man vengativo y malhumorado. Si alguna vez no se salía con la suya, haría sufrir a todos hasta que alguien se desmoronara y cediera a su voluntad. Debo decir que respetaba eso en él.
     - **Neite:** El nuevo sumo sacerdote es un poco una toalla mojada. Es muy inseguro de sí mismo y tiene poco respeto por parte de la gente del pueblo.
     - **Player:** Eso es extraño. Nadie con quien hablé tenía nada malo que decir sobre él.
     - **Neite:** Eso probablemente se debe a que la mayoría de la gente del pueblo huyó tan pronto como estalló la plaga. No tenían confianza en él para arreglar las cosas. Aunque debo decir que me trata mucho mejor que el viejo sumo sacerdote.
-    - (Condition: Después:)
+    - (Condition: After:)
     - **Neite:** El nuevo sumo sacerdote solía ser una toalla un poco mojada. Era muy inseguro de sí mismo y tenía poco respeto por parte de la gente del pueblo.
     - **Player:** Estás hablando en tiempo pasado.
     - **Neite:** Sí, bueno, desde que la gente del pueblo regresó, tienen mucha más confianza en él y creo que puede haber ganado algo más de confianza en sí mismo.
@@ -147,12 +147,12 @@
   - **Player:** ¿De quién eres entonces el gato?
   - **Neite:** Soy mi propio gato. No soy propiedad de nadie, aunque permito que el sumo sacerdote de Icthlarin me alimente.
   - **Player:** Entonces, ¿cómo es él?
-    - (Condition: Antes:)
+    - (Condition: Before:)
     - **Neite:** El viejo sumo sacerdote era un old man vengativo y malhumorado. Si alguna vez no se salía con la suya, haría sufrir a todos hasta que alguien se desmoronara y cediera a su voluntad. Debo decir que respetaba eso en él.
     - **Neite:** El nuevo sumo sacerdote es un poco una toalla mojada. Es muy inseguro de sí mismo y tiene poco respeto por parte de la gente del pueblo.
     - **Player:** Eso es extraño. Nadie con quien hablé tenía nada malo que decir sobre él.
     - **Neite:** Eso probablemente se debe a que la mayoría de la gente del pueblo huyó tan pronto como estalló la plaga. No tenían confianza en él para arreglar las cosas. Aunque debo decir que me trata mucho mejor que el viejo sumo sacerdote.
-    - (Condition: Después:)
+    - (Condition: After:)
     - **Neite:** El nuevo sumo sacerdote solía ser una toalla un poco mojada. Era muy inseguro de sí mismo y tenía poco respeto por parte de la gente del pueblo.
     - **Player:** Estás hablando en tiempo pasado.
     - **Neite:** Sí, bueno, desde que la gente del pueblo regresó, tienen mucha más confianza en él y creo que puede haber ganado algo más de confianza en sí mismo.

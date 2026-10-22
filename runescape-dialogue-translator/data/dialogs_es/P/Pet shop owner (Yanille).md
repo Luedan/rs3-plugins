@@ -40,7 +40,7 @@
             - **Player:** Buen punto, guardaré algunos artículos.
         - [Choice]: bulldog
           - **Player:** No, el bulldog.
-          - (Condition: Si el player tiene espacio libre en el inventario:)
+          - (Condition: If the player has free inventory space:)
             - (above|priceandresponsibility)
             - [Menu]: Selecciona una opción
               - [Choice]: Está bien, me quedo con el bulldog.
@@ -48,11 +48,11 @@
                 - **Propietario de la tienda de mascotas:** ¡Ahí lo tienes! Espero que ustedes dos se lleven bien.
               - [Choice]: No gracias.
                 - **Player:** No, gracias.
-          - (Condition: Si el inventario de el player está lleno:)
+          - (Condition: If the player's inventory is full:)
             - (above|inventoryfull)
         - [Choice]: dálmata
           - **Player:** No, el dálmata.
-          - (Condition: Si el player tiene espacio libre en el inventario:)
+          - (Condition: If the player has free inventory space:)
             - (above|priceandresponsibility)
             - [Menu]: Selecciona una opción
               - [Choice]: Bien, me quedo con el dálmata.
@@ -60,11 +60,11 @@
                 - **Propietario de la tienda de mascotas:** ¡Ahí lo tienes! Espero que ustedes dos se lleven bien.
               - [Choice]: No gracias.
                 - **Player:** No, gracias.
-          - (Condition: Si el inventario de el player está lleno:)
+          - (Condition: If the player's inventory is full:)
             - (above|inventoryfull)
         - [Choice]: Galgo
           - **Player:** No, el galgo.
-          - (Condition: Si el player tiene espacio libre en el inventario:)
+          - (Condition: If the player has free inventory space:)
             - (above|priceandresponsibility)
             - [Menu]: Selecciona una opción
               - [Choice]: Está bien, me quedo con el galgo.
@@ -72,11 +72,11 @@
                 - **Propietario de la tienda de mascotas:** ¡Ahí lo tienes! Espero que ustedes dos se lleven bien.
               - [Choice]: No gracias.
                 - **Player:** No, gracias.
-          - (Condition: Si el inventario de el player está lleno:)
+          - (Condition: If the player's inventory is full:)
             - (above|inventoryfull)
         - [Choice]: terrier
           - **Player:** No, el terrier.
-          - (Condition: Si el player tiene espacio libre en el inventario:)
+          - (Condition: If the player has free inventory space:)
             - (above|priceandresponsibility)
             - [Menu]: Selecciona una opción
               - [Choice]: Está bien, me quedo con el terrier.
@@ -84,11 +84,11 @@
                 - **Propietario de la tienda de mascotas:** ¡Ahí lo tienes! Espero que ustedes dos se lleven bien.
               - [Choice]: No gracias.
                 - **Player:** No, gracias.
-          - (Condition: Si el inventario de el player está lleno:)
+          - (Condition: If the player's inventory is full:)
             - (above|inventoryfull)
         - [Choice]: perro pastor
           - **Player:** No, el perro pastor.
-          - (Condition: Si el player tiene espacio libre en el inventario:)
+          - (Condition: If the player has free inventory space:)
             - (above|priceandresponsibility)
             - [Menu]: Selecciona una opción
               - [Choice]: Está bien, me quedo con el perro pastor.
@@ -96,9 +96,9 @@
                 - **Propietario de la tienda de mascotas:** ¡Ahí lo tienes! Espero que ustedes dos se lleven bien.
               - [Choice]: No gracias.
                 - **Player:** No, gracias.
-          - (Condition: Si el inventario de el player está lleno:)
+          - (Condition: If the player's inventory is full:)
             - (above|inventoryfull)
-    - (Condition: Si el player ya tiene un cachorro siguiéndolo o en el banco o inventario:)
+    - (Condition: If the player already has a puppy following them or in the bank or inventory:)
       - **Dueño de una tienda de mascotas:** Me preguntaste eso la última vez que recogiste un perro y no puedo venderte otro.
   - [Choice]: Entonces, ¿qué tipo de mascotas hay disponibles?
     - **Player:** Entonces, ¿qué tipo de mascotas hay disponibles?
@@ -127,9 +127,9 @@
       - {{tinput|How many will you sell? (25 coins each, you have #)}}
       - sombra=si
       - (end)
-    - (Condition: Si el player no tiene fragmentos de espíritu:)
+    - (Condition: If the player doesn't have any spirit shards:)
       - **Player:** Gracias, lo tendré en cuenta.
-- (Condition: Si a el player se le ha escapado su cachorro, o lo han destrozado:)
+- (Condition: If the player has had their puppy run away, or they have destroyed it:)
   - [Choice]: ¿Tienes algún perro callejero?
     - **Player:** ¿Tienes algún perro callejero?
     - **Propietario de la tienda de mascotas:** Déjame revisar mis registros...

@@ -11,10 +11,10 @@
 
 ### Talk-to
 
-- (Condition: Si el nombre Fremennik de el player es Bardur:)
-  - (Condition: Si el player es hombre:)
+- (Condition: If the player's Fremennik name is Bardur:)
+  - (Condition: If the player is male:)
     - **Bardur:** ¡Ah, Bardur mi hermano de nombre! ¡Qué suerte que nos encontremos aquí así!
-  - (Condition: Si el player es mujer:)
+  - (Condition: If the player is female:)
     - **Bardur:** ¡Ah, Bardur, mi hermana de nombre! ¡Qué suerte que nos encontremos aquí así!
 - **Player:** Hola, Bardur. ¿Te estás divirtiendo?
 - **Bardur:** ¡He estado aquí todo el día, masacrando a los engendros de boca de daga para que ninguno pase!
@@ -27,9 +27,9 @@
 - **Bardur:** Ah, ¿no viniste preparado [Fremennik name]?
 - **Bardur:** ¡No tengo nada de sobra, pero mi equipo se debilita bajo el ataque de los engendros de boca de daga!
 - **Bardur:** Te cambiaré un tiburón finamente cocido si tienes un reemplazo para mi yelmo, mi escudo o mi espada...
-- (Condition: Si el player no tiene una espada Fremennik, un escudo Fremennik o un yelmo Fremennik:)
+- (Condition: If the player does not have a Fremennik blade, Fremennik shield, or Fremennik helm:)
   - **Player:** Lo siento, no tengo nada que busques...
-- (Condition: Si el player tiene una espada Fremennik, un escudo Fremennik o un yelmo Fremennik:)
+- (Condition: If the player has a Fremennik blade, Fremennik shield, or Fremennik helm:)
   - **Bardur:** Dame cualquier equipo que quieras intercambiar y te pagaré un tiburón por ello.
 
 ### Using a Fremennik blade, Fremennik shield, or Fremennik helm on Bardur

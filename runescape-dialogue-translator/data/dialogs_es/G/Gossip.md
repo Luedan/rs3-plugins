@@ -22,14 +22,14 @@
 ##### Sin cumplir los requisitos de la misión de King's Ransom
 
 - **Gossip:** Hmm, lástima que no tengas mucha experiencia. He oído que hay más problemas en la Mansión Sinclair.
-- ((Se abre la interfaz de descripción general de misiones para King's Ransom.))
+- ((Quest Overview interface for King's Ransom opens.))
   - [Choice]: No ahora mismo
     - **Player:** Coincidencia muy extraña, pero realmente no tengo tiempo para investigarla ahora.
     - **Gossip:** Ah, qué lástima. Tendré que obtener noticias de mis otras fuentes.
   - [Choice]: Aceptar misión
     - No cumples los requisitos para empezar: 'King's Ransom'.
-    - (ventana emergente)
-      - (Ventana emergente: No cumples con los requisitos para comenzar: 'King's Ransom'.|advertencia=yes)
+    - (pop-up)
+      - (Pop-up: You do not meet the requirements to start : 'King's Ransom'.|warning=yes)
 
 ##### Con los requisitos de la misión para King's Ransom
 

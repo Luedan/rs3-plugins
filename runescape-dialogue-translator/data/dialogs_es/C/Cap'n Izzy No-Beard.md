@@ -43,61 +43,61 @@
     - (initial|options)
   - [Choice]: Me gustaría utilizar Agility Arena, por favor.
     - **Player:** Me gustaría utilizar Agility Arena, por favor.
-    - (Condition: Si el player no ha completado Rocking Out:)
+    - (Condition: If the player has not completed Rocking Out:)
       - **Cap'n Izzy No-Beard:** Sí, la entrada será 200 coins.
       - **Loro:** ¡Piezas de ocho!
       - **Cap'n Izzy No-Beard:** ¡Una advertencia, de todo corazón! ¡Hay trampas peligrosas ahí abajo!
       - [Menu]: Selecciona una opción
         - [Choice]: Bien, aquí tienes 200 coins.
-          - (Condition: Si el player no tiene suficiente dinero:)
+          - (Condition: If the player does not have enough money:)
             - No puedes permitirte eso.
             - **Player:** No tengo el dinero encima en este momento.
             - **Loro:** *graznado*
             - **Cap'n Izzy No-Beard:** ¡No coins, no hay entrada!
-          - (Condition: Si el player tiene suficiente dinero:)
+          - (Condition: If the player has enough money:)
             - **Player:** Bien, aquí tienes 200 coins.
             - (removes=200 coins)
             - [Le das al Capitán Izzy 200 coins.]
             - **Cap'n Izzy No-Beard:** ¡Que el viento sople en vuestras velas!
         - [Choice]: No importa.
           - **Player:** No importa.
-    - (Condition: Si el player ya pagó:)
+    - (Condition: If the player has already paid:)
       - **Cap'n Izzy No-Beard:** Ya pagaste, así que baja...
-    - (Condition: Si el player ha completado Rocking Out:)
+    - (Condition: If the player has completed Rocking Out:)
       - **Cap'n Izzy No-Beard:** Siempre eres bienvenido aquí, Player. ¡No es necesario pagar!
   - [Choice]: ¿Es cierto que vendes Skillcapes o Agility?
-    - (Condition: Si el player tiene un ring of charos (a) equipado:)
+    - (Condition: If the player has a ring of charos (a) equipped:)
       - **Cap'n Izzy No-Beard:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins por este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
       - [Menu]: Elige una opción:
         - [Choice]: ¿92.000 coins? Eso es demasiado caro.
           - **Player:** Sé dónde encontrarte si cambio de opinión.
         - [Choice]: De hecho, creo que tengo el dinero aquí.
-          - (Condition: Si el player no tiene espacio backpack:)
+          - (Condition: If the player has no backpack space:)
             - **Cap'n Izzy No-Beard:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar algo de espacio en backpack antes de que pueda venderte uno.
-          - (Condition: Si el player no tiene suficiente dinero:)
+          - (Condition: If the player does not have enough money:)
             - **Player:** Pero desafortunadamente me equivoqué.
             - **Cap'n Izzy No-Beard:** Bueno, vuelve a verme cuando lo hagas.
-          - (Condition: Si el player tiene suficiente dinero:)
+          - (Condition: If the player has enough money:)
             - (receives=agility cape and agility hood) (removes=92,000 coins)
             - **Cap'n Izzy No-Beard:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
-    - (Condition: Si el player no tiene un ring of charos(a) equipado:)
+    - (Condition: If the player does not have a ring of charos (a) equipped:)
       - [Menu]: Elige una opción:
         - [Choice]: ¿99.000 coins? Eso es demasiado caro.
           - **Player:** Sé dónde encontrarte si cambio de opinión.
         - [Choice]: De hecho, creo que tengo el dinero aquí.
-          - (Condition: Si el player no tiene espacio backpack:)
+          - (Condition: If the player has no backpack space:)
             - (arriba)
-          - (Condition: Si el player no tiene suficiente dinero:)
+          - (Condition: If the player does not have enough money:)
             - (arriba)
-          - (Condition: Si el player tiene suficiente dinero:)
+          - (Condition: If the player has enough money:)
             - (receives=agility cape and agility hood) (removes=99,000 coins)
             - **Cap'n Izzy No-Beard:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
   - [Choice]: He notado que hay un par de versiones de cada skillcape.
     - **Cap'n Izzy No-Beard:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
-    - (Condition: Si el player utiliza el modelo antiguo:)
+    - (Condition: If the player is using the old model:)
       - **Cap'n Izzy No-Beard:** Parece que actualmente estás usando el modelo anterior para tu Agility skillcape. ¿Quieres cambiar a uno más nuevo?
       - (continue)
-    - (Condition: Si el player está utilizando el nuevo modelo:)
+    - (Condition: If the player is using the new model:)
       - **Cap'n Izzy No-Beard:** Aún puedes elegir usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
       - (continue)
     - [Menu]: Selecciona una opción
@@ -112,7 +112,7 @@
             - (end)
       - [Choice]: No, gracias.
         - **Cap'n Izzy No-Beard:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
-        - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+        - (Condition: If the player uses the new model for any other skillcape:)
           - **Cap'n Izzy No-Beard:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
           - [Menu]: Selecciona una opción
             - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.

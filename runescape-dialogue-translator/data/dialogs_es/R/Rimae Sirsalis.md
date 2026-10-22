@@ -19,18 +19,18 @@
   - [Choice]: ¿Tiene algún uso para los dientes o las pieles de suqah?
     - **Player:** ¿Tiene algún uso para los dientes o las pieles de suqah?
     - **Rimae Sirsalis:** ¡Sin duda! Las pieles son excelentes para confeccionar ropa y los dientes son particularmente útiles para broches, collares y cosas similares. Te cambio cualquiera que encuentres por esencia pura si quieres.
-    - (Condition: Con dientes de suqah o pieles en backpack para intercambiar:)
+    - (Condition: With suqah teeth or hides in backpack to exchange:)
       - [Menu]: ¿Cambiar tus pieles y dientes por esencia pura [número]?
         - [Choice]: si
           - (removes=all suqah hides and suqah teeth in backpack) (receives=nine noted pure essence for each hide or tooth)
           - **Rimae Sirsalis:** ¡Ahí lo tienes!
         - [Choice]: No
           - **Rimae Sirsalis:** Es justo, vuelve en cualquier momento si lo haces.
-    - (Condition: Sin dientes de suqah ni pieles en backpack:)
+    - (Condition: Without suqah teeth or hides in backpack:)
       - **Player:** Es bueno saberlo. No tengo ninguno conmigo en este momento, ¡pero al menos sé dónde ir cuando lo tenga!
-    - (Condition: Habiendo intercambiado 28 dientes o pieles de suqah por el día:)
+    - (Condition: Having exchanged 28 suqah teeth or hides for the day:)
       - **Rimae Sirsalis:** ¡Sin duda! Sin embargo, solo me complace permitirte intercambiar 28 cada día. De lo contrario, estoy inundado de dientes y pieles que no puedo usar. Has llegado a ese límite.
-    - (Condition: No haber completado las tareas de élite de Fremennik:)
+    - (Condition: Having not completed the elite Fremennik tasks:)
       - Debes completar las tareas de élite de Fremennik para desbloquear esta instalación.
   - [Choice]: Es una isla muy interesante la que tienes aquí.
     - **Player:** Es una isla muy interesante la que tienes aquí.

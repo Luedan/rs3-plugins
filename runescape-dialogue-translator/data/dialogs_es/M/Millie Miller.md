@@ -54,12 +54,12 @@
   - [Choice]: What can I do with the flour I mill?|cond=Después de elegir "¿Cómo muele harina?"
     - (arriba)
   - [Choice]: ¿Puedes hablarme sobre el campo de batalla?
-    - (Condition: Durante la Batalla de Lumbridge:)
+    - (Condition: During the Battle of Lumbridge:)
       - **Millie Miller:** Sí, puedes ver bien el campo de batalla desde aquí. Saradomin tiene su campamento justo afuera, ¡y no es bueno para el negocio!
       - **Millie Miller:** Afortunadamente, actualmente se está centrando principalmente en el sur, hacia Zamorak, ¡y parece que hemos escapado de lo peor!
       - **Millie Miller:** Así que hacemos lo mejor que podemos. ¡Solo puedo esperar que esto termine pronto!
       - (otro)
-    - (Condition: Después de la Batalla de Lumbridge:)
+    - (Condition: After the Battle of Lumbridge:)
       - **Millie Miller:**Tuvimos suerte de que la batalla de Lumbridge nos dejara prácticamente ilesos. Todavía puedes ver el campo de batalla hacia el sur.
       - **Millie Miller:**¡Pero no hace mucho, el propio Saradomin instaló un campamento justo afuera de nuestro molino! Nos preocupaba que la batalla pudiera dañar nuestro edificio.
       - **Millie Miller:**Afortunadamente, Saradomin nos defendió del asalto de Zamorak y al final lo derrotó. ¡Odio pensar qué habría pasado si Zamorak hubiera ganado!

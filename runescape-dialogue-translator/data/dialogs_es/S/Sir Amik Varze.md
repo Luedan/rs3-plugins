@@ -80,16 +80,16 @@
     - **Sir Amik Varze:** Si completas esto, te daré: 15 armaduras de caballero blanco. ¡Estoy seguro de que también ganarás reputación en el gremio de agricultores!
     - **Sir Amik Varze:** ¡Tendrás que ser rápido!, solo estoy aquí por [número] días, [número] horas y [número] minutos. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - ((Sin los artículos solicitados:))
+    - ((Without the requested items:))
       - **Sir Amik Varze:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Sir Amik Varze:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **Sir Amik Varze:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal] o [Animal].
       - **Sir Amik Varze:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
-    - ((Con los artículos solicitados:))
+    - ((With the requested items:))
       - (removes=the requested items) (receives=the reward)
       - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
-      - ((Repetido en una ventana emergente:))
-        - (Ventana emergente: por completar esta solicitud, recibió 3 imprimadores para Brassica.|color=#EBE0BC)
+      - ((Repeated in a pop-up:))
+        - (Pop-up: For completing this request you've received Brassica primer x 3.|color=#EBE0BC)
         - (continue)
       - [Has recibido: [Reward] x 15<br>Y 13,750 reputación agrícola.]
 
@@ -113,15 +113,15 @@
 
 ##### Con artículos solicitados
 
-- (Condition: Con múltiples animales aplicables:)
+- (Condition: With multiple applicable animals:)
   - [Menu]: ¿Qué animal te gustaría entregar?
-    - ((Repetido para cada animal aplicable:))
+    - ((Repeated for each applicable animal:))
       - [Choice]: [Animal name]
         - (continue)
 - (removes=the requested items) (receives=the reward)
 - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
-- (ventana emergente)
-  - (Ventana emergente: por completar esta solicitud, recibió 3 imprimadores para Brassica).
+- (pop-up)
+  - (Pop-up: For completing this request you've received Brassica primer x 3.)
   - (continue)
 - [Has recibido: [Reward] x 15<br>Y 13,750 reputación agrícola.]
 

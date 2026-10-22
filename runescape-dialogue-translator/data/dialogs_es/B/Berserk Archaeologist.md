@@ -18,13 +18,13 @@
 
 ### In combat
 
-- ((Lo siguiente se muestra como un diálogo general estándar y se repite en la interfaz de chat como se muestra aquí.))
+- ((The following is shown as standard overhead dialogue and repeated in the chat interface as shown here.))
   - {{#vardefineecho:Berserk Archaeologist}} Oh, hola.|color=#99FF99}} {{Audio button|Berserk Archaeologist - Oh, hello there.ogg}}
   - {{#var:Berserk Archaeologist}} Parece que he perdido mi azadón. {{Audio button|Berserk Archaeologist - It seems I've misplaced my mattock.ogg}}
   - {{#var:Berserk Archaeologist}} Parece que me quedaré con el tuyo. {{Audio button|Berserk Archaeologist - Looks like I'll be taking yours.ogg}}
   - {{#var:Berserk Archaeologist}} ¡Ajá! Usaré mi pergamino de hechizo: ¡Anima a Fred! {{Audio button|Berserk Archaeologist - Aha! I'll use my spell scroll - Animate Fred!.ogg}}
   - (Action: Un esqueleto llamado Fred se une a la lucha.)
-  - ((Lo siguiente se muestra repetidamente durante el resto de la pelea:))
+  - ((The following are shown repeatedly during the rest of the fight:))
     - {{#var:Berserk Archaeologist}} Bueno. {{Audio button|Berserk Archaeologist - Gah.ogg}}
     - {{#var:Berserk Archaeologist}} ¡Consíguelos muchacho! {{Audio button|Berserk Archaeologist - Get 'em boy!.ogg}}
     - {{#var:Berserk Archaeologist}} Envié una carta a Guthix, pero no respondió. {{Audio button|Berserk Archaeologist - I sent a letter to Guthix, but he did not reply.ogg}}

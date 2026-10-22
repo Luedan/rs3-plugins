@@ -19,7 +19,7 @@
     - (opens=Pet Banking Service)
   - [Choice]: hurgar
     - (opens=Pet Scavenge Options)
-    - (Condition: Seleccionando "Confirmar" o saliendo de la interfaz:)
+    - (Condition: Selecting "Confirm" or exiting the interface:)
       - Tu mascota ahora está buscando objetos para hurgar.
 
 ### Scavenging a drop
@@ -27,9 +27,9 @@
 
 #### Si la mascota busca una gota
 
-- (Condition: Caída de cantidad única:)
+- (Condition: Single quantity drop:)
   - Su legendary pet encuentra: [Item]
-- (Condition: Caída de cantidad múltiple:)
+- (Condition: Multiple quantity drop:)
   - Su legendary pet encuentra: [Item] x [número]
 
 #### Si la mascota no logra recoger una gota

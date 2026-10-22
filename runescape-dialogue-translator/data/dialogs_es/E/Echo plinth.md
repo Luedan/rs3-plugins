@@ -11,7 +11,7 @@
 
 ### Check
 
-- (Condition: Si el pedestal está vacío:)
+- (Condition: If the plinth is empty:)
   - {{tselect|SELECCIÓN DE ECO
     - Los engramas deben cargarse y entregarse a Orla antes de que puedas mostrar su eco en un pedestal.
     - No es necesario mostrar ecos para ningún efecto beneficioso pasivo.
@@ -20,7 +20,7 @@
     - [Choice]: [Clicking any engram that isn't greyed out]
       - (Acción: aparece un eco del engrama seleccionado en el pedestal cuando el player lo invoca con una animación Divination que dura indefinidamente).
     - [Choice]: CANCELAR
-      - ((La interfaz se cierra.))
+      - ((Interface closes.))
   - (Condición: información sobre herramientas al pasar el cursor sobre un cuadro de engrama:) <!-- in order of appearance in the interface -->
     - Naragi: {{Interface tooltip|Found within the memory of a long-dead world.}}
     - Espada mayor: {{Interface tooltip|Found on the docks of an island devoid of pests.}}
@@ -34,10 +34,10 @@
     - Espada de los Edictos: {{Interface tooltip|Found where a sharp reminder stands for all to see.}}
     - Guardianes de Guthix: {{Interface tooltip|Found where stories hold back tears of loss.}}
     - Elemento de equilibrio: {{Interface tooltip|Found among druidic standing stones.}}
-- (Condition: Si el pedestal tiene eco:)
+- (Condition: If the plinth has en echo on it:)
   - [Menu]: ¿Qué te gustaría hacer?
     - [Choice]: Habla con el eco.
-      - ((Vea las transcripciones de Balance Elemental, Druida, Elder Sword, Fairy, Gnome, Guardian of Guthix, Naragi, Time, Sheep, Stone of Jas, Sword of Edicts, World Gate.))
+      - ((See the transcripts for Balance Elemental, Druid, Elder Sword, Fairy, Gnome, Guardian of Guthix, Naragi, Time, Sheep, Stone of Jas, Sword of Edicts, World Gate))
     - [Choice]: Vuelva a colorear este eco.{{fact|Does this show before prestiging?}}
       - [Menu]: ¿Qué color?
         - [Choice]: Azul.

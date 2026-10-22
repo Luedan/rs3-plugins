@@ -14,7 +14,7 @@
 
 #### Habla con
 
-- ((La primera vez:))
+- ((On first time:))
   - **Enakhra (Núcleo expuesto):** ¡Akthanakos! ¿A qué diablos estás jugando?
   - **Akthanakos:** Me ocupo de mis propios asuntos. Sin poner en peligro la seguridad de toda esta defensa. ¿Tú?
   - **Enakhra (Núcleo expuesto):** ¡Estás holgazaneando! Si ese Arch-Glacor se suelta, será el fin de todos nosotros.
@@ -24,7 +24,7 @@
   - **Player:** ¡Hola!
   - **Enakhra (Núcleo expuesto):** Oh. Guardián del mundo. ¿Qué es? ¿No ves que estoy ocupado?
   - (continue)
-- ((Después de la primera vez:))
+- ((After the first time:))
   - **Enakhra (Núcleo expuesto):** ¿Qué es?
   - (continue)
 - **ELIGE UNA OPCIÓN:**
@@ -33,7 +33,7 @@
     - **Enakhra (Núcleo expuesto):** Su favorito es colocar su propio núcleo en el acueducto, invitando a nuestras tropas a atacar.
     - **Enakhra (Núcleo expuesto):** Tan pronto como ponen un pie allí, usa sus brazos para atraparlos en su lugar y el núcleo los congela hasta morir.
     - **Enakhra (Núcleo expuesto):** Puedo mantener su núcleo en su lugar con mi magia, evitando esa táctica en particular.
-  - ((Solo con la mecánica de Núcleo expuesto desactivada:))
+  - ((Only with the Exposed Core mechanic toggled off:))
     - Hacer una pausa. Puedo manejar esto.
       - **Enakhra (Núcleo expuesto):** No quiero ser grosero, pero a menos que puedas abrirte camino a través de hielo sólido y vivo, esta es una idea terrible.
       - Si Enakhra deja de canalizar su hechizo, debes enfrentarte a una mecánica en la que debes atravesar brazos helados antes de que el núcleo de Arch-Glacor te congele hasta morir.
@@ -44,7 +44,7 @@
           - Habla con Enakhra nuevamente si deseas desactivar el ataque del núcleo congelado.
         - En realidad, ¡espera!
           - **Enakhra (Núcleo expuesto):** La primera cosa sensata que escuché en todo el día.
-  - ((Solo con la mecánica de Núcleo expuesto activada:))
+  - ((Only with the Exposed Core mechanic toggled on:))
     - ¿Podrías empezar a bloquear ese ataque central congelado nuevamente?
       - **Enakhra (Núcleo expuesto):** Una petición sabia. Un momento...
       - La mecánica 'Núcleo expuesto' ha sido desactivada.

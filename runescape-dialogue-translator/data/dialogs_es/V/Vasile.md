@@ -15,10 +15,10 @@
 
 ### Standard dialogue after In Aid of the Myreque
 
-- ((Antes de Río de Sangre:))
+- ((Before River of Blood:))
   - **Vasile:** ¡Oye, es el héroe! ¡Guau, eres increíble! ¿Cómo diablos lograste enfrentarte a esos dos juvinates y Gadderanks? Y la ciudad es preciosa. ¡Has hecho un gran trabajo!
   - (continue)
-- ((Después de Río de sangre:))
+- ((After River of Blood:))
   - **Vasile:** ¡Oye, es el héroe! ¡Guau, eres increíble! ¿Cómo conseguiste devolver a todos los aldeanos? Ahora las cosas también se sienten mucho más seguras por aquí: ¡excelente trabajo!
   - (continue)
 - **Player:** De nada.
@@ -33,9 +33,9 @@
     - (previous)
   - [Choice]: ¿Qué está pasando por aquí?
     - **Player:** ¿Qué está pasando por aquí?
-    - ((Antes de Río de Sangre:))
+    - ((Before River of Blood:))
       - **Vasile:** Oh, no mucho en realidad, todos todavía nos estamos escondiendo del vampyres y ganándonos la vida a duras penas en este terrible lugar, con suerte pronto seremos lo suficientemente fuertes para hacer el viaje al templo en la Salve.
-    - ((Después de Río de sangre:))
+    - ((After River of Blood:))
       - **Vasile:** Oh, no mucho en realidad, todos estamos tratando de ganarnos la vida a duras penas en este lugar. Algunos de nosotros todavía queremos dirigirnos a la Salve y a Misthalin, pero, sinceramente, ya no está tan mal aquí... a pesar de cómo pueda parecer.
     - (previous)
   - [Choice]: ¿Hay algo que pueda hacer para ayudar?

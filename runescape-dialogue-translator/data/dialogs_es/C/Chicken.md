@@ -11,5 +11,5 @@
 
 ### Overhead
 
-- ((Ocasionalmente se ve lo siguiente:))
+- ((The following is occasionally seen:))
   - **Chicken:** {{RSChat|Squawk!}}

@@ -36,7 +36,7 @@
 
 - (removes=cup of tea)
 - **Helen:** {{RSChat|Aaah, nothing like a nice cuppa tea!}}
-- (Condition: Si el té fuera té de tierra:)
+- (Condition: If the tea was soil tea:)
 - **Helen:** **{{RSChat|Aaah, nothing like a perfect cuppa tea!}}**
-- (Condition: Si el té era té de tierra y Teacher's Pet no se ha completado:)
+- (Condition: If the tea was soil tea and Teacher's Pet hasn't been completed:)
   - ¡Felicitaciones! Has completado: 'La mascota del profesor': lleva a Helen la taza de té perfecta al campus de Archaeology.

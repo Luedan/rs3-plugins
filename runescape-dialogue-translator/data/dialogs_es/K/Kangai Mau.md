@@ -22,9 +22,9 @@
 
 - **Kangai Mau:** Felicitaciones. ¡Aquí!
 - (removes=the old clue scroll (medium))
-- (Condition: Si el rastro continúa:)
+- (Condition: If the trail continues:)
   - (receives=a new clue scroll (medium))
   - [¡Kangai Mau te ha dado otro pergamino de pistas!]
-- (Condition: Si el sendero termina:)
+- (Condition: If the trail ends:)
   - (receives=reward casket (medium))
   - [¡Has encontrado un ataúd!]

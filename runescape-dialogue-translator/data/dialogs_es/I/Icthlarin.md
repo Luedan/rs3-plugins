@@ -55,7 +55,7 @@
 
 #### Habla con
 
-- ((Sólo la primera vez:))
+- ((Only on the first time:))
   - **Player:** Icthlarin, ¿a qué debo este placer?
   - **Icthlarin:** Estoy aquí para vigilarte.
   - **Player:** Realmente no eres un fanático de la nigromancia, ¿verdad?
@@ -73,30 +73,30 @@
     - (above|To-what-do-I-owe-this-pleasure?)
   - [Choice]: Muéstrame las tareas fáciles de Underworld que puedo hacer.
     - **Icthlarin:** Por supuesto. Aquí hay una colección de tareas que lo ayudarán a descubrir más sobre Necromancy y City of Um.
-    - ((Si el player puede abrir interfaces:))
+    - ((If the player can open interfaces:))
       - (opens=Underworld Set Tasks - Easy)
-    - ((Si el player no puede abrir interfaces:))
+    - ((If the player can't open interfaces:))
       - No puedes hacer eso ahora mismo.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - No puedes hacer eso ahora mismo.
   - [Choice]: ¿Puedo reclamar alguna recompensa de usted? {{anchor|claim}}
-    - ((Si el player no ha completado ninguna tarea, o ha completado el conjunto Fácil y todavía tiene su Underworld Grimoire 1:))
+    - ((If the player has not completed any tasks, or has completed the Easy set and still has their Underworld Grimoire 1:))
       - **Icthlarin:** ¡No tienes ninguna recompensa que reclamar!
-    - ((Si se ha completado la tarea fácil establecida y no se han reclamado las recompensas:))
+    - ((If the easy task set has been completed and the rewards have not been claimed:))
       - **Player:** He completado todas las tareas del sencillo conjunto de tareas de Underworld.
       - **Icthlarin:** Bien hecho Player, he reservado algunas recompensas para ti.
       - **Icthlarin:** Lupe también ha aceptado proporcionarte un suministro diario de huesos para tus rituales de comunión en reconocimiento a tus esfuerzos.
-      - ((Sin dos espacios backpack libres:))
+      - ((Without two free backpack spaces:))
         - **Icthlarin:** Me temo que no tienes suficiente espacio backpack para reclamar todas tus recompensas. Hablame de nuevo cuando tengas 2 espacios.
-      - ((Con dos espacios backpack gratuitos:))
+      - ((With two free backpack spaces:))
         - (receives=an antique lamp and the Underworld Grimoire 1)
         - [¡Recibirás algunas recompensas por completar el sencillo conjunto de tareas de Underworld!]
         - **Icthlarin:** Ahí lo tienes, parece que eso es todo.
-    - ((Si se ha perdido el Grimorio 1 del Inframundo:))
+    - ((If the Underworld Grimoire 1 has been lost:))
       - **Player:** Perdí el Grimorio del Inframundo 1, me tienes...
-      - ((Sin espacio en backpack:))
+      - ((Without space in backpack:))
         - **Icthlarin:** Parece que no tienes espacio para uno nuevo, vuelve conmigo cuando lo tengas.
-      - ((Con espacio en backpack:))
+      - ((With space in backpack:))
         - **Icthlarin:** Por suerte para ti, tengo uno de repuesto. Cuida mejor este.
         - (receives=Underworld Grimoire 1)
         - [Te entregan otro Grimorio 1 de Underworld.]
@@ -164,7 +164,7 @@
 ##### Si el player no puede abrir interfaces
 
 - No puedes hacer eso ahora mismo.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - No puedes hacer eso ahora mismo.
 
 #### Descripción general del conjunto de tareas
@@ -177,17 +177,17 @@
 ##### Si el player no puede abrir interfaces
 
 - No puedes hacer eso ahora mismo.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - No puedes hacer eso ahora mismo.
 
 ### Outside the Sanctum of Rebirth
 
-- (Condition: Habiendo recibido un Amuleto de Ofrendas:)
+- (Condition: Having received an Amulet of Offerings:)
   - [Menu]: Selecciona una opción
     - [Choice]: Reclama un amuleto de ofrendas.
-      - (Condition: Sin espacio backpack:)
+      - (Condition: Without backpack space:)
         - [No tienes suficiente espacio en tu backpack para este artículo.]
-      - (Condition: Con espacio backpack:)
+      - (Condition: With backpack space:)
         - (receives=Amulet of Offerings)
         - [Recibes un Amuleto de Ofrendas.]
     - [Choice]: Habla de otra cosa.

@@ -20,7 +20,7 @@
     - **Player:** ¿Quién eres?
     - **Mandrith:** ¡Vaya, soy Mandrith! ¡Inspiración para combatientes tanto poderosos como débiles!
     - **Player:** Está bien... es justo.
-    - ((A continuación, las indicaciones aparecen vacías con cuadros de diálogo de pantalla completa activados.))
+    - ((In the following the prompts appear empty with full-screen dialogue boxes toggled on.))
     - [Menu]: Selecciona una opción
       - [Choice]: ¿Qué haces aquí?
         - **Player:** ¿Qué haces aquí?
@@ -112,7 +112,7 @@
 
 - **Mandrith:** ¡Glorioso y valiente guerrero! Veo que has encontrado [one/some] de los artefactos antiguos que mi hermano y yo estamos buscando.
 - **Mandrith:** ¿No estarías dispuesto a venderme [it/them]?
-- ((A continuación, el mensaje está vacío con cuadros de diálogo de pantalla completa activados.))
+- ((In following the prompt is empty with full-screen dialogue boxes toggled on.))
 - [Menu]: Selecciona una opción
   - [Choice]: Claro, puedo hacer eso.
     - **Player:** Claro, puedo hacerlo.
@@ -148,26 +148,26 @@
       - [Choice]: Lo siento, me estaba yendo.
         - (end)
   - [Choice]: ¿Puedo reclamar alguna recompensa de usted?
-    - (Condition: Si el player no tiene ninguna recompensa para reclamar:)
+    - (Condition: If the player doesn't have any rewards to claim:)
       - **Mandrith:** ¡Ya no tienes más recompensas para reclamar!
-    - (Condition: Si el player no ha reclamado las recompensas del conjunto de tareas mediano de Wilderness:)
-      - (Condition: Sin tres espacios backpack libres:)
+    - (Condition: If the player has not claimed the rewards from the medium Wilderness task set:)
+      - (Condition: Without three free backpack spaces:)
         - **Mandrith:** Me temo que no tienes suficiente espacio en el inventario para reclamar todas tus recompensas. Hablame de nuevo cuando tengas 3 espacios.
-      - (Condition: Con tres espacios backpack gratuitos:)
+      - (Condition: With three free backpack spaces:)
         - **Player:** He completado todas las tareas del conjunto de tareas mediano Wilderness.
         - **Mandrith:** Bien hecho Player, he reservado algunas recompensas para ti.
         - Espada (receives=two Antique lamp (Medium Wilderness Tasks) y Wilderness 2)
         - [¡Recibirás algunas recompensas por completar el conjunto de tareas mediano de Wilderness!]
         - **Mandrith:** Ahí lo tienes, parece que eso es todo.
-    - (Condition: Si el player ha perdido su espada Wilderness 1:)
+    - (Condition: If the player has lost their Wilderness sword 1:)
       - **Player:** Perdí la espada Wilderness 2 que me diste...
       - **Mandrith:** Por suerte para ti, tengo uno de repuesto... Aunque me temo que te costará 65.000 coins.
       - [Menu]: ¿Reclamar 65.000 coins?
         - [Choice]: Sí.
-          - (Condition: Si el player no tiene suficiente dinero:)
+          - (Condition: If the player does not have enough money:)
             - No puedes permitirte eso.
             - **Mandrith:** Pero no parece que tengas suficiente dinero para eso. Vuelve conmigo cuando lo hagas.
-          - (Condition: Si el player tiene suficiente dinero:)
+          - (Condition: If the player has enough money:)
             - (removes=50,000 coins) (receives=Wilderness sword 2)
             - [Te entregan otra espada Wilderness 2.]
         - [Choice]: No.
@@ -215,15 +215,15 @@
 #### Sin una asignación Slayer
 
 - **Player:** Necesito otra tarea.
-- (Condition: Sin cumplir los requisitos:)
+- (Condition: Without meeting the requirements:)
   - **Mandrith:** Lo siento, pero no eres un cazador lo suficientemente bueno como para que yo te enseñe. Tu mejor trainer sería Kuradal en la Caverna Antigua. Dile que te envié.
   - Debes tener al menos el nivel 120 en Combate y el nivel 95 en Slayer para entrenar con este Slayer Master.
 - ((Si se asigna una tarea regular:)) {{anchor|reg-task}}
-  - ((Si se activa una ventaja de capa Slayer master:))
+  - ((If a Slayer master cape perk triggers:))
     - Mandrith nota tu capa y te invita a seleccionar tu propia tarea.
     - (Se abre la interfaz Seleccione Su tarea Slayer.)
-    - ((Después de seleccionar una tarea:))
-      - ((Con Introspección Slayer:))
+    - ((After selecting a task:))
+      - ((With Slayer Introspection:))
         - **¿MODIFICAR TU TAREA DE ASESINO ASIGNADA?**
           - [número] [task] (predeterminado)
             - **Mandrith:** Lo estás haciendo bien, supongo. Tu nueva tarea es matar a [número] [task].
@@ -240,11 +240,11 @@
             - {{Transcript missing}}
           - [maximal number] [task] (máx.)
             - {{Transcript missing}}
-      - ((Sin introspección Slayer:))
+      - ((Without Slayer Introspection:))
         - {{Transcript missing}}
-  - ((Si una capa Slayer master no se activa:))
+  - ((If a Slayer master cape doesn't trigger:))
     - {{Transcript missing}}
-- ((Si se presenta un desafío:))
+- ((If a challenge is given:))
   - **Mandrith:** Hmm, te diré una cosa. ¿Qué tal si esta vez te doy un desafío especial en lugar de una tarea normal?
   - **Player:** ¿Qué implicaría eso?
   - **Mandrith:** Parece haber un aumento en la actividad en Wilderness. Necesitamos reducir los rebaños en todas partes y rápido. Aquí hay una lista de las criaturas que debes matar.

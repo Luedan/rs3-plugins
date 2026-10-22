@@ -28,10 +28,10 @@
 #### Hablar con Vannaka sin tener recompensas de logros para reclamar fuera de la tarea de celebración del 25 aniversario
 
 - **Vannaka:** 'Hola, ¿y qué buscas entonces?
-  - (Condition: En un mundo gratuito:)
+  - (Condition: On a free-to-play world:)
     - Habilidad [members-only]. Regístrate para recibir acceso a este NPC y mucho más.}}
-  - (Condition: En un mundo de miembros:)
-    - (Condition: Si aún no has recibido una asignación Slayer de Vannaka:)
+  - (Condition: On a members world:)
+    - (Condition: If you have yet to receive a Slayer assignment from Vannaka:)
       - [Choice]: ¿Quién eres?
         - **Player:** ¿Quién eres?
         - **Vannaka:** Soy uno de los Slayer Masters de élite.
@@ -42,14 +42,14 @@
             - **Vannaka:** Supongo que tendré que educarte entonces. Un asesino es alguien que está entrenado para luchar contra criaturas específicas. Saben que las criaturas{{Sic}} tienen cada debilidad y fortaleza. Como puedes adivinar, hace que matarlos sea mucho más fácil.
               - [Choice]: Vaya, ¿puedes enseñarme?
                 - **Player:** Vaya, ¿puedes enseñarme?
-                  - (Condition: Si aún no tienes el skill levels requerido:)
+                  - (Condition: If you do not yet have the required skill levels:)
                     - **Vannaka:** Lo siento, pero no eres lo suficientemente fuerte para que yo te enseñe.
-                      - (Condition: Si el nivel más alto de Slayer Master con el que puedes entrenar actualmente en tu skill levels actual es Turael o Spria:)
-                        - (Condition: Si aún no has completado Mientras Guthix duerme:)
+                      - (Condition: If the highest level Slayer Master you can currently train under at your current skill levels is Turael or Spria:)
+                        - (Condition: If you have not yet completed While Guthix Sleeps:)
                           - **Vannaka:** Tu mejor trainer sería Turael en Burthope.
-                        - (Condition: Si has completado Mientras Guthix duerme:)
+                        - (Condition: If you have completed While Guthix Sleeps:)
                           - **Vannaka:** Tu mejor trainer sería Spria en Burthope.
-                  - (Condition: Si tiene el skill levels requerido:)
+                  - (Condition: If you have the required skill levels:)
                     - {{transcript missing}}
               - [Choice]: Me parece inútil.
                 - **Player:** Me parece inútil.
@@ -57,16 +57,16 @@
           - [Choice]: Nunca he oído hablar de ti.
             - **Player:** Nunca había oído hablar de ti.
             - **Vannaka:** Eso es porque mi enemigo nunca vive para hablar de mí. Los cazadores somos un grupo peligroso.
-      - (Condition: Si has recibido alguna asignación Slayer de cualquier Slayer Master:)
+      - (Condition: If you have received any Slayer assignment from any Slayer Master:)
         - [Choice]: Necesito otra tarea.
           - **Player:**  Necesito otra tarea.
-          - (Condition: Si actualmente estás en una asignación de Slayer:)
+          - (Condition: If you are currently on a Slayer assignment:)
             - **Vannaka:**  Aún estás buscando a [assigned creatures]; Vuelve cuando hayas terminado tu tarea.
     - [Choice]: ¿Tienes algo para intercambiar?
       - **Player:** ¿Tienes algo para intercambiar?
       - **Vannaka:**  Tengo una amplia selección de equipos Slayer; ¡eche un vistazo!
         - *(Se abre la interfaz del equipo Slayer)*
-    - (Condition: Si has recibido alguna asignación Slayer de cualquier Slayer Master:)
+    - (Condition: If you have received any Slayer assignment from any Slayer Master:)
       - [Choice]: Estoy aquí para discutir cualquier recompensa para la que pueda ser elegible.
         - [Choice]: Ver recompensas.
           - *(Se abre la interfaz de recompensas Slayer)*
@@ -125,13 +125,13 @@
 - **Player:** La última vez que completé una tarea, usé este bolígrafo aquí para tacharla de mi lista.
 - **Vannaka:** ¡Está bien, genial!
 - {{RSFontAchievement|Slayer!|Talk to Vannaka the Slayer Master outside Edgeville dungeon, south of Edgeville.}}
-- ((Se muestra en una ventana emergente de finalización de tarea:))
+- ((Shown in a task completion pop-up:))
   - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
   - Slayer!
   - Habla con Vannaka y Slayer Master fuera de la mazmorra Edgeville, al sur de Edgeville.
   - (continue)
 - **Player:** ¡Y otra tarea completada!
-- (Condition: Si se han completado todas las tareas:)
+- (Condition: If all the tasks have been completed:)
   - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!
 
 ###  Activating the Enchanted gem
@@ -199,7 +199,7 @@
     - **Vannaka:** Todavía estás cazando a [assigned creature]; Vuelve cuando hayas terminado tu tarea.
   - [Choice]: Eh... nada...
     - **Player:** Er... Nada...
-- (Condition: Si el player está muy cerca de Vannaka:)
+- (Condition: If the player is in close proximity with Vannaka:)
   - **Player:** ¿Hola?
   - **Vannaka:** 'Hola, ¿quién es ese?
   - **Player:** Soy Player. Estoy usando magia para comunicarme contigo.

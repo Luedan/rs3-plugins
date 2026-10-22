@@ -12,5 +12,5 @@
 ### Becoming confused bees
 
 - Pierdes la noción de cómo se sienten las abejas.
-- (ventana emergente)
-  - (Ventana emergente: pierdes la noción de cómo se sienten las abejas.|advertencia=yes)
+- (pop-up)
+  - (Pop-up: You lose track of how the bees are feeling.|warning=yes)

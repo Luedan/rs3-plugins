@@ -44,23 +44,23 @@
   - [Choice]: Is there anything else I can do for you?|cond=Sin ramas:
     - **Heedi:** Si logras cortar una rama perfecta de un magic tree eterno, te compartiré algunos conocimientos de horticultura a cambio.
     - **Heedi:** Alternativamente, en manos suficientemente hábiles, un par de ramas (y un cubo de savia eterna de magic tree) serían excelentes extremidades para un arco poderoso.
-    - (Condition: Sin 110 Woodcutting:)
+    - (Condition: Without 110 Woodcutting:)
       - [pic=Rama mágica eterna perfecta detail.png]
       - (continue)
-    - (Condition: Con 110 Woodcutting:)
+    - (Condition: With 110 Woodcutting:)
       - [pic=Rama mágica eterna perfecta detail.png]
       - (continue)
     - [pic=Rama mágica eterna perfecta detail.png]
     - (previous|Heedi-options)
   - [Choice]: Can I offer you a branch in this trying time?|cond=Con al menos una rama:
     - **Heedi:** Oh, qué excelente ejemplar. A cambio, compartiré algunos conocimientos sobre horticultura.
-    - (Condition: Se muestra en una interfaz titulada "OFERTA SUCURSALES":)
+    - (Condition: Shown in an interface titled "OFFER BRANCHES":)
       - Archivo:Woodcutting.png Tienes [número] eterno magic tree [branch/branches].<br><br>¿Te gustaría darle [it/them] a Heedi?<br><br>Recibirás [número] Woodcutting XP.
         - [Choice]: Cancelar
-          - ((La interfaz se cierra.))
+          - ((The interface closes.))
           - (previous|Heedi-options)
         - [Choice]: bien
-          - ((La interfaz se cierra.))
+          - ((The interface closes.))
           - (removes=all perfect eternal magic branches)
           - (Action: el player gana la cantidad correspondiente de experiencia Woodcutting.)
           - (previous|Heedi-options)
@@ -69,7 +69,7 @@
     - **Heedi:** Con mucho gusto enviaría a mis hijos al mundo.
     - **Heedi:** Ten estos retoños. Los preparé con sumo cuidado.
     - **Heedi:** Si el suelo del que hablas es realmente digno, crecerán rápidamente, incluso en manos de un granjero aficionado.
-    - (Condition: Si el player ya tiene algún retoño en el banco o en el inventario:)
+    - (Condition: If the player has any saplings in the bank or inventory already:)
       - **Heedi:** Ah, pero todavía tienes algunos de mis árboles jóvenes. Vuelve si te quedas sin.
   - [Choice]: Adiós.
     - (end)
@@ -91,11 +91,11 @@
 
 #### Con ramas
 
-- ((Se muestra en una interfaz titulada "OFERTA SUCURSALES":))
+- ((Shown in an interface titled "OFFER BRANCHES":))
   - Archivo:Woodcutting.png Tienes [número] eterno magic tree [branch/branches].<br><br>¿Te gustaría darle [it/them] a Heedi?<br><br>Recibirás [número] Woodcutting XP.
     - [Choice]: CANCELAR
-      - ((La interfaz se cierra.))
+      - ((The interface closes.))
     - [Choice]: bien
-        - ((La interfaz se cierra.))
+        - ((The interface closes.))
         - (removes=all perfect eternal magic branches)
         - (Action: el player gana la cantidad correspondiente de experiencia Woodcutting.)

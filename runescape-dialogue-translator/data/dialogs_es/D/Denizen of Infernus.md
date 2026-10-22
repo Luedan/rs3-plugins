@@ -11,12 +11,12 @@
 
 ### Entering combat
 
-- ((Lo siguiente se muestra como un diálogo general estándar y se repite en la interfaz de chat como se muestra aquí.))
+- ((The following is shown as standard overhead dialogue and repeated in the chat interface as shown here.))
   - {{#vardefineecho:Denizen of Infernus}} Mi poder está incompleto.|color=#99FF99}} {{Audio button|Denizen of Infernus - My power is incomplete.ogg}}
 
 ### Killing a chaos witch magus or apprentice
 
-- ((Lo siguiente se muestra como un diálogo general estándar y se repite en la interfaz de chat como se muestra aquí.))
+- ((The following is shown as standard overhead dialogue and repeated in the chat interface as shown here.))
   - {{#var:Denizen of Infernus}} Dame tu vida, alimañas {{Audio button|Denizen of Infernus - Give me your life, vermin.ogg}}
   - (continue)
 - **[Chaos witch magus or apprentice]:** {{RSChat|I die to serve our lord Zamorak}}
@@ -24,7 +24,7 @@
 
 ### Player using greater demon mask on Denizen of Infernus
 
-- ((Si Cómo lo haces, compañero demonio no se ha completado:))
+- ((If How Do You Do, Fellow Demon hasn't been completed:))
   - ¡Felicitaciones! Has completado: '¿Cómo estás, compañero demonio?' - Usa una máscara de demonio mayor en el Denizen of Infernus.
   - (continue)
 - **Denizen of Infernus:** {{RSChat|You disgust me!}} {{Audio button|Denizen of Infernus - You disgust me!.ogg}}

@@ -31,11 +31,11 @@
       - (Si está en un mundo de miembros:)
         - **Talsar:** Intentemos ver...
         - (Action: Talsar golpea su bastón y una luz azul brilla debajo de él.)
-        - (Condition: Si está cerca de Barbarian Outpost:)
+        - (Condition: If it is near Barbarian Outpost:)
           - **Talsar:** El próximo sumidero aparecerá cerca de donde los bárbaros entrenan su agilidad en aproximadamente [número] minutos.
-        - (Condition: Si está cerca de los Túmulos:)
+        - (Condition: If it is near the Barrows:)
           - **Talsar:** El próximo sumidero aparecerá cerca de donde yacen varios hermanos famosos en aproximadamente [número] minutos.
-        - (Condition: De lo contrario:)
+        - (Condition: Otherwise:)
           - **Talsar:** El próximo sumidero aparecerá [location hint] en aproximadamente [número] minutos.
       - (Si estás en un mundo gratuito:)
         - Debes estar en el servidor de un miembro para atacar los sumideros.
@@ -50,9 +50,9 @@
         - **Talsar:** Honestamente, nunca había conocido a un hombre tan exasperante.
         - (initial)
       - [Choice]: Acerca del sistema de tareas...{{anchor|task-system}}
-        - (Condition: En un mundo gratuito:)
+        - (Condition: On a free-to-play world:)
           - **Talsar:** Me temo que necesitarás ser miembro para reclamar cualquier recompensa por la tarea establecida.
-        - (Condition: Si el player ha completado los logros difíciles de Daemonheim y no se han reclamado las recompensas:)
+        - (Condition: If the player has completed the hard Daemonheim achievements and the rewards have not been claimed:)
           - **Player:** He completado todas las tareas difíciles del conjunto Daemonheim.
           - **Talsar:** Así que sí.
           - [Talsar te entrega un aura, 38.000 fichas Dungeoneering y una lámpara.]
@@ -89,10 +89,10 @@
 
 ### When a sinkhole is active
 
-- (Condition: Si falta aproximadamente un minuto antes de que aparezca el sumidero:)
+- (Condition: If it is about one minute before the sinkhole appears:)
   - **Talsar:** ¡Lo siento! ¡Un socavón está a punto de aparecer en la superficie en 1 minuto! Puedo teletransportarte allí, si lo deseas.
   - (continue)
-- (Condition: Si aparece el sumidero:)
+- (Condition: If the sinkhole appears:)
   - **Talsar:** ¡Lo siento! Un socavón... ¡Hay otro en la superficie! Puedo teletransportarte allí, si lo deseas.
   - (continue)
 - [Menu]: Elige una opción:
@@ -107,11 +107,11 @@
 
 ### Teleport option
 
-- (Condition: Si el socavón está a punto de aparecer:)
-  - (Condition: Si el sumidero está a punto de aparecer dentro de varios minutos:)
+- (Condition: If the sinkhole is about to appear:)
+  - (Condition: If the sinkhole is about to appear within several minutes:)
     - **Talsar:** El sumidero no aparecerá hasta dentro de [número] minutos. ¿Estás seguro de que quieres teletransportarte allí ahora?
     - (continue)
-  - (Condition: Si el sumidero está a punto de aparecer en un minuto:)
+  - (Condition: If the sinkhole is about to appear within one minute:)
     - **Talsar:** El sumidero no aparecerá hasta dentro de un minuto. ¿Estás seguro de que quieres teletransportarte allí ahora?
     - (continue)
   - [Menu]: ¿Teletransportarse al sumidero?
@@ -119,6 +119,6 @@
       - (Action: el player es teletransportado a la entrada del sumidero.)
     - [Choice]: No.
       - (end)
-- (Condition: Si el socavón no está a punto de aparecer:)
+- (Condition: If the sinkhole is not about to appear:)
   - **Talsar:** Por desgracia, no hay sumideros en la superficie en este momento. ¿Había algo más que quisieras?
   - (above|initial-menu)

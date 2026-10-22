@@ -74,7 +74,7 @@
     - **Art Critic Jacques:** Quieres información detallada o hablar de estas palabras, ¿eh?
     - ¿Qué te gustaría hacer?
       - Ver colecciones.
-        - ((Se abre la interfaz No conoces a Jacques.))
+        - ((You Don't Know Jacques interface opens.))
       - Habla de colecciones.
         - **Art Critic Jacques:** Bueno, ¡solo estoy realmente interesado en cualquier pintura que restaures, mon ami! ¡Es para mi proyecto de galería!
         - **Art Critic Jacques:** Me encantaría llevarme también las estatuas y esculturas que encuentres, pero a pesar de que el museo tiene mayores fondos, todavía limitan mi departamento.

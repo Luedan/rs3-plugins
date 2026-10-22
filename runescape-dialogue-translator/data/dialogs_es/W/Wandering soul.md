@@ -12,13 +12,13 @@
 ### Spawn
 
 - ¡Ha aparecido un wandering soul en el sitio del ritual!
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - ¡Ha aparecido un wandering soul en el sitio del ritual!
 
 ### Dismiss
 
 - Despide al wandering soul del sitio del ritual.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Despide al wandering soul del sitio del ritual.
   - (continue)
 - Se agrega la siguiente recompensa al cofre ritual: 1 x [Item]
@@ -26,5 +26,5 @@
 ### Despawn
 
 - El wandering soul abandona el lugar ritual.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - El wandering soul abandona el lugar ritual.

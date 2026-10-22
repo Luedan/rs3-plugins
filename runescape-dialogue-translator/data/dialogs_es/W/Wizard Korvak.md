@@ -17,14 +17,14 @@
 - [Menu]: Elige una opción:
   - [Choice]: ¿Puedes ayudarme con mis bolsas de esencias?
     - **Player:** ¿Puedes ayudarme con mis bolsas de esencias?
-    - (Condition: Si el player no tiene bolsas que necesiten reparación:)
+    - (Condition: If the player doesn't have any pouches that need repair:)
       - **Wizard Korvak:** No tienes ninguna bolsa que necesite reparación... Podría venderte una bolsa, ¡pero solo si no me lo dices!
       - [Menu]: Selecciona una opción
         - [Choice]: Me gustaría comprar una bolsa.
           - (continue|Trade option)
         - [Choice]: No importa.
           - **Player:** No importa.
-    - (Condition: Si el player tiene bolsas que necesitan reparación:)
+    - (Condition: If the player has pouches that need repair:)
       - **Wizard Korvak:** Puedo restaurarlos por un precio; por un precio, de hecho. ¡Muajajajajajajaja!
       - **Player:** Eh, ¿qué tipo de precio?
       - **Wizard Korvak:** Lo que las voces me digan que pida. Actualmente, necesitan 9.000 po para una bolsa grande y 12.000 po para una bolsa gigante. Shhhh, no se lo digas a nadie más: tengo una conexión por dentro y te puedo vender bolsas también. Por sólo 25.000 po, puedes tener una bolsa grande. Con 50.000 po razonables conseguirás una bolsa gigante.
@@ -68,14 +68,14 @@
 - **Wizard Korvak:** Ah, coins para financiar mi colección de rocas.
 - [Menu]: ¿Qué bolsa te gustaría comprar?
   - [Choice]: Compra una bolsa grande por 25.000 po.
-    - (Condition: Si el player aún no tiene una bolsa grande:)
+    - (Condition: If the player doesn't already have a large pouch:)
       - (removes=25,000 coins) (receives=large pouch)
-    - (Condition: Si el player ya tiene una bolsa grande:)
+    - (Condition: If the player already has a large pouch:)
       - **Wizard Korvak:** ¡Ya tienes una bolsa grande! ¿No sabes que desequilibrarás el mundo si tienes dos? Los perros odiarán a los gatos, los ratones bailarán y todos vendrán por mí. No, no hay bolsa para ti.
   - [Choice]: Compra una bolsa gigante por 50.000 po.
-    - (Condition: Si el player aún no tiene una bolsa gigante:)
+    - (Condition: If the player doesn't already have a giant pouch:)
       - (removes=50,000 coins) (receives=giant pouch)
-    - (Condition: Si el player ya tiene una bolsa grande:)
+    - (Condition: If the player already has a large pouch:)
       - **Wizard Korvak:** No, no, no. Me dijeron cuando estuve allí. Sólo una preciosa bolsa, por tamaño, por persona. No más. No puedo venderte esta bolsa, o podrían hacerme regresar allí para recibir castigos.
   - [Choice]: No importa.
     - **Player:** No importa.
@@ -84,18 +84,18 @@
 
 - [Menu]: ¿Qué bolsa te gustaría reparar?
   - [Choice]: Reparar una bolsa grande por 9.000 po.
-    - (Condition: Si la bolsa necesita reparación:)
+    - (Condition: If the pouch needs repair:)
       - **Wizard Korvak:** Magic me hace feliz, la magia me alegra, la magia calma las voces y nada rima con morado.
-    - (Condition: Si la bolsa no necesita reparación:)
+    - (Condition: If the pouch does not need repair:)
       - **Wizard Korvak:** ¡Las voces están enojadas contigo! No tienes nada que reparar. Déjanos en paz.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - {{Transcript missing}}
   - [Choice]: Reparar bolsa gigante por 12.000 po.
-    - (Condition: Si la bolsa necesita reparación:)
+    - (Condition: If the pouch needs repair:)
       - **Wizard Korvak:** Ahhh, el simple acto de un hechizo de transformación. Tan reconfortante. Silencia las voces. Su bolsa está reparada.
-    - (Condition: Si la bolsa no necesita reparación:)
+    - (Condition: If the pouch does not need repair:)
       - **Wizard Korvak:** ¡Las voces están enojadas contigo! No tienes nada que reparar. Déjanos en paz.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - {{Transcript missing}}
   - [Choice]: No importa.
     - (end)

@@ -13,10 +13,10 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: He perdido mi hacha del ejército enano.
-    - (Condition: Sin ningún espacio en backpack:)
+    - (Condition: Without any space in backpack:)
       - [Necesitas un espacio de inventario libre para recuperar el hacha del ejército enano.]
-    - (Condition: Con al menos un espacio en backpack:)
-      - (Condition: Con el hacha del ejército enano realmente perdida:)
+    - (Condition: With at least one space in backpack:)
+      - (Condition: With the dwarven army axe having genuinely been lost:)
         - **Major Mary Rancour:** Así que sí. Hay uno en las tiendas. ¿Te gustaría?
         - [Menu]: Selecciona una opción
           - [Choice]: si
@@ -25,16 +25,16 @@
             - [También te otorga +3 XP al extraer cobre y estaño, elaborar cuero suave y arcilla, cocinar, cazar vencejos carmesí y kebbits polares, cortar madera y hacer fuego normal y oak logs, y colocar puntas de flecha de bronce.]
           - [Choice]: No
             - (end)
-      - (Condition: Con el hacha del ejército enano en backpack o banco:)
+      - (Condition: With the dwarven army axe in backpack or bank:)
         - **Major Mary Rancour:** Según mis registros, todavía tienes un hacha del ejército enano. Quizás esté en tu banco.
   - [Choice]: ¡Debe haber algo de lucha que hacer!
     - **Major Mary Rancour:** Siempre hay trolls en la cueva del noroeste. Entra allí y mata a algunos si quieres.
   - [Choice]: cond=Historical:|(Vuelva a reproducir la escena de llegada de Burthorpe).
     - (Action: Reproduce la escena de llegada de Burthorpe.)
   - [Choice]: Necesito orientación.
-    - (Condition: Históricamente:)
+    - (Condition: Historically:)
       - ((Se abre la interfaz para reproducir los tutoriales).
-    - (Condition: Actualmente:)
+    - (Condition: Currently:)
       - (end)
   - [Choice]: Adiós.
     - (end)

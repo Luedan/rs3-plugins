@@ -18,13 +18,13 @@
 
 ##### Con crocspeak
 
-- ((Sólo la primera vez:))
+- ((Only on first time:))
   - **Frito:** Hola. Soy Frito.
   - **Player:** ¡Hola! Soy Player.
   - (continue)
-- ((Sólo después de la primera vez:))
+- ((Only after the first time:))
   - **Frito:** Buenas tardes, Player. ¿Qué puedo hacer por ti?
-  - ((Si los jugadores tienen activa la anulación cosmética de Gators:))
+  - ((If the players has the Gators cosmetic override active:))
     - **Frito:** Espera un segundo...
     - **Frito:** Cariño, ¿qué son esos?
     - **Player:** Oh, eh, ¿estas cosas en mis pies? ¡Son sólo los zapatos más de moda que existen! ¡Caimanes!
@@ -89,9 +89,9 @@
 #### Mientras maneja Frito
 
 - **Player:** ¡Hola!
-- ((Con amuleto crocspeak:))
+- ((With crocspeak amulet:))
   - **Frito:** Estoy a punto de tomar un refrigerio, Player. Habla conmigo cuando termine.
-- ((Sin amuleto crocspeak:))
+- ((Without crocspeak amulet:))
   - **Frito:** RRRGGGGGGGG
 
 ### Using items on her with crocspeak
@@ -104,7 +104,7 @@
 - (removes=coconut)
 - **Frito:** Sabes, no estaba seguro de ti, Player. Pero ese fue un gesto realmente amable.
 - **Player:** Ah, en realidad no fue nada. ¡Disfrutar!
-- ((Si Fruit Glorious Fruit no se ha completado:))
+- ((If Fruit Glorious Fruit hasn't been completed:))
   - ¡Felicitaciones! Has completado: 'Fruit Glorious Fruit' - Dale a Frito su fruta favorita.
 
 #### Cualquier otra fruta (incluido el coco (abierto))
@@ -118,7 +118,7 @@
 
 - **Frito:** Ah. Bien. Agradezco el gesto, pero se me ha ido la textura de la carne. La fruta, en cambio...
 - **Player:** Interesante...
-- ((Si se completó el logro Vegano antipático:))
+- ((If the Vegan Unfriendly achievement was completed:))
   - ¡Felicitaciones! Has completado: 'Vegan Unfriendly': alimenta a todos los cocodrilos con un poco de filete.
   - Has desbloqueado el título: {{Colour ZZCMD0ZZPlayer}}|color=#00FF00}}
   - Puede activar esto a través de la pestaña 'Títulos' en la interfaz 'Personalizaciones'.

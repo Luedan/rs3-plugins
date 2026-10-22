@@ -11,11 +11,11 @@
 
 ### Talk to
 
-- (Condition: Sin haber recibido el fragmento de Gema Pestilente gratis:)
-  - (Condition: Sin espacio libre backpack:)
+- (Condition: Without having received the free Pestilent Gem shard:)
+  - (Condition: Without free backpack space:)
     - **Pestilent Torva Trovekeeper:** Aquí tengo un fragmento de gema pestilente gratis para ti. ¡Pero no tienes espacio para ello!
     - (continue)
-  - (Condition: Con espacio gratuito backpack:)
+  - (Condition: With free backpack space:)
     - (receives=Pestilent Gem shard)
     - **Pestilent Torva Trovekeeper:** ¡Hola! ¡Aquí tienes un fragmento de gema pestilente gratis!
     - (continue)

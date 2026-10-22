@@ -98,18 +98,18 @@
 
 ### The fight
 
-(Condition: Arrastrando el player al pozo de lava)
+(Condition: Dragging the player into the lava pit)
   - **Kal'Ger the Warmonger:** {{RSChat|You dare hide from me? BURN!}} {{Audio button|Kal'Ger the Warmonger - You dare hide from me? BURN!.ogg}}
-- (Condition: Copiando la agitación)
+- (Condition: Copying Turmoil)
   - **Kal'Ger the Warmonger:** {{RSChat|Your god can't help you now!}} {{Audio button|Kal'Ger the Warmonger - Your god can't help you now!.ogg}}
   - ¡El belicista te roba los efectos de Turmoil!
-- (Condition: Después de 8 ataques bloqueados con oraciones de protección/desvío)
+- (Condition: After 8 attacks blocked with protection/deflection prayers)
   - **Kal'Ger the Warmonger:** {{RSChat|GRRRR!}} {{Audio button|Kal'Ger the Warmonger - GRRRR!.ogg}}
-- (Condition: Al desactivar Prayer)
+- (Condition: When disabling Prayer)
   - **Kal'Ger the Warmonger:** {{RSChat|ENOUGH!}} {{Audio button|Kal'Ger the Warmonger - ENOUGH!.ogg}}
-    - (Condition: Libro estándar Prayer)
+    - (Condition: Standard Prayer book)
       - ¡Has resultado herido y no puedes usar oraciones de protección!
-    - (Condition: Maldiciones antiguas)
+    - (Condition: Ancient Curses)
       - ¡Has resultado herido y no puedes desviar maldiciones!
-- (Condition: Sobre la derrota)
+- (Condition: On defeat)
   - **Kal'Ger the Warmonger:** {{RSChat|IMPOSSIBLE!}} {{Audio button|Kal'Ger the Warmonger - IMPOSSIBLE!.ogg}}

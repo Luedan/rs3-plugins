@@ -71,18 +71,18 @@
   - {{anchor|herb-cape}} [Elección]: cond=Si el player tiene menos de 99 Herblore|¿Puedes decirme qué debo hacer para ganar un skillcape de Herblore?
     - (arriba)
   - [Choice]: cond=If the player has 99 Herblore|¿Creo que puedes venderme un skillcape de Herblore?
-    - (Condition: Si el player tiene un ring of charos (a) equipado:)
+    - (Condition: If the player has a ring of charos (a) equipped:)
       - **Kaqemeex:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins para este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
       - [Menu]: Elige una opción:
         - [Choice]: ¿92.000 coins? Eso es demasiado caro.
           - **Player:** Sé dónde encontrarte si cambio de opinión.
         - [Choice]: De hecho, creo que tengo el dinero aquí.
-          - (Condition: Si el player no tiene espacio backpack:)
+          - (Condition: If the player has no backpack space:)
             - **Kaqemeex:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar espacio en backpack antes de que pueda venderte uno.
-          - (Condition: Si el player no tiene suficiente dinero:)
+          - (Condition: If the player does not have enough money:)
             - **Player:** Pero desafortunadamente me equivoqué.
             - **Kaqemeex:** Bueno, vuelve a verme cuando lo hagas.
-          - (Condition: Si el player tiene suficiente dinero:)
+          - (Condition: If the player has enough money:)
             - (receives=Herblore cape and Herblore hood) (removes=92,000 coins)
             - **Kaqemeex:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
         - [Choice]: cond=If the player has 120 Herblore|He dominado esta habilidad. ¿Hay algo más?
@@ -92,18 +92,18 @@
           - **Kaqemeex:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Herblore master cape.
           - [Menu]: ¿Comprar Herblore master cape por 120.000 coins?
             - [Choice]: Sí.
-              - (Condition: Si el player no tiene espacio backpack:)
+              - (Condition: If the player has no backpack space:)
                 - **Kaqemeex:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
-              - (Condition: Si el player no tiene suficiente dinero:)
+              - (Condition: If the player does not have enough money:)
                 - No tienes suficiente dinero para comprar esta capa.
-              - (Condition: Si el player tiene suficiente dinero:)
+              - (Condition: If the player has enough money:)
                 - (receives=Herblore master cape) (removes=120,000 coins)
                 - (Action: Suena música Master cape.)
             - [Choice]: No.
               - (end)
-    - (Condition: Si el player no tiene un ring of charos(a) equipado:)
+    - (Condition: If the player does not have a ring of charos (a) equipped:)
       - **Kaqemeex:** Sin duda; Ha sido un placer verte crecer como herbolario. Tengo el privilegio de haber contribuido decisivamente a tu aprendizaje, pero debo pedir una donación de 99.000 coins para cubrir los gastos de la capa.
-      - (Condition: Con un token inverted skillcape o un token maestro skillcape invertido para Herblore:)
+      - (Condition: With an inverted skillcape token or an inverted master skillcape token for Herblore:)
         - **Kaqemeex:** ¡Veo que tienes una de las fichas de inversión de capa de Hans! Te quitaré eso de las manos y te venderé cualquier inverted cape para el que seas elegible.
         - (removes=any inverted skillcape token and inverted master skillcape token)
         - (continue)
@@ -111,17 +111,17 @@
         - [Choice]: ¿99.000 coins? Eso es demasiado caro.
           - **Player:** Sé dónde encontrarte si cambio de opinión.
         - [Choice]: De hecho, creo que tengo el dinero aquí.
-          - (Condition: Si el player no tiene espacio backpack:)
+          - (Condition: If the player has no backpack space:)
             - (arriba)
-          - (Condition: Si el player no tiene suficiente dinero:)
+          - (Condition: If the player does not have enough money:)
             - (arriba)
-          - (Condition: Si el player tiene suficiente dinero:)
+          - (Condition: If the player has enough money:)
             - (receives=Herblore cape and Herblore hood) (removes=99,000 coins)
             - **Kaqemeex:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
         - [Choice]: cond=With inverted Herblore cape unlocked:|Me gustaría un skillcape con los colores invertidos.
-          - (Condition: Sin espacio libre backpack:)
+          - (Condition: Without free backpack space:)
             - **Kaqemeex:** Desafortunadamente necesitarás liberar algo de espacio en backpack antes de que pueda venderte uno.
-          - (Condition: Con espacio gratuito backpack:)
+          - (Condition: With free backpack space:)
             - {{Transcript missing}}
         - [Choice]: cond=If the player has 120 Herblore|He dominado esta habilidad. ¿Hay algo más?
           - (arriba)
@@ -132,18 +132,18 @@
           - **Kaqemeex:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Herblore master cape.
           - [Menu]: ¿Comprar Herblore master cape por 120.000 coins?
             - [Choice]: Sí.
-              - (Condition: Sin espacio libre backpack:)
+              - (Condition: Without free backpack space:)
                 - **Kaqemeex:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
-              - (Condition: Con espacio gratuito backpack:)
+              - (Condition: With free backpack space:)
                 - {{Transcript missing}}
             - [Choice]: No.
               - (end)
   - [Choice]: cond=If the player has 99 Herblore|He notado que hay un par de versiones de cada skillcape.
     - **Kaqemeex:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
-    - (Condition: Si usas el modelo antiguo:)
+    - (Condition: If you use the old model:)
       - **Kaqemeex:** Parece que actualmente estás usando el modelo anterior para tu Herblore skillcape. ¿Quieres cambiar a uno más nuevo?
       - (continue)
-    - (Condition: Si utiliza el nuevo modelo:)
+    - (Condition: If you use the new model:)
       - **Kaqemeex:** Aún puedes optar por usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
       - (continue)
     - [Menu]: Selecciona una opción
@@ -158,7 +158,7 @@
             - (end)
       - [Choice]: No, gracias.
         - **Kaqemeex:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
-        - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+        - (Condition: If the player uses the new model for any other skillcape:)
           - **Kaqemeex:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
           - [Menu]: Selecciona una opción
             - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.

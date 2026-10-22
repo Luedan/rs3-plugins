@@ -11,11 +11,11 @@
 
 ### Talk to
 
-- (Condition: Antes de recibir el sello gratis:)
-  - (Condition: Sin espacio libre backpack:)
+- (Condition: Before receiving the free sigil:)
+  - (Condition: Without free backpack space:)
     - [El Herald tiene un sello para regalarte, si tuvieras el espacio backpack.]
     - (continue)
-  - (Condition: Con espacio gratuito backpack:)
+  - (Condition: With free backpack space:)
     - (receives=Tumeken Sigil)
     - [El Herald te regala un sello de su patrón.]
     - (continue)

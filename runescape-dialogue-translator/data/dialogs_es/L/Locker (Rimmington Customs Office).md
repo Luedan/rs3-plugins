@@ -11,7 +11,7 @@
 
 ### Interacting with the locker
 
-- (Condition: Si no has empezado a Rockear:)
+- (Condition: If not started Rocking Out:)
   - (ver|Rockear#Interactuar con el casillero)
-- (Condition: Si se completa parcialmente Rocking Out:)
+- (Condition: If partially completed Rocking Out:)
   - (opens=Deposit box)

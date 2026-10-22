@@ -64,11 +64,11 @@
       - [Choice]: Atrás...
         - (previous)
 - **Player:** [Chosen ring], por favor.
-- (Condition: Si el player no tiene el anillo elegido en el inventario:)
+- (Condition: If the player doesn't have the chosen ring in the inventory:)
   - **Player:** En realidad, no tengo ninguno de esos anillos conmigo.
-- (Condition: Si el player no tiene el anillo elegido en el inventario pero no tiene suficiente Teci:)
+- (Condition: If the player doesn't have the chosen ring in the inventory but not enough Teci:)
   - **Player:** En realidad, no tengo tanto {{Sic|Teci}}
-- (Condition: Si el player tiene el anillo elegido en el inventario y suficiente Teci:)
+- (Condition: If the player has the chosen ring in the inventory and enough Teci:)
   - (removes=unimbued ring) (receives=imbued ring)
   - **Armoursmith:** Aquí tienes, humano, he imbuido la cáscara de tu dedo. Vuelve si quieres que elimine el efecto.
 

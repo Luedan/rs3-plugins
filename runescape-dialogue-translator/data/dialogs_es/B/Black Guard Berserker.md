@@ -12,13 +12,13 @@
 ### Standard dialogue
 
 - {{trandom}}
-  - (Condition: Diálogo 1:)
+  - (Condition: Dialogue 1:)
     - **Black Guard Berserker:** ¡Obedece la ley!
-  - (Condition: Diálogo 2:)
+  - (Condition: Dialogue 2:)
     - **Black Guard Berserker:** ¡No te metas en problemas!
-  - (Condition: Diálogo 3:)
+  - (Condition: Dialogue 3:)
     - **Black Guard Berserker:** ¡Fuera del camino, humano!
-  - (Condition: Diálogo 4:)
+  - (Condition: Dialogue 4:)
     - **Black Guard Berserker:** ¡Te estoy vigilando!
-  - (Condition: Diálogo 5:)
+  - (Condition: Dialogue 5:)
     - [El guardia te ignora.]

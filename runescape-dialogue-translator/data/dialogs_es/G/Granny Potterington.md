@@ -29,25 +29,25 @@
   - **Granny Potterington:** Bueno, si no es mi rueda de queso favorita. ¿Qué puedo hacer por ti?
   - **Granny Potterington:** Bueno, si no es mi sándwich de pepino favorito.
   - **Granny Potterington:** ¿Qué te trae por mi granja, calabaza?
-- (Condition: Sólo si los granos de nivelación Farming no son reclamados:)
+- (Condition: Only if the beans from levelling Farming are not claimed:)
   - (receives=some beans)
   - La abuela te acaba de entregar frijoles [número].
   - **Granny Potterington:** ¡Oh! Encontré algunos frijoles en el respaldo del sofá. ¡Aquí tienes!
-  - (Condition: Si los frijoles del nivel 99 Farming no se reclaman:)
+  - (Condition: If the beans from level 99 Farming aren't claimed:)
     - (Action: el player recibe 100 frijoles.)
     - (continue)
-  - (Condition: Si los frijoles del nivel 120 Farming no se reclaman:)
+  - (Condition: If the beans from level 120 Farming aren't claimed:)
     - (Action: el player recibe 500 frijoles.)
     - La abuela te acaba de dar 500 frijoles.
     - (continue)
-- (Condition: Si un pollo lagarto macho llamado Malcolm con el rasgo Caótico está en el inventario:)
+- (Condition: If a male lizard chicken named Malcolm with the Chaotic trait is in the inventory:)
   - **Granny Potterington:** Espera un minuto, ¿cómo conseguiste un pollo lagarto MACHO? ¡Pensé que todas eran gallinas! ¿Te importa si lo dejo en la granja?
   - [Menu]: ¿Entregarle Malcolm, el pollo lagarto, a la abuela P?
     - [Choice]: Sí.
       - ¡Felicitaciones! Has completado: 'La vida, uh, encontró un camino'. (Entregue un pollo lagarto llamado Malcolm con el rasgo Caótico a Granny P.)
     - [Choice]: No.
       - (continue)
-- (Condition: Si un cigomita mágico llamado Trevor con el rasgo Leal está en backpack:)
+- (Condition: If a magical zygomite named Trevor with the Loyal trait is in the backpack:)
   - **Granny Potterington:** Oh, ¿quién es ese pequeño y divertido? Trevor, el cigomita mágico, ¿eh? Él también es leal. ¡Sería una gran mascota! ¿Quieres que lo domine por ti?
   - [Menu]: ENTREGAR TREVOR MÁGICO A LA ABUELITA P?
     - [Choice]: Sí.
@@ -92,42 +92,42 @@
         - (previous)
       - [Choice]: ¿Qué has estado haciendo?
         - **Granny Potterington:** Oh, ya sabes, no mucho. He estado dando vueltas en la granja como siempre lo hago. Por supuesto, también he estado preparando una gran cantidad de hidromiel casero y parte de ella es bastante potente. Así que hay muchas posibilidades de que yo también haya estado arrasando Ardougne como un dragón trastornado sobre ruedas de carro. Es difícil decirlo, de verdad.
-        - (Condition: Durante el mes de enero:)
+        - (Condition: During the month of January:)
           - **Granny Potterington:** Oh, no he estado haciendo mucho. Recientemente he tenido que lidiar con algunos jóvenes mequetrefes que creen que pueden faltarle el respeto a una anciana en silla de ruedas.
           - **Granny Potterington:** Es curioso intentar dejar atrás a una anciana en silla de ruedas, podemos alcanzar una gran velocidad si lo necesitamos.
           - **Granny Potterington:** No le faltarán el respeto a la vieja abuela en el corto plazo. Oh, no.
-        - (Condition: Durante el mes de febrero:)
+        - (Condition: During the month of February:)
           - **Granny Potterington:** Nada. Literalmente no ha pasado nada interesante.
           - **Granny Potterington:** ¡Estoy tan ABURRIDO!
-        - (Condition: Durante el mes de marzo:)
+        - (Condition: During the month of March:)
           - **Granny Potterington:** Bueno, algunos de los osos de atrás se pusieron muy luchadores.
           - **Granny Potterington:** En retrospectiva, probablemente no fue una buena idea dejar todas las colmenas atrás.
           - **Granny Potterington:** Todos estaban gruñendo y enojados y pensé: 'Abuela, ¿vas a quitarles eso a esas bestias?' Y yo digo: '¡Oh, diablos, no!'
           - **Granny Potterington:** Así que me dirigí hacia allí y luego, ¿sabes lo que hice?
           - **Player:** Me da miedo pensar.
           - **Granny Potterington:** Me los afeité. Todos y cada uno de ellos. Eso les enseñará.
-        - (Condition: Durante el mes de abril:)
+        - (Condition: During the month of April:)
           - **Granny Potterington:** Bueno, es una época encantadora del año, así que llevé al viejo Sam y me fui a la ciudad.
           - **Granny Potterington:** Es terriblemente desafortunado que, en mi vejez, olvidé por completo que estaba sosteniendo una escoba en cada mano, cargando hacia adelante como un dragón con una lanza en el trasero.
           - **Granny Potterington:** Oh, la matanza. Los adornos de los puestos del mercado salieron volando y los guardias se desplomaron sobre los aldeanos indefensos.
           - **Granny Potterington:** Soy una salchicha tan tonta. Jejejeje.
-        - (Condition: Durante el mes de mayo:)
+        - (Condition: During the month of May:)
           - **Granny Potterington:** Tuve una cita encantadora con captain of the guard.
           - **Player:** Oh, ¿a dónde fuiste?
           - **Granny Potterington:** Bueno, me invitó a tomar unas copas... Bueno, está bien, me conoció después de tomar unas copas.
           - **Granny Potterington:** Entonces el diablillo me llevó de regreso a sus mazmorras para pasar una "noche en las celdas", si sabes a qué me refiero.
           - **Player:** ¿Quieres decir que te arrestaron por estar ebrio y alterar el orden público?
           - **Granny Potterington:** Prefiero mi versión de la noche.
-        - (Condition: Durante el mes de June:)
+        - (Condition: During the month of June:)
           - **Granny Potterington:** Compré la vieja barra de baile e invité a algunos de mis aldeanos favoritos a tomar vino y bailar.
           - **Player:** ¿Bailes folclóricos alrededor del mayo? Suena encantador.
           - **Granny Potterington:** ¿Qué carajo es un árbol de mayo?
-        - (Condition: Durante el mes de julio:)
+        - (Condition: During the month of July:)
           - **Granny Potterington:** Me puse la armadura y comencé a matar duendes.
           - **Player:** ¿Luchas contra duendes?
           - **Granny Potterington:** No parezcas tan sorprendida, mi pequeño panqueque. Yo solía ser todo un aventurero en mi época.
           - **Granny Potterington:** Por supuesto, tengo suerte si puedo golpear a un duende con mi escoba estos días, pero ayuda a mantener las articulaciones flexibles.
-        - (Condition: Durante el mes de agosto:)
+        - (Condition: During the month of August:)
           - **Granny Potterington:** Hoy en día, ya no es tan divertido como solía ser. No puedo andar vagando por los campos de trigo con decenas de jóvenes persiguiéndome.
           - **Granny Potterington:** Dios mío, esos eran los días.
           - **Granny Potterington:** ....
@@ -137,12 +137,12 @@
           - **Granny Potterington:** Bueno, estos días realmente no hago mucho excepto seducir a jóvenes y atractivos aventureros para que me ayuden en la granja.
           - **Granny Potterington:** No, no, no lo niegues. ¿Cómo pudiste resistirte a esta elegante nariz y mis magníficos... brazos? Sé que tengo un encanto de sirena, no hay de qué avergonzarse.
           - **Player:** Correcto.
-        - (Condition: Durante el mes de septiembre:)
+        - (Condition: During the month of September:)
           - **Granny Potterington:** Oh, ya sabes, no mucho. He estado dando vueltas en la granja como siempre lo hago.
           - **Granny Potterington:** Por supuesto, también he estado preparando mucho hidromiel casero y parte de él es bastante potente.
           - **Granny Potterington:** Así que hay muchas posibilidades de que yo también haya estado arrasando Ardougne como un dragón trastornado sobre ruedas de carro.
           - **Granny Potterington:** Es difícil decirlo, la verdad.
-        - (Condition: Durante el mes de octubre:)
+        - (Condition: During the month of October:)
           - **Granny Potterington:** Bueno, ya sabes qué estación es y todos los peligros que conlleva, así que me he asegurado de estar preparado.
           - **Granny Potterington:** He estado comiendo siete dientes de ajo en cada comida, así que ningún vampyres me va a dar problemas.
           - **Granny Potterington:** Tengo mis mejores cubiertos en mis aros, así que estoy listo para cualquier hombre lobo que venga a rondar.
@@ -150,7 +150,7 @@
           - **Player:** ¿Qué estás haciendo con los fantasmas?
           - **Granny Potterington:** ...
           - **Granny Potterington:** ¡Oh, $#!^.
-        - (Condition: Durante el mes de noviembre:)
+        - (Condition: During the month of November:)
           - **Granny Potterington:** He estado escribiendo un libro.
           - **Player:** ¿Qué tipo de libro?
           - **Granny Potterington:** Oh, sólo un librito de poesía.
@@ -162,7 +162,7 @@
           - **Player:** Entonces coloca tus manos sobre mí...
           - **Player:** ¡Abuela! ¡NO!
           - **Granny Potterington:** Es un trabajo en progreso.
-        - (Condition: Durante el mes de diciembre:)
+        - (Condition: During the month of December:)
           - {{Transcript missing}}
         - (previous)
       - [Choice]: ¿Puedes contarme un chiste?

@@ -14,23 +14,23 @@
 - **Pikkupstix:** ¡Hola! Bienvenidos a mi humilde morada. ¿Le puedo ayudar en algo?
 - [Menu]: Elige una opción:
   - [Choice]: Tengo una pregunta sobre Summoning...
-    - ((Si el player tiene 99 Summoning:))
+    - ((If the player has 99 Summoning:))
       - **Pikkupstix:** ¡Nunca antes había visto un poder de invocación tan puro! Si alguien tiene derecho a poseer un skillcape de Summoning, ¡eres tú!
       - (continue)
     - [Menu]: Elige una opción:
       - [Choice]: cond=If the player has 99 Summoning|Sí, por favor véndeme un skillcape de Summoning.
-        - (Condition: Si el player tiene un ring of charos (a) equipado:)
+        - (Condition: If the player has a ring of charos (a) equipped:)
           - **Pikkupstix:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins para este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
           - [Menu]: Elige una opción:
             - [Choice]: ¿92.000 coins? Eso es demasiado caro.
               - **Player:** Sé dónde encontrarte si cambio de opinión.
             - [Choice]: De hecho, creo que tengo el dinero aquí.
-              - (Condition: Si el player no tiene espacio backpack:)
+              - (Condition: If the player has no backpack space:)
                 - **Pikkupstix:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar espacio en backpack antes de que pueda venderte uno.
-              - (Condition: Si el player no tiene suficiente dinero:)
+              - (Condition: If the player does not have enough money:)
                 - **Player:** Pero desafortunadamente me equivoqué.
                 - **Pikkupstix:** Bueno, vuelve a verme cuando lo hagas.
-              - (Condition: Si el player tiene suficiente dinero:)
+              - (Condition: If the player has enough money:)
                 - (receives=summoning cape and summoning hood) (removes=92,000 coins)
                 - **Pikkupstix:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
             - [Choice]: cond=If the player has 120 Summoning|He dominado esta habilidad. ¿Hay algo más?
@@ -40,25 +40,25 @@
               - **Pikkupstix:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Summoning master cape.
               - [Menu]: ¿Comprar Summoning master cape por 120.000 coins?
                 - [Choice]: Sí.
-                  - (Condition: Si el player no tiene espacio backpack:)
+                  - (Condition: If the player has no backpack space:)
                     - **Pikkupstix:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
-                  - (Condition: Si el player no tiene suficiente dinero:)
+                  - (Condition: If the player does not have enough money:)
                     - No tienes suficiente dinero para comprar esta capa.
-                  - (Condition: Si el player tiene suficiente dinero:)
+                  - (Condition: If the player has enough money:)
                     - (receives=summoning master cape) (removes=120,000 coins)
                     - (Action: Suena música Master cape.)
                 - [Choice]: No.
                   - (end)
-      - (Condition: Si el player no tiene un ring of charos(a) equipado:)
+      - (Condition: If the player does not have a ring of charos (a) equipped:)
         - [Menu]: Elige una opción:
           - [Choice]: ¿99.000 coins? Eso es demasiado caro.
             - **Player:** Sé dónde encontrarte si cambio de opinión.
           - [Choice]: De hecho, creo que tengo el dinero aquí.
-            - (Condition: Si el player no tiene espacio backpack:)
+            - (Condition: If the player has no backpack space:)
               - (arriba)
-            - (Condition: Si el player no tiene suficiente dinero:)
+            - (Condition: If the player does not have enough money:)
               - (arriba)
-            - (Condition: Si el player tiene suficiente dinero:)
+            - (Condition: If the player has enough money:)
               - (receives=summoning cape and summoning hood) (removes=99,000 coins)
               - **Pikkupstix:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
           - [Choice]: cond=If the player has 120 summoning|He dominado esta habilidad. ¿Hay algo más?
@@ -182,10 +182,10 @@
         - (opens=Pikkupstix's Summoning Shop)
       - [Choice]: He notado que hay un par de versiones de cada skillcape.
         - **Pikkupstix:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
-        - (Condition: Si usas el modelo antiguo:)
+        - (Condition: If you use the old model:)
           - **Pikkupstix:** Parece que actualmente estás usando el modelo anterior para tu Summoning skillcape. ¿Quieres cambiar a uno más nuevo?
           - (continue)
-        - (Condition: Si utiliza el nuevo modelo:)
+        - (Condition: If you use the new model:)
           - **Pikkupstix:** Aún puedes optar por usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
           - (continue)
         - [Menu]: Selecciona una opción
@@ -200,7 +200,7 @@
                 - (end)
           - [Choice]: No, gracias.
             - **Pikkupstix:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
-            - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+            - (Condition: If the player uses the new model for any other skillcape:)
               - **Pikkupstix:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
               - [Menu]: Selecciona una opción
                 - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.
@@ -229,10 +229,10 @@
     - [Menu]: Selecciona una opción
       - [Choice]: Entonces, ¿dónde está Pikkenmix?
         - **Player:** Entonces, ¿dónde está Pikkenmix?
-        - (Condition: Si la familiarización no está activa:)
+        - (Condition: If Familiarisation is not active:)
           - **Pikkupstix:** Supongo que estará en algún lugar relajante. Ha estado bastante ocupado últimamente.
           - **Player:** ¡Adiós!
-        - (Condition: Si la familiarización está activa:)
+        - (Condition: If Familiarisation is active:)
           - **Pikkupstix:** Está investigando otro de esos fenómenos del obelisco.
           - [Menu]: Selecciona una opción
             - [Choice]: ¿Puedes decirme dónde?
@@ -258,10 +258,10 @@
         - **Pikkupstix:** Bueno, nosotros los druidas hemos estado recolectando fragmentos en bruto del plano espiritual desde hace un tiempo. Sin embargo, recientemente los mini obeliscos han comenzado a brillar y los familiares nos han impedido regresar con fragmentos.
         - **Pikkupstix:** Si pudieras ayudarnos, sería genial.
         - **Player:** ¿Cómo puedo ayudar?
-        - (Condition: Si la familiarización está activa:)
+        - (Condition: If Familiarisation is active:)
           - **Pikkupstix:** Solo habla con Pikkenmix; Estará investigando uno de los fenómenos.
           - (continue)
-        - (Condition: Si la familiarización no está activa:)
+        - (Condition: If Familiarisation is not active:)
           - **Pikkupstix:** Tendrás que esperar hasta que vuelva a ocurrir el fenómeno. Nuestros estudios parecen indicar que ocurren una vez cada dos horas.
           - (continue)
         - **Player:** Está bien.
@@ -288,7 +288,7 @@
 ### Making a Summoning pouch during the 25th Anniversary celebrations task
 
 - {{RSFontAchievement|That's the Spirit|Create a Summoning pouch using the Taverley summoning obelisk.}}
-- ((Se muestra en una ventana emergente de finalización de tarea:))
+- ((Shown in a task completion pop-up:))
   - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
   - Ese es el Spirit
   - Crea una bolsa Summoning usando el obelisco de invocación Taverley.
@@ -299,5 +299,5 @@
 - **Pikkupstix:** Todo es un equilibrio. Tomemos como ejemplo el humilde juego de palabras: ¡si no es malo, entonces no es bueno!
 - **Player:** ...
 - **Pikkupstix:** Todo el mundo es crítico. Ese habría tenido a los lobos espirituales... ¡aullando! ¿Consíguelo?
-- (Condition: Si se han completado todas las tareas:)
+- (Condition: If all the tasks have been completed:)
   - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!

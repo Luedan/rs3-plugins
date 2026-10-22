@@ -53,5 +53,5 @@
 
 - (Action: Player lanza Planta curativa o suelo fértil en Coeden.)
 - **Coeden:** ¡Oye, eso hace cosquillas!
-- (Condition: Si el player cumple con las condiciones del título, el Coedensjurado pero no tiene el título:)
+- (Condition: If the player meets the conditions of the title the Coedensworn but hasn't got the title:)
   - color=#8A0808

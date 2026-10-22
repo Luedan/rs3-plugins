@@ -11,11 +11,11 @@
 
 ### Talk to
 
-- (Condition: Inicialmente:)
+- (Condition: Initially:)
   - **Sticky Bunny:** ¡No creo que nos hayamos conocido antes! Soy pegajoso.
   - **Player:** ¡Hola! Soy Player.
   - (continue)
-- (Condition: Después:)
+- (Condition: Afterwards:)
   - **Sticky Bunny:** ¡Hola, Player!
   - (continue)
 - [Menu]: Seleccione una opción|ancla=Sticky-Bunny-opciones

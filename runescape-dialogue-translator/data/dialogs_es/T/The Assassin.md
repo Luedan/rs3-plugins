@@ -13,42 +13,42 @@
 
 - **The Assassin:** ¿Qué quieres?
 - **Player:** ¿Cómo te va, Ling?
-  - (Condition: Antes de Una rana de jade en la garganta:)
+  - (Condition: Before A Jade Frog in the Throat:)
     - **Ling:** Estoy investigando ese grupo de esclavistas que han estado operando en la región de Arc. Deben aprender que no pueden simplemente tomar lo que quieren, no si quieren conservar la cabeza. Tu puerto está lleno de charlas ociosas. Es el lugar perfecto para obtener información.
-  - (Condition: Después de Una rana de jade en la garganta:)
+  - (Condition: After A Jade Frog in the Throat:)
     - **Ling:** Preferiría no esconderme en tabernas, pero desde que el asesino del Loto de la Muerte me vio, he tenido que mantener un perfil bajo.
-  - (Condition: Después del loto de la muerte:)
+  - (Condition: After The Death Lotus:)
     - **Ling:** Estoy tomando un descanso del interrogatorio a Bak, ese grosero asesino del Loto de la Muerte que capturamos. Nada como un interrogatorio para tener sed.
-  - (Condition: Después de Ay de Wu:)
+  - (Condition: After Woe for Wu:)
     - **Ling:** Kirau todavía está buscando la ubicación de Baby Tooth.  El líder de Death Lotus es un hombre difícil de localizar.  Por suerte para mí, Kirau es excelente en lo que hace.
-  - (Condition: Después del diente de leche:)
+  - (Condition: After Baby Tooth:)
     - **Ling:** ¿Cómo crees que van las cosas?  La traición de Kirau me ha dejado dolido.  Pero tendré mi venganza.  Morirá con mis manos alrededor de su garganta.  He regresado aquí para ver qué información puedo reunir, alguien debe saber dónde se esconde Kirau.
-  - (Condition: Después de sacar el diente:)
+  - (Condition: After Pulling the Tooth:)
     - **The Assassin:** Todavía estoy disfrutando de mi nueva libertad. Con el Loto de la Muerte en ruinas puedo vivir mi vida como deseo. Tengo que agradecerte por eso.
-  - (Condition: Después de conocer a the Partner - De nuevo:)
+  - (Condition: After Meet the Partner - Again:)
     - **The Assassin:** Estoy ansioso por continuar con nuestra campaña contra Quin. No puedo esperar a ver qué tienes planeado a continuación.
-  - (Condition: Después En memoria de Kirau:)
+  - (Condition: After In Memory of Kirau:)
     - **The Assassin:** No puedo creer que la familia de Kirau me haya perdonado. Con su apoyo, mataremos a Quin, créanme.
-  - (Condition: Después del asalto al paraíso:)
+  - (Condition: After Assault on Paradise:)
     - **The Assassin:** Algún día espero crear un gremio de asesinos que pueda rivalizar con el Loto de la Muerte. Por ahora, creo que hay mucho que aprender al verte en acción.
 - **Player:** Necesito a alguien con tus habilidades...
   - **The Assassin:** Por supuesto. Nunca rechazaría la oportunidad de practicar mis habilidades.
-  - ((Se abre la pantalla de viaje.))
+  - ((Voyage screen opens.))
 - **Player:** ¿Prefieres trabajar solo?
-  - (Condition: Sin the Convict desbloqueado:)
+  - (Condition: Without the Convict unlocked:)
     - **The Assassin:** Si pudieras encontrar un socio adecuado, alguien que esté acostumbrado a las sombras, consideraría trabajar con él.
     - Desbloquea the Convict (se requieren 90 Thieving) para desbloquear viajes conjuntos adicionales.
-  - (Condition: Con the Convict desbloqueado y no presente:)
+  - (Condition: With the Convict unlocked and not present:)
     - **The Assassin:** Consideraría trabajar con ese preso que frecuenta tu bar. Practicamos manualidades similares.
     - Si tanto the Convict como Assassin están en el puerto al mismo tiempo, estarán disponibles viajes conjuntos adicionales.
-  - (Condition: Con the Convict desbloqueado y en puerto:)
+  - (Condition: With the Convict unlocked and in port:)
     - **The Assassin:** Supongo que podría hacer un trabajo con ese convicto de allí. Podría cuidarme la espalda.
     - **The Convict:** ¿Convicto? ¿Cuida TU espalda? Nunca me había sentido tan insultado.
-    - ((Se abre la pantalla de viaje.))
+    - ((Voyage screen opens.))
 - **Player:** ¿Cómo es la vida de un asesino?
   - **The Assassin:** No muy diferente del tuyo, me imagino. Ambos somos asesinos hábiles, ¿no? Sabes lo pesada que puede ser esa carga, pero matar sólo a los que lo merecen... Bueno, eso puede ayudar.
 - [Ver escenas anteriores]
-  - ((Reproduce el diálogo como se muestra a continuación.))
+  - ((Replays dialogue as below.))
 
 ### Story Voyages
 
@@ -117,7 +117,7 @@
 
 - **Ling (contracts):** Hmm, eres un hábil asesino, lo noto. Necesito a alguien como tú, pero primero debo saber que puedo confiar en ti.
 - Para obtener contracts de Ling, primero debe completar el viaje por los puertos 'Conozca the Assassin'.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a popup:))
   - Para obtener contracts de Ling, primero debe completar el viaje por los puertos 'Conozca the Assassin'.
 
 ##### Con the Assassin desbloqueado en el puerto propiedad del jugador
@@ -129,7 +129,7 @@
 - **Ling (contracts):** Hola, pequeño Khan. ¿Buscas un contrato Death Lotus Slayer?
 - [Menu]: ¿Hablar del asesino contracts?
   - [Choice]: Sí.
-    - ((Se abre la interfaz Contrato actual.))
+    - ((The Current Contract interface opens.))
   - [Choice]: No.
     - (end)
 {{Player-owned port}}

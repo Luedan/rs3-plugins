@@ -20,10 +20,10 @@
 - [Menu]: Selecciona una opción
   - [Choice]: ¡Sí, eso suena genial!
     - **Player:** Sí, ¡eso suena genial!
-    - (Condition: Si el player tiene al menos 25 coins:)
+    - (Condition: If the player has at least 25 coins:)
       - (removes=25 coins) (receives=ship ticket)
       - **Seravel:** Genial, es un placer hacer negocios contigo.
-    - (Condition: Si el player no tiene al menos 25 coins:)
+    - (Condition: If the player doesn't have at least 25 coins:)
       - **Seravel:** Lo siento Bwana, no tienes suficiente dinero. Vuelve cuando tengas 25 piezas de oro.
   - [Choice]: No gracias.
     - **Player:** No, gracias.

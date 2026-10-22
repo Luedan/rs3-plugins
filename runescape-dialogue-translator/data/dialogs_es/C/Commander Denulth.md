@@ -24,22 +24,22 @@
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Cómo va tu pelea con los trolls?
     - **Player:** ¿Cómo va tu pelea con los trolls?
-    - (Condition: Sin el requisito de nivel 15 Agility y 30 Thieving para Troll Stronghold:)
+    - (Condition: Without the 15 Agility and 30 Thieving level requirement for Troll Stronghold:)
       - **Commander Denulth:** Los hemos inmovilizado gracias al mirador sobre los acantilados que encontraste.
       - **Commander Denulth:** No pueden alcanzarnos con piedras ni trepar para atacar. ¡Podemos lloverles flechas con impunidad!
       - **Commander Denulth:** Amigo, ¡estamos en deuda contigo!
       - **Player:** ¡Buena suerte!
       - (initial)
-    - (Condition: Con el requisito de nivel 15 Agility y 30 Thieving para Troll Stronghold:)
+    - (Condition: With the 15 Agility and 30 Thieving level requirement for Troll Stronghold:)
       - (ver|Fortaleza Troll)
-    - (Condition: Después de la Fortaleza Troll:)
+    - (Condition: After Troll Stronghold:)
       - **Commander Denulth:** Estamos ocupados preparándonos para un ataque nocturno. Godric sabe de una entrada secreta a la fortaleza.
       - **Commander Denulth:** Una vez que destruyamos la fortaleza, ¡Burthorpe estará a salvo!
       - **Commander Denulth:** Amigo, ¡estamos en deuda contigo!
       - **Player:** ¡Buena suerte!
       - (initial)
   - [Choice]: Do you need any more help from me?|cond=No haber entregado aún suministros al Ambush Commander cinco veces:
-    - (Condition: Si actualmente no tienes suministros en tu banco o backpack:)
+    - (Condition: If you do not currently have supplies in your bank or backpack:)
       - **Commander Denulth:** Bueno, supongo que a los arqueros del mirador les vendría bien más suministros.
       - (receives=supplies)
       - Colocas la pesada caja de suministros en tu mochila.
@@ -49,7 +49,7 @@
       - **Commander Denulth:** El Ambush Commander tiene algunas lámparas de recompensa. Una vez que obtengan este equipo, él te dará algunos para ayudarte con tu entrenamiento.
       - **Player:** Muy bien, dejaré esto inmediatamente.
       - (previous)
-    - (Condition: Si ha recibido pero aún no ha entregado suministros al Ambush Commander:)
+    - (Condition: If you have received but not yet delivered supplies to the Ambush Commander:)
       - **Commander Denulth:** Bueno, si no te importa entregarme esos suministros, puede que tenga algunos más para despedirte.
       - **Commander Denulth:** El Ambush Commander en el punto de emboscada sobre Death Plateau tiene un suministro de lámparas de recompensa que te dará cuando consiga ese equipo.
       - (previous)

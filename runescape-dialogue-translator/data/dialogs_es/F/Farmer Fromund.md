@@ -28,22 +28,22 @@
         - **Farmer Fromund:** El parche central está lleno de malas hierbas y, en cuanto las limpio, vuelven a crecer. La zona sur siempre es demasiado seca. Y el suelo en la zona norte es terrible; necesita una buena dosis de abono.
   - [Choice]: Su índice de aprobación.
     - **Player:** ¿Qué piensa la gente de mí por aquí?
-    - (Condition: Si su índice de aprobación está entre 25% y 49%:)
+    - (Condition: If your approval rating is between 25% and 49%:)
       - **Farmer Fromund:** Su gente está cada vez más insatisfecha con el régimen, Su Alteza Real. En la última encuesta, sólo el [approval rating]% de la población lo apoyó.
-    - (Condition: Si su índice de aprobación está entre 50% y 74%:)
+    - (Condition: If your approval rating is between 50% and 74%:)
       - **Farmer Fromund:** Usted es bien considerado, Su Alteza Real. En la última encuesta, el [approval rating]% de la población lo apoyó.
-    - (Condition: Si su índice de aprobación es del 75% o más:)
+    - (Condition: If your approval rating is at 75% or higher:)
       - **Farmer Fromund:** Usted es universalmente adorado, Su Alteza Real. En la última encuesta, el [approval rating]% de la población lo apoyó.
 
 ### Working on the island
 
 *Cuando el jugador rastrilla la zona de maleza o riega la zona seca cercana*
-- (Condition: Por debajo del índice de aprobación del 100%:)
+- (Condition: Below 100% approval rating:)
   - **Farmer Fromund:** {{RSChat|Thanks!}}
-- (Condition: Con un índice de aprobación del 100%:)
-  - (Condition: Antes del problema real:)
+- (Condition: At 100% approval rating:)
+  - (Condition: Before Royal Trouble:)
     - **Farmer Fromund:** No te preocupes más, [Sir/Madam], ¡ya has hecho mucho!
-  - (Condition: Después del problema real:)
+  - (Condition: After Royal Trouble:)
     - **Farmer Fromund:** No se preocupe más, Alteza, ¡ya ha hecho mucho!
 
 ### Manor Farm
@@ -63,15 +63,15 @@
     - **Farmer Fromund:** Si completas esto, te daré: bendición de reputación Farming (pequeña) x 1. ¡Estoy seguro de que también ganarás algo de reputación con el gremio de agricultores!
     - **Farmer Fromund:** ¡Tendrás que ser rápido! Solo estoy aquí por [número] horas y [número] minutos. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - ((Sin los artículos solicitados:))
+    - ((Without the requested items:))
       - **Farmer Fromund:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Farmer Fromund:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **Farmer Fromund:** También estoy buscando un nuevo animal, actualmente estoy buscando A [animal]
-    - ((Con los artículos solicitados:))
+    - ((With the requested items:))
       - (removes=the requested items) (receives=the reward)
-      - ((Si se premió una imprimación de Brassica:))
+      - ((If a Brassica primer was rewarded:))
         - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-        - ((Repetido en una ventana emergente:))
+        - ((Repeated in a pop-up:))
           - Por completar esta solicitud, recibió 1 imprimación para Brassica.
           - (continue)
       - Has recibido: bendición de reputación Farming (pequeña) x 1<br> y 2750 de reputación agrícola.
@@ -96,9 +96,9 @@
 ##### Con artículos solicitados
 
 - (removes=the requested items) (receives=the reward)
-- ((Si se premió una imprimación de Brassica:))
+- ((If a Brassica primer was rewarded:))
   - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - Por completar esta solicitud, recibió 1 imprimación para Brassica.
     - (continue)
 - Has recibido: bendición de reputación Farming (pequeña) x 1 <br> y 2750 de reputación agrícola.

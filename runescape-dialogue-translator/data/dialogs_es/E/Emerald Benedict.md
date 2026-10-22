@@ -14,11 +14,11 @@
 - **Emerald Benedict:** ¿Tienes algo que no quieras perder?
 - [Menu]: ¿Qué te gustaría decir?
   - [Choice]: Me gustaría acceder a mi cuenta bancaria, por favor.
-    - ((Se abre la cuenta bancaria.))
+    - ((Bank account opens.))
   - [Choice]: Me gustaría verificar la configuración de mi PIN.
-    - ((Se abre la configuración del PIN del banco.))
+    - ((Bank PIN settings open.))
   - [Choice]: Me gustaría ver mi caja de colección.
-    - ((Se abre el cuadro de colección.))
+    - ((Collection box opens.))
   - [Choice]: Sí, gracias y lo conservaré también.
     - **Player:** Sí, gracias, y lo conservaré también.
     - (end)
@@ -26,16 +26,16 @@
 ### If the player speaks to Emerald Benedict while standing diagonally or over one tile from him
 
 - **Emerald Benedict:** Buenos días. ¿Cuantos te ayudo?
-- ((Si el player tiene elementos esperándolos en Grand Exchange:))
+- ((If the player has items waiting for them in the Grand Exchange:))
   - **Emerald Benedict:** Antes de continuar, debo informarle que tiene artículos listos para ser recogidos en Grand Exchange.
   - (continue)
 - [Menu]: ¿Qué te gustaría decir?
   - [Choice]: Me gustaría acceder a mi cuenta bancaria, por favor.
-    - ((Se abre la cuenta bancaria.))
+    - ((Bank account opens.))
   - [Choice]: Me gustaría verificar la configuración de mi PIN.
-    - ((Se abre la configuración del PIN del banco.))
+    - ((Bank PIN settings open.))
   - [Choice]: Me gustaría ver mi caja de colección.
-    - ((Se abre el cuadro de colección.))
+    - ((Collection box opens.))
   - [Choice]: ¿Qué es este lugar?
     - **Emerald Benedict:** Esta es una sucursal del Banco de Gielinor. Disponemos de sucursales en muchas localidades.
     - [Menu]: ¿Qué te gustaría decir?

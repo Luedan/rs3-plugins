@@ -28,10 +28,10 @@
     - [Menu]: Seleccione una opción|ancla=unirse
       - [Choice]: Bueno, ¿puedo unirme a tu pedido?
         - **Player:** Bueno, ¿puedo unirme a tu pedido?
-        - (Condition: Si el player está por debajo del nivel 31 Prayer:)
+        - (Condition: If the player is below level 31 Prayer:)
           - **Abbot Langley:** No. Lo siento, pero siento que no eres lo suficientemente devoto.
           - Necesitas un nivel de oración de 31 para unirte a la orden.
-        - (Condition: Si el player es el nivel 31 Prayer o superior:)
+        - (Condition: If the player is level 31 Prayer or greater:)
           - **Abbot Langley:** Ok, veo que eres alguien adecuado para nuestro pedido. Puedes unirte.
       - [Choice]: Ah, lo siento.
         - **Player:** Oh, lo siento.
@@ -52,9 +52,9 @@
 
 - **Abbot Langley:** ¡Felicitaciones, viajero!
 - (removes=the old clue scroll (hard))
-- ((Si el rastro continúa:))
+- ((If the trail continues:))
   - (receives=a new clue scroll (hard))
   - {{tbox|pic=Clue scroll (hard) detail.png|Abbot Langley has given you another clue scroll.}}
-- ((Si el sendero termina:))
+- ((If the trail ends:))
   - (receives=reward casket (hard))
   - {{tbox|pic=Reward casket (hard) detail.png|You've found a casket!}}

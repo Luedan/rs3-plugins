@@ -14,7 +14,7 @@
 
 #### Antes de hablar con Ben
 
-- ((En una ventana emergente:))
+- ((In a pop-up:))
   - Debes hablar con Ben antes de comenzar esta actividad.
 
 #### Después de hablar con Ben
@@ -22,31 +22,31 @@
 
 ##### Sin espacio libre en backpack
 
-- ((En una ventana emergente:))
+- ((In a pop-up:))
   - Necesitas un espacio en tu backpack para recoger los esquejes.
 
 ##### Con espacio libre en backpack
 
-- ((Si corta y seca:))
+- ((If cutting and drying:))
   - Alternas entre tallar y calentar las cutículas del zigomita, recolectando ejes de hongos de cada acción.
   - (continue)
-- ((Si corta:))
+- ((If cutting:))
   - Con cuidado, tallas las cutículas del cigomita con tu cuchillo para emplumar, quitando varios ejes de hongos.
   - (continue)
-- ((Si se seca:))
+- ((If drying:))
   - Calientas suavemente las cutículas del cigomita con un fuego relajante, despegando varios tallos de hongos.
   - (continue)
-- ((Si se encuentra un cigomita no controlado:))
+- ((If an unchecked zygomite is found:))
   - (receives=unchecked zygomite)
   - ¡Inexplicablemente adoptas una espora de cigomita!
-  - ((Antes de haber completado la Micoterapia:))
+  - ((Before having completed Mycotherapy:))
     - {{RSFontAchievement|Mycotherapy}}
     - (continue)
   - (continue)
-- ((Si el cuchillo de cristal se activa:))
+- ((If the crystal knife activates:))
   - Flecha de cristal: se cortan flechas dobles, con mucho cuidado para que el cuchillo no se degrade.
   - (continue)
-- ((Ocasionalmente se observa uno de los siguientes síntomas mientras se trabaja en el cigomita:))
+- ((One of the following is seen occasionally while working on the zygomite:))
   - **Player:** {{RSChat|Are you all set for Halloween?}}
   - **Player:** {{RSChat|Are you all set for Spring?}}
   - **Player:** {{RSChat|Are you all set for Wintumber?}}
@@ -88,8 +88,8 @@
 - (Se abre una interfaz titulada SELECCIONAR UNA OPCIÓN.)
 - Elige tu estilo de cuidado:
   - Cortar y secar (Fletching y Firemaking XP)
-    - ((Los cigomitas desaliñados ahora tienen como opción principal "cortar y secar".))
+    - ((The scruffy zygomites now have "cut and dry" as their primary option.))
   - Cortar (Fletching XP)
-    - ((Los desaliñados cigomitas ahora tienen "cortar" como su principal opción.))
+    - ((The scruffy zygomites now have "cut" as their primary option.))
   - Seco (Firemaking XP)
-    - ((Los cigomitas desaliñados ahora tienen "seco" como su opción principal.))
+    - ((The scruffy zygomites now have "dry" as their primary option.))

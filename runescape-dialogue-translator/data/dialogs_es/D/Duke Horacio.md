@@ -12,21 +12,21 @@
 ### In Lumbridge Castle
 
 - **Duke Horacio:** Saludos. Bienvenidos a mi castillo.
-- (Condition: Si el player le habla por primera vez:)
+- (Condition: If the player is speaking to him for the first time:)
   - {{RSFontAchievement|Hail to the Duke, Baby|Speak to Horacio, the Duke of Lumbridge.}}
   - (continue)
 - [Menu]: Elige una opción:
   - [Choice]: cond=After Dragon Slayer:|Busco un escudo que me proteja del aliento de dragón.
-    - (Condition: Sin escudo anti-dragón en backpack o en banco:)
+    - (Condition: Without an anti-dragon shield in backpack or in bank:)
       - **Duke Horacio:** Un caballero que va en busca de un dragón, ¿eh? ¿Qué dragón pretendes matar?
       - (continue)
-    - (Condition: Con escudo anti-dragón en backpack o en banco:)
+    - (Condition: With an anti-dragon shield in backpack or in bank:)
       - **Duke Horacio:** ¿Qué, otro? A ustedes, los aventureros, les gusta acumular reservas, ¿no?... ¿Tienen algún dragón en particular en mente?
       - (continue)
     - **Duke Horacio:** Por supuesto. Ahora que has matado a Elvarg, ¡te has ganado el derecho a hacerlo!
-    - (Condition: Sin al menos un espacio backpack libre:)
+    - (Condition: Without at least one free backpack space:)
       - **Duke Horacio:** Parece que no tienes suficiente espacio libre para tomar el escudo en este momento.
-    - (Condition: Con al menos un espacio backpack libre:)
+    - (Condition: With at least one free backpack space:)
       - (receives=anti-dragon shield)
       - [El duque te entrega el escudo.]
   - [Choice]: ¿Tienes alguna misión para mí?
@@ -42,7 +42,7 @@
 #### Diálogo histórico
 
 - **Duke Horacio:** Saludos. Bienvenidos a mi castillo.
-- (Condition: Si el player le habla por primera vez:)
+- (Condition: If the player is speaking to him for the first time:)
   - {{RSFontAchievement|Hail to the Duke, Baby|Speak to Horacio, the Duke of Lumbridge.}}
   - (continue)
 - [Menu]: Elige una opción:
@@ -55,23 +55,23 @@
   - [Choice]: ¿Qué pasó con el castillo?
     - [Menu]: Selecciona una opción
       - [Choice]: ¿Puedes darme un breve resumen de lo que pasó?
-        - (Condition: Durante la Batalla de Lumbridge:)
+        - (Condition: During the Battle of Lumbridge:)
           - **Player:** ¿Puedes darme un breve resumen de lo que pasó?
           - **Duke Horacio:** Sí, el castillo ha sufrido algunos... problemas últimamente. En caso de que no lo hayas notado, hay un gran cráter sobre donde están peleando Saradomin y Zamorak.
           - **Duke Horacio:** Justo después de llegar al mundo nuevamente, comenzaron a pelear y las fuerzas desatadas fueron demasiado para los muros. ¡Secciones enteras colapsaron por completo!
           - **Duque Hoarcio:** Afortunadamente, mis guardias estaban listos y eran capaces, e inmediatamente se pusieron a trabajar para ayudar a la gente de Lumbridge a mantenerse alejados del campo de batalla.
           - **Duke Horacio:** Están haciendo un buen trabajo, pero me preocupa que sean muy pocos para proteger a los ciudadanos, y a mí mismo, de las fuerzas que hacen estragos en el campo de batalla.
           - **Duke Horacio:** Pero no puedo hacer más para ayudarlos: ¡mi presupuesto no alcanza hasta ahora! Sólo nos queda esperar que Saradomin y Zamorak se centren el uno en el otro, y no aquí.
-        - (Condition: Después de la Batalla de Lumbridge:)
+        - (Condition: After the Battle of Lumbridge:)
           - **Duke Horacio:** Sí, el castillo sufrió mucho durante la reciente Batalla de Lumbridge: Saradomin y Zamorak estaban peleando en el cráter que se puede ver hacia el oeste.
           - **Duke Horacio:** Justo después de llegar al mundo nuevamente, comenzaron a pelear y las fuerzas desatadas fueron demasiado para los muros. ¡Secciones enteras colapsaron por completo!
           - **Duke Horacio:** Afortunadamente, mis guardias estaban listos y eran capaces, e inmediatamente se pusieron a trabajar para ayudar a la gente de Lumbridge a mantenerse alejados del campo de batalla.
           - **Duke Horacio:** Hicieron un excelente trabajo protegiéndonos y han sido ejemplares en su conducta. Estoy orgulloso de ellos.
-          - (Condition: Durante el Lumbridge Rebuildathon:)
+          - (Condition: During the Lumbridge Rebuildathon:)
             - **Duke Horacio:** Ahora que la batalla ha terminado, viene gente de todo el mundo para ayudar a reconstruir Lumbridge. Estoy abrumado por su generosidad.
             - **Duke Horacio:** Si has venido a ayudar, debes hablar con Foreman George al norte del castillo.
             - **Duke Horacio:** Sin embargo, me alegro de que la batalla haya terminado.
-          - (Condition: Después del Lumbridge Rebuildathon:)
+          - (Condition: After the Lumbridge Rebuildathon:)
             - **Duke Horacio:** Cuando terminó la batalla, vino gente de todo el mundo para ayudar a reconstruir Lumbridge. Me sentí abrumado por su generosidad.
             - **Duke Horacio:** Cuando los dioses empezaron a pelear, me preocupaba que significara el fin de Lumbridge, pero ahora la ciudad se ha recuperado.
       - [Choice]: ¿Puedes mostrarme lo que pasó de nuevo?

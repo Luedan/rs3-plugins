@@ -25,9 +25,9 @@ Habla telepáticamente con una selección de NPC útiles.
 - **Player:** ¿Hola?
 - **Honest Jimmy:** Eh, ¿quién está ahí?
 - **Player:** Soy Player. Estoy usando mi magia para comunicarme contigo. No te preocupes.
-- (Condition: Si estás cerca:)
+- (Condition: If you are nearby:)
   - **Honest Jimmy:** ¡Me lo imaginé, ya que puedo verte allí! No hago tratos como este.
-- (Condition: Si no estás cerca:)
+- (Condition: If you are not nearby:)
   - **Honest Jimmy:** Cuanto antes salgas de mi cabeza, mejor. Entonces, ¿estás aquí por... información?
   - **Player:** ¿La información?
   - **Honest Jimmy:** Mira amigo, me interrumpiste por una razón, debes estar buscando algo.
@@ -43,11 +43,11 @@ Habla telepáticamente con una selección de NPC útiles.
       - (initial)
     - [Choice]: ¿Cuántas personas están esperando que comience un juego?
       - **Player:** ¿Cuántas personas están esperando que comience un juego?
-      - (Condition: Si no hay nadie esperando:)
+      - (Condition: If no one is waiting:)
         - **Honest Jimmy:** Nadie está esperando en este momento. Quizás puedas interesar a algunas personas.
         - **Player:** Mmmm... tal vez.
         - (initial)
-      - (Condition: Si hay jugadores esperando:)
+      - (Condition: If there are players waiting:)
         - {{Transcript missing}}
     - [Choice]: No tengo idea de qué estás hablando.
       - **Player:** No tengo idea de qué estás hablando.
@@ -60,14 +60,14 @@ Habla telepáticamente con una selección de NPC útiles.
 - **Player:** Esta es la voz de tu conciencia. ¡Entrega todo tu dinero a Player! ¡Guau, guau!
 - **Bert:** ¡Aléjate de ti!
 - **Player:** Es broma, estoy usando magia para hablar contigo. Estoy totalmente "sin brazos".
-- (Condition: Si estás cerca (en el Dragon Inn):)
+- (Condition: If you are nearby (in the Dragon Inn):)
   - **Bert:** Oh, amigo. Oye, entonces ¿por qué estás tan cerca? ¡Habla en persona por favor!
 - **Bert:** Oh, amigo. Entonces, ¿qué quieres?
 - **Player:** ¿Podrías pasarme un poco de arena a mi banco?
-- (Condition: Si no has recogido arena durante el día:)
+- (Condition: If you have not collected sand for the day:)
   - **Bert:** Ah, mantén el aire encendido, iré al banco con un poco de arena para ti.
   - **Player:** ¡Gracias!
-- (Condition: Si ya recogiste arena para el día:)
+- (Condition: If you have already collected sand for the day:)
   - **Bert:** Estaré un poquito ocupado para "ayudar con" esa arena, vuelvo mañana.
   - **Player:** Está bien, Bert, volveré por mi arena un poco más tarde.
 
@@ -76,10 +76,10 @@ Habla telepáticamente con una selección de NPC útiles.
 - **Player:** ¡Buenos días, Ghrim!
 - **Advisor Ghrim:** ¿Qué? ¿Quién es?
 - **Player:** Ajá, te has vuelto loco, Ghrim. Soy tu personalidad alternativa... ¡Ghrom!
-- (Condition: Si estás cerca:)
+- (Condition: If you are nearby:)
   - **Advisor Ghrim:** Muy divertido, Su Alteza Real. Puedo verte hablando.
   - **Player:** Ups.
-- (Condition: Si no estás cerca:)
+- (Condition: If you are not nearby:)
   - **Advisor Ghrim:** ¿Es usted, su Alteza Real?
   - **Player:** Er... sí, lo es. Estoy usando magia para comunicarme contigo.
   - **Advisor Ghrim:** Muy divertido, Su Alteza Real. ¿Cómo puedo ayudarte?
@@ -104,7 +104,7 @@ Habla telepáticamente con una selección de NPC útiles.
 - **Player:** Soy Player. Estoy usando magia para comunicarme contigo.
 - **Turael:** Extraño. Anda entonces, ¿qué quieres?
 - [Menu]: Elige una opción:
-- (Condition: Durante Mientras Guthix duerme antes de reclutar a Turael:)
+- (Condition: During While Guthix Sleeps before recruiting Turael:)
   - [Choice]: Necesito hablar contigo sobre Lucien.
     - **Player:** ¡Necesito hablarte sobre Lucien!
     - **Turael:** Ah, sí, ¿y qué pasa con Lucien? Hace tiempo que no escucho ese nombre.
@@ -114,15 +114,15 @@ Habla telepáticamente con una selección de NPC útiles.
   - [Choice]: pregunta sobre otra cosa
     - [Choice]: Necesito otra tarea.
       - **Player:** Necesito otra tarea.
-      - (Condition: Si el jugador ya tiene una asignación Slayer:)
+      - (Condition: If player already has a Slayer assignment:)
         - **Turael:** Todavía estás cazando a [assigned creature]; Vuelve cuando hayas terminado tu tarea.
   - [Choice]: Eh... nada...
     - **Player:** Er... Nada...
-- (Condition: Después de reclutar a Turael (Mientras Guthix duerme))
+- (Condition: After recruiting Turael (While Guthix Sleeps))
   - **Player:** ¡Necesito hablarte sobre Lucien!
   - **Turael:** Pareces muy olvidadizo, de verdad. Ya me has reclutado, no tiene sentido volver a intentarlo.
   - (end)
-(Condition: Si Player está muy cerca de Turael)
+(Condition: If Player is in close proximity with Turael)
 - **Player:** ¿Hola?
 - **Turael:** 'Hola, ¿quién es ese?
 - **Player:** Soy Player. Estoy usando magia para comunicarme contigo.
@@ -134,9 +134,9 @@ Habla telepáticamente con una selección de NPC útiles.
 - **Player:** ¿Hola?
 - **Spria:** 'Hola, ¿quién es ese?
 - **Player:** Soy Player. Estoy usando mi magia para comunicarme contigo.
-- (Condition: Si estás cerca:)
+- (Condition: If you are nearby:)
   - **Spria:** Bueno, por favor no lo hagas. Si quieres hablar conmigo, hazlo cara a cara. Puedo verte, ¿sabes?
-- (Condition: Si no estás cerca:)
+- (Condition: If you are not nearby:)
   - **Spria:** Extraño. Anda entonces, ¿qué quieres?
   - [Menu]: Selecciona una opción
     - [Choice]: Necesito otra tarea.
@@ -149,9 +149,9 @@ Habla telepáticamente con una selección de NPC útiles.
 - **Player:** Hola, Lanthus
 - **Lanthus:** ¿Eh?
 - **Player:** ¡No tengas miedo! ¡Soy el dios todopoderoso de todos! ¡Inclínate ante tu creador!
-- (Condition: Si estás cerca:)
+- (Condition: If you are nearby:)
   - **Lanthus:** No, no lo eres. Estás parado allí. ¡Déjame en paz!
-- (Condition: Si no estás cerca:)
+- (Condition: If you are not nearby:)
   - **Lanthus:** Está bien, está bien; Me inclino, me inclino. ¡Sólo no me hagas daño!
   - **Player:** ¿Me estás escuchando, Lanthus?
   - **Lanthus:** Yo... lo soy. ¿Cómo puedo ayudarte?
@@ -165,13 +165,13 @@ Habla telepáticamente con una selección de NPC útiles.
       - (initial)
     - [Choice]: ¿Cuántas personas hay esperando en cada habitación?
       - **Player:** ¿Cuántas personas hay esperando en cada sala?
-      - (Condition: Si la sala Zamorak está vacía:)
+      - (Condition: If the Zamorak room is empty:)
         - **Lanthus:** No hay nadie en la sala Zamorak,
-      - (Condition: Si la sala Zamorak no está vacía:)
+      - (Condition: If the Zamorak room is not empty:)
         - {{Transcript missing}}
-      - (Condition: Si la sala Saradomin está vacía:)
+      - (Condition: If the Saradomin room is empty:)
         - **Lanthus:** y no hay nadie en la sala Saradomin.
-      - (Condition: Si la sala Saradomin no está vacía:)
+      - (Condition: If the Saradomin room is not empty:)
         - {{Transcript missing}}
       - (initial)
     - [Choice]: Eso es todo. Ahora no te metas en problemas.
@@ -182,11 +182,11 @@ Habla telepáticamente con una selección de NPC útiles.
 #### Sumona
 
 - **Player:** ¿Hola?
-- (Condition: Si estás cerca:)
+- (Condition: If you are nearby:)
   - **Sumona:** 'Hola, ¿quién es ese?
   - **Player:** Soy Player. Estoy usando mi magia para comunicarme contigo.
   - **Sumona:** Bueno, por favor no lo hagas. Si quieres hablar conmigo, hazlo cara a cara. Puedo verte, ¿sabes?
-- (Condition: Si no estás cerca:)
+- (Condition: If you are not nearby:)
   - **Sumona:** 'Hola, Player.
   - **Player:** Estoy usando magia para comunicarme contigo.
   - [Menu]: Selecciona una opción
@@ -203,9 +203,9 @@ Habla telepáticamente con una selección de NPC útiles.
 - **Player:** ¿Hola?
 - **Mazchna:** 'Hola, ¿quién es ese?
 - **Player:** Soy Player. Estoy usando magia para comunicarme contigo.
-- (Condition: Si estás cerca:)
+- (Condition: If you are nearby:)
   - **Mazchna:** Bueno, por favor no lo hagas. Si quieres hablar conmigo, hazlo cara a cara. Puedo verte, ¿sabes?
-- (Condition: Si no estás cerca:)
+- (Condition: If you are not nearby:)
   - **Mazchna:** Extraño. Anda entonces, ¿qué quieres?
   - [Menu]: Selecciona una opción
     - [Choice]: Necesito otra tarea.
@@ -229,9 +229,9 @@ Habla telepáticamente con una selección de NPC útiles.
 - **Player:** ¿Hola?
 - **Lapalok:** 'Hola, ¿quién es ese?
 - **Player:** Soy Player. Estoy usando magia para comunicarme contigo.
-- (Condition: Si estás cerca:)
+- (Condition: If you are nearby:)
   - **Lapalok:** Bueno, por favor no lo hagas. Si quieres hablar conmigo, hazlo cara a cara. Puedo verte, ¿sabes?
-- (Condition: Si no estás cerca:)
+- (Condition: If you are not nearby:)
   - **Lapalok:** Extraño. Anda entonces, ¿qué quieres?
   - [Menu]: Selecciona una opción
     - [Choice]: Necesito otra tarea.
@@ -244,9 +244,9 @@ Habla telepáticamente con una selección de NPC útiles.
 - **Player:** ¿Hola?
 - **Vannaka:** 'Hola, ¿quién es ese?
 - **Player:** Soy Player. Estoy usando mi magia para comunicarme contigo.
-- (Condition: Si estás cerca:)
+- (Condition: If you are nearby:)
   - **Vannaka:** Bueno, por favor no lo hagas. Si quieres hablar conmigo, hazlo cara a cara. Puedo verte, ¿sabes?
-- (Condition: Si no estás cerca:)
+- (Condition: If you are not nearby:)
   - **Vannaka:** Extraño. Anda entonces, ¿qué quieres?
   - [Menu]: Selecciona una opción
     - [Choice]: Necesito otra tarea.
@@ -259,15 +259,15 @@ Habla telepáticamente con una selección de NPC útiles.
 - **Player:** Hola
 - **Murphy:** ¿Qué...?
 - **Player:** No te preocupes, Murphy. ¡Mi nombre es Player y estoy usando magia para contactarte!
-- (Condition: Si estás cerca:)
+- (Condition: If you are nearby:)
   - **Murphy:** ¡Eso es tan grosero cuando podrías hablar conmigo en persona!
-- (Condition: Si no estás cerca:)
+- (Condition: If you are not nearby:)
   - **Murphy:** ¡Pues yo nunca! Tecnología en estos días. Está más allá de mí. Entonces, ¿cómo puedo ayudarte?
   - **Player:** Me preguntaba si había alguien ahí abajo ayudándote en el barco pesquero.
-  - (Condition: Si el barco ha partido:)
+  - (Condition: If the boat has left:)
     - **Murphy:** ¡El barco acaba de zarpar, de hecho! ¿Quizás, cuando regrese, puedas unirte a ellos en otra carrera?
     - **Player:** Suena como un plan.
-  - (Condition: Si el barco no ha zarpado:)
+  - (Condition: If the boat has not left:)
     - **Murphy:** El barco está ahí, esperando a que alguien se una. ¿Qué tal?
     - **Player:** Tal vez vaya a echar un vistazo. Te veré más tarde.
     - **Murphy:** Está bien, amigo. ¡Adiós!
@@ -277,9 +277,9 @@ Habla telepáticamente con una selección de NPC útiles.
 - **Player:** ¿Hola?
 - **Chaeldar:** 'Hola, ¿quién es ese?
 - **Player:** Soy Player. Estoy usando mi magia para comunicarme contigo.
-- (Condition: Si estás cerca:)
+- (Condition: If you are nearby:)
   - **Chaeldar:** Bueno, por favor no lo hagas. Si quieres hablar conmigo, hazlo cara a cara. Puedo verte, ¿sabes?
-- (Condition: Si no estás cerca:)
+- (Condition: If you are not nearby:)
   - **Chaeldar:** Extraño. Anda entonces, ¿qué quieres?
   - [Menu]: Selecciona una opción
     - [Choice]: Necesito otra tarea.
@@ -334,9 +334,9 @@ Habla telepáticamente con una selección de NPC útiles.
 
 #### Eluned
 
-- (Condition: Si tienes una semilla de teletransporte de cristal descargada en tu inventario:)
+- (Condition: If you have an uncharged Crystal teleport seed in your inventory:)
   - (opens=Crystal teleport seed#Charges)
-- (Condition: Si no tienes una semilla de teletransporte Crystal descargada en tu inventario (o está parcialmente cargada):)
+- (Condition: If you do not have an uncharged Crystal teleport seed in your inventory (or it is partially charged):)
   - **Eluned:** ¿Player? ¿Quieres que te vuelva a encantar las semillas de teletransporte de cristal?
   - **Player:** No tengo ninguno de esos.
   - **Eluned:** Quizás en otro momento.
@@ -359,7 +359,7 @@ Habla telepáticamente con una selección de NPC útiles.
     - **Player:** He encontrado más pingüinos.
     - **Chuck:** ¿Más? Mmmm, interesante. ¿Cuántos has encontrado?
     - **Player:** Encontré a X penguin[s] esta semana.
-      - (Condition: Si no has encontrado todos los pingüinos esta semana:)
+      - (Condition: If you haven't found all the penguins this week:)
         - [Menu]: Selecciona una opción
           - [Choice]: Tengo problemas para encontrar los pingüinos. ¿Puedo tener una pista?
             - '' (Se muestra uno de los siguientes, dependiendo de la ubicación de los pingüinos:)
@@ -429,9 +429,9 @@ Habla telepáticamente con una selección de NPC útiles.
 - **Player:** ¿Hola?
 - **Kuradal:** 'Hola, ¿quién es?
 - **Player:** Soy Player. Estoy usando mi magia para comunicarme contigo.
-- (Condition: Si estás cerca:)
+- (Condition: If you are nearby:)
   - **Kuradal:** Qué desperdicio de runas. Puedo verte, ¿sabes? Hablemos cara a cara.
-- (Condition: Si no estás cerca:)
+- (Condition: If you are not nearby:)
   - **Kuradal:** Una aplicación útil del talento mágico. ¿Cómo puedo ayudar?
   - [Menu]: Selecciona una opción
     - [Choice]: Necesito otra tarea.
@@ -444,15 +444,15 @@ Habla telepáticamente con una selección de NPC útiles.
 - **Player:** ¿Hola?
 - **Dark Mage:** ¡¿Qué es esto?! ¡No debes romper mi concentración!
 - **Player:** Soy Player. Estoy usando mi magia para comunicarme contigo.
-- (Condition: Si estás cerca:)
+- (Condition: If you are nearby:)
   - **Dark Mage:** ¡Qué desperdicio de runas! - Puedo verte, hablemos cara a cara.
-- (Condition: Si no estás cerca:)
+- (Condition: If you are not nearby:)
   - **Dark Mage:** ¿Estás intentando colapsar el Abismo? ¿Qué deseas? ¡Habla rápido!
-  - (Condition: Si el libro Abyssal está en tu inventario o banco:)
+  - (Condition: If the Abyssal book is in your inventory or bank:)
     - **Player:** En realidad, no se me ocurre nada en este momento...
     - **Dark Mage:** ¡ENTONCES DEJA DE DISTRAERME!
     - **Dark Mage:** Honestamente, ¡no tienes idea de la presión que estoy bajo al intentar mantener este portal abierto!
-  - (Condition: Si el libro Abyssal no está en tu inventario o banco:)
+  - (Condition: If the Abyssal book is not in your inventory or bank:)
     - **Player:** Lamento molestarte. Solo necesitaba tu ayuda con algo rápido.
     - **Dark Mage:** ¿Qué? Ah... Muy bien. ¿Qué querías?
     - [Menu]: Elige una opción:
@@ -489,10 +489,10 @@ Habla telepáticamente con una selección de NPC útiles.
 - **Player:** Sí, pensé en utilizar el nuevo hechizo para hacer una pregunta.
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Puedes cambiar mi libro de hechizos al estándar?
-    - (Condition: Si no has completado las tareas del diario de logros de élite:)
+    - (Condition: If you have not completed the elite achievement diary tasks:)
       - **Oneiromancer:** Hmmm, no, creo que primero debes demostrar tu valía un poco más.
       - Si completas las tareas del diario de logros de élite, Oneiromancer te ayudará.
-    - (Condition: Si has completado las tareas del diario de logros de élite:)
+    - (Condition: If you have completed the elite achievement diary tasks:)
       - **Oneiromancer:** Ciertamente...
       - **Oneiromancer:** ¡Ahí!
   - [Choice]: ¿Puedo contarte un chiste?
@@ -507,9 +507,9 @@ Habla telepáticamente con una selección de NPC útiles.
 
 #### Islwyn
 
-- (Condition: Si tienes una semilla de teletransporte de cristal descargada en tu inventario:)
+- (Condition: If you have an uncharged Crystal teleport seed in your inventory:)
   - (opens=Crystal teleport seed#Charges)
-- (Condition: Si no tienes una semilla de teletransporte Crystal descargada en tu inventario (o está parcialmente cargada):)
+- (Condition: If you do not have an uncharged Crystal teleport seed in your inventory (or it is partially charged):)
   - **Islwyn:** ¿Player? ¿Quieres que te vuelva a encantar las semillas de teletransporte de cristal?
   - **Player:** No tengo ninguno de esos.
   - **Islwyn:** Quizás en otro momento.
@@ -523,9 +523,9 @@ Habla telepáticamente con una selección de NPC útiles.
     - **Mieliki Tapio:** Nyriki necesita ayuda humana porque es estúpido. Utilice el portal Mieliki, en esta tienda, para acudir a él ahora.
     - (initial)
   - [Choice]: ¿Puedes teletransportarme?
-    - (Condition: Si estás cerca:)
+    - (Condition: If you are nearby:)
       - **Mieliki Tapio:** ¡Mieliki está trabajando! Utilice el portal.
-    - (Condition: Si no estás cerca:)
+    - (Condition: If you are not nearby:)
       - **Mieliki Tapio:** ¡Mieliki está trabajando! Ven a la tienda de Mieliki en Gnome Stronghold y utiliza el portal.
     - (initial)
   - [Choice]: Gracias.
@@ -534,9 +534,9 @@ Habla telepáticamente con una selección de NPC útiles.
 #### Morvran
 
 - **Player:** ¿Hola?
-- (Condition: Si estás cerca:)
+- (Condition: If you are nearby:)
   - **Morvran:** Si vas a molestarme con tu parloteo, al menos podrías tener la decencia de hacerlo en mi cara. Ven aquí.
-- (Condition: Si no estás cerca:)
+- (Condition: If you are not nearby:)
   - **Morvran:** No tienes nada que hacer en mi cabeza. Mis secretos no son para tus ojos. Salir.
   - **Player:** Soy Player. Estoy usando mi magia para comunicarme contigo.
   - **Morvran:** Tienes demasiado miedo para buscarme en persona, ¿eh? Bueno, ¿qué es?
@@ -553,9 +553,9 @@ Habla telepáticamente con una selección de NPC útiles.
 #### Laniakea
 
 - **Player:** Laniakea?
-- (Condition: Si estás cerca:)
+- (Condition: If you are nearby:)
   - **Laniakea:** ¿Por qué desperdiciarías las runas para contactarme cuando estás tan cerca?
-- (Condition: Si no estás cerca:)
+- (Condition: If you are not nearby:)
   - **Laniakea:** No tienes nada que hacer en mi cabeza. Mis pensamientos son míos.
   - **Plyer:** Es Player. Estoy usando mi magia para comunicarme contigo.
   - **Laniakea:** Es una pena. Hubiera sido bueno verte. Bueno, ¿qué es?
@@ -585,13 +585,13 @@ Habla telepáticamente con una selección de NPC útiles.
 ##### Después de hablar con ella en el Jardín de Kharid y pedirle que cultive hierbas.
 
 - **Player:** Hola, ¿Polletix?
-- (Condition: Si estás cerca:)
+- (Condition: If you are nearby:)
   - **Polletix:** ¿Qué estás haciendo?
   - **Player:** Bueno, solo estaba-
   - **Polletix:** Puedo verte. Estás justo aquí.
   - **Player:** Oh, yo-
   - **Polletix:** Ahora, si quieres hablar te sugiero que vengas y lo hagas en persona, en lugar de este mal uso de la magia.
-- (Condition: Si no estás cerca:)
+- (Condition: If you are not nearby:)
   - **Polletix:** Hola aventurero. Este es un pequeño truco ingenioso. ¿Cómo puedo ayudar?
   - **Player:** Me preguntaba qué hierba querías plantar hoy.
   - **Polletix:** Oh, hoy me gustaría que plantes y coseches: semilla [Herb type].
@@ -834,7 +834,7 @@ Habla telepáticamente con una selección de NPC útiles.
 - **Hombre:** Sí. Un baño.
 - **Player:** Correcto. Oh, hombre, ¿no te limpiaste las manos?
 - **Hombre:** Supéralo.
-- (Condition: Si contacta al hombre en el baño por primera vez:)
+- (Condition: If contacting the man on the toilet for the first time:)
   - {{RSFontAchievement|Is This a Bad Time?}}
 
 #### Party Pete
@@ -1053,16 +1053,16 @@ Habla telepáticamente con una selección de NPC útiles.
 
 ### Redial '[NPC]'
 
-- (Condition: Si el player aún no ha llamado a un NPC:)
+- (Condition: If the player has not dialed an NPC yet:)
   - Último contacto no encontrado. Por favor llame nuevamente.
   - (ventana emergente)
     - {{popup|Last contact not found. <br>Please call again.|warning=yes}}
-- (Condition: Si el player ha llamado a un NPC antes:)
+- (Condition: If the player has dialed an NPC before:)
   - Volviendo a marcar '[NPC]'...
-  - (Condition: Sin suficientes runas:)
+  - (Condition: Without enough runes:)
     - No tienes suficientes runas [rune type] para lanzar este hechizo.
     - (ventana emergente)
       - {{popup|You do not have enough [rune type]<br>runes to cast this spell.|warning=yes}}
-  - (Condition: Con suficientes runas:)
+  - (Condition: With enough runes:)
     - (removes=runes)
     - (continuea)

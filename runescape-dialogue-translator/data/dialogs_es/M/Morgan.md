@@ -34,13 +34,13 @@
     - [Menu]: Selecciona una opción
       - [Choice]: Te he traído anillos de arcilla.
         - **Player:** Te traje anillos de arcilla.
-          - (Condition: Si el player no tiene anillos de arcilla:)
+          - (Condition: If the player has no clay rings:)
             - **Morgan:** No, no lo has hecho. Sin embargo, siéntete libre de regresar con uno.
-          - (Condition: Si el player tiene un anillo de arcilla:)
+          - (Condition: If the player has one clay ring:)
             - **Morgan:** Ah, excelente. Nunca se es demasiado cuidadoso, ¿sabes?
             - (removes=clay ring) (receives=10 coins)
             - [Morgan cambia tu anillo por una pequeña pila de coins y lo guarda de forma segura para más adelante.]
-          - (Condition: Si el player tiene varios anillos de arcilla:)
+          - (Condition: If the player has multiple clay rings:)
             - **Morgan:** Ah, excelente. Nunca se es demasiado cuidadoso, ¿sabes?
             - **Morgan:** ¿Puedo comprar todos los anillos que tienes contigo?
             - [Menu]: Selecciona una opción

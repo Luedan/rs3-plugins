@@ -19,7 +19,7 @@
     - [Menu]: Selecciona una opción
       - [Choice]: Por favor dame un tutorial completo.
         - **Player:** Por favor, dame un tutorial completo.
-        - (Condition: Si lleva algún artículo:)
+        - (Condition: If carrying any items:)
           - **Head mystic:** Debes liberarte de todos los apegos mundanos antes de poder recorrer el camino entre mundos.
           - [Menu]: Selecciona una opción
             - [Choice]: ¿Qué?
@@ -29,7 +29,7 @@
             - [Choice]: Ah, está bien.
               - **Player:** Oh, está bien.
               - *(Termina la conversación)*
-        - (Condition: Si no lleva ningún artículo:)
+        - (Condition: If not carrying any items:)
           - (Action: Comienza el tutorial de Robo de Creación)
       - [Choice]: Sólo dame un breve resumen.
         - **Head mystic:** Muy bien. Tu tarea en el reino primordial es reunir tanta arcilla sagrada como puedas. Puedes transformar la arcilla en objetos utilizando los hornos de creación. Estos elementos te ayudarán a recolectar arcilla más rápidamente y te ayudarán en la batalla contra el otro equipo. La arcilla se presenta en cinco niveles de calidad, llamados clases. La arcilla con una clase más alta será un mejor equipamiento y vale más puntos, pero es más difícil de recolectar.

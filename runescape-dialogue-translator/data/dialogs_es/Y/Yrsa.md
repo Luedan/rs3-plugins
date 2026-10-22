@@ -54,17 +54,17 @@
 
 ### Task System
 
-- ((Si el player ha completado los logros medios de Fremennik y no se han reclamado las recompensas:))
+- ((If the player has completed the medium Fremennik achievements and the rewards have not been claimed:))
   - **Player:** He completado todas las tareas medianas del conjunto Fremennik.
   - **Yrsa:** Así es. Tengo unas botas especiales que he guardado para ti.
-  - (Condition: Si el player no tiene suficiente espacio en backpack:)
+  - (Condition: If the player does not have sufficient space in backpack:)
     - **Yrsa:** Aunque tendrás que regresar cuando tengas espacio para tomarlos.
-  - (Condition: Si el player tiene suficiente espacio en backpack:)
+  - (Condition: If the player does have sufficient space in backpack:)
     - (receives=Fremennik sea boots 2 and Antique lamp (Medium Fremennik Tasks))
     - **Yrsa:** Ahí lo tienes. Son cosas poderosas a su manera, así que tenga cuidado de estudiarlas y encontrar todas las formas en que pueden ayudarle.
     - **Player:** ¡Gracias!
     - (continue)
-- (Condition: Si el player ha perdido su Fremennik sea boots 2:)
+- (Condition: If the player has lost their Fremennik sea boots 2:)
   - {{transcript missing}}
   - (continue)
 - [Menu]: Elige una opción:

@@ -22,10 +22,10 @@
     - [Menu]: Selecciona una opción
       - [Choice]: ¿Puedes mostrarme el camino a la mina?
         - **Player:** ¿Puedes mostrarme el camino a la mina?
-        - (Condition: Antes de la muerte al Dorgeshuun:)
+        - (Condition: Before Death to the Dorgeshuun:)
           - **Kazgar:** Muy bien. Sígueme.
           - (continue)
-        - (Condition: Después de la muerte al Dorgeshuun:)
+        - (Condition: After Death to the Dorgeshuun:)
           - **Kazgar:** ¡Por supuesto! ¡Siempre serás bienvenido en nuestras minas!
           - (continue)
         - Kazgar te muestra el camino a través de los túneles.

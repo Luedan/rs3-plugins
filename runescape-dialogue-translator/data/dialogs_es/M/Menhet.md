@@ -20,27 +20,27 @@
 - [Menu]: ¿Quieres ayudar?
   - [Choice]: Sí.
     - **Menhet:** Gracias.
-    - (Condition: Si el tipo de misión de la ciudad es "Atacada por vida silvestre":)
+    - (Condition: If the city quest type is "Attacked by wildlife":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "En espera de entrega":)
+    - (Condition: If the city quest type is "Awaiting delivery":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Los niños no pueden dormir":)
+    - (Condition: If the city quest type is "Children can't sleep":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Coleccionista de curiosidades":)
+    - (Condition: If the city quest type is "Collector of curiosities":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Crondis está enojado":)
+    - (Condition: If the city quest type is "Crondis is angry":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Plagas de cultivos":)
+    - (Condition: If the city quest type is "Crop pests":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Ayuda de entrega":)
+    - (Condition: If the city quest type is "Delivery help":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "El hijo de un amigo muere lentamente":)
+    - (Condition: If the city quest type is "Friend's son slowly dying":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Nuevo producto":)
+    - (Condition: If the city quest type is "New product":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Slayer master":)
+    - (Condition: If the city quest type is "Slayer master":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "esfuerzo War":)
+    - (Condition: If the city quest type is "War effort":)
       - (continue)
   - [Choice]: No ahora mismo.
     - **Menhet:** Déjame adivinar, ¿te preocupa asociarte conmigo? Por supuesto. Como los demás.
@@ -55,12 +55,12 @@
 ##### Tarea #1
 
 - **Menhet:** He estado esperando una entrega que contenga algo de [item 1] y algo de [item 2]. Necesito urgentemente el [item 1], pero la gente en el muelle dice que no hay señales del barco en millas.
-- (Condition: Si el artículo deseado son semillas de agracejo:)
+- (Condition: If the item desired is barberry seeds:)
   - **Menhet:** ¿Crees que podrías conseguirme semillas de agracejo [número]? Estoy desesperado por semillas que se conviertan en agracejos.
   - **Player:** ¿Dónde puedo encontrar una semilla de agracejo?
   - **Menhet:** Las semillas de agracejo a menudo las dejan los monstruos, o se pueden conseguir de los maestros agricultores alrededor de Gielinor. ¿Está bien?
   - (continue)
-- (Condition: Si el artículo deseado son semillas de romero:)
+- (Condition: If the item desired is rosemary seeds:)
   - **Menhet:** ¿Crees que podrías conseguirme semillas de romero [número]? Estoy desesperado por semillas que se conviertan en plantas de romero.
   - **Player:** ¿Dónde puedo encontrar una semilla de romero?
   - **Menhet:** Las semillas de romero a menudo las dejan los monstruos, o se pueden conseguir de los maestros agricultores alrededor de Gielinor. ¿Está bien?
@@ -97,10 +97,10 @@
     - **Menhet:** ¿Tienes [número] [item]? Es bastante urgente. ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Menhet ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Menhet:** Genial. Gracias.
@@ -130,10 +130,10 @@
 
 - **Menhet:** Los siguientes suministros que me faltan son un montón de [item].
 - **Player:** ...¿y todavía no han llegado?
-- (Condition: Si el objeto deseado son bastones de batalla de fuego:)
+- (Condition: If the item desired is fire battlestaves:)
   - **Menhet:** ¡No! Todo lo que necesito es un staff con magia de fuego y los trabajadores del puerto me dicen que pasarán días antes de que los vea.
   - (continue)
-- (Condition: Si el artículo deseado son patatas:)
+- (Condition: If the item desired is potatoes:)
   - **Menhet:** ¡No! Todo lo que necesito es una cosecha de tubérculos y almidón y los trabajadores del puerto me dicen que pasarán días antes de que los vea.
   - (continue)
 - **Menhet:** ¿Podrías conseguirme algo para ayudarme por ahora? Acerca de [número] [item] debería funcionar.
@@ -169,10 +169,10 @@
     - **Menhet:** ¿Tienes [número] [item]? ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Menhet ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Menhet:** Genial. Gracias.
@@ -196,10 +196,10 @@
 
 - **Menhet:** Dado que eres tan ingenioso, me pregunto si podrías ahorrarme un viaje por la ciudad...
 - **Player:** Continúa...
-- (Condition: Si el artículo deseado son semillas de malezas enanas:)
+- (Condition: If the item desired is dwarf weed seeds:)
   - **Menhet:** Necesito una forma de cultivar arbustos de malezas enanas para pasar el mes. Aproximadamente las semillas de malezas enanas [número] me ahorrarán muchos problemas.
   - (continue)
-- (Condition: Si el artículo deseado son cuernos de cabra:)
+- (Condition: If the item desired is goat horns:)
   - **Menhet:** Necesito suministros de pociones para terminar el mes. Aproximadamente [número] los cuernos de cabra me ahorrarán muchos problemas.
   - (continue)
 - **Menhet:** ¿[número] [item] es mucho pedir? ¿Me encontrarás algunos?
@@ -223,9 +223,9 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: Hable sobre su tarea actual.
-    - (Condition: Si el artículo deseado son semillas de malezas enanas:)
+    - (Condition: If the item desired is dwarf weed seeds:)
       - **Menhet:** ¿Tienes semillas de hierba enana [número]? Las semillas de malezas enanas a menudo las dejan caer los monstruos, o se pueden obtener de los maestros agricultores alrededor de Gielinor. ([número] restante)
-    - (Condition: Si el artículo deseado son cuernos de cabra:)
+    - (Condition: If the item desired is goat horns:)
       - **Menhet:** ¿Tienes cuernos de cabra [número]? Se pueden encontrar cabras alrededor de Nardah o al oeste de Kalphite Hive. ([número] restante)
   - [Choice]: Abandona esta búsqueda de la ciudad.
     - (Action: La misión está completa.)
@@ -235,18 +235,18 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: Hable sobre su tarea actual.
-    - (Condition: Si el artículo deseado son semillas de malezas enanas:)
+    - (Condition: If the item desired is dwarf weed seeds:)
       - **Menhet:** ¿Tienes semillas de hierba enana [número]? Las semillas de malezas enanas a menudo las dejan caer los monstruos, o se pueden obtener de los maestros agricultores alrededor de Gielinor. ([número] restante)
       - (continue)
-    - (Condition: Si el artículo deseado son cuernos de cabra:)
+    - (Condition: If the item desired is goat horns:)
       - **Menhet:** ¿Tienes cuernos de cabra [número]? Se pueden encontrar cabras alrededor de Nardah o al oeste de Kalphite Hive. ([número] restante)
       - (continue)
     - (removes=the requested items)
     - Número de [item] dado a Menhet ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Menhet:** Genial. Gracias.
@@ -257,10 +257,10 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: Hable sobre su tarea actual.
-    - (Condition: Si el artículo deseado son semillas de malezas enanas:)
+    - (Condition: If the item desired is dwarf weed seeds:)
       - **Menhet:** ¿Tienes semillas de hierba enana [número]? Las semillas de malezas enanas a menudo las dejan caer los monstruos, o se pueden obtener de los maestros agricultores alrededor de Gielinor. ([número] restante)
       - (continue)
-    - (Condition: Si el artículo deseado son cuernos de cabra:)
+    - (Condition: If the item desired is goat horns:)
       - **Menhet:** ¿Tienes cuernos de cabra [número]? Se pueden encontrar cabras alrededor de Nardah o al oeste de Kalphite Hive. ([número] restante)
       - (continue)
     - **Player:** Sí, tengo el [item].

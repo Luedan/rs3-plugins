@@ -471,7 +471,7 @@
 #### Apareciendo frente a su albergue.
 
 - (Action: Aparece Santa Claus. Dolph y Ru desaparecen. La puerta y la puerta del albergue se abren. Se ven fuegos artificiales.)
-- ((Los siguientes también se muestran como mensajes generales habituales:))
+- ((The following are also shown as regular overhead messages:))
   - {{Colour: {{Colour|#99FF99|Ho-ho-ho!}}}}
   - {{Colour: {{Colour|#99FF99|MERRY CHRISTMAS!}}}}
   - {{Colour: {{Colour|#99FF99|Welcome to my lodge! Come on in!}}}}
@@ -484,20 +484,20 @@
 {{Incomplete|Missing picture for Santa looking at the list.}}
 - **Santa Claus:** ¡Ho-ho-ho! ¡Feliz navidad!
 - [Santa mira hacia abajo y revisa su lista.]
-- (Condition: Sin buenos puntos:)
-  - (Condition: Habiendo reclamado el regalo de la semana actual:)
+- (Condition: Without Nice Points:)
+  - (Condition: Having claimed the current week's gift:)
     - **Santa Claus:** No tengo nada para ti en este momento.
     - (continue)
-  - (Condition: De lo contrario:)
+  - (Condition: Otherwise:)
     - {{Transcript missing}}
-  - (Condition: Antes del último domingo del evento:)
+  - (Condition: Before last Sunday of the event:)
     - **Santa Claus:** Volveré la semana que viene. ¡Sé amable de ahora en adelante y quizás tenga más regalos para ti!
-  - (Condition: El último domingo del evento:)
+  - (Condition: On last Sunday of the event:)
     - **Santa Claus:** ¡Las festividades están terminando pero este ha sido uno de los mejores años hasta ahora! ¡Te veré de nuevo el año que viene!
     - **Santa Claus:** ¡Feliz Navidad y próspero año nuevo!
-- (Condition: Con buenos puntos:)
+- (Condition: With Nice Points:)
   - **Santa Claus:** ¡Parece que has sido muy amable durante la semana pasada!
-  - (Condition: Habiendo reclamado el regalo de la semana actual:)
+  - (Condition: Having claimed the current week's gift:)
     - **Santa Claus:** No tengo regalos nuevos para ti pero has sido amable. ¡Veamos si esos Nice Points te dan un sombrero de fiesta negro!
     - (receives=700 Christmas spirit and mystery gift)
     - Se ha agregado lo siguiente a su bolsa de divisas: [número] x Espíritu navideño.
@@ -505,14 +505,14 @@
     - [número] Espíritu navideño
     - regalo misterioso
     - (continue)
-  - (Condition: Sin haber reclamado el regalo de la semana actual:)
+  - (Condition: Without having claimed the current week's gift:)
     - **Santa Claus:** ¡Toma, toma este regalo!
-    - (Condition: Durante la semana 1 de 2023:)
-      - (Condition: Sin al menos cinco espacios backpack libres:)
+    - (Condition: During week 1 in 2023:)
+      - (Condition: Without at least five free backpack spaces:)
         - Necesitas al menos 5 espacios en tu backpack para recibir tu regalo.
-        - (ventana emergente)
-          - (Ventana emergente: Necesitas al menos 5 espacios en tu backpack para recibir tu regalo.|warning=yes)
-      - (Condition: Con al menos cinco espacios backpack libres:)
+        - (pop-up)
+          - (Pop-up: You need at least 5 spaces in your backpack to receive your present.|warning=yes)
+      - (Condition: With at least five free backpack spaces:)
         - (receives=peppermint top, peppermint legs, peppermint shoes, and peppermint gloves)
         - Abres tu regalo de Santa y recibes:
         - 1 x tapa de menta
@@ -520,91 +520,91 @@
         - 1 x zapatos de menta
         - 1 x guantes de menta
         - (continue)
-    - (Condition: Durante la semana 2 de 2023:)
-      - (Condition: Sin al menos dos espacios backpack libres:)
+    - (Condition: During week 2 in 2023:)
+      - (Condition: Without at least two free backpack spaces:)
         - Necesitas al menos 2 espacios en tu backpack para recibir tu regalo.
-        - (ventana emergente)
-          - (Ventana emergente: Necesitas al menos 2 espacios en tu backpack para recibir tu regalo.|warning=yes)
-      - (Condition: Con al menos dos espacios backpack libres:)
+        - (pop-up)
+          - (Pop-up: You need at least 2 spaces in your backpack to receive your present.|warning=yes)
+      - (Condition: With at least two free backpack spaces:)
         - (receives=Winter Hat (red and white))
         - Abres tu regalo de Santa y recibes:
         - 1 gorro de invierno.
         - (continue)
-    - (Condition: Durante la semana 3 de 2023:)
-      - (Condition: Sin al menos dos espacios backpack libres:)
+    - (Condition: During week 3 in 2023:)
+      - (Condition: Without at least two free backpack spaces:)
         - Necesitas al menos 2 espacios en tu backpack para recibir tu regalo.
-        - (ventana emergente)
-          - (Ventana emergente: Necesitas al menos 2 espacios en tu backpack para recibir tu regalo.|warning=yes)
-      - (Condition: Con al menos dos espacios backpack libres:)
+        - (pop-up)
+          - (Pop-up: You need at least 2 spaces in your backpack to receive your present.|warning=yes)
+      - (Condition: With at least two free backpack spaces:)
         - (receives=Winter Scarf (red and white))
         - Abres tu regalo de Santa y recibes:
         - 1 bufanda de invierno.
         - (continue)
-    - (Condition: Durante la semana 4 de 2023:)
+    - (Condition: During week 4 in 2023:)
       - {{Transcript missing}}
-    - (Condition: Durante la semana 1 en 2024 o 2025:)
-      - (Condition: Sin espacio libre backpack:)
+    - (Condition: During week 1 in 2024 or 2025:)
+      - (Condition: Without free backpack space:)
         - Necesitas al menos 1 espacios en tu backpack para recibir tu regalo.
-        - (ventana emergente)
-          - (Ventana emergente: Necesitas al menos 1 espacio en tu backpack para recibir tu regalo.|advertencia=yes)
-      - (Condition: Con espacio gratuito backpack:)
+        - (pop-up)
+          - (Pop-up: You need at least 1 spaces in your backpack to receive your present.|warning=yes)
+      - (Condition: With free backpack space:)
         - Abres tu regalo de Santa y recibes:
         - Anulación cosmética 'Pijamas acogedores (árboles)'
         - Anulación cosmética 'Cosy Slipper (Zuk)'
         - (continue)
-    - (Condition: Durante la semana 2 en 2024 o 2025:)
-      - (Condition: Sin espacio libre backpack:)
+    - (Condition: During week 2 in 2024 or 2025:)
+      - (Condition: Without free backpack space:)
         - Necesitas al menos 1 espacios en tu backpack para recibir tu regalo.
-        - (ventana emergente)
-          - (Ventana emergente: Necesitas al menos 1 espacio en tu backpack para recibir tu regalo.|advertencia=yes)
-      - (Condition: Con espacio gratuito backpack:)
+        - (pop-up)
+          - (Pop-up: You need at least 1 spaces in your backpack to receive your present.|warning=yes)
+      - (Condition: With free backpack space:)
         - Abres tu regalo de Santa y recibes:
         - Anulación cosmética 'Cosy Pyjamas (Snowflakes)'
         - Anulación cosmética "Zapatillas acogedoras (lisas)"
         - (continue)
-    - (Condition: Durante la semana 3 en 2024 o 2025:)
-      - (Condition: Sin espacio libre backpack:)
+    - (Condition: During week 3 in 2024 or 2025:)
+      - (Condition: Without free backpack space:)
         - Necesitas al menos 1 espacios en tu backpack para recibir tu regalo.
-        - (ventana emergente)
-          - (Ventana emergente: Necesitas al menos 1 espacio en tu backpack para recibir tu regalo.|advertencia=yes)
-      - (Condition: Con espacio gratuito backpack:)
+        - (pop-up)
+          - (Pop-up: You need at least 1 spaces in your backpack to receive your present.|warning=yes)
+      - (Condition: With free backpack space:)
         - Abres tu regalo de Santa y recibes:
         - Anulación cosmética 'Pijamas acogedores (bastones de caramelo)'
         - Anulación cosmética "Zapatillas acogedoras (pingüino)"
         - (continue)
-    - (Condition: Durante la semana 4 en 2024 o 2025:)
-      - (Condition: Sin espacio libre backpack:)
+    - (Condition: During week 4 in 2024 or 2025:)
+      - (Condition: Without free backpack space:)
         - Necesitas al menos 1 espacios en tu backpack para recibir tu regalo.
-        - (ventana emergente)
-          - (Ventana emergente: Necesitas al menos 1 espacio en tu backpack para recibir tu regalo.|advertencia=yes)
-      - (Condition: Con espacio gratuito backpack:)
+        - (pop-up)
+          - (Pop-up: You need at least 1 spaces in your backpack to receive your present.|warning=yes)
+      - (Condition: With free backpack space:)
         - Abres tu regalo de Santa y recibes:
         - Anulación cosmética 'Cosy Pyjamas (a cuadros)'
         - Anulación cosmética "Zapatillas acogedoras (a cuadros)"
         - (continue)
-  - (Condition: Sin espacio libre backpack:)
+  - (Condition: Without free backpack space:)
     - Necesitas al menos 1 espacios en tu backpack para recibir tu regalo.
-    - (ventana emergente)
-      - (Ventana emergente: Necesitas al menos 1 espacio en tu backpack para recibir tu regalo.|advertencia=yes)
-  - (Condition: Con espacio gratuito backpack:)
+    - (pop-up)
+      - (Pop-up: You need at least 1 spaces in your backpack to receive your present.|warning=yes)
+  - (Condition: With free backpack space:)
     - (removes=all Nice Points)
-    - (Condition: Si el player ganó un sombrero de fiesta negro:)
+    - (Condition: If the player won a black partyhat:)
       - {{Transcript missing}}
-    - (Condition: Si el player no ganó un sombrero de fiesta negro:)
-      - (Condition: Si se acaban de reclamar otros regalos:)
+    - (Condition: If the player didn't win a black partyhat:)
+      - (Condition: If other presents were just claimed:)
         - [Profundizas para comprobar si Santa te dejó algo especial para tus Nice Points.]
         - [No había nada más dirigido a usted.]
-      - (Condition: Si otros regalos no fueran simplemente reclamados:)
+      - (Condition: If other presents weren't just claimed:)
         - **Santa Claus:** Desafortunado, Player. No hay sombrero de fiesta negro para ti hoy, ¡pero siempre habrá la próxima vez!
 
 #### Saliendo del albergue
 
 - (Action: Los jugadores son sacados del albergue y el albergue y su puerta se cierran.)
-- ((Los siguientes también se muestran como mensajes generales habituales:))
+- ((The following are also shown as regular overhead messages:))
   - {{Colour: {{Colour|#99FF99|Ho-ho-ho!}}}}
   - {{Colour: {{Colour|#99FF99|I must be on my way. These presents don't deliver themselves!}}}}
   - {{Colour: {{Colour|#99FF99|MERRY CHRISTMAS!}}}}
   - (continue)
 - (Action: Santa Claus desaparece.)
-- (Condition: Aproximadamente dos minutos después:)
+- (Condition: Approximately two minutes later:)
   - (Action: Buddy y el muñeco de nieve desaparecen. El depósito de carbón se vacía.)

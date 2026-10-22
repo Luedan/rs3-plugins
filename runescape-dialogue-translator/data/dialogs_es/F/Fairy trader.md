@@ -35,11 +35,11 @@
 
 ##### con éxito
 
-- ((Lo siguiente se repite hasta que es interrumpido, fuera del espacio backpack o atrapado:))
+- ((The following repeats until interrupted, out of backpack space, or caught:))
   - Escoges el bolsillo del objetivo.
-  - (Condition: Si recibe coins:)
+  - (Condition: If receiving coins:)
     - [número] coins se han agregado a su bolsa de dinero.
-  - (Condition: Si recibe otros artículos:)
+  - (Condition: If receiving other items:)
     - (receives=loot)
-    - (Condition: Si alcanza el backpack completo:)
+    - (Condition: If reaching full backpack:)
       - No puedes seguir robando carteras porque tienes un inventario completo.

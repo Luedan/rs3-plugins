@@ -128,4 +128,4 @@
     - **Anna Jones:** No te decepcionaré.
   - [Choice]: No.
     - **Player:** Hmm, déjame pensarlo...
-    - ((Continúa con el diálogo estándar.))
+    - ((Continues with standard dialogue.))

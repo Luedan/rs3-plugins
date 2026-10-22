@@ -61,12 +61,12 @@
 #### Con el pergamino de pistas Sandy (histórico)
 
 - **Foreman George:** Alguien te dejó esto en una de las esculturas de arena.
-- (Condition: Recibir un cuadro de desplazamiento:)
+- (Condition: Receiving a scroll box:)
   - (removes=Sandy Clue Scroll) (receives=Sandy Scroll box)
   - [scrollbox].}}
-- (Condition: Recibir ataúdes:)
-  - (Condition: Sin espacio libre en backpack:)
+- (Condition: Receiving caskets:)
+  - (Condition: Without free space in backpack:)
     - Necesitas 1 espacio libre en tu backpack para recibir tus cofres de pistas.
-  - (Condition: Con espacio libre en backpack:)
+  - (Condition: With free space in backpack:)
     - (removes=Sandy Clue Scroll) (receives=Sandy Casket and its red version)
     - [¡Te entregan un ataúd!]

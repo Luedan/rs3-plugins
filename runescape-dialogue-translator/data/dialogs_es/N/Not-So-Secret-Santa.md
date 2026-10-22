@@ -36,16 +36,16 @@
   - [Choice]: Me gustaría reclamar un regalo del Papá Noel secreto.
     - (below|Claim gift)
   - [Choice]: ¿Puedes contarme sobre el progreso de mi recompensa diaria?
-    - ((Habiendo donado hoy un valor de entre 50 000 y 99 000:))
+    - ((Having donated 50,000–99,000 value today:))
       - **Not-So-Secret-Santa:** Debes donar artículos por un valor total de al menos [número] coins para recibir una recompensa diaria.
       - (continue)
-    - ((No haber donado hoy o haber alcanzado el valor de 100.000 diarios:))
+    - ((Not having donated today or having reached the daily 100,000 value:))
       - **Not-So-Secret-Santa:** Has donado suficiente riqueza para recibir tu recompensa diaria hoy. Si no lo has recibido de mí, puedes reclamarlo como reclamarías un regalo estándar de Secret Santa.
       - (continue)
-    - ((Sin Secret Santa desbloqueado:))
+    - ((Without Secret Santa unlocked:))
       - **Not-So-Secret-Santa:** Debes donar lo suficiente para reclamar una recompensa diaria en [número] días más para recibir el título de Papá Noel Secreto.
       - (initial)
-    - ((Con el Papá Noel secreto desbloqueado:))
+    - ((With Secret Santa unlocked:))
       - **Not-So-Secret-Santa:** Has donado artículos de valor suficiente en suficientes días para recibir el título de Papá Noel Secreto.
       - (initial)
 
@@ -61,46 +61,46 @@
 
 ##### Sin artículos almacenados
 
-- ((Se abre la interfaz de donación de regalos.))
-- (Condition: Intentar donar artículos con un valor inferior a 50 000 coins:)
+- ((Gift Donation interface opens.))
+- (Condition: Attempting to donate items worth less than 50,000 coins:)
   - No puedes donar artículos que valgan menos de 50.000 coins.
-  - (ventana emergente)
-    - (Ventana emergente: No puedes donar artículos que valgan menos de 50 000 coins.|advertencia=yes)
-- ((Después de donar un regalo con un valor superior a 100 000 coins por primera vez del día:))
-  - ((La interfaz de reclamo de regalo se abre con una lámpara prismática mediana.))
+  - (pop-up)
+    - (Pop-up: You cannot donate items that are worth less than 50,000 coins.|warning=yes)
+- ((After donating a gift with a value over 100,000 coins for the first time of the day:))
+  - ((Gift Claim interface opens with a medium prismatic lamp.))
   - Por donar hoy artículos por valor de 100.000 coins, se le ha concedido una lámpara prismática mediana.
-  - (ventana emergente)
-    - (Ventana emergente: por donar 100 000 coins en artículos hoy, se le ha otorgado una lámpara prismática mediana.|color=#00FF00)
+  - (pop-up)
+    - (Pop-up: For donating 100,000 coins worth of items today, you have been awarded a medium prismatic lamp.|colour=#00FF00)
     - (continue)
-  - ((Llevando la lámpara a backpack directamente:))
+  - ((Taking the lamp to backpack directly:))
     - (receives=medium prismatic lamp)
-    - ((La interfaz se cierra.))
+    - ((The interface closes.))
     - El cofre ahora está vacío.
-  - ((Intentar inclinar la lámpara directamente:))
+  - ((Attempting to bank the lamp directly:))
     - El artículo no se pudo agregar a su banco.
-  - ((Desechar la lámpara directamente:))
-    - ((Lo siguiente se muestra en una interfaz titulada "ABANDONAR ARTÍCULO":))
+  - ((Discarding the lamp directly:))
+    - ((The following is shown in an interface titled "ABANDON ITEM":))
       - ¿Estás seguro de que deseas descartar este artículo?
         - [Choice]: NO
-          - ((La interfaz se cierra.))
+          - ((The interface closes.))
         - [Choice]: SI
-          - ((Se cierra toda la interfaz de Reclamo de regalo.))
+          - ((The whole Gift Claim interface closes.))
   - [Choice]: BANCO TODO
-    - ((Se muestra en una ventana emergente:))
-      - (Ventana emergente: Los artículos no se pudieron agregar a su banco.|advertencia=yes)
+    - ((Shown in a pop-up:))
+      - (Pop-up: The items could not be added to your bank.|warning=yes)
   - [Choice]: TOMAR TODO
     - (receives=medium prismatic lamp)
-    - ((La interfaz se cierra.))
+    - ((The interface closes.))
     - Todos los artículos fueron movidos a su inventario.
-    - (ventana emergente)
-      - (Ventana emergente: Todos los artículos fueron movidos a su inventario.|color=#00FF00)
+    - (pop-up)
+      - (Pop-up: All the items were moved to your inventory.|colour=#00FF00)
       - (continue)
     - El cofre ahora está vacío.
   - [Choice]: ABANDON ALL
-    - ((Lo siguiente se muestra en una interfaz titulada "ABANDONAR ARTÍCULO":))
+    - ((The following is shown in an interface titled "ABANDON ITEM":))
       - ¿Abandonar todos los elementos restantes en el cofre?
         - [Choice]: NO
-          - ((La interfaz se cierra.))
+          - ((The interface closes.))
         - [Choice]: SI
           - ((Both interfaces close.))
 
@@ -109,9 +109,9 @@
 - Como Ironman no puedes participar de la mayor alegría de todas: dar regalos. Todas las donaciones de Ironmen serán destruidas en una explosión controlada de acuerdo con las reglas de enfrentamiento estándar de Ironman. Cualquier residuo restante será destruido en una segunda explosión, más grande. Tu riqueza no se transferirá a otros jugadores, pero podrás recibir títulos cosméticos por tus donaciones y progreso en tareas relacionadas con la pista de yak.
 - ¿Aún te gustaría donar artículos?
   - Sí.
-    - ((Se abre la interfaz de donación de regalos.))
+    - ((Gift Donation interface opens.))
   - Sí y no me vuelvas a preguntar.
-    - ((Se abre la interfaz de donación de regalos.))
+    - ((Gift Donation interface opens.))
   - No.
     - (end)
 
@@ -120,53 +120,53 @@
 
 #### Sin haber reclamado un regalo en las últimas 3 horas
 
-- ((Se abre la interfaz de reclamo de regalo.))
-- ((Si el player se retira o cierra la interfaz de reclamo de obsequios sin aceptar ni depositar los obsequios:))
+- ((Gift Claim interface opens.))
+- ((If the player walks away or otherwise closes the gift claim interface without taking or banking the gifts:))
   - {{Colour|#003366|WARNING:}} Si cierras sesión, los artículos del cofre de recompensas se moverán a tu inventario o banco. Si ambos lugares están llenos, perderás los artículos.
-- ((Llevando el regalo directamente a backpack:))
-  - ((La interfaz se cierra.))
+- ((Taking the gift to backpack directly:))
+  - ((The interface closes.))
   - (receives=gift)
   - El cofre ahora está vacío.
-- ((Depositar el regalo directamente:))
-  - ((La interfaz se cierra.))
-  - ((el player guarda el regalo o agrega coins a la bolsa de dinero si es coins.))
+- ((Banking the gift directly:))
+  - ((The interface closes.))
+  - ((The player banks the gift, or has coins added to money pouch if it's coins.))
   - El cofre ahora está vacío.
-- ((Descartar el regalo directamente:))
-  - ((Lo siguiente se muestra en una interfaz titulada "ABANDONAR ARTÍCULO":))
+- ((Discarding the gift directly:))
+  - ((The following is shown in an interface titled "ABANDON ITEM":))
     - ¿Estás seguro de que deseas descartar este artículo?
       - [Choice]: NO
-        - ((La interfaz se cierra.))
+        - ((The interface closes.))
       - [Choice]: SI
-        - ((Se cierra toda la interfaz de Reclamo de regalo.))
+        - ((The whole Gift Claim interface closes.))
 - [Choice]: BANCO TODO
-  - ((La interfaz se cierra.))
+  - ((The interface closes.))
   - Todos los artículos fueron trasladados a su banco.
   - (ventana emergente))
-    - (Ventana emergente: Todos los artículos se movieron a su banco.|color=#00FF00)
+    - (Pop-up: All of the items were moved to your bank.|colour=#00FF00)
     - (continue)
   - El cofre ahora está vacío.
 - [Choice]: TOMAR TODO
-  - (Condition: Sin suficiente espacio backpack:)
+  - (Condition: Without sufficient backpack space:)
     - (ventana emergente))
-      - (Ventana emergente: Los artículos no se pudieron agregar a su inventario.|advertencia=yes)
-  - (Condition: Con suficiente espacio backpack:)
-    - ((La interfaz se cierra.))
+      - (Pop-up: The items could not be added to your inventory.|warning=yes)
+  - (Condition: With sufficient backpack space:)
+    - ((The interface closes.))
     - (receives=gift)
     - Todos los artículos fueron movidos a su inventario.
-    - (ventana emergente)
-      - (Ventana emergente: Todos los artículos fueron movidos a su inventario.|color=#00FF00)
+    - (pop-up)
+      - (Pop-up: All the items were moved to your inventory.|colour=#00FF00)
       - (continue)
     - El cofre ahora está vacío.
 - [Choice]: ABANDONAR TODO
-  - ((Lo siguiente se muestra en una interfaz titulada "ABANDONAR ARTÍCULO":))
+  - ((The following is shown in an interface titled "ABANDON ITEM":))
     - ¿Abandonar todos los elementos restantes en el cofre?
       - [Choice]: NO
-        - ((La interfaz se cierra.))
+        - ((The interface closes.))
       - [Choice]: SI
-        - ((Ambas interfaces se cierran.))
+        - ((Both interfaces close.))
 
 #### Haber reclamado un regalo en las últimas 3 horas
 
 - Puedes recoger otro regalo en [time].
-- (ventana emergente)
-  - (Ventana emergente: Puedes recoger otro regalo en [time].|warning=yes)
+- (pop-up)
+  - (Pop-up: You can collect another gift in [time].|warning=yes)

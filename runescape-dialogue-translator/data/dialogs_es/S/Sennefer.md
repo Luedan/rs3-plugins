@@ -24,27 +24,27 @@
 - [Menu]: ¿Quieres ayudar?
   - [Choice]: Sí.
     - **Sennefer:** Lo has hecho bien.
-    - (Condition: Si el tipo de misión de la ciudad es "Atacada por vida silvestre":)
+    - (Condition: If the city quest type is "Attacked by wildlife":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "En espera de entrega":)
+    - (Condition: If the city quest type is "Awaiting delivery":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Los niños no pueden dormir":)
+    - (Condition: If the city quest type is "Children can't sleep":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Coleccionista de curiosidades":)
+    - (Condition: If the city quest type is "Collector of curiosities":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Crondis está enojado":)
+    - (Condition: If the city quest type is "Crondis is angry":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Plagas de cultivos":)
+    - (Condition: If the city quest type is "Crop pests":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Ayuda de entrega":)
+    - (Condition: If the city quest type is "Delivery help":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "El hijo de un amigo muere lentamente":)
+    - (Condition: If the city quest type is "Friend's son slowly dying":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Nuevo producto":)
+    - (Condition: If the city quest type is "New product":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Slayer master":)
+    - (Condition: If the city quest type is "Slayer master":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "esfuerzo War":)
+    - (Condition: If the city quest type is "War effort":)
       - (continue)
   - [Choice]: No ahora mismo.
     - No importa.
@@ -84,7 +84,7 @@
   - [Choice]: Sí.
     - **Sennefer:** Lo has hecho bien.
     - **Player:** ¿Dónde puedo encontrar [item]?
-    - (Condition: Si el artículo asignado es una semilla:)
+    - (Condition: If the item assigned is a seed:)
       - {{anchor|first}} **Sennefer:** Las semillas de [Herb] a menudo las dejan los monstruos, o se pueden obtener de maestros agricultores en Gielinor. Pero date prisa antes de que se acaben todas mis cosechas.
   - [Choice]: No.
     - {{transcript missing}}
@@ -107,10 +107,10 @@
     - **Sennefer:** ¿Tienes el [número] de [item]? ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Sennefer ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Sennefer:** Genial. Gracias.
@@ -139,7 +139,7 @@
   - [Choice]: Muy bien.
     - **Sennefer:** Lo has hecho bien.
     - **Player:** ¿Sabes dónde puedo conseguir [item]?
-    - (Condition: Si el artículo solicitado es carbón:)
+    - (Condition: If the item requested is coal:)
       - {{anchor|second}} **Sennefer:** Puedes extraer carbón al norte de Al Kharid.
   - [Choice]: No, lo siento.
     - {{transcript missing}}
@@ -162,10 +162,10 @@
     - **Sennefer:** ¿Ya has encontrado [número] de [item]? ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Sennefer ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Sennefer:** Genial. Gracias.
@@ -195,7 +195,7 @@
 - [Menu]: Selecciona una opción
   - [Choice]: Claro.
     - **Player:** ¿Qué sabes sobre [monster]?
-    - (Condition: Si el monstruo son lagartos del desierto:)
+    - (Condition: If the monster is desert lizards:)
       - {{anchor|third}} **Sennefer:** ¿Aparte del hecho de que son demonios ladrones de cosechas? Se pueden encontrar al este en el desierto.
   - [Choice]: No.
     - {{transcript missing}}
@@ -274,10 +274,10 @@
     - **Sennefer:** ¿Cómo te llevas consiguiendome [número] [item]? ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Sennefer ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Sennefer:** Genial. Gracias.
@@ -338,10 +338,10 @@
     - **Sennefer:**¿Cómo va tu búsqueda para encontrarme [número] [item], Player? ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Sennefer ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Sennefer:** Genial. Gracias.
@@ -400,10 +400,10 @@
     - **Sennefer:** ¡Ah, Player! Por favor, dime que has logrado adquirir [número] [item]. ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Sennefer ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Sennefer:** Genial. Gracias.

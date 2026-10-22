@@ -24,27 +24,27 @@
 - [Menu]: ¿Quieres ayudar?
   - [Choice]: Sí.
     - **Lisah:** Te lo agradezco.
-    - (Condition: Si el tipo de misión de la ciudad es "Atacada por vida silvestre":)
+    - (Condition: If the city quest type is "Attacked by wildlife":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "En espera de entrega":)
+    - (Condition: If the city quest type is "Awaiting delivery":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Los niños no pueden dormir":)
+    - (Condition: If the city quest type is "Children can't sleep":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Coleccionista de curiosidades":)
+    - (Condition: If the city quest type is "Collector of curiosities":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Crondis está enojado":)
+    - (Condition: If the city quest type is "Crondis is angry":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Plagas de cultivos":)
+    - (Condition: If the city quest type is "Crop pests":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Ayuda de entrega":)
+    - (Condition: If the city quest type is "Delivery help":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "El hijo de un amigo muere lentamente":)
+    - (Condition: If the city quest type is "Friend's son slowly dying":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Nuevo producto":)
+    - (Condition: If the city quest type is "New product":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Slayer master":)
+    - (Condition: If the city quest type is "Slayer master":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "esfuerzo War":)
+    - (Condition: If the city quest type is "War effort":)
       - (continue)
   - [Choice]: No ahora mismo.
     - **Lisah:** Hueles.
@@ -78,9 +78,9 @@
   - [Choice]: Bien, entonces.
     - **Lisah:** Te lo agradezco.
     - **Player:** ¿Dónde puedo encontrar [item]?
-    - (Condition: Si el artículo deseado son huesos de dragón:)
+    - (Condition: If the item desired is dragon bones:)
       - **Lisah:** Mata algunos dragones y recupera sus huesos.
-    - (Condition: Si el artículo deseado es vidrio fundido:)
+    - (Condition: If the item desired is molten glass:)
       - **Lisah:** El vidrio fundido se puede fabricar usando un balde de arena y un poco de carbonato de sodio.
   - [Choice]: No, lo siento.
     - [Menu]: ¿Te gustaría abandonar esta búsqueda de la ciudad?
@@ -113,10 +113,10 @@
     - **Lisah:** ¿Tienes el [número] [item]? ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Lisah ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Lisah:** Genial. Gracias.
@@ -150,9 +150,9 @@
 - [Menu]: Selecciona una opción
   - [Choice]: Bien, está bien.
     - **Lisah:** Te lo agradezco.
-    - (Condition: Si el artículo deseado es mineral de cobre:)
+    - (Condition: If the item desired is copper ore:)
       - **Lisah:** El mineral de cobre se puede encontrar al sureste de Varrock.
-    - (Condition: Si el artículo deseado son huesos de murciélago:)
+    - (Condition: If the item desired is bat bones:)
       - **Lisah:** Mata algunos murciélagos y recupera sus huesos.
   - [Choice]: No, lo siento.
     - [Menu]: ¿Te gustaría abandonar esta búsqueda de la ciudad?
@@ -185,10 +185,10 @@
     - **Lisah:** ¿Ya tienes [número] [item]? ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Lisah ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Lisah:** Genial. Gracias.
@@ -243,7 +243,7 @@
   - [Choice]: Hable sobre su tarea actual.
     - **Lisah:** ¿Tienes el [item]? Necesito [número]. ([número] restantes)
     - **Player:** Todavía no. ¿Podrías indicarme la dirección de algún [item]?
-    - (Condition: Si el artículo deseado son rollos de tela:)
+    - (Condition: If the item desired is bolts of cloth:)
       - **Lisah:** Podrías hacerlos en un telar.
   - [Choice]: Abandona esta búsqueda de la ciudad.
     - (Action: La misión está completa.)
@@ -256,10 +256,10 @@
     - **Lisah:** ¿Tienes el [item]? Necesito [número]. ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Lisah ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Lisah:** Genial. Gracias.

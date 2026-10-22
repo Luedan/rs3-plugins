@@ -80,4 +80,26 @@
     - (receives=reward casket (medium))
     - [You've found a casket!]
   - **Father Urnhey:** Congratulations. Either you can count, you got lucky, or you do not trust your own mind and traffic in otherworldly sources of infernal knowledge.
-  - **Father Urnhey:** Regardless, for the love of Saradomin...<br>Please. Leave me and don't bother me again.<br>I want to be left alone.
+  - **Father Urnhey:** Regardless, for the love of Saradomin...<br>Please. Leave me and don't bother me again.<br>I want to be left alone.
+### During The Restless Ghost
+
+- [Choice]: Father Aereck sent me to talk to you.
+  - **Player:** Father Aereck sent me to talk to you.
+  - **Father Urhney:** I suppose I'd better talk to you then. What has he got himself into this time?
+  - [Menu]: Select an option
+    - [Choice]: A ghost is haunting his graveyard.
+      - **Father Urhney:** Oh, the silly fool.
+      - **Father Urhney:** I leave town for five months and he's already having problems.
+      - **Father Urhney:** *sigh*
+      - **Father Urhney:** Well, I can't go back and exorcise it - I vowed not to leave this place until I've spent a full two years praying and meditating.
+      - **Father Urhney:** I'll tell you what I can do, though - take this amulet.
+      - **Player:** Sorry, that's not really possible. I don't have space to carry anything. I'll be right back!
+      - **Father Urhney:** It is a ghostspeak amulet.
+      - **Father Urhney:** It's called that because, when you wear it, you can speak to ghosts. Many ghosts are doomed to remain in this world because they have some important task left uncompleted.
+      - **Father Urhney:** If you know what this task is, you can get rid of the ghost. I'm not making any guarantees, mind you, but it's the best I can do right now.
+      - **Player:** Thank you. I'll give it a try.
+    - [Choice]: You mean he gets into lots of problems?
+      - **Father Urhney:** Yeah. Even when we were trainee priests he kept getting stuck up bell ropes.
+      - **Father Urhney:** Anyway, I don't have time for chit-chat. What's his problem this time?
+      - **Player:** A ghost is haunting his graveyard.
+

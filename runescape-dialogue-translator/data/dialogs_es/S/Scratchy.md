@@ -11,11 +11,11 @@
 
 ### Petting
 
-- ((Se selecciona un diálogo aleatorio entre los siguientes y luego continúa a continuación:))
+- ((A random dialogue is selected from the following, then continues below:))
   - **Player:** {{RSChat|Good ratty!}}
   - **Player:** {{RSChat|Who's a good Scratchy?}}
   - **Player:** {{RSChat|Are those some boggles I see?}}
-- ((Ocasionalmente se selecciona un diálogo aleatorio entre los siguientes:))
+- ((Occasionally a random dialogue is selected from the following:))
   - **Scratchy:** {{RSChat|*squeak*}}
   - **Scratchy:** {{RSChat|*hiss*}}
 

@@ -85,23 +85,23 @@
         - Habilitado [skill] XP
         - ((Repetido en una ventana emergente:)) Habilitado [skill] XP
   - [Choice]: cond=Only if you have not at any time requested Nasroth to never reset your skills:|Hablemos de reinicios de habilidades.
-    - (Condition: Si el pin bancario no está activo:)
+    - (Condition: If the bank pin is not active:)
       - **Nastroth:** Para tu propia protección, para solicitar un reinicio de habilidad, debes tener un pin bancario activo.
       - (previous)
     - **Nastroth:** Bien, ¿qué te gustaría restablecer?
     - [Menu]: ¿Qué quieres restablecer?
       - [Choice]: Constitution & Prayer.
         - **Nastroth:** ¿Estás seguro de que quieres restablecer? El proceso puede ser bastante... duro...
-        - (Condition: Si actualmente eres elegible para restablecer tus habilidades:)
-          - (Condition: Si tienes algún artículo equipado:)
+        - (Condition: If you are currently eligible to reset your skills:)
+          - (Condition: If you have any items equipped:)
             - **Nastroth:** No puedes tener nada equipado mientras restableces tus estadísticas.
-          - (Condition: Si tiene algún artículo en su backpack:)
+          - (Condition: If you have any items in your backpack:)
             - **Nastroth:** Necesitas un inventario vacío para restablecer tus estadísticas.
-          - (Condition: Si se te ha caído algo recientemente:)
+          - (Condition: If you have recently dropped something:)
             - **Nastroth:** Recientemente se te ha caído algo. Vuelve a intentarlo más tarde.
-          - (Condition: Si Nasroth ya restableció sus estadísticas:)
+          - (Condition: If Nasroth have already reset your stats:)
             - **Nastroth:** Ya hice esto por ti una vez, si lo hago de nuevo podría causar un daño permanente.
-          - (Condition: De lo contrario:)
+          - (Condition: Otherwise:)
             - (Se abre la interfaz de reinicio de habilidades).
               - Restablecer mis habilidades
                 - **Nastroth:** ¡Bien, allá vamos!
@@ -110,11 +110,11 @@
                 - ¡Acabas de avanzar niveles -[número] Constitution! Has alcanzado el nivel 10.
               - No reinicies mis habilidades
                 - (end)
-        - (Condition: Si debes esperar un tiempo de reutilización de siete días antes de restablecer tus habilidades:)
-          - (Condition: Si actualmente no está en tiempo de reutilización:)
+        - (Condition: If you must wait for a seven-day cooldown before resetting your skills:)
+          - (Condition: If currently not on cooldown:)
             - **Nastroth:** ¿Estás seguro de que quieres hacer esto? Para asegurarte de esto, regresa y habla conmigo en 7 días si todavía te tomas esto en serio.
             - Para cancelar este tiempo de reutilización de 7 días, habla con Nastroth nuevamente.
-          - (Condition: Si actualmente está en tiempo de reutilización:)
+          - (Condition: If currently on cooldown:)
             - **Nastroth:** Te dije que volvieras en 7 días. Todavía te quedan [número] días de espera. ¿O querías algo más?
             - [Menu]: Selecciona una opción
               - [Choice]: no quiero resetear
@@ -123,17 +123,17 @@
                 - **Nastroth:** Te veré pronto.
       - [Choice]: Defence.
         - **Nastroth:** ¿Estás seguro de que quieres restablecer? El proceso puede ser bastante... duro...
-        - (Condition: Si actualmente eres elegible para restablecer tus habilidades:)
+        - (Condition: If you are currently eligible to reset your skills:)
           - **Nastroth:** Esperaste 7 días para esto. ¿Estás seguro de que quieres seguir adelante con esto?
-          - (Condition: Si tienes algún artículo equipado:)
+          - (Condition: If you have any items equipped:)
             - **Nastroth:** No puedes tener nada equipado mientras restableces tus estadísticas.
-          - (Condition: Si tiene algún artículo en su backpack:)
+          - (Condition: If you have any items in your backpack:)
             - **Nastroth:** Necesitas un inventario vacío para restablecer tus estadísticas.
-          - (Condition: Si se te ha caído algo recientemente:)
+          - (Condition: If you have recently dropped something:)
             - **Nastroth:** Recientemente se te ha caído algo. Vuelve a intentarlo más tarde.
-          - (Condition: Si Nasroth ya restableció sus estadísticas:)
+          - (Condition: If Nasroth have already reset your stats:)
             - **Nastroth:** Ya hice esto por ti una vez, si lo hago de nuevo podría causar un daño permanente.
-          - (Condition: De lo contrario:)
+          - (Condition: Otherwise:)
             - (Se abre la interfaz de reinicio de habilidades).
               - Restablecer mis habilidades
                 - **Nastroth:** ¡Bien, allá vamos!
@@ -141,11 +141,11 @@
                 - ¡Acabas de avanzar niveles -[número] Defence! Has alcanzado el nivel 1.
               - No reinicies mis habilidades
                 - (end)
-        - (Condition: Si debes esperar un tiempo de reutilización de siete días antes de restablecer tus habilidades:)
-          - (Condition: Si actualmente no está en tiempo de reutilización:)
+        - (Condition: If you must wait for a seven-day cooldown before resetting your skills:)
+          - (Condition: If currently not on cooldown:)
             - **Nastroth:** ¿Estás seguro de que quieres hacer esto? Para asegurarte de esto, regresa y habla conmigo en 7 días si todavía te tomas esto en serio.
             - Para cancelar este tiempo de reutilización de 7 días, habla con Nastroth nuevamente.
-          - (Condition: Si actualmente está en tiempo de reutilización:)
+          - (Condition: If currently on cooldown:)
             - **Nastroth:** Te dije que volvieras en 7 días. Todavía te quedan [número] días de espera. ¿O querías algo más?
             - [Menu]: Selecciona una opción
               - [Choice]: no quiero resetear
@@ -180,7 +180,7 @@
 
 - **Nastroth:** ¡Ah! Veo que has encontrado [one/some] de los artefactos antiguos que mi hermano y yo estamos buscando.
 - **Nastroth:** Oye, ¿no estarías dispuesto a venderme [it/them]?
-- ((A continuación, el mensaje aparece vacío con cuadros de diálogo de pantalla completa activados.))
+- ((In the following the prompt appears empty with full-screen dialogue boxes toggled on.))
 - [Menu]: Selecciona una opción
   - [Choice]: Claro, puedo hacer eso.
     - **Player:** Claro, puedo hacerlo.

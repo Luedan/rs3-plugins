@@ -11,7 +11,7 @@
 
 ### With club
 
-- ((A continuación se ven uno a uno los siguientes:))
+- ((The following are seen one by one subsequently:))
   - **Jogre:** {{RSChat|Me long way from jungle.}}
   - **Jogre:** {{RSChat|Should've asked for directions.}}
   - **Jogre:** {{RSChat|Me no use doogle maps again.}}
@@ -25,7 +25,7 @@
 
 ### Without club
 
-- ((A continuación se ven uno a uno los siguientes:))
+- ((The following are seen one by one subsequently:))
   - **Jogre:** {{RSChat|Talk to hand?}}
   - **Jogre:** {{RSChat|Ugh. Jog on.}}
   - **Jogre:** {{RSChat|Why you talk me?}}

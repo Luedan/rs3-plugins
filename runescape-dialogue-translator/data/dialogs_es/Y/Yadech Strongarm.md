@@ -11,13 +11,13 @@
 
 ### In the Warriors' Guild
 
-- (Condition: Antes de lanzar un lanzamiento de peso:)
+- (Condition: Before throwing a shot put:)
   - **Yadech Strongarm:** Te ves fuerte. Bienvenido al área de pruebas Strength del Warriors' Guild. Soy Yadech. Estoy cuidando esta área ahora que Sloane ha ido al Salón de los Guerreros a beber por la eternidad.
   - (continue)
-- (Condition: Después de lanzar un lanzamiento de peso:)
+- (Condition: After throwing a shot put:)
   - **Yadech Strongarm:** Ahhh, hola, Player.
   - (continue)
-- (Condition: Si el player tiene 99 Strength:)
+- (Condition: If the player has 99 Strength:)
   - **Yadech Strongarm:** ¡Ah, pero puedo ver que ya eres lo más fuerte posible! ¿Quizás has venido a mí para comprar un Skillcape o un Strength y así unirte a la élite que domina esta exigente habilidad?
   - (continue)
 - [Menu]: Selecciona una opción
@@ -26,31 +26,31 @@
     - **Yadech Strongarm:** Claro. Puedes comprar un skillcape cuando alcances el nivel 99 en una habilidad. Además de mejorar tus estadísticas en esa habilidad, ¡también pueden usarse para realizar algunos gestos increíbles! ¿Hay algo más que te gustaría saber?
     - (initial|strong)
   - [Choice]: cond=With 99 Strength:|¿Puedo comprar un Skillcape de Strength, por favor?
-    - (Condition: Si el player tiene un ring of charos (a) equipado:)
+    - (Condition: If the player has a ring of charos (a) equipped:)
       - **Yadech Strongarm:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins por este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
       - [Menu]: Elige una opción:
         - [Choice]: ¿92.000 coins? Eso es demasiado caro.
           - **Player:** Sé dónde encontrarte si cambio de opinión.
         - [Choice]: De hecho, creo que tengo el dinero aquí.
-          - (Condition: Si el player no tiene espacio backpack:)
+          - (Condition: If the player has no backpack space:)
             - **Yadech Strongarm:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar algo de espacio en backpack antes de que pueda venderte uno.
-          - (Condition: Si el player no tiene suficiente dinero:)
+          - (Condition: If the player does not have enough money:)
             - **Player:** Pero desafortunadamente me equivoqué.
             - **Yadech Strongarm:** Bueno, vuelve a verme cuando lo hagas.
-          - (Condition: Si el player tiene suficiente dinero:)
+          - (Condition: If the player has enough money:)
             - (receives=Strength cape and Strength hood) (removes=92,000 coins)
             - **Yadech Strongarm:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
-    - (Condition: Si el player no tiene un ring of charos(a) equipado:)
+    - (Condition: If the player does not have a ring of charos (a) equipped:)
       - **Yadech Strongarm:** Hmm, sí, ciertamente te ves lo suficientemente fuerte. Serán 99.000 gold coins, por favor.
       - [Menu]: Elige una opción:
         - [Choice]: ¿99.000 coins? Eso es demasiado caro.
           - **Player:** Sé dónde encontrarte si cambio de opinión.
         - [Choice]: De hecho, creo que tengo el dinero aquí.
-          - (Condition: Si el player no tiene espacio backpack:)
+          - (Condition: If the player has no backpack space:)
             - (arriba)
-          - (Condition: Si el player no tiene suficiente dinero:)
+          - (Condition: If the player does not have enough money:)
             - (arriba)
-          - (Condition: Si el player tiene suficiente dinero:)
+          - (Condition: If the player has enough money:)
             - (receives=Strength cape and Strength hood) (removes=99,000 coins)
             - **Yadech Strongarm:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
         - [Choice]: cond=With 120 Strength:|He dominado esta habilidad. ¿Hay algo más?
@@ -60,24 +60,24 @@
         - **Yadech Strongarm:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Strength master cape.
         - [Menu]: ¿Comprar Strength master cape por 120.000 coins?
           - [Choice]: Sí.
-            - (Condition: Sin espacio libre backpack:)
+            - (Condition: Without free backpack space:)
               - **Yadech Strongarm:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
-            - (Condition: Con espacio gratuito backpack:)
-              - (Condition: Sin 120.000 coins:)
+            - (Condition: With free backpack space:)
+              - (Condition: Without 120,000 coins:)
                 - No tienes suficiente dinero para comprar esta capa.
-                - (ventana emergente)
-                  - (Ventana emergente: No tienes suficiente dinero para comprar esta capa).
-              - (Condition: Con 120.000 coins:)
+                - (pop-up)
+                  - (Pop-up: You do not have enough money to purchase this cape.)
+              - (Condition: With 120,000 coins:)
                 - (removes=120,000 coins) (receives=Strength master cape)
                 - (Action: Suena música Master cape.)
           - [Choice]: No.
             - (end)
   - [Choice]: He notado que hay un par de versiones de cada skillcape.
     - **Yadech Strongarm:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
-    - (Condition: Si usas el modelo antiguo:)
+    - (Condition: If you use the old model:)
       - **Yadech Strongarm:** Parece que actualmente estás usando el modelo anterior para tu Strength skillcape. ¿Quieres cambiar a uno más nuevo?
       - (continue)
-    - (Condition: Si utiliza el nuevo modelo:)
+    - (Condition: If you use the new model:)
       - **Yadech Strongarm:** Aún puedes elegir usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
       - (continue)
     - [Menu]: Selecciona una opción
@@ -92,7 +92,7 @@
             - (end)
       - [Choice]: No, gracias.
         - **Yadech Strongarm:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
-        - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+        - (Condition: If the player uses the new model for any other skillcape:)
           - **Yadech Strongarm:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
           - [Menu]: Selecciona una opción
             - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.

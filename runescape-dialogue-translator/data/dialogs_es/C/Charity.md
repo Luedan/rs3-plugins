@@ -29,12 +29,12 @@
     - **Player:** ¡Genial, gracias!
     - (initial|init)
   - Introduzca La Gota.
-    - ((Si The Drop no está abierto actualmente:))
+    - ((If The Drop is not currently open:))
       - The Drop no está abierto actualmente.
-    - ((Si The Drop está abierto:))
-      - ((Si el player tiene un seguidor o una bolsa Summoning en backpack:))
+    - ((If The Drop is open:))
+      - ((If the player has a follower out or a Summoning pouch in backpack:))
         - **Charity:** Lo sentimos, ¡no se permiten mascotas, seguidores ni bolsas de invocación en The Drop!
-      - ((Si el player no tiene espacio en backpack:))
+      - ((If the player doesn't have space in backpack:))
         - **Charity:** Lo sentimos, no tienes suficiente espacio en el inventario para reclamar la recompensa si ganas.
       - (el player se lleva a The Drop).
       - Bienvenido a The Drop: ¡el próximo juego comenzará pronto!
@@ -48,7 +48,7 @@
     - **Charity:** ¡Por supuesto! Soy Charity, paso mucho de mi tiempo... ¡Solo bromeo! Jagex hará una donación de £100 000 a nuestros socios benéficos de salud mental. ¡Los jugadores pueden ayudar a alcanzar este objetivo ingresando a The Drop! Por cada participación, se donará £1 a organizaciones benéficas.
     - ¿Quieres más información?
       - Sí, llévame al periódico.
-        - ((Abre más de £100.000 para la salud mental: ¡cómo participar!))
+        - ((Opens £100k+ for mental health - how to get involved!))
         - (initial|init)
       - No.
         - (initial|init)
@@ -68,10 +68,10 @@
 
 #### Cuando The Drop no está activo
 
-- ((Cada minuto:))
+- ((Every minute:))
   - **Charity:** {{RSChat|The Drop starts in [number] minute[s]!}}
 
 #### Cuando The Drop está activo
 
-- ((Cada minuto:))
+- ((Every minute:))
   - **Charity:** {{RSChat|The Drop has started! Talk to me or use the 'Quick join' option to take part.}}

@@ -50,7 +50,7 @@
 
 #### Senderos del tesoro
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only the first time:)
   - **Caroline:** Disculpe, ¿pueden ayudarme con esta pregunta?
   - **Player:** Haré lo mejor que pueda.
   - **Caroline:** ¡Genial! Lo escribí para ti.
@@ -62,20 +62,20 @@
 
 - **Caroline:** Ingrese la respuesta a la pregunta.
 - Ingrese la cantidad:<br>[Input field]
-- ((Cuando se le da la respuesta incorrecta:))
-  - (Condition: Si la respuesta no fue 11 (antes de las Preocupaciones de Kennith) o 0 (después de las Preocupaciones de Kennith):)
+- ((When given the wrong answer:))
+  - (Condition: If the answer wasn't 11 (before Kennith's Concerns), or 0 (after Kennith's Concerns):)
     - **Caroline:** ¿Estás seguro? Eso me suena un poco raro.
-  - (Condition: Si la respuesta fue 11 (después de las Preocupaciones de Kennith):)
+  - (Condition: If the answer was 11 (after Kennith's Concerns):)
     - **Caroline:** Tal vez tuviste razón una vez, pero creo que el número ha bajado recientemente.
-- (Condition: Cuando se le da la respuesta correcta:)
+- (Condition: When given the correct answer:)
   - (removes=the clue scroll (medium) y desplazamiento de desafío (medio))
-  - (Condition: Si el rastro continúa:)
+  - (Condition: If the trail continues:)
     - (receives=a new clue scroll (medium))
     - [¡Caroline te ha dado otro pergamino de pistas!]
-  - (Condition: Si el sendero termina:)
+  - (Condition: If the trail ends:)
     - (receives=reward casket (medium))
     - [¡Has encontrado un ataúd!]
-  - (Condition: Antes de las preocupaciones de Kennith:)
+  - (Condition: Before Kennith's Concerns:)
     - **Caroline:** ¡Muchas gracias!
-  - (Condition: Después de las preocupaciones de Kennith:)
+  - (Condition: After Kennith's Concerns:)
     - **Caroline:** ¡Un recuento actualizado! ¡Muchas gracias!

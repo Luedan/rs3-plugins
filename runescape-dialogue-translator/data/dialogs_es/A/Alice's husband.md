@@ -38,27 +38,27 @@
     - [Menu]: Selecciona una opción
       - [Choice]: ¿Puedo comprar 1 pollo ahora?
         - **Player:** ¿Puedo comprar 1 pollo ahora?
-        - (Condition: Si el player tiene suficientes ecto-tokens:)
+        - (Condition: If the player has enough ecto-tokens:)
           - **Alice's husband:** Eh, algún día pronto tendré una bonita cama de muertos vivientes para dormir.
           - (removes=10 ecto-tokens) (receives=undead chicken)
-        - (Condition: Si el player no tiene suficientes ecto-tokens:)
+        - (Condition: If the player does not have enough ecto-tokens:)
           - **Alice's husband:** Aquí no soy una organización benéfica, ¿sabes? Ya es bastante malo que todos ustedes, matadores de vacas, estén matándome bestias. Vuelve cuando tengas suficientes fichas.
-        - (Condition: Si el player tiene suficientes ecto-tokens pero no tiene espacio en el inventario:)
+        - (Condition: If the player has enough ecto-tokens but no inventory space:)
           - **Alice's husband:** Nabo, vuelve cuando tengas espacio.
       - [Choice]: ¿Puedo comprar 2 pollos?
         - **Player:** ¿Puedo comprar 2 pollos?
-        - (Condition: Si el player tiene suficientes ecto-tokens:)
+        - (Condition: If the player has enough ecto-tokens:)
           - **Alice's husband:** ¡Genial! Estoy guardando fichas para unas vacas asesinas. Eso les enseñará a los ladrones de huesos.
           - (removes=20 ecto-tokens) (receives=two undead chickens)
-        - (Condition: Si el player no tiene suficientes ecto-tokens:)
+        - (Condition: If the player does not have enough ecto-tokens:)
           - (arriba)
-        - (Condition: Si el player tiene suficientes ecto-tokens pero no tiene espacio en el inventario:)
+        - (Condition: If the player has enough ecto-tokens but no inventory space:)
           - **Alice's husband:** Tu saco es demasiado pequeño. Tira algo de esa basura que llevas.
       - [Choice]: Tus animales no se ven muy sanos, compraré en otro lado.
         - **Player:** Tus animales no parecen muy sanos, los compraré en otro lado.
         - **Alice's husband:** Ja ja, ¿cuántos granjeros fantasmas conoces entonces?
   - [Choice]: Tus animales no parecen muy sanos.
-    - (por encima|estándar)
+    - (above|standard)
   - [Choice]: Estoy bien, gracias.
     - **Player:** Estoy bien, gracias.
   - [Choice]: ¿Dónde podría conseguir más de estos ecto-tokens?

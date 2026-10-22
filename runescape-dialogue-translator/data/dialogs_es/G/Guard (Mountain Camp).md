@@ -18,10 +18,10 @@
 ##### Entrando antes de Mountain Daughter Quest
 
 - **Guardia:** Quédate ahí, extranjero.
-- (Condition: Si el player ha hecho Los Juicios de Fremennik:)
+- (Condition: If the player has done The Fremennik Trials:)
   - **Player:** No te preocupes, no soy un outsider, soy [Fremennik name], ¡un Fremennik!
   - **Guardia:** ¡Dije que te quedes ahí, extranjero! No eres bienvenido en nuestro campamento.
-- (Condition: Si el player no ha realizado Las Pruebas de Fremennik:)
+- (Condition: If the player has not done The Fremennik Trials:)
   - **Player:** ¿Qué hay más allá de aquí?
   - **Guardia:**Nuestro campamento, extranjero, y no queremos problemas allí.
 

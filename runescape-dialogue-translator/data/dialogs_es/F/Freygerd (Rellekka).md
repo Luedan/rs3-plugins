@@ -25,9 +25,9 @@
   - **Freygerd:** ¿Cómo estás, [Fremennik name]? ¡Espero que a todos les vaya bien este día!
   - **Freygerd:** Siempre es un placer verte, [brother/sister] [Fremennik name].
   - (continue)
-- (Condition: Antes de la bienvenida del héroe:)
+- (Condition: Before Hero's Welcome:)
   - (end)
-- (Condition: Después de la bienvenida del héroe:)
+- (Condition: After Hero's Welcome:)
   - [Menu]: Selecciona una opción
     - [Choice]: ¿Puedo preguntarte sobre V?
       - **Freygerd:** Es triste que se haya ido, pero seguirá viviendo como una inspiración para innumerables héroes en innumerables mundos.

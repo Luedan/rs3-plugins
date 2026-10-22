@@ -15,7 +15,7 @@
 - [Menu]: Elige una opción:
   - [Choice]: cond=After partial completion of Heroes' Quest|Quiero saber cómo pescar una anguila de lava.
     - **Gerrant:** Anguilas de lava, ¿eh? Esa es una pregunta complicada, claro está. Necesitarás una caña de pescar a prueba de lava. El método para hacer esto sería tomar una caña de pescar común y luego cubrirla con aceite ignífugo.
-    - (Condition: Después de completar Heroes' Quest:)
+    - (Condition: After completion of Heroes' Quest:)
       - **Gerrant:** Por supuesto, eso ya lo sabías.
       - (continue)
     - **Player:** Entonces, ¿dónde puedo pescar anguilas de lava?
@@ -33,9 +33,9 @@
 
 - **Gerrant:** ¡Lo has logrado!
 - (removes=the old clue scroll (hard))
-- ((Si el rastro continúa:))
+- ((If the trail continues:))
   - (receives=a new clue scroll (hard))
   - [¡Gerrant te ha dado otro pergamino de pistas!]
-- ((Si el sendero termina:))
+- ((If the trail ends:))
   - (receives=reward casket (hard))
   - [¡Has encontrado un ataúd!]

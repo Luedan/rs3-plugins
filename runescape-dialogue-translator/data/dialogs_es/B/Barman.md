@@ -11,10 +11,10 @@
 
 ### Standard dialogue
 
-- (Condition: Si el player tiene más de 2000 coins en su backpack o bolsa de dinero:)
+- (Condition: If the player has more than 2,000 coins in their backpack or money pouch:)
   - **Barman:** ¿Y qué será para ti, bien [sir/madam]?
   - (continue)
-- (Condition: Si el player tiene 2000 coins o menos en su backpack o bolsa de dinero:)
+- (Condition: If the player has 2,000 coins or fewer in their backpack or money pouch:)
   - **Barman:** ¿Sí? ¿Puedo ayudarte con algo?
   - (continue)
 - [Menu]: Elige una opción:
@@ -23,12 +23,12 @@
     - **Barman:** Será 1 moneda de oro, por favor.
     - [Menu]: Selecciona una opción
       - [Choice]: Paga.
-        - (Condition: Sin al menos un espacio backpack libre:)
+        - (Condition: Without at least one free backpack space:)
           - **Barman:** No tienes espacio para tomar una cerveza.
-        - (Condition: Con al menos un espacio backpack libre:)
-          - (Condition: Si el player no tiene al menos 1 moneda:)
+        - (Condition: With at least one free backpack space:)
+          - (Condition: If the player does not have at least 1 coin:)
             - **Player:** Lo siento, parece que me he quedado sin dinero.
-          - (Condition: Si el player tiene al menos 1 moneda:)
+          - (Condition: If the player does have at least 1 coin:)
             - (removes=1 coin)
             - (receives=a beer)
             - **Barman:** Aquí tienes. Una deliciosa pinta de cerveza.
@@ -39,12 +39,12 @@
     - **Barman:** ¡Será tuyo por solo 2 gold coins!
     - [Menu]: Selecciona una opción
       - [Choice]: Paga.
-        - (Condition: Sin al menos un espacio backpack libre:)
+        - (Condition: Without at least one free backpack space:)
           - **Barman:** No tienes espacio para tomar una cerveza.
-        - (Condition: Con al menos un espacio backpack libre:)
-          - (Condition: Si el player no tiene al menos 2 coins:)
+        - (Condition: With at least one free backpack space:)
+          - (Condition: If the player does not have at least 2 coins:)
             - **Player:** Lo siento, parece que me he quedado sin dinero.
-          - (Condition: Si el player tiene al menos 2 coins:)
+          - (Condition: If the player does have at least 2 coins:)
             - (removes=2 coins)
             - (receives=a dwarven stout)
             - **Barman:** ¡Una cerveza negra enana, la mejor de todo Keldagrim!
@@ -55,12 +55,12 @@
     - **Barman:** ¡Ah, [sir/madam] tiene gusto! Una jarra de vino te costará 10 gold coins.
     - [Menu]: Selecciona una opción
       - [Choice]: Paga.
-        - (Condition: Sin al menos un espacio backpack libre:)
+        - (Condition: Without at least one free backpack space:)
           - **Barman:** No tienes espacio para llevar una jarra de vino.
-        - (Condition: Con al menos un espacio backpack libre:)
-          - (Condition: Si el player no tiene al menos 10 coins:)
+        - (Condition: With at least one free backpack space:)
+          - (Condition: If the player does not have at least 10 coins:)
             - **Player:** Lo siento, parece que me he quedado sin dinero.
-          - (Condition: Si el player tiene al menos 10 coins:)
+          - (Condition: If the player does have at least 10 coins:)
             - (receives=a jug of wine for 10 coins)
             - **Barman:** ¡Espero que [sir/madam] lo disfrute!
       - [Choice]: No pagues.

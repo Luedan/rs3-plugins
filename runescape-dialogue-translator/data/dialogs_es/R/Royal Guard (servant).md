@@ -37,9 +37,9 @@
   - [Choice]: cond=Only if not asked last|Cuéntame sobre tus trabajos anteriores.
     - (arriba)
   - [Choice]: ¡Estás contratado!
-    - (Condition: Si el player no tiene servidor:)
+    - (Condition: If the player doesn't have a servant:)
       - {{Transcript missing}}
-    - (Condition: Si el player ya tiene un servidor:)
+    - (Condition: If the player already has a servant:)
       - Ya tienes un sirviente.
 
 ### In a player-owned house
@@ -52,9 +52,9 @@
     - **Player:** ¿Puedes llevarme algo al banco?
     - **Guardia Real:** Esas tareas parecen bastante inferiores a las de una guardia al servicio de la Reina, pero lo haré. Dame el artículo.
     - [Choice]: Trae algo del banco
-    - (Condition: Si el artículo está en su banco:)
+    - (Condition: If the item is in your bank:)
     - **Guardia Real:** Aquí tienes. Servicio digno de un monarca, debo decir.
-    - (Condition: Si el artículo no está en su banco:)
+    - (Condition: If the item is not in your bank:)
     - **Guardia Real:** No tienes ninguno de esos en tu banco.
     - [Choice]: Lleva algo al aserradero.
     - **Guardia Real:** Me temo que no puedo ir al aserradero; Necesitaría un seguro adicional, ya ves.
@@ -82,19 +82,19 @@
         - [Choice]: No gracias
         - **Player:** No, gracias.
         - [Choice]: Algo más.
-    - (Condition: Vuelve al anterior.)
+    - (Condition: Returns to previous.)
     - [Choice]: Saludar a los invitados
     - **Player:** Quédese en la entrada y salude a los invitados.
     - **Guardia Real:** Si quieres. Después de todo, estoy altamente capacitado en etiqueta de saludo.
   - [Choice]: deja de seguirme
-    - (Condition: La conversación termina.)
+    - (Condition: Conversation ends.)
   - [Choice]: estas despedido
     - [Menu]: ¿De verdad quieres despedir a tu sirviente?
       - [Choice]: Sí.
         - **Player:** ¡Estás despedido!
         - **Guardia Real:** Volveré con mi monarca. Ha sido un placer.
       - [Choice]: No.
-- (Condition: Si usas huesos/cenizas en ellos)
+- (Condition: If you use bones/ashes on them)
 - **Guardia Real:** Como miembro de la Guardia de la Reina, no se me puede ver manipulando tales... objetos.
 - **Guardia Real:** Disculpe amigo, ¡no trabajo gratis! Si quieres que siga trabajando para ti, tendrás que pagarme 500 coins.
   - [Menu]: Selecciona una opción
@@ -103,7 +103,7 @@
     - [Choice]: Pague al servidor 500 coins y no vuelva a preguntar.
     - **Guardia Real:** Gracias.
     - [Choice]: No pagues.
-      - (Condition: La conversación termina.)
+      - (Condition: Conversation ends.)
     - [Choice]: Servidor de bomberos.
-- (Condition: Después de la historia de amor)
+- (Condition: After Love Story)
   - **Guardia Real:** Disculpe amigo, ¡no trabajo gratis! Si quieres que siga trabajando para ti, tendrás que pagarme 375 coins.

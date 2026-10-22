@@ -30,9 +30,9 @@
 
 - Intenta robarle el bolsillo al voluntario.
 - Recuperas un pañuelo azul y se lo devuelves al miembro de staff.
-- (Condition: Si aún se pueden ganar puntos para la semana:)
+- (Condition: If hanky points can still be gained for the week:)
   - [Ganas un punto de pañuelo.]
-- (Condition: Si no se pueden ganar más puntos de pañuelo durante la semana:)
+- (Condition: If no more hanky points can be gained for the week:)
   - Has alcanzado el número máximo de puntos de pañuelo permitidos en tu nivel.
 
 #### Puntos de control
@@ -44,13 +44,13 @@
     - (arriba)
   - [Choice]: Me gustaría reclamar una recompensa por mis puntos de pañuelo.
     - **Player:** ¡Me gustaría reclamar una recompensa por mis puntos de pañuelo!
-    - (Condition: Sin puntos complicados que reclamar:)
+    - (Condition: With no hanky points to claim:)
       - **Pickpocketing volunteer:** ¡No tienes puntos de pañuelo que reclamar! Prueba algunos de los ejercicios de entrenamiento del gremio.
-    - (Condition: Con puntos de pañuelo para reclamar:)
+    - (Condition: With hanky points to claim:)
       - **Pickpocketing volunteer:** ¡Claro! Veamos ahora...
       - (receives=Thieving XP)
       - [Obtienes [número] Thieving XP. Te quedan 0 puntos y puedes entregar hasta [número] puntos más esta semana.]
-    - (Condition: Habiendo reclamado el máximo de puntos del pañuelo de la semana:)
+    - (Condition: Having claimed the maximum hanky points for the week:)
       - **Pickpocketing volunteer:** Lo sentimos, has reclamado tantos puntos de pañuelo esta semana como puedas en tu nivel.
   - [Choice]: Adiós por ahora.
     - ** Player:** Adiós por ahora.

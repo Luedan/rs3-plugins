@@ -119,7 +119,7 @@
       - [Choice]: [Ask about something else.]
         - (previous2)
   - [Choice]: [Ask about zygomites]
-    - (Condition: La primera vez:)
+    - (Condition: On the first time:)
       - **Prehistoric Potterington:** Oh, esas pequeñas delicias están ayudando a expandir la marca Potterington, querida. Pronto estarán manchando a Potterington en todos los campos de Gielinor.
       - **Player:** Me temo que eso no me hace darme cuenta.
       - **Prehistoric Potterington:** ¡Oro marrón, querida! El fertilizante artesanal más puro, procedente de crías de dinosaurio criadas en libertad, seleccionadas a mano, alimentado únicamente con la mejor dieta de legumbres y cereales ricos en fibra.
@@ -136,22 +136,22 @@
       - **Player:** Veré qué puedo hacer.
       - **Prehistoric Potterington:** ¡No olvides traerle a Granny algunos de sus nuevos y valiosos productos!
       - ¡Felicitaciones! Has completado: 'Un par de eclosiones': después de la misión Extinción, pregúntale a Prehistoric Potterington en la granja de dinosaurios Anacronia sobre los zigomitas.
-    - (Condition: Luego, antes de haber completado la secuencia Fibbin' Archery:)
+    - (Condition: Afterwards, before having completed Fibbin' Archery Sequence:)
       - **Prehistoric Potterington:** Lo siento, querida, no puedo oírte porque no estoy metido hasta los ojos en estiércol de dinosaurio.
-      - (Condition: Sin haber completado Egg McGuffin:)
+      - (Condition: Without having completed Egg McGuffin:)
         - **Prehistoric Potterington:** Hace tiempo que no sé nada de Ben. ¿Quizás podrías encontrarlo y ayudarlo? La última vez que revisé estaba en la costa sur de la península.
         - (continue)
-      - (Condition: Sin haber completado A ver el lagarto:)
+      - (Condition: Without having completed Off to See the Lizard:)
         - **Prehistoric Potterington:** A menos que mis viejos ojos me engañen, Galgalar no está logrando mucho al lado de su incubadora al sur. Dale un empujón, ¿quieres?
         - (continue)
-      - (Condition: Sin haber completado Mycomanagement:)
+      - (Condition: Without having completed Mycomanagement:)
         - **Prehistoric Potterington:** No he olido ninguna mezcla de fertilizantes procedente de Bill. Podrás alcanzarlo con un toque de ese curioso árbol al lado de Ben.
         - (continue)
       - **Prehistoric Potterington:** Estoy seguro de que Salusan tiene algo que hacer. Ella está haciendo todo lo posible para gestionar Bill.
-    - (Condition: Después de haber completado Fibbin' Archery Sequence pero antes de haber completado la empresa conjunta Egg/Salon de Bill y Ben:)
-      - (Condition: Sin flechas del Dios anciano:)
+    - (Condition: After having completed Fibbin' Archery Sequence but before having completed completed Bill & Ben's Egg/Salon Joint Venture:)
+      - (Condition: Without Elder God arrows:)
         - **Prehistoric Potterington:** Aún no me ha llegado nada, pétalo, ¿a menos que tengas algo que mostrarme?
-      - (Condition: Con flechas del Dios anciano:)
+      - (Condition: With Elder God arrows:)
         - Le muestras a Prehistoric Potterington uno de los dinarrows imbuidos que has hecho.
         - **Prehistoric Potterington:** ¿Qué es eso Gielinor, querida?
         - **Player:** Este es un dinarrow imbuido. Lo he creado a partir de varios componentes de la expansión de su granja de fertilizantes. ¡Están propulsados ​​por cohetes y están imbuidos de la energía de los Dioses Mayores!
@@ -161,7 +161,7 @@
         - {{RSFontAchievement|Needles from Skips}}
         - {{RSFontAchievement|Bill & Ben's Egg/Salon Joint Venture}}
         - **Player:** ¡Me alegro de que estés feliz, abuela!
-    - (Condition: Después de completar la empresa conjunta Egg/Salon de Bill y Ben:)
+    - (Condition: After completing Bill & Ben's Egg/Salon Joint Venture:)
       - **Alfarería prehistórica:** ¡Todo funciona gracias a ti, querida! ¡Estoy feliz como un cerdo en el estiércol!
 
 ### Reading an Anachronia Dinosaur Farm teleport next to her
@@ -184,7 +184,7 @@
 - **Prehistoric Potterington:** El olor del éxito, mi pequeño limpwurt. Gracias por toda tu ayuda.
 - **Player:** No hay problema, abuela.
 - Al salir, no puedes evitar escuchar a Potterington murmurar para sí misma.
-- ((Sólo antes de haber completado The Plop Thicks:))
+- ((Only before having completed The Plop Thickens:))
   - Felicitaciones, ha completado: 'The Plop Thicks' - Use el fertilizante Potterington Blend #102 o el 'propulsor' de dinosaurio en Prehistoric Potterington.
   - (continue)
 - **Prehistoric Potterington:** Una mezcla inspirada de ese joven jinete dinosaurio. Eso podría lanzarle un kebbit a Kethsi.
@@ -195,7 +195,7 @@
 #### Sin cumplir los requisitos previos para las agujas de Skips
 
 - **Prehistoric Potterington:** Lo siento, querida, no puedo oírte porque no estoy metido hasta los ojos en estiércol de dinosaurio.
-- ((Si el player no le ha mostrado a Prehistoric Potterington ningún fertilizante Potterington Blend#102:))
+- ((If the player hasn't shown Prehistoric Potterington any Potterington Blend#102 Fertiliser:))
   - **Prehistoric Potterington:** No he olido ninguna mezcla de fertilizantes procedente de Bill. Podrás alcanzarlo con un toque de ese curioso árbol al lado de Ben.
   - (continue)
 - **Prehistoric Potterington:** Estoy seguro de que Salusan tiene algo que hacer. Ella está haciendo todo lo posible para gestionar Bill.
@@ -208,7 +208,7 @@
 - **Prehistoric Potterington:** ¿Mis pequeños querubines crearon eso con tu ayuda?
 - **Player:** Sí, lo hicieron.
 - **Prehistoric Potterington:** Bueno, entonces hemos entrado en nuestro próximo mercado: ¡las agujas de tejer del Dios anciano impulsadas por cohetes de la marca Potterington!
-- ((Antes de haber completado Needles de Skips y la empresa conjunta Egg/Salon de Bill y Ben:))
+- ((Before having completed Needles from Skips and Bill & Ben's Egg/Salon Joint Venture:))
   - {{RSFontAchievement|Needles from Skips}}
   - {{RSFontAchievement|Skips and Bill & Ben's Egg/Salon Joint Venture}}
   - (continue)

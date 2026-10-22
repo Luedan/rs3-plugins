@@ -153,56 +153,56 @@
 ##### Después de hablar con ella en la granja al menos una vez.
 
 - (opens=Rewards (Livid Farm))
-- (Condition: Intentar aprender un hechizo sin producir suficientes puntos:)
+- (Condition: Attempting to learn a spell without enough produce points:)
   - {{tmissing}}
-- (Condition: Intentar aprender un hechizo sin los hechizos anteriores desbloqueados:)
+- (Condition: Attempting to learn a spell without the previous spells unlocked:)
   - Necesitas aprender los hechizos en orden.
-- (Condition: Aprendiendo el hechizo Teletransportarse al Sur Falador con suficientes puntos de producción:)
+- (Condition: Learning the Teleport to South Falador spell with enough produce points:)
   - **Pauline Polaris:** ¡Me has ayudado mucho! Déjame enseñarte sobre el hechizo Teletransportarse al Sur Falador.
   - (Action: La pantalla desaparece/aparece.)
   - [¡Felicitaciones! Has aprendido a lanzar el hechizo Teletransporte al sur Falador.]
   - (opens=Rewards (Livid Farm))
-- (Condition: Aprender el hechizo Reparar bolsa de runas con suficientes puntos de producción y con los hechizos anteriores desbloqueados:)
+- (Condition: Learning the Repair Rune Pouch spell with enough produce points and with the previous spells unlocked:)
   - **Pauline Polaris:** ¡Realmente has contribuido a esta granja! Te enseñaré sobre el hechizo Reparar bolsa de runas.
   - (Action: La pantalla desaparece/aparece.)
   - [¡Felicitaciones! Has aprendido a lanzar el hechizo Reparar bolsa de runas.]
   - (opens=Rewards (Livid Farm))
-- (Condition: Aprendiendo el hechizo Teletransportarse al Norte Ardougne con suficientes puntos de producción y con los hechizos anteriores desbloqueados:)
+- (Condition: Learning the Teleport to North Ardougne spell with enough produce points and with the previous spells unlocked:)
   - **Pauline Polaris:** ¡Realmente has ayudado a marcar la diferencia! Te enseñaré sobre el hechizo Teletransportarse al Norte Ardougne.
   - (Action: La pantalla desaparece/aparece.)
   - [¡Felicitaciones! Has aprendido a lanzar el hechizo Teletransporte al norte Ardougne.]
   - (opens=Rewards (Livid Farm))
-- (Condition: Aprender el hechizo Remoto Farming con suficientes puntos de producción y con los hechizos anteriores desbloqueados:)
+- (Condition: Learning the Remote Farming spell with enough produce points and with the previous spells unlocked:)
   - **Pauline Polaris:** ¡Has trabajado mucho! Te enseñaré sobre el hechizo Remoto Farming.
   - (Action: La pantalla desaparece/aparece.)
   - [¡Felicitaciones! Has aprendido a lanzar el hechizo Remoto Farming.]
   - (opens=Rewards (Livid Farm))
-- (Condition: Aprender el hechizo de Sanación Espiritual con suficientes puntos de producción y con los hechizos anteriores desbloqueados:)
+- (Condition: Learning the Spiritual Healing spell with enough produce points and with the previous spells unlocked:)
   - **Pauline Polaris:** ¡Me has ayudado mucho! Te enseñaré sobre el hechizo de Sanación Espiritual.
   - (Action: La pantalla desaparece/aparece.)
   - [¡Felicitaciones! Has aprendido a lanzar el hechizo de curación espiritual.]
   - (opens=Rewards (Livid Farm))
-- (Condition: Aprender el hechizo Hacer cuero con suficientes puntos de producción y con los hechizos anteriores desbloqueados:)
+- (Condition: Learning the Make Leather spell with enough produce points and with the previous spells unlocked:)
   - **Pauline Polaris:** ¡Has estado haciendo un gran trabajo! Te enseñaré sobre el hechizo Hacer cuero.
   - (Action: La pantalla desaparece/aparece.)
   - [¡Felicitaciones! Has aprendido a lanzar el hechizo Hacer cuero.]
   - (opens=Rewards (Livid Farm))
-- (Condition: Aprender el hechizo Escudo de Disrupción con suficientes puntos de producción y con los hechizos anteriores desbloqueados:)
+- (Condition: Learning the Disruption Shield spell with enough produce points and with the previous spells unlocked:)
   - **Pauline Polaris:** ¡Has sido de gran ayuda! Te enseñaré sobre el hechizo Escudo de disrupción.
   - (Action: La pantalla desaparece/aparece.)
   - [¡Felicitaciones! Has aprendido a lanzar el hechizo Escudo de interrupción.]
   - (opens=Rewards (Livid Farm))
-- (Condition: Aprender el hechizo Grupo Venganza con suficientes puntos de producción y con los hechizos anteriores desbloqueados:)
+- (Condition: Learning the Vengeance Group spell with enough produce points and with the previous spells unlocked:)
   - **Pauline Polaris:** ¡Has llegado lejos en la construcción de esta granja! Te enseñaré sobre el hechizo del Grupo Venganza.
   - (Action: La pantalla desaparece/aparece.)
   - [¡Felicitaciones! Has aprendido a lanzar el hechizo Grupo Venganza.]
   - (opens=Rewards (Livid Farm))
-- (Condition: Aprender el hechizo Teletransportarse a Trollheim con suficientes puntos de producción y con los hechizos anteriores desbloqueados:)
+- (Condition: Learning the Teleport to Trollheim spell with enough produce points and with the previous spells unlocked:)
   - **Pauline Polaris:** ¡Has sido de gran ayuda! Te enseñaré sobre el hechizo Teletransportarse a Trollheim.
   - (Action: La pantalla desaparece/aparece.)
   - [¡Felicitaciones! Has aprendido a lanzar el hechizo Teletransporte a Trollheim.]
   - (opens=Rewards (Livid Farm))
-- (Condition: Aprender el hechizo Teleport Group to Trollheim con suficientes puntos de producción y con los hechizos anteriores desbloqueados:)
+- (Condition: Learning the Teleport Group to Trollheim spell with enough produce points and with the previous spells unlocked:)
   - **Pauline Polaris:** ¡Has marcado una verdadera diferencia en esta granja! Déjame enseñarte sobre el hechizo Teletransporte del grupo Trollheim.
   - (Action: La pantalla desaparece/aparece.)
   - [¡Felicitaciones! Has aprendido cómo lanzar el hechizo Teletransportar grupo a Trollheim.]
@@ -437,10 +437,10 @@
     - (continue)
   - Teletransporte de la casa
     - (continue)
-- ((Sin las runas requeridas en backpack:))
-  - ((Se muestra lo siguiente para el primer tipo de runa que falta:))
+- ((Without the required runes in backpack:))
+  - ((The following is shown for the first missing rune type:))
     - Necesitas [número] [runes] en tu inventario para configurar Borrowed Power para este hechizo.
-- ((Con las runas requeridas en backpack:))
+- ((With the required runes in backpack:))
   - (removes=runes and produce points)
   - Estableciste Potencia prestada en [Spell].
   - Estableciste Potencia prestada en [Spell].
@@ -514,15 +514,15 @@
     - **Pauline Polaris:** Si completas esto, te daré: Planta lívida x 1. ¡Estoy seguro de que también ganarás reputación en el gremio de agricultores!
     - **Pauline Polaris:** ¡Tendrás que ser rápido!, solo estoy aquí por [número] días, [número] horas y [número] minutos. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - (Condition: Sin los artículos solicitados:)
+    - (Condition: Without the requested items:)
       - **Pauline Polaris:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Pauline Polaris:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
     - **Pauline Polaris:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal].
       - **Pauline Polaris:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
-    - (Condition: Con los artículos solicitados:)
+    - (Condition: With the requested items:)
       - (removes=the requested items) (receives=livid plant and Brassica primer)
       - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - Por completar esta solicitud, recibió 1 imprimación para Brassica.
         - (continue)
       - [Has recibido: Planta lívida x 1<br>Y 5500 de reputación agrícola.]
@@ -549,7 +549,7 @@
 
 - (removes=the requested items) (receives=livid plant and Brassica primer)
 - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Por completar esta solicitud, recibió 1 imprimación para Brassica.
   - (continue)
 - [Has recibido: Planta lívida x 1<br>Y 5500 de reputación agrícola.]

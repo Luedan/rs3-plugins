@@ -24,9 +24,9 @@
 - {{anchor|service}} **Mr Mordaut:** ¿En qué puedo servirle?
 - [Menu]: Elige una opción:
   - [Choice]: [One of a Kind]
-    - (Condition: Si el player no cumple con los requisitos de la misión:)
+    - (Condition: If the player does not meet the quest requirements:)
       - **Mr Mordaut:** Lo siento muchísimo, Player, pero no tienes la experiencia suficiente para emprender esta misión.
-    - (Condition: Si el player no cumple con los requisitos de la misión:)
+    - (Condition: If the player does not meet the quest requirements:)
       - (ver|Único en su clase)
   - [Choice]: Sobre tu oficina...
     - **Player:** Se siente como si fuera más grande por dentro que por fuera...
@@ -107,19 +107,19 @@
                 - **Mr Mordaut:** 'El que puede, hace', dice el refrán. Pero no pude... ¡y por eso elegí ser maestra! Me propuse llevar a otros a su verdadero destino.
                 - (previous)
               - [Choice]: cond=If the player has not completed all four tasks|¿Qué debo investigar?
-                - (Condition: Si el player no ha hecho A Tail of Two Cats:)
+                - (Condition: If the player has not done A Tail of Two Cats:)
                   - **Mr Mordaut:** Quizás haya alguna pista en una antigua historia de heroísmo.
                   - Para hablar de esto con Mr Mordaut, debes completar la misión 'Una cola de dos gatos'.
                   - (continue)
-                - (Condition: Si el player no ha hecho Ritual del Mahjarrat:)
+                - (Condition: If the player has not done Ritual of the Mahjarrat:)
                   - **Mr Mordaut:** Es posible que algún día adquieras experiencia de primera mano.
                   - Para hablar de esto con Mr Mordaut, debes completar la misión 'Ritual del Mahjarrat'.
                   - (continue)
-                - (Condition: Si el player no ha derrotado al Rey Dragón Negro:)
+                - (Condition: If the player has not defeated the King Black Dragon:)
                   - **Mr Mordaut:** Probablemente aprenderías algo al derrotar al Rey Dragón Negro.
                   - Para hablar de esto con Mr Mordaut, debes matar al Rey Dragón Negro al menos una vez o haber recibido ya el libro 'Last Riders'.
                   - (continue)
-                - (Condition: Si el player no ha derrotado a la Reina Dragón Negro:)
+                - (Condition: If the player has not defeated the Queen Black Dragon:)
                   - **Mr Mordaut:** También puedes investigar un poco sobre la Reina Dragón Negro.
                   - ¡Para hablar de esto con Mr Mordaut, debes haber vencido a la Reina Dragón Negro al menos una vez (y haber recibido el primer diario de Kerapac)!
                   - (continue)
@@ -200,17 +200,17 @@
             - **Mr Mordaut:** Cuídate, Player.
   - [Choice]: Sitio de excavación de Orthen.
     - **Mr Mordaut:** ¡Bienvenido al sitio de excavación de Orthen!
-    - ((Sin haber alcanzado el nivel 90 Archaeology:))
+    - ((Without having reached level 90 Archaeology:))
       - Necesita 90 Archaeology para acceder a este sitio.
-    - ((Habiendo alcanzado el nivel 90 Archaeology:))
-      - ((Sólo la primera vez:))
-        - ((Si el player tiene el audio silenciado:))
+    - ((Having reached level 90 Archaeology:))
+      - ((First time only:))
+        - ((If the player has audio muted:))
           - En breve se reproducirá una escena y algunas configuraciones de audio estarán silenciadas. ¿Quieres escuchar el discurso?
             - {{transcript missing}}
-        - ((De lo contrario:))
+        - ((Otherwise:))
           - (ver|Sitio de excavación de Orthen#Escena de apertura)
-      - ((Tiempos posteriores:))
-        - ((Si el player no ha hablado con Mr Mordaut desde que resolvió Mysterious City:))
+      - ((Subsequent times:))
+        - ((If the player hasn't talked to Mr Mordaut since solving Mysterious City:))
           - (ver|Sitio de excavación de Orthen#Escena de cierre)
         - [Menu]: Selecciona una opción
           - [Choice]: ¿Por qué eres el administrador del sitio aquí?
@@ -245,55 +245,55 @@
 
 #### Misterios del sitio de excavación de Orthen
 
-- ((Si no se han descubierto misterios:))
+- ((If no mysteries have been uncovered:))
   - **Mr Mordaut:** Hmm, todavía estamos luchando por avanzar mucho para acceder a las ruinas de Orthen. Deberías dirigirte a las criptas al oeste de aquí para ver qué puedes descubrir...
-- ((Si sólo se ha descubierto un misterio:))
-  - ((Se muestra el diálogo misterioso relevante desde abajo.))
-- ((Si se ha descubierto al menos un misterio que no pertenece a la revista:))
+- ((If only one mystery has been discovered:))
+  - ((Relevant mystery dialogue from below is shown.))
+- ((If at least one non-journal mystery has been uncovered:))
   - [Menu]: ¿Qué misterio te gustaría discutir?
-    - ((Si se ha descubierto el misterio de Teleport Node On:))
+    - ((If Teleport Node On mystery has been uncovered:))
       - [Choice]: Nodo de teletransporte activado.
         - {{Main|Transcript:Teleport Node On#Talking to Mr Mordaut}}
-    - ((Si se ha descubierto el misterio de Know Thy Measure:))
+    - ((If Know Thy Measure mystery has been uncovered:))
       - [Choice]: Conoce tu medida.
         - {{Main|Transcript:Know Thy Measure#Talking to Mr Mordaut}}
-    - ((Si se ha descubierto el misterio de Memorias Fragmentadas:))
+    - ((If Fragmented Memories mystery has been uncovered:))
       - [Choice]: Recuerdos fragmentados.
         - {{Main|Transcript:Fragmented Memories#Talking to Mr Mordaut}}
-    - ((Si se ha descubierto el misterio de la Ciudad Misteriosa:))
+    - ((If Mysterious City mystery has been uncovered:))
       - [Choice]: Ciudad misteriosa.
         - {{Main|Transcript:Mysterious City#Talking to Mr Mordaut}}
-    - ((Si se ha descubierto algún misterio del diario:))
+    - ((If any journal mysteries have been uncovered:))
       - [Choice]: [More options]
 <!-- We may want to duplicate these onto the journal mystery pages and just reference it from here -->
-        - ((Si sólo se ha descubierto un misterio de entrada de diario:))
+        - ((If only one journal entry mystery has been uncovered:))
           - (below|Journal mystery dialogue)
-        - ((Si se han descubierto múltiples misterios de las entradas del diario:))
+        - ((If multiple journal entry mysteries have been uncovered:))
           - [Menu]: ¿Qué misterio te gustaría discutir?
-            - ((Si se ha descubierto el misterio de la Cripta de Zoología:))
+            - ((If the Crypt o' Zoology mystery has been uncovered:))
               - [Choice]: Cripta de Zoología.
                 - (below|Journal mystery dialogue)
-            - ((Si se ha descubierto el misterio de la Muerte:))
+            - ((If the Death mystery has been uncovered:))
               - [Choice]: Guardia de la Muerte.
                 - (below|Journal mystery dialogue)
-            - ((Si se ha descubierto el misterio de Free Your Mind:))
+            - ((If the Free Your Mind mystery has been uncovered:))
               - [Choice]: Libera tu mente.
                 - (below|Journal mystery dialogue)
-            - ((Si se ha descubierto el misterio de I Am Become Death:))
+            - ((If the I Am Become Death mystery has been uncovered:))
               - [Choice]: Me he convertido en la muerte.
                 - (below|Journal mystery dialogue)
 
 #### Diario de diálogo misterioso
 
 <!-- We may want to duplicate this onto the journal mystery pages and just reference it from here -->
-- ((Si todavía faltan algunas páginas:))
+- ((If some pages are still missing:))
   - **Mr Mordaut:** Hemos logrado algunos buenos avances, pero necesitamos encontrar más pistas.
-- ((Si se han encontrado todas las páginas:))
-  - ((Antes de resolver el misterio:))
+- ((If all pages have been found:))
+  - ((Before solving the mystery:))
     - **Mr Mordaut:** Buen trabajo, hemos encontrado todo y tomé notas en el informe del sitio.
     - ¡Obtienes [amount] Archaeology XP por completar un misterio!
     - ¡Felicitaciones! Has completado: '[Mystery]' - Resuelve este misterio.
-  - ((Después de resolver el misterio:))
+  - ((After solving the mystery:))
     - **Mr Mordaut:** Hemos encontrado todo y tomé notas en el informe del sitio.
 
 #### Escenas

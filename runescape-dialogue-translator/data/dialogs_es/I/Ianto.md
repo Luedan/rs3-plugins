@@ -16,13 +16,13 @@
 
 - **Ianto:** ¡Hola!
 - **Player:** Hola, Ianto.
-- (Condition: Sólo la primera vez:)
+- (Condition: Only on the first time:)
   - **Ianto:** ¡Estaba limpiando un poco y encontré algunas cosas que me gustaría que tuvieras!
   - **Player:** ¡Oh! ¿¡En realidad!?
   - **Ianto:** ¡Sí! ¡Conseguí equipo de gnomobola, una gran bola de gnomo, algunas coronas, un conjunto ceremonial impío y un conjunto de astromante!
   - **Player:** ¡Gracias Ianto!
   - (continue)
-- (Condition: Sin haber recogido y abierto una galleta dorada:)
+- (Condition: Without having collected and opened a Golden cracker:)
   - **Ianto:** ¡Los creadores del mundo han ganado un premio! ¡Toma una galleta, con nuestras felicitaciones!
   - [Menu]: ¿Quieres una galleta dorada?
     - [Choice]: Sí.
@@ -57,14 +57,14 @@
     - (opens=Ianto's Toy Store)
   - [Choice]: Me gustaría revisar mis artículos, por favor.
     - **Ianto:** Claro, déjame ver lo que te estás perdiendo.
-    - ((Se abre la interfaz de recuperación de artículos de Diango.))
+    - ((Diango's Item Retrieval interface opens.))
   - [Choice]: ¿Puedes comprobar si hay artículos en mi banco?
     - **Ianto:** Claro, déjame ver qué puedo quitarte de las manos.
     - **Ianto:** Revisaré los artículos que guardaré, artículos que podrían ir a la sala de disfraces de tu casa y artículos basura.
-    - ((Se abre la interfaz de limpieza de elementos.))
+    - ((Item Cleanup interface opens.))
 
 #### Canjear código
 
 - **Player:** Me gustaría canjear un código de artículo, por favor.
 - **Ianto:** Por supuesto. Aquí tienes.
-- ((Se abre la interfaz del código de canje.))
+- ((Redemption code interface opens.))

@@ -15,7 +15,7 @@
 #### Normalmente
 
 - **Bartender:** ¿En qué puedo ayudarte?
-- (Condition: Con un construction contract:)
+- (Condition: With a construction contract:)
   - [Menu]: Selecciona una opción
     - [Choice]: Preguntar por contracts
       - [Menu]: Selecciona una opción
@@ -30,15 +30,15 @@
           - (end)
     - [Choice]: pregunta sobre otra cosa
       - (below|standard)
-- (Condition: De lo contrario:)
+- (Condition: Otherwise:)
   - {{anchor|standard}}[Menú]: Seleccione una opción
     - [Choice]: Un vaso de su mejor cerveza, por favor.
       - **Player:** Un vaso de tu mejor cerveza, por favor.
       - **Bartender:** No hay problema. Serán 2 coins.
-      - (Condition: Si el player tiene suficiente dinero:)
+      - (Condition: If the player has enough money:)
         - (removes=2 coins) (receives=beer)
         - **Player:** Gracias, camarero.
-      - (Condition: Si el player no tiene suficiente dinero:)
+      - (Condition: If the player does not have enough money:)
         - No puedes permitirte eso.
         - **Bartender:** ¡Dije 2 coins! ¡No tienes 2 coins!
         - **Player:** Lo siento, volveré otro día.
@@ -64,11 +64,11 @@
 #### Con el pergamino de pistas que requiere hablar con él.
 
 - (removes=the old clue scroll (easy))
-- ((Si el rastro continúa:))
+- ((If the trail continues:))
   - (receives=a new clue scroll (easy))
   - [¡El barman te ha dado tu siguiente pergamino de pistas!]
   - (continue)
-- ((Si el sendero termina:))
+- ((If the trail ends:))
   - (receives=reward casket (easy))
   - [¡Has encontrado un ataúd!]
   - (continue)
@@ -83,8 +83,8 @@
 - **Bartender:** Déjame intentarlo.
 - (removes=keg of mead) (receives=50 nectar)
 - (ver|néctar)
-- ((Se muestra en una ventana emergente:))
-  - (Ventana emergente: encontrarás 50 x néctar cuando entregas el barril de hidromiel.|color=#00FF00)
+- ((Shown in a pop-up:))
+  - (Pop-up: You find 50 x Nectar as you hand over the keg of mead.|colour=#00FF00)
   - (continue)
 - **Camarero:** Hmm...
 - **Bartender:** Mejor que el último lote...
@@ -98,10 +98,10 @@
 - [Menu]: Selecciona una opción
   - [Choice]: Un vaso de tu mejor cerveza.
     - **Bartender:** Son dos zemomarks.
-    - (Condition: Si el player no tiene suficientes zemomarks:)
+    - (Condition: If the player does not have enough zemomarks:)
       - **Bartender:** Sin dinero, sin cerveza.
       - (initial)
-    - (Condition: Si el player tiene suficientes zemomarks:)
+    - (Condition: If the player has enough zemomarks:)
       - (removes=two zemomarks) (receives=beer)
       - **Barman:** Disfruten.
       - (initial)

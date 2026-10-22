@@ -11,20 +11,20 @@
 
 ### Leaving the barber chair
 
-- ((Si un jugador todavía está trabajando en ellos:))
+- ((If a player is still working on them:))
   - **Player:** {{RSChat|Another satisfied customer!}}
   - (continue)
-- ((Si el cigomita no recibió ningún servicio:))
+- ((If the zygomite received no service:))
   - **Departing zygomite:** {{RSChat|I can't wait any longer!}}
-- ((Si el cigomita recibió servicio de 1 a 9 veces:))
+- ((If the zygomite received service 1–9 times:))
   - **Departing zygomite:** {{RSChat|You tried!}}
-- ((Si el cigomita recibió servicio entre 10 y 19 veces:))
+- ((If the zygomite received service 10–19 times:))
   - **Departing zygomite:** {{RSChat|I think I like it? I guess.}}
-- ((Si el cigomita recibió servicio entre 20 y 29 veces:))
+- ((If the zygomite received service 20–29 times:))
   - **Departing zygomite:** {{RSChat|Thanks. I'll be back!}}
-- ((Si el cigomita recibió servicio entre 30 y 49 veces:))
+- ((If the zygomite received service 30–49 times:))
   - **Departing zygomite:** {{RSChat|I feel like a new mushroom!}}
-- ((Si el cigomita recibió servicio entre 50 y 100 veces:))
+- ((If the zygomite received service 50–100 times:))
   - **Departing zygomite:** {{RSChat|Lovely! Thank you.}}
-- ((Si el cigomita recibió servicio más de 100 veces:))
+- ((If the zygomite received service over 100 times:))
   - **Departing zygomite:** {{RSChat|I feel so pampered!}}

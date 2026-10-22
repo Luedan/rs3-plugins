@@ -37,11 +37,11 @@
             - **Player:** No creo que esto sea para mí.
             - **Faruq:** Eso es una pena. Estaré aquí si cambias de opinión.
   - [Choice]: cond=After Carnillean Rising|¿Puedo tener un cofre del tesoro?
-    - (Condition: Si el player ya tiene un cofre del tesoro:)
+    - (Condition: If the player already has a treasure chest:)
       - **Player:** ¿Puedo tener un cofre del tesoro?
       - **Faruq:** No, solo puedes tener un cofre a la vez. ¿Puedo interesarte en mis otros productos?
       - (previous)
-    - (Condition: De lo contrario:)
+    - (Condition: Otherwise:)
       - (receives=Treasure chest (Carnillean Rising))
       - [Faruq te regala un cofre del tesoro.]
       - **Faruq:** Ahora, ¿puedo interesarte por mis otros productos?

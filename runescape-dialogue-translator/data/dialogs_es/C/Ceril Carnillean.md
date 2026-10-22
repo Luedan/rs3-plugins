@@ -46,7 +46,7 @@
       - **Ceril Carnillean:** Se ha ido a la colonia Piscatoris Fishing, al norte de Eagles' Peak.
     - *Si eres el próximo elegible para reclamar la lámpara XP de entrada a TzHaar Fight Caves*
       - **Ceril Carnillean:** Ha bajado de un volcán para visitar un lugar llamado Fight Cave.
-    - (Condition: Si eres el próximo elegible para reclamar la lámpara City of Um:)
+    - (Condition: If you are next eligible to claim the City of Um lamp:)
       - **Ceril Carnillean:** Está en un intercambio cultural para aprender más sobre los no-muertos del inframundo.
   - No gracias.
     - **Ceril Carnillean:** Muy bien.

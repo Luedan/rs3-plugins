@@ -38,7 +38,7 @@
         - **Capitán:** Hanto es un lugar deprimente. Apenas se puede respirar a través del humo de las fábricas. El kan gobernante ejecuta públicamente a su pueblo.
         - **Capitán:** Sí, este puerto me recuerda a Hanto.
   - [Choice]: Deberíamos hablar de tu uniforme...
-    - ((Se abre la interfaz de personalización del Capitán.))
+    - ((Captain Customisation interface opens.))
 
 #### Accesible
 
@@ -74,7 +74,7 @@
       - (Respuesta 4 :)
         - **Capitán:** Deberíamos tomar una cerveza en algún momento. Relájate e intercambia historias.
   - [Choice]: Deberíamos hablar de tu uniforme...
-    - ((Se abre la interfaz de personalización del Capitán.))
+    - ((Captain Customisation interface opens.))
 
 #### Calma
 
@@ -105,7 +105,7 @@
       - (Respuesta 4 :)
         - **Capitán:** ¿Escuchaste eso? Es el sonido del océano. Las islas Wushanko nos susurran.
   - [Choice]: Deberíamos hablar de tu uniforme...
-    - ((Se abre la interfaz de personalización del Capitán.))
+    - ((Captain Customisation interface opens.))
 
 #### Excéntrico
 
@@ -144,7 +144,7 @@
         - **Capitán:** La verdad es que nunca le he visto el sentido. Navego usando mi nariz.
         - **Capitán:** Huele un poco y navega en la dirección que huela menos salada. Nunca me decepciones en todos mis años de navegación.
   - [Choice]: Deberíamos hablar de tu uniforme...
-    - ((Se abre la interfaz de personalización del Capitán.))
+    - ((Captain Customisation interface opens.))
 
 #### exuberante
 
@@ -188,7 +188,7 @@
         - **Capitán:** Allí estábamos, camino al Velo Iluminado por el Sol, cuando de repente empiezan a invadir las cubiertas.
         - **Capitán:** Lo único que podemos hacer es bajar a la bodega y esperar que pasen. Los sangradores se adhirieron por todo el barco; cada centímetro del casco estaba cubierto.
   - [Choice]: Deberíamos hablar de tu uniforme...
-    - ((Se abre la interfaz de personalización del Capitán.))
+    - ((Captain Customisation interface opens.))
 
 #### Vicioso
 
@@ -227,5 +227,5 @@
         - **Player:** ¿Qué pasó?
         - **Capitán:** Bueno, no habían contado con que mi ropa interior hiciera un garrote tan excelente, eso es seguro.
   - [Choice]: Deberíamos hablar de tu uniforme...
-    - ((Se abre la interfaz de personalización del Capitán.))
+    - ((Captain Customisation interface opens.))
 {{Player-owned port}}

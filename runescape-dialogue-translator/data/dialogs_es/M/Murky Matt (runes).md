@@ -39,9 +39,9 @@
     - **Murky Matt (runas):** ¡Tenemos un marinero de tierra severo aquí! Bueno, déjame decirte que estoy aquí para el Grand Exchange. ¡Voy a cobrar mi botín!
     - **Player:** ¿No quieres simplemente venderlo en una tienda o canjeárselo a alguien específico?
     - **Murky Matt (runas):** ¡Por mis huesos golpeados por las olas! ¡No cuando puedo vender a todo el mundo desde este mismo lugar!
-    - (Condition: Si no se ha completado la Diplomacia Lunar:)
+    - (Condition: If Lunar Diplomacy has not been completed:)
       - (initial)
-    - (Condition: Si se ha completado la Diplomacia Lunar:)
+    - (Condition: If Lunar Diplomacy has been completed:)
       - **Player:** ¡Ustedes, los piratas, no son más que problemas! ¡Vaya, una vez viajé a Lunar Isle con un grupo de tu tipo y pasé días navegando en círculos!
       - **Murky Matt (runas):** ¡Entonces debes conocerme hermano! ¡Murky Pat!
       - **Player:** Mmmm. No estoy tan seguro de recordarlo.
@@ -51,14 +51,14 @@
       - (initial)
   - [Choice]: Cuéntame sobre los precios de las runas.
     - **Player:** Cuéntame sobre los precios de las runas.
-    - ((Precios guía: se abre Runas.))
+    - ((Guide Prices: Runes opens up.))
   - [Choice]: Combina las cargas de mis joyas de teletransporte, por favor.{{anchor|combine}}
     - **Player:** Combina los cargos de mis joyas de teletransporte, por favor.
-      - (Condition: Si no hay nada que combinar:)
+      - (Condition: If there is nothing to combine:)
         - **Murky Matt (runas):** Arrr, no hay nada en tu inventario que pueda combinar.
-      - (Condition: Si backpack de el player está vacío:)
+      - (Condition: If the player's backpack is empty:)
         - **Murky Matt (runas):** ¡Arrr! ¡Tus bolsillos están tan vacíos como un barco fantasma en un exorcismo!
-      - (Condition: Con joyas para combinar:)
+      - (Condition: With jewellery to combine:)
         - (Las joyas en backpack tienen sus cargos combinados).
         - **Murky Matt (runas):** Arrr, todo listo.
         - **Player:** ¡Gracias!
@@ -75,7 +75,7 @@
 
 #### Opción de runas de información
 
-- ((Precios guía: se abre Runas.))
+- ((Guide Prices: Runes opens up.))
 
 ### Overhead dialogue
 

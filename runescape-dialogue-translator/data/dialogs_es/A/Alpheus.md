@@ -11,7 +11,7 @@
 
 ### Building the Anachronia lodestone
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only on first time:)
   - **Alpheus:** Mr Mordaut mencionó que Wizards' Guild tiene un gran interés en extender su red lodestone hasta aquí.
   - **Alpheus:** Una vez que hayamos reunido suficientes recursos, ellos podrán hacer el resto para activarlo.
   - **Alpheus:** Personalmente estoy deseando que lo construyan, ya que hay cierto puesto de sándwiches en Ardougne que me encantaría volver a visitar.
@@ -47,11 +47,11 @@
 
 #### Inicialmente
 
-- (Condition: Si el player no tiene la pieza tótem en backpack:)
+- (Condition: If the player doesn't have the totem piece in backpack:)
   - **Eliza:** ¿Cuál es esa lectura de energía? ¿Has estado en contacto con algún artefacto mágico recientemente?
   - **Player:** ¿Encontré un trozo de tótem en la isla? ¿Podría ser eso?
   - (Action: continuar|descubrimiento)
-- (Condition: Si el player tiene la pieza tótem en backpack:)
+- (Condition: If the player has the totem piece in backpack:)
   - **Eliza:** ¿Qué tienes en tu backpack, Player? Está enviando nuestras lecturas de energía fuera del gráfico.
   - **Player:** ¿Te refieres a esto?
   - Muestras a los arqueólogos el tótem que descubriste.

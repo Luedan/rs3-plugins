@@ -25,40 +25,40 @@
     - (initial)
   - Me gustaría hacer una donación al Santa Secreto.
     - **Sir Desmond Wellingtons KBE:** ¡Qué muy divertido de tu parte, muy divertido de verdad!
-    - ((Si el player no está en modo Ironman:))
-      - ((Se abre la interfaz de donación de regalos.))
-    - ((Si el player está en modo Ironman:))
+    - ((If the player isn't in Ironman Mode:))
+      - ((Gift Donation interface opens.))
+    - ((If the player is in Ironman Mode:))
       - Como Ironman no puedes participar de la mayor alegría de todas: dar regalos. Todas las donaciones de Ironmen serán destruidas en una explosión controlada de acuerdo con las reglas de enfrentamiento estándar de Ironman. Cualquier residuo restante será destruido en una segunda explosión, más grande. Tu riqueza no se transferirá a otros jugadores, pero podrás recibir títulos cosméticos por tus donaciones y progreso en tareas relacionadas con la pista de yak.
       - ¿Aún te gustaría donar artículos?
         - Sí.
-          - ((Se abre la interfaz de donación de regalos.))
+          - ((Gift Donation interface opens.))
         - Sí y no me vuelvas a preguntar.
-          - ((Se abre la interfaz de donación de regalos.))
+          - ((Gift Donation interface opens.))
         - No.
           - (end)
   - Me gustaría reclamar un regalo del Papá Noel secreto.
     - **Sir Desmond Wellingtons KBE:** Di tu nombre y rango y comprobaré si tengo algo para ti.
-    - ((Si el player no ha reclamado un regalo en las últimas 2 horas:))
-      - ((Se abre la interfaz de reclamo de regalo.))
-      - ((Si el player se retira o cierra la interfaz de reclamo de obsequios sin aceptar ni depositar los obsequios:))
+    - ((If the player has not claimed a gift in the last 2 hours:))
+      - ((Gift Claim interface opens.))
+      - ((If the player walks away or otherwise closes the gift claim interface without taking or banking the gift(s):))
         - {{Colour|#036|WARNING:|#fff9}} Si cierras sesión, los artículos del cofre de recompensas se moverán a tu inventario o banco. Si ambos lugares están llenos, perderás los artículos.
     - *(Si el player ha reclamado un regalo en las últimas 2 horas:)*
-      - ((Con más de una hora de tiempo de reutilización restante:))
+      - ((With over an hour of cooldown left:))
         - color=#AE0000
-      - ((Con entre un minuto y una hora de tiempo de reutilización restante:))
+      - ((With between a minute and an hour of cooldown left:))
         - color=#AE0000
-      - ((Con menos de un minuto de tiempo de reutilización restante:))
+      - ((With less than a minute of cooldown left:))
         - color=#AE0000}}
   - ¿Puedes contarme sobre el progreso de mi recompensa diaria?
-    - ((Sin haber alcanzado el valor de 100.000 diarios:))
+    - ((Without having reached the daily 100,000 value:))
       - **Sir Desmond Wellingtons KBE:** Debes donar artículos por un valor total de al menos [número] coins para recibir una recompensa diaria. Debes donar lo suficiente para reclamar una recompensa diaria en [número] días más para recibir el título de Secret Santa.
       - (initial)
-    - ((Habiendo alcanzado el valor de 100.000 diarios:))
+    - ((Having reached the daily 100,000 value:))
       - **Sir Desmond Wellingtons KBE:** Has donado suficiente riqueza para recibir tu recompensa diaria hoy. Si no lo has recibido de mí, puedes reclamarlo como reclamarías un regalo estándar de Secret Santa.
-      - ((Sin Secret Santa desbloqueado:))
+      - ((Without Secret Santa unlocked:))
         - **Sir Desmond Wellingtons KBE:** Debes donar lo suficiente para reclamar una recompensa diaria en [número] días más para recibir el título de Papá Noel Secreto.
         - (initial)
-      - ((Con el Papá Noel secreto desbloqueado:))
+      - ((With Secret Santa unlocked:))
         - **Sir Desmond Wellingtons KBE:** Has donado artículos de valor suficiente en suficientes días para recibir el título de Papá Noel Secreto.
         - (initial)
 

@@ -61,7 +61,7 @@
 #### Tiempos posteriores
 
 - **Aurriel:** ¿Sí?
-- (Condition: Si el player ha perdido su amuleto Stonevein:)
+- (Condition: If the player has lost their stonevein amulet:)
   - [Menu]: ¿Quieres recuperar tu amuleto?
     - [Choice]: Sí.
       - **Player:** He perdido el amuleto que me diste.
@@ -109,11 +109,11 @@
     - (previous)
   - [Choice]: ¿Podría tener otra piedra?
     - **Player:** ¿Podría darme otra piedra?
-    - (Condition: Ya con una piedra de la memoria:)
+    - (Condition: With a memory stone already:)
       - **Aurriel:** Ya tienes uno.
       - **Aurriel:** Usa eso primero. Preferiría no tenerlos esparcidos descuidadamente.
       - (end)
-    - (Condition: Sin piedra de la memoria:)
+    - (Condition: Without a memory stone:)
       - **Aurriel:** Por supuesto.
       - **Aurriel:** Procura que éste llegue a tiempo a un mural.
       - (receives=a memory stone)

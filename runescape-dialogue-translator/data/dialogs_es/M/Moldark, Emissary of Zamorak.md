@@ -45,7 +45,7 @@
   - **Moldark, Emissary of Zamorak:** Sin embargo, el libro aún no está completo. Cuando completes algunos trabajos te daré más páginas.
   - (receives=Book of the Gods)
   - [El emisario te entrega el Libro de los Dioses.]
-  - (Condition: Si está en mundos gratuitos:)
+  - (Condition: If in free-to-play worlds:)
     - [El libro está actualmente incompleto. Puedes ganar más páginas haciendo trabajos para el emisario, que solo están disponibles en los mundos de los miembros.]
     - (previous)
 
@@ -57,7 +57,7 @@
   - [Choice]: ¿Puedes contarme sobre Zamorak?
     - (continuea|whoiszamorak)
   - [Choice]: ¿Tienes algún trabajo para mí?
-    - (Condition: Si está en mundos gratuitos:)
+    - (Condition: If in free-to-play worlds:)
       - [¡Los trabajos de emisario de Dios solo se pueden realizar en los mundos de un miembro!]
       - (previous)
     - (ver|God Emissaries)
@@ -66,7 +66,7 @@
 
 ### Treasure Trails
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only the first time:)
   - **Moldark, Emissary of Zamorak:** ¿Qué quieres de mí?
   - **Player:** ¿Puedes ayudarme con este rastro del tesoro?
   - **Moldark, Emissary of Zamorak:** ¡Solo si demuestras tu valía respondiendo esta pregunta!
@@ -77,22 +77,22 @@
 
 - **Moldark, Emissary of Zamorak:** Ingrese la respuesta a la pregunta.
 - Ingrese la cantidad:<br>[Input field]
-- (Condition: Cuando se le da la respuesta incorrecta:)
+- (Condition: When given the wrong answer:)
   - **Moldark, Emissary of Zamorak:** ¡Mal!
-- (Condition: Cuando se le da la respuesta correcta:)
+- (Condition: When given the correct answer:)
   - (removes=the clue scroll (medium) y desplazamiento de desafío (medio))
-  - (Condition: Si el rastro continúa:)
+  - (Condition: If the trail continues:)
     - (receives=a new clue scroll (medium))
     - [¡Moldark te ha dado otro pergamino de pistas!]
     - (continue)
-  - (Condition: Si el sendero termina:)
+  - (Condition: If the trail ends:)
     - (receives=reward casket (medium))
     - [¡Has encontrado un ataúd!]
     - (continue)
-  - (Condition: Si la respuesta correcta fue 7 antes del Ritual del Mahjarrat:)
+  - (Condition: If the correct answer was 7 before Ritual of the Mahjarrat:)
     - **Moldark, Emissary of Zamorak:** ¡Correcto!
-  - (Condition: Si la respuesta correcta fue 7 después del Ritual del Mahjarrat:)
+  - (Condition: If the correct answer was 7 after Ritual of the Mahjarrat:)
     - **Moldark, Emissary of Zamorak:** Así era, antes de la quema. ¿Sabes que? Lo contaré como un pase.
-  - (Condition: Si la respuesta correcta fue 3 después del Ritual del Mahjarrat:)
+  - (Condition: If the correct answer was 3 after Ritual of the Mahjarrat:)
     - **Moldark, Emissary of Zamorak:** Correcto. Eso es todo lo que queda ahora. Tanta muerte...
 Categoría:God Emissaries

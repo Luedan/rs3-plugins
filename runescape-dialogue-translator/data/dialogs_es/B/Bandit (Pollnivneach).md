@@ -23,7 +23,7 @@
 
 ### Pickpocket
 
-- (Condition: Si el player es atrapado)
+- (Condition: If the player is caught)
   - **Bandido:** {{RSChat|What do you think you're doing?}}
   - No logras robarle el bolsillo al bandido.
   - Has quedado atónito.
@@ -31,10 +31,10 @@
 ### Lure
 
 - **Player:** Psst.  Aquí quiero mostrarles algo.
-- (Condition: Si el bandido se deja engañar:)
+- (Condition: If the bandit is fooled:)
   - **Bandido:** ¿Qué pasa?
   - **Player:** ¡Es una sorpresa! Sígueme.
-- (Condition: Si el bandido no se deja engañar:)
+- (Condition: If the bandit is not fooled:)
   - **Bandido:** ¡Vete! Estoy ocupado.
 
 ### Knock-Out

@@ -27,7 +27,7 @@
 - **Player:** Podría intentarlo...
 - ¿Intentar resolver el hechizo vinculante?
   - Sí.
-    - ((Se abre el rompecabezas.))
+    - ((Puzzle opens.))
   - Todavía no.
     - (end)
 
@@ -37,7 +37,7 @@
 - **Player:** ¿En serio?
 - ¿Intentar resolver el hechizo vinculante?
   - Sí.
-    - ((Se abre el rompecabezas.))
+    - ((The puzzle opens.))
   - Todavía no.
     - (end)
 
@@ -47,7 +47,7 @@
 - **Player:** ¿Estás atascado otra vez? ¿Cómo?
 - ¿Intentar resolver el hechizo vinculante?
   - Sí.
-    - ((Se abre el rompecabezas.))
+    - ((The puzzle opens.))
   - Todavía no.
     - (end)
 
@@ -57,7 +57,7 @@
 - **Player:** Cuatro veces ya.
 - ¿Intentar resolver el hechizo vinculante?
   - Sí.
-    - ((Se abre el rompecabezas.))
+    - ((The puzzle opens.))
   - Todavía no.
     - (end)
 
@@ -67,7 +67,7 @@
 - **Player:** Eres un experto en meterte en situaciones difíciles...
 - ¿Intentar resolver el hechizo vinculante?
   - Sí.
-    - ((Se abre el rompecabezas.))
+    - ((The puzzle opens.))
   - Todavía no.
     - (end)
 
@@ -77,7 +77,7 @@
 - **Player:** ¿Estás haciendo esto a propósito ahora?
 - ¿Intentar resolver el hechizo vinculante?
   - Sí.
-    - ((Se abre el rompecabezas.))
+    - ((The puzzle opens.))
   - Todavía no.
     - (end)
 
@@ -87,7 +87,7 @@
 - **Player:** Esto es un poco ridículo, ¿no?
 - ¿Intentar resolver el hechizo vinculante?
   - Sí.
-    - ((Se abre el rompecabezas.))
+    - ((The puzzle opens.))
   - Todavía no.
     - (end)
 

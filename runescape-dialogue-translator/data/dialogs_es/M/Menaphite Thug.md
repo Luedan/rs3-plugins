@@ -26,7 +26,7 @@
 
 ### Pickpocket
 
-- (Condition: Si el player es atrapado)
+- (Condition: If the player is caught)
   - **Menaphite Thug:** {{RSChat|What do you think you're doing?}}
   - No logras robarle el bolsillo al menafita.
   - Has quedado atónito.
@@ -34,10 +34,10 @@
 ### Lure
 
 - **Player:** Psst.  Aquí quiero mostrarles algo.
-- (Condition: Si el menafita se deja engañar:)
+- (Condition: If the Menaphite is fooled:)
   - **Menaphite Thug:** ¿Qué es?
   - **Player:** ¡Es una sorpresa! Sígueme.
-- (Condition: Si el menafita no se deja engañar:)
+- (Condition: If the Menaphite is not fooled:)
   - **Menaphite Thug:** ¡Vete! Estoy ocupado.
 
 ### Knock-Out

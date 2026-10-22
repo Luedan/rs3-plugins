@@ -25,7 +25,7 @@
 - **Player** No importa.
 - **Player** Entonces, ¿qué es exactamente la Ley de Cole?
 - **Dr. Cole** Bueno, déjame explicarte...
-- ((La pantalla se desvanece y vuelve a aparecer.))
+- ((Screen fades out and back in.))
 - Varias horas después...
 - **Dr. Cole** ¡Eso es! Sencillo, ¿no?
 - **Player** Claro...
@@ -42,31 +42,31 @@
 - **Dr. Cole** ¿Qué recompensa te gustaría?
 - Seleccione una recompensa
   - El anillo de la col
-    - ((Si el player tiene un bosón repollo en su inventario:))
+    - ((If the player has a cabbage boson in their inventory:))
       - **Dr. Cole** ¡Por supuesto!
       - Dr. Cole te entrega tu recompensa.
       - Dr. Cole se come el bosón Col.
       - **Dr. Cole** Interesante, mi comprensión crece.
       - **Player** ...
-    - ((De lo contrario:))
+    - ((Otherwise:))
       - **Dr. Cole** Me temo que no puedo ofrecerte esta recompensa a menos que tengas un bosón repollo para mí.
   - El anillo de los raros
-    - ((Si el player tiene un bosón repollo en su inventario:))
+    - ((If the player has a cabbage boson in their inventory:))
       - **Dr. Cole** ¡Por supuesto!
       - Dr. Cole te entrega tu recompensa.
       - Dr. Cole se come el bosón Col.
       - **Dr. Cole** Interesante, mi comprensión crece.
       - **Player** ...
-    - ((De lo contrario:))
+    - ((Otherwise:))
       - **Dr. Cole** Me temo que no puedo ofrecerte esta recompensa a menos que tengas un bosón repollo para mí.
   - El título de Repollo Slayer
-    - ((Si el player tiene un bosón Cabbage en su inventario:))
+    - ((If the player has a Cabbage boson in their inventory:))
       - **Dr. Cole** ¡Por supuesto!
       - Dr. Cole te otorga el título The Cabbage Slayer.
       - Dr. Cole se come el bosón Col.
       - **Dr. Cole** Interesante, mi comprensión crece.
       - **Player** ...
-    - ((De lo contrario:))
+    - ((Otherwise:))
       - **Dr. Cole** Me temo que no puedo ofrecerte esta recompensa a menos que tengas un bosón repollo para mí.
   - 120 Archaeology
     - **Dr. Cole** Lo siento mucho, pero sólo puedo ofrecer esta recompensa a expertos en arqueología.

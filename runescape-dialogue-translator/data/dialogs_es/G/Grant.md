@@ -8,7 +8,7 @@
 
 ## Dialogue Transcript
 
-- ((Uno de los siguientes se ve al azar:))
+- ((One of the following is seen randomly:))
   - **Grant:** {{RSChat|*hic*}}
   - **Grant:** {{RSChat|Ah, the Alms...}}
   - **Grant:** {{RSChat|Alright, mate?}}

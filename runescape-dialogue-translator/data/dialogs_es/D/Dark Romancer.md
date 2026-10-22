@@ -20,23 +20,23 @@
 - [Trae Dark Romancer Love Letters antes de que finalice el 17 de febrero para avanzar hacia el título y las variantes de color de 'The Hater', así como uno de los siguientes:]
 - [Aumento de XP del 20 % durante +5 minutos (hasta 60 minutos como máximo).<br> Aumento de quema de XP adicional del 25 % +5 minutos (hasta 60 minutos como máximo).<br>250x Corazones.]
 - [Si no quieres entregar cartas de amor, o Dark Romancer se ha ido, puedes romperlas, lo que otorga un aumento de XP del 5 % durante +5 minutos (hasta 60 minutos como máximo) a todos los jugadores que las vean.]
-- (Condition: Sin cartas de amor:)
+- (Condition: Without Love Letters:)
   - **Player:** Si encuentro alguno, ¡te lo traeré!
   - **Dark Romancer:** ¡Gracias!
-- (Condition: Con Cartas de Amor:)
+- (Condition: With Love Letters:)
   - (continue|I've)
 
 ### Give Love Letter
 
 - **Player:** Tengo algo que darte.
-- (Condition: Sin cartas de amor:)
+- (Condition: Without Love Letters:)
   - No tienes una Carta de Amor para dar.
-  - (ventana emergente)
-    - (Ventana emergente: No tienes una carta de amor para regalar).
-- (Condition: Con Cartas de Amor:)
+  - (pop-up)
+    - (Pop-up: You do not have a Love Letter to give.)
+- (Condition: With Love Letters:)
   - {{Tinput|How many letters do you want to give?}}
-  - (Condition: Después de ingresar un número positivo:)
-    - ((Se selecciona un diálogo aleatorio entre los siguientes y luego continúa a continuación:))
+  - (Condition: After entering a positive number:)
+    - ((A random dialogue is selected from the following, then continues below:))
       - **Dark Romancer:** No puedo esperar para quemar esto.
       - **Dark Romancer:** ¡Bien!
       - **Dark Romancer:** Oh, está bien.
@@ -45,7 +45,7 @@
     - **Dark Romancer:** ¡Gracias, supongo! Toma, toma esto.
     - [Menu]: ¿Qué te gustaría (por 1 letra)?
       - [Choice]: +20 % de XP durante +5 minutos (hasta 60 minutos como máximo)
-        - (Condition: Si el player ya está recibiendo un aumento de XP del +5 % al presenciar cómo se rompe una carta de amor:)
+        - (Condition: If the player is already receiving a +5% XP boost from witnessing a love letter being ripped up:)
           - Tienes un aumento activo de XP del 5% al presenciar una estafa de Love Letter. Activar esto borrará el impulso actual.
           - [Menu]: ¿Continuar?
             - [Choice]: Sí.
@@ -54,13 +54,13 @@
               - (end)
         - (removes=the chosen number of love letters)
         - Ahora tienes un aumento de XP del 20 % durante los minutos [número] y los segundos [número].
-        - ((Repetido en una ventana emergente:))
-          - (Ventana emergente: ahora tienes un aumento de XP del 20 % durante los minutos [número] y los segundos [número].|color=#63D21D)
+        - ((Repeated in a pop-up:))
+          - (Pop-up: You now have a 20% XP boost for [number] minutes and [number] seconds.|colour=#63D21D)
       - [Choice]: +25 % de bonificación de XP quemada durante +5 minutos (hasta 60 minutos como máximo)
         - (removes=the chosen number of love letters)
         - Ahora tienes un aumento de quema de XP adicional del 25 % durante [número] minutos y [número] segundos.
-        - ((Repetido en una ventana emergente:))
-          - (Ventana emergente: ahora tienes un aumento de quema de XP adicional del 25 % durante [número] minutos y [número] segundos.|color=#63D21D)
+        - ((Repeated in a pop-up:))
+          - (Pop-up: You now have a 25% Bonus XP burn boost for [number] minutes and [number] seconds.|colour=#63D21D)
       - [Choice]: 250x corazones
         - (removes=the chosen number of love letters) (receives=250 heartments per letter handed in)
         - Obtienes corazones [número].
@@ -75,7 +75,7 @@
 ##### Al entregar la quinta carta
 
 - ¡Felicitaciones! Has desbloqueado: el Hater. Sus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - (Ventana emergente: ¡Felicitaciones! Has desbloqueado: el Hater. Tus nuevos elementos se pueden encontrar en la interfaz de personalizaciones.|color=#00FF00)
 
 ##### Entre cinco y diez letras
@@ -85,7 +85,7 @@
 ##### Al dar la décima carta
 
 - ¡Felicitaciones! Has desbloqueado: el Hater (gris). Sus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - (Ventana emergente: ¡Felicitaciones! Has desbloqueado: el Hater (gris). Tus nuevos elementos se pueden encontrar en la interfaz de personalizaciones.|color=#00FF00)
 
 ##### Entre diez y veinte letras
@@ -95,5 +95,5 @@
 ##### Al entregar la vigésima carta
 
 - ¡Felicitaciones! Has desbloqueado: el Hater (rojo y gris). Sus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - (Ventana emergente: ¡Felicitaciones! Has desbloqueado: el Hater (rojo y gris). Tus nuevos elementos se pueden encontrar en la interfaz de personalizaciones.|color=#00FF00)

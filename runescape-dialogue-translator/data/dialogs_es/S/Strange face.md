@@ -49,7 +49,7 @@
 
 #### Diálogo por primera vez
 
-- (Condition: Bajo el nivel de combate 110:)
+- (Condition: Under combat level 110:)
   - [Se recomienda un nivel de combate de 110 o superior para este contenido.]
   - [Menu]: ¿Desea continuar?
     - [Choice]: si
@@ -213,11 +213,11 @@
     - (Se abre la interfaz "Logros y recompensas").
   - [Choice]: ¿Puedo tener un medallón de dominio?
     - **Player:** ¿Puedo tener un medallón de dominio?
-    - (Condition: Si el player no tiene medallón de dominio:)
+    - (Condition: If the player does not have a dominion medallion:)
       - [The face tose un medallón de dominio. Ten en cuenta que el medallón aumentará tus estadísticas de combate cuando estés en una arena, pero cuando lo elimines, te quitará cualquier mejora que tengas.]
       - (el player recibe su mejor versión del medallón Dominion).
       - **Strange face:** Ahí. Frota el medallón y te traerá de vuelta aquí.
-    - (Condition: Si el player tiene un medallón de dominio:)
+    - (Condition: If the player has a dominion medallion:)
       - **Strange face:** Ya tienes uno.
     - (initial|subsequent-options)
   - [Choice]: ¿Puedes contarme más sobre la historia de la torre?

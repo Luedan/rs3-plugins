@@ -106,11 +106,11 @@
 - **Asgarnia Smith:** ¡Para su equipo de investigación! Soy un profesor con MUCHA experiencia de campo.
 - **Player:** Supongo que no haría daño.
 - **Asgarnia Smith:** ¡Genial! Pero primero necesitaré algo... ¡Un megahitter nuestrog restaurado de Warforge!
-- ((Si no tienes un megahitter nuestro restaurado:))
+- ((If you don't have a restored ourg megahitter:))
   - **Player:** Está bien, entonces haré eso, supongo...
   - **Asgarnia Smith:** Mientras espero, charlemos.
-  - ((Continúa con el diálogo estándar después de los saludos.))
-- ((Si tienes un megahitter nuestro restaurado:))
+  - ((Continues with standard dialogue after the greetings.))
+- ((If you have a restored ourg megahitter:))
   - **Player:** Bueno, da la casualidad de que...
   - **Asgarnia Smith:** ¡Lo aceptaré! Es decir, um, si me lo das... jefe.
   - ¿Darle nuestro megahitter a Asgarnia Smith?
@@ -121,4 +121,4 @@
     - No.
       - **Player:** Oh, espera, lo siento, puede que necesite esto para otra cosa. Déjame volver contigo.
       - **Asgarnia Smith:** Mientras espero, charlemos.
-      - ((Continúa con el diálogo estándar después de los saludos.))
+      - ((Continues with standard dialogue after the greetings.))

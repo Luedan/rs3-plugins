@@ -22,7 +22,7 @@
     - **Old Man Jocko:** No nos visitan a menudo forasteros como tú, pero te tratarán bien mientras decidas quedarte.
     - (previous)
   - [Choice]: Adiós.
-    - (Condition: Si el player no hizo ninguna pregunta:)
+    - (Condition: If the player didn't ask any questions:)
       - **Player:** No en este momento. Cuidarse.
-    - (Condition: Si el player le preguntó algo a Jocko:)
+    - (Condition: If the player asked Jocko something:)
       - **Player:** Gracias por responder mis preguntas. Cuidarse.

@@ -18,11 +18,11 @@
   - [Choice]: Una pinta de grog, por favor.
     - **Player:** Una pinta de Grog, por favor.
     - **Bartender:** Un grog en breve, serán tres coins.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - (removes=3 coins) (receives=grog)
       - **Player:** Gracias, camarero.
       - **Player:** Dios mío. Parece que no tengo suficiente dinero.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - No puedes permitirte eso.
       - **Bartender:** ¡Dije 3 coins! ¡No tienes 3 coins!
       - **Player:** Lo siento, volveré otro día.
@@ -30,10 +30,10 @@
   - [Choice]: Una botella de ron por favor.
     - **Player:** Una botella de ron, por favor.
     - **Bartender:** Serán 27 coins.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - (removes=27 coins) (receives=karamjan rum)
       - **Player:** Gracias, camarero.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - No puedes permitirte eso.
       - **Bartender:** ¡Dije 27 coins! ¡No tienes 27 coins!
       - **Player:** Lo siento, volveré otro día.

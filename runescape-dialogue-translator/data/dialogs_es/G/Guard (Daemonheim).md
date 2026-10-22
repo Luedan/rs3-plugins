@@ -50,5 +50,5 @@
   - Sí, entiendo las restricciones.
     - (Action: el player pasa junto al guardia y entra en Wilderness.)
   - No, me quedaré aquí.
-    - ((el player retrocede una casilla.))
+    - ((The player walks one square back.))
     - **Player:** No, me quedaré aquí.

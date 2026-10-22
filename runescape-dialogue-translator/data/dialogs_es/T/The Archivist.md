@@ -15,9 +15,9 @@
 - **The Archivist:** Saludos autómata. Parezco estar en mal estado.
 - **The Archivist:** ADVERTENCIA: ¡Faltan recuerdos centrales!
 - **The Archivist:** Autómata, debes ayudar a solucionar este problema. No descuides tus deberes.
-- (Condition: Sin tres espacios backpack libres:)
+- (Condition: Without three free backpack spaces:)
   - **The Archivist:** Haz un poco de espacio y regresa a mí.
-- (Condition: Con tres espacios backpack gratuitos:)
+- (Condition: With three free backpack spaces:)
   - (receives=memory jar (empty) y tarro de memoria (lleno))
   - [The Archivist te entrega dos frascos: uno vacío y otro lleno.]
   - (Action: La cámara se desplaza hacia la inestable grieta.)
@@ -95,8 +95,8 @@
 - [Menu]: Selecciona una opción
   - [Choice]: Sobre esos recuerdos centrales...
     - **Player:** Acerca de esos recuerdos centrales...
-    - (Condition: Si no se lleva un robot de almacenamiento de memoria:)
-      - (Condition: Si se perdió el robot de almacenamiento de memoria Aagi:)
+    - (Condition: If a memory-storage bot isn't carried:)
+      - (Condition: If the Aagi memory-storage bot was lost:)
         - Recuerdos [Lustrous] dentro del Salón de los Recuerdos.}}
       - *(Si se perdió el bot de almacenamiento de memoria Seren:)*
         - Un robot de almacenamiento de memoria ingresa a tu backpack.

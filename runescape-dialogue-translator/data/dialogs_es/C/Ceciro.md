@@ -27,9 +27,9 @@
 - **Ceciro:** Al igual que yo, Player, sin embargo, mi querido George el Gurh me ha estado ayudando diligentemente, pero el enorme wilderness cercano lo tiene nervioso.
 - **Ceciro:** ¿Podrías intentar calmarlo? Toma esta caña roja, un producto de Iaia, mézclala con algunas de tus verduras nativas. Eso debería ayudar a calmar al querido George el Gurh.
 - **Player:** Por supuesto. Veré qué puedo hacer.
-- ((Sin espacio en backpack:))
+- ((Without space in backpack:))
   - **Ceciro:** Necesitarás un bastón rojo para calmar a George el Gurh. Te daré un poco de caña roja una vez que tengas algo de espacio en tu backpack.
-- ((Con espacio en backpack:))
+- ((With space in backpack:))
   - (receives=redcane)
   - **Ceciro:** Muy apreciado, Player. ¡Aquí tienes!
 
@@ -37,13 +37,13 @@
 
 - **Ceciro:** Hola Player, ¿cómo te va con la tarea de calmar a George the Gurh?
 - **Player:** Todavía estoy trabajando en ello.
-- ((Si no tienes caña roja:))
-  - ((Sin espacio en backpack:))
+- ((If you have no redcane:))
+  - ((Without space in backpack:))
     - **Ceciro:** Necesitarás un bastón rojo para calmar a George el Gurh. Te daré un poco de caña roja una vez que tengas algo de espacio en tu backpack.
-  - ((Con espacio en backpack:))
+  - ((With space in backpack:))
     - (receives=redcane)
     - **Ceciro:** Necesitarás un bastón rojo para calmar a George el Gurh. ¡Aquí tienes!
-- ((Si tienes caña roja:))
+- ((If you have redcane:))
   - **Ceciro:** No te preocupes. No olvides usar ese bastón rojo para crear una comida reconfortante para George the Gurh.
 
 ### After tier 21 of Journey to Iaia

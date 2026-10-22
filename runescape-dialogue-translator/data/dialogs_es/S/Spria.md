@@ -31,7 +31,7 @@
 
 - {{Transcript missing}}
 - **Spria:** Sí... Tengo algo escrito aquí en alguna parte...
-- ((Aparecen las líneas correspondientes del consejo de tarea.))
+- ((The relevant lines from assignment advice appears.))
 
 #### Comercio
 

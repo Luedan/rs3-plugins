@@ -37,7 +37,7 @@
     - **Iroh, the Group Ironman tutor:** Elige el modo que mejor represente a tu grupo. Los grupos competitivos pueden optar por convertirse en un grupo regular más adelante; sin embargo, un grupo Regular nunca puede convertirse en un grupo Competitivo una vez que el grupo haya sido finalizado.
     - (previous)
   - [Choice]: cond=If you are in a group:|¿Puedo cambiar mi modo de juego?
-    - (Condition: Si previamente confirmaste que no quieres abandonar nunca el modo Ironman grupal:)
+    - (Condition: If you previously confirmed you never want to leave Group Ironman mode:)
       - **Iroh, the Group Ironman tutor:** Me temo que no puedes cambiar tu modo de juego, ya que previamente has optado por no desactivar nunca el modo Group Ironman.
       - (previous|initialOpts)
     - **Iroh, the Group Ironman tutor:** ¡Por supuesto! ¿Qué te gustaría hacer?

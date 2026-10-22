@@ -13,7 +13,7 @@
 ### Normal dialogue
 
 - **Banker:** Buenos días. ¿Cómo puedo ayudarte?
-- (Condition: Si el player tiene elementos esperándolos en Grand Exchange:)
+- (Condition: If the player has items waiting for them in the Grand Exchange:)
   - **Banker:** Antes de continuar, debo informarle que tiene artículos listos para ser recogidos en Grand Exchange.
   - (continue)
 - [Menu]: ¿Qué te gustaría decir?

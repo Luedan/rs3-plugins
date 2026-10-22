@@ -15,7 +15,7 @@
 - **Pirate Jackie the Fruit:** ¡Ahoye!
 - [Menu]: Selecciona una opción
   - [Choice]: Acerca del sistema de tareas...
-    - (Condition: Si el player ha completado los logros fáciles de Karamja, pero aún no ha reclamado las recompensas:)
+    - (Condition: If the player has completed the easy Karamja achievements, but not yet claimed the rewards:)
       - **Player:** He realizado todas las tareas fáciles del conjunto Karamja.
       - **Pirate Jackie the Fruit:** Arr, ya lo tienes, veo tu lista. ¡Supongo que entonces querrás tu recompensa!
       - **Player:** Sí, por favor.
@@ -24,7 +24,7 @@
       - (receives=Karamja gloves 1 and an antique lamp)
       - **Player:** ¡Vaya, gracias!
       - (continue)
-    - (Condition: Si el player ha perdido sus guantes Karamja 1:)
+    - (Condition: If the player has lost their Karamja gloves 1:)
       - **Pirate Jackie the Fruit:** Hrm, parece que te recuerdo... ¿No te di ya los guantes Karamja?
       - **Player:** Sí, pero los perdí.
       - **Pirate Jackie the Fruit:** Arr, eso mismo pensé. Toma otro par, amigo.

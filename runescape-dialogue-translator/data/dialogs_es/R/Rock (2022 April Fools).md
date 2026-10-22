@@ -21,6 +21,6 @@
 ### Moving the two rocks together
 
 - (Action: Ambas rocas desaparecen.)
-- ((Si el título aún no ha sido desbloqueado:))
+- ((If the title hasn't been unlocked yet:))
   - color=#0f0}}
   - color=#0f0

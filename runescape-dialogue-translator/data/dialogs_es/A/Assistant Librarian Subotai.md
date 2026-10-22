@@ -31,9 +31,9 @@
 - **Assistant Librarian Subotai:** ¿Qué? ¿Por qué me miras así?
 - **Player:** Nada, ¿en qué puedo ayudar?
 - **Assistant Librarian Subotai:** Toma, toma este diario. He puesto algunas sugerencias para localizar todas las cosas allí.
-- (Condition: Sin espacio en backpack:)
+- (Condition: Without space in backpack:)
   - **Assistant Librarian Subotai:** Oh, vuelve cuando tengas más espacio para llevarlo.
-- (Condition: Con espacio en backpack:)
+- (Condition: With space in backpack:)
   - (receives=Menaphos journal)
   - **Assistant Librarian Subotai:** ¡Aquí tienes, un diario!
 
@@ -47,10 +47,10 @@
 ##### Habiendo perdido el diario
 
 - **Player:** He perdido mi diario de colección; ¿podría conseguir un reemplazo?
-- ((Con espacio en backpack:))
+- ((With space in backpack:))
   - (receives=Menaphos journal)
   - **Assistant Librarian Subotai:** ¡Aquí tienes, un diario!
-- ((Sin espacio en backpack:))
+- ((Without space in backpack:))
   - **Assistant Librarian Subotai:** Oh, vuelve cuando tengas más espacio para llevarlo.
 
 #### Después de completar el diario

@@ -12,7 +12,7 @@
 ### At Kharid-et
 
 - **Dr Nabanik:** Hola, viejo amigo. Bienvenido al sitio de excavación Kharid-et.
-- (Condition: Después de completar el misterio de Break the Seal:)
+- (Condition: After completing Break the Seal mystery:)
   - **Dr Nabanik:** Ahora, ¿había algo más que quisieras preguntarme?
 
 #### Antes de completar el tutorial de Archaeology
@@ -22,7 +22,7 @@
 #### Después de completar el tutorial de Archaeology
 
 - **Dr Nabanik:** Hola, Player, ¡estoy aquí!
-- (Condition: Justo después de completar el tutorial de Archaeology:)
+- (Condition: Just after completed the Archaeology tutorial:)
   - **Dr Nabanik:** Necesitamos tu ayuda, Player, para explorar este fuerte y ayudar a responder algunos de los misterios más antiguos de Gielinor.
   - **Dr Nabanik:** Déjame llevarte a un recorrido rápido por lo que tenemos por aquí.
   - (Action: La cámara se desplaza hacia la mesa de trabajo del arqueólogo.)
@@ -34,15 +34,15 @@
   - (Action: La cámara se desplaza hacia los escombros del fuerte.)
   - **Dr Nabanik:** Necesitamos derribar estos escombros para poder acceder a la entrada del fuerte. Entonces se puede utilizar una llave para entrar. Pero primero, deberías leer las notas de Ton...
   - (ver|Sitio de excavación Kharid-et#Escena de apertura)
-- (Condition: Sin haber resuelto el misterio de Rompiendo el Sello:)
+- (Condition: Without having solved Breaking the Seal mystery:)
   - (ver|Romper el sello)
-- (Condition: Por primera vez después de haber resuelto el misterio de La Bóveda de las Sombras:)
-  - ((Guildmaster Tony narra lo siguiente en una escena:))
+- (Condition: For the first time after having solved The Vault of Shadows mystery:)
+  - ((Guildmaster Tony narrates the following in a cutscene:))
     - Kharid-et estaba realmente abandonado. Aunque cayó justo al comienzo de la Tercera Edad, ha permanecido intacto durante milenios.
     - El lugar está lleno de fantasmas de su pasado. Es sorprendente que ninguno de los arqueólogos los haya encontrado hasta ahora.
     - Ahora nos queda claro por qué el monolito deseaba que excaváramos aquí. ¡Las lecturas mágicas están fuera de serie!
     - Siento que solo hemos arañado la superficie del antiguo poder mágico que se encuentra debajo, enterrado en las sombras...
-- ((Sin haber completado la misión La Bóveda de las Sombras:))
+- ((Without having completed The Vault of Shadows quest:))
   - (ver|La Bóveda de las Sombras)
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Por qué eres el administrador del sitio aquí?
@@ -72,12 +72,12 @@
     - **Dr Nabanik:** Mucho ha cambiado para mí desde la caída del imperio, y muchas de las preocupaciones que solía tener se han evaporado hace mucho tiempo.
     - (previous|KharidEtOptions)
   - [Choice]: cond=If a mystery is uncovered:|Quiero hablar de misterios.
-    - (Condition: Si no hay ningún misterio descubierto:)
+    - (Condition: If no uncovered mystery:)
       - **Dr Nabanik:** ¿Qué misterios? Hasta donde yo sé, todavía no has descubierto ninguno.
-    - (Condition: Si Prison Break solo se ha iniciado:)
+    - (Condition: If Prison Break has only been started:)
       - (end)
-    - (Condition: Si sólo se ha descubierto un misterio después de Breaking the Seal:)
-      - ((Como se muestra a continuación después de las opciones.))
+    - (Condition: If only one mystery after Breaking the Seal has been uncovered:)
+      - ((As below after the choices.))
     - [Menu]: ¿Qué misterio te gustaría discutir?
       - [Choice]: Fuga de prisión.
         - (ver|Fuga de prisión#Dr Nabanik)
@@ -114,8 +114,8 @@
     - (above|At Kharid-et)
   - Derby de excavación.
     - ¿Listo? ¡Ir!
-    - ((Si el player se teletransporta:))
+    - ((If the player teleports:))
       - ¡Teletransportarse es hacer trampa!
       - ¡Se acabó el tiempo!
-    - ((Si se acaba el tiempo antes de llegar a Movario:))
+    - ((If the time runs out before reaching Movario:))
       - ¡Se acabó el tiempo!

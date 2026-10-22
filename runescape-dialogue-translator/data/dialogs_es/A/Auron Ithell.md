@@ -70,14 +70,14 @@
         - (initial)
   - [Choice]: ¿Tienes algo para poner piedras?
     - **Player:** ¿Tienes algo donde pueda guardar las rocas doradas que encuentre?
-    - (Condition: Si el player no tiene la bolsa recolectora de estatuas:)
+    - (Condition: If the player does not have the statue collection bag:)
       - **Auron Ithell:** ¡Por supuesto! ¡Esta bolsa de estatua debería funcionar!
       - (receives=statue collection bag)
       - (continue)
-    - (Condition: Si el player ya tiene la bolsa de recolección de estatuas:)
+    - (Condition: If the player already has the statue collection bag:)
       - **Auron Ithell:** ¡Oh! Ya tienes una bolsa para estatuas. ¡En ella puedes guardar piedras doradas!
       - (continue)
-    - (Condition: Si el player tampoco tiene la lista de la Estatua de Rhiannon:)
+    - (Condition: If the player also does not have the Statue of Rhiannon list:)
       - [Menu]: ¿Quieres también una lista de las piezas de las estatuas?
         - [Choice]: Sí.
           - (receives=Statue of Rhiannon list)

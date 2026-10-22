@@ -23,19 +23,19 @@
         - **Lady Trahaearn:** ¿Qué te gustaría saber?
         - (previous)
       - [Choice]: ¿Cómo los uso?
-        - (Condition: Si el player no tiene 89 Mining:)
+        - (Condition: If the player does not have 89 Mining:)
           - **Lady Trahaearn:** No es así, humano. Siento en ti falta de habilidad con el pico.
           - **Lady Trahaearn:** No confío en que no rompas el cristal. Si demuestras que eres un minero experto, quizá lo reconsidere, pero por ahora no debes tocar los cristales.
           - Necesitas 89 Mining para usar las piedras Seren.
           - **Lady Trahaearn:** ¿Qué te gustaría saber?
           - (previous)
-        - (Condition: Si el player tiene 89 Mining:)
+        - (Condition: If the player has 89 Mining:)
           - **Lady Trahaearn:** Hmmm, pareces lo suficientemente hábil, para ser humano, supongo que no hay daño.
           - **Lady Trahaearn:** Es un trabajo duro, pero necesitas usar un pico para quitar la corrupción del exterior de las piedras.
           - **Lady Trahaearn:** Al hacerlo, comprenderás la minería de precisión y también podrás encontrar mineral corrupto.
           - **Lady Trahaearn:** El mineral corrupto es una sustancia repugnante cuyo único propósito es ser fundido hasta la nada.
           - **Lady Trahaearn:** Si encuentra alguno, sería muy amable si lo tirara a algún lugar en un horno. Sólo ese calor es lo suficientemente fuerte como para destruirlo.
-          - (Condition: Si el player no ha reclamado la lámpara Smithing XP:)
+          - (Condition: If the player has not claimed the Smithing XP lamp:)
             - **Lady Trahaearn:** De hecho, si me fundes 100 minerales corruptos, recompensaré tus esfuerzos.
             - (continue)
           - **Lady Trahaearn:** ¿Qué te gustaría saber?
@@ -93,11 +93,11 @@
     - **Lady Trahaearn:** Oh, Hefin dirá que ellos son los que hacen la purificación, pero ellos simplemente se encargan de la etapa final.
     - **Lady Trahaearn:** Es a través del sudor y el trabajo de Trahaearn que las piedras se purifican.
     - **Player:** ¿Puedo ayudar?
-    - (Condition: Si el player no tiene 89 Mining:)
+    - (Condition: If the player does not have 89 Mining:)
       - **Lady Trahaearn:** Perdóname, pero aún no posees la habilidad necesaria para eliminar delicadamente la corrupción. Quizás con más formación, pero no ahora.
       - Necesitas 89 Mining para extraer las piedras Seren.
       - (initial)
-    - (Condition: Si el player tiene 89 Mining:)
+    - (Condition: If the player has 89 Mining:)
       - **Lady Trahaearn:** Eres amigo de los elfos. Agradeceríamos su ayuda.
       - (initial)
   - [Choice]: Nada, gracias.
@@ -107,10 +107,10 @@
 
 - **Lady Trahaearn:** Ah, hola de nuevo joven Player, ¿en qué puedo ayudarte?
 - **Lady Trahaearn:** Oh, veo que has estado ocupado fundiendo mineral corrupto.
-- (Condition: Sin un espacio backpack libre:)
+- (Condition: Without one free backpack space:)
   - **Lady Trahaearn:** Si dejas espacio, tengo una pequeña muestra de agradecimiento para ti.
   - (continuea|standard)
-- (Condition: Con un espacio backpack gratuito:)
+- (Condition: With one free backpack space:)
   - (receives=Smithing XP lamp)
   - {{RSFontAchievement|Uncorrupted Ore}}
   - (continuea|standard)

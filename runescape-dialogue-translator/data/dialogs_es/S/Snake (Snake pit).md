@@ -13,5 +13,5 @@
 
 - Una serpiente asoma la cabeza por la pared y te ataca.
 - **Player:** {{RSChat|Ouch!}}
-- ((Repetido en el chat:))
+- ((Repeated in the chat:))
   - **Player:** ¡Ay!

@@ -57,15 +57,15 @@
     - **Rind the gardener:** Si completas esto, te daré: Espíritu de piedra de luminita x 10. ¡Estoy seguro de que también ganarás reputación en el gremio de agricultores!
     - **Rind the gardener:** ¡Tendrás que ser rápido! Solo estoy aquí por [número] horas y [número] minutos. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - ((Sin los artículos solicitados:))
+    - ((Without the requested items:))
       - **Rind the gardener:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Rind the gardener:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **Rind the gardener:** También estoy buscando un nuevo animal, actualmente estoy buscando A [animal]
-    - ((Con los artículos solicitados:))
+    - ((With the requested items:))
       - (removes=the requested items) (receives=ten luminite stone spirits and possibly a Brassica primer)
-      - ((Si se premió una imprimación de Brassica:))
+      - ((If a Brassica primer was rewarded:))
         - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-        - ((Repetido en una ventana emergente:))
+        - ((Repeated in a pop-up:))
           - Por completar esta solicitud, recibió 1 imprimación para Brassica.
           - (continue)
       - [Has recibido: espíritu de piedra de luminita x 10<br> y 2750 de reputación agrícola.]
@@ -90,9 +90,9 @@
 ##### Con artículos solicitados
 
 - (removes=the requested items) (receives=ten luminite stone spirits and possibly a Brassica primer)
-- ((Si se premió una imprimación de Brassica:))
+- ((If a Brassica primer was rewarded:))
   - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - Por completar esta solicitud, recibió 1 imprimación para Brassica.
     - (continue)
 - [Has recibido: espíritu de piedra de luminita x 10<br> y 2750 de reputación agrícola.]

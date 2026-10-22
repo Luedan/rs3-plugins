@@ -23,10 +23,10 @@
 
 ##### Después
 
-- ((Antes de que se construya el ayuntamiento:))
+- ((Before the town hall is built:))
   - **Aster:** Este sería un lugar excelente para construir un ayuntamiento, excelencia.
   - (continue)
-- ((Una vez construido el ayuntamiento:))
+- ((After the town hall is built:))
   - **Aster:** Saludos, excelencia.
   - (continue)
 - **Elige una opción:**
@@ -43,14 +43,14 @@
     - En el nivel 1, obtienes 1 XP descansado cada 3 minutos mientras entrenas en el fuerte, y tu límite es 500.
     - En el nivel 2, obtienes 2 XP descansados cada 3 minutos mientras entrenas en el fuerte, y tu límite es 1000.
     - En el nivel 3, obtienes 3 XP descansados cada 3 minutos mientras entrenas en el fuerte, y tu límite es 1500.
-    - (arriba|inicio)
-  - ((Si has construido el ayuntamiento:))
+    - (above|start)
+  - ((If you have built the town hall:))
     - Quiero pasar mi experiencia descansada.
-      - ((Si no tienes suficiente experiencia descansada:))
+      - ((If you don't have enough rested experience:))
         - **Aster:** Lo siento, excelencia, pero últimamente simplemente no ha descansado lo suficiente.
         - Acumulas experiencia descansada mientras estás desconectado o mientras adquieres experiencia regular en el fuerte.
-      - ((Si tienes suficiente experiencia descansada:))
-        - ((Se abre la interfaz de experiencia descansada.))
+      - ((If you have enough rested experience:))
+        - ((Rested experience interface opens.))
   - Quiero cambiar mi título.
     - **Aster:** Por supuesto, excelencia. ¿Cómo le gustaría que le recomendaran?
     - **Elige tu título**
@@ -72,11 +72,11 @@
 
 ##### Después de que se construya el ayuntamiento
 
-- (arriba|experiencia-descansada)
+- (above|rested-experience)
 
 #### Cambiar título
 
-- (arriba|quiero-cambiar-mi-título)
+- (above|I-want-to-change-my-title)
 
 ### Woodcutter's Grove
 

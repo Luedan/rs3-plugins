@@ -53,7 +53,7 @@
   - **Menaphite citizen:** ¡Oh! ¡Hola!
   - **Menaphite citizen:** Los vientos cálidos te llevan.
   - **Menaphite citizen:** ¿Sí, amigo?
-  - ((Lo siguiente sólo aparece con 'Phite Club completado:))
+  - ((The following only appear with 'Phite Club completed:))
     - **Menaphite citizen:** Nuevo faraón, viejo faraón, todo es lo mismo.
     - **Menaphite citizen:** Osman no ha cambiado nada, hasta mantener las puertas cerradas.
     - **Menaphite citizen:** Este nuevo Osman no es mucho mejor, lo último que necesitábamos era otro usurpador.

@@ -14,10 +14,10 @@
 
 #### Diálogo estándar
 
-- (Condition: Antes de La primogenitura de los enanos:)
+- (Condition: Before Birthright of the Dwarves:)
   - **Santiri:** ¡Bienvenido, humano, a Quality Weapons Shop! ¿Puedo interesarte en una compra?
   - (continue)
-- (Condition: Después de La primogenitura de los enanos:)
+- (Condition: After Birthright of the Dwarves:)
   - **Santiri:** ¡Bienvenido, humano, a Quality Weapons Shop! Desde la derrota del Hacha Roja, ahora tengo bastones de batalla de dragones en stock. ¿Puedo interesarte en una compra?
   - (continue)
 - [Menu]: Selecciona una opción

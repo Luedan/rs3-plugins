@@ -171,7 +171,7 @@
         - **Chief Tess:** ¿Quieres simplemente mirar mi lista de tiendas o usar da wordies?
         - [Menu]: ¿Qué te gustaría hacer?
           - [Choice]: Ver colecciones.
-            - ((Se abre la interfaz de Shiny Pretties.))
+            - ((Da Shiny Pretties interface opens.))
           - [Choice]: Habla de colecciones.
             - **Chief Tess:** Quiero cosas para los luchadores, los modeladores, algunos otros peluches y, por supuesto, ¡siempre las bellezas brillantes!
             - **Player:** Simplemente olvidé cómo funcionan las palabras.
@@ -185,7 +185,7 @@
       - [Choice]: ¿Cuáles son las recompensas de tu colección?
         - **Chief Tess:** Todo lo que me das, yo te doy notas cromáticas. No sé por qué quieres canciones de pájaros, pero las entiendes.
         - **Chief Tess:** También tengo una reliquia para ti, también un vaso busty, pero debes estar completando mis colecciones para obtener la dosis.
-        - (Condition: Antes de completar la colección Smoky Fings:)
+        - (Condition: Before completing the Smoky Fings collection:)
           - **Chief Tess:** Hmm... ¿Qué tal si te doy biberón?
           - **Player:** ¿Me darás un... biberón?
           - **Chief Tess:** Sí. Aunque es una botella especial. Lo lleno del manantial de agua salada Oo'glog.
@@ -195,18 +195,18 @@
           - **Chief Tess:** Como nunca se agota. Humano tonto...
           - **Player:** Agua de manantial sin fondo: ¡estoy vendido!
           - (continue)
-        - (Condition: Después de completar la colección Smoky Fings:)
+        - (Condition: After completing the Smoky Fings collection:)
           - **Chief Tess:** ¡Mira! Botella de spa sin fondo, no se agota. Tess te lo dice, te burlas.
           - **Player:** ¡Es genial! Lamento haber dudado alguna vez de ti.
           - (continue)
-        - (Condition: Si nunca antes se ha reclamado vidrio robusto:)
+        - (Condition: If robust glass has never been claimed before:)
           - **Player:** Y "vidrio busty", ¿me atrevo a preguntar? No es una especie de figura de vidrio soplada atrevida, ¿verdad?
           - **Chief Tess:** No, usted lo llama "rotura de hileras": esa gente de piedra de arena roja extrae minas en las afueras del pueblo.
           - **Player:** ¡Oh, vidrio robusto! ¡Entiendo!
           - **Chief Tess:** Sí, lo usamos para hacer lascivas. Bonito revestimiento suave para que los huéspedes del resort se lo lleven a casa. Tess modelo para ello.
           - **Player:** *parpadeo* *parpadeo*
           - (previous)
-        - (Condition: Si anteriormente se ha reclamado vidrio robusto:)
+        - (Condition: If robust glass has been claimed before:)
           - **Chief Tess:** Ya me sacaste bastante vaso de tetona. ¿Prefieres un revestimiento suave?
           - **Player:** Gracias, pero no, creo que lo rechazaré cortésmente.
           - (previous)

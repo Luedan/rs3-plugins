@@ -83,35 +83,35 @@
     - **Player:** ¿Qué pides hoy?
     - **Void Knight:** ¡He estado trabajando en mi propia granja recientemente y necesito algunos artículos para aumentar mi productividad!
     - **Void Knight:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
-    - ((Si se aceptan tres variantes animales:))
+    - ((If three animal variants are accepted:))
       - **Void Knight:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal].
       - (continue)
-    - ((Si se aceptan cuatro variantes animales:))
+    - ((If four animal variants are accepted:))
       - **Void Knight:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal], o [Animal].
       - (continue)
     - **Void Knight:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
     - **Void Knight:** Si completas esto, te daré: Shifter, Ravager, Tocher o Spinner Charms x 15. ¡Estoy seguro de que también ganarás algo de reputación en el gremio de agricultores!
     - **Void Knight:** ¡Tendrás que ser rápido!, solo estoy aquí por [número] días, [número] horas y [número] minutos. Para ser exactos.
   - Dales los artículos y animales que soliciten.
-    - ((Sin los artículos solicitados:))
+    - ((Without the requested items:))
       - **Void Knight:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Void Knight:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
-      - ((Si se aceptan tres variantes animales:))
+      - ((If three animal variants are accepted:))
         - **Void Knight:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal].
         - (continue)
-      - ((Si se aceptan cuatro variantes animales:))
+      - ((If four animal variants are accepted:))
         - **Void Knight:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal], o [Animal].
         - (continue)
       - **Void Knight:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
-    - ((Con los artículos solicitados:))
-      - (Condition: Con múltiples animales aplicables:)
+    - ((With the requested items:))
+      - (Condition: With multiple applicable animals:)
         - [Menu]: ¿Qué animal te gustaría entregar?
-          - ((Se da la siguiente opción para cada animal aplicable:))
+          - ((The following option is given for each applicable animal:))
             - [Choice]: [Animal name]
               - (continue)
       - (removes=the requested items) (receives=the reward)
       - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - Por completar esta solicitud, recibió 1 imprimación para Brassica.
         - (continue)
       - Has recibido: [Reward] x 15<br>Y 5500 de reputación agrícola.
@@ -131,10 +131,10 @@
 
 - **Void Knight:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
 - **Void Knight:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
-- ((Si se aceptan tres variantes animales:))
+- ((If three animal variants are accepted:))
   - **Void Knight:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal].
   - (continue)
-- ((Si se aceptan cuatro variantes animales:))
+- ((If four animal variants are accepted:))
   - **Void Knight:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal], o [Animal].
   - (continue)
 - **Void Knight:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
@@ -143,7 +143,7 @@
 
 - (removes=the requested items) (receives=the reward)
 - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Por completar esta solicitud, recibió 1 imprimación para Brassica.
   - (continue)
 - Has recibido: [Reward] x 15<br>Y 5500 de reputación agrícola.

@@ -44,15 +44,15 @@
 
 ##### Antes de resolver todos los misterios de Guthixian excepto The Final Revolution
 
-- (Condition: De cachorro:)
+- (Condition: As a pup:)
   - **Utu:** Hola, Player.
   - (continue)
-- (Condition: Como adulto:)
+- (Condition: As an adult:)
   - **Utu:** Saludos, pequeña.
   - (continue)
 - [Menu]: Seleccione una opción|ancla=MoonriseOptions
   - [Choice]: ¿Por qué eres el administrador del sitio aquí?
-    - (Condition: De cachorro:)
+    - (Condition: As a pup:)
       - **Utu:** Recuerdo poco de mí. De mi pasado. Este templo es todo lo que conozco.
       - **Player:** ¿Has estado alguna vez dentro?
       - **Utu:** No. Cuando me acerco a su puerta, una voz hace eco en mi mente. Una advertencia. Un comando. Nunca entrar en las profundidades del templo.
@@ -60,7 +60,7 @@
       - **Utu:** No lo sé. Pero me resulta familiar.
       - **Utu:** Quizás sea mío.
       - (previous|MoonriseOptions)
-    - (Condition: Como adulto:)
+    - (Condition: As an adult:)
       - **Utu:** Me desperté ante la Rueda Lunar hace muchos ciclos, sin saber nada más que mi nombre y mi deber: velar por este templo.
       - **Utu:** En verdad, es más que el deber lo que me mantiene aquí. Estoy atado a este lugar. A su pasado. Sus secretos. A la misma piedra en la que está tallado.
       - **Player:** ¿Qué quieres decir? ¿No puedes irte?
@@ -71,7 +71,7 @@
       - **Utu: ** Que así sea. Ningún conocimiento podría causar tal sufrimiento.
       - (previous|MoonriseOptions)
   - [Choice]: ¿De qué se trata este sitio de excavación?
-    - (Condition: De cachorro:)
+    - (Condition: As a pup:)
       - **Utu:** Este lugar despierta muchos sentimientos. Hueco. Lástima. Desgracia.
       - **Player:** ¿Por qué?
       - **Utu:** No lo sé. Quizás lo hice, alguna vez.
@@ -79,7 +79,7 @@
       - **Utu:** Me he sentido menos solo desde que te conocí.
       - **Utu:** Me alegra oír eso.
       - (previous|MoonriseOptions)
-    - (Condition: Como adulto:)
+    - (Condition: As an adult:)
       - **Utu:** Este es el gran templo de Akshur-Nakkir. Joya del pueblo Nakkirian. Asiento de lo divino.
       - **Utu:** Éramos como dioses para la gente que vivía aquí. Vinieron a nosotros con ofrendas y adoración. A cambio, les concedimos nuestras bendiciones.
       - **Player:** Quienes viven aquí ahora llaman a este lugar 'Salida de la Luna'.
@@ -89,9 +89,9 @@
   - [Choice]: Quiero hablar de misterios.
     - (abajo2|Misterios)
   - [Choice]: Adiós.
-    - (Condition: De cachorro:)
+    - (Condition: As a pup:)
       - **Utu:** Adiós, Player.
-    - (Condition: Como adulto:)
+    - (Condition: As an adult:)
       - **Utu:** La luz de la luna guía tu camino.
 
 ##### Después de resolver todos los misterios de Guthixian excepto The Final Revolution
@@ -118,7 +118,7 @@
 
 ##### Si solo se ha descubierto un misterio
 
-- ((Continúa con la sección "Hablando con Utu" del misterio correspondiente; consulte a continuación los enlaces.))
+- ((Continues with the "Talking to Utu" section of the relevant mystery; see below for links.))
 
 ##### Si se han descubierto múltiples misterios
 

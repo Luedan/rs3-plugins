@@ -11,7 +11,7 @@
 
 ### Standard dialogue
 
-- (Condition: Si el player no ha completado la misión Amigo del monje:)
+- (Condition: If the player has not completed the quest Monk's Friend:)
   - **Monje:** {{RSChat|Peace brother}}
-- (Condition: Si el player completó la misión Amigo del monje:)
+- (Condition: If the player completed the quest Monk's Friend:)
   - **Monje:** *hic* ¡Qué fiesta! ¡Guau!

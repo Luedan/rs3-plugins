@@ -26,16 +26,16 @@
 ##### Primera vez durante el incidente
 
 - Compruebas si están bien en el agua.
-- ((Se ve uno de los siguientes y luego continúa a continuación:))
+- ((One of the following is seen, then continues below:))
   - **Player:** {{RSChat|Be careful!}}
   - **Player:** {{RSChat|That's awfully risky!}}
-- ((Sólo visto ocasionalmente:))
+- ((Only seen occasionally:))
   - **Pescadora:** {{RSChat|Don't worry about me, the water feels great!}}
 
 ##### Después
 
 - Ya los has revisado.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Ya los has revisado.
 
 #### Salir después de hablar con

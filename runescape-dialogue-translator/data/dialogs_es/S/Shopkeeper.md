@@ -16,11 +16,11 @@ __TOC__
     - [Menu]: Selecciona una opción
       - [Choice]: ¿Qué necesitas reparar?
         - **Shopkeeper:** Déjame ver, ahora mismo necesito que repares el siguiente pieces of furniture.
-        - ((Sólo los furniture no construidos se enumeran a continuación:))
+        - ((Only the unbuilt furniture are listed in the following:))
           - **Shopkeeper:** [Furniture 1], [Furniture 2], [Furniture 3], [Furniture 4], [Furniture 5]
           - (previous)
       - [Choice]: ¿Qué materiales necesito?
-        - ((Los materiales adicionales solo se enumeran a continuación si es necesario:))
+        - ((The additional materials are only listed in the following if required:))
           - **Shopkeeper:** Necesitas: [Planks] x [número], Steel nails x [número], [Additional material] x [número]
           - (previous)
       - [Choice]: [Leave]

@@ -76,15 +76,15 @@
     - **My Arm:** Si completas esto, te daré: bendición de reputación Farming (mediana) x 1. ¡Estoy seguro de que también ganarás algo de reputación con el gremio de agricultores!
     - **My Arm:** ¡Tendrás que ser rápido! Solo estoy aquí por [número] horas y [número] minutos. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - ((Sin los artículos solicitados:))
+    - ((Without the requested items:))
       - **My Arm:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **My Arm:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **My Arm:** También estoy buscando un nuevo animal, actualmente estoy buscando A [animal]
-    - ((Con los artículos solicitados:))
+    - ((With the requested items:))
       - (removes=the requested items) (receives=Farming reputation boon (medium) y posiblemente una imprimación Brassica)
-      - ((Si se premió una imprimación de Brassica:))
+      - ((If a Brassica primer was rewarded:))
         - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-        - ((Repetido en una ventana emergente:))
+        - ((Repeated in a pop-up:))
           - Por completar esta solicitud, recibió 1 imprimación para Brassica.
           - (continue)
       - [Has recibido: bendición de reputación Farming (mediana) x 1 <br> y 2750 de reputación agrícola.]
@@ -109,9 +109,9 @@
 ##### Con artículos solicitados
 
 - (removes=the requested items) (receives=Farming reputation boon (medium) y posiblemente una imprimación Brassica)
-- ((Si se premió una imprimación de Brassica:))
+- ((If a Brassica primer was rewarded:))
   - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - Por completar esta solicitud, recibió 1 imprimación para Brassica.
     - (continue)
 - [Has recibido: bendición de reputación Farming (mediana) x 1 <br> y 2750 de reputación agrícola.]

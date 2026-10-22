@@ -14,7 +14,7 @@
 - **{{ROOTPAGENAME}}:** Hola, humano.
 - **Player:** Hola, ogro.
 - **Player:** ¿Cómo estás hoy, pequeño ogro?
-- ((Se selecciona un diálogo aleatorio entre los siguientes:))
+- ((A random dialogue is selected from the following:))
   - *Diálogo 1:*
     - **{{ROOTPAGENAME}}:** ¿Puedo tener algunas bellezas brillantes, humano?
     - **Player:** ¿Qué te hace pensar que te daría mis bellezas brillantes?

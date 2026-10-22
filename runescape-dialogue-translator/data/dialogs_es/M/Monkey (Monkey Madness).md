@@ -65,7 +65,7 @@
 - *Diálogo 4:*
   - **El mono en tu Backpack...:** Mmmm, ¡no deberías haberlo hecho!
   - (continue)
-- (Condition: Si se recibe un pergamino de pista mediano:)
+- (Condition: If a medium clue scroll is received:)
   - (receives=sealed clue scroll (medium))
   - ¡El mono mastica el plátano y escupe una pista!
   - {{RSFontAchievement|Clue's in the Monkey Drool}}
@@ -80,7 +80,7 @@
 
 ### On Karamja
 
-- (Condition: Al soltar el mono:)
+- (Condition: Upon dropping the monkey:)
   - **El mono en tu Backpack...:** ¡Yay! ¡Soy libre!
   - (Action: El mono se convierte en un mono normal y atacable.)
   - (receives=Thieving XP)
@@ -88,7 +88,7 @@
 ### Attempting to bank the monkey
 
 - Lo siento, no puedes depositar al mono.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Lo siento, no puedes depositar al mono.
 
 ### Teleporting with the monkey in backpack

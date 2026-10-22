@@ -15,15 +15,15 @@
 - [Menu]: Selecciona una opción
   - [Choice]: Claro, un kebab por favor.
     - **Player:** Claro, un kebab, por favor.
-    - (Condition: Si el player tiene al menos una moneda:)
+    - (Condition: If the player has at least one coin:)
       - (removes=one coin) (receives=a kebab)
       - Compras un kebab.
-    - (Condition: Si el player no tiene coins:)
+    - (Condition: If the player has no coins:)
       - **Kjut:** No tienes dinero, effendi.
       - No puedes permitirte eso.
   - [Choice]: Estoy buscando un drunken dwarf.
     - **Player:** Estoy buscando un drunken dwarf.
-    - (Condition: Antes de la olvidable historia de un Drunken Dwarf:)
+    - (Condition: Before Forgettable Tale of a Drunken Dwarf:)
       - **Kjut:** Simplemente sal a la calle, ¡no puede ser difícil encontrarlos!
       - **Player:** No, un drunken dwarf específico, sigue acosándome.
       - **Kjut:** Eso todavía no es muy útil. Pero déjame ver. Hay uno particularmente drunken dwarf justo al noreste de aquí.
@@ -32,7 +32,7 @@
       - **Kjut:** Bueno, tiene un pariente que deambula por todo Gielinor. Vuelve de vez en cuando para comprar más kebabs. Aunque no lo veo muy a menudo.
       - **Player:** ¿Crees que tendré alguna posibilidad de atraparlo aquí?
       - **Kjut:** Creo que estuvo aquí hace poco, así que dudo que regrese pronto.
-    - (Condition: Después de la olvidable historia de un Drunken Dwarf:)
+    - (Condition: After Forgettable Tale of a Drunken Dwarf:)
       - **Kjut:** ¡Pensé que sabrías muchas cosas!
       - **Player:** ¿Qué quieres decir?
       - **Kjut:** ¡Oh, vamos! ¿Estás en el Minero Risueño? ¡Toda la ciudad sabe de ti y de tus compañeros de bebida enanos!

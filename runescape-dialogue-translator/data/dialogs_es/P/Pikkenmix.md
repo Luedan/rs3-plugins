@@ -38,15 +38,15 @@
 - [Menu]: Selecciona una opción
   - [Choice]: Claro, lo intentaré.
     - **Player** Claro, lo intentaré.
-    - (Condition: Si la familiarización no se ha completado esa semana:)
+    - (Condition: If Familiarisation hasn't been completed that week:)
       - (Action: el player mete la mano en el obelisco y es teletransportado al plano espiritual.)
-    - (Condition: Si la familiarización ya se completó esa semana:)
+    - (Condition: If Familiarisation has already been completed that week:)
       - **Pikkenmix:** Ya me has ayudado esta semana.
       - Ya has ayudado a Pikkenmix esta semana. Vuelve el miércoles.
-    - (Condition: Si el obelisco ha dejado de brillar antes de terminar el diálogo:)
+    - (Condition: If the obelisk has stopped sparkling before dialogue was finished:)
       - **Pikkenmix:** Ya me has ayudado esta semana.
       - El obelisco ya no está activo.
-    - (Condition: Si hay un seguidor fuera:)
+    - (Condition: If there is a follower out:)
       - **Pikkenmix:** Me temo que no puedes entrar ahí con esa mascota siguiéndote. Podría distraerte con consecuencias desastrosas.
   - [Choice]: ¿Cuáles son los riesgos?
     - **Player:** ¿Cuáles son los riesgos?
@@ -154,10 +154,10 @@
 
 ### Claiming a reward
 
-- (Condition: Si es la primera vez que es elegible para una recompensa:)
+- (Condition: If this is the first time eligible for a reward:)
   - **Pikkenmix:** Hola de nuevo, gracias por ayudarnos. Si lo deseas, puedo darte una recompensa a cambio de los fragmentos en bruto que hayas recolectado. ¡Pikkupstix dice que puedo!
   - (continue|rewards)
-- (Condition: Momentos posteriores elegibles para una recompensa:)
+- (Condition: Subsequent times eligible for a reward:)
   - **Pikkenmix:** Gracias por conseguir los fragmentos.
   - **Pikkenmix:** Si quieres, puedo darte una recompensa a cambio de los fragmentos sin procesar que hayas recolectado.
   - (continue|rewards)
@@ -168,19 +168,19 @@
     - [Menu]: Selecciona una opción
       - [Choice]: Gotas de amuleto triple.
         - **Player** Gotas de amuleto triple.
-        - ((Si el player ya tiene un potenciador de caída de amuletos de una recompensa anterior:))
+        - ((If the player already has a charm drop enhancer from a previous reward:))
           - **Pikkenmix:** Me temo que ya tienes nuestra recompensa. Elige otra cosa.
           - **Pikkenmix:** Si quieres, puedo contarte un poco sobre estos obeliscos y cómo entrar al plano espiritual cuando están activos.
           - (continuea|sparklingquestion)
-        - (Condition: De lo contrario:)
+        - (Condition: Otherwise:)
           - Pikkenmix hace un movimiento oscuro con sus manos que no se puede ver del todo.
           - (receives=charm drop enhancer)
           - **Pikkenmix:** Ahí lo tienes; Creo que eso es correcto. Al menos, eso es lo que Pikkupstix me dijo que hiciera. Solo durará 40 minutos desde que rompas el boleto, ¡así que comienza a recolectar amuletos! Vuelve en <number> días, cuando te hayas recuperado y puedas volver a ayudarnos.
           - (continue|While obelisk is active, subsequent conversations)
       - [Choice]: Ingredientes Summoning.
-        - ((Si el player ya tiene una caja de ingredientes de invocación de una recompensa anterior:))
+        - ((If the player already has a box of summoning ingredients from a previous reward:))
           - **Pikkenmix:** Ya tienes una caja de esos. Cuando lo hayas abierto te puedo dar otro.
-        - (Condition: De lo contrario:)
+        - (Condition: Otherwise:)
           - **Player:** Ingredientes Summoning.
           - (receives=a box of summoning ingredients)
           - [Pikkenmix te entrega una caja.]

@@ -8,7 +8,7 @@
 
 ## Dialogue Transcript
 
-- ((Sólo por primera vez:))
+- ((Only at first time:))
   - Salmon Ella te regala un taijitu en agradecimiento por el rescate.
   - (continue)
 - **SELECCIONA UNA OPCIÓN**
@@ -33,7 +33,7 @@
     - **Player:** Profundo. Muy profundo. Quiero decir, ¿por qué estás en esta isla?
     - **Salmon Ella:** ¡Los hemos encontrado! Finalmente los hemos encontrado. ¡El legendario salmón invisible! ¡Solo estoy esperando que Max regrese con una red y un poco de cebo, y luego podremos hacer fortuna!
     - **Player:** El salmón es un pescado de agua dulce. Necesitas una caña de pescar con mosca y plumas.
-    - ((Si el player tiene el beneficio de pescar sin cebo:))
+    - ((If the player has the baitless fishing perk:))
       - **Player:** Y si tienes el beneficio de pescar sin cebo como yo, ni siquiera necesitas cebo.
       - (continue)
     - **Salmon Ella:** ¡Oh! Uno pensaría que una salmonita como Max lo sabría mejor.

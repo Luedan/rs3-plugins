@@ -31,7 +31,7 @@
 ##### Después de reclamar la recompensa del día actual
 
 - **Star sprite:** Hola, extraña criatura.
-- (Condition: La primera vez:)
+- (Condition: On first time:)
   - **Player:** No soy extraño.
   - **Star sprite:** Jeje. Si tú lo dices.
   - **Player:** En todo caso, tú eres el extraño y brillante.
@@ -39,7 +39,7 @@
   - **Player:** Entonces, ¿qué eres? ¿De dónde vienes?
   - **Star sprite:** ¡Soy un star sprite! Estaba en mi estrella en el cielo, cuando perdió el control y se estrelló contra el suelo. Con la mitad de mi estrella clavada en el suelo, me quedé estancado. Afortunadamente, las amables criaturas de tu raza me sacaron.
   - (continue|options)
-- (Condition: Después de la primera vez:)
+- (Condition: After the first time:)
   - **Player:** ¡Hola!
   - (continue|options)
 - [Menu]: Selecciona una opción

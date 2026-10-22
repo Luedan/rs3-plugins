@@ -18,7 +18,7 @@
 
 ##### Antes de aceptar ayudar
 
-- ((Si no se ha completado la ciudad de Senntisten:))
+- ((If City of Senntisten has not been completed:))
   - Advertencia: se recomienda completar la misión Ciudad de Senntisten para comprender completamente este contenido.
   - **¿DESEAS CONTINUAR?**
     - si

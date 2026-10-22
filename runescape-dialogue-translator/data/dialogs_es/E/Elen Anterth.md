@@ -19,7 +19,7 @@
 - [Menu]: ¿Qué te gustaría decir?
   - [Choice]: ¿Cuál es tu nombre?
     - **Elen:** ¡Soy Elen! ¡Es un placer conocerte! ¡Bienvenido al gremio Max!
-    - (Condition: Si el player está en el gremio Max:)
+    - (Condition: If the player is in the Max Guild:)
       - **Elen:** Enhorabuena por haber entrado aquí. ¡Es bien merecido!
       - (continue)
     - **Player:** ¿Elen? ¿No deberías llamarte Maxine o algo así?
@@ -43,17 +43,17 @@
       - [Menu]: ¿Pagar 2.871.000 por una capa máxima?
         - [Choice]: ¡Me llevaré uno!
           - **Player:** ¡Claro!
-          - ((Sin dos espacios libres en backpack:))
+          - ((Without two free spaces in backpack:))
             - No tienes suficiente espacio en el inventario para retirar tantos.
             - **Elen:** Ah, pero necesitarás espacio en tu inventario para una capa y una capucha.
-          - ((Con dos espacios libres en backpack:))
-            - ((Sin suficiente coins:))
+          - ((With two free spaces in backpack:))
+            - ((Without enough coins:))
               - No puedes permitirte eso.
-              - ((Repetido en una ventana emergente:))
+              - ((Repeated in a pop-up:))
                 - No puedes permitirte eso.
                 - (continue)
               - **Elen:** Lo siento, cariño, pero no tienes suficiente coins contigo.
-            - ((Con suficiente coins:))
+            - ((With enough coins:))
               - (removes=2,871,000 coins) (receives=a max cape and max hood)
               - **Elen:** Gracias. ¡Disfrutar!
               - (initial)
@@ -62,9 +62,9 @@
           - (initial)
   - [Choice]: cond=Historical, only occurs when a skill is recently released|¿Qué pasó con tu capa Max?
     - **Elen:** ¡Oh, estoy entrenando a [Recently released skill]! Sin prisas, tomándome mi tiempo. ¡Probablemente me ganarás al máximo!
-    - ((Si no has conseguido que [Recently released skill] llegue a 99:))
+    - ((If you have not gotten [Recently released skill] to 99:))
       - (above|notmaxed)
-    - ((Si has conseguido [Recently released skill] a 99:))
+    - ((If you have gotten [Recently released skill] to 99:))
       - (above|maxed)
   - [Choice]: ¿Conoces a alguien llamado Max?
     - **Elen:** No te refieres a ese humano optimista de Varrock, ¿verdad?
@@ -90,7 +90,7 @@
   - [Choice]: Más...
     - [Menu]: Selecciona una opción
       - [Choice]: Acerca del sistema de tareas...
-        - ((Si el player ha completado los logros de élite de Tirannwn y no se han reclamado las recompensas:))
+        - ((If the player has completed the elite Tirannwn achievements and the rewards have not been claimed:))
           - **Player:** He completado todas las tareas Elite del conjunto Tirannwn.
           - **Elen Anterth:** Bien hecho Player. Tengo un carcaj especial reservado para ti.
           - [Elen te entrega un carcaj, algunas lámparas y muchos recursos.]
@@ -98,7 +98,7 @@
           - **Player:** ¡Gracias! ¿Qué más hace?
           - **Elen Anterth:** Debido a que completaste el conjunto de tareas Elite, podrás persuadir a Coeden para que te dé algo de logs, usar menos cargas al usar las cartas Most Wanted y tu arco y guardián de cristal sintonizados.
           - (continue)
-        - (Condition: Si el player ha perdido su carcaj Tirannwn 4:)
+        - (Condition: If the player has lost their Tirannwn quiver 4:)
           - **Elen Anterth:** ¡Ah, portador de la aljaba! ¿Cómo está yendo?
           - **Player:** Lo perdí.
           - **Elen Anterth:** ¡Oh, no!
@@ -225,7 +225,7 @@
 
 ##### Con un inverted cape desbloqueado
 
-- (Condition: Con un inverted cape desbloqueado:)
+- (Condition: With an inverted cape unlocked:)
   - [Menu]: Elige una opción:
     - [Choice]: Ver capas regulares
       - (opens=The Max Cape Marketplace)

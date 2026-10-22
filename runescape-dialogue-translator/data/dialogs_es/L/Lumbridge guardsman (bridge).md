@@ -11,7 +11,7 @@
 
 ### If the player didn't participate in the Battle of Lumbridge
 
-((Uno de los siguientes:))
+((One of the following:))
 - **Lumbridge guardsman:** ¡Aventurero, siéntete libre de ayudarnos a limpiar Lumbridge de estos duendes!
 - **Lumbridge guardsman:** Ah, duendes... ¿Por qué no se van?
 - **Lumbridge guardsman:** ¡Cuidado, estos duendes son peligrosos!

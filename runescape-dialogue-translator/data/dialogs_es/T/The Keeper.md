@@ -81,11 +81,11 @@
         - **The Keeper:** Cuando está agitado, Raksha transmite visiones de odio.
         - **The Keeper:** Recuerdo que un sacerdote, Kranon, quedó muy conmovido por la experiencia.
         - **The Keeper:** Afirmó que tenía un significado religioso para él, aunque no puedo imaginar qué. Me pregunto qué fue de él.
-        - (Condition: Si el player ha completado La maldición de la Piedra Negra:)
+        - (Condition: If the player has completed Curse of the Black Stone:)
           - **Player:** Tuvo un mal final.
           - **The Keeper:** No es de extrañar.
           - (previous)
-        - (Condition: Si el player no ha completado La Maldición de la Piedra Negra:)
+        - (Condition: If the player has not completed Curse of the Black Stone:)
           - (previous)
       - [Choice]: [Previous options]
         - (previous2|Learning about Raksha)
@@ -155,7 +155,7 @@
         - **The Keeper:** Fui envenenado, pero por las maquinaciones de Kerapac fui enterrado aquí.
         - **The Keeper:** El mismo aparato que sostiene a Raksha me sostiene a mí.
         - **The Keeper:** Estamos vinculados para siempre.
-        - (Condition: Si el player ha recuperado los diarios de Varanus)
+        - (Condition: If the player has recovered Varanus's journals)
           - **Player:** ¡Eres Varanus!
           - **Player:** Recuperé tus diarios de las ruinas de Orthen.
           - **The Keeper:** Sí. Ese era mi nombre.
@@ -167,7 +167,7 @@
           - **The Keeper:** Pero los demás no lo habrían entendido. Se habrían opuesto y tal vez incluso habrían dañado la mazmorra.
           - **The Keeper:** Una tumba vacía fue mi camuflaje final.
           - (previous)
-        - (Condition: Si el player no ha recuperado los diarios de Varanus)
+        - (Condition: If the player has not recovered Varanus's journals)
           - (previous)
       - [Choice]: [Previous options]
         - (previous2|Learning about Raksha)

@@ -38,23 +38,23 @@
   - [Choice]: ¿Puedo entrar a la cueva?
     - (above|face)
   - [Choice]: Me gustaría hacer un pago para entrar a la cueva.
-    - (Condition: Si el player ya realizó el pago máximo:)
+    - (Condition: If the player has already made the maximum payment:)
       - Ya le has pagado a Kelhar la cantidad máxima de gemas. Mata algunos dragones de piedras preciosas antes de intentar pagar nuevamente.
-    - (Condition: Si el player no tiene pago aceptable y no ha realizado el pago máximo:)
+    - (Condition: If the player does not have acceptable payment and has not made the maximum payment:)
       - Kelhar solo aceptará piedras de dragón sin cortar, ónix y gemas de hidrix incompletas como pago para ingresar a la cueva.
-    - (Condition: Si el player tiene un pago aceptable y no ha realizado el pago máximo:)
+    - (Condition: If the player does have acceptable payment and has not made the maximum payment:)
       - [Menu]: ¿QUÉ GEMA TE GUSTARÍA UTILIZAR COMO PAGO?
-        - (Condition: Si el player tiene al menos un ónix sin cortar:)
+        - (Condition: If the player has at least one uncut onyx:)
           - {{Transcript missing}}
-        - (Condition: Si el player tiene al menos un hidrix incompleto:)
+        - (Condition: If the player has at least one incomplete hydrix:)
           - {{Transcript missing}}
-        - (Condition: Si el player tiene al menos una piedra dragón sin cortar:)
+        - (Condition: If the player has at least one uncut dragonstone:)
           - Piedra de dragón sin cortar (2 muertes por gema)
             - ¿Cuántas gemas te gustaría usar?
             - (el player debe ingresar un número:)
-            - (Condition: Si el player ingresa 0:)
+            - (Condition: If the player enters 0:)
               - (end)
-            - (Condition: Si el player ingresa cualquier número distinto de 0:)
+            - (Condition: If the player enters any number other than 0:)
               - **Kelhar:** ¡Gracias! Ahora puedes matar un total de dragones de piedras preciosas [número].
         - [Choice]: No quiero pagarte ahora.
           - (end)
@@ -65,7 +65,7 @@
 
 ### Checking kills
 
-- (Condition: Si a el player no le quedan muertes:)
+- (Condition: If the player has zero kills remaining:)
   - **Kelhar:** Debes pagarme en gemas sin cortar antes de que te permita ingresar a la mazmorra nuevamente.
-- (Condition: Si a el player le quedan una o más muertes:)
+- (Condition: If the player has one or more kills remaining:)
   - **Kelhar:** Te permitiré matar otros dragones de piedras preciosas [1-60,000] antes de solicitar más pagos de gemas.

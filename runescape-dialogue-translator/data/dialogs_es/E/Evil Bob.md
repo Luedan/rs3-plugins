@@ -108,9 +108,9 @@
 ##### Después de haber recibido arándanos pero haberlos perdido o una variante del pastel
 
 - **Player:** Perdí los arándanos. ¿Puedo tener un poco más?
-- ((Sin lana dorada:))
+- ((Without golden wool:))
   - **Evil Bob:** No soy una organización benéfica. ¡Soy malvado! Tráeme más lana dorada y podrás tener más arándanos.
-- ((Con lana dorada:))
+- ((With golden wool:))
   - Evil Bob hace una seña a su sirviente para que se acerque.
   - **Sirviente:** Aquí tienes.
   - (removes=golden wool) (receives=blueberries)

@@ -34,7 +34,7 @@
           - Habla de otra cosa.
             - (previous2)
       - ¡Quiero declarar mi apoyo a Zaros!
-        - ((Si ya elegiste una facción:))
+        - ((If you already chose a faction:))
           - **Soran, Emissary of Zaros:** Actualmente eres seguidor de [faction], ¿estás seguro de que deseas cambiar?
           - Al cambiar de bando, no perderás tu progreso en el sistema de trabajos ni perderás ninguna recompensa.
           - **Seleccione una opción**
@@ -46,14 +46,14 @@
         - **Soran, Emissary of Zaros:** En nombre de los seguidores de Zaros, les doy la bienvenida. Por favor, lleve este banner para mostrar su apoyo. Tengo un regalo para ti: un libro de historias sobre los dioses y sus seguidores. Por favor, léelo. Con suerte, verás que incluso los otros dioses no son más que peones en el gran plan del Señor Vacío. Sin embargo, el libro aún no está completo. Cuando completes algunos trabajos te daré más páginas.
           - El emisario te entrega el Libro de los Dioses.
           - (previous)
-      - ((Sólo si está alineado con Zaros:))
+      - ((Only if aligned to Zaros:))
         - Habla de empleos.
-          - ((Con trabajos restantes:))
+          - ((With jobs left:))
             - {{Transcript missing}}
-          - ((Sin trabajos restantes:))
+          - ((With no jobs left:))
             - **Soran, Emissary of Zaros:** No tengo más trabajos que hacer.
             - (previous)
-      - ((Sólo si está alineado con Zaros:))
+      - ((Only if aligned to Zaros:))
         - Habla de recompensas.
           - **Seleccione una opción**
             - ¿Qué recompensas puedo obtener?
@@ -65,7 +65,7 @@
               - **Soran, Emissary of Zaros:** También puedo configurar tu título en cualquier momento.
               - (previous)
             - Habla de tu título.
-              - ((Con título no activo:))
+              - ((With title not active:))
                 - **Soran, Emissary of Zaros:** Si quieres declarar tu apoyo a Zaros ante el mundo, puedes ser conocido como Player de Zaros.
                 - **Seleccione una opción**
                   - Me gustaría activar mi título.
@@ -73,7 +73,7 @@
                     - (previous2)
                   - No quiero el título ahora.
                     - (previous2)
-              - ((Con título activo:))
+              - ((With title active:))
                 - **¿Quieres eliminar tu título?**
                   - Me gustaría eliminar mi título.
                     - **Soran, Emissary of Zaros:** Ya veo. Bueno, he eliminado tu título.
@@ -81,28 +81,28 @@
                   - Me gustaría conservar mi título.
                     - (previous2)
             - Hable sobre artículos de recompensa.
-              - ((Faltan recompensas:))
+              - ((With rewards missing:))
                 - **Elige una opción:**
-                  - ((Sólo habiendo perdido el casco:))
+                  - ((Only having lost the helmet:))
                     - He perdido el casco que me diste.
                       - **Soran, Emissary of Zaros:** Veo que has perdido tu casco. Puedo recuperarlo, pero te costará 80000 coins.
                       - **¿Quieres pagar?**
                         - si
                           - **Soran, Emissary of Zaros:** Aquí. ¡Toma este casco y úsalo con orgullo!
-                          - ((Vuelve a las opciones de recompensa.))
+                          - ((Returns to the reward options.))
                         - No
-                          - ((Vuelve a las opciones de recompensa.))
-                  - ((Sólo habiendo perdido el libro:))
+                          - ((Returns to the reward options.))
+                  - ((Only having lost the book:))
                     - He perdido el libro que me diste.
                       - **Soran, Emissary of Zaros:** Aquí está tu Libro de los Dioses.
                   - Habla de otra cosa.
                     - (previous2)
-              - ((Con todas las recompensas:))
+              - ((With all the rewards:))
                 - **Soran, Emissary of Zaros:** ¿No tienes ya todos los artículos que te di?
                   - (previous)
             - Habla de otra cosa.
               - (previous2)
-      - ((Sólo si está alineado con Zaros y ha perdido el estandarte:))
+      - ((Only if aligned to Zaros and having lost the banner:))
         - He perdido el cartel que me diste.
           - **Soran, Emissary of Zaros:** Por favor, lleve este banner para mostrar su apoyo.
           - (previous)
@@ -123,7 +123,7 @@
         - **Soran, Emissary of Zaros:** Puede ver la lista de lo que necesito o podemos discutirlo.
         - **¿Qué te gustaría hacer?**
           - Ver colecciones.
-            - ((Se abre la interfaz de Purple Stuff.))
+            - ((Purple Stuff interface opens.))
           - Habla de colecciones.
             - **Soran, Emissary of Zaros:** Busco todo lo que puedas encontrar en el fuerte enterrado de Kharid-et.
             - **Player:** ¡Eso es fácil de recordar! Me gusta cuando es fácil. Pero sabes quién administra ese sitio, ¿verdad?
@@ -132,26 +132,26 @@
       - ¿Cuáles son las recompensas de tu colección?
         - **Soran, Emissary of Zaros:** Hay una reliquia que podría darte y de la que al monolito le gustaría conocer.
         - **Soran, Emissary of Zaros:** Aparte de eso, tengo otros artículos más... interesantes.
-        - ((Antes de recibir el sello del Praefectus Praetorio:))
+        - ((Before receiving the seal of the Praefectus Praetorio:))
           - **Soran, Emissary of Zaros:** Tengo un Sello del Praefectus Praetorio. Podrás tenerlo a cambio de completar la primera de mis colecciones.
           - **Soran, Emissary of Zaros:** Una vez perteneció a un tal Mahjarrat a quien estoy seguro de que ambos conocemos íntimamente. Esta reliquia, digamos, mejorará tu reputación.
           - (continue)
-        - ((Después de recibir el sello del Praefectus Praetorio:))
+        - ((After receiving the seal of the Praefectus Praetorio:))
           - **Soran, Emissary of Zaros:** Espero que el sello que te entregué esté funcionando bien. Quienes se ocupan de la reputación no tendrán más remedio que reconocer su importancia.
           - (continue)
-        - ((Antes de recibir baterías de pilón de la segunda y tercera colección:))
+        - ((Before receiving pylon batteries from the second and third collections:))
           - **Soran, Emissary of Zaros:** Para mi segunda y tercera colección, he venido para ti baterías de pilón. Puede usarlos en Kharid-et para alimentar las torres de luz o de protección, según le convenga.
           - (continue)
-        - ((Después de recibir baterías de pilón de la segunda y tercera colección:))
+        - ((After receiving pylon batteries from the second and third collections:))
           - **Soran, Emissary of Zaros:** Espero que hayas hecho un buen uso de esas baterías de pilón que te cambié.
           - (continue)
-        - ((Antes de recibir una pieza Inquisitor staff de la cuarta colección:))
+        - ((Before receiving an Inquisitor staff piece from the fourth collection:))
           - **Soran, Emissary of Zaros:** Y para mi colección final, tengo para ustedes una pieza del staff de un inquisidor...
           - **Player:** Oh, ¿qué es eso?
           - **Soran, Emissary of Zaros:** La Inquisición era una rama de la guardia pretoriana del imperio. Viajó por el mundo en busca de poderosos objetos mágicos para, ah, confiscar.
           - **Soran, Emissary of Zaros:** Como tal, las armas mágicas que empuñaban estaban un paso por encima. Eran particularmente expertos en castigar a aquellos lo suficientemente tontos como para oponerse a ellos, digamos, cara a cara.
           - (continue)
-        - ((Después de recibir una pieza Inquisitor staff de la cuarta colección:))
+        - ((After receiving an Inquisitor staff piece from the fourth collection:))
           - **Soran, Emissary of Zaros:** Me pregunto: ¿ya has creado tu propio staff de inquisidor? Sería apropiado verte empuñar uno...
           - (continue)
         - **Soran, Emissary of Zaros:** Y además, te cambiaré cronotas por todo lo que me traigas.

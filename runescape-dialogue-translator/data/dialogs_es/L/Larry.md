@@ -16,12 +16,12 @@
 
 - [Menu]: Quiero hablar con Larry sobre:
   - [Choice]: Frío War
-    - (Condition: Sin nivel 10 Hunter:)
+    - (Condition: Without level 10 Hunter:)
       - [Debes tener el nivel 10 Hunter para comenzar esta misión.]
-    - (Condition: Con nivel 10 Hunter:)
+    - (Condition: With level 10 Hunter:)
       - [Debes tener el nivel 30 Agility para comenzar esta misión.]
       - **Larry:** Estoy buscando un aventurero experimentado y tú no lo eres. Vuelve cuando seas más capaz.
-    - (Condition: Con nivel 30 Agility:)
+    - (Condition: With level 30 Agility:)
       - [Debes tener el nivel 34 Construction para comenzar esta misión.]
       - **Larry:** Estoy buscando un aventurero experimentado y tú no lo eres. Vuelve cuando seas más capaz.
   - [Choice]: El escondite del pingüino
@@ -43,9 +43,9 @@
     - **Larry:** Te daré un dispositivo que puede rastrear a los pingüinos espías y ofrecerte pistas sobre sus ubicaciones. Los pingüinos valen entre 1 y 3 Penguin Points dependiendo de lo difíciles que sean de encontrar.
     - **Larry:** Infórmate aquí y te recompensaré por tus esfuerzos.
     - **Player:** Genial, comenzaré de inmediato.
-    - (Condition: Sin espacio en backpack:)
+    - (Condition: Without space in backpack:)
       - **Larry:** Necesito darte un dispositivo pero no tienes espacio. Ven y habla conmigo una vez que hayas hecho espacio, o puedes reclamar uno en la tienda.
-    - (Condition: Con espacio en backpack:)
+    - (Condition: With space in backpack:)
       - **Larry:** Espera, ahí. Toma este dispositivo.
       - (receives=penguin spy device)
       - [Larry te entrega un dispositivo espía para pingüinos.]
@@ -61,26 +61,26 @@
     - (arriba)
   - [Choice]: El escondite del pingüino
     - **Larry:** ¿Tienes noticias? ¿Has encontrado más?
-    - (Condition: Si el player recibe el dispositivo espía pingüino por primera vez:)
+    - (Condition: If the player is receiving the penguin spy device for the first time:)
       - **Larry:** Deberías llevar este dispositivo para espiar a los pingüinos. Debería resultarte útil ya que tiene una serie de funciones útiles que te ayudarán en tu misión.
       - **Larry:** Primero, proporcionará pistas sobre todas las ubicaciones de los pingüinos. No puede localizarlo con exactitud, pero debería brindarle el área general para comenzar su búsqueda.
       - **Larry:** Una vez que estés en el área, puedes iniciar un escaneo que buscará en tus inmediaciones e identificará los pingüinos cercanos.
       - **Larry:** A medida que veas más pingüinos, te ofreceré una actualización del rango de escaneo y una nueva función de descarga que congelará a los pingüinos en su lugar.
-      - (Condition: Sin espacio en backpack:)
+      - (Condition: Without space in backpack:)
         - **Larry:** Parece que tu backpack está lleno. No te preocupes, guardaré esto por ti. Después de todo, ¡nunca se sabe de dónde podría venir el próximo pingüino!
         - (continue|standard)
-      - (Condition: Con espacio en backpack:)
+      - (Condition: With space in backpack:)
         - (receives=penguin spy device)
         - [Larry te entrega un dispositivo espía para pingüinos.]
         - (continue|standard)
-    - (Condition: Si el player ha perdido el dispositivo espía pingüino:)
+    - (Condition: If the player has lost the penguin spy device:)
       - **Larry:** ¡Espera! ¿Dónde está tu dispositivo espía? ¿Cayó en manos enemigas?
       - **Player:** Sólo me di vuelta por un segundo...
       - **Larry:** Tienes suerte de que sean tan fáciles de hacer. Sólo un poco de papel de aluminio y listo.
-      - (Condition: Sin espacio en backpack:)
+      - (Condition: Without space in backpack:)
         - **Larry:** Parece que tu backpack está lleno. No te preocupes, guardaré esto por ti. Después de todo, ¡nunca se sabe de dónde podría venir el próximo pingüino!
         - (continue|standard)
-      - (Condition: Con espacio en backpack:)
+      - (Condition: With space in backpack:)
         - (receives=penguin spy device)
         - [Larry te entrega un dispositivo espía para pingüinos.]
         - (continue|standard)
@@ -88,7 +88,7 @@
       - [Choice]: He encontrado más pingüinos.
         - **Player:** He encontrado más pingüinos.
         - **Larry:** ¿Más? Se están propagando muy rápido.
-        - (Condition: Primera vez después de espiar a un pingüino:)
+        - (Condition: First time after spying on a penguin:)
           - **Player:** ¡Eso no es todo! ¡Descubrí que hay pingüinos agentes secretos que también han comenzado a aparecer en Gielinor!
           - **Larry:** ¡Galletas de gambas! ¿Seguramente no? Escuché los susurros pero nunca creí que ya hubieran llegado a esta etapa.
           - **Player:** ¿Qué debemos hacer al respecto?
@@ -98,10 +98,10 @@
           - **Player:** Lo siento. Enfoque total a partir de ahora.
           - (continue)
         - **Player:** Encontré [número] pingüino[s] esta semana.
-        - (Condition: Con puntos para gastar:)
+        - (Condition: With points to spend:)
           - **Larry:** ¡Genial! Tienes puntos [número] para gastar. Quizás deberías pensar en reclamar tu recompensa.
           - (continue)
-        - (Condition: Sin puntos para gastar:)
+        - (Condition: Without points to spend:)
           - **Larry:** Has encontrado muchos espías. Pero no tienes puntos de pingüino ahorrados. ¡Sigue buscando!
           - (continue)
         - [Menu]: Selecciona una opción
@@ -113,7 +113,7 @@
             - (below|nevermind)
       - [Choice]: Tengo problemas para encontrar a los pingüinos; ¿Puedo tener una pista? {{anchor|hint}}
         - **Player:** Tengo problemas para encontrar a los pingüinos; ¿Puedo tener una pista?
-        - ((Se muestra uno de los siguientes, dependiendo de la ubicación de los pingüinos:))
+        - ((One of the following is shown, depending on the location of the penguins:))
           - **Larry:** He oído que hay un pingüino ubicado alrededor de un pueblo entre una gran torre y la mansión de vampyre.
           - **Larry:** He oído que hay un pingüino ubicado alrededor de Ardougne.
           - **Larry:** He oído que hay un pingüino ubicado alrededor de Feldip Hills, cerca de Gu'Tanoth.
@@ -178,7 +178,7 @@
         - **Larry:** Siempre que veas un pingüino, espíalo. Están bien entrenados y cambiarán de posición cada semana, así que mantén los ojos bien abiertos.
         - **Larry:** Te di un dispositivo que puede rastrear a los pingüinos espías y ofrecerte pistas sobre su ubicación. Los pingüinos valen entre 1 y 3 Penguin Points dependiendo de lo difíciles que sean de encontrar.
         - **Larry:** Infórmate aquí y te recompensaré por tus esfuerzos.
-        - (Condition: Si no se completa la Diplomacia Lunar:)
+        - (Condition: If Lunar Diplomacy is not completed:)
           - **Larry:** Una última cosa. Si alguna vez descubres un lugar llamado Lunar Isle, es posible que obtengas acceso a un hechizo que te ayudará a ponerte en contacto conmigo desde cualquier parte del mundo. No puedo decir más sobre eso, puede que haya espías cerca.
       - [Choice]: No importa.{{anchor|nevermind}}
         - **Player:** No importa.
@@ -205,4 +205,4 @@
 
 ##### Después de hablar con Larry sobre Penguin Hide and Seek
 
-- ((Se abre la interfaz de recompensas del Spy Club.))
+- ((Spy Club reward interface opens.))

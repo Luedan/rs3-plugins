@@ -11,7 +11,7 @@
 
 ### Standard dialogue
 
-- ((Uno de los siguientes se ve al azar:))
+- ((One of the following is seen randomly:))
   - Si tan solo hubieran entrenado a Invention, piensas para ti mismo. Podrían construir una máquina que les ahorraría todo este trabajo manual. Ah, bueno.
   - El sudor gotea por la cara del trabajador. Hace bastante calor y uno se pregunta cómo es que todavía no se han desmayado.
   - El trabajador te mira fijamente, como preguntándose por qué simplemente lo miras fijamente en lugar de ayudarlo.
@@ -19,7 +19,7 @@
 
 ### Delivering a barrel
 
-- ((Uno de los siguientes se ve al azar:))
+- ((One of the following is seen randomly:))
   - **Nen:** {{RSChat|Agh... My back...}}
   - **Nen:** {{RSChat|Here's some more water!}}
   - **Nen:** {{RSChat|I could really use a break...}}
@@ -30,5 +30,5 @@
 - (removes=bucket of water)
 - **Nen:** ¡Oye, gracias! Agradezco la ayuda.
 - **Player:** ¡No hay problema!
-- ((Si Primitive Technology no se ha completado:))
+- ((If Primitive Technology hasn't been completed:))
   - ¡Felicitaciones! Has completado: 'Tecnología primitiva' - Ayuda a Nen a entregar agua a Naida.

@@ -53,7 +53,7 @@
             - (abajo)
           - [Choice]: Hasta luego.
             - **Player:** ¡Hasta luego!
-            - ((Evil Dave responderá con uno de los siguientes:))
+            - ((Evil Dave will respond with one of the following:))
               - (Diálogo 1 :)
                 - **Evil Dave:** ¡Por supuesto que volverás! ¡No hay escapatoria de mi PODER OSCURO!
               - (Diálogo 2 :)

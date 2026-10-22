@@ -12,10 +12,10 @@
 ### Before Tree Gnome Village
 
 - **Player:** Hola.
-- (Condition: Fuera del laberinto:)
+- (Condition: Outside the maze:)
   - **Elkoy:** Hola, bienvenido a nuestro laberinto. Soy Elkoy el gnomo del árbol.
   - (continue)
-- (Condition: Dentro del laberinto:)
+- (Condition: Inside the maze:)
   - **Elkoy:** Hola, bienvenido a nuestro pueblo. Soy Elkoy el gnomo del árbol.
   - (continue)
 - **Player:** No había oído hablar de alguien de tu clase antes.
@@ -28,10 +28,10 @@
 ### After Tree Gnome Village
 
 - **Player:** Hola Elkoy.
-- (Condition: Fuera del laberinto:)
+- (Condition: Outside the maze:)
   - **Elkoy:** Hola, espero que la vida te esté tratando bien. ¿Quieres que te muestre el camino al pueblo?
   - (continue)
-- (Condition: Dentro del laberinto:)
+- (Condition: Inside the maze:)
   - **Elkoy:** Hola, espero que la vida te esté tratando bien. ¿Quieres que te muestre el camino para salir del pueblo?
   - (continue)
 - [Menu]: Selecciona una opción
@@ -41,9 +41,9 @@
     - (Action: La pantalla se vuelve negra.)
     - [Elkoy te acompaña a través del laberinto...]
     - (Action: La pantalla se desvanece del negro.)
-    - (Condition: Si el player viajó desde fuera del laberinto:)
+    - (Condition: If the player travelled from outside the maze:)
       - **Elkoy:** Aquí estamos. Siéntase libre de echar un vistazo a su alrededor.
-    - (Condition: Si el player viajó desde el interior del laberinto:)
+    - (Condition: If the player travelled from inside the maze:)
       - **Elkoy:** Aquí estamos. Que tengas un viaje seguro.
   - [Choice]: No, gracias Elkoy.
     - **Player:** No, gracias Elkoy.

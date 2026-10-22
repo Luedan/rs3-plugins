@@ -12,22 +12,22 @@
 ### Pickpocket
 
 - (Action: el player comienza a robar el Stealthy Spy.)
-- (Condition: Por cada intento exitoso:)
+- (Condition: For each successful attempt:)
   - Escoges el bolsillo del objetivo.
   - Arrebatas las notas de los espías. Untarlos en chocolate sin posibilidad de reparación.
-  - (Condition: Con menos de 30.000 tokens de primavera:)
+  - (Condition: With under 30,000 spring tokens:)
     - Se ha agregado lo siguiente a su bolsa de divisas: [número] Fichas de primavera.
     - (continue)
-  - (Condition: Con al menos 30.000 fichas de primavera:)
+  - (Condition: With at least 30,000 spring tokens:)
     - Ha alcanzado el límite flexible del token Spring de 30 000. Debes gastar algunas fichas en la tienda de Gummy antes de poder ganar más.
-    - (ventana emergente)
-      - (Ventana emergente: has alcanzado el límite flexible de tokens de primavera de 30 000. Debes gastar algunos tokens en la tienda de Gummy antes de poder ganar más.|advertencia=yes)
+    - (pop-up)
+      - (Pop-up: You have reached the Spring token soft cap of 30,000. You need to spend some tokens in Gummy's store before you can earn more.|warning=yes)
       - (continue)
-  - (Condition: Si la probabilidad de éxito cae por debajo del 100%:)
+  - (Condition: If the success chance drops below 100%:)
     - Su objetivo carterista se da cuenta de su presencia.
-- (Condition: Con backpack completo:)
+- (Condition: With full backpack:)
   - No puedes seguir robando carteras porque tienes un inventario completo.
-- (Condition: Ser atrapado:)
+- (Condition: Getting caught:)
   - **Stealthy Spy:** {{RSChat|What do you think you're doing?}}
   - (Action: El Stealthy Spy golpea el player.)
   - No logras robarle al objetivo.

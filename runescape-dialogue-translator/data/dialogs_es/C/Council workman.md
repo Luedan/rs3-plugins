@@ -20,17 +20,17 @@
     - El trabajador te guiña un ojo.
     - **Council workman:** ¡Solo asegúrate de no darme nada de esa basura sin alcohol de ese tipo poison salesman en la taberna!
   - [Choice]: Acerca del sistema de tareas...
-    - ((Si el player ha completado los logros fáciles de Fremennik y no se han reclamado las recompensas:))
+    - ((If the player has completed the easy Fremennik achievements and the rewards have not been claimed:))
       - **Player:** He completado todas las tareas fáciles del conjunto Fremennik.
       - **Council workman:** Ah, es bueno escucharlo. Puedes usar Fremennik sea boots ahora; tengo un par para ti.
-      - (Condition: Si el player no tiene suficiente espacio en backpack:)
+      - (Condition: If the player does not have sufficient space in backpack:)
         - **Council workman:** Aunque tendrás que regresar cuando tengas espacio para tomarlos.
-      - (Condition: Si el player tiene suficiente espacio en backpack:)
+      - (Condition: If the player does have sufficient space in backpack:)
         - (receives=Fremennik sea boots 1 and Antique lamp (Easy Fremennik Tasks))
         - **Council workman:** Son raras esas botas. Supongo que impresionarán a los Fremennik y sus extraños espíritus. Mírelos con atención, vea si no puede descubrir lo que hacen.
         - **Player:** ¡Gracias!
         - (continue)
-    - (Condition: Si el player ha perdido su Fremennik sea boots 1:)
+    - (Condition: If the player has lost their Fremennik sea boots 1:)
       - **Council workman:** ¿Tú otra vez? ¿Cómo te fue con esas botas?
       - **Player:** Los perdí.
       - **Council workman:** ¿Los perdiste? Bueno, da la casualidad de que encontré otro par. Cuídalos mejor esta vez.

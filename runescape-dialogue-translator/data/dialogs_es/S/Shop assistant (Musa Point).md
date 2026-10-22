@@ -11,10 +11,10 @@
 
 ### At Musa Point
 
-- (Condition: Antes de una danza del vacío:)
+- (Condition: Before A Void Dance:)
   - **Shop assistant:** ¿Puedo ayudarte en algo?
   - (continue)
-- (Condition: Después de una danza del vacío:)
+- (Condition: After A Void Dance:)
   - **Shop assistant:** Hoy hace un hermoso día, ¿no? ¿Puedo hacer algo por ti?
   - (continue)
 - [Menu]: Selecciona una opción

@@ -32,9 +32,9 @@
 #### Después de Roving Elves, antes de Plague's End
 
 - **Player:** Hola de nuevo.
-- (Condition: Si el player decidió obtener un arco de cristal de Islwyn al completar Roving Elves:)
+- (Condition: If the player chose to obtain a crystal bow from Islwyn upon completing Roving Elves:)
   - **Islwyn:** Ah, me alegro de verte de regreso. ¿Buscas otro arco o uno de mis escudos?
-- (Condition: Si el player elige obtener una protección de cristal de Islwyn al completar Roving Elves:)
+- (Condition: If the player chose to obtain a crystal ward from Islwyn upon completing Roving Elves:)
   - **Islwyn:** Ah, me alegro de verte de regreso. ¿Buscas otro escudo o uno de mis arcos?
 - [Menu]: Elige una opción:
   - [Choice]: Uno de tus arcos, por favor.
@@ -42,12 +42,12 @@
     - **Islwyn:** Son 1.000.000 coins cada uno para los nuevos.
     - [Menu]: Selecciona una opción
       - [Choice]: ¿Pagar 1.000.000 coins?
-        - (Condition: Si el player tiene al menos 1.000.000 coins:)
+        - (Condition: If the player has at least 1,000,000 coins:)
           - **Player:** Aquí hay 1.000.000 coins.
           - Entregas 1.000.000 coins y recibes a cambio un lazo de cristal.
           - **Islwyn:** Buena caza.
           - **Player:** Gracias... adiós.
-        - (Condition: Si el player no tiene al menos 1.000.000 coins:)
+        - (Condition: If the player doesn't have at least 1,000,000 coins:)
           - **Player:** Lo siento, pero no tengo tanto.
           - No puedes permitirte eso.
           - **Islwyn:** Bueno, lo siento, pero no puedo dejarlo pasar por menos.
@@ -59,12 +59,12 @@
     - **Islwyn:** Son 1.000.000 coins cada uno para los nuevos.
     - [Menu]: Selecciona una opción
       - [Choice]: ¿Pagar 1.000.000 coins?
-        - (Condition: Si el player tiene al menos 1.000.000 coins:)
+        - (Condition: If the player has at least 1,000,000 coins:)
           - **Player:** Aquí hay 1.000.000 coins.
           - Entregas 1.000.000 coins y obtienes a cambio una protección de cristal.
           - **Islwyn:** Cuídate.
           - **Player:** Gracias... adiós.
-        - (Condition: Si el player no tiene al menos 1.000.000 coins:)
+        - (Condition: If the player doesn't have at least 1,000,000 coins:)
           - **Player:** Lo siento, pero no tengo tanto.
           - No puedes permitirte eso.
           - **Islwyn:** Bueno, lo siento, pero no puedo dejarlo pasar por menos.
@@ -73,20 +73,20 @@
         - (end)
   - [Choice]: No, sólo estoy de paso.
     - **Player:** No, solo estoy de paso.
-    - (Condition: Si el player aún no ha iniciado Mourning's End Parte I y no se ha negado a aceptar la misión de Eluned:)
+    - (Condition: If the player has yet to start Mourning's End Part I and has not declined to accept the quest from Eluned:)
       - **Islwyn:** Bueno, que bueno verte de nuevo...<br> Eluned me dice que Arianwyn te está buscando. Quizás ella sepa por qué.
-    - (Condition: De lo contrario:)
+    - (Condition: Otherwise:)
       - **Islwyn:** Bueno, es bueno verte de nuevo. Espero que todo te vaya bien?
       - **Player:** Tan bien como se puede esperar.
 
 #### Después del fin de la plaga
 
 - **Player:** Hola de nuevo.
-- (Condition: Si obtuviste un arco de cristal de Islwyn al completar Roving Elves:)
+- (Condition: If you obtained a crystal bow from Islwyn upon completing Roving Elves:)
   - **Islwyn:** Ah, me alegro de verte de regreso. ¿Buscas otro arco o uno de mis escudos?
-- (Condition: Si obtuviste una protección de cristal de Islwyn al completar Roving Elves:)
+- (Condition: If you obtained a crystal ward from Islwyn upon completing Roving Elves:)
   - **Islwyn:** Ah, me alegro de verte de regreso. ¿Buscas otro escudo o uno de mis arcos?
-- (Condition: Seleccione una opción:)
+- (Condition: Select an option:)
   - [Choice]: Uno de tus arcos, por favor.
     - (arriba)
   - [Choice]: Me gustaría comprar un escudo.
@@ -96,10 +96,10 @@
     - **Islwyn:** ¿Por qué? ¿Qué he hecho yo para merecer tan gran honor?
     - **Player:** Pero eres nieto de la Reina Glarial... es tu derecho de nacimiento.
     - **Islwyn:** Rápidamente asumes que los elfos comparten tus costumbres. Mi sangre no me concede ningún privilegio especial. ¿Cómo podrían confiar en mí en una posición de poder si no he demostrado ser un líder sabio? Si King Lathas no hubiera heredado un trono, es probable que tus tierras del este se hubieran ahorrado muchas penas.
-    - (Condition: Si perdonaste a King Lathas en Plague's End:)
+    - (Condition: If you spared King Lathas in Plague's End:)
       - **Islwyn:** Me sorprende que le hayas mostrado misericordia.
         - (continue)
-    - (Condition: Si mataste a King Lathas en Plague's End:)
+    - (Condition: If you killed King Lathas in Plague's End:)
       - **Islwyn:** Siento que los humanos ponen demasiado poder en manos de los monarcas. Presumiblemente estás de acuerdo, King Slayer.
         - (continue)
     - **Islwyn:** Arianwyn ha demostrado ser notablemente apto para el señorío. Luchó contra la tiranía de Lord Iorwerth y, con no poca ayuda de su parte, llevó a nuestra gente de regreso a Prifddinas. Estoy orgulloso del logro de Lord Cadarn y se ha ganado mi respeto.
@@ -114,9 +114,9 @@
 - **Player:** Hola Islwyn.
 - **Islwyn:** Bien conocido Player.
 - **Player:** ¿Dónde está Eluned? ¿No está ella normalmente aquí?
-- (Condition: Si el player recibió la carta de Eluned y aún no la ha destruido:)
+- (Condition: If the player received the Eluned's letter and has not yet destroyed the letter:)
   - **Islwyn:** La carta debe cubrir todo.
-- (Condition: Si el player no ha recibido o ha destruido la carta de Eluned:)
+- (Condition: If the player has not received, or has destroyed Eluned's letter:)
   - **Islwyn:** Sí... ella quería que te diera esto. Lo explica todo.
   - [Islwyn te entrega una carta de Eluned.]
   - **Islwyn:** Prifddinas es todo un espectáculo. Sin duda está a la altura de las expectativas.
@@ -171,22 +171,22 @@
 
 #### Usar un objeto hecho a partir de una semilla de cristal sintonizada o una semilla de cristal sobre él.
 
-- ((Lo siguiente se muestra en una interfaz titulada "¿RECARGAR O REVERTIR?":))
-  - (Condition: Con el artículo completamente cargado:)
+- ((The following is shown in an interface titled "RECHARGE OR REVERT?":))
+  - (Condition: With the item fully charged:)
     - Este artículo está completamente cargado.
       - [Choice]: RECARGAR
-        - ((La opción está deshabilitada.))
-  - (Condition: Con el artículo no completamente cargado:)
+        - ((The option is disabled.))
+  - (Condition: With the item not fully charged:)
     - Artículo de recarga para [número] coins.
       - [Choice]: RECARGAR
-        - (Condition: Sin suficiente coins:)
-          - ((La interfaz se cierra.))
+        - (Condition: Without enough coins:)
+          - ((The interface closes.))
           - **Islwyn:** No tienes suficiente coins para cubrir ese costo, lo siento.
-        - (Condition: Con suficiente coins:)
-          - ((La interfaz se cierra.))
+        - (Condition: With enough coins:)
+          - ((The interface closes.))
           - (Action: El artículo está recargado.)
           - (removes=coins corresponding to the cost)
-          - (Condition: Si el coins fue sacado de la bolsa de dinero:)
+          - (Condition: If the coins were taken from money pouch:)
             - [número] coins se han eliminado de su bolsa de dinero.
   - Revierta este artículo a semilla (pierde todos los cargos).
     - [Choice]: REVERTIR

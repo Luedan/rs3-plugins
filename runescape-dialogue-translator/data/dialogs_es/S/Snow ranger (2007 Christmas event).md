@@ -8,15 +8,15 @@
 
 ## Dialogue Transcript
 
-- (Condition: fuera de combate)
+- (Condition: Out of combat)
   - **Snow ranger:** ¡Ja, ja! Ninguno es rival para mi arco.
   - (end)
-- (Condition: Si luchas contra un guerrero)
+- (Condition: If fighting a warrior)
   - **Snow ranger:** Tu espada carece de delicadeza. Ganaré el día.
   - (end)
-- (Condition: Si peleas contra un guardabosques)
+- (Condition: If fighting a ranger)
   - **Snow ranger:** Probemos nuestros arcos unos contra otros.
   - (end)
-- (Condition: Si luchas contra un mago)
+- (Condition: If fighting a mage)
   - **Snow ranger:** Tus encantamientos no son rival para mis flechas, hechicero.
   - (end)

@@ -15,8 +15,8 @@
 #### Antes del prisionero de Glouphrie
 
 - **Glouron:** Ahora no, ahora no, estoy ocupado.
-- (ventana emergente)
-  - (Ventana emergente: debes completar <br>Prisionero de Glouphrie para hablar <br> con este gnomo.|advertencia=yes)
+- (pop-up)
+  - (Pop-up: You must complete <br>Prisoner of Glouphrie to talk <br>to this gnome.|warning=yes)
 
 #### Después del prisionero de Glouphrie
 
@@ -61,7 +61,7 @@
 
 - {{RSFontAchievement|Power of Three Spirits}}
 - **Glouron:** Ah, sí, tú. Como ya sabes cómo cultivar árboles espirituales, ¡aquí tienes un pequeño consejo que aprendí para permitirte cultivar otro!
-- ((Se muestra en una ventana emergente:))
+- ((Shown in a pop-up:))
   - Ahora puedes plantar un spirit tree adicional.
 - (continuea|After The Prisoner of Glouphrie)
 

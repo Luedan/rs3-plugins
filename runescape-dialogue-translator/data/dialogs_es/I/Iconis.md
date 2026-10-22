@@ -19,11 +19,11 @@
 - [Menu]: Selecciona una opción
   - [Choice]: ¡Sí, por favor!
     - **Player:** ¡Sí, por favor!
-    - (Condition: Si el player no ha tomado una foto en las últimas dos horas:)
+    - (Condition: If the player hasn't taken a picture in the last two hours:)
       - **Iconis:** ¡Simplemente ingresa a la tienda, ajusta tu ropa y presiona el botón "Tomar foto" cuando estés listo!
       - **Player:** ¡Gracias!
       - (Action: el player entra al fotomatón.)
-    - (Condition: Si el player ha tomado una fotografía en las últimas dos horas:)
+    - (Condition: If the player has taken a picture in the last two hours:)
       - **Iconis:** Lo sentimos, te han tomado una foto recientemente. Podrás volver a tomarlo en [time remaining].
   - [Choice]: No, gracias.
     - **Player:** No, gracias.

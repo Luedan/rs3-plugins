@@ -18,7 +18,7 @@
     - **Player:** ¡Busco conocimiento y poder!
     - **Seer:** El conocimiento proviene de la experiencia, el poder proviene de las hachas de batalla.
   - [Choice]: Acerca del sistema de tareas...
-    - (Condition: Si el player ha completado las tareas fáciles del conjunto Seers' Village y las recompensas no han sido reclamadas:)
+    - (Condition: If the player has completed the easy tasks in the Seers' Village set and the rewards not claimed:)
       - **Player:** Hola. Completé las tareas fáciles en el conjunto Aldea de los videntes.
       - **Seer:** Bien hecho, aventurero. Es evidente que eres un hombre de gran sabiduría. Tengo un regalo para ti.
       - [El vidente te entrega una diadema de aspecto extraño y una lámpara oxidada.]
@@ -29,14 +29,14 @@
       - **Player:** ¿Lino? ¿Qué clase de nombre es ese para una persona?
       - **Seer:** Lo sé, lo sé. El pobre niño es un alma sencilla: le encanta recoger lino. Me temo que demasiado.
       - (continue)
-    - (Condition: Si el player ha perdido la diadema 1 de su Seer:)
+    - (Condition: If the player has lost their Seer's headband 1:)
       - **Player:** He perdido la diadema de mi vidente.
       - **Seer:** ¡No temas! Puedo darte uno nuevo. Nosotros, los videntes, somos olvidadizos, así que tengo muchos.
       - (receives=Seer's headband 1)
       - [El vidente te entrega una diadema de aspecto extraño.]
       - **Player:** ¡Gracias!
       - (continue)
-    - (Condition: De lo contrario:)
+    - (Condition: Otherwise:)
       - **Seer:** ¿Cómo disfrutas tu diadema?
       - **Player:** ¡Me encanta!
       - (continue)

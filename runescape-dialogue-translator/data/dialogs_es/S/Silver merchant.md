@@ -21,7 +21,7 @@
     - **Player:** Hola de nuevo.
     - **Silver merchant:** Hola, espero que Jorral esté satisfecho con ese diario.
     - **Player:** Estoy seguro de que ha sido un hallazgo valioso.
-    - (Condition: Si la llave encantada se ha perdido:)
+    - (Condition: If the enchanted key has been lost:)
       - **Player:**Lo que vine a preguntar fue: Perdí esa llave que me diste.
       - **Silver Merchant:**Dios mío. No puedo ayudarte ahí.
       - **Player:**Supongamos que puedo charlar con Jorral, tal vez tenga ideas para conseguir otro.

@@ -80,12 +80,12 @@
 
 ### Attempting to add to tool belt
 
-- ((Si el player no ha aprendido a hacerlo desde un slayer master:))
+- ((If the player has not learned how to do so from a slayer master:))
   - Un slayer master le debe enseñar cómo agregar esto a su cinturón de herramientas.
   - (ventana emergente)
     - {{Popup|You need to be taught how to add this to your tool belt by a slayer master.|warning=yes}}
   - (end)
-- ((Lo siguiente se muestra en una interfaz titulada 'AÑADIR AL CINTURÓN DE HERRAMIENTAS':))
+- ((The following is shown in an interface titled 'ADD TO TOOL BELT':))
   - ¿Está seguro de que desea agregar esto a su cinturón de herramientas?<br><br>No podrá reclamarlo.
     - [Choice]: CANCELAR
       - (end)

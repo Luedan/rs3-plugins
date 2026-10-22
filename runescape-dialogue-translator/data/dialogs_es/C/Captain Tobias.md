@@ -17,10 +17,10 @@
 - [Menu]: Selecciona una opción
   - [Choice]: Sí, por favor.
     - **Player:** Sí, por favor.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - **Player:** Dios mío, parece que no tengo suficiente dinero.
       - No puedes permitirte eso.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - No puedes permitirte eso.
     - ''(Si has completado las tareas fáciles de Karamja:)
       - **Captain Tobias:** Espera un momento, ¿no te ganaste los guantes Karamja? Pensé que te había visto ayudando en la isla. Puedes comprar a mitad de precio: 15 coins.
@@ -43,12 +43,12 @@
 - *(Si has completado las tareas fáciles de Karamja pero no tienes 15 coins :)*
   - No puedes permitirte eso.
   - No tienes suficiente coins para pagar el pasaje. Necesitas 15 coins habiendo ganado los guantes Karamja.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - No puedes permitirte eso.
 - ''(Sin las tareas fáciles de Karamja y sin 30 coins :)
   - No puedes permitirte eso.
   - No tienes suficiente dinero para eso.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - No puedes permitirte eso.
 - *(Si has completado las tareas fáciles de Karamja:)*
   - El Capitán sonríe al reconocer que has ganado guantes Karamja y te deja pasar a mitad de precio: 15 coins.
@@ -58,11 +58,11 @@
 ### Treasure Trails
 
 - (removes=the old clue scroll (easy))
-- ((Si el rastro continúa:))
+- ((If the trail continues:))
   - (receives=a new clue scroll (easy))
   - [¡Bien hecho, amigo! Aquí tienes.]
   - (continue)
-- ((Si el sendero termina:))
+- ((If the trail ends:))
   - (receives=reward casket (easy))
   - [¡Has encontrado un ataúd!]
   - (continue)

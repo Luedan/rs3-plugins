@@ -18,7 +18,7 @@
     - (initial)
   - [Choice]: No estoy seguro, esperaba que pudieras decirme.
     - **Sir Prysin:** Bueno, nunca te había conocido antes.
-    - (Condition: Si el player empuña Silverlight:)
+    - (Condition: If the player is wielding Silverlight:)
       - **Sir Prysin:** Aunque veo que empuñas Silverlight. Parece que la espada de mi antepasado ha encontrado un nuevo campeón.
       - **Sir Prysin:{{anchor|sought}}** Una vez intenté reclamar Silverlight. A los espíritus no les importó mi herencia y juzgaron mi valor.
       - **Sir Prysin:** Me encontré con falta. Dime. ¿Qué pruebas enfrentaste?
@@ -35,7 +35,7 @@
           - **Sir Prysin:** Y cuanto menos se hable del reconocimiento médico, mejor...
           - **Player:** Bueno, eso fue sorprendente.
           - (initial)
-    - (Condition: Si el player empuña Darklight:)
+    - (Condition: If the player is wielding Darklight:)
       - **Sir Prysin:** Veo que manejas Silverlight, aunque ha cambiado mucho desde la última vez que lo vi. Parece que la espada de mi antepasado ha encontrado un nuevo campeón.
       - (continuea|sought)
   - [Choice]: Adiós.
@@ -45,10 +45,10 @@
 
 - **Sir Prysin:** Has venido al lugar correcto, ¡bien hecho!
 - (removes=the old clue scroll (hard))
-- ((Si el rastro continúa:))
+- ((If the trail continues:))
   - (receives=a new clue scroll (hard))
   - [¡Sir Prysin te ha dado otro pergamino de pistas!]
-- ((Si el sendero termina:))
+- ((If the trail ends:))
   - (receives=reward casket (hard))
   - [¡Has encontrado un ataúd!]
 

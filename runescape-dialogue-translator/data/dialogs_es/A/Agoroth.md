@@ -11,14 +11,14 @@
 
 ### On defeat on a free world
 
-- (Condition: Primera derrota:)
+- (Condition: First defeat:)
   - Agoroth derrotado (1/1). Busca en el cofre del hombre muerto para reclamar tu recompensa.
 
 ### On defeat on a members' world
 
-- (Condition: Primera derrota:)
+- (Condition: First defeat:)
   - Agoroth derrotado (1/2). Busca en el cofre del hombre muerto para reclamar tu recompensa.
-- (Condition: Segunda derrota:)
+- (Condition: Second defeat:)
   - Agoroth derrotado (2/2). Busca en el cofre del hombre muerto para reclamar tu recompensa.
 
 ### First time logging in after weekly reset

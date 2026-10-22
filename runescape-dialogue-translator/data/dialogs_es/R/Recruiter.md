@@ -30,7 +30,7 @@
 
 ### Treasure Trails
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only the first time:)
   - **Recruiter:** ¡Luce animado! Veamos si tienes lo necesario para responder esta pregunta.
   - **Player:** ¿Qué pregunta?
   - **Recruiter:** El de este pergamino.
@@ -41,14 +41,14 @@
 
 - **Recruiter:** Ingrese la respuesta a la pregunta.
 - Ingrese la cantidad:<br>[Input field]
-- (Condition: Cuando se le da la respuesta incorrecta:)
+- (Condition: When given the wrong answer:)
   - **Recruiter:** ¡Ni siquiera cerca!
-- (Condition: Cuando se le da la respuesta correcta:)
+- (Condition: When given the correct answer:)
   - (removes=the clue scroll (medium) y desplazamiento de desafío (medio))
-  - (Condition: Si el rastro continúa:)
+  - (Condition: If the trail continues:)
     - (receives=a new clue scroll (medium))
     - [¡El reclutador te ha dado otro pergamino de pistas!]
-  - (Condition: Si el sendero termina:)
+  - (Condition: If the trail ends:)
     - (receives=reward casket (medium))
     - [¡Has encontrado un ataúd!]
   - **Recruiter:** ¡Acertado!

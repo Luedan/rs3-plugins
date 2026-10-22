@@ -37,22 +37,22 @@
 ##### Después de Wiz Kid
 
 - {{Trandom}}
-  - ((Diálogo 1:))
+  - ((Dialogue 1:))
     - **Ben:** Los hechizos domésticos son geniales y todo eso, pero realmente quiero aprender algunos hechizos de lucha también. ¡Podría ser el protector de la granja!
-  - ((Diálogo 2:))
+  - ((Dialogue 2:))
     - **Ben:** ¡No puedo esperar a visitar Wizards' Tower cuando sea mayor!
-  - ((Diálogo 3:))
+  - ((Dialogue 3:))
     - **Ben:** ¡Espero crecer y ser como tú y Wizard Isidor!
-  - ((Diálogo 4:))
+  - ((Dialogue 4:))
     - **Ben:** ¡Mamá y papá me dejan tener una asignación semanal de runas ahora!
     - **Ben:** Aunque solo si hago todas mis tareas.
-  - ((Diálogo 5:))
+  - ((Dialogue 5:))
     - **Player:** ¿Qué hechizo estás practicando actualmente?
     - **Ben:** ¡Hornea pastel! La masa todavía está un poco cruda en el medio, pero ya voy por ahí.
-  - ((Diálogo 6:))
+  - ((Dialogue 6:))
     - **Player:** ¿Qué hechizo estás practicando actualmente?
     - **Ben:** ¡De huesos a melocotones!
     - **Ben:** Se están convirtiendo en cebollas en este momento, pero estoy trabajando en ello.
-  - ((Diálogo 7:))
+  - ((Dialogue 7:))
     - **Player:** ¿Qué hechizo estás practicando actualmente?
     - **Ben:** ¡Planta curativa! Una vez que lo domine, puedo usarlo para ayudar a mamá y papá en la granja.

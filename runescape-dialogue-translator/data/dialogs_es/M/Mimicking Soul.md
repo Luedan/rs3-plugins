@@ -12,8 +12,8 @@
 ### Spawning
 
 - Un mimicking soul aparece cerca. Acorralalos antes de que se escapen.
-- ((Repetido en una ventana emergente:))
-  - (Ventana emergente: aparece un mimicking soul cerca. Acorralalos antes de que escapen.|color=#1EFF00)
+- ((Repeated in a pop-up:))
+  - (Pop-up: A mimicking soul appears nearby. Corner them before they get away.|colour=#1EFF00)
 
 ### Reaching the Mimicking Soul
 
@@ -24,8 +24,8 @@
 
 - (Action: El Mimicking Soul desaparece.)
 - El mimicking soul desaparece antes de que puedas atraparlo.
-- ((Repetido en una ventana emergente:))
-  - (Ventana emergente: El mimicking soul desaparece antes de que puedas captarlo).
+- ((Repeated in a pop-up:))
+  - (Pop-up: The mimicking soul disappears before you can catch it.)
 
 ### Guide
 
@@ -37,5 +37,5 @@
 
 - (Action: El Mimicking Soul desaparece.)
 - El alma perdida desaparece antes de que puedas guiarla hacia adelante.
-- ((Repetido en una ventana emergente:))
-  - (Ventana emergente: el alma perdida desaparece antes de que puedas guiarla hacia adelante).
+- ((Repeated in a pop-up:))
+  - (Pop-up: The lost soul disappears before you could guide it onwards.)

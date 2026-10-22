@@ -24,7 +24,7 @@
 
 #### Después de Mourning's End Parte II
 
-(Condition: Si aún no has cumplido los requisitos para Within the Light:)
+(Condition: If you have not yet met the requirements for Within the Light:)
 - **Player:** Hola Arianwyn, ¿cómo te va?
 - **Arianwyn:** Estoy bien Player, ¿tú?
 - **Player:** No está mal, gracias. Entonces, ¿cuál es el siguiente paso?
@@ -35,7 +35,7 @@
 
 #### Después de Within the Light
 
-(Condition: Si aún no has cumplido los requisitos para Plague's End:)
+(Condition: If you have not yet met the requirements for Plague's End:)
 - **Player:** Arianwyn, ¿alguna novedad?
 - **Arianwyn:** Player, ¡bien conocido! Me temo que no hay más noticias. Nuestra próxima tarea será ocuparnos de ese desprendimiento de rocas dentro del corredor de luz. Una vez que esté claro, podremos explorar lo que hay más allá.
 - **Player:** ¿Puedo hacer algo para ayudar?
@@ -43,7 +43,7 @@
 
 #### Después del fin de la plaga
 
-(Condition: Si no tienes el abalorio de cristal o el juego completo del exoesqueleto de Trahaearn:)
+(Condition: If you do not have the crystal trinket or full set of Trahaearn exoskeleton:)
 - **Arianwyn:** ¡Hola, Player! Estaba a punto de regresar a Prifddinas. Sólo regresé para ver cómo estaban todos. ¿Qué puedo hacer por ti?
 - [Menu]: Elige una opción:
   - [Choice]: Me gustaría recuperar el exoesqueleto de Trahaearn. {{anchor|exo}}
@@ -60,7 +60,7 @@
     - {{tbox|pic=Crystal trinket detail.png|Arianwyn hands you a new crystal trinket.}}
   - [Choice]: Eso es todo por ahora.
     - (end)
-(Condition: Si tienes tanto el abalorio de cristal como el juego completo de exoesqueleto de Trahaearn:)
+(Condition: If you have both the crystal trinket and full set of Trahaearn exoskeleton:)
 - **Arianwyn:** ¡Hola, Player! Estaba a punto de regresar a Prifddinas. Sólo regresé para ver cómo estaban todos.
 
 ### Prifddinas
@@ -126,7 +126,7 @@
 
 #### {{anchor|task}}Sistema de tareas
 
-- (Condition: Si el player ha completado las tareas difíciles del conjunto Tirannwn y aún no se ha reclamado la recompensa:)
+- (Condition: If the player has completed the Hard tasks in the Tirannwn set and the reward is not yet claimed:)
   - **Player:** He completado todas las tareas difíciles del conjunto Tirannwn.
   - **Arianwyn:** Así que sí. Tengo un carcaj especial reservado para ti.
   - {{tbox|pic=Tirannwn quiver 3 detail.png|pic2=Antique lamp (Hard Tirannwn Tasks) detail.png|Arianwyn hands you a quiver and a lamp.}}
@@ -135,7 +135,7 @@
   - **Arianwyn:** Debido a que completaste el conjunto de tareas difíciles, te habrás ganado el favor de Lord Amlodd y él será más generoso al cobrar fragmentos.
   - **Arianwyn:** También puedes visitar Eilwynn para cobrar tus crónicas de adivinación y Lunet te venderá algunos bastones de batalla adicionales.
   - (continue)
-- (Condition: Si el player ha perdido su carcaj 3 de Tirannwn:)
+- (Condition: If the player has lost their Tirannwn quiver 3:)
   - **Arianwyn:** ¡Ah, el portador de la aljaba! ¿Cómo lo estás encontrando?
   - **Player:** Lo perdí.
   - **Arianwyn:** ¡Oh, no! No importa, tengo otro. Aquí...
@@ -205,12 +205,12 @@
 
 #### Habla con
 
-- (Condition: La primera vez:)
+- (Condition: On first time:)
   - **Arianwyn (Flurry):** El guardián del mundo...
   - **Arianwyn (Flurry):** Por la gracia de Seren, es bueno tener algo de apoyo.
   - **Arianwyn (Flurry):** Evitar que el Arch-Glacor cambie sus tácticas de combate ocupa la mayor parte de mi atención, pero estaré encantado de responder cualquier pregunta que tengas.
   - (continue)
-- (Condition: Después de la primera vez:)
+- (Condition: After the first time:)
   - **Arianwyn (Flurry):** Bien conocido, Guardián Mundial.
   - (continue)
 - [Menu]: Elige una opción:
@@ -226,7 +226,7 @@
       - [Choice]: Sí, adelante.
         - **Arianwyn (Flurry):** Que así sea. La gracia de Seren va contigo.
         - La mecánica 'Flurry' ahora está activa.
-        - ((Repetido en una ventana emergente:))
+        - ((Repeated in a pop-up:))
           - La mecánica 'Flurry' ahora está activa.
           - (continue)
         - Habla con Arianwyn nuevamente si deseas evitar que Arch-Glacor cambie de estilo de combate.
@@ -235,18 +235,18 @@
   - [Choice]: cond=With the Flurry mechanic toggled on:|¿Podrías evitar que el Arch-Glacor vuelva a cambiar de estilo de combate?
     - **Arianwyn (Flurry):** Por supuesto, se hará.
     - La mecánica 'Flurry' ha sido desactivada.
-    - ((Repetido en una ventana emergente:))
+    - ((Repeated in a pop-up:))
       - La mecánica 'Flurry' ha sido desactivada.
       - (continue)
     - Arianwyn ahora impide que Arch-Glacor cambie rápidamente de estilo de combate. Habla con él nuevamente para volver a habilitar esta mecánica.
 
 #### Mecánico de palanca
 
-(Condition: Con Flurry desactivado:)
+(Condition: With Flurry toggled off:)
 - La mecánica 'Flurry' ahora está activa.
 - (Repetido en una ventana emergente :)
   - La mecánica 'Flurry' ahora está activa.
-(Condition: Con Flurry activado:)
+(Condition: With Flurry toggled on:)
 - La mecánica 'Flurry' ha sido desactivada.
 - (Repetido en una ventana emergente :)
   - La mecánica 'Flurry' ha sido desactivada.

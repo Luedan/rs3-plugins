@@ -14,7 +14,7 @@
 
 #### Línea aérea
 
-- ((Uno de los siguientes se muestra una vez por minuto:))
+- ((One of the following is shown once a minute:))
   - **Mechanayak:** {{RSChat|Announcement: The Kerapack Track will soon be upon us.}}
   - **Mechanayak:** {{RSChat|Declaration: Hey, you! Meatsack! Yes, you!}}
   - **Mechanayak:** {{RSChat|Exclamation: Greetings, fleshbags.}}
@@ -30,10 +30,10 @@
 
 ### During Kerapac Track
 
-- ((Sin lista de tareas de Yak Track:))
+- ((Without Yak Track Task List:))
   - (receives=Yak Track Task List)
   - (continue)
-- ((Sólo la primera vez:))
+- ((Only on first time:))
   - **JUGADOR** ¡Ahhh!
   - **JUGADOR** ¡Es un Yak mecánico!
   - **MECHANAYAK** Declaración: Sí.
@@ -47,7 +47,7 @@
   - **MECHANAYAK** Réplica poco sincera: Lo mismo.
   - **MECHANAYAK** Consulta: ¿Necesitas algo?
   - (continue)
-- ((Después de la primera vez:))
+- ((After the first time:))
   - **MECHANAYAK** Saludo: Hola de nuevo, bolsa de carne.
   - (continue)
 - **SELECCIONA UNA OPCIÓN**
@@ -72,7 +72,7 @@
     - **JUGADOR** ¿Cómo saliste del laboratorio?
     - **MECHANAYAK** Respuesta: Cuando comenzó la erupción, la bolsa de carne conocida como Thok me liberó de mi celda, permitiéndome escapar de la destrucción.
     - **MECHANAYAK** Estoy... agradecido. Es digno de respeto, a pesar de su forma líquida e inferior.
-    - ((Sin haber iniciado las tareas de Lore Hunter:))
+    - ((Without having started Lore Hunter tasks:))
       - **MECHANAYAK** Secuencia bien planificada: Hablando de los eventos que tuvieron lugar en Anacronia, deberías hablar con the Curator de allí.
       - **MECHANAYAK** Se le ha encomendado la tarea de investigar las repercusiones de lo sucedido y le vendría bien tu ayuda.
       - **JUGADOR** Gracias por hacérmelo saber.
@@ -81,5 +81,5 @@
   - ¡Adiós!
     - **JUGADOR** ¡Adiós!
     - **MECHANAYAK** Declaración: Adiós.
-    - ((Si se consultó la historia de fondo y el nivel 1 de Kerapac Track no se ha completado:))
+    - ((If the backstory was queried and tier 1 of Kerapac Track hasn't been completed:))
       - Acabas de terminar tu tarea actual de Yak Track: Yakstory.<br />Abre la interfaz de Yak Track para reclamar tus recompensas.

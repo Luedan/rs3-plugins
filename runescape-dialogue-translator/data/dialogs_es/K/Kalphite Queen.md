@@ -12,9 +12,9 @@
 ### Defeating Kalphite Queen
 
 - Has matado a [número] Kalphite Queen.
-- ((El diálogo Marcas de War ocurre y luego continúa a continuación.))
-- (Condition: Si Kalphite Queen ha sido derrotado 100 veces:)
+- ((Marks of War dialogue occurs and then continues below.))
+- (Condition: If Kalphite Queen has been defeated 100 times:)
   - ¡Felicitaciones! Has completado: 'Bug Swatter VI' - Derrota al Kalphite Queen. (100/100)
   - Hito: ¡Has matado a 100 Kalphite Queen!
-  - (ventana emergente)
-    - (Ventana emergente: Hito: ¡Has matado a 100 Kalphite Queen!|color=#00FF00)
+  - (pop-up)
+    - (Pop-up: Milestone: You have killed 100 Kalphite Queen!|colour=#00FF00)

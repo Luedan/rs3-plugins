@@ -31,10 +31,10 @@
   - [Choice]: Cuéntame sobre tus trabajos anteriores.
     - (arriba)
   - [Choice]: ¡Estás contratado!
-    - (Condition: Si el player no tiene servidor:)
+    - (Condition: If the player doesn't have a servant:)
       - **Player:** ¡Estás contratado!
       - **Maid:** ¡Oh! ¡Oh, gracias [sir/madam], gracias!
-    - (Condition: Si el player ya tiene un servidor:)
+    - (Condition: If the player already has a servant:)
       - Ya tienes un sirviente.
 
 ### In a player-owned house

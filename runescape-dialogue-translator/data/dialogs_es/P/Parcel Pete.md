@@ -323,10 +323,10 @@
 - **Player:** Hola Pete. ¿Qué estás haciendo?
 - La mandíbula de Parcel Pete se mueve, pero su voz parece faltar.
 - **Parcel Pete:** *Clac clac clac clac. Charla. Clac, clic, clac, clac. Clac, clic, clac, clac. Haga clic, haga clic, haga clic.*
-- ((Lo anterior dice "HOLA" en código Morse.))
+- ((The above reads "HELLO" in Morse code.))
 - **Postie Pete:** No le hagas caso, Player. Ha tenido un año difícil, perdió la lengua en un desafortunado accidente lamiendo un sello.
 - **Parcel Pete:** *Haz clic en clac. Clic, clic, clic... Clac, clic. Haga clic, clac, clic, clac. Haga clic, clac, clic, clac. Clac clac. Haz clic, clac, clac. Charla. Haga clic en clac. Haga clic.*
-- ((Lo anterior dice "SIN ACCIDENTE" en código Morse.))
+- ((The above reads "NO ACCIDENT" in Morse code.))
 - **Postie Pete:** De hecho, me vendría bien tu ayuda, Player, ¿puedes venir a hablar conmigo?
 
 ### 2022
@@ -335,14 +335,14 @@
 - Pete silba una melodía con volumen, tono y tono muy inconsistentes. Es difícil escucharlo, pero parece contento.
 - **Postie Pete:** No le hagas caso, Player. Está aprendiendo a silbar desde que perdió la lengua en un desafortunado accidente lamiendo un sello el año pasado.
 - **Parcel Pete:** *Toot fwoop. Toot toot toot... Fwoop toot. Toot fwoop toot fwoop. Toot fwoop toot fwoop. Fwoop, fwoop. Toot fwoop fwoop. Vaya. Toot fwoop. Sonar.*
-- ((Lo anterior dice "NO ACCIDENTE" en código Morse cuando los "fwoops" se interpretan como puntos y los "toots" como guiones.))
+- ((The above reads "NO ACCIDENT" in Morse code when the "fwoops" are interpreted as dots and "toots" as dashes.))
 - **Postie Pete:** De todos modos, él está en funciones de distracción, Player, ¿puedes venir a hablar conmigo?
 
 ### Parcels from the Dead
 
 - **Player:** ¡Hola Pete!
 - **Parcel Pete:** *Haga clic, haga clic, haga clic. Hacer clic. Haga clic, haga clic, haga clic. Haz clic, clac, clac, clic.*
-- ((Lo anterior dice "AYUDA" en código Morse.))
+- ((The above reads "HELP" in Morse code.))
 - **Player:** Dios mío, ¿todavía tienes problemas para hablar?
 - **Parcel Pete:** *tos* Oh, lo siento, todavía me estoy acostumbrando a esta nueva lengua.
 - **Parcel Pete:** Gracias a Dios eres tú, Player; ¡Estoy preocupada por mi hermano!

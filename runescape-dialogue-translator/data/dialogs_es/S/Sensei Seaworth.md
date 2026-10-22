@@ -98,9 +98,9 @@
 #### Cuando se le habla con el rompecabezas de las torres resuelto
 
 - **Sensei Seaworth:** ¡Excelente, aquí tienes tu recompensa!
-- (Condition: Si el rastro continúa:)
+- (Condition: If the trail continues:)
   - (removes=the old clue scroll (master) y pergamino de rompecabezas Towers (maestro)) (receives= the new clue scroll (master))
   - [¡Has encontrado otra pista!]
-- (Condition: Si el sendero termina:)
+- (Condition: If the trail ends:)
   - (removes=the old clue scroll (master) y pergamino de rompecabezas Towers (maestro)) (receives=reward casket (master))
   - [¡Has encontrado un ataúd!]

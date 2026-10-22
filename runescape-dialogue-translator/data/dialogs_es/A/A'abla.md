@@ -17,10 +17,10 @@
   - [Choice]: ¿Puedes curarme?
     - **Player:** ¿Puedes curarme?
     - **A'abla:** ¡Por supuesto!
-    - (Condition: Si está en plena salud:)
+    - (Condition: If at full health:)
       - **A'abla:** ¡Me pareces saludable!
       - (end)
-    - (Condition: Si no está en plena salud:)
+    - (Condition: If not at full health:)
       - Te sientes un poco mejor.
   - [Choice]: ¿Ves muchos combatientes heridos?
     - **Player:** ¿Ves muchos peleadores heridos?

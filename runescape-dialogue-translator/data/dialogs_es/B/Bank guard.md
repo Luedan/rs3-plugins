@@ -107,7 +107,7 @@
   - [Choice]: ¿Puedo ver esa grabación otra vez, por favor?
     - **Player:** ¿Puedo ver esa grabación otra vez, por favor?
     - **Bank Guard:** Me gustaría que me pagaras 50 po primero.
-    - (Condition: Con suficiente dinero en backpack o bolsa de dinero:)
+    - (Condition: With enough money in backpack or money pouch:)
       - [Menu]: ¿Pagar 50 po para volver a ver la grabación?
         - [Choice]: Bien, aquí tienes 50 po.
           - **Player:** Bien, aquí tienes 50 po.
@@ -117,11 +117,11 @@
         - [Choice]: Gracias, tal vez otro día.
           - **Player:** Gracias, tal vez otro día.
           - **Bank Guard:** Vale.
-    - (Condition: Sin suficiente dinero en backpack o bolsa de dinero:)
+    - (Condition: Without enough money in backpack or money pouch:)
       - **Player:** No llevo tanto.
-      - (Condition: Sin suficiente dinero en el banco:)
+      - (Condition: Without enough money in bank:)
         - **Bank Guard:** Oh, bueno, tal vez otro día.
-      - (Condition: Con suficiente dinero en el banco:)
+      - (Condition: With enough money in bank:)
         - **Bank Guard:** Como empleado de banco, supongo que podría sacar el dinero directamente de tu cuenta bancaria.
         - [Menu]: ¿Pagar 50 po para volver a ver la grabación?
           - [Choice]: Bien, puedes sacar 50 po de mi cuenta bancaria.

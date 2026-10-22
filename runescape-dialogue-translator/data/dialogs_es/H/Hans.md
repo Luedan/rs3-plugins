@@ -16,39 +16,39 @@
   - [Choice]: cond=Only during the 25th Anniversary celebrations event:|Habla sobre el evento de aniversario.
     - [Menu]: Elige una opción:|anchor=Evento-aniversario
       - [Choice]: cond=With enough shards for a token:|¡Quiero canjear una ficha de inversión de capa!
-        - (Condition: Sin espacios backpack libres y solo 990 fragmentos inverted skillcape o 1200 fragmentos maestros inverted skillcape y habiendo entregado ya 990 fragmentos inverted skillcape:)
+        - (Condition: Without a free backpack spaces and only either 990 inverted skillcape shards or 1,200 master inverted skillcape shards and having already turned in 990 inverted skillcape shards:)
           - **Hans:** Primero necesitas un espacio libre en tu backpack.
-        - (Condition: Sin dos espacios backpack libres y 990 fragmentos inverted skillcape y 1200 fragmentos maestros inverted skillcape:)
+        - (Condition: Without two free backpack spaces and 990 inverted skillcape shards and 1,200 master inverted skillcape shards:)
           - **Hans:** Primero necesitas dos espacios libres en tu backpack.
-        - (Condition: Si el player tiene 990 fragmentos inverted skillcape:)
+        - (Condition: If the player has 990 inverted skillcape shards:)
           - (removes=990 inverted skillcape shards) (receives=inverted skillcape token)
           - (continue)
-        - (Condition: Si el player tiene 1200 fragmentos maestros de inverted skillcape:)
+        - (Condition: If the player has 1,200 master inverted skillcape shards:)
           - (removes=1,200 master inverted skillcape shards) (receives=inverted master skillcape token)
           - (continue)
         - **Hans:** ¡Aquí tienes!
-        - (Condition: Si el player acaba de obtener una ficha de capa Archaeology:)
+        - (Condition: If the player just obtained an Archaeology cape token:)
           - **Hans:** Entrégale esto a la Guildmaster en funciones Lottie Reiniger, la maestra de Archaeology en el gremio Archaeology, para desbloquear tu nuevo inverted cape.
           - (continue)
-        - (Condition: Si el player acaba de obtener un token Attack cape:)
+        - (Condition: If the player just obtained an Attack cape token:)
           - **Hans:** Entrégale esto a Ajjat, el maestro de Attack del Warrior's Guild, para desbloquear tu nuevo inverted cape.
           - (continue)
-        - (Condition: Si el player acaba de obtener una ficha de capa Dungeoneering:)
+        - (Condition: If the player just obtained a Dungeoneering cape token:)
           - **Hans:** Dale esto a Thok, el maestro de Dungeoneering en Daemonheim, para desbloquear tu nuevo inverted cape.
           - (continue)
-        - (Condition: Si el player acaba de obtener una ficha de capa Herblore:)
+        - (Condition: If the player just obtained a Herblore cape token:)
           - **Hans:** Entrégale esto a Kaqemeex, el maestro de Herblore en Taverley, para desbloquear tu nuevo inverted cape.
           - (continue)
-        - (Condition: Si el player acaba de obtener un token Necromancy master cape:)
+        - (Condition: If the player just obtained a Necromancy master cape token:)
           - **Hans:** Entrégale esto a the Spirit of Mastery, el maestro de Necromancy en City of Um, para desbloquear tu nuevo inverted cape.
           - (continue)
-        - (Condition: Si el player acaba de obtener una ficha de capa Ranged:)
+        - (Condition: If the player just obtained a Ranged cape token:)
           - **Hans:** Dale esto a Aaron the armour salesman, el maestro de Ranged en Ranging Guild, para desbloquear tu nuevo inverted cape.
           - (continue)
-        - (Condition: Si el player acaba de obtener una ficha de capa Slayer:)
+        - (Condition: If the player just obtained a Slayer cape token:)
           - **Hans:** Dale esto a Kuradal, el Slayer master en la Caverna Antigua, para desbloquear tu nuevo inverted cape.
           - (continue)
-        - (Condition: Si el player acaba de obtener una ficha de capa Thieving:)
+        - (Condition: If the player just obtained a Thieving cape token:)
           - **Hans:** Dale esto a Martin Thwait, el maestro de Thieving en Rogues' Den, para desbloquear tu nuevo inverted cape.
           - (continue)
         - **Hans:** ¡Felicitaciones!
@@ -81,36 +81,36 @@
       - [Choice]: ¿Tienes pastel?
         - **Player:** ¿Tienes pastel?
         - **Hans:** ¡Por supuesto!
-        - (Condition: Sin espacio libre backpack:)
+        - (Condition: Without free backpack space:)
           - **Hans:** Pero no tienes suficiente espacio en tu backpack para ello. Limpia un espacio y luego podrás tener otro.
           - (previous|Anniversary-event)
-        - (Condition: Con espacio gratuito backpack:)
-          - (Condition: Sin tarta 25 Aniversario:)
+        - (Condition: With free backpack space:)
+          - (Condition: Without 25th Anniversary cake:)
             - (receives=25th Anniversary cake)
             - **Hans:** Aquí tienes. ¡Disfrutar!
             - (previous|Anniversary-event)
-          - (Condition: Con tarta 25 Aniversario:)
+          - (Condition: With 25th Anniversary cake:)
             - **Hans:** Pero ya tienes algunos. ¡Me temo que una rebanada para cada uno!
             - (previous|Anniversary-event)
       - [Choice]: ¿Puedo tener una bufanda?
-        - (Condition: Sin espacio libre backpack:)
+        - (Condition: Without free backpack space:)
           - **Hans:** Pero no tienes suficiente espacio en tu backpack para ello. Limpia un espacio y luego podrás tener uno.
           - (previous|Anniversary-event)
-        - (Condition: Con espacio gratuito backpack:)
-          - (Condition: Sin bufanda del 25 aniversario:)
+        - (Condition: With free backpack space:)
+          - (Condition: Without a 25th Anniversary Scarf:)
             - (receives=25th Anniversary Scarf (Blue))
-            - (Condition: Sólo la primera vez:)
+            - (Condition: Only on the first time:)
               - ¡Has desbloqueado la bufanda del 25 aniversario (azul)!
-              - (ventana emergente)
+              - (pop-up)
                 - (Ventana emergente: ¡Has desbloqueado la bufanda del 25.º aniversario (azul)!|color=#00FF00)
                 - (continue)
             - **Hans:** Los hice especialmente para las celebraciones del aniversario.
             - (previous|Anniversary-event)
-          - (Condition: Con una bufanda del 25 aniversario:)
+          - (Condition: With a 25th Anniversary Scarf:)
             - **Hans:** Ya tienes una bufanda; yo solo tengo suficiente para una para cada una.
             - (previous|Anniversary-event)
   - [Choice]: Habla sobre las tareas de aniversario.
-    - (Condition: Antes de recibir una lista de tareas del 25º aniversario:)
+    - (Condition: Before receiving a 25th Anniversary task list:)
       - **Hans:** Oh, oye, me pregunto si estarías interesado en ayudar en un recorrido nostálgico...
       - **Player:** ¿Un qué?
       - **Hans:** He estado deambulando por este castillo durante unos veinticinco años y déjame decirte que ¡es agradable tomarse un descanso!
@@ -121,43 +121,43 @@
       - **Hans:** ...pero acepté organizar este pequeño evento, así que no puedo irme.
       - **Hans:** Entonces pensé que tal vez podría vivir indirectamente a través de ti...
       - **Player:** ¿Qué quieres que haga?
-      - (Condition: Sin espacio libre backpack:)
+      - (Condition: Without free backpack space:)
         - **Hans:** Tengo una lista de tareas que planeaba completar; háblame sobre esto nuevamente cuando tengas espacio para realizarlas...
-      - (Condition: Con espacio gratuito backpack:)
+      - (Condition: With free backpack space:)
         - (receives=25th Anniversary task list)
         - **Hans:** Aquí hay una lista de las tareas que planeaba completar. ¿Quizás podrías completarla por mí?
         - [Habla con Hans sobre las tareas del 25 Aniversario]
         - **Player:** Espera un segundo, la primera tarea aquí dice "Habla con Hans sobre las tareas del 25º aniversario". - ¿Por qué siento que me están engañando?
         - ¡Felicitaciones! Has completado: 'Hans Free' - Habla con Hans sobre las tareas del 25º aniversario.
-        - ((Se muestra en una ventana emergente de finalización de tarea:))
+        - ((Shown in a task completion pop-up:))
           - TAREA DEL 25 ANIVERSARIO
           - Hans Gratis
           - Habla con Hans sobre las tareas del 25 aniversario.
           - (continue)
         - **Hans:** Shhh, ya has empezado, así que tendrás que terminar... ¡pero hay una brillante recompensa para ti!
-    - (Condition: Después de recibir una lista de tareas del 25.º aniversario:)
+    - (Condition: After receiving a 25th Anniversary task list:)
       - [Menu]: Elige una opción:
         - [Choice]: cond=Without 25th Anniversary task list:|Perdí tu lista de tareas.
           - **Player:** Perdí tu lista de tareas.
-          - (Condition: Sin espacio libre backpack:)
+          - (Condition: Without free backpack space:)
             - **Hans:** Tengo uno de repuesto, pero no tienes espacio para llevarlo...
-          - (Condition: Con espacio gratuito backpack:)
+          - (Condition: With free backpack space:)
             - (receives=25th Anniversary task list)
             - **Hans:** No te molestes: ¡aquí tienes una lista de reemplazo!
         - [Choice]: cond=After completing the list and before claiming the reward:|¿Tienes alguna recompensa para mí?
           - **Hans:** Creo que tengo algunas recompensas para ti...
           - Has desbloqueado la anulación cosmética. 'Capa 25 Aniversario'.
           - Puedes activar esto a través de la pestaña 'Armario' en la interfaz 'Personalizaciones'.
-          - (ventana emergente)
-            - (Ventana emergente: has desbloqueado la anulación cosmética. 'Capa del 25 aniversario'.<br>Puedes activarla a través de la pestaña 'Armario' en la interfaz 'Personalizaciones'.|color=#00FF00)
+          - (pop-up)
+            - (Pop-up: You have unlocked the cosmetic override. '25th Anniversary cape'.<br>You can activate this via the 'Wardrobe' tab in the 'Customisations' interface.|colour=#00FF00)
             - (continue)
           - **Hans:** ¡Eso debería ser todo! Gracias de nuevo por ayudarme.
         - [Choice]: ¿Qué querías que hiciera de nuevo?
           - **Hans:** Estaba planeando pasear por Misthalin y Asgarnia, disfrutando de las vistas y los recuerdos: cosas que he visto y hecho, cosas que los aventureros me han contado...
-          - (Condition: Durante el evento de celebración del 25 Aniversario:)
+          - (Condition: During the 25th Anniversary celebrations event:)
             - **Hans:** ...pero acepté organizar este pequeño evento, así que no puedo irme.
             - (continue)
-          - (Condition: Después del evento de celebración del 25 Aniversario:)
+          - (Condition: After the 25th Anniversary celebrations event:)
             - **Hans:** ...pero me he dado cuenta de lo cansado que estoy y es bueno no tener que caminar un poco.
             - (continue)
           - **Hans:** Te di una lista de tareas que planeaba completar. ¿Quizás podrías completarla por mí?
@@ -346,13 +346,13 @@
 - **Hans:** Una vez intenté entrar al Champions' Guild en uno de mis paseos, pero solo me dejaron entrar si derrotaba a un dragón.
 - **Hans:** 'No hay posibilidad', pensé, así que seguí caminando.
 - {{RSFontAchievement|Dragon These Bones With Me|Show Hans some dragon bones.}}
-- ((Se muestra en una ventana emergente de finalización de tarea:))
+- ((Shown in a task completion pop-up:))
   - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
   - Dragón estos huesos conmigo
   - Muéstrale a Hans algunos huesos de dragón.
   - (continue)
 - **Hans:** Yo diría que te ha ido mejor que a mí como campeón, pero cuando se trata de conteo de pasos, ¡soy el campeón!
-- (Condition: Si se han completado todas las tareas:)
+- (Condition: If all the tasks have been completed:)
   - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!
 
 #### Después

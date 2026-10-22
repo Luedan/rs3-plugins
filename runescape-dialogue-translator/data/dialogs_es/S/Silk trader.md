@@ -23,10 +23,10 @@
         - [Menu]: Selecciona una opción
           - [Choice]: 2gp suena bien.
             - **Player:** 2gp suena bien.
-            - (Condition: Si el player tiene suficiente dinero:)
+            - (Condition: If the player has enough money:)
               - Compras algo de seda por 2 po.
               - (receives=silk) (removes=2 coins)
-            - (Condition: Si el player no tiene suficiente dinero:)
+            - (Condition: If the player does not have enough money:)
               - **Player:** Dios mío. No tengo suficiente dinero.
               - **Silk trader:** Bueno, vuelve cuando tengas algo de dinero.
               - No puedes permitirte eso.
@@ -35,10 +35,10 @@
             - **Silk trader:** Está bien, pero ese es el mejor precio que obtendrás.
       - [Choice]: Vale, eso suena bien.
         - **Player:** Vale, eso suena bien.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - Compras algo de seda por 3 po.
           - (receives=silk) (removes=3 coins)
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Dios mío. No tengo suficiente dinero.
           - **Silk trader:** Bueno, vuelve cuando tengas algo de dinero.
           - No puedes permitirte eso.

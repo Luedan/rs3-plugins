@@ -17,7 +17,7 @@
 - **Peer the Seer:** Uuuh... ¿Qué fue esa presencia oscura que sentí?
 - **Peer the Seer:** !
 - **Peer the Seer:** Ejem, lo siento.
-- (Condition: Si el player ha completado los logros fáciles de Fremennik:)
+- (Condition: If the player has completed the easy Fremennik achievements:)
   - [Menu]: ¿Sobre qué te gustaría preguntar?
     - [Choice]: Servicio de deposito
       - **Player:** Hola, compañero. ¿Podrías depositar algunas cosas por mí, por favor?
@@ -25,14 +25,14 @@
       - (Action: Se abre la interfaz de depósitos de Peer the Seer.)
     - [Choice]: Los juicios de Fremennik
       - **Peer the Seer:** No tengo ningún interés en hablar contigo ahora, outsider.
-- (Condition: Si el player no ha completado los logros fáciles de Fremennik:)
+- (Condition: If the player has not completed the easy Fremennik achievements:)
   - **Peer the Seer:** No tengo ningún interés en hablar contigo ahora, outsider.
 
 #### Opción de depósito
 
-- (Condition: Si el player ha completado los logros fáciles de Fremennik:)
+- (Condition: If the player has completed the easy Fremennik achievements:)
   - (Action: Se abre la interfaz de depósitos de Peer the Seer.)
-- (Condition: Si el player no ha completado los logros fáciles de Fremennik:)
+- (Condition: If the player has not completed the easy Fremennik achievements:)
   - **Peer the Seer:** ¡No me molestes, extranjero! ¡Solo depositaré artículos en los bancos de aquellos que hayan ganado Fremennik sea boots!
 
 #### Intentando abrir la puerta de su casa.
@@ -50,12 +50,12 @@
 - **Peer the Seer:** !
 - **Peer the Seer:** Ejem, lo siento.
 - [Menu]: ¿Sobre qué te gustaría preguntar?
-  - (Condition: Si el player ha completado los logros fáciles de Fremennik:)
+  - (Condition: If the player has completed the easy Fremennik achievements:)
     - [Choice]: Servicio de deposito
       - **Player:** Hola, compañero. ¿Podrías depositar algunas cosas por mí, por favor?
       - **Peer the Seer:** Por supuesto, [Fremennik name]. Siempre estaré feliz de ayudar a aquellos que se han ganado el derecho a usar Fremennik sea boots.
       - (Action: Se abre la interfaz de depósitos de Peer the Seer.)
-  - (Condition: Si el player tiene al menos una pieza de cráneo, caja torácica o peroné en su inventario:)
+  - (Condition: If the player has at least one skull, ribcage, or fibula piece in their inventory:)
     - [Choice]: Armadura de hueso Wallasalki
       - **Player:** Hola. Tengo algunos fragmentos de hueso de wallasalki y tengo entendido que es posible que puedas usarlos para hacerme una armadura...
       - **Peer the Seer:** Como quieras, [Fremennik name]. ¿En qué tipo de armadura estabas pensando exactamente?
@@ -64,7 +64,7 @@
           - **Peer the Seer:** Me temo que te costará 5000 coins hacerlo para ti... ¿Te parece bien?
           - [Menu]: Selecciona una opción
             - [Choice]: SI
-              - ((Si el player no cuenta con los materiales requeridos:))
+              - ((If the player does not have the required materials:))
                 - **Peer the Seer:** Mis disculpas [Fremennik name], pero necesitaré que me traigas 1 trozo de piel de boca de daga oscura, 1 trozo de calavera y 5000 coins antes de poder hacerte este yelmo.
                 - (end)
               - (removes=1 dagannoth hide, 1 skull piece, and 5,000 coins) (receives=a skeletal helm)
@@ -76,7 +76,7 @@
           - **Peer the Seer:** Me temo que te costará 10 000 coins hacerlo para ti... ¿Te parece bien?
           - Seleccione una opción
             - [Choice]: SI
-              - ((Si el player no cuenta con los materiales requeridos:))
+              - ((If the player does not have the required materials:))
                 - **Peer the Seer:** Lo siento [Fremennik name], pero necesito 3 piezas de piel de boca de daga oscura, 1 pieza de caja torácica y 10,000 coins para hacerte esta armadura...
                 - (end)
               - (removes=3 dagannoth hides, 1 ribcage piece, and 10,000 coins) (receives=a skeletal top)
@@ -88,7 +88,7 @@
           - **Peer the Seer:** Me temo que te costará 7.500 coins hacerlo para ti... ¿Te parece bien?
           - [Menu]: Selecciona una opción
             - [Choice]: SI
-              - ((Si el player no cuenta con los materiales requeridos:))
+              - ((If the player does not have the required materials:))
                 - **Peer the Seer:** Lo siento mucho [Fremennik name], pero necesitaré 2 piezas de piel de boca de daga oscura, 1 pieza de peroné y 7500 coins para hacer este tipo de armadura para las piernas.
                 - (end)
               - (removes=2 dagannoth hides, 1 fibula piece, and 7,500 coins) (receives=a skeletal bottoms)

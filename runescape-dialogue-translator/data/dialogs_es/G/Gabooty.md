@@ -80,10 +80,10 @@
       - (Diálogo 4 :)
         - **Gabooty:** Lo siento Bwana, ya estoy ocupado, ¿por qué no vas y hablas con Murcaily? Está en alguna parte del pueblo.
   - [Choice]: cond=With Tai Bwo Wannai Cleanup started|He estado trabajando en el pueblo.
-    - (Condition: Con favor Tai Bwo Wannai no reclamado:)
+    - (Condition: With unclaimed Tai Bwo Wannai favour:)
       - **Gabooty:** Oye, te he visto trabajando en el pueblo. Has estado haciendo un muy buen trabajo aquí para nosotros. Déjame darte algo por tu molestia.
       - (receives=trading sticks)
-    - (Condition: Sin favor de Tai Bwo Wannai no reclamado:)
+    - (Condition: Without unclaimed Tai Bwo Wannai favour:)
       - **Gabooty:** Ya te he dado algunos palitos de intercambio y no tengo ninguno más en este momento. ¿Por qué no vas y hablas con algunos de los otros aldeanos y consigues algunas contribuciones?
   - [Choice]: Bien, gracias.
     - **Player:** Vale, gracias.
@@ -113,7 +113,7 @@
 
 #### Senderos del tesoro
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only the first time:)
   - **Gabooty:** Hola. Si puedes resolverme una pregunta, puedes seguir adelante.
   - **Player:** ¿Cuál es la pregunta?
   - **Gabooty:** Toma, te lo anoté.
@@ -124,14 +124,14 @@
 
 - **Gabooty:** Ingrese la respuesta a la pregunta.
 - Ingrese la cantidad:<br>[Input field]
-- (Condition: Cuando se le da la respuesta incorrecta:)
+- (Condition: When given the wrong answer:)
   - **Gabooty:** ¡Respuesta incorrecta!
-- (Condition: Cuando se le da la respuesta correcta:)
+- (Condition: When given the correct answer:)
   - (removes=the old clue scroll (medium) y desplazamiento de desafío (medio))
-  - (Condition: Si el rastro continúa:)
+  - (Condition: If the trail continues:)
     - (receives=a new clue scroll (medium))
     - [¡Gabooty te ha dado otro pergamino de pistas!]
-  - (Condition: Si el sendero termina:)
+  - (Condition: If the trail ends:)
     - (receives=reward casket (medium))
     - [¡Has encontrado un ataúd!]
   - **Gabooty:** ¡Suena bien!

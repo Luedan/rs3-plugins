@@ -20,7 +20,7 @@
 
 ### Standard dialogue
 
-- ((Si se ha perdido la lista de tareas de Yak Track:))
+- ((If the Yak Track Task List has been lost:))
   - (el player recibe la lista de tareas de Yak Track).
   - (continue)
 - **Moorrissey:** Oh, eres tú.

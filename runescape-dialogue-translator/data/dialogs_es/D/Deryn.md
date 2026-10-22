@@ -31,18 +31,18 @@
     - (initial)
   - [Choice]: Habla sobre el seguimiento de búhos.
     - **Player:** ¿Puedes contarme sobre el seguimiento de búhos?
-    - (Condition: Sin haber rastreado a los 14 búhos:)
+    - (Condition: Without having tracked all 14 owls:)
       - **Deryn:** Por supuesto, amor. Ahora que hemos arreglado la lechucería, muchas de las lechuzas regresarán a Um.
       - **Deryn:** Si encuentras alguno, te agradecería que pudieras rastrearlo por mí.
       - **Deryn:** Sin embargo, no imagino que todos volverán a la vez, ¡así que asegúrate de seguir controlando a medida que mejoras tus habilidades de nigromante!
       - **Player:** No hay problema. ¿Cuántos búhos he seguido hasta ahora?
-      - (Condition: Sin búhos o con 2 a 13 búhos rastreados:)
+      - (Condition: With no owls or 2–13 owls tracked:)
         - **Deryn:** Has seguido a los búhos [número] para mí en este momento. Pero no creo que sean todos, ¡así que continúa!
         - (initial)
-      - (Condition: Con 1 búho rastreado:)
+      - (Condition: With 1 owl tracked:)
         - **Deryn:** Me has rastreado 1 búho en este momento. Pero no creo que sean todos, ¡así que continúa!
         - (initial)
-    - (Condition: Habiendo rastreado los 14 búhos:)
+    - (Condition: Having tracked all 14 owls:)
       - **Deryn:** ¡Parece que los has localizado a todos, querida! Es maravilloso tenerlos a todos de regreso en Um una vez más.
       - (initial)
   - [Choice]: Adiós.

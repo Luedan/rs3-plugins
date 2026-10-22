@@ -27,8 +27,8 @@
 - **Player:** ¿Qué quieres decir?
 - **Bruce:** ¡Por supuesto que vi lo que pasó! No puedes deshacer el pasado... pero ciertamente no puedo repetirlo. ¡Espero que las redes anti-dragones estén instaladas para el final de la semana!
 - **Bruce:** Si tuviera que calificar las vacaciones con una puntuación de cinco, me resultaría difícil darle más de tres; ¡Como tal, iré al Varrock Herald sobre esto! Toma, toma una copia firmada de mi diario. ¡Valdrá millones cuando termine con ellos!
-- (Condition: Si el player aún no se ha adjudicado el mal golpe de Bruce:)
+- (Condition: If the player hasn't already claimed Bruce's bad break:)
   - (receives=Bruce's bad break)
   - [Bruce firma la copia de su diario y te la entrega.]
-- (Condition: Si el player ya se ha adjudicado el mal golpe de Bruce:)
+- (Condition: If the player has already claimed Bruce's bad break:)
   - **Bruce:** Oh, sí, ya firmé uno de estos para ti...

@@ -12,15 +12,15 @@
 ### Talk to
 
 - **Apothecary:** Bienvenido, compañero soñador.
-- ((Antes de haber construido la botica:))
+- ((Before having built the apothecary:))
   - **Apothecary:** Si pudieras proporcionarme algunos recursos de tu campamento base, podría crear un boticario para que entrenes dentro de este sueño y enseñarte algo sobre las técnicas de hierbas de Ilujankan.
-- ((Después de haber construido la botica pero antes de haber avanzado:))
+- ((After having built the apothecary but before having made progress:))
   - **Apothecary:** Gracias por las hojas. Si sigues proporcionándome más, puedo enseñarte mucho sobre las técnicas de herboristería de Ilujankan.
-- ((Después de que se haya logrado un pequeño progreso:))
+- ((After a small amount of progress has been made:))
   - **Apothecary:** Estás aprendiendo mucho de nuestras costumbres. Sigue como estás y compartiré una historia contigo.
-- ((Después de que se ha logrado una gran cantidad de progreso:))
+- ((After a great amount of progress has been made:))
   - **Apothecary:** Has aprendido mucho. Pronto compartiré mi historia con Pastkeeper Sharrigan.
-- ((Después de haber desbloqueado la historia:))
+- ((After having unlocked the story:))
   - **Apothecary:** Le he contado mi historia a Pastkeeper Sharrigan. Gracias por todos sus esfuerzos. Quizás deberías entrenar en alguna de las otras estaciones por un tiempo.
 
 ### Contribute resources
@@ -39,12 +39,12 @@
 ##### Con al menos dos hojas
 
 - ¿Cuánto almacena Herblore XP? (mínimo 1: máximo [número]):
-- ((Después de ingresar un valor:))
+- ((After entering a value:))
   - ¿Contribuir con hojas [número] x y almacenar [número] XP en esta estación?
     - Sí.
       - El boticario ahora tiene [número]/350,000 Herblore XP almacenados.
       - Tu aportas a la emisora: [número] x sale
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - Tu aportas a la emisora: [número] x sale
     - No.
       - (end)
@@ -76,7 +76,7 @@
   - Sí.
     - El boticario ahora tiene [número]/350,000 Herblore XP almacenados.
     - Tu aportas a la emisora: [número] x sale
-    - ((Repetido en una ventana emergente:))
+    - ((Repeated in a pop-up:))
       - Tu aportas a la emisora: [número] x sale
   - No.
     - (end)

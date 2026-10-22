@@ -24,7 +24,7 @@
 
 #### Senderos del tesoro
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only the first time:)
   - **Player:** He venido por este sendero del tesoro.
   - **Rommik:** Bastante bien. Responde mi pregunta y podrás continuar.
 - (receives=challenge scroll (medium))
@@ -34,14 +34,14 @@
 
 - **Rommik:** Ingrese la respuesta a la pregunta.
 - Ingrese la cantidad:<br>[Input field]
-- (Condition: Cuando se le da la respuesta incorrecta:)
+- (Condition: When given the wrong answer:)
   - **Rommik:** ¿Estás seguro de eso?
-- (Condition: Cuando se le da la respuesta correcta:)
+- (Condition: When given the correct answer:)
   - (removes=the clue scroll (medium) y desplazamiento de desafío (medio))}
-  - ((Si el rastro continúa:))
+  - ((If the trail continues:))
     - (receives=a new clue scroll (medium))
     - [¡Rommik te ha dado otro pergamino de pistas!]
-  - ((Si el sendero termina:))
+  - ((If the trail ends:))
     - (receives=reward casket (medium))
     - [¡Has encontrado un ataúd!]
   - **Rommik:** ¡Adelante!

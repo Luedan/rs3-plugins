@@ -40,11 +40,11 @@
 - **Player:** ¡Mining es genial! ¡Smithing es fantástico! Todos ustedes hicieron un trabajo increíble modernizando las cosas para todos.
 - **Aksel:** No hay necesidad de gritar. Sólo quería correr la voz, eso es todo.
 - {{RSFontAchievement|Have You Heard About the Mining and Smithing Update?|Talk to Aksel in the Artisan's Workshop about the Mining and Smithing update.}}
-- ((Se muestra en una ventana emergente de finalización de tarea:))
+- ((Shown in a task completion pop-up:))
   - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
   - ¿Has oído hablar de la actualización de Mining y Smithing?
   - Habla con Aksel en el Taller de Artisan sobre la actualización de Mining y Smithing.
   - (continue)
 - **Player:** Mis disculpas, me dejé llevar un poco por eso. Te diré una cosa, te ayudaré a correr la voz.
-- (Condition: Si se han completado todas las tareas:)
+- (Condition: If all the tasks have been completed:)
   - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!

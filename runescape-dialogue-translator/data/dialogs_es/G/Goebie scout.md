@@ -11,7 +11,7 @@
 
 ### Standard dialogue
 
-- (Condition: Primera vez que llegan a Mazcab:)
+- (Condition: First time arriving at Mazcab:)
   - (Action: La cámara enfoca la ventana del mundo desde el norte.)
   - [Apareces en la ventana del otro lado del mundo...]
   - (Action: el player camina hacia el goebie scout.)

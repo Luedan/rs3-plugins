@@ -25,7 +25,7 @@
     - (initial)
   - [Choice]: Me gustaría negociar.
     - **The Trader:** Veamos qué tengo para ti.
-    - ((Se abre la interfaz The Trader.))
+    - ((The Trader interface opens.))
   - [Choice]: Debo irme.
     - **The Trader:** Si cambias de opinión, vuelve. Esta oferta no durará para siempre.
 {{Player-owned port}}

@@ -130,7 +130,7 @@
   - [Choice]: ¿Puedo hacer tu prueba nuevamente?
     - **[Goblin name]:** ¿Puedo volver a realizar tu prueba?
     - **Sumo Sacerdote:** Muy bien. Es bueno que sigas poniendo a prueba tu fe.
-    - ((Continúa con el diálogo de prueba.))
+    - ((Continues with test dialogue.))
   - [Choice]: ¿No moriste?
     - **[Goblin name]:** ¿No moriste?
     - **Sumo Sacerdote:** El viejo Sumo Sacerdote muere; yo nuevo Sumo Sacerdote.

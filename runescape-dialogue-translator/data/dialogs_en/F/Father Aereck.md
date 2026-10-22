@@ -7,15 +7,15 @@
 
 ## Dialogue Transcript
 
-
 ### Standard dialogue
-
 - (Condition: Before The Restless Ghost:)
   - **Father Aereck:** Welcome to the church of holy Saradomin.
   - (continue)
 - (Condition: After The Restless Ghost:)
   - **Father Aereck:** Welcome back to the church of holy Saradomin, my friend! What can I do for you today?
   - (continue)
+- **Father Aereck:** If you find any bones or ashes on your adventures, please feel free to offer them at this altar. You will be rewarded by Saradomin's light with greater knowledge for each one offered.
+- (continue)
 - [Menu]: What would you like to say?
   - [Choice]: cond=With a construction contract for Father Aereck:|Ask about your construction contract.
     - [Menu]: Select an option
@@ -29,10 +29,21 @@
       - [Choice]: [Leave]
         - (end)
   - [Choice]: cond=Before The Restless Ghost:|I'm looking for a quest! {{anchor|quest}}
-    - (see|The Restless Ghost)
+    - **Father Aereck:** That's lucky, I need someone to do a quest for me.
+    - (opens=Quest Overview)
+      - [Choice]: Not Right Now
+        - **Father Aereck:** Oh, well. If you do have some spare time on your hands, come back and talk to me.
+      - [Choice]: Accept Quest
+        - **Father Aereck:** Thank you. The problem is there's a ghost in the graveyard just south of this church. I would like you to get rid of it.
+        - **Father Aereck:** You'll need the help of my friend, Father Urhney, who is a bit of a ghost expert.
+        - **Father Aereck:** He's currently living in a little shack in the south of Lumbridge Swamps, near the coast.
+        - **Father Aereck:** My name is Father Aereck, by the way. Pleased to meet you.
+        - **Player:** Likewise.
+        - **Father Aereck:** Take care travelling through the swamps. To get there just follow the path south, through the graveyard.
+        - **Player:** I will, thanks.
   - [Choice]: cond=After The Restless Ghost:|Can you change my gravestone now? {{anchor|gravestone}}
     - **Father Aereck:** Certainly. All proceeds are donated to the Varrockian Guards' Widows & Orphans Fund.
-    - {{qact|Gravestone interface opens}}
+    - (Action: Gravestone interface opens)
   - {{anchor|saradomin}}
   - [Choice]: Who's Saradomin?
     - **Father Aereck:** Surely you have heard of our god, Saradomin?
@@ -52,7 +63,7 @@
             - **Father Aereck:** Well, I can see that. Still, there's something special about you.
             - **Player:** Thanks, I think.
           - [Choice]: I am! Do you like my disguise?
-            - **Father Aereck:** Argh! Avaunt, foul creature from another dimension! Avaunt! Begone in the name of Saradomin!
+            - **Father Aereck:** Argh! Avaunt, foul creature from another dimension! Avaunt! Begone in the name of Saradomin!
             - **Player:** Okay, okay, I was only joking!
       - [Choice]: Can you tell me about the battlefield?
         - (continue|battlefield)
@@ -62,7 +73,7 @@
     - **Father Aereck:** Ah, you wish to show your devotion to Saradomin by dedicating a ring to him? Very well, it would be my pleasure to assist.
     - (removes=clay ring) (receives=ring of devotion)
     - (Condition: If the Bless Is More achievement hasn't been completed:)
-      - {{RSFontAchievement|Bless Is More}}
+      - (Action: Bless Is More)
       - (continue)
     - [Father Aereck inscribes the symbol of Saradomin on your ring's signet face, and offers a brief benediction over it.]
   - [Choice]: Can you tell me about the crater? {{anchor|battlefield}}
@@ -70,15 +81,15 @@
     - **Father Aereck:** In a titanic battle that lasted for months, the mighty Saradomin drove back the forces of Zamorak to the Underworld where they belong.
     - **Father Aereck:** And now Saradomin is here, we can be sure that we will be safe under his divine protection.
     - **Father Aereck:** All praise Saradomin!
-
 ### Historical dialogue during the Battle of Lumbridge
-
 - (Condition: Before The Restless Ghost:)
   - **Father Aereck:** Welcome to the church of holy Saradomin.
   - (continue)
 - (Condition: After The Restless Ghost:)
   - **Father Aereck:** Welcome back to the church of holy Saradomin, my friend! What can I do for you today?
   - (continue)
+- **Father Aereck:** If you find any bones or ashes on your adventures, please feel free to offer them at this altar. You will be rewarded by Saradomin's light with greater knowledge for each one offered.
+- (continue)
 - [Menu]: What would you like to say?
   - [Choice]: I'm looking for a quest!
     - (above|quest)
@@ -90,3 +101,21 @@
     - (above|place)
   - [Choice]: Can you tell me about the battlefield?
     - **Father Aereck:** Lumbridge battlefield is where Saradomin himself is currently fighting Zamorak! Thank goodness that he is here! If he'd not shown up when he did, we'd all be thralls of Zamorak now! But he came to us from far away in our time of need, and even now he fights evil on Lumbridge Battlefield. Oh, you must be on your way to Saradomin's war camp in order to help out. It's to the northwest of here. We cannot let evil conquer! Good luck! And may Saradomin be with you!
+### During The Restless Ghost
+- **Father Aereck:** Have you gotten rid of the ghost yet?
+- **Player:** How was I supposed to do that?
+- **Father Aereck:** Well, you should go find Father Urhney as he knows all about ghosts.
+- **Father Aereck:** You can get to the swamp he lives in by going south through the cemetery.
+- **Father Aereck:** You'll have to head south through the swamp - stick to the coastline and you'll find his house in no time.
+- **Father Aereck:** Have you got rid of the ghost yet?
+- **Player:** I had a talk with Father Urhney. He has given me a funny amulet for talking to ghosts.
+- **Father Aereck:** I always wondered what that amulet was. Well, I hope it's useful. Tell me when you get rid of the ghost.
+- **Father Aereck:** That would explain it. Hmm. Well, I haven't seen any skulls.
+- **Father Aereck:** I hate warlocks. Ah, well, good luck.
+- **Father Aereck:** Great! Put it in the ghost's coffin and see what happens.
+- **Father Aereck:** Don't worry, I'm sure you'll find it again.
+- **Father Aereck:** I don't want it! Put it in the coffin and see what happens.
+- **Father Aereck:** Hi there. Hey, you're the one that got rid of that ghost. I wanted to reward you to say thanks for helping out.
+- **Father Aereck:** You've got rid of that ghost, haven't you?
+- **Father Aereck:** Thank you so much. I don't have much money, so I can't pay you, but I could improve your gravestone.
+- **Father Aereck:** Yes, the gravestone that appears when you die. If you go somewhere dangerous, you'll often find that people have died there and you'll see their gravestones. Most people have very plain ones, but I can upgrade you to a better design.

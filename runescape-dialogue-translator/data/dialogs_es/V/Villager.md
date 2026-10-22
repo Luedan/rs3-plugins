@@ -12,67 +12,67 @@
 ### Talk-to
 
 - {{trandom}}
-  - (Condition: Diálogo 1:)
+  - (Condition: Dialogue 1:)
     - **Player:** Hola, ¿cómo te va?
     - **Player:** ¿Deseas comerciar? {{anchor|one}}
     - **Villager:** No, no tengo nada de lo que desee deshacerme. Si desea comerciar, hay muchas tiendas y puestos de mercado alrededor.
-  - (Condition: Diálogo 2:)
+  - (Condition: Dialogue 2:)
     - **Player:** Hola, ¿cómo te va?
     - **Player:** Estoy buscando una misión. {{anchor|two}}
     - **Villager:** Lamento no poder ayudarte en eso.
-  - (Condition: Diálogo 3:)
+  - (Condition: Dialogue 3:)
     - **Player:** Hola, ¿cómo te va?
     - **Player:** Estoy en busca de enemigos para matar. {{anchor|three}}
     - **Villager:** Bueno, siempre están esos Ugthanki salvajes, serpientes y lobos que matar en las afueras de la ciudad.
-  - (Condition: Diálogo 4:)
+  - (Condition: Dialogue 4:)
     - **Player:** Hola, ¿cómo te va?
     - **Villager:** Ya sabes, incluso un reloj parado marca la hora correcta dos veces al día.
     - **Player:** ¿De qué estás hablando?
     - **Villager:** ¡Tonto sin educación! ¡Morirá, morirá!
     - **Player:** Ohhh kaaay, entonces te dejo con eso.
-  - (Condition: Diálogo 5:)
+  - (Condition: Dialogue 5:)
     - **Player:** Hola, ¿cómo te va?
     - **Villager:** Estoy ocupado ahora mismo.
-  - (Condition: Diálogo 6:)
+  - (Condition: Dialogue 6:)
     - **Player:** Hola, ¿cómo te va?
     - **Villager:** Estoy muy bien gracias.
-  - (Condition: Diálogo 7:)
+  - (Condition: Dialogue 7:)
     - **Player:** Hola, ¿cómo te va?
     - **Villager:** ¡Apártate de mi camino, tengo prisa!
-  - (Condition: Diálogo 8:)
+  - (Condition: Dialogue 8:)
     - **Player:** Hola, ¿cómo te va?
     - **Villager:** Estoy bien, ¿cómo estás tú?
     - **Player:** Muy bien, gracias.
-  - (Condition: Diálogo 9:)
+  - (Condition: Dialogue 9:)
     - **Player:** Hola, ¿cómo te va?
     - **Villager:** ¿Te conozco? ¡Tengo prisa!
-  - (Condition: Diálogo 10:)
+  - (Condition: Dialogue 10:)
     - **Player:** Hola, ¿cómo te va?
     - **Villager:** ¡Hola! Buen tiempo que hemos estado teniendo.
-  - (Condition: Diálogo 11:)
+  - (Condition: Dialogue 11:)
     - **Player:** Hola, ¿cómo te va?
     - **Villager:** No está mal, gracias.
-  - (Condition: Diálogo 12:)
+  - (Condition: Dialogue 12:)
     - **Player:** Hola, ¿cómo te va?
     - **Villager:** No es asunto tuyo.
-  - (Condition: Diálogo 13:)
+  - (Condition: Dialogue 13:)
     - **Player:** Hola, ¿cómo te va?
     - **Villager:** Creo que necesitamos un nuevo alcalde. El que tenemos no es muy bueno.
-  - (Condition: Diálogo 14:)
+  - (Condition: Dialogue 14:)
     - **Player:** Hola, ¿cómo te va?
     - **Villager:** Esa es información clasificada.
-  - (Condition: Diálogo 15:)
+  - (Condition: Dialogue 15:)
     - **Player:** Hola, ¿cómo te va?
     - **Villager:** Aquí aquí aquí.
     - **Player:** ¿De qué estás hablando?
     - **Villager:** ¡Tonto sin educación! ¡Morirá, morirá!
     - **Player:** Ohhh kaaay, entonces te dejo con eso.
-  - (Condition: Diálogo 16:)
+  - (Condition: Dialogue 16:)
     - **Player:** Hola, ¿cómo te va?
     - **Villager:** ¿Quién eres?
     - **Player:** Soy un aventurero audaz.
     - **Villager:** Ah, una profesión muy noble.
-  - (Condition: Diálogo 17:)
+  - (Condition: Dialogue 17:)
     - **Player:** Hola, ¿cómo te va?
     - **Villager:** ¿Cómo puedo ayudarte?
     - [Menu]: Selecciona una opción
@@ -89,11 +89,11 @@
 #### Si el aldeano está consciente{{anchor|thief}}
 
 - {{trandom}}
-  - (Condition: Diálogo 1:)
+  - (Condition: Dialogue 1:)
     - **Villager:** {{RSChat|What do you think you're doing?}}
     - No logras robarle el bolsillo al aldeano.
     - Has quedado atónito.
-  - (Condition: Diálogo 2:)
+  - (Condition: Dialogue 2:)
     - **Villager:** {{RSChat|Thief! Thief! Get away from me.}}
     - No logras robarle el bolsillo al aldeano.
     - Has quedado atónito.
@@ -126,5 +126,5 @@
 - **Villager:** {{RSChat|Zzzzzz}}
 - (Action: El aldeano se levanta.)
 - **Villager:** {{RSChat|Aghh, my head.}}
-- (Condition: Si el player hubiera robado al aldeano:)
+- (Condition: If the player had pickpocketed the villager:)
   - (continuea|thief)

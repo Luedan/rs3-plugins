@@ -13,5 +13,5 @@
 ### Interact==</noinclude>
 
 - **Roamin' Rains** ¡Baroooooooo!
-- ((Solo si estás en el nivel 11 de Yak to the Light:))
+- ((Only if on tier 11 of Yak to the Light:))
   - Acabas de terminar tu tarea actual de Yak Track: Wandering Yak.<br />Abre la interfaz de Yak Track para reclamar tus recompensas.

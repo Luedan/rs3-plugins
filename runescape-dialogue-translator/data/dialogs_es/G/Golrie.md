@@ -19,10 +19,10 @@
 #### Después de la búsqueda de la cascada
 
 - **Player:** Hola Golrie. ¿Cómo estás?
-- (Condition: Con el guijarro de Glarial en backpack o banco:)
+- (Condition: With Glarial's pebble in backpack or bank:)
   - **Golrie:** Mejor ahora que estoy en el lado derecho de esas barras. Espero que ese guijarro te haya ayudado.
   - (continue|cadarn)
-- (Condition: Sin el guijarro de Glarial en backpack o banco:)
+- (Condition: Without Glarial's pebble in backpack or bank:)
   - **Golrie:** Mejor ahora que estoy en el lado derecho de esas barras. De todos modos... Es curioso que deberías aparecer.
   - **Player:** ¿Por qué?
   - **Golrie:** ¿Recuerdas ese guijarro que te regalé? Bueno, apareció aquí en el suelo, ¿te gustaría recuperarlo?
@@ -36,17 +36,17 @@
       - **Player:** No, gracias.
       - **Golrie:** Muy bien, pero está aquí si lo necesitas.
       - (continue|cadarn)
-- (Condition: Con linaje Cadarn en backpack o banco:)
+- (Condition: With Cadarn lineage in backpack or bank:)
   - **Golrie:** De todos modos tengo mucho que hacer. Esos Hob-gobs dejaron mis cosas aquí en un gran desastre.
   - (continue|a-key)
-- (Condition: Sin linaje Cadarn en backpack o banco:)
+- (Condition: Without Cadarn lineage in backpack or bank:)
   - **Golrie:** Oh... eso me recuerda... Como te gustan las cosas élficas, encontré esto.
   - (receives=Cadarn lineage)
   - [Golrie te entrega un libro antiguo.]
   - (continue|a-key)
-- (Condition: Con clave en backpack o banco:)
+- (Condition: With a key in backpack or bank:)
   - **Player:** Bueno, adiós.
-- (Condition: Sin clave en backpack o banco:)
+- (Condition: Without a key in backpack or bank:)
   - [Menu]: Selecciona una opción
     - [Choice]: ¿Puedo usar tu llave?
       - **Player:** ¿Puedo usar tu clave?
@@ -83,24 +83,24 @@
     - **Player:** ¡Adiós!
   - [Choice]: En realidad, vine aquí por el guijarro de Glarial.
     - **Player:** En realidad, vine aquí por el guijarro de Glarial.
-    - (Condition: Con el guijarro de Glarial en backpack o banco:)
+    - (Condition: With Glarial's pebble in backpack or bank:)
       - **Golrie:** No lo he visto recientemente. ¿Supongo que lo tienes?
       - **Player:** ¡Efectivamente! Gracias.
       - (continue|cadarn)
-    - (Condition: Sin el guijarro de Glarial en backpack o banco:)
+    - (Condition: Without Glarial's pebble in backpack or bank:)
       - **Golrie:** Estás de suerte: alguien me lo tiró el otro día.
       - (receives=Glarial's pebble)
       - [Golrie te entrega un guijarro.]
       - (continue|cadarn2)
-    - (Condition: Sin linaje Cadarn en backpack o banco:)
+    - (Condition: Without Cadarn lineage in backpack or bank:)
       - **Golrie:** Oh... eso me recuerda: dado que eres un elfofilo, encontré esto.
       - (receives=Cadarn lineage)
       - [Golrie te entrega un libro antiguo.]
       - (continue|a-key2)
-    - (Condition: Con clave en backpack o banco:)
+    - (Condition: With a key in backpack or bank:)
       - **Player:** Adiós Golrie.
       - **Golrie:** Hasta luego.
-    - (Condition: Sin clave en backpack o banco:)
+    - (Condition: Without a key in backpack or bank:)
       - [Menu]: Selecciona una opción
         - [Choice]: ¿Puedo usar tu llave?
           - **Player:** ¿Puedo usar tu clave?

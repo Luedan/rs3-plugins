@@ -73,26 +73,26 @@
 ### After the destruction of Duel Arena
 
 - **Player:** ¡Hola!
-- ((Continúa con uno aleatorio de los siguientes:))
-  - ((Diálogo 1:))
+- ((Continues with a random one of the following:))
+  - ((Dialogue 1:))
     - **Afrah:** ¿No ves que estoy mirando a los cocodrilos?
     - **Player:** ¡Lo siento!
-  - ((Diálogo 2:))
+  - ((Dialogue 2:))
     - **Afrah:** ¿Sabías que creen que este lugar se remonta a la Segunda Edad?
     - **Player:** ¿En serio?
     - **Afrah:** Sí, me lo decía un arqueólogo.
-  - ((Diálogo 3:))
+  - ((Dialogue 3:))
     - **Afrah:** ¡Hola!
-  - ((Diálogo 4:))
+  - ((Dialogue 4:))
     - **Afrah:** Hmph.
-  - ((Diálogo 5:))
+  - ((Dialogue 5:))
     - **Afrah:** A veces extraño las peleas.
-  - ((Diálogo 6:))
+  - ((Dialogue 6:))
     - **Afrah:** Creo que prefiero el agua fresca del oasis al asesinato en masa.
     - **Player:** ¡Yo también!
-  - ((Diálogo 7:))
+  - ((Dialogue 7:))
     - **Afrah:** Oh, esto es emocionante.
     - **Player:** ¡Sí!
     - **Afrah:** Extraño los duelos.
-  - ((Diálogo 8:))
+  - ((Dialogue 8:))
     - **Afrah:** La vista es realmente agradable.

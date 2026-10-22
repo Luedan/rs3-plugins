@@ -41,7 +41,7 @@
 - **Player:** ¿Cómo van las investigaciones?
 - **Rupert the Beard:** ¡Gracias a que me liberaste, muy bien! Tengo mucho más que hacer por supuesto, pero ahora soy libre y puedo continuar donde lo dejé.
 - **Player:** ¡Es una gran noticia!
-- (Condition: Si el player ha perdido su casco de enano:)
+- (Condition: If the player has lost their dwarven helmet:)
   - **Player:** Ummm...
   - **Rupert the Beard:** ¿Cuál es el problema, viejo pelusa del ombligo?
   - **Player:** Perdí ese casco que me diste.
@@ -49,14 +49,14 @@
   - [Menu]: Selecciona una opción
     - [Choice]: Ok, eso suena justo.
       - **Player:** Ok, eso suena justo.
-      - (Condition: Sin espacio en backpack:)
+      - (Condition: Without space in backpack:)
         - **Rupert the Beard:** Mmm. Parece que primero necesitarás más espacio en tu inventario, viejo saltador. Vuelve a verme de nuevo cuando hayas hecho espacio.
         - **Player:** Vale.
-      - (Condition: Con menos de 60.000 coins:)
+      - (Condition: With less than 60,000 coins:)
         - No puedes permitirte eso.
         - **Rupert the Beard:** Mmm. Parece que no tienes suficiente, vieja papilla. Vuelve a verme otra vez cuando tengas un poco más de oro contigo.
         - **Player:** Vale.
-      - (Condition: Con 60.000 coins:)
+      - (Condition: With 60,000 coins:)
         - (removes=60,000 coins) (receives=dwarven helmet)
         - **Rupert the Beard:** ¡Ahí estás! Espero que esto te sirva lo suficiente, repollo viejo.
         - **Player:**¡Gracias, Rupert!

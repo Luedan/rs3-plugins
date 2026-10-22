@@ -56,10 +56,10 @@
 - Elige una opción:
   - ¿Puedes decantar mis pociones por mí?
     - (below|Decant)
-  - ((Con el Nivel 2 construido:))
+  - ((With Tier 2 built:))
     - ¿Tienes algo para intercambiar?
       - (opens=Granny Rowan's Supplies)
-  - ((Con el Nivel 3 construido:))
+  - ((With Tier 3 built:))
     - ¿Puedes prepararme mis pociones?
       - (below|Prepare potions)
   - ¿Qué haces aquí?
@@ -73,103 +73,103 @@
 
 #### Decantar
 
-- ((Lo siguiente se muestra en una interfaz titulada "SELECCIONE UNA OPCIÓN":))
+- ((The following is shown in an interface titled "SELECT AN OPTION":))
   - Opciones de decantación
     - Decantar viales
       - (La interfaz se cierra.)
       - **¿EN CUÁNTAS DOSIS QUIERES DECANTAR?**
         - una dosis
-          - ((Sin elementos en backpack:))
+          - ((Without items in backpack:))
             - **Granny Rowan:** ¡No tienes nada que decantar!
-          - ((Con elementos en backpack:))
+          - ((With items in backpack:))
             - Buscando...
-            - ((Sin pociones compatibles encontradas:))
-              - ((Sin pociones encontradas:))
+            - ((Without compatible potions found:))
+              - ((Without any potions found:))
                 - **Granny Rowan:** Lo siento, no sé cómo decantar nada de lo que llevas.
-              - ((Con una poción incompatible encontrada:))
+              - ((With one incompatible potion found:))
                 - **Granny Rowan:** Lo siento, no puedo hacer nada con esa poción.
-              - ((Con múltiples pociones incompatibles encontradas:))
+              - ((With multiple incompatible potions found:))
                 - **Granny Rowan:** Lo siento, no puedo hacer nada con esas pociones.
-            - ((Con pociones compatibles encontradas:))
-              - ((Con coins para viales faltantes:))
-                - ((Sin espacio backpack para los nuevos elementos:))
+            - ((With compatible potions found:))
+              - ((With coins for missing vials:))
+                - ((Without backpack space for the new items:))
                   - **Granny Rowan:** Tu inventario está demasiado lleno para que pueda hacer algo por ti.
-                - ((Con espacio backpack para los nuevos elementos:))
+                - ((With backpack space for the new items:))
                   - (removes=two coins for each missing vial) (receives=as many one-dose potions as possible)
-                  - ((Se repite para cada tipo de poción si el coins se tomó de la bolsa de dinero, luego continúa a continuación:))
+                  - ((Repeated for each type of potion if the coins were taken from the money pouch, then continues below:))
                     - [número] coins se han eliminado de su bolsa de dinero.
                   - **Granny Rowan:** Ahí lo tienes, amigo.
-              - ((Sin coins por viales faltantes:))
+              - ((Without coins for missing vials:))
                 - **Granny Rowan:** Lo sentimos, no tienes suficiente dinero para pagar suficientes viales vacíos.
         - Dos dosis
-          - ((Sin elementos en backpack:))
+          - ((Without items in backpack:))
             - **Granny Rowan:** ¡No tienes nada que decantar!
-          - ((Con elementos en backpack:))
+          - ((With items in backpack:))
             - Buscando...
-            - ((Sin pociones compatibles encontradas:))
-              - ((Sin pociones encontradas:))
+            - ((Without compatible potions found:))
+              - ((Without any potions found:))
                 - **Granny Rowan:** Lo siento, no sé cómo decantar nada de lo que llevas.
-              - ((Con una poción incompatible encontrada:))
+              - ((With one incompatible potion found:))
                 - **Granny Rowan:** Lo siento, no puedo hacer nada con esa poción.
-              - ((Con múltiples pociones incompatibles encontradas:))
+              - ((With multiple incompatible potions found:))
                 - **Granny Rowan:** Lo siento, no puedo hacer nada con esas pociones.
-            - ((Con pociones compatibles encontradas:))
-              - ((Con coins para viales faltantes:))
-                - ((Sin espacio backpack para los nuevos elementos:))
+            - ((With compatible potions found:))
+              - ((With coins for missing vials:))
+                - ((Without backpack space for the new items:))
                   - **Granny Rowan:** Tu inventario está demasiado lleno para que pueda hacer algo por ti.
-                - ((Con espacio backpack para los nuevos elementos:))
+                - ((With backpack space for the new items:))
                   - (removes=two coins for each missing vial) (receives=as many two-dose potions as possible)
-                  - ((Se repite para cada tipo de poción si el coins se tomó de la bolsa de dinero, luego continúa a continuación:))
+                  - ((Repeated for each type of potion if the coins were taken from the money pouch, then continues below:))
                     - [número] coins se han eliminado de su bolsa de dinero.
                   - **Granny Rowan:** Ahí lo tienes, amigo.
-              - ((Sin coins por viales faltantes:))
+              - ((Without coins for missing vials:))
                 - **Granny Rowan:** Lo sentimos, no tienes suficiente dinero para pagar suficientes viales vacíos.
         - Tres dosis
-          - ((Sin elementos en backpack:))
+          - ((Without items in backpack:))
             - **Granny Rowan:** ¡No tienes nada que decantar!
-          - ((Con elementos en backpack:))
+          - ((With items in backpack:))
             - Buscando...
-            - ((Sin pociones compatibles encontradas:))
-              - ((Sin pociones encontradas:))
+            - ((Without compatible potions found:))
+              - ((Without any potions found:))
                 - **Granny Rowan:** Lo siento, no sé cómo decantar nada de lo que llevas.
-              - ((Con una poción incompatible encontrada:))
+              - ((With one incompatible potion found:))
                 - **Granny Rowan:** Lo siento, no puedo hacer nada con esa poción.
-              - ((Con múltiples pociones incompatibles encontradas:))
+              - ((With multiple incompatible potions found:))
                 - **Granny Rowan:** Lo siento, no puedo hacer nada con esas pociones.
-            - ((Con pociones compatibles encontradas:))
-              - ((Con coins para viales faltantes:))
-                - ((Sin espacio backpack para los nuevos elementos:))
+            - ((With compatible potions found:))
+              - ((With coins for missing vials:))
+                - ((Without backpack space for the new items:))
                   - **Granny Rowan:** Tu inventario está demasiado lleno para que pueda hacer algo por ti.
-                - ((Con espacio backpack para los nuevos elementos:))
+                - ((With backpack space for the new items:))
                   - (removes=two coins for each missing vial) (receives=as many three-dose potions as possible)
-                  - ((Se repite para cada tipo de poción si el coins se tomó de la bolsa de dinero, luego continúa a continuación:))
+                  - ((Repeated for each type of potion if the coins were taken from the money pouch, then continues below:))
                     - [número] coins se han eliminado de su bolsa de dinero.
                   - **Granny Rowan:** Ahí lo tienes, amigo.
-              - ((Sin coins por viales faltantes:))
+              - ((Without coins for missing vials:))
                 - **Granny Rowan:** Lo sentimos, no tienes suficiente dinero para pagar suficientes viales vacíos.
         - Cuatro dosis
           - Buscando...
-          - ((Sin elementos en backpack:))
+          - ((Without items in backpack:))
             - **Granny Rowan:** ¡No tienes nada que decantar!
-          - ((Con elementos en backpack:))
+          - ((With items in backpack:))
             - Buscando...
-            - ((Sin pociones compatibles encontradas:))
-              - ((Sin pociones encontradas:))
+            - ((Without compatible potions found:))
+              - ((Without any potions found:))
                 - **Granny Rowan:** Lo siento, no sé cómo decantar nada de lo que llevas.
-              - ((Con una poción incompatible encontrada:))
+              - ((With one incompatible potion found:))
                 - **Granny Rowan:** Lo siento, no puedo hacer nada con esa poción.
-              - ((Con múltiples pociones incompatibles encontradas:))
+              - ((With multiple incompatible potions found:))
                 - **Granny Rowan:** Lo siento, no puedo hacer nada con esas pociones.
-            - ((Con pociones compatibles encontradas:))
+            - ((With compatible potions found:))
               - (receives=as many four-dose potions as possible)
               - **Granny Rowan:** Ahí lo tienes.
     - Decantar matraces
       - (La interfaz se cierra.)
-      - ((Sin matraces en backpack:))
+      - ((Without flasks in backpack:))
         - **Granny Rowan:** Lo siento, parece que no tienes nada que pueda usar. ¡Asegúrate de tener 2 matraces que no estén completamente llenos!
-      - ((Con matraces en backpack:))
+      - ((With flasks in backpack:))
         - **Granny Rowan:** Veamos qué tienes. Decantaré sus frascos de poción nuevamente en 6 frascos dosificados. Puedo hacer uso de los frascos, así que los aceptaré como pago.
-        - ((Sólo con la confirmación no desactivada:))
+        - ((Only with confirmation not toggled off:))
           - **¿DECANTAR LOS MATRACES Y GUARDARÉ LOS MATRACES VACÍOS?**
             - si
               - (continue)
@@ -181,31 +181,31 @@
         - **Granny Rowan:** Aquí tienes. ¡Eso es lo mejor que puedo hacer! {{Sic|If the flasks don't look too different, I gave them a clean}}
     - Convertir viales en matraces
       - (La interfaz se cierra.)
-      - ((Sin matraces vacíos en backpack:))
+      - ((Without empty flasks in backpack:))
         - **Granny Rowan:** Tendrás que proporcionar los matraces vacíos tú mismo; no son baratos. Puedes traérmelos anotados o sin anotaciones.
-      - ((Con matraces vacíos en backpack:))
+      - ((With empty flasks in backpack:))
         - **Granny Rowan:** {{Sic|Lets}} mira lo que tienes. Decantaré los viales de poción y todos los frascos con hasta 4 dosis en frascos de 6 dosis.  Tendrás que proporcionar los matraces vacíos tú mismo; no son baratos.
-        - ((Sin pociones para decantar o sin espacio backpack para los nuevos items:))
+        - ((Without potions to decant or without backpack space for the new items:))
           - **Granny Rowan:** ¡Lo siento, parece que no tienes nada en lo que pueda ayudarte! Asegúrate de tener las pociones correctas y algo de espacio libre en tu inventario y podré intentarlo de nuevo.
-        - ((Con pociones para decantar y espacio backpack para los nuevos items:))
+        - ((With potions to decant and backpack space for the new items:))
           - (removes=as many potion doses as possible) (receives=empty vials for completely emptied potion vials and full potion flasks for all removed doses)
           - **Granny Rowan:** Aquí tienes. ¡Eso es lo mejor que puedo hacer!
     - Convertir matraces en viales
       - (La interfaz se cierra.)
-      - ((Sin matraces para convertir o sin espacio backpack para los nuevos elementos:))
+      - ((Without flasks to convert or without backpack space for the new items:))
         - **Granny Rowan:** Lo siento, parece que no tienes nada que pueda usar. ¡Asegúrate de tener al menos 1 matraz!
-      - ((Con matraces para convertir y con espacio backpack para los nuevos elementos:))
+      - ((With flasks to convert and with backpack space for the new items:))
         - **Granny Rowan:** Por supuesto. Creo que puedo utilizar los matraces, así que te daré los viales gratis.
         - (removes=flasks) (receives=vials with corresponding number of doses)
         - **Granny Rowan:** Ahí lo tienes, ¡eso es lo mejor que puedo hacer!
     - combinar medusas
       - (La interfaz se cierra.)
-      - ((Sin elementos en backpack:))
+      - ((Without items in backpack:))
         - **Granny Rowan:** ¡No tienes medusas para combinar!
-      - ((Con elementos en backpack:))
-        - ((Sin medusas para combinar:))
+      - ((With items in backpack:))
+        - ((Without jellyfish to combine:))
           - **Granny Rowan:** Lo siento, no sé cómo combinar nada de lo que llevas.
-        - ((Con medusas para combinar:))
+        - ((With jellyfish to combine:))
           - (Action: Se combinan las medusas.)
           - **Granny Rowan:** Ahí lo tienes.
     - Cancelar
@@ -225,7 +225,7 @@
   - ¿Quieres continuar?
     - Sí.
       - (La interfaz Make-X para la producción de artículos se abre con el artículo con el requisito Herblore más alto seleccionado, o sobrecarga (3) (unf) si el player no tiene materiales para ningún artículo).
-      - ((Después de hacer pociones sin terminar:))
+      - ((After making unfinished potions:))
         - **Granny Rowan:** ¡Aquí tienes!
     - No.
       - (end)

@@ -76,7 +76,7 @@
 - [Menu]: Selecciona una opción
   - [Choice]: Necesito otra tarea.
     - **Player:** Necesito otra tarea.
-      - (Condition: Si actualmente estás en una asignación Slayer)
+      - (Condition: If you are currently on a Slayer assignment)
       - **Jacquelyn:**  Aún estás buscando a [assigned creatures]; Vuelve cuando hayas terminado tu tarea.
   - [Choice]: ¿Tienes algo para intercambiar?
     - **Player:** ¿Tienes algo para intercambiar?

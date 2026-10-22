@@ -18,14 +18,14 @@
 - **Blaze Sharpeye:** Oh, me temo que es un asunto ultrasecreto, muy importante y muy secreto. No puedo decirte de qué se trata, pero si pudiera...
 - **Blaze Sharpeye:** Les contaría todo sobre esta increíble nueva red de balizas que estamos creando para protegernos contra las crecientes amenazas en Morytania y Wilderness. Ups, ¿dije eso en voz alta?
 - **Player:** Sí. Sí, lo hiciste.
-- (Condition: Si el player tiene 43 Firemaking:)
+- (Condition: If the player has 43 Firemaking:)
   - **Blaze Sharpeye:** Sabes, parece que eres bastante hábil con el viejo polvorín. Dime, ¿tienes un deseo ardiente de prender fuego a las cosas?
   - **Player:** Eh... ¿tal vez?
   - **Blaze Sharpeye:** Bueno, entonces, ¡quizás seas el [man/woman] para nosotros!
   - **Player:** Mmm, está bien...
   - **Blaze Sharpeye:** Si alguna vez estás buscando trabajo, ¿por qué no charlas con King Roald en Varrock? Dile que yo te envié y quizás te ayude con algo.
   - **Player:** Gracias por eso; Lo tendré en cuenta.
-- (Condition: Si el player está por debajo de 43 Firemaking:)
+- (Condition: If the player is below 43 Firemaking:)
   - **Blaze Sharpeye:** Bueno, finge que no escuchaste nada, ¿eh? Como un favor a tu viejo amigo Blaze. Mientras tanto, si conoces a alguien con una habilidad particular para Firemaking, ¿me lo enviarías? Me vendría bien una mano, jeje.
   - [Menu]: Selecciona una opción
     - [Choice]: ¿Puedo ayudar?
@@ -58,17 +58,17 @@
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Podrías cuidar esta baliza por mí?
     - **Player:** ¿Podrías cuidar esta baliza por mí?
-    - (Condition: Si la baliza está apagada:)
+    - (Condition: If the beacon is unlit:)
       - **Blaze Sharpeye:** Por supuesto. Una vez que la baliza esté encendida, déjame 5 logs y yo me ocuparé del fuego todo el tiempo que pueda.
-    - (Condition: Si la baliza está muriendo:)
+    - (Condition: If the beacon is dying:)
       - **Blaze Sharpeye:** Bueno, podría, pero ya que estás aquí, es mejor que lo hagas tú mismo.
-    - (Condition: Si la baliza no muere:)
-      - (Condition: Si Blaze Sharpeye no tiene cinco logs:)
-        - (Condition: Si el player no tiene al menos cinco logs del mismo tipo:)
+    - (Condition: If the beacon is not dying:)
+      - (Condition: If Blaze Sharpeye does not have five logs:)
+        - (Condition: If the player does not have at least five logs of the same type:)
           - Debes darle al bombero cinco troncos del mismo tipo para la baliza.
           - **Blaze Sharpeye:** Me temo que no tienes suficiente registro del tipo correcto para que yo lo use.
-        - (Condition: Si el player tiene al menos cinco logs del mismo tipo:)
-          - (Condition: Si el mensaje de confirmación está habilitado:)
+        - (Condition: If the player has at least five logs of the same type:)
+          - (Condition: If the confirmation prompt is enabled:)
             - **Blaze Sharpeye:** Necesitaré cinco logs para poder atender el fuego. ¿Está bien?
             - [Menu]: ¿Quieres darle cinco logs al fuego?
               - [Choice]: Sí.
@@ -80,9 +80,9 @@
                 - **Blaze Sharpeye:** Bueno, ya sabes dónde estoy si cambias de opinión.
               - [Choice]: Sí. Por favor, no me pidas confirmación en el futuro.
                 - (above|talk-give-logs)
-          - (Condition: Si el mensaje de confirmación está deshabilitado:)
+          - (Condition: If the confirmation prompt is disabled:)
             - (above|talk-give-logs)
-      - (Condition: Si Blaze Sharpeye tiene cinco logs:)
+      - (Condition: If Blaze Sharpeye has five logs:)
         - **Blaze Sharpeye:** Por supuesto que lo haré, no te preocupes. Usaré el logs que ya me dejaste.
   - [Choice]: ¿Puedes hablarme de otras balizas?
     - **Player:** ¿Puedes hablarme de otras balizas?
@@ -95,7 +95,7 @@
     - **Player:** ¿Una guacamaya?
     - **Blaze Sharpeye:** Sí. Los guacamayos tienen la capacidad de volar muy alto en el aire y ver cosas que están mucho más lejos.
     - **Blaze Sharpeye:** También son muy inteligentes y se les puede entrenar para proporcionar la información exacta que necesito para obtener una descripción completa de la red de balizas.
-    - ((Si el player tiene una bolsa de guacamayo en su backpack:))
+    - ((If the player has a macaw pouch in their backpack:))
       - **Blaze Sharpeye:** Ahora que lo pienso, la guacamaya que tienes en tu mochila sería perfecta.
       - (continue|macaw)
   - [Choice]: Tengo algunas otras preguntas para ti.
@@ -132,22 +132,22 @@
           - [Choice]: ¿Qué tipo de recompensas ofrece?
             - **Player:** ¿Qué tipo de recompensas ofrece? ¿Algo bueno?
             - **Blaze Sharpeye:** ¡Pues sí, de hecho!
-            - ((Si el player aún no ha reclamado el anillo de fuego:))
+            - ((If the player has not already claimed the ring of fire:))
               - [Cuando mantienes seis balizas encendidas simultáneamente, King Roald te dará un timbre que te ayudará cuando Firemaking.]
               - (continue)
-            - ((Si el player ya reclamó el anillo de fuego:))
+            - ((If the player has already claimed the ring of fire:))
               - [Ya has reclamado el Anillo de Fuego por mantener seis balizas encendidas simultáneamente. Este anillo puede ayudarte cuando Firemaking.]
               - (continue)
-            - ((Si el player aún no ha reclamado los guantes ignífugos:))
+            - ((If the player has not already claimed the flame gloves:))
               - [Cuando mantengas diez balizas encendidas simultáneamente, King Roald te dará un par de guantes. Estos también son de ayuda cuando Firemaking y funcionan muy bien en combinación con Ring of Fire.]
               - (continue)
-            - ((Si el player ya reclamó los guantes ignífugos:))
+            - ((If the player has already claimed the flame gloves:))
               - [Ya has reclamado los guantes de llamas por mantener diez balizas encendidas simultáneamente. Estos también son de ayuda cuando Firemaking y funcionan bien en combinación con el Anillo de Fuego.]
               - (continue)
-            - ((Si el player aún no ha reclamado la azuela infernal:))
+            - ((If the player has not already claimed the inferno adze:))
               - [Cuando mantengas las catorce balizas encendidas simultáneamente, King Roald te dará el Inferno Adze. Este artículo puede ser de gran utilidad cuando Woodcutting, Firemaking o Mining.]
               - (continue)
-            - ((Si el player ya ha reclamado la azuela infernal:))
+            - ((If the player has already claimed the inferno adze:))
               - [Ya lograste mantener las catorce balizas encendidas simultáneamente y, como resultado, recibiste el Inferno Adze. Este elemento puede resultar de gran utilidad cuando se utiliza Woodcutting, Firemaking o Mining.]
               - (continue)
             - **Player:** ¿Puedo reclamar más de uno de cada uno de estos artículos?
@@ -219,27 +219,27 @@
 
 ### Using logs on Blaze Sharpeye
 
-- (Condition: Si la baliza está apagada:)
+- (Condition: If the beacon is unlit:)
   - Aquí no hay fuego para que lo atienda el bombero.
-- (Condition: Si la baliza está muriendo:)
+- (Condition: If the beacon is dying:)
   - **Player:** Ya que estoy aquí y el fuego de la baliza se está apagando, también podría cuidarlo yo mismo.
-- (Condition: Si la baliza no muere:)
-  - (Condition: Si Blaze Sharpeye no tiene cinco logs:)
-    - (Condition: Si el mensaje de confirmación está habilitado:)
+- (Condition: If the beacon is not dying:)
+  - (Condition: If Blaze Sharpeye does not have five logs:)
+    - (Condition: If the confirmation prompt is enabled:)
       - [Menu]: ¿Quieres darle cinco logs al fuego?
         - [Choice]: Sí.
-          - (Condition: Si el player no tiene al menos cinco logs del mismo tipo:)
+          - (Condition: If the player does not have at least five logs of the same type:)
             - El bombero necesita cinco troncos del mismo tipo para mantener este fuego.
-          - (Condition: Si el player tiene al menos cinco logs del mismo tipo:)
+          - (Condition: If the player has at least five logs of the same type:)
             - (removes=five logs)
             - Le das al fuego tierno 5 [type] logs.
         - [Choice]: No.
           - **Player:** Creo que, después de todo, me quedaré con mi logs.
         - [Choice]: Sí. Por favor, no vuelvas a pedirme confirmación.
           - (above|use-give-logs)
-    - (Condition: Si el mensaje de confirmación está deshabilitado:)
+    - (Condition: If the confirmation prompt is disabled:)
       - (above|use-give-logs)
-  - (Condition: Si Blaze Sharpeye tiene cinco logs:)
+  - (Condition: If Blaze Sharpeye has five logs:)
     - Ya saliste de logs con este ténder de fuego.
 
 ### Attempting to open the log storage chest without the elite Varrock tasks completed

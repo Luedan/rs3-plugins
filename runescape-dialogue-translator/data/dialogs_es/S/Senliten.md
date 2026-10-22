@@ -30,10 +30,10 @@
     - **Player:** Bueno, eso es un alivio, al menos, aunque sigue siendo confuso.
     - (previous)
   - [Choice]: ¿Puedo hablarte de historia?
-    - (Condition: Antes de ser completamente restaurado:)
+    - (Condition: Before being fully restored:)
       - **Senliten:** Responderé lo mejor que pueda, pero tenga en cuenta que hasta que no me reúna mis facultades se embotarán.
       - (continue)
-    - (Condition: Después de ser completamente restaurado:)
+    - (Condition: After being fully restored:)
       - **Senliten:{{anchor|history}}** ¿Qué historia te gustaría saber?
       - (continue)
     - [Menu]: Selecciona una opción
@@ -45,11 +45,11 @@
         - **Player:** Bueno, las tierras ahora son en su mayoría desiertos y, aunque Sophanem es un pueblo, el resto son ruinas, creo.
         - **Senliten:** Me temo que nuestros enemigos deben haber caído sobre nosotros después de mi muerte. Alguna vez nos acosaron desde el Norte.
         - **Player:** ¿Quiénes serían entonces estos enemigos?
-        - (Condition: Antes de Desert Treasure:)
+        - (Condition: Before Desert Treasure:)
           - **Senliten:** Fuerzas oscuras de las que felizmente aún no eres plenamente consciente. Siempre conspirando en las tierras oscuras de Morytania. Durante mi reinado, los derrotamos temporalmente con la ayuda de los Jueces Severos.
           - **Senliten:** Icthlarin sea alabado por su fuerza y sabiduría.
           - (continue)
-        - (Condition: Después de Desert Treasure:)
+        - (Condition: After Desert Treasure:)
           - **Senliten:** Esa vil criatura Zaros y sus secuaces. Siempre conspirando en las tierras oscuras de Morytania. Durante mi reinado, lo derrotamos temporalmente con la ayuda de los Jueces Stern. Icthlarin sea alabado por su fuerza y ​​sabiduría.
           - (continue)
         - **Player:** ¿Siempre pensé que Zamorak era la raíz del mal?
@@ -169,12 +169,12 @@
     - **Senliten:** Tuvo una experiencia desgarradora que dejará huella. Con el tiempo, es posible que veamos un regreso a la forma. Esperemos.
     - (initial)
   - [Choice]: Habla sobre las lágrimas de Crocodile.
-    - (Condition: Antes de cumplir los requisitos de la misión:)
+    - (Condition: Before meeting the quest requirements:)
       - **Player:** ¿Puedo ser de ayuda?
       - **Senliten:** No en este momento; Primero necesitas aprender más sobre el desierto.
-    - (Condition: Después de cumplir los requisitos de la misión:)
+    - (Condition: After meeting the quest requirements:)
       - (ver|Crocodile Lágrimas#Con todos los requisitos)
-    - (Condition: Después de completar la misión:)
+    - (Condition: After completing the quest:)
       - **Senliten:** Gracias por arreglar las cosas con Crondis. Ya puedo sentir que su modestia regresa a los corazones del pueblo Kharidian.
   - [Choice]: cond=After Our Man in the North|Habla de Nuestro Hombre del Norte.
     - **Player:** Osman lo admitió: dice que solo trabajó con Jabari por el bien común, para obtener pruebas innegables de su reclamo y poder cimentar la paz entre Menaphos y Al Kharid.

@@ -21,93 +21,93 @@
 - **Kili:** Hola Player, ¿qué puedo hacer por ti hoy?
 - [Menu]: Elige una opción:
   - [Choice]: cond=Only without having completed all equipment upgrade tasks:|Hable sobre la tarea de actualización de equipo activo.
-    - (Condition: Si no cumple con los requisitos para alguna tarea incompleta:)
+    - (Condition: If you don't meet requirements for any uncompleted tasks:)
       - **Kili:** No tengo ninguna tarea de actualización disponible para usted en este momento.
-      - (Condition: Si su próxima tarea incompleta requiere un nivel inferior a 70 Necromancy:)
+      - (Condition: If your next uncompleted task requires below level 70 Necromancy:)
         - [Necesita el nivel [número] Necromancy para la siguiente tarea de actualización.]
         - (previous)
-      - (Condition: Si tu próxima tarea sin completar requiere el nivel 70 Necromancy o superior:)
+      - (Condition: If your next uncompleted task requires level 70 Necromancy or above:)
         - [Necesita el nivel [número] Necromancy y debe haber completado 'El Spirit de War' para la siguiente tarea de actualización.]
         - (previous)
-    - (Condition: Si solo tienes una tarea incompleta disponible o tienes una tarea en proceso:)
-      - (Condition: Si la tarea es para el nivel 30:)
-        - (Condition: Antes de haber recibido la urna del alma:)
+    - (Condition: If you only have a single uncompleted task available or have a task in process:)
+      - (Condition: If the task is for tier 30:)
+        - (Condition: Before having received the soul urn:)
           - (below|Before having received the soul urn)
-        - (Condition: Después de haber recibido la urna del alma:)
+        - (Condition: After having received the soul urn:)
           - (below|After having received the soul urn)
-      - (Condition: Si la tarea es para el nivel 40:)
-        - (Condition: Antes de haber recibido la urna del alma:)
+      - (Condition: If the task is for tier 40:)
+        - (Condition: Before having received the soul urn:)
           - (below|Before having received the soul urn 2)
-        - (Condition: Después de haber recibido la urna del alma:)
+        - (Condition: After having received the soul urn:)
           - (below|After having received the soul urn 2)
-      - (Condition: Si la tarea es para el nivel 50:)
-        - (Condition: Antes de haber recibido la urna del alma:)
+      - (Condition: If the task is for tier 50:)
+        - (Condition: Before having received the soul urn:)
           - (below|Before having received the soul urn 3)
-        - (Condition: Después de haber recibido la urna del alma:)
+        - (Condition: After having received the soul urn:)
           - (below|After having received the soul urn 3)
-      - (Condition: Si la tarea es para el nivel 60:)
-        - (Condition: Antes de haber recibido la urna del alma:)
+      - (Condition: If the task is for tier 60:)
+        - (Condition: Before having received the soul urn:)
           - (below|Before having received the soul urn 4)
-        - (Condition: Después de haber recibido la urna del alma:)
+        - (Condition: After having received the soul urn:)
           - (below|After having received the soul urn 4)
-      - (Condition: Si la tarea es para el nivel 70 (tanque):)
-        - (Condition: Antes de haber recibido la urna del alma:)
+      - (Condition: If the task is for tier 70 (tank):)
+        - (Condition: Before having received the soul urn:)
           - (below|Before having received the soul urn 5)
-        - (Condition: Después de haber recibido la urna del alma:)
+        - (Condition: After having received the soul urn:)
           - (below|After having received the soul urn 5)
-      - (Condition: Si la tarea es para el nivel 70 (poder):)
-        - (Condition: Antes de haber seleccionado la tarea:)
+      - (Condition: If the task is for tier 70 (power):)
+        - (Condition: Before having selected the task:)
           - (below|Before having selected the task)
-        - (Condition: Después de haber seleccionado la tarea:)
+        - (Condition: After having selected the task:)
           - (below|After having selected the task)
-      - (Condition: Si la tarea es para el nivel 80 (tanque):)
-        - (Condition: Antes de haber recibido el martillo ligado al espíritu descargado:)
+      - (Condition: If the task is for tier 80 (tank):)
+        - (Condition: Before having received the uncharged spiritbound hammer:)
           - (below|Before having received the uncharged spiritbound hammer)
-        - (Condition: Después de haber recibido el martillo ligado al espíritu descargado:)
+        - (Condition: After having received the uncharged spiritbound hammer:)
           - (below|After having received the uncharged spiritbound hammer)
-      - (Condition: Si la tarea es para el nivel 80 (potencia):)
-        - (Condition: Antes de haber seleccionado la tarea:)
+      - (Condition: If the task is for tier 80 (power):)
+        - (Condition: Before having selected the task:)
           - (below|Before having selected the task 2)
-        - (Condition: Después de haber seleccionado la tarea:)
+        - (Condition: After having selected the task:)
           - (below|After having selected the task 2)
-      - (Condition: Si la tarea es para el nivel 90 (tanque):)
-        - (Condition: Antes de haber recibido el cristal nigromántico inerte:)
+      - (Condition: If the task is for tier 90 (tank):)
+        - (Condition: Before having received the inert necromantic crystal:)
           - (below|Before having received the inert necromantic crystal)
-        - (Condition: Después de haber recibido el cristal nigromántico inerte:)
+        - (Condition: After having received the inert necromantic crystal:)
           - (below|After having received the inert necromantic crystal)
-      - (Condition: Si la tarea es para el nivel 90 (poder):)
-        - (Condition: Antes de haber seleccionado la tarea:)
+      - (Condition: If the task is for tier 90 (power):)
+        - (Condition: Before having selected the task:)
           - (below|Before having selected the task 3)
-        - (Condition: Después de haber seleccionado la tarea:)
+        - (Condition: After having selected the task:)
           - (below|After having selected the task 3)
-    - (Condition: Si tiene varias tareas sin completar disponibles:)
+    - (Condition: If you have multiple uncompleted tasks available:)
       - [Menu]: ¿En qué actualización te gustaría trabajar?
         - [Choice]: cond=Only with the tier 70 tank task uncompleted:|Nivel 70
-          - ((Como arriba con solo esta tarea disponible.))
+          - ((As above with only this task available.))
         - [Choice]: cond=Only with the tier 70 power task uncompleted:|Nivel 70 (potencia)
-          - ((Como arriba con solo esta tarea disponible.))
+          - ((As above with only this task available.))
         - [Choice]: cond=Only with the tier 80 tank task available and uncompleted:|Nivel 80
-          - ((Como arriba con solo esta tarea disponible.))
+          - ((As above with only this task available.))
         - [Choice]: cond=Only with the tier 80 power task available and uncompleted:|Nivel 80 (potencia)
-          - ((Como arriba con solo esta tarea disponible.))
+          - ((As above with only this task available.))
         - [Choice]: cond=Only with the tier 90 tank task available and uncompleted:|Nivel 90
-          - ((Como arriba con solo esta tarea disponible.))
+          - ((As above with only this task available.))
         - [Choice]: cond=Only with the tier 90 power task available and uncompleted:|Nivel 90 (potencia)
-          - ((Como arriba con solo esta tarea disponible.))
+          - ((As above with only this task available.))
   - [Choice]: Hable sobre actualizaciones de equipos.
     - **Player:** Me gustaría saber más sobre las actualizaciones de equipos.
     - **Kili:** Mejoras de equipos... ¿Qué te gustaría saber sobre ellas?
     - [Menu]: Selecciona una opción
       - [Choice]: ¿Cómo puedo obtener más actualizaciones?
         - **Player:** ¿Cómo puedo obtener más actualizaciones de equipo?
-        - (Condition: Sin haber completado todas las tareas de actualización de equipos:)
+        - (Condition: Without having completed all the equipment upgrade tasks:)
           - **Kili:** A medida que te vuelvas más poderoso como nigromante, regresa conmigo y pregúntame sobre las tareas de mejora del equipo.
           - **Kili:** Si no has crecido mucho desde que completaste tu última tarea, no tendré nada más que hacer.
           - **Player:** ¿Cuántas tareas hay?
           - **Kili:** Hmm... Puedo enseñarte cómo mejorar el equipo de tu nigromante desde el nivel 20 hasta el nivel 90.
           - **Kili:** Una vez que hayas alcanzado el nivel 70 y superior, también puedo enseñarte cómo fabricar servoarmaduras... ¡Eso daría un total de 10 tareas en total!
           - (previous)
-        - (Condition: Habiendo completado todas las tareas de actualización del equipo:)
+        - (Condition: Having completed all the equipment upgrade tasks:)
           - **Kili:** ¡Ya te he enseñado todo lo que hay que saber!
           - (previous)
       - [Choice]: ¿Cómo puedo aplicar las actualizaciones que he aprendido?
@@ -126,7 +126,7 @@
         - **Kili:** Como te enseñé, podrás conseguirlos realizando rituales de alma en varios objetos del supramundo, para imbuirlos de energía nigromántica.
         - **Kili:** Vale la pena mencionar que para darle vida a las barras, primero necesitarás fundir una variedad de metales juntos en un horno.
         - **Kili:** Algunas mejoras también pueden necesitar runas de nigromancia, que puedes obtener elaborando runas con esencia impura al noreste de Um o intercambiando con otros jugadores.
-        - (Condition: Habiendo completado una tarea de actualización del equipo eléctrico:)
+        - (Condition: Having completed a power equipment upgrade task:)
           - **Player:** ¿Qué tal un plato hermódico?
           - **Kili:** Ah, sí, un plato hermódico. Solo los necesitarás para las actualizaciones de niveles superiores; derrotar a Hermod debería conseguir algunas.
           - (continue)
@@ -137,24 +137,24 @@
   - [Choice]: Muéstrame las tareas difíciles de Underworld que puedo hacer.
     - (opens=Underworld Set Tasks - Hard)
   - [Choice]: cond=With hard Underworld achievements completed:|¿Puedo reclamar alguna recompensa de usted?
-    - (Condition: Sin haber reclamado las recompensas:)
+    - (Condition: Without having claimed the rewards:)
       - **Player:** He completado todas las tareas del conjunto de tareas difíciles de Underworld.
       - **Kili:** Bien hecho Player, he reservado algunas recompensas para ti.
       - **Kili:** Lupe también acordó proporcionarte un suministro diario de huesos de dragón, tinta fantasmal mayor y velas rituales mayores en reconocimiento a tus esfuerzos. También empezó a vender una pequeña cantidad de cubos de baba.
-      - (Condition: Sin dos espacios backpack libres:)
+      - (Condition: Without two free backpack spaces:)
         - **Kili:** Me temo que no tienes suficiente espacio backpack para reclamar todas tus recompensas. Hablame de nuevo cuando tengas 2 espacios.
-      - (Condition: Con dos espacios backpack gratuitos:)
+      - (Condition: With two free backpack spaces:)
         - (receives=antique lamp (Hard Underworld Tasks) y Grimorio del Inframundo 3)
         - [¡Recibirás algunas recompensas por completar el difícil conjunto de tareas de Underworld!]
         - **Kili:** Ahí lo tienes, parece que eso es todo.
-    - (Condition: Habiendo reclamado las recompensas:)
-      - (Condition: Poseer un Grimorio 3 del Inframundo:)
+    - (Condition: Having claimed the rewards:)
+      - (Condition: Owning an Underworld Grimoire 3:)
         - **Kili:** ¡No tienes ninguna recompensa que reclamar!
-      - (Condition: Sin poseer un Underworld Grimoire 3:)
+      - (Condition: Without owning an Underworld Grimoire 3:)
         - **Player:** Perdí el Underworld Grimoire 3 que me diste...
-        - (Condition: Sin espacio libre backpack:)
+        - (Condition: Without free backpack space:)
           - **Kili:** Parece que no tienes espacio para uno nuevo, vuelve conmigo cuando lo tengas.
-        - (Condition: Con espacio gratuito backpack:)
+        - (Condition: With free backpack space:)
           - **Kili:** Por suerte para ti, tengo uno de repuesto. Cuida mejor este.
           - (receives=Underworld Grimoire 3)
           - [Te entregan otro Underworld Grimoire 3.]
@@ -182,97 +182,97 @@
           - [Choice]: Lo siento, me estaba yendo.
             - (end)
       - [Choice]: ¿Puedo reclamar alguna recompensa de usted?
-        - (Condition: Sin recompensas para reclamar:)
+        - (Condition: Without rewards to claim:)
           - **Kili:** ¡No tienes ninguna recompensa que reclamar!
-        - (Condition: Con recompensas para reclamar:)
-          - (Condition: Sin haber reclamado las recompensas antes:)
+        - (Condition: With rewards to claim:)
+          - (Condition: Without having claimed the rewards before:)
             - **Player:** He completado todas las tareas del conjunto de tareas difíciles de Underworld.
             - **Kili:** Bien hecho Player, he reservado algunas recompensas para ti.
             - **Kili:** Lupe también acordó proporcionarte un suministro diario de huesos de dragón, tinta fantasmal mayor y velas rituales mayores en reconocimiento a tus esfuerzos. También empezó a vender una pequeña cantidad de cubos de baba.
-            - (Condition: Sin dos espacios backpack libres:)
+            - (Condition: Without two free backpack spaces:)
               - **Kili:** Me temo que no tienes suficiente espacio backpack para reclamar todas tus recompensas. Hablame de nuevo cuando tengas 2 espacios.
-            - (Condition: Con dos espacios backpack gratuitos:)
+            - (Condition: With two free backpack spaces:)
               - (receives=antique lamp (Hard Underworld Tasks) y Grimorio del Inframundo 3)
               - [¡Recibirás algunas recompensas por completar el difícil conjunto de tareas de Underworld!]
               - **Kili:** Ahí lo tienes, parece que eso es todo.
-          - (Condition: Habiendo reclamado las recompensas antes:)
+          - (Condition: Having claimed the rewards before:)
             - **Player:** Perdí el Underworld Grimoire 3 que me diste...
-            - (Condition: Sin espacio libre backpack:)
+            - (Condition: Without free backpack space:)
               - **Kili:** Parece que no tienes espacio para uno nuevo, vuelve conmigo cuando lo tengas.
-            - (Condition: Con espacio gratuito backpack:)
+            - (Condition: With free backpack space:)
               - **Kili:** Por suerte para ti, tengo uno de repuesto. Cuida mejor este.
               - (receives=Underworld Grimoire 3)
               - [Te entregan otro Underworld Grimoire 3.]
       - [Choice]: ¿Puedo comprar un repuesto de la recompensa?
         - [Menu]: Elige una opción:
           - [Choice]: Grimorio del inframundo 1
-            - (Condition: Sin espacio libre en backpack:)
+            - (Condition: Without free space in backpack:)
               - **Kili:** Necesitarás espacio en tu inventario.
-            - (Condition: Con espacio libre en backpack:)
+            - (Condition: With free space in backpack:)
               - **Kili:** ¿Grimorio del inframundo 1? Sí, pero me temo que te costaría 5.000 coins.
               - [Menu]: ¿Comprar otro por 5.000 coins?
                 - [Choice]: si
-                  - (Condition: Sin 5.000 coins:)
+                  - (Condition: Without 5,000 coins:)
                     - No puedes permitirte eso.
-                    - ((Repetido en una ventana emergente:))
+                    - ((Repeated in a pop-up:))
                       - No puedes permitirte eso.
                       - (continue)
                     - **Kili:** Sin embargo, no parece que puedas permitírtelo en este momento. Vuelve conmigo cuando puedas.
-                  - (Condition: Con 5.000 coins:)
+                  - (Condition: With 5,000 coins:)
                     - (removes=5,000 coins) (receives=Underworld Grimoire 1)
                     - [Te entregan otro Grimorio 1 de Underworld.]
                 - [Choice]: No
                   - **Player:** No, gracias.
           - [Choice]: Grimorio del inframundo 2
-            - (Condition: Sin espacio libre en backpack:)
+            - (Condition: Without free space in backpack:)
               - **Kili:** Necesitarás espacio en tu inventario.
-            - (Condition: Con espacio libre en backpack:)
+            - (Condition: With free space in backpack:)
               - **Kili:** ¿Grimorio del inframundo 2? Sí, pero me temo que te costaría 10.000 coins.
               - [Menu]: ¿Comprar otro por 10.000 coins?
                 - [Choice]: si
-                  - (Condition: Sin 10.000 coins:)
+                  - (Condition: Without 10,000 coins:)
                     - No puedes permitirte eso.
-                    - ((Repetido en una ventana emergente:))
+                    - ((Repeated in a pop-up:))
                       - No puedes permitirte eso.
                       - (continue)
                     - **Kili:** Sin embargo, no parece que puedas permitírtelo en este momento. Vuelve conmigo cuando puedas.
-                  - (Condition: Con 10.000 coins:)
+                  - (Condition: With 10,000 coins:)
                     - (removes=10,000 coins) (receives=Underworld Grimoire 2)
                     - [Te entregan otro Underworld Grimoire 2.]
                 - [Choice]: No
                   - **Player:** No, gracias.
           - [Choice]: cond=Having unlocked Underworld Grimoire 3:|Grimorio del inframundo 3
-            - (Condition: Sin espacio libre en backpack:)
+            - (Condition: Without free space in backpack:)
               - **Kili:** Necesitarás espacio en tu inventario.
-            - (Condition: Con espacio libre en backpack:)
+            - (Condition: With free space in backpack:)
               - **Kili:** ¿Grimorio del inframundo 3? Sí, pero me temo que te costaría 25.000 coins.
               - [Menu]: ¿Comprar otro por 25.000 coins?
                 - [Choice]: si
-                  - (Condition: Sin 25.000 coins:)
+                  - (Condition: Without 25,000 coins:)
                     - No puedes permitirte eso.
-                    - ((Repetido en una ventana emergente:))
+                    - ((Repeated in a pop-up:))
                       - No puedes permitirte eso.
                       - (continue)
                     - **Kili:** Sin embargo, no parece que puedas permitírtelo en este momento. Vuelve conmigo cuando puedas.
-                  - (Condition: Con 25.000 coins:)
+                  - (Condition: With 25,000 coins:)
                     - (removes=25,000 coins) (receives=Underworld Grimoire 3)
                     - [Te entregan otro Underworld Grimoire 3.]
                 - [Choice]: No
                   - **Player:** No, gracias.
           - [Choice]: cond=Having unlocked Underworld Grimoire 4:|Grimorio del inframundo 4
-            - (Condition: Sin espacio libre en backpack:)
+            - (Condition: Without free space in backpack:)
               - **Kili:** Necesitarás espacio en tu inventario.
-            - (Condition: Con espacio libre en backpack:)
+            - (Condition: With free space in backpack:)
               - **Kili:** ¿Grimorio del inframundo 4? Sí, pero me temo que te costaría 50.000 coins.
               - [Menu]: ¿Comprar otro por 505.000 coins?
                 - [Choice]: si
-                  - (Condition: Sin 50.000 coins:)
+                  - (Condition: Without 50,000 coins:)
                     - No puedes permitirte eso.
-                    - ((Repetido en una ventana emergente:))
+                    - ((Repeated in a pop-up:))
                       - No puedes permitirte eso.
                       - (continue)
                     - **Kili:** Sin embargo, no parece que puedas permitírtelo en este momento. Vuelve conmigo cuando puedas.
-                  - (Condition: Con 50.000 coins:)
+                  - (Condition: With 50,000 coins:)
                     - (removes=50,000 coins) (receives=Underworld Grimoire 4)
                     - [Te entregan otro Underworld Grimoire 4.]
                 - [Choice]: No
@@ -296,13 +296,13 @@
         - (initial)
       - [Choice]: Pregunte cuando Thalmund esté de visita.
         - **Player:** ¿Cuándo será la próxima visita de Thalmund?
-        - (Condition: Fuera los martes y miércoles:)
+        - (Condition: Outside Tuesdays and Wednesdays:)
           - **Kili:** Pasará por aquí en los días [número].
           - (continue)
-        - (Condition: El martes:)
+        - (Condition: On Tuesday:)
           - **Kili:** Llegará en 1 día.
           - (continue)
-        - (Condition: El miércoles:)
+        - (Condition: On Wednesday:)
           - **Kili:** Hoy está aquí, justo por allá con su carrito.
           - (continue)
         - **Kili:** ¡Asegúrate de visitarlo! Siempre tiene un buen stock de mercancías de sus viajes por el inframundo.
@@ -330,18 +330,18 @@
 - **Kili:** Bien, entonces, ¿dónde estábamos?... Nivel 30.
 - **Kili:** Al igual que cuando te enseñé la primera actualización, necesitaré que tomes esta urna de almas y la llenes con algunas almas.
 - **Kili:** Esta urna solo aceptará almas provenientes de matar trolls usando nigromancia o completando rituales de comunión menores. Necesito 25 almas troll, o 3 almas de comunión menor.
-- ((Sin espacio en backpack:))
+- ((Without space in backpack:))
   - **Kili:** Ah, parece que no tienes espacio para la urna del alma. Vuelve cuando lo hagas.
-- ((Con espacio en backpack:))
-  - ((Si no tienes la urna del alma:))
+- ((With space in backpack:))
+  - ((If you don't have the soul urn:))
     - (receives=a soul urn)
     - Kili te regala una urna para el alma.
     - (continue)
   - **Player:** Fácil. Déjame buscar papel y lápiz para escribir esto...
   - **Kili:** ¡Muy por delante de ti! Ya lo he anotado en una lista para que puedas realizar un seguimiento de lo que se necesita fácilmente.
-  - ((Sin espacio en backpack:))
+  - ((Without space in backpack:))
     - **Kili:** Ah, parece que no tienes espacio para la lista de tareas de actualización de equipo. Vuelve cuando lo hagas.
-  - ((Con espacio en backpack:))
+  - ((With space in backpack:))
     - (receives=an equipment upgrade task list)
     - Kili le ofrece una lista de tareas de actualización de equipos.
     - **Player:** ¡No importa entonces! Iré a buscar esas almas para ti.
@@ -350,22 +350,22 @@
 
 - **Seleccione una opción**
   - Pregunta sobre tu tarea actual.
-    - ((Sin urna de alma llena:))
-      - ((Sin lista de tareas de actualización de equipo:))
+    - ((Without a full soul urn:))
+      - ((Without equipment upgrade task list:))
         - **Player:** Necesito recuperar mi lista de tareas de actualización de equipo.
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
           - (continue|30)
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=an equipment upgrade task list)
           - Kili le entrega una nueva lista de tareas de actualización de equipos.
           - (continue)
-      - ((Sin alma urna:))
+      - ((Without soul urn:))
         - **Player:** Necesito recuperar la urna de mi alma.
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
           - (continue)
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=a soul urn)
           - Kili te entrega una nueva urna para el alma.
           - (continue)
@@ -377,7 +377,7 @@
       - **Kili:** Muy bien, solo necesito que me traigas algunas almas en esa urna de almas que te di.
       - **Kili:** La urna se modifica para aceptar solo almas provenientes de matar trolls usando nigromancia o completando rituales de comunión menores. Necesito 25 almas troll, o 3 almas de comunión menor.
       - **Player:** ¡Vale! Entonces me iré de nuevo.
-    - ((Con una urna de alma llena:))
+    - ((With a full soul urn:))
       - **Player:** ¡Lléne la urna del alma!
       - **Kili:** ¡Genial!
       - Kili toma la urna del alma.
@@ -400,7 +400,7 @@
     - **Kili:** ¿Está seguro de que desea dejar de trabajar en su tarea de actualización actual?
     - **Seleccione una opción**
       - Sí, quiero dejar de trabajar en mi tarea de actualización actual.
-        - ((Si tiene una lista de tareas de actualización de equipos en backpack:))
+        - ((If you have an equipment upgrade task list in backpack:))
           - (removes=the equipment upgrade task list)
           - (continue)
         - **Kili:** No hay problema. Puede volver en cualquier momento para trabajar en una nueva tarea.
@@ -417,10 +417,10 @@
 - **Kili:** Ok, ¡es hora de enseñarte el nivel 40!
 - **Kili:** Como antes, tendrás que ir y llenar esta urna de almas con algunas almas.
 - **Kili:** Esta vez, la urna solo aceptará almas provenientes de matar criaturas no muertas usando nigromancia o completando rituales de comunión menores. Necesito 50 almas de no-muertos o 5 almas de comunión menor.
-- ((Sin espacio en backpack:))
+- ((Without space in backpack:))
   - **Kili:** Ah, parece que no tienes espacio para la urna del alma. Vuelve cuando lo hagas.
-- ((Con espacio en backpack:))
-  - ((Si no tienes la urna del alma:))
+- ((With space in backpack:))
+  - ((If you don't have the soul urn:))
     - (receives=a soul urn)
     - Kili te regala una urna para el alma.
     - (continue)
@@ -434,9 +434,9 @@
   - **Kili:** Todo el mundo necesita un poco de sustento, ¿no? Incluso fantasmas.
   - **Player:** ...
   - **Kili:** Continuando. Aquí está la lista de tareas para usted.
-  - ((Sin espacio en backpack:))
+  - ((Without space in backpack:))
     - **Kili:** Ah, parece que no tienes espacio para la lista de tareas de actualización de equipo. Vuelve cuando lo hagas.
-  - ((Con espacio en backpack:))
+  - ((With space in backpack:))
     - (receives=an equipment upgrade task list)
     - Kili le ofrece una lista de tareas de actualización de equipos.
     - **Kili:** Ah, y una última cosa. Sólo tráeme lo que necesito una vez que lo tengas todo, en lugar de poco a poco. Nos gusta mantener nuestra casa ordenada y Thalmund se pone de mal humor cuando la sala está llena de objetos de aventureros.
@@ -446,22 +446,22 @@
 
 - **Seleccione una opción**
   - Pregunta sobre tu tarea actual.
-    - ((Sin urna llena de alma y pastel de carne:))
-      - ((Sin lista de tareas de actualización de equipo:))
+    - ((Without a full soul urn and a meat pie:))
+      - ((Without equipment upgrade task list:))
         - **Player:** Necesito recuperar mi lista de tareas de actualización de equipo.
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
           - (continue|40)
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=an equipment upgrade task list)
           - Kili le entrega una nueva lista de tareas de actualización de equipos.
           - (continue)
-      - ((Sin alma urna:))
+      - ((Without soul urn:))
         - **Player:** Necesito recuperar la urna de mi alma.
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
           - (continue|40)
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=a soul urn)
           - Kili te entrega una nueva urna para el alma.
           - (continue)
@@ -473,7 +473,7 @@
       - **Kili:** La urna se modifica para aceptar solo almas provenientes de matar criaturas no muertas usando nigromancia o completando rituales de comunión menores. Necesito 50 almas de no-muertos o 5 almas de comunión menor.
       - **Kili:** ¡Ah, y un pastel de carne!
       - **Player:** ¡Vale! Adiós entonces.
-    - ((Con urna de alma llena y pastel de carne:))
+    - ((With a full soul urn and a meat pie:))
       - **Player:** Tengo la urna de alma llena y ese pastel de carne para ti.
       - **Kili:** Cosas preciosas.
       - Kili se lleva el pastel de carne y la urna del alma.
@@ -497,7 +497,7 @@
     - **Kili:** ¿Está seguro de que desea dejar de trabajar en su tarea de actualización actual?
     - **Seleccione una opción**
       - Sí, quiero dejar de trabajar en mi tarea de actualización actual.
-        - ((Si tiene una lista de tareas de actualización de equipos en backpack:))
+        - ((If you have an equipment upgrade task list in backpack:))
           - (removes=the equipment upgrade task list)
           - (continue)
         - **Kili:** No hay problema. Puede volver en cualquier momento para trabajar en una nueva tarea.
@@ -513,10 +513,10 @@
 - **Kili:** Entonces, ahora para el nivel 50.
 - **Kili:** Ya conoces el procedimiento: necesito que reúnas algunas almas en esta urna de almas.
 - **Kili:** La urna solo aceptará almas provenientes de matar demonios usando nigromancia o completando rituales de comunión menores. Necesito 75 almas de demonios, o 10 almas de comunión menor.
-- ((Sin espacio en backpack:))
+- ((Without space in backpack:))
   - **Kili:** Ah, parece que no tienes espacio para la urna del alma. Vuelve cuando lo hagas.
-- ((Con espacio en backpack:))
-  - ((Si no tienes la urna del alma:))
+- ((With space in backpack:))
+  - ((If you don't have the soul urn:))
     - (receives=a soul urn)
     - Kili te regala una urna para el alma.
     - (continue)
@@ -536,9 +536,9 @@
   - **Kili:** Mogres probablemente los dejará caer si los matas usando nigromancia.
   - **Player:** Supongo que entonces iré a buscar estas aletas.
   - **Kili:** ¡Aquí tienes una lista de todo para que no lo olvides!
-  - ((Sin espacio en backpack:))
+  - ((Without space in backpack:))
     - **Kili:** Ah, parece que no tienes espacio para la lista de tareas de actualización de equipo. Vuelve cuando lo hagas.
-  - ((Con espacio en backpack:))
+  - ((With space in backpack:))
     - (receives=an equipment upgrade task list)
     - Kili le ofrece una lista de tareas de actualización de equipos.
     - **Player:** Gracias.
@@ -547,22 +547,22 @@
 
 - **Seleccione una opción**
   - Pregunta sobre tu tarea actual.
-    - ((Sin todos los elementos necesarios:))
-      - ((Sin lista de tareas de actualización de equipo:))
+    - ((Without all the necessary items:))
+      - ((Without equipment upgrade task list:))
         - **Player:** Necesito recuperar mi lista de tareas de actualización de equipo.
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
           - (continue|50)
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=an equipment upgrade task list)
           - Kili le entrega una nueva lista de tareas de actualización de equipos.
           - (continue)
-      - ((Si perdiste la urna de tu alma:))
+      - ((If you lost your soul urn:))
         - **Player:** Necesito recuperar la urna de mi alma.
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
           - (continue|50)
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=a soul urn)
           - Kili te entrega una nueva urna para el alma.
           - (continue|50)
@@ -574,7 +574,7 @@
       - **Kili:** La urna se modifica para aceptar solo almas provenientes de matar demonios usando nigromancia o completando rituales de comunión menores. Necesito 75 almas de no-muertos o 10 almas de comunión menor.
       - **Kili:** También me gustaría una tarta de manzana y unas aletas de nigromante, que deberías poder conseguir matando mogres con nigromancia.
       - **Player:** ¡Entendido!
-    - ((Con todos los elementos necesarios:))
+    - ((With all the necessary items:))
       - **Player:** Llené la urna del alma, compré tu pastel de manzana y, eh, las aletas del nigromante.
       - **Kili:** De hecho lograste conseguir las aletas, ¿eh? Estoy impresionado.
       - Kili se lleva las aletas del nigromante, la tarta de manzana y la urna del alma.
@@ -599,7 +599,7 @@
     - **Kili:** ¿Está seguro de que desea dejar de trabajar en su tarea de actualización actual?
     - **Seleccione una opción**
       - Sí, quiero dejar de trabajar en mi tarea de actualización actual.
-        - ((Si tiene una lista de tareas de actualización de equipos en backpack:))
+        - ((If you have an equipment upgrade task list in backpack:))
           - (removes=the equipment upgrade task list)
           - (continue)
         - **Kili:** No hay problema. Puede volver en cualquier momento para trabajar en una nueva tarea.
@@ -615,10 +615,10 @@
 - **Kili:** ¡Entonces es hora del nivel 60!
 - **Kili:** Como siempre, necesitarás reunir algunas almas en esta urna de almas.
 - **Kili:** La urna solo aceptará almas provenientes de matar cualquier monstruo que tenga al menos nivel 70 usando nigromancia o completando rituales de comunión mayores. Necesito 50 almas de monstruos, o 10 almas de comunión mayores.
-- ((Si no tienes la urna del alma:))
-  - ((Sin espacio en backpack:))
+- ((If you don't have the soul urn:))
+  - ((Without space in backpack:))
     - **Kili:** Ah, parece que no tienes espacio para la urna del alma. Vuelve cuando lo hagas.
-  - ((Con espacio en backpack:))
+  - ((With space in backpack:))
     - (receives=a soul urn)
     - Kili te regala una urna para el alma.
     - (continue)
@@ -628,10 +628,10 @@
 - **Player:** Es cierto, la población de Lumbridge cow se está volviendo un poco escasa. ¿Qué otra cosa?
 - **Player:** Nada tan ridículo como las aletas esta vez, espero...
 - **Kili:** ¡No, no, no te preocupes! Sólo necesito que tomes este dispositivo y lo uses en un ankou.
-- ((Si no tienes el agitador ankou:))
-  - ((Sin espacio en backpack:))
+- ((If you don't have the ankou agitator:))
+  - ((Without space in backpack:))
     - **Kili:** Ah, parece que no tienes espacio para el agitador ankou. Vuelve cuando lo hagas.
-  - ((Con espacio en backpack:))
+  - ((With space in backpack:))
     - (receives=an ankou agitator)
     - Kili te ofrece un agitador ankou.
     - (continue)
@@ -640,9 +640,9 @@
 - **Player:** Supongo que eso suena más útil que las aletas.
 - **Player:** Vale. Entonces, 50 almas, un pastel de jardín y... algo de ankou.
 - **Kili:** ¡Y listo! No olvides tu lista.
-- ((Sin espacio en backpack:))
+- ((Without space in backpack:))
   - **Kili:** Ah, parece que no tienes espacio para la lista de tareas de actualización de equipo. Vuelve cuando lo hagas.
-- ((Con espacio en backpack:))
+- ((With space in backpack:))
   - (receives=an equipment upgrade task list)
   - Kili le ofrece una lista de tareas de actualización de equipos.
   - **Player:** Volveré más tarde.
@@ -651,31 +651,31 @@
 
 - **Seleccione una opción**
   - Pregunta sobre tu tarea actual.
-    - ((Sin todos los elementos necesarios:))
-      - ((Sin lista de tareas de actualización de equipo:))
+    - ((Without all the necessary items:))
+      - ((Without equipment upgrade task list:))
         - **Player:** Necesito recuperar mi lista de tareas de actualización de equipo.
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
           - (continue|60)
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=an equipment upgrade task list)
           - Kili le entrega una nueva lista de tareas de actualización de equipos.
           - (continue)
-      - ((Sin alma urna:))
+      - ((Without soul urn:))
         - **Player:** Necesito recuperar la urna de mi alma.
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
           - (continue|60)
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=a soul urn)
           - Kili te entrega una nueva urna para el alma.
           - (continue)
-      - ((Sin agitador ankou:))
+      - ((Without ankou agitator:))
         - **Player:** Necesito recuperar mi agitador ankou.
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
           - (continue)
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=an ankou agitator)
           - Kili te entrega un nuevo agitador ankou.
           - (continue)
@@ -687,7 +687,7 @@
       - **Kili:** La urna se modifica para aceptar solo almas provenientes de matar monstruos que tengan al menos nivel 70 usando nigromancia o completando rituales de comunión mayores. Necesito 50 almas de monstruos, o 10 almas de comunión mayores.
       - **Kili:** También me gustaría un pastel de jardín, y si usas ese agitador ankou en algunos para mí... Alrededor de las 10 deberían ser suficientes.
       - **Player:** Correcto.
-    - ((Con todos los elementos necesarios:))
+    - ((With all the necessary items:))
       - **Player:** Ok, he vuelto con la urna del alma llena, un pastel de jardín y algunos... residuos de un ankou. Uno lo dejó atrás después de usar su adorno agitador, así que creo que es lo que necesita.
       - **Kili:** ¿Se le cayó algún residuo? Eh... ¡genial! Entonces me quedo con todo eso.
       - Kili toma el residuo de ankou, el pastel de jardín y la urna del alma.
@@ -716,7 +716,7 @@
     - **Kili:** ¿Está seguro de que desea dejar de trabajar en su tarea de actualización actual?
     - **Seleccione una opción**
       - Sí, quiero dejar de trabajar en mi tarea de actualización actual.
-        - ((Si tiene una lista de tareas de actualización de equipos en backpack:))
+        - ((If you have an equipment upgrade task list in backpack:))
           - (removes=the equipment upgrade task list)
           - (continue)
         - **Kili:** No hay problema. Puede volver en cualquier momento para trabajar en una nueva tarea.
@@ -735,10 +735,10 @@
 - **Kili:** Muy bien, entonces quieres actualizar al nivel 70.
 - **Kili:** Por supuesto, necesitaré más almas en esta urna de almas.
 - **Kili:** La urna solo aceptará almas provenientes de matar dragones usando nigromancia o completando rituales de comunión mayores. Necesito 100 almas de dragón, o 20 almas de comunión mayor.
-- ((Si no tienes la urna del alma:))
-  - ((Sin espacio en backpack:))
+- ((If you don't have the soul urn:))
+  - ((Without space in backpack:))
     - **Kili:** Ah, parece que no tienes espacio para la urna del alma. Vuelve cuando lo hagas.
-  - ((Con espacio en backpack:))
+  - ((With space in backpack:))
     - (receives=a soul urn)
     - Kili te regala una urna para el alma.
     - (continue)
@@ -754,9 +754,9 @@
 - **Kili:** Pero... No quiero el necroplasma de los hermanos individuales. Necesitarás encontrar una manera de combinarlos en un necroplasma singular.
 - **Player:** Creo que eso parece factible.
 - **Kili:** Perfecto. Aquí está la lista.
-- ((Sin espacio en backpack:))
+- ((Without space in backpack:))
   - **Kili:** Ah, parece que no tienes espacio para la lista de tareas de actualización de equipo. Vuelve cuando lo hagas.
-- ((Con espacio en backpack:))
+- ((With space in backpack:))
   - (receives=an equipment upgrade task list)
   - Kili le ofrece una lista de tareas de actualización de equipos.
   - **Player:** ¡Vuelve pronto!
@@ -765,22 +765,22 @@
 
 - **Seleccione una opción**
   - Pregunta sobre tu tarea actual.
-    - ((No contar con todos los elementos necesarios:))
-      - ((Si perdió la lista de tareas de actualización de su equipo:))
+    - ((Not having all the necessary items:))
+      - ((If you lost your equipment upgrade task list:))
         - **Player:** Necesito recuperar mi lista de tareas de actualización de equipo.
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
           - (continue|70)
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=an equipment upgrade task list)
           - Kili le entrega una nueva lista de tareas de actualización de equipos.
           - (continue)
-      - ((Si perdiste la urna de tu alma:))
+      - ((If you lost your soul urn:))
         - **Player:** Necesito recuperar la urna de mi alma.
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
           - (continue)
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=a soul urn)
           - Kili te entrega una nueva urna para el alma.
           - (continue)
@@ -794,7 +794,7 @@
       - **Kili:** Necesitarás 20 necroplasmas mayores para cada hermano, y llevarlos a cada uno de sus sarcófagos.
       - **Kili:** Después de eso, estarás un poco solo. Quiero que los necroplasmas estén combinados, en lugar de individualmente.
       - **Player:** Veré qué puedo hacer.
-    - ((Contando con todos los elementos necesarios:))
+    - ((Having all the necessary items:))
       - **Player:** ¡Muy bien! Tengo tu urna del alma, pastel de pescado y descubrí cómo combinar el necroplasma.
       - **Kili:** ¡Increíble!
       - Kili se lleva el necroplasma de los túmulos, el pastel de pescado y la urna del alma.
@@ -827,7 +827,7 @@
     - **Kili:** ¿Está seguro de que desea dejar de trabajar en su tarea de actualización actual?
     - **Seleccione una opción**
       - Sí, quiero dejar de trabajar en mi tarea de actualización actual.
-        - ((Si tiene una lista de tareas de actualización de equipos en backpack:))
+        - ((If you have an equipment upgrade task list in backpack:))
           - (removes=the equipment upgrade task list)
           - (continue)
         - **Kili:** No hay problema. Puede volver en cualquier momento para trabajar en una nueva tarea.
@@ -852,9 +852,9 @@
 - **Kili:** No. ¡Eso es todo!
 - Una gota de sudor cae de la frente de Kili mientras muestra gran moderación al rechazar tu oferta de un pastel.
 - **Kili:** Vete antes de que cambie de opinión. Aquí está la lista.
-- ((Sin espacio en backpack:))
+- ((Without space in backpack:))
   - **Kili:** Ah, parece que no tienes espacio para la lista de tareas de actualización de equipo. Vuelve cuando lo hagas.
-- ((Con espacio en backpack:))
+- ((With space in backpack:))
   - (receives=an equipment upgrade task list)
   - Kili le ofrece una lista de tareas de actualización de equipos.
   - **Player:** ¡Lo que tú digas!
@@ -863,13 +863,13 @@
 
 - **Seleccione una opción**
   - Pregunta sobre tu tarea actual.
-    - (Condition: Sin todos los elementos requeridos:)
-      - (Condition: Sin la lista de tareas de actualización de equipos:)
+    - (Condition: Without all the required items:)
+      - (Condition: Without the equipment upgrade task list:)
         - **Player:** Necesito recuperar mi lista de tareas de actualización de equipo.
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
           - (continue)
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=an equipment upgrade task list)
           - Kili le entrega una nueva lista de tareas de actualización de equipos.
           - (continue)
@@ -880,7 +880,7 @@
       - **Kili:** Continuando, necesitarás conseguirme 5 quitina real del Kalphite Queen y 5 horribles pieles de topo del topo gigante.
       - **Kili:** Sin embargo, solo deberían deshacerse de ellos cuando luchen con nigromancia.
       - **Player:** Gracias, entonces me voy.
-    - (Condition: Con todos los elementos requeridos:)
+    - (Condition: With all the required items:)
       - **Player:** ¡Estoy de vuelta con la quitina real y las horribles pieles de topo!
       - **Kili:** ¡Buen trabajo!
       - Kili toma la quitina real y las horribles pieles de topo.
@@ -905,7 +905,7 @@
     - **Kili:** ¿Está seguro de que desea dejar de trabajar en su tarea de actualización actual?
     - **Seleccione una opción**
       - Sí, quiero dejar de trabajar en mi tarea de actualización actual.
-        - ((Si tiene una lista de tareas de actualización de equipos en backpack:))
+        - ((If you have an equipment upgrade task list in backpack:))
           - (removes=the equipment upgrade task list)
           - (continue)
         - **Kili:** No hay problema. Puede volver en cualquier momento para trabajar en una nueva tarea.
@@ -924,18 +924,18 @@
 - **Kili:** Entonces, deseas actualizar al nivel 80.
 - **Kili:** En primer lugar, necesitaré más almas en esta urna de almas.
 - **Kili:** La urna solo aceptará almas provenientes de matar monstruos asignados como tu tarea Slayer usando nigromancia o completando rituales de comunión mayores. Necesito 150 almas de tarea Slayer, o 30 almas de comunión mayor.
-- ((Si no tienes la urna del alma:))
-  - ((Sin espacio en backpack:))
+- ((If you don't have the soul urn:))
+  - ((Without space in backpack:))
     - **Kili:** Ah, parece que no tienes espacio para la urna del alma. Vuelve cuando lo hagas.
-  - ((Con espacio en backpack:))
+  - ((With space in backpack:))
     - (receives=a soul urn)
     - Kili te regala una urna para el alma.
     - (continue)
 - **Kili:** También necesito que recargues este martillo especial mío, con una poderosa energía del alma.
-- ((Si no tienes el martillo vinculado al espíritu (descargado):))
-  - ((Sin espacio en backpack:))
+- ((If you don't have the spiritbound hammer (uncharged):))
+  - ((Without space in backpack:))
     - **Kili:** Ah, parece que no tienes espacio para el martillo vinculado al espíritu (sin carga). Vuelve cuando lo hagas.
-  - ((Con espacio en backpack:))
+  - ((With space in backpack:))
     - (receives=a spiritbound hammer (uncharged))
     - Kili te da un martillo vinculado al espíritu (sin carga).
     - (continue)
@@ -953,9 +953,9 @@
 - **Player:** Me preguntaba cuánto tiempo te tomaría pedir uno.
 - **Kili:** He ejercido mucha moderación al probar los otros pasteles primero, pero creo que es el momento.
 - **Kili:** Ahora aquí está tu lista.
-- ((Sin espacio en backpack:))
+- ((Without space in backpack:))
   - **Kili:** Ah, parece que no tienes espacio para la lista de tareas de actualización de equipo. Vuelve cuando lo hagas.
-- ((Con espacio en backpack:))
+- ((With space in backpack:))
   - (receives=an equipment upgrade task list)
   - Kili le ofrece una lista de tareas de actualización de equipos.
   - **Kili:** ¡Vuelve rápido!
@@ -964,30 +964,30 @@
 
 - **Seleccione una opción**
   - Pregunta sobre tu tarea actual.
-    - (Condition: Sin todos los elementos requeridos:)
+    - (Condition: Without all the required items:)
         - **Player:** Necesito recuperar mi lista de tareas de actualización de equipo.
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
           - (continue|80)
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=an equipment upgrade task list)
           - Kili le entrega una nueva lista de tareas de actualización de equipos.
           - (continue)
-      - (Condition: Sin la urna del alma:)
+      - (Condition: Without the soul urn:)
         - **Player:** Necesito recuperar la urna de mi alma.
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
           - (continue|80)
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=a soul urn)
           - Kili te entrega una nueva urna para el alma.
           - (continue)
-      - (Condition: Sin el martillo ligado al espíritu (sin carga):)
+      - (Condition: Without the spiritbound hammer (uncharged):)
         - **Player:** Necesito recuperar mi martillo vinculado al espíritu (descargado).
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
           - (continue|80)
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=a spiritbound hammer (uncharged))
           - Kili te entrega un nuevo martillo vinculado al espíritu (sin carga).
           - (continue|80)
@@ -1001,7 +1001,7 @@
       - **Kili:** También necesito que cargues mi martillo desde los altares de los cuatro generales de God Wars Dungeon. Sin embargo, tendrás que ser rápido después de derrotarlos.
       - **Kili:** Y, lo más importante de todo, necesito que me traigas una tarta de frutos rojos.
       - **Player:** Seguiré recogiendo tus cosas.
-    - (Condition: Con todos los elementos requeridos:)
+    - (Condition: With all the required items:)
       - **Player:** Ok, he vuelto con la urna del alma llena, el martillo cargado y el pastel de frutos rojos.
       - **Kili:** Pastel...
       - Kili toma el martillo cargado, el pastel de frutos rojos y la urna del alma.
@@ -1032,7 +1032,7 @@
     - **Kili:** ¿Está seguro de que desea dejar de trabajar en su tarea de actualización actual?
     - **Seleccione una opción**
       - Sí, quiero dejar de trabajar en mi tarea de actualización actual.
-        - ((Si tiene una lista de tareas de actualización de equipos en backpack:))
+        - ((If you have an equipment upgrade task list in backpack:))
           - (removes=the equipment upgrade task list)
           - (continue)
         - **Kili:** No hay problema. Puede volver en cualquier momento para trabajar en una nueva tarea.
@@ -1060,9 +1060,9 @@
 - **Kili:** Bueno, no siempre conseguimos lo que queremos en la vida. O la otra vida.
 - **Player:** ...
 - **Kili:** ...¡Y eso debería ser todo lo que necesito! Aquí está la lista.
-- ((Sin espacio en backpack:))
+- ((Without space in backpack:))
   - **Kili:** Ah, parece que no tienes espacio para la lista de tareas de actualización de equipo. Vuelve cuando lo hagas.
-- ((Con espacio en backpack:))
+- ((With space in backpack:))
   - (receives=an equipment upgrade task list)
   - Kili le ofrece una lista de tareas de actualización de equipos.
   - **Player:** Entonces iré y me prepararé para recoger tus cosas.
@@ -1071,13 +1071,13 @@
 
 - **Seleccione una opción**
   - Pregunta sobre tu tarea actual.
-    - (Condition: Sin todos los elementos requeridos:)
-      - (Condition: Sin la lista de tareas de actualización de equipos:)
+    - (Condition: Without all the required items:)
+      - (Condition: Without the equipment upgrade task list:)
         - **Player:** Necesito recuperar mi lista de tareas de actualización de equipo.
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
           - (continue)
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=an equipment upgrade task list)
           - Kili le entrega una nueva lista de tareas de actualización de equipos.
           - (continue)
@@ -1088,7 +1088,7 @@
       - **Kili:** Bueno, necesitas conseguirme 5 fragmentos de Zaryte de Nex y 5 esencias de alma torturadas de la Reina Dragón Negro.
       - **Kili:** También debes saber que solo los soltarán cuando sean derrotados usando nigromancia.
       - **Player:** ¡Gracias!
-    - (Condition: Con todos los elementos requeridos:)
+    - (Condition: With all the required items:)
       - **Player:** ¡Tengo esos fragmentos de Zaryte y esencias de almas torturadas para ti!
       - **Kili:** Buen trabajo.
       - Kili toma los fragmentos de Zaryte y las esencias del alma torturada.
@@ -1119,7 +1119,7 @@
     - **Kili:** ¿Está seguro de que desea dejar de trabajar en su tarea de actualización actual?
     - **Seleccione una opción**
       - Sí, quiero dejar de trabajar en mi tarea de actualización actual.
-        - ((Si tiene una lista de tareas de actualización de equipos en backpack:))
+        - ((If you have an equipment upgrade task list in backpack:))
           - (removes=the equipment upgrade task list)
           - (continue)
         - **Kili:** No hay problema. Puede volver en cualquier momento para trabajar en una nueva tarea.
@@ -1138,10 +1138,10 @@
 - **Kili:** Entonces has elegido actualizar al nivel 90.
 - **Kili:** Para empezar, tendrás que llenar esta urna del alma por mí.
 - **Kili:** La urna solo aceptará almas de poderosos rituales de comunión, de las cuales necesito 50. Alternativamente, puedes llenarla simplemente completando una tarea de Soul Reaper usando nigromancia.
-- ((Si no tienes la urna del alma:))
-  - ((Sin espacio en backpack:))
+- ((If you don't have the soul urn:))
+  - ((Without space in backpack:))
     - **Kili:** Ah, parece que no tienes espacio para la urna del alma. Vuelve cuando lo hagas.
-  - ((Con espacio en backpack:))
+  - ((With space in backpack:))
     - (receives=a soul urn)
     - [Kili te regala una urna para el alma.]
     - (continue)
@@ -1158,10 +1158,10 @@
 - **Player:** ...
 - **Kili:** También necesito un ónix pulsante. Podrás crear esto combinando un ónix sin cortar y un cristal especial.
 - **Kili:** Por suerte para ti, ya tengo el cristal aquí conmigo.
-- ((Si no tienes el cristal nigromántico inerte:))
-  - ((Sin espacio en backpack:))
+- ((If you don't have the inert necromantic crystal:))
+  - ((Without space in backpack:))
     - **Kili:** Ah, parece que no tienes espacio para el cristal nigromántico inerte. Vuelve cuando lo hagas.
-  - ((Con espacio en backpack:))
+  - ((With space in backpack:))
     - (receives=an inert necromantic crystal)
     - [Kili te ofrece un cristal nigromántico inerte.]
     - (continue)
@@ -1181,9 +1181,9 @@
 - **Player:** ... Y una tarta de arándanos.
 - **Kili:** ¡Eso es todo!
 - **Kili:** Tienes mucho trabajo por delante, así que no necesitas perder el tiempo. Aquí está la lista.
-- ((Sin espacio en backpack:))
+- ((Without space in backpack:))
   - **Kili:** Ah, parece que no tienes espacio para la lista de tareas de actualización de equipo. Vuelve cuando lo hagas.
-- ((Con espacio en backpack:))
+- ((With space in backpack:))
   - (receives=an equipment upgrade task list)
   - Kili le ofrece una lista de tareas de actualización de equipos.
   - **Player:** Entonces será mejor que empiece.
@@ -1192,8 +1192,8 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: Pregunta sobre tu tarea actual.
-    - ((Sin los elementos necesarios:))
-      - (Condition: Sólo la primera vez después de haber hablado con Kharen y Lupe sobre los arándanos:)
+    - ((Without the necessary items:))
+      - (Condition: Only on the first time after having talked to Kharen and Lupe about blueberries:)
         - **Player:** Regresé con información que puede ayudarme a encontrar algunos arándanos.
         - **Kili:** ¿Ah?
         - **Player:** Alguien sugirió que como el azul es lo opuesto al rojo, entonces simplemente tendría que encontrar una tierra de opuestos.
@@ -1210,30 +1210,30 @@
         - **Player:** ¿Cómo puedo llegar?
         - **Kili:** En eso no puedo ayudarte, ya que nunca fui a visitarme. Sin embargo, es un reino diferente a Gielinor, por lo que debería ser accesible a través de medios mágicos.
         - **Player:** Gracias por la ayuda.
-      - ((Sin lista de tareas de actualización de equipo:))
+      - ((Without equipment upgrade task list:))
         - **Player:** Necesito recuperar mi lista de tareas de actualización de equipo.
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
           - (continue|90)
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=an equipment upgrade task list)
           - Kili le entrega una nueva lista de tareas de actualización de equipos.
           - (continue)
-      - ((Sin alma urna:))
+      - ((Without soul urn:))
         - **Player:** Necesito recuperar la urna de mi alma.
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
           - (continue|90)
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=a soul urn)
           - Kili te entrega una nueva urna para el alma.
           - (continue)
-      - ((Sin cristal nigromántico inerte:))
+      - ((Without inert necromantic crystal:))
         - **Player:** Necesito recuperar mi cristal nigromántico inerte.
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
           - (continue)
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=an inert necromantic crystal)
           - Kili te entrega un nuevo cristal nigromántico inerte.
           - (continue)
@@ -1253,7 +1253,7 @@
       - **Kili:** Sin embargo, primero es necesario cargar el cristal al derrotar a TzTok-Jad en la cueva de lucha de TzHaar.
       - **Kili:** Y por último, pero no menos importante, quiero una tarta de arándanos. Algunos habitantes de la ciudad pueden ayudarte a resolverlo.
       - **Player:** Volveré a ello entonces.
-    - ((Con los elementos necesarios:))
+    - ((With the necessary items:))
       - **Player:** Ok, finalmente logré reunir todas las cosas que necesitabas.
       - **Kili:** Entonces, ¿conseguiste encontrar un arándano?
       - **Player:** Yo mismo apenas podía creerlo, pero sí. Logré encontrar un arándano.
@@ -1283,12 +1283,12 @@
       - **Kili:** ...Asegúrate de hidratarte antes de iniciar el proceso, para no desmayarte...
       - [Toma notas, asegurándote de no olvidar nada.]
       - (Action: La pantalla se desvanece.)
-      - ((Si esta no fuera la última tarea:))
+      - ((If this was not the last task:))
         - **Kili:** ...¡Y listo!
         - **Kili:** Aún no te he enseñado todo lo que hay que saber, así que vuelve cuando quieras aprender más.
         - **Player:** Lo haré.
         - ¡Felicitaciones! Has completado: 'Conocimiento VII de Kili': aprende cómo actualizar tu equipo Death Skull y Deathwarden al nivel 90 de Kili.
-      - ((Si esta fuera la última tarea:))
+      - ((If this was the last task:))
         - **Kili:** Mmmm..
         - **Kili:** Nivel 70... tanque... potencia... Nivel 80... Nivel 90....
         - **Kili:** ¡Y con eso, creo que te he enseñado todo lo que necesitas saber!
@@ -1317,7 +1317,7 @@
     - **Kili:** ¿Está seguro de que desea dejar de trabajar en su tarea de actualización actual?
     - [Menu]: Selecciona una opción
       - [Choice]: Sí, quiero dejar de trabajar en mi tarea de actualización actual.
-        - ((Si tiene una lista de tareas de actualización de equipos en backpack:))
+        - ((If you have an equipment upgrade task list in backpack:))
           - (removes=the equipment upgrade task list)
           - (continue)
         - **Kili:** No hay problema. Puede volver en cualquier momento para trabajar en una nueva tarea.
@@ -1345,9 +1345,9 @@
 - **Kili:** Pero no. Lo último que necesito es un poco de necroplasma ultimo, que podrás obtener al derrotar a the Ambassador con nigromancia.
 - **Player:** Espero que esta actualización valga la pena.
 - **Kili:** Quizás. Antes de irte, aquí tienes la lista.
-- ((Sin espacio en backpack:))
+- ((Without space in backpack:))
   - **Kili:** Ah, parece que no tienes espacio para la lista de tareas de actualización de equipo. Vuelve cuando lo hagas.
-- ((Con espacio en backpack:))
+- ((With space in backpack:))
   - (receives=an equipment upgrade task list)
   - Kili le ofrece una lista de tareas de actualización de equipos.
   - **Player:** Entonces iré y empezaré.
@@ -1356,13 +1356,13 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: Pregunta sobre tu tarea actual.
-    - ((No contar con todos los elementos necesarios:))
-      - ((Si perdió la lista de tareas de actualización de su equipo:))
+    - ((Not having all the necessary items:))
+      - ((If you lost your equipment upgrade task list:))
         - **Player:** Necesito recuperar mi lista de tareas de actualización de equipo.
-        - ((Sin espacio en backpack:))
+        - ((Without space in backpack:))
           - **Kili:** Puedo reemplazarlo por ti, pero tendrás que regresar cuando tengas espacio libre en tu backpack.
           - (continue)
-        - ((Con espacio en backpack:))
+        - ((With space in backpack:))
           - (receives=an equipment upgrade task list)
           - [Kili le entrega una nueva lista de tareas de actualización de equipos.]
           - (continue)
@@ -1377,7 +1377,7 @@
       - **Kili:** Lo segundo que necesito es un fragmento de ánima. Derrotar a Vorago, Telos o Solak con nigromancia debería dar como resultado uno de estos.
       - **Kili:** La tercera y última cosa que necesito es un necroplasma definitivo. Podrás conseguirlo derrotando a the Ambassador con nigromancia.
       - **Player:** ¡Muy bien!
-    - ((Contando con todos los elementos necesarios:))
+    - ((Having all the necessary items:))
       - **Player:** ¡Tengo la tela venenosa, el fragmento de ánima y el último necroplasma para ti!
       - **Kili:** Buen trabajo.
       - [Kili toma la venenosa tela con alma mayor, un fragmento de ánima y el último necroplasma.]
@@ -1399,12 +1399,12 @@
       - **Kili:** ...Asegúrate de usar botas con punta de acero para no quemarte los dedos...
       - [Toma notas, asegurándote de no olvidar nada.]
       - (Action: La pantalla se desvanece.)
-      - ((Si esta no fuera la última tarea:))
+      - ((If this was not the last task:))
         - **Kili:** ... ¡Y eso es todo!
         - **Kili:** Aún no te he enseñado todo lo que hay que saber, así que vuelve cuando quieras aprender más.
         - **Player:** ¡Lo haré!
         - ¡Felicitaciones! Has completado: 'Conocimiento VII de Kili (poder)': aprende cómo actualizar tu equipo Death Skull y Deathdealer al nivel 90 de Kili.
-      - ((Si esta fuera la última tarea:))
+      - ((If this was the last task:))
         - **Kili:** Mmmm..
         - **Kili:** Nivel 70... tanque... potencia... Nivel 80... Nivel 90....
         - **Kili:** ¡Y con eso, creo que te he enseñado todo lo que necesitas saber!
@@ -1434,7 +1434,7 @@
     - **Kili:** ¿Está seguro de que desea dejar de trabajar en su tarea de actualización actual?
     - [Menu]: Selecciona una opción
       - [Choice]: Sí, quiero dejar de trabajar en mi tarea de actualización actual.
-        - ((Si tiene una lista de tareas de actualización de equipos en backpack:))
+        - ((If you have an equipment upgrade task list in backpack:))
           - (removes=the equipment upgrade task list)
           - (continue)
         - **Kili:** No hay problema. Puede volver en cualquier momento para trabajar en una nueva tarea.

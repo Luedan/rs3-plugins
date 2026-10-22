@@ -136,10 +136,10 @@
   - **Malignius Mortifer:** ¡No puedo creer que lo hayas hecho!
   - (continue)
 - (removes=lockbox (master) y desplazamiento de pistas (maestro))
-- (Condition: Si el rastro continúa:)
+- (Condition: If the trail continues:)
   - (receives=a new clue scroll (master))
   - [¡Has encontrado otra pista!]
-- (Condition: Si el sendero termina:)
+- (Condition: If the trail ends:)
   - (receives=reward casket (master))
   - [¡Has encontrado un ataúd!]
 
@@ -148,18 +148,18 @@
 
 #### Normalmente
 
-- (Condition: Antes de haber aceptado los suministros rituales de Lupe:)
+- (Condition: Before having accepted the ritual supplies from Lupe:)
   - Se ha agregado un sendero a: Suministros para el alma.
   - **Malignius Mortifer:** Deberías visitar Lupe en su tienda, 'Soul Supplies'. Dijo que tiene algunos suministros rituales gratuitos reservados para ti.
   - (continue)
-- (Condition: Antes de haber aceptado la túnica de nigromante de Sostratus:)
+- (Condition: Before having accepted the necromancer robes from Sostratus:)
   - Se ha añadido una ruta a: Ofertas enterradas.
   - **Malignius Mortifer:** Debes registrarte con Sostratus en su tienda, 'Buried Bargains' en Sunken Market. Tiene un conjunto de túnicas de nigromante para ti.
   - (continue)
-- (Condition: Antes de haber aceptado ambos obsequios:)
+- (Condition: Before having accepted both free gifts:)
   - **Malignius Mortifer:** Ahora, ¿qué sabiduría de nigromancia podría impartirte en esta hora?
   - (continue)
-- (Condition: Después de haber aceptado ambos obsequios:)
+- (Condition: After having accepted both free gifts:)
   - **Malignius Mortifer:** Ah, Player, ¿qué sabiduría de nigromancia podría impactarte en esta hora?
   - (continue)
 - [Menu]: ¿Preguntar sobre qué tema?
@@ -212,72 +212,72 @@
         - **Malignius Mortifer:** ¡Muy bien entonces!
         - (initial)
   - [Choice]: Misiones.
-    - (Condition: Con solo una misión a continuación no terminada:)
-      - ((Como se muestra a continuación después de preguntar sobre la misión inacabada.))
+    - (Condition: With only one quest below not finished:)
+      - ((As below after asking about the unfinished quest.))
     - [Menu]: ¿Preguntar sobre qué misión?
       - [Choice]: cond=If Rune Mythos hasn't been completed:|Mitos rúnicos.
-        - (Condition: Antes de haber aceptado la misión:)
+        - (Condition: Before having accepted the quest:)
           - **Malignius Mortifer:** He visto un extraño portal oscuro en el noreste de Um. Te aconsejo que no te metas con eso hasta que haya descubierto qué es...
           - Requisitos para iniciar la misión 'Rune Mythos': 24 Necromancy.
           - (initial)
-        - (Condition: Durante la misión:)
-          - ((Continúa con el diálogo de misiones.))
+        - (Condition: During the quest:)
+          - ((Continues with quest dialogue.))
       - [Choice]: cond=If Rune Mythos is completed and Vessel of the Harbinger has not been completed:|Buque del Heraldo.
-        - (Condition: Antes de llegar a 46 Necromancy, 40 Prayer y haber completado Ghosts Ahoy, o antes de haber aceptado la misión:)
+        - (Condition: Before reaching 46 Necromancy, 40 Prayer, and having completed Ghosts Ahoy, or before having accepted the quest:)
           - **Malignius Mortifer:** Creo que la Muerte quiere ver un poco más de progreso antes de contarles más sobre Rasial...
           - Requisitos para iniciar la misión 'Recipiente del Heraldo': 46 Necromancy, 40 Prayer, Ghosts Ahoy.
           - (initial)
-        - (Condition: Durante la misión:)
+        - (Condition: During the quest:)
           - **Malignius Mortifer:** Deberías terminar tu investigación sobre Necrovarus. Podría proporcionar una pista para derrotar a Rasial.
           - (initial)
       - [Choice]: cond=If Vessel of the Harbinger is completed and The Spirit of War has not been completed:|El Spirit de War.
-        - ((Antes de haber aceptado la misión con o sin todos los requisitos necesarios:))
-          - (Condition: Si Angurvadal no ha aparecido:)
+        - ((Before having accepted the quest with or without all the necessary requirements:))
+          - (Condition: If Angurvadal hasn't appeared:)
             - **Malignius Mortifer:** Tengo la horrible sensación de que pronto te pondrán a prueba. Mejor prepárate...
             - (continue)
-          - (Condition: Si ha aparecido Angurvadal:)
+          - (Condition: If Angurvadal has appeared:)
             - **Malignius Mortifer:** Er... ¡Esa espada animada de Hermod está justo al otro lado del puente robando almas! Tienes que ahuyentar a esa cosa.
             - (continue)
           - Requisitos para iniciar la misión 'El Spirit de War': 65 Necromancy, 3000 almas de vasijas City of Um.
           - (initial)
-        - (Condition: Durante la misión:)
+        - (Condition: During the quest:)
           - **Malignius Mortifer:** Angurvadal todavía está acosando a los espíritus en la plaza principal. Tienes que luchar contra Hermod en la ciudadela de Rasial, amigo mío. ¡Muéstrales lo que has aprendido hasta ahora!
           - (initial)
       - [Choice]: cond=If The Spirit of War is completed and Tomes of the Warlock has not been completed:|Tomos del brujo.
-        - (Condition: Antes de haber aceptado la misión:)
+        - (Condition: Before having accepted the quest:)
           - **Malignius Mortifer:** Creo que la Muerte quiere ver un poco más de progreso antes de contarles más sobre Rasial...
           - Requisitos para iniciar la misión 'Tomos del brujo': 75 Necromancy, 86 Archaeology, 66 Magic, La jota de espadas.
           - (initial)
-        - (Condition: Durante la misión:)
+        - (Condition: During the quest:)
           - **Malignius Mortifer:** Deberías terminar tu investigación sobre Orcus el Nigromante. Podría proporcionar una pista para derrotar a Rasial.
           - (initial)
       - [Choice]: cond=If Tomes of the Warlock is completed and the Necrolord has not been completed:|Restos del Necroseñor.
-        - (Condition: Antes de haber aceptado la misión:)
+        - (Condition: Before having accepted the quest:)
           - **Malignius Mortifer:** Creo que la Muerte quiere ver un poco más de progreso antes de contarles más sobre Rasial...
           - Requisitos para iniciar la misión 'Restos del Necrolord': 85 Necromancy, 77 Dungeoneering, Vengeance (saga), Nadir (saga).
           - (initial)
-        - (Condition: Durante la misión:)
+        - (Condition: During the quest:)
           - **Malignius Mortifer:** Deberías terminar tu investigación sobre los necroseñores de Daemonheim. Podría proporcionar una pista para derrotar a Rasial.
           - (initial)
       - [Choice]: cond=If Remains of the Necrolord is completed and Alpha vs Omega has not been completed:|Alfa contra Omega.
-        - (Condition: Antes de que Rasial apareciera en el puente:)
+        - (Condition: Before Rasial has appeared on the bridge:)
           - **Malignius Mortifer:** Tengo un verdadero presentimiento y temor. Espero que estés casi listo para enfrentar a Rasial...
           - Requisitos para iniciar la misión 'Alpha vs Omega': 95 Necromancy, 30.000 almas de vasijas City of Um{{Sic|..}}
           - (initial)
-        - (Condition: Después de que Rasial haya aparecido en el puente y antes de haber aceptado la misión:)
+        - (Condition: After Rasial has appeared on the bridge and before having accepted the quest:)
           - **Malignius Mortifer:** Er... Rasial ha aparecido en Um. Está parado justo en el medio del puente, audaz como el latón. No creo que esté en absoluto impresionado o preocupado por tu progreso...
           - Requisitos para iniciar la misión 'Alpha vs Omega': 95 Necromancy, 30.000 almas de vasijas City of Um.
           - (initial)
-        - (Condition: Durante la misión:)
+        - (Condition: During the quest:)
           - **Malignius Mortifer:** ¡Vamos! Muéstrale a Rasial para qué, de parte de todos nosotros aquí en Um. ¡Te respaldamos!
           - (initial)
       - [Choice]: cond=If Kili Row has not been completed:|Kili Remo/equipo.
-        - (Condition: Antes de alcanzar el nivel 20 Necromancy:)
+        - (Condition: Before reaching level 20 Necromancy:)
           - **Malignius Mortifer:** Hmm, necesitamos encontrar una manera de que puedas actualizar tu equipo. Lo mejor que podemos hacer es esperar a que aparezca un herrero competente en la ciudad.
           - **Player:** ¿No puedo simplemente preguntarle a alguien en la superficie? Normalmente solo le doy a Thurgo un pastel de frutos rojos y todos estamos bien.
           - **Malignius Mortifer:** Oh, no, se necesita más para fabricar equipos de nigromancia que martillar algo de metal y coser algo de tela. ¡Necesitamos la ayuda de los espíritus también!
           - (initial)
-        - (Condition: Antes de haber aceptado la misión con todos los requisitos necesarios:)
+        - (Condition: Before having accepted the quest with all the necessary requirements:)
           - **Malignius Mortifer:** Escuché el rumor de que recientemente llegó el fantasma de un maestro herrero. Están instalando una herrería en el noreste de Um. Deberías ir a presentarte.
           - [Menu]: ¿Quieres direcciones?
             - [Choice]: Sí, por favor.
@@ -285,45 +285,45 @@
               - (initial)
             - [Choice]: No, lo encontraré yo mismo.
               - (initial)
-        - (Condition: Durante la fila Kili:)
+        - (Condition: During Kili Row:)
           - **Malignius Mortifer:** ¡Deberías regresar a la herrería de Kili en el noreste de Um y ocuparte de fabricar mejores equipos!
           - (initial)
       - [Choice]: cond=If That Old Black Magic has not been completed:|Ese viejo Magic negro.
-        - (Condition: Antes de alcanzar el nivel 32 Necromancy:)
+        - (Condition: Before reaching level 32 Necromancy:)
           - **Malignius Mortifer:** Este lugar se siente un poco sin vida, sin juego de palabras. No me refiero sólo a espíritus, me refiero a vibraciones.
           - **Malignius Mortifer:** Alguien debería poner algo de música o algo así. Eso siempre me levanta el ánimo.
           - (initial)
-        - (Condition: Después de alcanzar el nivel 32 Necromancy pero antes de haber aceptado la misión:)
+        - (Condition: After reaching level 32 Necromancy but before having accepted the quest:)
           - **Malignius Mortifer:** Oh, oye, ¡vi a una dama fantasma que parecía estar instalándose en la tribuna de la plaza principal!
           - **Malignius Mortifer:** Me pregunto si pondrá algo de música, me encantaría. Deberías ver si necesita alguno.
           - (initial)
-        - (Condition: Durante la misión:)
+        - (Condition: During the quest:)
           - **Malignius Mortifer:** Tengo un buen presentimiento acerca de cómo estás ayudando a Lady Grey en el puesto del banco.
           - (initial)
       - [Choice]: cond=If Housing of Parliament has not been completed:|Vivienda del Parlamento.
-        - (Condition: Antes de alcanzar el nivel 54 Necromancy:)
+        - (Condition: Before reaching level 54 Necromancy:)
           - **Malignius Mortifer:** Es una pena que no haya nadie cerca para cuidar a los búhos. Su lechucería se está volviendo un poco desordenada.
           - (initial)
-        - (Condition: Después de alcanzar el nivel 54 Necromancy pero antes de haber aceptado la misión:)
+        - (Condition: After reaching level 54 Necromancy but before having accepted the quest:)
           - **Malignius Mortifer:** ¡Escuché que el cuidador de los búhos ha vuelto para cuidarlos!
           - **Malignius Mortifer:** La lechucería se metió en un gran lío mientras ella estaba fuera. Tal vez le vendría bien un poco de ayuda.
-        - (Condition: Después de haber aceptado la misión:)
+        - (Condition: After having accepted the quest:)
           - **Malignius Mortifer:** ¡Qué bueno escucharte ayudar con la lechuza!
           - (initial)
-      - (Condition: Si has completado todas las misiones anteriores:)
+      - (Condition: If you have completed every quest above:)
         - **Malignuis Mortifer:** Creo que ya terminaste, compañero nigromante. ¡El plan de Rasial fracasa y City of Um vuelve a ser un lugar vibrante y feliz!
   - [Choice]: City of Um.
     - **Player:** ¿Qué se puede hacer en City of Um?
     - **Malignius Mortifer:** ¡Estoy feliz de poder explorar este lugar!
     - **Player:** ¿Qué has descubierto interesante hasta ahora?
-    - (Condition: Antes de desbloquear el lodestone:)
+    - (Condition: Before unlocking the lodestone:)
       - **Malignius Mortifer:** Vi que la Muerte 'recordó' la existencia de un lodestone, justo al otro lado del puente. Deberías activar eso; La muerte dijo que podíamos ir y venir cuando queramos.
       - (continue)
-    - (Condition: Con condición desconocida:)
+    - (Condition: With unknown condition:)
       - **Malignius Mortifer:** Oh, ¿recuerdas esos trolls fantasmas de antes? Creo que vi algunos más en una cueva en el sureste de Um. Deberías dejarlos descansar a todos.
       - **Malignius Mortifer:** Creo que vi a uno de ellos llevando una capa elegante, pero también de aspecto mortal...
       - (continue)
-    - (Condition: Con condición desconocida:)
+    - (Condition: With unknown condition:)
       - **Malignius Mortifer:** Creo que algunas almas están empezando a repoblar la ciudad.
       - **Malignius Mortifer:** Deberías presentarte a cualquier espíritu notable, intenta ponerlo de nuestro lado en la lucha contra Rasial.
       - **Malignius Mortifer:** Ted mantiene un registro de nuevos habitantes; deberías hablar con ellos si quieres sugerencias.
@@ -360,11 +360,11 @@
 - **Malignius Mortifer:** Ah, claro, sí... Iré a hablar con *trago* ...Muerte. Er, ahora mismo, jefe.
 - **Player:** ¿Quieres que hable con él por ti?
 - {{RSFontAchievement|Femurs and Fungi|Talk to Malignius Mortifer in the City of Um Ritual Site.}}
-- ((Se muestra en una ventana emergente de finalización de tarea:))
+- ((Shown in a task completion pop-up:))
   - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
   - Fémures y hongos
   - Habla con Malignius Mortifer en el sitio del ritual City of Um.
   - (continue)
 - **Malignius Mortifer:** N-no... Estoy en ello. Sólo necesito mentalizarme primero...
-- (Condition: Si se han completado todas las tareas:)
+- (Condition: If all the tasks have been completed:)
   - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!

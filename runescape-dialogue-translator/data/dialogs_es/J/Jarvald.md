@@ -29,7 +29,7 @@
       - [Choice]: ¿Isla del nacimiento del agua?
         - **Jarvald:** Es una pequeña isla en forma de media luna justo al noroeste de aquí, outsider. Tenemos muchas leyendas al respecto, como el cuento del cielo roto y el día de los mares verdes. Sin embargo, el motivo por el que viajo allí es un asunto más serio de Fremennik. Dudo que un extranjero esté interesado.
       - [Choice]: ¿Puedo venir?
-        - (Condition: Primera vez que elige esta opción:)
+        - (Condition: First time choosing this option:)
           - **Player:** Oye, tipo bárbaro aterrador, ¿crees que puedo unirme a ti en esta expedición?
           - **Jarvald:** ¿¿Un extranjero se une a nosotros en una cacería honorable??? Bueno... supongo... que podría permitirte unirte a nosotros, aunque es una violación de muchas de nuestras costumbres...
           - **Player:** Oh, ¿por favor? ¡Realmente AMO matar cosas!
@@ -39,17 +39,17 @@
         - {{anchor|pay-trip}}**Jarvald:** Entonces, ¿tienes los 1000 coins para mi servicio y estás listo para partir ahora?
         - [Menu]: Selecciona una opción
           - [Choice]: SI
-            - (Condition: Si el player no tiene suficiente coins:)
+            - (Condition: If the player does not have enough coins:)
               - No puedes permitirte eso.
               - **Jarvald:** Ah, extranjero... Voy más allá de mi deber al permitirte que me acompañes, ¿y tú intentas estafarme con una tarifa razonable? Esta no es forma de comportarse ni siquiera para un extranjero...
-            - (Condition: Si el player tiene suficiente coins:)
+            - (Condition: If the player has enough coins:)
               - (removes=1,000 coins)
               - {{anchor|back-to-waterbirth}}Saliendo de Rellekka hacia la isla Waterbirth.
               - (Action: La pantalla se desvanece y luego aparece. el player aparece en Waterbirth Island, en la costa noreste.)
-              - (Condition: Primera vez que viaja a la isla Waterbirth:)
+              - (Condition: First time travelling to Waterbirth Island:)
                 - (Condición: si el player no ha completado Las Pruebas Fremennik:)}
                   - **Jarvald:** Te sugiero que te dirijas a la cueva con cierta urgencia, extranjero, el aire frío aquí afuera podría ser demasiado para personas como tú...
-                - (Condition: Si el player ha completado Las Pruebas Fremennik:)
+                - (Condition: If the player has completed The Fremennik Trials:)
                   - **Jarvald:** Me dirigiría directamente a la cueva y no me demoraría demasiado [Fremennik name], los vientos fríos de esta isla pueden atravesarte si pasas demasiado tiempo en ellos.
           - [Choice]: NO
             - {{anchor|decline-travel-waterbirth}}**Player:** No, en realidad tengo algunas cosas que hacer aquí primero.
@@ -101,7 +101,7 @@
 ##### Hablar con
 
 - **Jarvald:** ¡Saludos, [Fremennik name]!
-- (Condition: Si el nombre Fremennik de el player es Jarvald:)
+- (Condition: If the player's Fremennik name is Jarvald:)
   - **Jarvald:** ¡Ah, y qué nombre tan glorioso es ese! ¡Digno sólo de los mejores guerreros!
   - **Player:** Je. Sí, tienes razón.
 - **Jarvald:** Entonces, ¿qué te trae de vuelta a la feria Rellekka? ¡Ha pasado demasiado tiempo desde que bebiste en el gran salón con nosotros y cantaste sobre tus batallas!

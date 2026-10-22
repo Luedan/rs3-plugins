@@ -12,10 +12,10 @@
 ### In West Ardougne
 
 - **Player:** Hola.
-- (Condition: Antes del fin de la plaga:)
+- (Condition: Before Plague's End:)
   - **Chadwell:** Buenos días. ¿Qué puedo conseguirte?
   - (continue)
-- (Condition: Después del fin de la plaga:)
+- (Condition: After Plague's End:)
   - **Chadwell:** Un muy buen día para ti, [hero/heroine] de Ardougne. ¿Qué puedo conseguirte?
   - (continue)
 - [Menu]: Selecciona una opción

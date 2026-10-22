@@ -26,18 +26,18 @@
     - **Grandpa Jack:** Jóvenes, siempre con tanta prisa.
   - [Choice]: ¿Puedo comprar una de sus cañas de pescar?
     - **Player:** ¿Puedo comprar una de sus cañas de pescar?
-    - (Condition: Si el player tiene una caña de pescar en su backpack:)
+    - (Condition: If the player has a fishing rod in their backpack:)
       - **Grandpa Jack:** Pero joven [man/woman], tú tienes el tuyo propio. ¡No te venderé el mío cuando ya tengas uno!
-    - (Condition: Si el player no tiene caña de pescar en su backpack:)
+    - (Condition: If the player does not have a fishing rod in their backpack:)
       - **Grandpa Jack:** Por supuesto que puedes, joven [man/woman]. Veamos ahora... Creo que 5 de oro es un precio justo por una caña que ha ganado el concurso Fishing antes, ¿no?
       - [Menu]: Selecciona una opción
         - [Choice]: Muy justo, compraré esa caña!
           - **Player:** Muy justo, ¡compraré esa caña!
           - **Grandpa Jack:** ¡Excelente elección!
-          - (Condition: Si el player no tiene al menos un espacio backpack libre:)
+          - (Condition: If the player does not have at least one free backpack space:)
             - **Player:** El único problema es que no tengo espacio para llevar uno en este momento. Déjame responderte sobre eso.
             - **Grandpa Jack:** Tienes razón. Estaré aquí.
-          - (Condition: Si el player tiene al menos un espacio backpack libre:)
+          - (Condition: If the player has at least one free backpack space:)
             - (removes=5 coins) (receives=fishing rod)
             - [Entregas el dinero y recibes una caña de pescar.]
             - **Player:** ¡Gracias!

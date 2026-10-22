@@ -19,7 +19,7 @@
 
 ### Being killed
 
-- ((Se ve una de las siguientes líneas:))
+- ((One of the following lines is seen:))
   - **Goebie prisoner:** {{RSChat|No! I'll never get to see my child's first steps!}}
   - **Goebie prisoner:** {{RSChat|Please, take care of my family!}}
   - **Goebie prisoner:** {{RSChat|Remember me as I was!}}

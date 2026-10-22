@@ -12,7 +12,7 @@
 
 ### On Eisetes Cretor
 
-- ((La primera vez:))
+- ((On first time:))
   - Azalea Oakheart te regala un taijitu en agradecimiento por el rescate.
   - La colonia de gnomos Tuai Leit ahora está disponible en la red de planeadores de gnomos.
   - (continue)

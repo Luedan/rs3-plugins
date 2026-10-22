@@ -15,31 +15,31 @@
 #### Hablando con el Spirit Tree
 
 - **Spirit Tree:** Hola, susurrador de árboles. He estado solo mucho tiempo, pero es bueno ser parte de Anima Mundi una vez más.
-  - (Condition: Si el player aún no ha vuelto a conectar el Spirit Tree a todos sus hermanos:)
+  - (Condition: If the player has yet to reconnect the Spirit Tree to all of her brethren:)
     - **Spirit Tree:** Puedo escuchar a mis hermanos claramente... pero no a todos. Me pregunto, ¿podrías ayudarme a reconectarme con todos ellos?
-      - (Condition: Si el player aún no ha ayudado a Incomitatus:)
+      - (Condition: If the player has yet to aid Incomitatus:)
         - **Spirit Tree:** El árbol al sur en Poison Wastes suena preocupado.
         - (continue)
-      - (Condition: Si el player aún no ha plantado un Spirit tree en Port Sarim:)
+      - (Condition: If the player has yet to plant a Spirit tree in Port Sarim:)
         - **Spirit Tree:** No puedo sentir a mis hermanos en Port Sarim.
         - (continue)
-      - (Condition: Si el player aún no ha plantado un Spirit tree en Etceteria:)
+      - (Condition: If the player has yet to plant a Spirit tree in Etceteria:)
         - **Spirit Tree:** No puedo sentir a mis hermanos en Etceteria.
         - (continue)
-      - (Condition: Si el player aún no ha plantado un Spirit tree en Brimhaven:)
+      - (Condition: If the player has yet to plant a Spirit tree in Brimhaven:)
         - **Spirit Tree:** No puedo sentir a mis hermanos en Brimhaven.
         - (continue)
-      - (Condition: Si el player aún no ha plantado un Spirit tree en Manor Farm:)
+      - (Condition: If the player has yet to plant a Spirit tree at Manor Farm:)
         - **Spirit Tree:** No puedo sentir a mis hermanos en Manor Farm.
         - (continue)
-      - (Condition: Si el player tiene un Spirit tree en crecimiento:)
+      - (Condition: If the player has a Spirit tree being grown:)
         - **Spirit Tree:** Siento que mis hermanos en [location] están regresando.
-      - (Condition: Si el player tiene un Spirit tree que ha crecido completamente pero aún no se ha comprobado su salud:)
+      - (Condition: If the player has a Spirit tree that is fully grown but not yet checked its health:)
         - **Spirit Tree:** Mis hermanos en [location] son cercanos. Quizás deberías ir a verlos.
         - (continue)
     - **Spirit Tree:** Si pudieras encontrar una manera de devolverme a estos hermanos, te estaría muy agradecido. Le dejé una pequeña recompensa a nuestro amigo gnomo si logras esto.
     - (continue|standard)
-  - (Condition: Si es la primera vez que habla después de que todos los árboles Spirit hayan vuelto a crecer:)
+  - (Condition: If it is the first time speaking after all Spirit Trees have been regrown:)
     - **Spirit Tree:** No... espera... ¡Puedo escucharlos a todos otra vez! ¡Gracias, susurrador de árboles, gracias! Le pedí a nuestro amigo gnomo que te recompensara por tus esfuerzos.
     - (continue|standard)
 
@@ -57,10 +57,10 @@
         - Te sientes uno con el spirit tree.
         - (Action: el player es teletransportado al spirit tree seleccionado.)
   - [Choice]: Árbol malvado.
-    - (Condition: Si actualmente hay un Árbol del Mal activo que fue asesinado recientemente:)
+    - (Condition: If there is currently an active Evil Tree which was recently killed:)
       - **Spirit tree:** La contaminación del árbol malvado no está actualmente en la tierra. No habrá un árbol malvado por mucho tiempo.
       - (continue)
-    - (Condition: De lo contrario:)
+    - (Condition: Otherwise:)
       - **Spirit tree:** La contaminación del árbol malvado no está actualmente en la tierra. Habrá un árbol malvado en aproximadamente [número] hora [número] minutos.
       - (continue)
     - **Spirit tree:** Puedo ayudarte a encontrar el lugar donde aparecerá, pero mi conocimiento fuera del anima mundi es limitado.

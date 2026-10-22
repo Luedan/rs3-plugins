@@ -27,7 +27,7 @@
   - [Choice]: ¿Sabes si podría hacer una bolsa de esencias más grande?
     - **Player:** ¿Sabes si podría hacer una bolsa de esencias más grande?
     - **Wizard Rinsit:** ¡En teoría, sí!
-    - (Condition: Sin Runecrafting nivel 105:)
+    - (Condition: Without Runecrafting level 105:)
       - **Wizard Rinsit:** Sin embargo, no creo que sea algo de lo que alguien con tus habilidades sería capaz de hacer.
       - La creación de una bolsa expansiva requiere Runecrafting nivel 105.
     - [Menu]: Elija una opción:|anchor=Bolsa de enjuague
@@ -44,9 +44,9 @@
         - **Wizard Rinsit:** ¡Oh! También necesitarás una forma de cerrarlo. He oído hablar de un hilo mágico que se detectó al crear runas después de entrar directamente a las ruinas del altar, que podría funcionar.
         - (previous|Rinsit-pouch)
       - [Choice]: I lost some of the parts.|cond=Si alguna pieza falta o está destruida
-        - (Condition: Sin suficiente espacio libre en backpack para todos los elementos que faltan:)
+        - (Condition: Without enough free backpack space for all the missing items:)
           - **Wizard Rinsit:** Encontré algunas cosas que quizás hayas extraviado, pero parece que no tienes espacio en tu backpack para llevarlas.
-        - (Condition: Con suficiente espacio libre en backpack para todos los elementos que faltan:)
+        - (Condition: With enough free backpack space for all the missing items:)
           - (receives=missing items)
           - **Wizard Rinsit:** He puesto algunas cosas que quizás hayas extraviado en tu backpack para ti.
           - (previous|Rinsit-pouch)
@@ -68,14 +68,14 @@
 - **Wizard Rinsit:** Puedo dirigir ese portal hacia allí para llevarte directamente al último piso de Runespan si eres un creador de runas experimentado.
 - [Menu]: ¿A dónde le gustaría que se dirigiera el portal?
   - [Choice]: Runespan de nivel medio.
-    - (Condition: Si el portal ya está dirigido allí:)
+    - (Condition: If the portal is already directed there:)
       - **Wizard Rinsit:** Parece que el portal ya está dirigido a ese destino.
-    - (Condition: Si el portal está dirigido a Runespan de alto nivel:)
+    - (Condition: If the portal is directed to high-level Runespan:)
       - **Wizard Rinsit:** ¡Ahí, todo redirigido para ti!
   - [Choice]: Runespan de alto nivel
-    - (Condition: Si el portal ya está dirigido allí:)
+    - (Condition: If the portal is already directed there:)
       - **Wizard Rinsit:** Parece que el portal ya está dirigido a ese destino.
-    - (Condition: Si el portal está dirigido a Runespan de nivel medio:)
+    - (Condition: If the portal is directed to mid-level Runespan:)
       - **Wizard Rinsit:** ¡Ahí, todo redirigido para ti!
 
 ### When using the [[rusty chest]] on him

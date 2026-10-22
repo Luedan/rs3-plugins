@@ -30,10 +30,10 @@
       - (continue)
   - ¿Ves muchos combatientes heridos?
     - **Player:** ¿Ves muchos peleadores heridos?
-    - ((Antes de la destrucción de Duel Arena:))
+    - ((Before the destruction of Duel Arena:))
       - **Surgeon General Tafani:** Sí, lo hago. Afortunadamente, podemos hacer frente a casi cualquier cosa. Jaraah realmente es un cirujano maravilloso; sus métodos son un poco poco ortodoxos pero hace el trabajo. No debería decirte esto, pero su apodo es 'El Carnicero'.
       - **Player:** Eso es tranquilizador.
-    - ((Después de la destrucción de Duel Arena:))
+    - ((After the destruction of Duel Arena:))
       - **Surgeon General Tafani:** No tanto estos días, pero cuando el Duel Arena todavía existía, vi una buena cantidad de lesiones.
       - **Surgeon General Tafani:** Afortunadamente, pudimos hacer frente a casi cualquier cosa. Jaraah realmente es un cirujano maravilloso. Sus métodos eran un poco poco ortodoxos, pero hizo el trabajo.
       - **Surgeon General Tafani:** No debería decirte esto, pero su apodo es 'El Carnicero'.
@@ -41,12 +41,12 @@
       - (previous)
   - ¿Vienes aquí a menudo?
     - **Player:** ¿Vienes aquí a menudo?
-    - ((Antes de la destrucción de Duel Arena:))
+    - ((Before the destruction of Duel Arena:))
       - **Surgeon General Tafani:** Trabajo aquí, así que sí. ¡Eres tonto!
-    - ((Después de la destrucción de Duel Arena:))
+    - ((After the destruction of Duel Arena:))
       - **Surgeon General Tafani:** Bueno, aquí es donde trabajo ahora, así que sí. Éste es un lugar tan bueno como cualquier otro para montar un hospital.
       - (previous)
-  - ((Sólo si no regresa de otra pregunta:))
+  - ((Only if not returning from another question:))
     - ¿Puedo comprarles un Skillcape o un Constitution?
       - *(Si el player tiene alguna de las variantes de Ring of Charos equipada:)*
         - **Surgeon General Tafani:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins por este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
@@ -74,19 +74,19 @@
             - **Surgeon General Tafani:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Constitution master cape.
             - [Menu]: ¿Comprar Constitution master cape por 120.000 coins?
               - (Sí).
-                - (Condition: Sin espacio libre backpack:)
+                - (Condition: Without free backpack space:)
                   - **Surgeon General Tafani:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
-                - (Condition: Con espacio gratuito backpack:)
-                  - (Condition: Sin 120.000 coins:)
+                - (Condition: With free backpack space:)
+                  - (Condition: Without 120,000 coins:)
                     - No tienes suficiente dinero para comprar esta capa.
-                    - ((Repetido en una ventana emergente:))
+                    - ((Repeated in a pop-up:))
                       - No tienes suficiente dinero para comprar esta capa.
-                  - (Condition: Con 120.000 coins:)
+                  - (Condition: With 120,000 coins:)
                     - (removes=120,000 coins) (receives=Constitution master cape)
                     - (Action: Suena música Master cape.)
               - [Choice]: No.
                 - (end)
-  - ((Sólo si no regresa de otra pregunta:))
+  - ((Only if not returning from another question:))
     - He notado que hay un par de versiones de cada skillcape.
       - **Surgeon General Tafani:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
       - *(Si el player ha elegido los nuevos modelos skillcape :)*
@@ -131,7 +131,7 @@
                   - **Surgeon General Tafani:** ¡Genial, ahora usarás el modelo antiguo para todos tus skillcapes!
                 - No, gracias.
                   - (end)
-  - ((Sólo si regresa de otra pregunta:))
+  - ((Only if returning from another question:))
     - Adiós
       - (end)
 

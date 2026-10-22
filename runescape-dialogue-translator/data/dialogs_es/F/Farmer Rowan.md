@@ -26,119 +26,119 @@
 
 #### con éxito
 
-- ((Lo siguiente se repite hasta que es interrumpido, fuera del espacio backpack o atrapado:))
+- ((The following repeats until interrupted, out of backpack space, or caught:))
   - Escoges el bolsillo del objetivo.
-  - (Condition: Si recibe una semilla de avantoe:)
+  - (Condition: If receiving an avantoe seed:)
     - (receives=avantoe seed)
     - Robas una semilla de avantoe.
     - (continue)
-  - (Condition: Si recibe una semilla de plátano:)
+  - (Condition: If receiving a banana tree seed:)
     - (receives=banana tree seed)
     - Robas una semilla de plátano.
     - (continue)
-  - (Condition: Si recibe una espora de hongo amargo:)
+  - (Condition: If receiving a bittercap mushroom spore:)
     - (receives=bittercap mushroom spore)
     - Robas una espora de hongo amargo.
     - (continue)
-  - (Condition: Si recibe una semilla de cactus:)
+  - (Condition: If receiving a cactus seed:)
     - (receives=cactus seed)
     - Robas una semilla de cactus.
     - (continue)
-  - (Condition: Si recibe una semilla cadantina:)
+  - (Condition: If receiving a cadantine seed:)
     - (receives=cadantine seed)
     - Robas una semilla cadantina.
     - (continue)
-  - (Condition: Si recibe coins:)
+  - (Condition: If receiving coins:)
     - [número] coins se han agregado a su bolsa de dinero.
-  - (Condition: Si recibe una semilla de árbol de curry:)
+  - (Condition: If receiving a curry tree seed:)
     - (receives=curry tree seed)
     - Robas una semilla de árbol de curry.
     - (continue)
-  - (Condition: Si recibe una semilla de mora:)
+  - (Condition: If receiving a dwellberry seed:)
     - (receives=dwellberry seed)
     - Robas una semilla de arbusto de mora.
     - (continue)
-  - (Condition: Si recibe una semilla de nabo malvada:)
+  - (Condition: If receiving an evil turnip seed:)
     - (receives=evil turnip seed)
     - Robas una semilla de nabo malvada.
     - (continue)
-  - (Condition: Si recibe una semilla de vid:)
+  - (Condition: If receiving a grapevine seed:)
     - (receives=grapevine seed)
     - Robas una semilla de vid.
     - (continue)
-  - (Condition: Si recibe una semilla de irit:)
+  - (Condition: If receiving an irit seed:)
     - (receives=irit seed)
     - Robas una semilla de irit.
     - (continue)
-  - (Condition: Si recibe una semilla de jangerberry:)
+  - (Condition: If receiving a jangerberry seed:)
     - (receives=jangerberry seed)
     - Robas una semilla de arbusto de jangerberry.
     - (continue)
-  - (Condition: Si recibe una semilla de kwuarm:)
+  - (Condition: If receiving a kwuarm seed:)
     - (receives=kwuarm seed)
     - Robas una semilla de kwuarm.
     - (continue)
-  - (Condition: Si recibe una semilla de arce:)
+  - (Condition: If receiving a maple seed:)
     - (receives=maple seed)
     - Robas una semilla de arce.
     - (continue)
-  - (Condition: Si recibe una semilla de naranjo:)
+  - (Condition: If receiving an orange tree seed:)
     - (receives=orange tree seed)
     - Robas una semilla de naranjo.
     - (continue)
-  - (Condition: Si recibe una semilla de palmera:)
+  - (Condition: If receiving a palm tree seed:)
     - (receives=palm tree seed)
     - Robas una semilla de palmera.
     - (continue)
-  - (Condition: Si recibe una semilla de árbol de papaya:)
+  - (Condition: If receiving a papaya tree seed:)
     - (receives=papaya tree seed)
     - Robas una semilla de árbol de papaya.
     - (continue)
-  - (Condition: Si recibe una semilla de piña:)
+  - (Condition: If receiving a pineapple seed:)
     - (receives=pineapple seed)
     - Robas una semilla de una planta de piña.
     - (continue)
-  - (Condition: Si recibe una semilla de hiedra venenosa:)
+  - (Condition: If receiving a poison ivy seed:)
     - (receives=poison ivy seed)
     - Robas una semilla de arbusto de hiedra venenosa.
     - (continue)
-  - (Condition: Si recibe una semilla de ranarr:)
+  - (Condition: If receiving a ranarr seed:)
     - (receives=ranarr seed)
     - Robas una semilla de ranarr.
     - (continue)
-  - (Condition: Si recibe una semilla de boca de dragón:)
+  - (Condition: If receiving a snapdragon seed:)
     - (receives=snapdragon seed)
     - Robas una semilla de boca de dragón.
     - (continue)
-  - (Condition: Si recibe una semilla de hierba espiritual:)
+  - (Condition: If receiving a spirit weed seed:)
     - (receives=spirit weed seed)
     - Robas una semilla de hierba espiritual.
     - (continue)
-  - (Condition: Si recibe una semilla de flor de estrella:)
+  - (Condition: If receiving a starbloom flower seed:)
     - (receives=starbloom flower seed)
     - Robas una semilla de flor de estrella.
     - (continue)
-  - (Condition: Si recibe una semilla de lino de sapo:)
+  - (Condition: If receiving a toadflax seed:)
     - (receives=toadflax seed)
     - Robas una semilla de lino de sapo.
     - (continue)
-  - (Condition: Si recibe una semilla de sandía:)
+  - (Condition: If receiving a watermelon seed:)
     - (receives=watermelon seed)
     - Robas una semilla de sandía.
     - (continue)
-  - (Condition: Si recibe una semilla de wergali:)
+  - (Condition: If receiving a wergali seed:)
     - (receives=wergali seed)
     - Robaste una semilla de wergali.
     - (continue)
-  - (Condition: Si recibe una semilla de mora blanca:)
+  - (Condition: If receiving a whiteberry seed:)
     - (receives=whiteberry seed)
     - Robas una semilla de arbusto de mora blanca.
     - (continue)
-  - (Condition: Si recibe una semilla de tejo:)
+  - (Condition: If receiving a yew seed:)
     - (receives=yew seed)
     - Robas una semilla de yew tree.
     - (continue)
-  - (Condition: Si alcanza el backpack completo:)
+  - (Condition: If reaching full backpack:)
     - No puedes seguir robando carteras porque tienes un inventario completo.
 
 #### Sin éxito

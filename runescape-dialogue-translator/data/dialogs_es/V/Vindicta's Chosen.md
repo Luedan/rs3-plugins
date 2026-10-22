@@ -12,67 +12,67 @@
 ### Talk to
 
 - **Vindicta's Chosen:** Saludos.
-- ((Con un cristal de anima en backpack:))
+- ((With an anima crystal in backpack:))
   - **Vindicta's Chosen:** El cristal de Anima que tienes ahí es interesante. ¿Estarías dispuesto a donarlo?
     - Sí. (Gana 500 de reputación con Zaros)
       - (removes=anima crystal)
       - ¡Has ganado 500 de reputación con las fuerzas zarosianas!
-      - (Condition: Si se desbloquearan nuevas recompensas:)
+      - (Condition: If new rewards were unlocked:)
         - (ver|Reputación (Corazón de Gielinor))
         - (continue)
       - **Vindicta's Chosen:** Gracias por tu ayuda.
       - (continue)
     - No.
       - (continue)
-- (Condition: Con sellos de facciones opuestas en backpack y menos de 2000 Zaros de reputación:)
+- (Condition: With seals of opposing factions in backpack and under 2,000 Zaros reputation:)
   - **Vindicta's Chosen:** Noté que tienes un stock de sellos de todo el Corazón. ¿Estarías interesado en donarlos?
   - **¿CAMBIAR SELLOS POR REPUTACIÓN CON LOS ZAROSIANOS?**
-    - ((Con Sellos del Cywir en backpack:))
+    - ((With Seals of the Cywir in backpack:))
       - Entregue los sellos Seren.
         - (Los sellos se intercambian por reputación).
         - ¡Tus Sellos de Cywir valían [número] reputación ante las fuerzas zarosianas!
-        - (Condition: Si se desbloquearan nuevas recompensas:)
+        - (Condition: If new rewards were unlocked:)
           - (ver|Reputación (Corazón de Gielinor))
           - (continue)
-        - ((Con otros sellos de las facciones opuestas restantes:))
+        - ((With other seals of the opposing factions left:))
           - (above|seals)
-        - ((Sin otros sellos de las facciones opuestas quedaron:))
+        - ((Without other seals of the opposing factions left:))
           - (continue)
-    - ((Con Sellos de los Sin Rostro en backpack:))
+    - ((With Seals of the Faceless in backpack:))
       - Entregue los sellos Sliske.
         - (Los sellos se intercambian por reputación).
         - ¡Tus Sellos de los sin rostro valían [número] reputación ante las fuerzas zarosianas!
-        - (Condition: Si se desbloquearan nuevas recompensas:)
+        - (Condition: If new rewards were unlocked:)
           - (ver|Reputación (Corazón de Gielinor))
           - (continue)
-        - ((Con otros sellos de las facciones opuestas restantes:))
+        - ((With other seals of the opposing factions left:))
           - (above|seals)
-        - ((Sin otros sellos de las facciones opuestas quedaron:))
+        - ((Without other seals of the opposing factions left:))
           - (continue)
-    - ((Con Sellos de las Furias en backpack:))
+    - ((With Seals of the Furies in backpack:))
       - Entregue los sellos Zamorak.
         - (Los sellos se intercambian por reputación).
         - ¡Tus Sellos de las Furias valían [número] reputación ante las fuerzas zarosianas!
-        - (Condition: Si se desbloquearan nuevas recompensas:)
+        - (Condition: If new rewards were unlocked:)
           - (ver|Reputación (Corazón de Gielinor))
           - (continue)
-        - ((Con otros sellos de las facciones opuestas restantes:))
+        - ((With other seals of the opposing factions left:))
           - (above|seals)
-        - ((Sin otros sellos de las facciones opuestas quedaron:))
+        - ((Without other seals of the opposing factions left:))
           - (continue)
-    - ((Con múltiples tipos de sellos de facciones opuestas en backpack:))
+    - ((With multiple types of opposing factions' seals in backpack:))
       - Entregue todos los sellos.
         - (Los sellos se intercambian por reputación).
-        - ((Si se entregaron los Sellos del Cywir:))
+        - ((If Seals of the Cywir were handed in:))
           - ¡Tus Sellos de Cywir valían [número] reputación ante las fuerzas zarosianas!
           - (continue)
-        - ((Si se entregaron los Sellos de los Sin Rostro:))
+        - ((If Seals of the Faceless were handed in:))
           - ¡Tus Sellos de los sin rostro valían [número] reputación ante las fuerzas zarosianas!
           - (continue)
-        - ((Si se entregaron los Sellos de las Furias:))
+        - ((If Seals of the Furies were handed in:))
           - ¡Tus Sellos de las Furias valían [número] reputación ante las fuerzas zarosianas!
           - (continue)
-        - (Condition: Si se desbloquearan nuevas recompensas:)
+        - (Condition: If new rewards were unlocked:)
           - (ver|Reputación (Corazón de Gielinor))
           - (continue)
         - (continue)
@@ -85,7 +85,7 @@
     - **Vindicta's Chosen:** No todos somos salvajes. Sobre esta plataforma se ha establecido una tregua que nos permite a nosotros, los enviados de cada facción, utilizar palabras en lugar de violencia para influir en nuevos reclutas. Porque abajo la batalla continúa, por lo que debemos hacer lo que podamos para persuadir a los mercenarios que se unen a la refriega para que luchen por nuestra causa. Echa un vistazo a lo que tengo para ofrecerte. Te lo aseguro, haré que valga la pena luchar por Zaros.
     - (previous)
   - ¿Cuál es tu opinión sobre mí?
-    - ((Se abre la interfaz de Zaros Reputation Rewards.))
+    - ((Zaros Reputation Rewards interface opens.))
   - ¿Cómo puedo mejorar mi reputación?
     - **Vindicta's Chosen:** Hay algunas formas de mejorar tu posición. Lo más fácil que puedes hacer es derrotar a nuestros enemigos y usar fragmentos de Ingresión para pedir refuerzos para nosotros. El maestro de recompensas de allí, Feng, también puede ayudarte a mejorar tu posición ofreciéndote recompensas. Habla con él si quieres saber más. Ah, y estoy seguro de que si de alguna manera pudieras encontrar una manera de derrotar a los generales de las otras facciones, eso sin duda te haría ganar mucho favor.
     - (previous)
@@ -93,15 +93,15 @@
     - **Vindicta's Chosen:** Puedes recolectar fragmentos de armadura y crestas alrededor del Corazón que luego se pueden combinar para crear una armadura similar a la mía. Si me demuestras tu valía, puedo mostrarte cómo mejorarlo aún más y desbloquear su verdadero potencial.
     - (previous)
   - Me gustaría reclamar mis recompensas.
-    - ((Si actualmente no tienes recompensas para reclamar:))
+    - ((If you currently have no rewards to claim:))
       - **Vindicta's Chosen:** No hay nada que pueda darte.
       - (previous)
-    - ((Con recompensas para reclamar:))
+    - ((With rewards to claim:))
       - **ELIGE UNA OPCIÓN:**
         - Me gustaría reclamar mi insignia.
           - Vindicta's Chosen te entrega una insignia de Zaros.
           - (previous2)
-        - ((Sólo con piedra nocturna desbloqueada:))
+        - ((Only with nightstone unlocked:))
           - Me gustaría recuperar mi juguete.
             - (receives=nightstone)
             - Vindicta's Chosen te entrega una Nightstone.
@@ -111,7 +111,7 @@
 
 ### Reputation
 
-- ((Se abre la interfaz de Zaros Reputation Rewards.))
+- ((Zaros Reputation Rewards interface opens.))
 
 ### Reclaim
 

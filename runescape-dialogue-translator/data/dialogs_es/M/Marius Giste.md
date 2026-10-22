@@ -50,10 +50,10 @@
     - [Menu]: Selecciona una opción
       - [Choice]: Sí por favor.
         - **Player:** Sí, por favor.
-        - (Condition: Sin espacio en backpack:)
+        - (Condition: Without space in backpack:)
           - **Marius Giste:** Desafortunadamente, no tienes espacio para ello.
           - (otras|opciones iniciales)
-        - (Condition: Con espacio en backpack:)
+        - (Condition: With space in backpack:)
           - [Marius Giste te entrega una bolsa resistente.]
           - (receives=statue collection bag)
           - (otras|opciones iniciales)
@@ -76,9 +76,9 @@
     - **Marius Giste:** Bueno, no estoy seguro, pero sospecho que de la misma manera que obtuviste el primero.
     - **Player:** ¿Por qué necesito un gemelo?
     - **Marius Giste:** Porque, curiosamente, se entrelazan en pares para formar toda la estatua sin necesidad de ningún tipo de adhesivo.
-    - (Condition: Si el player ya tiene una bolsa de recolección de estatuas:)
+    - (Condition: If the player already has a statue collection bag:)
       - **Marius Giste:** Ya tienes una bolsa de colección de estatuas.
-    - (Condition: Si el player no tiene bolsa de recolección de estatuas:)
+    - (Condition: If the player does not have a statue collection bag:)
       - (continuea|givebag)
   - [Choice]: ¿Cómo lo agrego a la estatua?
     - **Player:** ¿Cómo lo agrego a la estatua?
@@ -95,21 +95,21 @@
         - (continuea|givebag2)
       - [Choice]: Tendré que mantener una lista de piezas.
         - **Player:** Tendré que mantener una lista de piezas.
-        - (Condition: Sin espacio en backpack:)
+        - (Condition: Without space in backpack:)
           - **Marius Giste:** Sí, eso es realmente sabio. Avísame cuando tengas espacio y te daré algo de papel.
           - (continuea|givebag2)
-        - (Condition: Con espacio en backpack:)
+        - (Condition: With space in backpack:)
           - **Marius Giste:** Sí, sería prudente. Aquí tienes algo de papel para usar.
           - [Marius Giste te entrega una hoja de papel en la que garabateas rápidamente.]
           - (receives=Statue of Dahmaroc list)
           - (initial|initialoptions)
-        - (Condition: Con la lista ya en backpack:)
+        - (Condition: With the list already in backpack:)
           - **Marius Giste:** Sí, sería prudente. Veo que ya tienes uno allí.
           - (initial|initialoptions)
       - [Choice]: cond=If the player has completed the statue at least once before, and destroyed a replica piece:|He perdido una réplica.
-        - (Condition: Sin espacio en backpack:)
+        - (Condition: Without space in backpack:)
           - {{Tmissing}}
-        - (Condition: Con espacio en backpack:)
+        - (Condition: With space in backpack:)
           - **Player:** He perdido una réplica.
           - El arqueólogo te entrega un .
           - (receives=Replica statue piece)
@@ -129,9 +129,9 @@
         - (continuea|givebag)
       - [Choice]: Me gustaría restablecer mi estatua.
         - **Player:** Me gustaría restablecer mi estatua.
-        - (Condition: Si el pedestal está vacío:)
+        - (Condition: If the plinth is empty:)
           - **Marius Giste:** Ah, hay un pequeño problema ahí. No tienes que restablecer.
-        - (Condition: Si al pedestal se le agregaron al menos un par de rocas:)
+        - (Condition: If the plinth has at least a pair of rocks added to it:)
           - **Marius Giste:** ¿Estás seguro? ¡Perderás todo tu progreso!
           - Advertencia: perderás todo tu progreso, incluida cualquier estatua construida en tu casa. Esto no se puede revertir.
           - [Menu]: Elige una opción:
@@ -150,17 +150,17 @@
 - Marius Giste se quita pequeños trozos de roca.
 - **Marius Giste:** Sí... Lo vi explotar. Parece que la maldición sigue activa.
 - **Marius Giste:** Lo hiciste bien. Hemos estado estudiando la estatua mientras la construías y hemos logrado hacer una réplica de una de las piezas para ti. Quizás le gustaría empezar a construir usted mismo una estatua en su estudio.
-- (Condition: Si el player nunca ha completado la estatua antes:)
-  - (Condition: Sin un espacio backpack libre:)
+- (Condition: If the player has never completed the statue before:)
+  - (Condition: Without one free backpack space:)
     - **Marius Giste:** Cuando tengas espacio, regresa y recoge el pedestal para colocarlo.
-  - (Condition: Con un espacio backpack gratuito:)
+  - (Condition: With one free backpack space:)
     - **Marius Giste:** Aquí tienes un pedestal para que construyas la estatua en tu casa.
     - (receives=statue plinth)
     - [El arqueólogo le entrega un pedestal resistente pero sorprendentemente ligero para su réplica de estatua.]
     - (continue)
-- (Condition: Sin un espacio backpack libre:)
+- (Condition: Without one free backpack space:)
   - **Marius Giste:** Cuando tengas espacio, regresa y recoge la réplica.
-- (Condition: Con un espacio backpack gratuito:)
+- (Condition: With one free backpack space:)
   - **Marius Giste:** Ahí lo tienes.
   - (receives=replica statue piece)
   - [El arqueólogo te entrega una réplica de la estatua.]
@@ -177,11 +177,11 @@
 ##### Con la recolección de rocas activada
 
 - Ya no encontrarás rocas extrañas.
-- (ventana emergente)
-  - (Ventana emergente: ya no encontrarás rocas extrañas).
+- (pop-up)
+  - (Pop-up: You will no longer find strange rocks.)
 
 ##### Con la recolección de piedras desactivada
 
 - Ahora encontrarás rocas extrañas.
-- (ventana emergente)
-  - (Ventana emergente: ahora encontrarás rocas extrañas).
+- (pop-up)
+  - (Pop-up: You will now find strange rocks.)

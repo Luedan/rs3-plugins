@@ -30,7 +30,7 @@
 
 #### Durante la tercera tarea del evento The Need for Mead
 
-- ((Se selecciona un diálogo aleatorio entre los siguientes y luego continúa a continuación:))
+- ((A random dialogue is selected from the following, then continues below:))
   - **Player:** Ivy, ¿hay excrementos de rata en tu suelo? Asqueroso.{{Sic}}
   - **Player:** Ivy, ¿eso es un agujero en tu zapato?
   - **Player:** Ivy, parece que hay insectos viviendo en tu piso.

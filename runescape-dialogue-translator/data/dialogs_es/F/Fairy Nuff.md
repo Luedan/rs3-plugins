@@ -45,10 +45,10 @@
         - [Menu]: Selecciona una opción
           - [Choice]: Muy bien.
             - **Player:** Muy bien.
-            - (Condition: Si el player tiene un ópalo en backpack:)
+            - (Condition: If the player has an opal in the backpack:)
               - (removes=opal)
               - (Action: el player se cura un máximo de 40 puntos de vida.)
-            - (Condition: Si el player no tiene un ópalo en backpack:)
+            - (Condition: If the player doesn't have an opal in the backpack:)
               - **Fairy Nuff:** ¡No tienes que pagarme!
               - **Player:** Vaya, lo siento.
           - [Choice]: Pensándolo bien, no gracias.
@@ -60,10 +60,10 @@
         - [Menu]: Selecciona una opción
           - [Choice]: Muy bien.
             - **Player:** Muy bien.
-            - (Condition: Si el player tiene un zafiro o jade en el backpack:)
+            - (Condition: If the player has a sapphire or jade in the backpack:)
               - (removes=sapphire or jade)
               - (Action: el player se cura un máximo de 50 puntos de vida.)
-            - (Condition: Si el player no tiene zafiro o jade en backpack:)
+            - (Condition: If the player doesn't have a sapphire or jade in the backpack:)
               - **Fairy Nuff:** ¡No llevas ni un zafiro ni un trozo de jade contigo!
               - **Player:** Vaya, lo siento.
           - [Choice]: Pensándolo bien, no gracias.
@@ -75,10 +75,10 @@
         - [Menu]: Selecciona una opción
           - [Choice]: Muy bien.
             - **Player:** Muy bien.
-            - (Condition: Si el player tiene una esmeralda o un topacio rojo en el backpack:)
+            - (Condition: If the player has an emerald or a red topaz in the backpack:)
               - (removes=emerald or red topaz)
               - (Action: el player se cura un máximo de 70 puntos de vida.)
-            - (Condition: Si el player no tiene una esmeralda o un topacio rojo en el backpack:)
+            - (Condition: If the player doesn't have an emerald or a red topaz in the backpack:)
               - **Fairy Nuff:** ¡No tienes una esmeralda o un topacio rojo para pagarme!
               - **Player:** Vaya, lo siento.
           - [Choice]: Pensándolo bien, no gracias.
@@ -90,10 +90,10 @@
         - [Menu]: Selecciona una opción
           - [Choice]: Muy bien.
             - **Player:** Muy bien.
-            - (Condition: Si el player tiene un rubí en backpack:)
+            - (Condition: If the player has a ruby in the backpack:)
               - (removes=ruby)
               - (Action: el player se cura un máximo de 90 puntos de vida.)
-            - (Condition: Si el player no tiene un rubí en backpack:)
+            - (Condition: If the player doesn't have a ruby in the backpack:)
               - **Fairy Nuff:** ¡No tienes ni un rubí para pagarme!
               - **Player:** Vaya, lo siento.
           - [Choice]: Pensándolo bien, no gracias.
@@ -105,10 +105,10 @@
         - [Menu]: Selecciona una opción
           - [Choice]: Muy bien.
             - **Player:** Muy bien.
-            - (Condition: Si el player tiene un diamante en backpack:)
+            - (Condition: If the player has a diamond in the backpack:)
               - (removes=diamond)
               - (Action: el player se cura un máximo de 110 puntos de vida.)
-            - (Condition: Si el player no tiene un diamante en backpack:)
+            - (Condition: If the player doesn't have a diamond in the backpack:)
               - **Fairy Nuff:** ¡No tienes un diamante para pagarme!
               - **Player:** Vaya, lo siento.
           - [Choice]: Pensándolo bien, no gracias.
@@ -141,11 +141,11 @@
 
 #### Cuando se le habla con el rompecabezas resuelto
 
-- (Condition: Si el rastro continúa:)
+- (Condition: If the trail continues:)
   - (removes=the old clue scroll (hard) y caja de rompecabezas) (receives= the new clue scroll (hard))
   - [¡Fairy Nuff te ha dado otro pergamino de pistas!]
   - (continue)
-- (Condition: Si el sendero termina:)
+- (Condition: If the trail ends:)
   - (removes=the old clue scroll (hard) y caja de rompecabezas) (receives=reward casket (hard))
   - [¡Has encontrado un ataúd!]
   - (continue)

@@ -25,28 +25,28 @@
       - [Menu]: ¿Vender [animal name] por frijoles [X]?
         - [Choice]: Sí.
           - Frijoles [Amount] agregados a su bolsa de divisas.
-          - (Condition: Si el player tiene otro animal para vender:)
+          - (Condition: If the player has another animal to sell:)
             - (above|sell-one-animal)
-          - (Condition: Si el player no tiene otro animal para vender:)
+          - (Condition: If the player does not have another animal to sell:)
             - (end)
         - [Choice]: No.
-          - (Condition: Si el player tiene otro animal para vender:)
+          - (Condition: If the player has another animal to sell:)
             - (above|sell-one-animal)
-          - (Condition: Si el player no tiene otro animal para vender:)
+          - (Condition: If the player does not have another animal to sell:)
             - (end)
     - [Choice]: Entregue TODOS los animales retenidos a Baby Shakes.
       - **Baby Shakes:** ¿Estás seguro de que quieres que me lleve todos los animales que tienes? No aceptaré ninguno de tus favoritos.
       - [Menu]: ¿Vender todos los animales por un bajo precio de frijol?
         - [Choice]: si
-          - (Condition: Si no se vendieron animales:)
+          - (Condition: If no animals were sold:)
             - No tienes animales para vender. ¡Cero animales, cero frijoles!
-            - ((Repetido en una ventana emergente:))
+            - ((Repeated in a pop-up:))
               - No tienes animales para vender. ¡Cero animales, cero frijoles!
-          - (Condition: Si se vendió un animal:)
+          - (Condition: If one animal was sold:)
             - (end)
-          - (Condition: Si se vendieron varios animales:)
+          - (Condition: If multiple animals were sold:)
             - Has vendido animales [X] por un total de frijoles [X].
-            - ((Repetido en una ventana emergente:))
+            - ((Repeated in a pop-up:))
               - Has vendido animales [X] por un total de frijoles [X].
         - [Choice]: No
           - (end)

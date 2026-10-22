@@ -23,7 +23,7 @@
 - **Submerged Statue:** Te daré mi sabiduría para que tengas una oportunidad de luchar en lo que vendrá.
 - **Submerged Statue:** ¡Cuidado con los Dragonkin, mortal! ¡Tener cuidado! ¡Tener cuidado!
 - (Se abre la interfaz de selección de habilidades).
-- (Condition: Después de seleccionar y confirmar una habilidad:)
+- (Condition: After selecting and confirming a skill:)
   - {{RSFontAchievement|Jas not Meant for Mortal Hands}}
   - (Se muestra en una ventana emergente:)
     - Obtienes 25.000 xp de bonificación en [skill].

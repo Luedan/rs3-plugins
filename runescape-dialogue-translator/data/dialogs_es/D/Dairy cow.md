@@ -27,9 +27,9 @@
 
 ### Attempting to steal cowbell
 
-- (Condition: Antes del frío War)
+- (Condition: Before Cold War)
   - [Debes haber iniciado la misión Cold War para intentar esto.]
-- (Condition: Durante y después del resfriado War:)
+- (Condition: During and after Cold War:)
   - (ver|Frío War#Robar cencerro)
 
 ### The Zanaris dairy cow

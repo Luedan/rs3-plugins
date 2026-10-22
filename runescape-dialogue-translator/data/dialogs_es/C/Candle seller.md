@@ -12,10 +12,10 @@
 - [Menu]: Selecciona una opción
   - [Choice]: Sí por favor.
     - **Player:** Sí, por favor.
-    - (Condition: Si el player no tiene 1000 coins:)
+    - (Condition: If the player does not have 1000 coins:)
       - **Player:** Pero no tengo esa cantidad de dinero conmigo.
       - **Candle seller:** ¡Pues entonces no hay vela para ti!
-    - (Condition: Si el player tiene 1000 coins:)
+    - (Condition: If the player has 1000 coins:)
       - (removes=1000 coins) (receives=unlit candle)
       - **Candle seller:** Aquí tienes entonces.
       - **Candle seller:** Sin embargo, debo advertirte que puede ser peligroso llevar una llama desnuda allí abajo. Sería mejor que hicieras una linterna.

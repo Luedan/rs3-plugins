@@ -16,31 +16,31 @@
     - **Player:** ¿Qué es esa capa tan chula que llevas puesta?
     - **Hunting expert:** ¿Esto? Es un skillcape de Hunter. Demuestra que soy un verdadero maestro en el arte de la Caza. Si alguna vez logras entrenar tu habilidad Hunter al máximo nivel, entonces podría venderte uno.
   - [Choice]: cond=If the player has 99 Hunter|Skillcape de Hunter.
-    - (Condition: Sin 120 Hunter virtuales:)
-      - (Condition: Si el player tiene un ring of charos (a) equipado:)
+    - (Condition: Without 120 virtual Hunter:)
+      - (Condition: If the player has a ring of charos (a) equipped:)
         - **Hunting expert:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins por este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
         - [Menu]: Elige una opción:
           - [Choice]: ¿92.000 coins? Eso es demasiado caro.
             - **Player:** Sé dónde encontrarte si cambio de opinión.
           - [Choice]: De hecho, creo que tengo el dinero aquí.
-            - (Condition: Si el player no tiene espacio backpack:)
+            - (Condition: If the player has no backpack space:)
               - **Hunting expert:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar algo de espacio en backpack antes de que pueda venderte uno.
-            - (Condition: Si el player no tiene suficiente dinero:)
+            - (Condition: If the player does not have enough money:)
               - **Player:** Pero desafortunadamente me equivoqué.
               - **Hunting expert:** Bueno, vuelve a verme cuando lo hagas.
-            - (Condition: Si el player tiene suficiente dinero:)
+            - (Condition: If the player has enough money:)
               - (receives=hunter cape and hunter hood) (removes=92,000 coins)
               - **Hunting expert:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
-      - (Condition: Si el player no tiene un ring of charos(a) equipado:)
+      - (Condition: If the player does not have a ring of charos (a) equipped:)
         - [Menu]: Elige una opción:
           - [Choice]: ¿99.000 coins? Eso es demasiado caro.
             - **Player:** Sé dónde encontrarte si cambio de opinión.
           - [Choice]: De hecho, creo que tengo el dinero aquí.
-            - (Condition: Si el player no tiene espacio backpack:)
+            - (Condition: If the player has no backpack space:)
               - (arriba)
-            - (Condition: Si el player no tiene suficiente dinero:)
+            - (Condition: If the player does not have enough money:)
               - (arriba)
-            - (Condition: Si el player tiene suficiente dinero:)
+            - (Condition: If the player has enough money:)
               - (receives=hunter cape and hunter hood) (removes=99,000 coins)
               - **Hunting expert:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
           - [Choice]: cond=With 120 virtual Hunter:|He dominado esta habilidad. ¿Hay algo más?
@@ -50,19 +50,19 @@
             - **Hunting expert:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Hunter master cape.
             - [Menu]: ¿Comprar Hunter master cape por 120.000 coins?
               - [Choice]: Sí.
-                - (Condition: Sin espacio libre backpack:)
+                - (Condition: Without free backpack space:)
                   - **Hunting expert:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
-                - (Condition: Con espacio gratuito backpack:)
-                  - (Condition: Sin 120.000 coins:)
+                - (Condition: With free backpack space:)
+                  - (Condition: Without 120,000 coins:)
                     - No tienes suficiente dinero para comprar esta capa.
-                    - (ventana emergente)
-                      - (Ventana emergente: No tienes suficiente dinero para comprar esta capa.|advertencia=yes)
-                  - (Condition: Con 120.000 coins:)
+                    - (pop-up)
+                      - (Pop-up: You do not have enough money to purchase this cape.|warning=yes)
+                  - (Condition: With 120,000 coins:)
                     - (removes=120,000 coins) (receives=Hunter master cape)
                     - (Action: Suena música Master cape.)
               - [Choice]: No.
                 - (end)
-    - (Condition: Con 120 Hunter virtuales:)
+    - (Condition: With 120 virtual Hunter:)
       - **Hunting expert:** Ah, veo que soy un verdadero maestro de la caza.
       - [Menu]: Selecciona una opción
         - [Choice]: ¿Puedo comprar un skillcape de Hunter?
@@ -71,10 +71,10 @@
           - (above|120 cape)
   - [Choice]: cond=If the player has 99 Hunter|He notado que hay un par de versiones de cada skillcape.
     - **Hunting expert:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
-    - (Condition: Si usas el modelo antiguo:)
+    - (Condition: If you use the old model:)
       - **Hunting expert:** Parece que actualmente estás usando el modelo antiguo para tu cazador skillcape. ¿Quieres cambiar a uno más nuevo?
       - (continue)
-    - (Condition: Si utiliza el nuevo modelo:)
+    - (Condition: If you use the new model:)
       - **Hunting expert:** Aún puedes elegir usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
       - (continue)
     - [Menu]: Selecciona una opción
@@ -89,7 +89,7 @@
             - (end)
       - [Choice]: No, gracias.
         - **Hunting expert:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
-        - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+        - (Condition: If the player uses the new model for any other skillcape:)
           - **Hunting expert:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
           - [Menu]: Selecciona una opción
             - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.
@@ -98,13 +98,13 @@
               - (end)
   - [Choice]: ¿Puedes ayudarme con los outfits de the trapper?
     - **Player:** ¿Puedes ayudarme con los outfits de the trapper?
-    - (Condition: Si el player no puede recibir fragmentos de trampero y no ha desbloqueado el plano necesario para crear las piezas del atuendo:)
+    - (Condition: If the player can't receive trapper fragments and hasn't unlocked the blueprint required to make the outfit pieces:)
       - **Hunting expert:** En el nivel 70 puedes comenzar a recolectar fragmentos para crear trajes de habilidades de élite. Cuando llegues a ese nivel, automáticamente comenzarás a recolectar fragmentos. Luego puedes usarlos con un plano para hacerte las piezas restantes del atuendo de élite para esta habilidad.
-    - (Condition: Si el player puede recibir fragmentos de trampero pero no ha desbloqueado el plano necesario para crear las piezas del atuendo:)
+    - (Condition: If the player can receive trapper fragments but hasn't unlocked the blueprint required to make the outfit pieces:)
       - **Hunting expert:** Estás configurado para recibir fragmentos. Cuando llegues al nivel 80 podrás crear prendas de vestir.
-    - (Condition: Si el player puede recibir fragmentos de trampero y ha desbloqueado el plano necesario para fabricar las piezas del atuendo:)
+    - (Condition: If the player can receive trapper fragments and has unlocked the blueprint required to make the outfit pieces:)
       - **Hunting expert:** Estás configurado para recibir fragmentos. Cuando tengas 3600 fragmentos, podrás usarlos para crear una pieza de atuendo de élite. Simplemente acude a un banco de trabajo Invention para crear las piezas.
-    - (Condition: Si el player posee el traje de trampero volcánico completo o todas las piezas necesarias para crearlo:)
+    - (Condition: If the player owns the full Volcanic trapper outfit, or all of the outfit pieces required to craft it:)
       - **Hunting expert:** Ya has creado todas las prendas posibles. Me aseguraré de que no reciba más fragmentos. Recuerda que puedes combinar las piezas del conjunto básico para hacer las versiones de nivel alto y obtener beneficios adicionales.
   - [Choice]: Caza.
     - **Hunting expert:** Vaya, extraño, ten cuidado por dónde caminas. Casi te golpeo allí; Pensé que eras una larupia o algo así.

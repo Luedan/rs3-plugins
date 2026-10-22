@@ -54,7 +54,7 @@
     - **Lord Amlodd:** Y, aunque esta es sólo mi teoría, creo que cuando nuestra señora se hizo añicos, se sintieron atraídos por el mayor de sus restos.
     - **Lord Amlodd:** Todos sabemos cómo resultó eso: todas esas tonterías del Señor Oscuro. Sin embargo, consideramos que es nuestro deber limpiar estas criaturas de luz tanto como lo es limpiar Seren.
     - **Lord Amlodd:** A su vez, estas criaturas ligeras nos ayudan a localizar partes de Seren, algunas de las cuales entregamos a los otros clanes, para que puedan realizar sus propias tareas.
-    - (Condition: Si el player aún no ha completado "I'm Forever Washing Shadows":)
+    - (Condition: If the player has not yet completed "I'm Forever Washing Shadows":)
       - **Lord Amlodd:** De hecho, si consideraras que es tu deber limpiar a estas pobres criaturas de luz, entonces recompensaría tus esfuerzos.
       - **Lord Amlodd:** Para limpiar completamente Seren, debemos purificar su mente, cuerpo y alma. Las sombras reflejan la corrupción de cada una de estas cosas.
       - **Lord Amlodd:** Entonces, a su vez, debemos limpiar las criaturas de las sombras verdaderas, dichosas y manifiestas. Reúna núcleos de cada tipo; quince de cada uno deberían ser suficientes.

@@ -17,11 +17,11 @@
     - [La cosecha de los cocoteros te brinda experiencia agrícola. Puedes ganar experiencia adicional entregando los cocos al cocotero.]
     - (previous)
   - [Choice]: ¿Cómo van las cosas?
-    - (Condition: Sólo si no respondiste así la última vez:)
+    - (Condition: Only if not answered like this the last time:)
       - **Palmer:** Mi adorable manojo de cocos me mantiene feliz, aunque preferiría que esa gran criatura no siguiera saliendo del cráter y asustándome.
       - **Palmer:** Pensé que mudándonos aquí nos alejaríamos de esto. ¡Pero resulta que aquí es donde vive!
       - (previous)
-    - (Condition: Solo si se respondió así la última vez:)
+    - (Condition: Only if answered like above this the last time:)
       - **Palmer:** Estos cocoteros tienen productos fantásticos que vale la pena cultivar.
       - [La cosecha de los cocoteros te brinda experiencia agrícola. Puedes ganar experiencia adicional entregando los cocos al cocotero.]
       - (previous)
@@ -38,11 +38,11 @@
     - **Palmer:** Estos cocoteros tienen productos fantásticos que vale la pena cultivar.
     - [La cosecha de los cocoteros te brinda experiencia agrícola. Puedes ganar experiencia adicional entregando los cocos al cocotero.]
     - (previous)
-    - (Condition: Sólo si no respondiste así la última vez:)
+    - (Condition: Only if not answered like this the last time:)
       - **Palmer:** Mi adorable manojo de cocos me mantiene feliz, aunque preferiría que esa gran criatura no siguiera saliendo del cráter y asustándome.
       - **Palmer:** ¿Qué es esa cosa? Reyna dijo que tiene algo que ver con la energía del área y que está ligado a aquí, pero no estoy seguro de que eso me haga sentir mejor.
       - (previous)
-    - (Condition: Solo si se respondió así la última vez:)
+    - (Condition: Only if answered like above this the last time:)
       - **Palmer:** Estos cocoteros tienen productos fantásticos que vale la pena cultivar.
       - [La cosecha de los cocoteros te brinda experiencia agrícola. Puedes ganar experiencia adicional entregando los cocos al cocotero.]
       - (previous)
@@ -52,13 +52,13 @@
 #### Con el pergamino de pistas Sandy
 
 - **Palmer:** ¡Oh, un extraño te dejó esto!
-- (Condition: Recibir un cuadro de desplazamiento:)
+- (Condition: Receiving a scroll box:)
   - (receives=Sandy Scroll box)
   - [scrollbox].}}
-- (Condition: Recibir ataúdes:)
-  - (Condition: Sin espacio libre en backpack:)
+- (Condition: Receiving caskets:)
+  - (Condition: Without free space in backpack:)
     - Necesitas 1 espacio libre en tu backpack para recibir tus cofres de pistas.
-  - (Condition: Con espacio libre en backpack:)
+  - (Condition: With free space in backpack:)
     - (removes=Sandy Clue Scroll)
     - (receives=Sandy Casket and its red version)
     - [¡Te entregan un ataúd!]

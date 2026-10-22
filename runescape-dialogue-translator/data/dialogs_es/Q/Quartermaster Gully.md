@@ -99,19 +99,19 @@
 
 #### Sin un mapa aplicable
 
-- ((Se abre la interfaz de Arc.))
+- ((The Arc interface opens.))
 
 #### Con un mapa del tesoro de un mensaje en una botella
 
 - **Quartermaster Gully:** Veo que tiene un mapa del tesoro allí, capitán. ¿Le gustaría navegar a esa región inexplorada?
 - [Menu]: ¿Navegar a la isla del tesoro?
   - [Choice]: Sí.
-    - (Condition: Con un mapa:)
+    - (Condition: With one map:)
       - (Action: Player es llevado a la isla.)
-    - (Condition: Con múltiples mapas:)
+    - (Condition: With multiple maps:)
       - [Menu]: Selecciona una opción
         - ¿Dónde te gustaría navegar?
-        - (Condition: Solo se enumeran las islas para las que el player tiene el mapa, y seleccionar una lleva a el player a esa isla.)
+        - (Condition: Only the islands that the player has the map for are listed, and selecting one takes the player to that island.)
           - Bahía Láctea
           - Los muelles del matón
           - Isla de Navidad

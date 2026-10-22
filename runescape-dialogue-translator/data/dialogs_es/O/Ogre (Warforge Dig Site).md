@@ -11,10 +11,10 @@
 
 ### Poke
 
-- ((A continuación se ven uno a uno los siguientes:))
+- ((The following are seen one by one subsequently:))
   - **Ogro:** {{RSChat|STOP!}}
   - **Ogro:** {{RSChat|POKING!}}
-  - ((Se ve uno de los siguientes y luego continúa a continuación:))
+  - ((One of the following is seen, then continues below:))
     - **Ogro:** {{RSChat|ME!}}
     - **Ogro:** {{RSChat|MEEE!}}
   - **Ogro:** {{RSChat|No means no.}}
@@ -22,7 +22,7 @@
 
 ### Talk to
 
-- ((A continuación se ven uno a uno los siguientes:))
+- ((The following are seen one by one subsequently:))
   - **Ogro:** {{RSChat|*sigh*}}
   - **Ogro:** {{RSChat|Look at this mess.}}
   - **Ogro:** {{RSChat|Was beautiful sea view.}}

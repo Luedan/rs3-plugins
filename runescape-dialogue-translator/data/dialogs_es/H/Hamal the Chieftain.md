@@ -18,15 +18,15 @@
 
 #### Después de la hija de la montaña
 
-- (Condition: Primera vez después de Mountain Daughter, con The Fremennik Trials no completado:)
+- (Condition: First time after Mountain Daughter, with The Fremennik Trials not completed:)
   - **Hamal the Chieftain:** Eres un extranjero de lo más inusual. Quizás deberías intentar convertirte en un Fremennik honorario, en Rellekka.
   - **Hamal the Chieftain:** Tienes mi agradecimiento, en cualquier caso.
   - (continue)
-- (Condition: Primera vez después de Mountain Daughter, con The Fremennik Trials completado:)
+- (Condition: First time after Mountain Daughter, with The Fremennik Trials completed:)
   - **Hamal the Chieftain:** Eres un extranjero de lo más inusual. El consejo de Rellekka hizo bien en nombrarte Fremennik honorario.
   - **Hamal the Chieftain:** Tienes mi agradecimiento, en cualquier caso.
   - (continue)
-- (Condition: Posteriormente:)
+- (Condition: Subsequently:)
   - **Hamal the Chieftain:** Saludos una vez más, honorable [Fremennik name/Player].
   - (continue)
 - **Player:** Entonces, ¿qué van a hacer ahora? ¿Finalmente vas a mudarte a otro lugar?
@@ -45,10 +45,10 @@
     - **Player:** ¿Pensé que no creías en la magia?
     - **Hamal the Chieftain:** Qué poco entiendes nuestras costumbres. Por supuesto que creemos en la magia, simplemente creemos que no corresponde a los vivos ejercerla.
     - **Hamal the Chieftain:** Muchos espíritus están conectados con la tierra o el agua. Está el Draugen, por ejemplo, un espíritu {{Sic|malovelent}}.
-    - (Condition: Sin las Pruebas de Fremennik completadas:)
+    - (Condition: Without the Fremennik Trials completed:)
       - **Hamal the Chieftain:** Luego hay un antiguo espíritu de agua que los Fremennik llaman Fossegrimen.
       - (continue)
-    - (Condition: Con las Pruebas de Fremennik completadas:)
+    - (Condition: With the Fremennik Trials completed:)
       - **Player:** Oh, sí, me encontré con él.
       - **Hamal the Chieftain:** ¿Y tú? No aprobamos la caza de Fremennik, los Draugen deben ser dejados en paz, por muy malvados que sean.
       - **Hamal the Chieftain:** ¿Y quizás también te hayas topado con el Fossegrimen?
@@ -70,9 +70,9 @@
     - **Player:** No, no, este no, ¡el del oso! ¡Sabes!
     - **Hamal the Chieftain:** Oh, sí... de hecho, encontramos un casco así dentro de la cueva.
     - **Hamal the Chieftain:** Echamos un vistazo allí después de que mataste la abominación que solía vivir dentro.
-    - (Condition: Sin espacio en backpack:)
+    - (Condition: Without space in backpack:)
       - **Hamal the Chieftain:** Cuando puedas llevarlo, vuelve y te lo daré.
-    - (Condition: Con espacio en backpack:)
+    - (Condition: With space in backpack:)
       - **Hamal the Chieftain:** Toma, tómalo. Debes cuidar esto adecuadamente, los trofeos de tu enemigo son un recuerdo importante.
       - (receives=Bearhead)
       - Recuperas tu casco del hombre oso.

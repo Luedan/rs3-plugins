@@ -14,7 +14,7 @@
 
 #### En mundos gratuitos
 
-- ((el player dice uno de los siguientes al azar:))
+- ((The player says one of the following at random:))
   - *Diálogo 1:*
     - **Player:** Si me acerco a ese camello, probablemente me arrancará la mano de un mordisco.
     - (continue|glare)
@@ -25,7 +25,7 @@
     - **Player:** Me pregunto si ese camello tendrá pulgas...
     - (continue|glare)
 - (Action: El camello hace un ruido.)
-- ((Uno de los siguientes mensajes se reproduce aleatoriamente:))
+- ((One of the following messages plays at random:))
   - *Diálogo 1:*
     - El camello te escupe y saltas hacia atrás apresuradamente.
   - *Diálogo 2:*
@@ -57,7 +57,7 @@
     - **Cam the Camel:** ¡Espero que eso sea lo que querías!
     - **Player:** Ohhh, sí. Hermoso.
   - [Choice]: Di algo desagradable.
-    - ((el player dice uno de los siguientes al azar:))
+    - ((The player says one of the following at random:))
       - *Diálogo 1:*
         - **Player:** Si me acerco a ese camello, probablemente me arrancará la mano de un mordisco.
         - **Cam the Camel:** ¿Qué fue eso?
@@ -88,10 +88,10 @@
 
 #### Recibiendo la caja del rompecabezas
 
-- (Condition: Sin camuleto ni cramulet:)
+- (Condition: Without a camulet or cramulet:)
   - **Cam the Camel:** ¡Grrrrrr!
   - (continue)
-- (Condition: Con camuleto o cramulet:)
+- (Condition: With a camulet or cramulet:)
   - **Cam the Camel:** ¡Aquí está tu caja de rompecabezas!
   - (continue)
 - (receives=puzzle box)
@@ -99,9 +99,9 @@
 
 #### Cuando se vuelve a hablar con él sin resolver el rompecabezas
 
-- (Condition: Sin camuleto ni cramulet:)
+- (Condition: Without a camulet or cramulet:)
   - Cam the Camel no está impresionado.
-- (Condition: Con camuleto o cramulet:)
+- (Condition: With a camulet or cramulet:)
   - **Cam the Camel:** Eso no es exactamente lo que estaba buscando.
 
 #### Cuando se le habla con el rompecabezas resuelto
@@ -114,7 +114,7 @@
   - (removes=the old clue scroll (hard) y caja de rompecabezas) (receives=reward casket (hard))
   - [¡Has encontrado un ataúd!]
   - (continue)
-- (Condition: Sin camuleto ni cramulet:)
+- (Condition: Without a camulet or cramulet:)
   - **Cam the Camel:** ¡Grrronk!
-- (Condition: Con camuleto o cramulet:)
+- (Condition: With a camulet or cramulet:)
   - **Cam the Camel:** ¡Esa es tu recompensa!

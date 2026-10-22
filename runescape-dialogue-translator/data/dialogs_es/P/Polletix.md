@@ -13,7 +13,7 @@
 
 - **Player:** Hola.
 - **Polletix:** Saludos, aventurero.
-- ((Si el player no está en un mundo de miembros:))
+- ((If the player is not on a members world:))
   - (end)
 - Seleccione una opción
   - ¿Quién eres?
@@ -31,7 +31,7 @@
             - **Polletix:** Principalmente, nos ocupamos del área. La vida florece en los lugares más duros... pero a veces necesita un poco de mano.
             - **Polletix:** Envié algunos druidas para intentar investigar si este efecto curativo ha afectado a Gielinor en otros lugares, pero simplemente no tenemos las manos para mantener esta área mientras investigamos otras tierras.
             - **Player:** ¿Hay algo que pueda hacer para ayudar?
-            - ((Si el nivel Farming de el player está por debajo de 50:))
+            - ((If the player's Farming level is below 50:))
               - **Polletix:** No estoy seguro de que tengas las habilidades que necesitamos para esta tarea.
               - Necesitas el nivel 50 Farming para ayudar a Polletix.
             - **Polletix:** Ahora que lo preguntas, nos vendría bien un poco de ayuda adicional.
@@ -64,38 +64,38 @@
             - **Polletix:** No estamos muy seguros todavía, ni siquiera si la curación se limita a esta área.
             - Elige una opción:
               - (continue)
-            - ((Después de seleccionar una de las opciones:))
-              - ((Continúa a continuación con un mensaje en blanco.))
-            - ((Sólo si no has sido seleccionado antes, y sólo después de haber completado El Crepúsculo de los Dioses:))
+            - ((After selecting one of the options:))
+              - ((Continues below with a blank prompt.))
+            - ((Only if not selected before, and only after having completed Twilight of the Gods:))
               - Los Edictos.
                   - **Player:** ¿Podrían haber causado esto los Edictos que se están restableciendo?
                   - **Polletix:** Los Edictos de Guthix están fuera de mi campo de conocimiento, pero si causaron esto, esperaríamos ver eventos similares sucediendo en Gielinor. Los ancianos parecen pensar que Wilderness sería el lugar más probable para mostrar signos de curación, si este fuera el caso.
                   - (continuea|cause)
-            - ((Sólo si no has sido seleccionado antes, y sólo después de haber completado El Crepúsculo de los Dioses:))
+            - ((Only if not selected before, and only after having completed Twilight of the Gods:))
               - Los dioses.
                 - **Player:** ¿Podrían haber causado esto los dioses que fueron desterrados?
                 - **Polletix:** Hmm, es una buena pregunta. Si fuera el caso, esperaríamos que hubiera ocurrido lo mismo cuando Guthix inicialmente desterró a los otros dioses, pero no tenemos escritos que sugieran que Gielinor comenzó a florecer espontáneamente. Sin embargo, no sabemos realmente de qué eran capaces los dioses. Es posible que estuvieran afectando el verdadero equilibrio de Gielinor. Hmm... Me pregunto... Es imposible saber qué estaban realmente haciendo los dioses a puerta cerrada. ¿Podría la curación del desierto ser parte de algún plan maestro, en lugar de un efecto secundario de su destierro?
                 - **Player:** ¿Crees que eso es probable?
                 - **Polletix:** Imposible saberlo realmente, a menos que encontremos una causa diferente.
                 - (continuea|cause)
-            - ((Sólo si no se seleccionó antes:))
+            - ((Only if not selected before:))
               - Es Oasis.
                 - **Player:** ¿Crees que el Oasis de Het podría estar afectando el terreno circundante?
                 - **Polletix:** Esa es mi mejor suposición actualmente. Sin embargo, si encontramos que el efecto curativo no está localizado entonces probablemente lo descarte.
                 - **Polletix:** Además, no estamos seguros de que las aguas del oasis por sí solas puedan curar esta parte del desierto.
                 - **Player:** ¿Qué quieres decir?
                 - **Polletix:** Bueno, de todos los escritos que podemos encontrar, el Kharidian desert está esencialmente muerto. El río Elid es grande y tan limpio como el agua, pero incluso en sus orillas la vida lucha por crecer.
-            - ((Sólo si no se seleccionó antes:))
+            - ((Only if not selected before:))
               - El árbol del equilibrio.
                 - **Player:** ¿Crees que el Árbol del Equilibrio podría estar afectando el área?
                 - **Polletix:** No lo creo. Creo que es más probable que esta área y el árbol tengan la misma causa fundamental.
                 - **Polletix:** Algunos piensan que el árbol es la manifestación de la energía divina de Guthix.
                 - **Polletix:** Es posible que la energía liberada cuando murió Guthix esté afectando al mundo.
                 - (continuea|cause)
-            - ((Sólo que queda más de una opción:))
+            - ((Only with more than one option left:))
               - ¿Qué estás haciendo ahora?
                 - (above|doing)
-            - ((Sólo queda una opción:))
+            - ((With only one option left:))
               - (above|doing)
           - ¡Adiós!
             - **Player:** ¡Está bien, adiós!
@@ -111,7 +111,7 @@
 - **Player:** Hola.
 - **Polletix:** Saludos aventurero.
 - Seleccione una opción
-  - ((Sólo si no fue seleccionado en último lugar:))
+  - ((Only if not selected last:))
     - ¿Cómo te va?
       - **Player:** ¿Cómo va el desierto?
       - **Polletix:** Las cosas están progresando muy bien, aventurero.
@@ -120,7 +120,7 @@
   - ¿Puedo ver la hierba diaria?
     - **Player:** ¿Qué hierba te gustaría que coseche hoy?
     - **Polletix:** Para ayudar a mantener el equilibrio, hoy me gustaría que plantes y coseches: [Herb seed name].
-  - ((Sólo si no se le pregunta "¿Cómo te va?" último:))
+  - ((Only if not asked "How's it going?" last:))
     - ¿Cómo obtengo más favores de Crux Eqal?
       - **Player:** ¿Cómo obtengo el favor de Crux Eqal? Lo he olvidado.
       - **Polletix:** No hay problema. Recibirás un favor cada vez que coseches un huerto de hierbas. Obtendrás un extra por plantar varias semillas en un huerto.

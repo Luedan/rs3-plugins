@@ -11,7 +11,7 @@
 
 ### Occasionally when spawning
 
-- ((Se ve uno de los siguientes:))
+- ((One of the following is seen:))
   - **Ghostly troll thrower:** {{RSChat|Aww, me still spooky.}}
   - **Ghostly troll thrower:** {{RSChat|Dat weird.}}
   - **Ghostly troll thrower:** {{RSChat|Not sure where I went there.}}

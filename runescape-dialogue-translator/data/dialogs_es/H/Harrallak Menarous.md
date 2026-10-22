@@ -93,11 +93,11 @@
     - **Player:** Me siento responsable.
     - **Harrallak Menarous:** Tonterías amigo mío, ambos murieron muy valientemente y sabían a lo que se enfrentaban. Ambos fueron grandes hombres y los recordaré por quiénes fueron y lo que representaron.
     - **Harrallak Menarous:** ¡Tú deberías hacer lo mismo! Estarían encantados de que usted pensara en ellos de esa manera. La vida sigue amigo.
-    - (Condition: Si el player no ha completado el Ritual del Mahjarrat:)
+    - (Condition: If the player has not completed Ritual of the Mahjarrat:)
       - **Player:** ¡Ciertamente recordaré su heroísmo y el tuyo! ¡Pero juro vengarme de Lucien!
       - **Harrallak Menarous:** Estoy bastante de acuerdo contigo, amigo mío. Y si estás dispuesto a enfrentarte a Lucien nuevamente, házmelo saber y estaré orgulloso de luchar a tu lado.
       - (otro)
-    - (Condition: Si el player ha completado el Ritual del Mahjarrat:)
+    - (Condition: If the player has completed Ritual of the Mahjarrat:)
       - **Player:** Al menos el responsable directo de sus muertes ha encontrado su fin. Lucien ya no existe.
       - **Harrallak Menarous:** Bueno, al menos esas son buenas noticias: Lucien ha traído más dolor y sufrimiento al mundo a lo largo de los años de lo que puedo comprender.
       - (otro)

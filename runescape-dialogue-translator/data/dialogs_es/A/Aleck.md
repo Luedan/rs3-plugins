@@ -47,7 +47,7 @@
             - **Aleck:** ¿Quieres que te muestre nuestra gama de equipos o buscabas algo específico?
             - (previous2)
   - [Choice]: Acerca del sistema de tareas...
-    - (Condition: Si el player ha completado las tareas difíciles del conjunto Ardougne y aún no se ha reclamado la recompensa:)
+    - (Condition: If the player has completed the Hard tasks in the Ardougne set and the reward is not yet claimed:)
       - **Player:** He completado todas las tareas difíciles del conjunto Ardougne.
       - **Aleck:** ¡Oh! Así lo has hecho, ¡bien hecho! Tengo una capa preciosa aquí para ti.
       - {{tbox|pic=Ardougne cloak 3 detail.png|pic2=Antique lamp (Hard Ardougne Tasks) detail.png|Aleck hands you a cloak and a lamp.}}
@@ -55,7 +55,7 @@
       - **Player:** ¡Gracias!
       - **Aleck:** De nada.
       - (continue)
-    - (Condition: Si el player ha completado las tareas Elite del conjunto Ardougne y aún no se ha reclamado la recompensa:)
+    - (Condition: If the player has completed the Elite tasks in the Ardougne set and the reward is not yet claimed:)
       - **Player:** He completado todas las tareas de élite del conjunto Ardougne.
       - **Aleck:** ¡Mis más sinceras felicitaciones! Supongo que querrás una recompensa, ¿eh?
       - **Player:** Sí, por favor.
@@ -68,14 +68,14 @@
       - **Player:** ¡Gracias!
       - **Aleck:** De nada.
       - (continue)
-    - (Condition: Si el player ha perdido su Ardougne cloak 3:)
+    - (Condition: If the player has lost their Ardougne cloak 3:)
       - **Aleck:** ¿Cómo está la capa?
       - **Player:** Lo perdí.
       - **Aleck:** ¿En serio? Aquí encontré otro en el almacén.
       - (receives=Ardougne cloak 3)
       - {{tbox|pic=Ardougne cloak 3 detail.png|Aleck hands you another cloak.}}
       - (continue)
-    - (Condition: Si el player ha perdido su Ardougne cloak 4:)
+    - (Condition: If the player has lost their Ardougne cloak 4:)
       - **Aleck:** ¿Cómo está la capa?
       - **Player:** Lo perdí.
       - **Aleck:** ¿En serio? Aquí encontré otro en el almacén.

@@ -57,7 +57,7 @@
 
 #### Recibiendo el pergamino de desafío
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only the first time:)
   - **Valerio:** ¿Estás aquí por el rastro del tesoro?
   - **Player:** ¡Sí, lo soy!
   - **Valerio:** Aquí está tu desafío. ¡Buena suerte!
@@ -68,15 +68,15 @@
 
 - **Valerio:** Ingrese la respuesta a la pregunta.
 - Ingrese la cantidad:<br>[Input field]
-- (Condition: Cuando se le da la respuesta incorrecta:)
+- (Condition: When given the wrong answer:)
   - **Valerio:** ¡No del todo! Ve a mirar de nuevo.
-- (Condition: Cuando se le da la respuesta correcta:)
+- (Condition: When given the correct answer:)
   - (removes=the clue scroll (medium) y gema de desafío (mediano))
-  - (Condition: Si el rastro continúa:)
+  - (Condition: If the trail continues:)
     - (receives=a new clue scroll (medium))
     - [¡Valerio te ha dado otro pergamino de pistas!]
     - (continue)
-  - (Condition: Si el sendero termina:)
+  - (Condition: If the trail ends:)
     - (receives=reward casket (medium))
     - [¡Has encontrado un ataúd!]
     - (continue)

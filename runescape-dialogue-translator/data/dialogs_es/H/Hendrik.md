@@ -28,7 +28,7 @@
     - ''(Si el player dejó caer el cebo de pesca al suelo:)
       - **Hendrik:** ¿No tienes ya algunos? <br>Intenta mirar al suelo.
       - (initial)
-    - (Condition: De lo contrario:)
+    - (Condition: Otherwise:)
       - **Hendrik:** Por supuesto, aquí tienes. Déjame saber si necesitas más.
       - (receives=10 Fishing bait)
       - (initial)

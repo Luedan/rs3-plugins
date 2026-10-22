@@ -73,7 +73,7 @@
 
 #### Gastos generales
 
-- (Condition: Lo siguiente aparece arriba, de forma aleatoria, así como en el chat:)
+- (Condition: The following appear overhead, randomly, as well as in the chat:)
   - {{Colour: {{Colour|#99FF99|Great shot.}}}}
   - {{Colour: {{Colour|#99FF99|Let the cold air fill your bones!}}}}
   - {{Colour: {{Colour|#99FF99|Look alive, my snow mages!}}}}

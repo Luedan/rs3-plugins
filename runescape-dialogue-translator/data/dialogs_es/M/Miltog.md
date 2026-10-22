@@ -32,13 +32,13 @@
 ### Overhead dialogue
 
 - {{trandom}}
-  - (Condition: Diálogo 1:)
+  - (Condition: Dialogue 1:)
     - **Miltog:** {{RSChat|Lamps!}}
-  - (Condition: Diálogo 2:)
+  - (Condition: Dialogue 2:)
     - **Miltog:** {{RSChat|Lanterns!}}
-  - (Condition: Diálogo 3:)
+  - (Condition: Dialogue 3:)
     - **Miltog:** {{RSChat|Tinderboxes!}}
-  - (Condition: Diálogo 4:)
+  - (Condition: Dialogue 4:)
     - **Miltog:** {{RSChat|Torches!}}
-  - (Condition: Diálogo 5:)
+  - (Condition: Dialogue 5:)
     - **Miltog:** {{RSChat|Lamp oil!}}

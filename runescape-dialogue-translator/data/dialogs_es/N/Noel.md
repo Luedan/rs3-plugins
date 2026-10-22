@@ -69,23 +69,23 @@
 
 - (removes=multiples of 200 Christmas wrapping paper) (receives=one present for each set of 200 paper)
 - Intercambias papel de regalo navideño [número] y recibes:
-- (Condition: Si se recibieron regalos de Navidad blancos:)
+- (Condition: If white Christmas Presents were received:)
   - [number] x {{Colour}}
   - (continue)
-- (Condition: Si se recibieron regalos de Navidad azules:)
+- (Condition: If blue Christmas Presents were received:)
   - [number] x {{Colour}}
   - (continue)
-- (Condition: Si se recibieron regalos de Navidad morados:)
+- (Condition: If purple Christmas Presents were received:)
   - [number] x {{Colour}}
   - (continue)
-- (Condition: Si se recibieron regalos de Navidad dorados:)
+- (Condition: If gold Christmas Presents were received:)
   - [number] x {{Colour}}
   - (continue)
-- (Condition: Si se recibieron los regalos de Navidad de Santa:)
+- (Condition: If Santa's Christmas Presents were received:)
   - [number] x {{Colour}}
   - (continue)
-- (ventana emergente)
-  - (Ventana emergente: intercambias papel de regalo navideño [número] y recibes:<br>[Each of the above lines that appeared])
+- (pop-up)
+  - (Pop-up: You exchange [number] Christmas wrapping paper and receive:<br>[Each of the above lines that appeared])
 
 #### Después del evento
 
@@ -93,30 +93,30 @@
 
 ### Present info
 
-- ((Lo siguiente se muestra en una interfaz titulada "Información actual":))
+- ((The following is shown in an interface titled "Present Information":))
   - ¡Abre los regalos para obtener botín y tener la oportunidad de ganar premios especiales!
   - [[Archivo:Regalo de Navidad blanca (2025) detail.png
     - [Choice]: Información
       - (opens=White Christmas Present (2025))
-      - (Condition: Al seleccionar "ATRÁS":)
+      - (Condition: When selecting "BACK":)
         - (previous)
   - [[Archivo:Regalo de Navidad azul (2025) detail.png
     - [Choice]: Información
       - (opens=Blue Christmas Present (2025))
-      - (Condition: Al seleccionar "ATRÁS":)
+      - (Condition: When selecting "BACK":)
         - (previous)
   - [[Archivo:Regalo de Navidad morado (2025) detail.png
     - [Choice]: Información
       - (opens=Purple Christmas Present (2025))
-      - (Condition: Al seleccionar "ATRÁS":)
+      - (Condition: When selecting "BACK":)
         - (previous)
   - [[Archivo:Regalo de Navidad dorado (2025) detail.png
     - [Choice]: Información
       - (opens=Gold Christmas Present (2025))
-      - (Condition: Al seleccionar "ATRÁS":)
+      - (Condition: When selecting "BACK":)
         - (previous)
   - [[Archivo:Regalo de Navidad de Papá Noel (2025) detail.png
     - [Choice]: Información
       - (opens=Santa's Christmas Present (2025))
-      - (Condition: Al seleccionar "ATRÁS":)
+      - (Condition: When selecting "BACK":)
         - (previous)

@@ -20,17 +20,17 @@
 - lodestone más cercano: {{Colour|colour=#8FACBB|bg=#071820}}
 - Deformado por las profundidades inferiores, Flesh-hatcher Mhekarnahz lo ve todo.
 - Requisitos
-- ((Se muestra el icono Dungeoneering.))
-- (Condition: Información sobre herramientas para el icono:)
+- ((Dungeoneering icon is shown.))
+- (Condition: Tooltip for the icon:)
   - {{Interface tooltip|You must have level 40 Dungeoneering.}}
 
 ##### Colección
 
-- ((Se abre la interfaz Boss Collection Log para Flesh-hatcher Mhekarnahz.))
+- ((The Boss Collection Log interface for Flesh-hatcher Mhekarnahz opens.))
 
 ##### Logros
 
-- ((Se abre la interfaz de Logros para Flesh-hatcher Mhekarnahz.))
+- ((The Achievements interface for Flesh-hatcher Mhekarnahz opens.))
 
 ### During the fight
 
@@ -53,10 +53,10 @@
 ### Defeating Flesh-hatcher Mhekarnahz
 
 - (Action: el player es transportado a una nueva plataforma con el cadáver de Flesh-hatcher Mhekarnahz.)
-  - (Condition: Si se estableció un nuevo tiempo más rápido:)
+  - (Condition: If a new fastest time was set:)
     - Tiempo de finalización: [time] - ¡Nuevo récord personal! ¡Una mejora de [número] segundos!
     - (continue)
-  - (Condition: Si no se estableció un nuevo tiempo más rápido:)
+  - (Condition: If a new fastest time wasn't set:)
     - {{Colour [time]}}
     - (continue)
 - Has matado a [número] Flesh-hatcher Mhekarnahz.
@@ -64,10 +64,10 @@
 
 ### Looting Flesh-hatcher Mhekarnahz
 
-- ((Se abre la interfaz de recompensa con el título "FLESH-HATCHER MHEKARNAHZ' CORPSE".))
+- ((Reward interface with title "FLESH-HATCHER MHEKARNAHZ' CORPSE" opens.))
 
 ### Attempting to loot again after looting
 
 - El cadáver está vacío.
-- (ventana emergente)
-  - (Ventana emergente: el cadáver está vacío).
+- (pop-up)
+  - (Pop-up: The corpse is empty.)

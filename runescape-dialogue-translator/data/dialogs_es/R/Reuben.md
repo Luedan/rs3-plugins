@@ -42,7 +42,7 @@
 - **Reuben:** ¿Qué estabas haciendo ahí fuera? ¿Estás herido? ¿Por qué no volviste a casa?
 - **Tali:** Yo-
 - **Tali:** Lo siento, papá. Sólo quería ir a algún lugar donde pudiera recordar los buenos tiempos. Lejos de todo esto... miseria. Pero perdí mi equipo y...
-- ((Tali suspira.))
+- ((Tali sighs.))
 - **Reuben:** Lo entiendo. Sí. Pero no es seguro deambular solo por el bosque. Incluso Adam no lo haría-
 - **Tali:** ¡Lo sé!
 - **Tali:** Lo sé...

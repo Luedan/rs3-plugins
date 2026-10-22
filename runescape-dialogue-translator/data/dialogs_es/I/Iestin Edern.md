@@ -35,20 +35,20 @@
     - **Lord Iorwerth:** No, nada tan básico.
     - **Lord Iorwerth:** Todos mis amables deseos de poder regresar a casa. Desde que nos quitaron la Puerta del Mundo hemos estado varados aquí.
     - **Lord Iorwerth:** Si a los Iorwerth se les hubiera dado permiso para viajar más allá del bosque, podríamos haber evitado que eso sucediera, o haber salvado a los de nuestra especie de lo que les sucedió al Rey Baxtorian y a la Reina Glarial.
-    - (Condition: Después de El destino de los dioses pero antes de La luz interior:)
+    - (Condition: After Fate of the Gods but before The Light Within:)
       - **Player:** Sabes que la Puerta del Mundo ha sido redescubierta, ¿verdad?
       - **Lord Iorwerth:** Eso me dice Morvran, nada menos que por ti. ¡Es el hallazgo arqueológico del siglo!
       - **Lord Iorwerth:** Todavía no podemos usarlo para regresar a casa, aunque hay esperanzas renovadas.
       - (continue)
-    - (Condition: Después de la luz interior:)
+    - (Condition: After The Light Within:)
       - **Player:** ¿Te das cuenta de que he viajado a Tarddiad, verdad?
       - **Lord Iorwerth:** De hecho. Hay discusiones entre nuestro clan sobre que ahora podría ser el momento de regresar.
       - **Lord Iorwerth:** Aunque es posible que sea necesario... tratar con... la población nativa primero.
-      - (Condition: Sin el Memoriam crystal 06 en backpack o banco:)
+      - (Condition: Without the Memoriam crystal 06 in backpack or bank:)
         - (receives=Memoriam crystal 06)
         - {{Transcript missing}}
         - (continue)
-      - (Condition: Con el Memoriam crystal 06 en backpack o banco:)
+      - (Condition: With the Memoriam crystal 06 in backpack or bank:)
         - Ya has recogido ese recuerdo.
         - (continue)
     - **Lord Iorwerth:** Para empeorar las cosas, Seren nos abandonó. ¿Qué íbamos a hacer?
@@ -98,11 +98,11 @@
 
 #### Cuando se vuelve a hablar con él sin resolver el rompecabezas
 
-- (Condition: Si el rastro continúa:)
+- (Condition: If the trail continues:)
   - (removes=the old clue scroll (hard) y caja de rompecabezas) (receives= the new clue scroll (hard))
   - [¡Lord Iorwerth te ha dado otro pergamino de pistas!]
   - (continue)
-- (Condition: Si el sendero termina:)
+- (Condition: If the trail ends:)
   - (removes=the old clue scroll (hard) y caja de rompecabezas) (receives=reward casket (hard))
   - [¡Has encontrado un ataúd!]
   - (continue)

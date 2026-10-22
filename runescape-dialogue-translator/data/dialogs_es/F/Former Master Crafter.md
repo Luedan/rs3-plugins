@@ -11,7 +11,7 @@
 
 ### Wearing a bedsheet or ectoplasm-covered bedsheet
 
-- ((Se elegirá al azar uno de los siguientes:))
+- ((One of the following will be chosen at random:))
   - **Former Master Crafter:** ¡Cómo te atreves a hacer semejante burla!
   - **Former Master Crafter:** ¿Es esta tu idea del humor?
   - **Former Master Crafter:** Esta conversación puede continuar después de que te quites ese ridículo atuendo.
@@ -26,7 +26,7 @@
 - [Menu]: ¿Qué te gustaría decir?
   - [Choice]: cond=If the player has at least one uncut moonstone or moonstone and has not learned how to craft moonstone jewellery:|Pregunta por las piedras lunares.
     - **Player:** He encontrado esta joya.
-    - (Condition: Si el player no tiene un delantal marrón equipado:)
+    - (Condition: If the player doesn't have a brown apron equipped:)
       - **Former Master Crafter:** Me temo que si quieres hablar de negocios, necesitarás un delantal marrón.
       - **Player:** ¿Qué sentido tiene eso?
       - **Player:** ¿Tengo que usar un delantal solo para hablar contigo?
@@ -34,14 +34,14 @@
       - **Former Master Crafter:** Parece que el lugar ha perdido su integridad desde que me fui.
       - **Former Master Crafter:** Las reglas son reglas: sin delantal, sin ayuda para hacer manualidades.
       - El master crafter vuelve a lo que estaba haciendo.
-    - (Condition: Si el player tiene un delantal marrón equipado con una anulación diferente en:)
+    - (Condition: If the player has a brown apron equipped with a different override on:)
       - **Former Master Crafter:** Me temo que si quieres hablar de negocios, necesitarás un delantal marrón.
       - **Player:** ¿Llevo un delantal marrón?
       - El master crafter mira lo que llevas puesto.
       - **Former Master Crafter:** No me lo parece.
       - **Former Master Crafter:** Si quieres hablar sobre manualidades, necesitarás un delantal marrón.
       - El master crafter vuelve a lo que estaba haciendo.
-    - (Condition: Si el player tiene un delantal marrón equipado sin nada que lo anule:)
+    - (Condition: If the player has a brown apron equipped without anything overriding it:)
       - **Former Master Crafter:** Muy bien, déjame echar un vistazo.
       - [Le muestras al master crafter la piedra lunar.]
       - **Former Master Crafter:** Mmm...
@@ -52,12 +52,12 @@
       - **Former Master Crafter:** Sí, tendrías razón.
       - **Former Master Crafter:** Nunca he trabajado con eso, pero tengo un libro por aquí.
       - **Former Master Crafter:** Oso con...
-      - ((Pausa en el diálogo.))
+      - ((Pause in dialogue.))
       - **Former Master Crafter:** Un momento...
-      - ((Pausa en el diálogo.))
+      - ((Pause in dialogue.))
       - **Former Master Crafter:** ¡Ajá! "Mighty Minerals Volumen dos". Me temo que está un poco destrozado.
       - **Former Master Crafter:** Déjame buscar la página...
-      - ((Pausa en el diálogo.))
+      - ((Pause in dialogue.))
       - **Former Master Crafter:** Piedra lunar...piedra lunar...
       - **Former Master Crafter:** ¿De qué color era?
       - **Player:** Como un verde azulado.
@@ -77,7 +77,7 @@
       - **Former Master Crafter:** Muy bien, volveré a hacer mi gólem de poción.
       - **Player:** ¡Adiós!
   - [Choice]: cond=After having talked to Ramarno about upgrading their Pickaxe of Song and Earth and before having learned about the ensoul moonstone ritual:|Pregunta por las piedras lunares.
-    - (Condition: Sin llevar delantal marrón:)
+    - (Condition: Without wearing a brown apron:)
       - **Former Master Crafter:** Me temo que si quieres hablar de negocios, necesitarás un delantal marrón.
       - **Player:** ¿Qué sentido tiene eso?
       - **Player:** ¿Tengo que usar un delantal solo para hablar contigo?
@@ -85,15 +85,15 @@
       - **Former Master Crafter:** Parece que el lugar ha perdido su integridad desde que me fui.
       - **Former Master Crafter:** Las reglas son reglas: sin delantal, sin ayuda para hacer manualidades.
       - El master crafter vuelve a lo que estaba haciendo.
-    - (Condition: Usando un delantal marrón:)
-      - (Condition: Con una anulación para la ranura del torso activa:)
+    - (Condition: Wearing a brown apron:)
+      - (Condition: With an override for the torso slot active:)
         - **Former Master Crafter:** Me temo que si quieres hablar de negocios, necesitarás un delantal marrón.
         - **Player:** ¿Llevo un delantal marrón?
         - El master crafter mira lo que llevas puesto.
         - **Former Master Crafter:** No me lo parece.
         - **Former Master Crafter:** Si quieres hablar sobre manualidades, necesitarás un delantal marrón.
         - El master crafter vuelve a lo que estaba haciendo.
-      - (Condition: Sin anulación de la ranura del torso activa:)
+      - (Condition: Without an override for the torso slot active:)
         - **Player:** Necesito obtener una piedra lunar imbuida del poder del inframundo. ¿Conoces tal práctica?
         - **Former Master Crafter:** Mmm... me suena.<br>Consultaré el manual.
         - [El former master crafter produce una vez más 'Mighty Minerals Volume Two' desde un escondite que es mejor dejar inexplorado.]

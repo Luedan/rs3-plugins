@@ -11,7 +11,7 @@
 
 ### Occasionally when spawning
 
-- ((Se ve uno de los siguientes:))
+- ((One of the following is seen:))
   - **Ghostly troll bruiser:** {{RSChat|Aww, me still spooky.}}
   - **Ghostly troll bruiser:** {{RSChat|Dat weird.}}
   - **Ghostly troll bruiser:** {{RSChat|Not sure where I went there.}}

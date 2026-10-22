@@ -180,7 +180,7 @@
 
 #### Habla con
 
-- ((Sólo la primera vez:))
+- ((Only on the first time:))
   - **Frank:** ¡Ah, es Player! La muerte me dijo que visitarías la ciudad. ¡Bienvenido!
   - **Frank:** Soy Frank. Se podría decir que soy el propio aprendiz de la Muerte, ja. Perdón si nos conocemos antes, veo muchas caras y calaveras. Es difícil seguir la pista.
   - **Player:** ¡Hola! ¿Qué haces aquí, Frank?
@@ -188,46 +188,46 @@
   - **Frank:** También realizo un censo de vez en cuando y registro todos los cambios en la ciudad, para saber qué servicios tenemos disponibles en un momento dado.
   - **Frank:** Hablando de eso, acabamos de recibir un montón de recién llegados. Están todos en el pub para tomar sus bebidas de bienvenida.
   - 2 almas vuelan para impulsar el barco.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - 2 almas vuelan para impulsar el barco.
     - (continue)
   - **Frank:** Deberías pasar y presentarte, si aún no lo has hecho. Podrían haber nuevos reclutas para nuestra causa mutua.
   - (continue|choose)
-- ((Sólo después de la primera vez:))
+- ((Only after the first time:))
   - **Frank:** ¡Hola de nuevo!
   - (continue|choose)
 - **Elige una opción:**
   - [Choice]: ¿Quién eres?
     - (above|Who-are-you?)
   - [Choice]: Muéstrame las tareas medianas de Underworld que puedo hacer.
-    - ((Si el player puede abrir interfaces:))
+    - ((If the player can open interfaces:))
       - (opens=Underworld Set Tasks - Medium)
-    - ((Si el player no puede abrir interfaces:))
+    - ((If the player can't open interfaces:))
       - No puedes hacer eso ahora mismo.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - No puedes hacer eso ahora mismo.
   - [Choice]: ¿Puedo reclamar alguna recompensa de usted?
-    - ((Si el player no ha completado ninguna tarea, o ha completado el conjunto medio y todavía tiene su Underworld Grimoire 2:))
+    - ((If the player has not completed any tasks, or has completed the medium set and still has their Underworld Grimoire 2:))
       - **Frank:** ¡No tienes ninguna recompensa que reclamar!
-    - ((Si se ha completado el conjunto de tareas medianas y no se han reclamado las recompensas:))
+    - ((If the medium task set has been completed and the rewards have not been claimed:))
       - **Player:** He completado todas las tareas del conjunto de tareas mediano de Underworld.
       - **Frank:** Bien hecho Player, he reservado algunas recompensas para ti.
       - **Frank:** Lupe también acordó proporcionarte un suministro diario de huesos de dragón bebé, tinta fantasmal regular y velas rituales regulares en reconocimiento a tus esfuerzos.
-      - ((Sin dos espacios backpack libres:))
+      - ((Without two free backpack spaces:))
         - **Frank:** Me temo que no tienes suficiente espacio backpack para reclamar todas tus recompensas. Hablame de nuevo cuando tengas 2 espacios.
-      - ((Con dos espacios backpack gratuitos:))
+      - ((With two free backpack spaces:))
         - (removes=the Underworld Grimoire 1) (receives=an antique lamp and the Underworld Grimoire 2)
         - [¡Recibirás algunas recompensas por completar el conjunto de tareas mediano de Underworld!]
         - **Frank:** Ahí lo tienes, parece que eso es todo.
-    - ((Después de haber recibido las recompensas del conjunto de tareas medianas pero haber perdido Underworld Grimoire 2:))
+    - ((After having received the medium task set rewards but having lost Underworld Grimoire 2:))
       - **Player:** Perdí el Underworld Grimoire 2, me tienes...
-      - ((Sin espacio en backpack:))
+      - ((Without space in backpack:))
         - **Frank:** Parece que no tienes espacio para uno nuevo, vuelve conmigo cuando lo tengas.
-      - ((Con espacio en backpack:))
+      - ((With space in backpack:))
         - **Frank:** Por suerte para ti, tengo uno de repuesto. Cuida mejor este.
         - (receives=Underworld Grimoire 2)
         - [Te entregan otro Underworld Grimoire 2.]
-      - ((Si ya se han reclamado recompensas por conjuntos de tareas antes del 14 de agosto de 2023, se repetirán para cada lámpara:))
+      - ((If any task set rewards have already been claimed before 14 August 2023, repeated for every lamp:))
         - **Frank:** Parece que tengo una lámpara extra para ti. ¡Aquí tienes!
         - (receives=an antique lamp (Easy Underworld Tasks) o lámpara antigua (Tareas Medianas del Inframundo))
   - [Choice]: Pregunta por el Sistema de Tareas.
@@ -280,37 +280,37 @@
               - [Choice]: No
                 - **Player:** No, gracias.
           - [Choice]: cond=With Underworld Grimoire 3 unlocked:|Grimorio del inframundo 3
-            - (Condition: Sin espacio libre en backpack:)
+            - (Condition: Without free space in backpack:)
               - **Frank:** Necesitarás espacio en tu inventario.
-            - (Condition: Con espacio libre en backpack:)
+            - (Condition: With free space in backpack:)
               - **Frank:** ¿Grimorio del inframundo 3? Sí, pero me temo que te costaría 25.000 coins.
               - [Menu]: ¿Comprar otro por 25.000 coins?
                 - [Choice]: si
-                  - (Condition: Sin 25.000 coins:)
+                  - (Condition: Without 25,000 coins:)
                     - No puedes permitirte eso.
-                    - ((Repetido en una ventana emergente:))
+                    - ((Repeated in a pop-up:))
                       - No puedes permitirte eso.
                       - (continue)
                     - **Frank:** Sin embargo, no parece que puedas permitírtelo en este momento. Vuelve conmigo cuando puedas.
-                  - (Condition: Con 25.000 coins:)
+                  - (Condition: With 25,000 coins:)
                     - (removes=25,000 coins) (receives=Underworld Grimoire 3)
                     - [Te entregan otro Underworld Grimoire 3.]
                 - [Choice]: No
                   - **Player:** No, gracias.
           - [Choice]: cond=Having unlocked Underworld Grimoire 4:|Grimorio del inframundo 4
-            - (Condition: Sin espacio libre en backpack:)
+            - (Condition: Without free space in backpack:)
               - **Frank:** Necesitarás espacio en tu inventario.
-            - (Condition: Con espacio libre en backpack:)
+            - (Condition: With free space in backpack:)
               - **Frank:** ¿Grimorio del inframundo 4? Sí, pero me temo que te costaría 50.000 coins.
               - [Menu]: ¿Comprar otro por 50.000 coins?
                 - [Choice]: si
-                  - (Condition: Sin 50.000 coins:)
+                  - (Condition: Without 50,000 coins:)
                     - No puedes permitirte eso.
-                    - ((Repetido en una ventana emergente:))
+                    - ((Repeated in a pop-up:))
                       - No puedes permitirte eso.
                       - (continue)
                     - **Frank:** Sin embargo, no parece que puedas permitírtelo en este momento. Vuelve conmigo cuando puedas.
-                  - (Condition: Con 50.000 coins:)
+                  - (Condition: With 50,000 coins:)
                     - (removes=50,000 coins) (receives=Underworld Grimoire 4)
                     - [Te entregan otro Underworld Grimoire 4.]
                 - [Choice]: No
@@ -330,7 +330,7 @@
 ##### Si el player no puede abrir interfaces
 
 - No puedes hacer eso ahora mismo.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - No puedes hacer eso ahora mismo.
 
 #### Descripción general del conjunto de tareas
@@ -343,5 +343,5 @@
 ##### Si el player no puede abrir interfaces
 
 - No puedes hacer eso ahora mismo.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - No puedes hacer eso ahora mismo.

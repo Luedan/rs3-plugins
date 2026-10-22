@@ -12,7 +12,7 @@
 ### In Varrock
 
 - **Curator Haig Halen:** ¡Bienvenido al Museo Varrock!
-- (Condition: Si el player habla con Curator Haig Halen por primera vez desde que obtuvo al menos 50 felicitaciones:)
+- (Condition: If the player is speaking to Curator Haig Halen for the first time since achieving at least 50 kudos:)
   - {{RSFontAchievement|It Belongs in a Museum}}
   - (continue)
 - [Menu]: Selecciona una opción
@@ -22,9 +22,9 @@
     - **Player:** ¿Ah? Eso suena interesante.
     - **Curator Haig Halen:** De hecho. Estamos buscando arqueólogos calificados para viajar allí y ayudar en la expedición.
     - **Player:** ¿Calificaría?
-    - (Condition: Si el player tiene menos de 100 felicitaciones:)
+    - (Condition: If the player has less than 100 kudos:)
       - **Curator Haig Halen:** Aunque no es necesariamente un requisito previo, es posible que también quieras considerar ayudar más aquí en el Museo Varrock.
-    - (Condition: Si el player tiene al menos 100 felicitaciones:)
+    - (Condition: If the player has at least 100 kudos:)
       - **Curator Haig Halen:** Ciertamente has hecho mucho para ayudar al Museo Varrock, por lo que sería una tontería no pedirte tu experiencia.
       - **Player:** Gracias. ¡Lo esperaré con ansias!
     - (Si el player no ha realizado la misión del sitio de excavación)
@@ -39,10 +39,10 @@
   - [Choice]: Habla del maestro quest cape.
     - **Player:** Noté que has adquirido una capa nueva.
     - **Curator Haig Halen:** ¿Oh, esto? El diseño fue donado al museo como símbolo del espíritu de aventura y la búsqueda del conocimiento. ¿Quieres comprar uno?
-    - (Condition: Si el player no cumple con los requisitos:)
+    - (Condition: If the player does not meet the requirements:)
       - No puedes equiparlo porque no has completado el logro Maestro Quest Cape. Consulte la pestaña Logros para ver lo que le queda por lograr.
       - **Curator Haig Halen:** Pensándolo bien, aún te quedan muchas cosas por ver. Supongo que lo conservaré por ahora.
-    - (Condition: Si el player cumple con los requisitos:)
+    - (Condition: If the player meets the requirements:)
       - [Menu]: ¿Qué te gustaría decir?
         - [Choice]: Paga los 120.000.
           - **Player:** Eso suena justo.

@@ -58,7 +58,7 @@
   - *Si tienes el nivel 99 Ranged*
     - ¿Puedo comprar un Ranged skillcape?
       - **Armour salesman:** Tus ojos son todo lo que necesito saber. 99.000 coins y la capa es tuya.
-      - (Condition: Con un token inverted skillcape o un token maestro skillcape invertido para Ranged:)
+      - (Condition: With an inverted skillcape token or an inverted master skillcape token for Ranged:)
         - **Armour salesman:** ¡Veo que tienes una de las fichas de inversión de capa de Hans! Te quitaré eso de las manos y te venderé cualquier inverted cape para el que seas elegible.
         - (removes=any inverted skillcape token and inverted master skillcape token)
         - (continue)
@@ -69,13 +69,13 @@
           - (Action: Le das al Armour salesman 99,000 coins, y el skillcape y la campana se colocan en tu inventario.)
           - **Armour salesman:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
         - [Choice]: cond=With inverted Ranged cape unlocked:|Me gustaría un skillcape con los colores invertidos.
-          - (Condition: Sin 99.000 coins:)
+          - (Condition: Without 99,000 coins:)
             - **Player:** Pero, desafortunadamente, no tengo suficiente coins.
             - **Armour salesman:** Bueno, vuelve a verme cuando lo hagas.
-          - (Condition: Con 99.000 coins:)
-            - (Condition: Sin espacio libre backpack:)
+          - (Condition: With 99,000 coins:)
+            - (Condition: Without free backpack space:)
               - **Armour salesman:** Desafortunadamente necesitarás liberar espacio en backpack antes de que pueda venderte uno.
-            - (Condition: Con espacio gratuito backpack:)
+            - (Condition: With free backpack space:)
               - (removes=99,000 coins (from money pouch if not in backpack)) (receives=inverted Ranged cape variant depending on their skill masteries)
               - **Armour salesman:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
         - [Choice]: cond=With virtual 120 Ranged:|He dominado esta habilidad. ¿Hay algo más?
@@ -85,14 +85,14 @@
           - **Armour salesman:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Ranged master cape.
           - [Menu]: ¿COMPRAR MASTER CAPE A RANGO POR 120.000 COINS?
             - [Choice]: Sí.
-              - (Condition: Sin espacio backpack:)
+              - (Condition: Without backpack space:)
                 - **Armour salesman:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
-              - (Condition: Con espacio backpack:)
-                - (Condition: Sin 120.000 coins:)
+              - (Condition: With backpack space:)
+                - (Condition: Without 120,000 coins:)
                   - No tienes suficiente dinero para comprar esta capa.
-                    - ((Repetido en una ventana emergente:))
+                    - ((Repeated in a pop-up:))
                       - No tienes suficiente dinero para comprar esta capa.
-                - (Condition: Con 120.000 coins:)
+                - (Condition: With 120,000 coins:)
                   - (removes=120,000 coins (from money pouch if not in backpack)) (receives=Ranged master cape)
             - [Choice]: No.
               - (end)
@@ -103,14 +103,14 @@
           - **Armour salesman:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Ranged master cape.
           - [Menu]: ¿Comprar Ranged master cape por 120.000 coins?
             - [Choice]: Sí.
-              - (Condition: Sin espacio libre backpack:)
+              - (Condition: Without free backpack space:)
                 - **Armour salesman:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
-              - (Condition: Con espacio gratuito backpack:)
-                - (Condition: Sin 120.000 coins:)
+              - (Condition: With free backpack space:)
+                - (Condition: Without 120,000 coins:)
                   - No tienes suficiente dinero para comprar esta capa.
-                  - (ventana emergente)
-                    - (Ventana emergente: No tienes suficiente dinero para comprar esta capa.|advertencia=yes)
-                - (Condition: Con 120.000 coins:)
+                  - (pop-up)
+                    - (Pop-up: You do not have enough money to purchase this cape.|warning=yes)
+                - (Condition: With 120,000 coins:)
                   - (removes=120,000 coins (from money pouch if not in backpack)) (receives=inverted Ranged master cape)
             - [Choice]: No.
               - (end)

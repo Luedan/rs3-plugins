@@ -27,13 +27,13 @@
 
 - **Player:** He perdido mi amuleto encantado de Catspeak.
 - **Hild:** Esto se puede rectificar, simplemente tráeme otro Amuleto de Hablagato y cinco runas de muerte y te lo encantaré.
-- (Condition: Si el player no tiene cinco o más runas de muerte:)
+- (Condition: If the player does not have five or more death runes:)
   - **Player:** No tengo las cinco runas de la muerte conmigo.
   - **Hild:** Vuelve conmigo cuando los tengas.
-- (Condition: Si el player tiene cinco runas de muerte pero no el amuleto de lengua de gato:)
+- (Condition: If the player has five death runes but not the catspeak amulet:)
   - **Player:** Tengo las runas pero no tengo el amuleto.
   - **Hild:** Tráeme el amuleto y te lo encantaré.
-- (Condition: Si el player tiene cinco runas de muerte y el amuleto de lengua de gato:)
+- (Condition: If the player has both five death runes and the catspeak amulet:)
   - **Player:** Ahora tengo las runas de la muerte conmigo.
   - **Hild:** Bien. Dame el amuleto para que pueda realizar el encantamiento.
   - [Le pasas a Hild el amuleto.]

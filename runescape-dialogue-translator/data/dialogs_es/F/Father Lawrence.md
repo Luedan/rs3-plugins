@@ -13,10 +13,10 @@
 
 - **Father Lawrence:** Oh, ser padre en los tiempos del whisky.
 - **Father Lawrence:** Canto, bebo y me despierto en las alcantarillas.
-- ((Father Lawrence continúa con uno de los siguientes al azar:))
-  - ((Diálogo 1:))
+- ((Father Lawrence continues with one of the following at random:))
+  - ((Dialogue 1:))
     - **Father Lawrence:** Lo mejor de la mañana para ti.
-  - ((Diálogo 2:))
+  - ((Dialogue 2:))
     - **Father Lawrence:** Errar es humano, perdonar, bastante difícil.
     - **Father Lawrence:** Necesito pensar en beber.
 

@@ -23,18 +23,18 @@
 - [Menu]: Selecciona una opción
   - [Choice]: Claro, compraré uno.
     - **Player:** Claro, compraré uno.
-    - (Condition: Con un hielo de chimpancé ya en backpack:)
+    - (Condition: With a chimp ice already in backpack:)
       - **Chimp ice chimp:** Ya tienes un hielo de chimpancé. No seas codicioso.
-    - (Condition: Sin hielo de chimpancé en backpack:)
+    - (Condition: Without a chimp ice in backpack:)
       - **Chimp ice chimp:** Serán 100 coins.
-      - (Condition: Sin espacio en backpack:)
+      - (Condition: Without space in backpack:)
         - **Chimp ice chimp:** No tienes espacio para llevar hielo a un chimpancé.
-      - (Condition: Sin suficiente dinero:)
+      - (Condition: Without enough money:)
         - No puedes permitirte eso.
         - **Chimp ice chimp:** No tienes suficiente.
-      - (Condition: Con suficiente dinero, y con espacio en backpack:)
+      - (Condition: With enough money, and with space in backpack:)
         - (removes=100 coins) (receives=chimp ice)
-        - (Condition: Si se trata de una entrega número 5, 10, 15, etc.:)
+        - (Condition: If this is a 5th, 10th, 15th, etc delivery:)
           - **Chimp ice chimp:** Me lo comería muy rápido. Lo dejé al sol.
   - [Choice]: ¿Cómo va el negocio?
     - **Player:** ¿Cómo va el negocio?

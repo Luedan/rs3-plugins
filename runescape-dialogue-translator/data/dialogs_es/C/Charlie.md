@@ -21,13 +21,13 @@
 - **Charlie:** Sí, ejem, ¡bienvenido al zoológico! Me temo que estoy un poco ocupado en este momento; ¿Qué era lo que querías?
 - [Menu]: Selecciona una opción
   - [Choice]: ¡Ah, suenas como alguien que necesita una misión!
-    - (Condition: Si el player está por debajo del nivel 27 en Hunter:)
+    - (Condition: If the player is below level 27 in Hunter:)
       - **Charlie:** Bueno... tal vez. ¿Cuánto sabes sobre la caza?
       - **Player:** Bueno, sé un poco...
       - **Charlie:** No, me vendría bien un poco de ayuda, pero me temo que necesito a alguien con un poco más de experiencia.
       - Misión [Eagles' Peak].}}
       - (initial)
-    - (Condition: Si el player es de nivel 27 o superior en Hunter:)
+    - (Condition: If the player is level 27 or above in Hunter:)
       - (ver|Pico de las Águilas#Comenzando)
   - [Choice]: ¿De dónde sacaste los animales?
     - **Charlie:** ¡Los recibimos de todas partes! Los exploradores han traído las criaturas más exóticas y nos las han vendido.
@@ -47,21 +47,21 @@
 - **Charlie:** De hecho, tengo uno de los huevos aquí mismo.
 - **Charlie:** El amable compañero que lo dejó dijo que alguien vendría a buscarlo. Aquí tienes.
 - [Charlie te entrega el huevo de oro.]
-- (Condition: Sin espacio backpack para un cofre de recompensa navideña durante la búsqueda de huevos de 2026:)
+- (Condition: Without backpack space for a holiday reward casket during the 2026 egg hunt:)
   - Necesitas al menos 1 espacio en tu backpack antes de reclamar este huevo de oro.
-  - (ventana emergente)
-    - (Ventana emergente: necesitas al menos 1 espacio en tu backpack antes de reclamar este huevo de oro.|advertencia=yes)
+  - (pop-up)
+    - (Pop-up: You need at least 1 space in your backpack before claiming this golden egg.|warning=yes)
     - (continue)
-- (Condition: Con espacio gratuito en backpack para un cofre de recompensa navideña durante la búsqueda de huevos de 2026 o durante la búsqueda de huevos de 2025:)
+- (Condition: With free backpack space for a holiday reward casket during the 2026 egg hunt or during the 2025 egg hunt:)
   - ¡Encontraste un huevo de oro!
-  - (ventana emergente)
-    - (Ventana emergente: ¡Encontraste un huevo de oro!|color=#00FF00)
+  - (pop-up)
+    - (Pop-up: You found a golden egg!|colour=#00FF00)
     - (continue)
-  - (Condition: Sólo durante la búsqueda de huevos de 2025:)
+  - (Condition: During the 2025 egg hunt only:)
     - Se ha agregado lo siguiente a su bolsa de divisas: 2 x puntos Egg.
     - Se ha agregado lo siguiente a su bolsa de divisas: 10 x Puntos Treasure Trail.
     - (continue)
-  - (Condition: Sólo durante la búsqueda de huevos de 2026:)
+  - (Condition: During the 2026 egg hunt only:)
     - (receives=holiday reward casket)
     - Se ha agregado lo siguiente a su bolsa de divisas: 10 x Puntos Treasure Trail.
     - Se ha agregado lo siguiente a su bolsa de divisas: 200 x fichas de primavera.

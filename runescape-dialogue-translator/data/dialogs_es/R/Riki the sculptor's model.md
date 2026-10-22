@@ -39,11 +39,11 @@
 
 #### Cuando se vuelve a hablar con él sin resolver el rompecabezas
 
-- (Condition: Si el rastro continúa:)
+- (Condition: If the trail continues:)
   - (removes=the old clue scroll (hard) y caja de rompecabezas) (receives= the new clue scroll (hard))
   - [¡Riki te ha dado otro pergamino de pistas!]
   - (continue)
-- (Condition: Si el sendero termina:)
+- (Condition: If the trail ends:)
   - (removes=the old clue scroll (hard) y caja de rompecabezas) (receives=reward casket (hard))
   - [¡Has encontrado un ataúd!]
   - (continue)

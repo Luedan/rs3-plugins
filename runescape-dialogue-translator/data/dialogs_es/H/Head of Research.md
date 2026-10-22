@@ -18,7 +18,7 @@
     - **Player:** ¿Qué haces aquí?
     - **Head of Research:** Administro a los investigadores y me aseguro de que estemos en el campo con frecuencia para mantenernos actualizados con nuestra historia.
     - (previous|Options)
-  - ((Si ha completado el tutorial de investigación:))
+  - ((If you have completed the research tutorial:))
     - Preguntar por la gestión de la investigación.
       - Seleccione una opción
         - ¿Puedes decirme de qué se trata la investigación?

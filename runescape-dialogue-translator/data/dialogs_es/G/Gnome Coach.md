@@ -138,11 +138,11 @@
   - **Gnome Coach:** ¿Cómo puede ser eso? ¡Ve a comprobarlo de nuevo!
 - ''(Cuando se le da la respuesta correcta:)
   - (removes=the challenge scroll and the old clue scroll (hard))
-  - ((Si el rastro continúa:))
+  - ((If the trail continues:))
     - (receives=a new clue scroll (hard))
     - [¡El entrenador te ha dado otro pergamino de pistas!]
     - (continue)
-  - ((Si el sendero termina:))
+  - ((If the trail ends:))
     - (receives=reward casket (hard))
     - [¡Has encontrado un ataúd!]
     - (continue)

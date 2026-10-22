@@ -69,10 +69,10 @@
   - [Choice]: ¿Cómo llegaste a ser asesor de King Roald?
     - (above|advisor)
   - [Choice]: ¿Qué está pasando en el reino?
-    - (Condition: Después de la Batalla de Lumbridge:)
+    - (Condition: After the Battle of Lumbridge:)
       - **Aeonisig Raispher:** El reino todavía se está recuperando de la reciente batalla de Lumbridge. Todavía puedes encontrar el campo de batalla al oeste del castillo.
       - **Aeonisig Raispher:** ¡Fue allí donde Saradomin obtuvo una gloriosa victoria sobre Zamorak y lo derribó!
-    - (Condition: Durante la Batalla de Lumbridge:)
+    - (Condition: During the Battle of Lumbridge:)
       - **Aeonisig Raispher:** Lumbridge está en un momento de problemas con la invasión de Zamorak. ¡Ha destruido la mitad de la ciudad!
       - **Aeonisig Raispher:**Afortunadamente, Saradomin también regresó con nosotros y estuvo allí para salvarnos a todos. Están peleando ahora mismo.
 

@@ -13,7 +13,7 @@
 
 - **Harmony pillar farmer:** ¡Bienvenido al hogar de los mayores secretos del Clan Meilyr para hacer pociones!
 - **Harmony pillar farmer:** Compartimos conocimientos libremente entre nosotros. Los forasteros, sin embargo, deben comerciar.
-- (Condition: Sólo la primera vez:)
+- (Condition: Only on the first time:)
   - **Harmony pillar farmer:** Antes de continuar, tenemos algunos de nuestros propios conocimientos para compartir con usted.
   - **Harmony pillar farmer:** Dentro de las antiguas tierras (tu gente se refiere a ellas como Daemonheim), el conocimiento del pasado de nuestro clan permanece fuera de nuestro alcance.
   - **Harmony pillar farmer:** Nuestro clan ha adquirido recientemente los medios para traducir la antigua lengua élfica. Si encuentra algo que parezca coincidir con esto en sus viajes, tráiganoslo y compartiremos este conocimiento.
@@ -38,9 +38,9 @@
     - <span style="display: inline-block; text-align: center;">Los pilares de armonía no crecen como los parches agrícolas normales.<br><br>Debes ganar 50 000 XP en la habilidad con la que estás en sintonía para avanzar en una etapa de crecimiento. Un pilar tiene 4 etapas de crecimiento.</span>
     - (previous)
   - [Choice]: How much harmony moss have I harvested?|cond=Después de haber preguntado sobre los pilares al menos una vez antes:
-    - (Condition: Si es menor o igual a 50 musgo:)
+    - (Condition: If less than or equal to 50 moss:)
       - **Harmony pillar farmer:** Hmm, ¿cuál era el nombre? Ah... sí. Ahí vamos. Según mis cuentas, has cosechado [número] unidades.
-    - (Condition: Si hay más de 50 musgo:)
+    - (Condition: If more than 50 moss:)
       - **Harmony pillar farmer:** ¡Has cosechado mucho! Dejé de contar cuando llegaste a las 50 unidades.
     - (previous)
   - [Choice]: Adiós.

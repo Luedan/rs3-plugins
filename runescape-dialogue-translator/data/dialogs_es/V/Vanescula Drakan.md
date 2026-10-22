@@ -88,7 +88,7 @@
 
 ##### Primera vez
 
-- ((Comienza la escena y Guildmaster Tony comienza a narrar lo siguiente.))
+- ((Cutscene begins, and Guildmaster Tony starts narrating the following.))
 - El monolito me ha dado información sobre la estructura helada conocida como Everlight, un faro en la costa este de Morytania.
 - Sin embargo, más que un simple faro, sirvió como un rayo de esperanza para la raza helada, recién migrada a Gielinor.
 - Pero, ¿qué podría impulsar un faro así, brillar con tanta intensidad día y noche en las tierras "santificadas" circundantes?
@@ -96,8 +96,8 @@
 
 ##### Después
 
-- ((La primera vez después de completar The Everlight:))
-  - ((Comienza la escena y Guildmaster Tony comienza a narrar lo siguiente.))
+- ((The first time after completing The Everlight:))
+  - ((Cutscene begins, and Guildmaster Tony starts narrating the following.))
   - El despido de Everlight fue una atrocidad, sin duda, pero era sólo un lugar, una cosa.
   - La verdadera tragedia aquí fue la pérdida no sólo de muchos habitantes de Icene, sino también de su forma de vida.
   - Lord Drakan y su vampyres se sintieron tan ofendidos por esta baliza que no pudieron soportar su existencia.
@@ -134,10 +134,10 @@
 
 #### Misterios
 
-- ((Si no se han descubierto misterios:))
+- ((If no mysteries have been uncovered:))
   - **Vanescula Drakan:** ¿Qué misterios? Hasta donde yo sé, todavía no has descubierto ninguno.
-- ((Si sólo se ha descubierto un misterio:))
-  - ((Como se muestra a continuación después de las opciones.))
+- ((If only one mystery has been uncovered:))
+  - ((As below after the choices.))
 - [Menu]: ¿Qué misterio te gustaría discutir?
   - [Choice]: Ángeles caídos.
     - {{Main|Transcript:Fallen Angels#Returning to Vanescula}}
@@ -146,9 +146,9 @@
   - [Choice]: *(Sólo después de descubrir el misterio Everlight :)* El Everlight.
     - {{Main|Transcript:The Everlight#Vanescula Drakan}}
   - [Choice]: [More options]
-    - ((Si sólo se hubiera descubierto uno de los otros misterios:))
-      - ((Continúa como después de la elección relevante a continuación.))
-    - ((Si se han descubierto varios de los otros misterios:))
+    - ((If only one of the other mysteries have been uncovered:))
+      - ((Continues as with after the relevant choice below.))
+    - ((If multiple of the other mysteries have been uncovered:))
       - '''¿Qué misterio te gustaría discutir?
         - [Choice]: cond=Only after uncovering The Queen of the Icyene:|Reina del Icene.
           - {{Main|Transcript:Queen of the Icyene#Vanescula Drakan}}

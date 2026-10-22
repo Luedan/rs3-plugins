@@ -22,13 +22,13 @@
 
 #### Sin logs aplicable
 
-- ((Se muestra en una ventana emergente:))
+- ((Shown in a pop-up:))
   - No lleva ningún logs para cortar en planks.
 
 #### Con logs aplicable
 
-- ((Se abre la interfaz del aserradero.))
+- ((Sawmill interface opens.))
 
 ### Building Status
 
-- ((Se abre la interfaz Estado del edificio.))
+- ((Building Status interface opens.))

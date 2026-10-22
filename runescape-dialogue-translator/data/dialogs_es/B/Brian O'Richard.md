@@ -32,9 +32,9 @@
     - (continue|brian-opts-1)
   - [Choice]: Empecemos por arriba.
     - **Brian O'Richard:** Bueno, como ya sabrás, durante mucho tiempo fui el propietario del mundialmente famoso Rogues' Den; el principal destino para los ágiles bribones de Gielinor.
-    - (Condition: Si el player alguna vez había jugado a Rogues' Den antes de su eliminación:)
+    - (Condition: If the player had ever played Rogues' Den prior to its removal:)
       - **Player:** Sí, lo visité una o dos veces. Aunque no estoy seguro del "destino principal".
-    - (Condition: Si el player nunca jugó Rogues' Den antes de su eliminación:)
+    - (Condition: If the player never played Rogues' Den prior to its removal:)
       - **Player:** Creo que es posible que haya oído hablar de él. Aunque no estoy seguro del "destino principal".
     - **Brian O'Richard:** Bueno, no, y ese era más o menos el punto. Todo el montaje era sólo una fachada elaborada para un proyecto mucho más lucrativo: ¡mi fábrica de polvos flash! Cosas útiles: crea un destello cegador y una nube de humo cuando
     - **Brian O'Richard:** tíralo con bastante fuerza. Popular entre todo tipo de personas que podrían verse asediadas de alguna manera. Un campo de entrenamiento no particularmente exitoso era una distracción ideal del verdadero propósito... o eso pensaba.
@@ -53,17 +53,17 @@
 - [Menu]: Seleccione una opción {{anchor|brian-opts-1}}
   - [Choice]: Dime la fábrica, voy a entrar.
     - **Brian O'Richard:** Recuerda, puedes permanecer en la fábrica durante 15 minutos; hasta que se le acabe el catalizador; o hasta que dejes caer tu equipo. Toda la suerte.
-    - (Condition: Si el backpack no está vacío:)
+    - (Condition: If the backpack is not empty:)
       - Debes tener un inventario vacío para ingresar a la fábrica.
       - [Debes tener un inventario vacío para ingresar a la fábrica.]
-    - (Condition: Con un familiar o mascota:)
+    - (Condition: With a familiar or pet:)
       - [No se puede entrar a la fábrica con un familiar o mascota.]
-    - (Condition: Si el backpack está vacío y no tiene ningún familiar/mascota:)
+    - (Condition: If the backpack is empty and with no familiar/pet:)
       - [Contactando con la fábrica...]
       - (Action: el player aparece en Flash Powder Factory.)
   - [Choice]: Hablemos de lo que me deben por mi ayuda.
     - (opens=Flash Factory Reward Shop)
-    - (Condition: Si el player es un ironman:)
+    - (Condition: If the player is an ironman:)
       - ¡No puedes comprar experiencia en el modo Ironman!
   - [Choice]: ¿Cómo puedo ayudar en la fábrica?
     - **Brian O'Richard:** Los conceptos básicos son los siguientes: la fábrica está construida sobre un afloramiento mágico que produce reactivos, dos tipos diferentes designados A y B. Mezclarlos en presencia de un catalizador produce polvo instantáneo.

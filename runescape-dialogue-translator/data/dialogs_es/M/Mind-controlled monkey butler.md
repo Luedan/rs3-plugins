@@ -57,7 +57,7 @@
             - Bloque de mármol.
             - Magic vivienda de piedra.
           - Más...
-            - ((Recorre los conjuntos de opciones anteriores.))
+            - ((Cycles through the above sets of options.))
         - (Se abre la interfaz con el mensaje "Ingresar monto:".)
         - (Action: el mayordomo desaparece)
         - El sirviente va al banco.

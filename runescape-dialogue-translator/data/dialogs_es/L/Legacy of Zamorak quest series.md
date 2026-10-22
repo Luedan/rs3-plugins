@@ -29,7 +29,7 @@
 
 #### Dos Black Knights en Brilliant Axes de Bob
 
-- ((El siguiente diálogo aparece periódicamente. Todas las líneas del Black Knight son habladas por el Black Knight del norte.))
+- ((The following dialogue appears periodically. All the Black Knight's lines are spoken by the northern Black Knight.))
   - **Black Knight:** {{RSChat|We'd like to place an order.}}
   - **Bob:** {{RSChat|I don't serve your lot.}}
   - **Black Knight:** {{RSChat|No? Are you really so happy with what the white knights have done?}}

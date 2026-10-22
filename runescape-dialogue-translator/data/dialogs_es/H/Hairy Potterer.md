@@ -13,5 +13,5 @@
 ### Interact==</noinclude>
 
 - **Hairy Potterer** ¡Baroooooooo!
-- ((Si está en el nivel 6 de la pista:))
+- ((If on tier 6 of the track:))
   - Acabas de terminar tu tarea actual de Yak Track: Wandering Yak.<br>Abre la interfaz de Yak Track para reclamar tus recompensas.

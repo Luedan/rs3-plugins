@@ -21,12 +21,12 @@
 
 #### occidental Dwarven Ferryman
 
-- (Condition: Antes de derribar la estatua gigante del rey Alvis:)
+- (Condition: Before knocking over the giant statue of King Alvis:)
   - **Dwarven Ferryman:** Hola, ¿quieres que te lleve?
   - **Player:** Un paseo, ¿adónde?
   - **Dwarven Ferryman:** ¡Al otro lado del río, al otro lado del río! ¡Es sólo un viaje corto!
   - (continue)
-- (Condition: Después de derribar la estatua gigante del rey Alvis:)
+- (Condition: After knocking over the giant statue of King Alvis:)
   - **Dwarven Ferryman:** ¿Quieres cruzar el río?
   - (continue)
 - [Menu]: Selecciona una opción

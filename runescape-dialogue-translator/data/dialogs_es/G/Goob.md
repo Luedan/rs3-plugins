@@ -35,7 +35,7 @@
 - **Player:** Obviamente.
 - **Player:** Ya veo. Podría extraer esa cosa por ti.
 - **Goob:** ¿Puedes traerme un poco de magic logs? ¡Comenzaré a hacer un parche perimetral y podrás romper la roca! {{anchor|bringlogs}}
-- (Condition: Si el player no tiene magic logs:)
+- (Condition: If the player does not have the magic logs:)
   - [Menu]: Selecciona una opción
     - [Choice]: [Polite] No veo por qué no.
       - **Goob:** ¡Gracias!
@@ -48,7 +48,7 @@
       - (continue)
   - **Player:** Está bien. ¿Cuántos magic logs necesitas que consiga?
   - **Goob:** ¡12 magic logs por favor! ¡Definitivamente será suficiente, lo prometo!
-- (Condition: Si el player ya tiene magic logs:)
+- (Condition: If the player already has the magic logs:)
   - **Player:** ¡Claro, no hay problema!
   - (removes=12 magic logs)
   - **Goob:** Tú rompes la roca y yo crearé la frontera.
@@ -160,19 +160,19 @@
 - [Menu]: Elige una opción:
   - [Choice]: ¿Cuidarías mis cultivos por mí?
     - **Player:** ¿Cuidarías mis cultivos por mí?
-    - (Condition: Si el player no tiene cultivos en el parche:)
+    - (Condition: If the player has no crops in the patch:)
       - **Goob:** No tienes nada plantado en ese parche. Planta algo y tal vez acepte cuidarlo por ti.
-    - (Condition: Si el player tiene cultivos completamente desarrollados plantados en el parche:)
+    - (Condition: If the player has fully grown crops planted in the patch:)
       - **Goob:** ¡Ese parche ya está completamente desarrollado! ¡No sé qué quieres que haga con él!
-    - (Condition: Si los cultivos en el parche aún no están completamente desarrollados pero el player ya le pagó al jardinero:)
+    - (Condition: If the crops in the patch are not yet fully grown but the player has already paid the gardener:)
       - **Goob:** No sé de qué estás hablando. Ya estoy cuidando ese parche por ti.
       - **Player:** Oh, lo siento, lo olvidé.
-    - (Condition: Si los cultivos en el parche aún no han crecido completamente:)
+    - (Condition: If the crops in the patch are not yet fully grown:)
       - **Goob:** Si quieres, pero quiero [número] [item] para eso.
-      - (Condition: Si el player no tiene los elementos requeridos:)
+      - (Condition: If the player does not have the required items:)
         - **Player:** Me temo que no tengo suficientes en este momento.
         - **Goob:** Bueno, no voy a perder el tiempo gratis.
-      - (Condition: Si el player tiene los elementos requeridos:)
+      - (Condition: If the player has the required items:)
         - [Menu]: Selecciona una opción
           - [Choice]: Está bien, es un trato.
             - **Player:** Está bien, es un trato.
@@ -211,9 +211,9 @@
   - [Choice]: Alguna cura vegetal.
     - **Player:** Alguna cura vegetal.
     - **Goob:** Cura vegetal, ¿eh? Quizás tenga algo reservado para mí. Te diré una cosa, te venderé una cura vegetal por 25 po si quieres.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - **Player:** Me temo que no tengo suficiente dinero para eso.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, parece un precio justo.
           - **Player:** Sí, parece un precio justo.
@@ -223,9 +223,9 @@
   - [Choice]: Un balde de abono.
     - **Player:** Un balde de abono.
     - **Goob:** Un balde de abono, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 35 po si quieres.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - **Player:** Me temo que no tengo suficiente dinero para eso.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, parece un precio justo.
           - **Player:** Sí, parece un precio justo.
@@ -235,9 +235,9 @@
   - [Choice]: Un rastrillo.
     - **Player:** Un rastrillo.
     - **Goob:** Un rastrillo, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 15 po si quieres.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - **Player:** Me temo que no tengo suficiente dinero para eso.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, parece un precio justo.
           - **Player:** Sí, parece un precio justo.
@@ -249,9 +249,9 @@
       - [Choice]: una regadera
         - **Player:** Una regadera.
         - **Goob:** Una regadera, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 25 po si quieres.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Me temo que no tengo suficiente dinero para eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - [Menu]: Selecciona una opción
             - [Choice]: Sí, parece un precio justo.
               - **Player:** Sí, parece un precio justo.
@@ -261,9 +261,9 @@
       - [Choice]: Una paleta de jardinería
         - **Player:** Una paleta de jardinería.
         - **Goob:** Una paleta de jardín, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 15 po si quieres.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Me temo que no tengo suficiente dinero para eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - [Menu]: Selecciona una opción
             - [Choice]: Sí, parece un precio justo.
               - **Player:** Sí, parece un precio justo.
@@ -273,9 +273,9 @@
       - [Choice]: Un zambullidor de semillas
         - **Player:** Un arrancador de semillas.
         - **Goob:** Un zambullidor de semillas, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 15 po si quieres.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Me temo que no tengo suficiente dinero para eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - [Menu]: Selecciona una opción
             - [Choice]: Sí, parece un precio justo.
               - **Player:** Sí, parece un precio justo.
@@ -304,15 +304,15 @@
     - **Goob:** Si completas esto, te daré: bendición de reputación Farming (mediana) x 1. ¡Estoy seguro de que también ganarás algo de reputación con el gremio de agricultores!
     - **Goob:** ¡Tendrás que ser rápido! Solo estoy aquí por [número] horas y [número] minutos. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - ((Sin los artículos solicitados:))
+    - ((Without the requested items:))
       - **Goob:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Goob:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **Goob:** También estoy buscando un nuevo animal, actualmente estoy buscando A [Animal]
-    - ((Con los artículos solicitados:))
+    - ((With the requested items:))
       - (removes=the requested items) (receives=Farming reputation boon (medium) y posiblemente una imprimación Brassica)
-      - ((Si se premió una imprimación de Brassica:))
+      - ((If a Brassica primer was rewarded:))
         - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-        - ((Repetido en una ventana emergente:))
+        - ((Repeated in a pop-up:))
           - Por completar esta solicitud, recibió 1 imprimación para Brassica.
           - (continue)
       - [Has recibido: bendición de reputación Farming (mediana) x 1 <br> y 2750 de reputación agrícola.]
@@ -337,9 +337,9 @@
 ##### Con artículos solicitados
 
 - (removes=the requested items) (receives=Farming reputation boon (medium) y posiblemente una imprimación Brassica)
-- ((Si se premió una imprimación de Brassica:))
+- ((If a Brassica primer was rewarded:))
   - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - Por completar esta solicitud, recibió 1 imprimación para Brassica.
     - (continue)
 - [Has recibido: bendición de reputación Farming (mediana) x 1 <br> y 2750 de reputación agrícola.]

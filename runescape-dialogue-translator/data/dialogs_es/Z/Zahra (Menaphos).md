@@ -151,19 +151,19 @@
   - [Choice]: ¿Cuidarías mis cultivos por mí?
     - **Player:** ¿Cuidarías mis cultivos por mí?
     - **Zahra:** ¿Para ti? No es un problema.
-    - (Condition: Si el player no tiene cultivos en el parche:)
+    - (Condition: If the player has no crops in the patch:)
       - **Zahra:** No tienes nada plantado en ese parche. Planta algo y tal vez acepte cuidarlo por ti.
-    - (Condition: Si el player tiene cultivos completamente desarrollados plantados en el parche:)
+    - (Condition: If the player has fully grown crops planted in the patch:)
       - **Zahra:** ¡Ese parche ya está completamente desarrollado! ¡No sé qué quieres que haga con él!
-    - (Condition: Si los cultivos en el parche aún no están completamente desarrollados pero el player ya le pagó al jardinero:)
+    - (Condition: If the crops in the patch are not yet fully grown but the player has already paid the gardener:)
       - **Zahra:** No sé de qué estás hablando. Ya estoy cuidando ese parche por ti.
       - **Player:** Oh, lo siento, lo olvidé.
-    - (Condition: Si los cultivos en el parche aún no han crecido completamente:)
+    - (Condition: If the crops in the patch are not yet fully grown:)
       - **Zahra:** Si quieres, pero quiero [número] [item] para eso.
-      - (Condition: Si el player no tiene los elementos requeridos:)
+      - (Condition: If the player does not have the required items:)
         - **Player:** Me temo que no tengo suficientes en este momento.
         - **Zahra:** Bueno, no voy a perder el tiempo gratis.
-      - (Condition: Si el player tiene los elementos requeridos:)
+      - (Condition: If the player has the required items:)
         - [Menu]: Selecciona una opción
           - [Choice]: Está bien, es un trato.
             - **Player:** Está bien, es un trato.
@@ -194,9 +194,9 @@
   - [Choice]: Alguna cura vegetal.
     - **Player:** Alguna cura vegetal.
     - **Zahra:** Cura vegetal, ¿eh? Quizás tenga algo reservado para mí. Te diré una cosa, te venderé una cura vegetal por 25 po si quieres.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - **Player:** Me temo que no tengo suficiente dinero para eso.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, parece un precio justo.
           - **Player:** Sí, parece un precio justo.
@@ -206,9 +206,9 @@
   - [Choice]: Un balde de abono.
     - **Player:** Un balde de abono.
     - **Zahra:** Un balde de abono, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 35 po si quieres.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - **Player:** Me temo que no tengo suficiente dinero para eso.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, parece un precio justo.
           - **Player:** Sí, parece un precio justo.
@@ -218,9 +218,9 @@
   - [Choice]: Un rastrillo.
     - **Player:** Un rastrillo.
     - **Zahra:** Un rastrillo, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 15 po si quieres.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - **Player:** Me temo que no tengo suficiente dinero para eso.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, parece un precio justo.
           - **Player:** Sí, parece un precio justo.
@@ -232,9 +232,9 @@
       - [Choice]: una regadera
         - **Player:** Una regadera.
         - **Zahra:** Una regadera, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 25 po si quieres.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Me temo que no tengo suficiente dinero para eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - [Menu]: Selecciona una opción
             - [Choice]: Sí, parece un precio justo.
               - **Player:** Sí, parece un precio justo.
@@ -244,9 +244,9 @@
       - [Choice]: Una paleta de jardinería
         - **Player:** Una paleta de jardinería.
         - **Zahra:** Una paleta de jardín, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 15 po si quieres.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Me temo que no tengo suficiente dinero para eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - [Menu]: Selecciona una opción
             - [Choice]: Sí, parece un precio justo.
               - **Player:** Sí, parece un precio justo.
@@ -256,9 +256,9 @@
       - [Choice]: Un zambullidor de semillas
         - **Player:** Un arrancador de semillas.
         - **Zahra:** Un zambullidor de semillas, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 15 po si quieres.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Me temo que no tengo suficiente dinero para eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - [Menu]: Selecciona una opción
             - [Choice]: Sí, parece un precio justo.
               - **Player:** Sí, parece un precio justo.
@@ -294,30 +294,30 @@
     - **Player:** ¿Qué pides hoy?
     - **Zahra:** ¡He estado trabajando en mi propia granja recientemente y necesito algunos artículos para aumentar mi productividad!
     - **Zahra:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
-    - (Condition: Con 3 animales solicitados:)
+    - (Condition: With 3 requested animals:)
       - **Zahra:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal].
       - (continue)
-    - (Condition: Con 4 animales solicitados:)
+    - (Condition: With 4 requested animals:)
       - **Zahra:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal], o [Animal].
       - (continue)
     - **Zahra:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
     - **Zahra:** Si completas esto, te daré: Ofrenda de regalo menafita (mediana) x 1. ¡Estoy seguro de que también ganarás algo de reputación en el gremio de agricultores!
     - **Zahra:** ¡Tendrás que ser rápido!, solo estoy aquí por [número] días, [número] horas y [número] minutos. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - (Condition: Sin los artículos solicitados:)
+    - (Condition: Without the requested items:)
       - **Zahra:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Zahra:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
-      - (Condition: Con 3 animales solicitados:)
+      - (Condition: With 3 requested animals:)
         - **Zahra:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal].
         - (continue)
-      - (Condition: Con 4 animales solicitados:)
+      - (Condition: With 4 requested animals:)
         - **Zahra:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal], o [Animal].
         - (continue)
       - **Zahra:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
-    - (Condition: Con los artículos solicitados:)
+    - (Condition: With the requested items:)
       - (removes=the requested items) (receives=Menaphite gift offering (medium) y imprimación Brassica)
       - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - Por completar esta solicitud, recibió 1 imprimación para Brassica.
         - (continue)
       - [Has recibido: Ofrenda de regalo menafita (mediana) x 1<br>Y 5500 reputación agrícola.]
@@ -342,14 +342,14 @@
 
 ##### Con artículos solicitados
 
-- (Condition: Con múltiples animales aplicables:)
+- (Condition: With multiple applicable animals:)
   - [Menu]: ¿Qué animal te gustaría entregar?
-    - ((Lo siguiente se repite para cada animal aplicable:))
+    - ((The following is repeated for each applicable animal:))
       - [Choice]: [Animal name]
         - (continue)
 - (removes=the requested items) (receives=Menaphite gift offering (medium) y imprimación Brassica)
 - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Por completar esta solicitud, recibió 1 imprimación para Brassica.
   - (continue)
 - [Has recibido: Ofrenda de regalo menafita (mediana) x 1<br>Y 5500 reputación agrícola.]

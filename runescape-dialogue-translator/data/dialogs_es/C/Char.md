@@ -56,7 +56,7 @@
         - (arriba)
       - [Choice]: cond=After The Temple at Senntisten|Me gustaría hablarte sobre Zaros.
         - **Player:** Me gustaría hablarte sobre Zaros.
-        - (Condition: Antes del destino de los dioses:)
+        - (Condition: Before Fate of the Gods:)
           - **Char:** Ya te lo he dicho mortal, no te lo diré más.
           - **Player:** Pero cuando estaba con Azzanadra-
           - **Char:** ¡Azzanadra! ¿Cómo sabes este nombre? ¡Te exijo que me lo digas!
@@ -71,18 +71,18 @@
           - **Char:** Azzanadra y yo estamos restaurados. Hay otros, estoy bastante seguro, y nos esforzaremos por poner en marcha los planes de Zaros.
           - **Player:** ¿Qué planes? ¿Qué otros?
           - **Char:** Azzanadra puede confiar en ti, pero eso no significa que yo tenga que hacerlo. Ya te he dicho suficiente.
-        - (Condition: Después del destino de los dioses:)
+        - (Condition: After Fate of the Gods:)
           - **Char:** Te he dicho todo lo que deseo, mortal.
   - [Choice]: cond=After The World Wakes|Me gustaría hablar sobre la muerte de Guthix.
-    - (Condition: Si el player se puso del lado de los Guthixianos:)
+    - (Condition: If the player sided with the Guthixians:)
       - **Char:** ¡Un día victorioso! ¡Y trataste de frustrarnos! Vete, puede que tengas talento para hacer fuego, pero no escucharé tus divagaciones gutixianas.
       - **Char:** ¡Zaros prevalecerá y tú arderás a su paso!
-    - (Condition: Si el player se puso del lado de los zarosianos:)
+    - (Condition: If the player sided with the Zarosians:)
       - **Char:** ¡Un día victorioso! Me alegra que hayas elegido el verdadero camino, Player. Zaros prevalecerá y estaremos juntos en su gloria.
       - **Player:** Lo espero con ansias.
       - **Char:** Déjame decirte algo, Player. Elegiste "nuestro" plan, pero no era el plan de todos los zarosianos.
       - (continue)
-    - (Condition: Si el player se puso del lado de los saradoministas:)
+    - (Condition: If the player sided with the Saradominists:)
       - **Char:** ¡Un día victorioso! Y una decisión intrigante de tu parte. No puedo decir que no esté de acuerdo con ello.
       - **Player:** ¿No estás enojado porque no me puse de tu lado y de los zarosianos?
       - **Char:** Déjame decirte algo, Player. Negaste "nuestro" plan, pero no era el plan de todos los zarosianos.
@@ -96,17 +96,17 @@
     - **Char:** Nos dejó a Nex y a mí para ir con Mahjarrat, creyendo que era la única manera.
     - **Char:** Pero él solo estaba solo.
     - **Player:** Pero aun así mató a Guthix. Permitiendo el regreso de Zaros.
-    - (Condition: Antes del destino de los dioses:)
+    - (Condition: Before Fate of the Gods:)
       - **Char:** Eso es cierto. Pero cuando Zaros regrese, ¿a quién crees que elogiará más? ¿Los que aparecieron o el que mató a Guthix? Debería haber sido yo.
-    - (Condition: Después del destino de los dioses:)
+    - (Condition: After Fate of the Gods:)
       - **Char:** Resulta que estaba equivocado. Si hubiera sido yo quien matara a Guthix, me pregunto si Zaros me habría excomulgado.
   - [Choice]: cond=After Fate of the Gods|Me gustaría hablar sobre el regreso de Zaros.
-    - (Condition: Si a Zaros le dieran un simulacro oscuro:)
+    - (Condition: If Zaros was given a dark simulacrum:)
       - **Char:** ¿Qué hay que decir? Ha vuelto a donde pertenece. Mi llama se vuelve más brillante una vez más.
       - **Player:** ¿Qué eres tú para él?
       - **Char:** Soy Char. Ni más ni menos.
       - **Player:** Bueno, eso aclaró las cosas, gracias.
-    - (Condition: Si a Zaros le dieran un simulacro ligero:)
+    - (Condition: If Zaros was given a light simulacrum:)
       - **Char:** Intentaste detenerlo y fallaste; ha regresado a pesar de tus esfuerzos.
       - **Player:** Eso no es del todo correcto. Si no fuera por mí, no habría regresado en absoluto, ni siquiera en un estado debilitado.
       - **Char:** Jugaste un juego peligroso negándolo. No deberías necesitar que te diga que estás jugando con fuego.
@@ -136,12 +136,12 @@
 ##### Creando un símbolo de Zaros
 
 - **Char:** ¡Sí! ¡Excelente!
-- ((Si no se ha completado Impressing Char:))
+- ((If Impressing Char hasn't been completed:))
   - ¡Felicitaciones! Has completado: 'Impresionando a Char': crea el símbolo más preciado de Char en su cueva de entrenamiento.
 
 #### Al terminar
 
 - **Char:** {{RSChat|I've seen enough for now.}}
 - Hiciste arreglos [número].
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Hiciste arreglos [número].

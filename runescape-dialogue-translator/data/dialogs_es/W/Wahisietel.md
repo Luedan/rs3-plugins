@@ -82,9 +82,9 @@
       - [Choice]: Quizás tenga más información interesante.
         - **Player:** Tengo más información interesante sobre Mahjarrat.
         - **Ali el Sabio:** Bien, bien, siempre estoy feliz de recopilar más información sobre estas criaturas. Son de gran interés para mí.
-        - (Condition: Si el player tiene nueva información:)
+        - (Condition: If the player has new information:)
           - (continue|I have more information about the Mahjarrat)
-        - (Condition: Si el player no tiene información nueva:)
+        - (Condition: If the player does not have new information:)
           - **Player:** No se me ocurre nada más particularmente interesante.
       - [Choice]: Entonces, ¿qué sabemos hasta ahora?
         - **Player:** Entonces, ¿qué información hemos recopilado hasta ahora?
@@ -111,11 +111,11 @@
     - **Ali el Sabio:** Cualquiera de los dos será suficiente.
     - [Menu]: Elige una opción:
       - [Choice]: cond=After Missing, Presumed Death|Me gustaría preguntar sobre lo que pasó en la Ciudadela Empírea.
-        - (Condition: Si el player declaró su apoyo a Zaros:)
+        - (Condition: If the player declared support for Zaros:)
           - **Ali el Sabio:** Me alegró saber que apoyaste al Señor Vacío mientras debatías con los dioses. Estoy seguro de que está al tanto de tus actos.
           - **Ali el Sabio:** Puede que Sliske esté actuando imprudentemente, pero al menos mantuviste la calma y te dedicaste a Zaros.
           - (continue)
-        - (Condition: Si el player declaró su apoyo a otra facción:)
+        - (Condition: If the player declared support for another faction:)
           - **Alí el Sabio:** Mmm. Me disgustó mucho saber que no apoyabas a Zaros, Player. Esperaba más de ti.
           - (continue)
         - [Menu]: Selecciona una opción
@@ -128,14 +128,14 @@
             - **Ali el Sabio:** Lamentablemente mi señor no ha considerado oportuno contactar conmigo, no. Mantiene su comunicación al mínimo absoluto y elige únicamente comunicarse con Azzanadra.
             - **Ali el Sabio:** Aunque no lo tomo como algo personal. Debe mantener ocultas sus vías de comunicación y aún más sus planes.
             - **Ali el Sabio:** Puedo sentirlo mirando, aventurero.
-            - (Condition: Si el player aún no ha completado El destino de los dioses:)
+            - (Condition: If the player has not yet completed Fate of the Gods:)
               - **Ali el Sabio:**No pasará mucho tiempo antes de que regrese.
               - (continue)
             - (otro)
           - [Choice]: ¿Intentarás obtener la Piedra de Jas?
             - **Ali el Sabio:** No tengo ningún interés en el poder que proporciona la Piedra de Jas. Dejo el hambre de ascensión a los zamorakianos. Tan cegados por sus propias necesidades egoístas...
             - **Ali el Sabio:** Si Zaros expresa la necesidad de la piedra, por supuesto me concentraré en obtenerla. Quizás sea un factor en mis planes.
-            - (Condition: Si el player aún no ha completado El destino de los dioses:)
+            - (Condition: If the player has not yet completed Fate of the Gods:)
               - **Ali el Sabio:** Por ahora me preparo para el regreso del Señor Vacío. Todavía tiene muchos seguidores que se unirán a su lado.
               - (continue)
             - (otro)
@@ -143,7 +143,7 @@
         - **Player:** No estoy seguro de qué hacer contigo. Me engañaste, fingiste no saber nada de Mahjarrat y me hiciste reunir 'investigaciones' para ti, pero... en el ritual...
         - **Player:** Yo... No creo que todavía estaría aquí si no fuera por tu ayuda.
         - **Ali el Sabio:** Y me disculpo por mi engaño anterior. Nosotros, los Mahjarrat, estamos en un estado debilitado a medida que se acerca el ritual, y al principio no sabía dónde estaban sus lealtades.
-        - (Condition: Si el player se puso del lado de los cultistas en Hazeel Cult:)
+        - (Condition: If the player sided with the cultists in Hazeel Cult:)
           - **Ali el Sabio:** Ayudaste a revivir a Hazeel a tiempo para el ritual, lo que me generó preocupación.
           - (continue)
         - **Ali el Sabio:** Pero luego escuché que le sangraste la nariz a Khazard, lo que me hizo algunas cosquillas.
@@ -170,10 +170,10 @@
         - **Ali el Sabio:** Bueno, por supuesto que ahora yo soy un Mahjarrat, pero me complace recordarte lo que sabes de nosotros.
         - **Ali el Sabio:** Somos poderosos y tenemos una gran aptitud para la magia, incluida la capacidad de cambiar nuestra forma y parecernos a otras criaturas. Hay varios Mahjarrat activos en el mundo.
         - **Ali el Sabio:** Jhallan, a quien ayudaste a hibernar en el norte, era más débil que la mayoría de Mahjarrat. Fue sacrificado en el último ritual.
-        - (Condition: Si Hazeel fue revivido:)
+        - (Condition: If Hazeel was revived:)
           - **Ali el Sabio:** Hazeel es fiel a Zamorak. El culto en Ardougne lo ha revivido, aunque está bastante débil. Asistió al Ritual de Rejuvenecimiento.
           - (continue)
-        - (Condition: Si Hazeel no fue revivido:)
+        - (Condition: If Hazeel wasn't revived:)
           - **Ali el Sabio:** Hazeel, que tiene seguidores en Ardougne. La secta está intentando revivirlo y es fiel a Zamorak.
           - (continue)
         - **Ali el Sabio:** Está Zemouregal, que controla muchos zombies, Zemouregal parece tener predilección por atacar a Varrock. Controlaba al gran héroe Arrav, pero le pusimos fin.
@@ -195,10 +195,10 @@
       - [Choice]: No importa.
         - **Player:** No importa.
   - [Choice]: Me gustaría hablar sobre la muerte de Guthix.
-    - (Condition: Si el player se puso del lado de los gutixianos o saradoministas:)
+    - (Condition: If the player sided with the Guthixians or Saradominists:)
       - **Ali el Sabio:** El día en que se violaron los edictos. Es una pena que tuviéramos que chocar; Sólo puedo esperar que en el futuro adoptes el estilo zarosiano. Has demostrado ser un aliado maravilloso en el pasado.
       - (continue)
-    - (Condition: Si el player se puso del lado de los zarosianos:)
+    - (Condition: If the player sided with the Zarosians:)
       - **Ali el Sabio:** ¡La ruptura de los edictos! ¡Cómo podemos olvidar! Y, por supuesto, usted desempeñó su papel de manera excelente. Hasta que apareció Sliske, de todos modos...
       - (continue)
     - [Menu]: Selecciona una opción
@@ -209,12 +209,12 @@
         - **Ali el Sabio:** Y por supuesto, en la forma que él sintió fue la más entretenida. En cualquier caso, sigue siendo un buen resultado. Si no es lo que habíamos planeado.
         - (otro)
       - [Choice]: ¿Qué imagina para el futuro?
-        - (Condition: Antes del destino de los dioses:)
+        - (Condition: Before Fate of the Gods:)
           - **Ali el Sabio:** ¡El regreso de Zaros, por supuesto! ¡Sin los edictos, podemos poner muchas cosas en movimiento!
           - **Player:** Entonces, ¿qué impide que Zaros regrese de inmediato?
           - **Ali el Sabio:** Zaros es inteligente. Es aconsejable primero idear un plan, observar a los enemigos, calcular los riesgos...
           - (continue)
-        - (Condition: Después del destino de los dioses:)
+        - (Condition: After Fate of the Gods:)
           - **Ali el Sabio:** Tengo que decir que no lo sé. Quizás sea hora de que vuelva a consultar con Azzanadra.
           - (continue)
         - (otro)
@@ -238,10 +238,10 @@
         - **Player:** Sliske ha sido excomulgado; ya no es un partidario leal de Zaros.
         - **Ali el Sabio:** ¡Eso no es ninguna noticia, y mucho menos una mala noticia!
         - **Ali el Sabio:** ¿Cómo estuvo Zaros?
-        - (Condition: Si el player ayudó a Zaros:)
+        - (Condition: If the player helped Zaros:)
           - **Player:** Es fuerte, ha vuelto a su antigua gloria. Me aseguré de eso.
           - (continue)
-        - (Condition: Si el player saboteó a Zaros:)
+        - (Condition: If the player sabotaged Zaros:)
           - **Player:** Es débil. Estoy seguro de que pensarías que son malas noticias...
           - **Wahisietel:** Bueno, al menos ha regresado.
           - (continue)
@@ -249,7 +249,7 @@
         - **Player:** ¿Azzanadra no te contó el plan?
         - **Ali el Sabio:** No lo hizo... Debo comunicarme con él sobre esto.
         - **Ali el Sabio:** Estoy seguro de que tiene sus razones.
-        - (Condition: Si el player le dice a Wahisietel por primera vez:)
+        - (Condition: If the player is telling Wahisietel for the first time:)
           - **Ali el Sabio:** Te doy conocimiento, a cambio del conocimiento que tú me diste...
           - (receives=Large prismatic lamp (Fate of the Gods))
           - Wahisietel te entrega una lámpara de recompensa.
@@ -283,7 +283,7 @@
 - **Ali el Sabio:** Hmm, esto es bastante interesante. Por lo que he oído sobre Mahjarrat, no hubiera esperado que fuera un enemigo tan débil. Supongo que el hecho de que no pase mucho tiempo hasta el Ritual significa que se están debilitando un poco.
 - **Player:** Sin embargo, eso no parece haberle impedido hacer algunas travesuras.
 - **Ali el Sabio:** ¿El Staff de Armadyl, dices? He oído hablar de Armadyl; una deidad oscura de alrededor de la Tercera Edad. Es muy interesante que un Mahjarrat estuviera detrás de un artefacto que se le atribuye. Parece que podría ser poderoso.
-- (Condition: Si el player obtuvo el comunicado de Armadyl:)
+- (Condition: If the player obtained the Armadyl communiqué:)
   - **Player:** Desafortunadamente, escuché que Lucien logró capturar el Staff de Armadyl a pesar de mis esfuerzos. Un mensaje que recibí indica que un mago llamado Movario se lo obtuvo.
   - **Ali el Sabio:** No estoy seguro de todas las implicaciones de esto. Podría ser un artefacto poderoso. Ahora tendremos que estar atentos a este Lucien.
 
@@ -311,11 +311,11 @@
 #### Desert Treasure
 
 - **Player:** Sin darme cuenta liberé a un ser llamado Azzanadra de una pirámide al oeste de aquí.
-- (Condition: Si el player no ha completado La Maldición de Arrav:)
+- (Condition: If the player has not completed The Curse of Arrav:)
   - **Ali el Sabio:** Ese nombre me suena familiar. ¿Es un Mahjarrat?
   - **Player:** Creo que podría serlo.
   - (continue)
-- (Condition: Si el player ha completado La Maldición de Arrav:)
+- (Condition: If the player has completed The Curse of Arrav:)
   - **Ali el Sabio:** Ese nombre estaba en la lista de Mahjarrat en las notas de Zemouregal. ¿Has dejado suelto a otro Mahjarrat por el mundo?
   - **Player:** Sí, creo que podría haberlo hecho.
   - (continue)
@@ -329,7 +329,7 @@
 - **Ali el Sabio:** ¿Entonces esta secta está ayudando al Mahjarrat?
 - **Player:** Sí, dijeron que son fieles a Lord Zamorak y parecen estar asombrados por el poder de los Mahjarrats.
 - **Ali el Sabio:** Es fascinante cómo personas de una naturaleza particular acuden al poder.
-- (Condition: Si el player ayudó al culto:)
+- (Condition: If the player aided the cult:)
   - **Player:** De hecho, logré infiltrarme en la secta. ¡Vi a Hazeel en persona!
   - **Ali el Sabio:** Pero... ¡dijiste que lo habían matado!
   - **Player:** Resulta que no estaba muerto, solo en un estado muy cercano a la muerte.
@@ -386,10 +386,10 @@
 - **Player:** Entonces, ¿qué información hemos recopilado hasta ahora?
 - **Ali el Sabio:** Los Mahjarrat son criaturas poderosas con una gran aptitud para la magia, incluida la capacidad de cambiar de forma y parecerse a otras criaturas. Hay varios Mahjarrat activos en el mundo.
 - **Ali el Sabio:** Jhallan, a quien ayudaste a hibernar en el norte, parece mucho más débil de lo que esperaría que fuera el Mahjarrat. Hablaste de un Ritual de Rejuvenecimiento, quizás él no estuvo presente en el último ritual.
-- (Condition: Si Hazeel fue revivido:)
+- (Condition: If Hazeel was revived:)
   - **Ali el Sabio:** Me hablaste de Hazeel, que es fiel al Señor Zamorak. El culto en Ardougne ha revivido a Hazeel, aunque está bastante débil y se dirige al norte. Presumiblemente para el Ritual de Rejuvenecimiento.
   - (continue)
-- (Condition: Si Hazeel no fue revivido:)
+- (Condition: If Hazeel wasn't revived:)
   - **Ali el Sabio:** Me hablaste de Hazeel, que tiene seguidores en Ardougne. El culto está tratando de revivirlo y es fiel al Señor Zamorak.
   - (continue)
 - **Ali el Sabio:** Está Zemouregal, que controla muchos zombis, incluido el otrora gran héroe Arrav. Zemouregal parece tener predilección por atacar a Varrock.
@@ -406,10 +406,10 @@
 - **Ali el Sabio:** Bueno, por supuesto que ahora sabes que yo soy un Mahjarrat, pero me complace recordarte lo que sabes de nosotros.
 - **Ali el Sabio:** Somos poderosos y tenemos una gran aptitud para la magia, incluida la capacidad de cambiar nuestra forma y parecernos a otras criaturas. Hay varios Mahjarrat activos en el mundo.
 - **Ali el Sabio:** Jhallan, a quien ayudaste a hibernar en el norte, era más débil que la mayoría de los Mahjarrat. No estuvo presente en el último ritual.
-- (Condition: Si Hazeel fue revivido:)
+- (Condition: If Hazeel was revived:)
   - **Ali el Sabio:** Hazeel es fiel al Señor Zamorak. El culto en Ardougne ha revivido a Hazeel, aunque está bastante débil y se dirige al norte, presumiblemente para el Ritual de Rejuvenecimiento.
   - (continue)
-- (Condition: Si Hazeel no fue revivido:)
+- (Condition: If Hazeel wasn't revived:)
   - **Ali el Sabio:** Me hablaste de Hazeel, que es fiel al Señor Zamorak. El culto está tratando de revivirlo y es fiel al Señor Zamorak.
   - (continue)
 - **Ali el Sabio:** Está Zemouregal, que controla muchos zombis, incluido el otrora gran héroe Arrav. Zemouregal parece tener predilección por atacar a Varrock. También estuvo presente en la muerte de Guthix en un intento fallido de matar a Guthix en nombre de Zamorak.
@@ -437,10 +437,10 @@
     - **Ali el Sabio:** Bueno, por supuesto que ahora yo soy un Mahjarrat, pero me complace recordarte lo que sabes de nosotros.
     - **Ali el Sabio:** Somos poderosos y tenemos una gran aptitud para la magia, incluida la capacidad de cambiar nuestra forma y parecernos a otras criaturas. Hay varios Mahjarrat activos en el mundo.
     - **Ali el Sabio:** Jhallan, a quien ayudaste a hibernar en el norte, era más débil que la mayoría de Mahjarrat. Fue sacrificado en el último ritual.
-    - (Condition: Si Hazeel fue revivido:)
+    - (Condition: If Hazeel was revived:)
       - **Ali el Sabio:** Hazeel es fiel a Zamorak. El culto en Ardougne lo ha revivido, aunque está bastante débil. Asistió al Ritual de Rejuvenecimiento.
       - (continue)
-    - (Condition: Si Hazeel no fue revivido:)
+    - (Condition: If Hazeel wasn't revived:)
       - **Ali el Sabio:** Hazeel, que tiene seguidores en Ardougne. La secta está intentando revivirlo y es fiel a Zamorak.
       - (continue)
     - **Ali el Sabio:** Está Zemouregal, que controla muchos zombies, Zemouregal parece tener predilección por atacar a Varrock. Controlaba al gran héroe Arrav, pero le pusimos fin. También estuvo presente en la muerte de Guthix en un intento fallido de matar a Guthix en nombre de Zamorak.
@@ -454,9 +454,9 @@
 ### After The World Wakes
 
 - **Player:** Me gustaría hablar sobre la muerte de Guthix.
-  - (Condition: Si el player se puso del lado de los Guthixianos o mató a Guthix:)
+  - (Condition: If the player sided with the Guthixians or to kill Guthix:)
     - **Ali el Sabio:** El día en que se violaron los edictos. Es una pena que tuviéramos que chocar; Sólo puedo esperar que en el futuro adoptes el estilo zarosiano. Has demostrado ser un aliado maravilloso en el pasado.
-  - (Condition: Si el player se puso del lado de los zarosianos:)
+  - (Condition: If the player sided with the Zarosians:)
     - **Ali el Sabio:** ¡La ruptura de los edictos! ¡Cómo podemos olvidar! Y, por supuesto, usted desempeñó su papel de manera excelente. Hasta que apareció Sliske, de todos modos...
   - **Player:** ¿Qué pasó con Sliske?
     - **Ali el Sabio:** Bueno, él siempre ha sido... diferente. Es resbaladizo; siempre acechando en las sombras. Nunca puedes estar seguro de lo que pretende, pero siempre puedes garantizar que sus acciones lo beneficiarán a él o a Zaros. Mientras nos traicionaba, seguía trabajando para Zaros. Simplemente de la forma que mejor le parecía. Y claro, en la forma que él sentía era de lo más entretenida. En cualquier caso, sigue siendo un buen resultado. Si no es lo que habíamos planeado.
@@ -470,10 +470,10 @@
 ### After Missing, Presumed Death
 
 - **Player:** Me gustaría preguntar qué pasó en la Ciudadela Empírea.
-  - (Condition: Si el player declaró su apoyo a Zaros:)
+  - (Condition: If the player declared support for Zaros:)
     - **Ali el Sabio:** Me alegró saber que apoyaste al Señor Vacío mientras debatías con los dioses. Estoy seguro de que está al tanto de tus actos.
     - **Ali el Sabio:** Puede que Sliske esté actuando imprudentemente, pero al menos mantuviste la calma y te dedicaste a Zaros.
-  - (Condition: Si el player declaró su apoyo a otra facción:)
+  - (Condition: If the player declared support for another faction:)
     - **Alí el Sabio:** Mmm. Lo que más me disgustó fue saber que no apoyabas a Zaros (nombre del jugador). Esperaba más de ti.
   - **Player:** ¿Aún ves a Sliske como un zarosiano?
     - **Ali el Sabio:** No lo sé. Esa serpiente nos ha traicionado por última vez. Después de asesinar a Guthix me decepcioné, pero ahora he perdido toda esperanza.
@@ -504,9 +504,9 @@
       - **Player:** Sliske ha sido excomulgado; ya no es un partidario leal de Zaros.
       - **Ali el Sabio:** ¡Eso no es ninguna noticia, y mucho menos una mala noticia!
       - **Ali el Sabio:** ¿Cómo estuvo Zaros?
-        - (Condition: Si el player ayudó a Zaros:)
+        - (Condition: If the player helped Zaros:)
           - **Player:** Es fuerte, ha vuelto a su antigua gloria. Me aseguré de eso.
-        - (Condition: Si el player saboteó a Zaros:)
+        - (Condition: If the player sabotaged Zaros:)
           - **Player:** Es débil. Estoy seguro de que pensarías que son malas noticias...
           - **Wahisietel:** Bueno, al menos ha regresado.
       - **Ali el Sabio:** Sin embargo, me pregunto por qué me entero de esto por ti.
@@ -528,10 +528,10 @@
 ### Treasure Trails
 
 - **Ali el Sabio:** ¡Veo que estás en el camino correcto!
-- (Condition: Si el rastro continúa:)
+- (Condition: If the trail continues:)
   - (removes=the old clue scroll (master)) (receives= the new clue scroll (master))
   - [¡Has encontrado otra pista!]
-- (Condition: Si el sendero termina:)
+- (Condition: If the trail ends:)
   - (removes=the old clue scroll (master)) (receives=reward casket (master))
   - [¡Has encontrado un ataúd!]
 Categoría:Mahjarrat

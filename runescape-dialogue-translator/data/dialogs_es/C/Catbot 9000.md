@@ -42,9 +42,9 @@
 
 - **Catbot 9000:** Hazzzzz dejavvvvves - ¡bzzt!
 - Antes de que puedas decir algo, el gato roba las hojas del doogle y se marcha rígidamente en dirección al cementerio de New Varrock...
-- (Condition: Si el player todavía tiene gatos para ayudar:)
+- (Condition: If the player still has cats to assist:)
   - Has progresado en la tarea "La perdición de un gato". ([número]/4)
-- (Condition: Si el player ha ayudado a los cuatro gatos:)
+- (Condition: If the player has assisted all four cats:)
   - {{RSFontAchievement|Cat's Bane}}
   - **Player:** Me pregunto por qué todos se dirigieron hacia el cementerio...
 

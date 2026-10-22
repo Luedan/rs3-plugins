@@ -45,9 +45,9 @@
 ##### Carterista exitoso
 
 - Escoges el bolsillo del objetivo.
-  - (Condition: Si se reciben semillas:)
+  - (Condition: If seeds are received:)
     - Robas semillas [número] [name].
-  - (Condition: Si se reciben coins:)
+  - (Condition: If coins are received:)
     - [número] coins se han agregado a su bolsa de dinero.
 
 ##### Carterista fallido

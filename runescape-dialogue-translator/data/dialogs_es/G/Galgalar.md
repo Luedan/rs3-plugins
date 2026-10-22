@@ -11,7 +11,7 @@
 
 ### Talk to
 
-- ((Sólo antes de haber preguntado sobre la Segregación:))
+- ((Only before having asked about Seggregation:))
   - El ilujanka murmura para sí mismo mientras inspecciona la incubadora.
   - **Galgalar:** Huevo excelente, huevo excelente... <br> La incubadora de huevos supera mis expectativas sobre los huevos...
   - (continue)
@@ -33,16 +33,16 @@
     - **Player:** No estoy seguro de si eso tiene más o menos sentido...
     - (previous|Galgalar-options)
   - [Hablar sobre ayudar con la segregación]
-    - ((Con menos de 87 Firemaking:))
+    - ((With less than 87 Firemaking:))
       - **Galgalar:** No parece que puedas soportar el calor extremo de mi incubadora.
       - **Player:** Sudo porque me importa.
-      - ((Se muestra en una ventana emergente:))
+      - ((Shown in a pop-up:))
         - Necesita 87 Firemaking para participar en la segregación.
         - (continue)
       - **Galgalar:** Puede que te resulte menos complicado ayudar a Ben, en la playa justo al sur de aquí. Hace tiempo que no lo veo. Probablemente se exageró. Ben es un pequeño amigo apto para huevos.
       - (previous|Galgalar-options)
-    - ((Con al menos 87 Firemaking:))
-      - ((Sólo la primera vez:))
+    - ((With at least 87 Firemaking:))
+      - ((Only on the first time:))
         - **Galgalar:** Potterington quiere incubar sólo huevos excepcionales y producir los mejores huevoscretores.
         - **Galgalar:** Se suponía que Ben extraería los huevos podridos y los depositaría en un contenedor de abono. Incluso tenía una carretilla para acelerar el proceso.
         - (Action: La cámara se desplaza hacia la incubadora rápida.)
@@ -57,7 +57,7 @@
         - **Galgalar:** Huevo: simplifica tu comprensión devolviéndome algunos fragmentos de huevo.
         - **Player:** Eso no suena demasiado difícil ni moralmente cuestionable.
         - (previous|Galgalar-options)
-      - ((Después de la primera vez sin fragmentos de caparazón afilados y antes de haber completado A ver al lagarto:))
+      - ((After the first time without sharp shell shards and before having completed Off to See the Lizard:))
         - **Galgalar:** ¿Dónde están realmente las cáscaras de los huevos?
         - (Action: La cámara se desplaza hacia la incubadora rápida.)
         - Necesitas recolectar algunas cáscaras afiladas incubando huevos buenos y hirviendo huevos malos.
@@ -65,7 +65,7 @@
         - Puedes encontrar los huevos amontonados al sureste.
         - (Action: La cámara vuelve a la normalidad.)
         - (previous|Galgalar-options)
-      - ((Después de la primera vez con fragmentos de caparazón afilados y antes de haber completado A ver al lagarto:))
+      - ((After the first time with sharp shell shards and before having completed Off to See the Lizard:))
         - [Muestras fragmentos de conchas afiladas de Galgalar.]
         - **Galgalar:** Sí, esos son exactamente lo que esperaba.
         - **Galgalar:** Esos fragmentos de huevos extremadamente afilados podrían hacer huevos con puntas de flecha exquisitas.
@@ -79,7 +79,7 @@
         - **Player:** Intenta decir eso tres veces rápido.
         - **Galgalar:** Huevos exactamente.
         - (previous|Galgalar-options)
-      - ((Después de haber completado A ver el lagarto:))
+      - ((After having completed Off to See the Lizard:))
         - **Galgalar:** Gracias por tu ayuda. Necesito quedarme aquí y monitorear la incubadora, así que sin señales de Bill o Ben, estaba pasando por una especie de crisis de partera.
         - **Player:** Voy a fingir que no escuché eso.<br>¿Qué puedo hacer con fragmentos de caparazón afilados?
         - **Galgalar:** Esos fragmentos de huevos extremadamente afilados podrían hacer huevos con puntas de flecha exquisitas.

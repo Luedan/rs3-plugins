@@ -20,27 +20,27 @@
 - [Menu]: ¿Quieres ayudar?
   - [Choice]: Sí.
     - **Banafrit:** ¡Te lo agradezco!
-    - (Condition: Si el tipo de misión de la ciudad es "Atacada por vida silvestre":)
+    - (Condition: If the city quest type is "Attacked by wildlife":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "En espera de entrega":)
+    - (Condition: If the city quest type is "Awaiting delivery":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Los niños no pueden dormir":)
+    - (Condition: If the city quest type is "Children can't sleep":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Coleccionista de curiosidades":)
+    - (Condition: If the city quest type is "Collector of curiosities":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Crondis está enojado":)
+    - (Condition: If the city quest type is "Crondis is angry":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Plagas de cultivos":)
+    - (Condition: If the city quest type is "Crop pests":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Ayuda de entrega":)
+    - (Condition: If the city quest type is "Delivery help":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "El hijo de un amigo muere lentamente":)
+    - (Condition: If the city quest type is "Friend's son slowly dying":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Nuevo producto":)
+    - (Condition: If the city quest type is "New product":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Slayer master":)
+    - (Condition: If the city quest type is "Slayer master":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "esfuerzo War":)
+    - (Condition: If the city quest type is "War effort":)
       - (continue)
   - [Choice]: No ahora mismo.
     - No importa.
@@ -79,7 +79,7 @@
 ##### Tarea #1
 
 - **Banafrit:** El hijo adolescente de un buen amigo mío está muriendo lentamente. Ahora no es el momento de dejar que la arena nos lo quite.
-- (Condition: Si el artículo deseado son ovillos de lana:)
+- (Condition: If the item desired is balls of wool:)
   - {{anchor|first}} **Banafrit:** ¿Podrías traerme [número] ovillos de lana? Realmente nos vendría bien algo con lo que juegue el gato.
   - (continue)
 - [Menu]: Selecciona una opción
@@ -114,10 +114,10 @@
     - **Banafrit:** ¿Tienes [número] de [item]? El niño realmente necesita ayuda. ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Banafrit ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Banafrit:** Genial. Gracias.
@@ -178,10 +178,10 @@
     - **Banafrit:** ¿Tienes [número] [item]? El niño necesita ayuda. ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Banafrit ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Banafrit:** Genial. Gracias.
@@ -209,10 +209,10 @@
 - **Banafrit:** No importa. Tomaré este breve momento de consuelo por lo que es.
 - **Player:** Una buena idea. ¿De qué otra manera puedo ayudar?
 - **Banafrit:** Tenemos todo lo que necesitamos. Si aún quieres ayudar: mientras cuidamos al niño, hemos descuidado nuestras tareas diarias.
-- (Condition: Si el artículo deseado es carbón:)
+- (Condition: If the item desired is coal:)
   - {{anchor|first}} **Banafrit:** Si pudieras conseguirnos combustible para el horno, nos permitirías otro día de paz.
   - (continue)
-- (Condition: Si el artículo deseado son huesos de lobo:)
+- (Condition: If the item desired is wolf bones:)
   - {{anchor|first}} **Banafrit:** Si pudieras obtener huesos de lobo, arrojados por los lobos para nosotros, nos permitirías otro día de paz.
   - (continue)
 - **Banafrit:** Conseguir [número] [item] debería ser suficiente.
@@ -248,10 +248,10 @@
     - **Banafrit:** ¿Tienes [número] [item]? ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Banafrit ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Banafrit:** Genial. Gracias.

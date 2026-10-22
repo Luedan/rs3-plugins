@@ -11,92 +11,92 @@
 
 ### Overhead in Harvest Hollow
 
-- ((Ocasionalmente se observa uno de los siguientes:))
+- ((One of the following is seen occasionally:))
   - **Cough:** {{RSChat|*ahem*}}
   - **Cough:** {{RSChat|*cough*}}
 
 ### Talk to
 
-- (Condition: Con recompensas de ceremonia de clan para reclamar:)
-  - (Condition: Sin unirse a The Horsemen durante Field of Screams:)
+- (Condition: With clan ceremony rewards to claim:)
+  - (Condition: Without joining The Horsemen during Field of Screams:)
     - **Cough:** Tengo algunas recompensas de la ceremonia del clan que potencialmente puedo ofrecerte... pero tal vez deberías hablar con nuestros líderes para unirte a nosotros primero.
-  - (Condition: Sin suficientes espacios backpack gratuitos para todas las recompensas potenciales:)
-    - (Condition: Antes de 2026:)
+  - (Condition: Without enough free backpack spaces for all potential rewards:)
+    - (Condition: Before 2026:)
       - **Cough:** ¡Hola! Tengo algunas recompensas de ceremonia del clan para ofrecerte, pero no tienes suficiente *ejem* espacio en tu backpack.
       - (continue)
-    - (Condition: Desde 2026:)
+    - (Condition: Since 2026:)
       - **Cough:** ¡Hola! Tengo algunas recompensas de la ceremonia del clan de los caballos para ofrecerte, pero no tienes suficiente *ejem* espacio en tu backpack.
       - (continue)
     - ¡Necesita espacio para (potencialmente) hasta artículos [número] en su backpack!
-    - (ventana emergente)
+    - (pop-up)
       - (Ventana emergente: ¡Necesita espacio para (potencialmente) hasta artículos [número] en su backpack!)
       - (continue|Cough-options)
-  - (Condition: Con suficientes espacios backpack gratuitos para todas las recompensas potenciales:)
-    - (Condition: Si recibe una piedra de afilar encantada:)
+  - (Condition: With enough free backpack spaces for all potential rewards:)
+    - (Condition: If receiving a haunted whetstone:)
       - {{Transcript missing}}
-    - (Condition: Con las recompensas de la ceremonia del clan de la primera semana que puedes reclamar:)
-      - (Condition: Si el player no estaba en el equipo de Death:)
-        - (Condition: Antes de 2026:)
+    - (Condition: With the first week's clan ceremony rewards to claim:)
+      - (Condition: If the player was not on Death's team:)
+        - (Condition: Before 2026:)
           - **Cough:** ¡Aquí está tu recompensa de la primera ceremonia semanal del clan!
           - (continue)
-        - (Condition: Desde 2026:)
+        - (Condition: Since 2026:)
           - **Cough:** ¡Aquí tienes tu recompensa de la primera ceremonia semanal del clan de caballos!
           - (continue)
-      - (Condition: Si el player estuviera en el equipo de Death:)
+      - (Condition: If the player was on Death's team:)
         - **Cough:** ¡Felicitaciones por ayudar a Death a ganar la primera ceremonia semanal del clan! ¡Aquí está tu recompensa!
-        - (Condition: Desde 2026:)
+        - (Condition: Since 2026:)
           - Has desbloqueado la anulación cosmética: 'Escoba de truco o trato'.
           - Puedes activar esto a través de la pestaña 'Armario' en la interfaz 'Personalizaciones'.
           - (continue)
       - Recibirás 10,000 fichas espeluznantes como recompensa de la primera ceremonia semanal de Harvest Hollow.
-      - (ventana emergente)
-        - (Ventana emergente: recibirás 10 000 fichas espeluznantes como recompensa de la primera ceremonia semanal de Harvest Hollow.|color=#8D52E5)
+      - (pop-up)
+        - (Pop-up: You're awarded 10,000 spooky tokens as a reward from the Harvest Hollow's first weekly ceremony.|colour=#8D52E5)
         - (continue)
       - Se ha agregado lo siguiente a su bolsa de divisas: 10,000 x tokens Spooky.
       - (continue)
-    - (Condition: Con las recompensas de la ceremonia del clan de la segunda semana que podrás reclamar:)
-      - (Condition: Si el player no estaba en el equipo de Death:)
+    - (Condition: With the second week's clan ceremony rewards to claim:)
+      - (Condition: If the player was not on Death's team:)
         - **Cough:** ¡Aquí está tu recompensa de la segunda ceremonia semanal del clan!
         - (continue)
-      - (Condition: Si el player estuviera en el equipo de Death:)
+      - (Condition: If the player was on Death's team:)
         - **Cough:** ¡Felicitaciones por ayudar a Death a ganar la segunda ceremonia semanal del clan! ¡Aquí está tu recompensa!
         - (continue)
-      - (Condition: En 2024:)
+      - (Condition: In 2024:)
         - (receives=The Horsemen's Uniform token)
         - Recibirás una ficha de uniforme de los jinetes como recompensa de la segunda ceremonia semanal de Harvest Hollow.
-        - (ventana emergente)
-          - (Ventana emergente: recibirás una ficha de Uniforme de los Jinetes como recompensa de la segunda ceremonia semanal de Harvest Hollow.|color=#8D52E5)
+        - (pop-up)
+          - (Pop-up: You're awarded one The Horsemen's Uniform token as a reward from the Harvest Hollow's second weekly ceremony.|colour=#8D52E5)
           - (continue)
-      - (Condition: En 2025:)
+      - (Condition: In 2025:)
         - (receives=sparkler)
         - Recibirás una bengala como recompensa de la segunda ceremonia semanal de Harvest Hollow.
-        - (ventana emergente)
-          - (Ventana emergente: recibirás una bengala como recompensa de la segunda ceremonia semanal de Harvest Hollow.|color=#8D52E5)
+        - (pop-up)
+          - (Pop-up: You're awarded a sparkler as a reward from the Harvest Hollow's second weekly ceremony.|colour=#8D52E5)
           - (continue)
-    - (Condition: Con las recompensas de la ceremonia del clan de la tercera semana para reclamar:)
-      - (Condition: En 2024:)
-        - (Condition: Si el player no estaba en el equipo de Death:)
+    - (Condition: With the third week's clan ceremony rewards to claim:)
+      - (Condition: In 2024:)
+        - (Condition: If the player was not on Death's team:)
           - **Cough:** ¡Aquí está tu recompensa de la última ceremonia semanal del clan!
           - (continue)
-        - (Condition: Si el player estuviera en el equipo de Death:)
+        - (Condition: If the player was on Death's team:)
           - **Cough:** ¡Felicitaciones por ayudar a Death a ganar la última ceremonia semanal del clan! ¡Aquí está tu recompensa!
           - (continue)
         - Recibirás todas las apariencias de mascota de los Caballos, el pollo, como recompensa de la última ceremonia semanal de Harvest Hollow.
-        - (ventana emergente)
-          - (Ventana emergente: recibirás todas las apariencias de mascota de Caballo, el pollo, como recompensa de la última ceremonia semanal de Harvest Hollow.|color=#8D52E5)
+        - (pop-up)
+          - (Pop-up: You're awarded all Horses the chicken pet appearances as a reward from the Harvest Hollow's final weekly ceremony.|colour=#8D52E5)
           - (continue)
-      - (Condition: En 2025:)
+      - (Condition: In 2025:)
         - **Cough:** ¡Aquí está tu recompensa de la tercera ceremonia semanal del clan!
         - (receives=reaping scythe)
         - Recibirás una guadaña cosechadora como recompensa de la tercera ceremonia semanal de Harvest Hollow.
-        - (ventana emergente)
-          - (Ventana emergente: recibirás una guadaña cosechadora como recompensa de la tercera ceremonia semanal de Harvest Hollow.|color=#8D52E5)
+        - (pop-up)
+          - (Pop-up: You're awarded a reaping scythe as a reward from the Harvest Hollow's third weekly ceremony.|colour=#8D52E5)
           - (continue)
-    - (Condition: Con las recompensas de la ceremonia del clan de la cuarta semana para reclamar:)
+    - (Condition: With the fourth week's clan ceremony rewards to claim:)
       - **Cough:** ¡Aquí está tu recompensa de la cuarta ceremonia semanal del clan!
       - Recibirás 10,000 fichas espeluznantes como recompensa de la cuarta ceremonia semanal de Harvest Hollow.
-      - (ventana emergente)
-        - (Ventana emergente: recibirás 10 000 fichas espeluznantes como recompensa de la cuarta ceremonia semanal de Harvest Hollow.|color=#8D52E5)
+      - (pop-up)
+        - (Pop-up: You're awarded 10,000 spooky tokens as a reward from the Harvest Hollow's fourth weekly ceremony.|colour=#8D52E5)
         - (continue)
       - Se ha agregado lo siguiente a su bolsa de divisas: 10,000 x tokens Spooky.
       - (continue)
@@ -116,21 +116,21 @@
     - **Cough:** No se dio cuenta de que yo *ejem* liberé a algunos de nuestro tesoro y me desterré a esta misión.
     - **Player:** Supongo que confiaré en ti... Por ahora.
     - **Player:** ¿Qué puedo hacer para ayudar?
-    - (Condition: Antes de 2026:)
-      - (Condition: Antes de haber completado Campo de Gritos:)
+    - (Condition: Before 2026:)
+      - (Condition: Before having completed Field of Screams:)
         - **Cough:** Si te conviertes en miembro del clan, puedes traerme cualquier dulce que encuentres por ahí y los agregaré al *tos* tesoro de tu equipo.
         - **Cough:** Incluso te daré algunas bolsas de regalos para tus problemas, ya que es política del clan recompensar generosamente a aquellos que traen dulces más preciados.
         - **Cough:** Si te unes al clan, también puedes obtener el uniforme de otro equipo.
         - [Completa la misión "Campo de los gritos" para desbloquear la posibilidad de recibir la "ficha del uniforme de los jinetes" de las bolsas de regalos del clan.]
         - (previous|Cough-options)
-      - (Condition: Después de haber completado Campo de Gritos:)
+      - (Condition: After having completed Field of Screams:)
         - **Cough:** Si encuentras algún dulce del clan, tráemelo y lo agregaré al *tos* tesoro de [Captain].
         - **Cough:** Incluso te daré algunas bolsas de regalos para tus problemas, ya que es política del clan recompensar generosamente a aquellos que traen dulces más preciados.
         - (previous|Cough-options)
-    - (Condition: Desde 2026:)
-      - (Condition: Antes de haber completado Campo de Gritos:)
+    - (Condition: Since 2026:)
+      - (Condition: Before having completed Field of Screams:)
         - {{Transcript missing}}
-      - (Condition: Después de haber completado Campo de Gritos:)
+      - (Condition: After having completed Field of Screams:)
         - **Cough:** No tienes que entregarlos al clan de caballos al que te uniste.
         - **Cough:** Te haré una buena palabra y por cada dulce que contribuyas, ¡tendrás una oportunidad mayor de ganar el gran premio de la máscara de Halloween teñida con el alma!
         - (previous|Cough-options)
@@ -152,56 +152,56 @@
     - **Cough:** *tos* ¡Por supuesto! Cada equipo está trabajando duro para reunir dulces del clan de los caballos y entregármelos.
     - **Cough:** Al final de cada semana, resumo todos esos dulces y descubro qué equipo proporcionó más.
     - **Cough:** Mi amigo, Sundae, luego realiza una elegante presentación en el escenario de allí para anunciar a los ganadores.
-    - (Condition: Antes de 2026:)
+    - (Condition: Before 2026:)
       - **Cough:** Una vez que se anuncian los ganadores, puedo entregar algunas recompensas extra elegantes, incluido algo especial que tendrás más posibilidades de conseguir cuantos más dulces contribuyas esa semana.
       - (continue)
-    - (Condition: Desde 2026:)
+    - (Condition: Since 2026:)
       - **Cough:** Una vez que se anuncian los ganadores, puedo entregar algunas recompensas extra elegantes.
       - **Cough:** Hay una recompensa fija cada semana que recibirán todos los que hayan contribuido esa semana.
       - **Cough:** Pero también hay algunos premios extra raros que tendrás más posibilidades de conseguir si has entregado más dulces.
       - (continue)
     - **Cough:** Si no puedes asistir, ¡no te preocupes! También entregaré recompensas en cualquier momento después de la ceremonia.
-    - (Condition: Antes de 2026:)
+    - (Condition: Before 2026:)
       - [Las ceremonias del clan se llevan a cabo todos los domingos a las 8:00 p. m., hora del juego, durante Halloween. Participe para ganar una variedad de recompensas, incluida la oportunidad de obtener la nueva mascota Spirit of Harvest.]
       - (previous|Cough-options)
-    - (Condition: Desde 2026:)
+    - (Condition: Since 2026:)
       - [Las ceremonias del clan se llevan a cabo todos los domingos a las 8:00 p. m., hora del juego, durante Halloween. Participe para ganar una variedad de recompensas, incluida la oportunidad de obtener la nueva mascota Spirit of Harvest y la máscara de Halloween teñida con el alma.]
       - (previous|Cough-options)
   - [Choice]: I have some clan confections for you.|cond=Antes de 2026:
-    - (Condition: En Cosecha Hueca:)
-      - (Condition: Antes de haber completado Campo de Gritos:)
+    - (Condition: In Harvest Hollow:)
+      - (Condition: Before having completed Field of Screams:)
         - **Cough:** Me temo que solo los miembros del clan The Horsemen pueden contribuir con dulces al clan.
         - **Cough:** Habla con los líderes del clan al noreste de aquí. Tal vez *tos* te dejen entrar.
         - [Para contribuir con dulces del clan se requiere la misión "Campo de los gritos".]
-      - (Condition: Después de haber completado Campo de Gritos:)
-        - (Condition: Sin dulces del clan:)
+      - (Condition: After having completed Field of Screams:)
+        - (Condition: Without clan confections:)
           - **Cough:** Parece que no tienes dulces del clan para mí.
-        - (Condition: Con dulces del clan:)
-          - (Condition: Sin espacio backpack para bolsas de regalos del clan:)
+        - (Condition: With clan confections:)
+          - (Condition: Without backpack space for clan goodie bags:)
             - **Cough:** No tienes suficiente espacio en tu backpack para que te dé tus bolsas de regalos.
-          - (Condition: Con espacio backpack para bolsas de regalos del clan:)
-            - (Condition: Sin ceremonia en curso:)
+          - (Condition: With backpack space for clan goodie bags:)
+            - (Condition: Without a ceremony in progress:)
               - (removes=all clan confections) (receives=corresponding number of clan goodie bags)
               - Contribuyes con el clan [número] [confection/confections] al tesoro de [Horseman's name] y recibes el obsequio del clan [número] [bag/bags].
-              - (ventana emergente)
-                - (Ventana emergente: contribuyes con el clan [número] [confection/confections] al tesoro de [Horseman's name] y recibes el obsequio del clan [número] [bag/bags].|color=#ff6600)
+              - (pop-up)
+                - (Pop-up: You contribute [number] clan [confection/confections] to [Horseman's name]'s hoard and receive [number] clan goodie [bag/bags].|colour=#ff6600)
                 - (continue)
-              - (Condition: Antes de actualizar los títulos de Horsemen:)
-                - (Condition: Con menos de 25 dulces en total aportados:)
+              - (Condition: Before having the Horsemen titles upgraded:)
+                - (Condition: With fewer than 25 total confections contributed:)
                   - **Cough:** ¡Gracias por contribuir con dulces! ¡Si donas [número] más, podré mejorar tus títulos de Horsemen!
-                - (Condition: De lo contrario:)
+                - (Condition: Otherwise:)
                   - {{colour Captain variants of the Horsemen titles.|colour=#ff6600}}
-                  - ((Repetido en una ventana emergente:))
+                  - ((Repeated in a pop-up:))
                     - {{Popup|ZZCMD0ZZFor contributing so much to the clan, you unlock the}} Variantes de Capitán de los títulos de Jinetes.|color=#ff6600}}
-            - (Condition: Con una ceremonia en progreso:)
+            - (Condition: With a ceremony in progress:)
               - **Cough:** No aceptaremos ninguna donación mientras la ceremonia de ganadores esté en curso, regresa en un momento.
-    - (Condition: En Burthorpe:)
+    - (Condition: In Burthorpe:)
       - **Cough:** Me temo que las festividades han terminado, así que no puedo aceptar más dulces.
   - [Choice]: Adiós.
-    - (Condition: Antes de 2026:)
+    - (Condition: Before 2026:)
       - **Cough:** Buena suerte encontrando esos *ejem* dulces del clan. Asegúrate de regresar con todo lo que recolectes.
       - (continue)
-    - (Condition: Desde 2026:)
+    - (Condition: Since 2026:)
       - **Cough:** Buena suerte encontrando esos *ejem* dulces del clan de los caballos.
       - (continue)
     - **Player:** Lo haré. Hasta luego, Cough.

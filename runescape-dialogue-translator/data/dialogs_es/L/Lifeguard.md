@@ -18,17 +18,17 @@
 
 #### Cuando esté lo suficientemente cerca del noreste o cuando hable con cualquier otro socorrista
 
-- (Condition: Si Clawdia está ausente:)
+- (Condition: If Clawdia is absent:)
   - **Lifeguard:** Hola. ¿Cómo puedo ayudar?
   - (continue)
-- (Condition: Si Clawdia está presente:)
+- (Condition: If Clawdia is present:)
   - **Lifeguard:** H-h-hola. ¿Cómo puedo ayudar?
   - (continue)
 - **Player:** ¿Me pregunto cómo estás?
-- (Condition: Si Clawdia está ausente:)
+- (Condition: If Clawdia is absent:)
   - **Lifeguard:** Estoy muy bien. Esta playa está bajo mi control y me siento bien.
   - **Lifeguard:** Si estás en peligro, grita y estaré ahí para ayudarte.
-- (Condition: Si Clawdia está presente:)
+- (Condition: If Clawdia is present:)
   - **Lifeguard:** Vas a hacer que esa cosa desaparezca, ¿no? Esa... esa criatura.
   - **Player:** Claro, haré que desaparezca.
   - **Lifeguard:** Oh, está bien, bien. Gracias.
@@ -64,12 +64,12 @@
 ### Northern one with the Sandy Clue Scroll (historical)
 
 - **Lifeguard:** Ah, encontré esto dentro de una de mis bebidas. ¡Tiene tu nombre!
-- (Condition: Recibir un cuadro de desplazamiento:)
+- (Condition: Receiving a scroll box:)
   - (removes=Sandy Clue Scroll) (receives=Sandy Scroll box)
   - [scrollbox].}}
-- (Condition: Recibir ataúdes:)
-  - (Condition: Sin espacio libre backpack:)
+- (Condition: Receiving caskets:)
+  - (Condition: Without free backpack space:)
     - [Necesitas 1 espacio libre en tu backpack para recibir tus cofres de pistas.]
-  - (Condition: Con espacio gratuito backpack:)
+  - (Condition: With free backpack space:)
     - (removes=Sandy Clue Scroll) (receives=Sandy Casket and its red version)
     - [¡Te entregan un ataúd!]

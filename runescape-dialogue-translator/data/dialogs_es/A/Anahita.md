@@ -28,7 +28,7 @@
 
 ### Overhead lines
 
-- ((Uno de los siguientes se ve al azar:))
+- ((One of the following is seen randomly:))
   - **Anahita:** {{RSChat|I found something!}}
   - **Anahita:** {{RSChat|Ooh, I see something shiny!}}
   - **Anahita:** {{RSChat|Ouch! That was sharp}}

@@ -17,10 +17,10 @@
 - **Player:** Hola.
 - ** Lokar Searunner: ** ¡No me hables, outsider! ¡No tengo tiempo para gente como tú!
 - **Player:** ¿Qué te hace decir eso?
-- (Condition: Antes de completar Las Pruebas Fremennik:)
+- (Condition: Before completing The Fremennik Trials:)
   - ** Lokar Searunner:** Aún tienes experiencia por ganar. ¡Especialmente en consonancia con los Fremenniks y sus pruebas!/¡Aún no eres un aventurero lo suficientemente digno para hablar conmigo! Tienes algunas misiones que hacer.
   - (continue)
-- (Condition: Después de completar Las Pruebas Fremennik, pero sin los requisitos para iniciar Diplomacia Lunar:)
+- (Condition: After completing The Fremennik Trials, but without the requirements to start Lunar Diplomacy:)
   - **Lokar Searunner:** ¡Solo las personas que han viajado en misiones lejos de aquí pueden hablar conmigo!
   - (continue)
 - **Player:** Oh.

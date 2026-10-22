@@ -17,10 +17,10 @@
   - [Choice]: ¡Sí, por favor!
     - **Player:** ¡Sí, por favor!
     - **Bartender:** Ok, entonces son dos gold coins, por favor.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - (removes=2 coins) (receives=beer)
       - **Player:** Gracias, camarero.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - No puedes permitirte eso.
       - **Bartender:** ¡Dije 2 coins! ¡No tienes 2 coins!
       - **Player:** Lo siento, volveré otro día.

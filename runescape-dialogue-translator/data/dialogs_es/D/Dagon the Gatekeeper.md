@@ -31,12 +31,12 @@
 #### Antes de dar katars de fuego infernal
 
 - **Dagon the Gatekeeper:** Ahora que me has liberado, soy libre de perseguir mi venganza. Sin embargo, necesito una nueva arma: las hojas de mis katars se han desafilado. Si me traes un par de katars Hellfire recién restaurados, tengo un regalo más para ti. Mi ira ha aumentado de tal manera que ya no la necesito.
-- ((Si no tienes katars de fuego infernal:))
+- ((If you don't have hellfire katars:))
   - **Player:** Veré si puedo conseguirte un par de katares de fuego infernal.
-- ((Si tienes un katar de fuego infernal restaurado:))
+- ((If you have one restored hellfire katar:))
   - **Player:** ¡Oh, tengo uno de esos!
   - **Dagon the Gatekeeper:** Necesito dos.
-- ((Si tienes dos katars de fuego infernal restaurados:))
+- ((If you have two restored hellfire katars:))
   - **Player:** Tengo un par de katars de fuego infernal justo aquí, tal como dice...
   - ¿Darle dos katars de fuego infernal a Dagon?
     - Sí.

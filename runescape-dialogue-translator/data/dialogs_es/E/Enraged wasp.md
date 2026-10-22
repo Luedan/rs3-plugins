@@ -12,8 +12,8 @@
 ### Appearing
 
 - ¡Una avispa enojada se ha sentido atraída por las colmenas!
-- (ventana emergente)
-  - (Ventana emergente: ¡Una avispa enojada ha sido atraída por las colmenas!|advertencia=yes)
+- (pop-up)
+  - (Pop-up: An angry wasp has been attracted to the beehives!|warning=yes)
 
 ### Trap
 
@@ -21,16 +21,16 @@
 #### Sin trampa para avispas
 
 - ¡Necesitas una trampa para avispas para capturarlas!
-- (ventana emergente)
-  - (Ventana emergente: ¡Necesitas una trampa para avispas para capturar a la avispa!|advertencia=yes)
+- (pop-up)
+  - (Pop-up: You need a wasp trap to capture the wasp with!|warning=yes)
 
 #### Con una trampa para avispas
 
 - (Action: el player atrapa al enraged wasp.)
 - (removes=wasp trap)
 - Capturas tranquilamente a la avispa en la trampa para avispas.
-- (ventana emergente)
-  - (Ventana emergente: Capturas tranquilamente a la avispa en la trampa para avispas.|color=#00FF00)
+- (pop-up)
+  - (Pop-up: You calmly capture the wasp in the wasp trap.|colour=#00FF00)
 
 ### Using a wasp trap
 

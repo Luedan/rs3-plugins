@@ -54,13 +54,13 @@
   - [Choice]: ¡Fred! ¡Fred! ¡He visto 'La Cosa'!
     - (arriba)
   - [Choice]: ¿Puedes hablarme sobre el campo de batalla?
-    - (Condition: Después del Lumbridge Rebuildathon:)
+    - (Condition: After the Lumbridge Rebuildathon:)
       - **Fred the Farmer:** Hmph. Sí, aparece un gran portal no muy lejos de mi granja y Saradomin y Zamorak vienen recorriendo mi tierra, felices como quieran.
       - **Fred the Farmer:** Soldados florecientes por todas partes, asustando a mis gallinas y diciéndoles a todos que deberían unirse a algún ejército de otros.
       - **Fred the Farmer:** Entonces, sin previo aviso, el propio Saradomin instala un campamento de guerra en lo alto de mi casa. Bueno, estaba enojado, te lo diré.
       - **Fred the Farmer:** Entonces, dejé una carta escrita con severidad al duque y construí una nueva casa aquí, trayendo mis ovejas conmigo.
       - **Fred the Farmer:** Y sabes qué... la COSA siguió...
-    - (Condition: Durante el Lumbridge Rebuildathon:)
+    - (Condition: During the Lumbridge Rebuildathon:)
       - **Fred the Farmer:** Hmph. Sí, aparece un gran portal no muy lejos de mi granja y Saradomin y Zamorak vienen recorriendo mi tierra, felices como quieran.
       - **Fred the Farmer:** Soldados florecientes por todas partes, asustando a mis gallinas y diciéndoles a todos que deberían unirse a algún ejército de otros.
       - **Fred the Farmer:** Entonces, sin previo aviso, el propio Saradomin instala un campamento de guerra en lo alto de mi casa. Bueno, estaba enojado, te lo diré.
@@ -68,7 +68,7 @@
       - **Fred the Farmer:** Y sabes qué... la COSA siguió...
       - **Fred the Farmer:** La batalla también destruyó las casas de otras personas, y ahora mismo se están realizando esfuerzos de reconstrucción para ayudarlos.
       - **Fred the Farmer:** ¡No es que necesitara ayuda para mudar mi casa! Hank y Explorer Jack son demasiado blandos, en mi opinión, al aceptar ayuda de aventureros que pasan como ese.
-    - (Condition: Después de la Batalla de Lumbridge, antes del Lumbridge Rebuildathon:)
+    - (Condition: After the Battle of Lumbridge, before the Lumbridge Rebuildathon:)
       - **Fred the Farmer:** Hmph. Sí, aparece un gran portal no muy lejos de mi granja y Saradomin y Zamorak vienen recorriendo mi tierra, felices como quieran.
       - **Fred the Farmer:** Soldados florecientes por todas partes, asustando a mis gallinas y diciéndoles a todos que deberían unirse a algún ejército de otros.
       - **Fred the Farmer:** Entonces, sin previo aviso, el propio Saradomin instala un campamento de guerra en lo alto de mi casa. Bueno, estaba enojado, te lo diré.
@@ -76,7 +76,7 @@
       - **Fred the Farmer:** Y sabes qué... la COSA siguió...
       - **Fred the Farmer:** Al menos ya no pelean.
       - **Fred the Farmer:** ¡Pero no esperes que te dé más trabajos! ¡Encuentra tu propio trabajo!
-    - (Condition: Durante la Batalla de Lumbridge:)
+    - (Condition: During the Battle of Lumbridge:)
       - **Fred the Farmer:** Hmph. Sí, aparece un gran portal no muy lejos de mi granja y Saradomin y Zamorak vienen recorriendo mi tierra, felices como quieran.
       - **Fred the Farmer:** Soldados florecientes por todas partes, asustando a mis gallinas y diciéndoles a todos que deberían unirse a algún ejército de otros.
       - **Fred the Farmer:** Entonces, sin previo aviso, el propio Saradomin instala un campamento de guerra en lo alto de mi casa. Bueno, estaba enojado, te lo diré.

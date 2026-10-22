@@ -53,9 +53,9 @@
                             - [Menu]: Selecciona una opción
                               - [Choice]: ¿Puedo apostar sobre eso?
                                 - **Player:** ¿Puedo apostar sobre eso?
-                                  - (Condition: Si el player ya ha realizado una apuesta:)
+                                  - (Condition: If the player has already placed a bet:)
                                     - **Mercenary:** Lo sentimos, ya hemos aceptado tu apuesta, no queremos que te hagan trampa ahora. De todos modos, tengo que volver al trabajo. Nos vemos por ahí...
-                                  - (Condition: Si el player aún no ha realizado una apuesta:)
+                                  - (Condition: If the player hasn't placed a bet yet:)
                                     - **Mercenary:** Bueno, si crees que tienes una oportunidad, claro. Pero recuerda, si él nos da una orden, tenemos que obedecerla.
                                     - [Menu]: Selecciona una opción
                                       - [Choice]: Apuesto 5 de oro a que gano.

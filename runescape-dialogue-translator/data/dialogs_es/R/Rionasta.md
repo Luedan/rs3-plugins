@@ -30,14 +30,14 @@
             - (previous2|opts-2)
           - [Choice]: ¿Puedo enviar un paquete por favor?
             - **Player:** ¿Puedo enviar un paquete, por favor?
-            - (Condition: Con menos de 10 palos comerciales en backpack:)
+            - (Condition: With less than 10 trading sticks in backpack:)
               - **Rionasta:** Cuesta al menos 10 unidades comerciales utilizar este servicio. Lo siento pero no tienes suficiente.
               - [Menu]: Selecciona una opción
                 - [Choice]: ¿Qué son los palos comerciales y cómo los consigo?
                   - (arriba)
                 - [Choice]: Bien, gracias.
                   - (abajo)
-            - (Condition: Con al menos 10 palos comerciales en backpack:)
+            - (Condition: With at least 10 trading sticks in backpack:)
               - **Rionasta:** Por supuesto... ¿qué artículos te gustaría enviar a tu banco?
               - (opens=Parcel service)
           - [Choice]: Bien, gracias.
@@ -50,10 +50,10 @@
     - **Player:** ¿Hay algo interesante que hacer por aquí?
     - **Rionasta:** Bueno, creo que hay trabajo por hacer... tal vez Murcaily pueda ayudarte. Por lo general, atiende el bosquecillo de madera al este de la cabaña de Trufitus.
   - [Choice]: cond=With Tai Bwo Wannai Cleanup started|He estado trabajando en el pueblo.
-    - (Condition: Con favor Tai Bwo Wannai no reclamado:)
+    - (Condition: With unclaimed Tai Bwo Wannai favour:)
       - **Rionasta:** Oye, te he visto trabajando en el pueblo. Has estado haciendo un muy buen trabajo aquí para nosotros. Déjame darte algo por tu molestia.
       - (receives=trading sticks)
-    - (Condition: Sin favor de Tai Bwo Wannai no reclamado:)
+    - (Condition: Without unclaimed Tai Bwo Wannai favour:)
       - **Rionasta:** Ya te he dado algunos palitos de intercambio y no tengo ninguno más en este momento. ¿Por qué no vas y hablas con algunos de los otros aldeanos y consigues algunas contribuciones?
   - [Choice]: Bien, gracias.
     - **Player:** Vale, gracias.

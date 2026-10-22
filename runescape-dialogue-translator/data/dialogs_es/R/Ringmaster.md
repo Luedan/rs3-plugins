@@ -42,10 +42,10 @@
   - [Choice]: las actuaciones
     - {{anchor|performances-opts}}[Menú]: Elige una opción:
       - [Choice]: ¿Qué actuaciones he hecho?
-        - (Condition: Si el player solo ha realizado una actuación:)
+        - (Condition: If the player has only done the one performance:)
           - **Ringmaster:** Has hecho tu _____ actuación.
           - (continue|tell-me-about)
-        - (Condition: Si el player ha realizado todas las actuaciones:)
+        - (Condition: If the player has done all the performances:)
           - **Ringmaster:** Has hecho todas tus actuaciones de esta semana. Que dedicación tienes.
           - (continue|tell-me-about)
       - [Choice]: Agility.{{anchor|agility}}
@@ -164,12 +164,12 @@
 
 ##### Cuando se habla con
 
-- (Condition: Si el billete diario no ha sido reclamado:)
+- (Condition: If the daily ticket hasn't been claimed:)
   - **Balthazar:** Ahh, no has tenido multa. ¡Arremangar! ¡Arremangar! ¡Consigue tu entrada mientras hace calor!
-    - (Condition: Si el player tiene espacio en su backpack :))
+    - (Condition: If the player has space in their backpack:))
       - Recibes un boleto gratis para el sorteo.
-      - (Continúa a continuación)
-    - (Continúa a continuación)
+      - (Continues below)
+    - (Continues below)
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Qué es todo esto de una rifa?
     - **Player:** ¿Qué es todo esto de una rifa?
@@ -191,14 +191,14 @@
     - **Balthazar:** ¡Asegúrate de llegar todos los días para que pueda darte tu boleto!
     - (initial)
   - [Choice]: ¿Cuántas entradas han entrado hasta el momento en el sorteo de hoy?
-    - (Condition: Si el player no ha participado en el sorteo de hoy:)
+    - (Condition: If the player hasn't entered today's raffle:)
       - **Balthazar:** Hoy se ingresaron un total de boletos [número] con premios totales [número] disponibles. No has participado en el sorteo de hoy. ¿Le gustaría?
       - [Menu]: Selecciona una opción
         - [Choice]: Me gustaría participar en el sorteo.
           - (opens RS Raffle interface)
         - [Choice]: No gracias.
           - (initial)
-    - (Condition: Si el player ha participado en el sorteo de hoy:)
+    - (Condition: If the player has entered today's raffle:)
       - **Balthazar:** Has participado en [número] [ticket/tickets] en el sorteo de hoy y ha habido un total de boletos [número] ingresados hoy con premios totales [número] disponibles.
       - (initial)
   - [Choice]: Adiós
@@ -213,25 +213,25 @@
 ##### Obteniendo pista
 
 - **Player:** ¿Dónde está Gilly Willikers en este momento?
-  - (Condition: Si Gilly está en Al Kharid:)
+  - (Condition: If Gilly is in Al Kharid:)
     - **Balhazar:** Parece que fue visto por última vez en Al Kharid.
     - **Player:** ¡Gracias!
-  - (Condition: Si Gilly está en Draynor Village:)
+  - (Condition: If Gilly is in Draynor Village:)
     - **Balhazar:** Creo que actualmente está visitando Draynor.
     - **Player:** ¡Gracias!
-  - (Condition: Si Gilly está en Edgeville:)
+  - (Condition: If Gilly is in Edgeville:)
     - **Balhazar:** Aparentemente está en Edgeville.
     - **Player:** ¡Gracias!
-  - (Condition: Si Gilly está en Falador:)
+  - (Condition: If Gilly is in Falador:)
     - **Balhazar:** Hmm, recientemente lo vieron deambulando por la puerta principal de Falador.
     - **Player:** ¡Gracias!
-  - (Condition: Si Gilly está en Lumbridge:)
+  - (Condition: If Gilly is in Lumbridge:)
     - **Balhazar:** No hace mucho estaba explorando el castillo Lumbridge.
     - **Player:** ¡Gracias!
-  - (Condition: Si Gilly está en Taverley:)
+  - (Condition: If Gilly is in Taverley:)
     - **Balhazar:** Fue visto en Taverley no hace mucho.
     - **Player:** ¡Gracias!
-  - (Condition: Si Gilly está en Varrock:)
+  - (Condition: If Gilly is in Varrock:)
     - **Balhazar:** He escuchado informes de que está en Varrock.
     - **Player:** ¡Gracias!
 
@@ -246,9 +246,9 @@
     - **Balthazar:** Lamento que el sorteo de RuneScape haya terminado.
     - **Balthazar:** Sólo estoy aquí para repartir los últimos premios.
     - **Player:** ¿Tienes un premio para mí?
-      - (Condition: Si hay premios no reclamados:)
+      - (Condition: If there are unclaimed prizes:)
         - (opens the RS Raffle interface)
-      - (Condition: Si no hay premios no reclamados:)
+      - (Condition: If there are no unclaimed prizes:)
         - **Baltasar:** No, nada para ti. Avanzar.
   - [Choice]: ¿Cuáles son las recompensas del sorteo?
     - **Player:** ¿Cuáles son las recompensas del sorteo?

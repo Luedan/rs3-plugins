@@ -63,10 +63,10 @@
         - (above|daemonheim)
   - [Choice]: cond=If the player has 99 Dungeoneering|¿Puedo comprar un Skillcape de Dungeoneering?
     - **Player:** ¿Puedo comprar un Skillcape o un Dungeoneering?
-    - (Condition: Si el player tiene 99–119 Dungeoneering:)
+    - (Condition: If the player has 99–119 Dungeoneering:)
       - **Thok of Daemonheim:** Bueno, dilo bien. Eres un gran guerrero y Thok te brindará una bebida esta tarde.
       - **Thok of Daemonheim:** Sin embargo, Thok debe pedir 99.000 coins para materiales.
-      - (Condition: Si el player tiene un token inverted skillcape:)
+      - (Condition: If the player has an inverted skillcape token:)
         - **Thok of Daemonheim:** ¡Mira que tienes una moneda de inversión! Thok tomará eso y le ofrecerá una capa de diferentes colores.
         - (removes=any inverted skillcape tokens and inverted master skillcape tokens)
       - [Menu]: Elige una opción:
@@ -77,7 +77,7 @@
           - **Player:** Creo que tengo el dinero aquí, de hecho.
           - (Se toman 99.000 coins de el player a cambio de la capa Dungeoneering).
           - **Thok of Daemonheim:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
-    - ((Si el player tiene 120 Dungeoneering:))
+    - ((If the player has 120 Dungeoneering:))
       - **Thok of Daemonheim:** Creo que me impresionó. Para ser un verdadero maestro de la habilidad tienes opción a dos skillcapes.
       - [Menu]: Elige una opción:
         - [Choice]: Compra el nivel 99 skillcape.
@@ -103,7 +103,7 @@
               - {{tmissing}}
         - [Choice]: Compra el nivel 120 skillcape.
           - **Thok of Daemonheim:** Sin embargo, Thok debe pedir 120.000 coins para materiales.
-          - (Condition: Si el player tiene un token inverted skillcape:)
+          - (Condition: If the player has an inverted skillcape token:)
             - **Thok of Daemonheim:** ¡Mira que tienes una moneda de inversión! Thok tomará eso y le ofrecerá una capa de diferentes colores.
             - (removes=any inverted skillcape tokens and inverted master skillcape tokens)
           - [Menu]: Elige una opción:
@@ -111,7 +111,7 @@
               - **Player:** No, eso es demasiado.
               - **Thok of Daemonheim:** Thok ofrecería un préstamo, pero gastó todo el dinero en cerveza.
             - [Choice]: Bien, eso parece razonable.
-              - (Condition: Si el player le ha dado a Thok un token maestro skillcape invertido:)
+              - (Condition: If the player has given Thok an inverted master skillcape token:)
                 - [Menu]: Selecciona una opción
                   - [Choice]: Me gustaría un master cape normal.
               - (above|buy-master-cape)
@@ -158,7 +158,7 @@
         - **Player:** ¿Estará bien?
         - **Thok of Daemonheim:** ¡No temas por Mini Marm, teme por los monstruos que se atreven a interponerse en su camino!
   - [Choice]: Acerca del sistema de tareas...
-    - (Condition: Si el player ha completado los logros de élite de Daemonheim y no se han reclamado las recompensas:)
+    - (Condition: If the player has completed the elite Daemonheim achievements and the rewards have not been claimed:)
       - **Player:** He completado todas las tareas Elite del conjunto Daemonheim.
       - **Thok of Daemonheim:** Bien, bien.
       - [Thok te entrega algunas lámparas.]
@@ -192,10 +192,10 @@
         - (end)
   - [Choice]: cond=If the player has 99 Dungeoneering|He notado que hay un par de versiones de cada skillcape.
     - **Thok of Daemonheim:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
-    - (Condition: Si el player utiliza el modelo antiguo:)
+    - (Condition: If the player is using the old model:)
       - **Thok of Daemonheim:** Parece que actualmente estás usando el modelo anterior para tu Dungeoneering skillcape. ¿Quieres cambiar a uno más nuevo?
       - (continue)
-    - (Condition: Si el player está utilizando el nuevo modelo:)
+    - (Condition: If the player is using the new model:)
       - **Thok of Daemonheim:** Aún puedes elegir usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
       - (continue)
     - [Menu]: Selecciona una opción
@@ -210,7 +210,7 @@
             - (end)
       - [Choice]: No, gracias.
         - **Thok of Daemonheim:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
-        - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+        - (Condition: If the player uses the new model for any other skillcape:)
           - **Thok of Daemonheim:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
           - [Menu]: Selecciona una opción
             - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.

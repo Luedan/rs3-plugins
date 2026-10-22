@@ -16,12 +16,12 @@
 
 - **Player:** Oye, ¿quién eres? ¿Qué estás haciendo aquí? ¡No parece que deberías estar aquí!
 - **Liara:** ¿Qué te importa, soplón? Estoy en asuntos oficiales del Gremio de Ladrones.
-- (Condition: Antes de completar From Tiny Acorns (o una de las minimisiones posteriores):)
+- (Condition: Before completing From Tiny Acorns (or one of the subsequent miniquests):)
   - **Player:** ¡Oh, un verdadero gremio de ladrones! ¿Robas a los ricos y das a los pobres?
   - **Liara:** Bueno, alguien está entusiasmado... y sí, se nos conoce por proporcionar cierta redistribución kármica de la riqueza.
   - (continue)
   - **Liara:** ¿Sabes qué? Me vendría bien una tuza en mi último trabajo, si estás dispuesto a ello...
-- (Condition: Después de completar From Tiny Acorns (o una de las minimisiones posteriores):)
+- (Condition: After completing From Tiny Acorns (or one of the subsequent miniquests):)
   - **Player:** Oh, estás en el gremio, ¡yo también!
   - **Liara:** Una historia probable.
   - **Player:** Uno que Darren estará encantado de contarte, estoy seguro.
@@ -34,13 +34,13 @@
 #### Después
 
 - **Player:** Hola, Liara. Entonces, ¿cómo puedo ayudar?
-- (Condition: Por debajo de 95 Thieving:)
+- (Condition: Below 95 Thieving:)
   - **Liara:** En el segundo {{Sic|thoughts}}, te vendría bien un poco más de experiencia. No quiero que te pierdas en la sombra.
   - Para unirse al atraco de la Bóveda de Hereditas se requieren 95 Thieving.
   - (ventana emergente)
     - {{Popup|To join in on the Vault of Hereditas heist requires 95 Thieving.}}
   - (end)
-- (Condition: En o por encima de 95 Thieving:)
+- (Condition: At or above 95 Thieving:)
   - (continue)
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Qué son los atracos?
@@ -57,13 +57,13 @@
     - **Liara:** Ciertamente tiene sus méritos. Sin embargo, recuerda la regla de oro: ¡solo de personas que lo merecen!
     - (previous)
   - [Choice]: ¿Qué es este atraco?
-    - (Condition: En el sitio de excavación Kharid-et:)
+    - (Condition: At Kharid-et Dig Site:)
       - **Liara:** Bien, entonces esta es la Bóveda de Hereditas. O al menos uno de ellos: podría haber muchas cosas debajo de este lugar.
       - **Liara:** Desde el interior del porro, está lleno de reliquias mágicas antiguas y poderosas, que valdrán un buen centavo.
       - **Player:** ¿Reliquias mágicas? Bueno, soy partidario de alguno que otro aquí o allá.
       - **Liara:** Nunca es de mi gusto, siempre prefiero el oro. Ahora, ¿algo más?
       - (previous)
-    - (Condition: Sobre la Anacronía:)
+    - (Condition: On Anachronia:)
       - **Liara:** Por lo que puedo discernir, esta es la entrada a algo llamado Arsenal Asura.
       - **Liara:** Piense en ello como una instalación de desarrollo, prueba y almacenamiento de armas dragonantes.
       - **Player:** Oh, ¿armas de dragón?
@@ -72,7 +72,7 @@
       - **Player:** Ese soy yo, ¡soy lo suficientemente tonto como para entrar!
     - (previous)
   - [Choice]: ¿Qué puedo esperar dentro?
-    - (Condition: En el sitio de excavación Kharid-et:)
+    - (Condition: At Kharid-et Dig Site:)
       - **Liara:** Justo dentro, hay un cofre con un botín realmente sabroso, pero está protegido... no puedo acceder a él.
       - **Liara:** Parece ser uno de esos pilones de sombra que bloquean el camino, así que tendrás que entrar hasta el final, encontrar un camino para pasar t y luego saquear el cofre antes de salir.
       - **Player:** ¿Qué hay entre nosotros y eso?
@@ -81,7 +81,7 @@
       - **Liara:** Finalmente, algunas de las cosas que puedes robar están ocultas en el Reino de las Sombras, por lo que es posible que necesites usar baterías para alimentar un ancla de las sombras cercana para poder saquearlas.
       - **Liara:** Pero no las baterías de aquí, no parecen funcionar; solo funcionan las baterías que saqueas dentro del atraco por alguna razón.
       - (previous)
-    - (Condition: Sobre la Anacronía:)
+    - (Condition: On Anachronia:)
       - **Liara:** La buena noticia es que no hay guardias vivos con los que lidiar. ¡La mala noticia es que esta instalación está monitoreada por una especie de entidad holográfica llamada the Keeper! Si esa cosa te ve, estás acabado.
       - **Liara:** Pero también, la mala noticia sobre las buenas noticias es que la razón por la que no hay nada vivo aquí es gracias a todas las defensas automatizadas.
       - **Liara:** Hay cañones automáticos Nodon y lanzallamas por todas partes.
@@ -90,7 +90,7 @@
       - **Liara:** Pero estarás bien, lo prometo. Sólo asegúrate de llevar algo de comida para este atraco...
       - (previous)
   - [Choice]: ¿Qué tiene valor aquí?
-    - (Condition: En el sitio de excavación Kharid-et:)
+    - (Condition: At Kharid-et Dig Site:)
       - **Liara:** Entonces, mi fuente me dice que este lugar está lleno de cosas que el imperio *ejem* 'confiscó' a todos sus enemigos: reliquias poderosas.
       - **Liara:** Mi fuente sugiere que mucho de lo que se llevaron fueron armas, pero no tenían ningún detalle para mí.
       - **Player:** ¡Supongo que tendré que descubrirlo por mí mismo!
@@ -99,21 +99,21 @@
       - **Liara:** No puedo mentir... así que simplemente no te lo diré. Debo mantener mis fuentes seguras; prefieren "pegarse a las sombras", por así decirlo.
       - **Player:** Hmm, me pregunto...
       - (previous)
-    - (Condition: Sobre la Anacronía:)
+    - (Condition: On Anachronia:)
       - **Liara:** Bueno, dado que es una instalación de armas, apuesto a que hay un arma o dos para encontrar aquí.
       - **Liara:** Cuando exploré la entrada, esa cosa de Keeper mencionó algo sobre entregar 'Mercy'.
       - **Liara:** Y, aparentemente, los dragonantes tenían el concepto de retribución kármica al pie de la letra: lo hicieron instantáneo y mortal.
       - **Liara:** Así que busca algo relacionado con eso. Sinceramente, estoy desconcertado.
       - (previous)
   - [Choice]: ¡Estoy listo para entrar!
-    - (Condition: En el sitio de excavación Kharid-et:)
-      - (Condition: Con la entrada cerrada:)
+    - (Condition: At Kharid-et Dig Site:)
+      - (Condition: With the entrance closed:)
         - (Action: La puerta de la bóveda cambia a la entrada del atraco de la Bóveda de Hereditas.)
         - **Liara:** ¡Te he desbloqueado la entrada!
         - (continue)
       - **Liara:** ¡Diviértete!
-    - (Condition: Sobre la Anacronía:)
-      - (Condition: Con la entrada cerrada:)
+    - (Condition: On Anachronia:)
+      - (Condition: With the entrance closed:)
         - (Action: La entrada de la mazmorra se transforma en la entrada del atraco del Arsenal Asuran.)
         - **Liara:** ¡El camino está abierto para ti!
         - (continue)

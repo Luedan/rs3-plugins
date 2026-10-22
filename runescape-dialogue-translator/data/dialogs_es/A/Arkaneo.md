@@ -18,7 +18,7 @@
 - Cuando Arkaneo se marcha con estilo, el agua salpica el área.
 - (Action: el player recibe los tres potenciadores de Deep Sea Fishing.)
 - ¡Toda la pesca en alta mar aumenta activa!
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - ¡Toda la pesca en alta mar aumenta activa!
   - (continue)
 - El pez vela, Arkaneo, ha partido...

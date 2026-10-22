@@ -90,15 +90,15 @@
 
 - **Raptor (experto en dragones):** Tengo una solicitud especial para [breed]. ¡Especialmente si tiene el rasgo [Trait]!
 - **Raptor (experto en dragones):** También busco algunos dragones, de hecho compraré hasta [número] más mientras esté aquí.
-- ((Repetido para cada dragón en backpack:))
+- ((Repeated for each dragon in backpack:))
   - ¿Le gustaría vender [name] por frijoles [número]?
   - [Menu]: ¿Vender [name] por frijoles [número]?
     - [Choice]: Sí.
-      - ((Si el player tiene un millón de beans:))
+      - ((If the player has a million beans:))
         - ¡Tu bolsa de monedas está llena de frijoles! Necesitas gastar algunos frijoles antes de poder ganar más.
         - **Raptor (experto en dragones):** No puedes aguantar más frijoles, no puedo comprarte este animal.
         - (continue)
-      - ((Si la transacción le tomara a el player más de un millón de beans:))
+      - ((If transaction would take the player over a million beans:))
         - Esta transacción le llevaría por encima del límite de un millón de frijoles. Al hacerlo, perdería beans [número].
         - [Menu]: ¿Completar la transacción de todos modos?
           - [Choice]: Sí.
@@ -107,18 +107,18 @@
             - ¡Tu bolsa de monedas está llena de frijoles! Necesitas gastar algunos frijoles antes de poder ganar más.
           - [Choice]: No.
             - **Raptor (experto en dragones):** No puedes aguantar más frijoles, no puedo comprarte este animal.
-      - ((De lo contrario:))
+      - ((Otherwise:))
         - (Action: El animal está vendido.)
         - Frijoles [número] agregados a su bolsa de divisas.
         - (continue)
     - [Choice]: No.
       - (end)
-- ((Si no se vendieran animales:))
+- ((If animals were not sold:))
   - **Player:** Déjame comprobar qué animales tengo que coincidan con tu solicitud.
-- ((Si se vendieran animales:))
-  - ((Si Raptor aún puede comprar más:))
+- ((If animals were sold:))
+  - ((If Raptor can still buy more:))
     - (end)
-  - ((Si Raptor no puede comprar más:))
+  - ((If Raptor can't buy more:))
     - **Raptor (experto en dragones):** He comprado todos los animales que necesito por ahora, ¡nos vemos más tarde!
     - (Action: The Raptor se teletransporta.)
 
@@ -127,42 +127,42 @@
 - **Raptor (experto en dragones):** ¿Estás seguro de que quieres que me lleve todos los dragones que tienes? No aceptaré ninguno de tus favoritos.
 - [Menu]: ¿Vender todos tus dragones?
   - [Choice]: si
-    - ((Con dragones en backpack:))
-      - ((Si el player tiene un millón de beans:))
-        - ((Se repite para cada animal restante y luego continúa a continuación:))
+    - ((With dragons in backpack:))
+      - ((If the player has a million beans:))
+        - ((Repeated for each remaining animal, then continues below:))
           - ¡Tu bolsa de monedas está llena de frijoles! Necesitas gastar algunos frijoles antes de poder ganar más.
           - **Raptor (experto en dragones):** No puedes aguantar más frijoles, no puedo comprarte este animal.
         - No tienes animales para vender. ¡Cero animales, cero frijoles!
-      - ((Si la transacción le tomara a el player más de un millón de beans:))
-        - ((Se repite para cada animal que no supere el límite, luego continúa a continuación:))
+      - ((If transaction would take the player over a million beans:))
+        - ((Repeated for each animal not surpassing the cap, then continues below:))
           - (Action: El animal está vendido.)
           - Frijoles [número] agregados a su bolsa de divisas.
-        - ((Se repite para cada animal que queda por vender y luego continúa a continuación:))
+        - ((Repeated for each animal left to sell, then continues below:))
           - Esta transacción le llevaría por encima del límite de un millón de frijoles. Al hacerlo, perdería beans [número].
           - [Menu]: ¿Completar la transacción de todos modos?
             - [Choice]: Sí.
               - (Action: El animal está vendido.)
               - Frijoles [número] agregados a su bolsa de divisas.
               - ¡Tu bolsa de monedas está llena de frijoles! Necesitas gastar algunos frijoles antes de poder ganar más.
-              - ((Se repite para cada animal restante y luego continúa a continuación:))
+              - ((Repeated for each remaining animal, then continues below:))
                 - ¡Tu bolsa de monedas está llena de frijoles! Necesitas gastar algunos frijoles antes de poder ganar más.
                 - **Raptor (experto en dragones):** No puedes aguantar más frijoles, no puedo comprarte este animal.
-              - ((Si se vendieron varios animales:))
+              - ((If multiple animals were sold:))
                 - Has vendido animales [número] por un total de frijoles [número].
             - [Choice]: No.
               - **Raptor (experto en dragones):** No puedes aguantar más frijoles, no puedo comprarte este animal.
               - (continue)
-        - ((Si no se vendieron animales:))
+        - ((If no animals were sold:))
           - No tienes animales para vender. ¡Cero animales, cero frijoles!
-        - ((Si se vendieron varios animales:))
+        - ((If multiple animals were sold:))
           - Has vendido animales [número] por un total de frijoles [número].
-      - ((De lo contrario:))
-        - ((Se repite para cada animal que no supere el límite, luego continúa a continuación:))
+      - ((Otherwise:))
+        - ((Repeated for each animal not surpassing the cap, then continues below:))
           - (Action: El animal está vendido.)
           - Frijoles [número] agregados a su bolsa de divisas.
-        - ((Si se vendieron varios animales:))
+        - ((If multiple animals were sold:))
           - Has vendido animales [número] por un total de frijoles [número].
-    - ((Sin dragones en backpack:))
+    - ((Without dragons in backpack:))
       - No tienes animales para vender. ¡Cero animales, cero frijoles!
   - [Choice]: No
     - (end)
@@ -176,7 +176,7 @@
 
 #### Habla con
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only on first time:)
   - **Player:** ¡Hola! ¿Qué está pasando aquí?
   - **The Raptor:** Bien conocido y bienvenido al retiro de War.
   - **The Raptor:** Me conocen como the Raptor y estoy aquí a petición de nuestro anfitrión para otorgar una bendición a los mejores guerreros de Gielinor.
@@ -184,7 +184,7 @@
   - [Mientras Raptor's Favor esté activo, tu próxima muerte de jefe antes del reinicio diario (00:00 UTC) te otorgará tres oportunidades de acceder a objetos raros específicos del jefe, en lugar de una.]
   - **The Raptor:** Habla conmigo, pide el favor de Raptor, luego atraviesa uno de estos portales y entra en la refriega.
   - (continue)
-- (Condition: Sólo después de la primera vez:)
+- (Condition: Only after the first time:)
   - **The Raptor:** ¿Has vuelto por más?
   - (continue)
 - [Menu]: Selecciona una opción
@@ -200,20 +200,20 @@
     - [Se puede activar una vez al día mientras dure el evento hablando con the Raptor.]
     - (previous)
   - [Choice]: cond=Only if not asked last:|Grant ¡El favor de Raptor!
-    - (Condition: Sin haber recibido el Favor de Raptor hoy:)
-      - (Condition: Durante el evento:)
+    - (Condition: Without having received Raptor's Favour today:)
+      - (Condition: During the event:)
         - (Action: el player recibe el favor de Raptor.)
         - **The Raptor:** Ahí. ¡Ahora, adelante y mata!
         - [¡El favor del raptor está activo! La próxima muerte de tu jefe antes del reinicio diario (00:00 UTC) te otorgará tres oportunidades de acceder a objetos raros específicos del jefe, en lugar de una.]
         - (previous)
-      - (Condition: Una vez finalizado el evento:)
+      - (Condition: After the event has ended:)
         - **The Raptor:** Lo sentimos, el evento de War terminó.
-    - (Condition: Habiendo recibido el Favor de Raptor hoy:)
-      - (Condition: Con Favor de Raptor activo:)
+    - (Condition: Having received Raptor's Favour today:)
+      - (Condition: With Raptor's Favour active:)
         - **The Raptor:** Ya tienes Raptor's Favor. ¿Qué estás esperando? ¡Mata algo! ¡Algo grande!
         - [¡El favor del raptor está activo! La próxima muerte de tu jefe antes del reinicio diario (00:00 UTC) te otorgará tres oportunidades de acceder a objetos raros específicos del jefe, en lugar de una.]
         - (previous)
-      - (Condition: Sin Favor de Raptor activo:)
+      - (Condition: Without Raptor's Favour active:)
         - **The Raptor:** Parece que has agotado tu Favor de Raptor por hoy.
         - [Raptor's Favor estará disponible nuevamente después del reinicio diario (00:00 UTC).]
         - (previous)
@@ -239,20 +239,20 @@
 - [Menu]: Elige una opción:
   - [Choice]: ¿Podemos hablar de asignaciones?
     - **Player:** Necesito otra tarea.
-    - (Condition: Si actualmente no está en una asignación de Slayer:)
-      - (Condition: Si el player es elegido al azar para recibir el desafío especial de cazador de the Raptor:)
+    - (Condition: If currently not on a Slayer assignment:)
+      - (Condition: If the player is randomly chosen to receive the Raptor's special slayer challenge:)
         - (continue|Receiving a special challenge)
-      - (Condition: Si el player lleva una capa de Slayer master y es elegido al azar para seleccionar la siguiente tarea:)
+      - (Condition: If the player is wearing a Slayer master cape and is randomly chosen to select the next task:)
         - [pic=Slayer master capa detail.png]
         - (opens=The Raptor#Assignment)
-      - (Condition: Si el player no pudo elegir su tarea y tiene entradas VIP para Slayer:)
+      - (Condition: If the player didn't get to choose their task and has Slayer VIP tickets:)
         - [Menu]: ¿Cambiar su tarea Slayer asignada?
           - [Choice]: [número] [monsters] (predeterminado)
             - (continue)
           - [Choice]: [número] [monsters] (cuesta 1 token Slayer)
             - (Action: Se cambia la asignación.)
             - (continue)
-      - (Condition: Con Slayer Introspection aprovechado:)
+      - (Condition: With Slayer Introspection harnessed:)
         - [Menu]: ¿Modificar su tarea Slayer asignada?
           - [Choice]: [número] [monsters] (predeterminado)
             - (continue)
@@ -262,7 +262,7 @@
           - [Choice]: [maximal number] [monsters] (máx.)
             - (Action: La cantidad en la asignación se cambia al máximo.)
             - (continue)
-      - ((Aparece uno de los siguientes y luego continúa a continuación:))
+      - ((One of the following appears, then continues below:))
         - **The Raptor:** Está bien, entonces, supongo. Tu nueva tarea es matar a [número] [monsters].
         - **The Raptor:** Lo estás haciendo bien, supongo. Tu nueva tarea es matar a [número] [monsters].
       - [Menu]: Selecciona una opción
@@ -274,7 +274,7 @@
           - **The Raptor:** No falles y no olvides volver cuando necesites una nueva tarea.
         - [Choice]: No gracias. (Tarea clara, cuesta 30 puntos Slayer)
           - {{Transcript missing}}
-    - (Condition: Si actualmente está en una asignación Slayer:)
+    - (Condition: If currently on a Slayer assignment:)
       - **The Raptor:** Todavía estás cazando a [monsters]; Vuelve cuando hayas terminado tu tarea.
   - [Choice]: Hablemos de ti.
     - **The Raptor:** Los nombres no importan. Llámame the Raptor.
@@ -282,7 +282,7 @@
     - **The Raptor:** Con cada monstruo que mato, me hago más fuerte.
     - (previous)
   - [Choice]: cond=Only with the skeleton trophy mounted:|¿Podemos hablar de cambiar la duración de tu tarea?
-    - ((Lo siguiente se muestra en una interfaz titulada "SELECCIONAR UNA OPCIÓN" con la selección de duración de la tarea actualmente activa deshabilitada.))
+    - ((The following is shown in an interface titled "SELECT AN OPTION" with the currently active task length selection is disabled.))
       - [Menu]: Elija la duración de su tarea:
         - [Choice]: Predeterminado
           - [Las tareas Slayer de the Raptor ahora tendrán la duración predeterminada.]
@@ -291,7 +291,7 @@
         - [Choice]: largo
           - [Ahora recibirás tareas de asesino más largas de the Raptor.]
   - [Menu]: cond=Solo antes de completar A Place For My Heads:|¿Podemos hablar de tus trofeos de recompensa?
-    - (Condition: Si el player tiene los desafíos Slayer desactivados:)
+    - (Condition: If the player has Slayer challenges toggled off:)
       - {{Transcript missing}}
     - [Menu]: Selecciona una opción
       - [Choice]: ¿Puedes hablarme un poco más sobre las recompensas de trofeos?
@@ -299,21 +299,21 @@
         - **The Raptor:** Cada vez que regreses a mí después de completar uno de mis desafíos, te otorgaré un nuevo trofeo para que lo coloques en tu caseta de vigilancia, siempre que seas lo suficientemente fuerte.
         - [Recibirás una nueva recompensa de punto de acceso de the Raptor después de completar sus tareas de Slayer en 30, 50 y 90 Slayer.]
       - [Choice]: ¿Tienes alguna recompensa para mí?
-        - (Condition: Si el player tiene recompensas de trofeos de cazador no reclamados:)
-          - (Condition: Sin espacio en backpack:)
+        - (Condition: If the player has unclaimed slayer trophy rewards:)
+          - (Condition: Without space in backpack:)
             - **The Raptor:** Lo siento, no tienes suficiente espacio para todas tus recompensas. {{Sic|Come back once you've up some space.}}
-          - (Condition: Con espacio en backpack:)
-            - (Condition: Con una recompensa no reclamada:)
+          - (Condition: With space in backpack:)
+            - (Condition: With one unclaimed reward:)
               - (receives=the next slayer trophy in sequence)
               - [Has recibido: Trofeo Slayer ([Zombie/Skeleton/Phantom])]
               - **The Raptor:** Aquí está tu recompensa. Si lo montas en la caseta de vigilancia, debería ofrecerte algunos efectos positivos.
-            - (Condition: Con múltiples recompensas no reclamadas:)
-              - (Condition: Por cada trofeo no reclamado:)
+            - (Condition: With multiple unclaimed rewards:)
+              - (Condition: For each unclaimed trophy:)
                 - (receives=the next slayer trophy in sequence)
                 - [Has recibido: Trofeo Slayer ([Zombie/Skeleton/Phantom])]
                 - (continue)
               - **The Raptor:** Aquí están todas las recompensas que se le deben. Si los montas en la caseta de vigilancia, deberían ofrecerte algunos efectos positivos.
-        - (Condition: Si el player no tiene una recompensa de trofeo de cazador no reclamada:)
+        - (Condition: If the player does not have an unclaimed slayer trophy reward:)
           - **The Raptor:** No tienes ninguna recompensa disponible.
   - [Choice]: Eh... nada...
     - **Player:** Eh... nada...
@@ -324,10 +324,10 @@
 - **The Raptor:** Los muertos vivientes en las criptas del norte arrasarán el fuerte si no haces nada.
 - **The Raptor:** Mata a [número] de ellos. Yo haré lo mismo y nos encontraremos aquí.
 - **The Raptor:** Los objetivos más fuertes merecen varias muertes. ¿Lo entiendes?
-- (Condition: Si el player aún no ha conseguido los tres trofeos de cazadora:)
+- (Condition: If the player has not yet claimed all three slayer trophies:)
   - **The Raptor:** Completa esta tarea y ganarás un trofeo. Los trofeos mejoran tu habilidad de asesino.
   - (continue)
-- (Condition: Si el player ya ha conseguido los tres trofeos de cazador:)
+- (Condition: If the player has already claimed all three slayer trophies:)
   - [Completar esta tarea otorgará puntos de cazador adicionales.]
   - (continue)
 - [Menu]: Selecciona una opción
@@ -346,19 +346,19 @@
 
 #### Recompensas
 
-- ((Se abre la interfaz de recompensas Slayer.))
+- ((Slayer Rewards interface opens.))
 
 #### Al completar un desafío especial
 
 - Has completado tu tarea especial de the Raptor y recibes 3000 experiencia de cazador y 20 puntos de cazador.
-- (Condition: Si el player aún no ha conseguido los tres trofeos de cazadora:)
+- (Condition: If the player has not yet claimed all three slayer trophies:)
   - The Raptor tiene una nueva recompensa para ti.
 
 #### Usando fragmentos de hueso
 
-- ((Lo siguiente se muestra en una interfaz de solicitud de entrada:))
+- ((The following is shown in an input prompt interface:))
   - {{Tinput|How many bone fragments would you like to hand in? (0-[number])}}
-  - ((Continúa después de ingresar un número positivo o termina después de ingresar "0".))
+  - ((Continues after entering a positive number, or ends after entering "0".))
 - (removes=as many bone fragments as they entered)
 - (Action: el player gana experiencia Slayer.)
 - The Raptor te enseña sobre Slayer.

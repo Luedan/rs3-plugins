@@ -53,10 +53,10 @@
     - [Menu]: Selecciona una opción
       - [Choice]: Sí por favor.
         - **Player:** Sí, por favor.
-        - (Condition: Sin espacio en backpack:)
+        - (Condition: Without space in backpack:)
           - **Barnabus Hurma:** Desafortunadamente, no tienes espacio para ello.
           - (otras|opciones iniciales)
-        - (Condition: Con espacio en backpack:)
+        - (Condition: With space in backpack:)
           - [Barnabus Hurma te entrega una bolsa resistente.]
           - (receives=statue collection bag)
           - (otras|opciones iniciales)
@@ -78,9 +78,9 @@
     - **Barnabus Hurma:** Bueno, no estoy seguro, pero sospecho que de la misma manera que obtuviste el primero.
     - **Player:** ¿Por qué necesito un gemelo?
     - **Barnabus Hurma:** Porque, curiosamente, se entrelazan en pares para formar toda la estatua sin necesidad de ningún tipo de adhesivo.
-    - (Condition: Si el player ya tiene una bolsa de recolección de estatuas:)
+    - (Condition: If the player already has a statue collection bag:)
       - **Barnabus Hurma:** Ya tienes una bolsa de colección de estatuas.
-    - (Condition: Si el player no tiene bolsa de recolección de estatuas:)
+    - (Condition: If the player does not have a statue collection bag:)
       - (continuea|givebag)
   - [Choice]: ¿Cómo lo agrego a la estatua?
     - **Player:** ¿Cómo agrego una pieza a la estatua?
@@ -97,21 +97,21 @@
         - (continuea|givebag2)
       - [Choice]: Tendré que mantener una lista de piezas.
         - **Player:** Tendré que mantener una lista de piezas.
-        - (Condition: Sin espacio en backpack:)
+        - (Condition: Without space in backpack:)
           - **Barnabus Hurma:** Sí, eso es realmente sabio. Avísame cuando tengas espacio y te daré algo de papel.
           - (continuea|givebag2)
-        - (Condition: Con espacio en backpack:)
+        - (Condition: With space in backpack:)
           - **Barnabus Hurma:** Sí, sería prudente. Aquí tienes algo de papel para usar.
           - [Barnabus Hurma te entrega una hoja de papel en la que garabateas rápidamente.]
           - (receives=Statue of Dahmaroc list)
           - (initial|initialoptions)
-        - (Condition: Con la lista ya en backpack:)
+        - (Condition: With the list already in backpack:)
           - **Barnabus Hurma:** Sí, sería prudente. Veo que ya tienes uno allí.
           - (initial|initialoptions)
       - [Choice]: cond=If the player has completed the statue at least once before, and destroyed a replica piece:|He perdido una réplica.
-        - (Condition: Sin espacio en backpack:)
+        - (Condition: Without space in backpack:)
           - {{Tmissing}}
-        - (Condition: Con espacio en backpack:)
+        - (Condition: With space in backpack:)
           - **Player:** He perdido una réplica.
           - El arqueólogo te entrega un .
           - (receives=Replica statue piece)
@@ -131,9 +131,9 @@
         - (continuea|givebag)
       - [Choice]: Me gustaría restablecer mi estatua.
         - **Player:** Me gustaría restablecer mi estatua.
-        - (Condition: Si el pedestal está vacío:)
+        - (Condition: If the plinth is empty:)
           - **Barnabus Hurma:** Ah, hay un pequeño problema ahí. No tienes que restablecer.
-        - (Condition: Si al pedestal se le agregaron al menos un par de rocas:)
+        - (Condition: If the plinth has at least a pair of rocks added to it:)
           - **Barnabus Hurma:** ¿Estás seguro? ¡Perderás todo tu progreso!
           - Advertencia: perderás todo tu progreso, incluida cualquier estatua construida en tu casa. Esto no se puede revertir.
           - [Menu]: Elige una opción:
@@ -152,14 +152,14 @@
 ##### Con la recolección de rocas activada
 
 - Ya no encontrarás rocas extrañas.
-- (ventana emergente)
-  - (Ventana emergente: ya no encontrarás rocas extrañas).
+- (pop-up)
+  - (Pop-up: You will no longer find strange rocks.)
 
 ##### Con la recolección de piedras desactivada
 
 - Ahora encontrarás rocas extrañas.
-- (ventana emergente)
-  - (Ventana emergente: ahora encontrarás rocas extrañas).
+- (pop-up)
+  - (Pop-up: You will now find strange rocks.)
 
 #### Intentando completar otra estatua de Dahmaroc antes de que haya pasado una semana
 

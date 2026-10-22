@@ -22,19 +22,19 @@
 ##### Orientación a el player
 
 - Escuchas la canción del cantor marino.
-- ((Repetido en un mensaje emergente:))
+- ((Repeated in a pop-up message:))
   - Escuchas la canción del cantor marino.
 
 ##### Apuntar a otro jugador
 
 - Ella no está interesada en ti.
-- ((Repetido en un mensaje emergente:))
+- ((Repeated in a pop-up message:))
   - Ella no está interesada en ti.
 
 #### Después de escuchar con éxito
 
 - Ya has escuchado su canción.
-- ((Repetido en un mensaje emergente:))
+- ((Repeated in a pop-up message:))
   - Ya has escuchado su canción.
 
 ### Gregg 'Groggy' Herring's song
@@ -65,5 +65,5 @@
 ### Leaving after listening
 
 - Serás recompensado por escuchar al cantante marino: recibirás [número] Fishing XP.
-- ((Repetido en un mensaje emergente:))
+- ((Repeated in a pop-up message:))
   - Serás recompensado por escuchar al cantante marino: recibirás [número] Fishing XP.

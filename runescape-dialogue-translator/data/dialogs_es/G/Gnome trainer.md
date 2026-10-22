@@ -34,31 +34,31 @@
     - **Player:** Entonces, ¿qué tiene de especial este curso?
     - **Gnome trainer:** Bueno, es donde la mayoría de la gente tiende a empezar a entrenar. También hemos creado una extensión para aquellos que estén dispuestos a aceptar el desafío.
     - **Player:** ¿Una extensión?
-    - (Condition: Si el nivel Agility de el player es al menos 85:)
+    - (Condition: If the player's Agility level is at least 85:)
       - **Gnome trainer:** Bueno, parece que puedes manejarlo, así que te informaré.
       - **Gnome trainer:** Si sigues el recorrido normalmente, verás una nueva rama antes de la cuerda de equilibrio. Este es el camino hasta la nueva ruta.
       - **Gnome trainer:** Te ha llevado un tiempo fortalecer la rama, pero deberías encontrarte lo suficientemente ágil para pasar al siguiente nivel. Te sugiero que lo compruebes.
       - **Player:** Podría hacer eso. ¿Algo más que necesito saber?
       - **Gnome trainer:** Sí. Si sigues la ruta más difícil, obtendrás una bonificación de experiencia mucho mayor al final. ¡Solo asegúrate de haber completado todos los obstáculos que conducen a la rama!
       - **Gnome trainer:** Oh, casi lo olvido: si logras hacer 250 vueltas de la ruta avanzada sin fallar, te daremos un artículo especial. Mantendremos un recuento de tus vueltas, para que siempre puedas comprobar tu progreso.
-    - (Condition: Si el nivel Agility de el player está por debajo de 85:)
+    - (Condition: If the player's Agility level is below 85:)
       - **Gnome trainer:** Es un desafío que creo que está un poco fuera de tu alcance. Te daré más información cuando tengas un poco más de experiencia.
       - Necesitas un nivel Agility de 85 para intentar el curso mejorado de gnomos.
   - [Choice]: cond=If at least one lap of the Advanced Gnome Stronghold Course has been completed:|¿Puedo hablar de recompensas?
     - **Player:** ¿Puedo hablar sobre recompensas?
-    - (Condition: Si el player ha reclamado las piernas Agile:)
+    - (Condition: If the player has claimed the Agile legs:)
       - **Gnome trainer:** Por supuesto. ¿Cómo puedo ayudar?
       - **Player:** ¿Alguna posibilidad de tener más piernas ágiles?
       - (receives=agile legs)
       - **Gnome trainer:** Aquí tienes, intenta no perderlos.
-    - (Condition: Si el player aún no ha reclamado los tramos Agile:)
-      - (Condition: Si el player ha completado 250 vueltas perfectas de ruta avanzada:)
+    - (Condition: If the player has not yet claimed the Agile legs:)
+      - (Condition: If the player has completed 250 perfect advanced route laps:)
         - **Gnome trainer:** Bueno, ¡parece que has completado nuestro desafío!
         - **Gnome trainer:** Llévate esto como recompensa: unas piernas ágiles. Te sentirás mucho más ligero de lo habitual mientras los uses.
         - **Gnome trainer:** Están hechos del material más resistente que los gnomos pudimos encontrar, por lo que incluso podrían protegerte en combate.
         - (receives=agile legs)
         - **Gnome trainer:** Ahí lo tienes. ¡Disfrutar!
-      - (Condition: Si el player aún no ha completado 250 vueltas perfectas de ruta avanzada:)
+      - (Condition: If the player has not completed 250 perfect advanced route laps yet:)
         - **Gnome trainer:** Bueno, todavía tienes trabajo por hacer. Tu recuento de vueltas es *<number of laps completed>*. ¡Son 250 vueltas exitosas para la recompensa!
   - [Choice]: Ya terminé por ahora.
     - **Player:** Ya terminé por ahora. Adiós.
@@ -89,11 +89,11 @@
 
 ##### Cuando se volvió a hablar con él después de resolver el rompecabezas
 
-- (Condition: Si el rastro continúa:)
+- (Condition: If the trail continues:)
   - (removes=the old clue scroll (hard) y caja de rompecabezas) (receives= the new clue scroll (hard))
   - [¡El gnome trainer te ha dado otro pergamino de pistas!]
   - (continue)
-- (Condition: Si el sendero termina:)
+- (Condition: If the trail ends:)
   - (removes=the old clue scroll (hard) y caja de rompecabezas) (receives=reward casket (hard))
   - [¡Has encontrado un ataúd!]
   - (continue)

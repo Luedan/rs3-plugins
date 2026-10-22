@@ -27,10 +27,10 @@
     - (otro)
   - [Choice]: ¿Dónde está Veldaban?
     - **Player:** ¿Dónde está Veldaban?
-    - (Condition: Antes del Rey de los Enanos:)
+    - (Condition: Before King of the Dwarves:)
       - **Lieutenant Brae:** Dejó el Black Guard. Ahora vive en algún lugar de Keldagrim East. Podrías intentar buscarlo en el pub Laughing Miner.
       - (otro)
-    - (Condition: Después del Rey de los Enanos:)
+    - (Condition: After King of the Dwarves:)
       - **Lieutenant Brae:** Rey Veldaban, ¿quieres decir? Me imagino que está en el palacio, en el último piso.
       - (otro)
   - [Choice]: ¿Necesitas ayuda?
@@ -67,10 +67,10 @@
       - [Choice]: ¿Cómo se llevan a cabo las ejecuciones?
         - **Player:** ¿Cómo se llevan a cabo las ejecuciones?
         - **Lieutenant Brae:** Un enano condenado a muerte es llevado a las minas fuera de la ciudad y un Black Guard le corta la cabeza con un hacha. Puede que no sea un sistema perfecto pero al menos es rápido.
-        - (Condition: Si Vigr, Klass, Brendt y Grundt se salvaran o fueran exiliados:)
+        - (Condition: If Vigr, Klass, Brendt and Grundt were all spared or exiled:)
           - **Lieutenant Brae:** Por suerte para los prisioneros, les ahorraste todo ese destino.
           - (otro)
-        - (Condition: De lo contrario:)
+        - (Condition: Otherwise:)
           - (otro)
       - [Choice]: Debería irme.
         - (abajo)

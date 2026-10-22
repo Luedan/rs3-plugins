@@ -26,9 +26,9 @@
 - **Otavea:** Tengo a Luke the Gurh aquí conmigo. ¿Podrías prepararle un rico plato para comer? Ha estado trabajando duro y necesita mantener su energía.
 - **Otavea:** Simplemente mezcla este caña roja con algunas verduras frescas, ¡eso debería animarlo!
 - **Player:** ¡Adelante!
-- ((Sin espacio en backpack:))
+- ((Without space in backpack:))
   - {{Transcript missing}}
-- ((Con espacio en backpack:))
+- ((With space in backpack:))
   - (receives=redcane)
   - **Otavea:** Gracias amablemente Player. ¡Aquí hay algo de caña roja!
 
@@ -36,13 +36,13 @@
 
 - **Otavea:** Hola Player. ¿Has tenido algún éxito con mi gurh?
 - **Player:** Todavía estoy trabajando en ello.
-- ((Si no tienes redcane o popurrí de redcane:))
-  - ((Sin espacio en backpack:))
+- ((If you have no redcane or redcane medley:))
+  - ((Without space in backpack:))
     - **Otavea:** Necesitarás un poco de caña roja para hacer un buen popurrí. Te daré un poco de caña roja una vez que tengas algo de espacio en tu backpack.
-  - ((Con espacio en backpack:))
+  - ((With space in backpack:))
     - (receives=redcane)
     - **Otavea:** Necesitarás un poco de caña roja para hacer un buen popurrí. ¡Aquí tienes!
-- ((Si tienes redcane o popurrí de redcane:))
+- ((If you have redcane or redcane medley:))
   - **Otavea:** No te preocupes. ¡No olvides usar ese bastón rojo para crear un delicioso manjar!
 
 ### After tier 41 of Journey to Iaia

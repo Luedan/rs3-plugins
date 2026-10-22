@@ -19,13 +19,13 @@
 
 - (receives=100 nectar)
 - (ver|Néctar)
-- (Condition: Si esta es la primera abeja que se ve:)
+- (Condition: If this is the first bee to be spotted:)
   - [¡Ves una abeja y encuentras 100 néctar!]
   - (continue|wonder)
-- (Condition: Si se han visto otras abejas anteriormente:)
+- (Condition: If other bees have been previously spotted:)
   - [¡Ves otra abeja y recolectas 100 néctar!]
   - (continue|wonder)
-- (Condition: Si aún no le han preguntado a Leslie sobre la detección de abejas:)
+- (Condition: If Leslie has not been asked about spotting bees yet:)
   - **Player:** Me pregunto si esto tiene algo que ver con la persona que acaba de llegar a Falador.
 
 ##### Después

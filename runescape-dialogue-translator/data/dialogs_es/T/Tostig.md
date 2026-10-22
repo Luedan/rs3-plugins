@@ -46,8 +46,8 @@
 - **Tostig:** Bueno, veo que el sello del barril no está roto, así que entrégaselo.
 - (removes=keg of mead) (receives=50 nectar)
 - (ver|néctar)
-- ((Se muestra en una ventana emergente:))
-  - (Ventana emergente: encontrarás 50 x néctar cuando entregas el barril de hidromiel.|color=#00FF00)
+- ((Shown in a pop-up:))
+  - (Pop-up: You find 50 x Nectar as you hand over the keg of mead.|colour=#00FF00)
   - (continue)
 - **Tostig:** Oh, qué bien. Sí, eso es genial. Sin embargo, le vendrían bien algunas mejoras en el sabor general.
 - **Tostig:** ¿Cuánta agua se añadió durante la etapa de preparación?

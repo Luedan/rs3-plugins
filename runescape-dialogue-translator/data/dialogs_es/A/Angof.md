@@ -26,9 +26,9 @@
         - (Action: anterior|fragmentos)
       - [Choice]: ¿Puedo intercambiar fragmentos?
         - **Player:** ¿Puedo intercambiar fragmentos?
-        - (Condition: Sin suficientes fragmentos de cristal en el backpack:)
+        - (Condition: Without sufficient crystal fragments in the backpack:)
           - **Angof:** Parece que no tienes suficientes fragmentos para intercambiar.
-        - (Condition: De lo contrario:)
+        - (Condition: Otherwise:)
           - **Angof:** Te daré {{colour|#ff0000|[number1]}} cristales completos por {{colour|#ff0000|[number2]}} fragmentos de cristal.
           - [Menu]: Selecciona una opción
             - [Choice]: Ok
@@ -142,7 +142,7 @@
 - **Player:** Encontré este anillo, ¿significa algo para ti?
 - (removes=one ancient elven wedding ring)
 - Nueva entrada de registro de colección: Anillo de bodas élfico antiguo
-- (Condition: Si esta fue la primera vez que le dio el anillo a Angof:)
+- (Condition: If this was the first time giving Angof the ring:)
   - Has completado: 'Angs Off My Ring' - Devuelve el anillo de bodas después de 'The Light Within'.
   - (continue)
 - **Angof:** Déjame ver eso...

@@ -11,7 +11,7 @@
 
 ### In combat
 
-- ((Lo siguiente se muestra como un diálogo general estándar y se repite en la interfaz de chat como se muestra aquí.))
+- ((The following is shown as standard overhead dialogue and repeated in the chat interface as shown here.))
   - {{Colour GRRRR.|color=#99FF99}}
   - {{Colour GRRRR.|color=#99FF99}}
   - {{Colour GRRRR.|color=#99FF99}}

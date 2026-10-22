@@ -11,7 +11,7 @@
 
 ### Information during the Travelling Artisan event
 
-- ((Primera vez:))
+- ((First time:))
   - **Player:** Oye, ¿qué está pasando aquí?
   - **Ulric:** Hola. Soy Ulric, un Artisan ambulante, ¡y este es mi evento de concientización sobre la salud mental!
   - **Ulric:** Durante este evento, se pueden crear muchas recompensas únicas.
@@ -24,7 +24,7 @@
   - **Ulric:** Cada pregunta respondida correctamente le otorgará una lámpara prismática pequeña y 100 parches Artisan itinerantes.
   - **Player:** Genial, ¡gracias por la información!
   - (continue)
-- ((Después:))
+- ((Afterwards:))
   - **Player:** ¡Oye!
   - **Ulric:** Hola. ¿Le puedo ayudar en algo?
   - (continue)

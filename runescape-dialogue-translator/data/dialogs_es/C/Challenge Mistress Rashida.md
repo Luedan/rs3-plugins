@@ -24,12 +24,12 @@
     - Si completas un desafío de combate, obtendrás una lámpara de XP que se puede usar en cualquier habilidad de combate. Si completas cualquier otro desafío, obtendrás XP en esa habilidad directamente. También recibirás una clave Treasure Hunter.
     - (initial)
   - [Choice]: Quiero alternar mis desafíos diarios activos.
-    - ((Se abre la interfaz de desafío al máximo.))
+    - ((Maxed challenge interface opens.))
   - [Choice]: He completado un desafío diario.
-    - (Condition: Sin ningún desafío para entregar:)
+    - (Condition: Without any challenges to turn in:)
       - **Challenge Mistress Rashida:** No parece que hayas completado ningún desafío diario. Vuelve cuando hayas completado uno.
       - (initial)
-    - (Condition: Con desafíos para entregar:)
+    - (Condition: With challenges to turn in:)
       - **Challenge Mistress Rashida:** Ya lo has completado. ¡Bien hecho! Aquí está tu recompensa. ''(Se repite si hay más de un desafío completado)
       - **Challenge Mistress Rashida:** ¡Parece que eso es todo!
       - (initial)
@@ -68,8 +68,8 @@
 ##### Entregar o alternar desafíos
 
 - Los desafíos están deshabilitados en los mundos de League.
-- (ventana emergente)
-  - (Ventana emergente: Los desafíos están deshabilitados en los mundos de League.|advertencia=yes)
+- (pop-up)
+  - (Pop-up: Challenges are disabled on League worlds.|warning=yes)
 
 #### Pase de héroe
 
@@ -102,12 +102,12 @@
     - Si completas un desafío de combate, obtendrás una lámpara de XP que se puede usar en cualquier habilidad de combate. Si completas cualquier otro desafío, obtendrás XP en esa habilidad directamente. También recibirás una clave Treasure Hunter.
     - (initial)
   - [Choice]: Quiero alternar mis desafíos diarios activos.
-    - ((Se abre la interfaz de desafío al máximo.))
+    - ((Maxed challenge interface opens.))
   - [Choice]: He completado un desafío diario.
-    - (Condition: Sin ningún desafío para entregar:)
+    - (Condition: Without any challenges to turn in:)
       - **Challenge Mistress Rashida:** No parece que hayas completado ningún desafío diario. Vuelve cuando hayas completado uno.
       - (initial)
-    - (Condition: Con desafíos para entregar:)
+    - (Condition: With challenges to turn in:)
       - **Challenge Mistress Rashida:** Veamos este: [Name of Challenge]
       - **Challenge Mistress Rashida:** ¡Has completado ese! Bien hecho, aquí tienes tu recompensa. ''(Se repite si hay más de un desafío completado)
       - **Challenge Mistress Rashida:** ¡Parece que eso es todo!

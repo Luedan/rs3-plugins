@@ -22,9 +22,9 @@
 - **Travelling merchant:** Ah, veo que tienes uno de mis cupones. Entrégalo y puedo buscar algunas acciones recientes para ti.
 - El comerciante sólo realiza un seguimiento de sus existencias de los últimos 30 días. ¿Para qué fecha le gustaría ver las acciones?
 - ([runedate 30 days ago]-[runedate yesterday])
-- ((Si se ingresa una fecha de ejecución demasiado temprana:))
+- ((If a too early runedate is input:))
   - **Travelling merchant:** No hago un seguimiento de mis existencias desde hace tanto tiempo, lo siento.
-- ((Si se ingresa una fecha de ejecución válida:))
+- ((If a valid runedate is input:))
   - **CONFIRMACIÓN**
   - Está a punto de cambiar el stock disponible a runedate [runedate] que contiene lo siguiente:
   - - Mapa de la isla inexplorada
@@ -36,9 +36,9 @@
       - (end)
     - OK
       - (Se utiliza un cupón y la tienda de Travelling Merchant se abre con la fecha de ejecución seleccionada).
-- ((Si se ingresa la fecha de ejecución actual:))
+- ((If the current runedate is input:))
   - **Travelling merchant:** Ya les estoy mostrando el stock de ese día.
-- ((Si se ingresa una fecha de ejecución demasiado tardía:))
+- ((If a too late runedate is input:))
   - **Travelling merchant:** Estos cupones no te dan acceso a mis existencias futuras, lo siento.
 
 ### Talk to after changing the stock with Travelling Merchant Coupon

@@ -82,11 +82,11 @@
     - [Menu]: Selecciona una opción
       - [Choice]: ¿Puedes hacer que mi gato sea morado?
         - **Player:** ¿Puedes hacer que mi gato sea morado?
-        - (Condition: Sin gato en backpack, o como seguidor:)
+        - (Condition: Without a cat in backpack, or as a follower:)
           - **Wendy:** Por supuesto. Solo tráeme a tu gato y déjame abrazarlo por un momento. La solucionaré en poco tiempo.
-        - (Condition: Con un gato siguiendo a el player:)
+        - (Condition: With a cat following the player:)
           - **Wendy:** Por supuesto. Simplemente toma a tu gato y dámelo para que pueda verlo más de cerca.
-        - (Condition: Con un gato en backpack:)
+        - (Condition: With a cat in backpack:)
           - **Wendy:** Por supuesto. Solo pásame tu gato para que pueda verlo más de cerca.
       - [Choice]: ¿Puedes quitarle el morado a un gato?
         - **Player:** ¿Puedes quitarle el morado a un gato?

@@ -32,7 +32,7 @@
         - (previous)
   - [Choice]: ¡Quiero declarar mi apoyo a los Sin Dios!
     - **Holstein, Emissary of the Godless:** ¡Bien! En nombre de los Sin Dios, os doy la bienvenida.
-    - (Condition: Sin espacio libre en el backpack:)
+    - (Condition: Without a free space in the backpack:)
       - {{Transcript missing}}
     - (receives=a banner of the Godless)
     - **Holstein, Emissary of the Godless:** Por favor, lleve este banner para mostrar su apoyo. Tengo un regalo para ti. Es un libro de historias y otros relatos relacionados con los dioses y sus seguidores, así como algunos de los nuestros. Léelo. Es importante que entiendas a qué nos enfrentamos. Sin embargo, el libro aún no está completo. Cuando completes algunos trabajos te daré más páginas.

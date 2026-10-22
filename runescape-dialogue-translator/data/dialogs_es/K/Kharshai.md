@@ -17,7 +17,7 @@
 - {{anchor|standard}} [Menú]: Elija una opción:
   - [Choice]: cond=After completing Children of Mah:|Quiero hablar de Hijos de Mah.
     - **Kharshai:** Qué aventura, Player. ¡Nuestra raza está salvada de la amenaza de extinción! Ahora debo mirar hacia mi propio futuro.
-    - (Condition: Si el player ha perdido el diario de Kharshai y no ha leído los tres o cuatro capítulos:)
+    - (Condition: If the player has lost Kharshai's journal and has not read all three/four chapters:)
       - **Kharshai:** Parece que perdiste mi tomo de conocimientos en tus viajes.
       - Kharshai te entrega un tomo de conocimientos.
       - (2=|recibe=[[Kharshai's journal|Kharshai's journal ([4/3/2/1])]])
@@ -110,20 +110,20 @@
             - **Player:** Lo siento, no era mi intención molestarte. Me iré ahora.
       - [Choice]: cond=If the player does not own an unaugmented Balmung:|¿Tienes Balmung?
         - **Player:** Parece que he perdido a Balmung.
-        - (Condition: Si el player no tiene al menos un espacio backpack libre:)
+        - (Condition: If the player does not have at least one free backpack space:)
           - **Kharshai:** Sí, pero parece que no tienes suficiente espacio para ello.
-        - (Condition: Si el player tiene al menos un espacio backpack libre:)
-          - (Condition: Primera vez recuperando Balmung:)
+        - (Condition: If the player has at least one free backpack space:)
+          - (Condition: First time reclaiming Balmung:)
             - **Kharshai:** Esta arma es muy poderosa. Por favor, no dejes que caiga en las manos equivocadas. Si lo vuelves a perder, te pediré que hagas una donación de 300.000 monedas de oro al pueblo Fremennik.
             - (receives=the last upgraded Balmung variant they owned)
-          - (Condition: Tiempos posteriores recuperando Balmung:)
+          - (Condition: Subsequent times reclaiming Balmung:)
             - **Kharshai:** ¿Lo perdiste otra vez? Te lo devolveré a cambio de una donación de 300.000 monedas de oro al pueblo Fremennik.
             - [Menu]: ¿Quieres recuperar Balmung por 300.000 coins?
               - [Choice]: si
-                - (Condition: Si el player tiene al menos 300.000 coins:)
+                - (Condition: If the player has at least 300,000 coins:)
                   - **Kharshai:** Esta arma es muy poderosa. Por favor, no lo vuelvas a perder.
                   - (removes=300,000 coins) (receives=the last upgraded Balmung variant they owned)
-                - (Condition: Si el player no tiene al menos 300.000 coins:)
+                - (Condition: If the player does not have at least 300,000 coins:)
                   - **Player:** No puedo permitirme eso en este momento.
                   - No puedes permitirte eso.
                   - (ventana emergente)
@@ -182,15 +182,15 @@
 
 ##### Antes de los hijos de Mah
 
-- (Condition: Sin los requisitos de misión para Children of Mah:)
-  - ((Se abre la interfaz de descripción general de misiones para Children of Mah.))
+- (Condition: Without the quest requirements for Children of Mah:)
+  - ((Quest Overview interface for Children of Mah opens.))
     - [Choice]: No ahora mismo
       - **Kharshai:** Pensé que habíamos desarrollado una amistad... Espero no haberme equivocado. Vuelve conmigo si cambias de opinión.
     - [Choice]: Aceptar misión
     - No cumples los requisitos para empezar : 'Hijos de Mah'.
-      - (ventana emergente)
-        - (Pop-up: No cumples con los requisitos para comenzar: 'Hijos de Mah'.|advertencia=yes)
-- (Condition: Con los requisitos de la misión para Children of Mah:)
+      - (pop-up)
+        - (Pop-up: You do not meet the requirements to start : 'Children of Mah'.|warning=yes)
+- (Condition: With the quest requirements for Children of Mah:)
   - (ver|Hijos de Mah)
 
 ##### Después de los hijos de Mah

@@ -16,7 +16,7 @@
 
 - [Menu]: ¿De qué te gustaría hablar?
   - {{anchor|task-system}} [Elección]: Acerca del sistema de tareas...
-    - (Condition: Si el player ha completado las tareas medianas en el conjunto Lumbridge y Draynor y las recompensas no han sido reclamadas:)
+    - (Condition: If the player has completed the Medium tasks in the Lumbridge and Draynor set and the rewards not claimed:)
       - **Player:** He completado todas las tareas medianas del conjunto Lumbridge.
       - **Ned:** ¡Me lo imagino! Supongo que querrás una recompensa, ¿eh?
       - **Player:** Sí, por favor.
@@ -35,7 +35,7 @@
       - **Player:** ¡Vaya, gracias!
       - **Ned:** También puedes quedarte con esta lámpara antigua. Ya no lo necesito. Me estoy haciendo demasiado mayor para aventurarme. Ahora, si pierdes ese anillo, puedes volver a reclamarlo. ¿Algo más?
       - (continue)
-    - (Condition: Si el player ha completado las tareas difíciles en el conjunto Lumbridge y Draynor y las recompensas no han sido reclamadas:)
+    - (Condition: If the player has completed the Hard tasks in the Lumbridge and Draynor set and the rewards not claimed:)
       - **Player:** He completado todas las tareas difíciles del conjunto Lumbridge.
       - **Ned:** ¡Mis más sinceras felicitaciones! Supongo que querrás una recompensa, ¿eh?
       - **Player:** Sí, por favor.
@@ -49,14 +49,14 @@
       - **Player:** ¡Guau!
       - **Ned:** También puedes quedarte con esta lámpara antigua. Ya no lo necesito. Me estoy haciendo demasiado mayor para aventurarme. Ahora, si pierdes ese anillo, puedes volver a reclamarlo. ¿Algo más?
       - (continue)
-    - (Condition: Si el player ha perdido su anillo de Explorador 3:)
+    - (Condition: If the player has lost their Explorer's ring 3:)
       - **Ned:** ¿Dónde está el anillo que te regalé, Player?
       - **Player:** Lo perdí; No estoy seguro de dónde.
       - **Ned:** Sí, eso pensé. La expresión de tu cara me lo dijo. Tengo otro que quizás tengas.
       - (receives=Explorer's ring 3)
       - [Ned te entrega otro anillo.]
       - (continue)
-    - (Condition: Si el player ha perdido su anillo de Explorador 4:)
+    - (Condition: If the player has lost their Explorer's ring 4:)
       - **Ned:** ¿Dónde está el anillo que te regalé, Player?
       - **Player:** Lo perdí; No estoy seguro de dónde.
       - **Ned:** Sí, eso pensé. La expresión de tu cara me lo dijo. Tengo otro que quizás tengas.
@@ -130,15 +130,15 @@
         - [Menu]: Selecciona una opción
           - [Choice]: Bien, por favor véndeme un poco de cuerda.
             - **Player:** Está bien, por favor véndeme un poco de cuerda.
-            - (Condition: Si el player tiene menos de 15 coins:)
+            - (Condition: If the player has less than 15 coins:)
               - No puedes permitirte eso.
               - ¡No tienes suficiente coins para comprar ninguna cuerda!
-            - (Condition: Si el player tiene 15 coins:)
+            - (Condition: If the player has  15 coins:)
               - (receives=Rope)
               - (removes=15 coins)
               - **Ned:** Ahí lo tienes. <br>La mejor cuerda de Gielinor.
               - Entregas Ned 15 coins. Ned te regala un rollo de cuerda.
-              - (Condition: Si el player también ha completado Las Islas Fremennik:)
+              - (Condition: If the player has also completed The Fremennik Isles:)
                 - **Player:** Gracias. Mmmmm ¿sabes algo? Esta cuerda tiene un olor raro.
                 - **Ned:** ¿En serio?
                 - **Player:** Sí, me recuerda a... los yaks. Estuve viajando recientemente por las islas Fremennik y, ¿sabes qué? Hicieron cuerdas con pelo de yak.
@@ -148,7 +148,7 @@
                 - **Player:** No creo que hagas cuerdas en absoluto. Creo que cambias ovillos de lana por cuerda.
                 - **Ned:** Oh, lo confieso. Has encontrado la verdad. Solía ​​hacer la cuerda yo mismo, pero mis dedos ya no son tan ágiles como antes y mucha gente quería mi cuerda. La demanda era tan alta que tuve que buscar otra fuente. Pero no pude decírselo a nadie ya que la cuerda hecha a mano (100% lana) de Ned es ahora una marca de alto perfil.
                 - **Player:** Sí, bueno, la lana sigue siendo bastante buena, aunque el pelo de yak sirve como cuerda fina. No creo que esto resulte perjudicial.
-                - (Condition: Sólo la primera vez:)
+                - (Condition: Only on the very first time:)
                   - **Ned:** Gracias. Toma esto, ¡una muestra gratis! Por favor, no se lo digas a nadie.
                   - (receives=rope)
                   - (continue)
@@ -197,11 +197,11 @@
         - [Menu]: Selecciona una opción
           - [Choice]: ¿Puedes llevarme de regreso a Crandor otra vez?
             - **Player:** ¿Puedes llevarme de regreso a Crandor otra vez?
-            - (Condition: Si se ha abierto el pasadizo secreto:)
+            - (Condition: If the secret passage has been opened:)
               - **Ned:** ¿Puedes encontrar alguna otra manera? ¡Creo que ese viaje está maldito!
               - **Player:** Ahora que lo mencionas, encontré una puerta secreta que conducía a una cueva dentro del volcán Karamja.
               - **Ned:** Eso es un alivio. Puedes ir y usarlo en su lugar.
-            - (Condition: Si el pasadizo secreto no ha sido abierto:)
+            - (Condition: If the secret passage has not been opened:)
               - **Ned:** Sí, eso podría. Nos vemos nuevamente en los muelles de Port Sarim. ¡Esta vez intentaré conducir un poco mejor!
           - [Choice]: Sí, me gustaría un poco de cuerda.
             - (above|yesrope)
@@ -234,11 +234,11 @@
 #### Senderos del tesoro
 
 - (removes=the old clue scroll (easy))
-- ((Si el rastro continúa:))
+- ((If the trail continues:))
   - (receives=a new clue scroll (easy))
   - [Ned te ha dado tu siguiente pergamino de pistas.]
   - (continue)
-- ((Si el sendero termina:))
+- ((If the trail ends:))
   - (receives=reward casket (easy))
   - [¡Has encontrado un ataúd!]
   - (continue)
@@ -257,9 +257,9 @@
       - [Choice]: Sí, me gustaría un poco de cuerda.
         - (above|yesrope)
       - [Choice]: cond=After starting Vampyre Slayer|¿Pasa algo interesante en Draynor Village?
-        - (Condition: Después de la batalla de Lumbridge:)
+        - (Condition: After the battle of Lumbridge:)
           - **Ned:** Bueno, hay un gran cráter rojizo en el antiguo campo de batalla al este. Supongo que eso podría ser interesante.
-        - (Condition: Durante la batalla de Lumbridge:)
+        - (Condition: During the battle of Lumbridge:)
           - **Ned:** Bueno, hay una batalla en el este entre dos dioses. Supongo que eso es interesante.
           - **Player:** Pareces bastante tranquilo al respecto.
           - **Ned:** [Laddy/Girly] después de todo lo que he visto en mi vida, una simple batalla entre dioses no me altera las plumas. Simplemente me mantengo alejado y estoy bien.

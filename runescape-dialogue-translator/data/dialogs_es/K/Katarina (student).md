@@ -42,18 +42,18 @@
 - **Player** ¿Te gustaría formar parte de mi nuevo equipo de investigación?
 - **Katarina (estudiante)** ¡Suena genial! Sólo un problema... todavía no soy pasante. Acting Guildmaster Reiniger quiere que haga un descubrimiento notable.
 - **Katarina (estudiante)** Idealmente, algo de mi campo de efigies, íconos y simulacros. He oído que Kharid-et tiene estos dummies de entrenamiento inspirados en demonios cthonianos...
-- (Condition: Sin muñeco de entrenamiento zarosiano:)
+- (Condition: Without a Zarosian training dummy:)
   - **Player** Te tengo cubierto. Me ayudaste mucho con mis exámenes, es justo.
   - **Katarina (estudiante)** Te diré una cosa: si puedes traerme un muñeco de entrenamiento zarosiano restaurado de Kharid-et, ¡iré directamente a investigar!
   - **Player** ¡Estoy en ello!
-- (Condition: Con un muñeco de entrenamiento zarosiano:)
+- (Condition: With a Zarosian training dummy:)
   - **Player** Tengo un muñeco de entrenamiento Zarosiano restaurado de Kharid-et...
   - [Menu]: ¿Darle el muñeco de entrenamiento zarosiano a Katarina?
     - [Choice]: Sí.
       - (removes=Zarosian training dummy)
       - ¡Katrina se ha unido a tu equipo de investigación!
-      - (ventana emergente)
-        - (Ventana emergente: ¡Katrina se ha unido a su equipo de investigación!)
+      - (pop-up)
+        - (Pop-up: Katrina has joined your research team!)
       - **Katarina (estudiante)** ¡Oh, es tan tierno! Quiero decir, es perfecto, ¡gracias jefe!
     - [Choice]: No.
       - **Player** Déjame responderte sobre esto.
@@ -65,12 +65,12 @@
 
 #### Opción de carterista
 
-- (Condition: Si el player tiene el objeto de misión Teddy en su backpack o banco:)
+- (Condition: If the player has the Teddy quest item in their backpack or bank:)
   - No creo que deba intentar robarle a este pobre estudiante.
-- (Condition: Si el player no le roba el bolsillo:)
+- (Condition: If the player fails to pickpocket her:)
   - **Katarina:** {{RSChat|Hey, What do you think you're doing?}}
   - No logras robarle el bolsillo al estudiante.
-- (Condition: Si el player logra robarle:)
+- (Condition: If the player succeeds in pickpocketing her:)
   - (receives=Teddy)
   - Escoges el bolsillo del estudiante...
 

@@ -11,7 +11,7 @@
 
 ### Deep Sea Fishing hub
 
-- ((En el siguiente texto faltan puntos a propósito ya que el diálogo de Harpoon no los tiene.))
+- ((In the following text, periods are missing on purpose as Harpoon's dialogue doesn't have them.))
   - **Arpón:** Yo nací para pescar, encontré el arpón primero y traté de comérmelo.
   - **Harpoon:** Pero ya no me gusta tanto.
   - **Harpoon:** Hermanito, ¿por qué tienes que comer pobres burbujas?
@@ -35,15 +35,15 @@
     - **Harpoon:** Si completas esto, te daré: Gran cebo para tiburón blanco x 5. ¡Estoy seguro de que también ganarás reputación en el gremio de agricultores!
     - **Harpoon:** ¡Tendrás que ser rápido!, solo estoy aquí por [número] días, [número] horas y [número] minutos. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - (Condition: Sin los artículos solicitados:)
+    - (Condition: Without the requested items:)
       - **Harpoon:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Harpoon:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **Harpoon:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal] o [Animal].
       - **Harpoon:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
-    - (Condition: Con los artículos solicitados:)
+    - (Condition: With the requested items:)
       - (removes=the requested items) (receives=5 great white shark bait and 3 Brassica primers)
       - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
         - (continue)
       - [Has recibido: Gran cebo para tiburón blanco x 5<br>Y 13,750 reputación agrícola.]
@@ -70,7 +70,7 @@
 
 - (removes=the requested items) (receives=5 great white shark bait and 3 Brassica primers)
 - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
   - (continue)
 - [Has recibido: Gran cebo para tiburón blanco x 5<br>Y 13,750 reputación agrícola.]

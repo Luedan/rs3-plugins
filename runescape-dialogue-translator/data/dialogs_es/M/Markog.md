@@ -24,13 +24,13 @@
 ### Overhead dialogue
 
 - {{trandom}}
-  - (Condition: Diálogo 1:)
+  - (Condition: Dialogue 1:)
     - **Markog:** {{RSChat|Gumbo!}}
-  - (Condition: Diálogo 2:)
+  - (Condition: Dialogue 2:)
     - **Markog:** {{RSChat|Frogspawn gumbo!}}
-  - (Condition: Diálogo 3:)
+  - (Condition: Dialogue 3:)
     - **Markog:** {{RSChat|Nice chewy frogspawn gumbo!}}
-  - (Condition: Diálogo 4:)
+  - (Condition: Dialogue 4:)
     - **Markog:** {{RSChat|Get your frogspawn gumbo!}}
-  - (Condition: Diálogo 5:)
+  - (Condition: Dialogue 5:)
     - **Markog:** {{RSChat|Fresh frogspawn gumbo!}}

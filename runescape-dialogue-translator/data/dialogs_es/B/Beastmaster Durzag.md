@@ -12,13 +12,13 @@
 ### A pet applying bitten stacks
 
 - The beast te muerde y comienza a desgarrar tu carne.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - The beast te muerde y comienza a desgarrarte la carne.
 
 ### Player losing bitten stacks
 
 - El efecto de tus picaduras ha pasado. Ya no recibirás más daño.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - El efecto de tus picaduras ha pasado. Ya no recibirás más daño.
 
 ### A pet applying combust stacks
@@ -27,19 +27,19 @@
 #### Primera pila
 
 - El ataque de The beast abre una herida corrosiva.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - El ataque de The beast abre una herida corrosiva.
 
 #### Séptima pila
 
 - ¡The beast se niega a dejar de herirte profundamente!
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - ¡The beast se niega a dejar de herirte profundamente!
 
 ### Player losing combust stacks
 
 - Tus heridas dejan de arder.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Tus heridas dejan de arder.
 
 ### A pet applying fatigued stacks
@@ -48,25 +48,25 @@
 #### Primera pila
 
 - El ataque de The beast hace que tus piernas comiencen a adormecerse, lo que dificulta el movimiento.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - El ataque de The beast hace que tus piernas comiencen a adormecerse, lo que dificulta el movimiento.
 
 #### Séptima pila
 
 - The beast dirige todo {{Sic energy to attack your legs!}}
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - The beast dirige todo {{Sic energy to attack your legs!|color=#EBE0BC}}
 
 ### Player losing fatigued stacks
 
 - Recuperas la sensación en tus piernas.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Recuperas la sensación en tus piernas.
 
 ### Summoning the third pet
 
 - **Beastmaster Durzag:** {{RSChat|HEEEEEREEEE BOY!}}
-- ((Mostrado para el objetivo principal de Beastmaster Durzag:))
+- ((Shown for Beastmaster Durzag's primary target:))
   - Cuando Durzag está a punto de convocar a su mascota, rompe tus defensas.
 
 ### Applying rage stacks
@@ -75,13 +75,13 @@
 #### Primera pila
 
 - ¡El señor de las bestias dirige su ira hacia ti!
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - ¡El señor de las bestias dirige su ira hacia ti!
 
 #### Quinta pila
 
 - ¡La furia del señor de las bestias aumenta contra ti!
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - ¡La furia del señor de las bestias aumenta contra ti!
 
 #### Décima pila
@@ -95,7 +95,7 @@
 ### Player disarming a bomb
 
 - Logras desarmar la bomba.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Logras desarmar la bomba.
 
 ### Entering an entrance after the fight

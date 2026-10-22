@@ -12,15 +12,15 @@
 ### Standard dialogue
 
 - {{trandom}}
-  - (Condition: Diálogo 1:)
+  - (Condition: Dialogue 1:)
     - **Black Guard:** ¡Obedece la ley!
-  - (Condition: Diálogo 2:)
+  - (Condition: Dialogue 2:)
     - **Black Guard:** ¡No te metas en problemas!
-  - (Condition: Diálogo 3:)
+  - (Condition: Dialogue 3:)
     - **Black Guard:** ¡Fuera del camino, humano!
-  - (Condition: Diálogo 4:)
+  - (Condition: Dialogue 4:)
     - **Black Guard:** ¡Te estoy vigilando!
-  - (Condition: Diálogo 5:)
+  - (Condition: Dialogue 5:)
     - [El guardia te ignora.]
 
 ### Overhead dialogue

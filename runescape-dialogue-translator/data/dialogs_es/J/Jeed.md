@@ -73,37 +73,37 @@
 ### After the destruction of Duel Arena
 
 - **Player:** ¡Hola!
-- ((Continúa con uno aleatorio de los siguientes:))
-  - ((Diálogo 1:))
+- ((Continues with a random one of the following:))
+  - ((Dialogue 1:))
     - **Jeed:** ¿No ves que estoy mirando a los cocodrilos?
     - **Player:** ¡Lo siento!
-  - ((Diálogo 2:))
+  - ((Dialogue 2:))
     - **Jeed:** ¿Sabías que creen que este lugar se remonta a la Segunda Edad?
     - **Player:** ¿En serio?
     - **Jeed:** Sí, me lo decía un arqueólogo.
-  - ((Diálogo 3:))
+  - ((Dialogue 3:))
     - **Jeed:** ¡Hola!
-  - ((Diálogo 4:))
+  - ((Dialogue 4:))
     - **Jeed:** Hmph.
-  - ((Diálogo 5:))
+  - ((Dialogue 5:))
     - **Jeed:** A veces extraño las peleas.
-  - ((Diálogo 6:))
+  - ((Dialogue 6:))
     - **Jeed:** Creo que prefiero el agua fresca del oasis al asesinato en masa.
     - **Player:** ¡Yo también!
-  - ((Diálogo 7:))
+  - ((Dialogue 7:))
     - **Jeed:** Oh, esto es emocionante.
     - **Player:** ¡Sí!
     - **Jeed:** Extraño los duelos.
-  - ((Diálogo 8:))
+  - ((Dialogue 8:))
     - **Jeed:** La vista es realmente agradable.
 
 ### Treasure Trails
 
 - **Jeed:** ¡Felicitaciones! Has venido al lugar correcto.
 - (removes=the old clue scroll (easy))
-- ((Si el rastro continúa:))
+- ((If the trail continues:))
   - (receives=a new clue scroll (easy))
   - ''¡Jeed te ha dado otro pergamino de pistas!
-- ((Si el sendero termina:))
+- ((If the trail ends:))
   - (receives=reward casket (easy))
   - ''¡Has encontrado un ataúd!

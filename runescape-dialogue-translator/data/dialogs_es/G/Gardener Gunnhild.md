@@ -26,13 +26,13 @@
         - [Menu]: Selecciona una opción
           - [Choice]: Quisiera un rastrillo, por favor.
             - **Player:** Me gustaría un rastrillo, por favor.
-            - (Condition: Si el player tiene al menos 15 coins:)
+            - (Condition: If the player has at least 15 coins:)
               - (removes=15 coins)
               - **Gardener Gunnhild:** ¡Gracias! Aquí tienes.
               - (receives=rake)
           - [Choice]: Quisiera una hoz de hierro, por favor.
             - **Player:** Me gustaría una hoz de hierro, por favor.
-            - (Condition: Si el player tiene al menos 15 coins:)
+            - (Condition: If the player has at least 15 coins:)
               - (removes=15 coins)
               - **Gardener Gunnhild:** ¡Gracias! Aquí tienes.
               - (receives=iron sickle)
@@ -44,13 +44,13 @@
             - (otro)
   - [Choice]: Su índice de aprobación.
     - **Player:** ¿Qué piensa la gente de mí por aquí?
-    - (Condition: Si su índice de aprobación es inferior al 25%:)
+    - (Condition: If your approval rating is below 25%:)
       - **Gardener Gunnhild:** No has hecho muchos amigos desde que llegaste aquí. En la última encuesta, sólo le agradaste al [approval rating]% de la población.
-    - (Condition: Si su índice de aprobación está entre 25% y 49%:)
+    - (Condition: If your approval rating is between 25% and 49%:)
       - **Gardener Gunnhild:** Realmente no te has ganado el corazón de los lugareños, si entiendes lo que quiero decir. En la última encuesta, sólo le agradaste al [approval rating]% de la población.
-    - (Condition: Si su índice de aprobación está entre 50% y 74%:)
+    - (Condition: If your approval rating is between 50% and 74%:)
       - **Gardener Gunnhild:** No llevas mucho tiempo aquí, pero la gente te quiere razonablemente. En la última encuesta, le agradaste al [approval rating]% de la población.
-    - (Condition: Si su índice de aprobación es del 75% o más:)
+    - (Condition: If your approval rating is at 75% or higher:)
       - **Gardener Gunnhild:** Pareces muy popular para ser un recién llegado a estas tierras. En la última encuesta, le agradaste al [approval rating]% de la población.
 
 #### Intentar rastrillar lino o hierbas
@@ -78,14 +78,14 @@
           - **Gardener Gunnhild:** Actualmente vendo rastrillos de jardín y hoces de hierro. Si desea uno, Su Alteza Real, cuestan 15 po cada uno.
             - [Choice]: Quisiera un rastrillo, por favor.
               - **Player:** Me gustaría un rastrillo, por favor.
-                - (Condition: Si tienes suficiente dinero contigo:)
-                  - (Condition: Si el dinero a pagar se retira de su bolsa de dinero:)
+                - (Condition: If you have sufficient money with you:)
+                  - (Condition: If money to be paid is taken from your money pouch:)
                     - Se han eliminado 15 coins de tu bolsa de dinero.
                   - **Gardener Gunnhild:** ¡Gracias! Aquí tienes.
             - [Choice]: Quisiera una hoz de hierro, por favor.
               - **Player:** Me gustaría una hoz de hierro, por favor.
-                - (Condition: Si tienes suficiente dinero contigo:)
-                  - (Condition: Si el dinero a pagar se retira de su bolsa de dinero:)
+                - (Condition: If you have sufficient money with you:)
+                  - (Condition: If money to be paid is taken from your money pouch:)
                     - Se han eliminado 15 coins de tu bolsa de dinero.
                   - **Gardener Gunnhild:** ¡Gracias! Aquí tienes.
             - [Choice]: No, gracias.
@@ -101,11 +101,11 @@
                   - *(Igual que arriba)*
     - [Choice]: Su índice de aprobación.
       - **Player:** ¿Qué piensa la gente de mí por aquí?
-      - (Condition: Si su índice de aprobación está entre 25% y 49%:)
+      - (Condition: If your approval rating is between 25% and 49%:)
         - **Gardener Gunnhild:** Su gente está cada vez más insatisfecha con el régimen, Su Alteza Real. En la última encuesta, sólo el [approval rating]% de la población lo apoyó.
-      - (Condition: Si su índice de aprobación está entre 50% y 74%:)
+      - (Condition: If your approval rating is between 50% and 74%:)
         - **Gardener Gunnhild:** Usted es bien considerado, Su Alteza Real. En la última encuesta, el [approval rating]% de la población lo apoyó.
-      - (Condition: Si su índice de aprobación es del 75% o más:)
+      - (Condition: If your approval rating is at 75% or higher:)
         - **Gardener Gunnhild:** Usted es universalmente adorado, Su Alteza Real. En la última encuesta, el [approval rating]% de la población lo apoyó.
 
 #### Intentar rastrillar lino o hierbas

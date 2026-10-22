@@ -83,16 +83,16 @@
 
 #### Ashdale
 
-- (Condition: Antes y después de Una sombra sobre Ashdale:)
+- (Condition: Before and after A Shadow over Ashdale:)
   - **Sir Owen:** Saludos, [my friend/my lady].
   - (below|questions)
-- (Condition: Conversación posterior a la misión Una sombra sobre Ashdale:)
+- (Condition: A Shadow over Ashdale post-quest conversation:)
   - **Sir Owen:** Saludos. Vi luces extrañas flotando sobre esta isla. ¿Sabes algo al respecto?
   - (continue)
 - [Menu]: Selecciona una opción
   - [Choice]: Los isleños se convirtieron en cangrejos, pero yo me ocupé de ello.
     - **Sir Owen:** Ya veo. ¿Y supongo que fuiste tú quien los derrotó? ¡Bien hecho!
-    - (Condition: Si el personaje el player es femenino:)
+    - (Condition: If the player character is female:)
       - **Sir Owen:** Eres tan valiente como hermosa, mi señora... si se me permite ser tan atrevido.
       - (continue)
   - [Choice]: No te preocupes, todo está bajo control.

@@ -53,11 +53,11 @@
 
 #### Misterios
 
-- ((Si el player no ha comenzado a investigar ningún misterio:))
+- ((If the player hasn't started looking into any mysteries:))
   - **Jimmy:** Aún no hemos descubierto nada, jefe.
-- ((Si el player ha comenzado a investigar un misterio:))
-  - ((Se muestra el diálogo misterioso relevante desde abajo.))
-- ((Si el player ha comenzado a investigar múltiples misterios:))
+- ((If the player has started looking into one mystery:))
+  - ((Relevant mystery dialogue from below is shown.))
+- ((If the player has started looking into multiple mysteries:))
   - [Menu]: ¿Qué misterio te gustaría discutir?
     - [Choice]: cond=If Empty Children mystery has been uncovered:|Niños vacíos
       - {{Main|Transcript:Empty Children#Talking to Jimmy}}

@@ -65,48 +65,48 @@
 
 ### Attempting to bank unbankable items
 
-- (Condition: Si el player intenta depositar artículos en ciertas áreas o está telebloqueado:)
+- (Condition: If the player attempts to deposit items while certain areas, or is teleblocked:)
   - **Imp:** Lo siento, jefe, parece que me he pillado; No puedo hacer tonterías ahora.
   - (end)
-- (Condition: Si el player intenta depositar artículos que no se pueden sacar de una casa propiedad del jugador:)
+- (Condition: If the player attempts to deposit items that cannot be taken out of a player-owned house:)
   - **Imp:** ¿De qué serviría eso en un banco? Será mejor que lo dejes en tu casa.
   - (end)
-- (Condition: Si el player intenta depositar una fuente de luz:)
+- (Condition: If the player attempts to deposit a light source:)
   - **Diablillo:** ¡Ay! ¡Eso está caliente! ¡Ponlo tú mismo en tu banco!
   - (end)
-- (Condition: Si el player intenta depositar una bolsa de botín:)
+- (Condition: If the player attempts to deposit a looting bag:)
   - **Diablillo:** De ninguna manera, no puedo guardar tu bolsa de botín.
   - (end)
-- (Condition: Si el player intenta depositar un sapo hinchado:)
+- (Condition: If the player attempts to deposit a bloated toad:)
   - **Diablillo:** No, entre tú y yo, ese sapo no parece estable.
   - (end)
-- (Condition: Si el player intenta depositar un libro de conocimientos:)
+- (Condition: If the player attempts to deposit a book of knowledge:)
   - **Diablillo:** ¿De qué sirve guardar ese libro en el banco? ¡Solo léelo o tíralo!
   - (end)
-- (Condition: Si el player intenta depositar un hongo brillante:)
+- (Condition: If the player attempts to deposit a glowing fungus:)
   - **Diablillo:** No soy un experto, pero cuando un hongo brilla tanto, supongo que es peligroso. Mantenlo alejado de mí.
   - (end)
-- (Condition: Si el player intenta depositar una gnomeball:)
+- (Condition: If the player attempts to deposit a gnomeball:)
   - **Diablillo:** No voy a tocar una bola de gnomo; ¡Ese es un juego cruel! ¡Podría morir!
   - (end)
-- (Condition: Si el player intenta depositar ron Karamjan:)
+- (Condition: If the player attempts to deposit Karamjan rum:)
   - **Diablillo:** ¿No lo sabes? Te puedes meter en líos por darle alcohol a menores, y yo soy bastante pequeña, todo hay que decirlo.
   - (end)
-- (Condition: Si el player intenta depositar huesos esqueléticos de gorila:)
+- (Condition: If the player attempts to deposit skeletal gorilla bones:)
   - **Diablillo:** Hay algo raro en esos huesos; No los voy a tocar.
   - (end)
-- (Condition: Si el player intenta depositar un palo:)
+- (Condition: If the player attempts to deposit a stick:)
   - **Diablillo:** Es un palo giratorio; ¿Por qué molestarse en depositar eso? Ustedes los humanos a veces están locos.
   - (end)
-- (Condition: Si el player intenta depositar una lámpara:)
+- (Condition: If the player attempts to deposit a lamp:)
   - **Diablillo:** Sé lo que contienen lámparas como esa; No lo voy a tocar. Podría resultar herido.
   - (end)
-- (Condition: Si el player intenta depositar un símbolo impío:)
+- (Condition: If the player attempts to deposit an unholy symbol:)
   - **Diablillo:** Lo siento, no voy a arriesgarme a molestar a alguien agrupando símbolos sagrados aleatorios que no reconozco en las bóvedas de los bancos.
   - (end)
-- (Condition: Si el player intenta depositar a Ana en un barril:)
+- (Condition: If the player attempts to deposit Ana in a barrel:)
   - **Diablillo:** Oye, si quiere usar el banco, ¿por qué no puede usar sus propias piernas? Además, ella es demasiado grande.
   - (end)
-- (Condition: Si el player intenta depositar un artículo no financiable que no figura en la lista anterior:)
+- (Condition: If the player attempts to deposit an unbankable item that is not listed above:)
   - {{mes|The imp seems uneasy about teleporting that.}}
   - (end)

@@ -17,26 +17,26 @@
     - **Player:** Está bien.
   - Dijiste que encantarías mi battlestaff para mí.
     - **Player:** Dijiste que encantarías mi battlestaff para mí.
-    - ((Si aún no ha completado las tareas difíciles de Seers' Village:))
+    - ((If you have't yet completed the Seers' Village Hard Tasks:))
       - **Thormac:** Sí, aunque los materiales te costarán 40.000 coins. ¿Qué tipo de staff querías encantador?
       - (continue)
-    - ((Si ha completado las tareas difíciles de Seers' Village:))
+    - ((If you have completed the Seers' Village Hard Tasks:))
       - **Thormac:** Sí. Normalmente te costaría 40.000 coins, pero, como te esforzaste en conocer la zona de los Videntes, te costará 27.000 coins. ¿Qué tipo de staff querías encantador?
       - (continue)
-    - ((Se abre la interfaz battlestaff de Thormac.))
-    - ((Después de hacer una selección:))
-      - ((Si no tienes el battlestaff seleccionado contigo:))
+    - ((Thormac's battlestaff interface opens.))
+    - ((After making a selection:))
+      - ((If you don't have the selected battlestaff with you:))
         - No tienes el battlestaff correcto.
-      - ((Si tienes el battlestaff seleccionado contigo:))
-        - ((Si no tienes suficiente dinero contigo:))
+      - ((If you have the selected battlestaff with you:))
+        - ((If you don't have sufficient money with you:))
           - Necesitas [27,000/40,000] coins para pagar Thormac.
-        - ((Si tienes suficiente dinero contigo:))
-          - ((Si el dinero a pagar está en su bolsa de dinero:))
+        - ((If you have sufficient money with you:))
+          - ((If money to be paid is in your money pouch:))
             - [27,000/40,000] coins se han eliminado de su bolsa de dinero.
             - (continue)
           - (removes=coins and the battlestaff) (receives=corresponding mystic battlestaff)
           - Thormac encanta tus bastones de batalla.
-  - ((Sólo si tienes un Armadyl battlestaff contigo:))
+  - ((Only if you have an Armadyl battlestaff with you:))
     - ¿Podrías encantar mi Armadyl battlestaff?
       - **Player:** ¿Podrías encantar mi Armadyl battlestaff?
       - **Thormac:** No sé de dónde sacaste esto, pero ya tiene mucho poder místico fluyendo a través de él. No creo que pueda hacerlo más místico.

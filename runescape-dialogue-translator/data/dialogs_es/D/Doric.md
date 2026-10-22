@@ -25,10 +25,10 @@
 - **Doric:** Nurmof debería haber enviado su pedido de picos esta semana, pero no he oído nada. Ha sido mi cliente más leal durante años y no es el único que deja de hacerlo. ¡Estoy arruinado!
 - [Menu]: Selecciona una opción
   - [Choice]: No te preocupes, te ayudaré.
-    - (Condition: Sin 5 Smithing:)
+    - (Condition: Without 5 Smithing:)
       - **Doric:** Quizás deberías adquirir más experiencia primero. Me encantaría recibir ayuda, pero necesito a alguien que pueda ayudarme si vamos a hacer esto.
       - [Esta misión requiere el nivel 5 Smithing.]
-    - (Condition: Con 5 Smithing:)
+    - (Condition: With 5 Smithing:)
       - (ver|Lo que es mío es tuyo)
   - [Choice]: Estoy demasiado ocupado para ayudar ahora.
     - **Doric:** No te preocupes aventurero, tú sigue con tus asuntos. No espero que nadie se esfuerce por mí.
@@ -65,13 +65,13 @@
   - [Choice]: ¿Tienes más tareas de Smithing para mí?
     - (ver|tareas Doric y Boric)
   - [Choice]: cond=If either the Gofannon amulet, task list or wizard's diary has been lost|Perdí un artículo que me diste.
-    - (Condition: Si sólo se ha perdido un artículo:)
-      - (Condition: Sin espacio en backpack:)
+    - (Condition: If only one item has been lost:)
+      - (Condition: Without space in backpack:)
         - **Doric:** Sin embargo, no tienes espacio para guardarlo. Vuelve conmigo una vez que tengas espacio.
-      - (Condition: Con espacio en backpack:)
+      - (Condition: With space in backpack:)
         - (receives=Gofannon amulet, task list or wizard's diary)
         - **Doric:** Afortunadamente, uno de nuestros trabajadores lo encontró. Ten más cuidado la próxima vez.
-      - (Condition: Si se han perdido dos o más artículos:)
+      - (Condition: If two or more items have been lost:)
         - **Doric:** ¿Qué artículo querías recuperar?
         - [Menu]: Elige una opción:
           - [Choice]: Amuleto de Gofannon
@@ -81,13 +81,13 @@
           - [Choice]: diario del mago
             - (above|careful)
   - [Choice]: ¿Cómo va el negocio?
-    - (Condition: Hasta la Tarea III de Doric:)
+    - (Condition: Up to Doric's Task III:)
       - **Doric:** Cómo llegar. Realmente estoy empezando a imaginar un nuevo futuro ahora; uno que nunca habría vivido si no hubiera sido por Boric.
       - (continue)
-    - (Condition: Después de la Tarea III de Doric y antes de la Tarea VI de Doric:)
+    - (Condition: After Doric's Task III and before Doric's Task VI:)
       - **Doric:** Bueno, en este momento, Boric no puede dejar de sonreír como un tonto. Eso es algo bueno, ¿verdad?
       - (continue)
-    - (Condition: Después de la Tarea VI de Doric y antes de la Tarea VIII de Doric:)
+    - (Condition: After Doric's Task VI and before Doric's Task VIII:)
       - **Doric:** Nuestro negocio se ha extendido por todo el mundo, recibimos pedidos de todo tipo de personas y nuestro futuro nunca ha parecido más brillante.
       - (continue)
     - **Doric:** ¿Había algo más que quisieras?
@@ -104,13 +104,13 @@
   - [Choice]: ¿Tienes más tareas de Smithing para mí?
     - **Doric:** No por el momento, ya lo tenemos todo bajo control. Gracias por toda la ayuda para ayudarnos a crecer.
   - [Choice]: cond=If either the Gofannon amulet, monkey's note or wizard's diary has been lost|Perdí un artículo que me diste.
-    - (Condition: Si sólo se ha perdido un artículo:)
-      - (Condition: Sin espacio en backpack:)
+    - (Condition: If only one item has been lost:)
+      - (Condition: Without space in backpack:)
         - **Doric:** Sin embargo, no tienes espacio para guardarlo. Vuelve conmigo una vez que tengas espacio.
-      - (Condition: Con espacio en backpack:)
+      - (Condition: With space in backpack:)
         - (receives=Gofannon amulet, monkey's note or wizard's diary)
         - **Doric:** Afortunadamente, uno de nuestros trabajadores lo encontró. Ten más cuidado la próxima vez.
-      - (Condition: Si se han perdido dos o más artículos:)
+      - (Condition: If two or more items have been lost:)
         - **Doric:** ¿Qué artículo querías recuperar?
         - [Menu]: Elige una opción:
           - [Choice]: Amuleto de Gofannon

@@ -24,13 +24,13 @@
 ### Overhead dialogue
 
 - {{trandom}}
-  - (Condition: Diálogo 1:)
+  - (Condition: Dialogue 1:)
     - **Zenkog:** {{RSChat|Fingers!}}
-  - (Condition: Diálogo 2:)
+  - (Condition: Dialogue 2:)
     - **Zenkog:** {{RSChat|Wall beast fingers!}}
-  - (Condition: Diálogo 3:)
+  - (Condition: Dialogue 3:)
     - **Zenkog:** {{RSChat|Fresh wall beast fingers!}}
-  - (Condition: Diálogo 4:)
+  - (Condition: Dialogue 4:)
     - **Zenkog:** {{RSChat|Lovely wall beast fingers!}}
-  - (Condition: Diálogo 5:)
+  - (Condition: Dialogue 5:)
     - **Zenkog:** {{RSChat|Tasty wall beast fingers!}}

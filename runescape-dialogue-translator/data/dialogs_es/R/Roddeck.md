@@ -11,10 +11,10 @@
 
 ### In Lumbridge
 
-- (Condition: Si el player no realizó el tutorial de Cimientos inestables:)
+- (Condition: If the player did not do the Unstable Foundations tutorial:)
   - **Roddeck:** ¡Saludos! Soy Roddeck.<br>¿Qué puedo hacer por ti hoy?
   - (continue)
-- (Condition: Si el player hizo el tutorial de Cimientos inestables:)
+- (Condition: If the player did the Unstable Foundations tutorial:)
   - **Roddeck:** Ah, Player, que gusto verte de nuevo.<br> ¿Qué te trae a mi humilde hogar?
   - (continue)
 - [Menu]: ¿Qué te gustaría decir?

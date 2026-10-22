@@ -11,7 +11,7 @@
 
 ### Customise fort decorations
 
-- ((Lo siguiente se muestra en una interfaz titulada "SELECCIONE UNA OPCIÓN":))
+- ((The following is shown in an interface titled "SELECT AN OPTION":))
   - ¿Cambiar qué decoraciones?
     - [Choice]: árboles de otoño
       - (Action: La pantalla se desvanece y vuelve a aparecer. Los árboles se han actualizado.)

@@ -239,9 +239,9 @@
   - [Choice]: Pregunta por el Campamento de Montaña.
     - **Player:** Entonces, ¿cómo estuvo la reunión?
     - **Brundt the Chieftain:** Fue sorprendentemente bien. Ahora reconocemos libremente la presencia del otro.
-    - (Condition: Antes de los juicios de Fremennik:)
+    - (Condition: Before The Fremennik Trials:)
       - **Brundt the Chieftain:** ¡Lo hiciste extraordinariamente bien, extranjero!
-    - (Condition: Después de los juicios de Fremennik:)
+    - (Condition: After The Fremennik Trials:)
       - **Brundt the Chieftain:** ¡Eres un gran activo para Fremennik, [Fremennik name]!
   - [Choice]: Habla de otra cosa.
     - (arriba)
@@ -252,7 +252,7 @@
 
 #### Senderos del tesoro
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only the first time:)
   - **Brundt the Chieftain:** Lo sentimos, pero tu recorrido aún no ha terminado.
   - **Player:** Genial.
   - **Brundt the Chieftain:** Encuentra la respuesta a esta pregunta por mí.
@@ -263,15 +263,15 @@
 
 - **Brundt the Chieftain:** Ingrese la respuesta a la pregunta.
 - Ingrese la cantidad:<br>[Input field]
-- (Condition: Cuando se le da la respuesta incorrecta:)
+- (Condition: When given the wrong answer:)
   - **Brundt the Chieftain:** ¡Respuesta incorrecta!
-- (Condition: Cuando se le da la respuesta correcta:)
+- (Condition: When given the correct answer:)
   - (removes=the clue scroll (medium) y desplazamiento de desafío (medio))}
-  - (Condition: Si el rastro continúa:)
+  - (Condition: If the trail continues:)
     - (receives=a new clue scroll (medium))
     - [¡Brundt te ha dado otro pergamino de pistas!]
     - (continue)
-  - (Condition: Si el sendero termina:)
+  - (Condition: If the trail ends:)
     - (receives=reward casket (medium))
     - [¡Has encontrado un ataúd!]
     - (continue)

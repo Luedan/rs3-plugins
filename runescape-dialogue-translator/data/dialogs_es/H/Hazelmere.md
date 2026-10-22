@@ -76,7 +76,7 @@
 
 #### Usar una sábana o una sábana cubierta de ectoplasma
 
-- ((Se elegirá al azar uno de los siguientes:))
+- ((One of the following will be chosen at random:))
   - **Hazelmere:** ¡Cómo te atreves a hacer semejante burla!
   - **Hazelmere:** ¿Es esta tu idea del humor?
   - **Hazelmere:** Esta conversación puede continuar después de que te quites ese ridículo atuendo.
@@ -101,7 +101,7 @@
 - **Hazelmere:** *suspiro* Y supongo que quieres obligarnos a todos a enfrentar esta nueva amenaza.
 - **Player:** Sabes... va a tomar MUCHO derrotar a Rasial...
 - 150 almas vuelan para impulsar el barco.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - 150 almas vuelan para impulsar el barco.
   - (continue)
 - **Hazelmere:** Bien, te ayudaremos.

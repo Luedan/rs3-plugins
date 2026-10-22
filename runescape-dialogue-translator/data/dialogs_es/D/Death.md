@@ -100,7 +100,7 @@
     - (continue|not-your-time2)
 - **Muerte:{{anchor|not-your-time2}}** Ahora te mostraré lo que puedes reclamar de mí. Puede regresar en cualquier momento para reclamar estos artículos.
 - (Se abre la interfaz de descripción general del costo de muerte).
-- (Condition: Después de que el player haya reclamado sus artículos o haya cerrado la interfaz sin reclamar:)
+- (Condition: After the player has reclaimed their items, or closed the interface without reclaming:)
   - **Muerte:** Usa el reloj de arena detrás de ti y regresa al mundo de los vivos.
   - Seleccione una opción
     - ¡Adiós!
@@ -117,10 +117,10 @@
   - **Muerte:** Pensé que volverías, Player. ¿Deseas reclamar tus artículos?
   - ¿Recuperar tus artículos?
     - Sí.
-      - (Condition: Con reclamación de artículos gratuitos sin evento:)
+      - (Condition: With non-event free item reclaim:)
         - (receives=lost items)
         - La muerte te ha devuelto tus artículos gratis.<br>Es posible que la muerte no sea tan caritativa la próxima vez, así que entra en situaciones peligrosas bajo tu propia responsabilidad.
-      - (Condition: Con Contrato de Protección de Artículos en backpack:)
+      - (Condition: With Item Protection Contract in backpack:)
         - **Muerte:** Veo que tienes en tu poder el Contrato de protección de artículos {{Sic|a}}. Con mucho gusto le devolveré sus artículos de forma gratuita a cambio de ese artículo, si lo desea.
         - ¿UTILIZAR SU CONTRATO DE PROTECCIÓN DE ARTÍCULOS?
           - Sí por favor.
@@ -129,9 +129,9 @@
             - La muerte te ha devuelto tus artículos gratis.<br>Es posible que la muerte no sea tan caritativa la próxima vez, así que entra en situaciones peligrosas bajo tu propia responsabilidad.
           - Esta vez no, gracias.
             - (continue)
-      - ((Se abre la interfaz de Reclamar artículos.))
+      - ((Reclaim Items interface opens.))
     - Pregunta por otra cosa.
-      - ((Continúa con el diálogo de Soul Reaper.))
+      - ((Continues with Soul Reaper dialogue.))
 
 ### Soul Reaper tasks
 
@@ -357,27 +357,27 @@
 
 #### Habla con
 
-- (Condition: Si el player tiene una tarea activa de otro día:)
+- (Condition: If the player has an active task from another day:)
   - **Muerte:** Estás tardando mucho en completar mi tarea, Player. ¿Te resulta demasiado difícil?
   - Si elige restablecer su tarea, esta será tratada como una tarea completamente nueva, con nuevas repeticiones. No hay garantía de que la nueva asignación sea diferente a la actual. Si deseas volver a realizar tu tarea actual, usa tu gema sombría en su lugar.
   - (continue)
-- (Condition: Sin tarea activa de otro día:)
+- (Condition: Without an active task from another day:)
   - **Muerte:** ¿Qué te trae a mi reino?
   - (continue)
 - [Menu]: Selecciona una opción
   - {{anchor|needassign}} [Elección]: Necesito una tarea.|cond=Sin una tarea activa:
-    - (Condition: Si el player no ha completado previamente la tarea de hoy:)
+    - (Condition: If the player has not previously completed today's task:)
       - {{anchor|assign}} (Condición: Por casualidad con la elección de Reaper desbloqueada o durante ciertos eventos :)
         - ((Se abre una interfaz titulada 'SELECCIONAR TAREA', que muestra una lista de todos los jefes.)) <!-- are group/skilling bosses greyed out if not enabled? -->
           - [Choice]: [Boss]
             - (continue)
-    - (Condition: Si el player ya completó la tarea de hoy, pero no ha desbloqueado las 'Tareas adicionales':)
+    - (Condition: If the player has already completed today's task, but has not unlocked 'Additional tasks':)
       - {{transcript missing}}
-    - (Condition: Si el player ya completó la tarea de hoy y ha desbloqueado 'Tareas adicionales':)
+    - (Condition: If the player has already completed today's task and has unlocked 'Additional tasks':)
       - **Muerte:** Has hecho lo que te pedí hoy, pero todavía hay un desequilibrio que abordar.
-      - (Condition: Sin 250 puntos de cazador:)
+      - (Condition: Without 250 slayer points:)
         - **Muerte:** Te daría otra tarea, pero a cambio pido 250 puntos de cazador. No tienes lo que busco.
-      - (Condition: Con 250 puntos de cazador:)
+      - (Condition: With 250 slayer points:)
         - **Muerte:** Te daré otra tarea, pero a cambio necesitaré 250 puntos de cazador.
         - [Menu]: Selecciona una opción
           - [Choice]: Sí, me gustaría comprar otra tarea por 250 puntos de cazador.
@@ -395,30 +395,30 @@
       - [Choice]: Necesito algunas pistas sobre mi tarea.
         - (abajo)
   - {{anchor|newassign}} [Elección]: Me gustaría una nueva tarea.|cond=Con una tarea activa:
-    - (Condition: Primera vez que renuevas una tarea hoy:)
+    - (Condition: First time rerolling an assignment today:)
       - **Muerte:** Seré paciente contigo una vez, sin penalización. ¿Quieres que te asigne una nueva criatura?
         - [Menu]: Selecciona una opción
           - [Choice]: Sí, elimina mi asignación actual y dame una nueva.
             - (above|assign)
           - [Choice]: No, he cambiado de opinión. Deja mi tarea.
             - (end)
-    - (Condition: Segunda vez que renuevas una tarea hoy:)
+    - (Condition: Second time rerolling an assignment today:)
       - **Muerte:** No creas que te permitiré cambiar de opinión libremente. Si solicitas una tarea diferente hoy, solo recibirás el 75% de los puntos Reaper por completarla. Sin embargo, obtendrás la experiencia completa.
       - {{anchor|reroll2}} [Menú]: seleccione una opción
         - [Choice]: Entiendo, elimina mi asignación actual y dame una nueva.
           - (above|assign)
         - [Choice]: No, he cambiado de opinión. Deja mi tarea.
           - (end)
-    - (Condition: Tercera vez que renuevas una tarea hoy:)
+    - (Condition: Third time rerolling an assignment today:)
       - **Muerte:** No creas que te permitiré cambiar de opinión libremente. Si solicitas una tarea diferente hoy, solo recibirás el 50% de los puntos Reaper por completarla. Sin embargo, obtendrás la experiencia completa.
       - (continuea|reroll2)
-    - (Condition: Cuarta vez que repetimos una tarea hoy:)
+    - (Condition: Fourth time rerolling an assigment today:)
       - **Muerte:** No creas que te permitiré cambiar de opinión libremente. Si solicitas una tarea diferente hoy, solo recibirás el 25 % de los puntos Reaper por completarla. Sin embargo, obtendrás la experiencia completa.
       - (continuea|reroll2)
-    - (Condition: Quinta vez que renuevas una tarea hoy:)
+    - (Condition: Fifth time rerolling an assignment today:)
       - **Muerte:** Tu indecisión me resulta tediosa. Si solicita una tarea diferente nuevamente hoy, no recibirá puntos reaper por completarla. No puedo evitar que recibas la experiencia completa... desafortunadamente.
       - (continuea|reroll2)
-    - (Condition: Después de la quinta repetición de hoy:)
+    - (Condition: After the fifth reroll today:)
       - **Muerte:** Mi paciencia sólo llega hasta cierto punto. Ya me has hecho perder suficiente tiempo; debo abordar este desequilibrio yo mismo. Vete, mortal.
   - [Choice]: ¿Hay alguna recompensa por esto?
     - (opens=Death's Store)
@@ -431,9 +431,9 @@
     - **Player:** ¿Entonces quieres que mate cosas?
     - **Muerte:** Si quieres decirlo de forma tan poco delicada, sí.
     - **Player:** ¡Genial! ¿Cuándo empiezo?
-    - (Condition: Con una asignación activa:)
+    - (Condition: With an active assignemt:)
       - **Muerte:** Inmediatamente. Ya te he encargado que recolectes almas de la siguiente batalla: [Boss]. Todavía tienes que traerme almas [número]. <!-- still plural with 1 soul left? -->
-    - (Condition: Sin una asignación activa:)
+    - (Condition: Without an active assignment:)
       - (above|needasssign)
   - [Choice]: Me gustaría otra joya sombría.
     - (receives=Grim gem)
@@ -445,11 +445,11 @@
       - **Muerte:** Para sobrecargar tu anillo necesitaré 25 corazones de piedra negra y 5 ónices tallados.
       - [Menu]: ¿Estás seguro de que quieres hacer esto?
       - [Choice]: si
-        - (Condition: Sin llevar anillo de muerte:)
+        - (Condition: Without carrying a ring of death:)
           - **Muerte:** No tienes un anillo para que te cobre de más.
-        - (Condition: Con un anillo de muerte, pero sin todos los ingredientes:)
+        - (Condition: With a ring of death, but without all ingredients:)
           - {{transcript missing}}
-        - (Condition: Con un anillo de muerte y todos los ingredientes:)
+        - (Condition: With a ring of death and all ingredients:)
           - {{transcript missing}}
       - [Choice]: No
         - (end)
@@ -463,7 +463,7 @@
 
 #### Obtener tarea
 
-- (Condition: Si el player tiene una tarea activa de otro día:)
+- (Condition: If the player has an active task from another day:)
   - Si elige restablecer su tarea, esta será tratada como una tarea completamente nueva, con nuevas repeticiones. No hay garantía de que la nueva asignación sea diferente a la actual. Si deseas volver a realizar tu tarea actual, usa tu gema sombría en su lugar.
   - [Menu]: Selecciona una opción
     - [Choice]: Me gustaría una nueva tarea.
@@ -476,7 +476,7 @@
       - (arriba)
     - [Choice]: ¿Estoy muerto? ¿Qué quieres de mí?
       - (arriba)
-- (Condition: Sin tarea activa de otro día:)
+- (Condition: Without an active task from another day:)
   - {{transcript missing}}
 
 #### Recompensas
@@ -496,7 +496,7 @@
 
 #### Evento de muerte
 
-- (Condition: Si no tienes eventos de muerte adicionales desbloqueados:)
+- (Condition: If you have no additional death events unlocked:)
   - Actualmente no tienes eventos de muerte adicionales desbloqueados.
-- (Condition: Si tienes al menos un evento de muerte adicional desbloqueado:)
+- (Condition: If you have at least one additional death event unlocked:)
   - {{Transcript missing}}

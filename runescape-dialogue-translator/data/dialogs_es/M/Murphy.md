@@ -77,9 +77,9 @@
     - **Murphy:** ¡Si todo lo demás falla, utiliza un balde de achique!
   - [Choice]: ¡Sí, hagámoslo!
     - **Player:** ¡Sí, hagámoslo!
-    - (Condition: Si el arrastrero está en puerto:)
+    - (Condition: If the trawler is in port:)
       - **Murphy:** ¡Sí, sí! Encuéntrame a bordo del barco pesquero. Sólo necesito juntar algunas cosas.
-    - (Condition: Si el arrastrero está en el mar:)
+    - (Condition: If the trawler is at sea:)
       - **Murphy:** ¡Sí, sí! Encuéntrame a bordo del barco pesquero.
       - **Murphy:** Oh, espera. Ya estoy en un viaje de pesca con alguien. Tendrás que volver a intentarlo en unos minutos.
       - **Player:** ¡¿Cómo puedes estar aquí y a bordo del barco?!
@@ -89,7 +89,7 @@
 
 #### Después de completar Recipe for Disaster: Liberando Pirate Pete
 
-- (Condition: Si el player ha perdido su aparato de buceo y casco de pecera:)
+- (Condition: If the player has lost their diving apparatus and fishbowl helmet:)
   - **Player:** Hola Murphy. ¿Tiene un equipo de buceo de repuesto?
   - **Murphy:** Aquí tienes. De todos modos, estoy seguro de que el dueño anterior no necesitará esto ahora.
   - (receives=diving apparatus and fishbowl helmet)
@@ -100,28 +100,28 @@
   - **Player:** ¿Eso es todo?
   - **Murphy:** Sí. De todos modos, definitivamente no murió en un horrible incidente de buceo mientras usaba ese traje de buceo.
   - **Player:** ...
-- (Condition: De lo contrario:)
+- (Condition: Otherwise:)
   - [Menu]: Selecciona una opción
     - [Choice]: Ir a bucear.
-      - (Condition: Si el player tiene su aparato de buceo y casco de pecera en el banco:)
+      - (Condition: If the player has their diving apparatus and fishbowl helmet in bank:)
         - **Murphy:** ¡Ahoye! ¿Estás listo para bucear hoy?
         - **Player:** Lamentablemente no, no llevo mi casco de buceo ni mi backpack de buceo conmigo.
         - **Murphy:** Ah, bueno, no se puede evitar.
-      - (Condition: Si el player tiene su aparato de buceo y casco de pecera en backpack:)
+      - (Condition: If the player has their diving apparatus and fishbowl helmet in backpack:)
         - **Murphy:** ¡Ahoy! ¿Todo listo para bucear?
         - [Menu]: Selecciona una opción
           - [Choice]: Sí, vamos a bucear.
             - **Player:** Sí, ve a bucear.
-            - (Condition: Si no se dispone de casco de pecera ni aparato de buceo:)
+            - (Condition: If a fishbowl helmet and diving apparatus are not equipped:)
               - **Murphy:** Bueno, no puedo eliminarte hasta que estés equipado adecuadamente. ¡Perdimos tres grupos de buceo de esa manera!
               - **Player:** Ok, bueno, me pondré el casco de buceo y me pondré el backpack de buceo.
-            - (Condition: Si el peso de el player supera los 27 kg:)
+            - (Condition: If the player's weight exceeds 27 kg:)
               - **Murphy:** Bueno, ese es el tipo de espíritu que me gusta ver. Sin embargo, pesas demasiado para bucear ahora mismo.
               - **Player:** ¿Qué quieres decir?
               - **Murphy:** Bueno, no puedo llevarte a bucear si llevas más de 27 kg de equipo. Llegamos a ese número mediante prueba y error, y los errores no fueron bonitos, déjame asegurarte.
               - **Player:** Entonces, ¿qué puedo hacer?
               - **Murphy:** Bueno, si vas a un banco y dejas todo tu equipo pesado, te sacaré. ¡Hasta luego!
-            - (Condition: Si el player tiene algo equipado en las ranuras de mano principal o secundaria y no tiene al menos dos espacios vacíos en backpack:)
+            - (Condition: If the player has something equipped in the main- or off-hand slots and does not have at least two empty spaces in the backpack:)
               - **Murphy:** Bueno, seamos...
               - **Murphy:** Err, ¿cómo planeas nadar con las manos ocupadas?
               - **Player:** ¿Qué quieres decir?
@@ -129,34 +129,34 @@
               - **Murphy:** Todo lo que tienes que hacer es tener 2 espacios para almacenar los artículos y listo.
               - **Murphy:** Incluso si no llevas un escudo o un arma, siempre es útil tener algo de espacio libre para una emergencia.
               - **Murphy:** ¡Hasta luego!
-            - (Condition: Si el player lleva una bola de gnomo:)
+            - (Condition: If the player is carrying a gnomeball:)
               - **Murphy:** Ahora, ¿tienes una bola de gnomo encima?
               - **Player:** Sí, lo hago, ¿por qué lo preguntas?
               - **Murphy:** Bueno, tendrás que dejarlos en la superficie. Están tan llenos de aire que te impedirán bucear correctamente.
               - **Player:** Bien, iré a ponerlo en el banco.
-            - (Condition: Si el player tiene un gato como mascota siguiéndolos:)
+            - (Condition: If the player has a pet cat following them:)
               - **Murphy:** ¿Quieres que ese gato tuyo se ahogue o algo así?
               - **Player:** ¿Quieres decir que no puedes convertirlos en un adorable conjunto de pequeños equipos de buceo?
               - **Murphy:** No. Simplemente... no.
               - **Murphy:** No te llevaré a bucear con ese gato siguiéndote.
               - **Murphy:** No soy un amante de los gatos y tendría que permanecer en el barco mientras tú estuvieras abajo.
-            - (Condition: Si el player tiene un gato como mascota en backpack:)
+            - (Condition: If the player has a pet cat in backpack:)
               - **Murphy:** Sabes, puedo ver a tu gato ahí mismo.
               - **Player:** ¿Qué quieres decir?
               - **Murphy:** Lo estoy mirando. ¡Mira, está ahí en tu bolso!
               - **Murphy:** No te sacaré con ese gato. No soy una especie de cuidador de gatos, así que ve y ponlo en un lugar seguro y luego regresa.
               - **Player:** Está bien...
               - **Player:** Sigo pensando que debería conseguir un equipo de buceo del tamaño de un gato...
-            - (Condition: Si el player tiene otra mascota o un familiar siguiéndolos:)
+            - (Condition: If the player has another pet or a familiar following them:)
               - **Murphy:** Parece que algo te sigue hasta allí, Player. No creo que reaccionen bien al sumergirse bajo el agua, así que tendrás que dejarlos atrás.
               - **Player:** Ok Murphy.
-            - (Condition: Si el player tiene otra mascota o una bolsa de invocación en backpack:)
+            - (Condition: If the player has another pet or a summoning pouch in backpack:)
               - **Murphy:** Ok, una última cosa.
               - **Murphy:** ¿Tienes seguidores, familiares, bolsas Summoning o cosas similares contigo?
               - **Player:** ¿Sería eso algo malo?
               - **Murphy:** Sí, esos pobres animales no suelen reaccionar bien al agua.
               - **Player:** Buen punto, los dejaré donde no puedan sufrir daño.
-            - (Condition: De lo contrario:)
+            - (Condition: Otherwise:)
               - **Murphy:** Ok, entonces nos vamos.
               - (Action: La pantalla se desvanece y luego vuelve a aparecer; Murphy y el player están en la cubierta de un barco.)
               - **Player:** Ok, ¡hasta pronto Murphy!

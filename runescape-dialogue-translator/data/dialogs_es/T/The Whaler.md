@@ -221,7 +221,7 @@
 
 - **Hubbub (Contracts):** Hmm, eres un [fisherman/fisherwoman] experto, lo noto. Necesito a alguien como tú, pero primero debo saber que puedo confiar en ti.
 - Para obtener contracts de Hubbub, primero debe completar el viaje por los puertos 'Meet the Whaler'.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a popup:))
   - Para obtener contracts de Hubbub, primero debe completar el viaje por los puertos 'Meet the Whaler'.
 
 #### Con The Whaler desbloqueado en el puerto propiedad del jugador
@@ -233,7 +233,7 @@
 - **Hubbub (Contracts):** ¿Te gustaría un contrato de pesca... o un abrazo?
 - [Menu]: ¿Hablar de pescar contracts?
   - [Choice]: Sí.
-    - ((Se abre la interfaz del contrato actual.))
+    - ((Current Contract interface opens.))
   - [Choice]: No.
     - (end)
 {{Player-owned port}}

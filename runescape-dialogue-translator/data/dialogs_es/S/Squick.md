@@ -8,7 +8,7 @@
 
 ## Dialogue Transcript
 
-- ((La primera vez:))
+- ((On first time:))
   - Squick te regala un taijitu en agradecimiento por el rescate.
   - (continue)
 - **Player:** Er, eres un calamar. ¿Cómo exactamente estás varado?

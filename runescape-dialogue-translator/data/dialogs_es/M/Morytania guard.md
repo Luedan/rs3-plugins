@@ -11,7 +11,7 @@
 
 ### Paterdomus Mauseoleum
 
-((Las siguientes conversaciones se repiten en una rotación cronometrada:))
+((The following conversations play on repeat in a timed rotation:))
 
 #### Conversación 1
 

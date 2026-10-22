@@ -12,7 +12,7 @@
 ### In Draynor Village
 
 - **Aggie:** ¿En qué puedo ayudarte?
-- ((Con un construction contract para Aggie:))
+- ((With a construction contract for Aggie:))
   - [Menu]: Selecciona una opción
     - [Choice]: Pregunta por contracts.
       - [Menu]: Selecciona una opción
@@ -27,7 +27,7 @@
           - (end)
     - [Choice]: Pregunta por otra cosa.
       - (continue|standard)
-- ((De lo contrario:))
+- ((Otherwise:))
   - [Menu]: Elige una opción:
     - [Choice]: Oye, eres una bruja, ¿no?
       - **Player:** Oye, eres una bruja, ¿no?
@@ -53,11 +53,11 @@
           - **Aggie:** Principalmente hago lo que encuentro bonito. A veces hago dye para la ropa de mujer para alegrar el lugar. Puedo hacer dyes rojo, amarillo y azul. Si quieres un poco, tráeme los ingredientes apropiados.
           - [Menu]: Selecciona una opción
             - [Choice]: ¿Qué necesitas para hacer red dye?
-              - (abajo|ingredientes-rojo-dye)
+              - (below|red-dye-ingredients)
             - [Choice]: ¿Qué necesitas para hacer yellow dye?
-              - (abajo|ingredientes-amarillo-dye)
+              - (below|yellow-dye-ingredients)
             - [Choice]: ¿Qué necesitas para hacer blue dye?
-              - (abajo|ingredientes-azul-dye)
+              - (below|blue-dye-ingredients)
             - [Choice]: No gracias, estoy feliz del color que tengo.
               - **Player:** No gracias, estoy feliz del color que tengo.
               - **Aggie:** Entonces es fácil que te sientas satisfecho contigo mismo. Cuando necesites dyes, ven a mí.
@@ -70,12 +70,12 @@
               - **Aggie:** 3 lotes de redberries y 5 coins para ti.
               - [Menu]: Selecciona una opción
                 - [Choice]: ¿Podrías prepararme un poco de red dye, por favor?
-                  - (Condition: Si el player no tiene suficiente redberries:)
+                  - (Condition: If the player doesn't have enough redberries:)
                     - No tienes suficiente berries para hacer el red dye.
-                  - (Condition: Si el player no tiene suficiente coins:)
+                  - (Condition: If the player doesn't have enough coins:)
                     - No puedes permitirte eso.
                     - No tienes suficiente coins para pagar el dye.
-                  - (Condition: Si el player tiene tres redberries y 25 coins:)
+                  - (Condition: If the player has three redberries and 25 coins:)
                     - (elimina=tres redberries y 25 coins) (recibe=red dye)
                     - **Player:** ¿Podrías prepararme un poco de red dye, por favor?
                     - [Entregas el berries y el pago a Aggie. Aggie saca una botella roja y te la entrega.]
@@ -105,12 +105,12 @@
               - **Aggie:** El amarillo es un color extraño, proviene de la piel de la cebolla. Necesito 2 cebollas y 5 coins para hacer yellow dye.
               - [Menu]: Selecciona una opción
                 - [Choice]: ¿Podrías prepararme un poco de yellow dye, por favor?
-                  - (Condition: Si el player no tiene suficientes cebollas:)
+                  - (Condition: If the player doesn't have enough onions:)
                     - No tienes suficientes cebollas para hacer el yellow dye.
-                  - (Condition: Si el player no tiene suficiente coins:)
+                  - (Condition: If the player doesn't have enough coins:)
                     - No puedes permitirte eso.
                     - No tienes suficiente coins para pagar el dye.
-                  - (Condition: Si el player tiene dos cebollas y 25 coins:)
+                  - (Condition: If the player has two onions and 25 coins:)
                     - **Player:** ¿Podrías prepararme un poco de yellow dye, por favor?
                     - (quita=dos cebollas y 25 coins) (recibe=yellow dye)
                     - [Entregas las cebollas y el pago a Aggie. Aggie saca una botella amarilla y te la entrega.]
@@ -133,12 +133,12 @@
               - **Aggie:** 2 hojas de glasto y 5 coins para ti.
               - [Menu]: Selecciona una opción
                 - [Choice]: ¿Podrías prepararme un poco de blue dye, por favor?
-                  - (Condition: Si el player no tiene suficientes hojas de glasto:)
+                  - (Condition: If the player doesn't have enough woad leaves:)
                     - No tienes suficientes hojas de glasto para hacer el blue dye.
-                  - (Condition: Si el player no tiene suficiente coins:)
+                  - (Condition: If the player doesn't have enough coins:)
                     - No puedes permitirte eso.
                     - No tienes suficiente coins para pagar el dye.
-                  - (Condition: Si el player tiene dos hojas de glasto y 25 coins:)
+                  - (Condition: If the player has two woad leaves and 25 coins:)
                     - **Player:** ¿Podrías prepararme un poco de blue dye, por favor?
                     - (quita=dos hojas de glasto y 25 coins) (recibe=blue dye)
                     - [Entregas las hojas de glasto y el pago a Aggie. Aggie saca una botella azul y te la entrega.]
@@ -162,19 +162,19 @@
               - [Menu]: Selecciona una opción
                 - [Choice]: Bien, elimina el dye de este correo duende, por favor.
                   - **Player:** Bien, elimina el dye de este correo duende, por favor.
-                  - (Condition: Sin correo duende en backpack:)
+                  - (Condition: With no goblin mail in backpack:)
                     - **Aggie:** ¿Qué correo de duende?
                     - **Player:** Ah, claro. Iré a buscar un poco.
-                  - (Condition: Con correo de duende, pero sin pescado blanco en backpack:)
+                  - (Condition: With goblin mail, but no whitefish in backpack:)
                     - **Aggie:** Primero tendrás que ir a buscar un pescado blanco de Hemenster.
                     - **Player:** Sí. Estaba a punto de hacer eso.
-                  - (Condition: Con malla de duendes y pescado blanco en backpack, pero menos de cinco coins:)
+                  - (Condition: With goblin mail and whitefish in backpack, but less than five coins:)
                     - **Aggie:** Serán cinco coins, por favor.
                     - **Player:** No tengo tanto dinero encima.
-                  - (Condition: Con todo lo necesario:)
+                  - (Condition: With everything required:)
                     - (elimina=correo de duende, pescado blanco y cinco coins) (recibe=correo de duende blanco)
                     - [Entregas el correo duende, el pescado blanco y el pago a Aggie. Aggie saca una malla de duende blanca y te la entrega.]
-                  - (Condition: Con cota de duende blanca:)
+                  - (Condition: With white goblin mail:)
                     - **Aggie:** Esa cota de malla de duende ya es blanca.
                     - **Player:** Oh, sí, así es.
                 - [Choice]: Creo que todavía no tengo todos los ingredientes.

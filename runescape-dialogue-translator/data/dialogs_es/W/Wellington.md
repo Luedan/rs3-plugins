@@ -13,8 +13,8 @@
 
 - (removes=raw tropical trout)
 - Le entregas el pescado [número] a Wellington.
-- (ventana emergente)
-  - (Ventana emergente: le entregas el pescado [número] a Wellington).
+- (pop-up)
+  - (Pop-up: You hand [number] fish to Wellington.)
 
 ### Hand in fish without raw tropical trout or talk to
 
@@ -36,12 +36,12 @@
 ### Any option with the Sandy Clue Scroll (historical)
 
 - **Wellington:** ¡Toma, no quiero involucrarme en este {{Sic|fishyness}}!
-- (Condition: Recibir un cuadro de desplazamiento:)
+- (Condition: Receiving a scroll box:)
   - (removes=Sandy Clue Scroll) (receives=Sandy Scroll box)
   - [scrollbox].}}
-- (Condition: Recibir ataúdes:)
-  - (Condition: Sin espacio libre backpack:)
+- (Condition: Receiving caskets:)
+  - (Condition: Without free backpack space:)
     - [Necesitas 1 espacio libre en nuestro backpack para recibir tus cofres de pistas.]
-  - (Condition: Con espacio gratuito backpack:)
+  - (Condition: With free backpack space:)
     - (removes=Sandy Clue Scroll) (receives=Sandy Casket and its red version)
     - [¡Te entregan un ataúd!]

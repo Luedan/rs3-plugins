@@ -448,11 +448,11 @@ R – No pasa nada intestinal.
   - Cambie el papel de regalo.
     - Pete gira su cráneo para ocultar su expresión al jefe de los elfos.
     - **Postie Pete:** Muéstrame el color de tu papel, Player.
-    - ((Con menos de 200 papeles de regalo navideños:))
+    - ((With less than 200 Christmas wrapping paper:))
       - **Postie Pete:** No tienes papel de regalo navideño para mí.
-    - ((Con al menos 200 papel de regalo navideño:))
+    - ((With at least 200 Christmas wrapping paper:))
       - Cambias tu papel de regalo y recibes:
-      - ((Se repite uno de los siguientes para cada tipo de regalo recibido:))
+      - ((One of the following is repeated for each type of present received:))
         - [number] x {{Colour}}
         - [number] x {{Colour}}
         - [number] x {{Colour}}
@@ -504,58 +504,58 @@ R – No pasa nada intestinal.
   - ¿Qué hay en los regalos?
     - (Se abre la interfaz de Información actual).
   - Cambie el papel de regalo.
-    - ((Con menos de 200 papeles de regalo navideños:))
+    - ((With less than 200 Christmas wrapping paper:))
       - **Postie Pete:** No puedo darte ningún regalo hasta que tengas al menos 200 papeles de regalo para mí.
-    - ((Con al menos 200 papel de regalo navideño:))
+    - ((With at least 200 Christmas wrapping paper:))
       - (removes=a multiple of 200 Christmas wrapping paper) (receives=presents)
       - Cambias el papel de regalo [número] y recibes:
-      - ((Se repite uno de los siguientes para cada tipo de regalo recibido y luego continúa a continuación:))
+      - ((One of the following is repeated for each type of present received, then continues below:))
         - [number] x {{Colour}}
         - [number] x {{Colour}}
         - [number] x {{Colour}}
         - [number] x {{Colour}}
-      - ((Repetido en una ventana emergente, con las líneas que aparecen como arriba:))
+      - ((Repeated in a pop-up, with the lines appearing as above:))
         - Intercambias papel de regalo [número] y recibes:<br>[número] x {{Colour<br>[number] x ZZCMD0ZZBlue Christmas Present}}<br>[número] x {{Colour|#7035DA|Regalo de Navidad morado}}<br>[número] x {{Colour|#F8B517|Regalo de Navidad dorado}}|color=#EBE0BC}}
   - Reclama presente diario.
-    - ((Habiendo reclamado el presente diario cuando no es 25 de diciembre:))
+    - ((Having claimed the daily present when it's not 25 December:))
       - **Postie Pete:** Ya has reclamado el regalo de hoy.
       - (continue)
-    - ((Habiendo reclamado el presente diario cuando sea el 25 de diciembre:))
+    - ((Having claimed the daily present when it's 25 December:))
       - **Postie Pete:** Ya has reclamado los regalos de hoy.
       - (continue)
-    - ((Sin haber reclamado el presente diario:))
-      - ((Sin espacio en backpack:))
+    - ((Without having claimed the daily present:))
+      - ((Without space in backpack:))
         - **Postie Pete:** No tienes suficiente espacio backpack para tu regalo.
-      - ((Con espacio en backpack cuando no sea 25 de diciembre:))
-        - ((Al azar ocurre uno de los siguientes y luego continúa a continuación:))
-          - ((Si se recibe un regalo blanco:))
+      - ((With space in backpack when it's not 25 December:))
+        - ((Random one of the following occurs, then continues below:))
+          - ((If a white present is received:))
             - (receives=White Christmas Present (2022))
             - Postie Pete te ofrece 1 regalo de Navidad blanco.
-          - ((Si recibe un regalo azul:))
+          - ((If a blue present is received:))
             - (receives=Blue Christmas Present (2022))
             - Postie Pete te ofrece 1 regalo de Navidad azul.
-          - ((Si recibe un regalo morado:))
+          - ((If a purple present is received:))
             - {{Transcript missing}}
-          - ((Si se recibe un regalo de oro:))
+          - ((If a gold present is received:))
             - {{Transcript missing}}
-      - ((Con espacio en backpack cuando sea el 25 de diciembre:))
+      - ((With space in backpack when it's 25 December:))
         - **Postie Pete:** ¡Feliz Navidad, Player!
-        - ((Al azar ocurre uno de los siguientes y luego continúa a continuación:))
-          - ((Si se recibe un regalo blanco:))
+        - ((Random one of the following occurs, then continues below:))
+          - ((If a white present is received:))
             - (receives=three White Christmas Presents)
             - Postie Pete te ofrece 3 regalos de Navidad blancos.
-          - ((Si recibe un regalo azul:))
+          - ((If a blue present is received:))
             - {{Transcript missing}}
-          - ((Si recibe un regalo morado:))
+          - ((If a purple present is received:))
             - {{Transcript missing}}
-          - ((Si se recibe un regalo de oro:))
+          - ((If a gold present is received:))
             - {{Transcript missing}}
-    - ((Si no es el último día del evento:))
+    - ((If it's not the last day of the event:))
       - **Postie Pete:** ¡Asegúrate de volver mañana!
   - Adiós.
     - **Player:** Esto lo demuestra. No deberías poner todos tus papeles festivos llamativos en una sola canasta.
     - **Postie Pete (con Parcel Pete en la foto):** *Fwoop Fwoop toot. Fwoop, fwoop, fwoop. Fwoop, fwoop, fwoop. Fwoop, tait, tait. Fwoop, fwoop, fwoop. Fwoop pitido. Sonar.
-    - ((Lo anterior dice "GOODONE" en código Morse cuando los "fwoops" se interpretan como guiones y los "toots" como puntos.))
+    - ((The above reads "GOODONE" in Morse code when the "fwoops" are interpreted as dashes and "toots" as dots.))
     - **Postie Pete:** Por favor, vete.
 
 ##### Después del evento
@@ -648,61 +648,61 @@ R – No pasa nada intestinal.
 
 - (removes=as many sets of 100 last wills as possible) (receives=belongings)
 - Intercambias las últimas voluntades de [número] y recibes:
-- ((Si se recibieron Pequeñas Pertenencias Olvidadas:))
+- ((If Small Forgotten Belongings were received:))
   - [number] x {{Colour}}
   - (continue)
-- ((Si se recibieron Pertenencias Olvidadas Medianas:))
+- ((If Medium Forgotten Belongings were received:))
   - [number] x {{Colour}}
   - (continue)
-- ((Si se recibieron grandes pertenencias olvidadas:))
+- ((If Large Forgotten Belongings were received:))
   - [number] x {{Colour}}
   - (continue)
-- ((Si se recibieron Pertenencias Olvidadas de la Muerte:))
+- ((If Death's Forgotten Belongings were received:))
   - [number] x {{Colour}}
   - (continue)
-- ((Si se recibieron Pertenencias Olvidadas conmovedoras:))
+- ((If Soulful Forgotten Belongings were received:))
   - {{Transcript missing}}
   - (continue)
-- ((Repetido en una ventana emergente, con la línea de pertenencia correspondiente solo apareciendo si se recibió ese tipo de pertenencia:))
+- ((Repeated in a pop-up, with the corresponding belonging line only appearing if that kind of belonging was received:))
   - Intercambias [número] últimos testamentos y recibes: <br>[número] x {{Colour<br>[number] x ZZCMD0ZZMedium Forgotten Belongings}}<br>[número] x {{Colour|#7035DA|Grandes pertenencias olvidadas}}<br>[número] x {{Colour|#969696|Death's Forgotten Belongings}}|color=#EBE0BC|shadow=no}}
 
 #### Información del paquete
 
-- ((Lo siguiente se muestra en una interfaz titulada "INFORMACIÓN DE PERTENENCIAS OLVIDADAS":))
+- ((The following is shown in an interface titled "FORGOTTEN BELONGINGS INFORMATION":))
   - ¡Abre las pertenencias para obtener botín y tener la oportunidad de ganar premios especiales!
   - [shadow=no]}}
     - [Choice]: INFORMACIÓN
       - (La interfaz cambia a una titulada "PEQUEÑAS PERTENENCIAS OLVIDADAS" con el siguiente contenido :))
         - Contiene 3 de las siguientes recompensas.
-        - ((Las recompensas están enumeradas.))
+        - ((The rewards are listed.))
           - [Choice]: VOLVER
             - (previous)
   - [shadow=no]}}
     - [Choice]: INFORMACIÓN
       - (La interfaz cambia a una titulada "PERTENENCIAS OLVIDADAS MEDIANAS" con el siguiente contenido :))
         - Contiene 3 de las siguientes recompensas.
-        - ((Las recompensas están enumeradas.))
+        - ((The rewards are listed.))
           - [Choice]: VOLVER
             - (previous)
   - [shadow=no]}}
     - [Choice]: INFORMACIÓN
       - (La interfaz cambia a una titulada "GRANDES PERTENENCIAS OLVIDADAS" con el siguiente contenido :))
         - Contiene 3 de las siguientes recompensas.
-        - ((Las recompensas están enumeradas.))
+        - ((The rewards are listed.))
           - [Choice]: VOLVER
             - (previous)
   - [shadow=no]}}
     - [Choice]: INFORMACIÓN
       - (La interfaz cambia a una titulada "PERTENENCIAS OLVIDADAS DE LA MUERTE" con el siguiente contenido :))
         - Cotnains una lámpara enorme, una estrella Bonus XP (enorme) y uno de estos {{Colour rewards.|colour=#8FACBB}}
-        - ((Las recompensas están enumeradas.))
+        - ((The rewards are listed.))
           - [Choice]: VOLVER
             - (previous)
   - [shadow=no]}}
     - [Choice]: INFORMACIÓN
       - (La interfaz cambia a una titulada "PERTENENCIAS OLVIDADAS CON ALMA" con el siguiente contenido:))
         - Contiene 1 de las siguientes recompensas.
-        - ((Las recompensas están enumeradas.))
+        - ((The rewards are listed.))
           - [Choice]: VOLVER
             - (previous)
 
@@ -715,7 +715,7 @@ R – No pasa nada intestinal.
 ##### Habiendo reclamado las pertenencias diarias
 
 - **Postie Pete:** Ya te di una recompensa hoy, no tengo nada más para ti.
-- (Condition: Si aún quedan recompensas diarias futuras para reclamar:)
+- (Condition: If there are still future daily rewards to claim:)
   - **Postie Pete:** ¡Asegúrate de volver mañana!
 
 ##### Sin haber reclamado las pertenencias diarias
@@ -728,20 +728,20 @@ R – No pasa nada intestinal.
 ##### Con espacio gratuito backpack
 
 - (receives=belongings)
-- (Condition: Si se recibieron Pequeñas Pertenencias Olvidadas:)
+- (Condition: If Small Forgotten Belongings were received:)
   - [Postie Pete te regala 1 x Pequeñas pertenencias olvidadas.]
   - (continue)
-- (Condition: Si se recibieron Pertenencias Olvidadas Medianas:)
+- (Condition: If Medium Forgotten Belongings were received:)
   - [Postie Pete te ofrece 1 x Pertenencias olvidadas medianas.]
   - (continue)
-- (Condition: Si se recibieron grandes pertenencias olvidadas:)
+- (Condition: If Large Forgotten Belongings were received:)
   - [Postie Pete te ofrece 1 x Pertenencias olvidadas grandes.]
   - (continue)
-- (Condition: Si se recibieron Pertenencias Olvidadas de la Muerte:)
+- (Condition: If Death's Forgotten Belongings were received:)
   - {{Transcript missing}}
-- (Condition: Si se recibieron Pertenencias Olvidadas conmovedoras:)
+- (Condition: If Soulful Forgotten Belongings were received:)
   - {{Transcript missing}}
-- (Condition: Si aún quedan recompensas diarias futuras para reclamar:)
+- (Condition: If there are still future daily rewards to claim:)
   - **Postie Pete:** ¡Asegúrate de volver mañana!
 
 ##### Después del evento

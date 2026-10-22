@@ -26,14 +26,14 @@
 
 ### After A Fairy Tale III - Battle at Ork's Rift
 
-- (Condition: Si la regadera mágica se ha perdido o está en el cinturón de herramientas:)
+- (Condition: If the magic watering can has been lost or is in the toolbelt:)
   - **Player:** He perdido mi regadera mágica.
-  - (Condition: Si se ha perdido la regadera mágica:)
+  - (Condition: If the magic watering can has been lost:)
     - **Fairy Queen:** ¡Oh, qué molestia! Toma otro.
     - (receives=magic watering can)
     - [El Fairy Queen te ofrece una regadera mágica.]
     - (continue)
-  - ((Si el player agregara la regadera mágica a su cinturón de herramientas:))
+  - ((If the player added the magic watering can to their tool belt:))
     - **Fairy Queen:** ¡No te preocupes Player! ¡Mis asesores agrícolas me dicen que lo agregaste a tu cinturón de herramientas!
     - **Player:** ¡Oh, genial! ¡Gracias!
     - (end)

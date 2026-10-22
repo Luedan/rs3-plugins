@@ -15,12 +15,12 @@
 *Al hablar con Otto Godblessed sin elementos relacionados con el entrenamiento bárbaro; Las habilidades bárbaras siempre se darán antes de Mis notas.*
 *Si el player tiene un espacio de inventario libre y no tiene ninguna copia de las habilidades de Bárbaro en su banco o inventario:*
 - **Otto Godblessed:** Veo que tienes espacio libre y no tienes registro de las tareas que te he asignado. Por favor, tome este libro como un registro de su progreso; entre el espíritu y su diligencia, espero que siempre esté actualizado.
-  - (Continúa con el diálogo estándar)
+  - (Continues with standard dialogue)
 *Si el player tiene un espacio de inventario libre y no tiene ninguna copia de Mis notas en su banco o inventario:*
 - **Otto Godblessed:** Veo que tienes espacio libre y no hay forma de registrar la información que puedas recuperar de las cavernas. Por favor, tome este libro como un registro de sus investigaciones; entre el espíritu y su diligencia espero que siempre esté actualizado.
 - **Player:** ¿Por qué podría necesitar algo así? Ya tengo un libro de notas.
 - **Otto Godblessed:** No todos los que entraron previamente a la caverna han regresado, algunos de ellos parecían decididos a investigar y descubrir tanto como a saquear y realizar hazañas audaces. Sería una pena que recuperaras alguna de sus notas y no pudieras registrarlas cómodamente. Espero que el nuevo libro le dé espacio para tales descubrimientos.
-  - (Continúa con el diálogo estándar)
+  - (Continues with standard dialogue)
 
 ### Standard dialogue after completing Barbarian training
 

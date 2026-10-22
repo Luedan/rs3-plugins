@@ -35,12 +35,12 @@
     - [Menu]: Selecciona una opción
       - [Choice]: Bien, aquí tienes.
         - **Player:** Ok, aquí tienes.
-        - (Condition: Sin ningún espacio libre en backpack:)
+        - (Condition: Without any free backpack space:)
           - **Leon:** Bueno, pareces un poco sobrecargado en este momento. Quizás deberías liberar algo de espacio para transportarlo primero.
-        - (Condition: Sin 1300 coins:)
+        - (Condition: Without 1300 coins:)
           - No puedes permitirte eso.
           - **Player:** Oh, en realidad no tengo suficiente dinero conmigo.
-        - (Condition: Con espacio backpack y 1300 coins:)
+        - (Condition: With backpack space and 1300 coins:)
           - (removes=1,300 coins) (receives=Hunters' crossbow)
           - Entregas el dinero y el diseñador del arma te presenta un prototipo de ballesta.
           - **Leon:** Toma, también podrías tomar este. Aleck de allí no parece interesado y te ahorrará la espera.

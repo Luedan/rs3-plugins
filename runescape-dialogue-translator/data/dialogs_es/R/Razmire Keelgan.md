@@ -12,7 +12,7 @@
 ### After Shades of Mort'ton
 
 - **Razmire Keelgan:** Ah, eres tú, ¿cómo te va?
-- (Condition: Primera vez después de cremar una sombra durante Shades of Mort'ton:)
+- (Condition: First time after cremating a shade during Shades of Mort'ton:)
 <!-- ** (see|Shades of Mort'ton#Locating_the_Lair) -->
   - **Player:** Oye, he dejado descansar a Shade, ¿puedes decirme dónde está ahora la guarida de Shade?
   - **Razmire Keelgan:** Sí, gran trabajo al dejar descansar a esa Sombra. La entrada a Shade Lair está al norte de mi tienda. ¡Buena caza en la guarida amigo!

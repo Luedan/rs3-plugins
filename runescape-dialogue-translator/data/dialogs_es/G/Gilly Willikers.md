@@ -114,9 +114,9 @@
       - ¿Qué es el Lucky Dip?
         - **Gilly Willikers:** Lucky Dip de Leonard es tu oportunidad de ganar algunos artículos increíbles. ¡Todos los días, puedes elegir qué premios te gustaría y todo lo que necesitas hacer es ingresar un boleto para tener la oportunidad de ganar! Toca la bocina.
         - **Gilly Willikers:** Puedes encontrar al anfitrión de Lucky Dip, Leonard, en Burthorpe Lodestone y él te brindará más información. ¡Además te dará una entrada gratis! Toca la bocina.
-        - ((Sin haber recibido el billete extra diario:))
+        - ((Without having received the daily extra ticket:))
           - (continue)
-        - ((Habiendo recibido el billete extra diario:))
+        - ((Having received the daily extra ticket:))
           - (previous)
       - ¿Quién es Leonard?
         - **Gilly Willikers:** El Sr. Leonard Daven proviene de una larga línea de grandes líderes y patrocinadores de la gente de Gielinor. Toca la bocina.
@@ -126,9 +126,9 @@
         - **Player:** Entonces, ¿por qué te contrató para promocionar el evento?
         - **Gilly Willikers:** Bueno, él conoce mis cualidades como artista legendario. Si no puedo llamar la atención sobre el Lucky Dip, nadie podrá hacerlo. Toca la bocina.
         - **Player:** No puedo negar que destacas entre la multitud.
-        - ((Sin haber recibido el billete extra diario:))
+        - ((Without having received the daily extra ticket:))
           - (continue)
-        - ((Habiendo recibido el billete extra diario:))
+        - ((Having received the daily extra ticket:))
           - (previous)
       - ¿Qué haces en el circo?
         - **Gilly Willikers:** ¡Ah el circo! ¡Qué lugar de maravilla y belleza! Soy uno de los muchos payasos que actúan en el circo. Toca la bocina.
@@ -138,40 +138,40 @@
         - **Gilly Willikers:** ¡No tengo idea de qué estás hablando, Player! ¡Estoy aquí para entretener, no para entrenar aventureros! Toca la bocina.
         - **Player:** Me aseguraré de ir a verte entonces.
         - **Player:** *tos* Desperdicio de XP *tos*
-        - ((Sin haber recibido el billete extra diario:))
+        - ((Without having received the daily extra ticket:))
           - (continue)
-        - ((Habiendo recibido el billete extra diario:))
+        - ((Having received the daily extra ticket:))
           - (previous)
       - ¿Por qué sigues tocando la bocina todo el tiempo?
         - **Gilly Willikers:** He sido bendecido y maldecido por la gran Escuela de Payasos de Gielinor. Como parte de nuestro riguroso entrenamiento, se nos enseñan los métodos místicos del payaso, lo que nos permite alcanzar nuestro payaso interior. Toca la bocina.
         - **Gilly Willikers:** El payaso que llevo dentro quiere tocar la bocina todo el tiempo, y es un éxito entre la multitud en el circo, así que pretendo tocar la bocina cada vez que hablo. Toca la bocina.
         - **Player:** Los payasos son realmente personas extrañas.
-        - ((Sin haber recibido el billete extra diario:))
+        - ((Without having received the daily extra ticket:))
           - (continue)
-        - ((Habiendo recibido el billete extra diario:))
+        - ((Having received the daily extra ticket:))
           - (previous)
       - Adiós.
         - (end)
     - **Gilly Willikers:** Mientras estés aquí, veamos si tengo un boleto para ti. Toca la bocina.
-    - ((Durante el evento:))
-      - ((Sin espacio en backpack para el ticket:))
+    - ((During the event:))
+      - ((Without space in backpack for the ticket:))
         - **Gilly Willikers:** Deja de hacer payasadas, tus maletas ya están llenas. Haz algo de espacio para el billete. Toca la bocina.
-      - ((Con espacio en backpack para el ticket:))
+      - ((With space in backpack for the ticket:))
         - (receives=a Lucky Dip ticket)
         - **Gilly Willikers:** Ciertamente Player. ¡Buena suerte en el Lucky Dip! Toca la bocina.
-    - ((Después del evento:))
+    - ((After the event:))
       - **Gilly Willikers:** ¡Oh! No puedo darte un billete de Lucky Dip ahora mismo. ¡Lo siento! ¡BOCINA, BOCINA!
   - Me gustaría reclamar mi boleto extra por favor.
-    - ((Sin haber recibido el billete extra diario:))
-      - ((Durante el evento:))
-        - ((Sin espacio en backpack para el ticket:))
+    - ((Without having received the daily extra ticket:))
+      - ((During the event:))
+        - ((Without space in backpack for the ticket:))
           - **Gilly Willikers:** Deja de hacer payasadas, tus maletas ya están llenas. Haz algo de espacio para el billete. Toca la bocina.
-        - ((Con espacio en backpack para el ticket:))
+        - ((With space in backpack for the ticket:))
           - (receives=a Lucky Dip ticket)
           - **Gilly Willikers:** Ciertamente Player. ¡Buena suerte en el Lucky Dip! Toca la bocina.
-      - ((Después del evento:))
+      - ((After the event:))
         - **Gilly Willikers:** ¡Oh! No puedo darte un billete de Lucky Dip ahora mismo. ¡Lo siento! ¡BOCINA, BOCINA!
-    - ((Habiendo recibido el billete extra diario:))
+    - ((Having received the daily extra ticket:))
       - **Gilly Willikers:** ¡Lo siento amigo! ¡Ya te han dado un boleto adicional para Lucky Dip hoy! No sería justo que los demás te dieran otro.
       - **Gilly Willikers:** ¡BOCINA, BOCINA!
   - Adiós.

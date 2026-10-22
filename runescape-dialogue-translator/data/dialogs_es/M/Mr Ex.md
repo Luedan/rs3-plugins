@@ -14,15 +14,15 @@
 
 - [Menu]: Elige una opción:
   - [Choice]: Gorros Wilderness
-    - (Condition: Si no has recibido un casco de acechador salvaje:)
+    - (Condition: If you have not received a wildstalker helmet:)
       - **Mr Ex:** ¿Vas a salir al Wilderness? Si es así, tengo un regalo para ti.
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, lo soy.
           - **Player:** Sí, lo soy.
           - **Mr Ex:** No me pillaría haciendo eso, oh no. Me quedaré aquí y les daré cascos de acechador salvaje a luchadores como tú.
-          - (Condition: Sin espacio backpack:)
+          - (Condition: Without backpack space:)
             - **Mr Ex:** Una vez que tengas espacio para llevarlo, claro está.
-          - (Condition: Con espacio backpack:)
+          - (Condition: With backpack space:)
             - (receives=Wildstalker helmet)
             - [Mr Ex te ofrece un casco blindado.]
             - **Mr Ex:** Espero que esto te cuide. Llévalo con orgullo.
@@ -30,18 +30,18 @@
         - [Choice]: Mmmm, no.
           - **Player:** Erm, no.
           - **Mr Ex:** ¡Un [man/lady] según mi propio corazón! Detente aquí donde sea seguro.
-    - (Condition: Si ya tienes un casco de acechador salvaje:)
+    - (Condition: If you already have a wildstalker helmet:)
       - **Mr Ex:** ¿Aún tienes ese casco que te regalé? Buen material. Mejor tú que yo ahí fuera, digo.
       - (continue|Options)
-    - (Condition: Si perdiste/destruiste tu casco de acechador salvaje:)
+    - (Condition: If you lost/destroyed your wildstalker helmet:)
       - **Mr Ex:** Parece que has perdido tu sombrero.
       - **Player:** Sí, en algún lugar por ahí.
       - **Mr Ex:** Bueno, no me importa devolvértelo...
       - **Mr Ex:** No está en Wilderness, ¿verdad?
-      - (Condition: Sin espacio backpack:)
+      - (Condition: Without backpack space:)
         - **Mr Ex:** Eso es si haces espacio para llevarlo.
         - (continue)
-      - (Condition: Con espacio backpack:)
+      - (Condition: With backpack space:)
         - (receives=Wildstalker helmet)
         - **Mr Ex:** Ah, allá vamos, ha llegado a casa para mí. Cuídalo.
         - **Player:** ¡Gracias!
@@ -60,7 +60,7 @@
     - **Player:** Por eso estoy aquí. He oído que tal vez puedas ayudarme.
     - [Menu]: Elige una opción:
       - [Choice]: Jarra de luz divina
-        - (Condition: Si no has aceptado previamente el frasco de luz divina:)
+        - (Condition: If you have not previously accepted the jar of divine light:)
           - **Mr Ex:** Bueno, encontré este práctico frasco de luz divina. ¿Es tuyo si lo quieres?
           - **Mr Ex:** Deberás tomar el frasco para poder abrirlo ahora; de lo contrario, se activará automáticamente para salvarte cuando mueras, incluso sin tenerlo.
           - El frasco de luz divina, cuando se usa, desactivará el modo Extremo. Esto no se puede deshacer una vez utilizado.
@@ -69,17 +69,17 @@
               - **Mr Ex:** Te guardaré el frasco. Háblame de nuevo si quieres abrirlo; de lo contrario, lo abriré cuando llegue el momento de que conozcas a los dioses.
             - [Choice]: No gracias, esperaré hasta morir.
               - (end)
-        - (Condition: Si previamente has aceptado el frasco de luz divina:)
+        - (Condition: If you have previously accepted the jar of divine light:)
           - **Mr Ex:** ¿Has vuelto por el frasco de luz divina? Ya lo has tomado. ¿Quieres abrirlo ahora?
           - [Abrir este frasco te envolverá en una luz divina, mostrando tu presencia a los dioses. Una vez que los dioses sean conscientes de tu presencia, podrás regresar al mundo después de la muerte.]
-          - (Condition: Si aún no has desactivado el modo Hardcore:)
+          - (Condition: If you have not disabled Hardcore mode yet:)
             - [Esto desactivará permanentemente el modo Hardcore en tu cuenta después de 7 días y te llevará a una cuenta Ironman. Este proceso no se puede revertir. Este elemento también se puede usar automáticamente al morir. ¿Está seguro?]
             - **¿Desactivar el modo Extremo?**
               - [Choice]: Quiero desactivar el modo Hardcore
                 - Intenta abrir el frasco de luz en 7 días para desactivar el modo Hardcore.
               - [Choice]: Cancelar
                 - (end)
-          - (Condition: Si has desactivado el modo Hardcore:)
+          - (Condition: If you have disabled Hardcore mode:)
             - Has elegido desactivar el modo Hardcore en los días [número]. ¿Aún deseas desactivar el modo Hardcore?
             - [Menu]: Desactivar el modo duro
               - [Choice]: Sí, quiero desactivar el modo Hardcore
@@ -87,7 +87,7 @@
               - [Choice]: No, quiero permanecer en modo Hardcore.
                 - Se canceló la desactivación del modo Hardcore.
       - [Choice]: cond=If you have a total level of 1000 or 1600 and have not purchased the divine coins:|moneda divina
-        - (Condition: Comprando la primera moneda divina:)
+        - (Condition: Purchasing the first divine coin:)
           - **Mr Ex:** Encontré esta moneda. Parece estar exudando poder divino. Estaría dispuesto a vendérselo... por un precio.
           - **Mr Ex:** Sí, creo que 100.000 coins estarán bien.
           - **Mr Ex:** Tendrás que llevarlo contigo dondequiera que vayas. Mantenlo oculto.
@@ -99,7 +99,7 @@
               - [Mr Ex te entrega la moneda. Lo guardas rápidamente.]
             - [Choice]: No gracias.
               - {{Transcript missing}}
-        - (Condition: Comprando la segunda moneda divina:)
+        - (Condition: Purchasing the second divine coin:)
           - **Mr Ex:** Encontré esta moneda. Parece estar exudando poder divino. Estaría dispuesto a vendérselo... por un precio. Sí, creo que 10.000.000 coins estarán bien.
           - **Player:** ¡Te compré una moneda idéntica por mucho más barata! ¿Por qué es esto tan caro?
           - **Mr Ex:** Oferta y demanda, señora.
@@ -124,29 +124,29 @@
           - [Choice]: No, quiero la opción de desactivar el modo Hardcore Ironman.
             - (end)
   - [Choice]: cond=If you are a Hardcore or normal Ironman Mode player:|modo hombre de hierro
-    - (Condition: Si el player no ha comprado el libro de diplomacia:)
-      - (Condition: Si estás jugando en el modo Hardcore Ironman y aún no has aceptado un frasco de luz divina:)
+    - (Condition: If the player has not purchased the book of diplomacy:)
+      - (Condition: If you are playing in Hardcore Ironman mode and have not yet accepted a jar of divine light:)
         - **Mr Ex:** Me temo que no puedo venderte este libro sin venderte primero este hermoso frasco que tengo.
-      - (Condition: Si estás jugando en el modo Ironman normal o en el modo Ironman extremo pero has aceptado un frasco de luz divina:)
+      - (Condition: If you are playing in regular Ironman mode, or playing in Hardcore Ironman mode but have accepted a jar of divine light:)
         - **Mr Ex:** Oye, no quiero ofenderte con esto, pero estoy intentando vender este libro.
         - **Mr Ex:** Lo compré yo mismo por una buena suma de dinero, pero no lo uso.
         - **Mr Ex:** Es un libro que enseña al lector cómo interactuar con los demás. Sin embargo, necesitaría 50.000 coins para desprenderme de él.
         - [Menu]: Selecciona una opción
           - [Choice]: ¡Es genial, gracias!
             - **Player:** He estado buscando un libro como este...
-            - (Condition: Sin los 50.000 coins:)
+            - (Condition: Without the 50,000 coins:)
               - No puedes permitirte eso.
-              - ((Repetido en una ventana emergente:))
+              - ((Repeated in a pop-up:))
                 - No puedes permitirte eso.
               - **Mr Ex:** Parece que no tienes suficiente coins.
-            - (Condition: Con los 50.000 coins:)
+            - (Condition: With the 50,000 coins:)
               - (removes=50,000 coins) (receives=Book of diplomacy)
               - [Mr Ex te entrega el libro.]
           - [Choice]: No gracias
             - (end)
           - [Choice]: Nunca quiero comprar este libro.
             - **Mr Ex:** Nunca significa nunca. No te volveré a ofrecer este libro. ¿Estás seguro de que no quieres este libro?
-            - (Condition: Si el player posee un frasco de luz divina:)
+            - (Condition: If the player owns a jar of divine light:)
               - **Mr Ex:** También sellaré tu Jarra de luz divina, para que solo yo pueda abrirla si te caes.
               - (continue)
             - [Menu]: ¿Nunca desactivas el modo ironman?
@@ -155,11 +155,11 @@
                 - **Player:** ¡Gracias!
               - [Choice]: No, quiero poder cancelar el modo Ironman.
                 - (end)
-    - (Condition: Si el player ha comprado el libro de diplomacia:)
+    - (Condition: If the player has purchased the book of diplomacy:)
       - **Player:** ¡Nunca quiero leer el libro de diplomacia! No sé por qué lo compré.
       - **Mr Ex:** Entonces te lo quitaré.
       - **Mr Ex:** Nunca significa nunca. No te volveré a ofrecer este libro. ¿Estás seguro de que no quieres este libro?
-      - (Condition: Si el player posee un frasco de luz divina:)
+      - (Condition: If the player owns a jar of divine light:)
         - **Mr Ex:** También sellaré tu Jarra de luz divina, para que solo yo pueda abrirla si te caes.
         - (continue)
       - [Menu]: ¿Nunca desactivas el modo ironman?
@@ -189,39 +189,39 @@
           - [Choice]: Lo siento, me estaba yendo.
             - (end)
       - [Choice]: ¿Puedo reclamar alguna recompensa de usted?
-        - (Condition: Si el player no tiene ninguna recompensa para reclamar:)
+        - (Condition: If the player doesn't have any rewards to claim:)
           - **Mr Ex:** ¡Ya no tienes más recompensas para reclamar!
-        - (Condition: Si el player no ha reclamado las recompensas del sencillo conjunto de tareas Wilderness:)
+        - (Condition: If the player has not claimed the rewards from the easy Wilderness task set:)
           - **Player:** He completado todas las tareas del sencillo conjunto de tareas Wilderness.
           - **Mr Ex:** Bien hecho Player, he reservado algunas recompensas para ti.
-          - (Condition: Sin tres espacios backpack libres:)
+          - (Condition: Without three free backpack spaces:)
             - **Mr Ex:** Me temo que no tienes suficiente espacio en el inventario para reclamar todas tus recompensas. Hablame de nuevo cuando tengas 3 espacios.
-          - (Condition: Con tres espacios backpack gratuitos:)
+          - (Condition: With three free backpack spaces:)
             - Espada (receives=two Antique lamp (Easy Wilderness Tasks) y Wilderness 1)
             - [¡Recibirás algunas recompensas por completar el sencillo conjunto de tareas Wilderness!]
             - **Mr Ex:** Ahí lo tienes, parece que eso es todo.
-        - (Condition: Si el player ha perdido su espada Wilderness 1:)
+        - (Condition: If the player has lost their Wilderness sword 1:)
           - **Player:** Perdí la espada Wilderness 1 que me diste...
           - **Mr Ex:** Por suerte para ti, tengo uno de repuesto... Aunque me temo que te costará 50.000 coins.
           - [Menu]: ¿Reclamar 50.000 coins?
             - [Choice]: Sí.
-              - (Condition: Si el player no tiene suficiente dinero:)
+              - (Condition: If the player does not have enough money:)
                 - No puedes permitirte eso.
                 - **Mr Ex:** Pero no parece que tengas suficiente dinero para eso. Vuelve conmigo cuando lo hagas.
-              - (Condition: Si el player tiene suficiente dinero:)
+              - (Condition: If the player has enough money:)
                 - (removes=50,000 coins) (receives=Wilderness sword 1)
                 - [Te entregan otra espada Wilderness 1.]
             - [Choice]: No.
               - **Player:** No, gracias.
-        - (Condition: Si el player ha perdido su espada Wilderness 4:)
+        - (Condition: If the player has lost their Wilderness sword 4:)
           - **Player:** Perdí la espada Wilderness 4.
           - **Mr Ex:** Por suerte para ti, tengo uno de repuesto... Aunque me temo que te va a costar 100.000 coins.
           - [Menu]: ¿Reclamar 100.000 coins?
             - [Choice]: Sí.
-              - (Condition: Si el player no tiene suficiente dinero:)
+              - (Condition: If the player does not have enough money:)
                 - No puedes permitirte eso.
                 - **Mr Ex:** Pero no parece que tengas suficiente dinero para eso. Vuelve conmigo cuando lo hagas.
-              - (Condition: Si el player tiene suficiente dinero:)
+              - (Condition: If the player has enough money:)
                 - (removes=100,000 coins) (receives=Wilderness sword 4)
                 - [Te entregan otra espada Wilderness 4.]
             - [Choice]: No.

@@ -66,16 +66,16 @@
           - **Player:** ¿Tienes algún pastel que pueda comer?
           - **Party Pete:** ¡Tenemos todo tipo de delicias geniales para la fiesta!
           - **Player:** ¿Pero tienes pastel? Del tipo que nunca termina.
-          - (Condition: Con celebración de aniversario activa:)
-            - (Condition: Sin espacio libre backpack:)
+          - (Condition: With an anniversary celebration active:)
+            - (Condition: Without free backpack space:)
               - **Party Pete:** Ah. No tienes suficiente espacio para llevar este pastel.
-            - (Condition: Con espacio gratuito backpack:)
-              - (Condition: Con pastel del 25 Aniversario ya en propiedad:)
+            - (Condition: With free backpack space:)
+              - (Condition: With 25th Anniversary cake already owned:)
                 - **Party Pete:** No seas codicioso, hombre, ¡ya tienes algunos! Necesitamos que todos los ciudadanos de Gielinor disfruten de este fantástico pastel.
-              - (Condition: Con el pastel del 25 Aniversario perdido:)
+              - (Condition: With 25th Anniversary cake lost:)
                 - (receives=25th Anniversary cake)
                 - **Party Pete:** ¡Aquí tienes un pastel del 25 aniversario! ¡Feliz aniversario, hombre!
-          - (Condition: Sin celebración de aniversario activa:)
+          - (Condition: Without an anniversary celebration active:)
             - **Party Pete:** Lamentablemente no hay pastel en este momento, intenta regresar el 1 de enero... ¡Pero la fiesta nunca termina!
     - Atrás.
       - *(Vuelve a las opciones anteriores.)*
@@ -84,10 +84,10 @@
 
 - **Party Pete:** ¡Has venido al lugar correcto!
 - (removes=the old clue scroll (medium))
-- ((Si el rastro continúa:))
+- ((If the trail continues:))
   - (receives=a new clue scroll (medium))
   - [¡Party Pete te ha dado otro pergamino de pistas!]
-- ((Si el sendero termina:))
+- ((If the trail ends:))
   - (receives=reward casket (medium))
   - [¡Has encontrado un ataúd!]
 
@@ -168,13 +168,13 @@
 - **Player:** No es necesario, esta es solo una visita rápida para tachar algo de mi lista de tareas.
 - **Party Pete:** ¿Seguro que no quieres donar algo al cofre de la fiesta para la próxima Bonanza de Globos?
 - {{RSFontAchievement|Party Pete|Talk to Party Pete in the Falador Party Room.}}
-- ((Se muestra en una ventana emergente de finalización de tarea:))
+- ((Shown in a task completion pop-up:))
   - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
   - Party Pete
   - Habla con Party Pete en la sala de fiestas Falador.
   - (continue)
 - **Party Pete:** No te preocupes si no, amigo. Es todo genial.
-- (Condition: Si se han completado todas las tareas:)
+- (Condition: If all the tasks have been completed:)
   - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!
 
 ### 15th year anniversary party garden

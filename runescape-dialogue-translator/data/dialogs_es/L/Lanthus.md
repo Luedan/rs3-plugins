@@ -81,16 +81,16 @@
     - **Lanthus:** Si completas esto, te daré: boleto de Castle Wars (oro) x 2. ¡Estoy seguro de que también ganarás algo de reputación en el gremio de agricultores!
     - **Lanthus:** ¡Tendrás que ser rápido!, solo estoy aquí por [número] días, [número] horas y [número] minutos. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - (Condition: Sin los artículos solicitados:)
+    - (Condition: Without the requested items:)
       - **Lanthus:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Lanthus:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **Lanthus:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal] o [Animal].
       - **Lanthus:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
-    - (Condition: Con los artículos solicitados:)
+    - (Condition: With the requested items:)
       - (removes=the requested items) (receives=the reward)
       - Se ha añadido lo siguiente a su bolsa de divisas: 2 x billete de Castle Wars (oro).
       - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
         - (continue)
       - Has recibido: Boleto de Castle Wars (oro) x 2<br>Y 13,750 reputación agrícola.

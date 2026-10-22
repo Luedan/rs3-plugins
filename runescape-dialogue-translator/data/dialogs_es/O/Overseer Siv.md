@@ -8,30 +8,30 @@
 
 ## Dialogue Transcript
 
-- ((Antes de haber construido el Centro de Mando:))
+- ((Before having built the Command Centre:))
   - **Overseer Siv:** Este parece un buen lugar para un centro de mando.
   - (continue)
-- ((Después de haber construido el Centro de Mando:))
+- ((After having built the Command Centre:))
   - **Overseer Siv:** Bienvenido al centro de mando.
   - (continue)
 - **Seleccione una opción**
   - ¿Qué hace un centro de mando?
     - **Overseer Siv:** Con un centro de comando en funcionamiento, tendrá acceso remoto a todas sus operaciones globales.
     - **Player:** ¿Operaciones globales?
-    - ((Si el player aún no ha elegido un título con Aster:))
+    - ((If the player has not yet chosen a title with Aster:))
       - **Overseer Siv:** Seguramente una gran persona como tú debe tener más cosas que hacer más allá de estos muros. Puedes gestionarlo todo desde aquí.
       - (continue)
-    - ((Si el player ha elegido un título con Aster:))
+    - ((If the player has chosen a title with Aster:))
       - **Overseer Siv:** Seguramente un [Title] como tú debe tener más cosas que hacer más allá de estas paredes. Puedes gestionarlo todo desde aquí.
       - (continue)
     - **Seleccione una opción**
       - Pregunta por Miscellania.
-        - ((Si el player no ha completado El trono de Miscellania:))
+        - ((If the player hasn't completed Throne of Miscellania:))
           - **Overseer Siv:** ¿Tiene alguna participación en Miscellania?
           - **Player:** No como tal, no.
           - Completa la misión del Trono de Miscellania para desbloquear la Gestión de Miscellania.
           - (previous)
-        - ((Si el player ha completado El trono de Miscellania:))
+        - ((If the player has completed Throne of Miscellania:))
           - **Player:** De hecho, tengo todo un reino en Miscellania.
           - **Overseer Siv:** ¿Eres [Fremennik name]? No tenía ni idea.
           - **Overseer Siv:** Me imagino que te resultará difícil mantener contentos a tus súbditos.
@@ -40,37 +40,37 @@
           - Puedes pagar oro para mejorar la aprobación de los sujetos. Esto requiere un centro de mando de nivel 3.
           - (previous)
       - Pregunta sobre Anacronía.
-        - ((Si el player no ha completado el tutorial del campamento base de Anacronia:))
+        - ((If the player hasn't completed the Anachronia base camp tutorial:))
           - **Overseer Siv:** ¿Anacronía? ¿Has estado allí?
           - **Player:** No.
           - Viaja a Anacronia a bordo del Stormbreaker, atracado en el gremio Archaeology, para desbloquear el campamento base.
           - (previous)
-        - ((Si el player ha completado el tutorial del campamento base de Anacronia:))
+        - ((If the player has completed the Anachronia base camp tutorial:))
           - **Player:** Administro el campamento base en Anacronia.
           - **Overseer Siv:** Supongo que siempre necesito más mano de obra. Estoy seguro de que podemos organizar algo.
           - **Player:** No podría hacer daño.
           - Los niveles de construcción 2 y 3 del centro de comando agregan cada uno 5 trabajadores a su campamento base.
           - (previous)
       - Pregunta por Archaeology.
-        - ((Si el player no ha obtenido la calificación de Asistente:))
+        - ((If the player hasn't attained the Assistant qualification:))
           - **Overseer Siv:** ¿Archaeology? ¿Es esa una especialización tuya?
           - **Player:** En realidad, no.
           - Alcanza el nivel 40 Archaeology y obtén la calificación de Asistente para desbloquear la Investigación.
           - (previous)
-        - ((Si el player ha obtenido la calificación de Asistente:))
+        - ((If the player has attained the Assistant qualification:))
           - **Player:** Mi equipo de investigadores de crack siempre está ocupado en el Gremio Archaeology.
           - **Overseer Siv:** Estamos en el Wilderness. Estoy seguro de que podemos encontrar algo interesante para enviarles.
           - Un centro de mando de nivel 2 reduce los costos de investigación en un 3%. Un centro de mando de nivel 3 aumenta la velocidad de investigación en un 3%.
           - (previous)
       - Pregunte acerca de los puertos propiedad de Player.
-        - ((Si el player no ha desbloqueado el puerto propiedad de el player:))
+        - ((If the player hasn't unlocked the Player-owned port:))
           - **Overseer Siv:** ¿Pasas gran parte de tu tiempo merodeando por los puertos?
           - **Player:** No.
           - Alcanza el nivel 90 Agility, Construction, Cooking, Divination, Dungeoneering, Fishing, Herblore-
           - *jadeo*
           - -Hunter, Prayer, Runecrafting, Slayer o Thieving para desbloquear puertos propiedad de Player.
           - (previous)
-        - ((Si el player ha desbloqueado el puerto propiedad de el player:))
+        - ((If the player has unlocked the Player-owned port:))
           - **Player:** Me gusta enviar algún viaje ocasional a las Tierras del Este desde mi empresa comercial.
           - **Overseer Siv:** Bueno, eso no es problema. Nosotros, los Fremennik, somos los mejores marinos mercantes del mundo.
           - **Overseer Siv:** Con suficientes recursos, estoy seguro de que podemos lograr algunos ahorros de eficiencia.

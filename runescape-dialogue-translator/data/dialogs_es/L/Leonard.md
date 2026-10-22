@@ -12,7 +12,7 @@
 
 ### Overhead lines
 
-- ((Cada minuto se ve uno de los siguientes al azar:))
+- ((Random one of the following is seen every minute:))
   - **Leonard:** {{RSChat|Come get your Lucky Dip tickets and seize the opportunity to make it big!}}
   - **Leonard:** {{RSChat|Hear ye! Hear ye! Come and play Leonard's Lucky Dip! This month only!}}
   - **Leonard:** {{RSChat|Win prizes in Leonard's Lucky Dip today!}}
@@ -23,15 +23,15 @@
 
 #### Durante el evento
 
-- ((Si el player está en un mundo gratuito:))
+- ((If the player is on a free-to-play world:))
   - **Leonard:** ¡Oíd! ¡Oíd! ¡Únase a mí en un mundo de miembros y le contaré todo sobre el Lucky Dip de Leonard!
-- ((Si el player está en modo Ironman:))
+- ((If the player is in Ironman Mode:))
   - **Leonard:** Ah, respeto tus ambiciones de encontrar tu fortuna por tu cuenta. Participar en mi Lucky Dip seguramente corrompería esos ideales, así que decidí prohibir la entrada a los hombres y mujeres del hierro.
-- ((Sin haber recibido el billete diario:))
+- ((Without having received the daily ticket:))
   - **Leonard:** Ahh, no has tenido multa. ¡Consigue el tuyo ahora y aprovecha el día!
-  - ((Sin espacio para billete:))
+  - ((Without space for a ticket:))
     - (continue)
-  - ((Con espacio para entrada:))
+  - ((With space for a ticket:))
     - Recibirá un boleto gratis para el Lucky Dip.
     - (receives=a Lucky Dip ticket)
     - (continue)
@@ -46,25 +46,25 @@
     - **SELECCIONA UNA OPCIÓN**
       - ¿Dónde está Gilly Willikers ahora?
         - **Player:** ¿Dónde está Gilly Willikers en este momento?
-        - ((Si está en Al Kharid:))
+        - ((If he is in Al Kharid:))
           - **Leonard:** Parece que fue visto por última vez en Al Kharid.
           - (continue)
-        - ((Si está en Draynor Village:))
+        - ((If he is in Draynor Village:))
           - **Leonard:** Creo que actualmente está visitando Draynor.
           - (continue)
-        - ((Si está en Edgeville:))
+        - ((If he is in Edgeville:))
           - **Leonard:** Aparentemente está en Edgeville.
           - (continue)
-        - ((Si está en Falador:))
+        - ((If he is in Falador:))
           - **Leonard:** Hmm, recientemente lo vieron deambulando por la puerta principal de Falador.
           - (continue)
-        - ((Si está en Lumbridge:))
+        - ((If he is in Lumbridge:))
           - **Leonard:** No hace mucho estaba explorando el castillo Lumbridge.
           - (continue)
-        - ((Si está en Taverley:))
+        - ((If he is in Taverley:))
           - **Leonard:** Fue visto alrededor de Taverley no hace mucho.
           - (continue)
-        - ((Si está en Varrock:))
+        - ((If he is in Varrock:))
           - **Leonard:** He escuchado informes de que él está en Varrock.
           - (continue)
         - **Player:** ¡Gracias!
@@ -72,7 +72,7 @@
         - (previous2)
   - Me gustaría participar en el Lucky Dip de hoy.
     - **Player:** Me gustaría participar en el Lucky Dip de hoy.
-    - ((Se abre la interfaz de Lucky Dip.))
+    - ((The Lucky Dip interface opens.))
   - ¿Cuáles son las recompensas del Lucky Dip?
     - **Player:** ¿Cuáles son las recompensas del Lucky Dip?
     - **Leonard:** ¡Los premios del Lucky Dip consisten principalmente en armas y armaduras doradas, pero también incluyen artículos consumibles como paquetes proteicos, cajas de depósito portátiles, dardos con toque mortal y más!
@@ -99,9 +99,9 @@
     - **Leonard:** Lo siento amigo, pero el Lucky Dip ha terminado.
     - **Leonard:** Sólo estoy aquí para repartir los últimos premios.
     - **Player:** ¿Tienes un premio para mí?
-    - ((Con algunos premios para reclamar:))
+    - ((With some prizes to claim:))
       - ((Se abre la interfaz de Lucky Dip.)
-    - ((Sin premios que reclamar:))
+    - ((Without prizes to claim:))
       - **Leonard:** No, tomo nota para ti. Quizás tu fortuna esté en otra parte.
   - ¿Cuáles son las recompensas del Lucky Dip?
     - **Player:** ¿Cuáles son las recompensas del Lucky Dip?
@@ -127,7 +127,7 @@
 
 ##### Durante el evento
 
-- ((Se abre la interfaz de Lucky Dip.))
+- ((The Lucky Dip interface opens.))
 
 ##### Después del evento
 
@@ -139,7 +139,7 @@
 
 ### Prize info
 
-- ((Se abre la interfaz de Información del premio.))
+- ((The Prize Information interface opens.))
 
 ### Get hint
 

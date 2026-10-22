@@ -23,33 +23,33 @@
 ### Talk to
 
 - {{Trandom}}
-  - ((Diálogo 1:))
+  - ((Dialogue 1:))
     - **Player:** ¿Has estado haciendo mucho últimamente?
     - **Fishmonger's assistant:** Acabo de regresar de Lev. Sus pasteles son deliciosos.
-  - ((Diálogo 2:))
+  - ((Dialogue 2:))
     - **Player:** Hola. ¿Cómo estás?
     - **Fishmonger's assistant:** Estoy bien, gracias. Bendiciones de Inanna sean contigo, viajero.
-  - ((Diálogo 3:))
+  - ((Dialogue 3:))
     - **Player:** ¿Cómo va tu día?
     - **Fishmonger's assistant:** Podría ser mejor. Me encontré con un oso en Highweald antes. Logré escapar pero tuve que dejar mi equipo.
     - **Fishmonger's assistant:** Mantente alerta si te aventuras en el bosque. Ha sido peligroso últimamente.
-  - ((Diálogo 4:))
+  - ((Dialogue 4:))
     - **Fishmonger's assistant:** No me puedo quejar. El sol brilla, los pájaros cantan... ¿Qué más se puede pedir?
-  - ((Diálogo 5:))
+  - ((Dialogue 5:))
     - **Fishmonger's assistant:** Déjame en paz, forastero.
-  - ((Diálogo 6:))
+  - ((Dialogue 6:))
     - **Fishmonger's assistant:** Mis hijos esperan con ansias el festival de las lámparas.
     - **Fishmonger's assistant:** Las velas de este año son las mejores que hemos hecho jamás, si me permite decirlo.
-  - ((Diálogo 7:))
+  - ((Dialogue 7:))
     - **Player:** Encantado de conocerte.
     - **Fishmonger's assistant:** Si quieres una pequeña charla, habla con Gefen.
-  - ((Diálogo 8:))
+  - ((Dialogue 8:))
     - **Fishmonger's assistant:** Nuestras cosechas, nuestros peces, nuestra propia tierra... Algo no está bien.
     - **Fishmonger's assistant:** Esperemos que tu llegada sea una señal de que se avecinan días mejores.
-  - ((Diálogo 9:))
+  - ((Dialogue 9:))
     - **Fishmonger's assistant:** Muy... cansado... Hubo fuertes ladridos provenientes de casa de Zeeva durante toda la noche.
     - **Fishmonger's assistant:** Necesita enseñarle algunos modales a ese perro.
-  - ((Diálogo 10:))
+  - ((Dialogue 10:))
     - **Fishmonger's assistant:** Eres el nuevo forastero, ¿verdad?
     - **Player:** ¡Lo soy!
     - **Fishmonger's assistant:** Es un placer conocerte. Espero que estés disfrutando de nuestro pueblo.

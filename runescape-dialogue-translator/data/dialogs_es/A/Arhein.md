@@ -40,40 +40,40 @@
 
 ### Pineapples option
 
-- ((Si el player no ha comprado todas las existencias de piñas de Arhein:))
+- ((If the player hasn't purchased all of Arhein's stock of pineapples:))
   - **Arhein:** Tengo [#] [pineapple/pineapples] en stock, a 2 coins cada uno. ¿Cuantos quisieras?
-  - ((Si el player no tiene al menos 2 coins:))
+  - ((If the player doesn't have at least 2 coins:))
     - **Player:** Lo siento, no puedo permitirme ninguno.
     - (end)
   - Arhein tiene [#] [pineapple/pineapples]. Puedes permitirte [#].
-    - ((A Player se le solicita un número))
-  - ((Si se ingresó un número distinto de cero:))
+    - ((Player is prompted for a number))
+  - ((If a non-zero number was entered:))
     - (receives=noted pineapples)
     - {{tbox|pic=Pineapple detail.png|Arhein gives you [#] [pineapple/pineapples].}}
-- ((Si a Arhein no le quedan piñas:))
+- ((If Arhein has no pineapples remaining:))
   - **Arhein:** Se me acabaron las piñas. Vuelve mañana y debería tener un poco más.
 
 ### Seaweed option
 
-- ((Si el player no ha comprado todas las existencias de algas de Arhein:))
+- ((If the player hasn't purchased all of Arhein's stock of seaweed:))
   - **Arhein:** Tengo algas [#] en este momento y cuestan 2 coins cada una. ¿Cuantos quisieras?
-  - ((Si el player no tiene al menos 2 coins:))
+  - ((If the player doesn't have at least 2 coins:))
     - **Player:** Lo siento, no puedo permitirme ninguno.
     - (end)
   - Arhein tiene algas [#]. Puedes permitirte [#].
-    - ((A Player se le solicita un número))
+    - ((Player is prompted for a number))
   - (receives=noted seaweed)
   - {{tbox|pic=Seaweed detail.png|Arhein gives you [#] seaweed.}}
-- ((Si a Arhein no le quedan algas:))
+- ((If Arhein has no seaweed remaining:))
   - **Arhein:** Me he quedado sin algas. Vuelve mañana y debería tener un poco más.
 
 ### Treasure Trails
 
 - (removes=the old clue scroll (easy))
-- ((Si el rastro continúa:))
+- ((If the trail continues:))
   - (receives=a new clue scroll (easy))
   - {{tbox|pic=Clue scroll (easy) detail.png|Arhein has given you another clue scroll!}}
-- ((Si el sendero termina:))
+- ((If the trail ends:))
   - (receives=reward casket (easy))
   - {{tbox|pic=Casket (easy) detail.png|You've found a casket!}}
 - **Arhein:** ¡Cosas increíbles!

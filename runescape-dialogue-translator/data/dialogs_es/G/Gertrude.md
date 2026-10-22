@@ -17,13 +17,13 @@
 - [Menu]: Elige una opción:
   - [Choice]: ¿Tienes más gatitos?
     - **Player:** ¿Tienes más gatitos?
-    - (Condition: Si el player ya tiene un gatito:)
+    - (Condition: If the player already has a kitten:)
       - **Gertrude:** ¿No sigues criando a ese otro gatito? Sólo una vez que haya crecido por completo y ya no necesite tu atención, te dejaré tener otro gatito.
-    - (Condition: Si el player no tiene un gatito:)
+    - (Condition: If the player doesn't have a kitten:)
       - **Gertrude:** De hecho, sí. Son 100 coins cada uno, ¿quieres uno?
-      - (Condition: Si el player no tiene 100 coins:)
+      - (Condition: If the player doesn't have 100 coins:)
         - **Player:** Vaya, parece que soy un poco bajo. Volveré más tarde.
-      - (Condition: Si el player tiene 100 coins:)
+      - (Condition: If the player has 100 coins:)
         - [Menu]: Selecciona una opción
           - [Choice]: Acepta el gatito ofrecido.
             - (removes=100 coins)
@@ -87,7 +87,7 @@
     - **Gertrude:** Aquí tengo un pequeño regalo para ti.
     - (receives=Cat training medal)
     - Gertrude te entrega una pequeña medalla.
-    - (Condition: Si es la primera vez que reclamas la medalla:)
+    - (Condition: If this is the first time claiming the medal:)
       - {{RSFontAchievement|Faster, Pussycat! Kill! Kill!}}
       - (continue)
     - **Player:** Hola, gracias Gertrude.
@@ -105,13 +105,13 @@
 - **Gertrude:** Estaba hablando con tu gato.
 - **Player:** Ah, claro.
 - {{RSFontAchievement|Gertrude's Cat|Talk to Gertrude while you have a cat follower.}}
-- ((Se muestra en una ventana emergente de finalización de tarea:))
+- ((Shown in a task completion pop-up:))
   - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
   - El gato de Gertrude
   - Habla con Gertrude mientras tengas un seguidor de gatos.
   - (continue)
 - **Player:** Puedo asegurarles que estoy bien alimentado y recibo mucha atención.
-- (Condition: Si se han completado todas las tareas:)
+- (Condition: If all the tasks have been completed:)
   - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!
 
 ### In New Varrock
@@ -132,7 +132,7 @@
     - **Gertrude:** Mi casa era una ruina humeante y mis hijos no estaban por ningún lado.
     - **Gertrude:** Después de que el nigromante tomó el control, me mudé a este edificio, ya que no tenía otro lugar donde quedarme. Adopté uno de los perros callejeros, tratando de llenar el vacío de mi alma.
     - **Gertrude:** Lo amé y lo acaricié, pero ha cambiado, bendito sea. Intenta morderme y solo come carne cruda.
-    - (Condition: Si el player ya le ha tomado la sardina a Dimies:)
+    - (Condition: If the player has already taken Dimies the sardine:)
       - **Gertrude:** ¡Y ahora mi pez mascota, mis pobres pequeños Dimies, también ha desaparecido! Es desgarrador...
       - (continue)
     - **Gertrude:** Ah, pero no quiero molestarte con los problemas de una vieja solterona tonta y su trágico pasado. No es que puedas hacer algo para ayudar. <br>¿Qué es lo que querías?

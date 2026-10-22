@@ -11,18 +11,18 @@
 
 #### Habla con
 
-- ((Antes de que se construyera la Capilla:))
+- ((Before the Chapel has been built:))
   - **Father Flint:** Este lugar infiel necesita una capilla. Aquí servirá.
   - (continue)
-- ((Una vez construida la Capilla:))
+- ((After the Chapel has been built:))
   - **Father Flint:** Pasa, pasa.
   - (continue)
 - **Seleccione una opción**
   - ¿Qué hace una capilla?
-    - ((Antes de que se construyera la Capilla:))
+    - ((Before the Chapel has been built:))
       - **Father Flint:** Necesitamos un altar, por supuesto, y quemadores para incienso.
       - (continue)
-    - ((Una vez construida la Capilla:))
+    - ((After the Chapel has been built:))
       - **Father Flint:** Tenemos un altar, por supuesto, y quemadores para incienso.
       - (continue)
     - **Father Flint:** Siempre puedes rezar en los altares, por supuesto, pero personalmente me gusta apilar huesos sobre ellos como ofrendas. Muy piadoso.

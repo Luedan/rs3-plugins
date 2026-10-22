@@ -31,51 +31,51 @@
     - [Menu]: Selecciona una opción
       - [Choice]: Compra vino: 1 Gold.{{Sic}}
         - **Kaleb Paramaya:** ¡Muy bien [sir/madam]!
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Kaleb Paramaya:** Lo siento Bwana, no tienes suficiente dinero.
           - No puedes permitirte eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - (receives=jug of wine) (removes=one coin)
           - Compras una jarra de vino.
       - [Choice]: Compra cerveza: 2 de oro.{{Sic}}
         - **Kaleb Paramaya:** ¡Muy bien [sir/madam]!
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Kaleb Paramaya:** Lo siento Bwana, no tienes suficiente dinero.
           - No puedes permitirte eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - (receives=beer) (removes=two coins)
           - Compras un vaso de cerveza espumosa.
       - [Choice]: Comprar una noche de descanso: 35 Gold{{Sic}}
         - **Kaleb Paramaya:** ¡Muy bien [sir/madam]!
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Kaleb Paramaya:** Lo siento Bwana, no tienes suficiente dinero.
           - No puedes permitirte eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - (receives=Paramaya ticket) (removes=35 coins)
           - Compras un boleto para acceder al dormitorio.
       - [Choice]: Compra un paquete de 5 entradas para dormitorios: 175 Gold{{Sic}}
         - **Kaleb Paramaya:** ¡Muy bien [sir/madam]!
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Kaleb Paramaya:** Lo siento Bwana, no tienes suficiente dinero.
           - No puedes permitirte eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - (receives=five Paramaya tickets) (removes=175 coins)
           - Compras 5 entradas para acceder al dormitorio.
   - [Choice]: Acerca del sistema de tareas...
-    - (Condition: Si el player ha completado los logros medios de Karamja, pero aún no ha reclamado las recompensas:)
+    - (Condition: If the player has completed the medium Karamja achievements, but not yet claimed the rewards:)
       - **Player:** He realizado todas las tareas medianas del conjunto Karamja.
       - **Kaleb Paramaya:** ¡Ahh, sí, lo has hecho! ¡Felicidades!
-      - (Condition: Si el player no tiene guantes Karamja 1 en backpack:)
+      - (Condition: If the player does not have Karamja gloves 1 in backpack:)
         - **Kaleb Paramaya:** ¿Cómo puedo encantar tus guantes Karamja si no los tienes contigo? Tráeme los guantes Karamja que obtuviste al completar las tareas fáciles.
         - (continue|task-system)
-      - (Condition: Si el player tiene guantes Karamja 1 en backpack:)
+      - (Condition: If the player has Karamja gloves 1 in backpack:)
         - Kaleb toma los guantes Karamja y murmura algo sobre ellos. Parecen brillar. Él se los devuelve.
         - (receives=Karamja gloves 2 and an antique lamp)
         - **Kaleb Paramaya:** El encantamiento que he colocado en estos guantes es un símbolo de tu futura exploración de la isla. Además de los beneficios de los anteriores, también podrás ganar más recompensas en Agility Arena. Oh, también hay un pequeño extra por todo tu arduo trabajo.
         - **Player:** ¡Vaya, gracias!
         - **Kaleb Paramaya:** Si los pierdes, vuelve conmigo para reclamarlos.
         - (continue|task-system)
-    - (Condition: Si el player ha perdido sus guantes Karamja 2:)
+    - (Condition: If the player has lost their Karamja gloves 2:)
       - **Kaleb Paramaya:** Oh... espera un minuto, te recuerdo de la última vez. ¿No bendije tus guantes Karamja?
       - **Player:** Sí, pero los perdí.
       - **Kaleb Paramaya:** Lo mismo pensé. Toma, toma otro par.

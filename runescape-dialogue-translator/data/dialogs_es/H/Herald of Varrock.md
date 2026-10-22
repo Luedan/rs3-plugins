@@ -15,7 +15,7 @@
 - **Player:** Hola; un placer conocerte. ¿Qué haces aquí?
 - **Herald of Varrock:** Me alegra que lo hayas preguntado, porque tengo el gran honor de ser el heraldo de Varrock.
 - **Herald of Varrock:** Es mi deber solemne defender y mantener los estándares y prácticas de la corte real, ya sean eventos reales o capas de heraldo.
-- ((Si no tienes una capa de heraldo Varrock:))
+- ((If you don't have a Varrock herald cape:))
   - **Player:** ¿Capa Herald? ¿Qué es eso?
   - **Herald of Varrock:** ¡No hay nada más preciado y buscado que una capa de heraldo Varrock! Otorgado sólo a aquellos en quienes se confía para mantener el honor y el deber de Varrock, alguien como usted, por supuesto.
   - **Herald of Varrock:** ¡Incluso puedes personalizar la capa si tus hazañas dentro del reino han sido de ayuda para la ciudad!
@@ -28,7 +28,7 @@
     - No
       - **Player:** No, gracias.
       - **Herald of Varrock:** Como desees. Estaré aquí si vuelves en sí.
-- ((Si tienes una capa de heraldo Varrock:))
+- ((If you have a Varrock herald cape:))
   - **Player:** Oh, ya tengo uno de esos.
   - **Herald of Varrock:** ¡Por supuesto que sí! Y debo agregar que no hay ninguno mejor en todo el país. ¿Quizás te gustaría personalizar aún más tu capa?
   - **¿Personalizar tu capa de heraldo Varrock?**
@@ -36,7 +36,7 @@
       - (opens=Customisation)
     - No
       - (end)
-- ((Si tienes una capa de heraldo de otra ciudad:))
+- ((If you have a herald cape from another city:))
   - **Player:** Aunque ya tengo una capa de heraldo de otra ciudad.
   - **Herald of Varrock:** Bastante. Veo que otras ciudades están, nuevamente, siguiendo los audaces pasos de Varrock.
   - **Herald of Varrock:** ¿No puedo interesarte por el honor de esta capa de heraldo de Varrock?
@@ -51,13 +51,13 @@
 
 ### Customise
 
-- ((Si no estás afiliado a Varrock:))
+- ((If you're not affiliated with Varrock:))
   - **Herald of Varrock:** Me temo que esa capa de heraldo no sirve, solo puedo dejarte cambiar una capa de heraldo Varrock aquí. ¿Quieres cambiarte a una capa de heraldo Varrock?
   - **¿Cambiar a capa de heraldo Varrock?**
     - si
       - (continue|Affiliated)
     - No
       - (end)
-- ((Si está afiliado a Varrock:))
+- ((If you are affiliated with Varrock:))
   - **Herald of Varrock:** ¡Excelente! Echemos un vistazo a las personalizaciones que podemos hacer...
   - (opens=Customisation)

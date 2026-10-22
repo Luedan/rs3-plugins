@@ -44,7 +44,7 @@
       - [Choice]: ¿Puedes decantarme algunas pociones?
         - (abajo2|Decantar opción 2)
       - [Choice]: ¿Ayudame con los precios de las hierbas?
-        - ((Precios indicativos: se abren las hierbas.))
+        - ((Guide Prices: Herbs opens up.))
       - [Choice]: Dime el costo para decantar pociones?
         - **Bob Trueque (hierbas):** Si quieres pociones decantadas en versiones de 4, 3, 2 o 1 dosis, cobro 2 coins por cada vial normal, 2 coins por cada vial de juju y 2 coins por cada vial de powerburst.
       - [Choice]: ¿Dime qué puedo hacer con los viales vacíos?
@@ -66,21 +66,21 @@
 
 #### Opción de información-hierbas
 
-- ((Precios indicativos: se abren las hierbas.))
+- ((Guide Prices: Herbs opens up.))
 
 #### Opción de decantar
 
-- ((Lo siguiente se muestra en una interfaz titulada "Opciones de Decantación":))
+- ((The following is shown in an interface titled "Decanting Options":))
   - [Choice]: Decantar viales
     - [Menu]: ¿En cuántas dosis quieres decantar?
       - [Choice]: una dosis
-        - (Condition: Con pociones decantables en backpack:)
+        - (Condition: With decantable potions in backpack:)
           - **Bob Trueque (hierbas):** Ahí lo tienes, amigo.
-        - (Condition: Sin pociones decantables en backpack:)
+        - (Condition: Without decantable potions in backpack:)
           - **Bob Trueque (hierbas):** Lo siento, no puedo hacer nada con [that potion/those potions].
-        - (Condition: Sin suficiente dinero para viales adicionales:)
+        - (Condition: Without enough money for extra vials:)
           - **Bob Trueque (hierbas):** Lo sentimos, no tienes suficiente dinero para pagar suficientes viales vacíos.
-        - (Condition: Sin espacio en backpack para viales extra:)
+        - (Condition: Without space in backpack for extra vials:)
           - **Bob Trueque (hierbas):** Tu inventario está demasiado lleno para que pueda hacer algo por ti.
       - [Choice]: Dos dosis
         - (arriba)
@@ -89,31 +89,31 @@
       - [Choice]: Cuatro dosis
         - (arriba)
   - [Choice]: Decantar matraces
-    - (Condition: Sin frascos viables de pociones para decantar:)
+    - (Condition: With no viable flasks of potions to decant:)
       - **Bob Trueque (hierbas):** Lo siento, parece que no tienes nada que pueda usar. ¡Asegúrate de tener 2 matraces que no estén completamente llenos!
-    - (Condition: Con matraces para decantar:)
+    - (Condition: With flasks to decant:)
       - **Bob Trueque (hierbas):** A ver qué tienes. Decantaré sus frascos de poción nuevamente en 6 frascos dosificados. Puedo hacer uso de los frascos, así que los aceptaré como pago.
       - (Action: Bob decanta tantas como puede hasta llenar frascos de 6 dosis)
       - **Bob Trueque (hierbas):** Aquí tienes. ¡Eso es lo mejor que puedo hacer! Si los matraces no se ven muy diferentes, los limpié.
   - [Choice]: Convertir viales en matraces
-    - (Condition: Sin matraces vacíos en backpack:)
+    - (Condition: With no empty flasks in backpack:)
       - **Bob Trueque (hierbas):** Tendrás que suministrar los frascos vacíos tú mismo; no son baratos. Puedes traérmelos anotados o sin anotaciones.
-    - (Condition: Con matraces vacíos en backpack:)
+    - (Condition: With empty flasks in backpack:)
       - **Bob Trueque (hierbas):** A ver qué tienes. Decantaré los viales de poción y todos los frascos hasta 4 dosis en frascos de 6 dosis. Tendrás que proporcionar los matraces vacíos tú mismo; no son baratos.
-      - (Condition: Con pociones para decantar en matraces:)
+      - (Condition: With potions to decant into flasks:)
         - (Action: Bob decanta tantas pociones como puede hasta llenar frascos de 6 dosis)
         - **Bob Trueque (hierbas):** Aquí tienes. ¡Eso es lo mejor que puedo hacer!
-      - (Condition: Sin pociones que decantar:)
+      - (Condition: With no potions to decant:)
         - **Bob Trueque (hierbas):** ¡Lo siento, parece que no tienes nada en lo que pueda ayudarte! Asegúrate de tener las pociones correctas y algo de espacio libre en tu inventario y podré intentarlo de nuevo.
   - [Choice]: Convertir matraces en viales
-    - (Condition: Sin frascos viables de pociones para decantar:)
+    - (Condition: With no viable flasks of potions to decant:)
       - **Bob Trueque (hierbas):** Lo siento, parece que no tienes nada que pueda usar. ¡Asegúrate de tener al menos 1 matraz!
-    - (Condition: Con frascos de pociones para decantar a viales:)
+    - (Condition: With flasks of potions to decant to vials:)
       - **Bob Trueque (hierbas):** Por supuesto. Creo que puedo utilizar los matraces, así que te daré los viales gratis.
       - (Action: Bob decanta tantas pociones como puede en viales destacados.)
       - **Bob Trueque (hierbas):** Ahí lo tienes, ¡eso es lo mejor que puedo hacer!
   - [Choice]: Cancelar
-    - ((La interfaz se cierra.))
+    - ((The interface closes.))
 
 ### Overhead dialogue
 

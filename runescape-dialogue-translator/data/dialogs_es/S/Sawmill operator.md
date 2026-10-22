@@ -16,7 +16,7 @@
 - Elige una opción:
   - Planks, por favor.
     - **Sawmill operator:** ¿Qué tipo de planks quieres?
-      - ((Convierta madera a planks: se abre la interfaz.))
+      - ((Convert wood to planks -interface opens.))
       - *Si el player no tiene ningún logs adecuado:*
         - No lleva ningún logs para cortar en planks.
   - ¿Qué tipo de planks puedes hacer?

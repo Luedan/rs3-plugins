@@ -59,19 +59,19 @@
 - [Menu]: Elige una opción:
   - [Choice]: ¿Cuidarías mis cultivos por mí?
     - **Player:** ¿Cuidarías mis cultivos por mí?
-    - (Condition: Si el player no tiene cultivos en el parche:)
+    - (Condition: If the player has no crops in the patch:)
       - **Amaethwr:** No tienes nada plantado en ese parche. Planta algo y tal vez acepte cuidarlo por ti.
-    - (Condition: Si el player tiene cultivos completamente desarrollados plantados en el parche:)
+    - (Condition: If the player has fully grown crops planted in the patch:)
       - **Amaethwr:** ¡Ese parche ya está completamente desarrollado! ¡No sé qué quieres que haga con él!
-    - (Condition: Si los cultivos en el parche aún no están completamente desarrollados pero el player ya le pagó al jardinero:)
+    - (Condition: If the crops in the patch are not yet fully grown but the player has already paid the gardener:)
       - **Amaethwr:** No sé de qué estás hablando. Ya estoy cuidando ese parche por ti.
       - **Player:** Oh, lo siento, lo olvidé.
-    - (Condition: Si los cultivos en el parche aún no han crecido completamente:)
+    - (Condition: If the crops in the patch are not yet fully grown:)
       - **Amaethwr:** Si quieres, pero quiero [número] [item] para eso.
-      - (Condition: Si el player no tiene los elementos requeridos:)
+      - (Condition: If the player does not have the required items:)
         - **Player:** Me temo que no tengo suficientes en este momento.
         - **Amaethwr:** Bueno, no voy a perder el tiempo gratis.
-      - (Condition: Si el player tiene los elementos requeridos:)
+      - (Condition: If the player has the required items:)
         - [Menu]: Selecciona una opción
           - [Choice]: Está bien, es un trato.
             - **Player:** Está bien, es un trato.
@@ -102,9 +102,9 @@
   - [Choice]: Alguna cura vegetal.
     - **Player:** Alguna cura vegetal.
     - **Amaethwr:** Cura vegetal, ¿eh? Quizás tenga algo reservado para mí. Te diré una cosa, te venderé una cura vegetal por 25 po si quieres.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - **Player:** Me temo que no tengo suficiente dinero para eso.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, parece un precio justo.
           - **Player:** Sí, parece un precio justo.
@@ -114,9 +114,9 @@
   - [Choice]: Un balde de abono.
     - **Player:** Un balde de abono.
     - **Amaethwr:** Un balde de abono, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 35 po si quieres.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - **Player:** Me temo que no tengo suficiente dinero para eso.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, parece un precio justo.
           - **Player:** Sí, parece un precio justo.
@@ -126,9 +126,9 @@
   - [Choice]: Un rastrillo.
     - **Player:** Un rastrillo.
     - **Amaethwr:** Un rastrillo, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 15 po si quieres.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - **Player:** Me temo que no tengo suficiente dinero para eso.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, parece un precio justo.
           - **Player:** Sí, parece un precio justo.
@@ -140,9 +140,9 @@
       - [Choice]: una regadera
         - **Player:** Una regadera.
         - **Amaethwr:** Una regadera, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 25 po si quieres.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Me temo que no tengo suficiente dinero para eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - [Menu]: Selecciona una opción
             - [Choice]: Sí, parece un precio justo.
               - **Player:** Sí, parece un precio justo.
@@ -152,9 +152,9 @@
       - [Choice]: Una paleta de jardinería
         - **Player:** Una paleta de jardinería.
         - **Amaethwr:** Una paleta de jardín, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 15 po si quieres.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Me temo que no tengo suficiente dinero para eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - [Menu]: Selecciona una opción
             - [Choice]: Sí, parece un precio justo.
               - **Player:** Sí, parece un precio justo.
@@ -164,9 +164,9 @@
       - [Choice]: Un zambullidor de semillas
         - **Player:** Un arrancador de semillas.
         - **Amaethwr:** Un zambullidor de semillas, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 15 po si quieres.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Me temo que no tengo suficiente dinero para eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - [Menu]: Selecciona una opción
             - [Choice]: Sí, parece un precio justo.
               - **Player:** Sí, parece un precio justo.
@@ -207,10 +207,10 @@
 #### Hablando con él con la caja de seguridad resuelta en el backpack
 
 - **Amaethwr:** ¡Excelente, aquí tienes tu recompensa!
-- (Condition: Si el rastro continúa:)
+- (Condition: If the trail continues:)
   - (removes=the old clue scroll (master) y caja de seguridad (maestra)) (receives=the new clue scroll (master))
   - [¡Has encontrado otra pista!]
-- (Condition: Si el sendero termina:)
+- (Condition: If the trail ends:)
   - (removes=the old clue scroll (master) y caja de seguridad (maestra)) (receives=reward casket (master))
   - [¡Has encontrado un ataúd!]
 
@@ -231,15 +231,15 @@
     - **Amaethwr:** Si completas esto, te daré: Púas de Grenwall x 20. ¡Estoy seguro de que también ganarás algo de reputación en el gremio de agricultores!
     - **Amaethwr:** ¡Tendrás que ser rápido! Solo estoy aquí por [número] horas y [número] minutos. Para ser exactos.
   - Dales los artículos y animales que soliciten.
-    - ((Sin los artículos solicitados:))
+    - ((Without the requested items:))
       - **Amaethwr:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Amaethwr:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **Amaethwr:** También estoy buscando un nuevo animal, actualmente estoy buscando A [animal]
-    - ((Con los artículos solicitados:))
+    - ((With the requested items:))
       - (removes=the requested items) (receives=20 Grenwall spikes and possibly a Brassica primer)
-      - ((Si se premió una imprimación de Brassica:))
+      - ((If a Brassica primer was rewarded:))
         - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-        - ((Repetido en una ventana emergente:))
+        - ((Repeated in a pop-up:))
           - Por completar esta solicitud, recibió 1 imprimación para Brassica.
           - (continue)
       - [Has recibido: Picos de Grenwall x 20<br>Y 2750 de reputación agrícola.]
@@ -264,9 +264,9 @@
 ##### Con artículos solicitados
 
 - (removes=the requested items) (receives=20 Grenwall spikes and possibly a Brassica primer)
-- ((Si se premió una imprimación de Brassica:))
+- ((If a Brassica primer was rewarded:))
   - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - Por completar esta solicitud, recibió 1 imprimación para Brassica.
     - (continue)
 - [Has recibido: Picos de Grenwall x 20<br>Y 2750 de reputación agrícola.]

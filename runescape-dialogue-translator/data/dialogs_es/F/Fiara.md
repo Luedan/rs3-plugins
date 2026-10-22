@@ -15,12 +15,12 @@
 
 #### Diálogo por primera vez
 
-- (Condition: Hablando directamente con Fiara:)
+- (Condition: Talking directly to Fiara:)
   - A medida que te acercas a la... gran criatura, deja escapar un silbido que suena en parte como una amenaza y en parte como un suspiro.
   - **Player:** Mmm. ¿Qué fue eso?
   - **Fiara:** *Hiss* Otro humano. ¿Por qué seguís viniendo aquí?
   - (continue|Before Fist of Guthix tutorial)
-- (Condition: Hablando primero con Alran, Getorix o Pontimer:)
+- (Condition: Talking to Alran, Getorix, or Pontimer first:)
   - A medida que te acercas a la... gran criatura, deja escapar un silbido que suena en parte como una amenaza y en parte como un suspiro.
   - **Player:** Erm, discúlpeme... Lady Fiara, pero los druidas me dijeron que hablara con usted.
   - **Fiara:** *Hiss* Sí... los druidas. Dicen y hacen mucho más de lo que deberían.
@@ -44,12 +44,12 @@
     - **Fiara:** *Hiss* Tres druidas están principalmente caminando SIN estar callados. Otro es montar una fortaleza de cajas y arrastrar todo tipo de material basura a la cueva. El quinto humano, que no es un druida, apareció cuando las siguientes masas invadieron la cueva.
     - **Player:** Ya veo. Pero... ¿qué los atrajo aquí en primer lugar?
     - **Fiara:** El Puño de Guthix. Y ahora intentan aprovechar su poder a través de este pequeño negocio que han montado.
-    - (Condition: Si se habló con los druidas de antemano:)
+    - (Condition: If the druids were spoken to beforehand:)
       - **Player:** Está bien, pero me dijeron que hablara contigo. ¿Por qué querían eso?
       - **Fiara:** Porque soy el guardián de este sitio y necesito asegurarme de que sus juegos no se salgan de control.
       - **Player:** Muy bien. ¿Puedes hablarme entonces de los juegos?
       - (continue)
-    - (Condition: Si no se habló con los druidas de antemano:)
+    - (Condition: If the druids were not spoken to beforehand:)
       - **Player:** Oh, eso suena interesante. Yo mismo soy un fanático del poder.
       - **Fiara:** Me imaginé que sí. Después de todo, eres humano.
       - **Player:** Supongo que entonces debería hablar con los druidas sobre ese asunto.
@@ -143,15 +143,15 @@
 
 #### Después del tutorial del Puño de Guthix
 
-- (Condition: Antes de que el player se presente:)
+- (Condition: Before the player introduces themselves:)
   - **Fiara:** ¿Puedo ayudarte?
-- (Condition: Si el player se presentó como guardián de Saradomin:)
+- (Condition: If the player introduced themselves as a Guardian of Saradomin:)
   - **Fiara:** Hola, seguidor ciego del mal bien y guardián de la mentira. ¿Alguien como yo puede serle de alguna ayuda?
-- (Condition: Si el player se presentó como Guardián de Guthix:)
+- (Condition: If the player introduced themselves as a Guardian of Guthix:)
   - **Fiara:** Hola, Player, ¿qué cuentos traes hoy? Uno pensaría que ya sabrías todo lo que tengo que decirte.
-- (Condition: Si el player se presentó como guardián de Zamorak:)
+- (Condition: If the player introduced themselves as a Guardian of Zamorak:)
   - **Fiara:** Hola, usurpador, ¿No deberías estar haciendo llover destrucción sobre aquellos que no quieren tener nada que ver contigo?
-- (Condition: Si el player se presentó sin alineación, o después de pedir que simplemente lo llamaran Player:)
+- (Condition: If the player introduced themselves with no alignment, or after asking to just be called Player:)
   - **Fiara:** Saludos, Player, ¿puedo ser de ayuda?
 - [Menu]: Selecciona una opción
   - [Choice]: Tengo algunas preguntas sobre el juego Fist of Guthix.
@@ -191,7 +191,7 @@
         - **Player:** No importa.
   - [Choice]: ¿Qué eres?
     - **Player:** ¿Qué eres?
-    - (Condition: Si el player aún no se ha presentado:)
+    - (Condition: If the player has not introduced themselves yet:)
       - **Fiara:** Soy Fiara, Guardián de Guthix. ¿Qué vas a?
       - [Menu]: Selecciona una opción
         - [Choice]: Soy Player. ¿Qué estás protegiendo?
@@ -213,7 +213,7 @@
           - **Player:** Soy Player, un guardián de Zamorak.
           - **Fiara:** Hola, Player, seguidor del usurpador y portador de tu propia desaparición. ¿Había algo más que quisieras?
           - (continue|some-questions)
-    - (Condition: Si el player se ha presentado antes:)
+    - (Condition: If the player has introduced themselves before:)
       - **Fiara:** Soy Fiara, un guardián de Guthix.
       - **Player:** ¿Y tú estás custodiando el Puño de Guthix, que, si aún no lo sé, no soy digno de saberlo?
       - **Fiara:** Eso es correcto. ¿Hubo algo más?
@@ -231,19 +231,19 @@
 
 ##### Si se ha completado El mundo despierta
 
-- (Condition: Antes de que el player se presente:)
+- (Condition: Before the player introduces themselves:)
   - **Fiara:** ¿Puedo ayudarte?
   - (continue)
-- (Condition: Si el player se presentó como guardián de Saradomin:)
+- (Condition: If the player introduced themselves as a Guardian of Saradomin:)
   - **Fiara:** Hola, seguidor ciego del mal bien y guardián de la mentira. ¿Alguien como yo puede serle de alguna ayuda?
   - (continue)
-- (Condition: Si el player se presentó como Guardián de Guthix:)
+- (Condition: If the player introduced themselves as a Guardian of Guthix:)
   - **Fiara:** Hola, Player, ¿qué cuentos traes hoy? Uno pensaría que ya sabrías todo lo que tengo que decirte.
   - (continue)
-- (Condition: Si el player se presentó como guardián de Zamorak:)
+- (Condition: If the player introduced themselves as a Guardian of Zamorak:)
   - **Fiara:** Hola, usurpador, ¿No deberías estar haciendo llover destrucción sobre aquellos que no quieren tener nada que ver contigo?
   - (continue)
-- (Condition: Si el player se presentó sin alineación, o después de pedir que simplemente lo llamaran Player:)
+- (Condition: If the player introduced themselves with no alignment, or after asking to just be called Player:)
   - **Fiara:** Saludos, Player, ¿puedo ser de ayuda?
   - (continue)
 - [Menu]: Selecciona una opción
@@ -260,7 +260,7 @@
       - [Choice]: Eso es todo, gracias.
         - (end)
 <!-- No estoy seguro de dónde encaja esto
-    - (Condition: Primera vez hablando con Fiara sin presentarte:)
+    - (Condition: First time talking to Fiara without introducing yourself:)
     - ¿Qué eres?
       - **Player:** ¿Qué eres?
       - **Fiara:** Soy Fiara, un guardián de Guthix.

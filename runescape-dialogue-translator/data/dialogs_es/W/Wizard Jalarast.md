@@ -22,7 +22,7 @@
         - **Wizard Jalarast:** Por supuesto que estaría feliz de venderte algunas armaduras si me traes esos artículos.
         - (otro)
       - [Choice]: ¿Puedes hacerme algunos?
-        - ((Se abre la interfaz del equipo Splitbark.))
+        - ((Splitbark equipment interface opens.))
       - [Choice]: Bueno, buena suerte con eso.
         - (end)
   - [Choice]: Estoy bien, gracias.

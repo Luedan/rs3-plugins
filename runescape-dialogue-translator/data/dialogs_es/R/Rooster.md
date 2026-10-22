@@ -11,10 +11,10 @@
 
 ### Spawning with guaranteed off-hand rubber chicken drop
 
-- ((Ocasionalmente se ve lo siguiente:))
+- ((The following is occasionally seen:))
   - **Rooster:** {{RSChat|I have returned!}}
 
 ### Overhead
 
-- ((Ocasionalmente se ve lo siguiente:))
+- ((The following is occasionally seen:))
   - **Rooster:** {{RSChat|Squawk!}}

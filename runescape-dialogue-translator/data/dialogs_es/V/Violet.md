@@ -32,11 +32,11 @@
 - **Violet:** ¡Lo sé! Eres bienvenido a visitarme en casa de mis padres cuando quieras. ¡Trae muchos regalos!
 - **Player:** Es una oferta amable. Primero solo necesito terminar mis tareas, pero lo tendré en cuenta.
 - {{RSFontAchievement|Violet, You're Turning Violet!|Talk to Violet, outside of the Land of Snow portal west of Taverley, or inside of Yeti Town.}}
-- ((Se muestra en una ventana emergente de finalización de tarea:))
+- ((Shown in a task completion pop-up:))
   - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
   - Violet, ¡te estás volviendo Violet!
   - Habla con Violet, fuera del portal Land of Snow al oeste de Taverley, o dentro de Yeti Town.
   - (continue)
 - **Violet:** Nos vemos. Ahora voy a jugar, ¡adiós!
-- (Condition: Si se han completado todas las tareas:)
+- (Condition: If all the tasks have been completed:)
   - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!

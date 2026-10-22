@@ -17,7 +17,7 @@
     - **Miss Schism:** Bueno, ¡hay demasiado que contar a la vez! ¿Qué le gustaría oír primero: el vampyre o el banco?
     - [Menu]: Selecciona una opción
       - [Choice]: Cuéntame sobre el vampyre.
-        - (Condition: Antes de Vampyre Slayer:)
+        - (Condition: Before Vampyre Slayer:)
           - **Miss Schism:** ¡Es terrible, absolutamente terrible! ¡Esa pobre gente!
           - **Player:** ¿Qué es terrible?
           - **Miss Schism:** ¡Vaya, los ataques!
@@ -26,7 +26,7 @@
           - **Miss Schism:** Y nadie mueve un dedo para hacer nada al respecto. Bueno, esa nueva pareja, Morgan y Maris, creen que deberíamos encontrar un vampyre slayer, pero no estoy seguro de confiar en ellos.
           - **Miss Schism:** No son locales.
           - (previous)
-        - (Condition: Después de Vampyre Slayer:)
+        - (Condition: After Vampyre Slayer:)
           - **Miss Schism:** Bueno, no hay nada que contar AHORA. Lo mataste.
           - **Player:** Podrías sonar un poco agradecido.
           - **Miss Schism:** Estoy seguro de que podría, pero no veo por qué. El vampyre no me molestaba.
@@ -37,23 +37,23 @@
         - **Miss Schism:** ¡Es terrible, absolutamente terrible! ¡Esa pobre gente!
         - **Player:** Vale, sí.
         - **Miss Schism:** ¿Y quién hubiera pensado alguna vez que un anciano tan dulce haría tal cosa?
-        - (Condition: Si el player aún no ha hablado con bank guard:)
+        - (Condition: If the player has not spoken to the bank guard already:)
           - **Player:** Realmente no sé de qué estás hablando.
           - **Miss Schism:** Oooh, querida, ¿no te habías enterado?
           - **Player:** A este paso no creo que quiera saberlo...
           - **Miss Schism:** Oh, debes ir rápidamente y hablar con el bank guard afuera del banco. Él te lo contará todo, oooh, qué shock fue...
           - **Player:** ...
-        - (Condition: Si el player ya ha hablado con bank guard:)
+        - (Condition: If the player has already spoken to the bank guard:)
           - **Player:** ¿Estamos hablando del atraco al banco?
           - **Miss Schism:** Oh, sí, querida. ¡Fue terrible! ¡HORRIBLE!
           - **Miss Schism:** Pero dime: ¿has estado por aquí antes o eres nuevo en esta zona?
           - [Menu]: ¿Qué te gustaría decir?
             - [Choice]: Soy bastante nuevo.
               - **Miss Schism:** Aah, tal vez te perdiste la emoción. Es ese old man en su casa de aquí. ¿Lo conoces?
-              - (Condition: Si el player no ha hablado con Wise Old Man antes:)
+              - (Condition: If the player has not spoken to the Wise Old Man before:)
                 - **Player:** No he hablado con él todavía.
                 - (continue)
-              - (Condition: Si el player ha hablado con Wise Old Man antes:)
+              - (Condition: If the player has spoken to the Wise Old Man before:)
                 - **Player:** Bueno, he hablado con él.
                 - (continue)
               - **Miss Schism:** Cuando se mudó aquí por primera vez, no trajo mucho. Desde la ventana se podía ver que solo tenía algunos furniture viejos y algunos adornos polvorientos.
@@ -72,7 +72,7 @@
               - (Action: La cámara vuelve a el player y Miss Schism.)
               - **Miss Schism:** ¿Ves? ¡Está lleno de joyas y adornos! Y todas esas cosas caras aparecieron justo después de que robaron el banco.
               - **Miss Schism:** Él también se cambió el sombrero: solía usar una cosa negra vieja y desaliñada, ¡pero de repente estaba usando ese sombrero de fiesta!
-              - (Condition: Si el player también ha completado Love Story:)
+              - (Condition: If the player has also completed Love Story:)
                 - **Miss Schism:** Él también tiene a esa mujer horrible allí. Conozco su tipo. Te apuesto que no traman nada bueno.
                 - (continue)
               - **Player:** ¿Entonces por eso le dices a la gente que él fue el ladrón de bancos?
@@ -91,9 +91,9 @@
     - **Miss Schism:** Yo, querida, soy un ciudadano preocupado de Draynor Village. Desde que el Consejo permitió que esos granjeros instalaran sus puestos aquí, hemos tenido un flujo constante de ladrones y asesinos por nuestro hermoso pueblo, y decidí que
     - **Miss Schism:** alguien TENÍA que levantarse y <br> vigilar la situación.
     - **Miss Schism:** También hago trabajo voluntario para el Fondo de Restauración Draynor Manor. Estamos haciendo campaña para convertir Draynor Manor en un museo antes de que la podredumbre lo destruya por completo.
-    - (Condition: Antes de Vampyre Slayer:)
+    - (Condition: Before Vampyre Slayer:)
       - **Player:** Cierto...
-    - (Condition: Después de Vampyre Slayer:)
+    - (Condition: After Vampyre Slayer:)
       - **Player:** Bueno, ahora que he sacado el vampyre de la mansión, supongo que no tendrás muchos problemas para convertirlo en un museo.
       - **Miss Schism:** Eso está muy bien querida, pero ningún vampyre iba a impedirme convertirlo en un museo.
   - [Choice]: No te hablo a ti, horrible mujer.
@@ -111,11 +111,11 @@
       - [Choice]: Cuéntame sobre el banco.
         - (above|bank)
       - [Choice]: Cuéntame sobre el campo de batalla.
-        - (Condition: Durante la Batalla de Lumbridge:)
+        - (Condition: During the Battle of Lumbridge:)
           - **Miss Schism:** ¿Has visto el campo de batalla? ¡Saradomin y Zamorak están peleando hacia el este!
           - **Miss Schism:** ¡No puedo creer lo que le están haciendo al sector turístico! Soldados por todas partes y hechizos volando sobre el pueblo.
           - **Miss Schism:** ¡No puedo creer que alguien no haya hecho algo al respecto!
-        - (Condition: Después de la Batalla de Lumbridge:)
+        - (Condition: After the Battle of Lumbridge:)
           - **Miss Schism:** Sí, es una gran atracción turística. Esto demuestra que nuestro pequeño pueblo es importante.
   - [Choice]: ¿Quién eres?
     - (above|concerned)

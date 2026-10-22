@@ -11,13 +11,13 @@
 
 ### Hermod, the Spirit of War's dialogue
 
-- ((Lo siguiente también se muestra como mensaje general habitual:))
-  - ((Variante 1:))
+- ((The following are also shown as regular overhead message:))
+  - ((Variant 1:))
     - {{Colour: {{Colour|#9f9|Grrr..}}}}
     - {{Colour: {{Colour|#9f9|..arrrh!}}}}
-  - ((Variante 2:))
+  - ((Variant 2:))
     - {{Colour: {{Colour|#9f9|Ooorh!}}}}
-  - ((Variante 3:))
+  - ((Variant 3:))
     - {{Colour: {{Colour|#9f9|Pr..arf!}}}}
 
 ### Exiting with chamber doorway

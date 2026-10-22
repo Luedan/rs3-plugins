@@ -15,12 +15,12 @@
 - **Zahur:** Si quieres que las pociones se decanten en versiones de 3, 2 o 1 osa, también puedo hacerlo. Cobro 2 coins por cada vial normal, 2 coins por cada vial de juju y 2 coins por cada vial de powerburst que tengo que suministrar.
 - [Menu]: Selecciona una opción
   - [Choice]: Por favor limpia todas mis hierbas.
-    - (Condition: Si el player lleva una o más hierbas sucias:)
+    - (Condition: If the player is carrying one or more grimy herbs:)
       - (removes=grimy herbs and 200 coins per herb) (receives=clean herbs)
       - **Zahur:** Bien, ya se han limpiado todas las hierbas de tu inventario.
-    - (Condition: Si el player no lleva hierbas sucias:)
+    - (Condition: If the player is not carrying any grimy herbs:)
       - **Zahur:** ¡No tienes ninguna hierba sucia que pueda limpiar!
-    - (Condition: Si el player tiene hierbas sucias, pero no tiene suficiente dinero:)
+    - (Condition: If the player has grimy herbs, but does not have enough money:)
       - No puedes permitirte eso.
       - **Zahur:** No tienes suficiente coins para limpiar más hierbas.
   - [Choice]: Por favor, decanta mis pociones.
@@ -29,36 +29,36 @@
     - [Menu]: Selecciona una opción
       - [Choice]: Hazlas todas en pociones de 1 dosis.
         - **Player:** Prepáralas todas en pociones de 1 dosis.
-        - (Condition: Si el player lleva alguna poción decantable:)
-          - ((Se retiran de la bolsa de el player 2 coins por cada vial suministrado por Zahur))
+        - (Condition: If the player is carrying any decantable potions:)
+          - ((2 coins for any vial supplied by Zahur are removed from the player's pouch))
           - **Zahur:** Ahí lo tienes, disfruta.
-        - (Condition: Si el jugador no lleva ninguna poción decantable:)
+        - (Condition: If player is not carrying any decantable potions:)
           - **Zahur:** Lo siento, no sé cómo decantar todas esas cosas que tienes contigo.
-        - (Condition: Si el player tiene pociones decantables, pero no tiene suficiente dinero:)
+        - (Condition: If the player has decantable potions, but does not have enough money:)
           - **Zahur:** Me temo que no tienes suficiente dinero para pagar suficientes viales vacíos.
-        - (Condition: Si el player tiene un inventario vacío:)
+        - (Condition: If the player has an empty inventory:)
           - **Zahur:** ¿Estás intentando hacerme perder el tiempo? ¡No tienes nada contigo!
       - [Choice]: Hazlas todas pociones de 2 dosis.
         - **Player:** Prepáralas todas en pociones de 2 dosis.
-        - (Condition: Si el player lleva alguna poción decantable:)
-          - ((Se retiran de la bolsa de el player 2 coins por cada vial suministrado por Zahur))
+        - (Condition: If the player is carrying any decantable potions:)
+          - ((2 coins for any vial supplied by Zahur are removed from the player's pouch))
           - **Zahur:** Ahí lo tienes, disfruta.
-        - (Condition: Si el jugador no lleva ninguna poción decantable:)
+        - (Condition: If player is not carrying any decantable potions:)
           - **Zahur:** Lo siento, no sé cómo decantar todas esas cosas que tienes contigo.
-        - (Condition: Si el player tiene pociones decantables, pero no tiene suficiente dinero:)
+        - (Condition: If the player has decantable potions, but does not have enough money:)
           - **Zahur:** Me temo que no tienes suficiente dinero para pagar suficientes viales vacíos.
-        - (Condition: Si el player tiene un inventario vacío:)
+        - (Condition: If the player has an empty inventory:)
           - **Zahur:** ¿Estás intentando hacerme perder el tiempo? ¡No tienes nada contigo!
       - [Choice]: Hazlas todas pociones de 3 dosis.
         - **Player:** Prepáralas todas en pociones de 3 dosis.
-        - (Condition: Si el player lleva alguna poción decantable:)
-          - ((Se retiran de la bolsa de el player 2 coins por cada vial suministrado por Zahur))
+        - (Condition: If the player is carrying any decantable potions:)
+          - ((2 coins for any vial supplied by Zahur are removed from the player's pouch))
           - **Zahur:** Ahí lo tienes, disfruta.
-        - (Condition: Si el jugador no lleva ninguna poción decantable:)
+        - (Condition: If player is not carrying any decantable potions:)
           - **Zahur:** Lo siento, no sé cómo decantar todas esas cosas que tienes contigo.
-        - (Condition: Si el player tiene pociones decantables, pero no tiene suficiente dinero:)
+        - (Condition: If the player has decantable potions, but does not have enough money:)
           - **Zahur:** Me temo que no tienes suficiente dinero para pagar suficientes viales vacíos.
-        - (Condition: Si el player tiene un inventario vacío:)
+        - (Condition: If the player has an empty inventory:)
           - **Zahur:** ¿Estás intentando hacerme perder el tiempo? ¡No tienes nada contigo!
       - [Choice]: En realidad, olvídalo.
         - **Player:** En realidad, olvídalo.
@@ -74,7 +74,7 @@
         - **Zahur:** Si no necesito suministrar ningún vial adicional, ¡funciona completamente gratis!
         - (initial)
   - [Choice]: Habla de tareas.
-    - (Condition: Si se completaron los logros del desierto medio y no se reclamaron las recompensas:)
+    - (Condition: If the Medium desert achievements have been completed and the rewards not claimed:)
       - **Player:** He completado todas las tareas medianas en el conjunto Desierto.
       - **Zahur:** Así que sí. Tengo un amuleto especial reservado para ti.
       - [Zahur te entrega un amuleto bellamente elaborado y una lámpara.]
@@ -83,7 +83,7 @@
       - **Zahur:** Ah, y está diseñado de tal manera que enfoca la luz del sol, así que... puedes usar la arena del desierto para crear vidrio fundido, si tienes carbonato de sodio contigo.
       - **Player:** ¡Gracias!
       - (continue)
-    - (Condition: Si el player ha perdido su amuleto del desierto 2:)
+    - (Condition: If the player has lost their desert amulet 2:)
       - **Zahur:** ¡Ah, el portador del amuleto! ¿Cómo lo estás encontrando?
       - **Player:** Lo perdí.
       - **Zahur:** ¡Oh, no!
@@ -149,9 +149,9 @@
       - [Choice]: Lo siento, me estaba yendo.
         - (end)
   - [Choice]: ¿Pueden convertir mis matraces en viales normales para mí?
-    - (Condition: Si el player no lleva matraces decantables:)
+    - (Condition: If the player is not carrying any decantable flasks:)
       - **Zahur:** Lo siento, parece que no tienes nada que pueda usar. ¡Asegúrate de tener al menos 1 matraz!
-    - (Condition: Si el player lleva algún matraz decantable:)
+    - (Condition: If the player is carrying any decantable flasks:)
       - **Zahur:** Por supuesto. Creo que puedo utilizar los matraces, así que te daré los viales gratis.
       - [Menu]: ¿Convertir los matraces y guardaré los matraces vacíos?
         - [Choice]: si

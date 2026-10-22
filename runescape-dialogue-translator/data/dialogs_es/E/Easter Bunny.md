@@ -11,7 +11,7 @@
 
 ### 2020 Easter event
 
-- ((Uno de los siguientes se ve aleatoriamente cada 21,6 segundos:))
+- ((One of the following is seen randomly about every 21.6 seconds:))
   - **Easter Bunny:** {{RSChat|Imps delivering Easter eggs! What could go wrong?}}
   - **Easter Bunny:** {{RSChat|Keep up the good work!}}
   - **Easter Bunny:** {{RSChat|This is my best idea yet.}}
@@ -68,7 +68,7 @@
 ##### Con el título "el Huevo" antes de haber desbloqueado su variante "Huevo de Pascua"
 
 - ¡Has desbloqueado el color 'Huevo de Pascua' para el título 'el Huevo'!
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - ¡Has desbloqueado el color 'Huevo de Pascua' para el título 'el Huevo'!
   - (continue)
 - **Easter Bunny:** ¡Oh, me encanta tu título! ¡Muy festivo! Déjame darle una mano de pintura en mis colores favoritos para ti.

@@ -29,19 +29,19 @@
 #### Cuando hablamos
 
 - **Johanna:** ¡Bienvenido a NovtumberFest!
-- (Condition: Si se pierde una tarjeta de rastreo de bares y el rastreo no se completa:)
+- (Condition: If a Bar Crawl card has been lost and the crawl isn't completed:)
   - Te falta una tarjeta de rastreo de bares. ¿Quieres uno nuevo?
     - [Choice]: Sí.
-      - (Condition: Si hay espacio en el inventario de el player:)
+      - (Condition: If there is space in the player's inventory:)
         - Se ha agregado una tarjeta de rastreo de bares a su inventario.
-        - (Continúa a continuación)
-      - (Condition: Si el inventario de el player está lleno:)
+        - (Continues below)
+      - (Condition: If the player's inventory is full:)
         - **Johanna:** No tienes espacio para una tarjeta de rastreo de bares en este momento.
-        - (Continúa a continuación)
+        - (Continues below)
     - [Choice]: No.
-      - (Continúa a continuación)
+      - (Continues below)
 - [Menu]: Selecciona una opción
-  - (Condition: Sólo si no se le preguntó al final:)
+  - (Condition: Only if not asked last:)
     - [Choice]: ¿Quién eres?
       - **Johanna:** Hola, soy Johanna, jefe de esta alegre chusma de personas que han venido a celebrar NovtumberFest.
       - **Player:** ¿Qué es NovtumberFest?
@@ -150,7 +150,7 @@
       - [Choice]: Pregunta por otra cosa.
         - (initial)
   - [Choice]: Cuéntame sobre el recorrido por los bares.
-    - (Condition: Si no se ha obtenido una tarjeta Bar Crawl:)
+    - (Condition: If a Bar Crawl card has not been obtained:)
       - **Johanna:** Hemos organizado un pequeño recorrido por bares por todo el mundo para ayudar a celebrar este NovtumberFest.
       - **Johanna:** Puedo darte una tarjeta con una lista de bares y qué bebida comprar en cada uno.
       - **Johanna:** Hay 18 tareas diferentes para completar. Se desbloqueará uno para cada uno de los primeros 18 días de NovtumberFest.
@@ -170,16 +170,16 @@
           - Se ha agregado una tarjeta de rastreo de bares avanzado a su inventario.
         - [Choice]: Me decidiré más tarde.
           - (end)
-    - (Condition: Si se obtuvo una tarjeta de rastreo de bares y el rastreo no se completa:)
+    - (Condition: If a Bar Crawl card has been obtained and the crawl isn't completed:)
       - **Johanna:** Ahora que tienes tu tarjeta de rastreo de bares, se desbloqueará una tarea diferente cada día.{{Sic}}
       - **Johanna:** Tienes desde el día en que se desbloquea hasta el final de NovtumberFest para completar la tarea.
       - **Johanna:** Esto te dará una lámpara de XP por cada tarea completada.
       - **Johanna:** Esto significa que puedes esperar hasta que todas las tareas estén desbloqueadas antes de comenzar a rastrear y hacerlo todo de una vez.
       - **Johanna:** ¡Debes completar la tarea antes de que finalice el NovtumberFest!
       - **Johanna:** Si completas la tarjeta completa, recibirás dos lámparas XP adicionales como recompensa.
-    - (Condition: Si el player ha completado el Bar Crawl:)
+    - (Condition: If the player has completed the Bar Crawl:)
       - **Johanna:** Enhorabuena por completar el rastreo de bares. ¡Que todos tus viajes futuros por Gielinor sean igual de divertidos!
-  - (Condition: Sólo después de preguntar sobre Johanna:)
+  - (Condition: Only after asking about Johanna:)
     - [Choice]: Adiós.
       - **Johanna:** ¡A tu salud!
 

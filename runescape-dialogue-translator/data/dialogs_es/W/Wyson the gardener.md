@@ -72,7 +72,7 @@
         - **Player:** Dime tu precio.
         - **Wyson the gardener:** Hmph. El arte del regateo está realmente perdido hoy en día. Bien. 25 coins la pieza.
         - {{AnchorText|How many would you like? (25 coins each)}}
-        - ((Después de ingresar una cantidad positiva:))
+        - ((After entering a positive amount:))
           - (removes=coins)
           - (receives=woad leaves)
           - **Player:** Gracias.
@@ -148,13 +148,13 @@
     - **Player:** Me gustaría intercambiar ambos.
     - (removes=all mole bits in backpack)
     - (receives=a noted bird nest for each mole claw, skin or nose, and a white lily seed for each mole skin)
-    - (Condition: Si se recibieron semillas de lirio blanco:)
+    - (Condition: If white lily seeds were received:)
       - **Wyson the gardener:** Si no planeas usar esas semillas, algunos de los otros jardineros pueden estar interesados en ellas.
   - [Choice]: cond=If the player has all three types of mole bits|Me gustaría cambiar los tres.
     - **Player:** Me gustaría intercambiar los tres.
     - (removes=all mole bits in backpack)
     - (receives=a noted bird nest for each mole claw, skin or nose, and a white lily seed for each mole skin)
-    - (Condition: Si se recibieron semillas de lirio blanco:)
+    - (Condition: If white lily seeds were received:)
       - **Wyson the gardener:** Si no planeas usar esas semillas, algunos de los otros jardineros pueden estar interesados en ellas.
   - [Choice]: En realidad, he cambiado de opinión.
     - (continuea|Talk to)

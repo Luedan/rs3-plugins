@@ -11,9 +11,9 @@
 
 ### Wandering
 
-- (Condition: Antes de la olvidable historia de un Drunken Dwarf:)
+- (Condition: Before Forgettable Tale of a Drunken Dwarf:)
   - **Drunken Dwarf:** ¡Encantado de conocerte, amigo! <br> ¡Aquí, come algunas cosas buenas!
-- (Condition: Después de la olvidable historia de un Drunken Dwarf:)
+- (Condition: After Forgettable Tale of a Drunken Dwarf:)
   - **Drunken Dwarf:** ¡Qué bueno verte de nuevo, amigo! <br> ¡Recuerdo tus historias de kebab! <br> ¡Aquí, prueba algo de lo bueno!
 - (receives=kebab and beer)
 - **Player:** ¡Gracias!
@@ -28,9 +28,9 @@
     - **Rey Drunken Dwarf III:** Bueno, creo que quienquiera usó mi nombre, pero me emborraché por completo en la fiesta posterior a la coronación y no puedo recordarlo. ¡Así que les pedí a todos que me llamaran 'Rey Drunken Dwarf'!
   - **Player:** Podría restaurar tu memoria usando la varita the memory.
     - **Rey Drunken Dwarf III:** The memory ¿qué? ¡Oh sí! La cosa que usaste con el ogro. Whatsername me contó sobre esto.
-    - (Condition: Si actualmente no tienes la varita:)
+    - (Condition: If you do not presently have the wand:)
       - **Rey Drunken Dwarf III:** ¡Tendrías que ir a buscarlo primero, amigo!
-    - (Condition: Si tienes la varita:)
+    - (Condition: If you do have the wand:)
       - **Rey Drunken Dwarf III:** Claro, ¡por qué no!
       - **Rey Drunken Dwarf III:** ...
       - **Rey Drunken Dwarf III:** Bueno, ¿ya lo has usado? En cualquier momento que estés listo.

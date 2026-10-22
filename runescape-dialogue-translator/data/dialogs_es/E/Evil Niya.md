@@ -18,18 +18,18 @@
   - {{Transcript missing}}
   - (abajo)
 - *(Tiempos posteriores:)*
-  - (Condition: Si zombie big sprout está ganando:)
+  - (Condition: If zombie big sprout is winning:)
     - {{Transcript missing}}
-  - (Condition: Si zombie big sprout está perdiendo:)
+  - (Condition: If zombie big sprout is losing:)
     - **Evil Niya:** ¡Los brotes de mis hermanas están destruyendo los míos! ¡Haz algo al respecto!
-  - (Condition: Si el player tiene más progreso de Herblore que de Farming:)
+  - (Condition: If the player has more Herblore progress than Farming progress:)
     - **Evil Niya:** Tengo que admitir que hasta ahora me has ayudado un poco más que mi hermana. Asegúrate de que siga así.
-  - (Condition: Si el player tiene más progreso de Farming que de Herblore:)
+  - (Condition: If the player has more Farming progress than Herblore progress:)
     - **Evil Niya:** Has ayudado demasiado a mi hermana para mi gusto, debería hacer algo contigo cuando tenga tiempo...
   - [Choice]: ¿Puedes recordarme cómo ayudarte nuevamente?
     - (abajo)
   - [Choice]: Adiós
-    - (Condition: Si se ha alcanzado el límite de fatiga diaria:)
+    - (Condition: If the daily fatigue cap has been reached:)
       - **Evil Niya:** Si tan solo tuvieras algunos de los aerosoles de plantas mágicas de Alice, podrías ayudarme más hoy. ¡Vuelve mañana!
       - (end)
 - **Evil Niya:** Si sabes lo que es bueno para ti, puedes ayudar usando tu conocimiento de la hierba para corromper aún más los brotes más grandes.

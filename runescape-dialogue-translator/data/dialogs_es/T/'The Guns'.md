@@ -39,7 +39,7 @@
 - **<nowiki/>'Las armas': {{anchor|one}}** {{RSChat|1}}
 - **<nowiki/>'Las armas':** {{RSChat|2}}
 - **<nowiki/>'Las armas':** {{RSChat|3}}
-- ((Los Guns seguirán contando hasta obtener un número aleatorio entre 5.000 y 10.000:))
+- ((The Guns will continue counting until a random number between 5,000 and 10,000:))
 - **<nowiki/>'Las armas':** {{RSChat|[number]}}
 - **<nowiki/>'Las armas':** {{RSChat|10012...15?}}
 - **<nowiki/>'Las armas':** {{RSChat|Bah}}

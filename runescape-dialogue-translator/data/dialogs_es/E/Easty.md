@@ -54,14 +54,14 @@
         - (previous)
       - ¿Tienes alguna reliquia?
         - **Player:** ¿Tienes alguna reliquia?
-        - ((Si no se han perdido reliquias:))
+        - ((If no relics have been lost:))
           - **Easty:** No por el momento, pero si pierdes alguna reliquia, ven a verme.
           - (previous)
-        - ((Si se han perdido reliquias:))
-          - (Condition: Sin espacio libre backpack:)
+        - ((If relics have been lost:))
+          - (Condition: Without free backpack space:)
             - **Easty:** Necesitarás algo de espacio en tu backpack.
             - (previous)
-          - (Condition: Con espacio gratuito backpack:)
+          - (Condition: With free backpack space:)
             - (receives=lost relic)
             - Recibirás: [relic].
             - **Easty:** ¡Ahí estás!

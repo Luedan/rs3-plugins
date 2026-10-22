@@ -13,7 +13,7 @@
 ### Standard dialogue after Swan Song
 
 - **Arnold Lydspor:** ¡Ah, vuelves! ¿Qué quieres de Arnold, eh?
-- (Condition: Si el player tiene artículos listos para ser recogidos en Grand Exchange:)
+- (Condition: If the player has items ready for collection in the Grand Exchange:)
   - **Arnold Lydspor:** Ah, pero primero Arnold debe decirte que llegaron artículos para ti de Grand Exchange.
   - (continue)
 - [Menu]: ¿Qué te gustaría decir?

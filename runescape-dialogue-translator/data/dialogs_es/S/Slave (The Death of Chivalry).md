@@ -11,7 +11,7 @@
 
 ### Talking to the slave sweeping
 
-- (Condition: Si llevas un yelmo, una coraza y una toga de capitán Black Knight:)
+- (Condition: If you're wearing a Black Knight captain's helm, cuirass, and gown:)
   - [Menu]: Selecciona una opción
     - [Choice]: ¡Encogeos ante mí!
       - (Action: La mujer se sobresalta y gime.)
@@ -20,12 +20,12 @@
     - [Choice]: Continúa, esclavo.
       - (Action: Se escucha a la mujer gemir suavemente.)
       - **Esclavo:** ...
-- (Condition: De lo contrario:)
+- (Condition: Otherwise:)
   - Ella se niega a hacer contacto visual y se concentra con miedo en sus deberes.
 
 ### Talking to the slave cleaning dishes
 
-- (Condition: Si llevas un yelmo, una coraza y una toga de capitán Black Knight:)
+- (Condition: If you're wearing a Black Knight captain's helm, cuirass, and gown:)
   - [Menu]: Selecciona una opción
     - [Choice]: ¡Encogeos ante mí!
       - (Action: El hombre se sobresalta y gime.)
@@ -34,12 +34,12 @@
     - [Choice]: Continúa, esclavo.
       - (Action: Se escucha al hombre gemir suavemente.)
       - **Esclavo:** ...
-- (Condition: De lo contrario:)
+- (Condition: Otherwise:)
   - Se concentra intensamente en fregar los platos y finge no oírte.
 
 ### Talking to the slave cooking
 
-- (Condition: Si llevas un yelmo, una coraza y una toga de capitán Black Knight:)
+- (Condition: If you're wearing a Black Knight captain's helm, cuirass, and gown:)
   - [Menu]: Selecciona una opción
     - [Choice]: ¡Encogeos ante mí!
       - (Action: El hombre se sobresalta y gime.)
@@ -48,5 +48,5 @@
     - [Choice]: Continúa, esclavo.
       - (Action: Se escucha al hombre gemir suavemente.)
       - **Esclavo:** ...
-- (Condition: De lo contrario:)
+- (Condition: Otherwise:)
   - Él trata de no notarte y continúa esclavizándose frente a una estufa caliente.

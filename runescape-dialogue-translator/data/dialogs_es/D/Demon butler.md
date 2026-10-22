@@ -31,14 +31,14 @@
   - [Choice]: Cuéntame sobre tus trabajos anteriores.
     - (arriba)
   - [Choice]: ¡Estás contratado!
-    - (Condition: Si el player no tiene servidor:)
-      - (Condition: Si el player no tiene un segundo dormitorio:)
+    - (Condition: If the player doesn't have a servant:)
+      - (Condition: If the player doesn't have a second bedroom:)
         - [Necesitas un segundo dormitorio con una cama para que duerma tu sirviente.]
       - **Player:** ¡Estás contratado!
       - (removes=some coins)
       - **Demon butler:** Dedicaré todas mis artes a tu servicio, mi Maestro.
       - (Action: Demon butler desaparece del Gremio de Sirvientes)
-    - (Condition: Si el player ya tiene un servidor:)
+    - (Condition: If the player already has a servant:)
       - [Ya tienes un sirviente.]
 
 ### In a player-owned house
@@ -56,12 +56,12 @@
             - (abajo)
           - [Choice]: planks de madera.
             - [Ingrese la cantidad: [amount]]
-              - (Condition: Si hay suficientes artículos en el banco:)
+              - (Condition: If there are enough items in the bank:)
                 - El sirviente va al banco.
                 - (Action: Demon butler desaparece de la casa)
                 - (Action: Demon butler aparece en la casa.)
                 - **Demon butler:** Maestro, he regresado con lo que me pediste que recuperara.
-              - (Condition: Si no hay suficiente artículo en el banco:)
+              - (Condition: If there is not enough item in the bank:)
                 - **Demon butler:** Mi Señor, no puedo conjurar objetos del aire. ¡No tienes ninguno de esos artículos en tu banco!
           - [Choice]: Roble planks.
             - (arriba)

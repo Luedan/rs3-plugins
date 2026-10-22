@@ -26,9 +26,9 @@
   - [Choice]: ¿Qué tienes para ofrecer?
     - **Player:** ¿Qué tienes para ofrecer?
     - **Eadgar:** La recomendación de The chef para hoy es el guiso de cabrito. Daré un guiso a cambio de logs para mi fuego. Es difícil conseguirlos por aquí.
-    - (Condition: Si el player no tiene logs en backpack)
+    - (Condition: If the player has no logs in the backpack)
       - **Player:** Gracias, puede que vuelva con algo de logs.
-    - (Condition: Si el player tiene algo de logs en backpack)
+    - (Condition: If the player has some logs in the backpack)
       - [Menu]: Selecciona una opción
         - [Choice]: Quisiera un guiso de cabra montesa, por favor.
           - **Player:** Me gustaría un guiso de cabra montesa, por favor.

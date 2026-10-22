@@ -12,11 +12,11 @@
 
 ### In Dorgesh-Kaan
 
-- (Condition: Antes de empezar Otra Rebanada de H.A.M. aunque carece de requisitos de misión:)
+- (Condition: Before starting Another Slice of H.A.M. while lacking quest requirements:)
   - **Ambassador Alvijar:** Jefe Ur-tag, no puedo enfatizar lo suficiente lo importante que es que este enlace de tren se complete a tiempo. Las empresas mineras han obtenido préstamos considerables...
   - **Ur-tag:** Entiendo sus preocupaciones, Embajador, pero debe comprender que los descubrimientos deben cambiar todo el calendario. Eliminarlos demasiado apresuradamente sería un crimen contra el conocimiento.
   - (continue)
-- (Condition: Después de empezar Otra rebanada de H.A.M.:)
+- (Condition: After starting Another Slice of H.A.M.:)
   - **Ur-tag:** Saludos, habitante de la superficie. Bienvenido a Dorgesh-Kaan.
   - (continue)
 - [Menu]: Selecciona una opción
@@ -41,10 +41,10 @@
         - **Ur-tag:** Me preocupó escuchar que Graardor rechazó la autoridad de Zanik, pero no hemos tenido ningún problema. Los bandosianos se marcharon casi de inmediato y no han regresado. Ya no parecen interesados ​​en nosotros. Siempre existe la posibilidad de que vuelvan a perseguirnos, pero estamos trabajando en mejores formas de bloquear su acceso.
         - (previous)
       - [Choice]: ¿Qué opinas sobre Zanik?
-        - (Condition: Si Zanik se salvó:)
+        - (Condition: If Zanik was spared:)
           - **Ur-tag:** Sólo puedo esperar que encuentre la paz en Yu'biusk, de una forma u otra. Gracias por darle esa oportunidad.
           - (previous)
-        - (Condition: Si Zanik fue asesinado:)
+        - (Condition: If Zanik was killed:)
           - {{Transcript missing}}
       - [Choice]: Adiós.
         - (end)

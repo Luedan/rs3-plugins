@@ -44,10 +44,10 @@
         - **Greldo:** Yo soy un matón de thpeech-
         - **Player:** Por favor, detente ahí, antes de que me bañes con saliva.
         - **Greldo:** Ducharte en thpitt-
-        - (Condition: Si está alineado con un emisario de dios que no sea The Godless:)
+        - (Condition: If aligned with a god emissary other than The Godless:)
           - **Player:** Suficiente. <br>En nombre de [God's name], deja de hablar.
           - (previous)
-        - (Condition: Si está alineado con los impíos o no alineado:)
+        - (Condition: If aligned to the Godless or unaligned:)
           - **Player:** Suficiente. <br>Por favor, deja de hablar.
           - (previous)
       - [Choice]: Les "ellos" para "luchar" con su "ethith".

@@ -23,9 +23,9 @@
 - **Player:** Hola. ¿Qué hay a través de esa puerta?
 - **Squire:** Esa puerta conduce al campo de entrenamiento de los Caballeros de la Mesa Redonda.
 - **Player:** ¿Puedo entrar ahí?
-- (Condition: Si aún no ha completado los requisitos para el campo de entrenamiento de Knight Waves:)
+- (Condition: If you have not yet completed the requirements for Knight Waves training ground:)
   - {{tmissing}}
-- (Condition: Si ha completado los requisitos para el campo de entrenamiento de Knight Waves:)
+- (Condition: If you have completed the requirements for Knight Waves training ground:)
   - **Squire:** Por supuesto, mi [lord/lady]. Pero primero debo decirte las reglas. ¿Te gustaría escucharlos ahora?
   - [Menu]: Selecciona una opción
     - [Choice]: Sí por favor.

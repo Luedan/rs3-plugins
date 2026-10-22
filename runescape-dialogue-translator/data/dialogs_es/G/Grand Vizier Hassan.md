@@ -30,13 +30,13 @@
     - **Grand Vizier Hassan:** Aunque tus actividades anteriores pueden haber sugerido lo contrario, has resultado ser un verdadero amigo de Al Kharid.
     - **Grand Vizier Hassan:** Te estaré eternamente agradecido por devolvernos a Emir Ali sano y salvo.
     - **Grand Vizier Hassan:** Estoy seguro de que Osman tendrá más trabajo para una persona de tu calibre.
-    - (Condition: Si el player ha completado Rogue Trader:)
+    - (Condition: If the player has completed Rogue Trader:)
       - **Player:** Acerca de los comerciantes...
       - **Player:** ¿He oído que algunos de ellos han sido amenazados?
       - **Grand Vizier Hassan:** Osman es consciente de esto y se asegurará de que no sufran ningún daño.
       - **Player:** Me alegra oírlo.
   - [Choice]: Habla de tareas.
-    - (Condition: Si el player reclama las recompensas de tarea fácil por primera vez:)
+    - (Condition: If the player is claiming the easy task rewards for the first time:)
       - **Player:** He completado todas las tareas fáciles en el desierto.
       - **Grand Vizier Hassan:** ¡Espléndido! Puedes usar el amuleto del desierto ahora. Tengo uno para ti.
       - [Hassan te entrega un amuleto y una lámpara vieja.]
@@ -46,7 +46,7 @@
       - **Grand Vizier Hassan:** Ah, y cuando pases junto a los comerciantes de alfombras, comprueba si tienen algo para ti todos los días.
       - **Player:** ¡Gracias!
       - (continue)
-    - (Condition: Si el player ha perdido su amuleto del desierto 1:)
+    - (Condition: If the player has lost their desert amulet 1:)
       - **Grand Vizier Hassan:** ¿Tú otra vez? ¿Cómo te fue con el amuleto?
       - **Player:** Lo perdí.
       - **Grand Vizier Hassan:** ¿Lo perdiste? Bueno, da la casualidad de que encontré otro. Cuida mejor este.

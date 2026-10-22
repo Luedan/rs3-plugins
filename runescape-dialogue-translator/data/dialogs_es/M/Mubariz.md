@@ -57,7 +57,7 @@
 - **Mubariz:** Pero entonces... pero entonces...
 - **Mubariz:** El suelo simplemente cayó y la arena se hundió en el desierto mismo. Todo lo que había construido allí. Todo...simplemente...desapareció.
 - **Mubariz:** Así que ahora estoy aquí. Lamentando los mejores momentos de mi vida y esperando a ver qué nuevas oportunidades surgen.
-- ((Durante la tarea diaria de Oasis Restoration:))
+- ((During Oasis Restoration's daily task:))
   - **Player:** ¡Mubariz! Me alegra ver que estás bien.
   - **Mubariz:** ¿Está bien? ¿BUENO? ¡Estoy muy lejos de estar BIEN! Todo mi sustento se ha esfumado, hundido bajo la arena.
   - **Mubariz:** ¿Qué debo hacer ahora?

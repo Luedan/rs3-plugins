@@ -49,14 +49,14 @@
 #### Cueros de vaca, carne de res cruda o ollas de harina
 
 - [Menu]: Bill se queda con 1 artículo de cada 10:
-  - (Condition: Si el player tiene menos de 11 del elemento correspondiente:)
+  - (Condition: If the player has less than 11 of the relevant item:)
     - [Choice]: Banco [número], Bill se queda con 1.
       - **Beefy Bill:** ¡Es un placer hacer negocios contigo, amigo!
     - [Choice]: Olvídalo.
       - (end)
     - [Choice]: cond=With a ring of charos(a) equipped|[Charm] Banco [número], Bill mantiene 0.
       - **Beefy Bill:** Um... está bien, supongo que lo haré gratis.
-  - (Condition: Si el player tiene de 12 a 22 del elemento correspondiente:)
+  - (Condition: If the player has 12 to 22 of the relevant item:)
     - [Choice]: Banco [número], Bill se queda con 1.
       - **Beefy Bill:** ¡Es un placer hacer negocios contigo, amigo!
     - [Choice]: Banco [número], Bill se queda con 2.
@@ -65,7 +65,7 @@
       - (end)
     - [Choice]: cond=With a ring of charos(a) equipped|[Charm] Banco [número], Bill mantiene 0.
       - **Beefy Bill:** Um... está bien, supongo que lo haré gratis.
-  - (Condition: Si el player tiene 23 o más del elemento relevante:)
+  - (Condition: If the player has 23 or greater of the relevant item:)
     - [Choice]: Banco [número], Bill se queda con 2.
       - **Beefy Bill:** ¡Es un placer hacer negocios contigo, amigo!
     - [Choice]: Banco [número], Bill se queda con 3.

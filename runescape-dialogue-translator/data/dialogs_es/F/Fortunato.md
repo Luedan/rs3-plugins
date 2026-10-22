@@ -78,16 +78,16 @@
   - [Choice]: ¿Puedes hablarme de Draynor Village?
     - **Fortunato:** El pueblo es bastante antiguo, pero el mercado es una incorporación bastante reciente. Hasta hace poco estábamos haciendo bastante buen negocio.
     - **Player:** ¿Qué pasó?
-    - (Condition: Durante la Batalla de Lumbridge:)
+    - (Condition: During the Battle of Lumbridge:)
       - **Fortunato:** ¡Saradomin y Zamorak han decidido tener una gran pelea cerca! ¡Es terrible para los negocios!
       - (continue|zxc)
-    - (Condition: Después de la Batalla de Lumbridge:)
+    - (Condition: After the Battle of Lumbridge:)
       - **Fortunato:** Bueno, no hace mucho hubo una batalla justo afuera de Draynor, ¡entre Saradomin y Zamorak! Todavía puedes ver el campo de batalla.
       - (continue|zxc)
-    - (Condition: Antes de Vampyre Slayer:)
+    - (Condition: Before Vampyre Slayer:)
       - **Fortunato:** Además de eso, comenzaron a ocurrir ataques misteriosos a los aldeanos. Algunos dicen que es un vampyre, pero a mí no me convence.
       - (continue|cxz)
-    - (Condition: Después de Vampyre Slayer:)
+    - (Condition: After Vampyre Slayer:)
       - **Fortunato:** Si sumas eso al vampyre que eliminaste, ¡no obtendrás cifras de ventas felices!
       - (continue|cxz)
     - **Fortunato:** ¿Quizás pueda interesarte un poco de vino?

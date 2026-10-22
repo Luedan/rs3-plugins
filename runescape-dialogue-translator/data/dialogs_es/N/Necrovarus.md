@@ -42,18 +42,18 @@
 - **Player:** ¿Sigues lamiendo tus heridas?
 - **Necrovarus:** ¡Racial! ¡La mejilla de él!
 - **Necrovarus:** Espero que borres esa presunción de su carita huesuda, Player.
-- (Condition: Antes de Alfa vs Omega:)
+- (Condition: Before Alpha vs Omega:)
   - **Player:** No te preocupes, él recibirá su merecido. Sólo necesito un poco más de tiempo para prepararme...
-- (Condition: Después de Alfa vs Omega:)
+- (Condition: After Alpha vs Omega:)
   - **Player:** Te alegrará saber que lo derroté.
   - **Necrovarus:** Maravilloso. Sin duda lo lograste gracias a mis supremos esfuerzos para ayudarte en tus estudios de nigromante.
 
 ### 2015 Halloween event
 
-- (Condition: Antes de Fantasmas Ahoy:)
+- (Condition: Before Ghosts Ahoy:)
   - **Necrovarus:** ¡Oh dioses, hay más aventureros aquí para frustrar mis planes!
   - (continue)
-- (Condition: Después de Fantasmas Ahoy:)
+- (Condition: After Ghosts Ahoy:)
   - **Necrovarus:** ¡Oh dioses, tú otra vez! Estoy aquí para intentar frustrar mis planes, sin duda.
   - (continue)
 - [Menu]: Selecciona una opción

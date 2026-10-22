@@ -34,9 +34,9 @@
 - **Ysondria:** ¿Te gustaría un saco encantado para poder recolectar corrupción?
 - [Menu]: Selecciona una opción
   - [Choice]: Sí.
-    - (Condition: Sin espacio en backpack:)
+    - (Condition: Without space in backpack:)
       - **Ysondria:** No tienes suficiente espacio para llevar el saco en este momento.
-    - (Condition: Con espacio en backpack:)
+    - (Condition: With space in backpack:)
       - (receives=charmed sack)
       - **Ysondria:** Ahí lo tienes.
       - **Ysondria:** ¿Hay alguna otra ayuda que pueda brindarte?
@@ -226,11 +226,11 @@
   - **Ysondria:** Eso no está nada bien.
 - ''(Cuando se le da la respuesta correcta:)
   - (removes=the old clue scroll (medium))
-  - ((Si el rastro continúa:))
+  - ((If the trail continues:))
     - (receives=a new clue scroll (medium))
     - [¡Ysondria te ha dado otro pergamino de pistas!]
     - (continue)
-  - ((Si el sendero termina:))
+  - ((If the trail ends:))
     - (receives=reward casket (medium))
     - [¡Has encontrado un ataúd!]
     - (continue)

@@ -12,17 +12,17 @@
 ### Standard dialogue
 
 - {{trandom}}
-  - (Condition: Diálogo 1:)
+  - (Condition: Dialogue 1:)
     - **Duende de las cavernas:** ¿Cómo puedes ver correctamente con ojitos tan pequeños?
-  - (Condition: Diálogo 2:)
+  - (Condition: Dialogue 2:)
     - **Duende de las cavernas:** ¡Ooh! ¿Eres Player?
     - **Player:** Sí.
     - **Duende de las cavernas:** ¡Todo el mundo habla de cómo ayudaste a Zanik a salvar la ciudad! ¡Eres un héroe!
-  - (Condition: Diálogo 3:)
+  - (Condition: Dialogue 3:)
     - **Duende de las cavernas:** ¿Has visitado el mercado? Allí hay visitantes vendiendo alimentos de toda la superficie. ¡Es tan exótico!
     - **Duende de las cavernas:** Bueno, supongo que no sería exótico para ti, ya que eres de la superficie.
     - **Duende de las cavernas:** Pero deberías comprobarlo de todos modos. Quizás puedas vender algo de tu comida. En estos momentos todo el mundo está loco por los alimentos de superficie.
-  - (Condition: Diálogo 4:)
+  - (Condition: Dialogue 4:)
     - **Duende de las cavernas:** Entonces, ¿qué piensas de nuestra ciudad, habitante de la superficie?
     - [Menu]: Selecciona una opción
       - [Choice]: ¡Me gusta!
@@ -31,7 +31,7 @@
       - [Choice]: Creo que es basura.
         - **Player:** Creo que es basura.
         - **Duende de las cavernas:** Bueno, ¡es mejor que arrastrarse por la superficie sin nada encima de tu cabeza!
-  - (Condition: Diálogo 5:)
+  - (Condition: Dialogue 5:)
     - **Duende de las cavernas:** ¿Cómo es la superficie? Me da miedo no tener nada encima de mi cabeza.
     - [Menu]: Selecciona una opción
       - [Choice]: Está bien.
@@ -44,16 +44,16 @@
 ### Upon failed pickpocketing attempt
 
 - {{trandom}}
-  - (Condition: Diálogo 1:)
+  - (Condition: Dialogue 1:)
     - **Duende de las cavernas:** {{RSChat|What do you think you're doing?}}
     - (continue)
-  - (Condition: Diálogo 2:)
+  - (Condition: Dialogue 2:)
     - **Duende de las cavernas:** {{RSChat|Help! A thief!}}
     - (continue)
-  - (Condition: Diálogo 3:)
+  - (Condition: Dialogue 3:)
     - **Duende de las cavernas:** {{RSChat|Player is a thief!}}
     - (continue)
-  - (Condition: Diálogo 4:)
+  - (Condition: Dialogue 4:)
     - **Duende de las cavernas:** {{RSChat|Thief!}}
     - (continue)
 - (Action: El duende de las cavernas golpea a el player, aturdiéndolo y causando 10 + 3% de puntos de vida de daño.)

@@ -44,15 +44,15 @@
 ##### Cuando hablé de nuevo
 
 - **Bolkoy:** Ingrese la respuesta a la pregunta.
-- (Condition: Cuando se le da la respuesta incorrecta:)
+- (Condition: When given the wrong answer:)
   - **Bolkoy:** ¿Qué te pasa? ¿No puedes contar? ¡Esfuérzate más!
-- (Condition: Cuando se le da la respuesta correcta:)
+- (Condition: When given the correct answer:)
   - **Bolkoy:** ¡Por suerte para ti, esa es la respuesta correcta!
   - (continue)
 - (removes=the challenge scroll and the old clue scroll (medium))
-- ((Si el rastro continúa:))
+- ((If the trail continues:))
   - (receives=a new clue scroll (medium))
   - [¡Bolkoy te ha dado otro pergamino de pistas!]
-- ((Si el sendero termina:))
+- ((If the trail ends:))
   - (receives=reward casket (medium))
   - [¡Has encontrado un ataúd!]

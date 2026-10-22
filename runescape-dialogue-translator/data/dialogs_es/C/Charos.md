@@ -16,14 +16,14 @@
     - **Charos:** Bueno, técnicamente. He adquirido este edificio, pero no creo que sea todavía mi "hogar". Rara vez me quedo en un lugar el tiempo suficiente para llamarlo hogar. Los hogares te atan y siempre intento ser un espíritu más libre. Normalmente encuentro a alguien dispuesto a dejarme quedarme en su lujosa finca. Te sorprendería lo generosos que pueden ser los solitarios.
     - (previous|charos-contract-options)
   - ¿Hasta algo interesante?
-    - ((Antes de completar Medidas desesperadas:))
+    - ((Before completing Desperate Measures:))
       - **Charos:** Acabo de regresar al continente por un minuto y luego regresaré con Thok para perseguir a Kerapac.
       - **Charos:** Nadie me engaña así y se sale con la suya. Nadie.
       - (previous|charos-contract-options)
-    - ((Después de completar Medidas desesperadas:))
+    - ((After completing Desperate Measures:))
       - **Charos:** En este momento solo quiero asegurarme de que este edificio se mantenga unido. Puede que sea una choza bastante monótona, pero tiene sus propios pequeños encantos.
       - (previous|charos-contract-options)
-  - ((Si está en un construction contract para Charos:))
+  - ((If on a construction contract for Charos:))
     - Hablemos de tu contrato.
       - Seleccione una opción
         - ¿Qué necesitas reparar?
@@ -42,12 +42,12 @@
 
 #### Habla con
 
-- ((La primera vez:))
+- ((On first time:))
   - **Charos (Cañón de Hielo):** Ah, Player. Me alegro de verte por aquí.
   - **Charos (Frost Cannon):** Tienes una manera de aparecer cuando las cosas se ponen difíciles.
   - **Charos (Frost Cannon):** Sin embargo, si no hay nada urgente, volveré a probar este Arch-Glacor en nudos ilusorios.
   - (continue)
-- ((Después de la primera vez:))
+- ((After the first time:))
   - **Charos (Frost Cannon):** ¡Hola de nuevo!
   - (continue)
 - **ELIGE UNA OPCIÓN:**
@@ -57,7 +57,7 @@
     - **Charos (Frost Cannon):** Es tosco, pero frustrantemente inevitable. Y ha estado matando impunemente a nuestros guerreros altamente entrenados.
     - **Charos (Frost Cannon):** Puedo evitar que Arch-Glacor acumule el poder para usar ese ataque, con un cóctel embriagador de trucos interceptores e ilusiones desviadoras.
     - **Charos (Frost Cannon):** También he estado proyectando canciones de remo de Fremennik en su mente. Es muy difícil cambiarlos una vez que están alojados.
-  - ((Solo con la mecánica Frost Cannon desactivada:))
+  - ((Only with the Frost Cannon mechanic toggled off:))
     - Tómate un descanso. Puedo manejar esto.
       - **Charos (Frost Cannon):** ¡Ahhh, ya era hora! Mis pies me están matando y me estoy quedando sin melodías irritantes y pegadizas para tararear.
       - Si Charos deja de canalizar su hechizo, Arch-Glacor utilizará su ataque inevitable. Necesitarás mitigar su daño para sobrevivir. ¿Está seguro?
@@ -68,7 +68,7 @@
           - El Arch-Glacor ahora utilizará su inevitable ataque con rayo de hielo. Habla con Charos nuevamente para desactivar la mecánica.
         - En realidad, ¡espera!
           - **Charos (Frost Cannon):** Molesta. No supongas que podrías traerme agua con gas con una rodaja de lima, ¿verdad?
-  - ((Solo con la mecánica Frost Cannon activada:))
+  - ((Only with the Frost Cannon mechanic toggled on:))
     - ¿Podrías empezar a bloquear ese enorme ataque de nuevo?
       - **Charos (Frost Cannon):** No hay descanso para los malvados, ¿eh? O, de hecho, el endiabladamente guapo.
       - La mecánica 'Frost Cannon' ha sido desactivada.

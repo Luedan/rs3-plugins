@@ -12,18 +12,18 @@
 ### In Keldagrim Library
 
 - {{Trandom}}
-  - (Condition: Diálogo 1:)
+  - (Condition: Dialogue 1:)
     - **Asistente:** Ssshhhh...
-  - (Condition: Diálogo 2:)
+  - (Condition: Dialogue 2:)
     - **Asistente:** ¿En qué puedo ayudarte?
     - **Player:** ¿Ayuda? ¿A qué tipo de ayuda te refieres?
     - **Asistente:** ¿Buscas un libro? ¿Un manuscrito? ¿Conocimiento?
     - **Player:** Oh, nada en específico realmente.
     - **Asistente:** Entonces te dejo con tu navegación.
-  - (Condition: Diálogo 3:)
+  - (Condition: Dialogue 3:)
     - **Asistente:** Hay mucho conocimiento almacenado en esta biblioteca, ¿sabes?
     - **Player:** Oh, estoy seguro.
-  - (Condition: Diálogo 4:)
+  - (Condition: Dialogue 4:)
     - **Asistente:** ¿Y tú de dónde vienes, viajero?
     - **Player:** Desde... fuera de la ciudad.
     - **Asistente:** Eso lo podría haber adivinado.

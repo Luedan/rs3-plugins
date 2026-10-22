@@ -72,11 +72,11 @@
                     - **Aprendiz:** ¿No te importaría?
                     - **Player:** Por supuesto que no. Estaré encantado de ayudar.
                     - **Aprendiz:** ¡Está bien, aquí va! Recuerda, para regresar, basta con beber de la fuente.
-                    - (Condition: Si el player no ha hablado con Osman sobre el jugo sq'irk:)
+                    - (Condition: If the player hasn't spoken to Osman about sq'irk juice:)
                       - **Aprendiz:** No puedo hacer eso ahora, estoy demasiado ocupado barriendo.
-                    - (Condition: Si el player tiene un seguidor:)
+                    - (Condition: If the player has a follower out:)
                       - **Aprendiz:** Oh, lo siento, ¿podrías recoger a tu seguidor primero? Realmente no estoy seguro de poder teletransportarlos a los dos.
-                    - (Condition: Si el player no tiene ningún seguidor y le ha preguntado previamente a Osman sobre sq'irk Juice:)
+                    - (Condition: If the player doesn't have a follower out, and has previously asked Osman about sq'irk juice:)
                       - **Aprendiz:** {{RSChat|Senventior Disthinte Molesko!}}
                       - (Action: el player es teletransportado al jardín de Sorceress.)
                   - [Choice]: Oh, eso es lindo. Bueno, ha sido genial hablar contigo.
@@ -86,9 +86,9 @@
 
 - **Player:** Hola aprendiz, ¿quieres probar tus habilidades de teletransporte nuevamente?
 - **Aprendiz:** Bien, aquí va, y recuerda, para regresar solo bebe de la fuente.
-- (Condition: Con un seguidor o mascota:)
+- (Condition: With a follower or pet out:)
   - **Aprendiz:** Oh, lo siento, ¿podrías recoger a tu seguidor primero? Realmente no estoy seguro de poder teletransportarlos a los dos.
-- (Condition: Sin seguidor ni mascota fuera:)
+- (Condition: Without a follower or pet out:)
   - **Aprendiz:** {{RSChat|Senventior Disthinte Molesko!}}
   - (Action: el player es teletransportado al jardín de Sorceress.)
 
@@ -101,8 +101,8 @@
 
 ##### Después de desbloquear el jardín de Sorceress
 
-- (Condition: Con un seguidor o mascota:)
+- (Condition: With a follower or pet out:)
   - **Aprendiz:** Oh, lo siento, ¿podrías recoger a tu seguidor primero? Realmente no estoy seguro de poder teletransportarlos a los dos.
-- (Condition: Sin seguidor ni mascota fuera:)
+- (Condition: Without a follower or pet out:)
   - **Aprendiz:** {{RSChat|Senventior Disthinte Molesko!}}
   - (Action: el player es teletransportado al jardín de Sorceress.)

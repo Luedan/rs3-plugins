@@ -45,12 +45,12 @@
     - **Sumo Sacerdote:** No he sabido nada más desde que mi gente regresó. Pregúntales si tienes curiosidad sobre su tiempo en Menaphos.
   - [Choice]: ¿Podría tener otra lámpara?
     - **Player:** ¿Podría darme otra lámpara?
-    - (Condition: Si la lámpara de combate se ha perdido y tampoco ha sido utilizada:)
+    - (Condition: If the combat lamp has been lost, and has also not been used:)
       - (receives=Combat lamp (Contact!))
       - **Sumo Sacerdote:** Ciertamente, aunque trata de tener más cuidado con este.
-    - (Condition: Si la lámpara de combate está en backpack:)
+    - (Condition: If the combat lamp is in backpack:)
       - **Sumo Sacerdote:** Ya tienes una linterna; La avaricia no es buena, ¿sabes?
-    - (Condition: Si se ha utilizado la lámpara de combate:)
+    - (Condition: If the combat lamp has been used:)
       - **Sumo Sacerdote:** Me temo que te has beneficiado todo lo que puedes de estas lámparas.
 
 #### Después de lidiar con Scabaras

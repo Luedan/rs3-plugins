@@ -20,7 +20,7 @@
 
 ### Overheads (historical)
 
-- ((Uno de los siguientes se ve como una sobrecarga regular y de la siguiente manera en el cuadro de chat cada 30 segundos:))
+- ((One of the following is seen as a regular overhead and as follows in the chat box every 30 seconds:))
   - {{Colour: {{Colour|#99FF99|Come on, come all, to celebrate the joys of Easter in the Blooming Burrow!}}}}
   - {{Colour: {{Colour|#99FF99|Join the Easter Bunny in the Blooming Burrow to celebrate the Easter festivities!}}}}
   - {{Colour: {{Colour|#99FF99|Visit the Blooming Burrow for egg hunts, skilling activities, and springtime rewards!}}}}

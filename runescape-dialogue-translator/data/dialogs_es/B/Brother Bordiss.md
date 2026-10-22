@@ -11,7 +11,7 @@
 
 ### At the Edgeville Monastery, before Perils of Ice Mountain
 
-- (Condition: Si se ha iniciado La Muerte de la Caballería:)
+- (Condition: If The Death of Chivalry has been started:)
   - Mira con tristeza el huerto de coles.
   - (continue)
 - **Brother Bordiss:** {{Sic}}

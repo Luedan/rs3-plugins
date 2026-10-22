@@ -14,14 +14,14 @@
 
 #### Contempladores de almas y edimmu
 
-- (Condition: Si es generado por el player:)
+- (Condition: If spawned by the player:)
   - Un [Monster] muy potente ha aparecido cerca.
-- (Condition: Si lo genera el socio cooperativo de el player:)
+- (Condition: If spawned by the player's co-op partner:)
   - Un [Monster] muy poderoso ha aparecido cerca de tu socio cooperativo Slayer.
 
 #### Otros monstruos
 
-- (Condition: Si es generado por el player:)
+- (Condition: If spawned by the player:)
   - [Elite monster] ha aparecido cerca.
-- (Condition: Si lo genera el socio cooperativo de el player:)
+- (Condition: If spawned by the player's co-op partner:)
   - [Elite monster] ha aparecido cerca de tu socio cooperativo Slayer.

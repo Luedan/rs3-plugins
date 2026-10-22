@@ -27,7 +27,7 @@
     - **Player:** ¿Cómo se registran los puntos que he ganado?
     - **Entrance Guardian:** ¡Realmente estás lleno de preguntas! ¡Necesitarás un sombrero de progreso Pizazz especial! Puedo darte uno si así lo deseas para entrenar aquí.
     - **Player:** ¡Sí, por favor!
-    - (Condition: Sin un espacio backpack libre:)
+    - (Condition: Without one free backpack space:)
       - **Entrance Guardian:** ¡Ah, me temo que no puedo dártelo porque no tienes espacio para llevarlo!
     - (receives=progress hat)
     - **Entrance Guardian:** Aquí tienes. Habla con el sombrero para conocer tus totales actuales de Pizazz Point.
@@ -108,13 +108,13 @@
     - (above|they-lead)
   - [Choice]: Sobre el sombrero de progreso...
     - **Player:** Acerca del sombrero de progreso...
-    - (Condition: Si el player ha destruido su sombrero de progreso:)
+    - (Condition: If the player has destroyed their progress hat:)
       - **Entrance Guardian:** Quieres otro, ¿no?
       - **Player:** Lo siento, ¿puedo?
       - (receives=progress hat)
       - **Entrance Guardian:** Aquí tienes. Habla con el sombrero para conocer tus totales actuales de Pizazz Point.
       - (initial)
-    - (Condition: Si el player todavía tiene su sombrero de progreso:)
+    - (Condition: If the player still has their progress hat:)
       - **Entrance Guardian:** Lo cual, estoy seguro, lo tienes almacenado en algún lugar.
       - **Player:** Sí. ¿Para qué es?
       - **Entrance Guardian:** Recoge puntos Pizazz de las distintas áreas y el sombrero recordará tus totales. Habla con el sombrero en cualquier momento para saber qué puntos tienes. Sube las escaleras y habla con Rewards Guardian para reclamar artículos por los puntos.

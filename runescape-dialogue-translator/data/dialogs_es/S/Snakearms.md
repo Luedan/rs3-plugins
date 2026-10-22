@@ -18,7 +18,7 @@
 
 ### Overhead
 
-- ((La siguiente conversación se repetirá aproximadamente una vez por minuto:))
+- ((The following conversation will repeat about once a minute:))
   - **Snakearms:** {{RSChat|*sniff sniff*}}
   - **Weakback:** {{RSChat|*burp*}}
   - **Maggotscratch:** {{RSChat|I can smell that}}

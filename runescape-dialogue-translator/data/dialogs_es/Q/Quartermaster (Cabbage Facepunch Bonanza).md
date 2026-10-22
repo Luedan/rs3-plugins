@@ -90,13 +90,13 @@
 - **Intendente:** ¿P-puedo volver a cuidar mis campos, entonces?
 - **Player:** Sí, amigo mío. Vuelve a tus campos.
 - {{RSFontAchievement|I'll Never Get Tired of Cabbage Water|Talk to the Quartermaster outside Cabbage Facepunch Bonanza, inside of Gamers' Grotto.}}
-- ((Se muestra en una ventana emergente de finalización de tarea:))
+- ((Shown in a task completion pop-up:))
   - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
   - Nunca me cansaré del agua de repollo
   - Habla con Vannaka y Slayer Master fuera de la mazmorra Edgeville, al sur de Edgeville.
   - (continue)
 - **Intendente:** ¡Oh, gracias!
-- (Condition: Si se han completado todas las tareas:)
+- (Condition: If all the tasks have been completed:)
   - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!
 
 #### Opción de recompensas

@@ -1182,7 +1182,7 @@
 
 ##### Después de que Meg regrese de su última aventura
 
-- (Condition: Primera vez que inicia sesión:)
+- (Condition: First time logging in:)
   - Recibes la noticia de que Meg ha regresado de su última aventura.
 - *Meg puede saludarte con cualquiera de los siguientes: *
   - **Meg:** ¡Oh, guau! No puedo creer lo asombroso que fue eso.

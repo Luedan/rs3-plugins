@@ -35,11 +35,11 @@
             - **Gamfred:** Bueno, supongo que no a todos les gustará. Pero dale otra oportunidad antes de irte.
           - [Choice]: ¿Puedo tener un escudo por favor?
             - **Player:** ¿Puedo darme un escudo, por favor?
-            - (Condition: Si no tienes el escudo defensivo:)
+            - (Condition: If you do not have the defensive shield:)
               - **Gamfred:** ¡Por supuesto!
               - (receives=defensive shield)
               - [El enano te entrega un gran escudo.]
-            - (Condition: Si tienes el escudo defensivo:)
+            - (Condition: If you have the defensive shield:)
               - **Gamfred:** Muffin tonto, ¡ya tienes uno!
       - [Choice]: No, ¿cómo hago eso?
         - **Player:** No, ¿cómo hago eso?
@@ -47,11 +47,11 @@
         - [Menu]: Selecciona una opción
           - [Choice]: ¿Puedo tener un escudo por favor?
             - **Player:** ¿Puedo darme un escudo, por favor?
-            - (Condition: Si no tienes el escudo defensivo:)
+            - (Condition: If you do not have the defensive shield:)
               - **Gamfred:** ¡Por supuesto!
               - (receives=defensive shield)
               - [El enano te entrega un gran escudo.]
-            - (Condition: Si tienes el escudo defensivo:)
+            - (Condition: If you have the defensive shield:)
               - **Gamfred:** Muffin tonto, ¡ya tienes uno!
           - [Choice]: Suena aburrido.
             - **Player:** Suena aburrido.

@@ -20,7 +20,7 @@
 - **Player:** Bueno, ¿qué te trae a esta parte del mundo?
 - **Lea:** Estoy esperando a un individuo con algún talento de creación.
 - **Player:** He hecho algunas cosas en mi tiempo, tal vez pueda ser de alguna ayuda.
-- (Condition: Sin 22 Invention:)
+- (Condition: Without 22 Invention:)
   - **Lea:** No. No, no podrías.
   - **Lea:** Al menos no todavía.
   - [Necesitas 22 Invention para ayudar.]
@@ -51,13 +51,13 @@
 #### Durante la tarea de robar bolsas
 
 - **Lea:** Nos volvemos a encontrar, ¿tienes el bolso para mí?
-- (Condition: Sin bolsa de carterista:)
+- (Condition: Without a pickpocketing bag:)
   - **Player:** Bueno, no, todavía no.
   - **Lea:** Entonces no me molestes hasta que tengas un bolso nuevo. Nada especial, un bolso básico es todo lo que te pido.
-- (Condition: Con una bolsa de carterista:)
+- (Condition: With a pickpocketing bag:)
   - **Player:** De hecho, sí.
   - **Lea:** Excelente.
-  - (Condition: Si la bolsa de carterista ha sido usada:)
+  - (Condition: If the pickpocketing bag has been worn:)
     - [Le ofreces la bolsa.]
     - **Lea:** No me interesan artículos de segunda mano. Quiero un bolso nuevo, nada más y nada menos.
     - **Player:** Bien. Iré a buscar uno nuevo.
@@ -83,7 +83,7 @@
   - **Player:** Supongo que entendí algo de todo esto...
   - **Lea:** Muy bien. Ahora que el asunto está resuelto, me gustaría proponerle otra solicitud, si usted lo desea.
   - **Player:** Supongamos que lo fuera, ¿qué buscarías tú? Y lo más importante, ¿qué me darías a cambio?
-  - (Condition: Sin 82 Invention:)
+  - (Condition: Without 82 Invention:)
     - **Lea:** No creo que seas de más ayuda en este momento. Necesito alguien con habilidades más refinadas que las que puedes ofrecer actualmente.
     - [Necesitas 82 Invention para seguir ayudando.]
   - **Lea:** Ya que preguntaste, me interesaría algo para canalizar energías mágicas.
@@ -91,10 +91,10 @@
   - **Lea:** No, no. No canalizar las energías mágicas hacia afuera, sino hacia adentro. Para capturarlo y atarlo.
   - **Player:** Entonces, ¿para crear runas? ¿Algún tipo de varita inversa?
   - **Lea:** En pocas palabras. Sí.
-  - (Condition: Si el player no ha investigado la varilla de unión:)
+  - (Condition: If the player hasn't researched the binding rod:)
     - **Player:** He anotado algunas ideas sobre cómo abordar un problema similar por mí mismo.
     - (continue)
-  - (Condition: Si el player ya ha investigado la varilla de unión:)
+  - (Condition: If the player has already researched the binding rod:)
     - **Player:** Ya sé cómo hacer una herramienta como esa, la llamo 'Varilla vinculante'.
     - (continue)
   - **Lea:** Estoy al tanto de tus avances pero me interesaría algo menos...
@@ -103,17 +103,17 @@
   - **Lea:** Precisamente. No es mi culpa que tenga estándares.
   - **Player:** Entonces dime: ¿qué haría que esto fuera menos básico?
   - **Lea:** ¿Estás familiarizado con los elfos del oeste?
-  - (Condition: Si el player no ha completado El fin o la extinción de la plaga:)
+  - (Condition: If the player hasn't completed Plague's End or Extinction:)
     - {{Transcript missing}}
-  - (Condition: Si el player ha completado Plague's End pero no The Light Within:)
+  - (Condition: If the player has completed Plague's End but not The Light Within:)
     - **Player:** Sí, de hecho, los he ayudado mucho y se me ha concedido acceso a su ciudad de Prifddinas.
     - **Lea:** Todo un aventurero con amigos en las altas esferas. Entonces, en respuesta a mi pregunta: sí.
     - (continue)
-  - (Condition: Si el player ha competido con The Light Within pero no con Extinction:)
+  - (Condition: If the player has competed The Light Within but not Extinction:)
     - **Player:** Sí, de hecho, los he ayudado mucho y no solo se me ha concedido acceso a su ciudad de Prifddinas, sino que también les he ayudado a recuperar a su dios Seren.
     - **Lea:** Todo un viajero. Entonces, en respuesta a mi pregunta: sí.
     - (continue)
-  - (Condition: Si el player ha completado The Light Within y Extinction:)
+  - (Condition: If the player has completed both The Light Within and Extinction:)
     - **Player:** ¡Sí, muchísimo!
     - **Player:** Encontré un camino debajo de la montaña, resolví muchos de sus problemas y obtuve acceso a su ciudad de Prifddinas.
     - **Player:** Luego ayudó a traer de vuelta a su dios Seren. Visitó su mundo natal. Conocí a la madre de Seren y a su...
@@ -142,10 +142,10 @@
 #### Durante la tarea de la varilla de unión de cristal
 
 - **Lea:** Me alegro de verte por aquí. ¿Tienes el artículo que acordamos?
-- (Condition: Sin varilla de unión de cristal:)
+- (Condition: Without a crystal binding rod:)
   - **Player:** Bueno, no, todavía no.
   - **Lea:** Entonces no me molestes hasta que tengas la caña nueva. Realizado con cristal según lo solicitado.
-- (Condition: Con una varilla de unión de cristal:)
+- (Condition: With a crystal binding rod:)
   - **Player:** De hecho, sí.
   - **Lea:** Excelente.
   - (removes=crystal binding rod)
@@ -155,7 +155,7 @@
   - (Action: Lea se teletransporta.)
   - **Player:** Qué persona más extraña.
   - **Player:** Pero ahora tengo este libro.
-  - ((A continuación, las imágenes solo se muestran con los cuadros de diálogo de pantalla completa desactivados:))
+  - ((In the following the images are only shown with full-screen dialogue boxes toggled off:))
     - [Abres el libro. El libro está vacío salvo una sola frase en la primera página.]
     - ["Tanto en los negocios como en la vida, vale la pena ser específico".]
     - [El libro se convierte en polvo.]

@@ -36,9 +36,9 @@
 - **Molly:** Por desgracia, no parecen entender mis solicitudes de consumir uno. La barrera del idioma es demasiado grande.
 - **Molly:** Pero, si me consiguieras uno, me inclinaría más a visitar este oasis tuyo.
 - **Molly:** También quiero uno hecho correctamente por uno de estos gnomos. ¡Uno hecho por el propio Blurberry, nada menos!
-- ((Sin un especial Blurberry prefabricado:))
+- ((Without a premade Blurberry Special:))
   - **Player:** Veré qué puedo hacer.
-- ((Con un especial Blurberry prefabricado:))
+- ((With a premade Blurberry Special:))
   - **Player:** ¡Tengo uno aquí mismo!
   - **Molly:** ¡Fantástico! ¡Déjame probarlo!
   - ¿Darle a Molly el especial Blurberry prefabricado?

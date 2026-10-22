@@ -23,12 +23,12 @@
 - **Civilian:** ¡Persiguiendo ratones como siempre! Es todo lo que parece hacer hoy en día.
 - **Player:** ¿Debes perder mucho tiempo?
 - **Civilian:** Sí, pero ¿qué puedes hacer? ¡No es que haya muchos gatos por aquí!
-- (Condition: Con el Witch's cat en backpack:)
+- (Condition: With the Witch's cat in backpack:)
   - **Player:** Tengo un gato... ¡mira!
   - **Civilian:** Hmmm... no parece que haya visto la luz del día en años. ¡Eso no atrapará ningún ratón!
-- (Condition: Con un gatito o gato seguidor, o en backpack:)
+- (Condition: With a kitten or cat follower, or in backpack:)
   - (continue|Cat sale dialogue)
-- (Condition: De lo contrario:)
+- (Condition: Otherwise:)
   - **Player:** No, tienes razón, no ves muchos por ahí.
 
 ##### Civilian #2 (calvo con la parte superior verde)
@@ -37,11 +37,11 @@
 - **Civilian:** Estoy un poco ocupado para hablar ahora, lo siento.
 - **Player:** ¿Por qué? ¿Qué estás haciendo?
 - **Civilian:** ¡Intentando matar a estos ratones! ¡Lo que realmente necesito es un gato!
-- (Condition: Con el Witch's cat en backpack:)
+- (Condition: With the Witch's cat in backpack:)
   - (above|daylight)
-- (Condition: Con un gatito o gato seguidor, o en backpack:)
+- (Condition: With a kitten or cat follower, or in backpack:)
   - (continue|Cat sale dialogue)
-- (Condition: De lo contrario:)
+- (Condition: Otherwise:)
   - (above|notmany)
 
 ##### Civilian #3 (cabello rubio con pantalón rojo)
@@ -50,11 +50,11 @@
 - **Civilian:** Oh, hola. Lo siento, estoy un poco agotado.
 - **Player:** ¿Día ocupado?
 - **Civilian:** ¡Oh, son esos ratones! ¡Están por todas partes! Lo que realmente necesito es un gato, pero hoy en día es difícil conseguirlos.
-- (Condition: Con el Witch's cat en backpack:)
+- (Condition: With the Witch's cat in backpack:)
   - (above|daylight)
-- (Condition: Con un gatito o gato seguidor, o en backpack:)
+- (Condition: With a kitten or cat follower, or in backpack:)
   - (continue|Cat sale dialogue)
-- (Condition: De lo contrario:)
+- (Condition: Otherwise:)
   - (above|notmany)
 
 #### Mientras usas el equipo Mourner completo
@@ -103,10 +103,10 @@
     - **Player:** Erm... más o menos...
     - **Civilian:** No tengo mucho dinero, ¡pero sí tengo estos!
     - [El campesino te muestra un saco de runas de muerte.]
-    - (Condition: Sin los logros fáciles de Ardougne:)
+    - (Condition: Without the easy Ardougne achievements:)
       - **Civilian:** Los enanos nos los traen de la mina. Te diré una cosa, te daré 100 runas de muerte para el gato.
       - (continue)
-    - (Condition: Con los sencillos logros de Ardougne:)
+    - (Condition: With the easy Ardougne achievements:)
       - **Civilian:** Los enanos nos los traen de la mina. Te diré una cosa, como has estado explorando mucho alrededor de Ardougne, te daré 200 runas de muerte para el gato.
       - (continue)
     - [Menu]: Selecciona una opción

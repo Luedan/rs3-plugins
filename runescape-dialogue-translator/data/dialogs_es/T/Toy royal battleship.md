@@ -20,7 +20,7 @@
 
 #### Sin un familiar
 
-- ((Lo siguiente se muestra en una interfaz titulada 'DESPLEGAR EL BATALLA REAL':))
+- ((The following is shown in an interface titled 'DEPLOY ROYAL BATTLESHIP':))
   - ¿Qué tipo de acorazado real deseas desplegar?
   - [Choice]: {{scp|attack|link= Accurate royal battleship SELECT}}
     - (removes=toy royal battleship item) (receives=toy royal battleship follower)

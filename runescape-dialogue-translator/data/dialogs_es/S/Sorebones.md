@@ -27,20 +27,20 @@
     - **Sorebones:** Si completas esto, te daré: The Stuff x 2. ¡Estoy seguro de que también ganarás algo de reputación en el gremio de agricultores!
     - **Sorebones:** ¡Tendrás que ser rápido! Solo estoy aquí por [time]. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - (Condition: Sin los artículos solicitados:)
+    - (Condition: Without the requested items:)
       - **Sorebones:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Sorebones:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **Sorebones:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal] o [Animal].
       - **Sorebones:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
-    - (Condition: Con los artículos solicitados:)
-      - (Condition: Con múltiples animales aplicables:)
+    - (Condition: With the requested items:)
+      - (Condition: With multiple applicable animals:)
         - [Menu]: ¿Qué animal te gustaría entregar?
-          - ((Se proporciona lo siguiente para cada animal aplicable:))
+          - ((The following is given for each applicable animal:))
             - [Choice]: [Name]
               - (continue)
       - (removes=the requested items) (receives=2 bags of The Stuff and 3 Brassica primers)
       - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
         - (continue)
       - [Has recibido: The Stuff x 2<br>Y 13,750 reputación agrícola.]
@@ -65,15 +65,15 @@
 
 ##### Con artículos solicitados
 
-- (Condition: Sin los artículos solicitados:)
+- (Condition: Without the requested items:)
   - **Sorebones:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
   - **Sorebones:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
   - **Sorebones:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal] o [Animal].
   - **Sorebones:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
-- (Condition: Con los artículos solicitados:)
+- (Condition: With the requested items:)
   - (removes=the requested items) (receives=2 bags of The Stuff and 3 Brassica primers)
   - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
     - (continue)
   - [Has recibido: The Stuff x 2<br>Y 13,750 reputación agrícola.]

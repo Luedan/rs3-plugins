@@ -35,18 +35,18 @@
     - **Gadrin:** Claro, este es un Skillcape de Mining. ¡Muestra mi estatura como maestro minero! Tiene todo tipo de usos, incluido un aumento de habilidad para mi habilidad Mining. Cuando llegues al nivel 99 ven y habla conmigo y te venderé uno. ¿Hay algo más en lo que pueda ayudarte?
     - (initial)
   - [Choice]: cond=If the player has 99 Mining|¿Puedo comprarles un Skillcape o un Mining?
-    - (Condition: Si el player tiene un ring of charos (a) equipado:)
+    - (Condition: If the player has a ring of charos (a) equipped:)
       - **Gadrin:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins para este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
       - [Menu]: Elige una opción:
         - [Choice]: ¿92.000 coins? Eso es demasiado caro.
           - **Player:** Sé dónde encontrarte si cambio de opinión.
         - [Choice]: De hecho, creo que tengo el dinero aquí.
-          - (Condition: Si el player no tiene espacio backpack:)
+          - (Condition: If the player has no backpack space:)
             - **Gadrin:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar espacio en backpack antes de que pueda venderte uno.
-          - (Condition: Si el player no tiene suficiente dinero:)
+          - (Condition: If the player does not have enough money:)
             - **Player:** Pero desafortunadamente me equivoqué.
             - **Gadrin:** Bueno, vuelve a verme cuando lo hagas.
-          - (Condition: Si el player tiene suficiente dinero:)
+          - (Condition: If the player has enough money:)
             - (receives=Mining cape and Mining hood) (removes=92,000 coins)
             - **Gadrin:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
         - [Choice]: cond=If the player has 120 Mining|He dominado esta habilidad. ¿Hay algo más?
@@ -56,31 +56,31 @@
           - **Gadrin:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Mining master cape.
           - [Menu]: ¿Comprar Mining master cape por 120.000 coins?
             - [Choice]: Sí.
-              - (Condition: Sin espacio libre backpack:)
+              - (Condition: Without free backpack space:)
                 - **Gadrin:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
-              - (Condition: Con espacio gratuito backpack:)
-                - (Condition: Sin 120.000 coins:)
+              - (Condition: With free backpack space:)
+                - (Condition: Without 120,000 coins:)
                   - No tienes suficiente dinero para comprar esta capa.
-                  - (ventana emergente)
-                    - (Ventana emergente: No tienes suficiente dinero para comprar esta capa).
-                - (Condition: Con 120.000 coins:)
+                  - (pop-up)
+                    - (Pop-up: You do not have enough money to purchase this cape.)
+                - (Condition: With 120,000 coins:)
                   - (removes=120,000 coins) (receives=Mining master cape)
                   - (Action: Suena música Master cape.)
             - [Choice]: No.
               - (end)
-    - (Condition: Si el player no tiene un ring of charos(a) equipado:)
+    - (Condition: If the player does not have a ring of charos (a) equipped:)
       - **Gadrin:** Tienes razón, minero. Te has ganado el derecho a llevar uno, pero primero necesitaré 99.000 coins de ti.
-        - (Condition: Si el player tiene un token inverted skillcape o un token maestro skillcape invertido en su inventario sintonizado con Mining:)
+        - (Condition: If the player has an inverted skillcape token or inverted master skillcape token in their inventory attuned to Mining:)
           - **Gadrin:** ¡Veo que tienes una de las fichas de inversión de capa de Hans! Te quitaré eso de las manos y te venderé cualquier inverted cape para el que seas elegible.
       - [Menu]: Elige una opción:
         - [Choice]: ¿99.000 coins? Eso es demasiado caro.
           - **Player:** Sé dónde encontrarte si cambio de opinión.
         - [Choice]: De hecho, creo que tengo el dinero aquí.
-          - (Condition: Si el player no tiene espacio backpack:)
+          - (Condition: If the player has no backpack space:)
             - (arriba)
-          - (Condition: Si el player no tiene suficiente dinero:)
+          - (Condition: If the player does not have enough money:)
             - (arriba)
-          - (Condition: Si el player tiene suficiente dinero:)
+          - (Condition: If the player has enough money:)
             - (receives=Mining cape and Mining hood) (removes=99,000 coins)
             - **Gadrin:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
         - [Choice]: cond=If the player has redeemed the inverted skillcape token|Me gustaría un skillcape con los colores invertidos.
@@ -93,10 +93,10 @@
     - [Menu]: ¿Qué te gustaría decir?
       - [Choice]: cond=If the player has 99 Mining|He notado que hay un par de versiones de cada skillcape.
         - **Gadrin:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
-        - (Condition: Si el player utiliza el modelo antiguo:)
+        - (Condition: If the player is using the old model:)
           - **Gadrin:** Parece que actualmente estás usando el modelo anterior para tu Mining skillcape. ¿Quieres cambiar a uno más nuevo?
           - (continue)
-        - (Condition: Si el player está utilizando el nuevo modelo:)
+        - (Condition: If the player is using the new model:)
           - **Gadrin:** Aún puedes optar por usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
           - (continue)
         - [Menu]: Selecciona una opción
@@ -111,7 +111,7 @@
                 - (end)
           - [Choice]: No, gracias.
             - **Gadrin:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
-            - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+            - (Condition: If the player uses the new model for any other skillcape:)
               - **Gadrin:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
               - [Menu]: Selecciona una opción
                 - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.

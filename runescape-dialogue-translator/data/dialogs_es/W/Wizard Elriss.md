@@ -17,9 +17,9 @@
       - (opens=Runecrafting Guild Rewards)
   - [Choice]: cond=If the player has a talisman in their backpack|Tengo un talismán que mostrarte.
     - **Player:** Tengo un talismán que mostrarte.
-    - (Condition: Si el player tiene un talismán, aún no se lo ha mostrado a Wizard Elriss:)
+    - (Condition: If the player has a talisman they haven't shown Wizard Elriss yet:)
       - {{Transcript missing}}
-    - (Condition: Si el player ya tiene un omnitalismán:)
+    - (Condition: If the player already has an omni-talisman:)
       - **Wizard Elriss:** ¡Ya me has demostrado que tienes todos los talismanes, por eso ya te he dado un omnitalismán!
       - **Player:** Ah, sí.
       - (end)
@@ -68,14 +68,14 @@
                     - [Menu]: Selecciona una opción
                       - [Choice]: ¿Cómo lo buscas?
                         - **Player:** ¿Cómo lo buscas?
-                        - (Condition: Si el player no lleva un conjunto completo de túnicas Runecrafter:)
+                        - (Condition: If the player is not wearing a full set of Runecrafter robes:)
                           - **Wizard Elriss:** Apenas eres miembro de este gremio. Cualquiera puede ver que no encajas aquí. No creo que necesite explicarte mis métodos.
                           - [Menu]: Selecciona una opción
                             - [Choice]: ¿Qué artefacto estás buscando?
                               - (abajo)
                             - [Choice]: Bueno, buena suerte con eso.
                               - (abajo)
-                        - (Condition: Si el player lleva un conjunto completo de túnicas Runecrafter:)
+                        - (Condition: If the player is wearing a full set of Runecrafter robes:)
                           - **Wizard Elriss:** De hecho, ya me has estado ayudando. Estoy usando los altares Runecrafting para triangular la posición del artefacto. Cada vez que Acantha y Vief envían equipos alrededor de los altares, la posición de la señal se vuelve un poco más clara.
                           - ¡Me estabas usando!
                             - **Player:** ¡Me estabas usando!
@@ -85,14 +85,14 @@
                                 - **Wizard Elriss:** Éramos aprendices juntos aquí. Se fue después de graduarse, pero unos años más tarde regresó. Yo era joven e ingenuo y me enamoré. Pensé que se quedaría en la torre pero nunca quiso que yo fuera un mago adecuado. Era un cazador de tesoros, robaba artefactos mágicos de las tumbas y los vendía por oro básico. Me utilizó para acceder a los registros de la torre y nunca estuvo interesado en mí. Sólo quería buscar en los registros pistas sobre la ubicación del artefacto. Vi lo que estaba leyendo y traté de ayudarlo, pero estaba enojado. ¡Quería mantenerme en secreto su investigación! Una vez que tuvo lo que buscaba, se fue sin decir palabra. Bueno, ahora ya no me sirve. Repasé lo que había estado leyendo y encontré las pistas que había encontrado. Encontraré ese artefacto y usaré su poder para aplastarlo como a un insecto.
                       - [Choice]: ¿Qué artefacto estás buscando?
                         - **Player:** ¿Qué artefacto estás buscando?
-                        - (Condition: Si el player no lleva un conjunto completo de túnicas Runecrafter:)
+                        - (Condition: If the player is not wearing a full set of Runecrafter robes:)
                           - **Wizard Elriss:** Incluso si te lo dijera, no significaría nada para ti. Aún no estás preparado para los secretos internos de Runecrafting.
                           - [Menu]: Selecciona una opción
                             - [Choice]: ¿Cómo lo buscas?
                               - (arriba)
                             - [Choice]: Bueno, buena suerte con eso.
                               - (abajo)
-                        - (Condition: Si el player lleva un conjunto completo de túnicas Runecrafter:)
+                        - (Condition: If the player is wearing a full set of Runecrafter robes:)
                           - **Wizard Elriss:** Sé que eres un creador de runas experimentado, a diferencia de los magos de la torre. Quizás lo entiendas.
                           - **Wizard Elriss:** ¿Alguna vez te has preguntado cómo surgieron la esencia rúnica y los altares rúnicos? ¿Cómo pueden trabajar juntos los altares y la esencia rúnica cuando están tan dispersos?
                           - **Wizard Elriss:** Los magos lo llamaron el Ojo de Saradomin. Eso es lo que estoy buscando. Ninguno de los otros magos cree que sea posible, por eso estoy trabajando en secreto. Cuando lo encuentre, su poder será todo mío.
@@ -214,9 +214,9 @@
         - [Menu]: Selecciona una opción
           - [Choice]: Tengo un talismán que mostrarte.
             - **Player:** Tengo un talismán que mostrarte.
-            - (Condition: Si el player tiene un nuevo talismán:)
+            - (Condition: If the player has a new talisman:)
               - {{Transcript missing}}
-            - (Condition: Si el player ya obtuvo un omnitalismán anteriormente:)
+            - (Condition: If the player has already obtained an omni-talisman before:)
               - **Wizard Elriss:** ¡Ya me has demostrado que tienes todos los talismanes, por eso ya te he dado un omnitalismán!
               - **Player:** Ah, sí.
               - (end)

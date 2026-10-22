@@ -30,23 +30,23 @@
     - (initial)
   - [Choice]: ¿Puedes venderme levadura de cerveza?
     - **Player:**¿Puedes venderme levadura de cerveza?
-    - (Condition: Sin botes vacíos en backpack:)
+    - (Condition: With no empty pots in backpack:)
       - **Blandebir:** Me temo que necesitarás un recipiente para poner la levadura.
-    - (Condition: Con menos de 25 coins:)
+    - (Condition: With less than 25 coins:)
       - **Blandebir:** Me temo que necesitarás 25 coins para pagarme por la levadura.
-    - (Condition: Con macetas vacías en backpack:)
+    - (Condition: With empty pots in backpack:)
       - **Blandebir:** Querré 25 coins por cada bote de levadura.
       - [Menu]: ¿Llenar una olla con levadura por 25 coins?
         - [Choice]: Llena tu olla
           - (removes=one pot and 25 coins) (receives=one pot of ale yeast)
           - (initial)
         - [Choice]: cond=With multiple pots in backpack|Llena todas tus ollas
-          - (Condition: Con suficiente dinero sólo para algunos botes:)
+          - (Condition: With enough money for only some pots:)
             - (removes=pots and 25 coins for each pot) (receives=one pot of ale yeast for each pot)
             - No puedes permitirte eso.
             - **Blandebir:** Me temo que parece que te has quedado sin dinero. ¿Puedo ayudarte con algo más?
             - (initial)
-          - (Condition: Con suficiente dinero para todos los botes:)
+          - (Condition: With enough money for all pots:)
             - (removes=pots and 25 coins for each pot) (receives=one pot of ale yeast for each pot)
             - (initial)
         - [Choice]: Pregunta por otra cosa.

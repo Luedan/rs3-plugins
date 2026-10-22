@@ -47,7 +47,7 @@
 
 ### Standing on an Edict while a Chaos Witch is in Infernus
 
-- (Ventana emergente: la conexión de Zamorak con las runas es actualmente demasiado fuerte. Tendrás que encontrar una manera de romper la conexión.|advertencia=yes)
+- (Pop-up: Zamorak's connection is currently too strong to the runes. You'll need to find a way to break the connection.|warning=yes)
 - Actualmente, la conexión de Zamorak con las runas es demasiado fuerte. Necesitarás encontrar una manera de romper la conexión.
 
 ### Abilities
@@ -83,21 +83,21 @@
 ### Banishing Zamorak
 
 - {{#var:Zamorak, Lord of Chaos}} {{Sic WILL BURN! CHAOS WILL {{Sic|RAIN!}}|color=#99FF99}} {{Audio button|Zamorak, Lord of Chaos - NO! GIELINOR WILL BURN! CHAOS WILL REIGN! (4).ogg}} ({{Audio button|Zamorak, Lord of Chaos - NO! GIELINOR WILL BURN! CHAOS WILL REIGN! (1).ogg}} {{Audio button|Zamorak, Lord of Chaos - NO! GIELINOR WILL BURN! CHAOS WILL REIGN! (2).ogg}} {{Audio button|Zamorak, Lord of Chaos - NO! GIELINOR WILL BURN! CHAOS WILL REIGN! (3).ogg}} - *solo caché*)
-- ((Si la pelea termina:))
-  - ((Si el player no hubiera desterrado a Zamorak con tanta ira antes en un encuentro en solitario:))
+- ((If the fight ends:))
+  - ((If the player hadn't banished Zamorak at this high enrage before in a solo encounter:))
     - Tu enojo máximo Zamorak ha aumentado en [número], lo que lleva tu enojo más alto alcanzado a [número] para encuentros en solitario.
     - (continue)
   - {{Colour [time]}}
   - Felicitaciones. Has completado Elite Dungeon: The Zamorakian Undercity.
   - Has matado a [número] Zamorak, Lord of Chaos en modo solitario.
-  - ((Si aún tienes más Marcas de War para ganar esta hora:))
+  - ((If you still have more Marks of War to gain this hour:))
     - Se le otorgan marcas [número] de War y ahora tiene un total de [número]. Puede ganar [número] más antes de que War esté satisfecho.
 
 ### Last stand (100%+ enrage only)
 
 - {{#var:Zamorak, Lord of Chaos}} ¿Crees que has ganado? ¡Nunca terminará hasta que te quedes destrozado! {{Audio button|Zamorak, Lord of Chaos - You think you've won? It will never be over until you lay broken! (2).ogg}} ({{Audio button|Zamorak, Lord of Chaos - You think you've won? It will never be over until you lay broken! (1).ogg}} {{Audio button|Zamorak, Lord of Chaos - You think you've won? It will never be over until you lay broken! (3).ogg}} {{Audio button|Zamorak, Lord of Chaos - You think you've won? It will never be over until you lay broken! (4).ogg}} {{Audio button|Zamorak, Lord of Chaos - You think you've won? It will never be over until you lay broken! (5).ogg}} - *solo caché*)
 - (Action: Zamorak arrastra a el player a Infernus. Aparece un demonio del caos y Zamorak atacará a el player con tres ataques mágicos.)
-- (Ventana emergente: Un Demonio del Caos está obsesionado contigo. ¡Cuidado!|advertencia=yes)
+- (Pop-up: A Chaos Demon is fixated on you. Watch out!|warning=yes)
 - Un Demonio del Caos está obsesionado contigo. ¡Cuidado!
 - (Action: Después de tres ataques, Zamorak invoca dos runas aleatorias, indicando cuáles necesita atacar el player. Una barra roja que muestra cuánto daño causará el ataque cargado de Zamorak también reemplaza su barra de puntos de vida actual.)
 - Zamorak comienza a conjurar un ataque que acabará con el mundo.
@@ -114,14 +114,14 @@
 #### Derrotar a Zamorak con 100% de furia o más
 
 - (Action: el player y Zamorak corren hacia el portal de Gielinor. el player aparece nuevamente en el Volcán Wilderness, y el tesoro del Guardián Mundial aparece ante la Espada de los Edictos.)
-- ((Si la pelea termina:))
-  - ((Si el player no hubiera desterrado a Zamorak con tanta ira antes en un encuentro en solitario:))
+- ((If the fight ends:))
+  - ((If the player hadn't banished Zamorak at this high enrage before in a solo encounter:))
     - Tu enojo máximo Zamorak ha aumentado en [número], lo que lleva tu enojo más alto alcanzado a [número] para encuentros en solitario.
     - (continue)
   - {{Colour [time]}}
   - Felicitaciones. Has completado Elite Dungeon: The Zamorakian Undercity.
   - Has matado a [número] Zamorak, Lord of Chaos en modo solitario.
-  - ((Si aún tienes más Marcas de War para ganar esta hora:))
+  - ((If you still have more Marks of War to gain this hour:))
     - Se le otorgan marcas [número] de War y ahora tiene un total de [número]. Puede ganar [número] más antes de que War esté satisfecho.
 
 ### Killing a player

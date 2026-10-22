@@ -37,9 +37,9 @@
 - **Navigator Jemi:** Sí, a mí también me incomodan.
 - **Quartermaster Gully:** Urgh, cuéntamelo.
 - **Bosun Higgs:** Me está costando todo lo que tengo para no sacarles los ojos a puñaladas.
-- (Condition: Si se ha completado la minimisión Jefe de Familia:)
+- (Condition: If the Head of the Family miniquest has been completed:)
   - **Mirador Ekahi:** Ojo, yo también. No es agradable mirar fijamente.
-- (Condition: Si se ha contratado a Flippers McGraw:)
+- (Condition: If Flippers McGraw has been recruited:)
   - **Flippers McGraw:** Bueno, ¡me gusta! Me hace sentir sexy.
 
 #### Aminishi
@@ -66,9 +66,9 @@
 
 #### Goshima
 
-- (Condition: Antes de completar la minimisión Destino final:)
+- (Condition: Before completing the Final Destination miniquest:)
   - **Bosun Higgs:** Mantente alerta, cap. Escucho algo quejándose ahí fuera, y no el tipo de gemido bueno. Hay algo acechando a las puertas de Goshima, y ​​no parece amigable.
-- (Condition: Después:)
+- (Condition: Afterwards:)
   - **Bosun Higgs:** Ding dong, el khan está muerto. Zip-a-dee-doo-dah. ¿Podemos ir a buscar Jacob ahora?
 
 ### Menaphos

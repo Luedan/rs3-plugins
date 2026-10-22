@@ -11,12 +11,12 @@
 
 ### Retrieve item
 
-- ((Se abre la interfaz de Party Pack.))
-- (Condition: Al tomar un artículo:)
-  - (Condition: Sin espacio backpack para el artículo:)
-    - ((Lo siguiente se muestra en una interfaz emergente:))
+- ((The Party Pack interface opens.))
+- (Condition: When taking an item:)
+  - (Condition: Without backpack space for the item:)
+    - ((The following is shown in a pop-up interface:))
       - Debes liberar espacio en el inventario para poder tomar este artículo.
         - [Choice]: bien
-          - ((La interfaz se cierra.))
-  - (Condition: Con espacio backpack para el artículo:)
+          - ((The interface closes.))
+  - (Condition: With backpack space for the item:)
     - (receives=item)

@@ -20,21 +20,21 @@
 
 - [Menu]: ¿Sobre qué te gustaría preguntar? {{anchor|standard}}
   - [Choice]: Skillcape de Smithing
-    - (Condition: Si el player está por debajo de 99 Smithing:)
+    - (Condition: If the player is below 99 Smithing:)
       - **Player:** Esa capa que llevas es inusual, ¿qué es?
       - **Thurgo:** Es un Skillcape de Smithing. Demuestra que soy un maestro herrero, pero, por supuesto, eso es de esperarse. Después de todo, soy un enano Imcando y todo el mundo sabe que somos los mejores herreros.
-    - (Condition: Si el player tiene 99 Smithing y tiene un ring of charos(a) equipado:)
+    - (Condition: If the player has 99 Smithing and has a ring of charos (a) equipped:)
       - **Thurgo:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins para este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
       - [Menu]: Elige una opción:
         - [Choice]: ¿92.000 coins? Eso es demasiado caro.
           - **Player:** Sé dónde encontrarte si cambio de opinión.
         - [Choice]: De hecho, creo que tengo el dinero aquí.
-          - (Condition: Si el player no tiene espacio backpack:)
+          - (Condition: If the player has no backpack space:)
             - **Thurgo:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar espacio en backpack antes de que pueda venderte uno.
-          - (Condition: Si el player no tiene suficiente dinero:)
+          - (Condition: If the player does not have enough money:)
             - **Player:** Pero desafortunadamente me equivoqué.
             - **Thurgo:** Bueno, vuelve a verme cuando lo hagas.
-          - (Condition: Si el player tiene suficiente dinero:)
+          - (Condition: If the player has enough money:)
             - (receives=Smithing cape and Smithing hood) (removes=92,000 coins)
             - **Thurgo:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
         - [Choice]: cond=If the player has 120 Smithing|He dominado esta habilidad. ¿Hay algo más?
@@ -44,35 +44,35 @@
           - **Thurgo:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Smithing master cape.
           - [Menu]: ¿Comprar Smithing master cape por 120.000 coins?
             - [Choice]: Sí.
-              - (Condition: Si el player no tiene espacio backpack:)
+              - (Condition: If the player has no backpack space:)
                 - **Thurgo:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
-              - (Condition: Si el player no tiene suficiente dinero:)
+              - (Condition: If the player does not have enough money:)
                 - No tienes suficiente dinero para comprar esta capa.
-              - (Condition: Si el player tiene suficiente dinero:)
+              - (Condition: If the player has enough money:)
                 - (receives=Smithing master cape) (removes=120,000 coins)
                 - (Action: Suena música Master cape.)
             - [Choice]: No.
               - (end)
-    - (Condition: Si el player tiene 99 Smithing pero no tiene un ring of charos(a) equipado:)
+    - (Condition: If the player has 99 Smithing but does not have a ring of charos (a) equipped:)
       - [Menu]: Elige una opción:
         - [Choice]: ¿99.000 coins? Eso es demasiado caro.
           - **Player:** Sé dónde encontrarte si cambio de opinión.
         - [Choice]: De hecho, creo que tengo el dinero aquí.
-          - (Condition: Si el player no tiene espacio backpack:)
+          - (Condition: If the player has no backpack space:)
             - (arriba)
-          - (Condition: Si el player no tiene suficiente dinero:)
+          - (Condition: If the player does not have enough money:)
             - (arriba)
-          - (Condition: Si el player tiene suficiente dinero:)
+          - (Condition: If the player has enough money:)
             - (receives=Smithing cape and Smithing hood) (removes=99,000 coins)
             - **Thurgo:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
         - [Choice]: cond=If the player has 120 Smithing|He dominado esta habilidad. ¿Hay algo más?
           - (arriba)
   - [Choice]: cond=If the player has 99 Smithing|He notado que hay un par de versiones de cada skillcape.
     - **Thurgo:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
-    - (Condition: Si el player utiliza el modelo antiguo:)
+    - (Condition: If the player is using the old model:)
       - **Thurgo:** Parece que actualmente estás usando el modelo anterior para tu Smithing skillcape. ¿Quieres cambiar a uno más nuevo?
       - (continue)
-    - (Condition: Si el player está utilizando el nuevo modelo:)
+    - (Condition: If the player is using the new model:)
       - **Thurgo:** Aún puedes optar por usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
       - (continue)
     - [Menu]: Selecciona una opción
@@ -87,7 +87,7 @@
             - (end)
       - [Choice]: No, gracias.
         - **Thurgo:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
-        - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+        - (Condition: If the player uses the new model for any other skillcape:)
           - **Thurgo:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
           - [Menu]: Selecciona una opción
             - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.
@@ -135,10 +135,10 @@
 - **Thurgo:** ¡Sí! Te has encontrado con algo muy raro. Algo de metal Imcando sin forjar. ¿Te importa si le echo un vistazo?
 - [Menu]: Selecciona una opción
   - [Choice]: Por favor hazlo.
-    - ((Si el player no tiene las cuatro piezas de Imcando:))
+    - ((If the player doesn't have all four Imcando pieces:))
       - **Thurgo:** ¡Sí! ¡Tienes un trozo del antiguo metal Imcando! Dado que Archaeology es la gran moda en este momento, si me traes las cuatro piezas, puedo enseñarte cómo hacer tu propio azadón Imcando.
       - (continue|MakeMattock)
-    - ((Si el player tiene las cuatro piezas de Imcando:))
+    - ((If the player has all four Imcando pieces:))
       - [Menu]: Selecciona una opción
         - [Choice]: ¿Puedes ayudarme a hacer un azadón?
           - **Thurgo:** ¡Tienes suficientes piezas! Con estos, en lugar de hacerlo yo mismo, puedo enseñarte cómo trabajar los metales Imcando y hacer el azadón tú mismo.
@@ -194,28 +194,28 @@
 - **Thurgo:** ¡Sí! ¡Has encontrado parte de un antiguo hacha de Imcando! ¿Podría verlo?
 - [Menu]: Selecciona una opción
   - [Choice]: Por favor hazlo.
-    - (Condition: Si el player no tiene los cuatro fragmentos de hacha Imcando:)
+    - (Condition: If the player doesn't have all four Imcando hatchet fragments:)
       - **Thurgo:** ¡Sí! ¡Tienes un trozo del antiguo hacha Imcando! Si me traes las cuatro piezas, puedo recrear el hacha para ti.
-    - (Condition: Si el player tiene los cuatro fragmentos de hacha Imcando:)
+    - (Condition: If the player has all four Imcando hatchet fragments:)
       - **Thurgo:** ¡Tienes las cuatro piezas! ¡Con esto puedo recrear un antiguo hacha Imcando para ti!
     - **Thurgo:** Aunque no será fácil. Además de las piezas, necesitaré un hacha de dragón y un millón de coins para comprar otros materiales.
-    - (Condition: Si el player no tiene los cuatro fragmentos de hacha Imcando:)
+    - (Condition: If the player doesn't have all four Imcando hatchet fragments:)
       - **Thurgo:** Y un pastel de frutos rojos, por supuesto. ¡Smithing me da hambre!
-    - (Condition: Si el player tiene los cuatro fragmentos de hacha Imcando:)
+    - (Condition: If the player has all four Imcando hatchet fragments:)
       - **Thurgo:** Y como estoy seguro de que ya sabrás, ¡mi pastel de frutos rojos es de suma importancia!
     - [Menu]: Selecciona una opción
       - [Choice]: cond=Only with all the required items:|Tengo esas cosas conmigo ahora.
         - **Thurgo:** ¡Excelente! Déjame ponerme a trabajar.
         - (Action: La pantalla se desvanece y vuelve a aparecer.)
         - (removes=the Imcando hatchet fragments, dragon hatchet, redberry pie, and a million coins) (receives=an Imcando hatchet)
-        - (Condition: Si recibe un hacha Imcando por primera vez:)
+        - (Condition: If receiving an Imcando hatchet for the first time:)
           - ¡Felicitaciones! Has completado: 'Imcando at a tree' - Obtén un hacha de Imcando.
           - (continue)
         - [Thurgo crea un hacha mágica para ti.]
       - [Choice]: ¿Un hacha Imcando?
         - **Thurgo:** Es un antiguo artefacto enano, ¿no es suficientemente emocionante?
         - **Thurgo:** Un hacha será mucho mejor para cortar árboles que un hacha de dragón, eso es seguro.
-        - (Condition: Si el player tiene un hacha de cristal en su cinturón de herramientas:)
+        - (Condition: If the player has a crystal hatchet on their toolbelt:)
           - **Player:** Oh, ya tengo un hacha de cristal en mi cinturón de herramientas. ¡Es un hacha de dragón mejorada!
           - **Thurgo:** ¿Esta cosa endeble? ¡Bah! ¡Un hacha Imcando lo atravesará!
       - [Choice]: Gracias, adiós.
@@ -225,7 +225,7 @@
 
 ### At Thalmund's forge
 
-- ((Se ve una de las siguientes secuencias.))
+- ((One of the following sequences is seen.))
 
 #### Dándole un pastel de frutos rojos
 

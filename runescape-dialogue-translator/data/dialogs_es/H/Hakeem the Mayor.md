@@ -27,7 +27,7 @@
 - **Hakeem the Mayor:** Bueno, no quiero ser inmodesto, pero todo fue idea mía. Bueno tengo cosas que hacer, buena suerte aventurero.
 - [Menu]: Selecciona una opción
   - [Choice]: Pregunta por el Sistema de Tareas.
-    - (Condition: Si se completaron los logros del Desierto difícil y no se reclamaron las recompensas:)
+    - (Condition: If the Hard desert achievements have been completed and the rewards not claimed:)
       - **Player:** He completado todas las tareas difíciles en el desierto.
       - **Hakeem the Mayor:** Así que sí. Tengo un amuleto especial reservado para ti.
       - (receives=Desert amulet 3 and an antique lamp)
@@ -40,7 +40,7 @@
       - **Player:** Eso suena bien.
       - **Hakeem the Mayor:** Hay más, solo revisa la lista.
       - (continue)
-    - (Condition: Si el player ha perdido su amuleto del desierto 3:)
+    - (Condition: If the player has lost their desert amulet 3:)
       - **Hakeem The Mayor:** ¡Ah, el portador del amuleto! ¿Cómo lo estás encontrando?
       - **Player:** Lo perdí.
       - **Hakeem The Mayor:** ¡Oh, no!

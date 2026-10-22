@@ -15,17 +15,17 @@
 #### Hasta el final del pasado domingo con la visita de Papá Noel
 
 - **Clementine:** '¡Hola, hola, hola!
-- (Condition: Sin haber reclamado la carta diaria de Clementine:)
-  - (Condition: Sin espacio backpack para la letra:)
+- (Condition: Without having claimed the daily letter from Clementine:)
+  - (Condition: Without backpack space for the letter:)
     - **Clementine:** Tengo una carta para Santa. Woz espera que me lo entregues, pero no tienes espacio para llevarlo.
     - [Necesitas 1 espacio backpack gratuito para recoger tu carta diaria para Papá Noel.]
-  - (Condition: Con espacio backpack para la letra:)
+  - (Condition: With backpack space for the letter:)
     - (receives=a letter to Santa)
     - **Clementine:** '¡Toma, toma esto!
-    - (Condition: Antes del último domingo en el que visita Santa:)
+    - (Condition: Before the last Sunday on which Santa visits:)
       - **Clementine:** La gente es muy torpe por aquí. Sigo encontrándolos en el suelo. Vuelve mañana y tendré otro para ti.
       - (continue)
-    - (Condition: El último domingo en que visita Santa:)
+    - (Condition: On the last Sunday on which Santa visits:)
       - **Clementine:** Gracias por su ayuda con la entrega de cartas. La última visita de Papá Noel este año es hoy. Así que no más cartas hasta el año que viene después de hoy. ¡Quédate aquí para disfrutar de la otra diversión!
       - (continue)
 - [Menu]: Selecciona una opción
@@ -71,16 +71,16 @@
     - (previous)
   - [Choice]: ¿Tienes algo para mí?
     - **Player:** ¿Tienes algo para mí?
-    - (Condition: Sin artículos para reclamar:)
+    - (Condition: Without items to claim:)
       - **Clementine:** Lo siento, no tengo nada para ti.
       - (previous)
-    - (Condition: Con artículos para reclamar:)
+    - (Condition: With items to claim:)
       - **Clementine:** Veo tu backpack woz lleno cuando encuentras una carta para completar tus desafíos diarios.
       - **Clementine:** 'Aquí apareció mágicamente a mi lado. Retíralo.
-      - (Condition: Sin espacio backpack para una letra:)
+      - (Condition: Without backpack space for a letter:)
         - **Clementine:** Oh, parece que no tienes espacio otra vez... Haz algo de espacio y te lo daré.
         - [Necesitas 1 espacio backpack libre para recoger la carta a Santa.]
-      - (Condition: Con espacio backpack para una letra:)
+      - (Condition: With backpack space for a letter:)
         - (receives=a letter to Santa)
         - [Clementine entrega la carta.]
         - (previous)

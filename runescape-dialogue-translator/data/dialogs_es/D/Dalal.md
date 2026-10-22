@@ -72,7 +72,7 @@
 
 ### Rescuing Dalal after the destruction of Duel Arena
 
-- ((Si los tres supervivientes han sido rescatados:))
+- ((If all three survivors have been rescued:))
   - Has completado: 'Buscar supervivientes' y has avanzado hacia el evento Restauración del Oasis.
   - (continue)
 - **Dalal:** ¡Gracias! Había mucho espacio allí debajo.

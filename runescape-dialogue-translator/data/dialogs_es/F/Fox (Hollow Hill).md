@@ -33,12 +33,12 @@
     - **Zorro:** No entiendes... ¿capturas?
     - **Zorro:** No te... ¿captas?<br>¡Atrapado!
     - **Zorro:** No te... ¿captas?<br>¡Atrapado!<br>O se comen tus huesos y tú serás huesos para Ivar.
-    - (Condition: Si el player aún no ha capturado ninguna criatura Havenhythe Big Game Hunter:)
+    - (Condition: If the player hasn't caught any Havenhythe Big Game Hunter creatures yet:)
       - **Zorro:** Si atrapas...
       - **Fox:** Si atrapas...<br>Te dejamos...
       - **Zorro:** Si atrapas...<br>Te permitimos...<br>Usar alijo de trampas gigantes.
       - (initial)
-    - (Condition: Si el player ha capturado al menos una criatura Havenhythe Big Game Hunter:)
+    - (Condition: If the player has caught at least one Havenhythe Big Game Hunter creature:)
       - **Zorro:** ¡Lo atrapas!
       - **Zorro:** ¡Captas! <br> ¡Tienes mucho poder!
       - **Zorro:** ¡Lo atrapas! <br> ¡Tienes mucho poder! <br> Usa la trampa de gigantes en cualquier momento.
@@ -56,10 +56,10 @@
     - **Zorro:** ¡Inteligente! ¡Sí! ¡Los gigantes alguna vez fueron inteligentes!
     - **Fox:** Historias de constructores gigantes...
     - **Zorro:** ¡Y los gigantes alguna vez tuvieron rey y reina!
-    - (Condition: Si el player no ha matado a Ivar, King of Bones:)
+    - (Condition: If the player hasn't killed Ivar, King of Bones:)
       - **Zorro:** Ivar falso rey...
       - (continue)
-    - (Condition: Si el player no ha matado a Ivar, King of Bones:)
+    - (Condition: If the player hasn't killed Ivar, King of Bones:)
       - **Player:** ¿Te gusta Ivar?
       - (continue)
     - **Zorro:** No... Ivar quiere decir... Ivar golpea y mata si...

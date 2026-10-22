@@ -43,11 +43,11 @@
 
 #### Opción de cambio de ropa{{anchor|change}}
 
-- (Condition: Si el player tiene armas o armaduras equipadas:)
+- (Condition: If the player has weapons or armour equipped:)
   - **Thessalia:** No puedes probártelos mientras llevas armadura. Quítatelo y hablame de nuevo.
-- (Condition: Si el player tiene anulaciones equipadas:)
+- (Condition: If the player has overrides equipped:)
   - Debes desactivar cualquier anulación de vestimenta que tengas activa antes de poder cambiarte de ropa.
-- (Condition: De lo contrario:)
+- (Condition: Otherwise:)
   - ''(Se abre la interfaz de Selección de ropa.)
 
 ### In New Varrock

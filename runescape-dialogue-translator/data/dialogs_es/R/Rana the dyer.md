@@ -25,12 +25,12 @@
         - **Rana the Dyer:** Hmm... 3 lotes de redberries deberían ser suficientes y 25 coins deberían cubrir cualquier otro costo.
         - [Menu]: Selecciona una opción
           - [Choice]: Bien, hazme un poco de red dye, por favor.
-            - (Condition: Si el player no tiene tres redberries:)
+            - (Condition: If the player does not have three redberries:)
               - No tienes suficiente berries para hacer el red dye.
-            - (Condition: Si el player tiene tres redberries pero menos de 25 coins:)
+            - (Condition: If the player has three redberries but less than 25 coins:)
               - No puedes permitirte eso.
               - No tienes suficiente coins para pagar el dye.
-            - (Condition: Si el player tiene tres redberries y 25 coins:)
+            - (Condition: If the player has three redberries and 25 coins:)
               - (removes=three redberries and 25 coins) (receives=red dye)
               - Le entregas el redberries y un poco de coins a Rana, quien luego hurga en algunos estantes y finalmente encuentra una botella roja, que luego te entrega.
           - [Choice]: Creo que todavía no tengo todos los ingredientes.
@@ -49,12 +49,12 @@
         - **Rana the Dyer:** El amarillo es un color difícil de recrear. Supongo que si me das 2 cebollas, podría usar sus pieles para preparar un yellow dye cálido para ti. Ah, sí, y para que no lo olvide, necesitaré 25 coins para cubrir el coste de la cristalería y mi salario.
         - [Menu]: Selecciona una opción
           - [Choice]: Bien, hazme un poco de yellow dye, por favor.
-            - (Condition: Si el player no tiene dos cebollas:)
+            - (Condition: If the player does not have two onions:)
               - No tienes suficientes cebollas para hacer el yellow dye.
-            - (Condition: Si el player tiene dos cebollas pero menos de 25 coins:)
+            - (Condition: If the player has two onions but less than 25 coins:)
               - No puedes permitirte eso.
               - No tienes suficiente coins para pagar el dye.
-            - (Condition: Si el player tiene dos cebollas y 25 coins:)
+            - (Condition: If the player has two onions and 25 coins:)
               - (removes=two onions and 25 coins) (receives=yellow dye)
               - Le entregas dos cebollas a Rana, quien luego hurga en algunos estantes y finalmente encuentra una botella amarilla, que luego te entrega.
           - [Choice]: Creo que todavía no tengo todos los ingredientes.
@@ -71,12 +71,12 @@
         - **Rana the Dyer:** Para hacer una botella de blue dye necesitaré 2 hojas de glasto y 25 coins de tu parte.
         - [Menu]: Selecciona una opción
           - [Choice]: Bien, hazme un poco de blue dye, por favor.
-            - (Condition: Si el player no tiene dos hojas de glasto:)
+            - (Condition: If the player does not have two woad leaves:)
               - No tienes suficientes hojas de glasto para hacer el blue dye.
-            - (Condition: Si el player tiene dos hojas de glasto pero menos de 25 coins:)
+            - (Condition: If the player has two woad leaves but less than 25 coins:)
               - No puedes permitirte eso.
               - No tienes suficiente coins para pagar el dye.
-            - (Condition: Si el player tiene dos hojas de glasto y 25 coins:)
+            - (Condition: If the player has two woad leaves and 25 coins:)
               - (removes=two woad leaves and 25 coins) (receives=blue dye)
               - Le entregas las hojas de glasto y un poco de coins a Rana, quien luego hurga en algunos estantes y finalmente encuentra una botella azul, que luego te entrega.
           - [Choice]: Creo que todavía no tengo todos los ingredientes.

@@ -29,10 +29,10 @@
     - **Zeke:** ¡De ninguna manera, [man/lady]!
     - **Zeke:** Los imbéciles con cerebro de plátano que los hacen nunca soñarían con venderme ninguno.
     - **Zeke:** En serio, serás el tío de un mono antes de tener un dragon scimitar.
-    - (Condition: Si el player no ha completado Monkey Madness:)
+    - (Condition: If the player has not completed Monkey Madness:)
       - **Player:** Bueno, gracias de todos modos.
       - (continue)
-    - (Condition: Si el player ha completado Monkey Madness:)
+    - (Condition: If the player has completed Monkey Madness:)
       - **Player:** Hmmm, es curioso que digas eso...
       - (continue)
     - **Zeke:** ¿Quizás le gustaría echar un vistazo a mis acciones?
@@ -65,10 +65,10 @@
 #### Senderos del tesoro
 
 - (removes=the old clue scroll (easy))
-- ((Si el rastro continúa:))
+- ((If the trail continues:))
   - (receives=a new clue scroll (easy))
   - [Zeke te ha dado tu siguiente pergamino de pistas.]
-- ((Si el sendero termina:))
+- ((If the trail ends:))
   - (receives=reward casket (easy))
   - [¡Has encontrado un ataúd!]
 - **Zeke:** Perfecto.

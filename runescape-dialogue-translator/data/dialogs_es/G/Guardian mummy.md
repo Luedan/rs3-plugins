@@ -112,24 +112,24 @@
     - **Guardian mummy:** *suspiro* Oh, está bien. Pero sólo si el cetro está completamente vacío, no desperdiciaré la magia del Rey...
     - [Menu]: Recarga el cetro con:
       - [Choice]: Objeto de oro con joyas.
-        - (Condition: Si el player no tiene una estatuilla dorada enjoyada:)
+        - (Condition: If the player does not have a jewelled golden statuette:)
           - **Guardian mummy:** Necesitas tener la estatuilla dorada con joyas para recargar tu cetro.
-        - (Condition: Si el player tiene una estatuilla dorada con joyas:)
+        - (Condition: If the player has a jewelled golden statuette:)
           - {{transcript missing}}
       - [Choice]: Objetos de oro.
-        - (Condition: Si el player no tiene al menos seis artefactos de oro:)
+        - (Condition: If the player does not have at least six gold artefacts:)
           - **Guardian mummy:** Necesitas tener 6 artefactos de oro para recargar tu cetro.
-        - (Condition: Si el player tiene al menos seis artefactos de oro:)
+        - (Condition: If the player has at least six gold artefacts:)
           - Recargas tu cetro con artefactos de oro.
       - [Choice]: Artefactos de piedra.
-        - (Condition: Si el player no tiene al menos 12 artefactos de piedra:)
+        - (Condition: If the player does not have at least 12 stone artefacts:)
           - **Guardian mummy:** Necesitas tener 12 artefactos de piedra para recargar tu cetro.
-        - (Condition: Si el player tiene al menos 12 artefactos de piedra:)
+        - (Condition: If the player has at least 12 stone artefacts:)
           - {{transcript missing}}
       - [Choice]: Objetos de cerámica y marfil.
-        - (Condition: Si el player no tiene al menos 24 artefactos de cerámica o marfil:)
+        - (Condition: If the player does not have at least 24 pottery or ivory artefacts:)
           - **Guardian mummy:** Necesitas tener 24 artefactos de cerámica o marfil para recargar tu cetro.
-        - (Condition: Si el player tiene al menos 24 artefactos de cerámica o marfil:)
+        - (Condition: If the player has at least 24 pottery or ivory artefacts:)
           - {{transcript missing}}
       - [Choice]: En realidad, lo que más me interesa es saquear las tumbas.
         - (Action: el player ingresa a la primera sala de Pyramid Plunder.)
@@ -146,8 +146,8 @@
 ### Start minigame before talking to Guardian mummy
 
 - Realmente deberías averiguar qué hacer hablando primero con guardian mummy.
-- (ventana emergente)
-  - (Ventana emergente: deberías saber qué hacer hablando primero con guardian mummy.|advertencia=yes)
+- (pop-up)
+  - (Pop-up: You should really find out what to do by talking to the guardian mummy first.|warning=yes)
 
 ### When the Pyramid Plunder timer runs out
 
@@ -159,11 +159,11 @@
 
 - (Action: el player corre hacia la salida y aparece fuera de la entrada norte de la pirámide.)
 - El guardian mummy te expulsa ahora que has encontrado el cetro.
-- (Condition: Si el player no ha completado las tareas de Hard Desert:)
+- (Condition: If the player has not completed the Hard Desert tasks:)
   - (receives=pharaoh's sceptre (3))
   - Has encontrado el cetro del faraón.
   - (continue)
-- (Condition: Si el player ha completado las tareas de Hard Desert:)
+- (Condition: If the player has completed the Hard Desert tasks:)
   - (receives=pharaoh's sceptre (6))
   - Has encontrado un cetro de faraón potenciado.
   - (continue)

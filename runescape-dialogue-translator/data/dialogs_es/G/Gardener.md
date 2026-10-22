@@ -21,18 +21,18 @@
     - **Gardener:** Necesito cincuenta semillas de lirio blanco al día. A cambio, estoy dispuesto a enseñarte algunos de los trucos agrícolas que he aprendido a lo largo de los años.
     - [Menu]: Selecciona una opción
       - [Choice]: Intercambiar semillas
-        - (Condition: Si el player no tiene semillas de lirio blanco:)
+        - (Condition: If the player has no white lily seeds:)
           - **Gardener:** Parece que no llevas ninguna semilla contigo.
-        - (Condition: Si el player ha intercambiado cincuenta semillas de lirio blanco para el día:)
+        - (Condition: If the player has traded in fifty white lily seeds for the day:)
           - **Gardener:** Me temo que no tengo nada más que pueda enseñarte hoy. ¿Podrías volver mañana?
           - Sólo puedes intercambiar 50 semillas al día.
-        - (Condition: Si el player tiene semillas de lirio blanco en backpack:)
+        - (Condition: If the player has white lily seeds in backpack:)
           - **Gardener:** ¿Cuántas semillas estás dispuesto a ofrecer?
           - {{tinput|Enter amount:}}
-            - ((Después de ingresar una cantidad positiva:))
+            - ((After entering a positive amount:))
               - Obtendrás [amount] Farming xp a cambio de semillas [número].
               - (removes=white lily seeds) (receives=100 Farming XP for each white lily seed)
-            - (Condition: Si se ingresa cero:)
+            - (Condition: If zero is entered:)
               - **Gardener:** Vuelve si cambias de opinión.
       - [Choice]: salir
         - (end)
@@ -46,14 +46,14 @@
 
 - ¿Cuántas semillas de lirio te gustaría intercambiar?
 - {{tinput|Enter amount:}}
-  - ((Después de ingresar una cantidad positiva:))
-    - (Condition: Si el player no tiene semillas de lirio blanco:)
+  - ((After entering a positive amount:))
+    - (Condition: If the player has no white lily seeds:)
       - No tienes tantas semillas de lirio.
-    - (Condition: Si el player ha intercambiado cincuenta semillas de lirio blanco para el día:)
+    - (Condition: If the player has traded in fifty white lily seeds for the day:)
       - **Gardener:** Me temo que no tengo nada más que pueda enseñarte hoy. ¿Podrías volver mañana?
       - Sólo puedes intercambiar 50 semillas al día.
-    - (Condition: Si el player tiene semillas de lirio blanco:)
+    - (Condition: If the player has white lily seeds:)
       - Obtendrás [amount] Farming xp a cambio de semillas [número].
       - (removes=white lily seeds) (receives=100 Farming XP for each white lily seed)
-  - (Condition: Si se ingresa cero:)
+  - (Condition: If zero is entered:)
     - **Gardener:** Vuelve si cambias de opinión.

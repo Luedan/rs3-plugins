@@ -33,9 +33,9 @@
 
 - **Ulizius:** ¡Muy bien hecho! ¡Aquí tienes!
 - (removes=the old clue scroll (medium))
-- ((Si el rastro continúa:))
+- ((If the trail continues:))
   - (receives=a new clue scroll (medium))
   - [¡Ulizius te ha dado otro pergamino de pistas!]
-- ((Si el sendero termina:))
+- ((If the trail ends:))
   - (receives=reward casket (medium))
   - [¡Has encontrado un ataúd!]

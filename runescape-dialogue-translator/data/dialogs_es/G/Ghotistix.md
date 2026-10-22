@@ -13,10 +13,10 @@
 
 - **Player:** Hola.
 - **Ghotistix:** Saludos.
-- ((Antes de que Polletix le pidiera ayuda con las hierbas:))
+- ((Before having been asked to help with herbs by Polletix:))
   - **Ghotistix:** Antes de continuar, si estás buscando ayudar aquí, probablemente deberías hablar con Polletix que está allí.
   - **Player:** ¡Genial, gracias!
-- ((Después de que Polletix le pidiera ayuda con las hierbas:))
+- ((After having been asked to help with herbs by Polletix:))
   - **SELECCIONA UNA OPCIÓN**
     - ¿Qué estás haciendo?
       - **Player:** ¿Qué estás haciendo?

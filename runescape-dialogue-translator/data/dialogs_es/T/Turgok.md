@@ -15,11 +15,11 @@
 - [Menu]: Selecciona una opción
   - [Choice]: Sí, por favor.
     - **Player:** Sí, por favor
-  - (Condition: Sin al menos 10 coins:)
+  - (Condition: Without at least 10 coins:)
     - **Player:** Pero no tengo suficiente dinero encima.
-  - (Condition: Sin al menos un espacio backpack libre:)
+  - (Condition: Without at least one free backpack space:)
     - **Turgok:** Parece que tienes las manos ocupadas. Tendrás que liberar algo de espacio en el inventario antes de que te venda algo.
-  - (Condition: Con al menos un espacio backpack libre:)
+  - (Condition: With at least one free backpack space:)
     - (removes=10 coins)
     - (receives=green gloop soup)
     - **Turgok:** Ahí lo tienes.
@@ -29,13 +29,13 @@
 ### Overhead dialogue
 
 - {{trandom}}
-  - (Condition: Diálogo 1:)
+  - (Condition: Dialogue 1:)
     - **Turgok:** {{RSChat|Tasty soup!}}
-  - (Condition: Diálogo 2:)
+  - (Condition: Dialogue 2:)
     - **Turgok:** {{RSChat|Green cave-slime soup!}}
-  - (Condition: Diálogo 3:)
+  - (Condition: Dialogue 3:)
     - **Turgok:** {{RSChat|Soup!}}
-  - (Condition: Diálogo 4:)
+  - (Condition: Dialogue 4:)
     - **Turgok:** {{RSChat|Hot, tasty soup!}}
-  - (Condition: Diálogo 5:)
+  - (Condition: Dialogue 5:)
     - **Turgok:** {{RSChat|Cave slime soup!}}

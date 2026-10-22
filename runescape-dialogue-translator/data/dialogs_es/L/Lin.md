@@ -14,7 +14,7 @@
 
 #### Usar una sábana o una sábana cubierta de ectoplasma
 
-- ((Se elegirá al azar uno de los siguientes:))
+- ((One of the following will be chosen at random:))
   - **Lin:** ¡Cómo te atreves a hacer semejante burla!
   - **Lin:** ¿Es esta tu idea del humor?
   - **Lin:** Esta conversación puede continuar después de que te quites ese ridículo atuendo.

@@ -71,11 +71,11 @@
             - **Historian Minas:** ellos limpian los hallazgos.
             - **Player:** ¿Qué calificaciones?
             - **Historian Minas:** Exámenes de Ciencias de la Tierra nivel 3. Puede recogerlos en el Centro de exámenes en el sitio de excavación.
-            - (Condition: Si no ha completado The Dig Site:)
+            - (Condition: If you have not completed The Dig Site:)
               - **Player:** Oh, no los tengo.
               - **Historian Minas:** Estoy seguro de que puedes conseguirlos con bastante facilidad. Simplemente visite el Centro de exámenes en el sitio de excavación y hable con uno de los examinadores allí.
               - (previous)
-            - (Condition: Si ha completado The Dig Site:)
+            - (Condition: If you have completed The Dig Site:)
               - **Player:** ¡Oh, ya los tengo!
               - **Historian Minas:** Eso es excelente. Si tienes ganas de ayudarnos, baja las escaleras y limpia algunos hallazgos para nosotros.
               - (previous)
@@ -91,19 +91,19 @@
   - [Choice]: Tengo información que podría ser útil en sus pantallas.
     - **Player:** Tengo información que podría ser útil en sus pantallas.
     - **Historian Minas:** ¡Eso es grandioso! Siempre nos alegra tener más datos. Ahora dime lo que sabes...
-    - (Condition: Si no se han completado misiones relevantes y aún no se han explicado:)
+    - (Condition: If no relevant quests have been completed and not yet explained:)
       - **Player:** Pensándolo bien, ¡parece que tienes todo lo que sé cubierto aquí!
       - **Historian Minas:** No importa. Estoy seguro de que encontrarás más. Mire alrededor del museo, explore la ciudad y tal vez realice algunas misiones, y estoy seguro de que encontrará algo que valga la pena contar.
       - **Player:** Sí, haré algunas misiones o algo así...
-    - (Condition: Si el Escudo de Arrav se ha completado pero aún no se ha explicado:)
-      - (Condition: Si el Escudo de Arrav se completó en modo individual:)
+    - (Condition: If Shield of Arrav has been completed but not yet explained:)
+      - (Condition: If the Shield of Arrav was completed in solo mode:)
         - **Player:** Bueno, me infiltré en dos de las pandillas aquí en Varrock...
         - **Historian Minas:** ¿Tenemos pandillas?
         - **Player:** Erm, sí... de todos modos, logré recuperar ambas mitades del Escudo de Arrav.
         - **Historian Minas:** ¿Mitades?
         - **Player:** Sí. Las pandillas tuvieron una pequeña pelea, ya ves. De todos modos, volví a montar el escudo y se lo presenté a King Roald para obtener mi recompensa.
         - (continue)
-      - (Condition: Si el Escudo de Arrav se completó con un compañero:)
+      - (Condition: If the Shield of Arrav was completed with a partner:)
         - **Player:** Bueno, me infiltré en una de las pandillas aquí en Varrock...
         - **Historian Minas:** ¿Tenemos pandillas?
         - **Player:** Erm, sí... de todos modos, logré recuperar la mitad del escudo.
@@ -120,12 +120,12 @@
       - Recibes una lámpara vieja.
       - [Recibes una lámpara vieja.]
       - (continue)
-    - (Condition: Si Observatory Quest se ha completado pero aún no se ha explicado:)
+    - (Condition: If Observatory Quest has been completed but not yet explained:)
       - **Player:** Ayudé a reconstruir el Observatorio cerca de Ardougne. Tuve que luchar para lograrlo y también aprender a utilizar el telescopio. Puedo dibujarte un diagrama del Observatorio si te sirve de ayuda.
       - ¡Te has ganado elogios con el museo!
       - **Historian Minas:** Eso sería de gran ayuda. Lo restauré, ¿eh? ¿Y funciona, dices? Excelente, ¡quizás ahora podamos contemplar las estrellas de verdad! Display número 17, 5ª edad, año 70.
       - (continue)
-    - (Condition: Si el Cristal de Merlín se ha completado pero aún no se ha explicado:)
+    - (Condition: If Merlin's Crystal has been completed but not yet explained:)
       - **Player:** Ayudé a liberar al mago Merlín usando Excalibur...
       - **Historian Minas:** ¿Es algún tipo de hechizo?
       - **Player:** No, es una espada. La espada de King Arthur.
@@ -142,12 +142,12 @@
       - Recibes una lámpara vieja.
       - [Recibes una lámpara vieja.]
       - (continue)
-    - (Condition: Si Demon Slayer se ha completado pero aún no se ha explicado:)
+    - (Condition: If Demon Slayer has been completed but not yet explained:)
       - **Player:** Bueno, ¡recientemente derroté a Delrith, un demonio! Lo hice usando una espada llamada Silverlight, que aparentemente es la única espada que puede hacerlo. ¿Puedo darte una descripción si quieres?
       - ¡Te has ganado elogios con el museo!
       - **Historian Minas:** ¡Delrith! ¡Increíble! Te agradezco que me lo hayas hecho saber. Por favor, cuéntame más sobre Silverlight y montaré una pantalla. Display número 25, 5ª Edad, año 20.
       - (continue)
-    - (Condition: Si The Grand Tree se ha completado pero aún no se ha explicado:)
+    - (Condition: If The Grand Tree has been completed but not yet explained:)
       - **Player:** ¡Ayudé a salvar el Gran Árbol de los gnomos!
       - **Historian Minas:** ¿Ah? ¿Te refieres a esos pequeños verdes con sus planeadores?
       - **Player:** Sí, descubrí a este desagradable personaje llamado Glough y terminé siendo emboscado por un demonio negro...
@@ -156,7 +156,7 @@
       - ¡Te has ganado elogios con el museo!
       - **Historian Minas:** ¿Quieres decir que esas cosas endebles pueden volar con más de un gnomo dentro? Eso es inesperado. Actualizaré la pantalla inmediatamente. ¡Muestra el número 10, arriba en el medio de la habitación!
       - (continue)
-    - (Condition: Si se ha completado Making History pero aún no se ha explicado:)
+    - (Condition: If Making History has been completed but not yet explained:)
       - **Player:** Descubrí más sobre los antepasados de King Lathas.
       - **Historian Minas:** ¿Ah? Me interesaría oír esto, tenemos un cuadro de él arriba.
       - **Player:** De hecho, resulta que hubo una gran batalla en el año 98 de la 5ª Edad. Uno de sus antepasados ​​se convirtió en rey porque sobrevivió...
@@ -171,21 +171,21 @@
       - Recibes una lámpara vieja.
       - [Recibes una lámpara vieja.]
       - (continue)
-    - (Condition: Si Sacerdote en peligro se ha completado pero aún no se ha explicado:)
+    - (Condition: If Priest in Peril has been completed but not yet explained:)
       - **Player:** Algunas noticias inquietantes y heroicas de Morytania sobre el río Salve y los siete sacerdotes.
       - **Historian Minas:** ¿Ah?
       - **Player:** Sí, parece que estos siete sacerdotes también eran guerreros y repelieron las cosas desagradables que salían de Morytania. Entonces Saradomin bendijo el Salve para evitar que regresaran.
       - ¡Te has ganado elogios con el museo!
       - **Historian Minas:** Es bastante preocupante que solo sea un poco de agua lo que los mantiene allí, pero Saradomin nos protegerá, no tengo ninguna duda. Gracias por la información, pondré un expositor. Display número 23, 4ª Edad, año 1100-1200.
       - (continue)
-    - (Condition: Si En ayuda del Myreque se ha completado pero aún no se ha explicado:)
+    - (Condition: If In Aid of the Myreque has been completed but not yet explained:)
       - **Player:** Algunas noticias inquietantes y heroicas de Morytania, sobre el río Salve y los Caballeros del Templo.
       - **Historian Minas:** Ahh, los Caballeros del Templo... poco se sabe de ellos.
       - **Player:** Sí, parece que estos siete caballeros hicieron retroceder las cosas desagradables que salían de Morytania, y Saradomin bendijo la Salve para evitar que regresaran.
       - ¡Te has ganado elogios con el museo!
       - **Historian Minas:** Es bastante preocupante que solo sea un poco de agua lo que los mantiene allí, pero no tengo ninguna duda de que Saradomin nos protegerá. Gracias por la información, pondré un expositor. Display número 23, 4ª Edad, año 1100-1200.
       - (continue)
-    - (Condition: Si Glorious Memories se ha completado pero aún no se ha explicado:)
+    - (Condition: If Glorious Memories has been completed but not yet explained:)
       - **Player:** ¡Descubrí los secretos de una gloriosa aventura Fremennik!
       - **Historian Minas:** Eso no suena muy histórico. ¿Qué estaban haciendo?
       - **Player:** Había una profecía escrita en cinco tablas de piedra. Los aventureros buscaban el último en completar el set.
@@ -194,12 +194,12 @@
       - **Historian Minas:** ¡Eso es excelente! Mmm, esta inscripción no tiene mucho sentido: ¿quién es [Fremennik name]?
       - **Player:** Bueno, en realidad, eso es-
       - **Historian Minas:** No importa. Ordenaré la pantalla inmediatamente. Estará en el expositor número 48, en la última planta.
-    - (Condition: Si el Historial de reuniones se ha completado pero aún no se ha explicado:)
+    - (Condition: If Meeting History has been completed but not yet explained:)
       - **Player:** ¡Descubrí sobre el origen de la humanidad!
       - **Historian Minas:** ¿Estás seguro?
       - **Player:** ¡Sí, venimos de otro lugar, a través de un portal! Guthix estuvo allí para recibirnos y también fue quien creó las piedras rúnicas para que las usáramos.
       - **Historian Minas:** Eso es increíble. Haré una exhibición para eso de inmediato. Display número 13, segundo display de la 1ª Edad.
-    - (Condition: Si La cola de dos gatos se ha completado pero aún no se ha explicado:)
+    - (Condition: If A Tail of Two Cats has been completed but not yet explained:)
       - **Player:** ¿Conoces a Bob, el gato?
       - *Algún desencadenante desconocido:*
         - **Historian Minas:** ¿El pequeño gato negro que deambula a veces? Claro, la mayoría de la gente lo conoce.
@@ -211,11 +211,11 @@
       - **Historian Minas:** Esto empieza a sonar familiar...
       - **Player:** Debe... ya conoces a Reldo, el bibliotecario de Varrock; él sabe todo sobre Robert el Fuerte.
       - **Historian Minas:** ¿Quieres decir que era Bob? Vaya... haré montar inmediatamente una exposición sobre la historia de este valiente guerrero. Display número 20, 4ª Edad, año 1-100.
-    - (Condition: Si el Templo de Ikov se ha completado pero aún no se ha explicado:)
-      - (Condition: Si el player se puso del lado de los Guardianes de Armadyl:)
+    - (Condition: If Temple of Ikov has been completed but not yet explained:)
+      - (Condition: If the player sided with the Guardians of Armadyl:)
         - **Player:** Bueno, Lucien me pidió que recuperara el Staff de Armadyl, del Templo de Ikov, pero en lugar de eso, ayudé a los guardianes del staff y desterré a Lucien de este plano de existencia, para que nunca más pudiera regresar. Vi el staff y te lo puedo describir si quieres.
         - (continue)
-      - (Condition: Si el player se puso del lado de Lucien:)
+      - (Condition: If the player sided with Lucien:)
         - **Player:** Bueno, Lucien me pidió que recuperara el Staff de Armadyl, del Templo de Ikov. Cuando se lo devolví, su poder creció de manera inimaginable. Sostuve el staff y puedo describírtelo si quieres.
         - (continue)
       - **Historian Minas:** ¡Sí! ¡Por favor hazlo!
@@ -223,7 +223,7 @@
       - ¡Te has ganado elogios con el museo!
       - **Historian Minas:** ¡Eso es excelente, pondré una exhibición de inmediato! Display número 28, final de la 2ª Edad.
       - (continue)
-    - (Condition: Si Defender of Varrock se ha completado pero aún no se ha explicado:)
+    - (Condition: If Defender of Varrock has been completed but not yet explained:)
       - **Player:** Bueno, nos deshicimos de los zombis merodeadores.
       - **Historian Minas:** Eso es útil: los zombis tienden a dejar horribles huellas de barro por todo el lugar.
       - **Player:** Erm, sí. De todos modos, ¿recuperaste el escudo?
@@ -238,7 +238,7 @@
       - Recibes una lámpara vieja.
       - [Recibes una lámpara vieja.]
       - (continue)
-    - (Condition: Si Hazeel Cult se ha completado pero aún no se ha explicado:)
+    - (Condition: If Hazeel Cult has been completed but not yet explained:)
       - **Player:** ¡Descubrí la verdad detrás de la fortuna de la familia Carnillean!
       - **Historian Minas:** ¿Ah? ¿Es esa la familia que está cerca de Ardougne?
       - **Player:** Sí. Me involucré un poco en el negocio familiar...
@@ -248,7 +248,7 @@
       - ¡Te has ganado elogios con el museo!
       - **Historian Minas:** Qué emocionante. Pondré una exhibición de inmediato. Display número 7, 5ª Edad, año 7.
       - (continue)
-    - (Condition: Si Lo que hay debajo se ha completado pero aún no se ha explicado:)
+    - (Condition: If What Lies Below has been completed but not yet explained:)
       - **Player:** ¡Descubrí un túnel y un culto de magos del caos aquí en Varrock!
       - **Historian Minas:** ¡Oh! ¡Qué podamos hacer!
       - **Player:** Cálmate, he arrestado al cabecilla.
@@ -256,27 +256,27 @@
       - **Player:** Bueno, conocí a Rat y me pidió que llenara su carpeta, y me mezclé con Surok...
       - **Historian Minas:** ¿Una rata te pidió que llenaras una carpeta?
       - **Player:** No, no, no - Rat Burgiss. Pero de todos modos, resulta que esta secta había estado tratando de llegar al Rey, pero los detuve.
-      - (Condition: Si tienes el libro de historia de Dagon'hai en tu inventario:)
+      - (Condition: If you have the Dagon'hai history book in your inventory:)
         - [El historiador está escribiendo furiosamente en su libreta y finalmente se vuelve hacia usted.]
         - **Player:** En realidad, para ahorrarte algo de escritura, tengo este libro aquí que tiene mucha información. Puedes tenerlo si quieres...
         - (removes=Dagon'hai history)
         - ¡Te has ganado elogios con el museo!
         - **Historian Minas:** Vaya, gracias... Sí, ¡esto es una especie de revelación! Pondré una exhibición inmediatamente. Display número 3, 5ª Edad, año 70.
         - (continue)
-      - (Condition: Si no tienes el libro de historia de Dagon'hai en tu inventario:)
+      - (Condition: If you don't have the Dagon'hai history book in your inventory:)
         - [El historiador parece un poco abrumado, pero también escéptico.]
         - **Historian Minas:** Supongo que no tienes ninguna evidencia de este culto.
         - **Player:** No conmigo, pero hay un libro que puedo conseguirte en la biblioteca.
         - **Historian Minas:** Eso suena bien. Tráemelo y crearemos una exhibición.
         - (continue)
-    - (Condition: Si Rune Mysteries se ha completado pero aún no se ha explicado:)
+    - (Condition: If Rune Mysteries has been completed but not yet explained:)
       - **Player:** ¡Los magos me contaron el secreto de la creación de runas!
       - **Historian Minas:** Ah. Eso. Cuéntame más.
       - **Player:** Hmm, no puedo decirte mucho, pero sí sé que la esencia rúnica se puede extraer de un lugar secreto y luego, usando los altares y talismanes, puedo convertirla en runas.
       - ¡Te has ganado elogios con el museo!
       - **Historian Minas:** ¡Suena como magia para mí! Pondré una exhibición inmediatamente. Display número 21, el primer display de la 5ª Edad.
       - (continue)
-    - (Condition: Si La Maldición de Zaros se ha completado pero aún no se ha explicado:)
+    - (Condition: If The Curse of Zaros has been completed but not yet explained:)
       - **Player:** Bueno, descubrí más sobre Staff de Armadyl a través de un fantasma. Parece que Zamorak era un mortal cuando se hizo con el staff, y lo usó para, bueno... lanzar a Zaros, y de alguna manera terminó convirtiéndose en un dios. Fue un poco confuso.
       - **Historian Minas:** Eso es lo que se llama una historia. Cuéntame más para poder exhibirlo.
       - [Cuentas la historia de la batalla entre Zaros y Zamorak tal como la escuchaste del fantasmal swordsman.]

@@ -49,7 +49,7 @@
     - (end)
   - [Choice]: ¿Qué tipos de peces puedes intercambiar?
     - **Player:** ¿Qué tipos de peces puedes intercambiar?
-    - (Condition: Con sólo el atún y las langostas desbloqueados:)
+    - (Condition: With only tuna and lobsters unlocked:)
       - **Maya:** Puedo cambiar atún y langosta por billetes y viceversa.
       - **Maya:** Si me demuestras que te tomas en serio la piscicultura, también me ocuparé de algunos peces más carnosos.
       - **Maya:** Una vez que captures [número] más pez espada aquí en la piscifactoría, te dejaré intercambiar pez espada.
@@ -112,7 +112,7 @@
 
 #### Después
 
-- (Condition: Si estaba desactivado:)
+- (Condition: If it was toggled off:)
   - **Maya:** Ya no te pediré que confirmes antes de intercambiar cualquiera de tus peces.
-- (Condition: Si estaba activado:)
+- (Condition: If it was toggled on:)
   - **Maya:** Ahora te pediré que confirmes antes de intercambiar cualquiera de tus peces.

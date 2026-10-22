@@ -56,13 +56,13 @@
       - (opens=Barbarian Assault tutorial)
     - [Choice]: ¡Señor! ¿Puedo cambiar mi ola actual?
       - **Player:** ¡Señor! ¿Puedo cambiar mi ola actual?
-        - (Condition: Si el player se encuentra actualmente en la Onda 1:)
+        - (Condition: If the player is currently on Wave 1:)
           - **Captain Cain:** ¡Solo puedes cambiarlo a la onda 1 y ya estás en la onda 1!
           - **Player:** Ah, ya veo. Gracias de todos modos.
           - (previous)
-        - (Condition: Si el player no está en la Onda 1:)
+        - (Condition: If the player is not on Wave 1:)
           - {{transcript missing}}
-        - (Condition: Si el player no ha terminado el tutorial:)
+        - (Condition: If the player has not finished the tutorial:)
           - **Captain Cain:** ¿Qué? ¡Primero termina tu entrenamiento, soldado!
           - (initial|init)
     - [Choice]: No, suena aburrido.{{anchor|boring}}

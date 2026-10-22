@@ -66,7 +66,7 @@
     - Sir Tiffy te entrega un CommOrb.
     - (receives=a version of the Commorb)
     - (Muestra las opciones de diálogo iniciales y "Hola Tiffy, perdí mi CommOrb..." que se puede seleccionar pero hará que el diálogo finalice inmediatamente después).
-  - (Condition: Con condición desconocida:)
+  - (Condition: With unknown condition:)
     - Adiós.
       - **Player:** Bueno, nos vemos, Tiffy.
       - **Sir Tiffy Cashien:** ¡Ta-ta por ahora, viejo!
@@ -112,14 +112,14 @@
     - **Player:** ¿Qué es esa capa que llevas puesta?
     - **Sir Tiffy Cashien:** ¡Oh, mi posesión más preciada! Esta es mi capa de Benchsitting, que solo pueden usar los maestros del benchsitting.
     - **Player:** ¿Puedo tener uno?
-    - (Condition: Si el player no ha recibido la capa:)
-      - (Condition: Si el player no es nivel 99 Benchsitting:)
+    - (Condition: If the player has not received the cape:)
+      - (Condition: If the player is not level 99 Benchsitting:)
         - **Sir Tiffy Cashien:** Hmm... No creo que tengas tanta habilidad como yo para sentarte en el banco todavía.
         - Debes tener el nivel 99 en la habilidad Benchsitting para desbloquear la capa Benchsitting.
-      - (Condition: Si el player es de nivel 99 Sentado en banco:)
-        - (Condition: Si el player no tiene al menos un espacio backpack libre:)
+      - (Condition: If the player is level 99 Benchsitting:)
+        - (Condition: If the player does not have at least one free backpack space:)
           - **Sir Tiffy Cashien:** Vuelve a mí con un espacio en tu backpack, entonces quizás podría considerar otorgarte esa capa.
-        - (Condition: Si el player tiene al menos un espacio backpack libre:)
+        - (Condition: If the player has at least one free backpack space:)
           - Sir Tiffy te mira de arriba abajo, examinando tu capacidad para sentarte en el banco.
           - **Sir Tiffy Cashien:** Hmm... Tienes una sensación de calma... Un aprecio por admirar el paisaje... Una buena postura al sentarse... Hendiduras de listones de madera en las piernas...
           - **Player:** ...
@@ -127,7 +127,7 @@
           - (receives=Benchsitting cape)
           - [Sir Tiffy te entrega una nueva y gloriosa capa de Benchsitting.]
           - **Player:** ¡Gracias!
-    - (Condition: Si el player ya recibió la capa:)
+    - (Condition: If the player has already received the cape:)
       - **Sir Tiffy Cashien:** ¡Creo que ya te he dado uno!
   - [Choice]: Habla de otra cosa.
     - (above|Standard dialogue)
@@ -138,13 +138,13 @@
 - **Sir Tiffy Cashien:** ¿Qué, hola? ¡No han transcurrido diez años desde la masacre de Falador y esos cobardes Black Knights invaden nuestra hermosa ciudad de murallas blancas!
 - **Sir Tiffy Cashien:** ¡Pero gracias al legado del rey Raddallin, esta ciudad nunca caerá en manos de sus enemigos! Hicimos retroceder a esos Kinshra y los ahuyentamos.
 - {{RSFontAchievement|Sir-tified Invasion|Talk to Sir Tiffy in Falador Park about the Invasion of Falador.}}
-- ((Se muestra en una ventana emergente de finalización de tarea:))
+- ((Shown in a task completion pop-up:))
   - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
   - Invasión Sirtificada
   - Habla con Sir Tiffy en el parque Falador sobre la invasión de Falador.
   - (continue)
 - **Sir Tiffy Cashien:** ¡Aunque no sin la bendita ayuda de héroes como tú! Esta ciudad no es más que su propia gente, y eso me hace dormir tranquilo. ¡Eso y una deliciosa taza de té antes de acostarse!
-- (Condition: Si se han completado todas las tareas:)
+- (Condition: If all the tasks have been completed:)
   - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!
 
 ### In Lumbridge during the 25th Anniversary celebrations

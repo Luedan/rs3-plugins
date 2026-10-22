@@ -14,11 +14,11 @@
 
 #### Antes de completar No hay lugar como el hogar...
 
-- ((Lo siguiente se muestra en una interfaz titulada "CONSTRUCCIÓN":))
+- ((The following is shown in an interface titled "CONSTRUCTION":))
   - 54px Debes completar el tutorial de Construction antes de poder utilizarlo.
   - Hable con Alfred Stonemason, al noroeste de Rimmington, para obtener más información.
     - [Choice]: bien
-      - ((La interfaz se cierra y el diálogo continúa a continuación.))
+      - ((The interface closes and dialogue continues below.))
 
 #### Después de completar No hay lugar como el hogar...
 
@@ -48,13 +48,13 @@
         - [Menu]: Confirme el nombre de su propiedad elegida:
           - [Choice]: [name]
             - Comprobando si el nombre de la propiedad está disponible.
-            - (Ventana emergente: Comprobando si el nombre de la propiedad está disponible.|color=#00FF00)
+            - (Pop-up: Checking if homestead name is available.|colour=#00FF00)
             - [Menu]: ¿Crear una granja?
               - [Choice]: Crear propiedad: '[name]'.
                 - Su propiedad ahora se está creando, esto puede tardar unos momentos.
                 - Player se ha unido a su propiedad.
                 - Su propiedad '[name]' se ha creado correctamente.
-                - (Ventana emergente: Su propiedad '[name]' se ha creado correctamente.|color=#00FF00)
+                - (Pop-up: Your homestead '[name]' has been created successfully.|colour=#00FF00)
               - [Choice]: Cancelar.
                 - (end)
           - [Choice]: Elija un nombre diferente.
@@ -65,7 +65,7 @@
     - [Menu]: ¿Está seguro de que desea abandonar el proceso de creación de vivienda?
       - [Choice]: Sí.
         - Ha abandonado el proceso de creación de propiedad.
-        - (Ventana emergente: Has abandonado el proceso de creación de propiedad.|advertencia=yes)
+        - (Pop-up: You have left the homestead creation process.|warning=yes)
       - [Choice]: No.
         - (end)
   - [Choice]: Nada por ahora.
@@ -79,7 +79,7 @@
     - [Menu]: ¿Estás seguro de que quieres abandonar este grupo?
       - [Choice]: Sí.
         - Ha abandonado el proceso de creación de propiedad.
-        - (Ventana emergente: Has abandonado el proceso de creación de propiedad.|advertencia=yes)
+        - (Pop-up: You have left the homestead creation process.|warning=yes)
       - [Choice]: No.
         - (end)
   - [Choice]: Nada por ahora.
@@ -88,7 +88,7 @@
 #### Creó una granja
 
 - **Housing wizard:** ¡Excelente! Veo que estás instalado en una granja.
-- (Condition: El intercambio está en curso:)
+- (Condition: Swapping is in progress:)
   - **Housing wizard:** Estás en el proceso de intercambiar una trama. ¿Quieres continuar?
   - [Menu]: Deja de intercambiar tramas.
     - [Choice]: Cancelar el intercambio de trama.
@@ -100,27 +100,27 @@
   - [Choice]: Permutar parcela de finca.
     - Haz clic derecho en los jugadores cercanos para proponerles intercambiar parcelas con ellos.
     - Invitando a Player a intercambiar tramas.
-    - (Ventana emergente: invitando a Player a intercambiar parcelas.|color=#00ff00)
-    - (Condition: Player aceptó el intercambio:)
+    - (Pop-up: Inviting Player to swap plots.|colour=#00ff00)
+    - (Condition: Player accepted swapping:)
       - Ha intercambiado parcelas con éxito con Player. Su parcela se moverá la próxima vez que se genere su propiedad.
-      - (Ventana emergente: Ha intercambiado parcelas exitosamente con Player. Su parcela se moverá la próxima vez que se genere su propiedad).
-    - (Condition: Player rechazó el intercambio:)
+      - (Pop-up: You have successfully swapped plots with Player. Your plot will move the next time your homestead is generated.)
+    - (Condition: Player declined swapping:)
       - Player ha rechazado su invitación.
-      - (Ventana emergente: Player ha rechazado su invitación.|advertencia=yes)
+      - (Pop-up: Player has declined your invitation.|warning=yes)
   - [Choice]: Dejar la granja.
     - [Warning:]<br>Es posible que no puedas volver a unirte a esta propiedad si te vas.}}
     - [Menu]: ¿Estás seguro de que quieres irte?
       - [Choice]: Vete.
         - Su solicitud para abandonar su propiedad ya está en curso.
         - Has abandonado tu hogar.
-        - (Ventana emergente: Has abandonado tu propiedad.|color=#00ff00)
+        - (Pop-up: You have left your homestead.|colour=#00ff00)
       - [Choice]: Quédate.
         - (end)
   - [Choice]: Invita a un jugador.
   - [Choice]: Administración de fincas.
     - [Menu]: ¿Qué cambios en su hogar le gustaría hacer?
       - [Choice]: Patear a un miembro.
-        - (Condition: Si hay un solo miembro:)
+        - (Condition: If there is only one member:)
           - [can not] patéate.}}
           - [Choice]: Player 1
             - Player 1 ha sido eliminado de su propiedad.
@@ -132,12 +132,12 @@
             - (arriba)
           - [Choice]: nadie
       - [Choice]: Cambiar dueño.
-        - (Condition: Si hay un solo miembro:)
+        - (Condition: If there is only one member:)
           - [can not] asignar otro propietario.}}
         - [Menu]: ¿A quién le gustaría asignar como nuevo propietario?
           - [Choice]: Player 1
             - Has cambiado correctamente de propietario a Player 1
-            - (Ventana emergente: Ha cambiado correctamente el propietario a Player 1)
+            - (Pop-up: You have successfully changed owner to Player 1)
           - [Choice]: Player 2
             - (arriba)
           - [Choice]: Player 3
@@ -156,20 +156,20 @@
 ### Inviting player to join a homestead
 
 - Invitando a Player a unirse a su granja.
-- (Ventana emergente: Invitando a Player a unirse a su granja.|color=#00FF00)
-- (Condition: Player aceptó la invitación:)
+- (Pop-up: Inviting Player to join your homestead.|colour=#00FF00)
+- (Condition: Player accepted the invitation:)
   - Player ha aceptado tu invitación.
-  - (Ventana emergente: Player ha aceptado su invitación.|color=#00FF00)
-- (Condition: Player rechazó la invitación:)
+  - (Pop-up: Player has accepted your invitation.|colour=#00FF00)
+- (Condition: Player declined the invitation:)
   - Player ha rechazado su invitación.
-  - (Ventana emergente: Player ha rechazado su invitación.|advertencia=yes)
+  - (Pop-up: Player has declined your invitation.|warning=yes)
 
 #### Ser invitado a unirse a una granja
 
 - [Player] te invita a convertirte en miembro fundador de su granja.}}}}
   - [Choice]: Aceptar
     - ¡Te has unido a la creación de una granja!
-    - (Ventana emergente: Player ha rechazado su invitación.|color=#00FF00)
+    - (Pop-up: Player has declined your invitation.|colour=#00FF00)
   - [Choice]: Rechazar
     - (end)
 
@@ -178,21 +178,21 @@
 - [swap plots].}}}}
   - [Choice]: Aceptar
     - Ha intercambiado parcelas con éxito con Player. Su parcela se moverá la próxima vez que se genere su propiedad.
-    - (Ventana emergente: Ha intercambiado parcelas exitosamente con Player. Su parcela se moverá la próxima vez que se genere su propiedad).
+    - (Pop-up: You have successfully swapped plots with Player. Your plot will move the next time your homestead is generated.)
   - [Choice]: Rechazar
     - (end)
 
 ### Aborted the creation of a homestead
 
 - La creación de la propiedad familiar finalizó porque el creador abandonó el grupo.
-- (Ventana emergente: La creación de la propiedad familiar finalizó porque el creador abandonó el grupo.|advertencia=yes)
+- (Pop-up: The homestead creation has ended because the creator has left the group.|warning=yes)
 
 ### When the owner finalising the creation
 
 - Necesitas entre 2 y 5 jugadores para crear una granja.
 - Te has unido a la granja: '[name]'.
 - Su propiedad '[name]' se ha creado correctamente.
-- (Ventana emergente: Su propiedad '[name]' se ha creado correctamente.|color=#00FF00)
+- (Pop-up: Your homestead '[name]' has been created successfully.|colour=#00FF00)
 
 ### Entering house portal when swapping is in progress
 

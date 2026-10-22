@@ -44,14 +44,14 @@
     - (receives=cap and goggles)
     - **Auguste:** ¡Ahí lo tienes! Ahora pareces un verdadero piloto de dirigible.
   - [Choice]: cond=If the player has lost their bomber cap or jacket|¿Podrías reemplazar algunos artículos por mí?
-    - (Condition: Si el player todavía tiene su gorra bomber:)
+    - (Condition: If the player still has their bomber cap:)
       - **Auguste:** Parece que todavía tienes tu gorra.
-    - (Condition: Si a el player le falta su gorra bomber:)
+    - (Condition: If the player is missing their bomber cap:)
       - (receives=bomber cap)
       - **Auguste:** Aquí tienes tu gorra. Intente realizar un mejor seguimiento.
-  - (Condition: Si el player todavía tiene su cazadora bomber:)
+  - (Condition: If the player still has their bomber jacket:)
     - **Auguste:** No necesitas una chaqueta nueva; Todavía tienes el original.
-  - (Condition: Si a el player le falta su chaqueta bomber:)
+  - (Condition: If the player is missing their bomber jacket:)
     - (receives=bomber jacket)
     - **Auguste:** Aquí tienes tu chaqueta, para mantenerte abrigado durante el vuelo.
 
@@ -59,10 +59,10 @@
 
 - [Menu]: ¿Darle a Auguste todo tu logs?
   - [Choice]: Entrega tu logs.
-    - (Condition: Si el player tiene logs en backpack:)
+    - (Condition: If the player has logs in backpack:)
       - (removes=all logs in backpack)
       - **Auguste:** ¡Gracias! Ahora tienes cargos [número].
-    - (Condition: Si el player no tiene logs en backpack:)
+    - (Condition: If the player does not have logs in backpack:)
       - **Auguste:** No tienes ningún logs que pueda almacenar. Actualmente tienes cargos [número].
   - [Choice]: Cancelar
     - (end)

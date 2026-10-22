@@ -19,27 +19,27 @@
 - [Menu]: ¿Quieres ayudar?
   - [Choice]: Sí.
     - **Makhredrup:** ¡Sí! Eres simplemente el mejor.
-    - (Condition: Si el tipo de misión de la ciudad es "Atacada por vida silvestre":)
+    - (Condition: If the city quest type is "Attacked by wildlife":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "En espera de entrega":)
+    - (Condition: If the city quest type is "Awaiting delivery":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Los niños no pueden dormir":)
+    - (Condition: If the city quest type is "Children can't sleep":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Coleccionista de curiosidades":)
+    - (Condition: If the city quest type is "Collector of curiosities":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Crondis está enojado":)
+    - (Condition: If the city quest type is "Crondis is angry":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Plagas de cultivos":)
+    - (Condition: If the city quest type is "Crop pests":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Ayuda de entrega":)
+    - (Condition: If the city quest type is "Delivery help":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "El hijo de un amigo muere lentamente":)
+    - (Condition: If the city quest type is "Friend's son slowly dying":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Nuevo producto":)
+    - (Condition: If the city quest type is "New product":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Slayer master":)
+    - (Condition: If the city quest type is "Slayer master":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "esfuerzo War":)
+    - (Condition: If the city quest type is "War effort":)
       - (continue)
   - [Choice]: No ahora mismo.
     - No importa.
@@ -73,11 +73,11 @@
 
 ##### Tarea #1
 
-- (Condition: Si el artículo deseado son huesos:)
+- (Condition: If the item desired is bones:)
   - **Makhredrup:** Tengo un conocido al que le entrego huesos con regularidad. Dependen de mí para realizar las entregas según un cronograma regular.
   - **Makhredrup:** No tengo idea de por qué siempre se solicitan huesos. No voy a preguntar por qué alguien necesita algunos huesos viejos y normales, caídos de criaturas.
   - (continue)
-- (Condition: Si el objeto deseado son bastones de batalla de fuego:)
+- (Condition: If the item desired is fire battlestaves:)
   - **Makhredrup:** Tengo un conocido a quien le entrego regularmente bastones de fuego. Dependen de mí para realizar las entregas según un cronograma regular.
   - **Makhredrup:** No tengo idea de por qué siempre se solicitan bastones de batalla de fuego. No voy a preguntar por qué alguien necesita un staff con magia de fuego.
   - (continue)
@@ -114,10 +114,10 @@
     - **Makhredrup:** ¿Tienes [número] [item]? Estoy un poco presionado por el tiempo. ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Makhredrup ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Makhredrup:** Genial. Gracias.
@@ -144,10 +144,10 @@
 
 - **Makhredrup:** Para poder conseguir que el carretero arregle mis ruedas, a menudo necesito cambiarle una carga de [item].
 - **Player:** Correcto. ¿Por qué [item]?
-- (Condition: Si el artículo deseado es mineral de cobre:)
+- (Condition: If the item desired is copper ore:)
   - **Makhredrup:** No tengo idea. ¿Quién soy yo para preguntar por qué un carretero necesita rocas ricas en cobre?
   - (continue)
-- (Condition: Si el producto deseado es pez cinturón crudo:)
+- (Condition: If the item desired is raw beltfish:)
   - **Makhredrup:** No tengo idea. ¿Quién soy yo para preguntar por qué un carretero necesita un pescado correoso, listo para ser cocinado?
   - (continue)
 - **Makhredrup:** Si pudieras traerme [número] [item], me aseguraré de reembolsarte tu tiempo.
@@ -183,10 +183,10 @@
     - **Makhredrup:** Espero que me arreglen la rueda lo antes posible, Player. ¿Tienes [número] [item]? ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Makhredrup ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Makhredrup:** Genial. Gracias.
@@ -211,10 +211,10 @@
 
 - **Makhredrup:** Ahora lo único que queda es conseguir algunos suministros para el viaje.
 - **Player:** No es broma. ¿Qué necesitas?
-  - (Condition: Si el artículo deseado son semillas de agracejo:)
+  - (Condition: If the item desired is barberry seeds:)
     - **Makhredrup:** Tengo todo lo que necesito excepto las semillas que se convierten en arbustos de agracejo.
     - (continue)
-  - (Condition: Si el artículo deseado son tiburones:)
+  - (Condition: If the item desired is sharks:)
     - **Makhredrup:** Tengo todo lo que necesito excepto unos tiburones bien cocinados.
     - (continue)
 - **Makhredrup:** Si pudieras conseguirme [número] [item], entonces puedo seguir mi camino.
@@ -250,10 +250,10 @@
     - **Makhredrup:** ¿Tienes [número] [item]? Estoy un poco presionado por el tiempo. ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Makhredrup ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Makhredrup:** Genial. Gracias.

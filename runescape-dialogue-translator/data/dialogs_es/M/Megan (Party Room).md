@@ -16,14 +16,14 @@
   - [Choice]: ¡Una cerveza por favor, Megan!
     - **Player:** ¡Una cerveza por favor, Megan!
     - **Megan:** ¡Ciertamente [sir/ma'am]! ¡Ya viene! Son dos coins, por favor.
-    - (Condition: Si el player no tiene al menos dos coins:)
+    - (Condition: If the player does not have at least two coins:)
       - No puedes permitirte eso.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a popup:))
         - No puedes permitirte eso.
         - (continue)
       - **Megan:** ¡Dije 2 coins! ¡No tienes 2 coins!
       - **Player:** Lo siento, volveré otro día.
-    - (Condition: Si el player tiene al menos dos coins:)
+    - (Condition: If the player has at least two coins:)
       - Se han eliminado 2 coins de tu bolsa de dinero.
       - (receives=a beer)
       - **Player:** Gracias, Megan.

@@ -23,7 +23,7 @@
 - **Player:** ¿Pero puedes usarlo?
 - **Minerva:** El dominio de Meira sobre todas las habilidades del mundo se convirtió en una especie de credo para nuestra familia, por lo que continuamos su legado transmitiendo lo que ella comenzó.
 - **Minerva:** Luego llegó un momento en el que honramos a quienes no pertenecen a nuestra familia con tal bendición.
-- (Condition: Si pregunta por la tumba después de haber insertado la piedra angular:)
+- (Condition: If asking about the grave after having inserted the keystone:)
   - (continue|After inserting the blurite keystone)
 - **Player:** Si domino todas las habilidades, ¿puedo usar la capa?
 - **Minerva:** Si dominas todas las habilidades y eres capaz de crear una piedra angular hecha de rubíes, esmeraldas y zafiros engastados en un poco de blurita, entonces coloca dicha piedra angular en la ranura que ves en la tumba.

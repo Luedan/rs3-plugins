@@ -12,9 +12,9 @@
 ### Standard dialogue
 
 - {{trandom}}
-  - (Condition: Diálogo 1:)
+  - (Condition: Dialogue 1:)
     - **Mazion:** Por favor déjenme en paz, un loro me robó el plátano.
-  - (Condition: Diálogo 2:)
+  - (Condition: Dialogue 2:)
     - **Mazion:** Hola Player, ¡buen día hoy!
-  - (Condition: Diálogo 3:)
+  - (Condition: Dialogue 3:)
     - **Mazion:** ¡Buen tiempo tenemos hoy!

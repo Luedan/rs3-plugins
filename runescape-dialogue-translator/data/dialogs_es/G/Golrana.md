@@ -35,13 +35,13 @@
 
 ##### Con semillas espirituosas almacenadas en Golrana, o con semillas espirituosas en backpack
 
-- (Condition: Sin semillas espirituosas almacenadas:)
+- (Condition: Without any spirit seeds stored:)
   - **Golrana:** ¡Hola, Player! ¿Has venido a traerme unas semillas de spirit tree? Te los guardaré.
   - (continue)
-- (Condition: Con exactamente una semilla espirituosa almacenada:)
+- (Condition: With exactly one spirit seed stored:)
   - **Golrana:** ¡Hola, Player! ¿Has venido a recuperar algunas de tus semillas de spirit tree? Estoy guardando uno hasta ahora para ti.
   - (continue)
-- (Condition: Con dos o más semillas espirituosas almacenadas:)
+- (Condition: With two or more spirit seeds stored:)
   - **Golrana:** ¡Hola, Player! ¿Has venido a recuperar algunas de tus semillas de spirit tree? Estoy guardando [número] hasta ahora para ti.
   - (continue)
 - [Menu]: Elige una opción:
@@ -53,20 +53,20 @@
     - {{Tinput|Enter amount:}}
       - (above|store)
   - [Choice]: cond=With spirit seeds stored with Golrana:|Retira todas tus semillas
-    - (Condition: Sin espacio en backpack:)
+    - (Condition: Without space in backpack:)
       - **Golrana:** Lo sentimos, pero no tienes suficiente espacio en tu inventario para las semillas. Haz un poco de espacio y habla conmigo de nuevo.
-    - (Condition: Con espacio en backpack:)
+    - (Condition: With space in backpack:)
       - (receives=spirit seeds)
       - [Recuperas todas tus semillas de Golrana.]
       - **Golrana:** Ahí lo tienes.
     - [Choice]: cond=With spirit seeds stored with Golrana:|Retira algunas de tus semillas.
     - {{Tinput|Enter amount:}}
-      - (Condition: Sin espacio en backpack:)
+      - (Condition: Without space in backpack:)
         - (above|sorry)
-      - (Condition: Con espacio en backpack:)
-        - (Condition: Si retira todas las semillas:)
+      - (Condition: With space in backpack:)
+        - (Condition: If withdrawing all seeds:)
           - (above|withdrawal)
-        - (Condition: Si retira solo algunas semillas:)
+        - (Condition: If withdrawing only some seeds:)
           - [Recuperas las semillas de Golrana.]
           - **Golrana:** Ahí lo tienes.
   - [Choice]: Habla de otra cosa.

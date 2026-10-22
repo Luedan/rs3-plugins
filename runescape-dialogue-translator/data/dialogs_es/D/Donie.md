@@ -42,10 +42,10 @@
           - [Choice]: ¡Un dragón!
             - **Donie:** ¿Matarías a un dragón? ¡Tienes el coraje de un verdadero héroe!
             - **Donie:** Busca al maestro del gremio de champions' guild al sur de Varrock. Pero sólo puede participar un aventurero que haya demostrado su valía completando muchas misiones.
-            - (Condition: Antes de Dragon Slayer:)
+            - (Condition: Before Dragon Slayer:)
               - **Player:** Entonces aumentaré mi influencia completando muchas misiones. ¡Seré un dragon slayer!
               - (previous|fight)
-            - (Condition: Después de Dragon Slayer:)
+            - (Condition: After Dragon Slayer:)
               - **Player:** ¡Viajé a Crandor y maté al temible dragón Elvarg!
               - **Donie:** ¡Felicitaciones, campeón!
               - (previous|fight)
@@ -53,20 +53,20 @@
             - **Donie:** Eres un alma valiente, de hecho.
             - **Donie:** Ahora que lo mencionas, escuché un rumor sobre un saradominista en la iglesia Varrock que divagaba sobre algún tipo de gran mal. Suena como un demonio, si me preguntas.
             - **Donie:** ¿Quizás podrías comprobarlo si eres tan valiente como dices?
-            - (Condition: Antes del demonio Slayer:)
+            - (Condition: Before Demon Slayer:)
               - **Player:** Gracias por el consejo. Quizás lo haga.
               - (previous|fight)
-            - (Condition: Después del demonio Slayer:)
+            - (Condition: After Demon Slayer:)
               - **Player:** Ya maté al demonio Delrith. ¡Él era simplemente una mancha en mi espada cuando terminé con él!
               - **Donie:** ¡Bien hecho! Sin embargo, estoy seguro de que si buscas por todo el mundo encontrarás enemigos más difíciles a los que matar.
               - (previous|fight)
           - [Choice]: Vampyres!
             - **Donie:** Ja, ja. Yo personalmente no creo en esas cosas. Sin embargo, hay un hombre en Draynor Village que ha estado asustando a la gente del pueblo con historias de vampyres.
             - **Donie:** Se llama Morgan y se puede encontrar en una de las casas del pueblo. ¿Quizás puedas ver cuál es el problema?
-            - (Condition: Antes de Vampyre Slayer:)
+            - (Condition: Before Vampyre Slayer:)
               - **Player:** Gracias por el consejo.
               - (previous|fight)
-            - (Condition: Después de Vampyre Slayer:)
+            - (Condition: After Vampyre Slayer:)
               - **Player:** Oh, ya maté a ese desagradable chupasangre vampyre. Draynor ahora estará a salvo.
               - **Donie:** Sí, sí, por supuesto que sí. Todo el mundo sabe que vampyres no es real.
               - **Donie:** No estás engañando a nadie, ¿sabes?
@@ -76,10 +76,10 @@
             - **Player:** Podría ser cualquier cosa, desde un evil chicken hasta una araña venenosa. Atacan en gran número, ¿sabes?
             - **Donie:** Punto tomado. Hablando de pequeños monstruos, escuché que al viejo Wizard Mizgog en el Wizards' Tower una pandilla de diablillos traviesos le acaban de quitar sus cuentas especiales.
             - **Donie:** ¿Parece que podría ser una misión para ti?
-            - (Condition: Antes del cazador de diablillos:)
+            - (Condition: Before Imp Catcher:)
               - **Player:** Gracias por tu ayuda.
               - (previous|fight)
-            - (Condition: Después del cazador de diablillos:)
+            - (Condition: After Imp Catcher:)
               - **Player:** Sí, conozco a Mizgog y ya lo he ayudado con su problema de diablillo.
               - **Donie:** ¡Los diablillos serán diablillos!
               - (previous|fight)
@@ -92,28 +92,28 @@
           - [Choice]: El cocinero de Lumbridge.
             - **Donie:** Es gracioso, de verdad. El cocinero olvidaría su cabeza si no estuviera atornillada. Esta vez se olvidó de conseguir los ingredientes para el pastel de cumpleaños del Duque.
             - **Donie:** ¿Quizás podrías ayudarlo? Probablemente lo encontrarás en la cocina del castillo Lumbridge.
-            - (Condition: Antes de Cook's Assistant:)
+            - (Condition: Before Cook's Assistant:)
               - **Player:** Gracias, iré a hablar con él.
               - (previous|small)
-            - (Condition: Después de Cook's Assistant:)
+            - (Condition: After Cook's Assistant:)
               - **Player:** Ya ayudé al cocinero en Lumbridge.
               - **Donie:** Ah, sí. Entonces lo tienes. Estoy seguro de que el duque estará contento.
               - (previous|small)
           - [Choice]: Xenia.
             - **Donie:** Xenia es una aventurera veterana que busca a alguien que la acompañe a las profundidades de las catacumbas de Lumbridge. Algo sobre un secuestro.
-            - (Condition: Antes del Pacto de Sangre:)
+            - (Condition: Before The Blood Pact:)
               - **Player:** Suena interesante. Quizás simplemente haga eso. Gracias.
               - (previous|small)
-            - (Condition: Después del Pacto de Sangre:)
+            - (Condition: After The Blood Pact:)
               - **Player:** Sí, ya me enfrenté a los cultistas y rescaté a Ilona.
               - **Donie:** Ah, excelente. Muchas gracias aventurero.
               - (previous|small)
           - [Choice]: Father Aereck.
             - **Donie:** Father Aereck es el sacerdote local. Puedes encontrarlo en la iglesia Lumbridge, justo al norte del cementerio.
-            - (Condition: Antes del Restless Ghost:)
+            - (Condition: Before The Restless Ghost:)
               - **Player:** Veré si puedo dejar descansar a ese fantasma.
               - (previous|small)
-            - (Condition: Después del Restless Ghost:)
+            - (Condition: After The Restless Ghost:)
               - **Player:** Le devolví el cráneo al fantasma. Por fin está descansando.
               - **Donie:** Muy bien.
               - (previous|small)
@@ -126,10 +126,10 @@
         - [Menu]: Háblame de...
           - [Choice]: Fred the farmer.
             - **Donie:** Puedes encontrar la granja de Fred cerca del campo de ovejas al norte del mercado Lumbridge. Quizás deberías ir a hablar con él.
-            - (Condition: Antes de la esquiladora Sheep:)
+            - (Condition: Before Sheep Shearer:)
               - **Player:** Gracias. Quizás lo haga.
               - (previous|skill)
-            - (Condition: Después de la esquiladora Sheep:)
+            - (Condition: After Sheep Shearer:)
               - **Player:** Ya he ayudado a Fred the farmer. Esquilé sus ovejas y le hice 20 ovillos de lana.
               - **Player:** Sin embargo, no me dejaba matar sus gallinas.
               - **Donie:** Las gallinas Lumbridge son una buena práctica de tiro.
@@ -137,10 +137,10 @@
               - (previous|skill)
           - [Choice]: Doric el enano.
             - **Donie:** Doric el enano se encuentra al norte de Falador. Quizás él pueda ayudarte con algo. Deberías hablar con él. Puede que te deje usar sus yunques.
-            - (Condition: Antes de que lo mío sea tuyo:)
+            - (Condition: Before What's Mine Is Yours:)
               - **Player:** Gracias por el consejo.
               - (previous|skill)
-            - (Condition: Después de Lo mío es tuyo:)
+            - (Condition: After What's Mine Is Yours:)
               - **Player:** Sí, ya fui a ver Doric. Llegué al fondo de un complot sin escrúpulos para socavar su negocio metalúrgico, resolví el conflicto de Doric con su hijo y reavivé su lista de clientes.
               - **Donie:** Oh, bien. ¡Gracias, Player!
               - (previous|skill)
@@ -155,10 +155,10 @@
         - [Menu]: Háblame de...
           - [Choice]: Hetty la bruja.
             - **Donie:** Hetty la bruja se puede encontrar en Rimmington, al sur de Falador. Actualmente está trabajando en algunas pociones nuevas. ¿Quizás podrías echarle una mano?
-            - (Condition: Antes de la poción de bruja:)
+            - (Condition: Before Witch's Potion:)
               - **Player:** Gracias. Esperemos que no me convierta en papa o algo así.
               - (previous|sorts)
-            - (Condition: Después de la poción de bruja:)
+            - (Condition: After Witch's Potion:)
               - **Player:** Sí, ya fui a ver Hetty. ¡Ella me dio poderes súper cósmicos después de que la ayudé con su poción! Probablemente podría destruirte con un solo pensamiento.
               - **Donie:** ¿Lo hizo?
               - **Player:** No, en realidad no.
@@ -167,20 +167,20 @@
           - [Choice]: Ernesto y Draynor Manor.
             - **Donie:** El primer lugar para comenzar sería la puerta de Draynor Manor. Allí encontrarás a Veronica quien podrá contarte más.
             - **Donie:** Te sugiero que andes con cuidado en ese lugar; está embrujado.
-            - (Condition: Antes de Ernesto el Chicken:)
+            - (Condition: Before Ernest the Chicken:)
               - **Player:** ¿Una mansión embrujada? Suena divertido.
               - (previous|sorts)
-            - (Condition: Después de Ernesto el Chicken:)
+            - (Condition: After Ernest the Chicken:)
               - **Player:** Ya encontré a Ernest. ¡Professor Oddenstein lo convirtió en pollo!
               - **Donie:** ¿Un pollo?
               - **Player:** Un pollo. <br>Se topó con una ciencia extraña.
               - (previous|sorts)
           - [Choice]: El tesoro de Pirate.
             - **Donie:** Se rumorea que Redbread Frank en el bar de Port Sarim, Rusty Anchor, puede conocer la ubicación del tesoro enterrado.
-            - (Condition: Antes del tesoro de Pirate:)
+            - (Condition: Before Pirate's Treasure:)
               - **Player:** Suena aventurero. Quizás tenga que comprobarlo. Gracias.
               - (previous|sorts)
-            - (Condition: Después del tesoro de Pirate:)
+            - (Condition: After Pirate's Treasure:)
               - **Player:** ¡Sí! ¡Ya encontré el botín!
               - **Donie:** Sí, claro, amigo mío. Un hallazgo excelente.
               - **Player:** ¡Sí!
@@ -264,31 +264,31 @@
             - **Donie:** Eres un alma valiente.
             - **Donie:** Ahora que lo mencionas, escuché un rumor sobre un saradominista en la iglesia Varrock que está divagando sobre algún tipo de mal mayor... suena como un demonio si me preguntas.
             - **Donie:** ¿Quizás deberías comprobarlo si eres tan valiente como dices?
-            - (Condition: Si el player ya completó Demon Slayer:)
+            - (Condition: If the player has already completed Demon Slayer:)
               - **Player:** Ya maté al demonio Delrith. ¡Él era simplemente una mancha en mi espada cuando terminé con él!
               - **Donie:** ¡Bien hecho! Sin embargo, estoy seguro de que si buscas por todo el mundo encontrarás enemigos más difíciles a los que matar.
-            - (Condition: Si el player no ha completado Demon Slayer:)
+            - (Condition: If the player has not completed Demon Slayer:)
               - **Player:** Gracias por el consejo, tal vez lo haga.
           - [Choice]: Vampyres!
             - **Donie:** Ja, ja. Yo personalmente no creo en esas cosas. Sin embargo, hay un hombre en Draynor Village que ha estado asustando a la gente del pueblo con historias de vampyres.
             - **Donie:** Se llama Morgan y se puede encontrar en una de las casas del pueblo. ¿Quizás puedas ver cuál es el problema?
-            - (Condition: Si el player ya completó Vampyre Slayer:)
+            - (Condition: If the player has already completed Vampyre Slayer:)
               - **Player:** Oh, ya maté a ese desagradable chupasangre vampyre. Draynor estará a salvo ahora.
               - **Donie:** Sí, sí, por supuesto que sí. Todo el mundo sabe que vampyres no son reales...
               - **Player:** ¡Qué! Maté a the beast... realmente lo hice.
               - **Donie:** No estás engañando a nadie que conozcas.
               - **Player:** ..Eh... Pero... ¡Oye! Yo... creí lo que quieras.
-            - (Condition: Si el player no ha completado Vampyre Slayer:)
+            - (Condition: If the player has not completed Vampyre Slayer:)
               - **Player:** Gracias por el consejo.
           - [Choice]: Pequeño... algo pequeño estaría bien.
             - **Donie:** ¿Pequeño? Lo pequeño no es realmente tan peligroso, ¿verdad?
             - **Player:** ¡Sí, puede ser! Podría haber cualquier cosa, desde un evil chicken hasta una araña venenosa. ¡Atacan en grandes cantidades, ya sabes!
             - **Donie:** Punto tomado. Hablando de pequeños monstruos, escuché que al viejo Wizard Mizgog en el Wizards' Tower le acaban de quitar las cuentas una pandilla de diablillos traviesos.
             - **Donie:** ¿Parece que podría ser una misión para ti?
-            - (Condition: Si el player ya completó Imp Catcher:)
+            - (Condition: If the player has already completed Imp Catcher:)
               - **Player:** Sí, conozco a Mizgog y ya lo he ayudado con su problema de diablillo.
               - **Donie:** ¡Los diablillos serán diablillos!
-            - (Condition: Si el player no ha completado Imp Catcher:)
+            - (Condition: If the player has not completed Imp Catcher:)
               - **Player:** Gracias por tu ayuda.
           - [Choice]: Quizás en otra ocasión.
             - (end)
@@ -299,17 +299,17 @@
           - [Choice]: El cocinero de Lumbridge.
             - **Donie:** Es curioso, el cocinero se olvidaría de su cabeza si no estuviera atornillada. Esta vez se olvidó de conseguir los ingredientes para el pastel de cumpleaños del Duque.
             - **Donie:** ¿Quizás podrías ayudarlo? Probablemente lo encontrarás en la cocina del castillo Lumbridge.
-            - (Condition: Si el player ya completó Cook's Assistant:)
+            - (Condition: If the player has already completed Cook's Assistant:)
               - **Player:** Ya ayudé al cocinero en Lumbridge.
               - **Donie:** Oh, sí, así es. Estoy seguro de que el duque estará contento.
-            - (Condition: Si el player no ha completado Cook's Assistant:)
+            - (Condition: If the player has not completed Cook's Assistant:)
               - **Player:** Gracias. Iré a hablar con él.
           - [Choice]: Las extrañas piedras del duque.
             - **Donie:** Bueno, el duque de Lumbridge ha encontrado una piedra extraña que nadie parece entender. ¿Quizás podrías ayudarlo? Probablemente puedas encontrarlo arriba en el castillo Lumbridge.
-            - (Condition: Si el player ya ha completado Rune Mysteries:)
+            - (Condition: If the player has already completed Rune Mysteries:)
               - **Player:** Sí, ya resolví los misterios de las Runas.
               - **Donie:** Ah, excelente. Muchas gracias aventurero.
-            - (Condition: Si el player no ha completado Rune Mysteries:)
+            - (Condition: If the player has not completed Rune Mysteries:)
               - **Player:** Suena misterioso. Quizás simplemente haga eso. Gracias.
           - [Choice]: Quizás en otra ocasión.
             - (end)
@@ -320,18 +320,18 @@
         - [Menu]: Háblame de...
           - [Choice]: Fred the farmer.
             - **Donie:** Puedes encontrar a Fred junto al campo de ovejas en Lumbridge. Quizás deberías ir a hablar con él.
-            - (Condition: Si el player ya completó Sheep Shearer:)
+            - (Condition: If the player has already completed Sheep Shearer:)
               - **Player:** Ya he ayudado a Fred the farmer. Esquilé sus ovejas y le hice 20 ovillos de lana.
               - **Player:** Aunque no me dejaba matar sus gallinas.
               - **Donie:** Las gallinas Lumbridge son una buena práctica de tiro. Tendrás que esperar hasta que deje de mirar.
-            - (Condition: Si el player no ha completado Sheep Shearer:)
+            - (Condition: If the player has not completed Sheep Shearer:)
               - **Player:** Gracias, tal vez lo haga.
           - [Choice]: Doric el enano.
             - **Donie:** Doric el enano se encuentra al norte de Falador. Quizás pueda ayudarte con la herrería. Deberías hablar con él. Puede que te deje usar sus yunques.
-            - (Condition: Si el player ya completó la misión de Doric:)
+            - (Condition: If the player has already completed Doric's Quest:)
               - **Player:** Sí, ya fui a ver Doric. Estaba feliz de dejarme usar sus yunques después de que le hice un pequeño recado.
               - **Donie:** Oh, bien. ¡Gracias Player!
-            - (Condition: Si el player no ha completado la misión de Doric:)
+            - (Condition: If the player has not completed Doric's Quest:)
               - **Player:** Gracias por el consejo.
           - [Choice]: Quizás en otra ocasión.
             - (end)
@@ -343,16 +343,16 @@
         - [Menu]: Háblame de...
           - [Choice]: Hetty la Bruja.
             - **Donie:** Hetty la bruja se puede encontrar en Rimmington, al sur de Falador. Actualmente está trabajando en algunas pociones nuevas. ¿Quizás podrías echarle una mano? Ella podría ofrecerte ayuda con tus habilidades mágicas.
-            - (Condition: Si el player ya completó la Poción de bruja:)
+            - (Condition: If the player has already completed Witch's Potion:)
               - **Player:** Sí, ya fui a ver Hetty. ¡Ella me dio poderes súper cósmicos después de que la ayudé con su poción! Probablemente podría destruirte con un solo pensamiento.
               - **Donie:** ¿De verdad?
               - **Player:** No, en realidad no.
               - **Donie:** Cierto...
-            - (Condition: Si el player no ha completado la Poción de bruja:)
+            - (Condition: If the player has not completed Witch's Potion:)
               - **Player:** Gracias. Esperemos que no me convierta en papa o algo así.
           - [Choice]: El tesoro de Pirate.
             - **Donie:** RedBeard Frank en el bar de Port Sarim, Rusty Anchor podría informarte sobre el rumoreado tesoro que está enterrado en algún lugar del mundo.
-            - (Condition: Si el player ya completó el Tesoro de Pirate:)
+            - (Condition: If the player has already completed Pirate's Treasure:)
               - **Player:** ¡Sí! ¡Ya encontré el botín!
               - **Donie:** Sí, claro, amigo mío. Un hallazgo excelente.
               - **Player:** ¡Sí!
@@ -360,26 +360,26 @@
               - **Player:** ¡YARRR!
               - **Donie:** ¡Bien, ya es suficiente!
               - **Player:** ..Lo siento.
-            - (Condition: Si el player no ha completado el Tesoro de Pirate:)
+            - (Condition: If the player has not completed Pirate's Treasure:)
               - **Player:** Suena aventurero, tal vez tenga que comprobarlo. Gracias.
           - [Choice]: Ernesto y Draynor Manor.
             - **Donie:** El mejor lugar para comenzar sería en la puerta de Draynor Manor. Allí encontrarás a Veronica quien podrá contarte más.
             - **Donie:** Te sugiero que andes con cuidado en ese lugar; está embrujado.
-            - (Condition: Si el player ya ha completado Ernest el Chicken:)
+            - (Condition: If the player has already completed Ernest the Chicken:)
               - **Player:** Sí, ya encontré a Ernest. ¡El profesor Oddstein lo había convertido en pollo!
               - **Donie:** ¿¡Un pollo!?
               - **Player:** Sí, un pollo. Aunque podría haber sido peor.
               - **Donie:** Muy cierto, pobrecito.
-            - (Condition: Si el player no ha completado Ernest el Chicken:)
+            - (Condition: If the player has not completed Ernest the Chicken:)
               - **Player:** Suena divertido. Nunca antes había estado en una mansión encantada.
           - [Choice]: Quizás en otra ocasión.
             - (end)
   - [Choice]: ¿Qué ha pasado aquí últimamente?
-    - (Condition: Después de la Batalla de Lumbridge:)
+    - (Condition: After the Battle of Lumbridge:)
       - **Player:** ¿Qué ha pasado aquí últimamente?
       - **Donie:** Lumbridge ha sido dañado recientemente por una batalla entre Saradomin y Zamorak en el cráter al oeste del castillo.
       - **Donie:** Sin embargo, la batalla ya terminó. Ahora hay un fanático saradominista vigilando allí.
-    - (Condition: Durante la Batalla de Lumbridge:)
+    - (Condition: During the Battle of Lumbridge:)
       - **Donie:** Lumbridge ha sido dañado recientemente por una batalla entre Saradomin y Zamorak en el cráter al oeste del castillo.
       - **Donie:** Todavía están peleando allí. Supongo que podrías ir y unirte si quisieras.
       - **Player:** ¡Ya lo hice!

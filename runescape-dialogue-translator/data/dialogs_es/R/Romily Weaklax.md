@@ -26,12 +26,12 @@
         - **Player:** Lo siento, no puedo ayudarte.
   - [Choice]: cond=If the player has an active pie request|Tengo esos pasteles que querías.
     - **Player:** Tengo esos pasteles que querías.
-    - (Condition: Si el player no tiene las tartas:)
+    - (Condition: If the player does not have the pies:)
       - **Romily Weaklax:** No parece que tengas ninguno de los [número] [type of pie] que solicité.
-    - (Condition: Si el player tiene solo algunos de los pasteles solicitados:)
+    - (Condition: If the player has only some of the requested pies:)
       - (removes=pies) (receives=coins)
       - **Romily Weaklax:** Gracias, si pudieras traerme el otro [remaining number], ¡sería genial!
-    - (Condition: Si el player tiene todos los pasteles solicitados:)
+    - (Condition: If the player has all of the requested pies with them:)
       - (removes=pies) (receives=coins)
       - **Romily Weaklax:** ¡Muchas gracias!
   - [Choice]: Estoy bien gracias.

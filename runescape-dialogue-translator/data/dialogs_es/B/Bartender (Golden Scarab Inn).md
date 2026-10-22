@@ -16,10 +16,10 @@
   - [Choice]: ¿Puedo comprar una cerveza, por favor?
     - **Player:** ¿Puedo comprar una cerveza, por favor?
     - **Bartender:** Claro, serán dos gold coins, por favor.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - (removes=2 coins) (receives=beer)
       - **Player:** Gracias, camarero.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - No puedes permitirte eso.
       - **Bartender:** ¡Dije 2 coins! ¡No tienes 2 coins!
       - **Player:** Lo siento, volveré otro día.
@@ -29,12 +29,12 @@
     - **Bartender:** Ni mucho menos. ¿Quieres probarlo? Son 10 de oro.
     - [Menu]: ¿Comprar un poco de jugo Squeck?
       - [Choice]: Sí.
-        - (Condition: Si el player no tiene espacio en backpack:)
+        - (Condition: If the player has no space in backpack:)
           - **Player:** No tienes espacio para llevarlo.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - (removes=10 coins) (receives=squeck juice)
           - Compras un poco de jugo Squeck.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - No puedes permitirte eso.
       - [Choice]: No.
         - **Player:** No, gracias.

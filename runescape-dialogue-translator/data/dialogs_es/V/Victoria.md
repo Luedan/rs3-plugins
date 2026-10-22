@@ -11,7 +11,7 @@
 
 ### In Lumbridge
 
-- (Condition: Con un construction contract:)
+- (Condition: With a construction contract:)
   - [Menu]: Selecciona una opción
     - [Choice]: Preguntar por contracts
       - [Menu]: Selecciona una opción
@@ -26,7 +26,7 @@
           - (end)
     - [Choice]: pregunta sobre otra cosa
       - (below|standard)
-- (Condition: De lo contrario:)
+- (Condition: Otherwise:)
   - **Player:** Buenos días.
   - **Victoria:** Para ti también, viajero. Soy Victoria. Dime, ¿has visto a mi hermano, Lachtopher, por el pueblo?
   - [Menu]: ¿Qué te gustaría decir?

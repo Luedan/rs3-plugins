@@ -12,7 +12,7 @@
 ### Standard dialogue
 
 - **Dilwyn:** ¡Buenos días, amigo! ¡Buen día!
-- ((Si el player tiene una recompensa no reclamada de un aura de intercambio:))
+- ((If the player has an unclaimed reward from a jack of trades aura:))
   - **Dilwyn:** ¡Espera! Tengo algo aquí para ti...
   - (receives=a normal/master/supreme/legendary reward book, depending on aura tier)
   - [Dilwyn te entrega tu recompensa.]

@@ -14,7 +14,7 @@
 
 #### Habla con
 
-- ((Primera vez:))
+- ((First time:))
   - **Naressa:** ¡Quédate atrás!
   - **Player:** Bien... dragonante...
   - **Naressa:** No actúes inocente. He visto lo que tú y tu gente le han estado haciendo a los de mi especie.
@@ -23,7 +23,7 @@
   - **Player:** ¡Soy Player! Estaba deambulando, explorando este lugar y casualmente te vi.
   - **Naressa:** Muy bien, Player. Soy Naressa. Pero sigo vigilándote.
   - (continue)
-- ((Tiempos posteriores:))
+- ((Subsequent times:))
   - **Naressa:** Hola, Player. Me alegra que hayas vuelto a visitarme.
   - (continue)
 - **SELECCIONA UNA OPCIÓN**

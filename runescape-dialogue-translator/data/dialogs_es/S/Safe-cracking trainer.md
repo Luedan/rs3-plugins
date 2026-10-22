@@ -20,12 +20,12 @@
 - **Safe-cracking trainer:** Har-dee-har. No, entreno a ladrones para que los abran. ¿Quieres escuchar más?
 - [Menu]: Selecciona una opción
   - [Choice]: Con mucho gusto.
-    - (Condition: Ante un gremio propio:)
+    - (Condition: Before A Guild of Our Own:)
       - **Safe-cracking trainer:** El defecto fatal de las cajas fuertes es que sus mecanismos de cierre son muy ruidosos.
       - **Safe-cracking trainer:** Si escuchas, podrás oír cómo los vasos hacen clic cuando los colocas en el lugar correcto. Pero estoy seguro de que un ladrón de tu calibre los abrirá en poco tiempo.
       - **Safe-cracking trainer:**Una vez que hayas contribuido más al gremio, incluso te enseñaré cómo abrir estas intrincadas cajas fuertes.
       - **Safe-cracking trainer:** Eres más que bienvenido a ejercitar tus dedos en mis cajas fuertes de pared falsas. No hay nada en ellos más que pañuelos, tengo que guardarlos en algún lugar.
-    - (Condition: Después de Un gremio propio:)
+    - (Condition: After A Guild of Our Own:)
       - (below|youllcomeacross)
   - [Choice]: Sobre esos pañuelos...
     - [Menu]: Selecciona una opción
@@ -47,17 +47,17 @@
             - **Player:** Adiós por ahora.
       - [Choice]: ¿Cuantos puntos de pañuelo tengo?
         - **Player:** ¿Cuántos puntos de pañuelo tengo?
-        - (Condition: Sin puntos:)
+        - (Condition: With no points:)
           - **Safe-cracking trainer:** Aún no has acumulado puntos de pañuelo. Puedes reclamar la recompensa hasta [amount] puntos más esta semana.
-        - (Condition: Con puntos:)
+        - (Condition: With points:)
           - **Safe-cracking trainer:** Has acumulado puntos de pañuelo [amount]. Puedes reclamar la recompensa hasta [amount] puntos más esta semana.
           - (otro)
       - [Choice]: Me gustaría reclamar una recompensa por mis puntos de pañuelo.
         - **Player:** Me gustaría reclamar una recompensa por mis puntos de pañuelo.
-        - (Condition: Aún quedan puntos por reclamar:)
+        - (Condition: With hanky points left to claim:)
           - **Safe-cracking trainer:** ¡Claro! Veamos ahora...
           - Obtienes [amount] Thieving XP. Le quedan [amount] puntos y puede entregar hasta [amount] puntos más esta semana.
-        - (Condition: Sin puntos de pañuelo por reclamar:)
+        - (Condition: Without hanky points left to claim:)
           - **Safe-cracking trainer:** Lo sentimos, has reclamado tantos puntos de pañuelo esta semana como puedas en tu nivel.
       - [Choice]: Adiós por ahora.
         - **Player:** Adiós por ahora.
@@ -102,19 +102,19 @@
     - **Safe-cracking trainer:** Simplemente habla con Robin en la entrada y él solucionará tu problema de bienes robados. Aunque se llevará una parte. Literalmente, si no le gustas.
     - (previous)
   - [Choice]: ¿Sabes dónde puedo encontrar las cajas fuertes de alto nivel?
-    - (Condition: Con 68 Thieving o menos:)
+    - (Condition: With 68 Thieving or lower:)
       - **Safe-cracking trainer:** Con tus habilidades, recomendaría buscar cajas fuertes en el Reino de Misthalin. Ya sabes: Lumbridge, Varrock.
       - (previous)
-    - (Condition: Con 69 a 75 Thieving:)
+    - (Condition: With 69 to 75 Thieving:)
       - **Safe-cracking trainer:** Con tus habilidades, recomendaría buscar cajas fuertes en Kharidian desert. Ya sabes: Al Kharid, Menaphos, Pollnivneach.
       - (previous)
-    - (Condition: Con 76 a 82 Thieving:)
+    - (Condition: With 76 to 82 Thieving:)
       - **Safe-cracking trainer:** Con tus habilidades, recomendaría buscar cajas fuertes en el Reino de Asgarnia. Ya sabes: Falador, Burthorpe, Rimmington.
       - (previous)
-    - (Condition: Con 83 a 89 Thieving:)
+    - (Condition: With 83 to 89 Thieving:)
       - **Safe-cracking trainer:** Con tus habilidades, recomendaría buscar cajas fuertes en el Reino de Kandarin. Ya sabes: Ardougne, Seers' Village, Catherby.
       - (previous)
-    - (Condition: Con 90 Thieving o superior:)
+    - (Condition: With 90 Thieving or higher:)
       - **Safe-cracking trainer:** Con tus habilidades, recomendaría buscar en los confines más lejanos de Gielinor. Eres un ladrón increíble y las cajas fuertes más valiosas son las más difíciles de encontrar.
       - (previous)
   - [Choice]: Eso es todo, gracias.
@@ -134,9 +134,9 @@
   - [Choice]: Sobre cómo abrir cajas fuertes...
     - (above|cracksafe)
   - [Choice]: cond=Having lost the loot bag|Perdí mi bolsa de botín.
-    - (Condition: Sin espacio en backpack:)
+    - (Condition: Without space in backpack:)
       - **Safe-cracking trainer:** Necesitas algo de espacio libre en tu inventario o no puedo devolverte tu bolso.
-    - (Condition: Con espacio en backpack:)
+    - (Condition: With space in backpack:)
       - (receives=small, medium or large loot bag, depending on tier unlocked)
       - **Safe-cracking trainer:** Aquí tienes. Intenta no perder este.
   - [Choice]: Sobre esos pañuelos...

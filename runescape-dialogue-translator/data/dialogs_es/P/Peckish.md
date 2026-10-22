@@ -23,36 +23,36 @@
   - [Choice]: Tengo algunos productos para ti.
     - **Player:** Tengo algunos productos para ti.
     - **Peckish:** ¡Sssh, ssh! Mantenlo bajo. Déjame ver qué tienes ahí...
-    - (Condition: Sin reliquias antiguas ni objetos de valor antiguos:)
+    - (Condition: Without ancient heirlooms or ancient valuables:)
       - No tienes nada que darle a Peckish.
       - (ventana emergente)
-        - (Ventana emergente: No tienes nada que darle a Peckish.|advertencia=yes)
+        - (Pop-up: You have nothing to give to Peckish.|warning=yes)
         - (previous)
-    - (Condition: Con reliquias antiguas u objetos de valor antiguos:)
-      - (Condition: Si no se superan los 150.000 tokens espeluznantes, si se entregaran todas las reliquias antiguas y objetos de valor antiguos en backpack:)
+    - (Condition: With ancient heirlooms or ancient valuables:)
+      - (Condition: If not surpassing 150,000 spooky tokens if all ancient heirlooms and ancient valuables in backpack would be handed in:)
         - (removes=all ancient heirlooms and ancient valuables)
         - Entregas riquezas [número] [valuable/valuables] y [número] por tokens Spooky [number before potential multiplication].
         - (ventana emergente)
-          - (Ventana emergente: entregas riquezas [número] [valuable/valuables] y [número] por tokens Spooky [number before potential multiplication].|color=#FF6600)
+          - (Pop-up: You hand over [number] [valuable/valuables] and [number] riches for [number before potential multiplication] Spooky tokens.|colour=#FF6600)
           - (continue)
         - Se ha agregado lo siguiente a su bolsa de divisas: [number after potential multiplication] x tokens Spooky.
         - (previous)
-      - (Condition: Si se superan los 150.000 tokens espeluznantes si se entregaran todas las reliquias antiguas y objetos de valor antiguos en backpack:)
-        - (Condition: Con algo que entregar sin superar los 150.000 tokens espeluznantes:)
+      - (Condition: If surpassing 150,000 spooky tokens if all ancient heirlooms and ancient valuables in backpack would be handed in:)
+        - (Condition: With something to hand in without surpassing 150,000 spooky tokens:)
           - **Peckish:** Vaya, amigo. Eso es demasiado rico para mis huesos. Puedo tomar algunas de esas, pero tendrás que gastar algunas fichas espeluznantes antes de que tome el resto.
           - (removes=just enough ancient heirlooms and ancient valuables to not surpass 150,000 spooky tokens, with as many as possible ancient heirlooms included)
           - Entregas riquezas [número] [valuable/valuables] y [número] por tokens Spooky [number before potential multiplication].
           - (ventana emergente)
-            - (Ventana emergente: entregas riquezas [número] [valuable/valuables] y [número] por tokens Spooky [number before potential multiplication].|color=#FF6600)
+            - (Pop-up: You hand over [number] [valuable/valuables] and [number] riches for [number before potential multiplication] Spooky tokens.|colour=#FF6600)
             - (continue)
-          - (Condition: Si alcanzas exactamente 150.000 tokens espeluznantes:)
+          - (Condition: If reaching exactly 150,000 spooky tokens:)
             - Ha alcanzado el límite flexible del token Spooky de 150.000. Debes gastar algunas fichas en Spooky Reward Shop antes de poder ganar más.
-            - (ventana emergente)
-              - (Ventana emergente: has alcanzado el límite flexible de tokens Spooky de 150 000. Debes gastar algunos tokens en la tienda de recompensas Spooky antes de poder ganar más.|advertencia=yes)
+            - (pop-up)
+              - (Pop-up: You have reached the Spooky token soft cap of 150,000. You need to spend some tokens in the Spooky Reward Shop before you can earn more.|warning=yes)
               - (continue)
           - Se ha agregado lo siguiente a su bolsa de divisas: [número] x tokens Spooky.
           - (previous)
-        - (Condition: Sin nada que entregar sin superar los 150.000 tokens espeluznantes:)
+        - (Condition: Without anything to hand in without surpassing 150,000 spooky tokens:)
           - **Peckish:** No puedo tomar más de esos en este momento; Tienes que gastar algunas de tus espeluznantes fichas o no podré pagarte.
           - (previous)
   - [Choice]: Adiós.
@@ -70,7 +70,7 @@
 - (removes=all ancient heirlooms and ancient valuables)
 - Entregas riquezas [número] [valuable/valuables] y [número] por tokens Spooky [number before potential multiplication].
 - (ventana emergente)
-  - (Ventana emergente: entregas riquezas [número] [valuable/valuables] y [número] por tokens Spooky [number before potential multiplication].|color=#FF6600)
+  - (Pop-up: You hand over [number] [valuable/valuables] and [number] riches for [number before potential multiplication] Spooky tokens.|colour=#FF6600)
   - (continue)
 - Se ha agregado lo siguiente a su bolsa de divisas: [number after potential multiplication] x tokens Spooky.
 
@@ -83,12 +83,12 @@
 - (removes=just enough ancient heirlooms and ancient valuables to reach 150,000 spooky tokens, with as many as possible ancient heirlooms included)
 - Entregas riquezas [número] [valuable/valuables] y [número] por tokens Spooky [number before potential multiplication].
 - (ventana emergente)
-  - (Ventana emergente: entregas riquezas [número] [valuable/valuables] y [número] por tokens Spooky [number before potential multiplication].|color=#FF6600)
+  - (Pop-up: You hand over [number] [valuable/valuables] and [number] riches for [number before potential multiplication] Spooky tokens.|colour=#FF6600)
   - (continue)
-- (Condition: Si alcanzas exactamente 150.000 tokens espeluznantes:)
+- (Condition: If reaching exactly 150,000 spooky tokens:)
   - Ha alcanzado el límite flexible del token Spooky de 150.000. Debes gastar algunas fichas en Spooky Reward Shop antes de poder ganar más.
-  - (ventana emergente)
-    - (Ventana emergente: has alcanzado el límite flexible de tokens Spooky de 150 000. Debes gastar algunos tokens en la tienda de recompensas Spooky antes de poder ganar más.|advertencia=yes)
+  - (pop-up)
+    - (Pop-up: You have reached the Spooky token soft cap of 150,000. You need to spend some tokens in the Spooky Reward Shop before you can earn more.|warning=yes)
     - (continue)
 - Se ha agregado lo siguiente a su bolsa de divisas: [número] x tokens Spooky.
 
@@ -100,4 +100,4 @@
 
 - No tienes nada que darle a Peckish.
 - (ventana emergente)
-  - (Ventana emergente: No tienes nada que darle a Peckish.|advertencia=yes)
+  - (Pop-up: You have nothing to give to Peckish.|warning=yes)

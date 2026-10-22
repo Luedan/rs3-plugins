@@ -32,7 +32,7 @@
 
 #### Usando un traje de doliente completo
 
-- (Condition: Si el título "the Mourner" aún no ha sido desbloqueado:)
+- (Condition: If the "the Mourner" title has not already been unlocked:)
   - Has desbloqueado el título 'el Mourner'.
   - (continue)
 - **Lady Ithell:** Bueno, ciertamente luces tonta con ese atuendo.
@@ -59,10 +59,10 @@
           - [Choice]: Si eres Lady Ithell, ¿qué pasó con Kelyn?
             - **Lady Ithell:** Sigo siendo Kelyn. No estoy poseído; mis recuerdos no han cambiado.
             - **Lady Ithell:** Pero también tengo algunos conocimientos nuevos: habilidades que la antigua Lady Ithell codificó en los planos de sus estatuas. El conocimiento que necesito para ser el nuevo Lady Ithell.
-            - (Condition: Si el player aún no ha ayudado a Lady Ithell con la investigación del canto de cristales:)
+            - (Condition: If the player has not yet helped Lady Ithell with crystal singing research:)
               - **Lady Ithell:** Bueno, algo de eso, al menos. Mi cabeza está tan llena de cánticos, esquemas y canciones que duele, y todavía estoy tratando de encontrarle sentido a todo.
               - (previous|ask-about-lady)
-            - (Condition: Si el player ha ayudado a Lady Ithell con la investigación del canto con cristales:)
+            - (Condition: If the player has helped Lady Ithell with crystal singing research:)
               - **Lady Ithell:** Bueno, algo de eso, al menos. Mi cabeza está tan llena de cánticos, esquemas y canciones que duele, pero gracias a tu ayuda estoy entendiendo mucho mejor todo.
               - (previous|ask-about-lady)
           - [Choice]: ¿Por qué nunca construyeste esa estatua tú mismo?
@@ -85,10 +85,10 @@
         - **Player:** ¿Puedes hablarme sobre el Clan Ithell?
         - **Lady Ithell:** Somos más conocidos por nuestra capacidad de cantar semillas de cristal (pequeños y preciosos fragmentos de la propia Seren) para darles formas nuevas y gloriosas.
         - **Lady Ithell:** Muchos de estos regalos de Seren se mantuvieron a salvo en Tarddiad, el verdadero hogar de los elfos.
-        - (Condition: Ante la luz interior:)
+        - (Condition: Before The Light Within:)
           - **Lady Ithell:** No hemos podido regresar a Tarddiad desde que perdimos el acceso a la Puerta del Mundo en la Segunda Edad.
           - (continue)
-        - (Condition: Después de la luz interior:)
+        - (Condition: After The Light Within:)
           - **Lady Ithell:** Gracias a ti ahora tenemos la oportunidad de regresar allí y recuperarlos. Algo que pensábamos imposible después de la Segunda Edad.
           - (continue)
         - **Lady Ithell:** Guthix estableció sus edictos después de las Guerras de Dios de la Tercera Edad, para proteger a Gielinor de los dioses. Seren no quería separarse de nosotros, así que para compartir su poder con los elfos, Seren destrozó su cuerpo.
@@ -108,18 +108,18 @@
     - **Lady Ithell:** Si estás buscando actualizar una herramienta aumentada, tendrás que mostrármelo directamente.
     - [Menu]: Elige una opción:
       - [Choice]: cond=If the player has a dragon hatchet on their tool belt|Mejora el hacha de dragón en mi cinturón de herramientas.
-        - (Condition: Sin el polvo armónico requerido:)
+        - (Condition: Without the required harmonic dust:)
           - **Lady Ithell:** Necesito 4000 polvo armónico para mejorar el hacha de dragón en tu cinturón de herramientas.
           - (previous|dust)
-        - (Condition: Con el polvo armónico requerido:)
+        - (Condition: With the required harmonic dust:)
           - {{Transcript missing}}
       - [Choice]: cond=If the player has a crystal hatchet on their tool belt|Revertir el hacha de cristal en mi cinturón de herramientas.
         - {{Transcript missing}}
       - [Choice]: cond=If the player has a dragon pickaxe on their tool belt|Mejora el pico de dragón en mi cinturón de herramientas.
-        - (Condition: Sin el polvo armónico requerido:)
+        - (Condition: Without the required harmonic dust:)
           - **Lady Ithell:** Necesito 4000 polvo armónico para mejorar el pico de dragón en tu cinturón de herramientas.
           - (previous|dust)
-        - (Condition: Con el polvo armónico requerido:)
+        - (Condition: With the required harmonic dust:)
           - (removes=dragon pickaxe and 4,000 harmonic dust) (receives=crystal pickaxe)
           - [Lady Ithell ha actualizado el pico de dragón en tu cinturón de herramientas a un pico de cristal.]
           - (previous|dust)
@@ -132,15 +132,15 @@
             - [Lady Ithell ha convertido el pico de cristal de tu cinturón de herramientas en un pico de dragón.]
             - (previous2|dust)
       - [Choice]: Buscar herramientas en mi backpack...
-        - (Condition: Con un pico Imcando, un pico de dragón (dorado), un hacha de dragón, un hacha de cristal, un pico de cristal o un azadón de dragón en backpack:)
+        - (Condition: With an Imcando pickaxe, a (gilded) dragon pickaxe, a dragon hatchet, a crystal hatchet, a crystal pickaxe, or a dragon mattock in backpack:)
           - [Menu]: ¿Qué herramienta quieres modificar?
             - [Choice]: Hacha.
               - [Menu]: Se abre la interfaz Elija una herramienta.
                 - [Choice]: ¿Puedes actualizar mi hacha de dragón a un hacha de cristal?
-                  - (Condition: Sin polvo de 4.000 armónicos:)
+                  - (Condition: Without 4,000 harmonic dust:)
                     - **Lady Ithell:** Necesito 4000 polvo armónico para convertir este hacha de dragón en un hacha de cristal.
                     - (previous|tool)
-                  - (Condition: Con polvo de 4.000 armónicos:)
+                  - (Condition: With 4,000 harmonic dust:)
                     - (removes=dragon hatchet and 4,000 harmonic dust) (receives=crystal hatchet)
                     - [Lady Ithell ha actualizado tu hacha de dragón a un hacha de cristal.]
                 - [Choice]: ¿Puedes convertir mi hacha de cristal en un hacha de dragón?
@@ -154,10 +154,10 @@
             - [Choice]: Pico.
               - [Menu]: Se abre la interfaz Elija una herramienta.
                 - [Choice]: ¿Puedes actualizar mi pico de dragón a un pico de cristal?
-                  - (Condition: Sin polvo de 4.000 armónicos:)
+                  - (Condition: Without 4,000 harmonic dust:)
                     - **Lady Ithell:** Necesito 4000 polvo armónico para convertir este pico de dragón en un pico de cristal.
                     - (previous|tool)
-                  - (Condition: Con polvo de 4.000 armónicos:)
+                  - (Condition: With 4,000 harmonic dust:)
                     - (removes=dragon pickaxe and 4,000 harmonic dust) (receives=crystal pickaxe)
                     - [Lady Ithell ha actualizado tu pico de dragón a un pico de cristal.]
                 - [Choice]: ¿Puedes actualizar mi pico de dragón deslizado a un pico de cristal deslizado?
@@ -175,10 +175,10 @@
             - [Choice]: Azadón.
               - [Menu]: Se abre la interfaz Elija una herramienta.
                 - [Choice]: ¿Puedes actualizar mi azadón de dragón a un azadón de cristal?
-                  - (Condition: Sin polvo de 4.000 armónicos:)
+                  - (Condition: Without 4,000 harmonic dust:)
                     - **Lady Ithell:** Necesito 4000 polvo armónico para convertir este azadón de dragón en un azadón de cristal.
                     - (previous|tool)
-                  - (Condition: Con polvo de 4.000 armónicos:)
+                  - (Condition: With 4,000 harmonic dust:)
                     - (removes=dragon mattock and 4,000 harmonic dust) (receives=crystal mattock)
                     - [Lady Ithell ha mejorado tu azadón de dragón a un azadón de cristal.]
                 - [Choice]: ¿Puedes usar mi azadón Imcando para hacer un azadón Imcando de cristal?
@@ -188,10 +188,10 @@
                     - [Choice]: Cancelar
                       - (previous2|tool)
                     - [Choice]: Ok
-                      - (Condition: Sin polvo de 4.000 armónicos:)
+                      - (Condition: Without 4,000 harmonic dust:)
                         - **Lady Ithell:** Necesito 4000 polvo armónico para reemplazar este azadón Imcando por un azadón de cristal.
                         - (previous2|tool)
-                      - (Condition: Con polvo de 4.000 armónicos:)
+                      - (Condition: With 4,000 harmonic dust:)
                         - (removes=Imcando mattock and 4,000 harmonic dust) (receives=crystal mattock)
                         - [Lady Ithell ha sustituido su azadón Imcando por un azadón de cristal.]
                         - (previous2|tool)
@@ -203,7 +203,7 @@
                       - (removes=crystal mattock) (receives=dragon mattock)
                       - [Lady Ithell ha revertido tu azadón de cristal en un azadón de dragón.]
                       - (previous2|tool)
-        - (Condition: Si el player no tiene hachas, picos o azadones de dragón o cristal en su inventario:)
+        - (Condition: If the player has no dragon or crystal hatchets, pickaxes, or mattocks in their inventory:)
           - **Lady Ithell:** No llevas ninguna herramienta de dragón o cristal que pueda actualizar o revertir. Si está buscando actualizar una herramienta aumentada, deberá mostrármelo directamente.
           - (previous)
       - [Choice]: cond=After making at least one crystal hatchet, pickaxe, or mattock|Cuéntame otra vez sobre el proceso.
@@ -250,39 +250,39 @@
       - [Choice]: Tengo otras preguntas...
         - (previous)
   - [Choice]: ¿Hay algo más en lo que pueda ayudarte?
-    - (Condition: Antes de ayudar a Lady Ithell con la investigación sobre el canto con cristales:)
+    - (Condition: Before helping Lady Ithell with crystal singing research:)
       - **Lady Ithell:** En realidad, me preguntaba si podrías ayudarme con un pequeño proyecto. Realmente me ayudaría si manejaras algunos objetos de cristal mágico por mí.
       - **Lady Ithell:** Si puedo entender cómo reacciona el cristal elfo ante los humanos, me ayudará a darle sentido a algunos de los recuerdos del ex Lady Ithell.
       - **Lady Ithell:** Si pudieras cantar o encontrarme un cristal staff, una varita, un orbe y una protección completamente cargados, ampliaré tu propio conocimiento de Magic. Incluso te reembolsaré la semilla de cristal por cada artículo.
-      - (Condition: Sin haberle regalado a Lady Ithell ningún objeto de cristal:)
+      - (Condition: Without having given Lady Ithell any crystal item:)
         - **Lady Ithell:** Todavía necesito un:<br>Barra de cristal<br>Varita de cristal<br>Orbe de cristal
         - **Lady Ithell:** Guardián de cristal
         - (initial)
-      - (Condition: Con algunos de los artículos de cristal solicitados en backpack:)
+      - (Condition: With some of the requested crystal items in backpack:)
         - **Lady Ithell:** ¿Tienes algún objeto de cristal mágico para mí?
         - [Menu]: ¿Darle a Lady Ithell un cristal [staff/wand/orb/ward]?
           - [Choice]: Sí.
-            - (Condition: Si el artículo entregado es un cristal staff:)
+            - (Condition: If the item handed in is a crystal staff:)
               - (removes=crystal staff) (receives=crystal weapon seed)
               - [Lady Ithell te da una semilla de arma de cristal a cambio del cristal staff.]
               - (continue)
-            - (Condition: Si el objeto entregado es una varita de cristal:)
+            - (Condition: If the item handed in is a crystal wand:)
               - (removes=crystal wand) (receives=crystal weapon seed)
               - [Lady Ithell te da una semilla de arma de cristal a cambio de la varita de cristal.]
               - (continue)
-            - (Condition: Si el objeto entregado es un orbe de cristal:)
+            - (Condition: If the item handed in is a crystal orb:)
               - (removes=crystal orb) (receives=crystal weapon seed)
               - [Lady Ithell te da una semilla de arma de cristal a cambio del orbe de cristal.]
               - (continue)
-            - (Condition: Si el objeto entregado es una protección de cristal:)
+            - (Condition: If the item handed in is a crystal ward:)
               - (removes=crystal ward) (receives=crystal armour seed)
               - [Lady Ithell te da una semilla de armadura de cristal a cambio de la protección de cristal.]
               - (continue)
-            - (Condition: Si el player tiene artículos de cristal adicionales para entregar:)
+            - (Condition: If the player has additional crystal items to hand in:)
               - (continuea|give)
-            - (Condition: Si el player no tiene más objetos de cristal para entregar:)
+            - (Condition: If the player has no more crystal items to hand in:)
               - (continue|stillneed)
-            - (Condition: Al entregar los cuatro artículos de cristal solicitados:)
+            - (Condition: Upon handing in all four requested crystal items:)
               - (receives=Magic XP lamp)
               - [Lady Ithell te entrega una lámpara Magic.]
               - {{RSFontAchievement|Sing for the Lady}}
@@ -291,13 +291,13 @@
           - [Choice]: No.
             - **Lady Ithell:** Todavía necesito un:<br>Crystal [item]
             - (previous2)
-    - (Condition: Después de entregar algunos artículos de cristal a Lady Ithell, sin más artículos de cristal en backpack:)
+    - (Condition: After handing in some crystal items to Lady Ithell, without any more crystal items in backpack:)
       - **Lady Ithell:** Todavía necesito un:<br>Crystal [item]
       - (initial)
-    - (Condition: Después de entregar algunos artículos de cristal a Lady Ithell, con artículos de cristal en backpack:)
+    - (Condition: After handing in some crystal items to Lady Ithell, with crystal items in backpack:)
       - **Lady Ithell:** ¿Tienes algún objeto de cristal mágico para mí?
       - (continuea|give)
-    - (Condition: Después de ayudar a Lady Ithell con la investigación sobre el canto con cristales:)
+    - (Condition: After helping Lady Ithell with crystal singing research:)
       - **Lady Ithell:** Gracias, pero no por el momento.
       - **Lady Ithell:** El residuo cuasi élfico de tu contacto con los objetos tenía una firma mágica fascinante. Esto requerirá más estudio, pero algunos de los recuerdos de Lady Ithell ahora me resultan mucho más claros.
   - [Choice]: Nada, gracias.

@@ -14,21 +14,21 @@
 - **Wythien:** Hola, tú. ¿Quedan fragmentos de las fauces de Motherlode y quieres algunos elementos que tomé de las fauces de Motherlode antes de que se cerrara? Diez fragmentos de Motherlode para un artículo: no puedo decir nada más justo que eso.
 - [Menu]: Selecciona una opción
   - [Choice]: Estoy interesado.
-    - (Condition: Con al menos 10 fragmentos de motherlode:)
+    - (Condition: With at least 10 motherlode shards:)
       - **Wythien:** Bien, bien. ¿Estás seguro de que quieres intercambiar diez fragmentos? No soy un tipo de persona que reembolsa dinero.
       - (continue)
-    - (Condition: Con menos de 10 fragmentos de motherlode:)
+    - (Condition: With less than 10 motherlode shards:)
       - **Wythien:** Necesitarás diez fragmentos de motherlode para un único artículo. Te faltan un poco para cumplir diez años.
       - (continue)
     - [Menu]: Selecciona una opción
       - [Choice]: Sí. {{anchor|accept}}
-        - (Condition: Con menos de 10 fragmentos de motherlode:)
+        - (Condition: With less than 10 motherlode shards:)
           - **Wythien:** Vuelve conmigo cuando tengas más fragmentos de motherlode. Diez bastarán.
-        - (Condition: Con al menos 10 fragmentos de motherlode:)
-          - (Condition: Antes de haber intercambiado fragmentos de motherlode en un día determinado:)
+        - (Condition: With at least 10 motherlode shards:)
+          - (Condition: Before having exchanged motherlode shards on a given day:)
             - (removes=10 crystal motherlode shards) (receives=Motherlode Maw loot)
             - [pic=Crystal motherlode shard detail.png] <!-- pic2 = received reward -->
-          - (Condition: Después de haber intercambiado fragmentos de motherlode en un día determinado:)
+          - (Condition: After having exchanged motherlode shards on a given day:)
             - [Ya intercambiaste fragmentos de motherlode hoy.]
       - [Choice]: No... Adiós.
         - (end)
@@ -40,7 +40,7 @@
   - [Choice]: ¿Qué más tienes?
     - [Menu]: Selecciona una opción
       - [Choice]: Potenciadores.
-        - ((Se abre la interfaz Exchange de Enhancer.))
+        - ((Enhancer's Exchange interface opens.))
       - [Choice]: Tienda Dungeoneering.
         - (opens=Daemonheim Rewards)
       - [Choice]: Pregunta por otra cosa.
@@ -56,9 +56,9 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: Potenciadores del enfoque.
-    - ((Se abre la interfaz de Enhancers Exchange.))
+    - ((Enhancers Exchange interface opens.))
   - [Choice]: Cambie los potenciadores por fragmentos de motherlod.
-    - ((La interfaz de Maw Enhancers se abre con los botones 'Intercambiar' junto a todos los tipos de potenciadores.))
+    - ((Maw Enhancers interface opens with 'Exchange' buttons next to all enhancers types.))
   - [Choice]: Alternar efectos potenciadores.
     - ((La interfaz de Maw Enhancers se abre con casillas de verificación junto a los tipos de potenciadores.)) <!-- and 'Activate' buttons next to the final three -->
   - [Choice]: Nada.

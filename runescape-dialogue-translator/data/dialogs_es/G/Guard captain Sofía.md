@@ -22,9 +22,9 @@
   - Siendo guard captain.
     - **Guard captain Sofía:** Es un gran paso adelante con respecto a lo que he hecho en el pasado, sin embargo, estoy listo para ayudar a proteger el fuerte.
     - **Player:** Brillante. Me siento mucho mejor sabiendo que el fuerte está en manos capaces.
-  - ((Una vez que se ha hablado con Granny Rowan en el banco del botánico pero antes de acceder al banco:))
+  - ((Once Granny Rowan has been talked to at the botanist's bench but before getting access to the bench:))
     - Hablar de Granny Rowan
-      - ((Sólo la primera vez:))
+      - ((Only on first time:))
         - **Guard captain Sofía:** ¿Qué puedo hacer por usted, excelencia?
         - **Player:** Ha habido un fallo alarmante en la seguridad.
         - **Guard captain Sofía:** ¿Qué es?
@@ -37,6 +37,6 @@
         - **Player:** ¿Crees?
         - **Guard captain Sofía:** Nos vendría bien su ayuda, con ataque inminente y todo. No te preocupes, la vigilaré bien.
         - **Player:** Entonces será mejor que le dé la buena noticia.
-      - ((Después de la primera vez, antes de hablar con Granny Rowan:))
+      - ((After first time, before talking with Granny Rowan:))
         - **Guard captain Sofía:** ¿Tuviste esa charla con el viejo Granny Rowan? No rechazaría su ayuda, por extraña que sea.
         - **Player:** Todavía no.

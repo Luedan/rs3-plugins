@@ -30,12 +30,12 @@
     - **Sensei Hakase:** Disculpe mi incredulidad, pero estoy muy contento de que su amigo se haya recuperado.
   - [Choice]: ¿Hay algo que pueda aprender?
     - **Player:** ¿Me queda algo por aprender?
-    - (Condition: Primera vez:)
+    - (Condition: First time:)
       - **Sensei Hakase:** ¡Eso es increíble! No te queda nada por aprender.
-    - (Condition: Después:)
+    - (Condition: Afterwards:)
       - **Sensei Hakase:** Ya te dije antes que no te queda nada que aprender. ¿Por qué me lo preguntarías de nuevo?
-    - (Condition: Después de completar el logro Salty y antes de desbloquear el título:)
+    - (Condition: After completing the Salty achievement and before unlocking the title:)
       - ¡Has desbloqueado el título '{{coloury}}'!|color=#d7f388}}
-      - (ventana emergente)
+      - (pop-up)
         - (Ventana emergente: ¡Has desbloqueado el título '{{colour|#fab402|S{{colour|#fae602|alt)y}}'!|color=#d7f388}}
       - **Sensei Hakase:** Esto es sorprendente. No sabía que había alguien más que supiera tanto.

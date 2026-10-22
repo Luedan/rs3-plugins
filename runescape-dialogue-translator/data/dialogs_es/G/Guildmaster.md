@@ -42,10 +42,10 @@
     - (arriba)
   - [Choice]: ¿Puedo tener otra llave del Laberinto de Melzar?
     - **Player:** ¿Puedo tener otra llave para el Laberinto de Melzar?
-    - (Condition: Si el player no tiene la clave:)
+    - (Condition: If the player does not have the key:)
       - **Guildmaster:** ¡Por supuesto! Aquí tienes.
       - (receives=Maze key)
-    - (Condition: Si el player tiene la clave en su backpack o en el banco:)
+    - (Condition: If the player has the key in their backpack or in bank:)
       - **Guildmaster:** Creo que ya tienes una clave. Quizás deberías consultar tu banco.
-    - (Condition: Si el player tiene la llave en su llavero de acero:)
+    - (Condition: If the player has the key in their steel key ring:)
       - **Guildmaster:** Creo que ya tienes una clave. Quizás deberías revisar tu llavero.

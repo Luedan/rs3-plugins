@@ -19,19 +19,19 @@
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Puedes hacer una poción de fuerza?
     - **Player:** ¿Puedes hacer una poción de fuerza?
-    - (Condition: Sin los ingredientes:)
+    - (Condition: Without the ingredients:)
       - **Apothecary:** Sí, pero los ingredientes son un poco difíciles de encontrar. Si alguna vez los consigues, lo haré por ti, pagando una tarifa.
       - **Player:** Entonces, ¿cuáles son los ingredientes?
       - **Apothecary:** Necesitarás encontrar los huevos de la mortal araña roja y una raíz de limpwurt.
       - **Apothecary:** Ah, y tendrás que pagarme 5 coins.
       - **Player:** Ok, los cuidaré.
-    - (Condition: Con los ingredientes:)
+    - (Condition: With the ingredients:)
       - **Apothecary:** Por supuesto. Veo que tienes huevos de araña y raíz de limpwurt. Entrégamelos, págame 5 coins por poción y empezaré.
       - [Menu]: Selecciona una opción
         - [Choice]: Vale, eso suena bien.
           - **Player:** Vale, eso suena bien.
           - (removes=red spiders' eggs, limpwurt root and 5 coins) (receives=strength potion (4))
-          - (Condition: Si es la primera vez que preparan una poción de fuerza en la botica:)
+          - (Condition: If this is the first time having a strength potion made at the apothecary:)
             - {{RSFontAchievement|Double-strength Weaksauce}}
             - (continue)
           - {{tbox|pic=Strength potion (4) detail.png|The Apothecary gives you a strength potion.}}
@@ -42,21 +42,21 @@
     - **Apothecary:** Así es. Se lo di a mi madre. Por eso ahora vivo solo.
   - [Choice]: ¿Tienes alguna buena poción para regalar?
     - **Player:** ¿Tienes alguna poción buena para regalar?
-    - (Condition: Con una poción para el acné en el backpack:)
+    - (Condition: With an acne potion in the backpack:)
       - **Apothecary:** Sólo esa crema para manchas. Espero que lo disfrutes.
-    - (Condition: Sin poción para el acné en el backpack:)
-      - (Condition: Si Apothecary acepta la solicitud de el player:)
+    - (Condition: Without an acne potion in the backpack:)
+      - (Condition: If the Apothecary accepts the player's request:)
         - **Apothecary:** Bueno, entonces. Prueba esta poción.
         - (receives=acne potion)
-      - (Condition: Si Apothecary rechaza la solicitud de el player:)
+      - (Condition: If the Apothecary declines the player's request:)
         - **Apothecary:** Lo siento, la caridad no es mi punto fuerte.
   - [Choice]: ¿Puedes hacer una poción que haga que parezca que estoy muerto?
     - **Player:** ¿Puedes hacer una poción que haga que parezca que estoy muerto?
     - **Apothecary:** ¡Qué petición más extraña y morbosa! Puedo como sucede. La baya del arbusto cadava, preparada adecuadamente, inducirá un coma tan profundo que parecerá que estás muerto. Es muy peligroso.
     - **Apothecary:** Tengo los demás ingredientes, pero necesitaré que me traigas un manojo de cadava berries.
-    - (Condition: Sin cadava berries en el backpack:)
+    - (Condition: Without cadava berries in the backpack:)
       - **Player:** Lo tendré en cuenta.
-    - (Condition: Con cadava berries en backpack:)
+    - (Condition: With cadava berries in the backpack:)
       - [Menu]: Selecciona una opción
         - [Choice]: Toma estos cadava berries.
           - **Player:** Toma estos cadava berries.
@@ -74,7 +74,7 @@
 #### Usando el diario de Herbi Flax en él
 
 - {{tbox|pic=Diary (Shades of Mort'ton) detail.png|You show the Serum book to the Apothecary.}}
-  - (Condition: Si aún no se ha proporcionado:)
+  - (Condition: If not already given:)
     - **Apothecary:** ¿Quieres cambiar el diario todavía? Me gustaría pasar la información a la comunidad científica de Varrock.
     - [Menu]: Selecciona una opción
       - [Choice]: Sí, lo cambiaré por entrenamiento en herblore.
@@ -87,7 +87,7 @@
       - [Choice]: No gracias, quiero conservarlo un poco más.
         - **Player:** No, gracias, quiero conservarlo un poco más.
         - **Apothecary:** Oh, es una pena... Vuelve si cambias de opinión.
-  - (Condition: Si ya se ha dado:)
+  - (Condition: If already given:)
     - **Apothecary:** Hmm, este es un tomo interesante... Pero ya me vendiste uno, ¡gracias!
 
 #### Si el player ha perdido su gorro de enfermera o médico
@@ -115,18 +115,18 @@
 - **Apothecary:{{anchor|brew}}** Soy el Apothecary. Preparo pociones. <br>¿Necesitas algo específico?
 - [Menu]: Elige una opción:
   - [Choice]: ¿Puedes hacer una poción de fuerza?
-    - (Condition: Antes de la Dimensión del Desastre: Demonio Slayer:)
+    - (Condition: Before Dimension of Disaster: Demon Slayer:)
       - **Apothecary:** Normalmente, estaría encantado de hacerlo, pero algunos de mis ingredientes más peligrosos han sido incautados en el campamento de demonios de Delrith.
       - **Apothecary:** Si alguna vez logras entrar allí y encuentras mi alijo de huevos de araña roja y raíces de limpwurt, tráemelos.
       - **Apothecary:** Como agradecimiento, ¡te daré la tarifa de "amigo especial" de cinco zemomarks por poción de fuerza!
       - **Player:** Lo tendré en cuenta.
       - (initial)
-    - (Condition: Después de Dimensión del desastre: Demon Slayer:)
+    - (Condition: After Dimension of Disaster: Demon Slayer:)
       - **Apothecary:** Estaría encantado de hacerlo, pero algunos de mis ingredientes más "peligrosos" han sido incautados en el campamento de demonios de Delrith.
       - **Apothecary:** He oído que puedes entrar allí. Si encuentras mi alijo de huevos de araña roja y raíces de limpwurt, tráemelos. Sólo cobraré cinco zemomarks por poción de fuerza.
       - **Apothecary:** Sin embargo, solo tenía un puñado de ingredientes; esas cosas son difíciles de conseguir en el nuevo Varrock. Una vez que se han ido, se han ido.
       - (initial)
-    - (Condition: Con huevos de araña roja y raíces de limpwurt en backpack:)
+    - (Condition: With red spiders' eggs and limpwurt roots in backpack:)
       - **Apothecary:** ¿Quieres que los use para mezclar algunas pociones de fuerza? Sólo cinco zemomarks por poción.
       - [Menu]: Selecciona una opción
         - [Choice]: Sí.
@@ -138,10 +138,10 @@
   - [Choice]: ¿Puedes hacer una poción que haga que parezca que estoy muerto?
     - **Apothecary:** ¡Qué petición más extraña y morbosa! Puedo, da la casualidad. La baya del arbusto cadava, preparada adecuadamente, inducirá un coma tan profundo que parecerá que estás muerto. Es muy peligroso.
     - **Apothecary:** Tengo los demás ingredientes, pero necesitaré que me traigas un manojo de cadava berries.
-    - (Condition: Sin cadava berries en backpack:)
+    - (Condition: Without cadava berries in backpack:)
       - **Player:** Lo tendré en cuenta.
       - (initial)
-    - (Condition: Con cadava berries en backpack:)
+    - (Condition: With cadava berries in backpack:)
       - [Menu]: Selecciona una opción
         - [Choice]: Toma estos cadava berries.
           - [Le entregas el berries, que el boticario agita en un frasco de un líquido extraño.]

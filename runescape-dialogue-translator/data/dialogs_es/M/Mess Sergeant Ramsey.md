@@ -11,7 +11,7 @@
 
 ### In the Pick and Lute inn in Taverley
 
-- ((Mess Sergeant Ramsey comienza con uno de los siguientes diálogos al azar:))
+- ((Mess Sergeant Ramsey begins with one of the following dialogue at random:))
   - **Mess Sergeant Ramsey:** ¿Dónde está la biblioteca? ¿Qué estoy diciendo? Quiero decir ¿dónde está el queso? ¿Puedo ayudarle?
   - **Mess Sergeant Ramsey:** ¿Dónde está el pomelo? ¿Alguien ha visto mi pomelo? ¿Puedo ayudarle?
   - **Mess Sergeant Ramsey:** ¿Qué pasó con la carne que he estado apilando? ¿Quién lo tomó? ¿Puedo ayudarle?

@@ -21,7 +21,7 @@
     - (below|Decant option)
   - [Choice]: ¿Me pueden ayudar con los precios de las hierbas?
     - **Rhobert Dail (hierbas):** ¡Estaría encantado de hacerlo!
-    - ((Precios indicativos: se abren las hierbas.))
+    - ((Guide Prices: Herbs opens up.))
   - [Choice]: ¿Cuanto cobran por decantar pociones?
     - **Rhobert Dail (hierbas):** Si quieres pociones decantadas en versiones de 4, 3, 2 o 1 dosis, cobro 2 coins por cada vial normal, 2 coins por cada vial de juju y 15 coins por cada vial de powerburst.
   - [Choice]: Lo siento, tengo que irme.
@@ -29,17 +29,17 @@
 
 #### Opción de decantar
 
-- ((Lo siguiente se muestra en una interfaz titulada "Opciones de Decantación":))
+- ((The following is shown in an interface titled "Decanting Options":))
   - [Choice]: Decantar viales
     - [Menu]: ¿En cuántas dosis quieres decantar?
       - [Choice]: una dosis
-        - (Condition: Con pociones decantables en backpack:)
+        - (Condition: With decantable potions in backpack:)
           - **Rhobert Dail (hierbas):** Ahí lo tienes, amigo.
-        - (Condition: Sin pociones decantables en backpack:)
+        - (Condition: Without decantable potions in backpack:)
           - **Rhobert Dail (hierbas):** Lo siento, no sé cómo decantar nada de lo que llevas.
-        - (Condition: Sin suficiente dinero para viales adicionales:)
+        - (Condition: Without enough money for extra vials:)
           - **Rhobert Dail (hierbas):** Lo sentimos, no tienes suficiente dinero para pagar suficientes viales vacíos.
-        - (Condition: Sin espacio en backpack para viales extra:)
+        - (Condition: Without space in backpack for extra vials:)
           - **Rhobert Dail (hierbas):** Tu inventario está demasiado lleno para que pueda hacer algo por ti.
       - [Choice]: Dos dosis
         - (arriba)
@@ -48,28 +48,28 @@
       - [Choice]: Cuatro dosis
         - (arriba)
   - [Choice]: Decantar matraces
-    - (Condition: Sin frascos viables de pociones para decantar:)
+    - (Condition: With no viable flasks of potions to decant:)
       - **Rhobert Dail (hierbas):** Lo siento, parece que no tienes nada que pueda usar. ¡Asegúrate de tener 2 matraces que no estén completamente llenos!
-    - (Condition: Con matraces para decantar:)
+    - (Condition: With flasks to decant:)
       - **Rhobert Dail (hierbas):** Veamos qué tienes. Decantaré sus frascos de poción nuevamente en 6 frascos dosificados. Puedo hacer uso de los frascos, así que los aceptaré como pago.
       - (Action: Rhobert decanta tantas como puede hasta llenar frascos de 6 dosis)
       - **Rhobert Dail (hierbas):** Aquí tienes. ¡Eso es lo mejor que puedo hacer! Si los matraces no se ven muy diferentes, los limpié.
   - [Choice]: Convertir viales en matraces
-    - (Condition: Sin matraces vacíos en backpack:)
+    - (Condition: With no empty flasks in backpack:)
       - **Rhobert Dail (hierbas):** Tendrás que proporcionar los frascos vacíos tú mismo; no son baratos. Puedes traérmelos anotados o sin anotaciones.
-    - (Condition: Con matraces vacíos en backpack:)
+    - (Condition: With empty flasks in backpack:)
       - **Rhobert Dail (hierbas):** Veamos qué tienes. Decantaré los viales de poción y todos los frascos hasta 4 dosis en frascos de 6 dosis. Tendrás que proporcionar los matraces vacíos tú mismo; no son baratos.
-      - (Condition: Con pociones para decantar en matraces:)
+      - (Condition: With potions to decant into flasks:)
         - (Action: Rhobert decanta tantas pociones como puede hasta llenar frascos de 6 dosis.)
         - **Rhobert Dail (hierbas):** Aquí tienes. ¡Eso es lo mejor que puedo hacer!
-      - (Condition: Sin pociones que decantar:)
+      - (Condition: With no potions to decant:)
         - **Rhobert Dail (hierbas):** ¡Lo siento, parece que no tienes nada en lo que pueda ayudarte! Asegúrate de tener las pociones correctas y algo de espacio libre en tu inventario y podré intentarlo de nuevo.
   - [Choice]: Convertir matraces en viales
-    - (Condition: Sin frascos viables de pociones para decantar:)
+    - (Condition: With no viable flasks of potions to decant:)
       - **Rhobert Dail (hierbas):** Lo siento, parece que no tienes nada que pueda usar. ¡Asegúrate de tener al menos 1 matraz!
-    - (Condition: Con frascos de pociones para decantar a viales:)
+    - (Condition: With flasks of potions to decant to vials:)
       - **Rhobert Dail (hierbas):** Por supuesto. Creo que puedo utilizar los matraces, así que te daré los viales gratis.
       - (Action: Rhobert decanta tantas pociones como puede en viales destacados.)
       - **Rhobert Dail (hierbas):** Ahí lo tienes, ¡eso es lo mejor que puedo hacer!
   - [Choice]: Cancelar
-    - ((La interfaz se cierra.))
+    - ((The interface closes.))

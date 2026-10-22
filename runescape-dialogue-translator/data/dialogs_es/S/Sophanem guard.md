@@ -41,13 +41,13 @@
     - [Menu]: Selecciona una opción
       - [Choice]: Yo lo tomaré.
         - **Player:** Lo aceptaré.
-        - (Condition: Si el player no tiene espacio en el inventario:)
+        - (Condition: If the player has no inventory space:)
           - **Player:** Dios mío; Parece que no tengo suficiente espacio en mis bolsos para llevarlo. Vuelvo enseguida.
           - **Sophanem guard (hombre/mujer):** Estaré aquí cuando regreses.
-        - (Condition: Si el player tiene menos de 200 coins:)
+        - (Condition: If the player has less than 200 coins:)
           - No puedes permitirte eso.
           - **Player:** No tengo suficiente dinero encima. Volveré cuando tenga suficiente.
-        - (Condition: Si el player tiene 200 coins:)
+        - (Condition: If the player has 200 coins:)
           - (removes=200 coins)
           - (receives=unlit torch)
           - [El guardia te entrega una antorcha apagada a cambio de 200 po.]
@@ -62,11 +62,11 @@
     - **Sophanem guard (masculino/femenino):** Sophanem es mi ciudad natal, por lo que se necesitaría mucho más que la amenaza de unos pocos lugares para mantenerme alejado.
   - [Choice]: ¿Qué es este lugar?
     - **Player:** ¿Qué es este lugar?
-    - (Condition: ¡Antes del contacto!)
+    - (Condition: Before Contact!)
       - **Sophanem guard (masculino/femenino):** Estos son los restos del Banco Sophanem.
       - **Player:** ¿Qué pasó con este lugar? Está todo destrozado...
       - **Sophanem guard (masculino/femenino):** Hace algún tiempo, estas criaturas escarabajos comenzaron a aparecer desde el sótano. Luchamos contra ellos, pero siguieron viniendo y viniendo y finalmente destruyeron el lugar. Ahora los hemos defendido de nuevo y hemos bloqueado la trampilla.
-    - (Condition: ¡Después del contacto!)
+    - (Condition: After Contact!)
       - **Sophanem guard (masculino/femenino):** Este es el banco Sophanem recientemente renovado.
       - **Player:** Vaya, este lugar está todo arreglado.
       - **Sophanem guard (hombre/mujer):** Una vez que toda la gente del pueblo regresó, decidimos arreglar el lugar y devolverlo a la normalidad.

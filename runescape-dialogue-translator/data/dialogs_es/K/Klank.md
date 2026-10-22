@@ -26,12 +26,12 @@
         - **Klank:** Aquí no bromeamos amigo...
       - [Choice]: Está bien, entonces tomaré un par.
         - **Player:** Está bien, entonces tomaré un par.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - (removes=5,000 coins) (receives= Klank's gauntlets)
           - Le das Klank 5000 coins...
           - **Klank:**Ahí lo tienes... Espero que te ayuden.
           - **Player:** Nos vemos en Klank.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Dios mío, no tengo suficiente dinero...
           - No puedes permitirte eso.
           - **Klank:** Lo siento, no puedo venderlos más baratos que eso.

@@ -20,7 +20,7 @@
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Interrumpir el flowing energy?
     - si
-      - (Ventana emergente: [Player] ha interrumpido el flowing energy. Una risa estridente resuena desde arriba).
+      - (Pop-up: [Player] has interrupted the flowing energy. A shrill laugh echoes from above.)
     - No
       - (end)
 
@@ -37,22 +37,22 @@
 
 ##### La ira de Nex aumenta por el uso de sus ataques cuerpo a cuerpo.
 
-- (Ventana emergente: ¡Nex deja escapar un ligero silbido mientras te golpea!|advertencia=yes)
+- (Pop-up: Nex lets out a slight hiss as she lands a hit on you!|warning=yes)
 - ¡Nex deja escapar un ligero silbido mientras te golpea!
 
 ##### Nex con cinco pilas de enfurecimiento
 
-- (Ventana emergente: ¡Nex comienza a perder el control con ira!|advertencia=yes)
+- (Pop-up: Nex starts to lose control with anger!|warning=yes)
 - ¡Nex comienza a perder el control con ira!
 
 ##### Nex con diez pilas de enfurecimiento
 
-- (Ventana emergente: ¡Nex comienza a gritar de rabia mientras te golpea!|advertencia=yes)
+- (Pop-up: Nex begins to scream with rage as she hits you!|warning=yes)
 - ¡Nex comienza a gritar de rabia mientras te golpea!
 
 ##### La ira de Nex se aclara
 
-- (Ventana emergente: Nex ha comenzado a dirigir toda su atención a otra persona...|advertencia=yes)
+- (Pop-up: Nex has begun directing her full attention to someone else..|warning=yes)
 - Nex ha comenzado a dirigir toda su atención a otra persona.
 
 #### Ser atacado por Nex desde fuera del centro de la arena.
@@ -95,7 +95,7 @@
 - Nex comienza a convocar a sus magos.
 - {{#var:Nex}}Adelante, mi Praesul. ¡Ayúdame! {{Audio button|Nex - Come forth, my Praesul. Aid me!.ogg}}
 - {{#var:Nex}}¡Muestre a estos intrusos el verdadero significado del dolor!{{Audio button|Nex - Show these intruders the true meaning of pain!.ogg}}
-- (Ventana emergente: Nex genera poderosas fusiones de cada elemento.|advertencia=yes)
+- (Pop-up: Nex brings forth powerful amalgamations of each element.|warning=yes)
 
 #### Fusiones de desove
 
@@ -128,12 +128,12 @@
 
 ##### Un objetivo
 
-- (Ventana emergente: Nex comienza a atraer humo desde los bordes de la arena.|advertencia=yes)
+- (Pop-up: Nex begins draw smoke in from the edges of the arena.|warning=yes)
 - Nex comienza a aspirar humo desde los bordes de la arena.
 
 ##### Dos objetivos
 
-- (Ventana emergente: ¡Nex comienza a atraer humo desde el norte/este hacia usted!|advertencia=yes)
+- (Pop-up: Nex begins to draw smoke from the north/east towards you!|warning=yes)
 - ¡Nex comienza a atraer humo desde el norte/este hacia ti!
 
 #### Humo inestable
@@ -149,10 +149,10 @@
 #### Golpe de carámbano
 
 - {{#var:Nex}}Tú... Quédate...{{Audio button|21932.ogg}}
-- (Ventana emergente: El hielo comienza a formarse a tus pies, bloqueándote en su lugar.|advertencia=yes)
+- (Pop-up: Ice begins to form at your feet, locking you in place.|warning=yes)
 - El hielo comienza a formarse a tus pies, bloqueándote en su lugar.
 - {{#var:Nex}}DOWN{{Audio button|21937.ogg}}
-- (Ventana emergente: un carámbano cae del techo y te inmoviliza.|advertencia=yes)
+- (Pop-up: An icicle falls from the ceiling, pinning you in place.|warning=yes)
 - Un carámbano cae del techo y te inmoviliza.
 
 ### Phase 4
@@ -168,12 +168,12 @@
 
 #### Apuntar a un jugador con la Marca de los Elementos
 
-- (Ventana emergente: Nex te ha marcado para que aproveches toda la fuerza de los elementos.|advertencia=yes)
+- (Pop-up: Nex has marked you to take the full force of the elements.|warning=yes)
 - Nex te ha marcado para aprovechar toda la fuerza de los elementos.
 
 #### Ser golpeado por la Marca de los Elementos mientras estás en la cúpula del escudo
 
-- (Ventana emergente: el escudo bloquea la mayor parte del daño, pero sientes que los elementos hierven en su interior.|advertencia=yes)
+- (Pop-up: The shield blocks most the damage, but you feel the elements boiling up inside.|warning=yes)
 - El escudo bloquea la mayor parte del daño, pero sientes que los elementos hierven en su interior.
 
 #### Ser golpeado por la Marca de los Elementos con Inmortalidad activa
@@ -200,10 +200,10 @@
 ### Defeating Nex, Angel of Death
 
 - (Action: Las alas de Nex se desintegran y ella cae al suelo. Aparecen montones de botín en el centro de la arena.)
-- (Condition: Si se estableció un nuevo tiempo más rápido:)
+- (Condition: If a new fastest time was set:)
   - Tiempo de finalización: [time] - ¡Nuevo récord personal! ¡Una mejora de [número] segundos!
   - (continue)
-- (Condition: Si no se estableció un nuevo tiempo más rápido:)
+- (Condition: If a new fastest time wasn't set:)
   - {{Colour [time]}}
   - (continue)
 - Has matado a [número] Nex, Angel of Death.

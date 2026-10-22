@@ -32,7 +32,7 @@
 
 ### Task System
 
-- (Condition: Si se completaron los logros de Easy Tirannwn y no se reclamaron las recompensas:)
+- (Condition: If the Easy Tirannwn achievements have been completed and the rewards not claimed:)
   - **Player:** He completado todas las tareas fáciles del conjunto Tirannwn.
   - **Elf Tracker:** Ah, eso es un alivio. Ya puedes usar el carcaj Tirannwn. Tengo uno para ti.
   - [El Elf Tracker te entrega un carcaj y una lámpara vieja.]
@@ -40,7 +40,7 @@
   - **Player:** ¡Gracias!
   - **Elf Tracker:** Ahora que has completado el conjunto de tareas Fácil, también puedes vender tu piedra caliza a Meredith, reclamar alquitrán de pantano gratis en Lletya general store y mucho más.
   - (continue)
-- (Condition: Si el player ha perdido su carcaj Tirannwn 1:)
+- (Condition: If the player has lost their Tirannwn quiver 1:)
   - **Elf Tracker:** ¿Tú otra vez? ¿Cómo te fue con el carcaj?
   - **Player:** Lo perdí.
   - **Elf Tracker:** ¿Perdido? Bueno, da la casualidad de que encontré otro. Cuida mejor este.

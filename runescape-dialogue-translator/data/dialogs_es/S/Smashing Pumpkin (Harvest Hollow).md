@@ -14,13 +14,13 @@
 
 #### Primera vez
 
-- (Condition: Sin haber recibido una máscara de calabaza podrida durante eventos anteriores:)
+- (Condition: Without having received a rotten pumpkin mask during previous events:)
   - (receives=rotten pumpkin mask)
   - [La extraña calabaza te da una vieja cabeza de calabaza.]
   - (continue|not-upgraded)
-- (Condition: Sin haber mejorado la máscara de calabaza podrida durante eventos anteriores:)
+- (Condition: Without having upgraded the rotten pumpkin mask during previous events:)
   - Sientes que la energía que emana de la calabaza ayudaría a mejorar la máscara de calabaza podrida.
-- (Condition: Habiendo recibido y mejorado la máscara de calabaza podrida durante eventos anteriores:)
+- (Condition: Having already received and upgraded the rotten pumpkin mask during previous events:)
   - La calabaza parece temblar de miedo. Aunque parece indestructible, me pregunto por qué continúas pisoteándolo si ya has mejorado tu máscara de calabaza.
   - (continue|Afterwards)
 
@@ -31,5 +31,5 @@
 #### Al aplastar 250 calabazas
 
 - ¡Has destrozado 250 calabazas! Ahora puedes cambiar el estilo de tu máscara de calabaza podrida.
-- ((Se muestra en una ventana emergente:))
-  - (Ventana emergente: ¡Has destrozado 250 calabazas! Ahora puedes cambiar el estilo de tu máscara de calabaza).
+- ((Shown in a pop-up:))
+  - (Pop-up: You've smashed 250 pumpkins! You can now change the style of your pumpkin mask.)

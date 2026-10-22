@@ -11,21 +11,21 @@
 
 ### Overhead dialogue
 
-- ((Lo siguiente aparece una vez cada 18 segundos si hay un jugador cercano que no ha hablado con uno de los fanáticos:))
+- ((The following appears once every 18 seconds if there is a nearby player who hasn't talked to one of the fanatics:))
   - **Primal fanatic:** {{RSChat|Hey, Player. Have you heard about the Mining and Smithing update?}}
 
 ### Talk to
 
-- (Condition: Primera vez:)
+- (Condition: First time:)
   - **Player:** Vaya, ¿qué es lo que llevas puesto?
   - (continue)
-- (Condition: Después:)
+- (Condition: Afterwards:)
   - **Player:** ¿Puedes recordarme qué llevas puesto?
   - (continue)
-- (Condition: Antes de la actualización del juego del 12 de agosto de 2024:)
+- (Condition: Before the game update on 12 August 2024:)
   - **Primal fanatic:** Llevo armadura y equipo primarios. Podrás crearlo tú mismo en la próxima actualización 110 Mining y Smithing.
   - (continue)
-- (Condition: Después de la actualización del juego del 12 de agosto de 2024:)
+- (Condition: After the game update on 12 August 2024:)
   - **Primal fanatic:** Llevo armadura y equipo primarios. ¡Puedes crearlo tú mismo en la actualización 110 Mining y Smithing!
   - (continue)
 - **Primal fanatic:** Para forjarlo, primero necesitarás extraer 10 minerales nuevos en toda la península Daemonheim, lo que requiere 100 Mining y un pico adecuado.

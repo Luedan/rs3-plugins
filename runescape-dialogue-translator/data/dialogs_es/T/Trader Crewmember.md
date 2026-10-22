@@ -44,7 +44,7 @@
         - **Trader Crewmember:** Es difícil odiarlo cuando sabemos cuánto gasta en este equipo, pero si me caigo por la borda debido a este atuendo una vez más, lo dejaré.
         - **Player:** Vaya, eso es un poco duro.
   - [Choice]: Habla de barcos chárter. {{anchor|charter}}
-    - (Condition: Si el player tiene la confirmación desactivada:)
+    - (Condition: If the player has confirmation turned off:)
       - [Menu]: Elige una opción:
         - [Choice]: Alquilar un barco
           - (abajo)
@@ -54,18 +54,18 @@
           - **Trader Crewmember:** ¿Hubo algo más?
           - **Player:** Sí, me gustaría alquilar un barco.
           - **Trader Crewmember:** Por supuesto señor, ¿adónde le gustaría ir?
-          - ((Se abre la interfaz de destino de Charter Ship.))
-    - (Condition: De lo contrario:)
+          - ((Charter Ship destination interface opens.))
+    - (Condition: Otherwise:)
       - **Player:** Sí, me gustaría alquilar un barco.
       - **Trader Crewmember:** Por supuesto [sir/madam], ¿adónde te gustaría ir?
-      - (Condition: Si el player tiene sábana:)
+      - (Condition: If the player has a bedsheet:)
         - **Trader Crewmember:** Lo sentimos, somos un barco de lavandería, tendrás que dejar esas sábanas sucias.
         - **Player:** ¿Me dejarías traerlo si te dijera que es una manta de seguridad?
         - **Trader Crewmember:** No, entonces simplemente nos burlaríamos de ti.
         - **Player:** Ah, ya veo.
-      - (Condition: Si el player tiene una sábana cubierta de baba:)
+      - (Condition: If the player has a slime-covered bedsheet:)
         - **Trader Crewmember:** ¿Esa tu sábana está cubierta de baba sucia?
         - **Player:** Puedo decir con toda honestidad que no lo es.
         - **Trader Crewmember:** Bueno, a quien pertenezca, ¡no vendrá en este barco!
-      - (Condition: De lo contrario:)
-        - ((Se abre la interfaz de destino de Charter Ship.))
+      - (Condition: Otherwise:)
+        - ((Charter Ship destination interface opens.))

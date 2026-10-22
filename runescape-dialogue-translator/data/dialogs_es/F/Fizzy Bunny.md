@@ -16,7 +16,7 @@
 
 - **Fizzy Bunny:** Es un título interesante... Yo era el mismo hasta que mi amigo, el Makeover Mage, me ayudó.
 - ¡Has desbloqueado el color 'Agrietado' para el título 'el Huevo'!
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - ¡Has desbloqueado el color 'Agrietado' para el título 'el Huevo'!
   - (continue)
 - **Fizzy Bunny:** Déjame ponerle algunos colores nuevos a ese título, tal vez te sirvan.
@@ -34,20 +34,20 @@
     - **Fizzy Bunny:** Si logras localizarlos, me encantaría ofrecerte fichas de primavera a cambio de las que me devuelvas.
     - (previous)
   - [Choice]: Tengo algo para ti.
-    - (Condition: Sin conejos de chocolate:)
+    - (Condition: Without chocolate rabbits:)
       - **Fizzy Bunny:** ¿Me estás tomando el pelo? ¡No tienes conejos! Vuelve cuando tengas algo para mí.
-    - (Condition: Con conejos de chocolate:)
-      - (Condition: Con al menos 30.000 fichas de primavera:)
+    - (Condition: With chocolate rabbits:)
+      - (Condition: With at least 30,000 spring tokens:)
         - [Menu]: No recibirás ningún token Spring por esto. ¿Entregar de todos modos?
           - [Choice]: Sí.
             - (removes=all chocolate rabbits in backpack)
             - Ha alcanzado el límite flexible del token Spring de 30 000. Debes gastar algunas fichas en la tienda de Gummy antes de poder ganar más.
-            - (ventana emergente)
-              - (Ventana emergente: has alcanzado el límite flexible de tokens de primavera de 30 000. Debes gastar algunos tokens en la tienda de Gummy antes de poder ganar más.|advertencia=yes)
+            - (pop-up)
+              - (Pop-up: You have reached the Spring token soft cap of 30,000. You need to spend some tokens in Gummy's store before you can earn more.|warning=yes)
               - (continue)
           - [Choice]: No.
             - (end)
-      - (Condition: Con menos de 30.000 tokens de primavera:)
+      - (Condition: With less than 30,000 spring tokens:)
         - (removes=all chocolate rabbits in backpack)
         - Se ha agregado lo siguiente a su bolsa de divisas: [número] x tokens Spring
         - (continue)

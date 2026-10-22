@@ -14,7 +14,7 @@
 
 #### Con un gato como seguidor o en el backpack sin seguidor
 
-- (Condition: Si el gato está en backpack de el player:)
+- (Condition: If the cat is in the player's backpack:)
   - (Action: El gato emerge del backpack de el player.)
   - **[Cat:]** {{RSChat|Meeeew!}}
 - **Player:** Buenos días.
@@ -22,7 +22,7 @@
 - **Sphinx:** Ah, qué interesante... un gato. Ven aquí, gatito.
 - **[Cat:]** Miau.
 - Tu gato y el Sphinx conversan en un lenguaje aullante durante un breve momento.
-- (Condition: Si el player lleva un amuleto o cramulet en lengua de gato:)
+- (Condition: If the player is wearing a catspeak amulet or cramulet:)
   - **Sphinx:** ¿Crees que podrás comunicarte conmigo a un nivel más profundo porque llevas ese amuleto de gato?
   - **Player:** Mmmm, sí.
   - **Sphinx:** Humano tonto, ¿no soy en parte humano? <br>La Sphinx sacude la cabeza desconcertada.

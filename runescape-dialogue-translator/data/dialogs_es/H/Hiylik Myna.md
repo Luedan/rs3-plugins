@@ -14,7 +14,7 @@
 - **Hiylik Myna:** Hola amigo. ¿Qué puedo hacer por ti?
 - [Menu]: Selecciona una opción
   - [Choice]: Hable sobre el sistema de tareas...
-    - ((Si el player ha completado los logros fáciles de Morytania y no se han reclamado las recompensas:))
+    - ((If the player has completed the easy Morytania achievements and the rewards have not been claimed:))
       - **Player:** He completado todas las tareas fáciles del conjunto Morytania.
       - **Hiylik Myna:** Ah, eso es un alivio. Ya puedes usar leggings Morytania. Tengo algunos para ti.
       - [Hiylik Myna te entrega unas mallas y una lámpara vieja.]
@@ -22,7 +22,7 @@
       - **Hiylik Myna:** más recompensas. Oh, también hay una lámpara aquí que encontré en el pantano; quizás le encuentres utilidad.
       - **Player:** ¡Gracias!
       - (continue)
-    - (Condition: Si el player ha perdido sus patas Morytania 1:)
+    - (Condition: If the player has lost their Morytania legs 1:)
       - **Hiylik Myna:** ¿Tú otra vez? ¿Cómo te fue con los leggins?
       - **Player:** Los perdí.
       - **Hiylik Myna:** ¿Los perdiste? Bueno, da la casualidad de que encontré otro par. Cuida mejor estos.

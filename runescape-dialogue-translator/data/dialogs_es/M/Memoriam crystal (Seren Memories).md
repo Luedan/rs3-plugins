@@ -13,5 +13,5 @@
 
 - (receives=a memoriam crystal)
 - [Extraes el cristal de memoria.]
-- (Condition: Repetido en el chat:)
+- (Condition: Repeated in the chat:)
   - Extraes el cristal de memoria.

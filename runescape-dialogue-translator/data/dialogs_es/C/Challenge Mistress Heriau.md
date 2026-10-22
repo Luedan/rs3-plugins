@@ -24,12 +24,12 @@
     - Si completas un desafío de combate, obtendrás una lámpara de XP que se puede usar en cualquier habilidad de combate. Si completas cualquier otro desafío, obtendrás XP en esa habilidad directamente. También recibirás una clave Treasure Hunter.
     - (initial)
   - [Choice]: Quiero alternar mis desafíos diarios activos.
-    - ((Se abre la interfaz de desafío al máximo.))
+    - ((Maxed challenge interface opens.))
   - [Choice]: He completado un desafío diario.
-    - (Condition: Sin ningún desafío para entregar:)
+    - (Condition: Without any challenges to turn in:)
       - **Challenge Mistress Heriau:** No parece que hayas completado ningún desafío diario. Vuelve cuando hayas completado uno.
       - (initial)
-    - (Condition: Con desafíos para entregar:)
+    - (Condition: With challenges to turn in:)
       - **Challenge Mistress Heriau:** Ya lo has completado. ¡Bien hecho! Aquí está tu recompensa. ''(Se repite si hay más de un desafío completado)
       - **Challenge Mistress Heriau:** ¡Parece que eso es todo!
       - (initial)
@@ -37,13 +37,13 @@
 #### Entrando al gremio Max por primera vez
 
 - ¡Al ingresar al gremio Max por primera vez, desbloqueas el teletransporte del gremio Max en tu libro de habilidades!
-- (ventana emergente)
-  - (Ventana emergente: al ingresar al gremio Max por primera vez, ¡desbloqueas el teletransporte del gremio Max en tu libro de habilidades!)
+- (pop-up)
+  - (Pop-up: Upon entering the Max Guild for the first time, you unlock the Max guild teleport in your ability book!)
   - (continue)
 - **Challenge Mistress Heriau:** ¡Oye, bienvenido a la torre del gremio Max! Debe haberte costado mucho trabajo llegar hasta aquí.
-- (Condition: Sin un espacio backpack libre:)
+- (Condition: Without one free backpack space:)
   - **Challenge Mistress Heriau:** Tengo un regalo de bienvenida para ti; Lo guardaré hasta que tengas espacio para aceptarlo.
-- (Condition: Con un espacio backpack gratuito:)
+- (Condition: With one free backpack space:)
   - (receives=crystal acorn)
   - **Challenge Mistress Heriau:** Por favor, llévate esto como regalo de bienvenida.
   - [¡Challenge Mistress Heriau te entrega una bellota de cristal!]
@@ -82,8 +82,8 @@
 ##### Entregar o alternar desafíos
 
 - Los desafíos están deshabilitados en los mundos de League.
-- (ventana emergente)
-  - (Ventana emergente: Los desafíos están deshabilitados en los mundos de League.|advertencia=yes)
+- (pop-up)
+  - (Pop-up: Challenges are disabled on League worlds.|warning=yes)
 
 #### Pase de héroe
 
@@ -116,12 +116,12 @@
     - Si completas un desafío de combate, obtendrás una lámpara de XP que se puede usar en cualquier habilidad de combate. Si completas cualquier otro desafío, obtendrás XP en esa habilidad directamente. También recibirás una clave Treasure Hunter.
     - (initial)
   - [Choice]: Quiero alternar mis desafíos diarios activos.
-    - ((Se abre la interfaz de desafío al máximo.))
+    - ((Maxed challenge interface opens.))
   - [Choice]: He completado un desafío diario.
-    - (Condition: Sin ningún desafío para entregar:)
+    - (Condition: Without any challenges to turn in:)
       - **Challenge Mistress Heriau:** No parece que hayas completado ningún desafío diario. Vuelve cuando hayas completado uno.
       - (initial)
-    - (Condition: Con desafíos para entregar:)
+    - (Condition: With challenges to turn in:)
       - **Challenge Mistress Heriau:** Veamos este: [Name of Challenge]
       - **Challenge Mistress Heriau:** ¡Has completado ese! Bien hecho, aquí tienes tu recompensa. ''(Se repite si hay más de un desafío completado)
       - **Challenge Mistress Heriau:** ¡Parece que eso es todo!

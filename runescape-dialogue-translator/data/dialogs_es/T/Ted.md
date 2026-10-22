@@ -14,7 +14,7 @@
 - **Ted:** ¡Hola, amigo! ¿Puedo ayudarte con algo?
 - **¿En qué puede ayudar Ted?**
   - Equipo Necromancy.
-    - ((Antes de reclamar equipo de nigromancia de Sostratus:))
+    - ((Before claiming necromancy equipment from Sostratus:))
       - (Action: Se agrega un rastro a Buried Bargains.)
       - Se ha añadido una ruta a: Ofertas enterradas.
       - **Ted:** Debes registrarte con Sostratus en su tienda, 'Buried Bargains' en Sunken Market. Tiene un conjunto de túnicas de nigromante para ti.
@@ -35,54 +35,54 @@
     - **Ted:** También puedes encontrar más información sobre cada talento, que te indicará si hay otros requisitos que también deberás cumplir para aprender ese talento.
     - (previous)
   - Habitantes de City of Um.
-    - ((Antes de haber interactuado exitosamente con todos los habitantes:))
-      - ((Se muestra aleatoriamente uno de los siguientes:))
-        - ((Sólo con menos de 20 Necromancy:))
+    - ((Before having successfully interacted with all the inhabitants:))
+      - ((Random one of the following is shown:))
+        - ((Only with less than 20 Necromancy:))
           - **Ted:** Parece que un grupo de trolls está estableciendo su hogar en una cueva al sur de la ciudad.
-        - ((Sólo con Mod apareció Raven y antes de haber hablado con él:))
+        - ((Only with Mod Raven appeared and before having talked to him:))
           - **Ted:** Algunas personas aquí dicen que hay un tipo extraño encima del Reloj del Día de la Muerte. Deberías investigar...
-        - ((Sólo antes de reclamar el regalo de Lupe y las batas de Sostratus y hablar con Selene:))
+        - ((Only before claiming the gift from Lupe and robes from Sostratus and talking to Selene:))
           - **Ted:** La sacerdotisa Selene ha regresado a los jardines de flores del sur.
-        - ((Sólo antes de reclamar el regalo de Lupe:))
+        - ((Only before claiming the gift from Lupe:))
           - **Ted:** No olvides ver Lupe en Soul Supplies, al norte de la plaza principal de Um.
-        - ((Sólo antes de reclamar las túnicas de Sostratus:))
+        - ((Only before claiming the robes from Sostratus:))
           - **Ted:** No olvides visitar a Sostratus en su tienda en Sunken Market.
-        - ((Recién con apareció Crunchy y antes de haberle dado La Limosna de la Muerte:))
+        - ((Only with Crunchy appeared and before having given him The Alms of Death:))
           - **Ted:** Mi amigo esqueleto Crunchy está deprimido en el pub otra vez. ¡Ve a animarlo!
-        - ((Recién apareció Frank y antes de haber hablado con él:))
+        - ((Only with Frank appeared and before having talked to him:))
           - **Ted:** Para ser Frank contigo... debes visitar la oficina de administración al lado de Last Call.
-        - ((Recién con apareció Muncher y antes de haber usado huesos sobre él:))
+        - ((Only with Muncher appeared and before having used bones on him:))
           - **Ted:** ¡Dale un hueso al perro! Bueno, al menos más de lo que ya tiene.
-        - ((Recién apareció Deano y antes de haber hablado con él:))
+        - ((Only with Deano appeared and before having talked to him:))
           - **Ted:** Creo que vi a Deano paseando en bote por el lago.
-        - ((Sólo apareció Lady Grey y antes de haber hablado con ella:))
+        - ((Only with Lady Grey appeared and before having talked to her:))
           - **Ted:** ¡De ninguna manera! ¡Creo que vi a Lady Grey en el quiosco! Deberías ir a hablar con ella, ¡es una maravilla!
-        - ((Recién apareció Zanik y antes de haber hablado con ella:))
+        - ((Only with Zanik appeared and before having talked to her:))
           - **Ted:** Había una dama duende retornada jugando a los dardos en la Última Llamada que apareció recientemente.
-        - ((Recién con 'No Gums' apareció Murray y antes de haberle entregado la trompeta:))
+        - ((Only with 'No Gums' Murray appeared and before having handed him the trumpet:))
           - **Ted:** Ese gato hepático de 'No Gums' Murray apareció en el quiosco. ¡Tienes que oírlo tocar!
-        - ((Recién apareció Sammy y antes de haber hablado con él:))
+        - ((Only with Sammy appeared and before having talked to him:))
           - **Ted:** ¡Sammy ahora también está disponible en el lago Mnemosyne!
-        - ((Recién apareció Dominique y antes de haber recibido de ella una tarta del día de su muerte:))
+        - ((Only with Dominique appeared and before having received a deathday cake from her:))
           - **Ted:** Escuché que Dominique ha regresado a la ciudad y están preparando un menú por el que murieron.
-        - ((Sólo con Zommy 'Brains' apareció Walker y antes de haberle entregado las teclas del piano:))
+        - ((Only with Zommy 'Brains' Walker appeared and before having handed him the piano keys:))
           - **Ted:** {{Sic|That hep cat 'No Gums' Murray has showed up at the bankstand. You gotta hear him play!}}
-        - ((Sólo con Deryn apareció y antes de haber completado Vivienda el Parlamento:))
+        - ((Only with Deryn appeared and before having completed Housing the Parliament:))
           - **Ted:** He escuchado murmullos entre los búhos de que Deryn está de regreso en la lechucería.
-        - ((Recién con Kharen apareció y antes de haber iniciado El Spirit de War:))
+        - ((Only with Kharen appeared and before having started The Spirit of War:))
           - **Ted:** ¡Oh, Kharen ha vuelto! Quizás pueda transportarte hasta la ciudadela de Rasial, ¡deberías ir a hablar con ella!
-        - ((Recién apareció Austin y antes de haber hablado con él:))
+        - ((Only with Austin appeared and before having talked to him:))
           - **Ted:** Austin estaba buscando un ayudante. Está en el alquiler de barcos.
-        - ((Sólo apareció un héroe caído y antes de haberlos saludado:))
-          - ((Habiendo saludado a menos de cinco de los héroes caídos:))
+        - ((Only with a fallen hero appeared and before having saluted them:))
+          - ((Having saluted less than five of the fallen heroes:))
             - **Ted:** Hay un héroe caído haciendo guardia junto a la lechucería. ¡Deberías presentar tus respetos!
-          - ((Habiendo saludado a cinco de los héroes caídos:))
+          - ((Having saluted five of the fallen heroes:))
             - **Ted:** Hay un último héroe caído que tiene problemas con los búhos. ¡Deberías ir a saludar!
-        - ((Recién apareció Doctor Gehirn y antes de haber hablado con él:))
+        - ((Only with Doctor Gehirn appeared and before having talked to him:))
           - **Ted:** Ze doctor está en... el edificio detrás del pub.
-        - ((Recién con Mick Casey apareció en el nivel 101 y antes de haber hablado con él:))
+        - ((Only with Mick Casey appeared at level 101 and before having talked to him:))
           - **Ted:** Deberías ver un caso y visitar al investigador privado, en el edificio detrás del pub.
-    - ((Después de haber interactuado exitosamente con todos los habitantes disponibles actualmente:))
+    - ((After having successfully interacted with all the currently available inhabitants:))
       - **Ted:** ¡Oh, siempre me tienes, amigo! ¡Estoy contigo hasta el final! Y más allá, aparentemente.
       - (previous)
   - Nada ahora mismo.

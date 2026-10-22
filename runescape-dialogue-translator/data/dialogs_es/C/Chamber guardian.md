@@ -40,15 +40,15 @@
 - **Chamber guardian:** Hola aventurero, ¿has hecho tu elección?
 - **Player:** Lo he hecho.
 - **Chamber guardian:** Bien, bien, espero que hayas elegido bien. Ahora les presentaré un staff mágico. Esto, junto con la capa que te otorgó el dios elegido, son todas las armas y armaduras que necesitarás aquí.
-- (Condition: Si el player rezó a Saradomin:)
+- (Condition: If the player prayed to Saradomin:)
   - (receives=Saradomin staff)
   - [El guardián te entrega un staff mágico adornado.]
   - (continue)
-- (Condition: Si el player rezó a Guthix:)
+- (Condition: If the player prayed to Guthix:)
   - (receives=Guthix staff)
   - [El guardián te entrega un staff mágico adornado.]
   - (continue)
-- (Condition: Si el player rezó a Zamorak:)
+- (Condition: If the player prayed to Zamorak:)
   - (receives=Zamorak staff)
   - [El guardián te entrega un staff mágico adornado.]
   - (continue)

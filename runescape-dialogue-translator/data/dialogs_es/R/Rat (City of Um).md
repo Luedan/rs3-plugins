@@ -14,19 +14,19 @@
 
 #### Sin jerga gatuna
 
-- ((Sólo la primera vez:))
+- ((Only on the first time:))
   - ¡Felicitaciones! Has completado: 'Ratbusters': intenta atrapar una rata fantasmal.
   - (continue)
 - **Player:** {{RSChat|Go on puss...kill that rat!}}
 - (Action: El gato persigue a la rata.)
 - **[Cat]:** {{RSChat|Meeeeeoooowww!}}
 - La rata parece atravesar a tu gato.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - La rata parece atravesar a tu gato.
 
 #### Con lenguaje de gato
 
-- ((Sólo la primera vez:))
+- ((Only on the first time:))
   - ¡Felicitaciones! Has completado: 'Ratbusters': intenta atrapar una rata fantasmal.
   - (continue)
 - **Player:** ¿Quieres intentar atrapar esa rata fantasmal de allí?
@@ -39,9 +39,9 @@
 ### Recruit
 
 - **Rata:** {{RSChat|*squeak*}}
-- (Condition: No haber reclutado a la rata antes:)
+- (Condition: Not having recruited the rat before:)
   - 5 almas vuelan para impulsar el barco.
   - ¡[Name], la rata fantasma, ha sido reclutada en tu ejército de ratas no muertas!
   - (continue)
-- (Condition: Con todas las ratas reclutadas:)
+- (Condition: With all the rats recruited:)
   - **Player:** ¡Por fin! ¡Mi ejército de ratas fantasmas está completo!

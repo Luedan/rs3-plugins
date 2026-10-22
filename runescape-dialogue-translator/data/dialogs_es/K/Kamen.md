@@ -33,12 +33,12 @@
       - [Choice]: Bien entonces.
         - **Player:** Está bien, entonces.
         - **Kamen:** 75 coins por favor.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - (removes=75 coins)
           - **Player:** Aquí tienes.
           - (receives=stew, bread and meat pie)
           - **Kamen:** Gracias... Come bien.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Dios mío, no tengo suficiente dinero...
           - No puedes permitirte eso.
           - **Kamen:** Lo siento, no puedo regalárselo a cualquiera que pase.

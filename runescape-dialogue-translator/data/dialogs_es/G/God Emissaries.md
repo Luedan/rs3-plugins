@@ -217,7 +217,7 @@ Esta página contiene el diálogo para completar las diversas tareas del Emisari
       - [Choice]: I'd like to keep my title.|cond=Si el jugador tiene el título
         - (previous2)
   - [Choice]: Hablar de artículos de recompensa
-    - (Condition: Si los jugadores han ganado recompensas pero algunos de ellos perdieron.)
+    - (Condition: If players have earn rewards but some of them lost.)
       - [Menu]: Selecciona una opción
         - [Choice]: He perdido el cartel que me diste.
           - **[Emissary]:**  Por favor, lleve este banner para mostrar su apoyo.
@@ -225,9 +225,9 @@ Esta página contiene el diálogo para completar las diversas tareas del Emisari
         - [Choice]: He perdido el libro que me diste.
           - **[Emissary]:** Aquí está tu Libro de los Dioses.
           - (previous)
-    - (Condition: Si los jugadores ya tienen todos los elementos.)
+    - (Condition: If players already have all items.)
       - **[Emissary]:** ¿No tienes ya todos los artículos que te di?
       - (previous)
-    - (Condition: Si los jugadores no obtuvieron recompensas.)
+    - (Condition: If players did not earn rewards.)
       - **[Emissary]:** ¡No me pidas cosas! Tienes todo lo que mereces.
       - (previous)

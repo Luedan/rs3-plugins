@@ -14,12 +14,12 @@
 - **Butler Crichton:** 'Hola de nuevo, amigo.
 - [Menu]: ¿Qué te gustaría decir?
   - [Choice]: ¿Qué pasó con el viejo mayordomo?
-    - (Condition: Si el player se puso del lado de los Carnilleans en Hazeel Cult:)
+    - (Condition: If the player sided with the Carnilleans in Hazeel Cult:)
       - **Butler Crichton:** Sabes más que yo. Butler Jones fue arrestado después de que usted lo expusiera como un espía.
       - **Butler Crichton:** Supongo que todavía está encerrado en algún lugar, pero no debemos preocuparnos por él.
       - **Butler Crichton:** Ceril podría haber probado con otros mayordomos después de él; Realmente no lo sé. Aún así, parece bastante feliz conmigo.
       - (otro)
-    - (Condition: Si el player se puso del lado de los cultistas en Hazeel Cult:)
+    - (Condition: If the player sided with the cultists in Hazeel Cult:)
       - **Butler Crichton:** ¿Butler Jones? Dejó su trabajo y se fue. Dijo que su "trabajo aquí estaba completo", sea lo que sea que eso signifique. Un tipo raro.
       - (otro)
   - [Choice]: ¿Qué sabes sobre los carnilleanos?

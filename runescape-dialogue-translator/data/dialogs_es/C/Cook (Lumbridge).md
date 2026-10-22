@@ -36,20 +36,20 @@
     - **Cocinero:** Se llama Cook-o-Matic 25 y utiliza una combinación de magia y regulación de temperatura de última generación.
     - **Player:** ¿Significará que mi comida se quemará con menos frecuencia?
     - **Cocinar:** ¡Siempre y cuando la comida sea bastante fácil de cocinar en primer lugar!
-    - (Condition: Sin el manual cook-o-matic en backpack:)
+    - (Condition: Without the cook-o-matic manual in backpack:)
       - **Cocinero:** Toma, toma este manual. Debería decirle todo lo que necesita saber sobre este rango.
       - [El cocinero te entrega un manual.]
       - (receives=Cook-o-matic manual)
-    - (Condition: Con el manual cook-o-matic en backpack:)
+    - (Condition: With the cook-o-matic manual in backpack:)
       - **Cocinero:** El manual que tienes en tu inventario debería decirte más.
     - **Player:** ¡Gracias!
 
 ##### Reclamar las recompensas posteriores a la misión (si Cook's Assistant se completó antes del 15 de diciembre de 2009)
 
 - **Cocinero:** ¡Ah, hola de nuevo, amigo! Sabes, el Duque disfrutó mucho el pastel y quería agradecerte un poco más.
-- (Condition: Si el player no tiene espacio backpack:)
+- (Condition: If the player does not have backpack space:)
   - **Player:** Genial, pero primero necesito liberar algo de espacio en mi inventario. Ya vuelvo.
-- (Condition: Si el player tiene espacio backpack:)
+- (Condition: If the player has backpack space:)
   - El cocinero te entrega 500 coins y 20 sardinas.
   - (receives=500 coins and 20 sardines)
   - ¡Felicitaciones! Has completado: 'Delicias del cocinero': reclama las recompensas adicionales del cocinero después de 'Cook's Assistant'.
@@ -108,7 +108,7 @@
 
 #### Senderos del tesoro
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only the first time:)
   - **Cocinero:** Siempre me he preguntado cuántos cañones tiene el castillo. ¿Podrías averiguarlo por mí?
 - (receives=challenge scroll (medium))
 - [¡El cocinero te ha dado un pergamino de desafío!]
@@ -117,14 +117,14 @@
 
 - **Cocinero:** Ingrese la respuesta a la pregunta.
 - Ingrese la cantidad:<br>[Input field]
-- (Condition: Cuando se le da la respuesta incorrecta:)
+- (Condition: When given the wrong answer:)
   - **Cocinero:** Hmm, no creo que sea correcto.
-- (Condition: Cuando se le da la respuesta correcta:)
+- (Condition: When given the correct answer:)
   - (removes=the clue scroll (medium) y desplazamiento de desafío (medio))
-  - (Condition: Si el rastro continúa:)
+  - (Condition: If the trail continues:)
     - (receives=a new clue scroll (medium))
     - [¡El cocinero te ha dado otro pergamino de pistas!]
-  - (Condition: Si el sendero termina:)
+  - (Condition: If the trail ends:)
     - (receives=reward casket (medium))
     - [¡Has encontrado un ataúd!]
   - **Cocinero:** ¡Salud!
@@ -134,14 +134,14 @@
 
 ##### Con hojas de glasto durante la segunda tarea antes de recibir rica papilla
 
-- (Condition: Con las tareas de Lumbridge y Draynor completadas y antes de recibir la cesta diaria:)
+- (Condition: With the Lumbridge and Draynor tasks completed and before receiving the daily hamper:)
   - **Cocinero:** Sé que has estado muy activo con Lumbridge y Draynor. ¿Quizás podría recompensarte con algo de comida?
   - [Menu]: Selecciona una opción
     - [Choice]: Sí, por favor.
-      - (Condition: Sin espacio libre backpack:)
+      - (Condition: Without free backpack space:)
         - **Cocinero:** No tienes espacio en tu backpack en este momento.
         - (continue)
-      - (Condition: Con espacio gratuito backpack:)
+      - (Condition: With free backpack space:)
         - (receives=hamper)
         - **Cocinero:** Ahí lo tienes.
         - (continue)
@@ -150,19 +150,19 @@
 - **Player:** ¡Hola! Estoy aquí en nombre de Leslie, dijeron que deberías estar esperándome.
 - **Cocinero:** ¡Ahh, sí! ¿Supongo que tienes las hojas de glasto que necesito?
 - **Player:** ¡Sí!
-- (Condition: Con 5 linos:)
+- (Condition: With 5 flax:)
   - **Player:** También tengo este precioso lino.
   - (continue)
-- (Condition: Con 4 trigos:)
+- (Condition: With 4 wheat:)
   - **Player:** También tengo este trigo perfectamente seco.
   - (continue)
-- (Condition: Con 3 caléndulas:)
+- (Condition: With 3 marigolds:)
   - **Player:** También tengo algunas caléndulas.
   - (continue)
-- (Condition: Con una cerveza:)
+- (Condition: With a beer:)
   - **Player:** También tengo esta cerveza helada.
   - (continue)
-- (Condition: Con otros elementos además de las hojas de glasto en la lista:)
+- (Condition: With other items than woad leaves on the list:)
   - **Cocinero:** Está bien... ¡Eso es bueno!
   - **Player:** ¿Dónde debo poner todo esto? ¿En el lado de aquí?
   - **Cocinero:** ¿Todos? Sólo necesito las hojas de glasto.
@@ -170,15 +170,15 @@
   - **Cocinero:** Lo siento, según la receta que me dieron, solo necesitaba hojas de glasto.
   - **Player:** Por supuesto.
   - (continue)
-- (Condition: Con solo hojas de glasto de la lista:)
+- (Condition: With only woad leaves from the list:)
   - **Player:** ¿Dónde los pongo? ¿En el lado de aquí?
   - **Cocinero:** Sí, si pudieras pasarlos por alto, sería perfecto.
   - (continue)
 - **Player:** Allá vamos.
 - (removes=10 woad leaves)
 - (ver|néctar)
-- ((Se muestra en una ventana emergente:))
-  - (Ventana emergente: encontrarás 250 néctar al entregar las hojas de glasto.|color=#00FF00)
+- ((Shown in a pop-up:))
+  - (Pop-up: You find 250 Nectar as you hand over the woad leaves.|colour=#00FF00)
   - (continue)
 - **Cocinero:** ¡Gracias! Tomará un tiempo hacer esto.
 - **Player:** Puedo esperar.
@@ -186,9 +186,9 @@
 - **Player:** ¿Me quedé dormido?
 - **Cocinero:** Allí mismo, en mi piso, sí.
 - **Player:** Lo siento.
-- (Condition: Sin un espacio backpack libre:)
+- (Condition: Without one free backpack space:)
   - **Cocinero:** Si haces un poco de espacio para backpack, puedo darte la papilla.
-- (Condition: Con un espacio backpack gratuito:)
+- (Condition: With one free backpack space:)
   - (receives=rich mush)
   - **Cocinero:** Aquí tenéis la rica papilla para Leslie.
   - **Player:** ¡Gracias!

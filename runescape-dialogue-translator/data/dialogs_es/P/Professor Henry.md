@@ -55,10 +55,10 @@
 - [Menu]: Selecciona una opción
   - [Choice]: Sí, por favor.
     - **Player:** Sí, por favor.
-    - (Condition: Con el examen ya en backpack:)
+    - (Condition: With the test paper already in backpack:)
       - **Professor Henry:** En ese momento, yo... ¡oh! ¿Ya tienes un examen? ¡Excelente! Bueno, buena suerte entonces.
       - **Player:** Eh, gracias.
-    - (Condition: Sin el examen en backpack:)
+    - (Condition: Without the test paper in backpack:)
       - **Professor Henry:** Justo entonces. Aquí está el examen. Cuando hayas completado todas las preguntas, tráemelas para que las califique.
       - **Player:** Está bien, gracias.
   - [Choice]: Ahora no, gracias.
@@ -88,7 +88,7 @@
 
 - **Professor Henry:** ¡Ajá! ¡Las mejores notas! ¡Bien hecho por resolver esta pista!
 - (removes=clue scroll (CS Week))
-- (Condition: Si el rastro continúa:)
+- (Condition: If the trail continues:)
   - (receives= a new clue scroll (CS Week))
-- (Condition: Si el sendero termina:)
+- (Condition: If the trail ends:)
   - (receives=casket (CS Week) y ataúd de seguridad (CS Week))

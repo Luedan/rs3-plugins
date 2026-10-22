@@ -24,11 +24,11 @@
 - [Menu]: Selecciona una opción
   - [Choice]: Claro, ya que lo haces sonar tan delicioso.
     - **Player:** Claro, ya que lo haces sonar tan delicioso.
-    - (Condition: Si el player lleva casco:)
+    - (Condition: If the player is wearing headgear:)
       - **Muggh:** Quítate eso de la cabeza, humano, de lo contrario no tendrás facial.
-    - (Condition: Si el player ya tiene barro en la cara:)
+    - (Condition: If the player already has mud on their face:)
       - **Muggh:** Humano tonto, ya tienes la cara llena de barro.
-    - (Condition: De lo contrario:)
+    - (Condition: Otherwise:)
       - Muggh te golpea la cara con un puñado de barro.
   - [Choice]: Um, tal vez más tarde.
     - **Player:** Um, tal vez más tarde.

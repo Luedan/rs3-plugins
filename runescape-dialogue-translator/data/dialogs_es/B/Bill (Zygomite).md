@@ -27,15 +27,15 @@
 
 #### Después de la extinción
 
-- ((Antes de hablar de la experimentación con huevos:))
+- ((Before talking about Eggsperimentation:))
   - **Bill:** ...¡son adorables!<br>Qué ruiditos hacen.
   - Bill emite un breve y agudo chillido de deleite.
   - **Salusan:** No necesitas adorar a estas bestias, Bill. Están destinados a convertirse en feroces luchadores.
   - (continue)
-- ((Antes de haber completado Hacer macetas es un dolor tan dulce:))
+- ((Before having completed Potting Is Such Sweet Sorrow:))
   - **Bill:** Oh, lo siento. No te vi allí.<br>¿Cómo puedo ayudar?
   - (continue)
-- ((Después de haber completado Hacer macetas es un dolor tan dulce:))
+- ((After having completed Potting Is Such Sweet Sorrow:))
   - **Bill:** ¡Yippee!<br>Flobbadob!<br>¡Vaya!
   - **Player:** Galimatías, pero feliz galimatías. <br>Bill ahora está viviendo su mejor vida.
   - (continue)
@@ -58,15 +58,15 @@
     - **Player:** Normalmente, como aventurero bien intencionado, corregiría este malentendido. ¡Pero esas explosiones suenan divertidas!
     - (previous|Bill-options)
   - [Habla sobre ayudar con la experimentación con huevos.]
-    - ((Con menos de 95 Firemaking:))
+    - ((With less than 95 Firemaking:))
       - **Bill:** Si nos ayudas, no estoy convencido de que no puedas hacer explotar un dinosaurio.
       - **Player:** De repente estoy mucho más preocupado por la ética de esta operación.
-      - ((Se muestra en una ventana emergente:))
+      - ((Shown in a pop-up:))
         - Necesitas 95 Firemaking para participar en Eggsperimentation.
         - (continue)
       - (previous)
-    - ((Con al menos 95 Firemaking:))
-      - ((Sólo la primera vez:))
+    - ((With at least 95 Firemaking:))
+      - ((Only on first time:))
         - **Bill:** Estamos probando cómo la dieta de los dinosaurios cambia la explosividad del fertilizante que producen.
         - (Action: La cámara se desplaza hacia el granero de tormentas.)
         - **Bill:** Deberías coger algunos dinosaurios del granero de tormentas que hay al sureste.
@@ -89,13 +89,13 @@
         - **Bill:** Tráeme algunos de los restos explosivos para que podamos anotar los resultados. ¿Alguna pregunta?
         - **Player:** Hay muchas cosas que probablemente no debería preguntar.
         - (previous|Bill-options)
-    - ((Después de la primera vez pero sin 'propulsor' de dinosaurio:))
+    - ((After the first time but without dinosaur 'propellant':))
       - **Bill:** No escuché ninguna explosión. ¿Hemos descubierto bombas silenciosas?
       - (Action: La cámara se desplaza hacia el granero de tormentas.)
       - Necesitas reunir algo de "propulsor" de dinosaurio. Puedes encontrar dinosaurios en el granero de tormentas al sureste. Pídele a un dinosaurio en tu backpack que te lleve a la comida que deseas. Alimenta a los dinosaurios hasta que estén llenos y enciende el fertilizante que producen.
         - (Action: La cámara vuelve a la normalidad.)
         - (previous|Bill-options)
-    - ((Con 'propulsor' de dinosaurio antes de haber completado Mycomanagement:))
+    - ((With dinosaur 'propellant' before having completed Mycomanagement:))
       - [Muestras el 'propulsor' del dinosaurio Bill.]
       - **Bill:** ¡Bien hecho! ¡Definitivamente hemos investigado aquí!
       - **Bill:** ¡Oh, ese propulsor lanzaría cosas muy lejos!
@@ -107,7 +107,7 @@
       - {{RSFontAchievement|Mycomanagement}}
       - **Player:** Realmente no estoy seguro de que lo haga.
       - (previous|Bill-options)
-    - ((Después de haber completado Mycomanagement:))
+    - ((After having completed Mycomanagement:))
       - **Player:** ¿Qué puedo hacer con el 'propulsor' de dinosaurio?
       - **Bill:** ¡Oh, ese propulsor lanzaría cosas muy lejos!
       - **Salusan:** Probablemente podría lanzar una flecha a una buena distancia.
@@ -127,9 +127,9 @@
     - **Bill:** Si quieres cruzar, simplemente súbete al árbol y también te teletransportarás. ¡Realmente útil para llegar a lugares rápidamente!
     - **Player:** ¡Gracias!
     - (previous|Bill-options)
-  - ((Sólo después de haber completado Mycomanagement y antes de haber completado Potting Is Such Sweet Sorrow:))
+  - ((Only after having completed Mycomanagement and before having completed Potting Is Such Sweet Sorrow:))
     - [Habla sobre la olla mágica de Bill]
-      - ((Sólo la primera vez:))
+      - ((Only on first time:))
         - **Player:** ¿Hay algo más que pueda hacer para ayudarte? Los actos aleatorios de heroísmo son lo mío.
         - **Player:** Aunque, mi especialidad es recibir compensación por actos aleatorios de heroísmo.
         - **Bill:** Bueno, mi artículo favorito ha desaparecido.<br>Aotra vez.
@@ -160,7 +160,7 @@
         - **Bill:** No tengo ninguna recompensa que ofrecerte. La virtud es su propia recompensa, ¿supongo? Pero te estaré muy agradecido si me traes mi olla mágica.
         - **Player:** Eso suena como la búsqueda de un aventurero prepotente como yo.
         - **Bill:** Esto definitivamente no es una misión, ni siquiera hipotéticamente. Es sólo un poco de juego.
-      - ((Después de la primera vez, sin olla mágica:))
+      - ((After the first time, without magic pot:))
         - **Player:** Recuérdame mi misión.
         - **Bill:** Te lo dije. ¡Esto no es una búsqueda! Apenas es un recado.
         - **Bill:** Como dije, mi artículo favorito es mi olla mágica.
@@ -177,7 +177,7 @@
         - **Player:** Bien. Sólo... no vuelvas a mencionar esa misión.
         - **Bill:** ¿Cuántas veces tengo que...<br>Esto no es una misión!
         - (previous|Bill-options)
-      - ((Después de la primera vez, con olla mágica:))
+      - ((After the first time, with magic pot:))
         - **Player:** Ben me dio tu maceta mágica a cambio de una maceta vacía.
         - **Bill:** ¡Sí! ¡Bote!<br>¿Puedo tenerlo?
         - Reúnes a Bill con su olla mágica. Él chilla de alegría y lo deja con orgullo a su lado.

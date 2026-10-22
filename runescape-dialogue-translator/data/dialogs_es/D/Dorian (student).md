@@ -40,21 +40,21 @@
 - **Player** ¿Te gustaría ser investigado en mi nuevo equipo?
 - **Dorian (estudiante)** Eso sería increíble, pero no puedo, lo siento. Todavía no soy pasante. Acting Guildmaster Reiniger quiere que primero haga un hallazgo importante.
 - **Dorian (estudiante)** Ella necesita que descubra algo en mi campo, que tiene que ver con contenedores, almacenamiento y utensilios.
-- (Condition: Sin opulenta copa de vino en backpack:)
+- (Condition: Without opulent wine goblet in backpack:)
   - **Player** Si encuentro algo adecuado para ti...
   - **Dorian (estudiante)** ¡Eso sería increíble! Sería de gran ayuda.
   - **Player** Me ayudaste con mis exámenes. Te debo una.
   - **Dorian (estudiante)** Te diré una cosa: si puedes traerme una opulenta copa de vino de Infernal Source, ¡iré enseguida!
   - **Player** ¡Estoy en ello!
-- (Condition: (Con opulenta copa de vino en backpack:)
+- (Condition: (With opulent wine goblet in backpack:)
   - **Player** Tengo una opulenta copa de vino de Infernal Source...
   - [Menu]: ¿Darle una opulenta copa de vino a Dorian?
     - [Choice]: Sí.
       - **Dorian (estudiante)** ¡Oh, dulce! ¡Eso es perfecto, jefe!
       - (removes=opulent wine goblet)
       - ¡Dorian se ha unido a tu equipo de investigación!
-      - (ventana emergente)
-        - (Ventana emergente: ¡Dorian se ha unido a tu equipo de investigación!)
+      - (pop-up)
+        - (Pop-up: Dorian has joined your research team!)
     - [Choice]: No.
       - **Player** Déjame responderte sobre esto.
       - **Dorian (estudiante)** Seguiré tu ejemplo.

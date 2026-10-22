@@ -13,7 +13,7 @@
 
 - **Tefimhet:** {{RSChat|Meow!}}
 - Acaricias a Tefimhet y tomas una copia de su huella.
-- ((Si no lo acariciaron antes:))
+- ((If not petted before:))
   - Has encontrado Tefimhet.
   - ¡Has descubierto un nuevo gato!
   - Lo anotas rápidamente en tu cuaderno de bitácora.

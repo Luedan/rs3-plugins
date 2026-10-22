@@ -18,9 +18,9 @@
     - **Stanky Morgan:** Eufórico.
     - **Player:** Entonces, ¿a qué te dedicas?
     - **Bard Roberts:** Toco música y canto, principalmente. Puedes sentarte y descansar un rato, si quieres.
-    - (Condition: Si el player no ha completado ni el Tesoro de Pirate ni el Trato de ron:)
+    - (Condition: If the player has not completed neither Pirate's Treasure nor Rum Deal:)
       - (initial|initial-options)
-    - (Condition: Si el player ha completado la oferta del tesoro y/o ron de Pirate:)
+    - (Condition: If the player has completed Pirate's Treasure and/or Rum Deal:)
       - **Bard Roberts:** ¡Oh! ¡Eres tú, Player! Las historias de tu heroísmo entre los piratas se han extendido por todas partes. He preparado una pequeña chabola sobre ti, ¿si tienes tiempo para ello?
       - [Menu]: ¿Escuchar la chabola de Bard?
         - [Choice]: ¿Cómo podría negarme?

@@ -31,18 +31,18 @@
     - Puedes ver todos los desafíos diarios en la pestaña Desafíos de la interfaz de Aventuras. Si has completado un desafío diario, también puedes reclamar tu recompensa desde allí, incluidos los cofres de recompensa semanales que hayas desbloqueado.
     - **Challenge Mistress Fara:** Para completar un desafío diario, no tienes que darme los artículos que recolectas o produce. Guárdelos para usted y úselos o véndalos.
     - Si completas un desafío de combate, obtendrás una lámpara de XP que se puede usar en cualquier habilidad de combate. Si completas cualquier otro desafío, obtendrás XP en esa habilidad directamente.
-    - (Condition: Si el player se ha ganado un bebé troll:)
+    - (Condition: If the player has earned a baby troll:)
       - **Player:** Una cosa más. ¿Puedo reclamar a mi bebé troll?
       - **Challenge Mistress Fara:** Corporal Keymans cuida a tu bebé troll por ti. Está en el campo de entrenamiento de la guardia imperial al noreste de nosotros.
       - (continue)
     - (initial)
   - [Choice]: Quiero alternar mis desafíos diarios activos.
-    - ((Se abre la interfaz de desafío al máximo.))
+    - ((Maxed challenge interface opens.))
   - [Choice]: He completado un desafío diario.
-    - (Condition: Sin ningún desafío para entregar:)
+    - (Condition: Without any challenges to turn in:)
       - **Challenge Mistress Fara:** No parece que hayas completado ningún desafío diario. Vuelve cuando hayas completado uno.
       - (initial)
-    - (Condition: Con desafíos para entregar:)
+    - (Condition: With challenges to turn in:)
       - **Challenge Mistress Fara:** ¡Has completado ese! Bien hecho, aquí tienes tu recompensa. ''(Se repite si hay más de un desafío completado)
       - **Challenge Mistress Fara:** ¡Parece que eso es todo!
       - (initial)
@@ -50,11 +50,11 @@
 #### Senderos del tesoro
 
 - (removes=the old clue scroll (easy))
-- ((Si el rastro continúa:))
+- ((If the trail continues:))
   - (receives=a new clue scroll (easy))
   - [Challenge Mistress Fara te ha dado tu siguiente pergamino de pistas.]
   - (continue)
-- ((Si el sendero termina:))
+- ((If the trail ends:))
   - (receives=reward casket (easy))
   - [¡Has encontrado un ataúd!]
   - (continue)
@@ -103,8 +103,8 @@
 ##### Entregar o alternar desafíos
 
 - Los desafíos están deshabilitados en los mundos de League.
-- (ventana emergente)
-  - (Ventana emergente: Los desafíos están deshabilitados en los mundos de League.|advertencia=yes)
+- (pop-up)
+  - (Pop-up: Challenges are disabled on League worlds.|warning=yes)
 
 #### Pase de héroe
 
@@ -144,10 +144,10 @@
   - **Challenge Mistress Fara:** Oye, ¿cómo está el clima allí arriba?
   - (continue)
   - [Choice]: He completado un desafío.
-    - (Condition: Sin ningún desafío para entregar:)
+    - (Condition: Without any challenges to turn in:)
       - **Challenge Mistress Fara:** No parece que hayas completado ningún desafío diario. Vuelve cuando hayas completado uno.
       - (initial)
-    - (Condition: Con desafíos para entregar:)
+    - (Condition: With challenges to turn in:)
       - **Challenge Mistress Fara:** Veamos este: [Name of Challenge]
       - **Challenge Mistress Fara:** ¡Has completado ese! Bien hecho, aquí tienes tu recompensa.
       - **Challenge Mistress Fara:** ¡Parece que eso es todo!
@@ -197,18 +197,18 @@
     - Puedes ver todos los desafíos diarios en la pestaña Desafíos de la interfaz de Aventuras. Si has completado un desafío diario, también puedes reclamar tu recompensa desde allí.
     - **Challenge Mistress Fara:** Para completar un desafío diario, no tienes que darme los artículos que recolectas o produce. Guárdelos para usted y úselos o véndalos.
     - Si completas un desafío de combate, obtendrás una lámpara de XP que se puede usar en cualquier habilidad de combate. Si completas cualquier otro desafío, obtendrás XP en esa habilidad directamente. **También recibirás una clave Treasure Hunter. (Esta oración se omite para los jugadores gratuitos)**
-    - (Condition: Si el player se ha ganado un bebé troll:)
+    - (Condition: If the player has earned a baby troll:)
       - **Player:** Una cosa más. ¿Puedo reclamar a mi bebé troll?
       - **Challenge Mistress Fara:** Corporal Keymans cuida a tu bebé troll por ti. Está en el campo de entrenamiento de la guardia imperial al noreste de nosotros.
       - (continue)
     - (initial)
   - [Choice]: Quiero alternar mis desafíos diarios activos.
-    - ((Se abre la interfaz de desafío al máximo.))
+    - ((Maxed challenge interface opens.))
   - [Choice]: He completado un desafío diario.
-    - (Condition: Sin ningún desafío para entregar:)
+    - (Condition: Without any challenges to turn in:)
       - **Challenge Mistress Fara:** No parece que hayas completado ningún desafío diario. Vuelve cuando hayas completado uno.
       - (initial)
-    - (Condition: Con desafíos para entregar:)
+    - (Condition: With challenges to turn in:)
       - **Challenge Mistress Fara:** Veamos este: [Name of Challenge]
       - **Challenge Mistress Fara:** ¡Has completado ese! Bien hecho, aquí tienes tu recompensa. ''(Se repite si hay más de un desafío completado)
       - **Challenge Mistress Fara:** ¡Parece que eso es todo!

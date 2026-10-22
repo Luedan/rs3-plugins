@@ -37,7 +37,7 @@
 ### Telling your story to Gwir {{anchor|helpyouatall}}
 
 - **Player:** ¿Puedo ayudarte en algo?
-- (Condition: Ofreciendo ayudar a Gwir por primera vez:)
+- (Condition: Offering to help Gwir for the first time:)
   - **Gwir:** Sí, puedes. Soy el escriba aquí y estoy tratando de documentar con precisión los acontecimientos recientes que nos han afectado.
   - **Player:** Ah, creo que entiendo por qué estabas feliz de verme. Déjame adivinar, ¿quieres mi ayuda ya que estuve algo involucrado con dichos eventos recientes?
   - **Gwir:** ¡'Involucrado' sería decirlo a la ligera! Sin embargo, has adivinado correctamente: ¿me ayudarías con esto?
@@ -46,7 +46,7 @@
       - (continue)
     - [Choice]: No, lo siento.
       - **Player:** No, lo siento.
-- (Condition: Ofreciéndose a ayudar a Gwir posteriormente:)
+- (Condition: Offering to help Gwir subsequently:)
   - **Gwir:** Bueno, como sabes, me ayudaste a documentar todos los descubrimientos que hiciste al trabajar con nosotros los elfos y alrededor de nosotros. Sigamos...
   - (continue)
 
@@ -219,7 +219,7 @@
 
 #### Plague City
 
-- (Condition: Si Plague City es la única historia descrita hasta ahora:)
+- (Condition: If Plague City is the only story described so far:)
   - **Gwir:** Sólo me has hablado de la plaga...
 - {{anchor|plague-city}}**Player:** Me recuerdan a la plaga.
 - **Gwir:** Me enteré de que Edmond de Ardougne te encargó encontrar a su hija secuestrada, Elena.
@@ -283,10 +283,10 @@
 - {{anchor|mep2}}**Player:** Me recuerdan al Templo de la Luz.
 - **Gwir:** El Templo de la Luz fue el siguiente paso de tu búsqueda. Ya tengo documentado que reiniciaste las salvaguardias y defensas del templo para hacerlo seguro una vez más.
 - **Player:** Me alegra poder decir que es correcto; Las salvaguardias del templo están intactas.
-- (Condition: Antes del fin de la plaga:)
+- (Condition: Before Plague's End:)
   - **Player:** No veo que los dolientes sean una amenaza particular ahora, a menos que encuentren alguna otra fuente de poder. Por supuesto, ¡y ni siquiera intentarán encontrar otra fuente hasta que descubran el templo y se encuentren incapaces de penetrar sus defensas!
   - (continue)
-- (Condition: Después del fin de la plaga:)
+- (Condition: After Plague's End:)
   - **Gwir:** Por supuesto, los Mourners finalmente encontraron otra fuente de poder... pero esa es una historia diferente.
   - (continue)
 - **Gwir:** ¿Necesitas ayuda con algo más?
@@ -299,7 +299,7 @@
 - **Gwir:** Esto te llevó a recibir energía de manera similar al cristal que usaste para reiniciar las defensas del templo.
 - **Gwir:** Luego entraste en la luz misma. Después de descubrir cómo activar algunos interruptores allí, se abrió una enorme puerta en la habitación que conducía a un pasillo, que desafortunadamente se había derrumbado.
 - **Gwir:** Había un mensajero elfo muerto allí que debió haber perecido en el desprendimiento de rocas. Fue su informe el que nos reveló a todos el destino de Prifddinas. La ciudad volvió a su forma de cristal... ¡una ciudad entera!
-- (Condition: Antes del fin de la plaga:)
+- (Condition: Before Plague's End:)
   - **Player:** De hecho, y ahora mismo hay mineros trabajando para limpiar ese derrumbe para que podamos trabajar en la restauración de la ciudad, una vez que se eliminen todas las amenazas.
   - (continue)
 - **Gwir:** ¿Necesitas ayuda con algo más?
@@ -318,7 +318,7 @@
 
 ### Task System {{anchor|tasksystem}}
 
-- (Condition: Si se completaron los logros de Medium Tirannwn y no se reclamaron las recompensas:)
+- (Condition: If the Medium Tirannwn achievements have been completed and the rewards not claimed:)
   - **Player:** He completado todas las tareas medianas del conjunto Tirannwn.
   - **Gwir:** Así que sí. Tengo un carcaj especial reservado para ti.
   - [Gwir te entrega un carcaj y una lámpara.]
@@ -327,7 +327,7 @@
   - **Gwir:** Cuando llevas puesto el carcaj en Tirannwn, puedes atravesar trampas de veneno sin miedo, luchar contra criaturas de las sombras más fácilmente y teletransportarte al Campamento Tyras o a la mazmorra Poison Waste. Sin llevarlo puesto te has ganado el derecho
   - **Gwir:** para usar la zona de hongos entre Tyras Camp y Poison Waste, usa menos cargas cuando uses tu arco y escudo de cristal y podrás reclamar hasta 30 alquitrán de pantano gratis por día de Lletya General Store. Ah, y esos molestos grenwalls ya no necesitarán que les pongan cebo en las trampas.
   - (continue)
-- (Condition: Si el player ha perdido su carcaj Tirannwn 2:)
+- (Condition: If the player has lost their Tirannwn quiver 2:)
   - **Gwir:** ¡Ah, el portador de la aljaba! ¿Cómo lo estás encontrando?
   - **Player:** Lo perdí.
   - **Gwir:** ¡Oh, no!

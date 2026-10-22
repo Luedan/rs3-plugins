@@ -21,10 +21,10 @@
 - [Menu]: Selecciona una opción
   - [Choice]: por favor
     - **Player:** ¡Oye! Necesito otra lente, muchacho.
-    - (Condition: Sin espacio en backpack:)
+    - (Condition: Without space in backpack:)
       - **Cabin boy:** Pero no tienes espacio.
       - **Player:** Buen punto.
-    - (Condition: Con espacio en backpack:)
+    - (Condition: With space in backpack:)
       - **Cabin boy:** Eh, oh, vale, supongo que te debo una.
       - (receives=emerald lens)
   - [Choice]: No gracias

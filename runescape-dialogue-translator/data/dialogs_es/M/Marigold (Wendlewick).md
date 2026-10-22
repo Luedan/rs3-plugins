@@ -15,7 +15,7 @@
   - **Player:** {{RSChat|Here, kitty kitty!}}
   - **Player:** {{RSChat|Who's a good Marigold?}}
   - **Player:** {{RSChat|Good kitty!}}
-- ((Ocasionalmente ocurrirá uno de los siguientes:))
+- ((Occasionally one of the following will occur:))
   - **Caléndula:** {{RSChat|*coo*}}
   - **Caléndula:** {{RSChat|*meow*}}
   - **Caléndula:** {{RSChat|*purr*}}
@@ -42,11 +42,11 @@
 #### Con lenguaje de gato
 
 - {{Trandom}}
-  - ((Conversación 1:))
+  - ((Conversation 1:))
     - **Marigold:** The Burnt Lobster es, con diferencia, el mejor lugar para estar. Los clientes me miman sin parar.
-  - ((Conversación 2:))
+  - ((Conversation 2:))
     - **Marigold:** Soy la favorita de Gefen, ¿sabes?
-  - ((Conversación 3:))
+  - ((Conversation 3:))
     - **Marigold:** ¿Me invitarías una cerveza, humano?
     - **Player:** ¿Es eso legal?
     - **Marigold:** Oh, ronroneo.

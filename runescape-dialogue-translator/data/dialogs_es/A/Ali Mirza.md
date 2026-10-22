@@ -60,13 +60,13 @@
         - (arriba)
       - [Choice]: Preguntar por Sq'irks
         - **Player:** Me gustaría hablar sobre Sq'irks.
-        - ((Con uno o más sq'irkjuices en el backpack:))
+        - ((With one or more sq'irkjuices in the backpack:))
           - **Player:** Tengo un poco de jugo de sq'irk para ti.
           - (removes=all sq'irkjuices) (receives=Thieving experience)
           - Recibirás algunos consejos Thieving (puntos de experiencia [número] Thieving) como recompensa por el jugo sq'irk.
           - **Emir Ali Mirza:** Muchas gracias Player. Si consigues más preguntas, asegúrate de volver.
           - **Player:** Lo haré. Ha sido un placer hacer negocios con usted.
-        - ((Sin ningún sq'irkjuice en el backpack:))
+        - ((Without any sq'irkjuice in the backpack:))
           - [Menu]: Selecciona una opción
             - [Choice]: ¿Dónde consigo sq'irks?
               - **Player:** ¿Dónde debo encontrar sq'irks?
@@ -110,7 +110,7 @@
               - **Player:** Ya veo.
               - (continuea|anotherquestion)
       - [Choice]: Pregunta por los Keris
-        - (Condition: Sin Keris en backpack o banco:)
+        - (Condition: Without Keris in backpack or bank:)
           - **Player:** Estoy buscando un reemplazo para mi Keris; Parece que lo he perdido en mis viajes.
           - [Ali hurga un poco debajo de su túnica y finalmente saca una Keris.]
           - **Emir Ali Mirza:** ¿Sería esto lo que estás buscando?
@@ -118,22 +118,22 @@
           - **Emir Ali Mirza:** Lo dejaré pasar hmmmm... ¿cuánto vale una espada como esta? Digamos 20.000 gold coins.
           - [Menu]: Selecciona una opción
             - [Choice]: Lo compraré.
-              - (Condition: Sin espacio libre backpack:)
+              - (Condition: Without free backpack space:)
                 - **Emir Ali Mirza:** De verdad, no pierda el tiempo intentando comprar cuando no tienes espacio para guardar la hoja.
-              - (Condition: Con espacio gratuito backpack:)
-                - (Condition: Sin 20.000 coins:)
+              - (Condition: With free backpack space:)
+                - (Condition: Without 20,000 coins:)
                   - No puedes permitirte eso.
-                  - (ventana emergente)
-                    - (Ventana emergente: No puedes permitirte eso.|advertencia=yes)
+                  - (pop-up)
+                    - (Pop-up: You can not afford that.|warning=yes)
                     - (continue)
                   - [No tienes suficiente dinero contigo.]
-                - (Condition: Con 20.000 coins:)
+                - (Condition: With 20,000 coins:)
                   - (removes=20,000 coins) (receives=Keris)
                   - [El Príncipe Ali te entrega el dagger.]
                   - **Player:** Gracias.
             - [Choice]: Lo siento, eso es demasiado caro.
               - **Player:** Lo siento, es demasiado caro.
-        - (Condition: Con Keris en backpack o banco:)
+        - (Condition: With Keris in backpack or bank:)
           - **Player:** ¿Sabes algo sobre Keris, la dagger que recuperé durante mi última misión?
           - **Emir Ali Mirza:** Descubrimos un alijo de ellos en algunas de nuestras investigaciones. Hasta donde hemos podido determinar, fue creado por adoradores de Elidinis para herir a los seguidores de Scabaras.
           - **Player:** Entonces, ¿qué tienen de bueno?

@@ -11,7 +11,7 @@
 
 ### Talk to
 
-- (Condition: Si el player ha sido sorprendido recientemente robando en uno de los puestos del mercado:)
+- (Condition: If the player has recently been caught stealing from one of the market stalls:)
   - **Grocer Hannah:** {{RSChat|You're the one who stole something from me!}}
   - **Grocer Hannah:** {{RSChat|Help!}}
 - **Grocer Hannah:** Hola, mascota. ¿Puedo interesarte por los productos más frescos de Wendlewick? ¡Estamos realizando una oferta especial para aquellos interesados!
@@ -33,6 +33,6 @@
 
 ### Trade
 
-- (Condition: Si el player ha sido sorprendido recientemente robando en uno de los puestos del mercado:)
+- (Condition: If the player has recently been caught stealing from one of the market stalls:)
   - (above|thief)
 - (opens=The Village Grocery)

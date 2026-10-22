@@ -33,13 +33,13 @@
     - **Player:** ¿Cómo lo alimento?
     - **Duende:** Eso es fácil, simplemente interactúa con él, como lo harías con cualquier cultivo de Farming. Eso le ayudará a crecer grande y fuerte. Incluso podrías conseguir algo de experiencia Farming.
     - **Player:** ¿Cuánto tiempo lleva nutrirlo?
-    - (Condition: Si el extraño retoño aún no se ha transformado:)
+    - (Condition: If the strange sapling hasn't transformed yet:)
       - **Duende:** No mucho. Mi ojo experimentado calcula que crecerá por completo en aproximadamente [2/3/4/5] minutos. Por supuesto, si consigues que algunos amigos te ayuden, el pequeño crecerá más rápido.
       - (initial|init-sapling)
-    - (Condition: Si el extraño retoño está a punto de transformarse:)
+    - (Condition: If the strange sapling is about to transform:)
       - **Duende:** No mucho. Mi ojo experimentado calcula que crecerá por completo en aproximadamente 1 minuto. Por supuesto, si consigues que algunos amigos te ayuden, el pequeño crecerá más rápido.
       - (initial|init-sapling)
-    - (Condition: Si el extraño retoño ya se ha transformado en un Árbol Maligno:)
+    - (Condition: If the strange sapling has already transformed into an Evil Tree:)
       - **Duende:** No mucho. Mi ojo experimentado calcula que estaremos completamente desarrollados en aproximadamente...
       - **Duende:** ¡Crickey! ¡Qué es eso!
   - [Choice]: ¿Por qué debería ayudar?
@@ -95,12 +95,12 @@
             - **Duende:** ¿Necesitas un yesquero?
             - [Menu]: Selecciona una opción
               - [Choice]: si
-                - (Condition: Si el player no tiene un yesquero en el inventario:)
+                - (Condition: If the player does not have a tinderbox in inventory:)
                   - **Duende:** ¿Necesitas un yesquero? Aquí tienes, muchacho. ¡No te quemes!
                   - [Te entrega un yesquero.]
                   - (receives=tinderbox)
                   - (initial|init-options)
-                - (Condition: Si el player ya tiene un yesquero en el inventario:)
+                - (Condition: If the player already has a tinderbox in inventory:)
                   - **Duende:** ¡Parece que ya tienes un polvorín!
                   - (initial|init-options)
               - [Choice]: No
@@ -118,13 +118,13 @@
             - (initial|init-options)
           - [Choice]: ¿Cuánto tiempo llevará esto?
             - **Player:** ¿Cuánto tiempo llevará esto?
-            - (Condition: Cuando al árbol le queda menos del 100% de salud:)
+            - (Condition: When the tree has less than 100% health remaining:)
               - **Duende:** Todavía es grande. Calculo que podría durar media hora. ¡Si consigues que algunos compañeros te ayuden, podemos matarlo más rápido!
               - (continue)
-            - (Condition: Cuando al árbol le queda menos del 50% de salud:)
+            - (Condition: When the tree has less than 50% health remaining:)
               - **Duende:** Se está debilitando. Calculo que tardará menos de veinte minutos. ¡Si consigues que algunos compañeros te ayuden, podemos matarlo más rápido!
               - (continue)
-            - (Condition: Cuando al árbol le queda menos del 25% de salud:)
+            - (Condition: When the tree has less than 25% health remaining:)
               - **Duende:** Se está debilitando. No creo que pueda durar más de diez minutos. ¡Si consigues que algunos compañeros te ayuden, podemos matarlo más rápido!
               - (continue)
             - (initial|init-options)
@@ -149,22 +149,22 @@
       - [Choice]: hacha
         - **Duende:** ¡Parece que ya tienes un hacha!
       - [Choice]: yesquero
-        - (Condition: Si el player no tiene un yesquero en el inventario:)
+        - (Condition: If the player does not have a tinderbox in inventory:)
           - **Duende:** ¿Necesitas un yesquero? Aquí tienes, muchacho. ¡No te quemes!
           - [Te entrega un yesquero.]
           - (receives=tinderbox)
           - (initial|init-options)
-        - (Condition: Si el player ya tiene un yesquero en el inventario:)
+        - (Condition: If the player already has a tinderbox in inventory:)
           - **Duende:** ¡Parece que ya tienes un polvorín!
           - (initial|init-options)
       - [Choice]: ambos
         - **Duende:** ¡Parece que ya tienes un hacha!
-        - (Condition: Si el player no tiene un yesquero en el inventario:)
+        - (Condition: If the player does not have a tinderbox in inventory:)
           - **Duende:** ¿También necesitas un yesquero? Aquí tienes, muchacho. ¡No te quemes!
           - [Te entrega un yesquero.]
           - (receives=tinderbox)
           - (initial|init-options)
-        - (Condition: Si el player ya tiene un yesquero en el inventario:)
+        - (Condition: If the player already has a tinderbox in inventory:)
           - **Duende:** ¡Y parece que ya tienes un polvorín!
           - (initial|init-options)
       - [Choice]: nada
@@ -203,19 +203,19 @@
 
 ### Overhead dialogue
 
-- (Condition: Sobre el extraño árbol joven que se convierte en un árbol malvado:)
+- (Condition: Upon the strange sapling turning into an Evil Tree:)
   - **Duende:** {{RSChat|Crikey! What's that!}}
-- (Condition: Cuando el Árbol del Mal alcance el 50% de salud:)
+- (Condition: Upon the Evil Tree reaching 50% health:)
   - **Duende:** {{RSChat|It's getting weaker!}}
-- (Condition: Al morir el Árbol del Mal:)
+- (Condition: Upon the Evil Tree dying:)
   - **Duende:** {{RSChat|Hurrah! The Evil Tree is dead!}}
 
 #### Diálogo histórico general
 
-- (Condition: Cuando la salud del Árbol del Mal está por encima del 25%, puede ocurrir cualquiera de los siguientes diálogos:)
+- (Condition: When the health of the Evil Tree is above 25%, any of the following dialogue may occur:)
   - **Duende:** {{RSChat|Why does this always 'appen to me?!}}
   - **Duende:** {{RSChat|Ooh! 'E's a nasty one!}}
-- (Condition: Cuando la salud del Árbol del Mal está por debajo del 25%, puede ocurrir cualquiera de los siguientes diálogos:)
+- (Condition: When the health of the Evil Tree is below 25%, any of the following dialogue may occur:)
   - **Duende:** {{RSChat|Don't stop choppin'!}}
   - **Duende:** {{RSChat|It's on its last legs! I mean... roots!}}
   - **Duende:** {{RSChat|The end is nigh!}}

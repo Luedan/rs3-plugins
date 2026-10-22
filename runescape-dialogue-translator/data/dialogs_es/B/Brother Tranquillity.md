@@ -22,12 +22,12 @@
 
 - **Player:** ¿Cómo se siente tu cabeza?
 - **Brother Tranquillity:** Mucho mejor, gracias. ¿Puedo ayudarte con algo?
-- (Condition: Si el player ha perdido su ancla Barrelchest:)
+- (Condition: If the player has lost their Barrelchest anchor:)
   - **Brother Tranquillity:** Esto apareció en la playa antes. Pensé que Smithing Smith en Mos Le'Harmless podría arreglarlo. Podría ser valioso.
   - (receives=barrelchest anchor)
   - **Player:** Gracias.
   - (continue)
-- (Condition: De lo contrario:)
+- (Condition: Otherwise:)
   - **Player:** En realidad, no. Solo estaba pasando para ver cómo les iba a todos y posiblemente ayudar a eliminar a algunos de los zombies.
   - **Brother Tranquillity:** Tu preocupación es muy gratificante. Saradomin estará contigo.
   - (continue)
@@ -42,12 +42,12 @@
 
 - **Player:** ¿Cómo se siente tu cabeza?
 - **Brother Tranquillity:** Mucho mejor, gracias. ¿Puedo ayudarte con algo?
-- (Condition: Si el player ha perdido su ancla Barrelchest:)
+- (Condition: If the player has lost their Barrelchest anchor:)
   - **Brother Tranquillity:** Esto apareció en la playa antes. Pensé que Smithing Smith en Mos Le'Harmless podría arreglarlo. Podría ser valioso.
   - (receives=barrelchest anchor)
   - **Player:** Gracias.
   - (continue)
-- (Condition: De lo contrario:)
+- (Condition: Otherwise:)
   - **Player:** En realidad, no. Solo estaba pasando para ver cómo les iba a todos y posiblemente ayudar a eliminar a algunos de los zombies.
   - **Brother Tranquillity:** Tu preocupación es muy gratificante. Saradomin estará contigo.
   - (continue)

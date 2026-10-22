@@ -32,13 +32,13 @@
           - ¿Hay alguna otra manera de salir de aquí?
             - **Torsteg:** Ah, sí. Vuelve a subir la colina hasta el campamento y luego dirígete hacia el este hasta los muelles. Hay un ferry que te llevará al sur, a las llamadas tierras civilizadas.
             - **Torsteg:**Es mucho más seguro que intentar caminar por Wilderness. Ahora bien, ¿podemos ayudarte en algo más?
-              - ((Muestra opciones iniciales con "la puerta" cambiada a "esa puerta", pero no hay diferencias en el diálogo))
+              - ((Shows initial options with "the gate" switched to "that gate" but no difference in dialogue))
           - No gracias.
             - **Player:** No, gracias.
       - Olvídalo, no voy a pasar por ahí.
         - **Player:** Olvídalo, no voy a pasar por ahí.
         - **Torsteg:** Eso es sabio. Ahora bien, ¿podemos ayudarte en algo más?
-          - ((Mismas opciones que arriba))
+          - ((Same options as above))
   - ¿Qué estás haciendo aquí?
     - (arriba)
   - No gracias.

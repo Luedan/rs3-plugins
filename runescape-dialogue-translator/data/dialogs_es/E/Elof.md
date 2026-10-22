@@ -110,7 +110,7 @@
 
 ### At Thalmund's forge
 
-- ((Se ve una de las siguientes secuencias.))
+- ((One of the following sequences is seen.))
 
 #### Secuencia 1
 

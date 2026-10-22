@@ -17,10 +17,10 @@
 ### Overhead dialogue
 
 - {{trandom}}
-  - (Condition: Diálogo 1)
+  - (Condition: Dialogue 1)
     - **Jhonatan:** {{RSChat|I love you, my dear.}}
     - **Sabrina:** {{RSChat|I know, my sweet.}}
-  - (Condition: Diálogo 2)
+  - (Condition: Dialogue 2)
     - **Jhonatan:** {{RSChat|We should go see a show or something.}}
     - **Sabrina:** {{RSChat|There's a performer nearby, I already bought tickets.}}
     - **Jhonatan:** {{RSChat|Haha! Of course.}}
@@ -31,27 +31,27 @@
 - [Menu]: ¿Quieres ayudar?
   - [Choice]: Sí.
     - **Jhonatan:** Mi agradecimiento.
-    - (Condition: Si el tipo de misión de la ciudad es "Atacada por vida silvestre":)
+    - (Condition: If the city quest type is "Attacked by wildlife":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "En espera de entrega":)
+    - (Condition: If the city quest type is "Awaiting delivery":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Los niños no pueden dormir":)
+    - (Condition: If the city quest type is "Children can't sleep":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Coleccionista de curiosidades":)
+    - (Condition: If the city quest type is "Collector of curiosities":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Crondis está enojado":)
+    - (Condition: If the city quest type is "Crondis is angry":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Plagas de cultivos":)
+    - (Condition: If the city quest type is "Crop pests":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Ayuda de entrega":)
+    - (Condition: If the city quest type is "Delivery help":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "El hijo de un amigo muere lentamente":)
+    - (Condition: If the city quest type is "Friend's son slowly dying":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Nuevo producto":)
+    - (Condition: If the city quest type is "New product":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Slayer master":)
+    - (Condition: If the city quest type is "Slayer master":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "esfuerzo War":)
+    - (Condition: If the city quest type is "War effort":)
       - (continue)
   - [Choice]: No ahora mismo.
     - No importa.
@@ -79,9 +79,9 @@
   - [Choice]: Sí.
     - **Jhonatan:** Mi agradecimiento.
     - **Player:** ¿Dónde puedo encontrar [monster]?
-    - (Condition: Si el monstruo asignado son matones menafitas:)
+    - (Condition: If the monster assigned is Menaphite thugs:)
       - **Jhonatan:** Fueron exiliados. Se rumorea que se han instalado en Pollnivneach. Eso es lo que he oído.
-    - (Condition: Si el monstruo asignado son guardias del campamento minero:)
+    - (Condition: If the monster assigned is mining camp guards:)
       - **Jhonatan:** El campamento minero está en algún lugar del desierto, al norte. Eso es lo que he oído.
   - [Choice]: No.
     - [Menu]: ¿Te gustaría abandonar esta búsqueda de la ciudad?
@@ -102,9 +102,9 @@
   - [Choice]: Hable sobre su tarea actual.
     - **Jhonatan:** ¿Se ocuparon del [número] [monster]? ([número] restantes)
     - **Player:** Todavía no. ¿Dónde podría encontrar [monster] nuevamente?
-    - (Condition: Si el monstruo asignado son matones menafitas:)
+    - (Condition: If the monster assigned is Menaphite thugs:)
       - **Jhonatan:** Fueron exiliados. Se rumorea que se han instalado en Pollnivneach.
-    - (Condition: Si el monstruo asignado son guardias del campamento minero:)
+    - (Condition: If the monster assigned is mining camp guards:)
       - **Jhonatan:** El campamento minero está en algún lugar del desierto, al norte.
   - [Choice]: Abandona esta búsqueda de la ciudad.
     - (Action: La misión está completa.)
@@ -134,7 +134,7 @@
   - [Choice]: Muy bien.
     - **Jhonatan:** Mi agradecimiento.
     - **Player:** ¿Sabes dónde puedo conseguir [item]?
-    - (Condition: Si el artículo deseado es mineral de cobre:)
+    - (Condition: If the item desired is copper ore:)
       - **Jhonatan:** El mineral de cobre se puede encontrar al sureste de Varrock.
   - [Choice]: No, lo siento.
     - [Menu]: ¿Te gustaría abandonar esta búsqueda de la ciudad?
@@ -167,10 +167,10 @@
     - **Jhonatan:** ¿Ya has encontrado [número] [item]? ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Jhonatan ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Jhonatan:** Genial. Gracias.
@@ -204,7 +204,7 @@
   - [Choice]: Claro.
     - **Jhonatan:** Mi agradecimiento.
     - **Player:** ¿Qué sabes sobre [item]?
-    - (Condition: Si el artículo deseado son velas negras:)
+    - (Condition: If the item desired is black candles:)
       - **Jhonatan:** He oído que hay un fabricante de velas de renombre en Catherby.
   - [Choice]: No.
     - [Menu]: ¿Te gustaría abandonar esta búsqueda de la ciudad?
@@ -237,10 +237,10 @@
     - **Jhonatan:** ¿Trajiste [número] [item]? ¡Este osito de peluche no se construirá solo! ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Jhonatan ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Jhonatan:** Genial. Gracias.
@@ -351,10 +351,10 @@
     - **Jhonatan:** ¿Tienes el [número] [item] a mano, soldado? ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Jhonatan ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Jhonatan:** Genial. Gracias.
@@ -418,10 +418,10 @@
     - **Jhonatan:** ¿Tienes los suministros, soldado? ¡Esta guerra no se financiará sola! ¡Necesitamos [número] [item]! ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Jhonatan ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Jhonatan:** Genial. Gracias.
@@ -467,7 +467,7 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: Hable sobre su tarea actual.
-    - (Condition: Si el monstruo es una plaga de ranas:)
+    - (Condition: If the monster is plague frogs:)
     - **Jhonatan:** ¿Has matado a [número] [monster]? Por lo general, están adelgazando alrededor de Sophanem. ¡Podríamos ganar esta guerra todavía! ([número] restantes)
   - [Choice]: Abandona esta búsqueda de la ciudad.
     - (Action: La misión está completa.)
@@ -477,7 +477,7 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: Hable sobre su tarea actual.
-    - (Condition: Si el monstruo es una plaga de ranas:)
+    - (Condition: If the monster is plague frogs:)
       - **Jhonatan:** ¿Has matado a [número] [monster]? Por lo general, están adelgazando alrededor de Sophanem. ¡Podríamos ganar esta guerra todavía! (0 restante)
       - (continue)
     - **Player:** Sí, he matado al [monster].

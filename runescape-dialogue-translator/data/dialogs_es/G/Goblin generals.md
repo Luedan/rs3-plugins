@@ -8,7 +8,7 @@
 
 ## Dialogue Transcript
 
-- ((Iniciar la conversación con General Bentnoze o Warface da como resultado el mismo diálogo.))
+- ((Initiating the conversation with either General Bentnoze or Warface results in the same dialogue.))
 - **General Bentnoze:** ¿Estás aquí por arqueología?
 - **General Wartface:** ¿Acerca de nuestras colecciones de artefactos?
 - [Menu]: ¿Hablar de Archaeology?
@@ -25,9 +25,9 @@
         - **Player:** Esa es una pregunta confusa.
         - [Menu]: ¿Qué te gustaría hacer?
           - [Choice]: Ver las colecciones de General Bentnoze.
-            - ((Se abre la interfaz Red Rum Reliquary.))
+            - ((Red Rum Reliquary interface opens.))
           - [Choice]: Ver las colecciones de General Wartface.
-            - ((Se abre la interfaz Green Gobbo Goodies.))
+            - ((Green Gobbo Goodies interface opens.))
           - [Choice]: Habla de colecciones en general.
             - **General Wartface:** ¡Quiero todas las cosas de gobbo! ¡Lo mejor de Gobbo!
             - **General Bentnoze:** ¡No! Las cosas de gobbo son las peores, ¡por eso quiero todas las cosas que no sean de gobbo!
@@ -45,18 +45,18 @@
             - **General Wartface:** Excepto decir que lo mejor es lo de gobbo, estoy de acuerdo. Lugares sin gobbo: ¡qué asco!
             - (previous2)
       - [Choice]: ¿Cuáles son las recompensas de tu colección?
-        - ((Si el player no ha completado sus primeras colecciones:))
+        - ((If the player hasn't completed their first collections:))
           - **General Bentnoze:** Entre nosotros tenemos...
           - **General Wartface:** ...piezas de tetrabrújula.
           - **General Wartface:** Completas cada una de nuestras dos primeras colecciones...
           - **General Bentnoze:** ...entonces obtienes un tetrabrújula completo.
           - (continue)
-        - ((Si el player ha completado sus primeras colecciones:))
+        - ((If the player has completed their first collections:))
           - **General Bentnoze:** ¿Cómo estuvo el tetracompass? Espero que tengas algo.
           - **General Wartface:** No conseguimos que funcione. No vale nada para nosotros.
           - (continue)
-        - ((Si el player no ha completado sus colecciones finales:))
-          - ((Si el player no ha perdido un componente de Yelmo del Terror:))
+        - ((If the player hasn't completed their final collections:))
+          - ((If the player hasn't lost a Helm of Terror component:))
             - **General Bentnoze:** Teníamos una reliquia, pero se rompió.
             - **General Wartface:** Sí, porque seguiste tirando de él.
             - **General Bentnoze:** ¡Eso porque es mío!
@@ -73,21 +73,21 @@
             - **General Wartface:** Claro, traes paz a Goblin Village.
             - **General Bentnoze:** Y ya no tendré que oír más sobre eso.
             - (previous)
-          - ((Si el player ha perdido un componente de Yelmo del Terror:))
+          - ((If the player has lost a Helm of Terror component:))
             - **Player:** Perdí la mitad del Yelmo del Terror que uno de ustedes me dio.
             - **General Bentnoze:** Que descuidado. Lo buscamos.
             - **General Wartface:** Mientras tanto, completa otra colección para la otra mitad.
             - **General Bentnoze:** Solo devolvemos ambas mitades cuando puedes hacer el timón, ya que pierdes cosas.
             - (previous)
-        - ((Si el player ha completado sus colecciones finales:))
+        - ((If the player has completed their final collections:))
           - **General Bentnoze:** ¿Cómo es Helm of Terror?
-          - ((Si el player ha perdido un componente de Yelmo del Terror:))
+          - ((If the player has lost a Helm of Terror component:))
             - **Player:** Um, perdido y aún roto...
             - **General Wartface:** ¿Perdiste parte? Que descuidado.
             - **General Bentnoze:** Encontré la parte. ¡Aquí!
-            - ((Sin espacio en backpack para los componentes que faltan:))
+            - ((Without space in backpack for the missing components:))
               - **General Wartface:** No tienes espacio para la pieza. Haz algunos.
-            - ((Con espacio en backpack para los componentes que faltan:))
+            - ((With space in backpack for the missing components:))
               - [Menu]: ¿Tomar Helm of Terror como parte de goblin generals?
                 - [Choice]: Sí.
                   - (el player recibe los componentes que faltan).
@@ -95,17 +95,17 @@
                   - (previous2)
                 - [Choice]: No.
                   - (end)
-          - ((Si el player no ha combinado los componentes en Helm of Terror:))
+          - ((If the player hasn't combined the components into Helm of Terror:))
             - **Player:** Bien, sí, probablemente debería juntar esas mitades y reformar el timón. Gracias por recordármelo.
             - (previous)
-          - ((Si el player ha combinado los componentes en Helm of Terror:))
+          - ((If the player has combined the components into Helm of Terror:))
             - **Player:** ¡Es increíble, gracias!
             - **General Wartface:** Ahora inspiras asombro.
             - (previous)
       - [Choice]: Adiós.
         - **General Bentnoze:** Nos vemos.
   - [Choice]: No.
-    - (Condition: Si no se ha reclamado el escudo de miedo del duende:)
+    - (Condition: If the goblin cower shield has not been claimed:)
       - **General Bentnoze:** Tenemos un escudo para ti.
       - **General Wartface:** Sí, por salvar Zanik y todo eso.
       - **General Bentnoze:** ¡Nosotros damos, tú tomas!
@@ -139,14 +139,14 @@
       - [Choice]: Entonces, ¿cómo es la vida de los duendes?
         - **Player:** Entonces, ¿cómo es la vida de los duendes?
         - {{Trandom}}
-          - ((Opción 1:))
+          - ((Option 1:))
             - **General Bentnoze:** Ahora que Grubfoot desapareció, necesitamos encontrar un nuevo servidor. ¿Quién crees?
             - **General Wartface:** ¿Qué pasa con las verrugas en las rodillas?
             - **General Bentnoze:** No, es demasiado estúpido. ¿Qué pasa con Caracol?
             - **General Wartface:** No, es demasiado torpe. ¿Qué pasa con Toadbrain?
             - **General Bentnoze:** No, él no existe. Él es producto de tu imaginación.
             - **General Wartface:** Ah, sí. Yo siempre lo olvido.
-          - ((Opción 2:))
+          - ((Option 2:))
             - **General Bentnoze:** Nuestros soldados necesitan mejores armas. ¡Les damos a todos martillos de guerra!
             - **General Wartface:** ¡No, no, dales hachas de batalla!
             - **General Bentnoze:** ¡Hachas estúpidas! ¡Esas cosas con las que cortas madera!
@@ -154,19 +154,19 @@
             - **General Bentnoze:** ¡No necesitas afilar cuando tienes un duende fuerte balanceando un gran trozo de hierro!
             - **Player:** ¿Quieres que...?
             - **General Wartface:** ¡Cállate, humano, esto lo solucionamos nosotros mismos!
-          - ((Opción 3:))
+          - ((Option 3:))
             - **General Bentnoze:** ¡Cállate, Grubfoot!
             - **General Wartface:** Grubfoot no está aquí.
             - **General Bentnoze:** Oh, sí.
             - **General Bentnoze:** Humano, si ves a Grubfoot, ¡dile 'cállate' por mí!
-          - ((Opción 4:))
+          - ((Option 4:))
             - **General Bentnoze:** ¿Qué hacemos ahora, Warface?
             - **General Wartface:** No sé... tal vez cambiemos el color de la armadura nuevamente.
             - **General Bentnoze:** Humano, ¿qué color crees que es mejor?
             - **Player:** ¿Qué pasa con el marrón?
             - **General Wartface:** Sí, el marrón es bonito.
             - **General Bentnoze:** Gracias, humano.
-          - ((Opción 5:))
+          - ((Option 5:))
             - **General Bentnoze:** ¿Cuándo el Comandante Elegido vendrá a hablar con nosotros nuevamente?
             - **Player:** No lo sé. No creo que estuviera haciendo ningún progreso cuando habló contigo antes.
             - **General Wartface:** ¡Escuchamos todo lo que ella dice!
@@ -180,7 +180,7 @@
             - **General Wartface:** ¡Jajaja!
             - **General Bentnoze:** ¡Jajaja! Humano estúpido.
             - **General Wartface:** El comandante elegido nunca diría cosas tan tontas.
-          - ((Opción 6:))
+          - ((Option 6:))
             - **General Wartface:** Big High War ¿Dios muerto?
             - **General Bentnoze:** Eso creo, Cara de Verruga.
             - **General Wartface:** ¿Qué hacemos ahora?
@@ -190,11 +190,11 @@
             - **Player:** Supongo que podrías unirte a otro dios. O ser impío.
             - **General Wartface:** ¿Pero qué dios elegimos?
             - **Player:** Oh, no. Me salgo de ésta.
-          - ((Opción 7:))
+          - ((Option 7:))
             - **General Wartface:** ¡Humano! ¿Salvaste al Comandante Elegido de un destino horrible?
             - **Player:** ¡Sí! ¡Ella está bien ahora!
             - **General Bentnoze:** Qué bien. Destino horrible, nada bueno, mi tío tuvo uno una vez. ¡Duende honorario!
-          - ((Opción 8:))
+          - ((Option 8:))
             - **General Wartface:** Anoche tuve una visión del Comandante Elegido. Ella dice que soy el mayor general, así que dirijo la aldea.
             - **General Bentnoze:** ¡No tienes visión! ¡Tú te lo inventas!
             - **General Wartface:** En mi visión, el Comandante Elegido dice que dices eso. Así que ahora sé que es verdad.
@@ -202,7 +202,7 @@
             - **General Wartface:** ¡Eso no es justo! ¡Yo tengo visión primero!
             - **General Bentnoze:** El comandante elegido también dice que eres gordo y estúpido.
             - **General Wartface:** ¡Cállate!
-          - ((Opción 9:))
+          - ((Option 9:))
             - **General Wartface:** Le digo a Mudknuckles que prepare guiso de gusanos para la cena.
             - **General Bentnoze:** ¡A mí no me gusta el guiso de lombrices! ¡Dile que haga pastel de escarabajos!
             - **General Wartface:** ¡El pastel de escarabajo te da aire! ¡Ya hueles bastante mal!

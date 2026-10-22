@@ -14,7 +14,7 @@
 
 #### Acción modificada
 
-- ((Se ve uno de los siguientes, dependiendo de la nueva acción realizada:))
+- ((One of the following, depending on the new action performed, is seen:))
   - **Greta:** {{RSChat|Curl.}}
   - **Greta:** {{RSChat|Lunge.}}
   - **Greta:** {{RSChat|Raise.}}
@@ -22,7 +22,7 @@
 
 #### Acción sin cambios
 
-- ((Cada 5,4 segundos se ve uno de los siguientes, dependiendo de la acción realizada:))
+- ((One of the following, depending on the action performed, is seen every 5.4 seconds:))
   - **Greta:** {{RSChat|Curl}}
   - **Greta:** {{RSChat|Lunge}}
   - **Greta:** {{RSChat|Raise}}

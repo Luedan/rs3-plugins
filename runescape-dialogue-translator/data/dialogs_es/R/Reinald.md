@@ -12,16 +12,16 @@
 ### In eastern Keldagrim
 
 - **Reinald** Bienvenido a mi casa. Tengo una excelente selección de protectores para brazos hechos en casa, así como ropa fina importada de Thessalia en Varrock, si estás interesado.
-- (Condition: Si el player no tiene armadura equipada:)
+- (Condition: If the player does not have armour equipped:)
   - (opens=Reinald's Smithing Emporium)
-- (Condition: Si el player tiene armadura equipada:)
+- (Condition: If the player has armour equipped:)
   - **Reinald** No puedes probarte mi ropa con toda esa armadura. Quítatelo y luego vuelve a hablarme.
 
 #### Cambiar opción de guardabrazos
 
-- (Condition: Si el player no tiene armadura equipada:)
+- (Condition: If the player does not have armour equipped:)
   - (opens=Reinald's Smithing Emporium)
-- (Condition: Si el player tiene armadura equipada:)
+- (Condition: If the player has armour equipped:)
   - **Reinald** No puedes probarte mi ropa con toda esa armadura. Quítatelo y luego vuelve a hablarme.
 
 ### Manor Farm
@@ -37,30 +37,30 @@
     - **Player:** ¿Qué pides hoy?
     - **Reinald:** ¡He estado trabajando en mi propia granja recientemente y necesito algunos artículos para aumentar mi productividad!
     - **Reinald:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
-    - (Condition: Con 3 animales solicitados:)
+    - (Condition: With 3 requested animals:)
       - **Reinald:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal].
       - (continue)
-    - (Condition: Con 4 animales solicitados:)
+    - (Condition: With 4 requested animals:)
       - **Reinald:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal], o [Animal].
       - (continue)
     - **Reinald:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
     - **Reinald:** Si completas esto, te daré: Espíritu de piedra animica ligera x 10. ¡Estoy seguro de que también ganarás reputación en el gremio de agricultores!
     - **Reinald:** ¡Tendrás que ser rápido!, solo estoy aquí por [número] días, [número] horas y [número] minutos. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - (Condition: Sin los artículos solicitados:)
+    - (Condition: Without the requested items:)
       - **Reinald:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Reinald:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
-      - (Condition: Con 3 animales solicitados:)
+      - (Condition: With 3 requested animals:)
         - **Reinald:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal].
         - (continue)
-      - (Condition: Con 4 animales solicitados:)
+      - (Condition: With 4 requested animals:)
         - **Reinald:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal], o [Animal].
         - (continue)
       - **Reinald:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
-    - (Condition: Con los artículos solicitados:)
+    - (Condition: With the requested items:)
       - (removes=the requested items) (receives=ten light animica stone spirits and Brassica primer)
       - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - Por completar esta solicitud, recibió 1 imprimación para Brassica.
         - (continue)
       - [Has recibido: Espíritu de piedra animica ligera x 10<br>Y 5500 reputación agrícola.]
@@ -85,14 +85,14 @@
 
 ##### Con artículos solicitados
 
-- (Condition: Con múltiples animales aplicables:)
+- (Condition: With multiple applicable animals:)
   - [Menu]: ¿Qué animal te gustaría entregar?
-    - ((Lo siguiente se repite para cada animal aplicable:))
+    - ((The following is repeated for each applicable animal:))
       - [Choice]: [Animal name]
         - (continue)
 - (removes=the requested items) (receives=ten light animica stone spirits and Brassica primer)
 - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Por completar esta solicitud, recibió 1 imprimación para Brassica.
   - (continue)
 - [Has recibido: Espíritu de piedra animica ligera x 10<br>Y 5500 reputación agrícola.]

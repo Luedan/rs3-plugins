@@ -28,11 +28,11 @@
 - **Ellamaria:** Oh, sí, sarcasmo, qué divertido. No, no, campesino. Tengo una pregunta que hacerte y debes responderla.
 - **Player:** Bueno, ya que lo expresas tan bien...
 - **Ellamaria:** ¿Conoce a alguien que pueda tener algún grado de experiencia en horticultura?
-- (Condition: Sin nivel 25 Farming: esto tiene prioridad sobre no completar Creature of Fenkenstrain:)
+- (Condition: Without level 25 Farming - this takes priority over non-completion of Creature of Fenkenstrain:)
   - **Player:** Si me preguntas si conozco a un jardinero, me temo que la respuesta es no. Y dicho esto, le pido amablemente que pueda despedirse ahora, milady.
   - **Ellamaria:** Sí, date prisa, campesino, no me sirves de nada.
   - [La Reina está buscando a alguien con al menos nivel 25 Farming; es posible que necesites practicar un poco más tus habilidades Farming.]
-- (Condition: Con nivel 25 Farming y no haber completado Criatura de Fenkenstrain:)
+- (Condition: With level 25 Farming and non-completion of Creature of Fenkenstrain:)
   - **Player:** Si me preguntas si conozco a un jardinero, entonces sí. Da la casualidad de que soy bastante hábil en la agricultura.
   - **Ellamaria:** Bueno, eso es lo que puede ser. Sin embargo, esta tarea también puede implicar cierto conocimiento de las habilidades de diplomacia y persuasión. Por tu manera de hablar, estas son habilidades que dudo que poseas.
   - **Player:** Mmmm. Podría decir que hace falta uno para conocer uno...

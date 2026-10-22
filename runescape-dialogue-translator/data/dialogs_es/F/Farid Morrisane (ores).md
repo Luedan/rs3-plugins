@@ -36,14 +36,14 @@
   - [Choice]: ¿Me pueden ayudar con los precios de los minerales?
     - **Player:** ¿Puedes ayudarme con los precios de los minerales?
     - **Farid Morrisane (mineral):** Eso es fácil. He estado haciendo esto desde que tenía tres años.
-    - ((Precios guía: se abren minerales.))
+    - ((Guide Prices: Ores opens up.))
   - [Choice]: Será mejor que vaya y hable con alguien de mi altura.
     - **Player:** Será mejor que vaya y hable con alguien de mi altura.
     - **Farid Morrisane (ores):** Entonces no lo detendré, señor. Tengo demasiado trabajo que hacer.
 
 #### Opción de información-mineral
 
-- ((Precios guía: se abren minerales.))
+- ((Guide Prices: Ores opens up.))
 
 ### Overhead dialogue
 

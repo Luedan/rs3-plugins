@@ -12,20 +12,20 @@
 ### In the Dorgesh-Kaan nursery
 
 - {{Trandom}}
-  - ((Diálogo 1:))
+  - ((Dialogue 1:))
     - **Caldi:** ¿Eres un habitante de la superficie?
     - **Player:** Sí...
     - **Caldi:** ¡Jaja! ¡Te ves gracioso! ¡Todo alto y delgado con ojos diminutos!
-  - ((Diálogo 2:))
+  - ((Dialogue 2:))
     - **Caldi:** ¿Eres Player? ¿Ayudaste a Zanik a salvar la ciudad?
     - **Player:** ¡Sí, ese era yo!
     - **Caldi:** Cuando sea mayor seré un aventurero, ¡como Zanik!
-  - ((Diálogo 3:))
+  - ((Dialogue 3:))
     - **Caldi:** Lo siento, no debo hablar con extraños.
-  - ((Diálogo 4:))
+  - ((Dialogue 4:))
     - **Caldi:** ¡Shh! ¡No se lo digas a nadie!
     - **Player:** ¿No decirle a nadie qué?
     - **Caldi:** ¡SHHH!
-  - ((Diálogo 5:))
+  - ((Dialogue 5:))
     - **Caldi:** ¡Ayuda! ¡Ayuda! ¡La gente de la superficie está atacando!
     - **Player:** ¡Está bien, soy amigable!

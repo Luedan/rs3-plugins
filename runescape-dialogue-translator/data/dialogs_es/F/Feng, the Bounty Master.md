@@ -14,7 +14,7 @@
 - **Feng, the Bounty Master:**  Bienvenido, compañero mercenario, bienvenido.
 - **ELIGE UNA OPCIÓN:**
   - ¿Puedes asignarme una recompensa?
-    - ((Si actualmente no tienes una recompensa y te quedan recompensas:))
+    - ((If you do not currently have a bounty and have bounties left:))
       - **Feng, the Bounty Master:**  ¿Por qué facción luchas hoy, amigo mío?
       - **SELECCIONA UNA FACCIÓN CON LA QUE GANAR REPUTACIÓN.**
         - Sliske.
@@ -29,37 +29,37 @@
         - Zaros.
           - **Feng, the Bounty Master:**  Muy bien. ¡Tu recompensa es matar a los leales a [Faction] en nombre de Zaros!
           - (previous2)
-    - ((Si actualmente no tienes una recompensa y no te quedan recompensas:))
+    - ((If you do not currently have a bounty and don't have bounties left:))
       - **Feng, the Bounty Master:** ¡Qué sanguinario! Ya has tenido tu cuota de recompensas, amigo mío. Vuelve otro día.
       - (previous)
-    - ((Si actualmente tienes una recompensa:))
-      - ((Si estás ganando reputación con Sliske:))
+    - ((If you currently have a bounty:))
+      - ((If you are earning reputation with Sliske:))
         - **Feng, the Bounty Master:**  ¡Ya tienes una recompensa para matar a los leales a [Faction] en nombre de Sliske!
         - (previous)
-      - ((Si estás ganando reputación con Zamorak:))
+      - ((If you are earning reputation with Zamorak:))
         - **Feng, the Bounty Master:**  ¡Ya tienes una recompensa para matar a los leales a [Faction] en nombre de Zamorak!
         - (previous)
-      - ((Si estás ganando reputación con Seren:))
+      - ((If you are earning reputation with Seren:))
         - **Feng, the Bounty Master:**  ¡Ya tienes una recompensa para matar a los leales a [Faction] en nombre de Seren!
         - (previous)
-      - ((Si estás ganando reputación con Zaros:))
+      - ((If you are earning reputation with Zaros:))
         - **Feng, the Bounty Master:**  ¡Ya tienes una recompensa para matar a los leales a [Faction] en nombre de Zaros!
         - (previous)
   - ¿Cuántas recompensas tengo disponibles?
-    - ((Con recompensas restantes:))
-      - ((Si actualmente no tienes una recompensa:))
+    - ((With bounties left:))
+      - ((If you do not currently have a bounty:))
         - **Feng, the Bounty Master:**  Puedo asignarte [número] [bounty/bounties] antes de que alcances tu cuota. ¿Puedes tener uno ahora, si quieres?
           - Sí, me gustaría una recompensa.
             - (above|get-bounty)
           - No, no ahora mismo.
             - (previous)
-      - ((Si actualmente tienes una recompensa:))
+      - ((If you currently have a bounty:))
         - **Feng, the Bounty Master:**  Puedo asignarte [número] [bounty/bounties] antes de que alcances tu cuota.
         - (previous)
-    - ((Sin recompensas restantes:))
+    - ((Without bounties left:))
       - **Feng, the Bounty Master:** ¡Qué sanguinario! Ya has tenido tu cuota de recompensas, amigo mío. Vuelve otro día.
       - (previous)
-  - ((Si actualmente tienes una recompensa:))
+  - ((If you currently have a bounty:))
     - Me gustaría abandonar mi recompensa actual.
       - **Feng, the Bounty Master:**  Hmm, ¿abandonas tu recompensa? Debo advertirte que seguirá contando para tu cuota. ¿Está seguro?
       - **¿ABANDONAS TU RECOMPENSA ACTUAL?**
@@ -98,18 +98,18 @@
 #### Con una recompensa completa
 
 - **Feng, the Bounty Master:** Ah, sí, veo que has completado tu recompensa. Buena caza, aquí tienes tu recompensa.
-- ((Si se entregó una recompensa Serenista:))
+- ((If a Serenist bounty was handed in:))
   - ¡Has ganado 150 de reputación con las fuerzas serenistas!
   - (above|bounties-available)
-- ((Si se entregó una recompensa de Sliske:))
+- ((If a Sliskean bounty was handed in:))
   - ¡Has ganado 150 de reputación con las fuerzas de Sliske!
   - (above|bounties-available)
-- ((Si se entregó una recompensa zamorakiana:))
+- ((If a Zamorakian bounty was handed in:))
   - ¡Has ganado 150 puntos de reputación con las fuerzas zamorakianas!
   - (above|bounties-available)
-- ((Si se entregó una recompensa zarosiana:))
+- ((If a Zarosian bounty was handed in:))
   - ¡Has ganado 150 de reputación con las fuerzas zarosianas!
-  - ((Si los componentes de ilujankan estuvieran desbloqueados:))
+  - ((If ilujankan components were unlocked:))
     - Ahora puede descubrir el plano de los componentes de Ilujankan si tiene al menos 89 Invention.
     - (continue)
   - (above|bounties-available)

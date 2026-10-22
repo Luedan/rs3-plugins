@@ -52,10 +52,10 @@
     - **Tiny Zemouregal:** ¡DIFÍCIL DA MEJOR HERRERÍA!
     - **Tiny Zemouregal:** ¡ELITE HACE TRABAJO EN TODOS LOS HORNOS!
     - **Player:** ¿Algo más?
-    - (Condition: Si juegas por primera vez:)
+    - (Condition: If on a first-time playthrough:)
       - **Tiny Zemouregal:** ¡PREGUNTA MÁS TARDE!
       - (initial)
-    - (Condition: Si está en una repetición:)
+    - (Condition: If on a replay:)
       - **Tiny Zemouregal:** ¡COMPRAR LÁMPARA!<BR>¡ACTUALIZACIÓN DE LÁMPARA!
       - **Player:** ¿Te refieres a la lámpara de la tienda de recompensas de Aris? ¿Se hace más grande cada vez que completo un nivel de dificultad?
       - **Tiny Zemouregal:** ¡LÁMPARA PEQUEÑA PARA TODO FÁCIL!
@@ -142,7 +142,7 @@
 - (removes=Zemouregal brew)
 - **Tiny Zemouregal:** {{RSChat|* hic *}}
 - **Tiny Zemouregal:** ¡MMM, DELICIOSO!
-- (Condition: Si 'Micro Brew' aún no se ha completado.)
+- (Condition: If 'Micro Brew' hasn't been completed yet.)
   - {{RSFontAchievement|Micro Brew}}
 - (continuea|Standard dialogue)
 

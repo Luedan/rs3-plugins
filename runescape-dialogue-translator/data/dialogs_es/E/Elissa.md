@@ -33,10 +33,10 @@
 - **Elissa:** Por supuesto, Guildmaster, ¿en qué puedo ayudar?
 - **Player:** He visto tu trabajo sobre golems y me preguntaba si tienes algún interés en unirte a mi equipo de investigación...
 - **Elissa:** Hmm, aunque eso sería interesante, todavía necesito terminar lo último de la investigación de mi marido sobre los golems. Todavía necesito recuperar una instrucción de golem restaurada de algún lugar. He oído que algunos se pueden encontrar en Stormguard Citadel.
-- ((Sin una instrucción de golem restaurada:))
+- ((Without a restored golem instruction:))
   - **Player:** Hmm, ya me comunicaré contigo sobre eso...
   - (above|Normal dialogue)
-- ((Con una instrucción de golem restaurada:))
+- ((With a restored golem instruction:))
   - **Player:** ¿Te refieres a uno de estos?
   - **Elissa:** De ninguna manera, ¿tienes uno? Si estás dispuesto a desprenderte de él, ¡me registraré de inmediato!
   - ¿Darle instrucciones de golem a Elissa?

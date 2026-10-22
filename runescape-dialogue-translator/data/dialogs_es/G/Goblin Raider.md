@@ -18,7 +18,7 @@
 
 ### Gathering at a farm
 
-- ((Ocasionalmente se ve uno de los siguientes:))
+- ((One of the following is occasionally seen:))
   - **Goblin Raider:** {{RSChat|Dis looks tasty!}}
   - **Goblin Raider:** {{RSChat|Got one!}}
   - **Goblin Raider:** {{RSChat|Gotcha!}}
@@ -27,7 +27,7 @@
 
 ### Gathering in a forest
 
-- ((Ocasionalmente se ve uno de los siguientes:))
+- ((One of the following is occasionally seen:))
   - **Goblin Raider:** {{RSChat|Got one!}}
   - **Goblin Raider:** {{RSChat|Gotcha!}}
   - **Goblin Raider:** {{RSChat|Hur hur hur!}}

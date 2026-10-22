@@ -15,12 +15,12 @@
 #### Piel
 
 - Para luchar en el torneo de nieve, completa la misión "Frente Frío".
-- (ventana emergente)
-  - (Ventana emergente: para luchar en el torneo de nieve, completa la misión 'Frente Frío'.|advertencia=yes)
+- (pop-up)
+  - (Pop-up: To fight in the snow tournament, complete the 'Cold Front' quest.|warning=yes)
 
 #### Habla con
 
-- ((Aparece el mismo mensaje de chat y ventana emergente que arriba y luego continúa a continuación.))
+- ((The same chat message and pop-up as above appear, then continues below.))
 - **Snow ranger:** Antes de dispararte con precisión, tendrás que obtener el permiso de la Reina.
 - **Player:** ¿Necesito el encargo de Su Majestad? Iré y presentaré esa petición.
 - **Snow ranger:** Debes conseguir una concesión majestuosa. Es el camino hacia la progresión.
@@ -38,8 +38,8 @@
 ##### Sin bolas de nieve equipadas.
 
 - ¡Necesitas bolas de nieve equipadas para participar en una pelea de bolas de nieve!
-- (ventana emergente)
-  - (Ventana emergente: ¡Necesitas bolas de nieve equipadas para participar en una pelea de bolas de nieve!|advertencia=yes)
+- (pop-up)
+  - (Pop-up: You need snowballs equipped to take part in a snowball fight!|warning=yes)
 
 ##### Con bolas de nieve equipadas.
 
@@ -48,8 +48,8 @@
 ##### Fuera de un evento navideño
 
 - Las fiestas navideñas ya han terminado.
-- (ventana emergente)
-  - (Ventana emergente: Las festividades navideñas ya terminaron.|advertencia=yes)
+- (pop-up)
+  - (Pop-up: The Christmas festivities have now ended.|warning=yes)
 
 #### Habla con
 

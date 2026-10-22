@@ -11,21 +11,21 @@
 
 ### On the {{floorNumber|1}} and {{floorNumber|2}} of Lumbridge Castle
 
-- ((el player saluda con uno de los siguientes al azar:))
+- ((The player greets with one of the following at random:))
   - **Player:** Saludos.
   - **Player:** Buenos días.
   - **Player:** Hola.
   - **Player:** ¡Saludos!
   - **Player:** Encantado de conocerte.
   - (continue)
-- ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+- ((The guardsman responds with one of the following at random:))
   - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Bien recibido, aventurero.
   - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Bueno, hola.
   - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Buenos días, aventurero.
   - (continue)
 - [Menu]: ¿Qué te gustaría decir?
   - [Choice]: Cuéntame más sobre el Lumbridge Guardsmen.
-    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - ((The guardsman responds with one of the following at random:))
     - (Diálogo 1 :)
       - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Hablé con algunas personas que me preguntaron sobre cómo inscribirme en los guardias. Para que te pregunten, debes ser un verdadero local. Nuestras tropas están listas para la acción.
       - (initial)
@@ -36,7 +36,7 @@
       - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Los guardias son principalmente agricultores locales que acuden en defensa de la ciudad en momentos de necesidad.
       - (initial)
   - [Choice]: ¿Qué hay que hacer por aquí?
-    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - ((The guardsman responds with one of the following at random:))
     - (Diálogo 1 :)
       - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** ¡Los duendes han invadido el este y nos vendría bien tu ayuda para mantener bajos los números!
       - (initial)
@@ -47,7 +47,7 @@
       - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Si quieres entrenar tus habilidades, hay árboles para cortar o puedes recolectar cuero de los campos de vacas al este.
       - (initial)
   - [Choice]: Háblame de Lumbridge.
-    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - ((The guardsman responds with one of the following at random:))
     - (Diálogo 1 :)
       - **Guardsman [Brawn/Dante/DeShawn/Pazel/Peale]:** Lumbridge es un refugio seguro donde puedes encontrar tu lugar. Es bueno estar en casa.
       - (initial)
@@ -58,7 +58,7 @@
       - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Lumbridge ha pasado por muchos cambios difíciles a lo largo de los años, pero nos reconstruimos y nos cuidamos unos a otros y la vida continúa.
       - (initial)
   - [Choice]: ¿Qué estás protegiendo?
-    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - ((The guardsman responds with one of the following at random:))
     - (Diálogo 1 :)
       - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Protegemos el castillo contra cualquier incursión. Siempre debemos estar preparados, especialmente en estos tiempos tan interesantes.
       - (initial)
@@ -73,21 +73,21 @@
 
 #### Diálogo histórico, después de la Batalla de Lumbridge
 
-- ((el player saluda con uno de los siguientes al azar:))
+- ((The player greets with one of the following at random:))
   - **Player:** Saludos.
   - **Player:** Buenos días.
   - **Player:** Hola.
   - **Player:** ¡Saludos!
   - **Player:** Encantado de conocerte.
   - (continue)
-- ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+- ((The guardsman responds with one of the following at random:))
   - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Bien recibido, aventurero.
   - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Bueno, hola.
   - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Buenos días, aventurero.
   - (continue)
 - [Menu]: ¿Qué te gustaría decir?
   - [Choice]: Cuéntame más sobre el Lumbridge Guardsmen.
-    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - ((The guardsman responds with one of the following at random:))
     - (Diálogo 1 :)
       - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Hablé con algunas personas que me preguntaron sobre cómo inscribirme en los guardias. Para que te pregunten, debes ser un verdadero local. Quiero decir, cuando se hizo el llamado a las armas, nuestras tropas estaban esperando aquí, listas para la acción.
       - (initial)
@@ -98,7 +98,7 @@
       - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Los guardias son principalmente agricultores locales que acuden en defensa de la ciudad en momentos de necesidad. Estábamos aquí y listos, por ejemplo, cuando Saradomin y Zamorak pelearon en la Batalla de Lumbridge.
       - (initial)
   - [Choice]: ¿Qué hay que hacer por aquí?
-    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - ((The guardsman responds with one of the following at random:))
     - (Diálogo 1 :)
       - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** El campo de batalla no es la única amenaza para Lumbridge. ¡Los duendes han invadido el este y nos vendría bien tu ayuda para mantener bajos los números!
       - (initial)
@@ -109,7 +109,7 @@
       - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Si quieres entrenar tus habilidades creativas, hay árboles para cortar o puedes recolectar cuero de los campos de vacas al este.
       - (initial)
   - [Choice]: Háblame de Lumbridge.
-    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - ((The guardsman responds with one of the following at random:))
     - (Diálogo 1 :)
       - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Lumbridge solía ser un refugio seguro donde podías ponerte de pie. Ahora es seguro otra vez, pero me pregunto si algún día recuperaremos lo que hemos perdido.
       - (initial)
@@ -120,7 +120,7 @@
       - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Lumbridge quedó devastado por la batalla entre Zamorak y Saradomin. Me alegra que haya terminado y que tengamos la oportunidad de reconstruir.
       - (initial)
   - [Choice]: ¿Qué estás protegiendo?
-    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - ((The guardsman responds with one of the following at random:))
     - (Diálogo 1 :)
       - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Protegemos el castillo contra cualquier resurgimiento de los combates, como la Batalla de Lumbridge. Siempre debemos estar preparados, especialmente en estos tiempos difíciles.
       - (initial)
@@ -135,14 +135,14 @@
 
 #### Históricamente, durante la Batalla de Lumbridge
 
-- ((el player saluda con uno de los siguientes al azar:))
+- ((The player greets with one of the following at random:))
   - **Player:** Saludos.
   - **Player:** Buenos días.
   - **Player:** Hola.
   - **Player:** ¡Saludos!
   - **Player:** Encantado de conocerte.
   - (continue)
-- ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+- ((The guardsman responds with one of the following at random:))
   - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Bien recibido, aventurero.
   - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Bueno, hola.
   - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Buenos días, aventurero.
@@ -158,7 +158,7 @@
       - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Los guardias son principalmente agricultores locales que acuden en defensa de la ciudad en momentos de necesidad, ¡como ahora! Defendemos el castillo de la batalla que se libra hacia el oeste.
       - (initial)
   - [Choice]: ¿Qué hay que hacer por aquí?
-    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - ((The guardsman responds with one of the following at random:))
     - (Diálogo 1 :)
       - (above|b1)
     - (Diálogo 2 :)
@@ -168,7 +168,7 @@
       - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Mucha gente ha ido a unirse a los ejércitos o a Saradomin o Zamorak, y supongo que tú también podrías, ¡pero te agradeceríamos que mantuvieras los combates lejos del castillo!
       - (initial)
   - [Choice]: Háblame de Lumbridge.
-    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - ((The guardsman responds with one of the following at random:))
     - (Diálogo 1 :)
       - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Lumbridge solía ser un refugio seguro donde podías ponerte de pie. Ahora es un campo de batalla devastado por la guerra. ¿Anhelo el día en que termine la batalla?
       - (initial)
@@ -179,7 +179,7 @@
       - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Lumbridge está actualmente devastado por la batalla que se libra en el oeste. ¿Has visto el estado de la casa de Explorer Jack? ¡Y los muros del castillo están arruinados!
       - (initial)
   - [Choice]: ¿Qué estás protegiendo?
-    - ((El guardia responde aleatoriamente con una de las siguientes opciones:))
+    - ((The guardsman responds with one of the following at random:))
     - (Diálogo 1 :)
       - **Guardia [Brawn/Dante/DeShawn/Pazel/Peale]:** Estoy protegiendo el castillo lo mejor que puedo. No nos quedan muchas tropas, entre nuestras pérdidas y la gente que deserta para unirse a Saradomin, o incluso a Zamorak.
       - (initial)

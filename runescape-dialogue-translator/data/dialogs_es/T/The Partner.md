@@ -12,10 +12,10 @@
 ### Before the Player-owned-Ports tutorial
 
 - **The Partner:** Hola. Busco pareja; Alguien que me ayude a administrar este lugar.
-- (Condition: Sin los requisitos de habilidad para comenzar el tutorial:)
+- (Condition: Without the skill requirements to begin the tutorial:)
   - **The Partner:** Erm. Y lamento decirte que simplemente no tienes las habilidades que estoy buscando.
   - Necesita al menos el nivel 90 en Agility, Construction, Cooking, Divination, Dungeoneering, Fishing, Herblore, Hunter, Prayer, Runecrafting, Slayer o Thieving para iniciar un puerto.
-- (Condition: Con los requisitos de habilidad para comenzar el tutorial:)
+- (Condition: With the skill requirements to begin the tutorial:)
   - (ver | Puerto propiedad de Player # Oferta de John Strum)
 
 ### After the Player-owned-Ports tutorial

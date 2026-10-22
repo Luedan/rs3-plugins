@@ -55,9 +55,9 @@
     - **Player:** Ya terminé contigo.
     - **Comerciante de recompensas:** Bien, bien, bien. Estaré aquí.
   - [Choice]: Acerca del sistema de tareas...
-    - (Condition: En un mundo gratuito:)
+    - (Condition: On a free-to-play world:)
       - **Comerciante de recompensas:** Me temo que necesitarás ser miembro para reclamar cualquier recompensa por la tarea establecida.
-    - (Condition: Si el player ha completado los logros medios de Daemonheim y no se han reclamado las recompensas:)
+    - (Condition: If the player has completed the medium Daemonheim achievements and the rewards have not been claimed:)
       - **Player:** He completado todas las tareas medianas del conjunto Daemonheim.
       - **Comerciante de recompensas:** Así es. He mejorado el aura para ti.
       - [Marmaros te entrega un aura, 2000 fichas Dungeoneering y una lámpara.]
@@ -66,7 +66,7 @@
       - **Comerciante de recompensas:** Cuando uses el aura en Daemonheim, desperdiciarás menos flechas y triturarás huesos automáticamente. También te permitirá atravesar la barrera mágica cerca de los tejos hacia el este. Además de esto, porque usted
       - **Comerciante de recompensas:** completaste el conjunto de tareas medianas, ahora puedes vincular una poción y también hablé con el contrabandista, quien te ayudará con algunas runas para cada piso. Finalmente, descubrirás que tu anillo de parentesco se ha vuelto un poco más poderoso con su papel secundario.
       - (continue)
-    - (Condition: Si el player no tiene recompensas para reclamar:)
+    - (Condition: If the player doesn't have rewards to claim:)
       - [Menu]: Elige una opción:
         - [Choice]: Háblame del Sistema de Logros.
           - **Comerciante de recompensas:** Muy bien: el sistema de logros es una colección de hazañas que quizás desees completar mientras viajas por el mundo.

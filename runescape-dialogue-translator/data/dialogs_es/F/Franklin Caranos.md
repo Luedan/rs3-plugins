@@ -18,10 +18,10 @@
 
 ### Iron sheet dialogue
 
-- (Condition: Si el player tiene una sola plancha de hierro:)
+- (Condition: If the player has only one iron sheet:)
   - **Franklin Caranos:** Hola de nuevo, Player. ¿Querías venderme esa chapa de hierro? Te daría 20 po por ello.
   - (continue)
-- (Condition: Si el player tiene varias láminas de hierro:)
+- (Condition: If the player has multiple iron sheets:)
   - **Franklin Caranos:** Hola de nuevo, Player. ¿Querías venderme esas láminas de hierro? Te daría [amount] gp.
   - (continue)
 - [Menu]: ¿Qué te gustaría decir?

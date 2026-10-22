@@ -20,7 +20,7 @@
 
 - [Menu]: ¿Comprar Necromancy skillcape?
   - [Choice]: Sí.
-    - (Condition: Con un token inverted skillcape:)
+    - (Condition: With an inverted skillcape token:)
       - [El espíritu toma tu ficha de inversión de capa.]
       - (removes=inverted skillcape token)
       - (continue)
@@ -30,19 +30,19 @@
       - [Choice]: cond=Without an activated or imbued ring of charos:|¿99.000 coins? Eso es demasiado caro.
         - **Player:** Sé dónde encontrarte si cambio de opinión.
       - [Choice]: De hecho, creo que tengo el dinero aquí.
-        - (Condition: Sin suficiente coins:)
+        - (Condition: Without enough coins:)
           - **Player:** Oh, no tengo suficiente coins para comprar esto.
-        - (Condition: Sin dos espacios libres en backpack:)
+        - (Condition: Without two free spaces in backpack:)
           - **Player:** Ah, necesito espacio tanto para la capa como para la capucha.
-        - (Condition: Con suficiente coins y dos espacios libres en backpack:)
+        - (Condition: With enough coins and two free spaces in backpack:)
           - (removes= 92,000 or 99,000 coins) (receives=a Necromancy cape (or trimmed variant) y capó)
           - **Player:** ¡Excelente! Usaré esta capa con orgullo.
       - [Choice]: cond=Having unlocked the inverted skillcape:|Me gustaría un skillcape con los colores invertidos.
-        - (Condition: Sin suficiente coins:)
+        - (Condition: Without enough coins:)
           - **Player:** Oh, no tengo suficiente coins para comprar esto.
-        - (Condition: Sin dos espacios libres en backpack:)
+        - (Condition: Without two free spaces in backpack:)
           - **Player:** Ah, necesito espacio tanto para la capa como para la capucha.
-        - (Condition: Con suficiente coins y dos espacios libres en backpack:)
+        - (Condition: With enough coins and two free spaces in backpack:)
           - (removes= 92,000 or 99,000 coins) (receives=a Inverted hooded Necromancy cape)
           - **Player:** ¡Excelente! Usaré esta capa con orgullo.
   - [Choice]: No.

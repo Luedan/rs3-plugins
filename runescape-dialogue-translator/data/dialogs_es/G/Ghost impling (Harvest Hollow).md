@@ -11,7 +11,7 @@
 
 ### Overhead
 
-- ((Ocasionalmente se ve uno de los siguientes al azar:))
+- ((Random one of the following is seen occasionally:))
   - **Fantasma implicado:** {{RSChat|*sigh*}}
   - **Fantasma implicado:** {{RSChat|*Wheeze*}}
 
@@ -22,7 +22,7 @@
 
 - No tienes espacio en tu inventario para captar este implicado.
 - (ventana emergente)
-  - (Ventana emergente: No tienes espacio en tu inventario para capturar este implicado.|advertencia=yes)
+  - (Pop-up: You do not have any space in your inventory to catch this impling.|warning=yes)
 
 #### Con espacio backpack
 

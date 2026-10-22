@@ -16,16 +16,16 @@
     - **Tzhaar-Mej-Jal:** Te doy 8.000 TokKul por la capa de fuego.<br>Pero, ¿de verdad quieres vender la capa? Debes derrotar a TzTok-Jad nuevamente para conseguir otro.
     - [Menu]: Elige una opción:
       - [Choice]: Sí, entiendo que no puedo volver a comprarlo.
-        - (Condition: Con una sola capa contra incendios en backpack:)
+        - (Condition: With only one fire cape in backpack:)
           - (removes=fire cape) (receives=8,000 TokKul)
           - **Player:** Muchas gracias.
           - (previous2)
-        - (Condition: Con más de una capa contra incendios en backpack:)
+        - (Condition: With more than one fire cape in backpack:)
           - **Tzhaar-Mej-Jal:** ¿Cuántos quieres vender?
           - {{Tinput|How many will you sell? You have [number] in your inventory.}}
-          - (Condition: Después de ingresar 0:)
+          - (Condition: After entering 0:)
             - **Tzhaar-Mej-Jal:** ¿Quizás cambiaste de opinión?
-          - (Condition: Después de ingresar un número positivo:)
+          - (Condition: After entering a positive number:)
             - (removes=specified number of fire capes) (receives=8,000 TokKul for each fire cape removed)
             - **Player:** Muchas gracias.
             - (previous2)
@@ -126,20 +126,20 @@
     - **TzHaar-Mej-Jal:** Si completas esto, te daré: Amuleto de obsidiana x 15. ¡Estoy seguro de que también ganarás algo de reputación en el gremio de agricultores!
     - **TzHaar-Mej-Jal:** ¡Tendrás que ser rápido! Solo estoy aquí por [time]. Para ser exactos.
   - Dales los artículos y animales que soliciten.
-    - ((Sin los artículos solicitados:))
+    - ((Without the requested items:))
       - **TzHaar-Mej-Jal:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **TzHaar-Mej-Jal:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **TzHaar-Mej-Jal:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal].
       - **TzHaar-Mej-Jal:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
-    - ((Con los artículos solicitados:))
-      - ((Con múltiples animales solicitados:))
+    - ((With the requested items:))
+      - ((With multiple requested animals:))
         - **¿QUÉ ANIMAL TE GUSTARÍA ENTREGAR?**
-          - ((Opción repetida para cada animal aplicable:))
+          - ((Option repeated for each applicable animal:))
             - [Name]
               - (continue)
       - (removes=the requested items) (receives=the reward)
       - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - Por completar esta solicitud, recibió 1 imprimación para Brassica.
         - (continue)
       - Has recibido: Amuleto de obsidiana x 15<br>Y 5500 de reputación agrícola.
@@ -166,7 +166,7 @@
 
 - (removes=the requested items) (receives=the reward)
 - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Por completar esta solicitud, recibió 1 imprimación para Brassica.
   - (continue)
 - Has recibido: Amuleto de obsidiana x 15<br>Y 5500 de reputación agrícola.

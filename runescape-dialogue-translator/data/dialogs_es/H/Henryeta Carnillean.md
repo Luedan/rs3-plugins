@@ -31,13 +31,13 @@
 
 ### After Carnillean Rising
 
-- (Condition: Si el player no ha reclamado a Rover el dragón rojo:)
+- (Condition: If the player has not claimed Rover the red dragon:)
   - (continue|Claiming Rover the red dragon)
-- (Condition: Si el player no ha reclamado Encuentra el dragón negro:)
+- (Condition: If the player has not claimed Spot the black dragon:)
   - (continue|Claiming Spot the black dragon)
 - **Henryeta Carnillean:** Ah, eres tú otra vez. Sin duda usted causó una gran impresión en Philipe.
 - **Player:** Me alegro de que haya funcionado.
-- (Condition: Si el player tiene su collar:)
+- (Condition: If the player has her necklace:)
   - **Henryeta Carnillean:** Veo que tienes mi collar.
   - **Player:** Philipe me lo regaló en agradecimiento por mi ayuda.
   - **Henryeta Carnillean:** Ya veo.  Sin embargo, ¿estaría dispuesto a devolverlo?  Te pagaría generosamente.

@@ -29,9 +29,9 @@
 - {{anchor|fix-up}}**Tam McGrubor:** Entonces, ¿puedo arreglarte con uno de estos malvados matones?
 - [Menu]: Selecciona una opción
   - [Choice]: Sí, por favor.
-    - (Condition: Sin espacio en backpack:)
+    - (Condition: Without space in backpack:)
       - [Necesitas un espacio en tu inventario para la campana.]
-    - (Condition: Con espacio en backpack:)
+    - (Condition: With space in backpack:)
       - (receives=wicked hood)
       - [Tam te entrega una capucha malvada.]
     - (continue|second-set-options)
@@ -71,9 +71,9 @@
         - **Tam McGrubor:** A veces los monstruos los tendrán, o es posible que puedas comprárselos a otros aventureros.
         - (previous)
       - [Choice]: Eso es todo lo que quiero preguntar.
-        - (Condition: Si los jugadores no tienen actualmente una capucha malvada:)
+        - (Condition: If players don't currently have a wicked hood:)
           - (above|fix-up)
-        - (Condition: Si los jugadores tienen una capucha malvada:)
+        - (Condition: If players have a wicked hood:)
           - (previous)
   - [Choice]: Adiós.
     - (end)

@@ -19,7 +19,7 @@
 - **Sumo Sacerdote:** En homenaje a la primera llegada de Saradomin, hemos construido una gran iglesia y dedicamos la isla a aquellos que desean la paz para el mundo.
 - **Sumo Sacerdote:** Los habitantes de esta isla son en su mayoría monjes que pasan su tiempo meditando sobre los caminos de Saradomin.
 - **Sumo Sacerdote:** Estás parado en la isla sagrada de Entrana. Fue aquí donde Saradomin pisó por primera vez a Gielinor.
-- ((El diálogo se repite una y otra vez.))
+- ((Dialogue repeats itself over and over.))
 
 #### Habiendo perdido los guantes de hielo de Heroes' Quest
 

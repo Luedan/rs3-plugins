@@ -12,13 +12,13 @@
 ### In the Dorgesh-Kaan nursery
 
 - {{Trandom}}
-  - ((Diálogo 1:))
+  - ((Dialogue 1:))
     - **Nipper:** ¿Ga ga?
-  - ((Diálogo 2:))
+  - ((Dialogue 2:))
     - **Nipper:** ¡Jejejeje!
-  - ((Diálogo 3:))
+  - ((Dialogue 3:))
     - **Nipper:** *tos*
-  - ((Diálogo 4:))
+  - ((Dialogue 4:))
     - **Nipper:** *gorgoteo*
-  - ((Diálogo 5:))
+  - ((Dialogue 5:))
     - **Nipper:** *hip*

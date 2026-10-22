@@ -18,23 +18,23 @@
 - [Menu]: Selecciona una opción
   - [Choice]: Hola.
     - **Sir Kay:** ¡Buenos días señor/señora!
-    - (Condition: Antes del Cristal de Merlín:)
+    - (Condition: Before Merlin's Crystal:)
       - **Player:** Buenos días. ¿Sabes dónde tiene que ir un aventurero para encontrar una misión por aquí?
       - **Sir Kay:** Un aventurero, ¿eh? No hay mejor servicio que servir al generoso King Arthur, y sé que hay una misión importante que cumplir.
-    - (Condition: Después del cristal de Merlín:)
+    - (Condition: After Merlin's Crystal:)
       - **Sir Kay:** ¡Señor Caballero! ¡Muchas gracias por su ayuda para devolverle a Merlín su antigua libertad!
       - **Player:** Oye, no hay problema.
-    - (Condition: Después de King's Ransom:)
+    - (Condition: After King's Ransom:)
       - **Sir Kay:** Tenemos una gran deuda contigo por liberarnos de esa mazmorra.
       - **Player:** Awww, caray. No fue nada.
   - [Choice]: Acerca del sistema de tareas...
-    - (Condition: Si el player ha completado las tareas difíciles del conjunto Seers' Village y las recompensas no han sido reclamadas:)
+    - (Condition: If the player has completed the hard tasks in the Seers' Village set and the rewards not claimed:)
       - **Player:** Saludos, Sir Kay. He completado todas las tareas difíciles del set Village de Seer. ¿Puedo tener una recompensa?
-      - (Condition: Si el player no tiene la diadema de Seer en backpack)
+      - (Condition: If the player does not have the Seer's headband in backpack)
         - **Sir Kay:** Me encantaría, pero tendrás que traerme tu diadema de vidente después de haber recibido las recompensas por las tareas Fácil y Media.
         - **Player:** Está bien, bueno, entonces será mejor que me ponga a trabajar.
         - **Sir Kay:** Ese es el espíritu, joven.
-      - (Condition: Si el player tiene la diadema de Seer en backpack)
+      - (Condition: If the player has the Seer's headband in backpack)
         - **Sir Kay:** Bien hecho, joven señor. Debes ser un gran aventurero para haber completado las tareas difíciles.
         - (removes=Seer's headband 2) (receives=Seer's headband 3 and Antique lamp (Hard Seers' Village Tasks))
         - Le entregas a Sir Kay tu diadema y él se concentra por un momento. Una misteriosa energía caballeresca pasa por sus manos y te devuelve la diadema, junto con una lámpara vieja.
@@ -44,7 +44,7 @@
         - **Player:** Gracias, Sir Kay. Intentaré no dañar a nadie con mi giro.
         - **Sir Kay:** De nada. También puedes descubrir que the Lady of the Lake está preparado para recompensarte por tus servicios si usas la diadema en su presencia.
         - (continue)
-    - (Condition: Si el player ha completado las tareas de élite del conjunto Seers' Village y las recompensas no han sido reclamadas:)
+    - (Condition: If the player has completed the elite tasks in the Seers' Village set and the rewards not claimed:)
       - **Player:** Saludos, Sir Kay. He completado todas las tareas de élite del conjunto Village de Seer. ¿Puedo tener una recompensa?
       - **Sir Kay:** Bien hecho, joven señor. Debes ser un aventurero increíble para haber completado las tareas de élite.
       - (removes=Seer's headband 3) (receives=Seer's headband 4, four antique lamps and one other antique lamp)
@@ -54,14 +54,14 @@
       - **Player:** Gracias, Sir Kay.
       - **Sir Kay:** De nada.
       - (continue)
-    - (Condition: Si el player ha perdido la diadema 3 de su Seer:)
+    - (Condition: If the player has lost their Seer's headband 3:)
       - **Sir Kay:** ¿Dónde está la diadema que te regalé, Player?
       - **Player:** Lo he perdido.
       - **Sir Kay:** Por suerte, tengo una diadema de repuesto que puedes tener.
       - (receives=Seer's headband 3)
       - [Sir Kay te entrega una diadema de vidente.]
       - (continue)
-    - (Condition: Si el player ha perdido la diadema 4 de su Seer:)
+    - (Condition: If the player has lost their Seer's headband 4:)
       - **Sir Kay:** ¿Dónde está la diadema que te regalé, Player?
       - **Player:** Lo he perdido.
       - **Sir Kay:** Por suerte, tengo una diadema de repuesto que puedes tener.
@@ -136,11 +136,11 @@
 #### Senderos del tesoro
 
 - (removes=the old clue scroll (easy))
-- ((Si el rastro continúa:))
+- ((If the trail continues:))
   - (receives=a new clue scroll (easy))
   - [Sir Kay te ha dado tu siguiente pergamino de pistas.]
   - (continue)
-- ((Si el sendero termina:))
+- ((If the trail ends:))
   - (receives=reward casket (easy))
   - [¡Has encontrado un ataúd!]
   - (continue)

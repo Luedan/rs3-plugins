@@ -26,13 +26,13 @@
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Podremos volver a cazar el Thalassus?
     - {{anchor|hunt}}**Player:** ¿Podremos volver a cazar el Thalassus?
-    - (Condition: Si el player aún no ha cazado con éxito el Thalassus 10 veces después de la misión:)
+    - (Condition: If the player has not already successfully hunted the Thalassus 10 times after the quest:)
       - **Jones:** Por supuesto. ¡Vamos!
-      - (Condition: Si el player tiene un seguidor:)
+      - (Condition: If the player has a follower out:)
         - **Jones:** Espera un segundo, no puedes llevarte a tu seguidor contigo.
       - (Condición: De lo contrario:) {{anchor|hunt}}
         - (Action: La pantalla se desvanece y vuelve a aparecer; el player está a bordo de un barco cazando el Talaso.)
-    - (Condition: De lo contrario:)
+    - (Condition: Otherwise:)
       - **Jones:** No lo parece. El Talaso parece haber huido a otra parte del mar; Dudo que lo volvamos a ver. Por suerte, nadie parece haberse dado cuenta, así que puedo seguir vendiendo mi Crema Protectora Miracle Thalassus.
   - [Choice]: ¡Esas redes suenan bien!
     - **Player:** ¡Esas redes suenan bien!

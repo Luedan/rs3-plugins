@@ -18,7 +18,7 @@
 
 #### Mientras los Goblin Raiders estén vivos
 
-- ((Ocasionalmente se ve uno de los siguientes:))
+- ((One of the following is occasionally seen:))
   - **Hollowtoof:** {{RSChat|Hur hur hur, dat's it.}}
   - **Hollowtoof:** {{RSChat|I keep half, remember dat!}}
   - **Hollowtoof:** {{RSChat|We're gonna be so rich!}}
@@ -27,7 +27,7 @@
 
 #### Cuando muere el último Goblin Raider
 
-- ((Ocasionalmente se ve uno de los siguientes:))
+- ((One of the following is occasionally seen:))
   - **Hollowtoof:** {{RSChat|Come an' get me!}}
   - **Hollowtoof:** {{RSChat|Dis is for Dripnose!}}
   - **Hollowtoof:** {{RSChat|Gonna hack you up!}}

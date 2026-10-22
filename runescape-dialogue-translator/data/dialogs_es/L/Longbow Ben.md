@@ -27,16 +27,16 @@
     - **Player:** Cierto...
   - [Choice]: ¿Tienes alguna misión que pueda hacer?
     - **Player:** ¿Tienes alguna misión que pueda hacer?
-    - (Condition: Antes de la diplomacia del tesoro y los duendes de Pirate:)
+    - (Condition: Before Pirate's Treasure and Goblin Diplomacy:)
       - **Longbow Ben:** No, pero el camarero se entera de la mayoría de las noticias por aquí. O Redbeard Frank, a menudo se habla de tesoro enterrado. Quizás deberías pedirles misiones.
       - (continue)
-    - (Condition: Después del Tesoro de Pirate pero antes de la Diplomacia Goblin:)
+    - (Condition: After Pirate's Treasure but before Goblin Diplomacy:)
       - **Longbow Ben:** No, pero el camarero se entera de la mayoría de las noticias por aquí. Quizás deberías pedirle una misión.
       - (continue)
-    - (Condition: Después de Goblin Diplomacy pero antes de Pirate's Treasure:)
+    - (Condition: After Goblin Diplomacy but before Pirate's Treasure:)
       - **Longbow Ben:** No, pero Redbeard Frank ha hablado a menudo de tesoros enterrados. Quizás deberías pedirle una misión.
       - (continue)
-    - (Condition: Después del tesoro y la diplomacia de los duendes de Pirate:)
+    - (Condition: After Pirate's Treasure and Goblin Diplomacy:)
       - **Longbow Ben:** No, no tengo nada que hacer. Pero he oído que hay un viejo marinero de agua dulce en Draynor Village que siempre está buscando un [lad/lass] animado que le haga un favor.
       - (continue)
     - **Player:** Gracias.

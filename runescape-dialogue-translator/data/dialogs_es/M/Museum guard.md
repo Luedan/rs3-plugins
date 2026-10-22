@@ -51,18 +51,18 @@
 - [Menu]: ¿Qué te gustaría decir?
   - [Choice]: ¿Puedo intentarlo?
     - **Player:** ¿Puedo intentarlo?
-    - (Condition: Sólo la primera vez preguntando:)
+    - (Condition: Only on the first time asking:)
       - **Museum guard:** Dije que no lo toques... pero, si te acercas lo suficiente, estoy seguro de que verás los efectos del encantamiento...
       - **Museum guard:** ¡Buena suerte!
       - (continue)
-    - (Condition: Veces posteriores preguntando:)
+    - (Condition: Subsequent times asking:)
       - **Museum guard:** ¡Por supuesto!
       - (continue)
-    - (Condition: Sin haber completado todos los requisitos completistas:)
+    - (Condition: Without having completed all completionist requirements:)
       - (Action: el player hace el gesto Think, se convierte en un animal aleatorio, vuelve a ser humano y es empujado lejos de la misteriosa capa.)
       - **Museum guard:** ¡Parece que Dahmaroc tenía sentido del humor!
       - **Museum guard:** Lo siento, no parece que seas digno de esta capa. Al menos no todavía...
-    - (Condition: Habiendo completado todos los requisitos completistas:)
+    - (Condition: Having completed all completionist requirements:)
       - (Action: el player toca la capa y realiza una animación.)
       - **Museum guard:** ¡Nunca había visto una reacción así! Creo que la capa está identificando a su verdadero dueño.
       - **Player:** ¿Quieres decir que puedo tenerlo?
@@ -71,11 +71,11 @@
       - [Menu]: ¿Qué te gustaría decir?
         - [Choice]: Eso suena justo.
           - **Player:** Eso suena justo.
-          - (Condition: Sin suficiente dinero:)
+          - (Condition: Without enough money:)
             - {{Tmissing}}
-          - (Condition: Con suficiente dinero pero sin espacio en backpack:)
+          - (Condition: With enough money but without space in backpack:)
             - {{Tmissing}}
-          - (Condition: Con suficiente dinero y con espacio en backpack:)
+          - (Condition: With enough money and with space in backpack:)
             - (removes=5,000,000 coins) (receives=hooded completionist cape)
             - sombra=si
             - **Museum guard:** Puedes volver a comprarme una copia cuando quieras. ¡Además la capucha y la capa son desmontables!
@@ -115,11 +115,11 @@
         - **Museum guard:**Te costará 5.000.000 coins por otro, ya que no es barato replicarlos.
         - [Menu]: ¿Pagar 5 000 000 coins por una capa completista (con capucha)?
           - [Choice]: si
-            - (Condition: Sin suficiente dinero:)
+            - (Condition: Without enough money:)
               - {{Tmissing}}
-            - (Condition: Con suficiente dinero pero sin espacio en backpack:)
+            - (Condition: With enough money but without space in backpack:)
               - {{Tmissing}}
-            - (Condition: Con suficiente dinero y con espacio en backpack:)
+            - (Condition: With enough money and with space in backpack:)
               - (removes=5,000,000 coins) (receives=hooded completionist cape)
               - **Museum guard:** Gracias, la capucha es desmontable si prefieres que estén separadas. ¡Espero que lo disfrutes!
           - [Choice]: No

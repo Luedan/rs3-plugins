@@ -11,7 +11,7 @@
 
 ### Exchange
 
-- ((Se abre la interfaz de la tienda Farming.))
+- ((Farming Store interface opens.))
 
 ### Talk to
 
@@ -28,7 +28,7 @@
         - [Menu]: ¿Qué te gustaría decir?
           - [Choice]: Sí, por favor.
             - **Player:** Sí, por favor.
-            - ((Se abre la interfaz de la tienda Farming.))
+            - ((Farming Store interface opens.))
           - [Choice]: ¿Qué haces con las herramientas que estás almacenando?
             - **Player:** ¿Qué haces con las herramientas que almacenas? ¡No caben todos en tus bolsillos!
             - **Hemlock:** Por supuesto que no. Tengo un cobertizo para herramientas. Aunque es un cobertizo bastante curioso. A veces, los elementos simplemente parecen aparecer allí.
@@ -36,7 +36,7 @@
             - [Menu]: ¿Qué te gustaría decir?
               - [Choice]: Sí por favor.
                 - **Player:** Sí, por favor.
-                - ((Se abre la interfaz de la tienda Farming.))
+                - ((Farming Store interface opens.))
               - [Choice]: ¿Qué puedes almacenar?
                 - (arriba)
               - [Choice]: No gracias, guardaré mis cosas.
@@ -45,7 +45,7 @@
             - **Player:** No, gracias, guardaré mis cosas.
             - **Hemlock:** Bueno, estaré aquí si alguna vez decides que puedo ser útil.
       - [Choice]: Abre tu tienda de herramientas, por favor.
-        - ((Se abre la interfaz de la tienda Farming.))
+        - ((Farming Store interface opens.))
       - [Choice]: En realidad, estoy bien.
         - **Player:** En realidad, estoy bien.
   - [Choice]: La granja de Winkin.
@@ -62,62 +62,62 @@
         - **Player:** ¿Pueden hacerme abono con parches?
         - **Hemlock:** Claro, puedo hacerlo en todos tus parches usando el abono que me das, si estás dispuesto a pagar por la conveniencia.
         - **Hemlock:** 500 de oro para abono normal, 1500 de oro para supercompost o 2500 de oro para ultracompost. Paga hasta 60.000 por adelantado, pero no hay reembolsos.
-        - ((Con compost que queda por comprar:))
+        - ((With composting left to buy:))
           - [Menu]: ¿Qué quieres recargar?
-            - (Condition: Con compost normal queda por comprar:)
+            - (Condition: With normal composting left to buy:)
               - [Choice]: abono normal
                 - {{Tinput|Pay for how many (max [number])?}}
-                - ((Después de ingresar un número positivo:))
+                - ((After entering a positive number:))
                   - [Menu]: ¿Pagar [número] coins?
                     - [Choice]: Sí.
-                      - (Condition: Si no tienes suficiente dinero contigo:)
+                      - (Condition: If you do not have sufficient money with you:)
                         - **Hemlock:** No tienes suficiente coins, vuelve cuando lo tengas
-                      - (Condition: Si tienes suficiente dinero contigo:)
+                      - (Condition: If you have sufficient money with you:)
                         - (removes=coins)
                         - **Hemlock:** Muy bien, mantendré tus parches en abono. Simplemente mantenga su almacenamiento lleno.
                     - [Choice]: No.
                       - **Hemlock:** No tienes suficiente coins, vuelve cuando lo tengas
-                - ((Después de ingresar 0:))
+                - ((After entering 0:))
                   - **Hemlock:** Haz lo que quieras.
-            - (Condition: Con supercompostaje queda por comprar:)
+            - (Condition: With supercomposting left to buy:)
               - [Choice]: supercompost
                 - {{Tinput|Pay for how many (max [number])?}}
-                - ((Después de ingresar un número positivo:))
+                - ((After entering a positive number:))
                   - [Menu]: ¿Pagar [número] coins?
                     - [Choice]: Sí.
-                      - (Condition: Si no tienes suficiente dinero contigo:)
+                      - (Condition: If you do not have sufficient money with you:)
                         - **Hemlock:** No tienes suficiente coins, vuelve cuando lo tengas
-                      - (Condition: Si tienes suficiente dinero contigo:)
+                      - (Condition: If you have sufficient money with you:)
                         - (removes=coins)
                         - **Hemlock:** Muy bien, mantendré tus parches en abono. Simplemente mantenga su almacenamiento lleno.
                     - [Choice]: No.
                       - **Hemlock:** No tienes suficiente coins, vuelve cuando lo tengas
-                - ((Después de ingresar 0:))
+                - ((After entering 0:))
                   - **Hemlock:** Haz lo que quieras.
-            - (Condition: Con ultracompostaje queda por comprar:)
+            - (Condition: With ultracomposting left to buy:)
               - [Choice]: Ultracompost.
                 - {{Tinput|Pay for how many (max [number])?}}
-                - ((Después de ingresar un número positivo:))
+                - ((After entering a positive number:))
                   - [Menu]: ¿Pagar [número] coins?
                     - [Choice]: Sí.
-                      - (Condition: Si no tienes suficiente dinero contigo:)
+                      - (Condition: If you do not have sufficient money with you:)
                         - **Hemlock:** No tienes suficiente coins, vuelve cuando lo tengas
-                      - (Condition: Si tienes suficiente dinero contigo:)
+                      - (Condition: If you have sufficient money with you:)
                         - (removes=coins)
                         - **Hemlock:** Muy bien, mantendré tus parches en abono. Simplemente mantenga su almacenamiento lleno.
                     - [Choice]: No.
                       - **Hemlock:** No tienes suficiente coins, vuelve cuando lo tengas
-                - ((Después de ingresar 0:))
+                - ((After entering 0:))
                   - **Hemlock:** Haz lo que quieras.
             - [Choice]: nada
               - (continue|refund)
-        - (Condition: Sin compostaje queda por comprar:)
+        - (Condition: Without composting left to buy:)
           - **Hemlock:** Parece que ya pagaste todo.
       - [Choice]: ¿Puedes dejar de hacer abono con parches por mí?
         - **Player:** ¿Puedes dejar de hacer abono con parches por mí?
-          - ((Si no has pagado por el compostaje:))
+          - ((If you have not paid for composting:))
             - **Hemlock:** No me habías pagado, así que no lo haría de todos modos.
-          - ((Si has pagado por el compostaje:))
+          - ((If you have paid for composting:))
             - (continue|refund)
       - [Choice]: ¿Cuánto he pagado?
         - **Player:** ¿Cuánto abono usarás?
@@ -129,45 +129,45 @@
             - **Hemlock:** ¿Quieres un reembolso entonces?
             - [Menu]: Selecciona una opción
               - [Choice]: Sí.
-                - (Condition: Sin nada que reembolsar:)
+                - (Condition: Without anything to refund:)
                   - **Hemlock:** Parece que de todos modos no se te debe ningún reembolso.
-                - (Condition: Con algo para reembolsar:)
+                - (Condition: With something to refund:)
                   - [Menu]: ¿Qué quieres reembolsar?
-                    - (Condition: Sólo con abono normal se reembolsará:)
+                    - (Condition: Only with normal compost to refund:)
                       - [Choice]: Abono normal.
                         - {{Tinput|Refund how many (max [number])?}}
-                        - ((Después de ingresar un número positivo:))
+                        - ((After entering a positive number:))
                           - (receives=coins)
                           - **Hemlock:** ¡Ahí lo tienes!
-                        - ((Después de ingresar 0:))
+                        - ((After entering 0:))
                           - **Hemlock:** Haz lo que quieras.
-                    - (Condition: Sólo con supercompost a reembolsar:)
+                    - (Condition: Only with supercompost to refund:)
                       - [Choice]: Supercompost.
                         - {{Tinput|Refund how many (max [number])?}}
-                        - ((Después de ingresar un número positivo:))
+                        - ((After entering a positive number:))
                           - (receives=coins)
                           - **Hemlock:** ¡Ahí lo tienes!
-                        - ((Después de ingresar 0:))
+                        - ((After entering 0:))
                           - **Hemlock:** Haz lo que quieras.
-                    - (Condition: Sólo con ultracompost a reembolsar:)
+                    - (Condition: Only with ultracompost to refund:)
                       - [Choice]: Ultracompost.
                         - {{Tinput|Refund how many (max [number])?}}
-                        - ((Después de ingresar un número positivo:))
+                        - ((After entering a positive number:))
                           - (receives=coins)
                           - **Hemlock:** ¡Ahí lo tienes!
-                        - ((Después de ingresar 0:))
+                        - ((After entering 0:))
                           - **Hemlock:** Haz lo que quieras.
                     - Nada.
                       - (end)
               - [Choice]: No.
                 - (end)
       - [Choice]: ¿Puedo cambiar qué parches compostas?
-        - (Condition: Si hay parches que se están compostando:)
-          - ((A continuación solo se enumeran los parches que se están compostando:))
+        - (Condition: If there are patches that are being composted:)
+          - ((In the following only the patches that are being composted are listed:))
             - **Hemlock:** Actualmente usaremos su abono en:<br>Parches de árboles<br>Parches de huertos<br>Parches de lúpulo<br>Parches de arbustos<br>Parches de hierbas<br>Parches de flores<br>Parches especiales
             - (continue)
-        - (Condition: Si hay parches que no se están convirtiendo en abono:)
-          - ((A continuación, solo se enumeran los parches que no se están convirtiendo en abono:))
+        - (Condition: If there are patches that aren't being composted:)
+          - ((In the following only the patches that aren't being composted are listed:))
             - **Hemlock:** No usaremos su abono en:<br>Parches de árboles<br>Parches de huertos<br>Parches de lúpulo<br>Parches de arbustos<br>Parches de hierbas<br>Parches de flores<br>Parches especiales
             - (continue)
         - [Menu]: Selecciona una opción

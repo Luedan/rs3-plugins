@@ -38,20 +38,20 @@
     - **Bentamir:** Si completas esto, te daré: Espíritu de piedra animica oscura x 25. ¡Estoy seguro de que también ganarás reputación en el gremio de agricultores!
     - **Bentamir:** ¡Tendrás que ser rápido! Solo estoy aquí por [time]. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - ((Sin los artículos solicitados:))
+    - ((Without the requested items:))
       - **Bentamir:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Bentamir:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **Bentamir:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal] o [Animal].
       - **Bentamir:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
-    - ((Con los artículos solicitados:))
-      - ((Con múltiples animales solicitados:))
+    - ((With the requested items:))
+      - ((With multiple requested animals:))
         - [Menu]: ¿QUÉ ANIMAL TE GUSTARÍA ENTREGAR?
-          - ((Opción repetida para cada animal aplicable:))
+          - ((Option repeated for each applicable animal:))
             - [Choice]: [Name]
               - (continue)
       - (removes=the requested items) (receives=25 dark animica stone spirits and 3 Brassica primers)
       - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
         - (continue)
       - Has recibido: Espíritu de piedra animica oscura x 25<br>Y 13,750 reputación agrícola.
@@ -78,7 +78,7 @@
 
 - (removes=the requested items) (receives=25 dark animica stone spirits and 3 Brassica primers)
 - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
   - (continue)
 - Has recibido: Espíritu de piedra animica oscura x 25<br>Y 13,750 reputación agrícola.

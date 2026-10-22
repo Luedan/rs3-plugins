@@ -11,16 +11,16 @@
 
 ### Ferry
 
-- ((Al utilizar el ferry por primera vez en un lugar determinado:))
+- ((Upon using ferry for the first time at a given location:))
   - Ahora puedes ser transportado a este destino: [Well of Souls/Ed's Boatyard/Main Plaza/Sunken Market/Haunt on the Hill].
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a popup:))
     - Ahora puedes ser transportado a este destino: [Well of Souls/Ed's Boatyard/Main Plaza/Sunken Market/Haunt on the Hill].
     - (continue)
   - (continue)
-- ((Con solo una ubicación de ferry desbloqueada:))
+- ((With only one ferry location unlocked:))
   - Deberá desbloquear un segundo destino de ferry antes de poder utilizar este servicio.
-- ((Con múltiples ubicaciones de ferry desbloqueadas:))
-  - ((Lo siguiente se muestra en una interfaz titulada "SELECCIONE UNA OPCIÓN":))
+- ((With multiple ferry locations unlocked:))
+  - ((The following is shown in an interface titled "SELECT AN OPTION":))
     - Selecciona el destino del ferry
       - 1. Pozo de las Ánimas (lugar ritual).
         - (continue)

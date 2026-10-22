@@ -1,11 +1,23 @@
 local EntityGuard = require("src/entity_guard")
 local Dictionary = require("src/dictionary")
 local DialogueLoader = require("src/dialogue_loader")
+local QuestHelperHook = require("src/quest_helper_hook")
 
 local Translator = {}
 
 local DB_CACHE_PREFIX = "rs_tr_cache_"
 local memoryCache = {}
+local failedCache = {}
+
+function Translator.ClearNegativeCache()
+    failedCache = {}
+end
+
+local function recordTranslation(en, es)
+    if QuestHelperHook and QuestHelperHook.RegisterTranslation then
+        QuestHelperHook.RegisterTranslation(en, es)
+    end
+end
 
 local function getPDB()
     return PersistentDB or (core and core.PersistentDB)
@@ -110,17 +122,27 @@ function Translator.Translate(text, optNPC)
     local cleanText, prefix, suffix = stripFormatting(text)
     if #cleanText == 0 then return text end
 
-    -- Extraer numeración de opción si la tiene (ej. "1. ", "2. ", "1: ", "[1] ")
-    local optNum = string.match(cleanText, "^(%d+[%.:]%s+)") or string.match(cleanText, "^(%[%d+%]%s+)")
+    -- Extraer numeración de opción si la tiene (ej. "1. ", "2. ", "1: ", "[1] ", "1 - ")
+    local optNum = string.match(cleanText, "^(%d+[%.:%-]?%s+)") or string.match(cleanText, "^(%[%d+%]%s*)")
     if optNum then
         prefix = prefix .. optNum
         cleanText = string.sub(cleanText, #optNum + 1)
         cleanText = string.match(cleanText, "^%s*(.-)%s*$") or cleanText
     end
 
+    -- 0. Comprobación ultrarrápida O(1) en caché de memoria (RAM)
+    if memoryCache[cleanText] then
+        return prefix .. memoryCache[cleanText] .. suffix
+    end
+    if failedCache[cleanText] then
+        return text
+    end
+
     -- 2. PRIORIDAD 1: Diálogos pretraducidos de NPCs y opciones (offline en memoria RAM)
     local npcTrans = DialogueLoader.Translate(cleanText, optNPC)
     if npcTrans and npcTrans ~= cleanText then
+        memoryCache[cleanText] = npcTrans
+        recordTranslation(cleanText, npcTrans)
         return prefix .. npcTrans .. suffix
     end
 
@@ -132,7 +154,24 @@ function Translator.Translate(text, optNPC)
     if not dictRes and string.sub(cleanText, -1) == "." then
         dictRes = Dictionary.exact[string.sub(cleanText, 1, -2)]
     end
+    -- Fallback para encabezados o botones en mayúsculas (ej. "WHAT WOULD YOU LIKE TO SAY?", "CLICK HERE TO CONTINUE")
+    if not dictRes and #cleanText >= 4 and cleanText == string.upper(cleanText) then
+        local lower = string.lower(cleanText)
+        local title = lower:gsub("(%a)([%w_']*)", function(first, rest) return first:upper() .. rest:lower() end)
+        dictRes = Dictionary.exact[title] or Dictionary.exact[lower]
+        if not dictRes and string.sub(title, -1) == "?" then
+            dictRes = Dictionary.exact[string.sub(title, 1, -2)]
+        end
+        if not dictRes and string.sub(lower, -1) == "?" then
+            dictRes = Dictionary.exact[string.sub(lower, 1, -2)]
+        end
+        if dictRes then
+            dictRes = string.upper(dictRes)
+        end
+    end
     if dictRes then
+        memoryCache[cleanText] = dictRes
+        recordTranslation(cleanText, dictRes)
         return prefix .. dictRes .. suffix
     end
 
@@ -150,7 +189,7 @@ function Translator.Translate(text, optNPC)
         end
     end
 
-    -- 5. PRIORIDAD 4: Reglas gramaticales rápidas
+    -- 5. PRIORIDAD 4: Reglas gramaticales completas (oraciones completas, nunca prefijos parciales)
     if not translatedMasked then
         local temp = masked
         temp = string.gsub(temp, "^You are in (.-)%.$", "Estás en %1.")
@@ -159,13 +198,6 @@ function Translator.Translate(text, optNPC)
         temp = string.gsub(temp, "^This is (.-)%.$", "Este es %1.")
         temp = string.gsub(temp, "^I am (.-)%.$", "Soy %1.")
         temp = string.gsub(temp, "^I'm (.-)%.$", "Soy %1.")
-        temp = string.gsub(temp, "^You don't have ", "No tienes ")
-        temp = string.gsub(temp, "^You do not have ", "No tienes ")
-        temp = string.gsub(temp, "^You cannot ", "No puedes ")
-        temp = string.gsub(temp, "^You can't ", "No puedes ")
-        temp = string.gsub(temp, "^You need to ", "Necesitas ")
-        temp = string.gsub(temp, "^You must ", "Debes ")
-        temp = string.gsub(temp, "^You talk to ", "Hablas con ")
 
         if temp ~= masked then
             translatedMasked = temp
@@ -175,16 +207,66 @@ function Translator.Translate(text, optNPC)
     -- 6. Si hubo coincidencia con entidades restauradas, retornar
     if translatedMasked then
         local finalRes = EntityGuard.Restore(translatedMasked, entities)
+        memoryCache[cleanText] = finalRes
+        recordTranslation(cleanText, finalRes)
         return prefix .. finalRes .. suffix
     end
 
-    -- 7. Consultar SQLite cache solo para cadenas previamente procesadas
+    -- 7. PRIORIDAD 5: Descomposición y traducción por oraciones
+    -- Si el texto contiene múltiples oraciones separadas por punto, exclamación o interrogación
+    if string.find(cleanText, "[%!%?%.]%s+") then
+        local parts = {}
+        local anyTrans = false
+        local lastPos = 1
+
+        for startPos, punct, sep, nextPos in string.gmatch(cleanText, "()([%!%?%.]+)(%s+)()") do
+            local sentence = string.sub(cleanText, lastPos, startPos - 1) .. punct
+            -- Evitar recursión infinita
+            local trans = nil
+            if #sentence < #cleanText then
+                trans = Translator.Translate(sentence, optNPC)
+            end
+            if trans and trans ~= sentence then
+                parts[#parts + 1] = trans .. sep
+                anyTrans = true
+            else
+                parts[#parts + 1] = sentence .. sep
+            end
+            lastPos = nextPos
+        end
+
+        if lastPos <= #cleanText then
+            local rest = string.sub(cleanText, lastPos)
+            local trans = nil
+            if #rest < #cleanText then
+                trans = Translator.Translate(rest, optNPC)
+            end
+            if trans and trans ~= rest then
+                parts[#parts + 1] = trans
+                anyTrans = true
+            else
+                parts[#parts + 1] = rest
+            end
+        end
+
+        if anyTrans then
+            local combined = table.concat(parts)
+            memoryCache[cleanText] = combined
+            recordTranslation(cleanText, combined)
+            return prefix .. combined .. suffix
+        end
+    end
+
+    -- 8. Consultar SQLite cache solo para cadenas previamente procesadas
     local h = simpleHash(cleanText)
     local cached = getCached(h)
     if cached and cached ~= cleanText then
+        memoryCache[cleanText] = cached
+        recordTranslation(cleanText, cached)
         return prefix .. cached .. suffix
     end
 
+    failedCache[cleanText] = true
     return text
 end
 

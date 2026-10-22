@@ -42,22 +42,22 @@
 #### Con lenguaje de gato
 
 - {{Trandom}}
-  - ((Conversación 1:))
+  - ((Conversation 1:))
     - **Onyx the Black:** ¡Derrota al mal, Ben el Sabio!
-  - ((Conversación 2:))
+  - ((Conversation 2:))
     - **Onyx the Black:** Humphrey atrapa los cuervos que aterrizan en la granja y yo puedo comérmelos. Es un trato maravilloso el que tenemos en marcha.
-  - ((Conversación 3:))
+  - ((Conversation 3:))
     - **Onyx the Black:** Yo conjuro... ¡RATÓN NO MUERTO! Eso te enseñará.
-  - ((Conversación 4:))
+  - ((Conversation 4:))
     - **Onyx the Black:** Lancé... ¡OLA DE AGUA! ¡Toma eso, ratón!
-  - ((Conversación 5:))
+  - ((Conversation 5:))
     - **Onyx the Black:** ¡Soy el familiar de Ben, Onyx the Black! ¡Ahuyento el peligro y busco tesoros!
     - **Onyx the Black:** Sin embargo, mi nombre legal es simplemente Onyx. Y en realidad soy sólo un gato.
-  - (Condition: Sólo después de Wiz Kid:)
-    - ((Conversación 6:))
+  - (Condition: Only after Wiz Kid:)
+    - ((Conversation 6:))
       - **Onyx the Black:** Ben intentó enviarme tele-other el otro día. No... no salió tan bien.
       - **Player:** ¿Qué pasó?
       - **Onyx the Black:** Digamos que ya no soy bienvenido a la curtiduría. Todavía estoy lamiendo dye de mi pelaje.
-    - ((Conversación 7:))
+    - ((Conversation 7:))
       - **Onyx the Black:** ¡Gracias por enseñarle a Ben algunos hechizos reales! Se vuelve un poco agotador tener que fingir todos los días.
       - **Player:** No hubo problema. Es bueno que tenga alguien con quien practicar.

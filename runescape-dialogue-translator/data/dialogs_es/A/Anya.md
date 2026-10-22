@@ -40,11 +40,11 @@
 - **Anya:** Encantado de verte de nuevo, querida. ¿A qué debo el placer?
 - [Menu]: Elige una opción:
   - [Choice]: ¿Puedes contarme más sobre tu tierra natal?
-    - (por encima|estándar)
+    - (above|standard)
   - [Choice]: ¿Cuánto sabes sobre Morytania?
-    - (por encima|estándar)
+    - (above|standard)
   - [Choice]: ¿Puedes hablarme de ti?
-    - (por encima|estándar)
+    - (above|standard)
   - [Choice]: ¿Cuál es tu plan ahora?
     - **Player:** ¿Cuál es tu plan ahora?
     - **Anya:** ¿Mi plan?
@@ -60,7 +60,7 @@
     - **Anya:** Tu trabajo. Admiro tu trabajo aquí, con esta gente. Es admirable.
     - (previous|SoA)
   - [Choice]: Adiós.
-    - (por encima|estándar)
+    - (above|standard)
 
 #### Después de Heraldos de Crimson
 
@@ -143,19 +143,19 @@
 
 ##### Diálogo estándar
 
-- (Condition: Condición desconocida:)
+- (Condition: Unknown condition:)
   - **Anya:** Un placer verte de nuevo, cariño. ¿A qué debo el placer?
   - (continue)
-- (Condition: Condición desconocida:)
+- (Condition: Unknown condition:)
   - **Anya:** ¿Sí? ¿Le puedo ayudar en algo?
   - (continue)
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Puedes contarme más sobre tu tierra natal?
-    - (por encima|estándar)
+    - (above|standard)
   - [Choice]: ¿Cuánto sabes sobre Morytania?
-    - (por encima|estándar)
+    - (above|standard)
   - [Choice]: cond=Condición desconocida:¿Puedes hablarme de ti?
-    - (por encima|estándar)
+    - (above|standard)
   - [Choice]: ¿Cuál es tu plan ahora?
     - **Player:** ¿Cuál es tu plan ahora?
     - **Anya:** Debo encontrar una manera de devolverle la cura a Vampyrium.
@@ -163,13 +163,13 @@
     - **Anya:** Sólo entonces podrá reformarse la aristocracia, bajo el legítimo gobierno de la Casa Jovkai.
     - (previous|HoC)
   - [Choice]: Adiós.
-    - (Condition: Si "¿Cuál es tu plan ahora?" no fue preguntado por última vez:)
+    - (Condition: If "What's your plan now?" wasn't asked last:)
       - **Player:** Solo paso por aquí.
       - (continue)
-    - (Condition: Si "¿Cuál es tu plan ahora?" Se preguntó por última vez:)
+    - (Condition: If "What's your plan now?" was asked last:)
       - **Player:** Hasta luego.
       - (continue)
-    - (Condition: Condición desconocida:)
+    - (Condition: Unknown condition:)
       - **Anya:** Nunca me canso de tu compañía, cariño. Me calienta el corazón. Por favor, regístrese cuando pueda, ¿no?
 
 ### Using items on her

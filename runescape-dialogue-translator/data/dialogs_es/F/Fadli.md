@@ -25,7 +25,7 @@
 ### After the destruction of Duel Arena
 
 - **Fadli:** ¿Qué?
-- ((Si el player tiene elementos para recolectar en Grand Exchange:))
+- ((If the player has items to collect in Grand Exchange:))
   - **Fadli:** Antes de continuar, debo informarle que tiene artículos listos para ser recogidos en Grand Exchange.
   - (continue)
 - **¿QUÉ TE GUSTARÍA DECIR?**

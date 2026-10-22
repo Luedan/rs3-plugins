@@ -21,26 +21,26 @@
     - (initial)
   - [Choice]: ¿Puedo canjear mis puntos Pizazz, por favor?
     - **Player:** ¿Puedo canjear mis puntos Pizazz, por favor?
-      - (Condition: Si el player tiene un sombrero de Progreso consigo:)
+      - (Condition: If the player has a Progress hat with them:)
         - **Rewards Guardian:** Por qué, por supuesto.
         - (opens=Magic Training Arena Shop)
-      - (Condition: Si el player no tiene un sombrero de Progreso consigo:)
+      - (Condition: If the player does not have a Progress hat with them:)
         - **Rewards Guardian:** Lo siento, debes llevar un sombrero de progreso Pizazz para que pueda comprobar qué puntos tienes. Si no tienes uno, habla con mi compañero guardián de abajo.
   - [Choice]: ¿Tiene algo más que pueda comprar?
     - **Player:** ¿Tienes algo más que pueda comprar?
     - **Rewards Guardian:** Bueno, tenemos un libro especial que puede interesarle y que proporciona una guía completa sobre este campo de capacitación. Cuesta 200 po; ¿te gustaría uno?
-    - (Condition: Si el player ya tiene el libro:)
+    - (Condition: If the player already has the book:)
       - **Player:** No gracias, ya tengo uno.
       - **Rewards Guardian:** Avísame si lo pierdes.
-    - (Condition: Si el player no tiene el libro:)
+    - (Condition: If the player does not have the book:)
       - [Menu]: Selecciona una opción
         - [Choice]: Eso suena útil. Sí, por favor.
           - **Player:** Eso suena útil. Sí, por favor.
           - **Rewards Guardian:** Muy bien, serán 200 po, por favor.
-          - (Condition: Si el player no tiene suficiente dinero:)
+          - (Condition: If the player does not have enough money:)
             - No puedes permitirte eso.
             - **Player:** Lo siento, no tengo suficiente dinero.
-          - (Condition: Si el player tiene suficiente dinero:)
+          - (Condition: If the player has enough money:)
             - (removes=200 coins) (receives=Arena book)
             - **Rewards Guardian:**Gracias.
         - [Choice]: No quiero un libro viejo y polvoriento.

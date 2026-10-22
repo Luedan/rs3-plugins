@@ -52,11 +52,11 @@
           - [Choice]: Adiós.
             - (arriba)
       - [Choice]: ¿Te gustó tu regalo?
-        - (Condition: Después de grabar la pulsera de rubíes:)
+        - (Condition: After engraving the ruby bracelet:)
           - **Gudrun:** ¡Mira esta pulsera de rubíes que me regaló! "Con la belleza bendecida." Cuando le recité esa frase a papá, me dejó sin aliento.
-        - (Condition: Después de grabar el collar de piedra de dragón:)
+        - (Condition: After engraving the dragonstone necklace:)
           - **Gudrun:**¡Me encanta este collar de piedra de dragón que me regaló! ¿No es maravilloso? Quizás lo tenga encantado para poder visitar Al Kharid fácilmente.
-        - (Condition: Después de grabar el amuleto de ónix:)
+        - (Condition: After engraving the onyx amulet:)
           - **Gudrun:**¡Me encanta mi nuevo amuleto de ónix! ¿No son estas cosas realmente caras? "La chica más hermosa de la habitación". ¡Dororan es tan dulce! Ahora, en cualquier habitación en la que esté, ¡sé que soy la más hermosa!
       - [Choice]: Adiós.
         - (arriba)

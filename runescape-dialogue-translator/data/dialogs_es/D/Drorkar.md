@@ -84,27 +84,27 @@
 
 ##### Antes de completar el árbol tecnológico de los enanos
 
-- (Condition: Si el player está aprendiendo sobre la tecnología de vapor enano:)
+- (Condition: If the player is learning about dwarven steam technology:)
   - {{Transcript missing}}
-- (Condition: Si el player no está aprendiendo sobre la tecnología de vapor enano:)
+- (Condition: If the player is not learning about dwarven steam technology:)
   - **Drorkar:** Eh, para ser humano, pareces saber un par de cosas sobre minería Y herrería; eso es inusual incluso para los enanos.
   - **Drorkar:** Pero lo que más me interesa es que claramente también sabes bastante sobre la energía divina.
   - **Drorkar:** Eres el humano del que me ha hablado mi aprendiz, Doc, ¿no? ¿Ese humano pionero de la 'invención'?
   - **Player:** Supongo que debo serlo.
   - **Drorkar:** Mira, estaría dispuesto a ilustrarte sobre el funcionamiento interno de la tecnología del vapor enano, si tú hicieras lo mismo por mí con energía divina.
-  - (Condition: Si el player está aprendiendo sobre la electricidad de los duendes de las cavernas:)
+  - (Condition: If the player is learning about cave goblin electricity:)
     - **Drorkar:** Ah, pero parece que tu mente está ocupada tratando de comprender una tecnología diferente en este momento.
     - **Drorkar:** ¿Puedes cambiar de opinión y cambiar a Dwarven Steam?
     - **Drorkar:** Si quieres aprender sobre Dwarven Steam, esto te costará 100 monedas con Oldak.
     - [Menu]: ¿Estás seguro de que quieres cambiar de tecnología?
       - [Choice]: si
-        - (Condition: Si el player no tiene al menos 100 monedas Goblin:)
+        - (Condition: If the player does not have at least 100 Goblin Currency:)
           - **Drorkar:** Necesitas 100 monedas con Oldak para cambiar.
-        - (Condition: Si el player tiene al menos 100 monedas Goblin:)
+        - (Condition: If the player has at least 100 Goblin Currency:)
           - {{Transcript missing}}
       - [Choice]: No
         - **Drorkar:** Ah, está bien, volveremos cuando estés listo para aprender.
-  - (Condition: Si el player no está aprendiendo sobre la electricidad de los duendes de las cavernas:)
+  - (Condition: If the player is not learning about cave goblin electricity:)
     - **Drorkar:** Además, antes de eso, quería agradecerte por mostrarme el error que cometí con esa central eléctrica de dragón. Me quedé tan atrapado intentando dirigir mi propia empresa que me perdí, siempre enojado y estresado. He sido mucho más feliz desde que lo dejé por mi verdadera pasión de inventar.
 
 ##### Después de completar el árbol de tecnología enano

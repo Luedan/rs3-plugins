@@ -22,9 +22,9 @@
 - **Spencer:** Santa nos ha encargado traer mucha diversión a Gielinor esta temporada. Estoy repartiendo folletos que les informarán todo lo que hemos planeado.
 - **Spencer:** ¿Puedo interesarte en uno?
 - **Player:** Bueno, ¡supongo que hay épocas de nieve como las actuales!
-- ((Si el player ya tiene el folleto:))
+- ((If the player already has the flyer:))
   - **Spencer:** ¡Parece que uno de mis colegas ya logró darte uno! Por favor regrese si pierde el volante.
-- ((Si el player no tiene el folleto:))
+- ((If the player does not have the flyer:))
   - (receives=Santa's activity flyer)
   - **Spencer:** Aquí tienes.
 
@@ -37,11 +37,11 @@
     - (previous)
   - ¿Qué me espera en estas fiestas?
     - (opens=Santa's activity flyer)
-  - ((Si el player no tiene el folleto de actividades de Santa:))
+  - ((If the player does not have Santa's activity flyer:))
     - ¿Puedo tener otro folleto?
-      - ((Si el player no tiene al menos un espacio backpack libre:))
+      - ((If the player does not have at least one free backpack space:))
         - **Spencer:** Vuelve cuando tengas algo de espacio en el inventario.
-      - ((Si el player tiene al menos un espacio backpack libre:))
+      - ((If the player has at least one free backpack space:))
         - (receives=Santa's activity flyer)
         - **Spencer:** Aquí tienes.
   - Adiós.
@@ -60,7 +60,7 @@
 
 ##### Líneas aéreas
 
-- ((Cada 30 segundos se ve uno aleatorio de los siguientes. La línea también se repite como diálogo aéreo estándar.))
+- ((A random one of the following is seen every 30 seconds. The line is also repeated as standard overhead dialogue.))
   - {{Colour: {{Colour|#99FF99|It's time for festive celebrations folks! 'ead over to the Christmas Village now!}}}}
   - {{Colour: {{Colour|#99FF99|Listen up, listen up! Come an' visit the Christmas Village for the festive season!}}}}
   - {{Colour: {{Colour|#99FF99|Oi, you! Join us in the Christmas Village for activities, rewards, and more!}}}}

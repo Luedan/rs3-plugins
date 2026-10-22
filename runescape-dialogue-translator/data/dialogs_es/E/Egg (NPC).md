@@ -41,17 +41,17 @@
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Podrías cuidar esta baliza por mí?
     - **Player:** ¿Podrías cuidar esta baliza por mí?
-    - (Condition: Si la baliza está apagada:)
+    - (Condition: If the beacon is unlit:)
       - **Huevo:** Sí. Una vez encendida la baliza, deja 5 logs conmigo y yo me encargo del fuego por un tiempo.
-    - (Condition: Si la baliza está muriendo:)
+    - (Condition: If the beacon is dying:)
       - **Huevo:** Podría, pero el fuego ya se está extinguiendo. Tú lo haces arder de nuevo y luego yo lo cuido por ti.
-    - (Condition: Si la baliza no muere:)
-      - (Condition: Si Egg no tiene cinco logs:)
-        - (Condition: Si el player no tiene al menos cinco logs del mismo tipo:)
+    - (Condition: If the beacon is not dying:)
+      - (Condition: If Egg does not have five logs:)
+        - (Condition: If the player does not have at least five logs of the same type:)
           - Debes darle al bombero cinco troncos del mismo tipo para la baliza.
           - **Huevo:** ¿Cómo puedo cuidar el fuego por ti? ¡No tienes suficiente logs bueno para mí!
-        - (Condition: Si el player tiene al menos cinco logs del mismo tipo:)
-          - (Condition: Si el mensaje de confirmación está habilitado:)
+        - (Condition: If the player has at least five logs of the same type:)
+          - (Condition: If the confirmation prompt is enabled:)
             - **Huevo:** Necesitas cinco logs para cuidar el fuego. ¿Te parece bien?
             - [Menu]: ¿Quieres darle cinco logs al fuego?
               - [Choice]: Sí.
@@ -63,9 +63,9 @@
                 - **Huevo:** Está bien. Sabes dónde estoy si cambias de opinión.
               - [Choice]: Sí. Por favor, no me pidas confirmación en el futuro.
                 - (above|talk-give-logs)
-          - (Condition: Si el mensaje de confirmación está deshabilitado:)
+          - (Condition: If the confirmation prompt is disabled:)
             - (above|talk-give-logs)
-      - (Condition: Si Egg tiene cinco logs:)
+      - (Condition: If Egg has five logs:)
         - **Huevo:** Por supuesto. Yo uso logs que ya me dejaste.
   - [Choice]: ¿Puedes hablarme de otras balizas?
     - **Player:** ¿Puedes hablarme de otras balizas?
@@ -77,7 +77,7 @@
     - **Player:** ¿Guacamaya Flappy?
     - **Huevo:** Si le traes a Egg una pequeña guacamaya flappy, ¡te cuento todo lo que quieras saber sobre TODAS las balizas!
     - **Huevo:** El guacamayo puede volar alto en el aire y ver a larga distancia. Son lo suficientemente inteligentes como para informar sobre cosas muy lejanas.
-    - ((Si el player tiene una bolsa de guacamayo en su backpack:))
+    - ((If the player has a macaw pouch in their backpack:))
       - **Huevo:** Tienes guacamayo ahí en tu mochila. Le das guacamayo, te hablo de otras balizas.
       - (continue|macaw)
   - [Choice]: ¿Cómo te va?
@@ -113,27 +113,27 @@
 
 ### Using logs on Egg
 
-- (Condition: Si la baliza está apagada:)
+- (Condition: If the beacon is unlit:)
   - Aquí no hay fuego para que lo atienda el bombero.
-- (Condition: Si la baliza está muriendo:)
+- (Condition: If the beacon is dying:)
   - **Player:** Ya que estoy aquí y el fuego de la baliza se está apagando, también podría cuidarlo yo mismo.
-- (Condition: Si la baliza no muere:)
-  - (Condition: Si Egg no tiene cinco logs:)
-    - (Condition: Si el mensaje de confirmación está habilitado:)
+- (Condition: If the beacon is not dying:)
+  - (Condition: If Egg does not have five logs:)
+    - (Condition: If the confirmation prompt is enabled:)
       - [Menu]: ¿Quieres darle cinco logs al fuego?
         - [Choice]: Sí.
-          - (Condition: Si el player no tiene al menos cinco logs del mismo tipo:)
+          - (Condition: If the player does not have at least five logs of the same type:)
             - El bombero necesita cinco troncos del mismo tipo para mantener este fuego.
-          - (Condition: Si el player tiene al menos cinco logs del mismo tipo:)
+          - (Condition: If the player has at least five logs of the same type:)
             - (removes=five logs)
             - Le das al fuego tierno 5 [type] logs.
         - [Choice]: No.
           - **Player:** Creo que, después de todo, me quedaré con mi logs.
         - [Choice]: Sí. Por favor, no vuelvas a pedirme confirmación.
           - (above|use-give-logs)
-    - (Condition: Si el mensaje de confirmación está deshabilitado:)
+    - (Condition: If the confirmation prompt is disabled:)
       - (above|use-give-logs)
-  - (Condition: Si Egg tiene cinco logs:)
+  - (Condition: If Egg has five logs:)
     - Ya saliste de logs con este ténder de fuego.
 
 ### Attempting to open the log storage chest without the elite Varrock tasks completed

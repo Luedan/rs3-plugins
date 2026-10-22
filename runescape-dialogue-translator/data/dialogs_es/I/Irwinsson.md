@@ -146,13 +146,13 @@
 
 - **Irwinsson (jinete rex):** Tengo una solicitud especial para [Breed]. ¡Especialmente si tiene el rasgo [Trait]!
 - **Irwinsson (jinete de rex):** También busco algunos Pavosaurus rex, de hecho compraré hasta [número] más mientras esté aquí.
-- ((Repetido para cada pavosaurus rex en backpack:))
+- ((Repeated for each pavosaurus rex in backpack:))
   - ¿Le gustaría vender [name] por frijoles [número]?
   - '''¿VENDER [NAME] POR FRIJOLES [número]?
     - [Choice]: Sí.
-      - ((Si el player tiene un millón de beans:))
+      - ((If the player has a million beans:))
         - {{Transcript missing}}
-      - ((Si la transacción le tomara a el player más de un millón de beans:))
+      - ((If transaction would take the player over a million beans:))
         - Esta transacción le llevaría por encima del límite de un millón de frijoles. Al hacerlo, perdería beans [número].
         - **¿COMPLETAR LA TRANSACCIÓN DE TODOS MODOS?**
           - [Choice]: Sí.
@@ -162,7 +162,7 @@
           - [Choice]: No.
             - **Irwinsson (jinete rex):** No puedes aguantar más frijoles, no puedo comprarte este animal.
             - (continue)
-      - ((De lo contrario:))
+      - ((Otherwise:))
         - {{Transcript missing}}
     - No.
       - (continue)
@@ -172,10 +172,10 @@
 - **Irwinsson (jinete de rex):** ¿Estás seguro de que quieres que me lleve todo el Pavosaurus rex que tienes? No aceptaré ninguno de tus favoritos.
 - **¿VENDER TODO TU PAVOSAURUS REX?**
   - [Choice]: si
-    - ((Con pavosaurus rexes en backpack:))
-      - ((Si el player tiene un millón de beans:))
+    - ((With pavosaurus rexes in backpack:))
+      - ((If the player has a million beans:))
         - {{Transcript missing}}
-      - ((Si la transacción le tomara a el player más de un millón de beans:))
+      - ((If transaction would take the player over a million beans:))
         - Esta transacción le llevaría por encima del límite de un millón de frijoles. Al hacerlo, perdería beans [número].
         - **¿COMPLETAR LA TRANSACCIÓN DE TODOS MODOS?**
           - [Choice]: Sí.
@@ -185,9 +185,9 @@
           - [Choice]: No.
             - **Irwinsson (jinete rex):** No puedes aguantar más frijoles, no puedo comprarte este animal.
             - No tienes animales para vender. ¡Cero animales, cero frijoles!
-      - ((De lo contrario:))
+      - ((Otherwise:))
         - {{Transcript missing}}
-    - ((Sin pavosaurus rexes en backpack:))
+    - ((Without pavosaurus rexes in backpack:))
       - No tienes animales para vender. ¡Cero animales, cero frijoles!
   - [Choice]: No
     - (end)

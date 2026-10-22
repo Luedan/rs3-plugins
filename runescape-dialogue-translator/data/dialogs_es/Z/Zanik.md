@@ -17,26 +17,26 @@
 - **Zanik:** ¡Hola, Player!
 - **Player:{{anchor|story}}** ¡Hola, Zanik! ¿Qué has estado haciendo?
 - {{trandom}}
-  - (Condition: Diálogo 1:)
+  - (Condition: Dialogue 1:)
     - **Zanik:** Una rana gigante llegó a las minas, ¡pero ayudé a los guardias a ahuyentarla!
     - **Zanik:** Al final se nos escapó. ¡Pero era el más grande que jamás había visto!
-  - (Condition: Diálogo 2:)
+  - (Condition: Dialogue 2:)
     - **Zanik:** He estado pensando en mi destino...
     - **Zanik:** ¿Qué fue lo que me dijo Juna? "Tu destino es llevar a todos los duendes a una nueva era".
     - **Zanik:** 'Todos los duendes'. No sólo los Dorgeshuun, todos los duendes...
     - **Zanik:** ¿Y qué significa eso de mi destino? ¿Es algo que estoy seguro de hacer o simplemente algo que debería hacer? ¿Cómo puedo saberlo?
     - **Zanik:** Hablé con Juna al respecto, pero ella no me dijo nada. Ella simplemente dijo: 'Lo sabrás cuando sea el momento adecuado'.
-  - (Condition: Diálogo 3:)
+  - (Condition: Dialogue 3:)
     - **Zanik:** ¡He estado ayudando a Oldak con sus experimentos!
     - **Zanik:** Llevé su bola mágica por todas las cuevas e incluso a Lumbridge para probar qué pasaba cuando la rompía, y siempre terminaba de regreso aquí.
     - **Zanik:** ¡Quizás una de esas bolas te resulte útil si quisieras visitarme! Quizás deberías hablar con Oldak.
-  - (Condition: Diálogo 4:)
+  - (Condition: Dialogue 4:)
     - **Zanik:** ¡Hice otra visita a Lumbridge! Aunque todavía no puedo convencer a otros Dorgeshuun para que vayan a la superficie conmigo.
-  - (Condition: Diálogo 5; después de completar Otra rebanada de H.A.M.:)
+  - (Condition: Dialogue 5; after completing Another Slice of H.A.M.:)
     - **Zanik:** Todavía tienes esa maza antigua... Debe ser mi imaginación, pero casi puedo sentir el poder que emana de ella, como si me estuviera llamando. ¡Deberías mantenerlo a salvo, Player!
-  - (Condition: Diálogo 6; después de completar Otra rebanada de H.A.M.:)
+  - (Condition: Dialogue 6; after completing Another Slice of H.A.M.:)
     - **Zanik:** Pensé que tenías la antigua maza de duende, Player. Pero lo encontré en las cuevas. Cuando lo cogí me sentí raro... era como si alguien me estuviera mirando, instándome a hacer algo, ¡pero no sé qué! Se lo di a Tegdak. Si quieres volver a tenerlo debes hablar con él.
-  - (Condition: Diálogo 7; después de completar Otra rebanada de H.A.M.:)
+  - (Condition: Dialogue 7; after completing Another Slice of H.A.M.:)
     - **Zanik:** Visité la aldea de los duendes nuevamente. Quería aprender más sobre la leyenda del 'Comandante Elegido'. Pero no descubrí más. No pudieron decidir si realmente yo era el comandante elegido o no, y simplemente tuvieron una gran discusión al respecto.
 
 #### En el edificio de Ur-tag
@@ -707,7 +707,7 @@
 
 ##### Primera vez
 
-- ((Comienza la escena y Guildmaster Tony comienza a narrar lo siguiente.))
+- ((Cutscene begins, and Guildmaster Tony starts narrating the following.))
 - El monolito compartió lo que pudo sobre Warforge, pero es lo que se esperaría de una construcción bandosiana.
 - Después de todo, los ejércitos mercenarios de Bandos están bastante bien documentados en comparación con otros eventos de la Tercera Edad, y tuvieron que ser entrenados en alguna parte.
 - Lo que más me sorprende, sin embargo, es que los pocos artefactos descubiertos hasta ahora no coinciden con otras creaciones bandosianas.
@@ -715,7 +715,7 @@
 
 ##### Después de resolver Into the Forge
 
-- ((Comienza la escena y Guildmaster Tony comienza a narrar lo siguiente.))
+- ((Cutscene begins, and Guildmaster Tony starts narrating the following.))
 - El capricho y la crueldad de Bandos no conocían límites. Antes de su desalojo, enterró a sus duendes bajo la tierra.
 - Los dejó para que se fragmentaran y lucharan, atrapados en la oscuridad (las guerras forjadas) y para que se convirtieran en seres empeñados únicamente en luchar por la supervivencia.
 - El enano imcando secuestrado, Thalmund, que alguna vez fue el corazón en llamas de Warforge, fue su único salvador.
@@ -723,16 +723,16 @@
 
 ##### Diálogo normal
 
-- ((Si se ha perdido una pintura rupestre:))
-  - ((Sin espacio en backpack:))
+- ((If a cave painting has been lost:))
+  - ((Without space in backpack:))
     - Necesitas [número] inventario gratuito [space/spaces].
     - **Zanik:** Tengo algunas pinturas rupestres que encontraste.
     - (continue)
-  - ((Con espacio en backpack:))
+  - ((With space in backpack:))
     - **Zanik:** Encontré esta pintura rupestre. ¿La perdiste?
     - [Menu]: ¿Recuperar los componentes de las reliquias de pinturas rupestres?
       - [Choice]: Sí.
-        - ((Se devuelven las pinturas rupestres perdidas.))
+        - ((The lost cave paintings are returned.))
         - (continue)
       - [Choice]: No.
         - **Zanik:** Está bien, avísame cuando quieras recuperarlo.
@@ -762,28 +762,28 @@
 
 #### Misterios
 
-- ((Si no se ha descubierto ningún misterio, o si solo se ha descubierto Tú has elegido... pero El poder detrás del trono no se ha completado:))
+- ((If no mysteries have been uncovered, or if only You Have Chosen... has been uncovered but Power Behind the Throne hasn't been completed:))
   - **Zanik:** Oh, no creo que hayas encontrado ninguno todavía, Player. Sin embargo, estoy seguro de que pronto te toparás con algo.
-- ((Si se ha completado El poder detrás del trono o se han descubierto otros misterios distintos a los que has elegido...:))
+- ((If Power Behind the Throne has been completed or other mysteries than You Have Chosen... have been uncovered:))
   - ¿Qué misterio te gustaría discutir?
     - Fuera del Crisol.
       - {{Main|Transcript:Out of the Crucible#Zanik}}
-    - ((Sólo después de descubrir Into the Forge:))
+    - ((Only after uncovering Into the Forge:))
       - En la fragua.
         - {{Main|Transcript:Into the Forge#Zanik}}
     - Tú has elegido...
       - {{Main|Transcript:You Have Chosen...#Zanik}}
-    - ((Sólo después de haber descubierto otros misterios:))
+    - ((Only after having uncovered other mysteries:))
       - [Más opciones]
-        - ((Con solo un misterio en la revista descubierto:))
-          - ((Como se muestra a continuación después de la elección.))
-        - ((Con múltiples misterios del diario descubiertos:))
+        - ((With only one journal mystery uncovered:))
+          - ((As below after the choice.))
+        - ((With multiple journal mysteries uncovered:))
           - ¿Qué misterio te gustaría discutir?
             - El Primer Comandante.
               - {{Main|Transcript:The First Commander#Zanik}}
             - ¡Forja War!
               - {{Main|Transcript:Forge War! (achievement)#Zanik}}
-            - ((Después de descubrir Heart of the Forge:))
+            - ((After uncovering Heart of the Forge:))
               - Corazón de la Forja.
                 - {{Main|Transcript:Heart of the Forge#Zanik}}
 
@@ -808,9 +808,9 @@
 - **Zanik:** Solo estoy jugando a los dardos y tomando una copa.
 - **Zanik:** Entonces, por favor... déjame descansar en paz.
 - **Player:** Bu-
-- ((Sólo la primera vez:))
+- ((Only on first time:))
   - 0 almas vuelan para impulsar la nave. Zanik se toma en serio la idea de no participar en esto.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - 0 almas vuelan para impulsar la nave. Zanik se toma en serio la idea de no participar en esto.
     - (continue)
 - **Zanik:** En paz.
@@ -821,6 +821,6 @@
 - **Zanik:** ¿Cuál es el problema?
 - **Player:** No hay truco: eres mi amigo y estás cansado, así que decidí invitarte a una bebida.
 - (removes=The Alms of Death)
-- ((Sólo la primera vez:))
+- ((Only on first time:))
   - ¡Felicitaciones! Has completado: 'La limosna de la muerte al Dorgeshuun' - Compra Zanik la limosna de la muerte.
 - **Zanik:** Muy bien... Gracias, Player.

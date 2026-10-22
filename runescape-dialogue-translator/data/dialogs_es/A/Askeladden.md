@@ -61,10 +61,10 @@
 - **Askeladden:** Bueno, amigo, déjame decirte que matar a esos bocas de daga es un trabajo que da sed.
 - **Askeladden:** ¡Si tienes un barril de cerveza contigo, te lo compraré por 500 gold coins, amigo!
 - **Askeladden:** O si tienes partes de animales, ¡te cambio algo por ellas!
-- (Condition: Si el player no tiene barriles de cerveza ni partes de animales:)
+- (Condition: If the player does not have any kegs of beer nor any animal parts:)
   - **Player:** No... No tengo nada de eso conmigo...
   - **Askeladden:** Bueno, ¡no volveré allí hasta que consiga un compañero de bebida! ¡Ven a verme si me encuentras un barril, pago un buen dinero!
-- (Condition: Si el player tiene al menos un barril de cerveza pero no tiene partes de animales:)
+- (Condition: If the player has at least one keg of beer but no animal parts:)
   - **Askeladden:** ¿Quieres venderme barriles de cerveza a 500 gold coins cada uno?
   - **Player:** No lo sé... Parece un poco fuera de lugar venderle alcohol a un niño...
   - **Askeladden:** ¡Oye, no juzgues a nuestro extranjero de aduanas! ¿Ahora quieres el dinero o quieres molestarme?
@@ -83,17 +83,17 @@
           - Vendes Askeladden un barril de cerveza.
           - [Menu]: ¿Vender otro barril?
             - [Choice]: SI
-              - (Condition: Si el player no tiene al menos un barril de cerveza:)
+              - (Condition: If the player does not have at least one keg of beer:)
                 - **Player:** Pero no tengo barriles de cerveza para vender...
-              - (Condition: Si el player tiene al menos un barril de cerveza:)
-                - (arriba|vender-un-barril1)
+              - (Condition: If the player has at least one keg of beer:)
+                - (above|sell-one-keg1)
             - [Choice]: NO
               - (end)
     - [Choice]: NO
       - **Player:** Sin ofender Askeladden, y no es que no confíe en ti...<br>Er, en realidad es que no confío en ti.
       - **Askeladden:** Ay, amigo...<br>¿Qué te hice?
       - **Askeladden:** Bueno, si cambias de opinión, ¡estaré aquí esperando una bebida, amigo!
-- (Condition: Si el player tiene al menos una parte animal pero no barriles de cerveza:)
+- (Condition: If the player has at least one animal part but no kegs of beer:)
   - **Askeladden:** Te cambiaré partes de animales por atún cocido, ¿estás interesado en el exterior?
   - [Menu]: ¿Te gustaría cambiar partes de animales por comida?
     - [Choice]: SI
@@ -119,17 +119,17 @@
               - (receives=one tuna per item)
               - Cambias las piezas por comida.
             - [Choice]: nada
-              - (arriba|sin ofender1)
+              - (above|no-offence1)
     - [Choice]: NO
-      - (arriba|sin ofender1)
-- (Condition: Si el player tiene al menos un barril de cerveza y al menos una parte animal:)
+      - (above|no-offence1)
+- (Condition: If the player has at least one keg of beer and at least one animal part:)
   - [Menu]: ¿Qué te gustaría negociar?
     - [Choice]: barriles por dinero
-      - (arriba|vender-cerveza1)
+      - (above|sell-beer1)
     - [Choice]: Partes de animales para alimentación.
-      - (arriba|vender-pieles1)
+      - (above|sell-hides1)
     - [Choice]: nada
-      - (arriba|sin ofender1)
+      - (above|no-offence1)
 
 ##### Después de los juicios de Fremennik
 
@@ -141,10 +141,10 @@
     - **Askeladden:** ¡Estaba en esa cueva matando bocas de daga! ¡Fue divertido! Pero luego tuve sed, así que vine aquí para descansar un poco...
     - **Askeladden:** Hola amigo, te diré una cosa, si tienes barriles de cerveza, ¡te los compraré por 700 gold coins cada uno!
     - **Askeladden:** Si encuentras partes de animales matando bocas de daga, ¡también te las cambiaré por ellas!
-    - (Condition: Si el player no tiene barriles de cerveza ni partes de animales:)
+    - (Condition: If the player does not have any kegs of beer nor any animal parts:)
       - **Player:** No... No tengo nada de eso conmigo...
       - **Askeladden:** Bueno, ¡no volveré allí hasta que consiga un compañero de bebida! ¡Ven a verme si me encuentras un barril, pago un buen dinero!
-    - (Condition: Si el player tiene al menos un barril de cerveza pero no tiene partes de animales:)
+    - (Condition: If the player has at least one keg of beer but no animal parts:)
       - **Askeladden:** ¿Quieres venderme barriles de cerveza a 700 gold coins cada uno, amigo?
       - **Player:** Um... ¿No eres un poco... ...joven para beber tanto?
       - **Askeladden:** ¡Oye, no me hables así amigo! ¡He hecho todas las pruebas que tienes y soy tan Fremennik como tú!
@@ -163,17 +163,17 @@
               - Vendes Askeladden un barril de cerveza.
               - [Menu]: ¿Vender otro barril?
                 - [Choice]: SI
-                  - (Condition: Si el player no tiene al menos un barril de cerveza:)
+                  - (Condition: If the player does not have at least one keg of beer:)
                     - **Player:** Pero no tengo barriles de cerveza para vender...
-                  - (Condition: Si el player tiene al menos un barril de cerveza:)
-                    - (arriba|vender-un-barril)
+                  - (Condition: If the player has at least one keg of beer:)
+                    - (above|sell-one-keg)
                 - [Choice]: NO
                   - (end)
         - [Choice]: NO
           - **Player:** Sin ofender Askeladden, y no es que no confíe en ti... Er, en realidad es que no confío en ti.
           - **Askeladden:** Ay, amigo... ¿Qué te hice?
           - **Askeladden:** Bueno, si cambias de opinión, ¡estaré aquí esperando una bebida, amigo!
-    - (Condition: Si el player tiene al menos una parte animal pero no barriles de cerveza:)
+    - (Condition: If the player has at least one animal part but no kegs of beer:)
       - **Askeladden:** ¡Te cambiaré partes de animales por langostas cocidas si estás interesado, amigo!
       - [Menu]: ¿Te gustaría cambiar partes de animales por comida?
         - [Choice]: SI
@@ -199,17 +199,17 @@
                   - (receives=one lobster per item)
                   - Cambias las piezas por comida.
                 - [Choice]: nada
-                  - (arriba|sin ofender)
+                  - (above|no-offence)
         - [Choice]: NO
-          - (arriba|sin ofender)
-    - (Condition: Si el player tiene al menos un barril de cerveza y al menos una parte animal:)
+          - (above|no-offence)
+    - (Condition: If the player has at least one keg of beer and at least one animal part:)
       - [Menu]: ¿Qué te gustaría negociar?
         - [Choice]: barriles por dinero
-          - (arriba|vender-cerveza)
+          - (above|sell-beer)
         - [Choice]: Partes de animales para alimentación.
-          - (arriba|vender-pieles)
+          - (above|sell-hides)
         - [Choice]: nada
-          - (arriba|sin ofender)
+          - (above|no-offence)
   - [Choice]: Pide una nueva piedra para mascotas.
     - **Player:** ¿Puedo tener otra piedra como mascota? yo perdi el mio...
     - (receives=pet rock)

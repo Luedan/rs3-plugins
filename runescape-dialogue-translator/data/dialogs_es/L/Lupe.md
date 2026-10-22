@@ -11,13 +11,13 @@
 
 ### Trade
 
-- (Condition: Antes de haber recibido el regalo:)
+- (Condition: Before having received the free gift:)
   - **Lupe:** ¡Oye, he preparado un pequeño paquete inicial de rituales para ti!
-  - (Condition: Sin dos espacios libres en backpack:)
+  - (Condition: Without two free spaces in backpack:)
     - Necesitas al menos 2 espacios libres en tu Backpack.
     - **Lupe:** Aunque necesitas algo de espacio para llevarlos...
     - (continue)
-  - (Condition: Con dos espacios libres en backpack:)
+  - (Condition: With two free spaces in backpack:)
     - 2 almas vuelan para impulsar el barco.
     - (receives=four basic ritual candles and 12 inkwells of basic ghostly ink)
     - [Lupe te ofrece algunos suministros rituales.]
@@ -30,12 +30,12 @@
 
 #### Mientras no estés en la tarea de tanque de nivel 90 de Kili o después de haber hablado con Kili sobre ScapeRune
 
-- (Condition: Antes de haber recibido el regalo:)
+- (Condition: Before having received the free gift:)
   - **Lupe:** ¡Oye, he preparado un pequeño paquete inicial de rituales para ti!
-  - (Condition: Sin dos espacios libres en backpack:)
+  - (Condition: Without two free spaces in backpack:)
     - Necesitas al menos 2 espacios libres en tu Backpack.
     - **Lupe:** Aunque necesitas algo de espacio para llevarlos...
-  - (Condition: Con dos espacios libres en backpack:)
+  - (Condition: With two free spaces in backpack:)
     - 2 almas vuelan para impulsar el barco.
     - (receives=four basic ritual candles and 12 inkwells of basic ghostly ink)
     - [Lupe te ofrece algunos suministros rituales.]
@@ -61,9 +61,9 @@
 - **Player:** ¿Un gato?
 - **Lupe:** Un gato malvado, dijo. ¡Era una tierra extraña, donde las cosas funcionaban al revés!
 - **Lupe:** Los gatos dominan a los humanos, el pescado cocinado al revés...
-- (Condition: Si no has hablado con Kharen antes:)
+- (Condition: If you have not spoken to Kharen before:)
   - **Player:** ¿Un gato malvado en una tierra atrasada? Quizás esto pueda ayudarme.
-- (Condition: Si ha hablado con Kharen antes:)
+- (Condition: If you have spoken to Kharen before:)
   - **Player:** Hmm... Un lugar de opuestos y un gato llamado Evil Bob. ¿Quizás Kili pueda indicarme la dirección correcta?
 
 ##### Después
@@ -78,15 +78,15 @@
 
 ##### Antes de haber reclamado Underworld Grimoire 1
 
-- (Condition: Antes de haber recibido el regalo:)
+- (Condition: Before having received the free gift:)
   - **Lupe:** ¡Oye, he preparado un pequeño paquete inicial de rituales para ti!
-  - (Condition: Sin dos espacios libres en backpack:)
+  - (Condition: Without two free spaces in backpack:)
     - Necesitas al menos 2 espacios libres en tu Backpack.
     - **Lupe:** Aunque necesitas algo de espacio para llevarlos...
     - (continue)
-  - (Condition: Con dos espacios libres en backpack:)
+  - (Condition: With two free spaces in backpack:)
     - 2 almas vuelan para impulsar el barco.
-    - (Condition: Repetido en una ventana emergente:)
+    - (Condition: Repeated in a pop-up:)
       - 2 almas vuelan para impulsar el barco.
       - (continue)
     - (receives=4 basic ritual candles and 12 inkwells of basic ghostly ink)

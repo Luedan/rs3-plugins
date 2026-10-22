@@ -12,10 +12,10 @@
 ### Track
 
 - [número]/14 búhos rastreados
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - [número]/14 búhos rastreados
   - (continue)
-- (Condition: Si Bubo es el último búho avistado por el player:)
+- (Condition: If Bubo is the final owl spotted by the player:)
   - ¡Felicitaciones! Has completado: 'Aves de presa': rastrea todos los búhos para Deryn.
   - Has desbloqueado el título: 'Player, {{Colour'|colour=#00FF00}}
   - Puede activar esto a través de la pestaña 'Títulos' en la interfaz de Personalizaciones.

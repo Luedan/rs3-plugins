@@ -11,14 +11,14 @@
 
 ### In combat
 
-- ((Lo siguiente se muestra como un diálogo general estándar y se repite en la interfaz de chat como se muestra aquí.))
+- ((The following is shown as standard overhead dialogue and repeated in the chat interface as shown here.))
   - {{#vardefineecho:Eterna}} ¡No! No interferirás.|color=#99FF99}} {{Audio button|Eterna, Ritual Leader - No! You will not interfere.ogg}}
   - {{#var:Eterna}} El portal debe permanecer abierto a toda costa. {{Audio button|Eterna, Ritual Leader - The portal must remain open at all costs.ogg}}
-  - ((Activando el ataque especial de bomba:))
+  - ((Triggering the bomb special attack:))
     - {{#var:Eterna}} ¡El caos reinará! {{Audio button|Eterna, Ritual Leader - Chaos will reign supreme!.ogg}}
-  - ((Activando el ataque especial de humo:))
+  - ((Triggering the smoke special attack:))
     - {{#var:Eterna}} ¡QUEMARÁS! {{Audio button|Eterna, Ritual Leader - YOU WILL BURN!.ogg}}
-  - ((Huyendo al portal la primera vez:))
+  - ((Fleeing to the portal the first time:))
     - {{#var:Eterna}} ¡Basta! ¡No puedes interferir! {{Audio button|Eterna, Ritual Leader - Enough! You cannot interfere!.ogg}}
-  - ((Huyendo al portal por segunda vez:))
+  - ((Fleeing to the portal the second time:))
     - {{#var:Eterna}} ¡Serás destruido! {{Audio button|Eterna, Ritual Leader - You will be destroyed!.ogg}}

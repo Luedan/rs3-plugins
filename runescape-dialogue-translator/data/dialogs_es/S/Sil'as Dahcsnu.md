@@ -65,7 +65,7 @@
           - **Sil'as Dahcsnu:** Por supuesto. ¡Adiós!
         - *(Si el player está por debajo del nivel 80 Magic:)*
           - (Action: Sil'as lanza un hechizo. el player realiza el gesto Bailar/Headbang/Saltar.)
-          - ((Se dice uno de los siguientes, dependiendo del gesto realizado:))
+          - ((One of the following is said, depending on the emote performed:))
             - **Player:** {{RSChat|Argh! I can't stop dancing!}}
             - **Player:** {{RSChat|Argh! I can't stop headbanging!}}
             - **Player:** {{RSChat|Argh! I can't stop jumping!}}

@@ -28,12 +28,12 @@
     - **Azur:** Ahora vete.
   - [Choice]: ¿Puedo hacer el mío aquí?
     - **Player:** ¿Puedo hacer el mío aquí?
-    - (Condition: Condición desconocida:)
+    - (Condition: Unknown condition:)
       - **Azur:** Ya tengo suficiente para arreglármelas sin tener que cuidar de ti también.
       - **Player:** Puedo cuidar de mí mismo.
       - **Azur:** Lo dudo.
       - **Azur:** Muévete.
-    - (Condition: Condición desconocida:)
+    - (Condition: Unknown condition:)
       - **Azur:** ¿Por qué querrías hacerlo?
       - **Player:** No hay ningún motivo en particular, simplemente parece interesante.
       - **Azur:** Ya tengo suficiente para arreglármelas sin tener que cuidar de ti también.

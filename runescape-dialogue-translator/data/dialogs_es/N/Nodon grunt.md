@@ -11,7 +11,7 @@
 
 ### Firing [[siege engine]]s
 
-- ((Se dice uno de los siguientes:))
+- ((One of the following is said:))
   - **Nodon grunt:** {{RSChat|You will fall.}}
   - **Nodon grunt:** {{RSChat|Vor!}}
   - **Nodon grunt:** {{RSChat|Die!}}
@@ -25,7 +25,7 @@
 
 ### Getting fired at
 
-- ((Se dice uno de los siguientes:))
+- ((One of the following is said:))
   - **Nodon grunt:** {{RSChat|INCOMING!}}
   - **Nodon grunt:** {{RSChat|We're under attack!}}
   - **Nodon grunt:** {{RSChat|PLAYER HAS SEIZED A CANNON!}}

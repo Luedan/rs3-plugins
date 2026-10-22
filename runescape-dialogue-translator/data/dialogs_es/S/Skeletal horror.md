@@ -33,6 +33,6 @@
 
 ### Killing the Skeletal horror
 
-- (Condition: Si una extremidad todavía está en la arena:)
+- (Condition: If a limb is still in the arena:)
   - La extremidad del skeletal horror desaparece cuando matas al skeletal horror.
 - A medida que la criatura es derrotada, obtienes [número] Prayer y [número] Slayer XP.

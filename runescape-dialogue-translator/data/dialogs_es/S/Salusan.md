@@ -28,15 +28,15 @@
     - **Salusan:** Tal vez algún día pueda convencer a algunos de ellos para que luchen a mi lado.
     - (previous)
   - [Hablar sobre la construcción de dinarrows.]
-    - ((Con menos de 95 Fletching:))
+    - ((With less than 95 Fletching:))
       - **Salusan:** Aún no tienes las habilidades para combinar ninguno de los productos de nuestra extensión ranchera.
       - **Player:** Pero soy bueno frotando cosas hasta que sucede algo interesante.
-      - ((Se muestra en una ventana emergente:))
+      - ((Shown in a pop-up:))
         - Necesitas 95 Fletching para hacer dinarrows.
         - (continue)
       - (previous)
-    - ((Con al menos 95 Fletching:))
-      - ((Sólo la primera vez:))
+    - ((With at least 95 Fletching:))
+      - ((Only on the first time:))
         - **Salusan:** A mi modo de ver, a pesar de que nuestro objetivo es producir fertilizantes de alta calidad, los componentes que produce nuestra granja podrían encajar perfectamente con una idea de flecha experimental que tenía.
         - **Salusan:** Los ejes de hongos templados y los fragmentos de concha afilados podrían convertirse fácilmente en ejes y puntas de flecha.
         - **Salusan:** Pero si utilizamos el poder explosivo del 'propulsor' del dinosaurio, podríamos crear flechas propulsadas por cohetes.
@@ -48,19 +48,19 @@
         - **Player:** Entonces, ¿debería imbuir a Dinarrows con alguna forma de ánima resonante del Dios anciano?
         - **Salusan:** Correcto. Al menos espero que sea correcto. Creo que diferentes tipos de anima te darían resultados diferentes.
         - **Player:** Lo intentaré todo.
-      - ((Después de la primera vez y antes de haber completado la Secuencia Fibbin' Archery:))
-        - ((Sin una flecha del Dios Mayor en backpack:))
+      - ((After the first time and before having completed Fibbin' Archery Sequence:))
+        - ((Without an Elder God arrow in backpack:))
           - **Salusan:** Para hacer los dinararrows, combina "propulsor" de dinosaurio y ejes de hongos templados. Luego, combina estos dinarrows sin cabeza con fragmentos de concha afilados para hacer dinarrows.
           - **Salusan:** Luego puedes imbuir a los dinarrows con ánima resonante de un Dios anciano.
           - (previous)
-        - ((Con una flecha de Dios anciano en backpack:))
+        - ((With an Elder God arrow in backpack:))
           - **Salusan:** Parece que te has hecho algunas flechas del Dios anciano.
           - **Player:** Se sienten bastante poderosos.
           - **Salusan:** Yo esperaría que lo hicieran. Asegúrate de probar todas las variantes del ánima ancestral resonante para ver cómo afecta a las flechas.
           - {{RSFontAchievement|Fibbin' Archery Sequence}}
           - **Salusan:** Ah, y muéstrale a Potterington lo que hemos hecho. Estoy seguro de que estará contenta.
         - (previous)
-      - ((Después de la primera vez y habiendo completado la secuencia Fibbin' Archery:))
+      - ((After the first time and having completed Fibbin' Archery Sequence:))
         - **Salusan:** Para hacer los dinararrows, combina "propulsor" de dinosaurio y ejes de hongos templados. Luego, combina estos dinarrows sin cabeza con fragmentos de concha afilados para hacer dinarrows.
         - **Salusan:** Luego puedes imbuir a los dinarrows con ánima resonante de un Dios anciano.
         - **Salusan:** Ah, y muéstrale a Potterington lo que hemos hecho. Estoy seguro de que estará contenta.

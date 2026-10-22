@@ -48,9 +48,9 @@
             - **Pickpocketing trainer:** La cantidad de puntos de pañuelo que puedes reclamar depende de tu dedicación al arte. Por el momento, puedes reclamar [número] puntos de pañuelo por semana en entrenamiento.
             - (otro)
           - [Choice]: ¿Qué actividades dan qué pañuelos?
-            - (Condition: Antes de Tiny Acorns:)
+            - (Condition: Before From Tiny Acorns:)
               - **Pickpocketing trainer:** Actualmente, nuestras zapatillas y cofres para carteristas llevan pañuelos azules. Esperamos expandirnos cuando tengamos más staff.
-            - (Condition: Después de Tiny Acorns:)
+            - (Condition: After From Tiny Acorns:)
               - **Pickpocketing trainer:** Nuestras zapatillas de carterismo, cajas fuertes y cofres fáciles llevan pañuelos azules; Los pañuelos rojos se pueden encontrar en las zapatillas deportivas y detrás de cerraduras más duras.
             - (otro)
           - [Choice]: Adiós por ahora.
@@ -80,9 +80,9 @@
 
 - Intentas robarle el bolsillo al hombre.
 - Recuperas un pañuelo azul y se lo devuelves al trainer.
-- (Condition: Si aún se pueden ganar puntos para la semana:)
+- (Condition: If hanky points can still be gained for the week:)
   - [Ganas un punto de pañuelo.]
-- (Condition: Si no se pueden ganar más puntos de pañuelo durante la semana:)
+- (Condition: If no more hanky points can be gained for the week:)
   - Has alcanzado el número máximo de puntos de pañuelo permitidos en tu nivel.
 
 #### Puntos de control
@@ -94,13 +94,13 @@
     - (arriba)
   - [Choice]: Me gustaría reclamar una recompensa por mis puntos de pañuelo.
     - **Player:** ¡Me gustaría reclamar una recompensa por mis puntos de pañuelo!
-    - (Condition: Sin puntos complicados que reclamar:)
+    - (Condition: With no hanky points to claim:)
       - **Pickpocketing trainer:** ¡No tienes puntos de pañuelo que reclamar! Prueba algunos de los ejercicios de entrenamiento del gremio.
-    - (Condition: Con puntos de pañuelo para reclamar:)
+    - (Condition: With hanky points to claim:)
       - **Pickpocketing trainer:** ¡Claro! Veamos ahora...
       - (receives=Thieving XP)
       - [Obtienes [número] Thieving XP. Te quedan 0 puntos y puedes entregar hasta [número] puntos más esta semana.]
-    - (Condition: Habiendo reclamado el máximo de puntos del pañuelo de la semana:)
+    - (Condition: Having claimed the maximum hanky points for the week:)
       - **Pickpocketing trainer:** Lo sentimos, has reclamado tantos puntos de pañuelo esta semana como puedas en tu nivel.
   - [Choice]: Adiós por ahora.
     - ** Player:** Adiós por ahora.

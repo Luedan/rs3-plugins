@@ -37,7 +37,7 @@
 
 #### Después de la misión El gran árbol
 
-- ((Se abre la interfaz del mapa dorado Gnome.))
+- ((Gnome gilder map interface opens.))
 
 ### In Karamja (Gandius)
 

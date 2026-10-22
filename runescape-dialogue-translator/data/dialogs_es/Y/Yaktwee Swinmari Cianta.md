@@ -32,10 +32,10 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: Hola, Yaktwee. ¿Cómo estás?
-  - (Condition: Antes de atrapar duendes encantadores:)
+  - (Condition: Before catching charm sprites:)
     - **Yaktwee Swinmari Cianta:** No estoy muy contento, Player. Por lo que dicen mis registros, ¡hasta ahora no se ha capturado absolutamente ningún bicho vizzy! Simplemente no tiene sentido. Supongo que tendré que hacerlo yo mismo.
     - (initial)
-  - (Condition: Después de haber atrapado algunos sprites encantadores:)
+  - (Condition: After having caught some charm sprites:)
     - **Yaktwee Swinmari Cianta:** ¡Estoy muy feliz, Player! He estado contando cuántos de esos bichos vizzy han sido capturados. ¡Creo que ya debe ser sobre [número]!
     - (initial)
   - [Choice]: ¿Puedes recordarme acerca de los 'bichos sumna', por favor?
@@ -128,17 +128,17 @@
       - [Choice]: ¡Olvídalo!
         - **Player:** ¡Olvídalo!
   - [Choice]: ¿Podrías guardarme algunos artículos?
-  - (Condition: Si el player no tiene al menos el nivel 72 Hunter:)
+  - (Condition: If the player doesn't have at least level 72 Hunter:)
     - **Yaktwee Swinmari Cianta:** Lo siento, amigo, pero no almacenaré cosas para aquellos que no tienen la habilidad suficiente para usarlas.
     - Necesitas una habilidad de caza de nivel 72 para atrapar duendes encantadores.
-  - (Condition: Si el player tiene 72 Hunter o superior:)
+  - (Condition: If the player has 72 Hunter or higher:)
     - **Yaktwee Swinmari Cianta:** ¡No soy tu familiar! Pero como lo pides amablemente, seré muy amable y guardaré algunas de tus cosas en mi bolso. Entonces tal vez regreses y atrapes más bichos vizzy. Si no, ¡cosas gratis!
     - (Action: Se abre la bolsa de Yaktwee.)
   - [Choice]: ¿Puedes abrir la tienda por favor?
-  - (Condition: Si el player no tiene al menos el nivel 72 Hunter:)
+  - (Condition: If the player doesn't have at least level 72 Hunter:)
     - **Yaktwee Swinmari Cianta:** Lo siento, amigo, pero no venderé ninguna de mis cosas a quienes no tengan la habilidad suficiente para usarlas.
     - Necesitas una habilidad de caza de nivel 72 para atrapar duendes encantadores.
-  - (Condition: Si el player tiene 72 Hunter o superior:)
+  - (Condition: If the player has 72 Hunter or higher:)
     - (opens=Yaktwee's Invizzy Critters Stall)
   - [Choice]: Bien, gracias.
     - (end)
@@ -165,7 +165,7 @@
 
 #### Con al menos 72 Hunter
 
-- ((Se abre la interfaz de almacenamiento de Yaktwee.))
+- ((Yaktwee's storage interface opens.))
 
 ### Upon catching the 1000th charm sprite
 

@@ -29,10 +29,10 @@
     - **Waseem the Leaflet Dropper:** El folleto anuncia las diferentes tiendas que puedes encontrar en Al Kharid.
     - **Waseem the Leaflet Dropper:** También te da derecho a un descuento en tu próxima compra en cualquiera de las tiendas que figuran en él. Es la manera que tiene Ali de ponerse del lado bueno de los comerciantes.
     - **Player:** ¿Qué tiendas?
-    - (Condition: Si el player no tiene un folleto en su backpack:)
+    - (Condition: If the player doesn't have a flyer in their backpack:)
       - (receives=Al Kharid flyer)
       - **Waseem the Leaflet Dropper:** ¡Aquí! Toma uno y déjame volver al trabajo.
-    - (Condition: Si el player ya tiene un volante en su backpack:)
+    - (Condition: If the player already has a flyer in their backpack:)
       - **Waseem the Leaflet Dropper:** ¿Estás tratando de ser gracioso o la edad te ha hecho papilla el cerebro? ¡Mira el folleto que ya tienes!
   - [Choice]: ¿Qué hay que hacer?
     - **Player:** ¿Qué hay que hacer por aquí?
@@ -65,10 +65,10 @@
 
 ### Take-flyer option
 
-- (Condition: Si el player no tiene un folleto en su backpack:)
+- (Condition: If the player doesn't have a flyer in their backpack:)
   - (receives=Al Kharid flyer)
   - **Waseem the Leaflet Dropper:** ¡Aquí! Toma uno y déjame volver al trabajo. Todavía tengo cientos de estos folletos para repartir, me pregunto si Ali se daría cuenta si los arrojara silenciosamente en alguna parte.
-- (Condition: Si el player ya tiene un volante en su backpack:)
+- (Condition: If the player already has a flyer in their backpack:)
   - **Waseem the Leaflet Dropper:** ¿Estás tratando de ser gracioso o la edad te ha hecho papilla el cerebro? ¡Ya tienes un folleto!
 
 ### Using a flyer on Waseem

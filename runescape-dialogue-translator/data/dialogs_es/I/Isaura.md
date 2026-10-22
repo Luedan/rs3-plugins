@@ -12,11 +12,11 @@
 ### In the Black Knights' Base
 
 - **Isaura:** ¿Quién eres y qué haces aquí?
-- (Condition: Antes de completar el tutorial de Archaeology:)
+- (Condition: Before completing the Archaeology tutorial:)
   - **Player:** No estoy seguro de por qué estoy aquí, pero mi nombre es Player.
   - **Isaura:** Bueno, Player, si fueras arqueólogo, te estaría preguntando sobre colecciones.
   - (continue)
-- (Condition: Después de completar el tutorial Archaeology:)
+- (Condition: After completing the Archaeology tutorial:)
   - **Player:** ¡Mi nombre es Player y soy arqueólogo! Estoy aquí porque aparentemente estás interesado en coleccionar artefactos.
   - **Isaura:** Ah, sí. Eso es correcto. Excelente.
   - (continue)
@@ -35,7 +35,7 @@
     - **Isaura:** Echa un vistazo a mis requisitos, a menos que seas de esos tipos que prefieren - urgh - hablar...
     - [Menu]: Selecciona una opción
       - [Choice]: Ver colecciones.
-        - ((Se abre la interfaz de Apropiación Cultural.))
+        - ((Cult-ural Appropriation interface opens.))
       - [Choice]: Habla de colecciones.
         - **Isaura:** Bueno, soy un Black Knight, ¡así que aceptaré cualquier cosa zamorakiana! La orden está muy interesada en todo lo que puedas descubrir en Infernal Source. Es parte de la historia y el patrimonio de nuestra organización.
         - **Player:** ¿Movario no está conectado con su organización? ¿Qué opinas de que él administre el sitio?
@@ -45,7 +45,7 @@
   - [Choice]: ¿Cuáles son las recompensas de tu colección?
     - **Isaura:** Para empezar, te cambiaremos cronotas por cualquier cosa que nos traigas. Tienen valor para los arqueólogos por varias razones.
     - **Isaura:** Sin embargo, para cada una de mis colecciones, tengo algunos artículos específicos y únicos para intercambiar.
-    - ((Si el player aún no ha obtenido el hilo abisal:))
+    - ((If the player hasn't obtained abyssal thread yet:))
       - **Isaura:** Hmm, ¿supongo que puedes quedarte con este hilo abismal al que no he encontrado uso?
       - **Player:** Oh, ¿qué es eso?
       - **Isaura:** Creo que son los trozos fibrosos de criaturas abisales entrelazados.
@@ -53,13 +53,13 @@
       - **Isaura:** ¡No te apresures! El dark mage de ZMI en el centro del Abismo dice que podrías usarlo en una bolsa de esencia gigante Runecrafting, y evitaría permanentemente que tus bolsas de esencia se degraden.
       - **Player:** En realidad, eso suena bien, ¡gracias!
       - (continue)
-    - ((Si el player ha obtenido hilo abisal:))
+    - ((If the player has obtained abyssal thread:))
       - **Isaura:** ¿Ya usaste ese hilo abisal para proteger tus bolsas de esencia rúnica?
-      - ((Si el player aún no ha creado Threads of Fate:))
-        - ((Si el player todavía tiene el hilo abisal:))
+      - ((If the player hasn't yet made Threads of Fate:))
+        - ((If the player still has the abyssal thread:))
           - **Player:** Todavía no.
           - (continue)
-        - ((Si el player ha perdido el hilo abisal:))
+        - ((If the player has lost the abyssal thread:))
           - **Player:** Um, ¿tienes algún hilo más abisal? Perdí el mío antes de usarlo.
           - **Isaura:** Bien, ¡pero no te pierdas este!
           - [Menu]: ¿Tomar hilo abisal de Isaura?
@@ -68,14 +68,14 @@
               - (continue)
             - [Choice]: No.
               - (end)
-        - ((Si el player ha hecho Threads of Fate:))
+        - ((If the player has made Threads of Fate:))
           - **Player:** Sí, le di un buen uso, gracias.
           - (continue)
     - **Isaura:** Tengo un par de piezas de tetracompass que puedes tener para completar mis dos colecciones intermedias.
-    - ((Si el player aún no ha obtenido la diadema de Ariadna:))
+    - ((If the player hasn't obtained Ariadne's Diadem yet:))
       - **Isaura:** Tengo una reliquia: una prenda para la cabeza llamada Diadema de Ariadna. Te mejora en las habilidades de apoyo y te ayuda a entrenarlas un poco más rápido.
       - (initial)
-    - ((Si el player ha obtenido la Diadema de Ariadna:))
+    - ((If the player has obtained Ariadne's Diadem:))
       - **Isaura:** ¿Cómo es ese soporte para la cabeza? ¿Bien? Bien. No es necesario hablar más sobre eso.
       - (initial)
   - [Choice]: Adiós.

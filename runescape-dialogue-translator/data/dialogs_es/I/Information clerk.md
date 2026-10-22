@@ -19,20 +19,20 @@
   - [Choice]: Obtenga más información sobre la exposición Dig Site.
     - **Player:** ¿Podría hablarme sobre la exhibición Dig Site, por favor?
     - **Information clerk:** Por supuesto. La exhibición Dig Site tiene varias vitrinas de hallazgos descubiertos en Dig Site al este de Varrock.
-    - (Condition: Si el player está en un mundo gratuito:)
+    - (Condition: If the player is on a free-to-play world:)
       - **Information clerk:** Como estás en un mundo libre, no puedes ayudarnos a limpiar los hallazgos y colocarlos en sus vitrinas, pero siéntete libre de echar un vistazo a las exhibiciones disponibles. Descubrirás un poco sobre las cosas que hemos encontrado en la Excavación.
       - **Information clerk:** Sitio de la Tercera y Cuarta Edad: todo realmente muy interesante.
       - (continue)
-    - (Condition: Si el player no ha completado la misión The Dig Site:)
+    - (Condition: If the player has not completed The Dig Site quest:)
       - **Information clerk:** Desafortunadamente, no has aprobado tus exámenes de Ciencias de la Tierra, por lo que no estás calificado para ayudarnos en la excavación. Si está interesado, visite el Centro educativo en el sitio de excavación hacia el este y hable con los examinadores allí.
       - (continue)
-    - (Condition: Si el player ha completado la misión The Dig Site pero no ha ayudado con la exhibición:)
+    - (Condition: If the player has completed The Dig Site quest but has not helped with the exhibit:)
       - **Information clerk:** Una vez que hayas aprobado tus exámenes de Ciencias de la Tierra en el sitio de excavación, puedes pasar al área de limpieza y limpiar algunos hallazgos. Esto ayudará a que nuestro piso de exhibición del Sitio de Excavación brinde una visión más precisa de la vida en la Tercera y Cuarta Edad, además de otorgarle Felicitaciones. Si desea saber más sobre la limpieza de hallazgos, pregúntele a los arqueólogos.
       - (continue)
-    - (Condition: Si el player ha comenzado en la exhibición:)
+    - (Condition: If the player has started on the exhibit:)
       - **Information clerk:** Veo que ya ayudaste en la exhibición del sitio de excavación. Nuestra imagen de la vida en la Tercera y Cuarta Edad en esa antigua ciudad se está volviendo cada vez más clara. Sin embargo, todavía hay algunas pantallas que necesitan actualización. Si desea saber más sobre la limpieza de hallazgos, pregúntele a los arqueólogos.
       - (continue)
-    - (Condition: Si el player ha completado la exhibición:)
+    - (Condition: If the player has completed the exhibit:)
       - **Information clerk:** Realmente has ayudado mucho. Veo que todos los hallazgos limpios y agradables con su información están en las cajas que alguna vez estuvieron vacías. Estoy seguro de que pronto recibiremos más casos para que usted los complete. Por ahora, tal vez deberías investigar el resto del
       - **Information clerk:** Museo.
       - (continue)
@@ -42,18 +42,18 @@
       - [Choice]: Adiós
         - **Player:** Adiós.
         - **Information clerk:** ¡Que tengas un buen día!
-- (Condition: Si el player está en un mundo de miembros:)
+- (Condition: If the player is on a members world:)
   - [Choice]: Obtenga más información sobre la exposición Timeline.
     - **Player:** ¿Podría hablarme sobre la exposición Timeline, por favor?
     - **Information clerk:** Pues, sí. La exhibición Timeline tiene muchas vitrinas que muestran cosas desde el principio de los tiempos hasta el día de hoy.
-    - (Condition: Si el player no ha llenado las exhibiciones del museo:)
+    - (Condition: If the player has not filled up the museum displays:)
       - **Information clerk:** Podrías ayudar en la exhibición Timeline de arriba. Al proporcionar información que haya recopilado en sus viajes por el mundo, puede ayudar a que nuestras presentaciones sean más completas y también ganarse elogios.
       - (continue)
-    - (Condition: Si el player ha llenado parcialmente las exhibiciones del museo:)
+    - (Condition: If the player has partially filled up the museum displays:)
       - **Information clerk:** Sé que has ayudado un poco en la exposición Timeline de arriba, pero estoy seguro de que puedes ayudar más. Cuando viajes siendo un valiente aventurero, recuerda que puedes regresar al Museo después de algunas misiones para
       - **Information clerk:** háganos saber hechos históricos importantes. ¡Esto nos ayudará a actualizar las exhibiciones y hacer del Museo un lugar más informativo! Tú también te ganarás felicitaciones.
       - (continue)
-    - (Condition: Si el player ha llenado completamente las exhibiciones del museo:)
+    - (Condition: If the player has completely filled up the museum displays:)
       - **Information clerk:** Veo que has llenado las vitrinas que tenemos y nos has proporcionado una gran cantidad de información para la exposición Timeline. Por el momento, no nos has dejado nada que hacer nosotros mismos, pero estoy seguro de que pronto recibiremos algunos casos nuevos con los que podrás ayudarnos. Por ahora, quizás deberías investigar el resto del Museo.
       - (continue)
     - **Player:** Está bien, gracias. Una pregunta más: ¿por qué todos los números de la pantalla están fuera de secuencia?
@@ -61,17 +61,17 @@
     - **Information clerk:** escribir etiquetas: lo dejaríamos. Todos tienen números únicos y, de todos modos, visualizaciones futuras estropearían la numeración consecutiva.
     - **Player:** Ahhh, ya veo.
     - (continuea|ask)
-- (Condition: Si el player está en un mundo de miembros:)
+- (Condition: If the player is on a members world:)
   - [Choice]: Infórmate sobre la exposición de Historia Natural.
     - **Player:** ¿Podría hablarme sobre la exhibición de Historia Natural, por favor?
     - **Information clerk:** Pues, sí. La exhibición de Historia Natural tiene exhibiciones de varias criaturas que puedes encontrar alrededor de Gielinor.
-    - (Condition: Si el player no ha iniciado el cuestionario de historia natural:)
+    - (Condition: If the player has not started the natural history quiz:)
       - **Information clerk:** Abajo, en la exhibición de Historia Natural, puedes responder cuestionarios sobre animales para mostrarnos tus conocimientos y ganar felicitaciones al mismo tiempo. Habla con Orlando, estoy seguro de que apreciará tus conocimientos.
       - (continue)
-    - (Condition: Si el player ha corregido algunas de las vitrinas:)
+    - (Condition: If the player has corrected some of the display cases:)
       - **Information clerk:** Veo que ya has demostrado algunos de tus conocimientos del mundo natural en la exposición de Historia Natural, así que ¿por qué no vienes y haces más pruebas con Orlando? Puedes ganar Kudos al mismo tiempo.
       - (continue)
-    - (Condition: Si el player ha corregido todas las vitrinas:)
+    - (Condition: If the player has corrected all display cases:)
       - **Information clerk:** Realmente sabes lo que haces cuando se trata de animales, ¿no? Orlando me dice que has excedido sus enseñanzas. Por ahora, quizás deberías investigar el resto del Museo.
       - (continue)
     - [Menu]: Selecciona una opción
@@ -83,11 +83,11 @@
         - (above|standard)
       - [Choice]: Adiós
         - (arriba)
-- (Condition: Si el player está en un mundo de miembros:)
+- (Condition: If the player is on a members world:)
   - [Choice]: Infórmese sobre Felicitaciones.
-    - (Condition: Si el player no ha comenzado a colaborar con el Museo:)
+    - (Condition: If the player have not started assisting the Museum:)
       - (continue|what-is-kudos)
-    - (Condition: De lo contrario:)
+    - (Condition: Otherwises:)
       - (continue)
     - [Menu]: Selecciona una opción
       - [Choice]: Descubra las felicitaciones
@@ -97,10 +97,10 @@
         - **Information clerk:** Bueno, recientemente encontramos una isla bastante interesante al norte de Morytania. Creemos que puede tener importancia arqueológica. Sospecho que buscaremos arqueólogos calificados una vez que hayamos construido nuestro
         - **Information clerk:** canal y barcaza. Entonces, estamos usando Felicitaciones como una medida de quién está dispuesto y es capaz de ayudarnos aquí en el Museo, para que luego puedan ser invitados a nuestra excavación en la nueva isla.
         - **Player:** ¿Calificaría entonces?
-        - (Condition: Si el player no tiene suficientes felicitaciones:)
+        - (Condition: If the player does not have enough Kudos:)
           - **Information clerk:** Desafortunadamente, aún no has obtenido suficientes felicitaciones, por lo que no estás calificado para ayudarnos en la excavación. Si está interesado en ayudarnos y recibir felicitaciones, simplemente ayúdenos en el museo.
           - **Player:** Está bien, gracias.
-        - (Condition: Si el player tiene suficientes felicitaciones:)
+        - (Condition: If the player has enough Kudos:)
           - **Information clerk:** ¡Por qué sí! Nos has ayudado mucho en el Museo y tienes las calificaciones necesarias de los exámenes de Ciencias de la Tierra que tomaste. Cuando el canal esté listo, se lo haremos saber.
           - **Player:** ¡Gracias, lo espero con ansias!
       - [Choice]: ¿Cómo puedo ganar más felicitaciones?

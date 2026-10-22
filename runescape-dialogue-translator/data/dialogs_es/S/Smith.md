@@ -54,10 +54,10 @@
         - [Menu]: Selecciona una opción
           - [Choice]: Sí.
             - **Player:** Sí.
-            - (Condition: Si el player no tiene suficiente dinero:)
+            - (Condition: If the player does not have enough money:)
               - No puedes permitirte eso.
               - **Smith:** ¡Muchacho inteligente! Ven a verme cuando tengas el coins para ello.
-            - (Condition: Si el player tiene suficiente dinero:)
+            - (Condition: If the player has enough money:)
               - (removes=1,040 coins) (receives=Harry's cutlass)
               - **Smith:** Aquí tienes. Me sobra un montón de estos por si necesitas más.
           - [Choice]: No.
@@ -89,10 +89,10 @@
         - [Menu]: Selecciona una opción
           - [Choice]: Sí.
             - **Player:** Sí.
-            - (Condition: Si el player no tiene suficiente dinero:)
+            - (Condition: If the player does not have enough money:)
               - No puedes permitirte eso.
               - **Smith:** ¡Muchacho inteligente! Ven a verme cuando tengas el coins para ello.
-            - (Condition: Si el player tiene suficiente dinero:)
+            - (Condition: If the player has enough money:)
               - (removes=2,560 coins) (receives=lucky cutlass)
               - **Smith:** Aquí tienes. Espero que te traiga suerte.
               - **Player:** Yo también, pero solo los buenos.
@@ -116,10 +116,10 @@
         - [Menu]: Selecciona una opción
           - [Choice]: Sí.
             - **Player:** Sí.
-            - (Condition: Si el player no tiene suficiente dinero:)
+            - (Condition: If the player does not have enough money:)
               - No puedes permitirte eso.
               - **Smith:** ¡Muchacho inteligente! Ven a verme cuando tengas el coins para ello.
-            - (Condition: Si el player tiene suficiente dinero:)
+            - (Condition: If the player has enough money:)
               - (removes=25,600 coins) (receives=rapier)
               - **Smith:** Espero que seas lo suficientemente digno para empuñar esto, extraño. Odiaría pensar que el caballero Mallard se decepcionaría de mí por vendérselo.
           - [Choice]: No.
@@ -131,9 +131,9 @@
     - **Smith:** ¿De dónde lo conseguiste?
     - **Player:** No me creerías si te lo dijera.
     - **Smith:** Lo robó, ¿eh? Bueno, puedo arreglarlo por 230000 coins, si quieres.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - **Player:** Eso es demasiado para mí en este momento.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - [Menu]: Selecciona una opción
         - [Choice]: Sí por favor.
           - **Player:** Sí, por favor.

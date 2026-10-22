@@ -27,10 +27,10 @@
 - [Menu]: Elige una opción:
   - [Choice]: La vida de Brian
     - **Player:** Te he traído cinco runas de la naturaleza.
-    - ((Si el player no tiene las runas:))
+    - ((If the player doesn't have the runes:))
       - **Brian:** No veo ninguno.
       - **Player:** Iré a buscar algunos.
-    - ((Si el player tiene las runas:))
+    - ((If the player has the runes:))
       - (removes=five nature runes)
       - **Brian:** Err... gracias.
       - **Brian:** Realmente no entiendo por qué siguen dándome esto.

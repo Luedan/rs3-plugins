@@ -14,7 +14,7 @@
 
 #### Líneas aéreas
 
-- ((Uno de los siguientes se ve aleatoriamente cada 15 segundos:))
+- ((One of the following is seen randomly every 15 seconds:))
   - **Herald:** {{RSChat|Enjoy balloon drops at lodestones every 30 minutes today!}}
   - **Herald:** {{RSChat|Hear ye, hear ye! RuneScape turns [24/25] this month!}}
   - **Herald:** {{RSChat|We're celebrating the [24th/25th] RuneScape anniversary!}}
@@ -40,7 +40,7 @@
 #### Cuando hablamos
 
 - **Player:** ¿Qué está pasando?
-- ((En 2019-2023:))
+- ((In 2019–2023:))
   - *(Continúa con el diálogo del evento navideño y luego continúa a continuación.)*
 - **Herald:** ¡RuneScape se convierte en [18/19/20/21/22/23/24/25] hoy! ¡Hay lanzamientos de globos cada 30 minutos alrededor de la mayoría de las piedras imán para celebrar!
 - **Player:** ¡Esto suena divertido!

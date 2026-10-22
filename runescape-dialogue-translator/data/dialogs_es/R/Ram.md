@@ -12,5 +12,5 @@
 ### Shear
 
 - Ese parece demasiado violento para cortarlo...
-- (ventana emergente)
-  - (Ventana emergente: Ese parece demasiado violento para cortarlo...|advertencia=yes)
+- (pop-up)
+  - (Pop-up: That one looks a little too violent to shear...|warning=yes)

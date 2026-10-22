@@ -15,11 +15,11 @@
 
 #### Invention
 
-- (Condition: Con un nivel Invention de 40 o superior:)
+- (Condition: With an Invention level of 40 or higher:)
   - **Oldak:** Oh, pareces muy versado en inventar cosas. ¡Deberíamos compartir información!
   - [Menu]: ¿Hablar con Oldak sobre la habilidad Invention?
     - [Choice]: Sí, habla de Invention.
-      - (Condition: Antes de comprometerte a aprender sobre la electricidad de los duendes:)
+      - (Condition: Before committing to learning about goblin electricity:)
         - **Oldak:** He oído decir a otros inventores que tú mismo estás logrando grandes avances, aplicando energía divina para crear nueva tecnología.
         - **Oldak:** Y esperaba que pudieras enseñarme algo al respecto. A cambio, podría enseñarte los secretos de la electricidad de los duendes de las cavernas.
         - **Oldak:** Estoy seguro de que te abrirá más caminos de descubrimiento en los que trabajar.
@@ -29,7 +29,7 @@
         - **Oldak:** También tiene aplicaciones atractivas y repulsivas: trampas de pensamiento, recolectores y herramientas de medición y mapeo.
         - **Oldak:** También tiene un uso limitado para aplicaciones de combate, pero es una tecnología que te ayudará principalmente con otras habilidades.
         - (continue|Technology option)
-      - (Condition: Después de comprometerse a aprender sobre la electricidad de los duendes:)
+      - (Condition: After committing to learning about goblin electricity:)
         - **Oldak:** Espero que estés haciendo un buen uso de la electricidad de los duendes de las cavernas en tus inventos.
         - **Oldak:** Ciertamente estoy aprovechando mucho el uso de la energía divina: ¡algo muy emocionante!
         - (continue|tech-opts)
@@ -43,19 +43,19 @@
   - [Choice]: ¿Qué has descubierto?
     - **Oldak:** ¡Oh, es terriblemente emocionante! Déjame explicarte...
     - {{trandom}}
-      - (Condition: Diálogo 1:)
+      - (Condition: Dialogue 1:)
         - [Oldak te da una conferencia sobre la construcción de runas y te encuentras pensando en Runecrafting con mayor claridad.]
         - **Player:** ¡Oh, ya veo!
-      - (Condition: Diálogo 2:)
+      - (Condition: Dialogue 2:)
         - [Oldak te sermonea sobre las energías mágicas almacenadas en las runas y te encuentras pensando en Magic con mayor claridad.]
         - **Player:** ¡Oh, ya veo!
-      - (Condition: Diálogo 3:)
+      - (Condition: Dialogue 3:)
         - [Oldak cae en la jerga técnica y no entiendes una palabra.]
         - **Player:** Oh... Qué interesante.
-      - (Condition: Diálogo 4:)
+      - (Condition: Dialogue 4:)
         - [Oldak te da una conferencia sobre la construcción de runas, pero te sientes muy confundido acerca de Runecrafting.]
         - **Player:** ¿Qué?
-      - (Condition: Diálogo 5:)
+      - (Condition: Dialogue 5:)
         - [Oldak te sermonea sobre las energías mágicas almacenadas en las runas, pero te sientes muy confundido acerca de Magic.]
         - **Player:** ¿Qué?
   - [Choice]: ¿Qué has hecho?
@@ -155,9 +155,9 @@
 
 ##### Antes De Otra Loncha De H.A.M.
 
-- (Condition: Sin al menos dos runas de ley y un trozo de vidrio fundido en el backpack:)
+- (Condition: Without at least two law runes and a piece of molten glass in the backpack:)
   - **Oldak:** Tendrás que darme dos runas de ley y un trozo de vidrio fundido.
-- (Condition: Con al menos dos runas de ley y un trozo de vidrio fundido en el backpack:)
+- (Condition: With at least two law runes and a piece of molten glass in the backpack:)
   - {{tinput|Oldak can make you [number] moving-over-distance spheres!<br />Enter how many you want:}}
   - (removes=2 law runes and 1 molten glass per sphere)
   - (receives=chosen amount of Dorgesh-kaan spheres)
@@ -167,9 +167,9 @@
 
 - [Menu]: ¿A dónde quieres que vaya una esfera?
   - [Choice]: Dorgesh-Kaan.
-    - (Condition: Sin al menos dos runas de ley y un trozo de vidrio fundido en el backpack:)
+    - (Condition: Without at least two law runes and a piece of molten glass in the backpack:)
       - **Oldak:** Tendrás que darme dos runas de ley y un trozo de vidrio fundido.
-    - (Condition: Con al menos dos runas de ley y un trozo de vidrio fundido en el backpack:)
+    - (Condition: With at least two law runes and a piece of molten glass in the backpack:)
       - {{tinput|Oldak can make you [number] moving-over-distance spheres!<br />Enter how many you want:}}
       - (removes=2 law runes and 1 molten glass per sphere)
       - (receives=chosen amount of moving-over-distance spheres)
@@ -203,21 +203,21 @@
 #### Diálogo aéreo
 
 - {{trandom}}
-  - (Condition: Diálogo 1:)
+  - (Condition: Dialogue 1:)
     - **Oldak:** {{RSChat|Hmm...}}
-  - (Condition: Diálogo 2:)
+  - (Condition: Dialogue 2:)
     - **Oldak:** {{RSChat|I wonder...}}
-  - (Condition: Diálogo 3:)
+  - (Condition: Dialogue 3:)
     - **Oldak:** {{RSChat|That's funny...}}
-  - (Condition: Diálogo 4:)
+  - (Condition: Dialogue 4:)
     - **Oldak:** {{RSChat|What if I...}}
-  - (Condition: Diálogo 5:)
+  - (Condition: Dialogue 5:)
     - **Oldak:** {{RSChat|No, that's not right...}}
-  - (Condition: Diálogo 6:)
+  - (Condition: Dialogue 6:)
     - **Oldak:** {{RSChat|But that means...}}
-  - (Condition: Diálogo 7:)
+  - (Condition: Dialogue 7:)
     - **Oldak:** {{RSChat|Aha!}}
-  - (Condition: Diálogo 8:)
+  - (Condition: Dialogue 8:)
     - **Oldak:** {{RSChat|Ah! I was wrong about it all along!}}
-  - (Condition: Diálogo 9:)
+  - (Condition: Dialogue 9:)
     - **Oldak:** {{RSChat|I wonder what happens if...}}

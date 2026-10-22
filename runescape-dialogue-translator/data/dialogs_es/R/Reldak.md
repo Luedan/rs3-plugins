@@ -23,11 +23,11 @@
 ### Overhead dialogue
 
 - {{trandom}}
-  - (Condition: Diálogo 1:)
+  - (Condition: Dialogue 1:)
     - **Reldak:** {{RSChat|Armour!}}
-  - (Condition: Diálogo 2:)
+  - (Condition: Dialogue 2:)
     - **Reldak:** {{RSChat|Get your leather armour here!}}
-  - (Condition: Diálogo 3:)
+  - (Condition: Dialogue 3:)
     - **Reldak:** {{RSChat|Leather!}}
-  - (Condition: Diálogo 4:)
+  - (Condition: Dialogue 4:)
     - **Reldak:** {{RSChat|Frog-leather!}}

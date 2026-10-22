@@ -17,7 +17,7 @@
 - **The Sage:** Hola, mortal. ¿Qué buscas?
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Puedes decirme qué está pasando?
-    - (Condition: Durante la Liga Catalyst:)
+    - (Condition: During Catalyst League:)
       - **The Sage:** Hace algún tiempo, un artefacto antiguo y poderoso fue destruido. La Piedra de Jas.
       - **The Sage:** Aunque no tiene forma, sus energías y magia perduraron, dispersas e invisibles.
       - **The Sage:** Con el tiempo, ese poder se fusionó una vez más en algo nuevo. Reliquias.
@@ -25,7 +25,7 @@
       - **The Sage:** Sin embargo, incluso un fragmento otorga poderes diferentes a todo lo que hayas encontrado antes.
       - **The Sage:** ¿Hay algo más que necesites de mí?
       - (previous)
-    - (Condition: Durante la Liga Equilibrium:)
+    - (Condition: During Equilibrium League:)
       - **The Sage:** Has llegado a un mundo desequilibrado.
       - **The Sage:** La fuerza vital de Gielinor, su anima mundi, está siendo destrozada por las fuerzas del orden y el caos.
       - **The Sage:** Guthix ha soñado con las terribles consecuencias de este conflicto. Su decreto es el siguiente: si queremos evitar el desastre, los héroes como tú deben trabajar para curar el anima mundi y restaurar el equilibrio.
@@ -39,11 +39,11 @@
     - **Player:** ¿Qué hacen estos puntos?
     - **The Sage:** Una vez que hayas alcanzado una cierta cantidad de puntos de liga, podrás desbloquear una nueva reliquia mía. Estos son artefactos poderosos que te ayudarán en este mundo.
     - **The Sage:** Los puntos de liga también se pueden usar para comprar recompensas en la tienda de recompensas de ligas una vez que finaliza la liga.
-    - (Condition: Durante la Liga Catalyst:)
+    - (Condition: During Catalyst League:)
       - [Actualmente estás jugando en tu perfil de Ligas. La Tienda de recompensas de Ligas solo se puede abrir en tu perfil principal una vez que finaliza la Liga.]
       - [Puedes acceder a tu perfil principal en cualquier momento cambiando a un mundo normal.]
       - (continue)
-    - (Condition: Durante la Liga Equilibrium:)
+    - (Condition: During Equilibrium League:)
       - [Actualmente estás jugando en tu perfil de Ligas. La tienda de recompensas de Ligas solo se puede obtener una vista previa durante las Ligas y se puede abrir en su perfil principal una vez que finaliza la Liga.]
       - [Puedes acceder a tu perfil principal en cualquier momento cambiando a un mundo normal.]
       - (continue)
@@ -53,7 +53,7 @@
     - **The Sage:** Ahora, ¿te gustaría echar un vistazo a las tareas de esta Liga?
     - [Menu]: Selecciona una opción
       - [Choice]: Sí, por favor.
-        - ((Se abre la interfaz de Tareas.))
+        - ((The Tasks interface opens.))
       - [Choice]: No ahora mismo.
         - **The Sage:** ¿Hay algo más que necesites de mí?
         - (initial)
@@ -67,7 +67,7 @@
     - **The Sage:** Ahora, ¿te gustaría echar un vistazo a las reliquias de esta Liga?
     - [Menu]: Selecciona una opción
       - [Choice]: Sí, por favor.
-        - ((Se abre la interfaz de Reliquias.))
+        - ((The Relics interface opens.))
       - [Choice]: No ahora mismo.
         - **The Sage:** ¿Hay algo más que necesites de mí?
         - (initial)
@@ -82,9 +82,9 @@
     - **The Sage:** Ahora, ¿te gustaría echar un vistazo a las reliquias y bendiciones de esta Liga?
     - [Menu]: Selecciona una opción
       - [Choice]: Muéstrame las reliquias.
-        - ((Se abre la interfaz de Reliquias.))
+        - ((The Relics interface opens.))
       - [Choice]: Muéstrame las Bendiciones.
-        - ((Se abre la interfaz de Bendiciones.))
+        - ((The Blessings interface opens.))
       - [Choice]: No ahora mismo.
         - **The Sage:** ¿Hay algo más que necesites de mí?
         - (initial)
@@ -109,8 +109,8 @@
     - [Menu]: Selecciona una opción
       - [Choice]: Importar desde 'Player'.
         - **The Sage:** Espere un momento, recuperar sus recompensas es un proceso delicado.
-        - (Condition: Si la importación tiene éxito:)
-          - ((Lo siguiente se muestra en una interfaz titulada "RESUMEN DE IMPORTACIÓN DE LIGA" donde solo se muestran las recompensas desbloqueadas:))
+        - (Condition: If the import succeeds:)
+          - ((The following is shown in an interface titled "LEAGUE IMPORT SUMMARY" with only unlocked rewards shown:))
             - <center>{{Contrast|c=#000000|t=Leagues II: Equilibrium}}</center>
             - <center>{{Contrast|c=#000000|t=[number] points ([number] total)}}</center>
             - <center>{{Contrast|c=#000000|t=Equilibrium dragon trophy}}</center>
@@ -122,25 +122,25 @@
             - <center>{{Contrast|c=#000000|t=Equilibrium bronze trophy (stored with Diango)}}</center>
             - (continue)
           - (opens=Leagues Reward Shop)
-        - (Condition: Si el player ya ha importado puntos de la cuenta para la liga más reciente:)
+        - (Condition: If the player has already imported points for the most recent league from the account:)
           - Ya importaste todos los puntos de Liga que obtuvo esta cuenta.
-          - (ventana emergente)
-            - (Ventana emergente: ya has importado todos los puntos de Liga que ha obtenido esta cuenta.|advertencia=yes)
+          - (pop-up)
+            - (Pop-up: You have already imported all League points this account has earned.|warning=yes)
       - [Choice]: Importar desde una cuenta designada.
         - {{Tinput|Enter the display name of the account which nominated you for rewards.}}
         - **The Sage:** Espere un momento, recuperar sus recompensas es un proceso delicado.
-        - (Condition: Si no es una cuenta válida:)
+        - (Condition: If it is not a valid account:)
           - No se pudo cargar el perfil de '[name]'. Inténtelo de nuevo más tarde.
-          - (ventana emergente)
-            - (Ventana emergente: No se pudo cargar el perfil de '[name]'. Vuelva a intentarlo más tarde.|advertencia=yes)
-        - (Condition: Si la cuenta es válida pero el player no es elegible para importar:)
+          - (pop-up)
+            - (Pop-up: The profile of '[name]' could not be loaded. Please try again later.|warning=yes)
+        - (Condition: If the account is valid but the player is not eligible to import:)
           - Tu {{Sic load the League rewards of 'Player'.|colour=#EB2F2F}}
-          - (ventana emergente)
+          - (pop-up)
             - (Ventana emergente: usted {{Sic|can not) load the League rewards of 'Player'.|warning=yes}}
       - [Choice]: No importa.
       - (end)
   - [Choice]: ¿Puedo gastar mis puntos de Liga?
-    - (Condition: Si el player aún no ha importado ningún punto:)
+    - (Condition: If the player hasn't imported any points yet:)
       - **The Sage:** Aún no has importado ningún punto. ¿Quieres hacerlo antes de visitar la tienda?
       - [Menu]: Selecciona una opción
         - [Choice]: Importa el progreso ahora.
@@ -149,7 +149,7 @@
           - (opens=Leagues Reward Shop)
         - [Choice]: No importa.
           - (end)
-    - (Condition: Si el player ha importado puntos:)
+    - (Condition: If the player has imported points:)
       - (opens=Leagues Reward Shop)
   - [Choice]: cond=With dragon trophy badge unlocked:|¿Puedo cambiar mi placa?
     - [Menu]: Elige una opción:
@@ -178,7 +178,7 @@
 
 ##### Con artículos para reclamar
 
-- ((Se abre la interfaz titulada "ARTÍCULOS DE LA LIGA PERDIDOS" con los artículos para recuperar.))
+- ((Interface titled "LOST LEAGUE ITEMS" with the items to reclaim opens.))
 
 ### Spellbook & Prayer swap
 
@@ -186,14 +186,14 @@
 #### Sin una reliquia de nivel 5 activa
 
 - Necesitas desbloquear un nivel superior de reliquia para hacer esto.
-- (ventana emergente)
-  - (Ventana emergente: necesitas desbloquear un nivel superior de reliquia para hacer esto.|advertencia=yes)
+- (pop-up)
+  - (Pop-up: You need to unlock a higher tier of relic to do this.|warning=yes)
 
 #### Con una reliquia de nivel 5 activa
 
 - [Menu]: ¿Cuál te gustaría cambiar?
   - [Choice]: Rezo.
-    - (Condition: Con oraciones estándar activas:)
+    - (Condition: With standard prayers active:)
       - [Menu]: ¿Cambiar de oraciones a maldiciones?
         - [Choice]: Sí, reemplaza mis oraciones con maldiciones.
           - (Action: Se activan maldiciones antiguas.)
@@ -203,7 +203,7 @@
           - [El altar llena tu cabeza con pensamientos oscuros, purgando las oraciones de tu memoria y dejando solo maldiciones en su lugar.]
         - [Choice]: No importa.
           - (end)
-    - (Condition: Con Maldiciones Antiguas activas:)
+    - (Condition: With Ancient Curses active:)
       - [Menu]: ¿Cambiar de maldiciones a oraciones?
         - [Choice]: Sí, reemplaza mis maldiciones con oraciones.
           - (Action: Se activan las oraciones estándar.)
@@ -214,11 +214,11 @@
         - [Choice]: No importa.
           - (end)
   - [Choice]: Hechizos.
-    - (Condition: Sin otros libros de hechizos desbloqueados:)
+    - (Condition: Without other spellbooks unlocked:)
       - No puedes acceder a libros de hechizos adicionales hasta que los desbloquees.
-        - (ventana emergente)
-          - (Ventana emergente: no puedes acceder a libros de hechizos adicionales hasta que los desbloquees.|advertencia=yes)
-    - (Condition: Con otros libros de hechizos desbloqueados:)
+        - (pop-up)
+          - (Pop-up: You cannot access additional spellbooks until you unlock them.|warning=yes)
+    - (Condition: With other spellbooks unlocked:)
       - [Menu]: Elige tu libro de hechizos
         - [Choice]: cond=Without standard spells active:|Normalidad.
           - (Action: El libro de hechizos cambia a hechizos estándar.)
@@ -236,7 +236,7 @@
 
 #### Después de la Liga Catalyst
 
-- (Condition: Si el player tiene puntos de liga aún no importados una vez concluida la liga:)
+- (Condition: If the player has league points not yet imported after the league has concluded:)
   - **The Sage:** Aún no has importado ningún punto. ¿Quieres hacerlo antes de visitar la tienda?
   - [Menu]: Selecciona una opción
     - [Choice]: Importa el progreso ahora.
@@ -245,5 +245,5 @@
       - (opens=Leagues Reward Shop)
     - [Choice]: No importa.
       - (end)
-- (Condition: De lo contrario:)
+- (Condition: Otherwise:)
   - (opens=Leagues Reward Shop)

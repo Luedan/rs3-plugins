@@ -44,13 +44,13 @@
               - [Choice]: Anillo Berserker (205,900 créditos de recompensa)
                 - **Player:** Anillo Berserker, por favor.
                 - (continue)
-            - (Condition: Si el player sostiene un anillo imbuido:)
+            - (Condition: If the player is holding an imbued ring:)
               - [Choice]: ¿Puedes eliminar el encantamiento de mi artículo?
                 - {{Transcript missing}}
-          - (Condition: Si el player tiene suficientes créditos de recompensa:)
+          - (Condition: If the player has enough reward credits:)
             - **Lord Marshal Brogan:** ¡Ahí lo tienes! Si quieres eliminar el efecto, vuelve y lo haré gratis.
             - (end)
-          - (Condition: Si el player no tiene suficientes créditos de recompensa:)
+          - (Condition: If the player does not have enough reward credits:)
             - {{Transcript missing}}
         - [Choice]: Vete.
           - **Player:** Lo siento, permiso para salir, señor.

@@ -15,8 +15,8 @@
 #### Con menos de 118 Thieving
 
 - Debes ser un ladrón de nivel 118 para robarle el bolsillo a este Vyrelord consumer.
-- ((Se muestra en una ventana emergente:))
-  - (Ventana emergente: necesita el nivel 118 de Thieving.|advertencia=yes)
+- ((Shown in a pop-up:))
+  - (Pop-up: You need Thieving level 118.|warning=yes)
 
 #### Con al menos 118 Thieving
 
@@ -38,11 +38,11 @@
 
 ##### con éxito
 
-- ((Lo siguiente se repite hasta que es interrumpido, fuera del espacio backpack o atrapado:))
+- ((The following repeats until interrupted, out of backpack space, or caught:))
   - Escoges el bolsillo del Vyrelord consumer.
-  - (Condition: Si recibe coins:)
+  - (Condition: If receiving coins:)
     - Se han añadido 900 coins a tu bolsa de dinero.
-  - (Condition: Si recibe otros artículos:)
+  - (Condition: If receiving other items:)
     - (receives=loot)
-    - (Condition: Si alcanza el backpack completo:)
+    - (Condition: If reaching full backpack:)
       - No puedes seguir robando carteras porque tienes un inventario completo.

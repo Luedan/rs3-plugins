@@ -33,9 +33,9 @@
   - [Choice]: Acerca del sistema de tareas...
     - (below|task)
   - [Choice]: Habla de otra cosa.
-    - (Condition: Si no lleva equipo de doliente:)
+    - (Condition: If not wearing mourner gear:)
       - **Doctor Orbon:** Bueno, hola de nuevo. Me sentí muy aliviado cuando supe que había logrado deshacerse de las ovejas plagadas con éxito. Significa que nuestra cuarentena está funcionando nuevamente.
-    - (Condition: Si usa un conjunto completo de equipo de doliente:)
+    - (Condition: If wearing a full set of mourner gear:)
       - **Player:** Hola.
       - **Doctor Orbon:** Buen día, ¿tienes mi próximo pago? No sigo esta farsa por diversión, ¿sabes?
       - **Player:** Lo siento, no.
@@ -48,15 +48,15 @@
   - [Choice]: Acerca del sistema de tareas...
     - (below|task)
   - [Choice]: Habla de otra cosa.
-    - (Condition: Si no lleva equipo de doliente:)
+    - (Condition: If not wearing mourner gear:)
       - **Doctor Orbon:** Estaba medio muerto de preocupación por esa plaga, ¡y ahora resulta que era un engaño que involucraba ovejas teñidas! No sé por qué no me di cuenta de eso. Quizás no soy el médico que pensaba.
-    - (Condition: Si usa un conjunto completo de equipo de doliente:)
+    - (Condition: If wearing a full set of mourner gear:)
       - **Doctor Orbon:** Sabía que no podríamos seguir con esta farsa para siempre. Maldice a ese aventurero entrometido.
       - **Doctor Orbon:** Harías bien en huir de West Ardougne antes de que los ciudadanos te hagan cosas desagradables.
 
 ### {{anchor|task}}About the Task System
 
-- (Condition: Si el player ha completado las tareas fáciles del conjunto Ardougne y aún no se ha reclamado la recompensa:)
+- (Condition: If the player has completed the Easy tasks in the Ardougne set and the reward is not yet claimed:)
   - **Player:** He completado todas las tareas fáciles del conjunto Ardougne.
   - **Doctor Orbon:** Ah, eso es un alivio. Puedes usar un Ardougne cloak ahora; tengo uno para ti.
   - [Doctor Orbon te entrega una capa y una lámpara vieja.]
@@ -65,7 +65,7 @@
   - **Player:** ¡Gracias! ¿Qué más hace?
   - **Doctor Orbon:** Bueno, ahora parece poder teletransportarte al monasterio al sur de Ardougne, aunque no sé por qué querrías visitar a esos monjes borrachos. Estoy seguro de que hay otros bonos de los que no he oído hablar, pero tal vez puedas encontrarlos.
   - (continue)
-- (Condition: Si el player ha perdido su Ardougne cloak 1:)
+- (Condition: If the player has lost their Ardougne cloak 1:)
   - **Doctor Orbon:** ¿Tú otra vez? ¿Cómo te fue con la capa?
   - **Player:** Lo perdí.
   - **Doctor Orbon:** ¿Lo perdiste? Bueno, da la casualidad de que encontré otro. Cuida mejor este.

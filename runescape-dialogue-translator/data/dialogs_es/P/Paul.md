@@ -42,21 +42,21 @@
 - **Paul Gower:** ¡Este mundo alguna vez fue grandioso! ¡Para algunos ha seguido siendo genial! Y para otros aún, ¡será genial una vez más!
 - **Ian Gower:** Siempre eres bienvenido aquí donde estamos... o puedes ir a la vieja escuela... o, oye, incluso visitar algunos dragones salvajes en Dragon Wilds...
 - {{RSFontAchievement|Gower Power|Talk to any of the Gower brothers at their farm south of Varrock, or, next to the Life altar.}}
-- ((Se muestra en una ventana emergente de finalización de tarea:))
+- ((Shown in a task completion pop-up:))
   - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
   - poder gower
   - Habla con cualquiera de los hermanos Gower en su granja al sur de Varrock o junto al altar de la Vida.
   - (continue)
 - **Player:** ¡Sí! ¡Estoy contigo!
-- (Condition: Si se han completado todas las tareas:)
+- (Condition: If all the tasks have been completed:)
   - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!
 
 ### Treasure Trails
 
 - **Paul Gower:** ¡Parece una aventura divertida!
-- (Condition: Si el rastro continúa:)
+- (Condition: If the trail continues:)
   - (receives=a new clue scroll (master))
   - [¡Has encontrado otra pista!]
-- (Condition: Si el sendero termina:)
+- (Condition: If the trail ends:)
   - (receives=reward casket (master))
   - [¡Has encontrado un ataúd!]

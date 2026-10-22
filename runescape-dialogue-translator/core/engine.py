@@ -128,26 +128,10 @@ def translate_file_content(content):
                     translate_jobs.append((i, indent + '[Choice]: ', m_text, '', ph))
             continue
             
-        # 4. Conditions
-        if content_after.startswith('((Otherwise:))') or content_after.startswith('((otherwise:))'):
-            out_lines[i] = indent + '((De lo contrario:))'
+        # 4. Conditions and System metadata (Preserved intact in original English)
+        if re.match(r'^\(Condition:\s*.*\)$', content_after, re.IGNORECASE):
             continue
-        cond_dp_match = re.match(r'^\(\((.*)\)\)$', content_after)
-        if cond_dp_match:
-            m_text, ph = mask_entities(cond_dp_match.group(1).strip())
-            words_left = re.sub(r'ZZ[A-Z0-9]+ZZ', '', m_text)
-            words_left = re.sub(r'[^a-zA-Z]', '', words_left)
-            if len(words_left) >= 2:
-                translate_jobs.append((i, indent + '((', m_text, '))', ph))
-            continue
-            
-        cond_match = re.match(r'^\(Condition:\s*(.*)\)$', content_after)
-        if cond_match:
-            m_text, ph = mask_entities(cond_match.group(1).strip())
-            words_left = re.sub(r'ZZ[A-Z0-9]+ZZ', '', m_text)
-            words_left = re.sub(r'[^a-zA-Z]', '', words_left)
-            if len(words_left) >= 2:
-                translate_jobs.append((i, indent + '(Condition: ', m_text, ')', ph))
+        if re.match(r'^\(\(.*?\)\)$', content_after):
             continue
             
         # 5. Action
@@ -172,7 +156,7 @@ def translate_file_content(content):
                 continue
                 
         # 7. Preserved game control tokens
-        if re.match(r'^\((?:continue|initial|end|previous|opens=|removes=|receives=|below\||above\|)[^)]*\)$', content_after):
+        if re.match(r'^\((?:continue|initial|end|previous|opens=|removes=|receives=|below\||above\||pop-up)[^)]*\)$', content_after, re.IGNORECASE):
             continue
             
         if len(content_after) > 2 and not content_after.startswith('---'):

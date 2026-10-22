@@ -22,7 +22,7 @@
 
 - **Player:** ¿Cómo te va?
 - **Old man:** ¡Maravilloso, maravilloso! ¡Mamá viene a buscarme!
-- ((Si se ha completado El barco del presagio:))
+- ((If Vessel of the Harbinger has been completed:))
   - **Player:** Tengo malas noticias para ti...
   - **Old man:** ¿Ah? ¿La han retenido?
   - **Player:** Lamento decirte que tu madre falleció recientemente.

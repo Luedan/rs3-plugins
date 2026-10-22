@@ -74,12 +74,12 @@
 
 #### Con talismanes del zodíaco
 
-- ((Lo siguiente se muestra en una interfaz titulada "CANJEAR MONEDA":))
+- ((The following is shown in an interface titled "REDEEM CURRENCY":))
   - Entregar la moneda del evento aumentará tu progreso en este evento y desbloqueará recompensas únicas. Esto eliminará todo el dinero de sus bolsos y carteras.<br><br>¿Desea continuar?
     - [Choice]: No
-      - ((La interfaz se cierra.))
+      - ((The interface closes.))
     - [Choice]: si
-      - ((La interfaz se cierra.))
+      - ((The interface closes.))
       - (continue)
 - (Antes de alcanzar el nivel 10, los siguientes mensajes se reproducen en secuencia:)
   - Felicitaciones, has subido de nivel al nivel 2.

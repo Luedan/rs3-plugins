@@ -18,7 +18,7 @@
 - **Brother Celerity:** Me han enviado una visión. ¡Una visión verdaderamente terrible!
 - **Brother Celerity:** Los demonios están comenzando a invadir nuestro mundo en una cantidad sin precedentes.
 - **Brother Celerity:** He visto campos de huesos... ¡ríos de sangre y azufre!
-- (Condition: Si has matado a un demonio en Demon Flash Mob)
+- (Condition: If you have slain a Demon in Demon Flash Mob)
   - (receives=Malleus daemoniorum)
   - **Brother Celerity:** Siento que has matado a un demonio general. ¡Esta es tu recompensa!
   - (continue|questions)
@@ -28,12 +28,12 @@
 
 - **Player:** Buenos días, hermano. ¿Cómo son las visiones?
 - **Brother Celerity:** ¡Sigue siendo extremadamente calamitoso! ¿Pero qué puedo hacer por ti?
-- ((Si el player ha perdido el Malleus daemoniorum:))
-  - ((Sin espacio en backpack:))
+- ((If the player has lost the Malleus daemoniorum:))
+  - ((Without space in backpack:))
     - **Brother Celerity:** Si bien puedo sentir que has perdido el libro que te di, te falta espacio para llevar uno de reemplazo.
     - **Brother Celerity:** Si haces algo de espacio en tu mochila, te lo daré.
     - (continue|questions)
-  - ((Con espacio en backpack:))
+  - ((With space in backpack:))
     - (receives=Malleus daemoniorum)
     - **Brother Celerity:** ¿Dónde está el libro que te regalé? ¡Toma, toma otro, rápido!
     - (continue|questions)
@@ -92,7 +92,7 @@
         - **Brother Celerity:** Además, se dice que en la Tercera Edad, Saradomin bendijo a los cazadores de demonios con una armadura mágica que los hacía más letales para los demonios.
         - **Brother Celerity:** ¡Existe la posibilidad de que, si ayudas a matar a the beast, puedas ser recompensado con una pieza de esta armadura legendaria!
         - (previous|questions2)
-      - ((Sólo si ya has preguntado "¿Quién eres?" o "¿Hay alguna recompensa por matar a los demonios?":))
+      - ((Only if you have already asked "Who are you?" or "Is there a reward for killing the demons?":))
         - ¿Puedes contarme más sobre estos cazadores?
           - **Brother Celerity:** Según mis investigaciones en el legendario {{Sic|Malleus Daemonum}}, los cazadores de demonios eran un grupo de monjes guerreros de élite dedicados a Saradomin.
           - **Brother Celerity:** Por donde caminaban los inmundos huían, pues cada victoria los hacía más fuertes en la fe, y sus golpes destrozaban a los demonios como las más frágiles vasijas de barro.

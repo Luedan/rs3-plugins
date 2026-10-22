@@ -83,7 +83,7 @@
 
 ### Senntisten
 
-(Condition: Antes (condición desconocida))
+(Condition: Before (unknown condition))
 - **Zarador:** No puedo creer que haya una batalla para salvar el mundo y que nadie haya invitado a los bandosianos. Graardor está reuniendo sus fuerzas ahora.
-(Condition: Después (condición desconocida))
+(Condition: After (unknown condition))
 - **Zarador:** Nunca fue el plan perder, pero nadie puede decir que no luchamos valientemente.

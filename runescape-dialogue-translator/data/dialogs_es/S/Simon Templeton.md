@@ -38,7 +38,7 @@
 - **Player:** Hola, Simon.
 - **Simon Templeton:** Buenos días, Player.
 - **Player:** ¿Cómo te va?
-- (Condition: Si el player no le ha preguntado a Simon Templeton sobre su contrato para recuperar los artefactos de la pirámide Agility:)
+- (Condition: If the player has not asked Simon Templeton about his contract to retrieve Agility Pyramid artefacts:)
   - **Player:** Hola, Simon.
   - **Simon Templeton:** Buenos días, Player.
   - **Player:** ¿Cómo te va?
@@ -50,9 +50,9 @@
   - **Simon Templeton:** Te diré una cosa. Te daré 1000 coins por cada artefacto que me consigas.
   - **Player:** Veré qué puedo hacer.
   - **Simon Templeton:** ¡Bien por ti, amigo!
-- (Condition: Si el player ya le preguntó a Simon Templeton sobre su contrato para recuperar los artefactos de la pirámide Agility:)
+- (Condition: If the player has already asked Simon Templeton about his contract to retrieve Agility Pyramid artefacts:)
   - **Simon Templeton:** ¿Tienes algún artefacto de la pirámide Agility para mí?
-  - (Condition: Con cimas piramidales en backpack:)
+  - (Condition: With pyramid tops in backpack:)
     - [Menu]: Selecciona una opción
       - [Choice]: Véndelo.
         - **Player:** Tengo uno aquí y te lo venderé.
@@ -65,7 +65,7 @@
         - **Simon Templeton:** Cuidado, amigo. La gente podría venir buscando algo así.
         - **Player:** Gracias por el consejo, pero lo mantendré por ahora.
         - **Simon Templeton:** Adiós, cobber.
-  - (Condition: Sin cimas piramidales en backpack:)
+  - (Condition: Without any pyramid tops in backpack:)
     - **Player:** No, no lo he hecho.
     - **Simon Templeton:** ¡Esfuérzate más, amigo! No pasará mucho tiempo hasta que aparezca otra criatura y los elimine de debajo de tus ojos.
     - **Player:** Lo haré. Adiós, Simon.
@@ -78,11 +78,11 @@
 - [Menu]: Selecciona una opción
   - [Choice]: Sobre ese trabajito que mencionaste...
     - **Player:** Sobre ese trabajito que mencionaste...
-    - (Condition: Si el player no ha hablado con guardian mummy sobre los artefactos de Pyramid Plunder:)
+    - (Condition: If the player has not talked to the guardian mummy about Pyramid Plunder artefacts:)
       - **Simon Templeton:** No recuerdo si te pedí que hicieras esto todavía (tengo la mente como un colador), pero ¿alguna vez has hablado con la momia Pyramid Plunder en Sophanem sobre mí?
       - **Player:** No, no lo he hecho.
       - **Simon Templeton:** Bueno, eso es lo que puedes hacer por mí. Pregúntale si me dejará echar un vistazo rápido a algunas de sus reliquias. Creo que puedo hacerle un trato.
-    - (Condition: Si el player ha hablado con guardian mummy sobre los artefactos de Pyramid Plunder:)
+    - (Condition: If the player has talked to the guardian mummy about Pyramid Plunder artefacts:)
       - [Menu]: Selecciona una opción
         - [Choice]: Hablé con la momia en Sophanem.
           - **Player:** Hablé con la momia en Sophanem.
@@ -97,9 +97,9 @@
           - **Simon Templeton:** Dispara, deporte.
           - (initial|initial-options)
         - [Choice]: En realidad, me gustaría hablar de asuntos comerciales.
-          - (Condition: Si el player no le ha preguntado a Simon Templeton sobre su contrato para recuperar los artefactos de la pirámide Agility:)
+          - (Condition: If the player has not asked Simon Templeton about his contract to retrieve Agility Pyramid artefacts:)
             - (above|Subsequent_dialogue)
-          - (Condition: Si el player ya le preguntó a Simon Templeton sobre su contrato para recuperar los artefactos de la pirámide Agility:)
+          - (Condition: If the player has already asked Simon Templeton about his contract to retrieve Agility Pyramid artefacts:)
             - (below|business-matters)
   - [Choice]: ¿Qué sabes de otros arqueólogos en esta zona?
     - **Player:** ¿Qué sabes de otros arqueólogos en esta zona?
@@ -135,14 +135,14 @@
     - (initial|initial-options)
   - [Choice]: cond=Before using any other dialogue option:|En realidad, me gustaría hablar de asuntos comerciales.
     - **Player:** En realidad, me gustaría volver a cambiar el tema a asuntos comerciales.
-    - (Condition: Si el player tiene al menos un artefacto Pyramid Plunder o un cetro de faraón en su backpack:)
+    - (Condition: If the player has at least one Pyramid Plunder artefact or a pharaoh's sceptre in their backpack:)
       - **Player:** Tengo algunos artefactos interesantes que me gustaría que vieras.
       - **Simon Templeton:** ¡Bonza! Vamos a una carnicería, amigo.
       - **Simon Templeton:** ¿Quieres azotarlos a todos?
       - [Menu]: ¿Quieres vender todos tus artefactos?
         - [Choice]: Sí, muéstrame el dinero.
           - **Player:** Sí, muéstrame el dinero.
-          - (Condition: Si el player tiene un cetro de faraón en su backpack:)
+          - (Condition: If the player has a pharaoh's sceptre in their backpack:)
             - **Simon Templeton:** ¿Me estás vendiendo este palo dorado? Me parece falso. Te daré 100 de oro por ello.
             - **Player:** ¡Qué! Este es un cetro de faraón genuino, hecho de oro macizo y adornado con gemas preciosas por los mejores artesanos de la zona.
             - **Simon Templeton:** ¡Esparcimiento! ¡Puedo distinguir un montón de cocodrilos cuando lo escucho! Tienes la charla, compañero, pero no soy un tonto. Eso es falso.
@@ -156,7 +156,7 @@
                 - (continue|sell-artefacts)
               - [Choice]: No, he cambiado de opinión.
                 - **Player:** No, he cambiado de opinión.
-          - (Condition: Si el player no tiene un cetro de faraón en su backpack:)
+          - (Condition: If the player does not have a pharaoh's sceptre in their backpack:)
             - (removes=all artefacts) (receives=coins)
             - (Condición: {{Transcript missing|(unknown conditional)):}}
               - **Simon Templeton:** Justo amigo Dinkum, Bonzer hace negocios contigo, amigo.
@@ -165,14 +165,14 @@
         - [Choice]: No, déjame pensar en ello.
           - **Player:** No, déjame pensarlo.
           - **Simon Templeton:** No hay problema, amigo. Sólo dame los artículos que quieres vender y podemos hacerlos uno por uno.
-    - (Condition: Si el player no tiene ningún artefacto de Pyramid Plunder ni un cetro de faraón en su backpack:)
-      - (Condition: Si el player no ha vendido a Simon Templeton la cima de una pirámide después de preguntar sobre su contrato para recuperar los artefactos de la pirámide Agility:)
+    - (Condition: If the player does not have any Pyramid Plunder artefacts nor a pharaoh's sceptre in their backpack:)
+      - (Condition: If the player has not sold Simon Templeton a pyramid top after asking about his contract to retrieve Agility Pyramid artefacts:)
         - **Simon Templeton:** ¿Tienes algún artefacto de la pirámide Agility para mí?
         - (continue|has-pyramid-top)
-      - (Condition: Si el player ha vendido a Simon Templeton al menos una cima de pirámide después de preguntar sobre su contrato para recuperar artefactos de la pirámide Agility:)
+      - (Condition: If the player has sold Simon Templeton at least one pyramid top after asking about his contract to retrieve Agility Pyramid artefacts:)
         - **Simon Templeton:** ¿Tienes más artefactos de la pirámide Agility para mí?
         - (continue|has-pyramid-top)
-      - (Condition: Si el player tiene al menos una cima piramidal en su backpack:)
+      - (Condition: If the player has at least one pyramid top in their backpack:)
         - [Menu]: Selecciona una opción
           - [Choice]: Vender [it/them].
             - **Player:** Tengo [one/some] aquí, te lo vendo.
@@ -186,13 +186,13 @@
             - **Simon Templeton:** Cuidado, amigo. La gente podría venir buscando algo así.
             - **Player:** Gracias por el consejo, pero lo mantendré por ahora.
             - **Simon Templeton:** Adiós, cobber.
-      - (Condition: Si el player no tiene cimas piramidales en su backpack:)
+      - (Condition: If the player does not have any pyramid tops in their backpack:)
         - **Player:** No, no lo he hecho.
-        - (Condition: Si el player no ha vendido a Simon Templeton la cima de una pirámide después de preguntar sobre su contrato para recuperar los artefactos de la pirámide Agility:)
+        - (Condition: If the player has not sold Simon Templeton a pyramid top after asking about his contract to retrieve Agility Pyramid artefacts:)
           - **Simon Templeton:** ¡Esfuérzate más, amigo! No pasará mucho tiempo hasta que aparezca otra criatura y los elimine de debajo de tus ojos.
           - **Player:** Lo haré. Adiós, Simon.
           - **Simon Templeton:** Adiós, cobber.
-        - (Condition: Si el player ha vendido a Simon Templeton al menos una cima de pirámide después de preguntar sobre su contrato para recuperar artefactos de la pirámide Agility:)
+        - (Condition: If the player has sold Simon Templeton at least one pyramid top after asking about his contract to retrieve Agility Pyramid artefacts:)
           - **Simon Templeton:** Bueno, ten en cuenta mi oferta si encuentras una.
           - **Player:** Lo haré. Adiós, Simon.
           - **Simon Templeton:** Adiós, amigo.
@@ -239,19 +239,19 @@
 ##### Antes de haber desbloqueado la capacidad de vender artículos destacados
 
 - Simon no quiere tener nada que ver con esto.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Simon no quiere tener nada que ver con esto.
 
 ##### Después de haber desbloqueado la capacidad de vender artículos destacados
 
 - **Simon Templeton:** ¿Quieres vender eso, amigo?
-- (Condition: Escarabajos de oro o sellos de oro:)
+- (Condition: Golden scarabs or gold seals:)
   - [Menu]: ¿Quieres vender tu null{{Sic?}}?
     - [Choice]: Sí, muéstrame el dinero.
       - (above|yes-show-me-the-money)
     - [Choice]: No, creo que me lo quedaré.
       - (above|no-i-think-ill-keep-it)
-- (Condition: Cualquier otro artefacto:)
+- (Condition: Any other artefact:)
   - [Menu]: ¿Quieres vender tu [artefact] certificado?
     - [Choice]: Sí, muéstrame el dinero.
       - (above|yes-show-me-the-money)

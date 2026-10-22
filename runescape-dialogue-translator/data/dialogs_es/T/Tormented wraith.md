@@ -18,7 +18,7 @@
 
 #### Combate exterior
 
-- ((Ocasionalmente se ve uno de los siguientes:))
+- ((One of the following is occasionally seen:))
   - Tráeme a los guerreros oscuros o sufre mi disgusto.
   - Puedo sentirlos acercándose.
   - Debo tener mi venganza.
@@ -27,19 +27,19 @@
 
 #### En combate
 
-- ((Ocasionalmente se ve uno de los siguientes:))
-  - ((Sólo con Proteger contra cuerpo a cuerpo o Desviar cuerpo a cuerpo activo:))
+- ((One of the following is occasionally seen:))
+  - ((Only with Protect from Melee or Deflect Melee active:))
     - ¡Acepta tu castigo, debilucho!
   - ¡Dile adiós a tu aliento, black knight!
-  - ((Sólo con Proteger contra cuerpo a cuerpo o Desviar cuerpo a cuerpo activo:))
+  - ((Only with Protect from Melee or Deflect Melee active:))
     - ¡Cobarde! ¡Escondiéndote detrás de tus falsos dioses!
   - ¡Prepárate para sufrir como yo!
   - ¡Derrama tu vida por mí!
   - ¡Sufre el dolor de mi tormento, desgraciado!
   - ¡Morirás por lo que me hiciste!
-  - ((Sólo con Proteger contra cuerpo a cuerpo o Desviar cuerpo a cuerpo activo:))
+  - ((Only with Protect from Melee or Deflect Melee active:))
     - ¡Tus oscuras oraciones no te mantendrán a salvo para siempre!
-  - ((Sólo con Proteger contra cuerpo a cuerpo o Desviar cuerpo a cuerpo activo:))
+  - ((Only with Protect from Melee or Deflect Melee active:))
     - ¡Zamorak no puede salvarte de mi ira!
 
 ### Attempting to attack without wearing required equipment

@@ -12,7 +12,7 @@
 ### Using the [[first stone fragment]] on the statue
 
 - Sientes un leve ruido sordo en el suelo bajo tus pies y el polvo comienza a desprenderse de la estatua. Una voz comienza a susurrar desde dentro...
-- ((Si es la primera vez que el player utiliza el fragmento:))
+- ((If this is the first time the player has used the fragment:))
   - Obtienes reputación <#>. Ahora tienes reputación <#> con los Goebies.
 - {{Colour|#4169e1|Me presentas un fragmento que pulsa con el ánima vibrante de este planeta.|#fffb}}
 - {{Colour|#4169e1|La misma ánima que se escapa de las heridas que este mundo ha llegado a soportar.|#fffb}}
@@ -24,7 +24,7 @@
 ### Using the [[second stone fragment]] on the statue
 
 - Sientes un leve ruido sordo en el suelo bajo tus pies y el polvo comienza a desprenderse de la estatua. Una voz comienza a susurrar desde dentro...
-- ((Si es la primera vez que el player utiliza el fragmento:))
+- ((If this is the first time the player has used the fragment:))
   - Obtienes reputación <#>. Ahora tienes reputación <#> con los Goebies.
 - {{Colour|#4169e1|Llevas un fragmento que zumba suavemente con la energía de un espíritu atrapado en su interior.|#fffb}}
 - {{Colour|#4169e1|El espíritu de un goebie perdido, que trae a la luz el conocimiento de una otra vida olvidada hace mucho tiempo por esta raza.|#fffb}}
@@ -36,7 +36,7 @@
 ### Using the [[third stone fragment]] on the statue
 
 - Sientes un leve ruido sordo en el suelo bajo tus pies y el polvo comienza a desprenderse de la estatua. Una voz comienza a susurrar desde dentro...
-- ((Si es la primera vez que el player utiliza el fragmento:))
+- ((If this is the first time the player has used the fragment:))
   - Obtienes reputación <#>. Ahora tienes reputación <#> con los Goebies.
 - {{Colour|#4169e1|Posee un fragmento de un respiradero, uno de los distribuidores de ánima que ayuda al recrecimiento de los ecosistemas en este mundo.|#fffb}}
 - {{Colour|#4169e1|Los goebies alguna vez fueron un pueblo trabajador. Sus antepasados tallaron arterias y las llenaron con la sangre vital del planeta, bombeada desde el corazón de sus antiguos templos.|#fffb}}
@@ -48,7 +48,7 @@
 ### Using the [[fourth stone fragment]] on the statue
 
 - Sientes un leve ruido sordo en el suelo bajo tus pies y el polvo comienza a desprenderse de la estatua. Una voz comienza a susurrar desde dentro...
-- ((Si es la primera vez que el player utiliza el fragmento:))
+- ((If this is the first time the player has used the fragment:))
   - Obtienes reputación <#>. Ahora tienes reputación <#> con los Goebies.
 - {{Colour|#4169e1|Tienes en tus manos un fragmento caído de uno de los grandes templos que diseminan estas tierras.|#fffb}}
 - {{Colour|#4169e1|Estos templos son sagrados para el pueblo goebie, pero poco saben de su historia y su importancia para la vitalidad del planeta.|#fffb}}
@@ -60,7 +60,7 @@
 ### Using the [[fifth stone fragment]] on the statue
 
 - Sientes un leve ruido sordo en el suelo bajo tus pies y el polvo comienza a desprenderse de la estatua. Una voz comienza a susurrar desde dentro...
-- ((Si es la primera vez que el player utiliza el fragmento:))
+- ((If this is the first time the player has used the fragment:))
   - Obtienes reputación <#>. Ahora tienes reputación <#> con los Goebies.
 - {{Colour|#4169e1|Me traes un fragmento lleno de energía oscura. Antinatural. Retorcido... Corrupto.|#fffb}}
 - {{Colour|#4169e1|Esto ha entrado en contacto con la bestia acuática Yakamaru. Un gran espíritu guardián que vagaba por los ríos y mares de Mazcab.|#fffb}}

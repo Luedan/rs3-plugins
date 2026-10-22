@@ -28,9 +28,9 @@
     - **Player:** No, gracias.
   - [Choice]: ¿Tiene algún Dragon Scimitars en stock?
     - **Player:** ¿Tiene algún Dragon Scimitars en stock?
-    - (Condition: Si el player aún no ha completado Monkey Madness:)
+    - (Condition: If the player has not yet completed Monkey Madness:)
       - **Daga:** Lo siento, pero no tengo existencias en este momento, aunque espero otra entrega pronto.
-    - (Condition: Si el player ha completado Monkey Madness:)
+    - (Condition: If the player has completed Monkey Madness:)
       - **Daga:** Da la casualidad de que recientemente recibí una entrega nueva, ¿quieres comprar una?
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, por favor.

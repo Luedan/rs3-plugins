@@ -17,10 +17,10 @@
     - (opens=Pet Shop)
   - [Choice]: ¿Cuánto cuesta ese cachorro en la ventana?
     - **Player:** ¿Cuánto cuesta ese cachorro en la ventana?
-    - (Condition: Si el player no cumple con el requisito Summoning:)
+    - (Condition: If the player does not meet Summoning requirement:)
       - **Propietario de la tienda de mascotas:** Lo siento, pero me temo que no puedo vendértelos. No me parece que tengas afinidad con los animales.
       - **Player:** Awww...
-    - (Condition: Si el player no tiene un perro como mascota:)
+    - (Condition: If the player does not own a pet dog:)
       - **Dueño de la tienda de mascotas:** ¿El que tiene la cola meneando?
       - (Action: Se abre la interfaz de elección de cachorros)
       - [Menu]: elige un cachorro
@@ -44,7 +44,7 @@
         - [Choice]: Galgo
         - [Choice]: terrier
         - [Choice]: perro pastor
-    - (Condition: Si el player ya tiene un perro como mascota:)
+    - (Condition: If the player already owns a pet dog:)
       - **Dueño de una tienda de mascotas:** Me preguntaste eso la última vez que recogiste un perro y no puedo venderte otro.
   - [Choice]: Entonces, ¿qué tipo de mascotas hay disponibles?
     - **Player:** Entonces, ¿qué tipo de mascotas hay disponibles?
@@ -70,32 +70,32 @@
   - [Choice]: ¿Estás interesado en comprar fragmentos de espíritu?
     - **Player:** ¿Estás interesado en comprar fragmentos de espíritu?
     - **Propietario de una tienda de mascotas:** Ciertamente lo soy. ¡Muchos de ellos también!
-    - (Condition: Si el player no tiene fragmentos de espíritu:)
+    - (Condition: If the player has no spirit shards on them:)
       - **Player:** Gracias, lo tendré en cuenta.
-    - (Condition: Si el player tiene fragmentos de espíritu:)
+    - (Condition: If the player has spirit shards on them:)
       - ¿Cuántos venderás? (25 coins cada uno, tienes [amount])
       - Vendes fragmentos [número] para [amount] coins.
   - [Choice]: cond=If the player has pets to reclaim|¿Tienes algún perro callejero?
     - **Player:** ¿Tienes algún perro callejero?
-      - (Condition: Si el player ha perdido Mackers:)
+      - (Condition: If the player has lost Mackers:)
         - **Propietario de la tienda de mascotas:** Déjame revisar mis registros...
         - **Propietario de la tienda de mascotas:** ¡Estás de suerte! ¡Encontré a Mackers deambulando afuera! Ha estado preguntando por ti.
         - **Player:** Sigue buscando pastel, ¿verdad?
         - **Propietario de la tienda de mascotas:** Por supuesto.
         - [Mackers se acerca a ti.]
-      - (Condition: Si el player ha perdido Sparkles:)
+      - (Condition: If the player has lost Sparkles:)
         - **Propietario de la tienda de mascotas:** ¡Estás de suerte! Tengo una cosa perdida... brillante y ondulante. ¡Fue difícil de atrapar!
         - **Player:** ¡Cuéntamelo! ¿Me dejarías darle un hogar?
         - **Propietario de la tienda de mascotas:** ¡Por supuesto! Cuídalo bien.
         - [El comerciante te entrega una serpiente de oropel.]
         - **Propietario de la tienda de mascotas:** Ahora es tuyo. ¡No lo vuelvas a perder por favor, no quiero tener que volver a atraparlo!
-      - (Condition: Si el player ha perdido a Corgi:)
+      - (Condition: If the player has lost Corgi:)
         - **Propietario de la tienda de mascotas:** ¡Estás de suerte! ¡Un perrito lindo y esponjoso llegó antes!
         - **Player:** Sí, sí, tiene ese efecto en todos.
         - **Propietario de la tienda de mascotas:** ¡Es tan lindo!
         - **Player:** Sólo dame el perro, ¿quieres?
         - **Propietario de la tienda de mascotas:** Bien… Cuídalo bien.
         - [El comerciante te entrega un corgi.]
-      - (Condition: Si el player ha perdido San'tar Spawnling:)
+      - (Condition: If the player has lost San'tar Spawnling:)
         - **Propietario de la tienda de mascotas:** ¡Estás de suerte! Una criatura particularmente enojada entró aquí antes. ¡Te agradecería mucho que te lo llevaras!
         - [El comerciante te entrega el San'tar Spawnling.]

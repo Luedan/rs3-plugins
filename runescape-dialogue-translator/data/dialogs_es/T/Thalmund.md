@@ -11,8 +11,8 @@
 
 ### Talk to
 
-- (Condition: Sólo la primera vez durante las primeras siete semanas:)
-  - (Condition: Durante la primera semana:)
+- (Condition: Only on the first time during the first seven weeks:)
+  - (Condition: During the first week:)
     - **Player:** Hola. ¿Supongo que no serías Thalmund?
     - **Thalmund:** ¡De hecho lo soy! Y supongo que eso te convertiría en Player.
     - **Player:** ¡Ese soy yo! Kili te mencionó un poco, dice que vienes a regresar aquí de vez en cuando.
@@ -26,7 +26,7 @@
     - **Player:** ¡Entonces espero verte de nuevo!
     - **Thalmund:** ¡Adiós por ahora, Player!
     - (continue)
-  - (Condition: Durante la segunda semana:)
+  - (Condition: During the second week:)
     - **Thalmund:** Me alegro de verte de nuevo, Player.
     - **Player:** ¿Cómo va el turno de hoy, Thalmund?
     - **Thalmund:** Ah, las viejas articulaciones doloridas están de nuevo. Cargar este viejo carro por el lugar no les hace ningún favor, pero seguimos adelante.
@@ -43,7 +43,7 @@
     - **Player:** Verdaderamente un enano Imcando en el fondo.
     - **Thalmund:** '¡Me temo que sí!
     - (continue)
-  - (Condition: Durante la tercera semana:)
+  - (Condition: During the third week:)
     - **Player:** ¡Hola Thalmund!
     - **Thalmund:** Me alegro de verte de nuevo, Player. ¿Qué puedo hacer por hoy?
     - **Player:** De hecho, quería preguntarte sobre ser herrero.
@@ -64,7 +64,7 @@
     - **Thalmund:** Pero esa tendrá que ser una historia para otro momento.
     - **Player:** Espero ansiosamente escuchar más historias tuyas en el futuro.
     - (continue)
-  - (Condition: Durante la cuarta semana:)
+  - (Condition: During the fourth week:)
     - **Player:** ¡Buenos días, Thalmund!
     - **Player:** ¿Puedo escuchar esa historia tuya ahora?
     - **Thalmund:** ¡No lo dudes, eh!
@@ -84,7 +84,7 @@
     - **Thalmund:** No, no. Ofrecí la historia. Y, por doloroso que sea, era parte de mi vida. Siento que es importante recordar tanto las partes buenas de la vida como las malas.
     - **Thalmund:** Así que te agradezco por preguntar.
     - (continue)
-  - (Condition: Durante la quinta semana:)
+  - (Condition: During the fifth week:)
     - **Thalmund:** ¡Buenos días, Player!
     - **Player:** Hola, Thalmund.
     - **Thalmund:** Supongo que te interesará saber qué vino después de mi muerte, ¿eh?
@@ -107,7 +107,7 @@
     - **Player:** Entonces quizás puedas hablarme de ella la próxima vez.
     - **Thalmund:** Sería un placer.
     - (continue)
-  - (Condition: Durante la sexta semana:)
+  - (Condition: During the sixth week:)
     - **Player:** Soy todo oídos para que me cuentes sobre Kili.
     - **Thalmund:** Siempre ansioso, Player.
     - **Thalmund:** No pasó un día en Um en el que no deseara que ella estuviera a mi lado.
@@ -130,7 +130,7 @@
     - **Player:** Estoy feliz de que ustedes dos finalmente se hayan reunido.
     - **Thalmund:** Yo también, Player. Yo también.
     - (continue)
-  - (Condition: Durante la séptima semana:)
+  - (Condition: During the seventh week:)
     - ¡Felicitaciones! Has completado: 'Amigo del Imcando' - Participa en todas las conversaciones de Thalmund.
     - **Player:** ¿Cuáles son tus planes para el futuro, Thalmund?
     - **Thalmund:** ¡Oh, es un tema pesado para ti como siempre, Player!
@@ -153,15 +153,15 @@
     - **Thalmund:** Entonces te veré la próxima vez, Player.
     - **Player:** Nos vemos, Thalmund.
     - (continue)
-  - (Condition: Si habla por primera vez durante la semana:)
+  - (Condition: If talking for the first time during the week:)
     - (continue|Select)
-  - (Condition: Si reproduce la conversación durante las semanas 1 a 3:)
+  - (Condition: If replaying the conversation for weeks 1–3:)
     - (continue|Choose)
-  - (Condition: Si repite la conversación durante las semanas 4 a 6:)
+  - (Condition: If replaying the conversation for weeks 4–6:)
     - (continue|Choose 2)
-  - (Condition: Si reproduce la conversación de la semana 7:)
+  - (Condition: If replaying the conversation for week 7:)
     - (continue|Choose 3)
-- (Condition: Después de la primera vez durante una semana específica o después de la séptima semana:)
+- (Condition: After the first time for a specific week or after the seventh week:)
   - **Thalmund:** ¡Buenos días, Player!
   - **Thalmund:** Ahora, ¿en qué puedo ayudarte?
   - (continue|Select)
@@ -211,14 +211,14 @@
   - [Choice]: Nada, gracias.
     - **Player:** Nada, gracias.
     - **Thalmund:** Muy bien. Espero verte de nuevo.
-- (Condition: Si conversa a las 00:00 o después del día siguiente)
+- (Condition: If conversing at or past 00:00 of the following day)
   - **Thalmund:** Ah, me temo que apenas estoy empezando a empacar mis mercancías. Ven a verme la próxima vez que visite.
 
 ### Trade
 
-- (Condition: Si opera a las 00:00 o después del día siguiente)
+- (Condition: If trading at or past 00:00 of the following day)
   - **Thalmund:** Ah, me temo que apenas estoy empezando a empacar mis mercancías. Ven a verme la próxima vez que visite.
-- (Condition: De lo contrario)
+- (Condition: Otherwise)
   - (opens=Thalmund's Wares)
 
 ### First time logging in on Wednesdays

@@ -52,34 +52,34 @@
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Podemos hablar de asignaciones?
     - **Player:** Necesito otra tarea.
-    - (Condition: Sin cumplir los requisitos:)
+    - (Condition: Without meeting the requirements:)
       - **Laniakea:** Lo siento, pero no eres un cazador lo suficientemente bueno como para que yo te enseñe. Tu mejor trainer sería [slayer master] en [location].
       - Debes tener al menos el nivel 120 en Combate y el nivel 90 en Slayer para entrenar con este Slayer Master.
-    - (Condition: Si ya está en una asignación normal:)
+    - (Condition: If already on a normal assignment:)
       - **Laniakea:** Todavía estás cazando a [monster]; Vuelve cuando hayas terminado tu tarea.
-    - (Condition: Si ya está en la asignación especial de Laniakea:)
+    - (Condition: If already on Laniakea's special assignment:)
       - **Laniakea:** Aún debes completar mi desafío antes de que pueda asignarte otra tarea.
       - **Player:** ¿Qué querías que hiciera otra vez?
       - **Laniakea:** Me he quedado sin viales de veneno de las flores viles que hay por toda la isla. ¿Podrías recoger una gota de veneno de la lampenflora, las hepáticas, los ladrones luminosos y la trampa del diablo? Te recompensaré generosamente.
-    - (Condition: Si no está en una tarea:)
+    - (Condition: If not on an assignment:)
       - {{anchor|regular}} (Condición: Obtener una tarea normal :)
-        - (Condition: El beneficio de capa Slayer master está activado:)
+        - (Condition: Slayer master cape perk is activated:)
           - [Laniakea nota tu capa y te invita a seleccionar tu propia tarea.]
           - (opens=Select your slayer task)
           - (continue|regular-assignment-amount)
-        - (Condition: Solo con entrada VIP Slayer:)
+        - (Condition: With a Slayer VIP ticket only:)
           - [Menu]: ¿Cambiar su tarea Slayer asignada?
             - [Choice]: [Amount] [monsters] (predeterminado)
               - (continue)
             - [Choice]: [Amount] [monsters] (cuesta 1 token Slayer)
               - (continue)
-        - (Condition: Solo está disponible el beneficio de máscara Slayer:)
+        - (Condition: Only the Slayer mask perk is available:)
           - [Menu]: ¿Cambiar su tarea Slayer asignada?
             - [Choice]: [Amount] [monsters] (predeterminado)
               - (continue)
             - [Choice]: [Amount] [monsters] (Máscara Slayer - Una vez al día)
               - (continue)
-        - (Condition: Con un boleto VIP Slayer y el beneficio de máscara Slayer disponible:)
+        - (Condition: With a Slayer VIP ticket and available Slayer mask perk:)
           - [Menu]: ¿Cambiar su tarea Slayer asignada?
             - [Choice]: [Amount] [monsters] (predeterminado)
               - (continue)
@@ -97,7 +97,7 @@
             - **Laniakea:** ¡Buena suerte! No olvides regresar cuando requieras una nueva asignación.
           - [Choice]: No gracias. (Tarea clara, cuesta 30 puntos Slayer)
             - {{Transcript missing}}
-      - (Condition: Obteniendo la tarea especial:)
+      - (Condition: Getting the special assignment:)
         - **Laniakea:** ¿Te gustaría un desafío especial esta vez, en lugar de una tarea normal?
         - [Menu]: Selecciona una opción
           - [Choice]: Muy bien, acepto tu desafío.
@@ -121,9 +121,9 @@
     - **Laniakea:** No lo he hecho. Aunque hay algunas ruinas por aquí que parecen haber sido perturbadas, es muy probable que todavía esté aquí o haya hecho algo aquí. Las que están abiertas conducen a una red subterránea, pero los derrumbes de las cuevas han provocado que los pasillos se bloqueen. Se necesitaría mucha energía para moverse entre los escombros y llegar hasta ellos.
     - **Player:** ¿O magia?
     - **Laniakea:** O magia, pero a menos que conozcas un ejército completo de magos que están disponibles para ayudarnos, no tendremos suerte. Nuestra mejor opción es esperar que algunas de las ruinas selladas alrededor de la isla nos den paso a lo que sea que esté debajo.
-    - (Condition: Si el player está en el campamento base:)
+    - (Condition: If the player is at the base camp:)
       - (end)
-    - (Condition: Si el player está en las ruinas del sureste:)
+    - (Condition: If the player is in the south-eastern ruins:)
       - **Laniakea:** Por ahora, estoy interesado en la puerta en la cima de las ruinas. Está sellado con un antiguo hechizo dragonante.
       - **Player:** ¿Sabes leer el idioma?
       - **Laniakea:** No diría que lo hablo con fluidez, pero he estudiado pergaminos que descubrí y aprendí un poco del idioma.
@@ -195,9 +195,9 @@
         - **Laniakea:** Durante mis años de estudiar diferentes venenos, consideré apropiado beber dosis de cada uno diariamente para desarrollar inmunidad. Ahora podría beber un frasco de los venenos más mortales y no sentir nada.
         - **Player:** ¿Podrías enseñarme cómo hacer estos venenos?
         - **Laniakea:** No lo haré.
-          - (Condition: Si el player no ha completado Ayudando a Laniakea:)
+          - (Condition: If the player has not completed Helping Laniakea:)
             - (ver|Ayudando a Laniakea (minimisión))
-          - (Condition: Si el player ha completado Ayudando a Laniakea:)
+          - (Condition: If the player has completed Helping Laniakea:)
             - (previous)
       - {{anchor|doll}} [Elección]: Cuéntame sobre la muñeca que llevas en el cinturón.
         - **Player:** ¿Cuál es el muñeco que llevas sujeto al cinturón?
@@ -217,7 +217,7 @@
 #### Usando partes de lanza salvaje en ella
 
 - **Player:** ¿Sabes algo sobre estas piezas de lanza que encontré?
-- ((Con todas las partes en backpack:))
+- ((With all parts in backpack:))
   - [Le muestras a Laniakea la punta de la lanza.]
   - **Laniakea:** Esta es una pieza bastante hermosa, es inquietantemente similar a la mía.
   - [Le muestras a Laniakea el asta de la lanza.]
@@ -238,29 +238,29 @@
       - **Player:** ¡Guau! Gracias.
     - [Choice]: No.
       - **Laniakea:** Muy bien. Sabes dónde estoy si cambias de opinión.
-- ((Sin todas las partes en backpack:))
-  - ((Con la punta de lanza en backpack:))
+- ((Without all parts in backpack:))
+  - ((With the spear tip in backpack:))
     - [Le muestras a Laniakea la punta de la lanza.]
     - **Laniakea:** Esta es una pieza bastante hermosa, es inquietantemente similar a la mía.
     - (continue)
-  - ((Con el asta de lanza en backpack:))
+  - ((With the spear shaft in backpack:))
     - [Le muestras a Laniakea el asta de la lanza.]
     - **Laniakea:** Interesante, tiene mucho peso, me imagino que es difícil de usar con precisión.
     - (continue)
-  - ((Con la punta de lanza en backpack:))
+  - ((With the spear cap in backpack:))
     - [Le muestras a Laniakea la tapa de la lanza.]
-    - (Condition: Sin punta de lanza en backpack:)
+    - (Condition: Without a spear tip in backpack:)
       - **Laniakea:** Extraño. Este es del mismo origen que el mío. No entiendo cómo un objeto así pudo llegar a existir en esta isla.
       - (continue)
-    - (Condition: Con punta de lanza en backpack:)
+    - (Condition: With a spear tip in backpack:)
       - **Laniakea:** Este parece ser the partner de la punta de lanza que me mostraste. Están claramente dispuestos a trabajar juntos.
       - (continue)
-  - ((Con el penacho en backpack:))
+  - ((With the plume in backpack:))
     - [Le muestras a Laniakea el penacho.]
     - **Laniakea:** Este diseño es exquisito, sería un gran adorno para un arma.
     - **Laniakea:** Creo que alguna vez pudo haber estado atado a una lanza, muy parecida a la mía.
     - (continue)
-  - ((Con la punta de lanza y el capuchón de lanza en backpack:))
+  - ((With the spear tip and spear cap in backpack:))
     - Le muestras a Laniakea la punta de la lanza.
     - **Laniakea:** Esta es una pieza bastante hermosa, es inquietantemente similar a la mía.
     - Le muestras a Laniakea la tapa de la lanza.
@@ -274,9 +274,9 @@
   - [Choice]: ¿Podemos hablar de asignaciones?
     - (arriba)
   - [Choice]: La puerta en la cima de las ruinas.
-    - (Condition: Si el player no ha completado Raksha, the Shadow Colossus:)
+    - (Condition: If the player has not completed Raksha, the Shadow Colossus:)
       - (ver|Raksha, the Shadow Colossus (misión))
-    - (Condition: Si el player ha completado Raksha, the Shadow Colossus:)
+    - (Condition: If the player has completed Raksha, the Shadow Colossus:)
       - **Laniakea:** No puedo entrar a ese lugar. Duele.
       - **Laniakea:** Debes ir solo Player.
   - [Choice]: Hablemos de ti.

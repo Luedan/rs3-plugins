@@ -19,7 +19,7 @@
   - [Choice]: Quiero unirme a una batalla.
     - **Player:** Quiero unirme a una batalla.
     - **Battlemaster:** Lo estoy buscando ahora...
-    - ((Se abre la interfaz de configuración del campo de batalla del clan.))
+    - ((Clan Battlefield Setup interface opens.))
       - [Choice]: dejar de fumar
         - [Intentando abandonar el campo de batalla...]
         - Entrando a la ciudadela...
@@ -27,19 +27,19 @@
         - No eres la persona que inició esta batalla. Si quieres iniciar una batalla, habla con el maestro de batalla de tu ciudadela.
   - [Choice]: Quiero iniciar una nueva batalla.
     - **Player:** Quiero iniciar una nueva batalla.
-    - (Condition: Si el player tiene permiso para iniciar una batalla:)
+    - (Condition: If the player has permission to start a battle:)
       - {{tmissing}}
-    - (Condition: Si el player no tiene permiso para iniciar una batalla:)
+    - (Condition: If the player doesn't have permission to start a battle:)
       - {{tmissing}}
-    - (Condition: Si el player está en la ciudadela de otro clan:)
+    - (Condition: If the player is in another clan's citadel:)
       - **Battlemaster:** ¡Espera, no estás en este clan! Tendrás que dejar que alguien más comience la batalla.
   - [Choice]: Quiero editar el campo de batalla.
     - **Player:** Quiero editar el campo de batalla.
-    - (Condition: Si el player tiene permiso para editar el campo de batalla:)
+    - (Condition: If the player has permission to edit the battlefield:)
       - {{tmissing}}
-    - (Condition: Si el player no tiene permiso para editar el campo de batalla:)
+    - (Condition: If the player doesn't have permission to edit the battlefield:)
       - {{tmissing}}
-    - (Condition: Si el player está en la ciudadela de otro clan:)
+    - (Condition: If the player is in another clan's citadel:)
       - **Battlemaster:** ¡Espera, no estás en este clan! No puedes editar su campo de batalla.
   - [Choice]: No importa.
     - **Player:** No importa.

@@ -19,30 +19,30 @@ Tenga en cuenta que estos diálogos pueden estar relacionados con una historia o
     - **Player:** Está bien...
     - Le cuentas a Juna algunas historias de tus aventuras.
     - *Consulta la sección Lista de historias a continuación*
-    - (Condition: Si el player puede entrar:)
+    - (Condition: If the player can go in:)
       - **Juna:** Tus historias me han entretenido. Te dejaré entrar a la cueva por un corto tiempo.
-      - (Condition: Si el player no está bajo el efecto de la Iluminación:)
-      - (Condition: Si se invoca una criatura ligera y el player tiene un pergamino de criatura ligera (Iluminación) en su inventario:)
+      - (Condition: If the player is not under the effect of Enlightenment:)
+      - (Condition: If a light creature is summoned and the player has a Light creature scroll (Enlightenment) in their inventory:)
         - **Juna:** Veo que actualmente no estás iluminado, pero tienes una criatura de luz invocada, así como un pergamino que puedes usar en tu inventario.
         - (continue)
-      - (Condition: Si se invoca una criatura de luz y el player tiene al menos un pergamino de criatura de luz (Iluminación) almacenado en su criatura de luz:)
+      - (Condition: If a light creature is summoned and the player has at least one Light creature scroll (Enlightenment) stored in their light creature:)
         - **Juna:** Veo que actualmente no estás iluminado, pero tienes una criatura de luz convocada y la criatura de luz sostiene un pergamino que puede usar.
         - (continue)
-      - (Condition: Si no se invoca una criatura ligera pero el player tiene la habilidad:)
+      - (Condition: If a light creature is not summoned but the player has the ability:)
         - **Juna:** Veo que actualmente no estás iluminado, pero tienes en tu inventario una bolsa de criatura ligera y un pergamino que puedes usar.
         - (continue)
         - [Menu]: ¿Quieres recoger las lágrimas de todos modos?
           - [Choice]: Sí, entiendo que ninguna de las lágrimas que recolecte será duplicada.
             - **Player:** Sí, entiendo que ninguna de las lágrimas que recoja se duplicará.
-            - (Continúa a continuación)
+            - (Continues below)
           - [Choice]: No, gracias, primero me gustaría transmitir la iluminación.
             - **Player:** No, gracias. Primero me gustaría transmitir la iluminación.
             - **Juna:** Como desees, Player.
             - (end)
     - **Juna:** Recoge todo lo que puedas de las corrientes azules. Si dejas entrar agua de los arroyos verdes, se la quitará a los azules. Porque Guthix es el dios del equilibrio, y el equilibrio reside en la yuxtaposición de los opuestos.
-  - (Condition: Si el player no puede entrar porque ya ha acumulado lágrimas esa semana:)
+  - (Condition: If the player cannot go in due to already having collected tears that week:)
     - **Juna:** Tus historias me han entretenido. Pero no permitiré que ningún aventurero acceda a las lágrimas más de una vez por semana. Vuelve en # días.
-  - (Condition: Si el player no puede entrar debido a que se invoca al Clan Avatar:)
+  - (Condition: If the player cannot go in due to Clan Avatar is summoned:)
     - **Juna:** Tus historias me han entretenido, pero la creación de Armadyl que te sigue no entrará en mi cueva. Deséchalo y regresa a mí.
   - [Choice]: cond=If the player is eligible to make an ornate bowl and has talked to Juna about it:|¿Cómo hago el cuenco mejorado?
     - (abajo2|instrucciones-de-tazón-adornado)
@@ -171,18 +171,18 @@ Tenga en cuenta que estos diálogos pueden estar relacionados con una historia o
               - [Choice]: No me gusta cómo suena eso.
                 - **Player:** No me gusta cómo suena eso.
                 - **Juna:** Lo que quieras o no quieras no tiene importancia para los dioses. En cualquier caso, Guthix todavía desea que me ocupe de usted. ¿Me contarás una historia?
-                - (Continúa como de costumbre el diálogo de Tears of Guthix)
+                - (Continues as usual Tears of Guthix dialogue)
               - [Choice]: Eso es un alivio.
                 - **Player:** Eso es un alivio.
                 - **Juna:** Me alegra saber que todavía estás en el camino correcto. En cualquier caso, Guthix todavía desea que me ocupe de usted. ¿Me contarás una historia?
-                - (Continúa como de costumbre el diálogo de Tears of Guthix)
+                - (Continues as usual Tears of Guthix dialogue)
       - [Choice]: Quiero saber cómo te sientes ahora.
         - **Juna:** Serví a Guthix durante más tiempo del que existe la mayoría de las dinastías mortales. Pasé la mayor parte de ese tiempo solo, cumpliendo pacientemente la tarea que me asignó. En ese momento, mis pensamientos y sentimientos se volvieron... retorcidos.
         - **Juna:** Durante siglos, mi único pensamiento fue el amor por mi señor Guthix. Anhelaba que regresara y me bendijera con su mirada divina, para decirme que había sido un buen y fiel servidor. Amaba a Guthix no porque fuera el dios más poderoso o benévolo (aunque era ambas cosas), sino porque era mi dios y me había elegido para ser su sirviente.
         - **Juna:** Cuando vi que Zanik había sido elegida por su dios para ser su sirvienta, y que ella se negó, eso me pareció la mayor blasfemia posible. Ahora veo que, en mi aislamiento, había construido un ídolo falso en mi mente y ya no adoraba al verdadero Guthix. Al desafiar al dios de la guerra, Zanik siguió el verdadero camino de Guthix, y al oponerme a ella... me equivoqué.
         - **Juna:** No he tenido noticias de Zanik desde que murió Guthix. Quizás si la volviera a ver podría perdonarme... pero no sé dónde está ni cuál será su lugar en esta nueva era.
         - **Juna:** No deseo pensar más en esto... ¿Me cuentas una historia?
-        - (Continúa como de costumbre el diálogo de Tears of Guthix)
+        - (Continues as usual Tears of Guthix dialogue)
 
 ### List of stories
 

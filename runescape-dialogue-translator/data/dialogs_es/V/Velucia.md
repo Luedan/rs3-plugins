@@ -33,7 +33,7 @@
     - **Velucia:** ¿Quieres ver mis colecciones o simplemente hablar sobre ellas?
     - [Menu]: ¿Qué te gustaría hacer?
       - [Choice]: Ver colecciones.
-        - ((¡Pertenece a un museo! Se abre la interfaz.))
+        - ((It Belongs in a Museum! interface opens.))
       - [Choice]: Habla de colecciones.
         - **Velucia:** Entonces, ¡me quedo con absolutamente cualquier cosa! En el Museo Varrock no somos quisquillosos. Queremos mostrar cualquier cosa de importancia arqueológica.
         - **Velucia:** Nunca sabemos qué va a atraer al público que paga, y aunque el Archaeology Guild ha recibido nuevos fondos, el museo todavía depende de la venta de entradas.

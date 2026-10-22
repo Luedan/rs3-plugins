@@ -11,7 +11,7 @@
 
 ### Player shooing the scarab
 
-- ((Uno de los siguientes se ve al azar:))
+- ((One of the following is seen randomly:))
   - **Player:** {{RSChat|Get off my flowers!}}
   - **Player:** {{RSChat|Gotcha!}}
   - **Player:** {{RSChat|Hey! Leave them alone!}}

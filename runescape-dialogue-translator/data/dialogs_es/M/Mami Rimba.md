@@ -12,7 +12,7 @@
 ### Talking to Mami Rimba
 
 - **Mami Rimba:** Eh je je... Hola, mi amiguito. Quieres tener en tus manos una punta de perno de bakriminel, ¿no? ¿Estos rayos que paralizan a magos poderosos?
-- (Condition: Si habla con ella por primera vez:)
+- (Condition: If talking to her for the first time:)
   - **Mami Rimba:** Ah, pero Mami Rimba no te ha visto antes, así que tal vez debería contarte sobre estas pequeñas cosas viciosas.
   - **Mami Rimba:** Encuentra los árboles de palo de sangre en los lugares oscuros y peligrosos, córtalos y conviértelos en pernos.
   - **Mami Rimba:** Usa estos rayos para atacar a otros aventureros con una inclinación más mágica y observa cómo estos rayos les quitan su poder.
@@ -41,7 +41,7 @@
     - (previous|options)
   - [Choice]: ¿Cómo hago los pernos?
     - **Mami Rimba:** Ah, estos pernos de bakriminel sí. Corta un árbol de palo de sangre, pero no te alejes mucho de él, porque la madera muere si no estás cerca. Busca la madera, si eres muy hábil.
-    - (Condition: Si el player no tiene al menos 93 Fletching:)
+    - (Condition: If the player does not have at least 93 Fletching:)
       - **Mami Rimba:** De lo cual tú, por lo que veo, no eres.
       - Necesitas una habilidad Fletching de 93 antes de poder conseguir pernos de bakriminel.
     - **Mami Rimba:** Ah, pero aquí está la parte complicada. Debes estar lanzando estos pernos al árbol mismo, de lo contrario la madera que cortes se desmoronará en tus manos.
@@ -105,20 +105,20 @@
     - **Mami Rimba:** Si completas esto, te daré: Un poco de diamante - Pernos Hydrix bakriminel x 25. ¡Estoy seguro de que también ganarás algo de reputación en el gremio de agricultores!
     - **Mami Rimba:** ¡Tendrás que ser rápido!, solo estoy aquí por [número] días, [número] horas y [número] minutos. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - (Condition: Sin tener los artículos solicitados:)
+    - (Condition: Without having the requested items:)
       - **Mami Rimba:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Mami Rimba:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **Mami Rimba:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal] o [Animal].
       - **Mami Rimba:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
-    - (Condition: Con los artículos solicitados:)
-      - (Condition: Con múltiples animales aplicables:)
+    - (Condition: With the requested items:)
+      - (Condition: With multiple applicable animals:)
         - [Menu]: ¿QUÉ ANIMAL TE GUSTARÍA ENTREGAR?
-          - ((Se da la siguiente opción para cada animal aplicable:))
+          - ((The following option is given for each applicable animal:))
             - [Choice]: [Animal name]
               - (continue)
       - (removes=the requested items) (receives=the reward)
       - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
         - (continue)
       - Has recibido: [Reward] x 25<br>Y 13,750 reputación agrícola.
@@ -145,7 +145,7 @@
 
 - (removes=the requested items) (receives=the reward)
 - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Por completar esta solicitud, recibió 3 imprimadores para Brassica.
   - (continue)
 - Has recibido: [Reward] x 25<br>Y 13,750 reputación agrícola.

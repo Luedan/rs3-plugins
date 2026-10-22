@@ -13,15 +13,15 @@
 
 - **Henrietta (cazapollos):** Tengo un pedido especial para [breed]. ¡Especialmente si tiene el rasgo [Trait]!
 - **Henrietta (cazadora de pollos):** Compraré hasta [número] pollos más.
-- ((Repetido para cada pollo en backpack:))
+- ((Repeated for each chicken in backpack:))
   - ¿Le gustaría vender [name] por frijoles [número]?
   - [Menu]: ¿Vender [name] por frijoles [número]?
     - [Choice]: Sí.
-      - ((Si el player tiene un millón de beans:))
+      - ((If the player has a million beans:))
         - ¡Tu bolsa de monedas está llena de frijoles! Necesitas gastar algunos frijoles antes de poder ganar más.
         - **Henrietta (caza gallinas):** No puedes aguantar más frijoles, no puedo comprarte este animal.
         - (continue)
-      - ((Si la transacción le tomara a el player más de un millón de beans:))
+      - ((If transaction would take the player over a million beans:))
         - Esta transacción le llevaría por encima del límite de un millón de frijoles. Al hacerlo, perdería beans [número].
         - [Menu]: ¿Completar la transacción de todos modos?
           - [Choice]: Sí.
@@ -30,18 +30,18 @@
             - ¡Tu bolsa de monedas está llena de frijoles! Necesitas gastar algunos frijoles antes de poder ganar más.
           - [Choice]: No.
             - **Henrietta (caza gallinas):** No puedes aguantar más frijoles, no puedo comprarte este animal.
-      - ((De lo contrario:))
+      - ((Otherwise:))
         - (Action: El animal está vendido.)
         - Frijoles [número] agregados a su bolsa de divisas.
         - (continue)
     - [Choice]: No.
       - (end)
-- ((Si no se vendieran animales:))
+- ((If animals were not sold:))
   - **Player:** Déjame comprobar qué animales tengo que coincidan con tu solicitud.
-- ((Si se vendieran animales:))
-  - ((Si Henrietta aún puede comprar más:))
+- ((If animals were sold:))
+  - ((If Henrietta can still buy more:))
     - (end)
-  - ((Si Henrietta no puede comprar más:))
+  - ((If Henrietta can't buy more:))
     - **Henrietta (caza gallinas):** ¡He comprado suficientes animales para hoy!
     - (Action: Henrietta se teletransporta.)
 
@@ -50,42 +50,42 @@
 - **Henrietta (caza gallinas):** ¿Estás segura de que quieres que me lleve todas las gallinas que tienes? No aceptaré ninguno de tus favoritos.
 - [Menu]: ¿Vender todas tus gallinas?
   - [Choice]: si
-    - ((Con gallinas en backpack:))
-      - ((Si el player tiene un millón de beans:))
-        - ((Se repite para cada animal restante y luego continúa a continuación:))
+    - ((With chickens in backpack:))
+      - ((If the player has a million beans:))
+        - ((Repeated for each remaining animal, then continues below:))
           - ¡Tu bolsa de monedas está llena de frijoles! Necesitas gastar algunos frijoles antes de poder ganar más.
           - **Henrietta (caza gallinas):** No puedes aguantar más frijoles, no puedo comprarte este animal.
         - No tienes animales para vender. ¡Cero animales, cero frijoles!
-      - ((Si la transacción le tomara a el player más de un millón de beans:))
-        - ((Se repite para cada animal que no supere el límite, luego continúa a continuación:))
+      - ((If transaction would take the player over a million beans:))
+        - ((Repeated for each animal not surpassing the cap, then continues below:))
           - (Action: El animal está vendido.)
           - Frijoles [número] agregados a su bolsa de divisas.
-        - ((Se repite para cada animal que queda por vender y luego continúa a continuación:))
+        - ((Repeated for each animal left to sell, then continues below:))
           - Esta transacción le llevaría por encima del límite de un millón de frijoles. Al hacerlo, perdería beans [número].
           - [Menu]: ¿Completar la transacción de todos modos?
             - [Choice]: Sí.
               - (Action: El animal está vendido.)
               - Frijoles [número] agregados a su bolsa de divisas.
               - ¡Tu bolsa de monedas está llena de frijoles! Necesitas gastar algunos frijoles antes de poder ganar más.
-              - ((Se repite para cada animal restante y luego continúa a continuación:))
+              - ((Repeated for each remaining animal, then continues below:))
                 - ¡Tu bolsa de monedas está llena de frijoles! Necesitas gastar algunos frijoles antes de poder ganar más.
                 - **Henrietta (caza gallinas):** No puedes aguantar más frijoles, no puedo comprarte este animal.
-              - ((Si se vendieron varios animales:))
+              - ((If multiple animals were sold:))
                 - Has vendido animales [número] por un total de frijoles [número].
             - [Choice]: No.
               - **Henrietta (caza gallinas):** No puedes aguantar más frijoles, no puedo comprarte este animal.
               - (continue)
-        - ((Si no se vendieron animales:))
+        - ((If no animals were sold:))
           - No tienes animales para vender. ¡Cero animales, cero frijoles!
-        - ((Si se vendieron varios animales:))
+        - ((If multiple animals were sold:))
           - Has vendido animales [número] por un total de frijoles [número].
-      - ((De lo contrario:))
-        - ((Se repite para cada animal que no supere el límite, luego continúa a continuación:))
+      - ((Otherwise:))
+        - ((Repeated for each animal not surpassing the cap, then continues below:))
           - (Action: El animal está vendido.)
           - Frijoles [número] agregados a su bolsa de divisas.
-        - ((Si se vendieron varios animales:))
+        - ((If multiple animals were sold:))
           - Has vendido animales [número] por un total de frijoles [número].
-    - ((Sin gallinas en backpack:))
+    - ((Without chickens in backpack:))
       - No tienes animales para vender. ¡Cero animales, cero frijoles!
   - [Choice]: No
     - (end)

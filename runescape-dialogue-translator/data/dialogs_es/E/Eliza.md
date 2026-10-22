@@ -34,11 +34,11 @@
 
 #### Inicialmente
 
-- (Condition: Si el player no tiene la pieza tótem en backpack:)
+- (Condition: If the player doesn't have the totem piece in backpack:)
   - **Eliza:** ¿Cuál es esa lectura de energía? ¿Has estado en contacto con algún artefacto mágico recientemente?
   - **Player:** ¿Encontré un trozo de tótem en la isla? ¿Podría ser eso?
   - (continue|discovery)
-- (Condition: Si el player tiene la pieza tótem en backpack:)
+- (Condition: If the player has the totem piece in backpack:)
   - **Eliza:** ¿Qué tienes en tu backpack, Player? Está enviando nuestras lecturas de energía fuera del gráfico.
   - **Player:** ¿Te refieres a esto?
   - Muestras a los arqueólogos el tótem que descubriste.

@@ -8,15 +8,15 @@
 
 ## Dialogue Transcript
 
-- (Condition: fuera de combate)
+- (Condition: Out of combat)
   - **Snow mage:** Deja que los guardabosques y los guerreros de las nieves den un paso al frente para luchar. Les mostraré que Magic es el arte más poderoso.
   - (end)
-- (Condition: Si luchas contra un guerrero)
+- (Condition: If fighting a warrior)
   - **Snow mage:** Guerrero tonto. Tu yelmo no te protegerá de mis poderosos hechizos.
   - (end)
-- (Condition: Si peleas contra un guardabosques)
+- (Condition: If fighting a ranger)
   - **Snow mage:** Veamos si tus flechas de hielo vencerán a mis rayos de poder arcano.
   - (end)
-- (Condition: Si luchas contra un mago)
+- (Condition: If fighting a mage)
   - **Snow mage:** En guardia, compañero mago. Veremos quién de nosotros es más fuerte.
   - (end)

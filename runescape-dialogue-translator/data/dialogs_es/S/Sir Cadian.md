@@ -14,7 +14,7 @@
 
 #### Habla con
 
-- ((Sólo la primera vez:))
+- ((Only on the first time:))
   - **Sir Cadian:** Las fuerzas de Zamorak tienen esta parte de la ciudad bajo control. Hemos estado luchando duro, pero no hemos tenido suerte para salir adelante.
   - **Sir Cadian:** Hemos hecho un par de intentos hasta ahora, pero después de la última vez...
   - **Sir Cadian:** No puedo arriesgar a mis tropas en otro asalto, no después de tantas bajas.
@@ -23,7 +23,7 @@
   - **Sir Cadian:** Has hecho mucho, Guardián Mundial. No puedo ir contigo, pero me gustaría ayudarte.
   - **Sir Cadian:** No es mucho, pero con gusto te daré toda la información que tengo. ¿Algo que quieras saber antes de entrar?
   - (continue)
-- ((Después de la primera vez:))
+- ((After the first time:))
   - **Sir Cadian:** Guardián Mundial. ¿Cómo va la pelea?
   - (continue)
 - **SELECCIONA UNA OPCIÓN**

@@ -37,12 +37,12 @@
 
 - **Richie:** Buenos días Player. Es genial verte de nuevo.
 - **Richie:** ¿Estás aquí para compartir más de tu riqueza?
-- (Condition: Sin coins:)
+- (Condition: Without coins:)
   - No tienes coins para regalar.
 - (Condición: Con coins :) {{anchor|withgp}}
   - ¿Cuántos coins te gustaría regalar?<br>Has ayudado a Richie a acumular una riqueza total de [número].<br><br>(0-[100,000,000 minus the already donated amount])<br>[input field]
-  - (Condition: Introduciendo un importe positivo:)
-    - (Condition: Si se ingresó un número superior a 100.000, se muestra lo siguiente en una interfaz titulada 'CONFIRMACIÓN':)
+  - (Condition: Entering a positive amount:)
+    - (Condition: If a number over 100,000 was entered, the following is shown in an interface titled 'CONFIRMATION':)
       - Estás a punto de regalar [número] coins.<br><br>¿Quieres continuar?
         - [Choice]: CANCELAR
           - (end)
@@ -50,7 +50,7 @@
           - (continue)
     - (removes=coins)
     - **Richie:** Player, ¡me has ayudado a acumular una riqueza total de [número]!
-    - (Condition: Si la suma total donada alcanzó 100.000.000 coins:)
+    - (Condition: If the total donated sum reached 100,000,000 coins:)
       - **Richie:** Como sabes claramente cómo aumentar tu riqueza, ¡he decidido unirme a ti en tus aventuras!
       - (Action: Richie desaparece del Grand Exchange.)
       - Has desbloqueado la mascota: 'Richie'.

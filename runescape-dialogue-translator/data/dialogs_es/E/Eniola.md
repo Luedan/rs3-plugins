@@ -11,17 +11,17 @@
 
 ### Bank
 
-- ((Se abre la interfaz de pago de runas.))
-- (Condition: Si el player tiene suficientes runas del tipo elegido:)
+- ((The rune payment interface opens.))
+- (Condition: If the player has enough runes of the chosen type with them:)
   - (removes=20 of the selected rune)
   - (opens=Bank)
-- (Condition: Si el player no tiene suficientes runas del tipo elegido:)
+- (Condition: If the player does not have enough runes of the chosen type with them:)
   - **Eniola:** Me temo que no tienes las runas necesarias contigo en este momento, por lo que no puedo permitirte acceder a tu cuenta. Traiga veinte runas de un tipo y podrá abrir su cuenta.
 
 ### Talk to
 
 - **Eniola:** ¡Bien conocido, compañero aventurero! ¿Le puedo ayudar en algo?
-- (Condition: Si el player tiene elementos que puede recolectar de Grand Exchange:)
+- (Condition: If the player has items they can collect from the Grand Exchange:)
   - **Eniola:** Antes de continuar, debo informarle que tiene artículos listos para ser recogidos en Grand Exchange.
   - (continue)
 - [Menu]: ¿Qué te gustaría decir?
@@ -68,9 +68,9 @@
 
 ### Collect
 
-- ((Se abre la interfaz de pago de runas.))
-- (Condition: Si el player tiene suficientes runas del tipo elegido:)
+- ((The rune payment interface opens.))
+- (Condition: If the player has enough runes of the chosen type with them:)
   - (removes=20 of the selected rune)
   - (opens=Collection box)
-- (Condition: Si el player no tiene suficientes runas del tipo elegido:)
+- (Condition: If the player does not have enough runes of the chosen type with them:)
   - **Eniola:** Me temo que no tienes las runas necesarias contigo en este momento, por lo que no puedo permitirte acceder a tu cuenta. Traiga veinte runas de un tipo y podrá abrir su cuenta.

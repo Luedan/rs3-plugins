@@ -35,21 +35,21 @@
   - [Choice]: cond=If the player is eligible for the classic cape:|Estoy aquí para hablar de lo que estás tejiendo.
     - **Player:** Estoy aquí para hablar de lo que estás tejiendo.
     - **Iffie:** ¿Esto? He estado tejiendo todo tipo de cosas, principalmente cosas que me recuerdan los buenos tiempos.
-    - (Condition: Condición desconocida:)
+    - (Condition: Condition unknown:)
       - **Iffie:** Puede que seas más joven que yo, pero ¿quizás también quieras una capa que te recuerde a los viejos tiempos?
       - (continue)
-    - (Condition: Condición desconocida:)
+    - (Condition: Condition unknown:)
       - **Iffie:** Y veo que eres un veterano de los viejos tiempos. ¿Te gustaría una capa que te recuerde los viejos tiempos?
       - (continue)
     - **Iffie:** Tejer tiene un precio: requiere bastante esfuerzo y materiales. ¿Te parece bien 50.000 coins, querida?
     - [Menu]: ¿Pagar 50.000 por una capa clásica?
       - [Choice]: ¡Me llevaré uno!
         - **Player:** ¡Me quedo con uno!
-        - (Condition: Si el player no tiene suficiente coins:)
+        - (Condition: If the player does not have enough coins:)
           - **Iffie:** Eso está bien, pero no tienes suficiente dinero para la capa.
-        - (Condition: Si el player no tiene espacio en backpack:)
+        - (Condition: If the player does not have space in backpack:)
           - **Iffie:** Eso está bien, pero no tienes espacio en tu inventario para la capa y la capucha.
-        - (Condition: Si el player tiene suficiente coins:)
+        - (Condition: If the player has enough coins:)
           - (removes=50,000 coins) (receives=classic cape and classic hood)
           - **Iffie:** Gracias. ¡Disfrutar!
       - [Choice]: No, gracias.
@@ -103,11 +103,11 @@
 - **Iffie:** Oh, gracias a Dios. Todos estos extraños extraños aparecen, esperando que actuemos.
 - **Iffie:** Supongo que ha pasado un tiempo desde que dejaron de venir. Al menos tenía alguien con quien hablar...
 - {{RSFontAchievement|So Random|Perform the 'Glass Wall' emote while wearing the full Mime outfit inside of Thessalia's Fine Clothes in Varrock.}}
-- ((Se muestra en una ventana emergente de finalización de tarea:))
+- ((Shown in a task completion pop-up:))
   - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
   - tan aleatorio
   - Realiza el gesto 'Glass Wall' mientras usas el atuendo completo de Mime dentro de Fine Clothes de Thessalia en Varrock.
   - (continue)
 - **Iffie:** Nunca sabes lo que te perderás hasta que desaparece.
-- (Condition: Si se han completado todas las tareas:)
+- (Condition: If all the tasks have been completed:)
   - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!

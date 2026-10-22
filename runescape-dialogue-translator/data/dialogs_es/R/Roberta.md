@@ -11,10 +11,10 @@
 
 ### Talk to
 
-- (Condition: Antes de obtener Sobre el origen de los centauros:)
+- (Condition: Before obtaining On the Origin of Centaurs:)
   - **Roberta:** Oye, ¿puedes ayudarme? Excavé la cueva hacia el sur mientras buscaba artefactos. Contiene un tipo de arcilla raro y precioso, pero carezco de la experiencia y el equipo para extraer la porcelana yo mismo.
   - (continue)
-- (Condition: Después de obtener Sobre el origen de los centauros:)
+- (Condition: After obtaining On the Origin of Centaurs:)
   - Muchas gracias por ayudarme, ¡eres el mejor! Espero que te lo pases genial leyendo el libro.
   - (continue)
 - [Menu]: Elija una opción:|anchor=Roberta-options
@@ -28,19 +28,19 @@
     - **Roberta:** La porcelana puede producir cerámica fuerte y hermosa, pero requiere una mano experta y un pico fuerte para extraerla.
     - (initial|Roberta-options)
   - [Choice]: Look at all this porcelain clay I've mined!|cond=Con arcilla porcelánica en backpack:
-    - (Condition: Con menos de 100 arcillas de porcelana en backpack antes de obtener El origen de los centauros:)
+    - (Condition: With less than 100 porcelain clay in backpack before obtaining On the Origin of Centaurs:)
       - **Roberta:** ¡Guau! ¡[número] es impresionante! ¿Puedes traerme 100 de arcilla porcelana? Te daré mi libro a cambio.
       - (initial|Roberta-options)
-    - (Condition: Con al menos 100 de arcilla porcelánica en backpack antes de obtener El origen de los centauros:)
+    - (Condition: With at least 100 porcelain clay in backpack before obtaining On the Origin of Centaurs:)
       - **Roberta:** ¡Guau! ¡[número] es impresionante!
       - **Roberta:** Puedes quedarte con el libro que encontré a cambio de 100 arcilla de porcelana.
-      - (Condition: Sin un espacio backpack libre:)
+      - (Condition: Without one free backpack space:)
         - **Roberta:** Sin embargo, necesitas un espacio libre en tu backpack para poder darte el libro.
-      - (Condition: Con un espacio backpack gratuito:)
+      - (Condition: With one free backpack space:)
         - (removes=100 porcelain clay) (receives=On the Origin of Centaurs)
         - [pic=Sobre el origen de los centauros detail.png]
         - (initial|Roberta-options)
-    - (Condition: Después de obtener Sobre el origen de los centauros:)
+    - (Condition: After obtaining On the Origin of Centaurs:)
       - **Roberta:** ¡La arcilla para porcelana [número] es impresionante! Aunque no tengo nada más que darte a cambio.
       - (initial|Roberta-options)
   - [Choice]: Adiós.

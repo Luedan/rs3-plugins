@@ -28,7 +28,7 @@
 - **Mod Raven:** De todos modos, basta de charla ociosa. Aquí hay almas perdidas y tengo una cuchara nueva y reluciente.
 - (Si el player aún no ha recibido almas para esta interacción:)
   - 25 almas vuelan para impulsar el barco.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - 25 almas vuelan para impulsar el barco.
     - (continue)
 - **Mod Raven:** ¡Hora de cenar!

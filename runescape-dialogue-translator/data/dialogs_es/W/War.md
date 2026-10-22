@@ -88,13 +88,13 @@
         - **War:** Cuantas más tareas completes, más recompensas te otorgaré.
         - (previous|Combat-Mastery)
       - [Choice]: Muéstrame las tareas de Maestría en combate que puedo realizar.
-        - ((La interfaz de logros de combate se abre en el primer grupo de logros de Combat Master disponible.))
+        - ((Combat achievements interface opens to the first available Combat Master achievement group))
       - [Choice]: cond=If the player has unlocked War's Blessing 4 and has not claimed the rewards:|¿Tienes alguna recompensa para mí?
         - **War:** Bien hecho Player, he reservado algunas recompensas para ti.
-        - (Condition: Si el player no tiene al menos dos espacios backpack libres:)
+        - (Condition: If the player does not have at least two free backpack spaces:)
           - **War:** Pero lamentablemente no tienes espacio para ellos.
           - (previous|Combat-Mastery)
-        - (Condition: Si el player tiene al menos dos espacios backpack libres:)
+        - (Condition: If the player has at least two free backpack spaces:)
           - Gizmo Shell de armadura antigua de (receives=War's Ancient Weapon Gizmo Shell (Costless) y War (sin costo)
           - (previous|Combat-Mastery)
       - [Choice]: Adiós.
@@ -106,13 +106,13 @@
     - **Player:** ¿Luchar?
     - **War:** ¡BATALLA GLORIOSA!
     - **Player:** ¿Podrías ser un poco más específico?
-    - (Condition: Si el player no mata a ningún jefe:)
+    - (Condition: If the player has no boss kills:)
       - **War:** Veo que eres bastante nuevo en esto, así que señalaré algunos buenos lugares para comenzar, Proyecto.
       - **War:** Los hermanos Barrows de Morytania llevan mucho tiempo muertos y enterrados, pero eso no significa que no puedan luchar.
       - **War:** Los jardineros del parque Falador han tenido problemas con un topo gigante; sería una buena primera cacería para un guerrero novato.
       - **War:** Si te aventuras al norte de Burthorpe hacia las tierras de los trolls, podrás encontrar el lugar de una antigua batalla de los dioses. Debería ser divertido entrenar con los generales de este llamado God Wars Dungeon.
       - (continue)
-    - (Condition: Si el player ya tiene jefes eliminados:)
+    - (Condition: If the player already has boss kills:)
       - **War:** ¡Derrota a criaturas poderosas! ¡Gánate mi favor! ¡Sea recompensado!
       - (continue)
     - **War:** Lucha contra los jefes y te daré puntos, devuélvemelos para obtener recompensas.
@@ -292,11 +292,11 @@
         - **War:** ¡Por supuesto, Proyecto! ¿Cuantos quieres?
         - [Menu]: ¿Cuántos te gustaría comprar?
           - [Choice]: Uno.
-            - ((Se abre la interfaz de compra de Challenge Gem (x1) por 10 RuneCoins))
+            - ((Purchase interface opens up for Challenge Gem (x1) for 10 RuneCoins))
           - [Choice]: Tres.
-            - ((Se abre la interfaz de compra de Challenge Gem (x3) por 25 RuneCoins))
+            - ((Purchase interface opens up for Challenge Gem (x3) for 25 RuneCoins))
           - [Choice]: Seis.
-            - ((Se abre la interfaz de compra de Challenge Gem (x6) por 40 RuneCoins))
+            - ((Purchase interface opens up for Challenge Gem (x6) for 40 RuneCoins))
           - [Choice]: Ninguno, cambié de opinión.
             - **Player:** Ninguno, he cambiado de opinión.
             - **War:** No temas, ahora sabes dónde encontrarlos Proyecto. ¿Algo más?
@@ -308,14 +308,14 @@
   - [Choice]: Decantar viales
     - [Menu]: ¿En cuántas dosis quieres decantar?
       - [Choice]: una dosis
-        - (Condition: Si el player no tiene viales viables de pociones para decantar:)
+        - (Condition: If the player has no viable vials of potions to decant:)
           - **War:** ¡No tienes nada que decantar!
-        - (Condition: Si el player no tiene espacio backpack:)
+        - (Condition: If the player has no backpack space:)
           - Buscando...
           - **War:** Tu inventario está demasiado lleno para que pueda hacer algo por ti.
-        - (Condition: Si el player tiene viales viables de pociones para decantar:)
+        - (Condition: If the player has viable vials of potions to decant:)
           - Buscando...
-          - (Condition: Si se compraron viales adicionales de War:)
+          - (Condition: If additional vials were purchased from War:)
             - (receives=vials) (removes=two coins for each vial)
             - (continue)
           - **War:** Ahí lo tienes, amigo.
@@ -326,31 +326,31 @@
       - [Choice]: Cuatro dosis
         - (above|decant-vials)
   - [Choice]: Decantar matraces
-    - (Condition: Si el player tiene matraces para decantar:)
+    - (Condition: If the player has flasks to decant:)
       - **War:** Veamos qué tienes. Decantaré sus frascos de poción nuevamente en 6 frascos dosificados. Puedo hacer uso de los frascos, así que los aceptaré como pago.
       - (Action: War decanta tantas como puede hasta llenar frascos de 6 dosis)
       - **War:** Aquí tienes. ¡Eso es lo mejor que puedo hacer! Si los matraces no se ven muy diferentes, les di un clean{{Sic}}
-    - (Condition: Si el player no tiene frascos viables de pociones para decantar:)
+    - (Condition: If the player has no viable flasks of potions to decant:)
       - **War:** Lo siento, parece que no tienes nada que pueda usar. ¡Asegúrate de tener 2 matraces que no estén completamente llenos!
   - [Choice]: Convertir viales en matraces
-    - (Condition: Si el player tiene matraces vacíos en backpack:)
+    - (Condition: If the player has empty flasks in backpack:)
       - **War:** Veamos qué tienes. Decantaré los viales de poción y todos los frascos con hasta 4 dosis en frascos de 6 dosis. Tendrás que proporcionar los matraces vacíos tú mismo; no son baratos.
       - (Action: War decanta tantas pociones como puede hasta llenar frascos de 6 dosis)
       - **War:** Aquí tienes. ¡Eso es lo mejor que puedo hacer!
-    - (Condition: Si el player no tiene matraces vacíos en backpack:)
+    - (Condition: If the player has no empty flasks in backpack:)
       - **War:** Tendrás que proporcionar los matraces vacíos tú mismo; no son baratos. Puedes traérmelos anotados o sin anotaciones.
   - [Choice]: Convertir matraces en viales
-    - (Condition: Si el player tiene frascos de pociones para decantar en viales:)
+    - (Condition: If the player has flasks of potions to decant to vials:)
       - **War:** Por supuesto. Creo que puedo utilizar los matraces, así que te daré los viales gratis.
       - (Action: War decanta tantas pociones como puede en viales destacados.)
       - **War:** Ahí lo tienes, ¡eso es lo mejor que puedo hacer!
-    - (Condition: Si el player no tiene frascos viables de pociones para decantar:)
+    - (Condition: If the player has no viable flasks of potions to decant:)
       - **War:** Lo siento, parece que no tienes nada que pueda usar. ¡Asegúrate de tener al menos 1 matraz!
   - [Choice]: combinar medusas
-    - (Condition: Si el player tiene medusas viables para combinar:)
+    - (Condition: If the player has viable jellyfish to combine:)
       - (Action: Las medusas se combinan siempre que sea posible.)
       - **War:** Ahí lo tienes.
-    - (Condition: Si el player no tiene medusas viables para combinar:)
+    - (Condition: If the player has no viable jellyfish to combine:)
       - **War:** Lo siento, no sé cómo combinar nada de lo que llevas.
   - [Choice]: Cancelar
     - (end)

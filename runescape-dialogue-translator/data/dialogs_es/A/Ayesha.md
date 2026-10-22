@@ -59,19 +59,19 @@
 - [Menu]: Elige una opción:
   - [Choice]: ¿Cuidarías mis cultivos por mí?
     - **Player:** ¿Cuidarías mis cultivos por mí?
-    - (Condition: Si el player no tiene cultivos en el parche:)
+    - (Condition: If the player has no crops in the patch:)
       - **Ayesha:** No tienes nada plantado en ese parche. Planta algo y tal vez acepte cuidarlo por ti.
-    - (Condition: Si el player tiene cultivos completamente desarrollados plantados en el parche:)
+    - (Condition: If the player has fully grown crops planted in the patch:)
       - **Ayesha:** ¡Ese parche ya está completamente desarrollado! ¡No sé qué quieres que haga con él!
-    - (Condition: Si los cultivos en el parche aún no están completamente desarrollados pero el player ya le pagó al jardinero:)
+    - (Condition: If the crops in the patch are not yet fully grown but the player has already paid the gardener:)
       - **Ayesha:** No sé de qué estás hablando. Ya estoy cuidando ese parche por ti.
       - **Player:** Oh, lo siento, lo olvidé.
-    - (Condition: Si los cultivos en el parche aún no han crecido completamente:)
+    - (Condition: If the crops in the patch are not yet fully grown:)
       - **Ayesha:** Si quieres, pero quiero [número] [item] para eso.
-      - (Condition: Si el player no tiene los elementos requeridos:)
+      - (Condition: If the player does not have the required items:)
         - **Player:** Me temo que no tengo suficientes en este momento.
         - **Ayesha:** Bueno, no voy a perder el tiempo gratis.
-      - (Condition: Si el player tiene los elementos requeridos:)
+      - (Condition: If the player has the required items:)
         - [Menu]: Selecciona una opción
           - [Choice]: Está bien, es un trato.
             - **Player:** Está bien, es un trato.
@@ -106,9 +106,9 @@
   - [Choice]: Alguna cura vegetal.
     - **Player:** Alguna cura vegetal.
     - **Ayesha:** Cura vegetal, ¿eh? Quizás tenga algo reservado para mí. Te diré una cosa, te venderé una cura vegetal por 25 po si quieres.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - **Player:** Me temo que no tengo suficiente dinero para eso.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, parece un precio justo.
           - **Player:** Sí, parece un precio justo.
@@ -118,9 +118,9 @@
   - [Choice]: Un balde de abono.
     - **Player:** Un balde de abono.
     - **Ayesha:** Un balde de abono, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 35 po si quieres.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - **Player:** Me temo que no tengo suficiente dinero para eso.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, parece un precio justo.
           - **Player:** Sí, parece un precio justo.
@@ -130,9 +130,9 @@
   - [Choice]: Un rastrillo.
     - **Player:** Un rastrillo.
     - **Ayesha:** Un rastrillo, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 15 po si quieres.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - **Player:** Me temo que no tengo suficiente dinero para eso.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, parece un precio justo.
           - **Player:** Sí, parece un precio justo.
@@ -144,9 +144,9 @@
       - [Choice]: una regadera
         - **Player:** Una regadera.
         - **Ayesha:** Una regadera, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 25 po si quieres.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Me temo que no tengo suficiente dinero para eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - [Menu]: Selecciona una opción
             - [Choice]: Sí, parece un precio justo.
               - **Player:** Sí, parece un precio justo.
@@ -156,9 +156,9 @@
       - [Choice]: Una paleta de jardinería
         - **Player:** Una paleta de jardinería.
         - **Ayesha:** Una paleta de jardín, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 15 po si quieres.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Me temo que no tengo suficiente dinero para eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - [Menu]: Selecciona una opción
             - [Choice]: Sí, parece un precio justo.
               - **Player:** Sí, parece un precio justo.
@@ -168,9 +168,9 @@
       - [Choice]: Un zambullidor de semillas
         - **Player:** Un arrancador de semillas.
         - **Ayesha:** Un zambullidor de semillas, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 15 po si quieres.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Me temo que no tengo suficiente dinero para eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - [Menu]: Selecciona una opción
             - [Choice]: Sí, parece un precio justo.
               - **Player:** Sí, parece un precio justo.

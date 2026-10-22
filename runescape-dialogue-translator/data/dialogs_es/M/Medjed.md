@@ -33,7 +33,7 @@
 - **Medjed:** Pero no puedo irme de este lugar, no sin suficiente... compensación.
 - **Player:** ¿Qué quieres?
 - **Medjed:** ¡Almas! ¡Tráeme trece! ¡Bendeciré tu oasis con mi presencia divina!
-- ((Si el player tiene 13 runas de alma:))
+- ((If the player has 13 soul runes:))
   - **Player:** Tengo trece almas aquí mismo.
   - **¿DARLE A MEDJED 13 RUNAS DEL ALMA?**
     - Sí.

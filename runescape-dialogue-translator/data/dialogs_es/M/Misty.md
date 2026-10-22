@@ -27,17 +27,17 @@
 ### Encounter Info
 
 - **Player:** ¿Ha sucedido algo interesante aquí recientemente?
-- (Condition: Sin un encuentro activo:)
+- (Condition: Without an active encounter:)
   - **Misty:** No, he estado observando de cerca y no ha sucedido nada para [time].
-- (Condition: Con un encuentro activo:)
+- (Condition: With an active encounter:)
   - **Misty:** ¡Echa un vistazo! Este [Event] ha estado aquí durante [time].
-- (Condition: Con un encuentro a punto de comenzar:)
+- (Condition: With an encounter just about to start:)
   - **Misty:** ¡Mira, parece que algo interesante está empezando a suceder ahora mismo!
   - **Misty:** ¡Echa un vistazo! Este [Event] ha estado aquí durante [time].
 
 ### Travelling Merchant Stock
 
-- ((Se abre la interfaz Tienda (Vista previa) de Travelling Merchant.))
+- ((Travelling Merchant's Shop (Preview) interface opens.))
 
 ### Random events
 

@@ -11,7 +11,7 @@
 
 ### Take
 
-- ((Uno de los siguientes se mostró al azar))
+- ((One of the following was displayed at random))
   - Cuando tocas el sombrero de fiesta, piensas... que el rojo me quedaría mejor.
   - Si bailas tres veces, ve al norte, ve al sur, dile a el player a tu izquierda que los amas y haz clic en el sombrero de fiesta nuevamente para poder recogerlo.
   - Sigue intentándolo, tal vez, sólo tal vez, eventualmente... podría funcionar.

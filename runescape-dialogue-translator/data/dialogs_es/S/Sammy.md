@@ -12,7 +12,7 @@
 ### Talk to
 
 - **Sammy:** ¡Bien conocido, amigo!
-- ((Sólo la primera vez:))
+- ((Only on first time:))
   - 25 almas vuelan para impulsar el barco.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - 25 almas vuelan para impulsar el barco.

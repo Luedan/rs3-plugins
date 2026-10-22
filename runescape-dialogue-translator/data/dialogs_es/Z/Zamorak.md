@@ -12,12 +12,12 @@
 
 ### In Black Knights' Fortress before Sliske's Endgame
 
-- (Condition: Antes de completar la Muerte Presunta Desaparecida:)
+- (Condition: Before completion of Missing, Presumed, Death:)
   - **Zamorak:** ¡Encoge de miedo ante mí, mortal! ¡Bwahahahahaaa!
   - **Zamorak:** ¿Es eso lo que esperabas? ¿El 'dios del mal' coincide con tus expectativas? ¿Soy aterrador de contemplar? La verdad es que no considero que el mal sea una búsqueda que valga la pena, pero tampoco lo considero relevante. Es un término dado por personas de mente cerrada para etiquetar un mundo en tonos de blanco y negro, lo correcto y lo incorrecto. Pero tú y yo sabemos que el mundo es más que eso. No es blanco y negro, ni siquiera tonos de gris. La moralidad, como el mundo, es una miríada de colores en una amplia gama de matices y matices. Mi filosofía es "la fuerza del caos y la adversidad". Se trata de superarse a uno mismo superando obstáculos. Los otros dioses te harían seguir reglas estáticas y vivir una vida tan inmutable como la piedra. Mi camino es mejor.
   - **Player:** Entonces, ¿por qué has aparecido aquí ahora?
   - **Zamorak:** Porque algo viene. Siento que los hilos del destino se tensan en todo el mundo. retorciéndose y anudándose. atrapándonos a todos. Escucho risas en las sombras... He escuchado esa risa antes y rara vez termina bien.
-- (Condition: Después de completar Desaparecido, Presunto, Muerte:)
+- (Condition: After completion of Missing, Presumed, Death:)
   - **Zamorak:** Hola guardián del mundo. Perdónenme por esta escena bastante dramática, a veces hace falta un poco de teatro para llamar la atención de la gente. El teatro es algo en lo que Sliske siempre ha sido bastante bueno. Incluso este 'juego' suyo está ambientado durante un eclipse. Un evento "único en la vida de un mortal". Es el disfraz perfecto.
   - **Player:** ¿Disfraz de qué?
   - **Zamorak:** Con Sliske todo siempre está disfrazado. Lo presenta como un juego, pero no es menos que una carrera armamentista de proporciones divinas. Alguien ganará la piedra; el dispositivo más potente que existe. Los otros dioses no se quedarán sentados y permitirán eso. Entonces nos estamos reuniendo todos. Todos preparándose para el enfrentamiento final. Aunque sabemos que puede significar nuestra muerte.

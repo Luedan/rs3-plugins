@@ -41,7 +41,7 @@
     - **Honest Jimmy** Puede que sí, ¿tienes algo para mí?
     - **Player** ¿Cómo qué?
     - **Honest Jimmy** Como... ¿200 piezas de ocho?
-    - (Condition: Si el player tiene al menos 200 piezas de ocho:)
+    - (Condition: If the player has as least 200 pieces of eight:)
       - **Player** Podría tener 200 piezas de ocho con tu nombre si tienes un mapa para mí.
       - **Honest Jimmy** Mira, puede que tenga algo para ti por esa cantidad de efectivo, pero tendré que comprobarlo.
       - **Honest Jimmy** ¿Seguro que quieres participar en esto?
@@ -49,12 +49,12 @@
         - [Choice]: Sí.
           - *Si el player ha alcanzado su límite de pergamino de pistas sellado (medio):*
             - **Honest Jimmy** Parece que ya tienes suficiente. ¿Por qué no intentas completar algunos y luego vuelves conmigo?
-          - (Condition: Si el player no ha alcanzado su límite de pergamino de pistas sellado (medio):)
+          - (Condition: If the player has not reached their cap of sealed clue scroll (medium):)
             - {{Transcript missing}}
         - [Choice]: No.
           - **Player** No.
           - **Honest Jimmy** ¡Entonces tira el gancho!
-    - (Condition: Si el player no tiene al menos 200 piezas de a ocho:)
+    - (Condition: If the player does not have at least 200 pieces of eight:)
       - **Player** Bueno, no, pero...
       - **Honest Jimmy** Mira, ¿quieres algo o no?
       - [Menu]: Selecciona una opción

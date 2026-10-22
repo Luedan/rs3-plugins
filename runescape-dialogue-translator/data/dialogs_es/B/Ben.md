@@ -25,7 +25,7 @@
 
 ### After unlocking 'Accidental' Fletching and Firemaking
 
-- ((Antes de comenzar a progresar en Egg McGuffin:))
+- ((Before starting progress on Egg McGuffin:))
   - **Ben:** Ah, hola. ¡Soy Ben, un estilista zigopoderoso!
   - (continue)
 - Elige una opción:
@@ -50,25 +50,25 @@
     - (previous|Ben-options)
   - [Hablar de ayudar en el salón.]
     - **Player:** ¿Cómo puedo ayudarte a gestionar tu nuevo salón?
-    - ((Con menos de 82 Fletching:))
+    - ((With less than 82 Fletching:))
       - **Ben:** Tus vides no parecen lo suficientemente fuertes para ayudar en el salón.
       - **Player:** El tuyo tampoco...
-      - ((Se muestra en una ventana emergente:))
+      - ((Shown in a pop-up:))
         - Necesita 82 Fletching o Firemaking para cortar o secar las cutículas de zigomita.
         - (continue)
       - (previous|Ben-options)
-    - ((Con al menos 82 Fletching:))
-      - ((La primera vez:))
+    - ((With at least 82 Fletching:))
+      - ((On the first time:))
         - (Action: La cámara se desplaza hacia los cigomitas desaliñados.)
         - **Ben:** ¡Podrías ser mi aprendiz! Corta o seca las cutículas de un cliente en nuestros sillones de cuidado de lujo.
         - **Player:** Supongo que te refieres a los medios barriles.
         - (Action: La cámara vuelve a la normalidad.)
         - **Ben:** ¡Sí! ¡Córtales o sécales las cutículas y tráeme algunas para demostrar que puedes hacerlo!
         - (previous|Ben-options)
-      - ((Después de la primera vez sin eje fúngico templado:))
+      - ((After the first time without a tempered fungal shaft:))
         - **Ben:** ¿Dónde están las cutículas?
         - Necesitas recolectar algunos ejes de hongos templados del cuidado del zigomita para mostrar Ben.
-      - ((Con un eje fúngico templado pero antes de haber completado Egg McGuffin:))
+      - ((With a tempered fungal shaft but before having completed Egg McGuffin:))
         - Se muestran ejes fúngicos templados Ben.
         - **Ben:** Sí, eso es exactamente lo que esperaba ver.
         - (Action: La cámara se desplaza hacia los cigomitas desaliñados.)
@@ -91,7 +91,7 @@
         - {{RSFontAchievement|Egg McGuffin}}
         - **Ben:** Tú también estás empezando a gustarme más.
         - (previous|Ben-options)
-      - ((Después de haber completado Egg McGuffin:))
+      - ((After having completed Egg McGuffin:))
         - (Action: La cámara se desplaza hacia los cigomitas desaliñados.)
         - **Ben:** Deberías poder conseguir muchos tallos de hongos templados cortando y secando las cutículas de todos mis clientes.
         - (Action: La cámara vuelve a la normalidad.)
@@ -116,9 +116,9 @@
     - **Ben:** Me quedaré quieto por ahora.
     - **Player:** Haz lo que quieras.
     - (previous|Ben-options)
-  - ((Solo después de comenzar el progreso de Potting Is Such Sweet Sorrow:))
+  - ((Only after starting progress for Potting Is Such Sweet Sorrow:))
     - [Habla sobre la olla mágica de Bill]
-      - ((Sólo la primera vez:))
+      - ((Only on the first time:))
         - **Player:** Tu hermano quiere que le devuelvas su olla mágica.
         - **Ben:** ¿Qué me vas a dar?
         - **Player:** Esto no es una negociación.
@@ -140,10 +140,10 @@
         - ¿Una maceta?
           - **Ben:** ¡Sí! Maceta vacía. Sin suciedad.
           - **Ben:** He reunido mi propia suciedad sobre Bill.
-      - ((Después de la primera vez sin maceta vacía o llena y antes de haber recibido la maceta mágica:))
+      - ((After the first time without an empty or filled plant pot and before having received the magic pot:))
         - **Player:** Como soy un ser humano racional, no ando con una maceta de repuesto. Vuelvo enseguida.
         - (previous|Ben-options)
-      - ((Después de la primera vez con la maceta llena y antes de haber recibido la maceta mágica:))
+      - ((After the first time with a filled plant pot and before having received the magic pot:))
         - **Player:** Tengo una maceta para ti. Sólo necesita un poco de vaciado.
         - **Ben:** ¡Dije 'sin suciedad'!
         - **Player:** Oh, continúa.
@@ -159,23 +159,23 @@
         - (removes=plant pot) (receives=magic pot)
         - Ben reemplaza la maceta mágica con la maceta vacía y te regala la maceta mágica de Bill.
         - **Ben:** Todo el mundo está contento. Dale esa olla mágica a Bill.
-      - ((Después de la primera vez con una maceta vacía y antes de haber recibido la maceta mágica:))
+      - ((After the first time with an empty plant pot and before having received the magic pot:))
         - **Player:** Resulta que tengo una maceta vacía para ti aquí mismo.
         - (removes=plant pot) (receives=magic pot)
         - Ben reemplaza la maceta mágica con la maceta vacía y te regala la maceta mágica de Bill.
         - **Ben:** Todo el mundo está contento. Dale esa olla mágica a Bill.
-      - ((Después de haber recibido la olla mágica pero haberla perdido:))
-        - ((Sin espacio libre en backpack:))
+      - ((After having received the magic pot but having lost it:))
+        - ((Without free space in backpack:))
           - **Ben:** Encontré la olla mágica. Lo daría, pero tu backpack está lleno.
           - (previous|Ben-options)
-        - ((Con espacio libre en backpack:))
+        - ((With free space in backpack:))
           - (receives=magic pot)
           - **Ben:** Vaya. Aquí está la olla mágica. Dáselo a Bill.
           - (previous|Ben-options)
-      - ((Con la olla mágica:))
+      - ((With the magic pot:))
         - **Ben:** Todo el mundo está contento. Dale esa olla mágica a Bill.
         - (previous|Ben-options)
-      - ((Después de haber completado Hacer macetas es un dolor tan dulce:))
+      - ((After having completed Potting Is Such Sweet Sorrow:))
         - **Player:** ¿Qué estás cultivando en esa maceta?
         - **Ben:** Flor.
         - **Player:** Parece más bien malas hierbas en suelo húmedo.

@@ -15,7 +15,7 @@
 #### Sin ectoplasma
 
 - No tienes nada que entregar.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - No tienes nada que entregar.
 
 #### Con ectoplasma

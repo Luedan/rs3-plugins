@@ -54,13 +54,13 @@
 - **Player:** ¿Cuánto tiempo llevas dando este argumento de venta?
 - **Avalani:** Yo diría que al menos una década a estas alturas. Bueno, ¿tienes un clan? Si no, ¿por qué no? ¡La vida es mejor con amigos!
 - {{RSFontAchievement|Citadels!|Talk to Avalani next to the portal in the Clan Camp, found within Varrock's Grand Exchange.}}
-- ((Se muestra en una ventana emergente de finalización de tarea:))
+- ((Shown in a task completion pop-up:))
   - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
   - ¡Ciudadelas!
   - Habla con Avalani al lado del portal en Clan Camp, que se encuentra dentro de Grand Exchange de Varrock.
   - (continue)
 - **Player:** Cierto, eso es...
-- (Condition: Si se han completado todas las tareas:)
+- (Condition: If all the tasks have been completed:)
   - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!
 
 ### In the Clan Citadel

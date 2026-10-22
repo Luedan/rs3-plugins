@@ -12,15 +12,15 @@
 ### In West Ardougne
 
 - **Player:** Hola.
-- (Condition: Antes de Underground Pass:)
+- (Condition: Before Underground Pass:)
   - **Dark mage:** ¿Por qué me interrumpes, viajero?
   - (continue)
-- (Condition: Después de Underground Pass: esto es un descuido de Jagex)
+- (Condition: After Underground Pass - this is an oversight by Jagex)
   - **Dark mage:** Oh, es el liberador de Ardougne. ¿Por qué me interrumpes?
   - (continue)
 - **Player:** Me preguntaba ¿qué estás haciendo?
 - **Dark mage:** Experimento con magia oscura. Es una embarcación peligrosa.
-- (Condition: Con un staff de Iban roto en backpack:)
+- (Condition: With a broken Iban's staff in backpack:)
   - **Player:** ¿Podrías arreglar este staff?
   - **Dark mage:** ¡Todopoderoso Zamorak! ¡El Staff de Iban!
   - **Player:** ¿Puedes arreglarlo?
@@ -29,13 +29,13 @@
   - **Dark mage:** 200.000 piezas de oro. Ni un centavo menos.
   - [Menu]: Selecciona una opción
     - [Choice]: Bien entonces.
-      - (Condition: Con 200.000 coins:)
+      - (Condition: With 200,000 coins:)
         - Le das al mago 200.000 coins y el staff.
         - (removes=200,000 coins and Iban's staff (broken)) (receives=Iban's staff)
         - [El mago repara el staff y te lo devuelve.]
         - **Player:** Gracias. Se lo agradezco.
         - **Dark mage:** ¡Ten cuidado con esa cosa!
-      - (Condition: Sin 200.000 coins:)
+      - (Condition: Without 200,000 coins:)
         - **Player:** ¡Ups! Soy un poco bajo.
         - No puedes permitirte eso.
         - (ventana emergente)

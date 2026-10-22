@@ -11,7 +11,7 @@
 
 ### The lesser demons becoming attackable when a player kills the last imp herald
 
-- ((Se ve uno de los siguientes:))
+- ((One of the following is seen:))
   - **Demon boss:** {{RSChat|Fools, the true fight begins now!}}
   - **Demon boss:** {{RSChat|My minions will feast on your bones!}}
   - **Demon boss:** {{RSChat|None of you will survive my wrath!}}
@@ -20,7 +20,7 @@
 
 ### The boss killing the last lesser demon
 
-- ((Se ve uno de los siguientes:))
+- ((One of the following is seen:))
   - **Demon boss:** {{RSChat|All will die by my hand!}}
   - **Demon boss:** {{RSChat|I feast on their souls so that I may deal death!}}
   - **Demon boss:** {{RSChat|My lord! I have returned!}}
@@ -29,7 +29,7 @@
 
 ### The black demons becoming attackable when a lower minion is killed by a player
 
-- ((Se ve uno de los siguientes:))
+- ((One of the following is seen:))
   - **Demon boss:** {{RSChat|Fools. The true fight begins now!}}
   - **Demon boss:** {{RSChat|My minions will feast on your bones!}}
   - **Demon boss:** {{RSChat|None of you will survive my wrath!}}
@@ -41,7 +41,7 @@
 
 #### Un jugador que mata
 
-- ((Se ve uno de los siguientes:))
+- ((One of the following is seen:))
   - **Demon boss:** {{RSChat|I will wear your flesh like a cloak!}}
   - **Demon boss:** {{RSChat|Nobody will survive!}}
   - **Demon boss:** {{RSChat|Now you all die!}}
@@ -50,7 +50,7 @@
 
 #### El jefe que mata
 
-- ((Se ve uno de los siguientes:))
+- ((One of the following is seen:))
   - **Demon boss:** {{RSChat|BWAHAHAHAHAHAHA!}}
   - **Demon boss:** {{RSChat|Fear me - more than death itself!}}
   - **Demon boss:** {{RSChat|I will consume everything!}}
@@ -59,7 +59,7 @@
 
 ### Damaging a player
 
-- ((Ocasionalmente se ve uno de los siguientes:))
+- ((One of the following is occasionally seen:))
   - **Demon boss:** {{RSChat|Blood! Blood heals me!}}
   - **Demon boss:** {{RSChat|Bow down, mortal!}}
   - **Demon boss:** {{RSChat|I will destroy you!}}
@@ -71,5 +71,5 @@
 
 ### Despawning
 
-- ((Ocasionalmente se ve lo siguiente:))
+- ((The following is occasionally seen:))
   - **Demon boss:** {{RSChat|Now to take my place!}}

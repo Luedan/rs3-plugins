@@ -17,11 +17,11 @@
   - [Choice]: Safalaan dijo que podría conseguirte más papiro.
     - **Player:** Safalaan dijo que podría conseguirte más papiro.
     - **Old Man Ral:** Hmph, mmm. Supongo que sí. Aquí tienes.
-    - (Condition: Si el player no tiene suficiente espacio backpack:)
+    - (Condition: If the player does not have enough backpack space:)
       - **Player:** Erk... lo siento, no tengo suficiente espacio en mi inventario. Necesito 3 espacios libres.
       - **Old Man Ral:** ¡Hmph, típico! Vuelve cuando lo hayas hecho.
       - (initial)
-    - (Condition: Si el player tiene suficiente espacio backpack:)
+    - (Condition: If the player has enough backpack space:)
       - (receives=three papyrus)
       - [Old Man Ral te regala unos papiros.]
       - (initial)
@@ -52,7 +52,7 @@
       - [Choice]: Anterior...
         - (initial)
       - [Choice]: Acerca del sistema de tareas...
-        - ((Si el player ha completado los logros de élite de Morytania y no se han reclamado las recompensas:))
+        - ((If the player has completed the elite Morytania achievements and the rewards have not been claimed:))
           - **Player:** He completado todas las tareas Elite del conjunto Morytania.
           - **Old Man Ral:** Así que sí. Tengo un par de mallas especiales reservadas para ti.
           - [Old Man Ral te entrega un par de mallas y algunas lámparas.]
@@ -60,7 +60,7 @@
           - **Player:** ¡Gracias! ¿Qué más hacen?
           - **Old Man Ral:** Bueno, por lo que he oído, Lyra se está volviendo tan bueno con los hongos que obtendrás el doble con ese parche, y también deberías ser más próspero en la Torre Slayer.
           - (continue)
-        - (Condition: Si el player ha perdido sus patas Morytania 4:)
+        - (Condition: If the player has lost their Morytania legs 4:)
           - **Old Man Ral:** ¡Ah, el que usa calzas! ¿Cómo los estás encontrando?
           - **Player:** Los perdí.
           - **Old Man Ral:** ¡Oh, no!

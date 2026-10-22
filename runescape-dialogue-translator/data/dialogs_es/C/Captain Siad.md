@@ -88,9 +88,9 @@
     - (continuea|siad-guard)
   - ¡Todos los esclavos se han liberado! {{anchor|slaves-freed}}
     - **Player:** ¡Todos los esclavos se han liberado!
-    - ((Condición desconocida:))
+    - ((Unknown condition:))
       - El capitán parece distraído con lo que acabas de decir. El capitán mira por la ventana para ver si hay prisioneros escapando.
-    - ((De lo contrario:))
+    - ((Otherwise:))
       - **Captain Siad:** No digas tonterías, la sirena de advertencia no suena. Ahora declara tu negocio antes de que te echen.
       - (above|siad-lonely)
   - ¡Fuego! ¡Fuego!{{anchor|fire}}

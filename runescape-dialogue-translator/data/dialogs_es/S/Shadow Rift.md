@@ -12,8 +12,8 @@
 ### Spawning
 
 - ¡Ha aparecido un shadow rift en el sitio del ritual!
-- (ventana emergente)
-  - (Ventana emergente: ¡Ha aparecido un shadow rift en el sitio del ritual!|advertencia=yes)
+- (pop-up)
+  - (Pop-up: A shadow rift has appeared on the ritual site!|warning=yes)
 
 ### Close
 

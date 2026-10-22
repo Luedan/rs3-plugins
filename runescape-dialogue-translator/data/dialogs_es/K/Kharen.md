@@ -17,7 +17,7 @@
 
 ##### Usar una sábana o una sábana cubierta de ectoplasma
 
-- ((Se elegirá al azar uno de los siguientes:))
+- ((One of the following will be chosen at random:))
   - **Kharen:** ¡Cómo te atreves a hacer semejante burla!
   - **Kharen:** ¿Es esta tu idea del humor?
   - **Kharen:** Esta conversación puede continuar después de que te quites ese ridículo atuendo.
@@ -38,9 +38,9 @@
 - **Kharen:** ¿Arándanos? ¡No seas tonto, no existe tal cosa!
 - **Player:** Eso es lo que pensé. Sólo conozco redberries.
 - **Kharen:** ¡Tal vez si existiera un lugar así de opuestos, tendrías más suerte!
-- ((Si no has hablado con Lupe antes:))
+- ((If you have not spoken to Lupe before:))
   - **Player:** Puede que tengas algo en claro...
-- ((Si ha hablado con Lupe antes:))
+- ((If you have spoken to Lupe before:))
   - **Player:** Hmm... Un lugar de opuestos y un gato llamado Evil Bob. ¿Quizás Kili pueda indicarme la dirección correcta?
 
 ##### De lo contrario

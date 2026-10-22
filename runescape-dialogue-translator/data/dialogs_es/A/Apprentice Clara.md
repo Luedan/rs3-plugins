@@ -44,15 +44,15 @@
     - **Apprentice Clara:** Si completas esto, te daré: Runa de aire x 250. ¡Estoy seguro de que también ganarás reputación en el gremio de agricultores!
     - **Apprentice Clara:** ¡Tendrás que ser rápido! Solo estoy aquí por [número] horas y [número] minutos. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - ((Sin los artículos solicitados:))
+    - ((Without the requested items:))
       - **Apprentice Clara:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Apprentice Clara:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **Apprentice Clara:** También estoy buscando un nuevo animal, actualmente estoy buscando A [animal]
-    - ((Con los artículos solicitados:))
+    - ((With the requested items:))
       - (removes=the requested items) (receives=the reward)
-      - ((Si se premió una imprimación de Brassica:))
+      - ((If a Brassica primer was rewarded:))
         - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-        - ((Repetido en una ventana emergente:))
+        - ((Repeated in a pop-up:))
           - Por completar esta solicitud, recibió 1 imprimación para Brassica.
           - (continue)
       - [Has recibido: Runa de aire x 250 <br>Y 2750 de reputación agrícola.]
@@ -77,9 +77,9 @@
 ##### Con artículos solicitados
 
 - (removes=the requested items) (receives=the reward)
-- ((Si se premió una imprimación de Brassica:))
+- ((If a Brassica primer was rewarded:))
   - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - Por completar esta solicitud, recibió 1 imprimación para Brassica.
     - (continue)
 - [Has recibido: Runa de aire x 250 <br>Y 2750 de reputación agrícola.]

@@ -28,12 +28,12 @@
         - **Player:** Está bien. Sigue...
         - (continue)
     - **TokHaar-Hok:** Alguien que poseyera tal capa sería digno de nuestro desafío.
-    - (Condition: Si una capa contra incendios no está en el backpack o en el banco:)
+    - (Condition: If a fire cape is not in the backpack or bank:)
       - **Player:** Iré a ver si puedo ganarme uno.
-    - (Condition: Con capa de fuego en el banco:)
+    - (Condition: With a fire cape in the bank:)
       - **Player:** Tengo uno, pero no lo llevo encima.
       - **TokHaar-Hok:** Tráelo aquí...
-    - (Condition: Con capa de fuego en el backpack:)
+    - (Condition: With a fire cape in the backpack:)
       - **Player:** Tengo una capa de fuego aquí...
       - **TokHaar-Hok:** Debes sacrificarlo...
       - [Menu]: Selecciona una opción
@@ -209,9 +209,9 @@
 - **TokHaar-Hok:** Lo has hecho muy bien. Para conmemorar tu triunfo, acepta un trofeo de nuestra casa.
 - [Menu]: Elige tu recompensa:
   - [Choice]: cond=Only after inflicting enough damage with melee:|El TokHaar-Kal-Ket.
-    - (Condition: Sin espacio backpack:)
+    - (Condition: Without backpack space:)
       - **TokHaar-Hok:** Tenemos una recompensa para ti... pero primero tendrás que hacer espacio en tu inventario. Vuelva a utilizarlo cuando pueda aceptarlo.
-    - (Condition: Con espacio backpack:)
+    - (Condition: With backpack space:)
       - [El TokHaar-Kal-Ket es una capa poderosa que permitirá que otros vean que dominas el Fight Kiln. Además de esto, proporciona varios aumentos de estadísticas, incluido un bono de 33 Strength.]
       - [Menu]: ¿Aceptar el TokHaar-Kal-Ket?
         - [Choice]: Sí.
@@ -220,9 +220,9 @@
         - [Choice]: No.
           - **TokHaar-Hok:** ¿No? Vuelve con nosotros... cuando hayas tomado una decisión.
   - [Choice]: cond=Only after inflicting enough damage with ranged:|El TokHaar-Kal-Xil.
-    - (Condition: Sin espacio backpack:)
+    - (Condition: Without backpack space:)
       - **TokHaar-Hok:** Tenemos una recompensa para ti... pero primero tendrás que hacer espacio en tu inventario. Vuelva a utilizarlo cuando pueda aceptarlo.
-    - (Condition: Con espacio backpack:)
+    - (Condition: With backpack space:)
       - [El TokHaar-Kal-Xil es una capa poderosa que permitirá que otros vean que dominas el Fight Kiln. Además de esto, proporciona varios aumentos de estadísticas, incluido un bono de 33 Ranged.]
       - [Menu]: ¿Aceptar el TokHaar-Kal-Xil?
         - [Choice]: Sí.
@@ -231,9 +231,9 @@
         - [Choice]: No.
           - **TokHaar-Hok:** ¿No? Vuelve con nosotros... cuando hayas tomado una decisión.
   - [Choice]: cond=Only after inflicting enough damage with magic:|El TokHaar-Kal-Mej.
-    - (Condition: Sin espacio backpack:)
+    - (Condition: Without backpack space:)
       - **TokHaar-Hok:** Tenemos una recompensa para ti... pero primero tendrás que hacer espacio en tu inventario. Vuelva a utilizarlo cuando pueda aceptarlo.
-    - (Condition: Con espacio backpack:)
+    - (Condition: With backpack space:)
       - [El TokHaar-Kal-Mej es una capa poderosa que permitirá que otros vean que dominas el Fight Kiln. Además de esto, proporciona varios aumentos de estadísticas, incluido un bono de 33 Magic.]
       - [Menu]: ¿Aceptar el TokHaar-Kal-Mej?
         - [Choice]: Sí.
@@ -242,9 +242,9 @@
         - [Choice]: No.
           - **TokHaar-Hok:** ¿No? Vuelve con nosotros... cuando hayas tomado una decisión.
   - [Choice]: cond=Only after inflicting enough damage with necromancy:|El TokHaar-Kal-Mor.
-    - (Condition: Sin espacio backpack:)
+    - (Condition: Without backpack space:)
       - **TokHaar-Hok:** Tenemos una recompensa para ti... pero primero tendrás que hacer espacio en tu inventario. Vuelva a utilizarlo cuando pueda aceptarlo.
-    - (Condition: Con espacio backpack:)
+    - (Condition: With backpack space:)
       - [El TokHaar-Kal-Mor es una capa poderosa que permitirá que otros vean que dominas el Fight Kiln. Además de esto, proporciona varios aumentos de estadísticas, incluido un bono de 33 Necromancy.]
       - [Menu]: ¿Aceptar el TokHaar-Kal-Mor?
         - [Choice]: Sí.
@@ -303,10 +303,10 @@
     - (continue)
   - [Choice]: Un ónix sin cortar.
     - (continue)
-- (Condition: Sin un espacio backpack libre:)
+- (Condition: Without one free backpack space:)
   - **Tokhaar-Hok:** Tenemos una recompensa para ti... pero primero tendrás que hacer espacio en tu inventario. Vuelve con nosotros cuando puedas aceptarlo.
   - (continue)
-- (Condition: Con un espacio backpack gratuito:)
+- (Condition: With one free backpack space:)
   - (receives=their chosen reward)
   - **TokHaar-Hok:** Probemos nuestra fuerza nuevamente... pronto...
   - (continue)

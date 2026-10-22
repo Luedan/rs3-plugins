@@ -67,25 +67,25 @@
 - [Menu]: Elige una opción:
   - [Choice]: ¿Cuidarías mis cultivos por mí?
     - **Player:** ¿Cuidarías mis cultivos por mí?
-    - (Condition: Si el player no tiene cultivos en el parche:)
+    - (Condition: If the player has no crops in the patch:)
       - **Rhazien:** No tienes nada plantado en ese parche. Planta algo y tal vez acepte cuidarlo por ti.
-    - (Condition: Si el player tiene cultivos completamente desarrollados plantados en el parche:)
+    - (Condition: If the player has fully grown crops planted in the patch:)
       - **Rhazien:** ¡Ese parche ya está completamente desarrollado! ¡No sé qué quieres que haga con él!
-    - (Condition: Si los cultivos en el parche aún no están completamente desarrollados pero el player ya le pagó al jardinero:)
+    - (Condition: If the crops in the patch are not yet fully grown but the player has already paid the gardener:)
       - **Rhazien:** No sé de qué estás hablando. Ya estoy cuidando ese parche por ti.
       - **Player:** Oh, lo siento, lo olvidé.
-    - (Condition: Si está creciendo un arbusto de hiedra venenosa:)
+    - (Condition: If a poison ivy bush is growing:)
       - **Rhazien:** No es necesario que cuide esa hiedra venenosa.
       - **Player:** ¿En serio?
       - **Rhazien:** Sí, la hiedra venenosa es un material bastante resistente y la mayoría de los animales evitarán comerla.
       - **Rhazien:** Por lo tanto, no hay razón para preocuparse por eso.
       - **Player:** Genial.
-    - (Condition: Si los cultivos en el parche aún no han crecido completamente:)
+    - (Condition: If the crops in the patch are not yet fully grown:)
       - **Rhazien:** Si quieres, pero quiero [número] [item] para eso.
-      - (Condition: Si el player no tiene los elementos requeridos:)
+      - (Condition: If the player does not have the required items:)
         - **Player:** Me temo que no tengo suficientes en este momento.
         - **Rhazien:** Bueno, no voy a perder el tiempo gratis.
-      - (Condition: Si el player tiene los elementos requeridos:)
+      - (Condition: If the player has the required items:)
         - [Menu]: Selecciona una opción
           - [Choice]: Está bien, es un trato.
             - **Player:** Está bien, es un trato.
@@ -116,9 +116,9 @@
   - [Choice]: Alguna cura vegetal.
     - **Player:** Alguna cura vegetal.
     - **Rhazien:** Cura vegetal, ¿eh? Quizás tenga algo reservado para mí. Te diré una cosa, te venderé una cura vegetal por 25 po si quieres.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - **Player:** Me temo que no tengo suficiente dinero para eso.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, parece un precio justo.
           - **Player:** Sí, parece un precio justo.
@@ -128,9 +128,9 @@
   - [Choice]: Un balde de abono.
     - **Player:** Un balde de abono.
     - **Rhazien:** Un balde de abono, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 35 po si quieres.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - **Player:** Me temo que no tengo suficiente dinero para eso.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, parece un precio justo.
           - **Player:** Sí, parece un precio justo.
@@ -140,9 +140,9 @@
   - [Choice]: Un rastrillo.
     - **Player:** Un rastrillo.
     - **Rhazien:** Un rastrillo, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 15 po si quieres.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - **Player:** Me temo que no tengo suficiente dinero para eso.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, parece un precio justo.
           - **Player:** Sí, parece un precio justo.
@@ -154,9 +154,9 @@
       - [Choice]: una regadera
         - **Player:** Una regadera.
         - **Rhazien:** Una regadera, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 25 po si quieres.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Me temo que no tengo suficiente dinero para eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - [Menu]: Selecciona una opción
             - [Choice]: Sí, parece un precio justo.
               - **Player:** Sí, parece un precio justo.
@@ -166,9 +166,9 @@
       - [Choice]: Una paleta de jardinería
         - **Player:** Una paleta de jardinería.
         - **Rhazien:** Una paleta de jardín, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 15 po si quieres.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Me temo que no tengo suficiente dinero para eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - [Menu]: Selecciona una opción
             - [Choice]: Sí, parece un precio justo.
               - **Player:** Sí, parece un precio justo.
@@ -178,9 +178,9 @@
       - [Choice]: Un zambullidor de semillas
         - **Player:** Un arrancador de semillas.
         - **Rhazien:** Un zambullidor de semillas, ¿eh? Puede que tenga uno de repuesto... Te lo vendo por 15 po si quieres.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Me temo que no tengo suficiente dinero para eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - [Menu]: Selecciona una opción
             - [Choice]: Sí, parece un precio justo.
               - **Player:** Sí, parece un precio justo.
@@ -216,30 +216,30 @@
     - **Player:** ¿Qué pides hoy?
     - **Rhazien:** ¡He estado trabajando en mi propia granja recientemente y necesito algunos artículos para aumentar mi productividad!
     - **Rhazien:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
-    - (Condition: Con tres animales solicitados:)
+    - (Condition: With three requested animals:)
       - **Rhazien:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal].
       - (continue)
-    - (Condition: Con cuatro animales solicitados:)
+    - (Condition: With four requested animals:)
       - **Rhazien:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal], o [Animal].
       - (continue)
     - **Rhazien:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
     - **Rhazien:** Si completas esto, te daré: Una pieza de armadura de caparazón de roca, de espinas o de esqueleto x 1. ¡Estoy seguro de que también ganarás algo de reputación en el gremio de agricultores!
     - **Rhazien:** ¡Tendrás que ser rápido!, solo estoy aquí por [número] días, [número] horas y [número] minutos. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - ((Sin los artículos solicitados:))
+    - ((Without the requested items:))
       - **Rhazien:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Rhazien:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
-      - (Condition: Con dos animales solicitados:)
+      - (Condition: With two requested animals:)
         - **Rhazien:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal] o [Animal].
         - (continue)
-      - (Condition: Con tres animales solicitados:)
+      - (Condition: With three requested animals:)
         - **Rhazien:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal].
         - (continue)
       - **Rhazien:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
-    - ((Con los artículos solicitados:))
+    - ((With the requested items:))
       - (removes=the requested items) (receives=the reward)
       - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - Por completar esta solicitud, recibió 1 imprimación para Brassica.
         - (continue)
       - Has recibido: [Reward] x 1<br>Y 5500 reputación Farming.
@@ -259,24 +259,24 @@
 
 - **Rhazien:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
 - **Rhazien:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
-- (Condition: Con tres animales solicitados:)
+- (Condition: With three requested animals:)
   - **Rhazien:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal].
   - (continue)
-- (Condition: Con cuatro animales solicitados:)
+- (Condition: With four requested animals:)
   - **Rhazien:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal], o [Animal].
   - (continue)
 - **Rhazien:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
 
 ##### Con artículos solicitados
 
-- (Condition: Con múltiples animales aplicables:)
+- (Condition: With multiple applicable animals:)
   - [Menu]: ¿Qué animal te gustaría entregar?
-    - ((Repetido para cada animal aplicable:))
+    - ((Repeated for each applicable animal:))
       - [Choice]: [Name]
         - (continue)
 - (removes=the requested items) (receives=the reward)
 - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Por completar esta solicitud, recibió 1 imprimación para Brassica.
   - (continue)
 - Has recibido: [Reward] x 1<br>Y 5500 reputación agrícola.

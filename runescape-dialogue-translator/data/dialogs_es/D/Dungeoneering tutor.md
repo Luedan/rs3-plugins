@@ -16,11 +16,11 @@
 #### Normalmente
 
 - **Dungeoneering tutor:** Saludos, aventurero.
-- (Condition: Si el player no tiene anillo de parentesco:)
+- (Condition: If the player does not have a ring of kinship:)
   - **Dungeoneering tutor:** Antes de continuar, déjame contarte esto.
-  - (Condition: Sin un espacio backpack libre:)
+  - (Condition: Without one free backpack space:)
     - **Dungeoneering tutor:** Oh, ¿tienes las manos ocupadas? Vuelve cuando tengas espacio en tu inventario.
-  - (Condition: Con un espacio backpack gratuito:)
+  - (Condition: With one free backpack space:)
     - (receives=ring of kinship)
     - [Te entrega un anillo.]
     - (continue)
@@ -79,7 +79,7 @@
         - **Player:** No, gracias, ahora no.
         - **Dungeoneering tutor:** Haz lo que quieras.
   - [Choice]: *(Si el player ha desbloqueado al menos un diario de mazmorras)* Muéstrame los diarios que encontré.
-    - ((Se abre el menú del Diario de mazmorra))
+    - ((Dungeon Journal menu opens))
   - [Choice]: Acerca del sistema de tareas...
     - (below|task-system)
 
@@ -90,13 +90,13 @@
 - **Player:** Lo siento, no, solo estoy haciendo un recorrido nostálgico, recordando los viejos tiempos.
 - **Dungeoneering tutor:** Ah, bueno, entonces. Si lo tuyo son las historias, quizás quieras buscar y hablar con Skaldrun; él conoce una saga o dos sobre este lugar...
 - {{RSFontAchievement|For Old Times' Sake|Talk to the Dungeoneering tutor, south of the Daemonheim castle.}}
-- ((Se muestra en una ventana emergente de finalización de tarea:))
+- ((Shown in a task completion pop-up:))
   - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
   - Por los viejos tiempos
   - Habla con Dungeoneering tutor, al sur del castillo Daemonheim.
   - (continue)
 - **Player:** ¡Mientras no se trate de hurones, cuenta conmigo! Pero tal vez lo haga más tarde; Estoy haciendo algunas tareas ahora mismo.
-- (Condition: Si se han completado todas las tareas:)
+- (Condition: If all the tasks have been completed:)
   - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!
 
 ### Open Journal
@@ -108,7 +108,7 @@
 
 #### Con al menos una revista encontrada
 
-- ((Se abre el menú del Diario de mazmorra))
+- ((Dungeon Journal menu opens))
 
 ### Set outfit appearance
 
@@ -116,7 +116,7 @@
 
 ### Task System
 
-- (Condition: Si el player ha completado los logros fáciles de Daemonheim y no se han reclamado las recompensas:)
+- (Condition: If the player has completed the easy Daemonheim achievements and the rewards have not been claimed:)
   - **Player:** He completado todas las tareas fáciles del conjunto Daemonheim.
   - **Dungeoneering tutor:** Ah, eso es un alivio. Puedes usar el aura Daemonheim ahora. Lo he almacenado en la interfaz de gestión del aura.
   - [Drangund te entrega un aura y una lámpara vieja.]

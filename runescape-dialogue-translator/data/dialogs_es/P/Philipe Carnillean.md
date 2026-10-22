@@ -24,9 +24,9 @@
 #### Si aún no has reclamado la lámpara de Philipe en el lugar elegido
 
 - **Philipe Carnillean:** Esperaba encontrarme contigo otra vez. <br>He encontrado algo que apreciarás.
-- (Condition: Sin un espacio backpack libre:)
+- (Condition: Without a free backpack space:)
   - **Player:** Primero tendré que liberar algo de espacio.
-- (Condition: Con un espacio backpack gratuito:)
+- (Condition: With a free backpack space:)
   - [Menu]: ¿Qué te gustaría decir?
     - [Choice]: Entonces, ¿qué tienes para mí?
       - (receives=Philipe's lamp)
@@ -71,23 +71,23 @@
       - *En la entrada de Fight Caves*
         - **Philipe Carnillean:** Estoy poniendo a prueba mis habilidades de combate. Es bastante difícil, pero eventualmente lo lograré.
         - *(Continúa a continuación)*
-      - (Condition: En el City of Um:)
+      - (Condition: In the City of Um:)
         - **Player:** ¿Debería preocuparme que hayas logrado llegar al Inframundo?
         - **Philipe Carnillean:** ¡Solo estaré aquí por un corto tiempo! Mi amigo Frank habló con Harold, quien estaba más que dispuesto a dejarme visitar aquí por motivos de educación.
         - **Philipe Carnillean:** Realmente me abrió la mente. No todos los fantasmas, zombis y esqueletos son secuaces desagradables con los que debería lanzarme a luchar.
         - (continue)
-      - (Condition: Sin haber frotado la lámpara de Philipe desde este lugar:)
-        - (Condition: Si aún no has reclamado la lámpara de Philipe en esta ubicación:)
+      - (Condition: Without having rubbed Philipe's lamp from this location:)
+        - (Condition: If you have yet to claim Philipe's lamp from this location:)
           - **Player:** Entonces, ¿qué tienes para mí?
           - (arriba)
-        - (Condition: Si ya reclamaste la lámpara de Philipe en esta ubicación:)
-          - (Condition: Si lo has perdido sin frotarlo:)
+        - (Condition: If you already claimed Philipe's lamp from this location:)
+          - (Condition: If you have lost it without rubbing it:)
             - **Player:** Parece que perdí la lámpara que me diste.
             - (continue|I seem to have lost)
-          - (Condition: Si no lo has perdido sin frotarlo:)
+          - (Condition: If you haven't lost it without rubbing it:)
             - **Player:** Gracias por la lámpara.
             - **Philipe Carnillean:** De nada.
-      - (Condition: Habiendo frotado la lámpara de Philipe desde este lugar:)
+      - (Condition: Having rubbed Philipe's lamp from this location:)
         - **Player:** Nos vemos por ahí.
 
 #### Si ya recibiste la lámpara de Philipe pero aún no la has canjeado
@@ -102,9 +102,9 @@
 
 - [Menu]: ¿Qué te gustaría decir?
   - [Choice]: Parece que perdí la lámpara que me diste.
-    - (Condition: Sin espacio libre backpack:)
+    - (Condition: Without free backpack space:)
       - **Philipe Carnillean:** Puedo darte otro. Primero, deje algo de espacio para ello.
-    - (Condition: Con espacio gratuito backpack:)
+    - (Condition: With free backpack space:)
       - (receives=Philipe's lamp)
       - [Philipe te da una lámpara.]
       - **Player:** Gracias.
@@ -119,9 +119,9 @@
 ### Treasure Trails
 
 - **Philipe Carnillean:** Tengo algo para ti.
-- (Condition: Si el rastro continúa:)
+- (Condition: If the trail continues:)
   - (removes=the old clue scroll (master)) (receives= the new clue scroll (master))
   - [¡Has encontrado otra pista!]
-- (Condition: Si el sendero termina:)
+- (Condition: If the trail ends:)
   - (removes=the old clue scroll (master)) (receives=reward casket (master))
   - [¡Has encontrado un ataúd!]

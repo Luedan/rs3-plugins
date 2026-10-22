@@ -41,10 +41,10 @@
   - [Choice]: ¡Qué, en tu barco! ¡No, gracias!
     - **Player:** ¿Qué, en tu barco? ¡No, gracias! ¡No quiero chocar contra más cosas!
     - **Dwarven Boatman:** ¡Oye, ahora! ¡Fue sólo un pequeño accidente!
-    - (Condition: Antes y durante El Enano Gigante:)
+    - (Condition: Before and during The Giant Dwarf:)
       - **Player:** ¿¿Un pequeño accidente?? ¡Gracias a ti tengo que reconstruir esta estatua que derribaste tan descuidadamente!
       - (continue)
-    - (Condition: Después del enano gigante:)
+    - (Condition: After The Giant Dwarf:)
       - **Player:** ¿¿Un pequeño accidente?? ¿Tienes idea de cuánto tiempo pasé reconstruyendo esa estatua?
       - (continue)
     - **Dwarven Boatman:** ¡Cálmate, cálmate! Obtuviste lo que pagaste por el viaje, ¿no?

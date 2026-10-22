@@ -16,7 +16,7 @@
   - [Choice]: No voy a hacerte daño.
   - [Choice]: ¡Voy a matarlos a todos, duendes malvados!
     - *Los duendes huirán de el player y dirán "¡eek!" por encima de sus cabezas*
-- (Condition: Después de proclamar que no lastimarás a los duendes, hasta que mates a un duende de las cavernas.)
+- (Condition: After proclaiming you will not hurt the goblins, until you kill a cave goblin)
   - *Conversación 3*
     - **Duende de las cavernas:** ¡No me pises!
     - **Player:**  No voy a pisotearte.

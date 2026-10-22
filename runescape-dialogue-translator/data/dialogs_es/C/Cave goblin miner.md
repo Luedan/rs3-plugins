@@ -16,16 +16,16 @@
   - [Choice]: ¿Cómo va la minería?
     - **Player:**  ¿Cómo va la minería?
     - {{trandom}}
-      - (Condition: Diálogo 1:)
+      - (Condition: Dialogue 1:)
         - **Cave goblin miner:** ¡Casi quedé atrapado en un desprendimiento de rocas antes!
         - **Cave goblin miner:** Aún así, desde que los humanos comenzaron a venir aquí, ¡la proporción de mineros muertos en desprendimientos de rocas ha disminuido dramáticamente!
-      - (Condition: Diálogo 2:)
+      - (Condition: Dialogue 2:)
         - **Cave goblin miner:** Va bien. Golpear repetidamente un trozo de roca me resulta muy terapéutico.
-      - (Condition: Diálogo 3:)
+      - (Condition: Dialogue 3:)
         - **Cave goblin miner:** Oh, ya sabes, no me puedo quejar.
-      - (Condition: Diálogo 4:)
+      - (Condition: Dialogue 4:)
         - **Cave goblin miner:** Estamos un poco retrasados. Si nos echas una mano, Mistag te pagaría por tu trabajo.
-      - (Condition: Diálogo 5:)
+      - (Condition: Dialogue 5:)
         - **Cave goblin miner:** Bueno, no se lo digas a Mistag...
         - **Cave goblin miner:** ... ¡pero en realidad no estaba trabajando muy duro!
   - [Choice]: ¿De dónde sacas todo este mineral?

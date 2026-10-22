@@ -26,22 +26,22 @@
 - **Orla Fairweather:** ¡Oh, no, esto es mucho más grande! ¡Aquí estamos tratando con la energía del mundo! ¡El destino de Gielinor puede estar determinado por nuestras acciones!
 - **Player:** Vaya, eso suena interesante.
 - **Orla Fairweather:** Ah, sí. Aún es temprano, pero ya hemos obtenido resultados interesantes.
-- (Condition: Antes de recoger un recuerdo:)
+- (Condition: Before collecting a memory:)
   - **Player:** ¿Puedo empezar a entrenar adivinación yo mismo?
   - (continue)
-- (Condition: Después de recoger un recuerdo:)
+- (Condition: After collecting a memory:)
   - **Player:** ¿Puedes ayudarme a mejorar mi habilidad en adivinación?
   - (continue)
 - **Orla Fairweather:** ¡Por supuesto! ¡Nos vendría bien toda la ayuda que podamos conseguir!
-- (Condition: Antes de recoger un recuerdo:)
+- (Condition: Before collecting a memory:)
   - (continue|before-collecting-a-memory)
-- (Condition: Después de recoger un recuerdo:)
+- (Condition: After collecting a memory:)
   - (continue|after-collecting-a-memory)
-- (Condition: Después de convertir un recuerdo en experiencia:)
+- (Condition: After converting a memory into experience:)
   - (continue|after-convert-memory-into-experience)
-- (Condition: Después de convertir un recuerdo en energía:)
+- (Condition: After converting a memory into energy:)
   - (continue|after-convert-memory-into-energy)
-- (Condition: Después de convertir un recuerdo y una energía en experiencia:)
+- (Condition: After converting a memory and energy into experience:)
   - (continue|after-convert-memory-and-energy)
 
 ##### Hablando con Orla nuevamente antes de recoger un recuerdo.
@@ -87,10 +87,10 @@
   - [Choice]: Bien, hablaré con Faizan.
     - (end)
   - [Choice]: ¿Cómo puedo coleccionar recuerdos? {{anchor|how-to-collect-memories}}
-    - (Condition: Si el player está por debajo del nivel 10 Divination:)
+    - (Condition: If the player is below level 10 Divination:)
       - **Orla Fairweather:** Primero, necesitas localizar una mecha. Los mechones ideales para ti están aquí, justo al sur del campamento. A medida que te vuelvas más hábil en la adivinación, deberás pasar a mechones más complejos.
       - (continue|how-to-collect-memories-2)
-    - (Condition: Si el player es nivel 10 Divination o superior:)
+    - (Condition: If the player is level 10 Divination or higher:)
       - **Orla Fairweather:** Primero, necesitas localizar una mecha. Ya tienes cierta habilidad en adivinación, por lo que sería mejor que encontraras una colonia más compleja que la que tenemos aquí.
       - (continue|how-to-collect-memories-2)
     - **Orla Fairweather:{{anchor|how-to-collect-memories-2}}** Puedes usar el mapa a mi lado para saber dónde se encuentran los mechones más adecuados para ti.
@@ -117,14 +117,14 @@
       - [Choice]: Eso es todo lo que necesitaba saber, gracias.
         - (end)
   - {{anchor|how-to-convert-memories}}¿Cómo puedo convertir memorias?
-    - (Condition: Si el player no tiene memoria en el inventario:)
+    - (Condition: If the player doesn't have a memory in the inventory:)
       - **Orla Fairweather:** Bueno, ¡necesitarás algunos recuerdos! Recuerdas cómo conseguirlos, ¿no?
       - [Menu]: Selecciona una opción
         - [Choice]: No, por favor repasa eso otra vez.
           - (arriba2|cómo-coleccionar-recuerdos)
         - [Choice]: Sí, lo recuerdo.
           - (continue|how-to-convert-memories-2)
-    - (Condition: Si el player tiene memoria en el inventario:)
+    - (Condition: If the player has a memory in the inventory:)
       - **Orla Fairweather:** Bueno, tienes algunos recuerdos contigo, ¡que es el primer paso!
       - (continue|how-to-convert-memories-2)
     - **Orla Fairweather:{{anchor|how-to-convert-memories-2}}** Necesitas llevar uno o más recuerdos a un cráter. Estos se pueden encontrar cerca de cualquiera de las colonias de wisp.
@@ -183,13 +183,13 @@
     - **Orla Fairweather:** Precioso, ¿no? Lo reservamos para verdaderos maestros de la adivinación, quienes podrán usarlo como señal de su logro.
     - (previous)
   - [Choice]: ¿Puedes ayudarme con los trajes de adivinación? {{anchor|fragments}}
-    - (Condition: Si el player no puede recibir fragmentos de adivinación y no ha desbloqueado el plano necesario para confeccionar las piezas del atuendo:)
+    - (Condition: If the player can't receive divination fragments and hasn't unlocked the blueprint required to make the outfit pieces:)
       - **Orla Fairweather:** En el nivel 70 puedes comenzar a recolectar fragmentos para crear trajes de habilidades de élite. Cuando llegues a ese nivel, automáticamente comenzarás a recolectar fragmentos. Luego puedes usarlos con un plano para hacerte las piezas restantes del atuendo de élite para esta habilidad.
-    - (Condition: Si el player puede recibir fragmentos de adivinación pero no ha desbloqueado el plano necesario para fabricar las piezas del atuendo:)
+    - (Condition: If the player can receive divination fragments but hasn't unlocked the blueprint required to make the outfit pieces:)
       - **Orla Fairweather:** Estás configurado para recibir fragmentos. Cuando llegues al nivel 80 podrás crear prendas de vestir.
-    - (Condition: Si el player puede recibir fragmentos de adivinación y ha desbloqueado el plano necesario para confeccionar las piezas del atuendo:)
+    - (Condition: If the player can receive divination fragments and has unlocked the blueprint required to make the outfit pieces:)
       - **Orla Fairweather:** Estás configurado para recibir fragmentos. Cuando tengas 3600 fragmentos, podrás usarlos para crear una pieza de atuendo de élite. Simplemente acude a un banco de trabajo Invention para crear las piezas.
-    - (Condition: Si el player posee el traje de adivinación para ancianos completo o todas las piezas necesarias para elaborarlo:)
+    - (Condition: If the player owns the full elder divination outfit, or all of the outfit pieces required to craft it:)
       - **Orla Fairweather:** Ya has creado todas las prendas posibles. Me aseguraré de que no reciba más fragmentos.
       - **Orla Fairweather:** Recuerda que puedes combinar las piezas del atuendo básico para crear las versiones de nivel alto y obtener beneficios adicionales.
 
@@ -197,18 +197,18 @@
 
 - [Menu]: Elige una opción:
   - [Choice]: ¿Puedes venderme un Divination skillcape?{{anchor|skillcape}}
-    - (Condition: Si el player tiene un ring of charos (a) equipado:)
+    - (Condition: If the player has a ring of charos (a) equipped:)
       - **Orla Fairweather:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins por este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
       - [Menu]: Elige una opción:
         - [Choice]: ¿92.000 coins? Eso es demasiado caro.
           - **Player:** Sé dónde encontrarte si cambio de opinión.
         - [Choice]: De hecho, creo que tengo el dinero aquí.
-          - (Condition: Si el player no tiene espacio backpack:)
+          - (Condition: If the player has no backpack space:)
             - **Orla Fairweather:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar algo de espacio en backpack antes de que pueda venderte uno.
-          - (Condition: Si el player no tiene suficiente dinero:)
+          - (Condition: If the player does not have enough money:)
             - **Player:** Pero desafortunadamente me equivoqué.
             - **Orla Fairweather:** Bueno, vuelve a verme cuando lo hagas.
-          - (Condition: Si el player tiene suficiente dinero:)
+          - (Condition: If the player has enough money:)
             - (receives=Divination cape and Divination hood) (removes=92,000 coins)
             - **Orla Fairweather:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
         - [Choice]: cond=If the player has 120 Divination:|He dominado esta habilidad. ¿Hay algo más?
@@ -218,39 +218,39 @@
           - **Orla Fairweather:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Divination master cape.
           - [Menu]: ¿Comprar Divination master cape por 120.000 coins?
             - [Choice]: Sí.
-              - (Condition: Sin espacio libre backpack:)
+              - (Condition: Without free backpack space:)
                 - **Orla Fairweather:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
-              - (Condition: Con espacio gratuito backpack:)
-                - (Condition: Sin 120.000 coins:)
+              - (Condition: With free backpack space:)
+                - (Condition: Without 120,000 coins:)
                   - No tienes suficiente dinero para comprar esta capa.
-                  - (ventana emergente)
-                    - (Ventana emergente: No tienes suficiente dinero para comprar esta capa.|advertencia=yes)
-                - (Condition: Con 120.000 coins:)
+                  - (pop-up)
+                    - (Pop-up: You do not have enough money to purchase this cape.|warning=yes)
+                - (Condition: With 120,000 coins:)
                   - (removes=120,000 coins) (receives=Divination master cape)
                   - (Action: Suena música Master cape.)
             - [Choice]: No.
               - (end)
-    - (Condition: Si el player no tiene un ring of charos(a) equipado:)
+    - (Condition: If the player does not have a ring of charos (a) equipped:)
       - **Orla Fairweather:** Por supuesto. Sin embargo, es un artículo muy prestigioso, por lo que tiene un precio elevado. El skillcape cuesta 99.000 de oro.
       - [Menu]: Elige una opción:
         - [Choice]: ¿99.000 coins? Eso es demasiado caro.
           - **Player:** Sé dónde encontrarte si cambio de opinión.
         - [Choice]: De hecho, creo que tengo el dinero aquí.
-          - (Condition: Si el player no tiene espacio backpack:)
+          - (Condition: If the player has no backpack space:)
             - (arriba)
-          - (Condition: Si el player no tiene suficiente dinero:)
+          - (Condition: If the player does not have enough money:)
             - (arriba)
-          - (Condition: Si el player tiene suficiente dinero:)
+          - (Condition: If the player has enough money:)
             - (receives=Divination cape and Divination hood) (removes=99,000 coins)
             - **Orla Fairweather:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
         - [Choice]: cond=If the player has 120 Divination:|He dominado esta habilidad. ¿Hay algo más?
           - (arriba)
   - [Choice]: He notado que hay un par de versiones de cada skillcape. {{anchor|skillcape-version}}
     - **Orla Fairweather:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
-    - (Condition: Si el player usa el modelo antiguo:)
+    - (Condition: If the player uses the old model:)
       - **Orla Fairweather:** Parece que actualmente estás usando el modelo anterior para tu Divination skillcape. ¿Quieres cambiar a uno más nuevo?
       - (continue)
-    - (Condition: Si el player usa el nuevo modelo:)
+    - (Condition: If the player uses the new model:)
       - **Orla Fairweather:** Aún puedes elegir usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
       - (continue)
     - [Menu]: Selecciona una opción
@@ -265,7 +265,7 @@
             - (end)
       - [Choice]: No, gracias.
         - **Orla Fairweather:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
-        - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+        - (Condition: If the player uses the new model for any other skillcape:)
           - **Orla Fairweather:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
           - [Menu]: Selecciona una opción
             - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.
@@ -315,13 +315,13 @@
 - **Player:** Lo siento, no, ese es el presente.
 - **Orla Fairweather:** Hmm, déjame ver... Recibirás un codazo en las costillas de un adivino furioso.
 - {{RSFontAchievement|By Guthix, to Orla!|Show Orla Fairweather a Divination memory.}}
-- ((Se muestra en una ventana emergente de finalización de tarea:))
+- ((Shown in a task completion pop-up:))
   - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
   - ¡Por Guthix, por Orla!
   - Mostrar Orla Fairweather una memoria Divination.
   - (continue)
 - **Player:** ¡Ah, no! ¡Por favor, líbrame de mi terrible destino!
-- (Condition: Si se han completado todas las tareas:)
+- (Condition: If all the tasks have been completed:)
   - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!
 
 ### In Burthorpe
@@ -369,11 +369,11 @@
 - **Player:** Suena interesante. Voy a investigar.
 - **Orla Fairweather:** Fantástico. Por favor, tome uno de los engramas que encontré para comenzar y familiarizarse con ellos.
 - Etapa tutorial 1/6 completa.
-- (ventana emergente)
-  - (Ventana emergente: Etapa 1/6 del tutorial completada).
-- (Condition: Sin espacio en backpack:)
+- (pop-up)
+  - (Pop-up: Tutorial stage 1/6 complete.)
+- (Condition: Without space in backpack:)
   - **Orla Fairweather:** Parece que estás demasiado agobiado para llevar los hilos del engrama y la memoria. Vuelve cuando tengas más espacio.
-- (Condition: Con espacio en backpack:)
+- (Condition: With space in backpack:)
   - (receives=Naragi engram and 80 memory strands)
   - **Orla Fairweather:** ¡Intenta no perderlo!
 
@@ -389,9 +389,9 @@
 
 - **Orla Fairweather:** Dios mío, ¿has perdido contacto con el engrama que te di?
 - **Orla Fairweather:** Vamos, intentémoslo de nuevo. Toma este engrama.
-- (Condition: Sin espacio en backpack:)
+- (Condition: Without space in backpack:)
   - **Orla Fairweather:** Parece que estás demasiado agobiado para llevar los hilos del engrama y la memoria. Vuelve cuando tengas más espacio.
-- (Condition: Con espacio en backpack:)
+- (Condition: With space in backpack:)
   - (receives=Naragi engram)
   - **Orla Fairweather:** ¡Intenta no perderlo!
 
@@ -406,8 +406,8 @@
 - **Orla Fairweather:** ¡Esto es perfecto! <br> Puedo sentir las energías del pasado irradiando desde este engrama.
 - (removes=Naragi engram (charged))
 - Etapa tutorial 2/6 completa.
-- (ventana emergente)
-  - (Ventana emergente: Etapa 2/6 del tutorial completada).
+- (pop-up)
+  - (Pop-up: Tutorial stage 2/6 complete.)
 - **Orla Fairweather:** Agregaré el eco a la piscina y aprovecharé su poder para ti. Gratis, por supuesto, aunque no me importaría una palmadita en la espalda de vez en cuando.
 
 #### Hablando con ella de nuevo
@@ -417,8 +417,8 @@
 #### Añadiendo el eco de Naragi
 
 - Etapa tutorial 3/6 completa.
-- (ventana emergente)
-  - (Ventana emergente: Etapa 3/6 del tutorial completada).
+- (pop-up)
+  - (Pop-up: Tutorial stage 3/6 complete.)
 
 #### Hablando con ella después de agregar el eco de Naragi
 
@@ -436,10 +436,10 @@
     - **Guthix:** De los eventos futuros, los veo más claros, sin embargo, las cosas que deben ser, deben ser.
     - **Guthix:** Podría cambiarlos si así lo deseara, pero no lo hago, ya que todas las cosas deben suceder a medida que siguen su curso.
     - Etapa tutorial 4/6 completa.
-- (ventana emergente)
-  - (Ventana emergente: Etapa 4/6 del tutorial completada).
+- (pop-up)
+  - (Pop-up: Tutorial stage 4/6 complete.)
   - [Choice]: Vuelve a colorear este eco.
-    - ((Diálogo no relacionado))
+    - ((Non-related dialogue))
   - [Choice]: Limpia este pedestal.
     - (Action: Se borra el echo plinth.)
 
@@ -455,8 +455,8 @@
 #### Dirigiendo la fuente de energía.
 
 - Etapa tutorial 5/6 completa.
-- (ventana emergente)
-  - (Ventana emergente: Etapa 5/6 del tutorial completada).
+- (pop-up)
+  - (Pop-up: Tutorial stage 5/6 complete.)
 
 #### Terminando el tutorial
 
@@ -466,8 +466,8 @@
 - **Orla Fairweather:** ¡Por permitirme aprender de ti, te permitiré a ti aprender de mí a cambio!
 - **Orla Fairweather:** Ahora casi no hay límite para la cantidad de crónicas que puedes llevar, y también deberían ser un poco más fáciles de encontrar.
 - Etapa tutorial 6/6 completa.
-- (ventana emergente)
-  - (Ventana emergente: Etapa 6/6 del tutorial completada).
+- (pop-up)
+  - (Pop-up: Tutorial stage 6/6 complete.)
 - **Player:** Muy amable de tu parte. ¡Gracias!
 
 #### Después del tutorial
@@ -504,6 +504,6 @@
 - **Player:** He cargado este engrama con energía divina y algunos hilos de memoria. ¿Podrías echarle un vistazo?
 - **Orla Fairweather:** ¡Esto es perfecto! <br> Puedo sentir las energías del pasado irradiando desde este engrama.
 - **Orla Fairweather:** Agregaré el eco a la piscina y aprovecharé su poder para ti. Gratis, por supuesto, aunque no me importaría una palmadita en la espalda de vez en cuando.
-- (Condition: Si el player todavía tiene engramas cargados:)
+- (Condition: If the player still has charged engrams:)
   - **Player:** Ese no fue el único engrama cargado que tengo.
   - **Orla Fairweather:** ¿Ah? Alguien ha estado ocupado. Está claro que su reputación de hacer las cosas no es infundada. <br> Tomaré las que tenga más y las agregaré al grupo.

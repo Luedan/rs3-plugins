@@ -19,7 +19,7 @@
   - [Choice]: ¿Qué haces aquí?
     - **Player:** ¿Qué haces aquí?
     - **Tindel Marchant:** Soy un especialista en identificar armas exóticas y antiguas, específicamente espadas, pero planeo expandirme. Si tienes armas viejas y oxidadas que quieres que revise, enséñamelas, págame 100 de oro y veré si tienes una antigüedad en tus manos. También puedo reparar algunas armas y armaduras antiguas, solo muéstrame el artículo y te diré si puedo repararlo y por cuánto.
-    - (Condition: Si no se ha completado el logro "Son largos y puntiagudos":)
+    - (Condition: If the 'They're Long and Pointy' achievement hasn't been completed:)
       - {{RSFontAchievement|They're Long and Pointy}}
       - (continue)
     - (initial|init)
@@ -35,7 +35,7 @@
     - **Player:** Ok, ¡lo intentaré!
     - (Condición: Si el player no tiene espadas oxidadas en el inventario:) {{anchor|identify}}
       - **Tindel Marchant:** Lo siento, amigo mío, pero parece que no tienes ninguna espada que deba identificarse.
-    - (Condition: Si el player tiene una espada oxidada en el inventario:)
+    - (Condition: If the player has a rusty sword in the inventory:)
       - (removes=100 coins)
       - [Le entregas a Tindel 100 coins más la espada oxidada.]
       - (removes=rusty sword) (receives=a sword of a random metal)
@@ -53,9 +53,9 @@
 - **Tindel Marchant:** Reparar o recargar artículos degradables cuesta dinero. Si desea que repare todos sus artículos, tomaré la tarifa correcta de su inventario o bolsa de dinero.
 - [Menu]: ¿Reparar o recargar todos tus artículos?
   - [Choice]: Sí {{anchor|repair}}
-    - (Condition: Si el player no tiene elementos que puedan repararse:)
+    - (Condition: If the player has no items that can be repaired:)
       - **Tindel Marchant:** No tienes ningún artículo que pueda repararse o recargarse.
-    - (Condition: Si el player tiene elementos que se pueden reparar:)
+    - (Condition: If the player has items that can be repaired:)
       - **Tindel Marchant:** ¡Todo listo! Eso te costó <amount> coins.
       - Todos sus elementos han sido reparados para <amount> coins.
   - [Choice]: No

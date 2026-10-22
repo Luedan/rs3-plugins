@@ -68,11 +68,11 @@
               - *(Muestra opciones anteriores)*
     - [Más...]
       - ¿Qué opinas de Seren?
-        - ((Si no has completado la Extinción:))
+        - ((If you haven't completed Extinction:))
           - **Player:** ¿Qué opinas de Seren?
           - **Baxtorian:** Es bueno tenerla de vuelta y creo que está tomando la decisión correcta al distanciarnos de ella. Hemos demostrado que somos capaces de alcanzar la grandeza incluso sin ella.
-          - ((Muestra las otras opciones.))
-        - ((Si ha completado la Extinción:))
+          - ((Shows the other options.))
+        - ((If you have completed Extinction:))
           - **Player:** ¿Qué opinas de Seren?
           - **Baxtorian:** Lo confieso... ya no sé qué pensar de ella.
           - **Baxtorian:** Cuando se fue para formar su consejo, creí que nos salvaría de los Dioses Mayores.
@@ -81,7 +81,7 @@
           - **Baxtorian:** Perseveraremos sin ella. La resonancia cristalina de Prifddinas nos sostiene y estamos unidos en nuestro dolor. Pasará.
           - **Baxtorian:** Si lo deseas, puedes utilizar el dispositivo de memoria para hablar con una proyección de Seren. Puede que se haya ido para siempre, pero nuestros recuerdos de ella permanecen.
           - **Baxtorian:** Quizás, con el tiempo, sean suficientes.
-          - ((Muestra las otras opciones.))
+          - ((Shows the other options.))
       - ¿Qué opinas de los elfos actuales?
         - **Player:** ¿Qué opinas de los elfos actuales?
         - **Baxtorian:** Han logrado mucho. La nueva sociedad es más fuerte que nunca. Incluso los Iorwerth parecen haberse redimido.

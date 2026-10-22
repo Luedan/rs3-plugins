@@ -12,13 +12,13 @@
 ### Talk to
 
 - **Fisher:** Bienvenido, compañero soñador.
-- ((Antes de haber construido la pesquería:))
+- ((Before having built the fishery:))
   - **Fisher:** Si pudieras proporcionarme algunos recursos de tu campamento base, podría crear una pesquería para que entrenes dentro de este sueño y enseñarte algo sobre las técnicas de pesca ilujankan.
-- ((Después de haber construido la pesquería pero antes de haber avanzado:))
+- ((After having built the fishery but before having made progress:))
   - **Fisher:** Gracias por la arcilla. Si sigues proporcionándome más, puedo enseñarte mucho sobre las técnicas de pesca de Ilujankan.
-- ((Después de que se haya logrado un pequeño progreso:))
+- ((After a small amount of progress has been made:))
   - **Fisher:** Estás aprendiendo mucho de nuestras costumbres. Sigue como estás y compartiré una historia contigo.
-- ((Después de que se ha logrado una gran cantidad de progreso:))
+- ((After a great amount of progress has been made:))
   - **Fisher:** Has aprendido mucho. Pronto compartiré mi historia con Paskeeper Sharrigan.
 
 ### Contribute resources
@@ -37,12 +37,12 @@
 ##### Con al menos dos arcillas
 
 - ¿Cuánto almacena Fishing XP? (mínimo 1: máximo [número]):
-- ((Después de ingresar un valor:))
+- ((After entering a value:))
   - ¿Contribuir [número] x arcilla y almacenar [número] XP en esta estación?
     - Sí.
       - La pesquería ahora tiene [número]/350,000 Fishing XP almacenados.
       - Tú contribuyes a la estación: [número] x arcilla.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - Tú contribuyes a la estación: [número] x arcilla.
     - No.
       - (end)
@@ -74,7 +74,7 @@
   - Sí.
     - La pesquería ahora tiene [número]/350,000 Fishing XP almacenados.
     - Tú contribuyes a la estación: [número] x arcilla.
-    - ((Repetido en una ventana emergente:))
+    - ((Repeated in a pop-up:))
       - Tú contribuyes a la estación: [número] x arcilla.
   - No.
     - (end)

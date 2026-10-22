@@ -14,16 +14,16 @@
 
 #### Habla con
 
-- (Condition: Si el player no ha hablado con Kenton Decarte desde la última vez que inició sesión:)
+- (Condition: If the player has not spoken with Kenton Decarte since last logging in:)
   - **Kenton Decarte:** Saludo y bien conocido, aventurero. ¿Has venido a luchar contra los mundos destrozados?
   - (continue)
-- (Condition: Si el player ha hablado con Kenton Decarte desde la última vez que inició sesión:)
+- (Condition: If the player has spoken with Kenton Decarte since last logging in:)
   - **Kenton Decarte:** Has regresado. Con su ayuda, disminuiremos la amenaza de los mundos destrozados.
   - (continue)
-- (Condition: Si el player no ha completado el tutorial de Shattered Worlds:)
+- (Condition: If the player has not completed the Shattered Worlds tutorial:)
   - **Kenton Decarte:** Como nunca antes has entrado en estos mundos, debería contarte un poco sobre cómo funcionan.
   - (continue|how-it-works)
-- (Condition: Si el player ha completado el tutorial de Shattered Worlds:)
+- (Condition: If the player has completed the Shattered Worlds tutorial:)
   - [Menu]: Seleccione una opción|ancla=opciones-iniciales
     - [Choice]: ¿Quién eres?
       - **Kenton Decarte:** Soy el comandante de los Caballeros Abisales: somos soldados de élite forjados a partir de una alianza entre los Caballeros del Vacío y los Caballeros del Templo.
@@ -97,15 +97,15 @@
     - **Kenton Decarte:** Si completas esto, te daré: Anima destrozada x 15000. ¡Estoy seguro de que también ganarás algo de reputación en el gremio de agricultores!
     - **Kenton Decarte:** ¡Tendrás que ser rápido! Solo estoy aquí por [número] horas y [número] minutos. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - ((Sin los artículos solicitados:))
+    - ((Without the requested items:))
       - **Kenton Decarte:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Kenton Decarte:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **Kenton Decarte:** También estoy buscando un nuevo animal, actualmente estoy buscando A [animal]
-    - ((Con los artículos solicitados:))
+    - ((With the requested items:))
       - (removes=the requested items) (receives=15,000 Shattered anima)
-      - ((Si se premió una imprimación de Brassica:))
+      - ((If a Brassica primer was rewarded:))
         - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-        - ((Repetido en una ventana emergente:))
+        - ((Repeated in a pop-up:))
           - Por completar esta solicitud, recibió 1 imprimación para Brassica.
           - (continue)
       - [Has recibido: Anima destrozada x 15000 <br>Y 2750 de reputación agrícola.]
@@ -130,9 +130,9 @@
 ##### Con artículos solicitados
 
 - (removes=the requested items) (receives=15,000 Shattered anima)
-- ((Si se premió una imprimación de Brassica:))
+- ((If a Brassica primer was rewarded:))
   - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - Por completar esta solicitud, recibió 1 imprimación para Brassica.
     - (continue)
 - [Has recibido: Anima destrozada x 15000 <br>Y 2750 de reputación agrícola.]

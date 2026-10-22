@@ -25,9 +25,9 @@
 - **Tuai Leit gem trader:** Estás de suerte, tengo uno de esos en mi colección. Te lo cambio por 5 Bambú
 - [Menu]: Selecciona una opción
   - [Choice]: si
-    - (Condition: Sin ningún espacio en backpack:)
+    - (Condition: Without any space in backpack:)
       - **Tuai Leit gem trader:** Lo sentimos, ¡no tienes suficiente espacio!
-    - (Condition: Con espacio en backpack:)
+    - (Condition: With space in backpack:)
       - **Tuai Leit gem trader:** ¡Maravilloso! ¡Aquí tienes, cuídalo!
       - (removes= five bamboo) (receives=Tuai Leit sparkle)
       - **Tuai Leit gem trader:** Fue un placer hacer negocios con usted.

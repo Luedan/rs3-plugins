@@ -11,7 +11,7 @@
 
 ### Overhead
 
-- ((Ocasionalmente se observa uno de los siguientes:))
+- ((One of the following is seen occasionally:))
   - **Minnowman:** {{RSChat|Any spare minnow going?}}
   - **Minnowman:** {{RSChat|I'm here to collect some minnow!}}
   - **Minnowman:** {{RSChat|Oi oi, give us your minnow!}}
@@ -20,12 +20,12 @@
 
 - **Minnowman:** ¿Tienes algún pececillo para mí? Necesito un montón para entregas.
 - **Minnowman:** Necesito una pila de [número] para ser precisos.
-- ((Sin el pececillo solicitado:))
+- ((Without the requested minnow:))
   - El Minnowman requiere un pececillo magnético [número].
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - El Minnowman requiere un pececillo magnético [número].
-- ((Con el pececillo solicitado:))
-  - ((Lo siguiente se muestra en una interfaz titulada "MINNOWMAN":))
+- ((With the requested minnow:))
+  - ((The following is shown in an interface titled "MINNOWMAN":))
     - ¿Quieres regalar el pececillo magnético Minnowman [número]?
       - CANCELAR
         - (end)
@@ -38,7 +38,7 @@
 #### Sin el pececillo solicitado
 
 - El Minnowman requiere un pececillo magnético [número].
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - El Minnowman requiere un pececillo magnético [número].
 
 #### Con el pececillo solicitado
@@ -48,19 +48,19 @@
 
 - (removes=magnetic minnow)
 - Ayudas al Minnowman con su situación de pececillo.
-- ((Repetido en ventana emergente:))
+- ((Repeated in pop-up:))
   - Ayudas al Minnowman con su situación de pececillo.
 
 ##### Si ya ayudó antes en este encuentro
 
 - Ya has ofrecido tu ayuda.
-- ((Repetido en ventana emergente:))
+- ((Repeated in pop-up:))
   - Ya has ofrecido tu ayuda.
 
 ### Leaving
 
-- ((Se ve uno de los siguientes y luego continúa a continuación:))
+- ((One of the following is seen, then continues below:))
   - **Minnowman:** {{RSChat|I'll be off now, I've got minnow to deliver!}}
   - **Minnowman:** {{RSChat|Thanks for the minnow chaps}}
-- ((Si el player ayudó:))
+- ((If the player helped:))
   - Serás recompensado por ayudar al muñeco pececillo: recibirás 1940 Fishing XP.

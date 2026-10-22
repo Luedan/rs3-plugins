@@ -11,7 +11,7 @@
 
 ### Exchange
 
-- ((Se abre la interfaz de la tienda Farming.))
+- ((Farming Store interface opens.))
 
 ### Talk to
 
@@ -25,7 +25,7 @@
         - [Menu]: ¿Qué te gustaría decir?
           - [Choice]: Sí, por favor.
             - **Player:** Sí, por favor.
-            - ((Se abre la interfaz de la tienda Farming.))
+            - ((Farming Store interface opens.))
           - [Choice]: ¿Qué haces con las herramientas que estás almacenando?
             - **Player:** ¿Qué haces con las herramientas que almacenas? ¡Es imposible que todos quepan en tus bolsillos!
             - **Scabfinger:** Pregunta tonta, obviamente mantén las herramientas en el pantano.
@@ -33,7 +33,7 @@
             - [Menu]: ¿Qué te gustaría decir?
               - [Choice]: Sí, por favor.
                 - **Player:** Sí, por favor.
-                - ((Se abre la interfaz de la tienda Farming.))
+                - ((Farming Store interface opens.))
               - [Choice]: ¿Qué puedes almacenar?
               - (arriba)
               - [Choice]: No gracias, guardaré mis cosas.
@@ -43,7 +43,7 @@
             - **Player:** No, gracias, guardaré mis cosas.
             - **Scabfinger:** ¿Está bien? Quizás en otra ocasión.
       - [Choice]: Abre tu tienda de herramientas, por favor.
-      - ((Se abre la interfaz de la tienda Farming.))
+      - ((Farming Store interface opens.))
       - [Choice]: En realidad, estoy bien.
         - **Player:** En realidad, estoy bien.
         - (arriba)
@@ -62,59 +62,59 @@
         - **Player:** ¿Pueden hacerme abono con parches?
         - **Scabfinger:** Claro, puedo hacerlo en todos tus parches usando el abono que me das, si estás dispuesto a pagar por la conveniencia.
         - **Scabfinger:** 500 de oro para abono normal, 1500 de oro para supercompost o 2500 de oro para ultracompost. Paga hasta 60.000 por adelantado, pero no hay reembolsos.
-        - (Condition: Con compost que queda por comprar:)
+        - (Condition: With composting left to buy:)
           - [Menu]: ¿Qué quieres recargar?|cond=top-up
             - [Choice]: Normal compost.|cond=Con compost normal queda por comprar:
-              - ((Una entrada de número con el mensaje "¿Pagar por cuántos (máximo 60 000)?" se abre.))
-              - ((Después de ingresar un número positivo:))
+              - ((A number input with prompt "Pay for how many (max 60,000)?" opens.))
+              - ((After entering a positive number:))
                 - **¿Pagar [número] coins?**
                   - Sí.
-                    - ((Si no tienes suficiente dinero contigo:))
+                    - ((If you do not have sufficient money with you:))
                       - **Scabfinger:** Parece que no puedes pagar. Vuelve cuando puedas.
-                    - ((Si tienes suficiente dinero contigo:))
+                    - ((If you have sufficient money with you:))
                       - (removes=coins)
                       - **Scabfinger:** Muy bien, mantendré tus parches en abono. ¡Solo mantén tu almacenamiento lleno!
                   - No.
                     - **Scabfinger:** Parece que no puedes pagar. Vuelve cuando puedas.
-              - ((Después de ingresar 0:))
+              - ((After entering 0:))
                 - **Scabfinger:** Haz lo que quieras.
             - [Choice]: Supercompost.|cond=Con supercompostaje queda por comprar:
-              - ((Una entrada de número con el mensaje "¿Pagar por cuántos (máximo 60 000)?" se abre.))
-              - ((Después de ingresar un número positivo:))
+              - ((A number input with prompt "Pay for how many (max 60,000)?" opens.))
+              - ((After entering a positive number:))
                 - **¿Pagar [número] coins?**
                   - Sí.
-                    - ((Si no tienes suficiente dinero contigo:))
+                    - ((If you do not have sufficient money with you:))
                       - **Scabfinger:** Parece que no puedes pagar. Vuelve cuando puedas.
-                    - ((Si tienes suficiente dinero contigo:))
+                    - ((If you have sufficient money with you:))
                       - (removes=coins)
                       - **Scabfinger:** Muy bien, mantendré tus parches en abono. ¡Solo mantén tu almacenamiento lleno!
                   - No.
                     - **Scabfinger:** Parece que no puedes pagar. Vuelve cuando puedas.
-              - ((Después de ingresar 0:))
+              - ((After entering 0:))
                 - **Scabfinger:** Haz lo que quieras.
             - [Choice]: Ultracompost.|cond=Con ultracompostaje queda por comprar:
-              - ((Una entrada de número con el mensaje "¿Pagar por cuántos (máximo 60 000)?" se abre.))
-              - ((Después de ingresar un número positivo:))
+              - ((A number input with prompt "Pay for how many (max 60,000)?" opens.))
+              - ((After entering a positive number:))
                 - **¿Pagar [número] coins?**
                   - Sí.
-                    - ((Si no tienes suficiente dinero contigo:))
+                    - ((If you do not have sufficient money with you:))
                       - **Scabfinger:** Parece que no puedes pagar. Vuelve cuando puedas.
-                    - ((Si tienes suficiente dinero contigo:))
+                    - ((If you have sufficient money with you:))
                       - (removes=coins)
                       - **Scabfinger:** Muy bien, mantendré tus parches en abono. ¡Solo mantén tu almacenamiento lleno!
                   - No.
                     - **Scabfinger:** Parece que no puedes pagar. Vuelve cuando puedas.
-              - ((Después de ingresar 0:))
+              - ((After entering 0:))
                 - **Scabfinger:** Haz lo que quieras.
             - [Choice]: nada
               - (continue|refund)
-        - (Condition: Sin compostaje queda por comprar:)
+        - (Condition: Without composting left to buy:)
           - **Scabfinger:** Parece que ya pagaste todo.
       - [Choice]: ¿Puedes dejar de hacer abono con parches por mí?
         - **Player:** ¿Puedes dejar de hacer abono con parches por mí?
-        - ((Si no has pagado por el compostaje:))
+        - ((If you have not paid for composting:))
           - **Scabfinger:** No me habías pagado, así que no lo haría de todos modos.
-        - ((Si has pagado por el compostaje:))
+        - ((If you have paid for composting:))
           - (continue|refund)
       - [Choice]: ¿Cuánto he pagado?
         - **Player:** ¿Cuánto abono usarás?
@@ -126,42 +126,42 @@
             - **Scabfinger:** ¿Quieres un reembolso entonces?
             - [Menu]: Selecciona una opción
               - [Choice]: Sí.
-                - ((Sin nada que reembolsar:))
+                - ((Without anything to refund:))
                   - **Scabfinger:** ¡Parece que ya te han reembolsado todo! Uf...
-                - ((Con algo para reembolsar:))
+                - ((With something to refund:))
                   - **¿Qué quieres reembolsar?**
                     - [Choice]: Normal compost.|cond=Sólo con abono normal a reembolsar:
-                      - ((Se abre una entrada de número con el mensaje "¿Cuántos reembolsos (máx. [número])?"))
-                      - ((Después de ingresar un número positivo:))
+                      - ((A number input opens with prompt "Refund how many (max [number])?"))
+                      - ((After entering a positive number:))
                         - (receives=coins)
                         - **Scabfinger:** ¡Ahí lo tienes!
-                      - ((Después de ingresar 0:))
+                      - ((After entering 0:))
                         - **Scabfinger:** Haz lo que quieras.
                     - [Choice]: Supercompost.|cond=Solo con supercompost para reembolsar:
-                      - ((Se abre una entrada de número con el mensaje "¿Cuántos reembolsos (máx. [número])?"))
-                      - ((Después de ingresar un número positivo:))
+                      - ((A number input opens with prompt "Refund how many (max [number])?"))
+                      - ((After entering a positive number:))
                         - (receives=coins)
                         - **Scabfinger:** ¡Ahí lo tienes!
-                      - ((Después de ingresar 0:))
+                      - ((After entering 0:))
                         - **Scabfinger:** Haz lo que quieras.
                     - [Choice]: Ultracompost.|cond=Solo con ultracompost para reembolsar:
-                      - ((Se abre una entrada de número con el mensaje "¿Cuántos reembolsos (máx. [número])?"))
-                      - ((Después de ingresar un número positivo:))
+                      - ((A number input opens with prompt "Refund how many (max [number])?"))
+                      - ((After entering a positive number:))
                         - (receives=coins)
                         - **Scabfinger:** ¡Ahí lo tienes!
-                      - ((Después de ingresar 0:))
+                      - ((After entering 0:))
                         - **Scabfinger:** Haz lo que quieras.
                     - [Choice]: Nada.
                       - (end)
               - [Choice]: No.
                 - (end)
       - [Choice]: ¿Puedo cambiar qué parches compostas?
-        - ((Si hay áreas en las que Scabfingers está compostando:))
-          - ((A continuación solo se enumeran los parches que los duendes están compostando:))
+        - ((If there are patches that Scabfingers are composting:))
+          - ((In the following only the patches that the leprechauns are composting are listed:))
             - **Scabfinger:** Actualmente usaremos su abono en:<br>Parches de árboles<br>Parches de huertos<br>Parches de lúpulo<br>Parches de arbustos<br>Parches de hierbas<br>Parches de flores<br>Parches especiales
             - (continue)
-        - ((Si hay áreas en las que Scabfingers no está compostando))
-          - ((A continuación sólo se enumeran los parches que los duendes no están compostando:))
+        - ((If there are patches that Scabfingers are not composting))
+          - ((In the following only the patches that the leprechauns are not composting are listed:))
             - **Scabfinger:** No usaremos su abono en<br>Parches de árboles<br>Parches de huertos<br>Parches de lúpulo<br>Parches de arbustos<br>Parches de hierbas<br>Parches de flores<br>Parches especiales
             - (continue)
         - [Menu]: Selecciona una opción
@@ -243,7 +243,7 @@
         - [Menu]: ¿Qué te gustaría decir?
           - [Choice]: Sí, por favor.
             - **Player:** Sí, por favor.
-            - ((Se abre la interfaz de la tienda Farming.))
+            - ((Farming Store interface opens.))
           - [Choice]: ¿Qué puedes almacenar?
             - [Choice]: ¿Qué herramientas puedes almacenar?
             - **Player:** ¿Qué puedes almacenar?

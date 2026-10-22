@@ -22,16 +22,16 @@
   - [Choice]: *(Después de Eagles' Peak:)* ¿Podrías hacerme otro disfraz de pájaro?
     - **Player:** ¿Podrías hacerme otro disfraz de águila?
     - **Fancy-dress shop owner:** Por supuesto, si puedes proporcionar los materiales. Necesitaré plumas apropiadas, alquitrán de pantano y algo de yellow dye. También te costará 25 piezas de oro.
-    - (Condition: Si el player no tiene los elementos requeridos:)
+    - (Condition: If the player does not have the required items:)
       - **Player:** Veré qué puedo hacer.
-    - (Condition: Si el player tiene los elementos requeridos:)
+    - (Condition: If the player has the required items:)
       - [Menu]: Selecciona una opción
         - [Choice]: Bien, aquí están los materiales. Águilame.
           - **Player:** Bien, aquí están los materiales. Águilame.
-          - (Condition: Si el player tiene menos de 25 coins:)
+          - (Condition: If the player has less than 25 coins:)
             - **Player:** Me temo que no tengo tanto dinero conmigo.
             - No puedes permitirte eso.
-          - (Condition: Si el player tiene 25 coins:)
+          - (Condition: If the player has 25 coins:)
             - (removes=10 eagle feathers, yellow dye, swamp tar and 25 coins) (receives=eagle cape and fake beak)
             - **Fancy-dress shop owner:** Ahí vamos, un disfraz de águila. Deberías ser la envidia de todo el grupo usando eso.
             - **Player:** Gracias.

@@ -17,10 +17,10 @@
 
 ##### Normalmente
 
-- (Condition: Sin nivel 99 Magic y nivel 99 Runecrafting:)
+- (Condition: Without level 99 Magic and level 99 Runecrafting:)
   - **Archmage Sedridor:** Bienvenido, aventurero, al mundialmente famoso Wizards' Tower. ¿Le puedo ayudar en algo?
   - (continue)
-- (Condition: Con nivel 99 Magic y nivel 99 Runecrafting:)
+- (Condition: With level 99 Magic and level 99 Runecrafting:)
   - **Archmage Sedridor:** Bienvenido a la torre, archimago. ¿Le puedo ayudar en algo?
   - (continue)
 - {{anchor|init-tower}}[Menú]: Elige una opción:
@@ -74,13 +74,13 @@
 - **Archmage Sedridor:** Hmm, una pregunta peculiar. ¡Son el colmo de la comodidad! Han hecho maravillas para el comercio mundial. Sin duda, han evitado a muchos ex caminantes innumerables lesiones en los pies.
 - **Archmage Sedridor:** Ah, pero es cierto... ¿Cuándo uno se toma el tiempo para pasear casualmente estos días, para disfrutar de las vistas y los sonidos? ¿Qué maravillas nos perdemos cuando la comodidad está en primer plano...?
 - {{RSFontAchievement|A Lode of Fun|Talk to Archmage Sedridor about the Lodestone Network.}}
-- ((Se muestra en una ventana emergente de finalización de tarea:))
+- ((Shown in a task completion pop-up:))
   - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
   - Un montón de diversión
   - Hable con Archmage Sedridor sobre la red Lodestone.
   - (continue)
 - **Archmage Sedridor:** De hecho, la vida debería ser algo "alterada", porque no puedes tener altibajos sin los bajos. Gracias por recordarme esto. Sabes qué, creo que saldré a caminar pronto.
-- (Condition: Si se han completado todas las tareas:)
+- (Condition: If all the tasks have been completed:)
   - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!
 
 #### Usando la caja de depósito con runa o esencia pura en backpack

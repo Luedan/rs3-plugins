@@ -35,7 +35,7 @@
   - [Choice]: Sí, puedes tenerlo.
     - **Player:** Sí, puedes tenerlo.
     - (removes=cup of tea)
-    - (Condition: Si es la primera vez que le das una taza de té a Elsie:)
+    - (Condition: If this is the first time giving Elsie a cup of tea:)
       - {{RSFontAchievement|Jackanory}}
       - (continue)
     - **Elsie:** Ahh, no hay nada como una buena taza de té. Ya sé, te contaré una historia para agradecerte el delicioso té...

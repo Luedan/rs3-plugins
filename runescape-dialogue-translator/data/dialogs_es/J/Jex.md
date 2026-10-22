@@ -100,13 +100,13 @@
             - (previous2|minorgods)
       - [Choice]: ¿Podrías contarme más sobre Apmeken?
         - **Player:** ¿Podrías contarme más sobre Apmeken?
-        - (Condition: Después de No hacer el mal:)
+        - (Condition: After Do No Evil:)
           - **Jex:** Algo me dice que quizás sepas más que yo. He sentido un cambio en los cielos, aunque sea pequeño, y no puedo evitar pensar que tiene algo que ver contigo.
           - **Player:** ¿Qué te hace pensar eso?
           - **Jex:** No viene mucha gente aquí y, de los pocos que lo hacen, solo unos pocos se preocupan por mencionar Apmeken. Siento su sonrisa soleada brillando sobre el desierto y estoy convencido de que tú eres el responsable de ello. Te lo agradezco.
           - **Player:** ¿Podrías contarme más sobre los dioses menores?
           - (previous|minorgods)
-        - (Condition: Antes de no hacer ningún mal:)
+        - (Condition: Before Do No Evil:)
           - **Jex:** Apmeken era la más traviesa, juguetona e impredecible de las deidades menores. Mi favorito personal, de hecho.
           - **Player:** Supongo que no debería confiar en ti, ¿entonces?
           - **Jex:** Si bien Apmeken era traviesa, también era una diosa de la amistad. Como ella, puedo hacerte tropezar, pero te atraparé antes de que caigas.

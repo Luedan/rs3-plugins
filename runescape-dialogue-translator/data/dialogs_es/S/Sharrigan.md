@@ -14,10 +14,10 @@
 
 #### Habla con
 
-- (Condition: Antes de completar Único en su clase:)
+- (Condition: Before completing One of a Kind:)
   - **Sharrigan:** Bien conocido.
   - (continue)
-- (Condition: Después de completar Único en su clase:)
+- (Condition: After completing One of a Kind:)
   - **Sharrigan:** Nos volvemos a encontrar.
   - (continue)
 - [Menu]: Elige una opción:
@@ -42,34 +42,34 @@
     - **Sharrigan:** Ahora tengo muchas cajas llenas de madera, enredaderas, hojas, pieles, piedras y arcilla.
     - **Sharrigan:** Por completar mi primera colección, cambiaré seis de estas cajas. Podrás seleccionar qué recurso compactado te otorga cada uno de ellos. Tengo bastante stock de todo tipo.
     - **Sharrigan:** Luego, para mi segunda y cuarta colección, intercambiaré algunos fragmentos de esqueleto de rex. Me intriga la reconstrucción que se está llevando a cabo en otras partes del campo base.
-    - (Condition: Antes de completar Sharrigan III:)
+    - (Condition: Before completing Sharrigan III:)
       - **Sharrigan:** Y en cuanto a mi tercera colección, descubrí una poderosa reliquia mágica de una de las criptas dragonkin.
       - **Sharrigan:** Una vez fue propiedad de un dragonante llamado Kaladan. El staff en sí se llama Kaladanda, lo que sugiere que este dragonante lo nombró o lo creó.
       - **Player:** Entonces, coloquialmente, ¿el 'Staff de Kaladan'? ¿Qué hace?
       - **Sharrigan:** Hay tallas por todas partes que representan escenas de muerte: huesos, cenizas y cosas similares. Exuda un aura de magia de muerte, pero también de vida nueva; me recuerda a Iaia, a los Olun'dai.
       - **Sharrigan:** Creo que sus efectos se relacionan con el momento en que tus enemigos mueren, recolectando sus restos en una forma fácil de almacenar, dándoles un nuevo propósito.
       - (continue)
-    - (Condition: Después de completar Sharrigan III:)
+    - (Condition: After completing Sharrigan III:)
       - **Sharrigan:** ¿Has desbloqueado el poder de Kaladanda staff?
       - (continue)
     - **Sharrigan:** Recientemente, varios arqueólogos han regresado con fichas de la mazmorra de Daemonheim. Para mi quinta colección puedo proporcionarles dos cajas grandes de estas fichas.
-    - (Condition: Antes de completar Sharrigan VI:)
+    - (Condition: Before completing Sharrigan VI:)
       - **Sharrigan:** Para completar mi sexta colección, también adquirí una reliquia bastante única del pasado. Un tapiz que representa un encuentro entre los y gorajo.
       - **Sharrigan:** Tras un estudio más profundo, este tapiz parece ser más que un simple registro de esta reunión.
       - **Sharrigan:** Ha sido imbuido de las técnicas precisas de su propia y meticulosa creación. A través de más estudios, podrá aprovechar esta meticulosa precisión para su propio beneficio.
       - (continue)
-    - (Condition: Después de completar Sharrigan VI:)
+    - (Condition: After completing Sharrigan VI:)
       - **Sharrigan:** ¿Pudiste hacer uso del poder imbuido dentro del tapiz?
       - **Sharrigan:** Para completar aún más mi sexta colección, puedo proporcionarles más de estas cajas de fichas grandes, incluso incluiré una de estas tarjetas misteriosas que descubrieron algunos de los arqueólogos.
       - (continue)
     - **Sharrigan:** En cuanto a mi séptima colección, puedo ofrecerles una pieza de tetracompass.
     - **Sharrigan:** Además de todo eso, también tengo cronotas.
-    - (Condition: Si el player no le ha dado una máscara mortuoria al gato Bob:)
+    - (Condition: If the player hasn't given a death mask to Bob the cat:)
       - **Sharrigan:** ¡Oh! ¡Una última cosa! Esto es extraño, pero Mr Mordaut también me informó que el amigo de un amigo solicitó una máscara mortuoria de dragón. ¿Quizás conoces el llamado 'el gato Bob'?
       - (continue)
     - (initial|initial-options-anachronia)
   - [Choice]: cond=With Balarak's sash brush (damaged) in backpack:|¿Sabes lo que necesito para restaurar este pincel?
-    - (Condition: Antes de aprender a restaurar el cepillo de marco de Balarak:)
+    - (Condition: Before learning how to restore Balarak's sash brush:)
       - [Sharrigan mira por encima del mango del cepillo dañado.]
       - **Sharrigan:** Este es el mango de un cepillo de fajín dragonkin. He leído sobre ellos, pero esta es la primera vez que veo uno.
       - **Sharrigan:** Se utilizaron en la preparación de muestras experimentales para garantizar que no hubiera contaminantes presentes; según mis lecturas, fueron extremadamente efectivos.
@@ -78,7 +78,7 @@
       - **Sharrigan:** Las cerdas son más complejas de obtener. Necesitarás encontrar un poco de pelo de zigomita seco y molerlo con un poco de polvo de ónix.
       - **Sharrigan:** Luego, una vez que el mango y el pelo de zigomita suavizado están unidos, el último paso es una infusión de energía dracónica.
       - (initial|initial-options-anachronia)
-    - (Condition: Después de aprender cómo restaurar el cepillo de marco de Balarak:)
+    - (Condition: After learning how to restore Balarak's sash brush:)
       - **Player:** ¿Podrías recordarme qué necesito para restaurar este cepillo dañado?
       - (continuea|restore-brush-steps)
   - [Choice]: Adiós.
@@ -94,7 +94,7 @@
 #### Habla con
 
 - **Guardián del pasado Sharrigan:** Hola, Player.
-- ((Con el amuleto Pastkeeper:))
+- ((With the Pastkeeper amulet:))
   - **Player:** Hola, Sharrigan. Tengo algo para ti.
   - **Guardián del pasado Sharrigan:** ¿Oh?
   - **Player:** Antes de dejar Iaia, intenté que el viejo Guardián del Pasado evacuara. Ella se negó a irse, pero me dio este amuleto.
@@ -108,9 +108,9 @@
 - **Pastkeeper Sharrigan:** ¿Te gustaría escuchar alguna historia de pastkeeper?
 - Seleccione una opción
   - Sí.
-    - ((Sin ninguna historia desbloqueada:))
+    - ((Without any stories unlocked:))
       - **Pastkeeper Sharrigan:** {{AnchorText|You must train with the other ilujanka here first}}, para poder acceder a sus historias.
-    - ((Con historias desbloqueadas:))
+    - ((With stories unlocked:))
       - **Guardián del pasado Sharrigan:** ¿{{AnchorText|Which story do you wish to hear}}?
       - (Se abre una interfaz de selección de historias con historias desbloqueadas seleccionables).
         - Reflexionar sobre las malas decisiones

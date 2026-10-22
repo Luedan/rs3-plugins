@@ -22,7 +22,7 @@
 
 #### Recibiendo el pergamino de desafío
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only the first time:)
   - **Nails Newton:** ¿Estás aquí por algo?
   - **Player:** Estoy intentando completar un rastro del tesoro.
   - **Nails Newton:** Bueno, primero debes hacerme este favor.
@@ -33,15 +33,15 @@
 
 - **Nails Newton:** Ingrese la respuesta a la pregunta.
 - Ingrese la cantidad:<br>[Input field]
-- (Condition: Cuando se le da la respuesta incorrecta:)
+- (Condition: When given the wrong answer:)
   - **Nails Newton:** Incorrecto. ¿Has probado a contar?
-- (Condition: Cuando se le da la respuesta correcta:)
+- (Condition: When given the correct answer:)
   - (removes=the clue scroll (medium) y desplazamiento de desafío (medio))
-  - (Condition: Si el rastro continúa:)
+  - (Condition: If the trail continues:)
     - (receives=a new clue scroll (medium))
     - [¡Nails Newton te ha dado otro pergamino de pistas!]
     - (continue)
-  - (Condition: Si el sendero termina:)
+  - (Condition: If the trail ends:)
     - (receives=reward casket (medium))
     - [¡Has encontrado un ataúd!]
     - (continue)

@@ -20,7 +20,7 @@
 
 - **Player:** Hola de nuevo Bolren.
 - **King Bolren:** Bueno, hola, es un placer verte de nuevo.
-- (Condition: Si se ha perdido el amuleto del gnomo:)
+- (Condition: If the gnome amulet has been lost:)
   - **Player:** He perdido mi amuleto.
   - **King Bolren:** Dios mío. Toma, toma otro. Estamos realmente en deuda con usted.
   - (receives=gnome amulet)
@@ -29,25 +29,25 @@
 
 - **Player:** Hola de nuevo Bolren.
 - **King Bolren:** Bueno, hola, es un placer verte de nuevo.
-- (Condition: Si se ha perdido el amuleto del gnomo:)
+- (Condition: If the gnome amulet has been lost:)
   - **Player:** He perdido mi amuleto.
   - **King Bolren:** Dios mío. Toma, toma otro. Estamos realmente en deuda con usted.
   - (receives=gnome amulet)
   - (continue)
-- ((Se abre la interfaz de descripción general de misiones para The Path of Glouphrie.))
+- ((Quest Overview interface for The Path of Glouphrie opens.))
   - [Choice]: No ahora mismo
     - (end)
   - [Choice]: Aceptar misión
-    - (Condition: Sin cumplir los requisitos de la misión:)
+    - (Condition: Without meeting the quest's requirements:)
       - No cumples los requisitos para empezar: 'El Camino de Glouphrie'.
-      - (ventana emergente)
-        - (Ventana emergente: No cumples con los requisitos para comenzar: 'El Camino de Glouphrie'.|advertencia=yes)
-    - (Condition: Cumplir con los requisitos de la misión:)
+      - (pop-up)
+        - (Pop-up: You do not meet the requirements to start : 'The Path of Glouphrie'.|warning=yes)
+    - (Condition: Meeting the quest's requirements:)
       - (ver | El camino de Gloufrie)
 
 #### Después del camino de Glouphrie
 
-- (Condition: Si se ha perdido el amuleto del gnomo:)
+- (Condition: If the gnome amulet has been lost:)
   - **Player:** He perdido mi amuleto.
   - **King Bolren:** Dios mío. Toma, toma otro. Estamos realmente en deuda con usted.
   - (receives=gnome amulet)
@@ -61,7 +61,7 @@
 
 #### Después del prisionero de Glouphrie
 
-- (Condition: Si se ha perdido el amuleto del gnomo:)
+- (Condition: If the gnome amulet has been lost:)
   - **Player:** He perdido mi amuleto.
   - **King Bolren:** Dios mío. Toma, toma otro. Estamos realmente en deuda con usted.
   - (receives=gnome amulet)
@@ -76,10 +76,10 @@
 
 - **King Bolren:** ¡Felicitaciones, humano!
 - (removes=the old clue scroll (medium))
-- ((Si el rastro continúa:))
+- ((If the trail continues:))
   - (receives=a new clue scroll (medium))
   - [¡King Bolren te ha dado tu próximo pergamino de pistas!]
-- ((Si el sendero termina:))
+- ((If the trail ends:))
   - (receives=reward casket (medium))
   - [¡Has encontrado un ataúd!]
 

@@ -28,10 +28,10 @@
         - {{anchor|with-beauty-blessed}}**Dororan:** 'Con belleza bendita.'
         - [Menu]: Selecciona una opción
           - [Choice]: Graba la pulsera.
-            - (Condition: Sin al menos el nivel 42 Crafting:)
+            - (Condition: Without at least level 42 Crafting:)
               - [Necesitas un nivel Crafting de al menos 42 para grabar la pulsera de rubíes.]
               - **Dororan:** Es una pena. Quizás puedas volver a intentarlo en otro momento.
-            - (Condition: Con al menos el nivel 42 Crafting:)
+            - (Condition: With at least level 42 Crafting:)
               - Obtuviste 2000 Crafting XP.
               - [Graba cuidadosamente "Con belleza bendecida" en el brazalete de rubíes.]
               - **Dororan: ** ¡Magnífico! ¡Pendiente! Le daré esto inmediatamente. Por favor, vuelve cuando tengas tiempo.
@@ -55,23 +55,23 @@
         - **Dororan:** ¡Lo sé! No sé de dónde habría sacado Gunthor algo así. Quizás Gudrun tenga alguna idea.
         - (continuea|something-else-sub-options)
       - [Choice]: Me gustaría ver el poema que escribiste para Gunthor.
-        - (Condition: Sin espacio en backpack:)
+        - (Condition: Without space in backpack:)
           - [No tienes espacio para el poema.]
-        - (Condition: Con espacio en backpack:)
+        - (Condition: With space in backpack:)
           - [Dororan te regala una copia del poema.]
           - (receives=Gunnar's Ground)
           - **Dororan:** ¡Ahí lo tienes!
       - [Choice]: cond=Having lost the swanky boots:|Parece que he extraviado mis elegantes botas.
         - **Player:** Parece que perdí mis elegantes botas.
-        - (Condition: Si aún se pueden reclamar pares de botas elegantes gratis:)
+        - (Condition: If free pairs of swanky boots can still be claimed:)
           - **Dororan:** ¡No te preocupes! Quedan algunos. Aquí tienes.
-          - (Condition: Sin espacio en backpack:)
+          - (Condition: Without space in backpack:)
             - [No tienes espacio para las botas.]
-          - (Condition: Con espacio en backpack:)
+          - (Condition: With space in backpack:)
             - [Dororan te regala algunas botas más.]
             - (receives=swanky boots)
             - **Dororan:** ¡Ten más cuidado con estos! No tengo un suministro infinito.
-        - (Condition: Si se han reclamado los 12 pares de botas elegantes gratis:)
+        - (Condition: If all 12 free pairs of swanky boots have been claimed:)
           - **Dororan:** ¡Has agotado mi suministro de botas!
           - **Dororan:** Podría conseguirte otro par, pero tendría que cambiarlos por ellos.
           - **Dororan:** He estado pensando en regalarle a Gudrun un anillo de rubí. Si me traes una, te la cambio por unas botas más.
@@ -108,10 +108,10 @@
     - **Dororan:** No hay mucho espacio... ¿qué tal simplemente 'Gudrun'?
     - [Menu]: Selecciona una opción
       - [Choice]: Graba el collar.
-        - (Condition: Sin al menos el nivel 72 Crafting:)
+        - (Condition: Without at least level 72 Crafting:)
           - [Necesitas un nivel Crafting de al menos 72 para grabar el collar de piedra dragón.]
           - **Dororan:** Es una pena. Quizás puedas volver a intentarlo en otro momento.
-        - (Condition: Con al menos el nivel 72 Crafting:)
+        - (Condition: With at least level 72 Crafting:)
           - Obtuviste 10,000 Crafting XP.
           - [Grabas hábilmente 'Gudrun' en el collar de piedra de dragón.]
           - **Dororan:** ¡Otro trabajo asombroso! Por favor, vuelve más tarde para ver si tengo otras tareas de elaboración.
@@ -142,10 +142,10 @@
     - {{anchor|most-beautiful}}**Dororan:** 'La chica más hermosa de la habitación'.
     - [Menu]: Selecciona una opción
       - [Choice]: Graba el amuleto.
-        - (Condition: Sin al menos el nivel 90 Crafting:)
+        - (Condition: Without at least level 90 Crafting:)
           - [Necesitas un nivel Crafting de al menos 90 para grabar el amuleto de ónix.]
           - **Dororan:** Es una pena. Quizás puedas volver a intentarlo en otro momento.
-        - (Condition: Con al menos nivel 90 Crafting:)
+        - (Condition: With at least level 90 Crafting:)
           - ¡Felicitaciones! Has completado: 'Gunning for Jewellery' - Graba todas las joyas de Dororan.
           - Obtuviste 20 000 Crafting XP.
           - [Graba con destreza "La chica más bella de la habitación" en el amuleto de ónix.]

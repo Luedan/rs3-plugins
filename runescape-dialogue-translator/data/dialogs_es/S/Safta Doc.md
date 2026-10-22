@@ -16,10 +16,10 @@
   - [Choice]: ¿Qué haces aquí?
     - **Player:** ¿Qué haces aquí?
     - **Safta Doc:** ¡He estado haciendo machetes para la tienda Bwana de Gabooty!
-    - (Condition: Si el player no ha reparado una parte del pueblo:)
+    - (Condition: If the player has not repaired a part of the village:)
       - **Safta Doc:** Si alguna vez necesitas un Bwana y estás haciendo algunos favores en la aldea, avísame, podemos llegar a un acuerdo.
       - (previous)
-    - (Condition: Si el player reparó una parte de la valla del pueblo y luego habló con Murcaily:)
+    - (Condition: If the player has repaired a part of the village fence and talked to Murcaily afterwards:)
       - **Safta Doc:** Si quieres que te haga un machete, podemos hacer un trato si quieres.
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, me gustaría conseguir un machete.
@@ -50,13 +50,13 @@
                   - (continue)
                 - [Choice]: Volver a las descripciones de los machetes
                   - (previous)
-        - (Condition: Sin suficientes palos comerciales:)
+        - (Condition: Without enough trading sticks:)
           - **Player:** No tengo suficientes palos de intercambio, lo siento.
           - (continue)
-        - (Condition: Sin tubérculo de gota:)
+        - (Condition: Without a gout tuber:)
           - **Player:** No tengo ningún tubérculo de planta de gota, lo siento.
           - (continue)
-        - (Condition: Sin suficientes gemas:)
+        - (Condition: Without enough gems:)
           - **Player:** ¡No tengo tres ópalos/jades/topacio rojo!
           - (continue)
         - **Safta Doc:** Ok Bwana, vuelve cuando los tengas.
@@ -92,10 +92,10 @@
       - (Diálogo 4 :)
         - **Fanellaman:** Lo siento Bwana, ya estoy ocupado, ¿por qué no vas y hablas con Murcaily? Está en alguna parte del pueblo.
   - [Choice]: cond=With Tai Bwo Wannai Cleanup started|He estado trabajando en el pueblo.
-    - (Condition: Con favor Tai Bwo Wannai no reclamado:)
+    - (Condition: With unclaimed Tai Bwo Wannai favour:)
       - **Safta Doc:** Oye, te he visto trabajando en el pueblo. Has estado haciendo un muy buen trabajo aquí para nosotros. Déjame darte algo por tu molestia.
       - (receives=trading sticks)
-    - (Condition: Sin favor de Tai Bwo Wannai no reclamado:)
+    - (Condition: Without unclaimed Tai Bwo Wannai favour:)
       - **Safta Doc:** Ya te he dado algunos palitos de intercambio y no tengo ninguno más en este momento. ¿Por qué no vas y hablas con algunos de los otros aldeanos y consigues algunas contribuciones?
   - [Choice]: Bien, gracias.
     - **Player:** Vale, gracias.

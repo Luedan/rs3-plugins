@@ -64,17 +64,17 @@
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Podrías cuidar esta baliza por mí?
     - **Player:** ¿Podrías cuidar esta baliza por mí?
-    - (Condition: Si la baliza está apagada:)
+    - (Condition: If the beacon is unlit:)
       - **Stubthumb:** Por supuesto. Una vez que enciendas la baliza, dame 5 logs y haré que el fuego arda por mucho tiempo.
-    - (Condition: Si la baliza está muriendo:)
+    - (Condition: If the beacon is dying:)
       - **Stubthumb:** Sólo me ocupo del fuego ardiente. ¡Tú mismo te ocupas del fuego moribundo!
-    - (Condition: Si la baliza no muere:)
-      - (Condition: Si Stubthumb no tiene cinco logs:)
-        - (Condition: Si el player no tiene al menos cinco logs del mismo tipo:)
+    - (Condition: If the beacon is not dying:)
+      - (Condition: If Stubthumb does not have five logs:)
+        - (Condition: If the player does not have at least five logs of the same type:)
           - Debes darle al bombero cinco troncos del mismo tipo para la baliza.
           - **Stubthumb:** ¿Cómo puedo cuidar el fuego por ti? ¡No tienes suficiente logs bueno para que yo lo use!
-        - (Condition: Si el player tiene al menos cinco logs del mismo tipo:)
-          - (Condition: Si el mensaje de confirmación está habilitado:)
+        - (Condition: If the player has at least five logs of the same type:)
+          - (Condition: If the confirmation prompt is enabled:)
             - **Stubthumb:** Necesitas cinco logs para cuidar el fuego. ¿Bueno?
             - [Menu]: ¿Quieres darle cinco logs al fuego?
               - [Choice]: Sí.
@@ -86,9 +86,9 @@
                 - **Stubthumb:** Bueno. Sabes dónde estoy si cambias de opinión.
               - [Choice]: Sí. Por favor, no me pidas confirmación en el futuro.
                 - (above|talk-give-logs)
-          - (Condition: Si el mensaje de confirmación está deshabilitado:)
+          - (Condition: If the confirmation prompt is disabled:)
             - (above|talk-give-logs)
-      - (Condition: Si Stubthumb tiene cinco logs:)
+      - (Condition: If Stubthumb has five logs:)
         - **Stubthumb:** Por supuesto. Yo uso logs que ya dejaste aquí.
   - [Choice]: ¿Puedes hablarme de otras balizas?
     - **Player:** ¿Puedes hablarme de otras balizas?
@@ -102,7 +102,7 @@
     - **Player:** ¿Una guacamaya?
     - **Stubthumb:** Sí. Las guacamayas pueden volar muy alto en el aire y ver a larga distancia. También son criaturas muy inteligentes.
     - **Stubthumb:** Puede volar por el aire y luego informar sobre toda la red de balizas.
-    - ((Si el player tiene una bolsa de guacamayo en su backpack:))
+    - ((If the player has a macaw pouch in their backpack:))
       - **Stubthumb:** Oye, estás sosteniendo una guacamaya. Le das guacamayo, te hablo de otras balizas también.
       - (continue|macaw)
   - [Choice]: ¿Cómo te va?
@@ -136,27 +136,27 @@
 
 ### Using logs on Stubthumb
 
-- (Condition: Si la baliza está apagada:)
+- (Condition: If the beacon is unlit:)
   - Aquí no hay fuego para que lo atienda el bombero.
-- (Condition: Si la baliza está muriendo:)
+- (Condition: If the beacon is dying:)
   - **Player:** Ya que estoy aquí y el fuego de la baliza se está apagando, también podría cuidarlo yo mismo.
-- (Condition: Si la baliza no muere:)
-  - (Condition: Si Stubthumb no tiene cinco logs:)
-    - (Condition: Si el mensaje de confirmación está habilitado:)
+- (Condition: If the beacon is not dying:)
+  - (Condition: If Stubthumb does not have five logs:)
+    - (Condition: If the confirmation prompt is enabled:)
       - [Menu]: ¿Quieres darle cinco logs al fuego?
         - [Choice]: Sí.
-          - (Condition: Si el player no tiene al menos cinco logs del mismo tipo:)
+          - (Condition: If the player does not have at least five logs of the same type:)
             - El bombero necesita cinco troncos del mismo tipo para mantener este fuego.
-          - (Condition: Si el player tiene al menos cinco logs del mismo tipo:)
+          - (Condition: If the player has at least five logs of the same type:)
             - (removes=five logs)
             - Le das al fuego tierno 5 [type] logs.
         - [Choice]: No.
           - **Player:** Creo que, después de todo, me quedaré con mi logs.
         - [Choice]: Sí. Por favor, no vuelvas a pedirme confirmación.
           - (above|use-give-logs)
-    - (Condition: Si el mensaje de confirmación está deshabilitado:)
+    - (Condition: If the confirmation prompt is disabled:)
       - (above|use-give-logs)
-  - (Condition: Si Stubthumb tiene cinco logs:)
+  - (Condition: If Stubthumb has five logs:)
     - Ya saliste de logs con este ténder de fuego.
 
 ### Attempting to open the log storage chest without the elite Varrock tasks completed

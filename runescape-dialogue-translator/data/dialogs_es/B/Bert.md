@@ -29,11 +29,11 @@
 
 ##### Diálogo posterior
 
-- (Condition: Si el player no ha recogido la arena diaria de Bert:)
-  - (Condition: Si el player no tiene suficiente espacio bancario libre:)
+- (Condition: If the player has not collected the daily sand from Bert:)
+  - (Condition: If the player does not have enough free bank space:)
     - **Bert:** Eeee, no tienes espacio libre en ese banco, Player. Haz algo de espacio entre los peces y las botas antes de volver a mí.
     - **Player:** Está bien, haré algo de espacio en mi banco y volveré.
-  - (Condition: Si el player tiene suficiente espacio bancario libre:)
+  - (Condition: If the player has enough free bank space:)
     - {{Trandom}}
       - (Diálogo 1 :)
         - **Bert:** ¡Buenos días Player!
@@ -56,7 +56,7 @@
         - **Player:** Hola Bert, ¿podría darme mi arena hoy, por favor?
         - **Bert:** ¡Sí, dame un minuto porque me apuran!
         - **Player:** ¡Gracias por la arena Bert!
-- (Condition: Si el player ha recogido la arena diaria de Bert:)
+- (Condition: If the player has collected the daily sand from Bert:)
   - **Bert:** '¡Hola, Player! Espero que te diviertas. Estaré un poquito ocupado para "ayudar con esa arena". Vuelve [in [number] días/mañana].
   - **Player:** Está bien, Bert. Volveré por mi arena un poco más tarde.
 

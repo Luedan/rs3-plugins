@@ -54,7 +54,7 @@
 
 ### Task System
 
-- (Condition: Si se completaron los logros de Easy Falador y no se reclamaron las recompensas:)
+- (Condition: If the Easy Falador achievements have been completed and the rewards not claimed:)
   - **Player:** He venido por mi recompensa.
   - **Redbeard Frank:** Entonces, ya terminaste, ¡bien hecho! Creo que las felicitaciones son necesarias.
   - **Player:** Creo que las recompensas están en orden.
@@ -68,7 +68,7 @@
   - **Player:** ¡Vaya, gracias!
   - **Redbeard Frank:** Si pierdes tu escudo, regresa y busca otro.
   - (continue)
-- (Condition: Si el player ha perdido su escudo Falador 1:)
+- (Condition: If the player has lost their Falador shield 1:)
   - **Player:** He perdido mi escudo.
   - **Redbeard Frank:** ¿Qué? ¡Ese era un equipo valioso!
   - **Redbeard Frank:** Por suerte, tengo uno de repuesto. Cuídalo mejor esta vez.
@@ -140,7 +140,7 @@
 #### Habla con
 
 - **Redbeard Frank:** ¡Arriba, amigo!
-- ((Sólo la primera vez durante el evento:))
+- ((Only on first time during the event:))
   - **Player:** ¡Arréglate! Di Frank, ¿qué pasa con ese cofre de ahí?
   - **Redbeard Frank:** Ese será un cofre del tesoro de Héctor el Tuerto, mi viejo capitán.
   - **Redbeard Frank:** Recientemente se lavó y considerando todas las celebraciones y regalos de los últimos tiempos, pensé en entregar sus riquezas a la gente de Gielinor.
@@ -169,14 +169,14 @@
     - (arriba)
   - Habla sobre el cofre gratuito de Frank
     - **Redbeard Frank:** Ese será un cofre del tesoro de Héctor el Tuerto, mi viejo capitán.
-    - ((Con el cofre cerrado:))
+    - ((With the chest closed:))
       - **Redbeard Frank:** Por cada 4 llaves de pirata que me traigas, te daré un tesoro una vez que el cofre esté abierto.
       - **Redbeard Frank:** Podrás encontrar las llaves todos los días cuando llegues a Gielinor y cada hora mientras estés fuera de casa.
       - **Redbeard Frank:** Sin embargo, creo que no encontrarás más de 12 llaves por semana.
       - **Redbeard Frank:** La semana de un pirata siempre comienza el miércoles, así que ahí es cuando podrás encontrar más llaves.
       - **Redbeard Frank:** Podéis traerme las llaves hasta el 31 de enero.
       - **Redbeard Frank:** Después de eso, esperaré hasta el 28 de febrero para que reclames tu parte.
-    - ((Con el cofre abierto:))
+    - ((With the chest open:))
       - **Redbeard Frank:** Actualmente estoy repartiendo sus riquezas a la gente de Gielinor.
       - **Redbeard Frank:** ¡Continúa y toma tu parte!
   - Acerca del sistema de tareas...
@@ -188,10 +188,10 @@
 #### Habla con
 
 - **Redbeard Frank:** ¡Arriba, amigo!
-- ((Sólo la primera vez durante el evento:))
+- ((Only on first time during the event:))
   - **Player:** ¡Llega ahí! ¿Veo que has sacado otro cofre de las profundidades del mar?
   - **Redbeard Frank:** ¡Sí! El húmedo tesoro de Héctor está resultando bastante lucrativo.
-  - ((Sólo hasta que se abra el cofre:))
+  - ((Only until the chest is opened:))
     - **Player:** ¡Es genial escucharlo! ¿Alguna posibilidad de volver a conseguir algo de botín a cambio de llaves?
     - **Player:** Espero que no haya sapos ahí esta vez...
     - **Redbeard Frank:** ¡De hecho, encontré la clave de este yo mismo!
@@ -206,7 +206,7 @@
     - **Redbeard Frank:** Además de eso, le he ordenado a mi tripulación que les entregue un botín pirata adicional por cada 16 bits de ocho que encuentren.
     - **Redbeard Frank:** Cada botín pirata tiene un botín de este cofre, así como un título y algo de ropa digna de un pirata.
     - **Redbeard Frank:** Puedes venir a reclamar el botín ganado desde el 3 de mayo hasta el final del 31 de mayo.
-  - ((Sólo después de abrir el cofre:))
+  - ((Only after the chest is opened:))
     - **Redbeard Frank:** {{Transcript missing|}} piezas de a ocho.
   - (continue)
 - **Seleccione una opción**
@@ -219,7 +219,7 @@
   - Habla de Piezas de Odio
     - (arriba)
   - Acerca del cofre gratuito de Frank
-    - ((Con el cofre cerrado:))
+    - ((With the chest closed:))
       - **SELECCIONA UNA OPCIÓN**
         - Acerca de Bits de ocho
           - **Redbeard Frank:** Dado que mis reservas de ron se están agotando rápidamente, esta vez repartiré botín a cambio de trozos de ocho.
@@ -236,7 +236,7 @@
           - **Redbeard Frank:** Le he ordenado a mi tripulación que les entregue un botín pirata adicional por cada 16 bits de ocho que encuentren.
           - **Redbeard Frank:** Cada botín pirata tiene un botín de este cofre, así como un título y algo de ropa digna de un pirata.
           - (previous)
-    - ((Con el cofre abierto:))
+    - ((With the chest open:))
       - **Redbeard Frank:** Si tienes suficientes piezas de ocho, ahora puedes reclamar una parte del botín.
       - **Redbeard Frank:** Será un tesoro por cada 4 bits de ocho. ¡Aproximadamente la mitad del tesoro son vestimentas piratas, mascotas o objetos poderosos!
   - Acerca del sistema de tareas...

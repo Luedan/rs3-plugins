@@ -45,17 +45,17 @@
 ### Get task
 
 - **Player:** Necesito otra tarea.
-- (Condition: Con una tarea Slayer en curso:)
+- (Condition: With a Slayer assignment in progress:)
   - **Mazchna:** Todavía estás cazando a [task]; Vuelve cuando hayas terminado tu tarea.
-- (Condition: Sin una tarea Slayer en curso:)
-  - (Condition: Condición desconocida:)
+- (Condition: Without a Slayer assignment in progress:)
+  - (Condition: Unknown condition:)
     - **Mazchna:** En realidad eres muy fuerte. ¿Estás seguro de que no quieres que Laniakea en Anacronia te asigne una tarea?
     - [Menu]: Selecciona una opción
       - [Choice]: No, está bien, te encargaré una tarea.
         - **Player:** No, está bien, te encargaré una tarea.
         - [Menu]: ¿Cambiar su tarea Slayer asignada?
           - [Choice]: [número] [task] (predeterminado)
-            - (Condition: Con Slayer Introspection aprovechado:)
+            - (Condition: With Slayer Introspection harnessed:)
               - [Menu]: ¿Modificar su tarea Slayer asignada?
                 - [Choice]: [número] [task] (predeterminado)
                   - (continue)

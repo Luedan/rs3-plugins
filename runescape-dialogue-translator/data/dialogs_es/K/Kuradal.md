@@ -19,7 +19,7 @@
 - [Menu]: Selecciona una opción
   - [Choice]: Necesito otra tarea.
     - **Player:** Necesito otra tarea.
-    - (Condition: Si el player no es nivel 110 Combate y 75 Slayer:)
+    - (Condition: If the player is not level 110 Combat and 75 Slayer:)
       - **Kuradal:** Lo siento, pero no eres lo suficientemente fuerte para que yo te enseñe.
   - [Choice]: ¿Podemos hablar de artículos e incentivos?
     - **Player:** ¿Podemos hablar de artículos e incentivos?
@@ -53,9 +53,9 @@
     - **Kuradal:** Este es un Skillcape de Slayer. Sólo un verdadero Slayer master puede usar uno. Necesitas más entrenamiento antes de ganar ese honor.
   - [Choice]: cond=If the player has 99 Slayer:|¿Puedes venderme un Slayer skillcape?
     - **Kuradal:** Bueno, te has desempeñado bien como estudiante. Supongo que ahora te has ganado el derecho a llevar una capa tan prestigiosa. Serán 99.000 coins, por favor.
-    - ((Si el player tiene un Ring of charos (a) equipado, el mensaje se reemplaza por lo siguiente:))
+    - ((If the player has a Ring of charos (a) equipped, the message is replaced with the following:))
       - **Kuradal:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins para este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
-    - (Condition: Si el player tiene un token inverted skillcape o un token maestro skillcape invertido en su inventario sintonizado con Slayer:)
+    - (Condition: If the player has an inverted skillcape token or inverted master skillcape token in their inventory attuned to Slayer:)
       - **Kuradal:** ¡Veo que tienes una de las fichas de inversión de capa de Hans! Te quitaré eso de las manos y te venderé cualquier inverted cape para el que seas elegible.
       - (removes=any inverted skillcape token and inverted master skillcape token)
         - (continue)
@@ -66,7 +66,7 @@
         - *(Si el player tiene al menos dos espacios backpack libres:)*
           - (removes=99,000 coins (or 92,000 coins with Ring of charos (a))) Campana (receives=Slayer cape (or trimmed version if level 99 in at least two skills) y Slayer)
           - **Kuradal:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
-        - (Condition: Si el player no tiene al menos dos espacios backpack libres:)
+        - (Condition: If the player doesn't have at least two free backpack spaces:)
           - **Kuradal:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar algo de espacio en el inventario antes de que pueda venderte uno.
       - [Choice]: cond=If the player has given Kuradal an inverted skillcape token:|Me gustaría un skillcape con los colores invertidos.
         - (receives=Inverted Slayer skillcape)
@@ -84,7 +84,7 @@
             - No.
             - (end)
       - [Choice]: cond=If the player has given Kuradal an inverted master skillcape token:|Me gustaría un master cape con los colores invertidos.
-        - ((Igual que he dominado esta habilidad. ¿Hay algo más?, excepto recibir un Slayer skillcape maestro invertido en lugar de una capa Slayer master normal.))
+        - ((Same as I've mastered this skill. Is there anything else?, except the receive an inverted master Slayer skillcape instead of a normal Slayer master cape))
   - [Choice]: He notado que hay un par de versiones de cada skillcape.
     - **Kuradal:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
     - *(Si el player ha elegido los nuevos modelos skillcape :)*

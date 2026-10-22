@@ -92,17 +92,17 @@
       - Se han eliminado 999 coins de su bolsa de dinero.
       - Compras un atractor nuevo por 999 coins.
   - [Choice]: el acumulador
-    - (Condition: Sin 75 flechas de acero y 999 coins:)
+    - (Condition: Without both 75 steel arrows and 999 coins:)
       - **Ava:** No dirijo una organización benéfica. Necesitas al menos 999 coins y 75 flechas de acero para comprar un acumulador nuevo.
-    - (Condition: Con 75 flechas de acero y 999 coins:)
+    - (Condition: With 75 steel arrows and 999 coins:)
       - (removes=999 coins and 75 steel arrows)
       - (receives=Ava's accumulator)
       - Se han eliminado 999 coins de su bolsa de dinero.
       - Compras un acumulador nuevo por 999 coins y 75 flechas.
   - [Choice]: The alerter|cond=Después de completar No hacer el mal
-    - (Condition: Sin 75 flechas de acero y 999 coins:)
+    - (Condition: Without both 75 steel arrows and 999 coins:)
       - **Ava:** No dirijo una organización benéfica. Necesitas al menos 999 coins y 75 flechas de acero para comprar una nueva alerta.
-    - (Condition: Con 75 flechas de acero y 999 coins:)
+    - (Condition: With 75 steel arrows and 999 coins:)
       - (removes=999 coins and 75 steel arrows)
       - (receives=Ava's alerter)
       - Se han eliminado 999 coins de su bolsa de dinero.

@@ -11,14 +11,14 @@
 
 ### Occasionally
 
-- ((Uno de los siguientes se ve al azar:))
+- ((One of the following is randomly seen:))
   - **Putrid Zombie (el espíritu de [Player]):** {{RSChat|Braaaaains...}}
   - **Putrid Zombie (el espíritu de [Player]):** {{RSChat|DUUUHHH}}
   - **Putrid Zombie (el espíritu de [Player]):** {{RSChat|Erggg...}}
 
 ### Activating Command Putrid Zombie
 
-- ((Se ve uno de los siguientes y luego continúa a continuación:))
+- ((One of the following is seen, then continues below:))
   - **Putrid Zombie (el espíritu de [Player]):** {{RSChat|Blueeurghh!}}
   - **Putrid Zombie (el espíritu de [Player]):** {{RSChat|Burrrr}}
   - **Putrid Zombie (el espíritu de [Player]):** {{RSChat|Gahh!}}

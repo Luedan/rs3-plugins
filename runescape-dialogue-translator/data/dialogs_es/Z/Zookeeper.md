@@ -25,7 +25,7 @@
 
 ### Treasure Trails
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only the first time:)
   - **Zookeeper:** Antes de ayudarte, ¿puedes hacer algo por mí?
   - **Player:** Claro.
   - **Zookeeper:** Necesito saber cuántos camellos tenemos.
@@ -36,15 +36,15 @@
 
 - **Zookeeper:** Por favor, dime cuántos camellos hay.
 - Ingrese la cantidad:<br>[Input field]
-- (Condition: Cuando se le da la respuesta incorrecta:)
+- (Condition: When given the wrong answer:)
   - **Zookeeper:** Lo siento, ¡pero eso no suena bien!
-- (Condition: Cuando se le da la respuesta correcta:)
+- (Condition: When given the correct answer:)
   - (removes=the old clue scroll (medium) y desplazamiento de desafío (medio))
-  - (Condition: Si el rastro continúa:)
+  - (Condition: If the trail continues:)
     - (receives=a new clue scroll (medium))
     - [¡El cuidador del zoológico te ha dado otro pergamino de pistas!]
     - (continue)
-  - (Condition: Si el sendero termina:)
+  - (Condition: If the trail ends:)
     - (receives=reward casket (medium))
     - [¡Has encontrado un ataúd!]
     - (continue)

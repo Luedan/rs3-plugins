@@ -19,7 +19,7 @@
 - **Player:** *pss pss* ¡Aquí, gatito!
 - **Mekhat:** ¿Perdón? ¿No ves que estoy ocupado preparándome para la batalla?
 - **Player:** Err... ¿no?
-- (Condition: Sin haber completado Un juego de Cat y Amascut:)
+- (Condition: Without having completed A Game of Cat and Amascut:)
   - ¡Felicitaciones! Has completado: 'Un juego de Cat Amascut': habla con Mekhat dentro del Santuario del Renacimiento.
   - (continue)
 - **Mekhat:** Sí, bueno, los pasillos de este Sanctum no patrullarán solos. Se necesita una mano hábil para mantener la población de escarabajos bajo control, déjame decirte.

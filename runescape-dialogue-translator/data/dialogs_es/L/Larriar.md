@@ -21,7 +21,7 @@
     - (previous)
   - ¿Puedo comprar un Runecrafting skillcape?
     - **Larriar:** Bueno, ¡parece que te lo mereces después de tanto correr!
-    - ((Si el player tiene un Ring of charos (a equipado, el mensaje se reemplaza por lo siguiente:))
+    - ((If the player has a Ring of charos (a equipped, the message is replaced with the following:))
     - **Larriar:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins para este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
     - Elige una opción:
       - ¿99.000 coins? Eso es demasiado caro. ((o 92.000 coins con Ring of charos (a)))
@@ -48,10 +48,10 @@
         - **Larriar:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Runecrafting master cape.
           - ¿Comprar Runecrafting master cape por 120.000 coins?
             - Sí.
-              - ((Si el player tiene al menos un espacio backpack libre:))
+              - ((If the player has at least one free backpack space:))
                 - (removes=120,000 coins) (receives=Runecrafting master cape)
                 - (end)
-              - ((Si el player no tiene al menos un espacio backpack libre:))
+              - ((If the player does not have at least one free backpack space:))
                 - **Larriar:** No tienes suficiente espacio en tu inventario. Por favor regresa cuando tengas más.
             - No.
               - (end)

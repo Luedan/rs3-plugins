@@ -20,13 +20,13 @@
     - **Player:** Creo que lo dejaré pasar.
   - [Choice]: Sí por favor.
     - **Player:** Sí, por favor.
-    - (Condition: Si el player no tiene al menos un espacio backpack libre:)
+    - (Condition: If the player does not have at least one free backpack space:)
       - **Player:** No tengo suficiente espacio, lo siento.
-    - (Condition: Si el player tiene al menos un espacio backpack libre:)
-      - (Condition: Si el player tiene al menos una moneda:)
+    - (Condition: If the player has at least one free backpack space:)
+      - (Condition: If the player has at least one coin:)
         - (removes=1 coin) (receives=kebab)
         - Compras un kebab.
-      - (Condition: Si el player no tiene coins:)
+      - (Condition: If the player has no coins:)
         - **Player:** Vaya, olvidé traer dinero conmigo.
         - **Karim:** Vuelve cuando tengas algo.
         - No puedes permitirte eso.
@@ -48,7 +48,7 @@
 
 #### Senderos del tesoro
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only the first time:)
   - **Karim:** Tengo un pequeño problema que debes resolver.
 - (receives=challenge scroll (medium))
 - [¡El vendedor te ha dado un pergamino de desafío!]
@@ -57,15 +57,15 @@
 
 - **Karim:** Ingresa la respuesta al acertijo.
 - Ingrese la cantidad:<br>[Input field]
-- (Condition: Cuando se le da la respuesta incorrecta:)
+- (Condition: When given the wrong answer:)
   - **Karim:** No, eso no está bien, piénsalo de nuevo.
-- (Condition: Cuando se le da la respuesta correcta:)
+- (Condition: When given the correct answer:)
   - (removes=the clue scroll (medium) y desplazamiento de desafío (medio))
-  - (Condition: Si el rastro continúa:)
+  - (Condition: If the trail continues:)
     - (receives=a new clue scroll (medium))
     - [¡El vendedor te ha dado otro pergamino de pistas!]
     - (continue)
-  - (Condition: Si el sendero termina:)
+  - (Condition: If the trail ends:)
     - (receives=reward casket (medium))
     - [¡Has encontrado un ataúd!]
     - (continue)

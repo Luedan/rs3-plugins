@@ -32,14 +32,14 @@
 - **Lalli:** ¡Quiero 1000 coins! ¡Pagas o te vas!
 - [Menu]: Selecciona una opción
   - [Choice]: pagar
-    - (Condition: Sin al menos 1.000 coins:)
+    - (Condition: Without at least 1,000 coins:)
       - No puedes permitirte eso.
       - **Player:** No tengo tanto efectivo encima...
       - **Lalli:** ¡Bueno, estúpido, mal comercio humano, entonces no conseguirás lana! ¡O cualquier manzana dorada!
-    - (Condition: Con al menos 1.000 coins:)
-      - (Condition: Sin espacio en backpack:)
+    - (Condition: With at least 1,000 coins:)
+      - (Condition: Without space in backpack:)
         - **Lalli:** De todos modos, el estúpido humano no tiene espacio para cargar una manzana.
-      - (Condition: Con espacio en backpack:)
+      - (Condition: With space in backpack:)
         - (removes=1,000 coins) (receives=golden wool)
         - **Player:** ¿Eso es todo? ¡Aquí tienes!
         - **Lalli:** ¡Ja! ¡Un humano estúpido cree que compra manzanas doradas, pero en realidad obtiene lana estúpida! ¡Jajaja!
@@ -55,7 +55,7 @@
 
 ##### Después de haber reclamado el huevo de oro
 
-- ((Como fuera de la búsqueda de huevos.))
+- ((As outside the egg hunt.))
 
 ### Using an item on Lalli's Stew
 

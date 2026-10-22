@@ -17,7 +17,7 @@
 - **Grubb:** Hola, humano.
 - **Player:** Hola, ogro.
 - **Player:** ¿Cómo estás hoy, pequeño ogro?
-- ((Se selecciona un diálogo aleatorio entre los siguientes:))
+- ((A random dialogue is selected from the following:))
   - *Diálogo 1:*
     - **Grubb:** ¿Puedo tener algunas bellezas brillantes, humano?
     - **Player:** ¿Qué te hace pensar que te daría mis bellezas brillantes?
@@ -99,16 +99,16 @@
     - **Grubb:** Si completas esto, te daré: potenciador Chompy bird x 1. ¡Estoy seguro de que también ganarás reputación en el gremio de agricultores!
     - **Grubb:** ¡Tendrás que ser rápido!, solo estoy aquí por [número] días, [número] horas y [número] minutos. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - (Condition: Sin los artículos solicitados:)
+    - (Condition: Without the requested items:)
       - **Grubb:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Grubb:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **Grubb:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal], o [Animal].
       - **Grubb:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
-    - (Condition: Con los artículos solicitados:)
+    - (Condition: With the requested items:)
       - (removes=the requested items) (receives=Chompy bird enhancer and Brassica primer)
       - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-      - ((Repetido en una ventana emergente:))
-        - (Ventana emergente: por completar esta solicitud, recibió 1 imprimación para Brassica.|color=#EBE0BC|shadow=no)
+      - ((Repeated in a pop-up:))
+        - (Pop-up: For completing this request you've received Brassica primer x 1.|colour=#EBE0BC|shadow=no)
         - (continue)
       - [Has recibido: potenciador Chompy bird x 1<br> y 5500 reputación agrícola.]
 
@@ -134,8 +134,8 @@
 
 - (removes=the requested items) (receives=Chompy bird enhancer and Brassica primer)
 - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-- ((Repetido en una ventana emergente:))
-  - (Ventana emergente: por completar esta solicitud, recibió 1 imprimación para Brassica.|color=#EBE0BC|shadow=no)
+- ((Repeated in a pop-up:))
+  - (Pop-up: For completing this request you've received Brassica primer x 1.|colour=#EBE0BC|shadow=no)
   - (continue)
 - [Has recibido: potenciador Chompy bird x 1<br> y 5500 reputación agrícola.]
 

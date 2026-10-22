@@ -12,10 +12,10 @@
 ### Catching pickpockets
 
 - {{RSChat|Keep thine hands to thyself, Player}}
-- (Condition: Repetido en el chat:)
+- (Condition: Repeated in the chat:)
   - Guardia: Mantén tus manos quietas, Player
   - (continue)
-- (Condition: Si el jugador logra evitar parcialmente el daño:)
+- (Condition: If player succeeds to partially avoid the damage:)
   - Tu agilidad te ayuda a esquivar parcialmente el golpe.
   - (continue)
 - Has quedado atónito.

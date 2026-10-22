@@ -15,7 +15,7 @@
   - **Player:** {{RSChat|Here, kitty kitty!}}
   - **Player:** {{RSChat|Who's a good Pork Pie?}}
   - **Player:** {{RSChat|Good kitty!}}
-- ((Ocasionalmente ocurrirá uno de los siguientes:))
+- ((Occasionally one of the following will occur:))
   - **Pastel de cerdo:** {{RSChat|*coo*}}
   - **Pastel de cerdo:** {{RSChat|*meow*}}
   - **Pastel de cerdo:** {{RSChat|*purr*}}
@@ -42,11 +42,11 @@
 #### Con lenguaje de gato
 
 - {{Trandom}}
-  - ((Conversación 1:))
+  - ((Conversation 1:))
     - **Pork Pie:** No puedo hablar. Debo realizar mis pasos diarios.
-  - ((Conversación 2:))
+  - ((Conversation 2:))
     - **Pork Pie:** ¡Fuera del camino, humano! Tengo lugares adonde ir y animales que ver.
-  - ((Conversación 3:))
+  - ((Conversation 3:))
     - **Player:** ¿Por qué te llaman Pork Pie?
     - **Pork Pie:** ¿Por qué te llamas Player?
     - **Player:** En realidad, no estoy seguro.

@@ -125,9 +125,9 @@
         - **Guildmaster Darren Lightfinger:** Puede ser cualquier cosa, desde un cuadro antiguo, una moneda de colección hasta alguna joya brillante.
         - (previous)
       - [Choice]: Tengo algunos artículos para ti aquí.
-        - ((Sin artículos para entregar:))
+        - ((Without items to hand in:))
           - **Guildmaster Darren Lightfinger:** Parece que no tienes ningún artículo que me interese.
-        - ((Con un artículo para entregar:))
+        - ((With one item to hand in:))
           - **Guildmaster Darren Lightfinger:** ¡Oh, eso se ve bien! Dámelo y te recompensaré generosamente con puntos de robo o coins.
           - [Menu]: Selecciona una opción
             - [Choice]: ¿Podría darme Pilfer Points, por favor?
@@ -140,22 +140,22 @@
               - Se han añadido 37.500 coins a tu bolsa de dinero.
             - [Choice]: Lo siento, prefiero conservarlos.
               - (previous2)
-        - ((Con varios artículos para entregar:))
+        - ((With multiple items to hand in:))
           - **Guildmaster Darren Lightfinger:** ¡Oh, se ven bonitos! Dámelos y te recompensaré generosamente con Pilfer Points o coins.
           - [Menu]: Selecciona una opción
             - [Choice]: ¿Podría darme Pilfer Points, por favor?
               - (Se muestra un campo de entrada con el mensaje "¿Cuántos desea entregar?").
-              - ((Después de ingresar 0:))
+              - ((After entering 0:))
                 - (end)
-              - ((Después de ingresar un valor positivo:))
+              - ((After entering a positive value:))
                 - (removes=the specified number of items) (receives=ten pilfer points for each)
                 - A cambio, Guildmaster le otorga puntos de robo [número].<br>Ahora tiene puntos de robo [número].
                 - Ahora tienes puntos de robo [número].
             - [Choice]: ¿Podría darme coins, por favor?
               - (Se muestra un campo de entrada con el mensaje "¿Cuántos desea entregar?").
-              - ((Después de ingresar 0:))
+              - ((After entering 0:))
                 - (end)
-              - ((Después de ingresar un valor positivo:))
+              - ((After entering a positive value:))
                 - (removes=the specified number of items) (receives=37,500 coins for each)
                 - A cambio, Guildmaster te premia con [número] coins.
                 - [número] coins se han agregado a su bolsa de dinero.
@@ -243,10 +243,10 @@
 - **Guildmaster Darren Lightfinger:** Bueno, vamos, hurga en su bolsillo.
 - **Player:** Aquí está el pañuelo.
 - **Guildmaster Darren Lightfinger:** ¡Increíble! ¡Ni siquiera noté que tus manos se movían! Nunca había visto una exhibición tan virtuosa y, de hecho, ¡tampoco vi esa!
-- (Condition: Después de completar el logro Comprar y vender algo de XP:)
+- (Condition: After completing the Buy and Sell Some XP achievement:)
   - **Player:** Te he enseñado todo lo que puedes aprender de mí, me temo.
   - (continuea|How's the guild coming along these days)
-- (Condition: Antes de completar el logro Comprar y vender algo de XP:)
+- (Condition: Before completing the Buy and Sell Some XP achievement:)
   - **Guildmaster Darren Lightfinger:** Supongo que no podrás darme algunos consejos.
   - [Menu]: Selecciona una opción
     - [Choice]: Bueno, está bien.

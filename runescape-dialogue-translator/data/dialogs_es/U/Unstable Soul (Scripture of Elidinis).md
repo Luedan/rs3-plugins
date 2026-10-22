@@ -12,22 +12,22 @@
 ### Spawning
 
 - Un alma inestable aparece cerca.
-- ((Repetido en una ventana emergente:))
-  - (Ventana emergente: aparece un alma inestable cerca.|color=#1EFF00)
+- ((Repeated in a pop-up:))
+  - (Pop-up: An unstable soul appears nearby.|colour=#1EFF00)
 
 ### Stabalise
 
 - (Action: La Guía Inestable deja de teletransportarse.)
 - Tu enfoque estabiliza el alma.
-- ((Repetido en una ventana emergente:))
-  - (Ventana emergente: Tu concentración estabiliza el alma.|color=#00FF00)
+- ((Repeated in a pop-up:))
+  - (Pop-up: Your focus stabilises the soul.|colour=#00FF00)
 
 ### Failing to stabalise in 30.6 seconds
 
 - (Action: El Alma Inestable desaparece.)
 - El alma inestable desaparece antes de que puedas guiarla hacia adelante.
-- ((Repetido en una ventana emergente:))
-  - (Ventana emergente: el alma inestable desaparece antes de que puedas guiarla hacia adelante).
+- ((Repeated in a pop-up:))
+  - (Pop-up: The unstable soul disappears before you could guide it onwards.)
 
 ### Guide
 
@@ -39,5 +39,5 @@
 
 - (Action: El Alma Inestable desaparece.)
 - El alma perdida desaparece antes de que puedas guiarla hacia adelante.
-- ((Repetido en una ventana emergente:))
-  - (Ventana emergente: el alma perdida desaparece antes de que puedas guiarla hacia adelante).
+- ((Repeated in a pop-up:))
+  - (Pop-up: The lost soul disappears before you could guide it onwards.)

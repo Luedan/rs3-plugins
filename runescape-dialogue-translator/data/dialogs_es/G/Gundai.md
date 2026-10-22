@@ -13,7 +13,7 @@
 
 - **Player:** Hola, ¿qué haces aquí?
 - **Gundai:** Soy banquero, el único en estos lugares peligrosos.
-- ((Si el player tiene artículos para recolectar:))
+- ((If the player has items to collect:))
   - **Gundai:** Antes de continuar, debo informarle que tiene artículos listos para ser recogidos en Grand Exchange.
   - (continue)
 - **¿QUÉ TE GUSTARÍA DECIR?**
@@ -30,7 +30,7 @@
 ### Two paces away from Gundai
 
 - **Gundai:** Buenos días. ¿Cómo puedo ayudarte?
-- ((Si el player tiene artículos para recolectar:))
+- ((If the player has items to collect:))
   - **Gundai:** Antes de continuar, debo informarle que tiene artículos listos para ser recogidos en Grand Exchange.
   - (continue)
 - ¿Qué te gustaría decir?

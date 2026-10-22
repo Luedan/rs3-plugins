@@ -10,5 +10,5 @@
 
 - **Hypochondriyak:** BaroooOOOOooOOOOoooOOOOoo... *TOS TOS TOS*
 - **Player:** ¡Pobrecita!
-- ((Si estás en el nivel 26 de Zodiyak Track:))
+- ((If on tier 26 of the Zodiyak Track:))
   - Acabas de terminar tu tarea actual de Yak Track: Amigo, ¿dónde está mi yak? <br />Abre la interfaz de Yak Track para reclamar tus recompensas.

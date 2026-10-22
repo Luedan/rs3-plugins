@@ -11,7 +11,7 @@
 
 ### At the Magic Barrier
 
-- ((El siguiente diálogo ocurre repetidamente entre los dos cultistas zamorakianos frente a la barrera. El noreste de ellos se denomina "Zamorakian cultist 1" a continuación y el suroeste como "Zamorakian cultist 2".))
+- ((The following dialogue occurs repeatedly between the two Zamorakian cultists in front of the barrier. The north-eastern of them is referred to as "Zamorakian cultist 1" below, and the south-western as "Zamorakian cultist 2".))
   - **Zamorakian cultist 1:** {{RSChat|You know, when you say 'Chaos and Demons'...}}
   - **Zamorakian cultist 2:** {{RSChat|Yeah?}}
   - **Zamorakian cultist 1:** {{RSChat|Well, I didn't really expect to be repairing walls.}}

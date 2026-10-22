@@ -13,12 +13,12 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Puedes imbuirme otro amuleto de cangrejo?
-  - (Condition: Con cangrejo en backpack, banco o en cramulet:)
+  - (Condition: With a crabulet in backpack, bank or in a cramulet:)
     - **Hermit:** Siento que ya tienes un cangrejo. Este es un regalo precioso que no debe entregarse a nadie ni a todos. Uno es suficiente.
-  - (Condition: De lo contrario:)
-    - (Condition: Sin amuleto de cangrejo en backpack:)
+  - (Condition: Otherwise:)
+    - (Condition: Without a crab amulet in backpack:)
       - **Hermit:** No tienes un amuleto de cangrejo para imbuir.
-    - (Condition: Con amuleto de cangrejo en backpack:)
+    - (Condition: With a crab amulet in backpack:)
       - (removes=crab amulet) (receives=crabulet)
       - **Hermit:** Ahí. Otro cangrejo encantado para ti.
       - (initial)

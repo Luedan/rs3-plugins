@@ -72,11 +72,11 @@
 
 - **Barlak:** Ese caparazón gigante... ¿qué es?
 - **Player:** ¡Es un caparazón de tortuga de batalla gigante!
-- (Condition: Si el player solo lleva caparazones de tortuga normales:)
+- (Condition: If the player is carrying only regular tortoise shells:)
   - **Barlak:** Hmmm... Creo que podría hacer algo con ellos.
   - **Barlak:** Te daré [amount]gp por el caparazón de tortuga que llevas
   - (continue)
-- (Condition: Si el player lleva uno o más caparazones perfectos:)
+- (Condition: If the player is carrying one or more perfect shells:)
   - **Barlak:** Hmmm... Creo que podría hacer algo con ellos, especialmente ese perfecto.
   - **Barlak:** Te daré [amount]gp por el caparazón de tortuga que llevas e intentaré darte algunos consejos sobre Crafting mientras estoy en ello.
   - (continue)

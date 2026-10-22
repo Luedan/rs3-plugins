@@ -36,10 +36,10 @@
                 - **Player:** Adiós por ahora.
       - [Choice]: ¿Qué actividades dan qué pañuelos?
         - **Player:** ¿Qué actividades dan qué pañuelos?
-        - (Condition: Habiendo completado únicamente Compradores y Bodegas:)
+        - (Condition: Having completed only Buyers and Cellars:)
           - **Locks and traps trainer:** Actualmente, nuestras zapatillas y cofres para carteristas llevan pañuelos azules. Esperamos expandirnos cuando tengamos más staff.
           - (continue)
-        - (Condition: Después de completar las siguientes travesuras:)
+        - (Condition: After completing subsequent capers:)
           - **Locks and traps trainer:** Nuestras zapatillas de carterismo, cajas fuertes y cofres fáciles llevan pañuelos azules; Los pañuelos rojos se pueden encontrar en las zapatillas deportivas y detrás de cerraduras más duras.
           - (continue)
         - [Menu]: Selecciona una opción
@@ -79,13 +79,13 @@
             - (arriba)
           - [Choice]: Me gustaría reclamar una recompensa por mis puntos de pañuelo.
             - **Player:** Me gustaría reclamar una recompensa por mis puntos de pañuelo.
-            - (Condition: Sin puntos complicados que reclamar:)
+            - (Condition: With no hanky points to claim:)
               - **Locks and traps trainer:** ¡No tienes puntos de pañuelo que reclamar! Prueba algunos de los ejercicios de entrenamiento del gremio.
-            - (Condition: Con puntos de pañuelo para reclamar:)
+            - (Condition: With hanky points to claim:)
               - **Locks and traps trainer:** ¡Claro! Veamos ahora...
               - (receives=Thieving XP)
               - Obtienes <number> Thieving XP. Le quedan <number> puntos y puede entregar hasta <number> puntos más esta semana.
-            - (Condition: Habiendo reclamado el máximo de puntos del pañuelo de la semana:)
+            - (Condition: Having claimed the maximum hanky points for the week:)
               - **Locks and traps trainer:** Lo sentimos, has reclamado tantos puntos de pañuelo esta semana como puedas en tu nivel.
           - [Choice]: Adiós por ahora.
             - **Player:** Adiós por ahora.

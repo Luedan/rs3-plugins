@@ -35,7 +35,7 @@
   - [Choice]: ¿Sabes mucho sobre los precios de armaduras y armas?
     - **Player:** ¿Sabes mucho sobre los precios de armaduras y armas?
     - **Hofuthand (armadura y armas):** Sin duda. Mi área de especialización.
-    - ((Precios guía: se abren armaduras y armas.))
+    - ((Guide Prices: Armour and Weapons opens up.))
   - [Choice]: No dije nada en absoluto.
     - **Player:** No dije nada en absoluto.
     - **Hofuthand (armadura y armas):** Pensé que al menos dijiste "Hola". Debo estar volviéndome loco. ¿Crees que me estoy volviendo loco?
@@ -43,7 +43,7 @@
 
 #### Opción de información-combate
 
-- ((Precios guía: se abren armaduras y armas.))
+- ((Guide Prices: Armour and Weapons opens up.))
 
 ### Overhead dialogue
 

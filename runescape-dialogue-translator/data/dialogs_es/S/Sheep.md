@@ -11,7 +11,7 @@
 
 ### Overhead
 
-- ((Ocasionalmente se ve lo siguiente:))
+- ((The following is occasionally seen:))
   - **Sheep:** {{RSChat|Baa!}}
 
 ### Shear
@@ -56,8 +56,8 @@
 ##### Sin espacio libre backpack
 
 - No tienes suficiente espacio en tu backpack para transportar la lana que cortarías.
-- (ventana emergente)
-  - (Ventana emergente: No tienes suficiente espacio en tu backpack para transportar la lana que cortarías.|advertencia=yes)
+- (pop-up)
+  - (Pop-up: You don't have enough space in your backpack to carry any wool you would shear.|warning=yes)
 
 ##### Con espacio gratuito backpack
 

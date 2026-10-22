@@ -12,68 +12,68 @@
 ### Talk to
 
 - **Gregorovic's Chosen:** ¿Síiiiiiiiii?
-- ((Con un cristal de anima en backpack:))
+- ((With an anima crystal in backpack:))
   - **Gregorovic's Chosen:** El cristal de Anima que tienes ahí es interesante. ¿Estarías dispuesto a donarlo?
   - [Menu]: ¿Entregar tu cristal de Anima?
     - [Choice]: Sí. (Gana 500 de reputación con Sliske)
       - (removes=anima crystal)
       - ¡Has ganado 500 de reputación con las fuerzas de Sliske!
-      - (Condition: Si se desbloquearan nuevas recompensas:)
+      - (Condition: If new rewards were unlocked:)
         - (ver|Reputación (Corazón de Gielinor))
         - (continue)
       - **Gregorovic's Chosen:** Gracias por tu ayuda.
       - (continue)
     - [Choice]: No.
       - (continue)
-- (Condition: Con sellos de facciones opuestas en backpack y menos de 2000 reputación en Sliske:)
+- (Condition: With seals of opposing factions in backpack and under 2,000 Sliske reputation:)
   - **Gregorovic's Chosen:** Noté que tienes un stock de sellos de todo el Corazón. ¿Estarías interesado en donarlos?
   - **¿CAMBIAR SELLOS POR REPUTACIÓN CON LOS SLISKEANS?**
-    - ((Con Sellos del Cywir en backpack:))
+    - ((With Seals of the Cywir in backpack:))
       - Entregue los sellos Seren.
         - (Los sellos se intercambian por reputación).
         - ¡Tus Sellos de Cywir valían [número] reputación ante las fuerzas de Sliske!
-        - (Condition: Si se desbloquearan nuevas recompensas:)
+        - (Condition: If new rewards were unlocked:)
           - (ver|Reputación (Corazón de Gielinor))
           - (continue)
-        - ((Con otros sellos de las facciones opuestas restantes:))
+        - ((With other seals of the opposing factions left:))
           - (above|seals)
-        - ((Sin otros sellos de las facciones opuestas quedaron:))
+        - ((Without other seals of the opposing factions left:))
           - (continue)
-    - ((Con Sellos de las Furias en backpack:))
+    - ((With Seals of the Furies in backpack:))
       - Entregue los sellos Zamorak.
         - (Los sellos se intercambian por reputación).
         - ¡Tus Sellos de las Furias valían [número] reputación ante las fuerzas de Sliske!
-        - (Condition: Si se desbloquearan nuevas recompensas:)
+        - (Condition: If new rewards were unlocked:)
           - (ver|Reputación (Corazón de Gielinor))
           - (continue)
-        - ((Con otros sellos de las facciones opuestas restantes:))
+        - ((With other seals of the opposing factions left:))
           - (above|seals)
-        - ((Sin otros sellos de las facciones opuestas quedaron:))
+        - ((Without other seals of the opposing factions left:))
           - (continue)
-    - ((Con los jinetes de Seals of the Dragon en backpack:))
+    - ((With Seals of the Dragon riders in backpack:))
       - Entrega de sellos de Zaros
         - (Los sellos se intercambian por reputación).
         - ¡Tus jinetes de los Sellos del Dragón valían [número] reputación con las fuerzas de Sliske!
-        - (Condition: Si se desbloquearan nuevas recompensas:)
+        - (Condition: If new rewards were unlocked:)
           - (ver|Reputación (Corazón de Gielinor))
           - (continue)
-        - ((Con otros sellos de las facciones opuestas restantes:))
+        - ((With other seals of the opposing factions left:))
           - (above|seals)
-        - ((Sin otros sellos de las facciones opuestas quedaron:))
+        - ((Without other seals of the opposing factions left:))
           - (continue)
-    - ((Con múltiples tipos de sellos de facciones opuestas en backpack:))
+    - ((With multiple types of opposing factions' seals in backpack:))
       - Entregue todos los sellos.
         - (Los sellos se intercambian por reputación).
-        - ((Si se entregaron los Sellos del Cywir:))
+        - ((If Seals of the Cywir were handed in:))
           - ¡Tus Sellos de Cywir valían [número] reputación ante las fuerzas de Sliske!
           - (continue)
-        - ((Si se entregaron los Sellos de las Furias:))
+        - ((If Seals of the Furies were handed in:))
           - ¡Tus Sellos de las Furias valían [número] reputación ante las fuerzas de Sliske!
           - (continue)
-        - ((Si se entregaron los jinetes de los Sellos del Dragón:))
+        - ((If Seals of the Dragon riders were handed in:))
           - ¡Tus jinetes de los Sellos del Dragón valían [número] reputación con las fuerzas de Sliske!
           - (continue)
-        - (Condition: Si se desbloquearan nuevas recompensas:)
+        - (Condition: If new rewards were unlocked:)
           - (ver|Reputación (Corazón de Gielinor))
           - (continue)
         - (continue)
@@ -86,7 +86,7 @@
     - **Gregorovic's Chosen:** No todos somos salvajes. Sobre esta plataforma se ha establecido una tregua que nos permite a nosotros, los enviados de cada facción, utilizar palabras en lugar de violencia para influir en nuevos reclutas. Porque abajo la batalla continúa, por lo que debemos hacer lo que podamos para persuadir a los mercenarios que se unen a la refriega para que luchen por nuestra causa. Echa un vistazo a lo que tengo para ofrecerte. Te lo aseguro, haré que valga la pena luchar por Sliske.
     - (previous)
   - ¿Cuál es tu opinión sobre mí?
-    - ((Se abre la interfaz de Recompensas de reputación de Sliske.))
+    - ((Sliske Reputation Rewards interface opens.))
   - ¿Cómo puedo mejorar mi reputación?
     - **Gregorovic's Chosen:** Hay algunas formas de mejorar tu posición. Lo más fácil que puedes hacer es derrotar a nuestros enemigos y usar fragmentos de Ingresión para pedir refuerzos para nosotros. El maestro de recompensas de allí, Feng, también puede ayudarte a mejorar tu posición ofreciéndote recompensas. Habla con él si quieres saber más. Ah, y estoy seguro de que si de alguna manera pudieras encontrar una manera de derrotar a los generales de las otras facciones, eso sin duda te haría ganar mucho favor.
     - (previous)
@@ -94,14 +94,14 @@
     - **Gregorovic's Chosen:** Puedes recolectar fragmentos de armadura y crestas alrededor del Corazón que luego se pueden combinar para crear una armadura similar a la mía. Si me demuestras tu valía, puedo mostrarte cómo mejorarlo aún más y desbloquear su verdadero potencial.
     - (previous)
   - Me gustaría reclamar mis recompensas.
-    - ((Si actualmente no tienes recompensas para reclamar:))
+    - ((If you currently have no rewards to claim:))
       - **Gregorovic's Chosen:** No hay nada que pueda darte.
       - (previous)
-    - ((Con recompensas para reclamar:))
-      - (Condition: Sin espacio libre backpack:)
+    - ((With rewards to claim:))
+      - (Condition: Without free backpack space:)
         - **Gregorovic's Chosen:** No tienes suficiente espacio en tu inventario.
         - (previous2)
-      - (Condition: Con espacio gratuito backpack:)
+      - (Condition: With free backpack space:)
         - [Menu]: Elige una opción:
           - [Choice]: Me gustaría reclamar mi insignia.
             - (receives=Sliske insignia)
@@ -116,7 +116,7 @@
 
 ### Reputation
 
-- ((Se abre la interfaz de Recompensas de reputación de Sliske.))
+- ((Sliske Reputation Rewards interface opens.))
 
 ### Reclaim
 

@@ -28,7 +28,7 @@
           - [Choice]: Quiero saber; Cuéntame qué pasó aquí.
             - **Player:** Quiero saber; Cuéntame qué pasó aquí.
             - **Ashuelot Reis:** Tras la caída de Zaros en la Segunda Edad, Azzanadra, el general Mahjarrat de las fuerzas zarosianas, fue derrotado por los ejércitos de Zamorak y Saradomin. Fue rechazado y encarcelado en la gran pirámide de Jaldraocht.
-            - (Condition: Si el player ha completado la misión Desert Treasure:)
+            - (Condition: If the player has completed the Desert Treasure quest:)
               - **Player:** De hecho, yo mismo he visto y trabajado con Azzanadra. Lo conocí por primera vez en la misma pirámide de la que hablas.
               - **Ashuelot Reis:** Interesante, Player. Zaros y sus seguidores han cambiado mucho a lo largo de los años: ten cuidado.
               - **Player:** No tienes que preocuparte por eso, continúa con la historia.
@@ -54,7 +54,7 @@
             - **Player:** Sliske!
             - **Ashuelot Reis:** Nex se soltó una vez más. Después de haber estado atrapado durante tanto tiempo, no estaba con toda su fuerza, pero rápidamente arrasó con un gran número de personas de todos lados.
             - **Ashuelot Reis:** Fue en ese momento que utilicé mis conocimientos de Guthix para convertirme en un espíritu de la naturaleza, para sobrevivir al caos que siguió y con el objetivo de algún día deshacer lo que se había hecho.
-            - ((Si el player ha completado la misión Naturaleza Spirit:))
+            - ((If the player has completed the Nature Spirit quest:))
               - **Player:** De hecho, ayudé a alguien con el proceso de convertirse en un espíritu de la naturaleza. ¿Has oído hablar de Filliman Tarlock?
               - **Ashuelot Reis:** Ese nombre no me resulta familiar, pero he estado aquí durante un tiempo que ahora desconozco.
               - **Player:** Lo siento, continúa.
@@ -77,7 +77,7 @@
       - [Choice]: ¿Podemos hablar de otra cosa?
         - (continuea|Talk-to)
   - [Choice]: ¿Puedo acceder a mi cuenta bancaria?
-    - ((Se abre la cuenta bancaria.))
+    - ((Bank account opens.))
   - [Choice]: *(Si la confirmación estaba previamente deshabilitada:)* Habilitar confirmación de barrera.
     - **Player:** ¿Puedes volver a activar la verificación de confirmación de la barrera?
     - **Ashuelot Reis:** Un segundo... listo.
@@ -92,9 +92,9 @@
     - **Ashuelot Reis:** Pero sé que no puedo detenerte.
     - **Ashuelot Reis:** Necesitaría una ofrenda sustancial para asegurarme de que usted se dedique a esta causa.
     - **Ashuelot Reis:** Tráeme 10.000.000 coins, un conjunto de túnicas ceremoniales antiguas y la llave congelada que usaste para entrar a este lugar.
-    - ((Si el player no tiene los artículos requeridos en su inventario:))
+    - ((If the player does not have the required items in their inventory:))
       - **Ashuelot Reis:** Vuelve conmigo cuando tengas la oferta que te pedí.
-    - ((De lo contrario:))
+    - ((Otherwise:))
       - **¿Estás seguro de que quieres ofrecer estos artículos? ¡Serán destruidos!**
         - [Choice]: Sí.
           - (removes=the ancient ceremonial robes, frozen key, and 10 million coins)

@@ -21,7 +21,7 @@
 - **Galahad:** Medio momento, tu taza de té está lista.
 - [El hermano Galahad te ofrece una taza de té.]
 - (receives=cup of tea)
-- (Condition: Si el player le habla por primera vez:)
+- (Condition: If the player is speaking to him for the first time:)
   - {{RSFontAchievement|Stir, Galahad|Have Sir Galahad make you a cup of tea.}}
 
 #### Después del Santo Grial
@@ -32,21 +32,21 @@
   - [Choice]: ¡Le devolví el Santo Grial a Camelot!
     - **Player:** ¡Le devolví el Santo Grial a Camelot!
     - **Galahad:** ¡Estoy impresionado! Eso es algo que nunca pude hacer. Medio momento, tu taza de té está lista.
-    - (Condition: Si el player no tiene al menos un espacio backpack libre:)
+    - (Condition: If the player does not have at least one free backpack space:)
       - [El hermano Galahad te ofrece una taza de té.]
       - **Galahad:** Dios mío, no tienes espacio para guardarlo. <br/>Será mejor que no lo desperdicies...
       - (Action: Galahad bebe la taza de té.)
       - **Galahad:** {{RSChat|Aaah, nothing like a nice cuppa tea!}}
-    - (Condition: Si el player tiene al menos un espacio backpack libre:)
+    - (Condition: If the player has at least one free backpack space:)
       - (receives=cup of tea)
       - [El hermano Galahad te ofrece una taza de té.]
   - [Choice]: cond=If the player lost the holy table napkin:|He perdido la santa servilleta.
     - **Player:** He perdido la servilleta sagrada.
-    - (Condition: Si el player no tiene al menos un espacio backpack libre:)
+    - (Condition: If the player does not have at least one free backpack space:)
       - **Galahad:** Dios mío. Pero no puedo darte otro a menos que liberes algo de espacio en el inventario.
       - **Galahad:** Los aventureros siempre tienen demasiadas posesiones; Me alegro de haber elegido una vida más sencilla. Ahora, veamos sobre ese té...
       - (continuea|receive-tea)
-    - (Condition: Si el player tiene al menos un espacio backpack libre:)
+    - (Condition: If the player has at least one free backpack space:)
       - **Galahad:** Por suerte tuve más de uno, ¿eh?
       - [Galahad te da otra servilleta.<br/>Te guiña un ojo.]
       - **Galahad:** ¡Intenta no perder este!<br/>Oh, veo que tu taza de té está lista.

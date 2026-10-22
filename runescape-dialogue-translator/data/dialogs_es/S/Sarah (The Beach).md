@@ -41,12 +41,12 @@
 ### Talk to with the Sandy Clue Scroll (historical)
 
 - **Sarah:** ¡Oh, un extraño te dejó esto!
-- (Condition: Recibir un cuadro de desplazamiento:)
+- (Condition: Receiving a scroll box:)
   - (removes=Sandy Clue Scroll) (receives=Sandy Scroll box)
   - [scrollbox].}}
-- (Condition: Recibir ataúdes:)
-  - (Condition: Sin espacio libre backpack:)
+- (Condition: Receiving caskets:)
+  - (Condition: Without free backpack space:)
     - Necesitas 1 espacio libre en tu backpack para recibir tus cofres de pistas.
-  - (Condition: Con espacio gratuito backpack:)
+  - (Condition: With free backpack space:)
     - (removes=Sandy Clue Scroll) (receives=Sandy Casket and its red version)
     - [¡Te entregan un ataúd!]

@@ -17,11 +17,11 @@
 ### Talk-to
 
 - **Shamus:** ¡Ah, gran elefante! ¡Me has atrapado! Entonces, ¿qué querría un elefante como tú con el viejo Shamus?
-- (Condition: Antes de la Ciudad Perdida:)
+- (Condition: Before Lost City:)
   - **Player:** No estoy seguro.
   - **Shamus:** Bueno, ¡tendrás que atraparme otra vez cuando lo hagas, elefante!
   - El duende desaparece mágicamente.
-- (Condition: Después de Ciudad Perdida:)
+- (Condition: After Lost City:)
   - [Menu]: Selecciona una opción
     - [Choice]: No estoy seguro.
       - **Player:** No estoy seguro.

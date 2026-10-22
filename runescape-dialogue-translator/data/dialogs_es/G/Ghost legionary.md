@@ -24,19 +24,19 @@
 
 ### Afterwards
 
-- (Condition: Si el player no lleva túnicas fantasmales y no ha interactuado con un ghost legionary mientras las llevaba puestas:)
+- (Condition: If the player isn't wearing ghostly robes and hasn't interacted with a ghost legionary while wearing them:)
   - **Player:** ¿Hola? ¿Puedes entenderme?
   - El fantasma mira al frente.
-  - (Condition: Sin amuleto/habilidad de habla fantasma:)
+  - (Condition: Without ghostspeak amulet/ability:)
     - **Player:** Si te estás comunicando, no te entiendo.
     - (continue)
-  - (Condition: Con habilidad de hablar fantasma:)
+  - (Condition: With ghostspeak ability:)
     - **Player:** ¿Está puesto este amuleto?
     - (continue)
   - El fantasma mira al frente.
   - **Player:** Creo que ya han ido demasiado lejos...
   - (continue)
-- (Condition: Si el player lleva túnicas fantasmales o ha interactuado con un ghost legionary mientras las llevaba puestas:)
+- (Condition: If the player is wearing ghostly robes or has interacted with a ghost legionary while wearing them:)
   - **Player:** ¡Hola, mi amigo fantasmal!
   - **Player:** ¿Algo?
   - (continue)

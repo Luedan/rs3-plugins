@@ -11,7 +11,7 @@
 
 ### Exchange
 
-- ((Se abre la interfaz de la tienda Farming.))
+- ((Farming Store interface opens.))
 
 ### Talk to
 
@@ -22,7 +22,7 @@
       - ¿Qué herramientas puedes almacenar?
         - (continue|What can you store)
       - Abre tu tienda de herramientas, por favor.
-        - ((Se abre la interfaz de la tienda Farming.))
+        - ((Farming Store interface opens.))
       - En realidad, estoy bien.
         - **Player:** En realidad, estoy bien.
   - La granja de Winkin.
@@ -42,9 +42,9 @@
         - (continue|Compost)
       - ¿Puedes dejar de hacer abono con parches por mí?
         - **Player:** ¿Puedes dejar de hacer abono con parches por mí?
-        - ((Con reembolso disponible:))
+        - ((With refund available:))
           - (continue|Do you want a refund then)
-        - ((Sin reembolso disponible:))
+        - ((Without refund available:))
           - **Nhitpyx:** No me habías pagado, así que no lo haría de todos modos.
       - ¿Cuánto he pagado?
         - **Player:** ¿Cuánto abono usarás?
@@ -55,10 +55,10 @@
           - No.
             - (continue|Do you want a refund then)
       - ¿Puedo cambiar qué parches compostas?
-        - ((Solo con el compostaje activado para algunos parches, y solo se enumeran los parches activados:))
+        - ((Only with composting toggled on for some patches, and only the patches toggled on are listed:))
           - **Nhitpyx:** Usaremos su abono en:<br>Parches de árboles<br>Parches de huertos<br>Parches de lúpulo<br>Parches de arbustos<br>Parches de hierbas<br>Parches de flores<br>Parches especiales<br>
           - (continue)
-        - ((Solo con el compostaje desactivado para algunos parches, y solo se enumeran los parches desactivados:))
+        - ((Only with composting toggled off for some patches, and only the patches toggled off are listed:))
           - **Nhitpyx:** No usaremos su abono en:<br>Parches de árboles<br>Parches de huertos<br>Parches de lúpulo<br>Parches de arbustos<br>Parches de hierbas<br>Parches de flores<br>Parches especiales<br>
           - (continue)
         - **SELECCIONA UNA OPCIÓN**
@@ -92,8 +92,8 @@
         - **¿QUÉ TE GUSTARÍA DECIR?**
           - Sí, por favor.
             - **Player:** Sí, por favor.
-            - ((Se abre la interfaz de la tienda Farming.))
-          - ((Sólo si no se le preguntó al final:))
+            - ((Farming Store interface opens.))
+          - ((Only if not asked last:))
             - ¿Qué puedes almacenar?
               - **Player:** {{AnchorText|What can you store}}?
               - **Nhitpyx:** No pensé que esto fuera complicado... Puedo agarrar un rastrillo, un sembrador, una pala, unas tijeras de podar, una regadera y una paleta, pero no esos de arqueología poco fiables.
@@ -101,7 +101,7 @@
               - **Nhitpyx:** También me han dicho que si me das tus productos agrícolas, debería cambiarlos por estos billetes.
               - **Nhitpyx:** Entonces, ¿quieres que cuide tus herramientas agrícolas?
               - (previous)
-          - ((Sólo después de preguntar "¿Qué puedes almacenar?":))
+          - ((Only after asking "What can you store?":))
             - ¿Qué haces con las herramientas que estás almacenando?
               - **Player:** ¿Qué haces con las herramientas que guardas?<br>¡No es posible que quepan todas en tus bolsillos!
               - **Nhitpyx:** Qué... Bueno, obviamente no los guardo en mis bolsillos, mira, tiendo a tirarlos detrás del viejo contenedor de abono que hay allí con las herramientas del otro aventurero.
@@ -146,41 +146,41 @@
     - **Nhitpyx:** {{AnchorText|Do you want a refund then}}?
     - **SELECCIONA UNA OPCIÓN**
       - Sí.
-        - ((Con reembolso disponible:))
+        - ((With refund available:))
           - **¿QUÉ QUIERES REEMBOLSAR?**
-            - ((Sólo con abono normal se reembolsará:))
+            - ((Only with normal compost to refund:))
               - Abono normal.
                 - (continue|Refunding compost)
-            - ((Sólo con supercompost a reembolsar:))
+            - ((Only with supercompost to refund:))
               - Supercompost.
                 - (continue|Refunding compost)
-            - ((Sólo con ultracompost a reembolsar:))
+            - ((Only with ultracompost to refund:))
               - Ultracompost.
                 - (continue|Refunding compost)
             - Nada.
               - (end)
-        - ((Sin reembolso disponible:))
+        - ((Without refund available:))
           - **Nhitpyx:** Parece que de todos modos no se te debe ningún reembolso.
       - No.
         - (end)
 
 #### Comprar abono
 
-- ((El mensaje "¿Pagar por cuántos (máx. [número])?" se muestra.))
-- ((Después de ingresar un número:))
+- ((The prompt "Pay for how many (max [number])?" is shown.))
+- ((After entering a number:))
   - **¿PAGAR [número] COINS? NO PODRÁS RECUPERARLOS.**
     - Sí.
-      - ((Si ingresó un número mayor que cero y tiene suficiente coins:))
+      - ((If a number greater than zero was entered and you have enough coins:))
         - (removes=coins)
         - **Nhitpyx:** Muy bien, mantendré tus parches en abono. Simplemente mantenga su almacenamiento lleno.
-      - ((Si ingresó cero o no tiene suficiente coins:))
+      - ((If zero was entered or you don't have enough coins:))
         - **Nhitpyx:** No tienes suficiente oro, ¡no lo haré gratis!
     - No.
       - **Nhitpyx:** No tienes suficiente oro, ¡no lo haré gratis!
 
 #### Reembolso de abono
 
-- ((El mensaje "¿Cuántos reembolsos (máx. [número])?" se muestra.))
-- ((Después de ingresar un número:))
+- ((The prompt "Refund how many (max [number])?" is shown.))
+- ((After entering a number:))
   - (receives=coins)
   - **Nhitpyx:** ¡Ahí lo tienes!

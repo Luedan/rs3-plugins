@@ -14,11 +14,11 @@
 
 #### Antes de comenzar No hay lugar como el hogar...
 
-- ((Lo siguiente se muestra en una interfaz titulada "CONSTRUCCIÓN":))
+- ((The following is shown in an interface titled "CONSTRUCTION":))
   - 54px Debes completar el tutorial de Construction antes de poder utilizarlo.
   - Hable con Alfred Stonemason, al noroeste de Rimmington, para obtener más información.
     - [Choice]: bien
-      - ((La interfaz se cierra.))
+      - ((The interface closes.))
 
 #### Durante No hay lugar como el hogar...
 
@@ -30,11 +30,11 @@
 ##### Sin ningún logs adecuado en backpack
 
 - (Se muestra en una ventana emergente:)
-  - (Ventana emergente: No llevas ningún logs para cortar en planks.|color=#EBE0BC)
+  - (Pop-up: You are not carrying any logs to cut into planks.|colour=#EBE0BC)
 
 ##### Con logs adecuado en backpack
 
-- ((Lo siguiente se muestra en una interfaz titulada "SAWMILL":))
+- ((The following is shown in an interface titled "SAWMILL":))
 - Elige una tabla para hacer.
   - [Choice]: Tablón<br>Coste cada uno: 100 x coins
     - (abajo2|Al elegir una opción)
@@ -64,12 +64,12 @@
 ##### Al elegir una opción
 
 - {{Tinput|How many [type] logs would you like to make into planks? (0 - [number])<br>Cost each: [number])}}
-- ((Después de ingresar una cantidad positiva:))
-  - (Condition: Sin dinero suficiente:)
+- ((After entering a positive amount:))
+  - (Condition: Without sufficient money:)
     - No puedes darte el lujo de hacer tantos planks.
-    - ((Repetido en una ventana emergente:))
-      - (Ventana emergente: No puedes permitirte el lujo de hacer tantos planks.|color=#EBE0BC)
-  - (Condition: Con dinero suficiente:)
+    - ((Repeated in a pop-up:))
+      - (Pop-up: You cannot afford to make that many planks.|colour=#EBE0BC)
+  - (Condition: With sufficient money:)
     - (removes=coins) (receives=planks)
 
 ### Talk to
@@ -77,11 +77,11 @@
 
 #### Antes de comenzar No hay lugar como el hogar...
 
-- ((Lo siguiente se muestra en una interfaz titulada "CONSTRUCCIÓN":))
+- ((The following is shown in an interface titled "CONSTRUCTION":))
   - 54px Debes completar el tutorial de Construction antes de poder utilizarlo.
   - Hable con Alfred Stonemason, al noroeste de Rimmington, para obtener más información.
     - [Choice]: bien
-      - ((La interfaz se cierra.))
+      - ((The interface closes.))
 
 #### Durante No hay lugar como el hogar...
 
@@ -107,11 +107,11 @@
 
 #### Antes de comenzar No hay lugar como el hogar...
 
-- ((Lo siguiente se muestra en una interfaz titulada "CONSTRUCCIÓN":))
+- ((The following is shown in an interface titled "CONSTRUCTION":))
   - 54px Debes completar el tutorial de Construction antes de poder utilizarlo.
   - Hable con Alfred Stonemason, al noroeste de Rimmington, para obtener más información.
     - [Choice]: bien
-      - ((La interfaz se cierra.))
+      - ((The interface closes.))
 
 #### Durante No hay lugar como el hogar...
 

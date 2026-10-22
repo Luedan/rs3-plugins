@@ -44,40 +44,40 @@
     - **Master Crafter:** Se degradará un 50 % más lento, por lo que durará más.
     - **Master Crafter:** Tampoco se degradará nunca cuando sea dañado por tu objetivo actual Slayer/Reaper.
     - **Master Crafter:** Pero el proceso es irreversible. Una vez hecha a medida, su obra maestra siempre estará hecha a medida.
-    - (Condition: Mientras no uses un conjunto maestro completo de cuerpo a cuerpo, a distancia o mágico:)
+    - (Condition: While not wearing a full masterwork melee, ranged or magic set:)
       - [Debes llevar un conjunto completo de obra maestra cuerpo a cuerpo recortada, obra maestra a distancia o magia maestra para adaptarlo a la medida.]
-    - (Condition: Mientras usas un conjunto de magia de obra maestra completa:)
+    - (Condition: While wearing a full masterwork magic set:)
       - [¿Estás seguro de que quieres personalizar tu armadura maestra? Este proceso los hará permanentemente intransferibles, hará que se degraden un 50% más lento y nunca se degradarán cuando sean dañados por tu objetivo actual Slayer/Reaper.]
       - [Menu]: ¿Perfeccionar tu armadura maestra a la medida?
         - [Choice]: si
-          - ((toda la armadura usada de obra maestra está hecha a medida))
+          - ((all worn masterpiece armour is custom-fit))
       - [Choice]: No
           - (end)
-    - (Condition: Mientras llevas un conjunto a distancia de obra maestra completa:)
+    - (Condition: While wearing a full masterwork ranged set:)
       - [¿Estás seguro de que quieres personalizar tu armadura maestra? Este proceso los hará permanentemente intransferibles, hará que se degraden un 50% más lento y nunca se degradarán cuando sean dañados por tu objetivo actual Slayer/Reaper.]
       - [Menu]: ¿Perfeccionar tu armadura maestra a la medida?
         - [Choice]: si
-          - ((toda la armadura usada de obra maestra está hecha a medida))
+          - ((all worn masterpiece armour is custom-fit))
       - [Choice]: No
           - (end)
   - [Choice]: Skillcapes.
     - [Menu]: ¿Qué pasa con skillcapes?
       - [Choice]: Skillcape de Crafting.
-        - (Condition: Si el player no tiene 99 Crafting:)
+        - (Condition: If the player does not have 99 Crafting:)
           - **Player:** Oye, ¿qué es esa capa que llevas puesta? No lo reconozco.
           - **Master Crafter:** ¿Esto? Este es un Skillcape de Crafting. Es un símbolo de mi habilidad y de mi posición aquí en el Gremio Crafting. Si alguna vez alcanzas 99 Crafting, ven y habla conmigo y veremos si podemos solucionarlo con uno.
-        - (Condition: Si el player tiene 99 Crafting y tiene un ring of charos(a) equipado:)
+        - (Condition: If the player has 99 Crafting and has a ring of charos (a) equipped:)
           - **Master Crafter:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins por este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
           - [Menu]: Elige una opción:
             - [Choice]: ¿92.000 coins? Eso es demasiado caro.
               - **Player:** Sé dónde encontrarte si cambio de opinión.
             - [Choice]: De hecho, creo que tengo el dinero aquí.
-              - (Condition: Si el player no tiene espacio backpack:)
+              - (Condition: If the player has no backpack space:)
                 - **Master Crafter:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar algo de espacio en backpack antes de que pueda venderte uno.
-              - (Condition: Si el player no tiene suficiente dinero:)
+              - (Condition: If the player does not have enough money:)
                 - **Player:** Pero desafortunadamente me equivoqué.
                 - **Master Crafter:** Bueno, vuelve a verme cuando lo hagas.
-              - (Condition: Si el player tiene suficiente dinero:)
+              - (Condition: If the player has enough money:)
                 - (receives=Crafting cape and Crafting hood) (removes=92,000 coins)
                 - **Master Crafter:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
             - [Choice]: cond=If the player has 120 Crafting|He dominado esta habilidad. ¿Hay algo más?
@@ -87,35 +87,35 @@
               - **Master Crafter:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Crafting master cape.
               - [Menu]: ¿Comprar Crafting master cape por 120.000 coins?
                 - [Choice]: Sí.
-                  - (Condition: Si el player no tiene espacio backpack:)
+                  - (Condition: If the player has no backpack space:)
                     - **Master Crafter:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
-                  - (Condition: Si el player no tiene suficiente dinero:)
+                  - (Condition: If the player does not have enough money:)
                     - No tienes suficiente dinero para comprar esta capa.
-                  - (Condition: Si el player tiene suficiente dinero:)
+                  - (Condition: If the player has enough money:)
                     - (receives=Crafting master cape) (removes=120,000 coins)
                     - (Action: Suena música Master cape.)
                 - [Choice]: No.
                   - (end)
-        - (Condition: Si el player tiene 99 Crafting pero no tiene un ring of charos(a) equipado:)
+        - (Condition: If the player has 99 Crafting but does not have a ring of charos (a) equipped:)
           - [Menu]: Elige una opción:
             - [Choice]: ¿99.000 coins? Eso es demasiado caro.
               - **Player:** Sé dónde encontrarte si cambio de opinión.
             - [Choice]: De hecho, creo que tengo el dinero aquí.
-              - (Condition: Si el player no tiene espacio backpack:)
+              - (Condition: If the player has no backpack space:)
                 - (arriba)
-              - (Condition: Si el player no tiene suficiente dinero:)
+              - (Condition: If the player does not have enough money:)
                 - (arriba)
-              - (Condition: Si el player tiene suficiente dinero:)
+              - (Condition: If the player has enough money:)
                 - (receives=Crafting cape and Crafting hood) (removes=99,000 coins)
                 - **Master Crafter:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
             - [Choice]: cond=If the player has 120 Crafting|He dominado esta habilidad. ¿Hay algo más?
               - (arriba)
       - [Choice]: cond=If the player has 99 Crafting|He notado que hay un par de versiones de cada skillcape.
         - **Master Crafter:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
-        - (Condition: Si el player utiliza el modelo antiguo:)
+        - (Condition: If the player is using the old model:)
           - **Master Crafter:** Parece que actualmente estás usando el modelo anterior para tu Crafting skillcape. ¿Quieres cambiar a uno más nuevo?
           - (continue)
-        - (Condition: Si el player está utilizando el nuevo modelo:)
+        - (Condition: If the player is using the new model:)
           - **Master Crafter:** Aún puedes elegir usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
           - (continue)
         - [Menu]: Selecciona una opción
@@ -130,7 +130,7 @@
                 - (end)
           - [Choice]: No, gracias.
             - **Master Crafter:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión [old/new]!
-            - (Condition: Si el player usa el nuevo modelo para cualquier otro skillcape:)
+            - (Condition: If the player uses the new model for any other skillcape:)
               - **Master Crafter:** Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas.
               - [Menu]: Selecciona una opción
                 - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.
@@ -159,10 +159,10 @@
       - [Choice]: Enfoque de gema
         - **Master Crafter:** ¿Cuántos te gustaría intercambiar?
         - {{tinput|Enter amount:}}
-          - (Condition: Si se ingresa cero:)
+          - (Condition: If zero is entered:)
             - (end)
-          - ((Después de ingresar una cantidad positiva:))
-            - ((Player recibe un foco de gema por cada estuche de cuero entregado.))
+          - ((After entering a positive amount:))
+            - ((Player receives one gem focus for each leather case handed in.))
             - **Master Crafter:** Ahí lo tienes, ¿te gustaría intercambiar algo más?
             - {{anchor|anything-else}} [Menú]: seleccione una opción
               - [Choice]: Sí por favor.
@@ -172,10 +172,10 @@
       - [Choice]: Engaste de metales
         - **Master Crafter:** ¿Cuántos te gustaría intercambiar?
         - {{tinput|Enter amount:}}
-          - (Condition: Si se ingresa cero:)
+          - (Condition: If zero is entered:)
             - (end)
-          - ((Después de ingresar una cantidad positiva:))
-            - ((Player recibe un engaste de metal por cada estuche de cuero entregado.))
+          - ((After entering a positive amount:))
+            - ((Player receives one metal setting for each leather case handed in.))
             - **Master Crafter:** Ahí lo tienes, ¿te gustaría intercambiar algo más?
             - (continuea|anything-else)
   - [Choice]: Enfoque de gema
@@ -184,10 +184,10 @@
       - [Choice]: Funda de cuero
         - **Master Crafter:** ¿Cuántos te gustaría intercambiar?
         - {{tinput|Enter amount:}}
-          - (Condition: Si se ingresa cero:)
+          - (Condition: If zero is entered:)
             - (end)
-          - ((Después de ingresar una cantidad positiva:))
-            - ((Player recibe un estuche de cuero por cada foco de gema entregado.))
+          - ((After entering a positive amount:))
+            - ((Player receives one leather case for each gem focus handed in.))
             - **Master Crafter:** Ahí lo tienes, ¿te gustaría intercambiar algo más?
             - (continuea|anything-else)
       - [Choice]: Enfoque de gema
@@ -196,10 +196,10 @@
       - [Choice]: Engaste de metales
         - **Master Crafter:** ¿Cuántos te gustaría intercambiar?
         - {{tinput|Enter amount:}}
-          - (Condition: Si se ingresa cero:)
+          - (Condition: If zero is entered:)
             - (end)
-          - ((Después de ingresar una cantidad positiva:))
-            - ((Player recibe un engaste de metal por cada foco de gema entregado.))
+          - ((After entering a positive amount:))
+            - ((Player receives one metal setting for each gem focus handed in.))
             - **Master Crafter:** Ahí lo tienes, ¿te gustaría intercambiar algo más?
             - (continuea|anything-else)
   - [Choice]: Engaste de metales
@@ -208,19 +208,19 @@
       - [Choice]: Funda de cuero
         - **Master Crafter:** ¿Cuántos te gustaría intercambiar?
         - {{tinput|Enter amount:}}
-          - (Condition: Si se ingresa cero:)
+          - (Condition: If zero is entered:)
             - (end)
-          - ((Después de ingresar una cantidad positiva:))
-            - ((Player recibe un estuche de cuero por cada engaste de metal entregado.))
+          - ((After entering a positive amount:))
+            - ((Player receives one leather case for each metal setting handed in.))
             - **Master Crafter:** Ahí lo tienes, ¿te gustaría intercambiar algo más?
             - (continuea|anything-else)
       - [Choice]: Enfoque de gema
         - **Master Crafter:** ¿Cuántos te gustaría intercambiar?
         - {{tinput|Enter amount:}}
-          - (Condition: Si se ingresa cero:)
+          - (Condition: If zero is entered:)
             - (end)
-          - ((Después de ingresar una cantidad positiva:))
-            - ((Player recibe un foco de gema por cada engaste de metal entregado.))
+          - ((After entering a positive amount:))
+            - ((Player receives one gem focus for each metal setting handed in.))
             - **Master Crafter:** Ahí lo tienes, ¿te gustaría intercambiar algo más?
             - (continuea|anything-else)
       - [Choice]: Engaste de metales
@@ -375,51 +375,51 @@
     - (end)
   - [Choice]: si
     - Entregas los parches de elaboración de [número] Master. Debes entregar [numberK or number] más para completar el evento.
-    - ((Si las recompensas no se desbloquearon y no se han desbloqueado recompensas anteriormente:))
+    - ((If rewards weren't unlocked, and no rewards have been unlocked previously:))
       - **Master Crafter:** Debes traerme más parches de artesanía si quieres reclamar más recompensas.
-    - ((Si las recompensas estuvieran desbloqueadas:))
-      - ((Si el cofre del banco está desbloqueado:))
+    - ((If rewards were unlocked:))
+      - ((If the bank chest is unlocked:))
         - Felicitaciones, has desbloqueado la capacidad de usar el cofre del banco dentro del gremio de artesanos durante la duración del evento.
         - (continue)
-      - ((Si las gafas master crafter están desbloqueadas:))
+      - ((If the master crafter goggles are unlocked:))
         - Felicitaciones, ha desbloqueado la anulación de las gafas Master Crafter. Puede encontrar esto en la interfaz de personalizaciones.
         - (continue)
-      - ((Si la sierra master crafter está desbloqueada:))
+      - ((If the master crafter saw is unlocked:))
         - Felicitaciones, ha desbloqueado la anulación de la sierra Master Crafter. Puede encontrar esto en la interfaz de personalizaciones.
         - (continue)
-      - ((Si los beneficios de joyería están desbloqueados:))
+      - ((If the jewellery benefits are unlocked:))
         - Tienes los siguientes beneficios de fundición de joyas dentro del gremio de artesanos durante la duración del evento.
         - +250% XP al fundir lingotes de oro y plata.
         - Fundición de Oro y Plata +50% más rápida.
         - +33 % más rápido en el lanzamiento de oro y plata.
         - (continue)
-      - ((Si los guantes master crafter están desbloqueados:))
+      - ((If the master crafter gloves are unlocked:))
         - Felicitaciones, ha desbloqueado la anulación de guantes Master Crafter. Puedes encontrarlos en la interfaz de personalizaciones.
         - (continue)
-      - ((Si las botas master crafter están desbloqueadas:))
+      - ((If the master crafter boots are unlocked:))
         - Felicitaciones, ha desbloqueado la anulación de botas Master Crafter. Puedes encontrarlos en la interfaz de personalizaciones.
         - (continue)
-      - ((Si los beneficios mineros están desbloqueados:))
+      - ((If the mining benefits are unlocked:))
         - Tienes los siguientes beneficios de fundición de joyas dentro del gremio de artesanos durante la duración del evento.
         - +50% XP al extraer rocas de oro y plata.
         - Mining Clay ahora proporciona arcilla blanda.
         - (continue)
-      - ((Si los pantalones master crafter están desbloqueados:))
+      - ((If the master crafter trousers are unlocked:))
         - Felicitaciones, ha desbloqueado la anulación de pantalones Master Crafter. Puedes encontrarlos en la interfaz de personalizaciones.
         - (continue)
-      - ((Si la campana master crafter está desbloqueada:))
+      - ((If the master crafter chestpiece is unlocked:))
         - Felicitaciones, ha desbloqueado la anulación de la campana Master Crafter. Puedes encontrarlos en la interfaz de personalizaciones.
         - (continue)
-      - ((Si el martillo master crafter está desbloqueado:))
+      - ((If the master crafter hammer is unlocked:))
         - Felicitaciones, ha desbloqueado la anulación del martillo Master Crafter. Puede encontrar esto en la interfaz de personalizaciones.
         - (continue)
-      - ((Si el destornillador master crafter está desbloqueado:))
+      - ((If the master crafter screwdriver is unlocked:))
         - Felicitaciones, ha desbloqueado la anulación del destornillador Master Crafter. Puede encontrar esto en la interfaz de personalizaciones.
         - (continue)
-      - ((Si el hacha master crafter está desbloqueada:))
+      - ((If the master crafter hatchet is unlocked:))
         - Felicitaciones, ha desbloqueado la anulación del hacha Master Crafter. Puede encontrar esto en la interfaz de personalizaciones.
         - (continue)
-      - ((Si los beneficios de la urna están desbloqueados:))
+      - ((If the urn benefits are unlocked:))
         - ¡Has completado el evento!
         - Tienes los siguientes beneficios de elaboración de urnas dentro del gremio de artesanía durante la duración del evento.
         - Elaboración un 50 % más rápida con el torno de alfarero.
@@ -427,11 +427,11 @@
         - +100% XP al fabricar urnas.
         - (continue)
       - (continue)
-    - ((Si algunas de las recompensas han sido desbloqueadas:))
+    - ((If some of the rewards have been unlocked:))
       - Has desbloqueado [número]/13 de las recompensas del evento Master Crafter.
-      - ((Si aún quedan recompensas por desbloquear y no hay ninguna recompensa o el cofre del banco acaba de desbloquearse:))
+      - ((If there are still rewards to unlock, and either no reward or the bank chest was just unlocked:))
         - **Master Crafter:** Tenemos más recompensas que ofrecer, si me traes más fichas de habilidad.
-      - ((Si se acaba de desbloquear una recompensa distinta al cofre del banco:))
+      - ((If a reward other than the bank chest was just unlocked:))
         - **Master Crafter:** ¡Ahí estás!
 
 ##### Con todas las recompensas desbloqueadas
@@ -441,7 +441,7 @@
 ##### Después del evento
 
 - El evento master crafter ha finalizado, sin embargo, aún puedes convertir los tokens sobrantes en cajas misteriosas.
-- ((Continúa con el diálogo normal.))
+- ((Continues with normal dialogue.))
 
 #### Evento abierto
 
@@ -453,4 +453,4 @@
 ##### Después del evento
 
 - El evento master crafter ha finalizado, sin embargo, aún puedes convertir los tokens sobrantes en cajas misteriosas.
-- ((Continúa con el diálogo normal.))
+- ((Continues with normal dialogue.))

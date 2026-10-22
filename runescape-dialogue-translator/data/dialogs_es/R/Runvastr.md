@@ -34,20 +34,20 @@
     - (receives=miner's diary)
     - [El viejo enano te regala un libro gastado.]
   - [Choice]: cond=If the player has already received the miner's diary before|Necesito otra copia de tu diario.
-    - (Condition: Si el player perdió el diario:)
+    - (Condition: If the player lost the diary:)
       - **Player:** Necesito otra copia de tu diario.
       - **Runvastr:** ¡Bah! Los jóvenes son tan descuidados. Supongo que tendré que darte otra copia.
       - (receives=miner's diary)
       - [El viejo enano te regala un libro gastado.]
-    - (Condition: Si el player le hubiera dado el diario a Wise Old Man:)
+    - (Condition: If the player had given the diary to the Wise Old Man:)
       - **Player:** Necesito otra copia de tu diario.
       - **Runvastr:** ¡Bah! Los jóvenes son tan descuidados.
       - **Player:** Se lo di a Dionysius, el mago que te ayudó a expulsar a los trolls de tus minas.
       - **Runvastr:** Me alegro de no ser la única persona de aquellos días que sigue viva. Toma, te daré otra copia.
-      - (Condition: Si el player no tiene espacio backpack:)
+      - (Condition: If the player has no backpack space:)
         - **Player:** Mi inventario está demasiado lleno.
         - **Runvastr:** Ah, ustedes, los jóvenes, siempre tienen tantas cosas. En mis tiempos solo llevábamos un pico y eso nos bastaba.
-      - (Condition: Si el player tiene al menos un espacio backpack:)
+      - (Condition: If the player has at least one backpack space:)
         - (receives=miner's diary)
         - [El viejo enano te regala un libro gastado.]
   - [Choice]: ¿Puedes darme algo gratis?

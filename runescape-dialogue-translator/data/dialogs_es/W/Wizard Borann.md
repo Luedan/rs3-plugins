@@ -12,7 +12,7 @@
 ### Standard dialogue
 
 - **Wizard Borann:** Silencio en la biblioteca, por favor.
-- (Condition: Después de Rune Mysteries, y si has perdido tu torre mental:)
+- (Condition: After Rune Mysteries, and if you have lost your tower mindspike:)
   - [Menu]: Elige una opción:
     - [Choice]: Perdí tu mente.
       - (receives=tower mindspike (air))

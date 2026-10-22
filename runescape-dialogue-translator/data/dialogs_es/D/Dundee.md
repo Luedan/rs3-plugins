@@ -14,7 +14,7 @@
 
 #### Habla con
 
-- ((Sólo la primera vez:))
+- ((Only on first time:))
   - *(Antes de volver al congelador:)*
     - **Player:** ¡Guau!
     - **Dundee:** ¿Estás bien, amigo?
@@ -25,7 +25,7 @@
     - **Player:** ¡Oye! ¡Es el gnomo inusualmente alto quien me dio el amuleto Crocspeak!
     - **Dundee:** ¡Oye! ¡Es un humano de tamaño promedio con nociones fantasiosas sobre los pingüinos!
     - (continue)
-- ((Sólo después de la primera vez:))
+- ((Only after the first time:))
   - **Dundee:** ¡Hola, Player!
   - (continue)
 - **SELECCIONA UNA OPCIÓN**
@@ -164,7 +164,7 @@
 ##### Crujientes picantes o crujientes picantes prefabricados
 
 - **Dundee:** ¡Mi favorito!
-- ((Si le dieron crujientes picantes ya preparados:))
+- ((If premade spicy crunchies were given:))
   - **Dundee:** No es casero, claro está, pero sí delicioso de todos modos.
   - (continue)
 - Dundee te quita los crujientes picantes.
@@ -187,7 +187,7 @@
 - **Dundee:** ...CALIENTETTTT
 - **Dundee:** ¡DEMASIADO CALIENTE!
 - **Player:** Supongo que les puse demasiado picante.
-- ((Si Este Gnome está en llamas no se ha completado:))
+- ((If This Gnome is on Fire hasn't been completed:))
   - ¡Felicitaciones! Has completado: 'Este Gnome está en llamas': entrega algunos crujientes extra picantes a Dundee.
 
 ##### Otros tipos de comida para gnomos hecha por uno mismo

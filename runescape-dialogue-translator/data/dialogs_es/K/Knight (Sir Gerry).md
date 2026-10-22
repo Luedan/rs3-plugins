@@ -20,18 +20,18 @@
 
 - **Player:** ¿Quién eres? ¿Qué haces aquí en la nieve?
 - **Caballero:** Mi nombre es... Sir Gerry. Soy... miembro de una... sociedad secreta de caballeros. Mi tiempo es corto y necesito...tu ayuda.
-- (Condition: Si el player no ha completado la campaña de reclutamiento:)
+- (Condition: If the player has not completed Recruitment Drive:)
   - **Player:** ¿Una sociedad secreta de caballeros? ¡Qué sorpresa! ¿Existe algún estatuto o decreto antiguo que diga que si eres caballero debes pertenecer a una orden secreta?
   - **Caballero:** Lo siento, amigo mío... No entiendo lo que quieres decir. Por favor, el tiempo apremia... Llévale este pergamino a Sir Tiffy. Lo encontrarás en el parque Falador... No deberías... leerlo... Contiene información sólo para sus ojos.
   - (continue)
-- (Condition: Si el player ha completado la campaña de reclutamiento:)
+- (Condition: If the player has completed Recruitment Drive:)
   - **Player:** ¿Una sociedad secreta de caballeros? No te refieres a los Caballeros del Templo, ¿verdad?
   - **Caballero:** ¡Sí! ¡Alabado sea Saradomin! Tú... has sido enviado en... mi hora de necesidad. Por favor, lleva... este pergamino a Sir Tiffy en el parque Falador... No deberías... leerlo.
   - (continue)
-- (Condition: Sin un espacio backpack libre:)
+- (Condition: Without one free backpack space:)
   - **Player:** Me temo que ya estoy cargando con todo lo que puedo.
   - **Caballero:** Te lo ruego... deja caer algo que no necesites. Esto es de suma importancia... Conservaré las pocas fuerzas que tengo y esperaré tu regreso... ¡Por favor, date prisa!
-- (Condition: Con un espacio backpack gratuito:)
+- (Condition: With one free backpack space:)
   - [El caballero te entrega un pergamino.]
   - (receives=knight's notes)
 

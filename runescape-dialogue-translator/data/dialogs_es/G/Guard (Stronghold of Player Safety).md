@@ -110,7 +110,7 @@
 
 - **Guardia:** Bien hecho, has resuelto una pista. ¡Hable conmigo nuevamente para obtener más información sobre la función de informe!
 - (removes=clue scroll (CS Week))
-- (Condition: Si el rastro continúa:)
+- (Condition: If the trail continues:)
   - (receives= a new clue scroll (CS Week))
-- (Condition: Si el sendero termina:)
+- (Condition: If the trail ends:)
   - (receives=casket (CS Week) y ataúd de seguridad (CS Week))

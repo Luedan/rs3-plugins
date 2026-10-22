@@ -22,16 +22,16 @@
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Puedo pasar por esa puerta por favor?
     - **Player:** ¿Puedo pasar por esa puerta, por favor?
-    - (Condition: Con el conjunto de tareas Karamja completado:)
+    - (Condition: With the hard set of Karamja tasks completed:)
       - **Saniboch:** Puedes participar gratis ya que has demostrado que eres amigo de Karamja.
-    - (Condition: De lo contrario:)
+    - (Condition: Otherwise:)
       - **Saniboch:** Por supuesto, pero primero debo cobrarte la suma de 875 coins.
-      - (Condition: Si no tienes suficiente dinero contigo:)
+      - (Condition: If you do not have sufficient money with you:)
         - **Player:** No tengo el dinero encima en este momento.
         - **Saniboch:** Bueno, esta es una mazmorra para los aventureros más ricos y exigentes, vete con tu gentuza.
         - **Player:** Pero ni siquiera tienes ropa, ¿cómo puedes llamar en serio a alguien gentuza?
         - **Saniboch:** Humph.
-      - (Condition: Si tienes suficiente dinero contigo:)
+      - (Condition: If you have enough money with you:)
         - [Menu]: Selecciona una opción
           - [Choice]: Bien, aquí está 875 coins.
             - **Player:** Ok, aquí está 875 coins.
@@ -57,10 +57,10 @@
 
 #### Pagar
 
-- (Condition: Sin haber completado el conjunto de tareas difíciles de Karamja:)
+- (Condition: Without having completed the hard set of Karamja tasks:)
   - [Le das Saniboch 875 coins.]
   - Pagas Saniboch 875 coins.
   - (removes=875 coins)
   - **Saniboch:** Muchas gracias. Ahora puedes pasar la puerta. ¡Que tu muerte sea gloriosa!
-- (Condition: Con el conjunto de tareas Karamja completado:)
+- (Condition: With the hard set of Karamja tasks completed:)
   - **Saniboch:** Puedes participar gratis ya que has demostrado que eres amigo de Karamja.

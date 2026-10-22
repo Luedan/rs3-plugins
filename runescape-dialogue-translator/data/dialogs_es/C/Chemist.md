@@ -31,7 +31,7 @@
       - [Choice]: No gracias.
         - **Player:** No, gracias.
   - [Choice]: Pregunte acerca de los frascos implícitos.
-    - (Condition: Sin aceite de anchoa en backpack:)
+    - (Condition: Without anchovy oil in backpack:)
       - **Player:** Tengo una pregunta un poco extraña.
       - **Chemist:** Muy bien, cuanto más raro, mejor. Me gustan las rarezas.
       - **Player:** ¿Sabes cómo puedo destilar una mezcla de aceite de anchoa y flores para que forme una capa en el interior de un frasco de mariposas?
@@ -49,48 +49,48 @@
           - (otro)
         - [Choice]: ¿Tienes un colador que pueda usar?
           - **Player:** ¿Tienes un colador que pueda usar?
-          - (Condition: Si el player lleva un tamiz:)
+          - (Condition: If the player is carrying a sieve:)
             - **Chemist:** Errm, sí. Pero ya tienes uno. Dos tamices es un poco excesivo, ¿no crees?
-          - (Condition: Si el player tiene un tamiz en su banco:)
+          - (Condition: If the player has a sieve in their bank:)
             - **Chemist:** ¿Estás seguro de que aún no tienes uno?
             - [pic=Tamiz detail.png]
-          - (Condition: Si el player no posee tamiz:)
+          - (Condition: If the player does not own a sieve:)
             - **Chemist:** Errm, sí. Toma, toma este. Sólo se ha utilizado para sacar ratas muertas del agua de alcantarillado.
             - **Player:** Err, ¿por qué? En realidad, pensándolo bien, no quiero saberlo.
             - **Chemist:** Bueno, debería ser ideal para tu tarea.
-            - (Condition: Si el player tiene espacio libre en backpack:)
+            - (Condition: If the player has free backpack space:)
               - (receives=sieve)
               - (continue)
-            - (Condition: Si el player no tiene espacio libre en backpack:)
+            - (Condition: If the player does not have free backpack space:)
               - **Chemist:** ¡No puedo darte un colador si no tienes dónde ponerlo! Vuelve cuando lo hayas hecho.
               - (continue)
             - **Player:** Muy bien.
         - [Choice]: Será mejor que vaya a buscar los ingredientes.
           - **Player:** Será mejor que vaya a buscar los ingredientes.
           - **Chemist:** Eso creo.
-    - (Condition: Con repelente de diablillos en backpack:)
+    - (Condition: With imp repellent in backpack:)
       - **Chemist:** Es posible que el aceite de mi lámpara todavía pueda hacer lo que tú quieras. Utilice la mezcla de aceite y flores en el alambique.
-      - (Condition: Con un tarro de mariposas en backpack:)
+      - (Condition: With a butterfly jar in backpack:)
         - **Chemist:** Una vez hecho esto, usa uno de esos frascos de mariposas para recoger el destilado.
         - **Player:** ¡Gracias!
-      - (Condition: Sin tarros de mariposas:)
+      - (Condition: Without butterfly jars:)
         - **Chemist:** Una vez hecho esto, coge uno de esos frascos de mariposas para recoger el destilado.
         - **Player:** ¡Gracias!
-    - (Condition: Con aceite de anchoa en backpack:)
+    - (Condition: With anchovy oil in backpack:)
       - **Player:** ¿Sabes cómo puedo destilar una mezcla de aceite de anchoa y flores para que forme una capa en el interior de un frasco de mariposas?
-      - (Condition: Con flores en backpack:)
+      - (Condition: With flowers in backpack:)
         - **Chemist:** Es posible que el aceite de mi lámpara todavía pueda hacer lo que tú quieras. Primero deberás mezclar las flores con el aceite de anchoa. Luego use la mezcla de aceite y flores en el alambique.
         - (continue)
-      - (Condition: Sin flores:)
+      - (Condition: Without flowers:)
         - **Chemist:** Es posible que el aceite de mi lámpara todavía pueda hacer lo que tú quieras. Primero deberás conseguir flores y luego mezclarlas con el aceite de anchoa. Luego use la mezcla de aceite y flores en el alambique.
-        - (Condition: Con un tarro de mariposas en backpack:)
+        - (Condition: With a butterfly jar in backpack:)
           - **Chemist:** Una vez hecho esto, usa uno de esos frascos de mariposas para recoger el destilado.
           - **Player:** ¡Gracias!
-        - (Condition: Sin tarros de mariposas:)
+        - (Condition: Without butterfly jars:)
           - **Chemist:** Una vez hecho esto, coge uno de esos frascos de mariposas para recoger el destilado.
           - **Player:** ¡Gracias!
   - [Choice]: Acerca del sistema de tareas...
-    - (Condition: Si el player ha completado los logros medios de Falador, pero aún no ha reclamado las recompensas:)
+    - (Condition: If the player has completed the medium Falador achievements, but not yet claimed the rewards:)
       - **Player:** He venido por mi recompensa.
       - **Chemist:** Entonces, ya terminaste, ¡bien hecho! Creo que las felicitaciones son necesarias.
       - **Player:** Creo que las recompensas están en orden.
@@ -104,7 +104,7 @@
       - **Player:** ¡Vaya, gracias!
       - **Chemist:** Si pierdes tu escudo, regresa y busca otro.
       - (continue)
-    - (Condition: Si el player ha perdido su escudo Falador 2:)
+    - (Condition: If the player has lost their Falador shield 2:)
       - **Player:** He perdido mi escudo.
       - **Chemist:** ¿Qué? ¡Ese era un equipo valioso!
       - **Chemist:** Por suerte, tengo uno de repuesto. Cuídalo mejor la próxima vez.

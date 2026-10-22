@@ -55,11 +55,11 @@
 
 ### Excalibur
 
-- (Condition: Con Excalibur en el backpack:)
+- (Condition: With Excalibur in the backpack:)
   - (above|rewardme)
-- (Condition: Habiendo perdido a Excalibur:)
+- (Condition: Having lost Excalibur:)
   - {{Transcript missing}}
-- (Condition: Si el backpack de el player está lleno:)
+- (Condition: If the player's backpack is full:)
   - **The Lady of the Lake:** ¡Lo dejarás caer si intento entregártelo mientras tu inventario está lleno!
 - [Menu]: ¿Pagar 500 coins por Excalibur?
   - [Choice]: Compra Excalibur.

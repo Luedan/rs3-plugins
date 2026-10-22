@@ -47,10 +47,10 @@
           - [Choice]: Sí, eso suena bien. ¡Teletransportame!
             - **Player:** Sí, eso suena bien. ¡Teletransportame!
             - **Wizard Cromperty:** ¡Okey, dokey! ¿Listo?
-            - (Condition: Con condición desconocida:)
+            - (Condition: With unknown condition:)
               - **Wizard Cromperty:** {{RSChat|Dipsolum sententa sententi!}}
               - (Action: Wizard Cromperty teletransporta a el player a la oficina de RPDT.)
-            - (Condition: Con condición desconocida:)
+            - (Condition: With unknown condition:)
               - **Wizard Cromperty:** Hmmm... eso es extraño... Parece que no puedo recibir señal...
               - **Player:** Oh, bueno, no importa.
           - [Choice]: Eso suena peligroso. Déjame aquí.

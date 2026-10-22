@@ -15,13 +15,13 @@
 - **Tower Advisor:** Hola. Estamos a cargo de esta área de práctica.
 - **Player:** ¿Esta es un área de práctica?
 - **Tower Advisor:** Nos rodean cuatro torres. Cada torre contiene arqueros entrenados de un nivel diferente. Notarás que es bastante distancia, por lo que necesitarás un arco largo.
-- (Condition: Si el nivel Ranged de el player es 50 o menos:)
+- (Condition: If the player's Ranged level is 50 or lower:)
   - **Tower Advisor:** Como no eres muy hábil, te aconsejo que practiques en la torre norte. Eso le proporcionará el mejor desafío.
-- (Condition: Si el nivel Ranged de el player está entre 51 y 60:)
+- (Condition: If the player's Ranged level is between 51 and 60:)
   - **Tower Advisor:** Parece que tienes cierta habilidad, así que te aconsejo que practiques en la torre este. Eso le proporcionará el mejor desafío.
-- (Condition: Si el nivel Ranged de el player está entre 61 y 70:)
+- (Condition: If the player's Ranged level is between 61 and 70:)
   - **Tower Advisor:** Pareces tener bastante habilidad con el arco, así que te aconsejo que practiques en la torre sur. Eso le proporcionará el mejor desafío.
-- (Condition: Si el nivel Ranged de el player es 71 o superior:)
+- (Condition: If the player's Ranged level is 71 or higher:)
   - **Tower Advisor:** Parece que eres muy hábil, así que te aconsejo que practiques en la torre oeste. Eso le proporcionará el mejor desafío.
 
 ### Overhead dialogue

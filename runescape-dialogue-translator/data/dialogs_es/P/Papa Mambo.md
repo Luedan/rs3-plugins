@@ -71,15 +71,15 @@
     - **Papa Mambo:** Oh, veo que te has interesado en esta pequeña enredadera. Cultivé esta enredadera a partir de un corte de raíz de Jade Vine en el norte. Ella fue un poco torpe y me cortó mientras lo tomaba. Desde entonces, he imbuido el corte con mi propia magia, para ayudarla a ser lo que es hoy. Cultiva comida para sus jadinkos y extiende sus brazos para que encuentren un hogar a su sombra. Y a ella le crecen diferentes matices; Cada ting es néctar para un tipo de jadinko... pero veneno para otro. Anímela a cultivar diferentes combinaciones de plantas y observe cómo diferentes jadinkos caen en sus brazos.
     - **Player:** ¿Cuál sería el punto de atraer diferentes jadinkos?
     - **Papa Mambo:** ¿Aparte de la alegría de ver la majestuosidad de la naturaleza? Ah, supongo que podrías cazar a los jadinkos que atraes. Tienen propiedades especiales que podrías utilizar. Tengo algunas trampas especiales para marasamaw que los atraparán, si tienes la habilidad. Los jadinkos aquí son parte de la propia vid. Están imbuidos de su magia. Una vez cazados, podrían proporcionar ingredientes para nuevas y poderosas pociones, si tienes los conocimientos necesarios.
-      - (Condition: Si el player aún no ha reclamado las semillas de flores gratuitas de Papa Mambo:)
+      - (Condition: If the player has not yet claimed the free blossom seeds from Papa Mambo:)
         - **Papa Mambo:** 'Eh, como eres nuevo en esta vid, acepta este pequeño regalo de mi parte.
-        - (Condition: Si el player no tiene al menos un espacio backpack libre:)
+        - (Condition: If the player does not have at least one free backpack space:)
           - **Papa Mambo:** Lamentablemente, no tienes espacio para este regalo.
-        - (Condition: Si el player tiene al menos un espacio backpack libre:)
+        - (Condition: If the player has at least one free backpack space:)
           - Papa Mambo te entrega una semilla de flor de vid roja, una semilla de flor de vid verde y una semilla de flor de vid azul.
           - **Papa Mambo:** Úsalos para hacer que esta enredadera florezca y florezca, así vendrán muchos jadinkos. Si se te acaba, puedes comprarme más.
         - (continue|about-jadinkos)
-      - (Condition: Si el player ya ha reclamado las semillas de flores gratuitas de Papa Mambo:)
+      - (Condition: If the player has already claimed the free blossom seeds from Papa Mambo:)
         - **Papa Mambo:** Ah, pero eres hábil con este conocimiento. Ya no necesitas mis regalos.
         - (continue|about-jadinkos)
     - Seleccione una opción{{anchor|about-jadinkos}}
@@ -188,9 +188,9 @@
       - **Papa Mambo:** Je, je, je, puedo. Je je je. Pero será mejor que atraigas a un jadinko antes de que yo los aleje. No creo que hayas visto nunca uno.
   - [Choice]: cond=If the player has not yet claimed the free blossom seeds from Papa Mambo:|¿Tienes semillas gratis?
     - **Papa Mambo:** 'Eh, como eres nuevo en esta vid, acepta este pequeño regalo de mi parte.
-    - (Condition: Si el player no tiene al menos un espacio backpack libre:)
+    - (Condition: If the player does not have at least one free backpack space:)
       - **Papa Mambo:** Lamentablemente, no tienes espacio para este regalo.
-    - (Condition: Si el player tiene al menos un espacio backpack libre:)
+    - (Condition: If the player has at least one free backpack space:)
       - Papa Mambo te entrega una semilla de flor de vid roja, una semilla de flor de vid verde y una semilla de flor de vid azul.
       - **Papa Mambo:** Úsalos para hacer que esta enredadera florezca y florezca, así vendrán muchos jadinkos. Si se te acaba, puedes comprarme más.
 
@@ -256,15 +256,15 @@
 
 - **Papa Mambo (carcelero de jadinko):** Tengo una solicitud especial para [breed]. ¡Especialmente si tiene el rasgo [trait]!
 - **Papa Mambo (carcelero de jadinko):** También estoy buscando algunos Jadinkos, de hecho compraré hasta [número] más mientras esté aquí.
-- ((Repetido para cada jadinko en backpack:))
+- ((Repeated for each jadinko in backpack:))
   - ¿Le gustaría vender [name] por frijoles [número]?
   - '''¿VENDER [NAME] POR FRIJOLES [número]?
     - Sí.
-      - ((Si el player tiene un millón de beans:))
+      - ((If the player has a million beans:))
         - ¡Tu bolsa de monedas está llena de frijoles! Necesitas gastar algunos frijoles antes de poder ganar más.
         - **Papa Mambo (carcelero de jadinko):** No puedes aguantar más frijoles, no puedo comprarte este animal.
         - (continue)
-      - ((Si la transacción le tomara a el player más de un millón de beans:))
+      - ((If transaction would take the player over a million beans:))
         - Esta transacción le llevaría por encima del límite de un millón de frijoles. Al hacerlo, perdería beans [número].
         - **¿COMPLETAR LA TRANSACCIÓN DE TODOS MODOS?**
           - Sí.
@@ -274,7 +274,7 @@
           - No.
             - **Papa Mambo (carcelero de jadinko):** No puedes aguantar más frijoles, no puedo comprarte este animal.
             - (continue)
-      - ((De lo contrario:))
+      - ((Otherwise:))
         - (Action: El animal está vendido.)
         - Frijoles [número] agregados a su bolsa de divisas.
     - No.
@@ -285,15 +285,15 @@
 - **Papa Mambo (carcelero de jadinko):** ¿Estás seguro de que quieres que me lleve todos los Jadinkos que tienes? No aceptaré ninguno de tus favoritos.
 - **¿VENDER TODOS TUS JADINKOS?**
   - si
-    - ((Con jadinkos en backpack:))
-      - ((Si el player tiene un millón de beans:))
+    - ((With jadinkos in backpack:))
+      - ((If the player has a million beans:))
         - ¡Tu bolsa de monedas está llena de frijoles! Necesitas gastar algunos frijoles antes de poder ganar más.
-        - ((Se repite para cada jadinko y luego continúa a continuación:))
+        - ((Repeated for each jadinko, then continues below:))
           - **Papa Mambo (carcelero de jadinko):** No puedes aguantar más frijoles, no puedo comprarte este animal.
         - No tienes animales para vender. ¡Cero animales, cero frijoles!
-      - ((Si la transacción le tomara a el player más de un millón de beans:))
+      - ((If transaction would take the player over a million beans:))
         - (Action: Se venden los animales que no superan el tope.)
-        - ((Se repite para cada jadinko y luego continúa a continuación:))
+        - ((Repeated for each jadinko, then continues below:))
           - Frijoles [número] agregados a su bolsa de divisas.
         - Esta transacción le llevaría por encima del límite de un millón de frijoles. Al hacerlo, perdería beans [número].
         - **¿COMPLETAR LA TRANSACCIÓN DE TODOS MODOS?**
@@ -304,11 +304,11 @@
           - No.
             - **Papa Mambo (carcelero de jadinko):** No puedes aguantar más frijoles, no puedo comprarte este animal.
             - No tienes animales para vender. ¡Cero animales, cero frijoles!
-      - ((De lo contrario:))
+      - ((Otherwise:))
         - (Action: Los animales se venden.)
-        - ((Repetido por cada jadinko vendido:))
+        - ((Repeated for each jadinko sold:))
           - Frijoles [número] agregados a su bolsa de divisas.
-    - ((Sin jadinkos en backpack:))
+    - ((Without jadinkos in backpack:))
       - No tienes animales para vender. ¡Cero animales, cero frijoles!
   - No
     - (end)

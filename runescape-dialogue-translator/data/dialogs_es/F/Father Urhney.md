@@ -61,7 +61,7 @@
 
 ### Treasure Trails
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only the first time:)
   - {{transcript missing}}
 - (receives=challenge scroll (medium))
 - [pic=Desplazamiento de pistas (mediano) detail.png]
@@ -70,15 +70,37 @@
 
 - **Padre Urnhey:** Cuanto antes respondas la pregunta, antes podrás dejarme en paz.
 - Ingrese la cantidad:<br>[Input field]
-- (Condition: Cuando se le da la respuesta incorrecta:)
+- (Condition: When given the wrong answer:)
   - **Padre Urnhey:** ¡Mal! Ahora vete. Estoy meditando.
-- (Condition: Cuando se le da la respuesta correcta:)
+- (Condition: When given the correct answer:)
   - (removes=the clue scroll (medium) y desplazamiento de desafío (medio))
-  - (Condition: Si el rastro continúa:)
+  - (Condition: If the trail continues:)
     - (receives=a new clue scroll (medium))
     - [¡Aunque sólo sea para deshacerse de ti, el padre Urnhey te ha dado otro pergamino de pistas!]
-  - (Condition: Si el sendero termina:)
+  - (Condition: If the trail ends:)
     - (receives=reward casket (medium))
     - [¡Has encontrado un ataúd!]
   - **Padre Urnhey:** Felicitaciones. O puedes contar, has tenido suerte o no confías en tu propia mente y traficas con fuentes de conocimiento infernal sobrenaturales.
-  - **Padre Urnhey:** De todos modos, por el amor de Saradomin...<br>Por favor. Déjame y no me vuelvas a molestar.<br>Quiero que me dejen en paz.
+  - **Padre Urnhey:** De todos modos, por el amor de Saradomin...<br>Por favor. Déjame y no me vuelvas a molestar.<br>Quiero que me dejen en paz.
+### During The Restless Ghost
+
+- [Choice]: Father Aereck me envió a hablar contigo.
+  - **Player:** Father Aereck me envió a hablar contigo.
+  - **Father Urhney:** Supongo que será mejor que hable contigo entonces. ¿En qué se ha metido esta vez?
+  - [Menu]: Selecciona una opción
+    - [Choice]: Un fantasma está rondando su cementerio.
+      - **Father Urhney:** Oh, tonto ingenuo.
+      - **Father Urhney:** Me voy de la ciudad por cinco meses y él ya tiene problemas.
+      - **Father Urhney:** *suspiro*
+      - **Father Urhney:** Bueno, no puedo regresar y exorcizarlo; prometí no dejar este lugar hasta que haya pasado dos años completos orando y meditando.
+      - **Father Urhney:** Sin embargo, te diré lo que puedo hacer: toma este amuleto.
+      - **Player:** Lo siento, eso no es realmente posible. No tengo espacio para llevar nada. ¡Vuelvo enseguida!
+      - **Father Urhney:** Es un ghostspeak amulet.
+      - **Father Urhney:** Se llama así porque, cuando lo usas, puedes hablar con fantasmas. Muchos fantasmas están condenados a permanecer en este mundo porque tienen alguna tarea importante sin terminar.
+      - **Father Urhney:** Si sabes cuál es esta tarea, podrás deshacerte del fantasma. No te garantizo nada, ojo, pero es lo mejor que puedo hacer ahora.
+      - **Player:** Gracias. Lo intentaré.
+    - [Choice]: ¿Quieres decir que se mete en muchos problemas?
+      - **Father Urhney:** Sí. Incluso cuando éramos sacerdotes en formación, se quedaba atascado en las cuerdas de las campanas.
+      - **Father Urhney:** En fin, no tengo tiempo para charlas. ¿Cuál es su problema esta vez?
+      - **Player:** Un fantasma está rondando su cementerio.
+

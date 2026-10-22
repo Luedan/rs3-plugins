@@ -21,10 +21,10 @@
 - **???:** ...completamente crecido y justo dentro de las paredes. Es genial ver un [duke/duchess/dux] que aprecia el-
 - **Player:** ¿Perdón?
 - **???:** Ah, majestad, mis disculpas no la vi allí.
-- ((Si no has hablado con Aster:))
+- ((If you haven't spoken to Aster:))
   - **Player:** Está muy bien. ¿Qué te trae por aquí a Fort Forinthry?
   - (continue)
-- ((Si has hablado con Aster:))
+- ((If you have spoken to Aster:))
   - **Player:** Está muy bien. ¿Aster mencionó que tenía una propuesta de expansión que discutir conmigo?
   - (continue)
 - **???:** Ah sí, excelencia, ¿ha notado cómo la zona del este se ha visto mucho más saludable en los últimos años?
@@ -47,10 +47,10 @@
 ##### Antes
 
 - **Oak:** Buenos días, excelencia, ¿hay algo que pueda hacer para ayudar?
-- ((Si no has hablado con Bill:))
+- ((If you haven't spoken to Bill:))
   - **Player:** Gracias Oak, pero no hay nada en lo que puedas ayudar en este momento. Actualmente todavía necesito hablar con Bill sobre la planificación de las fortificaciones.
   - (continue)
-- ((Si has hablado con Bill:))
+- ((If you have spoken to Bill:))
   - **Player:** Gracias Oak, pero no hay nada en lo que puedas ayudar en este momento. Todavía necesito construir las fortificaciones antes de continuar con otros planes.
   - (continue)
 - **Oak:** Entendido, excelencia, permaneceré aquí hasta que me informe lo contrario.
@@ -116,9 +116,9 @@
 - **Roble:** De hecho, con los nuevos árboles y plantas que crecen alrededor del fuerte, ha habido informes de que se han avistado nuevas aves migrando desde el noreste.
 - **Player:** Qué interesante, ¿has visto estas aves tú mismo?
 - **Roble:** Lamentablemente no, pero encontré esto entre sus nidos. No sé qué es, pero ¿tal vez puedas aprovecharlo?
-- ((Sin espacio en backpack:))
+- ((Without space in backpack:))
   - **Player:** Lo siento Oak, no tengo espacio para tomar eso en este momento. Volveré más tarde.
-- ((Con espacio en backpack:))
+- ((With space in backpack:))
   - (receives=a bird's nest with an Imcando hatchet fragment)
   - ¡Felicitaciones! Has completado: 'Un nuevo descubrimiento': después de actualizar la arboleda en Fort Forinthry al nivel 3, regresa a Oak para conocer su nuevo descubrimiento.
   - **Player:** ¿Es esto una pieza de metal enano? ¡Cómo pudo siquiera llevar esto!

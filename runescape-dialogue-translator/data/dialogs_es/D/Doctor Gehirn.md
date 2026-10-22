@@ -8,9 +8,9 @@
 
 ## Dialogue Transcript
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only on first time:)
   - 25 almas vuelan para impulsar el barco.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - 25 almas vuelan para impulsar el barco.
     - (continue)
 - **Doctor Gehirn:** Me encantaría encurtir tu cerebro. Quiero decir, elegir, elegir tu cerebro.

@@ -104,47 +104,47 @@
 ##### Si el player es elegible para una tarjeta
 
 - **Gorajo hoardstalker:** Para activar la tarjeta ingresa al área Daemonheim. Una vez dentro, actívalo cuando lo desees.
-- (Condition: Si recibió una tarjeta seductora del diablo del humo:)
+- (Condition: If a beguiling smoke devil card was received:)
   - (receives=Beguiling smoke devil card (solo))
   - [Recibirás: Tarjeta del diablo de humo seductor]
   - (continue)
-- (Condition: Si recibió una tarjeta de clonación de mosquitos:)
+- (Condition: If a cloning mosquito card was received:)
   - (receives=Cloning mosquito card (solo))
   - [Recibirás: Tarjeta de clonación de mosquitos]
   - (continue)
-- (Condition: Si se recibió una tarjeta de yak consistente:)
+- (Condition: If a consistent yak card was received:)
   - (receives=Consistent yak card (solo))
   - [Recibirás: Tarjeta yak consistente]
   - (continue)
-- (Condition: Si recibió una tarjeta ibis acicalada:)
+- (Condition: If a preening ibis card was received:)
   - (receives=Preening ibis card (solo))
   - [Recibirás: Tarjeta ibis acicalada]
   - (continue)
-- (Condition: Si se recibió una carta de titán protector:)
+- (Condition: If a protecting titan card was received:)
   - (receives=Protecting titan card (solo))
   - [Recibirás: Tarjeta de titán protector]
   - (continue)
-- (Condition: Si se recibió una tarjeta de fénix invertida:)
+- (Condition: If a reversing phoenix card was received:)
   - (receives=Reversing phoenix card (solo))
   - [Recibirás: tarjeta fénix invertida]
   - (continue)
-- (Condition: Si recibió una tarjeta de suricatas carroñeras:)
+- (Condition: If a scavenging meerkats card was received:)
   - (receives=Scavenging meerkats card (solo))
   - [Recibirás: Tarjeta de suricatas carroñeras]
   - (continue)
-- (Condition: Si se recibió una tarjeta de langosta ladrona:)
+- (Condition: If a thieving locust card was received:)
   - (receives=Thieving locust card (solo))
   - [Recibirás: tarjeta de langosta Thieving]
   - (continue)
-- (Condition: Si se recibió una tarjeta de sanguijuela comercial:)
+- (Condition: If a trading leech card was received:)
   - (receives=Trading leech card (solo))
   - [Recibirás: Tarjeta de sanguijuela comercial]
   - (continue)
-- (Condition: Si se recibió una tarjeta de mantis comercial:)
+- (Condition: If a trading mantis card was received:)
   - (receives=Trading mantis card (solo))
   - [Recibirás: Tarjeta de mantis comercial]
   - (continue)
-- (Condition: Si se recibió una tarjeta bunyip caprichosa:)
+- (Condition: If a whimsical bunyip card was received:)
   - (receives=Whimsical bunyip card (solo))
   - [Recibirás: Tarjeta bunyip caprichosa]
   - (continue)
@@ -160,10 +160,10 @@
 
 ##### Si el player ya tiene una tarjeta en backpack o en el banco
 
-- (Condition: Si el player ya tiene dos tarjetas, o solo tiene una tarjeta de un solo jugador y el gorajo no dará tarjeta de equipo hoy:)
+- (Condition: If the player already has two cards, or only has a single player card and the gorajo will not give a team card today:)
   - **Gorajo hoardstalker:** No, no. Primero debes usar la última tarjeta que te di.
   - [El gorajo no dará tarjeta del equipo hoy. Utilice cualquier tarjeta de un jugador existente para poder reclamar una nueva.]
-- (Condition: Si el player ya tiene tarjeta de equipo y el gorajo dará tarjeta de equipo hoy:)
+- (Condition: If the player has a team card already and the gorajo will give a team card today:)
   - **Gorajo hoardstalker:** Siento que hoy será una carta más poderosa. Antes de que pueda dártelo debes usar la última tarjeta que te di.
   - [El gorajo dará hoy ficha del equipo. Utilice cualquier tarjeta de equipo existente para poder reclamar una nueva.]
 
@@ -189,15 +189,15 @@
     - **Gorajo hoardstalker:** Si completas esto, te daré: fichas Dungeoneering (500) x 1. ¡Estoy seguro de que también ganarás reputación en el gremio de agricultores!
     - **Gorajo hoardstalker:** ¡Tendrás que ser rápido!, solo estoy aquí por [número] días, [número] horas y [número] minutos. Para ser exactos.
   - Dales los artículos y animales que soliciten.
-    - ((Sin los artículos solicitados:))
+    - ((Without the requested items:))
       - **Gorajo hoardstalker:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Gorajo hoardstalker:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **Gorajo hoardstalker:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal].
       - **Gorajo hoardstalker:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
-    - ((Con los artículos solicitados:))
+    - ((With the requested items:))
       - (removes=the requested items) (receives=the reward)
       - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - Por completar esta solicitud, recibió 1 imprimación para Brassica.
         - (continue)
       - Has recibido: tokens Dungeoneering (500) x 1<br> y 5500 reputación agrícola.
@@ -224,7 +224,7 @@
 
 - (removes=the requested items) (receives=Dungeoneering tokens (500) y imprimación Brassica)
 - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Por completar esta solicitud, recibió 1 imprimación para Brassica.
   - (continue)
 - Has recibido: tokens Dungeoneering (500) x 1<br> y 5500 reputación agrícola.

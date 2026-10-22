@@ -15,7 +15,7 @@
 - **Khoochak:** *braaak* ¿Olvidaste una aventura? Pregúntale al loro. *raaawwwwww*
 - [Menu]: ¿Mencionar una aventura en el desierto a Khoochak?
   - [Choice]: Sí.
-    - ((A continuación solo aparecen las misiones que hayas completado.))
+    - ((In the following only quests you have completed appear.))
     - [Menu]: Elige una opción:{{anchor|a01}}
       - [Choice]: Corazones robados
         - (below|001)

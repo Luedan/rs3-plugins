@@ -28,12 +28,12 @@
 #### Si el player estaba en el mismo mundo y en el centro al llegar
 
 - ¡El treasure turtle está feliz de compartir su tesoro!
-- ((Se abre la interfaz de recompensa.))
+- ((The reward interface opens.))
 
 #### Si el player estaba en otro mundo o fuera del centro al llegar
 
 - El treasure turtle no está interesado en compartir su tesoro contigo.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - El treasure turtle no está interesado en compartir su tesoro contigo.
   - (continue)
 - Debes estar en el área cuando comience el evento para ser elegible para recibir las recompensas completas.

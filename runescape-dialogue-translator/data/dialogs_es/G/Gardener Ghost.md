@@ -12,7 +12,7 @@
 ### Before starting Creature of Fenkenstrain
 
 - **Player:** ¿Quién eres?
-- (Condition: Sin la capacidad de entender fantasmas:)
+- (Condition: Without the ability to understand ghosts:)
   - [El cuello del jardinero sin cabeza se mueve hacia ti, pero la falta de cabeza le impide hablar.]
-- (Condition: Con la capacidad de entender fantasmas:)
+- (Condition: With the ability to understand ghosts:)
   - **Gardener Ghost:** Oye, soy el jardinero sin cabeza, amigo.

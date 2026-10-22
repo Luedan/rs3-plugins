@@ -28,10 +28,10 @@
     - **Player:** ¡Gracias!
   - [Choice]: He perdido mi paleta.
     - **Player:** He perdido mi paleta.
-    - (Condition: Si el player no tiene llana:)
+    - (Condition: If the player doesn't have a trowel:)
       - **Examiner:** Querido amigo. Esa también fue buena. Es un buen trabajo, tengo otro. Aquí tienes...
       - (receives=a trowel)
-    - (Condition: Si el player ya tiene paleta:)
+    - (Condition: If the player already has a trowel:)
       - **Examiner:** ¿En serio? Mira en tu backpack y asegúrate primero.
 
 #### Senderos del tesoro
@@ -65,11 +65,11 @@
 - **Player:** ¡Pero no he estudiado! ¡No estoy preparado!
 - **Examiner:** ¡Ajá! Por supuesto, estoy bromeando. Aquí aprendemos haciendo.
 - {{RSFontAchievement|You Dig?|Talk to an examiner at the Varrock Dig Site's Exam Centre.}}
-- ((Se muestra en una ventana emergente de finalización de tarea:))
+- ((Shown in a task completion pop-up:))
   - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
   - ¿Excavas?
   - Hable con un examinador en el centro de exámenes del sitio de excavación Varrock.
   - (continue)
 - **Examiner:** ¡Así que toma un azadón y quédate atrapado!
-- (Condition: Si se han completado todas las tareas:)
+- (Condition: If all the tasks have been completed:)
   - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!

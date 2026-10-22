@@ -18,9 +18,9 @@
 - **Player:** Bonita nube, ¿dónde puedo conseguir una?
 - **Solar Knight:** ¡El enfrentamiento del Solsticio, por supuesto!
 - **Solar Knight:** Lo siento, pero debo volver al campo de batalla. Ahora ¿en qué dirección fue?
-- ((Si no eres un jugador del Modo Ironman y solo la primera vez:))
+- ((If not an Ironman Mode player and only on the first time:))
   - Se le ha otorgado 1 clave Treasure Hunter.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - Se le ha otorgado 1 clave Treasure Hunter.
 
 #### Enfrentamiento definitivo

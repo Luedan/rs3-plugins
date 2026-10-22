@@ -24,13 +24,13 @@
 ### Overhead dialogue
 
 - {{trandom}}
-  - (Condition: Diálogo 1:)
+  - (Condition: Dialogue 1:)
     - **Gundik:** {{RSChat|Spicy kebabs!}}
-  - (Condition: Diálogo 2:)
+  - (Condition: Dialogue 2:)
     - **Gundik:** {{RSChat|Bat kebabs!}}
-  - (Condition: Diálogo 3:)
+  - (Condition: Dialogue 3:)
     - **Gundik:** {{RSChat|Spicy bat kebabs!}}
-  - (Condition: Diálogo 4:)
+  - (Condition: Dialogue 4:)
     - **Gundik:** {{RSChat|Bat shish kebabs!}}
-  - (Condition: Diálogo 5:)
+  - (Condition: Dialogue 5:)
     - **Gundik:** {{RSChat|Kebabs!}}

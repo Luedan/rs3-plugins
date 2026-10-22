@@ -12,17 +12,17 @@
 ### Spawn
 
 - ¡Una nube de destellos se ha apoderado de un glifo!
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - ¡Una nube de destellos se ha apoderado de un glifo!
 
 ### Restore
 
 - Expulsas los destellos del glifo.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Expulsas los destellos del glifo.
   - (continue)
 - Se agrega la siguiente recompensa al cofre ritual: 1 x [Item]
 
 ### Check durability
 
-- ((Se muestra la verificación de durabilidad estándar para el glifo sobre el que aparece.))
+- ((The standard durability check for the glyph it appears over is shown.))

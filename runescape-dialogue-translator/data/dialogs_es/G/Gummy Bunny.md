@@ -31,7 +31,7 @@
 #### Con el título de "el Huevo" antes de haber desbloqueado su variante "Envuelto"
 
 - ¡Has desbloqueado el color 'Envuelto' para el título 'el Huevo'!
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - ¡Has desbloqueado el color 'Envuelto' para el título 'el Huevo'!
   - (continue)
 - **Gummy Bunny:** *omnomnom* ¡Buen título *nom*! *omnom* ¡Me gustan *omnomnom* en los que envolvemos *om* las golosinas! *omnom*

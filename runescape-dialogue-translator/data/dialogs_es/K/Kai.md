@@ -22,7 +22,7 @@
 - **Kai:** ¡Este día sigue mejorando cada vez más!
 - (removes=cooked meat)
 - **Player:** ¡Me alegro!
-- ((Si se completó el logro Vegano antipático:))
+- ((If the Vegan Unfriendly achievement was completed:))
   - ¡Felicitaciones! Has completado: 'Vegan Unfriendly': alimenta a todos los cocodrilos con un poco de filete.
   - Has desbloqueado el título: {{Colour ZZCMD0ZZPlayer}}|color=#00FF00}}
   - Puede activar esto a través de la pestaña 'Títulos' en la interfaz 'Personalizaciones'.

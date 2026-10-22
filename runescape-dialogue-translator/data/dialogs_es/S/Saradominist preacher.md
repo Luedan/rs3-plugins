@@ -17,10 +17,10 @@
     - **Saradominist preacher:** ¿No lo sabes?
     - **Saradominist preacher:** La Batalla de Lumbridge fue una batalla épica librada entre el noble dios Saradomin y el malvado dios pretendiente Zamorak.
     - **Saradominist preacher:** Zamorak entró a través de un portal en Lumbridge e inmediatamente comenzó a destruir todo lo que lo rodeaba. Pero entonces, apareció el poderoso Saradomin e intervino, protegiéndonos a todos.
-    - (Condition: Diálogo histórico, previo a la eliminación del cráter Lumbridge:)
+    - (Condition: Historical dialogue, prior to the Lumbridge crater's removal:)
       - **Saradominist preacher:** Se dieron golpes y ambos lanzaron todo su poder el uno contra el otro. La fuerza de su furia desgarró el suelo bajo nuestros pies y creó el cráter que vemos hoy.
       - (continue)
-    - (Condition: Diálogo actual, tras la eliminación del cráter Lumbridge:)
+    - (Condition: Current dialogue, after the Lumbridge crater's removal:)
       - **Saradominist preacher:** Se dieron golpes y ambos lanzaron todo su poder el uno contra el otro. La fuerza de su furia desgarró el suelo bajo nuestros pies.
       - (continue)
     - **Saradominist preacher:** Atrapados en un punto muerto, cada uno convocó a sus poderosos ejércitos y emprendió la guerra en Lumbridge.
@@ -48,7 +48,7 @@
 ##### Con espacio en backpack
 
 - (receives=bronze, silver, gold, rune or dragon Saradominist or Zamorakian token)
-- (Condition: Se reproduce uno de los siguientes mensajes, según el nivel de token que se reclamó:)
+- (Condition: One of the following messages below is played, depending on the tier of token that was reclaimed:)
   - [Reclamas tu muestra de lealtad.]
   - [Reclamas tu muestra de lealtad.]
   - [Reclamas tu muestra de lealtad.]

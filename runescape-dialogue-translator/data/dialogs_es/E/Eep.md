@@ -11,7 +11,7 @@
 
 ### Overhead dialogue
 
-- (Condition: En respuesta al estornudo de Sneezy:)
+- (Condition: In response to Sneezy sneezing:)
   - **Eep:** {{RSChat|Bless you!}}
 
 ### Talk to
@@ -27,14 +27,14 @@
     - **Eep:** *bostezo* Me gustaría mucho dejarlos descansar si me traes un juego completo.
     - (previous)
   - [Choice]: ¿Puedo ver tus colecciones?
-    - ((Abre la interfaz de colecciones de Horsemen's Hoard Archaeology.))
+    - ((Opens Horsemen's Hoard Archaeology collections interface.))
   - [Choice]: Adiós.
     - **Player:** Adiós.
     - **Eep:** *bostezo* Adiós.
 
 ### Collections
 
-- ((Abre la interfaz de colecciones de Horsemen's Hoard Archaeology.))
+- ((Opens Horsemen's Hoard Archaeology collections interface.))
 
 ### Contributing to a collection
 
@@ -49,10 +49,10 @@
 ##### Llegar a 150.000 fichas espeluznantes
 
 - Ha alcanzado el límite flexible del token Spooky de 150.000. Debes gastar algunas fichas en Spooky Reward Shop antes de poder ganar más.
-- (ventana emergente)
-  - (Ventana emergente: has alcanzado el límite flexible de tokens Spooky de 150 000. Debes gastar algunos tokens en la tienda de recompensas Spooky antes de poder ganar más.|advertencia=yes)
+- (pop-up)
+  - (Pop-up: You have reached the Spooky token soft cap of 150,000. You need to spend some tokens in the Spooky Reward Shop before you can earn more.|warning=yes)
   - (continue)
-- (Condition: Si antes tenías menos de 150.000 tokens espeluznantes:)
+- (Condition: If you had under 150,000 spooky tokens before:)
   - Se ha agregado lo siguiente a su bolsa de divisas: [número] x tokens Spooky
 
 #### Si se completó la colección Bounty of Bones
@@ -65,32 +65,32 @@
 ##### Llegar a 150.000 fichas espeluznantes
 
 - Ha alcanzado el límite flexible del token Spooky de 150.000. Debes gastar algunas fichas en Spooky Reward Shop antes de poder ganar más.
-- (ventana emergente)
-  - (Ventana emergente: has alcanzado el límite flexible de tokens Spooky de 150 000. Debes gastar algunos tokens en la tienda de recompensas Spooky antes de poder ganar más.|advertencia=yes)
+- (pop-up)
+  - (Pop-up: You have reached the Spooky token soft cap of 150,000. You need to spend some tokens in the Spooky Reward Shop before you can earn more.|warning=yes)
   - (continue)
-- (Condition: Si antes tenías menos de 150.000 tokens espeluznantes:)
+- (Condition: If you had under 150,000 spooky tokens before:)
   - Se ha agregado lo siguiente a su bolsa de divisas: [número] x tokens Spooky
 
 #### Si se agregaron algunos elementos con el botón "contribuir todo", pero la colección no se completó
 
 - Contribuyes con [número] [item/items] a la colección.
-- (ventana emergente)
-  - (Ventana emergente: usted contribuye con [número] [item/items] a la colección).
+- (pop-up)
+  - (Pop-up: You contribute [number] [item/items] to the collection.)
 
 #### Sin nada que aportar al aportar un solo artículo
 
 - No tienes nada de ese artículo.
-- (ventana emergente)
-  - (Ventana emergente: No tienes ninguno de esos artículos).
+- (pop-up)
+  - (Pop-up: You do not have any of that item.)
 
 #### Sin nada que aportar con el botón "contribuir todo"
 
 - No tienes nada que aportar en este momento.
-- (ventana emergente)
-  - (Ventana emergente: no tienes nada que aportar en este momento).
+- (pop-up)
+  - (Pop-up: You have nothing to contribute at this time.)
 
 #### Contribuyendo con un artículo ya contribuido
 
 - Ya has contribuido con eso.
-- (ventana emergente)
-  - (Ventana emergente: ya has contribuido con eso).
+- (pop-up)
+  - (Pop-up: You've already contributed that.)

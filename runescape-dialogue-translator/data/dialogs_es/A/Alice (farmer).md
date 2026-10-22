@@ -12,10 +12,10 @@
 
 ### At the farm by Port Phasmatys
 
-- (Condition: Antes del magnetismo animal:)
+- (Condition: Before Animal Magnetism:)
   - **Alicia:** Hola. ¿Le puedo ayudar en algo?
   - (continue)
-- (Condition: Después del magnetismo animal:)
+- (Condition: After Animal Magnetism:)
   - **Alice:** Hola amiga, y gracias por permitirme hablar con mi esposo. ¿Le puedo ayudar en algo?
   - (continue)
 - [Menu]: Selecciona una opción

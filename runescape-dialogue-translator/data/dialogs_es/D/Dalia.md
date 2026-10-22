@@ -67,19 +67,19 @@
     - **Dalia:** Podría hacerlo. ¿En cuál estabas pensando?
     - [Menu]: Selecciona una opción
       - [Choice]: El parche del árbol.
-        - (Condition: Si el player no tiene cultivos en el parche:)
+        - (Condition: If the player has no crops in the patch:)
           - **Dalia:** No tienes nada plantado en ese parche. Planta algo y tal vez acepte cuidarlo por ti.
-        - (Condition: Si el player tiene cultivos completamente desarrollados plantados en el parche:)
+        - (Condition: If the player has fully grown crops planted in the patch:)
           - **Dalia:** ¡Ese parche ya está completamente desarrollado! ¡No sé qué quieres que haga con él!
-        - (Condition: Si los cultivos en el parche aún no están completamente desarrollados pero el player ya le pagó al jardinero:)
+        - (Condition: If the crops in the patch are not yet fully grown but the player has already paid the gardener:)
           - **Dalia:** No sé de qué estás hablando. Ya estoy cuidando ese parche por ti.
           - **Player:** Oh, lo siento, lo olvidé.
-        - (Condition: Si los cultivos en el parche aún no han crecido completamente:)
+        - (Condition: If the crops in the patch are not yet fully grown:)
           - **Dalia:** Si quieres, pero quiero [número] [item] para eso.
-          - (Condition: Si el player no tiene los elementos requeridos:)
+          - (Condition: If the player does not have the required items:)
             - **Player:** Me temo que no tengo suficientes en este momento.
             - **Dalia:** Bueno, no voy a perder el tiempo gratis.
-          - (Condition: Si el player tiene los elementos requeridos:)
+          - (Condition: If the player has the required items:)
             - [Menu]: Selecciona una opción
               - [Choice]: Está bien, es un trato.
                 - **Player:** Está bien, es un trato.
@@ -94,10 +94,10 @@
     - **Dalia:** A cambio de tu ayuda, te dejaré usar mi vivero de árboles.
     - **Dalia:** Tiene una parcela de árboles y una parcela de árboles frutales.
     - **Dalia:** También hay tres parcelas de suelo de alta calidad.
-    - (Condition: Antes de completar "De aquí a la eternidad":)
+    - (Condition: Before completing "From Here to Eternity":)
       - **Dalia** Están vacíos, ya que no he encontrado ningún árbol lo suficientemente especial como para justificar su plantación en un suelo tan bueno.
       - **Dalia** Si encuentras algún árbol de este tipo en tus aventuras, me encantaría verlo aprovecharlo al máximo.
-    - (Condition: Después de completar "De aquí a la eternidad":)
+    - (Condition: After completing "From Here to Eternity":)
       - **Dalia:** Todavía no estoy acostumbrado a la belleza sobrenatural de los árboles que plantaste allí.
       - **Dalia:** Son exactamente el tipo de espécimen especial para el que reservé esas parcelas.
   - [Choice]: cond=After A Fairy Tale III, and with patches being weeded|¿Puedes dejar de desyerbar mis parcelas agrícolas, por favor?

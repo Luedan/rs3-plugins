@@ -34,9 +34,9 @@
 ### Fully charging the bar
 
 - (Action: Se reproduce una animación de el player flotando y obteniendo armas.)
-- (Condition: Con un inventario completo:)
+- (Condition: With a full inventory:)
   - Tu inventario estaba lleno, por lo que las tres armas se agregaron al suelo.
-- (Condition: Con algo de espacio de inventario:)
+- (Condition: With some inventory space:)
   - {{transcript missing}}
 - ¡Eres el cazador supremo!
 - (ventana emergente)

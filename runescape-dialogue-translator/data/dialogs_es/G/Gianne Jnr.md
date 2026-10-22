@@ -59,7 +59,7 @@
 ### If the player has finished training with Aluft Gianne snr. and Blurberry
 
 - **Player:{{anchor|thejob}}** Estoy listo para recibir un pedido ahora...
-- (Condition: Si el player no ha rechazado un pedido recientemente:)
+- (Condition: If the player has not recently refused an order:)
   - [Menu]: ¿Quieres afrontar un parto fácil o difícil?
     - [Choice]: Creo que calentaré con uno fácil.
       - **Player:** Creo que calentaré con uno fácil.
@@ -113,7 +113,7 @@
           - (above|thejob)
         - [Choice]: He cambiado de opinión, hay algo más que debo hacer ahora.
           - (end)
-- (Condition: Si el player rechazó recientemente un pedido fácil:)
+- (Condition: If the player recently refused an easy order:)
   - **Gianne jnr:** Como acabas de rechazar un trabajo fácil, por el momento solo tengo un trabajo difícil disponible para ti. Si quieres esperar a que llegue otro fácil, vuelve en [número] minutos.
   - [Menu]: ¿Quieres aceptar el trabajo duro?
     - [Choice]: Lo intentaré.
@@ -125,7 +125,7 @@
       - (above|instructions)
     - [Choice]: Creo que esperaré a otro fácil.
       - (end)
-- (Condition: Si el player rechazó recientemente un pedido en firme:)
+- (Condition: If the player recently refused a hard order:)
   - **Gianne jnr:** Dado que acabas de rechazar un trabajo difícil, por el momento solo tengo un trabajo fácil disponible para ti. Si quieres esperar a que llegue otro difícil, vuelve en [número] minutos.
   - [Menu]: ¿Quieres aceptar el trabajo fácil?
     - [Choice]: Lo intentaré.
@@ -137,6 +137,6 @@
       - (above|instructions)
     - [Choice]: Creo que esperaré a otro fácil.
       - (end)
-- (Condition: Si el player recientemente rechazó tanto un pedido fácil como uno difícil:)
+- (Condition: If the player recently refused both an easy and a hard order:)
   - **Gianne jnr:** Dado que rechazaste el último trabajo difícil y fácil que te ofrecí, tendrás que esperar a que lleguen nuevos pedidos; vuelve en [número] minutos.
     - (end)

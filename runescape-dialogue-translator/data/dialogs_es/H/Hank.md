@@ -114,11 +114,11 @@
       - [Choice]: ¡No, gracias!
         - (end)
   - [Choice]: ¿Por Saradomin?
-    - (Condition: Después de la Batalla de Lumbridge:)
+    - (Condition: After the Battle of Lumbridge:)
       - **Hank:** Sí, fue durante la batalla de Lumbridge. Saradomin decidió que mi tienda estaba en el camino de su campamento. Desde entonces, he estado aquí en la calle, tratando de vender lo que queda de mis mercancías.
       - **Hank:** Probablemente no debería hablar mal de Saradomin ahora, después de que aplastó a Zamorak de esa manera.
       - (continue)
-    - (Condition: Durante la Batalla de Lumbridge:)
+    - (Condition: During the Battle of Lumbridge:)
       - **Hank:** ¿No has visto el campamento justo detrás de donde estaba mi tienda? El propio Saradomin está en ese campo, enfrascado en una batalla con Zamorak.
       - **Hank:** ¡Todas estas peleas no son buenas para el negocio!
       - (continue)

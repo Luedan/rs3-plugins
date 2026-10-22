@@ -24,7 +24,7 @@
 
 - **Cocoa Bunny:** Tu título me recuerda cómo solía llamarnos la abuela Jesse cada vez que visitábamos...
 - ¡Has desbloqueado el color 'Primavera' para el título 'el Huevo'!
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - ¡Has desbloqueado el color 'Primavera' para el título 'el Huevo'!
   - (continue)
 - **Cocoa Bunny:** Ella siempre estuvo rodeada de las flores más bonitas... ¿Quizás a ti también te quedarán bien?

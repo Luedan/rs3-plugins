@@ -13,23 +13,23 @@
 
 - **Mernik:** ¡Oh, hola! Niños, saluden al habitante de la superficie.
 - {{Trandom}}
-  - ((Diálogo 1:))
+  - ((Dialogue 1:))
     - **[Bozin/Caldi/Elzik/Fandon/Horgon/Inglin/Lorzan]:** ¡Jaja! ¡Te ves gracioso!
     - **Mernik:** ¡Estoy seguro de que pareces igual de gracioso para el habitante de la superficie!
-  - ((Diálogo 2:))
+  - ((Dialogue 2:))
     - **[Bozin/Caldi/Elzik/Fandon/Horgon/Inglin/Lorzan]:** ¡Hueles mal!
     - **Mernik:** ¡No hay necesidad de ser grosero!
     - **Mernik:** Lo siento, habitante de la superficie.
-  - ((Diálogo 3:))
+  - ((Dialogue 3:))
     - **[Bozin/Caldi/Elzik/Fandon/Horgon/Inglin/Lorzan]:** ¿De verdad eres de la superficie?
     - **Player:** Sí, lo soy.
-  - ((Diálogo 4:))
+  - ((Dialogue 4:))
     - **[Bozin/Caldi/Elzik/Fandon/Horgon/Inglin/Lorzan]:** ¿Eres Player? ¿Ayudaste a Zanik a salvar la ciudad?
     - **Mernik:** ¡El hecho de que [he's/she's] sea un habitante de la superficie no significa que [he's/she's] Player! ¡Hay muchos habitantes de la superficie!
     - **Player:** En realidad soy Player.
     - **Mernik:** ¿Player? ¿En realidad?
     - **Mernik:** ¡Zanik me habló de ti! ¡Estoy tan feliz de conocerte!
-  - ((Diálogo 5:))
+  - ((Dialogue 5:))
     - **[Bozin/Caldi/Elzik/Fandon/Horgon/Inglin/Lorzan]:** ¡No!
     - **Mernik:** ¡Bueno, no me culpes si [he/she] tampoco quiere hablar contigo!
     - **Mernik:** Lo siento.

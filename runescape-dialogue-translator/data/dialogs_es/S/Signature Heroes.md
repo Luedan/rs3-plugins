@@ -147,33 +147,33 @@
     - **Player:** ¡Fue una de muchas aventuras épicas!
     - **Ozan:** ¡Lo sé! He oído historias sobre ti. ¡Me he pasado algunos de ellos!
     - **Ariane:** Cambiándolas a historias sobre ti.
-    - (Condition: Si Sir Owen está presente:)
+    - (Condition: If Sir Owen is present:)
       - **Sir Owen:** O insertarte como quien salva el día.
       - **Ozan:** ¡No les hagas caso, Player! Todas mis historias son hechos sin adornos.
       - (continue)
-    - (Condition: Si Xenia está presente, pero no Sir Owen:)
+    - (Condition: If Xenia is present, but not Sir Owen:)
       - **Xenia:** O insertarte como quien salva el día.
       - **Ozan:** ¡No les hagas caso, Player! Todas mis historias son hechos sin adornos.
       - (continue)
-    - (Condition: Si solo están presentes Ozan y Ariane:)
+    - (Condition: If only Ozan and Ariane are present:)
       - **Ariane:** O insertarte como quien salva el día.
       - **Ozan:** ¡No la escuches, Player! Todas mis historias son hechos sin adornos.
       - (continue)
     - **Ariane:** Ese es el cuento más fantástico que he escuchado en mucho tiempo.
   - [Choice]: ¿Quiénes son ustedes?
     - **Player:** ¿Quiénes son ustedes?
-    - (Condition: Si los cuatro Signature Heroes están presentes:)
+    - (Condition: If all four Signature Heroes are present:)
       - **Xenia:** Lo siento, pensé que se conocían.
       - **Xenia:** Player, estos son algunos otros miembros del Gremio. Sir Owen - Ariane - Ozan.
       - **Ozan:** No es necesario que te presentes, Player. Xenia nos ha contado todo sobre ti.
       - **Sir Owen:** Eres una valiosa incorporación al gremio.
-    - (Condition: Si solo están presentes Xenia, Ozan y Ariane:)
+    - (Condition: If only Xenia, Ozan and Ariane are present:)
       - **Xenia:** Lo siento, pensé que se conocían.
       - **Xenia:** Player, estos son algunos otros miembros del Gremio. Ariane - Ozan.
       - **Ariane:** Hace tiempo que no vemos a Sir Owen por aquí...
       - **Ozan:** No es necesario que te presentes, Player. Xenia nos ha contado todo sobre ti.
       - **Ariane:** Eres una valiosa incorporación al gremio.
-    - (Condition: Si solo están presentes Ozan y Ariane:)
+    - (Condition: If only Ozan and Ariane are present:)
       - **Ariane:** Lo siento, pensé que se conocían.
       - **Ariane:** Player, lamentablemente solo estamos nosotros dos en este momento. Este es Ozan.
       - **Ariane:** Hace tiempo que no vemos a Sir Owen por aquí...
@@ -191,21 +191,21 @@
 - **Ariane:** Arriesgué mi vida para recuperar esos artefactos para el museo. ¡Entonces descubrí que los habías robado otra vez del museo!
 - **Ozan:** Los artefactos estaban almacenados. Habían terminado de estudiarlos.
 - **Ariane:** Nunca terminas de estudiar algo.
-- (Condition: Si Xenia también está presente:)
+- (Condition: If Xenia is also present:)
   - **Xenia:** Estoy seguro de que el robo estuvo justificado. ¿No fue así, Ozan? A menudo hemos tenido que robar objetos de museo para una misión.
   - (continue)
-- (Condition: Si solo están presentes Ozan y Ariane:)
+- (Condition: If only Ozan and Ariane are present:)
   - **Ozan:** A menudo hemos tenido que robar objetos de museo para una misión.
   - (continue)
 - **Ariane:** Sí, cuando necesitábamos algo y el museo no nos lo daba, y luego lo devolvíamos. Ozan los robó para coleccionistas privados.
-- (Condition: Si Sir Owen también está presente:)
+- (Condition: If Sir Owen is also present:)
   - **Sir Owen:** Pensé que estabas dejando atrás tu vida criminal, Ozan.
   - **Ozan:** Ah, era sólo de un museo. No era como si tomara comida de familias pobres...
   - **Sir Owen:** Ozan.
   - **Ozan:** ¿Quieres que los robe para el museo? Yo podría hacer eso.
   - **Ariane:** ¡Sí!
   - **Sir Owen:** ¡No! No más robos.
-- (Condition: Si solo están presentes Ozan y Ariane:)
+- (Condition: If only Ozan and Ariane are present:)
   - **Ozan:** Ah, era sólo de un museo. No era como si tomara comida de familias pobres...
 
 #### Conversación 3
@@ -213,9 +213,9 @@
 - **Ariane:** Ese old man casi derriba la Torre. Traiborn tuvo que sacar una de sus cositas.
 - **Ariane:** Ozan, debes haber escuchado historias sobre él.
 - **Ozan:** Cientos. Sin embargo, no es posible que sean ciertas. Reconozco la exageración cuando la veo.
-- (Condition: Si solo están presentes Ozan y Ariane:)
+- (Condition: If only Ozan and Ariane are present:)
   - (end)
-- (Condition: Si Xenia también está presente:)
+- (Condition: If Xenia is also present:)
   - **Xenia:** Oh, hay más verdades de las que imaginas.
   - **Ariane:** ¿Lo conoces?
   - **Xenia:** Solíamos estar juntos en un grupo de aventuras. Era el mayor héroe de Gielinor; Yo era un recién llegado. Me mostró el mundo. Oh, sí, muchas de las historias son ciertas.

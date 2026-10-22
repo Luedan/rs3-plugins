@@ -24,16 +24,16 @@
   - [Choice]: ¿Tienes alguna bandera?
     - **Player:** ¿Tienes alguna bandera?
     - **Farmer Blinkin:** Déjame comprobarlo.
-    - (Condition: Si es la primera vez:)
+    - (Condition: If it is the first time:)
       - **Farmer Blinkin:** Arr, un nuevo, ¿eh? Sí, siempre es bueno ver una cara nueva por estos lares. Ahora, normalmente cobramos por las banderas, ya que muchas se pierden, pero puedes configurar la primera de forma gratuita.
       - **Player:** ¡Vaya, gracias!
       - **Farmer Blinkin:** Ahora, recuerda: si plantas las banderas en cualquier lugar antiguo que no tenga semillas, perderás tu bandera, y no es barato comprármelas a mí o a Mrs. Winkin. De todos modos, aquí está tu primer lote.
       - (receives=10 flags)
       - **Player:** ¡Muchas gracias! Entonces me voy.
       - **Farmer Blinkin:** Adiós.
-    - (Condition: Si el player puede reclamar banderas gratis:)
+    - (Condition: If the player can claim free flags:)
       - **Farmer Blinkin:** ¡Ah! Lo primero es lo primero. Uno de los muchachos de la granja te dejó algunas banderas. Puedes recuperarlos. Aquí tienes.
-    - (Condition: Si el player puede comprar banderas:)
+    - (Condition: If the player can buy flags:)
       - **Farmer Blinkin:** Righty-ho! Puedes tener un total de 10 banderas. Conseguir un juego completo de banderas te costará [número] piezas de oro. ¿Te gustaría comprar estas banderas?
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, por favor.
@@ -43,7 +43,7 @@
         - [Choice]: No, gracias.
           - **Player:** No, gracias.
           - **Farmer Blinkin:** ¡Así es! Nos vemos.
-    - (Condition: Si el player tiene 10 banderas (ya sea antes de hablar con Farmer Blinkin o al reclamar/comprar banderas):)
+    - (Condition: If the player has 10 flags (either before talking to Farmer Blinkin or by claiming/buying flags):)
       - **Farmer Blinkin:** Parece que ya tienes todas las banderas que necesitas ahora. No necesitas comprar más.
   - [Choice]: ¿Dónde está el señor Winkin?
     - **Player:** ¿Dónde está el Sr. Winkin?

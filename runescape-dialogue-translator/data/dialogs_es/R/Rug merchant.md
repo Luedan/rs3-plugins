@@ -16,7 +16,7 @@
   - [Choice]: Háblame de Ali Morrisane.
     - {{anchor|ali}}**Player:** Háblame de Ali Morrisane.
     - **Rug merchant:** ¿Qué? ¿No has oído hablar de Ali Morrisane? ¿Posiblemente el mayor vendedor de todo Kharidian Desert, si no de todo RuneScape?
-    - (Condition: Si el player no ha hecho The Feud:)
+    - (Condition: If the player has not done The Feud:)
       - **Player:** No puedo decir que sí, pero debe ser del tipo ambicioso como para montar su propia aerolínea.
       - **Rug merchant:** Creo que está intentando enfrentarse a esos gnomos en su propio juego, y apostaría una buena cantidad de dinero a que probablemente ganará.
       - **Player:** ¿Eh? Me has perdido.
@@ -27,7 +27,7 @@
       - **Rug merchant:** De todos modos, creo que la configuración de Ali M aquí resultará realmente exitosa, y tal vez una vez que estemos establecidos adecuadamente podamos competir con esos gnomos.
       - **Player:** Vigilaré este espacio.
       - (continue)
-    - (Condition: Si el player ha hecho the Feud:)
+    - (Condition: If the player has done the Feud:)
       - **Player:** Ah, sí, ahora lo recuerdo. Me embarqué en una búsqueda inútil buscando a su sobrino.
       - **Rug merchant:** ¡Ja! Sin duda el viejo Ali M. instigó todo el asunto.
       - **Player:** Aunque me divertí un poco. Todo el trabajo fue bastante divertido.
@@ -40,7 +40,7 @@
       - [Choice]: ¿Cuéntame sobre esta flota de alfombras mágicas?
         - (below|fleet)
       - [Choice]: Quiero viajar en alfombra mágica.
-        - ((Se abre la interfaz de Carpet Network Magic.))
+        - ((Magic Carpet Network interface opens.))
       - [Choice]: Tengo algunas otras preguntas.
         - (below|someother)
       - [Choice]: No gracias.
@@ -75,30 +75,30 @@
         - **Rug merchant:** ¿Puedo ayudarte con algo más?
         - (continuea|question)
   - [Choice]: Sí.
-    - ((Se abre la interfaz de Carpet Network Magic.))
+    - ((Magic Carpet Network interface opens.))
   - [Choice]: No, pero tenía algunas preguntas.
     - {{anchor|someother}}**Player:** Tengo algunas otras preguntas.
     - **Rug merchant:** Te ayudaré tanto como pueda.
     - [Menu]: Selecciona una opción
       - [Choice]: ¿Qué estás haciendo aquí?
         - **Player:** ¿Qué haces aquí?
-        - (Condition: Si el player está en Shantay Pass:)
+        - (Condition: If the player is at Shantay Pass:)
           - **Rug merchant:** Bueno, esta es una buena posición para el tráfico del desierto. Shantay parece tener una pequeña y agradable configuración para generar dinero, pero creo que esto podría resultar aún mejor.
           - (continue)
-        - (Condition: Si el player está en el Campamento Bedabin:)
+        - (Condition: If the player is at the Bedabin Camp:)
           - **Rug merchant:** ¿Además de lo obvio de que yo cuide esta estación? Estoy tratando de descubrir cómo estos Tentis logran cultivar piñas tan deliciosas.
           - (continue)
-        - (Condition: Si el player está en Uzer:)
+        - (Condition: If the player is at Uzer:)
           - **Rug merchant:** Puede que no te des cuenta, pero ésta es una estación bastante concurrida.
           - **Player:** ¿Quién querría venir aquí?
           - **Rug merchant:** Bueno, tú por ejemplo, y además de eso, tenemos bastantes arqueólogos que pasan para examinar el golem.
           - (continue)
-        - (Condition: Si el player está al norte de Pollnivneach:)
+        - (Condition: If the player is at north Pollnivneach:)
           - **Rug merchant:** Bueno, Pollnivneach es el lugar ideal para instalar una estación de alfombras.
           - **Player:** ¿Por qué?
           - **Rug merchant:** Está ubicado a medio camino entre Al Kharid y las ciudades menafitas, y también cerca de Nardah, por lo que tenemos tráfico más que suficiente para mantener el negocio en funcionamiento.
           - (continue)
-        - (Condition: Si el player está al sur de Pollnivneach:)
+        - (Condition: If the player is at south Pollnivneach:)
           - **Rug merchant:** Trabajo aquí alquilando alfombras mágicas. Soy de Pollnivneach, por lo que es un trabajo útil. No tengo que viajar demasiado para ir a trabajar todos los días.
           - **Player:** ¿Cómo te llamas entonces?
           - **Rug merchant:** Malak. No es el nombre más notable, no es que importe, verás, todos en la ciudad me conocen como Flash.
@@ -108,17 +108,17 @@
           - **Rug merchant:** ...
           - **Player:** Correcto.
           - (continue)
-        - (Condition: Si el player está en Nardah:)
+        - (Condition: If the player is at Nardah:)
           - **Rug merchant:** Preferiría administrar una de las estaciones de alfombras en un centro como Pollnivneach. Sin embargo, tardé un poco en conseguir ese trabajo. Aún así, el negocio en Nardah no está mal para un terminal. Al menos la gente viene aquí por el banco y por el herbolario.
           - (continue)
-        - (Condition: Si el player está en Menaphos:)
+        - (Condition: If the player is at Menaphos:)
           - **Rug merchant:** Hasta hace poco estaba cuidando una de las estaciones de alfombras más concurridas, pero todo eso cambió una vez que Menaphos cerró sus puertas. Ahora tengo que ocupar mi día tratando de encontrar razones por las que Ali M debería mantener este lugar abierto.
           - **Player:** ¿Se te ha ocurrido alguna buena idea?
           - **Rug merchant:** En realidad, no. Me di cuenta de que se te permitió la entrada, así que sólo puedo esperar que el faraón esté cada vez más cerca de abrir las puertas nuevamente.
           - **Player:** ¿Sabes por qué se han cerrado las puertas?
           - **Rug merchant:** No tengo ni idea, aunque puede que tenga algo que ver con Sophanem. Se dice que han ocurrido algunos sucesos extraños allí, algo que tiene que ver con los sacerdotes de Icthlarin.
           - (continue)
-        - (Condition: Si el player está en Sophanem:)
+        - (Condition: If the player is at Sophanem:)
           - **Rug merchant:** Aquí cuido la estación de alfombras. Aunque el lugar está un poco muerto. <br/>Ja! Hoho, soy demasiado.
           - **Player:** ¿Qué?
           - **Rug merchant:** Ya sabes, Sophanem, ¿la ciudad de los muertos y todo eso?
@@ -138,13 +138,13 @@
         - **Player:** Estoy confundido. Pensé que no te gustaban los monos.
         - **Rug merchant:** No me desagradan los monos, es simplemente ESE mono. No lo sé, puede que esté paranoico, pero creo que él es, bueno... malvado.
         - **Player:** Mmmm, interesante.
-        - (Condition: Si el player no completó Monkey Madness, o si el player completó Monkey Madness pero posteriormente destruyó su amuleto de habla de mono:)
+        - (Condition: If the player has not completed Monkey Madness, or if the player has completed Monkey Madness but subsequently destroyed their monkeyspeak amulet:)
           - **Rug merchant:** ¿Puedo ayudarte con algo más?
           - (continuea|question)
-        - (Condition: Si el player ha completado Monkey Madness y tiene un amuleto de mono en su banco:)
+        - (Condition: If the player has completed Monkey Madness, and has an amulet of monkeyspeak in their bank:)
           - **Player:** Espera un segundo, tengo un amuleto de mono en mi banco. Quizás pueda conseguirlo y ver qué tiene que decir por sí mismo.
           - (continue)
-        - (Condition: Si el player ha completado Monkey Madness y tiene un amuleto de mono en su backpack:)
+        - (Condition: If the player has completed Monkey Madness, and has an amulet of monkeyspeak in their backpack:)
           - **Player:** Espera un segundo, tengo un amuleto de mono en mi bolso. Quizás podría hablar con él.
           - (continue)
         - **Rug merchant:** ¿Lo harías? A veces me lanza estas miradas... <br/>~Un escalofrío visible recorre su espalda.
@@ -161,10 +161,10 @@
         - **Rug merchant:** ¿Puedo ayudarte con algo más?
         - (continuea|question)
   - [Choice]: *(Si el player ha completado al menos las tareas fáciles del Desierto)* Me gustaría ver qué se ha perdido y encontrado.
-    - (Condition: Si el player no ha reclamado su bolsa de artículos perdidos del día:)
+    - (Condition: If the player has not claimed their bag of lost items for the day:)
       - (receives=bag of lost items)
       - **Rug merchant:** Sí, he encontrado muchas cosas que no han sido reclamadas. Se caen de las mochilas de la gente cuando las alfombras se levantan. Toma, toma uno. ¡Vuelve mañana por más!
-    - (Condition: Si el player ha reclamado su bolsa de objetos perdidos del día:)
+    - (Condition: If the player has claimed their bag of lost items for the day:)
       - **Rug merchant:** Lo siento, todavía no he encontrado nada. Vuelve mañana.
 
 ### Lost and found

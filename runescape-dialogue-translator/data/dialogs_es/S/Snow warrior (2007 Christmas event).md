@@ -8,15 +8,15 @@
 
 ## Dialogue Transcript
 
-- (Condition: fuera de combate)
+- (Condition: Out of combat)
   - **Snow warrior:** Salve, noble visitante. Nosotros, que estamos a punto de derretirnos, os saludamos.
   - (end)
-- (Condition: Si luchas contra un guerrero)
+- (Condition: If fighting a warrior)
   - **Snow warrior:** ¡Ja, ja! No hay nada como el choque de hielo contra hielo.
   - (end)
-- (Condition: Si peleas contra un guardabosques)
+- (Condition: If fighting a ranger)
   - **Snow warrior:** ¡Ja, ja! Tu arco sagrado no es rival para mi espada de hielo.
   - (end)
-- (Condition: Si luchas contra un mago)
+- (Condition: If fighting a mage)
   - **Snow warrior:** Aún triunfaré sobre tus hechizos.
   - (end)

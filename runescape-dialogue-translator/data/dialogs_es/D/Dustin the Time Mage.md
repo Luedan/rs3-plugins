@@ -14,7 +14,7 @@
 
 #### Durante el evento
 
-- (Condition: Sólo la primera vez:)
+- (Condition: Only on the first time:)
   - {{#vardefineecho:Dustin|**Dustin {{Colour|#d1be88|the Time Mage}}:**}} Hola. ¡Qué bueno conocerte!
   - {{#var:Dustin}} Supongo que no podría pedir un favor. Verás, es posible que haya creado una grieta en el tiempo mismo...
   - **Player:** ¿Qué has hecho?
@@ -27,7 +27,7 @@
   - **Player:** Déjame recapitular. ¿Quieres que encuentre y recoja las Arenas del Tiempo y te las devuelva mientras reparas el 'agujero' para detener el posible fin del universo?
   - {{#var:Dustin}} ¡Exactamente eso! ¡Me alegro de que me sigas! ¡Ahora ponte en marcha! ¿O tienes más preguntas?
   - (continue|1)
-- (Condition: Después:)
+- (Condition: Afterwards:)
   - {{#var:Dustin}} Qué bueno verte de nuevo, Player.
   - (continue|1)
 - [Menu]: Elige una opción:
@@ -66,103 +66,103 @@
 #### Sin Arenas del Tiempo
 
 - No tienes nada que entregar.
-- (ventana emergente)
-  - (Ventana emergente: No tienes nada que entregar.|advertencia=yes)
+- (pop-up)
+  - (Pop-up: You do not have anything to hand in.|warning=yes)
 
 #### Con Arenas del Tiempo
 
 
 ##### Aún quedan recompensas por desbloquear
 
-- ((Lo siguiente se muestra en una interfaz titulada "Canjear moneda":))
+- ((The following is shown in an interface titled "Redeem Currency":))
   - Entregar la moneda del evento aumentará tu progreso en este evento y desbloqueará recompensas únicas. Esto eliminará moneda hasta la cantidad necesaria para completar el evento.
   - ¿Quieres continuar?
     - [Choice]: No
-      - ((La interfaz se cierra.))
+      - ((The interface closes.))
     - [Choice]: si
-      - ((La interfaz se cierra y el diálogo continúa a continuación.))
+      - ((The interface closes and the dialogue continues below.))
 - (removes=smaller number of all and as many Sands of Time as are missing from handing in 20,000)
-- (Condition: Si el player no ha entregado 10.000 Arenas del Tiempo:)
+- (Condition: If the player hasn't handed in 10,000 Sands of Time:)
   - Entregas [número] Sands of Time. Debes entregar [número]K más para completar el evento.
-  - (ventana emergente)
-    - (Ventana emergente: entregas [número] Sands of Time. Debes entregar [número]K más para completar el evento).
+  - (pop-up)
+    - (Pop-up: You hand in [number] Sands of Time. You need to hand in [number]K more to complete the event.)
     - (continue)
-- (Condition: Si el player ha entregado entre 10.000 y 19.999 Arenas del Tiempo:)
+- (Condition: If the player has handed in between 10,000 and 19,999 Sands of Time:)
   - Entregas [número] Sands of Time. Debes entregar [número] más para completar el evento.
-  - (ventana emergente)
-    - (Ventana emergente: entregas [número] Sands of Time. Debes entregar [número] más para completar el evento).
+  - (pop-up)
+    - (Pop-up: You hand in [number] Sands of Time. You need to hand in [number] more to complete the event.)
     - (continue)
-- (Condition: Si el player ha entregado 20.000 Arenas del Tiempo:)
+- (Condition: If the player has handed in 20,000 Sands of Time:)
   - ¡Has completado el evento!
   - (continue)
-- (Condition: Dependiendo de cuánta arena haya entregado el player, se muestran algunas de estas, y luego continúa a continuación:)
+- (Condition: Depending on how many sand the player has handed in, some of these are shown, and then continues below:)
   - ¡Felicitaciones! Has desbloqueado: Botas de mago del tiempo. Sus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.
-  - (ventana emergente)
+  - (pop-up)
     - (Ventana emergente: ¡Felicitaciones! Has desbloqueado: Botas de mago del tiempo. Tus nuevos elementos se pueden encontrar en la interfaz de personalizaciones.|color=#00FF00)
     - (continue)
   - ¡Felicitaciones! Has desbloqueado: Guantes de mago del tiempo. Sus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.
-  - (ventana emergente)
+  - (pop-up)
     - (Ventana emergente: ¡Felicitaciones! Has desbloqueado: Botas de mago del tiempo. Tus nuevos elementos se pueden encontrar en la interfaz de personalizaciones.|color=#00FF00)
     - (continue)
-  - (Condition: Sin espacio backpack para una caja misteriosa de evento:)
+  - (Condition: Without backpack space for an event mystery box:)
     - No tienes suficiente espacio backpack para algunas de las recompensas. Por favor, deja algo de espacio e inténtalo de nuevo.
-    - (ventana emergente)
-      - (Ventana emergente: No tienes suficiente espacio backpack para algunas de las recompensas. Crea algo de espacio e inténtalo de nuevo.|advertencia=yes)
+    - (pop-up)
+      - (Pop-up: You do not have enough backpack space for some of the rewards. Please make some space and try again.|warning=yes)
       - (continue)
-  - (Condition: Con espacio backpack para una caja misteriosa de eventos:)
+  - (Condition: With backpack space for an event mystery box:)
     - (receives=event mystery box)
     - Felicitaciones, ha recibido: 1 x Caja misteriosa del evento.
     - (continue)
   - ¡Felicitaciones! Has desbloqueado: Parte inferior de la túnica del mago del tiempo. Sus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.
-  - (ventana emergente)
+  - (pop-up)
     - (Ventana emergente: ¡Felicitaciones! Has desbloqueado: Parte inferior de la túnica del mago del tiempo. Tus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.|color=#00FF00)
     - (continue)
   - ¡Felicitaciones! Has desbloqueado: Top de túnica de mago del tiempo. Sus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.
-  - (ventana emergente)
+  - (pop-up)
     - (Ventana emergente: ¡Felicitaciones! Has desbloqueado: Top de túnica de mago del tiempo. Tus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.|color=#00FF00)
     - (continue)
   - ¡Felicitaciones! Has desbloqueado: Time Mage Hood. Sus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.
-  - (ventana emergente)
+  - (pop-up)
     - (Ventana emergente: ¡Felicitaciones! Has desbloqueado: Top de túnica de mago del tiempo. Tus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.|color=#00FF00)
     - (continue)
-  - (Condition: Sin espacio backpack para una caja misteriosa de evento:)
+  - (Condition: Without backpack space for an event mystery box:)
     - No tienes suficiente espacio backpack para algunas de las recompensas. Por favor, deja algo de espacio e inténtalo de nuevo.
-    - (ventana emergente)
-      - (Ventana emergente: No tienes suficiente espacio backpack para algunas de las recompensas. Crea algo de espacio e inténtalo de nuevo.|advertencia=yes)
+    - (pop-up)
+      - (Pop-up: You do not have enough backpack space for some of the rewards. Please make some space and try again.|warning=yes)
       - (continue)
-  - (Condition: Con espacio backpack para una caja misteriosa de eventos:)
+  - (Condition: With backpack space for an event mystery box:)
     - (receives=event mystery box)
     - Felicitaciones, ha recibido: 1 x Caja misteriosa del evento.
     - (continue)
   - Has desbloqueado el título: 'Player {{ColourZZCMD0ZZ'}}|color=#00FF00}}
   - Puede activar esto a través de la pestaña 'Títulos' en la interfaz 'Personalizaciones'.
-  - (Condition: Sin espacio backpack para dos cajas misteriosas de grandes eventos:)
+  - (Condition: Without backpack space for two big event mystery boxes:)
     - No tienes suficiente espacio backpack para algunas de las recompensas. Por favor, deja algo de espacio e inténtalo de nuevo.
-    - (ventana emergente)
-      - (Ventana emergente: No tienes suficiente espacio backpack para algunas de las recompensas. Crea algo de espacio e inténtalo de nuevo.|advertencia=yes)
+    - (pop-up)
+      - (Pop-up: You do not have enough backpack space for some of the rewards. Please make some space and try again.|warning=yes)
       - (continue)
-  - (Condition: Con espacio backpack para dos cajas misteriosas para grandes eventos:)
+  - (Condition: With backpack space for two big event mystery boxes:)
     - (receives=two big event mystery boxes)
     - Felicitaciones, ha recibido: 2 x Caja misteriosa del gran evento.
     - (continue)
   - ¡Felicitaciones! Has desbloqueado: Traje de mago del tiempo cambiante. Sus nuevos artículos se pueden encontrar en la interfaz de personalizaciones.
-  - (ventana emergente)
+  - (pop-up)
     - (Ventana emergente: ¡Felicitaciones! Has desbloqueado: Atuendo de mago en el tiempo cambiante. Tus nuevos elementos se pueden encontrar en la interfaz de personalizaciones.|color=#00FF00)
     - (continue)
-- (Condition: Sin tener ninguna recompensa desbloqueada:)
+- (Condition: Without having any rewards unlocked:)
   - {{#var:Dustin}} Tendrás que ayudarme un poco más antes de que pueda ofrecerte alguna recompensa.
-- (Condition: Con algunas de las recompensas desbloqueadas:)
+- (Condition: With some of the rewards unlocked:)
   - Has desbloqueado [number claimed]/10 de las recompensas del evento Shifting Sands.
-  - (Condition: Si se acaban de reclamar algunas recompensas nuevas:)
+  - (Condition: If some new rewards were just claimed:)
     - {{#var:Dustin}} Gracias por tu ayuda. El tiempo ya se siente un poco más estable.
-  - (Condition: Si no se acaban de reclamar nuevas recompensas:)
+  - (Condition: If no new rewards were just claimed:)
     - {{#var:Dustin}} Tengo recompensas adicionales para ofrecer si puedes encontrar más Arenas del Tiempo.
 
 ##### Sin recompensas por desbloquear
 
 - Has entregado tanta moneda como puedas en este evento. Puedes convertir cualquier moneda restante en recompensas consumibles.
-- (ventana emergente)
-  - (Ventana emergente: has entregado toda la moneda que puedas en este evento. Puedes convertir cualquier moneda restante en recompensas consumibles.|color=#FFC800)
+- (pop-up)
+  - (Pop-up: You have handed in as much currency as you can this event. You can convert any remaining currency into consumable rewards.|colour=#FFC800)
 
 ### Claim rewards
 

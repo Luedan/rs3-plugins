@@ -1,0 +1,563 @@
+{
+  "A Shadow over Ashdale": [
+    "Ask about A Shadow over Ashdale.",
+    "Can you take me to the island of Ashdale?",
+    "Ashdale by night",
+    "Yes.",
+    "Is there a reward?"
+  ],
+  "A Soul's Bane": [
+    "Accept Quest",
+    "The Sword",
+    "The Spear",
+    "The Maul",
+    "The Battleaxe"
+  ],
+  "A Fairy Tale I: Growing Pains": [
+    "General",
+    "Anything I can help with?",
+    "Now that I think about it, you're right!",
+    "Talk about farming problems",
+    "Where's the Fairy Queen",
+    "I need help with fighting a Tanglefoot",
+    "I was asking you about fighting a Tanglefoot"
+  ],
+  "All Fired Up": [
+    "Greet the king.",
+    "Oh? Tell me more!",
+    "Yes.",
+    "Okay.",
+    "Oh, alright, then.",
+    "Talk about All Fired Up."
+  ],
+  "Bar Crawl": [
+    "I want to come through this gate.",
+    "I'm doing Alfred Grimhand's Barcrawl.",
+    "I'm doing Alfred Grimhands Barcrawl.",
+    "I'm doing Alfred Grimhand's barcrawl.",
+    "Talk about something else."
+  ],
+  "Biohazard": [
+    "Yes.",
+    "Ok, lets do it.",
+    "Yes I do.",
+    "I'm afraid I've lost some of the stuff that you gave me...",
+    "Ask about Biohazard.",
+    "I've come to ask your assistance in stopping a plague.",
+    "You give him the vial of sulphuric broline...",
+    "You give him the vial of liquid honey...",
+    "You give him the vial of ethenea...",
+    "I don't understand..."
+  ],
+  "Broken Home": [
+    "Enter.",
+    "Yes",
+    "Take the key?",
+    "Pull the key free?",
+    "Go Back",
+    "Yes."
+  ],
+  "Buyers and Cellars": [
+    "What are you doing down here",
+    "And what is it you need done",
+    "Let's get down to business",
+    "Go ahead",
+    "Nice chalice",
+    "Can I have a look at it",
+    "Fire",
+    "I'd like to talk about the caper"
+  ],
+  "Civil War II (miniquest)": [
+    "Discuss Civil War II."
+  ],
+  "Cook's Assistant": [
+    "What's wrong?",
+    "Go up the ladder.",
+    "Go down the ladder."
+  ],
+  "Dealing with Scabaras": [
+    "What news",
+    "Why are you here",
+    "Conversion, eh",
+    "By all the deities, what is going on here"
+  ],
+  "Death Plateau": [
+    "Do you have any quests for me?",
+    "I've been sent to look for a route to Death Plateau. Can you help?",
+    "Can you put some fresh spikes on these climbing boots for me?",
+    "Prepare to die, troll!"
+  ],
+  "Devious Minds": [
+    "Sure thing, what do you need?",
+    "Yep, got it right here for you.",
+    "Devious Minds."
+  ],
+  "Diamond in the Rough": [
+    "Yes",
+    "Let's keep going.",
+    "Reach for the cactus",
+    "Grasp for the rock",
+    "Lasso a nearby",
+    "Call for help",
+    "Do nothing"
+  ],
+  "Dwarf Cannon": [
+    "Okay, I'll see what I can do",
+    "Okay then"
+  ],
+  "Fight Arena": [
+    "I'd like a Khali brew, please.",
+    "Accept Quest"
+  ],
+  "Fishing Contest": [
+    "I'll enter the competition please.",
+    "Can I buy one of your fishing rods?",
+    "I have this big fish. Is it enough to win?",
+    "I was wondering what was down that tunnel?"
+  ],
+  "Gertrude's Cat": [
+    "What will make you tell me?"
+  ],
+  "Goblin Diplomacy": [
+    "So how is life for the goblins?",
+    "Mix red and yellow dyes"
+  ],
+  "Gunnar's Ground": [
+    "learn to fly",
+    "here about a gold ring",
+    "What do you want me to engrave",
+    "I lost the poem",
+    "come out perfectly",
+    "Yes",
+    "I need to speak with you",
+    "What should we do now",
+    "No, she liked the ring",
+    "sure that's not true",
+    "Grass",
+    "Threw the ball",
+    "I'll see you soon"
+  ],
+  "Holy Grail": [
+    "Yes.",
+    "Yes, okay, I'm ready to go.",
+    "I'd like to go to Brimhaven.",
+    "Come with me, I shall make you a king.",
+    "Any idea how to get into the castle?",
+    "You don't look too well.",
+    "I will go searching.",
+    "What can you tell me about this place?",
+    "Tell me of this quest."
+  ],
+  "Jungle Potion": [
+    "It's a nice village, but where is everyone?",
+    "Of course!",
+    "Yes, I'll enter the cave."
+  ],
+  "Let Them Eat Pie": [
+    "What do you need",
+    "Squishy",
+    "I think I've had enough"
+  ],
+  "Lost City": [
+    "Why are you camped out here?",
+    "How does it fit in a shed, then?",
+    "Well, that is a risk I will have to take.",
+    "Yes, please, a teleport would be useful."
+  ],
+  "Making History": [
+    "The Outpost",
+    "I'm after important answers.",
+    "Lunch.",
+    "Ask about the outpost.",
+    "Jorral and the outpost"
+  ],
+  "Missing, Presumed Death": [
+    "It's okay, I can help you",
+    "Investigate torso",
+    "I think I've found all the clues",
+    "Ask about the slaughtered monks",
+    "Persuade him",
+    "Threaten him",
+    "He saw an elf heading east along the path",
+    "He saw a very tall, dark, hooded figure escaping",
+    "I think somebody else did this",
+    "Investigate arms",
+    "Listen to the trapped soul",
+    "Ask about the murdered elf",
+    "I was told by Brother Samwell",
+    "Ask about the elves",
+    "Ask about Saradominist wizards",
+    "Okay, I trust your judgement",
+    "Ask about teleportation",
+    "The clues are too convenient",
+    "A mighty warrior.",
+    "Is everyone who dies trapped now?",
+    "Why does this concern you?",
+    "What's happened to Death?",
+    "Continue.",
+    "We make a good team",
+    "We must, Death needs our help",
+    "I want to continue to the citadel",
+    "Stop wasting my time",
+    "Get to the point",
+    "Goodbye.",
+    "Take water",
+    "Take Shadow",
+    "Place Sand.",
+    "Place Water.",
+    "Place Shadow.",
+    "Yes, final answer",
+    "Yes.",
+    "Let Sliske carry on with his show"
+  ],
+  "Monk's Friend": [
+    "Why can't you sleep?",
+    "Is there anything else I can help with?",
+    "Yes, I'd be happy to!"
+  ],
+  "Murder Mystery": [
+    "[Accept Quest]",
+    "Yes, it might be useful",
+    "Who do you think was responsible?",
+    "Who did you sell Poison to at the house?",
+    "I know who did it!",
+    "Do you recognise this thread?"
+  ],
+  "New Foundations": [
+    "Yes",
+    "Accept Quest",
+    "No.",
+    "Sign me up!",
+    "Yes."
+  ],
+  "Observatory Quest": [
+    "Talk about the Observatory Quest.",
+    "An Observatory?",
+    "[Accept Quest]"
+  ],
+  "Once Upon a Slime": [
+    "Yeah, I know all about it",
+    "Talk about Once Upon a Slime",
+    "Silver Button"
+  ],
+  "Pirate's Treasure": [
+    "I'm in search of treasure",
+    "Can I journey on this ship?",
+    "Could you offer me employment on your plantation?",
+    "Can I get a job here?",
+    "Ok thanks, I'll go and get it"
+  ],
+  "Plague City": [
+    "What's happened to her",
+    "Hi, I'm looking for a woman from East Ardougne",
+    "I fear not a mere plague",
+    "I need permission to enter a plague house",
+    "This is really important though",
+    "They won't listen to me"
+  ],
+  "Priest in Peril": [
+    "Knock at the door.",
+    "Roald sent me to check on Drezel.",
+    "Yes.",
+    "Talk about Priest in Peril.",
+    "You're right, we don't."
+  ],
+  "Rag and Bone Man": [
+    "Anything I can do to help?",
+    "Accept Quest",
+    "Talk about Rag and Bone Man."
+  ],
+  "Rune Memories": [
+    "OK, I'll do that now.",
+    "OK."
+  ],
+  "Rune Mysteries": [
+    "What's happening here?",
+    "What can I do to help?",
+    "Accept Quest",
+    "Okay, I'll deal with this!",
+    "What do you want me to do?",
+    "I'll get on it.",
+    "How can I get into the old tower?",
+    "You do know, though?",
+    "You mean the rumour about Water Surge?",
+    "What do you mean, the key lies in understanding Water Surge?",
+    "It's such a pity you couldn't help me. Maybe I'll visit the library.",
+    "I've got the key to the ruins.",
+    "We should find out all we can.",
+    "We should keep our minds on the job.",
+    "Yes, it's inspiring.",
+    "Okay, what should we do now?",
+    "I'm ready to be tested.",
+    "I'm making us a bridge.",
+    "Do you have a better idea?",
+    "I wish I could have seen it.",
+    "Never mind the history, what does that mean for us?",
+    "Okay, so what do we do?",
+    "Okay, I'll do that now.",
+    "Is there a reward?"
+  ],
+  "Scorpion Catcher": [
+    "What assistance do you need?",
+    "Talk about Scorpion Catcher.",
+    "So...do you know anywhere good to explore?",
+    "Well can I join your order?"
+  ],
+  "Sea Slug": [
+    "I suppose so, how do I get there?",
+    "Will you take me there?"
+  ],
+  "Sheep Herder": [
+    "What's wrong?",
+    "Talk about something else."
+  ],
+  "Sheep Shearer": [
+    "I'm looking for a quest.",
+    "Climb down the stairs."
+  ],
+  "Shield of Arrav": [
+    "I'm in search of a quest",
+    "Do you know where I can find the Phoenix Gang",
+    "Can you tell me where I can find the Phoenix Gang",
+    "I know who you are!",
+    "Do you know where I can find the Black Arm Gang hideout",
+    "I've heard you're the Black Arm Gang",
+    "Talk about the Shield of Arrav"
+  ],
+  "Song from the Depths": [
+    "I'm here to save Waylan.",
+    "We're not on an island.",
+    "What you're talking about isn't real.",
+    "Don't you know how you got here?",
+    "You have been stealing the souls of villagers.",
+    "Alright.",
+    "Wait, don't kill her!",
+    "We need her to escape.",
+    "What now?",
+    "We should talk to Lucille."
+  ],
+  "Stolen Hearts": [
+    "Let me in or I'll poke your eyes out",
+    "Nod your head",
+    "Take their bags",
+    "Tell me what jobs you have in the works",
+    "How do we find the HQ",
+    "Yes.",
+    "I'll beat the truth out of him",
+    "Pressure"
+  ],
+  "Swept Away": [
+    "Oo, something smells rather...interesting!",
+    "Is there any way I could help?",
+    "Accept Quest",
+    "Sure, I can do that for you.",
+    "Talk about Swept Away.",
+    "Yes, I'm ready to go now.",
+    "Yes, please.",
+    "Could you return it to the original sand pattern, please?",
+    "I'd like to go back to Draynor, please.",
+    "Talk to Betty about Swept Away.",
+    "I need to retrieve Betty's wand.",
+    "It's a deal.",
+    "Can you put everything back to how it was originally?",
+    "I have good news for you.",
+    "Of course I could.",
+    "I've stirred the cauldron for you."
+  ],
+  "Tears Of Guthix": [
+    "I'd like to talk about something else."
+  ],
+  "The Blood Pact": [
+    "What help do you need?",
+    "I'll help you.",
+    "Go downstairs anyway.",
+    "Yes. Now die!",
+    "No. Just give me your stuff and get out of here.",
+    "Time for you to die!",
+    "I'm not killing you. Just give me your stuff and get out of here.",
+    "I'm an adventurer.",
+    "Don't worry, Ilona, I'm here to rescue you.",
+    "I'm the one who defeated your lackeys. Think you can do better?",
+    "I'm your worst nightmare, Zamorakian scum!",
+    "I'm not killing you. Give me your stuff and get out of here.",
+    "Yes, rescue Ilona.",
+    "I'm ready for my reward."
+  ],
+  "The Death of Chivalry": [
+    "The who with the what now?",
+    "I guess I have one of those faces.",
+    "Saradomin must have had a good reason...",
+    "(Kneel before Saradomin.)",
+    "(Remain standing.)",
+    "How can I help?",
+    "Accept Quest",
+    "Yes, teleport us to the Black Knights' Fortress.",
+    "Who?",
+    "He is my prisoner.",
+    "No, I have something...special planned for him.",
+    "Are you suggesting I cannot handle a mere knight of Saradomin?",
+    "What do you want, maggot?",
+    "This prisoner is to be sacrificed.",
+    "Yes.",
+    "I shall return after I deal with this Temple Knight.",
+    "I am bringing him to the tallest tower.",
+    "We need him to recover the weapon of power, as you know.",
+    "Stand aside. I will handle this.",
+    "The prisoner stays with me.",
+    "You're right. We can't jeopardise the mission.",
+    "What should we do now?",
+    "We must trust that Saradomin leads us into darkness to test our faith.",
+    "Pick up the grimoire.",
+    "Read the grimoire.",
+    "Use the chalk to repair the magic circle.",
+    "Confirm",
+    "Replace the candle.",
+    "Yes, enter the portal.",
+    "Where are we?",
+    "Who's Saint Elspeth?",
+    "How did the Kinshra capture you?",
+    "Continue.",
+    "Let's take her with us.",
+    "Saradomin clearly cares nothing for his followers.",
+    "The war was necessary for Saradomin to achieve peace.",
+    "This is why the gods must be stopped.",
+    "I am ready to be judged.",
+    "I fight to protect the innocent.",
+    "I'm ready.",
+    "I shall sacrifice my own blood.",
+    "Give me the wand or you won't live to regret it.",
+    "Don't you know what will happen if you use the wand?",
+    "(Loot Sir Owen's corpse.)",
+    "I've made my decision.",
+    "I will give you the wand.",
+    "Were we too late?",
+    "If I had raised him, this would not have happened.",
+    "I should be immune to god magic!",
+    "What has happened to Sir Owen?",
+    "I stand by you, Saradomin.",
+    "You're a monster, Saradomin.",
+    "How can a god be invirtuous?",
+    "Guthix wanted me to protect the world from gods like you.",
+    "Why would you help us?"
+  ],
+  "The Jack of Spades": [
+    "Talk about Jack of Spades",
+    "Yes",
+    "I know all I need",
+    "Yes.",
+    "Yes, let's go",
+    "Why steal from those people"
+  ],
+  "The Knight's Sword": [
+    "Chat",
+    "And how is life as a squire?",
+    "I can make a new sword if you like...",
+    "So would these dwarves make another one?",
+    "Accept Quest",
+    "What do you know about the Imcando dwarves?",
+    "Something else.",
+    "Would you like some redberry pie?"
+  ],
+  "The Restless Ghost": [
+    "I'm looking for a quest!",
+    "Yes.",
+    "Father Aereck sent me to talk to you.",
+    "A ghost is haunting his graveyard.",
+    "Yep. Now, tell me what the problem is."
+  ],
+  "Tree Gnome Village": [
+    "Can I help at all?",
+    "Accept Quest",
+    "Ok, I'll gather some wood.",
+    "I'll try my best.",
+    "Yes please.",
+    "I will find the warlord and bring back the orbs."
+  ],
+  "Tribal Totem": [
+    "I'm in search of adventure!",
+    "So, when are you going to deliver this crate?",
+    "Chat."
+  ],
+  "Troll Stronghold": [
+    "How goes your fight with the trolls?",
+    "I'll be going now.",
+    "I accept your challenge!",
+    "Can I buy some Climbing boots?"
+  ],
+  "Underground Pass": [
+    "I am. What's our plan?",
+    "Climb down the stairs.",
+    "I'll take my chances.",
+    "Yes, I'll give it a go.",
+    "Try to disarm it.",
+    "What happened to them?"
+  ],
+  "Vampyre Slayer": [
+    "What terrible threat",
+    "Yes.",
+    "Are you Dr Harlow, the famous vampyre slayer?",
+    "A glass of your finest ale please.",
+    "Yes. Here you go."
+  ],
+  "Violet is Blue": [
+    "Accept Quest",
+    "Break the door down.",
+    "To go on an adventure.",
+    "YOU'VE CAPTURED A HUMAN GIRL!",
+    "Yes!",
+    "Go on an adventure",
+    "Yes.",
+    "Do you have anything useful?"
+  ],
+  "Violet is Blue Too": [
+    "Accept quest",
+    "Violet is Blue Too.",
+    "I remember him.",
+    "What should we do?",
+    "At least you got out before Christmas.",
+    "How can we help out?"
+  ],
+  "Visions of Havenhythe": [
+    "Visions of Havenhythe",
+    "I'm ready",
+    "Talk about 'Visions of Havenhythe'",
+    "What do we do now"
+  ],
+  "Waterfall Quest": [
+    "Accept Quest"
+  ],
+  "What's Mine is Yours": [
+    "Don't worry, I'll help you.",
+    "Accept Quest",
+    "Yes",
+    "Doric sent me here with these weapons.",
+    "Boric, tell Doric about your graduation.",
+    "Boric, tell Doric what you think about kittens.",
+    "I'd love to.",
+    "Yes.",
+    "Yes, I have them here."
+  ],
+  "Witch's House": [
+    "What's the matter?",
+    "Accept Quest"
+  ],
+  "Witch's Potion": [
+    "I'm looking for work."
+  ],
+  "Wolf Whistle": [
+    "Do you have a quest for me?",
+    "Bowloftrix has been kidnapped by trolls!",
+    "I think I had better go.",
+    "Ask about the white hare meat.",
+    "I need to ask you something about the quest...",
+    "I made the giant wolpertinger pouch!"
+  ],
+  "You Are It": [
+    "Accept Quest",
+    "Continue.",
+    "What happens next?",
+    "I'm going to look around.",
+    "The Stone",
+    "Yes."
+  ]
+}

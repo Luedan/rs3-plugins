@@ -15,7 +15,7 @@
 #### Hablando con ella
 
 - **Zaida:** ¡Buenos días! ¿Le puedo ayudar en algo?
-- (Condition: Sólo la primera vez:)
+- (Condition: Only on the first time:)
   - **Player:** Bonito yak el que tienes ahí.
   - **Zaida:** ¡Muchas gracias! Como puedes ver hemos estado bastante ocupados; Estamos de camino al Grand Exchange para comenzar a trasladar todo este tesoro que encontramos.
   - **Player:** ¿Encontraste todo esto?
@@ -72,68 +72,68 @@
       - [Choice]: Adiós.
         - **Zaida:** ¡Que la buena suerte te llegue!
   - [Choice]: cond=Only if the free clue scroll hasn't been claimed:|Reclama un pergamino de pistas gratuito.
-    - ((Con suficiente espacio en backpack:))
+    - ((With enough space in backpack:))
       - **Zaida:** Me gustaría ofrecerte un pergamino de pistas, pero parece que no tienes espacio para llevar uno en este momento.
-    - ((Si el player es elegible para el pergamino de pistas de élite:))
+    - ((If the player is eligible for the elite clue scroll:))
       - **Zaida:** Me gustaría ofrecerles este pergamino de pistas de élite. ¡Que te traiga buena suerte!
       - [Zaida te entrega un pergamino de pistas sellado.]
-    - ((Si el player es elegible para el pergamino de pistas de élite pero tiene demasiadas:))
+    - ((If the player is eligible for the elite clue scroll but has too many:))
       - **Zaida:** Me gustaría ofrecerte este pergamino de pistas de élite, pero parece que ya tienes algunos. Hablame de nuevo cuando hayas completado uno de ellos.
-    - ((Si el player es elegible para el desplazamiento de pistas difíciles:))
+    - ((If the player is eligible for the hard clue scroll:))
       - **Zaida:** Me gustaría ofrecerles este pergamino de pistas difíciles. ¡Que te traiga buena suerte!
       - [Zaida te entrega un pergamino de pistas sellado.]
-    - ((Si el player es elegible para el desplazamiento de pistas difíciles pero tiene demasiadas:))
+    - ((If the player is eligible for the hard clue scroll but has too many:))
       - **Zaida:** Me gustaría ofrecerte este pergamino de pistas difíciles, pero parece que ya tienes algunas. Hablame de nuevo cuando hayas completado uno de ellos.
-    - ((Si el player es elegible para el desplazamiento de pistas mediano:))
+    - ((If the player is eligible for the medium clue scroll:))
       - **Zaida:** Me gustaría ofrecerles este pergamino de pistas mediano. ¡Que te traiga buena suerte!
       - [Zaida te entrega un pergamino de pistas sellado.]
-    - ((Si el player es elegible para el desplazamiento de pistas mediano pero tiene demasiadas:))
+    - ((If the player is eligible for the medium clue scroll but has too many:))
       - **Zaida:** Me gustaría ofrecerte este pergamino de pistas mediano, pero parece que ya tienes algunos. Hablame de nuevo cuando hayas completado uno de ellos.
-    - ((De lo contrario:))
+    - ((Otherwise:))
       - **Zaida:** Me gustaría ofrecerles este sencillo pergamino de pistas. ¡Que te traiga buena suerte!
       - [Zaida te entrega un pergamino de pistas sellado.]
-    - ((Si el player tiene demasiados pergaminos de pistas fáciles:))
+    - ((If the player has too many easy clue scrolls:))
       - **Zaida:** Me gustaría ofrecerte este sencillo pergamino de pistas, pero parece que ya tienes algunos. Hablame de nuevo cuando hayas completado uno de ellos.
   - [Choice]: Degradar un pergamino de pistas.
     - **Zaida:** Puedo intercambiar cualquier pergamino de pista que tengas por uno de un nivel inferior. Sólo dame la pista que quieres intercambiar.
   - [Choice]: Abre la tienda.
     - **Player:** ¿Qué tienes a la venta?
     - **Zaida:** ¡Tengo títulos, una mascota, pergaminos de pistas y más! No olvidemos el conjunto Globetrotter que te ayudará en tus senderos.
-    - ((Se abre la tienda de recompensas Treasure Trails.))
+    - ((Treasure Trails Reward Shop opens.))
   - [Choice]: cond=With globetrotter outfit pieces unlocked:|Recupera el traje de Globetrotter
     - **Player:** Hola. Me gustaría recuperar mi traje de Globetrotter, por favor.
-    - ((Si las piezas no son de propiedad:))
+    - ((If pieces are not owned:))
       - **Zaida:** Lo siento, no posees ninguna pieza del conjunto. ¿Quieres ver la tienda?
       - [Menu]: ¿Abrir la tienda de recompensas Treasure Trails?
         - [Choice]: Sí.
-          - ((Se abre la tienda de recompensas Treasure Trails.))
+          - ((Treasure Trails Reward Shop opens.))
         - [Choice]: No.
           - **Zaida:** ¡Adiós!
-    - ((Si las piezas son propias:))
-      - ((Sin piezas que recuperar:))
+    - ((If pieces are owned:))
+      - ((Without pieces to reclaim:))
         - **Zaida:** ¡Ya tienes todas tus piezas del conjunto!
-      - ((Con piezas para recuperar:))
+      - ((With pieces to reclaim:))
         - [Cada pieza de vestimenta tiene una tarifa de devolución de 500,000, debido a que tiene estadísticas de combate. <br> Para devolver todas las piezas de vestimenta que posee, esto costará [número] coins.]
         - [Menu]: ¿Pagar la tarifa de devolución?
           - [Choice]: Sí.
-            - ((Sin suficiente espacio en backpack:))
+            - ((Without enough space in backpack:))
               - **Zaida:** No tienes suficiente espacio en tu backpack, ¡vuelve más tarde!
-            - ((Con suficiente espacio en backpack:))
+            - ((With enough space in backpack:))
               - (removes=coins)
               - (receives=missing globetrotter outfit pieces)
-              - ((Se repite para cada artículo devuelto y luego continúa a continuación:))
+              - ((Repeated for each returned item, then continues below:))
                 - Zaida devuelve su [item] a su backpack.
               - **Zaida:** Eso es todo, ¡adiós!
               - **Player:** ¡Gracias, adiós!
           - [Choice]: No.
             - (end)
   - [Choice]: cond=With Charos' clue carrier unlocked:|Reclama el portador de pistas Charos
-    - ((Sin suficiente espacio en backpack:))
+    - ((Without enough space in backpack:))
       - **Zaida:** No tienes suficiente espacio en tu backpack, ¡vuelve más tarde!
-    - ((Con suficiente espacio en backpack:))
-      - ((Sin haber perdido la pista portadora de Charos:))
+    - ((With enough space in backpack:))
+      - ((Without having lost Charos' clue carrier:))
         - **Zaida:** Ya tienes ese artículo.
-      - ((Habiendo perdido el portador de pistas de Charos:))
+      - ((Having lost Charos' clue carrier:))
         - (receives=Charos' clue carrier)
 
 #### Reclamando

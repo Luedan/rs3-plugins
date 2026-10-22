@@ -11,5 +11,5 @@
 
 ### Overhead when wandering
 
-- ((Ocasionalmente se ve lo siguiente:))
+- ((The following is occasionally seen:))
   - **Rooster:** {{RSChat|Squawk!}}

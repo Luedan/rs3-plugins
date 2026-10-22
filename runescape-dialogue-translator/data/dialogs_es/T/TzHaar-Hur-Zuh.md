@@ -16,7 +16,7 @@
 #### Habla con
 
 - **TzHaar-Hur-Zuh:** ¿Puedo ayudarte, TzHaar-Mej-Player?
-- (Condition: Si tiene artículos para recoger en Grand Exchange:)
+- (Condition: If you have items to be collected from the Grand Exchange:)
   - **TzHaar-Hur-Zuh:** Antes de continuar, debo informarle que tiene artículos listos para ser recogidos en Grand Exchange.
   - (continue)
 - [Menu]: ¿Qué te gustaría decir?
@@ -48,11 +48,11 @@
 
 #### Reclamar Tokkul
 
-- (Condition: Si el player no es elegible:)
+- (Condition: If the player is not eligible:)
   - {{transcript missing}}
-- (Condition: Si un jugador elegible no ha cobrado su recompensa:)
+- (Condition: If an eligible player has not collected their reward:)
   - [TzHaar-Hur-Zuh te entrega 150.000 TokKul.]
-- (Condition: Si el player ya cobró su recompensa:)
+- (Condition: If the player already collected their reward:)
   - **TzHaar-Hur-Zuh:** Ya te he dado TokKul.
 
 ### Manor Farm
@@ -72,15 +72,15 @@
     - **TzHaar-Hur-Zuh:** Si completas esto, te daré: Tokkul x 15000. ¡Estoy seguro de que también ganarás algo de reputación en el gremio de agricultores!
     - **TzHaar-Hur-Zuh:** ¡Tendrás que ser rápido! Solo estoy aquí por [número] horas y [número] minutos. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - ((Sin los artículos solicitados:))
+    - ((Without the requested items:))
       - **TzHaar-Hur-Zuh:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **TzHaar-Hur-Zuh:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **TzHaar-Hur-Zuh:** También estoy buscando un nuevo animal, actualmente estoy buscando A [animal]
-    - ((Con los artículos solicitados:))
+    - ((With the requested items:))
       - (removes=the requested items) (receives=15,000 Tokkul)
-      - ((Si se premió una imprimación de Brassica:))
+      - ((If a Brassica primer was rewarded:))
         - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-        - ((Repetido en una ventana emergente:))
+        - ((Repeated in a pop-up:))
           - Por completar esta solicitud, recibió 1 imprimación para Brassica.
           - (continue)
       - [Has recibido: Tokkul x 15000 <br>Y 2750 de reputación agrícola.]
@@ -105,9 +105,9 @@
 ##### Con artículos solicitados
 
 - (removes=the requested items) (receives=15,000 Tokkul)
-- ((Si se premió una imprimación de Brassica:))
+- ((If a Brassica primer was rewarded:))
   - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - Por completar esta solicitud, recibió 1 imprimación para Brassica.
     - (continue)
 - [Has recibido: Tokkul x 15000 <br>Y 2750 de reputación agrícola.]

@@ -14,14 +14,14 @@
 
 #### Instrucciones
 
-- ((Cada minuto se ve uno aleatorio de los siguientes y se repite como un mensaje general regular:))
+- ((A random one of the following is seen every minute, and is repeated as a regular overhead message:))
   - {{Colour: {{Colour|#99FF99|Mould the chocolate into bars!}}}}
   - {{Colour: {{Colour|#99FF99|Mould the chocolate into bunnies!}}}}
   - {{Colour: {{Colour|#99FF99|Mould the chocolate into eggs!}}}}
 
 #### Trabajar demasiado
 
-- ((Lo siguiente se ve cada minuto y se repite como un mensaje general regular:))
+- ((The following is seen every minute, and is repeated as a regular overhead message:))
   - {{Colour: {{Colour|#99FF99|The moulding station is overworked, we need more workers elsewhere!}}}}
 
 ### Talk to
@@ -45,7 +45,7 @@
 - **Stewy Bunny:** ¡Buen título!
 - **Gooey Bunny:** Nunca pudimos ponernos de acuerdo en un solo color...
 - ¡Has desbloqueado el color 'Chocolate' para el título 'el Huevo'!
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - ¡Has desbloqueado el color 'Chocolate' para el título 'el Huevo'!
   - (continue)
 - **Chewy Bunny:** ¡Así que hicimos uno que combina todos nuestros tipos de chocolate favoritos!

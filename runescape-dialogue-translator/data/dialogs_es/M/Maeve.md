@@ -37,15 +37,15 @@
 
 - (removes=all marionettes) (receives=up to 40 Christmas spirit for each marionette removed if the soft cap hasn't been reached)
 - Su [número] [marionette/marionettes] pasa el riguroso control de calidad de Maeve.
-- (ventana emergente)
-  - (Ventana emergente: Su [número] [marionette/marionettes] pasa el riguroso control de calidad de Maeve.|color=#00FF00)
+- (pop-up)
+  - (Pop-up: Your [number] [marionette/marionettes] pass Maeve's rigorous quality control.|colour=#00FF00)
   - (continue)
-- (Condition: Con al menos 50.000 espíritu navideño:)
+- (Condition: With at least 50,000 Christmas spirit:)
   - Has alcanzado el límite flexible de espíritu navideño de 50.000. Debes gastar algunas fichas en la tienda navideña Spirit antes de poder ganar más.
-  - (ventana emergente)
-    - (Ventana emergente: has alcanzado el límite mínimo de espíritu navideño de 50 000. Debes gastar algunas fichas en la tienda navideña Spirit antes de poder ganar más.|advertencia=yes)
+  - (pop-up)
+    - (Pop-up: You have reached the Christmas spirit soft cap of 50,000. You need to spend some tokens in the Christmas Spirit Shop before you can earn more.|warning=yes)
     - (continue)
-- (Condition: Con espíritu navideño por debajo de los 50.000 anteriormente:)
+- (Condition: With previously under 50,000 Christmas spirit:)
   - Se ha agregado lo siguiente a su bolsa de divisas: [número] x Espíritu navideño.
   - (continue)
 - **Maeve:** Todos estos se ven bien Player, gran trabajo.

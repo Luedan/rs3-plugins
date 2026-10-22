@@ -43,7 +43,7 @@
     - (removes=the ceremonial sword plans)
     - ((Si la espada estuviera entre [unknown] y 99%:) <!-- lower bound is ≤ 88 -->
       - Tu espada recibe el [número]% de su experiencia potencial. Trabajo razonable.
-    - ((Para otras gamas:))
+    - ((For other ranges:))
       - {{Transcript missing}}
       - Tu espada recibe el [número]% de su experiencia potencial.
   - [Choice]: ¿Quién eres?
@@ -52,31 +52,31 @@
     - **Egil:** No tengo muchas acciones en títulos. Adornan el ego, pero son bastante poco prácticos.
     - (previous)
   - [Choice]: ¿Puedo cambiar mi cañón?
-    - (Condition: Si el player no tiene cañón:)
+    - (Condition: If the player doesn't have a cannon:)
       - **Egil:** Me temo que no tienes ninguna mejora de cañón desbloqueada. Puedes desbloquear mejoras de cañones dorados y reales aquí en mi tienda, o diferentes actualizaciones a través de otros métodos que puedas descubrir en tus viajes.
       - (previous)
-    - (Condition: De lo contrario:)
+    - (Condition: Otherwise:)
       - [Menu]: Elige una opción:
         - [Choice]: Multicañón enano.
-          - ((Si el player no trajo su multicañón existente en su backpack:))
+          - ((If the player did not bring their existing multicannon in their backpack:))
             - Debes traer un cañón múltiple dorado, real o de asedio para cambiarlo por un cañón múltiple enano normal.
             - **Egil:** ¡No me hagas perder el tiempo, no te daremos multicañones gratis! Necesitarás traer un cañón múltiple y lo convertiré.
             - (initial)
-          - ((De lo contrario:))
+          - ((Otherwise:))
             - {{Transcript missing}}
         - [Choice]: Multicañón de oro.
-          - ((Si el player no trajo su multicañón existente en su backpack:))
+          - ((If the player did not bring their existing multicannon in their backpack:))
             - Debes traer un cañón múltiple normal, real o de asedio para cambiarlo por un cañón múltiple enano dorado.
             - **Egil:** ¡No me hagas perder el tiempo, no te daremos multicañones gratis! Necesitarás traer un cañón múltiple y lo convertiré.
             - (initial)
-          - ((De lo contrario:))
+          - ((Otherwise:))
             - {{Transcript missing}}
         - [Choice]: Royale multicannon.|cond=Si el player ha desbloqueado el cañón real:
-          - ((Si el player no trajo su multicañón existente en su backpack:))
+          - ((If the player did not bring their existing multicannon in their backpack:))
             - Debes traer un cañón múltiple normal, dorado o de asedio para cambiarlo por un cañón múltiple enano real.
             - **Egil:** ¡No me hagas perder el tiempo, no te daremos multicañones gratis! Necesitarás traer un cañón múltiple y lo convertiré.
             - (initial)
-          - ((De lo contrario:))
+          - ((Otherwise:))
             - {{Transcript missing}}
   - [Choice]: [More...]
     - [Menu]: ¿Qué te gustaría decir?
@@ -85,7 +85,7 @@
         - **Egil:** Si lo activas en cualquier parte del taller, sobrecargará las tuberías dentro del taller, lo que hará que tú y todos los demás generen más progreso mientras forjan.
         - **Player:** Eso suena peligroso. ¿Cuánto dura?
         - **Egil:** ¡Ah, el taller puede soportarlo! Pero de vez en cuando podría reventar una tubería. Cada uno dura 5 minutos, pero puedes poner varios en cola para trabajar a la vez.
-        - (Condition: Si los inyectores de luminita están activos:)
+        - (Condition: If luminite injectors are active:)
           - **Egil:** De hecho, ¡hay uno activo ahora mismo! Caducará en [time given in minutes and seconds].
         - (initial)
       - [Choice]: ¿Hay alguna recompensa?

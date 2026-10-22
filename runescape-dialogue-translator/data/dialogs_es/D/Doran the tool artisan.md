@@ -11,12 +11,12 @@
 
 ### Information during the Travelling Artisan event
 
-- ((Primera vez:))
+- ((First time:))
   - **Player:** Oye, ¿qué está pasando aquí?
   - **Doran the tool artisan:** ¡Ah! ¡Bienvenido! ¡Me llamo Doran y soy conocido como un artesano viajero! ¡Estamos celebrando un evento especial en este momento en el que podemos crear un montón de recompensas únicas especialmente para ti!
   - **Player:** ¡Oh, eso suena genial!
   - (continue)
-- ((Después:))
+- ((Afterwards:))
   - **Player:** ¡Oye!
   - **Doran the tool artisan:** ¿Cómo puedo ayudar?
   - (continue)

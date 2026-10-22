@@ -11,19 +11,19 @@
 
 ### Initial dialogue
 
-- (Condition: Primera vez:)
+- (Condition: First time:)
   - **Copernicus Glyph:** No, no, no... ¡Nunca terminaré con esto!
   - (continue)
-- (Condition: En ocasiones posteriores, antes de preguntar qué se debe hacer, abre con esta línea:)
+- (Condition: Subsequent times, before asking what should be done, he opens with this line:)
   - **Copernicus Glyph:** Si pudiera obtener un poco de ayuda aquí...
   - (continue)
 - [Menu]: ¿Qué te gustaría decir?
   - [Choice]: ¿Quién eres?
     - **Copernicus Glyph:** Cuando estoy por negocios, soy Copernicus Glyph: Maestro escultor. Sin embargo, mis amigos simplemente me llaman Ernie.
     - **Copernicus Glyph:** Habrás visto mi trabajo sin darte cuenta en muchos pueblos y ciudades.
-    - (Condition: Si el player no ha completado la parte de robo de estatuas del Jardín de la Tranquilidad:)
+    - (Condition: If the player has not completed the statue stealing portion of Garden of Tranquility:)
       - **Copernicus Glyph:** Hay una hermosa estatua de Saradomin en Falador. También hice la mayoría de las estatuas alrededor del castillo Lumbridge. Debes pasar y verlos alguna vez. Las esculturas pueden ser bastante inspiradoras.
-    - (Condition: Si el player ha completado la parte de robo de estatuas del Jardín de la Tranquilidad:)
+    - (Condition: If the player has completed the statue stealing portion of Garden of Tranquility:)
       - **Copernicus Glyph:** Tenía algunas estatuas preciosas en Lumbridge y Falador, ¡tal vez demasiado bonitas porque alguien las robó!
       - [Menu]: ¿Qué te gustaría decir?
         - [Choice]: ¡Ja! ¡Robé algunas estatuas!
@@ -58,10 +58,10 @@
 
 #### Antes de construir una estatua
 
-- (Condition: Si el player nunca ha construido una estatua, comienza con esta línea:)
+- (Condition: If the player has never built a statue, he opens with this line:)
   - **Copernicus Glyph:** Bueno, ¿vas a ayudarme o no?
   - (continue)
-- (Condition: Si el player ha construido previamente una estatua, comienza con esta línea:)
+- (Condition: If the player has previously built a statue, he opens with this line:)
   - **Copernicus Glyph:** ¡Qué bueno verte de nuevo! Tienes la costumbre de aparecer en el momento justo. Me vendría bien una mano otra vez.
   - (continue)
 - [Menu]: ¿Qué te gustaría decir?

@@ -14,9 +14,9 @@
 - **Bugs:** Dad dice que puedes llevarte a Karamja con nosotros si quieres. ¡Pero primero nos das dos mordiscos!
 - [Menu]: Selecciona una opción
   - [Choice]: Sí, por favor, te llevaré a Karamja.
-    - (Condition: Si el player no tiene dos chompies:)
+    - (Condition: If the player does not have two chompies:)
       - **Ogre boat:** No tienes mordiscos... ¡ni viajes en barco!
-    - (Condition: Si el player tiene pago suficiente:)
+    - (Condition: If the player has sufficient payment:)
     - (removes=two cooked chompies)
       - (Action: Player se transporta al oeste de Tai Bwo Wannai.)
       - El tronco apenas apto para navegar llega a la playa de Karamja.
@@ -28,11 +28,11 @@
 - **Bugs:** Dad dice que puedes regresar con nosotros si quieres. ¡Pero primero nos das dos herbies glug-glugs!
 - [Menu]: Selecciona una opción
   - [Choice]: Sí, por favor, me llevarán de regreso.
-    - (Condition: Si el player lleva ron Karamjan:)
+    - (Condition: If the player is carrying any Karamjan rum:)
       - **Bugs:** Dad dice que no traerás cosas divertidas... cosas malas hasta que nos metemos en grandes males.
-    - (Condition: Si el player no tiene dos hierba de serpiente limpia o dos carteras de pícaro limpias:)
+    - (Condition: If the player does not have two clean snake weed or two clean rogue's purse:)
       - **Ogre boat:** No tienes herbies glug-glugs... ¡ni viajes en barco!
-    - (Condition: Si el player tiene pago suficiente:)
+    - (Condition: If the player has sufficient payment:)
       - (removes=two herbs)
       - Entregas dos hierbas y aceptas que Fycie y Bugs te lleven en el barco improvisado.
       - (Action: Player es transportado al este de Feldip Hills.)

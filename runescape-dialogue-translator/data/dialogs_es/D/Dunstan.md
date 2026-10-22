@@ -27,23 +27,23 @@
 ### After Death Plateau
 
 - **Player:** ¡Hola!
-- (Condition: Antes del romance troll:)
+- (Condition: Before Troll Romance:)
   - **Dunstan:** ¡Hola! ¿Qué puedo hacer por ti?
   - (continue)
-- (Condition: Después del romance troll:)
+- (Condition: After Troll Romance:)
   - **Dunstan:** Bueno, ¡si no es nuestro propio trineo! ¿Qué puedo hacer por ti hoy?
   - (continue)
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Puedes ponerle unos clavos a mis botas de escalada? {{anchor|spikes}}
     - **Dunstan:** Para ti, no hay problema. ¿Te das cuenta de que ahora sólo puedes usar las botas de montaña? Las botas con pinchos sólo se pueden usar en Islandia, ¡pero nadie ha podido llegar allí desde hace años!
       - [Choice]: Sí, pero todavía los quiero.
-        - (Condition: Si el player no lleva consigo una barra de hierro:)
+        - (Condition: If the player does not have an iron bar with you:)
           - **Dunstan:** Lo siento, necesitaré una barra de hierro para hacer las púas.
           - (continue)
-        - (Condition: Si el player tiene barra de hierro pero no botas de montaña:)
+        - (Condition: If the player has an iron bar but not the climbing boots:)
           - **Player:** No los tengo conmigo.
           - (continue)
-        - (Condition: Si el player tiene tanto una barra de hierro como las botas de montaña:)
+        - (Condition: If the player has both an iron bar and the climbing boots:)
           - (removes=iron bar and climbing boots) (receives=spiked boots)
           - Le das a Dunstan una barra de hierro y las botas de montaña.
           - [Dunstan te ha regalado las botas con pinchos.]
@@ -62,10 +62,10 @@
   - [Choice]: ¿Puedes hacerme otro trineo?
     - **Player:** ¿Puedes hacerme otro trineo?
     - **Dunstan:** Sí, claro, ¿tienes el arce o yew logs, una barra de hierro y algo de cuerda?
-    - (Condition: Si el player no tiene todos los materiales:)
+    - (Condition: If the player does not have all the materials:)
       - **Player:** No, aún no lo tengo todo.
       - **Dunstan:** Bueno, lamentablemente no puedo hacer el trineo sin todos los materiales.
-    - (Condition: Si el player tiene todos los materiales:)
+    - (Condition: If the player has all the materials:)
       - **Player:** Sí, tengo todos los materiales para el trineo.
       - (removes=maple logs, iron bar and rope) (receives=sled)
       - [Dunstan toma los materiales y algunas de sus herramientas y comienza a fabricar un trineo. Después de un rato, Dunstan te entrega un trineo terminado.]
@@ -115,13 +115,13 @@
           - [Choice]: ¡Nos vemos!
             - (arriba)
   - [Choice]: ¿Cómo le va a tu hijo?
-    - (Condition: Antes de la Fortaleza Troll:)
+    - (Condition: Before Troll Stronghold:)
       - **Dunstan:** ¡Fue capturado por esos trolls malditos! No sé qué hacer. Incluso la guardia imperial tiene demasiado miedo para rescatarlo.
       - **Player:** ¿Qué pasó?
       - **Dunstan:** Habla con Denulth, él puede contarte todo al respecto.
       - **Dunstan:** ¿Algo más antes de continuar con mi trabajo?
       - (continuea|anythingelse)
-    - (Condition: Después de la Fortaleza Troll:)
+    - (Condition: After Troll Stronghold:)
       - **Dunstan:** ¡Se está llevando bien! ¡Acaba de ser ascendido a Sergeant! ¡Estoy realmente orgulloso de él!
       - **Player:** ¡Me alegro por ti!
       - **Dunstan:** ¿Algo más antes de continuar con mi trabajo?

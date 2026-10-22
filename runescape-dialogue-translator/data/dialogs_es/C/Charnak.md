@@ -20,7 +20,7 @@
 - [Menu]: ¿Quieres ayudar?
   - [Choice]: Sí.
     - **Charnak:** ¡SÍ! ¡Eres simplemente el mejor!
-    - (Condition: Si el tipo de tarea es "Coleccionista de curiosidades":)
+    - (Condition: If the task type is "Collector of curiosities":)
       - **Charnak:** Soy un coleccionista de curiosidades y actualmente tengo la mayor colección de [item] de todo Menaphos.
       - **Charnak:** Bueno, lo hice...
       - **Player:** ¿Qué pasó?
@@ -30,7 +30,7 @@
       - **Player:** Entonces, si alguien te trajera [número] piezas de [item], ¿volverías a tener la mejor colección?
       - **Charnak:** ¡Sí! ¿Harías esto por mí?
       - (abajo)
-    - (Condition: Si el tipo de tarea es "Slayer master":)
+    - (Condition: If the task type is "Slayer master":)
       - **Charnak:** Estoy listo para un cambio de carrera.
       - **Player:** Oh, ¿en serio? ¿Cómo puedo ayudar?
       - **Charnak:** Bueno, realmente quiero ser un Slayer master, aunque me vendría bien un poco de práctica.

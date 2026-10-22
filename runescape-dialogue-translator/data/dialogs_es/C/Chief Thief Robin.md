@@ -52,10 +52,10 @@
   - [Choice]: ¿Dónde puedo practicar mi arte?
     - **Player:** ¿Dónde puedo practicar mi arte?
     - **Chief Thief Robin:** He oído que hay un compañero en Al Kharid que necesita a alguien para un trabajo de infiltración.
-    - (Condition: Con 40 Agility:)
+    - (Condition: With 40 Agility:)
       - **Chief Thief Robin:** Hay rumores sobre una pirámide en lo profundo del desierto llena de trampas y objetos de valor.
       - (continue)
-    - (Condition: Con 50 Agility y 50 Thieving:)
+    - (Condition: With 50 Agility and 50 Thieving:)
       - **Chief Thief Robin:** Y un colega nuestro ha creado un juego de laberinto en Burthorpe, si te sientes ligero de pies.
       - (continue)
     - **Player:** Gracias, Robin.
@@ -79,11 +79,11 @@
 
 ##### Después de un gremio propio
 
-- (Condition: Sin bolsa de botín en backpack:)
+- (Condition: Without a loot bag in backpack:)
   - **Chief Thief Robin:** Tendrás que traer tu bolsa de botín si quieres que eche un vistazo y vea qué podemos cercar.
-- (Condition: Con una bolsa de botín vacía en backpack:)
+- (Condition: With an empty loot bag in backpack:)
   - **Chief Thief Robin:** No parece que tengas nada que podamos cercar en este momento. Vuelve cuando hayas llenado esa bolsa tuya.
-- (Condition: Con una bolsa de botín llena en backpack:)
+- (Condition: With a filled loot bag in backpack:)
   - Has recibido puntos de robo [número] xp, oro [número] y puntos de robo [número].<br>Ahora tienes puntos de robo [número].
-- (Condition: Con una bolsa de botín llena en backpack pero con 60.000 puntos de robo en la bolsa de dinero:)
+- (Condition: With a filled loot bag in backpack but with 60,000 pilfer points in currency pouch:)
   - No puedes recibir más puntos de robo. Por favor, vaya a gastar algo en Dirty Deals de Dodgy Derek.

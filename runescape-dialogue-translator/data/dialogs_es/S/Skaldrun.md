@@ -123,7 +123,7 @@
     - *(Si el player no ha descubierto ningún elemento de memoria:)*
       - **Skaldrun:** Ah, pero aún no has descubierto ningún elemento en Daemonheim que me refresque la memoria.
       - **Skaldrun:** Lo siento mucho.
-    - (Condition: Si el player ha descubierto un elemento de memoria:)
+    - (Condition: If the player has discovered a memory item:)
       - **Skaldrun:** ¿Qué historia te gustaría escuchar?
         - *(Se abre la interfaz Elija una Historia)*
           - [Choice]: Jugar saga
@@ -178,23 +178,23 @@
         - **Skaldrun:** Espero que tú y el gremio de arqueología puedan ayudarme a descubrir más historias de Daemonheim excavando el sitio.
         - (previous|dig-site-qs)
       - [Choice]: Quiero hablar de misterios.
-        - (Condition: Si no se han descubierto misterios)
+        - (Condition: If no mysteries have been uncovered)
           - **Skaldrun:** Todavía tenemos que descubrir algo significativo. Tráeme cualquier cosa que parezca especial y podremos investigar la historia que puede contar.
         - [Menu]: ¿Qué te gustaría discutir?
           - [Choice]: cond=With a mystery item in the backpack:|Entregar objetos de memoria.
-            - (Condition: Con elementos relacionados con el misterio Un Nuevo Hogar sin haber desvelado el misterio aún)
+            - (Condition: With items related to the mystery A New Home without having uncovered the mystery yet)
               - **Player:** Encontré esto. Se siente más extraño que algunos de los otros artefactos, como si tuviera una de tus historias adjunta.
               - **Skaldrun:** Esto es muy antiguo. Demasiado débil para experimentarlo en su totalidad, pero aun así imbuido de recuerdos. Quizás puedas sacarlo tú mismo. Cierra los ojos.
               - Skaldrun le instruirá sobre técnicas mentales y de respiración precisas.
               - (continue)
-            - (Condition: Con elementos relacionados con el misterio Una Nueva Forma sin haber descubierto el misterio aún)
+            - (Condition: With items related to the mystery A New Form without having uncovered the mystery yet)
               - **Player:** ¿Qué opinas de esto? Encontré esta vieja curiosidad y parece que hay una historia detrás.
               - **Skaldrun:** Sí, sí. Hay una historia que contar aquí, pero gran parte de ella parece perdida en el tiempo. Cierra los ojos y veamos qué podemos aprender aún.
               - [Skaldrun le instruirá sobre técnicas mentales y de respiración precisas.]
               - (continue)
             - (Action: La pantalla se vuelve negra.)
-            - ((Se ve uno de los siguientes, basado en el primer elemento que el player tiene en su backpack, y luego continúa a continuación:))
-              - (Condition: Con el anillo de Tokshak en el backpack:)
+            - ((One of the following is seen, based on the first item the player has in their backpack, and then continues below:))
+              - (Condition: With Tokshak's ring in the backpack:)
                 - [Mientras descansas tus alas y te sientas en los acantilados rocosos, tus compañeros Aughra todavía están aterrizando.]
                 - [Reflexionas sobre tu viaje. La visión de este lugar que viste aún no se ha hecho realidad, pero puedes distinguir los contornos, los cimientos e incluso esa extraña formación de piedra.]
                 - [La tormenta escalofriante que os persiguió desde Orthen sigue bramando. Claramente molesta a tus parientes.]
@@ -203,7 +203,7 @@
                 - [Esta tormenta que azota no es más que la precursora de la que os liberará de vuestra terrible maldición.]
                 - [Juntos, como uno solo, como moksha, visteis esto. Es con este conocimiento que te acuestas a dormir, soportando el frío intenso.]
                 - (removes=Tokshak's ring)
-              - (Condition: Con el anillo de Balarak en el backpack:)
+              - (Condition: With Balarak's ring in the backpack:)
                 - [Dejas tus martillos en el suelo y das un paso atrás.]
                 - [Sientes que el sudor gotea de tu frente mientras echas la cabeza hacia atrás para admirar tu trabajo.]
                 - [Una amplia sonrisa se manifiesta en tu rostro mientras lo confirmas. Está hecho. La estructura está completa. Los Aughra tienen un nuevo hogar.]
@@ -212,7 +212,7 @@
                 - [El nombramiento también vendría esta noche. ¿Okken Fiarakkenven, tal vez? No estás seguro de si es un buen nombre, pero lo sugerirás esta noche.]
                 - [Al mover el cuello sientes un crujido satisfactorio. Por ahora, tu trabajo ha terminado, así que caminas hacia el patio para relajarte un poco.]
                 - (removes=Balarak's ring)
-              - (Condition: Con el anillo de Halak en el backpack:)
+              - (Condition: With Halak's ring in the backpack:)
                 - [Todavía no estás acostumbrado al crujido de la piedra que resuena a tu alrededor con cada vuelta del cubo.]
                 - [Puedes sentir la carne debajo de las escamas de tu cuello encogerse ante el raspado mientras giras el rompecabezas de aquí para allá.]
                 - ["Está bien", piensas, repitiendo el viejo discurso para ti mismo. "No es necesario que vayas a la cocina si la cocina puede acudir a ti".]
@@ -223,7 +223,7 @@
                 - [Los constructores aparecen en el ojo de tu mente, limpiando y estabilizando el lugar.]
                 - [Entonces habrá que producir más cubos, pero eso puede esperar. El glorioso aroma de la carne de gallimastyx que has estado preparando te devuelve a la realidad.]
                 - (removes=Halak's ring)
-              - (Condition: Con la pipa de Yorga en el backpack:)
+              - (Condition: With Yorga's pipe in the backpack:)
                 - [El humo de color cian llena el aire al exhalar y los pequeños cristales que contiene brillan con la luz.]
                 - [El olor es sutil pero dulce, muy parecido a la planta que arde en tu pipa y como a las muchas flores que has cultivado en esta cámara del jardín.]
                 - [Un profundo sentimiento de orgullo te invade al vislumbrar esta preciosa vegetación, la ayuda clave para la meditación del Aughra.]
@@ -232,27 +232,27 @@
                 - [Un día estos árboles... estas hierbas... toda una jungla de estas plantas poblará este lugar y más allá.]
                 - [Cada crecimiento es una pequeña rebelión contra ellos y su maldición sobre nosotros.]
                 - (removes=Yorga's pipe)
-              - (Condition: Con placa deslustrada en el backpack:)
+              - (Condition: With tarnished plaque in the backpack:)
                 - [Has pasado muchos mok con la gente con cuernos. En sueño y en trance pero siempre tan lúcido como en un momento de vigilia.]
                 - [Muchas veces recuerdas haber intercambiado conocimientos, debatido sobre tus filosofías, compartido tus problemas existenciales, pero no puedes evitar la sensación de que de alguna manera esta vez se sintió diferente.]
                 - [Su sonrisa era más brillante, sus movimientos más claros, su voz más aguda. Al parecer, confías profundamente en ellos y ellos confían en ti.]
                 - [En tu mano hay algo nuevo. Discos brillantes. Azul, verde, rojo y dorado.]
                 - [Habrá una fiesta, lo has decidido, y todos son bienvenidos aquí.]
                 - (removes=tarnished plaque)
-              - (Condition: Con piedra pulida en el backpack:)
+              - (Condition: With polished stone in the backpack:)
                 - [Tu mente está nublada. No sabes por qué, pero estás indignado y absolutamente furioso. Es demasiado. Te gritas a ti mismo.]
                 - [Y la nube de ira se ha ido. Miras la piedra ligeramente cálida que tienes en las manos. Sí, tienes manos otra vez. De vuelta en tu propio cuerpo y respirando aliviado.]
                 - [Una vez más, el dulce escape de las garras de la maldición del roakin se ve contrarrestado por algún otro problema, la ira irreparable de este gigante de otro mundo o el embotamiento mental en el cuerpo de un mastyx.]
                 - [El portal se cierra mientras juegas con la enorme máquina en el centro de la habitación. Comienzas de nuevo la búsqueda de una criatura que se adapte a tu temperamento.]
                 - (removes=polished stone)
-              - (Condition: Con 'placa de encanto' en el backpack:)
+              - (Condition: With 'charm plate' in the backpack:)
                 - [Los has estudiado en muchos mok. Vagó por las calles de su ciudad. Respiró el aire espeso y denso. Sentí el suave descenso de la ceniza desde las nubes de arriba.]
                 - [Conoces su idioma. Sus costumbres ya no son exclusivas de vosotros. A través de tus propias meditaciones y la habilidad del gorajo TÚ has estado allí, incluso si tu cuerpo no.]
                 - [Podrías liberarte de la maldición allí. Podrías ayudarlos. Podrías guiarlos.]
                 - [Una sonrisa diabólica se dibuja en tu rostro. Tú eres ellos. No eres Kalger; Eres Kal'Ger.]
                 - [No somos Aughra. Somos Infernales. Y ahora seremos libres.]
                 - (removes='charm plate')
-              - (Condition: Con trozo de aleación primaria en el backpack:)
+              - (Condition: With chunk of primal alloy in the backpack:)
                 - [Bajas el martillo. La técnica equivocada. Te balanceas de nuevo. Mejor.]
                 - [Esta ya no es una herramienta para construir muros o reparar cosas. Es una herramienta de destrucción y guerra.]
                 - [Para Bilrach, un aliado necesario por ahora. Busca a su maestro perdido.]
@@ -261,14 +261,14 @@
                 - [Te balanceas de nuevo. Una fuerza aplastante que parte la roca en dos.]
                 - [De nuevo. Ahora, un buen ladrillo para construir un nuevo futuro.]
                 - (removes=chunk of primal alloy)
-              - (Condition: Con tótem agrietado en el backpack:)
+              - (Condition: With cracked totem in the backpack:)
                 - [Sabes que este fue tu último simulacro con la gente con cuernos.]
                 - [Ves las forjas a tu alrededor que ardieron y bailaron con un calor inimaginable y con todos los colores, mientras tus voluntades chocadas se arrastran y hierven a fuego lento hasta recuperar su inclinación natural.]
                 - [El olor de las flores quemadas se desvanece y la niebla cian se disipa. Estás solo con tus propios pensamientos.]
                 - [Sabes que son correctos. Seguramente Bilrach está loco, pero usted ha decidido soportar la carga.]
                 - [En lo más profundo de la tierra, como en lo profundo de tu propio corazón, hay una luz de esperanza para la libertad de todos: Aughra, Syrtes, Nodon y Dactyl por igual.]
                 - (removes=cracked totem)
-              - (Condition: Con baratija destrozada en el backpack:)
+              - (Condition: With mangled trinket in the backpack:)
                 - [Una ola de poder vigorizante choca contra ti y casi te hace volar. Cuando recuperas el equilibrio, ves a la criatura encogerse y palpitar.]
                 - [Quedas fascinado al ver la figura de Bilrach, al principio deformada, tal vez por la naturaleza destrozada de estas profundidades. Se retuerce y se moldea a partir de su vil presencia esquelética para convertirse en algo casi atractivo.]
                 - [Te preguntas si así es como te ven los demás cuando tu propio poder se manifiesta en una nueva forma. ¿La fuerza que infundes se irradia hacia afuera?]
@@ -276,23 +276,23 @@
                 - [¿Qué pasaría si fuera un dios? No hay tiempo para considerar estas cosas, porque ya nos hemos acercado al borde del destino.]
                 - (removes=mangled trinket)
               - (Action: La pantalla vuelve a desaparecer.)
-              - (Condition: Si este fue el primer objeto entregado por un misterio:)
+              - (Condition: If this was the first item handed in for a mystery:)
                 - Misterio descubierto: '[name]'.
                 - (continue)
               - Transcribes the memory en tu diario de arqueología.
               - (ventana emergente)
                 - {{Popup|You transcribe the memory into your archaeology journal.}}
                 - (continue)
-              - (Condition: Si este fue el primer objeto entregado por un misterio:)
+              - (Condition: If this was the first item handed in for a mystery:)
                 - No logras mantener tu concentración y la experiencia se desvanece.
                 - **Skaldrun:** Parece que eso es todo lo que podemos deducir de esto.
                 - (continue)
               - (previous|mysteries)
           - [Choice]: A New Home.|cond=Después de descubrir el misterio
-            - (Condition: Antes de entregar los cinco elementos:)
+            - (Condition: Before all five items are handed in:)
               - **Skaldrun:** Hemos logrado grandes avances, pero siento que hay más recuerdos por descubrir.
-            - (Condition: De lo contrario:)
-              - (Condition: Sólo la primera vez:)
+            - (Condition: Otherwise:)
+              - (Condition: Only on the first time:)
                 - ¡Ganas 19,500 Archaeology XP por completar un misterio!
                 - ¡Felicitaciones! Has completado: 'Un nuevo hogar' - Resuelve este misterio.
                 - (continue)
@@ -303,10 +303,10 @@
               - **Skaldrun:** Vuelve conmigo si encuentras algo más de interés.
               - (previous|mysteries)
           - [Choice]: A New Form.|cond=Después de descubrir el misterio
-            - (Condition: Antes de entregar los cinco elementos:)
+            - (Condition: Before all five items are handed in:)
               - **Skaldrun:** Hemos logrado algunos buenos avances, pero todavía tenemos más que aprender antes de poder hacer un informe.
-            - (Condition: De lo contrario:)
-              - (Condition: Sólo la primera vez:)
+            - (Condition: Otherwise:)
+              - (Condition: Only on the first time:)
                 - ¡Ganas 67 000 Archaeology XP por completar un misterio!
                 - ¡Felicitaciones! Has completado: 'Una nueva forma' - Resuelve este misterio.
                 - (continue)
@@ -317,13 +317,13 @@
               - **Skaldrun:** Vuelve conmigo si encuentras algo más de interés.
               - (previous|mysteries)
           - [Choice]: A New Age.|cond=Después de haber inspeccionado el token extraño
-            - (Condition: Antes de haber entregado la extraña ficha:)
-              - (Condition: Sin el token en backpack:)
+            - (Condition: Before having handed in the strange token:)
+              - (Condition: Without the token in backpack:)
                 - **Player:** Hola Skaldrun, me encontré con un token extraño en Daemonheim. No parece que pertenezca aquí.
                 - **Player:** Hola Skaldrun, ¿podrías comprobar si hay otro recuerdo imbuido?
                 - **Skaldrun:** Si me lo pasas puedo echarle un vistazo.
                 - **Player:** Parece que lo he extraviado. Regresaré una vez que lo haya localizado o desenterrado otro para que puedas inspeccionarlo.
-              - (Condition: Con el token en backpack:)
+              - (Condition: With the token in backpack:)
                 - **Player:** Hola Skaldrun, encontré este token en Daemonheim. No parece que pertenezca aquí. ¿Podrías comprobar si hay otro recuerdo imbuido?
                 - **Skaldrun:** Pásamelo y le echaré un vistazo.
                 - **Skaldrun:** Ohhh-erghh...
@@ -378,12 +378,12 @@
                 - (removes=strange token)
                 - **Player:** Recientemente vi a Valluta en Lost Grove. Debería ir allí y hablar con ella.
                 - (previous|mysteries)
-            - (Condition: Después de haber entregado la extraña ficha y antes de haber hablado con Valluta:)
+            - (Condition: After having handed in the strange token and before having talked to Valluta:)
               - (above|I most recently saw)
-            - (Condition: Después de haber hablado con Valluta y antes de haber probado el misterioso motor:)
+            - (Condition: After having talked to Valluta and before having tested the mysterious engine:)
               - **Skaldrun:** Ah, nuestro contrabandista residente me informó que llegó una entrega para ti. Me dijo que te dijera que se está instalando en las profundidades retorcidas detrás de la imponente puerta.
-            - (Condition: Después de haber probado el misterioso motor:)
-              - (Condition: Antes de haber resuelto el misterio:)
+            - (Condition: After having tested the mysterious engine:)
+              - (Condition: Before having solved the mystery:)
                 - **Player:** ¡Buenas noticias! Hemos probado la teoría tanto como hemos podido. El experimento fracasó. No creo que debamos preocuparnos de que Zamorak regrese así.
                 - **Skaldrun:** Me alegra oír eso. Los nuevos Edictos deben ser ahora mucho más poderosos.
                 - **Player:** ¿Pero no deberíamos seguir preocupados por esa brecha y por lo que podría haber al otro lado?
@@ -400,7 +400,7 @@
                 - ¡Felicitaciones! Has completado: 'Misterios - Daemonheim' - Completa todos los logros enumerados.
                 - **Player:** Gracias, Skaldrun.
                 - (previous|mysteries)
-              - (Condition: Después de haber resuelto el misterio:)
+              - (Condition: After having solved the mystery:)
                 - **Skaldrun:** Por ahora, podemos estar tranquilos sabiendo que los zamorakianos no pueden lograr su objetivo original.
           - [Choice]: Discuta el sitio de excavación.
             - (previous|dig-site-qs)

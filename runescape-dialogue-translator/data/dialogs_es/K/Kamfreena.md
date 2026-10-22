@@ -122,21 +122,21 @@
 ##### Usando un defensor en Kamfreena
 
 - **Player:** Tengo un defensor [metal], ¡déjame entrar para matar más cíclopes!
-- (Condition: Si usas un defensor de bronce en Kamfreena:)
+- (Condition: If using a bronze defender on Kamfreena:)
   - **Kamfreena:** Bronce, ¿eh? Los próximos cíclopes están listos, entra cuando estés listo.
-- (Condition: Si usas un defensor de hierro en Kamfreena:)
+- (Condition: If using an iron defender on Kamfreena:)
   - **Kamfreena:** Vaya, hierro, ¿eh? Los próximos cíclopes están listos, entra cuando estés listo.
-- (Condition: Si usas un defensor de acero en Kamfreena:)
+- (Condition: If using a steel defender on Kamfreena:)
   - **Kamfreena:** Fuerte como el acero, ¿eh? Los próximos cíclopes están listos, entra cuando estés listo.
-- (Condition: Si usas un defensor negro en Kamfreena:)
+- (Condition: If using a black defender on Kamfreena:)
   - **Kamfreena:** Negro, hmmm, ¡entonces aproximadamente a la mitad del camino hacia Rune! ¡Sigue adelante! Los cíclopes han sido liberados, ingresa cuando estés listo.
-- (Condition: Si usas un defensor de mithril en Kamfreena:)
+- (Condition: If using a mithril defender on Kamfreena:)
   - **Kamfreena:** ¿Mithril? Te estás volviendo bueno en esto, ¿no? Ok, liberé esos cíclopes que a veces derriban defensores inflexibles, ingresa cuando estés listo.
-- (Condition: Si utiliza un defensor inflexible en Kamfreena:)
+- (Condition: If using an adamant defender on Kamfreena:)
   - **Kamfreena:** Un defensor inflexible, ¿eh? Estoy apostando por el defensor de Rune. Ok, he liberado a esos cíclopes, ingresa cuando estés listo.
-- (Condition: Si usas un defensor de runas en Kamfreena:)
+- (Condition: If using a rune defender on Kamfreena:)
   - **Kamfreena:** ¡Bien hecho, realmente eres un guerrero brillante! He lanzado algunos cíclopes que bien pueden dejar caer un dragón defensor, ingresa cuando estés listo.
-- (Condition: Si usas un defensor de dragón en Kamfreena:)
+- (Condition: If using a dragon defender on Kamfreena:)
   - **Kamfreena:** ¡Bien hecho! ¡Realmente eres un guerrero del más alto nivel! He liberado a los cíclopes; entra cuando estés listo.
 
 ##### Cuando a el player le quedan menos de 30 segundos mientras está dentro

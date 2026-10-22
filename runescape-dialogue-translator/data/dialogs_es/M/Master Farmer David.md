@@ -15,9 +15,9 @@
 #### Antes de Wiz Kid
 
 - {{Trandom}}
-  - ((Variante 1:))
+  - ((Variant 1:))
     - **Master Farmer David:** Imánes y forasteros... Hmph. El mundo está cambiando rápidamente.
-  - ((Variante 2:))
+  - ((Variant 2:))
     - **Master Farmer David:** Gracias a nuestra tierra de alta calidad y a nuestros años de experiencia, Sharon y yo hemos mantenido el récord de la cebolla más grande de Wendlewick durante catorce años consecutivos.
     - **Master Farmer David:** Si tan solo Ben fuera más receptivo al negocio familiar. Tiene mucho potencial, pero su cabeza siempre está en las nubes.
 
@@ -43,9 +43,9 @@
 ##### Carterista exitoso
 
 - Escoges el bolsillo del objetivo.
-  - (Condition: Si se reciben semillas:)
+  - (Condition: If seeds are received:)
     - Robas semillas [número] [name].
-  - (Condition: Si se reciben coins:)
+  - (Condition: If coins are received:)
     - [número] coins se han agregado a su bolsa de dinero.
 
 ##### Carterista fallido

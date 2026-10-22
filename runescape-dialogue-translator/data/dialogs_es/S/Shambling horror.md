@@ -12,7 +12,7 @@
 ### Initial appearance
 
 - ¡Ha aparecido un shambling horror en el sitio del ritual!
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - ¡Ha aparecido un shambling horror en el sitio del ritual!
 
 ### Sever link
@@ -24,22 +24,22 @@
 
 - (Action: El shambling horror desaparece.)
 - Cortas el vínculo con el shambling horror.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Cortas el vínculo con el shambling horror.
   - (continue)
 - Se agrega la siguiente recompensa al cofre ritual: [número] x [Item]
-- (Condition: Si se recompensa una piedra lunar sin tallar:)
+- (Condition: If an uncut moonstone is rewarded:)
   - Se agrega la siguiente recompensa al cofre ritual: 1 x Piedra lunar sin cortar
 
 ### Interacting with an incorrect component
 
 - Este no era el objetivo del shambling horror.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Este no era el objetivo del shambling horror.
 
 ### Failing to interact with the correct component in time
 
 - (Action: El shambling horror desaparece.)
 - El shambling horror logra alcanzar su objetivo y se desploma.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - El shambling horror logra alcanzar su objetivo y se desploma.

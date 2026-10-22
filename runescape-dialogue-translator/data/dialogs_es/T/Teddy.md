@@ -35,9 +35,9 @@
     - **Teddy:** Cada truco tiene un nivel de dificultad diferente. La calificación sugiere qué skill level tiene más probabilidades de realizar dicho truco. Sin embargo, puedes intentar trucos para los que no tienes nivel.
     - **Teddy:** Finalmente: sólo puedes realizar 5 trucos. Al final se le informará de sus resultados. Puedes realizar emoticones entre trucos para mantener las cosas animadas.
     - **Teddy:** Si deseas terminar tu actuación antes de tiempo, y entendería completamente esa sensación, simplemente háblame.
-    - (Condition: Primera vez:)
+    - (Condition: First time:)
       - **Teddy:** ¿Te gustaría comenzar tu actuación de Thieving?
-    - (Condition: Después:)
+    - (Condition: Afterwards:)
       - **Teddy:** ¿Te gustaría comenzar tu actuación de Thieving?
     - **Seleccione una opción**
       - si

@@ -54,18 +54,18 @@
     - **Freda:** No veo por qué no. Déjame ver lo que tengo en tu talla.
     - [Menu]: Selecciona una opción
       - [Choice]: Compra botas estándar por 12 po.
-        - (Condition: Con botas de montaña ya en backpack o banco:)
+        - (Condition: With climbing boots already in backpack or bank:)
           - (opens=Freda's Boots)
-        - (Condition: Sin espacio en backpack:)
+        - (Condition: Without space in backpack:)
           - **Freda:** Lo sentimos, no tienes ningún lugar donde colocarlos.
           - (opens=Freda's Boots)
-        - (Condition: Sin 12 de oro:)
+        - (Condition: Without 12 gold:)
           - No puedes permitirte eso.
-          - (ventana emergente)
-            - (Ventana emergente: No puedes permitirte eso.|advertencia=yes)
+          - (pop-up)
+            - (Pop-up: You can not afford that.|warning=yes)
           - **Freda:** Vaya, parece que te falta un poco. Son 12 de oro lo que necesitas para comprar estas botas.
           - (opens=Freda's Boots)
-        - (Condition: Con al menos 12 de oro:)
+        - (Condition: With at least 12 gold:)
           - [Compras las botas de montaña.]
           - (removes=12 coins) (receives=climbing boots)
           - (opens=Freda's Boots)

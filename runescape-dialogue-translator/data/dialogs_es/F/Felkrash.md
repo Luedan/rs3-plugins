@@ -22,20 +22,20 @@
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Puedes entrenar a mi gato por mí?
     - **Player:** ¿Puedes mostrarme cómo entrenar a mi gato para que se convierta en un gato astuto?
-    - (Condition: Si el player no tiene un gato demasiado grande con ellos:)
+    - (Condition: If the player does not have an overgrown cat with them:)
       - **Felkrash:** Sólo puedo entrenar gatos demasiado grandes para convertirlos en gatos astutos.
-    - (Condition: Si el player ya tiene un gato astuto con ellos:)
+    - (Condition: If the player already has a wily cat with them:)
       - **Felkrash:** Ya tienes un gato adulto, cuídalo primero.
-    - (Condition: Si el player tiene un gato demasiado grande con ellos:)
+    - (Condition: If the player has an overgrown cat with them:)
       - Tu gato, ya crecido, se ha convertido en un gato cazador delgado y malvado.
       - **Felkrash:** Realmente deberías nombrar a tu gato.
-      - ((Name se abre la interfaz de tu gato.))
+      - ((Name your cat interface opens.))
   - [Choice]: ¿Puedes cambiar el nombre de mi gato?
     - **Player:** ¿Puedes cambiarle el nombre a mi gato?
-    - (Condition: Si el player no tiene un gato astuto o perezoso con ellos:)
+    - (Condition: If the player does not have a wily or lazy cat with them:)
       - **Felkrash:** Sólo te ayudaré a nombrar gatos astutos o perezosos. Tráeme uno y te ayudaré.
-    - (Condition: Si el player tiene un gato astuto o perezoso con ellos:)
-      - ((Name se abre la interfaz de tu gato.))
+    - (Condition: If the player has a wily or lazy cat with them:)
+      - ((Name your cat interface opens.))
   - [Choice]: ¿Qué fue lo que escuché sobre algunos pozos por aquí?
     - (above|tears)
 

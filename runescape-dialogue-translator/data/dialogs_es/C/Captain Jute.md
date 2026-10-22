@@ -77,9 +77,9 @@
       - [Choice]: ¡Defiende la puerta de entrada!
         - **Player:** ¡Defiende la puerta de entrada!
         - **Captain Jute:** ¡Bien por ti!
-        - (Condition: Si el player todavía tiene un libro de recompensas en su backpack:)
+        - (Condition: If the player still has a reward book in their backpack:)
           - **Captain Jute:** Lo siento, [lad/lass]. No puedo dejar que nos defiendas de las hordas de trolls hasta que hayas agotado tu recompensa de la última vez. No podemos permitir que estas cosas se acumulen.
-        - (Condition: Si el player es elegible para jugar por una recompensa:)
+        - (Condition: If the player is eligible to play for a reward:)
           - **Captain Jute:** Solo para que sepas que este intento será recompensado, ¡así que haz lo mejor que puedas!
             - [Menu]: ¿Aún quieres defender el castillo?
               - [Choice]: Sí.
@@ -87,7 +87,7 @@
                 - (Comienza la invasión troll)
               - [Choice]: No.
                 - **Player:** Hmm, entonces creo que lo dejaré pasar.
-        - (Condition: Si el player no es elegible para jugar por una recompensa:)
+        - (Condition: If the player isn't eligible to play for a reward:)
           - **Captain Jute:** Ya nos has ayudado este mes. Puedes defender el castillo si quieres, pero no puedo recompensarte más. Al menos, no hasta el próximo mes.
           - [Menu]: ¿Aún quieres defender el castillo?
             - [Choice]: Sí.
@@ -98,9 +98,9 @@
       - [Choice]: ¡Lucha contra los trolls!
         - **Player:** ¡Lucha contra los trolls!
         - **Captain Jute:** ¡Adelante!
-        - (Condition: Si el player todavía tiene un libro de recompensas en su backpack:)
+        - (Condition: If the player still has a reward book in their backpack:)
           - **Captain Jute:** Lo siento, [lad/lass]. No puedo dejar que luches contra las hordas de trolls hasta que hayas agotado tu recompensa de la última vez. No podemos permitir que estas cosas se acumulen.
-        - (Condition: Si el player es elegible para jugar por una recompensa:)
+        - (Condition: If the player is eligible to play for a reward:)
           - **Captain Jute:** Solo para que sepas que este intento será recompensado, ¡así que haz lo mejor que puedas!
           - [Menu]: ¿Aún quieres defender el castillo?
             - [Choice]: Sí.
@@ -108,7 +108,7 @@
               - (Comienza la invasión troll)
             - [Choice]: No.
               - **Player:** Hmm, entonces creo que lo dejaré pasar.
-        - (Condition: Si el player no es elegible para jugar por una recompensa:)
+        - (Condition: If the player isn't eligible to play for a reward:)
           - **Captain Jute:** Ya nos has ayudado este mes. Puedes luchar contra las hordas si quieres, pero no puedo recompensarte más. Al menos, no hasta el próximo mes.
           - [Menu]: ¿Todavía quieres luchar contra ellos?
             - [Choice]: Sí.
@@ -203,7 +203,7 @@
 
 - [Menu]: ¿Qué quieres decir?
   - [Choice]: ¿Qué debería estar haciendo?
-  - (Condition: Si pregunta mientras defiende la puerta de entrada:)
+  - (Condition: If asking while defending the gatehouse:)
     - **Captain Jute:** ¡Mata trolls!
   - [Choice]: ¡Quiero irme!
     - **Player:** ¡Quiero irme!
@@ -211,13 +211,13 @@
     - [Menu]: ¿Estás seguro de que quieres irte?
       - [Choice]: Sí.
         - (Player es teletransportado fuera de Troll Invasion)
-        - (Condition: Si realiza una carrera de recompensa:)
+        - (Condition: If doing a reward run:)
           - [Recibes un libro de recompensas.]
-          - (Condition: Si el player estuviera defendiendo la garita:)
-            - (Condition: Si el player no logró ayudar a matar a ningún troll:)
+          - (Condition: If the player was defending the gatehouse:)
+            - (Condition: If the player didn't manage to help kill any trolls:)
               - ¡Esta vez no lograste ayudar a matar a ningún troll!
               - ¡Esta vez no lograste ayudar a matar a ningún troll!
-            - (Condition: Si el player logró ayudar a matar trolls:)
+            - (Condition: If the player did manage to help kill trolls:)
               - {{Transcript missing}}
       - [Choice]: No.
         - **Player:** No.

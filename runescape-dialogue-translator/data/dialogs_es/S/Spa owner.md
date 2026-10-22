@@ -11,7 +11,7 @@
 
 ### Talk to
 
-- (Condition: Al hablar con ella por primera vez:)
+- (Condition: When talking to her for the first time:)
   - **Spa owner:** ¡Solo mírate!
   - **Spa owner:** ¿Cuándo fue la última vez que te detuviste para tomarte un descanso y dejar de ayudar a todos? ¿Cuándo fue la última vez que te pusiste a TI primero?
   - **Spa owner:** Mi madre siempre solía decir 'puedes parar cuando estés muerto'. Bueno, ¡no se equivocó!
@@ -32,17 +32,17 @@
   - Se oye un rugido a lo lejos.
   - **Spa owner:** Oh, eso simplemente no sirve. No podemos tener interrupciones como esa. Lo sé, sacaré mi caja de música. 'Whale Songs of Gielinor Volumen 1' tendrá que ser suficiente.
   - **Spa owner:** Deberías escuchar la pista 7; ¿Sabías que fue grabado en el centro Deep Sea Fishing?
-  - (Condition: Si el player aún no ha construido el spa:)
+  - (Condition: If the player has not built the spa yet:)
     - **Spa owner:** Lo siento querida, pero aún no abrimos. Estoy esperando los suministros de Oo'glog antes de poder abrir el spa, pero ven a verme cuando quieras. Es encantador hablar contigo.
     - (continue|menu)
-  - (Condition: Si el player ha construido el spa previamente:)
+  - (Condition: If the player has built the spa beforehand:)
     - **Spa owner:** Ahora que llegaron mis suministros, estoy listo para comenzar, así que siéntete libre de descansar cuando necesites un descanso.
     - (continue|menu)
-- (Condition: Posteriormente:)
-  - (Condition: Si el player aún no ha construido el spa:)
+- (Condition: Subsequently:)
+  - (Condition: If the player has not built the spa yet:)
     - **Spa owner:** ¡Hola de nuevo! ¿Qué haces todavía corriendo?
     - (continue|menu)
-  - (Condition: Si el player ya construyó el spa:)
+  - (Condition: If the player has already built the spa:)
     - **Spa owner:** ¡Hola de nuevo! ¿Estás aquí para disfrutar del spa?
     - (continue|menu)
 - {{anchor|menu}}[Menú]: Seleccione una opción
@@ -60,28 +60,28 @@
     - (initial)
   - [Choice]: ¿Qué puedo hacer aquí?
     - **Spa owner:** ¡Relájate!
-    - (Condition: Si el player aún no ha construido el spa:)
+    - (Condition: If the player has not built the spa yet:)
       - **Spa owner:** El plan es importar suministros de Oo'glog para abrir un spa aquí. Por supuesto, conseguirlos aquí es más difícil de lo que parece.
       - **Spa owner:** Los trabajadores están muy ocupados, pero si pudieras hablar bien y pedirles que me ayuden a instalarlo, sería fantástico.
       - (initial)
-    - (Condition: Si el player ya construyó el spa:)
+    - (Condition: If the player has already built the spa:)
       - **Spa owner:** ¡Relájate! Todo este spa es para ayudar a todos a encontrar un poco de paz. Estamos viviendo tiempos estresantes. He importado los mejores suministros de Oo'glog y planeo traer un poco de paz y tranquilidad a esta isla.
       - **Spa owner:** Hay tres grupos y cada uno ofrece un efecto potenciador que te ayudará. En primer lugar tenemos el tratamiento con agua salada: esto fortalece las piernas y te permite correr largas distancias.
       - **Spa owner:** Nuestra piscina termal aumentará tu vitalidad y te hará resistente a los venenos. Eso debería ayudarte a protegerte contra esas molestas flores viles, en caso de que tengas algún plan para enfrentarlas.
       - **Spa owner:** Finalmente, tenemos un baño de barro que te ayuda a conectar con tus sentidos primarios. Recomiendo encarecidamente este tratamiento si planeas cazar alguna de esas criaturas grandes y aterradoras de la isla.
       - (initial)
   - [Choice]: ¿Qué beneficios obtengo por ayudar a mejorar el spa?
-    - (Condition: Si el player aún no ha construido el spa:)
+    - (Condition: If the player has not built the spa yet:)
       - **Spa owner:** Si me ayudas a construir el spa, puedo conseguir algunos suministros del continente.
       - **Spa owner:** El principal beneficio que creo que te gustará es que mis sales de relajación entrarán en tu alma. Esto te permitirá ganar más experiencia mientras entrenas a Agility en la isla. También puedo ofrecerle el uso de mis piscinas de spa que ofrecen diversos beneficios.
       - **Spa owner:**Si pueden ayudarme a mejorar completamente mi spa, creo que puedo usar esta isla para modificar las piscinas del spa y hacer que los efectos duren más. ¿Seguramente eso suena atractivo para un aventurero como tú?
       - (initial)
-    - (Condition: Si el player ha construido el spa en el nivel 1 o 2:)
+    - (Condition: If the player has built the spa to tier 1 or 2:)
       - **Spa owner:** Si me ayudas a mejorar el spa, puedo conseguir algunos suministros del continente.
       - **Spa owner:** El principal beneficio que creo que te gustará es que mis sales de relajación entrarán en tu alma. Esto te permitirá ganar más experiencia mientras entrenas a Agility en la isla. También puedo ofrecerle el uso de mis piscinas de spa que ofrecen diversos beneficios.
       - **Spa owner:**Si pueden ayudarme a mejorar completamente mi spa, creo que puedo usar esta isla para modificar las piscinas del spa y hacer que los efectos duren más. ¿Seguramente eso suena atractivo para un aventurero como tú?
       - (initial)
-    - (Condition: Si el player ha construido el spa al nivel 3:)
+    - (Condition: If the player has built the spa to tier 3:)
       - **Spa owner:** El principal beneficio que creo que te gustará es que mis sales de relajación entrarán en tu alma. Esto te permitirá ganar más experiencia mientras entrenas a Agility en la isla.
       - **Spa owner:** También puedo ofrecerte el uso de mis piscinas de spa que ofrecen varios beneficios.
       - **Spa owner:** Finalmente, puedo usar esta isla para modificar las piscinas del spa y hacer que los efectos duren más. ¿Seguramente eso suena atractivo para un aventurero como tú?

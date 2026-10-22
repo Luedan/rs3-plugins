@@ -47,7 +47,7 @@
     - [Menu]: Selecciona una opción
       - [Choice]: Debe haber algo.
         - **Player:** Debe haber algo.
-        - (Condition: Antes de empezar Otra Rebanada de H.A.M.:)
+        - (Condition: Before starting Another Slice of H.A.M.:)
           - **Captain Undak:** Escuché que el jefe Ur-tag y el embajador Aljivar están discutiendo. Supongo que podrías intentar solucionarlo.
       - [Choice]: Adiós.
         - (arriba)

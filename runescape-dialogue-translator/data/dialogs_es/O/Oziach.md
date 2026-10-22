@@ -35,7 +35,7 @@
 #### Diálogo estándar
 
 - **Player:** Buenos días para ti.
-- (Condition: Si el player ha destruido las lámparas de recompensa Dragon Slayer:)
+- (Condition: If the player has destroyed the Dragon Slayer reward lamps:)
   - [Menu]: ¿Quieres reclamar tu lámpara de recompensa de 18,650 [Strength/Defence] XP?<br><br>Tiene un requisito de nivel 40.
     - [Choice]: Cancelar
       - (end)
@@ -117,9 +117,9 @@
   - [Choice]: Aquí tienes
     - **Player:** Aquí tienes.
     - **Oziach:** ¡Increíble! ¡Casi puedes sentirlo palpitar con poder dracónico!
-    - (Condition: Si el player no tiene un escudo anti-dragón con ellos:)
+    - (Condition: If the player does not have an anti-dragon shield with them:)
       - **Oziach:** Ahora, si me traes esto y el escudo anti-aliento de dragón, ¡creo que podría combinarlos en algo bastante especial!
-    - (Condition: Si el player tiene un escudo anti-dragón con ellos:)
+    - (Condition: If the player has an anti-dragon shield with them:)
       - **Oziach:** Ahora, si quieres, podría adjuntar esto a tu escudo anti-aliento de dragón y hacer algo muy especial.
       - **Oziach:** Sin embargo, el escudo no será fácil de manejar; Necesitarás el nivel 70 Defence.
       - **Oziach:** Cobraré 1.250.000 coins por construirlo. ¿Qué dices?
@@ -155,11 +155,11 @@
         - [Choice]: ¡Eso es un poco caro!
           - **Player:**¡Eso es un poco caro!
           - **Oziach:**Sí, lo es. Pero soy un maestro herrero así que creo que puedo cargar lo que quiera. A menos que también tengas el nivel 90 de Smithing, ¡lo cual lo dudo!
-          - (Condition: Si el player no tiene el nivel 90 Smithing:)
+          - (Condition: If the player does not have level 90 Smithing:)
             - **Player:**No, no tengo el nivel 90 de Smithing.
             - **Oziach:**Pensé que no. ¡Soy el maestro herrero de Misthalin! Entonces, ¿te construyo el escudo?
             - (previous)
-          - (Condition: Si el player tiene el nivel 90 Smithing:)
+          - (Condition: If the player has level 90 Smithing:)
             - **Player:**En realidad, tengo el nivel 90 Smithing.
             - **Oziach:**¡Oh! Bueno, entonces supongo que no me necesitas para esto.
 
@@ -178,11 +178,11 @@
 
 #### Cuando se le habla con el rompecabezas resuelto
 
-- (Condition: Si el rastro continúa:)
+- (Condition: If the trail continues:)
   - (removes=the old clue scroll (hard) y caja de rompecabezas) (receives= the new clue scroll (hard))
   - [¡Oziach te ha dado otro pergamino de pistas!]
   - (continue)
-- (Condition: Si el sendero termina:)
+- (Condition: If the trail ends:)
   - (removes=the old clue scroll (hard) y caja de rompecabezas) (receives=reward casket (hard))
   - [¡Has encontrado un ataúd!]
   - (continue)

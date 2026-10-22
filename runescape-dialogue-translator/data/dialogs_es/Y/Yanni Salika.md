@@ -33,35 +33,35 @@
       - [Choice]: ¡Sí, por favor!
         - **Player:** ¡Sí, por favor!
         - **Yanni Salika:** ¡Qué bien Bwana!
-        - (Condition: Si el player tiene la clave ósea:)
+        - (Condition: If the player has the bone key:)
           - **Yanni Salika:** Te daré 100 de oro por la llave de hueso.
           - (continue)
-        - (Condition: Si el player tiene la placa de piedra:)
+        - (Condition: If the player has the stone-plaque:)
           - **Yanni Salika:** Te daré 100 de oro por la placa de piedra.
           - (continue)
-        - (Condition: Si el player tiene el pergamino hecho jirones:)
+        - (Condition: If the player has the tattered scroll:)
           - **Yanni Salika:** Te daré 100 de oro por el pergamino hecho jirones.
           - (continue)
-        - (Condition: Si el player tiene el pergamino arrugado:)
+        - (Condition: If the player has the crumpled scroll:)
           - **Yanni Salika:** Te daré 100 de oro por el pergamino arrugado.
-        - (Condition: Si el player tiene las notas de Bervirius:)
+        - (Condition: If the player has Bervirius's notes:)
           - **Yanni Salika:** Te daré 100 de oro por el pergamino arrugado.
           - (continue)
-        - (Condition: Si el player tiene el cristal de localización:)
+        - (Condition: If the player has the locating crystal:)
           - **Yanni Salika:** Te daré 500 de oro por tu cristal de localización.
           - (continue)
-        - (Condition: Si el player tiene las cuentas de los muertos:)
+        - (Condition: If the player has the beads of the dead:)
           - **Yanni Salika:** Te daré 1000 de oro por tus 'Cuentas de los muertos'.
           - (continue)
         - *(Si el player tiene el prisma negro:)*
           - **Yanni Salika:** Te daré 5000 de oro por tu Prisma Negro.
-        - (Condition: Si el player tiene varios artículos elegibles:)
+        - (Condition: If the player has multiple eligible items:)
           - **Yanni Salika:** Esos son los artículos que me interesan en Bwana.
           - **Yanni Salika:** Si quieres venderme esos artículos, simplemente muéstramelos.
-        - (Condition: Si el player solo tiene un artículo elegible:)
+        - (Condition: If the player only has one eligible item:)
           - **Yanni Salika:** Y ese es el único elemento que me interesa.
           - **Yanni Salika:** Si quieres venderme ese artículo, simplemente muéstramelo.
-        - (Condition: Si el player no tiene artículos elegibles:)
+        - (Condition: If the player has no eligible items:)
           - **Yanni Salika:** Lo siento Bwana, no tienes nada que me interese.
       - [Choice]: ¿Quizás en otro momento?
         - **Player:** ¿Quizás en otro momento?
@@ -73,10 +73,10 @@
         - **Yanni Salika:** Es justo, vuelve si cambias de opinión.
   - [Choice]: ¿Hay algo más interesante que hacer por aquí?
     - (ver|Un pequeño favor)
-- (Condition: Sin la llave de hueso ni el collar de cuentas de los muertos:)
+- (Condition: Without either the bone key or beads of the dead necklace:)
   - [Choice]: ¿Tiene algún artículo interesante a la venta?
     - **Player:** ¿Tiene algún artículo interesante a la venta?
-    - (Condition: Sin la llave de hueso ni Beads of the Dead:)
+    - (Condition: Without both the bone key and Beads of the Dead:)
       - **Yanni Salika:** ¡Tengo un collar de cuentas muy atractivo y una llave inusual!
       - [Menu]: Selecciona una opción
         - [Choice]: Pregunta por el collar.
@@ -104,9 +104,9 @@
             - [Choice]: ¡No gracias, no estoy interesado!
               - **Player:** Hmm, lo siento, no estoy interesado.
               - **Yanni Salika:** Es justo, vuelve si cambias de opinión.
-    - (Condition: Sin las cuentas de los muertos:)
+    - (Condition: Without the beads of the dead:)
       - (continuea|beads)
-    - (Condition: Sin la llave de hueso)
+    - (Condition: Without the bone key)
       - (continuea|bonekey)
 
 #### Uso de elementos en Yanni Salika

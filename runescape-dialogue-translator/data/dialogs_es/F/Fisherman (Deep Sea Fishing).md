@@ -39,7 +39,7 @@
 #### Primera vez durante el incidente
 
 - Compruebas si están bien en el agua.
-- ((Se ve uno de los siguientes y luego continúa a continuación:))
+- ((One of the following is seen, then continues below:))
   - **Player:** {{RSChat|Are you sure you're alright down there?}}
   - **Player:** {{RSChat|Be careful!}}
   - **Player:** {{RSChat|Have a good swim!}}

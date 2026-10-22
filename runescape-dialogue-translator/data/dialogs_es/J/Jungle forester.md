@@ -55,12 +55,12 @@
   - [Choice]: cond=If the player has lost the bull roarer from Legends' Quest|¿Puedo conseguir otro bullroarer{{Sic please?}}?
     - **Player:** ¿Puedo conseguir otro bullroarer{{Sic}}, por favor?
     - **Jungle forester:** Mmmm, ¡lo que tenemos aquí es una oportunidad para comerciar! Tengo un poco de hambre, así que ¿por qué no me traes un delicioso wrap oomlie cocido y hacemos un trato?
-    - (Condition: Si el player tiene un wrap oomlie cocido:)
+    - (Condition: If the player has a cooked oomlie wrap:)
       - **Player:** ¡Tengo uno aquí!
       - **Jungle forester:** ¡Genial! ¡Dámelo entonces!
       - [Cambias el pájaro Oomlie cocido por el rugido{{Sic].}}
       - (removes=cooked oomlie wrap) (receives=Bull roarer)
-    - (Condition: Si el player no tiene wrap oomlie cocido:)
+    - (Condition: If the player does not have a cooked oomlie wrap:)
       - [Menu]: Selecciona una opción
         - [Choice]: ¿Cómo puedo conseguir uno de esos?
           - **Player:** ¿Cómo puedo conseguir uno de esos?
@@ -113,14 +113,14 @@
       - [Choice]: Bueno, gracias.
         - (above|ok-thanks)
   - [Choice]: Acerca del sistema de tareas...
-    - (Condition: Si el player ha completado los logros difíciles de Karamja, pero aún no ha reclamado las recompensas:)
+    - (Condition: If the player has completed the hard Karamja achievements, but not yet claimed the rewards:)
       - **Player:** He realizado todas las tareas difíciles del conjunto Karamja.
       - **Jungle forester:** Hmm, efectivamente. ¡Supongo que querrás una recompensa!
       - **Player:** Sí, por favor.
-      - (Condition: Si el player no tiene guantes Karamja 2 en backpack:)
+      - (Condition: If the player does not have Karamja gloves 2 in backpack:)
         - **Jungle forester:** ¿Cómo puedo encantar tus guantes Karamja con el poder del bosque si no los tienes contigo? Tráeme los guantes Karamja que se obtienen al completar las tareas medianas.
         - (continue|task-system)
-      - (Condition: Si el player tiene guantes Karamja 2 en backpack:)
+      - (Condition: If the player has Karamja gloves 2 in backpack:)
         - El guardabosques toma los guantes Karamja y parece entrar en trance. Se oye un susurro en el bosque; los guantes parecen brillar y luego adquieren un tono verde más oscuro.
         - (removes=Karamja gloves 2) (receives=Karamja gloves 3 and an antique lamp)
         - **Jungle forester:** La bendición que he puesto en estos guantes Karamja es un símbolo de la exploración exhaustiva de la isla que habéis realizado. Además de los beneficios del par anterior, puedes ir a un lugar debajo de Shilo.
@@ -128,17 +128,17 @@
         - **Player:** ¡Vaya, gracias!
         - **Jungle forester:** Si los pierdes, vuelve conmigo para reclamarlos.
         - (continue|task-system)
-    - (Condition: Si el player ha completado los logros de élite de Karamja, pero aún no ha reclamado las recompensas:)
+    - (Condition: If the player has completed the elite Karamja achievements, but not yet claimed the rewards:)
       - {{transcript missing}}
       - (continue|task-system)
-    - (Condition: Si el player ha perdido sus guantes Karamja 3:)
+    - (Condition: If the player has lost their Karamja gloves 3:)
       - **Jungle forester:** Ahh... Te recuerdo, ¿no bendije tus guantes Karamja?
       - **Player:** Sí, pero los perdí.
       - **Jungle forester:** Lo mismo pensé. Toma, toma otro par.
       - [Jungle forester te entrega otro par de guantes.]
       - (receives=Karamja gloves 3)
       - (continue|task-system)
-    - (Condition: Si el player ha perdido sus guantes Karamja 4:)
+    - (Condition: If the player has lost their Karamja gloves 4:)
       - **Jungle forester:** Ahh... Te recuerdo, ¿no bendije tus guantes Karamja?
       - **Player:** Sí, pero los perdí.
       - **Jungle forester:** Lo mismo pensé. Toma, toma otro par.

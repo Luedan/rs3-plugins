@@ -80,9 +80,9 @@
 - [Menu]: Selecciona una opción
   - [Choice]: si
     - {{anchor|ended}} (Acción: el player finaliza su actuación).
-    - (Condition: Si el player anotó puntos en su actuación:)
+    - (Condition: If the player scored points in their performance:)
       - ¡Felicitaciones! Obtuviste una puntuación de [amount] en tu actuación de Firemaking (escupe fuego). Recibiste puntos de experiencia [amount].
-    - (Condition: Si el player no obtuvo puntos en su actuación:)
+    - (Condition: If the player scored no points in their performance:)
       - **Ringmaster:** Lo siento, pero esa actuación no fue lo suficientemente buena para recibir una recompensa. Vuelve a intentarlo la semana que viene.
       - ¡Oh, no! No obtuviste nada en tu actuación de Firemaking (escupe fuego). Recibiste 0 puntos de experiencia.
   - [Choice]: No
@@ -108,13 +108,13 @@
 - **Sera:** Emmet y yo nos enteramos de la celebración y ¡simplemente no pudimos resistirnos a un enorme fuego resplandeciente!
 - **Player:** ¿Qué estás haciendo exactamente?
 - **Sera:** Respiración de fuego, que me ayuda a desahogar mi ira.
-- (Condition: Si la solución para respirar incendios no ha sido reclamada:)
+- (Condition: If the fire breathing solution hasn't been claimed:)
   - **Player:** ¿Puedo intentarlo?
   - (receives=Fire breathing solution)
   - **Sera:** Claro, toma esta solución para respirar fuego. Quién sabe, es posible que incluso tengas un "talento extraordinario" para ello.
   - **Player:** Gracias; ¿Tienes algún consejo?
   - **Sera:** Se trata de una cosa y es asegurarse de respirar profundamente para tener suficiente aire para respirar con la presión correcta.
-- (Condition: Si se ha reclamado la solución para respirar incendios:)
+- (Condition: If the fire breathing solution has been claimed:)
   - **Player:** ¿Tienes más solución para expulsar incendios?
   - **Sera:** Lo siento, no tengo ninguno encima, pero le di algunos suministros a Alice.
   - **Player:** Vale, gracias.

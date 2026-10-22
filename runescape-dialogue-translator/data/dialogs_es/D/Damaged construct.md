@@ -11,11 +11,11 @@
 
 ### Repairing
 
-- (Condition: Si no hay piezas de construcción:)
+- (Condition: If there is not any construct parts:)
   - Necesita algunas piezas de construcción para intentar una reparación.
-- (Condition: Si hay una parte de construcción incorrecta:)
+- (Condition: If there is an incorrect construct part:)
   - (removes=spare construct part)
   - ¡Intentas forzar la pieza, pero no encaja y explota!
-- (Condition: Si hay una parte de construcción correcta:)
+- (Condition: If there is a correct construct part:)
   - (removes=spare construct part)
   - Adjuntas la parte que falta a la construcción.

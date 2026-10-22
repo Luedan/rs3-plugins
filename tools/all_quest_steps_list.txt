@@ -1,0 +1,394 @@
+(Kneel before Saradomin.)
+(Loot Sir Owen's corpse.)
+(Remain standing.)
+A ghost is haunting his graveyard.
+A glass of your finest ale please.
+A mighty warrior.
+Accept Quest
+Accept quest
+Alright.
+An Observatory?
+And how is life as a squire?
+And what is it you need done
+Any idea how to get into the castle?
+Anything I can do to help?
+Anything I can help with?
+Are you Dr Harlow, the famous vampyre slayer?
+Are you suggesting I cannot handle a mere knight of Saradomin?
+Ashdale by night
+Ask about A Shadow over Ashdale.
+Ask about Biohazard.
+Ask about Saradominist wizards
+Ask about teleportation
+Ask about the elves
+Ask about the murdered elf
+Ask about the outpost.
+Ask about the slaughtered monks
+Ask about the white hare meat.
+At least you got out before Christmas.
+Boric, tell Doric about your graduation.
+Boric, tell Doric what you think about kittens.
+Bowloftrix has been kidnapped by trolls!
+Break the door down.
+By all the deities, what is going on here
+Call for help
+Can I buy one of your fishing rods?
+Can I buy some Climbing boots?
+Can I get a job here?
+Can I have a look at it
+Can I help at all?
+Can I journey on this ship?
+Can you put everything back to how it was originally?
+Can you put some fresh spikes on these climbing boots for me?
+Can you take me to the island of Ashdale?
+Can you tell me where I can find the Phoenix Gang
+Chat
+Chat.
+Climb down the stairs.
+Come with me, I shall make you a king.
+Confirm
+Continue.
+Conversion, eh
+Could you offer me employment on your plantation?
+Could you return it to the original sand pattern, please?
+Devious Minds.
+Discuss Civil War II.
+Do nothing
+Do you have a better idea?
+Do you have a quest for me?
+Do you have any quests for me?
+Do you have anything useful?
+Do you know where I can find the Black Arm Gang hideout
+Do you know where I can find the Phoenix Gang
+Do you recognise this thread?
+Don't worry, I'll help you.
+Don't worry, Ilona, I'm here to rescue you.
+Don't you know how you got here?
+Don't you know what will happen if you use the wand?
+Doric sent me here with these weapons.
+Enter.
+Father Aereck sent me to talk to you.
+Fire
+General
+Get to the point
+Give me the wand or you won't live to regret it.
+Go Back
+Go ahead
+Go down the ladder.
+Go downstairs anyway.
+Go on an adventure
+Go up the ladder.
+Goodbye.
+Grasp for the rock
+Grass
+Greet the king.
+Guthix wanted me to protect the world from gods like you.
+He is my prisoner.
+He saw a very tall, dark, hooded figure escaping
+He saw an elf heading east along the path
+Hi, I'm looking for a woman from East Ardougne
+How can I get into the old tower?
+How can I help?
+How can a god be invirtuous?
+How can we help out?
+How did the Kinshra capture you?
+How do we find the HQ
+How does it fit in a shed, then?
+How goes your fight with the trolls?
+I accept your challenge!
+I am bringing him to the tallest tower.
+I am ready for you to operate the levers
+I am ready to be judged.
+I am. What's our plan?
+I can make a new sword if you like...
+I don't understand...
+I fear not a mere plague
+I fight to protect the innocent.
+I guess I have one of those faces.
+I have good news for you.
+I have this big fish. Is it enough to win?
+I know all I need
+I know who did it!
+I know who you are!
+I lost the poem
+I made the giant wolpertinger pouch!
+I need help with fighting a Tanglefoot
+I need permission to enter a plague house
+I need to ask you something about the quest...
+I need to retrieve Betty's wand.
+I need to speak with you
+I remember him.
+I shall return after I deal with this Temple Knight.
+I shall sacrifice my own blood.
+I should be immune to god magic!
+I stand by you, Saradomin.
+I suppose so, how do I get there?
+I think I had better go.
+I think I've found all the clues
+I think I've had enough
+I think somebody else did this
+I want to come through this gate.
+I want to continue to the citadel
+I was asking you about fighting a Tanglefoot
+I was told by Brother Samwell
+I was wondering what was down that tunnel?
+I will find the warlord and bring back the orbs.
+I will give you the wand.
+I will go searching.
+I wish I could have seen it.
+I'd like a Khali brew, please.
+I'd like to go back to Draynor, please.
+I'd like to go to Brimhaven.
+I'd like to talk about something else.
+I'd like to talk about the caper
+I'd love to.
+I'll be going now.
+I'll beat the truth out of him
+I'll enter the competition please.
+I'll get on it.
+I'll help you.
+I'll see you soon
+I'll take my chances.
+I'll try my best.
+I'm afraid I've lost some of the stuff that you gave me...
+I'm after important answers.
+I'm an adventurer.
+I'm doing Alfred Grimhand's Barcrawl.
+I'm doing Alfred Grimhand's barcrawl.
+I'm doing Alfred Grimhands Barcrawl.
+I'm going to look around.
+I'm here to save Waylan.
+I'm in search of a quest
+I'm in search of adventure!
+I'm in search of treasure
+I'm looking for a quest!
+I'm looking for a quest.
+I'm looking for work.
+I'm making us a bridge.
+I'm not killing you. Give me your stuff and get out of here.
+I'm not killing you. Just give me your stuff and get out of here.
+I'm ready
+I'm ready for my reward.
+I'm ready to be tested.
+I'm ready.
+I'm the one who defeated your lackeys. Think you can do better?
+I'm your worst nightmare, Zamorakian scum!
+I've been sent to look for a route to Death Plateau. Can you help?
+I've come to ask your assistance in stopping a plague.
+I've got the key to the ruins.
+I've heard you're the Black Arm Gang
+I've made my decision.
+I've stirred the cauldron for you.
+If I had raised him, this would not have happened.
+Investigate arms
+Investigate torso
+Is everyone who dies trapped now?
+Is there a reward?
+Is there any way I could help?
+Is there anything else I can help with?
+It's a deal.
+It's a nice village, but where is everyone?
+It's okay, I can help you
+It's such a pity you couldn't help me. Maybe I'll visit the library.
+Jorral and the outpost
+Knock at the door.
+Lasso a nearby
+Let Sliske carry on with his show
+Let me in or I'll poke your eyes out
+Let's get down to business
+Let's keep going.
+Let's take her with us.
+Listen to the trapped soul
+Lunch.
+Mix red and yellow dyes
+Never mind the history, what does that mean for us?
+Nice chalice
+No, I have something...special planned for him.
+No, she liked the ring
+No.
+No. Just give me your stuff and get out of here.
+Nod your head
+Now that I think about it, you're right!
+OK, I'll do that now.
+OK.
+Of course I could.
+Of course!
+Oh, alright, then.
+Oh? Tell me more!
+Ok thanks, I'll go and get it
+Ok, I'll gather some wood.
+Ok, lets do it.
+Okay then
+Okay, I trust your judgement
+Okay, I'll deal with this!
+Okay, I'll do that now.
+Okay, I'll see what I can do
+Okay, so what do we do?
+Okay, what should we do now?
+Okay.
+Oo, something smells rather...interesting!
+Persuade him
+Pick up the grimoire.
+Place Sand.
+Place Shadow.
+Place Water.
+Prepare to die, troll!
+Pressure
+Pull the key free?
+Reach for the cactus
+Read the grimoire.
+Replace the candle.
+Roald sent me to check on Drezel.
+Saradomin clearly cares nothing for his followers.
+Saradomin must have had a good reason...
+Sign me up!
+Silver Button
+So how is life for the goblins?
+So would these dwarves make another one?
+So, when are you going to deliver this crate?
+So...do you know anywhere good to explore?
+Some archaeologists asked me to deliver some artefacts
+Something else.
+Squishy
+Stand aside. I will handle this.
+Stop wasting my time
+Sure thing, what do you need?
+Sure, I can do that for you.
+Take Shadow
+Take the key?
+Take their bags
+Take water
+Talk about 'Visions of Havenhythe'
+Talk about All Fired Up.
+Talk about Jack of Spades
+Talk about Once Upon a Slime
+Talk about Priest in Peril.
+Talk about Rag and Bone Man.
+Talk about Scorpion Catcher.
+Talk about Swept Away.
+Talk about farming problems
+Talk about something else.
+Talk about the Observatory Quest.
+Talk about the Shield of Arrav
+Talk to Betty about Swept Away.
+Tell me of this quest.
+Tell me what jobs you have in the works
+The Battleaxe
+The Maul
+The Outpost
+The Spear
+The Stone
+The Sword
+The clues are too convenient
+The prisoner stays with me.
+The war was necessary for Saradomin to achieve peace.
+The who with the what now?
+They won't listen to me
+This is really important though
+This is why the gods must be stopped.
+This prisoner is to be sacrificed.
+Threaten him
+Threw the ball
+Time for you to die!
+To go on an adventure.
+Try to disarm it.
+Use the chalk to repair the magic circle.
+Violet is Blue Too.
+Visions of Havenhythe
+Wait, don't kill her!
+We make a good team
+We must trust that Saradomin leads us into darkness to test our faith.
+We must, Death needs our help
+We need her to escape.
+We need him to recover the weapon of power, as you know.
+We should find out all we can.
+We should keep our minds on the job.
+We should talk to Lucille.
+We're not on an island.
+Well can I join your order?
+Well, that is a risk I will have to take.
+Were we too late?
+What are you doing down here
+What assistance do you need?
+What can I do to help?
+What can you tell me about this place?
+What do we do now
+What do you know about the Imcando dwarves?
+What do you mean, the key lies in understanding Water Surge?
+What do you need
+What do you want me to do?
+What do you want me to engrave
+What do you want, maggot?
+What happened to them?
+What happens next?
+What has happened to Sir Owen?
+What help do you need?
+What news
+What now?
+What should we do now
+What should we do now?
+What should we do?
+What terrible threat
+What will make you tell me?
+What you're talking about isn't real.
+What's happened to Death?
+What's happened to her
+What's happening here?
+What's the matter?
+What's wrong?
+Where are we?
+Where's the Fairy Queen
+Who did you sell Poison to at the house?
+Who do you think was responsible?
+Who's Saint Elspeth?
+Who?
+Why are you camped out here?
+Why are you here
+Why can't you sleep?
+Why does this concern you?
+Why steal from those people
+Why would you help us?
+Will you take me there?
+Would you like some redberry pie?
+Would you sell me that bottle of special kebab sauce
+YOU'VE CAPTURED A HUMAN GIRL!
+Yeah, I know all about it
+Yep, got it right here for you.
+Yep. Now, tell me what the problem is.
+Yes
+Yes I do.
+Yes please.
+Yes!
+Yes, I have them here.
+Yes, I'd be happy to!
+Yes, I'll enter the cave.
+Yes, I'll give it a go.
+Yes, I'm ready to go now.
+Yes, enter the portal.
+Yes, final answer
+Yes, it might be useful
+Yes, it's inspiring.
+Yes, let's go
+Yes, okay, I'm ready to go.
+Yes, please, a teleport would be useful.
+Yes, please.
+Yes, rescue Ilona.
+Yes, teleport us to the Black Knights' Fortress.
+Yes.
+Yes. Here you go.
+Yes. Now die!
+You do know, though?
+You don't look too well.
+You give him the vial of ethenea...
+You give him the vial of liquid honey...
+You give him the vial of sulphuric broline...
+You have been stealing the souls of villagers.
+You mean the rumour about Water Surge?
+You're a monster, Saradomin.
+You're right, we don't.
+You're right. We can't jeopardise the mission.
+[Accept Quest]
+come out perfectly
+here about a gold ring
+learn to fly
+sure that's not true

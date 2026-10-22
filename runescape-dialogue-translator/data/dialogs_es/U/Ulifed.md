@@ -32,16 +32,16 @@
     - **Ulifed:** Si completas esto, te daré: Anillo de forja x 5. ¡Estoy seguro de que también ganarás reputación en el gremio de agricultores!
     - **Ulifed:** ¡Tendrás que ser rápido! Solo estoy aquí por [número] horas y [número] minutos. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - ((Sin los artículos solicitados:))
+    - ((Without the requested items:))
       - **Ulifed:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Ulifed:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **Ulifed:** También estoy buscando un nuevo animal, actualmente estoy buscando A [animal]
-    - ((Con los artículos solicitados:))
+    - ((With the requested items:))
       - (removes=the requested items) (receives=five rings of forging and possibly a Brassica primer)
-      - ((Si se premió una imprimación de Brassica:))
+      - ((If a Brassica primer was rewarded:))
         - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-        - ((Repetido en una ventana emergente:))
-          - (Ventana emergente: por completar esta solicitud, recibió 1 imprimación para Brassica.|color=#EBE0BC)
+        - ((Repeated in a pop-up:))
+          - (Pop-up: For completing this request you've received Brassica primer x 1.|color=#EBE0BC)
           - (continue)
       - [Has recibido: Anillo de forja x 5<br>Y 2750 de reputación agrícola.]
 
@@ -65,10 +65,10 @@
 ##### Con artículos solicitados
 
 - (removes=the requested items) (receives=five rings of forging and possibly a Brassica primer)
-- ((Si se premió una imprimación de Brassica:))
+- ((If a Brassica primer was rewarded:))
   - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-  - ((Repetido en una ventana emergente:))
-    - (Ventana emergente: por completar esta solicitud, recibió 1 imprimación para Brassica.|color=#EBE0BC)
+  - ((Repeated in a pop-up:))
+    - (Pop-up: For completing this request you've received Brassica primer x 1.|color=#EBE0BC)
     - (continue)
 - [Has recibido: Anillo de forja x 5<br>Y 2750 de reputación agrícola.]
 

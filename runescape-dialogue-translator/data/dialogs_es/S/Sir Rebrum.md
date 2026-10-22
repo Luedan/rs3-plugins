@@ -43,15 +43,15 @@
     - **Sir Rebrum:** ¡Muy impresionante! Continúe entonces.
   - [Choice]: *(Después de Song from the Depths, si el player ha destruido su ballesta de coral:)* ¿Habrías encontrado una ballesta de coral?
     - **Sir Rebrum:** ¡Sí, sí! The Raptor pasó antes. Dijo que podrías necesitarlo.
-    - (Condition: Si el player no tiene al menos un espacio backpack libre:)
+    - (Condition: If the player does not have at least one free backpack space:)
       - **Sir Rebrum:** Vuelve cuando estés menos agobiado y te lo daré.
-    - (Condition: Si el player tiene al menos un espacio backpack libre:)
+    - (Condition: If the player has at least one free backpack space:)
       - (receives=coral crossbow)
       - [Recibes la ballesta de coral.]
   - [Choice]: *(Después de Song from the Depths, si el player ha destruido el collar de Remora:)* ¿Supongo que no habrás visto un collar tirado por ahí?
     - **Sir Rebrum:** ¡Sí, sí! The Raptor pasó antes. Dijo que podrías necesitarlo.
-    - (Condition: Si el player no tiene al menos un espacio backpack libre:)
+    - (Condition: If the player does not have at least one free backpack space:)
       - (above|come-back)
-    - (Condition: Si el player tiene al menos un espacio backpack libre:)
+    - (Condition: If the player has at least one free backpack space:)
       - (receives=Remora's necklace)
       - [Recibes el collar de la sirena.]

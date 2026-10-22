@@ -16,9 +16,9 @@
 - [Menu]: Selecciona una opción
   - [Choice]: ¡Ilona! ¿Cómo estás? {{anchor|how-are-you}}
     - **Mago Ilona:** ¡Aprobé mi aprendizaje! Soy un mago ahora.
-    - (Condition: Si los cultistas se salvaron durante la misión El Pacto Sangriento:)
+    - (Condition: If the cultists were spared during The Blood Pact quest:)
       - **Mago Ilona:** Estoy estudiando hechizos para aturdir y vincular. Si vuelvo a pelear, quiero poder desactivar a los enemigos sin matarlos, como hiciste con esos cultistas.
-    - (Condition: Si los cultistas fueron asesinados durante la misión El Pacto Sangriento:)
+    - (Condition: If the cultists were killed during The Blood Pact quest:)
       - **Mago Ilona:** Estoy estudiando hechizos de batalla elementales. No soy una persona violenta, pero... después de que tuviste que matar a esos cultistas para rescatarme, me hizo darme cuenta de que tengo que poder defenderme.
   - [Choice]: Perdón, ¿quién eres?
     - **Mago Ilona:** ¿No me recuerdas? Supongo que debes rescatar a muchas chicas de los malvados cultistas. No puedo esperar que los recuerdes todos.

@@ -22,9 +22,9 @@
     - **Velrak the explorer:** ¿Te gustaría intentarlo?
     - [Menu]: Selecciona una opción
       - [Choice]: ¡Sí, por favor!
-        - (Condition: Sin espacio en backpack:)
+        - (Condition: Without space in backpack:)
           - **Velrak the explorer:** Te daría la clave, pero tu backpack está lleno.
-        - (Condition: Con espacio en backpack:)
+        - (Condition: With space in backpack:)
           - (receives=dusty key)
           - [Velrak llega a algún lugar misterioso y te pasa una llave.]
           - (initial)
@@ -49,7 +49,7 @@
 - **Velrak the explorer:** Estuve atrapado tanto tiempo en esa mazmorra de Kinshra que había olvidado lo colorido y brillante que es Taverley. ¡Huela ese aire fresco!
 - **Player:** Realmente no estás tan fresco como crees. Quizás sea hora de darse un baño.
 - **Velrak the explorer:** Sí, sí. Pronto. Primero quiero contemplar por un momento el resplandeciente esplendor del río Taverley.
-- (Condition: Si el player ha perdido la llave polvorienta:)
+- (Condition: If the player has lost the dusty key:)
   - **Player:**Oye, ¿recuerdas esa llave polvorienta que me diste?
   - **Velrak the explorer:** ¿Sí?
   - **Player:**Lo perdí.
@@ -60,8 +60,8 @@
   - **Velrak the explorer:** Vaya. ¿De verdad crees que otras personas no tienen nada mejor que hacer que ocuparse de ti? Tu narcisismo se está mostrando.
   - **Velrak the explorer:** Ya es bastante malo que ni siquiera te molestes en conservar los regalos que te damos. ¿De verdad crees que el mundo gira a tu alrededor?
   - **Player:**Mira, solo revisa tus bolsillos. Confía en mí.
-  - (Condition: Sin espacio en backpack:)
+  - (Condition: Without space in backpack:)
     - **Velrak the explorer:** Revisas tus bolsillos. Ni siquiera tienes suficiente espacio en tu backpack para guardar una llave.
-  - (Condition: Con espacio en backpack:)
+  - (Condition: With space in backpack:)
     - (receives=dusty key)
     - [Velrak se palpa y saca una llave polvorienta. Parpadea sorprendido y te lo entrega, desconcertado.]

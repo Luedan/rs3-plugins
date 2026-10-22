@@ -17,7 +17,7 @@
   - No gracias.
     - **Player:** No, gracias.
     - **Bart:** Estaré aquí toda la noche.
-  - ((Solo si se ha completado el Barco del Heraldo:))
+  - ((Only if Vessel of the Harbringer has been completed:))
     - ¿Vendes té de ortiga?
       - **Player:** ¿Venden té de ortiga?
       - **Bart:** ¿Té de ortiga? Apuesto a que Netty ha estado hablando hasta el cansancio al respecto.

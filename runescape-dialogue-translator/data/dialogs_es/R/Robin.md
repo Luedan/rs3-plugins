@@ -15,7 +15,7 @@
   - [Choice]: Acerca del sistema de tareas...
     - (abajo)
   - [Choice]: Habla de otra cosa.
-    - (Condition: Si el player no tiene sábana:)
+    - (Condition: If the player doesn't have a bedsheet:)
       - **Player:** Es agradable ver otro rostro humano por aquí.
       - **Robin:** Déjame en paz, campesino, me estoy relajando.
       - **Player:** Bueno, ¡eso es genial!
@@ -33,7 +33,7 @@
         - [Choice]: Ve y consíguelo tú mismo.
           - **Player:** Ve y consíguelo tú mismo.
           - **Robin:** Oh, encantador. Simplemente no puedes conseguir el staff en estos días.
-    - (Condition: Si el player tiene sábana:)
+    - (Condition: If the player has a bedsheet:)
       - **Player:** Te he traído una sábana limpia, Robin.
       - (removes=bedsheet)
       - **Robin:** Bueno, ya era hora. Corre ahora, necesito algo de tiempo Robin.
@@ -42,7 +42,7 @@
 
 - [Menu]: Elige una opción:
   - [Choice]: Acerca del sistema de tareas...
-    - ((Si el player ha completado los logros medios de Morytania y no se han reclamado las recompensas:))
+    - ((If the player has completed the medium Morytania achievements and the rewards have not been claimed:))
       - **Player:** He completado todas las tareas medianas del conjunto Morytania.
       - **Robin:** Así que sí. Tengo unos leggings especiales reservados para ti.
       - [Robin te entrega un par de mallas y una lámpara.]
@@ -52,7 +52,7 @@
       - **Robin:** Parece que me gusta, y te cambiaré los huesos por harina de huesos, ya que hice un trato con alguien y parece que tengo bastante.
       - **Robin:** Además de eso, hay algunos cofres de almacenamiento en Mort'ton, cerca de las piras funerarias. A partir de ahora, podrás almacenar cualquier tipo de tronco de pira en ellos.
       - (continue)
-    - (Condition: Si el player ha perdido sus piernas Morytania 2:)
+    - (Condition: If the player has lost their Morytania legs 2:)
       - **Robin:** ¡Ah, el que usa calzas! ¿Cómo los estás encontrando?
       - **Player:** Los perdí.
       - **Robin:** ¡Oh, no!

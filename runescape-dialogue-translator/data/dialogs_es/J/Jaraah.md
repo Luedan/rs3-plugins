@@ -15,10 +15,10 @@
 - **Jaraah:** ¿Qué? ¿No ves que estoy ocupado?
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Puedes curarme?
-    - ((Antes de la destrucción de Duel Arena:))
+    - ((Before the destruction of Duel Arena:))
       - **Jaraah:** Está bien. Esto te hará más daño a ti que a mí.
       - (continue)
-    - ((Después de la destrucción de Duel Arena:))
+    - ((After the destruction of Duel Arena:))
       - **Player:** ¿Puedes curarme?
       - **Jaraah:** Estas instalaciones no son ideales para un hospital, pero puedo hacer que funcionen.
       - **Jaraah:** Está bien. Esto te dolerá más a ti que a mí.
@@ -36,12 +36,12 @@
     - **Jaraah:** ¿En mi tiempo en Duel Arena? Ciertamente, fue un asunto espantoso.
     - **Jaraah:** Pero ahora que la arena se ha hundido nuevamente en el desierto, las cosas están un poco mejor.
   - [Choice]: ¿Por qué te llaman 'El Carnicero'?
-    - ((Antes de la destrucción de Duel Arena:))
+    - ((Before the destruction of Duel Arena:))
       - **Jaraah:** ¿'El Carnicero'?
       - **Jaraah:** ¡Ja!
       - **Jaraah:** ¿Quieres que te lo demuestre?
       - **Player:** Er... Lo dejaré pasar, gracias.
-    - ((Después de la destrucción de Duel Arena:))
+    - ((After the destruction of Duel Arena:))
       - **Player:** ¿Por qué te llaman 'El Carnicero'?
       - **Jaraah:** ¿'El Carnicero'?
       - **Jaraah:** ¡Ja!
@@ -56,9 +56,9 @@
 
 - **Jaraah:** ¡Aquí! ¡Ahora tengo trabajo que hacer!
 - (removes=the old clue scroll (medium))
-- ((Si el rastro continúa:))
+- ((If the trail continues:))
   - (receives=a new clue scroll (medium))
   - [¡Jaraah te ha dado otro pergamino de pistas!]
-- ((Si el sendero termina:))
+- ((If the trail ends:))
   - (receives=reward casket (medium))
   - [¡Has encontrado un ataúd!]

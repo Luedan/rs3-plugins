@@ -32,19 +32,19 @@
             - (Salir del diálogo.)
       - [Choice]: Necesito otra tarea.
         - **Player:** Necesito otra tarea.
-        - (Condition: Si el player no tiene el skill levels requerido:)
+        - (Condition: If the player does not have the required skill levels:)
           - **Morvran:** Lo siento, pero no eres lo suficientemente fuerte para que yo te enseñe. Hazte más fuerte. Tu mejor trainer sería [slayer master] en [location].
           - Debes tener al menos el nivel 120 en Combate y el nivel 85 en Slayer para entrenar con este Slayer Master.
-        - (Condition: Si actualmente está en una nueva asignación de Slayer:)
+        - (Condition: If currently on a new Slayer assignment:)
           - **Morvran:** Ya estás en una tarea perfectamente buena. ¿Qué más quieres?
-        - (Condition: Si actualmente está en una asignación Slayer usada:)
+        - (Condition: If currently on a used Slayer assignment:)
           - **Morvran:** Todavía estás cazando a [assigned monster]; Vuelve cuando hayas terminado tu tarea.
           - (Salir del diálogo.)
-        - (Condition: Si actualmente estás en el desafío Slayer de Morvran:)
+        - (Condition: If currently on Morvran's Slayer challenge:)
           - **Morvran:** Aún debes completar mi desafío antes de que pueda asignarte otra tarea.
           - **Player:** ¿Qué querías que hiciera otra vez?
           - **Morvran:** Necesito que reúnas diez cristales oscuros de varios monstruos famosos. Para que su corrupción se muestre, debes hacerlo solo.
-        - (Condition: Si no está actualmente en una tarea y en un desafío por primera vez:)
+        - (Condition: If not currently on an assignment and first time challenge:)
           - **Morvran:** ¿Te gustaría un desafío especial esta vez, en lugar de una tarea normal?
             - Muy bien, acepto tu desafío.
               - **Morvran:** Muy bien.
@@ -56,13 +56,13 @@
             - No y por favor no me vuelvas a preguntar.
               - {{Transcript missing}}
       - [Choice]: cond=If not first time challenge task:|¿Tienes alguna tarea especial para mí?
-        - (Condition: Si ya está en la asignación Slayer:)
+        - (Condition: If already on Slayer assignment:)
           - **Morvran:** Ya estás en una tarea perfectamente buena. ¿Qué más quieres?
             - *(Vuelve a las opciones anteriores.)*
-        - (Condition: Si ya estás en el desafío Slayer de Morvran:)
+        - (Condition: If already on Morvran's Slayer challenge:)
           - **Morvran:** Ya estás haciendo un desafío especial para mí. ¿Qué más quieres?
             - *(Vuelve a las opciones iniciales)*
-        - (Condition: Si no está en la asignación Slayer:)
+        - (Condition: If not on Slayer asssignment:)
           - **Player:** ¿Tienes alguna tarea especial para mí?
           - **Morvran:** Tengo un desafío especial que he estado reservando para estudiantes más capaces... pero tal vez podrías usar algunos de tus puntos de cazador para persuadirme.
           - He oído decir que algunos pequeños fragmentos de Seren han llegado a zonas de gran conflicto.  Temo que este conflicto pueda corromper esos fragmentos.
@@ -155,10 +155,10 @@
         - **Player:** ¿Con qué fin?
         - **Morvran:** ¡Un desafío, pero solo para los cazadores más selectos!
         - **Player:** ¿Puedo entrar ahí?
-        - (Condition: Si aún no tienes el skill levels requerido:)
+        - (Condition: If you do not yet have the required skill levels:)
           - **Morvran:** No. No eres digno de mi tiempo.
           - Necesitas 85 Slayer para acceder a la arena de Morvran.
-        - (Condition: De lo contrario:)
+        - (Condition: Otherwise:)
           - **Morvran:** Sí. Disfrutaré viéndote pelear... pero no me aburras o podría reconsiderarlo.
           - **Player:** Entonces, ¿cuál es el desafío?
           - **Morvran:** Te arrojaré una serie de criaturas en cada ronda; Tienes diez minutos para completar tantas rondas como puedas.
@@ -174,12 +174,12 @@
         - (initial|talkto)
   - [Choice]: ¿Puedo usar tu mazmorra?
     - **Player:** ¿Puedo usar tu mazmorra?
-    - (Condition: Sin tener el skill levels requerido:)
+    - (Condition: Without having the required skill levels:)
       - **Morvran:** No lo creo. No tienes la habilidad suficiente para entrar a mi mazmorra.
       - Necesitas 85 Slayer para ingresar a la arena Rush of Blood de Morvran.
-    - (Condition: Habiendo completado ya el desafío esta semana:)
+    - (Condition: Having already completed the challenge this week:)
       - {{Transcript missing}}
-    - (Condition: De lo contrario:)
+    - (Condition: Otherwise:)
       - **Morvran:** No has intentado mi desafío en lo que va de esta semana. Estaré observando esta vez, así que prepárate para impresionarme.
       - **Morvran:** ¿A menos que prefieras hacer solo una "prueba" por ahora?
       - [Menu]: ¿Realizar una recompensa o una prueba?
@@ -191,36 +191,36 @@
           - (continue)
       - [Menu]: ¿Qué nivel de desafío te gustaría?
         - [Choice]: Bronce (85 Slayer).
-          - (Condition: Si la opción está tachada:)
+          - (Condition: If the option is struck through:)
             - **Morvran:** Aún no eres elegible para el desafío Bronce.
             - **Morvran:** Necesito saber que puedes matar a vampyres primero.
             - Para intentar el desafío Bronce se requieren 85 Slayer y completar la misión Legacy of Seergaze.
             - (previous)
-          - (Condition: Si la opción no está tachada:)
+          - (Condition: If the option is not struck through:)
             - {{Tmissing}}
         - [Choice]: Plata (90 Slayer).
-          - (Condition: Si la opción está tachada:)
+          - (Condition: If the option is struck through:)
             - **Morvran:** Aún no eres elegible para el desafío Plata.
             - Para intentar el desafío Plata se requieren 90 Slayer y completar la misión Legacy of Seergaze.
             - (previous)
-          - (Condition: Si la opción no está tachada:)
+          - (Condition: If the option is not struck through:)
             - {{Tmissing}}
         - [Choice]: Oro (95 Slayer).
-          - (Condition: Si la opción está tachada:)
+          - (Condition: If the option is struck through:)
             - **Morvran:** Aún no eres elegible para el desafío Gold.
             - **Morvran:** Primero necesito saber que eres un cazador experimentado de vyres, dagannoth y TokHaar.
             - Para intentar el desafío Gold se requieren 95 Slayer, 90 Dungeoneering y completar las misiones Blood Runs Deep, Branches of Darkmeyer, Ritual of the Mahjarrat, The Chosen Commander, The Elder Kiln, The Firemaker's Curse y The Void Stares Back.
             - (previous)
-          - (Condition: Si la opción no está tachada:)
+          - (Condition: If the option is not struck through:)
             - {{Tmissing}}
         - [Choice]: Platino (99 Slayer).
-          - (Condition: Si la opción está tachada:)
+          - (Condition: If the option is struck through:)
             - **Morvran:** Aún no eres elegible para el desafío Platino.
             - **Morvran:** Necesito saber que primero puedes encargarte de algunas de las criaturas asesinas más duras que existen.
             - Para intentar el desafío Platnium se requieren 99 Slayer, 90 Dungeoneering y completar Branches of Darkmeyer, Fate of the Gods, One of a Kind, Ritual of the Mahjarrat, The Chosen Commander, The Firemaker's Curse, The Void Stares Back, The World Wakes y While Guthix Sleeps.
             - misiones.
             - (previous)
-          - (Condition: Si la opción no está tachada:)
+          - (Condition: If the option is not struck through:)
             - {{Tmissing}}
         - [Choice]: ¿Cuál es la diferencia?
             - **Morvran:** ¿Cuál es la diferencia? ¿Cuál crees que sería la diferencia? Se vuelven más difíciles, obviamente.

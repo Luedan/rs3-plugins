@@ -16,7 +16,7 @@
 
 - No tienes una herramienta aterradora para asustar a este enemigo.
 - (ventana emergente)
-  - (Ventana emergente: No tienes una herramienta aterradora para asustar a este enemigo.|advertencia=yes)
+  - (Pop-up: You don't have a spooking tool to spook this enemy with.|warning=yes)
 
 #### Con un garrote de hueso
 
@@ -30,7 +30,7 @@
 
 - No tienes una herramienta aterradora para asustar a este enemigo.
 - (ventana emergente)
-  - (Ventana emergente: No tienes una herramienta aterradora para asustar a este enemigo.|advertencia=yes)
+  - (Pop-up: You don't have a spooking tool to spook this enemy with.|warning=yes)
 
 #### Con un dardo de hueso de piedra lunar.
 

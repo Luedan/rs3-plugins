@@ -11,34 +11,34 @@
 
 ### Before completing golden mining suit
 
-- (Condition: Si no llevas ninguna pieza del traje minero dorado:)
+- (Condition: If not wearing any golden mining outfit pieces:)
   - **Liquid Gold Nymph:** Oh, cariño, ese traje que llevas es tan TRESÍ. ¿No preferirías usar algo ELEGANTE y DORADO?
   - (continue)
-- (Condition: Si usas una pieza del traje minero dorado:)
+- (Condition: If wearing one piece of the golden mining outfit:)
   - **Liquid Gold Nymph:** Llevas un PEQUEÑO dorado... Supongo que es un COMIENZO. ¿Quieres otra pieza del outfit?
   - (continue)
-- (Condition: Si usas dos piezas del traje minero dorado:)
+- (Condition: If wearing two pieces of the golden mining outfit:)
   - **Liquid Gold Nymph:** ¡Necesitas más oro, cariño! ¡Más ORO! Aquí tengo otra pieza del conjunto para ti.
   - (continue)
-- (Condition: Si usas tres piezas del traje minero dorado:)
+- (Condition: If wearing three pieces of the golden mining outfit:)
   - **Liquid Gold Nymph:** ¡Estás empezando a lucir bien, cariño! ¡Deberías agregar más piezas al conjunto dorado! ¿Quieres otro?
   - (continue)
-- (Condition: Si usas cuatro piezas del traje minero dorado:)
+- (Condition: If wearing four pieces of the golden mining outfit:)
   - **Liquid Gold Nymph:** Oh, te ves MUY bien DE VERDAD. Aunque creo que sólo falta una cosa más. ¿Quieres la pieza final?
   - (continue)
 - [Menu]: Selecciona una opción
   - [Choice]: ¡Sí, por favor!
     - **Player** ¡Sí, por favor!
-    - (Condition: Si le das a el player los guantes dorados:)
+    - (Condition: If giving the player the golden gloves:)
       - [El Liquid Gold Nymph te regala un par de guantes dorados.]
       - (receives=golden mining gloves)
-    - (Condition: Si le das a el player las botas doradas:)
+    - (Condition: If giving the player the golden boots:)
       - [El Liquid Gold Nymph te regala un par de botas doradas.]
       - (receives=golden mining boots)
-    - (Condition: Si le das a el player los pantalones dorados:)
+    - (Condition: If giving the player the golden trousers:)
       - [El Liquid Gold Nymph te regala un conjunto de pantalones dorados.]
       - (receives=golden mining trousers)
-    - (Condition: Si le das a el player otros artículos del atuendo dorado:)
+    - (Condition: If giving the player other golden outfit items:)
       - El Liquid Gold Nymph te ofrece un [item name] dorado.
       - (receives=golden mining item)
   - [Choice]: No, gracias.
@@ -48,7 +48,7 @@
     - **Player** ¿Puedo usar la armadura Varrock con el traje dorado?
     - **Liquid Gold Nymph:** ¡Sí! La armadura dorada se ve MUCHO mejor cuando usas el conjunto completo, así que he hecho un arreglo especial...
     - **Liquid Gold Nymph:** Si has ganado tu armadura Varrock y estás usando las cinco piezas de mi traje dorado, obtendrás el efecto de armadura Varrock al minar.
-    - (Condition: Si tienes todas las piezas del traje minero dorado, excepto el top minero dorado:)
+    - (Condition: If you have all pieces of the golden mining outfit excluding the Golden mining top:)
       - **Liquid Gold Nymph:** PODRÍAS obtener el mismo efecto usando la armadura Varrock y las otras cuatro piezas de mi conjunto... pero eso no se verá tan bien.
   - [Choice]: ¿Quién eres?
     - **Player** ¿Quién eres?
@@ -56,10 +56,10 @@
 
 ### After completing golden mining suit
 
-- (Condition: Si está equipado el traje minero dorado completo:)
+- (Condition: If the complete golden mining suit is equipped:)
   - **Liquid Gold Nymph:** ¡Oh, te ves magnífica! ¡Oh! NO tengo más artículos de disfraces para regalarte. Has AGOTADO bastante mi suministro. Pero si me dieras tu pico, tal vez podría MEJORARLO...
   - (continue)
-- (Condition: Si no está equipado el traje minero dorado completo:)
+- (Condition: If the complete golden mining suit is not equipped:)
   - **Liquid Gold Nymph:** ¡Te he regalado un precioso conjunto dorado, pero no lo llevas puesto! No importa, no importa. ¿Quieres que agregue oro a tu pico?
   - (continue)
 - [Menu]: Selecciona una opción
@@ -67,11 +67,11 @@
     - **Player:** Está bien.
     - [Menu]: Selecciona una opción
       - [Choice]: Pídele a la ninfa que cubra el pico en tu cinturón de herramientas.
-        - (Condition: Si tienes un pico que se puede dorar en tu cinturón de herramientas:)
+        - (Condition: If you have a pickaxe that can be gilded in your toolbelt:)
           - **Liquid Gold Nymph:** Oh, ¿no parece FABULOSO? Mucho mejor que el anterior. De todos modos, tengo que irme. ¡Ya nos veremos!
-        - (Condition: Si tienes un pico de cristal en tu cinturón de herramientas:)
+        - (Condition: If you have a crystal pickaxe in your toobelt:)
           - **Liquid Gold Nymph:** Ese pico está recubierto de cristal. Lo siento mucho. No entiendo lo suficiente la magia élfica como para añadir oro al cristal.
-        - (Condition: Si tienes algún otro pico en tu cinturón de herramientas:)
+        - (Condition: If you have any other pickaxe in your toolbelt:)
           - **Liquid Gold Nymph:** Lo siento mucho. No puedo agregar oro a ese pico.
       - [Choice]: Dale a la Ninfa un pico diferente.
         - **Liquid Gold Nymph:** Sólo dame el pico que te gustaría que estuviera bañado en oro.

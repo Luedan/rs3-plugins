@@ -34,13 +34,13 @@
 - **Musician:** Después de un largo viaje, ¿qué podría ser mejor que un poco de música para darte energía para continuar?
 - **Musician:** ¿Sabías que la música tiene propiedades curativas? La música estimula los humores curativos del cuerpo, según dicen.
 - {{RSFontAchievement|You Like Jazz?|Listen to a musician.}}
-- ((Se muestra en una ventana emergente de finalización de tarea:))
+- ((Shown in a task completion pop-up:))
   - {{Colour|#F0BE79| TAREA DEL 25 ANIVERSARIO |#181513}}
   - ¿Te gusta el jazz?
   - Escuche a un músico.
   - (continue)
 - **Player:** ¿Por qué no? Todo este caminar y completar tareas es agotador. ¿Aceptas solicitudes? ¿Conoces el que dice do-do-do, do-do-do-do-do...?
-- (Condition: Si se han completado todas las tareas:)
+- (Condition: If all the tasks have been completed:)
   - **Player:** Parece que he completado todo. ¡Será mejor que vaya a ver a Hans sobre esa recompensa!
 
 ### Talk to
@@ -108,14 +108,14 @@
 ### In Al Kharid with the Sandy Clue Scroll (historical)
 
 - **Musician:** Me han dicho que necesitas esto.
-- ((Sin espacio en backpack para ataúd:))
+- ((Without space in backpack for a casket:))
   - Necesitas más espacio en el inventario para recibir tu cofre de pistas.
-- ((Con espacio en backpack:))
+- ((With space in backpack:))
   - (removes=Sandy Clue Scroll)
-  - (Condition: Si el rastro continúa:)
+  - (Condition: If the trail continues:)
     - (receives=Sandy Scroll box)
     - [scrollbox].}}
-  - (Condition: Si el sendero termina:)
+  - (Condition: If the trail ends:)
     - (receives=Sandy Casket and Sandy Casket (red))
     - [¡Te entregan un ataúd!]
 

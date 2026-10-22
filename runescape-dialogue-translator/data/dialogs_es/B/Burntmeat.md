@@ -28,14 +28,14 @@
 - **Burntmeat:** Oh, eres tú otra vez. Estoy pensando en ti.
 - **Player:** Probablemente no me sienta feliz de saber la respuesta a esto, pero ¿por qué has estado pensando en mí?
 - **Burntmeat:** Ohh, Burntmeat aún no termina de pensar.<br>Quizás la próxima vez que vengas aquí te lo cuente.
-- ((Se abre la interfaz de descripción general de misiones para la gran aventura de My Arm.))
+- ((Quest Overview interface for My Arm's Big Adventure opens.))
   - [Choice]: No ahora mismo
     - **Player:** ¡Eres asqueroso! No te voy a ayudar otra vez.
     - **Burntmeat:** Aww, ahora heriste los sentimientos de Burntmeat.
   - [Choice]: Aceptar misión
     - No cumples con los requisitos para empezar: 'La gran aventura de My Arm'.
-    - (ventana emergente)
-      - (Ventana emergente: No cumples con los requisitos para comenzar: 'La gran aventura de My Arm'.|advertencia=yes)
+    - (pop-up)
+      - (Pop-up: You do not meet the requirements to start : 'My Arm's Big Adventure'.|warning=yes)
 
 ##### Con los requisitos para la Gran Aventura de My Arm
 

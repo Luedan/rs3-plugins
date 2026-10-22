@@ -11,5 +11,5 @@
 
 ### In combat
 
-- ((Lo siguiente se muestra como un diálogo general estándar y se repite en la interfaz de chat como se muestra aquí.))
+- ((The following is shown as standard overhead dialogue and repeated in the chat interface as shown here.))
   - {{Colour The hounds will feast tonight.|color=#99FF99}} {{Audio button|Desha, Guardian of the Hounds - The hounds will feast tonight.ogg}}

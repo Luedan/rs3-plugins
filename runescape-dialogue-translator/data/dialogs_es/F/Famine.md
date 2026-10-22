@@ -29,5 +29,5 @@
 #### Usando un festín primordial
 
 - A Famine no le divierten tus payasadas.
-- ((Si The Feast and the Famine no se ha completado:))
+- ((If The Feast and the Famine hasn't been completed:))
   - ¡Felicitaciones! Has completado: 'The Feast and the Famine': intenta ser gracioso y mostrar un festín primitivo a alguien que no lo apreciará en Stormguard.

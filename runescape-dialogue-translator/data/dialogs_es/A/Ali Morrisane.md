@@ -53,39 +53,39 @@
 
 
 - **Ali Morrisane:** Hola Player. ¿Cómo va la aventura?
-- (Condition: Si el player no ha completado Extrañando a mi mamá)
+- (Condition: If the player has not completed Missing My Mummy)
   - **Player:** Hola Ali. Nada mal. ¿Cómo estás?
   - **Ali Morrisane:** Aún se vende.
   - [Menu]: Selecciona una opción
-    - (Condition: Requiere completar The Feud y la sección de blackjack de Rogue Trader.)
+    - (Condition: Requires completion of The Feud and the blackjack section of Rogue Trader)
       - [Choice]: Me gustaría echar un vistazo a su selección de blackjacks.
         - (opens=Ali's Discount Wares)
-    - (Condition: Requiere completar la sección de ropa de Rogue Trader)
+    - (Condition: Requires completion of the clothing section of Rogue Trader)
       - [Choice]: Me gustaría echar un vistazo a tu selección de ropa.
         - (opens=Ali's Discount Wares)
       - [Choice]: Me gustaría echar un vistazo a tu selección de runas.
       - [Menu]: Selecciona una opción
         - [Choice]: Intenta abrir un pequeño cofre de runas.
           - **Player:** Creo que tendré que abrir un pequeño cofre de runas.
-          - (Condition: Si el player no ha abierto un pequeño cofre ese día)
+          - (Condition: If the player hasn't opened a small casket that day)
             - [Menu]: Selecciona una opción
               - [Choice]: Caja de fuerza.
-                - (Condition: Si el player no logra forzar el bloqueo)
+                - (Condition: If the player fails to force the lock)
                   - Tus brazos se cansan por el esfuerzo de intentar abrir el ataúd...
                   - **Player:** Hmmm... Parece que este candado será imposible de abrir con fuerza.
-                - (Condition: Si el player fuerza con éxito el bloqueo)
+                - (Condition: If the player successfully forces the lock)
                   - Fuerzas la apertura de la cerradura con una combinación de tu fuerza y agilidad.
                   - [Menu]: Selecciona una opción
                     - [Choice]: Compra todas las runas para [amount] coins.
-                      - (Condition: Si el player tiene suficiente coins y espacio libre en el inventario para comprar todas las runas)
+                      - (Condition: If the player has enough coins and free inventory space to buy all the runes)
                         - (removes=[amount] coins)
                         - **Ali Morrisane:** Como siempre, es un placer hacer negocios con usted.
                         - **Player:** Lo mismo.
-                      - (Condition: Si el player no tiene suficiente coins para comprar todas las runas:)
+                      - (Condition: If the player does not have enough coins to buy all the runes:)
                         - **Player:** Maldita sea, no tengo suficiente coins en mi inventario para comprarlos.
                         - **Ali Morrisane:** No te preocupes, te diré que no pondré las runas a la venta todavía. Te dejaré ser el primero en decidir sobre ellos.
                         - (opens=Ali's Rune Shop)
-                      - (Condition: Si el player no tiene suficiente espacio libre en el inventario para comprar todas las runas)
+                      - (Condition: If the player does not have enough free inventory space to buy all the runes)
                         - **Player:** ¡Explosión! No tengo suficiente espacio para todas las runas en mi inventario.
                         - **Ali Morrisane:** No te preocupes, te diré que no pondré las runas a la venta todavía. Te dejaré ser el primero en decidir sobre ellos.
                         - (opens=Ali's Rune Shop)
@@ -93,44 +93,44 @@
                       - (opens=Ali's Rune Shop)
               - [Choice]: Abrir cerradura.
                 - (Player se agacha ligeramente e intenta forzar la cerradura)
-                - (Condition: Si el player no logra forzar la cerradura:)
-                  - (Condition: Si la ganzúa se rompe:)
+                - (Condition: If the player fails to pick the lock:)
+                  - (Condition: If the lockpick breaks:)
                     - (removes=lockpick)
                     - [Tu ganzúa se rompe.]
                     - (continue)
                   - [No logras forzar la cerradura: tus dedos se entumecen al intentar abrir la cerradura.]
-                - (Condition: Si el player abre con éxito la cerradura)
+                - (Condition: If the player successfully picks the lock)
                   - Abres el ataúd...
                   - (above|runes)
               - [Choice]: Examinar la cerradura.
                 - (Se abre la interfaz del rompecabezas RuneSudoku para un pequeño cofre).
                 - (above|runes)
-          - (Condition: Si el player ya abrió un pequeño ataúd ese día)
+          - (Condition: If the player has already opened a small casket that day)
             - **Ali Morrisane:** Lo siento amigo, hoy no tengo más ataúdes pequeños. Vuelve mañana y habrá llegado otro envío.
         - [Choice]: Intenta abrir un gran cofre de runas.
           - **Player:** Me siento afortunado, echemos un vistazo a cómo abrir uno de esos ataúdes grandes.
-          - (Condition: Si el player no ha abierto un ataúd grande ese día)
+          - (Condition: If the player hasn't opened a large casket that day)
             - [Menu]: Selecciona una opción
               - [Choice]: Caja de fuerza.
-                - (Condition: Si el player no logra forzar el bloqueo)
+                - (Condition: If the player fails to force the lock)
                   - Tus brazos se cansan por el esfuerzo de intentar abrir el ataúd...
                   - **Player:** Hmmm... Parece que este candado será imposible de abrir con fuerza.
               - [Choice]: Abrir cerradura.
                 - (Player se agacha ligeramente e intenta forzar la cerradura)
-                - (Condition: Si el player no logra forzar la cerradura:)
+                - (Condition: If the player fails to pick the lock:)
                   - No logras forzar la cerradura: tus dedos se entumecen al intentar abrir la cerradura.
-                  - (Condition: Si la ganzúa se rompe:)
+                  - (Condition: If the lockpick breaks:)
                     - (removes=lockpick)
                     - [Tu ganzúa se rompe.]
                     - (continue)
                   - **Player:** Hmmm... Parece que esta cerradura será imposible de abrir.
-                - (Condition: Si el player abre con éxito la cerradura)
+                - (Condition: If the player successfully picks the lock)
                   - Abres el ataúd...
                   - (above|runes)
               - [Choice]: Examinar la cerradura.
                 - (Se abre la interfaz del rompecabezas RuneSudoku para un ataúd grande).
                 - (above|runes)
-          - (Condition: Si el player ya abrió un ataúd grande ese día)
+          - (Condition: If the player has already opened a large casket that day)
             - **Ali Morrisane:** Lo siento amigo, hoy no tengo más ataúdes grandes. Vuelve mañana y habrá llegado otro envío.
         - [Choice]: Compra runas elementales.
           - (opens=Ali's Rune Shop)
@@ -140,13 +140,13 @@
           - **Player:** Pensándolo bien, realmente no necesito ninguna runa.
       - [Choice]: Me gustaría echar un vistazo a su stock general.
         - (opens=Ali's Discount Wares)
-    - (Condition: Si el player ha preguntado a alguno de los comerciantes de Al Kharid sobre Ali Morrisane)
+    - (Condition: If the player has asked any of the Al Kharid merchants about Ali Morrisane)
       - [Choice]: He oído que estás planeando expandir tu negocio aquí...
         - **Player:** He oído que estás planeando expandir tu negocio aquí...
         - **Ali Morrisane:** Por supuesto, amigo mío. Cualquier buen vendedor debe aprovechar las oportunidades que se presenten.
         - **Player:** ¡Pero tus hombres están amenazando a los demás comerciantes!
         - **Ali Morrisane:** Me temo que eso es lamentable.
-        - (Condition: Si el player le ha preguntado a Captain Dalbur qué piensa de Ali Morrisane)
+        - (Condition: If the player has asked Captain Dalbur what he thinks of Ali Morrisane)
           - **Player:** Y los gnomos no parecen muy contentos con tu negocio de alfombra mágica.
           - **Ali Morrisane:** Un buen hombre de negocios busca todas las oportunidades que puede.
         - [Menu]: Selecciona una opción
@@ -168,7 +168,7 @@
                 - **Ali Morrisane:** Antes de irte, echa un vistazo a mis productos.
                 - (Action: A Player le quitan 10 coins y recibe un artículo basura aleatorio: "A pesar de tus mejores esfuerzos, Ali M todavía se las arregla para venderte algo de basura".)
                 - (above|wares)
-          - (Condition: Si el player le ha preguntado a Captain Dalbur qué piensa de Ali Morrisane:)
+          - (Condition: If the player has asked Captain Dalbur what he thinks of Ali Morrisane:)
             - [Choice]: ¿Qué harás con los gnomos?
               - **Player:** ¿Qué harás con los gnomos?
               - **Ali Morrisane:** Ellos pueden seguir lanzando sus planeadores hacia los árboles y yo seguiré con mi negocio. Tarde o temprano todo saldrá a mi favor.
@@ -178,7 +178,7 @@
               - (above|wares)
           - [Choice]: Bueno, buena suerte con tu negocio.
             - (above|goodluck)
-- (Condition: Si el player ha completado Extrañando a mi mamá)
+- (Condition: If the player has completed Missing My Mummy)
   - [Menu]: Selecciona una opción
     - [Choice]: Hola Ali. Nada mal. ¿Cómo estás?
       - (above|standard)

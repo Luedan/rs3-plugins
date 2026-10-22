@@ -16,15 +16,15 @@
 - '''Seleccione una opción {{anchor|Select}}
   - [Choice]: Sí por favor.
     - **Player:** Sí, por favor.
-    - (Condition: Si el player tiene suficiente dinero:)
+    - (Condition: If the player has enough money:)
       - Pagas 30 coins y abordas el barco.
       - El barco llega a Brimhaven.
-    - (Condition: Si el player no tiene suficiente dinero:)
+    - (Condition: If the player does not have enough money:)
       - **Player:** Dios mío, parece que no tengo suficiente dinero.
       - No puedes permitirte eso.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - No puedes permitirte eso.
-    - (Condition: Si el player ha completado los logros de Easy Karamja:)
+    - (Condition: If the player has completed the Easy Karamja achievements:)
       - **Captain Barnaby:**Espera un minuto, ¿no te ganaste los guantes Karamja? Pensé que te había visto ayudando en la isla. Puedes ir a mitad de precio.
       - Pagas 15 coins y abordas el barco.
       - El barco llega a Brimhaven.
@@ -45,12 +45,12 @@
 
 ### Pay-fare option
 
-- (Condition: Si el player tiene suficiente dinero:)
+- (Condition: If the player has enough money:)
   - Pagas 30 coins y abordas el barco.
   - El barco llega a Brimhaven.
-- (Condition: Si el player no tiene suficiente dinero:)
+- (Condition: If the player does not have enough money:)
   - No tienes suficiente coins para pagar el viaje.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - No tienes suficiente coins para pagar el viaje.
-- (Condition: Si el player ha completado los logros de Easy Karamja:)
+- (Condition: If the player has completed the Easy Karamja achievements:)
   - La sonrisa del Capitán se amplía cuando reconoce que te has ganado guantes Karamja y te los dejó a mitad de precio: 15 coins.

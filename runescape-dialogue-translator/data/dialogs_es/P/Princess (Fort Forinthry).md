@@ -18,26 +18,26 @@
 
 #### Habla con
 
-- ((Uno de los siguientes se ve al azar:))
-  - ((Variante 1:))
+- ((One of the following is seen randomly:))
+  - ((Variant 1:))
     - **Player:** ¿Cómo te sientes, princesa?
     - **Princesa:** *ladridos de contenido*
-  - ((Variante 2:))
+  - ((Variant 2:))
     - **Player:** ¿Cómo te sientes, princesa?
     - **Princesa:** *ladridos emocionados*
-  - ((Variante 3:))
+  - ((Variant 3:))
     - **Player:** ¿Cómo te sientes, princesa?
     - **Princesa:** *ladrido hambriento*
     - **Player:** Le pediré a Rodney que te traiga algo de comer.
-  - ((Variante 4:))
+  - ((Variant 4:))
     - **Player:** ¿Cómo te sientes, princesa?
     - **Princesa:** *ladridos juguetones*
-  - ((Variante 5:))
+  - ((Variant 5:))
     - **Player:** ¿Cómo te sientes, princesa?
     - **Princesa:** *ladrido melancólico*
     - **Player:** ¿Estás pensando en tus días en Edgeville con el Duque?
     - **Princesa:** *ladridos tristes*
-  - ((Variante 6:))
+  - ((Variant 6:))
     - **Player:** ¿Quién es una buena chica? ¡Eres!
     - **Princesa:** *ladrido feliz*
 
@@ -50,26 +50,26 @@
 
 #### Habla con
 
-- ((Uno de los siguientes se ve al azar:))
-  - ((Variante 1:))
+- ((One of the following is seen randomly:))
+  - ((Variant 1:))
     - **Player:** ¿Cómo te sientes, princesa?
     - **Princesa:** ¡Todo está bien!
-  - ((Variante 2:))
+  - ((Variant 2:))
     - **Player:** ¿Cómo te sientes, princesa?
     - **Princesa:** ¡El nuevo amigo es un buen chico!
-  - ((Variante 3:))
+  - ((Variant 3:))
     - **Player:** ¿Cómo te sientes, princesa?
     - **Princesa:** ¡Trato! ¡Tratar!
     - **Player:** Le pediré a Rodney que te traiga algo de comer.
-  - ((Variante 4:))
+  - ((Variant 4:))
     - **Player:** ¿Cómo te sientes, princesa?
     - **Princesa:** Rodney-¡Querido juego, busca!
-  - ((Variante 5:))
+  - ((Variant 5:))
     - **Player:** ¿Cómo te sientes, princesa?
     - **Princesa:** Señorita Dad.
     - **Player:** ¿Estás pensando en tus días en Edgeville con el Duque?
     - **Princesa:** Era una buena humana.
-  - ((Variante 6:))
+  - ((Variant 6:))
     - **Player:** ¿Quién es una buena chica? ¡Eres!
     - **Princesa:** ¡Yo! ¡A mí!
 

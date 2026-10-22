@@ -11,7 +11,7 @@
 
 ### Talk to
 
-- (Condition: Si el player se transforma:)
+- (Condition: If the player is transmogrified:)
   - (Action: el player vuelve a sí mismos.)
   - (continue)
 - **Amigo:** Entonces, ¿quieres parecerte a mí, verdad?

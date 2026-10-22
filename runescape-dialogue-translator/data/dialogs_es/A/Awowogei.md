@@ -45,34 +45,34 @@
 - **Rey Awowogei:** Tráeme más y verás prosperar tu colonia.
 - Awowogei se lo traga.
 - (removes=chimp ice)
-- (Condition: Si es la entrega número 5, 10 o 15:)
+- (Condition: If it's the 5th, 10th, or 15th delivery:)
   - **Rey Awowogei:** Tu colonia me ha sido de gran utilidad. ¡Haré construir una estatua en la colonia para celebrar tu éxito!
-- (Condition: Si es la entrega número 25:)
+- (Condition: If it's the 25th delivery:)
   - **Rey Awowogei:** Tu colonia ha demostrado ser un activo valioso y necesitará protección. Enviaré a mi élite para protegerte.
   - ¡Felicitaciones! Has completado: 'Ice Ice Chimpy': completa 25 entregas de hielo de chimpancé. (25/25)
-- (Condition: De lo contrario:)
-  - (Condition: Si la recompensa son runas de muerte:)
+- (Condition: Otherwise:)
+  - (Condition: If the reward is death runes:)
     - (receives=30 to 50 death runes)
     - **Rey Awowogei:** Toma estas runas de muerte para solucionar tus problemas.
-  - (Condition: Si la recompensa son runas de sangre:)
+  - (Condition: If the reward is blood runes:)
     - (receives=30 to 50 blood runes)
     - **Rey Awowogei:** Toma estas runas de sangre para solucionar tus problemas.
-  - (Condition: Si la recompensa es un plátano:)
+  - (Condition: If the reward is a banana:)
     - (receives=banana)
     - **Rey Awowogei:** Toma este plátano para solucionar tus problemas.
-  - (Condition: Si la recompensa es un dragon scimitar:)
+  - (Condition: If the reward is a dragon scimitar:)
     - (receives=dragon scimitar)
     - **Rey Awowogei:** Toma este scimitar para solucionar tus problemas.
 
 ### Sandy Clue Scroll (historical)
 
-- ((Sin espacio en backpack para ataúd:))
+- ((Without space in backpack for a casket:))
   - Necesitas más espacio en el inventario para recibir tu cofre de pistas.
-- ((Con espacio en backpack:))
+- ((With space in backpack:))
   - (removes=Sandy Clue Scroll and banana)
-  - (Condition: Si el rastro continúa:)
+  - (Condition: If the trail continues:)
     - (receives=Sandy Scroll box)
     - {{tbox|pic=Sandy Scroll box detail.png|You hand Awowogei a banana and he hands you a {{Sic|scrollbox}}... en silencio.}}
-  - (Condition: Si el sendero termina:)
+  - (Condition: If the trail ends:)
     - (receives=Sandy Casket and Sandy Casket (red))
     - {{tbox|pic=Sandy Casket detail.png|pic2=Sandy Casket (red) detail.png|You hand Awowogei a banana and he hands you a casket... silently.}}

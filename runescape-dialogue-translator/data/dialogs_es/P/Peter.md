@@ -298,5 +298,5 @@
 
 - (Action: Peter desaparece usando la animación Hedge Teleport.)
 - Recibirás 1 clave de promoción que podrás usar en los obsequios actuales de la promoción de cosecha.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Recibirás 1 clave de promoción que podrás usar en los obsequios actuales de la promoción de cosecha.

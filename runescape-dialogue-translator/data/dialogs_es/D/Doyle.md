@@ -23,11 +23,11 @@
 #### Después de completar Chicos y Muñecas
 
 - **Player:** Hola, Doyle. Entonces, ¿cómo funciona esto del pedido de calabazas?
-- (Condition: Sin lista de cosecha:)
-  - (Condition: Sin espacio libre backpack:)
+- (Condition: Without harvest list:)
+  - (Condition: Without free backpack space:)
     - **Doyle:** Si estás aquí para ayudar, ¡haz algo de espacio y te daré la lista de pedidos más reciente de Dolly!
     - (continue)
-  - (Condition: Con espacio gratuito backpack:)
+  - (Condition: With free backpack space:)
     - (receives=harvest list)
     - **Doyle:** Oye, si estás aquí para ayudar, ¡aquí tienes el último pedido de Dolly para que lo completes!
     - (continue)
@@ -43,7 +43,7 @@
 - **Player:** ¿Algo más que deba saber?
 - **Doyle:** ¡Oh, sí! Hay un contenedor de abono en la esquina opuesta al carro de cosecha. Puedes tirar a la basura las calabazas que no quieras allí. Podría ayudar a hacer espacio para otros diferentes, o simplemente cuando hayas terminado el día.
 - **Doyle:** Además, puedes obtener cosas aleatorias de Halloween mientras cosechas, pero obtendrás la experiencia principalmente al completar pedidos.
-- (Condition: Con "Hablar con" como opción predeterminada:)
+- (Condition: With "Talk to" as the default option:)
   - [También puedes configurar la opción de clic izquierdo de Doyle para que sea más fácil ahuyentar a todos los cuervos.]
 
 ### Scare all crows

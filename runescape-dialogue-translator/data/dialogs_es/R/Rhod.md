@@ -23,11 +23,11 @@
 
 ### Pickpocketing
 
-- (Condition: Si el Divino Icor I no está en el backpack:)
-  - (Condition: Sin espacio libre backpack:)
+- (Condition: If Divine Ichor I is not in the backpack:)
+  - (Condition: Without free backpack space:)
     - [Encuentras algo, pero sin espacio en tu backpack no puedes recogerlo.]
-  - (Condition: Con espacio gratuito backpack:)
+  - (Condition: With free backpack space:)
     - (receives=Divine Ichor I)
     - [Encuentras una tablilla vieja, cuyas escrituras aún son legibles.]
-- (Condition: De lo contrario:)
+- (Condition: Otherwise:)
   - En los bolsillos de Rhod sólo encuentras pelusa y algo de cecina. Lo pones todo empacado.

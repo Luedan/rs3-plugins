@@ -12,15 +12,15 @@
 ### Talk-to option
 
 - {{trandom}}
-  - (Condition: Diálogo 1:)
+  - (Condition: Dialogue 1:)
     - **Cave goblin guard:** ¡Que tengas un buen día!
-  - (Condition: Diálogo 2:)
+  - (Condition: Dialogue 2:)
     - **Cave goblin guard:** Te estoy vigilando, habitante de la superficie.
-  - (Condition: Diálogo 3:)
+  - (Condition: Dialogue 3:)
     - **Cave goblin guard:** ¡Habitante de la superficie! ¡Nunca encontrarás el camino hacia la ciudad de Dorgesh-Kaan!
     - **Player:** ¿No es por esa puerta grande?
     - **Cave goblin guard:** Bueno, sí, ¡pero nunca encontrarás la manera de entrar!
-    - (Condition: Después de completar Muerte al Dorgeshuun:)
+    - (Condition: After completion of Death to the Dorgeshuun:)
       - **Player:** Pero pensé que ahora me permitían entrar a la ciudad.
       - **Cave goblin guard:** Oh, sí, así es. Será mejor que diga algo diferente.
       - **Cave goblin guard:** *Ejem*

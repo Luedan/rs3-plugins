@@ -12,7 +12,7 @@
 ### 2022
 
 - **Ayah:** ¿Lo has visto?
-- ((Antes del 21 de abril de 2022:))
+- ((Before 21 April 2022:))
   - [Menu]: Elige una opción:
     - [Choice]: ¿A quién buscas?
       - **Player:** ¿A quién buscas?
@@ -27,12 +27,12 @@
       - **Ayah:** ¡Sí! Y hasta ahora todo bien. Sin embargo, si lo ve, hágamelo saber inmediatamente. ¡Por ahora déjenme vigilar y todos estarán a salvo!
     - [Choice]: ¿Cuál es ese traje que llevas?
       - **Ayah:** ¿Esto? Vaya, este es mi traje de Egg Smasher. ¡Traje perfecto para cazar el Easter Bunny!
-      - ((Antes del 14 de abril de 2022:))
+      - ((Before 14 April 2022:))
         - [Puedes desbloquear el atuendo Egg Smasher abriendo huevos de bonificación en la promoción Treasure Hunter 'Egg Hunt', que comienza el 14 de abril de 2022.]
-      - ((Después del comienzo del 14 de abril de 2022:))
+      - ((After the beginning of 14 April 2022:))
         - [Puedes desbloquear el atuendo Egg Smasher abriendo huevos de bonificación en la promoción Treasure Hunter 'Egg Hunt'.]
-- ((Después del comienzo del 21 de abril de 2022:))
-  - (arriba|quién)
+- ((After the beginning of 21 April 2022:))
+  - (above|who)
 
 ### 2023
 
@@ -51,9 +51,9 @@
     - **Ayah:** ¡Sí! Y hasta ahora todo bien. Sin embargo, si lo ve, hágamelo saber inmediatamente. ¡Por ahora déjenme vigilar y todos estarán a salvo!
   - [Choice]: ¿Cuál es ese traje que llevas?
     - **Ayah:** ¿Esto? Vaya, este es mi traje de Yolk Breaker. ¡Traje perfecto para cazar el Easter Bunny!
-    - ((Antes del 6 de abril de 2023:))
+    - ((Before 6 April 2023:))
       - [Puedes desbloquear el traje Yolk Breaker abriendo huevos de bonificación en la promoción Treasure Hunter 'Egg Hunt', que comienza el 6 de abril de 2023.]
-    - ((Después del comienzo del 6 de abril de 2023:))
+    - ((After the beginning of 6 April 2023:))
       - [Puedes desbloquear el traje Yolk Breaker abriendo huevos de bonificación en la promoción Treasure Hunter 'Egg Hunt'.]
 
 ### 2024–2025
@@ -65,7 +65,7 @@
 - **Player:** Los conejitos aquí son amigables, ¿por qué no simplemente hablar con ellos?
 - **Ayah:** ¿Hablar con ellos...?
 - **Ayah:** Supongo que nunca pensé en eso. Me dejo llevar fácilmente. ¡Gracias!
-- (Condition: Después de la actualización del juego del 17 de abril de 2025:)
+- (Condition: After the game update on 17 April 2025:)
   - [Los nuevos petos de primavera y cestas de flores están disponibles durante la promoción Egg Hunt Treasure Hunter.]
 
 ### 2026

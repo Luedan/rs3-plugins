@@ -29,17 +29,17 @@
 
 ### Collect
 
-- (Condition: Si el player tiene espacio de inventario:)
+- (Condition: If the player has inventory space:)
   - (receives=animals)
-- (Condition: Si el player no tiene espacio de inventario:)
+- (Condition: If the player does not have inventory space:)
   - **Callia:** No tienes suficiente espacio en tu backpack para coleccionar estas bellezas, regresa cuando tengas más espacio.
-- (Condition: Si Callia no tiene animales:)
+- (Condition: If Callia does not have animals:)
   - **Callia:** No tengo nada nuevo para ti actualmente.
 
 ### Check
 
-- (Condition: Si Callia tiene animales:)
+- (Condition: If Callia has animals:)
   - Callia tiene lo siguiente para usted:
   - [Type of animal] (sin marcar): [número].
-- (Condition: Si Callia no tiene animales:)
+- (Condition: If Callia does not have animals:)
   - Callia actualmente no tiene ningún animal para usted.

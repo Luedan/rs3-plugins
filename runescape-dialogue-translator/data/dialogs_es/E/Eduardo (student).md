@@ -40,13 +40,13 @@
 - **Player:** Estoy formando un equipo de investigación y me preguntaba si te gustaría ser parte de él...
 - **Eduardo (estudiante):** Me encantaría, pero solo los pasantes y alrededores pueden trabajar en equipos de investigación. La única manera de convertirme en pasante es impresionar a Acting Guildmaster Reiniger con un hallazgo de artefacto.
 - **Eduardo (estudiante):** Tendría que ser un artefacto relacionado con mi especialización también, que son cráneos y equipos de animales.
-- (Condition: Si el player no tiene un adorno ceremonial de unicornio:)
+- (Condition: If the player doesn't have a ceremonial unicorn ornament:)
   - **Player:** ¿Aceleraría el proceso si solo les trajera un artefacto restaurado que encajara?
   - **Eduardo (estudiante):** ¿Harías eso solo para que yo pueda trabajar en tu equipo de investigación? Eso es muy amable.
   - **Player:** Bueno, estudiamos juntos para nuestros exámenes; me ayudaste mucho, así que solo te devolveré el favor.
   - **Eduardo (estudiante):** Te diré una cosa: si puedes traerme un adorno ceremonial de unicornio restaurado de Everlight, ¡me presentaré a trabajar lo antes posible!
   - **Player:** ¡Estoy en ello!
-- (Condition: Si el player tiene un adorno ceremonial de unicornio:)
+- (Condition: If the player has a ceremonial unicorn ornament:)
   - **Player:** Tengo un adorno ceremonial de unicornio restaurado de Everlight...
   - [Menu]: ¿Darle un adorno ceremonial de unicornio a Eduardo?
     - [Choice]: Sí.

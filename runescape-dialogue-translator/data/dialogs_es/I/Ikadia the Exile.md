@@ -36,9 +36,9 @@
         - **Ikadia the Exile:** No estoy aquí para ganar adeptos. Cree lo que quieras.
   - [Choice]: Prefiero probar *tu* fuerza.
     - **Player:** Prefiero poner a prueba *tu* fuerza.
-    - (Condition: Antes de La primogenitura de los enanos:)
+    - (Condition: Before Birthright of the Dwarves:)
       - **Ikadia the Exile:** Tal vez algún día, pequeño, cuando tenga una razón para pelear contigo.
-    - (Condition: Después de La primogenitura de los enanos:)
+    - (Condition: After Birthright of the Dwarves:)
       - **Ikadia the Exile:** Ya probaste mi fuerza una vez y me derrotaste. ¡Fue un combate digno!
   - [Choice]: Adiós.
     - **Player:** Adiós.

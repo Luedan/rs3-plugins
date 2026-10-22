@@ -20,14 +20,14 @@
   - ¿Recuérdame cómo funciona Invention?
     - *Aparecen opciones para rehacer el tutorial.*
   - ¿Qué puedes decirme sobre las tecnologías?
-    - ((Condiciones desconocidas; probablemente teniendo un árbol de tecnología completado:))
+    - ((Unknown conditions; probably having a technology tree completed:))
       - **Doc:** ¡Oh, pareces listo para inspirarte con un nuevo maestro manitas!
-      - ((Si el player no ha hablado con Drorkar después de completar el árbol de tecnología enano:))
+      - ((If the player has not talked to Drorkar after completing the dwarven technology tree:))
         - **Doc:** Bien, entonces. Bueno, podrías ir a ver a mi propio maestro en Keldagrim: ¡creo que él te enseñaría sobre los dispositivos enanos impulsados ​​por vapor! Su nombre es Drorkar. Es un viejo cascarrabias, pero sabe lo que hace. Lo encontrarás en la forja del Palacio Keldagrim.
         - (previous|docQs)
-      - ((Si el player ha completado el árbol tecnológico enano:))
+      - ((If the player has completed the dwarven technology tree:))
           - **Doc:** Bueno, me ha dicho Drorkar que ya te ha enseñado los métodos del vapor enano. ¡Bien por ti, amigo!
-    - ((Condiciones desconocidas; Probablemente la primera vez que hablas con él:))
+    - ((Unknown conditions; probably the first time you talk to him:))
       - **Doc:** Ah, ¿árboles tecnológicos, dices? ¡Ese es más mi tipo de cosas! Básicamente, hay muchas razas diferentes en este mundo y todas tienen su propia forma de hacer las cosas. Tomemos a nosotros, los enanos, por ejemplo: hemos dominado el uso de la lava para generar vapor, y usamos ese vapor para alimentar dispositivos: transporte, herramientas eléctricas, ese tipo de cosas. ¡Pero luego hay un grupo de duendes que han aprovechado el poder del rayo! Lo llaman electricidad o algo así.
       - **Player:** Estás diciendo mucho la palabra "cosa".
       - **Doc:** Sí, supongo que sí. Una palabra mejor sería "dispositivo": equipo especializado creado para sobresalir en una cosa...
@@ -36,28 +36,28 @@
       - **Player:** ¿Puedo especializarme en la tecnología que usan otras razas?
       - **Doc:** Oh, no hay duda de que puedes encontrar a alguien que te enseñe, siempre y cuando a cambio le enseñes sobre la energía divina. Estoy seguro de que podrías aprender sobre la energía del vapor de mi maestro, Drorkar, y sobre la energía eléctrica de un tipo gobin de las cavernas llamado Oldak. Sin embargo, cuando aprendes sobre una nueva tecnología, no puedes concentrarte en otra hasta que la domines. Una vez que haya hecho su elección, estará encerrado hasta que tenga suficiente inspiración para continuar aprendiendo. Y sea cual sea la tecnología que aprenda más adelante, le resultará un poco más difícil crear cosas con esa tecnología. Porque llegarás "tarde a la fiesta", por así decirlo.
       - *Estarás lo suficientemente inspirado como para comprometerte a desbloquear tu primer árbol de tecnología en el nivel 40 Invention. ¡Cualquier árbol de tecnología que desbloquees DESPUÉS del primero aumenta el requisito de nivel Invention para construir dispositivos dentro de él (+20 niveles para tu especialización secundaria)!*
-  - ((Si el player está por debajo de 99 Invention:))
+  - ((If the player is below 99 Invention:))
     - Eres un inventor experimentado.
       - **Doc:** Me alegra que pienses eso. No podría haber llegado aquí sin ti, pionero en inventos y esas cosas.
-  - ((Si el player ha alcanzado 99 Invention:))
+  - ((If the player has achieved 99 Invention:))
     - Hablemos del dominio de las habilidades...
       - **¿Qué te gustaría decir?**
         - ¿Puedo comprar un Invention skillcape?
           - **Player:** ¿Puedo comprar un Invention skillcape?
-          - ((Si el player tiene un ring of charos (a) equipado:))
+          - ((If the player has a ring of charos (a) equipped:))
             - **Doc:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins para este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
-          - ((De lo contrario:))
+          - ((Otherwise:))
             - **Doc:** ¡Una capa de esta calidad tiene un coste! 99.000 para ser precisos.
           - **Elige una opción:**
             - ¿99.000 coins? Eso es demasiado caro. ((o 92.000 coins con ring of charos (a)))
               - **Doc:** En absoluto; ¡Hay muchos otros aventureros a quienes les encantaría tener la oportunidad de comprar un artículo tan prestigioso! Puedes encontrarme aquí si cambias de opinión.
             - De hecho, creo que tengo el dinero aquí.
-              - ((Si el player tiene al menos dos espacios backpack libres:))
+              - ((If the player has at least two free backpack spaces:))
                 - (removes=99,000 coins (or 92,000 coins with ring of charos (a))) Campana (receives=Invention cape (or trimmed version if level 99 in at least two skills) y Invention)
                 - **Doc:** ¡Excelente! Lleva esa capa con orgullo, amigo mío.
-              - ((Si el player no tiene al menos dos espacios backpack libres:))
+              - ((If the player doesn't have at least two free backpack spaces:))
                 - **Doc:** Lamentablemente, todos los skillcapes solo están disponibles con una capucha gratuita, es parte de un acuerdo de promoción de habilidades; Compra uno y llévate otro gratis, ya sabes. Por lo tanto, necesitarás liberar espacio en backpack antes de que pueda venderte uno.
-            - ((Si el player ha alcanzado el nivel 120 Invention:))
+            - ((If the player has achieved level 120 Invention:))
               - He dominado esta habilidad. ¿Hay algo más?
             - **Doc:** Hay algo... aunque lo he mantenido en secreto durante mucho tiempo. Es algo que sólo puede ser usado por un verdadero maestro.
             - **Doc:** Ni siquiera yo puedo usarlo, así de difícil es lograrlo.
@@ -65,9 +65,9 @@
             - **Doc:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Invention master cape.
               - **¿Comprar Invention master cape por 120.000 coins?**
                 - Sí.
-                  - ((Si el player tiene al menos un espacio backpack libre:))
+                  - ((If the player has at least one free backpack space:))
                     - (removes=120,000 coins) (receives=Invention master cape)
-                  - ((Si el player no tiene al menos un espacio backpack libre:))
+                  - ((If the player does not have at least one free backpack space:))
                     - **Doc:** No tienes suficiente espacio en tu backpack. Vuelve cuando tengas más.
                 - No.
                   - (end)
@@ -77,7 +77,7 @@
                 - **Player:** No importa.
         - He notado que hay un par de versiones de cada skillcape.
           - **Doc:** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
-          - ((Si el player ha elegido los nuevos modelos skillcape:))
+          - ((If the player has chosen the new skillcape models:))
             - **Doc:** Aún puedes optar por usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
             - **Seleccione una opción**
               - Sí, me gustaría usar la versión antigua del skillcape.
@@ -91,14 +91,14 @@
                     - (end)
               - No, gracias.
                 - **Doc:** ¡Genial! ¡Me alegra que estés disfrutando de nuestra nueva versión!
-                - ((Si el player utiliza los modelos antiguos de skillcape, excepto la capa Invention:))
+                - ((If the player is using the old skillcape models except for the Invention cape:))
                   - **Doc:** ¡Si quieres, puedo hacerlo para que uses el modelo más nuevo para todos los skillcapes que tienes!
                   - **Seleccione una opción**
                     - Ok, me gustaría usar la versión más nueva para todos mis skillcapes.
                       - **Doc:** ¡Genial, ahora usarás el modelo más nuevo para todos tus skillcapes!
                     - No, gracias.
                       - (end)
-          - ((Si el player ha elegido los antiguos modelos skillcape:))
+          - ((If the player has chosen the old skillcape models:))
             - **Doc:** Parece que actualmente estás usando el modelo anterior para tu Invention skillcape. ¿Quieres cambiar a uno más nuevo?
             - **Seleccione una opción**
               - Sí, me gustaría usar la nueva versión del skillcape.
@@ -112,14 +112,14 @@
                     - (end)
               - No, gracias.
                 - **Doc:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión anterior!
-                - ((Si el player está utilizando los nuevos modelos skillcape excepto la capa Invention:))
+                - ((If the player is using the new skillcape models except for the Invention cape:))
                   - **Doc:** ¡Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas!
                   - **Seleccione una opción**
                     - Ok, me gustaría usar la versión antigua para todos mis skillcapes.
                       - **Doc:** ¡Genial, ahora usarás el modelo antiguo para todos tus skillcapes!
                     - No, gracias.
                       - (end)
-        - ((Sólo si el player ha alcanzado 120 Invention:))
+        - ((Only if the player has achieved 120 Invention:))
           - He dominado esta habilidad. ¿Hay algo más?
             - **Doc:** He estado guardando este master cape para el primer verdadero experto. ¿Eres realmente tú?
             - **Player:** Eso creo. Quiero decir, he dominado la invención de cosas.
@@ -127,10 +127,10 @@
             - **Player:** Por favor, no andes diciéndole eso a otras personas.
             - **¿Comprar Invention master cape por 120.000 coins?**
               - si
-                - ((Si el player tiene al menos un espacio backpack libre:))
+                - ((If the player has at least one free backpack space:))
                   - (removes=120,000 coins) (receives=Invention master cape)
                   - (previous2)
-                - ((Si el player no tiene al menos un espacio backpack libre:))
+                - ((If the player does not have at least one free backpack space:))
                   - **Doc:** No tienes suficiente espacio en tu backpack. Vuelve cuando tengas más.
               - (previous2)
           - No
@@ -139,7 +139,7 @@
       - (previous)
     - No importa.
       - **Player:** No importa.
-    - ((Si el player tiene al menos una herramienta aumentable en el cinturón de herramientas:))
+    - ((If the player has at least one augmentable tool on the tool belt:))
       - ¿Puedes ayudarme a aumentar mis herramientas?
         - **Doc:** Por supuesto, muchacho. Puedo ayudarte si tienes una herramienta en tu cinturón de herramientas que te gustaría aumentar.
         - **Seleccione una opción**

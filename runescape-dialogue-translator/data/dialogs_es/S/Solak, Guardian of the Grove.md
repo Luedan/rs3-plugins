@@ -88,12 +88,12 @@
 
 - [Menu]: ¿QUÉ TE GUSTARÍA DECIR?
   - [Choice]: Reclama el botín.
-    - (Condition: Si no hay botín disponible:)
+    - (Condition: If no loot is available:)
       - **Solak:** No tengo nada para ti...
-    - (Condition: Si hay botín disponible:)
-      - (Condition: Sin espacio para botín en backpack:)
+    - (Condition: If loot is available:)
+      - (Condition: Without space for loot in backpack:)
         - {{Transcript missing}}
-      - (Condition: Con espacio para botín en backpack:)
+      - (Condition: With space for loot in backpack:)
         - (receives=loot)
         - [Player] recibió: [número] [Item].
         - [Player] recibió: 1 página de grimorio rota.

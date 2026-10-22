@@ -12,7 +12,7 @@
 ### Before Heroes' Quest
 
 - **Achietties:** Saludos. Bienvenido a Heroes' Guild. Sólo los héroes más grandes de esta tierra pueden ingresar a este gremio.
-- ((Se abre la interfaz de descripción general de misiones.))
+- ((Quest Overview interface opens.))
   - [Choice]: No ahora mismo
     - **Player:** Bueno para los héroes más destacados de la tierra.
     - **Achietties:** Sí. Sí, lo es.

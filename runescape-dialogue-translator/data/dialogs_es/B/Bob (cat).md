@@ -262,20 +262,20 @@
 
 - **Bob:** Entonces, un pequeño gato me dice que has estado excavando algunas ruinas de dragonantes... Me trajo algunos de mis recuerdos humanos de mi viejo gran amigo felino, Oddyseus.
 - **Bob:** Supongo que no podrías conseguirme un artefacto, algo que pueda conservar como recuerdo de la vez que Robert y Odiseo derrotaron a un dragonante. ¿Algo... fúnebre, tal vez?
-- ((Si el player no tiene una máscara mortuoria restaurada:))
+- ((If the player does not have a restored death mask:))
   - **Player:** Veré qué puedo hacer.
-  - ((Continúa con el diálogo normal.))
-- ((Si el player tiene una máscara mortuoria restaurada:))
+  - ((Continues with normal dialogue.))
+- ((If the player has a restored death mask:))
   - **Player:** ¿Qué tal esta máscara mortuoria de dragonante?
   - **Bob:** Oh, eso funciona. Podría usarlo para fiestas. Quiero decir, exhibirlo en mi, umm, museo de gatos.
   - **¿Darle máscara mortuoria a Bob?**
     - Sí.
       - (removes=death mask) (receives=Evil Bob's Catspaw)
       - **Bob:** ¡Gracias! A cambio, podrás quedarte con este objeto viejo. Tuve un mal sueño, hace años, en el que conocí una versión malvada de mí que odiaba el pescado crudo. Más bien una pesadilla, en realidad. Extraño. Me desperté y encontré esto en mi bandeja de arena.
-      - ((Continúa con el diálogo normal.))
+      - ((Continues with normal dialogue.))
     - No.
       - **Bob:** Bueno, estaré en algún lugar deambulando por aquí si cambias de opinión.
-      - ((Continúa con el diálogo normal.))
+      - ((Continues with normal dialogue.))
 
 ### In Lumbridge during the 25th Anniversary celebrations
 

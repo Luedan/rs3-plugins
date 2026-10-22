@@ -33,27 +33,27 @@
     - **Makeover Mage:** Por supuesto, aceptas que si por algún accidente te conviertes en rana no tienes derecho a compensación o reembolso.
     - (opens=Makeover Mage)
     - (Después de cambiar de apariencia:)
-    - (Condition: Un conjunto aleatorio de los siguientes diálogos:)
-      - (Condition: Conjunto 1:)
+    - (Condition: A random set of the following dialogues:)
+      - (Condition: Set 1:)
         - **Makeover Mage:** Dos brazos, dos piernas, una cabeza; Parece que el hechizo finalmente funcionó bien.
         - (continue|thanks)
-      - (Condition: Conjunto 2:)
+      - (Condition: Set 2:)
         - **Makeover Mage:** Hmm, no sentiste ningún crecimiento inesperado en tu cabeza en ese momento, ¿verdad?
         - **Player:** Eh, ¿no?
         - **Makeover Mage:** ¡Bien, bien! Me preocupé por un segundo.
         - (continue|thanks)
-      - (Condition: Conjunto 3:)
+      - (Condition: Set 3:)
         - **Makeover Mage:** ¡Uf! Eso fue suerte.
         - **Player:** ¿Qué fue?
         - **Makeover Mage:** ¡Nada! ¡Está todo bien! Pareces vivo de todos modos.
         - (continue|thanks)
-      - (Condition: Conjunto 4:)
+      - (Condition: Set 4:)
         - **Makeover Mage:** ¡Guau!
         - **Player:** ¿Qué?
         - **Makeover Mage:** ¡Todavía pareces humano!
         - (continue|thanks)
     - {{anchor|thanks}}**Player:** Eh, gracias, supongo.
-    - (Condition: Si el player elige la misma apariencia que tiene actualmente:)
+    - (Condition: If the player chooses the same appearance that they currently have:)
       - **Makeover Mage:** Eso no es diferente de lo que ya tienes. Pero feliz de que hayas encontrado tu look.
   - [Choice]: No, gracias.{{anchor|no-thanks}}
     - **Player:** No, gracias. Estoy feliz tal como soy.
@@ -61,31 +61,31 @@
     - (initial|initial-options)
   - [Choice]: Can you give me some more pharmakos berries?|cond=Durante y después de Land of the Goblins:
     - **Player:** ¿Puedes darme más pharmakos berries?
-    - (Condition: Si el player aún no tiene ninguno en su backpack o banco:)
+    - (Condition: If the player doesn't already have any in their backpack or bank:)
       - **Makeover Mage:** Por supuesto. Sólo necesitas combinarlos con toadflax en un vial y tendrás una poción para transformarte en un duende.
       - **Makeover Mage:** Pero es difícil para mí conseguirlos, así que no desperdicies la poción.
       - **Makeover Mage:** Recuerde, se revertirá si está expuesto a la luz solar directa o si realiza una actividad extenuante como pelear. Ahora, aquí están los berries.
       - (receives=pharmakos berries)
       - [bunch] de extraño rojo berries.}}
-    - (Condition: Si el player no tiene espacio en backpack:)
+    - (Condition: If the player has no space in backpack:)
       - **Makeover Mage:** No hasta que liberes algo de espacio en el inventario.
-    - (Condition: Si el player ya tiene el berries en su backpack o banco:)
+    - (Condition: If the player already has the berries in their backpack or bank:)
       - **Makeover Mage:** Creo que ya tienes algo, así que sólo necesitas conseguir un poco de lino de sapo y hacer la poción.
   - [Choice]: [More...]
     - [Menu]: Elige una opción:
       - [Choice]: ¡Genial amuleto! ¿Puedo tener uno?
         - **Player:** ¡Genial amuleto! ¿Puedo tener uno?
         - **Makeover Mage:** No hay problema, pero recuerda que el amuleto que te venderé es solo una copia del mío. No contiene poderes mágicos y, como tal, sólo te costará 100 coins.
-        - (Condition: Si el player no tiene suficiente dinero:)
+        - (Condition: If the player does not have enough money:)
           - **Player:** Oh, no tengo suficiente dinero para eso.
-        - (Condition: Si el player tiene suficiente dinero:)
+        - (Condition: If the player has enough money:)
           - [Menu]: Selecciona una opción
             - [Choice]: Claro, aquí tienes.
               - **Player:** Claro, aquí tienes.
-              - (Condition: Si el player no tiene espacio en backpack:)
+              - (Condition: If the player has no space in backpack:)
                 - **Makeover Mage:** Um... parece que no tienes espacio para llevarte el amuleto. Quizás deberías comprarlo en otro momento.
                 - **Player:** Oh, sí, eso es cierto.
-              - (Condition: Si el player tiene espacio en backpack:)
+              - (Condition: If the player has space in backpack:)
                 - (removes=100 coins) (receives=yin yang amulet)
                 - [Recibes un amuleto a cambio de 100 coins.]
             - [Choice]: ¡De ninguna manera! Eso es demasiado caro.
@@ -121,24 +121,24 @@
             - [Menu]: ¿Cuántos te gustaría comprar?
               - [Choice]: Uno.
                 - (Se abre la interfaz de compra de Chameleon Extract (x1) por 126 RuneCoins)
-                - (Condition: Si se presiona el botón 'confirmar':)
+                - (Condition: If the 'confirm' button is pressed:)
                   - (receives=a chameleon extract)
                   - Tu extracto de camaleón ha sido añadido a tu banco.
-                - (Condition: Si se presiona el botón 'cancelar':)
+                - (Condition: If the 'cancel' button is pressed:)
                   - (end)
               - [Choice]: Tres.
                 - (Se abre la interfaz de compra de Chameleon Extract (x3) por 270 RuneCoins)
-                - (Condition: Si se presiona el botón 'confirmar':)
+                - (Condition: If the 'confirm' button is pressed:)
                   - (receives=three chameleon extract)
                   - Tu extracto de camaleón ha sido añadido a tu banco.
-                - (Condition: Si se presiona el botón 'cancelar':)
+                - (Condition: If the 'cancel' button is pressed:)
                   - (end)
               - [Choice]: Seis.
                 - (Se abre la interfaz de compra de Chameleon Extract (x6) por 396 RuneCoins)
-                - (Condition: Si se presiona el botón 'confirmar':)
+                - (Condition: If the 'confirm' button is pressed:)
                   - (receives=six chameleon extract)
                   - Tu extracto de camaleón ha sido añadido a tu banco.
-                - (Condition: Si se presiona el botón 'cancelar':)
+                - (Condition: If the 'cancel' button is pressed:)
                   - (end)
               - [Choice]: Ninguno, cambié de opinión.
                 - **Player:** Ninguno, he cambiado de opinión.
@@ -170,7 +170,7 @@
 
 - (Action: El mago se lanza un hechizo a sí mismo.)
 - (Action: El mago cambia su propia apariencia.)
-- (Condition: Si pasaron de hombre a mujer:)
+- (Condition: If they went from male to female:)
   - **Makeover Mage:** {{RSChat|Ooh!}}
-- (Condition: Si pasaron de mujer a hombre:)
+- (Condition: If they went from female to male:)
   - **Makeover Mage:** {{RSChat|Aha!}}

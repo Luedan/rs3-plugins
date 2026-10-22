@@ -12,8 +12,8 @@
 ### Spawning
 
 - Un alma perdida aparece cerca.
-- ((Repetido en una ventana emergente:))
-  - (Ventana emergente: Un alma perdida aparece cerca.|color=#1EFF00)
+- ((Repeated in a pop-up:))
+  - (Pop-up: A lost soul appears nearby.|colour=#1EFF00)
 
 ### Guide
 
@@ -25,5 +25,5 @@
 
 - (Action: El Alma Perdida desaparece.)
 - El alma perdida desaparece antes de que puedas guiarla hacia adelante.
-- ((Repetido en una ventana emergente:))
-  - (Ventana emergente: el alma perdida desaparece antes de que puedas guiarla hacia adelante).
+- ((Repeated in a pop-up:))
+  - (Pop-up: The lost soul disappears before you could guide it onwards.)

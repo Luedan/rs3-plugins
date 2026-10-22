@@ -22,14 +22,14 @@
     - **Wilfred:** Este es un Skillcape de Woodcutting. Sólo una persona que haya alcanzado el nivel más alto posible en una habilidad puede usar uno.
   - [Choice]: ¿Puedes ayudarme con los trajes de centinela?
     - **Player:** ¿Puedes ayudarme con los trajes de centinela?
-    - (Condition: Si el player no puede recibir fragmentos de centinela y no ha desbloqueado el plano necesario para crear las piezas del atuendo:)
+    - (Condition: If the player can't receive sentinel fragments and hasn't unlocked the blueprint required to make the outfit pieces:)
       - **Wilfred:** En el nivel 70 puedes comenzar a recolectar fragmentos para crear trajes de habilidades de élite. Cuando llegues a ese nivel, automáticamente comenzarás a recolectar fragmentos. Luego puedes usarlos con un plano para hacerte las piezas restantes del atuendo de élite para esta habilidad.
-    - (Condition: Si el player puede recibir fragmentos de centinela pero no ha desbloqueado el plano necesario para crear las piezas del atuendo:)
+    - (Condition: If the player can receive sentinel fragments but hasn't unlocked the blueprint required to make the outfit pieces:)
       - **Wilfred:** Estás configurado para recibir fragmentos. Cuando llegues al nivel 80 podrás crear prendas de vestir.
-    - (Condition: Si el player puede recibir fragmentos de centinela y ha desbloqueado el plano necesario para fabricar las piezas del atuendo:)
+    - (Condition: If the player can receive sentinel fragments and has unlocked the blueprint required to make the outfit pieces:)
       - **Wilfred:** Estás configurado para recibir fragmentos. Cuando tengas 3600 fragmentos, podrás usarlos para crear una pieza de atuendo de élite.
       - **Wilfred:** Simplemente vaya a un banco de trabajo Invention para crear las piezas.
-    - (Condition: Si el player posee el traje de centinela de la naturaleza completo o todas las piezas necesarias para fabricarlo:)
+    - (Condition: If the player owns the full nature's sentinel outfit or all of the outfit pieces required to craft it:)
       - **Wilfred:** Ya has creado todas las prendas posibles. Me aseguraré de que no reciba más fragmentos.
       - **Wilfred:** Recuerda que puedes combinar las piezas del atuendo básico para crear las versiones de nivel alto y obtener beneficios adicionales.
   - [Choice]: Pregunta por otra cosa.
@@ -44,11 +44,11 @@
     - **Player:** No, gracias.
     - **Wilfred:** Está bien. Vuelve conmigo si cambias de opinión.
   - [Choice]: Sí, por favor.
-    - (Condition: Si el player tiene un ring of charos (a) equipado:)
+    - (Condition: If the player has a ring of charos (a) equipped:)
       - **Wilfred:** No hago esto por nadie, ¡pero hoy tengo una oferta especial! Normalmente necesito 99.000 coins para este prestigioso artículo, pero para ti es la mitad de precio. ¡Solo 92.000 coins!
-    - ((De lo contrario:))
+    - ((Otherwise:))
 <!--**** **Wilfred:** Anybody who has spent as much time cutting trees as you deserves the right to own one. That'll be 99,000 coins, please.-->
-      - ((El precio de la capa es de 99.000 coins.))
+      - ((The price of the cape is 99,000 coins.))
     - [Menu]: Elige una opción:
       - [Choice]: [99,000/92,000] coins? Eso es demasiado caro.
 <!--***** **Wilfred:** Not at all; there are many other adventurers who would love the opportunity to purchase such a prestigious item! You can find me here if you change your mind.-->
@@ -64,14 +64,14 @@
         - **Wilfred:** Tú... realmente lo dominas. ¡Qué honor! Sería un placer venderle un Woodcutting master cape.
         - [Menu]: ¿Comprar Woodcutting master cape por 120.000 coins?
           - [Choice]: Sí.
-            - (Condition: Sin espacio libre backpack:)
+            - (Condition: Without free backpack space:)
               - **Wilfred:** No tienes suficiente espacio en tu backpack. Por favor regresa cuando tengas más.
-            - (Condition: Con espacio gratuito backpack:)
-              - (Condition: Sin 120.000 coins:)
+            - (Condition: With free backpack space:)
+              - (Condition: Without 120,000 coins:)
                 - No tienes suficiente dinero para comprar esta capa.
-                - (ventana emergente)
-                  - (Ventana emergente: No tienes suficiente dinero para comprar esta capa).
-              - (Condition: Con 120.000 coins:)
+                - (pop-up)
+                  - (Pop-up: You do not have enough money to purchase this cape.)
+              - (Condition: With 120,000 coins:)
                 - Se han eliminado 120.000 coins de su bolsa de dinero.
                 - (removes=120,000 coins) (receives=Woodcutting master cape)
                 - (Action: Suena música Master cape.)
@@ -79,7 +79,7 @@
             - (end)
   - [Choice]: He notado que hay un par de versiones de cada skillcape.
     - **Wilfred** ¡Sí! ¡Nosotros, los maestros de habilidades, hemos creado nuevas versiones de todos los skillcapes! Sentimos que era hora de un cambio.
-    - (Condition: Si el player está utilizando actualmente la versión más reciente de Woodcutting skillcape:)
+    - (Condition: If the player is currently using the newer version of the Woodcutting skillcape:)
       - **Wilfred:** Aún puedes optar por usar el modelo antiguo skillcape si lo deseas. ¿Le gustaría cambiar el modelo que está utilizando actualmente?
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, me gustaría usar la versión antigua del skillcape.
@@ -93,7 +93,7 @@
               - (end)
         - [Choice]: No, gracias.
           - **Wilfred:** ¡Genial! ¡Me alegra que estés disfrutando de nuestra nueva versión!
-    - (Condition: Si el player está utilizando actualmente la versión anterior de Woodcutting skillcape:)
+    - (Condition: If the player is currently using the old version of the Woodcutting skillcape:)
       - **Wilfred:** Parece que actualmente estás usando el modelo anterior para tu Woodcutting skillcape. ¿Quieres cambiar a uno más nuevo?
       - [Menu]: Selecciona una opción
         - [Choice]: Sí, me gustaría usar la nueva versión del skillcape.
@@ -107,7 +107,7 @@
               - (end)
         - [Choice]: No, gracias.
           - **Wilfred:** ¡Genial! ¡Me alegra que sigas disfrutando de la versión anterior!
-          - (Condition: Si el player no tiene todos sus skillcapes configurados en la versión anterior:)
+          - (Condition: If the player does not have all their skillcapes set to the old version:)
             - **Wilfred:** ¡Si quieres, puedo hacerlo para que uses el modelo antiguo para todos los skillcapes que tengas!
             - [Menu]: Selecciona una opción
               - [Choice]: Ok, me gustaría usar la versión antigua para todos mis skillcapes.
@@ -144,12 +144,12 @@
     - **Wilfred:** Algunos de los que abrí también tenían otros objetos extraños, tal vez puedas arrojar algo de luz sobre el asunto si encuentras alguno.
     - **Player:** Qué interesante, gracias.
   - [Choice]: Hacha de brasas y claro.
-    - (Condition: Si el player no cumple con los requisitos:)
+    - (Condition: If the player doesn't meet the requirements:)
       - **Wilfred:** Tengo en mi poder un poderoso artefacto que fusionará un hacha imcando con un hacha de cristal, combinando los mejores elementos de la artesanía enana y élfica.
       - **Wilfred:** Sin embargo, solo se lo legaré a alguien que sea campeón tanto de los enanos como de los elfos.
       - **Wilfred:** Algún día, preveo que serás un hacedor de reyes en medio del caos.
       - **Wilfred:** Pero aún no ha llegado tu momento.
-    - (Condition: Si el player ha comprado Shard of the Lumberjack antes:)
+    - (Condition: If the player has purchased Shard of the Lumberjack before:)
       - **Player:** ¿Tienes más fragmentos del leñador?
       - **Wilfred:** ¿Otra vez? ¿Cuántas varitas mágicas cuestionables puede necesitar una persona?
       - (continue|BuyShard)
@@ -159,16 +159,16 @@
     - **Wilfred:** Te venderé el fragmento del leñador por exactamente un millón de coins.
     - [Menu]: Seleccione una opción|ancla=Comprar fragmento
       - [Choice]: Comprar Fragmento del leñador: 1.000.000 (1M) coins.
-        - (Condition: Sin 1.000.000 coins:)
+        - (Condition: Without 1,000,000 coins:)
           - **Wilfred:** Lo siento, amigo. No pareces tener suficientes monedas.
-        - (Condition: Con al menos 1.000.000 coins:)
-          - (Condition: Sin espacio backpack:)
+        - (Condition: With at least 1,000,000 coins:)
+          - (Condition: Without backpack space:)
             - **Wilfred:** Lo siento, amigo. Tu backpack está lleno.
-          - (Condition: Con espacio backpack:)
+          - (Condition: With backpack space:)
             - (removes=1,000,000 coins) (receives=Shard of the Lumberjack)
-            - (Condition: Sin haber comprado un Fragmento de Leñador antes:)
+            - (Condition: Without having bought a Shard of Lumberjack before:)
               - [pic=Fragmento del leñador detail.png]
-            - (Condition: Habiendo comprado un fragmento de leñador antes:)
+            - (Condition: Having bought a Shard of Lumberjack before:)
               - [pic=Fragmento del leñador detail.png]
       - [Choice]: Lo dejaré por ahora, gracias.
         - Usted decide no realizar una compra.

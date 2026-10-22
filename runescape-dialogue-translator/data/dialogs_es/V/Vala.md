@@ -33,7 +33,7 @@
     - **Vala:** Sí. Ahora... hay quienes todavía seguimos las viejas costumbres: enfrentarnos en batallas mortales donde el ganador se lo lleva todo.
     - **Vala:** Si lo deseas, puedo marcarte como un participante dispuesto en dichas batallas. Los riesgos son grandes, sí, pero las recompensas... potencialmente ilimitadas.
     - (previous)
-  - ((Solo si actualmente has optado por no participar en PvP:))
+  - ((Only if currently opted out of PvP:))
     - Me gustaría inscribirme.
       - **Player:** Me gustaría participar.
       - **Vala:** Sería un honor para mí.
@@ -43,7 +43,7 @@
           - {{Colour|#FF0000|Has optado por participar en el combate PvP en Wilderness.}}<br>Puedes optar por no participar en cualquier momento a través de Vala.
         - No, gracias.
           - (end)
-  - ((Solo si actualmente estás optado por PvP:))
+  - ((Only if currently opted into PvP:))
     - Me gustaría optar por no participar.
       - **Player:** Ya no quiero participar.
       - **Vala:** Que así sea. Vuelve cuando quieras.

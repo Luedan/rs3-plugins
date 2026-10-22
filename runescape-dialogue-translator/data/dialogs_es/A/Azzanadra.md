@@ -54,14 +54,14 @@
     - [Menu]: ¿Qué te gustaría decir?
       - [Choice]: He perdido el antiguo himnario.
         - **Player:** He perdido el antiguo himnario.
-        - (Condition: Si el antiguo himnario realmente se ha perdido:)
+        - (Condition: If the ancient hymnal has genuinely been lost:)
           - **Azzanadra:** Muy bien, puede que tengas otro. El himnario en sí no tiene ningún valor a menos que Zaros te haya concedido su poder.
           - [Azzanadra te regala una copia del antiguo himnario.]
           - (previous2|remind)
-        - (Condition: Si el himnario antiguo está en backpack:)
+        - (Condition: If the ancient hymnal is in backpack:)
           - **Azzanadra:** Estoy seguro de que puedo sentir un himnario antiguo en tu inventario.
           - **Player:** Oh.
-        - (Condition: Si el himnario antiguo está en el banco:)
+        - (Condition: If the ancient hymnal is in bank:)
           - **Azzanadra:** ¿Estás seguro de que no lo has simplemente guardado en tu banco?
           - [Menu]: ¿Qué te gustaría decir?
             - [Choice]: Quizás. ¿Puedo tener otro de todos modos?
@@ -102,24 +102,24 @@
         - [Menu]: ¿Qué te gustaría decir?
           - [Choice]: Entonces, ¿Zaros está en aquel entonces?
             - **Player:** Entonces, ¿Zaros estaba en aquel entonces?
-            - (Condition: Antes del destino de los dioses:)
+            - (Condition: Before Fate of the Gods:)
               - **Azzanadra:** Todavía no, no. Simplemente puedo comunicarme con él una vez más. ¡Pero ese no es un logro pequeño, Player!
               - **Azzanadra:** Por ahora puede darme instrucciones y las llevaré a cabo para ayudarle en su regreso.
               - **Azzanadra:** ¡Pronto el mundo estará bañado por la gloria de Zaros una vez más!
               - (previous|zaros)
-            - (Condition: Después del destino de los dioses:)
+            - (Condition: After Fate of the Gods:)
               - **Azzanadra:** ¿Te golpeaste la cabeza y lo olvidaste? ¡Tú eres quien lo ayudó a regresar!
               - (previous|zaros)
           - [Choice]: ¿Qué planes tiene Zaros?
             - **Player:** ¿Qué planes tiene Zaros?
-            - (Condition: Antes del destino de los dioses:)
+            - (Condition: Before Fate of the Gods:)
               - **Azzanadra:** Lamentablemente, tengo instrucciones estrictas de ocultar el magnífico plan de Zaros.
               - **Player:** ¿No puedes decirme nada?
               - **Azzanadra:** Puedo decirte que debes asegurarte de que no te sucedan contratiempos. Zaros te requiere mucho de una sola pieza. Con este fin os he proporcionado su himnario, para que podáis derrotar a vuestros enemigos con más facilidad.
               - **Player:** ¿Zaros dijo que necesitaba mi ayuda?
               - **Azzanadra:** Er... algo así. En cualquier caso, definitivamente eres necesario.
               - (previous|zaros)
-            - (Condition: Después del destino de los dioses:)
+            - (Condition: After Fate of the Gods:)
               - **Azzanadra:** Me tiene buscando los Elder Halls de Gielinor. Cuando lo encontremos, y estemos totalmente preparados para afrontar las consecuencias, perturbaremos lo que hay dentro para despertar a los dioses mayores y negociar con ellos.
               - **Azzanadra:** Es una jugada arriesgada, pero no hacer nada sería una locura. No me quedaré de brazos cruzados esperando el olvido.
               - (previous|zaros)
@@ -356,19 +356,19 @@
 
 #### Después de que el mundo despierte
 
-- (Condition: Si el player decidió proteger a Guthix:)
+- (Condition: If the player chose to protect Guthix:)
   - **Azzanadra:** Ah, sí. Estoy decepcionado de que no pudiéramos estar de acuerdo, Player.
   - **Azzanadra:** Eres un ser cariñoso. Puedo entender por qué querrías proteger a Guthix, incluso si, en mi opinión, siempre sería una decisión infructuosa.
   - **Azzanadra:** Espero que esto no se interponga entre nosotros. Veo un gran futuro para ambos si trabajamos juntos.
   - **Azzanadra:** No se puede negar que Guthix era inmensamente poderoso. Es una pena que hayamos tenido que llegar a eso.
   - (continue)
-- (Condition: Si el player se puso del lado de Zaros:)
+- (Condition: If the player sided with Zaros:)
   - **Azzanadra:** Ah, sí. Fuiste un gran aliado para nosotros allí, gracias.
   - **Azzanadra:**Me aseguraré de contarle a Zaros tu participación cuando pueda.
   - **Azzanadra:** Por supuesto, esperaba que pudiéramos evitar la muerte de Guthix. Pero eso no es obra tuya.
   - **Azzanadra:** No se puede negar que Guthix era inmensamente poderoso. Es una pena que hayamos tenido que llegar a eso.
   - (continue)
-- (Condition: Si el player decidió matar a Guthix:)
+- (Condition: If the player chose to kill Guthix:)
   - **Azzanadra:** Ah, sí. Nos sorprendiste a todos ese día.
   - **Azzanadra:** Esperaba evitar la muerte de Guthix, pero nuestros planes habrían llegado al mismo final.
   - **Azzanadra:** Los edictos no se cumplen y eso es todo lo que importa.
@@ -386,9 +386,9 @@
 - **Azzanadra:** Pero entonces Sliske desapareció. Por supuesto, esto no es inusual. Además, no tuvimos tiempo de perseguirlo. Llegamos a las recámaras y bueno... ya viste el resto.
 - **Azzanadra:** Sliske nos estuvo mintiendo todo el tiempo. Nunca creyó que Guthix debería vivir.
 - **Player:** ¿Qué pasará con Sliske?
-- (Condition: Después del destino de los dioses:)
+- (Condition: After Fate of the Gods:)
   - **Azzanadra:** No lo sé y ya no me importa. Siempre y cuando no interfiera con los planes de Zaros, claro.
-- (Condition: Antes del destino de los dioses:)
+- (Condition: Before Fate of the Gods:)
   - **Azzanadra:** Puede que Sliske haya traicionado nuestra confianza, pero mató a Guthix en nombre de Zaros.
   - **Azzanadra:** Se mire como se mire, los edictos se han roto, allanando el camino para el regreso de Zaros.
   - **Azzanadra:** Sliske nos prestó un servicio a todos, incluso si no estuviéramos de acuerdo con sus métodos.
@@ -406,49 +406,49 @@
       - **Player:** ¿Zaros regresará ahora?
       - **Azzanadra:** La destrucción de los edictos ciertamente ha puesto las cosas en movimiento.
       - **Azzanadra:** Es reconfortante no tener que escabullirnos, sin embargo, no podemos actuar todavía.
-      - (Condition: Antes de la Batalla de Lumbridge:)
+      - (Condition: Before the Battle of Lumbridge:)
         - **Azzanadra:** Los otros dioses y sus seguidores estarán observando atentamente el primer movimiento. Incluso Saradomin ha regresado pero no ha actuado. Debemos planificar nuestro camino con cuidado.
-      - (Condition: Después de la Batalla de Lumbridge:)
+      - (Condition: After the Battle of Lumbridge:)
         - **Azzanadra:** Saradomin y Zamorak se lanzaron a la batalla, como los tontos que son. No comprenden las ventajas de la paciencia y la sutileza. Nosotros, los zarosianos, planificaremos nuestros caminos cuidadosamente.
 
 #### Después de desaparición, presunta muerte
 
-- (Condition: Si el player se puso del lado de Zaros en Desaparecido, Muerte Presunta:)
+- (Condition: If the player sided against Zaros in Missing, Presumed Death:)
   - **Azzanadra:** Ah, sí. Me decepcionó saber que no defendiste la causa de Zaros, Player.
   - **Azzanadra:** El Señor Vacío ha estado observando, los eventos que ocurrieron encajan perfectamente en sus planes. Él es consciente de tus acciones, por supuesto.
   - (continue)
-- (Condition: Si el player se puso del lado de Zaros en Desaparecido, Muerte Presunta:)
+- (Condition: If the player sided with Zaros in Missing, Presumed Death:)
   - **Azzanadra:** Ah, sí. He oído cómo defendiste la causa de Zaros en the face de los otros dioses. El Señor Vacío está muy complacido contigo.
   - **Azzanadra:**  Él sabe todo lo que pasó, por supuesto, los eventos que sucedieron encajan perfectamente en sus planes.
   - (continue)
 - [Menu]: Selecciona una opción
   - [Choice]: ¿Aún ves a Sliske como un zarosiano?
-    - (Condition: Antes del destino de los dioses:)
+    - (Condition: Before Fate of the Gods:)
       - **Azzanadra:**  Lamentablemente no puedo tolerar sus acciones. Siempre ha actuado por iniciativa propia, pero esta vez ha ido demasiado lejos.
       - **Azzanadra:** Incluso si sus juegos favorecen a Zaros, los motivos de Sliske no están claros. No puedo apostar por su lealtad.
       - **Azzanadra:** En cuanto a convertirse en dios, no veo ninguna razón para creer que haya ascendido. Estoy seguro de que si tuviera los efectos ya se notarían.
       - **Azzanadra:** Si realmente es un dios, lo está ocultando bien. Aunque sin duda ha aumentado su poder.
       - (otro)
-    - (Condition: Después del destino de los dioses:)
+    - (Condition: After Fate of the Gods:)
       - **Azzanadra:**  Por desgracia, no más. Parecía pensar que sí, pero Zaros no estaba de acuerdo.
       - (otro)
   - [Choice]: ¿Estás en contacto con Zaros?
-    - (Condition: Antes del destino de los dioses:)
+    - (Condition: Before Fate of the Gods:)
       - **Azzanadra:** He estado en comunicación con él, sí. Mi diligencia y lealtad inquebrantable me han ganado su confianza y desempeñaré un papel vital en su regreso.
       - **Azzanadra:** Falta poco para su llegada, aventurero. Finalmente el Señor Vacío recuperará el control de Gielinor.
       - **Azzanadra:** Aquellos que se le opongan caerán, y finalmente él se vengará del usurpador Zamorak. Hace mucho que debería haberse hecho.
       - **Azzanadra:** Demuestra que eres digno y quizás tú también tengas un papel que desempeñar.
       - (otro)
-    - (Condition: Después del destino de los dioses:)
+    - (Condition: After Fate of the Gods:)
       - **Azzanadra:** ¡Por supuesto! Las ruinas de Senntisten son su hogar aquí en Gielinor. ¡Tenemos muchos planes que hacer!
       - (otro)
   - [Choice]: ¿Intentarás obtener la Piedra de Jas?
     - **Azzanadra:** Debo admitir que la tentación de la energía del dios mayor es fuerte. La piedra es un artefacto poderoso.
     - **Azzanadra:** Pero no estoy interesado en la ascensión como esos zamorakianos hambrientos de poder. Sus objetivos son puramente egoístas, mientras que yo sigo siendo leal a Zaros.
-    - (Condition: Antes del destino de los dioses:)
+    - (Condition: Before Fate of the Gods:)
       - **Azzanadra:** Si mi señor desea la piedra, entonces yo y el otro Zarosian Mahjarrat haremos todo lo que esté a nuestro alcance para obtenerla.
       - (otro)
-    - (Condition: Después del destino de los dioses:)
+    - (Condition: After Fate of the Gods:)
       - **Azzanadra:** Zaros desea mantener el Catalizador, como él lo llama, fuera del alcance de otros... junto con otros artefactos antiguos.
       - (otro)
   - [Choice]: Eso es todo, adiós.
@@ -456,14 +456,14 @@
 
 #### Después del destino de los dioses
 
-- (Condition: Si el player aún no ha reclamado la lámpara de Superviviente:)
+- (Condition: If the player has not yet claimed the Survivor's lamp:)
   - **Azzanadra:** Antes que nada, me han ordenado que te recompense aún más.
   - (receives=Survivor's lamp (combat skills))
   - Azzanadra te entrega una lámpara de combate.  Se puede utilizar hasta tres veces.
   - **Azzanadra:** Ahora que eso está aclarado, ¿qué me pedirías?
   - (continue)
 - **Player:** Entonces, sobre el regreso de Zaros...
-- (Condition: Si a Zaros le dieran un simulacro oscuro:)
+- (Condition: If Zaros was given a dark simulacrum:)
   - **Azzanadra:** Fue una ocasión verdaderamente feliz.
   - **Azzanadra:** Sospeché que Sliske intentaría coaccionarte, eso era inevitable, pero mi fe en ti estaba bien puesta.
   - **Azzanadra:** Espero que no te arrepientas de tus acciones.
@@ -482,7 +482,7 @@
       - **Azzanadra:** Ser World Guardian requiere que tomes decisiones difíciles que nos afectan a todos. No puedes darte el lujo de tener prejuicios personales.
       - **Azzanadra:** Ahora que eso está aclarado, ¿qué me pedirías?
       - (continue|zaros-here)
-- (Condition: Si a Zaros le dieran un simulacro ligero:)
+- (Condition: If Zaros was given a light simulacrum:)
   - **Azzanadra:** Ten mucho cuidado con lo que dices aquí, 'Guardián Mundial'. Si no estuviera bajo las órdenes de Zaros...
   - **Azzanadra:** Pero yo sé esto: ¿te arrepientes de tu elección?
   - [Menu]: ¿Te arrepientes de tu decisión?
@@ -531,9 +531,9 @@
     - **Player:** Había una cámara más. En Lumbridge, debajo de las catacumbas.
     - **Azzanadra:** Pero Mah nunca llegó a Gielinor... A menos... No, es mejor no especular todavía. Ahora tenemos un punto de partida, algo que puede ayudarnos a encontrar los Elder Halls.
     - **Azzanadra:** ¿Aprendiste algo más?
-    - (Condition: Si el player todavía tiene otras opciones de diálogo para elegir:)
+    - (Condition: If the player still has other dialogue options to pick:)
       - {{Tmissing}}
-    - (Condition: Si el player ha elegido las tres opciones de diálogo:)
+    - (Condition: If the player has picked all three dialogue options:)
       - (continue|reward)
   - [Choice]: Cuéntale a Azzanadra sobre Xenia.
     - **Player:** Xenia estaba intentando drenar el anima mundi de las boquillas. Quería desviarlo de Gielinor.
@@ -543,17 +543,17 @@
     - **Player:** Según una antigua entidad abisal, es posible que haya puesto en marcha algo terrible.
     - **Azzanadra:** ¿Podrían ya estar despertando por sus acciones? Entonces el tiempo ya no es un aliado. Debemos redoblar nuestros esfuerzos.
     - **Azzanadra:** ¿Aprendiste algo más?
-    - (Condition: Si el player todavía tiene otras opciones de diálogo para elegir:)
+    - (Condition: If the player still has other dialogue options to pick:)
       - {{Tmissing}}
-    - (Condition: Si el player ha elegido las tres opciones de diálogo:)
+    - (Condition: If the player has picked all three dialogue options:)
       - (continue|reward)
   - [Choice]: Cuéntale a Azzanadra sobre Kipple.
     - **Player:** Me hice amigo de un golem inteligente que aprende con el tiempo. Pudo rastrear rastros de energía y llevarnos a los portavoces.
     - **Azzanadra:** Una herramienta extraordinaria, ¿tal vez podamos utilizarla para nuestra misión?
     - **Azzanadra:** ¿Aprendiste algo más?
-    - (Condition: Si el player todavía tiene otras opciones de diálogo para elegir:)
+    - (Condition: If the player still has other dialogue options to pick:)
       - {{Tmissing}}
-    - (Condition: Si el player ha elegido las tres opciones de diálogo:)
+    - (Condition: If the player has picked all three dialogue options:)
       - **Player:** No, eso es todo.
       - **Azzanadra:** Es más de lo que podría haber pedido, gracias Player.
       - Azzanadra te recompensa por la información que le has aportado.
@@ -568,20 +568,20 @@
     - **Azzanadra:** Una tarea muy importante. Pero no es fácil, necesitaré tu ayuda Player para encontrarlo.
     - **Azzanadra:** Todo lo que sé hasta ahora es que los dioses mayores están aquí en Gielinor y que están vinculados a esos portavoces que descubriste mientras cazabas a Xenia.
     - **Azzanadra:** Quizás podamos usar esos portavoces para descubrir los pasillos de los ancianos, lo investigaré.
-    - (Condition: Si Azzanadra no ha visitado JasKra:)
+    - (Condition: If Azzanadra has not visited JasKra:)
       - **Azzanadra:** He enviado agentes a cada uno de los portavoces y visitaré JasKra en breve.
       - **Azzanadra:** Quizás allí aprenda algo de valor.
       - **Azzanadra:** Vuelve conmigo después de haberlo hecho, es posible que sepa más.
       - (previous|elder-gods-options)
-    - (Condition: Si Azzanadra ha visitado JasKra:)
+    - (Condition: If Azzanadra has visited JasKra:)
       - **Azzanadra:** Visité la cámara de la boquilla JasKra. Lamentablemente no me dijo nada directamente, pero todos esos cristales de observación fueron fascinantes.
       - **Azzanadra:** Oh, si mi compañero Mahjarrat supiera cuántos de sus secretos me fueron revelados allí.
       - **Azzanadra:** Pero estoy divagando. He comenzado a utilizar esas observaciones para ayudarme a identificar los Elder Halls.
       - **Azzanadra:** Es una tarea difícil, ya que, como era de esperar, están bien escondidos. Sin embargo, he obtenido un artículo que puede resultar útil en el futuro.
-      - (Condition: Si el player no tiene la observación en blanco:)
+      - (Condition: If the player does not have the blank observation:)
         - **Azzanadra:** Aquí. Obtuve un cristal de observación vacío de JasKra. Te confío este Player.
         - (previous|elder-gods-options)
-      - (Condition: Si el player tiene la observación en blanco:)
+      - (Condition: If the player has the blank observation:)
         - **Azzanadra:** Mantenlo seguro Player ya que puede ser de vital importancia en los próximos días.
         - (previous|elder-gods-options)
   - [Choice]: ¿Cuáles son los dioses mayores?
@@ -646,10 +646,10 @@
 
 - **Azzanadra:** Sí. Mi señor me ha informado de su regreso.
 - **Azzanadra:** Me decepciona que no la hayas restaurado por completo.
-- (Condition: Si el player sacrificó a Eluned:)
+- (Condition: If the player sacrificed Eluned:)
   - **Azzanadra:** Tú, más que nadie, deberías saber que no podemos simplemente dejar de lado nuestros errores y nuestros impulsos más oscuros.
   - (continue)
-- (Condition: Si el player tampoco sacrificó a Eluned:)
+- (Condition: If the player also did not sacrifice Eluned:)
   - **Azzanadra:** Puede que Eluned fuera tu amiga, pero también formaba parte de Seren. Debería haber regresado a Seren.
   - (continue)
 - **Azzanadra:** Ahora Seren está incompleto y quién sabe qué complicaciones podría tener.
@@ -707,14 +707,14 @@
 
 #### Habla con
 
-- ((La primera vez:))
+- ((On first time:))
   - **Azzanadra (modo difícil):** ¡Manténganse firmes, magos de Gielinor! Este enemigo no cederá: ¡vuestras mentes deben ser como el acero!
   - **Azzanadra (modo difícil):** Guardián mundial. Llegas tarde.
   - **Player:** Alguien se siente mejor.
   - **Azzanadra (modo difícil):** Sí. Me tomó algo de tiempo recuperarme de la teletransportación de los huevos de los Dioses Mayores, pero ahora estoy bastante revivido.
   - **Azzanadra (modo difícil):** Ahh. Este frío es bastante tonificante, una vez que te acostumbras. ¿Y qué mejor mañana constitucional que un combate con un Arch-Glacor?
   - (continue)
-- ((Después de la primera vez:))
+- ((After the first time:))
   - **Azzanadra (modo difícil):** Hola de nuevo, World Guardian.
   - (continue)
 - [Menu]: Elige una opción:
@@ -723,9 +723,9 @@
     - **Azzanadra (modo difícil):** Puedo oponerme directamente a su ataque, manteniéndolo firme con mi magia para que no llegue a la Catedral.
     - **Azzanadra (modo difícil):** También puedo suprimir sus capacidades regenerativas. Mientras lo hago, aún regresará si se destruye, pero solo en su nivel base de poder.
   - [Choice]: cond=With hardmode toggled off|Tómate un descanso. Puedo manejar esto.
-    - ((Sin modo difícil desbloqueado:))
+    - ((Without hardmode unlocked:))
       - **Azzanadra (modo difícil):** Me retiraré solo una vez que hayas demostrado que puedes manejar el Arch-Glacor sin la ayuda de los otros magos.
-    - ((Con el modo difícil desbloqueado:))
+    - ((With hardmode unlocked:))
       - **Azzanadra (modo difícil):** Sin mi magia que lo detenga, tendrías que luchar contra esa abominación tú mismo. ¿Y tú... permitirías voluntariamente que creciera en fuerza?
       - **Azzanadra (modo difícil):** Si fueras alguien que no fuera el Guardián Mundial, descartaría esto de plano. Pero podrías hacerlo... Y agradecería la oportunidad de reponer fuerzas.
       - Si Azzanadra deja de canalizar su hechizo, experimentarás la variante 'Modo difícil' de la pelea Arch-Glacor. Su poder aumentará con cada muerte de jefe. ¿Está seguro?
@@ -742,10 +742,10 @@
   - [Choice]: cond=With hardmode unlocked|(Discute el modo difícil y enfurece)
     - [Menu]: Selecciona una opción
       - [Choice]: (Restablece tu Enfurecer)
-        - ((Si el Arch-Glacor está al 0% de enojo:))
+        - ((If the Arch-Glacor is at 0% Enrage:))
           - **Azzanadra (modo difícil):** El Arch-Glacor aún no se ha enfurecido.
           - (previous|azzanadra-enrage)
-        - ((Si el Arch-Glacor tiene más del 0% de enojo:))
+        - ((If the Arch-Glacor is at over 0% Enrage:))
           - **Azzanadra (modo difícil):** ¿Quieres sofocar el Arch-Glacor?
           - [Menu]: Tu racha y el botín no reclamado se perderán si reinicias.
             - [Choice]: Sí, reinicie mi Enrage.
@@ -800,7 +800,7 @@
 
 #### Después de morir a Arch-Glacor en modo normal
 
-- ((Al azar se ve uno de los siguientes:))
+- ((Random one of the following is seen:))
   - **Azzanadra:** ¿No eres normalmente mejor en esto?
   - **Azzanadra:** Ten cuidado, Guardián Mundial, todavía te necesitan.
   - **Azzanadra:** ¿Te gusta estar al borde de la muerte?

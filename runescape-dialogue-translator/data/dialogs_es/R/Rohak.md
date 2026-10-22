@@ -31,11 +31,11 @@
     - **Rohak:** Sí, todavía tengo suficientes ingredientes de antes, pero quiero 100 coins.
     - [Menu]: ¿Qué te gustaría decir?
       - [Choice]: Bien, 100 coins estarán bien.
-        - (Condition: Sin suficiente dinero:)
+        - (Condition: Without enough money:)
           - No puedes permitirte eso.
-          - (ventana emergente)
-            - (Ventana emergente: No puedes permitirte eso.|advertencia=yes)
-        - (Condition: Con suficiente dinero:)
+          - (pop-up)
+            - (Pop-up: You can not afford that.|warning=yes)
+        - (Condition: With enough money:)
           - (removes=100 coins)
           - [Entregas 100 de oro y Rohak te hornea un pastel de piedra.]
           - (Action: Un pastel de roca enano aparece en la mesa cercana.)

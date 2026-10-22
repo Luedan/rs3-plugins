@@ -26,10 +26,10 @@
   - [Choice]: Quiero un kebab, por favor.
     - **Player:** Quiero un kebab, por favor.
     - **Isma'il the Kebab seller:** Serán tres gold coins, por favor.
-    - (Condition: Si el player no tiene 3 coins:)
+    - (Condition: If the player does not have 3 coins:)
       - **Player:** Parece que no he traído suficiente dinero. Lo siento.
       - No puedes permitirte eso.
-    - (Condition: Si el player tiene 3 coins:)
+    - (Condition: If the player has 3 coins:)
       - (removes=3 coins) (receives=kebab)
       - **Isma'il the Kebab seller:** Aquí tienes.
       - **Player:** Gracias.
@@ -44,10 +44,10 @@
     - **Player:** ¿Podría darme uno de esos locos kebabs calientes tuyos?
     - **Isma'il the Kebab seller:** Un súper kebab, así es. Tenga cuidado, realmente son tan calientes como parecen.
     - **Player:** Claro, claro.
-    - (Condition: Si el player no tiene 5 coins:)
+    - (Condition: If the player does not have 5 coins:)
       - **Player:** Parece que no he traído suficiente dinero. Lo siento.
       - No puedes permitirte eso.
-    - (Condition: Si el player tiene 5 coins:)
+    - (Condition: If the player has 5 coins:)
       - (removes=5 coins) (receives=super kebab)
       - **Isma'il the Kebab seller:** Aquí tienes.
       - **Player:** Gracias.
@@ -61,17 +61,17 @@
     - **Player:** No lo sé, pero creo que podría divertirme un poco con ello.
     - **Isma'il the Kebab seller:** No lo vas a poner en la bebida de Jalal the Drunk, ¿verdad? Eso es lo que pasó la última vez que le di la salsa a alguien.
     - **Player:** No, eso sería un poco cliché. Creo que se me ocurrirá algo más original.
-    - (Condition: Si el player aún no tiene la salsa picante en backpack o en el banco:)
+    - (Condition: If the player does not already have the red hot sauce in backpack or in bank:)
       - (receives=Red hot sauce)
       - **Isma'il the Kebab seller:** Solo ten cuidado con él, es lo suficientemente potente como para hacer correr a un camello.
       - **Player:** Muchas gracias.
       - **Isma'il the Kebab seller:** ¿Hay algo más que pueda hacer por ti?
       - (continuea|else)
-    - (Condition: Si el player ya tiene la salsa picante en backpack:)
+    - (Condition: If the player already has the red hot sauce in backpack:)
       - **Isma'il the Kebab seller:** No creo que te lo regale, por el simple hecho de que ya tienes uno sobresaliendo de tu bolso. Tengo que administrar un negocio aquí.
       - **Isma'il the Kebab seller:** ¿Hay algo más que pueda hacer por ti?
       - (continuea|else)
-    - (Condition: Si el player ya tiene la salsa picante en el banco:)
+    - (Condition: If the player already has the red hot sauce in bank:)
       - **Isma'il the Kebab seller:** ¿No te acabo de dar ya una botella de esto?
       - **Player:** Es posible que sí. ¿Alguna posibilidad de otro?
       - **Isma'il the Kebab seller:** Estoy tratando de administrar un negocio aquí, no una organización benéfica.

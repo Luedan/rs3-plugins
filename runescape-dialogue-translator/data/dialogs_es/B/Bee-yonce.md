@@ -37,8 +37,8 @@
 - **{{#vardefineecho:leslie|Leslie {{Colour|#cccf3a|th}}{{Colour|#777856|e B}}{{Colour|#cccf3a|ee}}{{Colour|#777856|-ri}}{{Colour|#cccf3a|ll}}{{Colour|#777856|ia}}{{Colour|#cccf3a|nt}}}}:** ¡El negro y el amarillo no te quedan bien!
 - (receives=100 nectar)
 - (ver|néctar)
-- ((Se muestra en una ventana emergente:))
-  - (Ventana emergente: cuando la abeja comienza a llorar, deja caer 100 x néctar.|color=#00FF00)
+- ((Shown in a pop-up:))
+  - (Pop-up: As the bee starts crying, it drops 100 x Nectar.|colour=#00FF00)
   - (continue)
 - **Bee-yonce:** Bz...
 - **Player:** ¡Creo que ya es suficiente!

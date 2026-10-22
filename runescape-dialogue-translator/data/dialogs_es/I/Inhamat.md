@@ -19,27 +19,27 @@
 - [Menu]: ¿Quieres ayudar?
   - [Choice]: Sí.
     - **Inhamat:** Ah... gracias.
-    - (Condition: Si el tipo de misión de la ciudad es "Atacada por vida silvestre":)
+    - (Condition: If the city quest type is "Attacked by wildlife":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "En espera de entrega":)
+    - (Condition: If the city quest type is "Awaiting delivery":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Los niños no pueden dormir":)
+    - (Condition: If the city quest type is "Children can't sleep":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Coleccionista de curiosidades":)
+    - (Condition: If the city quest type is "Collector of curiosities":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Crondis está enojado":)
+    - (Condition: If the city quest type is "Crondis is angry":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Plagas de cultivos":)
+    - (Condition: If the city quest type is "Crop pests":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Ayuda de entrega":)
+    - (Condition: If the city quest type is "Delivery help":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "El hijo de un amigo muere lentamente":)
+    - (Condition: If the city quest type is "Friend's son slowly dying":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Nuevo producto":)
+    - (Condition: If the city quest type is "New product":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "Slayer master":)
+    - (Condition: If the city quest type is "Slayer master":)
       - (continue)
-    - (Condition: Si el tipo de misión de la ciudad es "esfuerzo War":)
+    - (Condition: If the city quest type is "War effort":)
       - (continue)
   - [Choice]: No ahora mismo.
     - **Inhamat:** No importa.
@@ -54,17 +54,17 @@
 ##### Tarea #1
 
 - **Inhamat:** He estado esperando una entrega que contenga algo de [item 1] y algo de [item 2]. Necesito urgentemente el [item 1], pero la gente en el muelle dice que no hay señales del barco en millas.
-- (Condition: Si el artículo deseado son semillas de agracejo:)
+- (Condition: If the item desired is barberry seeds:)
   - **Inhamat:** ¿Crees que podrías conseguirme semillas de agracejo [número]? Estoy desesperado por semillas que se conviertan en agracejos.
   - **Player:** ¿Dónde puedo encontrar una semilla de agracejo?
   - **Inhamat:** Las semillas de agracejo a menudo las dejan los monstruos, o se pueden conseguir de los maestros agricultores alrededor de Gielinor. ¿Está bien?
   - (continue)
-- (Condition: Si el artículo deseado son semillas de romero:)
+- (Condition: If the item desired is rosemary seeds:)
   - **Inhamat:** ¿Crees que podrías conseguirme semillas de romero [número]? Estoy desesperado por semillas que se conviertan en plantas de romero.
   - **Player:** ¿Dónde puedo encontrar una semilla de romero?
   - **Inhamat:** Las semillas de romero a menudo las dejan los monstruos, o se pueden conseguir de los maestros agricultores alrededor de Gielinor. ¿Está bien?
   - (continue)
-- (Condition: Si el artículo deseado son huesos:)
+- (Condition: If the item desired is bones:)
   - **Inhamat:** ¿Crees que podrías conseguirme semillas de romero [número]? Estoy desesperado por algunos huesos viejos y normales, caídos de criaturas.
   - **Player:** ¿Dónde podría encontrar un montón de huesos?
   - **Inhamat:** Casi todos los seres vivos tienen huesos, ¿verdad? No debería ser demasiado difícil encontrar algunos. ¿Está bien?
@@ -101,10 +101,10 @@
     - **Inhamat:** ¿Tienes [número] [item]? Es bastante urgente. ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Inhamat ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Inhamat:** Genial. Gracias.
@@ -134,13 +134,13 @@
 
 - **Inhamat:** Los siguientes suministros que me faltan son un montón de [item].
 - **Player:** ...¿y todavía no han llegado?
-- (Condition: Si el objeto deseado son bastones de batalla de fuego:)
+- (Condition: If the item desired is fire battlestaves:)
   - **Inhamat:** ¡No! Todo lo que necesito es un staff con magia de fuego y los trabajadores del puerto me dicen que pasarán días antes de que los vea.
   - (continue)
-- (Condition: Si el artículo deseado son patatas:)
+- (Condition: If the item desired is potatoes:)
   - **Inhamat:** ¡No! Todo lo que necesito es una cosecha de tubérculos y almidón y los trabajadores del puerto me dicen que pasarán días antes de que los vea.
   - (continue)
-- (Condition: Si el artículo deseado es vidrio fundido:)
+- (Condition: If the item desired is molten glass:)
   - **Inhamat:** ¡No! Lo único que necesito es un vaso caliente y los trabajadores del puerto me dicen que pasarán días antes de que los vea.
   - (continue)
 - **Inhamat:** ¿Podrías conseguirme algo para ayudarme por ahora? Acerca de [número] [item] debería funcionar.
@@ -176,10 +176,10 @@
     - **Inhamat:** ¿Tienes [número] [item]? ([número] restantes)
     - (removes=the requested items)
     - Número de [item] dado a Inhamat ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Inhamat:** Genial. Gracias.
@@ -203,13 +203,13 @@
 
 - **Inhamat:** Dado que eres tan ingenioso, me pregunto si podrías ahorrarme un viaje por la ciudad...
 - **Player:** Continúa...
-- (Condition: Si el artículo deseado son semillas de malezas enanas:)
+- (Condition: If the item desired is dwarf weed seeds:)
   - **Inhamat:** Necesito una forma de cultivar arbustos de malezas enanas para pasar el mes. Aproximadamente las semillas de malezas enanas [número] me ahorrarán muchos problemas.
   - (continue)
-- (Condition: Si el artículo deseado son cuernos de cabra:)
+- (Condition: If the item desired is goat horns:)
   - **Inhamat:** Necesito suministros de pociones para terminar el mes. Aproximadamente [número] los cuernos de cabra me ahorrarán muchos problemas.
   - (continue)
-- (Condition: Si el artículo deseado es cuerda:)
+- (Condition: If the item desired is rope:)
   - **Inhamat:** Necesito equipo de escalada para pasar el mes. Aproximadamente [número] longitudes de cuerda me ahorrarán muchas molestias.
   - (continue)
 - **Inhamat:** ¿[número] [item] es mucho pedir? ¿Me encontrarás algunos?
@@ -233,11 +233,11 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: Hable sobre su tarea actual.
-    - (Condition: Si el artículo deseado son semillas de malezas enanas:)
+    - (Condition: If the item desired is dwarf weed seeds:)
       - **Inhamat:** ¿Tienes semillas de hierba enana [número]? Las semillas de malezas enanas a menudo las dejan caer los monstruos, o se pueden obtener de los maestros agricultores alrededor de Gielinor. ([número] restante)
-    - (Condition: Si el artículo deseado son cuernos de cabra:)
+    - (Condition: If the item desired is goat horns:)
       - **Inhamat:** ¿Tienes cuernos de cabra [número]? Se pueden encontrar cabras alrededor de Nardah o al oeste de Kalphite Hive. ([número] restante)
-    - (Condition: Si el artículo deseado es cuerda:)
+    - (Condition: If the item desired is rope:)
       - **Inhamat:** ¿Tienes [número] trozos de cuerda? Deberían estar en cualquier general store. ([número] restante)
   - [Choice]: Abandona esta búsqueda de la ciudad.
     - (Action: La misión está completa.)
@@ -247,21 +247,21 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: Hable sobre su tarea actual.
-    - (Condition: Si el artículo deseado son semillas de malezas enanas:)
+    - (Condition: If the item desired is dwarf weed seeds:)
       - **Inhamat:** ¿Tienes semillas de hierba enana [número]? Las semillas de malezas enanas a menudo las dejan caer los monstruos, o se pueden obtener de los maestros agricultores alrededor de Gielinor. ([número] restante)
       - (continue)
-    - (Condition: Si el artículo deseado son cuernos de cabra:)
+    - (Condition: If the item desired is goat horns:)
       - **Inhamat:** ¿Tienes cuernos de cabra [número]? Se pueden encontrar cabras alrededor de Nardah o al oeste de Kalphite Hive. ([número] restante)
       - (continue)
-    - (Condition: Si el artículo deseado es cuerda:)
+    - (Condition: If the item desired is rope:)
       - **Inhamat:** ¿Tienes [número] trozos de cuerda? Deberían estar en cualquier general store. ([número] restante)
       - (continue)
     - (removes=the requested items)
     - Número de [item] dado a Inhamat ([número]/[número])
-    - (Condition: Si el player dio solo uno de los elementos:)
+    - (Condition: If the player gave only one of the item:)
       - **Player:** Sólo uno por ahora. Tómalo. Vuelvo enseguida.
       - (continue)
-    - (Condition: Si el player tenía varios del artículo:)
+    - (Condition: If the player had multiple of the item:)
       - **Player:** Tengo algunos. Tómelos. Vuelvo enseguida.
       - (continue)
     - **Inhamat:** Genial. Gracias.
@@ -272,10 +272,10 @@
 
 - [Menu]: Selecciona una opción
   - [Choice]: Hable sobre su tarea actual.
-    - (Condition: Si el artículo deseado son semillas de malezas enanas:)
+    - (Condition: If the item desired is dwarf weed seeds:)
       - **Inhamat:** ¿Tienes semillas de hierba enana [número]? Las semillas de malezas enanas a menudo las dejan caer los monstruos, o se pueden obtener de los maestros agricultores alrededor de Gielinor. ([número] restante)
       - (continue)
-    - (Condition: Si el artículo deseado son cuernos de cabra:)
+    - (Condition: If the item desired is goat horns:)
       - **Inhamat:** ¿Tienes cuernos de cabra [número]? Se pueden encontrar cabras alrededor de Nardah o al oeste de Kalphite Hive. ([número] restante)
       - (continue)
     - **Player:** Sí, tengo el [item].

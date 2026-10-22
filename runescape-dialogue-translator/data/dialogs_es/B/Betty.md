@@ -21,12 +21,12 @@
         - **Betty:** Gracias, Player. Nos vemos pronto.
       - [Choice]: ¡Sí, por favor!
         - **Player:** ¡Sí, por favor!
-        - (Condition: Si el player no tiene espacio en backpack para dye:)
+        - (Condition: If the player has no space in backpack for the dye:)
           - **Betty:** Me temo que no tienes espacio en tu mochila para nada más, vuelve cuando lo tengas.
-        - (Condition: Si el player no tiene 20 coins:)
+        - (Condition: If the player does not have 20 coins:)
           - No puedes permitirte eso.
           - No tienes suficiente dinero en este momento, vuelve más tarde.
-        - (Condition: De lo contrario:)
+        - (Condition: Otherwise:)
           - Entregas 20 piezas de oro a cambio del dye.
           - (removes=20 coins) (receives=pink dye)
   - [Choice]: ¿Puedo ver tus productos?
@@ -53,16 +53,16 @@
     - **Betty:** Si completas esto, te daré: Runa de fuego x 250. ¡Estoy seguro de que también ganarás reputación en el gremio de agricultores!
     - **Betty:** ¡Tendrás que ser rápido!, solo estoy aquí por [número] días, [número] horas y [número] minutos. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - (Condition: Sin los artículos solicitados:)
+    - (Condition: Without the requested items:)
       - **Betty:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Betty:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **Betty:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal], o [Animal].
       - **Betty:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
-    - (Condition: Con los artículos solicitados:)
+    - (Condition: With the requested items:)
       - (removes=the requested items) (receives=250 fire runes and Brassica primer)
       - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-      - ((Repetido en una ventana emergente:))
-        - (Ventana emergente: por completar esta solicitud, recibió 1 imprimación para Brassica.|color=#EBE0BC|shadow=no)
+      - ((Repeated in a pop-up:))
+        - (Pop-up: For completing this request you've received Brassica primer x 1.|colour=#EBE0BC|shadow=no)
         - (continue)
       - [Has recibido: Runa de fuego x 250<br>Y 5500 de reputación agrícola.]
 
@@ -88,8 +88,8 @@
 
 - (removes=the requested items) (receives=250 fire runes and Brassica primer)
 - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-- ((Repetido en una ventana emergente:))
-  - (Ventana emergente: por completar esta solicitud, recibió 1 imprimación para Brassica.|color=#EBE0BC|shadow=no)
+- ((Repeated in a pop-up:))
+  - (Pop-up: For completing this request you've received Brassica primer x 1.|colour=#EBE0BC|shadow=no)
   - (continue)
 - [Has recibido: Runa de fuego x 250<br>Y 5500 de reputación agrícola.]
 

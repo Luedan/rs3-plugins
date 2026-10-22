@@ -81,9 +81,9 @@
 - [Menu]: Selecciona una opción
   - [Choice]: si
     - {{anchor|ended}} (Acción: el player finaliza su actuación).
-    - (Condition: Si el player anotó puntos en su actuación:)
+    - (Condition: If the player scored points in their performance:)
       - ¡Felicitaciones! Obtuviste una puntuación de [amount] en tu actuación de Firemaking (poi de fuego). Recibiste puntos de experiencia [amount].
-    - (Condition: Si el player no obtuvo puntos en su actuación:)
+    - (Condition: If the player scored no points in their performance:)
       - **Ringmaster:** Lo siento, pero esa actuación no fue lo suficientemente buena para recibir una recompensa. Vuelve a intentarlo la semana que viene.
       - ¡Ay no! No obtuviste nada en tu actuación de Firemaking (fire poi). Recibiste 0 puntos de experiencia.
   - [Choice]: No
@@ -113,11 +113,11 @@
 - **Emmet Logowski:** ¡Bailar con fuego es genial cuando eres parte de un equipo de exhibición!
 - **Player:** ...
 - **Emmet Logowski:** Podría bailar con fuego todo el día...
-- (Condition: Si el poi de fuego no ha sido reclamado:)
+- (Condition: If the fire poi hasn't been claimed:)
   - (receives=fire poi)
   - **Emmet Logowski:** Toma, ten este Poi. Quizás puedas aprender y algún día te convertirás en alguien especial como yo.
   - **Player:** ¡Gracias, lo intentaré!
-- (Condition: Si se ha reclamado el poi de fuego:)
+- (Condition: If the fire poi has been claimed:)
   - **Player:** ¿Tienes más Pois?
   - **Emmet Logowski:** Lo siento, no tengo nada conmigo, pero le di algunos suministros a Alice.
   - **Player:** Vale, gracias.

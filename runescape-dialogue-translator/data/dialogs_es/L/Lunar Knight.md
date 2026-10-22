@@ -18,9 +18,9 @@
 - **Player:** Bonita nube, ¿dónde puedo conseguir una?
 - **Lunar Knight:** ¡Está disponible en Solstice Showdown!
 - **Lunar Knight:** Ahora, si me disculpan, tengo un duelo al que volver.
-- ((Si no eres un jugador del Modo Ironman y solo la primera vez:))
+- ((If not an Ironman Mode player and only on the first time:))
   - Se le ha otorgado 1 clave Treasure Hunter.
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - Se le ha otorgado 1 clave Treasure Hunter.
 
 #### Enfrentamiento definitivo

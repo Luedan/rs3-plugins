@@ -12,7 +12,7 @@
 ### Standard dialogue
 
 - **Jade:** Saludos guerrero, ¿en qué puedo ayudarte?
-- (Condition: Si el player tiene elementos esperándolos en Grand Exchange:)
+- (Condition: If the player has items waiting for them in the Grand Exchange:)
   - **Jade:** Antes de continuar, debo informarte que tienes artículos listos para ser recogidos en Grand Exchange.
   - (continue)
 - [Menu]: ¿Qué te gustaría decir?

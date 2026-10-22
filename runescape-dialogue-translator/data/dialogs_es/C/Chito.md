@@ -18,13 +18,13 @@
 
 ##### Con crocspeak
 
-- ((Sólo la primera vez:))
+- ((Only on first time:))
   - **Chito:** Saludos, soy Chito.
   - **Player:** ¡Encantado de conocerte! Soy Player.
   - (continue)
-- ((Sólo después de la primera vez:))
+- ((Only after the first time:))
   - **Chito:** Hola, Player. Es bueno verte en este hermoso y relajante día.
-  - ((Si los jugadores tienen activa la anulación cosmética de Gators:))
+  - ((If the players has the Gators cosmetic override active:))
     - **Chito:** Espera un minuto.
     - **Chito:** ¿CUÁLES SON ESAS COSAS HORRIBLES QUE LLEVAS?
     - **Player:** Oh, ¿estas cosas en mis pies? ¡Son mis cro- quiero decir, Gators!
@@ -95,9 +95,9 @@
 #### Activo
 
 - **Player:** ¡Hola!
-- ((Con amuleto crocspeak:))
+- ((With crocspeak amulet:))
   - **Chito:** Me encantaría parar y charlar, Player, pero estoy bastante ocupado preparando mi próxima comida.
-- ((Sin amuleto crocspeak:))
+- ((Without crocspeak amulet:))
   - **Chito:** ARRRRGGGGG
 
 ### Using cooked meat on him without crocspeak during "feed the crocodile" task in Oasis Restoration
@@ -124,21 +124,21 @@
 - **Chito:** Eso fue... ¡impresionante! Casi te haces sangre.
 - **Bebé troll:** ...
 - **Chito:** Mantente atento a ese, Player.
-- ((Si no se ha completado la cima de la cadena alimentaria:))
+- ((If Top of the Food Chain hasn't been completed:))
   - ¡Felicitaciones! Has completado: 'Cima de la cadena alimentaria': alimenta a un troll bebé a Chito.
 
 #### Carne cocida
 
-- ((Si la tarea Alimentar al cocodrilo aún no se ha completado:))
+- ((If the Feed the crocodile task has not been completed yet:))
   - **Chito:** Es mejor que crudo, pero estoy acostumbrado a las comidas más finas.
   - **Player:** Oh, por favor, continúa. Lo necesito para esta tarea.
   - **Chito:** Bueno, está bien, aunque sólo sea para ayudarte. No. Definitivamente no es la buena comida a la que estoy acostumbrado. Disculpe ahora mientras busco un lugar discreto para vomitar.
   - Has completado: "Alimenta al cocodrilo" y has progresado hacia el evento Restauración del Oasis.
-- ((De lo contrario:))
+- ((Otherwise:))
   - **Chito:** Esto es mejor que crudo, pero no tiene la misma calidad a la que estoy acostumbrado.
   - **Chito:** Dundee me cocina un bistec recién pescado, untado con especias de Menaphos y chisporroteando a la perfección en su fogata de caoba. Es todo un manjar.
   - **Player:** ¡Ahora tengo hambre!
-  - ((Si se completó el logro Vegano antipático:))
+  - ((If the Vegan Unfriendly achievement was completed:))
     - ¡Felicitaciones! Has completado: 'Vegan Unfriendly': alimenta a todos los cocodrilos con un poco de filete.
     - Has desbloqueado el título: {{Colour ZZCMD0ZZPlayer}}|color=#00FF00}}
     - Puede activar esto a través de la pestaña 'Títulos' en la interfaz 'Personalizaciones'.

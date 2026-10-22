@@ -26,9 +26,9 @@
 - **Aminishi gem trader:** Quiero 1 y tienes [número]. ¿Qué tal?
 - [Menu]: Selecciona una opción
   - [Choice]: si
-    - (Condition: Sin ningún espacio en backpack:)
+    - (Condition: Without any space in backpack:)
       - **Aminishi gem trader:** Lo sentimos, ¡no tienes suficiente espacio!
-    - (Condition: Con espacio en backpack:)
+    - (Condition: With space in backpack:)
       - **Aminishi gem trader:** Genial, toma esta piedra de niebla de Aminishi.
       - (receives=Aminishi miststone)
       - **Aminishi gem trader:** ¡Gracias amigo!

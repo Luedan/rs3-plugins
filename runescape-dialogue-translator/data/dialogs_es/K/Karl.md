@@ -45,15 +45,15 @@
     - **Karl:** Si completas esto, te daré: Barra de runas x 20. ¡Estoy seguro de que también ganarás reputación en el gremio de agricultores!
     - **Karl:** ¡Tendrás que ser rápido!, solo estoy aquí por [número] días, [número] horas y [número] minutos. Para ser exactos.
   - [Choice]: Dales los artículos y animales que soliciten.
-    - (Condition: Sin los artículos solicitados:)
+    - (Condition: Without the requested items:)
       - **Karl:** No tienes suficientes artículos para cumplir con mi solicitud. No aceptaré animales favoritos.
       - **Karl:** Estoy intentando conseguir algunos cultivos adicionales, así que necesitaré: [Seed] x [número]
       - **Karl:** También estoy buscando un nuevo animal. Actualmente busco uno de los siguientes: [Animal], o [Animal], o [Animal].
       - **Karl:** También estoy buscando algunos productos, así que necesitaré: [Produce] x [número]
-    - (Condition: Con los artículos solicitados:)
+    - (Condition: With the requested items:)
       - (removes=the requested items) (receives=20 noted rune bars and a Brassica primer)
       - Por completar esta solicitud, recibió 1 imprimación para Brassica.
-      - ((Repetido en una ventana emergente:))
+      - ((Repeated in a pop-up:))
         - Por completar esta solicitud, recibió 1 imprimación para Brassica.
         - (continue)
       - Has recibido: Barra de runas x 20<br>Y 5500 de reputación agrícola.
@@ -80,7 +80,7 @@
 
 - (removes=the requested items) (receives=20 noted rune bars and a Brassica primer)
 - Por completar esta solicitud, recibió 1 imprimación Brassica.
-- ((Repetido en una ventana emergente:))
+- ((Repeated in a pop-up:))
   - Por completar esta solicitud, recibió 1 imprimación Brassica.
   - (continue)
 - [Has recibido: Barra de runas x 20<br>Y 5500 de reputación agrícola.]

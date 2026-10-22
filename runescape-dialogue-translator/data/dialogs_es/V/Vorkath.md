@@ -14,28 +14,28 @@
 
 #### Enfoque
 
-- (Condition: Si el player no tiene el anillo de Zorgoth o el anillo del alma de Zorgoth y tiene espacio libre en backpack:)
-  - (Condition: Sin haber mejorado el anillo:)
+- (Condition: If the player does not have Zorgoth's ring or Zorgoth's soul ring and has free backpack space:)
+  - (Condition: Without having upgraded the ring:)
     - (receives=Zorgoth's ring)
     - [Vorkath te devuelve el anillo y vuelve a dormir.]
     - (continue)
-  - (Condition: Habiendo mejorado el anillo:)
+  - (Condition: Having upgraded the ring:)
     - (receives=Zorgoth's soul ring)
     - [Vorkath le devuelve su anillo actualizado y vuelve a dormir.]
     - (continue)
-- (Condition: Si el player no tiene The Shadow Realm y Zorgoth's Journal en su backpack:)
-  - (Condition: Sin Tiny Zemouregal ni Vorki convocados:)
+- (Condition: If the player does not have The Shadow Realm and Zorgoth's Journal in their backpack:)
+  - (Condition: Without Tiny Zemouregal or Vorki summoned:)
     - Vorkath está ocupado teniendo un largo y agradable descanso.
-    - ((Repetido en una ventana emergente:))
+    - ((Repeated in a pop-up:))
       - Vorkath está ocupado teniendo un largo y agradable descanso.
-  - (Condition: Con Tiny Zemouregal convocado:)
+  - (Condition: With Tiny Zemouregal summoned:)
     - **Tiny Zemouregal:** ¡GRAN DRAGÓN!
     - **Vorkath:** ...
     - **Tiny Zemouregal:** ¡GRAN DRAGÓN ARRIBA! ¡ VOLAMOS!
     - **Player:** No creo que Vorkath quiera hacer eso nunca más.
     - **Tiny Zemouregal:** ¡QUÉMALO TODO, DRAGÓN!
     - **Vorkath:** (Vorkath lo ignora y vuelve a dormir.)
-  - (Condition: Con Vorki convocado:)
+  - (Condition: With Vorki summoned:)
     - **Vorki:** ¡Mira, Player! ¡Soy yo!
     - **Vorkath:** ...
     - **Vorki:** ¡Soy GRANDE para mí!
@@ -43,7 +43,7 @@
     - **Vorki:** ¡Y TE COMERÉ, Player!
     - **Vorkath:** ...
     - **Player:** Si tú lo dices, pequeño.
-- (Condition: Si el player tiene The Shadow Realm y Zorgoth's Journal en su backpack:)
+- (Condition: If the player has The Shadow Realm and Zorgoth's Journal in their backpack:)
   - **Player:** ¿Qué te pasa, Vorkath?<br/>¿No puedes dormir?
   - **Vorkath:** *ruidos tristes de dragón*
   - (Action: el player abre El Reino de las Sombras.)
@@ -63,15 +63,15 @@
   - (Action: La pantalla se vuelve negra y luego se desvanece.)
   - **Player:** '...¡y todos vivieron felices para siempre!'
   - [Cierras el libro y observas con una sonrisa que Vorkath ahora ronca pacíficamente.]
-  - (Condition: Si es la primera vez que lees las dos historias de Vorkath:)
+  - (Condition: If first time reading the two stories to Vorkath:)
     - {{RSFontAchievement|Soft Dragon, Warm Dragon|Read two bedtime stories to Vorkath.}}
 
 #### mascota
 
 - (Action: el player mascotas Vorkath.)
-- ((Al azar se puede mostrar lo siguiente:))
+- ((The following may randomly be shown:))
   - ¡Mira, perro!
-  - ((Repetido en una ventana emergente:))
+  - ((Repeated in a pop-up:))
     - ¡Mira, perro!
 
 #### Usando un corazón de piedra negra en Vorkath

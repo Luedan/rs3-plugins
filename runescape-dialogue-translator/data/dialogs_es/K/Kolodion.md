@@ -33,26 +33,26 @@
           - [Choice]: Lo siento, me estaba yendo.
             - (end)
       - [Choice]: ¿Puedo reclamar alguna recompensa de usted?
-        - (Condition: Si el player no tiene ninguna recompensa para reclamar:)
+        - (Condition: If the player doesn't have any rewards to claim:)
           - **Kolodion:** ¡Ya no tienes más recompensas para reclamar!
-        - (Condition: Si el player no ha reclamado las recompensas del conjunto de tareas de élite Wilderness:)
-          - (Condition: Sin tres espacios backpack libres:)
+        - (Condition: If the player has not claimed the rewards from the elite Wilderness task set:)
+          - (Condition: Without three free backpack spaces:)
             - **Kolodion:** Me temo que no tienes suficiente espacio en el inventario para reclamar todas tus recompensas. Hablame de nuevo cuando tengas 3 espacios.
-          - (Condition: Sin tres espacios backpack libres:)
+          - (Condition: Without three free backpack spaces:)
             - **Player:** He completado todas las tareas del conjunto de tareas de élite Wilderness.
             - **Kolodion:** Bien hecho Player, he reservado algunas recompensas para ti.
             - Espada (receives=two Antique lamp (Elite Wilderness Tasks) y Wilderness 1)
             - [¡Recibirás algunas recompensas por completar el conjunto de tareas de élite Wilderness!]
             - **Kolodion:** Ahí lo tienes, parece que eso es todo.
-        - (Condition: Si el player ha perdido su espada Wilderness 4:)
+        - (Condition: If the player has lost their Wilderness sword 4:)
           - **Player:** Perdí la espada Wilderness 4 que me diste...
           - **Kolodion:** Por suerte para ti, tengo uno de repuesto... Aunque me temo que te va a costar 100.000 coins.
           - [Menu]: ¿Reclamar 100.000 coins?
             - [Choice]: Sí.
-              - (Condition: Si el player no tiene suficiente dinero:)
+              - (Condition: If the player does not have enough money:)
                 - No puedes permitirte eso.
                 - **Kolodion:** Pero no parece que tengas suficiente dinero para eso. Vuelve conmigo cuando lo hagas.
-              - (Condition: Si el player tiene suficiente dinero:)
+              - (Condition: If the player has enough money:)
                 - (removes=100,000 coins) (receives=Wilderness sword 4)
                 - [Te entregan otra espada Wilderness 4.]
             - [Choice]: No.
